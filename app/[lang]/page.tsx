@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { t } from "../../lib/i18n";
 import { getAllCharacters, getAllMaterials } from "../../lib/queries";
+import { WebSiteJsonLd } from "../../components/JsonLd";
 
 export async function generateMetadata({
   params,
@@ -15,6 +16,14 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。"
         : "YiHuan game database and tools - character leveling materials, farming calculator, and more.",
+    openGraph: {
+      title: `${t(locale, "home.heroTitle")} - ${t(locale, "home.heroSubtitle")}`,
+      description:
+        lang === "zh"
+          ? "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。"
+          : "YiHuan game database and tools",
+      type: "website",
+    },
   };
 }
 
@@ -37,7 +46,9 @@ export default async function HomePage({
   };
 
   return (
-    <div>
+    <>
+      <WebSiteJsonLd />
+      <div>
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
@@ -131,5 +142,6 @@ export default async function HomePage({
         </div>
       </section>
     </div>
+    </>
   );
 }
