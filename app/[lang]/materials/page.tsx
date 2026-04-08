@@ -32,13 +32,13 @@ export default async function MaterialsPage({
   const materials = getAllMaterials();
 
   const typeLabels: Record<string, string> = {
-    chip: lang === "zh" ? "芯片" : "Chip",
-    core: lang === "zh" ? "内核" : "Core",
-    cert: lang === "zh" ? "认证" : "Certificate",
+    resonance: lang === "zh" ? "共鸣材料" : "Resonance",
+    nucleus: lang === "zh" ? "核心材料" : "Nucleus",
+    permit: lang === "zh" ? "许可证明" : "Permit",
     drop: lang === "zh" ? "掉落物" : "Drop",
     currency: lang === "zh" ? "货币" : "Currency",
-    boss: lang === "zh" ? "Boss材料" : "Boss Material",
-    skill: lang === "zh" ? "教材" : "Manual",
+    domain: lang === "zh" ? "领域材料" : "Domain",
+    manual: lang === "zh" ? "教材" : "Manual",
   };
 
   return (
@@ -46,7 +46,7 @@ export default async function MaterialsPage({
       <ItemListJsonLd
         items={materials.map((m) => ({
           name: locale === "zh" ? m.name : m.nameEn,
-          url: `https://yh-wiki.pages.dev/${lang}/materials/${m.id}`,
+          url: `https://nteguide.com/${lang}/materials/${m.id}`,
         }))}
       />
       <Breadcrumb

@@ -21,13 +21,15 @@
   "characters": {
     "title": "角色列表",
     "description": "异环全部角色升级材料和养成攻略",
-    "rarity": "稀有度",
-    "element": "属性",
+    "rank": "等级",
+    "attribute": "属性",
     "levelingMaterials": "升级材料",
     "skillMaterials": "技能升级材料",
     "calculatorCta": "计算养成成本",
     "levelRange": "等级 {range}",
-    "star": "星"
+    "weapon": "武器",
+    "role": "定位",
+    "faction": "阵营"
   },
   "materials": {
     "title": "材料列表",
@@ -52,20 +54,21 @@
     "skillMaterialsNote": "技能升级材料（固定消耗）",
     "levelingNote": "等级提升材料"
   },
-  "elements": {
-    "electric": "电",
-    "fire": "火",
-    "ice": "冰",
-    "physical": "物理",
-    "ether": "以太"
+  "attributes": {
+    "cosmos": "宇宙",
+    "anima": "生命",
+    "incantation": "咒术",
+    "chaos": "混沌",
+    "psyche": "灵魂",
+    "lakshana": "相"
   },
   "types": {
-    "chip": "芯片",
-    "core": "内核",
-    "cert": "认证",
+    "resonance": "共鸣材料",
+    "nucleus": "核心材料",
+    "permit": "许可证明",
     "drop": "掉落物",
     "currency": "货币",
-    "boss": "Boss材料",
-    "skill": "教材"
+    "domain": "领域材料",
+    "manual": "教材"
   }
 }

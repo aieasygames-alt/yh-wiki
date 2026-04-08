@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t } from "../../../../lib/i18n";
 import { getMaterial, getCharactersUsingMaterial, getAllMaterials } from "../../../../lib/queries";
+import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 
 export function generateStaticParams() {
@@ -56,21 +57,13 @@ export default async function MaterialDetailPage({
   const usedByCharacters = getCharactersUsingMaterial(slug);
 
   const typeLabels: Record<string, string> = {
-    chip: lang === "zh" ? "芯片" : "Chip",
-    core: lang === "zh" ? "内核" : "Core",
-    cert: lang === "zh" ? "认证" : "Certificate",
+    resonance: lang === "zh" ? "共鸣材料" : "Resonance",
+    nucleus: lang === "zh" ? "核心材料" : "Nucleus",
+    permit: lang === "zh" ? "许可证明" : "Permit",
     drop: lang === "zh" ? "掉落物" : "Drop",
     currency: lang === "zh" ? "货币" : "Currency",
-    boss: lang === "zh" ? "Boss材料" : "Boss Material",
-    skill: lang === "zh" ? "教材" : "Manual",
-  };
-
-  const elementColors: Record<string, string> = {
-    electric: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
-    fire: "bg-orange-500/20 text-orange-400 border-orange-500/30",
-    ice: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    physical: "bg-purple-500/20 text-purple-400 border-purple-500/30",
-    ether: "bg-pink-500/20 text-pink-400 border-pink-500/30",
+    domain: lang === "zh" ? "领域材料" : "Domain",
+    manual: lang === "zh" ? "教材" : "Manual",
   };
 
   return (
@@ -132,11 +125,9 @@ export default async function MaterialDetailPage({
                     <p className="text-sm font-medium truncate">{c.name}</p>
                     <div className="flex items-center gap-1">
                       <span
-                        className={`text-xs px-1.5 py-0.5 rounded border ${
-                          elementColors[c.element] || ""
-                        }`}
+                        className={`text-xs px-1.5 py-0.5 rounded border ${getAttributeColor(c.attribute)}`}
                       >
-                        {c.element}
+                        {getAttributeLabel(c.attribute, locale)}
                       </span>
                     </div>
                   </div>

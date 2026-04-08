@@ -7,6 +7,7 @@ import {
   getMaterialById,
   getAllCharacters,
 } from "../../../../lib/queries";
+import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { CharacterJsonLd } from "../../../../components/JsonLd";
 
@@ -61,22 +62,6 @@ export default async function CharacterDetailPage({
 
   const cm = getCharacterMaterials(slug);
 
-  const elementColors: Record<string, string> = {
-    electric: "border-yellow-500 bg-yellow-500/10 text-yellow-400",
-    fire: "border-orange-500 bg-orange-500/10 text-orange-400",
-    ice: "border-blue-500 bg-blue-500/10 text-blue-400",
-    physical: "border-purple-500 bg-purple-500/10 text-purple-400",
-    ether: "border-pink-500 bg-pink-500/10 text-pink-400",
-  };
-
-  const elementLabels: Record<string, string> = {
-    electric: lang === "zh" ? "电" : "Electric",
-    fire: lang === "zh" ? "火" : "Fire",
-    ice: lang === "zh" ? "冰" : "Ice",
-    physical: lang === "zh" ? "物理" : "Physical",
-    ether: lang === "zh" ? "以太" : "Ether",
-  };
-
   return (
     <>
       <CharacterJsonLd character={character} />
@@ -99,15 +84,24 @@ export default async function CharacterDetailPage({
               <p className="text-gray-500">{character.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span
-                  className={`px-3 py-1 rounded-full text-xs border ${
-                    elementColors[character.element] || ""
-                  }`}
+                  className={`px-3 py-1 rounded-full text-xs border ${getAttributeColor(character.attribute)}`}
                 >
-                  {elementLabels[character.element] || character.element}
+                  {getAttributeLabel(character.attribute, locale)}
                 </span>
-                <span className="text-yellow-500 text-sm">
-                  {"★".repeat(character.rarity)}
+                <span className={`text-sm font-bold ${character.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
+                  {character.rank}-rank
                 </span>
+              </div>
+              <div className="flex items-center gap-3 mt-2 text-xs text-gray-400">
+                {character.weaponEn !== "TBD" && (
+                  <span>{locale === "zh" ? character.weapon : character.weaponEn}</span>
+                )}
+                {character.roleEn !== "TBD" && (
+                  <span>{locale === "zh" ? character.role : character.roleEn}</span>
+                )}
+                {character.faction && (
+                  <span>{character.faction}</span>
+                )}
               </div>
               {character.description && (
                 <p className="mt-3 text-sm text-gray-400">{character.description}</p>

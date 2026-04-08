@@ -4,11 +4,11 @@ export function WebSiteJsonLd() {
     "@type": "WebSite",
     name: "异环 Wiki",
     alternateName: "YiHuan Wiki",
-    url: "https://yh-wiki.pages.dev",
+    url: "https://nteguide.com",
     description: "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://yh-wiki.pages.dev/zh/characters?q={search_term_string}",
+      target: "https://nteguide.com/zh/characters?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -21,7 +21,7 @@ export function WebSiteJsonLd() {
   );
 }
 
-export function CharacterJsonLd({ character }: { character: { name: string; nameEn: string; element: string; rarity: number; description?: string } }) {
+export function CharacterJsonLd({ character }: { character: { name: string; nameEn: string; attribute: string; rank: string; description?: string } }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "VideoGameCharacter",

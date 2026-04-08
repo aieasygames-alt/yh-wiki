@@ -1,241 +1,233 @@
 [
   {
-    "id": "basic-ether-chip",
-    "name": "基础以太芯片",
-    "nameEn": "Basic Ether Chip",
-    "type": "chip",
+    "id": "basic-resonance-chip",
+    "name": "基础共鸣芯片",
+    "nameEn": "Basic Resonance Chip",
+    "type": "resonance",
     "rarity": 1,
     "source": "日常副本、主线任务奖励"
   },
   {
-    "id": "advanced-ether-chip",
-    "name": "进阶以太芯片",
-    "nameEn": "Advanced Ether Chip",
-    "type": "chip",
+    "id": "advanced-resonance-chip",
+    "name": "进阶共鸣芯片",
+    "nameEn": "Advanced Resonance Chip",
+    "type": "resonance",
     "rarity": 2,
     "source": "精英副本、活动奖励"
   },
   {
-    "id": "special-ether-chip",
-    "name": "特化以太芯片",
-    "nameEn": "Specialized Ether Chip",
-    "type": "chip",
+    "id": "special-resonance-chip",
+    "name": "特化共鸣芯片",
+    "nameEn": "Specialized Resonance Chip",
+    "type": "resonance",
     "rarity": 3,
     "source": "高难度副本、周常任务"
   },
   {
-    "id": "basic-core",
-    "name": "基础内核",
-    "nameEn": "Basic Core",
-    "type": "core",
+    "id": "basic-nucleus",
+    "name": "基础核心",
+    "nameEn": "Basic Nucleus",
+    "type": "nucleus",
     "rarity": 1,
     "source": "日常副本掉落"
   },
   {
-    "id": "advanced-core",
-    "name": "进阶内核",
-    "nameEn": "Advanced Core",
-    "type": "core",
+    "id": "advanced-nucleus",
+    "name": "进阶核心",
+    "nameEn": "Advanced Nucleus",
+    "type": "nucleus",
     "rarity": 2,
     "source": "精英副本掉落、合成"
   },
   {
-    "id": "special-core",
-    "name": "特化内核",
-    "nameEn": "Specialized Core",
-    "type": "core",
+    "id": "special-nucleus",
+    "name": "特化核心",
+    "nameEn": "Specialized Nucleus",
+    "type": "nucleus",
     "rarity": 3,
     "source": "高难度副本、合成"
   },
   {
-    "id": "pioneer-cert",
-    "name": "先锋认证",
-    "nameEn": "Pioneer Certification",
-    "type": "cert",
+    "id": "pioneer-permit",
+    "name": "先锋许可",
+    "nameEn": "Pioneer Permit",
+    "type": "permit",
     "rarity": 2,
     "source": "悬赏任务、活动兑换"
   },
   {
-    "id": "expert-cert",
-    "name": "专家认证",
-    "nameEn": "Expert Certification",
-    "type": "cert",
+    "id": "expert-permit",
+    "name": "专家许可",
+    "nameEn": "Expert Permit",
+    "type": "permit",
     "rarity": 3,
     "source": "高难度悬赏、活动兑换"
   },
   {
-    "id": "master-cert",
-    "name": "大师认证",
-    "nameEn": "Master Certification",
-    "type": "cert",
+    "id": "master-permit",
+    "name": "大师许可",
+    "nameEn": "Master Permit",
+    "type": "permit",
     "rarity": 4,
     "source": "极限挑战、限时活动"
   },
   {
-    "id": "hammerhead-fin",
-    "name": "锤头鲨鱼鳍",
-    "nameEn": "Hammerhead Fin",
+    "id": "anomaly-shard",
+    "name": "异常碎片",
+    "nameEn": "Anomaly Shard",
     "type": "drop",
     "rarity": 2,
-    "source": "水域副本怪物掉落"
+    "source": "异常区域怪物掉落"
   },
   {
-    "id": "frozen-crystal",
-    "name": "冰冻结晶",
-    "nameEn": "Frozen Crystal",
+    "id": "chaos-essence",
+    "name": "混沌精华",
+    "nameEn": "Chaos Essence",
     "type": "drop",
     "rarity": 3,
-    "source": "冰属性副本掉落"
+    "source": "混沌属性副本掉落"
   },
   {
-    "id": "electric-spark",
-    "name": "雷电火花",
-    "nameEn": "Electric Spark",
+    "id": "cosmos-spark",
+    "name": "宇宙火花",
+    "nameEn": "Cosmos Spark",
     "type": "drop",
     "rarity": 2,
-    "source": "电属性副本掉落"
+    "source": "宇宙属性副本掉落"
   },
   {
-    "id": "electric-storm",
-    "name": "雷暴核心",
-    "nameEn": "Electric Storm Core",
+    "id": "cosmos-storm",
+    "name": "宇宙风暴核心",
+    "nameEn": "Cosmos Storm Core",
     "type": "drop",
     "rarity": 3,
-    "source": "电属性精英副本掉落"
+    "source": "宇宙属性精英副本掉落"
   },
   {
-    "id": "fire-essence",
-    "name": "火焰精华",
-    "nameEn": "Fire Essence",
+    "id": "psyche-essence",
+    "name": "灵魂精华",
+    "nameEn": "Psyche Essence",
     "type": "drop",
     "rarity": 2,
-    "source": "火属性副本掉落"
+    "source": "灵魂属性副本掉落"
   },
   {
-    "id": "inferno-fragment",
-    "name": "炼狱碎片",
-    "nameEn": "Inferno Fragment",
+    "id": "psyche-fragment",
+    "name": "灵魂碎片",
+    "nameEn": "Psyche Fragment",
     "type": "drop",
     "rarity": 3,
-    "source": "火属性精英副本掉落"
+    "source": "灵魂属性精英副本掉落"
   },
   {
-    "id": "ice-shard",
-    "name": "冰晶碎片",
-    "nameEn": "Ice Shard",
+    "id": "incantation-shard",
+    "name": "咒术碎片",
+    "nameEn": "Incantation Shard",
     "type": "drop",
     "rarity": 2,
-    "source": "冰属性副本掉落"
+    "source": "咒术属性副本掉落"
   },
   {
-    "id": "glacial-heart",
-    "name": "冰川之心",
-    "nameEn": "Glacial Heart",
+    "id": "incantation-crystal",
+    "name": "咒术结晶",
+    "nameEn": "Incantation Crystal",
     "type": "drop",
     "rarity": 3,
-    "source": "冰属性精英副本掉落"
+    "source": "咒术属性精英副本掉落"
   },
   {
-    "id": "physical-fragment",
-    "name": "物理碎片",
-    "nameEn": "Physical Fragment",
+    "id": "anima-fragment",
+    "name": "生命碎片",
+    "nameEn": "Anima Fragment",
     "type": "drop",
     "rarity": 2,
-    "source": "物理属性副本掉落"
+    "source": "生命属性副本掉落"
   },
   {
-    "id": "ether-dust",
-    "name": "以太尘埃",
-    "nameEn": "Ether Dust",
+    "id": "anima-dust",
+    "name": "生命尘埃",
+    "nameEn": "Anima Dust",
     "type": "drop",
     "rarity": 2,
-    "source": "以太属性副本掉落"
+    "source": "生命属性副本掉落"
   },
   {
-    "id": "ether-crystal",
-    "name": "以太结晶",
-    "nameEn": "Ether Crystal",
+    "id": "anima-crystal",
+    "name": "生命结晶",
+    "nameEn": "Anima Crystal",
     "type": "drop",
     "rarity": 3,
-    "source": "以太属性精英副本掉落"
+    "source": "生命属性精英副本掉落"
   },
   {
-    "id": "denny",
-    "name": "丁尼",
-    "nameEn": "Denny",
+    "id": "credits",
+    "name": "信用点",
+    "nameEn": "Credits",
     "type": "currency",
     "rarity": 1,
     "source": "日常任务、副本掉落、活动奖励"
   },
   {
-    "id": "boss-electric",
-    "name": "电能之主掉落物",
-    "nameEn": "Electric Lord Drop",
-    "type": "boss",
+    "id": "boss-cosmos",
+    "name": "宇宙之主掉落物",
+    "nameEn": "Cosmos Lord Drop",
+    "type": "domain",
     "rarity": 4,
-    "source": "周常Boss「电能之主」掉落"
+    "source": "周常Boss「宇宙之主」掉落"
   },
   {
-    "id": "boss-ice",
-    "name": "冰霜巨人掉落物",
-    "nameEn": "Frost Giant Drop",
-    "type": "boss",
+    "id": "boss-psyche",
+    "name": "灵魂巨人掉落物",
+    "nameEn": "Psyche Giant Drop",
+    "type": "domain",
     "rarity": 4,
-    "source": "周常Boss「冰霜巨人」掉落"
+    "source": "周常Boss「灵魂巨人」掉落"
   },
   {
-    "id": "boss-fire",
-    "name": "炎魔核心",
-    "nameEn": "Flame Demon Core",
-    "type": "boss",
+    "id": "boss-chaos",
+    "name": "混沌核心",
+    "nameEn": "Chaos Core",
+    "type": "domain",
     "rarity": 4,
-    "source": "周常Boss「炎魔」掉落"
+    "source": "周常Boss「混沌魔」掉落"
   },
   {
-    "id": "boss-ether",
-    "name": "虚空之心",
-    "nameEn": "Void Heart",
-    "type": "boss",
+    "id": "boss-incantation",
+    "name": "咒典之心",
+    "nameEn": "Incantation Heart",
+    "type": "domain",
     "rarity": 4,
-    "source": "周常Boss「虚空行者」掉落"
+    "source": "周常Boss「咒术师」掉落"
   },
   {
-    "id": "boss-physical",
-    "name": "泰坦之骨",
-    "nameEn": "Titan Bone",
-    "type": "boss",
+    "id": "boss-anima",
+    "name": "生命之骨",
+    "nameEn": "Anima Bone",
+    "type": "domain",
     "rarity": 4,
-    "source": "周常Boss「泰坦」掉落"
+    "source": "周常Boss「生命守护者」掉落"
   },
   {
-    "id": "skill-book-attack",
+    "id": "manual-attack",
     "name": "攻击教材",
     "nameEn": "Attack Manual",
-    "type": "skill",
+    "type": "manual",
     "rarity": 2,
     "source": "悬赏委托、商店兑换"
   },
   {
-    "id": "skill-book-defense",
+    "id": "manual-defense",
     "name": "防御教材",
     "nameEn": "Defense Manual",
-    "type": "skill",
+    "type": "manual",
     "rarity": 2,
     "source": "悬赏委托、商店兑换"
   },
   {
-    "id": "skill-book-support",
+    "id": "manual-support",
     "name": "辅助教材",
     "nameEn": "Support Manual",
-    "type": "skill",
-    "rarity": 2,
-    "source": "悬赏委托、商店兑换"
-  },
-  {
-    "id": "skill-book-anomaly",
-    "name": "异常教材",
-    "nameEn": "Anomaly Manual",
-    "type": "skill",
+    "type": "manual",
     "rarity": 2,
     "source": "悬赏委托、商店兑换"
   }

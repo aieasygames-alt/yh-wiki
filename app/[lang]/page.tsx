@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { t } from "../../lib/i18n";
 import { getAllCharacters, getAllMaterials } from "../../lib/queries";
+import { getAttributeColor, getAttributeLabel } from "../../lib/attributes";
 import { WebSiteJsonLd } from "../../components/JsonLd";
 
 export async function generateMetadata({
@@ -36,14 +37,6 @@ export default async function HomePage({
   const locale = lang as "zh" | "en";
   const characters = getAllCharacters();
   const materials = getAllMaterials();
-
-  const elementColors: Record<string, string> = {
-    electric: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
-    fire: "bg-orange-500/20 text-orange-400 border-orange-500/30",
-    ice: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    physical: "bg-purple-500/20 text-purple-400 border-purple-500/30",
-    ether: "bg-pink-500/20 text-pink-400 border-pink-500/30",
-  };
 
   return (
     <>
@@ -94,14 +87,12 @@ export default async function HomePage({
               <p className="text-xs text-gray-500 truncate">{c.nameEn}</p>
               <div className="flex items-center gap-2 mt-2">
                 <span
-                  className={`text-xs px-2 py-0.5 rounded border ${
-                    elementColors[c.element] || ""
-                  }`}
+                  className={`text-xs px-2 py-0.5 rounded border ${getAttributeColor(c.attribute)}`}
                 >
-                  {c.element}
+                  {getAttributeLabel(c.attribute, locale)}
                 </span>
-                <span className="text-xs text-yellow-500">
-                  {"★".repeat(c.rarity)}
+                <span className={`text-xs font-bold ${c.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
+                  {c.rank}
                 </span>
               </div>
             </Link>

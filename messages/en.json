@@ -21,13 +21,15 @@
   "characters": {
     "title": "Character List",
     "description": "All YiHuan character leveling materials and build guides",
-    "rarity": "Rarity",
-    "element": "Element",
+    "rank": "Rank",
+    "attribute": "Attribute",
     "levelingMaterials": "Leveling Materials",
     "skillMaterials": "Skill Upgrade Materials",
     "calculatorCta": "Calculate Farming Cost",
     "levelRange": "Level {range}",
-    "star": "Star"
+    "weapon": "Weapon",
+    "role": "Role",
+    "faction": "Faction"
   },
   "materials": {
     "title": "Material List",
@@ -52,20 +54,21 @@
     "skillMaterialsNote": "Skill Upgrade Materials (Fixed Cost)",
     "levelingNote": "Leveling Materials"
   },
-  "elements": {
-    "electric": "Electric",
-    "fire": "Fire",
-    "ice": "Ice",
-    "physical": "Physical",
-    "ether": "Ether"
+  "attributes": {
+    "cosmos": "Cosmos",
+    "anima": "Anima",
+    "incantation": "Incantation",
+    "chaos": "Chaos",
+    "psyche": "Psyche",
+    "lakshana": "Lakshana"
   },
   "types": {
-    "chip": "Chip",
-    "core": "Core",
-    "cert": "Certificate",
+    "resonance": "Resonance",
+    "nucleus": "Nucleus",
+    "permit": "Permit",
     "drop": "Drop",
     "currency": "Currency",
-    "boss": "Boss Material",
-    "skill": "Manual"
+    "domain": "Domain",
+    "manual": "Manual"
   }
 }

@@ -10,6 +10,7 @@ import {
   getMaterialById,
   calculateMaterials,
 } from "../../../../lib/queries";
+import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 
 export default function CalculatorPage() {
   const { lang: langParam } = useParams();
@@ -30,13 +31,10 @@ export default function CalculatorPage() {
     return getCharacterMaterials(selectedCharacter)?.skillMaterials || null;
   }, [selectedCharacter]);
 
-  const elementColors: Record<string, string> = {
-    electric: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
-    fire: "bg-orange-500/20 text-orange-400 border-orange-500/30",
-    ice: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    physical: "bg-purple-500/20 text-purple-400 border-purple-500/30",
-    ether: "bg-pink-500/20 text-pink-400 border-pink-500/30",
-  };
+  const selectedChar = useMemo(() => {
+    if (!selectedCharacter) return null;
+    return getAllCharacters().find((c) => c.id === selectedCharacter) || null;
+  }, [selectedCharacter]);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
@@ -98,6 +96,25 @@ export default function CalculatorPage() {
             />
           </div>
         </div>
+
+        {/* Selected character info */}
+        {selectedChar && (
+          <div className="flex items-center gap-3 pt-4 border-t border-gray-800">
+            <span
+              className={`text-xs px-2 py-0.5 rounded border ${getAttributeColor(selectedChar.attribute)}`}
+            >
+              {getAttributeLabel(selectedChar.attribute, lang)}
+            </span>
+            <span className={`text-xs font-bold ${selectedChar.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
+              {selectedChar.rank}-rank
+            </span>
+            {selectedChar.weaponEn !== "TBD" && (
+              <span className="text-xs text-gray-500">
+                {lang === "zh" ? selectedChar.weapon : selectedChar.weaponEn}
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Results */}

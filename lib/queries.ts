@@ -6,9 +6,14 @@ export interface Character {
   id: string;
   name: string;
   nameEn: string;
-  element: string;
-  rarity: number;
-  description: string;
+  attribute: string;
+  rank: string;
+  weapon: string;
+  weaponEn: string;
+  role: string;
+  roleEn: string;
+  faction?: string;
+  description?: string;
 }
 
 export interface Material {
