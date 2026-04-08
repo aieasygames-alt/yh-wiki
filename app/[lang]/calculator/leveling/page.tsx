@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { useSearchParams, usePathname } from "next/navigation";
+import { useParams } from "next/navigation";
 import { t, type Locale } from "../../../../lib/i18n";
 import {
   getAllCharacters,
@@ -12,13 +12,11 @@ import {
 } from "../../../../lib/queries";
 
 export default function CalculatorPage() {
-  const pathname = usePathname();
-  const lang = (pathname.split("/")[1] || "zh") as Locale;
-  const searchParams = useSearchParams();
-  const preselectedCharacter = searchParams.get("character") || "";
+  const { lang: langParam } = useParams();
+  const lang = (langParam || "zh") as Locale;
 
   const characters = getAllCharacters();
-  const [selectedCharacter, setSelectedCharacter] = useState(preselectedCharacter);
+  const [selectedCharacter, setSelectedCharacter] = useState("");
   const [currentLevel, setCurrentLevel] = useState(1);
   const [targetLevel, setTargetLevel] = useState(60);
 
