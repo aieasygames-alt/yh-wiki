@@ -24,4 +24,10 @@ sed -i '' 's/const ignoreESLint = Boolean(config.eslint.ignoreDuringBuilds);/con
 sed -i '' 's/if (Object.keys(publicRuntimeConfig).length > 0) {/if (publicRuntimeConfig \&\& Object.keys(publicRuntimeConfig).length > 0) {/' \
   node_modules/next/dist/export/index.js
 
+# 6. Fix build tracing: handle missing .nft.json files gracefully
+sed -i '' 's|await handleTraceFiles(_path.default.join(distDir, "next-server.js.nft.json"));|await handleTraceFiles(_path.default.join(distDir, "next-server.js.nft.json")).catch((err) => { console.warn("Skipping next-server.js trace:", err.message); });|' \
+  node_modules/next/dist/build/utils.js
+sed -i '' 's|await handleTraceFiles(_path.default.join(distDir, "server", "instrumentation.js.nft.json"));|await handleTraceFiles(_path.default.join(distDir, "server", "instrumentation.js.nft.json")).catch((err) => { console.warn("Skipping instrumentation trace:", err.message); });|' \
+  node_modules/next/dist/build/utils.js
+
 echo "Next.js patches applied!"
