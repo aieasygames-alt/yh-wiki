@@ -1,0 +1,322 @@
+[
+  {
+    "characterId": "anby",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "nicole",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "ether-dust", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "ether-dust", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "ether-crystal", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "ether-crystal", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-ether", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-support", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "lycaon",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "ice-shard", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "ice-shard", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "glacial-heart", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "glacial-heart", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-ice", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "ellen",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "ice-shard", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "ice-shard", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "glacial-heart", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "glacial-heart", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-ice", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "zure",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "nekomata",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "physical-fragment", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "physical-fragment", "quantity": 8 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 12 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-physical", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "grace",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-anomaly", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "koleda",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "fire-essence", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "fire-essence", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "inferno-fragment", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "inferno-fragment", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-fire", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "rina",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-support", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "soldier11",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "fire-essence", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "fire-essence", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "inferno-fragment", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "inferno-fragment", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-fire", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "hoshimi",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "ice-shard", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "ice-shard", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "glacial-heart", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "glacial-heart", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-ice", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "yanagi",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-anomaly", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "lighter",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "fire-essence", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "fire-essence", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "inferno-fragment", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "inferno-fragment", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-fire", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "caesar",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "physical-fragment", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "physical-fragment", "quantity": 8 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 12 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-physical", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-defense", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "burnice",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "fire-essence", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "fire-essence", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "inferno-fragment", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "inferno-fragment", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-fire", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-anomaly", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "jane",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "physical-fragment", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "physical-fragment", "quantity": 8 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 12 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-physical", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-anomaly", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "seth",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-defense", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "qinyi",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "electric-spark", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "electric-spark", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "electric-storm", "quantity": 3 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "electric-storm", "quantity": 5 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-electric", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "billy",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "physical-fragment", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "physical-fragment", "quantity": 8 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 12 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-physical", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  },
+  {
+    "characterId": "corin",
+    "levelingMaterials": [
+      { "levelRange": "1-10", "materials": [{ "id": "basic-ether-chip", "quantity": 3 }, { "id": "denny", "quantity": 2000 }] },
+      { "levelRange": "11-20", "materials": [{ "id": "basic-ether-chip", "quantity": 5 }, { "id": "physical-fragment", "quantity": 3 }, { "id": "denny", "quantity": 4000 }] },
+      { "levelRange": "21-30", "materials": [{ "id": "advanced-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 5 }, { "id": "denny", "quantity": 8000 }] },
+      { "levelRange": "31-40", "materials": [{ "id": "advanced-ether-chip", "quantity": 6 }, { "id": "physical-fragment", "quantity": 8 }, { "id": "pioneer-cert", "quantity": 2 }, { "id": "denny", "quantity": 16000 }] },
+      { "levelRange": "41-50", "materials": [{ "id": "special-ether-chip", "quantity": 4 }, { "id": "physical-fragment", "quantity": 12 }, { "id": "expert-cert", "quantity": 3 }, { "id": "denny", "quantity": 32000 }] },
+      { "levelRange": "51-60", "materials": [{ "id": "special-ether-chip", "quantity": 8 }, { "id": "boss-physical", "quantity": 3 }, { "id": "master-cert", "quantity": 4 }, { "id": "denny", "quantity": 64000 }] }
+    ],
+    "skillMaterials": [
+      { "id": "skill-book-attack", "quantity": 12 },
+      { "id": "basic-ether-chip", "quantity": 15 },
+      { "id": "denny", "quantity": 200000 }
+    ]
+  }
+]

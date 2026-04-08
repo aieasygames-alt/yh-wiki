@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "YiHuan Wiki",
+    "description": "YiHuan game database and tools - character leveling materials, farming calculator, and more.",
+    "nav": {
+      "home": "Home",
+      "characters": "Characters",
+      "materials": "Materials",
+      "calculator": "Calculator"
+    }
+  },
+  "home": {
+    "heroTitle": "YiHuan Wiki",
+    "heroSubtitle": "Character Database · Material Lookup · Farming Calculator",
+    "heroDescription": "Quickly find character leveling materials, calculate farming costs, and enhance your YiHuan experience.",
+    "ctaCalculator": "Use Calculator",
+    "charactersSection": "All Characters",
+    "materialsSection": "All Materials",
+    "viewAll": "View All"
+  },
+  "characters": {
+    "title": "Character List",
+    "description": "All YiHuan character leveling materials and build guides",
+    "rarity": "Rarity",
+    "element": "Element",
+    "levelingMaterials": "Leveling Materials",
+    "skillMaterials": "Skill Upgrade Materials",
+    "calculatorCta": "Calculate Farming Cost",
+    "levelRange": "Level {range}",
+    "star": "Star"
+  },
+  "materials": {
+    "title": "Material List",
+    "description": "All YiHuan material sources and usage",
+    "source": "Source",
+    "usedBy": "Used By",
+    "rarity": "Rarity",
+    "type": "Type"
+  },
+  "calculator": {
+    "title": "Leveling Calculator",
+    "description": "Quickly calculate YiHuan character leveling material requirements",
+    "selectCharacter": "Select Character",
+    "currentLevel": "Current Level",
+    "targetLevel": "Target Level",
+    "calculate": "Calculate",
+    "result": "Result",
+    "material": "Material",
+    "quantity": "Quantity",
+    "total": "Total",
+    "noResult": "Please select a character and enter levels",
+    "skillMaterialsNote": "Skill Upgrade Materials (Fixed Cost)",
+    "levelingNote": "Leveling Materials"
+  },
+  "elements": {
+    "electric": "Electric",
+    "fire": "Fire",
+    "ice": "Ice",
+    "physical": "Physical",
+    "ether": "Ether"
+  },
+  "types": {
+    "chip": "Chip",
+    "core": "Core",
+    "cert": "Certificate",
+    "drop": "Drop",
+    "currency": "Currency",
+    "boss": "Boss Material",
+    "skill": "Manual"
+  }
+}

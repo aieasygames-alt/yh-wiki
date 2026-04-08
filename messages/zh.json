@@ -1,0 +1,71 @@
+{
+  "site": {
+    "title": "异环 Wiki",
+    "description": "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。",
+    "nav": {
+      "home": "首页",
+      "characters": "角色",
+      "materials": "材料",
+      "calculator": "计算器"
+    }
+  },
+  "home": {
+    "heroTitle": "异环 Wiki",
+    "heroSubtitle": "角色数据库 · 材料查询 · 养成计算器",
+    "heroDescription": "快速查询角色升级材料，计算养成成本，助力你的异环之旅。",
+    "ctaCalculator": "使用计算器",
+    "charactersSection": "全部角色",
+    "materialsSection": "全部材料",
+    "viewAll": "查看全部"
+  },
+  "characters": {
+    "title": "角色列表",
+    "description": "异环全部角色升级材料和养成攻略",
+    "rarity": "稀有度",
+    "element": "属性",
+    "levelingMaterials": "升级材料",
+    "skillMaterials": "技能升级材料",
+    "calculatorCta": "计算养成成本",
+    "levelRange": "等级 {range}",
+    "star": "星"
+  },
+  "materials": {
+    "title": "材料列表",
+    "description": "异环全部材料获取方式和用途",
+    "source": "获取方式",
+    "usedBy": "使用角色",
+    "rarity": "稀有度",
+    "type": "类型"
+  },
+  "calculator": {
+    "title": "升级材料计算器",
+    "description": "快速计算异环角色升级所需材料数量",
+    "selectCharacter": "选择角色",
+    "currentLevel": "当前等级",
+    "targetLevel": "目标等级",
+    "calculate": "计算",
+    "result": "计算结果",
+    "material": "材料",
+    "quantity": "数量",
+    "total": "总计",
+    "noResult": "请选择角色并输入等级",
+    "skillMaterialsNote": "技能升级材料（固定消耗）",
+    "levelingNote": "等级提升材料"
+  },
+  "elements": {
+    "electric": "电",
+    "fire": "火",
+    "ice": "冰",
+    "physical": "物理",
+    "ether": "以太"
+  },
+  "types": {
+    "chip": "芯片",
+    "core": "内核",
+    "cert": "认证",
+    "drop": "掉落物",
+    "currency": "货币",
+    "boss": "Boss材料",
+    "skill": "教材"
+  }
+}

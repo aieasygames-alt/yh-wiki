@@ -1,0 +1,242 @@
+[
+  {
+    "id": "basic-ether-chip",
+    "name": "基础以太芯片",
+    "nameEn": "Basic Ether Chip",
+    "type": "chip",
+    "rarity": 1,
+    "source": "日常副本、主线任务奖励"
+  },
+  {
+    "id": "advanced-ether-chip",
+    "name": "进阶以太芯片",
+    "nameEn": "Advanced Ether Chip",
+    "type": "chip",
+    "rarity": 2,
+    "source": "精英副本、活动奖励"
+  },
+  {
+    "id": "special-ether-chip",
+    "name": "特化以太芯片",
+    "nameEn": "Specialized Ether Chip",
+    "type": "chip",
+    "rarity": 3,
+    "source": "高难度副本、周常任务"
+  },
+  {
+    "id": "basic-core",
+    "name": "基础内核",
+    "nameEn": "Basic Core",
+    "type": "core",
+    "rarity": 1,
+    "source": "日常副本掉落"
+  },
+  {
+    "id": "advanced-core",
+    "name": "进阶内核",
+    "nameEn": "Advanced Core",
+    "type": "core",
+    "rarity": 2,
+    "source": "精英副本掉落、合成"
+  },
+  {
+    "id": "special-core",
+    "name": "特化内核",
+    "nameEn": "Specialized Core",
+    "type": "core",
+    "rarity": 3,
+    "source": "高难度副本、合成"
+  },
+  {
+    "id": "pioneer-cert",
+    "name": "先锋认证",
+    "nameEn": "Pioneer Certification",
+    "type": "cert",
+    "rarity": 2,
+    "source": "悬赏任务、活动兑换"
+  },
+  {
+    "id": "expert-cert",
+    "name": "专家认证",
+    "nameEn": "Expert Certification",
+    "type": "cert",
+    "rarity": 3,
+    "source": "高难度悬赏、活动兑换"
+  },
+  {
+    "id": "master-cert",
+    "name": "大师认证",
+    "nameEn": "Master Certification",
+    "type": "cert",
+    "rarity": 4,
+    "source": "极限挑战、限时活动"
+  },
+  {
+    "id": "hammerhead-fin",
+    "name": "锤头鲨鱼鳍",
+    "nameEn": "Hammerhead Fin",
+    "type": "drop",
+    "rarity": 2,
+    "source": "水域副本怪物掉落"
+  },
+  {
+    "id": "frozen-crystal",
+    "name": "冰冻结晶",
+    "nameEn": "Frozen Crystal",
+    "type": "drop",
+    "rarity": 3,
+    "source": "冰属性副本掉落"
+  },
+  {
+    "id": "electric-spark",
+    "name": "雷电火花",
+    "nameEn": "Electric Spark",
+    "type": "drop",
+    "rarity": 2,
+    "source": "电属性副本掉落"
+  },
+  {
+    "id": "electric-storm",
+    "name": "雷暴核心",
+    "nameEn": "Electric Storm Core",
+    "type": "drop",
+    "rarity": 3,
+    "source": "电属性精英副本掉落"
+  },
+  {
+    "id": "fire-essence",
+    "name": "火焰精华",
+    "nameEn": "Fire Essence",
+    "type": "drop",
+    "rarity": 2,
+    "source": "火属性副本掉落"
+  },
+  {
+    "id": "inferno-fragment",
+    "name": "炼狱碎片",
+    "nameEn": "Inferno Fragment",
+    "type": "drop",
+    "rarity": 3,
+    "source": "火属性精英副本掉落"
+  },
+  {
+    "id": "ice-shard",
+    "name": "冰晶碎片",
+    "nameEn": "Ice Shard",
+    "type": "drop",
+    "rarity": 2,
+    "source": "冰属性副本掉落"
+  },
+  {
+    "id": "glacial-heart",
+    "name": "冰川之心",
+    "nameEn": "Glacial Heart",
+    "type": "drop",
+    "rarity": 3,
+    "source": "冰属性精英副本掉落"
+  },
+  {
+    "id": "physical-fragment",
+    "name": "物理碎片",
+    "nameEn": "Physical Fragment",
+    "type": "drop",
+    "rarity": 2,
+    "source": "物理属性副本掉落"
+  },
+  {
+    "id": "ether-dust",
+    "name": "以太尘埃",
+    "nameEn": "Ether Dust",
+    "type": "drop",
+    "rarity": 2,
+    "source": "以太属性副本掉落"
+  },
+  {
+    "id": "ether-crystal",
+    "name": "以太结晶",
+    "nameEn": "Ether Crystal",
+    "type": "drop",
+    "rarity": 3,
+    "source": "以太属性精英副本掉落"
+  },
+  {
+    "id": "denny",
+    "name": "丁尼",
+    "nameEn": "Denny",
+    "type": "currency",
+    "rarity": 1,
+    "source": "日常任务、副本掉落、活动奖励"
+  },
+  {
+    "id": "boss-electric",
+    "name": "电能之主掉落物",
+    "nameEn": "Electric Lord Drop",
+    "type": "boss",
+    "rarity": 4,
+    "source": "周常Boss「电能之主」掉落"
+  },
+  {
+    "id": "boss-ice",
+    "name": "冰霜巨人掉落物",
+    "nameEn": "Frost Giant Drop",
+    "type": "boss",
+    "rarity": 4,
+    "source": "周常Boss「冰霜巨人」掉落"
+  },
+  {
+    "id": "boss-fire",
+    "name": "炎魔核心",
+    "nameEn": "Flame Demon Core",
+    "type": "boss",
+    "rarity": 4,
+    "source": "周常Boss「炎魔」掉落"
+  },
+  {
+    "id": "boss-ether",
+    "name": "虚空之心",
+    "nameEn": "Void Heart",
+    "type": "boss",
+    "rarity": 4,
+    "source": "周常Boss「虚空行者」掉落"
+  },
+  {
+    "id": "boss-physical",
+    "name": "泰坦之骨",
+    "nameEn": "Titan Bone",
+    "type": "boss",
+    "rarity": 4,
+    "source": "周常Boss「泰坦」掉落"
+  },
+  {
+    "id": "skill-book-attack",
+    "name": "攻击教材",
+    "nameEn": "Attack Manual",
+    "type": "skill",
+    "rarity": 2,
+    "source": "悬赏委托、商店兑换"
+  },
+  {
+    "id": "skill-book-defense",
+    "name": "防御教材",
+    "nameEn": "Defense Manual",
+    "type": "skill",
+    "rarity": 2,
+    "source": "悬赏委托、商店兑换"
+  },
+  {
+    "id": "skill-book-support",
+    "name": "辅助教材",
+    "nameEn": "Support Manual",
+    "type": "skill",
+    "rarity": 2,
+    "source": "悬赏委托、商店兑换"
+  },
+  {
+    "id": "skill-book-anomaly",
+    "name": "异常教材",
+    "nameEn": "Anomaly Manual",
+    "type": "skill",
+    "rarity": 2,
+    "source": "悬赏委托、商店兑换"
+  }
+]

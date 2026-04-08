@@ -1,0 +1,162 @@
+[
+  {
+    "id": "anby",
+    "name": "安比",
+    "nameEn": "Anby",
+    "element": "electric",
+    "rarity": 4,
+    "description": "新艾利都治安局特别行动组成员，擅长使用电属性攻击。"
+  },
+  {
+    "id": "nicole",
+    "name": "妮可",
+    "nameEn": "Nicole",
+    "element": "ether",
+    "rarity": 4,
+    "description": "狡兔屋的老板，精明能干的代理人。"
+  },
+  {
+    "id": "lycaon",
+    "name": "莱卡恩",
+    "nameEn": "Lycaon",
+    "element": "ice",
+    "rarity": 5,
+    "description": "维多利亚家政的狼人管家，优雅而强大。"
+  },
+  {
+    "id": "ellen",
+    "name": "艾莲",
+    "nameEn": "Ellen",
+    "element": "ice",
+    "rarity": 5,
+    "description": "维多利亚家政的鲨鱼少女，性格活泼。"
+  },
+  {
+    "id": "zure",
+    "name": "朱鸢",
+    "nameEn": "Zhu Yuan",
+    "element": "electric",
+    "rarity": 5,
+    "description": "新艾利都治安局刑侦特巡组的精英探员。"
+  },
+  {
+    "id": "nekomata",
+    "name": "猫又",
+    "nameEn": "Nekomata",
+    "element": "physical",
+    "rarity": 5,
+    "description": "狡兔屋的猫耳少女，身手敏捷的近战角色。"
+  },
+  {
+    "id": "grace",
+    "name": "格莉丝",
+    "nameEn": "Grace",
+    "element": "electric",
+    "rarity": 4,
+    "description": "白蚁重工的技术天才，擅长电属性支援。"
+  },
+  {
+    "id": "koleda",
+    "name": "珂蕾妲",
+    "nameEn": "Koleda",
+    "element": "fire",
+    "rarity": 5,
+    "description": "白蚁重工的少年社长，火属性近战输出。"
+  },
+  {
+    "id": "rina",
+    "name": "丽娜",
+    "nameEn": "Rina",
+    "element": "electric",
+    "rarity": 5,
+    "description": "维多利亚家政的双子女仆之一，电属性支援。"
+  },
+  {
+    "id": "soldier11",
+    "name": "安比·11号",
+    "nameEn": "Soldier 11",
+    "element": "fire",
+    "rarity": 4,
+    "description": "隶属军队的精英士兵，擅长火属性战斗。"
+  },
+  {
+    "id": "hoshimi",
+    "name": "星见雅",
+    "nameEn": "Hoshimi Miyabi",
+    "element": "ice",
+    "rarity": 5,
+    "description": "对空六课的课长，实力强大的冰属性剑士。"
+  },
+  {
+    "id": "yanagi",
+    "name": "柳",
+    "nameEn": "Yanagi",
+    "element": "electric",
+    "rarity": 5,
+    "description": "对空六课的副课长，电属性异常输出。"
+  },
+  {
+    "id": "lighter",
+    "name": "莱特",
+    "nameEn": "Lighter",
+    "element": "fire",
+    "rarity": 5,
+    "description": "凯撒的盟友，火属性击破角色。"
+  },
+  {
+    "id": "caesar",
+    "name": "凯撒",
+    "nameEn": "Caesar",
+    "element": "physical",
+    "rarity": 5,
+    "description": "外环的领袖，物理属性防护角色。"
+  },
+  {
+    "id": "burnice",
+    "name": "柏妮思",
+    "nameEn": "Burnice",
+    "element": "fire",
+    "rarity": 5,
+    "description": "外环的赛车手，火属性异常角色。"
+  },
+  {
+    "id": "jane",
+    "name": "简",
+    "nameEn": "Jane Doe",
+    "element": "physical",
+    "rarity": 5,
+    "description": "刑侦特巡组的卧底探员，物理属性异常角色。"
+  },
+  {
+    "id": "seth",
+    "name": "赛斯",
+    "nameEn": "Seth",
+    "element": "electric",
+    "rarity": 4,
+    "description": "刑侦特巡组的新人探员，电属性防护角色。"
+  },
+  {
+    "id": "qinyi",
+    "name": "青衣",
+    "nameEn": "Qingyi",
+    "element": "electric",
+    "rarity": 5,
+    "description": "治安局的古风机器人探员，电属性击破角色。"
+  },
+  {
+    "id": "billy",
+    "name": "比利",
+    "nameEn": "Billy",
+    "element": "physical",
+    "rarity": 4,
+    "description": "狡兔屋的机械少年，物理属性远程输出。"
+  },
+  {
+    "id": "corin",
+    "name": "可琳",
+    "nameEn": "Corin",
+    "element": "physical",
+    "rarity": 4,
+    "description": "维多利亚家政的胆小女仆，物理属性近战角色。"
+  }
+]
