@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons } from "../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons, getAllGuides, getAllLore, getAllLocations } from "../lib/queries";
 
 const BASE_URL = "https://nteguide.com";
 
@@ -8,6 +8,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const materials = getAllMaterials();
   const weapons = getAllWeapons();
   const faqs = getAllFaqs();
+  const guides = getAllGuides();
+  const loreItems = getAllLore();
+  const locationItems = getAllLocations();
   const langs = ["zh", "en"];
 
   const routes: MetadataRoute.Sitemap = [];
@@ -140,6 +143,66 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.6,
+      });
+    });
+  });
+
+  // Guides
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/guides`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    });
+  });
+  guides.forEach((g) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/guides/${g.id}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.8,
+      });
+    });
+  });
+
+  // Lore
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/lore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
+  });
+  loreItems.forEach((l) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/lore/${l.id}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+      });
+    });
+  });
+
+  // Locations
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/locations`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
+  });
+  locationItems.forEach((l) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/locations/${l.id}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
       });
     });
   });

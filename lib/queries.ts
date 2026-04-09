@@ -3,6 +3,9 @@ import materialsData from "../data/materials.json";
 import characterMaterialsData from "../data/character-materials.json";
 import faqsData from "../data/faqs.json";
 import weaponsData from "../data/weapons.json";
+import guidesData from "../data/guides.json";
+import loreData from "../data/lore.json";
+import locationsData from "../data/locations.json";
 
 export interface Character {
   id: string;
@@ -157,4 +160,96 @@ export function getCharactersUsingWeapon(weaponId: string): Character[] {
   const weapon = getWeapon(weaponId);
   if (!weapon) return [];
   return getAllCharacters().filter((c) => weapon.relatedCharacters.includes(c.id));
+}
+
+// Guide types and queries
+
+export interface Guide {
+  id: string;
+  title: string;
+  titleEn: string;
+  category: string;
+  categoryZh: string;
+  categoryEn: string;
+  summary: string;
+  summaryEn: string;
+  content: string;
+  contentEn: string;
+  tags: string[];
+  relatedCharacters: string[];
+  relatedLocations: string[];
+  relatedLore: string[];
+}
+
+export function getAllGuides(): Guide[] {
+  return guidesData as Guide[];
+}
+
+export function getGuide(slug: string): Guide | undefined {
+  return getAllGuides().find((g) => g.id === slug);
+}
+
+export function getGuideCategories(locale: "zh" | "en"): { slug: string; name: string }[] {
+  const guides = getAllGuides();
+  const seen = new Set<string>();
+  return guides
+    .filter((g) => {
+      if (seen.has(g.category)) return false;
+      seen.add(g.category);
+      return true;
+    })
+    .map((g) => ({
+      slug: g.category,
+      name: locale === "zh" ? g.categoryZh : g.categoryEn,
+    }));
+}
+
+// Lore types and queries
+
+export interface Lore {
+  id: string;
+  name: string;
+  nameEn: string;
+  category: string;
+  categoryZh: string;
+  categoryEn: string;
+  summary: string;
+  summaryEn: string;
+  content: string;
+  contentEn: string;
+  relatedCharacters: string[];
+  relatedLocations: string[];
+}
+
+export function getAllLore(): Lore[] {
+  return loreData as Lore[];
+}
+
+export function getLoreItem(slug: string): Lore | undefined {
+  return getAllLore().find((l) => l.id === slug);
+}
+
+// Location types and queries
+
+export interface Location {
+  id: string;
+  name: string;
+  nameEn: string;
+  category: string;
+  categoryZh: string;
+  categoryEn: string;
+  summary: string;
+  summaryEn: string;
+  content: string;
+  contentEn: string;
+  relatedCharacters: string[];
+  relatedLore: string[];
+}
+
+export function getAllLocations(): Location[] {
+  return locationsData as Location[];
+}
+
+export function getLocation(slug: string): Location | undefined {
+  return getAllLocations().find((l) => l.id === slug);
 }

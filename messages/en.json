@@ -9,6 +9,9 @@
       "materials": "Materials",
       "calculator": "Calculator",
       "gacha": "Gacha",
+      "guides": "Guides",
+      "lore": "Lore",
+      "locations": "Locations",
       "faq": "FAQ",
       "map": "Map"
     }
@@ -114,6 +117,28 @@
   "faq": {
     "title": "YiHuan FAQ",
     "description": "Answers to common YiHuan questions - leveling, materials, character builds and more"
+  },
+  "guides": {
+    "title": "Guides",
+    "description": "Complete YiHuan guides - beginner tips, tier lists, team building and more",
+    "readMore": "Read More",
+    "relatedGuides": "Related Guides",
+    "relatedCharacters": "Related Characters",
+    "relatedLocations": "Related Locations",
+    "relatedLore": "Related Lore",
+    "tableOfContents": "Table of Contents"
+  },
+  "lore": {
+    "title": "Lore",
+    "description": "YiHuan lore encyclopedia - learn about Espers, Oddities, Anomalies and the world",
+    "relatedCharacters": "Related Characters",
+    "relatedLocations": "Related Locations"
+  },
+  "locations": {
+    "title": "Locations",
+    "description": "Explore all locations in Hethereau and beyond",
+    "relatedCharacters": "Related Characters",
+    "relatedLore": "Related Lore"
   },
   "weapons": {
     "title": "Weapon List",

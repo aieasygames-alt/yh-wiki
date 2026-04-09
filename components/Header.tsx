@@ -24,6 +24,9 @@ export function Header() {
       { href: `/${lang}/calculator/build`, label: t(lang, "calculator.build") },
     ]},
     { href: `/${lang}/gacha`, label: t(lang, "site.nav.gacha") },
+    { href: `/${lang}/guides`, label: t(lang, "site.nav.guides") },
+    { href: `/${lang}/lore`, label: t(lang, "site.nav.lore") },
+    { href: `/${lang}/locations`, label: t(lang, "site.nav.locations") },
     { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
     { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
   ];

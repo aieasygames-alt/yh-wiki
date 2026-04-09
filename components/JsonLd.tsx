@@ -105,3 +105,26 @@ export function BreadcrumbJsonLd({ items }: { items: { name: string; url?: strin
     />
   );
 }
+
+export function ArticleJsonLd({ title, description, url, datePublished }: { title: string; description: string; url: string; datePublished?: string }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url,
+    ...(datePublished ? { datePublished } : {}),
+    publisher: {
+      "@type": "Organization",
+      name: "NTE Guide",
+      url: "https://nteguide.com",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}

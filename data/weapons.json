@@ -133,5 +133,248 @@
     "description": "大型妖锤武器，攻击范围广，破坏力极强。",
     "descriptionEn": "A large yokai hammer with a wide attack range and devastating destructive power.",
     "relatedCharacters": ["chiz"]
+  },
+  {
+    "id": "appraisal-ability",
+    "name": "鉴定能力",
+    "nameEn": "Appraisal Ability",
+    "type": "magic",
+    "description": "鉴定师独有的异常物品鉴定能力，能识别和分析奇物与异象。",
+    "descriptionEn": "The Appraiser's unique ability to identify and analyze anomalous objects, Oddities and Anomalies.",
+    "relatedCharacters": ["the-appraiser"]
+  },
+  {
+    "id": "whip-sword",
+    "name": "鞭剑",
+    "nameEn": "Whip Sword",
+    "type": "melee",
+    "description": "可伸缩的鞭形剑，在远近距离之间灵活切换的武器。",
+    "descriptionEn": "A flexible whip-sword that can extend and retract, switching between close and mid-range combat.",
+    "relatedCharacters": ["lingko"]
+  },
+  {
+    "id": "chaos-orbs",
+    "name": "混沌宝珠",
+    "nameEn": "Chaos Orbs",
+    "type": "magic",
+    "description": "操控混沌能量形成的宝珠进行远程攻击。",
+    "descriptionEn": "Controls chaos energy formed into orbs for ranged attacks.",
+    "relatedCharacters": ["mismo"]
+  },
+  {
+    "id": "blood-blades",
+    "name": "血刃",
+    "nameEn": "Blood Blades",
+    "type": "melee",
+    "description": "以生命能量凝聚的赤红色刀刃，攻击时会消耗少量生命值但造成高额伤害。",
+    "descriptionEn": "Life-energy condensed crimson blades that sacrifice a small amount of health for high damage output.",
+    "relatedCharacters": ["shinku"]
+  },
+  {
+    "id": "psychic-barriers",
+    "name": "念力屏障",
+    "nameEn": "Psychic Barriers",
+    "type": "support",
+    "description": "以灵魂力量构筑防护屏障，为队友提供坚实的防御。",
+    "descriptionEn": "Constructs protective barriers using psychic power, providing solid defense for allies.",
+    "relatedCharacters": ["nitsa"]
+  },
+  {
+    "id": "dark-feathers",
+    "name": "暗羽",
+    "nameEn": "Dark Feathers",
+    "type": "ranged",
+    "description": "以黑暗能量凝聚的羽毛进行远程攻击，可同时发射多枚追踪弹。",
+    "descriptionEn": "Dark energy feathers used for ranged attacks, capable of launching multiple homing projectiles.",
+    "relatedCharacters": ["black-bird"]
+  },
+  {
+    "id": "tiger-fangs",
+    "name": "虎牙",
+    "nameEn": "Tiger Fangs",
+    "type": "melee",
+    "description": "以猛虎之力强化的格斗武器，攻击带有生命属性的震荡效果。",
+    "descriptionEn": "Combat weapon enhanced with tiger power, attacks carry Anima-attribute shock effects.",
+    "relatedCharacters": ["xiaozhen"]
+  },
+  {
+    "id": "flame-talismans",
+    "name": "焰符",
+    "nameEn": "Flame Talismans",
+    "type": "magic",
+    "description": "以咒术符纸为媒介释放火焰攻击，可贴附在敌人身上延迟引爆。",
+    "descriptionEn": "Incantation talismans that unleash fire attacks, can be attached to enemies for delayed detonation.",
+    "relatedCharacters": ["akane"]
+  },
+  {
+    "id": "gravity-hammer",
+    "name": "重力锤",
+    "nameEn": "Gravity Hammer",
+    "type": "melee",
+    "description": "操控重力场的大锤，攻击时可产生吸引敌人的引力效果。",
+    "descriptionEn": "A large hammer that manipulates gravity fields, creating gravitational pulls that draw enemies in.",
+    "relatedCharacters": ["jenson"]
+  },
+  {
+    "id": "phase-blades",
+    "name": "相位刃",
+    "nameEn": "Phase Blades",
+    "type": "melee",
+    "description": "可在不同相位间切换的刃武器，能穿透常规防御。",
+    "descriptionEn": "Blades that can shift between phases, capable of penetrating standard defenses.",
+    "relatedCharacters": ["illica"]
+  },
+  {
+    "id": "sonic-guitar",
+    "name": "音波吉他",
+    "nameEn": "Sonic Guitar",
+    "type": "ranged",
+    "description": "以音波振动为武器的吉他型装置，范围攻击效果出色。",
+    "descriptionEn": "A guitar-shaped weapon using sonic vibrations, excellent for area-of-effect attacks.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "magnet-gauntlets",
+    "name": "磁力拳套",
+    "nameEn": "Magnet Gauntlets",
+    "type": "melee",
+    "description": "操控磁场进行近距离格斗的拳套，可吸引或排斥金属物体。",
+    "descriptionEn": "Gauntlets that control magnetic fields for close combat, can attract or repel metallic objects.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "time-hourglass",
+    "name": "时之沙漏",
+    "nameEn": "Time Hourglass",
+    "type": "support",
+    "description": "操控局部时间流速的沙漏型异能装置，可减缓敌人行动。",
+    "descriptionEn": "An hourglass-type esper device that controls local time flow, slowing enemy movements.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "ink-brush",
+    "name": "墨笔",
+    "nameEn": "Ink Brush",
+    "type": "magic",
+    "description": "以水墨之力绘出攻击的魔法笔，画出的图案会实体化为攻击手段。",
+    "descriptionEn": "A magical brush using ink power, drawn patterns materialize into attacks.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "chain-scythe",
+    "name": "链镰",
+    "nameEn": "Chain Scythe",
+    "type": "melee",
+    "description": "链式镰刀武器，可近距离挥砍也可远距离抛掷攻击。",
+    "descriptionEn": "A chain-connected scythe for both close-range slashes and long-range throws.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "crystal-shards",
+    "name": "晶碎",
+    "nameEn": "Crystal Shards",
+    "type": "ranged",
+    "description": "操控结晶体碎片进行远程穿透攻击。",
+    "descriptionEn": "Controls crystal shards for long-range piercing attacks.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "puppet-strings",
+    "name": "傀儡线",
+    "nameEn": "Puppet Strings",
+    "type": "summon",
+    "description": "操控不可见的丝线控制敌人的傀儡型武器。",
+    "descriptionEn": "Controls invisible strings to manipulate enemies, a puppet-type weapon.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "void-scythe",
+    "name": "虚空镰",
+    "nameEn": "Void Scythe",
+    "type": "melee",
+    "description": "切割空间本身的大镰刀，攻击时会留下空间裂缝。",
+    "descriptionEn": "A scythe that cuts through space itself, leaving spatial rifts with each strike.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "plasma-cannon",
+    "name": "等离子炮",
+    "nameEn": "Plasma Cannon",
+    "type": "ranged",
+    "description": "蓄力型等离子射击武器，单发伤害极高但攻击速度较慢。",
+    "descriptionEn": "A charged plasma射击 weapon with extremely high single-shot damage but slow attack speed.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "nature-vines",
+    "name": "自然藤蔓",
+    "nameEn": "Nature Vines",
+    "type": "support",
+    "description": "操控植物藤蔓进行束缚和治疗的支援型武器。",
+    "descriptionEn": "Controls plant vines for binding enemies and healing allies, a support-type weapon.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "mirror-shield",
+    "name": "镜盾",
+    "nameEn": "Mirror Shield",
+    "type": "support",
+    "description": "可反射敌人攻击的镜面盾牌，也能用于侦查。",
+    "descriptionEn": "A mirror shield that can reflect enemy attacks and be used for reconnaissance.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "thunder-drums",
+    "name": "雷鼓",
+    "nameEn": "Thunder Drums",
+    "type": "magic",
+    "description": "以雷电之力强化的战鼓，敲击时释放范围雷击。",
+    "descriptionEn": "War drums enhanced with lightning power, releasing area thunder strikes when beaten.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "frost-fan",
+    "name": "冰扇",
+    "nameEn": "Frost Fan",
+    "type": "magic",
+    "description": "释放冰霜风暴的折叠扇，能大范围减速敌人。",
+    "descriptionEn": "A folding fan that releases frost storms, capable of slowing enemies in a wide area.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "gravity-boots",
+    "name": "重力靴",
+    "nameEn": "Gravity Boots",
+    "type": "melee",
+    "description": "强化踢技的重力靴，可在墙壁和天花板上行走。",
+    "descriptionEn": "Gravity boots that enhance kick attacks, allowing the user to walk on walls and ceilings.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "spirit-bow",
+    "name": "灵弓",
+    "nameEn": "Spirit Bow",
+    "type": "ranged",
+    "description": "发射灵力箭矢的长弓，箭矢可追踪目标。",
+    "descriptionEn": "A longbow that fires spirit arrows capable of tracking targets.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "nanite-swarm",
+    "name": "纳米虫群",
+    "nameEn": "Nanite Swarm",
+    "type": "summon",
+    "description": "操控纳米级机器人群体进行攻击和修复的科技武器。",
+    "descriptionEn": "Controls swarms of nanobots for attacks and repairs, a technology-type weapon.",
+    "relatedCharacters": []
+  },
+  {
+    "id": "soul-lantern",
+    "name": "魂灯",
+    "nameEn": "Soul Lantern",
+    "type": "support",
+    "description": "吸收和释放灵魂能量的灯笼，可为队友恢复能量。",
+    "descriptionEn": "A lantern that absorbs and releases soul energy, restoring energy for allies.",
+    "relatedCharacters": []
   }
 ]
