@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { t } from "../../lib/i18n";
+import { t, hreflangAlternatesIndex } from "../../lib/i18n";
 import { getAllCharacters, getAllMaterials } from "../../lib/queries";
-import { getAttributeColor, getAttributeLabel } from "../../lib/attributes";
 import { WebSiteJsonLd } from "../../components/JsonLd";
+import { CharacterCard } from "../../components/CharacterCard";
+import { MaterialCard } from "../../components/MaterialCard";
 
 export async function generateMetadata({
   params,
@@ -17,6 +18,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。"
         : "YiHuan game database and tools - character leveling materials, farming calculator, and more.",
+    alternates: hreflangAlternatesIndex(lang),
     openGraph: {
       title: `${t(locale, "home.heroTitle")} - ${t(locale, "home.heroSubtitle")}`,
       description:
@@ -73,29 +75,15 @@ export default async function HomePage({
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {characters.map((c) => (
-            <Link
+            <CharacterCard
               key={c.id}
-              href={`/${lang}/characters/${c.id}`}
-              className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
-            >
-              <div className="w-full aspect-square rounded-lg bg-gray-800 flex items-center justify-center mb-3">
-                <span className="text-2xl text-gray-600">
-                  {c.name.charAt(0)}
-                </span>
-              </div>
-              <h3 className="font-medium text-sm truncate">{c.name}</h3>
-              <p className="text-xs text-gray-500 truncate">{c.nameEn}</p>
-              <div className="flex items-center gap-2 mt-2">
-                <span
-                  className={`text-xs px-2 py-0.5 rounded border ${getAttributeColor(c.attribute)}`}
-                >
-                  {getAttributeLabel(c.attribute, locale)}
-                </span>
-                <span className={`text-xs font-bold ${c.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
-                  {c.rank}
-                </span>
-              </div>
-            </Link>
+              id={c.id}
+              name={c.name}
+              nameEn={c.nameEn}
+              attribute={c.attribute}
+              rank={c.rank}
+              locale={locale}
+            />
           ))}
         </div>
       </section>
@@ -113,22 +101,15 @@ export default async function HomePage({
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {materials.slice(0, 15).map((m) => (
-            <Link
+            <MaterialCard
               key={m.id}
-              href={`/${lang}/materials/${m.id}`}
-              className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
-            >
-              <div className="w-full aspect-square rounded-lg bg-gray-800 flex items-center justify-center mb-3">
-                <span className="text-lg text-gray-600">
-                  {m.name.substring(0, 2)}
-                </span>
-              </div>
-              <h3 className="font-medium text-sm truncate">{m.name}</h3>
-              <p className="text-xs text-gray-500 truncate">{m.nameEn}</p>
-              <p className="text-xs text-yellow-500 mt-1">
-                {"★".repeat(m.rarity)}
-              </p>
-            </Link>
+              id={m.id}
+              name={m.name}
+              nameEn={m.nameEn}
+              rarity={m.rarity}
+              type={m.type}
+              locale={locale}
+            />
           ))}
         </div>
       </section>

@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { getAllCharacters, getAllMaterials } from "../lib/queries";
 
-const BASE_URL = "https://yihuan.wiki";
+const BASE_URL = "https://nteguide.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const characters = getAllCharacters();

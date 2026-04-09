@@ -27,5 +27,5 @@ export function getAttributeLabel(attr: string, lang: Locale): string {
 }
 
 export function getRankDisplay(rank: string): string {
-  return rank === "S" ? "S" : "A";
+  return rank;
 }

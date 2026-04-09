@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nteguide.com"),
   title: {
     default: "异环 Wiki - 角色数据库 · 材料查询 · 养成计算器",
     template: "%s | 异环 Wiki",

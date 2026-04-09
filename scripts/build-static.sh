@@ -13,7 +13,12 @@ mkdir -p out
 mkdir -p out/_next
 cp -r .next/static out/_next/
 
-# 2. Copy pre-rendered HTML pages
+# 2. Copy public assets (images, favicon, etc.)
+if [ -d "public" ]; then
+  cp -r public/* out/
+fi
+
+# 3. Copy pre-rendered HTML pages
 find .next/server/app -name "*.html" ! -name "_not-found*" | while read -r html_file; do
   # Get relative path from .next/server/app/
   rel="${html_file#.next/server/app/}"

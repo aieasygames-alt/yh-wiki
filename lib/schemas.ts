@@ -9,7 +9,7 @@ export const AttributeEnum = z.enum([
   "lakshana",
 ]);
 
-export const RankEnum = z.enum(["A", "S"]);
+export const RankEnum = z.enum(["A", "B", "S"]);
 
 export const CharacterSchema = z.object({
   id: z.string(),

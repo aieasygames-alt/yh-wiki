@@ -88,8 +88,12 @@ describe("getRankDisplay", () => {
     expect(getRankDisplay("A")).toBe("A");
   });
 
-  it("defaults to A for unknown rank", () => {
-    expect(getRankDisplay("B")).toBe("A");
-    expect(getRankDisplay("")).toBe("A");
+  it("returns B for B rank", () => {
+    expect(getRankDisplay("B")).toBe("B");
+  });
+
+  it("returns the rank string as-is for any input", () => {
+    expect(getRankDisplay("")).toBe("");
+    expect(getRankDisplay("X")).toBe("X");
   });
 });

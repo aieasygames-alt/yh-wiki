@@ -24,7 +24,7 @@ describe("getAllCharacters", () => {
       expect(c.name).toBeTruthy();
       expect(c.nameEn).toBeTruthy();
       expect(c.attribute).toBeTruthy();
-      expect(c.rank).toMatch(/^[AS]$/);
+      expect(c.rank).toMatch(/^[ABS]$/);
     }
   });
 });
@@ -54,9 +54,9 @@ describe("getAllMaterials", () => {
 
 describe("getMaterial", () => {
   it("returns material by id", () => {
-    const mat = getMaterial("basic-resonance-chip");
+    const mat = getMaterial("basic-hunter-guide");
     expect(mat).toBeDefined();
-    expect(mat!.name).toContain("共鸣");
+    expect(mat!.name).toContain("猎手");
   });
 
   it("returns undefined for nonexistent material", () => {

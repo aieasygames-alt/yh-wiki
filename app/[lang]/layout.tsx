@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
+import { HreflangInjector } from "../../components/HreflangInjector";
 import type { Locale } from "../../lib/i18n";
 
 const locales: Locale[] = ["zh", "en"];
@@ -24,6 +25,7 @@ export default async function LangLayout({
   return (
     <html lang={lang}>
       <body className="min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]">
+        <HreflangInjector lang={lang} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

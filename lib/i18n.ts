@@ -17,3 +17,27 @@ export function t(locale: Locale, path: string): string {
   }
   return typeof result === "string" ? result : path;
 }
+
+const BASE_URL = "https://nteguide.com";
+
+/** Generate hreflang alternates for a given path (without leading /) */
+export function hreflangAlternates(pathWithoutLang: string) {
+  return {
+    canonical: `${BASE_URL}/zh/${pathWithoutLang}`,
+    languages: {
+      "zh": `${BASE_URL}/zh/${pathWithoutLang}`,
+      "en": `${BASE_URL}/en/${pathWithoutLang}`,
+    },
+  };
+}
+
+/** Generate hreflang alternates for index page (no sub-path) */
+export function hreflangAlternatesIndex(lang: string) {
+  return {
+    canonical: `${BASE_URL}/${lang}`,
+    languages: {
+      "zh": `${BASE_URL}/zh`,
+      "en": `${BASE_URL}/en`,
+    },
+  };
+}

@@ -23,14 +23,14 @@ describe("characters.json data integrity", () => {
     }
   });
 
-  it("all characters have valid ranks (A or S)", () => {
+  it("all characters have valid ranks (A, B, or S)", () => {
     for (const c of charactersData) {
-      expect(["A", "S"]).toContain(c.rank);
+      expect(["A", "B", "S"]).toContain(c.rank);
     }
   });
 
-  it("has 18 characters", () => {
-    expect(charactersData).toHaveLength(18);
+  it("has 21 characters", () => {
+    expect(charactersData).toHaveLength(21);
   });
 });
 
@@ -85,8 +85,8 @@ describe("character-materials.json data integrity", () => {
     }
   });
 
-  it("has entries for 18 characters", () => {
-    expect(characterMaterialsData).toHaveLength(18);
+  it("has entries for 21 characters", () => {
+    expect(characterMaterialsData).toHaveLength(21);
   });
 
   it("no duplicate characterIds", () => {

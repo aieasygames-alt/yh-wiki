@@ -28,13 +28,13 @@ describe("AttributeEnum", () => {
 });
 
 describe("RankEnum", () => {
-  it("accepts A and S", () => {
+  it("accepts A, B and S", () => {
     expect(RankEnum.parse("A")).toBe("A");
+    expect(RankEnum.parse("B")).toBe("B");
     expect(RankEnum.parse("S")).toBe("S");
   });
 
   it("rejects invalid ranks", () => {
-    expect(() => RankEnum.parse("B")).toThrow();
     expect(() => RankEnum.parse("SSR")).toThrow();
     expect(() => RankEnum.parse("")).toThrow();
   });

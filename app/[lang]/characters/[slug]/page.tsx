@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t } from "../../../../lib/i18n";
+import { t, hreflangAlternates } from "../../../../lib/i18n";
 import {
   getCharacter,
   getCharacterMaterials,
@@ -10,6 +10,8 @@ import {
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { CharacterJsonLd } from "../../../../components/JsonLd";
+import { GameImage } from "../../../../components/GameImage";
+import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const characters = getAllCharacters();
@@ -36,6 +38,7 @@ export async function generateMetadata({
       lang === "zh"
         ? `异环 ${character.name} 完整升级材料列表，包含所有养成所需材料及获取方式。`
         : `Complete ${character.nameEn} leveling material list for YiHuan, including all farming materials and sources.`,
+    alternates: hreflangAlternates(`characters/${slug}`),
     openGraph: {
       title:
         lang === "zh"
@@ -65,6 +68,7 @@ export default async function CharacterDetailPage({
   return (
     <>
       <CharacterJsonLd character={character} />
+      <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
@@ -76,9 +80,7 @@ export default async function CharacterDetailPage({
         {/* Character Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <div className="w-24 h-24 rounded-lg bg-gray-800 flex items-center justify-center shrink-0">
-              <span className="text-3xl text-gray-600">{character.name.charAt(0)}</span>
-            </div>
+            <GameImage type="character" id={character.id} name={character.name} className="w-24 h-24 rounded-lg shrink-0" />
             <div>
               <h1 className="text-2xl font-bold">{character.name}</h1>
               <p className="text-gray-500">{character.nameEn}</p>

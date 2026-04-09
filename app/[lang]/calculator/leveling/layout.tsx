@@ -1,3 +1,5 @@
+import { hreflangAlternates } from "../../../../lib/i18n";
+
 export async function generateMetadata({
   params,
 }: {
@@ -13,6 +15,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环升级材料计算器，输入等级快速计算所需材料数量，支持所有角色。"
         : "YiHuan leveling material calculator. Enter levels to quickly calculate required materials for all characters.",
+    alternates: hreflangAlternates("calculator/leveling"),
   };
 }
 

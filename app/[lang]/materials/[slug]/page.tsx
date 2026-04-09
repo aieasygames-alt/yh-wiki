@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t } from "../../../../lib/i18n";
+import { t, hreflangAlternates } from "../../../../lib/i18n";
 import { getMaterial, getCharactersUsingMaterial, getAllMaterials } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { GameImage } from "../../../../components/GameImage";
+import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const materials = getAllMaterials();
@@ -30,6 +32,7 @@ export async function generateMetadata({
       lang === "zh"
         ? `异环 ${material.name} 获取方法，包含掉落地点和使用该材料的角色列表。`
         : `How to get ${material.nameEn} in YiHuan, including drop locations and characters that use this material.`,
+    alternates: hreflangAlternates(`materials/${slug}`),
     openGraph: {
       title:
         lang === "zh"
@@ -68,6 +71,7 @@ export default async function MaterialDetailPage({
 
   return (
     <>
+      <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
@@ -79,11 +83,7 @@ export default async function MaterialDetailPage({
         {/* Material Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <div className="w-20 h-20 rounded-lg bg-gray-800 flex items-center justify-center shrink-0">
-              <span className="text-xl text-gray-600">
-                {material.name.substring(0, 2)}
-              </span>
-            </div>
+            <GameImage type="material" id={material.id} name={material.name} className="w-20 h-20 rounded-lg shrink-0" />
             <div>
               <h1 className="text-2xl font-bold">{material.name}</h1>
               <p className="text-gray-500">{material.nameEn}</p>
@@ -118,9 +118,7 @@ export default async function MaterialDetailPage({
                   href={`/${lang}/characters/${c.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
-                  <div className="w-10 h-10 rounded bg-gray-800 flex items-center justify-center shrink-0">
-                    <span className="text-sm text-gray-600">{c.name.charAt(0)}</span>
-                  </div>
+                  <GameImage type="character" id={c.id} name={c.name} className="w-10 h-10 rounded shrink-0" />
                   <div className="min-w-0">
                     <p className="text-sm font-medium truncate">{c.name}</p>
                     <div className="flex items-center gap-1">

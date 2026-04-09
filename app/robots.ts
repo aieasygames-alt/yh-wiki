@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://yihuan.wiki/sitemap.xml",
+    sitemap: "https://nteguide.com/sitemap.xml",
   };
 }

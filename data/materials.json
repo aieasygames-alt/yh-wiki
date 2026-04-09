@@ -1,51 +1,171 @@
 [
   {
-    "id": "basic-resonance-chip",
-    "name": "基础共鸣芯片",
-    "nameEn": "Basic Resonance Chip",
-    "type": "resonance",
+    "id": "basic-hunter-guide",
+    "name": "基础猎手指南",
+    "nameEn": "Basic Hunter Guide",
+    "type": "guide",
     "rarity": 1,
     "source": "日常副本、主线任务奖励"
   },
   {
-    "id": "advanced-resonance-chip",
-    "name": "进阶共鸣芯片",
-    "nameEn": "Advanced Resonance Chip",
-    "type": "resonance",
+    "id": "advanced-hunter-guide",
+    "name": "进阶猎手指南",
+    "nameEn": "Advanced Hunter Guide",
+    "type": "guide",
     "rarity": 2,
     "source": "精英副本、活动奖励"
   },
   {
-    "id": "special-resonance-chip",
-    "name": "特化共鸣芯片",
-    "nameEn": "Specialized Resonance Chip",
-    "type": "resonance",
+    "id": "elite-hunter-guide",
+    "name": "精英猎手指南",
+    "nameEn": "Elite Hunter Guide",
+    "type": "guide",
     "rarity": 3,
     "source": "高难度副本、周常任务"
   },
   {
-    "id": "basic-nucleus",
-    "name": "基础核心",
-    "nameEn": "Basic Nucleus",
-    "type": "nucleus",
-    "rarity": 1,
-    "source": "日常副本掉落"
-  },
-  {
-    "id": "advanced-nucleus",
-    "name": "进阶核心",
-    "nameEn": "Advanced Nucleus",
-    "type": "nucleus",
+    "id": "cosmos-spark",
+    "name": "宇宙火花",
+    "nameEn": "Cosmos Spark",
+    "type": "drop",
     "rarity": 2,
-    "source": "精英副本掉落、合成"
+    "source": "宇宙属性副本掉落"
   },
   {
-    "id": "special-nucleus",
-    "name": "特化核心",
-    "nameEn": "Specialized Nucleus",
-    "type": "nucleus",
+    "id": "cosmos-storm",
+    "name": "宇宙风暴",
+    "nameEn": "Cosmos Storm",
+    "type": "drop",
     "rarity": 3,
-    "source": "高难度副本、合成"
+    "source": "宇宙属性精英副本掉落"
+  },
+  {
+    "id": "anima-fragment",
+    "name": "生命碎片",
+    "nameEn": "Anima Fragment",
+    "type": "drop",
+    "rarity": 2,
+    "source": "生命属性副本掉落"
+  },
+  {
+    "id": "anima-crystal",
+    "name": "生命结晶",
+    "nameEn": "Anima Crystal",
+    "type": "drop",
+    "rarity": 3,
+    "source": "生命属性精英副本掉落"
+  },
+  {
+    "id": "incantation-shard",
+    "name": "咒术碎片",
+    "nameEn": "Incantation Shard",
+    "type": "drop",
+    "rarity": 2,
+    "source": "咒术属性副本掉落"
+  },
+  {
+    "id": "incantation-crystal",
+    "name": "咒术结晶",
+    "nameEn": "Incantation Crystal",
+    "type": "drop",
+    "rarity": 3,
+    "source": "咒术属性精英副本掉落"
+  },
+  {
+    "id": "chaos-essence",
+    "name": "混沌精华",
+    "nameEn": "Chaos Essence",
+    "type": "drop",
+    "rarity": 2,
+    "source": "混沌属性副本掉落"
+  },
+  {
+    "id": "chaos-core",
+    "name": "混沌核心",
+    "nameEn": "Chaos Core",
+    "type": "drop",
+    "rarity": 3,
+    "source": "混沌属性精英副本掉落"
+  },
+  {
+    "id": "psyche-essence",
+    "name": "灵魂精华",
+    "nameEn": "Psyche Essence",
+    "type": "drop",
+    "rarity": 2,
+    "source": "灵魂属性副本掉落"
+  },
+  {
+    "id": "psyche-fragment",
+    "name": "灵魂碎片",
+    "nameEn": "Psyche Fragment",
+    "type": "drop",
+    "rarity": 3,
+    "source": "灵魂属性精英副本掉落"
+  },
+  {
+    "id": "lakshana-dust",
+    "name": "相尘",
+    "nameEn": "Lakshana Dust",
+    "type": "drop",
+    "rarity": 2,
+    "source": "相属性副本掉落"
+  },
+  {
+    "id": "lakshana-signet",
+    "name": "相印",
+    "nameEn": "Lakshana Signet",
+    "type": "drop",
+    "rarity": 3,
+    "source": "相属性精英副本掉落"
+  },
+  {
+    "id": "boss-cosmos",
+    "name": "宇宙之主",
+    "nameEn": "Cosmos Sovereign",
+    "type": "domain",
+    "rarity": 4,
+    "source": "周常 Boss 副本掉落"
+  },
+  {
+    "id": "boss-anima",
+    "name": "生命守护者",
+    "nameEn": "Anima Guardian",
+    "type": "domain",
+    "rarity": 4,
+    "source": "周常 Boss 副本掉落"
+  },
+  {
+    "id": "boss-incantation",
+    "name": "咒典之心",
+    "nameEn": "Incantation Heart",
+    "type": "domain",
+    "rarity": 4,
+    "source": "周常 Boss 副本掉落"
+  },
+  {
+    "id": "boss-chaos",
+    "name": "混沌之核",
+    "nameEn": "Chaos Core",
+    "type": "domain",
+    "rarity": 4,
+    "source": "周常 Boss 副本掉落"
+  },
+  {
+    "id": "boss-psyche",
+    "name": "灵魂巨人",
+    "nameEn": "Psyche Titan",
+    "type": "domain",
+    "rarity": 4,
+    "source": "周常 Boss 副本掉落"
+  },
+  {
+    "id": "boss-lakshana",
+    "name": "相之理",
+    "nameEn": "Lakshana Principle",
+    "type": "domain",
+    "rarity": 4,
+    "source": "周常 Boss 副本掉落"
   },
   {
     "id": "pioneer-permit",
@@ -72,142 +192,6 @@
     "source": "极限挑战、限时活动"
   },
   {
-    "id": "anomaly-shard",
-    "name": "异常碎片",
-    "nameEn": "Anomaly Shard",
-    "type": "drop",
-    "rarity": 2,
-    "source": "异常区域怪物掉落"
-  },
-  {
-    "id": "chaos-essence",
-    "name": "混沌精华",
-    "nameEn": "Chaos Essence",
-    "type": "drop",
-    "rarity": 3,
-    "source": "混沌属性副本掉落"
-  },
-  {
-    "id": "cosmos-spark",
-    "name": "宇宙火花",
-    "nameEn": "Cosmos Spark",
-    "type": "drop",
-    "rarity": 2,
-    "source": "宇宙属性副本掉落"
-  },
-  {
-    "id": "cosmos-storm",
-    "name": "宇宙风暴核心",
-    "nameEn": "Cosmos Storm Core",
-    "type": "drop",
-    "rarity": 3,
-    "source": "宇宙属性精英副本掉落"
-  },
-  {
-    "id": "psyche-essence",
-    "name": "灵魂精华",
-    "nameEn": "Psyche Essence",
-    "type": "drop",
-    "rarity": 2,
-    "source": "灵魂属性副本掉落"
-  },
-  {
-    "id": "psyche-fragment",
-    "name": "灵魂碎片",
-    "nameEn": "Psyche Fragment",
-    "type": "drop",
-    "rarity": 3,
-    "source": "灵魂属性精英副本掉落"
-  },
-  {
-    "id": "incantation-shard",
-    "name": "咒术碎片",
-    "nameEn": "Incantation Shard",
-    "type": "drop",
-    "rarity": 2,
-    "source": "咒术属性副本掉落"
-  },
-  {
-    "id": "incantation-crystal",
-    "name": "咒术结晶",
-    "nameEn": "Incantation Crystal",
-    "type": "drop",
-    "rarity": 3,
-    "source": "咒术属性精英副本掉落"
-  },
-  {
-    "id": "anima-fragment",
-    "name": "生命碎片",
-    "nameEn": "Anima Fragment",
-    "type": "drop",
-    "rarity": 2,
-    "source": "生命属性副本掉落"
-  },
-  {
-    "id": "anima-dust",
-    "name": "生命尘埃",
-    "nameEn": "Anima Dust",
-    "type": "drop",
-    "rarity": 2,
-    "source": "生命属性副本掉落"
-  },
-  {
-    "id": "anima-crystal",
-    "name": "生命结晶",
-    "nameEn": "Anima Crystal",
-    "type": "drop",
-    "rarity": 3,
-    "source": "生命属性精英副本掉落"
-  },
-  {
-    "id": "credits",
-    "name": "信用点",
-    "nameEn": "Credits",
-    "type": "currency",
-    "rarity": 1,
-    "source": "日常任务、副本掉落、活动奖励"
-  },
-  {
-    "id": "boss-cosmos",
-    "name": "宇宙之主掉落物",
-    "nameEn": "Cosmos Lord Drop",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常Boss「宇宙之主」掉落"
-  },
-  {
-    "id": "boss-psyche",
-    "name": "灵魂巨人掉落物",
-    "nameEn": "Psyche Giant Drop",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常Boss「灵魂巨人」掉落"
-  },
-  {
-    "id": "boss-chaos",
-    "name": "混沌核心",
-    "nameEn": "Chaos Core",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常Boss「混沌魔」掉落"
-  },
-  {
-    "id": "boss-incantation",
-    "name": "咒典之心",
-    "nameEn": "Incantation Heart",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常Boss「咒术师」掉落"
-  },
-  {
-    "id": "boss-anima",
-    "name": "生命之骨",
-    "nameEn": "Anima Bone",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常Boss「生命守护者」掉落"
-  },
-  {
     "id": "manual-attack",
     "name": "攻击教材",
     "nameEn": "Attack Manual",
@@ -230,5 +214,69 @@
     "type": "manual",
     "rarity": 2,
     "source": "悬赏委托、商店兑换"
+  },
+  {
+    "id": "credits",
+    "name": "信用点",
+    "nameEn": "Credits",
+    "type": "currency",
+    "rarity": 1,
+    "source": "日常任务、副本掉落、活动奖励"
+  },
+  {
+    "id": "beetle-coins",
+    "name": "甲虫币",
+    "nameEn": "Beetle Coins",
+    "type": "currency",
+    "rarity": 1,
+    "source": "日常交易"
+  },
+  {
+    "id": "fabricated-dice",
+    "name": "伪造骰子",
+    "nameEn": "Fabricated Dice",
+    "type": "currency",
+    "rarity": 2,
+    "source": "抽卡用货币"
+  },
+  {
+    "id": "solid-dice",
+    "name": "坚实骰子",
+    "nameEn": "Solid Dice",
+    "type": "currency",
+    "rarity": 3,
+    "source": "高级抽卡用货币"
+  },
+  {
+    "id": "annulith",
+    "name": "灭碑石",
+    "nameEn": "Annulith",
+    "type": "currency",
+    "rarity": 4,
+    "source": "育成相关"
+  },
+  {
+    "id": "fon",
+    "name": "芬",
+    "nameEn": "Fon",
+    "type": "currency",
+    "rarity": 2,
+    "source": "抽卡用货币"
+  },
+  {
+    "id": "tri-key",
+    "name": "三把钥匙",
+    "nameEn": "Tri-Key",
+    "type": "currency",
+    "rarity": 4,
+    "source": "S 级弧光武器购买（25 Tri-Key/把）"
+  },
+  {
+    "id": "warp-pieces",
+    "name": "跃迁碎片",
+    "nameEn": "Warp Pieces",
+    "type": "currency",
+    "rarity": 3,
+    "source": "重复角色转换"
   }
 ]
