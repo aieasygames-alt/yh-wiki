@@ -1,0 +1,302 @@
+[
+  {
+    "characterId": "nanally",
+    "builds": [
+      {
+        "id": "nanally-dps",
+        "name": "输出流",
+        "nameEn": "DPS Build",
+        "description": "以暴击为核心的近战输出 Build，最大化格斗伤害",
+        "descriptionEn": "Crit-focused melee DPS build that maximizes Fangs and Claws damage",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "暴击伤害", "攻击力%", "生命%"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "HP%"],
+        "recommendedWeapons": ["fangs-and-claws"],
+        "teamComp": ["sakiri", "fadia"],
+        "notes": "娜娜莉核心输出流，需要咲里提供增益、法蒂亚提供护盾",
+        "notesEn": "Nanally's core DPS build. Sakiri provides buffs, Fadia provides shields"
+      }
+    ]
+  },
+  {
+    "characterId": "sakiri",
+    "builds": [
+      {
+        "id": "sakiri-support",
+        "name": "增益支援",
+        "nameEn": "Buff Support",
+        "description": "以生命和充能为核心的支援 Build，最大化团队增益效果",
+        "descriptionEn": "HP and energy-focused support build that maximizes team buffs",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": ["生命%", "能量回复", "防御%", "生命"],
+        "subStatsEn": ["HP%", "Energy Regen", "DEF%", "HP"],
+        "recommendedWeapons": ["kiroumaru"],
+        "teamComp": ["nanally", "zero"],
+        "notes": "咲里作为核心辅助，搭配任意输出角色均可",
+        "notesEn": "Sakiri as core support pairs well with any DPS character"
+      }
+    ]
+  },
+  {
+    "characterId": "fadia",
+    "builds": [
+      {
+        "id": "fadia-dps",
+        "name": "攻防一体",
+        "nameEn": "Hybrid DPS",
+        "description": "平衡攻击和防御的 Build，兼顾输出和生存能力",
+        "descriptionEn": "Balanced build that maintains both offensive and defensive capabilities",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "暴击伤害", "生命%", "防御%"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "HP%", "DEF%"],
+        "recommendedWeapons": ["transforming-cross-shield"],
+        "teamComp": ["sakiri", "baicang"],
+        "notes": "法蒂亚自带护盾，可以走更激进的输出路线",
+        "notesEn": "Fadia has built-in shields, allowing a more aggressive playstyle"
+      }
+    ]
+  },
+  {
+    "characterId": "lacrimosa",
+    "builds": [
+      {
+        "id": "lacrimosa-summon",
+        "name": "召唤输出",
+        "nameEn": "Summon DPS",
+        "description": "以异能攻击加成为核心的召唤流 Build",
+        "descriptionEn": "Esper ATK-focused summon DPS build",
+        "mainStat": "异能攻击%",
+        "mainStatEn": "Esper ATK%",
+        "subStats": ["暴击率", "暴击伤害", "攻击力%", "充能效率"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "Energy Regen"],
+        "recommendedWeapons": ["esper-constructs"],
+        "teamComp": ["sakiri", "daffodil"],
+        "notes": "拉克莉莫萨的构装体可以同时攻击多个目标，适合群体战斗",
+        "notesEn": "Lacrimosa's constructs attack multiple targets simultaneously, great for AoE"
+      }
+    ]
+  },
+  {
+    "characterId": "baicang",
+    "builds": [
+      {
+        "id": "baicang-defense",
+        "name": "防护专精",
+        "nameEn": "Defense Build",
+        "description": "以防御和生命为核心的防护 Build，最大化言灵护盾效果",
+        "descriptionEn": "DEF and HP-focused build that maximizes Incantation barrier effects",
+        "mainStat": "防御%",
+        "mainStatEn": "DEF%",
+        "subStats": ["生命%", "防御%", "能量回复", "生命"],
+        "subStatsEn": ["HP%", "DEF%", "Energy Regen", "HP"],
+        "recommendedWeapons": ["power-of-words"],
+        "teamComp": ["fadia", "lacrimosa"],
+        "notes": "百苍作为队长角色，防护 Build 可以极大提升团队生存能力",
+        "notesEn": "Baicang as team captain, defense build greatly improves team survivability"
+      }
+    ]
+  },
+  {
+    "characterId": "zero",
+    "builds": [
+      {
+        "id": "zero-dps",
+        "name": "剑术输出",
+        "nameEn": "Sword DPS",
+        "description": "以暴击为核心的剑术输出 Build",
+        "descriptionEn": "Crit-focused sword DPS build",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "暴击伤害", "攻击力%", "速度"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "Speed"],
+        "recommendedWeapons": ["sword"],
+        "teamComp": ["sakiri", "hotori"],
+        "notes": "零的剑术连击流畅，适合追求高输出的玩家",
+        "notesEn": "Zero's sword combos are fluid, suited for players who maximize damage output"
+      }
+    ]
+  },
+  {
+    "characterId": "hotori",
+    "builds": [
+      {
+        "id": "hotori-dps",
+        "name": "唐伞输出",
+        "nameEn": "Umbrella DPS",
+        "description": "以暴击和攻击为核心的唐伞刀输出 Build",
+        "descriptionEn": "Crit and ATK-focused Umbrella Katana DPS build",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "暴击伤害", "攻击力%", "生命%"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "HP%"],
+        "recommendedWeapons": ["umbrella-katana"],
+        "teamComp": ["sakiri", "zero"],
+        "notes": "穗鸟的唐伞刀变形机制独特，攻防转换灵活",
+        "notesEn": "Hotori's umbrella transformation mechanics are unique, switching freely between offense and defense"
+      }
+    ]
+  },
+  {
+    "characterId": "daffodil",
+    "builds": [
+      {
+        "id": "daffodil-support",
+        "name": "远程支援",
+        "nameEn": "Ranged Support",
+        "description": "以生命和充能为核心的远程支援 Build",
+        "descriptionEn": "HP and energy-focused ranged support build",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": ["生命%", "能量回复", "攻击力%", "防御%"],
+        "subStatsEn": ["HP%", "Energy Regen", "ATK%", "DEF%"],
+        "recommendedWeapons": ["liquid-arc"],
+        "teamComp": ["nanally", "lacrimosa"],
+        "notes": "达芙迪尔的液态武器可以远程支援，适合搭配近战输出角色",
+        "notesEn": "Daffodil's liquid weapon provides ranged support, ideal with melee DPS characters"
+      }
+    ]
+  },
+  {
+    "characterId": "jiuyuan",
+    "builds": [
+      {
+        "id": "jiuyuan-utility",
+        "name": "功能辅助",
+        "nameEn": "Utility Build",
+        "description": "以速度和充能为核心的功能辅助 Build",
+        "descriptionEn": "Speed and energy-focused utility build",
+        "mainStat": "速度",
+        "mainStatEn": "Speed",
+        "subStats": ["速度", "能量回复", "生命%", "防御%"],
+        "subStatsEn": ["Speed", "Energy Regen", "HP%", "DEF%"],
+        "recommendedWeapons": ["vehicle"],
+        "teamComp": ["baicang", "mint"],
+        "notes": "九远主要负责运输和机动支援，Build 以功能性为主",
+        "notesEn": "Jiuyuan focuses on transport and mobility support, build prioritizes utility"
+      }
+    ]
+  },
+  {
+    "characterId": "hathor",
+    "builds": [
+      {
+        "id": "hathor-dps",
+        "name": "刃翼输出",
+        "nameEn": "Blade Wing DPS",
+        "description": "以暴击和攻击为核心的飞行输出 Build",
+        "descriptionEn": "Crit and ATK-focused flying DPS build",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "暴击伤害", "攻击力%", "速度"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "Speed"],
+        "recommendedWeapons": ["blade-wings"],
+        "teamComp": ["sakiri", "fadia"],
+        "notes": "哈索尔的刃翼兼具飞行和攻击能力，机动性极强",
+        "notesEn": "Hathor's blade wings combine flight and offense, offering extreme mobility"
+      }
+    ]
+  },
+  {
+    "characterId": "chiz",
+    "builds": [
+      {
+        "id": "chiz-dps",
+        "name": "重击输出",
+        "nameEn": "Heavy Strike DPS",
+        "description": "以暴击伤害和攻击为核心的妖锤重击 Build",
+        "descriptionEn": "Crit DMG and ATK-focused heavy strike build",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击伤害", "暴击率", "攻击力%", "生命%"],
+        "subStatsEn": ["Crit DMG", "Crit Rate", "ATK%", "HP%"],
+        "recommendedWeapons": ["yokai-hammer"],
+        "teamComp": ["sakiri", "hathor"],
+        "notes": "赤子的妖锤攻击范围广，适合群体战斗和 BOSS 战",
+        "notesEn": "Chiz's yokai hammer has wide attack range, great for both AoE and boss fights"
+      }
+    ]
+  },
+  {
+    "characterId": "adler",
+    "builds": [
+      {
+        "id": "adler-dps",
+        "name": "管家剑术",
+        "nameEn": "Butler Sword",
+        "description": "平衡攻击和充能的 Build，兼顾输出和辅助能力",
+        "descriptionEn": "Balanced ATK and energy build for both offense and support",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "攻击力%", "能量回复", "速度"],
+        "subStatsEn": ["Crit Rate", "ATK%", "Energy Regen", "Speed"],
+        "recommendedWeapons": ["cane-sword-and-sunyas"],
+        "teamComp": ["edgar", "mint"],
+        "notes": "阿德勒与 Sunyas 协同作战，充能效率很重要",
+        "notesEn": "Adler fights alongside Sunyas, energy efficiency is important"
+      }
+    ]
+  },
+  {
+    "characterId": "skia",
+    "builds": [
+      {
+        "id": "skia-dps",
+        "name": "影袭输出",
+        "nameEn": "Shadow Strike DPS",
+        "description": "以暴击和速度为核心的暗影突袭 Build",
+        "descriptionEn": "Crit and speed-focused shadow strike build",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": ["暴击率", "暴击伤害", "速度", "攻击力%"],
+        "subStatsEn": ["Crit Rate", "Crit DMG", "Speed", "ATK%"],
+        "recommendedWeapons": ["shadow-manipulation"],
+        "teamComp": ["fadia", "lacrimosa"],
+        "notes": "斯基雅擅长从暗处发起攻击，速度词条提升先手优势",
+        "notesEn": "Skia excels at attacking from darkness, speed substats improve first-strike advantage"
+      }
+    ]
+  },
+  {
+    "characterId": "mint",
+    "builds": [
+      {
+        "id": "mint-support",
+        "name": "双刃支援",
+        "nameEn": "Dual Blade Support",
+        "description": "以生命和速度为核心的快速支援 Build",
+        "descriptionEn": "HP and speed-focused quick support build",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": ["速度", "生命%", "防御%", "能量回复"],
+        "subStatsEn": ["Speed", "HP%", "DEF%", "Energy Regen"],
+        "recommendedWeapons": ["dual-blades"],
+        "teamComp": ["adler", "edgar"],
+        "notes": "薄荷攻速极快，可以快速提供支援效果",
+        "notesEn": "Mint's fast attack speed enables quick support effect application"
+      }
+    ]
+  },
+  {
+    "characterId": "taygedo",
+    "builds": [
+      {
+        "id": "taygedo-support",
+        "name": "构装支援",
+        "nameEn": "Construct Support",
+        "description": "以生命和防御为核心的构装体支援 Build",
+        "descriptionEn": "HP and DEF-focused construct support build",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": ["生命%", "防御%", "能量回复", "异能攻击%"],
+        "subStatsEn": ["HP%", "DEF%", "Energy Regen", "Esper ATK%"],
+        "recommendedWeapons": ["construct"],
+        "teamComp": ["baicang", "lacrimosa"],
+        "notes": "泰格多的构装体兼具攻击和支援能力",
+        "notesEn": "Taygedo's constructs offer both offensive and support capabilities"
+      }
+    ]
+  }
+]

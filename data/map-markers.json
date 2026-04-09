@@ -1,0 +1,218 @@
+{
+  "maps": [
+    {
+      "id": "new-elydon",
+      "name": "新艾利都",
+      "nameEn": "New Elydon",
+      "image": "/images/maps/new-elydon.webp",
+      "description": "异常控制局总部所在地，也是异能者活动的核心区域。",
+      "descriptionEn": "Headquarters of the Anomaly Control Bureau and the main activity area for Espers.",
+      "markers": [
+        {
+          "id": "domain-basic",
+          "name": "猎手指南·初级",
+          "nameEn": "Hunter Guide - Basic",
+          "type": "domain",
+          "x": 25.0,
+          "y": 35.0,
+          "description": "每日副本，掉落基础猎手指南",
+          "descriptionEn": "Daily domain, drops Basic Hunter Guide",
+          "relatedMaterials": ["basic-hunter-guide"]
+        },
+        {
+          "id": "domain-advanced",
+          "name": "猎手指南·进阶",
+          "nameEn": "Hunter Guide - Advanced",
+          "type": "domain",
+          "x": 28.0,
+          "y": 38.0,
+          "description": "每日副本，掉落进阶猎手指南",
+          "descriptionEn": "Daily domain, drops Advanced Hunter Guide",
+          "relatedMaterials": ["advanced-hunter-guide"]
+        },
+        {
+          "id": "domain-elite",
+          "name": "猎手指南·精英",
+          "nameEn": "Hunter Guide - Elite",
+          "type": "domain",
+          "x": 30.0,
+          "y": 40.0,
+          "description": "每日副本，掉落精英猎手指南",
+          "descriptionEn": "Daily domain, drops Elite Hunter Guide",
+          "relatedMaterials": ["elite-hunter-guide"]
+        },
+        {
+          "id": "boss-cosmos",
+          "name": "BOSS：宇宙",
+          "nameEn": "BOSS: Cosmos",
+          "type": "boss",
+          "x": 55.0,
+          "y": 25.0,
+          "description": "世界 BOSS，掉落宇宙属性材料",
+          "descriptionEn": "World Boss, drops Cosmos attribute materials",
+          "relatedMaterials": ["boss-cosmos"]
+        },
+        {
+          "id": "boss-anima",
+          "name": "BOSS：生命",
+          "nameEn": "BOSS: Anima",
+          "type": "boss",
+          "x": 60.0,
+          "y": 30.0,
+          "description": "世界 BOSS，掉落生命属性材料",
+          "descriptionEn": "World Boss, drops Anima attribute materials",
+          "relatedMaterials": ["boss-anima"]
+        },
+        {
+          "id": "boss-incantation",
+          "name": "BOSS：咒术",
+          "nameEn": "BOSS: Incantation",
+          "type": "boss",
+          "x": 50.0,
+          "y": 55.0,
+          "description": "世界 BOSS，掉落咒术属性材料",
+          "descriptionEn": "World Boss, drops Incantation attribute materials",
+          "relatedMaterials": ["boss-incantation"]
+        },
+        {
+          "id": "boss-chaos",
+          "name": "BOSS：混沌",
+          "nameEn": "BOSS: Chaos",
+          "type": "boss",
+          "x": 45.0,
+          "y": 65.0,
+          "description": "世界 BOSS，掉落混沌属性材料",
+          "descriptionEn": "World Boss, drops Chaos attribute materials",
+          "relatedMaterials": ["boss-chaos"]
+        },
+        {
+          "id": "boss-psyche",
+          "name": "BOSS：灵魂",
+          "nameEn": "BOSS: Psyche",
+          "type": "boss",
+          "x": 70.0,
+          "y": 60.0,
+          "description": "世界 BOSS，掉落灵魂属性材料",
+          "descriptionEn": "World Boss, drops Psyche attribute materials",
+          "relatedMaterials": ["boss-psyche"]
+        },
+        {
+          "id": "boss-lakshana",
+          "name": "BOSS：相",
+          "nameEn": "BOSS: Lakshana",
+          "type": "boss",
+          "x": 75.0,
+          "y": 45.0,
+          "description": "世界 BOSS，掉落相属性材料",
+          "descriptionEn": "World Boss, drops Lakshana attribute materials",
+          "relatedMaterials": ["boss-lakshana"]
+        },
+        {
+          "id": "collect-cosmos",
+          "name": "宇宙火花采集点",
+          "nameEn": "Cosmos Spark Collection",
+          "type": "collectible",
+          "x": 15.0,
+          "y": 20.0,
+          "description": "野外采集，获取宇宙火花",
+          "descriptionEn": "Field collection, obtain Cosmos Spark",
+          "relatedMaterials": ["cosmos-spark", "cosmos-storm"]
+        },
+        {
+          "id": "collect-anima",
+          "name": "生命碎片采集点",
+          "nameEn": "Anima Fragment Collection",
+          "type": "collectible",
+          "x": 20.0,
+          "y": 70.0,
+          "description": "野外采集，获取生命碎片",
+          "descriptionEn": "Field collection, obtain Anima Fragment",
+          "relatedMaterials": ["anima-fragment", "anima-crystal"]
+        },
+        {
+          "id": "collect-incantation",
+          "name": "咒术碎片采集点",
+          "nameEn": "Incantation Shard Collection",
+          "type": "collectible",
+          "x": 80.0,
+          "y": 20.0,
+          "description": "野外采集，获取咒术碎片",
+          "descriptionEn": "Field collection, obtain Incantation Shard",
+          "relatedMaterials": ["incantation-shard", "incantation-crystal"]
+        },
+        {
+          "id": "collect-chaos",
+          "name": "混沌精华采集点",
+          "nameEn": "Chaos Essence Collection",
+          "type": "collectible",
+          "x": 85.0,
+          "y": 75.0,
+          "description": "野外采集，获取混沌精华",
+          "descriptionEn": "Field collection, obtain Chaos Essence",
+          "relatedMaterials": ["chaos-essence", "chaos-core"]
+        },
+        {
+          "id": "collect-psyche",
+          "name": "灵魂精华采集点",
+          "nameEn": "Psyche Essence Collection",
+          "type": "collectible",
+          "x": 40.0,
+          "y": 80.0,
+          "description": "野外采集，获取灵魂精华",
+          "descriptionEn": "Field collection, obtain Psyche Essence",
+          "relatedMaterials": ["psyche-essence", "psyche-fragment"]
+        },
+        {
+          "id": "collect-lakshana",
+          "name": "相尘采集点",
+          "nameEn": "Lakshana Dust Collection",
+          "type": "collectible",
+          "x": 65.0,
+          "y": 80.0,
+          "description": "野外采集，获取相尘",
+          "descriptionEn": "Field collection, obtain Lakshana Dust",
+          "relatedMaterials": ["lakshana-dust", "lakshana-signet"]
+        },
+        {
+          "id": "waypoint-central",
+          "name": "中央传送点",
+          "nameEn": "Central Waypoint",
+          "type": "waypoint",
+          "x": 50.0,
+          "y": 45.0,
+          "description": "新艾利都中心区域传送点",
+          "descriptionEn": "Central area waypoint of New Elydon",
+          "relatedMaterials": []
+        },
+        {
+          "id": "waypoint-east",
+          "name": "东部传送点",
+          "nameEn": "East Waypoint",
+          "type": "waypoint",
+          "x": 78.0,
+          "y": 50.0,
+          "description": "新艾利都东部区域传送点",
+          "descriptionEn": "East area waypoint of New Elydon",
+          "relatedMaterials": []
+        },
+        {
+          "id": "waypoint-west",
+          "name": "西部传送点",
+          "nameEn": "West Waypoint",
+          "type": "waypoint",
+          "x": 18.0,
+          "y": 50.0,
+          "description": "新艾利都西部区域传送点",
+          "descriptionEn": "West area waypoint of New Elydon",
+          "relatedMaterials": []
+        }
+      ]
+    }
+  ],
+  "markerTypes": {
+    "domain": { "color": "#3b82f6", "label": "副本", "labelEn": "Domain" },
+    "boss": { "color": "#ef4444", "label": "BOSS", "labelEn": "BOSS" },
+    "collectible": { "color": "#22c55e", "label": "采集", "labelEn": "Collectible" },
+    "waypoint": { "color": "#eab308", "label": "传送", "labelEn": "Waypoint" }
+  }
+}

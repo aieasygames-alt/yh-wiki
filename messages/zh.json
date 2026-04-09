@@ -8,7 +8,9 @@
       "weapons": "武器",
       "materials": "材料",
       "calculator": "计算器",
-      "faq": "攻略"
+      "gacha": "抽卡",
+      "faq": "攻略",
+      "map": "地图"
     }
   },
   "home": {
@@ -54,7 +56,43 @@
     "total": "总计",
     "noResult": "请选择角色并输入等级",
     "skillMaterialsNote": "技能升级材料（固定消耗）",
-    "levelingNote": "等级提升材料"
+    "levelingNote": "等级提升材料",
+    "leveling": "升级计算器",
+    "build": "Build 计算器"
+  },
+  "buildCalculator": {
+    "title": "Build 计算器",
+    "description": "查看角色推荐 Build，主词条、副词条、武器和队友搭配",
+    "selectCharacter": "选择角色",
+    "selectHint": "请选择一个角色查看推荐 Build",
+    "noBuild": "该角色暂无推荐 Build",
+    "mainStat": "主词条",
+    "subStats": "副词条优先级",
+    "recommendedWeapons": "推荐武器",
+    "teamComp": "推荐队友",
+    "materialSummary": "满级养成材料汇总",
+    "openLevelingCalc": "打开升级材料计算器 →"
+  },
+  "gacha": {
+    "title": "抽卡模拟器",
+    "description": "模拟异环祈愿抽卡，测试你的运气！",
+    "pull1": "单抽 x1",
+    "pull10": "十连 x10",
+    "pity": "距上次 S",
+    "totalPulls": "总抽数",
+    "sRankCount": "S 级数量",
+    "results": "抽卡结果",
+    "history": "抽卡记录",
+    "clearHistory": "清空记录",
+    "pulling": "祈愿中...",
+    "hint": "选择卡池后点击抽卡按钮开始模拟"
+  },
+  "map": {
+    "title": "地图标点",
+    "description": "异环全地图资源点标记，查看副本、BOSS、采集点和传送点",
+    "markerList": "标点列表",
+    "relatedMaterials": "掉落材料",
+    "closeDetail": "关闭详情"
   },
   "attributes": {
     "cosmos": "宇宙",

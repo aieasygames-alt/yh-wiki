@@ -1,0 +1,47 @@
+{
+  "banner": {
+    "id": "limited",
+    "name": "限定祈愿",
+    "nameEn": "Limited Wish",
+    "description": "UP 角色概率提升",
+    "descriptionEn": "Featured character rate boosted",
+    "rate5": 1.6,
+    "rate4": 13,
+    "rate3": 85.4,
+    "pity5": 90,
+    "softPityStart": 75,
+    "guaranteedFeatured": false,
+    "featured": ["nanally"],
+    "featured4": ["adler", "mint", "skia", "edgar", "taygedo", "nelly", "merula", "alphard"]
+  },
+  "standard": {
+    "id": "standard",
+    "name": "常驻祈愿",
+    "nameEn": "Standard Wish",
+    "description": "所有角色均有可能获得",
+    "descriptionEn": "All characters available",
+    "rate5": 1.6,
+    "rate4": 13,
+    "rate3": 85.4,
+    "pity5": 90,
+    "softPityStart": 75,
+    "guaranteedFeatured": false,
+    "featured": [],
+    "featured4": []
+  },
+  "weapons": {
+    "id": "weapons",
+    "name": "武器祈愿",
+    "nameEn": "Weapon Wish",
+    "description": "限定武器概率提升",
+    "descriptionEn": "Featured weapon rate boosted",
+    "rate5": 1.6,
+    "rate4": 13,
+    "rate3": 85.4,
+    "pity5": 80,
+    "softPityStart": 65,
+    "guaranteedFeatured": false,
+    "featured": [],
+    "featured4": []
+  }
+}

@@ -9,18 +9,27 @@ export function Header() {
   const pathname = usePathname();
   const lang = (pathname.split("/")[1] || "zh") as Locale;
   const [menuOpen, setMenuOpen] = useState(false);
+  const [calcOpen, setCalcOpen] = useState(false);
+
+  const otherLang = lang === "zh" ? "en" : "zh";
+  const langLabel = lang === "zh" ? "EN" : "中文";
 
   const navItems = [
     { href: `/${lang}`, label: t(lang, "site.nav.home") },
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
     { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
     { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
-    { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.calculator") },
+    { type: "dropdown" as const, label: t(lang, "site.nav.calculator"), items: [
+      { href: `/${lang}/calculator/leveling`, label: t(lang, "calculator.leveling") },
+      { href: `/${lang}/calculator/build`, label: t(lang, "calculator.build") },
+    ]},
+    { href: `/${lang}/gacha`, label: t(lang, "site.nav.gacha") },
+    { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
     { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
   ];
 
-  const otherLang = lang === "zh" ? "en" : "zh";
-  const langLabel = lang === "zh" ? "EN" : "中文";
+  const isActive = (href: string) =>
+    pathname === href || (href !== `/${lang}` && pathname.startsWith(href));
 
   return (
     <header className="sticky top-0 z-50 border-b border-gray-800 bg-[var(--background)]/80 backdrop-blur-md">
@@ -30,20 +39,60 @@ export function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden sm:flex items-center gap-6">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`text-sm transition-colors hover:text-primary-400 ${
-                pathname === item.href || (item.href !== `/${lang}` && pathname.startsWith(item.href))
-                  ? "text-primary-400 font-medium"
-                  : "text-gray-400"
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
+        <nav className="hidden lg:flex items-center gap-5">
+          {navItems.map((item) => {
+            if ("type" in item && item.type === "dropdown") {
+              return (
+                <div
+                  key={item.label}
+                  className="relative"
+                  onMouseEnter={() => setCalcOpen(true)}
+                  onMouseLeave={() => setCalcOpen(false)}
+                >
+                  <button
+                    className={`text-sm transition-colors hover:text-primary-400 flex items-center gap-1 ${
+                      pathname.startsWith(`/${lang}/calculator`)
+                        ? "text-primary-400 font-medium"
+                        : "text-gray-400"
+                    }`}
+                  >
+                    {item.label}
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  {calcOpen && (
+                    <div className="absolute top-full left-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[140px] shadow-lg">
+                      {item.items!.map((sub) => (
+                        <Link
+                          key={sub.href}
+                          href={sub.href}
+                          className={`block px-3 py-2 text-sm transition-colors ${
+                            isActive(sub.href)
+                              ? "text-primary-400"
+                              : "text-gray-400 hover:text-white hover:bg-gray-800"
+                          }`}
+                        >
+                          {sub.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            }
+            return (
+              <Link
+                key={item.href}
+                href={item.href!}
+                className={`text-sm transition-colors hover:text-primary-400 ${
+                  isActive(item.href!) ? "text-primary-400 font-medium" : "text-gray-400"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
           <Link
             href={pathname.replace(`/${lang}`, `/${otherLang}`)}
             className="text-sm text-gray-500 hover:text-primary-400 border border-gray-700 rounded px-2 py-0.5"
@@ -54,7 +103,7 @@ export function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className="sm:hidden p-2 text-gray-400 hover:text-white"
+          className="lg:hidden p-2 text-gray-400 hover:text-white"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -70,22 +119,41 @@ export function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <nav className="sm:hidden border-t border-gray-800 bg-[var(--background)]/95 backdrop-blur-md">
-          <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-3">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setMenuOpen(false)}
-                className={`text-sm py-1.5 ${
-                  pathname === item.href || (item.href !== `/${lang}` && pathname.startsWith(item.href))
-                    ? "text-primary-400 font-medium"
-                    : "text-gray-400"
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
+        <nav className="lg:hidden border-t border-gray-800 bg-[var(--background)]/95 backdrop-blur-md">
+          <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-1">
+            {navItems.map((item) => {
+              if ("type" in item && item.type === "dropdown") {
+                return (
+                  <div key={item.label}>
+                    <p className="text-sm text-gray-500 py-1.5">{item.label}</p>
+                    {item.items!.map((sub) => (
+                      <Link
+                        key={sub.href}
+                        href={sub.href}
+                        onClick={() => setMenuOpen(false)}
+                        className={`block pl-3 py-1.5 text-sm ${
+                          isActive(sub.href) ? "text-primary-400" : "text-gray-400"
+                        }`}
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
+                );
+              }
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href!}
+                  onClick={() => setMenuOpen(false)}
+                  className={`text-sm py-1.5 ${
+                    isActive(item.href!) ? "text-primary-400 font-medium" : "text-gray-400"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
             <Link
               href={pathname.replace(`/${lang}`, `/${otherLang}`)}
               onClick={() => setMenuOpen(false)}

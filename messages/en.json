@@ -8,7 +8,9 @@
       "weapons": "Weapons",
       "materials": "Materials",
       "calculator": "Calculator",
-      "faq": "FAQ"
+      "gacha": "Gacha",
+      "faq": "FAQ",
+      "map": "Map"
     }
   },
   "home": {
@@ -54,7 +56,43 @@
     "total": "Total",
     "noResult": "Please select a character and enter levels",
     "skillMaterialsNote": "Skill Upgrade Materials (Fixed Cost)",
-    "levelingNote": "Leveling Materials"
+    "levelingNote": "Leveling Materials",
+    "leveling": "Leveling Calc",
+    "build": "Build Calc"
+  },
+  "buildCalculator": {
+    "title": "Build Calculator",
+    "description": "View recommended character builds, main stats, sub stats, weapons and team comps",
+    "selectCharacter": "Select Character",
+    "selectHint": "Select a character to view recommended builds",
+    "noBuild": "No builds available for this character",
+    "mainStat": "Main Stat",
+    "subStats": "Sub Stat Priority",
+    "recommendedWeapons": "Recommended Weapons",
+    "teamComp": "Team Comp",
+    "materialSummary": "Max Level Material Summary",
+    "openLevelingCalc": "Open Leveling Calculator →"
+  },
+  "gacha": {
+    "title": "Gacha Simulator",
+    "description": "Simulate YiHuan wishes and test your luck!",
+    "pull1": "Wish x1",
+    "pull10": "Wish x10",
+    "pity": "Pity Counter",
+    "totalPulls": "Total Pulls",
+    "sRankCount": "S-Rank Count",
+    "results": "Results",
+    "history": "History",
+    "clearHistory": "Clear History",
+    "pulling": "Wishing...",
+    "hint": "Select a banner and click Wish to start simulating"
+  },
+  "map": {
+    "title": "Interactive Map",
+    "description": "YiHuan interactive map with domain, boss, collectible and waypoint markers",
+    "markerList": "Marker List",
+    "relatedMaterials": "Drop Materials",
+    "closeDetail": "Close"
   },
   "attributes": {
     "cosmos": "Cosmos",

@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const characters = getAllCharacters();
   const materials = getAllMaterials();
   const weapons = getAllWeapons();
+  const faqs = getAllFaqs();
   const langs = ["zh", "en"];
 
   const routes: MetadataRoute.Sitemap = [];
@@ -87,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // Calculator
+  // Calculators
   langs.forEach((lang) => {
     routes.push({
       url: `${BASE_URL}/${lang}/calculator/leveling`,
@@ -95,10 +96,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     });
+    routes.push({
+      url: `${BASE_URL}/${lang}/calculator/build`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    });
+  });
+
+  // Gacha simulator
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/gacha`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
+  });
+
+  // Map
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/map`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
   });
 
   // FAQ
-  const faqs = getAllFaqs();
   langs.forEach((lang) => {
     routes.push({
       url: `${BASE_URL}/${lang}/faq`,
