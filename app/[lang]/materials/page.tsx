@@ -2,7 +2,7 @@ import { t, hreflangAlternates } from "../../../lib/i18n";
 import { getAllMaterials } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
-import { MaterialCard } from "../../../components/MaterialCard";
+import { MaterialFilter } from "../../../components/MaterialFilter";
 
 export async function generateMetadata({
   params,
@@ -48,20 +48,7 @@ export default async function MaterialsPage({
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-8">{t(locale, "materials.title")}</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {materials.map((m) => (
-            <MaterialCard
-              key={m.id}
-              id={m.id}
-              name={m.name}
-              nameEn={m.nameEn}
-              rarity={m.rarity}
-              type={m.type}
-              locale={locale}
-              showType
-            />
-          ))}
-        </div>
+        <MaterialFilter materials={materials} locale={locale} lang={lang} />
       </div>
     </>
   );

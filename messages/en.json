@@ -5,6 +5,7 @@
     "nav": {
       "home": "Home",
       "characters": "Characters",
+      "weapons": "Weapons",
       "materials": "Materials",
       "calculator": "Calculator",
       "faq": "FAQ"
@@ -75,5 +76,17 @@
   "faq": {
     "title": "YiHuan FAQ",
     "description": "Answers to common YiHuan questions - leveling, materials, character builds and more"
+  },
+  "weapons": {
+    "title": "Weapon List",
+    "description": "All YiHuan weapon types and characters who use them",
+    "type": "Type",
+    "relatedCharacters": "Used By",
+    "melee": "Melee",
+    "ranged": "Ranged",
+    "magic": "Esper",
+    "companion": "Companion",
+    "summon": "Summon",
+    "support": "Support"
   }
 }

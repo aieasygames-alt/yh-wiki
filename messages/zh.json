@@ -5,6 +5,7 @@
     "nav": {
       "home": "首页",
       "characters": "角色",
+      "weapons": "武器",
       "materials": "材料",
       "calculator": "计算器",
       "faq": "攻略"
@@ -75,5 +76,17 @@
   "faq": {
     "title": "异环攻略 FAQ",
     "description": "异环常见问题解答，包含升级、材料、角色培养等攻略"
+  },
+  "weapons": {
+    "title": "武器列表",
+    "description": "异环全部武器类型和使用角色",
+    "type": "类型",
+    "relatedCharacters": "使用角色",
+    "melee": "近战",
+    "ranged": "远程",
+    "magic": "异能",
+    "companion": "伴生体",
+    "summon": "召唤",
+    "support": "辅助"
   }
 }

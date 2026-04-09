@@ -1,0 +1,137 @@
+[
+  {
+    "id": "fangs-and-claws",
+    "name": "格斗",
+    "nameEn": "Fangs and Claws",
+    "type": "melee",
+    "description": "以利爪进行高速近身格斗的武器类型，兼具攻击速度与机动性。",
+    "descriptionEn": "A weapon type for high-speed close combat using claws, combining attack speed with mobility.",
+    "relatedCharacters": ["nanally"]
+  },
+  {
+    "id": "kiroumaru",
+    "name": "桐丸",
+    "nameEn": "Kiroumaru",
+    "type": "companion",
+    "description": "咲里的异常伴生体桐丸，贪吃的奇异生物，与咲里协同作战。",
+    "descriptionEn": "Sakiri's anomalous companion Kiroumaru, a gluttonous creature that fights alongside her.",
+    "relatedCharacters": ["sakiri"]
+  },
+  {
+    "id": "transforming-cross-shield",
+    "name": "变形十字盾",
+    "nameEn": "Transforming Cross-Shield",
+    "type": "melee",
+    "description": "可变形的十字盾，能在攻防之间自由切换，适合攻防一体的战斗风格。",
+    "descriptionEn": "A transforming cross-shield that freely switches between offense and defense for versatile combat.",
+    "relatedCharacters": ["fadia"]
+  },
+  {
+    "id": "esper-constructs",
+    "name": "异能构装体",
+    "nameEn": "Esper Constructs",
+    "type": "summon",
+    "description": "操控多个异能构装体进行协同战斗，可同时应对多个目标。",
+    "descriptionEn": "Controls multiple esper constructs for coordinated attacks against multiple targets.",
+    "relatedCharacters": ["lacrimosa"]
+  },
+  {
+    "id": "power-of-words",
+    "name": "言灵之力",
+    "nameEn": "Power of Words",
+    "type": "magic",
+    "description": "以言灵之力构筑防御阵地，为队友提供强大的防护支援。",
+    "descriptionEn": "Uses the power of incantations to build defensive formations, providing strong protection for allies.",
+    "relatedCharacters": ["baicang"]
+  },
+  {
+    "id": "sword",
+    "name": "剑",
+    "nameEn": "Sword",
+    "type": "melee",
+    "description": "经典的剑术武器，以精准的剑技进行战斗。",
+    "descriptionEn": "A classic sword weapon, engaging in combat with precise swordsmanship.",
+    "relatedCharacters": ["zero"]
+  },
+  {
+    "id": "umbrella-katana",
+    "name": "唐伞刀",
+    "nameEn": "Umbrella Katana",
+    "type": "melee",
+    "description": "唐伞形态的刀，收合时为伞、展开时为刀的变形武器。",
+    "descriptionEn": "A katana disguised as a traditional umbrella, transforming between parasol and blade forms.",
+    "relatedCharacters": ["hotori"]
+  },
+  {
+    "id": "liquid-arc",
+    "name": "液态弧光",
+    "nameEn": "Liquid-type Arc",
+    "type": "ranged",
+    "description": "液态弧光武器，可灵活变形的远程支援武器。",
+    "descriptionEn": "A liquid-type arc weapon, a flexible ranged support weapon that can reshape itself.",
+    "relatedCharacters": ["daffodil"]
+  },
+  {
+    "id": "vehicle",
+    "name": "载具",
+    "nameEn": "Vehicle",
+    "type": "support",
+    "description": "战斗用载具，擅长高速移动和运输。",
+    "descriptionEn": "Combat vehicle specialized in high-speed movement and transportation.",
+    "relatedCharacters": ["jiuyuan"]
+  },
+  {
+    "id": "cane-sword-and-sunyas",
+    "name": "杖剑与 Sunyas",
+    "nameEn": "Cane Sword and Sunyas",
+    "type": "melee",
+    "description": "杖剑与伴生体 Sunyas 协同作战的复合战斗方式。",
+    "descriptionEn": "A hybrid combat style using a cane sword alongside the companion Sunyas.",
+    "relatedCharacters": ["adler"]
+  },
+  {
+    "id": "shadow-manipulation",
+    "name": "影操控",
+    "nameEn": "Shadow Manipulation",
+    "type": "magic",
+    "description": "以影子操控进行战斗的异能，擅长从暗处发起攻击。",
+    "descriptionEn": "An esper ability that manipulates shadows, specializing in attacks from the darkness.",
+    "relatedCharacters": ["skia"]
+  },
+  {
+    "id": "dual-blades",
+    "name": "双刃",
+    "nameEn": "Dual Blades",
+    "type": "melee",
+    "description": "双持短刃进行快速战斗，攻速极高。",
+    "descriptionEn": "Dual-wielding short blades for extremely fast-paced combat.",
+    "relatedCharacters": ["mint"]
+  },
+  {
+    "id": "construct",
+    "name": "构装体",
+    "nameEn": "Construct",
+    "type": "summon",
+    "description": "操控构装体进行战斗，兼具攻击和支援能力。",
+    "descriptionEn": "Controls constructs for battle, combining offensive and support capabilities.",
+    "relatedCharacters": ["taygedo"]
+  },
+  {
+    "id": "blade-wings",
+    "name": "刃翼",
+    "nameEn": "Blade Wings",
+    "type": "melee",
+    "description": "以刃翼为武器进行战斗，兼具飞行和攻击能力。",
+    "descriptionEn": "Fights using blade wings, combining flight capabilities with offensive power.",
+    "relatedCharacters": ["hathor"]
+  },
+  {
+    "id": "yokai-hammer",
+    "name": "妖锤",
+    "nameEn": "Yokai Hammer",
+    "type": "melee",
+    "description": "大型妖锤武器，攻击范围广，破坏力极强。",
+    "descriptionEn": "A large yokai hammer with a wide attack range and devastating destructive power.",
+    "relatedCharacters": ["chiz"]
+  }
+]

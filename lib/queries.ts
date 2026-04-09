@@ -2,6 +2,7 @@ import charactersData from "../data/characters.json";
 import materialsData from "../data/materials.json";
 import characterMaterialsData from "../data/character-materials.json";
 import faqsData from "../data/faqs.json";
+import weaponsData from "../data/weapons.json";
 
 export interface Character {
   id: string;
@@ -130,4 +131,30 @@ export function getAllFaqs(): Faq[] {
 
 export function getFaq(slug: string): Faq | undefined {
   return getAllFaqs().find((f) => f.id === slug);
+}
+
+// Weapon types and queries
+
+export interface Weapon {
+  id: string;
+  name: string;
+  nameEn: string;
+  type: string;
+  description: string;
+  descriptionEn: string;
+  relatedCharacters: string[];
+}
+
+export function getAllWeapons(): Weapon[] {
+  return weaponsData as Weapon[];
+}
+
+export function getWeapon(slug: string): Weapon | undefined {
+  return getAllWeapons().find((w) => w.id === slug);
+}
+
+export function getCharactersUsingWeapon(weaponId: string): Character[] {
+  const weapon = getWeapon(weaponId);
+  if (!weapon) return [];
+  return getAllCharacters().filter((c) => weapon.relatedCharacters.includes(c.id));
 }

@@ -13,6 +13,7 @@ export function Header() {
   const navItems = [
     { href: `/${lang}`, label: t(lang, "site.nav.home") },
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
+    { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
     { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
     { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.calculator") },
     { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },

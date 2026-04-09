@@ -32,6 +32,16 @@ find .next/server/app -name "*.html" ! -name "_not-found*" | while read -r html_
   fi
 done
 
+# 4. Copy route handler outputs (sitemap.xml, robots.txt)
+for route_file in .next/server/app/sitemap.xml.body .next/server/app/robots.txt.body; do
+  if [ -f "$route_file" ]; then
+    output_name="${route_file#.next/server/app/}"
+    output_name="${output_name%.body}"
+    cp "$route_file" "$ROOT/out/${output_name}"
+    echo "Copied ${output_name}"
+  fi
+done
+
 echo "Static site assembled."
 echo "HTML pages: $(find out -name '*.html' | wc -l)"
 echo "Total files: $(find out -type f | wc -l)"

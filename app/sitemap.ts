@@ -1,11 +1,12 @@
 import { MetadataRoute } from "next";
-import { getAllCharacters, getAllMaterials, getAllFaqs } from "../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons } from "../lib/queries";
 
 const BASE_URL = "https://nteguide.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const characters = getAllCharacters();
   const materials = getAllMaterials();
+  const weapons = getAllWeapons();
   const langs = ["zh", "en"];
 
   const routes: MetadataRoute.Sitemap = [];
@@ -35,6 +36,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     langs.forEach((lang) => {
       routes.push({
         url: `${BASE_URL}/${lang}/characters/${c.id}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.7,
+      });
+    });
+  });
+
+  // Weapon list pages
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/weapons`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    });
+  });
+
+  // Weapon detail pages
+  weapons.forEach((w) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/weapons/${w.id}`,
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.7,
