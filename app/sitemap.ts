@@ -117,6 +117,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
+  // Redeem Codes
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/redeem-codes`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    });
+  });
+
   // Map
   langs.forEach((lang) => {
     routes.push({

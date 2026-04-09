@@ -9,13 +9,17 @@ export function getMessages(locale: Locale) {
   return messages[locale] || messages.zh;
 }
 
-export function t(locale: Locale, path: string): string {
+export function t(locale: Locale, path: string, ...args: string[]): string {
   const keys = path.split(".");
   let result: any = messages[locale] || messages.zh;
   for (const key of keys) {
     result = result?.[key];
   }
-  return typeof result === "string" ? result : path;
+  if (typeof result !== "string") return path;
+  if (args.length > 0) {
+    return args.reduce((str, arg, i) => str.replace(`{${i}}`, arg), result);
+  }
+  return result;
 }
 
 const BASE_URL = "https://nteguide.com";

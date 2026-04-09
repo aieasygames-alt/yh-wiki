@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-09
+> 最后更新：2026-04-09（V2 Phase 1 完成后）
 
 ## 项目概述
 
@@ -58,10 +58,13 @@ components/
   JsonLd.tsx                           # JSON-LD 结构化数据
   DataStatusBanner.tsx                 # 数据状态提示横幅
 data/
-  characters.json                      # 21 个角色
+  characters.json                      # 31 个角色
   materials.json                       # 35 个材料
-  weapons.json                         # 19 个武器
+  weapons.json                         # 42 个武器
   faqs.json                            # 21 条 FAQ
+  guides.json                          # 13 篇攻略
+  lore.json                            # 10 条世界观
+  locations.json                       # 10 个地点
   character-materials.json             # 角色-材料关系（嵌套结构）
 lib/
   queries.ts                           # 数据查询 + 计算器逻辑
@@ -81,12 +84,15 @@ public/
 
 | 数据 | 数量 |
 |------|------|
-| 角色 | 21 |
+| 角色 | 31 |
 | 材料 | 35 |
-| 武器 | 19 |
+| 武器 | 42 |
 | FAQ | 21 |
+| 攻略 | 13 |
+| 世界观 | 10 |
+| 地点 | 10 |
 | 角色真实图片 | 18 |
-| 静态页面 | 192（含中英双语，sitemap 实际计数） |
+| 静态页面 | 345（含中英双语，sitemap 实际计数） |
 
 ## 部署信息
 
@@ -155,6 +161,12 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | 材料详情 | /zh/materials/basic-hunter-guide | /en/materials/basic-hunter-guide |
 | FAQ 列表 | /zh/faq | /en/faq |
 | FAQ 详情 | /zh/faq/how-to-level-up-fast | /en/faq/how-to-level-up-fast |
+| 攻略列表 | /zh/guides | /en/guides |
+| 攻略详情 | /zh/guides/beginner-guide | /en/guides/beginner-guide |
+| 世界观列表 | /zh/lore | /en/lore |
+| 世界观详情 | /zh/lore/espers | /en/lore/espers |
+| 地点列表 | /zh/locations | /en/locations |
+| 地点详情 | /zh/locations/hethereau | /en/locations/hethereau |
 | 计算器 | /zh/calculator/leveling | /en/calculator/leveling |
 | sitemap | /sitemap.xml | |
 | robots | /robots.txt | |
@@ -162,7 +174,7 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 ## SEO 实现
 
 - 每个页面有独立的 `generateMetadata`（title / description）
-- sitemap.xml 包含所有 192 个页面 URL（中英双语）
+- sitemap.xml 包含所有 345 个页面 URL（中英双语）
 - robots.txt 已配置（指向 nteguide.com/sitemap.xml）
 - 角色页 → 材料页内链
 - 材料页 → 角色页内链
@@ -193,11 +205,11 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 
 | 功能 | 状态 | 说明 |
 |------|------|------|
-| 武器页 | ✅ | 19 个武器，列表 + 详情页 |
+| 武器页 | ✅ | 42 个武器，列表 + 详情页 |
 | FAQ 模块 | ✅ | 21 条 FAQ，含角色培养建议、属性克制、体力管理等 |
 | Tier List | ✅ | 以 FAQ 形式实现（s-rank-characters + 8 条角色培养评估） |
 | 移动端适配 | ✅ | 响应式布局 + 汉堡菜单 |
-| 页面扩展 300+ | ❌ | 当前 192 页，需更多数据 |
+| 页面扩展 300+ | ✅ | 当前 345 页 |
 | Build 计算器 | ❌ | 尚未开发 |
 
 ### 运营项
@@ -209,21 +221,37 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | 数据准确性校验 | ⚠️ | 标注为"数据整理中"（DataStatusBanner） |
 | Google Search Console | ❌ | 未接入验证 |
 
-### V2（2-3 个月）— 未开始
+### V2（2-3 个月）— Phase 1 已完成
 
 | 功能 | 状态 |
 |------|------|
+| 攻略指南模块 | ✅ | 13 篇攻略 |
+| 世界观模块 | ✅ | 10 条 Lore |
+| 地点模块 | ✅ | 10 个地点 |
+| 角色扩充 | ✅ | 31 个角色（目标 38） |
+| 武器扩充 | ✅ | 42 把武器 |
 | 抽卡模拟器 | ❌ |
-| 地图标点 | ❌ |
-| 用户系统 | ❌ |
-| 多语言扩展 | ❌ |
+| Build 计算器重写 | ❌ |
+| 兑换码追踪 | ❌ |
+| 全站搜索 | ❌ |
+| 标签系统 | ❌ |
+| 首页重构 | ❌ |
 
 ## 待完成事项
 
+### Phase 2 — P1 差异化工具
+- [ ] Build 计算器重写（角色选择 + 装备 + 属性计算）
+- [ ] 抽卡模拟器优化（动画 + 统计面板 + 保底提醒）
+- [ ] 兑换码追踪页（码表 + 一键复制 + 到期标记）
+
+### Phase 3 — P2 体验提升
+- [ ] 全站搜索（⌘K + Fuse.js）
+- [ ] 标签系统（标签聚合页 + 标签云）
+- [ ] 首页重构（Hero + 统计卡片 + 热门攻略 + 工具入口）
+- [ ] 补充剩余 7 个角色数据（31 → 38）
+- [ ] 材料真实图片
+
+### 运营项
 - [ ] Google Search Console 接入验证
-- [ ] 补充剩余 3 个角色真实图片
-- [ ] 添加材料真实图片
+- [ ] 补充角色真实图片（新角色）
 - [ ] 校验数据准确性
-- [ ] Build 计算器开发（V1）
-- [ ] 扩展页面到 300+（需更多角色/武器/FAQ 数据）
-- [ ] V2：抽卡模拟器、地图标点
