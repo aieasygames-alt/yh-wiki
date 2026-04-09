@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "TURBOPACK= TURBOPACK_BUILD= next build && bash scripts/build-static.sh",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "bash scripts/patch-next.sh",
@@ -29,7 +29,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.28",
-    "typescript": "5.9.3",
+    "typescript": "^5.9.3",
     "vitest": "^4.1.3"
   }
 }
