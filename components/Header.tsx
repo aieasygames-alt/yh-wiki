@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, type Locale } from "../lib/i18n";
+import { SearchDialog } from "./SearchDialog";
 
 export function Header() {
   const pathname = usePathname();
@@ -103,6 +104,7 @@ export function Header() {
           >
             {langLabel}
           </Link>
+          <SearchDialog lang={lang} />
         </nav>
 
         {/* Mobile hamburger */}
@@ -125,6 +127,9 @@ export function Header() {
       {menuOpen && (
         <nav className="lg:hidden border-t border-gray-800 bg-[var(--background)]/95 backdrop-blur-md">
           <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col gap-1">
+            <div className="mb-2">
+              <SearchDialog lang={lang} />
+            </div>
             {navItems.map((item) => {
               if ("type" in item && item.type === "dropdown") {
                 return (

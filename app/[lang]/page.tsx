@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { t, hreflangAlternatesIndex } from "../../lib/i18n";
-import { getAllCharacters, getAllMaterials } from "../../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons } from "../../lib/queries";
 import { WebSiteJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
-import { MaterialCard } from "../../components/MaterialCard";
+import { SearchDialog } from "../../components/SearchDialog";
 
 export async function generateMetadata({
   params,
@@ -39,81 +39,125 @@ export default async function HomePage({
   const locale = lang as "zh" | "en";
   const characters = getAllCharacters();
   const materials = getAllMaterials();
+  const guides = getAllGuides();
+  const weapons = getAllWeapons();
+
+  const sRankChars = characters.filter((c) => c.rank === "S");
 
   return (
     <>
       <WebSiteJsonLd />
       <div>
-      {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
-        <div className="relative max-w-6xl mx-auto px-4 py-20 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-            {t(locale, "home.heroTitle")}
-          </h1>
-          <p className="mt-4 text-lg text-gray-400">{t(locale, "home.heroSubtitle")}</p>
-          <p className="mt-2 text-sm text-gray-500">{t(locale, "home.heroDescription")}</p>
-          <Link
-            href={`/${lang}/calculator/leveling`}
-            className="inline-block mt-8 px-8 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
-          >
-            {t(locale, "home.ctaCalculator")}
-          </Link>
-        </div>
-      </section>
+        {/* Hero */}
+        <section className="relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
+          <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
+              {t(locale, "home.heroTitle")}
+            </h1>
+            <p className="mt-4 text-lg text-gray-400">{t(locale, "home.heroSubtitle")}</p>
+            <div className="mt-6 flex justify-center">
+              <SearchDialog lang={lang} />
+            </div>
+          </div>
+        </section>
 
-      {/* Characters Grid */}
-      <section className="max-w-6xl mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold">{t(locale, "home.charactersSection")}</h2>
-          <Link
-            href={`/${lang}/characters`}
-            className="text-sm text-primary-400 hover:text-primary-300"
-          >
-            {t(locale, "home.viewAll")} →
-          </Link>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {characters.map((c) => (
-            <CharacterCard
-              key={c.id}
-              id={c.id}
-              name={c.name}
-              nameEn={c.nameEn}
-              attribute={c.attribute}
-              rank={c.rank}
-              locale={locale}
-            />
-          ))}
-        </div>
-      </section>
+        {/* Stats Cards */}
+        <section className="max-w-6xl mx-auto px-4 -mt-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { label: locale === "zh" ? "角色" : "Characters", value: characters.length, color: "text-yellow-400", href: `/${lang}/characters` },
+              { label: locale === "zh" ? "武器" : "Weapons", value: weapons.length, color: "text-blue-400", href: `/${lang}/weapons` },
+              { label: locale === "zh" ? "攻略" : "Guides", value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
+              { label: locale === "zh" ? "工具" : "Tools", value: 4, color: "text-green-400", href: `/${lang}/calculator/build` },
+            ].map((stat) => (
+              <Link key={stat.label} href={stat.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center hover:border-primary-500/30 transition-colors">
+                <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
+                <p className="text-xs text-gray-500 mt-1">{stat.label}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
 
-      {/* Materials Grid */}
-      <section className="max-w-6xl mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold">{t(locale, "home.materialsSection")}</h2>
-          <Link
-            href={`/${lang}/materials`}
-            className="text-sm text-primary-400 hover:text-primary-300"
-          >
-            {t(locale, "home.viewAll")} →
-          </Link>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {materials.slice(0, 15).map((m) => (
-            <MaterialCard
-              key={m.id}
-              id={m.id}
-              name={m.name}
-              nameEn={m.nameEn}
-              rarity={m.rarity}
-              type={m.type}
-              locale={locale}
-            />
-          ))}
-        </div>
-      </section>
-    </div>
+        {/* Tools Section */}
+        <section className="max-w-6xl mx-auto px-4 py-12">
+          <h2 className="text-2xl font-bold mb-6">{locale === "zh" ? "实用工具" : "Tools"}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { title: locale === "zh" ? "升级计算器" : "Leveling Calc", desc: locale === "zh" ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
+              { title: locale === "zh" ? "Build 计算器" : "Build Calc", desc: locale === "zh" ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
+              { title: locale === "zh" ? "抽卡模拟器" : "Gacha Sim", desc: locale === "zh" ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
+              { title: locale === "zh" ? "兑换码" : "Codes", desc: locale === "zh" ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
+            ].map((tool) => (
+              <Link key={tool.href} href={tool.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group">
+                <span className="text-2xl">{tool.icon}</span>
+                <h3 className="text-base font-bold mt-3 group-hover:text-primary-400 transition-colors">{tool.title}</h3>
+                <p className="text-sm text-gray-500 mt-1">{tool.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Hot Guides */}
+        <section className="max-w-6xl mx-auto px-4 py-12">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold">{locale === "zh" ? "热门攻略" : "Popular Guides"}</h2>
+            <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300">
+              {t(locale, "home.viewAll")} →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {guides.slice(0, 6).map((g) => (
+              <Link key={g.id} href={`/${lang}/guides/${g.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
+                <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
+                  {locale === "zh" ? g.categoryZh : g.categoryEn}
+                </span>
+                <h3 className="text-base font-medium mt-2">
+                  {locale === "zh" ? g.title : g.titleEn}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                  {locale === "zh" ? g.summary : g.summaryEn}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* S-Rank Characters */}
+        <section className="max-w-6xl mx-auto px-4 py-12">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold">{locale === "zh" ? "S 级角色" : "S-Rank Characters"}</h2>
+            <Link href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
+              {t(locale, "home.viewAll")} →
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {sRankChars.map((c) => (
+              <CharacterCard key={c.id} id={c.id} name={c.name} nameEn={c.nameEn} attribute={c.attribute} rank={c.rank} locale={locale} />
+            ))}
+          </div>
+        </section>
+
+        {/* Quick Links */}
+        <section className="max-w-6xl mx-auto px-4 py-12">
+          <h2 className="text-2xl font-bold mb-6">{locale === "zh" ? "快速导航" : "Quick Links"}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {[
+              { label: locale === "zh" ? "世界观" : "Lore", href: `/${lang}/lore`, desc: locale === "zh" ? "10 条设定" : "10 entries" },
+              { label: locale === "zh" ? "地点" : "Locations", href: `/${lang}/locations`, desc: locale === "zh" ? "10 个地点" : "10 locations" },
+              { label: locale === "zh" ? "材料" : "Materials", href: `/${lang}/materials`, desc: locale === "zh" ? "35 种材料" : "35 materials" },
+              { label: locale === "zh" ? "武器" : "Weapons", href: `/${lang}/weapons`, desc: locale === "zh" ? "42 把武器" : "42 weapons" },
+              { label: locale === "zh" ? "FAQ" : "FAQ", href: `/${lang}/faq`, desc: locale === "zh" ? "常见问题" : "Common questions" },
+              { label: locale === "zh" ? "地图" : "Map", href: `/${lang}/map`, desc: locale === "zh" ? "交互地图" : "Interactive map" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
+                <p className="text-sm font-medium">{link.label}</p>
+                <p className="text-xs text-gray-500 mt-0.5">{link.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      </div>
     </>
   );
 }

@@ -217,5 +217,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
+  // Tags (common tags from all content)
+  const commonTags = [
+    "s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana",
+    "dps", "support", "beginner", "combat", "exploration", "advanced",
+  ];
+  commonTags.forEach((tag) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/tags/${tag}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.5,
+      });
+    });
+  });
+
   return routes;
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { getPlaceholderImage } from "@/lib/placeholder";
+import { getPlaceholderImage } from "../lib/placeholder";
 
 interface GameImageProps {
   type: "character" | "material";
