@@ -59,3 +59,29 @@ export function ItemListJsonLd({ items }: { items: { name: string; url: string }
     />
   );
 }
+
+export function FaqJsonLd({ faq, lang }: { faq: { question: string; questionEn: string; answer: string; answerEn: string }; lang: "zh" | "en" }) {
+  const question = lang === "zh" ? faq.question : faq.questionEn;
+  const answer = lang === "zh" ? faq.answer : faq.answerEn;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: answer,
+        },
+      },
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}

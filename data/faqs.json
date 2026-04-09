@@ -1,0 +1,192 @@
+[
+  {
+    "id": "how-to-level-up-fast",
+    "question": "异环怎么升级角色快？",
+    "questionEn": "How to level up characters fast in YiHuan?",
+    "answer": "异环角色升级主要通过消耗猎手指南和信用点来完成。快速升级建议：1) 每天刷满体力对应的材料副本；2) 优先使用基础猎手指南，进阶和精英指南留给高等级阶段；3) 完成每日任务和活动获取额外经验；4) 合理规划体力，优先刷当前等级阶段需要的材料。",
+    "answerEn": "To level up characters quickly in YiHuan: 1) Use all daily stamina on material domains; 2) Save Advanced and Elite Hunter Guides for higher levels; 3) Complete daily quests and events for bonus EXP; 4) Plan your stamina usage to farm materials for your current level range.",
+    "tags": ["beginner", "leveling"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["basic-hunter-guide", "advanced-hunter-guide", "elite-hunter-guide"]
+  },
+  {
+    "id": "material-domains-location",
+    "question": "异环材料副本在哪里？",
+    "questionEn": "Where are material domains in YiHuan?",
+    "answer": "异环的材料副本（领域）可以通过主界面右上角的「领域」入口进入。不同属性的领域掉落不同类型的升级材料。建议每天刷满体力对应的副本，尤其是高级副本掉落的精英猎手指南和许可证明较为稀缺。",
+    "answerEn": "Material domains in YiHuan can be accessed through the \"Domain\" entry on the top-right of the main screen. Different attribute domains drop different types of leveling materials. It's recommended to use all daily stamina on domains, especially higher-level ones that drop rare Elite Hunter Guides and Permits.",
+    "tags": ["beginner", "materials"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["pioneer-permit", "expert-permit", "master-permit"]
+  },
+  {
+    "id": "how-to-get-credits",
+    "question": "异环信用点怎么获取？",
+    "questionEn": "How to get Credits in YiHuan?",
+    "answer": "信用点是异环中的基础货币，获取途径包括：1) 完成主线任务和支线任务；2) 每日委托任务奖励；3) 探索开放世界中的宝箱；4) 完成成就；5) 参与限时活动。信用点主要用于角色升级、技能升级和购买基础材料。",
+    "answerEn": "Credits are the basic currency in YiHuan. You can earn them through: 1) Main story and side quests; 2) Daily commission rewards; 3) Exploring treasure chests in the open world; 4) Completing achievements; 5) Participating in limited-time events. Credits are used for character leveling, skill upgrades, and purchasing basic materials.",
+    "tags": ["beginner", "currency"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["credits"]
+  },
+  {
+    "id": "s-rank-characters",
+    "question": "异环S级角色有哪些？",
+    "questionEn": "What are the S-rank characters in YiHuan?",
+    "answer": "异环目前的S级角色包括：娜娜莉（生命/格斗）、咲里（咒术/支援）、法蒂亚、拉克莉莫萨、百苍、爱德勒、斯奇亚、零、哈尼尔、哈索尔、弥安、阿尔法德、泰格多等。S级角色整体强度高于A级角色，但A级角色在合理培养后同样可以在大部分内容中表现出色。",
+    "answerEn": "Current S-rank characters in YiHuan include: Nanally (Anima/Fangs and Claws), Sakiri (Incantation/Support), Fadia, Lacrimosa, Baicang, Adler, Skia, Zero, Haniel, Hathor, Mint, Alphard, Taygedo, and more. While S-rank characters generally have higher stats, well-built A-rank characters can also perform well in most content.",
+    "tags": ["beginner", "characters"],
+    "relatedCharacters": ["nanally", "sakiri", "fadia", "lacrimosa", "baicang", "adler", "skia", "zero", "haniel", "hathor", "mint", "alphard", "taygedo"],
+    "relatedMaterials": []
+  },
+  {
+    "id": "attribute-weakness",
+    "question": "异环属性克制关系是什么？",
+    "questionEn": "What is the attribute weakness system in YiHuan?",
+    "answer": "异环中存在六种属性：生命、咒术、混沌、灵魂、宇宙、相。不同属性之间存在克制关系，利用属性克制可以对敌人造成更多伤害。在战斗中，观察敌人的属性弱点，切换对应属性的角色进行攻击，可以大幅提高战斗效率。属性克制通常造成约1.5倍的额外伤害。",
+    "answerEn": "YiHuan has six attributes: Anima, Incantation, Chaos, Psyche, Cosmos, and Lakshana. Different attributes have weakness relationships, and exploiting them deals bonus damage. In combat, observe enemy weaknesses and switch to characters with the corresponding attribute for significantly better efficiency. Attribute weakness typically deals around 1.5x bonus damage.",
+    "tags": ["beginner", "combat"],
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "stamina-management",
+    "question": "异环每日体力怎么用最划算？",
+    "questionEn": "How to use daily stamina most efficiently in YiHuan?",
+    "answer": "体力使用的优先级建议：1) 优先刷当前最缺的材料副本（通常是角色升级材料）；2) 如果有正在培养的角色，刷对应的属性材料；3) 每日委托和任务优先完成，通常也会消耗体力；4) 限时活动期间的体力优先用于活动副本。不建议将体力浪费在低等级材料上，后期可以通过其他途径获取。",
+    "answerEn": "Recommended stamina priority: 1) Farm the materials you need most (usually character leveling materials); 2) If you're building a character, farm their attribute-specific materials; 3) Complete daily commissions first (they also consume stamina); 4) During limited events, prioritize event domains. Don't waste stamina on low-level materials that can be obtained through other means later.",
+    "tags": ["beginner", "resources"],
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "beginner-character-recommendation",
+    "question": "异环新手推荐培养哪些角色？",
+    "questionEn": "Which characters should beginners build in YiHuan?",
+    "answer": "新手推荐培养方向：1) 娜娜莉（S级/生命属性）— 强力的近战输出角色，前期开荒体验好；2) 咲里（S级/咒术属性）— 优秀的支援角色，能为全队提供增益；3) 爱德勒（S级）— 输出能力出色。A级角色中也有性价比很高的选择，如智（A级）培养成本低但实用性高。建议集中资源培养2-3个核心角色，不要分散资源。",
+    "answerEn": "Recommended characters for beginners: 1) Nanally (S-rank/Anima) - Strong melee DPS, great for early game; 2) Sakiri (S-rank/Incantation) - Excellent support character with team-wide buffs; 3) Adler (S-rank) - Outstanding damage output. Among A-rank characters, Chiz offers great value with low investment. Focus resources on 2-3 core characters rather than spreading thin.",
+    "tags": ["beginner", "characters"],
+    "relatedCharacters": ["nanally", "sakiri", "adler", "chiz"],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-to-get-exp-fast",
+    "question": "异环怎么快速获得经验？",
+    "questionEn": "How to get experience quickly in YiHuan?",
+    "answer": "快速获取角色经验的途径：1) 完成主线任务和支线任务，这是前期经验的主要来源；2) 每日委托任务；3) 刷经验副本（如果有的话）；4) 探索世界、开启传送点和宝箱也有经验奖励。角色升级需要消耗猎手指南和信用点，建议同步积累这些资源。",
+    "answerEn": "Ways to get character EXP quickly: 1) Main story and side quests are the primary EXP source early on; 2) Daily commissions; 3) EXP domains (if available); 4) Exploring the world, unlocking waypoints, and opening chests also grants EXP. Character leveling requires Hunter Guides and Credits, so accumulate these resources alongside EXP.",
+    "tags": ["beginner", "leveling"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["credits", "basic-hunter-guide"]
+  },
+  {
+    "id": "test-vs-official",
+    "question": "异环测试版和正式版数据有区别吗？",
+    "questionEn": "Is there a difference between YiHuan test version and official version data?",
+    "answer": "异环在测试期间，游戏数据（包括角色属性、材料需求、副本掉落等）可能会在正式上线时进行调整。本站数据基于测试版本整理，正式版上线后我们会尽快更新。建议关注游戏官方公告了解最新变动。",
+    "answerEn": "During the testing period, game data (including character stats, material requirements, domain drops, etc.) may be adjusted before official launch. Our data is based on the test version and will be updated as quickly as possible after official release. Follow official announcements for the latest changes.",
+    "tags": ["meta"],
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "skill-upgrade-materials",
+    "question": "异环技能升级材料怎么获取？",
+    "questionEn": "How to get skill upgrade materials in YiHuan?",
+    "answer": "技能升级材料（教材类）主要通过以下方式获取：1) 属性对应的材料副本；2) 活动奖励；3) 商店兑换。攻击教材、防御教材等不同类型的教材对应不同属性的技能升级需求。建议根据要培养的角色属性，有针对性地刷取对应属性的教材。",
+    "answerEn": "Skill upgrade materials (Manuals) can be obtained through: 1) Attribute-specific material domains; 2) Event rewards; 3) Shop exchange. Attack Manuals, Defense Manuals, and other types correspond to different attribute skill upgrade needs. Focus on farming manuals that match your characters' attributes.",
+    "tags": ["materials"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["manual-attack"]
+  },
+  {
+    "id": "nanally-worth-building",
+    "question": "娜娜莉值得培养吗？",
+    "questionEn": "Is Nanally worth building in YiHuan?",
+    "answer": "娜娜莉是S级生命属性格斗角色，非常值得培养。她拥有强大的近战输出能力，反重力技能在战斗中非常实用。作为初始可用的高品质角色之一，娜娜莉在前期开荒和后期高难内容中都有出色的表现。推荐作为首个重点培养的角色。",
+    "answerEn": "Nanally is an S-rank Anima Fangs and Claws character, very worth building. She has powerful melee damage output and her anti-gravity skills are very practical in combat. As one of the first available high-quality characters, Nanally performs excellently in both early exploration and late-game challenges. Recommended as your first priority build.",
+    "tags": ["characters"],
+    "relatedCharacters": ["nanally"],
+    "relatedMaterials": ["anima-fragment", "anima-crystal", "boss-anima"]
+  },
+  {
+    "id": "sakiri-worth-building",
+    "question": "咲里值得培养吗？",
+    "questionEn": "Is Sakiri worth building in YiHuan?",
+    "answer": "咲里是S级咒术属性支援角色，强烈推荐培养。她能为队友提供增益效果，是多种队伍配置中的核心支援。咲里的伴生体桐丸也会参与战斗，提供额外的输出能力。如果你需要一个能提升全队战斗效率的角色，咲里是最佳选择之一。",
+    "answerEn": "Sakiri is an S-rank Incantation support character, highly recommended. She provides buffs to teammates and is a core support in many team compositions. Her companion Kiroumaru also participates in combat, adding extra damage. If you need a character that boosts overall team efficiency, Sakiri is one of the best choices.",
+    "tags": ["characters"],
+    "relatedCharacters": ["sakiri"],
+    "relatedMaterials": []
+  },
+  {
+    "id": "permit-materials",
+    "question": "异环许可证明怎么获取？",
+    "questionEn": "How to get Permit materials in YiHuan?",
+    "answer": "许可证明是角色高等级阶段升级的必需材料，分为先锋许可、专家许可和大帅许可三个等级。获取途径：1) 高等级材料副本掉落；2) 活动商店兑换；3) 部分成就奖励。许可证明是后期养成中比较稀缺的资源，建议合理规划使用。",
+    "answerEn": "Permits are essential materials for high-level character upgrades, available in three tiers: Pioneer, Expert, and Master Permits. Obtained through: 1) High-level material domain drops; 2) Event shop exchange; 3) Some achievement rewards. Permits are relatively scarce resources in late-game progression, so plan their usage carefully.",
+    "tags": ["materials"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["pioneer-permit", "expert-permit", "master-permit"]
+  },
+  {
+    "id": "fadia-worth-building",
+    "question": "法蒂亚值得培养吗？",
+    "questionEn": "Is Fadia worth building in YiHuan?",
+    "answer": "法蒂亚是S级角色，在队伍中可以担当重要输出位。她的技能机制独特，在合适的队伍配置下能发挥很高的伤害。如果你喜欢她的战斗风格，或者需要一个强力的输出角色来补充队伍配置，法蒂亚是值得投入资源培养的。",
+    "answerEn": "Fadia is an S-rank character who can serve as a key DPS in your team. Her skill mechanics are unique and can deal high damage with proper team composition. If you enjoy her playstyle or need a strong damage dealer to round out your team, Fadia is worth investing resources into.",
+    "tags": ["characters"],
+    "relatedCharacters": ["fadia"],
+    "relatedMaterials": []
+  },
+  {
+    "id": "team-composition-tips",
+    "question": "异环队伍怎么搭配？",
+    "questionEn": "How to build a team composition in YiHuan?",
+    "answer": "异环队伍搭配的基本原则：1) 属性覆盖 — 尽量覆盖多种属性以应对不同弱点的敌人；2) 角色定位 — 通常需要1个输出位、1个支援位、1个副输出/防御位；3) 属性克制 — 根据敌人弱点调整上阵角色；4) 综合考虑 — 咲里作为通用支援几乎适用于任何队伍。新手建议培养一个核心输出（如娜娜莉）+ 一个支援（如咲里）作为基础队伍。",
+    "answerEn": "Basic team composition principles in YiHuan: 1) Attribute coverage - cover multiple attributes to handle different enemy weaknesses; 2) Role balance - typically 1 main DPS, 1 support, and 1 sub-DPS/defender; 3) Exploit weaknesses - adjust your lineup based on enemy weaknesses; 4) Sakiri works as a universal support in almost any team. Beginners should build a core DPS (like Nanally) + support (like Sakiri) as a foundation.",
+    "tags": ["combat"],
+    "relatedCharacters": ["nanally", "sakiri"],
+    "relatedMaterials": []
+  },
+  {
+    "id": "resin-stamina-system",
+    "question": "异环体力系统是怎么运作的？",
+    "questionEn": "How does the stamina system work in YiHuan?",
+    "answer": "异环的体力（树脂）系统与其他同类游戏类似：1) 体力有上限，随时间自然恢复（通常每8分钟恢复1点）；2) 刷材料副本需要消耗体力；3) 体力溢出时会停止恢复，建议及时使用；4) 可以使用原晶等付费货币补充体力。合理规划体力使用是高效养成的关键。",
+    "answerEn": "YiHuan's stamina system works similarly to other games in the genre: 1) Stamina has a cap and regenerates over time (usually 1 point per 8 minutes); 2) Running material domains consumes stamina; 3) Excess stamina stops regenerating, so use it promptly; 4) Premium currency can be used to refill stamina. Planning stamina usage wisely is key to efficient progression.",
+    "tags": ["beginner", "resources"],
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "chiz-worth-building",
+    "question": "智值得培养吗？",
+    "questionEn": "Is Chiz worth building in YiHuan?",
+    "answer": "智是A级角色，虽然稀有度低于S级角色，但培养成本更低，性价比很高。A级角色在合理培养和装备搭配下，完全可以胜任大部分游戏内容。如果你是新手玩家，资源有限，培养智是一个经济实惠的选择。",
+    "answerEn": "Chiz is an A-rank character. While her rarity is lower than S-rank characters, she costs less to build and offers great value. A-rank characters can handle most game content with proper builds and equipment. If you're a new player with limited resources, building Chiz is an economical choice.",
+    "tags": ["characters"],
+    "relatedCharacters": ["chiz"],
+    "relatedMaterials": []
+  },
+  {
+    "id": "boss-materials",
+    "question": "异环首领材料怎么获取？",
+    "questionEn": "How to get boss materials in YiHuan?",
+    "answer": "首领材料（如生命守护者等）是高等级角色升级的关键材料。获取途径：1) 挑战对应属性的首领副本，每周有次数限制；2) 限时活动期间可能开放首领副本的无限制挑战；3) 部分特殊商店可以用其他材料兑换。首领材料是养成中的瓶颈资源，建议优先分配给你最核心的角色。",
+    "answerEn": "Boss materials (like Anima Guardian) are key materials for high-level character upgrades. Obtained through: 1) Challenging attribute-specific boss domains with weekly attempt limits; 2) Unlimited boss challenges may be available during limited events; 3) Some special shops allow exchanging other materials for boss materials. Boss materials are a progression bottleneck, so prioritize them for your core characters.",
+    "tags": ["materials"],
+    "relatedCharacters": [],
+    "relatedMaterials": ["boss-anima"]
+  },
+  {
+    "id": "adler-worth-building",
+    "question": "爱德勒值得培养吗？",
+    "questionEn": "Is Adler worth building in YiHuan?",
+    "answer": "爱德勒是S级角色，拥有出色的输出能力。作为S级角色，他的基础属性和技能倍率都较高，在高难内容中表现突出。如果你获得了爱德勒，推荐作为主力输出角色进行培养。",
+    "answerEn": "Adler is an S-rank character with excellent damage output. As an S-rank character, his base stats and skill multipliers are high, making him stand out in challenging content. If you've obtained Adler, he's recommended as a main DPS character to invest in.",
+    "tags": ["characters"],
+    "relatedCharacters": ["adler"],
+    "relatedMaterials": []
+  }
+]

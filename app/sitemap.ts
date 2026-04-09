@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllCharacters, getAllMaterials } from "../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllFaqs } from "../lib/queries";
 
 const BASE_URL = "https://nteguide.com";
 
@@ -71,6 +71,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,
+    });
+  });
+
+  // FAQ
+  const faqs = getAllFaqs();
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/faq`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    });
+  });
+  faqs.forEach((f) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/faq/${f.id}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.6,
+      });
     });
   });
 

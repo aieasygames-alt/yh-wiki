@@ -15,6 +15,7 @@ export function Header() {
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
     { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
     { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.calculator") },
+    { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
   ];
 
   const otherLang = lang === "zh" ? "en" : "zh";

@@ -6,7 +6,8 @@
       "home": "首页",
       "characters": "角色",
       "materials": "材料",
-      "calculator": "计算器"
+      "calculator": "计算器",
+      "faq": "攻略"
     }
   },
   "home": {
@@ -70,5 +71,9 @@
     "currency": "货币",
     "domain": "领域材料",
     "manual": "教材"
+  },
+  "faq": {
+    "title": "异环攻略 FAQ",
+    "description": "异环常见问题解答，包含升级、材料、角色培养等攻略"
   }
 }

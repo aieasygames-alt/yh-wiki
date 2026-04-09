@@ -6,7 +6,8 @@
       "home": "Home",
       "characters": "Characters",
       "materials": "Materials",
-      "calculator": "Calculator"
+      "calculator": "Calculator",
+      "faq": "FAQ"
     }
   },
   "home": {
@@ -70,5 +71,9 @@
     "currency": "Currency",
     "domain": "Domain",
     "manual": "Manual"
+  },
+  "faq": {
+    "title": "YiHuan FAQ",
+    "description": "Answers to common YiHuan questions - leveling, materials, character builds and more"
   }
 }

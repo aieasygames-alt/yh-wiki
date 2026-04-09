@@ -1,6 +1,7 @@
 import charactersData from "../data/characters.json";
 import materialsData from "../data/materials.json";
 import characterMaterialsData from "../data/character-materials.json";
+import faqsData from "../data/faqs.json";
 
 export interface Character {
   id: string;
@@ -108,4 +109,25 @@ export function calculateMaterials(
       const mb = getMaterialById(b.materialId);
       return (ma?.rarity || 0) - (mb?.rarity || 0);
     });
+}
+
+// FAQ types and queries
+
+export interface Faq {
+  id: string;
+  question: string;
+  questionEn: string;
+  answer: string;
+  answerEn: string;
+  tags: string[];
+  relatedCharacters: string[];
+  relatedMaterials: string[];
+}
+
+export function getAllFaqs(): Faq[] {
+  return faqsData as Faq[];
+}
+
+export function getFaq(slug: string): Faq | undefined {
+  return getAllFaqs().find((f) => f.id === slug);
 }
