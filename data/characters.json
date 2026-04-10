@@ -10,7 +10,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Coluccis 家族一代目，Eibon 古董店的招牌异能者。猫族异能者，以利爪进行高速近身格斗，拥有强大的反重力能力。"
+    "description": "Coluccis 家族一代目，Eibon 古董店的招牌异能者。猫族异能者，以利爪进行高速近身格斗，拥有强大的反重力能力。",
+    "faq": [
+      {
+        "question": "Is Nanally good in Neverness to Everness?",
+        "questionZh": "娜娜莉值得培养吗？",
+        "answer": "Nanally is a S-rank Attack character in Neverness to Everness. As a anima element Attack, Nanally offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "娜娜莉是异环中的S级进攻角色。Coluccis 家族一代目，Eibon 古董店的招牌异能者。猫族异能者，以利爪进行高速近身格斗，拥有强大的反重力能力。"
+      },
+      {
+        "question": "What is the best build for Nanally?",
+        "questionZh": "娜娜莉最佳配装是什么？",
+        "answer": "The best build for Nanally in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank anima character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "娜娜莉的最佳配装侧重于最大化其进攻潜力。作为S级anima属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Nanally in Neverness to Everness?",
+        "questionZh": "如何获得娜娜莉？",
+        "answer": "Nanally can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "娜娜莉可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Nanally?",
+        "questionZh": "娜娜莉最佳配队是什么？",
+        "answer": "The best team for Nanally in Neverness to Everness depends on the content. As a anima Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "娜娜莉的最佳配队取决于具体内容。作为anima属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Nanally?",
+        "questionZh": "娜娜莉最佳武器是什么？",
+        "answer": "The best weapon for Nanally depends on your playstyle and available options. They use Fangs and Claws type weapons. Check our weapon tier list for the best options for Nanally.",
+        "answerZh": "娜娜莉的最佳武器取决于你的玩法和可用选项。他们使用格斗类型武器。查看我们的武器排行榜了解娜娜莉的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "jiuyuan",
+      "mint",
+      "nelly"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "sakiri",
@@ -23,7 +63,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店的角族异能者，与贪吃的异常伴生体桐丸一起战斗。咒术属性支援角色，擅长为队友提供增益。"
+    "description": "Eibon 古董店的角族异能者，与贪吃的异常伴生体桐丸一起战斗。咒术属性支援角色，擅长为队友提供增益。",
+    "faq": [
+      {
+        "question": "Is Sakiri good in Neverness to Everness?",
+        "questionZh": "咲里值得培养吗？",
+        "answer": "Sakiri is a S-rank Support character in Neverness to Everness. As a incantation element Support, Sakiri offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "咲里是异环中的S级支援角色。Eibon 古董店的角族异能者，与贪吃的异常伴生体桐丸一起战斗。咒术属性支援角色，擅长为队友提供增益。"
+      },
+      {
+        "question": "What is the best build for Sakiri?",
+        "questionZh": "咲里最佳配装是什么？",
+        "answer": "The best build for Sakiri in Neverness to Everness focuses on maximizing their Support potential. As a S-rank incantation character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "咲里的最佳配装侧重于最大化其支援潜力。作为S级incantation属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Sakiri in Neverness to Everness?",
+        "questionZh": "如何获得咲里？",
+        "answer": "Sakiri can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "咲里可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Sakiri?",
+        "questionZh": "咲里最佳配队是什么？",
+        "answer": "The best team for Sakiri in Neverness to Everness depends on the content. As a incantation Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "咲里的最佳配队取决于具体内容。作为incantation属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Sakiri?",
+        "questionZh": "咲里最佳武器是什么？",
+        "answer": "The best weapon for Sakiri depends on your playstyle and available options. They use Kiroumaru type weapons. Check our weapon tier list for the best options for Sakiri.",
+        "answerZh": "咲里的最佳武器取决于你的玩法和可用选项。他们使用桐丸类型武器。查看我们的武器排行榜了解咲里的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "baicang",
+      "adler",
+      "lingko"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "S级支援角色。"
   },
   {
     "id": "fadia",
@@ -36,7 +116,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
-    "description": "异常控制局 ETD-4 队员，吸血鬼型异能者。性格热烈追求刺激，使用可变形的十字盾进行攻防一体的战斗。"
+    "description": "异常控制局 ETD-4 队员，吸血鬼型异能者。性格热烈追求刺激，使用可变形的十字盾进行攻防一体的战斗。",
+    "faq": [
+      {
+        "question": "Is Fadia good in Neverness to Everness?",
+        "questionZh": "法蒂亚值得培养吗？",
+        "answer": "Fadia is a S-rank Attack character in Neverness to Everness. As a psyche element Attack, Fadia offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "法蒂亚是异环中的S级进攻角色。异常控制局 ETD-4 队员，吸血鬼型异能者。性格热烈追求刺激，使用可变形的十字盾进行攻防一体的战斗。"
+      },
+      {
+        "question": "What is the best build for Fadia?",
+        "questionZh": "法蒂亚最佳配装是什么？",
+        "answer": "The best build for Fadia in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank psyche character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "法蒂亚的最佳配装侧重于最大化其进攻潜力。作为S级psyche属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Fadia in Neverness to Everness?",
+        "questionZh": "如何获得法蒂亚？",
+        "answer": "Fadia can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "法蒂亚可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Fadia?",
+        "questionZh": "法蒂亚最佳配队是什么？",
+        "answer": "The best team for Fadia in Neverness to Everness depends on the content. As a psyche Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "法蒂亚的最佳配队取决于具体内容。作为psyche属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Fadia?",
+        "questionZh": "法蒂亚最佳武器是什么？",
+        "answer": "The best weapon for Fadia depends on your playstyle and available options. They use Transforming Cross-Shield type weapons. Check our weapon tier list for the best options for Fadia.",
+        "answerZh": "法蒂亚的最佳武器取决于你的玩法和可用选项。他们使用变形十字盾类型武器。查看我们的武器排行榜了解法蒂亚的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "haniel",
+      "nitsa",
+      "jenson"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "lacrimosa",
@@ -49,7 +169,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
-    "description": "异常控制局 ETD-4 队员。性格随性慵懒，擅长操控多个异能构装体进行协同战斗。"
+    "description": "异常控制局 ETD-4 队员。性格随性慵懒，擅长操控多个异能构装体进行协同战斗。",
+    "faq": [
+      {
+        "question": "Is Lacrimosa good in Neverness to Everness?",
+        "questionZh": "拉克莉莫萨值得培养吗？",
+        "answer": "Lacrimosa is a S-rank Attack character in Neverness to Everness. As a chaos element Attack, Lacrimosa offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "拉克莉莫萨是异环中的S级进攻角色。异常控制局 ETD-4 队员。性格随性慵懒，擅长操控多个异能构装体进行协同战斗。"
+      },
+      {
+        "question": "What is the best build for Lacrimosa?",
+        "questionZh": "拉克莉莫萨最佳配装是什么？",
+        "answer": "The best build for Lacrimosa in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank chaos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "拉克莉莫萨的最佳配装侧重于最大化其进攻潜力。作为S级chaos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Lacrimosa in Neverness to Everness?",
+        "questionZh": "如何获得拉克莉莫萨？",
+        "answer": "Lacrimosa can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "拉克莉莫萨可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Lacrimosa?",
+        "questionZh": "拉克莉莫萨最佳配队是什么？",
+        "answer": "The best team for Lacrimosa in Neverness to Everness depends on the content. As a chaos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "拉克莉莫萨的最佳配队取决于具体内容。作为chaos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Lacrimosa?",
+        "questionZh": "拉克莉莫萨最佳武器是什么？",
+        "answer": "The best weapon for Lacrimosa depends on your playstyle and available options. They use Esper Constructs type weapons. Check our weapon tier list for the best options for Lacrimosa.",
+        "answerZh": "拉克莉莫萨的最佳武器取决于你的玩法和可用选项。他们使用异能构装体类型武器。查看我们的武器排行榜了解拉克莉莫萨的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "daffodil",
+      "mismo",
+      "black-bird"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "baicang",
@@ -62,7 +222,47 @@
     "role": "防护",
     "roleEn": "Defense",
     "faction": "ETD-4",
-    "description": "异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和斯基雅应对重大异常事件。以言灵之力构筑防御阵地。"
+    "description": "异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和斯基雅应对重大异常事件。以言灵之力构筑防御阵地。",
+    "faq": [
+      {
+        "question": "Is Baicang good in Neverness to Everness?",
+        "questionZh": "百苍值得培养吗？",
+        "answer": "Baicang is a S-rank Defense character in Neverness to Everness. As a incantation element Defense, Baicang offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "百苍是异环中的S级防护角色。异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和斯基雅应对重大异常事件。以言灵之力构筑防御阵地。"
+      },
+      {
+        "question": "What is the best build for Baicang?",
+        "questionZh": "百苍最佳配装是什么？",
+        "answer": "The best build for Baicang in Neverness to Everness focuses on maximizing their Defense potential. As a S-rank incantation character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "百苍的最佳配装侧重于最大化其防护潜力。作为S级incantation属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Baicang in Neverness to Everness?",
+        "questionZh": "如何获得百苍？",
+        "answer": "Baicang can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "百苍可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Baicang?",
+        "questionZh": "百苍最佳配队是什么？",
+        "answer": "The best team for Baicang in Neverness to Everness depends on the content. As a incantation Defense, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "百苍的最佳配队取决于具体内容。作为incantation属性防护，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Baicang?",
+        "questionZh": "百苍最佳武器是什么？",
+        "answer": "The best weapon for Baicang depends on your playstyle and available options. They use Power of Words type weapons. Check our weapon tier list for the best options for Baicang.",
+        "answerZh": "百苍的最佳武器取决于你的玩法和可用选项。他们使用言灵之力类型武器。查看我们的武器排行榜了解百苍的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "sakiri",
+      "adler",
+      "lingko"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Defense character in Neverness to Everness.",
+    "tierReasonZh": "S级防护角色。"
   },
   {
     "id": "zero",
@@ -75,7 +275,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店成员，沉默寡言的剑士。在测试版画面中与娜娜莉、咲里和薄荷一同战斗。"
+    "description": "Eibon 古董店成员，沉默寡言的剑士。在测试版画面中与娜娜莉、咲里和薄荷一同战斗。",
+    "faq": [
+      {
+        "question": "Is Zero good in Neverness to Everness?",
+        "questionZh": "零值得培养吗？",
+        "answer": "Zero is a S-rank Attack character in Neverness to Everness. As a cosmos element Attack, Zero offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "零是异环中的S级进攻角色。Eibon 古董店成员，沉默寡言的剑士。在测试版画面中与娜娜莉、咲里和薄荷一同战斗。"
+      },
+      {
+        "question": "What is the best build for Zero?",
+        "questionZh": "零最佳配装是什么？",
+        "answer": "The best build for Zero in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank cosmos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "零的最佳配装侧重于最大化其进攻潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Zero in Neverness to Everness?",
+        "questionZh": "如何获得零？",
+        "answer": "Zero can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "零可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Zero?",
+        "questionZh": "零最佳配队是什么？",
+        "answer": "The best team for Zero in Neverness to Everness depends on the content. As a cosmos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "零的最佳配队取决于具体内容。作为cosmos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Zero?",
+        "questionZh": "零最佳武器是什么？",
+        "answer": "The best weapon for Zero depends on your playstyle and available options. They use Sword type weapons. Check our weapon tier list for the best options for Zero.",
+        "answerZh": "零的最佳武器取决于你的玩法和可用选项。他们使用剑类型武器。查看我们的武器排行榜了解零的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "hotori",
+      "edgar",
+      "taygedo"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "hotori",
@@ -88,7 +328,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店店主，以唐伞形态的刀为武器进行战斗的宇宙属性异能者。"
+    "description": "Eibon 古董店店主，以唐伞形态的刀为武器进行战斗的宇宙属性异能者。",
+    "faq": [
+      {
+        "question": "Is Hotori good in Neverness to Everness?",
+        "questionZh": "穗鸟值得培养吗？",
+        "answer": "Hotori is a S-rank Attack character in Neverness to Everness. As a cosmos element Attack, Hotori offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "穗鸟是异环中的S级进攻角色。Eibon 古董店店主，以唐伞形态的刀为武器进行战斗的宇宙属性异能者。"
+      },
+      {
+        "question": "What is the best build for Hotori?",
+        "questionZh": "穗鸟最佳配装是什么？",
+        "answer": "The best build for Hotori in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank cosmos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "穗鸟的最佳配装侧重于最大化其进攻潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Hotori in Neverness to Everness?",
+        "questionZh": "如何获得穗鸟？",
+        "answer": "Hotori can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "穗鸟可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Hotori?",
+        "questionZh": "穗鸟最佳配队是什么？",
+        "answer": "The best team for Hotori in Neverness to Everness depends on the content. As a cosmos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "穗鸟的最佳配队取决于具体内容。作为cosmos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Hotori?",
+        "questionZh": "穗鸟最佳武器是什么？",
+        "answer": "The best weapon for Hotori depends on your playstyle and available options. They use Umbrella Katana type weapons. Check our weapon tier list for the best options for Hotori.",
+        "answerZh": "穗鸟的最佳武器取决于你的玩法和可用选项。他们使用唐伞刀类型武器。查看我们的武器排行榜了解穗鸟的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "edgar",
+      "taygedo"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "daffodil",
@@ -101,7 +381,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店安保专员，使用液态弧光武器的混沌属性支援角色。"
+    "description": "Eibon 古董店安保专员，使用液态弧光武器的混沌属性支援角色。",
+    "faq": [
+      {
+        "question": "Is Daffodil good in Neverness to Everness?",
+        "questionZh": "达芙迪尔值得培养吗？",
+        "answer": "Daffodil is a S-rank Support character in Neverness to Everness. As a chaos element Support, Daffodil offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "达芙迪尔是异环中的S级支援角色。Eibon 古董店安保专员，使用液态弧光武器的混沌属性支援角色。"
+      },
+      {
+        "question": "What is the best build for Daffodil?",
+        "questionZh": "达芙迪尔最佳配装是什么？",
+        "answer": "The best build for Daffodil in Neverness to Everness focuses on maximizing their Support potential. As a S-rank chaos character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "达芙迪尔的最佳配装侧重于最大化其支援潜力。作为S级chaos属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Daffodil in Neverness to Everness?",
+        "questionZh": "如何获得达芙迪尔？",
+        "answer": "Daffodil can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "达芙迪尔可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Daffodil?",
+        "questionZh": "达芙迪尔最佳配队是什么？",
+        "answer": "The best team for Daffodil in Neverness to Everness depends on the content. As a chaos Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "达芙迪尔的最佳配队取决于具体内容。作为chaos属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Daffodil?",
+        "questionZh": "达芙迪尔最佳武器是什么？",
+        "answer": "The best weapon for Daffodil depends on your playstyle and available options. They use Liquid-type Arc type weapons. Check our weapon tier list for the best options for Daffodil.",
+        "answerZh": "达芙迪尔的最佳武器取决于你的玩法和可用选项。他们使用液态弧光类型武器。查看我们的武器排行榜了解达芙迪尔的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "lacrimosa",
+      "mismo",
+      "black-bird"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "S级支援角色。"
   },
   {
     "id": "jiuyuan",
@@ -114,7 +434,47 @@
     "role": "辅助",
     "roleEn": "Utility",
     "faction": "未知",
-    "description": "被称为「九远小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。"
+    "description": "被称为「九远小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。",
+    "faq": [
+      {
+        "question": "Is Jiuyuan good in Neverness to Everness?",
+        "questionZh": "九远值得培养吗？",
+        "answer": "Jiuyuan is a S-rank Utility character in Neverness to Everness. As a anima element Utility, Jiuyuan offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "九远是异环中的S级辅助角色。被称为「九远小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。"
+      },
+      {
+        "question": "What is the best build for Jiuyuan?",
+        "questionZh": "九远最佳配装是什么？",
+        "answer": "The best build for Jiuyuan in Neverness to Everness focuses on maximizing their Utility potential. As a S-rank anima character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "九远的最佳配装侧重于最大化其辅助潜力。作为S级anima属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Jiuyuan in Neverness to Everness?",
+        "questionZh": "如何获得九远？",
+        "answer": "Jiuyuan can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "九远可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Jiuyuan?",
+        "questionZh": "九远最佳配队是什么？",
+        "answer": "The best team for Jiuyuan in Neverness to Everness depends on the content. As a anima Utility, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "九远的最佳配队取决于具体内容。作为anima属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Jiuyuan?",
+        "questionZh": "九远最佳武器是什么？",
+        "answer": "The best weapon for Jiuyuan depends on your playstyle and available options. They use Vehicle type weapons. Check our weapon tier list for the best options for Jiuyuan.",
+        "answerZh": "九远的最佳武器取决于你的玩法和可用选项。他们使用载具类型武器。查看我们的武器排行榜了解九远的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "mint",
+      "nelly"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Utility character in Neverness to Everness.",
+    "tierReasonZh": "S级辅助角色。"
   },
   {
     "id": "haniel",
@@ -127,7 +487,47 @@
     "role": "待定",
     "roleEn": "TBD",
     "faction": "未知",
-    "description": "目前仅公开宣传画，详细战斗风格和剧情定位尚未公布。灵魂属性 S 级异能者。"
+    "description": "目前仅公开宣传画，详细战斗风格和剧情定位尚未公布。灵魂属性 S 级异能者。",
+    "faq": [
+      {
+        "question": "Is Haniel good in Neverness to Everness?",
+        "questionZh": "哈尼尔值得培养吗？",
+        "answer": "Haniel is a S-rank TBD character in Neverness to Everness. As a psyche element TBD, Haniel offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "哈尼尔是异环中的S级待定角色。目前仅公开宣传画，详细战斗风格和剧情定位尚未公布。灵魂属性 S 级异能者。"
+      },
+      {
+        "question": "What is the best build for Haniel?",
+        "questionZh": "哈尼尔最佳配装是什么？",
+        "answer": "The best build for Haniel in Neverness to Everness focuses on maximizing their TBD potential. As a S-rank psyche character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "哈尼尔的最佳配装侧重于最大化其待定潜力。作为S级psyche属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Haniel in Neverness to Everness?",
+        "questionZh": "如何获得哈尼尔？",
+        "answer": "Haniel can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "哈尼尔可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Haniel?",
+        "questionZh": "哈尼尔最佳配队是什么？",
+        "answer": "The best team for Haniel in Neverness to Everness depends on the content. As a psyche TBD, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "哈尼尔的最佳配队取决于具体内容。作为psyche属性待定，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Haniel?",
+        "questionZh": "哈尼尔最佳武器是什么？",
+        "answer": "The best weapon for Haniel depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Haniel.",
+        "answerZh": "哈尼尔的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解哈尼尔的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "fadia",
+      "nitsa",
+      "jenson"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank TBD character in Neverness to Everness.",
+    "tierReasonZh": "S级待定角色。"
   },
   {
     "id": "adler",
@@ -140,7 +540,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店的管家，被称作「金刃管家」。A 级咒术属性异能者，使用杖剑和伴生体 Sunyas 协同战斗。"
+    "description": "Eibon 古董店的管家，被称作「金刃管家」。A 级咒术属性异能者，使用杖剑和伴生体 Sunyas 协同战斗。",
+    "faq": [
+      {
+        "question": "Is Adler good in Neverness to Everness?",
+        "questionZh": "阿德勒值得培养吗？",
+        "answer": "Adler is a A-rank Attack character in Neverness to Everness. As a incantation element Attack, Adler offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "阿德勒是异环中的A级进攻角色。Eibon 古董店的管家，被称作「金刃管家」。A 级咒术属性异能者，使用杖剑和伴生体 Sunyas 协同战斗。"
+      },
+      {
+        "question": "What is the best build for Adler?",
+        "questionZh": "阿德勒最佳配装是什么？",
+        "answer": "The best build for Adler in Neverness to Everness focuses on maximizing their Attack potential. As a A-rank incantation character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "阿德勒的最佳配装侧重于最大化其进攻潜力。作为A级incantation属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Adler in Neverness to Everness?",
+        "questionZh": "如何获得阿德勒？",
+        "answer": "Adler can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "阿德勒可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Adler?",
+        "questionZh": "阿德勒最佳配队是什么？",
+        "answer": "The best team for Adler in Neverness to Everness depends on the content. As a incantation Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "阿德勒的最佳配队取决于具体内容。作为incantation属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Adler?",
+        "questionZh": "阿德勒最佳武器是什么？",
+        "answer": "The best weapon for Adler depends on your playstyle and available options. They use Cane Sword and Sunyas type weapons. Check our weapon tier list for the best options for Adler.",
+        "answerZh": "阿德勒的最佳武器取决于你的玩法和可用选项。他们使用杖剑与 Sunyas类型武器。查看我们的武器排行榜了解阿德勒的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "sakiri",
+      "baicang",
+      "lingko"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "A级进攻角色。"
   },
   {
     "id": "skia",
@@ -153,7 +593,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
-    "description": "异常控制局 ETD-4 队员，与法蒂亚和拉克莉莫萨一同行动。相属性异能者，以影子操控进行战斗。"
+    "description": "异常控制局 ETD-4 队员，与法蒂亚和拉克莉莫萨一同行动。相属性异能者，以影子操控进行战斗。",
+    "faq": [
+      {
+        "question": "Is Skia good in Neverness to Everness?",
+        "questionZh": "斯基雅值得培养吗？",
+        "answer": "Skia is a A-rank Attack character in Neverness to Everness. As a lakshana element Attack, Skia offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "斯基雅是异环中的A级进攻角色。异常控制局 ETD-4 队员，与法蒂亚和拉克莉莫萨一同行动。相属性异能者，以影子操控进行战斗。"
+      },
+      {
+        "question": "What is the best build for Skia?",
+        "questionZh": "斯基雅最佳配装是什么？",
+        "answer": "The best build for Skia in Neverness to Everness focuses on maximizing their Attack potential. As a A-rank lakshana character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "斯基雅的最佳配装侧重于最大化其进攻潜力。作为A级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Skia in Neverness to Everness?",
+        "questionZh": "如何获得斯基雅？",
+        "answer": "Skia can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "斯基雅可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Skia?",
+        "questionZh": "斯基雅最佳配队是什么？",
+        "answer": "The best team for Skia in Neverness to Everness depends on the content. As a lakshana Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "斯基雅的最佳配队取决于具体内容。作为lakshana属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Skia?",
+        "questionZh": "斯基雅最佳武器是什么？",
+        "answer": "The best weapon for Skia depends on your playstyle and available options. They use Shadow Manipulation type weapons. Check our weapon tier list for the best options for Skia.",
+        "answerZh": "斯基雅的最佳武器取决于你的玩法和可用选项。他们使用影操控类型武器。查看我们的武器排行榜了解斯基雅的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "merula",
+      "alphard",
+      "hathor"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "A级进攻角色。"
   },
   {
     "id": "edgar",
@@ -166,7 +646,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店成员，蓝发少年。宇宙属性 A 级异能者，在古董店协助阿德勒处理各类异常委托。"
+    "description": "Eibon 古董店成员，蓝发少年。宇宙属性 A 级异能者，在古董店协助阿德勒处理各类异常委托。",
+    "faq": [
+      {
+        "question": "Is Edgar good in Neverness to Everness?",
+        "questionZh": "埃德加值得培养吗？",
+        "answer": "Edgar is a A-rank Support character in Neverness to Everness. As a cosmos element Support, Edgar offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "埃德加是异环中的A级支援角色。Eibon 古董店成员，蓝发少年。宇宙属性 A 级异能者，在古董店协助阿德勒处理各类异常委托。"
+      },
+      {
+        "question": "What is the best build for Edgar?",
+        "questionZh": "埃德加最佳配装是什么？",
+        "answer": "The best build for Edgar in Neverness to Everness focuses on maximizing their Support potential. As a A-rank cosmos character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "埃德加的最佳配装侧重于最大化其支援潜力。作为A级cosmos属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Edgar in Neverness to Everness?",
+        "questionZh": "如何获得埃德加？",
+        "answer": "Edgar can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "埃德加可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Edgar?",
+        "questionZh": "埃德加最佳配队是什么？",
+        "answer": "The best team for Edgar in Neverness to Everness depends on the content. As a cosmos Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "埃德加的最佳配队取决于具体内容。作为cosmos属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Edgar?",
+        "questionZh": "埃德加最佳武器是什么？",
+        "answer": "The best weapon for Edgar depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Edgar.",
+        "answerZh": "埃德加的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解埃德加的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "hotori",
+      "taygedo"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级支援角色。"
   },
   {
     "id": "mint",
@@ -179,7 +699,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "异常控制局",
-    "description": "异常控制局 CSU-2 成员。生命属性 A 级异能者，以双刃进行快速支援战斗。"
+    "description": "异常控制局 CSU-2 成员。生命属性 A 级异能者，以双刃进行快速支援战斗。",
+    "faq": [
+      {
+        "question": "Is Mint good in Neverness to Everness?",
+        "questionZh": "薄荷值得培养吗？",
+        "answer": "Mint is a A-rank Support character in Neverness to Everness. As a anima element Support, Mint offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "薄荷是异环中的A级支援角色。异常控制局 CSU-2 成员。生命属性 A 级异能者，以双刃进行快速支援战斗。"
+      },
+      {
+        "question": "What is the best build for Mint?",
+        "questionZh": "薄荷最佳配装是什么？",
+        "answer": "The best build for Mint in Neverness to Everness focuses on maximizing their Support potential. As a A-rank anima character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "薄荷的最佳配装侧重于最大化其支援潜力。作为A级anima属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Mint in Neverness to Everness?",
+        "questionZh": "如何获得薄荷？",
+        "answer": "Mint can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "薄荷可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Mint?",
+        "questionZh": "薄荷最佳配队是什么？",
+        "answer": "The best team for Mint in Neverness to Everness depends on the content. As a anima Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "薄荷的最佳配队取决于具体内容。作为anima属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Mint?",
+        "questionZh": "薄荷最佳武器是什么？",
+        "answer": "The best weapon for Mint depends on your playstyle and available options. They use Dual Blades type weapons. Check our weapon tier list for the best options for Mint.",
+        "answerZh": "薄荷的最佳武器取决于你的玩法和可用选项。他们使用双刃类型武器。查看我们的武器排行榜了解薄荷的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "nelly"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级支援角色。"
   },
   {
     "id": "nelly",
@@ -192,7 +752,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "异常控制局",
-    "description": "异常控制局秘书长。生命属性 A 级异能者。"
+    "description": "异常控制局秘书长。生命属性 A 级异能者。",
+    "faq": [
+      {
+        "question": "Is Nelly good in Neverness to Everness?",
+        "questionZh": "奈莉值得培养吗？",
+        "answer": "Nelly is a A-rank Support character in Neverness to Everness. As a anima element Support, Nelly offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "奈莉是异环中的A级支援角色。异常控制局秘书长。生命属性 A 级异能者。"
+      },
+      {
+        "question": "What is the best build for Nelly?",
+        "questionZh": "奈莉最佳配装是什么？",
+        "answer": "The best build for Nelly in Neverness to Everness focuses on maximizing their Support potential. As a A-rank anima character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "奈莉的最佳配装侧重于最大化其支援潜力。作为A级anima属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Nelly in Neverness to Everness?",
+        "questionZh": "如何获得奈莉？",
+        "answer": "Nelly can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "奈莉可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Nelly?",
+        "questionZh": "奈莉最佳配队是什么？",
+        "answer": "The best team for Nelly in Neverness to Everness depends on the content. As a anima Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "奈莉的最佳配队取决于具体内容。作为anima属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Nelly?",
+        "questionZh": "奈莉最佳武器是什么？",
+        "answer": "The best weapon for Nelly depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Nelly.",
+        "answerZh": "奈莉的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解奈莉的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级支援角色。"
   },
   {
     "id": "merula",
@@ -205,7 +805,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "相属性异能者，Wiki 标注可能为 S 级。详细信息待游戏正式上线后确认。"
+    "description": "相属性异能者，Wiki 标注可能为 S 级。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Merula good in Neverness to Everness?",
+        "questionZh": "梅露拉值得培养吗？",
+        "answer": "Merula is a A-rank Attack character in Neverness to Everness. As a lakshana element Attack, Merula offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "梅露拉是异环中的A级进攻角色。相属性异能者，Wiki 标注可能为 S 级。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Merula?",
+        "questionZh": "梅露拉最佳配装是什么？",
+        "answer": "The best build for Merula in Neverness to Everness focuses on maximizing their Attack potential. As a A-rank lakshana character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "梅露拉的最佳配装侧重于最大化其进攻潜力。作为A级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Merula in Neverness to Everness?",
+        "questionZh": "如何获得梅露拉？",
+        "answer": "Merula can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "梅露拉可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Merula?",
+        "questionZh": "梅露拉最佳配队是什么？",
+        "answer": "The best team for Merula in Neverness to Everness depends on the content. As a lakshana Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "梅露拉的最佳配队取决于具体内容。作为lakshana属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Merula?",
+        "questionZh": "梅露拉最佳武器是什么？",
+        "answer": "The best weapon for Merula depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Merula.",
+        "answerZh": "梅露拉的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解梅露拉的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "skia",
+      "alphard",
+      "hathor"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "A级进攻角色。"
   },
   {
     "id": "alphard",
@@ -218,7 +858,47 @@
     "role": "待定",
     "roleEn": "TBD",
     "faction": "未知",
-    "description": "长白发少女，在故事初期与主角相遇。相属性异能者，身份和阵营信息存在冲突待确认。"
+    "description": "长白发少女，在故事初期与主角相遇。相属性异能者，身份和阵营信息存在冲突待确认。",
+    "faq": [
+      {
+        "question": "Is Alphard good in Neverness to Everness?",
+        "questionZh": "阿尔法德值得培养吗？",
+        "answer": "Alphard is a A-rank TBD character in Neverness to Everness. As a lakshana element TBD, Alphard offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "阿尔法德是异环中的A级待定角色。长白发少女，在故事初期与主角相遇。相属性异能者，身份和阵营信息存在冲突待确认。"
+      },
+      {
+        "question": "What is the best build for Alphard?",
+        "questionZh": "阿尔法德最佳配装是什么？",
+        "answer": "The best build for Alphard in Neverness to Everness focuses on maximizing their TBD potential. As a A-rank lakshana character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "阿尔法德的最佳配装侧重于最大化其待定潜力。作为A级lakshana属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Alphard in Neverness to Everness?",
+        "questionZh": "如何获得阿尔法德？",
+        "answer": "Alphard can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "阿尔法德可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Alphard?",
+        "questionZh": "阿尔法德最佳配队是什么？",
+        "answer": "The best team for Alphard in Neverness to Everness depends on the content. As a lakshana TBD, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "阿尔法德的最佳配队取决于具体内容。作为lakshana属性待定，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Alphard?",
+        "questionZh": "阿尔法德最佳武器是什么？",
+        "answer": "The best weapon for Alphard depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Alphard.",
+        "answerZh": "阿尔法德的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解阿尔法德的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "skia",
+      "merula",
+      "hathor"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank TBD character in Neverness to Everness.",
+    "tierReasonZh": "A级待定角色。"
   },
   {
     "id": "taygedo",
@@ -231,7 +911,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店的奇异生物，电视头显示狗脸。三届「Eibon 最佳修复师」得主。宇宙属性 A 级支援角色。"
+    "description": "Eibon 古董店的奇异生物，电视头显示狗脸。三届「Eibon 最佳修复师」得主。宇宙属性 A 级支援角色。",
+    "faq": [
+      {
+        "question": "Is Taygedo good in Neverness to Everness?",
+        "questionZh": "泰格多值得培养吗？",
+        "answer": "Taygedo is a A-rank Support character in Neverness to Everness. As a cosmos element Support, Taygedo offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "泰格多是异环中的A级支援角色。Eibon 古董店的奇异生物，电视头显示狗脸。三届「Eibon 最佳修复师」得主。宇宙属性 A 级支援角色。"
+      },
+      {
+        "question": "What is the best build for Taygedo?",
+        "questionZh": "泰格多最佳配装是什么？",
+        "answer": "The best build for Taygedo in Neverness to Everness focuses on maximizing their Support potential. As a A-rank cosmos character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "泰格多的最佳配装侧重于最大化其支援潜力。作为A级cosmos属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Taygedo in Neverness to Everness?",
+        "questionZh": "如何获得泰格多？",
+        "answer": "Taygedo can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "泰格多可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Taygedo?",
+        "questionZh": "泰格多最佳配队是什么？",
+        "answer": "The best team for Taygedo in Neverness to Everness depends on the content. As a cosmos Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "泰格多的最佳配队取决于具体内容。作为cosmos属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Taygedo?",
+        "questionZh": "泰格多最佳武器是什么？",
+        "answer": "The best weapon for Taygedo depends on your playstyle and available options. They use Construct type weapons. Check our weapon tier list for the best options for Taygedo.",
+        "answerZh": "泰格多的最佳武器取决于你的玩法和可用选项。他们使用构装体类型武器。查看我们的武器排行榜了解泰格多的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "hotori",
+      "edgar"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级支援角色。"
   },
   {
     "id": "hathor",
@@ -244,7 +964,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "S 级相属性异能者，以刃翼为武器进行战斗。详细信息待确认。"
+    "description": "S 级相属性异能者，以刃翼为武器进行战斗。详细信息待确认。",
+    "faq": [
+      {
+        "question": "Is Hathor good in Neverness to Everness?",
+        "questionZh": "哈索尔值得培养吗？",
+        "answer": "Hathor is a S-rank Attack character in Neverness to Everness. As a lakshana element Attack, Hathor offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "哈索尔是异环中的S级进攻角色。S 级相属性异能者，以刃翼为武器进行战斗。详细信息待确认。"
+      },
+      {
+        "question": "What is the best build for Hathor?",
+        "questionZh": "哈索尔最佳配装是什么？",
+        "answer": "The best build for Hathor in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank lakshana character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "哈索尔的最佳配装侧重于最大化其进攻潜力。作为S级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Hathor in Neverness to Everness?",
+        "questionZh": "如何获得哈索尔？",
+        "answer": "Hathor can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "哈索尔可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Hathor?",
+        "questionZh": "哈索尔最佳配队是什么？",
+        "answer": "The best team for Hathor in Neverness to Everness depends on the content. As a lakshana Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "哈索尔的最佳配队取决于具体内容。作为lakshana属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Hathor?",
+        "questionZh": "哈索尔最佳武器是什么？",
+        "answer": "The best weapon for Hathor depends on your playstyle and available options. They use Blade Wings type weapons. Check our weapon tier list for the best options for Hathor.",
+        "answerZh": "哈索尔的最佳武器取决于你的玩法和可用选项。他们使用刃翼类型武器。查看我们的武器排行榜了解哈索尔的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "skia",
+      "merula",
+      "alphard"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "chiz",
@@ -257,7 +1017,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "S 级宇宙属性异能者，使用妖锤战斗。城市大亨模式 18 级免费获取。"
+    "description": "S 级宇宙属性异能者，使用妖锤战斗。城市大亨模式 18 级免费获取。",
+    "faq": [
+      {
+        "question": "Is Chiz good in Neverness to Everness?",
+        "questionZh": "赤子值得培养吗？",
+        "answer": "Chiz is a S-rank Attack character in Neverness to Everness. As a cosmos element Attack, Chiz offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "赤子是异环中的S级进攻角色。S 级宇宙属性异能者，使用妖锤战斗。城市大亨模式 18 级免费获取。"
+      },
+      {
+        "question": "What is the best build for Chiz?",
+        "questionZh": "赤子最佳配装是什么？",
+        "answer": "The best build for Chiz in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank cosmos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "赤子的最佳配装侧重于最大化其进攻潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Chiz in Neverness to Everness?",
+        "questionZh": "如何获得赤子？",
+        "answer": "Chiz can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "赤子可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Chiz?",
+        "questionZh": "赤子最佳配队是什么？",
+        "answer": "The best team for Chiz in Neverness to Everness depends on the content. As a cosmos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "赤子的最佳配队取决于具体内容。作为cosmos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Chiz?",
+        "questionZh": "赤子最佳武器是什么？",
+        "answer": "The best weapon for Chiz depends on your playstyle and available options. They use Yokai Hammer type weapons. Check our weapon tier list for the best options for Chiz.",
+        "answerZh": "赤子的最佳武器取决于你的玩法和可用选项。他们使用妖锤类型武器。查看我们的武器排行榜了解赤子的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "hotori",
+      "edgar"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "lilina",
@@ -270,7 +1070,47 @@
     "role": "待定",
     "roleEn": "TBD",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店一号台柱，官网已公开展示。详细信息待游戏正式上线后确认。"
+    "description": "Eibon 古董店一号台柱，官网已公开展示。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Lilina good in Neverness to Everness?",
+        "questionZh": "莉莉娜值得培养吗？",
+        "answer": "Lilina is a S-rank TBD character in Neverness to Everness. As a cosmos element TBD, Lilina offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "莉莉娜是异环中的S级待定角色。Eibon 古董店一号台柱，官网已公开展示。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Lilina?",
+        "questionZh": "莉莉娜最佳配装是什么？",
+        "answer": "The best build for Lilina in Neverness to Everness focuses on maximizing their TBD potential. As a S-rank cosmos character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "莉莉娜的最佳配装侧重于最大化其待定潜力。作为S级cosmos属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Lilina in Neverness to Everness?",
+        "questionZh": "如何获得莉莉娜？",
+        "answer": "Lilina can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "莉莉娜可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Lilina?",
+        "questionZh": "莉莉娜最佳配队是什么？",
+        "answer": "The best team for Lilina in Neverness to Everness depends on the content. As a cosmos TBD, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "莉莉娜的最佳配队取决于具体内容。作为cosmos属性待定，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Lilina?",
+        "questionZh": "莉莉娜最佳武器是什么？",
+        "answer": "The best weapon for Lilina depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Lilina.",
+        "answerZh": "莉莉娜的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解莉莉娜的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "hotori",
+      "edgar"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank TBD character in Neverness to Everness.",
+    "tierReasonZh": "S级待定角色。"
   },
   {
     "id": "the-appraiser",
@@ -283,7 +1123,47 @@
     "role": "辅助",
     "roleEn": "Utility",
     "faction": "Eibon Antique Shop",
-    "description": "玩家主角，伊本古董店的新任鉴定师。拥有鉴定异常物品的独特能力，能够识别并分析各种奇物和异象的来源。宇宙属性 S 级异能者，故事的核心人物。"
+    "description": "玩家主角，伊本古董店的新任鉴定师。拥有鉴定异常物品的独特能力，能够识别并分析各种奇物和异象的来源。宇宙属性 S 级异能者，故事的核心人物。",
+    "faq": [
+      {
+        "question": "Is The Appraiser good in Neverness to Everness?",
+        "questionZh": "鉴定师值得培养吗？",
+        "answer": "The Appraiser is a S-rank Utility character in Neverness to Everness. As a cosmos element Utility, The Appraiser offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "鉴定师是异环中的S级辅助角色。玩家主角，伊本古董店的新任鉴定师。拥有鉴定异常物品的独特能力，能够识别并分析各种奇物和异象的来源。宇宙属性 S 级异能者，故事的核心人物。"
+      },
+      {
+        "question": "What is the best build for The Appraiser?",
+        "questionZh": "鉴定师最佳配装是什么？",
+        "answer": "The best build for The Appraiser in Neverness to Everness focuses on maximizing their Utility potential. As a S-rank cosmos character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "鉴定师的最佳配装侧重于最大化其辅助潜力。作为S级cosmos属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get The Appraiser in Neverness to Everness?",
+        "questionZh": "如何获得鉴定师？",
+        "answer": "The Appraiser can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "鉴定师可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for The Appraiser?",
+        "questionZh": "鉴定师最佳配队是什么？",
+        "answer": "The best team for The Appraiser in Neverness to Everness depends on the content. As a cosmos Utility, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "鉴定师的最佳配队取决于具体内容。作为cosmos属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for The Appraiser?",
+        "questionZh": "鉴定师最佳武器是什么？",
+        "answer": "The best weapon for The Appraiser depends on your playstyle and available options. They use Appraisal Ability type weapons. Check our weapon tier list for the best options for The Appraiser.",
+        "answerZh": "鉴定师的最佳武器取决于你的玩法和可用选项。他们使用鉴定能力类型武器。查看我们的武器排行榜了解鉴定师的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "hotori",
+      "edgar"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Utility character in Neverness to Everness.",
+    "tierReasonZh": "S级辅助角色。"
   },
   {
     "id": "lingko",
@@ -296,7 +1176,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "在预告片中出现的角色，咒术属性异能者。详细信息待游戏正式上线后确认。"
+    "description": "在预告片中出现的角色，咒术属性异能者。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Lingko good in Neverness to Everness?",
+        "questionZh": "凛子值得培养吗？",
+        "answer": "Lingko is a A-rank Attack character in Neverness to Everness. As a incantation element Attack, Lingko offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "凛子是异环中的A级进攻角色。在预告片中出现的角色，咒术属性异能者。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Lingko?",
+        "questionZh": "凛子最佳配装是什么？",
+        "answer": "The best build for Lingko in Neverness to Everness focuses on maximizing their Attack potential. As a A-rank incantation character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "凛子的最佳配装侧重于最大化其进攻潜力。作为A级incantation属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Lingko in Neverness to Everness?",
+        "questionZh": "如何获得凛子？",
+        "answer": "Lingko can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "凛子可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Lingko?",
+        "questionZh": "凛子最佳配队是什么？",
+        "answer": "The best team for Lingko in Neverness to Everness depends on the content. As a incantation Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "凛子的最佳配队取决于具体内容。作为incantation属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Lingko?",
+        "questionZh": "凛子最佳武器是什么？",
+        "answer": "The best weapon for Lingko depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Lingko.",
+        "answerZh": "凛子的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解凛子的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "sakiri",
+      "baicang",
+      "adler"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "A级进攻角色。"
   },
   {
     "id": "mismo",
@@ -309,7 +1229,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "未知",
-    "description": "在预告片中出现的角色，混沌属性异能者。详细信息待游戏正式上线后确认。"
+    "description": "在预告片中出现的角色，混沌属性异能者。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Mismo good in Neverness to Everness?",
+        "questionZh": "密斯莫值得培养吗？",
+        "answer": "Mismo is a A-rank Support character in Neverness to Everness. As a chaos element Support, Mismo offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "密斯莫是异环中的A级支援角色。在预告片中出现的角色，混沌属性异能者。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Mismo?",
+        "questionZh": "密斯莫最佳配装是什么？",
+        "answer": "The best build for Mismo in Neverness to Everness focuses on maximizing their Support potential. As a A-rank chaos character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "密斯莫的最佳配装侧重于最大化其支援潜力。作为A级chaos属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Mismo in Neverness to Everness?",
+        "questionZh": "如何获得密斯莫？",
+        "answer": "Mismo can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "密斯莫可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Mismo?",
+        "questionZh": "密斯莫最佳配队是什么？",
+        "answer": "The best team for Mismo in Neverness to Everness depends on the content. As a chaos Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "密斯莫的最佳配队取决于具体内容。作为chaos属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Mismo?",
+        "questionZh": "密斯莫最佳武器是什么？",
+        "answer": "The best weapon for Mismo depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Mismo.",
+        "answerZh": "密斯莫的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解密斯莫的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "lacrimosa",
+      "daffodil",
+      "black-bird"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级支援角色。"
   },
   {
     "id": "shinku",
@@ -322,7 +1282,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "Co-Ex 测试版中出现过的角色，生命属性异能者。详细信息待游戏正式上线后确认。"
+    "description": "Co-Ex 测试版中出现过的角色，生命属性异能者。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Shinku good in Neverness to Everness?",
+        "questionZh": "沁红值得培养吗？",
+        "answer": "Shinku is a A-rank Attack character in Neverness to Everness. As a anima element Attack, Shinku offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "沁红是异环中的A级进攻角色。Co-Ex 测试版中出现过的角色，生命属性异能者。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Shinku?",
+        "questionZh": "沁红最佳配装是什么？",
+        "answer": "The best build for Shinku in Neverness to Everness focuses on maximizing their Attack potential. As a A-rank anima character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "沁红的最佳配装侧重于最大化其进攻潜力。作为A级anima属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Shinku in Neverness to Everness?",
+        "questionZh": "如何获得沁红？",
+        "answer": "Shinku can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "沁红可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Shinku?",
+        "questionZh": "沁红最佳配队是什么？",
+        "answer": "The best team for Shinku in Neverness to Everness depends on the content. As a anima Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "沁红的最佳配队取决于具体内容。作为anima属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Shinku?",
+        "questionZh": "沁红最佳武器是什么？",
+        "answer": "The best weapon for Shinku depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Shinku.",
+        "answerZh": "沁红的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解沁红的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "A级进攻角色。"
   },
   {
     "id": "nitsa",
@@ -335,7 +1335,47 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "未知",
-    "description": "Beta 测试中出现的角色，灵魂属性异能者。详细信息待游戏正式上线后确认。"
+    "description": "Beta 测试中出现的角色，灵魂属性异能者。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Nitsa good in Neverness to Everness?",
+        "questionZh": "尼察值得培养吗？",
+        "answer": "Nitsa is a A-rank Support character in Neverness to Everness. As a psyche element Support, Nitsa offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "尼察是异环中的A级支援角色。Beta 测试中出现的角色，灵魂属性异能者。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Nitsa?",
+        "questionZh": "尼察最佳配装是什么？",
+        "answer": "The best build for Nitsa in Neverness to Everness focuses on maximizing their Support potential. As a A-rank psyche character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "尼察的最佳配装侧重于最大化其支援潜力。作为A级psyche属性角色，优先能量回复和辅助属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Nitsa in Neverness to Everness?",
+        "questionZh": "如何获得尼察？",
+        "answer": "Nitsa can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "尼察可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Nitsa?",
+        "questionZh": "尼察最佳配队是什么？",
+        "answer": "The best team for Nitsa in Neverness to Everness depends on the content. As a psyche Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "尼察的最佳配队取决于具体内容。作为psyche属性支援，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Nitsa?",
+        "questionZh": "尼察最佳武器是什么？",
+        "answer": "The best weapon for Nitsa depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Nitsa.",
+        "answerZh": "尼察的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解尼察的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "fadia",
+      "haniel",
+      "jenson"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级支援角色。"
   },
   {
     "id": "black-bird",
@@ -348,7 +1388,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "通过数据挖掘发现的角色，混沌属性 S 级异能者。详细信息待确认，可能在正式上线时出现。"
+    "description": "通过数据挖掘发现的角色，混沌属性 S 级异能者。详细信息待确认，可能在正式上线时出现。",
+    "faq": [
+      {
+        "question": "Is Black Bird good in Neverness to Everness?",
+        "questionZh": "黑鸟值得培养吗？",
+        "answer": "Black Bird is a S-rank Attack character in Neverness to Everness. As a chaos element Attack, Black Bird offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "黑鸟是异环中的S级进攻角色。通过数据挖掘发现的角色，混沌属性 S 级异能者。详细信息待确认，可能在正式上线时出现。"
+      },
+      {
+        "question": "What is the best build for Black Bird?",
+        "questionZh": "黑鸟最佳配装是什么？",
+        "answer": "The best build for Black Bird in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank chaos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "黑鸟的最佳配装侧重于最大化其进攻潜力。作为S级chaos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Black Bird in Neverness to Everness?",
+        "questionZh": "如何获得黑鸟？",
+        "answer": "Black Bird can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "黑鸟可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Black Bird?",
+        "questionZh": "黑鸟最佳配队是什么？",
+        "answer": "The best team for Black Bird in Neverness to Everness depends on the content. As a chaos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "黑鸟的最佳配队取决于具体内容。作为chaos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Black Bird?",
+        "questionZh": "黑鸟最佳武器是什么？",
+        "answer": "The best weapon for Black Bird depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Black Bird.",
+        "answerZh": "黑鸟的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解黑鸟的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "lacrimosa",
+      "daffodil",
+      "mismo"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "xiaozhen",
@@ -361,7 +1441,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "通过数据挖掘发现的角色，生命属性 S 级异能者。详细信息待确认。"
+    "description": "通过数据挖掘发现的角色，生命属性 S 级异能者。详细信息待确认。",
+    "faq": [
+      {
+        "question": "Is Xiaozhen good in Neverness to Everness?",
+        "questionZh": "明虎值得培养吗？",
+        "answer": "Xiaozhen is a S-rank Attack character in Neverness to Everness. As a anima element Attack, Xiaozhen offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "明虎是异环中的S级进攻角色。通过数据挖掘发现的角色，生命属性 S 级异能者。详细信息待确认。"
+      },
+      {
+        "question": "What is the best build for Xiaozhen?",
+        "questionZh": "明虎最佳配装是什么？",
+        "answer": "The best build for Xiaozhen in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank anima character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "明虎的最佳配装侧重于最大化其进攻潜力。作为S级anima属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Xiaozhen in Neverness to Everness?",
+        "questionZh": "如何获得明虎？",
+        "answer": "Xiaozhen can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "明虎可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Xiaozhen?",
+        "questionZh": "明虎最佳配队是什么？",
+        "answer": "The best team for Xiaozhen in Neverness to Everness depends on the content. As a anima Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "明虎的最佳配队取决于具体内容。作为anima属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Xiaozhen?",
+        "questionZh": "明虎最佳武器是什么？",
+        "answer": "The best weapon for Xiaozhen depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Xiaozhen.",
+        "answerZh": "明虎的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解明虎的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "akane",
@@ -374,7 +1494,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "已确认的 S 级角色，咒术属性异能者。详细信息待游戏正式上线后确认。"
+    "description": "已确认的 S 级角色，咒术属性异能者。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Akane good in Neverness to Everness?",
+        "questionZh": "赤音值得培养吗？",
+        "answer": "Akane is a S-rank Attack character in Neverness to Everness. As a incantation element Attack, Akane offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "赤音是异环中的S级进攻角色。已确认的 S 级角色，咒术属性异能者。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Akane?",
+        "questionZh": "赤音最佳配装是什么？",
+        "answer": "The best build for Akane in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank incantation character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "赤音的最佳配装侧重于最大化其进攻潜力。作为S级incantation属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Akane in Neverness to Everness?",
+        "questionZh": "如何获得赤音？",
+        "answer": "Akane can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "赤音可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Akane?",
+        "questionZh": "赤音最佳配队是什么？",
+        "answer": "The best team for Akane in Neverness to Everness depends on the content. As a incantation Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "赤音的最佳配队取决于具体内容。作为incantation属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Akane?",
+        "questionZh": "赤音最佳武器是什么？",
+        "answer": "The best weapon for Akane depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Akane.",
+        "answerZh": "赤音的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解赤音的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "sakiri",
+      "baicang",
+      "adler"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "jenson",
@@ -387,7 +1547,47 @@
     "role": "防护",
     "roleEn": "Defense",
     "faction": "未知",
-    "description": "来自社区数据的角色，灵魂属性异能者。详细信息待确认。"
+    "description": "来自社区数据的角色，灵魂属性异能者。详细信息待确认。",
+    "faq": [
+      {
+        "question": "Is Jenson good in Neverness to Everness?",
+        "questionZh": "詹森值得培养吗？",
+        "answer": "Jenson is a A-rank Defense character in Neverness to Everness. As a psyche element Defense, Jenson offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "詹森是异环中的A级防护角色。来自社区数据的角色，灵魂属性异能者。详细信息待确认。"
+      },
+      {
+        "question": "What is the best build for Jenson?",
+        "questionZh": "詹森最佳配装是什么？",
+        "answer": "The best build for Jenson in Neverness to Everness focuses on maximizing their Defense potential. As a A-rank psyche character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "詹森的最佳配装侧重于最大化其防护潜力。作为A级psyche属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Jenson in Neverness to Everness?",
+        "questionZh": "如何获得詹森？",
+        "answer": "Jenson can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "詹森可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Jenson?",
+        "questionZh": "詹森最佳配队是什么？",
+        "answer": "The best team for Jenson in Neverness to Everness depends on the content. As a psyche Defense, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "詹森的最佳配队取决于具体内容。作为psyche属性防护，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Jenson?",
+        "questionZh": "詹森最佳武器是什么？",
+        "answer": "The best weapon for Jenson depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Jenson.",
+        "answerZh": "詹森的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解詹森的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "fadia",
+      "haniel",
+      "nitsa"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Defense character in Neverness to Everness.",
+    "tierReasonZh": "A级防护角色。"
   },
   {
     "id": "illica",
@@ -400,7 +1600,47 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "未知",
-    "description": "已确认的 S 级角色，相属性异能者。详细信息待游戏正式上线后确认。"
+    "description": "已确认的 S 级角色，相属性异能者。详细信息待游戏正式上线后确认。",
+    "faq": [
+      {
+        "question": "Is Illica good in Neverness to Everness?",
+        "questionZh": "伊利卡值得培养吗？",
+        "answer": "Illica is a S-rank Attack character in Neverness to Everness. As a lakshana element Attack, Illica offers unique combat capabilities. Check our tier list for the latest ranking.",
+        "answerZh": "伊利卡是异环中的S级进攻角色。已确认的 S 级角色，相属性异能者。详细信息待游戏正式上线后确认。"
+      },
+      {
+        "question": "What is the best build for Illica?",
+        "questionZh": "伊利卡最佳配装是什么？",
+        "answer": "The best build for Illica in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank lakshana character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "伊利卡的最佳配装侧重于最大化其进攻潜力。作为S级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Illica in Neverness to Everness?",
+        "questionZh": "如何获得伊利卡？",
+        "answer": "Illica can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "伊利卡可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Illica?",
+        "questionZh": "伊利卡最佳配队是什么？",
+        "answer": "The best team for Illica in Neverness to Everness depends on the content. As a lakshana Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "伊利卡的最佳配队取决于具体内容。作为lakshana属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Illica?",
+        "questionZh": "伊利卡最佳武器是什么？",
+        "answer": "The best weapon for Illica depends on your playstyle and available options. They use TBD type weapons. Check our weapon tier list for the best options for Illica.",
+        "answerZh": "伊利卡的最佳武器取决于你的玩法和可用选项。他们使用待定类型武器。查看我们的武器排行榜了解伊利卡的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "skia",
+      "merula",
+      "alphard"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Attack character in Neverness to Everness.",
+    "tierReasonZh": "S级进攻角色。"
   },
   {
     "id": "fuuka",
@@ -414,7 +1654,47 @@
     "roleEn": "Support",
     "faction": "星铁快递",
     "description": "星铁快递的新人成员，擅长为队友提供治疗效果",
-    "descriptionEn": "A new member of Sterry Express who excels at healing teammates"
+    "descriptionEn": "A new member of Sterry Express who excels at healing teammates",
+    "faq": [
+      {
+        "question": "Is Fuuka good in Neverness to Everness?",
+        "questionZh": "风花值得培养吗？",
+        "answer": "Fuuka is a A-rank Support character in Neverness to Everness. A new member of Sterry Express who excels at healing teammates",
+        "answerZh": "风花是异环中的A级辅助角色。星铁快递的新人成员，擅长为队友提供治疗效果"
+      },
+      {
+        "question": "What is the best build for Fuuka?",
+        "questionZh": "风花最佳配装是什么？",
+        "answer": "The best build for Fuuka in Neverness to Everness focuses on maximizing their Support potential. As a A-rank anima character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "风花的最佳配装侧重于最大化其辅助潜力。作为A级anima属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Fuuka in Neverness to Everness?",
+        "questionZh": "如何获得风花？",
+        "answer": "Fuuka can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "风花可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Fuuka?",
+        "questionZh": "风花最佳配队是什么？",
+        "answer": "The best team for Fuuka in Neverness to Everness depends on the content. As a anima Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "风花的最佳配队取决于具体内容。作为anima属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Fuuka?",
+        "questionZh": "风花最佳武器是什么？",
+        "answer": "The best weapon for Fuuka depends on your playstyle and available options. They use Melee type weapons. Check our weapon tier list for the best options for Fuuka.",
+        "answerZh": "风花的最佳武器取决于你的玩法和可用选项。他们使用近战类型武器。查看我们的武器排行榜了解风花的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级辅助角色。"
   },
   {
     "id": "crow",
@@ -428,7 +1708,47 @@
     "roleEn": "DPS",
     "faction": "圆环",
     "description": "神秘的圆环组织成员，擅长远程暗属性攻击",
-    "descriptionEn": "A mysterious member of The Circle, specializing in ranged dark attacks"
+    "descriptionEn": "A mysterious member of The Circle, specializing in ranged dark attacks",
+    "faq": [
+      {
+        "question": "Is Crow good in Neverness to Everness?",
+        "questionZh": "克劳值得培养吗？",
+        "answer": "Crow is a S-rank DPS character in Neverness to Everness. A mysterious member of The Circle, specializing in ranged dark attacks",
+        "answerZh": "克劳是异环中的S级输出角色。神秘的圆环组织成员，擅长远程暗属性攻击"
+      },
+      {
+        "question": "What is the best build for Crow?",
+        "questionZh": "克劳最佳配装是什么？",
+        "answer": "The best build for Crow in Neverness to Everness focuses on maximizing their DPS potential. As a S-rank chaos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "克劳的最佳配装侧重于最大化其输出潜力。作为S级chaos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Crow in Neverness to Everness?",
+        "questionZh": "如何获得克劳？",
+        "answer": "Crow can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "克劳可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Crow?",
+        "questionZh": "克劳最佳配队是什么？",
+        "answer": "The best team for Crow in Neverness to Everness depends on the content. As a chaos DPS, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "克劳的最佳配队取决于具体内容。作为chaos属性输出，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Crow?",
+        "questionZh": "克劳最佳武器是什么？",
+        "answer": "The best weapon for Crow depends on your playstyle and available options. They use Ranged type weapons. Check our weapon tier list for the best options for Crow.",
+        "answerZh": "克劳的最佳武器取决于你的玩法和可用选项。他们使用远程类型武器。查看我们的武器排行榜了解克劳的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "lacrimosa",
+      "daffodil",
+      "mismo"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank DPS character in Neverness to Everness.",
+    "tierReasonZh": "S级输出角色。"
   },
   {
     "id": "renee",
@@ -442,7 +1762,47 @@
     "roleEn": "Support",
     "faction": "异常管理局",
     "description": "异常管理局的鉴定官，擅长灵魂属性支援",
-    "descriptionEn": "An appraiser at the Bureau of Anomaly Control, skilled in Psyche attribute support"
+    "descriptionEn": "An appraiser at the Bureau of Anomaly Control, skilled in Psyche attribute support",
+    "faq": [
+      {
+        "question": "Is Renee good in Neverness to Everness?",
+        "questionZh": "蕾妮值得培养吗？",
+        "answer": "Renee is a A-rank Support character in Neverness to Everness. An appraiser at the Bureau of Anomaly Control, skilled in Psyche attribute support",
+        "answerZh": "蕾妮是异环中的A级辅助角色。异常管理局的鉴定官，擅长灵魂属性支援"
+      },
+      {
+        "question": "What is the best build for Renee?",
+        "questionZh": "蕾妮最佳配装是什么？",
+        "answer": "The best build for Renee in Neverness to Everness focuses on maximizing their Support potential. As a A-rank psyche character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "蕾妮的最佳配装侧重于最大化其辅助潜力。作为A级psyche属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Renee in Neverness to Everness?",
+        "questionZh": "如何获得蕾妮？",
+        "answer": "Renee can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "蕾妮可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Renee?",
+        "questionZh": "蕾妮最佳配队是什么？",
+        "answer": "The best team for Renee in Neverness to Everness depends on the content. As a psyche Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "蕾妮的最佳配队取决于具体内容。作为psyche属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Renee?",
+        "questionZh": "蕾妮最佳武器是什么？",
+        "answer": "The best weapon for Renee depends on your playstyle and available options. They use Esper type weapons. Check our weapon tier list for the best options for Renee.",
+        "answerZh": "蕾妮的最佳武器取决于你的玩法和可用选项。他们使用异能类型武器。查看我们的武器排行榜了解蕾妮的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "fadia",
+      "haniel",
+      "nitsa"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "A级辅助角色。"
   },
   {
     "id": "goro",
@@ -456,7 +1816,47 @@
     "roleEn": "DPS",
     "faction": "",
     "description": "流浪的咒术剑士，以言灵之力强化武器进行战斗",
-    "descriptionEn": "A wandering incantation swordsman who strengthens weapons with word spirit power"
+    "descriptionEn": "A wandering incantation swordsman who strengthens weapons with word spirit power",
+    "faq": [
+      {
+        "question": "Is Goro good in Neverness to Everness?",
+        "questionZh": "吾郎值得培养吗？",
+        "answer": "Goro is a A-rank DPS character in Neverness to Everness. A wandering incantation swordsman who strengthens weapons with word spirit power",
+        "answerZh": "吾郎是异环中的A级输出角色。流浪的咒术剑士，以言灵之力强化武器进行战斗"
+      },
+      {
+        "question": "What is the best build for Goro?",
+        "questionZh": "吾郎最佳配装是什么？",
+        "answer": "The best build for Goro in Neverness to Everness focuses on maximizing their DPS potential. As a A-rank incantation character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "吾郎的最佳配装侧重于最大化其输出潜力。作为A级incantation属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Goro in Neverness to Everness?",
+        "questionZh": "如何获得吾郎？",
+        "answer": "Goro can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "吾郎可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Goro?",
+        "questionZh": "吾郎最佳配队是什么？",
+        "answer": "The best team for Goro in Neverness to Everness depends on the content. As a incantation DPS, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "吾郎的最佳配队取决于具体内容。作为incantation属性输出，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Goro?",
+        "questionZh": "吾郎最佳武器是什么？",
+        "answer": "The best weapon for Goro depends on your playstyle and available options. They use Melee type weapons. Check our weapon tier list for the best options for Goro.",
+        "answerZh": "吾郎的最佳武器取决于你的玩法和可用选项。他们使用近战类型武器。查看我们的武器排行榜了解吾郎的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "sakiri",
+      "baicang",
+      "adler"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank DPS character in Neverness to Everness.",
+    "tierReasonZh": "A级输出角色。"
   },
   {
     "id": "marina",
@@ -470,7 +1870,47 @@
     "roleEn": "DPS",
     "faction": "异常管理局",
     "description": "异常管理局的高级鉴定师，拥有强大的宇宙属性召唤能力",
-    "descriptionEn": "A senior appraiser at the Bureau with powerful Cosmos summoning abilities"
+    "descriptionEn": "A senior appraiser at the Bureau with powerful Cosmos summoning abilities",
+    "faq": [
+      {
+        "question": "Is Marina good in Neverness to Everness?",
+        "questionZh": "玛丽娜值得培养吗？",
+        "answer": "Marina is a S-rank DPS character in Neverness to Everness. A senior appraiser at the Bureau with powerful Cosmos summoning abilities",
+        "answerZh": "玛丽娜是异环中的S级输出角色。异常管理局的高级鉴定师，拥有强大的宇宙属性召唤能力"
+      },
+      {
+        "question": "What is the best build for Marina?",
+        "questionZh": "玛丽娜最佳配装是什么？",
+        "answer": "The best build for Marina in Neverness to Everness focuses on maximizing their DPS potential. As a S-rank cosmos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "玛丽娜的最佳配装侧重于最大化其输出潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Marina in Neverness to Everness?",
+        "questionZh": "如何获得玛丽娜？",
+        "answer": "Marina can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "玛丽娜可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Marina?",
+        "questionZh": "玛丽娜最佳配队是什么？",
+        "answer": "The best team for Marina in Neverness to Everness depends on the content. As a cosmos DPS, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "玛丽娜的最佳配队取决于具体内容。作为cosmos属性输出，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Marina?",
+        "questionZh": "玛丽娜最佳武器是什么？",
+        "answer": "The best weapon for Marina depends on your playstyle and available options. They use Summon type weapons. Check our weapon tier list for the best options for Marina.",
+        "answerZh": "玛丽娜的最佳武器取决于你的玩法和可用选项。他们使用召唤类型武器。查看我们的武器排行榜了解玛丽娜的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "zero",
+      "hotori",
+      "edgar"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank DPS character in Neverness to Everness.",
+    "tierReasonZh": "S级输出角色。"
   },
   {
     "id": "kaito",
@@ -484,7 +1924,47 @@
     "roleEn": "DPS",
     "faction": "",
     "description": "使用相属性双刀的剑客，攻击速度极快",
-    "descriptionEn": "A swordsman using Lakshana dual blades with extremely fast attack speed"
+    "descriptionEn": "A swordsman using Lakshana dual blades with extremely fast attack speed",
+    "faq": [
+      {
+        "question": "Is Kaito good in Neverness to Everness?",
+        "questionZh": "海斗值得培养吗？",
+        "answer": "Kaito is a A-rank DPS character in Neverness to Everness. A swordsman using Lakshana dual blades with extremely fast attack speed",
+        "answerZh": "海斗是异环中的A级输出角色。使用相属性双刀的剑客，攻击速度极快"
+      },
+      {
+        "question": "What is the best build for Kaito?",
+        "questionZh": "海斗最佳配装是什么？",
+        "answer": "The best build for Kaito in Neverness to Everness focuses on maximizing their DPS potential. As a A-rank lakshana character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "海斗的最佳配装侧重于最大化其输出潜力。作为A级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Kaito in Neverness to Everness?",
+        "questionZh": "如何获得海斗？",
+        "answer": "Kaito can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
+        "answerZh": "海斗可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Kaito?",
+        "questionZh": "海斗最佳配队是什么？",
+        "answer": "The best team for Kaito in Neverness to Everness depends on the content. As a lakshana DPS, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "海斗的最佳配队取决于具体内容。作为lakshana属性输出，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Kaito?",
+        "questionZh": "海斗最佳武器是什么？",
+        "answer": "The best weapon for Kaito depends on your playstyle and available options. They use Melee type weapons. Check our weapon tier list for the best options for Kaito.",
+        "answerZh": "海斗的最佳武器取决于你的玩法和可用选项。他们使用近战类型武器。查看我们的武器排行榜了解海斗的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "skia",
+      "merula",
+      "alphard"
+    ],
+    "tierRank": "A",
+    "tierReason": "A-rank DPS character in Neverness to Everness.",
+    "tierReasonZh": "A级输出角色。"
   },
   {
     "id": "sylphy",
@@ -498,6 +1978,46 @@
     "roleEn": "Support",
     "faction": "星铁快递",
     "description": "星铁快递的资深成员，与伴生体协同作战提供强力增益",
-    "descriptionEn": "A veteran Sterry Express member who fights alongside a companion to provide powerful buffs"
+    "descriptionEn": "A veteran Sterry Express member who fights alongside a companion to provide powerful buffs",
+    "faq": [
+      {
+        "question": "Is Sylphy good in Neverness to Everness?",
+        "questionZh": "希尔菲值得培养吗？",
+        "answer": "Sylphy is a S-rank Support character in Neverness to Everness. A veteran Sterry Express member who fights alongside a companion to provide powerful buffs",
+        "answerZh": "希尔菲是异环中的S级辅助角色。星铁快递的资深成员，与伴生体协同作战提供强力增益"
+      },
+      {
+        "question": "What is the best build for Sylphy?",
+        "questionZh": "希尔菲最佳配装是什么？",
+        "answer": "The best build for Sylphy in Neverness to Everness focuses on maximizing their Support potential. As a S-rank anima character, prioritize Energy Recharge and support stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "希尔菲的最佳配装侧重于最大化其辅助潜力。作为S级anima属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Sylphy in Neverness to Everness?",
+        "questionZh": "如何获得希尔菲？",
+        "answer": "Sylphy can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
+        "answerZh": "希尔菲可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Sylphy?",
+        "questionZh": "希尔菲最佳配队是什么？",
+        "answer": "The best team for Sylphy in Neverness to Everness depends on the content. As a anima Support, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "希尔菲的最佳配队取决于具体内容。作为anima属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Sylphy?",
+        "questionZh": "希尔菲最佳武器是什么？",
+        "answer": "The best weapon for Sylphy depends on your playstyle and available options. They use Companion type weapons. Check our weapon tier list for the best options for Sylphy.",
+        "answerZh": "希尔菲的最佳武器取决于你的玩法和可用选项。他们使用伴生体类型武器。查看我们的武器排行榜了解希尔菲的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint"
+    ],
+    "tierRank": "S",
+    "tierReason": "S-rank Support character in Neverness to Everness.",
+    "tierReasonZh": "S级辅助角色。"
   }
 ]

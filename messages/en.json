@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "YiHuan Wiki",
-    "description": "YiHuan game database and tools - character leveling materials, farming calculator, and more.",
+    "title": "NTE Guide - Neverness to Everness Wiki",
+    "description": "Neverness to Everness Wiki & tools. Character builds, tier lists, calculator, guides and codes.",
     "nav": {
       "home": "Home",
       "characters": "Characters",
@@ -18,17 +18,17 @@
     }
   },
   "home": {
-    "heroTitle": "YiHuan Wiki",
-    "heroSubtitle": "Character Database · Guides · Tools",
-    "heroDescription": "Quickly find character leveling materials, calculate farming costs, and enhance your YiHuan experience.",
+    "heroTitle": "NTE Guide",
+    "heroSubtitle": "Neverness to Everness Wiki & Tools",
+    "heroDescription": "Find the best builds, calculate farming costs, and explore Neverness to Everness.",
     "ctaCalculator": "Use Calculator",
     "charactersSection": "All Characters",
     "materialsSection": "All Materials",
     "viewAll": "View All"
   },
   "characters": {
-    "title": "Character List",
-    "description": "All YiHuan character leveling materials and build guides",
+    "title": "NTE Characters",
+    "description": "All Neverness to Everness character builds, leveling materials and tier rankings",
     "rank": "Rank",
     "attribute": "Attribute",
     "levelingMaterials": "Leveling Materials",
@@ -40,16 +40,16 @@
     "faction": "Faction"
   },
   "materials": {
-    "title": "Material List",
-    "description": "All YiHuan material sources and usage",
+    "title": "NTE Materials",
+    "description": "All Neverness to Everness material sources and usage",
     "source": "Source",
     "usedBy": "Used By",
     "rarity": "Rarity",
     "type": "Type"
   },
   "calculator": {
-    "title": "Leveling Calculator",
-    "description": "Quickly calculate YiHuan character leveling material requirements",
+    "title": "NTE Leveling Calculator",
+    "description": "Calculate Neverness to Everness character leveling material requirements",
     "selectCharacter": "Select Character",
     "currentLevel": "Current Level",
     "targetLevel": "Target Level",
@@ -65,8 +65,8 @@
     "build": "Build Calc"
   },
   "buildCalculator": {
-    "title": "Build Calculator",
-    "description": "View recommended character builds, main stats, sub stats, weapons and team comps",
+    "title": "NTE Build Calculator",
+    "description": "View NTE character builds, main stats, sub stats, weapons and team comps",
     "selectCharacter": "Select Character",
     "selectHint": "Select a character to view recommended builds",
     "filterHint": "Use the filters above to sort by attribute or rarity",
@@ -84,8 +84,8 @@
     "openLevelingCalc": "Open Leveling Calculator →"
   },
   "gacha": {
-    "title": "Gacha Simulator",
-    "description": "Simulate YiHuan wishes and test your luck!",
+    "title": "NTE Gacha Simulator",
+    "description": "Simulate Neverness to Everness wishes and test your luck!",
     "disclaimer": "Unofficial rates for entertainment only. Actual rates may vary.",
     "pull1": "Wish x1",
     "pull10": "Wish x10",
@@ -125,8 +125,8 @@
     "step3": "Paste the code and confirm. Rewards will be sent via mail"
   },
   "map": {
-    "title": "Interactive Map",
-    "description": "YiHuan interactive map with domain, boss, collectible and waypoint markers",
+    "title": "NTE Interactive Map",
+    "description": "Neverness to Everness interactive map with domain, boss and collectible markers",
     "markerList": "Marker List",
     "relatedMaterials": "Drop Materials",
     "closeDetail": "Close"
@@ -149,12 +149,12 @@
     "manual": "Manual"
   },
   "faq": {
-    "title": "YiHuan FAQ",
-    "description": "Answers to common YiHuan questions - leveling, materials, character builds and more"
+    "title": "NTE FAQ",
+    "description": "Answers to common Neverness to Everness questions - leveling, builds and more"
   },
   "guides": {
-    "title": "Guides",
-    "description": "Complete YiHuan guides - beginner tips, tier lists, team building and more",
+    "title": "NTE Guides",
+    "description": "Complete Neverness to Everness guides - beginner tips, tier lists, team building",
     "readMore": "Read More",
     "relatedGuides": "Related Guides",
     "relatedCharacters": "Related Characters",
@@ -163,20 +163,20 @@
     "tableOfContents": "Table of Contents"
   },
   "lore": {
-    "title": "Lore",
-    "description": "YiHuan lore encyclopedia - learn about Espers, Oddities, Anomalies and the world",
+    "title": "NTE Lore",
+    "description": "Neverness to Everness lore - Espers, Oddities, Anomalies and the world",
     "relatedCharacters": "Related Characters",
     "relatedLocations": "Related Locations"
   },
   "locations": {
-    "title": "Locations",
-    "description": "Explore all locations in Hethereau and beyond",
+    "title": "NTE Locations",
+    "description": "Explore all locations in Hethereau and beyond in Neverness to Everness",
     "relatedCharacters": "Related Characters",
     "relatedLore": "Related Lore"
   },
   "weapons": {
-    "title": "Weapon List",
-    "description": "All YiHuan weapon types and characters who use them",
+    "title": "NTE Weapons",
+    "description": "All Neverness to Everness weapon types and best characters for each",
     "type": "Type",
     "relatedCharacters": "Used By",
     "melee": "Melee",

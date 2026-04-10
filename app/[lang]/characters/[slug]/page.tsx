@@ -9,9 +9,11 @@ import {
 } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { CharacterJsonLd } from "../../../../components/JsonLd";
+import { CharacterJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { GameImage } from "../../../../components/GameImage";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { FaqSection } from "../../../../components/FaqSection";
+import { CharacterSummary } from "../../../../components/CharacterSummary";
 
 export function generateStaticParams() {
   const characters = getAllCharacters();
@@ -32,22 +34,22 @@ export async function generateMetadata({
   return {
     title:
       lang === "zh"
-        ? `${character.name} 升级材料 & 养成攻略`
-        : `${character.nameEn} Leveling Materials & Build Guide`,
+        ? `${character.name} 配装推荐 & 升级材料 | 异环 Wiki`
+        : `${character.nameEn} (${character.name}) Build, Skills & Tier - NTE Guide`,
     description:
       lang === "zh"
-        ? `异环 ${character.name} 完整升级材料列表，包含所有养成所需材料及获取方式。`
-        : `Complete ${character.nameEn} leveling material list for YiHuan, including all farming materials and sources.`,
+        ? `异环 ${character.name} 完整配装推荐、技能解析、升级材料列表及获取方式。`
+        : `Find the best build for ${character.nameEn} in Neverness to Everness. Complete skill breakdown, tier ranking, recommended weapons, and team comps.`,
     alternates: hreflangAlternates(`characters/${slug}`),
     openGraph: {
       title:
         lang === "zh"
-          ? `${character.name} 升级材料 & 养成攻略 | 异环 Wiki`
-          : `${character.nameEn} Leveling Materials | YiHuan Wiki`,
+          ? `${character.name} 配装推荐 & 升级材料 | 异环 Wiki`
+          : `${character.nameEn} Build & Tier | NTE Guide`,
       description:
         lang === "zh"
-          ? `异环 ${character.name} 完整升级材料列表`
-          : `Complete ${character.nameEn} leveling material list`,
+          ? `异环 ${character.name} 完整配装推荐、技能解析、升级材料列表及获取方式。`
+          : `Find the best build for ${character.nameEn} in Neverness to Everness.`,
       type: "article",
     },
   };
@@ -65,9 +67,16 @@ export default async function CharacterDetailPage({
 
   const cm = getCharacterMaterials(slug);
 
+  const relatedChars = (character.relatedCharacters || [])
+    .map(id => getCharacter(id))
+    .filter(Boolean);
+
   return (
     <>
       <CharacterJsonLd character={character} />
+      {character.faq && character.faq.length > 0 && (
+        <FaqPageJsonLd faqs={character.faq} lang={locale} />
+      )}
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
@@ -82,7 +91,7 @@ export default async function CharacterDetailPage({
           <div className="flex gap-6">
             <GameImage type="character" id={character.id} name={character.name} className="w-24 h-24 rounded-lg shrink-0" />
             <div>
-              <h1 className="text-2xl font-bold">{character.name}</h1>
+              <h1 className="text-2xl font-bold">{locale === "zh" ? character.name : `${character.nameEn} Build Guide & Tier Ranking`}</h1>
               <p className="text-gray-500">{character.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span
@@ -111,6 +120,16 @@ export default async function CharacterDetailPage({
             </div>
           </div>
         </div>
+
+        <CharacterSummary
+          name={character.name} nameEn={character.nameEn}
+          role={character.role} roleEn={character.roleEn}
+          attribute={character.attribute} rank={character.rank}
+          weapon={character.weapon} weaponEn={character.weaponEn}
+          faction={character.faction}
+          description={character.description}
+          locale={locale}
+        />
 
         {/* Leveling Materials */}
         {cm && (
@@ -182,6 +201,11 @@ export default async function CharacterDetailPage({
           </section>
         )}
 
+        {/* FAQ Section */}
+        {character.faq && character.faq.length > 0 && (
+          <FaqSection faqs={character.faq} locale={locale} />
+        )}
+
         {/* Calculator CTA */}
         <div className="text-center py-8">
           <Link
@@ -191,6 +215,47 @@ export default async function CharacterDetailPage({
             {t(locale, "characters.calculatorCta")}
           </Link>
         </div>
+
+        {/* Related Characters */}
+        {relatedChars.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-bold mb-4">
+              {locale === "zh" ? "相关角色" : "Related Characters"}
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+              {relatedChars.map(c => (
+                <Link key={c!.id} href={`/${lang}/characters/${c!.id}`}
+                  className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
+                >
+                  <div className="min-w-0">
+                    <p className="text-sm font-medium truncate">{c!.name}</p>
+                    <p className="text-xs text-gray-500">{c!.nameEn}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Tier Ranking */}
+        {character.tierRank && (
+          <section className="mb-8">
+            <h2 className="text-xl font-bold mb-4">
+              {locale === "zh" ? "强度评级" : "Tier Ranking"}
+            </h2>
+            <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
+              <span className={`text-2xl font-bold ${character.tierRank === 'S' ? 'text-yellow-400' : 'text-blue-400'}`}>
+                {character.tierRank} Tier
+              </span>
+              <p className="text-sm text-gray-400 mt-2">
+                {locale === "zh" ? (character.tierReasonZh || character.tierReason) : character.tierReason}
+              </p>
+              <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300 mt-2 inline-block">
+                {locale === "zh" ? "查看完整强度排行 →" : "View Full Tier List →"}
+              </Link>
+            </div>
+          </section>
+        )}
       </div>
     </>
   );

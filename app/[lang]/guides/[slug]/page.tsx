@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import { t, hreflangAlternates } from "../../../../lib/i18n";
 import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { ArticleJsonLd } from "../../../../components/JsonLd";
+import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { FaqSection } from "../../../../components/FaqSection";
 
 export function generateStaticParams() {
   const guides = getAllGuides();
@@ -25,11 +26,11 @@ export async function generateMetadata({
   const title = lang === "zh" ? guide.title : guide.titleEn;
   const description = lang === "zh" ? guide.summary : guide.summaryEn;
   return {
-    title: `${title} - ${lang === "zh" ? "异环攻略" : "NTE Guide"} | NTE Guide`,
+    title: `${title} - ${lang === "zh" ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`guides/${slug}`),
     openGraph: {
-      title: `${title} - ${lang === "zh" ? "异环攻略" : "NTE Guide"} | NTE Guide`,
+      title: `${title} - ${lang === "zh" ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
       description,
       type: "article",
     },
@@ -69,6 +70,9 @@ export default async function GuideDetailPage({
         description={summary}
         url={`https://nteguide.com/${lang}/guides/${slug}`}
       />
+      {guide.faq && guide.faq.length > 0 && (
+        <FaqPageJsonLd faqs={guide.faq} lang={locale} />
+      )}
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
@@ -91,6 +95,11 @@ export default async function GuideDetailPage({
             </p>
           ))}
         </div>
+
+        {/* FAQ Section */}
+        {guide.faq && guide.faq.length > 0 && (
+          <FaqSection faqs={guide.faq} locale={locale} />
+        )}
 
         {/* Related Characters */}
         {relatedChars.length > 0 && (

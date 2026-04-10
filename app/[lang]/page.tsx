@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { t, hreflangAlternatesIndex } from "../../lib/i18n";
 import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons } from "../../lib/queries";
-import { WebSiteJsonLd } from "../../components/JsonLd";
+import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { SearchDialog } from "../../components/SearchDialog";
 
@@ -13,18 +13,24 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as "zh" | "en";
   return {
-    title: `${t(locale, "home.heroTitle")} - ${t(locale, "home.heroSubtitle")}`,
+    title:
+      lang === "zh"
+        ? "异环 Wiki - 攻略 · 配装 · 工具 | NTE Guide"
+        : "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
     description:
       lang === "zh"
-        ? "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。"
-        : "YiHuan game database and tools - character leveling materials, farming calculator, and more.",
+        ? "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。"
+        : "Find the best builds, tier lists, and guides for Neverness to Everness. Complete character database, leveling calculator, and redeem codes.",
     alternates: hreflangAlternatesIndex(lang),
     openGraph: {
-      title: `${t(locale, "home.heroTitle")} - ${t(locale, "home.heroSubtitle")}`,
+      title:
+        lang === "zh"
+          ? "异环 Wiki - 攻略 · 配装 · 工具 | NTE Guide"
+          : "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
       description:
         lang === "zh"
-          ? "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。"
-          : "YiHuan game database and tools",
+          ? "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。"
+          : "Find the best builds, tier lists, and guides for Neverness to Everness.",
       type: "website",
     },
   };
@@ -47,13 +53,15 @@ export default async function HomePage({
   return (
     <>
       <WebSiteJsonLd />
+      <OrganizationJsonLd />
+      <VideoGameJsonLd />
       <div>
         {/* Hero */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
           <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              {t(locale, "home.heroTitle")}
+              {locale === "zh" ? "异环 Wiki" : "Neverness to Everness Wiki"}
             </h1>
             <p className="mt-4 text-lg text-gray-400">{t(locale, "home.heroSubtitle")}</p>
             <div className="mt-6 flex justify-center">

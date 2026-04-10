@@ -6,7 +6,31 @@
     "type": "melee",
     "description": "以利爪进行高速近身格斗的武器类型，兼具攻击速度与机动性。",
     "descriptionEn": "A weapon type for high-speed close combat using claws, combining attack speed with mobility.",
-    "relatedCharacters": ["nanally"]
+    "relatedCharacters": [
+      "nanally"
+    ],
+    "faq": [
+      {
+        "question": "Is Fangs and Claws good in Neverness to Everness?",
+        "questionZh": "格斗好用吗？",
+        "answer": "Fangs and Claws is a melee weapon in Neverness to Everness. A weapon type for high-speed close combat using claws, combining attack speed with mobility.",
+        "answerZh": "格斗是异环中的melee类型武器。以利爪进行高速近身格斗的武器类型，兼具攻击速度与机动性。"
+      },
+      {
+        "question": "How to get Fangs and Claws in Neverness to Everness?",
+        "questionZh": "如何获得格斗？",
+        "answer": "Fangs and Claws can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "格斗可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Fangs and Claws?",
+        "questionZh": "格斗的最佳替代武器是什么？",
+        "answer": "The best alternative to Fangs and Claws depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "格斗的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Nanally",
+    "bestForZh": "娜娜莉"
   },
   {
     "id": "kiroumaru",
@@ -15,7 +39,31 @@
     "type": "companion",
     "description": "咲里的异常伴生体桐丸，贪吃的奇异生物，与咲里协同作战。",
     "descriptionEn": "Sakiri's anomalous companion Kiroumaru, a gluttonous creature that fights alongside her.",
-    "relatedCharacters": ["sakiri"]
+    "relatedCharacters": [
+      "sakiri"
+    ],
+    "faq": [
+      {
+        "question": "Is Kiroumaru good in Neverness to Everness?",
+        "questionZh": "桐丸好用吗？",
+        "answer": "Kiroumaru is a companion weapon in Neverness to Everness. Sakiri's anomalous companion Kiroumaru, a gluttonous creature that fights alongside her.",
+        "answerZh": "桐丸是异环中的companion类型武器。咲里的异常伴生体桐丸，贪吃的奇异生物，与咲里协同作战。"
+      },
+      {
+        "question": "How to get Kiroumaru in Neverness to Everness?",
+        "questionZh": "如何获得桐丸？",
+        "answer": "Kiroumaru can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "桐丸可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Kiroumaru?",
+        "questionZh": "桐丸的最佳替代武器是什么？",
+        "answer": "The best alternative to Kiroumaru depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "桐丸的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Sakiri",
+    "bestForZh": "咲里"
   },
   {
     "id": "transforming-cross-shield",
@@ -24,7 +72,31 @@
     "type": "melee",
     "description": "可变形的十字盾，能在攻防之间自由切换，适合攻防一体的战斗风格。",
     "descriptionEn": "A transforming cross-shield that freely switches between offense and defense for versatile combat.",
-    "relatedCharacters": ["fadia"]
+    "relatedCharacters": [
+      "fadia"
+    ],
+    "faq": [
+      {
+        "question": "Is Transforming Cross-Shield good in Neverness to Everness?",
+        "questionZh": "变形十字盾好用吗？",
+        "answer": "Transforming Cross-Shield is a melee weapon in Neverness to Everness. A transforming cross-shield that freely switches between offense and defense for versatile combat.",
+        "answerZh": "变形十字盾是异环中的melee类型武器。可变形的十字盾，能在攻防之间自由切换，适合攻防一体的战斗风格。"
+      },
+      {
+        "question": "How to get Transforming Cross-Shield in Neverness to Everness?",
+        "questionZh": "如何获得变形十字盾？",
+        "answer": "Transforming Cross-Shield can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "变形十字盾可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Transforming Cross-Shield?",
+        "questionZh": "变形十字盾的最佳替代武器是什么？",
+        "answer": "The best alternative to Transforming Cross-Shield depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "变形十字盾的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Fadia",
+    "bestForZh": "法蒂亚"
   },
   {
     "id": "esper-constructs",
@@ -33,7 +105,31 @@
     "type": "summon",
     "description": "操控多个异能构装体进行协同战斗，可同时应对多个目标。",
     "descriptionEn": "Controls multiple esper constructs for coordinated attacks against multiple targets.",
-    "relatedCharacters": ["lacrimosa"]
+    "relatedCharacters": [
+      "lacrimosa"
+    ],
+    "faq": [
+      {
+        "question": "Is Esper Constructs good in Neverness to Everness?",
+        "questionZh": "异能构装体好用吗？",
+        "answer": "Esper Constructs is a summon weapon in Neverness to Everness. Controls multiple esper constructs for coordinated attacks against multiple targets.",
+        "answerZh": "异能构装体是异环中的summon类型武器。操控多个异能构装体进行协同战斗，可同时应对多个目标。"
+      },
+      {
+        "question": "How to get Esper Constructs in Neverness to Everness?",
+        "questionZh": "如何获得异能构装体？",
+        "answer": "Esper Constructs can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "异能构装体可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Esper Constructs?",
+        "questionZh": "异能构装体的最佳替代武器是什么？",
+        "answer": "The best alternative to Esper Constructs depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "异能构装体的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Lacrimosa",
+    "bestForZh": "拉克莉莫萨"
   },
   {
     "id": "power-of-words",
@@ -42,7 +138,31 @@
     "type": "magic",
     "description": "以言灵之力构筑防御阵地，为队友提供强大的防护支援。",
     "descriptionEn": "Uses the power of incantations to build defensive formations, providing strong protection for allies.",
-    "relatedCharacters": ["baicang"]
+    "relatedCharacters": [
+      "baicang"
+    ],
+    "faq": [
+      {
+        "question": "Is Power of Words good in Neverness to Everness?",
+        "questionZh": "言灵之力好用吗？",
+        "answer": "Power of Words is a magic weapon in Neverness to Everness. Uses the power of incantations to build defensive formations, providing strong protection for allies.",
+        "answerZh": "言灵之力是异环中的magic类型武器。以言灵之力构筑防御阵地，为队友提供强大的防护支援。"
+      },
+      {
+        "question": "How to get Power of Words in Neverness to Everness?",
+        "questionZh": "如何获得言灵之力？",
+        "answer": "Power of Words can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "言灵之力可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Power of Words?",
+        "questionZh": "言灵之力的最佳替代武器是什么？",
+        "answer": "The best alternative to Power of Words depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "言灵之力的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Baicang",
+    "bestForZh": "百苍"
   },
   {
     "id": "sword",
@@ -51,7 +171,31 @@
     "type": "melee",
     "description": "经典的剑术武器，以精准的剑技进行战斗。",
     "descriptionEn": "A classic sword weapon, engaging in combat with precise swordsmanship.",
-    "relatedCharacters": ["zero"]
+    "relatedCharacters": [
+      "zero"
+    ],
+    "faq": [
+      {
+        "question": "Is Sword good in Neverness to Everness?",
+        "questionZh": "剑好用吗？",
+        "answer": "Sword is a melee weapon in Neverness to Everness. A classic sword weapon, engaging in combat with precise swordsmanship.",
+        "answerZh": "剑是异环中的melee类型武器。经典的剑术武器，以精准的剑技进行战斗。"
+      },
+      {
+        "question": "How to get Sword in Neverness to Everness?",
+        "questionZh": "如何获得剑？",
+        "answer": "Sword can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "剑可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Sword?",
+        "questionZh": "剑的最佳替代武器是什么？",
+        "answer": "The best alternative to Sword depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "剑的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Zero",
+    "bestForZh": "零"
   },
   {
     "id": "umbrella-katana",
@@ -60,7 +204,31 @@
     "type": "melee",
     "description": "唐伞形态的刀，收合时为伞、展开时为刀的变形武器。",
     "descriptionEn": "A katana disguised as a traditional umbrella, transforming between parasol and blade forms.",
-    "relatedCharacters": ["hotori"]
+    "relatedCharacters": [
+      "hotori"
+    ],
+    "faq": [
+      {
+        "question": "Is Umbrella Katana good in Neverness to Everness?",
+        "questionZh": "唐伞刀好用吗？",
+        "answer": "Umbrella Katana is a melee weapon in Neverness to Everness. A katana disguised as a traditional umbrella, transforming between parasol and blade forms.",
+        "answerZh": "唐伞刀是异环中的melee类型武器。唐伞形态的刀，收合时为伞、展开时为刀的变形武器。"
+      },
+      {
+        "question": "How to get Umbrella Katana in Neverness to Everness?",
+        "questionZh": "如何获得唐伞刀？",
+        "answer": "Umbrella Katana can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "唐伞刀可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Umbrella Katana?",
+        "questionZh": "唐伞刀的最佳替代武器是什么？",
+        "answer": "The best alternative to Umbrella Katana depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "唐伞刀的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Hotori",
+    "bestForZh": "穗鸟"
   },
   {
     "id": "liquid-arc",
@@ -69,7 +237,31 @@
     "type": "ranged",
     "description": "液态弧光武器，可灵活变形的远程支援武器。",
     "descriptionEn": "A liquid-type arc weapon, a flexible ranged support weapon that can reshape itself.",
-    "relatedCharacters": ["daffodil"]
+    "relatedCharacters": [
+      "daffodil"
+    ],
+    "faq": [
+      {
+        "question": "Is Liquid-type Arc good in Neverness to Everness?",
+        "questionZh": "液态弧光好用吗？",
+        "answer": "Liquid-type Arc is a ranged weapon in Neverness to Everness. A liquid-type arc weapon, a flexible ranged support weapon that can reshape itself.",
+        "answerZh": "液态弧光是异环中的ranged类型武器。液态弧光武器，可灵活变形的远程支援武器。"
+      },
+      {
+        "question": "How to get Liquid-type Arc in Neverness to Everness?",
+        "questionZh": "如何获得液态弧光？",
+        "answer": "Liquid-type Arc can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "液态弧光可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Liquid-type Arc?",
+        "questionZh": "液态弧光的最佳替代武器是什么？",
+        "answer": "The best alternative to Liquid-type Arc depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "液态弧光的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Daffodil",
+    "bestForZh": "达芙迪尔"
   },
   {
     "id": "vehicle",
@@ -78,7 +270,31 @@
     "type": "support",
     "description": "战斗用载具，擅长高速移动和运输。",
     "descriptionEn": "Combat vehicle specialized in high-speed movement and transportation.",
-    "relatedCharacters": ["jiuyuan"]
+    "relatedCharacters": [
+      "jiuyuan"
+    ],
+    "faq": [
+      {
+        "question": "Is Vehicle good in Neverness to Everness?",
+        "questionZh": "载具好用吗？",
+        "answer": "Vehicle is a support weapon in Neverness to Everness. Combat vehicle specialized in high-speed movement and transportation.",
+        "answerZh": "载具是异环中的support类型武器。战斗用载具，擅长高速移动和运输。"
+      },
+      {
+        "question": "How to get Vehicle in Neverness to Everness?",
+        "questionZh": "如何获得载具？",
+        "answer": "Vehicle can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "载具可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Vehicle?",
+        "questionZh": "载具的最佳替代武器是什么？",
+        "answer": "The best alternative to Vehicle depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "载具的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Jiuyuan",
+    "bestForZh": "九远"
   },
   {
     "id": "cane-sword-and-sunyas",
@@ -87,7 +303,31 @@
     "type": "melee",
     "description": "杖剑与伴生体 Sunyas 协同作战的复合战斗方式。",
     "descriptionEn": "A hybrid combat style using a cane sword alongside the companion Sunyas.",
-    "relatedCharacters": ["adler"]
+    "relatedCharacters": [
+      "adler"
+    ],
+    "faq": [
+      {
+        "question": "Is Cane Sword and Sunyas good in Neverness to Everness?",
+        "questionZh": "杖剑与 Sunyas好用吗？",
+        "answer": "Cane Sword and Sunyas is a melee weapon in Neverness to Everness. A hybrid combat style using a cane sword alongside the companion Sunyas.",
+        "answerZh": "杖剑与 Sunyas是异环中的melee类型武器。杖剑与伴生体 Sunyas 协同作战的复合战斗方式。"
+      },
+      {
+        "question": "How to get Cane Sword and Sunyas in Neverness to Everness?",
+        "questionZh": "如何获得杖剑与 Sunyas？",
+        "answer": "Cane Sword and Sunyas can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "杖剑与 Sunyas可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Cane Sword and Sunyas?",
+        "questionZh": "杖剑与 Sunyas的最佳替代武器是什么？",
+        "answer": "The best alternative to Cane Sword and Sunyas depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "杖剑与 Sunyas的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Adler",
+    "bestForZh": "阿德勒"
   },
   {
     "id": "shadow-manipulation",
@@ -96,7 +336,31 @@
     "type": "magic",
     "description": "以影子操控进行战斗的异能，擅长从暗处发起攻击。",
     "descriptionEn": "An esper ability that manipulates shadows, specializing in attacks from the darkness.",
-    "relatedCharacters": ["skia"]
+    "relatedCharacters": [
+      "skia"
+    ],
+    "faq": [
+      {
+        "question": "Is Shadow Manipulation good in Neverness to Everness?",
+        "questionZh": "影操控好用吗？",
+        "answer": "Shadow Manipulation is a magic weapon in Neverness to Everness. An esper ability that manipulates shadows, specializing in attacks from the darkness.",
+        "answerZh": "影操控是异环中的magic类型武器。以影子操控进行战斗的异能，擅长从暗处发起攻击。"
+      },
+      {
+        "question": "How to get Shadow Manipulation in Neverness to Everness?",
+        "questionZh": "如何获得影操控？",
+        "answer": "Shadow Manipulation can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "影操控可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Shadow Manipulation?",
+        "questionZh": "影操控的最佳替代武器是什么？",
+        "answer": "The best alternative to Shadow Manipulation depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "影操控的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Skia",
+    "bestForZh": "斯基雅"
   },
   {
     "id": "dual-blades",
@@ -105,7 +369,31 @@
     "type": "melee",
     "description": "双持短刃进行快速战斗，攻速极高。",
     "descriptionEn": "Dual-wielding short blades for extremely fast-paced combat.",
-    "relatedCharacters": ["mint"]
+    "relatedCharacters": [
+      "mint"
+    ],
+    "faq": [
+      {
+        "question": "Is Dual Blades good in Neverness to Everness?",
+        "questionZh": "双刃好用吗？",
+        "answer": "Dual Blades is a melee weapon in Neverness to Everness. Dual-wielding short blades for extremely fast-paced combat.",
+        "answerZh": "双刃是异环中的melee类型武器。双持短刃进行快速战斗，攻速极高。"
+      },
+      {
+        "question": "How to get Dual Blades in Neverness to Everness?",
+        "questionZh": "如何获得双刃？",
+        "answer": "Dual Blades can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "双刃可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Dual Blades?",
+        "questionZh": "双刃的最佳替代武器是什么？",
+        "answer": "The best alternative to Dual Blades depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "双刃的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Mint",
+    "bestForZh": "薄荷"
   },
   {
     "id": "construct",
@@ -114,7 +402,31 @@
     "type": "summon",
     "description": "操控构装体进行战斗，兼具攻击和支援能力。",
     "descriptionEn": "Controls constructs for battle, combining offensive and support capabilities.",
-    "relatedCharacters": ["taygedo"]
+    "relatedCharacters": [
+      "taygedo"
+    ],
+    "faq": [
+      {
+        "question": "Is Construct good in Neverness to Everness?",
+        "questionZh": "构装体好用吗？",
+        "answer": "Construct is a summon weapon in Neverness to Everness. Controls constructs for battle, combining offensive and support capabilities.",
+        "answerZh": "构装体是异环中的summon类型武器。操控构装体进行战斗，兼具攻击和支援能力。"
+      },
+      {
+        "question": "How to get Construct in Neverness to Everness?",
+        "questionZh": "如何获得构装体？",
+        "answer": "Construct can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "构装体可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Construct?",
+        "questionZh": "构装体的最佳替代武器是什么？",
+        "answer": "The best alternative to Construct depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "构装体的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Taygedo",
+    "bestForZh": "泰格多"
   },
   {
     "id": "blade-wings",
@@ -123,7 +435,31 @@
     "type": "melee",
     "description": "以刃翼为武器进行战斗，兼具飞行和攻击能力。",
     "descriptionEn": "Fights using blade wings, combining flight capabilities with offensive power.",
-    "relatedCharacters": ["hathor"]
+    "relatedCharacters": [
+      "hathor"
+    ],
+    "faq": [
+      {
+        "question": "Is Blade Wings good in Neverness to Everness?",
+        "questionZh": "刃翼好用吗？",
+        "answer": "Blade Wings is a melee weapon in Neverness to Everness. Fights using blade wings, combining flight capabilities with offensive power.",
+        "answerZh": "刃翼是异环中的melee类型武器。以刃翼为武器进行战斗，兼具飞行和攻击能力。"
+      },
+      {
+        "question": "How to get Blade Wings in Neverness to Everness?",
+        "questionZh": "如何获得刃翼？",
+        "answer": "Blade Wings can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "刃翼可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Blade Wings?",
+        "questionZh": "刃翼的最佳替代武器是什么？",
+        "answer": "The best alternative to Blade Wings depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "刃翼的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Hathor",
+    "bestForZh": "哈索尔"
   },
   {
     "id": "yokai-hammer",
@@ -132,7 +468,31 @@
     "type": "melee",
     "description": "大型妖锤武器，攻击范围广，破坏力极强。",
     "descriptionEn": "A large yokai hammer with a wide attack range and devastating destructive power.",
-    "relatedCharacters": ["chiz"]
+    "relatedCharacters": [
+      "chiz"
+    ],
+    "faq": [
+      {
+        "question": "Is Yokai Hammer good in Neverness to Everness?",
+        "questionZh": "妖锤好用吗？",
+        "answer": "Yokai Hammer is a melee weapon in Neverness to Everness. A large yokai hammer with a wide attack range and devastating destructive power.",
+        "answerZh": "妖锤是异环中的melee类型武器。大型妖锤武器，攻击范围广，破坏力极强。"
+      },
+      {
+        "question": "How to get Yokai Hammer in Neverness to Everness?",
+        "questionZh": "如何获得妖锤？",
+        "answer": "Yokai Hammer can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "妖锤可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Yokai Hammer?",
+        "questionZh": "妖锤的最佳替代武器是什么？",
+        "answer": "The best alternative to Yokai Hammer depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "妖锤的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Chiz",
+    "bestForZh": "赤子"
   },
   {
     "id": "appraisal-ability",
@@ -141,7 +501,31 @@
     "type": "magic",
     "description": "鉴定师独有的异常物品鉴定能力，能识别和分析奇物与异象。",
     "descriptionEn": "The Appraiser's unique ability to identify and analyze anomalous objects, Oddities and Anomalies.",
-    "relatedCharacters": ["the-appraiser"]
+    "relatedCharacters": [
+      "the-appraiser"
+    ],
+    "faq": [
+      {
+        "question": "Is Appraisal Ability good in Neverness to Everness?",
+        "questionZh": "鉴定能力好用吗？",
+        "answer": "Appraisal Ability is a magic weapon in Neverness to Everness. The Appraiser's unique ability to identify and analyze anomalous objects, Oddities and Anomalies.",
+        "answerZh": "鉴定能力是异环中的magic类型武器。鉴定师独有的异常物品鉴定能力，能识别和分析奇物与异象。"
+      },
+      {
+        "question": "How to get Appraisal Ability in Neverness to Everness?",
+        "questionZh": "如何获得鉴定能力？",
+        "answer": "Appraisal Ability can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "鉴定能力可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Appraisal Ability?",
+        "questionZh": "鉴定能力的最佳替代武器是什么？",
+        "answer": "The best alternative to Appraisal Ability depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "鉴定能力的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "The Appraiser",
+    "bestForZh": "鉴定师"
   },
   {
     "id": "whip-sword",
@@ -150,7 +534,31 @@
     "type": "melee",
     "description": "可伸缩的鞭形剑，在远近距离之间灵活切换的武器。",
     "descriptionEn": "A flexible whip-sword that can extend and retract, switching between close and mid-range combat.",
-    "relatedCharacters": ["lingko"]
+    "relatedCharacters": [
+      "lingko"
+    ],
+    "faq": [
+      {
+        "question": "Is Whip Sword good in Neverness to Everness?",
+        "questionZh": "鞭剑好用吗？",
+        "answer": "Whip Sword is a melee weapon in Neverness to Everness. A flexible whip-sword that can extend and retract, switching between close and mid-range combat.",
+        "answerZh": "鞭剑是异环中的melee类型武器。可伸缩的鞭形剑，在远近距离之间灵活切换的武器。"
+      },
+      {
+        "question": "How to get Whip Sword in Neverness to Everness?",
+        "questionZh": "如何获得鞭剑？",
+        "answer": "Whip Sword can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "鞭剑可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Whip Sword?",
+        "questionZh": "鞭剑的最佳替代武器是什么？",
+        "answer": "The best alternative to Whip Sword depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "鞭剑的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Lingko",
+    "bestForZh": "凛子"
   },
   {
     "id": "chaos-orbs",
@@ -159,7 +567,31 @@
     "type": "magic",
     "description": "操控混沌能量形成的宝珠进行远程攻击。",
     "descriptionEn": "Controls chaos energy formed into orbs for ranged attacks.",
-    "relatedCharacters": ["mismo"]
+    "relatedCharacters": [
+      "mismo"
+    ],
+    "faq": [
+      {
+        "question": "Is Chaos Orbs good in Neverness to Everness?",
+        "questionZh": "混沌宝珠好用吗？",
+        "answer": "Chaos Orbs is a magic weapon in Neverness to Everness. Controls chaos energy formed into orbs for ranged attacks.",
+        "answerZh": "混沌宝珠是异环中的magic类型武器。操控混沌能量形成的宝珠进行远程攻击。"
+      },
+      {
+        "question": "How to get Chaos Orbs in Neverness to Everness?",
+        "questionZh": "如何获得混沌宝珠？",
+        "answer": "Chaos Orbs can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "混沌宝珠可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Chaos Orbs?",
+        "questionZh": "混沌宝珠的最佳替代武器是什么？",
+        "answer": "The best alternative to Chaos Orbs depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "混沌宝珠的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Mismo",
+    "bestForZh": "密斯莫"
   },
   {
     "id": "blood-blades",
@@ -168,7 +600,31 @@
     "type": "melee",
     "description": "以生命能量凝聚的赤红色刀刃，攻击时会消耗少量生命值但造成高额伤害。",
     "descriptionEn": "Life-energy condensed crimson blades that sacrifice a small amount of health for high damage output.",
-    "relatedCharacters": ["shinku"]
+    "relatedCharacters": [
+      "shinku"
+    ],
+    "faq": [
+      {
+        "question": "Is Blood Blades good in Neverness to Everness?",
+        "questionZh": "血刃好用吗？",
+        "answer": "Blood Blades is a melee weapon in Neverness to Everness. Life-energy condensed crimson blades that sacrifice a small amount of health for high damage output.",
+        "answerZh": "血刃是异环中的melee类型武器。以生命能量凝聚的赤红色刀刃，攻击时会消耗少量生命值但造成高额伤害。"
+      },
+      {
+        "question": "How to get Blood Blades in Neverness to Everness?",
+        "questionZh": "如何获得血刃？",
+        "answer": "Blood Blades can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "血刃可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Blood Blades?",
+        "questionZh": "血刃的最佳替代武器是什么？",
+        "answer": "The best alternative to Blood Blades depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "血刃的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Shinku",
+    "bestForZh": "沁红"
   },
   {
     "id": "psychic-barriers",
@@ -177,7 +633,31 @@
     "type": "support",
     "description": "以灵魂力量构筑防护屏障，为队友提供坚实的防御。",
     "descriptionEn": "Constructs protective barriers using psychic power, providing solid defense for allies.",
-    "relatedCharacters": ["nitsa"]
+    "relatedCharacters": [
+      "nitsa"
+    ],
+    "faq": [
+      {
+        "question": "Is Psychic Barriers good in Neverness to Everness?",
+        "questionZh": "念力屏障好用吗？",
+        "answer": "Psychic Barriers is a support weapon in Neverness to Everness. Constructs protective barriers using psychic power, providing solid defense for allies.",
+        "answerZh": "念力屏障是异环中的support类型武器。以灵魂力量构筑防护屏障，为队友提供坚实的防御。"
+      },
+      {
+        "question": "How to get Psychic Barriers in Neverness to Everness?",
+        "questionZh": "如何获得念力屏障？",
+        "answer": "Psychic Barriers can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "念力屏障可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Psychic Barriers?",
+        "questionZh": "念力屏障的最佳替代武器是什么？",
+        "answer": "The best alternative to Psychic Barriers depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "念力屏障的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Nitsa",
+    "bestForZh": "尼察"
   },
   {
     "id": "dark-feathers",
@@ -186,7 +666,31 @@
     "type": "ranged",
     "description": "以黑暗能量凝聚的羽毛进行远程攻击，可同时发射多枚追踪弹。",
     "descriptionEn": "Dark energy feathers used for ranged attacks, capable of launching multiple homing projectiles.",
-    "relatedCharacters": ["black-bird"]
+    "relatedCharacters": [
+      "black-bird"
+    ],
+    "faq": [
+      {
+        "question": "Is Dark Feathers good in Neverness to Everness?",
+        "questionZh": "暗羽好用吗？",
+        "answer": "Dark Feathers is a ranged weapon in Neverness to Everness. Dark energy feathers used for ranged attacks, capable of launching multiple homing projectiles.",
+        "answerZh": "暗羽是异环中的ranged类型武器。以黑暗能量凝聚的羽毛进行远程攻击，可同时发射多枚追踪弹。"
+      },
+      {
+        "question": "How to get Dark Feathers in Neverness to Everness?",
+        "questionZh": "如何获得暗羽？",
+        "answer": "Dark Feathers can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "暗羽可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Dark Feathers?",
+        "questionZh": "暗羽的最佳替代武器是什么？",
+        "answer": "The best alternative to Dark Feathers depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "暗羽的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Black Bird",
+    "bestForZh": "黑鸟"
   },
   {
     "id": "tiger-fangs",
@@ -195,7 +699,31 @@
     "type": "melee",
     "description": "以猛虎之力强化的格斗武器，攻击带有生命属性的震荡效果。",
     "descriptionEn": "Combat weapon enhanced with tiger power, attacks carry Anima-attribute shock effects.",
-    "relatedCharacters": ["xiaozhen"]
+    "relatedCharacters": [
+      "xiaozhen"
+    ],
+    "faq": [
+      {
+        "question": "Is Tiger Fangs good in Neverness to Everness?",
+        "questionZh": "虎牙好用吗？",
+        "answer": "Tiger Fangs is a melee weapon in Neverness to Everness. Combat weapon enhanced with tiger power, attacks carry Anima-attribute shock effects.",
+        "answerZh": "虎牙是异环中的melee类型武器。以猛虎之力强化的格斗武器，攻击带有生命属性的震荡效果。"
+      },
+      {
+        "question": "How to get Tiger Fangs in Neverness to Everness?",
+        "questionZh": "如何获得虎牙？",
+        "answer": "Tiger Fangs can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "虎牙可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Tiger Fangs?",
+        "questionZh": "虎牙的最佳替代武器是什么？",
+        "answer": "The best alternative to Tiger Fangs depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "虎牙的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Xiaozhen",
+    "bestForZh": "明虎"
   },
   {
     "id": "flame-talismans",
@@ -204,7 +732,31 @@
     "type": "magic",
     "description": "以咒术符纸为媒介释放火焰攻击，可贴附在敌人身上延迟引爆。",
     "descriptionEn": "Incantation talismans that unleash fire attacks, can be attached to enemies for delayed detonation.",
-    "relatedCharacters": ["akane"]
+    "relatedCharacters": [
+      "akane"
+    ],
+    "faq": [
+      {
+        "question": "Is Flame Talismans good in Neverness to Everness?",
+        "questionZh": "焰符好用吗？",
+        "answer": "Flame Talismans is a magic weapon in Neverness to Everness. Incantation talismans that unleash fire attacks, can be attached to enemies for delayed detonation.",
+        "answerZh": "焰符是异环中的magic类型武器。以咒术符纸为媒介释放火焰攻击，可贴附在敌人身上延迟引爆。"
+      },
+      {
+        "question": "How to get Flame Talismans in Neverness to Everness?",
+        "questionZh": "如何获得焰符？",
+        "answer": "Flame Talismans can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "焰符可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Flame Talismans?",
+        "questionZh": "焰符的最佳替代武器是什么？",
+        "answer": "The best alternative to Flame Talismans depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "焰符的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Akane",
+    "bestForZh": "赤音"
   },
   {
     "id": "gravity-hammer",
@@ -213,7 +765,31 @@
     "type": "melee",
     "description": "操控重力场的大锤，攻击时可产生吸引敌人的引力效果。",
     "descriptionEn": "A large hammer that manipulates gravity fields, creating gravitational pulls that draw enemies in.",
-    "relatedCharacters": ["jenson"]
+    "relatedCharacters": [
+      "jenson"
+    ],
+    "faq": [
+      {
+        "question": "Is Gravity Hammer good in Neverness to Everness?",
+        "questionZh": "重力锤好用吗？",
+        "answer": "Gravity Hammer is a melee weapon in Neverness to Everness. A large hammer that manipulates gravity fields, creating gravitational pulls that draw enemies in.",
+        "answerZh": "重力锤是异环中的melee类型武器。操控重力场的大锤，攻击时可产生吸引敌人的引力效果。"
+      },
+      {
+        "question": "How to get Gravity Hammer in Neverness to Everness?",
+        "questionZh": "如何获得重力锤？",
+        "answer": "Gravity Hammer can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "重力锤可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Gravity Hammer?",
+        "questionZh": "重力锤的最佳替代武器是什么？",
+        "answer": "The best alternative to Gravity Hammer depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "重力锤的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Jenson",
+    "bestForZh": "詹森"
   },
   {
     "id": "phase-blades",
@@ -222,7 +798,31 @@
     "type": "melee",
     "description": "可在不同相位间切换的刃武器，能穿透常规防御。",
     "descriptionEn": "Blades that can shift between phases, capable of penetrating standard defenses.",
-    "relatedCharacters": ["illica"]
+    "relatedCharacters": [
+      "illica"
+    ],
+    "faq": [
+      {
+        "question": "Is Phase Blades good in Neverness to Everness?",
+        "questionZh": "相位刃好用吗？",
+        "answer": "Phase Blades is a melee weapon in Neverness to Everness. Blades that can shift between phases, capable of penetrating standard defenses.",
+        "answerZh": "相位刃是异环中的melee类型武器。可在不同相位间切换的刃武器，能穿透常规防御。"
+      },
+      {
+        "question": "How to get Phase Blades in Neverness to Everness?",
+        "questionZh": "如何获得相位刃？",
+        "answer": "Phase Blades can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "相位刃可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Phase Blades?",
+        "questionZh": "相位刃的最佳替代武器是什么？",
+        "answer": "The best alternative to Phase Blades depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "相位刃的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "Illica",
+    "bestForZh": "伊利卡"
   },
   {
     "id": "sonic-guitar",
@@ -231,7 +831,29 @@
     "type": "ranged",
     "description": "以音波振动为武器的吉他型装置，范围攻击效果出色。",
     "descriptionEn": "A guitar-shaped weapon using sonic vibrations, excellent for area-of-effect attacks.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Sonic Guitar good in Neverness to Everness?",
+        "questionZh": "音波吉他好用吗？",
+        "answer": "Sonic Guitar is a ranged weapon in Neverness to Everness. A guitar-shaped weapon using sonic vibrations, excellent for area-of-effect attacks.",
+        "answerZh": "音波吉他是异环中的ranged类型武器。以音波振动为武器的吉他型装置，范围攻击效果出色。"
+      },
+      {
+        "question": "How to get Sonic Guitar in Neverness to Everness?",
+        "questionZh": "如何获得音波吉他？",
+        "answer": "Sonic Guitar can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "音波吉他可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Sonic Guitar?",
+        "questionZh": "音波吉他的最佳替代武器是什么？",
+        "answer": "The best alternative to Sonic Guitar depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "音波吉他的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "magnet-gauntlets",
@@ -240,7 +862,29 @@
     "type": "melee",
     "description": "操控磁场进行近距离格斗的拳套，可吸引或排斥金属物体。",
     "descriptionEn": "Gauntlets that control magnetic fields for close combat, can attract or repel metallic objects.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Magnet Gauntlets good in Neverness to Everness?",
+        "questionZh": "磁力拳套好用吗？",
+        "answer": "Magnet Gauntlets is a melee weapon in Neverness to Everness. Gauntlets that control magnetic fields for close combat, can attract or repel metallic objects.",
+        "answerZh": "磁力拳套是异环中的melee类型武器。操控磁场进行近距离格斗的拳套，可吸引或排斥金属物体。"
+      },
+      {
+        "question": "How to get Magnet Gauntlets in Neverness to Everness?",
+        "questionZh": "如何获得磁力拳套？",
+        "answer": "Magnet Gauntlets can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "磁力拳套可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Magnet Gauntlets?",
+        "questionZh": "磁力拳套的最佳替代武器是什么？",
+        "answer": "The best alternative to Magnet Gauntlets depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "磁力拳套的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "time-hourglass",
@@ -249,7 +893,29 @@
     "type": "support",
     "description": "操控局部时间流速的沙漏型异能装置，可减缓敌人行动。",
     "descriptionEn": "An hourglass-type esper device that controls local time flow, slowing enemy movements.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Time Hourglass good in Neverness to Everness?",
+        "questionZh": "时之沙漏好用吗？",
+        "answer": "Time Hourglass is a support weapon in Neverness to Everness. An hourglass-type esper device that controls local time flow, slowing enemy movements.",
+        "answerZh": "时之沙漏是异环中的support类型武器。操控局部时间流速的沙漏型异能装置，可减缓敌人行动。"
+      },
+      {
+        "question": "How to get Time Hourglass in Neverness to Everness?",
+        "questionZh": "如何获得时之沙漏？",
+        "answer": "Time Hourglass can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "时之沙漏可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Time Hourglass?",
+        "questionZh": "时之沙漏的最佳替代武器是什么？",
+        "answer": "The best alternative to Time Hourglass depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "时之沙漏的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "ink-brush",
@@ -258,7 +924,29 @@
     "type": "magic",
     "description": "以水墨之力绘出攻击的魔法笔，画出的图案会实体化为攻击手段。",
     "descriptionEn": "A magical brush using ink power, drawn patterns materialize into attacks.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Ink Brush good in Neverness to Everness?",
+        "questionZh": "墨笔好用吗？",
+        "answer": "Ink Brush is a magic weapon in Neverness to Everness. A magical brush using ink power, drawn patterns materialize into attacks.",
+        "answerZh": "墨笔是异环中的magic类型武器。以水墨之力绘出攻击的魔法笔，画出的图案会实体化为攻击手段。"
+      },
+      {
+        "question": "How to get Ink Brush in Neverness to Everness?",
+        "questionZh": "如何获得墨笔？",
+        "answer": "Ink Brush can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "墨笔可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Ink Brush?",
+        "questionZh": "墨笔的最佳替代武器是什么？",
+        "answer": "The best alternative to Ink Brush depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "墨笔的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "chain-scythe",
@@ -267,7 +955,29 @@
     "type": "melee",
     "description": "链式镰刀武器，可近距离挥砍也可远距离抛掷攻击。",
     "descriptionEn": "A chain-connected scythe for both close-range slashes and long-range throws.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Chain Scythe good in Neverness to Everness?",
+        "questionZh": "链镰好用吗？",
+        "answer": "Chain Scythe is a melee weapon in Neverness to Everness. A chain-connected scythe for both close-range slashes and long-range throws.",
+        "answerZh": "链镰是异环中的melee类型武器。链式镰刀武器，可近距离挥砍也可远距离抛掷攻击。"
+      },
+      {
+        "question": "How to get Chain Scythe in Neverness to Everness?",
+        "questionZh": "如何获得链镰？",
+        "answer": "Chain Scythe can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "链镰可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Chain Scythe?",
+        "questionZh": "链镰的最佳替代武器是什么？",
+        "answer": "The best alternative to Chain Scythe depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "链镰的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "crystal-shards",
@@ -276,7 +986,29 @@
     "type": "ranged",
     "description": "操控结晶体碎片进行远程穿透攻击。",
     "descriptionEn": "Controls crystal shards for long-range piercing attacks.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Crystal Shards good in Neverness to Everness?",
+        "questionZh": "晶碎好用吗？",
+        "answer": "Crystal Shards is a ranged weapon in Neverness to Everness. Controls crystal shards for long-range piercing attacks.",
+        "answerZh": "晶碎是异环中的ranged类型武器。操控结晶体碎片进行远程穿透攻击。"
+      },
+      {
+        "question": "How to get Crystal Shards in Neverness to Everness?",
+        "questionZh": "如何获得晶碎？",
+        "answer": "Crystal Shards can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "晶碎可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Crystal Shards?",
+        "questionZh": "晶碎的最佳替代武器是什么？",
+        "answer": "The best alternative to Crystal Shards depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "晶碎的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "puppet-strings",
@@ -285,7 +1017,29 @@
     "type": "summon",
     "description": "操控不可见的丝线控制敌人的傀儡型武器。",
     "descriptionEn": "Controls invisible strings to manipulate enemies, a puppet-type weapon.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Puppet Strings good in Neverness to Everness?",
+        "questionZh": "傀儡线好用吗？",
+        "answer": "Puppet Strings is a summon weapon in Neverness to Everness. Controls invisible strings to manipulate enemies, a puppet-type weapon.",
+        "answerZh": "傀儡线是异环中的summon类型武器。操控不可见的丝线控制敌人的傀儡型武器。"
+      },
+      {
+        "question": "How to get Puppet Strings in Neverness to Everness?",
+        "questionZh": "如何获得傀儡线？",
+        "answer": "Puppet Strings can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "傀儡线可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Puppet Strings?",
+        "questionZh": "傀儡线的最佳替代武器是什么？",
+        "answer": "The best alternative to Puppet Strings depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "傀儡线的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "void-scythe",
@@ -294,7 +1048,29 @@
     "type": "melee",
     "description": "切割空间本身的大镰刀，攻击时会留下空间裂缝。",
     "descriptionEn": "A scythe that cuts through space itself, leaving spatial rifts with each strike.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Void Scythe good in Neverness to Everness?",
+        "questionZh": "虚空镰好用吗？",
+        "answer": "Void Scythe is a melee weapon in Neverness to Everness. A scythe that cuts through space itself, leaving spatial rifts with each strike.",
+        "answerZh": "虚空镰是异环中的melee类型武器。切割空间本身的大镰刀，攻击时会留下空间裂缝。"
+      },
+      {
+        "question": "How to get Void Scythe in Neverness to Everness?",
+        "questionZh": "如何获得虚空镰？",
+        "answer": "Void Scythe can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "虚空镰可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Void Scythe?",
+        "questionZh": "虚空镰的最佳替代武器是什么？",
+        "answer": "The best alternative to Void Scythe depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "虚空镰的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "plasma-cannon",
@@ -303,7 +1079,29 @@
     "type": "ranged",
     "description": "蓄力型等离子射击武器，单发伤害极高但攻击速度较慢。",
     "descriptionEn": "A charged plasma射击 weapon with extremely high single-shot damage but slow attack speed.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Plasma Cannon good in Neverness to Everness?",
+        "questionZh": "等离子炮好用吗？",
+        "answer": "Plasma Cannon is a ranged weapon in Neverness to Everness. A charged plasma射击 weapon with extremely high single-shot damage but slow attack speed.",
+        "answerZh": "等离子炮是异环中的ranged类型武器。蓄力型等离子射击武器，单发伤害极高但攻击速度较慢。"
+      },
+      {
+        "question": "How to get Plasma Cannon in Neverness to Everness?",
+        "questionZh": "如何获得等离子炮？",
+        "answer": "Plasma Cannon can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "等离子炮可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Plasma Cannon?",
+        "questionZh": "等离子炮的最佳替代武器是什么？",
+        "answer": "The best alternative to Plasma Cannon depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "等离子炮的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "nature-vines",
@@ -312,7 +1110,29 @@
     "type": "support",
     "description": "操控植物藤蔓进行束缚和治疗的支援型武器。",
     "descriptionEn": "Controls plant vines for binding enemies and healing allies, a support-type weapon.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Nature Vines good in Neverness to Everness?",
+        "questionZh": "自然藤蔓好用吗？",
+        "answer": "Nature Vines is a support weapon in Neverness to Everness. Controls plant vines for binding enemies and healing allies, a support-type weapon.",
+        "answerZh": "自然藤蔓是异环中的support类型武器。操控植物藤蔓进行束缚和治疗的支援型武器。"
+      },
+      {
+        "question": "How to get Nature Vines in Neverness to Everness?",
+        "questionZh": "如何获得自然藤蔓？",
+        "answer": "Nature Vines can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "自然藤蔓可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Nature Vines?",
+        "questionZh": "自然藤蔓的最佳替代武器是什么？",
+        "answer": "The best alternative to Nature Vines depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "自然藤蔓的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "mirror-shield",
@@ -321,7 +1141,29 @@
     "type": "support",
     "description": "可反射敌人攻击的镜面盾牌，也能用于侦查。",
     "descriptionEn": "A mirror shield that can reflect enemy attacks and be used for reconnaissance.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Mirror Shield good in Neverness to Everness?",
+        "questionZh": "镜盾好用吗？",
+        "answer": "Mirror Shield is a support weapon in Neverness to Everness. A mirror shield that can reflect enemy attacks and be used for reconnaissance.",
+        "answerZh": "镜盾是异环中的support类型武器。可反射敌人攻击的镜面盾牌，也能用于侦查。"
+      },
+      {
+        "question": "How to get Mirror Shield in Neverness to Everness?",
+        "questionZh": "如何获得镜盾？",
+        "answer": "Mirror Shield can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "镜盾可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Mirror Shield?",
+        "questionZh": "镜盾的最佳替代武器是什么？",
+        "answer": "The best alternative to Mirror Shield depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "镜盾的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "thunder-drums",
@@ -330,7 +1172,29 @@
     "type": "magic",
     "description": "以雷电之力强化的战鼓，敲击时释放范围雷击。",
     "descriptionEn": "War drums enhanced with lightning power, releasing area thunder strikes when beaten.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Thunder Drums good in Neverness to Everness?",
+        "questionZh": "雷鼓好用吗？",
+        "answer": "Thunder Drums is a magic weapon in Neverness to Everness. War drums enhanced with lightning power, releasing area thunder strikes when beaten.",
+        "answerZh": "雷鼓是异环中的magic类型武器。以雷电之力强化的战鼓，敲击时释放范围雷击。"
+      },
+      {
+        "question": "How to get Thunder Drums in Neverness to Everness?",
+        "questionZh": "如何获得雷鼓？",
+        "answer": "Thunder Drums can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "雷鼓可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Thunder Drums?",
+        "questionZh": "雷鼓的最佳替代武器是什么？",
+        "answer": "The best alternative to Thunder Drums depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "雷鼓的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "frost-fan",
@@ -339,7 +1203,29 @@
     "type": "magic",
     "description": "释放冰霜风暴的折叠扇，能大范围减速敌人。",
     "descriptionEn": "A folding fan that releases frost storms, capable of slowing enemies in a wide area.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Frost Fan good in Neverness to Everness?",
+        "questionZh": "冰扇好用吗？",
+        "answer": "Frost Fan is a magic weapon in Neverness to Everness. A folding fan that releases frost storms, capable of slowing enemies in a wide area.",
+        "answerZh": "冰扇是异环中的magic类型武器。释放冰霜风暴的折叠扇，能大范围减速敌人。"
+      },
+      {
+        "question": "How to get Frost Fan in Neverness to Everness?",
+        "questionZh": "如何获得冰扇？",
+        "answer": "Frost Fan can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "冰扇可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Frost Fan?",
+        "questionZh": "冰扇的最佳替代武器是什么？",
+        "answer": "The best alternative to Frost Fan depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "冰扇的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "gravity-boots",
@@ -348,7 +1234,29 @@
     "type": "melee",
     "description": "强化踢技的重力靴，可在墙壁和天花板上行走。",
     "descriptionEn": "Gravity boots that enhance kick attacks, allowing the user to walk on walls and ceilings.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Gravity Boots good in Neverness to Everness?",
+        "questionZh": "重力靴好用吗？",
+        "answer": "Gravity Boots is a melee weapon in Neverness to Everness. Gravity boots that enhance kick attacks, allowing the user to walk on walls and ceilings.",
+        "answerZh": "重力靴是异环中的melee类型武器。强化踢技的重力靴，可在墙壁和天花板上行走。"
+      },
+      {
+        "question": "How to get Gravity Boots in Neverness to Everness?",
+        "questionZh": "如何获得重力靴？",
+        "answer": "Gravity Boots can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "重力靴可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Gravity Boots?",
+        "questionZh": "重力靴的最佳替代武器是什么？",
+        "answer": "The best alternative to Gravity Boots depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "重力靴的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "spirit-bow",
@@ -357,7 +1265,29 @@
     "type": "ranged",
     "description": "发射灵力箭矢的长弓，箭矢可追踪目标。",
     "descriptionEn": "A longbow that fires spirit arrows capable of tracking targets.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Spirit Bow good in Neverness to Everness?",
+        "questionZh": "灵弓好用吗？",
+        "answer": "Spirit Bow is a ranged weapon in Neverness to Everness. A longbow that fires spirit arrows capable of tracking targets.",
+        "answerZh": "灵弓是异环中的ranged类型武器。发射灵力箭矢的长弓，箭矢可追踪目标。"
+      },
+      {
+        "question": "How to get Spirit Bow in Neverness to Everness?",
+        "questionZh": "如何获得灵弓？",
+        "answer": "Spirit Bow can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "灵弓可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Spirit Bow?",
+        "questionZh": "灵弓的最佳替代武器是什么？",
+        "answer": "The best alternative to Spirit Bow depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "灵弓的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "nanite-swarm",
@@ -366,7 +1296,29 @@
     "type": "summon",
     "description": "操控纳米级机器人群体进行攻击和修复的科技武器。",
     "descriptionEn": "Controls swarms of nanobots for attacks and repairs, a technology-type weapon.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Nanite Swarm good in Neverness to Everness?",
+        "questionZh": "纳米虫群好用吗？",
+        "answer": "Nanite Swarm is a summon weapon in Neverness to Everness. Controls swarms of nanobots for attacks and repairs, a technology-type weapon.",
+        "answerZh": "纳米虫群是异环中的summon类型武器。操控纳米级机器人群体进行攻击和修复的科技武器。"
+      },
+      {
+        "question": "How to get Nanite Swarm in Neverness to Everness?",
+        "questionZh": "如何获得纳米虫群？",
+        "answer": "Nanite Swarm can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "纳米虫群可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Nanite Swarm?",
+        "questionZh": "纳米虫群的最佳替代武器是什么？",
+        "answer": "The best alternative to Nanite Swarm depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "纳米虫群的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   },
   {
     "id": "soul-lantern",
@@ -375,6 +1327,28 @@
     "type": "support",
     "description": "吸收和释放灵魂能量的灯笼，可为队友恢复能量。",
     "descriptionEn": "A lantern that absorbs and releases soul energy, restoring energy for allies.",
-    "relatedCharacters": []
+    "relatedCharacters": [],
+    "faq": [
+      {
+        "question": "Is Soul Lantern good in Neverness to Everness?",
+        "questionZh": "魂灯好用吗？",
+        "answer": "Soul Lantern is a support weapon in Neverness to Everness. A lantern that absorbs and releases soul energy, restoring energy for allies.",
+        "answerZh": "魂灯是异环中的support类型武器。吸收和释放灵魂能量的灯笼，可为队友恢复能量。"
+      },
+      {
+        "question": "How to get Soul Lantern in Neverness to Everness?",
+        "questionZh": "如何获得魂灯？",
+        "answer": "Soul Lantern can be obtained through the gacha system, crafting, or as a reward in Neverness to Everness. Check our complete guide for specific acquisition methods.",
+        "answerZh": "魂灯可以通过祈愿、锻造或活动奖励获得。查看我们的完整攻略了解具体获取方式。"
+      },
+      {
+        "question": "What is the best alternative to Soul Lantern?",
+        "questionZh": "魂灯的最佳替代武器是什么？",
+        "answer": "The best alternative to Soul Lantern depends on your available weapons and the character using it. Check our weapon tier list for alternatives ranked by performance.",
+        "answerZh": "魂灯的最佳替代取决于你拥有的武器和使用角色。查看我们的武器排行榜了解按性能排序的替代选择。"
+      }
+    ],
+    "bestFor": "various characters",
+    "bestForZh": "多种角色"
   }
 ]

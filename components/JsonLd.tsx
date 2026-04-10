@@ -2,10 +2,10 @@ export function WebSiteJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "异环 Wiki",
-    alternateName: "YiHuan Wiki",
+    name: "NTE Guide",
+    alternateName: "Neverness to Everness Wiki",
     url: "https://nteguide.com",
-    description: "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。",
+    description: "Neverness to Everness Wiki & tools. Character builds, tier lists, calculator, guides and codes.",
     potentialAction: {
       "@type": "SearchAction",
       target: "https://nteguide.com/zh/characters?q={search_term_string}",
@@ -27,8 +27,8 @@ export function CharacterJsonLd({ character }: { character: { name: string; name
     "@type": "VideoGameCharacter",
     name: character.name,
     alternateName: character.nameEn,
-    description: character.description || `${character.name} - 异环游戏角色`,
-    game: "异环",
+    description: character.description || `${character.name} - Neverness to Everness character`,
+    game: "Neverness to Everness",
   };
 
   return (
@@ -121,6 +121,100 @@ export function ArticleJsonLd({ title, description, url, datePublished }: { titl
     },
   };
 
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+export function FaqPageJsonLd({ faqs, lang }: { faqs: { question: string; questionZh: string; answer: string; answerZh: string }[]; lang: "zh" | "en" }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: lang === "zh" ? faq.questionZh : faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: lang === "zh" ? faq.answerZh : faq.answer,
+      },
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+export function OrganizationJsonLd() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "NTE Guide",
+    url: "https://nteguide.com",
+    description: "Neverness to Everness Wiki and tools",
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+export function VideoGameJsonLd() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    name: "Neverness to Everness",
+    alternateName: "异环",
+    gamePlatform: "PC",
+    applicationCategory: "Game",
+    genre: "Action RPG",
+    url: "https://nteguide.com",
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+export function ProductJsonLd({ name, description }: { name: string; description: string }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    brand: {
+      "@type": "Brand",
+      name: "Neverness to Everness",
+    },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+export function WebApplicationJsonLd({ name, description }: { name: string; description: string }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name,
+    description,
+    url: "https://nteguide.com",
+    applicationCategory: "Game Tool",
+    operatingSystem: "Web",
+  };
   return (
     <script
       type="application/ld+json"

@@ -26,22 +26,22 @@ export async function generateMetadata({
   return {
     title:
       lang === "zh"
-        ? `${material.name} 获取方式 & 用途`
-        : `${material.nameEn} Source & Usage`,
+        ? `${material.name} 获取方式 & 用途 | 异环 Wiki`
+        : `${material.nameEn} (${material.name}) Source & Usage - NTE Guide`,
     description:
       lang === "zh"
-        ? `异环 ${material.name} 获取方法，包含掉落地点和使用该材料的角色列表。`
-        : `How to get ${material.nameEn} in YiHuan, including drop locations and characters that use this material.`,
+        ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
+        : `Find how to get ${material.nameEn} in Neverness to Everness. Drop locations, farming routes, and all characters that need this material.`,
     alternates: hreflangAlternates(`materials/${slug}`),
     openGraph: {
       title:
         lang === "zh"
           ? `${material.name} 获取方式 & 用途 | 异环 Wiki`
-          : `${material.nameEn} Source & Usage | YiHuan Wiki`,
+          : `${material.nameEn} Source & Usage | NTE Guide`,
       description:
         lang === "zh"
-          ? `异环 ${material.name} 获取方法`
-          : `How to get ${material.nameEn}`,
+          ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
+          : `Find how to get ${material.nameEn} in Neverness to Everness.`,
       type: "article",
     },
   };

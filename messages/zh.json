@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "异环 Wiki",
-    "description": "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。",
+    "description": "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。",
     "nav": {
       "home": "首页",
       "characters": "角色",
@@ -19,7 +19,7 @@
   },
   "home": {
     "heroTitle": "异环 Wiki",
-    "heroSubtitle": "角色数据库 · 攻略指南 · 实用工具",
+    "heroSubtitle": "Neverness to Everness 攻略 · 配装 · 工具",
     "heroDescription": "快速查询角色升级材料，计算养成成本，助力你的异环之旅。",
     "ctaCalculator": "使用计算器",
     "charactersSection": "全部角色",
@@ -28,7 +28,7 @@
   },
   "characters": {
     "title": "角色列表",
-    "description": "异环全部角色升级材料和养成攻略",
+    "description": "异环全部角色配装推荐、升级材料和强度排行",
     "rank": "等级",
     "attribute": "属性",
     "levelingMaterials": "升级材料",
@@ -41,15 +41,15 @@
   },
   "materials": {
     "title": "材料列表",
-    "description": "异环全部材料获取方式和用途",
+    "description": "异环全部材料获取方式和使用角色",
     "source": "获取方式",
     "usedBy": "使用角色",
     "rarity": "稀有度",
     "type": "类型"
   },
   "calculator": {
-    "title": "升级材料计算器",
-    "description": "快速计算异环角色升级所需材料数量",
+    "title": "异环升级计算器",
+    "description": "计算异环角色升级所需材料数量",
     "selectCharacter": "选择角色",
     "currentLevel": "当前等级",
     "targetLevel": "目标等级",
@@ -66,7 +66,7 @@
   },
   "buildCalculator": {
     "title": "Build 计算器",
-    "description": "查看角色推荐 Build，主词条、副词条、武器和队友搭配",
+    "description": "查看异环角色推荐Build、主副词条、武器和队友搭配",
     "selectCharacter": "选择角色",
     "selectHint": "请选择一个角色查看推荐 Build",
     "filterHint": "使用上方筛选器按属性或稀有度过滤",
@@ -84,7 +84,7 @@
     "openLevelingCalc": "打开升级材料计算器 →"
   },
   "gacha": {
-    "title": "抽卡模拟器",
+    "title": "异环抽卡模拟器",
     "description": "模拟异环祈愿抽卡，测试你的运气！",
     "disclaimer": "非官方概率，仅供娱乐。实际游戏概率以官方公告为准。",
     "pull1": "单抽 x1",
@@ -125,8 +125,8 @@
     "step3": "粘贴兑换码并确认，奖励将通过邮件发放"
   },
   "map": {
-    "title": "地图标点",
-    "description": "异环全地图资源点标记，查看副本、BOSS、采集点和传送点",
+    "title": "异环地图标点",
+    "description": "异环全地图资源点标记，副本、BOSS和采集点",
     "markerList": "标点列表",
     "relatedMaterials": "掉落材料",
     "closeDetail": "关闭详情"
@@ -154,7 +154,7 @@
   },
   "guides": {
     "title": "攻略指南",
-    "description": "异环完整攻略指南，包含新手入门、角色强度榜、配队推荐等",
+    "description": "异环完整攻略指南，包含新手入门、强度排行、配队推荐等",
     "readMore": "阅读全文",
     "relatedGuides": "相关攻略",
     "relatedCharacters": "相关角色",
@@ -176,7 +176,7 @@
   },
   "weapons": {
     "title": "武器列表",
-    "description": "异环全部武器类型和使用角色",
+    "description": "异环全部武器类型、属性和适用角色",
     "type": "类型",
     "relatedCharacters": "使用角色",
     "melee": "近战",

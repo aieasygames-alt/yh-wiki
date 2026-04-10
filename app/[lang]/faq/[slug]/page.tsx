@@ -24,11 +24,11 @@ export async function generateMetadata({
   if (!faq) return {};
   const question = lang === "zh" ? faq.question : faq.questionEn;
   return {
-    title: `${question} | 异环 Wiki`,
+    title: `${question}${lang === "zh" ? " | 异环 Wiki" : " - NTE Guide"}`,
     description: lang === "zh" ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
     alternates: hreflangAlternates(`faq/${slug}`),
     openGraph: {
-      title: `${question} | 异环 Wiki`,
+      title: `${question}${lang === "zh" ? " | 异环 Wiki" : " - NTE Guide"}`,
       description: lang === "zh" ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
       type: "article",
     },

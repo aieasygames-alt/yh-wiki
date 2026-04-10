@@ -4,11 +4,16 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://nteguide.com"),
   title: {
-    default: "异环 Wiki - 角色数据库 · 材料查询 · 养成计算器",
-    template: "%s | 异环 Wiki",
+    default: "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
+    template: "%s | NTE Guide",
   },
   description:
-    "异环游戏数据库和工具站，提供角色升级材料查询、养成计算器等实用工具。",
+    "Neverness to Everness (NTE) Wiki & tools. Character builds, tier lists, leveling calculator, guides, and redeem codes. Complete resource for NTE players.",
+  keywords: [
+    "Neverness to Everness", "NTE", "NTE guide", "NTE wiki",
+    "NTE characters", "NTE tier list", "NTE calculator",
+    "NTE redeem codes", "NTE builds",
+  ],
 };
 
 export default function RootLayout({

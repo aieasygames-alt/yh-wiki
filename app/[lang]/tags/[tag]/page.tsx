@@ -39,9 +39,9 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string; tag: string } }) {
   const { lang, tag } = await params;
   const locale = lang as "zh" | "en";
-  const title = locale === "zh" ? `#${tag} 相关内容` : `#${tag} Content`;
+  const title = locale === "zh" ? `#${tag} 相关内容 - 异环 Wiki` : `#${tag} - NTE Guide`;
   return {
-    title: `${title} - ${locale === "zh" ? "异环 Wiki" : "NTE Guide"} | NTE Guide`,
+    title: `${title} | NTE Guide`,
     description: title,
     alternates: hreflangAlternates(`tags/${tag}`),
   };

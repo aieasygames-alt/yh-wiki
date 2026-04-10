@@ -9,12 +9,12 @@ export async function generateMetadata({
   return {
     title:
       lang === "zh"
-        ? "Build 计算器 | 角色配装推荐"
-        : "Build Calculator | Character Build Guide",
+        ? "异环 Build 计算器 | 角色配装推荐"
+        : "NTE Build Calculator - Neverness to Everness",
     description:
       lang === "zh"
         ? "异环角色 Build 推荐，查看主词条、副词条优先级、推荐武器和队友搭配。"
-        : "YiHuan character build recommendations. View main stats, sub stat priorities, recommended weapons and team comps.",
+        : "Find the best builds for Neverness to Everness characters. Main stats, sub stats, weapons, and team comp recommendations.",
     alternates: hreflangAlternates("calculator/build"),
   };
 }

@@ -25,11 +25,11 @@ export async function generateMetadata({
   const name = lang === "zh" ? lore.name : lore.nameEn;
   const description = lang === "zh" ? lore.summary : lore.summaryEn;
   return {
-    title: `${name} - ${lang === "zh" ? "异环世界观" : "NTE Lore"} | NTE Guide`,
+    title: `${name} - ${lang === "zh" ? "异环世界观" : "NTE Lore | Neverness to Everness"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`lore/${slug}`),
     openGraph: {
-      title: `${name} - ${lang === "zh" ? "异环世界观" : "NTE Lore"} | NTE Guide`,
+      title: `${name} - ${lang === "zh" ? "异环世界观" : "NTE Lore | Neverness to Everness"} | NTE Guide`,
       description,
       type: "article",
     },

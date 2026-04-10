@@ -7,6 +7,13 @@ import guidesData from "../data/guides.json";
 import loreData from "../data/lore.json";
 import locationsData from "../data/locations.json";
 
+export interface FaqItem {
+  question: string;
+  questionZh: string;
+  answer: string;
+  answerZh: string;
+}
+
 export interface Character {
   id: string;
   name: string;
@@ -19,6 +26,12 @@ export interface Character {
   roleEn: string;
   faction?: string;
   description?: string;
+  descriptionEn?: string;
+  faq?: FaqItem[];
+  relatedCharacters?: string[];
+  tierRank?: string;
+  tierReason?: string;
+  tierReasonZh?: string;
 }
 
 export interface Material {
@@ -146,6 +159,9 @@ export interface Weapon {
   description: string;
   descriptionEn: string;
   relatedCharacters: string[];
+  faq?: FaqItem[];
+  bestFor?: string;
+  bestForZh?: string;
 }
 
 export function getAllWeapons(): Weapon[] {
@@ -179,6 +195,7 @@ export interface Guide {
   relatedCharacters: string[];
   relatedLocations: string[];
   relatedLore: string[];
+  faq?: FaqItem[];
 }
 
 export function getAllGuides(): Guide[] {

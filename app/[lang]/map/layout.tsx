@@ -9,12 +9,12 @@ export async function generateMetadata({
   return {
     title:
       lang === "zh"
-        ? "地图标点 | 异环全地图资源点"
-        : "Interactive Map | YiHuan All Map Resources",
+        ? "异环地图标点 | 全地图资源点"
+        : "NTE Interactive Map - Neverness to Everness Resource Locations",
     description:
       lang === "zh"
         ? "异环交互式地图，查看副本、BOSS、采集点和传送点的位置。"
-        : "YiHuan interactive map. Find domain, boss, collectible, and waypoint locations.",
+        : "Neverness to Everness interactive map. Find all domains, bosses, collectibles and waypoints.",
     alternates: hreflangAlternates("map"),
   };
 }

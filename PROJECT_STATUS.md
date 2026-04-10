@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-09（V2 P0+P1+P2 全部完成）
+> 最后更新：2026-04-10（V3 开发启动）
 
 ## 项目概述
 
@@ -238,12 +238,76 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | 标签系统 | ✅ | 15 个标签聚合页 |
 | 首页重构 | ✅ | 统计+工具+攻略+S角色 |
 
-## 待完成事项
+## V3 — SEO 深度升级（2026-04-10 启动）
 
-### 运营项
+> 关联文档：`DEV_PLAN_V3.md`、`../PRD-V3-nteguide-SEO升级计划.md`
+
+### 目标
+
+| 指标 | 当前 | V3 目标 |
+|------|------|---------|
+| 页面总数 | 557 | 900+ |
+| SEO 评分 | 4.9/10 | 7.5+/10 |
+| 角色页字数 | ~300 | ≥ 1200 |
+| Schema 覆盖 | 部分 | 100% |
+| FAQ 条目 | 21 | ~376 |
+| Blog 文章 | 0 | 8+ |
+| 攻略总数 | 13 | 28+ |
+
+### Phase 1：P0 SEO 紧急修复（Week 1-2）
+
+| 任务 | 状态 | 说明 |
+|------|------|------|
+| On-Page SEO 元数据全面重写 | ⬜ | Title/Description/H1 全部页面 |
+| FAQ 数据编写（~355 条） | ⬜ | 角色 190 + 武器 126 + 攻略 39 |
+| FaqSection 组件 + FAQPage Schema | ⬜ | 新组件 |
+| Schema 补全 | ⬜ | WebSite/Organization/VideoGame/Product/WebApplication |
+| 内链结构优化（Hub-and-Spoke） | ⬜ | 角色页 ≥ 5 个内链 |
+| AI 可引用摘要块 | ⬜ | CharacterSummary + WeaponSummary |
+| Google Search Console 接入 | ⬜ | DNS 验证 + sitemap 提交 |
+
+### Phase 2：P1-A 内容数据扩充（Week 3-4）
+
+| 任务 | 状态 | 说明 |
+|------|------|------|
+| 38 角色技能数据编写 | ⬜ | skills 字段 |
+| 38 角色配装/配队数据 | ⬜ | recommendedBuild + teamComps |
+| SkillDetail / BuildRecommendation / TeamCompCard / TierBadge 组件 | ⬜ | 4 个新组件 |
+| 角色页模板重构 | ⬜ | 整合所有新模块 |
+| 13 篇攻略扩写至 1500+ 字 | ⬜ | 内容扩充 |
+| 15 篇新攻略 | ⬜ | 30 个新攻略页面 |
+
+### Phase 3：P1-B Blog 系统（Week 5-6）
+
+| 任务 | 状态 | 说明 |
+|------|------|------|
+| data/blog.json 数据文件 | ⬜ | 新数据文件 |
+| Blog 列表页 + 详情页 | ⬜ | 2 个新路由 |
+| BlogCard 组件 | ⬜ | 新组件 |
+| 8 篇 Blog 内容（中英双语） | ⬜ | 16 个新页面 |
+| Header/首页 Blog 入口 | ⬜ | 导航更新 |
+
+### Phase 4：P2 技术优化 + 对比页（Week 7-8）
+
+| 任务 | 状态 | 说明 |
+|------|------|------|
+| 图片补全（角色 20 + 武器 42 + 材料 35） | ⬜ | 素材获取 |
+| 图片优化（WebP/alt/lazy/responsive） | ⬜ | GameImage 改造 |
+| 3 个对比页 | ⬜ | nte-vs-genshin / nte-vs-wuwa / games-like-nte |
+| Core Web Vitals 优化 | ⬜ | LCP/CLS/INP 达标 |
+| Build 分享按钮 | ⬜ | ShareBuildButton |
+
+### Phase 5：P3 持续运营（Week 9+）
+
+- [ ] Blog 每周 1-2 篇
+- [ ] 兑换码持续更新
+- [ ] 外链建设
+- [ ] 关键词排名监控
+
+### 运营项（从 V2 结转）
+
 - [ ] Google Search Console 接入验证
 - [ ] 补充角色真实图片（新增 17 个角色）
 - [ ] 材料真实图片
 - [ ] 校验数据准确性
 - [ ] 兑换码持续更新
-- [ ] 内容质量提升（攻略内容深化）

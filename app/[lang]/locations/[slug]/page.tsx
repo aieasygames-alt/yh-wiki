@@ -25,11 +25,11 @@ export async function generateMetadata({
   const name = lang === "zh" ? loc.name : loc.nameEn;
   const description = lang === "zh" ? loc.summary : loc.summaryEn;
   return {
-    title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location"} | NTE Guide`,
+    title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`locations/${slug}`),
     openGraph: {
-      title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location"} | NTE Guide`,
+      title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
       description,
       type: "article",
     },

@@ -4,6 +4,9 @@ import { t, hreflangAlternates } from "../../../../lib/i18n";
 import { getWeapon, getAllWeapons, getCharactersUsingWeapon } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { ProductJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
+import { FaqSection } from "../../../../components/FaqSection";
+import { WeaponSummary } from "../../../../components/WeaponSummary";
 
 export function generateStaticParams() {
   const weapons = getAllWeapons();
@@ -24,22 +27,22 @@ export async function generateMetadata({
   return {
     title:
       lang === "zh"
-        ? `${weapon.name} - 异环武器`
-        : `${weapon.nameEn} - YiHuan Weapon`,
+        ? `${weapon.name} 属性 & 适用角色 | 异环 Wiki`
+        : `${weapon.nameEn} (${weapon.name}) Stats & Best Characters - NTE`,
     description:
       lang === "zh"
-        ? `异环武器「${weapon.name}」详细介绍，包含武器类型和使用角色。`
-        : `Detailed guide for YiHuan weapon "${weapon.nameEn}", including weapon type and characters who use it.`,
+        ? `异环武器「${weapon.name}」详细属性、适用角色推荐及获取方式。`
+        : `Discover ${weapon.nameEn} stats, best characters, and how to get it in Neverness to Everness. Complete weapon guide with comparisons.`,
     alternates: hreflangAlternates(`weapons/${slug}`),
     openGraph: {
       title:
         lang === "zh"
           ? `${weapon.name} | 异环 Wiki`
-          : `${weapon.nameEn} | YiHuan Wiki`,
+          : `${weapon.nameEn} Stats & Best Characters | NTE`,
       description:
         lang === "zh"
-          ? `异环武器「${weapon.name}」介绍`
-          : `YiHuan weapon "${weapon.nameEn}" guide`,
+          ? `异环武器「${weapon.name}」详细属性、适用角色推荐及获取方式。`
+          : `${weapon.nameEn} stats and best characters in Neverness to Everness`,
       type: "article",
     },
   };
@@ -68,6 +71,10 @@ export default async function WeaponDetailPage({
 
   return (
     <>
+      <ProductJsonLd name={locale === "zh" ? weapon.name : weapon.nameEn} description={locale === "zh" ? weapon.description : weapon.descriptionEn} />
+      {weapon.faq && weapon.faq.length > 0 && (
+        <FaqPageJsonLd faqs={weapon.faq} lang={locale} />
+      )}
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
@@ -86,7 +93,7 @@ export default async function WeaponDetailPage({
               </svg>
             </div>
             <div>
-              <h1 className="text-2xl font-bold">{locale === "zh" ? weapon.name : weapon.nameEn}</h1>
+              <h1 className="text-2xl font-bold">{locale === "zh" ? weapon.name : `${weapon.nameEn} Stats & Best Characters`}</h1>
               <p className="text-gray-500">{locale === "zh" ? weapon.nameEn : weapon.name}</p>
               <div className="mt-2">
                 <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
@@ -99,6 +106,15 @@ export default async function WeaponDetailPage({
             {locale === "zh" ? weapon.description : weapon.descriptionEn}
           </p>
         </div>
+
+        <WeaponSummary
+          name={weapon.name} nameEn={weapon.nameEn}
+          type={weapon.type}
+          typeLabel={TYPE_LABELS[weapon.type]?.[locale] || weapon.type}
+          description={weapon.description} descriptionEn={weapon.descriptionEn}
+          relatedCharacters={characters.map(c => ({ name: c.name, nameEn: c.nameEn }))}
+          locale={locale}
+        />
 
         {/* Related Characters */}
         <section className="mb-8">
@@ -126,6 +142,11 @@ export default async function WeaponDetailPage({
             <p className="text-sm text-gray-500">-</p>
           )}
         </section>
+
+        {/* FAQ Section */}
+        {weapon.faq && weapon.faq.length > 0 && (
+          <FaqSection faqs={weapon.faq} locale={locale} />
+        )}
 
         {/* Calculator CTA */}
         <div className="text-center py-8">
