@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     "NTE characters", "NTE tier list", "NTE calculator",
     "NTE redeem codes", "NTE builds",
   ],
+  other: {
+    "msvalidate.01": "1FDBEDECCADE86F6C58D3B85E9492A14",
+  },
 };
 
 export default function RootLayout({
