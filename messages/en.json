@@ -14,7 +14,8 @@
       "lore": "Lore",
       "locations": "Locations",
       "faq": "FAQ",
-      "map": "Map"
+      "map": "Map",
+      "blog": "Blog"
     }
   },
   "home": {
@@ -204,5 +205,9 @@
     "companion": "Companion",
     "summon": "Summon",
     "support": "Support"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest news, in-depth guides, and game reviews for Neverness to Everness"
   }
 }

@@ -27,6 +27,7 @@ export function Header() {
     { href: `/${lang}/gacha`, label: t(lang, "site.nav.gacha") },
     { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
     { href: `/${lang}/guides`, label: t(lang, "site.nav.guides") },
+    { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },
     { href: `/${lang}/lore`, label: t(lang, "site.nav.lore") },
     { href: `/${lang}/locations`, label: t(lang, "site.nav.locations") },
     { href: `/${lang}/map`, label: t(lang, "site.nav.map") },

@@ -6,6 +6,7 @@ import weaponsData from "../data/weapons.json";
 import guidesData from "../data/guides.json";
 import loreData from "../data/lore.json";
 import locationsData from "../data/locations.json";
+import blogData from "../data/blog.json";
 
 export interface FaqItem {
   question: string;
@@ -310,4 +311,34 @@ export function getAllLocations(): Location[] {
 
 export function getLocation(slug: string): Location | undefined {
   return getAllLocations().find((l) => l.id === slug);
+}
+
+// Blog types and queries
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  titleEn: string;
+  summary: string;
+  summaryEn: string;
+  content: string;
+  contentEn: string;
+  category: string;
+  categoryZh: string;
+  categoryEn: string;
+  date: string;
+  tags: string[];
+  internalLinks: { label: string; labelEn: string; href: string }[];
+}
+
+export function getAllBlogPosts(): BlogPost[] {
+  return blogData as BlogPost[];
+}
+
+export function getBlogPost(slug: string): BlogPost | undefined {
+  return getAllBlogPosts().find((p) => p.id === slug);
+}
+
+export function getLatestBlogPosts(count: number): BlogPost[] {
+  return getAllBlogPosts().slice(0, count);
 }

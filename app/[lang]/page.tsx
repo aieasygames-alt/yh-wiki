@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { t, hreflangAlternatesIndex } from "../../lib/i18n";
-import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons } from "../../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { SearchDialog } from "../../components/SearchDialog";
@@ -47,6 +47,7 @@ export default async function HomePage({
   const materials = getAllMaterials();
   const guides = getAllGuides();
   const weapons = getAllWeapons();
+  const blogPosts = getLatestBlogPosts(3);
 
   const sRankChars = characters.filter((c) => c.rank === "S");
 
@@ -125,6 +126,34 @@ export default async function HomePage({
                 </h3>
                 <p className="text-sm text-gray-500 mt-1 line-clamp-2">
                   {locale === "zh" ? g.summary : g.summaryEn}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Latest Blog */}
+        <section className="max-w-6xl mx-auto px-4 py-12">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold">{locale === "zh" ? "最新博客" : "Latest Blog"}</h2>
+            <Link href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
+              {t(locale, "home.viewAll")} →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {blogPosts.map((post) => (
+              <Link key={post.id} href={`/${lang}/blog/${post.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
+                    {locale === "zh" ? post.categoryZh : post.categoryEn}
+                  </span>
+                  <time className="text-xs text-gray-500">{post.date}</time>
+                </div>
+                <h3 className="text-base font-medium line-clamp-2">
+                  {locale === "zh" ? post.title : post.titleEn}
+                </h3>
+                <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                  {locale === "zh" ? post.summary : post.summaryEn}
                 </p>
               </Link>
             ))}

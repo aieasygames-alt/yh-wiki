@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons, getAllGuides, getAllLore, getAllLocations } from "../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons, getAllGuides, getAllLore, getAllLocations, getAllBlogPosts } from "../lib/queries";
 
 const BASE_URL = "https://nteguide.com";
 
@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const loreItems = getAllLore();
   const locationItems = getAllLocations();
   const langs = ["zh", "en"];
+  const blogPosts = getAllBlogPosts();
 
   const routes: MetadataRoute.Sitemap = [];
 
@@ -229,6 +230,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: "weekly",
         priority: 0.5,
+      });
+    });
+  });
+
+  // Blog
+  langs.forEach((lang) => {
+    routes.push({
+      url: `${BASE_URL}/${lang}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    });
+  });
+  blogPosts.forEach((p) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/blog/${p.id}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.8,
       });
     });
   });

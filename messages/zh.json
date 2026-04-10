@@ -14,7 +14,8 @@
       "lore": "世界观",
       "locations": "地点",
       "faq": "FAQ",
-      "map": "地图"
+      "map": "地图",
+      "blog": "博客"
     }
   },
   "home": {
@@ -204,5 +205,9 @@
     "companion": "伴生体",
     "summon": "召唤",
     "support": "辅助"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "异环最新资讯、深度攻略和游戏评测"
   }
 }
