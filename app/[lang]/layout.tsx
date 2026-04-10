@@ -29,6 +29,7 @@ export default async function LangLayout({
   return (
     <html lang={lang}>
       <head>
+        <meta name="msvalidate.01" content="1FDBEDECCADE86F6C58D3B85E9492A14" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="afterInteractive"
