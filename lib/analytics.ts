@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-const GTM_ID = "GTM-N2TCS4RN";
+const GA_ID = "G-KLVBV8S58R";
 
 export interface TrackEventParams {
   event: string;
@@ -10,27 +10,36 @@ export interface TrackEventParams {
   [key: string]: any;
 }
 
-export function pushDataLayer(params: TrackEventParams) {
+/** Call gtag() directly */
+function gtag(...args: any[]) {
   if (typeof window !== "undefined") {
     window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push(params);
+    window.gtag = window.gtag || function (...a: any[]) { window.dataLayer.push(a); };
+    window.gtag(...args);
   }
 }
 
-/** Track a custom event via GTM dataLayer */
+/** Track page_view with custom dimensions */
+export function trackPageView(path: string, pageType: string, language: string) {
+  gtag("config", GA_ID, {
+    page_path: path,
+    send_page_view: true,
+    page_type: pageType,
+    page_language: language,
+  });
+}
+
+/** Track a custom event */
 export function trackEvent({
   event,
   category,
   label,
   value,
-  ...rest
 }: TrackEventParams) {
-  pushDataLayer({
-    event,
+  gtag("event", event, {
     event_category: category,
     event_label: label,
-    event_value: value,
-    ...rest,
+    value: value,
   });
 }
 
@@ -73,6 +82,7 @@ export function getPageType(pathname: string): string {
 
 declare global {
   interface Window {
-    dataLayer: Record<string, unknown>[];
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
   }
 }
