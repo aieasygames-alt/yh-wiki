@@ -15,7 +15,20 @@
       "locations": "Locations",
       "faq": "FAQ",
       "map": "Map",
-      "blog": "Blog"
+      "blog": "Blog",
+      "guidesAndTools": "Guides & Tools",
+      "database": "Database",
+      "wiki": "Wiki",
+      "allGuides": "All Guides",
+      "levelingCalc": "Leveling Calc",
+      "buildCalc": "Build Calc",
+      "gachaSim": "Gacha Simulator",
+      "footer": {
+        "gameData": "Game Data",
+        "tools": "Tools",
+        "content": "Content",
+        "resources": "Resources"
+      }
     }
   },
   "home": {
