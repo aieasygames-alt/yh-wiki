@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-10（V3 P0 + P1-A + P1-B 已完成）
+> 最后更新：2026-04-10（V3 P0 + P1-A + P1-B + 导航重构 已完成）
 
 ## 项目概述
 
@@ -45,8 +45,8 @@ app/
         layout.tsx                     # 计算器 metadata
         page.tsx                       # 升级计算器（客户端交互）
 components/
-  Header.tsx                           # 导航栏 + 语言切换（含移动端汉堡菜单）
-  Footer.tsx                           # 页脚
+  Header.tsx                           # 导航栏（5顶级项 + 3下拉菜单）+ 语言切换 + 移动端分组菜单
+  Footer.tsx                           # 页脚（4列内链网格：Game Data / Tools / Content / Resources）
   Breadcrumb.tsx                       # 面包屑导航
   CharacterCard.tsx                    # 角色卡片
   CharacterFilter.tsx                  # 角色筛选组件
@@ -292,6 +292,7 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 
 | 任务 | 状态 | 说明 |
 |------|------|------|
+| 导航栏重构（13项→5项+3下拉+Footer内链） | ✅ | 699 页面，每页 Footer 输出 ~13 条内链 |
 | 图片补全（角色 20 + 武器 42 + 材料 35） | ⬜ | 素材获取 |
 | 图片优化（WebP/alt/lazy/responsive） | ⬜ | GameImage 改造 |
 | 3 个对比页 | ⬜ | nte-vs-genshin / nte-vs-wuwa / games-like-nte |
