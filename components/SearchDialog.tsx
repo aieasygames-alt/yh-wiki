@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
+import { trackEvent } from "../lib/analytics";
 
 interface SearchItem {
   id: string;
@@ -112,6 +113,7 @@ export function SearchDialog({ lang }: { lang: string }) {
 
   const handleSelect = useCallback(
     (item: SearchItem) => {
+      trackEvent({ event: "search_select", label: item.title, category: "search" });
       const url = item.url.replace("{lang}", lang);
       router.push(url);
       setOpen(false);

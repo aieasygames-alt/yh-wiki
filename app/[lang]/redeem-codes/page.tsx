@@ -3,6 +3,7 @@
 import { useState, useCallback } from "react";
 import { useParams } from "next/navigation";
 import { t, type Locale } from "../../../lib/i18n";
+import { trackEvent } from "../../../lib/analytics";
 import redeemCodesData from "../../../data/redeem-codes.json";
 
 interface RedeemCode {
@@ -48,6 +49,7 @@ export default function RedeemCodesPage() {
     navigator.clipboard.writeText(code).then(() => {
       setCopiedCode(code);
       setTimeout(() => setCopiedCode(null), 2000);
+      trackEvent({ event: "copy_redeem_code", label: code });
     });
   }, []);
 

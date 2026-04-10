@@ -3,6 +3,7 @@
 import { useState, useCallback, useMemo, useRef } from "react";
 import { useParams } from "next/navigation";
 import { t, type Locale } from "../../../lib/i18n";
+import { trackEvent } from "../../../lib/analytics";
 import { getAllCharacters } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import gachaConfig from "../../../data/gacha.json";
@@ -155,6 +156,7 @@ export default function GachaPage() {
         setResults(newResults);
         setHistory((prev) => [...newResults, ...prev].slice(0, 300));
         setIsAnimating(false);
+        trackEvent({ event: "simulate_gacha", label: count === 1 ? "single_pull" : "ten_pull" });
       }, 800);
     },
     [pull]
