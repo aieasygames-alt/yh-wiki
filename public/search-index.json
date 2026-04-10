@@ -3214,6 +3214,398 @@
     ]
   },
   {
+    "id": "game-review",
+    "name": "Neverness to Everness 完整评测",
+    "nameEn": "Neverness to Everness Complete Review",
+    "type": "guide",
+    "url": "/zh/guides/game-review",
+    "tags": [
+      "评测",
+      "review",
+      "游戏评测"
+    ]
+  },
+  {
+    "id": "game-review",
+    "name": "Neverness to Everness Complete Review",
+    "nameEn": "Neverness to Everness Complete Review",
+    "type": "guide",
+    "url": "/en/guides/game-review",
+    "tags": [
+      "评测",
+      "review",
+      "游戏评测"
+    ]
+  },
+  {
+    "id": "detailed-tier-list",
+    "name": "全角色强度排行（详细版）",
+    "nameEn": "Complete Character Tier List (Detailed)",
+    "type": "guide",
+    "url": "/zh/guides/detailed-tier-list",
+    "tags": [
+      "排行",
+      "tier list",
+      "角色排行",
+      "强度榜"
+    ]
+  },
+  {
+    "id": "detailed-tier-list",
+    "name": "Complete Character Tier List (Detailed)",
+    "nameEn": "Complete Character Tier List (Detailed)",
+    "type": "guide",
+    "url": "/en/guides/detailed-tier-list",
+    "tags": [
+      "排行",
+      "tier list",
+      "角色排行",
+      "强度榜"
+    ]
+  },
+  {
+    "id": "damage-formula",
+    "name": "伤害计算公式详解",
+    "nameEn": "Damage Formula Guide",
+    "type": "guide",
+    "url": "/zh/guides/damage-formula",
+    "tags": [
+      "伤害",
+      "公式",
+      "战斗",
+      "damage",
+      "formula"
+    ]
+  },
+  {
+    "id": "damage-formula",
+    "name": "Damage Formula Guide",
+    "nameEn": "Damage Formula Guide",
+    "type": "guide",
+    "url": "/en/guides/damage-formula",
+    "tags": [
+      "伤害",
+      "公式",
+      "战斗",
+      "damage",
+      "formula"
+    ]
+  },
+  {
+    "id": "beginner-mistakes",
+    "name": "新手 10 个常见错误",
+    "nameEn": "Top 10 Beginner Mistakes to Avoid",
+    "type": "guide",
+    "url": "/zh/guides/beginner-mistakes",
+    "tags": [
+      "新手",
+      "错误",
+      "避坑",
+      "beginner",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "beginner-mistakes",
+    "name": "Top 10 Beginner Mistakes to Avoid",
+    "nameEn": "Top 10 Beginner Mistakes to Avoid",
+    "type": "guide",
+    "url": "/en/guides/beginner-mistakes",
+    "tags": [
+      "新手",
+      "错误",
+      "避坑",
+      "beginner",
+      "mistakes"
+    ]
+  },
+  {
+    "id": "f2p-guide",
+    "name": "F2P 零氪指南",
+    "nameEn": "Free-to-Play Guide",
+    "type": "guide",
+    "url": "/zh/guides/f2p-guide",
+    "tags": [
+      "零氪",
+      "F2P",
+      "免费",
+      "free to play"
+    ]
+  },
+  {
+    "id": "f2p-guide",
+    "name": "Free-to-Play Guide",
+    "nameEn": "Free-to-Play Guide",
+    "type": "guide",
+    "url": "/en/guides/f2p-guide",
+    "tags": [
+      "零氪",
+      "F2P",
+      "免费",
+      "free to play"
+    ]
+  },
+  {
+    "id": "weapon-tier-list",
+    "name": "全武器排行榜",
+    "nameEn": "Complete Weapon Tier List",
+    "type": "guide",
+    "url": "/zh/guides/weapon-tier-list",
+    "tags": [
+      "武器",
+      "排行",
+      "tier list",
+      "weapon"
+    ]
+  },
+  {
+    "id": "weapon-tier-list",
+    "name": "Complete Weapon Tier List",
+    "nameEn": "Complete Weapon Tier List",
+    "type": "guide",
+    "url": "/en/guides/weapon-tier-list",
+    "tags": [
+      "武器",
+      "排行",
+      "tier list",
+      "weapon"
+    ]
+  },
+  {
+    "id": "reroll-guide-detailed",
+    "name": "刷初始指南（详细版）",
+    "nameEn": "Detailed Reroll Guide",
+    "type": "guide",
+    "url": "/zh/guides/reroll-guide-detailed",
+    "tags": [
+      "刷初始",
+      "reroll",
+      "新手",
+      "beginner"
+    ]
+  },
+  {
+    "id": "reroll-guide-detailed",
+    "name": "Detailed Reroll Guide",
+    "nameEn": "Detailed Reroll Guide",
+    "type": "guide",
+    "url": "/en/guides/reroll-guide-detailed",
+    "tags": [
+      "刷初始",
+      "reroll",
+      "新手",
+      "beginner"
+    ]
+  },
+  {
+    "id": "performance-guide",
+    "name": "系统要求与优化指南",
+    "nameEn": "System Requirements and Optimization Guide",
+    "type": "guide",
+    "url": "/zh/guides/performance-guide",
+    "tags": [
+      "系统",
+      "配置",
+      "优化",
+      "performance"
+    ]
+  },
+  {
+    "id": "performance-guide",
+    "name": "System Requirements and Optimization Guide",
+    "nameEn": "System Requirements and Optimization Guide",
+    "type": "guide",
+    "url": "/en/guides/performance-guide",
+    "tags": [
+      "系统",
+      "配置",
+      "优化",
+      "performance"
+    ]
+  },
+  {
+    "id": "event-guides",
+    "name": "活动攻略汇总",
+    "nameEn": "Event Guides Collection",
+    "type": "guide",
+    "url": "/zh/guides/event-guides",
+    "tags": [
+      "活动",
+      "event",
+      "攻略",
+      "限时"
+    ]
+  },
+  {
+    "id": "event-guides",
+    "name": "Event Guides Collection",
+    "nameEn": "Event Guides Collection",
+    "type": "guide",
+    "url": "/en/guides/event-guides",
+    "tags": [
+      "活动",
+      "event",
+      "攻略",
+      "限时"
+    ]
+  },
+  {
+    "id": "talent-priority",
+    "name": "全角色天赋优先级",
+    "nameEn": "Character Talent Priority Guide",
+    "type": "guide",
+    "url": "/zh/guides/talent-priority",
+    "tags": [
+      "天赋",
+      "技能",
+      "talent",
+      "priority"
+    ]
+  },
+  {
+    "id": "talent-priority",
+    "name": "Character Talent Priority Guide",
+    "nameEn": "Character Talent Priority Guide",
+    "type": "guide",
+    "url": "/en/guides/talent-priority",
+    "tags": [
+      "天赋",
+      "技能",
+      "talent",
+      "priority"
+    ]
+  },
+  {
+    "id": "anomaly-dungeon",
+    "name": "异象副本攻略",
+    "nameEn": "Anomaly Dungeon Guide",
+    "type": "guide",
+    "url": "/zh/guides/anomaly-dungeon",
+    "tags": [
+      "异象",
+      "副本",
+      "anomaly",
+      "dungeon"
+    ]
+  },
+  {
+    "id": "anomaly-dungeon",
+    "name": "Anomaly Dungeon Guide",
+    "nameEn": "Anomaly Dungeon Guide",
+    "type": "guide",
+    "url": "/en/guides/anomaly-dungeon",
+    "tags": [
+      "异象",
+      "副本",
+      "anomaly",
+      "dungeon"
+    ]
+  },
+  {
+    "id": "pvp-guide",
+    "name": "PVP/竞技攻略",
+    "nameEn": "PvP and Competitive Guide",
+    "type": "guide",
+    "url": "/zh/guides/pvp-guide",
+    "tags": [
+      "竞技",
+      "PvP",
+      "pvp",
+      "competitive"
+    ]
+  },
+  {
+    "id": "pvp-guide",
+    "name": "PvP and Competitive Guide",
+    "nameEn": "PvP and Competitive Guide",
+    "type": "guide",
+    "url": "/en/guides/pvp-guide",
+    "tags": [
+      "竞技",
+      "PvP",
+      "pvp",
+      "competitive"
+    ]
+  },
+  {
+    "id": "collectibles-guide",
+    "name": "收集品全位置",
+    "nameEn": "Complete Collectibles Guide",
+    "type": "guide",
+    "url": "/zh/guides/collectibles-guide",
+    "tags": [
+      "收集",
+      "收集品",
+      "collectibles",
+      "探索"
+    ]
+  },
+  {
+    "id": "collectibles-guide",
+    "name": "Complete Collectibles Guide",
+    "nameEn": "Complete Collectibles Guide",
+    "type": "guide",
+    "url": "/en/guides/collectibles-guide",
+    "tags": [
+      "收集",
+      "收集品",
+      "collectibles",
+      "探索"
+    ]
+  },
+  {
+    "id": "farming-route",
+    "name": "赚钱/刷材料效率路线",
+    "nameEn": "Efficient Farming Routes Guide",
+    "type": "guide",
+    "url": "/zh/guides/farming-route",
+    "tags": [
+      "刷材料",
+      "路线",
+      "farming",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "farming-route",
+    "name": "Efficient Farming Routes Guide",
+    "nameEn": "Efficient Farming Routes Guide",
+    "type": "guide",
+    "url": "/en/guides/farming-route",
+    "tags": [
+      "刷材料",
+      "路线",
+      "farming",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "patch-notes",
+    "name": "版本更新日志",
+    "nameEn": "Patch Notes and Updates",
+    "type": "guide",
+    "url": "/zh/guides/patch-notes",
+    "tags": [
+      "更新",
+      "版本",
+      "patch",
+      "notes"
+    ]
+  },
+  {
+    "id": "patch-notes",
+    "name": "Patch Notes and Updates",
+    "nameEn": "Patch Notes and Updates",
+    "type": "guide",
+    "url": "/en/guides/patch-notes",
+    "tags": [
+      "更新",
+      "版本",
+      "patch",
+      "notes"
+    ]
+  },
+  {
     "id": "espers",
     "name": "异能者",
     "nameEn": "Espers",

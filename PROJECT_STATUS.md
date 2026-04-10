@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-10（V3 P0 已完成）
+> 最后更新：2026-04-10（V3 P0 + P1-A 已完成）
 
 ## 项目概述
 
@@ -88,12 +88,12 @@ public/
 | 材料 | 35 |
 | 武器 | 42 |
 | FAQ | 21 |
-| 攻略 | 13 |
+| 攻略 | 28 |
 | 世界观 | 10 |
 | 地点 | 10 |
 | 兑换码 | 8 |
 | 角色真实图片 | 18 |
-| 静态页面 | 557（含中英双语，sitemap 实际计数） |
+| 静态页面 | 687（含中英双语，sitemap 实际计数） |
 
 ## 部署信息
 
@@ -266,16 +266,16 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | AI 可引用摘要块 | ✅ | CharacterSummary + WeaponSummary 结构化表格 |
 | Google Search Console 接入 | ⬜ | 需运维配合 DNS 验证 |
 
-### Phase 2：P1-A 内容数据扩充（Week 3-4）
+### Phase 2：P1-A 内容数据扩充（Week 3-4）— ✅ 已完成（2026-04-10）
 
 | 任务 | 状态 | 说明 |
 |------|------|------|
-| 38 角色技能数据编写 | ⬜ | skills 字段 |
-| 38 角色配装/配队数据 | ⬜ | recommendedBuild + teamComps |
-| SkillDetail / BuildRecommendation / TeamCompCard / TierBadge 组件 | ⬜ | 4 个新组件 |
-| 角色页模板重构 | ⬜ | 整合所有新模块 |
-| 13 篇攻略扩写至 1500+ 字 | ⬜ | 内容扩充 |
-| 15 篇新攻略 | ⬜ | 30 个新攻略页面 |
+| 38 角色技能数据编写 | ✅ | skills 字段（4技能/角色） |
+| 38 角色配装/配队数据 | ✅ | recommendedBuild + teamComps |
+| SkillDetail / BuildRecommendation / TeamCompCard / TierBadge 组件 | ✅ | 4 个新组件 |
+| 角色页模板重构 | ✅ | 整合所有新模块 |
+| 13 篇攻略扩写至 1200+ 字 | ✅ | 全部 13 篇已扩写 |
+| 15 篇新攻略 | ✅ | 28 篇攻略总计，30 个新页面 |
 
 ### Phase 3：P1-B Blog 系统（Week 5-6）
 

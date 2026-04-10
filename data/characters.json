@@ -50,7 +50,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "娜娜莉生命之爪",
+        "nameEn": "Nanally's Anima Claws",
+        "description": "娜娜莉使用格斗进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Nanally performs consecutive attacks with their Fangs and Claws, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "释放anima属性的强力攻击，对周围敌人造成大量anima属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful anima attack dealing massive anima damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "娜娜莉的终结技，释放anima属性的全屏攻击，对所有敌人造成毁灭性的anima属性伤害。队伍中每有一个anima属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Nanally's ultimate unleashes a fullscreen anima attack dealing devastating anima damage. DMG increases 10% per anima party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当娜娜莉的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Nanally's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，anima属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, anima DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "格斗·破晓",
+      "bestWeaponEn": "Fangs and Claws - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "shadow-manipulation",
+          "name": "影操控",
+          "nameEn": "Shadow Manipulation"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "炽焰之心",
+      "bestDiskSetEn": "Blazing Heart",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "娜娜莉最佳配队",
+        "nameEn": "Nanally Best Team",
+        "members": [
+          "nanally",
+          "jiuyuan",
+          "mint",
+          "nelly"
+        ],
+        "description": "以娜娜莉为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化娜娜莉的伤害输出。",
+        "descriptionEn": "A team built around Nanally as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "nanally",
+          "sakiri",
+          "zero",
+          "hotori"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "sakiri",
@@ -103,7 +213,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "S级支援角色。"
+    "tierReasonZh": "S级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "咲里咒文打击",
+        "nameEn": "Sakiri's Spell Strike",
+        "description": "咲里使用桐丸进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Sakiri performs consecutive attacks with their Kiroumaru, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "言灵之力",
+        "nameEn": "Power of Words",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "咒阵爆发",
+        "nameEn": "Incantation Burst",
+        "description": "咲里的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Sakiri's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，咲里的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Sakiri's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，咲里的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Sakiri's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "桐丸·破晓",
+      "bestWeaponEn": "Kiroumaru - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "dual-blades",
+          "name": "双刃",
+          "nameEn": "Dual Blades"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "永恒守护",
+      "bestDiskSetEn": "Eternal Guardian",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "咲里最佳配队",
+        "nameEn": "Sakiri Best Team",
+        "members": [
+          "sakiri",
+          "baicang",
+          "adler",
+          "lingko"
+        ],
+        "description": "咲里为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Sakiri, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "sakiri",
+          "nanally",
+          "zero",
+          "hotori"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "fadia",
@@ -156,7 +376,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "法蒂亚灵魂冲击",
+        "nameEn": "Fadia's Soul Impact",
+        "description": "法蒂亚使用变形十字盾进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Fadia performs consecutive attacks with their Transforming Cross-Shield, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "心灵感应",
+        "nameEn": "Telepathy",
+        "description": "释放psyche属性的强力攻击，对周围敌人造成大量psyche属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful psyche attack dealing massive psyche damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "灵魂风暴",
+        "nameEn": "Soul Storm",
+        "description": "法蒂亚的终结技，释放psyche属性的全屏攻击，对所有敌人造成毁灭性的psyche属性伤害。队伍中每有一个psyche属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Fadia's ultimate unleashes a fullscreen psyche attack dealing devastating psyche damage. DMG increases 10% per psyche party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当法蒂亚的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Fadia's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，psyche属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, psyche DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "变形十字盾·破晓",
+      "bestWeaponEn": "Transforming Cross-Shield - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "法蒂亚最佳配队",
+        "nameEn": "Fadia Best Team",
+        "members": [
+          "fadia",
+          "haniel",
+          "nitsa",
+          "jenson"
+        ],
+        "description": "以法蒂亚为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化法蒂亚的伤害输出。",
+        "descriptionEn": "A team built around Fadia as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "ETD-4阵容",
+        "nameEn": "ETD-4 Squad",
+        "members": [
+          "fadia",
+          "lacrimosa",
+          "baicang",
+          "skia"
+        ],
+        "description": "以ETD-4成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of ETD-4 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "lacrimosa",
@@ -209,7 +539,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "拉克莉莫萨混沌侵蚀",
+        "nameEn": "Lacrimosa's Chaos Erosion",
+        "description": "拉克莉莫萨使用异能构装体进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Lacrimosa performs consecutive attacks with their Esper Constructs, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "虚空撕裂",
+        "nameEn": "Void Tear",
+        "description": "释放chaos属性的强力攻击，对周围敌人造成大量chaos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful chaos attack dealing massive chaos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "终焉之刻",
+        "nameEn": "Moment of End",
+        "description": "拉克莉莫萨的终结技，释放chaos属性的全屏攻击，对所有敌人造成毁灭性的chaos属性伤害。队伍中每有一个chaos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Lacrimosa's ultimate unleashes a fullscreen chaos attack dealing devastating chaos damage. DMG increases 10% per chaos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当拉克莉莫萨的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Lacrimosa's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，chaos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, chaos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异能构装体·破晓",
+      "bestWeaponEn": "Esper Constructs - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "kiroumaru",
+          "name": "桐丸",
+          "nameEn": "Kiroumaru"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "拉克莉莫萨最佳配队",
+        "nameEn": "Lacrimosa Best Team",
+        "members": [
+          "lacrimosa",
+          "daffodil",
+          "mismo",
+          "black-bird"
+        ],
+        "description": "以拉克莉莫萨为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化拉克莉莫萨的伤害输出。",
+        "descriptionEn": "A team built around Lacrimosa as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "ETD-4阵容",
+        "nameEn": "ETD-4 Squad",
+        "members": [
+          "lacrimosa",
+          "fadia",
+          "baicang",
+          "skia"
+        ],
+        "description": "以ETD-4成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of ETD-4 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "baicang",
@@ -262,7 +702,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Defense character in Neverness to Everness.",
-    "tierReasonZh": "S级防护角色。"
+    "tierReasonZh": "S级防护角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "百苍咒文打击",
+        "nameEn": "Baicang's Spell Strike",
+        "description": "百苍使用言灵之力进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Baicang performs consecutive attacks with their Power of Words, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "言灵之力",
+        "nameEn": "Power of Words",
+        "description": "生成一个incantation属性护盾，吸收一定比例的伤害。护盾存在期间，队伍全员受到的伤害降低20%。",
+        "descriptionEn": "Generates a incantation shield that absorbs a portion of damage. While the shield is active, all party members take 20% less damage.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "咒阵爆发",
+        "nameEn": "Incantation Burst",
+        "description": "百苍的终结技，创造一个incantation属性力场，在力场内的队伍成员受到的伤害降低40%，并持续恢复生命值。力场持续10秒。",
+        "descriptionEn": "Baicang's ultimate creates a incantation field reducing incoming damage by 40% and continuously healing party members inside. Field lasts 10 seconds.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "坚不可摧",
+          "nameEn": "Unbreakable",
+          "description": "百苍受到致命伤害时，恢复20%最大生命值。该效果每300秒触发一次。",
+          "descriptionEn": "When Baicang would take lethal damage, recover 20% Max HP. This effect triggers once every 300s."
+        },
+        {
+          "name": "壁垒意志",
+          "nameEn": "Bastion Will",
+          "description": "护盾强度额外提升15%，且护盾存在期间百苍的防御力提升10%。",
+          "descriptionEn": "Shield strength increases by 15%, and Baicang's DEF increases by 10% while shielded."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "言灵之力·破晓",
+      "bestWeaponEn": "Power of Words - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        },
+        {
+          "id": "dual-blades",
+          "name": "双刃",
+          "nameEn": "Dual Blades"
+        }
+      ],
+      "bestDiskSet": "坚岩之心",
+      "bestDiskSetEn": "Heart of Stone",
+      "mainStats": {
+        "沙漏": "防御力%",
+        "杯子": "属性伤害加成",
+        "头冠": "防御力%"
+      },
+      "mainStatsEn": {
+        "Sands": "DEF%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "DEF%"
+      },
+      "subStatPriority": [
+        "防御力%",
+        "生命值%",
+        "能量回复",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "DEF%",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "百苍最佳配队",
+        "nameEn": "Baicang Best Team",
+        "members": [
+          "baicang",
+          "sakiri",
+          "adler",
+          "lingko"
+        ],
+        "description": "百苍为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Baicang, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "ETD-4阵容",
+        "nameEn": "ETD-4 Squad",
+        "members": [
+          "baicang",
+          "fadia",
+          "lacrimosa",
+          "skia"
+        ],
+        "description": "以ETD-4成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of ETD-4 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "zero",
@@ -315,7 +865,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "零星辰斩",
+        "nameEn": "Zero's Star Slash",
+        "description": "零使用剑进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Zero performs consecutive attacks with their Sword, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "释放cosmos属性的强力攻击，对周围敌人造成大量cosmos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful cosmos attack dealing massive cosmos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "零的终结技，释放cosmos属性的全屏攻击，对所有敌人造成毁灭性的cosmos属性伤害。队伍中每有一个cosmos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Zero's ultimate unleashes a fullscreen cosmos attack dealing devastating cosmos damage. DMG increases 10% per cosmos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当零的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Zero's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，cosmos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, cosmos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "剑·破晓",
+      "bestWeaponEn": "Sword - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "transforming-cross-shield",
+          "name": "变形十字盾",
+          "nameEn": "Transforming Cross-Shield"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "零最佳配队",
+        "nameEn": "Zero Best Team",
+        "members": [
+          "zero",
+          "hotori",
+          "edgar",
+          "taygedo"
+        ],
+        "description": "以零为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化零的伤害输出。",
+        "descriptionEn": "A team built around Zero as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "zero",
+          "nanally",
+          "sakiri",
+          "hotori"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "hotori",
@@ -368,7 +1028,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "穗鸟星辰斩",
+        "nameEn": "Hotori's Star Slash",
+        "description": "穗鸟使用唐伞刀进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Hotori performs consecutive attacks with their Umbrella Katana, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "释放cosmos属性的强力攻击，对周围敌人造成大量cosmos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful cosmos attack dealing massive cosmos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "穗鸟的终结技，释放cosmos属性的全屏攻击，对所有敌人造成毁灭性的cosmos属性伤害。队伍中每有一个cosmos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Hotori's ultimate unleashes a fullscreen cosmos attack dealing devastating cosmos damage. DMG increases 10% per cosmos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当穗鸟的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Hotori's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，cosmos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, cosmos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "唐伞刀·破晓",
+      "bestWeaponEn": "Umbrella Katana - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "construct",
+          "name": "构装体",
+          "nameEn": "Construct"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "穗鸟最佳配队",
+        "nameEn": "Hotori Best Team",
+        "members": [
+          "hotori",
+          "zero",
+          "edgar",
+          "taygedo"
+        ],
+        "description": "以穗鸟为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化穗鸟的伤害输出。",
+        "descriptionEn": "A team built around Hotori as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "hotori",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "daffodil",
@@ -421,7 +1191,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "S级支援角色。"
+    "tierReasonZh": "S级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "达芙迪尔混沌侵蚀",
+        "nameEn": "Daffodil's Chaos Erosion",
+        "description": "达芙迪尔使用液态弧光进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Daffodil performs consecutive attacks with their Liquid-type Arc, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "虚空撕裂",
+        "nameEn": "Void Tear",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "终焉之刻",
+        "nameEn": "Moment of End",
+        "description": "达芙迪尔的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Daffodil's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，达芙迪尔的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Daffodil's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，达芙迪尔的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Daffodil's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "液态弧光·破晓",
+      "bestWeaponEn": "Liquid-type Arc - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "yokai-hammer",
+          "name": "妖锤",
+          "nameEn": "Yokai Hammer"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "达芙迪尔最佳配队",
+        "nameEn": "Daffodil Best Team",
+        "members": [
+          "daffodil",
+          "lacrimosa",
+          "mismo",
+          "black-bird"
+        ],
+        "description": "达芙迪尔为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Daffodil, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "daffodil",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "jiuyuan",
@@ -474,7 +1354,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Utility character in Neverness to Everness.",
-    "tierReasonZh": "S级辅助角色。"
+    "tierReasonZh": "S级辅助角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "九远生命之爪",
+        "nameEn": "Jiuyuan's Anima Claws",
+        "description": "九远使用载具进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Jiuyuan performs consecutive attacks with their Vehicle, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "发动特殊能力，对目标区域造成anima属性伤害，并根据场上状态触发不同的附加效果。",
+        "descriptionEn": "Activates a special ability dealing anima damage to the target area, triggering different bonus effects based on field state.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "九远的终结技，对大范围敌人造成anima属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
+        "descriptionEn": "Jiuyuan's ultimate deals anima AoE damage that scales with enemy count - more enemies means higher damage.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "灵巧身法",
+          "nameEn": "Agile Movement",
+          "description": "九远的闪避成功后，移动速度提升15%，持续5秒。",
+          "descriptionEn": "After Jiuyuan successfully dodges, movement speed increases by 15% for 5s."
+        },
+        {
+          "name": "随机应变",
+          "nameEn": "Adaptability",
+          "description": "切换到九远时，获得一个随机增益效果，持续8秒。",
+          "descriptionEn": "When switching to Jiuyuan, gain a random buff for 8s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "载具·破晓",
+      "bestWeaponEn": "Vehicle - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "appraisal-ability",
+          "name": "鉴定能力",
+          "nameEn": "Appraisal Ability"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "元素精通"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Elemental Mastery"
+      },
+      "subStatPriority": [
+        "元素精通",
+        "能量回复",
+        "攻击力%",
+        "暴击率"
+      ],
+      "subStatPriorityEn": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "ATK%",
+        "CRIT Rate"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "九远最佳配队",
+        "nameEn": "Jiuyuan Best Team",
+        "members": [
+          "jiuyuan",
+          "nanally",
+          "mint",
+          "nelly"
+        ],
+        "description": "九远为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Jiuyuan, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "jiuyuan",
+          "haniel",
+          "merula",
+          "alphard"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "haniel",
@@ -527,7 +1517,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank TBD character in Neverness to Everness.",
-    "tierReasonZh": "S级待定角色。"
+    "tierReasonZh": "S级待定角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "哈尼尔灵魂冲击",
+        "nameEn": "Haniel's Soul Impact",
+        "description": "哈尼尔使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Haniel performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "心灵感应",
+        "nameEn": "Telepathy",
+        "description": "发动特殊能力，对目标区域造成psyche属性伤害，并根据场上状态触发不同的附加效果。",
+        "descriptionEn": "Activates a special ability dealing psyche damage to the target area, triggering different bonus effects based on field state.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "灵魂风暴",
+        "nameEn": "Soul Storm",
+        "description": "哈尼尔的终结技，对大范围敌人造成psyche属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
+        "descriptionEn": "Haniel's ultimate deals psyche AoE damage that scales with enemy count - more enemies means higher damage.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "灵巧身法",
+          "nameEn": "Agile Movement",
+          "description": "哈尼尔的闪避成功后，移动速度提升15%，持续5秒。",
+          "descriptionEn": "After Haniel successfully dodges, movement speed increases by 15% for 5s."
+        },
+        {
+          "name": "随机应变",
+          "nameEn": "Adaptability",
+          "description": "切换到哈尼尔时，获得一个随机增益效果，持续8秒。",
+          "descriptionEn": "When switching to Haniel, gain a random buff for 8s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "万象归一",
+      "bestDiskSetEn": "Unity of All",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "能量回复"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "哈尼尔最佳配队",
+        "nameEn": "Haniel Best Team",
+        "members": [
+          "haniel",
+          "fadia",
+          "nitsa",
+          "jenson"
+        ],
+        "description": "哈尼尔为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Haniel, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "haniel",
+          "jiuyuan",
+          "merula",
+          "alphard"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "adler",
@@ -580,7 +1680,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。"
+    "tierReasonZh": "A级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "阿德勒咒文打击",
+        "nameEn": "Adler's Spell Strike",
+        "description": "阿德勒使用杖剑与 Sunyas进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Adler performs consecutive attacks with their Cane Sword and Sunyas, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "言灵之力",
+        "nameEn": "Power of Words",
+        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "咒阵爆发",
+        "nameEn": "Incantation Burst",
+        "description": "阿德勒的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Adler's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当阿德勒的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Adler's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，incantation属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, incantation DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "杖剑与 Sunyas·破晓",
+      "bestWeaponEn": "Cane Sword and Sunyas - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "appraisal-ability",
+          "name": "鉴定能力",
+          "nameEn": "Appraisal Ability"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "阿德勒最佳配队",
+        "nameEn": "Adler Best Team",
+        "members": [
+          "adler",
+          "sakiri",
+          "baicang",
+          "lingko"
+        ],
+        "description": "以阿德勒为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化阿德勒的伤害输出。",
+        "descriptionEn": "A team built around Adler as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "adler",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "skia",
@@ -633,7 +1843,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。"
+    "tierReasonZh": "A级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "斯基雅相态变换",
+        "nameEn": "Skia's Phase Shift",
+        "description": "斯基雅使用影操控进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Skia performs consecutive attacks with their Shadow Manipulation, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "镜像分身",
+        "nameEn": "Mirror Clone",
+        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万象归虚",
+        "nameEn": "Return to Void",
+        "description": "斯基雅的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Skia's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当斯基雅的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Skia's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "影操控·破晓",
+      "bestWeaponEn": "Shadow Manipulation - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "construct",
+          "name": "构装体",
+          "nameEn": "Construct"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "斯基雅最佳配队",
+        "nameEn": "Skia Best Team",
+        "members": [
+          "skia",
+          "merula",
+          "alphard",
+          "hathor"
+        ],
+        "description": "以斯基雅为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化斯基雅的伤害输出。",
+        "descriptionEn": "A team built around Skia as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "ETD-4阵容",
+        "nameEn": "ETD-4 Squad",
+        "members": [
+          "skia",
+          "fadia",
+          "lacrimosa",
+          "baicang"
+        ],
+        "description": "以ETD-4成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of ETD-4 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "edgar",
@@ -686,7 +2006,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。"
+    "tierReasonZh": "A级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "埃德加星辰斩",
+        "nameEn": "Edgar's Star Slash",
+        "description": "埃德加使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Edgar performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "埃德加的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Edgar's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，埃德加的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Edgar's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，埃德加的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Edgar's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "埃德加最佳配队",
+        "nameEn": "Edgar Best Team",
+        "members": [
+          "edgar",
+          "zero",
+          "hotori",
+          "taygedo"
+        ],
+        "description": "埃德加为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Edgar, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "edgar",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "mint",
@@ -739,7 +2169,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。"
+    "tierReasonZh": "A级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "薄荷生命之爪",
+        "nameEn": "Mint's Anima Claws",
+        "description": "薄荷使用双刃进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Mint performs consecutive attacks with their Dual Blades, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "薄荷的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Mint's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，薄荷的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Mint's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，薄荷的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Mint's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "双刃·破晓",
+      "bestWeaponEn": "Dual Blades - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "薄荷最佳配队",
+        "nameEn": "Mint Best Team",
+        "members": [
+          "mint",
+          "nanally",
+          "jiuyuan",
+          "nelly"
+        ],
+        "description": "薄荷为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Mint, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "异常控制局阵容",
+        "nameEn": "异常控制局 Squad",
+        "members": [
+          "mint",
+          "nelly",
+          "crow",
+          "baicang"
+        ],
+        "description": "以异常控制局成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 异常控制局 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "nelly",
@@ -792,7 +2332,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。"
+    "tierReasonZh": "A级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "奈莉生命之爪",
+        "nameEn": "Nelly's Anima Claws",
+        "description": "奈莉使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Nelly performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "奈莉的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Nelly's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，奈莉的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Nelly's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，奈莉的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Nelly's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "奈莉最佳配队",
+        "nameEn": "Nelly Best Team",
+        "members": [
+          "nelly",
+          "nanally",
+          "jiuyuan",
+          "mint"
+        ],
+        "description": "奈莉为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Nelly, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "异常控制局阵容",
+        "nameEn": "异常控制局 Squad",
+        "members": [
+          "nelly",
+          "mint",
+          "akane",
+          "crow"
+        ],
+        "description": "以异常控制局成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 异常控制局 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "merula",
@@ -845,7 +2495,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。"
+    "tierReasonZh": "A级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "梅露拉相态变换",
+        "nameEn": "Merula's Phase Shift",
+        "description": "梅露拉使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Merula performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "镜像分身",
+        "nameEn": "Mirror Clone",
+        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万象归虚",
+        "nameEn": "Return to Void",
+        "description": "梅露拉的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Merula's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当梅露拉的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Merula's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "梅露拉最佳配队",
+        "nameEn": "Merula Best Team",
+        "members": [
+          "merula",
+          "skia",
+          "alphard",
+          "hathor"
+        ],
+        "description": "以梅露拉为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化梅露拉的伤害输出。",
+        "descriptionEn": "A team built around Merula as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "merula",
+          "jiuyuan",
+          "haniel",
+          "alphard"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "alphard",
@@ -898,7 +2658,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank TBD character in Neverness to Everness.",
-    "tierReasonZh": "A级待定角色。"
+    "tierReasonZh": "A级待定角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "阿尔法德相态变换",
+        "nameEn": "Alphard's Phase Shift",
+        "description": "阿尔法德使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Alphard performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "镜像分身",
+        "nameEn": "Mirror Clone",
+        "description": "发动特殊能力，对目标区域造成lakshana属性伤害，并根据场上状态触发不同的附加效果。",
+        "descriptionEn": "Activates a special ability dealing lakshana damage to the target area, triggering different bonus effects based on field state.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "万象归虚",
+        "nameEn": "Return to Void",
+        "description": "阿尔法德的终结技，对大范围敌人造成lakshana属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
+        "descriptionEn": "Alphard's ultimate deals lakshana AoE damage that scales with enemy count - more enemies means higher damage.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "灵巧身法",
+          "nameEn": "Agile Movement",
+          "description": "阿尔法德的闪避成功后，移动速度提升15%，持续5秒。",
+          "descriptionEn": "After Alphard successfully dodges, movement speed increases by 15% for 5s."
+        },
+        {
+          "name": "随机应变",
+          "nameEn": "Adaptability",
+          "description": "切换到阿尔法德时，获得一个随机增益效果，持续8秒。",
+          "descriptionEn": "When switching to Alphard, gain a random buff for 8s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "sword",
+          "name": "剑",
+          "nameEn": "Sword"
+        }
+      ],
+      "bestDiskSet": "万象归一",
+      "bestDiskSetEn": "Unity of All",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "能量回复"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "阿尔法德最佳配队",
+        "nameEn": "Alphard Best Team",
+        "members": [
+          "alphard",
+          "skia",
+          "merula",
+          "hathor"
+        ],
+        "description": "阿尔法德为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Alphard, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "alphard",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "taygedo",
@@ -951,7 +2821,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。"
+    "tierReasonZh": "A级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "泰格多星辰斩",
+        "nameEn": "Taygedo's Star Slash",
+        "description": "泰格多使用构装体进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Taygedo performs consecutive attacks with their Construct, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "泰格多的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Taygedo's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，泰格多的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Taygedo's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，泰格多的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Taygedo's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "构装体·破晓",
+      "bestWeaponEn": "Construct - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "泰格多最佳配队",
+        "nameEn": "Taygedo Best Team",
+        "members": [
+          "taygedo",
+          "zero",
+          "hotori",
+          "edgar"
+        ],
+        "description": "泰格多为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Taygedo, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "taygedo",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "hathor",
@@ -1004,7 +2984,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "哈索尔相态变换",
+        "nameEn": "Hathor's Phase Shift",
+        "description": "哈索尔使用刃翼进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Hathor performs consecutive attacks with their Blade Wings, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "镜像分身",
+        "nameEn": "Mirror Clone",
+        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万象归虚",
+        "nameEn": "Return to Void",
+        "description": "哈索尔的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Hathor's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当哈索尔的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Hathor's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "刃翼·破晓",
+      "bestWeaponEn": "Blade Wings - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "kiroumaru",
+          "name": "桐丸",
+          "nameEn": "Kiroumaru"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "哈索尔最佳配队",
+        "nameEn": "Hathor Best Team",
+        "members": [
+          "hathor",
+          "skia",
+          "merula",
+          "alphard"
+        ],
+        "description": "以哈索尔为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化哈索尔的伤害输出。",
+        "descriptionEn": "A team built around Hathor as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "hathor",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "chiz",
@@ -1057,7 +3147,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "赤子星辰斩",
+        "nameEn": "Chiz's Star Slash",
+        "description": "赤子使用妖锤进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Chiz performs consecutive attacks with their Yokai Hammer, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "释放cosmos属性的强力攻击，对周围敌人造成大量cosmos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful cosmos attack dealing massive cosmos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "赤子的终结技，释放cosmos属性的全屏攻击，对所有敌人造成毁灭性的cosmos属性伤害。队伍中每有一个cosmos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Chiz's ultimate unleashes a fullscreen cosmos attack dealing devastating cosmos damage. DMG increases 10% per cosmos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当赤子的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Chiz's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，cosmos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, cosmos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "妖锤·破晓",
+      "bestWeaponEn": "Yokai Hammer - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "blade-wings",
+          "name": "刃翼",
+          "nameEn": "Blade Wings"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "赤子最佳配队",
+        "nameEn": "Chiz Best Team",
+        "members": [
+          "chiz",
+          "zero",
+          "hotori",
+          "edgar"
+        ],
+        "description": "以赤子为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化赤子的伤害输出。",
+        "descriptionEn": "A team built around Chiz as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "chiz",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "lilina",
@@ -1110,7 +3310,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank TBD character in Neverness to Everness.",
-    "tierReasonZh": "S级待定角色。"
+    "tierReasonZh": "S级待定角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "莉莉娜星辰斩",
+        "nameEn": "Lilina's Star Slash",
+        "description": "莉莉娜使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Lilina performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "发动特殊能力，对目标区域造成cosmos属性伤害，并根据场上状态触发不同的附加效果。",
+        "descriptionEn": "Activates a special ability dealing cosmos damage to the target area, triggering different bonus effects based on field state.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "莉莉娜的终结技，对大范围敌人造成cosmos属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
+        "descriptionEn": "Lilina's ultimate deals cosmos AoE damage that scales with enemy count - more enemies means higher damage.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "灵巧身法",
+          "nameEn": "Agile Movement",
+          "description": "莉莉娜的闪避成功后，移动速度提升15%，持续5秒。",
+          "descriptionEn": "After Lilina successfully dodges, movement speed increases by 15% for 5s."
+        },
+        {
+          "name": "随机应变",
+          "nameEn": "Adaptability",
+          "description": "切换到莉莉娜时，获得一个随机增益效果，持续8秒。",
+          "descriptionEn": "When switching to Lilina, gain a random buff for 8s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        },
+        {
+          "id": "transforming-cross-shield",
+          "name": "变形十字盾",
+          "nameEn": "Transforming Cross-Shield"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "能量回复"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "莉莉娜最佳配队",
+        "nameEn": "Lilina Best Team",
+        "members": [
+          "lilina",
+          "zero",
+          "hotori",
+          "edgar"
+        ],
+        "description": "莉莉娜为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Lilina, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "lilina",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "the-appraiser",
@@ -1163,7 +3473,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Utility character in Neverness to Everness.",
-    "tierReasonZh": "S级辅助角色。"
+    "tierReasonZh": "S级辅助角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "鉴定师星辰斩",
+        "nameEn": "The Appraiser's Star Slash",
+        "description": "鉴定师使用鉴定能力进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "The Appraiser performs consecutive attacks with their Appraisal Ability, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "发动特殊能力，对目标区域造成cosmos属性伤害，并根据场上状态触发不同的附加效果。",
+        "descriptionEn": "Activates a special ability dealing cosmos damage to the target area, triggering different bonus effects based on field state.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "鉴定师的终结技，对大范围敌人造成cosmos属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
+        "descriptionEn": "The Appraiser's ultimate deals cosmos AoE damage that scales with enemy count - more enemies means higher damage.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "灵巧身法",
+          "nameEn": "Agile Movement",
+          "description": "鉴定师的闪避成功后，移动速度提升15%，持续5秒。",
+          "descriptionEn": "After The Appraiser successfully dodges, movement speed increases by 15% for 5s."
+        },
+        {
+          "name": "随机应变",
+          "nameEn": "Adaptability",
+          "description": "切换到鉴定师时，获得一个随机增益效果，持续8秒。",
+          "descriptionEn": "When switching to The Appraiser, gain a random buff for 8s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "鉴定能力·破晓",
+      "bestWeaponEn": "Appraisal Ability - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "blade-wings",
+          "name": "刃翼",
+          "nameEn": "Blade Wings"
+        }
+      ],
+      "bestDiskSet": "永恒守护",
+      "bestDiskSetEn": "Eternal Guardian",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "元素精通"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Elemental Mastery"
+      },
+      "subStatPriority": [
+        "元素精通",
+        "能量回复",
+        "攻击力%",
+        "暴击率"
+      ],
+      "subStatPriorityEn": [
+        "Elemental Mastery",
+        "Energy Recharge",
+        "ATK%",
+        "CRIT Rate"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "鉴定师最佳配队",
+        "nameEn": "The Appraiser Best Team",
+        "members": [
+          "the-appraiser",
+          "zero",
+          "hotori",
+          "edgar"
+        ],
+        "description": "鉴定师为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with The Appraiser, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "the-appraiser",
+          "nanally",
+          "sakiri",
+          "zero"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "lingko",
@@ -1216,7 +3636,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。"
+    "tierReasonZh": "A级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "凛子咒文打击",
+        "nameEn": "Lingko's Spell Strike",
+        "description": "凛子使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Lingko performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "言灵之力",
+        "nameEn": "Power of Words",
+        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "咒阵爆发",
+        "nameEn": "Incantation Burst",
+        "description": "凛子的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Lingko's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当凛子的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Lingko's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，incantation属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, incantation DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "cane-sword-and-sunyas",
+          "name": "杖剑与 Sunyas",
+          "nameEn": "Cane Sword and Sunyas"
+        }
+      ],
+      "bestDiskSet": "炽焰之心",
+      "bestDiskSetEn": "Blazing Heart",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "凛子最佳配队",
+        "nameEn": "Lingko Best Team",
+        "members": [
+          "lingko",
+          "sakiri",
+          "baicang",
+          "adler"
+        ],
+        "description": "以凛子为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化凛子的伤害输出。",
+        "descriptionEn": "A team built around Lingko as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "lingko",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "mismo",
@@ -1269,7 +3799,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。"
+    "tierReasonZh": "A级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "密斯莫混沌侵蚀",
+        "nameEn": "Mismo's Chaos Erosion",
+        "description": "密斯莫使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Mismo performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "虚空撕裂",
+        "nameEn": "Void Tear",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "终焉之刻",
+        "nameEn": "Moment of End",
+        "description": "密斯莫的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Mismo's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，密斯莫的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Mismo's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，密斯莫的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Mismo's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "power-of-words",
+          "name": "言灵之力",
+          "nameEn": "Power of Words"
+        },
+        {
+          "id": "sword",
+          "name": "剑",
+          "nameEn": "Sword"
+        }
+      ],
+      "bestDiskSet": "永恒守护",
+      "bestDiskSetEn": "Eternal Guardian",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "密斯莫最佳配队",
+        "nameEn": "Mismo Best Team",
+        "members": [
+          "mismo",
+          "lacrimosa",
+          "daffodil",
+          "black-bird"
+        ],
+        "description": "密斯莫为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Mismo, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "mismo",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "shinku",
@@ -1322,7 +3962,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。"
+    "tierReasonZh": "A级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "沁红生命之爪",
+        "nameEn": "Shinku's Anima Claws",
+        "description": "沁红使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Shinku performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "释放anima属性的强力攻击，对周围敌人造成大量anima属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful anima attack dealing massive anima damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "沁红的终结技，释放anima属性的全屏攻击，对所有敌人造成毁灭性的anima属性伤害。队伍中每有一个anima属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Shinku's ultimate unleashes a fullscreen anima attack dealing devastating anima damage. DMG increases 10% per anima party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当沁红的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Shinku's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，anima属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, anima DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "construct",
+          "name": "构装体",
+          "nameEn": "Construct"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "沁红最佳配队",
+        "nameEn": "Shinku Best Team",
+        "members": [
+          "shinku",
+          "nanally",
+          "jiuyuan",
+          "mint"
+        ],
+        "description": "以沁红为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化沁红的伤害输出。",
+        "descriptionEn": "A team built around Shinku as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "shinku",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "nitsa",
@@ -1375,7 +4125,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。"
+    "tierReasonZh": "A级支援角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "尼察灵魂冲击",
+        "nameEn": "Nitsa's Soul Impact",
+        "description": "尼察使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Nitsa performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "心灵感应",
+        "nameEn": "Telepathy",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "灵魂风暴",
+        "nameEn": "Soul Storm",
+        "description": "尼察的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Nitsa's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，尼察的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Nitsa's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，尼察的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Nitsa's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "esper-constructs",
+          "name": "异能构装体",
+          "nameEn": "Esper Constructs"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "永恒守护",
+      "bestDiskSetEn": "Eternal Guardian",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "尼察最佳配队",
+        "nameEn": "Nitsa Best Team",
+        "members": [
+          "nitsa",
+          "fadia",
+          "haniel",
+          "jenson"
+        ],
+        "description": "尼察为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Nitsa, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "nitsa",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "black-bird",
@@ -1428,7 +4288,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "黑鸟混沌侵蚀",
+        "nameEn": "Black Bird's Chaos Erosion",
+        "description": "黑鸟使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Black Bird performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "虚空撕裂",
+        "nameEn": "Void Tear",
+        "description": "释放chaos属性的强力攻击，对周围敌人造成大量chaos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful chaos attack dealing massive chaos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "终焉之刻",
+        "nameEn": "Moment of End",
+        "description": "黑鸟的终结技，释放chaos属性的全屏攻击，对所有敌人造成毁灭性的chaos属性伤害。队伍中每有一个chaos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Black Bird's ultimate unleashes a fullscreen chaos attack dealing devastating chaos damage. DMG increases 10% per chaos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当黑鸟的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Black Bird's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，chaos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, chaos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "黑鸟最佳配队",
+        "nameEn": "Black Bird Best Team",
+        "members": [
+          "black-bird",
+          "lacrimosa",
+          "daffodil",
+          "mismo"
+        ],
+        "description": "以黑鸟为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化黑鸟的伤害输出。",
+        "descriptionEn": "A team built around Black Bird as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "black-bird",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "xiaozhen",
@@ -1481,7 +4451,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "明虎生命之爪",
+        "nameEn": "Xiaozhen's Anima Claws",
+        "description": "明虎使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Xiaozhen performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "释放anima属性的强力攻击，对周围敌人造成大量anima属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful anima attack dealing massive anima damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "明虎的终结技，释放anima属性的全屏攻击，对所有敌人造成毁灭性的anima属性伤害。队伍中每有一个anima属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Xiaozhen's ultimate unleashes a fullscreen anima attack dealing devastating anima damage. DMG increases 10% per anima party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当明虎的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Xiaozhen's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，anima属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, anima DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "明虎最佳配队",
+        "nameEn": "Xiaozhen Best Team",
+        "members": [
+          "xiaozhen",
+          "nanally",
+          "jiuyuan",
+          "mint"
+        ],
+        "description": "以明虎为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化明虎的伤害输出。",
+        "descriptionEn": "A team built around Xiaozhen as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "xiaozhen",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "akane",
@@ -1534,7 +4614,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "赤音咒文打击",
+        "nameEn": "Akane's Spell Strike",
+        "description": "赤音使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Akane performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "言灵之力",
+        "nameEn": "Power of Words",
+        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "咒阵爆发",
+        "nameEn": "Incantation Burst",
+        "description": "赤音的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Akane's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当赤音的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Akane's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，incantation属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, incantation DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "sword",
+          "name": "剑",
+          "nameEn": "Sword"
+        },
+        {
+          "id": "umbrella-katana",
+          "name": "唐伞刀",
+          "nameEn": "Umbrella Katana"
+        }
+      ],
+      "bestDiskSet": "炽焰之心",
+      "bestDiskSetEn": "Blazing Heart",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "赤音最佳配队",
+        "nameEn": "Akane Best Team",
+        "members": [
+          "akane",
+          "sakiri",
+          "baicang",
+          "adler"
+        ],
+        "description": "以赤音为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化赤音的伤害输出。",
+        "descriptionEn": "A team built around Akane as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "akane",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "jenson",
@@ -1587,7 +4777,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Defense character in Neverness to Everness.",
-    "tierReasonZh": "A级防护角色。"
+    "tierReasonZh": "A级防护角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "詹森灵魂冲击",
+        "nameEn": "Jenson's Soul Impact",
+        "description": "詹森使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Jenson performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "心灵感应",
+        "nameEn": "Telepathy",
+        "description": "生成一个psyche属性护盾，吸收一定比例的伤害。护盾存在期间，队伍全员受到的伤害降低20%。",
+        "descriptionEn": "Generates a psyche shield that absorbs a portion of damage. While the shield is active, all party members take 20% less damage.",
+        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
+        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
+        "cooldown": "15s",
+        "cost": "60 能量"
+      },
+      "ultimate": {
+        "name": "灵魂风暴",
+        "nameEn": "Soul Storm",
+        "description": "詹森的终结技，创造一个psyche属性力场，在力场内的队伍成员受到的伤害降低40%，并持续恢复生命值。力场持续10秒。",
+        "descriptionEn": "Jenson's ultimate creates a psyche field reducing incoming damage by 40% and continuously healing party members inside. Field lasts 10 seconds.",
+        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
+        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "坚不可摧",
+          "nameEn": "Unbreakable",
+          "description": "詹森受到致命伤害时，恢复20%最大生命值。该效果每300秒触发一次。",
+          "descriptionEn": "When Jenson would take lethal damage, recover 20% Max HP. This effect triggers once every 300s."
+        },
+        {
+          "name": "壁垒意志",
+          "nameEn": "Bastion Will",
+          "description": "护盾强度额外提升15%，且护盾存在期间詹森的防御力提升10%。",
+          "descriptionEn": "Shield strength increases by 15%, and Jenson's DEF increases by 10% while shielded."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "坚岩之心",
+      "bestDiskSetEn": "Heart of Stone",
+      "mainStats": {
+        "沙漏": "防御力%",
+        "杯子": "属性伤害加成",
+        "头冠": "防御力%"
+      },
+      "mainStatsEn": {
+        "Sands": "DEF%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "DEF%"
+      },
+      "subStatPriority": [
+        "防御力%",
+        "生命值%",
+        "能量回复",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "DEF%",
+        "HP%",
+        "Energy Recharge",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "詹森最佳配队",
+        "nameEn": "Jenson Best Team",
+        "members": [
+          "jenson",
+          "fadia",
+          "haniel",
+          "nitsa"
+        ],
+        "description": "詹森为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Jenson, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "jenson",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "illica",
@@ -1640,7 +4940,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。"
+    "tierReasonZh": "S级进攻角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "伊利卡相态变换",
+        "nameEn": "Illica's Phase Shift",
+        "description": "伊利卡使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Illica performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "镜像分身",
+        "nameEn": "Mirror Clone",
+        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万象归虚",
+        "nameEn": "Return to Void",
+        "description": "伊利卡的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Illica's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当伊利卡的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Illica's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异环标准待定",
+      "bestWeaponEn": "Standard NTE TBD",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "transforming-cross-shield",
+          "name": "变形十字盾",
+          "nameEn": "Transforming Cross-Shield"
+        }
+      ],
+      "bestDiskSet": "狂战士之怒",
+      "bestDiskSetEn": "Berserker's Fury",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "伊利卡最佳配队",
+        "nameEn": "Illica Best Team",
+        "members": [
+          "illica",
+          "skia",
+          "merula",
+          "alphard"
+        ],
+        "description": "以伊利卡为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化伊利卡的伤害输出。",
+        "descriptionEn": "A team built around Illica as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "未知阵容",
+        "nameEn": "未知 Squad",
+        "members": [
+          "illica",
+          "jiuyuan",
+          "haniel",
+          "merula"
+        ],
+        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "fuuka",
@@ -1694,7 +5104,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级辅助角色。"
+    "tierReasonZh": "A级辅助角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "风花生命之爪",
+        "nameEn": "Fuuka's Anima Claws",
+        "description": "风花使用近战进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Fuuka performs consecutive attacks with their Melee, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "风花的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Fuuka's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，风花的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Fuuka's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，风花的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Fuuka's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "近战·破晓",
+      "bestWeaponEn": "Melee - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "永恒守护",
+      "bestDiskSetEn": "Eternal Guardian",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "风花最佳配队",
+        "nameEn": "Fuuka Best Team",
+        "members": [
+          "fuuka",
+          "nanally",
+          "jiuyuan",
+          "mint"
+        ],
+        "description": "风花为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Fuuka, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "星铁快递阵容",
+        "nameEn": "星铁快递 Squad",
+        "members": [
+          "fuuka",
+          "sylphy",
+          "edgar",
+          "lilina"
+        ],
+        "description": "以星铁快递成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 星铁快递 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "crow",
@@ -1748,7 +5268,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "S级输出角色。"
+    "tierReasonZh": "S级输出角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "克劳混沌侵蚀",
+        "nameEn": "Crow's Chaos Erosion",
+        "description": "克劳使用远程进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Crow performs consecutive attacks with their Ranged, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "虚空撕裂",
+        "nameEn": "Void Tear",
+        "description": "释放chaos属性的强力攻击，对周围敌人造成大量chaos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful chaos attack dealing massive chaos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "终焉之刻",
+        "nameEn": "Moment of End",
+        "description": "克劳的终结技，释放chaos属性的全屏攻击，对所有敌人造成毁灭性的chaos属性伤害。队伍中每有一个chaos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Crow's ultimate unleashes a fullscreen chaos attack dealing devastating chaos damage. DMG increases 10% per chaos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当克劳的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Crow's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，chaos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, chaos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "远程·破晓",
+      "bestWeaponEn": "Ranged - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击伤害"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT DMG"
+      },
+      "subStatPriority": [
+        "暴击伤害",
+        "暴击率",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT DMG",
+        "CRIT Rate",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "克劳最佳配队",
+        "nameEn": "Crow Best Team",
+        "members": [
+          "crow",
+          "lacrimosa",
+          "daffodil",
+          "mismo"
+        ],
+        "description": "以克劳为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化克劳的伤害输出。",
+        "descriptionEn": "A team built around Crow as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "圆环阵容",
+        "nameEn": "圆环 Squad",
+        "members": [
+          "crow",
+          "haniel",
+          "hathor",
+          "sylphy"
+        ],
+        "description": "以圆环成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 圆环 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "renee",
@@ -1802,7 +5432,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级辅助角色。"
+    "tierReasonZh": "A级辅助角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "蕾妮灵魂冲击",
+        "nameEn": "Renee's Soul Impact",
+        "description": "蕾妮使用异能进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Renee performs consecutive attacks with their Esper, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "心灵感应",
+        "nameEn": "Telepathy",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "灵魂风暴",
+        "nameEn": "Soul Storm",
+        "description": "蕾妮的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Renee's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，蕾妮的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Renee's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，蕾妮的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Renee's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "异能·破晓",
+      "bestWeaponEn": "Esper - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "dual-blades",
+          "name": "双刃",
+          "nameEn": "Dual Blades"
+        },
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        }
+      ],
+      "bestDiskSet": "繁星之誓",
+      "bestDiskSetEn": "Stellar Vow",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "蕾妮最佳配队",
+        "nameEn": "Renee Best Team",
+        "members": [
+          "renee",
+          "fadia",
+          "haniel",
+          "nitsa"
+        ],
+        "description": "蕾妮为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Renee, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "异常管理局阵容",
+        "nameEn": "异常管理局 Squad",
+        "members": [
+          "renee",
+          "marina",
+          "merula",
+          "kaito"
+        ],
+        "description": "以异常管理局成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 异常管理局 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "goro",
@@ -1856,7 +5596,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "A级输出角色。"
+    "tierReasonZh": "A级输出角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "吾郎咒文打击",
+        "nameEn": "Goro's Spell Strike",
+        "description": "吾郎使用近战进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Goro performs consecutive attacks with their Melee, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "言灵之力",
+        "nameEn": "Power of Words",
+        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "咒阵爆发",
+        "nameEn": "Incantation Burst",
+        "description": "吾郎的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Goro's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当吾郎的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Goro's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，incantation属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, incantation DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "近战·破晓",
+      "bestWeaponEn": "Melee - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "shadow-manipulation",
+          "name": "影操控",
+          "nameEn": "Shadow Manipulation"
+        },
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        }
+      ],
+      "bestDiskSet": "暗影突袭",
+      "bestDiskSetEn": "Shadow Strike",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击伤害"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT DMG"
+      },
+      "subStatPriority": [
+        "暴击伤害",
+        "暴击率",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT DMG",
+        "CRIT Rate",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "吾郎最佳配队",
+        "nameEn": "Goro Best Team",
+        "members": [
+          "goro",
+          "sakiri",
+          "baicang",
+          "adler"
+        ],
+        "description": "以吾郎为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化吾郎的伤害输出。",
+        "descriptionEn": "A team built around Goro as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "混合阵容",
+        "nameEn": "Mixed Squad",
+        "members": [
+          "goro",
+          "jiuyuan",
+          "akane",
+          "baicang"
+        ],
+        "description": "以混合成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Mixed members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "marina",
@@ -1910,7 +5760,117 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "S级输出角色。"
+    "tierReasonZh": "S级输出角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "玛丽娜星辰斩",
+        "nameEn": "Marina's Star Slash",
+        "description": "玛丽娜使用召唤进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Marina performs consecutive attacks with their Summon, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "宇宙裂隙",
+        "nameEn": "Cosmic Rift",
+        "description": "释放cosmos属性的强力攻击，对周围敌人造成大量cosmos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful cosmos attack dealing massive cosmos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "星河坠落",
+        "nameEn": "Galaxy Fall",
+        "description": "玛丽娜的终结技，释放cosmos属性的全屏攻击，对所有敌人造成毁灭性的cosmos属性伤害。队伍中每有一个cosmos属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Marina's ultimate unleashes a fullscreen cosmos attack dealing devastating cosmos damage. DMG increases 10% per cosmos party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当玛丽娜的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Marina's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，cosmos属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, cosmos DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "召唤·破晓",
+      "bestWeaponEn": "Summon - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "liquid-arc",
+          "name": "液态弧光",
+          "nameEn": "Liquid-type Arc"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击伤害"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT DMG"
+      },
+      "subStatPriority": [
+        "暴击伤害",
+        "暴击率",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT DMG",
+        "CRIT Rate",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "玛丽娜最佳配队",
+        "nameEn": "Marina Best Team",
+        "members": [
+          "marina",
+          "zero",
+          "hotori",
+          "edgar"
+        ],
+        "description": "以玛丽娜为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化玛丽娜的伤害输出。",
+        "descriptionEn": "A team built around Marina as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "异常管理局阵容",
+        "nameEn": "异常管理局 Squad",
+        "members": [
+          "marina",
+          "renee",
+          "fadia",
+          "akane"
+        ],
+        "description": "以异常管理局成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 异常管理局 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "kaito",
@@ -1964,7 +5924,117 @@
     ],
     "tierRank": "A",
     "tierReason": "A-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "A级输出角色。"
+    "tierReasonZh": "A级输出角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "海斗相态变换",
+        "nameEn": "Kaito's Phase Shift",
+        "description": "海斗使用近战进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "descriptionEn": "Kaito performs consecutive attacks with their Melee, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "镜像分身",
+        "nameEn": "Mirror Clone",
+        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
+        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "万象归虚",
+        "nameEn": "Return to Void",
+        "description": "海斗的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
+        "descriptionEn": "Kaito's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "破晓之刃",
+          "nameEn": "Blade of Dawn",
+          "description": "当海斗的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "descriptionEn": "When Kaito's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+        },
+        {
+          "name": "元素共鸣",
+          "nameEn": "Elemental Resonance",
+          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
+          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "近战·破晓",
+      "bestWeaponEn": "Melee - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击伤害"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT DMG"
+      },
+      "subStatPriority": [
+        "暴击伤害",
+        "暴击率",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT DMG",
+        "CRIT Rate",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "海斗最佳配队",
+        "nameEn": "Kaito Best Team",
+        "members": [
+          "kaito",
+          "skia",
+          "merula",
+          "alphard"
+        ],
+        "description": "以海斗为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化海斗的伤害输出。",
+        "descriptionEn": "A team built around Kaito as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "混合阵容",
+        "nameEn": "Mixed Squad",
+        "members": [
+          "kaito",
+          "mint",
+          "adler",
+          "goro"
+        ],
+        "description": "以混合成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Mixed members, leveraging faction bonuses and character synergies."
+      }
+    ]
   },
   {
     "id": "sylphy",
@@ -2018,6 +6088,116 @@
     ],
     "tierRank": "S",
     "tierReason": "S-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "S级辅助角色。"
+    "tierReasonZh": "S级辅助角色。",
+    "skills": {
+      "normalAttack": {
+        "name": "希尔菲生命之爪",
+        "nameEn": "Sylphy's Anima Claws",
+        "description": "希尔菲使用伴生体进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "descriptionEn": "Sylphy performs consecutive attacks with their Companion, up to 4 hits. Attacks apply a minor elemental effect.",
+        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
+        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+      },
+      "skill": {
+        "name": "生命脉冲",
+        "nameEn": "Anima Pulse",
+        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
+        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
+        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
+        "cooldown": "12s",
+        "cost": "50 能量"
+      },
+      "ultimate": {
+        "name": "万物复苏",
+        "nameEn": "Revival of All Things",
+        "description": "希尔菲的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
+        "descriptionEn": "Sylphy's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
+        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "守护之光",
+          "nameEn": "Light of Protection",
+          "description": "当队伍中有角色生命值低于50%时，希尔菲的治疗效果提升20%。",
+          "descriptionEn": "When a party member's HP falls below 50%, Sylphy's healing effectiveness increases by 20%."
+        },
+        {
+          "name": "生命涌泉",
+          "nameEn": "Life Spring",
+          "description": "队伍中每有一个不同属性的角色，希尔菲的能量回复速度提升5%。",
+          "descriptionEn": "For each different element in the party, Sylphy's Energy Recharge increases by 5%."
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "伴生体·破晓",
+      "bestWeaponEn": "Companion - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "cane-sword-and-sunyas",
+          "name": "杖剑与 Sunyas",
+          "nameEn": "Cane Sword and Sunyas"
+        },
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        }
+      ],
+      "bestDiskSet": "回响之潮",
+      "bestDiskSetEn": "Resonance Tide",
+      "mainStats": {
+        "沙漏": "能量回复",
+        "杯子": "属性伤害加成",
+        "头冠": "治疗加成"
+      },
+      "mainStatsEn": {
+        "Sands": "Energy Recharge",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "Healing Bonus"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "生命值%",
+        "元素精通",
+        "攻击力%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "HP%",
+        "Elemental Mastery",
+        "ATK%"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "希尔菲最佳配队",
+        "nameEn": "Sylphy Best Team",
+        "members": [
+          "sylphy",
+          "nanally",
+          "jiuyuan",
+          "mint"
+        ],
+        "description": "希尔菲为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "descriptionEn": "A support-focused team with Sylphy, paired with high-DPS and defense characters for sustained combat."
+      },
+      {
+        "name": "星铁快递阵容",
+        "nameEn": "星铁快递 Squad",
+        "members": [
+          "sylphy",
+          "fuuka",
+          "crow",
+          "goro"
+        ],
+        "description": "以星铁快递成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of 星铁快递 members, leveraging faction bonuses and character synergies."
+      }
+    ]
   }
 ]

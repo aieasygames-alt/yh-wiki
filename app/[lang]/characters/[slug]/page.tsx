@@ -14,6 +14,10 @@ import { GameImage } from "../../../../components/GameImage";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { CharacterSummary } from "../../../../components/CharacterSummary";
+import { SkillDetail } from "../../../../components/SkillDetail";
+import { BuildRecommendation } from "../../../../components/BuildRecommendation";
+import { TeamCompCard } from "../../../../components/TeamCompCard";
+import { TierBadge } from "../../../../components/TierBadge";
 
 export function generateStaticParams() {
   const characters = getAllCharacters();
@@ -90,7 +94,7 @@ export default async function CharacterDetailPage({
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
             <GameImage type="character" id={character.id} name={character.name} className="w-24 h-24 rounded-lg shrink-0" />
-            <div>
+            <div className="flex-1 min-w-0">
               <h1 className="text-2xl font-bold">{locale === "zh" ? character.name : `${character.nameEn} Build Guide & Tier Ranking`}</h1>
               <p className="text-gray-500">{character.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
@@ -99,9 +103,13 @@ export default async function CharacterDetailPage({
                 >
                   {getAttributeLabel(character.attribute, locale)}
                 </span>
-                <span className={`text-sm font-bold ${character.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
-                  {character.rank}-rank
-                </span>
+                <TierBadge
+                  rank={character.rank}
+                  tierRank={character.tierRank}
+                  tierReason={character.tierReason}
+                  tierReasonZh={character.tierReasonZh}
+                  locale={locale}
+                />
               </div>
               <div className="flex items-center gap-3 mt-2 text-xs text-gray-400">
                 {character.weaponEn !== "TBD" && (
@@ -115,7 +123,7 @@ export default async function CharacterDetailPage({
                 )}
               </div>
               {character.description && (
-                <p className="mt-3 text-sm text-gray-400">{character.description}</p>
+                <p className="mt-3 text-sm text-gray-400">{locale === "zh" ? character.description : (character as any).descriptionEn || character.description}</p>
               )}
             </div>
           </div>
@@ -130,6 +138,21 @@ export default async function CharacterDetailPage({
           description={character.description}
           locale={locale}
         />
+
+        {/* Skills Section */}
+        {character.skills && (
+          <SkillDetail skills={character.skills} locale={locale} />
+        )}
+
+        {/* Recommended Build */}
+        {character.recommendedBuild && (
+          <BuildRecommendation build={character.recommendedBuild} locale={locale} />
+        )}
+
+        {/* Team Compositions */}
+        {character.teamComps && character.teamComps.length > 0 && (
+          <TeamCompCard teams={character.teamComps} locale={locale} />
+        )}
 
         {/* Leveling Materials */}
         {cm && (
@@ -220,7 +243,7 @@ export default async function CharacterDetailPage({
         {relatedChars.length > 0 && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">
-              {locale === "zh" ? "相关角色" : "Related Characters"}
+              {t(locale, "characters.relatedCharacters")}
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map(c => (
@@ -228,8 +251,8 @@ export default async function CharacterDetailPage({
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
                   <div className="min-w-0">
-                    <p className="text-sm font-medium truncate">{c!.name}</p>
-                    <p className="text-xs text-gray-500">{c!.nameEn}</p>
+                    <p className="text-sm font-medium truncate">{locale === "zh" ? c!.name : c!.nameEn}</p>
+                    <p className="text-xs text-gray-500">{locale === "zh" ? c!.nameEn : c!.name}</p>
                   </div>
                 </Link>
               ))}
@@ -237,24 +260,13 @@ export default async function CharacterDetailPage({
           </section>
         )}
 
-        {/* Tier Ranking */}
+        {/* Tier List Link */}
         {character.tierRank && (
-          <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">
-              {locale === "zh" ? "强度评级" : "Tier Ranking"}
-            </h2>
-            <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
-              <span className={`text-2xl font-bold ${character.tierRank === 'S' ? 'text-yellow-400' : 'text-blue-400'}`}>
-                {character.tierRank} Tier
-              </span>
-              <p className="text-sm text-gray-400 mt-2">
-                {locale === "zh" ? (character.tierReasonZh || character.tierReason) : character.tierReason}
-              </p>
-              <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300 mt-2 inline-block">
-                {locale === "zh" ? "查看完整强度排行 →" : "View Full Tier List →"}
-              </Link>
-            </div>
-          </section>
+          <div className="mb-8">
+            <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300 inline-block">
+              {t(locale, "characters.viewTierList")}
+            </Link>
+          </div>
         )}
       </div>
     </>

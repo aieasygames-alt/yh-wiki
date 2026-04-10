@@ -14,6 +14,44 @@ export interface FaqItem {
   answerZh: string;
 }
 
+export interface Skill {
+  name: string;
+  nameEn: string;
+  description: string;
+  descriptionEn: string;
+  scaling?: string;
+  scalingEn?: string;
+  cooldown?: string;
+  cost?: string;
+}
+
+export interface Skills {
+  normalAttack: Skill;
+  skill: Skill;
+  ultimate: Skill;
+  passives: Skill[];
+}
+
+export interface RecommendedBuild {
+  bestWeapon: string;
+  bestWeaponEn: string;
+  alternativeWeapons: { id: string; name: string; nameEn: string }[];
+  bestDiskSet: string;
+  bestDiskSetEn: string;
+  mainStats: Record<string, string>;
+  mainStatsEn: Record<string, string>;
+  subStatPriority: string[];
+  subStatPriorityEn: string[];
+}
+
+export interface TeamComp {
+  name: string;
+  nameEn: string;
+  members: string[];
+  description: string;
+  descriptionEn: string;
+}
+
 export interface Character {
   id: string;
   name: string;
@@ -32,6 +70,9 @@ export interface Character {
   tierRank?: string;
   tierReason?: string;
   tierReasonZh?: string;
+  skills?: Skills;
+  recommendedBuild?: RecommendedBuild;
+  teamComps?: TeamComp[];
 }
 
 export interface Material {
