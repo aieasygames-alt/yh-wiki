@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-10（V3 开发启动）
+> 最后更新：2026-04-10（V3 P0 已完成）
 
 ## 项目概述
 
@@ -254,17 +254,17 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | Blog 文章 | 0 | 8+ |
 | 攻略总数 | 13 | 28+ |
 
-### Phase 1：P0 SEO 紧急修复（Week 1-2）
+### Phase 1：P0 SEO 紧急修复（Week 1-2）— ✅ 已完成（2026-04-10）
 
 | 任务 | 状态 | 说明 |
 |------|------|------|
-| On-Page SEO 元数据全面重写 | ⬜ | Title/Description/H1 全部页面 |
-| FAQ 数据编写（~355 条） | ⬜ | 角色 190 + 武器 126 + 攻略 39 |
-| FaqSection 组件 + FAQPage Schema | ⬜ | 新组件 |
-| Schema 补全 | ⬜ | WebSite/Organization/VideoGame/Product/WebApplication |
-| 内链结构优化（Hub-and-Spoke） | ⬜ | 角色页 ≥ 5 个内链 |
-| AI 可引用摘要块 | ⬜ | CharacterSummary + WeaponSummary |
-| Google Search Console 接入 | ⬜ | DNS 验证 + sitemap 提交 |
+| On-Page SEO 元数据全面重写 | ✅ | 英文品牌 YiHuan → NTE/Neverness to Everness，Title 50-60字符，Description 120-160字符含 CTA |
+| FAQ 数据编写（~350 条） | ✅ | 角色 190 + 武器 126 + 攻略 39 = 355 条，中英双语 |
+| FaqSection 组件 + FAQPage Schema | ✅ | 手风琴 FAQ 组件 + FaqPageJsonLd |
+| Schema 补全 | ✅ | Organization + VideoGame + Product + WebApplication + FaqPage |
+| 内链结构优化（Hub-and-Spoke） | ✅ | 角色页 relatedCharacters + Tier 链接 + 攻略链接 |
+| AI 可引用摘要块 | ✅ | CharacterSummary + WeaponSummary 结构化表格 |
+| Google Search Console 接入 | ⬜ | 需运维配合 DNS 验证 |
 
 ### Phase 2：P1-A 内容数据扩充（Week 3-4）
 
