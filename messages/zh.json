@@ -222,5 +222,12 @@
   "blog": {
     "title": "博客",
     "description": "异环最新资讯、深度攻略和游戏评测"
+  },
+  "compare": {
+    "title": "游戏对比",
+    "description": "异环与原神、鸣潮等热门游戏对比评测",
+    "nteVsGenshin": "异环 vs 原神",
+    "nteVsWuwa": "异环 vs 鸣潮",
+    "gamesLikeNte": "类似异环的游戏"
   }
 }

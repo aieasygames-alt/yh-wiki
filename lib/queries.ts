@@ -7,6 +7,7 @@ import guidesData from "../data/guides.json";
 import loreData from "../data/lore.json";
 import locationsData from "../data/locations.json";
 import blogData from "../data/blog.json";
+import comparesData from "../data/compares.json";
 
 export interface FaqItem {
   question: string;
@@ -341,4 +342,30 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 
 export function getLatestBlogPosts(count: number): BlogPost[] {
   return getAllBlogPosts().slice(0, count);
+}
+
+// Compare types and queries
+
+export interface CompareArticle {
+  id: string;
+  title: string;
+  titleEn: string;
+  summary: string;
+  summaryEn: string;
+  category: string;
+  categoryZh: string;
+  categoryEn: string;
+  date: string;
+  tags: string[];
+  content: string;
+  contentEn: string;
+  internalLinks: { label: string; labelEn: string; href: string }[];
+}
+
+export function getAllCompares(): CompareArticle[] {
+  return comparesData as CompareArticle[];
+}
+
+export function getCompare(slug: string): CompareArticle | undefined {
+  return getAllCompares().find((c) => c.id === slug);
 }

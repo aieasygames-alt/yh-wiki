@@ -1,0 +1,16 @@
+import { ComparePageContent, generateCompareMetadata } from "../ComparePageContent";
+
+export function generateStaticParams() {
+  return [{ lang: "zh" }, { lang: "en" }];
+}
+
+export const generateMetadata = generateCompareMetadata;
+
+export default async function CompareNteVsWuWaPage({
+  params,
+}: {
+  params: { lang: string };
+}) {
+  const resolvedParams = await params;
+  return <ComparePageContent params={{ lang: resolvedParams.lang, slug: "nte-vs-wuthering-waves" }} />;
+}

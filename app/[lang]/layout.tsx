@@ -30,11 +30,12 @@ export default async function LangLayout({
     <html lang={lang}>
       <head>
         <meta name="msvalidate.01" content="1FDBEDECCADE86F6C58D3B85E9492A14" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="ga-init" strategy="afterInteractive">
+        <Script id="ga-init" strategy="lazyOnload">
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}',{send_page_view:false});`}
         </Script>
       </head>

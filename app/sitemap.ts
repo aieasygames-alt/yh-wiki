@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons, getAllGuides, getAllLore, getAllLocations, getAllBlogPosts } from "../lib/queries";
+import { getAllCharacters, getAllMaterials, getAllFaqs, getAllWeapons, getAllGuides, getAllLore, getAllLocations, getAllBlogPosts, getAllCompares } from "../lib/queries";
 
 const BASE_URL = "https://nteguide.com";
 
@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const locationItems = getAllLocations();
   const langs = ["zh", "en"];
   const blogPosts = getAllBlogPosts();
+  const compares = getAllCompares();
 
   const routes: MetadataRoute.Sitemap = [];
 
@@ -249,6 +250,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${BASE_URL}/${lang}/blog/${p.id}`,
         lastModified: new Date(),
         changeFrequency: "weekly",
+        priority: 0.8,
+      });
+    });
+  });
+
+  // Compare pages
+  compares.forEach((c) => {
+    langs.forEach((lang) => {
+      routes.push({
+        url: `${BASE_URL}/${lang}/compare/${c.id}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
         priority: 0.8,
       });
     });

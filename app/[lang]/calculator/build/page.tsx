@@ -12,6 +12,7 @@ import {
   getAllWeapons,
 } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel, ATTRIBUTE_LABELS } from "../../../../lib/attributes";
+import { ShareBuildButton } from "../../../../components/ShareBuildButton";
 import buildsData from "../../../../data/builds.json";
 
 interface Build {
@@ -101,7 +102,10 @@ export default function BuildCalculatorPage() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-8">{t(lang, "buildCalculator.title")}</h1>
+      <div className="flex items-center justify-between mb-8">
+        <h1 className="text-3xl font-bold">{t(lang, "buildCalculator.title")}</h1>
+        <ShareBuildButton />
+      </div>
 
       {/* Filters */}
       <div className="flex flex-wrap gap-2 mb-6">

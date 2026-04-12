@@ -222,5 +222,12 @@
   "blog": {
     "title": "Blog",
     "description": "Latest news, in-depth guides, and game reviews for Neverness to Everness"
+  },
+  "compare": {
+    "title": "Compare",
+    "description": "NTE vs Genshin Impact, Wuthering Waves and other game comparisons",
+    "nteVsGenshin": "NTE vs Genshin",
+    "nteVsWuwa": "NTE vs WuWa",
+    "gamesLikeNte": "Games like NTE"
   }
 }

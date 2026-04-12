@@ -40,6 +40,9 @@ export function Header() {
     { type: "dropdown", key: "database", label: t(lang, "site.nav.database"), items: [
       { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
       { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
+      { href: `/${lang}/compare/nte-vs-genshin`, label: t(lang, "compare.nteVsGenshin") },
+      { href: `/${lang}/compare/nte-vs-wuthering-waves`, label: t(lang, "compare.nteVsWuwa") },
+      { href: `/${lang}/compare/games-like-nte`, label: t(lang, "compare.gamesLikeNte") },
     ]},
     { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },
     { type: "dropdown", key: "wiki", label: t(lang, "site.nav.wiki"), items: [

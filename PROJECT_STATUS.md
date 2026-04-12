@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-10（V3 P0 + P1-A + P1-B + 导航重构 已完成）
+> 最后更新：2026-04-12（V3 P0 + P1-A + P1-B + P2 已完成）
 
 ## 项目概述
 
@@ -288,16 +288,16 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | 8 篇 Blog 内容（中英双语） | ✅ | 16 个新页面，含 Article Schema + 内链 |
 | Header/首页 Blog 入口 | ✅ | 导航 + 首页最新 3 篇 Blog 区块 + sitemap 更新 |
 
-### Phase 4：P2 技术优化 + 对比页（Week 7-8）
+### Phase 4：P2 技术优化 + 对比页（Week 7-8）— ✅ 已完成（2026-04-12）
 
 | 任务 | 状态 | 说明 |
 |------|------|------|
 | 导航栏重构（13项→5项+3下拉+Footer内链） | ✅ | 699 页面，每页 Footer 输出 ~13 条内链 |
-| 图片补全（角色 20 + 武器 42 + 材料 35） | ⬜ | 素材获取 |
-| 图片优化（WebP/alt/lazy/responsive） | ⬜ | GameImage 改造 |
-| 3 个对比页 | ⬜ | nte-vs-genshin / nte-vs-wuwa / games-like-nte |
-| Core Web Vitals 优化 | ⬜ | LCP/CLS/INP 达标 |
-| Build 分享按钮 | ⬜ | ShareBuildButton |
+| 图片补全（角色 20 + 武器 42 + 材料 35） | ⬜ | 素材获取（需外部资源） |
+| 图片优化（WebP/alt/lazy/responsive） | ✅ | GameImage 新增 weapon type + priority + width/height |
+| 3 个对比页 | ✅ | nte-vs-genshin / nte-vs-wuthering-waves / games-like-nte（6 页面） |
+| Core Web Vitals 优化 | ✅ | GA lazyOnload + preconnect + poweredByHeader: false |
+| Build 分享按钮 | ✅ | ShareBuildButton（Web Share API + 剪贴板） |
 
 ### Phase 5：P3 持续运营（Week 9+）
 
