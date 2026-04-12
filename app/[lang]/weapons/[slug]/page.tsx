@@ -71,7 +71,7 @@ export default async function WeaponDetailPage({
 
   return (
     <>
-      <ProductJsonLd name={locale === "zh" ? weapon.name : weapon.nameEn} description={locale === "zh" ? weapon.description : weapon.descriptionEn} />
+      <ProductJsonLd name={locale === "zh" ? weapon.name : weapon.nameEn} description={locale === "zh" ? weapon.description : weapon.descriptionEn} url={`https://nteguide.com/${lang}/weapons/${slug}`} />
       {weapon.faq && weapon.faq.length > 0 && (
         <FaqPageJsonLd faqs={weapon.faq} lang={locale} />
       )}

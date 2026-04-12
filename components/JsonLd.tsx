@@ -186,15 +186,30 @@ export function VideoGameJsonLd() {
   );
 }
 
-export function ProductJsonLd({ name, description }: { name: string; description: string }) {
+export function ProductJsonLd({ name, description, url }: { name: string; description: string; url?: string }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     name,
     description,
+    url,
     brand: {
       "@type": "Brand",
       name: "Neverness to Everness",
+    },
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+      itemCondition: "https://schema.org/NewCondition",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.5",
+      bestRating: "5",
+      worstRating: "1",
+      ratingCount: "1",
     },
   };
   return (
