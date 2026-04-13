@@ -1,6 +1,6 @@
 # 异环 Wiki 项目状态
 
-> 最后更新：2026-04-12（V3 P0 + P1-A + P1-B + P2 已完成）
+> 最后更新：2026-04-13（V3 P0 + P1-A + P1-B + P2 + 索引修复 已完成）
 
 ## 项目概述
 
@@ -299,12 +299,53 @@ Next.js 14.2.28 与 Node.js 25 不兼容。必须使用 Node.js 20。
 | Core Web Vitals 优化 | ✅ | GA lazyOnload + preconnect + poweredByHeader: false |
 | Build 分享按钮 | ✅ | ShareBuildButton（Web Share API + 剪贴板） |
 
-### Phase 5：P3 持续运营（Week 9+）
+### Phase 4.5：GSC 索引问题修复 — ✅ 已完成（2026-04-13）
 
-- [ ] Blog 每周 1-2 篇
-- [ ] 兑换码持续更新
-- [ ] 外链建设
-- [ ] 关键词排名监控
+GSC 报告 4 个索引问题：Alternative page with canonical (3页)、Page with redirect (2页)、Discovered – not indexed (424页)、Crawled – not indexed (1页)。
+
+| 问题 | 修复 | 详情 |
+|------|------|------|
+| Canonical 全指向 /zh/ | ✅ | `hreflangAlternates()` 改为接收 lang 参数，canonical 自引用 |
+| 英文页不被索引 | ✅ | 所有 23 个页面调用更新，en 页 canonical → en，zh → zh |
+| HreflangInjector 客户端渲染 | ✅ | 删除冗余组件，hreflang 已由 SSR `generateMetadata` 处理 |
+| 缺少 robots.txt | ✅ | 新增 `public/robots.txt`，Allow + Sitemap URL |
+| 缺少 x-default | ✅ | 所有 alternates.languages 新增 `x-default` 指向 /zh |
+| Sitemap 优化 | ✅ | 重构去重，代码精简 |
+
+**关于 424 页 "Discovered – currently not indexed"**：这是新站正常现象（域名权重低），canonical 修复后 Google 会重新评估。建议通过 GSC URL Inspection 手动提交关键页面加速收录。
+
+### Phase 5：P3 持续运营（2026-04-29 游戏上线后启动）
+
+> 游戏国服 4月23日、国际服 4月29日上线，P3 从建站转向运营增长。
+
+#### 国际市场优先级
+
+| 优先级 | 市场 | 语言 | 策略 |
+|--------|------|------|------|
+| T0 | 美国、日本、德国、巴西 | EN | 现有英文站直接覆盖 |
+| T1 | 韩国、东南亚、法国、英国 | EN/本地语 | 跟进观察，按需投入 |
+| T2 | 中东、东欧、北欧 | — | 暂不投入 |
+
+短期保持中英双语。上线 2 个月后通过 GA4 评估是否新增语言版本（日语概率最高）。
+
+#### 运营任务
+
+| 任务 | 状态 | 频率/说明 |
+|------|------|-----------|
+| Blog 每周更新 | 🔄 | 上线首月 8 篇（见 PRD 内容日历），后续每周 1-2 篇 |
+| 兑换码持续追踪 | 🔄 | 监控官方 Twitter/Discord，24h 内更新 JSON，过期码标记 Expired |
+| 关键词监控 | 🔄 | 每周检查 GSC 收录/展现/排名，GA4 检查流量分布 |
+| 外链建设 | 🔄 | Reddit 4 子版块 + Discord + 内容营销，每周 ≤2 帖 |
+| Google Search Console 接入 | ⬜ | Cloudflare DNS TXT 验证 + sitemap 提交 |
+| 图片补全（角色 38 + 武器 42 + 材料 35） | ⬜ | 上线后截图，批量处理 WebP |
+| 数据准确性校验（CBT vs 正式版） | ⬜ | 逐页校验角色/武器/材料数据，更新 Tier List |
+
+#### 月度运营节奏
+
+| 周一 | 周三 | 周五 |
+|------|------|------|
+| GA4/GSC 数据检查 | Blog 发布 | 兑换码检查/更新 |
+| Reddit/Discord 互动 | 社交媒体分享 | 关键词排名记录 |
 
 ### 运营项（从 V2 结转）
 
