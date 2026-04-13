@@ -186,13 +186,14 @@ export function VideoGameJsonLd() {
   );
 }
 
-export function ProductJsonLd({ name, description, url }: { name: string; description: string; url?: string }) {
+export function ProductJsonLd({ name, description, url, image }: { name: string; description: string; url?: string; image?: string }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     name,
     description,
-    url,
+    image: image || "https://nteguide.com/og.png",
+    ...(url ? { url } : {}),
     brand: {
       "@type": "Brand",
       name: "Neverness to Everness",
