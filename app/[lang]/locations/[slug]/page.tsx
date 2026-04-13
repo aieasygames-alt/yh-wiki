@@ -27,7 +27,7 @@ export async function generateMetadata({
   return {
     title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
     description,
-    alternates: hreflangAlternates(`locations/${slug}`),
+    alternates: hreflangAlternates(`locations/${slug}`, lang),
     openGraph: {
       title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
       description,

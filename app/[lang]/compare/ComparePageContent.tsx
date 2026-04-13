@@ -21,7 +21,7 @@ export async function generateCompareMetadata({ params }: ComparePageProps) {
   return {
     title: `${title} | NTE Compare`,
     description,
-    alternates: hreflangAlternates(`compare/${slug}`),
+    alternates: hreflangAlternates(`compare/${slug}`, lang),
     openGraph: {
       title: `${title} | NTE Compare`,
       description,

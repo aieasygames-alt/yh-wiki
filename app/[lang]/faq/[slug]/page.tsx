@@ -26,7 +26,7 @@ export async function generateMetadata({
   return {
     title: `${question}${lang === "zh" ? " | 异环 Wiki" : " - NTE Guide"}`,
     description: lang === "zh" ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
-    alternates: hreflangAlternates(`faq/${slug}`),
+    alternates: hreflangAlternates(`faq/${slug}`, lang),
     openGraph: {
       title: `${question}${lang === "zh" ? " | 异环 Wiki" : " - NTE Guide"}`,
       description: lang === "zh" ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),

@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   return {
     title: `${title} | NTE Guide`,
     description,
-    alternates: hreflangAlternates("blog"),
+    alternates: hreflangAlternates("blog", lang),
     openGraph: {
       title: `${title} | NTE Guide`,
       description,

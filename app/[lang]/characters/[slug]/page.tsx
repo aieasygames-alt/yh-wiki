@@ -44,7 +44,7 @@ export async function generateMetadata({
       lang === "zh"
         ? `异环 ${character.name} 完整配装推荐、技能解析、升级材料列表及获取方式。`
         : `Find the best build for ${character.nameEn} in Neverness to Everness. Complete skill breakdown, tier ranking, recommended weapons, and team comps.`,
-    alternates: hreflangAlternates(`characters/${slug}`),
+    alternates: hreflangAlternates(`characters/${slug}`, lang),
     openGraph: {
       title:
         lang === "zh"

@@ -32,7 +32,7 @@ export async function generateMetadata({
       lang === "zh"
         ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
         : `Find how to get ${material.nameEn} in Neverness to Everness. Drop locations, farming routes, and all characters that need this material.`,
-    alternates: hreflangAlternates(`materials/${slug}`),
+    alternates: hreflangAlternates(`materials/${slug}`, lang),
     openGraph: {
       title:
         lang === "zh"

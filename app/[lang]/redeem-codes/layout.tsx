@@ -16,7 +16,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环最新可用兑换码汇总（2026年4月更新），持续更新中。"
         : "Neverness to Everness redeem codes (April 2026). All active codes with rewards. Updated regularly.",
-    alternates: hreflangAlternates("redeem-codes"),
+    alternates: hreflangAlternates("redeem-codes", lang),
     openGraph: {
       title:
         lang === "zh"

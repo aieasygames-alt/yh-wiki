@@ -15,7 +15,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环升级材料计算器，输入等级快速计算所需材料数量，支持所有角色。"
         : "Calculate Neverness to Everness character leveling materials. Enter current and target levels to plan your farming route.",
-    alternates: hreflangAlternates("calculator/leveling"),
+    alternates: hreflangAlternates("calculator/leveling", lang),
   };
 }
 

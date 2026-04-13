@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
   return {
     title: `${title} | NTE Guide`,
     description: title,
-    alternates: hreflangAlternates(`tags/${tag}`),
+    alternates: hreflangAlternates(`tags/${tag}`, lang),
   };
 }
 

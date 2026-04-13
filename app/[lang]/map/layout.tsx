@@ -15,7 +15,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环交互式地图，查看副本、BOSS、采集点和传送点的位置。"
         : "Neverness to Everness interactive map. Find all domains, bosses, collectibles and waypoints.",
-    alternates: hreflangAlternates("map"),
+    alternates: hreflangAlternates("map", lang),
   };
 }
 

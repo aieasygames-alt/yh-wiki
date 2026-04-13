@@ -26,7 +26,7 @@ export async function generateMetadata({
   return {
     title: `${title} | NTE Blog`,
     description,
-    alternates: hreflangAlternates(`blog/${slug}`),
+    alternates: hreflangAlternates(`blog/${slug}`, lang),
     openGraph: {
       title: `${title} | NTE Blog`,
       description,

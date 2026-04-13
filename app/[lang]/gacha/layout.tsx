@@ -15,7 +15,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环抽卡模拟器，模拟限定祈愿、常驻祈愿和武器祈愿，测试你的运气！"
         : "Simulate Neverness to Everness gacha pulls. Test your luck with our wish simulator before pulling in-game.",
-    alternates: hreflangAlternates("gacha"),
+    alternates: hreflangAlternates("gacha", lang),
   };
 }
 

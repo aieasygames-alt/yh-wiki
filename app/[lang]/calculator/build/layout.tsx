@@ -15,7 +15,7 @@ export async function generateMetadata({
       lang === "zh"
         ? "异环角色 Build 推荐，查看主词条、副词条优先级、推荐武器和队友搭配。"
         : "Find the best builds for Neverness to Everness characters. Main stats, sub stats, weapons, and team comp recommendations.",
-    alternates: hreflangAlternates("calculator/build"),
+    alternates: hreflangAlternates("calculator/build", lang),
   };
 }
 

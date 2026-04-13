@@ -33,7 +33,7 @@ export async function generateMetadata({
       lang === "zh"
         ? `异环武器「${weapon.name}」详细属性、适用角色推荐及获取方式。`
         : `Discover ${weapon.nameEn} stats, best characters, and how to get it in Neverness to Everness. Complete weapon guide with comparisons.`,
-    alternates: hreflangAlternates(`weapons/${slug}`),
+    alternates: hreflangAlternates(`weapons/${slug}`, lang),
     openGraph: {
       title:
         lang === "zh"

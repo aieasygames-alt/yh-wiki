@@ -13,7 +13,7 @@ export async function generateMetadata({
   return {
     title: t(locale, "lore.title"),
     description: t(locale, "lore.description"),
-    alternates: hreflangAlternates("lore"),
+    alternates: hreflangAlternates("lore", lang),
     openGraph: {
       title: t(locale, "lore.title"),
       description: t(locale, "lore.description"),
