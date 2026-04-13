@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import Script from "next/script";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { HreflangInjector } from "../../components/HreflangInjector";
 import { GaRouteTracker } from "../../components/GaRouteTracker";
 import type { Locale } from "../../lib/i18n";
 
@@ -40,7 +39,6 @@ export default async function LangLayout({
         </Script>
       </head>
       <body className="min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]">
-        <HreflangInjector lang={lang} />
         <GaRouteTracker />
         <Header />
         <main className="flex-1">{children}</main>
