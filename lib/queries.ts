@@ -180,6 +180,9 @@ export interface Faq {
   answer: string;
   answerEn: string;
   tags: string[];
+  category: string;
+  categoryZh: string;
+  categoryEn: string;
   relatedCharacters: string[];
   relatedMaterials: string[];
 }
@@ -190,6 +193,21 @@ export function getAllFaqs(): Faq[] {
 
 export function getFaq(slug: string): Faq | undefined {
   return getAllFaqs().find((f) => f.id === slug);
+}
+
+export function getFaqCategories(locale: "zh" | "en"): { slug: string; name: string }[] {
+  const faqs = getAllFaqs();
+  const seen = new Set<string>();
+  return faqs
+    .filter((f) => {
+      if (seen.has(f.category)) return false;
+      seen.add(f.category);
+      return true;
+    })
+    .map((f) => ({
+      slug: f.category,
+      name: locale === "zh" ? f.categoryZh : f.categoryEn,
+    }));
 }
 
 // Weapon types and queries

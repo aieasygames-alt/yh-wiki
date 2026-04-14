@@ -183,7 +183,8 @@
   },
   "faq": {
     "title": "NTE FAQ",
-    "description": "Answers to common Neverness to Everness questions - leveling, builds and more"
+    "description": "Answers to common Neverness to Everness questions - leveling, materials, combat, gacha and more",
+    "relatedFaqs": "Related Questions"
   },
   "guides": {
     "title": "NTE Guides",

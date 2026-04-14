@@ -1,5 +1,5 @@
 import { t, hreflangAlternates } from "../../../lib/i18n";
-import { getAllFaqs } from "../../../lib/queries";
+import { getAllFaqs, getFaqCategories } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
 
@@ -30,6 +30,12 @@ export default async function FaqListPage({
   const { lang } = await params;
   const locale = lang as "zh" | "en";
   const faqs = getAllFaqs();
+  const categories = getFaqCategories(locale);
+
+  const faqsByCategory = categories.map((cat) => ({
+    ...cat,
+    faqs: faqs.filter((f) => f.category === cat.slug),
+  }));
 
   return (
     <>
@@ -47,32 +53,38 @@ export default async function FaqListPage({
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-8">{t(locale, "faq.title")}</h1>
-        <div className="space-y-4">
-          {faqs.map((faq) => (
-            <a
-              key={faq.id}
-              href={`/${lang}/faq/${faq.id}`}
-              className="block rounded-lg border border-gray-800 bg-gray-900/30 p-5 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
-            >
-              <h2 className="text-base font-medium">
-                {locale === "zh" ? faq.question : faq.questionEn}
-              </h2>
-              <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                {locale === "zh" ? faq.answer : faq.answerEn}
-              </p>
-              <div className="mt-3 flex gap-2">
-                {faq.tags.slice(0, 3).map((tag) => (
-                  <span
-                    key={tag}
-                    className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </a>
-          ))}
-        </div>
+
+        {faqsByCategory.map((cat) => (
+          <section key={cat.slug} className="mb-10">
+            <h2 className="text-xl font-bold mb-4 text-primary-400">{cat.name}</h2>
+            <div className="space-y-4">
+              {cat.faqs.map((faq) => (
+                <a
+                  key={faq.id}
+                  href={`/${lang}/faq/${faq.id}`}
+                  className="block rounded-lg border border-gray-800 bg-gray-900/30 p-5 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
+                >
+                  <h3 className="text-base font-medium">
+                    {locale === "zh" ? faq.question : faq.questionEn}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500 line-clamp-2">
+                    {locale === "zh" ? faq.answer : faq.answerEn}
+                  </p>
+                  <div className="mt-3 flex gap-2">
+                    {faq.tags.slice(0, 3).map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))}
       </div>
     </>
   );

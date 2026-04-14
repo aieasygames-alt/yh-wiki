@@ -125,6 +125,34 @@ export default async function FaqDetailPage({
           </section>
         )}
 
+        {/* Related FAQs (same category) */}
+        {(() => {
+          const allFaqs = getAllFaqs();
+          const relatedFaqs = allFaqs.filter(
+            (f) => f.category === faq.category && f.id !== faq.id
+          ).slice(0, 5);
+          return relatedFaqs.length > 0 ? (
+            <section className="mt-8">
+              <h2 className="text-lg font-bold mb-4">
+                {t(locale, "faq.relatedFaqs")}
+              </h2>
+              <div className="space-y-3">
+                {relatedFaqs.map((rf) => (
+                  <Link
+                    key={rf.id}
+                    href={`/${lang}/faq/${rf.id}`}
+                    className="block rounded-lg border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
+                  >
+                    <h3 className="text-sm font-medium">
+                      {locale === "zh" ? rf.question : rf.questionEn}
+                    </h3>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          ) : null;
+        })()}
+
         {/* Calculator CTA */}
         <div className="text-center py-8 mt-8">
           <Link

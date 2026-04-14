@@ -1,0 +1,561 @@
+{
+  "generatedAt": "2026-04-14T03:10:05.942Z",
+  "summary": {
+    "totalKeywords": 34,
+    "coveredCount": 1,
+    "gapCount": 30,
+    "suggestedFaqCount": 10,
+    "existingFaqCount": 19,
+    "existingCategories": [
+      "leveling",
+      "materials",
+      "currency",
+      "characters",
+      "combat",
+      "beginner",
+      "meta",
+      "team-building"
+    ],
+    "newCategories": [
+      "release",
+      "system",
+      "gacha",
+      "exploration",
+      "equipment"
+    ]
+  },
+  "covered": [
+    {
+      "keyword": "异环下载",
+      "faqId": "how-to-level-up-fast",
+      "faqQuestion": "异环怎么升级角色快？"
+    }
+  ],
+  "gaps": [
+    {
+      "category": "release",
+      "categoryZh": "上线信息",
+      "categoryEn": "Release",
+      "keyword": "异环什么时候公测",
+      "suggestedQuestion": "异环什么时候公测？",
+      "sourceCount": 3,
+      "sources": [
+        "baidu",
+        "google",
+        "bing"
+      ],
+      "priority": "high",
+      "isNewCategory": true
+    },
+    {
+      "category": "system",
+      "categoryZh": "游戏系统",
+      "categoryEn": "System",
+      "keyword": "异环手机配置要求",
+      "suggestedQuestion": "异环手机配置要求？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "release",
+      "categoryZh": "上线信息",
+      "categoryEn": "Release",
+      "keyword": "异环公测时间",
+      "suggestedQuestion": "异环公测时间？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "release",
+      "categoryZh": "上线信息",
+      "categoryEn": "Release",
+      "keyword": "异环测试数据会保留吗",
+      "suggestedQuestion": "异环测试数据会保留吗？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "gacha",
+      "categoryZh": "抽卡系统",
+      "categoryEn": "Gacha",
+      "keyword": "异环保底机制",
+      "suggestedQuestion": "异环保底机制？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "gacha",
+      "categoryZh": "抽卡系统",
+      "categoryEn": "Gacha",
+      "keyword": "异环新手抽什么卡池",
+      "suggestedQuestion": "异环新手抽什么卡池？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "combat",
+      "categoryZh": "战斗机制",
+      "categoryEn": "Combat",
+      "keyword": "异环极限闪避怎么触发",
+      "suggestedQuestion": "异环极限闪避怎么触发？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "combat",
+      "categoryZh": "战斗机制",
+      "categoryEn": "Combat",
+      "keyword": "异环环合爆发怎么用",
+      "suggestedQuestion": "异环环合爆发怎么用？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "exploration",
+      "categoryZh": "地图探索",
+      "categoryEn": "Exploration",
+      "keyword": "异环海特洛市探索",
+      "suggestedQuestion": "异环海特洛市探索？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "characters",
+      "categoryZh": "角色相关",
+      "categoryEn": "Characters",
+      "keyword": "异环觉醒系统",
+      "suggestedQuestion": "异环觉醒系统？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "characters",
+      "categoryZh": "角色相关",
+      "categoryEn": "Characters",
+      "keyword": "异环角色排行",
+      "suggestedQuestion": "异环角色排行？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "currency",
+      "categoryZh": "货币系统",
+      "categoryEn": "Currency",
+      "keyword": "异环兑换码大全",
+      "suggestedQuestion": "异环兑换码大全？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "team-building",
+      "categoryZh": "配队推荐",
+      "categoryEn": "Team Building",
+      "keyword": "异环新手阵容推荐",
+      "suggestedQuestion": "异环新手阵容推荐？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "beginner",
+      "categoryZh": "新手入门",
+      "categoryEn": "Beginner",
+      "keyword": "异环开局怎么玩",
+      "suggestedQuestion": "异环开局怎么玩？",
+      "sourceCount": 2,
+      "sources": [
+        "baidu",
+        "google"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "system",
+      "categoryZh": "游戏系统",
+      "categoryEn": "System",
+      "keyword": "异环怎么下载安装",
+      "suggestedQuestion": "异环怎么下载安装？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "system",
+      "categoryZh": "游戏系统",
+      "categoryEn": "System",
+      "keyword": "异环PC版下载",
+      "suggestedQuestion": "异环PC版下载？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "release",
+      "categoryZh": "上线信息",
+      "categoryEn": "Release",
+      "keyword": "异环怎么参加测试",
+      "suggestedQuestion": "异环怎么参加测试？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "release",
+      "categoryZh": "上线信息",
+      "categoryEn": "Release",
+      "keyword": "异环预约奖励",
+      "suggestedQuestion": "异环预约奖励？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "gacha",
+      "categoryZh": "抽卡系统",
+      "categoryEn": "Gacha",
+      "keyword": "异环抽卡概率",
+      "suggestedQuestion": "异环抽卡概率？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "gacha",
+      "categoryZh": "抽卡系统",
+      "categoryEn": "Gacha",
+      "keyword": "异环抽卡用什么货币",
+      "suggestedQuestion": "异环抽卡用什么货币？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "gacha",
+      "categoryZh": "抽卡系统",
+      "categoryEn": "Gacha",
+      "keyword": "异环预抽卡怎么参与",
+      "suggestedQuestion": "异环预抽卡怎么参与？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "combat",
+      "categoryZh": "战斗机制",
+      "categoryEn": "Combat",
+      "keyword": "异环属性搭配推荐",
+      "suggestedQuestion": "异环属性搭配推荐？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": false
+    },
+    {
+      "category": "combat",
+      "categoryZh": "战斗机制",
+      "categoryEn": "Combat",
+      "keyword": "异环战斗技巧",
+      "suggestedQuestion": "异环战斗技巧？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": false
+    },
+    {
+      "category": "exploration",
+      "categoryZh": "地图探索",
+      "categoryEn": "Exploration",
+      "keyword": "异环乌鸦玉石在哪",
+      "suggestedQuestion": "异环乌鸦玉石在哪？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "exploration",
+      "categoryZh": "地图探索",
+      "categoryEn": "Exploration",
+      "keyword": "异环隐藏区域怎么进",
+      "suggestedQuestion": "异环隐藏区域怎么进？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "characters",
+      "categoryZh": "角色相关",
+      "categoryEn": "Characters",
+      "keyword": "异环开局抽什么角色",
+      "suggestedQuestion": "异环开局抽什么角色？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": false
+    },
+    {
+      "category": "equipment",
+      "categoryZh": "装备系统",
+      "categoryEn": "Equipment",
+      "keyword": "异环磁盘系统怎么玩",
+      "suggestedQuestion": "异环磁盘系统怎么玩？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "equipment",
+      "categoryZh": "装备系统",
+      "categoryEn": "Equipment",
+      "keyword": "异环武器怎么强化",
+      "suggestedQuestion": "异环武器怎么强化？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "currency",
+      "categoryZh": "货币系统",
+      "categoryEn": "Currency",
+      "keyword": "异环兑换码怎么用",
+      "suggestedQuestion": "异环兑换码怎么用？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": false
+    },
+    {
+      "category": "currency",
+      "categoryZh": "货币系统",
+      "categoryEn": "Currency",
+      "keyword": "异环怎么赚信用点",
+      "suggestedQuestion": "异环怎么赚信用点？",
+      "sourceCount": 1,
+      "sources": [
+        "baidu"
+      ],
+      "priority": "low",
+      "isNewCategory": false
+    }
+  ],
+  "suggestedFaqs": [
+    {
+      "category": "release",
+      "categoryZh": "上线信息",
+      "categoryEn": "Release",
+      "mainQuestion": "异环什么时候公测？",
+      "relatedKeywords": [
+        "异环公测时间",
+        "异环测试数据会保留吗",
+        "异环怎么参加测试",
+        "异环预约奖励"
+      ],
+      "priority": "high",
+      "isNewCategory": true
+    },
+    {
+      "category": "system",
+      "categoryZh": "游戏系统",
+      "categoryEn": "System",
+      "mainQuestion": "异环手机配置要求？",
+      "relatedKeywords": [
+        "异环怎么下载安装",
+        "异环PC版下载"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "gacha",
+      "categoryZh": "抽卡系统",
+      "categoryEn": "Gacha",
+      "mainQuestion": "异环保底机制？",
+      "relatedKeywords": [
+        "异环新手抽什么卡池",
+        "异环抽卡概率",
+        "异环抽卡用什么货币",
+        "异环预抽卡怎么参与"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "exploration",
+      "categoryZh": "地图探索",
+      "categoryEn": "Exploration",
+      "mainQuestion": "异环海特洛市探索？",
+      "relatedKeywords": [
+        "异环乌鸦玉石在哪",
+        "异环隐藏区域怎么进"
+      ],
+      "priority": "medium",
+      "isNewCategory": true
+    },
+    {
+      "category": "equipment",
+      "categoryZh": "装备系统",
+      "categoryEn": "Equipment",
+      "mainQuestion": "异环磁盘系统怎么玩？",
+      "relatedKeywords": [
+        "异环武器怎么强化"
+      ],
+      "priority": "low",
+      "isNewCategory": true
+    },
+    {
+      "category": "combat",
+      "categoryZh": "战斗机制",
+      "categoryEn": "Combat",
+      "mainQuestion": "异环极限闪避怎么触发？",
+      "relatedKeywords": [
+        "异环环合爆发怎么用",
+        "异环属性搭配推荐",
+        "异环战斗技巧"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "characters",
+      "categoryZh": "角色相关",
+      "categoryEn": "Characters",
+      "mainQuestion": "异环觉醒系统？",
+      "relatedKeywords": [
+        "异环角色排行",
+        "异环开局抽什么角色"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "currency",
+      "categoryZh": "货币系统",
+      "categoryEn": "Currency",
+      "mainQuestion": "异环兑换码大全？",
+      "relatedKeywords": [
+        "异环兑换码怎么用",
+        "异环怎么赚信用点"
+      ],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "team-building",
+      "categoryZh": "配队推荐",
+      "categoryEn": "Team Building",
+      "mainQuestion": "异环新手阵容推荐？",
+      "relatedKeywords": [],
+      "priority": "medium",
+      "isNewCategory": false
+    },
+    {
+      "category": "beginner",
+      "categoryZh": "新手入门",
+      "categoryEn": "Beginner",
+      "mainQuestion": "异环开局怎么玩？",
+      "relatedKeywords": [],
+      "priority": "medium",
+      "isNewCategory": false
+    }
+  ]
+}

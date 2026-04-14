@@ -183,7 +183,8 @@
   },
   "faq": {
     "title": "异环攻略 FAQ",
-    "description": "异环常见问题解答，包含升级、材料、角色培养等攻略"
+    "description": "异环常见问题解答，包含升级、材料、角色培养、战斗、抽卡等攻略",
+    "relatedFaqs": "相关问题"
   },
   "guides": {
     "title": "攻略指南",
