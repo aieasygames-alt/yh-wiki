@@ -1,0 +1,27 @@
+# Static JS/CSS assets - long cache (immutable via content hash)
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images
+/images/*
+  Cache-Control: public, max-age=86400, s-maxage=604800
+
+# Sitemap
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+# Robots
+/robots.txt
+  Cache-Control: public, max-age=3600
+
+# Sub-sitemaps
+/sitemap-pages.xml
+  Cache-Control: public, max-age=3600
+/sitemap-characters.xml
+  Cache-Control: public, max-age=3600
+/sitemap-weapons.xml
+  Cache-Control: public, max-age=3600
+/sitemap-guides.xml
+  Cache-Control: public, max-age=3600
+/sitemap-other.xml
+  Cache-Control: public, max-age=3600

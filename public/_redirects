@@ -1,0 +1,6 @@
+# Root redirect - permanent
+/ /zh 301
+
+# Remove trailing slashes for language roots
+/zh/ /zh 301
+/en/ /en 301

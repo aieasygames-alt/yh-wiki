@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "TURBOPACK= TURBOPACK_BUILD= node scripts/generate-search-index.js && next build && bash scripts/build-static.sh",
+    "build": "TURBOPACK= TURBOPACK_BUILD= node scripts/generate-search-index.js && node scripts/generate-sitemaps.js && next build && bash scripts/build-static.sh",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "bash scripts/patch-next.sh",
