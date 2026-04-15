@@ -573,6 +573,48 @@
     "faq": []
   },
   {
+    "id": "tier-list",
+    "title": "角色强度排行",
+    "titleEn": "Character Tier List",
+    "category": "tier-list",
+    "categoryZh": "排行",
+    "categoryEn": "Tier List",
+    "summary": "异环全角色强度排行，S/A/B级角色推荐，新手培养优先级。",
+    "summaryEn": "Neverness to Everness character tier list with S/A/B rankings and newbie priority recommendations.",
+    "content": "了解角色强度排行可以帮助你更高效地分配有限资源。本排行基于当前版本角色在各类内容中的综合表现评估。\n\n## 排行概览\n\n**S级角色**：当前版本最强角色，优先获取和培养。\n**A级角色**：表现优秀，可作为S级的替代选择。\n**B级角色**：基础扎实，在特定队伍中有价值。\n\n## 新手推荐\n\n新手期资源有限，建议优先培养通用性强的S/A级角色。不要平均分配资源，集中投入1-2个主力输出角色可以更快推进内容。\n\n## 输出排行\n\n输出角色主要看伤害倍率和技能机制。S级输出通常具备高额倍率和优秀的技能循环。\n\n## 辅助排行\n\n辅助角色看增益效果和泛用性。S级辅助可以融入大多数队伍并提供稳定增益。\n\n## 详细分析\n\n查看[完整角色强度排行详细分析](/zh/guides/detailed-tier-list)获取更多细节，包括各场景排行差异和命座影响。",
+    "contentEn": "Understanding character tier rankings helps you allocate limited resources more efficiently. This tier list evaluates character performance across multiple game modes.\n\n## Tier Overview\n\n**S-Tier**: The strongest characters in the current meta. Priority for investment.\n**A-Tier**: Excellent performers and great substitutes for S-Tier units.\n**B-Tier**: Solid foundations with value in specific teams.\n\n## Newbie Recommendations\n\nResources are limited early game. Focus on versatile S/A-Tier characters. Don't spread resources evenly - investing in 1-2 main DPS characters will progress content faster.\n\n## DPS Rankings\n\nDPS characters are evaluated by damage multipliers and kit mechanics. S-Tier DPS typically has high multipliers and excellent skill rotation.\n\n## Support Rankings\n\nSupports are evaluated by buff effects and versatility. S-Tier supports fit into most teams and provide stable buffs.\n\n## Detailed Analysis\n\nCheck the [Complete Character Tier List](/en/guides/detailed-tier-list) for more details including scenario-specific rankings and constellation impact.",
+    "tags": [
+      "排行",
+      "tier list",
+      "角色排行",
+      "强度榜",
+      "Rankings"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "Who are the best characters in Neverness to Everness?",
+        "questionZh": "异环中最强的角色有哪些？",
+        "answer": "S-Tier characters are currently the strongest in Neverness to Everness. Check our detailed tier list for complete rankings and analysis.",
+        "answerZh": "S级角色是当前异环中最强的角色。查看我们的详细排行获取完整排名和分析。"
+      },
+      {
+        "question": "What characters should a beginner focus on?",
+        "questionZh": "新手应该重点培养哪些角色？",
+        "answer": "Beginners should focus on versatile S/A-Tier characters with good team synergy. Don't spread resources too thin early game.",
+        "answerZh": "新手应该专注于泛用性强的S/A级角色，具备良好的队伍配合。前期不要平均分配资源。"
+      },
+      {
+        "question": "Is tier list important in Neverness to Everness?",
+        "questionZh": "异环中排行重要吗？",
+        "answer": "Tier list is a helpful reference for resource allocation, but character preference and playstyle matter more. A well-built character you enjoy playing will outperform a poorly-built top-tier unit.",
+        "answerZh": "排行是资源分配的有用参考，但角色喜好和操作风格更重要。一个你喜欢的角色发挥会比不擅长的顶级角色更好。"
+      }
+    ]
+  },
+  {
     "id": "detailed-tier-list",
     "title": "全角色强度排行（详细版）",
     "titleEn": "Complete Character Tier List (Detailed)",
