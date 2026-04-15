@@ -26,12 +26,13 @@ const BASE_URL = "https://nteguide.com";
 
 /** Generate hreflang alternates for a given path (without leading /) */
 export function hreflangAlternates(pathWithoutLang: string, lang: string) {
+  const urlWithSlash = `${pathWithoutLang}/`;
   return {
-    canonical: `${BASE_URL}/${lang}/${pathWithoutLang}`,
+    canonical: `${BASE_URL}/${lang}/${urlWithSlash}`,
     languages: {
-      "zh": `${BASE_URL}/zh/${pathWithoutLang}`,
-      "en": `${BASE_URL}/en/${pathWithoutLang}`,
-      "x-default": `${BASE_URL}/zh/${pathWithoutLang}`,
+      "zh": `${BASE_URL}/zh/${urlWithSlash}`,
+      "en": `${BASE_URL}/en/${urlWithSlash}`,
+      "x-default": `${BASE_URL}/zh/${urlWithSlash}`,
     },
   };
 }
@@ -39,11 +40,11 @@ export function hreflangAlternates(pathWithoutLang: string, lang: string) {
 /** Generate hreflang alternates for index page (no sub-path) */
 export function hreflangAlternatesIndex(lang: string) {
   return {
-    canonical: `${BASE_URL}/${lang}`,
+    canonical: `${BASE_URL}/${lang}/`,
     languages: {
-      "zh": `${BASE_URL}/zh`,
-      "en": `${BASE_URL}/en`,
-      "x-default": `${BASE_URL}/zh`,
+      "zh": `${BASE_URL}/zh/`,
+      "en": `${BASE_URL}/en/`,
+      "x-default": `${BASE_URL}/zh/`,
     },
   };
 }
