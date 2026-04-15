@@ -76,16 +76,16 @@ function writeSitemap(filename, urls) {
 // 1. Pages: homepage, category list pages, tool pages
 const pageUrls = [];
 langs.forEach((lang) => {
-  pageUrls.push({ url: `${BASE_URL}/${lang}`, priority: 1, changeFreq: "daily" });
+  pageUrls.push({ url: `${BASE_URL}/${lang}/`, priority: 1, changeFreq: "daily" });
 });
 categoryPages.forEach((p) => {
   langs.forEach((lang) => {
-    pageUrls.push({ url: `${BASE_URL}/${lang}/${p}`, priority: 0.8, changeFreq: "weekly" });
+    pageUrls.push({ url: `${BASE_URL}/${lang}/${p}/`, priority: 0.8, changeFreq: "weekly" });
   });
 });
 toolPages.forEach((p) => {
   langs.forEach((lang) => {
-    pageUrls.push({ url: `${BASE_URL}/${lang}/${p}`, priority: 0.9, changeFreq: "weekly" });
+    pageUrls.push({ url: `${BASE_URL}/${lang}/${p}/`, priority: 0.9, changeFreq: "weekly" });
   });
 });
 
@@ -93,7 +93,7 @@ toolPages.forEach((p) => {
 const characterUrls = [];
 characters.forEach((c) => {
   langs.forEach((lang) => {
-    characterUrls.push({ url: `${BASE_URL}/${lang}/characters/${c.id}`, priority: 0.8, changeFreq: "weekly" });
+    characterUrls.push({ url: `${BASE_URL}/${lang}/characters/${c.id}/`, priority: 0.8, changeFreq: "weekly" });
   });
 });
 
@@ -101,7 +101,7 @@ characters.forEach((c) => {
 const weaponUrls = [];
 weapons.forEach((w) => {
   langs.forEach((lang) => {
-    weaponUrls.push({ url: `${BASE_URL}/${lang}/weapons/${w.id}`, priority: 0.7, changeFreq: "weekly" });
+    weaponUrls.push({ url: `${BASE_URL}/${lang}/weapons/${w.id}/`, priority: 0.7, changeFreq: "weekly" });
   });
 });
 
@@ -109,7 +109,7 @@ weapons.forEach((w) => {
 const guideUrls = [];
 guides.forEach((g) => {
   langs.forEach((lang) => {
-    guideUrls.push({ url: `${BASE_URL}/${lang}/guides/${g.id}`, priority: 0.8, changeFreq: "weekly" });
+    guideUrls.push({ url: `${BASE_URL}/${lang}/guides/${g.id}/`, priority: 0.8, changeFreq: "weekly" });
   });
 });
 
@@ -117,37 +117,37 @@ guides.forEach((g) => {
 const otherUrls = [];
 materials.forEach((m) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/materials/${m.id}`, priority: 0.6, changeFreq: "monthly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/materials/${m.id}/`, priority: 0.6, changeFreq: "monthly" });
   });
 });
 faqs.forEach((f) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/faq/${f.id}`, priority: 0.6, changeFreq: "monthly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/faq/${f.id}/`, priority: 0.6, changeFreq: "monthly" });
   });
 });
 loreItems.forEach((l) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/lore/${l.id}`, priority: 0.7, changeFreq: "monthly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/lore/${l.id}/`, priority: 0.7, changeFreq: "monthly" });
   });
 });
 locations.forEach((l) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/locations/${l.id}`, priority: 0.7, changeFreq: "monthly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/locations/${l.id}/`, priority: 0.7, changeFreq: "monthly" });
   });
 });
 blogPosts.forEach((p) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/blog/${p.id}`, priority: 0.8, changeFreq: "weekly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly" });
   });
 });
 compares.forEach((c) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/compare/${c.id}`, priority: 0.8, changeFreq: "monthly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/compare/${c.id}/`, priority: 0.8, changeFreq: "monthly" });
   });
 });
 commonTags.forEach((tag) => {
   langs.forEach((lang) => {
-    otherUrls.push({ url: `${BASE_URL}/${lang}/tags/${tag}`, priority: 0.5, changeFreq: "weekly" });
+    otherUrls.push({ url: `${BASE_URL}/${lang}/tags/${tag}/`, priority: 0.5, changeFreq: "weekly" });
   });
 });
 

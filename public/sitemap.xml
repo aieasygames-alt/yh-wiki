@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://nteguide.com/sitemap-pages.xml</loc>
+    <lastmod>2026-04-15T03:23:40.317Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://nteguide.com/sitemap-characters.xml</loc>
+    <lastmod>2026-04-15T03:23:40.317Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://nteguide.com/sitemap-weapons.xml</loc>
+    <lastmod>2026-04-15T03:23:40.317Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://nteguide.com/sitemap-guides.xml</loc>
+    <lastmod>2026-04-15T03:23:40.317Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://nteguide.com/sitemap-other.xml</loc>
+    <lastmod>2026-04-15T03:23:40.317Z</lastmod>
+  </sitemap>
+</sitemapindex>
