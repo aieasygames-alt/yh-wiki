@@ -3312,6 +3312,662 @@
     ]
   },
   {
+    "id": "launch-date-2026",
+    "name": "异环2026年什么时候公测？具体上线日期是几号？",
+    "nameEn": "When does NTE launch in 2026? What is the exact release date?",
+    "type": "faq",
+    "url": "/zh/faq/launch-date-2026",
+    "tags": [
+      "release",
+      "launch"
+    ]
+  },
+  {
+    "id": "launch-date-2026",
+    "name": "When does NTE launch in 2026? What is the exact release date?",
+    "nameEn": "When does NTE launch in 2026? What is the exact release date?",
+    "type": "faq",
+    "url": "/en/faq/launch-date-2026",
+    "tags": [
+      "release",
+      "launch"
+    ]
+  },
+  {
+    "id": "pre-download-time",
+    "name": "异环预下载什么时候开始？怎么提前下载？",
+    "nameEn": "When does NTE pre-download start? How to download early?",
+    "type": "faq",
+    "url": "/zh/faq/pre-download-time",
+    "tags": [
+      "system",
+      "download"
+    ]
+  },
+  {
+    "id": "pre-download-time",
+    "name": "When does NTE pre-download start? How to download early?",
+    "nameEn": "When does NTE pre-download start? How to download early?",
+    "type": "faq",
+    "url": "/en/faq/pre-download-time",
+    "tags": [
+      "system",
+      "download"
+    ]
+  },
+  {
+    "id": "global-server-launch",
+    "name": "异环国际服什么时候上线？和国服有什么不同？",
+    "nameEn": "When does NTE global server launch? How is it different from CN?",
+    "type": "faq",
+    "url": "/zh/faq/global-server-launch",
+    "tags": [
+      "release",
+      "global"
+    ]
+  },
+  {
+    "id": "global-server-launch",
+    "name": "When does NTE global server launch? How is it different from CN?",
+    "nameEn": "When does NTE global server launch? How is it different from CN?",
+    "type": "faq",
+    "url": "/en/faq/global-server-launch",
+    "tags": [
+      "release",
+      "global"
+    ]
+  },
+  {
+    "id": "cn-vs-global",
+    "name": "异环国服和国际服有什么区别？选哪个好？",
+    "nameEn": "What's the difference between NTE CN and Global servers? Which should I play?",
+    "type": "faq",
+    "url": "/zh/faq/cn-vs-global",
+    "tags": [
+      "release",
+      "global"
+    ]
+  },
+  {
+    "id": "cn-vs-global",
+    "name": "What's the difference between NTE CN and Global servers? Which should I play?",
+    "nameEn": "What's the difference between NTE CN and Global servers? Which should I play?",
+    "type": "faq",
+    "url": "/en/faq/cn-vs-global",
+    "tags": [
+      "release",
+      "global"
+    ]
+  },
+  {
+    "id": "launch-rewards-total",
+    "name": "异环公测总共能白嫖多少抽？免费资源有多少？",
+    "nameEn": "How many free pulls can I get at NTE launch? Total free resources?",
+    "type": "faq",
+    "url": "/zh/faq/launch-rewards-total",
+    "tags": [
+      "gacha",
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "launch-rewards-total",
+    "name": "How many free pulls can I get at NTE launch? Total free resources?",
+    "nameEn": "How many free pulls can I get at NTE launch? Total free resources?",
+    "type": "faq",
+    "url": "/en/faq/launch-rewards-total",
+    "tags": [
+      "gacha",
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "cross-platform-save",
+    "name": "异环支持跨平台吗？数据互通吗？",
+    "nameEn": "Does NTE support cross-platform play and cross-save?",
+    "type": "faq",
+    "url": "/zh/faq/cross-platform-save",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "cross-platform-save",
+    "name": "Does NTE support cross-platform play and cross-save?",
+    "nameEn": "Does NTE support cross-platform play and cross-save?",
+    "type": "faq",
+    "url": "/en/faq/cross-platform-save",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "download-size",
+    "name": "异环下载多大？需要多少存储空间？",
+    "nameEn": "How large is the NTE download? How much storage space is needed?",
+    "type": "faq",
+    "url": "/zh/faq/download-size",
+    "tags": [
+      "system",
+      "download"
+    ]
+  },
+  {
+    "id": "download-size",
+    "name": "How large is the NTE download? How much storage space is needed?",
+    "nameEn": "How large is the NTE download? How much storage space is needed?",
+    "type": "faq",
+    "url": "/en/faq/download-size",
+    "tags": [
+      "system",
+      "download"
+    ]
+  },
+  {
+    "id": "is-nte-free",
+    "name": "异环是免费游戏吗？需要花钱吗？",
+    "nameEn": "Is NTE free to play? Do I need to spend money?",
+    "type": "faq",
+    "url": "/zh/faq/is-nte-free",
+    "tags": [
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "is-nte-free",
+    "name": "Is NTE free to play? Do I need to spend money?",
+    "nameEn": "Is NTE free to play? Do I need to spend money?",
+    "type": "faq",
+    "url": "/en/faq/is-nte-free",
+    "tags": [
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "no-50-50-system",
+    "name": "异环抽卡有50/50吗？保底会歪吗？",
+    "nameEn": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
+    "type": "faq",
+    "url": "/zh/faq/no-50-50-system",
+    "tags": [
+      "gacha",
+      "pity"
+    ]
+  },
+  {
+    "id": "no-50-50-system",
+    "name": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
+    "nameEn": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
+    "type": "faq",
+    "url": "/en/faq/no-50-50-system",
+    "tags": [
+      "gacha",
+      "pity"
+    ]
+  },
+  {
+    "id": "reroll-guide",
+    "name": "异环怎么刷初始？刷初始值得吗？",
+    "nameEn": "How to reroll in NTE? Is rerolling worth it?",
+    "type": "faq",
+    "url": "/zh/faq/reroll-guide",
+    "tags": [
+      "beginner",
+      "gacha"
+    ]
+  },
+  {
+    "id": "reroll-guide",
+    "name": "How to reroll in NTE? Is rerolling worth it?",
+    "nameEn": "How to reroll in NTE? Is rerolling worth it?",
+    "type": "faq",
+    "url": "/en/faq/reroll-guide",
+    "tags": [
+      "beginner",
+      "gacha"
+    ]
+  },
+  {
+    "id": "6-choose-1-guide",
+    "name": "异环开服6选1选谁？免费S级角色推荐",
+    "nameEn": "NTE launch 6-choose-1: Which free S-rank character should I pick?",
+    "type": "faq",
+    "url": "/zh/faq/6-choose-1-guide",
+    "tags": [
+      "beginner",
+      "characters"
+    ]
+  },
+  {
+    "id": "6-choose-1-guide",
+    "name": "NTE launch 6-choose-1: Which free S-rank character should I pick?",
+    "nameEn": "NTE launch 6-choose-1: Which free S-rank character should I pick?",
+    "type": "faq",
+    "url": "/en/faq/6-choose-1-guide",
+    "tags": [
+      "beginner",
+      "characters"
+    ]
+  },
+  {
+    "id": "f2p-friendly",
+    "name": "异环零氪能玩吗？不花钱体验怎么样？",
+    "nameEn": "Is NTE F2P friendly? Can I enjoy it without spending money?",
+    "type": "faq",
+    "url": "/zh/faq/f2p-friendly",
+    "tags": [
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "f2p-friendly",
+    "name": "Is NTE F2P friendly? Can I enjoy it without spending money?",
+    "nameEn": "Is NTE F2P friendly? Can I enjoy it without spending money?",
+    "type": "faq",
+    "url": "/en/faq/f2p-friendly",
+    "tags": [
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "multiplayer-coop",
+    "name": "异环可以联机吗？多人模式怎么玩？",
+    "nameEn": "Does NTE have multiplayer/co-op? How does it work?",
+    "type": "faq",
+    "url": "/zh/faq/multiplayer-coop",
+    "tags": [
+      "system",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "multiplayer-coop",
+    "name": "Does NTE have multiplayer/co-op? How does it work?",
+    "nameEn": "Does NTE have multiplayer/co-op? How does it work?",
+    "type": "faq",
+    "url": "/en/faq/multiplayer-coop",
+    "tags": [
+      "system",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "starter-s-rank",
+    "name": "异环第一个S级角色选谁？新手推荐培养顺序",
+    "nameEn": "Which S-rank should beginners choose first? Build priority",
+    "type": "faq",
+    "url": "/zh/faq/starter-s-rank",
+    "tags": [
+      "beginner",
+      "characters"
+    ]
+  },
+  {
+    "id": "starter-s-rank",
+    "name": "Which S-rank should beginners choose first? Build priority",
+    "nameEn": "Which S-rank should beginners choose first? Build priority",
+    "type": "faq",
+    "url": "/en/faq/starter-s-rank",
+    "tags": [
+      "beginner",
+      "characters"
+    ]
+  },
+  {
+    "id": "ps5-support",
+    "name": "异环支持PS5吗？主机版什么时候出？",
+    "nameEn": "Is NTE available on PS5? When is the console version coming?",
+    "type": "faq",
+    "url": "/zh/faq/ps5-support",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "ps5-support",
+    "name": "Is NTE available on PS5? When is the console version coming?",
+    "nameEn": "Is NTE available on PS5? When is the console version coming?",
+    "type": "faq",
+    "url": "/en/faq/ps5-support",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "mac-support",
+    "name": "异环能在Mac上玩吗？Mac版怎么下载？",
+    "nameEn": "Can I play NTE on Mac? How to download the Mac version?",
+    "type": "faq",
+    "url": "/zh/faq/mac-support",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "mac-support",
+    "name": "Can I play NTE on Mac? How to download the Mac version?",
+    "nameEn": "Can I play NTE on Mac? How to download the Mac version?",
+    "type": "faq",
+    "url": "/en/faq/mac-support",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "gacha-currency-name",
+    "name": "异环抽卡用什么货币？方斯是什么？",
+    "nameEn": "What currency is used for gacha in NTE? What is Fons?",
+    "type": "faq",
+    "url": "/zh/faq/gacha-currency-name",
+    "tags": [
+      "gacha",
+      "currency"
+    ]
+  },
+  {
+    "id": "gacha-currency-name",
+    "name": "What currency is used for gacha in NTE? What is Fons?",
+    "nameEn": "What currency is used for gacha in NTE? What is Fons?",
+    "type": "faq",
+    "url": "/en/faq/gacha-currency-name",
+    "tags": [
+      "gacha",
+      "currency"
+    ]
+  },
+  {
+    "id": "collapse-mechanic",
+    "name": "异环倾陷值是什么？怎么触发破防？",
+    "nameEn": "What is Collapse (Qingxian) in NTE? How to trigger Break?",
+    "type": "faq",
+    "url": "/zh/faq/collapse-mechanic",
+    "tags": [
+      "combat",
+      "mechanics"
+    ]
+  },
+  {
+    "id": "collapse-mechanic",
+    "name": "What is Collapse (Qingxian) in NTE? How to trigger Break?",
+    "nameEn": "What is Collapse (Qingxian) in NTE? How to trigger Break?",
+    "type": "faq",
+    "url": "/en/faq/collapse-mechanic",
+    "tags": [
+      "combat",
+      "mechanics"
+    ]
+  },
+  {
+    "id": "ring-fusion-mechanic",
+    "name": "异环环合是什么？怎么触发环合爆发？",
+    "nameEn": "What is Ring Fusion (Huanhe) in NTE? How to trigger it?",
+    "type": "faq",
+    "url": "/zh/faq/ring-fusion-mechanic",
+    "tags": [
+      "combat",
+      "mechanics"
+    ]
+  },
+  {
+    "id": "ring-fusion-mechanic",
+    "name": "What is Ring Fusion (Huanhe) in NTE? How to trigger it?",
+    "nameEn": "What is Ring Fusion (Huanhe) in NTE? How to trigger it?",
+    "type": "faq",
+    "url": "/en/faq/ring-fusion-mechanic",
+    "tags": [
+      "combat",
+      "mechanics"
+    ]
+  },
+  {
+    "id": "six-attributes",
+    "name": "异环有几个属性？属性克制关系是什么？",
+    "nameEn": "How many elements does NTE have? What is the weakness chart?",
+    "type": "faq",
+    "url": "/zh/faq/six-attributes",
+    "tags": [
+      "combat",
+      "attributes"
+    ]
+  },
+  {
+    "id": "six-attributes",
+    "name": "How many elements does NTE have? What is the weakness chart?",
+    "nameEn": "How many elements does NTE have? What is the weakness chart?",
+    "type": "faq",
+    "url": "/en/faq/six-attributes",
+    "tags": [
+      "combat",
+      "attributes"
+    ]
+  },
+  {
+    "id": "a-rank-best",
+    "name": "异环A级角色哪个最强？值得培养的A级角色",
+    "nameEn": "Which A-rank characters are best in NTE? A-rank worth building",
+    "type": "faq",
+    "url": "/zh/faq/a-rank-best",
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "a-rank-best",
+    "name": "Which A-rank characters are best in NTE? A-rank worth building",
+    "nameEn": "Which A-rank characters are best in NTE? A-rank worth building",
+    "type": "faq",
+    "url": "/en/faq/a-rank-best",
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "mint-character",
+    "name": "异环薄荷怎么样？值得培养吗？",
+    "nameEn": "Is Mint (Bohuo) worth building in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/mint-character",
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "mint-character",
+    "name": "Is Mint (Bohuo) worth building in NTE?",
+    "nameEn": "Is Mint (Bohuo) worth building in NTE?",
+    "type": "faq",
+    "url": "/en/faq/mint-character",
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "housing-system",
+    "name": "异环有房屋系统吗？怎么买房装修？",
+    "nameEn": "Does NTE have a housing system? How to buy and decorate a home?",
+    "type": "faq",
+    "url": "/zh/faq/housing-system",
+    "tags": [
+      "system",
+      "exploration"
+    ]
+  },
+  {
+    "id": "housing-system",
+    "name": "Does NTE have a housing system? How to buy and decorate a home?",
+    "nameEn": "Does NTE have a housing system? How to buy and decorate a home?",
+    "type": "faq",
+    "url": "/en/faq/housing-system",
+    "tags": [
+      "system",
+      "exploration"
+    ]
+  },
+  {
+    "id": "shop-auto-farm",
+    "name": "异环店长特供是什么？怎么自动刷钱？",
+    "nameEn": "What is the Shop Manager system in NTE? How to auto-farm currency?",
+    "type": "faq",
+    "url": "/zh/faq/shop-auto-farm",
+    "tags": [
+      "system",
+      "currency"
+    ]
+  },
+  {
+    "id": "shop-auto-farm",
+    "name": "What is the Shop Manager system in NTE? How to auto-farm currency?",
+    "nameEn": "What is the Shop Manager system in NTE? How to auto-farm currency?",
+    "type": "faq",
+    "url": "/en/faq/shop-auto-farm",
+    "tags": [
+      "system",
+      "currency"
+    ]
+  },
+  {
+    "id": "city-tycoon",
+    "name": "异环都市大亨怎么玩？城市生活系统介绍",
+    "nameEn": "How does the City Tycoon mode work in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/city-tycoon",
+    "tags": [
+      "system",
+      "exploration"
+    ]
+  },
+  {
+    "id": "city-tycoon",
+    "name": "How does the City Tycoon mode work in NTE?",
+    "nameEn": "How does the City Tycoon mode work in NTE?",
+    "type": "faq",
+    "url": "/en/faq/city-tycoon",
+    "tags": [
+      "system",
+      "exploration"
+    ]
+  },
+  {
+    "id": "character-customization",
+    "name": "异环能捏脸吗？角色自定义程度高吗？",
+    "nameEn": "Does NTE have character customization? How detailed is it?",
+    "type": "faq",
+    "url": "/zh/faq/character-customization",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": "character-customization",
+    "name": "Does NTE have character customization? How detailed is it?",
+    "nameEn": "Does NTE have character customization? How detailed is it?",
+    "type": "faq",
+    "url": "/en/faq/character-customization",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": "auto-battle",
+    "name": "异环有自动战斗吗？能挂机刷材料吗？",
+    "nameEn": "Does NTE have auto-battle? Can I AFK farm materials?",
+    "type": "faq",
+    "url": "/zh/faq/auto-battle",
+    "tags": [
+      "system",
+      "beginner"
+    ]
+  },
+  {
+    "id": "auto-battle",
+    "name": "Does NTE have auto-battle? Can I AFK farm materials?",
+    "nameEn": "Does NTE have auto-battle? Can I AFK farm materials?",
+    "type": "faq",
+    "url": "/en/faq/auto-battle",
+    "tags": [
+      "system",
+      "beginner"
+    ]
+  },
+  {
+    "id": "vehicle-driving",
+    "name": "异环怎么开车？有哪些载具？",
+    "nameEn": "How to drive vehicles in NTE? What vehicles are available?",
+    "type": "faq",
+    "url": "/zh/faq/vehicle-driving",
+    "tags": [
+      "exploration",
+      "system"
+    ]
+  },
+  {
+    "id": "vehicle-driving",
+    "name": "How to drive vehicles in NTE? What vehicles are available?",
+    "nameEn": "How to drive vehicles in NTE? What vehicles are available?",
+    "type": "faq",
+    "url": "/en/faq/vehicle-driving",
+    "tags": [
+      "exploration",
+      "system"
+    ]
+  },
+  {
+    "id": "harmonyos-support",
+    "name": "异环支持鸿蒙系统吗？华为手机能玩吗？",
+    "nameEn": "Is NTE available on HarmonyOS? Can I play on Huawei phones?",
+    "type": "faq",
+    "url": "/zh/faq/harmonyos-support",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "harmonyos-support",
+    "name": "Is NTE available on HarmonyOS? Can I play on Huawei phones?",
+    "nameEn": "Is NTE available on HarmonyOS? Can I play on Huawei phones?",
+    "type": "faq",
+    "url": "/en/faq/harmonyos-support",
+    "tags": [
+      "system",
+      "platform"
+    ]
+  },
+  {
+    "id": "preregistration-rewards-how",
+    "name": "异环预抽卡活动怎么参加？有什么奖励？",
+    "nameEn": "How to participate in the NTE pre-gacha event? What are the rewards?",
+    "type": "faq",
+    "url": "/zh/faq/preregistration-rewards-how",
+    "tags": [
+      "release",
+      "gacha"
+    ]
+  },
+  {
+    "id": "preregistration-rewards-how",
+    "name": "How to participate in the NTE pre-gacha event? What are the rewards?",
+    "nameEn": "How to participate in the NTE pre-gacha event? What are the rewards?",
+    "type": "faq",
+    "url": "/en/faq/preregistration-rewards-how",
+    "tags": [
+      "release",
+      "gacha"
+    ]
+  },
+  {
     "id": "beginner-guide",
     "name": "新手入门完全指南",
     "nameEn": "Complete Beginner Guide",
@@ -3697,6 +4353,34 @@
       "评测",
       "review",
       "游戏评测"
+    ]
+  },
+  {
+    "id": "tier-list",
+    "name": "角色强度排行",
+    "nameEn": "Character Tier List",
+    "type": "guide",
+    "url": "/zh/guides/tier-list",
+    "tags": [
+      "排行",
+      "tier list",
+      "角色排行",
+      "强度榜",
+      "Rankings"
+    ]
+  },
+  {
+    "id": "tier-list",
+    "name": "Character Tier List",
+    "nameEn": "Character Tier List",
+    "type": "guide",
+    "url": "/en/guides/tier-list",
+    "tags": [
+      "排行",
+      "tier list",
+      "角色排行",
+      "强度榜",
+      "Rankings"
     ]
   },
   {
