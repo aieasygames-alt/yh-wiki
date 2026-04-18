@@ -912,6 +912,54 @@
     ]
   },
   {
+    "id": "aurelia",
+    "name": "奥蕾莉亚",
+    "nameEn": "Aurelia",
+    "type": "character",
+    "url": "/zh/characters/aurelia",
+    "tags": [
+      "psyche",
+      "a",
+      "support"
+    ]
+  },
+  {
+    "id": "aurelia",
+    "name": "Aurelia",
+    "nameEn": "Aurelia",
+    "type": "character",
+    "url": "/en/characters/aurelia",
+    "tags": [
+      "psyche",
+      "a",
+      "support"
+    ]
+  },
+  {
+    "id": "xiaozhi",
+    "name": "小智",
+    "nameEn": "Xiaozhi",
+    "type": "character",
+    "url": "/zh/characters/xiaozhi",
+    "tags": [
+      "anima",
+      "s",
+      "attack"
+    ]
+  },
+  {
+    "id": "xiaozhi",
+    "name": "Xiaozhi",
+    "nameEn": "Xiaozhi",
+    "type": "character",
+    "url": "/en/characters/xiaozhi",
+    "tags": [
+      "anima",
+      "s",
+      "attack"
+    ]
+  },
+  {
     "id": "fangs-and-claws",
     "name": "格斗",
     "nameEn": "Fangs and Claws",

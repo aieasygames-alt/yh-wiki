@@ -743,8 +743,8 @@
     "id": "global-server-launch",
     "question": "异环国际服什么时候上线？和国服有什么不同？",
     "questionEn": "When does NTE global server launch? How is it different from CN?",
-    "answer": "异环国际服将于2026年4月29日正式上线，比国服晚6天。国际服将开设亚洲服、美洲服和欧洲服三个区域，数据与国服不互通。国际服内容与国服1.0版本基本一致，支持英语、日语、韩语等多种语言，中文配音完整保留。国际服上线时已包含国服首日的修复和优化，体验更稳定。活动节奏会比国服滞后约1-2个版本，这意味着国际服玩家可以参考国服攻略提前规划资源。付费定价按当地货币换算。",
-    "answerEn": "NTE global server launches on April 29, 2026, six days after the CN server. Three regional servers will be available: Asia, Americas, and Europe. Data does not transfer between CN and global servers. Global 1.0 content matches CN 1.0 with English, Japanese, Korean, and other language support. Chinese voice acting is fully preserved. The global launch includes bug fixes and optimizations from CN's first days, providing a smoother experience. Event cadence trails CN by about 1-2 versions, so global players can reference CN guides for planning. Pricing is converted to local currencies.",
+    "answer": "异环国际服确认于4月29日上线，国服4月23日上线。两个版本的主要区别：1) 进度：国服比国际服早6天开服；2) 兑换码不同：国服使用YH开头码，国际服使用NTE开头码；3) 语言：国服简体中文，国际服英文/日文等多语言；4) 定价可能因地区而异。游戏内容和角色数据在两个服务器之间是一致的。",
+    "answerEn": "NTE Global server launches April 29, while CN server launches April 23. Key differences: 1) Schedule: CN server is 6 days ahead; 2) Different redeem codes: CN uses YH-prefix codes, Global uses NTE-prefix codes; 3) Languages: CN is Simplified Chinese, Global supports English, Japanese, and more; 4) Pricing may vary by region. Game content and character data are identical across servers.",
     "tags": [
       "release",
       "global"
@@ -775,8 +775,8 @@
     "id": "launch-rewards-total",
     "question": "异环公测总共能白嫖多少抽？免费资源有多少？",
     "questionEn": "How many free pulls can I get at NTE launch? Total free resources?",
-    "answer": "异环公测1.0版本零氪玩家预计可免费获得约418抽，足以保证获得2名限定S级角色及其专属武器。具体来源：1) 预注册奖励 — 20连抽券（需在开服7天内登录领取）；2) 连续7天登录奖励 — 约30连抽；3) 主线剧情奖励 — 约20连抽等价资源；4) 1.0版本庆典活动 — 约15连抽；5) 每日/周常任务持续积累；6) 成就系统奖励；7) 探索进度奖励。此外，3000万预约里程碑还赠送免费A级角色哈尼尔。建议合理规划这些资源，优先保证获取核心角色。",
-    "answerEn": "F2P players can earn approximately 418 free pulls during NTE Version 1.0 — enough to guarantee 2 limited S-rank characters and their signature weapons. Breakdown: 1) Pre-registration rewards — 20 multi-pulls (claim within 7 days of launch); 2) 7-day login bonus — approximately 30 pulls; 3) Story completion — approximately 20 pulls equivalent; 4) 1.0 celebration events — approximately 15 pulls; 5) Daily/weekly task accumulation; 6) Achievement rewards; 7) Exploration milestones. The 30M pre-registration milestone also grants a free A-rank character Haniel. Plan these resources carefully to secure core characters first.",
+    "answer": "根据4月18日前瞻直播确认，异环公测总共提供约418次免费祈愿机会，这些资源来源包括：前瞻直播兑换码（3个国服码+3个国际服码）、预注册阶段性奖励、新手池20抽（含S级自选）、常驻池50抽S级自选券、公测限时活动奖励、主线/支线任务奖励、开放世界探索奖励（宝箱/成就）、以及每日每周任务积累。这个数量远超同类游戏开服福利水平。",
+    "answerEn": "According to the April 18 livestream, NTE launch provides approximately 418 free pulls total. Sources include: livestream redeem codes (3 CN + 3 Global), pre-registration milestone rewards, beginner banner 20 free pulls (with S-rank selector), standard banner 50-pull S-rank selector ticket, launch event rewards, main/side quest rewards, open world exploration rewards (chests/achievements), and daily/weekly task accumulation. This far exceeds typical gacha game launch rewards.",
     "tags": [
       "gacha",
       "beginner",
@@ -810,8 +810,8 @@
     "id": "download-size",
     "question": "异环下载多大？需要多少存储空间？",
     "questionEn": "How large is the NTE download? How much storage space is needed?",
-    "answer": "异环的下载大小因平台而异：PC端安装包约25GB，完整安装后可能需要30-40GB存储空间；移动端（Android/iOS）安装包约8GB，完整安装后约10-12GB。建议预留额外空间用于后续版本更新缓存。由于异环使用虚幻引擎5开发，画面表现优秀但对存储空间要求较高。建议使用SSD硬盘安装PC版以获得更快的加载速度。移动端如果空间不足，可以在设置中选择降低画质以减少资源占用。",
-    "answerEn": "NTE download size varies by platform: PC requires approximately 25GB download, 30-40GB after full installation. Mobile (Android/iOS) requires about 8GB download, 10-12GB after installation. Reserve extra space for future version updates. Since NTE uses Unreal Engine 5, it delivers excellent visuals but requires significant storage. SSD is recommended for PC for faster loading. If mobile storage is tight, you can reduce graphics settings to minimize resource usage.",
+    "answer": "根据目前信息，异环预下载将于4月21日开放。预计PC版下载大小约30-40GB（含高清资源包），手机版（Android/iOS）约15-20GB。建议PC玩家预留至少60GB存储空间（含后续更新），手机玩家预留30GB以上。预下载完成后，4月23日开服时只需下载小量更新包即可进入游戏。",
+    "answerEn": "NTE pre-download starts April 21. Expected download size is approximately 30-40GB for PC (including HD assets) and 15-20GB for mobile (Android/iOS). We recommend reserving at least 60GB for PC (including future updates) and 30GB+ for mobile. After pre-downloading, you will only need a small update patch on launch day (April 23 for CN).",
     "tags": [
       "system",
       "download"
@@ -842,8 +842,8 @@
     "id": "no-50-50-system",
     "question": "异环抽卡有50/50吗？保底会歪吗？",
     "questionEn": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
-    "answer": "异环的抽卡保底机制相比同类游戏更加友好。角色池方面，90抽必定获得S级角色（小保底）。如果小保底出的不是当期UP角色，下一个保底必定获得当期UP角色（大保底，最坏情况180抽）。武器池80抽保底，大保底只需120抽。与原神等游戏的50/50机制相比，异环的武器池设计更加友好，不会出现早期原神武器池「定轨」那样的高成本问题。保底次数在同类型卡池之间会继承，不会因为卡池更换而重置。",
-    "answerEn": "NTE's gacha pity system is more player-friendly than similar games. For character banners: 90 pulls guarantee an S-rank (soft pity). If the S-rank isn't the featured character, the next pity guarantees the featured character (hard pity, worst case 180 pulls). Weapon banners: 80-pull soft pity, 120-pull hard pity. Compared to Genshin Impact's 50/50 system, NTE's weapon banner is notably more generous — no expensive epitomized path mechanic. Pity counts carry over between banners of the same type and don't reset when banners change.",
+    "answer": "好消息！异环公测确认没有50/50机制。这是4月18日前瞻直播中官方正式宣布的重磅消息。在限定祈愿池中，抽到S级角色时100%是当期UP角色，不会出现\"歪\"到常驻角色的情况。保底为90抽硬保底，74抽开始进入软保底区间，平均约53.5抽出一个S级。这一机制使异环成为目前最友好的抽卡游戏之一。",
+    "answerEn": "Great news! NTE has officially confirmed there is NO 50/50 system. This was announced during the April 18 livestream. In the limited banner, every S-rank pull is guaranteed to be the featured character — you will never lose to standard pool characters. The hard pity is 90 pulls, soft pity starts at 74, and the average cost is about 53.5 pulls per S-rank. This makes NTE one of the most generous gacha systems available.",
     "tags": [
       "gacha",
       "pity"
@@ -858,8 +858,8 @@
     "id": "reroll-guide",
     "question": "异环怎么刷初始？刷初始值得吗？",
     "questionEn": "How to reroll in NTE? Is rerolling worth it?",
-    "answer": "异环刷初始的方法：1) 完成新手教程和前期主线任务，获取初始抽卡资源；2) 使用新手池折扣抽卡获取第一个S级角色；3) 如果对结果不满意，切换新账号重新开始。刷初始热门目标包括娜娜莉（强力主C）、咲里（核心支援）和达芙迪尔（护盾防护）。不过需要考虑的是，异环公测1.0版本赠送约418次免费抽卡，资源非常充足，即使不刷初始也能轻松获得多个S级角色。此外，游戏还提供免费A级角色哈尼尔和开服6选1自选S级机会。总体来说，除非你追求特定的初始组合，否则刷初始的性价比不高。",
-    "answerEn": "How to reroll in NTE: 1) Complete the tutorial and early story quests to earn initial gacha resources; 2) Use the discounted beginner banner for your first S-rank; 3) If unsatisfied, switch to a new account. Popular reroll targets include Nanally (top DPS), Sakiri (core support), and Daffodil (shield defense). However, Version 1.0 gives approximately 418 free pulls, making rerolling less necessary. You'll also receive a free A-rank Haniel and a 6-choose-1 S-rank selector. Unless you want a specific starting combination, rerolling has low cost-effectiveness given the generous launch rewards.",
+    "answer": "异环可以通过以下步骤刷初始：1) 完成新手教程；2) 使用新手池20抽获取S级角色（可自选薄荷或早雾之一）；3) 使用常驻池抽取；4) 领取预注册和兑换码奖励继续抽卡。不过考虑到异环没有50/50机制，且约418免费抽的资源量非常充足，刷初始的必要性大大降低。建议正常游玩，利用丰富的免费资源获取想要的角色。",
+    "answerEn": "You can reroll in NTE by: 1) Completing the tutorial; 2) Using the 20 beginner banner pulls (with S-rank selector for Mint or Hayate); 3) Pulling on standard banner; 4) Claiming pre-registration and redeem code rewards for more pulls. However, since NTE has no 50/50 system and provides ~418 free pulls at launch, rerolling is much less necessary. We recommend playing normally and using the generous free resources to get your desired characters.",
     "tags": [
       "beginner",
       "gacha"
@@ -879,8 +879,8 @@
     "id": "6-choose-1-guide",
     "question": "异环开服6选1选谁？免费S级角色推荐",
     "questionEn": "NTE launch 6-choose-1: Which free S-rank character should I pick?",
-    "answer": "异环公测开服会赠送一个6选1的S级自选角色券，选择建议根据你的队伍定位来决定：1) 如果你缺少主C，推荐娜娜莉 — 当前版本公认的顶级输出，Anima属性近战角色，伤害稳定且操作简单；2) 如果你已有主C但缺少支援，推荐咲里 — 通用性极强的支援角色，几乎所有队伍都能用；3) 如果你需要生存保障，推荐达芙迪尔 — 护盾防护角色，高难内容中非常实用；4) 如果你想要灵活的输出，拉克莉莫萨和零也是很好的选择。新手最推荐娜娜莉，因为一个强力的主C是前期开荒的基础。",
-    "answerEn": "NTE's launch 6-choose-1 S-rank selector recommendation depends on your team needs: 1) If you need a main DPS, choose Nanally — the公认的 top DPS with stable damage and simple mechanics; 2) If you have a DPS but need support, choose Sakiri — a universal support that fits almost any team; 3) For survivability, choose Daffodil — a shield defender excellent in challenging content; 4) For flexible damage, Lacrimosa and Zero are strong alternatives. Nanally is the top recommendation for beginners since a strong main DPS is the foundation for early game progression.",
+    "answer": "异环公测提供多个S级角色获取途径：1) 新手池20抽后可自选S级角色（薄荷或早雾）；2) 常驻池50抽获得S级自选券；3) 都市大亨模式免费获取S级小智。推荐优先级：如果你需要一个强力的通用进攻角色，选择早雾（Sakiri）；如果你需要一个可靠的近战角色，选择薄荷（Mint）。最终选择取决于你的队伍构建方向，但两个角色都值得培养。",
+    "answerEn": "NTE launch offers multiple S-rank acquisition paths: 1) Beginner banner selector (Mint or Hayate/Sakiri after 20 pulls); 2) Standard banner S-rank selector ticket at 50 pulls; 3) Free S-rank Xiaozhi via City Tycoon mode. Priority recommendation: Choose Sakiri for a strong versatile attacker, or Mint for a reliable melee character. The final choice depends on your team composition, but both characters are worth building.",
     "tags": [
       "beginner",
       "characters"
