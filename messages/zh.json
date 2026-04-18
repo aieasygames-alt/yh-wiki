@@ -229,6 +229,10 @@
     "title": "博客",
     "description": "异环最新资讯、深度攻略和游戏评测"
   },
+  "changelog": {
+    "title": "版本日志",
+    "description": "异环版本更新日志，包含新角色、新功能、系统优化等完整更新内容"
+  },
   "compare": {
     "title": "游戏对比",
     "description": "异环与原神、鸣潮等热门游戏对比评测",

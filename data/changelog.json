@@ -1,0 +1,426 @@
+[
+  {
+    "id": "version-1-0",
+    "version": "1.0",
+    "versionName": "公测定档",
+    "versionNameEn": "Official Launch",
+    "date": "2026-04-23",
+    "dateGlobal": "2026-04-29",
+    "type": "major",
+    "highlights": [
+      "异环正式公测上线",
+      "16位首发S级角色",
+      "无50/50抽卡系统",
+      "约418抽免费福利",
+      "全新城市经营与房屋系统"
+    ],
+    "highlightsEn": [
+      "Neverness to Everness officially launches",
+      "16 S-rank characters available at launch",
+      "No 50/50 gacha system — guaranteed featured character",
+      "Approximately 418 free pulls available",
+      "New City Tycoon and Housing systems"
+    ],
+    "sections": [
+      {
+        "title": "新角色",
+        "titleEn": "New Characters",
+        "items": [
+          {
+            "name": "娜娜莉",
+            "nameEn": "Nanally",
+            "description": "S级角色，1.0版本限定卡池 featured 角色。Eibon古董店招牌异能者，猫族格斗家。",
+            "descriptionEn": "S-rank character, featured banner character for version 1.0. The star Anomaly of Eibon Antique Shop, a cat-tribe close-combat fighter.",
+            "type": "character",
+            "ref": "nanally",
+            "tags": ["S级", "限定", "Featured"]
+          },
+          {
+            "name": "萨绮丽",
+            "nameEn": "Sakiri",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "sakiri",
+            "tags": ["S级"]
+          },
+          {
+            "name": "法迪娅",
+            "nameEn": "Fadia",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "fadia",
+            "tags": ["S级"]
+          },
+          {
+            "name": "拉克丽摩萨",
+            "nameEn": "Lacrimosa",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "lacrimosa",
+            "tags": ["S级"]
+          },
+          {
+            "name": "柏苍",
+            "nameEn": "Baicang",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "baicang",
+            "tags": ["S级"]
+          },
+          {
+            "name": "零",
+            "nameEn": "Zero",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "zero",
+            "tags": ["S级"]
+          },
+          {
+            "name": "星穗",
+            "nameEn": "Hotori",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "hotori",
+            "tags": ["S级"]
+          },
+          {
+            "name": "达芙黛",
+            "nameEn": "Daffodil",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "daffodil",
+            "tags": ["S级"]
+          },
+          {
+            "name": "九渊",
+            "nameEn": "Jiuyuan",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "jiuyuan",
+            "tags": ["S级"]
+          },
+          {
+            "name": "哈尼尔",
+            "nameEn": "Haniel",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "haniel",
+            "tags": ["S级"]
+          },
+          {
+            "name": "哈索尔",
+            "nameEn": "Hathor",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "hathor",
+            "tags": ["S级"]
+          },
+          {
+            "name": "奇兹",
+            "nameEn": "Chiz",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "chiz",
+            "tags": ["S级"]
+          },
+          {
+            "name": "莉莉娜",
+            "nameEn": "Lilina",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "lilina",
+            "tags": ["S级"]
+          },
+          {
+            "name": "鉴定师",
+            "nameEn": "The Appraiser",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "the-appraiser",
+            "tags": ["S级"]
+          },
+          {
+            "name": "小真",
+            "nameEn": "Xiaozhen",
+            "description": "S级角色，公测首发角色。",
+            "descriptionEn": "S-rank character available at launch.",
+            "type": "character",
+            "ref": "xiaozhen",
+            "tags": ["S级"]
+          },
+          {
+            "name": "小芷",
+            "nameEn": "Xiaozhi",
+            "description": "S级角色，可通过城市经营模式免费获取。",
+            "descriptionEn": "S-rank character, obtainable for free via the City Tycoon mode.",
+            "type": "character",
+            "ref": "xiaozhi",
+            "tags": ["S级", "免费获取"]
+          },
+          {
+            "name": "阿德勒",
+            "nameEn": "Adler",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "adler",
+            "tags": ["A级"]
+          },
+          {
+            "name": "薄荷",
+            "nameEn": "Mint",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "mint",
+            "tags": ["A级"]
+          },
+          {
+            "name": "斯基亚",
+            "nameEn": "Skia",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "skia",
+            "tags": ["A级"]
+          },
+          {
+            "name": "埃德加",
+            "nameEn": "Edgar",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "edgar",
+            "tags": ["A级"]
+          },
+          {
+            "name": "塔杰多",
+            "nameEn": "Taygedo",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "taygedo",
+            "tags": ["A级"]
+          },
+          {
+            "name": "奈莉",
+            "nameEn": "Nelly",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "nelly",
+            "tags": ["A级"]
+          },
+          {
+            "name": "梅露拉",
+            "nameEn": "Merula",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "merula",
+            "tags": ["A级"]
+          },
+          {
+            "name": "阿尔法德",
+            "nameEn": "Alphard",
+            "description": "A级角色，公测首发角色。",
+            "descriptionEn": "A-rank character available at launch.",
+            "type": "character",
+            "ref": "alphard",
+            "tags": ["A级"]
+          },
+          {
+            "name": "奥蕾莉亚",
+            "nameEn": "Aurelia",
+            "description": "A级角色，公测新加入角色。",
+            "descriptionEn": "A-rank character, newly confirmed for launch.",
+            "type": "character",
+            "ref": "aurelia",
+            "tags": ["A级", "新增"]
+          }
+        ]
+      },
+      {
+        "title": "新功能",
+        "titleEn": "New Features",
+        "items": [
+          {
+            "name": "城市经营",
+            "nameEn": "City Tycoon",
+            "description": "全新的城市经营模拟玩法，玩家可以经营自己的城市，获取丰厚奖励。通过城市经营可获得S级角色小芷。",
+            "descriptionEn": "A brand-new city management simulation mode. Players can manage their own city and earn generous rewards. S-rank character Xiaozhi can be obtained through this mode.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["玩法"]
+          },
+          {
+            "name": "房屋系统",
+            "nameEn": "Housing System",
+            "description": "全新的房屋装饰与建造系统，玩家可以自定义和装饰自己的居所。",
+            "descriptionEn": "A new housing decoration and building system. Players can customize and decorate their own residence.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["玩法"]
+          },
+          {
+            "name": "载具驾驶",
+            "nameEn": "Vehicle Driving",
+            "description": "开放世界中可驾驶各种载具自由探索，体验沉浸式城市穿梭。",
+            "descriptionEn": "Drive various vehicles to freely explore the open world and experience immersive city traversal.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["玩法"]
+          },
+          {
+            "name": "粉色爪爪合作模式",
+            "nameEn": "Pink Paws Co-op Mode",
+            "description": "全新的多人合作玩法，与好友一起组队挑战。",
+            "descriptionEn": "A new multiplayer co-op mode. Team up with friends for cooperative challenges.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["玩法"]
+          },
+          {
+            "name": "监狱系统",
+            "nameEn": "Prison System",
+            "description": "全新的游戏机制，与游戏剧情和玩法深度结合。",
+            "descriptionEn": "A new game mechanic deeply integrated with the story and gameplay.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["玩法"]
+          }
+        ]
+      },
+      {
+        "title": "抽卡系统",
+        "titleEn": "Gacha System",
+        "items": [
+          {
+            "name": "无50/50机制",
+            "nameEn": "No 50/50 System",
+            "description": "异环抽卡不设50/50机制，抽取限定角色时必定获得当期 featured 角色，无需担心歪角色。",
+            "descriptionEn": "Neverness to Everness has no 50/50 system. When pulling for a limited character, you are guaranteed to get the featured character — no risk of losing to off-banner characters.",
+            "type": "system",
+            "ref": null,
+            "tags": ["保底"]
+          },
+          {
+            "name": "新手卡池",
+            "nameEn": "Beginner Banner",
+            "description": "新手专属卡池，共20抽，可自选获得一位S级角色。",
+            "descriptionEn": "Exclusive beginner banner with 20 pulls total. Players can select and obtain one S-rank character of their choice.",
+            "type": "system",
+            "ref": null,
+            "tags": ["新手"]
+          },
+          {
+            "name": "常驻卡池自选",
+            "nameEn": "Standard Banner Selector",
+            "description": "常驻卡池累计抽取50次后，可自选获得一位S级角色。",
+            "descriptionEn": "After accumulating 50 pulls on the standard banner, players can select and obtain one S-rank character of their choice.",
+            "type": "system",
+            "ref": null,
+            "tags": ["常驻"]
+          }
+        ]
+      },
+      {
+        "title": "开服福利",
+        "titleEn": "Launch Rewards",
+        "items": [
+          {
+            "name": "约418抽免费福利",
+            "nameEn": "Approximately 418 Free Pulls",
+            "description": "公测上线后玩家可通过各种活动、任务和邮件获取约418次免费抽卡机会。",
+            "descriptionEn": "At launch, players can obtain approximately 418 free pulls through various events, missions, and mail rewards.",
+            "type": "reward",
+            "ref": null,
+            "tags": ["免费抽"]
+          },
+          {
+            "name": "预注册奖励",
+            "nameEn": "Pre-registration Rewards",
+            "description": "达成预注册里程碑后，所有玩家可获得丰厚预注册奖励。",
+            "descriptionEn": "All players will receive generous pre-registration milestone rewards.",
+            "type": "reward",
+            "ref": null,
+            "tags": ["预约"]
+          },
+          {
+            "name": "直播兑换码",
+            "nameEn": "Livestream Redeem Codes",
+            "description": "公测前瞻直播中公布的兑换码，可在游戏内兑换奖励。",
+            "descriptionEn": "Redeem codes revealed during the pre-launch livestream. Can be redeemed in-game for rewards.",
+            "type": "reward",
+            "ref": null,
+            "tags": ["兑换码"]
+          },
+          {
+            "name": "预下载",
+            "nameEn": "Pre-download",
+            "description": "预下载将于4月21日开放，玩家可提前下载游戏客户端。",
+            "descriptionEn": "Pre-download begins April 21. Players can download the game client in advance.",
+            "type": "info",
+            "ref": null,
+            "tags": ["下载"]
+          }
+        ]
+      },
+      {
+        "title": "平台支持",
+        "titleEn": "Platform Support",
+        "items": [
+          {
+            "name": "PC 客户端",
+            "nameEn": "PC Client",
+            "description": "支持 Windows PC 平台，公测同步上线。",
+            "descriptionEn": "Available on Windows PC at launch.",
+            "type": "platform",
+            "ref": null,
+            "tags": ["PC"]
+          },
+          {
+            "name": "移动端",
+            "nameEn": "Mobile (iOS / Android)",
+            "description": "支持 iOS 和 Android 平台，公测同步上线。",
+            "descriptionEn": "Available on iOS and Android at launch.",
+            "type": "platform",
+            "ref": null,
+            "tags": ["移动端"]
+          },
+          {
+            "name": "PlayStation 5",
+            "nameEn": "PlayStation 5",
+            "description": "PS5 版本将在后续更新中上线，敬请期待。",
+            "descriptionEn": "The PS5 version will be available at a later date. Stay tuned.",
+            "type": "platform",
+            "ref": null,
+            "tags": ["主机"]
+          }
+        ]
+      }
+    ],
+    "compensation": null,
+    "internalLinks": [
+      "/characters",
+      "/tier-list",
+      "/gacha",
+      "/guides",
+      "/redeem-codes",
+      "/vehicles"
+    ]
+  }
+]

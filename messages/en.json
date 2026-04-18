@@ -229,6 +229,10 @@
     "title": "Blog",
     "description": "Latest news, in-depth guides, and game reviews for Neverness to Everness"
   },
+  "changelog": {
+    "title": "Changelog",
+    "description": "NTE version update history with new characters, features, and system changes"
+  },
   "compare": {
     "title": "Compare",
     "description": "NTE vs Genshin Impact, Wuthering Waves and other game comparisons",

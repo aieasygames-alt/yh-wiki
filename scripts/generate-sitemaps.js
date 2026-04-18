@@ -8,6 +8,7 @@
  *   public/sitemap-pages.xml    — homepage, category list pages, tool pages
  *   public/sitemap-characters.xml — character detail pages
  *   public/sitemap-weapons.xml  — weapon detail pages
+ *   public/sitemap-vehicles.xml — vehicle detail pages
  *   public/sitemap-guides.xml   — guide detail pages
  *   public/sitemap-other.xml    — materials, faq, lore, locations, blog, compares, tags
  */
@@ -25,12 +26,14 @@ const langs = ["zh", "en"];
 const characters = JSON.parse(fs.readFileSync(path.join(DATA, "characters.json"), "utf-8"));
 const materials = JSON.parse(fs.readFileSync(path.join(DATA, "materials.json"), "utf-8"));
 const weapons = JSON.parse(fs.readFileSync(path.join(DATA, "weapons.json"), "utf-8"));
+const vehicles = JSON.parse(fs.readFileSync(path.join(DATA, "vehicles.json"), "utf-8"));
 const faqs = JSON.parse(fs.readFileSync(path.join(DATA, "faqs.json"), "utf-8"));
 const guides = JSON.parse(fs.readFileSync(path.join(DATA, "guides.json"), "utf-8"));
 const loreItems = JSON.parse(fs.readFileSync(path.join(DATA, "lore.json"), "utf-8"));
 const locations = JSON.parse(fs.readFileSync(path.join(DATA, "locations.json"), "utf-8"));
 const blogPosts = JSON.parse(fs.readFileSync(path.join(DATA, "blog.json"), "utf-8"));
 const compares = JSON.parse(fs.readFileSync(path.join(DATA, "compares.json"), "utf-8"));
+const changelogs = JSON.parse(fs.readFileSync(path.join(DATA, "changelog.json"), "utf-8"));
 
 const commonTags = [
   "s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana",
@@ -38,7 +41,7 @@ const commonTags = [
 ];
 
 const toolPages = ["calculator/leveling", "calculator/build", "gacha", "redeem-codes", "map"];
-const categoryPages = ["characters", "weapons", "materials", "guides", "faq", "lore", "locations", "blog"];
+const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog"];
 
 function escapeXml(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -105,7 +108,15 @@ weapons.forEach((w) => {
   });
 });
 
-// 4. Guides
+// 4. Vehicles
+const vehicleUrls = [];
+vehicles.forEach((v) => {
+  langs.forEach((lang) => {
+    vehicleUrls.push({ url: `${BASE_URL}/${lang}/vehicles/${v.id}/`, priority: 0.7, changeFreq: "weekly" });
+  });
+});
+
+// 5. Guides
 const guideUrls = [];
 guides.forEach((g) => {
   langs.forEach((lang) => {
@@ -113,7 +124,7 @@ guides.forEach((g) => {
   });
 });
 
-// 5. Other: materials, faq, lore, locations, blog, compares, tags
+// 6. Other: materials, faq, lore, locations, blog, compares, tags
 const otherUrls = [];
 materials.forEach((m) => {
   langs.forEach((lang) => {
@@ -150,6 +161,15 @@ commonTags.forEach((tag) => {
     otherUrls.push({ url: `${BASE_URL}/${lang}/tags/${tag}/`, priority: 0.5, changeFreq: "weekly" });
   });
 });
+// Changelog list + detail pages
+langs.forEach((lang) => {
+  otherUrls.push({ url: `${BASE_URL}/${lang}/changelog/`, priority: 0.7, changeFreq: "weekly" });
+});
+changelogs.forEach((cl) => {
+  langs.forEach((lang) => {
+    otherUrls.push({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly" });
+  });
+});
 
 // --- Write sitemaps ---
 console.log("Generating split sitemaps...");
@@ -157,6 +177,7 @@ console.log("Generating split sitemaps...");
 writeSitemap("sitemap-pages.xml", pageUrls);
 writeSitemap("sitemap-characters.xml", characterUrls);
 writeSitemap("sitemap-weapons.xml", weaponUrls);
+writeSitemap("sitemap-vehicles.xml", vehicleUrls);
 writeSitemap("sitemap-guides.xml", guideUrls);
 writeSitemap("sitemap-other.xml", otherUrls);
 
@@ -165,6 +186,7 @@ const subSitemaps = [
   "sitemap-pages.xml",
   "sitemap-characters.xml",
   "sitemap-weapons.xml",
+  "sitemap-vehicles.xml",
   "sitemap-guides.xml",
   "sitemap-other.xml",
 ];
@@ -187,5 +209,5 @@ const sitemapIndex = [
 
 fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), sitemapIndex, "utf-8");
 console.log(`  sitemap.xml: sitemap index (${subSitemaps.length} sub-sitemaps)`);
-console.log(`  Total URLs: ${pageUrls.length + characterUrls.length + weaponUrls.length + guideUrls.length + otherUrls.length}`);
+console.log(`  Total URLs: ${pageUrls.length + characterUrls.length + weaponUrls.length + vehicleUrls.length + guideUrls.length + otherUrls.length}`);
 console.log("Done.");

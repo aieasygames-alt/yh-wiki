@@ -8,6 +8,8 @@ import loreData from "../data/lore.json";
 import locationsData from "../data/locations.json";
 import blogData from "../data/blog.json";
 import comparesData from "../data/compares.json";
+import changelogsData from "../data/changelog.json";
+import vehiclesData from "../data/vehicles.json";
 
 export interface FaqItem {
   question: string;
@@ -386,4 +388,79 @@ export function getAllCompares(): CompareArticle[] {
 
 export function getCompare(slug: string): CompareArticle | undefined {
   return getAllCompares().find((c) => c.id === slug);
+}
+
+// Vehicle types and queries
+
+export interface Vehicle {
+  id: string;
+  name: string;
+  nameEn: string;
+  type: string;
+  typeEn: string;
+  rarity: number;
+  description: string;
+  descriptionEn: string;
+  speed: string;
+  acceleration: string;
+  handling: string;
+  source: string;
+  sourceEn: string;
+  price: string;
+  faq?: {
+    question: string;
+    questionZh: string;
+    answer: string;
+    answerZh: string;
+  }[];
+  image?: string;
+}
+
+export function getAllVehicles(): Vehicle[] {
+  return vehiclesData as Vehicle[];
+}
+
+export function getVehicle(slug: string): Vehicle | undefined {
+  return getAllVehicles().find((v) => v.id === slug);
+}
+
+// Changelog
+interface ChangelogItem {
+  name: string;
+  nameEn: string;
+  description: string;
+  descriptionEn: string;
+  type?: string;
+  ref?: string;
+  tags?: string[];
+}
+
+interface ChangelogSection {
+  title: string;
+  titleEn: string;
+  items?: ChangelogItem[];
+}
+
+interface Changelog {
+  id: string;
+  version: string;
+  versionName: string;
+  versionNameEn: string;
+  date: string;
+  dateGlobal?: string;
+  type: "major" | "minor" | "fix";
+  highlights?: string[];
+  highlightsEn?: string[];
+  sections?: ChangelogSection[];
+  compensation?: string;
+  compensationEn?: string;
+  internalLinks?: string[];
+}
+
+export function getAllChangelogs(): Changelog[] {
+  return changelogsData;
+}
+
+export function getChangelogByVersion(version: string): Changelog | undefined {
+  return changelogsData.find((cl) => cl.version === version);
 }

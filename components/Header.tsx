@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, type Locale } from "../lib/i18n";
 import { SearchDialog } from "./SearchDialog";
+import Logo from "./Logo";
 
 interface DropdownItem {
   href: string;
@@ -39,6 +40,7 @@ export function Header() {
     ]},
     { type: "dropdown", key: "database", label: t(lang, "site.nav.database"), items: [
       { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
+      { href: `/${lang}/vehicles`, label: t(lang, "site.nav.vehicles") },
       { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
       { href: `/${lang}/compare/nte-vs-genshin`, label: t(lang, "compare.nteVsGenshin") },
       { href: `/${lang}/compare/nte-vs-wuthering-waves`, label: t(lang, "compare.nteVsWuwa") },
@@ -50,6 +52,7 @@ export function Header() {
       { href: `/${lang}/locations`, label: t(lang, "site.nav.locations") },
       { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
       { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
+      { href: `/${lang}/changelog`, label: t(lang, "changelog.title") },
     ]},
   ];
 
@@ -62,7 +65,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-800 bg-[var(--background)]/80 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link href={`/${lang}`} className="font-bold text-lg text-primary-400">
+        <Link href={`/${lang}`} className="flex items-center gap-2 font-bold text-lg text-primary-400">
+          <Logo size={28} />
           {t(lang, "site.title")}
         </Link>
 
