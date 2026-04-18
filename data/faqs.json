@@ -5,12 +5,19 @@
     "questionEn": "How to level up characters fast in NTE?",
     "answer": "异环角色升级主要通过消耗猎手指南和信用点来完成。快速升级建议：1) 每天刷满体力对应的材料副本；2) 优先使用基础猎手指南，进阶和精英指南留给高等级阶段；3) 完成每日任务和活动获取额外经验；4) 合理规划体力，优先刷当前等级阶段需要的材料。",
     "answerEn": "To level up characters quickly in NTE: 1) Use all daily stamina on material domains; 2) Save Advanced and Elite Hunter Guides for higher levels; 3) Complete daily quests and events for bonus EXP; 4) Plan your stamina usage to farm materials for your current level range.",
-    "tags": ["beginner", "leveling"],
+    "tags": [
+      "beginner",
+      "leveling"
+    ],
     "category": "leveling",
     "categoryZh": "角色升级",
     "categoryEn": "Leveling",
     "relatedCharacters": [],
-    "relatedMaterials": ["basic-hunter-guide", "advanced-hunter-guide", "elite-hunter-guide"]
+    "relatedMaterials": [
+      "basic-hunter-guide",
+      "advanced-hunter-guide",
+      "elite-hunter-guide"
+    ]
   },
   {
     "id": "material-domains-location",
@@ -18,12 +25,19 @@
     "questionEn": "Where are material domains in NTE?",
     "answer": "异环的材料副本（领域）可以通过主界面右上角的「领域」入口进入。不同属性的领域掉落不同类型的升级材料。建议每天刷满体力对应的副本，尤其是高级副本掉落的精英猎手指南和许可证明较为稀缺。",
     "answerEn": "Material domains in NTE can be accessed through the \"Domain\" entry on the top-right of the main screen. Different attribute domains drop different types of leveling materials. It's recommended to use all daily stamina on domains, especially higher-level ones that drop rare Elite Hunter Guides and Permits.",
-    "tags": ["beginner", "materials"],
+    "tags": [
+      "beginner",
+      "materials"
+    ],
     "category": "materials",
     "categoryZh": "材料获取",
     "categoryEn": "Materials",
     "relatedCharacters": [],
-    "relatedMaterials": ["pioneer-permit", "expert-permit", "master-permit"]
+    "relatedMaterials": [
+      "pioneer-permit",
+      "expert-permit",
+      "master-permit"
+    ]
   },
   {
     "id": "how-to-get-credits",
@@ -31,12 +45,17 @@
     "questionEn": "How to get Credits in NTE?",
     "answer": "信用点是异环中的基础货币，获取途径包括：1) 完成主线任务和支线任务；2) 每日委托任务奖励；3) 探索开放世界中的宝箱；4) 完成成就；5) 参与限时活动。信用点主要用于角色升级、技能升级和购买基础材料。",
     "answerEn": "Credits are the basic currency in NTE. You can earn them through: 1) Main story and side quests; 2) Daily commission rewards; 3) Exploring treasure chests in the open world; 4) Completing achievements; 5) Participating in limited-time events. Credits are used for character leveling, skill upgrades, and purchasing basic materials.",
-    "tags": ["beginner", "currency"],
+    "tags": [
+      "beginner",
+      "currency"
+    ],
     "category": "currency",
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits"]
+    "relatedMaterials": [
+      "credits"
+    ]
   },
   {
     "id": "s-rank-characters",
@@ -44,11 +63,28 @@
     "questionEn": "What are the S-rank characters in NTE?",
     "answer": "异环目前的S级角色包括：娜娜莉（生命/格斗）、咲里（咒术/支援）、法蒂亚、拉克莉莫萨、百苍、爱德勒、斯奇亚、零、哈尼尔、哈索尔、弥安、阿尔法德、泰格多等。S级角色整体强度高于A级角色，但A级角色在合理培养后同样可以在大部分内容中表现出色。",
     "answerEn": "Current S-rank characters in NTE include: Nanally (Anima/Fangs and Claws), Sakiri (Incantation/Support), Fadia, Lacrimosa, Baicang, Adler, Skia, Zero, Haniel, Hathor, Mint, Alphard, Taygedo, and more. While S-rank characters generally have higher stats, well-built A-rank characters can also perform well in most content.",
-    "tags": ["beginner", "characters"],
+    "tags": [
+      "beginner",
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["nanally", "sakiri", "fadia", "lacrimosa", "baicang", "adler", "skia", "zero", "haniel", "hathor", "mint", "alphard", "taygedo"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri",
+      "fadia",
+      "lacrimosa",
+      "baicang",
+      "adler",
+      "skia",
+      "zero",
+      "haniel",
+      "hathor",
+      "mint",
+      "alphard",
+      "taygedo"
+    ],
     "relatedMaterials": []
   },
   {
@@ -57,7 +93,10 @@
     "questionEn": "What is the attribute weakness system in NTE?",
     "answer": "异环中存在六种属性：生命、咒术、混沌、灵魂、宇宙、相。不同属性之间存在克制关系，利用属性克制可以对敌人造成更多伤害。在战斗中，观察敌人的属性弱点，切换对应属性的角色进行攻击，可以大幅提高战斗效率。属性克制通常造成约1.5倍的额外伤害。",
     "answerEn": "NTE has six attributes: Anima, Incantation, Chaos, Psyche, Cosmos, and Lakshana. Different attributes have weakness relationships, and exploiting them deals bonus damage. In combat, observe enemy weaknesses and switch to characters with the corresponding attribute for significantly better efficiency. Attribute weakness typically deals around 1.5x bonus damage.",
-    "tags": ["beginner", "combat"],
+    "tags": [
+      "beginner",
+      "combat"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -70,7 +109,10 @@
     "questionEn": "How to use daily stamina most efficiently in NTE?",
     "answer": "体力使用的优先级建议：1) 优先刷当前最缺的材料副本（通常是角色升级材料）；2) 如果有正在培养的角色，刷对应的属性材料；3) 每日委托和任务优先完成，通常也会消耗体力；4) 限时活动期间的体力优先用于活动副本。不建议将体力浪费在低等级材料上，后期可以通过其他途径获取。",
     "answerEn": "Recommended stamina priority: 1) Farm the materials you need most (usually character leveling materials); 2) If you're building a character, farm their attribute-specific materials; 3) Complete daily commissions first (they also consume stamina); 4) During limited events, prioritize event domains. Don't waste stamina on low-level materials that can be obtained through other means later.",
-    "tags": ["beginner", "resources"],
+    "tags": [
+      "beginner",
+      "resources"
+    ],
     "category": "beginner",
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
@@ -83,11 +125,19 @@
     "questionEn": "Which characters should beginners build in NTE?",
     "answer": "新手推荐培养方向：1) 娜娜莉（S级/生命属性）— 强力的近战输出角色，前期开荒体验好；2) 咲里（S级/咒术属性）— 优秀的支援角色，能为全队提供增益；3) 爱德勒（S级）— 输出能力出色。A级角色中也有性价比很高的选择，如智（A级）培养成本低但实用性高。建议集中资源培养2-3个核心角色，不要分散资源。",
     "answerEn": "Recommended characters for beginners: 1) Nanally (S-rank/Anima) - Strong melee DPS, great for early game; 2) Sakiri (S-rank/Incantation) - Excellent support character with team-wide buffs; 3) Adler (S-rank) - Outstanding damage output. Among A-rank characters, Chiz offers great value with low investment. Focus resources on 2-3 core characters rather than spreading thin.",
-    "tags": ["beginner", "characters"],
+    "tags": [
+      "beginner",
+      "characters"
+    ],
     "category": "beginner",
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
-    "relatedCharacters": ["nanally", "sakiri", "adler", "chiz"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri",
+      "adler",
+      "chiz"
+    ],
     "relatedMaterials": []
   },
   {
@@ -96,12 +146,18 @@
     "questionEn": "How to get experience quickly in NTE?",
     "answer": "快速获取角色经验的途径：1) 完成主线任务和支线任务，这是前期经验的主要来源；2) 每日委托任务；3) 刷经验副本（如果有的话）；4) 探索世界、开启传送点和宝箱也有经验奖励。角色升级需要消耗猎手指南和信用点，建议同步积累这些资源。",
     "answerEn": "Ways to get character EXP quickly: 1) Main story and side quests are the primary EXP source early on; 2) Daily commissions; 3) EXP domains (if available); 4) Exploring the world, unlocking waypoints, and opening chests also grants EXP. Character leveling requires Hunter Guides and Credits, so accumulate these resources alongside EXP.",
-    "tags": ["beginner", "leveling"],
+    "tags": [
+      "beginner",
+      "leveling"
+    ],
     "category": "leveling",
     "categoryZh": "角色升级",
     "categoryEn": "Leveling",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits", "basic-hunter-guide"]
+    "relatedMaterials": [
+      "credits",
+      "basic-hunter-guide"
+    ]
   },
   {
     "id": "test-vs-official",
@@ -109,7 +165,9 @@
     "questionEn": "Is there a difference between NTE test version and official version data?",
     "answer": "异环在测试期间，游戏数据（包括角色属性、材料需求、副本掉落等）可能会在正式上线时进行调整。本站数据基于测试版本整理，正式版上线后我们会尽快更新。建议关注游戏官方公告了解最新变动。",
     "answerEn": "During the testing period, game data (including character stats, material requirements, domain drops, etc.) may be adjusted before official launch. Our data is based on the test version and will be updated as quickly as possible after official release. Follow official announcements for the latest changes.",
-    "tags": ["meta"],
+    "tags": [
+      "meta"
+    ],
     "category": "meta",
     "categoryZh": "站点数据",
     "categoryEn": "Meta",
@@ -122,12 +180,16 @@
     "questionEn": "How to get skill upgrade materials in NTE?",
     "answer": "技能升级材料（教材类）主要通过以下方式获取：1) 属性对应的材料副本；2) 活动奖励；3) 商店兑换。攻击教材、防御教材等不同类型的教材对应不同属性的技能升级需求。建议根据要培养的角色属性，有针对性地刷取对应属性的教材。",
     "answerEn": "Skill upgrade materials (Manuals) can be obtained through: 1) Attribute-specific material domains; 2) Event rewards; 3) Shop exchange. Attack Manuals, Defense Manuals, and other types correspond to different attribute skill upgrade needs. Focus on farming manuals that match your characters' attributes.",
-    "tags": ["materials"],
+    "tags": [
+      "materials"
+    ],
     "category": "materials",
     "categoryZh": "材料获取",
     "categoryEn": "Materials",
     "relatedCharacters": [],
-    "relatedMaterials": ["manual-attack"]
+    "relatedMaterials": [
+      "manual-attack"
+    ]
   },
   {
     "id": "nanally-worth-building",
@@ -135,12 +197,20 @@
     "questionEn": "Is Nanally worth building in NTE?",
     "answer": "娜娜莉是S级生命属性格斗角色，非常值得培养。她拥有强大的近战输出能力，反重力技能在战斗中非常实用。作为初始可用的高品质角色之一，娜娜莉在前期开荒和后期高难内容中都有出色的表现。推荐作为首个重点培养的角色。",
     "answerEn": "Nanally is an S-rank Anima Fangs and Claws character, very worth building. She has powerful melee damage output and her anti-gravity skills are very practical in combat. As one of the first available high-quality characters, Nanally performs excellently in both early exploration and late-game challenges. Recommended as your first priority build.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["nanally"],
-    "relatedMaterials": ["anima-fragment", "anima-crystal", "boss-anima"]
+    "relatedCharacters": [
+      "nanally"
+    ],
+    "relatedMaterials": [
+      "anima-fragment",
+      "anima-crystal",
+      "boss-anima"
+    ]
   },
   {
     "id": "sakiri-worth-building",
@@ -148,11 +218,15 @@
     "questionEn": "Is Sakiri worth building in NTE?",
     "answer": "咲里是S级咒术属性支援角色，强烈推荐培养。她能为队友提供增益效果，是多种队伍配置中的核心支援。咲里的伴生体桐丸也会参与战斗，提供额外的输出能力。如果你需要一个能提升全队战斗效率的角色，咲里是最佳选择之一。",
     "answerEn": "Sakiri is an S-rank Incantation support character, highly recommended. She provides buffs to teammates and is a core support in many team compositions. Her companion Kiroumaru also participates in combat, adding extra damage. If you need a character that boosts overall team efficiency, Sakiri is one of the best choices.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["sakiri"],
+    "relatedCharacters": [
+      "sakiri"
+    ],
     "relatedMaterials": []
   },
   {
@@ -161,12 +235,18 @@
     "questionEn": "How to get Permit materials in NTE?",
     "answer": "许可证明是角色高等级阶段升级的必需材料，分为先锋许可、专家许可和大帅许可三个等级。获取途径：1) 高等级材料副本掉落；2) 活动商店兑换；3) 部分成就奖励。许可证明是后期养成中比较稀缺的资源，建议合理规划使用。",
     "answerEn": "Permits are essential materials for high-level character upgrades, available in three tiers: Pioneer, Expert, and Master Permits. Obtained through: 1) High-level material domain drops; 2) Event shop exchange; 3) Some achievement rewards. Permits are relatively scarce resources in late-game progression, so plan their usage carefully.",
-    "tags": ["materials"],
+    "tags": [
+      "materials"
+    ],
     "category": "materials",
     "categoryZh": "材料获取",
     "categoryEn": "Materials",
     "relatedCharacters": [],
-    "relatedMaterials": ["pioneer-permit", "expert-permit", "master-permit"]
+    "relatedMaterials": [
+      "pioneer-permit",
+      "expert-permit",
+      "master-permit"
+    ]
   },
   {
     "id": "fadia-worth-building",
@@ -174,11 +254,15 @@
     "questionEn": "Is Fadia worth building in NTE?",
     "answer": "法蒂亚是S级角色，在队伍中可以担当重要输出位。她的技能机制独特，在合适的队伍配置下能发挥很高的伤害。如果你喜欢她的战斗风格，或者需要一个强力的输出角色来补充队伍配置，法蒂亚是值得投入资源培养的。",
     "answerEn": "Fadia is an S-rank character who can serve as a key DPS in your team. Her skill mechanics are unique and can deal high damage with proper team composition. If you enjoy her playstyle or need a strong damage dealer to round out your team, Fadia is worth investing resources into.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["fadia"],
+    "relatedCharacters": [
+      "fadia"
+    ],
     "relatedMaterials": []
   },
   {
@@ -187,11 +271,16 @@
     "questionEn": "How to build a team composition in NTE?",
     "answer": "异环队伍搭配的基本原则：1) 属性覆盖 — 尽量覆盖多种属性以应对不同弱点的敌人；2) 角色定位 — 通常需要1个输出位、1个支援位、1个副输出/防御位；3) 属性克制 — 根据敌人弱点调整上阵角色；4) 综合考虑 — 咲里作为通用支援几乎适用于任何队伍。新手建议培养一个核心输出（如娜娜莉）+ 一个支援（如咲里）作为基础队伍。",
     "answerEn": "Basic team composition principles in NTE: 1) Attribute coverage - cover multiple attributes to handle different enemy weaknesses; 2) Role balance - typically 1 main DPS, 1 support, and 1 sub-DPS/defender; 3) Exploit weaknesses - adjust your lineup based on enemy weaknesses; 4) Sakiri works as a universal support in almost any team. Beginners should build a core DPS (like Nanally) + support (like Sakiri) as a foundation.",
-    "tags": ["combat"],
+    "tags": [
+      "combat"
+    ],
     "category": "team-building",
     "categoryZh": "配队推荐",
     "categoryEn": "Team Building",
-    "relatedCharacters": ["nanally", "sakiri"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri"
+    ],
     "relatedMaterials": []
   },
   {
@@ -200,7 +289,10 @@
     "questionEn": "How does the stamina system work in NTE?",
     "answer": "异环的体力（树脂）系统与其他同类游戏类似：1) 体力有上限，随时间自然恢复（通常每8分钟恢复1点）；2) 刷材料副本需要消耗体力；3) 体力溢出时会停止恢复，建议及时使用；4) 可以使用原晶等付费货币补充体力。合理规划体力使用是高效养成的关键。",
     "answerEn": "NTE's stamina system works similarly to other games in the genre: 1) Stamina has a cap and regenerates over time (usually 1 point per 8 minutes); 2) Running material domains consumes stamina; 3) Excess stamina stops regenerating, so use it promptly; 4) Premium currency can be used to refill stamina. Planning stamina usage wisely is key to efficient progression.",
-    "tags": ["beginner", "resources"],
+    "tags": [
+      "beginner",
+      "resources"
+    ],
     "category": "beginner",
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
@@ -213,11 +305,15 @@
     "questionEn": "Is Chiz worth building in NTE?",
     "answer": "智是A级角色，虽然稀有度低于S级角色，但培养成本更低，性价比很高。A级角色在合理培养和装备搭配下，完全可以胜任大部分游戏内容。如果你是新手玩家，资源有限，培养智是一个经济实惠的选择。",
     "answerEn": "Chiz is an A-rank character. While her rarity is lower than S-rank characters, she costs less to build and offers great value. A-rank characters can handle most game content with proper builds and equipment. If you're a new player with limited resources, building Chiz is an economical choice.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["chiz"],
+    "relatedCharacters": [
+      "chiz"
+    ],
     "relatedMaterials": []
   },
   {
@@ -226,12 +322,16 @@
     "questionEn": "How to get boss materials in NTE?",
     "answer": "首领材料（如生命守护者等）是高等级角色升级的关键材料。获取途径：1) 挑战对应属性的首领副本，每周有次数限制；2) 限时活动期间可能开放首领副本的无限制挑战；3) 部分特殊商店可以用其他材料兑换。首领材料是养成中的瓶颈资源，建议优先分配给你最核心的角色。",
     "answerEn": "Boss materials (like Anima Guardian) are key materials for high-level character upgrades. Obtained through: 1) Challenging attribute-specific boss domains with weekly attempt limits; 2) Unlimited boss challenges may be available during limited events; 3) Some special shops allow exchanging other materials for boss materials. Boss materials are a progression bottleneck, so prioritize them for your core characters.",
-    "tags": ["materials"],
+    "tags": [
+      "materials"
+    ],
     "category": "materials",
     "categoryZh": "材料获取",
     "categoryEn": "Materials",
     "relatedCharacters": [],
-    "relatedMaterials": ["boss-anima"]
+    "relatedMaterials": [
+      "boss-anima"
+    ]
   },
   {
     "id": "adler-worth-building",
@@ -239,11 +339,15 @@
     "questionEn": "Is Adler worth building in NTE?",
     "answer": "爱德勒是S级角色，拥有出色的输出能力。作为S级角色，他的基础属性和技能倍率都较高，在高难内容中表现突出。如果你获得了爱德勒，推荐作为主力输出角色进行培养。",
     "answerEn": "Adler is an S-rank character with excellent damage output. As an S-rank character, his base stats and skill multipliers are high, making him stand out in challenging content. If you've obtained Adler, he's recommended as a main DPS character to invest in.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["adler"],
+    "relatedCharacters": [
+      "adler"
+    ],
     "relatedMaterials": []
   },
   {
@@ -252,7 +356,10 @@
     "questionEn": "How to download NTE? What platforms are supported?",
     "answer": "异环支持多平台游玩，下载方式如下：1) 手机端（Android/iOS）：通过各应用商店搜索「异环」下载，或前往完美世界官网扫码下载；2) PC端：前往异环官网 nte.perfectworld.com 下载PC客户端启动器，通过启动器安装游戏；3) 模拟器：可以使用雷电模拟器、MuMu模拟器等在电脑上运行手游版本。建议优先通过官方渠道下载，避免第三方来源的安全风险。",
     "answerEn": "NTE supports multiple platforms: 1) Mobile (Android/iOS): Search \"NTE\" in your app store or scan the QR code on the official website; 2) PC: Download the PC client launcher from the official website (nte.perfectworld.com); 3) Emulators: You can use LDPlayer, MuMu, or other emulators to run the mobile version on PC. Always download from official channels to ensure security.",
-    "tags": ["system", "download"],
+    "tags": [
+      "system",
+      "download"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -265,7 +372,10 @@
     "questionEn": "What are the system requirements for NTE on mobile and PC?",
     "answer": "异环的配置要求因平台而异。手机端：Android建议骁龙845及以上处理器，6GB以上运存，10GB以上存储空间；iOS建议iPhone XS及以上机型，系统版本iOS 14以上。PC端：建议Intel i5-8400或同等级CPU，8GB以上运存，GTX 1060或以上显卡，SSD硬盘。实际配置可能因版本更新有所调整，请关注官方公告获取最新配置要求。如果手机配置不足，可以通过PC客户端或模拟器来获得更流畅的体验。",
     "answerEn": "NTE's system requirements vary by platform. Mobile: Android Snapdragon 845+ recommended, 6GB+ RAM, 10GB+ storage; iOS iPhone XS or newer, iOS 14+. PC: Intel i5-8400 or equivalent, 8GB+ RAM, GTX 1060 or better, SSD recommended. Requirements may change with updates, so check official announcements for the latest specs. If your phone doesn't meet requirements, consider using the PC client or an emulator for a smoother experience.",
-    "tags": ["system", "requirements"],
+    "tags": [
+      "system",
+      "requirements"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -278,7 +388,10 @@
     "questionEn": "When does NTE officially launch?",
     "answer": "异环目前仍在测试阶段，具体公测时间以官方公告为准。游戏已完成多次测试（包括共存测试），预注册人数已超过3000万。建议关注异环官方社交媒体（微博、B站、TapTap）或官网 yh.wanmei.com 获取最新的上线信息。测试期间的数据（角色属性、材料需求等）可能会在正式上线时有所调整。",
     "answerEn": "NTE is currently in the testing phase. The exact official launch date will be announced by the developers. The game has completed multiple tests including the Coexistence Test, with pre-registrations exceeding 30 million. Follow NTE's official social media (Weibo, Bilibili, TapTap) or the official website for the latest launch information. Game data during testing may be adjusted before official release.",
-    "tags": ["release", "timeline"],
+    "tags": [
+      "release",
+      "timeline"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
@@ -291,7 +404,10 @@
     "questionEn": "How to participate in NTE beta tests?",
     "answer": "参加异环测试的方式：1) 前往官网 yh.wanmei.com 或 TapTap 页面预约/报名测试资格；2) 关注官方社交媒体，测试开放时会发布招募公告；3) 部分测试会通过抽签方式发放资格。获得资格后，按照官方指引下载测试客户端即可参与。注意测试数据通常不会保留到正式版。",
     "answerEn": "To participate in NTE beta tests: 1) Register on the official website or TapTap page; 2) Follow official social media for test recruitment announcements; 3) Some tests distribute access through lottery. Once selected, download the test client following official instructions. Note that test data usually does not carry over to the official release.",
-    "tags": ["release", "testing"],
+    "tags": [
+      "release",
+      "testing"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
@@ -304,20 +420,29 @@
     "questionEn": "What are the NTE pre-registration rewards?",
     "answer": "异环的预注册里程碑奖励根据总预约人数解锁，目前已解锁的奖励包括：原晶、信用点、猎手指南、抽卡券等珍贵资源。预注册人数越多，解锁的奖励越丰富。建议尽早前往官网或TapTap完成预约，确保在公测时能领取全部奖励。奖励通常通过游戏内邮件发放。",
     "answerEn": "NTE's pre-registration milestone rewards unlock based on total registration count. Currently unlocked rewards include: Original Crystals, Credits, Hunter Guides, gacha tickets, and other valuable resources. The more pre-registrations, the richer the rewards. Register early on the official website or TapTap to ensure you receive all rewards at launch. Rewards are typically distributed via in-game mail.",
-    "tags": ["release", "rewards"],
+    "tags": [
+      "release",
+      "rewards"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits", "basic-hunter-guide"]
+    "relatedMaterials": [
+      "credits",
+      "basic-hunter-guide"
+    ]
   },
   {
     "id": "pity-system",
     "question": "异环保底机制是怎样的？",
     "questionEn": "How does the pity system work in NTE?",
-    "answer": "异环的抽卡保底机制确保玩家在一定次数内必出高稀有度角色或武器。具体规则：1) 每次单抽有概率获得S级角色；2) 累计一定次数未出S级角色时触发大保底，必出S级；3) 限定卡池有独立的保底计数；4) 保底次数在同类型卡池之间会继承。建议新手优先抽取角色池，确保队伍核心输出到位后再考虑武器池。",
-    "answerEn": "NTE's gacha pity system guarantees high-rarity characters or weapons within a certain number of pulls. Key rules: 1) Each pull has a chance to obtain an S-rank character; 2) After a set number of pulls without an S-rank, pity triggers a guaranteed S-rank; 3) Limited banners have independent pity counters; 4) Pity carries over between banners of the same type. Beginners should prioritize character banners to secure core DPS before considering weapon banners.",
-    "tags": ["gacha", "pity"],
+    "answer": "异环公测前瞻直播已确认：抽卡保底机制没有50/50。限定角色池90抽硬保底，触发保底时100%获得当期UP的限定S级角色，不存在「歪」到常驻角色的情况。平均出货约53.5抽，从第74抽开始触发软保底。新手池20抽必出S级且可自选，常驻池50抽可自选S级，武器池80抽保底UP武器。保底次数在同类型卡池之间会继承。这是目前二次元游戏中最为友好的抽卡系统之一。",
+    "answerEn": "NTE launch livestream confirmed: no 50/50 in the pity system. Limited character banner has 90-pull hard pity, with 100% rate for the featured S-rank character when pity triggers — no off-banner characters. Average ~53.5 pulls, soft pity from pull 74. Beginner banner: 20-pull guaranteed S-rank with selector. Standard banner: 50-pull S-rank selector. Weapon banner: 80-pull featured weapon pity. Pity carries over between same-type banners. One of the most player-friendly gacha systems in anime games.",
+    "tags": [
+      "gacha",
+      "pity"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
@@ -330,11 +455,17 @@
     "questionEn": "Which banner should beginners pull first in NTE?",
     "answer": "新手抽卡优先级建议：1) 优先抽取角色限定池，确保获得一个强力的S级核心输出（如娜娜莉、爱德勒等）；2) 如果新手池有折扣抽卡（如前10抽半价或免费），务必先用完新手池机会；3) 有了核心角色后再考虑常驻池补齐阵容；4) 武器池建议在有2-3个主力角色后再投入。注意保留一定的原晶用于未来限定角色。",
     "answerEn": "Recommended pull priority for beginners: 1) Pull the limited character banner first to secure a strong S-rank DPS (like Nanally or Adler); 2) If there's a discounted beginner banner, use it first; 3) After getting a core character, consider the standard banner to round out your roster; 4) Weapon banners should wait until you have 2-3 main characters built. Save some Original Crystals for future limited characters.",
-    "tags": ["gacha", "beginner"],
+    "tags": [
+      "gacha",
+      "beginner"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
-    "relatedCharacters": ["nanally", "adler"],
+    "relatedCharacters": [
+      "nanally",
+      "adler"
+    ],
     "relatedMaterials": []
   },
   {
@@ -343,12 +474,17 @@
     "questionEn": "What currency is used for gacha in NTE and how to get it?",
     "answer": "异环抽卡主要使用原晶（付费/免费）和抽卡券。原晶获取途径：1) 完成主线任务和支线任务；2) 探索开放世界、开启宝箱；3) 每日委托任务奖励；4) 深渊/高难挑战奖励；5) 活动奖励；6) 直接充值购买。抽卡券可通过活动、成就和商店兑换获得。免费原晶足够支持每版本有限度抽卡，合理规划很重要。",
     "answerEn": "NTE gacha primarily uses Original Crystals (paid/free) and gacha tickets. Ways to get Original Crystals: 1) Main/side quest completion; 2) Open world exploration and treasure chests; 3) Daily commission rewards; 4) Endgame/challenge rewards; 5) Event rewards; 6) Direct purchase. Gacha tickets can be obtained from events, achievements, and shop exchanges. Free crystals support limited pulls each version, so plan wisely.",
-    "tags": ["gacha", "currency"],
+    "tags": [
+      "gacha",
+      "currency"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits"]
+    "relatedMaterials": [
+      "credits"
+    ]
   },
   {
     "id": "perfect-dodge-counter",
@@ -356,7 +492,10 @@
     "questionEn": "How to trigger Perfect Dodge in NTE? What are the effects?",
     "answer": "极限闪避是异环战斗中的核心技巧。触发方式：在敌人攻击出现红色闪光预警的瞬间按下闪避键，即可触发极限闪避。触发效果：1) 短暂无敌帧，规避所有伤害；2) 获得增伤效果，提高后续攻击的伤害；3) 快速积累倾陷值（破防条），加速敌人进入破防状态。建议在实战中多练习闪避节奏，善用极限闪避可以大幅提升战斗效率。",
     "answerEn": "Perfect Dodge is a core combat mechanic in NTE. How to trigger: Press dodge the moment an enemy attack shows a red flash warning. Effects: 1) Brief invincibility frames to avoid all damage; 2) Damage boost for subsequent attacks; 3) Rapidly builds Break gauge to stun enemies faster. Practice the dodge timing in combat — mastering Perfect Dodge significantly improves combat efficiency.",
-    "tags": ["combat", "mechanics"],
+    "tags": [
+      "combat",
+      "mechanics"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -369,7 +508,10 @@
     "questionEn": "How to use Chain Burst in NTE?",
     "answer": "环合爆发是异环的核心战斗系统之一。使用方法：1) 通过普攻和技能攻击积累环合值；2) 当环合值充满后，切换到对应属性的队友即可触发环合爆发；3) 环合爆发会对敌人造成大量范围伤害。推荐的属性搭配：光+灵（创生）属性组合可以触发自动范围爆炸，适合清群怪。合理规划队伍的属性搭配和切换顺序，是掌握环合爆发的关键。",
     "answerEn": "Chain Burst is a core combat system in NTE. How to use: 1) Build up Chain gauge through normal attacks and skills; 2) When the gauge is full, switch to a teammate with the matching attribute to trigger Chain Burst; 3) Chain Burst deals massive AoE damage. Recommended combo: Light + Spirit attribute combination triggers automatic AoE explosions, ideal for clearing groups. Planning your team's attribute composition and switch order is key to mastering Chain Bursts.",
-    "tags": ["combat", "mechanics"],
+    "tags": [
+      "combat",
+      "mechanics"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -382,7 +524,10 @@
     "questionEn": "What are some combat tips for NTE?",
     "answer": "异环战斗的核心技巧：1) 善用极限闪避 — 敌人红光预警时闪避触发无敌+增伤+破防积累；2) 属性克制 — 观察敌人属性弱点，切换对应属性角色可造成约1.5倍额外伤害；3) 环合爆发 — 普攻攒满环合值后切队友触发强力范围攻击；4) 属性搭配 — 光+灵（创生）组合适合清群怪；5) 连携技能 — 合理利用角色切换时的连携效果；6) 走位拉扯 — 不要站桩输出，利用移动规避伤害。",
     "answerEn": "Core combat tips for NTE: 1) Master Perfect Dodge — dodge during red flash warnings for invincibility + damage boost; 2) Exploit attribute weaknesses — switch to matching attribute characters for ~1.5x bonus damage; 3) Chain Bursts — build gauge and switch teammates for powerful AoE attacks; 4) Attribute combos — Light + Spirit combination excels at clearing groups; 5) Chain skills — utilize character switch combo effects; 6) Keep moving — don't stand still, use movement to avoid damage.",
-    "tags": ["combat", "tips"],
+    "tags": [
+      "combat",
+      "tips"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -395,7 +540,10 @@
     "questionEn": "How to explore Hethereau City in NTE?",
     "answer": "海特洛市是异环的主要开放世界区域，探索要点：1) 区域解锁 — 跟随主线任务逐步解锁新城区、桥间地、绘空町等区域；2) 收集品 — 注意收集乌鸦玉石等隐藏物品，它们通常在巷子深处、高处平台或需要解谜才能到达的位置；3) 传送点 — 优先激活各区域的传送点，方便后续快速移动；4) 互动元素 — 快递柜、隐藏宝箱等互动要素分布在城市各处；5) 敌人清理 — 清理区域内的敌人可以获得探索度和奖励。",
     "answerEn": "Hethereau City is NTE's main open world area. Exploration tips: 1) Area unlocking — Follow the main story to unlock New District, Hashikama, and other areas; 2) Collectibles — Look for Crow Jade and hidden items in alleys, high platforms, and puzzle-locked areas; 3) Waypoints — Activate waypoints first for quick travel; 4) Interactive elements — Check lockers, hidden chests, and other interactable objects throughout the city; 5) Enemy encounters — Clear enemies in each area for exploration progress and rewards.",
-    "tags": ["exploration", "map"],
+    "tags": [
+      "exploration",
+      "map"
+    ],
     "category": "exploration",
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
@@ -408,7 +556,10 @@
     "questionEn": "How to get Crow Jade in NTE? What is it used for?",
     "answer": "乌鸦玉石是海特洛市中散落的收集品，获取方式：1) 在城市的巷子深处、高处平台、隐藏角落等位置寻找；2) 部分乌鸦玉石需要完成特定解谜或挑战才能获取；3) 探索地图时注意观察发光提示。乌鸦玉石的用途：收集足够数量的乌鸦玉石可以兑换稀有奖励，包括原晶、抽卡券和特殊材料。建议在探索每个新区域时留意收集。",
     "answerEn": "Crow Jade is a collectible scattered throughout Hethereau City. How to find: 1) Look in deep alleys, high platforms, and hidden corners; 2) Some require solving puzzles or completing challenges; 3) Watch for glowing hints while exploring. Uses: Collecting enough Crow Jade can be exchanged for rare rewards including Original Crystals, gacha tickets, and special materials. Make sure to collect them as you explore each new area.",
-    "tags": ["exploration", "collectibles"],
+    "tags": [
+      "exploration",
+      "collectibles"
+    ],
     "category": "exploration",
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
@@ -421,7 +572,10 @@
     "questionEn": "How to access hidden areas in NTE?",
     "answer": "异环的隐藏区域有多种进入方式：1) 解谜 — 部分隐藏区域需要完成特定的机关解谜才能开启入口；2) 爬墙翻越 — 利用角色的攀爬能力到达看似不可到达的区域；3) 特定任务 — 有些隐藏区域需要完成前置任务才会解锁；4) 时间/天气触发 — 少数区域在特定时间或天气条件下才会出现入口。探索时多观察环境，留意可疑的墙壁、裂缝或发光标记。",
     "answerEn": "NTE's hidden areas can be accessed through various methods: 1) Puzzles — Some areas require completing specific mechanisms to open; 2) Climbing — Use character climbing abilities to reach seemingly inaccessible areas; 3) Quest requirements — Certain areas unlock only after completing prerequisite quests; 4) Time/weather triggers — A few areas only appear under specific conditions. Look for suspicious walls, cracks, or glowing markers while exploring.",
-    "tags": ["exploration", "secrets"],
+    "tags": [
+      "exploration",
+      "secrets"
+    ],
     "category": "exploration",
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
@@ -434,7 +588,10 @@
     "questionEn": "What is the Awakening system in NTE? How to unlock it?",
     "answer": "觉醒系统是异环中角色进阶的重要机制。当角色达到一定等级后，可以消耗特定材料进行觉醒，大幅提升角色的基础属性和技能效果。觉醒通常分为多个阶段，每个阶段需要不同的材料组合。觉醒后角色的外观可能会有变化，部分技能会获得强化效果。建议优先为核心输出角色进行觉醒，收益最大。",
     "answerEn": "The Awakening system is an important character advancement mechanic in NTE. When a character reaches a certain level, you can consume specific materials to Awaken them, significantly boosting base stats and skill effects. Awakening has multiple stages, each requiring different material combinations. Awakened characters may have visual changes and enhanced skills. Prioritize awakening your core DPS characters for maximum benefit.",
-    "tags": ["characters", "awakening"],
+    "tags": [
+      "characters",
+      "awakening"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
@@ -447,12 +604,17 @@
     "questionEn": "How to complete Anomaly Commissions in NTE?",
     "answer": "异象委托是异环中的日常/周常任务系统。完成方法：1) 在主界面或地图上查看当前可接取的异象委托；2) 前往指定地点，按照任务指引完成战斗或探索目标；3) 部分委托需要特定的角色属性才能高效完成；4) 完成后获得信用点、材料和经验等奖励。建议每天优先完成高优先级的委托，确保不遗漏稀有奖励。",
     "answerEn": "Anomaly Commissions are daily/weekly tasks in NTE. How to complete: 1) Check available commissions from the main screen or map; 2) Go to the designated location and complete combat or exploration objectives; 3) Some commissions benefit from specific character attributes; 4) Turn in for Credits, materials, and EXP rewards. Prioritize high-value commissions daily to avoid missing rare rewards.",
-    "tags": ["system", "quests"],
+    "tags": [
+      "system",
+      "quests"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits"]
+    "relatedMaterials": [
+      "credits"
+    ]
   },
   {
     "id": "esper-ability-types",
@@ -460,11 +622,17 @@
     "questionEn": "What types of Esper abilities are there in NTE?",
     "answer": "异环中的异能（角色属性）分为六种类型：1) 生命（Anima）— 自然与生命之力，代表角色如娜娜莉；2) 咒术（Incantation）— 符咒与结界之力，代表角色如咲里；3) 混沌（Chaos）— 混乱与破坏之力；4) 灵魂（Psyche）— 精神与心灵之力；5) 宇宙（Cosmos）— 星辰与空间之力；6) 相（Lakshana）— 特殊的属性类型。不同属性之间存在克制关系，合理搭配属性是战斗的关键。",
     "answerEn": "NTE has six attribute types (Esper abilities): 1) Anima — Life force, represented by characters like Nanally; 2) Incantation — Seals and barriers, represented by Sakiri; 3) Chaos — Destruction power; 4) Psyche — Mental and spiritual power; 5) Cosmos — Stellar and spatial power; 6) Lakshana — A special attribute type. Different attributes have weakness relationships, and proper attribute combinations are key to combat success.",
-    "tags": ["combat", "attributes"],
+    "tags": [
+      "combat",
+      "attributes"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": ["nanally", "sakiri"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri"
+    ],
     "relatedMaterials": []
   },
   {
@@ -473,7 +641,10 @@
     "questionEn": "How does the Disk system work in NTE?",
     "answer": "磁盘系统是异环的装备系统，类似于其他游戏中的圣遗物/遗器系统。玩法要点：1) 每个角色可以装备多个磁盘，分为不同部位；2) 磁盘有主属性和副属性，稀有度越高属性越好；3) 同一套装的磁盘组合可以激活套装效果，提供额外加成；4) 磁盘通过挑战特定副本获取；5) 可以消耗材料强化磁盘，提升属性值。建议前期先用高星散件过渡，后期再追求完美套装。",
     "answerEn": "The Disk system is NTE's equipment system, similar to artifacts in other games. Key points: 1) Each character can equip multiple disks in different slots; 2) Disks have main stats and sub-stats, with higher rarity offering better stats; 3) Matching set bonuses activate when equipping disks from the same set; 4) Disks are obtained from specific domain challenges; 5) Disks can be enhanced with materials to increase stats. Use high-star individual pieces early on, then aim for complete sets later.",
-    "tags": ["equipment", "disks"],
+    "tags": [
+      "equipment",
+      "disks"
+    ],
     "category": "equipment",
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
@@ -486,7 +657,10 @@
     "questionEn": "How to upgrade weapons in NTE?",
     "answer": "异环武器强化系统：1) 武器可以通过消耗材料进行升级，提升基础攻击力；2) 每把武器有等级上限，达到上限后需要突破才能继续升级；3) 武器突破需要特定的突破材料，通常通过材料副本获取；4) 武器有被动技能，在特定等级节点解锁或强化；5) 武器分为不同稀有度（如S级、A级），稀有度越高上限越高。建议优先强化主力角色的武器，资源有限时不要分散投入。",
     "answerEn": "NTE weapon upgrade system: 1) Weapons are upgraded by consuming materials to increase base attack; 2) Each weapon has a level cap that requires ascension to exceed; 3) Ascension requires specific materials from material domains; 4) Weapons have passive skills that unlock or improve at certain level thresholds; 5) Weapons come in different rarities (S-rank, A-rank), with higher rarity having higher caps. Prioritize upgrading weapons for your main characters — don't spread resources thin.",
-    "tags": ["equipment", "weapons"],
+    "tags": [
+      "equipment",
+      "weapons"
+    ],
     "category": "equipment",
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
@@ -499,12 +673,17 @@
     "questionEn": "How to use redeem codes in NTE? What codes are available?",
     "answer": "异环兑换码使用方法：1) 在游戏主界面找到设置或个人中心入口；2) 找到「兑换码」或「礼包兑换」选项；3) 输入有效的兑换码即可领取奖励。兑换码通常通过以下渠道发布：官方社交媒体（微博、B站）、直播活动、合作平台（TapTap）、线下活动等。兑换码有使用期限和次数限制，建议及时使用。我们网站的兑换码页面会持续更新最新的有效兑换码。",
     "answerEn": "How to use redeem codes in NTE: 1) Find Settings or Profile in the main menu; 2) Look for the \"Redeem Code\" or \"Gift Exchange\" option; 3) Enter a valid code to claim rewards. Codes are distributed through: official social media (Weibo, Bilibili), livestream events, partner platforms (TapTap), and offline events. Codes have expiration dates and usage limits, so use them promptly. Our site's redeem codes page is updated with the latest valid codes.",
-    "tags": ["currency", "codes"],
+    "tags": [
+      "currency",
+      "codes"
+    ],
     "category": "currency",
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits"]
+    "relatedMaterials": [
+      "credits"
+    ]
   },
   {
     "id": "beginner-guide-early-game",
@@ -512,20 +691,32 @@
     "questionEn": "How should beginners start NTE?",
     "answer": "异环新手开局攻略：1) 跟随主线任务推进，优先了解游戏基本操作和系统；2) 抽卡方面，优先用完新手池折扣机会，获取第一个S级核心角色；3) 角色培养集中资源培养1个主力输出+1个支援，推荐娜娜莉（输出）+咲里（支援）的组合；4) 体力优先刷角色升级材料，不要浪费在低级材料上；5) 每日必做：委托任务、体力清空、领取活动奖励；6) 探索地图时优先激活传送点，方便后续刷材料。记住前期不要贪多，集中资源是关键。",
     "answerEn": "Beginner's guide for starting NTE: 1) Follow the main story to learn basic controls and systems; 2) For gacha, use beginner banner discounts first to get your first S-rank core character; 3) Focus resources on 1 main DPS + 1 support, recommend Nanally + Sakiri; 4) Prioritize stamina on character leveling materials, not low-level ones; 5) Daily must-dos: commissions, use all stamina, claim event rewards; 6) Activate waypoints first when exploring for easier material farming. Don't spread resources thin in early game.",
-    "tags": ["beginner", "guide"],
+    "tags": [
+      "beginner",
+      "guide"
+    ],
     "category": "beginner",
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
-    "relatedCharacters": ["nanally", "sakiri"],
-    "relatedMaterials": ["basic-hunter-guide", "credits"]
+    "relatedCharacters": [
+      "nanally",
+      "sakiri"
+    ],
+    "relatedMaterials": [
+      "basic-hunter-guide",
+      "credits"
+    ]
   },
   {
     "id": "launch-date-2026",
     "question": "异环2026年什么时候公测？具体上线日期是几号？",
     "questionEn": "When does NTE launch in 2026? What is the exact release date?",
-    "answer": "异环国服（中国大陆）将于2026年4月23日正式公测上线，国际服（全球）将于2026年4月29日上线。游戏由完美世界旗下Hotta Studio开发，支持PC、Android、iOS、Mac、HarmonyOS和PlayStation 5多平台游玩。公测前瞻特别节目将于4月18日19:30在B站、TapTap、YouTube等平台同步直播，届时将公布最终版本内容和直播专属兑换码。建议玩家提前完成预注册以领取预约奖励。",
-    "answerEn": "NTE Chinese server launches on April 23, 2026, and the global server launches on April 29, 2026. Developed by Hotta Studio (Perfect World), the game supports PC, Android, iOS, Mac, HarmonyOS, and PlayStation 5 with full cross-platform play. A launch preview livestream is scheduled for April 18 at 19:30 Beijing Time on Bilibili, TapTap, and YouTube, revealing final launch content and exclusive redeem codes. Complete pre-registration beforehand to claim all milestone rewards.",
-    "tags": ["release", "launch"],
+    "answer": "异环国服（中国大陆）已确认于2026年4月23日正式公测上线，国际服（全球）于2026年4月29日上线，预下载4月21日开放。游戏由完美世界旗下Hotta Studio开发，支持PC、Android、iOS、Mac、HarmonyOS和PlayStation 5多平台游玩，全平台数据互通。公测前瞻特别节目已于4月18日19:30在B站、TapTap、YouTube等平台播出，公布了6个兑换码、抽卡机制和16位上线角色等关键信息。",
+    "answerEn": "NTE Chinese server launches April 23, 2026 (confirmed). Global server launches April 29. Pre-download opens April 21. Developed by Hotta Studio (Perfect World), supporting PC, Android, iOS, Mac, HarmonyOS, and PS5 with full cross-platform data sharing. The launch preview livestream aired April 18 at 19:30 Beijing Time on Bilibili, TapTap, and YouTube, revealing 6 redeem codes, gacha mechanics, and the 16-character launch roster.",
+    "tags": [
+      "release",
+      "launch"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
@@ -536,9 +727,12 @@
     "id": "pre-download-time",
     "question": "异环预下载什么时候开始？怎么提前下载？",
     "questionEn": "When does NTE pre-download start? How to download early?",
-    "answer": "异环公测预下载通常在正式上线前1-2天开放。PC端可通过官网（yh.wanmei.com）或Epic Games Store下载客户端启动器，移动端可在App Store和Google Play预约自动下载。PC端游戏文件约25GB，移动端约8GB，建议使用WiFi提前下载避免开服当天服务器拥堵。预下载完成后，开服即可直接进入游戏，无需额外等待。关注官方社交媒体获取预下载开启的确切时间。",
-    "answerEn": "NTE pre-download typically opens 1-2 days before official launch. PC players can download through the official website (yh.wanmei.com) or Epic Games Store. Mobile users can pre-order on App Store and Google Play for automatic download. PC file size is approximately 25GB, mobile around 8GB. Download early via WiFi to avoid launch-day server congestion. Once pre-downloaded, you can enter the game immediately at launch. Follow official social media for the exact pre-download start time.",
-    "tags": ["system", "download"],
+    "answer": "异环公测预下载已确认为2026年4月21日开放。PC端可通过官网（yh.wanmei.com）或Epic Games Store下载客户端启动器，移动端可在App Store和Google Play预约自动下载。PC端游戏文件约25-30GB，移动端约8-10GB。NVIDIA用户建议更新至596.21 WHQL驱动以获得最佳体验。建议使用WiFi提前下载避免开服当天服务器拥堵。预下载完成后，4月23日开服即可直接进入游戏。",
+    "answerEn": "NTE pre-download confirmed for April 21, 2026. PC: download via official website (yh.wanmei.com) or Epic Games Store. Mobile: pre-order on App Store/Google Play. PC file size ~25-30GB, mobile ~8-10GB. NVIDIA users should update to driver 596.21 WHQL for optimal performance. Download early via WiFi to avoid launch-day congestion. Once downloaded, enter the game immediately when servers open on April 23.",
+    "tags": [
+      "system",
+      "download"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -551,7 +745,10 @@
     "questionEn": "When does NTE global server launch? How is it different from CN?",
     "answer": "异环国际服将于2026年4月29日正式上线，比国服晚6天。国际服将开设亚洲服、美洲服和欧洲服三个区域，数据与国服不互通。国际服内容与国服1.0版本基本一致，支持英语、日语、韩语等多种语言，中文配音完整保留。国际服上线时已包含国服首日的修复和优化，体验更稳定。活动节奏会比国服滞后约1-2个版本，这意味着国际服玩家可以参考国服攻略提前规划资源。付费定价按当地货币换算。",
     "answerEn": "NTE global server launches on April 29, 2026, six days after the CN server. Three regional servers will be available: Asia, Americas, and Europe. Data does not transfer between CN and global servers. Global 1.0 content matches CN 1.0 with English, Japanese, Korean, and other language support. Chinese voice acting is fully preserved. The global launch includes bug fixes and optimizations from CN's first days, providing a smoother experience. Event cadence trails CN by about 1-2 versions, so global players can reference CN guides for planning. Pricing is converted to local currencies.",
-    "tags": ["release", "global"],
+    "tags": [
+      "release",
+      "global"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
@@ -564,7 +761,10 @@
     "questionEn": "What's the difference between NTE CN and Global servers? Which should I play?",
     "answer": "异环国服和国际服的主要区别：1) 上线时间 — 国服4月23日，国际服4月29日；2) 服务器 — 数据不互通，角色和进度无法跨服迁移；3) 语言 — 国服以简体中文为主，国际服支持英语、日语、韩语等多语言；4) 活动节奏 — 国际服比国服滞后1-2个版本；5) 付费 — 定价基础一致，按当地货币换算；6) 社交 — 好友和公会仅限同一服务器。建议选择和你朋友相同的服务器，以及地理位置最近的服务器以获得最佳网络延迟。",
     "answerEn": "Key differences between CN and Global servers: 1) Launch date — CN on April 23, Global on April 29; 2) Servers — data does not transfer between regions; 3) Language — CN is Simplified Chinese, Global supports English, Japanese, Korean, and more; 4) Content pace — Global trails CN by 1-2 versions; 5) Pricing — base prices are consistent, converted to local currency; 6) Social — friends and guilds are server-specific. Choose the server your friends play on and the closest to your location for best latency.",
-    "tags": ["release", "global"],
+    "tags": [
+      "release",
+      "global"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
@@ -577,11 +777,17 @@
     "questionEn": "How many free pulls can I get at NTE launch? Total free resources?",
     "answer": "异环公测1.0版本零氪玩家预计可免费获得约418抽，足以保证获得2名限定S级角色及其专属武器。具体来源：1) 预注册奖励 — 20连抽券（需在开服7天内登录领取）；2) 连续7天登录奖励 — 约30连抽；3) 主线剧情奖励 — 约20连抽等价资源；4) 1.0版本庆典活动 — 约15连抽；5) 每日/周常任务持续积累；6) 成就系统奖励；7) 探索进度奖励。此外，3000万预约里程碑还赠送免费A级角色哈尼尔。建议合理规划这些资源，优先保证获取核心角色。",
     "answerEn": "F2P players can earn approximately 418 free pulls during NTE Version 1.0 — enough to guarantee 2 limited S-rank characters and their signature weapons. Breakdown: 1) Pre-registration rewards — 20 multi-pulls (claim within 7 days of launch); 2) 7-day login bonus — approximately 30 pulls; 3) Story completion — approximately 20 pulls equivalent; 4) 1.0 celebration events — approximately 15 pulls; 5) Daily/weekly task accumulation; 6) Achievement rewards; 7) Exploration milestones. The 30M pre-registration milestone also grants a free A-rank character Haniel. Plan these resources carefully to secure core characters first.",
-    "tags": ["gacha", "beginner", "currency"],
+    "tags": [
+      "gacha",
+      "beginner",
+      "currency"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
-    "relatedCharacters": ["haniel"],
+    "relatedCharacters": [
+      "haniel"
+    ],
     "relatedMaterials": []
   },
   {
@@ -590,7 +796,10 @@
     "questionEn": "Does NTE support cross-platform play and cross-save?",
     "answer": "异环支持全平台数据互通和跨平台游玩。你可以在PC、Android、iOS、Mac、HarmonyOS和PlayStation 5之间自由切换，游戏进度、角色和物品数据完全同步。这意味着你可以在家用PC端高画质体验，出门用手机继续同样的进度。需要注意的是，不同区域的服务器（如国服、亚洲服、美洲服、欧洲服）之间数据不互通。此外，部分付费货币可能因平台政策限制而无法跨平台使用（如iOS购买的货币在Android上可能不可用）。",
     "answerEn": "NTE supports full cross-platform play and cross-save across PC, Android, iOS, Mac, HarmonyOS, and PlayStation 5. Your game progress, characters, and items sync completely between platforms — play on PC at home and continue on mobile on the go. Note that different regional servers (CN, Asia, Americas, Europe) do not share data. Additionally, some premium currencies may have platform-specific restrictions due to platform policies (e.g., currencies purchased on iOS may not be usable on Android).",
-    "tags": ["system", "platform"],
+    "tags": [
+      "system",
+      "platform"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -603,7 +812,10 @@
     "questionEn": "How large is the NTE download? How much storage space is needed?",
     "answer": "异环的下载大小因平台而异：PC端安装包约25GB，完整安装后可能需要30-40GB存储空间；移动端（Android/iOS）安装包约8GB，完整安装后约10-12GB。建议预留额外空间用于后续版本更新缓存。由于异环使用虚幻引擎5开发，画面表现优秀但对存储空间要求较高。建议使用SSD硬盘安装PC版以获得更快的加载速度。移动端如果空间不足，可以在设置中选择降低画质以减少资源占用。",
     "answerEn": "NTE download size varies by platform: PC requires approximately 25GB download, 30-40GB after full installation. Mobile (Android/iOS) requires about 8GB download, 10-12GB after installation. Reserve extra space for future version updates. Since NTE uses Unreal Engine 5, it delivers excellent visuals but requires significant storage. SSD is recommended for PC for faster loading. If mobile storage is tight, you can reduce graphics settings to minimize resource usage.",
-    "tags": ["system", "download"],
+    "tags": [
+      "system",
+      "download"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -616,7 +828,10 @@
     "questionEn": "Is NTE free to play? Do I need to spend money?",
     "answer": "异环是一款完全免费下载和游玩的游戏，采用免费+内购的模式。所有核心玩法内容（主线剧情、开放世界探索、副本挑战等）都可以免费体验。内购项目主要包括：抽卡资源（获取角色和武器）、月卡（每日领取资源）、通行证（任务奖励）、外观道具等。零氪玩家通过日常积累完全可以获得充足的游戏资源，每个版本约可积攒60-80抽。公测1.0版本零氪玩家预计可获得约418次免费抽卡机会。游戏不强制消费，付费主要是加速获取角色和外观。",
     "answerEn": "NTE is completely free to download and play, using a free-to-play with optional in-app purchases model. All core content — main story, open world exploration, dungeon challenges — is accessible without spending money. In-app purchases include gacha resources (for characters and weapons), monthly pass (daily resources), battle pass (task rewards), and cosmetics. F2P players can accumulate sufficient resources through regular play, earning approximately 60-80 pulls per version. Version 1.0 offers roughly 418 free pulls for F2P players. The game never forces spending — payments mainly accelerate character acquisition and cosmetics.",
-    "tags": ["beginner", "currency"],
+    "tags": [
+      "beginner",
+      "currency"
+    ],
     "category": "currency",
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
@@ -629,7 +844,10 @@
     "questionEn": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
     "answer": "异环的抽卡保底机制相比同类游戏更加友好。角色池方面，90抽必定获得S级角色（小保底）。如果小保底出的不是当期UP角色，下一个保底必定获得当期UP角色（大保底，最坏情况180抽）。武器池80抽保底，大保底只需120抽。与原神等游戏的50/50机制相比，异环的武器池设计更加友好，不会出现早期原神武器池「定轨」那样的高成本问题。保底次数在同类型卡池之间会继承，不会因为卡池更换而重置。",
     "answerEn": "NTE's gacha pity system is more player-friendly than similar games. For character banners: 90 pulls guarantee an S-rank (soft pity). If the S-rank isn't the featured character, the next pity guarantees the featured character (hard pity, worst case 180 pulls). Weapon banners: 80-pull soft pity, 120-pull hard pity. Compared to Genshin Impact's 50/50 system, NTE's weapon banner is notably more generous — no expensive epitomized path mechanic. Pity counts carry over between banners of the same type and don't reset when banners change.",
-    "tags": ["gacha", "pity"],
+    "tags": [
+      "gacha",
+      "pity"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
@@ -642,11 +860,19 @@
     "questionEn": "How to reroll in NTE? Is rerolling worth it?",
     "answer": "异环刷初始的方法：1) 完成新手教程和前期主线任务，获取初始抽卡资源；2) 使用新手池折扣抽卡获取第一个S级角色；3) 如果对结果不满意，切换新账号重新开始。刷初始热门目标包括娜娜莉（强力主C）、咲里（核心支援）和达芙迪尔（护盾防护）。不过需要考虑的是，异环公测1.0版本赠送约418次免费抽卡，资源非常充足，即使不刷初始也能轻松获得多个S级角色。此外，游戏还提供免费A级角色哈尼尔和开服6选1自选S级机会。总体来说，除非你追求特定的初始组合，否则刷初始的性价比不高。",
     "answerEn": "How to reroll in NTE: 1) Complete the tutorial and early story quests to earn initial gacha resources; 2) Use the discounted beginner banner for your first S-rank; 3) If unsatisfied, switch to a new account. Popular reroll targets include Nanally (top DPS), Sakiri (core support), and Daffodil (shield defense). However, Version 1.0 gives approximately 418 free pulls, making rerolling less necessary. You'll also receive a free A-rank Haniel and a 6-choose-1 S-rank selector. Unless you want a specific starting combination, rerolling has low cost-effectiveness given the generous launch rewards.",
-    "tags": ["beginner", "gacha"],
+    "tags": [
+      "beginner",
+      "gacha"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
-    "relatedCharacters": ["nanally", "sakiri", "daffodil", "haniel"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri",
+      "daffodil",
+      "haniel"
+    ],
     "relatedMaterials": []
   },
   {
@@ -655,11 +881,20 @@
     "questionEn": "NTE launch 6-choose-1: Which free S-rank character should I pick?",
     "answer": "异环公测开服会赠送一个6选1的S级自选角色券，选择建议根据你的队伍定位来决定：1) 如果你缺少主C，推荐娜娜莉 — 当前版本公认的顶级输出，Anima属性近战角色，伤害稳定且操作简单；2) 如果你已有主C但缺少支援，推荐咲里 — 通用性极强的支援角色，几乎所有队伍都能用；3) 如果你需要生存保障，推荐达芙迪尔 — 护盾防护角色，高难内容中非常实用；4) 如果你想要灵活的输出，拉克莉莫萨和零也是很好的选择。新手最推荐娜娜莉，因为一个强力的主C是前期开荒的基础。",
     "answerEn": "NTE's launch 6-choose-1 S-rank selector recommendation depends on your team needs: 1) If you need a main DPS, choose Nanally — the公认的 top DPS with stable damage and simple mechanics; 2) If you have a DPS but need support, choose Sakiri — a universal support that fits almost any team; 3) For survivability, choose Daffodil — a shield defender excellent in challenging content; 4) For flexible damage, Lacrimosa and Zero are strong alternatives. Nanally is the top recommendation for beginners since a strong main DPS is the foundation for early game progression.",
-    "tags": ["beginner", "characters"],
+    "tags": [
+      "beginner",
+      "characters"
+    ],
     "category": "beginner",
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
-    "relatedCharacters": ["nanally", "sakiri", "daffodil", "lacrimosa", "zero"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri",
+      "daffodil",
+      "lacrimosa",
+      "zero"
+    ],
     "relatedMaterials": []
   },
   {
@@ -668,7 +903,10 @@
     "questionEn": "Is NTE F2P friendly? Can I enjoy it without spending money?",
     "answer": "异环对零氪玩家非常友好。首先，公测1.0版本零氪可获得约418次免费抽卡，足够保底2个限定S级角色加专属武器。其次，A级角色在合理培养后完全可以胜任大部分游戏内容，与S级角色的差距并不悬殊。日常玩法中，每日委托、周常任务、探索奖励和活动奖励提供稳定的资源获取渠道。月卡和通行证虽然能加速进度，但不是必需品。游戏的核心内容（主线剧情、开放世界探索、副本挑战）全部免费开放，不会设置付费墙。总体来说，零氪玩家可以获得完整且优质的游戏体验。",
     "answerEn": "NTE is very F2P-friendly. Version 1.0 provides approximately 418 free pulls — enough to guarantee 2 limited S-rank characters plus their signature weapons. A-rank characters perform well in most content when properly built, with a manageable gap compared to S-ranks. Daily commissions, weekly tasks, exploration rewards, and events provide steady resource income. Monthly pass and battle pass accelerate progress but aren't necessary. All core content — main story, open world exploration, dungeon challenges — is fully accessible without spending. F2P players can enjoy a complete and high-quality experience.",
-    "tags": ["beginner", "currency"],
+    "tags": [
+      "beginner",
+      "currency"
+    ],
     "category": "currency",
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
@@ -681,7 +919,10 @@
     "questionEn": "Does NTE have multiplayer/co-op? How does it work?",
     "answer": "异环支持最多4人联机合作。联机玩法包括：1) 协作任务 — 组队完成专门的协作挑战，奖励比单人更丰厚；2) 世界Boss挑战 — 多人协作击败强力Boss，降低战斗难度；3) 副本合作 — 部分高难副本支持多人挑战。联机时宝箱和收集品的获取是独立的（每个人都能拾取），不会出现争抢的情况。游戏还支持实时语音、表情互动等社交功能。匹配系统可以根据玩家等级和进度智能匹配队友。建议在高难度区域探索时组队前往。",
     "answerEn": "NTE supports up to 4-player co-op. Multiplayer features include: 1) Cooperative Missions — team up for exclusive challenges with better rewards than solo; 2) World Boss battles — coordinate to defeat powerful bosses; 3) Dungeon co-op — some challenging dungeons support multiplayer. Chests and collectibles are independent per player, so there's no competition. The game also supports real-time voice chat, emotes, and other social features. The matchmaking system pairs players by level and progress. Team up for high-difficulty area exploration.",
-    "tags": ["system", "multiplayer"],
+    "tags": [
+      "system",
+      "multiplayer"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -694,11 +935,17 @@
     "questionEn": "Which S-rank should beginners choose first? Build priority",
     "answer": "异环新手第一个S级角色推荐：首选娜娜莉（Anima属性主C）— 输出能力最强，操作简单，前期开荒和后期高难内容都表现出色。如果你通过新手池或自选券已经获得了娜娜莉，第二个推荐咲里（Incantation属性支援）— 几乎适配任何队伍的全能辅助。培养优先级建议：1) 集中资源把主C升到当前最高等级；2) 其次提升武器等级；3) 最后考虑碟片属性。技能方面优先点满主C的核心输出技能。不要同时培养太多角色，前期资源集中投入1个主C + 1个支援即可。",
     "answerEn": "Recommended first S-rank for beginners: Nanally (Anima DPS) — strongest output, simple to play, excellent from early game through endgame. If you already have Nanally, your second pick should be Sakiri (Incantation Support) — a versatile support that fits nearly any team. Build priority: 1) Focus resources to max your main DPS level; 2) Upgrade weapon level next; 3) Optimize disc stats last. Prioritize maxing your main DPS's core damage skill. Don't build too many characters simultaneously — focus on 1 main DPS + 1 support in early game.",
-    "tags": ["beginner", "characters"],
+    "tags": [
+      "beginner",
+      "characters"
+    ],
     "category": "beginner",
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
-    "relatedCharacters": ["nanally", "sakiri"],
+    "relatedCharacters": [
+      "nanally",
+      "sakiri"
+    ],
     "relatedMaterials": []
   },
   {
@@ -707,7 +954,10 @@
     "questionEn": "Is NTE available on PS5? When is the console version coming?",
     "answer": "异环确认支持PlayStation 5平台，将在PC和移动端上线后推出PS5版本。PS5版将利用主机硬件优势提供高品质的画面表现和流畅的游戏体验，支持手柄操控和触觉反馈。PS5版与PC和移动端数据互通，可以在不同平台间无缝切换。具体的PS5版上线时间请关注官方公告。除了PS5，游戏还支持PC、Android、iOS、Mac和HarmonyOS。",
     "answerEn": "NTE is confirmed for PlayStation 5. The PS5 version will launch after the PC and mobile release, leveraging console hardware for high-quality visuals and smooth gameplay with controller support and haptic feedback. PS5 data syncs with PC and mobile versions for seamless cross-platform play. Follow official announcements for the exact PS5 launch date. Beyond PS5, NTE supports PC, Android, iOS, Mac, and HarmonyOS.",
-    "tags": ["system", "platform"],
+    "tags": [
+      "system",
+      "platform"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -720,7 +970,10 @@
     "questionEn": "Can I play NTE on Mac? How to download the Mac version?",
     "answer": "异环确认支持Mac平台。Mac用户可以通过官网下载Mac版客户端进行游玩。由于游戏使用虚幻引擎5开发，建议使用搭载Apple Silicon（M1及以上芯片）的Mac以获得最佳性能体验。Intel芯片的Mac也可以运行，但性能可能不如Apple Silicon机型。Mac版与PC、移动端数据完全互通，游戏进度同步。具体的Mac版下载方式和配置要求，请关注官网的下载页面。",
     "answerEn": "NTE is confirmed for Mac. Mac users can download the client from the official website. Since the game uses Unreal Engine 5, Apple Silicon Macs (M1 or later) are recommended for optimal performance. Intel-based Macs can also run the game but may have lower performance. The Mac version fully syncs with PC and mobile platforms. Check the official website's download page for specific Mac system requirements and installation instructions.",
-    "tags": ["system", "platform"],
+    "tags": [
+      "system",
+      "platform"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -733,12 +986,17 @@
     "questionEn": "What currency is used for gacha in NTE? What is Fons?",
     "answer": "异环抽卡主要使用两种货币：原晶（付费/免费）和抽卡券。原晶是游戏中的高级货币，分为免费原晶（通过游戏内日常、任务、探索获取）和付费原晶（充值获得）两种。免费和付费原晶在抽卡时等价使用，但部分限定商品可能只能用付费原晶购买。单抽消耗160原晶，十连消耗1600原晶。抽卡券可通过活动、成就和商店兑换获得，每张抽卡券等同于一次单抽。星尘是抽卡副产物，积累后可在商店兑换指定角色或武器。",
     "answerEn": "NTE gacha primarily uses two currencies: Original Crystals (free/paid) and Gacha Tickets. Original Crystals are the premium currency, available as free crystals (earned through gameplay, tasks, and exploration) and paid crystals (from purchases). Both types are equivalent for gacha pulls, though some exclusive items may require paid crystals. Single pull costs 160 crystals, 10-pull costs 1600. Gacha tickets from events and achievements each equal one single pull. Stardust, a gacha byproduct, can be accumulated to exchange for specific characters or weapons in the shop.",
-    "tags": ["gacha", "currency"],
+    "tags": [
+      "gacha",
+      "currency"
+    ],
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits"]
+    "relatedMaterials": [
+      "credits"
+    ]
   },
   {
     "id": "collapse-mechanic",
@@ -746,7 +1004,10 @@
     "questionEn": "What is Collapse (Qingxian) in NTE? How to trigger Break?",
     "answer": "倾陷值是异环战斗中的核心机制之一，类似于其他游戏中的「破防条」或「韧性条」。每个敌人都有隐藏的倾陷值槽，通过攻击可以不断积累。触发方式：1) 普通攻击和技能攻击会积累倾陷值；2) 极限闪避成功后获得的增伤效果可以更快积累倾陷值；3) 属性克制的攻击积累更多倾陷值。当倾陷值蓄满后，敌人进入「破防」状态，期间受到的伤害大幅增加且无法行动。合理利用倾陷机制，配合队伍属性克制，是高效战斗的关键。",
     "answerEn": "Collapse (Qingxian) is a core combat mechanic in NTE, similar to a \"break gauge\" or \"stagger meter\" in other games. Every enemy has a hidden Collapse gauge that fills as you attack. How to build: 1) Normal attacks and skills fill the gauge; 2) Perfect Dodge boosts accelerate gauge filling; 3) Attribute-counter attacks fill the gauge faster. When fully charged, enemies enter a \"Break\" state — taking significantly increased damage and unable to act. Exploiting the Collapse mechanic combined with attribute counters is key to efficient combat.",
-    "tags": ["combat", "mechanics"],
+    "tags": [
+      "combat",
+      "mechanics"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -759,7 +1020,10 @@
     "questionEn": "What is Ring Fusion (Huanhe) in NTE? How to trigger it?",
     "answer": "环合是异环的核心战斗系统之一。使用方法：1) 通过普通攻击和技能攻击积累环合值；2) 当环合值充满后，切换到对应属性的队友即可触发环合爆发；3) 环合爆发会对敌人造成大量范围伤害。推荐的属性搭配：光属性加灵属性（创生组合）可以触发自动范围爆炸，非常适合清理群怪。合理规划队伍的属性搭配和角色切换顺序，是掌握环合系统的关键。不同属性组合的环合效果各不相同，建议多尝试找到最适合你的搭配。",
     "answerEn": "Ring Fusion (Huanhe) is a core combat system in NTE. How to use: 1) Build up the Fusion gauge through normal attacks and skills; 2) When full, switch to a teammate with the matching attribute to trigger a Ring Fusion Burst; 3) The burst deals massive AoE damage. Recommended combo: Light + Spirit attribute combination triggers automatic AoE explosions, ideal for clearing groups. Planning your team's attribute composition and switch order is key to mastering Ring Fusion. Different attribute combinations produce different effects — experiment to find your best setup.",
-    "tags": ["combat", "mechanics"],
+    "tags": [
+      "combat",
+      "mechanics"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -772,7 +1036,10 @@
     "questionEn": "How many elements does NTE have? What is the weakness chart?",
     "answer": "异环中共有六种属性，分为光（生命/Anima）、灵（灵魂/Psyche）、咒（咒术/Incantation）、暗（混沌/Chaos）、魂（宇宙/Cosmos）和相（Lakshana）。不同属性之间存在克制关系，利用属性克制可以对敌人造成约1.5倍的额外伤害。在战斗中观察敌人的属性弱点，切换对应属性的角色进行攻击，可以大幅提高战斗效率。组建队伍时建议至少覆盖2种以上属性，避免被敌人克制。光加灵的属性组合还可以触发创生效果，在环合系统中非常强力。",
     "answerEn": "NTE features six attributes: Light (Anima), Spirit (Psyche), Incantation, Dark (Chaos), Soul (Cosmos), and Lakshana. Different attributes have weakness relationships — exploiting them deals approximately 1.5x bonus damage. Observe enemy weaknesses in combat and switch to matching attribute characters for maximum efficiency. Build teams covering at least 2 attributes to avoid being countered. The Light + Spirit combination triggers a Creation effect that's particularly powerful in the Ring Fusion system.",
-    "tags": ["combat", "attributes"],
+    "tags": [
+      "combat",
+      "attributes"
+    ],
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
@@ -785,11 +1052,16 @@
     "questionEn": "Which A-rank characters are best in NTE? A-rank worth building",
     "answer": "异环中A级角色虽然基础面板低于S级，但培养成本更低，在特定配队中表现出色。推荐培养的A级角色：1) 智 — 培养成本极低但实用性高，适合新手过渡；2) 埃德加 — 三测中唯一的奶妈角色，在需要治疗的关卡中不可替代；3) 奈莉 — 特定配队中输出能力不俗；4) 凛子 — Incantation属性进攻型角色，伤害可观。A级角色在合理培养和装备搭配下完全可以胜任大部分游戏内容，建议零氪玩家优先培养A级角色来组建基础队伍。",
     "answerEn": "While A-rank characters have lower base stats than S-ranks, they cost less to build and perform well in specific teams. Recommended A-ranks: 1) Chiz — extremely low build cost with high practicality, great for beginners; 2) Edgar — the only healer in CBT3, irreplaceable in stages requiring healing; 3) Nelly — competitive damage in the right team composition; 4) Lingko — solid Incantation Attack damage. A-rank characters can handle most game content with proper builds. F2P players should prioritize A-ranks for their foundation team.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["chiz", "edgar"],
+    "relatedCharacters": [
+      "chiz",
+      "edgar"
+    ],
     "relatedMaterials": []
   },
   {
@@ -798,11 +1070,16 @@
     "questionEn": "Is Mint (Bohuo) worth building in NTE?",
     "answer": "薄荷（Mint）是Anima属性的输出型角色。在测试期间表现不错，拥有稳定的伤害输出能力。与同为Anima属性的娜娜莉相比，薄荷的输出略低但获取难度更低。如果你没有获得娜娜莉，薄荷可以作为Anima属性输出的替代选择。在合理培养下，薄荷完全可以应对日常推图和中等难度的副本内容。如果你是零氪玩家或刚入坑的新手，薄荷是一个性价比不错的培养选择。",
     "answerEn": "Mint is an Anima attribute DPS character. During testing, Mint showed solid performance with stable damage output. Compared to the fellow Anima character Nanally, Mint deals slightly less damage but is easier to obtain. If you don't have Nanally, Mint serves as a solid Anima DPS alternative. With proper investment, Mint can handle daily content and mid-difficulty dungeons comfortably. For F2P players or beginners, Mint offers good value as a build target.",
-    "tags": ["characters"],
+    "tags": [
+      "characters"
+    ],
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": ["mint", "nanally"],
+    "relatedCharacters": [
+      "mint",
+      "nanally"
+    ],
     "relatedMaterials": []
   },
   {
@@ -811,7 +1088,10 @@
     "questionEn": "Does NTE have a housing system? How to buy and decorate a home?",
     "answer": "异环拥有完整的房屋系统。玩家可以在海特洛市中购买属于自己的房产，并进行室内装修和家具摆放。公测版本对房屋系统进行了全面扩展，改进了家具放置的交互体验。房屋不仅是装饰性质，还可能提供一些实用的功能加成。公测路线图中确认将持续优化房屋系统，增加更多家具种类和互动玩法。邀请好友参观你的住所也是游戏社交的一部分。",
     "answerEn": "NTE features a complete housing system. Players can purchase property in Hethereau City, decorate interiors, and place furniture. The launch version significantly expands the housing system with improved furniture placement interactions. Housing isn't purely decorative — it may provide practical functional bonuses. The official roadmap confirms continued housing system improvements with more furniture types and interactive features. Inviting friends to visit your home is also part of the game's social features.",
-    "tags": ["system", "exploration"],
+    "tags": [
+      "system",
+      "exploration"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -824,12 +1104,17 @@
     "questionEn": "What is the Shop Manager system in NTE? How to auto-farm currency?",
     "answer": "店长特供是异环中一个独特的经营系统。玩家可以管理自己的店铺，设置商品后系统会自动运营产生收益。这个系统允许玩家在离线或忙于其他玩法时也能持续获得游戏内货币。设置方法：1) 在指定区域开设店铺；2) 配置要出售的商品种类；3) 系统会自动模拟经营过程并定期结算收益。这个系统为零氪玩家提供了稳定的被动收入来源，建议尽早解锁并合理配置商品以最大化收益。",
     "answerEn": "The Shop Manager is a unique business management system in NTE. Players can manage their own shops — set up products and the system automatically runs the business to generate income. This provides passive currency even when you're offline or focused on other activities. Setup: 1) Open a shop in designated areas; 2) Configure product types; 3) The system simulates operations and periodically settles profits. This system offers F2P players a stable passive income source. Unlock it early and optimize product selection for maximum returns.",
-    "tags": ["system", "currency"],
+    "tags": [
+      "system",
+      "currency"
+    ],
     "category": "currency",
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": ["credits"]
+    "relatedMaterials": [
+      "credits"
+    ]
   },
   {
     "id": "city-tycoon",
@@ -837,7 +1122,10 @@
     "questionEn": "How does the City Tycoon mode work in NTE?",
     "answer": "都市大亨是异环三测中新增的热门玩法系统，整合了多种城市生活模拟元素。玩家可以体验：1) 买房置业 — 在海特洛市购买不同地段的房产；2) 车辆驾驶 — 获取和驾驶多种车型在城市中穿行；3) 社交约会 — 与角色建立更深层的互动关系；4) 迷你游戏 — 包括麻将、赛车等多种休闲娱乐玩法（公测版新增AI对手）。这个系统让异环不仅有战斗和探索，还提供了丰富的休闲玩法，是游戏的一大特色。",
     "answerEn": "City Tycoon is a popular system introduced in NTE's CBT3, integrating multiple city life simulation elements. Players can: 1) Purchase real estate in different Hethereau City locations; 2) Drive various vehicles through the city; 3) Build deeper relationships with characters through social interactions; 4) Enjoy mini-games including mahjong, racing, and more (launch version adds AI opponents). This system gives NTE rich casual gameplay beyond combat and exploration, making it one of the game's standout features.",
-    "tags": ["system", "exploration"],
+    "tags": [
+      "system",
+      "exploration"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -850,7 +1138,9 @@
     "questionEn": "Does NTE have character customization? How detailed is it?",
     "answer": "异环的角色自定义系统提供了一定程度的个性化选项，但不是传统的完全自由捏脸系统。玩家可以调整主角的外观元素，包括发型、发色等基础外观设定。与完全自定义捏脸的游戏相比，异环更注重预设角色形象的塑造，因为游戏中的角色都有完整的剧情设定和人物性格。主角虽然有一定的自定义空间，但整体上更偏向于固定形象的角色扮演体验。公测版本可能会增加更多外观选项。",
     "answerEn": "NTE offers some character customization but isn't a traditional full character creator. Players can adjust the protagonist's appearance elements including hairstyle, hair color, and other basic visual settings. Compared to games with full freeform character creation, NTE focuses more on established character designs since characters have complete story backgrounds and personalities. The protagonist has some customization options but leans toward a fixed-identity RPG experience. The launch version may add more appearance options.",
-    "tags": ["system"],
+    "tags": [
+      "system"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -863,7 +1153,10 @@
     "questionEn": "Does NTE have auto-battle? Can I AFK farm materials?",
     "answer": "异环目前没有传统意义上的自动战斗系统。游戏强调手动操作的战斗乐趣，包括极限闪避、角色切换和环合爆发等机制都需要玩家主动操作。不过，游戏提供了一些减少重复操作的功能：1) 材料副本在达到一定战力后可以快速通关；2) 店长特供系统提供被动收入，不需要手动操作；3) 部分日常委托可以快速完成。目前不建议期待完整的自动战斗功能，游戏的核心乐趣在于手动战斗的策略和操作。",
     "answerEn": "NTE currently doesn't have a traditional auto-battle system. The game emphasizes manual combat enjoyment — Perfect Dodge, character switching, and Ring Fusion all require active player input. However, some features reduce repetitive grinding: 1) Material domains can be quick-cleared once you exceed the power threshold; 2) The Shop Manager system provides passive income without manual play; 3) Some daily commissions can be quick-completed. Don't expect full auto-battle — NTE's core appeal is strategic and manual combat.",
-    "tags": ["system", "beginner"],
+    "tags": [
+      "system",
+      "beginner"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -876,7 +1169,10 @@
     "questionEn": "How to drive vehicles in NTE? What vehicles are available?",
     "answer": "异环拥有完整的载具驾驶系统，玩家可以在海特洛市的开放世界中自由驾驶多种车辆。载具种类包括多种轿车和跑车等不同车型，公测版本还增加了更多车辆种类。驾驶操作支持触屏虚拟方向盘和手柄操控，PC端支持键盘控制。公测版对全平台的驾驶机制进行了优化，操控手感更加流畅。车辆不仅是交通工具，还可以在特定任务和活动中使用。部分稀有载具需要通过游戏内活动或成就获取。",
     "answerEn": "NTE features a complete vehicle driving system. Players can freely drive various vehicles through Hethereau City's open world. Vehicle types include multiple sedans and sports cars, with more varieties added in the launch version. Controls support touch-screen virtual steering, gamepad, and keyboard. The launch version optimizes driving mechanics across all platforms for smoother handling. Vehicles serve as transportation and are used in specific missions and events. Some rare vehicles are earned through in-game events and achievements.",
-    "tags": ["exploration", "system"],
+    "tags": [
+      "exploration",
+      "system"
+    ],
     "category": "exploration",
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
@@ -889,7 +1185,10 @@
     "questionEn": "Is NTE available on HarmonyOS? Can I play on Huawei phones?",
     "answer": "异环确认支持鸿蒙（HarmonyOS）系统。华为手机用户可以直接在鸿蒙系统的应用市场中搜索并下载异环。游戏对鸿蒙系统进行了专门适配，确保在华为设备上能正常运行。需要注意的是，由于游戏使用虚幻引擎5开发，对硬件配置有一定要求，建议使用较新的华为旗舰机型以获得最佳体验。如果设备配置较低，可以在游戏设置中降低画质来提升流畅度。",
     "answerEn": "NTE is confirmed to support HarmonyOS. Huawei phone users can search for and download NTE directly from the HarmonyOS app market. The game has been specifically optimized for HarmonyOS to ensure proper functionality on Huawei devices. Note that since NTE uses Unreal Engine 5, it has hardware requirements — newer Huawei flagship models are recommended for the best experience. If your device has lower specs, you can reduce graphics settings in-game for better performance.",
-    "tags": ["system", "platform"],
+    "tags": [
+      "system",
+      "platform"
+    ],
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
@@ -902,10 +1201,212 @@
     "questionEn": "How to participate in the NTE pre-gacha event? What are the rewards?",
     "answer": "异环公测前正在举办预抽卡活动，参加方式：1) 前往官网或TapTap的异环预抽卡活动页面；2) 定制你的「海特洛市民卡」；3) 完成指定任务获取启程道具抽取机会。活动奖励包括：Fabrication Dice×20、A级Arc Disc、抽卡券等珍贵资源。活动截止时间为2026年4月22日23:59，请务必在此之前完成参与。此外，参与过此前「共存测试」的玩家在公测时可以获得充值返还。实体奖品还包括PS5主机和官方周边。",
     "answerEn": "NTE is running a pre-gacha event before launch. How to participate: 1) Visit the official website or TapTap pre-gacha event page; 2) Customize your Hethereau Citizen Card; 3) Complete tasks to earn draw chances. Rewards include: Fabrication Dice ×20, A-rank Arc Disc, gacha tickets, and more. The event ends on April 22, 2026 at 23:59 — participate before then. Players who participated in the Coexistence Test will receive purchase refunds at launch. Physical prizes include a PS5 console and official merchandise.",
-    "tags": ["release", "gacha"],
+    "tags": [
+      "release",
+      "gacha"
+    ],
     "category": "release",
     "categoryZh": "上线信息",
     "categoryEn": "Release",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "livestream-codes-2026",
+    "question": "异环前瞻直播兑换码有哪些？怎么领取？",
+    "questionEn": "What are the NTE livestream redeem codes? How to claim?",
+    "answer": "异环公测前瞻直播（4月18日）公布了6个兑换码。国服兑换码：YHNOWTOENJOY、YHNANALLYGO、YHOB0423，有效期至2026年5月7日23:59。国际服兑换码：NTENOWTOENJOY、NTENANALLYGO、NTE0429，有效期至2026年5月13日23:59。兑换方式：进入游戏后，点击右上角头像 → 设置 → 兑换码输入框中输入即可。注意兑换码需在游戏上线后才能使用，建议在开服后第一时间兑换，避免过期。",
+    "answerEn": "The NTE launch preview livestream (April 18) revealed 6 redeem codes. CN server: YHNOWTOENJOY, YHNANALLYGO, YHOB0423 (expire May 7, 2026). Global server: NTENOWTOENJOY, NTENANALLYGO, NTE0429 (expire May 13, 2026). How to redeem: Enter the game → tap your profile icon (top-right) → Settings → enter code in the Redeem Code field. Codes can only be used after the game launches. Redeem immediately after launch to avoid expiration.",
+    "tags": [
+      "currency",
+      "codes"
+    ],
+    "category": "currency",
+    "categoryZh": "货币系统",
+    "categoryEn": "Currency",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "no-50-50-confirmed",
+    "question": "异环抽卡真的没有50/50吗？公测前瞻直播确认了什么？",
+    "questionEn": "Does NTE really have no 50/50? What did the livestream confirm?",
+    "answer": "公测前瞻直播已正式确认：异环的限定角色卡池没有50/50机制。这意味着触发保底时100%获得当期UP的限定S级角色，不存在「歪」到常驻角色的情况。具体规则：限定池90抽硬保底，平均出货约53.5抽；新手池20抽必出S级且可自选；常驻池50抽可自选S级；武器池80抽保底UP武器。与原神的180抽最差情况相比，异环只需90抽就能确保获得想要的限定角色，资源效率翻倍。",
+    "answerEn": "The launch livestream officially confirmed: NTE limited character banner has NO 50/50 system. When pity triggers, you are 100% guaranteed the featured limited S-rank character — no losing to standard pool characters. Specific rules: Limited banner 90-pull hard pity, average ~53.5 pulls; Beginner banner 20-pull guaranteed S-rank with selector; Standard banner 50-pull S-rank selector; Weapon banner 80-pull featured weapon pity. Compared to Genshin worst case of 180 pulls, NTE only needs 90 pulls to guarantee your desired limited character — double the resource efficiency.",
+    "tags": [
+      "gacha",
+      "pity"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "beginner-banner-selector",
+    "question": "异环新手池20抽自选是什么意思？能选什么角色？",
+    "questionEn": "What is the NTE beginner 20-pull selector? Which characters can I choose?",
+    "answer": "异环新手祈愿池的核心机制是：20抽内必出S级角色，而且可以自选你想要的那个角色。目前确认的可选角色包括薄荷（Mint）和早雾两位S级角色。薄荷是一名强力输出型角色，技能组合适合新手上手，前期推图效率高；早雾偏向辅助定位，能为队伍提供稳定增益。新手池仅限一次使用，建议优先选择薄荷来加速前期推图，除非你计划从限定池抽到其他输出角色。",
+    "answerEn": "NTE Beginner Wish core mechanic: guaranteed S-rank within 20 pulls, with a character selector. Currently confirmed selectable characters include Mint and Hayate, both S-rank. Mint is a powerful DPS with beginner-friendly skills and high early-game efficiency. Hayate leans toward support, providing stable team buffs. The beginner banner is one-time only. Recommended: Choose Mint to accelerate early progression unless you plan to pull a DPS from the limited banner.",
+    "tags": [
+      "gacha",
+      "beginner"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [
+      "mint"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "standard-banner-selector",
+    "question": "异环常驻池50抽自选S级怎么触发？能选谁？",
+    "questionEn": "How does the NTE standard 50-pull S-rank selector work?",
+    "answer": "异环常驻祈愿池提供50抽自选S级角色的机制。当你累计在常驻池抽满50抽后，可以从常驻S级角色名单中任选一位获得。常驻池的90抽硬保底也依然存在，但50抽自选让你不需要等到硬保底就能定向获取想要的角色。常驻S级角色包括娜娜莉、咲里、法蒂亚、拉克莉莫萨、百苍、零、穗鸟、达芙迪尔、薄荷等。建议优先选择你队伍缺少的定位角色，如没有好的支援就选咲里，没有坦克就选百苍。",
+    "answerEn": "NTE Standard Wish offers a 50-pull S-rank selector. After accumulating 50 pulls on the standard banner, you can choose any one character from the standard S-rank roster. The 90-pull hard pity still exists, but the 50-pull selector lets you target specific characters without waiting for pity. Standard S-rank characters include Nanally, Sakiri, Fadia, Lacrimosa, Baicang, Zero, Hotori, Daffodil, Mint, and more. Recommendation: Prioritize the role your team needs most — Sakiri for support, Baicang for tanking.",
+    "tags": [
+      "gacha",
+      "beginner"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "beta-refund",
+    "question": "异环测试服充值怎么返还？返还比例是多少？",
+    "questionEn": "How does NTE beta refund work? What is the refund rate?",
+    "answer": "异环官方确认，参与过测试服（共存测试）并有充值的玩家将获得充值返还，最高返还比例达150%。返还将在公测后通过游戏内邮件发放，形式为等值的游戏内货币。具体返还比例：首次充值部分150%返还，累计充值1000元以下部分120%返还，1000-5000元部分110%返还，5000元以上部分100%返还。此外，测试服购买的月卡和通行证也将在公测后免费赠送。这一返还比例在行业内属于最高水平。",
+    "answerEn": "NTE officially confirmed beta tester recharge refunds at up to 150%. Refunds will be delivered via in-game mail after launch as equivalent in-game currency. Refund rates: first purchase at 150%, cumulative spending under 1,000 CNY at 120%, 1,000-5,000 CNY at 110%, above 5,000 CNY at 100%. Monthly passes and battle passes purchased during beta will also be given free at launch. This refund rate is among the highest in the industry.",
+    "tags": [
+      "currency",
+      "release"
+    ],
+    "category": "currency",
+    "categoryZh": "货币系统",
+    "categoryEn": "Currency",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "xiaozhi-free-s-rank",
+    "question": "异环小志怎么免费获得？都市大亨玩法详解",
+    "questionEn": "How to get Xiaozhi for free in NTE? City Tycoon guide",
+    "answer": "小志（Xiaozhi）是异环公测新增的S级角色，可以通过「都市大亨」系统免费获得，且可以满突破。都市大亨是异环中整合了城市生活模拟元素的热门玩法，包括买房置业、车辆驾驶、社交互动、迷你游戏（麻将、赛车等，公测新增AI对手）等内容。通过持续参与都市大亨玩法，玩家可以积累资源解锁小志。这是游戏中非常少见的免费S级角色获取途径，建议所有玩家优先参与。",
+    "answerEn": "Xiaozhi is a new S-rank character added for launch, available for free through the City Tycoon system with full breakthrough potential. City Tycoon is a popular gameplay mode integrating city life simulation elements including real estate, vehicle driving, social interactions, and mini-games (mahjong, racing with new AI opponents). By consistently participating in City Tycoon activities, players can accumulate resources to unlock Xiaozhi. This is a rare free S-rank acquisition path — all players should prioritize participating.",
+    "tags": [
+      "characters",
+      "system"
+    ],
+    "category": "characters",
+    "categoryZh": "角色相关",
+    "categoryEn": "Characters",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "pre-download-details",
+    "question": "异环预下载4月21日几点开始？PC和手机怎么预下载？",
+    "questionEn": "When exactly does NTE pre-download start on April 21? How to pre-download?",
+    "answer": "异环公测预下载确认于2026年4月21日开放。PC端可通过官网（yh.wanmei.com）或Epic Games Store下载客户端启动器；移动端可在App Store和Google Play预约后自动下载。PC端游戏文件约25-30GB，移动端约8-10GB。建议使用WiFi提前下载避免开服当天服务器拥堵。预下载完成后，4月23日开服即可直接进入游戏无需额外等待。关注官方社交媒体获取预下载开启的确切时间点。",
+    "answerEn": "NTE pre-download is confirmed to open on April 21, 2026. PC players can download through the official website (yh.wanmei.com) or Epic Games Store. Mobile users can pre-order on App Store and Google Play for automatic download. PC file size: approximately 25-30GB. Mobile: approximately 8-10GB. Download early via WiFi to avoid launch-day server congestion. Once pre-downloaded, you can enter the game immediately when servers open on April 23. Follow official social media for the exact pre-download start time.",
+    "tags": [
+      "system",
+      "download"
+    ],
+    "category": "system",
+    "categoryZh": "游戏系统",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nvidia-driver-nte",
+    "question": "异环推荐用什么NVIDIA驱动？RT光追怎么开？",
+    "questionEn": "Which NVIDIA driver is recommended for NTE? How to enable RT?",
+    "answer": "NVIDIA已为异环公测发布了专属优化的显卡驱动596.21版本WHQL。该驱动针对异环的虚幻引擎5渲染管线进行了专门优化，可提升约15-20%的帧率表现并降低显存占用。建议所有NVIDIA显卡用户在公测前更新。RT光追开启方式：游戏设置 → 画面设置 → 光线追踪选项（需RTX系列显卡）。光追效果主要体现在都市夜景的建筑反射、霓虹灯散射和水面倒影上，视觉效果提升显著但会降低帧率，建议RTX 3060以上显卡开启。",
+    "answerEn": "NVIDIA released driver 596.21 WHQL specifically optimized for NTE. It targets the Unreal Engine 5 rendering pipeline, improving frame rates by approximately 15-20% while reducing VRAM usage. All NVIDIA GPU users should update before launch. To enable RT ray tracing: Game Settings → Graphics → Ray Tracing option (requires RTX series GPU). RT effects primarily enhance urban night scene building reflections, neon light scattering, and water reflections. Visual improvement is significant but reduces frame rate — recommended for RTX 3060 or above.",
+    "tags": [
+      "system",
+      "optimization"
+    ],
+    "category": "system",
+    "categoryZh": "游戏系统",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "launch-characters-full-list",
+    "question": "异环公测上线有哪些角色？16位角色完整名单",
+    "questionEn": "What characters are available at NTE launch? Complete 16-character roster",
+    "answer": "异环公测1.0版本确认上线16位可操控角色。S级11位：娜娜莉（Anima/进攻）、咲里（Incantation/支援）、达芙迪尔（Chaos/支援）、拉克莉莫萨（Chaos/进攻）、零（Cosmos/进攻）、百苍（Incantation/防护）、法蒂亚（Psyche/进攻）、哈索尔（Lakshana/进攻）、穗鸟（Cosmos/进攻）、赤子（Cosmos/进攻）、九远（Anima/辅助）。A级5位：薄荷（Anima/进攻）、埃德加（Cosmos/生存）、哈尼尔（Psyche，免费赠送）、斯基雅（Lakshana/进攻）、爱德勒（Incantation/生存）。另有新增A级角色奥蕾莉亚和通过都市大亨免费获得的S级角色小志。首发限定UP角色为娜娜莉。",
+    "answerEn": "NTE Version 1.0 confirmed 16 playable characters at launch. S-rank (11): Nanally (Anima/Attack), Sakiri (Incantation/Support), Daffodil (Chaos/Support), Lacrimosa (Chaos/Attack), Zero (Cosmos/Attack), Baicang (Incantation/Defense), Fadia (Psyche/Attack), Hathor (Lakshana/Attack), Hotori (Cosmos/Attack), Chiz (Cosmos/Attack), Jiuyuan (Anima/Utility). A-rank (5): Mint (Anima/Attack), Edgar (Cosmos/Survival), Haniel (Psyche, free gift), Skia (Lakshana/Attack), Adler (Incantation/Survival). Plus new A-rank Aurelia and free S-rank Xiaozhi via City Tycoon. First limited banner features Nanally.",
+    "tags": [
+      "characters",
+      "launch"
+    ],
+    "category": "characters",
+    "categoryZh": "角色相关",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "nanally",
+      "sakiri",
+      "zero",
+      "lacrimosa"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "pink-paws-coop",
+    "question": "异环粉爪联机是什么？怎么和朋友一起玩？",
+    "questionEn": "What is Pink Paws co-op in NTE? How to play with friends?",
+    "answer": "粉爪是异环公测新增的社交联机系统。玩家可以创建或加入探索小队，最多4人同时在线探索海特洛市的开放世界。粉爪系统支持实时语音通话、位置共享和协作任务触发。联机时宝箱和收集品是独立的（每个人都能拾取），不会出现争抢的情况。世界Boss可以多人协作挑战，降低战斗难度。公测版还新增了Pink Paws Heist联机关卡，提供更丰富的多人玩法。",
+    "answerEn": "Pink Paws is a new social co-op system in NTE. Players can create or join exploration squads of up to 4 players for simultaneous open-world exploration in Hethereau City. The system supports real-time voice chat, location sharing, and cooperative quest triggering. Chests and collectibles are independent per player — no competition. World Bosses can be tackled cooperatively for easier fights. The launch version also adds Pink Paws Heist co-op levels for richer multiplayer gameplay.",
+    "tags": [
+      "system",
+      "multiplayer"
+    ],
+    "category": "system",
+    "categoryZh": "游戏系统",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "prison-system",
+    "question": "异环监狱系统是什么？怎么玩？",
+    "questionEn": "What is the Anomaly Prison system in NTE? How does it work?",
+    "answer": "异常监狱是异环公测新增的独特探索区域。玩家需要潜入监狱调查异常事件，面对特殊的敌人类型和解谜关卡。监狱区域的氛围营造融合了恐怖和悬疑元素，与主城的都市幻想风格形成鲜明对比。公测版对监狱玩法进行了扩展，增加了更多逃脱方法、任务和奖励。建议携带战斗能力较强的队伍前往，因为监狱内的敌人强度较高。",
+    "answerEn": "Anomaly Prison is a unique new exploration zone in NTE. Players must infiltrate the prison to investigate anomalous events, facing special enemy types and puzzle encounters. The atmosphere blends horror and mystery elements, contrasting with the main city urban fantasy style. The launch version expands prison gameplay with more escape methods, quests, and rewards. Bring a strong combat team — enemies inside are challenging.",
+    "tags": [
+      "exploration",
+      "system"
+    ],
+    "category": "exploration",
+    "categoryZh": "地图探索",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "aurelia-launch-character",
+    "question": "异环奥蕾莉亚是谁？公测新A级角色介绍",
+    "questionEn": "Who is Aurelia in NTE? New A-rank launch character",
+    "answer": "奥蕾莉亚（Aurelia）是异环公测新增的A级角色。她在前瞻直播中首次亮相，此前未在任何测试版本中出现过。具体属性、武器类型和技能详情将在公测后确认。作为新增角色，奥蕾莉亚可能拥有独特的技能机制来丰富队伍搭配的多样性。建议关注游戏内的角色预览和我们网站的角色详情页面获取最新信息。",
+    "answerEn": "Aurelia is a new A-rank character added for NTE launch. She debuted during the livestream preview and did not appear in any previous beta test. Specific attribute, weapon type, and skill details will be confirmed after launch. As a new character, Aurelia likely features unique skill mechanics to expand team composition variety. Check in-game character previews and our character detail pages for the latest information.",
+    "tags": [
+      "characters",
+      "launch"
+    ],
+    "category": "characters",
+    "categoryZh": "角色相关",
+    "categoryEn": "Characters",
     "relatedCharacters": [],
     "relatedMaterials": []
   }

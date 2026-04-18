@@ -1,66 +1,62 @@
 [
   {
-    "code": "NTE2026LAUNCH",
-    "reward": "高级调查员补给 × 10",
-    "rewardEn": "Advanced Investigator Supply x10",
+    "code": "YHNOWTOENJOY",
+    "reward": "前瞻直播专属奖励",
+    "rewardEn": "Livestream Exclusive Rewards",
     "status": "active",
-    "expiresAt": "2026-12-31",
-    "source": "official"
+    "expiresAt": "2026-05-23",
+    "source": "livestream",
+    "region": "cn",
+    "revealedAt": "2026-04-18"
   },
   {
-    "code": "EVERNESS100K",
-    "reward": "原石 × 100",
-    "rewardEn": "Primogems x100",
+    "code": "YHNANALLYGO",
+    "reward": "前瞻直播专属奖励",
+    "rewardEn": "Livestream Exclusive Rewards",
     "status": "active",
-    "expiresAt": "2026-06-30",
-    "source": "milestone"
+    "expiresAt": "2026-05-23",
+    "source": "livestream",
+    "region": "cn",
+    "revealedAt": "2026-04-18"
   },
   {
-    "code": "HOLLOW2026",
-    "reward": "经验书 × 20 + 金币 × 50000",
-    "rewardEn": "EXP Books x20 + Gold x50000",
+    "code": "YHOB0423",
+    "reward": "前瞻直播专属奖励",
+    "rewardEn": "Livestream Exclusive Rewards",
     "status": "active",
-    "expiresAt": "2026-07-15",
-    "source": "event"
+    "expiresAt": "2026-05-23",
+    "source": "livestream",
+    "region": "cn",
+    "revealedAt": "2026-04-18"
   },
   {
-    "code": "STERRYEXPRESS",
-    "reward": "星铁快递 × 5",
-    "rewardEn": "Sterry Express x5",
+    "code": "NTENOWTOENJOY",
+    "reward": "前瞻直播专属奖励",
+    "rewardEn": "Livestream Exclusive Rewards",
     "status": "active",
-    "expiresAt": "2026-08-31",
-    "source": "collaboration"
+    "expiresAt": "2026-05-29",
+    "source": "livestream",
+    "region": "global",
+    "revealedAt": "2026-04-18"
   },
   {
-    "code": "ESPERSUNITE",
-    "reward": "技能书 × 10",
-    "rewardEn": "Skill Books x10",
+    "code": "NTENANALLYGO",
+    "reward": "前瞻直播专属奖励",
+    "rewardEn": "Livestream Exclusive Rewards",
     "status": "active",
-    "expiresAt": "2026-09-30",
-    "source": "community"
+    "expiresAt": "2026-05-29",
+    "source": "livestream",
+    "region": "global",
+    "revealedAt": "2026-04-18"
   },
   {
-    "code": "NTEBETA2025",
-    "reward": "限定头像框",
-    "rewardEn": "Limited Avatar Frame",
-    "status": "expired",
-    "expiresAt": "2025-12-31",
-    "source": "beta"
-  },
-  {
-    "code": "HAPPYNEWDAY",
-    "reward": "原石 × 50 + 金币 × 20000",
-    "rewardEn": "Primogems x50 + Gold x20000",
-    "status": "expired",
-    "expiresAt": "2026-01-31",
-    "source": "event"
-  },
-  {
-    "code": "SPRINGFESTIVAL",
-    "reward": "限定材料包 × 3",
-    "rewardEn": "Limited Material Pack x3",
-    "status": "expired",
-    "expiresAt": "2026-02-28",
-    "source": "event"
+    "code": "NTE0429",
+    "reward": "前瞻直播专属奖励",
+    "rewardEn": "Livestream Exclusive Rewards",
+    "status": "active",
+    "expiresAt": "2026-05-29",
+    "source": "livestream",
+    "region": "global",
+    "revealedAt": "2026-04-18"
   }
 ]

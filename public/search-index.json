@@ -3968,6 +3968,270 @@
     ]
   },
   {
+    "id": "livestream-codes-2026",
+    "name": "异环前瞻直播兑换码有哪些？怎么领取？",
+    "nameEn": "What are the NTE livestream redeem codes? How to claim?",
+    "type": "faq",
+    "url": "/zh/faq/livestream-codes-2026",
+    "tags": [
+      "currency",
+      "codes"
+    ]
+  },
+  {
+    "id": "livestream-codes-2026",
+    "name": "What are the NTE livestream redeem codes? How to claim?",
+    "nameEn": "What are the NTE livestream redeem codes? How to claim?",
+    "type": "faq",
+    "url": "/en/faq/livestream-codes-2026",
+    "tags": [
+      "currency",
+      "codes"
+    ]
+  },
+  {
+    "id": "no-50-50-confirmed",
+    "name": "异环抽卡真的没有50/50吗？公测前瞻直播确认了什么？",
+    "nameEn": "Does NTE really have no 50/50? What did the livestream confirm?",
+    "type": "faq",
+    "url": "/zh/faq/no-50-50-confirmed",
+    "tags": [
+      "gacha",
+      "pity"
+    ]
+  },
+  {
+    "id": "no-50-50-confirmed",
+    "name": "Does NTE really have no 50/50? What did the livestream confirm?",
+    "nameEn": "Does NTE really have no 50/50? What did the livestream confirm?",
+    "type": "faq",
+    "url": "/en/faq/no-50-50-confirmed",
+    "tags": [
+      "gacha",
+      "pity"
+    ]
+  },
+  {
+    "id": "beginner-banner-selector",
+    "name": "异环新手池20抽自选是什么意思？能选什么角色？",
+    "nameEn": "What is the NTE beginner 20-pull selector? Which characters can I choose?",
+    "type": "faq",
+    "url": "/zh/faq/beginner-banner-selector",
+    "tags": [
+      "gacha",
+      "beginner"
+    ]
+  },
+  {
+    "id": "beginner-banner-selector",
+    "name": "What is the NTE beginner 20-pull selector? Which characters can I choose?",
+    "nameEn": "What is the NTE beginner 20-pull selector? Which characters can I choose?",
+    "type": "faq",
+    "url": "/en/faq/beginner-banner-selector",
+    "tags": [
+      "gacha",
+      "beginner"
+    ]
+  },
+  {
+    "id": "standard-banner-selector",
+    "name": "异环常驻池50抽自选S级怎么触发？能选谁？",
+    "nameEn": "How does the NTE standard 50-pull S-rank selector work?",
+    "type": "faq",
+    "url": "/zh/faq/standard-banner-selector",
+    "tags": [
+      "gacha",
+      "beginner"
+    ]
+  },
+  {
+    "id": "standard-banner-selector",
+    "name": "How does the NTE standard 50-pull S-rank selector work?",
+    "nameEn": "How does the NTE standard 50-pull S-rank selector work?",
+    "type": "faq",
+    "url": "/en/faq/standard-banner-selector",
+    "tags": [
+      "gacha",
+      "beginner"
+    ]
+  },
+  {
+    "id": "beta-refund",
+    "name": "异环测试服充值怎么返还？返还比例是多少？",
+    "nameEn": "How does NTE beta refund work? What is the refund rate?",
+    "type": "faq",
+    "url": "/zh/faq/beta-refund",
+    "tags": [
+      "currency",
+      "release"
+    ]
+  },
+  {
+    "id": "beta-refund",
+    "name": "How does NTE beta refund work? What is the refund rate?",
+    "nameEn": "How does NTE beta refund work? What is the refund rate?",
+    "type": "faq",
+    "url": "/en/faq/beta-refund",
+    "tags": [
+      "currency",
+      "release"
+    ]
+  },
+  {
+    "id": "xiaozhi-free-s-rank",
+    "name": "异环小志怎么免费获得？都市大亨玩法详解",
+    "nameEn": "How to get Xiaozhi for free in NTE? City Tycoon guide",
+    "type": "faq",
+    "url": "/zh/faq/xiaozhi-free-s-rank",
+    "tags": [
+      "characters",
+      "system"
+    ]
+  },
+  {
+    "id": "xiaozhi-free-s-rank",
+    "name": "How to get Xiaozhi for free in NTE? City Tycoon guide",
+    "nameEn": "How to get Xiaozhi for free in NTE? City Tycoon guide",
+    "type": "faq",
+    "url": "/en/faq/xiaozhi-free-s-rank",
+    "tags": [
+      "characters",
+      "system"
+    ]
+  },
+  {
+    "id": "pre-download-details",
+    "name": "异环预下载4月21日几点开始？PC和手机怎么预下载？",
+    "nameEn": "When exactly does NTE pre-download start on April 21? How to pre-download?",
+    "type": "faq",
+    "url": "/zh/faq/pre-download-details",
+    "tags": [
+      "system",
+      "download"
+    ]
+  },
+  {
+    "id": "pre-download-details",
+    "name": "When exactly does NTE pre-download start on April 21? How to pre-download?",
+    "nameEn": "When exactly does NTE pre-download start on April 21? How to pre-download?",
+    "type": "faq",
+    "url": "/en/faq/pre-download-details",
+    "tags": [
+      "system",
+      "download"
+    ]
+  },
+  {
+    "id": "nvidia-driver-nte",
+    "name": "异环推荐用什么NVIDIA驱动？RT光追怎么开？",
+    "nameEn": "Which NVIDIA driver is recommended for NTE? How to enable RT?",
+    "type": "faq",
+    "url": "/zh/faq/nvidia-driver-nte",
+    "tags": [
+      "system",
+      "optimization"
+    ]
+  },
+  {
+    "id": "nvidia-driver-nte",
+    "name": "Which NVIDIA driver is recommended for NTE? How to enable RT?",
+    "nameEn": "Which NVIDIA driver is recommended for NTE? How to enable RT?",
+    "type": "faq",
+    "url": "/en/faq/nvidia-driver-nte",
+    "tags": [
+      "system",
+      "optimization"
+    ]
+  },
+  {
+    "id": "launch-characters-full-list",
+    "name": "异环公测上线有哪些角色？16位角色完整名单",
+    "nameEn": "What characters are available at NTE launch? Complete 16-character roster",
+    "type": "faq",
+    "url": "/zh/faq/launch-characters-full-list",
+    "tags": [
+      "characters",
+      "launch"
+    ]
+  },
+  {
+    "id": "launch-characters-full-list",
+    "name": "What characters are available at NTE launch? Complete 16-character roster",
+    "nameEn": "What characters are available at NTE launch? Complete 16-character roster",
+    "type": "faq",
+    "url": "/en/faq/launch-characters-full-list",
+    "tags": [
+      "characters",
+      "launch"
+    ]
+  },
+  {
+    "id": "pink-paws-coop",
+    "name": "异环粉爪联机是什么？怎么和朋友一起玩？",
+    "nameEn": "What is Pink Paws co-op in NTE? How to play with friends?",
+    "type": "faq",
+    "url": "/zh/faq/pink-paws-coop",
+    "tags": [
+      "system",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "pink-paws-coop",
+    "name": "What is Pink Paws co-op in NTE? How to play with friends?",
+    "nameEn": "What is Pink Paws co-op in NTE? How to play with friends?",
+    "type": "faq",
+    "url": "/en/faq/pink-paws-coop",
+    "tags": [
+      "system",
+      "multiplayer"
+    ]
+  },
+  {
+    "id": "prison-system",
+    "name": "异环监狱系统是什么？怎么玩？",
+    "nameEn": "What is the Anomaly Prison system in NTE? How does it work?",
+    "type": "faq",
+    "url": "/zh/faq/prison-system",
+    "tags": [
+      "exploration",
+      "system"
+    ]
+  },
+  {
+    "id": "prison-system",
+    "name": "What is the Anomaly Prison system in NTE? How does it work?",
+    "nameEn": "What is the Anomaly Prison system in NTE? How does it work?",
+    "type": "faq",
+    "url": "/en/faq/prison-system",
+    "tags": [
+      "exploration",
+      "system"
+    ]
+  },
+  {
+    "id": "aurelia-launch-character",
+    "name": "异环奥蕾莉亚是谁？公测新A级角色介绍",
+    "nameEn": "Who is Aurelia in NTE? New A-rank launch character",
+    "type": "faq",
+    "url": "/zh/faq/aurelia-launch-character",
+    "tags": [
+      "characters",
+      "launch"
+    ]
+  },
+  {
+    "id": "aurelia-launch-character",
+    "name": "Who is Aurelia in NTE? New A-rank launch character",
+    "nameEn": "Who is Aurelia in NTE? New A-rank launch character",
+    "type": "faq",
+    "url": "/en/faq/aurelia-launch-character",
+    "tags": [
+      "characters",
+      "launch"
+    ]
+  },
+  {
     "id": "beginner-guide",
     "name": "新手入门完全指南",
     "nameEn": "Complete Beginner Guide",

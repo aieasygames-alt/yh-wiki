@@ -19,10 +19,19 @@ interface BannerConfig {
   rate4: number;
   rate3: number;
   pity5: number;
-  softPityStart: number;
-  guaranteedFeatured: boolean;
+  softPityStart?: number;
+  guaranteedFeatured?: boolean;
   featured: string[];
   featured4: string[];
+  hasSelector?: boolean;
+  selectorPool?: string[];
+  maxPulls?: number;
+  oneTimeOnly?: boolean;
+  has5050?: boolean;
+  avgPity?: number;
+  pityCarryOver?: boolean;
+  selectorAt?: number;
+  pityFeatured?: number;
 }
 
 interface PullResult {
@@ -39,7 +48,7 @@ interface PullStats {
   pityHistory: number[];
 }
 
-const gachaData = gachaConfig as { banner: BannerConfig; standard: BannerConfig; weapons: BannerConfig };
+const gachaData = gachaConfig as Record<string, BannerConfig>;
 
 export default function GachaPage() {
   const { lang: langParam } = useParams();
@@ -49,7 +58,7 @@ export default function GachaPage() {
   const sRank = characters.filter((c) => c.rank === "S");
   const aRank = characters.filter((c) => c.rank === "A");
 
-  const [activeBanner, setActiveBanner] = useState<string>("banner");
+  const [activeBanner, setActiveBanner] = useState<string>("limited");
   const [results, setResults] = useState<PullResult[]>([]);
   const [pityCount, setPityCount] = useState(0);
   const [history, setHistory] = useState<PullResult[]>([]);
@@ -61,7 +70,7 @@ export default function GachaPage() {
   const [stats, setStats] = useState<PullStats>({ total: 0, s5Count: 0, s4Count: 0, pityHistory: [] });
 
   const bannerConfig = useMemo(() => {
-    return gachaData[activeBanner as keyof typeof gachaData] || gachaData.banner;
+    return gachaData[activeBanner] || gachaData.limited;
   }, [activeBanner]);
 
   const pityRemaining = bannerConfig.pity5 - pityCount;
@@ -103,7 +112,7 @@ export default function GachaPage() {
         pullCountRef.current++;
         let rate5 = bannerConfig.rate5;
 
-        if (currentPity >= bannerConfig.softPityStart) {
+        if (bannerConfig.softPityStart && currentPity >= bannerConfig.softPityStart) {
           const softPityBonus = (currentPity - bannerConfig.softPityStart + 1) * 6;
           rate5 = Math.min(100, bannerConfig.rate5 + softPityBonus);
         }
@@ -180,7 +189,8 @@ export default function GachaPage() {
   }, []);
 
   const banners = [
-    { key: "banner", name: lang === "zh" ? gachaData.banner.name : gachaData.banner.nameEn },
+    { key: "limited", name: lang === "zh" ? gachaData.limited.name : gachaData.limited.nameEn },
+    { key: "beginner", name: lang === "zh" ? gachaData.beginner.name : gachaData.beginner.nameEn },
     { key: "standard", name: lang === "zh" ? gachaData.standard.name : gachaData.standard.nameEn },
     { key: "weapons", name: lang === "zh" ? gachaData.weapons.name : gachaData.weapons.nameEn },
   ];
@@ -231,8 +241,8 @@ export default function GachaPage() {
         )}
         <p className="text-xs text-gray-600 mt-2">
           {lang === "zh"
-            ? `五星基础概率 ${bannerConfig.rate5}% | ${bannerConfig.softPityStart} 抽开始软保底 | ${bannerConfig.pity5} 抽硬保底`
-            : `Base 5★ rate ${bannerConfig.rate5}% | Soft pity at ${bannerConfig.softPityStart} | Hard pity at ${bannerConfig.pity5}`}
+            ? `五星基础概率 ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | ${bannerConfig.softPityStart} 抽开始软保底` : ""} | ${bannerConfig.pity5} 抽硬保底`
+            : `Base 5★ rate ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | Soft pity at ${bannerConfig.softPityStart}` : ""} | Hard pity at ${bannerConfig.pity5}`}
         </p>
       </div>
 
