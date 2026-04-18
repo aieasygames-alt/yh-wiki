@@ -1,0 +1,426 @@
+[
+  {
+    "id": "drift-photon",
+    "name": "漂移光子",
+    "nameEn": "Drift Photon",
+    "type": "摩托车",
+    "typeEn": "Motorcycle",
+    "rarity": 4,
+    "description": "高速轻型摩托车，适合城市穿梭。流线型设计减少风阻，加速性能出色。",
+    "descriptionEn": "High-speed lightweight motorcycle, perfect for urban navigation. Streamlined design reduces wind resistance with excellent acceleration.",
+    "speed": "S",
+    "acceleration": "A",
+    "handling": "S",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "36000",
+    "faq": [
+      {
+        "question": "How to get Drift Photon in Neverness to Everness?",
+        "questionZh": "如何获得漂移光子？",
+        "answer": "Drift Photon can be purchased from the Vehicle Shop in Neverness to Everness for 36000 currency.",
+        "answerZh": "漂移光子可以在异环的载具商店购买，价格为36000货币。"
+      },
+      {
+        "question": "Is Drift Photon good in Neverness to Everness?",
+        "questionZh": "漂移光子好用吗？",
+        "answer": "Drift Photon is a top-tier motorcycle in Neverness to Everness with S-rank speed and handling, making it ideal for quick travel and exploration.",
+        "answerZh": "漂移光子是异环中的顶级摩托车，拥有S级速度和操控性，非常适合快速移动和探索。"
+      }
+    ],
+    "image": "/images/vehicles/drift-photon.webp"
+  },
+  {
+    "id": "rattler",
+    "name": "响尾蛇",
+    "nameEn": "Rattler",
+    "type": "越野车",
+    "typeEn": "Off-road Vehicle",
+    "rarity": 4,
+    "description": "全地形越野车，擅长崎岖路面。强劲悬挂系统保证舒适性和稳定性。",
+    "descriptionEn": "All-terrain off-road vehicle, excels on rugged surfaces. Powerful suspension system ensures comfort and stability.",
+    "speed": "A",
+    "acceleration": "S",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "42000",
+    "faq": [
+      {
+        "question": "How to get Rattler in Neverness to Everness?",
+        "questionZh": "如何获得响尾蛇？",
+        "answer": "Rattler can be purchased from the Vehicle Shop in Neverness to Everness for 42000 currency.",
+        "answerZh": "响尾蛇可以在异环的载具商店购买，价格为42000货币。"
+      },
+      {
+        "question": "Is Rattler the best off-road vehicle?",
+        "questionZh": "响尾蛇是最好的越野车吗？",
+        "answer": "Rattler is one of the best off-road vehicles in Neverness to Everness with excellent acceleration and handling on rough terrain.",
+        "answerZh": "响尾蛇是异环中最好的越野车之一，在崎岖地形上具有出色的加速和操控性能。"
+      }
+    ],
+    "image": "/images/vehicles/rattler.webp"
+  },
+  {
+    "id": "halove",
+    "name": "哈洛夫",
+    "nameEn": "Halove",
+    "type": "轿车",
+    "typeEn": "Sedan",
+    "rarity": 3,
+    "description": "经典轿车，平衡的性能表现。适合日常使用和长途旅行。",
+    "descriptionEn": "Classic sedan with balanced performance. Suitable for daily use and long-distance travel.",
+    "speed": "B",
+    "acceleration": "B",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "25000",
+    "faq": [
+      {
+        "question": "How to get Halove in Neverness to Everness?",
+        "questionZh": "如何获得哈洛夫？",
+        "answer": "Halove can be purchased from the Vehicle Shop in Neverness to Everness for 25000 currency.",
+        "answerZh": "哈洛夫可以在异环的载具商店购买，价格为25000货币。"
+      }
+    ],
+    "image": "/images/vehicles/halove.webp"
+  },
+  {
+    "id": "thunder-bolt",
+    "name": "雷霆闪电",
+    "nameEn": "Thunder Bolt",
+    "type": "跑车",
+    "typeEn": "Sports Car",
+    "rarity": 5,
+    "description": "顶级跑车，极致速度与激情。专为追求极速的玩家设计。",
+    "descriptionEn": "Top-tier sports car with ultimate speed and excitement. Designed for players seeking maximum velocity.",
+    "speed": "S",
+    "acceleration": "S",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "85000",
+    "faq": [
+      {
+        "question": "How to get Thunder Bolt in Neverness to Everness?",
+        "questionZh": "如何获得雷霆闪电？",
+        "answer": "Thunder Bolt can be purchased from the Vehicle Shop in Neverness to Everness for 85000 currency. It's one of the most expensive vehicles.",
+        "answerZh": "雷霆闪电可以在异环的载具商店购买，价格为85000货币。它是最昂贵的载具之一。"
+      },
+      {
+        "question": "Is Thunder Bolt worth it?",
+        "questionZh": "雷霆闪电值得买吗？",
+        "answer": "Thunder Bolt is worth it if you prioritize speed in Neverness to Everness. With S-rank speed and acceleration, it's the fastest vehicle in the game.",
+        "answerZh": "如果你追求速度，雷霆闪电是值得的。拥有S级速度和加速，它是游戏中最快的载具。"
+      }
+    ],
+    "image": "/images/vehicles/thunder-bolt.webp"
+  },
+  {
+    "id": "shadow-wraith",
+    "name": "暗影幽灵",
+    "nameEn": "Shadow Wraith",
+    "type": "摩托车",
+    "typeEn": "Motorcycle",
+    "rarity": 5,
+    "description": "神秘摩托车，传说中由暗影能量驱动。拥有独特的隐形涂层。",
+    "descriptionEn": "Mysterious motorcycle rumored to be powered by shadow energy. Features unique stealth coating.",
+    "speed": "S",
+    "acceleration": "S",
+    "handling": "S",
+    "source": "限时活动",
+    "sourceEn": "Limited Event",
+    "price": "-",
+    "faq": [
+      {
+        "question": "How to get Shadow Wraith in Neverness to Everness?",
+        "questionZh": "如何获得暗影幽灵？",
+        "answer": "Shadow Wraith is a limited event vehicle in Neverness to Everness. Keep an eye on special events for its return.",
+        "answerZh": "暗影幽灵是异环中的限时活动载具。请关注特殊活动以获取其返场信息。"
+      }
+    ],
+    "image": "/images/vehicles/shadow-wraith.webp"
+  },
+  {
+    "id": "iron-titan",
+    "name": "钢铁泰坦",
+    "nameEn": "Iron Titan",
+    "type": "SUV",
+    "typeEn": "SUV",
+    "rarity": 4,
+    "description": "重型SUV，坚固耐用。适合危险区域探索，防护性能出色。",
+    "descriptionEn": "Heavy-duty SUV, sturdy and durable. Perfect for dangerous area exploration with excellent protection.",
+    "speed": "B",
+    "acceleration": "B",
+    "handling": "B",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "55000",
+    "faq": [
+      {
+        "question": "How to get Iron Titan in Neverness to Everness?",
+        "questionZh": "如何获得钢铁泰坦？",
+        "answer": "Iron Titan can be purchased from the Vehicle Shop in Neverness to Everness for 55000 currency.",
+        "answerZh": "钢铁泰坦可以在异环的载具商店购买，价格为55000货币。"
+      }
+    ],
+    "image": "/images/vehicles/iron-titan.webp"
+  },
+  {
+    "id": "neon-cruiser",
+    "name": "霓虹巡洋舰",
+    "nameEn": "Neon Cruiser",
+    "type": "轿车",
+    "typeEn": "Sedan",
+    "rarity": 3,
+    "description": "复古风格轿车，配备霓虹灯光系统。夜间行驶格外引人注目。",
+    "descriptionEn": "Retro-style sedan with neon lighting system. Particularly eye-catching when driving at night.",
+    "speed": "B",
+    "acceleration": "B",
+    "handling": "B",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "28000",
+    "faq": [
+      {
+        "question": "How to get Neon Cruiser in Neverness to Everness?",
+        "questionZh": "如何获得霓虹巡洋舰？",
+        "answer": "Neon Cruiser can be purchased from the Vehicle Shop in Neverness to Everness for 28000 currency.",
+        "answerZh": "霓虹巡洋舰可以在异环的载具商店购买，价格为28000货币。"
+      }
+    ],
+    "image": "/images/vehicles/neon-cruiser.webp"
+  },
+  {
+    "id": "storm-chaser",
+    "name": "风暴追逐者",
+    "nameEn": "Storm Chaser",
+    "type": "越野车",
+    "typeEn": "Off-road Vehicle",
+    "rarity": 5,
+    "description": "极端天气专用越野车。配备全地形轮胎和强化底盘。",
+    "descriptionEn": "Extreme weather off-road vehicle. Equipped with all-terrain tires and reinforced chassis.",
+    "speed": "A",
+    "acceleration": "A",
+    "handling": "S",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "65000",
+    "faq": [
+      {
+        "question": "How to get Storm Chaser in Neverness to Everness?",
+        "questionZh": "如何获得风暴追逐者？",
+        "answer": "Storm Chaser can be purchased from the Vehicle Shop in Neverness to Everness for 65000 currency.",
+        "answerZh": "风暴追逐者可以在异环的载具商店购买，价格为65000货币。"
+      }
+    ],
+    "image": "/images/vehicles/storm-chaser.webp"
+  },
+  {
+    "id": "crimson-widow",
+    "name": "绯红寡妇",
+    "nameEn": "Crimson Widow",
+    "type": "跑车",
+    "typeEn": "Sports Car",
+    "rarity": 4,
+    "description": "红色流线型跑车，兼具美观与性能。深受玩家喜爱。",
+    "descriptionEn": "Red streamlined sports car combining beauty and performance. A favorite among players.",
+    "speed": "S",
+    "acceleration": "A",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "58000",
+    "faq": [
+      {
+        "question": "How to get Crimson Widow in Neverness to Everness?",
+        "questionZh": "如何获得绯红寡妇？",
+        "answer": "Crimson Widow can be purchased from the Vehicle Shop in Neverness to Everness for 58000 currency.",
+        "answerZh": "绯红寡妇可以在异环的载具商店购买，价格为58000货币。"
+      }
+    ],
+    "image": "/images/vehicles/crimson-widow.webp"
+  },
+  {
+    "id": "echo-rider",
+    "name": "回声骑士",
+    "nameEn": "Echo Rider",
+    "type": "摩托车",
+    "typeEn": "Motorcycle",
+    "rarity": 3,
+    "description": "入门级摩托车，性价比高。适合新手玩家使用。",
+    "descriptionEn": "Entry-level motorcycle with great value for money. Suitable for beginner players.",
+    "speed": "B",
+    "acceleration": "B",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "18000",
+    "faq": [
+      {
+        "question": "How to get Echo Rider in Neverness to Everness?",
+        "questionZh": "如何获得回声骑士？",
+        "answer": "Echo Rider can be purchased from the Vehicle Shop in Neverness to Everness for 18000 currency.",
+        "answerZh": "回声骑士可以在异环的载具商店购买，价格为18000货币。"
+      }
+    ],
+    "image": "/images/vehicles/echo-rider.webp"
+  },
+  {
+    "id": "azure-dream",
+    "name": "蔚蓝之梦",
+    "nameEn": "Azure Dream",
+    "type": "跑车",
+    "typeEn": "Sports Car",
+    "rarity": 4,
+    "description": "蓝色敞篷跑车，享受自由驰骋的快感。限量版配色。",
+    "descriptionEn": "Blue convertible sports car for the thrill of open-top driving. Limited edition color scheme.",
+    "speed": "A",
+    "acceleration": "A",
+    "handling": "S",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "62000",
+    "faq": [
+      {
+        "question": "How to get Azure Dream in Neverness to Everness?",
+        "questionZh": "如何获得蔚蓝之梦？",
+        "answer": "Azure Dream can be purchased from the Vehicle Shop in Neverness to Everness for 62000 currency.",
+        "answerZh": "蔚蓝之梦可以在异环的载具商店购买，价格为62000货币。"
+      }
+    ],
+    "image": "/images/vehicles/azure-dream.webp"
+  },
+  {
+    "id": "desert-hawk",
+    "name": "沙漠之鹰",
+    "nameEn": "Desert Hawk",
+    "type": "越野车",
+    "typeEn": "Off-road Vehicle",
+    "rarity": 4,
+    "description": "沙漠地形专用越野车。配备沙地轮胎和冷却系统。",
+    "descriptionEn": "Desert terrain specialized off-road vehicle. Equipped with sand tires and cooling system.",
+    "speed": "A",
+    "acceleration": "S",
+    "handling": "B",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "48000",
+    "faq": [
+      {
+        "question": "How to get Desert Hawk in Neverness to Everness?",
+        "questionZh": "如何获得沙漠之鹰？",
+        "answer": "Desert Hawk can be purchased from the Vehicle Shop in Neverness to Everness for 48000 currency.",
+        "answerZh": "沙漠之鹰可以在异环的载具商店购买，价格为48000货币。"
+      }
+    ],
+    "image": "/images/vehicles/desert-hawk.webp"
+  },
+  {
+    "id": "night-fury",
+    "name": "夜之愤怒",
+    "nameEn": "Night Fury",
+    "type": "跑车",
+    "typeEn": "Sports Car",
+    "rarity": 5,
+    "description": "黑色隐身涂层跑车，夜间行驶难以察觉。暗夜中的王者。",
+    "descriptionEn": "Black stealth coating sports car, hard to detect at night. The king of the dark night.",
+    "speed": "S",
+    "acceleration": "S",
+    "handling": "S",
+    "source": "限时活动",
+    "sourceEn": "Limited Event",
+    "price": "-",
+    "faq": [
+      {
+        "question": "How to get Night Fury in Neverness to Everness?",
+        "questionZh": "如何获得夜之愤怒？",
+        "answer": "Night Fury is a limited event vehicle in Neverness to Everness. Watch for special events.",
+        "answerZh": "夜之愤怒是异环中的限时活动载具。请关注特殊活动。"
+      }
+    ],
+    "image": "/images/vehicles/night-fury.webp"
+  },
+  {
+    "id": "urban-glider",
+    "name": "城市滑翔者",
+    "nameEn": "Urban Glider",
+    "type": "轿车",
+    "typeEn": "Sedan",
+    "rarity": 3,
+    "description": "城市通勤专用轿车，省油环保。适合日常使用。",
+    "descriptionEn": "City-commute specialized sedan, fuel-efficient and eco-friendly. Perfect for daily use.",
+    "speed": "B",
+    "acceleration": "B",
+    "handling": "B",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "22000",
+    "faq": [
+      {
+        "question": "How to get Urban Glider in Neverness to Everness?",
+        "questionZh": "如何获得城市滑翔者？",
+        "answer": "Urban Glider can be purchased from the Vehicle Shop in Neverness to Everness for 22000 currency.",
+        "answerZh": "城市滑翔者可以在异环的载具商店购买，价格为22000货币。"
+      }
+    ],
+    "image": "/images/vehicles/urban-glider.webp"
+  },
+  {
+    "id": "frost-bite",
+    "name": "冰霜之咬",
+    "nameEn": "Frost Bite",
+    "type": "SUV",
+    "typeEn": "SUV",
+    "rarity": 4,
+    "description": "寒冷地区专用SUV，配备加热系统和雪地轮胎。",
+    "descriptionEn": "Cold region specialized SUV with heating system and snow tires.",
+    "speed": "B",
+    "acceleration": "B",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "52000",
+    "faq": [
+      {
+        "question": "How to get Frost Bite in Neverness to Everness?",
+        "questionZh": "如何获得冰霜之咬？",
+        "answer": "Frost Bite can be purchased from the Vehicle Shop in Neverness to Everness for 52000 currency.",
+        "answerZh": "冰霜之咬可以在异环的载具商店购买，价格为52000货币。"
+      }
+    ],
+    "image": "/images/vehicles/frost-bite.webp"
+  },
+  {
+    "id": "solar-flare",
+    "name": "太阳耀斑",
+    "nameEn": "Solar Flare",
+    "type": "跑车",
+    "typeEn": "Sports Car",
+    "rarity": 5,
+    "description": "金色超跑，象征荣耀与财富。游戏中最贵的载具之一。",
+    "descriptionEn": "Golden supercar symbolizing glory and wealth. One of the most expensive vehicles in the game.",
+    "speed": "S",
+    "acceleration": "S",
+    "handling": "A",
+    "source": "载具商店",
+    "sourceEn": "Vehicle Shop",
+    "price": "120000",
+    "faq": [
+      {
+        "question": "How to get Solar Flare in Neverness to Everness?",
+        "questionZh": "如何获得太阳耀斑？",
+        "answer": "Solar Flare can be purchased from the Vehicle Shop in Neverness to Everness for 120000 currency. It's the most expensive regular vehicle.",
+        "answerZh": "太阳耀斑可以在异环的载具商店购买，价格为120000货币。它是最贵的常规载具。"
+      },
+      {
+        "question": "Is Solar Flare worth the price?",
+        "questionZh": "太阳耀斑值得这个价格吗？",
+        "answer": "Solar Flare is worth it for collectors and speed enthusiasts in Neverness to Everness. Its golden appearance and top-tier performance make it stand out.",
+        "answerZh": "对于收藏家和速度爱好者来说，太阳耀斑是值得的。其金色外观和顶级性能让它脱颖而出。"
+      }
+    ],
+    "image": "/images/vehicles/solar-flare.webp"
+  }
+]

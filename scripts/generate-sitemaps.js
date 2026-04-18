@@ -22,18 +22,27 @@ const DATA = path.join(ROOT, "data");
 const BASE_URL = "https://nteguide.com";
 const langs = ["zh", "en"];
 
-// Load data
-const characters = JSON.parse(fs.readFileSync(path.join(DATA, "characters.json"), "utf-8"));
-const materials = JSON.parse(fs.readFileSync(path.join(DATA, "materials.json"), "utf-8"));
-const weapons = JSON.parse(fs.readFileSync(path.join(DATA, "weapons.json"), "utf-8"));
-const vehicles = JSON.parse(fs.readFileSync(path.join(DATA, "vehicles.json"), "utf-8"));
-const faqs = JSON.parse(fs.readFileSync(path.join(DATA, "faqs.json"), "utf-8"));
-const guides = JSON.parse(fs.readFileSync(path.join(DATA, "guides.json"), "utf-8"));
-const loreItems = JSON.parse(fs.readFileSync(path.join(DATA, "lore.json"), "utf-8"));
-const locations = JSON.parse(fs.readFileSync(path.join(DATA, "locations.json"), "utf-8"));
-const blogPosts = JSON.parse(fs.readFileSync(path.join(DATA, "blog.json"), "utf-8"));
-const compares = JSON.parse(fs.readFileSync(path.join(DATA, "compares.json"), "utf-8"));
-const changelogs = JSON.parse(fs.readFileSync(path.join(DATA, "changelog.json"), "utf-8"));
+// Load data (safe-load: returns [] if file missing)
+function loadJson(name) {
+  const p = path.join(DATA, name);
+  if (!fs.existsSync(p)) {
+    console.warn(`  Warning: ${name} not found, skipping`);
+    return [];
+  }
+  return JSON.parse(fs.readFileSync(p, "utf-8"));
+}
+
+const characters = loadJson("characters.json");
+const materials = loadJson("materials.json");
+const weapons = loadJson("weapons.json");
+const vehicles = loadJson("vehicles.json");
+const faqs = loadJson("faqs.json");
+const guides = loadJson("guides.json");
+const loreItems = loadJson("lore.json");
+const locations = loadJson("locations.json");
+const blogPosts = loadJson("blog.json");
+const compares = loadJson("compares.json");
+const changelogs = loadJson("changelog.json");
 
 const commonTags = [
   "s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana",
