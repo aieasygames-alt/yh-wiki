@@ -4,7 +4,7 @@
       "id": "new-elydon",
       "name": "新艾利都",
       "nameEn": "New Elydon",
-      "image": "/images/maps/new-elydon.webp",
+      "image": "/images/maps/new-elydon.png",
       "description": "异常控制局总部所在地，也是异能者活动的核心区域。",
       "descriptionEn": "Headquarters of the Anomaly Control Bureau and the main activity area for Espers.",
       "markers": [
@@ -213,6 +213,10 @@
     "domain": { "color": "#3b82f6", "label": "副本", "labelEn": "Domain" },
     "boss": { "color": "#ef4444", "label": "BOSS", "labelEn": "BOSS" },
     "collectible": { "color": "#22c55e", "label": "采集", "labelEn": "Collectible" },
-    "waypoint": { "color": "#eab308", "label": "传送", "labelEn": "Waypoint" }
+    "waypoint": { "color": "#eab308", "label": "传送", "labelEn": "Waypoint" },
+    "chest": { "color": "#f59e0b", "label": "宝箱", "labelEn": "Chest" },
+    "puzzle": { "color": "#8b5cf6", "label": "解谜", "labelEn": "Puzzle" },
+    "npc": { "color": "#ec4899", "label": "NPC", "labelEn": "NPC" },
+    "viewpoint": { "color": "#06b6d4", "label": "观景点", "labelEn": "Viewpoint" }
   }
 }

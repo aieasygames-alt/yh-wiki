@@ -6,6 +6,7 @@
       "home": "首页",
       "characters": "角色",
       "weapons": "武器",
+      "vehicles": "载具",
       "materials": "材料",
       "calculator": "计算器",
       "gacha": "抽卡",
@@ -162,7 +163,11 @@
     "description": "异环全地图资源点标记，副本、BOSS和采集点",
     "markerList": "标点列表",
     "relatedMaterials": "掉落材料",
-    "closeDetail": "关闭详情"
+    "closeDetail": "关闭详情",
+    "allTypes": "全部",
+    "markerCount": "共 {0} 个标点",
+    "resetView": "重置视图",
+    "noMarker": "暂无标记"
   },
   "attributes": {
     "cosmos": "宇宙",

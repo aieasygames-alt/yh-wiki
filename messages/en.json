@@ -6,6 +6,7 @@
       "home": "Home",
       "characters": "Characters",
       "weapons": "Weapons",
+      "vehicles": "Vehicles",
       "materials": "Materials",
       "calculator": "Calculator",
       "gacha": "Gacha",
@@ -162,7 +163,11 @@
     "description": "Neverness to Everness interactive map with domain, boss and collectible markers",
     "markerList": "Marker List",
     "relatedMaterials": "Drop Materials",
-    "closeDetail": "Close"
+    "closeDetail": "Close",
+    "allTypes": "All",
+    "markerCount": "{0} markers total",
+    "resetView": "Reset View",
+    "noMarker": "No markers"
   },
   "attributes": {
     "cosmos": "Cosmos",
