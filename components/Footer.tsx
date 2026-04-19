@@ -39,6 +39,7 @@ export function Footer() {
     {
       title: t(lang, "site.nav.footer.resources"),
       links: [
+        { href: `/${lang}/tier-list`, label: lang === "zh" ? "强度排行" : "Tier List" },
         { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
         { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },

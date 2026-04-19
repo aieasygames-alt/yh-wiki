@@ -33,6 +33,7 @@ export function Header() {
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
     { type: "dropdown", key: "guides-tools", label: t(lang, "site.nav.guidesAndTools"), items: [
       { href: `/${lang}/guides`, label: t(lang, "site.nav.allGuides") },
+      { href: `/${lang}/tier-list`, label: lang === "zh" ? "强度排行" : "Tier List" },
       { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.levelingCalc") },
       { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
       { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },

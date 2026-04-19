@@ -264,7 +264,7 @@ export default async function CharacterDetailPage({
         {/* Tier List Link */}
         {character.tierRank && (
           <div className="mb-8">
-            <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300 inline-block">
+            <Link href={`/${lang}/tier-list`} className="text-sm text-primary-400 hover:text-primary-300 inline-block">
               {t(locale, "characters.viewTierList")}
             </Link>
           </div>
