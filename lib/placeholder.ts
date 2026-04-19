@@ -1,11 +1,12 @@
 export function getPlaceholderImage(
-  type: "character" | "material" | "weapon",
+  type: "character" | "material" | "weapon" | "vehicle",
   name: string
 ): string {
   const colors = {
     character: { bg: "#1e293b", text: "#94a3b8" },
     material: { bg: "#1a1a2e", text: "#64748b" },
     weapon: { bg: "#2d1b1b", text: "#c4956a" },
+    vehicle: { bg: "#1b2d1b", text: "#6ac49a" },
   };
   const { bg, text } = colors[type];
   const display = name.length > 4 ? name.substring(0, 4) : name;

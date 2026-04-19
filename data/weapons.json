@@ -30,7 +30,8 @@
       }
     ],
     "bestFor": "Nanally",
-    "bestForZh": "娜娜莉"
+    "bestForZh": "娜娜莉",
+    "image": "/images/weapons/fangs-and-claws.webp"
   },
   {
     "id": "kiroumaru",
@@ -63,7 +64,8 @@
       }
     ],
     "bestFor": "Sakiri",
-    "bestForZh": "咲里"
+    "bestForZh": "咲里",
+    "image": "/images/weapons/kiroumaru.webp"
   },
   {
     "id": "transforming-cross-shield",
@@ -96,7 +98,8 @@
       }
     ],
     "bestFor": "Fadia",
-    "bestForZh": "法蒂亚"
+    "bestForZh": "法蒂亚",
+    "image": "/images/weapons/transforming-cross-shield.webp"
   },
   {
     "id": "esper-constructs",
@@ -129,7 +132,8 @@
       }
     ],
     "bestFor": "Lacrimosa",
-    "bestForZh": "拉克莉莫萨"
+    "bestForZh": "拉克莉莫萨",
+    "image": "/images/weapons/esper-constructs.webp"
   },
   {
     "id": "power-of-words",
@@ -162,7 +166,8 @@
       }
     ],
     "bestFor": "Baicang",
-    "bestForZh": "百苍"
+    "bestForZh": "百苍",
+    "image": "/images/weapons/power-of-words.webp"
   },
   {
     "id": "sword",
@@ -195,7 +200,8 @@
       }
     ],
     "bestFor": "Zero",
-    "bestForZh": "零"
+    "bestForZh": "零",
+    "image": "/images/weapons/sword.webp"
   },
   {
     "id": "umbrella-katana",
@@ -228,7 +234,8 @@
       }
     ],
     "bestFor": "Hotori",
-    "bestForZh": "穗鸟"
+    "bestForZh": "穗鸟",
+    "image": "/images/weapons/umbrella-katana.webp"
   },
   {
     "id": "liquid-arc",
@@ -261,7 +268,8 @@
       }
     ],
     "bestFor": "Daffodil",
-    "bestForZh": "达芙迪尔"
+    "bestForZh": "达芙迪尔",
+    "image": "/images/weapons/liquid-arc.webp"
   },
   {
     "id": "vehicle",
@@ -294,7 +302,8 @@
       }
     ],
     "bestFor": "Jiuyuan",
-    "bestForZh": "九远"
+    "bestForZh": "九远",
+    "image": "/images/weapons/vehicle.webp"
   },
   {
     "id": "cane-sword-and-sunyas",
@@ -327,7 +336,8 @@
       }
     ],
     "bestFor": "Adler",
-    "bestForZh": "阿德勒"
+    "bestForZh": "阿德勒",
+    "image": "/images/weapons/cane-sword-and-sunyas.webp"
   },
   {
     "id": "shadow-manipulation",
@@ -360,7 +370,8 @@
       }
     ],
     "bestFor": "Skia",
-    "bestForZh": "斯基雅"
+    "bestForZh": "斯基雅",
+    "image": "/images/weapons/shadow-manipulation.webp"
   },
   {
     "id": "dual-blades",
@@ -393,7 +404,8 @@
       }
     ],
     "bestFor": "Mint",
-    "bestForZh": "薄荷"
+    "bestForZh": "薄荷",
+    "image": "/images/weapons/dual-blades.webp"
   },
   {
     "id": "construct",
@@ -426,7 +438,8 @@
       }
     ],
     "bestFor": "Taygedo",
-    "bestForZh": "泰格多"
+    "bestForZh": "泰格多",
+    "image": "/images/weapons/construct.webp"
   },
   {
     "id": "blade-wings",
@@ -459,7 +472,8 @@
       }
     ],
     "bestFor": "Hathor",
-    "bestForZh": "哈索尔"
+    "bestForZh": "哈索尔",
+    "image": "/images/weapons/blade-wings.webp"
   },
   {
     "id": "yokai-hammer",
@@ -492,7 +506,8 @@
       }
     ],
     "bestFor": "Chiz",
-    "bestForZh": "赤子"
+    "bestForZh": "赤子",
+    "image": "/images/weapons/yokai-hammer.webp"
   },
   {
     "id": "appraisal-ability",
@@ -525,7 +540,8 @@
       }
     ],
     "bestFor": "The Appraiser",
-    "bestForZh": "鉴定师"
+    "bestForZh": "鉴定师",
+    "image": "/images/weapons/appraisal-ability.webp"
   },
   {
     "id": "whip-sword",
@@ -558,7 +574,8 @@
       }
     ],
     "bestFor": "Lingko",
-    "bestForZh": "凛子"
+    "bestForZh": "凛子",
+    "image": "/images/weapons/whip-sword.webp"
   },
   {
     "id": "chaos-orbs",
@@ -591,7 +608,8 @@
       }
     ],
     "bestFor": "Mismo",
-    "bestForZh": "密斯莫"
+    "bestForZh": "密斯莫",
+    "image": "/images/weapons/chaos-orbs.webp"
   },
   {
     "id": "blood-blades",
@@ -624,7 +642,8 @@
       }
     ],
     "bestFor": "Shinku",
-    "bestForZh": "沁红"
+    "bestForZh": "沁红",
+    "image": "/images/weapons/blood-blades.webp"
   },
   {
     "id": "psychic-barriers",
@@ -657,7 +676,8 @@
       }
     ],
     "bestFor": "Nitsa",
-    "bestForZh": "尼察"
+    "bestForZh": "尼察",
+    "image": "/images/weapons/psychic-barriers.webp"
   },
   {
     "id": "dark-feathers",
@@ -690,7 +710,8 @@
       }
     ],
     "bestFor": "Black Bird",
-    "bestForZh": "黑鸟"
+    "bestForZh": "黑鸟",
+    "image": "/images/weapons/dark-feathers.webp"
   },
   {
     "id": "tiger-fangs",
@@ -723,7 +744,8 @@
       }
     ],
     "bestFor": "Xiaozhen",
-    "bestForZh": "明虎"
+    "bestForZh": "明虎",
+    "image": "/images/weapons/tiger-fangs.webp"
   },
   {
     "id": "flame-talismans",
@@ -756,7 +778,8 @@
       }
     ],
     "bestFor": "Akane",
-    "bestForZh": "赤音"
+    "bestForZh": "赤音",
+    "image": "/images/weapons/flame-talismans.webp"
   },
   {
     "id": "gravity-hammer",
@@ -789,7 +812,8 @@
       }
     ],
     "bestFor": "Jenson",
-    "bestForZh": "詹森"
+    "bestForZh": "詹森",
+    "image": "/images/weapons/gravity-hammer.webp"
   },
   {
     "id": "phase-blades",
@@ -822,7 +846,8 @@
       }
     ],
     "bestFor": "Illica",
-    "bestForZh": "伊利卡"
+    "bestForZh": "伊利卡",
+    "image": "/images/weapons/phase-blades.webp"
   },
   {
     "id": "sonic-guitar",
@@ -853,7 +878,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/sonic-guitar.webp"
   },
   {
     "id": "magnet-gauntlets",
@@ -884,7 +910,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/magnet-gauntlets.webp"
   },
   {
     "id": "time-hourglass",
@@ -915,7 +942,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/time-hourglass.webp"
   },
   {
     "id": "ink-brush",
@@ -946,7 +974,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/ink-brush.webp"
   },
   {
     "id": "chain-scythe",
@@ -977,7 +1006,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/chain-scythe.webp"
   },
   {
     "id": "crystal-shards",
@@ -1008,7 +1038,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/crystal-shards.webp"
   },
   {
     "id": "puppet-strings",
@@ -1039,7 +1070,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/puppet-strings.webp"
   },
   {
     "id": "void-scythe",
@@ -1070,7 +1102,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/void-scythe.webp"
   },
   {
     "id": "plasma-cannon",
@@ -1101,7 +1134,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/plasma-cannon.webp"
   },
   {
     "id": "nature-vines",
@@ -1132,7 +1166,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/nature-vines.webp"
   },
   {
     "id": "mirror-shield",
@@ -1163,7 +1198,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/mirror-shield.webp"
   },
   {
     "id": "thunder-drums",
@@ -1194,7 +1230,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/thunder-drums.webp"
   },
   {
     "id": "frost-fan",
@@ -1225,7 +1262,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/frost-fan.webp"
   },
   {
     "id": "gravity-boots",
@@ -1256,7 +1294,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/gravity-boots.webp"
   },
   {
     "id": "spirit-bow",
@@ -1287,7 +1326,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/spirit-bow.webp"
   },
   {
     "id": "nanite-swarm",
@@ -1318,7 +1358,8 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/nanite-swarm.webp"
   },
   {
     "id": "soul-lantern",
@@ -1349,6 +1390,7 @@
       }
     ],
     "bestFor": "various characters",
-    "bestForZh": "多种角色"
+    "bestForZh": "多种角色",
+    "image": "/images/weapons/soul-lantern.webp"
   }
 ]

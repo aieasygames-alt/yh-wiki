@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GameImage } from "./GameImage";
 import type { Locale } from "../lib/i18n";
 
 const TYPE_LABELS: Record<Locale, Record<string, string>> = {
@@ -43,11 +44,12 @@ export function WeaponCard({ id, name, nameEn, type, locale }: WeaponCardProps) 
       href={`/${locale}/weapons/${id}`}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >
-      <div className="w-full aspect-square rounded-lg mb-3 bg-gray-800 flex items-center justify-center">
-        <svg className="w-10 h-10 text-gray-600 group-hover:text-primary-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-        </svg>
-      </div>
+      <GameImage
+        type="weapon"
+        id={id}
+        name={name}
+        className="w-full aspect-square rounded-lg mb-3"
+      />
       <h3 className="font-medium text-sm truncate">{name}</h3>
       <p className="text-xs text-gray-500 truncate">{nameEn}</p>
       <div className="mt-2">

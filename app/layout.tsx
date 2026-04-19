@@ -14,6 +14,17 @@ export const metadata: Metadata = {
     "NTE characters", "NTE tier list", "NTE calculator",
     "NTE redeem codes", "NTE builds",
   ],
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.png"],
+  },
   other: {
     "msvalidate.01": "1FDBEDECCADE86F6C58D3B85E9492A14",
   },

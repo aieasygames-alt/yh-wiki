@@ -7,6 +7,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { ProductJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { FaqSection } from "../../../../components/FaqSection";
 import { WeaponSummary } from "../../../../components/WeaponSummary";
+import { GameImage } from "../../../../components/GameImage";
 
 export function generateStaticParams() {
   const weapons = getAllWeapons();
@@ -87,11 +88,12 @@ export default async function WeaponDetailPage({
         {/* Weapon Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <div className="w-24 h-24 rounded-lg bg-gray-800 flex items-center justify-center shrink-0">
-              <svg className="w-10 h-10 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-              </svg>
-            </div>
+            <GameImage
+              type="weapon"
+              id={weapon.id}
+              name={weapon.name}
+              className="w-24 h-24 rounded-lg shrink-0"
+            />
             <div>
               <h1 className="text-2xl font-bold">{locale === "zh" ? weapon.name : `${weapon.nameEn} Stats & Best Characters`}</h1>
               <p className="text-gray-500">{locale === "zh" ? weapon.nameEn : weapon.name}</p>

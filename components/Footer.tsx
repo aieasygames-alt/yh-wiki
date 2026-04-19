@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, type Locale } from "../lib/i18n";
+import Logo from "./Logo";
 
 export function Footer() {
   const pathname = usePathname();
@@ -68,6 +69,10 @@ export function Footer() {
           ))}
         </div>
         <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
+          <div className="flex items-center justify-center gap-2 mb-2">
+            <Logo size={20} />
+            <span className="text-primary-400 font-semibold">{t(lang, "site.title")}</span>
+          </div>
           <p>&copy; {new Date().getFullYear()} {t(lang, "site.title")}</p>
           <p className="mt-1 text-gray-600">
             {lang === "zh"

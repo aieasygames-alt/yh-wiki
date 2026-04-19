@@ -4,7 +4,7 @@ import { useState } from "react";
 import { getPlaceholderImage } from "../lib/placeholder";
 
 interface GameImageProps {
-  type: "character" | "material" | "weapon";
+  type: "character" | "material" | "weapon" | "vehicle";
   id: string;
   name: string;
   className?: string;
@@ -16,7 +16,10 @@ interface GameImageProps {
 
 export function GameImage({ type, id, name, className = "", alt, width, height, priority = false }: GameImageProps) {
   const [error, setError] = useState(false);
-  const src = `/images/${type}s/${id}.webp`;
+  // Special case for vehicles since it doesn't follow the 's' pattern
+  const src = type === "vehicle"
+    ? `/images/vehicles/${id}.webp`
+    : `/images/${type}s/${id}.webp`;
   const altText = alt ?? `${name} - ${type} in Neverness to Everness`;
 
   return (
