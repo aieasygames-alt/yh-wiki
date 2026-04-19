@@ -192,8 +192,8 @@
     "relatedFaqs": "Related Questions"
   },
   "guides": {
-    "title": "NTE Guides",
-    "description": "Complete Neverness to Everness guides - beginner tips, tier lists, team building",
+    "title": "NTE Guides - Beginner to Advanced Strategy Guides",
+    "description": "Complete Neverness to Everness strategy guides covering beginner tips, elemental reactions, stamina management, gacha strategy, and team building",
     "readMore": "Read More",
     "relatedGuides": "Related Guides",
     "relatedCharacters": "Related Characters",
@@ -214,8 +214,8 @@
     "relatedLore": "Related Lore"
   },
   "weapons": {
-    "title": "NTE Weapons",
-    "description": "All Neverness to Everness weapon types and best characters for each",
+    "title": "NTE Weapons - All 42 Weapon Types & Best Characters",
+    "description": "Complete Neverness to Everness weapon database covering all 42 weapon types, stats, skills, and best character matchups",
     "type": "Type",
     "relatedCharacters": "Used By",
     "melee": "Melee",

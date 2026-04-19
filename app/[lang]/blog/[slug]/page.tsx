@@ -95,7 +95,7 @@ export default async function BlogDetailPage({
                 href={`/${lang}/tags/${tag}`}
                 className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-400 hover:text-primary-400 transition-colors"
               >
-                #{tag}
+                #{locale === "zh" ? (() => { const zh = t(locale, `blog.tags.${tag}`); return zh !== `blog.tags.${tag}` ? zh : tag; })() : tag}
               </Link>
             ))}
           </div>

@@ -23,6 +23,17 @@ export async function generateMetadata({
   };
 }
 
+const TYPE_ORDER = ["melee", "companion", "magic", "ranged", "summon", "support"];
+
+const TYPE_LABELS: Record<string, Record<"zh" | "en", string>> = {
+  melee: { zh: "近战武器", en: "Melee Weapons" },
+  companion: { zh: "伴生体武器", en: "Companion Weapons" },
+  magic: { zh: "异能武器", en: "Esper Weapons" },
+  ranged: { zh: "远程武器", en: "Ranged Weapons" },
+  summon: { zh: "召唤武器", en: "Summon Weapons" },
+  support: { zh: "辅助武器", en: "Support Weapons" },
+};
+
 export default async function WeaponsPage({
   params,
 }: {
@@ -31,6 +42,12 @@ export default async function WeaponsPage({
   const { lang } = await params;
   const locale = lang as "zh" | "en";
   const weapons = getAllWeapons();
+
+  const weaponsByType = TYPE_ORDER.map((type) => ({
+    type,
+    label: TYPE_LABELS[type]?.[locale] || type,
+    weapons: weapons.filter((w) => w.type === type),
+  })).filter((group) => group.weapons.length > 0);
 
   return (
     <>
@@ -47,19 +64,26 @@ export default async function WeaponsPage({
         ]}
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold mb-8">{t(locale, "weapons.title")}</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {weapons.map((w) => (
-            <WeaponCard
-              key={w.id}
-              id={w.id}
-              name={w.name}
-              nameEn={w.nameEn}
-              type={w.type}
-              locale={locale}
-            />
-          ))}
-        </div>
+        <h1 className="text-3xl font-bold mb-2">{t(locale, "weapons.title")}</h1>
+        <p className="text-gray-400 mb-8">{t(locale, "weapons.description")}</p>
+
+        {weaponsByType.map((group) => (
+          <section key={group.type} className="mb-10">
+            <h2 className="text-xl font-bold mb-4 text-primary-400">{group.label}</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+              {group.weapons.map((w) => (
+                <WeaponCard
+                  key={w.id}
+                  id={w.id}
+                  name={w.name}
+                  nameEn={w.nameEn}
+                  type={w.type}
+                  locale={locale}
+                />
+              ))}
+            </div>
+          </section>
+        ))}
       </div>
     </>
   );

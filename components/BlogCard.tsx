@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { t } from "../lib/i18n";
 
 interface BlogCardProps {
   id: string;
@@ -8,6 +9,14 @@ interface BlogCardProps {
   date: string;
   tags: string[];
   locale: "zh" | "en";
+}
+
+function getTagLabel(tag: string, locale: "zh" | "en"): string {
+  if (locale === "zh") {
+    const zhTag = t(locale, `blog.tags.${tag}`);
+    return zhTag !== `blog.tags.${tag}` ? zhTag : tag;
+  }
+  return tag;
 }
 
 export function BlogCard({ id, title, summary, category, date, tags, locale }: BlogCardProps) {
@@ -33,7 +42,7 @@ export function BlogCard({ id, title, summary, category, date, tags, locale }: B
               key={tag}
               className="text-xs px-1.5 py-0.5 rounded bg-gray-800 text-gray-400"
             >
-              #{tag}
+              #{getTagLabel(tag, locale)}
             </span>
           ))}
         </div>
