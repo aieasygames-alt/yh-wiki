@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { t, type Locale } from "../../../lib/i18n";
 import { trackEvent } from "../../../lib/analytics";
@@ -13,6 +13,8 @@ interface RedeemCode {
   status: "active" | "expired" | "unknown";
   expiresAt: string;
   source: string;
+  region: "cn" | "global";
+  revealedAt?: string;
 }
 
 const codes = redeemCodesData as RedeemCode[];
@@ -38,12 +40,30 @@ const STATUS_CONFIG = {
   },
 };
 
+const REGION_LABELS = {
+  cn: { zh: "国服", en: "CN Server" },
+  global: { zh: "国际服", en: "Global Server" },
+};
+
 export default function RedeemCodesPage() {
   const { lang: langParam } = useParams();
   const lang = (langParam || "zh") as Locale;
 
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
   const [filter, setFilter] = useState<"all" | "active" | "expired">("all");
+  const [region, setRegion] = useState<"all" | "cn" | "global">("all");
+  const [now, setNow] = useState<Date | null>(null);
+
+  useEffect(() => { setNow(new Date()); }, []);
+
+  const getCountdown = useCallback((expiresAt: string) => {
+    if (!now) return null;
+    const diff = new Date(expiresAt).getTime() - now.getTime();
+    if (diff <= 0) return null;
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    return { days, hours };
+  }, [now]);
 
   const handleCopy = useCallback((code: string) => {
     navigator.clipboard.writeText(code).then(() => {
@@ -53,16 +73,22 @@ export default function RedeemCodesPage() {
     });
   }, []);
 
-  const filteredCodes = filter === "all" ? codes : codes.filter((c) => c.status === filter);
+  const filteredCodes = codes.filter((c) => {
+    if (filter !== "all" && c.status !== filter) return false;
+    if (region !== "all" && c.region !== region) return false;
+    return true;
+  });
   const activeCount = codes.filter((c) => c.status === "active").length;
   const expiredCount = codes.filter((c) => c.status === "expired").length;
+  const cnCount = codes.filter((c) => c.region === "cn").length;
+  const globalCount = codes.filter((c) => c.region === "global").length;
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">{t(lang, "redeemCodes.title")}</h1>
       <p className="text-sm text-gray-500 mb-2">{t(lang, "redeemCodes.description")}</p>
       <p className="text-xs text-gray-600 mb-8">
-        {t(lang, "redeemCodes.lastUpdate")}: 2026-04-09
+        {t(lang, "redeemCodes.lastUpdate")}: 2026-04-18
       </p>
 
       {/* Summary */}
@@ -82,7 +108,7 @@ export default function RedeemCodesPage() {
       </div>
 
       {/* Filter */}
-      <div className="flex gap-2 mb-6">
+      <div className="flex flex-wrap gap-2 mb-4">
         {(["all", "active", "expired"] as const).map((f) => (
           <button
             key={f}
@@ -94,6 +120,25 @@ export default function RedeemCodesPage() {
             }`}
           >
             {t(lang, `redeemCodes.filter_${f}`)}
+          </button>
+        ))}
+      </div>
+
+      {/* Region Filter */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {(["all", "cn", "global"] as const).map((r) => (
+          <button
+            key={r}
+            onClick={() => setRegion(r)}
+            className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
+              region === r
+                ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
+                : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
+            }`}
+          >
+            {r === "all"
+              ? t(lang, "redeemCodes.filter_all")
+              : `${REGION_LABELS[r][lang]} (${r === "cn" ? cnCount : globalCount})`}
           </button>
         ))}
       </div>
@@ -124,6 +169,9 @@ export default function RedeemCodesPage() {
                     }`}>
                       {config.label[lang]}
                     </span>
+                    <span className="text-xs px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                      {REGION_LABELS[code.region]?.[lang] || code.region}
+                    </span>
                   </div>
                   <p className={`text-sm mb-1 ${isExpired ? "text-gray-600" : "text-gray-300"}`}>
                     {t(lang, "redeemCodes.reward")}: {reward}
@@ -132,6 +180,16 @@ export default function RedeemCodesPage() {
                     <span>
                       {t(lang, "redeemCodes.expires")}: {code.expiresAt}
                     </span>
+                    {code.status === "active" && getCountdown(code.expiresAt) && (() => {
+                      const cd = getCountdown(code.expiresAt)!;
+                      const isUrgent = cd.days < 7;
+                      return (
+                        <span className={`px-1.5 py-0.5 rounded ${isUrgent ? "bg-red-500/10 text-red-400 border border-red-500/20" : "bg-gray-800 text-gray-400"}`}>
+                          {isUrgent ? "⚠ " : ""}
+                          {lang === "zh" ? `剩余 ${cd.days}天${cd.hours}小时` : `${cd.days}d ${cd.hours}h left`}
+                        </span>
+                      );
+                    })()}
                     {code.source && (
                       <span className="px-1.5 py-0.5 rounded bg-gray-800 text-gray-500">
                         {code.source}
