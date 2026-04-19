@@ -77,7 +77,7 @@ export default async function CharacterDetailPage({
 
   return (
     <>
-      <CharacterJsonLd character={character} />
+      <CharacterJsonLd character={character} locale={locale} />
       {character.faq && character.faq.length > 0 && (
         <FaqPageJsonLd faqs={character.faq} lang={locale} />
       )}
@@ -86,7 +86,7 @@ export default async function CharacterDetailPage({
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           { label: t(locale, "site.nav.characters"), href: `/${lang}/characters` },
-          { label: character.name },
+          { label: locale === "zh" ? character.name : character.nameEn },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -123,7 +123,7 @@ export default async function CharacterDetailPage({
                 )}
               </div>
               {character.description && (
-                <p className="mt-3 text-sm text-gray-400">{locale === "zh" ? character.description : (character as any).descriptionEn || character.description}</p>
+                <p className="mt-3 text-sm text-gray-400">{locale === "zh" ? character.description : character.descriptionEn || character.description}</p>
               )}
             </div>
           </div>
@@ -136,6 +136,7 @@ export default async function CharacterDetailPage({
           weapon={character.weapon} weaponEn={character.weaponEn}
           faction={character.faction}
           description={character.description}
+          descriptionEn={character.descriptionEn}
           locale={locale}
         />
 

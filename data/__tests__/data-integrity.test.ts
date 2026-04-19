@@ -29,8 +29,8 @@ describe("characters.json data integrity", () => {
     }
   });
 
-  it("has 38 characters", () => {
-    expect(charactersData).toHaveLength(38);
+  it("has 40 characters", () => {
+    expect(charactersData).toHaveLength(40);
   });
 });
 

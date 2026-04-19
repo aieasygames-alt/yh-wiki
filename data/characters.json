@@ -163,7 +163,8 @@
     ],
     "image": "/images/characters/nanally.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "limited-banner"
+    "acquisitionMethod": "limited-banner",
+    "descriptionEn": "First-generation member of the Coluccis family and the star Esper of the Eibon Antique Shop. A catfolk Esper who fights with razor-sharp claws at blinding speed, wielding powerful anti-gravity abilities."
   },
   {
     "id": "sakiri",
@@ -329,7 +330,8 @@
     ],
     "image": "/images/characters/sakiri.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "beginner-selector"
+    "acquisitionMethod": "beginner-selector",
+    "descriptionEn": "A horned Esper of the Eibon Antique Shop who fights alongside her gluttonous Anomaly companion Kiroumaru. An Incantation-attribute support specialist who excels at buffing teammates."
   },
   {
     "id": "fadia",
@@ -495,7 +497,8 @@
     ],
     "image": "/images/characters/fadia.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad and a vampire-type Esper. Bold and thrill-seeking, she wields a transforming cross shield for both offense and defense."
   },
   {
     "id": "lacrimosa",
@@ -661,7 +664,8 @@
     ],
     "image": "/images/characters/lacrimosa.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat."
   },
   {
     "id": "baicang",
@@ -827,7 +831,8 @@
     ],
     "image": "/images/characters/baicang.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "Captain of the Bureau of Anomaly Control's ETD-4 squad, leading Fadia, Lacrimosa, and Skia on major anomaly missions. Constructs defensive formations using the power of Word Spirit."
   },
   {
     "id": "zero",
@@ -993,7 +998,8 @@
     ],
     "image": "/images/characters/zero.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A member of the Eibon Antique Shop and a taciturn swordsman. Seen fighting alongside Nanally, Sakiri, and Mint in the beta test footage."
   },
   {
     "id": "hotori",
@@ -1159,7 +1165,8 @@
     ],
     "image": "/images/characters/hotori.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle."
   },
   {
     "id": "daffodil",
@@ -1325,7 +1332,8 @@
     ],
     "image": "/images/characters/daffodil.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "Security specialist at the Eibon Antique Shop. A Chaos-attribute support character wielding a liquid arc weapon."
   },
   {
     "id": "jiuyuan",
@@ -1491,7 +1499,8 @@
     ],
     "image": "/images/characters/jiuyuan.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "Known as \"Miss Jiuyuan,\" a top-tier driver responsible for transporting Espers and emergency anomaly supplies. An Anima-attribute S-rank Esper."
   },
   {
     "id": "haniel",
@@ -1657,7 +1666,8 @@
     ],
     "image": "/images/characters/haniel.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A Psyche-attribute S-rank Esper currently revealed only through promotional artwork. Full combat details and story role await the official launch."
   },
   {
     "id": "adler",
@@ -1823,7 +1833,8 @@
     ],
     "image": "/images/characters/adler.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "The butler of the Eibon Antique Shop, known as the \"Golden Blade Butler.\" An A-rank Incantation Esper who fights with a cane sword alongside his companion entity Sunyas."
   },
   {
     "id": "skia",
@@ -1989,7 +2000,8 @@
     ],
     "image": "/images/characters/skia.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad, fighting alongside Fadia and Lacrimosa. A Lakshana-attribute Esper who manipulates shadows in combat."
   },
   {
     "id": "edgar",
@@ -2155,7 +2167,8 @@
     ],
     "image": "/images/characters/edgar.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A member of the Eibon Antique Shop, a blue-haired youth. A Cosmos-attribute A-rank Esper who assists Adler with various anomaly commissions at the shop."
   },
   {
     "id": "mint",
@@ -2321,7 +2334,8 @@
     ],
     "image": "/images/characters/mint.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A member of the Bureau of Anomaly Control's CSU-2 unit. An Anima-attribute A-rank Esper who wields dual blades for swift support combat."
   },
   {
     "id": "nelly",
@@ -2487,7 +2501,8 @@
     ],
     "image": "/images/characters/nelly.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper."
   },
   {
     "id": "merula",
@@ -2653,7 +2668,8 @@
     ],
     "image": "/images/characters/merula.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A Lakshana-attribute Esper, potentially S-rank according to Wiki data. Full details to be confirmed upon the game's official launch."
   },
   {
     "id": "alphard",
@@ -2819,7 +2835,8 @@
     ],
     "image": "/images/characters/alphard.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed."
   },
   {
     "id": "taygedo",
@@ -2985,7 +3002,8 @@
     ],
     "image": "/images/characters/taygedo.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character."
   },
   {
     "id": "hathor",
@@ -3151,7 +3169,8 @@
     ],
     "image": "/images/characters/hathor.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "An S-rank Lakshana-attribute Esper who wields blade wings in combat. Full details await official confirmation."
   },
   {
     "id": "chiz",
@@ -3317,7 +3336,8 @@
     ],
     "image": "/images/characters/chiz.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "An S-rank Cosmos-attribute Esper wielding a Yokai Hammer. Obtainable for free at level 18 in the City Tycoon mode."
   },
   {
     "id": "lilina",
@@ -3483,7 +3503,8 @@
     ],
     "image": "/images/characters/lilina.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "The top star of the Eibon Antique Shop, featured on the official website. Full details to be confirmed upon the game's official launch."
   },
   {
     "id": "the-appraiser",
@@ -3649,7 +3670,8 @@
     ],
     "image": "/images/characters/the-appraiser.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "The player protagonist and the new appraiser at the Eibon Antique Shop. Possesses the unique ability to appraise anomalous items, identifying and analyzing the origins of various curios and anomalies. A Cosmos-attribute S-rank Esper at the center of the story."
   },
   {
     "id": "lingko",
@@ -3815,7 +3837,8 @@
     ],
     "image": "/images/characters/lingko.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "descriptionEn": "A character appearing in the game's trailer, an Incantation-attribute Esper. Full details await the official launch."
   },
   {
     "id": "mismo",
@@ -3981,7 +4004,8 @@
     ],
     "image": "/images/characters/mismo.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch."
   },
   {
     "id": "shinku",
@@ -4147,7 +4171,8 @@
     ],
     "image": "/images/characters/shinku.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "descriptionEn": "A character from the Co-Ex beta test, an Anima-attribute Esper. Full details await the official launch."
   },
   {
     "id": "nitsa",
@@ -4313,7 +4338,8 @@
     ],
     "image": "/images/characters/nitsa.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "descriptionEn": "A character from the beta test, a Psyche-attribute Esper. Full details await the official launch."
   },
   {
     "id": "black-bird",
@@ -4479,7 +4505,8 @@
     ],
     "image": "/images/characters/black-bird.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A datamined character, a Chaos-attribute S-rank Esper. Full details to be confirmed; may appear in the official launch."
   },
   {
     "id": "xiaozhen",
@@ -4645,7 +4672,8 @@
     ],
     "image": "/images/characters/xiaozhen.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A datamined character, an Anima-attribute S-rank Esper. Full details to be confirmed."
   },
   {
     "id": "akane",
@@ -4811,7 +4839,8 @@
     ],
     "image": "/images/characters/akane.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch."
   },
   {
     "id": "jenson",
@@ -4977,7 +5006,8 @@
     ],
     "image": "/images/characters/jenson.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "descriptionEn": "A character sourced from community data, a Psyche-attribute Esper. Full details to be confirmed."
   },
   {
     "id": "illica",
@@ -5143,7 +5173,8 @@
     ],
     "image": "/images/characters/illica.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch."
   },
   {
     "id": "fuuka",
@@ -6354,7 +6385,8 @@
     },
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "image": "/images/characters/aurelia.webp"
+    "image": "/images/characters/aurelia.webp",
+    "descriptionEn": "A newly added A-rank character for the official launch. Full details to be updated after launch."
   },
   {
     "id": "xiaozhi",
@@ -6396,6 +6428,7 @@
     },
     "availableAtLaunch": true,
     "acquisitionMethod": "city-tycoon",
-    "image": "/images/characters/xiaozhi.webp"
+    "image": "/images/characters/xiaozhi.webp",
+    "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch."
   }
 ]

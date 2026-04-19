@@ -21,13 +21,18 @@ export function WebSiteJsonLd() {
   );
 }
 
-export function CharacterJsonLd({ character }: { character: { name: string; nameEn: string; attribute: string; rank: string; description?: string } }) {
+export function CharacterJsonLd({ character, locale }: { character: { name: string; nameEn: string; attribute: string; rank: string; description?: string; descriptionEn?: string }; locale: "zh" | "en" }) {
+  const displayName = locale === "zh" ? character.name : character.nameEn;
+  const altName = locale === "zh" ? character.nameEn : character.name;
+  const description = locale === "zh"
+    ? (character.description || `${character.name} - Neverness to Everness 角色`)
+    : (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "VideoGameCharacter",
-    name: character.name,
-    alternateName: character.nameEn,
-    description: character.description || `${character.name} - Neverness to Everness character`,
+    name: displayName,
+    alternateName: altName,
+    description,
     game: "Neverness to Everness",
   };
 
