@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { GaRouteTracker } from "../../components/GaRouteTracker";
+import { QuickLinks } from "../../components/QuickLinks";
 import type { Locale } from "../../lib/i18n";
 
 const GA_ID = "G-KLVBV8S58R";
@@ -42,6 +43,7 @@ export default async function LangLayout({
         <GaRouteTracker />
         <Header />
         <main className="flex-1">{children}</main>
+        <QuickLinks lang={lang} />
         <Footer />
       </body>
     </html>

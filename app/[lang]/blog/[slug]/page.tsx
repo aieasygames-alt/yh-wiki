@@ -5,6 +5,27 @@ import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 
+function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
+  const allPosts = getAllBlogPosts();
+  const scored = allPosts
+    .filter((p) => p.id !== currentSlug)
+    .map((p) => ({
+      post: p,
+      score: p.tags.filter((tag) => tags.includes(tag)).length,
+    }))
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score || b.post.date.localeCompare(a.post.date));
+
+  if (scored.length >= count) return scored.slice(0, count).map((s) => s.post);
+
+  // Fallback: fill with latest posts not already selected
+  const selectedIds = new Set(scored.map((s) => s.post.id));
+  const fallback = allPosts
+    .filter((p) => p.id !== currentSlug && !selectedIds.has(p.id))
+    .sort((a, b) => b.date.localeCompare(a.date));
+  return [...scored.map((s) => s.post), ...fallback].slice(0, count);
+}
+
 export function generateStaticParams() {
   const posts = getAllBlogPosts();
   return posts.flatMap((p) => [
@@ -122,6 +143,36 @@ export default async function BlogDetailPage({
             </div>
           </section>
         )}
+
+        {/* Related Posts */}
+        {(() => {
+          const related = getRelatedPosts(slug, post.tags, 3);
+          if (related.length === 0) return null;
+          return (
+            <section className="mt-10 border-t border-gray-800 pt-6">
+              <h2 className="text-lg font-bold mb-4">
+                {locale === "zh" ? "推荐阅读" : "Related Posts"}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {related.map((rp) => (
+                  <Link
+                    key={rp.id}
+                    href={`/${lang}/blog/${rp.id}`}
+                    className="group rounded-xl border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 transition-colors"
+                  >
+                    <span className="text-xs text-gray-500">{rp.date}</span>
+                    <h3 className="text-sm font-medium mt-1 group-hover:text-primary-400 transition-colors">
+                      {locale === "zh" ? rp.title : rp.titleEn}
+                    </h3>
+                    <p className="text-xs text-gray-500 mt-2 line-clamp-2">
+                      {locale === "zh" ? rp.summary : rp.summaryEn}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
       </article>
     </>
   );
