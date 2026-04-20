@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { t, hreflangAlternates } from "../../../lib/i18n";
 import { getCompare } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { ArticleJsonLd, BreadcrumbJsonLd } from "../../../components/JsonLd";
+import { ArticleJsonLd, BreadcrumbJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { CompareTable } from "../../../components/CompareTable";
 import type { CompareArticle } from "../../../lib/queries";
 
@@ -16,14 +16,15 @@ export async function generateCompareMetadata({ params }: ComparePageProps) {
   const article = getCompare(slug);
   if (!article) return {};
   const locale = lang as "zh" | "en";
-  const title = locale === "zh" ? article.title : article.titleEn;
+  const rawTitle = locale === "zh" ? article.title : article.titleEn;
   const description = locale === "zh" ? article.summary : article.summaryEn;
+  const title = `${rawTitle} (2026) | NTE Guide`;
   return {
-    title: `${title} | NTE Compare`,
+    title,
     description,
     alternates: hreflangAlternates(`compare/${slug}`, lang),
     openGraph: {
-      title: `${title} | NTE Compare`,
+      title,
       description,
       type: "article",
     },
@@ -54,6 +55,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
   return (
     <>
       <ArticleJsonLd title={title} description={summary} url={url} datePublished={article.date} />
+      {getCompareFaqs(slug) && <FaqPageJsonLd faqs={getCompareFaqs(slug)!} lang={locale} />}
       <BreadcrumbJsonLd
         items={[
           { name: "NTE Guide", url: "https://nteguide.com" },
@@ -217,4 +219,58 @@ function getCompareTable(slug: string, locale: "zh" | "en") {
   }
 
   return null;
+}
+
+function getCompareFaqs(slug: string) {
+  const faqs: Record<string, { question: string; questionZh: string; answer: string; answerZh: string }[]> = {
+    "nte-vs-genshin": [
+      {
+        question: "Is NTE better than Genshin Impact?",
+        questionZh: "异环比原神更好吗？",
+        answer: "It depends on your preference. NTE offers modern urban fantasy, no 50/50 gacha, and action combo combat. Genshin has a more mature ecosystem, broader platform support, and elemental reaction strategy. Both are excellent free-to-play games worth trying.",
+        answerZh: "取决于个人喜好。异环提供现代都市奇幻、无50/50抽卡和动作连招战斗。原神有更成熟的生态、更广的平台支持和元素反应策略。两款都是优秀的免费游戏，值得尝试。"
+      },
+      {
+        question: "Can I play NTE and Genshin at the same time?",
+        questionZh: "可以同时玩异环和原神吗？",
+        answer: "Yes, both are free-to-play and don't require exclusivity. Many players enjoy both games, using NTE for its urban setting and Genshin for its fantasy world.",
+        answerZh: "可以。两款游戏都是免费的，不要求排他性。很多玩家同时享受两款游戏，用异环体验都市设定，用原神探索奇幻世界。"
+      },
+      {
+        question: "Which game is more F2P friendly?",
+        questionZh: "哪款游戏对零氪玩家更友好？",
+        answer: "NTE is generally considered more F2P-friendly due to its no 50/50 gacha system and 90-pull hard pity that guarantees the featured character. Genshin requires up to 180 pulls for guarantee if you lose the 50/50.",
+        answerZh: "异环通常被认为更友好，因为它没有50/50机制，90抽保底必出UP角色。原神如果歪了可能需要180抽才能保底。"
+      },
+    ],
+    "nte-vs-wuthering-waves": [
+      {
+        question: "Is NTE similar to Wuthering Waves?",
+        questionZh: "异环和鸣潮相似吗？",
+        answer: "Both are anime action RPGs, but NTE features modern urban fantasy setting while Wuthering Waves has a post-apocalyptic world. NTE uses a no-50/50 gacha system while WuWa has a traditional 50/50 system. Combat styles also differ significantly.",
+        answerZh: "两款都是二次元动作RPG，但异环是现代都市奇幻设定，鸣潮是后末日世界。异环没有50/50抽卡机制，鸣潮有传统50/50。战斗风格也有明显差异。"
+      },
+      {
+        question: "Which has better combat: NTE or Wuthering Waves?",
+        questionZh: "异环和鸣潮哪个战斗更好？",
+        answer: "Wuthering Waves has deeper action combat with dodge/parry mechanics. NTE focuses more on character switching combos and anomaly chain mechanics. If you prefer pure action, WuWa may appeal more. If you like strategic team switching, NTE is compelling.",
+        answerZh: "鸣潮有更深的动作战斗，包含闪避弹反机制。异环更注重角色切换连招和异环链机制。如果你喜欢纯粹的动作感，鸣潮更合适。如果你喜欢策略性切换，异环更有吸引力。"
+      },
+    ],
+    "games-like-nte": [
+      {
+        question: "What games are similar to Neverness to Everness?",
+        questionZh: "有哪些类似异环的游戏？",
+        answer: "Games similar to NTE include Genshin Impact, Wuthering Waves, Zenless Zone Zero, Tower of Fantasy, and Honkai: Star Rail. All feature anime-style graphics, gacha character acquisition, and action RPG gameplay.",
+        answerZh: "类似异环的游戏包括原神、鸣潮、绝区零、幻塔和崩坏：星穹铁道。它们都有二次元画风、抽卡角色获取和动作RPG玩法。"
+      },
+      {
+        question: "Is NTE free to play?",
+        questionZh: "异环是免费游戏吗？",
+        answer: "Yes, Neverness to Everness is completely free to download and play. It uses an optional in-game purchase model for character acquisition through the gacha system.",
+        answerZh: "是的，异环完全免费下载和游玩。游戏使用可选的内购模式，通过抽卡系统获取角色。"
+      },
+    ],
+  };
+  return faqs[slug] || null;
 }

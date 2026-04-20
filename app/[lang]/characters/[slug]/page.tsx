@@ -35,25 +35,22 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const character = getCharacter(slug);
   if (!character) return {};
+  const name = lang === "zh" ? character.name : character.nameEn;
+  const title =
+    lang === "zh"
+      ? `${character.name} - 异环角色攻略：配装/技能/配队 | NTE Guide`
+      : `${character.nameEn} - NTE Character Guide: Build, Skills & Team | NTE Guide`;
+  const description =
+    lang === "zh"
+      ? `异环(NTE) ${character.name} 完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。`
+      : `Complete ${character.nameEn} guide for Neverness to Everness. Best build, skills analysis, team compositions, and leveling materials.`;
   return {
-    title:
-      lang === "zh"
-        ? `${character.name} 配装推荐 & 升级材料 | 异环 Wiki`
-        : `${character.nameEn} (${character.name}) Build, Skills & Tier - NTE Guide`,
-    description:
-      lang === "zh"
-        ? `异环 ${character.name} 完整配装推荐、技能解析、升级材料列表及获取方式。`
-        : `Find the best build for ${character.nameEn} in Neverness to Everness. Complete skill breakdown, tier ranking, recommended weapons, and team comps.`,
+    title,
+    description,
     alternates: hreflangAlternates(`characters/${slug}`, lang),
     openGraph: {
-      title:
-        lang === "zh"
-          ? `${character.name} 配装推荐 & 升级材料 | 异环 Wiki`
-          : `${character.nameEn} Build & Tier | NTE Guide`,
-      description:
-        lang === "zh"
-          ? `异环 ${character.name} 完整配装推荐、技能解析、升级材料列表及获取方式。`
-          : `Find the best build for ${character.nameEn} in Neverness to Everness.`,
+      title,
+      description,
       type: "article",
     },
   };
