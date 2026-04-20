@@ -1,0 +1,114 @@
+{
+  "banners": [
+    {
+      "id": "limited",
+      "nameZh": "限定祈愿（角色池）",
+      "nameEn": "Limited Character Wish",
+      "descZh": "UP角色概率提升，90抽硬保底，无50/50机制，首次S级必为UP角色",
+      "descEn": "Featured S-rank character with boosted rates, 90-pull hard pity, no 50/50 mechanic — first S-rank is guaranteed to be the featured character",
+      "sRate": "0.6%",
+      "aRate": "10%",
+      "bRate": "89.4%",
+      "hardPity": 90,
+      "softPity": 74,
+      "avgPity": 53.5,
+      "no5050": true
+    },
+    {
+      "id": "beginner",
+      "nameZh": "新手祈愿",
+      "nameEn": "Beginner Wish",
+      "descZh": "限定一次，20抽内必出S级角色，可自选薄荷或早雾",
+      "descEn": "One-time only, guaranteed S-rank within 20 pulls, selector for Mint or Sakiri",
+      "sRate": "0.6%",
+      "aRate": "10%",
+      "bRate": "89.4%",
+      "hardPity": 20,
+      "softPity": null,
+      "avgPity": 12,
+      "no5050": true,
+      "maxPulls": 20,
+      "oneTimeOnly": true
+    },
+    {
+      "id": "standard",
+      "nameZh": "常驻祈愿",
+      "nameEn": "Standard Wish",
+      "descZh": "常驻池，90抽硬保底，50抽可自选S级角色",
+      "descEn": "Permanent banner, 90-pull hard pity, S-rank selector available at 50 pulls",
+      "sRate": "0.6%",
+      "aRate": "10%",
+      "bRate": "89.4%",
+      "hardPity": 90,
+      "softPity": 75,
+      "avgPity": 55,
+      "no5050": false,
+      "selectorAt": 50
+    },
+    {
+      "id": "weapons",
+      "nameZh": "武器祈愿",
+      "nameEn": "Weapon Wish",
+      "descZh": "限定武器概率提升，60抽保底UP武器，80抽大保底",
+      "descEn": "Featured weapon with boosted rates, 60-pull pity for featured, 80-pull guaranteed featured",
+      "sRate": "1.0%",
+      "aRate": "13%",
+      "bRate": "86%",
+      "hardPity": 60,
+      "softPity": 50,
+      "avgPity": 40,
+      "no5050": true,
+      "pityFeatured": 80
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does NTE have a 50/50 system?",
+      "questionZh": "异环抽卡有50/50吗？",
+      "answer": "No. NTE's limited character banner does NOT have a 50/50 mechanic. When you pull an S-rank on the limited banner, it is guaranteed to be the featured character. This was confirmed in the official pre-launch livestream.",
+      "answerZh": "没有。异环的限定角色池没有50/50机制。当你在限定池抽到S级角色时，必定是当期UP角色。这一点已在官方前瞻直播中确认。"
+    },
+    {
+      "question": "What is the pity system in NTE?",
+      "questionZh": "异环的保底机制是怎样的？",
+      "answer": "NTE has a hard pity of 90 pulls for S-rank characters on limited and standard banners. Soft pity starts at pull 74, significantly increasing S-rank rates. The average S-rank pull is around 53-54 pulls. Pity carries over between limited banners of the same type.",
+      "answerZh": "异环限定池和常驻池的S级角色硬保底为90抽，软保底从第74抽开始，S级概率显著提升。平均出S级的抽数约为53-54抽。保底会在同类卡池之间继承。"
+    },
+    {
+      "question": "How much does it cost to guarantee a featured character?",
+      "questionZh": "大保底需要多少抽？多少钱？",
+      "answer": "Since NTE has no 50/50, you only need 90 pulls maximum to get the featured S-rank character. At worst case, that's about 14,400 Primordial Amber equivalent currency. Compared to games with 50/50 (180 pulls for guarantee), NTE is significantly more F2P-friendly.",
+      "answerZh": "因为异环没有50/50机制，最多只需90抽就能获得当期UP的S级角色。相比有50/50机制的游戏需要180抽大保底，异环对零氪和微氪玩家非常友好。"
+    },
+    {
+      "question": "Should I pull on the beginner banner first?",
+      "questionZh": "新手应该先抽新手池吗？",
+      "answer": "Yes, absolutely. The beginner banner guarantees an S-rank within 20 pulls and lets you choose between Mint and Sakiri. Both are strong S-rank characters. This is the best value pull in the entire game — do it first.",
+      "answerZh": "是的，强烈推荐。新手池20抽内必出S级角色，而且可以在薄荷和早雾之间自选。两位都是非常强的S级角色，这是全游戏性价比最高的卡池，建议优先抽。"
+    },
+    {
+      "question": "Which banner should F2P players prioritize?",
+      "questionZh": "零氪玩家应该优先抽什么卡池？",
+      "answer": "Priority order: 1) Beginner banner (20 pulls, guaranteed S-rank selector). 2) Limited character banner for a meta DPS or support you need. 3) Standard banner (accumulate pulls naturally). 4) Weapon banner only if you have spare currency after securing needed characters.",
+      "answerZh": "优先级顺序：1) 新手池（20抽必出自选S级）。2) 限定角色池，抽你需要的核心DPS或辅助。3) 常驻池（自然积累即可）。4) 武器池只在抽到需要的角色后还有余力时考虑。"
+    },
+    {
+      "question": "What is the gacha currency in NTE?",
+      "questionZh": "异环抽卡用什么货币？",
+      "answer": "NTE uses Phantom Amber (方斯) as the premium gacha currency. It can be obtained through daily commissions, events, story progression, and exploration rewards. Free-to-play players can accumulate a significant amount through regular gameplay.",
+      "answerZh": "异环使用「方斯」作为抽卡的高级货币。可以通过每日委托、活动奖励、剧情推进和探索奖励获得。零氪玩家通过日常游戏就能积累大量方斯。"
+    },
+    {
+      "question": "Does pity carry over between banners?",
+      "questionZh": "保底会继承到下一个卡池吗？",
+      "answer": "Yes. Pity count carries over between limited character banners. If you pulled 50 times on one limited banner without getting an S-rank, the next limited banner starts at 50 pity. However, pity does NOT carry over between different banner types (e.g., from character to weapon banner).",
+      "answerZh": "会。限定角色池之间的保底计数会继承。如果你在某个限定池抽了50次没出S级，下一个限定池会从50抽保底开始。但不同类型卡池之间的保底不互通（比如角色池和武器池）。"
+    },
+    {
+      "question": "How many free pulls can I get at launch?",
+      "questionZh": "公测能白嫖多少抽？",
+      "answer": "At launch, F2P players can expect approximately 80-100+ free pulls from pre-registration rewards, launch events, story content, exploration, and daily commissions during the first few weeks. This is enough to guarantee at least one S-rank from the limited banner.",
+      "answerZh": "公测期间，零氪玩家通过预注册奖励、上线活动、剧情内容、探索和每日委托，大约可以获得80-100+抽。这足够在限定池保底至少一个S级角色。"
+    }
+  ]
+}

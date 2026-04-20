@@ -50,6 +50,7 @@ const commonTags = [
 ];
 
 const toolPages = ["calculator/leveling", "calculator/build", "gacha", "redeem-codes", "map", "system-requirements"];
+const guideSubPages = ["guides/gacha-system"];
 const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog"];
 
 function escapeXml(str) {
@@ -96,6 +97,11 @@ categoryPages.forEach((p) => {
   });
 });
 toolPages.forEach((p) => {
+  langs.forEach((lang) => {
+    pageUrls.push({ url: `${BASE_URL}/${lang}/${p}/`, priority: 0.9, changeFreq: "weekly" });
+  });
+});
+guideSubPages.forEach((p) => {
   langs.forEach((lang) => {
     pageUrls.push({ url: `${BASE_URL}/${lang}/${p}/`, priority: 0.9, changeFreq: "weekly" });
   });
