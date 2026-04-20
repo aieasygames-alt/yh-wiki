@@ -1,4 +1,4 @@
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllWeapons } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
@@ -10,7 +10,7 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title: t(locale, "weapons.title"),
     description: t(locale, "weapons.description"),
@@ -25,13 +25,13 @@ export async function generateMetadata({
 
 const TYPE_ORDER = ["melee", "companion", "magic", "ranged", "summon", "support"];
 
-const TYPE_LABELS: Record<string, Record<"zh" | "en", string>> = {
-  melee: { zh: "近战武器", en: "Melee Weapons" },
-  companion: { zh: "伴生体武器", en: "Companion Weapons" },
-  magic: { zh: "异能武器", en: "Esper Weapons" },
-  ranged: { zh: "远程武器", en: "Ranged Weapons" },
-  summon: { zh: "召唤武器", en: "Summon Weapons" },
-  support: { zh: "辅助武器", en: "Support Weapons" },
+const TYPE_LABELS: Record<string, Record<Locale, string>> = {
+  melee: { zh: "近战武器", tw: "近战武器", en: "Melee Weapons" },
+  companion: { zh: "伴生体武器", tw: "伴生体武器", en: "Companion Weapons" },
+  magic: { zh: "异能武器", tw: "异能武器", en: "Esper Weapons" },
+  ranged: { zh: "远程武器", tw: "远程武器", en: "Ranged Weapons" },
+  summon: { zh: "召唤武器", tw: "召唤武器", en: "Summon Weapons" },
+  support: { zh: "辅助武器", tw: "辅助武器", en: "Support Weapons" },
 };
 
 export default async function WeaponsPage({
@@ -40,7 +40,7 @@ export default async function WeaponsPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const weapons = getAllWeapons();
 
   const weaponsByType = TYPE_ORDER.map((type) => ({
@@ -53,7 +53,7 @@ export default async function WeaponsPage({
     <>
       <ItemListJsonLd
         items={weapons.map((w) => ({
-          name: locale === "zh" ? w.name : w.nameEn,
+          name: isZhLocale(locale) ? w.name : w.nameEn,
           url: `https://nteguide.com/${lang}/weapons/${w.id}`,
         }))}
       />

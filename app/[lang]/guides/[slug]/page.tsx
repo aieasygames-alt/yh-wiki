@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
@@ -11,6 +11,7 @@ export function generateStaticParams() {
   const guides = getAllGuides();
   return guides.flatMap((g) => [
     { lang: "zh", slug: g.id },
+    { lang: "tw", slug: g.id },
     { lang: "en", slug: g.id },
   ]);
 }
@@ -23,14 +24,14 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const guide = getGuide(slug);
   if (!guide) return {};
-  const title = lang === "zh" ? guide.title : guide.titleEn;
-  const description = lang === "zh" ? guide.summary : guide.summaryEn;
+  const title = isZhLocale(lang) ? guide.title : guide.titleEn;
+  const description = isZhLocale(lang) ? guide.summary : guide.summaryEn;
   return {
-    title: `${title} - ${lang === "zh" ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
+    title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`guides/${slug}`, lang),
     openGraph: {
-      title: `${title} - ${lang === "zh" ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
+      title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
       description,
       type: "article",
     },
@@ -43,13 +44,13 @@ export default async function GuideDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const guide = getGuide(slug);
   if (!guide) notFound();
 
-  const title = locale === "zh" ? guide.title : guide.titleEn;
-  const content = locale === "zh" ? guide.content : guide.contentEn;
-  const summary = locale === "zh" ? guide.summary : guide.summaryEn;
+  const title = isZhLocale(locale) ? guide.title : guide.titleEn;
+  const content = isZhLocale(locale) ? guide.content : guide.contentEn;
+  const summary = isZhLocale(locale) ? guide.summary : guide.summaryEn;
 
   const relatedChars = guide.relatedCharacters
     .map((id) => getCharacter(id))
@@ -84,7 +85,7 @@ export default async function GuideDetailPage({
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-2">
           <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
-            {locale === "zh" ? guide.categoryZh : guide.categoryEn}
+            {isZhLocale(locale) ? guide.categoryZh : guide.categoryEn}
           </span>
         </div>
         <h1 className="text-2xl font-bold mb-6">{title}</h1>

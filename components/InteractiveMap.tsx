@@ -11,6 +11,7 @@ import {
   markerToLatLng,
   createMarkerIcon,
 } from "../lib/map-utils";
+import type { Locale } from "../lib/i18n";
 
 interface InteractiveMapProps {
   map: MapInfo;
@@ -18,7 +19,7 @@ interface InteractiveMapProps {
   markerTypes: Record<string, MarkerTypeInfo>;
   selectedMarker: MapMarker | null;
   onSelectMarker: (marker: MapMarker | null) => void;
-  lang: "zh" | "en";
+  lang: Locale;
 }
 
 export default function InteractiveMap({
@@ -81,7 +82,7 @@ export default function InteractiveMap({
 
       const leafletMarker = L.marker(markerToLatLng(marker), { icon })
         .bindTooltip(
-          lang === "zh" ? marker.name : marker.nameEn,
+          lang === "en" ? marker.nameEn : marker.name,
           {
             direction: "top",
             offset: [0, -12],

@@ -2,13 +2,23 @@
 
 import { useState, useMemo } from "react";
 import { MaterialCard } from "./MaterialCard";
-import type { Material, Locale } from "../lib/i18n";
+import type { Material } from "../lib/queries";
+import type { Locale } from "../lib/i18n";
+import { isZhLocale } from "../lib/i18n";
 
 const TYPES_ZH = ["drop", "domain", "permit", "manual", "currency", "guide"];
 const TYPES_EN = ["drop", "domain", "permit", "manual", "currency", "guide"];
 
 const TYPE_LABELS: Record<Locale, Record<string, string>> = {
   zh: {
+    drop: "掉落物",
+    domain: "领域材料",
+    permit: "许可证明",
+    manual: "教材",
+    currency: "货币",
+    guide: "教材",
+  },
+  tw: {
     drop: "掉落物",
     domain: "领域材料",
     permit: "许可证明",
@@ -58,7 +68,7 @@ export function MaterialFilter({ materials, locale, lang }: MaterialFilterProps)
           onChange={(e) => setType(e.target.value)}
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
-          <option value="">{locale === "zh" ? "全部类型" : "All Types"}</option>
+          <option value="">{isZhLocale(locale) ? "全部类型" : "All Types"}</option>
           {TYPES_ZH.map((t) => (
             <option key={t} value={t}>{TYPE_LABELS[locale][t] || t}</option>
           ))}
@@ -70,7 +80,7 @@ export function MaterialFilter({ materials, locale, lang }: MaterialFilterProps)
           onChange={(e) => setRarity(e.target.value)}
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
-          <option value="">{locale === "zh" ? "全部稀有度" : "All Rarities"}</option>
+          <option value="">{isZhLocale(locale) ? "全部稀有度" : "All Rarities"}</option>
           {RARITIES.map((r) => (
             <option key={r} value={r}>{"★".repeat(r)}</option>
           ))}
@@ -81,14 +91,14 @@ export function MaterialFilter({ materials, locale, lang }: MaterialFilterProps)
             onClick={() => { setType(""); setRarity(""); }}
             className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-400 hover:text-gray-200 transition-colors"
           >
-            {locale === "zh" ? "清除" : "Clear"}
+            {isZhLocale(locale) ? "清除" : "Clear"}
           </button>
         )}
       </div>
 
       {/* Results Count */}
       <p className="text-sm text-gray-500 mb-4">
-        {filtered.length} {locale === "zh" ? "个材料" : "materials"}
+        {filtered.length} {isZhLocale(locale) ? "个材料" : "materials"}
       </p>
 
       {/* Material Grid */}
@@ -109,7 +119,7 @@ export function MaterialFilter({ materials, locale, lang }: MaterialFilterProps)
 
       {filtered.length === 0 && (
         <div className="text-center py-12 text-gray-500">
-          {locale === "zh" ? "没有匹配的材料" : "No matching materials"}
+          {isZhLocale(locale) ? "没有匹配的材料" : "No matching materials"}
         </div>
       )}
     </>

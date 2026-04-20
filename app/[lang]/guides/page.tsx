@@ -1,4 +1,4 @@
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllGuides, getGuideCategories } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
@@ -9,7 +9,7 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title: t(locale, "guides.title"),
     description: t(locale, "guides.description"),
@@ -28,7 +28,7 @@ export default async function GuidesListPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const guides = getAllGuides();
   const categories = getGuideCategories(locale);
 
@@ -41,7 +41,7 @@ export default async function GuidesListPage({
     <>
       <ItemListJsonLd
         items={guides.map((g) => ({
-          name: locale === "zh" ? g.title : g.titleEn,
+          name: isZhLocale(locale) ? g.title : g.titleEn,
           url: `https://nteguide.com/${lang}/guides/${g.id}`,
         }))}
       />
@@ -65,10 +65,10 @@ export default async function GuidesListPage({
                   className="block rounded-lg border border-gray-800 bg-gray-900/30 p-5 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
                 >
                   <h3 className="text-base font-medium">
-                    {locale === "zh" ? guide.title : guide.titleEn}
+                    {isZhLocale(locale) ? guide.title : guide.titleEn}
                   </h3>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                    {locale === "zh" ? guide.summary : guide.summaryEn}
+                    {isZhLocale(locale) ? guide.summary : guide.summaryEn}
                   </p>
                   <div className="mt-3 flex gap-2">
                     {guide.tags.slice(0, 3).map((tag) => (

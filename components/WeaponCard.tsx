@@ -11,6 +11,14 @@ const TYPE_LABELS: Record<Locale, Record<string, string>> = {
     summon: "召唤",
     support: "辅助",
   },
+  tw: {
+    melee: "近戰",
+    ranged: "遠程",
+    magic: "異能",
+    companion: "伴生體",
+    summon: "召喚",
+    support: "輔助",
+  },
   en: {
     melee: "Melee",
     ranged: "Ranged",

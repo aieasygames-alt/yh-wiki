@@ -1,0 +1,261 @@
+{
+  "site": {
+    "title": "異環 Wiki",
+    "description": "異環(Neverness to Everness)Wiki與工具站，提供角色配裝、升級計算器、攻略指南和兌換碼。",
+    "nav": {
+      "home": "首頁",
+      "characters": "角色",
+      "weapons": "武器",
+      "vehicles": "載具",
+      "materials": "材料",
+      "calculator": "計算器",
+      "gacha": "抽卡",
+      "redeemCodes": "兌換碼",
+      "guides": "攻略",
+      "lore": "世界觀",
+      "locations": "地點",
+      "faq": "FAQ",
+      "map": "地圖",
+      "blog": "部落格",
+      "guidesAndTools": "攻略與工具",
+      "database": "資料庫",
+      "wiki": "百科",
+      "allGuides": "全部攻略",
+      "levelingCalc": "升級計算器",
+      "buildCalc": "Build 計算器",
+      "gachaSim": "抽卡模擬器",
+      "footer": {
+        "gameData": "遊戲資料",
+        "tools": "工具",
+        "content": "內容",
+        "resources": "資源"
+      }
+    }
+  },
+  "home": {
+    "heroTitle": "異環 Wiki",
+    "heroSubtitle": "Neverness to Everness 攻略 · 配裝 · 工具",
+    "heroDescription": "快速查詢角色升級材料，計算養成成本，助力你的異環之旅。",
+    "ctaCalculator": "使用計算器",
+    "charactersSection": "全部角色",
+    "materialsSection": "全部材料",
+    "viewAll": "檢視全部"
+  },
+  "characters": {
+    "title": "角色列表",
+    "description": "異環全部角色配裝推薦、升級材料和強度排行",
+    "rank": "等級",
+    "attribute": "屬性",
+    "levelingMaterials": "升級材料",
+    "skillMaterials": "技能升級材料",
+    "calculatorCta": "計算養成成本",
+    "levelRange": "等級 {range}",
+    "weapon": "武器",
+    "role": "定位",
+    "faction": "陣營",
+    "skills": "技能詳解",
+    "normalAttack": "普攻",
+    "skill": "戰技",
+    "ultimate": "終結技",
+    "passives": "被動天賦",
+    "scaling": "倍率",
+    "cooldown": "冷卻",
+    "cost": "消耗",
+    "recommendedBuild": "推薦配裝",
+    "bestWeapon": "最佳武器",
+    "alternativeWeapons": "替代武器",
+    "bestDiskSet": "推薦磁碟套裝",
+    "mainStats": "主詞條",
+    "subStatPriority": "副詞條優先級",
+    "teamComps": "推薦配隊",
+    "tierRank": "強度評級",
+    "members": "隊員",
+    "relatedCharacters": "相關角色",
+    "viewTierList": "檢視完整強度排行 →"
+  },
+  "materials": {
+    "title": "材料列表",
+    "description": "異環全部材料獲取方式和使用角色",
+    "source": "獲取方式",
+    "usedBy": "使用角色",
+    "rarity": "稀有度",
+    "type": "類型"
+  },
+  "calculator": {
+    "title": "異環升級計算器",
+    "description": "計算異環角色升級所需材料數量",
+    "selectCharacter": "選擇角色",
+    "currentLevel": "當前等級",
+    "targetLevel": "目標等級",
+    "calculate": "計算",
+    "result": "計算結果",
+    "material": "材料",
+    "quantity": "數量",
+    "total": "總計",
+    "noResult": "請選擇角色並輸入等級",
+    "skillMaterialsNote": "技能升級材料（固定消耗）",
+    "levelingNote": "等級提升材料",
+    "leveling": "升級計算器",
+    "build": "Build 計算器"
+  },
+  "buildCalculator": {
+    "title": "Build 計算器",
+    "description": "查看異環角色推薦Build、主副詞條、武器和隊友搭配",
+    "selectCharacter": "選擇角色",
+    "selectHint": "請選擇一個角色查看推薦 Build",
+    "filterHint": "使用上方篩選器按屬性或稀有度過濾",
+    "noBuild": "該角色暫無推薦 Build",
+    "allAttributes": "全部屬性",
+    "mainStat": "主詞條",
+    "subStats": "副詞條優先級",
+    "priority1": "最優先",
+    "priority2": "次優先",
+    "priority3": "第三",
+    "priority4": "第四",
+    "recommendedWeapons": "推薦武器",
+    "teamComp": "推薦隊友",
+    "materialSummary": "滿級養成材料彙總",
+    "openLevelingCalc": "打開升級材料計算器 →"
+  },
+  "gacha": {
+    "title": "異環抽卡模擬器",
+    "description": "模擬異環祈願抽卡，測試你的運氣！",
+    "disclaimer": "非官方機率，僅供娛樂。實際遊戲機率以官方公告為準。",
+    "pull1": "單抽 x1",
+    "pull10": "十連 x10",
+    "pity": "距上次 S",
+    "totalPulls": "總抽數",
+    "sRankCount": "S 級數量",
+    "results": "抽卡結果",
+    "history": "抽卡紀錄",
+    "clearHistory": "清空紀錄",
+    "pulling": "祈願中...",
+    "hint": "選擇卡池後點擊抽卡按鈕開始模擬",
+    "stats": "統計資料",
+    "avgPity": "平均出金",
+    "luckiest": "最歐紀錄",
+    "unluckiest": "最非紀錄",
+    "s5Rate": "S 率",
+    "collection": "S 級收集",
+    "pityWarning": "距保底還剩 {0} 抽！"
+  },
+  "redeemCodes": {
+    "title": "異環兌換碼大全",
+    "description": "異環最新可用兌換碼彙總，持續更新中",
+    "lastUpdate": "最後更新",
+    "total": "總計",
+    "active": "有效",
+    "expired": "已過期",
+    "filter_all": "全部",
+    "filter_active": "有效",
+    "filter_expired": "已過期",
+    "reward": "獎勵",
+    "expires": "到期",
+    "copy": "複製",
+    "copied": "已複製",
+    "howToTitle": "如何兌換",
+    "step1": "複製上方兌換碼",
+    "step2": "打開遊戲內的「設定 → 兌換碼」頁面",
+    "step3": "貼上兌換碼並確認，獎勵將透過郵件發放",
+    "nextSteps": {
+      "title": "拿到兌換碼了？接下來看這些",
+      "tierList": "強度排行",
+      "tierListDesc": "看看哪些角色值得抽",
+      "reroll": "重抽指南",
+      "rerollDesc": "抽卡不理想？教你高效重開",
+      "beginner": "新手指南",
+      "beginnerDesc": "第一週必看的完整攻略",
+      "teamBuilding": "配隊攻略",
+      "teamBuildingDesc": "用現有角色組建最強隊伍"
+    },
+    "topCharacters": {
+      "title": "當前最強角色",
+      "viewAll": "檢視完整強度排行 →"
+    },
+    "latestPosts": {
+      "title": "異環最新資訊"
+    }
+  },
+  "map": {
+    "title": "異環地圖標點",
+    "description": "異環全地圖資源點標記，副本、BOSS和採集點",
+    "markerList": "標點列表",
+    "relatedMaterials": "掉落材料",
+    "closeDetail": "關閉詳情",
+    "allTypes": "全部",
+    "markerCount": "共 {0} 個標點",
+    "resetView": "重置檢視",
+    "noMarker": "暫無標記"
+  },
+  "attributes": {
+    "cosmos": "宇宙",
+    "anima": "生命",
+    "incantation": "咒術",
+    "chaos": "混沌",
+    "psyche": "靈魂",
+    "lakshana": "相"
+  },
+  "types": {
+    "resonance": "共鳴材料",
+    "nucleus": "核心材料",
+    "permit": "許可證明",
+    "drop": "掉落物",
+    "currency": "貨幣",
+    "domain": "領域材料",
+    "manual": "教材"
+  },
+  "faq": {
+    "title": "異環攻略 FAQ",
+    "description": "異環常見問題解答，包含升級、材料、角色培養、戰鬥、抽卡等攻略",
+    "relatedFaqs": "相關問題"
+  },
+  "guides": {
+    "title": "異環攻略指南 - 新手入門到進階全攻略",
+    "description": "異環完整攻略指南，涵蓋新手入門、元素反應、體力管理、抽卡策略、配隊推薦等深度攻略",
+    "readMore": "閱讀全文",
+    "relatedGuides": "相關攻略",
+    "relatedCharacters": "相關角色",
+    "relatedLocations": "相關地點",
+    "relatedLore": "相關世界觀",
+    "tableOfContents": "目錄"
+  },
+  "lore": {
+    "title": "世界觀",
+    "description": "異環世界觀設定集，了解異能者、奇物、異象等核心設定",
+    "relatedCharacters": "相關角色",
+    "relatedLocations": "相關地點"
+  },
+  "locations": {
+    "title": "地點",
+    "description": "異環全地圖地點介紹，探索海特洛各區域",
+    "relatedCharacters": "相關角色",
+    "relatedLore": "相關世界觀"
+  },
+  "weapons": {
+    "title": "異環武器大全 - 全武器類型與適用角色",
+    "description": "異環全42把武器詳解，包含格鬥、伴生體、異能、遠程等類型武器屬性、技能及最佳適用角色推薦",
+    "type": "類型",
+    "relatedCharacters": "使用角色",
+    "melee": "近戰",
+    "ranged": "遠程",
+    "magic": "異能",
+    "companion": "伴生體",
+    "summon": "召喚",
+    "support": "輔助"
+  },
+  "blog": {
+    "title": "部落格",
+    "description": "異環最新資訊、深度攻略和遊戲評測"
+  },
+  "changelog": {
+    "title": "版本日誌",
+    "description": "異環版本更新日誌，包含新角色、新功能、系統優化等完整更新內容"
+  },
+  "compare": {
+    "title": "遊戲對比",
+    "description": "異環與原神、鳴潮等熱門遊戲對比評測",
+    "nteVsGenshin": "異環 vs 原神",
+    "nteVsWuwa": "異環 vs 鳴潮",
+    "gamesLikeNte": "類似異環的遊戲"
+  }
+}

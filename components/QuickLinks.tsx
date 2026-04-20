@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale } from "../lib/i18n";
+import { t, type Locale, isZhLocale } from "../lib/i18n";
 
 const links = [
   { key: "redeemCodes", href: "/redeem-codes" },
@@ -20,7 +20,7 @@ export function QuickLinks({ lang }: { lang: string }) {
     <nav className="border-t border-gray-800 bg-gray-900/50 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-4 py-2.5 flex items-center gap-1 overflow-x-auto scrollbar-hide">
         <span className="text-xs text-gray-500 mr-2 shrink-0 hidden sm:inline">
-          {locale === "zh" ? "快速导航：" : "Quick Links:"}
+          {isZhLocale(locale) ? "快速导航：" : "Quick Links:"}
         </span>
         {links.map((link) => {
           const fullHref = `/${lang}${link.href}`;

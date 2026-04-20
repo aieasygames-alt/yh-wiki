@@ -1,9 +1,11 @@
+import type { Locale } from "../lib/i18n";
+
 interface TierBadgeProps {
   rank: string;
   tierRank?: string;
   tierReason?: string;
   tierReasonZh?: string;
-  locale: "zh" | "en";
+  locale: Locale;
 }
 
 export function TierBadge({
@@ -23,7 +25,7 @@ export function TierBadge({
 
   const badgeColor = colorMap[effectiveTier] || "bg-gray-500/20 text-gray-400 border-gray-500/30";
   const reason =
-    locale === "zh" ? tierReasonZh : tierReason;
+    locale === "en" ? tierReason : tierReasonZh;
 
   return (
     <div className="flex items-center gap-3">

@@ -1,3 +1,5 @@
+import type { Locale } from "../lib/i18n";
+
 interface WeaponSummaryProps {
   name: string;
   nameEn: string;
@@ -6,23 +8,23 @@ interface WeaponSummaryProps {
   description: string;
   descriptionEn: string;
   relatedCharacters: { name: string; nameEn: string }[];
-  locale: "zh" | "en";
+  locale: Locale;
 }
 
 export function WeaponSummary({ name, nameEn, type, typeLabel, description, descriptionEn, relatedCharacters, locale }: WeaponSummaryProps) {
   const rows = [
-    { key: locale === "zh" ? "名称" : "Name", val: locale === "zh" ? `${name} (${nameEn})` : `${nameEn} (${name})` },
-    { key: locale === "zh" ? "类型" : "Type", val: typeLabel },
+    { key: locale === "en" ? "Name" : "名称", val: locale === "en" ? `${nameEn} (${name})` : `${name} (${nameEn})` },
+    { key: locale === "en" ? "Type" : "类型", val: typeLabel },
   ];
 
   if (relatedCharacters.length > 0) {
-    const charNames = relatedCharacters.map(c => locale === "zh" ? c.name : c.nameEn).join(", ");
-    rows.push({ key: locale === "zh" ? "适用角色" : "Best For", val: charNames });
+    const charNames = relatedCharacters.map(c => locale === "en" ? c.nameEn : c.name).join(", ");
+    rows.push({ key: locale === "en" ? "Best For" : "适用角色", val: charNames });
   }
 
   return (
-    <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8" aria-label={locale === "zh" ? "武器摘要" : "Weapon Summary"}>
-      <h2 className="text-lg font-bold mb-3">{locale === "zh" ? "武器概览" : "Quick Stats"}</h2>
+    <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8" aria-label={locale === "en" ? "Weapon Summary" : "武器摘要"}>
+      <h2 className="text-lg font-bold mb-3">{locale === "en" ? "Quick Stats" : "武器概览"}</h2>
       <table className="w-full text-sm">
         <tbody>
           {rows.map((row) => (

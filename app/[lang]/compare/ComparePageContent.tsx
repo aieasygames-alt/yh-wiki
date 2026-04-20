@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getCompare } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
@@ -15,9 +15,9 @@ export async function generateCompareMetadata({ params }: ComparePageProps) {
   const { lang, slug } = await params;
   const article = getCompare(slug);
   if (!article) return {};
-  const locale = lang as "zh" | "en";
-  const rawTitle = locale === "zh" ? article.title : article.titleEn;
-  const description = locale === "zh" ? article.summary : article.summaryEn;
+  const locale = lang as Locale;
+  const rawTitle = isZhLocale(locale) ? article.title : article.titleEn;
+  const description = isZhLocale(locale) ? article.summary : article.summaryEn;
   const title = `${rawTitle} (2026) | NTE Guide`;
   return {
     title,
@@ -39,14 +39,14 @@ export function ComparePageContent({ params }: ComparePageProps) {
 
 async function ComparePageInner({ params }: { params: { lang: string; slug: string } }) {
   const { lang, slug } = params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const article = getCompare(slug);
   if (!article) notFound();
 
-  const title = locale === "zh" ? article.title : article.titleEn;
-  const content = locale === "zh" ? article.content : article.contentEn;
-  const summary = locale === "zh" ? article.summary : article.summaryEn;
-  const category = locale === "zh" ? article.categoryZh : article.categoryEn;
+  const title = isZhLocale(locale) ? article.title : article.titleEn;
+  const content = isZhLocale(locale) ? article.content : article.contentEn;
+  const summary = isZhLocale(locale) ? article.summary : article.summaryEn;
+  const category = isZhLocale(locale) ? article.categoryZh : article.categoryEn;
   const url = `https://nteguide.com/${lang}/compare/${slug}`;
 
   // Determine comparison table based on slug
@@ -59,14 +59,14 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
       <BreadcrumbJsonLd
         items={[
           { name: "NTE Guide", url: "https://nteguide.com" },
-          { name: locale === "zh" ? "对比" : "Compare", url: `https://nteguide.com/${lang}/compare/${slug}` },
+          { name: isZhLocale(locale) ? "对比" : "Compare", url: `https://nteguide.com/${lang}/compare/${slug}` },
           { name: title },
         ]}
       />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: locale === "zh" ? "游戏对比" : "Compare", href: `/${lang}/compare/${slug}` },
+          { label: isZhLocale(locale) ? "游戏对比" : "Compare", href: `/${lang}/compare/${slug}` },
           { label: title },
         ]}
       />
@@ -88,7 +88,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         {compareTable && (
           <section className="mb-8">
             <h2 className="text-lg font-bold mb-4">
-              {locale === "zh" ? "快速对比" : "Quick Comparison"}
+              {isZhLocale(locale) ? "快速对比" : "Quick Comparison"}
             </h2>
             <CompareTable
               headers={compareTable.headers}
@@ -143,7 +143,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         {article.internalLinks.length > 0 && (
           <section className="mt-10 border-t border-gray-800 pt-6">
             <h2 className="text-lg font-bold mb-4">
-              {locale === "zh" ? "相关内容" : "Related Content"}
+              {isZhLocale(locale) ? "相关内容" : "Related Content"}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {article.internalLinks.map((link) => (
@@ -153,7 +153,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
                   className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
                   <span className="text-sm">
-                    {locale === "zh" ? link.label : link.labelEn}
+                    {isZhLocale(locale) ? link.label : link.labelEn}
                   </span>
                 </Link>
               ))}
@@ -165,9 +165,9 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
   );
 }
 
-function getCompareTable(slug: string, locale: "zh" | "en") {
+function getCompareTable(slug: string, locale: Locale) {
   if (slug === "nte-vs-genshin") {
-    if (locale === "zh") {
+    if (isZhLocale(locale)) {
       return {
         headers: ["维度", "异环 (NTE)", "原神 (Genshin)"],
         items: [
@@ -194,7 +194,7 @@ function getCompareTable(slug: string, locale: "zh" | "en") {
   }
 
   if (slug === "nte-vs-wuthering-waves") {
-    if (locale === "zh") {
+    if (isZhLocale(locale)) {
       return {
         headers: ["维度", "异环 (NTE)", "鸣潮 (WuWa)"],
         items: [

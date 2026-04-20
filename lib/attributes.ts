@@ -10,12 +10,12 @@ export const ATTRIBUTE_COLORS: Record<string, string> = {
 };
 
 export const ATTRIBUTE_LABELS: Record<string, Record<Locale, string>> = {
-  cosmos: { zh: "宇宙", en: "Cosmos" },
-  anima: { zh: "生命", en: "Anima" },
-  incantation: { zh: "咒术", en: "Incantation" },
-  chaos: { zh: "混沌", en: "Chaos" },
-  psyche: { zh: "灵魂", en: "Psyche" },
-  lakshana: { zh: "相", en: "Lakshana" },
+  cosmos: { zh: "宇宙", tw: "宇宙", en: "Cosmos" },
+  anima: { zh: "生命", tw: "生命", en: "Anima" },
+  incantation: { zh: "咒术", tw: "咒術", en: "Incantation" },
+  chaos: { zh: "混沌", tw: "混沌", en: "Chaos" },
+  psyche: { zh: "灵魂", tw: "靈魂", en: "Psyche" },
+  lakshana: { zh: "相", tw: "相", en: "Lakshana" },
 };
 
 export function getAttributeColor(attr: string): string {

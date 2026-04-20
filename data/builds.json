@@ -94,7 +94,7 @@
         "subStatsEn": ["HP%", "DEF%", "Energy Regen", "HP"],
         "recommendedWeapons": ["power-of-words"],
         "teamComp": ["fadia", "lacrimosa"],
-        "notes": "百苍作为队长角色，防护 Build 可以极大提升团队生存能力",
+        "notes": "白藏作为队长角色，防护 Build 可以极大提升团队生存能力",
         "notesEn": "Baicang as team captain, defense build greatly improves team survivability"
       }
     ]
@@ -174,7 +174,7 @@
         "subStatsEn": ["Speed", "Energy Regen", "HP%", "DEF%"],
         "recommendedWeapons": ["vehicle"],
         "teamComp": ["baicang", "mint"],
-        "notes": "九远主要负责运输和机动支援，Build 以功能性为主",
+        "notes": "九原主要负责运输和机动支援，Build 以功能性为主",
         "notesEn": "Jiuyuan focuses on transport and mobility support, build prioritizes utility"
       }
     ]
@@ -254,7 +254,7 @@
         "subStatsEn": ["Crit Rate", "Crit DMG", "Speed", "ATK%"],
         "recommendedWeapons": ["shadow-manipulation"],
         "teamComp": ["fadia", "lacrimosa"],
-        "notes": "斯基雅擅长从暗处发起攻击，速度词条提升先手优势",
+        "notes": "翳擅长从暗处发起攻击，速度词条提升先手优势",
         "notesEn": "Skia excels at attacking from darkness, speed substats improve first-strike advantage"
       }
     ]

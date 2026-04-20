@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { t, type Locale } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import {
   getAllCharacters,
   getCharacterMaterials,
@@ -185,7 +185,7 @@ export default function BuildCalculatorPage() {
                       : "bg-gray-800 text-gray-400 border border-gray-700 hover:border-gray-600"
                   }`}
                 >
-                  {lang === "zh" ? b.name : b.nameEn}
+                  {isZhLocale(lang) ? b.name : b.nameEn}
                 </button>
               ))}
             </div>
@@ -207,7 +207,7 @@ export default function BuildCalculatorPage() {
                     {selectedChar.rank}-Rank
                   </span>
                   <span className="text-xs text-gray-500">
-                    {lang === "zh" ? selectedChar.role : selectedChar.roleEn}
+                    {isZhLocale(lang) ? selectedChar.role : selectedChar.roleEn}
                   </span>
                 </div>
               </div>
@@ -217,10 +217,10 @@ export default function BuildCalculatorPage() {
           {/* Build Details */}
           <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6">
             <h3 className="text-xl font-bold mb-2">
-              {lang === "zh" ? activeBuild.name : activeBuild.nameEn}
+              {isZhLocale(lang) ? activeBuild.name : activeBuild.nameEn}
             </h3>
             <p className="text-gray-400 text-sm mb-6">
-              {lang === "zh" ? activeBuild.description : activeBuild.descriptionEn}
+              {isZhLocale(lang) ? activeBuild.description : activeBuild.descriptionEn}
             </p>
 
             {/* Stats Panel */}
@@ -229,7 +229,7 @@ export default function BuildCalculatorPage() {
               <div>
                 <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.mainStat")}</h4>
                 <div className="rounded-lg bg-primary-500/10 border border-primary-500/20 px-4 py-3">
-                  <p className="text-primary-400 font-bold text-lg">{lang === "zh" ? activeBuild.mainStat : activeBuild.mainStatEn}</p>
+                  <p className="text-primary-400 font-bold text-lg">{isZhLocale(lang) ? activeBuild.mainStat : activeBuild.mainStatEn}</p>
                 </div>
               </div>
 
@@ -237,7 +237,7 @@ export default function BuildCalculatorPage() {
               <div>
                 <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.subStats")}</h4>
                 <div className="space-y-1.5">
-                  {(lang === "zh" ? activeBuild.subStats : activeBuild.subStatsEn).map((stat, i) => {
+                  {(isZhLocale(lang) ? activeBuild.subStats : activeBuild.subStatsEn).map((stat, i) => {
                     const colors = [
                       "bg-yellow-500/10 border-yellow-500/20 text-yellow-400",
                       "bg-blue-500/10 border-blue-500/20 text-blue-400",
@@ -269,8 +269,8 @@ export default function BuildCalculatorPage() {
                       >
                         <span className="text-lg">{weapon.name[0]}</span>
                         <div className="min-w-0">
-                          <p className="text-sm font-medium truncate">{lang === "zh" ? weapon.name : weapon.nameEn}</p>
-                          <p className="text-xs text-gray-500">{lang === "zh" ? weapon.type : weapon.typeEn}</p>
+                          <p className="text-sm font-medium truncate">{isZhLocale(lang) ? weapon.name : weapon.nameEn}</p>
+                          <p className="text-xs text-gray-500">{isZhLocale(lang) ? weapon.type : weapon.typeEn}</p>
                         </div>
                       </Link>
                     ) : null;
@@ -307,7 +307,7 @@ export default function BuildCalculatorPage() {
             {/* Notes */}
             <div className="mt-6 pt-4 border-t border-gray-800">
               <p className="text-sm text-gray-500">
-                {lang === "zh" ? activeBuild.notes : activeBuild.notesEn}
+                {isZhLocale(lang) ? activeBuild.notes : activeBuild.notesEn}
               </p>
             </div>
           </div>
@@ -329,7 +329,7 @@ export default function BuildCalculatorPage() {
                         return (
                           <div key={r.materialId} className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-800/30">
                             <Link href={`/${lang}/materials/${r.materialId}`} className="text-sm hover:text-primary-400 transition-colors">
-                              {lang === "zh" ? material.name : material.nameEn}
+                              {isZhLocale(lang) ? material.name : material.nameEn}
                             </Link>
                             <span className="font-mono text-primary-400 text-sm">x{r.quantity}</span>
                           </div>
@@ -350,7 +350,7 @@ export default function BuildCalculatorPage() {
                         return (
                           <div key={m.id} className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-800/30">
                             <Link href={`/${lang}/materials/${m.id}`} className="text-sm hover:text-primary-400 transition-colors">
-                              {lang === "zh" ? material.name : material.nameEn}
+                              {isZhLocale(lang) ? material.name : material.nameEn}
                             </Link>
                             <span className="font-mono text-primary-400 text-sm">x{m.quantity}</span>
                           </div>

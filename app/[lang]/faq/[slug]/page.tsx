@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqJsonLd } from "../../../../components/JsonLd";
@@ -10,6 +10,7 @@ export function generateStaticParams() {
   const faqs = getAllFaqs();
   return faqs.flatMap((f) => [
     { lang: "zh", slug: f.id },
+    { lang: "tw", slug: f.id },
     { lang: "en", slug: f.id },
   ]);
 }
@@ -22,14 +23,14 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const faq = getFaq(slug);
   if (!faq) return {};
-  const question = lang === "zh" ? faq.question : faq.questionEn;
+  const question = isZhLocale(lang) ? faq.question : faq.questionEn;
   return {
-    title: `${question}${lang === "zh" ? " | 异环 Wiki" : " - NTE Guide"}`,
-    description: lang === "zh" ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
+    title: `${question}${isZhLocale(lang) ? " | 异环 Wiki" : " - NTE Guide"}`,
+    description: isZhLocale(lang) ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
     alternates: hreflangAlternates(`faq/${slug}`, lang),
     openGraph: {
-      title: `${question}${lang === "zh" ? " | 异环 Wiki" : " - NTE Guide"}`,
-      description: lang === "zh" ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
+      title: `${question}${isZhLocale(lang) ? " | 异环 Wiki" : " - NTE Guide"}`,
+      description: isZhLocale(lang) ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
       type: "article",
     },
   };
@@ -41,12 +42,12 @@ export default async function FaqDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const faq = getFaq(slug);
   if (!faq) notFound();
 
-  const question = locale === "zh" ? faq.question : faq.questionEn;
-  const answer = locale === "zh" ? faq.answer : faq.answerEn;
+  const question = isZhLocale(locale) ? faq.question : faq.questionEn;
+  const answer = isZhLocale(locale) ? faq.answer : faq.answerEn;
 
   const relatedChars = faq.relatedCharacters
     .map((id) => getCharacter(id))
@@ -81,7 +82,7 @@ export default async function FaqDetailPage({
         {relatedChars.length > 0 && (
           <section className="mt-10">
             <h2 className="text-lg font-bold mb-4">
-              {locale === "zh" ? "相关角色" : "Related Characters"}
+              {isZhLocale(locale) ? "相关角色" : "Related Characters"}
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map((c) => (
@@ -104,7 +105,7 @@ export default async function FaqDetailPage({
         {relatedMats.length > 0 && (
           <section className="mt-8">
             <h2 className="text-lg font-bold mb-4">
-              {locale === "zh" ? "相关材料" : "Related Materials"}
+              {isZhLocale(locale) ? "相关材料" : "Related Materials"}
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedMats.map((m) => (
@@ -144,7 +145,7 @@ export default async function FaqDetailPage({
                     className="block rounded-lg border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
                   >
                     <h3 className="text-sm font-medium">
-                      {locale === "zh" ? rf.question : rf.questionEn}
+                      {isZhLocale(locale) ? rf.question : rf.questionEn}
                     </h3>
                   </Link>
                 ))}

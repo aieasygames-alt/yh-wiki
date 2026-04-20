@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import {
   getAllCharacters,
   getAllWeapons,
@@ -32,14 +32,15 @@ export function generateStaticParams() {
   collectTags();
   return Array.from(ALL_TAGS).flatMap((tag) => [
     { lang: "zh", tag },
+    { lang: "tw", tag },
     { lang: "en", tag },
   ]);
 }
 
 export async function generateMetadata({ params }: { params: { lang: string; tag: string } }) {
   const { lang, tag } = await params;
-  const locale = lang as "zh" | "en";
-  const title = locale === "zh" ? `#${tag} 相关内容 - 异环 Wiki` : `#${tag} - NTE Guide`;
+  const locale = lang as Locale;
+  const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环 Wiki` : `#${tag} - NTE Guide`;
   return {
     title: `${title} | NTE Guide`,
     description: title,
@@ -49,12 +50,13 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
 
 const TYPE_LABELS: Record<string, Record<string, string>> = {
   zh: { character: "角色", weapon: "武器", material: "材料", faq: "FAQ", guide: "攻略", lore: "世界观", location: "地点" },
+  tw: { character: "角色", weapon: "武器", material: "材料", faq: "FAQ", guide: "攻略", lore: "世界觀", location: "地點" },
   en: { character: "Character", weapon: "Weapon", material: "Material", faq: "FAQ", guide: "Guide", lore: "Lore", location: "Location" },
 };
 
 export default async function TagPage({ params }: { params: { lang: string; tag: string } }) {
   const { lang, tag } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
 
   const sources = collectTags();
   const tagLower = tag.toLowerCase();
@@ -74,7 +76,7 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
     <>
       <ItemListJsonLd
         items={matched.map((m) => ({
-          name: locale === "zh" ? m.name : m.nameEn,
+          name: isZhLocale(locale) ? m.name : m.nameEn,
           url: `https://nteguide.com/${lang}/${m.type === "faq" ? "faq" : m.type === "guide" ? "guides" : m.type === "lore" ? "lore" : m.type === "location" ? "locations" : m.type + "s"}/${m.id}`,
         }))}
       />
@@ -87,7 +89,7 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">#{tag}</h1>
         <p className="text-gray-500 mb-8">
-          {matched.length} {locale === "zh" ? "个相关内容" : "items"}
+          {matched.length} {isZhLocale(locale) ? "个相关内容" : "items"}
         </p>
 
         {Object.entries(grouped).map(([type, items]) => (
@@ -102,7 +104,7 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
                   href={`/${lang}/${type === "faq" ? "faq" : type === "guide" ? "guides" : type === "lore" ? "lore" : type === "location" ? "locations" : type + "s"}/${item.id}`}
                   className="block rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
                 >
-                  <p className="text-sm font-medium">{locale === "zh" ? item.name : item.nameEn}</p>
+                  <p className="text-sm font-medium">{isZhLocale(locale) ? item.name : item.nameEn}</p>
                   <p className="text-xs text-gray-500 mt-0.5">{labels[type] || type}</p>
                 </a>
               ))}

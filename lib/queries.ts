@@ -10,6 +10,7 @@ import blogData from "../data/blog.json";
 import comparesData from "../data/compares.json";
 import changelogsData from "../data/changelog.json";
 import vehiclesData from "../data/vehicles.json";
+import { isZhLocale, Locale } from "./i18n";
 
 export interface FaqItem {
   question: string;
@@ -197,7 +198,7 @@ export function getFaq(slug: string): Faq | undefined {
   return getAllFaqs().find((f) => f.id === slug);
 }
 
-export function getFaqCategories(locale: "zh" | "en"): { slug: string; name: string }[] {
+export function getFaqCategories(locale: Locale): { slug: string; name: string }[] {
   const faqs = getAllFaqs();
   const seen = new Set<string>();
   return faqs
@@ -208,7 +209,7 @@ export function getFaqCategories(locale: "zh" | "en"): { slug: string; name: str
     })
     .map((f) => ({
       slug: f.category,
-      name: locale === "zh" ? f.categoryZh : f.categoryEn,
+      name: isZhLocale(locale) ? f.categoryZh : f.categoryEn,
     }));
 }
 
@@ -269,7 +270,7 @@ export function getGuide(slug: string): Guide | undefined {
   return getAllGuides().find((g) => g.id === slug);
 }
 
-export function getGuideCategories(locale: "zh" | "en"): { slug: string; name: string }[] {
+export function getGuideCategories(locale: Locale): { slug: string; name: string }[] {
   const guides = getAllGuides();
   const seen = new Set<string>();
   return guides
@@ -280,7 +281,7 @@ export function getGuideCategories(locale: "zh" | "en"): { slug: string; name: s
     })
     .map((g) => ({
       slug: g.category,
-      name: locale === "zh" ? g.categoryZh : g.categoryEn,
+      name: isZhLocale(locale) ? g.categoryZh : g.categoryEn,
     }));
 }
 

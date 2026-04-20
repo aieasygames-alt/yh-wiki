@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { t, hreflangAlternatesIndex } from "../../lib/i18n";
+import { t, hreflangAlternatesIndex, type Locale, isZhLocale } from "../../lib/i18n";
 import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
@@ -11,24 +11,24 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title:
-      lang === "zh"
+      isZhLocale(lang)
         ? "异环 Wiki - 攻略 · 配装 · 工具 | NTE Guide"
         : "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
     description:
-      lang === "zh"
+      isZhLocale(lang)
         ? "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。"
         : "Find the best builds, tier lists, and guides for Neverness to Everness. Complete character database, leveling calculator, and redeem codes.",
     alternates: hreflangAlternatesIndex(lang),
     openGraph: {
       title:
-        lang === "zh"
+        isZhLocale(lang)
           ? "异环 Wiki - 攻略 · 配装 · 工具 | NTE Guide"
           : "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
       description:
-        lang === "zh"
+        isZhLocale(lang)
           ? "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。"
           : "Find the best builds, tier lists, and guides for Neverness to Everness.",
       type: "website",
@@ -42,14 +42,14 @@ export default async function HomePage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const characters = getAllCharacters();
   const materials = getAllMaterials();
   const guides = getAllGuides();
   const weapons = getAllWeapons();
   const blogPosts = getLatestBlogPosts(3);
 
-  const sRankChars = characters.filter((c) => c.rank === "S");
+  const sRankChars = characters.filter((c) => c.rank === "S" && c.status === "available");
 
   return (
     <>
@@ -62,7 +62,7 @@ export default async function HomePage({
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
           <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              {locale === "zh" ? "异环 Wiki" : "Neverness to Everness Wiki"}
+              {isZhLocale(locale) ? "异环 Wiki" : "Neverness to Everness Wiki"}
             </h1>
             <p className="mt-4 text-lg text-gray-400">{t(locale, "home.heroSubtitle")}</p>
             <div className="mt-6 flex justify-center">
@@ -75,10 +75,10 @@ export default async function HomePage({
         <section className="max-w-6xl mx-auto px-4 -mt-4">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { label: locale === "zh" ? "角色" : "Characters", value: characters.length, color: "text-yellow-400", href: `/${lang}/characters` },
-              { label: locale === "zh" ? "武器" : "Weapons", value: weapons.length, color: "text-blue-400", href: `/${lang}/weapons` },
-              { label: locale === "zh" ? "攻略" : "Guides", value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
-              { label: locale === "zh" ? "工具" : "Tools", value: 4, color: "text-green-400", href: `/${lang}/calculator/build` },
+              { label: isZhLocale(locale) ? "角色" : "Characters", value: characters.filter((c: any) => c.status === "available").length, color: "text-yellow-400", href: `/${lang}/characters` },
+              { label: isZhLocale(locale) ? "武器" : "Weapons", value: weapons.length, color: "text-blue-400", href: `/${lang}/weapons` },
+              { label: isZhLocale(locale) ? "攻略" : "Guides", value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
+              { label: isZhLocale(locale) ? "工具" : "Tools", value: 4, color: "text-green-400", href: `/${lang}/calculator/build` },
             ].map((stat) => (
               <Link key={stat.label} href={stat.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center hover:border-primary-500/30 transition-colors">
                 <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
@@ -90,13 +90,13 @@ export default async function HomePage({
 
         {/* Tools Section */}
         <section className="max-w-6xl mx-auto px-4 py-12">
-          <h2 className="text-2xl font-bold mb-6">{locale === "zh" ? "实用工具" : "Tools"}</h2>
+          <h2 className="text-2xl font-bold mb-6">{isZhLocale(locale) ? "实用工具" : "Tools"}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: locale === "zh" ? "升级计算器" : "Leveling Calc", desc: locale === "zh" ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
-              { title: locale === "zh" ? "Build 计算器" : "Build Calc", desc: locale === "zh" ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
-              { title: locale === "zh" ? "抽卡模拟器" : "Gacha Sim", desc: locale === "zh" ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
-              { title: locale === "zh" ? "兑换码" : "Codes", desc: locale === "zh" ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
+              { title: isZhLocale(locale) ? "升级计算器" : "Leveling Calc", desc: isZhLocale(locale) ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
+              { title: isZhLocale(locale) ? "Build 计算器" : "Build Calc", desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
+              { title: isZhLocale(locale) ? "抽卡模拟器" : "Gacha Sim", desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
+              { title: isZhLocale(locale) ? "兑换码" : "Codes", desc: isZhLocale(locale) ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
             ].map((tool) => (
               <Link key={tool.href} href={tool.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group">
                 <span className="text-2xl">{tool.icon}</span>
@@ -110,7 +110,7 @@ export default async function HomePage({
         {/* Hot Guides */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold">{locale === "zh" ? "热门攻略" : "Popular Guides"}</h2>
+            <h2 className="text-2xl font-bold">{isZhLocale(locale) ? "热门攻略" : "Popular Guides"}</h2>
             <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
@@ -119,13 +119,13 @@ export default async function HomePage({
             {guides.slice(0, 6).map((g) => (
               <Link key={g.id} href={`/${lang}/guides/${g.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
                 <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
-                  {locale === "zh" ? g.categoryZh : g.categoryEn}
+                  {isZhLocale(locale) ? g.categoryZh : g.categoryEn}
                 </span>
                 <h3 className="text-base font-medium mt-2">
-                  {locale === "zh" ? g.title : g.titleEn}
+                  {isZhLocale(locale) ? g.title : g.titleEn}
                 </h3>
                 <p className="text-sm text-gray-500 mt-1 line-clamp-2">
-                  {locale === "zh" ? g.summary : g.summaryEn}
+                  {isZhLocale(locale) ? g.summary : g.summaryEn}
                 </p>
               </Link>
             ))}
@@ -135,7 +135,7 @@ export default async function HomePage({
         {/* Latest Blog */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold">{locale === "zh" ? "最新博客" : "Latest Blog"}</h2>
+            <h2 className="text-2xl font-bold">{isZhLocale(locale) ? "最新博客" : "Latest Blog"}</h2>
             <Link href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
@@ -145,15 +145,15 @@ export default async function HomePage({
               <Link key={post.id} href={`/${lang}/blog/${post.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
-                    {locale === "zh" ? post.categoryZh : post.categoryEn}
+                    {isZhLocale(locale) ? post.categoryZh : post.categoryEn}
                   </span>
                   <time className="text-xs text-gray-500">{post.date}</time>
                 </div>
                 <h3 className="text-base font-medium line-clamp-2">
-                  {locale === "zh" ? post.title : post.titleEn}
+                  {isZhLocale(locale) ? post.title : post.titleEn}
                 </h3>
                 <p className="text-sm text-gray-500 mt-1 line-clamp-2">
-                  {locale === "zh" ? post.summary : post.summaryEn}
+                  {isZhLocale(locale) ? post.summary : post.summaryEn}
                 </p>
               </Link>
             ))}
@@ -163,7 +163,7 @@ export default async function HomePage({
         {/* S-Rank Characters */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold">{locale === "zh" ? "S 级角色" : "S-Rank Characters"}</h2>
+            <h2 className="text-2xl font-bold">{isZhLocale(locale) ? "S 级角色" : "S-Rank Characters"}</h2>
             <Link href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
@@ -177,15 +177,15 @@ export default async function HomePage({
 
         {/* Quick Links */}
         <section className="max-w-6xl mx-auto px-4 py-12">
-          <h2 className="text-2xl font-bold mb-6">{locale === "zh" ? "快速导航" : "Quick Links"}</h2>
+          <h2 className="text-2xl font-bold mb-6">{isZhLocale(locale) ? "快速导航" : "Quick Links"}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {[
-              { label: locale === "zh" ? "世界观" : "Lore", href: `/${lang}/lore`, desc: locale === "zh" ? "10 条设定" : "10 entries" },
-              { label: locale === "zh" ? "地点" : "Locations", href: `/${lang}/locations`, desc: locale === "zh" ? "10 个地点" : "10 locations" },
-              { label: locale === "zh" ? "材料" : "Materials", href: `/${lang}/materials`, desc: locale === "zh" ? "35 种材料" : "35 materials" },
-              { label: locale === "zh" ? "武器" : "Weapons", href: `/${lang}/weapons`, desc: locale === "zh" ? "42 把武器" : "42 weapons" },
-              { label: locale === "zh" ? "FAQ" : "FAQ", href: `/${lang}/faq`, desc: locale === "zh" ? "常见问题" : "Common questions" },
-              { label: locale === "zh" ? "地图" : "Map", href: `/${lang}/map`, desc: locale === "zh" ? "交互地图" : "Interactive map" },
+              { label: isZhLocale(locale) ? "世界观" : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? "10 条设定" : "10 entries" },
+              { label: isZhLocale(locale) ? "地点" : "Locations", href: `/${lang}/locations`, desc: isZhLocale(locale) ? "10 个地点" : "10 locations" },
+              { label: isZhLocale(locale) ? "材料" : "Materials", href: `/${lang}/materials`, desc: isZhLocale(locale) ? "35 种材料" : "35 materials" },
+              { label: isZhLocale(locale) ? "武器" : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? "42 把武器" : "42 weapons" },
+              { label: isZhLocale(locale) ? "FAQ" : "FAQ", href: `/${lang}/faq`, desc: isZhLocale(locale) ? "常见问题" : "Common questions" },
+              { label: isZhLocale(locale) ? "地图" : "Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? "交互地图" : "Interactive map" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>

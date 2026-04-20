@@ -12,6 +12,15 @@ const TYPE_LABELS: Record<Locale, Record<string, string>> = {
     domain: "领域材料",
     manual: "教材",
   },
+  tw: {
+    resonance: "共鳴材料",
+    nucleus: "核心材料",
+    permit: "許可證明",
+    drop: "掉落物",
+    currency: "貨幣",
+    domain: "領域材料",
+    manual: "教材",
+  },
   en: {
     resonance: "Resonance",
     nucleus: "Nucleus",

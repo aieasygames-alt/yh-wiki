@@ -1,12 +1,12 @@
 import { getAllBlogPosts } from "../../../lib/queries";
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { BlogCard } from "../../../components/BlogCard";
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
-  const title = lang === "zh" ? "异环攻略博客 - 最新资讯与深度攻略" : "NTE Blog - Latest News & In-Depth Guides";
-  const description = lang === "zh"
+  const title = isZhLocale(lang) ? "异环攻略博客 - 最新资讯与深度攻略" : "NTE Blog - Latest News & In-Depth Guides";
+  const description = isZhLocale(lang)
     ? "异环（Neverness to Everness）最新攻略博客，涵盖游戏评测、版本更新、角色攻略和玩法技巧。"
     : "Neverness to Everness blog featuring game reviews, version updates, character guides, and gameplay tips.";
   return {
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
 export default async function BlogListPage({ params }: { params: { lang: string } }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const posts = getAllBlogPosts();
 
   return (
@@ -41,9 +41,9 @@ export default async function BlogListPage({ params }: { params: { lang: string 
             <BlogCard
               key={post.id}
               id={post.id}
-              title={locale === "zh" ? post.title : post.titleEn}
-              summary={locale === "zh" ? post.summary : post.summaryEn}
-              category={locale === "zh" ? post.categoryZh : post.categoryEn}
+              title={isZhLocale(locale) ? post.title : post.titleEn}
+              summary={isZhLocale(locale) ? post.summary : post.summaryEn}
+              category={isZhLocale(locale) ? post.categoryZh : post.categoryEn}
               date={post.date}
               tags={post.tags}
               locale={locale}

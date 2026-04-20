@@ -1,0 +1,18 @@
+# Root redirect - permanent
+/ /zh/ 301
+
+# Language roots - ensure trailing slash
+/zh /zh/ 301
+/en /en/ 301
+
+# FAQ -> dedicated pages
+/en/faq/system-requirements /en/system-requirements/ 301
+/en/faq/system-requirements/ /en/system-requirements/ 301
+/zh/faq/system-requirements /zh/system-requirements/ 301
+/zh/faq/system-requirements/ /zh/system-requirements/ 301
+
+# Character renamed/merged
+/en/characters/the-appraiser /en/characters/zero/ 301
+/en/characters/the-appraiser/ /en/characters/zero/ 301
+/zh/characters/the-appraiser /zh/characters/zero/ 301
+/zh/characters/the-appraiser/ /zh/characters/zero/ 301

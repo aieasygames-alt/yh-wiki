@@ -97,7 +97,7 @@
   },
   {
     "id": "baicang",
-    "name": "百苍",
+    "name": "白藏",
     "nameEn": "Baicang",
     "type": "character",
     "url": "/zh/characters/baicang",
@@ -193,7 +193,7 @@
   },
   {
     "id": "jiuyuan",
-    "name": "九远",
+    "name": "九原",
     "nameEn": "Jiuyuan",
     "type": "character",
     "url": "/zh/characters/jiuyuan",
@@ -265,7 +265,7 @@
   },
   {
     "id": "skia",
-    "name": "斯基雅",
+    "name": "翳",
     "nameEn": "Skia",
     "type": "character",
     "url": "/zh/characters/skia",
@@ -501,30 +501,6 @@
       "cosmos",
       "s",
       "tbd"
-    ]
-  },
-  {
-    "id": "the-appraiser",
-    "name": "鉴定师",
-    "nameEn": "The Appraiser",
-    "type": "character",
-    "url": "/zh/characters/the-appraiser",
-    "tags": [
-      "cosmos",
-      "s",
-      "utility"
-    ]
-  },
-  {
-    "id": "the-appraiser",
-    "name": "The Appraiser",
-    "nameEn": "The Appraiser",
-    "type": "character",
-    "url": "/en/characters/the-appraiser",
-    "tags": [
-      "cosmos",
-      "s",
-      "utility"
     ]
   },
   {
@@ -937,7 +913,7 @@
   },
   {
     "id": "xiaozhi",
-    "name": "小智",
+    "name": "小吱",
     "nameEn": "Xiaozhi",
     "type": "character",
     "url": "/zh/characters/xiaozhi",

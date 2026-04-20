@@ -1,4 +1,4 @@
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllLocations } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
@@ -9,7 +9,7 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title: t(locale, "locations.title"),
     description: t(locale, "locations.description"),
@@ -28,14 +28,14 @@ export default async function LocationsListPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const locations = getAllLocations();
 
   const categories = Array.from(
     new Set(locations.map((l) => l.category))
   ).map((cat) => {
     const item = locations.find((l) => l.category === cat)!;
-    return { slug: cat, name: locale === "zh" ? item.categoryZh : item.categoryEn };
+    return { slug: cat, name: isZhLocale(locale) ? item.categoryZh : item.categoryEn };
   });
 
   const locsByCategory = categories.map((cat) => ({
@@ -47,7 +47,7 @@ export default async function LocationsListPage({
     <>
       <ItemListJsonLd
         items={locations.map((l) => ({
-          name: locale === "zh" ? l.name : l.nameEn,
+          name: isZhLocale(locale) ? l.name : l.nameEn,
           url: `https://nteguide.com/${lang}/locations/${l.id}`,
         }))}
       />
@@ -72,14 +72,14 @@ export default async function LocationsListPage({
                 >
                   <div className="flex items-start justify-between">
                     <h3 className="text-base font-medium">
-                      {locale === "zh" ? item.name : item.nameEn}
+                      {isZhLocale(locale) ? item.name : item.nameEn}
                     </h3>
                     <span className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400 shrink-0 ml-2">
-                      {locale === "zh" ? item.categoryZh : item.categoryEn}
+                      {isZhLocale(locale) ? item.categoryZh : item.categoryEn}
                     </span>
                   </div>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                    {locale === "zh" ? item.summary : item.summaryEn}
+                    {isZhLocale(locale) ? item.summary : item.summaryEn}
                   </p>
                 </a>
               ))}

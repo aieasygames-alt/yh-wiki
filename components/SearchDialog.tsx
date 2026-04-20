@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import { trackEvent } from "../lib/analytics";
+import type { Locale } from "../lib/i18n";
 
 interface SearchItem {
   id: string;
@@ -23,6 +24,15 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
     guide: "攻略",
     lore: "世界观",
     location: "地点",
+  },
+  tw: {
+    character: "角色",
+    weapon: "武器",
+    material: "材料",
+    faq: "FAQ",
+    guide: "攻略",
+    lore: "世界觀",
+    location: "地點",
   },
   en: {
     character: "Character",
@@ -144,7 +154,7 @@ export function SearchDialog({ lang }: { lang: string }) {
   }, {});
 
   const typeOrder = ["character", "weapon", "guide", "lore", "location", "material", "faq"];
-  const locale = lang === "zh" ? "zh" : "en";
+  const locale = (lang === "en" ? "en" : (lang === "tw" ? "tw" : "zh")) as Locale;
 
   if (!open) {
     return (
@@ -155,7 +165,7 @@ export function SearchDialog({ lang }: { lang: string }) {
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
-        <span className="hidden sm:inline">{locale === "zh" ? "搜索..." : "Search..."}</span>
+        <span className="hidden sm:inline">{locale !== "en" ? "搜索..." : "Search..."}</span>
         <kbd className="hidden sm:inline text-[10px] px-1.5 py-0.5 rounded bg-gray-700 text-gray-500 border border-gray-600">
           {mounted && typeof navigator !== "undefined" && navigator.platform?.includes("Mac") ? "⌘" : "Ctrl+"}K
         </kbd>
@@ -176,7 +186,7 @@ export function SearchDialog({ lang }: { lang: string }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={locale === "zh" ? "搜索角色、武器、攻略..." : "Search characters, weapons, guides..."}
+            placeholder={locale !== "en" ? "搜索角色、武器、攻略..." : "Search characters, weapons, guides..."}
             className="flex-1 bg-transparent py-4 text-sm text-gray-200 placeholder:text-gray-600 focus:outline-none"
           />
           <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-gray-800 text-gray-500 border border-gray-700">
@@ -208,7 +218,7 @@ export function SearchDialog({ lang }: { lang: string }) {
                           {TYPE_LABELS[locale][item.type] || item.type}
                         </span>
                         <span className="text-sm text-gray-300 truncate flex-1">
-                          {locale === "zh" ? item.name : item.nameEn}
+                          {locale !== "en" ? item.name : item.nameEn}
                         </span>
                       </button>
                     );
@@ -221,13 +231,13 @@ export function SearchDialog({ lang }: { lang: string }) {
 
         {query && results.length === 0 && (
           <div className="py-12 text-center text-sm text-gray-500">
-            {locale === "zh" ? "没有找到结果" : "No results found"}
+            {locale !== "en" ? "没有找到结果" : "No results found"}
           </div>
         )}
 
         {!query && (
           <div className="py-6 text-center text-sm text-gray-600">
-            {locale === "zh" ? "输入关键词开始搜索" : "Type to start searching"}
+            {locale !== "en" ? "输入关键词开始搜索" : "Type to start searching"}
           </div>
         )}
       </div>

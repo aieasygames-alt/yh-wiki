@@ -1,9 +1,17 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import type { Locale } from "../lib/i18n";
+import { isZhLocale } from "../lib/i18n";
 
 const TYPE_LABELS: Record<Locale, Record<string, string>> = {
   zh: {
+    "摩托车": "摩托车",
+    "越野车": "越野车",
+    "轿车": "轿车",
+    "跑车": "跑车",
+    "SUV": "SUV",
+  },
+  tw: {
     "摩托车": "摩托车",
     "越野车": "越野车",
     "轿车": "轿车",
@@ -42,7 +50,7 @@ interface VehicleCardProps {
 }
 
 export function VehicleCard({ id, name, nameEn, type, typeEn, rarity, locale }: VehicleCardProps) {
-  const typeLabel = locale === "zh" ? type : typeEn;
+  const typeLabel = isZhLocale(locale) ? type : typeEn;
   const colorClass = TYPE_COLORS[type] || TYPE_COLORS[typeEn] || "bg-gray-800 text-gray-400";
   const labelKey = TYPE_LABELS[locale][type] || TYPE_LABELS[locale][typeEn] || typeLabel;
 

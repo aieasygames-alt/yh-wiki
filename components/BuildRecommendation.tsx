@@ -1,33 +1,34 @@
 import type { RecommendedBuild } from "../lib/queries";
+import type { Locale } from "../lib/i18n";
 
 interface BuildRecommendationProps {
   build: RecommendedBuild;
-  locale: "zh" | "en";
+  locale: Locale;
 }
 
 export function BuildRecommendation({
   build,
   locale,
 }: BuildRecommendationProps) {
-  const bestWeapon = locale === "zh" ? build.bestWeapon : build.bestWeaponEn;
-  const bestDiskSet = locale === "zh" ? build.bestDiskSet : build.bestDiskSetEn;
+  const bestWeapon = locale === "en" ? build.bestWeaponEn : build.bestWeapon;
+  const bestDiskSet = locale === "en" ? build.bestDiskSetEn : build.bestDiskSet;
   const altWeapons = build.alternativeWeapons.map((w) => ({
     id: w.id,
-    name: locale === "zh" ? w.name : w.nameEn,
+    name: locale === "en" ? w.nameEn : w.name,
   }));
-  const mainStats = locale === "zh" ? build.mainStats : build.mainStatsEn;
-  const subStats = locale === "zh" ? build.subStatPriority : build.subStatPriorityEn;
+  const mainStats = locale === "en" ? build.mainStatsEn : build.mainStats;
+  const subStats = locale === "en" ? build.subStatPriorityEn : build.subStatPriority;
 
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
-        {locale === "zh" ? "推荐配置" : "Recommended Build"}
+        {locale === "en" ? "Recommended Build" : "推荐配置"}
       </h2>
       <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5 space-y-5">
         {/* Best Weapon */}
         <div>
           <h3 className="text-xs text-gray-500 uppercase tracking-wide mb-1">
-            {locale === "zh" ? "最佳武器" : "Best Weapon"}
+            {locale === "en" ? "Best Weapon" : "最佳武器"}
           </h3>
           <p className="text-sm font-medium text-primary-400">{bestWeapon}</p>
         </div>
@@ -36,7 +37,7 @@ export function BuildRecommendation({
         {altWeapons.length > 0 && (
           <div>
             <h3 className="text-xs text-gray-500 uppercase tracking-wide mb-2">
-              {locale === "zh" ? "替代武器" : "Alternative Weapons"}
+              {locale === "en" ? "Alternative Weapons" : "替代武器"}
             </h3>
             <ul className="flex flex-wrap gap-2">
               {altWeapons.map((w) => (
@@ -54,7 +55,7 @@ export function BuildRecommendation({
         {/* Best Disk Set */}
         <div>
           <h3 className="text-xs text-gray-500 uppercase tracking-wide mb-1">
-            {locale === "zh" ? "最佳驱动盘" : "Best Disk Set"}
+            {locale === "en" ? "Best Disk Set" : "最佳驱动盘"}
           </h3>
           <p className="text-sm font-medium text-primary-400">{bestDiskSet}</p>
         </div>
@@ -62,7 +63,7 @@ export function BuildRecommendation({
         {/* Main Stats */}
         <div>
           <h3 className="text-xs text-gray-500 uppercase tracking-wide mb-2">
-            {locale === "zh" ? "主词条" : "Main Stats"}
+            {locale === "en" ? "Main Stats" : "主词条"}
           </h3>
           <div className="grid grid-cols-2 gap-2">
             {Object.entries(mainStats).map(([key, value]) => (
@@ -81,7 +82,7 @@ export function BuildRecommendation({
         {subStats.length > 0 && (
           <div>
             <h3 className="text-xs text-gray-500 uppercase tracking-wide mb-2">
-              {locale === "zh" ? "副词条优先级" : "Sub Stat Priority"}
+              {locale === "en" ? "Sub Stat Priority" : "副词条优先级"}
             </h3>
             <ol className="flex flex-wrap gap-2">
               {subStats.map((stat, i) => (

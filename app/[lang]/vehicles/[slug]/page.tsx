@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getVehicle, getAllVehicles } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
@@ -11,6 +11,7 @@ export function generateStaticParams() {
   const vehicles = getAllVehicles();
   return vehicles.flatMap((v) => [
     { lang: "zh", slug: v.id },
+    { lang: "tw", slug: v.id },
     { lang: "en", slug: v.id },
   ]);
 }
@@ -26,21 +27,21 @@ export async function generateMetadata({
 
   return {
     title:
-      lang === "zh"
+      isZhLocale(lang)
         ? `${vehicle.name} 属性 & 获取方式 | 异环 Wiki`
         : `${vehicle.nameEn} (${vehicle.name}) Stats & How to Get - NTE Guide`,
     description:
-      lang === "zh"
+      isZhLocale(lang)
         ? `异环载具「${vehicle.name}」详细属性数据，包含速度、加速度、操控性及获取方式。`
         : `Complete stats for ${vehicle.nameEn} in Neverness to Everness. Speed, acceleration, handling, and how to get it.`,
     alternates: hreflangAlternates(`vehicles/${slug}`, lang),
     openGraph: {
       title:
-        lang === "zh"
+        isZhLocale(lang)
           ? `${vehicle.name} | 异环 Wiki`
           : `${vehicle.nameEn} Stats & Acquisition | NTE Guide`,
       description:
-        lang === "zh"
+        isZhLocale(lang)
           ? `异环载具「${vehicle.name}」详细属性数据，包含速度、加速度、操控性及获取方式。`
           : `Complete stats for ${vehicle.nameEn} in Neverness to Everness.`,
       type: "article",
@@ -48,7 +49,7 @@ export async function generateMetadata({
   };
 }
 
-function StatBar({ label, value, locale }: { label: string; value: string; locale: "zh" | "en" }) {
+function StatBar({ label, value, locale }: { label: string; value: string; locale: Locale }) {
   const rankValue = value === "S" ? 100 : value === "A" ? 75 : value === "B" ? 50 : 25;
   const colorClass = value === "S" ? "bg-yellow-500" : value === "A" ? "bg-green-500" : value === "B" ? "bg-blue-500" : "bg-gray-500";
 
@@ -71,18 +72,18 @@ export default async function VehicleDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const vehicle = getVehicle(slug);
   if (!vehicle) notFound();
 
-  const typeLabel = locale === "zh" ? vehicle.type : vehicle.typeEn;
-  const sourceLabel = locale === "zh" ? vehicle.source : vehicle.sourceEn;
+  const typeLabel = isZhLocale(locale) ? vehicle.type : vehicle.typeEn;
+  const sourceLabel = isZhLocale(locale) ? vehicle.source : vehicle.sourceEn;
 
   return (
     <>
       <ProductJsonLd
-        name={locale === "zh" ? vehicle.name : vehicle.nameEn}
-        description={locale === "zh" ? vehicle.description : vehicle.descriptionEn}
+        name={isZhLocale(locale) ? vehicle.name : vehicle.nameEn}
+        description={isZhLocale(locale) ? vehicle.description : vehicle.descriptionEn}
         url={`https://nteguide.com/${lang}/vehicles/${slug}`}
         image={`https://nteguide.com${vehicle.image || ""}`}
       />
@@ -93,8 +94,8 @@ export default async function VehicleDetailPage({
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: locale === "zh" ? "载具" : "Vehicles", href: `/${lang}/vehicles` },
-          { label: locale === "zh" ? vehicle.name : vehicle.nameEn },
+          { label: isZhLocale(locale) ? "载具" : "Vehicles", href: `/${lang}/vehicles` },
+          { label: isZhLocale(locale) ? vehicle.name : vehicle.nameEn },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -108,9 +109,9 @@ export default async function VehicleDetailPage({
             />
             <div className="flex-1">
               <h1 className="text-2xl font-bold">
-                {locale === "zh" ? vehicle.name : `${vehicle.nameEn} Stats & Acquisition`}
+                {isZhLocale(locale) ? vehicle.name : `${vehicle.nameEn} Stats & Acquisition`}
               </h1>
-              <p className="text-gray-500">{locale === "zh" ? vehicle.nameEn : vehicle.name}</p>
+              <p className="text-gray-500">{isZhLocale(locale) ? vehicle.nameEn : vehicle.name}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
                   {typeLabel}
@@ -128,36 +129,36 @@ export default async function VehicleDetailPage({
             </div>
           </div>
           <p className="mt-4 text-sm text-gray-400">
-            {locale === "zh" ? vehicle.description : vehicle.descriptionEn}
+            {isZhLocale(locale) ? vehicle.description : vehicle.descriptionEn}
           </p>
         </div>
 
         {/* Performance Stats */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {locale === "zh" ? "性能属性" : "Performance Stats"}
+            {isZhLocale(locale) ? "性能属性" : "Performance Stats"}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4 space-y-3">
-            <StatBar label={locale === "zh" ? "速度" : "Speed"} value={vehicle.speed} locale={locale} />
-            <StatBar label={locale === "zh" ? "加速" : "Acceleration"} value={vehicle.acceleration} locale={locale} />
-            <StatBar label={locale === "zh" ? "操控" : "Handling"} value={vehicle.handling} locale={locale} />
+            <StatBar label={isZhLocale(locale) ? "速度" : "Speed"} value={vehicle.speed} locale={locale} />
+            <StatBar label={isZhLocale(locale) ? "加速" : "Acceleration"} value={vehicle.acceleration} locale={locale} />
+            <StatBar label={isZhLocale(locale) ? "操控" : "Handling"} value={vehicle.handling} locale={locale} />
           </div>
         </section>
 
         {/* Acquisition */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {locale === "zh" ? "获取方式" : "How to Get"}
+            {isZhLocale(locale) ? "获取方式" : "How to Get"}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-400">{locale === "zh" ? "来源" : "Source"}</p>
+                <p className="text-sm text-gray-400">{isZhLocale(locale) ? "来源" : "Source"}</p>
                 <p className="font-medium">{sourceLabel}</p>
               </div>
               {vehicle.price !== "-" && (
                 <div className="text-right">
-                  <p className="text-sm text-gray-400">{locale === "zh" ? "价格" : "Price"}</p>
+                  <p className="text-sm text-gray-400">{isZhLocale(locale) ? "价格" : "Price"}</p>
                   <p className="font-medium text-primary-400">¤{vehicle.price}</p>
                 </div>
               )}
@@ -176,7 +177,7 @@ export default async function VehicleDetailPage({
             href={`/${lang}/vehicles`}
             className="inline-block px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-medium transition-colors"
           >
-            {locale === "zh" ? "← 返回载具列表" : "← Back to Vehicles"}
+            {isZhLocale(locale) ? "← 返回载具列表" : "← Back to Vehicles"}
           </Link>
         </div>
       </div>

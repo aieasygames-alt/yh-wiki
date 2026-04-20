@@ -1,7 +1,7 @@
 import { ComparePageContent, generateCompareMetadata } from "../ComparePageContent";
 
 export function generateStaticParams() {
-  return [{ lang: "zh" }, { lang: "en" }];
+  return [{ lang: "zh" }, { lang: "tw" }, { lang: "en" }];
 }
 
 export const generateMetadata = generateCompareMetadata;

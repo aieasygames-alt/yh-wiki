@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllCharacters } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { Breadcrumb } from "../../../components/Breadcrumb";
@@ -12,13 +12,13 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const title =
-    locale === "zh"
+    isZhLocale(locale)
       ? "异环角色强度排行 - 全角色 Tier List 排名"
       : "NTE Tier List - All Character Rankings";
   const description =
-    locale === "zh"
+    isZhLocale(locale)
       ? "异环(Neverness to Everness)全角色强度排行，按S级/A级分类，包含角色评级理由和推荐配装。"
       : "Complete Neverness to Everness tier list ranking all characters from best to worst, with tier reasons and recommended builds.";
   return {
@@ -66,7 +66,7 @@ export default async function TierListPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const characters = getAllCharacters();
 
   const tieredChars = TIERS.map((tier) => ({
@@ -85,18 +85,18 @@ export default async function TierListPage({
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           {
             label:
-              locale === "zh" ? "角色强度排行" : "Tier List",
+              isZhLocale(locale) ? "角色强度排行" : "Tier List",
           },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">
-          {locale === "zh"
+          {isZhLocale(locale)
             ? "异环角色强度排行 Tier List"
             : "Neverness to Everness Tier List"}
         </h1>
         <p className="text-gray-400 mb-8">
-          {locale === "zh"
+          {isZhLocale(locale)
             ? `全 ${characters.length} 位角色按综合强度排名，基于技能倍率、队伍适配度和泛用性评估。`
             : `All ${characters.length} characters ranked by overall strength, based on skill multipliers, team synergy, and versatility.`}
         </p>
@@ -114,7 +114,7 @@ export default async function TierListPage({
                   {tier.key}
                 </span>
                 <span className="text-sm text-gray-500">
-                  {locale === "zh" ? tier.labelZh : tier.labelEn}
+                  {isZhLocale(locale) ? tier.labelZh : tier.labelEn}
                 </span>
                 <span className="text-xs text-gray-600">
                   ({tier.characters.length})
@@ -140,7 +140,7 @@ export default async function TierListPage({
                       />
                       <div className="min-w-0 flex-1">
                         <p className="text-sm font-medium truncate">
-                          {locale === "zh" ? c.name : c.nameEn}
+                          {isZhLocale(locale) ? c.name : c.nameEn}
                         </p>
                         <div className="flex items-center gap-2 mt-1">
                           <span
@@ -151,12 +151,12 @@ export default async function TierListPage({
                             {getAttributeLabel(c.attribute, locale)}
                           </span>
                           <span className="text-xs text-gray-500">
-                            {locale === "zh" ? c.role : c.roleEn}
+                            {isZhLocale(locale) ? c.role : c.roleEn}
                           </span>
                         </div>
                         {c.tierReason && (
                           <p className="text-xs text-gray-500 mt-1 line-clamp-1">
-                            {locale === "zh"
+                            {isZhLocale(locale)
                               ? c.tierReasonZh || c.tierReason
                               : c.tierReason}
                           </p>
@@ -173,7 +173,7 @@ export default async function TierListPage({
         {unrankedChars.length > 0 && (
           <section className="mb-8">
             <h2 className="text-lg font-bold mb-4 text-gray-500">
-              {locale === "zh"
+              {isZhLocale(locale)
                 ? `待评级 (${unrankedChars.length})`
                 : `Unranked (${unrankedChars.length})`}
             </h2>
@@ -186,7 +186,7 @@ export default async function TierListPage({
                 >
                   <div className="min-w-0">
                     <p className="text-sm font-medium truncate">
-                      {locale === "zh" ? c.name : c.nameEn}
+                      {isZhLocale(locale) ? c.name : c.nameEn}
                     </p>
                     <p className="text-xs text-gray-500">
                       {getAttributeLabel(c.attribute, locale)} · {c.rank}
@@ -199,7 +199,7 @@ export default async function TierListPage({
         )}
 
         <p className="text-xs text-gray-600 mt-8">
-          {locale === "zh"
+          {isZhLocale(locale)
             ? "评级基于游戏测试版本数据，正式上线后可能调整。评级综合考虑角色在主流队伍中的表现、技能倍率和泛用性。"
             : "Ratings are based on beta test data and may change after official launch. Tier rankings consider overall performance in meta teams, skill multipliers, and versatility."}
         </p>

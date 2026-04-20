@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale } from "../lib/i18n";
+import { t, type Locale, isZhLocale } from "../lib/i18n";
 import Logo from "./Logo";
 
 export function Footer() {
@@ -39,7 +39,7 @@ export function Footer() {
     {
       title: t(lang, "site.nav.footer.resources"),
       links: [
-        { href: `/${lang}/tier-list`, label: lang === "zh" ? "强度排行" : "Tier List" },
+        { href: `/${lang}/tier-list`, label: isZhLocale(lang) ? "强度排行" : "Tier List" },
         { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
         { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },
@@ -76,7 +76,7 @@ export function Footer() {
           </div>
           <p>&copy; {new Date().getFullYear()} {t(lang, "site.title")}</p>
           <p className="mt-1 text-gray-600">
-            {lang === "zh"
+            {isZhLocale(lang)
               ? "本站为玩家社区工具站，与官方无关"
               : "This is a community fan site, not affiliated with the official game."}
           </p>

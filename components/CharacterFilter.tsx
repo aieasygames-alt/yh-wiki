@@ -3,15 +3,17 @@
 import { useState, useMemo } from "react";
 import { CharacterCard } from "./CharacterCard";
 import { getAttributeLabel } from "../lib/attributes";
-import type { Character, Locale } from "../lib/i18n";
+import type { Locale } from "../lib/i18n";
 
 const ATTRIBUTES = ["cosmos", "anima", "incantation", "chaos", "psyche", "lakshana"];
 const RANKS = ["S", "A"];
 const ROLES_ZH = ["进攻", "支援", "防护", "辅助"];
+const ROLES_TW = ["進攻", "支援", "防護", "輔助"];
 const ROLES_EN = ["Attack", "Support", "Defense", "Utility"];
+const STATUSES = ["available", "upcoming", "rumored"];
 
 interface CharacterFilterProps {
-  characters: Character[];
+  characters: any[];
   locale: Locale;
   lang: string;
 }
@@ -20,11 +22,19 @@ export function CharacterFilter({ characters, locale, lang }: CharacterFilterPro
   const [attribute, setAttribute] = useState<string>("");
   const [rank, setRank] = useState<string>("");
   const [role, setRole] = useState<string>("");
+  const [status, setStatus] = useState<string>("available");
 
-  const roles = locale === "zh" ? ROLES_ZH : ROLES_EN;
+  const roles = locale === "en" ? ROLES_EN : (locale === "tw" ? ROLES_TW : ROLES_ZH);
+
+  const statusLabels: Record<string, Record<Locale, string>> = {
+    available: { zh: "当前可玩", en: "Available" },
+    upcoming: { zh: "即将登场", en: "Upcoming" },
+    rumored: { zh: "数据待确认", en: "Unconfirmed" },
+  };
 
   const filtered = useMemo(() => {
     return characters.filter((c) => {
+      if (status && c.status !== status) return false;
       if (attribute && c.attribute !== attribute) return false;
       if (rank && c.rank !== rank) return false;
       if (role) {
@@ -33,14 +43,27 @@ export function CharacterFilter({ characters, locale, lang }: CharacterFilterPro
       }
       return true;
     });
-  }, [characters, attribute, rank, role, locale]);
+  }, [characters, status, attribute, rank, role, locale]);
 
-  const hasFilters = attribute || rank || role;
+  const hasFilters = attribute || rank || role || status !== "available";
 
   return (
     <>
       {/* Filter Bar */}
       <div className="flex flex-wrap gap-3 mb-6">
+        {/* Status Filter */}
+        <select
+          value={status}
+          onChange={(e) => setStatus(e.target.value)}
+          className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
+        >
+          <option value="available">{statusLabels.available[locale]}</option>
+          {STATUSES.filter(s => s !== "available").map((s) => (
+            <option key={s} value={s}>{statusLabels[s]?.[locale] || s}</option>
+          ))}
+          <option value="">{locale === "zh" ? "全部" : "All"}</option>
+        </select>
+
         {/* Attribute Filter */}
         <select
           value={attribute}
@@ -79,7 +102,7 @@ export function CharacterFilter({ characters, locale, lang }: CharacterFilterPro
 
         {hasFilters && (
           <button
-            onClick={() => { setAttribute(""); setRank(""); setRole(""); }}
+            onClick={() => { setStatus("available"); setAttribute(""); setRank(""); setRole(""); }}
             className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-400 hover:text-gray-200 transition-colors"
           >
             {locale === "zh" ? "清除" : "Clear"}
@@ -99,9 +122,11 @@ export function CharacterFilter({ characters, locale, lang }: CharacterFilterPro
             key={c.id}
             id={c.id}
             name={c.name}
+            nameTw={c.nameTw}
             nameEn={c.nameEn}
             attribute={c.attribute}
             rank={c.rank}
+            status={c.status}
             locale={locale}
           />
         ))}

@@ -2,10 +2,11 @@
 
 import { useState } from "react";
 import type { Skills, Skill } from "../lib/queries";
+import type { Locale } from "../lib/i18n";
 
 interface SkillDetailProps {
   skills: Skills;
-  locale: "zh" | "en";
+  locale: Locale;
 }
 
 function SkillCard({
@@ -18,13 +19,13 @@ function SkillCard({
   skill: Skill;
   label: string;
   icon: string;
-  locale: "zh" | "en";
+  locale: Locale;
   defaultOpen: boolean;
 }) {
   const [open, setOpen] = useState(defaultOpen);
-  const name = locale === "zh" ? skill.name : skill.nameEn;
-  const description = locale === "zh" ? skill.description : skill.descriptionEn;
-  const scaling = locale === "zh" ? skill.scaling : skill.scalingEn;
+  const name = locale === "en" ? skill.nameEn : skill.name;
+  const description = locale === "en" ? skill.descriptionEn : skill.description;
+  const scaling = locale === "en" ? skill.scalingEn : skill.scaling;
 
   return (
     <div className="rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden">
@@ -63,7 +64,7 @@ function SkillCard({
           {scaling && (
             <div className="rounded-md bg-gray-800/50 px-4 py-2">
               <span className="text-xs text-gray-500 block mb-1">
-                {locale === "zh" ? "倍率" : "Scaling"}
+                {locale === "en" ? "Scaling" : "倍率"}
               </span>
               <p className="text-sm text-gray-300 whitespace-pre-wrap">
                 {scaling}
@@ -73,12 +74,12 @@ function SkillCard({
           <div className="flex gap-4 text-xs text-gray-500">
             {skill.cooldown && (
               <span>
-                {locale === "zh" ? "冷却" : "CD"}: {skill.cooldown}
+                {locale === "en" ? "CD" : "冷却"}: {skill.cooldown}
               </span>
             )}
             {skill.cost && (
               <span>
-                {locale === "zh" ? "消耗" : "Cost"}: {skill.cost}
+                {locale === "en" ? "Cost" : "消耗"}: {skill.cost}
               </span>
             )}
           </div>
@@ -96,17 +97,17 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
   }[] = [
     {
       skill: skills.normalAttack,
-      label: locale === "zh" ? "普通攻击" : "Normal Attack",
+      label: locale === "en" ? "Normal Attack" : "普通攻击",
       icon: "⚔",
     },
     {
       skill: skills.skill,
-      label: locale === "zh" ? "战技" : "Skill",
+      label: locale === "en" ? "Skill" : "战技",
       icon: "✦",
     },
     {
       skill: skills.ultimate,
-      label: locale === "zh" ? "终结技" : "Ultimate",
+      label: locale === "en" ? "Ultimate" : "终结技",
       icon: "★",
     },
   ];
@@ -114,7 +115,7 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
-        {locale === "zh" ? "技能详情" : "Skills"}
+        {locale === "en" ? "Skills" : "技能详情"}
       </h2>
       <div className="space-y-2">
         {sections.map((s, i) => (
@@ -130,7 +131,7 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
         {skills.passives && skills.passives.length > 0 && (
           <div className="mt-4">
             <h3 className="text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wide">
-              {locale === "zh" ? "被动技能" : "Passives"}
+              {locale === "en" ? "Passives" : "被动技能"}
             </h3>
             <div className="space-y-2">
               {skills.passives.map((passive, i) => (
@@ -138,9 +139,9 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
                   key={`passive-${i}`}
                   skill={passive}
                   label={
-                    locale === "zh"
-                      ? `被动 ${i + 1}`
-                      : `Passive ${i + 1}`
+                    locale === "en"
+                      ? `Passive ${i + 1}`
+                      : `被动 ${i + 1}`
                   }
                   icon="◆"
                   locale={locale}

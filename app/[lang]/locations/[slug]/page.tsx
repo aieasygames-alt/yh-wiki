@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getLocation, getAllLocations, getCharacter, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
@@ -10,6 +10,7 @@ export function generateStaticParams() {
   const locations = getAllLocations();
   return locations.flatMap((l) => [
     { lang: "zh", slug: l.id },
+    { lang: "tw", slug: l.id },
     { lang: "en", slug: l.id },
   ]);
 }
@@ -22,14 +23,14 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const loc = getLocation(slug);
   if (!loc) return {};
-  const name = lang === "zh" ? loc.name : loc.nameEn;
-  const description = lang === "zh" ? loc.summary : loc.summaryEn;
+  const name = isZhLocale(lang) ? loc.name : loc.nameEn;
+  const description = isZhLocale(lang) ? loc.summary : loc.summaryEn;
   return {
-    title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
+    title: `${name} - ${isZhLocale(lang) ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`locations/${slug}`, lang),
     openGraph: {
-      title: `${name} - ${lang === "zh" ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
+      title: `${name} - ${isZhLocale(lang) ? "异环地图" : "NTE Location Guide | Neverness to Everness"} | NTE Guide`,
       description,
       type: "article",
     },
@@ -42,13 +43,13 @@ export default async function LocationDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const loc = getLocation(slug);
   if (!loc) notFound();
 
-  const name = locale === "zh" ? loc.name : loc.nameEn;
-  const content = locale === "zh" ? loc.content : loc.contentEn;
-  const summary = locale === "zh" ? loc.summary : loc.summaryEn;
+  const name = isZhLocale(locale) ? loc.name : loc.nameEn;
+  const content = isZhLocale(locale) ? loc.content : loc.contentEn;
+  const summary = isZhLocale(locale) ? loc.summary : loc.summaryEn;
 
   const relatedChars = loc.relatedCharacters
     .map((id) => getCharacter(id))
@@ -76,7 +77,7 @@ export default async function LocationDetailPage({
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-2">
           <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
-            {locale === "zh" ? loc.categoryZh : loc.categoryEn}
+            {isZhLocale(locale) ? loc.categoryZh : loc.categoryEn}
           </span>
         </div>
         <h1 className="text-2xl font-bold mb-6">{name}</h1>

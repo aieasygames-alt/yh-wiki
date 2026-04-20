@@ -1,4 +1,4 @@
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllFaqs, getFaqCategories } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
@@ -9,7 +9,7 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title: t(locale, "faq.title"),
     description: t(locale, "faq.description"),
@@ -28,7 +28,7 @@ export default async function FaqListPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const faqs = getAllFaqs();
   const categories = getFaqCategories(locale);
 
@@ -41,7 +41,7 @@ export default async function FaqListPage({
     <>
       <ItemListJsonLd
         items={faqs.map((f) => ({
-          name: locale === "zh" ? f.question : f.questionEn,
+          name: isZhLocale(locale) ? f.question : f.questionEn,
           url: `https://nteguide.com/${lang}/faq/${f.id}`,
         }))}
       />
@@ -65,10 +65,10 @@ export default async function FaqListPage({
                   className="block rounded-lg border border-gray-800 bg-gray-900/30 p-5 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
                 >
                   <h3 className="text-base font-medium">
-                    {locale === "zh" ? faq.question : faq.questionEn}
+                    {isZhLocale(locale) ? faq.question : faq.questionEn}
                   </h3>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                    {locale === "zh" ? faq.answer : faq.answerEn}
+                    {isZhLocale(locale) ? faq.answer : faq.answerEn}
                   </p>
                   <div className="mt-3 flex gap-2">
                     {faq.tags.slice(0, 3).map((tag) => (

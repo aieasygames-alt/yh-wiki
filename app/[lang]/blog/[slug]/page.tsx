@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
@@ -30,6 +30,7 @@ export function generateStaticParams() {
   const posts = getAllBlogPosts();
   return posts.flatMap((p) => [
     { lang: "zh", slug: p.id },
+    { lang: "tw", slug: p.id },
     { lang: "en", slug: p.id },
   ]);
 }
@@ -42,8 +43,8 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const post = getBlogPost(slug);
   if (!post) return {};
-  const title = lang === "zh" ? post.title : post.titleEn;
-  const description = lang === "zh" ? post.summary : post.summaryEn;
+  const title = isZhLocale(lang) ? post.title : post.titleEn;
+  const description = isZhLocale(lang) ? post.summary : post.summaryEn;
   return {
     title: `${title} | NTE Blog`,
     description,
@@ -63,14 +64,14 @@ export default async function BlogDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const post = getBlogPost(slug);
   if (!post) notFound();
 
-  const title = locale === "zh" ? post.title : post.titleEn;
-  const content = locale === "zh" ? post.content : post.contentEn;
-  const summary = locale === "zh" ? post.summary : post.summaryEn;
-  const category = locale === "zh" ? post.categoryZh : post.categoryEn;
+  const title = isZhLocale(locale) ? post.title : post.titleEn;
+  const content = isZhLocale(locale) ? post.content : post.contentEn;
+  const summary = isZhLocale(locale) ? post.summary : post.summaryEn;
+  const category = isZhLocale(locale) ? post.categoryZh : post.categoryEn;
 
   return (
     <>
@@ -116,7 +117,7 @@ export default async function BlogDetailPage({
                 href={`/${lang}/tags/${tag}`}
                 className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-400 hover:text-primary-400 transition-colors"
               >
-                #{locale === "zh" ? (() => { const zh = t(locale, `blog.tags.${tag}`); return zh !== `blog.tags.${tag}` ? zh : tag; })() : tag}
+                #{isZhLocale(locale) ? (() => { const zh = t(locale, `blog.tags.${tag}`); return zh !== `blog.tags.${tag}` ? zh : tag; })() : tag}
               </Link>
             ))}
           </div>
@@ -126,7 +127,7 @@ export default async function BlogDetailPage({
         {post.internalLinks.length > 0 && (
           <section className="mt-10 border-t border-gray-800 pt-6">
             <h2 className="text-lg font-bold mb-4">
-              {locale === "zh" ? "相关内容" : "Related Content"}
+              {isZhLocale(locale) ? "相关内容" : "Related Content"}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {post.internalLinks.map((link) => (
@@ -136,7 +137,7 @@ export default async function BlogDetailPage({
                   className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
                   <span className="text-sm">
-                    {locale === "zh" ? link.label : link.labelEn}
+                    {isZhLocale(locale) ? link.label : link.labelEn}
                   </span>
                 </Link>
               ))}
@@ -151,7 +152,7 @@ export default async function BlogDetailPage({
           return (
             <section className="mt-10 border-t border-gray-800 pt-6">
               <h2 className="text-lg font-bold mb-4">
-                {locale === "zh" ? "推荐阅读" : "Related Posts"}
+                {isZhLocale(locale) ? "推荐阅读" : "Related Posts"}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {related.map((rp) => (
@@ -162,10 +163,10 @@ export default async function BlogDetailPage({
                   >
                     <span className="text-xs text-gray-500">{rp.date}</span>
                     <h3 className="text-sm font-medium mt-1 group-hover:text-primary-400 transition-colors">
-                      {locale === "zh" ? rp.title : rp.titleEn}
+                      {isZhLocale(locale) ? rp.title : rp.titleEn}
                     </h3>
                     <p className="text-xs text-gray-500 mt-2 line-clamp-2">
-                      {locale === "zh" ? rp.summary : rp.summaryEn}
+                      {isZhLocale(locale) ? rp.summary : rp.summaryEn}
                     </p>
                   </Link>
                 ))}

@@ -164,7 +164,9 @@
     "image": "/images/characters/nanally.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
-    "descriptionEn": "First-generation member of the Coluccis family and the star Esper of the Eibon Antique Shop. A catfolk Esper who fights with razor-sharp claws at blinding speed, wielding powerful anti-gravity abilities."
+    "descriptionEn": "First-generation member of the Coluccis family and the star Esper of the Eibon Antique Shop. A catfolk Esper who fights with razor-sharp claws at blinding speed, wielding powerful anti-gravity abilities.",
+    "status": "available",
+    "nameTw": "娜娜莉"
   },
   {
     "id": "sakiri",
@@ -331,7 +333,9 @@
     "image": "/images/characters/sakiri.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "beginner-selector",
-    "descriptionEn": "A horned Esper of the Eibon Antique Shop who fights alongside her gluttonous Anomaly companion Kiroumaru. An Incantation-attribute support specialist who excels at buffing teammates."
+    "descriptionEn": "A horned Esper of the Eibon Antique Shop who fights alongside her gluttonous Anomaly companion Kiroumaru. An Incantation-attribute support specialist who excels at buffing teammates.",
+    "status": "available",
+    "nameTw": "咲里"
   },
   {
     "id": "fadia",
@@ -498,7 +502,9 @@
     "image": "/images/characters/fadia.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad and a vampire-type Esper. Bold and thrill-seeking, she wields a transforming cross shield for both offense and defense."
+    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad and a vampire-type Esper. Bold and thrill-seeking, she wields a transforming cross shield for both offense and defense.",
+    "status": "available",
+    "nameTw": "法帝婭"
   },
   {
     "id": "lacrimosa",
@@ -665,11 +671,13 @@
     "image": "/images/characters/lacrimosa.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat."
+    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat.",
+    "status": "available",
+    "nameTw": "拉克莉莫薩"
   },
   {
     "id": "baicang",
-    "name": "百苍",
+    "name": "白藏",
     "nameEn": "Baicang",
     "attribute": "incantation",
     "rank": "S",
@@ -678,37 +686,37 @@
     "role": "防护",
     "roleEn": "Defense",
     "faction": "ETD-4",
-    "description": "异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和斯基雅应对重大异常事件。以言灵之力构筑防御阵地。",
+    "description": "异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和翳应对重大异常事件。以言灵之力构筑防御阵地。",
     "faq": [
       {
         "question": "Is Baicang good in Neverness to Everness?",
-        "questionZh": "百苍值得培养吗？",
+        "questionZh": "白藏值得培养吗？",
         "answer": "Baicang is a S-rank Defense character in Neverness to Everness. As a incantation element Defense, Baicang offers unique combat capabilities. Check our tier list for the latest ranking.",
-        "answerZh": "百苍是异环中的S级防护角色。异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和斯基雅应对重大异常事件。以言灵之力构筑防御阵地。"
+        "answerZh": "白藏是异环中的S级防护角色。异常控制局 ETD-4 队长，统领法蒂亚、拉克莉莫萨和翳应对重大异常事件。以言灵之力构筑防御阵地。"
       },
       {
         "question": "What is the best build for Baicang?",
-        "questionZh": "百苍最佳配装是什么？",
+        "questionZh": "白藏最佳配装是什么？",
         "answer": "The best build for Baicang in Neverness to Everness focuses on maximizing their Defense potential. As a S-rank incantation character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "百苍的最佳配装侧重于最大化其防护潜力。作为S级incantation属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+        "answerZh": "白藏的最佳配装侧重于最大化其防护潜力。作为S级incantation属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
       },
       {
         "question": "How to get Baicang in Neverness to Everness?",
-        "questionZh": "如何获得百苍？",
+        "questionZh": "如何获得白藏？",
         "answer": "Baicang can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
-        "answerZh": "百苍可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+        "answerZh": "白藏可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
       },
       {
         "question": "What is the best team for Baicang?",
-        "questionZh": "百苍最佳配队是什么？",
+        "questionZh": "白藏最佳配队是什么？",
         "answer": "The best team for Baicang in Neverness to Everness depends on the content. As a incantation Defense, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
-        "answerZh": "百苍的最佳配队取决于具体内容。作为incantation属性防护，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+        "answerZh": "白藏的最佳配队取决于具体内容。作为incantation属性防护，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
       },
       {
         "question": "What is the best weapon for Baicang?",
-        "questionZh": "百苍最佳武器是什么？",
+        "questionZh": "白藏最佳武器是什么？",
         "answer": "The best weapon for Baicang depends on your playstyle and available options. They use Power of Words type weapons. Check our weapon tier list for the best options for Baicang.",
-        "answerZh": "百苍的最佳武器取决于你的玩法和可用选项。他们使用言灵之力类型武器。查看我们的武器排行榜了解百苍的最佳选择。"
+        "answerZh": "白藏的最佳武器取决于你的玩法和可用选项。他们使用言灵之力类型武器。查看我们的武器排行榜了解白藏的最佳选择。"
       }
     ],
     "relatedCharacters": [
@@ -721,9 +729,9 @@
     "tierReasonZh": "S级防护角色。",
     "skills": {
       "normalAttack": {
-        "name": "百苍咒文打击",
+        "name": "白藏咒文打击",
         "nameEn": "Baicang's Spell Strike",
-        "description": "百苍使用言灵之力进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "description": "白藏使用言灵之力进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
         "descriptionEn": "Baicang performs consecutive attacks with their Power of Words, up to 4 hits. Attacks apply a minor elemental effect.",
         "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
         "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
@@ -741,7 +749,7 @@
       "ultimate": {
         "name": "咒阵爆发",
         "nameEn": "Incantation Burst",
-        "description": "百苍的终结技，创造一个incantation属性力场，在力场内的队伍成员受到的伤害降低40%，并持续恢复生命值。力场持续10秒。",
+        "description": "白藏的终结技，创造一个incantation属性力场，在力场内的队伍成员受到的伤害降低40%，并持续恢复生命值。力场持续10秒。",
         "descriptionEn": "Baicang's ultimate creates a incantation field reducing incoming damage by 40% and continuously healing party members inside. Field lasts 10 seconds.",
         "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
         "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
@@ -752,13 +760,13 @@
         {
           "name": "坚不可摧",
           "nameEn": "Unbreakable",
-          "description": "百苍受到致命伤害时，恢复20%最大生命值。该效果每300秒触发一次。",
+          "description": "白藏受到致命伤害时，恢复20%最大生命值。该效果每300秒触发一次。",
           "descriptionEn": "When Baicang would take lethal damage, recover 20% Max HP. This effect triggers once every 300s."
         },
         {
           "name": "壁垒意志",
           "nameEn": "Bastion Will",
-          "description": "护盾强度额外提升15%，且护盾存在期间百苍的防御力提升10%。",
+          "description": "护盾强度额外提升15%，且护盾存在期间白藏的防御力提升10%。",
           "descriptionEn": "Shield strength increases by 15%, and Baicang's DEF increases by 10% while shielded."
         }
       ]
@@ -805,7 +813,7 @@
     },
     "teamComps": [
       {
-        "name": "百苍最佳配队",
+        "name": "白藏最佳配队",
         "nameEn": "Baicang Best Team",
         "members": [
           "baicang",
@@ -813,7 +821,7 @@
           "adler",
           "lingko"
         ],
-        "description": "百苍为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "description": "白藏为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
         "descriptionEn": "A support-focused team with Baicang, paired with high-DPS and defense characters for sustained combat."
       },
       {
@@ -832,7 +840,9 @@
     "image": "/images/characters/baicang.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "Captain of the Bureau of Anomaly Control's ETD-4 squad, leading Fadia, Lacrimosa, and Skia on major anomaly missions. Constructs defensive formations using the power of Word Spirit."
+    "descriptionEn": "Captain of the Bureau of Anomaly Control's ETD-4 squad, leading Fadia, Lacrimosa, and Skia on major anomaly missions. Constructs defensive formations using the power of Word Spirit.",
+    "status": "available",
+    "nameTw": "白藏"
   },
   {
     "id": "zero",
@@ -999,7 +1009,9 @@
     "image": "/images/characters/zero.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Eibon Antique Shop and a taciturn swordsman. Seen fighting alongside Nanally, Sakiri, and Mint in the beta test footage."
+    "descriptionEn": "A member of the Eibon Antique Shop and a taciturn swordsman. Seen fighting alongside Nanally, Sakiri, and Mint in the beta test footage.",
+    "status": "available",
+    "nameTw": "零"
   },
   {
     "id": "hotori",
@@ -1166,7 +1178,9 @@
     "image": "/images/characters/hotori.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle."
+    "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle.",
+    "status": "available",
+    "nameTw": "穗鳥"
   },
   {
     "id": "daffodil",
@@ -1333,11 +1347,13 @@
     "image": "/images/characters/daffodil.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "Security specialist at the Eibon Antique Shop. A Chaos-attribute support character wielding a liquid arc weapon."
+    "descriptionEn": "Security specialist at the Eibon Antique Shop. A Chaos-attribute support character wielding a liquid arc weapon.",
+    "status": "available",
+    "nameTw": "達芙蒂爾"
   },
   {
     "id": "jiuyuan",
-    "name": "九远",
+    "name": "九原",
     "nameEn": "Jiuyuan",
     "attribute": "anima",
     "rank": "S",
@@ -1346,37 +1362,37 @@
     "role": "辅助",
     "roleEn": "Utility",
     "faction": "未知",
-    "description": "被称为「九远小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。",
+    "description": "被称为「九原小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。",
     "faq": [
       {
         "question": "Is Jiuyuan good in Neverness to Everness?",
-        "questionZh": "九远值得培养吗？",
+        "questionZh": "九原值得培养吗？",
         "answer": "Jiuyuan is a S-rank Utility character in Neverness to Everness. As a anima element Utility, Jiuyuan offers unique combat capabilities. Check our tier list for the latest ranking.",
-        "answerZh": "九远是异环中的S级辅助角色。被称为「九远小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。"
+        "answerZh": "九原是异环中的S级辅助角色。被称为「九原小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。"
       },
       {
         "question": "What is the best build for Jiuyuan?",
-        "questionZh": "九远最佳配装是什么？",
+        "questionZh": "九原最佳配装是什么？",
         "answer": "The best build for Jiuyuan in Neverness to Everness focuses on maximizing their Utility potential. As a S-rank anima character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "九远的最佳配装侧重于最大化其辅助潜力。作为S级anima属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
+        "answerZh": "九原的最佳配装侧重于最大化其辅助潜力。作为S级anima属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
       },
       {
         "question": "How to get Jiuyuan in Neverness to Everness?",
-        "questionZh": "如何获得九远？",
+        "questionZh": "如何获得九原？",
         "answer": "Jiuyuan can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
-        "answerZh": "九远可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+        "answerZh": "九原可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
       },
       {
         "question": "What is the best team for Jiuyuan?",
-        "questionZh": "九远最佳配队是什么？",
+        "questionZh": "九原最佳配队是什么？",
         "answer": "The best team for Jiuyuan in Neverness to Everness depends on the content. As a anima Utility, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
-        "answerZh": "九远的最佳配队取决于具体内容。作为anima属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+        "answerZh": "九原的最佳配队取决于具体内容。作为anima属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
       },
       {
         "question": "What is the best weapon for Jiuyuan?",
-        "questionZh": "九远最佳武器是什么？",
+        "questionZh": "九原最佳武器是什么？",
         "answer": "The best weapon for Jiuyuan depends on your playstyle and available options. They use Vehicle type weapons. Check our weapon tier list for the best options for Jiuyuan.",
-        "answerZh": "九远的最佳武器取决于你的玩法和可用选项。他们使用载具类型武器。查看我们的武器排行榜了解九远的最佳选择。"
+        "answerZh": "九原的最佳武器取决于你的玩法和可用选项。他们使用载具类型武器。查看我们的武器排行榜了解九原的最佳选择。"
       }
     ],
     "relatedCharacters": [
@@ -1389,9 +1405,9 @@
     "tierReasonZh": "S级辅助角色。",
     "skills": {
       "normalAttack": {
-        "name": "九远生命之爪",
+        "name": "九原生命之爪",
         "nameEn": "Jiuyuan's Anima Claws",
-        "description": "九远使用载具进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
+        "description": "九原使用载具进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
         "descriptionEn": "Jiuyuan performs consecutive attacks with their Vehicle, up to 4 hits. Attacks apply a minor elemental effect.",
         "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
         "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
@@ -1409,7 +1425,7 @@
       "ultimate": {
         "name": "万物复苏",
         "nameEn": "Revival of All Things",
-        "description": "九远的终结技，对大范围敌人造成anima属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
+        "description": "九原的终结技，对大范围敌人造成anima属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
         "descriptionEn": "Jiuyuan's ultimate deals anima AoE damage that scales with enemy count - more enemies means higher damage.",
         "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
         "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
@@ -1420,13 +1436,13 @@
         {
           "name": "灵巧身法",
           "nameEn": "Agile Movement",
-          "description": "九远的闪避成功后，移动速度提升15%，持续5秒。",
+          "description": "九原的闪避成功后，移动速度提升15%，持续5秒。",
           "descriptionEn": "After Jiuyuan successfully dodges, movement speed increases by 15% for 5s."
         },
         {
           "name": "随机应变",
           "nameEn": "Adaptability",
-          "description": "切换到九远时，获得一个随机增益效果，持续8秒。",
+          "description": "切换到九原时，获得一个随机增益效果，持续8秒。",
           "descriptionEn": "When switching to Jiuyuan, gain a random buff for 8s."
         }
       ]
@@ -1473,7 +1489,7 @@
     },
     "teamComps": [
       {
-        "name": "九远最佳配队",
+        "name": "九原最佳配队",
         "nameEn": "Jiuyuan Best Team",
         "members": [
           "jiuyuan",
@@ -1481,7 +1497,7 @@
           "mint",
           "nelly"
         ],
-        "description": "九远为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
+        "description": "九原为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
         "descriptionEn": "A support-focused team with Jiuyuan, paired with high-DPS and defense characters for sustained combat."
       },
       {
@@ -1500,7 +1516,9 @@
     "image": "/images/characters/jiuyuan.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "Known as \"Miss Jiuyuan,\" a top-tier driver responsible for transporting Espers and emergency anomaly supplies. An Anima-attribute S-rank Esper."
+    "descriptionEn": "Known as \"Miss Jiuyuan,\" a top-tier driver responsible for transporting Espers and emergency anomaly supplies. An Anima-attribute S-rank Esper.",
+    "status": "available",
+    "nameTw": "九原"
   },
   {
     "id": "haniel",
@@ -1667,7 +1685,9 @@
     "image": "/images/characters/haniel.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A Psyche-attribute S-rank Esper currently revealed only through promotional artwork. Full combat details and story role await the official launch."
+    "descriptionEn": "A Psyche-attribute S-rank Esper currently revealed only through promotional artwork. Full combat details and story role await the official launch.",
+    "status": "available",
+    "nameTw": "哈尼婭"
   },
   {
     "id": "adler",
@@ -1834,11 +1854,13 @@
     "image": "/images/characters/adler.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "The butler of the Eibon Antique Shop, known as the \"Golden Blade Butler.\" An A-rank Incantation Esper who fights with a cane sword alongside his companion entity Sunyas."
+    "descriptionEn": "The butler of the Eibon Antique Shop, known as the \"Golden Blade Butler.\" An A-rank Incantation Esper who fights with a cane sword alongside his companion entity Sunyas.",
+    "status": "available",
+    "nameTw": "阿德勒"
   },
   {
     "id": "skia",
-    "name": "斯基雅",
+    "name": "翳",
     "nameEn": "Skia",
     "attribute": "lakshana",
     "rank": "A",
@@ -1851,33 +1873,33 @@
     "faq": [
       {
         "question": "Is Skia good in Neverness to Everness?",
-        "questionZh": "斯基雅值得培养吗？",
+        "questionZh": "翳值得培养吗？",
         "answer": "Skia is a A-rank Attack character in Neverness to Everness. As a lakshana element Attack, Skia offers unique combat capabilities. Check our tier list for the latest ranking.",
-        "answerZh": "斯基雅是异环中的A级进攻角色。异常控制局 ETD-4 队员，与法蒂亚和拉克莉莫萨一同行动。相属性异能者，以影子操控进行战斗。"
+        "answerZh": "翳是异环中的A级进攻角色。异常控制局 ETD-4 队员，与法蒂亚和拉克莉莫萨一同行动。相属性异能者，以影子操控进行战斗。"
       },
       {
         "question": "What is the best build for Skia?",
-        "questionZh": "斯基雅最佳配装是什么？",
+        "questionZh": "翳最佳配装是什么？",
         "answer": "The best build for Skia in Neverness to Everness focuses on maximizing their Attack potential. As a A-rank lakshana character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "斯基雅的最佳配装侧重于最大化其进攻潜力。作为A级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+        "answerZh": "翳的最佳配装侧重于最大化其进攻潜力。作为A级lakshana属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
       },
       {
         "question": "How to get Skia in Neverness to Everness?",
-        "questionZh": "如何获得斯基雅？",
+        "questionZh": "如何获得翳？",
         "answer": "Skia can be obtained through the gacha system in Neverness to Everness. As an A-rank character, they are more commonly available from standard wishes. Check our gacha simulator to test your luck!",
-        "answerZh": "斯基雅可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
+        "answerZh": "翳可以通过异环的祈愿系统获得。作为A级角色，在常驻祈愿中较容易获得。使用我们的抽卡模拟器测试运气！"
       },
       {
         "question": "What is the best team for Skia?",
-        "questionZh": "斯基雅最佳配队是什么？",
+        "questionZh": "翳最佳配队是什么？",
         "answer": "The best team for Skia in Neverness to Everness depends on the content. As a lakshana Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
-        "answerZh": "斯基雅的最佳配队取决于具体内容。作为lakshana属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+        "answerZh": "翳的最佳配队取决于具体内容。作为lakshana属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
       },
       {
         "question": "What is the best weapon for Skia?",
-        "questionZh": "斯基雅最佳武器是什么？",
+        "questionZh": "翳最佳武器是什么？",
         "answer": "The best weapon for Skia depends on your playstyle and available options. They use Shadow Manipulation type weapons. Check our weapon tier list for the best options for Skia.",
-        "answerZh": "斯基雅的最佳武器取决于你的玩法和可用选项。他们使用影操控类型武器。查看我们的武器排行榜了解斯基雅的最佳选择。"
+        "answerZh": "翳的最佳武器取决于你的玩法和可用选项。他们使用影操控类型武器。查看我们的武器排行榜了解翳的最佳选择。"
       }
     ],
     "relatedCharacters": [
@@ -1890,9 +1912,9 @@
     "tierReasonZh": "A级进攻角色。",
     "skills": {
       "normalAttack": {
-        "name": "斯基雅相态变换",
+        "name": "翳相态变换",
         "nameEn": "Skia's Phase Shift",
-        "description": "斯基雅使用影操控进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
+        "description": "翳使用影操控进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
         "descriptionEn": "Skia performs consecutive attacks with their Shadow Manipulation, up to 4 hits. The 4th hit deals bonus elemental damage.",
         "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
         "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
@@ -1910,7 +1932,7 @@
       "ultimate": {
         "name": "万象归虚",
         "nameEn": "Return to Void",
-        "description": "斯基雅的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
+        "description": "翳的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
         "descriptionEn": "Skia's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
@@ -1921,7 +1943,7 @@
         {
           "name": "破晓之刃",
           "nameEn": "Blade of Dawn",
-          "description": "当斯基雅的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
+          "description": "当翳的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
           "descriptionEn": "When Skia's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
         },
         {
@@ -1974,7 +1996,7 @@
     },
     "teamComps": [
       {
-        "name": "斯基雅最佳配队",
+        "name": "翳最佳配队",
         "nameEn": "Skia Best Team",
         "members": [
           "skia",
@@ -1982,7 +2004,7 @@
           "alphard",
           "hathor"
         ],
-        "description": "以斯基雅为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化斯基雅的伤害输出。",
+        "description": "以翳为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化翳的伤害输出。",
         "descriptionEn": "A team built around Skia as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
@@ -2001,7 +2023,9 @@
     "image": "/images/characters/skia.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad, fighting alongside Fadia and Lacrimosa. A Lakshana-attribute Esper who manipulates shadows in combat."
+    "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad, fighting alongside Fadia and Lacrimosa. A Lakshana-attribute Esper who manipulates shadows in combat.",
+    "status": "available",
+    "nameTw": "翳"
   },
   {
     "id": "edgar",
@@ -2168,7 +2192,9 @@
     "image": "/images/characters/edgar.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Eibon Antique Shop, a blue-haired youth. A Cosmos-attribute A-rank Esper who assists Adler with various anomaly commissions at the shop."
+    "descriptionEn": "A member of the Eibon Antique Shop, a blue-haired youth. A Cosmos-attribute A-rank Esper who assists Adler with various anomaly commissions at the shop.",
+    "status": "available",
+    "nameTw": "埃德嘉"
   },
   {
     "id": "mint",
@@ -2335,7 +2361,9 @@
     "image": "/images/characters/mint.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Bureau of Anomaly Control's CSU-2 unit. An Anima-attribute A-rank Esper who wields dual blades for swift support combat."
+    "descriptionEn": "A member of the Bureau of Anomaly Control's CSU-2 unit. An Anima-attribute A-rank Esper who wields dual blades for swift support combat.",
+    "status": "available",
+    "nameTw": "薄荷"
   },
   {
     "id": "nelly",
@@ -2502,7 +2530,9 @@
     "image": "/images/characters/nelly.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper."
+    "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper.",
+    "status": "upcoming",
+    "nameTw": "奈莉"
   },
   {
     "id": "merula",
@@ -2669,7 +2699,9 @@
     "image": "/images/characters/merula.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A Lakshana-attribute Esper, potentially S-rank according to Wiki data. Full details to be confirmed upon the game's official launch."
+    "descriptionEn": "A Lakshana-attribute Esper, potentially S-rank according to Wiki data. Full details to be confirmed upon the game's official launch.",
+    "status": "upcoming",
+    "nameTw": "梅露拉"
   },
   {
     "id": "alphard",
@@ -2836,7 +2868,9 @@
     "image": "/images/characters/alphard.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed."
+    "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed.",
+    "status": "upcoming",
+    "nameTw": "阿爾法德"
   },
   {
     "id": "taygedo",
@@ -3003,7 +3037,9 @@
     "image": "/images/characters/taygedo.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character."
+    "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
+    "status": "upcoming",
+    "nameTw": "泰格多"
   },
   {
     "id": "hathor",
@@ -3170,7 +3206,9 @@
     "image": "/images/characters/hathor.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "An S-rank Lakshana-attribute Esper who wields blade wings in combat. Full details await official confirmation."
+    "descriptionEn": "An S-rank Lakshana-attribute Esper who wields blade wings in combat. Full details await official confirmation.",
+    "status": "available",
+    "nameTw": "哈索爾"
   },
   {
     "id": "chiz",
@@ -3337,7 +3375,9 @@
     "image": "/images/characters/chiz.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "An S-rank Cosmos-attribute Esper wielding a Yokai Hammer. Obtainable for free at level 18 in the City Tycoon mode."
+    "descriptionEn": "An S-rank Cosmos-attribute Esper wielding a Yokai Hammer. Obtainable for free at level 18 in the City Tycoon mode.",
+    "status": "available",
+    "nameTw": "赤子"
   },
   {
     "id": "lilina",
@@ -3504,174 +3544,9 @@
     "image": "/images/characters/lilina.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "The top star of the Eibon Antique Shop, featured on the official website. Full details to be confirmed upon the game's official launch."
-  },
-  {
-    "id": "the-appraiser",
-    "name": "鉴定师",
-    "nameEn": "The Appraiser",
-    "attribute": "cosmos",
-    "rank": "S",
-    "weapon": "鉴定能力",
-    "weaponEn": "Appraisal Ability",
-    "role": "辅助",
-    "roleEn": "Utility",
-    "faction": "Eibon Antique Shop",
-    "description": "玩家主角，伊本古董店的新任鉴定师。拥有鉴定异常物品的独特能力，能够识别并分析各种奇物和异象的来源。宇宙属性 S 级异能者，故事的核心人物。",
-    "faq": [
-      {
-        "question": "Is The Appraiser good in Neverness to Everness?",
-        "questionZh": "鉴定师值得培养吗？",
-        "answer": "The Appraiser is a S-rank Utility character in Neverness to Everness. As a cosmos element Utility, The Appraiser offers unique combat capabilities. Check our tier list for the latest ranking.",
-        "answerZh": "鉴定师是异环中的S级辅助角色。玩家主角，伊本古董店的新任鉴定师。拥有鉴定异常物品的独特能力，能够识别并分析各种奇物和异象的来源。宇宙属性 S 级异能者，故事的核心人物。"
-      },
-      {
-        "question": "What is the best build for The Appraiser?",
-        "questionZh": "鉴定师最佳配装是什么？",
-        "answer": "The best build for The Appraiser in Neverness to Everness focuses on maximizing their Utility potential. As a S-rank cosmos character, prioritize defensive and utility stats. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "鉴定师的最佳配装侧重于最大化其辅助潜力。作为S级cosmos属性角色，优先防御和功能属性。使用我们的配装计算器查看详细推荐。"
-      },
-      {
-        "question": "How to get The Appraiser in Neverness to Everness?",
-        "questionZh": "如何获得鉴定师？",
-        "answer": "The Appraiser can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
-        "answerZh": "鉴定师可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
-      },
-      {
-        "question": "What is the best team for The Appraiser?",
-        "questionZh": "鉴定师最佳配队是什么？",
-        "answer": "The best team for The Appraiser in Neverness to Everness depends on the content. As a cosmos Utility, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
-        "answerZh": "鉴定师的最佳配队取决于具体内容。作为cosmos属性辅助，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
-      },
-      {
-        "question": "What is the best weapon for The Appraiser?",
-        "questionZh": "鉴定师最佳武器是什么？",
-        "answer": "The best weapon for The Appraiser depends on your playstyle and available options. They use Appraisal Ability type weapons. Check our weapon tier list for the best options for The Appraiser.",
-        "answerZh": "鉴定师的最佳武器取决于你的玩法和可用选项。他们使用鉴定能力类型武器。查看我们的武器排行榜了解鉴定师的最佳选择。"
-      }
-    ],
-    "relatedCharacters": [
-      "zero",
-      "hotori",
-      "edgar"
-    ],
-    "tierRank": "S",
-    "tierReason": "S-rank Utility character in Neverness to Everness.",
-    "tierReasonZh": "S级辅助角色。",
-    "skills": {
-      "normalAttack": {
-        "name": "鉴定师星辰斩",
-        "nameEn": "The Appraiser's Star Slash",
-        "description": "鉴定师使用鉴定能力进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "The Appraiser performs consecutive attacks with their Appraisal Ability, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
-      },
-      "skill": {
-        "name": "宇宙裂隙",
-        "nameEn": "Cosmic Rift",
-        "description": "发动特殊能力，对目标区域造成cosmos属性伤害，并根据场上状态触发不同的附加效果。",
-        "descriptionEn": "Activates a special ability dealing cosmos damage to the target area, triggering different bonus effects based on field state.",
-        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
-        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
-        "cooldown": "15s",
-        "cost": "60 能量"
-      },
-      "ultimate": {
-        "name": "星河坠落",
-        "nameEn": "Galaxy Fall",
-        "description": "鉴定师的终结技，对大范围敌人造成cosmos属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
-        "descriptionEn": "The Appraiser's ultimate deals cosmos AoE damage that scales with enemy count - more enemies means higher damage.",
-        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
-        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
-      },
-      "passives": [
-        {
-          "name": "灵巧身法",
-          "nameEn": "Agile Movement",
-          "description": "鉴定师的闪避成功后，移动速度提升15%，持续5秒。",
-          "descriptionEn": "After The Appraiser successfully dodges, movement speed increases by 15% for 5s."
-        },
-        {
-          "name": "随机应变",
-          "nameEn": "Adaptability",
-          "description": "切换到鉴定师时，获得一个随机增益效果，持续8秒。",
-          "descriptionEn": "When switching to The Appraiser, gain a random buff for 8s."
-        }
-      ]
-    },
-    "recommendedBuild": {
-      "bestWeapon": "鉴定能力·破晓",
-      "bestWeaponEn": "Appraisal Ability - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "blade-wings",
-          "name": "刃翼",
-          "nameEn": "Blade Wings"
-        }
-      ],
-      "bestDiskSet": "永恒守护",
-      "bestDiskSetEn": "Eternal Guardian",
-      "mainStats": {
-        "沙漏": "能量回复",
-        "杯子": "属性伤害加成",
-        "头冠": "元素精通"
-      },
-      "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Elemental Mastery"
-      },
-      "subStatPriority": [
-        "元素精通",
-        "能量回复",
-        "攻击力%",
-        "暴击率"
-      ],
-      "subStatPriorityEn": [
-        "Elemental Mastery",
-        "Energy Recharge",
-        "ATK%",
-        "CRIT Rate"
-      ]
-    },
-    "teamComps": [
-      {
-        "name": "鉴定师最佳配队",
-        "nameEn": "The Appraiser Best Team",
-        "members": [
-          "the-appraiser",
-          "zero",
-          "hotori",
-          "edgar"
-        ],
-        "description": "鉴定师为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
-        "descriptionEn": "A support-focused team with The Appraiser, paired with high-DPS and defense characters for sustained combat."
-      },
-      {
-        "name": "Eibon Antique Shop阵容",
-        "nameEn": "Eibon Antique Shop Squad",
-        "members": [
-          "the-appraiser",
-          "nanally",
-          "sakiri",
-          "zero"
-        ],
-        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
-        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
-      }
-    ],
-    "image": "/images/characters/the-appraiser.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "descriptionEn": "The player protagonist and the new appraiser at the Eibon Antique Shop. Possesses the unique ability to appraise anomalous items, identifying and analyzing the origins of various curios and anomalies. A Cosmos-attribute S-rank Esper at the center of the story."
+    "descriptionEn": "The top star of the Eibon Antique Shop, featured on the official website. Full details to be confirmed upon the game's official launch.",
+    "status": "available",
+    "nameTw": "莉莉娜"
   },
   {
     "id": "lingko",
@@ -3838,7 +3713,9 @@
     "image": "/images/characters/lingko.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "descriptionEn": "A character appearing in the game's trailer, an Incantation-attribute Esper. Full details await the official launch."
+    "descriptionEn": "A character appearing in the game's trailer, an Incantation-attribute Esper. Full details await the official launch.",
+    "status": "upcoming",
+    "nameTw": "凛子"
   },
   {
     "id": "mismo",
@@ -4005,7 +3882,9 @@
     "image": "/images/characters/mismo.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch."
+    "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch.",
+    "status": "upcoming",
+    "nameTw": "密斯莫"
   },
   {
     "id": "shinku",
@@ -4172,7 +4051,9 @@
     "image": "/images/characters/shinku.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "descriptionEn": "A character from the Co-Ex beta test, an Anima-attribute Esper. Full details await the official launch."
+    "descriptionEn": "A character from the Co-Ex beta test, an Anima-attribute Esper. Full details await the official launch.",
+    "status": "upcoming",
+    "nameTw": "沁紅"
   },
   {
     "id": "nitsa",
@@ -4339,7 +4220,9 @@
     "image": "/images/characters/nitsa.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "descriptionEn": "A character from the beta test, a Psyche-attribute Esper. Full details await the official launch."
+    "descriptionEn": "A character from the beta test, a Psyche-attribute Esper. Full details await the official launch.",
+    "status": "upcoming",
+    "nameTw": "尼察"
   },
   {
     "id": "black-bird",
@@ -4506,7 +4389,9 @@
     "image": "/images/characters/black-bird.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A datamined character, a Chaos-attribute S-rank Esper. Full details to be confirmed; may appear in the official launch."
+    "descriptionEn": "A datamined character, a Chaos-attribute S-rank Esper. Full details to be confirmed; may appear in the official launch.",
+    "status": "rumored",
+    "nameTw": "黑鳥"
   },
   {
     "id": "xiaozhen",
@@ -4673,7 +4558,9 @@
     "image": "/images/characters/xiaozhen.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A datamined character, an Anima-attribute S-rank Esper. Full details to be confirmed."
+    "descriptionEn": "A datamined character, an Anima-attribute S-rank Esper. Full details to be confirmed.",
+    "status": "rumored",
+    "nameTw": "明虎"
   },
   {
     "id": "akane",
@@ -4840,7 +4727,9 @@
     "image": "/images/characters/akane.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch."
+    "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch.",
+    "status": "rumored",
+    "nameTw": "赤音"
   },
   {
     "id": "jenson",
@@ -5007,7 +4896,9 @@
     "image": "/images/characters/jenson.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "descriptionEn": "A character sourced from community data, a Psyche-attribute Esper. Full details to be confirmed."
+    "descriptionEn": "A character sourced from community data, a Psyche-attribute Esper. Full details to be confirmed.",
+    "status": "upcoming",
+    "nameTw": "詹森"
   },
   {
     "id": "illica",
@@ -5174,7 +5065,9 @@
     "image": "/images/characters/illica.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch."
+    "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch.",
+    "status": "rumored",
+    "nameTw": "伊利卡"
   },
   {
     "id": "fuuka",
@@ -5341,7 +5234,9 @@
     ],
     "image": "/images/characters/fuuka.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "status": "upcoming",
+    "nameTw": "風花"
   },
   {
     "id": "crow",
@@ -5508,7 +5403,9 @@
     ],
     "image": "/images/characters/crow.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "status": "rumored",
+    "nameTw": "克勞"
   },
   {
     "id": "renee",
@@ -5675,7 +5572,9 @@
     ],
     "image": "/images/characters/renee.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "status": "upcoming",
+    "nameTw": "蕾妮"
   },
   {
     "id": "goro",
@@ -5842,7 +5741,9 @@
     ],
     "image": "/images/characters/goro.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "status": "upcoming",
+    "nameTw": "吾郎"
   },
   {
     "id": "marina",
@@ -6009,7 +5910,9 @@
     ],
     "image": "/images/characters/marina.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "status": "rumored",
+    "nameTw": "瑪麗娜"
   },
   {
     "id": "kaito",
@@ -6176,7 +6079,9 @@
     ],
     "image": "/images/characters/kaito.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future"
+    "acquisitionMethod": "future",
+    "status": "upcoming",
+    "nameTw": "海斗"
   },
   {
     "id": "sylphy",
@@ -6343,7 +6248,9 @@
     ],
     "image": "/images/characters/sylphy.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha"
+    "acquisitionMethod": "gacha",
+    "status": "rumored",
+    "nameTw": "希爾菲"
   },
   {
     "id": "aurelia",
@@ -6386,11 +6293,13 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "image": "/images/characters/aurelia.webp",
-    "descriptionEn": "A newly added A-rank character for the official launch. Full details to be updated after launch."
+    "descriptionEn": "A newly added A-rank character for the official launch. Full details to be updated after launch.",
+    "status": "upcoming",
+    "nameTw": "奧蕾莉亞"
   },
   {
     "id": "xiaozhi",
-    "name": "小智",
+    "name": "小吱",
     "nameEn": "Xiaozhi",
     "attribute": "anima",
     "rank": "S",
@@ -6429,6 +6338,8 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "city-tycoon",
     "image": "/images/characters/xiaozhi.webp",
-    "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch."
+    "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch.",
+    "status": "upcoming",
+    "nameTw": "小吱"
   }
 ]

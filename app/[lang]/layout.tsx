@@ -8,7 +8,7 @@ import type { Locale } from "../../lib/i18n";
 
 const GA_ID = "G-KLVBV8S58R";
 
-const locales: Locale[] = ["zh", "en"];
+const locales: Locale[] = ["zh", "tw", "en"];
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ lang: locale }));

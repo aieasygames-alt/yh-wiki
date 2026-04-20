@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { t, type Locale } from "../../../lib/i18n";
+import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { getMaterialById } from "../../../lib/queries";
 import type { MapMarker, MapInfo, MarkerTypeInfo } from "../../../lib/map-utils";
 import mapData from "../../../data/map-markers.json";
@@ -88,7 +88,7 @@ export default function MapPage() {
                   : "bg-gray-800 text-gray-400 border border-gray-700 hover:border-gray-600"
               }`}
             >
-              {lang === "zh" ? m.name : m.nameEn}
+              {isZhLocale(lang) ? m.name : m.nameEn}
             </button>
           ))}
         </div>
@@ -121,7 +121,7 @@ export default function MapPage() {
                 className="w-2 h-2 rounded-full"
                 style={{ backgroundColor: active ? info.color : "#4b5563" }}
               />
-              {lang === "zh" ? info.label : info.labelEn}
+              {isZhLocale(lang) ? info.label : info.labelEn}
             </button>
           );
         })}
@@ -159,16 +159,16 @@ export default function MapPage() {
                     color: markerTypes[selectedMarker.type]?.color,
                   }}
                 >
-                  {lang === "zh"
+                  {isZhLocale(lang)
                     ? markerTypes[selectedMarker.type]?.label
                     : markerTypes[selectedMarker.type]?.labelEn}
                 </span>
               </div>
               <h3 className="font-bold mb-1">
-                {lang === "zh" ? selectedMarker.name : selectedMarker.nameEn}
+                {isZhLocale(lang) ? selectedMarker.name : selectedMarker.nameEn}
               </h3>
               <p className="text-sm text-gray-400 mb-3">
-                {lang === "zh" ? selectedMarker.description : selectedMarker.descriptionEn}
+                {isZhLocale(lang) ? selectedMarker.description : selectedMarker.descriptionEn}
               </p>
 
               {selectedMarker.relatedMaterials.length > 0 && (
@@ -185,7 +185,7 @@ export default function MapPage() {
                           href={`/${lang}/materials/${mId}`}
                           className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-300 hover:text-primary-400 hover:border-primary-500/50 border border-gray-700 transition-colors"
                         >
-                          {lang === "zh" ? material.name : material.nameEn}
+                          {isZhLocale(lang) ? material.name : material.nameEn}
                         </Link>
                       ) : null;
                     })}
@@ -233,10 +233,10 @@ export default function MapPage() {
                         />
                         <div className="min-w-0">
                           <p className="text-xs font-medium truncate">
-                            {lang === "zh" ? marker.name : marker.nameEn}
+                            {isZhLocale(lang) ? marker.name : marker.nameEn}
                           </p>
                           <p className="text-xs text-gray-600 truncate">
-                            {lang === "zh" ? typeInfo?.label : typeInfo?.labelEn}
+                            {isZhLocale(lang) ? typeInfo?.label : typeInfo?.labelEn}
                           </p>
                         </div>
                       </div>

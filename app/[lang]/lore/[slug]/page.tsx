@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getLoreItem, getAllLore, getCharacter, getLocation } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
@@ -10,6 +10,7 @@ export function generateStaticParams() {
   const loreItems = getAllLore();
   return loreItems.flatMap((l) => [
     { lang: "zh", slug: l.id },
+    { lang: "tw", slug: l.id },
     { lang: "en", slug: l.id },
   ]);
 }
@@ -22,14 +23,14 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const lore = getLoreItem(slug);
   if (!lore) return {};
-  const name = lang === "zh" ? lore.name : lore.nameEn;
-  const description = lang === "zh" ? lore.summary : lore.summaryEn;
+  const name = isZhLocale(lang) ? lore.name : lore.nameEn;
+  const description = isZhLocale(lang) ? lore.summary : lore.summaryEn;
   return {
-    title: `${name} - ${lang === "zh" ? "异环世界观" : "NTE Lore | Neverness to Everness"} | NTE Guide`,
+    title: `${name} - ${isZhLocale(lang) ? "异环世界观" : "NTE Lore | Neverness to Everness"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`lore/${slug}`, lang),
     openGraph: {
-      title: `${name} - ${lang === "zh" ? "异环世界观" : "NTE Lore | Neverness to Everness"} | NTE Guide`,
+      title: `${name} - ${isZhLocale(lang) ? "异环世界观" : "NTE Lore | Neverness to Everness"} | NTE Guide`,
       description,
       type: "article",
     },
@@ -42,13 +43,13 @@ export default async function LoreDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const lore = getLoreItem(slug);
   if (!lore) notFound();
 
-  const name = locale === "zh" ? lore.name : lore.nameEn;
-  const content = locale === "zh" ? lore.content : lore.contentEn;
-  const summary = locale === "zh" ? lore.summary : lore.summaryEn;
+  const name = isZhLocale(locale) ? lore.name : lore.nameEn;
+  const content = isZhLocale(locale) ? lore.content : lore.contentEn;
+  const summary = isZhLocale(locale) ? lore.summary : lore.summaryEn;
 
   const relatedChars = lore.relatedCharacters
     .map((id) => getCharacter(id))
@@ -76,7 +77,7 @@ export default async function LoreDetailPage({
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-2">
           <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
-            {locale === "zh" ? lore.categoryZh : lore.categoryEn}
+            {isZhLocale(locale) ? lore.categoryZh : lore.categoryEn}
           </span>
         </div>
         <h1 className="text-2xl font-bold mb-6">{name}</h1>

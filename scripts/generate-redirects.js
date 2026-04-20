@@ -18,6 +18,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const OUT = path.join(ROOT, "out");
 const PUBLIC_REDIRECTS = path.join(ROOT, "public", "_redirects");
+const MANUAL_REDIRECTS = path.join(ROOT, "public", "_redirects.manual");
 
 /**
  * Walk out/ and find all routes that have an index.html
@@ -53,12 +54,12 @@ function collectRoutes(outDir) {
 }
 
 /**
- * Read existing manual redirect rules from public/_redirects.
- * These are preserved and prepended to the generated rules.
+ * Read manual redirect rules from public/_redirects.manual.
+ * This file is maintained manually and prepended to generated rules.
  */
 function readManualRules() {
-  if (fs.existsSync(PUBLIC_REDIRECTS)) {
-    return fs.readFileSync(PUBLIC_REDIRECTS, "utf-8").trim();
+  if (fs.existsSync(MANUAL_REDIRECTS)) {
+    return fs.readFileSync(MANUAL_REDIRECTS, "utf-8").trim();
   }
   // Default manual rules
   return [
@@ -68,12 +69,6 @@ function readManualRules() {
     "# Language roots - ensure trailing slash",
     "/zh /zh/ 301",
     "/en /en/ 301",
-    "",
-    "# FAQ -> dedicated pages",
-    "/en/faq/system-requirements /en/system-requirements/ 301",
-    "/en/faq/system-requirements/ /en/system-requirements/ 301",
-    "/zh/faq/system-requirements /zh/system-requirements/ 301",
-    "/zh/faq/system-requirements/ /zh/system-requirements/ 301",
   ].join("\n");
 }
 

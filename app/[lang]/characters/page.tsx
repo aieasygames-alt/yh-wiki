@@ -1,4 +1,4 @@
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
@@ -10,7 +10,7 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title: t(locale, "characters.title"),
     description: t(locale, "characters.description"),
@@ -29,14 +29,14 @@ export default async function CharactersPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const characters = getAllCharacters();
 
   return (
     <>
       <ItemListJsonLd
         items={characters.map((c) => ({
-          name: locale === "zh" ? c.name : c.nameEn,
+          name: isZhLocale(locale) ? c.name : c.nameEn,
           url: `https://nteguide.com/${lang}/characters/${c.id}`,
         }))}
       />

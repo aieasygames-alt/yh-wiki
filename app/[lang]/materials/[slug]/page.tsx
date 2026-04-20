@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getMaterial, getCharactersUsingMaterial, getAllMaterials } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
@@ -11,6 +11,7 @@ export function generateStaticParams() {
   const materials = getAllMaterials();
   return materials.flatMap((m: { id: string }) => [
     { lang: "zh", slug: m.id },
+    { lang: "tw", slug: m.id },
     { lang: "en", slug: m.id },
   ]);
 }
@@ -25,21 +26,21 @@ export async function generateMetadata({
   if (!material) return {};
   return {
     title:
-      lang === "zh"
+      isZhLocale(lang)
         ? `${material.name} 获取方式 & 用途 | 异环 Wiki`
         : `${material.nameEn} (${material.name}) Source & Usage - NTE Guide`,
     description:
-      lang === "zh"
+      isZhLocale(lang)
         ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
         : `Find how to get ${material.nameEn} in Neverness to Everness. Drop locations, farming routes, and all characters that need this material.`,
     alternates: hreflangAlternates(`materials/${slug}`, lang),
     openGraph: {
       title:
-        lang === "zh"
+        isZhLocale(lang)
           ? `${material.name} 获取方式 & 用途 | 异环 Wiki`
           : `${material.nameEn} Source & Usage | NTE Guide`,
       description:
-        lang === "zh"
+        isZhLocale(lang)
           ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
           : `Find how to get ${material.nameEn} in Neverness to Everness.`,
       type: "article",
@@ -53,20 +54,20 @@ export default async function MaterialDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const material = getMaterial(slug);
   if (!material) notFound();
 
   const usedByCharacters = getCharactersUsingMaterial(slug);
 
   const typeLabels: Record<string, string> = {
-    resonance: lang === "zh" ? "共鸣材料" : "Resonance",
-    nucleus: lang === "zh" ? "核心材料" : "Nucleus",
-    permit: lang === "zh" ? "许可证明" : "Permit",
-    drop: lang === "zh" ? "掉落物" : "Drop",
-    currency: lang === "zh" ? "货币" : "Currency",
-    domain: lang === "zh" ? "领域材料" : "Domain",
-    manual: lang === "zh" ? "教材" : "Manual",
+    resonance: isZhLocale(lang) ? "共鸣材料" : "Resonance",
+    nucleus: isZhLocale(lang) ? "核心材料" : "Nucleus",
+    permit: isZhLocale(lang) ? "许可证明" : "Permit",
+    drop: isZhLocale(lang) ? "掉落物" : "Drop",
+    currency: isZhLocale(lang) ? "货币" : "Currency",
+    domain: isZhLocale(lang) ? "领域材料" : "Domain",
+    manual: isZhLocale(lang) ? "教材" : "Manual",
   };
 
   return (
@@ -141,7 +142,7 @@ export default async function MaterialDetailPage({
             href={`/${lang}/calculator/leveling`}
             className="inline-block px-8 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
           >
-            {lang === "zh" ? "计算养成成本" : "Calculate Farming Cost"}
+            {isZhLocale(lang) ? "计算养成成本" : "Calculate Farming Cost"}
           </Link>
         </div>
       </div>

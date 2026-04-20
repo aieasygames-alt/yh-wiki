@@ -1,12 +1,12 @@
 import { getAllChangelogs } from "../../../lib/queries";
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import Link from "next/link";
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
-  const title = lang === "zh" ? "版本更新日志 - 异环" : "Version Changelog - NTE";
-  const description = lang === "zh"
+  const title = isZhLocale(lang) ? "版本更新日志 - 异环" : "Version Changelog - NTE";
+  const description = isZhLocale(lang)
     ? "异环（Neverness to Everness）版本更新日志，包含新角色、新功能、系统优化等完整更新内容。"
     : "Neverness to Everness version changelog with new characters, features, system optimizations and more.";
   return {
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
 export default async function ChangelogListPage({ params }: { params: { lang: string } }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const changelogs = getAllChangelogs();
 
   const typeColors: Record<string, string> = {
@@ -46,10 +46,10 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
             const highlights = locale === "en" ? cl.highlightsEn : cl.highlights;
             const versionName = locale === "en" ? cl.versionNameEn : cl.versionName;
             const typeLabel = cl.type === "major"
-              ? (locale === "zh" ? "大版本" : "Major")
+              ? (isZhLocale(locale) ? "大版本" : "Major")
               : cl.type === "minor"
-              ? (locale === "zh" ? "小版本" : "Minor")
-              : (locale === "zh" ? "修复" : "Fix");
+              ? (isZhLocale(locale) ? "小版本" : "Minor")
+              : (isZhLocale(locale) ? "修复" : "Fix");
 
             return (
               <Link

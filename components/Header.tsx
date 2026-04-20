@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale } from "../lib/i18n";
+import { t, type Locale, isZhLocale } from "../lib/i18n";
 import { SearchDialog } from "./SearchDialog";
 import Logo from "./Logo";
 
@@ -26,14 +26,14 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
-  const otherLang = lang === "zh" ? "en" : "zh";
-  const langLabel = lang === "zh" ? "EN" : "中文";
+  const otherLang = lang === "zh" ? "tw" : "zh";
+  const langLabel = lang === "zh" ? "繁" : lang === "tw" ? "EN" : "中文";
 
   const navItems: NavItem[] = [
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
     { type: "dropdown", key: "guides-tools", label: t(lang, "site.nav.guidesAndTools"), items: [
       { href: `/${lang}/guides`, label: t(lang, "site.nav.allGuides") },
-      { href: `/${lang}/tier-list`, label: lang === "zh" ? "强度排行" : "Tier List" },
+      { href: `/${lang}/tier-list`, label: isZhLocale(lang) ? "强度排行" : "Tier List" },
       { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.levelingCalc") },
       { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
       { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
@@ -197,7 +197,7 @@ export function Header() {
                 onClick={() => setMenuOpen(false)}
                 className="text-sm text-gray-500 py-1.5"
               >
-                {lang === "zh" ? "English" : "中文"}
+                {lang === "zh" ? "English" : lang === "tw" ? "English" : "中文"}
               </Link>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { t, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllLore } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
@@ -9,7 +9,7 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   return {
     title: t(locale, "lore.title"),
     description: t(locale, "lore.description"),
@@ -28,14 +28,14 @@ export default async function LoreListPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const loreItems = getAllLore();
 
   const categories = Array.from(
     new Set(loreItems.map((l) => l.category))
   ).map((cat) => {
     const item = loreItems.find((l) => l.category === cat)!;
-    return { slug: cat, name: locale === "zh" ? item.categoryZh : item.categoryEn };
+    return { slug: cat, name: isZhLocale(locale) ? item.categoryZh : item.categoryEn };
   });
 
   const loreByCategory = categories.map((cat) => ({
@@ -47,7 +47,7 @@ export default async function LoreListPage({
     <>
       <ItemListJsonLd
         items={loreItems.map((l) => ({
-          name: locale === "zh" ? l.name : l.nameEn,
+          name: isZhLocale(locale) ? l.name : l.nameEn,
           url: `https://nteguide.com/${lang}/lore/${l.id}`,
         }))}
       />
@@ -71,10 +71,10 @@ export default async function LoreListPage({
                   className="block rounded-lg border border-gray-800 bg-gray-900/30 p-5 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
                 >
                   <h3 className="text-base font-medium">
-                    {locale === "zh" ? item.name : item.nameEn}
+                    {isZhLocale(locale) ? item.name : item.nameEn}
                   </h3>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                    {locale === "zh" ? item.summary : item.summaryEn}
+                    {isZhLocale(locale) ? item.summary : item.summaryEn}
                   </p>
                 </a>
               ))}

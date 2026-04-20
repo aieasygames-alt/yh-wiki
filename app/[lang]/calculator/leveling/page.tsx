@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { t, type Locale } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import {
   getAllCharacters,
   getCharacterMaterials,
@@ -110,7 +110,7 @@ export default function CalculatorPage() {
             </span>
             {selectedChar.weaponEn !== "TBD" && (
               <span className="text-xs text-gray-500">
-                {lang === "zh" ? selectedChar.weapon : selectedChar.weaponEn}
+                {isZhLocale(lang) ? selectedChar.weapon : selectedChar.weaponEn}
               </span>
             )}
           </div>
@@ -150,7 +150,7 @@ export default function CalculatorPage() {
                               href={`/${lang}/materials/${r.materialId}`}
                               className="text-sm hover:text-primary-400 transition-colors"
                             >
-                              {lang === "zh" ? material.name : material.nameEn}
+                              {isZhLocale(lang) ? material.name : material.nameEn}
                             </Link>
                           </td>
                           <td className="px-4 py-3 text-right font-mono text-primary-400">
@@ -197,7 +197,7 @@ export default function CalculatorPage() {
                               href={`/${lang}/materials/${m.id}`}
                               className="text-sm hover:text-primary-400 transition-colors"
                             >
-                              {lang === "zh" ? material.name : material.nameEn}
+                              {isZhLocale(lang) ? material.name : material.nameEn}
                             </Link>
                           </td>
                           <td className="px-4 py-3 text-right font-mono text-primary-400">

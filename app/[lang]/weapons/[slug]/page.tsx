@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getWeapon, getAllWeapons, getCharactersUsingWeapon } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
@@ -13,6 +13,7 @@ export function generateStaticParams() {
   const weapons = getAllWeapons();
   return weapons.flatMap((w: { id: string }) => [
     { lang: "zh", slug: w.id },
+    { lang: "tw", slug: w.id },
     { lang: "en", slug: w.id },
   ]);
 }
@@ -27,21 +28,21 @@ export async function generateMetadata({
   if (!weapon) return {};
   return {
     title:
-      lang === "zh"
+      isZhLocale(lang)
         ? `${weapon.name} 属性 & 适用角色 | 异环 Wiki`
         : `${weapon.nameEn} (${weapon.name}) Stats & Best Characters - NTE`,
     description:
-      lang === "zh"
+      isZhLocale(lang)
         ? `异环武器「${weapon.name}」详细属性、适用角色推荐及获取方式。`
         : `Discover ${weapon.nameEn} stats, best characters, and how to get it in Neverness to Everness. Complete weapon guide with comparisons.`,
     alternates: hreflangAlternates(`weapons/${slug}`, lang),
     openGraph: {
       title:
-        lang === "zh"
+        isZhLocale(lang)
           ? `${weapon.name} | 异环 Wiki`
           : `${weapon.nameEn} Stats & Best Characters | NTE`,
       description:
-        lang === "zh"
+        isZhLocale(lang)
           ? `异环武器「${weapon.name}」详细属性、适用角色推荐及获取方式。`
           : `${weapon.nameEn} stats and best characters in Neverness to Everness`,
       type: "article",
@@ -49,13 +50,13 @@ export async function generateMetadata({
   };
 }
 
-const TYPE_LABELS: Record<string, Record<"zh" | "en", string>> = {
-  melee: { zh: "近战", en: "Melee" },
-  ranged: { zh: "远程", en: "Ranged" },
-  magic: { zh: "异能", en: "Esper" },
-  companion: { zh: "伴生体", en: "Companion" },
-  summon: { zh: "召唤", en: "Summon" },
-  support: { zh: "辅助", en: "Support" },
+const TYPE_LABELS: Record<string, Record<Locale, string>> = {
+  melee: { zh: "近战", tw: "近战", en: "Melee" },
+  ranged: { zh: "远程", tw: "远程", en: "Ranged" },
+  magic: { zh: "异能", tw: "异能", en: "Esper" },
+  companion: { zh: "伴生体", tw: "伴生体", en: "Companion" },
+  summon: { zh: "召唤", tw: "召唤", en: "Summon" },
+  support: { zh: "辅助", tw: "辅助", en: "Support" },
 };
 
 export default async function WeaponDetailPage({
@@ -64,7 +65,7 @@ export default async function WeaponDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const weapon = getWeapon(slug);
   if (!weapon) notFound();
 
@@ -72,7 +73,7 @@ export default async function WeaponDetailPage({
 
   return (
     <>
-      <ProductJsonLd name={locale === "zh" ? weapon.name : weapon.nameEn} description={locale === "zh" ? weapon.description : weapon.descriptionEn} url={`https://nteguide.com/${lang}/weapons/${slug}`} image="https://nteguide.com/og-weapon.svg" />
+      <ProductJsonLd name={isZhLocale(locale) ? weapon.name : weapon.nameEn} description={isZhLocale(locale) ? weapon.description : weapon.descriptionEn} url={`https://nteguide.com/${lang}/weapons/${slug}`} image="https://nteguide.com/og-weapon.svg" />
       {weapon.faq && weapon.faq.length > 0 && (
         <FaqPageJsonLd faqs={weapon.faq} lang={locale} />
       )}
@@ -81,7 +82,7 @@ export default async function WeaponDetailPage({
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           { label: t(locale, "site.nav.weapons"), href: `/${lang}/weapons` },
-          { label: locale === "zh" ? weapon.name : weapon.nameEn },
+          { label: isZhLocale(locale) ? weapon.name : weapon.nameEn },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -95,8 +96,8 @@ export default async function WeaponDetailPage({
               className="w-24 h-24 rounded-lg shrink-0"
             />
             <div>
-              <h1 className="text-2xl font-bold">{locale === "zh" ? weapon.name : `${weapon.nameEn} Stats & Best Characters`}</h1>
-              <p className="text-gray-500">{locale === "zh" ? weapon.nameEn : weapon.name}</p>
+              <h1 className="text-2xl font-bold">{isZhLocale(locale) ? weapon.name : `${weapon.nameEn} Stats & Best Characters`}</h1>
+              <p className="text-gray-500">{isZhLocale(locale) ? weapon.nameEn : weapon.name}</p>
               <div className="mt-2">
                 <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
                   {TYPE_LABELS[weapon.type]?.[locale] || weapon.type}
@@ -105,7 +106,7 @@ export default async function WeaponDetailPage({
             </div>
           </div>
           <p className="mt-4 text-sm text-gray-400">
-            {locale === "zh" ? weapon.description : weapon.descriptionEn}
+            {isZhLocale(locale) ? weapon.description : weapon.descriptionEn}
           </p>
         </div>
 
@@ -129,13 +130,13 @@ export default async function WeaponDetailPage({
                   href={`/${lang}/characters/${c.id}`}
                   className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
                 >
-                  <h3 className="font-medium text-sm truncate">{locale === "zh" ? c.name : c.nameEn}</h3>
-                  <p className="text-xs text-gray-500 truncate">{locale === "zh" ? c.nameEn : c.name}</p>
+                  <h3 className="font-medium text-sm truncate">{isZhLocale(locale) ? c.name : c.nameEn}</h3>
+                  <p className="text-xs text-gray-500 truncate">{isZhLocale(locale) ? c.nameEn : c.name}</p>
                   <div className="flex items-center gap-2 mt-2">
                     <span className={`text-xs font-bold ${c.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
                       {c.rank}
                     </span>
-                    <span className="text-xs text-gray-500">{locale === "zh" ? c.role : c.roleEn}</span>
+                    <span className="text-xs text-gray-500">{isZhLocale(locale) ? c.role : c.roleEn}</span>
                   </div>
                 </Link>
               ))}

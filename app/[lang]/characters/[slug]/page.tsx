@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import {
   getCharacter,
   getCharacterMaterials,
@@ -19,10 +19,18 @@ import { BuildRecommendation } from "../../../../components/BuildRecommendation"
 import { TeamCompCard } from "../../../../components/TeamCompCard";
 import { TierBadge } from "../../../../components/TierBadge";
 
+/** Get character display name for a given locale */
+function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {
+  if (locale === "en") return c.nameEn;
+  if (locale === "tw") return c.nameTw || c.name;
+  return c.name;
+}
+
 export function generateStaticParams() {
   const characters = getAllCharacters();
   return characters.flatMap((c: { id: string }) => [
     { lang: "zh", slug: c.id },
+    { lang: "tw", slug: c.id },
     { lang: "en", slug: c.id },
   ]);
 }
@@ -35,14 +43,14 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const character = getCharacter(slug);
   if (!character) return {};
-  const name = lang === "zh" ? character.name : character.nameEn;
+  const name = charName(character, lang);
   const title =
-    lang === "zh"
-      ? `${character.name} - 异环角色攻略：配装/技能/配队 | NTE Guide`
+    isZhLocale(lang)
+      ? `${charName(character, lang)} - ${isZhLocale(lang) && lang === "tw" ? "異環角色攻略：配裝/技能/配隊" : "异环角色攻略：配装/技能/配队"} | NTE Guide`
       : `${character.nameEn} - NTE Character Guide: Build, Skills & Team | NTE Guide`;
   const description =
-    lang === "zh"
-      ? `异环(NTE) ${character.name} 完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。`
+    isZhLocale(lang)
+      ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${charName(character, lang)} ${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
       : `Complete ${character.nameEn} guide for Neverness to Everness. Best build, skills analysis, team compositions, and leveling materials.`;
   return {
     title,
@@ -62,7 +70,7 @@ export default async function CharacterDetailPage({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const locale = lang as "zh" | "en";
+  const locale = lang as Locale;
   const character = getCharacter(slug);
   if (!character) notFound();
 
@@ -78,12 +86,12 @@ export default async function CharacterDetailPage({
       {character.faq && character.faq.length > 0 && (
         <FaqPageJsonLd faqs={character.faq} lang={locale} />
       )}
-      <DataStatusBanner locale={locale} />
+      <DataStatusBanner locale={locale} status={character.status} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           { label: t(locale, "site.nav.characters"), href: `/${lang}/characters` },
-          { label: locale === "zh" ? character.name : character.nameEn },
+          { label: charName(character, locale) },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -92,8 +100,8 @@ export default async function CharacterDetailPage({
           <div className="flex gap-6">
             <GameImage type="character" id={character.id} name={character.name} className="w-24 h-24 rounded-lg shrink-0" />
             <div className="flex-1 min-w-0">
-              <h1 className="text-2xl font-bold">{locale === "zh" ? character.name : `${character.nameEn} Build Guide & Tier Ranking`}</h1>
-              <p className="text-gray-500">{character.nameEn}</p>
+              <h1 className="text-2xl font-bold">{locale === "en" ? `${character.nameEn} Build Guide & Tier Ranking` : charName(character, locale)}</h1>
+              <p className="text-gray-500">{locale === "en" ? character.name : character.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span
                   className={`px-3 py-1 rounded-full text-xs border ${getAttributeColor(character.attribute)}`}
@@ -110,24 +118,24 @@ export default async function CharacterDetailPage({
               </div>
               <div className="flex items-center gap-3 mt-2 text-xs text-gray-400">
                 {character.weaponEn !== "TBD" && (
-                  <span>{locale === "zh" ? character.weapon : character.weaponEn}</span>
+                  <span>{isZhLocale(locale) ? character.weapon : character.weaponEn}</span>
                 )}
                 {character.roleEn !== "TBD" && (
-                  <span>{locale === "zh" ? character.role : character.roleEn}</span>
+                  <span>{isZhLocale(locale) ? character.role : character.roleEn}</span>
                 )}
                 {character.faction && (
                   <span>{character.faction}</span>
                 )}
               </div>
               {character.description && (
-                <p className="mt-3 text-sm text-gray-400">{locale === "zh" ? character.description : character.descriptionEn || character.description}</p>
+                <p className="mt-3 text-sm text-gray-400">{isZhLocale(locale) ? character.description : character.descriptionEn || character.description}</p>
               )}
             </div>
           </div>
         </div>
 
         <CharacterSummary
-          name={character.name} nameEn={character.nameEn}
+          name={character.name} nameTw={character.nameTw} nameEn={character.nameEn}
           role={character.role} roleEn={character.roleEn}
           attribute={character.attribute} rank={character.rank}
           weapon={character.weapon} weaponEn={character.weaponEn}
@@ -152,8 +160,8 @@ export default async function CharacterDetailPage({
           <TeamCompCard teams={character.teamComps} locale={locale} />
         )}
 
-        {/* Leveling Materials */}
-        {cm && (
+        {/* Leveling Materials - only for available characters */}
+        {cm && character.status === "available" && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "characters.levelingMaterials")}</h2>
             <div className="space-y-4">
@@ -164,7 +172,7 @@ export default async function CharacterDetailPage({
                     className="rounded-lg border border-gray-800 bg-gray-900/30 p-4"
                   >
                     <h3 className="text-sm font-medium text-primary-400 mb-3">
-                      {lang === "zh" ? `等级 ${lr.levelRange}` : `Level ${lr.levelRange}`}
+                      {isZhLocale(lang) ? `等级 ${lr.levelRange}` : `Level ${lr.levelRange}`}
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {lr.materials.map((m) => {
@@ -177,7 +185,7 @@ export default async function CharacterDetailPage({
                             className="flex items-center justify-between px-3 py-2 rounded bg-gray-800/50 hover:bg-gray-800 transition-colors"
                           >
                             <span className="text-sm truncate">
-                              {lang === "zh" ? material.name : material.nameEn}
+                              {isZhLocale(lang) ? material.name : material.nameEn}
                             </span>
                             <span className="text-sm font-mono text-primary-400 ml-2">
                               x{m.quantity}
@@ -193,8 +201,8 @@ export default async function CharacterDetailPage({
           </section>
         )}
 
-        {/* Skill Materials */}
-        {cm && (
+        {/* Skill Materials - only for available characters */}
+        {cm && character.status === "available" && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "characters.skillMaterials")}</h2>
             <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
@@ -209,7 +217,7 @@ export default async function CharacterDetailPage({
                       className="flex items-center justify-between px-3 py-2 rounded bg-gray-800/50 hover:bg-gray-800 transition-colors"
                     >
                       <span className="text-sm truncate">
-                        {lang === "zh" ? material.name : material.nameEn}
+                        {isZhLocale(lang) ? material.name : material.nameEn}
                       </span>
                       <span className="text-sm font-mono text-primary-400 ml-2">
                         x{m.quantity}
@@ -227,7 +235,8 @@ export default async function CharacterDetailPage({
           <FaqSection faqs={character.faq} locale={locale} />
         )}
 
-        {/* Calculator CTA */}
+        {/* Calculator CTA - only for available characters */}
+        {character.status === "available" && (
         <div className="text-center py-8">
           <Link
             href={`/${lang}/calculator/leveling`}
@@ -236,6 +245,7 @@ export default async function CharacterDetailPage({
             {t(locale, "characters.calculatorCta")}
           </Link>
         </div>
+        )}
 
         {/* Related Characters */}
         {relatedChars.length > 0 && (
@@ -249,8 +259,8 @@ export default async function CharacterDetailPage({
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
                   <div className="min-w-0">
-                    <p className="text-sm font-medium truncate">{locale === "zh" ? c!.name : c!.nameEn}</p>
-                    <p className="text-xs text-gray-500">{locale === "zh" ? c!.nameEn : c!.name}</p>
+                    <p className="text-sm font-medium truncate">{charName(c!, locale)}</p>
+                    <p className="text-xs text-gray-500">{locale === "en" ? c!.name : c!.nameEn}</p>
                   </div>
                 </Link>
               ))}

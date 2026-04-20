@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { t } from "../lib/i18n";
+import { t, type Locale, isZhLocale } from "../lib/i18n";
 
 interface BlogCardProps {
   id: string;
@@ -8,11 +8,11 @@ interface BlogCardProps {
   category: string;
   date: string;
   tags: string[];
-  locale: "zh" | "en";
+  locale: Locale;
 }
 
-function getTagLabel(tag: string, locale: "zh" | "en"): string {
-  if (locale === "zh") {
+function getTagLabel(tag: string, locale: Locale): string {
+  if (isZhLocale(locale)) {
     const zhTag = t(locale, `blog.tags.${tag}`);
     return zhTag !== `blog.tags.${tag}` ? zhTag : tag;
   }

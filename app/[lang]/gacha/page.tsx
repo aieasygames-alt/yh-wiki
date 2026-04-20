@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useMemo, useRef } from "react";
 import { useParams } from "next/navigation";
-import { t, type Locale } from "../../../lib/i18n";
+import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { trackEvent } from "../../../lib/analytics";
 import { getAllCharacters } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
@@ -173,7 +173,7 @@ export default function GachaPage() {
 
   const handleReset = useCallback(() => {
     if (stats.total === 0) return;
-    if (!confirm(lang === "zh" ? "确定要清除所有抽卡记录吗？" : "Are you sure you want to clear all pull history?")) return;
+    if (!confirm(isZhLocale(lang) ? "确定要清除所有抽卡记录吗？" : "Are you sure you want to clear all pull history?")) return;
     setHistory([]);
     setResults([]);
     setStats({ total: 0, s5Count: 0, s4Count: 0, pityHistory: [] });
@@ -189,10 +189,10 @@ export default function GachaPage() {
   }, []);
 
   const banners = [
-    { key: "limited", name: lang === "zh" ? gachaData.limited.name : gachaData.limited.nameEn },
-    { key: "beginner", name: lang === "zh" ? gachaData.beginner.name : gachaData.beginner.nameEn },
-    { key: "standard", name: lang === "zh" ? gachaData.standard.name : gachaData.standard.nameEn },
-    { key: "weapons", name: lang === "zh" ? gachaData.weapons.name : gachaData.weapons.nameEn },
+    { key: "limited", name: isZhLocale(lang) ? gachaData.limited.name : gachaData.limited.nameEn },
+    { key: "beginner", name: isZhLocale(lang) ? gachaData.beginner.name : gachaData.beginner.nameEn },
+    { key: "standard", name: isZhLocale(lang) ? gachaData.standard.name : gachaData.standard.nameEn },
+    { key: "weapons", name: isZhLocale(lang) ? gachaData.weapons.name : gachaData.weapons.nameEn },
   ];
 
   return (
@@ -224,7 +224,7 @@ export default function GachaPage() {
       {/* Banner Info */}
       <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 mb-6">
         <p className="text-sm text-gray-400">
-          {lang === "zh" ? bannerConfig.description : bannerConfig.descriptionEn}
+          {isZhLocale(lang) ? bannerConfig.description : bannerConfig.descriptionEn}
         </p>
         {bannerConfig.featured.length > 0 && (
           <div className="flex items-center gap-2 mt-2">
@@ -240,7 +240,7 @@ export default function GachaPage() {
           </div>
         )}
         <p className="text-xs text-gray-600 mt-2">
-          {lang === "zh"
+          {isZhLocale(lang)
             ? `五星基础概率 ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | ${bannerConfig.softPityStart} 抽开始软保底` : ""} | ${bannerConfig.pity5} 抽硬保底`
             : `Base 5★ rate ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | Soft pity at ${bannerConfig.softPityStart}` : ""} | Hard pity at ${bannerConfig.pity5}`}
         </p>

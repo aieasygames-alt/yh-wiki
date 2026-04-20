@@ -1,3 +1,5 @@
+import type { Locale } from "../lib/i18n";
+
 export function WebSiteJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -21,12 +23,12 @@ export function WebSiteJsonLd() {
   );
 }
 
-export function CharacterJsonLd({ character, locale }: { character: { name: string; nameEn: string; attribute: string; rank: string; description?: string; descriptionEn?: string }; locale: "zh" | "en" }) {
-  const displayName = locale === "zh" ? character.name : character.nameEn;
-  const altName = locale === "zh" ? character.nameEn : character.name;
-  const description = locale === "zh"
-    ? (character.description || `${character.name} - Neverness to Everness 角色`)
-    : (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`);
+export function CharacterJsonLd({ character, locale }: { character: { name: string; nameEn: string; attribute: string; rank: string; description?: string; descriptionEn?: string }; locale: Locale }) {
+  const displayName = locale === "en" ? character.nameEn : character.name;
+  const altName = locale === "en" ? character.name : character.nameEn;
+  const description = locale === "en"
+    ? (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`)
+    : (character.description || `${character.name} - Neverness to Everness 角色`);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "VideoGameCharacter",
@@ -65,9 +67,9 @@ export function ItemListJsonLd({ items }: { items: { name: string; url: string }
   );
 }
 
-export function FaqJsonLd({ faq, lang }: { faq: { question: string; questionEn: string; answer: string; answerEn: string }; lang: "zh" | "en" }) {
-  const question = lang === "zh" ? faq.question : faq.questionEn;
-  const answer = lang === "zh" ? faq.answer : faq.answerEn;
+export function FaqJsonLd({ faq, lang }: { faq: { question: string; questionEn: string; answer: string; answerEn: string }; lang: Locale }) {
+  const question = lang === "en" ? faq.questionEn : faq.question;
+  const answer = lang === "en" ? faq.answerEn : faq.answer;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -134,16 +136,16 @@ export function ArticleJsonLd({ title, description, url, datePublished }: { titl
   );
 }
 
-export function FaqPageJsonLd({ faqs, lang }: { faqs: { question: string; questionZh: string; answer: string; answerZh: string }[]; lang: "zh" | "en" }) {
+export function FaqPageJsonLd({ faqs, lang }: { faqs: { question: string; questionZh: string; answer: string; answerZh: string }[]; lang: Locale }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
-      name: lang === "zh" ? faq.questionZh : faq.question,
+      name: lang === "en" ? faq.question : faq.questionZh,
       acceptedAnswer: {
         "@type": "Answer",
-        text: lang === "zh" ? faq.answerZh : faq.answer,
+        text: lang === "en" ? faq.answer : faq.answerZh,
       },
     })),
   };

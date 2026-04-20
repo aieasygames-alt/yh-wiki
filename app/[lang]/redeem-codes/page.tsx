@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect, useMemo } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { t, type Locale } from "../../../lib/i18n";
+import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { trackEvent } from "../../../lib/analytics";
 import { getAttributeColor } from "../../../lib/attributes";
 import redeemCodesData from "../../../data/redeem-codes.json";
@@ -25,19 +25,19 @@ const codes = redeemCodesData as RedeemCode[];
 
 const STATUS_CONFIG = {
   active: {
-    label: { zh: "有效", en: "Active" },
+    label: { zh: "有效", tw: "有效", en: "Active" },
     dot: "bg-green-400",
     border: "border-green-500/20",
     bg: "bg-green-500/5",
   },
   expired: {
-    label: { zh: "已过期", en: "Expired" },
+    label: { zh: "已过期", tw: "已過期", en: "Expired" },
     dot: "bg-gray-500",
     border: "border-gray-700",
     bg: "bg-gray-800/30 opacity-50",
   },
   unknown: {
-    label: { zh: "未知", en: "Unknown" },
+    label: { zh: "未知", tw: "未知", en: "Unknown" },
     dot: "bg-yellow-400",
     border: "border-yellow-500/20",
     bg: "bg-yellow-500/5",
@@ -45,8 +45,8 @@ const STATUS_CONFIG = {
 };
 
 const REGION_LABELS = {
-  cn: { zh: "国服", en: "CN Server" },
-  global: { zh: "国际服", en: "Global Server" },
+  cn: { zh: "国服", tw: "國服", en: "CN Server" },
+  global: { zh: "国际服", tw: "國際服", en: "Global Server" },
 };
 
 export default function RedeemCodesPage() {
@@ -151,7 +151,7 @@ export default function RedeemCodesPage() {
       <div className="space-y-3">
         {filteredCodes.map((code) => {
           const config = STATUS_CONFIG[code.status] || STATUS_CONFIG.unknown;
-          const reward = lang === "zh" ? code.reward : code.rewardEn;
+          const reward = isZhLocale(lang) ? code.reward : code.rewardEn;
           const isExpired = code.status === "expired";
 
           return (
@@ -190,7 +190,7 @@ export default function RedeemCodesPage() {
                       return (
                         <span className={`px-1.5 py-0.5 rounded ${isUrgent ? "bg-red-500/10 text-red-400 border border-red-500/20" : "bg-gray-800 text-gray-400"}`}>
                           {isUrgent ? "⚠ " : ""}
-                          {lang === "zh" ? `剩余 ${cd.days}天${cd.hours}小时` : `${cd.days}d ${cd.hours}h left`}
+                          {isZhLocale(lang) ? `剩余 ${cd.days}天${cd.hours}小时` : `${cd.days}d ${cd.hours}h left`}
                         </span>
                       );
                     })()}
@@ -292,13 +292,13 @@ export default function RedeemCodesPage() {
                   {c.image && (
                     <img
                       src={c.image}
-                      alt={lang === "zh" ? c.name : c.nameEn}
+                      alt={isZhLocale(lang) ? c.name : c.nameEn}
                       className="w-10 h-10 rounded-lg object-cover bg-gray-800 shrink-0"
                     />
                   )}
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-gray-200 truncate group-hover:text-primary-400 transition-colors">
-                      {lang === "zh" ? c.name : c.nameEn}
+                      {isZhLocale(lang) ? c.name : c.nameEn}
                     </p>
                     <div className="flex items-center gap-1.5 mt-0.5">
                       <span className={`text-xs px-1.5 py-0.5 rounded ${getAttributeColor(c.attribute)}`}>
@@ -344,15 +344,15 @@ export default function RedeemCodesPage() {
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <span className="text-xs px-1.5 py-0.5 rounded bg-primary-600/20 text-primary-400">
-                      {lang === "zh" ? post.category : (post.categoryEn || post.category)}
+                      {isZhLocale(lang) ? post.category : (post.categoryEn || post.category)}
                     </span>
                     <time className="text-xs text-gray-500">{post.date}</time>
                   </div>
                   <h3 className="text-sm font-semibold text-gray-200 group-hover:text-primary-400 transition-colors line-clamp-2">
-                    {lang === "zh" ? post.title : post.titleEn}
+                    {isZhLocale(lang) ? post.title : post.titleEn}
                   </h3>
                   <p className="text-xs text-gray-500 mt-1 line-clamp-2">
-                    {lang === "zh" ? post.summary : post.summaryEn}
+                    {isZhLocale(lang) ? post.summary : post.summaryEn}
                   </p>
                 </Link>
               ))}

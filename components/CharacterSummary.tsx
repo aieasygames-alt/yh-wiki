@@ -1,5 +1,9 @@
+import type { Locale } from "../lib/i18n";
+import { isZhLocale } from "../lib/i18n";
+
 interface CharacterSummaryProps {
   name: string;
+  nameTw?: string;
   nameEn: string;
   role: string;
   roleEn: string;
@@ -10,22 +14,23 @@ interface CharacterSummaryProps {
   faction?: string;
   description?: string;
   descriptionEn?: string;
-  locale: "zh" | "en";
+  locale: Locale;
 }
 
-export function CharacterSummary({ name, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, description, descriptionEn, locale }: CharacterSummaryProps) {
+export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, description, descriptionEn, locale }: CharacterSummaryProps) {
+  const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
   const rows = [
-    { key: locale === "zh" ? "名称" : "Name", val: locale === "zh" ? `${name} (${nameEn})` : `${nameEn} (${name})` },
-    { key: locale === "zh" ? "定位" : "Role", val: locale === "zh" ? role : roleEn },
-    { key: locale === "zh" ? "属性" : "Element", val: attribute },
-    { key: locale === "zh" ? "稀有度" : "Rarity", val: `${rank}-Rank` },
-    ...(weapon && weapon !== "TBD" ? [{ key: locale === "zh" ? "武器类型" : "Weapon Type", val: locale === "zh" ? weapon : weaponEn }] : []),
-    ...(faction ? [{ key: locale === "zh" ? "阵营" : "Faction", val: faction }] : []),
+    { key: locale === "en" ? "Name" : (locale === "tw" ? "名稱" : "名称"), val: locale === "en" ? `${nameEn} (${name})` : `${displayName} (${nameEn})` },
+    { key: locale === "en" ? "Role" : (locale === "tw" ? "定位" : "定位"), val: locale === "en" ? roleEn : role },
+    { key: locale === "en" ? "Element" : (locale === "tw" ? "屬性" : "属性"), val: attribute },
+    { key: locale === "en" ? "Rarity" : (locale === "tw" ? "稀有度" : "稀有度"), val: `${rank}-Rank` },
+    ...(weapon && weapon !== "TBD" ? [{ key: locale === "en" ? "Weapon Type" : (locale === "tw" ? "武器類型" : "武器类型"), val: locale === "en" ? weaponEn : weapon }] : []),
+    ...(faction ? [{ key: locale === "en" ? "Faction" : (locale === "tw" ? "陣營" : "阵营"), val: faction }] : []),
   ];
 
   return (
-    <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8" aria-label={locale === "zh" ? "角色摘要" : "Character Summary"}>
-      <h2 className="text-lg font-bold mb-3">{locale === "zh" ? "角色概览" : "Quick Stats"}</h2>
+    <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8" aria-label={locale === "en" ? "Character Summary" : (locale === "tw" ? "角色摘要" : "角色摘要")}>
+      <h2 className="text-lg font-bold mb-3">{locale === "en" ? "Quick Stats" : (locale === "tw" ? "角色概覽" : "角色概览")}</h2>
       <table className="w-full text-sm">
         <tbody>
           {rows.map((row) => (
