@@ -68,6 +68,12 @@ function readManualRules() {
     "# Language roots - ensure trailing slash",
     "/zh /zh/ 301",
     "/en /en/ 301",
+    "",
+    "# FAQ -> dedicated pages",
+    "/en/faq/system-requirements /en/system-requirements/ 301",
+    "/en/faq/system-requirements/ /en/system-requirements/ 301",
+    "/zh/faq/system-requirements /zh/system-requirements/ 301",
+    "/zh/faq/system-requirements/ /zh/system-requirements/ 301",
   ].join("\n");
 }
 

@@ -49,7 +49,7 @@ const commonTags = [
   "dps", "support", "beginner", "combat", "exploration", "advanced",
 ];
 
-const toolPages = ["calculator/leveling", "calculator/build", "gacha", "redeem-codes", "map"];
+const toolPages = ["calculator/leveling", "calculator/build", "gacha", "redeem-codes", "map", "system-requirements"];
 const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog"];
 
 function escapeXml(str) {

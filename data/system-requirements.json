@@ -1,0 +1,94 @@
+{
+  "pc": {
+    "minimum": {
+      "os": { "zh": "Windows 10 64-bit", "en": "Windows 10 64-bit" },
+      "cpu": { "zh": "Intel Core i5-8400 / AMD Ryzen 5 1600", "en": "Intel Core i5-8400 / AMD Ryzen 5 1600" },
+      "ram": { "zh": "8 GB", "en": "8 GB" },
+      "gpu": { "zh": "NVIDIA GTX 1060 6GB / AMD RX 580", "en": "NVIDIA GTX 1060 6GB / AMD RX 580" },
+      "storage": { "zh": "40 GB SSD（推荐）", "en": "40 GB SSD (recommended)" }
+    },
+    "recommended": {
+      "os": { "zh": "Windows 10/11 64-bit", "en": "Windows 10/11 64-bit" },
+      "cpu": { "zh": "Intel Core i7-9700 / AMD Ryzen 7 3700X", "en": "Intel Core i7-9700 / AMD Ryzen 7 3700X" },
+      "ram": { "zh": "16 GB", "en": "16 GB" },
+      "gpu": { "zh": "NVIDIA RTX 2060 / AMD RX 5700 XT", "en": "NVIDIA RTX 2060 / AMD RX 5700 XT" },
+      "storage": { "zh": "60 GB SSD", "en": "60 GB SSD" }
+    }
+  },
+  "android": {
+    "minimum": {
+      "soC": { "zh": "骁龙 845 / 天玑 1100 同等性能", "en": "Snapdragon 845 / Dimensity 1100 equivalent" },
+      "ram": { "zh": "6 GB", "en": "6 GB" },
+      "os": { "zh": "Android 10+", "en": "Android 10+" },
+      "storage": { "zh": "10 GB", "en": "10 GB" }
+    },
+    "recommended": {
+      "soC": { "zh": "骁龙 8 Gen 1 / 天玑 9000 及以上", "en": "Snapdragon 8 Gen 1 / Dimensity 9000 or better" },
+      "ram": { "zh": "8 GB+", "en": "8 GB+" },
+      "os": { "zh": "Android 12+", "en": "Android 12+" },
+      "storage": { "zh": "15 GB+", "en": "15 GB+" }
+    }
+  },
+  "ios": {
+    "minimum": {
+      "device": { "zh": "iPhone XS / iPad mini 5 或更新", "en": "iPhone XS / iPad mini 5 or newer" },
+      "os": { "zh": "iOS 14+", "en": "iOS 14+" },
+      "storage": { "zh": "10 GB", "en": "10 GB" }
+    },
+    "recommended": {
+      "device": { "zh": "iPhone 13 / iPad Air 5 (M1) 或更新", "en": "iPhone 13 / iPad Air 5 (M1) or newer" },
+      "os": { "zh": "iOS 16+", "en": "iOS 16+" },
+      "storage": { "zh": "15 GB+", "en": "15 GB+" }
+    }
+  },
+  "faq": [
+    {
+      "question": "Can my PC run NTE?",
+      "questionZh": "我的电脑能运行异环吗？",
+      "answer": "NTE requires at least an Intel i5-8400, 8GB RAM, and GTX 1060 for minimum settings. For a smooth experience at 60fps, we recommend i7-9700, 16GB RAM, and RTX 2060 or better. Make sure you have at least 40GB of free SSD space.",
+      "answerZh": "异环最低需要 Intel i5-8400 处理器、8GB 内存和 GTX 1060 显卡。为了流畅运行 60fps，推荐 i7-9700 处理器、16GB 内存和 RTX 2060 或更好的显卡。确保至少有 40GB 的 SSD 可用空间。"
+    },
+    {
+      "question": "How many GB is NTE?",
+      "questionZh": "异环游戏多大？需要多少存储空间？",
+      "answer": "NTE requires approximately 40GB on PC and 10-15GB on mobile (Android/iOS). An SSD is strongly recommended for faster loading times. Keep extra space available for future updates.",
+      "answerZh": "异环 PC 版约需 40GB，移动端（Android/iOS）约需 10-15GB。强烈推荐使用 SSD 以获得更快的加载速度。建议预留额外空间用于后续版本更新。"
+    },
+    {
+      "question": "Can I play NTE on Android?",
+      "questionZh": "异环支持安卓手机吗？",
+      "answer": "Yes, NTE is available on Android. Minimum requirements are Snapdragon 845 / Dimensity 1100 equivalent, 6GB RAM, Android 10+, and 10GB storage. For the best mobile experience, Snapdragon 8 Gen 1 or better with 8GB+ RAM is recommended.",
+      "answerZh": "是的，异环支持安卓平台。最低配置要求为骁龙 845 / 天玑 1100 同等性能处理器、6GB 内存、Android 10+ 系统和 10GB 存储空间。推荐骁龙 8 Gen 1 及以上处理器搭配 8GB 以上内存以获得最佳体验。"
+    },
+    {
+      "question": "Is NTE available on iOS?",
+      "questionZh": "异环支持 iOS 吗？",
+      "answer": "Yes, NTE supports iOS. Minimum requirement is iPhone XS or iPad mini 5 running iOS 14+. For recommended performance, iPhone 13 or iPad with M1 chip running iOS 16+ is suggested.",
+      "answerZh": "是的，异环支持 iOS。最低要求 iPhone XS 或 iPad mini 5，系统 iOS 14+。推荐使用 iPhone 13 或搭载 M1 芯片的 iPad，系统 iOS 16+。"
+    },
+    {
+      "question": "Does NTE support 4K resolution?",
+      "questionZh": "异环支持 4K 分辨率吗？",
+      "answer": "NTE supports various resolutions including 1080p, 1440p, and 4K on PC. For stable 4K gaming, you'll need a high-end GPU like RTX 3070 or better. Console and mobile versions run at their platform's native resolutions.",
+      "answerZh": "异环 PC 版支持多种分辨率，包括 1080p、1440p 和 4K。要稳定运行 4K 画质，需要 RTX 3070 或更好的高端显卡。主机和移动端以各自平台的原生分辨率运行。"
+    },
+    {
+      "question": "Is NTE free to play?",
+      "questionZh": "异环是免费游戏吗？",
+      "answer": "Yes, NTE is a free-to-play game with optional in-app purchases. The game features a gacha system for obtaining characters and weapons. All content is accessible without spending money, though some premium items can speed up progression.",
+      "answerZh": "是的，异环是一款免费游戏，提供可选的应用内购买。游戏采用抽卡系统获取角色和武器。所有内容都可以免费游玩，不过部分付费道具可以加速进度。"
+    },
+    {
+      "question": "What platforms is NTE available on?",
+      "questionZh": "异环支持哪些平台？",
+      "answer": "NTE is available on PC (Windows), Android, and iOS at launch. The PC version can be downloaded from the official website or via game launchers. Mobile versions are available on Google Play and the App Store.",
+      "answerZh": "异环首发支持 PC（Windows）、Android 和 iOS 平台。PC 版可从官网或游戏启动器下载，移动版可在 Google Play 和 App Store 下载。"
+    },
+    {
+      "question": "Will NTE be on Epic Games or Steam?",
+      "questionZh": "异环会在 Epic Games 或 Steam 上架吗？",
+      "answer": "NTE is currently distributed through its official launcher. Availability on Steam or Epic Games Store has not been confirmed. Check official announcements for the latest platform information.",
+      "answerZh": "异环目前通过官方启动器分发。是否在 Steam 或 Epic Games Store 上架尚未确认。请关注官方公告获取最新平台信息。"
+    }
+  ]
+}
