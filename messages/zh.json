@@ -156,7 +156,25 @@
     "howToTitle": "如何兑换",
     "step1": "复制上方兑换码",
     "step2": "打开游戏内的「设置 → 兑换码」页面",
-    "step3": "粘贴兑换码并确认，奖励将通过邮件发放"
+    "step3": "粘贴兑换码并确认，奖励将通过邮件发放",
+    "nextSteps": {
+      "title": "拿到兑换码了？接下来看这些",
+      "tierList": "强度排行",
+      "tierListDesc": "看看哪些角色值得抽",
+      "reroll": "重抽指南",
+      "rerollDesc": "抽卡不理想？教你高效重开",
+      "beginner": "新手指南",
+      "beginnerDesc": "第一周必看的完整攻略",
+      "teamBuilding": "配队攻略",
+      "teamBuildingDesc": "用现有角色组建最强队伍"
+    },
+    "topCharacters": {
+      "title": "当前最强角色",
+      "viewAll": "查看完整强度排行 →"
+    },
+    "latestPosts": {
+      "title": "异环最新资讯"
+    }
   },
   "map": {
     "title": "异环地图标点",

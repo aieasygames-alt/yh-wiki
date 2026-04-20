@@ -156,7 +156,25 @@
     "howToTitle": "How to Redeem",
     "step1": "Copy the code from above",
     "step2": "Open in-game Settings → Redeem Code",
-    "step3": "Paste the code and confirm. Rewards will be sent via mail"
+    "step3": "Paste the code and confirm. Rewards will be sent via mail",
+    "nextSteps": {
+      "title": "Got Your Codes? Next Steps",
+      "tierList": "Tier List",
+      "tierListDesc": "See which characters are worth your pulls",
+      "reroll": "Reroll Guide",
+      "rerollDesc": "Not happy with your pulls? Start over smart",
+      "beginner": "Beginner Guide",
+      "beginnerDesc": "Everything you need for your first week",
+      "teamBuilding": "Team Building",
+      "teamBuildingDesc": "Build the best team with what you have"
+    },
+    "topCharacters": {
+      "title": "Top Characters Right Now",
+      "viewAll": "View Full Tier List →"
+    },
+    "latestPosts": {
+      "title": "New to NTE?"
+    }
   },
   "map": {
     "title": "NTE Interactive Map",
