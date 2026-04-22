@@ -1,0 +1,50 @@
+[
+  {
+    "code": "YHNOWTOENJOY",
+    "reward": "Livestream Exclusive Rewards",
+    "rewardCn": "前瞻直播专属奖励",
+    "expired": false,
+    "expiresAt": "2026-05-23",
+    "region": "cn"
+  },
+  {
+    "code": "YHNANALLYGO",
+    "reward": "Livestream Exclusive Rewards",
+    "rewardCn": "前瞻直播专属奖励",
+    "expired": false,
+    "expiresAt": "2026-05-23",
+    "region": "cn"
+  },
+  {
+    "code": "YHOB0423",
+    "reward": "Livestream Exclusive Rewards",
+    "rewardCn": "前瞻直播专属奖励",
+    "expired": false,
+    "expiresAt": "2026-05-23",
+    "region": "cn"
+  },
+  {
+    "code": "NTENOWTOENJOY",
+    "reward": "Livestream Exclusive Rewards",
+    "rewardCn": "前瞻直播专属奖励",
+    "expired": false,
+    "expiresAt": "2026-05-29",
+    "region": "global"
+  },
+  {
+    "code": "NTENANALLYGO",
+    "reward": "Livestream Exclusive Rewards",
+    "rewardCn": "前瞻直播专属奖励",
+    "expired": false,
+    "expiresAt": "2026-05-29",
+    "region": "global"
+  },
+  {
+    "code": "NTE0429",
+    "reward": "Livestream Exclusive Rewards",
+    "rewardCn": "前瞻直播专属奖励",
+    "expired": false,
+    "expiresAt": "2026-05-29",
+    "region": "global"
+  }
+]
