@@ -10,6 +10,8 @@ import blogData from "../data/blog.json";
 import comparesData from "../data/compares.json";
 import changelogsData from "../data/changelog.json";
 import vehiclesData from "../data/vehicles.json";
+import diskSetsData from "../data/disk-sets.json";
+import anomaliesData from "../data/anomalies.json";
 import { isZhLocale, Locale } from "./i18n";
 
 export interface FaqItem {
@@ -70,6 +72,9 @@ export interface Character {
   faction?: string;
   description?: string;
   descriptionEn?: string;
+  cvZh?: string;
+  cvJp?: string;
+  cvJpEn?: string;
   faq?: FaqItem[];
   relatedCharacters?: string[];
   tierRank?: string;
@@ -464,4 +469,63 @@ export function getAllChangelogs(): Changelog[] {
 
 export function getChangelogByVersion(version: string): Changelog | undefined {
   return changelogsData.find((cl) => cl.version === version);
+}
+
+// Disk Sets
+export interface DiskSet {
+  id: string;
+  name: string;
+  nameEn: string;
+  pieces: number;
+  setDescription2pc: string;
+  setDescription2pcEn: string;
+  setDescription4pc: string;
+  setDescription4pcEn: string;
+  bestFor: string[];
+  characters: string[];
+}
+
+export function getAllDiskSets(): DiskSet[] {
+  return diskSetsData as DiskSet[];
+}
+
+export function getDiskSet(slug: string): DiskSet | undefined {
+  return getAllDiskSets().find((d) => d.id === slug);
+}
+
+// Anomalies
+export interface Anomaly {
+  id: string;
+  name: string;
+  nameEn: string;
+  type: string;
+  typeZh: string;
+  category?: string;
+  categoryZh?: string;
+  attribute?: string;
+  attributeEn?: string;
+  hp?: string;
+  weakness?: string;
+  weaknessEn?: string;
+  mechanics?: string;
+  mechanicsEn?: string;
+  location?: string;
+  locationEn?: string;
+  appearance?: string;
+  drops?: string[];
+  dropsEn?: string[];
+  strategy?: string;
+  strategyEn?: string;
+}
+
+export function getAllAnomalies(): Anomaly[] {
+  return anomaliesData as Anomaly[];
+}
+
+export function getAnomaly(slug: string): Anomaly | undefined {
+  return getAllAnomalies().find((a) => a.id === slug);
+}
+
+export function getAnomaliesByType(type: string): Anomaly[] {
+  return getAllAnomalies().filter((a) => a.type === type);
 }

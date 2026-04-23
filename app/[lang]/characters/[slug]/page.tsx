@@ -142,6 +142,7 @@ export default async function CharacterDetailPage({
           faction={character.faction}
           description={character.description}
           descriptionEn={character.descriptionEn}
+          cvZh={character.cvZh} cvJp={character.cvJp} cvJpEn={character.cvJpEn}
           locale={locale}
         />
 

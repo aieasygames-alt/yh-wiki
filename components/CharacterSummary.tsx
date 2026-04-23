@@ -14,10 +14,13 @@ interface CharacterSummaryProps {
   faction?: string;
   description?: string;
   descriptionEn?: string;
+  cvZh?: string;
+  cvJp?: string;
+  cvJpEn?: string;
   locale: Locale;
 }
 
-export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, description, descriptionEn, locale }: CharacterSummaryProps) {
+export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, description, descriptionEn, cvZh, cvJp, cvJpEn, locale }: CharacterSummaryProps) {
   const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
   const rows = [
     { key: locale === "en" ? "Name" : (locale === "tw" ? "名稱" : "名称"), val: locale === "en" ? `${nameEn} (${name})` : `${displayName} (${nameEn})` },
@@ -26,6 +29,8 @@ export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute
     { key: locale === "en" ? "Rarity" : (locale === "tw" ? "稀有度" : "稀有度"), val: `${rank}-Rank` },
     ...(weapon && weapon !== "TBD" ? [{ key: locale === "en" ? "Weapon Type" : (locale === "tw" ? "武器類型" : "武器类型"), val: locale === "en" ? weaponEn : weapon }] : []),
     ...(faction ? [{ key: locale === "en" ? "Faction" : (locale === "tw" ? "陣營" : "阵营"), val: faction }] : []),
+    ...(cvZh ? [{ key: locale === "en" ? "VA (CN)" : (locale === "tw" ? "中文配音" : "中文配音"), val: cvZh }] : []),
+    ...(cvJp ? [{ key: locale === "en" ? "VA (JP)" : (locale === "tw" ? "日文配音" : "日文配音"), val: locale === "en" ? `${cvJpEn || cvJp}` : cvJp }] : []),
   ];
 
   return (
