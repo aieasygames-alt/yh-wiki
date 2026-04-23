@@ -4256,6 +4256,198 @@
     ]
   },
   {
+    "id": "mobile-controller-support",
+    "name": "异环手机版支持手柄吗？",
+    "nameEn": "Does NTE mobile support controllers?",
+    "type": "faq",
+    "url": "/zh/faq/mobile-controller-support",
+    "tags": [
+      "mobile",
+      "controller",
+      "beginner"
+    ]
+  },
+  {
+    "id": "mobile-controller-support",
+    "name": "Does NTE mobile support controllers?",
+    "nameEn": "Does NTE mobile support controllers?",
+    "type": "faq",
+    "url": "/en/faq/mobile-controller-support",
+    "tags": [
+      "mobile",
+      "controller",
+      "beginner"
+    ]
+  },
+  {
+    "id": "mobile-graphics-settings",
+    "name": "异环手机版画质怎么调？发烫发热怎么办？",
+    "nameEn": "How to optimize NTE mobile graphics? Overheating fix",
+    "type": "faq",
+    "url": "/zh/faq/mobile-graphics-settings",
+    "tags": [
+      "mobile",
+      "graphics",
+      "performance"
+    ]
+  },
+  {
+    "id": "mobile-graphics-settings",
+    "name": "How to optimize NTE mobile graphics? Overheating fix",
+    "nameEn": "How to optimize NTE mobile graphics? Overheating fix",
+    "type": "faq",
+    "url": "/en/faq/mobile-graphics-settings",
+    "tags": [
+      "mobile",
+      "graphics",
+      "performance"
+    ]
+  },
+  {
+    "id": "android-minimum-specs",
+    "name": "异环安卓最低配置是什么？哪些手机能玩？",
+    "nameEn": "What are NTE Android minimum specs? Which phones are supported?",
+    "type": "faq",
+    "url": "/zh/faq/android-minimum-specs",
+    "tags": [
+      "mobile",
+      "android",
+      "specs"
+    ]
+  },
+  {
+    "id": "android-minimum-specs",
+    "name": "What are NTE Android minimum specs? Which phones are supported?",
+    "nameEn": "What are NTE Android minimum specs? Which phones are supported?",
+    "type": "faq",
+    "url": "/en/faq/android-minimum-specs",
+    "tags": [
+      "mobile",
+      "android",
+      "specs"
+    ]
+  },
+  {
+    "id": "ios-minimum-specs",
+    "name": "异环iOS最低支持哪些设备？",
+    "nameEn": "What iOS devices does NTE support?",
+    "type": "faq",
+    "url": "/zh/faq/ios-minimum-specs",
+    "tags": [
+      "mobile",
+      "ios",
+      "specs"
+    ]
+  },
+  {
+    "id": "ios-minimum-specs",
+    "name": "What iOS devices does NTE support?",
+    "nameEn": "What iOS devices does NTE support?",
+    "type": "faq",
+    "url": "/en/faq/ios-minimum-specs",
+    "tags": [
+      "mobile",
+      "ios",
+      "specs"
+    ]
+  },
+  {
+    "id": "mobile-storage-management",
+    "name": "异环手机版占用空间太大怎么办？",
+    "nameEn": "NTE mobile takes too much storage, what to do?",
+    "type": "faq",
+    "url": "/zh/faq/mobile-storage-management",
+    "tags": [
+      "mobile",
+      "storage",
+      "beginner"
+    ]
+  },
+  {
+    "id": "mobile-storage-management",
+    "name": "NTE mobile takes too much storage, what to do?",
+    "nameEn": "NTE mobile takes too much storage, what to do?",
+    "type": "faq",
+    "url": "/en/faq/mobile-storage-management",
+    "tags": [
+      "mobile",
+      "storage",
+      "beginner"
+    ]
+  },
+  {
+    "id": "cross-platform-how-to",
+    "name": "异环怎么跨平台同步数据？PC和手机怎么互通？",
+    "nameEn": "How to sync NTE data across platforms? PC-mobile cross-save",
+    "type": "faq",
+    "url": "/zh/faq/cross-platform-how-to",
+    "tags": [
+      "mobile",
+      "cross-platform",
+      "beginner"
+    ]
+  },
+  {
+    "id": "cross-platform-how-to",
+    "name": "How to sync NTE data across platforms? PC-mobile cross-save",
+    "nameEn": "How to sync NTE data across platforms? PC-mobile cross-save",
+    "type": "faq",
+    "url": "/en/faq/cross-platform-how-to",
+    "tags": [
+      "mobile",
+      "cross-platform",
+      "beginner"
+    ]
+  },
+  {
+    "id": "harmonyos-details",
+    "name": "异环鸿蒙版怎么下载？支持哪些设备？",
+    "nameEn": "How to download NTE on HarmonyOS? Supported devices?",
+    "type": "faq",
+    "url": "/zh/faq/harmonyos-details",
+    "tags": [
+      "mobile",
+      "harmonyos",
+      "download"
+    ]
+  },
+  {
+    "id": "harmonyos-details",
+    "name": "How to download NTE on HarmonyOS? Supported devices?",
+    "nameEn": "How to download NTE on HarmonyOS? Supported devices?",
+    "type": "faq",
+    "url": "/en/faq/harmonyos-details",
+    "tags": [
+      "mobile",
+      "harmonyos",
+      "download"
+    ]
+  },
+  {
+    "id": "mobile-battery-drain",
+    "name": "异环手机玩一会儿就没电怎么办？",
+    "nameEn": "NTE drains my phone battery fast, how to fix?",
+    "type": "faq",
+    "url": "/zh/faq/mobile-battery-drain",
+    "tags": [
+      "mobile",
+      "battery",
+      "performance"
+    ]
+  },
+  {
+    "id": "mobile-battery-drain",
+    "name": "NTE drains my phone battery fast, how to fix?",
+    "nameEn": "NTE drains my phone battery fast, how to fix?",
+    "type": "faq",
+    "url": "/en/faq/mobile-battery-drain",
+    "tags": [
+      "mobile",
+      "battery",
+      "performance"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "NTE Download & Install Guide — All Platforms",

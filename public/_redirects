@@ -91,6 +91,7 @@
 /en/faq/6-choose-1-guide /en/faq/6-choose-1-guide/ 301
 /en/faq/a-rank-best /en/faq/a-rank-best/ 301
 /en/faq/adler-worth-building /en/faq/adler-worth-building/ 301
+/en/faq/android-minimum-specs /en/faq/android-minimum-specs/ 301
 /en/faq/anomaly-commission /en/faq/anomaly-commission/ 301
 /en/faq/attribute-weakness /en/faq/attribute-weakness/ 301
 /en/faq/aurelia-launch-character /en/faq/aurelia-launch-character/ 301
@@ -108,6 +109,7 @@
 /en/faq/cn-vs-global /en/faq/cn-vs-global/ 301
 /en/faq/collapse-mechanic /en/faq/collapse-mechanic/ 301
 /en/faq/combat-tips /en/faq/combat-tips/ 301
+/en/faq/cross-platform-how-to /en/faq/cross-platform-how-to/ 301
 /en/faq/cross-platform-save /en/faq/cross-platform-save/ 301
 /en/faq/crow-jade /en/faq/crow-jade/ 301
 /en/faq/disk-system /en/faq/disk-system/ 301
@@ -120,6 +122,7 @@
 /en/faq/gacha-currency-name /en/faq/gacha-currency-name/ 301
 /en/faq/gacha-priority /en/faq/gacha-priority/ 301
 /en/faq/global-server-launch /en/faq/global-server-launch/ 301
+/en/faq/harmonyos-details /en/faq/harmonyos-details/ 301
 /en/faq/harmonyos-support /en/faq/harmonyos-support/ 301
 /en/faq/hethereau-exploration /en/faq/hethereau-exploration/ 301
 /en/faq/hidden-areas /en/faq/hidden-areas/ 301
@@ -127,6 +130,7 @@
 /en/faq/how-to-get-credits /en/faq/how-to-get-credits/ 301
 /en/faq/how-to-get-exp-fast /en/faq/how-to-get-exp-fast/ 301
 /en/faq/how-to-level-up-fast /en/faq/how-to-level-up-fast/ 301
+/en/faq/ios-minimum-specs /en/faq/ios-minimum-specs/ 301
 /en/faq/is-nte-free /en/faq/is-nte-free/ 301
 /en/faq/launch-characters-full-list /en/faq/launch-characters-full-list/ 301
 /en/faq/launch-date-2026 /en/faq/launch-date-2026/ 301
@@ -135,6 +139,10 @@
 /en/faq/mac-support /en/faq/mac-support/ 301
 /en/faq/material-domains-location /en/faq/material-domains-location/ 301
 /en/faq/mint-character /en/faq/mint-character/ 301
+/en/faq/mobile-battery-drain /en/faq/mobile-battery-drain/ 301
+/en/faq/mobile-controller-support /en/faq/mobile-controller-support/ 301
+/en/faq/mobile-graphics-settings /en/faq/mobile-graphics-settings/ 301
+/en/faq/mobile-storage-management /en/faq/mobile-storage-management/ 301
 /en/faq/multiplayer-coop /en/faq/multiplayer-coop/ 301
 /en/faq/nanally-worth-building /en/faq/nanally-worth-building/ 301
 /en/faq/no-50-50-confirmed /en/faq/no-50-50-confirmed/ 301
@@ -266,11 +274,13 @@
 /en/system-requirements /en/system-requirements/ 301
 /en/tags/a /en/tags/a/ 301
 /en/tags/abyss /en/tags/abyss/ 301
+/en/tags/android /en/tags/android/ 301
 /en/tags/anima /en/tags/anima/ 301
 /en/tags/anomaly /en/tags/anomaly/ 301
 /en/tags/attributes /en/tags/attributes/ 301
 /en/tags/awakening /en/tags/awakening/ 301
 /en/tags/basics /en/tags/basics/ 301
+/en/tags/battery /en/tags/battery/ 301
 /en/tags/beginner /en/tags/beginner/ 301
 /en/tags/beings /en/tags/beings/ 301
 /en/tags/boss /en/tags/boss/ 301
@@ -286,7 +296,9 @@
 /en/tags/companion /en/tags/companion/ 301
 /en/tags/competitive /en/tags/competitive/ 301
 /en/tags/composition /en/tags/composition/ 301
+/en/tags/controller /en/tags/controller/ 301
 /en/tags/cosmos /en/tags/cosmos/ 301
+/en/tags/cross-platform /en/tags/cross-platform/ 301
 /en/tags/currency /en/tags/currency/ 301
 /en/tags/daily /en/tags/daily/ 301
 /en/tags/damage /en/tags/damage/ 301
@@ -311,9 +323,12 @@
 /en/tags/free to play /en/tags/free to play/ 301
 /en/tags/gacha /en/tags/gacha/ 301
 /en/tags/global /en/tags/global/ 301
+/en/tags/graphics /en/tags/graphics/ 301
 /en/tags/guide /en/tags/guide/ 301
+/en/tags/harmonyos /en/tags/harmonyos/ 301
 /en/tags/incantation /en/tags/incantation/ 301
 /en/tags/install /en/tags/install/ 301
+/en/tags/ios /en/tags/ios/ 301
 /en/tags/lakshana /en/tags/lakshana/ 301
 /en/tags/launch /en/tags/launch/ 301
 /en/tags/leveling /en/tags/leveling/ 301
@@ -326,6 +341,7 @@
 /en/tags/melee /en/tags/melee/ 301
 /en/tags/meta /en/tags/meta/ 301
 /en/tags/mistakes /en/tags/mistakes/ 301
+/en/tags/mobile /en/tags/mobile/ 301
 /en/tags/multiplayer /en/tags/multiplayer/ 301
 /en/tags/notes /en/tags/notes/ 301
 /en/tags/optimization /en/tags/optimization/ 301
@@ -352,7 +368,9 @@
 /en/tags/routine /en/tags/routine/ 301
 /en/tags/s /en/tags/s/ 301
 /en/tags/secrets /en/tags/secrets/ 301
+/en/tags/specs /en/tags/specs/ 301
 /en/tags/stamina /en/tags/stamina/ 301
+/en/tags/storage /en/tags/storage/ 301
 /en/tags/story /en/tags/story/ 301
 /en/tags/summon /en/tags/summon/ 301
 /en/tags/support /en/tags/support/ 301
@@ -572,6 +590,7 @@
 /tw/faq/6-choose-1-guide /tw/faq/6-choose-1-guide/ 301
 /tw/faq/a-rank-best /tw/faq/a-rank-best/ 301
 /tw/faq/adler-worth-building /tw/faq/adler-worth-building/ 301
+/tw/faq/android-minimum-specs /tw/faq/android-minimum-specs/ 301
 /tw/faq/anomaly-commission /tw/faq/anomaly-commission/ 301
 /tw/faq/attribute-weakness /tw/faq/attribute-weakness/ 301
 /tw/faq/aurelia-launch-character /tw/faq/aurelia-launch-character/ 301
@@ -589,6 +608,7 @@
 /tw/faq/cn-vs-global /tw/faq/cn-vs-global/ 301
 /tw/faq/collapse-mechanic /tw/faq/collapse-mechanic/ 301
 /tw/faq/combat-tips /tw/faq/combat-tips/ 301
+/tw/faq/cross-platform-how-to /tw/faq/cross-platform-how-to/ 301
 /tw/faq/cross-platform-save /tw/faq/cross-platform-save/ 301
 /tw/faq/crow-jade /tw/faq/crow-jade/ 301
 /tw/faq/disk-system /tw/faq/disk-system/ 301
@@ -601,6 +621,7 @@
 /tw/faq/gacha-currency-name /tw/faq/gacha-currency-name/ 301
 /tw/faq/gacha-priority /tw/faq/gacha-priority/ 301
 /tw/faq/global-server-launch /tw/faq/global-server-launch/ 301
+/tw/faq/harmonyos-details /tw/faq/harmonyos-details/ 301
 /tw/faq/harmonyos-support /tw/faq/harmonyos-support/ 301
 /tw/faq/hethereau-exploration /tw/faq/hethereau-exploration/ 301
 /tw/faq/hidden-areas /tw/faq/hidden-areas/ 301
@@ -608,6 +629,7 @@
 /tw/faq/how-to-get-credits /tw/faq/how-to-get-credits/ 301
 /tw/faq/how-to-get-exp-fast /tw/faq/how-to-get-exp-fast/ 301
 /tw/faq/how-to-level-up-fast /tw/faq/how-to-level-up-fast/ 301
+/tw/faq/ios-minimum-specs /tw/faq/ios-minimum-specs/ 301
 /tw/faq/is-nte-free /tw/faq/is-nte-free/ 301
 /tw/faq/launch-characters-full-list /tw/faq/launch-characters-full-list/ 301
 /tw/faq/launch-date-2026 /tw/faq/launch-date-2026/ 301
@@ -616,6 +638,10 @@
 /tw/faq/mac-support /tw/faq/mac-support/ 301
 /tw/faq/material-domains-location /tw/faq/material-domains-location/ 301
 /tw/faq/mint-character /tw/faq/mint-character/ 301
+/tw/faq/mobile-battery-drain /tw/faq/mobile-battery-drain/ 301
+/tw/faq/mobile-controller-support /tw/faq/mobile-controller-support/ 301
+/tw/faq/mobile-graphics-settings /tw/faq/mobile-graphics-settings/ 301
+/tw/faq/mobile-storage-management /tw/faq/mobile-storage-management/ 301
 /tw/faq/multiplayer-coop /tw/faq/multiplayer-coop/ 301
 /tw/faq/nanally-worth-building /tw/faq/nanally-worth-building/ 301
 /tw/faq/no-50-50-confirmed /tw/faq/no-50-50-confirmed/ 301
@@ -747,11 +773,13 @@
 /tw/system-requirements /tw/system-requirements/ 301
 /tw/tags/a /tw/tags/a/ 301
 /tw/tags/abyss /tw/tags/abyss/ 301
+/tw/tags/android /tw/tags/android/ 301
 /tw/tags/anima /tw/tags/anima/ 301
 /tw/tags/anomaly /tw/tags/anomaly/ 301
 /tw/tags/attributes /tw/tags/attributes/ 301
 /tw/tags/awakening /tw/tags/awakening/ 301
 /tw/tags/basics /tw/tags/basics/ 301
+/tw/tags/battery /tw/tags/battery/ 301
 /tw/tags/beginner /tw/tags/beginner/ 301
 /tw/tags/beings /tw/tags/beings/ 301
 /tw/tags/boss /tw/tags/boss/ 301
@@ -767,7 +795,9 @@
 /tw/tags/companion /tw/tags/companion/ 301
 /tw/tags/competitive /tw/tags/competitive/ 301
 /tw/tags/composition /tw/tags/composition/ 301
+/tw/tags/controller /tw/tags/controller/ 301
 /tw/tags/cosmos /tw/tags/cosmos/ 301
+/tw/tags/cross-platform /tw/tags/cross-platform/ 301
 /tw/tags/currency /tw/tags/currency/ 301
 /tw/tags/daily /tw/tags/daily/ 301
 /tw/tags/damage /tw/tags/damage/ 301
@@ -792,9 +822,12 @@
 /tw/tags/free to play /tw/tags/free to play/ 301
 /tw/tags/gacha /tw/tags/gacha/ 301
 /tw/tags/global /tw/tags/global/ 301
+/tw/tags/graphics /tw/tags/graphics/ 301
 /tw/tags/guide /tw/tags/guide/ 301
+/tw/tags/harmonyos /tw/tags/harmonyos/ 301
 /tw/tags/incantation /tw/tags/incantation/ 301
 /tw/tags/install /tw/tags/install/ 301
+/tw/tags/ios /tw/tags/ios/ 301
 /tw/tags/lakshana /tw/tags/lakshana/ 301
 /tw/tags/launch /tw/tags/launch/ 301
 /tw/tags/leveling /tw/tags/leveling/ 301
@@ -807,6 +840,7 @@
 /tw/tags/melee /tw/tags/melee/ 301
 /tw/tags/meta /tw/tags/meta/ 301
 /tw/tags/mistakes /tw/tags/mistakes/ 301
+/tw/tags/mobile /tw/tags/mobile/ 301
 /tw/tags/multiplayer /tw/tags/multiplayer/ 301
 /tw/tags/notes /tw/tags/notes/ 301
 /tw/tags/optimization /tw/tags/optimization/ 301
@@ -833,7 +867,9 @@
 /tw/tags/routine /tw/tags/routine/ 301
 /tw/tags/s /tw/tags/s/ 301
 /tw/tags/secrets /tw/tags/secrets/ 301
+/tw/tags/specs /tw/tags/specs/ 301
 /tw/tags/stamina /tw/tags/stamina/ 301
+/tw/tags/storage /tw/tags/storage/ 301
 /tw/tags/story /tw/tags/story/ 301
 /tw/tags/summon /tw/tags/summon/ 301
 /tw/tags/support /tw/tags/support/ 301
@@ -1053,6 +1089,7 @@
 /zh/faq/6-choose-1-guide /zh/faq/6-choose-1-guide/ 301
 /zh/faq/a-rank-best /zh/faq/a-rank-best/ 301
 /zh/faq/adler-worth-building /zh/faq/adler-worth-building/ 301
+/zh/faq/android-minimum-specs /zh/faq/android-minimum-specs/ 301
 /zh/faq/anomaly-commission /zh/faq/anomaly-commission/ 301
 /zh/faq/attribute-weakness /zh/faq/attribute-weakness/ 301
 /zh/faq/aurelia-launch-character /zh/faq/aurelia-launch-character/ 301
@@ -1070,6 +1107,7 @@
 /zh/faq/cn-vs-global /zh/faq/cn-vs-global/ 301
 /zh/faq/collapse-mechanic /zh/faq/collapse-mechanic/ 301
 /zh/faq/combat-tips /zh/faq/combat-tips/ 301
+/zh/faq/cross-platform-how-to /zh/faq/cross-platform-how-to/ 301
 /zh/faq/cross-platform-save /zh/faq/cross-platform-save/ 301
 /zh/faq/crow-jade /zh/faq/crow-jade/ 301
 /zh/faq/disk-system /zh/faq/disk-system/ 301
@@ -1082,6 +1120,7 @@
 /zh/faq/gacha-currency-name /zh/faq/gacha-currency-name/ 301
 /zh/faq/gacha-priority /zh/faq/gacha-priority/ 301
 /zh/faq/global-server-launch /zh/faq/global-server-launch/ 301
+/zh/faq/harmonyos-details /zh/faq/harmonyos-details/ 301
 /zh/faq/harmonyos-support /zh/faq/harmonyos-support/ 301
 /zh/faq/hethereau-exploration /zh/faq/hethereau-exploration/ 301
 /zh/faq/hidden-areas /zh/faq/hidden-areas/ 301
@@ -1089,6 +1128,7 @@
 /zh/faq/how-to-get-credits /zh/faq/how-to-get-credits/ 301
 /zh/faq/how-to-get-exp-fast /zh/faq/how-to-get-exp-fast/ 301
 /zh/faq/how-to-level-up-fast /zh/faq/how-to-level-up-fast/ 301
+/zh/faq/ios-minimum-specs /zh/faq/ios-minimum-specs/ 301
 /zh/faq/is-nte-free /zh/faq/is-nte-free/ 301
 /zh/faq/launch-characters-full-list /zh/faq/launch-characters-full-list/ 301
 /zh/faq/launch-date-2026 /zh/faq/launch-date-2026/ 301
@@ -1097,6 +1137,10 @@
 /zh/faq/mac-support /zh/faq/mac-support/ 301
 /zh/faq/material-domains-location /zh/faq/material-domains-location/ 301
 /zh/faq/mint-character /zh/faq/mint-character/ 301
+/zh/faq/mobile-battery-drain /zh/faq/mobile-battery-drain/ 301
+/zh/faq/mobile-controller-support /zh/faq/mobile-controller-support/ 301
+/zh/faq/mobile-graphics-settings /zh/faq/mobile-graphics-settings/ 301
+/zh/faq/mobile-storage-management /zh/faq/mobile-storage-management/ 301
 /zh/faq/multiplayer-coop /zh/faq/multiplayer-coop/ 301
 /zh/faq/nanally-worth-building /zh/faq/nanally-worth-building/ 301
 /zh/faq/no-50-50-confirmed /zh/faq/no-50-50-confirmed/ 301
@@ -1228,11 +1272,13 @@
 /zh/system-requirements /zh/system-requirements/ 301
 /zh/tags/a /zh/tags/a/ 301
 /zh/tags/abyss /zh/tags/abyss/ 301
+/zh/tags/android /zh/tags/android/ 301
 /zh/tags/anima /zh/tags/anima/ 301
 /zh/tags/anomaly /zh/tags/anomaly/ 301
 /zh/tags/attributes /zh/tags/attributes/ 301
 /zh/tags/awakening /zh/tags/awakening/ 301
 /zh/tags/basics /zh/tags/basics/ 301
+/zh/tags/battery /zh/tags/battery/ 301
 /zh/tags/beginner /zh/tags/beginner/ 301
 /zh/tags/beings /zh/tags/beings/ 301
 /zh/tags/boss /zh/tags/boss/ 301
@@ -1248,7 +1294,9 @@
 /zh/tags/companion /zh/tags/companion/ 301
 /zh/tags/competitive /zh/tags/competitive/ 301
 /zh/tags/composition /zh/tags/composition/ 301
+/zh/tags/controller /zh/tags/controller/ 301
 /zh/tags/cosmos /zh/tags/cosmos/ 301
+/zh/tags/cross-platform /zh/tags/cross-platform/ 301
 /zh/tags/currency /zh/tags/currency/ 301
 /zh/tags/daily /zh/tags/daily/ 301
 /zh/tags/damage /zh/tags/damage/ 301
@@ -1273,9 +1321,12 @@
 /zh/tags/free to play /zh/tags/free to play/ 301
 /zh/tags/gacha /zh/tags/gacha/ 301
 /zh/tags/global /zh/tags/global/ 301
+/zh/tags/graphics /zh/tags/graphics/ 301
 /zh/tags/guide /zh/tags/guide/ 301
+/zh/tags/harmonyos /zh/tags/harmonyos/ 301
 /zh/tags/incantation /zh/tags/incantation/ 301
 /zh/tags/install /zh/tags/install/ 301
+/zh/tags/ios /zh/tags/ios/ 301
 /zh/tags/lakshana /zh/tags/lakshana/ 301
 /zh/tags/launch /zh/tags/launch/ 301
 /zh/tags/leveling /zh/tags/leveling/ 301
@@ -1288,6 +1339,7 @@
 /zh/tags/melee /zh/tags/melee/ 301
 /zh/tags/meta /zh/tags/meta/ 301
 /zh/tags/mistakes /zh/tags/mistakes/ 301
+/zh/tags/mobile /zh/tags/mobile/ 301
 /zh/tags/multiplayer /zh/tags/multiplayer/ 301
 /zh/tags/notes /zh/tags/notes/ 301
 /zh/tags/optimization /zh/tags/optimization/ 301
@@ -1314,7 +1366,9 @@
 /zh/tags/routine /zh/tags/routine/ 301
 /zh/tags/s /zh/tags/s/ 301
 /zh/tags/secrets /zh/tags/secrets/ 301
+/zh/tags/specs /zh/tags/specs/ 301
 /zh/tags/stamina /zh/tags/stamina/ 301
+/zh/tags/storage /zh/tags/storage/ 301
 /zh/tags/story /zh/tags/story/ 301
 /zh/tags/summon /zh/tags/summon/ 301
 /zh/tags/support /zh/tags/support/ 301

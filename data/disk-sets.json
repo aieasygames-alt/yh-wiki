@@ -1,0 +1,110 @@
+[
+  {
+    "id": "blazing-heart",
+    "name": "炽焰之心",
+    "nameEn": "Blazing Heart",
+    "pieces": 4,
+    "setDescription2pc": "攻击力提高12%",
+    "setDescription2pcEn": "ATK +12%",
+    "setDescription4pc": "施放必杀技后，暴击率提升16%，持续12秒",
+    "setDescription4pcEn": "After using Ultimate, CRIT Rate +16% for 12s",
+    "bestFor": ["进攻", "Attack"],
+    "characters": ["nanally", "lingko", "akane"]
+  },
+  {
+    "id": "eternal-guardian",
+    "name": "永恒守护",
+    "nameEn": "Eternal Guardian",
+    "pieces": 4,
+    "setDescription2pc": "受到伤害降低10%",
+    "setDescription2pcEn": "DMG taken -10%",
+    "setDescription4pc": "为队伍中所有角色提供15%伤害减免，持续10秒（每30秒触发一次）",
+    "setDescription4pcEn": "Reduces DMG taken by 15% for all party members for 10s (every 30s)",
+    "bestFor": ["支援", "防御", "Support", "Defense"],
+    "characters": ["sakiri", "mismo", "nitsa", "fuuka"]
+  },
+  {
+    "id": "berserkers-fury",
+    "name": "狂战士之怒",
+    "nameEn": "Berserker's Fury",
+    "pieces": 4,
+    "setDescription2pc": "暴击伤害提高20%",
+    "setDescription2pcEn": "CRIT DMG +20%",
+    "setDescription4pc": "暴击率低于50%时，暴击率额外提升15%；暴击率达到50%以上时，暴击伤害额外提升20%",
+    "setDescription4pcEn": "When CRIT Rate is below 50%, gain +15% CRIT Rate; when CRIT Rate is 50%+, gain +20% CRIT DMG",
+    "bestFor": ["进攻", "Attack"],
+    "characters": ["fadia", "hotori", "merula", "hathor", "shinku", "blackbird", "illica"]
+  },
+  {
+    "id": "skyrending-fang",
+    "name": "裂空之牙",
+    "nameEn": "Skyrending Fang",
+    "pieces": 4,
+    "setDescription2pc": "属性伤害提高12%",
+    "setDescription2pcEn": "Elemental DMG +12%",
+    "setDescription4pc": "触发属性反应时，对应属性伤害额外提升18%，持续10秒",
+    "setDescription4pcEn": "Upon triggering elemental reaction, corresponding elemental DMG +18% for 10s",
+    "bestFor": ["进攻", "Attack"],
+    "characters": ["lacrimosa", "zero", "adler", "skia", "chiz", "lilina", "xiaozhen", "crow", "marina", "kaito"]
+  },
+  {
+    "id": "heart-of-stone",
+    "name": "坚岩之心",
+    "nameEn": "Heart of Stone",
+    "pieces": 4,
+    "setDescription2pc": "防御力提高15%",
+    "setDescription2pcEn": "DEF +15%",
+    "setDescription4pc": "受到攻击时生成护盾，吸收量相当于防御力的40%，持续8秒（每15秒触发一次）",
+    "setDescription4pcEn": "When hit, generates a shield absorbing 40% of DEF for 8s (every 15s)",
+    "bestFor": ["防御", "Defense"],
+    "characters": ["baicang", "jenson"]
+  },
+  {
+    "id": "stellar-vow",
+    "name": "繁星之誓",
+    "nameEn": "Stellar Vow",
+    "pieces": 4,
+    "setDescription2pc": "生命值上限提高12%",
+    "setDescription2pcEn": "Max HP +12%",
+    "setDescription4pc": "施放治疗技能时，额外恢复目标最大生命值的8%；治疗溢出时转化为护盾",
+    "setDescription4pcEn": "When casting healing skills, additionally restore 8% of target's Max HP; excess healing converts to a shield",
+    "bestFor": ["支援", "治疗", "Support", "Healer"],
+    "characters": ["daffodil", "jiuyuan", "edgar", "mint", "nelly", "taygedo", "renee"]
+  },
+  {
+    "id": "unity-of-all",
+    "name": "万象归一",
+    "nameEn": "Unity of All",
+    "pieces": 4,
+    "setDescription2pc": "全属性伤害提高8%",
+    "setDescription2pcEn": "All Elemental DMG +8%",
+    "setDescription4pc": "队伍中每有一种不同属性的角色，自身伤害提升6%，最高18%",
+    "setDescription4pcEn": "For each different attribute in the party, DMG +6% (max 18%)",
+    "bestFor": ["增益", "进攻", "Buffer", "Attack"],
+    "characters": ["haniel", "alphard"]
+  },
+  {
+    "id": "shadow-strike",
+    "name": "暗影突袭",
+    "nameEn": "Shadow Strike",
+    "pieces": 4,
+    "setDescription2pc": "暴击率提高10%",
+    "setDescription2pcEn": "CRIT Rate +10%",
+    "setDescription4pc": "从背后攻击时，暴击伤害额外提升30%",
+    "setDescription4pcEn": "Back attacks deal +30% CRIT DMG",
+    "bestFor": ["进攻", "Attack"],
+    "characters": ["goro"]
+  },
+  {
+    "id": "resonance-tide",
+    "name": "回响之潮",
+    "nameEn": "Resonance Tide",
+    "pieces": 4,
+    "setDescription2pc": "能量回复效率提高15%",
+    "setDescription2pcEn": "Energy Recharge +15%",
+    "setDescription4pc": "施放必杀技后，全队能量回复15点",
+    "setDescription4pcEn": "After using Ultimate, all party members recover 15 Energy",
+    "bestFor": ["支援", "Support"],
+    "characters": ["sylphy"]
+  }
+]

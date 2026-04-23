@@ -166,7 +166,10 @@
     "acquisitionMethod": "limited-banner",
     "descriptionEn": "First-generation member of the Coluccis family and the star Esper of the Eibon Antique Shop. A catfolk Esper who fights with razor-sharp claws at blinding speed, wielding powerful anti-gravity abilities.",
     "status": "available",
-    "nameTw": "娜娜莉"
+    "nameTw": "娜娜莉",
+    "cvZh": "宋媛媛",
+    "cvJp": "竹达彩奈",
+    "cvJpEn": "Ayana Taketatsu"
   },
   {
     "id": "sakiri",
@@ -335,7 +338,10 @@
     "acquisitionMethod": "beginner-selector",
     "descriptionEn": "A horned Esper of the Eibon Antique Shop who fights alongside her gluttonous Anomaly companion Kiroumaru. An Incantation-attribute support specialist who excels at buffing teammates.",
     "status": "available",
-    "nameTw": "咲里"
+    "nameTw": "咲里",
+    "cvZh": "小连杀",
+    "cvJp": "日高里菜",
+    "cvJpEn": "Rina Hidaka"
   },
   {
     "id": "fadia",
@@ -504,7 +510,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad and a vampire-type Esper. Bold and thrill-seeking, she wields a transforming cross shield for both offense and defense.",
     "status": "available",
-    "nameTw": "法帝婭"
+    "nameTw": "法帝婭",
+    "cvZh": "裴致莹",
+    "cvJp": "真藤圭",
+    "cvJpEn": "Kei Shindo"
   },
   {
     "id": "lacrimosa",
@@ -673,7 +682,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat.",
     "status": "available",
-    "nameTw": "拉克莉莫薩"
+    "nameTw": "拉克莉莫薩",
+    "cvZh": "宴宁",
+    "cvJp": "长绳麻理亚",
+    "cvJpEn": "Maria Naganawa"
   },
   {
     "id": "baicang",
@@ -842,7 +854,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "Captain of the Bureau of Anomaly Control's ETD-4 squad, leading Fadia, Lacrimosa, and Skia on major anomaly missions. Constructs defensive formations using the power of Word Spirit.",
     "status": "available",
-    "nameTw": "白藏"
+    "nameTw": "白藏",
+    "cvZh": "桑毓泽",
+    "cvJp": "中村悠一",
+    "cvJpEn": "Yuichi Nakamura"
   },
   {
     "id": "zero",
@@ -1011,7 +1026,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A member of the Eibon Antique Shop and a taciturn swordsman. Seen fighting alongside Nanally, Sakiri, and Mint in the beta test footage.",
     "status": "available",
-    "nameTw": "零"
+    "nameTw": "零",
+    "cvZh": "马洋/曹彤",
+    "cvJp": "内田雄马/内田真礼",
+    "cvJpEn": "Yuma Uchida/Maaya Uchida"
   },
   {
     "id": "hotori",
@@ -1180,7 +1198,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle.",
     "status": "available",
-    "nameTw": "穗鳥"
+    "nameTw": "穗鳥",
+    "cvZh": "陶典",
+    "cvJp": "石川由依",
+    "cvJpEn": "Yui Ishikawa"
   },
   {
     "id": "daffodil",
@@ -1349,7 +1370,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "Security specialist at the Eibon Antique Shop. A Chaos-attribute support character wielding a liquid arc weapon.",
     "status": "available",
-    "nameTw": "達芙蒂爾"
+    "nameTw": "達芙蒂爾",
+    "cvZh": "陈彦亦",
+    "cvJp": "大原沙耶香",
+    "cvJpEn": "Sayaka Ohara"
   },
   {
     "id": "jiuyuan",
@@ -1518,7 +1542,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "Known as \"Miss Jiuyuan,\" a top-tier driver responsible for transporting Espers and emergency anomaly supplies. An Anima-attribute S-rank Esper.",
     "status": "available",
-    "nameTw": "九原"
+    "nameTw": "九原",
+    "cvZh": "张安琪",
+    "cvJp": "田中理惠",
+    "cvJpEn": "Rie Tanaka"
   },
   {
     "id": "haniel",
@@ -1687,7 +1714,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A Psyche-attribute S-rank Esper currently revealed only through promotional artwork. Full combat details and story role await the official launch.",
     "status": "available",
-    "nameTw": "哈尼婭"
+    "nameTw": "哈尼婭",
+    "cvZh": "苏子芜",
+    "cvJp": "石见舞菜香",
+    "cvJpEn": "Maaya Sakamoto"
   },
   {
     "id": "adler",
@@ -1856,7 +1886,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "The butler of the Eibon Antique Shop, known as the \"Golden Blade Butler.\" An A-rank Incantation Esper who fights with a cane sword alongside his companion entity Sunyas.",
     "status": "available",
-    "nameTw": "阿德勒"
+    "nameTw": "阿德勒",
+    "cvZh": "王宇航",
+    "cvJp": "森川智之",
+    "cvJpEn": "Tomoyuki Morikawa"
   },
   {
     "id": "skia",
@@ -2025,7 +2058,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad, fighting alongside Fadia and Lacrimosa. A Lakshana-attribute Esper who manipulates shadows in combat.",
     "status": "available",
-    "nameTw": "翳"
+    "nameTw": "翳",
+    "cvZh": "刘雨轩",
+    "cvJp": "杉田智和",
+    "cvJpEn": "Tomokazu Sugita"
   },
   {
     "id": "edgar",
@@ -2194,7 +2230,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A member of the Eibon Antique Shop, a blue-haired youth. A Cosmos-attribute A-rank Esper who assists Adler with various anomaly commissions at the shop.",
     "status": "available",
-    "nameTw": "埃德嘉"
+    "nameTw": "埃德嘉",
+    "cvZh": "四白",
+    "cvJp": "三瓶由布子",
+    "cvJpEn": "Yuko Sanpei"
   },
   {
     "id": "mint",
@@ -2363,7 +2402,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A member of the Bureau of Anomaly Control's CSU-2 unit. An Anima-attribute A-rank Esper who wields dual blades for swift support combat.",
     "status": "available",
-    "nameTw": "薄荷"
+    "nameTw": "薄荷",
+    "cvZh": "陈雨",
+    "cvJp": "鬼头明里",
+    "cvJpEn": "Akari Kito"
   },
   {
     "id": "nelly",
@@ -2870,7 +2912,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed.",
     "status": "upcoming",
-    "nameTw": "阿爾法德"
+    "nameTw": "阿爾法德",
+    "cvZh": "刘琮",
+    "cvJp": "子安武人",
+    "cvJpEn": "Takehito Koyasu"
   },
   {
     "id": "taygedo",
@@ -3039,7 +3084,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
     "status": "upcoming",
-    "nameTw": "泰格多"
+    "nameTw": "泰格多",
+    "cvZh": "王肖兵",
+    "cvJp": "置鲇龙太郎",
+    "cvJpEn": "Ryotaro Okiayu"
   },
   {
     "id": "hathor",
@@ -3208,7 +3256,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "An S-rank Lakshana-attribute Esper who wields blade wings in combat. Full details await official confirmation.",
     "status": "available",
-    "nameTw": "哈索爾"
+    "nameTw": "哈索爾",
+    "cvZh": "洪海天",
+    "cvJp": "市之濑加那",
+    "cvJpEn": "Kana Ichinose"
   },
   {
     "id": "chiz",
@@ -6340,6 +6391,9 @@
     "image": "/images/characters/xiaozhi.webp",
     "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch.",
     "status": "upcoming",
-    "nameTw": "小吱"
+    "nameTw": "小吱",
+    "cvZh": "则灵",
+    "cvJp": "小原好美",
+    "cvJpEn": "Konomi Kohara"
   }
 ]

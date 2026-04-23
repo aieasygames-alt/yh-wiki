@@ -5,22 +5,22 @@
       "cpu": { "zh": "Intel Core i5-8400 / AMD Ryzen 5 1600", "en": "Intel Core i5-8400 / AMD Ryzen 5 1600" },
       "ram": { "zh": "8 GB", "en": "8 GB" },
       "gpu": { "zh": "NVIDIA GTX 1060 6GB / AMD RX 580", "en": "NVIDIA GTX 1060 6GB / AMD RX 580" },
-      "storage": { "zh": "40 GB SSD（推荐）", "en": "40 GB SSD (recommended)" }
+      "storage": { "zh": "90 GB NVMe SSD（推荐）", "en": "90 GB NVMe SSD (recommended)" }
     },
     "recommended": {
       "os": { "zh": "Windows 10/11 64-bit", "en": "Windows 10/11 64-bit" },
       "cpu": { "zh": "Intel Core i7-9700 / AMD Ryzen 7 3700X", "en": "Intel Core i7-9700 / AMD Ryzen 7 3700X" },
       "ram": { "zh": "16 GB", "en": "16 GB" },
       "gpu": { "zh": "NVIDIA RTX 2060 / AMD RX 5700 XT", "en": "NVIDIA RTX 2060 / AMD RX 5700 XT" },
-      "storage": { "zh": "60 GB SSD", "en": "60 GB SSD" }
+      "storage": { "zh": "90 GB NVMe SSD", "en": "90 GB NVMe SSD" }
     }
   },
   "android": {
     "minimum": {
-      "soC": { "zh": "骁龙 845 / 天玑 1100 同等性能", "en": "Snapdragon 845 / Dimensity 1100 equivalent" },
+      "soC": { "zh": "骁龙 855 / 麒麟 990 同等性能", "en": "Snapdragon 855 / Kirin 990 equivalent" },
       "ram": { "zh": "6 GB", "en": "6 GB" },
       "os": { "zh": "Android 10+", "en": "Android 10+" },
-      "storage": { "zh": "10 GB", "en": "10 GB" }
+      "storage": { "zh": "20 GB", "en": "20 GB" }
     },
     "recommended": {
       "soC": { "zh": "骁龙 8 Gen 1 / 天玑 9000 及以上", "en": "Snapdragon 8 Gen 1 / Dimensity 9000 or better" },
@@ -31,40 +31,40 @@
   },
   "ios": {
     "minimum": {
-      "device": { "zh": "iPhone XS / iPad mini 5 或更新", "en": "iPhone XS / iPad mini 5 or newer" },
-      "os": { "zh": "iOS 14+", "en": "iOS 14+" },
-      "storage": { "zh": "10 GB", "en": "10 GB" }
+      "device": { "zh": "iPhone 12 Pro Max / iPad Air 3 或更新", "en": "iPhone 12 Pro Max / iPad Air 3 or newer" },
+      "os": { "zh": "iOS 15+", "en": "iOS 15+" },
+      "storage": { "zh": "20 GB", "en": "20 GB" }
     },
     "recommended": {
-      "device": { "zh": "iPhone 13 / iPad Air 5 (M1) 或更新", "en": "iPhone 13 / iPad Air 5 (M1) or newer" },
+      "device": { "zh": "iPhone 14 / iPad Pro M1 或更新", "en": "iPhone 14 / iPad Pro M1 or newer" },
       "os": { "zh": "iOS 16+", "en": "iOS 16+" },
-      "storage": { "zh": "15 GB+", "en": "15 GB+" }
+      "storage": { "zh": "25 GB+", "en": "25 GB+" }
     }
   },
   "faq": [
     {
       "question": "Can my PC run NTE?",
       "questionZh": "我的电脑能运行异环吗？",
-      "answer": "NTE requires at least an Intel i5-8400, 8GB RAM, and GTX 1060 for minimum settings. For a smooth experience at 60fps, we recommend i7-9700, 16GB RAM, and RTX 2060 or better. Make sure you have at least 40GB of free SSD space.",
-      "answerZh": "异环最低需要 Intel i5-8400 处理器、8GB 内存和 GTX 1060 显卡。为了流畅运行 60fps，推荐 i7-9700 处理器、16GB 内存和 RTX 2060 或更好的显卡。确保至少有 40GB 的 SSD 可用空间。"
+      "answer": "NTE requires at least an Intel i5-8400, 8GB RAM, and GTX 1060 for minimum settings. For a smooth experience at 60fps, we recommend i7-9700, 16GB RAM, and RTX 2060 or better. Make sure you have at least 90GB of free NVMe SSD space.",
+      "answerZh": "异环最低需要 Intel i5-8400 处理器、8GB 内存和 GTX 1060 显卡。为了流畅运行 60fps，推荐 i7-9700 处理器、16GB 内存和 RTX 2060 或更好的显卡。确保至少有 90GB 的 NVMe SSD 可用空间。"
     },
     {
       "question": "How many GB is NTE?",
       "questionZh": "异环游戏多大？需要多少存储空间？",
-      "answer": "NTE requires approximately 40GB on PC and 10-15GB on mobile (Android/iOS). An SSD is strongly recommended for faster loading times. Keep extra space available for future updates.",
-      "answerZh": "异环 PC 版约需 40GB，移动端（Android/iOS）约需 10-15GB。强烈推荐使用 SSD 以获得更快的加载速度。建议预留额外空间用于后续版本更新。"
+      "answer": "NTE requires approximately 90GB on PC (NVMe SSD recommended) and 20GB on mobile (Android/iOS). An SSD is strongly recommended for faster loading times. Keep extra space available for future updates.",
+      "answerZh": "异环 PC 版约需 90GB（推荐 NVMe SSD），移动端（Android/iOS）约需 20GB。强烈推荐使用 SSD 以获得更快的加载速度。建议预留额外空间用于后续版本更新。"
     },
     {
       "question": "Can I play NTE on Android?",
       "questionZh": "异环支持安卓手机吗？",
-      "answer": "Yes, NTE is available on Android. Minimum requirements are Snapdragon 845 / Dimensity 1100 equivalent, 6GB RAM, Android 10+, and 10GB storage. For the best mobile experience, Snapdragon 8 Gen 1 or better with 8GB+ RAM is recommended.",
-      "answerZh": "是的，异环支持安卓平台。最低配置要求为骁龙 845 / 天玑 1100 同等性能处理器、6GB 内存、Android 10+ 系统和 10GB 存储空间。推荐骁龙 8 Gen 1 及以上处理器搭配 8GB 以上内存以获得最佳体验。"
+      "answer": "Yes, NTE is available on Android. Minimum requirements are Snapdragon 855 / Kirin 990 equivalent, 6GB RAM, Android 10+, and 20GB storage. For the best mobile experience, Snapdragon 8 Gen 1 or better with 8GB+ RAM is recommended.",
+      "answerZh": "是的，异环支持安卓平台。最低配置要求为骁龙 855 / 麒麟 990 同等性能处理器、6GB 内存、Android 10+ 系统和 20GB 存储空间。推荐骁龙 8 Gen 1 及以上处理器搭配 8GB 以上内存以获得最佳体验。"
     },
     {
       "question": "Is NTE available on iOS?",
       "questionZh": "异环支持 iOS 吗？",
-      "answer": "Yes, NTE supports iOS. Minimum requirement is iPhone XS or iPad mini 5 running iOS 14+. For recommended performance, iPhone 13 or iPad with M1 chip running iOS 16+ is suggested.",
-      "answerZh": "是的，异环支持 iOS。最低要求 iPhone XS 或 iPad mini 5，系统 iOS 14+。推荐使用 iPhone 13 或搭载 M1 芯片的 iPad，系统 iOS 16+。"
+      "answer": "Yes, NTE supports iOS. Minimum requirement is iPhone 12 Pro Max or iPad Air 3 running iOS 15+. For recommended performance, iPhone 14 or iPad with M1 chip running iOS 16+ is suggested.",
+      "answerZh": "是的，异环支持 iOS。最低要求 iPhone 12 Pro Max 或 iPad Air 3，系统 iOS 15+。推荐使用 iPhone 14 或搭载 M1 芯片的 iPad，系统 iOS 16+。"
     },
     {
       "question": "Does NTE support 4K resolution?",
@@ -81,8 +81,8 @@
     {
       "question": "What platforms is NTE available on?",
       "questionZh": "异环支持哪些平台？",
-      "answer": "NTE is available on PC (Windows), Android, and iOS at launch. The PC version can be downloaded from the official website or via game launchers. Mobile versions are available on Google Play and the App Store.",
-      "answerZh": "异环首发支持 PC（Windows）、Android 和 iOS 平台。PC 版可从官网或游戏启动器下载，移动版可在 Google Play 和 App Store 下载。"
+      "answer": "NTE is available on PC (Windows), Android, iOS, Mac, HarmonyOS, and PlayStation 5 at launch. The PC version can be downloaded from the official website. Mobile versions are available on TapTap, App Store, and Huawei AppGallery. PS5 version is on PlayStation Store (free, no PS+ required).",
+      "answerZh": "异环首发支持 PC（Windows）、Android、iOS、Mac、鸿蒙和 PlayStation 5 六大平台。PC 版可从官网下载，移动版可在 TapTap、App Store、华为应用市场下载。PS5 版在 PlayStation Store 免费下载（无需 PS+ 会员）。"
     },
     {
       "question": "Will NTE be on Epic Games or Steam?",
