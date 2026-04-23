@@ -4256,6 +4256,36 @@
     ]
   },
   {
+    "id": "download-install-guide",
+    "name": "异环下载安装指南 — 全平台下载地址与安装教程",
+    "nameEn": "NTE Download & Install Guide — All Platforms",
+    "type": "guide",
+    "url": "/zh/guides/download-install-guide",
+    "tags": [
+      "下载",
+      "安装",
+      "新手",
+      "平台",
+      "Download",
+      "Install"
+    ]
+  },
+  {
+    "id": "download-install-guide",
+    "name": "NTE Download & Install Guide — All Platforms",
+    "nameEn": "NTE Download & Install Guide — All Platforms",
+    "type": "guide",
+    "url": "/en/guides/download-install-guide",
+    "tags": [
+      "下载",
+      "安装",
+      "新手",
+      "平台",
+      "Download",
+      "Install"
+    ]
+  },
+  {
     "id": "beginner-guide",
     "name": "新手入门完全指南",
     "nameEn": "Complete Beginner Guide",

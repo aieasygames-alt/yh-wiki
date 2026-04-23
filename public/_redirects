@@ -29,6 +29,7 @@
 /en/blog/nte-gacha-system-explained /en/blog/nte-gacha-system-explained/ 301
 /en/blog/nte-global-launch-guide /en/blog/nte-global-launch-guide/ 301
 /en/blog/nte-launch-6-choose-1 /en/blog/nte-launch-6-choose-1/ 301
+/en/blog/nte-launch-collaborations /en/blog/nte-launch-collaborations/ 301
 /en/blog/nte-launch-free-pulls-breakdown /en/blog/nte-launch-free-pulls-breakdown/ 301
 /en/blog/nte-launch-new-features /en/blog/nte-launch-new-features/ 301
 /en/blog/nte-livestream-summary /en/blog/nte-livestream-summary/ 301
@@ -180,6 +181,7 @@
 /en/guides/damage-formula /en/guides/damage-formula/ 301
 /en/guides/detailed-tier-list /en/guides/detailed-tier-list/ 301
 /en/guides/disk-build /en/guides/disk-build/ 301
+/en/guides/download-install-guide /en/guides/download-install-guide/ 301
 /en/guides/elemental-reactions /en/guides/elemental-reactions/ 301
 /en/guides/endgame-content /en/guides/endgame-content/ 301
 /en/guides/event-guides /en/guides/event-guides/ 301
@@ -311,6 +313,7 @@
 /en/tags/global /en/tags/global/ 301
 /en/tags/guide /en/tags/guide/ 301
 /en/tags/incantation /en/tags/incantation/ 301
+/en/tags/install /en/tags/install/ 301
 /en/tags/lakshana /en/tags/lakshana/ 301
 /en/tags/launch /en/tags/launch/ 301
 /en/tags/leveling /en/tags/leveling/ 301
@@ -363,6 +366,7 @@
 /en/tags/tips /en/tags/tips/ 301
 /en/tags/weapon /en/tags/weapon/ 301
 /en/tags/weapons /en/tags/weapons/ 301
+/en/tags/下载 /en/tags/下载/ 301
 /en/tags/优化 /en/tags/优化/ 301
 /en/tags/伤害 /en/tags/伤害/ 301
 /en/tags/体力 /en/tags/体力/ 301
@@ -379,8 +383,10 @@
 /en/tags/反应 /en/tags/反应/ 301
 /en/tags/基础 /en/tags/基础/ 301
 /en/tags/天赋 /en/tags/天赋/ 301
+/en/tags/安装 /en/tags/安装/ 301
 /en/tags/宝箱 /en/tags/宝箱/ 301
 /en/tags/属性 /en/tags/属性/ 301
+/en/tags/平台 /en/tags/平台/ 301
 /en/tags/异象 /en/tags/异象/ 301
 /en/tags/强化 /en/tags/强化/ 301
 /en/tags/强度榜 /en/tags/强度榜/ 301
@@ -504,6 +510,7 @@
 /tw/blog/nte-gacha-system-explained /tw/blog/nte-gacha-system-explained/ 301
 /tw/blog/nte-global-launch-guide /tw/blog/nte-global-launch-guide/ 301
 /tw/blog/nte-launch-6-choose-1 /tw/blog/nte-launch-6-choose-1/ 301
+/tw/blog/nte-launch-collaborations /tw/blog/nte-launch-collaborations/ 301
 /tw/blog/nte-launch-free-pulls-breakdown /tw/blog/nte-launch-free-pulls-breakdown/ 301
 /tw/blog/nte-launch-new-features /tw/blog/nte-launch-new-features/ 301
 /tw/blog/nte-livestream-summary /tw/blog/nte-livestream-summary/ 301
@@ -655,6 +662,7 @@
 /tw/guides/damage-formula /tw/guides/damage-formula/ 301
 /tw/guides/detailed-tier-list /tw/guides/detailed-tier-list/ 301
 /tw/guides/disk-build /tw/guides/disk-build/ 301
+/tw/guides/download-install-guide /tw/guides/download-install-guide/ 301
 /tw/guides/elemental-reactions /tw/guides/elemental-reactions/ 301
 /tw/guides/endgame-content /tw/guides/endgame-content/ 301
 /tw/guides/event-guides /tw/guides/event-guides/ 301
@@ -786,6 +794,7 @@
 /tw/tags/global /tw/tags/global/ 301
 /tw/tags/guide /tw/tags/guide/ 301
 /tw/tags/incantation /tw/tags/incantation/ 301
+/tw/tags/install /tw/tags/install/ 301
 /tw/tags/lakshana /tw/tags/lakshana/ 301
 /tw/tags/launch /tw/tags/launch/ 301
 /tw/tags/leveling /tw/tags/leveling/ 301
@@ -838,6 +847,7 @@
 /tw/tags/tips /tw/tags/tips/ 301
 /tw/tags/weapon /tw/tags/weapon/ 301
 /tw/tags/weapons /tw/tags/weapons/ 301
+/tw/tags/下载 /tw/tags/下载/ 301
 /tw/tags/优化 /tw/tags/优化/ 301
 /tw/tags/伤害 /tw/tags/伤害/ 301
 /tw/tags/体力 /tw/tags/体力/ 301
@@ -854,8 +864,10 @@
 /tw/tags/反应 /tw/tags/反应/ 301
 /tw/tags/基础 /tw/tags/基础/ 301
 /tw/tags/天赋 /tw/tags/天赋/ 301
+/tw/tags/安装 /tw/tags/安装/ 301
 /tw/tags/宝箱 /tw/tags/宝箱/ 301
 /tw/tags/属性 /tw/tags/属性/ 301
+/tw/tags/平台 /tw/tags/平台/ 301
 /tw/tags/异象 /tw/tags/异象/ 301
 /tw/tags/强化 /tw/tags/强化/ 301
 /tw/tags/强度榜 /tw/tags/强度榜/ 301
@@ -979,6 +991,7 @@
 /zh/blog/nte-gacha-system-explained /zh/blog/nte-gacha-system-explained/ 301
 /zh/blog/nte-global-launch-guide /zh/blog/nte-global-launch-guide/ 301
 /zh/blog/nte-launch-6-choose-1 /zh/blog/nte-launch-6-choose-1/ 301
+/zh/blog/nte-launch-collaborations /zh/blog/nte-launch-collaborations/ 301
 /zh/blog/nte-launch-free-pulls-breakdown /zh/blog/nte-launch-free-pulls-breakdown/ 301
 /zh/blog/nte-launch-new-features /zh/blog/nte-launch-new-features/ 301
 /zh/blog/nte-livestream-summary /zh/blog/nte-livestream-summary/ 301
@@ -1130,6 +1143,7 @@
 /zh/guides/damage-formula /zh/guides/damage-formula/ 301
 /zh/guides/detailed-tier-list /zh/guides/detailed-tier-list/ 301
 /zh/guides/disk-build /zh/guides/disk-build/ 301
+/zh/guides/download-install-guide /zh/guides/download-install-guide/ 301
 /zh/guides/elemental-reactions /zh/guides/elemental-reactions/ 301
 /zh/guides/endgame-content /zh/guides/endgame-content/ 301
 /zh/guides/event-guides /zh/guides/event-guides/ 301
@@ -1261,6 +1275,7 @@
 /zh/tags/global /zh/tags/global/ 301
 /zh/tags/guide /zh/tags/guide/ 301
 /zh/tags/incantation /zh/tags/incantation/ 301
+/zh/tags/install /zh/tags/install/ 301
 /zh/tags/lakshana /zh/tags/lakshana/ 301
 /zh/tags/launch /zh/tags/launch/ 301
 /zh/tags/leveling /zh/tags/leveling/ 301
@@ -1313,6 +1328,7 @@
 /zh/tags/tips /zh/tags/tips/ 301
 /zh/tags/weapon /zh/tags/weapon/ 301
 /zh/tags/weapons /zh/tags/weapons/ 301
+/zh/tags/下载 /zh/tags/下载/ 301
 /zh/tags/优化 /zh/tags/优化/ 301
 /zh/tags/伤害 /zh/tags/伤害/ 301
 /zh/tags/体力 /zh/tags/体力/ 301
@@ -1329,8 +1345,10 @@
 /zh/tags/反应 /zh/tags/反应/ 301
 /zh/tags/基础 /zh/tags/基础/ 301
 /zh/tags/天赋 /zh/tags/天赋/ 301
+/zh/tags/安装 /zh/tags/安装/ 301
 /zh/tags/宝箱 /zh/tags/宝箱/ 301
 /zh/tags/属性 /zh/tags/属性/ 301
+/zh/tags/平台 /zh/tags/平台/ 301
 /zh/tags/异象 /zh/tags/异象/ 301
 /zh/tags/强化 /zh/tags/强化/ 301
 /zh/tags/强度榜 /zh/tags/强度榜/ 301

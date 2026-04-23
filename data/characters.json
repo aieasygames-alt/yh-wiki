@@ -1361,7 +1361,7 @@
     "weaponEn": "Vehicle",
     "role": "辅助",
     "roleEn": "Utility",
-    "faction": "未知",
+    "faction": "Eibon Antique Shop",
     "description": "被称为「九原小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。",
     "faq": [
       {
@@ -1530,7 +1530,7 @@
     "weaponEn": "TBD",
     "role": "待定",
     "roleEn": "TBD",
-    "faction": "未知",
+    "faction": "Eibon Antique Shop",
     "description": "目前仅公开宣传画，详细战斗风格和剧情定位尚未公布。灵魂属性 S 级异能者。",
     "faq": [
       {
@@ -2544,7 +2544,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "异常控制局",
     "description": "相属性异能者，Wiki 标注可能为 S 级。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -2713,7 +2713,7 @@
     "weaponEn": "TBD",
     "role": "待定",
     "roleEn": "TBD",
-    "faction": "未知",
+    "faction": "异常控制局",
     "description": "长白发少女，在故事初期与主角相遇。相属性异能者，身份和阵营信息存在冲突待确认。",
     "faq": [
       {
@@ -3051,7 +3051,7 @@
     "weaponEn": "Blade Wings",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "ETD-4",
     "description": "S 级相属性异能者，以刃翼为武器进行战斗。详细信息待确认。",
     "faq": [
       {
@@ -3220,7 +3220,7 @@
     "weaponEn": "Yokai Hammer",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "ETD-4",
     "description": "S 级宇宙属性异能者，使用妖锤战斗。城市大亨模式 18 级免费获取。",
     "faq": [
       {
@@ -3558,7 +3558,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "异常控制局",
     "description": "在预告片中出现的角色，咒术属性异能者。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -3727,7 +3727,7 @@
     "weaponEn": "TBD",
     "role": "支援",
     "roleEn": "Support",
-    "faction": "未知",
+    "faction": "星铁快递",
     "description": "在预告片中出现的角色，混沌属性异能者。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -3896,7 +3896,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "异常控制局",
     "description": "Co-Ex 测试版中出现过的角色，生命属性异能者。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -4065,7 +4065,7 @@
     "weaponEn": "TBD",
     "role": "支援",
     "roleEn": "Support",
-    "faction": "未知",
+    "faction": "星铁快递",
     "description": "Beta 测试中出现的角色，灵魂属性异能者。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -4234,7 +4234,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "ETD-4",
     "description": "通过数据挖掘发现的角色，混沌属性 S 级异能者。详细信息待确认，可能在正式上线时出现。",
     "faq": [
       {
@@ -4403,7 +4403,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "ETD-4",
     "description": "通过数据挖掘发现的角色，生命属性 S 级异能者。详细信息待确认。",
     "faq": [
       {
@@ -4572,7 +4572,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "ETD-4",
     "description": "已确认的 S 级角色，咒术属性异能者。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -4741,7 +4741,7 @@
     "weaponEn": "TBD",
     "role": "防护",
     "roleEn": "Defense",
-    "faction": "未知",
+    "faction": "异常管理局",
     "description": "来自社区数据的角色，灵魂属性异能者。详细信息待确认。",
     "faq": [
       {
@@ -4910,7 +4910,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "ETD-4",
     "description": "已确认的 S 级角色，相属性异能者。详细信息待游戏正式上线后确认。",
     "faq": [
       {
@@ -5586,7 +5586,7 @@
     "weaponEn": "Melee",
     "role": "输出",
     "roleEn": "DPS",
-    "faction": "",
+    "faction": "异常管理局",
     "description": "流浪的咒术剑士，以言灵之力强化武器进行战斗",
     "descriptionEn": "A wandering incantation swordsman who strengthens weapons with word spirit power",
     "faq": [
@@ -5924,7 +5924,7 @@
     "weaponEn": "Melee",
     "role": "输出",
     "roleEn": "DPS",
-    "faction": "",
+    "faction": "异常管理局",
     "description": "使用相属性双刀的剑客，攻击速度极快",
     "descriptionEn": "A swordsman using Lakshana dual blades with extremely fast attack speed",
     "faq": [
@@ -6262,7 +6262,7 @@
     "weaponEn": "TBD",
     "role": "支援",
     "roleEn": "Support",
-    "faction": "未知",
+    "faction": "圆环",
     "description": "公测新增A级角色，详细信息待公测后更新。",
     "faq": [],
     "relatedCharacters": [],
@@ -6307,7 +6307,7 @@
     "weaponEn": "TBD",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "未知",
+    "faction": "Eibon Antique Shop",
     "description": "通过都市大亨模式免费获取的S级角色。详细技能信息待公测后更新。",
     "faq": [],
     "relatedCharacters": [],
