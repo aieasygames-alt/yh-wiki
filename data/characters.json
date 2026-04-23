@@ -6743,7 +6743,7 @@
     },
     "availableAtLaunch": true,
     "acquisitionMethod": "city-tycoon",
-    "image": "/images/characters/xiaozhi.webp",
+    "image": "/images/characters/xiaozhi.png",
     "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch.",
     "status": "upcoming",
     "nameTw": "小吱",
@@ -6888,7 +6888,7 @@
       ]
     },
     "teamComps": [],
-    "image": "/images/characters/xun.webp",
+    "image": "/images/characters/xun.png",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor who runs an antique shop.",
