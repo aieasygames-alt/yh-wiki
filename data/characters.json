@@ -1797,12 +1797,12 @@
     "nameEn": "Haniel",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
-    "role": "待定",
-    "roleEn": "TBD",
+    "weapon": "音响",
+    "weaponEn": "Speaker",
+    "role": "支援",
+    "roleEn": "Support",
     "faction": "Sterry Express",
-    "description": "Sterry Express的月度最快送达纪录保持者，自诩为海瑟路 overseeing 耳机的神。性格活泼，充满活力，风格融合了街头文化与游戏元素。",
+    "description": "斯特利速递的月度最快送达纪录保持者。灵魂属性支援角色，以音响·咕咕子为武器，擅长为全队提供攻击力增益与合奏伤害。",
     "faq": [
       {
         "question": "Is Haniel good in Neverness to Everness?",
@@ -1845,46 +1845,51 @@
     "tierReasonZh": "A级战神，顶级加攻拐力，满觉12%暴伤加成",
     "skills": {
       "normalAttack": {
-        "name": "哈尼尔灵魂冲击",
-        "nameEn": "Haniel's Soul Impact",
-        "description": "哈尼尔使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Haniel performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "name": "盖罗塞克特术法",
+        "nameEn": "Gerossect Technique",
+        "description": "点按最多进行5段连击，长按释放蓄力炮。蓄力攻击可叠加「业」标记。",
+        "descriptionEn": "Tap for up to 5 consecutive hits, hold for charged shot. Charged attacks stack Karma marks."
       },
       "skill": {
-        "name": "心灵感应",
-        "nameEn": "Telepathy",
-        "description": "发动特殊能力，对目标区域造成psyche属性伤害，并根据场上状态触发不同的附加效果。",
-        "descriptionEn": "Activates a special ability dealing psyche damage to the target area, triggering different bonus effects based on field state.",
-        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
-        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
-        "cooldown": "15s",
+        "name": "静默月林的守护者",
+        "nameEn": "Guardian of the Silent Moonlit Woods",
+        "description": "投掷音响·咕咕子，持续8秒，根据哈尼尔基础攻击为全队提供攻击力增益。场上角色连续攻击2秒后触发「合奏」，造成范围灵魂属性伤害。",
+        "descriptionEn": "Throws Speaker CooCoo lasting 8s, granting ATK buff to team based on Haniel's base ATK. Active character attacking for 2s triggers Duet, dealing AoE Psyche DMG.",
+        "cooldown": "16s",
         "cost": "60 能量"
       },
       "ultimate": {
-        "name": "灵魂风暴",
-        "nameEn": "Soul Storm",
-        "description": "哈尼尔的终结技，对大范围敌人造成psyche属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
-        "descriptionEn": "Haniel's ultimate deals psyche AoE damage that scales with enemy count - more enemies means higher damage.",
-        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
-        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "名为哈尼娅的旋律",
+        "nameEn": "The Melody Called Hania",
+        "description": "以自身为中心展开强化领域，持续10秒。全队获得攻击力增益，合奏触发更高伤害。Q期间咕咕子计时暂停。",
+        "descriptionEn": "Creates enhancement field centered on self for 10s. Team gains ATK buff, Duet triggers higher DMG. CooCoo timer paused during Q.",
+        "cost": "80 能量"
+      },
+      "qte": {
+        "name": "黯星强化",
+        "nameEn": "Dark Star Enhancement",
+        "description": "黯星结束后，全队汲取敌方攻击力（上限为哈尼尔基础攻击的16%）。",
+        "descriptionEn": "After Dark Star ends, team drains enemy ATK (up to 16% of Haniel's base ATK)."
       },
       "passives": [
         {
-          "name": "灵巧身法",
-          "nameEn": "Agile Movement",
-          "description": "哈尼尔的闪避成功后，移动速度提升15%，持续5秒。",
-          "descriptionEn": "After Haniel successfully dodges, movement speed increases by 15% for 5s."
-        },
-        {
-          "name": "随机应变",
-          "nameEn": "Adaptability",
-          "description": "切换到哈尼尔时，获得一个随机增益效果，持续8秒。",
-          "descriptionEn": "When switching to Haniel, gain a random buff for 8s."
+          "name": "执事的素养",
+          "nameEn": "Butler's Dignity",
+          "description": "护盾强度+15%；队伍中有伊波恩成员时，全队灵魂属性伤害+8%。",
+          "descriptionEn": "Shield strength +15%; with Ebon member in party, team Psyche DMG +8%."
         }
+      ],
+      "awakening": [
+        { "name": "共鸣强化I", "nameEn": "Resonance I", "level": 1 },
+        { "name": "咕咕子延续", "nameEn": "CooCoo Extension", "level": 2 },
+        { "name": "旋律暴击", "nameEn": "Melodic Crit", "level": 3 },
+        { "name": "合奏加倍", "nameEn": "Duet Double", "level": 4 },
+        { "name": "灵魂增幅", "nameEn": "Psyche Amplification", "level": 5 },
+        { "name": "蓄力上限突破", "nameEn": "Charge Limit Break", "level": 6 }
+      ],
+      "resonance": [
+        { "name": "全队暴伤共鸣", "nameEn": "Team Crit DMG Resonance", "awakenReq": 3 },
+        { "name": "全队暴伤共鸣·极", "nameEn": "Team Crit DMG Resonance Max", "awakenReq": 6 }
       ]
     },
     "recommendedBuild": {
