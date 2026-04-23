@@ -1,5 +1,35 @@
 [
   {
+    "id": "day-one-beginner-guide",
+    "title": "异环公测第一天开荒指南 — 零氪新手必看清单",
+    "titleEn": "NTE Day One Beginner Guide — F2P Checklist",
+    "category": "guide",
+    "categoryZh": "攻略",
+    "categoryEn": "Guide",
+    "date": "2026-04-24",
+    "tags": [
+      "新手",
+      "开荒",
+      "零氪"
+    ],
+    "summary": "异环公测第一天完整开荒路线，包含新手必做任务、抽卡建议、资源规划和配队推荐。",
+    "summaryEn": "Complete Day 1 beginner guide with gacha advice, resource planning, and team recommendations.",
+    "internalLinks": [
+      {
+        "label": "角色强度排行",
+        "labelEn": "Tier List",
+        "href": "/tier-list"
+      },
+      {
+        "label": "兑换码大全",
+        "labelEn": "Redeem Codes",
+        "href": "/redeem-codes"
+      }
+    ],
+    "content": "异环公测已正式上线！这篇指南帮助你高效度过第一天。\n\n## 第一步：下载安装（10分钟）\n\n六平台均可游玩。别忘了先兑换3个公测兑换码！\n\n## 第二步：完成教程（30分钟）\n\n了解基本操作：移动、攻击、闪避、切换角色、环合反应。\n\n## 第三步：推进主线到第三章（1-2小时）\n\n主线是抽卡资源主要来源，第三章可获得约100-150抽。\n\n## 第四步：新手池抽卡\n\n6选1自选S级角色推荐：薄荷（90%首选）或早雾（抽娜娜莉搭档）。\n\n## 第五步：集中培养2-3个核心角色\n\n1主C + 1辅助 + 1生存位。不要平均分配！\n\n## 第六步：每日和活动\n\n14天登录签到（约42抽）+ 每日委托 + 公测活动。\n\n## 第七步：都市大亨模式\n\n免费获得小吱（S级），长期可满配6+5！\n\n## 零氪抽卡建议\n\n首日约150-200抽，优先抽娜娜莉池。\n\n## 常见错误\n\n1. 不要平均培养\n2. 不要跳过主线刷材料\n3. 不要忽略都市大亨免费角色",
+    "contentEn": "NTE Day 1 guide. 1) Download + redeem codes. 2) Tutorials. 3) Story to Ch3 for ~150 pulls. 4) Beginner selector: Mint or Hotori. 5) Focus on 2-3 chars. 6) 14-day login for ~42 pulls. 7) City Tycoon free S-rank Xiaozhi. F2P: prioritize Nanally banner."
+  },
+  {
     "id": "nte-launch-collaborations",
     "title": "异环公测联动大全 — 保时捷/P5/MyGO/孤独摇滚全汇总",
     "titleEn": "NTE Launch Collaborations — Porsche, P5, MyGO, Bocchi and More",

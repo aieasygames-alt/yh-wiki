@@ -1698,5 +1698,156 @@
       "mint"
     ],
     "relatedMaterials": []
+  },
+  {
+    "id": "genesis-team-guide",
+    "question": "异环创生队怎么配？最强配队推荐",
+    "questionEn": "How to build Genesis team in NTE?",
+    "answer": "创生队是公测最强队伍之一，核心反应为创生（光+灵）。推荐配队：娜娜莉（主C）+ 早雾（聚怪增伤）+ 九原（副C/聚怪）+ 主角（触发环合）。替代方案：薄荷替换九原提供治疗。操作要点：早雾先手聚怪增伤 → 娜娜莉输出触发创生 → 主角即瞬环合 → 循环。",
+    "answerEn": "Genesis team: Nanally (DPS) + Hotori (grouping/ATK buff) + Jiuyuan (sub-DPS) + Protagonist (Ring Fusion). Alternative: Mint replaces Jiuyuan for healing.",
+    "tags": [
+      "team",
+      "genesis"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队推荐",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "nanally",
+      "hotori",
+      "jiuyuan",
+      "mint"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "turbid-burn-team-guide",
+    "question": "异环浊燃队怎么配？暗属性破盾队推荐",
+    "questionEn": "How to build Turbid Burn team in NTE?",
+    "answer": "浊燃队利用浊燃（暗+咒）+失谐反应快速破盾。推荐配队：翳（暗属性挂点燃）+ 阿德勒（触发失谐破盾）+ 莉莉娜（暗属性输出）+ 白藏（护盾生存）。翳先手挂浊燃点燃 → 莉莉娜暗属性输出 → 阿德勒触发失谐破盾 → 白藏保证生存。",
+    "answerEn": "Turbid Burn team: Skia (Dark Ignite) + Adler (Disharmony break) + Lilina (Dark DPS) + Baicang (shield/survival).",
+    "tags": [
+      "team",
+      "turbid-burn"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队推荐",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "skia",
+      "adler",
+      "lilina",
+      "baicang"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "f2p-team-guide",
+    "question": "异环平民配队推荐？零氪最强队伍",
+    "questionEn": "Best F2P team comp in NTE?",
+    "answer": "零氪最强配队：薄荷（自选S治疗核心）+ 小吱（都市大亨免费6+5）+ 埃德加（A级聚怪）+ 主角（免费环合触发）。全部免费。中期目标：抽娜娜莉替换小吱组建创生队。",
+    "answerEn": "Best F2P: Mint (free S healer) + Xiaozhi (free 6+5) + Edgar (A-rank grouping) + Protagonist. All free. Mid-term: pull Nanally for Genesis team.",
+    "tags": [
+      "team",
+      "f2p"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队推荐",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "mint",
+      "xiaozhi",
+      "edgar"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "blaze-team-guide",
+    "question": "异环灼烧队怎么配？白藏火系配队",
+    "questionEn": "How to build Blaze team in NTE?",
+    "answer": "灼烧队以白藏为核心坦克。推荐配队：白藏（主坦）+ 赤音（火属性主C）+ 哈尼尔（增伤）+ 薄荷（治疗）。白藏护盾基于防御力，使用坚岩之心4件套。适合高难度Boss战。",
+    "answerEn": "Blaze team: Baicang (tank) + Akane (fire DPS) + Haniel (ATK buff) + Mint (healing). Baicang shield scales with DEF, use Heart of Stone 4pc.",
+    "tags": [
+      "team",
+      "blaze"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队推荐",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "baicang",
+      "akane",
+      "haniel",
+      "mint"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "best-launch-teams",
+    "question": "异环公测最强配队排名？T0队伍推荐",
+    "questionEn": "Best launch teams ranked in NTE?",
+    "answer": "公测T0：①创生队（娜娜莉+早雾+九原+主角）；②浊燃破盾队（翳+阿德勒+莉莉娜+白藏）。T1：③灼烧队（赤音+白藏+哈尼尔+薄荷）；④速切队（黑鸟+零+咲里+支援）。零氪队：薄荷+小吱+埃德加+主角。配队核心：2同属性触发环合+1不同属性+1生存位。",
+    "answerEn": "T0: Genesis (Nanally+Hotori+Jiuyuan+Protag), Turbid Burn (Skia+Adler+Lilina+Baicang). T1: Blaze, Quick-Swap. F2P: Mint+Xiaozhi+Edgar+Protag.",
+    "tags": [
+      "team",
+      "tier-list"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队推荐",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "nanally",
+      "skia",
+      "baicang"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "disk-upgrade-faq",
+    "question": "异环磁盘怎么强化？强化材料获取",
+    "questionEn": "How to upgrade disks in NTE?",
+    "answer": "磁盘强化：角色界面→磁盘栏位→强化→消耗低品质磁盘当材料。同套装材料有额外经验加成。建议：只强化A级和S级磁盘，C/B级当材料。输出磁盘优先暴击率/暴击伤害，辅助优先能量回复。",
+    "answerEn": "Character screen → Disk slot → Enhance → Use lower-quality disks as fodder. Only upgrade A/S-rank. DPS: Crit; Support: Energy Regen.",
+    "tags": [
+      "equipment",
+      "disk"
+    ],
+    "category": "equipment",
+    "categoryZh": "装备系统",
+    "categoryEn": "Equipment",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "weapon-upgrade-faq",
+    "question": "异环武器怎么升级？武器强化材料哪里刷？",
+    "questionEn": "How to upgrade weapons in NTE?",
+    "answer": "武器材料来源：1) 胡迪尼的魔术舞台副本（固定掉落）；2) 异象挑战掉落；3) 商店兑换。建议：优先升S级角色武器到上限；A级只过渡；不浪费在B/C级。主C武器等级=角色等级，辅助可低10-20级。",
+    "answerEn": "Materials: Houdini dungeon, anomaly drops, shop. Prioritize S-rank weapons. Main DPS weapon = char level, support 10-20 lower.",
+    "tags": [
+      "equipment",
+      "weapon"
+    ],
+    "category": "equipment",
+    "categoryZh": "装备系统",
+    "categoryEn": "Equipment",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "best-disk-set-per-role",
+    "question": "异环磁盘套装怎么选？各定位最佳套装",
+    "questionEn": "Which disk set to use per role in NTE?",
+    "answer": "主C暴击流：狂战士之怒4件套。主C反应流：裂空之牙4件套。治疗：繁星之誓4件套。增伤辅助：万象归一4件套。坦克：坚岩之心4件套。高爆发主C：炽焰之心4件套。充能辅助：回响之潮4件套。",
+    "answerEn": "DPS Crit: Berserker Fury. DPS Reaction: Skyrending Fang. Healer: Stellar Vow. Buffer: Unity of All. Tank: Heart of Stone. Burst DPS: Blazing Heart. Energy Support: Resonance Tide.",
+    "tags": [
+      "equipment",
+      "disk-set"
+    ],
+    "category": "equipment",
+    "categoryZh": "装备系统",
+    "categoryEn": "Equipment",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]

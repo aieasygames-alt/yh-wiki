@@ -6342,12 +6342,12 @@
     "nameEn": "Xiaozhi",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "短杖",
+    "weaponEn": "Wand",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "通过都市大亨模式免费获取的S级角色。详细技能信息待公测后更新。",
+    "description": "通过都市大亨模式免费获取的S级角色，可免费满觉醒(6+5)。核心机制围绕「金谷」资源展开，金谷越多伤害越高。光属性站场主C，操作简单下限极高。",
     "faq": [],
     "relatedCharacters": [],
     "tierRank": "S+",
@@ -6355,24 +6355,45 @@
     "tierReasonZh": "都市大亨免费6+5满配，满配后强度高于所有主C",
     "skills": {
       "normalAttack": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "待更新",
-        "descriptionEn": "TBD"
+        "name": "失乡剑术",
+        "nameEn": "Exile Swordsmanship",
+        "description": "挥动短杖进行至多五段连续攻击，造成光属性异能伤害。每次命中获得1点金谷（最多积累10点）。",
+        "descriptionEn": "Swing wand for up to 5 consecutive attacks dealing Anima damage. Each hit grants 1 Jinggu (max 10)."
       },
       "skill": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "待更新",
-        "descriptionEn": "TBD"
+        "name": "粉爪在上原则",
+        "nameEn": "Pink Paw Principle",
+        "description": "变轨技，最多累积3次充能。点按依次打出最多3段技能，每段基于当前金谷数量附加额外伤害。长按进入持续消耗模式，金谷越多单段伤害越高。核心输出技能。",
+        "descriptionEn": "Switch skill with max 3 charges. Each hit deals bonus damage based on current Jinggu count. Core DPS skill — more Jinggu = more damage.",
+        "scaling": "伤害随金谷数量线性提升，满金谷时伤害倍率约为基础的3倍"
       },
       "ultimate": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "待更新",
-        "descriptionEn": "TBD"
+        "name": "金谷市场",
+        "nameEn": "Jinggu Market",
+        "description": "挥舞短杖造成大范围光属性异能伤害，开启「金谷市场」状态持续7秒。期间每秒自动获得1点金谷，全队光属性伤害+15%，领域内敌人减速。",
+        "descriptionEn": "Deal wide-range Anima damage and enter Jinggu Market state for 7s. Gain +1 Jinggu/sec, +15% Anima DMG for full team, enemies slowed in area.",
+        "scaling": "大范围AOE伤害 + 持续7秒增益"
       },
-      "passives": []
+      "passives": [
+        {
+          "name": "财富感应",
+          "nameEn": "Wealth Sense",
+          "description": "金谷上限+5（从10提升至15）。觉醒后：黑糖波波暴击率+20%，金谷市场状态下队友攻击速度+10%。",
+          "descriptionEn": "Jinggu cap +5 (from 10 to 15). After awakening: Black Sugar Bobo Crit Rate +20%, ATK SPD +10% for team during Jinggu Market."
+        },
+        {
+          "name": "荒谷",
+          "nameEn": "Wild Valley",
+          "description": "长按普攻投出黑糖波波吞噬目标，造成两次光属性伤害，获得金谷和方斯。击杀目标额外获得方斯。",
+          "descriptionEn": "Hold normal attack to throw Black Sugar Bobo, dealing 2x Anima damage and granting Jinggu + Funds. Kill bonus: extra Funds."
+        },
+        {
+          "name": "临时入场",
+          "nameEn": "Temporary Entry",
+          "description": "位移技：召唤黑糖波波承载高速突进，撞击目标造成光属性伤害，获得2点金谷。可穿越小怪。",
+          "descriptionEn": "Mobility skill: Ride Black Sugar Bobo for high-speed dash, dealing Anima damage on impact. Gain +2 Jinggu. Can pass through enemies."
+        }
+      ]
     },
     "availableAtLaunch": true,
     "acquisitionMethod": "city-tycoon",

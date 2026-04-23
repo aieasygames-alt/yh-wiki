@@ -38,6 +38,7 @@
 /en/anomalies/tow-truck-anomaly /en/anomalies/tow-truck-anomaly/ 301
 /en/anomalies/tower-arc-disc /en/anomalies/tower-arc-disc/ 301
 /en/blog /en/blog/ 301
+/en/blog/day-one-beginner-guide /en/blog/day-one-beginner-guide/ 301
 /en/blog/nte-all-characters-overview /en/blog/nte-all-characters-overview/ 301
 /en/blog/nte-best-settings-guide /en/blog/nte-best-settings-guide/ 301
 /en/blog/nte-cbt-review /en/blog/nte-cbt-review/ 301
@@ -129,7 +130,10 @@
 /en/faq/beginner-banner-selector /en/faq/beginner-banner-selector/ 301
 /en/faq/beginner-character-recommendation /en/faq/beginner-character-recommendation/ 301
 /en/faq/beginner-guide-early-game /en/faq/beginner-guide-early-game/ 301
+/en/faq/best-disk-set-per-role /en/faq/best-disk-set-per-role/ 301
+/en/faq/best-launch-teams /en/faq/best-launch-teams/ 301
 /en/faq/beta-refund /en/faq/beta-refund/ 301
+/en/faq/blaze-team-guide /en/faq/blaze-team-guide/ 301
 /en/faq/boss-materials /en/faq/boss-materials/ 301
 /en/faq/chain-burst /en/faq/chain-burst/ 301
 /en/faq/character-build-priority /en/faq/character-build-priority/ 301
@@ -143,16 +147,19 @@
 /en/faq/cross-platform-save /en/faq/cross-platform-save/ 301
 /en/faq/crow-jade /en/faq/crow-jade/ 301
 /en/faq/disk-system /en/faq/disk-system/ 301
+/en/faq/disk-upgrade-faq /en/faq/disk-upgrade-faq/ 301
 /en/faq/download-installation /en/faq/download-installation/ 301
 /en/faq/download-size /en/faq/download-size/ 301
 /en/faq/esper-ability-types /en/faq/esper-ability-types/ 301
 /en/faq/f2p-beginner-route /en/faq/f2p-beginner-route/ 301
 /en/faq/f2p-friendly /en/faq/f2p-friendly/ 301
+/en/faq/f2p-team-guide /en/faq/f2p-team-guide/ 301
 /en/faq/fadia-worth-building /en/faq/fadia-worth-building/ 301
 /en/faq/free-pulls-total /en/faq/free-pulls-total/ 301
 /en/faq/gacha-currency /en/faq/gacha-currency/ 301
 /en/faq/gacha-currency-name /en/faq/gacha-currency-name/ 301
 /en/faq/gacha-priority /en/faq/gacha-priority/ 301
+/en/faq/genesis-team-guide /en/faq/genesis-team-guide/ 301
 /en/faq/global-server-launch /en/faq/global-server-launch/ 301
 /en/faq/harmonyos-details /en/faq/harmonyos-details/ 301
 /en/faq/harmonyos-support /en/faq/harmonyos-support/ 301
@@ -210,9 +217,11 @@
 /en/faq/team-composition-tips /en/faq/team-composition-tips/ 301
 /en/faq/test-signup /en/faq/test-signup/ 301
 /en/faq/test-vs-official /en/faq/test-vs-official/ 301
+/en/faq/turbid-burn-team-guide /en/faq/turbid-burn-team-guide/ 301
 /en/faq/ue5-7-engine-update /en/faq/ue5-7-engine-update/ 301
 /en/faq/vehicle-driving /en/faq/vehicle-driving/ 301
 /en/faq/weapon-upgrade /en/faq/weapon-upgrade/ 301
+/en/faq/weapon-upgrade-faq /en/faq/weapon-upgrade-faq/ 301
 /en/faq/xiaozhi-free-s-rank /en/faq/xiaozhi-free-s-rank/ 301
 /en/gacha /en/gacha/ 301
 /en/guides /en/guides/ 301
@@ -322,6 +331,7 @@
 /en/tags/battery /en/tags/battery/ 301
 /en/tags/beginner /en/tags/beginner/ 301
 /en/tags/beings /en/tags/beings/ 301
+/en/tags/blaze /en/tags/blaze/ 301
 /en/tags/boss /en/tags/boss/ 301
 /en/tags/build /en/tags/build/ 301
 /en/tags/challenge /en/tags/challenge/ 301
@@ -343,6 +353,7 @@
 /en/tags/damage /en/tags/damage/ 301
 /en/tags/day-one /en/tags/day-one/ 301
 /en/tags/disk /en/tags/disk/ 301
+/en/tags/disk-set /en/tags/disk-set/ 301
 /en/tags/disks /en/tags/disks/ 301
 /en/tags/district /en/tags/district/ 301
 /en/tags/domain /en/tags/domain/ 301
@@ -363,6 +374,7 @@
 /en/tags/formula /en/tags/formula/ 301
 /en/tags/free to play /en/tags/free to play/ 301
 /en/tags/gacha /en/tags/gacha/ 301
+/en/tags/genesis /en/tags/genesis/ 301
 /en/tags/global /en/tags/global/ 301
 /en/tags/graphics /en/tags/graphics/ 301
 /en/tags/guide /en/tags/guide/ 301
@@ -425,8 +437,10 @@
 /en/tags/technical /en/tags/technical/ 301
 /en/tags/testing /en/tags/testing/ 301
 /en/tags/tier list /en/tags/tier list/ 301
+/en/tags/tier-list /en/tags/tier-list/ 301
 /en/tags/timeline /en/tags/timeline/ 301
 /en/tags/tips /en/tags/tips/ 301
+/en/tags/turbid-burn /en/tags/turbid-burn/ 301
 /en/tags/update /en/tags/update/ 301
 /en/tags/weapon /en/tags/weapon/ 301
 /en/tags/weapons /en/tags/weapons/ 301
@@ -584,6 +598,7 @@
 /tw/anomalies/tow-truck-anomaly /tw/anomalies/tow-truck-anomaly/ 301
 /tw/anomalies/tower-arc-disc /tw/anomalies/tower-arc-disc/ 301
 /tw/blog /tw/blog/ 301
+/tw/blog/day-one-beginner-guide /tw/blog/day-one-beginner-guide/ 301
 /tw/blog/nte-all-characters-overview /tw/blog/nte-all-characters-overview/ 301
 /tw/blog/nte-best-settings-guide /tw/blog/nte-best-settings-guide/ 301
 /tw/blog/nte-cbt-review /tw/blog/nte-cbt-review/ 301
@@ -675,7 +690,10 @@
 /tw/faq/beginner-banner-selector /tw/faq/beginner-banner-selector/ 301
 /tw/faq/beginner-character-recommendation /tw/faq/beginner-character-recommendation/ 301
 /tw/faq/beginner-guide-early-game /tw/faq/beginner-guide-early-game/ 301
+/tw/faq/best-disk-set-per-role /tw/faq/best-disk-set-per-role/ 301
+/tw/faq/best-launch-teams /tw/faq/best-launch-teams/ 301
 /tw/faq/beta-refund /tw/faq/beta-refund/ 301
+/tw/faq/blaze-team-guide /tw/faq/blaze-team-guide/ 301
 /tw/faq/boss-materials /tw/faq/boss-materials/ 301
 /tw/faq/chain-burst /tw/faq/chain-burst/ 301
 /tw/faq/character-build-priority /tw/faq/character-build-priority/ 301
@@ -689,16 +707,19 @@
 /tw/faq/cross-platform-save /tw/faq/cross-platform-save/ 301
 /tw/faq/crow-jade /tw/faq/crow-jade/ 301
 /tw/faq/disk-system /tw/faq/disk-system/ 301
+/tw/faq/disk-upgrade-faq /tw/faq/disk-upgrade-faq/ 301
 /tw/faq/download-installation /tw/faq/download-installation/ 301
 /tw/faq/download-size /tw/faq/download-size/ 301
 /tw/faq/esper-ability-types /tw/faq/esper-ability-types/ 301
 /tw/faq/f2p-beginner-route /tw/faq/f2p-beginner-route/ 301
 /tw/faq/f2p-friendly /tw/faq/f2p-friendly/ 301
+/tw/faq/f2p-team-guide /tw/faq/f2p-team-guide/ 301
 /tw/faq/fadia-worth-building /tw/faq/fadia-worth-building/ 301
 /tw/faq/free-pulls-total /tw/faq/free-pulls-total/ 301
 /tw/faq/gacha-currency /tw/faq/gacha-currency/ 301
 /tw/faq/gacha-currency-name /tw/faq/gacha-currency-name/ 301
 /tw/faq/gacha-priority /tw/faq/gacha-priority/ 301
+/tw/faq/genesis-team-guide /tw/faq/genesis-team-guide/ 301
 /tw/faq/global-server-launch /tw/faq/global-server-launch/ 301
 /tw/faq/harmonyos-details /tw/faq/harmonyos-details/ 301
 /tw/faq/harmonyos-support /tw/faq/harmonyos-support/ 301
@@ -756,9 +777,11 @@
 /tw/faq/team-composition-tips /tw/faq/team-composition-tips/ 301
 /tw/faq/test-signup /tw/faq/test-signup/ 301
 /tw/faq/test-vs-official /tw/faq/test-vs-official/ 301
+/tw/faq/turbid-burn-team-guide /tw/faq/turbid-burn-team-guide/ 301
 /tw/faq/ue5-7-engine-update /tw/faq/ue5-7-engine-update/ 301
 /tw/faq/vehicle-driving /tw/faq/vehicle-driving/ 301
 /tw/faq/weapon-upgrade /tw/faq/weapon-upgrade/ 301
+/tw/faq/weapon-upgrade-faq /tw/faq/weapon-upgrade-faq/ 301
 /tw/faq/xiaozhi-free-s-rank /tw/faq/xiaozhi-free-s-rank/ 301
 /tw/gacha /tw/gacha/ 301
 /tw/guides /tw/guides/ 301
@@ -868,6 +891,7 @@
 /tw/tags/battery /tw/tags/battery/ 301
 /tw/tags/beginner /tw/tags/beginner/ 301
 /tw/tags/beings /tw/tags/beings/ 301
+/tw/tags/blaze /tw/tags/blaze/ 301
 /tw/tags/boss /tw/tags/boss/ 301
 /tw/tags/build /tw/tags/build/ 301
 /tw/tags/challenge /tw/tags/challenge/ 301
@@ -889,6 +913,7 @@
 /tw/tags/damage /tw/tags/damage/ 301
 /tw/tags/day-one /tw/tags/day-one/ 301
 /tw/tags/disk /tw/tags/disk/ 301
+/tw/tags/disk-set /tw/tags/disk-set/ 301
 /tw/tags/disks /tw/tags/disks/ 301
 /tw/tags/district /tw/tags/district/ 301
 /tw/tags/domain /tw/tags/domain/ 301
@@ -909,6 +934,7 @@
 /tw/tags/formula /tw/tags/formula/ 301
 /tw/tags/free to play /tw/tags/free to play/ 301
 /tw/tags/gacha /tw/tags/gacha/ 301
+/tw/tags/genesis /tw/tags/genesis/ 301
 /tw/tags/global /tw/tags/global/ 301
 /tw/tags/graphics /tw/tags/graphics/ 301
 /tw/tags/guide /tw/tags/guide/ 301
@@ -971,8 +997,10 @@
 /tw/tags/technical /tw/tags/technical/ 301
 /tw/tags/testing /tw/tags/testing/ 301
 /tw/tags/tier list /tw/tags/tier list/ 301
+/tw/tags/tier-list /tw/tags/tier-list/ 301
 /tw/tags/timeline /tw/tags/timeline/ 301
 /tw/tags/tips /tw/tags/tips/ 301
+/tw/tags/turbid-burn /tw/tags/turbid-burn/ 301
 /tw/tags/update /tw/tags/update/ 301
 /tw/tags/weapon /tw/tags/weapon/ 301
 /tw/tags/weapons /tw/tags/weapons/ 301
@@ -1130,6 +1158,7 @@
 /zh/anomalies/tow-truck-anomaly /zh/anomalies/tow-truck-anomaly/ 301
 /zh/anomalies/tower-arc-disc /zh/anomalies/tower-arc-disc/ 301
 /zh/blog /zh/blog/ 301
+/zh/blog/day-one-beginner-guide /zh/blog/day-one-beginner-guide/ 301
 /zh/blog/nte-all-characters-overview /zh/blog/nte-all-characters-overview/ 301
 /zh/blog/nte-best-settings-guide /zh/blog/nte-best-settings-guide/ 301
 /zh/blog/nte-cbt-review /zh/blog/nte-cbt-review/ 301
@@ -1221,7 +1250,10 @@
 /zh/faq/beginner-banner-selector /zh/faq/beginner-banner-selector/ 301
 /zh/faq/beginner-character-recommendation /zh/faq/beginner-character-recommendation/ 301
 /zh/faq/beginner-guide-early-game /zh/faq/beginner-guide-early-game/ 301
+/zh/faq/best-disk-set-per-role /zh/faq/best-disk-set-per-role/ 301
+/zh/faq/best-launch-teams /zh/faq/best-launch-teams/ 301
 /zh/faq/beta-refund /zh/faq/beta-refund/ 301
+/zh/faq/blaze-team-guide /zh/faq/blaze-team-guide/ 301
 /zh/faq/boss-materials /zh/faq/boss-materials/ 301
 /zh/faq/chain-burst /zh/faq/chain-burst/ 301
 /zh/faq/character-build-priority /zh/faq/character-build-priority/ 301
@@ -1235,16 +1267,19 @@
 /zh/faq/cross-platform-save /zh/faq/cross-platform-save/ 301
 /zh/faq/crow-jade /zh/faq/crow-jade/ 301
 /zh/faq/disk-system /zh/faq/disk-system/ 301
+/zh/faq/disk-upgrade-faq /zh/faq/disk-upgrade-faq/ 301
 /zh/faq/download-installation /zh/faq/download-installation/ 301
 /zh/faq/download-size /zh/faq/download-size/ 301
 /zh/faq/esper-ability-types /zh/faq/esper-ability-types/ 301
 /zh/faq/f2p-beginner-route /zh/faq/f2p-beginner-route/ 301
 /zh/faq/f2p-friendly /zh/faq/f2p-friendly/ 301
+/zh/faq/f2p-team-guide /zh/faq/f2p-team-guide/ 301
 /zh/faq/fadia-worth-building /zh/faq/fadia-worth-building/ 301
 /zh/faq/free-pulls-total /zh/faq/free-pulls-total/ 301
 /zh/faq/gacha-currency /zh/faq/gacha-currency/ 301
 /zh/faq/gacha-currency-name /zh/faq/gacha-currency-name/ 301
 /zh/faq/gacha-priority /zh/faq/gacha-priority/ 301
+/zh/faq/genesis-team-guide /zh/faq/genesis-team-guide/ 301
 /zh/faq/global-server-launch /zh/faq/global-server-launch/ 301
 /zh/faq/harmonyos-details /zh/faq/harmonyos-details/ 301
 /zh/faq/harmonyos-support /zh/faq/harmonyos-support/ 301
@@ -1302,9 +1337,11 @@
 /zh/faq/team-composition-tips /zh/faq/team-composition-tips/ 301
 /zh/faq/test-signup /zh/faq/test-signup/ 301
 /zh/faq/test-vs-official /zh/faq/test-vs-official/ 301
+/zh/faq/turbid-burn-team-guide /zh/faq/turbid-burn-team-guide/ 301
 /zh/faq/ue5-7-engine-update /zh/faq/ue5-7-engine-update/ 301
 /zh/faq/vehicle-driving /zh/faq/vehicle-driving/ 301
 /zh/faq/weapon-upgrade /zh/faq/weapon-upgrade/ 301
+/zh/faq/weapon-upgrade-faq /zh/faq/weapon-upgrade-faq/ 301
 /zh/faq/xiaozhi-free-s-rank /zh/faq/xiaozhi-free-s-rank/ 301
 /zh/gacha /zh/gacha/ 301
 /zh/guides /zh/guides/ 301
@@ -1414,6 +1451,7 @@
 /zh/tags/battery /zh/tags/battery/ 301
 /zh/tags/beginner /zh/tags/beginner/ 301
 /zh/tags/beings /zh/tags/beings/ 301
+/zh/tags/blaze /zh/tags/blaze/ 301
 /zh/tags/boss /zh/tags/boss/ 301
 /zh/tags/build /zh/tags/build/ 301
 /zh/tags/challenge /zh/tags/challenge/ 301
@@ -1435,6 +1473,7 @@
 /zh/tags/damage /zh/tags/damage/ 301
 /zh/tags/day-one /zh/tags/day-one/ 301
 /zh/tags/disk /zh/tags/disk/ 301
+/zh/tags/disk-set /zh/tags/disk-set/ 301
 /zh/tags/disks /zh/tags/disks/ 301
 /zh/tags/district /zh/tags/district/ 301
 /zh/tags/domain /zh/tags/domain/ 301
@@ -1455,6 +1494,7 @@
 /zh/tags/formula /zh/tags/formula/ 301
 /zh/tags/free to play /zh/tags/free to play/ 301
 /zh/tags/gacha /zh/tags/gacha/ 301
+/zh/tags/genesis /zh/tags/genesis/ 301
 /zh/tags/global /zh/tags/global/ 301
 /zh/tags/graphics /zh/tags/graphics/ 301
 /zh/tags/guide /zh/tags/guide/ 301
@@ -1517,8 +1557,10 @@
 /zh/tags/technical /zh/tags/technical/ 301
 /zh/tags/testing /zh/tags/testing/ 301
 /zh/tags/tier list /zh/tags/tier list/ 301
+/zh/tags/tier-list /zh/tags/tier-list/ 301
 /zh/tags/timeline /zh/tags/timeline/ 301
 /zh/tags/tips /zh/tags/tips/ 301
+/zh/tags/turbid-burn /zh/tags/turbid-burn/ 301
 /zh/tags/update /zh/tags/update/ 301
 /zh/tags/weapon /zh/tags/weapon/ 301
 /zh/tags/weapons /zh/tags/weapons/ 301
