@@ -969,5 +969,35 @@
     "relatedLocations": [],
     "relatedLore": [],
     "faq": []
+  },
+  {
+    "id": "arc-disc-guide",
+    "title": "弧盘系统完全攻略 — S级弧盘获取与搭配推荐",
+    "titleEn": "Arc Disc Complete Guide — S-Rank Discs, Acquisition & Best Builds",
+    "category": "equipment",
+    "categoryZh": "装备系统",
+    "categoryEn": "Equipment",
+    "summary": "弧盘是异环公测版本最重要的装备系统，战力提升幅度最大。本文详解弧盘获取途径、S级弧盘推荐、弧盘副本攻略和属性选择。",
+    "summaryEn": "Arc Discs are the most important equipment system in NTE launch. Complete guide to disc acquisition, S-rank recommendations, dungeon strategies, and stat priorities.",
+    "content": "弧盘系统是异环公测版本中战力提升最快的装备系统，每个角色可以装备一个弧盘来获得大量属性加成和特殊效果。以下是完整的弧盘攻略。\n\n## 弧盘是什么？\n\n弧盘（Arc Disc）是一种特殊装备，分为C级、B级、A级和S级四个品质。高品质弧盘提供更高的基础属性和更强的特殊效果。每个角色只能装备一个弧盘，但弧盘的属性可以大幅改变角色的战斗表现。\n\n## 弧盘获取途径\n\n1. **异象挑战**：击败Boss级异象有概率掉落弧盘，其中海囚Boss掉落S级弧盘概率最高\n2. **弧盘副本（高塔）**：专属弧盘挑战副本，C级弧盘稳定获取\n3. **商店兑换**：使用驱动块+卡带在空幕装置商店兑换\n4. **异象收容奖励**：完成斑蝶等异象收容任务获得\n5. **活动奖励**：公测活动赠送A级弧盘\n\n## S级弧盘推荐\n\n| 弧盘名 | 适用角色类型 | 核心效果 |\n|--------|------------|----------|\n| 金色攻击弧盘 | 主C输出 | 攻击力+暴击率大幅提升 |\n| 金色辅助弧盘 | 增益辅助 | 能量回复+效果持续时间延长 |\n| 金色防御弧盘 | 生存防御 | 伤害减免+护盾效果增强 |\n| 金色治疗弧盘 | 治疗支援 | 治疗量+额外回复效果 |\n\n## 弧盘属性选择\n\n输出角色优先：暴击率 > 暴击伤害 > 攻击力% > 属性伤害\n辅助角色优先：能量回复 > 效果命中 > 生命值% > 防御力%\n\n## 弧盘强化\n\n使用相同品质的弧盘作为强化材料。建议优先强化S级弧盘到满级，A级弧盘作为过渡。C级和B级弧盘仅作为强化材料使用。\n\n## 弧盘搭配推荐\n\n根据角色定位选择对应弧盘：\n- 娜娜莉：金色攻击弧盘 + 暴击/攻击副属性\n- 九原：金色辅助弧盘 + 能量回复副属性\n- 白藏：金色防御弧盘 + 防御/生命副属性\n- 哈尼尔：金色辅助弧盘 + 效果命中副属性",
+    "contentEn": "Arc Discs are the most impactful equipment system in NTE launch. This guide covers disc acquisition, S-rank recommendations, dungeon strategies, and stat priorities.\n\n## What are Arc Discs?\n\nArc Discs are special equipment items ranked C, B, A, and S. Higher quality discs provide better base stats and stronger effects. Each character equips one disc.\n\n## How to Get Arc Discs\n\n1. **Boss Anomaly drops** — Sea Prisoner has highest S-rank drop rate\n2. **Tower dungeon** — Dedicated disc challenge, guaranteed C-rank\n3. **Shop exchange** — Trade drive blocks + cassettes\n4. **Anomaly containment rewards** — From Spotted Butterfly and other bosses\n5. **Event rewards** — Launch events give A-rank discs\n\n## S-Rank Disc Recommendations\n\n- **Golden ATK Disc**: DPS characters — Crit Rate + Crit DMG\n- **Golden Support Disc**: Buffers — Energy Regen + Effect Duration\n- **Golden DEF Disc**: Tanks — DMG Reduction + Shield Strength\n- **Golden Heal Disc**: Healers — Heal Bonus + Additional Recovery\n\n## Stat Priority\n\nDPS: Crit Rate > Crit DMG > ATK% > Elemental DMG\nSupport: Energy Regen > Effect Hit > HP% > DEF%",
+    "tags": [
+      "弧盘",
+      "装备",
+      "攻略",
+      "Arc Disc",
+      "Equipment"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "How to get S-rank Arc Discs in NTE?",
+        "questionZh": "异环S级弧盘怎么获得？",
+        "answer": "S-rank Arc Discs drop from high-level Boss anomalies, especially Sea Prisoner. You can also get them from Tower dungeons at higher difficulty levels.",
+        "answerZh": "S级弧盘主要通过击败高级Boss异象获得，海囚Boss掉落概率最高。高级弧盘副本也有概率产出S级弧盘。"
+      }
+    ]
   }
 ]

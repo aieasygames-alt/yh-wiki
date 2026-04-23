@@ -593,5 +593,285 @@
         "notesEn": "A-rank powerhouse, given free at launch. 12% crit DMG at max awaken, must-build for second team."
       }
     ]
+  },
+  {
+    "characterId": "lilina",
+    "builds": [
+      {
+        "id": "lilina-dps",
+        "name": "暗属性主C输出流",
+        "nameEn": "Dark DPS Build",
+        "description": "利用浊燃反应的暗属性主C，搭配翳触发黯星爆发",
+        "descriptionEn": "Dark attribute DPS leveraging Turbid Burn reactions, paired with Skia for Dark Star bursts",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "属性伤害"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Elemental DMG"
+        ],
+        "recommendedWeapons": [
+          "void-scythe"
+        ],
+        "teamComp": [
+          "skia",
+          "adler"
+        ],
+        "notes": "浊燃队核心输出，翳提供浊燃前置，阿德勒破盾触发失谐。0觉即可胜任主C。",
+        "notesEn": "Turbid Burn team core DPS. Skia provides Turbid Burn setup, Adler breaks shields for Disharmony. Viable at 0-awaken."
+      }
+    ]
+  },
+  {
+    "characterId": "black-bird",
+    "builds": [
+      {
+        "id": "blackbird-dps",
+        "name": "混沌属性速切输出",
+        "nameEn": "Chaos Quick-Swap DPS",
+        "description": "高频切换触发连携技的混沌属性速切输出",
+        "descriptionEn": "Chaos attribute quick-swap DPS triggering chain attacks on character switch",
+        "mainStat": "暴击伤害",
+        "mainStatEn": "Crit DMG",
+        "subStats": [
+          "暴击率",
+          "攻击力%",
+          "充能效率",
+          "属性伤害"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "ATK%",
+          "Energy Regen",
+          "Elemental DMG"
+        ],
+        "recommendedWeapons": [
+          "chain-scythe"
+        ],
+        "teamComp": [
+          "zero",
+          "sakiri"
+        ],
+        "notes": "速切队核心，利用切换角色触发连携技打出高频伤害。需要高充能保证循环。",
+        "notesEn": "Quick-swap team core. Uses character switch chain attacks for high-frequency damage. Needs high Energy Regen for rotation."
+      }
+    ]
+  },
+  {
+    "characterId": "xiaozhen",
+    "builds": [
+      {
+        "id": "xiaozhen-dps",
+        "name": "物理格斗爆发流",
+        "nameEn": "Physical Fighting Burst Build",
+        "description": "以蓄力重击为核心的高爆发物理输出",
+        "descriptionEn": "High-burst physical DPS focused on charged heavy attacks",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "magnet-gauntlets"
+        ],
+        "teamComp": [
+          "baicang",
+          "mint"
+        ],
+        "notes": "蓄力重击伤害极高但需要安全输出环境，白藏提供护盾+薄荷治疗保生存。适合有一定操作基础的玩家。",
+        "notesEn": "Charged attacks deal massive damage but need safe windows. Baicang shields + Mint healing for survivability. Best for players comfortable with mechanics."
+      }
+    ]
+  },
+  {
+    "characterId": "akane",
+    "builds": [
+      {
+        "id": "akane-dps",
+        "name": "灼烧反应主C流",
+        "nameEn": "Blaze Reaction DPS Build",
+        "description": "炽焰之心套装核心灼烧主C，搭配创生/浊燃反应提升伤害",
+        "descriptionEn": "Blazing Heart set core DPS using burn reactions with Genesis/Turbid Burn synergy",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "属性伤害"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Elemental DMG"
+        ],
+        "recommendedWeapons": [
+          "sonic-guitar"
+        ],
+        "teamComp": [
+          "jiuyuan",
+          "haniel"
+        ],
+        "notes": "灼烧队核心输出，炽焰之心4件套配合必杀技暴击率加成。九原聚怪+哈尼尔增伤打出高额AOE。",
+        "notesEn": "Burn team core DPS. Blazing Heart 4pc + ultimate Crit Rate bonus. Jiuyuan groups + Haniel ATK buff for massive AOE."
+      }
+    ]
+  },
+  {
+    "characterId": "illica",
+    "builds": [
+      {
+        "id": "illica-dps",
+        "name": "狂战士暴击流",
+        "nameEn": "Berserker Crit Build",
+        "description": "利用狂战士之怒套装的暴击机制打出高频暴击",
+        "descriptionEn": "High Crit frequency build using Berserker's Fury set mechanics",
+        "mainStat": "暴击伤害",
+        "mainStatEn": "Crit DMG",
+        "subStats": [
+          "暴击率",
+          "攻击力%",
+          "暴击伤害",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "ATK%",
+          "Crit DMG",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "plasma-cannon"
+        ],
+        "teamComp": [
+          "hotori",
+          "mint"
+        ],
+        "notes": "狂战士之怒4件套核心使用者，暴击率50%以下获得额外暴击率加成，50%以上获得暴击伤害加成，无论哪种都强力。",
+        "notesEn": "Core user of Berserker's Fury 4pc. Below 50% Crit Rate gains extra rate, above 50% gains extra Crit DMG. Strong either way."
+      }
+    ]
+  },
+  {
+    "characterId": "crow",
+    "builds": [
+      {
+        "id": "crow-dps",
+        "name": "裂空高速输出流",
+        "nameEn": "Skyrending High-Speed DPS",
+        "description": "利用裂空之牙套装的属性反应增伤打出高频属性伤害",
+        "descriptionEn": "High-frequency elemental damage using Skyrending Fang reaction bonus",
+        "mainStat": "属性伤害",
+        "mainStatEn": "Elemental DMG",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "spirit-bow"
+        ],
+        "teamComp": [
+          "zero",
+          "daffodil"
+        ],
+        "notes": "裂空之牙4件套反应增伤核心，搭配零和达芙迪尔触发高频属性反应。建议保证暴击率60%以上。",
+        "notesEn": "Skyrending Fang 4pc reaction bonus core. Paired with Zero and Daffodil for high-frequency reactions. Aim for 60%+ Crit Rate."
+      }
+    ]
+  },
+  {
+    "characterId": "marina",
+    "builds": [
+      {
+        "id": "marina-dps",
+        "name": "裂空反应输出流",
+        "nameEn": "Skyrending Reaction DPS",
+        "description": "裂空之牙反应增伤的通用属性输出角色",
+        "descriptionEn": "General elemental DPS using Skyrending Fang reaction damage bonus",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "属性伤害",
+          "攻击力%"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "Elemental DMG",
+          "ATK%"
+        ],
+        "recommendedWeapons": [
+          "frost-fan"
+        ],
+        "teamComp": [
+          "skia",
+          "mint"
+        ],
+        "notes": "通用输出角色，裂空之牙4件套配合属性反应增伤。翳提供浊燃前置，薄荷保证生存。适合作为副C使用。",
+        "notesEn": "Versatile DPS with Skyrending Fang 4pc reaction bonus. Skia provides Turbid Burn setup, Mint for sustain. Good as sub-DPS."
+      }
+    ]
+  },
+  {
+    "characterId": "sylphy",
+    "builds": [
+      {
+        "id": "sylphy-support",
+        "name": "回响充能辅助流",
+        "nameEn": "Resonance Energy Support",
+        "description": "利用回响之潮的充能加成为全队提供能量回复",
+        "descriptionEn": "Energy support using Resonance Tide set to provide team-wide energy regen",
+        "mainStat": "能量回复效率",
+        "mainStatEn": "Energy Regen",
+        "subStats": [
+          "能量回复效率",
+          "生命值%",
+          "效果命中",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Energy Regen",
+          "HP%",
+          "Effect Hit",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "soul-lantern"
+        ],
+        "teamComp": [
+          "nanally",
+          "jiuyuan"
+        ],
+        "notes": "回响之潮4件套核心辅助，施放必杀技后全队回复15能量。搭配高能量消耗的主C（如娜娜莉）效果最佳。",
+        "notesEn": "Core Resonance Tide 4pc support. Ultimate restores 15 Energy to full team. Best with high-cost ult characters like Nanally."
+      }
+    ]
   }
 ]

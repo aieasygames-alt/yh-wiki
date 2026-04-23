@@ -121,6 +121,7 @@
 /en/faq/adler-worth-building /en/faq/adler-worth-building/ 301
 /en/faq/android-minimum-specs /en/faq/android-minimum-specs/ 301
 /en/faq/anomaly-commission /en/faq/anomaly-commission/ 301
+/en/faq/arc-disc-faq /en/faq/arc-disc-faq/ 301
 /en/faq/attribute-weakness /en/faq/attribute-weakness/ 301
 /en/faq/aurelia-launch-character /en/faq/aurelia-launch-character/ 301
 /en/faq/auto-battle /en/faq/auto-battle/ 301
@@ -131,6 +132,7 @@
 /en/faq/beta-refund /en/faq/beta-refund/ 301
 /en/faq/boss-materials /en/faq/boss-materials/ 301
 /en/faq/chain-burst /en/faq/chain-burst/ 301
+/en/faq/character-build-priority /en/faq/character-build-priority/ 301
 /en/faq/character-customization /en/faq/character-customization/ 301
 /en/faq/chiz-worth-building /en/faq/chiz-worth-building/ 301
 /en/faq/city-tycoon /en/faq/city-tycoon/ 301
@@ -144,8 +146,10 @@
 /en/faq/download-installation /en/faq/download-installation/ 301
 /en/faq/download-size /en/faq/download-size/ 301
 /en/faq/esper-ability-types /en/faq/esper-ability-types/ 301
+/en/faq/f2p-beginner-route /en/faq/f2p-beginner-route/ 301
 /en/faq/f2p-friendly /en/faq/f2p-friendly/ 301
 /en/faq/fadia-worth-building /en/faq/fadia-worth-building/ 301
+/en/faq/free-pulls-total /en/faq/free-pulls-total/ 301
 /en/faq/gacha-currency /en/faq/gacha-currency/ 301
 /en/faq/gacha-currency-name /en/faq/gacha-currency-name/ 301
 /en/faq/gacha-priority /en/faq/gacha-priority/ 301
@@ -191,24 +195,29 @@
 /en/faq/reroll-guide /en/faq/reroll-guide/ 301
 /en/faq/resin-stamina-system /en/faq/resin-stamina-system/ 301
 /en/faq/ring-fusion-mechanic /en/faq/ring-fusion-mechanic/ 301
+/en/faq/ring-fusion-mechanics /en/faq/ring-fusion-mechanics/ 301
 /en/faq/s-rank-characters /en/faq/s-rank-characters/ 301
 /en/faq/sakiri-worth-building /en/faq/sakiri-worth-building/ 301
 /en/faq/shop-auto-farm /en/faq/shop-auto-farm/ 301
 /en/faq/six-attributes /en/faq/six-attributes/ 301
 /en/faq/skill-upgrade-materials /en/faq/skill-upgrade-materials/ 301
 /en/faq/stamina-management /en/faq/stamina-management/ 301
+/en/faq/stamina-planning /en/faq/stamina-planning/ 301
 /en/faq/standard-banner-selector /en/faq/standard-banner-selector/ 301
 /en/faq/starter-s-rank /en/faq/starter-s-rank/ 301
+/en/faq/starter-s-rank-selector /en/faq/starter-s-rank-selector/ 301
 /en/faq/system-requirements /en/faq/system-requirements/ 301
 /en/faq/team-composition-tips /en/faq/team-composition-tips/ 301
 /en/faq/test-signup /en/faq/test-signup/ 301
 /en/faq/test-vs-official /en/faq/test-vs-official/ 301
+/en/faq/ue5-7-engine-update /en/faq/ue5-7-engine-update/ 301
 /en/faq/vehicle-driving /en/faq/vehicle-driving/ 301
 /en/faq/weapon-upgrade /en/faq/weapon-upgrade/ 301
 /en/faq/xiaozhi-free-s-rank /en/faq/xiaozhi-free-s-rank/ 301
 /en/gacha /en/gacha/ 301
 /en/guides /en/guides/ 301
 /en/guides/anomaly-dungeon /en/guides/anomaly-dungeon/ 301
+/en/guides/arc-disc-guide /en/guides/arc-disc-guide/ 301
 /en/guides/beginner-guide /en/guides/beginner-guide/ 301
 /en/guides/beginner-mistakes /en/guides/beginner-mistakes/ 301
 /en/guides/boss-guide /en/guides/boss-guide/ 301
@@ -305,6 +314,8 @@
 /en/tags/android /en/tags/android/ 301
 /en/tags/anima /en/tags/anima/ 301
 /en/tags/anomaly /en/tags/anomaly/ 301
+/en/tags/arc disc /en/tags/arc disc/ 301
+/en/tags/arc-disc /en/tags/arc-disc/ 301
 /en/tags/attributes /en/tags/attributes/ 301
 /en/tags/awakening /en/tags/awakening/ 301
 /en/tags/basics /en/tags/basics/ 301
@@ -330,6 +341,7 @@
 /en/tags/currency /en/tags/currency/ 301
 /en/tags/daily /en/tags/daily/ 301
 /en/tags/damage /en/tags/damage/ 301
+/en/tags/day-one /en/tags/day-one/ 301
 /en/tags/disk /en/tags/disk/ 301
 /en/tags/disks /en/tags/disks/ 301
 /en/tags/district /en/tags/district/ 301
@@ -340,6 +352,7 @@
 /en/tags/efficiency /en/tags/efficiency/ 301
 /en/tags/element /en/tags/element/ 301
 /en/tags/endgame /en/tags/endgame/ 301
+/en/tags/engine /en/tags/engine/ 301
 /en/tags/enhancement /en/tags/enhancement/ 301
 /en/tags/equipment /en/tags/equipment/ 301
 /en/tags/event /en/tags/event/ 301
@@ -379,6 +392,7 @@
 /en/tags/permit /en/tags/permit/ 301
 /en/tags/phenomena /en/tags/phenomena/ 301
 /en/tags/pity /en/tags/pity/ 301
+/en/tags/planning /en/tags/planning/ 301
 /en/tags/platform /en/tags/platform/ 301
 /en/tags/priority /en/tags/priority/ 301
 /en/tags/psyche /en/tags/psyche/ 301
@@ -393,9 +407,11 @@
 /en/tags/resources /en/tags/resources/ 301
 /en/tags/review /en/tags/review/ 301
 /en/tags/rewards /en/tags/rewards/ 301
+/en/tags/ring-fusion /en/tags/ring-fusion/ 301
 /en/tags/routine /en/tags/routine/ 301
 /en/tags/s /en/tags/s/ 301
 /en/tags/secrets /en/tags/secrets/ 301
+/en/tags/selector /en/tags/selector/ 301
 /en/tags/specs /en/tags/specs/ 301
 /en/tags/stamina /en/tags/stamina/ 301
 /en/tags/storage /en/tags/storage/ 301
@@ -406,10 +422,12 @@
 /en/tags/systems /en/tags/systems/ 301
 /en/tags/talent /en/tags/talent/ 301
 /en/tags/team /en/tags/team/ 301
+/en/tags/technical /en/tags/technical/ 301
 /en/tags/testing /en/tags/testing/ 301
 /en/tags/tier list /en/tags/tier list/ 301
 /en/tags/timeline /en/tags/timeline/ 301
 /en/tags/tips /en/tags/tips/ 301
+/en/tags/update /en/tags/update/ 301
 /en/tags/weapon /en/tags/weapon/ 301
 /en/tags/weapons /en/tags/weapons/ 301
 /en/tags/下载 /en/tags/下载/ 301
@@ -434,6 +452,7 @@
 /en/tags/属性 /en/tags/属性/ 301
 /en/tags/平台 /en/tags/平台/ 301
 /en/tags/异象 /en/tags/异象/ 301
+/en/tags/弧盘 /en/tags/弧盘/ 301
 /en/tags/强化 /en/tags/强化/ 301
 /en/tags/强度榜 /en/tags/强度榜/ 301
 /en/tags/待定 /en/tags/待定/ 301
@@ -648,6 +667,7 @@
 /tw/faq/adler-worth-building /tw/faq/adler-worth-building/ 301
 /tw/faq/android-minimum-specs /tw/faq/android-minimum-specs/ 301
 /tw/faq/anomaly-commission /tw/faq/anomaly-commission/ 301
+/tw/faq/arc-disc-faq /tw/faq/arc-disc-faq/ 301
 /tw/faq/attribute-weakness /tw/faq/attribute-weakness/ 301
 /tw/faq/aurelia-launch-character /tw/faq/aurelia-launch-character/ 301
 /tw/faq/auto-battle /tw/faq/auto-battle/ 301
@@ -658,6 +678,7 @@
 /tw/faq/beta-refund /tw/faq/beta-refund/ 301
 /tw/faq/boss-materials /tw/faq/boss-materials/ 301
 /tw/faq/chain-burst /tw/faq/chain-burst/ 301
+/tw/faq/character-build-priority /tw/faq/character-build-priority/ 301
 /tw/faq/character-customization /tw/faq/character-customization/ 301
 /tw/faq/chiz-worth-building /tw/faq/chiz-worth-building/ 301
 /tw/faq/city-tycoon /tw/faq/city-tycoon/ 301
@@ -671,8 +692,10 @@
 /tw/faq/download-installation /tw/faq/download-installation/ 301
 /tw/faq/download-size /tw/faq/download-size/ 301
 /tw/faq/esper-ability-types /tw/faq/esper-ability-types/ 301
+/tw/faq/f2p-beginner-route /tw/faq/f2p-beginner-route/ 301
 /tw/faq/f2p-friendly /tw/faq/f2p-friendly/ 301
 /tw/faq/fadia-worth-building /tw/faq/fadia-worth-building/ 301
+/tw/faq/free-pulls-total /tw/faq/free-pulls-total/ 301
 /tw/faq/gacha-currency /tw/faq/gacha-currency/ 301
 /tw/faq/gacha-currency-name /tw/faq/gacha-currency-name/ 301
 /tw/faq/gacha-priority /tw/faq/gacha-priority/ 301
@@ -718,24 +741,29 @@
 /tw/faq/reroll-guide /tw/faq/reroll-guide/ 301
 /tw/faq/resin-stamina-system /tw/faq/resin-stamina-system/ 301
 /tw/faq/ring-fusion-mechanic /tw/faq/ring-fusion-mechanic/ 301
+/tw/faq/ring-fusion-mechanics /tw/faq/ring-fusion-mechanics/ 301
 /tw/faq/s-rank-characters /tw/faq/s-rank-characters/ 301
 /tw/faq/sakiri-worth-building /tw/faq/sakiri-worth-building/ 301
 /tw/faq/shop-auto-farm /tw/faq/shop-auto-farm/ 301
 /tw/faq/six-attributes /tw/faq/six-attributes/ 301
 /tw/faq/skill-upgrade-materials /tw/faq/skill-upgrade-materials/ 301
 /tw/faq/stamina-management /tw/faq/stamina-management/ 301
+/tw/faq/stamina-planning /tw/faq/stamina-planning/ 301
 /tw/faq/standard-banner-selector /tw/faq/standard-banner-selector/ 301
 /tw/faq/starter-s-rank /tw/faq/starter-s-rank/ 301
+/tw/faq/starter-s-rank-selector /tw/faq/starter-s-rank-selector/ 301
 /tw/faq/system-requirements /tw/faq/system-requirements/ 301
 /tw/faq/team-composition-tips /tw/faq/team-composition-tips/ 301
 /tw/faq/test-signup /tw/faq/test-signup/ 301
 /tw/faq/test-vs-official /tw/faq/test-vs-official/ 301
+/tw/faq/ue5-7-engine-update /tw/faq/ue5-7-engine-update/ 301
 /tw/faq/vehicle-driving /tw/faq/vehicle-driving/ 301
 /tw/faq/weapon-upgrade /tw/faq/weapon-upgrade/ 301
 /tw/faq/xiaozhi-free-s-rank /tw/faq/xiaozhi-free-s-rank/ 301
 /tw/gacha /tw/gacha/ 301
 /tw/guides /tw/guides/ 301
 /tw/guides/anomaly-dungeon /tw/guides/anomaly-dungeon/ 301
+/tw/guides/arc-disc-guide /tw/guides/arc-disc-guide/ 301
 /tw/guides/beginner-guide /tw/guides/beginner-guide/ 301
 /tw/guides/beginner-mistakes /tw/guides/beginner-mistakes/ 301
 /tw/guides/boss-guide /tw/guides/boss-guide/ 301
@@ -832,6 +860,8 @@
 /tw/tags/android /tw/tags/android/ 301
 /tw/tags/anima /tw/tags/anima/ 301
 /tw/tags/anomaly /tw/tags/anomaly/ 301
+/tw/tags/arc disc /tw/tags/arc disc/ 301
+/tw/tags/arc-disc /tw/tags/arc-disc/ 301
 /tw/tags/attributes /tw/tags/attributes/ 301
 /tw/tags/awakening /tw/tags/awakening/ 301
 /tw/tags/basics /tw/tags/basics/ 301
@@ -857,6 +887,7 @@
 /tw/tags/currency /tw/tags/currency/ 301
 /tw/tags/daily /tw/tags/daily/ 301
 /tw/tags/damage /tw/tags/damage/ 301
+/tw/tags/day-one /tw/tags/day-one/ 301
 /tw/tags/disk /tw/tags/disk/ 301
 /tw/tags/disks /tw/tags/disks/ 301
 /tw/tags/district /tw/tags/district/ 301
@@ -867,6 +898,7 @@
 /tw/tags/efficiency /tw/tags/efficiency/ 301
 /tw/tags/element /tw/tags/element/ 301
 /tw/tags/endgame /tw/tags/endgame/ 301
+/tw/tags/engine /tw/tags/engine/ 301
 /tw/tags/enhancement /tw/tags/enhancement/ 301
 /tw/tags/equipment /tw/tags/equipment/ 301
 /tw/tags/event /tw/tags/event/ 301
@@ -906,6 +938,7 @@
 /tw/tags/permit /tw/tags/permit/ 301
 /tw/tags/phenomena /tw/tags/phenomena/ 301
 /tw/tags/pity /tw/tags/pity/ 301
+/tw/tags/planning /tw/tags/planning/ 301
 /tw/tags/platform /tw/tags/platform/ 301
 /tw/tags/priority /tw/tags/priority/ 301
 /tw/tags/psyche /tw/tags/psyche/ 301
@@ -920,9 +953,11 @@
 /tw/tags/resources /tw/tags/resources/ 301
 /tw/tags/review /tw/tags/review/ 301
 /tw/tags/rewards /tw/tags/rewards/ 301
+/tw/tags/ring-fusion /tw/tags/ring-fusion/ 301
 /tw/tags/routine /tw/tags/routine/ 301
 /tw/tags/s /tw/tags/s/ 301
 /tw/tags/secrets /tw/tags/secrets/ 301
+/tw/tags/selector /tw/tags/selector/ 301
 /tw/tags/specs /tw/tags/specs/ 301
 /tw/tags/stamina /tw/tags/stamina/ 301
 /tw/tags/storage /tw/tags/storage/ 301
@@ -933,10 +968,12 @@
 /tw/tags/systems /tw/tags/systems/ 301
 /tw/tags/talent /tw/tags/talent/ 301
 /tw/tags/team /tw/tags/team/ 301
+/tw/tags/technical /tw/tags/technical/ 301
 /tw/tags/testing /tw/tags/testing/ 301
 /tw/tags/tier list /tw/tags/tier list/ 301
 /tw/tags/timeline /tw/tags/timeline/ 301
 /tw/tags/tips /tw/tags/tips/ 301
+/tw/tags/update /tw/tags/update/ 301
 /tw/tags/weapon /tw/tags/weapon/ 301
 /tw/tags/weapons /tw/tags/weapons/ 301
 /tw/tags/下载 /tw/tags/下载/ 301
@@ -961,6 +998,7 @@
 /tw/tags/属性 /tw/tags/属性/ 301
 /tw/tags/平台 /tw/tags/平台/ 301
 /tw/tags/异象 /tw/tags/异象/ 301
+/tw/tags/弧盘 /tw/tags/弧盘/ 301
 /tw/tags/强化 /tw/tags/强化/ 301
 /tw/tags/强度榜 /tw/tags/强度榜/ 301
 /tw/tags/待定 /tw/tags/待定/ 301
@@ -1175,6 +1213,7 @@
 /zh/faq/adler-worth-building /zh/faq/adler-worth-building/ 301
 /zh/faq/android-minimum-specs /zh/faq/android-minimum-specs/ 301
 /zh/faq/anomaly-commission /zh/faq/anomaly-commission/ 301
+/zh/faq/arc-disc-faq /zh/faq/arc-disc-faq/ 301
 /zh/faq/attribute-weakness /zh/faq/attribute-weakness/ 301
 /zh/faq/aurelia-launch-character /zh/faq/aurelia-launch-character/ 301
 /zh/faq/auto-battle /zh/faq/auto-battle/ 301
@@ -1185,6 +1224,7 @@
 /zh/faq/beta-refund /zh/faq/beta-refund/ 301
 /zh/faq/boss-materials /zh/faq/boss-materials/ 301
 /zh/faq/chain-burst /zh/faq/chain-burst/ 301
+/zh/faq/character-build-priority /zh/faq/character-build-priority/ 301
 /zh/faq/character-customization /zh/faq/character-customization/ 301
 /zh/faq/chiz-worth-building /zh/faq/chiz-worth-building/ 301
 /zh/faq/city-tycoon /zh/faq/city-tycoon/ 301
@@ -1198,8 +1238,10 @@
 /zh/faq/download-installation /zh/faq/download-installation/ 301
 /zh/faq/download-size /zh/faq/download-size/ 301
 /zh/faq/esper-ability-types /zh/faq/esper-ability-types/ 301
+/zh/faq/f2p-beginner-route /zh/faq/f2p-beginner-route/ 301
 /zh/faq/f2p-friendly /zh/faq/f2p-friendly/ 301
 /zh/faq/fadia-worth-building /zh/faq/fadia-worth-building/ 301
+/zh/faq/free-pulls-total /zh/faq/free-pulls-total/ 301
 /zh/faq/gacha-currency /zh/faq/gacha-currency/ 301
 /zh/faq/gacha-currency-name /zh/faq/gacha-currency-name/ 301
 /zh/faq/gacha-priority /zh/faq/gacha-priority/ 301
@@ -1245,24 +1287,29 @@
 /zh/faq/reroll-guide /zh/faq/reroll-guide/ 301
 /zh/faq/resin-stamina-system /zh/faq/resin-stamina-system/ 301
 /zh/faq/ring-fusion-mechanic /zh/faq/ring-fusion-mechanic/ 301
+/zh/faq/ring-fusion-mechanics /zh/faq/ring-fusion-mechanics/ 301
 /zh/faq/s-rank-characters /zh/faq/s-rank-characters/ 301
 /zh/faq/sakiri-worth-building /zh/faq/sakiri-worth-building/ 301
 /zh/faq/shop-auto-farm /zh/faq/shop-auto-farm/ 301
 /zh/faq/six-attributes /zh/faq/six-attributes/ 301
 /zh/faq/skill-upgrade-materials /zh/faq/skill-upgrade-materials/ 301
 /zh/faq/stamina-management /zh/faq/stamina-management/ 301
+/zh/faq/stamina-planning /zh/faq/stamina-planning/ 301
 /zh/faq/standard-banner-selector /zh/faq/standard-banner-selector/ 301
 /zh/faq/starter-s-rank /zh/faq/starter-s-rank/ 301
+/zh/faq/starter-s-rank-selector /zh/faq/starter-s-rank-selector/ 301
 /zh/faq/system-requirements /zh/faq/system-requirements/ 301
 /zh/faq/team-composition-tips /zh/faq/team-composition-tips/ 301
 /zh/faq/test-signup /zh/faq/test-signup/ 301
 /zh/faq/test-vs-official /zh/faq/test-vs-official/ 301
+/zh/faq/ue5-7-engine-update /zh/faq/ue5-7-engine-update/ 301
 /zh/faq/vehicle-driving /zh/faq/vehicle-driving/ 301
 /zh/faq/weapon-upgrade /zh/faq/weapon-upgrade/ 301
 /zh/faq/xiaozhi-free-s-rank /zh/faq/xiaozhi-free-s-rank/ 301
 /zh/gacha /zh/gacha/ 301
 /zh/guides /zh/guides/ 301
 /zh/guides/anomaly-dungeon /zh/guides/anomaly-dungeon/ 301
+/zh/guides/arc-disc-guide /zh/guides/arc-disc-guide/ 301
 /zh/guides/beginner-guide /zh/guides/beginner-guide/ 301
 /zh/guides/beginner-mistakes /zh/guides/beginner-mistakes/ 301
 /zh/guides/boss-guide /zh/guides/boss-guide/ 301
@@ -1359,6 +1406,8 @@
 /zh/tags/android /zh/tags/android/ 301
 /zh/tags/anima /zh/tags/anima/ 301
 /zh/tags/anomaly /zh/tags/anomaly/ 301
+/zh/tags/arc disc /zh/tags/arc disc/ 301
+/zh/tags/arc-disc /zh/tags/arc-disc/ 301
 /zh/tags/attributes /zh/tags/attributes/ 301
 /zh/tags/awakening /zh/tags/awakening/ 301
 /zh/tags/basics /zh/tags/basics/ 301
@@ -1384,6 +1433,7 @@
 /zh/tags/currency /zh/tags/currency/ 301
 /zh/tags/daily /zh/tags/daily/ 301
 /zh/tags/damage /zh/tags/damage/ 301
+/zh/tags/day-one /zh/tags/day-one/ 301
 /zh/tags/disk /zh/tags/disk/ 301
 /zh/tags/disks /zh/tags/disks/ 301
 /zh/tags/district /zh/tags/district/ 301
@@ -1394,6 +1444,7 @@
 /zh/tags/efficiency /zh/tags/efficiency/ 301
 /zh/tags/element /zh/tags/element/ 301
 /zh/tags/endgame /zh/tags/endgame/ 301
+/zh/tags/engine /zh/tags/engine/ 301
 /zh/tags/enhancement /zh/tags/enhancement/ 301
 /zh/tags/equipment /zh/tags/equipment/ 301
 /zh/tags/event /zh/tags/event/ 301
@@ -1433,6 +1484,7 @@
 /zh/tags/permit /zh/tags/permit/ 301
 /zh/tags/phenomena /zh/tags/phenomena/ 301
 /zh/tags/pity /zh/tags/pity/ 301
+/zh/tags/planning /zh/tags/planning/ 301
 /zh/tags/platform /zh/tags/platform/ 301
 /zh/tags/priority /zh/tags/priority/ 301
 /zh/tags/psyche /zh/tags/psyche/ 301
@@ -1447,9 +1499,11 @@
 /zh/tags/resources /zh/tags/resources/ 301
 /zh/tags/review /zh/tags/review/ 301
 /zh/tags/rewards /zh/tags/rewards/ 301
+/zh/tags/ring-fusion /zh/tags/ring-fusion/ 301
 /zh/tags/routine /zh/tags/routine/ 301
 /zh/tags/s /zh/tags/s/ 301
 /zh/tags/secrets /zh/tags/secrets/ 301
+/zh/tags/selector /zh/tags/selector/ 301
 /zh/tags/specs /zh/tags/specs/ 301
 /zh/tags/stamina /zh/tags/stamina/ 301
 /zh/tags/storage /zh/tags/storage/ 301
@@ -1460,10 +1514,12 @@
 /zh/tags/systems /zh/tags/systems/ 301
 /zh/tags/talent /zh/tags/talent/ 301
 /zh/tags/team /zh/tags/team/ 301
+/zh/tags/technical /zh/tags/technical/ 301
 /zh/tags/testing /zh/tags/testing/ 301
 /zh/tags/tier list /zh/tags/tier list/ 301
 /zh/tags/timeline /zh/tags/timeline/ 301
 /zh/tags/tips /zh/tags/tips/ 301
+/zh/tags/update /zh/tags/update/ 301
 /zh/tags/weapon /zh/tags/weapon/ 301
 /zh/tags/weapons /zh/tags/weapons/ 301
 /zh/tags/下载 /zh/tags/下载/ 301
@@ -1488,6 +1544,7 @@
 /zh/tags/属性 /zh/tags/属性/ 301
 /zh/tags/平台 /zh/tags/平台/ 301
 /zh/tags/异象 /zh/tags/异象/ 301
+/zh/tags/弧盘 /zh/tags/弧盘/ 301
 /zh/tags/强化 /zh/tags/强化/ 301
 /zh/tags/强度榜 /zh/tags/强度榜/ 301
 /zh/tags/待定 /zh/tags/待定/ 301
