@@ -338,10 +338,7 @@
     "acquisitionMethod": "beginner-selector",
     "descriptionEn": "A horned Esper of the Eibon Antique Shop who fights alongside her gluttonous Anomaly companion Kiroumaru. An Incantation-attribute support specialist who excels at buffing teammates.",
     "status": "available",
-    "nameTw": "咲里",
-    "cvZh": "小连杀",
-    "cvJp": "日高里菜",
-    "cvJpEn": "Rina Hidaka"
+    "nameTw": "咲里"
   },
   {
     "id": "fadia",
@@ -1198,10 +1195,7 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle.",
     "status": "available",
-    "nameTw": "穗鳥",
-    "cvZh": "陶典",
-    "cvJp": "石川由依",
-    "cvJpEn": "Yui Ishikawa"
+    "nameTw": "穗鳥"
   },
   {
     "id": "daffodil",
@@ -2912,10 +2906,7 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed.",
     "status": "upcoming",
-    "nameTw": "阿爾法德",
-    "cvZh": "刘琮",
-    "cvJp": "子安武人",
-    "cvJpEn": "Takehito Koyasu"
+    "nameTw": "阿爾法德"
   },
   {
     "id": "taygedo",
@@ -3084,10 +3075,7 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
     "status": "upcoming",
-    "nameTw": "泰格多",
-    "cvZh": "王肖兵",
-    "cvJp": "置鲇龙太郎",
-    "cvJpEn": "Ryotaro Okiayu"
+    "nameTw": "泰格多"
   },
   {
     "id": "hathor",
