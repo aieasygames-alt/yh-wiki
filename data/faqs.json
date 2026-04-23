@@ -100,7 +100,12 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "baicang",
+      "daffodil",
+      "skia"
+    ],
     "relatedMaterials": []
   },
   {
@@ -117,7 +122,9 @@
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "stamina-potion"
+    ]
   },
   {
     "id": "beginner-character-recommendation",
@@ -297,7 +304,9 @@
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "stamina-potion"
+    ]
   },
   {
     "id": "chiz-worth-building",
@@ -447,7 +456,9 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "gacha-ticket"
+    ]
   },
   {
     "id": "gacha-priority",
@@ -499,7 +510,11 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "zero",
+      "daffodil",
+      "xiaozhen"
+    ],
     "relatedMaterials": []
   },
   {
@@ -515,7 +530,11 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "hotori"
+    ],
     "relatedMaterials": []
   },
   {
@@ -531,7 +550,11 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "zero",
+      "baicang"
+    ],
     "relatedMaterials": []
   },
   {
@@ -548,7 +571,9 @@
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "crow-jade"
+    ]
   },
   {
     "id": "crow-jade",
@@ -564,7 +589,9 @@
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "crow-jade"
+    ]
   },
   {
     "id": "hidden-areas",
@@ -580,7 +607,9 @@
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "crow-jade"
+    ]
   },
   {
     "id": "awakening-system",
@@ -595,7 +624,11 @@
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "hotori",
+      "jiuyuan",
+      "nanally"
+    ],
     "relatedMaterials": []
   },
   {
@@ -649,7 +682,9 @@
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "disk-set"
+    ]
   },
   {
     "id": "weapon-upgrade",
@@ -665,7 +700,9 @@
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "weapon-material"
+    ]
   },
   {
     "id": "redeem-codes",
@@ -852,7 +889,9 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "gacha-ticket"
+    ]
   },
   {
     "id": "reroll-guide",
@@ -910,7 +949,10 @@
     "category": "currency",
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "xiaozhi",
+      "haniel"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1011,7 +1053,10 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "adler",
+      "daffodil"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1027,7 +1072,11 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "hotori"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1043,7 +1092,12 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "baicang",
+      "skia",
+      "daffodil"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1129,7 +1183,9 @@
     "category": "system",
     "categoryZh": "游戏系统",
     "categoryEn": "System",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "xiaozhi"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1176,7 +1232,9 @@
     "category": "exploration",
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "jiuyuan"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1209,7 +1267,10 @@
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "gacha-ticket",
+      "stellar-jade"
+    ]
   },
   {
     "id": "livestream-codes-2026",
@@ -1225,7 +1286,10 @@
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "gacha-ticket",
+      "stellar-jade"
+    ]
   },
   {
     "id": "no-50-50-confirmed",
@@ -1241,7 +1305,9 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "gacha-ticket"
+    ]
   },
   {
     "id": "beginner-banner-selector",
@@ -1274,8 +1340,15 @@
     "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
-    "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedCharacters": [
+      "jiuyuan",
+      "hotori",
+      "baicang",
+      "nanally"
+    ],
+    "relatedMaterials": [
+      "gacha-ticket"
+    ]
   },
   {
     "id": "beta-refund",
@@ -1291,7 +1364,9 @@
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "stellar-jade"
+    ]
   },
   {
     "id": "xiaozhi-free-s-rank",
@@ -1306,7 +1381,9 @@
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "xiaozhi"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1407,7 +1484,9 @@
     "category": "characters",
     "categoryZh": "角色相关",
     "categoryEn": "Characters",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "aurelia"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1584,7 +1663,9 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "gacha-ticket"
+    ]
   },
   {
     "id": "stamina-planning",
@@ -1602,7 +1683,11 @@
     "categoryZh": "新手入门",
     "categoryEn": "Beginner",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "stamina-potion",
+      "basic-hunter-guide",
+      "permit"
+    ]
   },
   {
     "id": "ring-fusion-mechanics",
@@ -1619,7 +1704,11 @@
     "category": "combat",
     "categoryZh": "战斗机制",
     "categoryEn": "Combat",
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "hotori"
+    ],
     "relatedMaterials": []
   },
   {
@@ -1636,8 +1725,14 @@
     "category": "equipment",
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
-    "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedCharacters": [
+      "nanally",
+      "baicang",
+      "xiaozhi"
+    ],
+    "relatedMaterials": [
+      "arc-disc"
+    ]
   },
   {
     "id": "f2p-beginner-route",
@@ -1816,7 +1911,10 @@
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "disk-set",
+      "disk-exp"
+    ]
   },
   {
     "id": "weapon-upgrade-faq",
@@ -1832,7 +1930,9 @@
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [
+      "weapon-material"
+    ]
   },
   {
     "id": "best-disk-set-per-role",
@@ -1847,7 +1947,14 @@
     "category": "equipment",
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
-    "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedCharacters": [
+      "nanally",
+      "baicang",
+      "hotori",
+      "jiuyuan"
+    ],
+    "relatedMaterials": [
+      "disk-set"
+    ]
   }
 ]

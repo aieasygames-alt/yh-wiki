@@ -4448,6 +4448,384 @@
     ]
   },
   {
+    "id": "starter-s-rank-selector",
+    "name": "异环自选S角色选谁？新手自选S推荐",
+    "nameEn": "Which S-rank character should I pick from the selector in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/starter-s-rank-selector",
+    "tags": [
+      "beginner",
+      "characters",
+      "selector"
+    ]
+  },
+  {
+    "id": "starter-s-rank-selector",
+    "name": "Which S-rank character should I pick from the selector in NTE?",
+    "nameEn": "Which S-rank character should I pick from the selector in NTE?",
+    "type": "faq",
+    "url": "/en/faq/starter-s-rank-selector",
+    "tags": [
+      "beginner",
+      "characters",
+      "selector"
+    ]
+  },
+  {
+    "id": "free-pulls-total",
+    "name": "异环公测免费可以抽多少次？470抽怎么拿到？",
+    "nameEn": "How many free pulls can you get in NTE launch? How to get 470 pulls?",
+    "type": "faq",
+    "url": "/zh/faq/free-pulls-total",
+    "tags": [
+      "beginner",
+      "gacha",
+      "currency",
+      "f2p"
+    ]
+  },
+  {
+    "id": "free-pulls-total",
+    "name": "How many free pulls can you get in NTE launch? How to get 470 pulls?",
+    "nameEn": "How many free pulls can you get in NTE launch? How to get 470 pulls?",
+    "type": "faq",
+    "url": "/en/faq/free-pulls-total",
+    "tags": [
+      "beginner",
+      "gacha",
+      "currency",
+      "f2p"
+    ]
+  },
+  {
+    "id": "stamina-planning",
+    "name": "异环体力怎么分配？零氪开荒体力规划",
+    "nameEn": "How to spend stamina in NTE? F2P stamina planning guide",
+    "type": "faq",
+    "url": "/zh/faq/stamina-planning",
+    "tags": [
+      "beginner",
+      "stamina",
+      "f2p",
+      "planning"
+    ]
+  },
+  {
+    "id": "stamina-planning",
+    "name": "How to spend stamina in NTE? F2P stamina planning guide",
+    "nameEn": "How to spend stamina in NTE? F2P stamina planning guide",
+    "type": "faq",
+    "url": "/en/faq/stamina-planning",
+    "tags": [
+      "beginner",
+      "stamina",
+      "f2p",
+      "planning"
+    ]
+  },
+  {
+    "id": "ring-fusion-mechanics",
+    "name": "异环环合反应怎么触发？属性反应机制详解",
+    "nameEn": "How do Ring Fusion reactions work in NTE? Elemental reaction guide",
+    "type": "faq",
+    "url": "/zh/faq/ring-fusion-mechanics",
+    "tags": [
+      "combat",
+      "ring-fusion",
+      "mechanics",
+      "beginner"
+    ]
+  },
+  {
+    "id": "ring-fusion-mechanics",
+    "name": "How do Ring Fusion reactions work in NTE? Elemental reaction guide",
+    "nameEn": "How do Ring Fusion reactions work in NTE? Elemental reaction guide",
+    "type": "faq",
+    "url": "/en/faq/ring-fusion-mechanics",
+    "tags": [
+      "combat",
+      "ring-fusion",
+      "mechanics",
+      "beginner"
+    ]
+  },
+  {
+    "id": "arc-disc-faq",
+    "name": "异环弧盘系统怎么玩？弧盘获取和强化攻略",
+    "nameEn": "How does the Arc Disc system work in NTE? Disc acquisition and upgrade guide",
+    "type": "faq",
+    "url": "/zh/faq/arc-disc-faq",
+    "tags": [
+      "equipment",
+      "arc-disc",
+      "beginner"
+    ]
+  },
+  {
+    "id": "arc-disc-faq",
+    "name": "How does the Arc Disc system work in NTE? Disc acquisition and upgrade guide",
+    "nameEn": "How does the Arc Disc system work in NTE? Disc acquisition and upgrade guide",
+    "type": "faq",
+    "url": "/en/faq/arc-disc-faq",
+    "tags": [
+      "equipment",
+      "arc-disc",
+      "beginner"
+    ]
+  },
+  {
+    "id": "f2p-beginner-route",
+    "name": "异环零氪新手怎么开荒？第一天必做清单",
+    "nameEn": "NTE F2P beginner guide: Day 1 must-do checklist",
+    "type": "faq",
+    "url": "/zh/faq/f2p-beginner-route",
+    "tags": [
+      "beginner",
+      "f2p",
+      "day-one",
+      "planning"
+    ]
+  },
+  {
+    "id": "f2p-beginner-route",
+    "name": "NTE F2P beginner guide: Day 1 must-do checklist",
+    "nameEn": "NTE F2P beginner guide: Day 1 must-do checklist",
+    "type": "faq",
+    "url": "/en/faq/f2p-beginner-route",
+    "tags": [
+      "beginner",
+      "f2p",
+      "day-one",
+      "planning"
+    ]
+  },
+  {
+    "id": "ue5-7-engine-update",
+    "name": "异环公测引擎升级到UE5.7了吗？有什么变化？",
+    "nameEn": "Did NTE upgrade to UE5.7 at launch? What changed?",
+    "type": "faq",
+    "url": "/zh/faq/ue5-7-engine-update",
+    "tags": [
+      "technical",
+      "engine",
+      "update"
+    ]
+  },
+  {
+    "id": "ue5-7-engine-update",
+    "name": "Did NTE upgrade to UE5.7 at launch? What changed?",
+    "nameEn": "Did NTE upgrade to UE5.7 at launch? What changed?",
+    "type": "faq",
+    "url": "/en/faq/ue5-7-engine-update",
+    "tags": [
+      "technical",
+      "engine",
+      "update"
+    ]
+  },
+  {
+    "id": "character-build-priority",
+    "name": "异环角色培养优先级是什么？先升谁？",
+    "nameEn": "What is the character leveling priority in NTE? Who to build first?",
+    "type": "faq",
+    "url": "/zh/faq/character-build-priority",
+    "tags": [
+      "beginner",
+      "characters",
+      "leveling",
+      "priority"
+    ]
+  },
+  {
+    "id": "character-build-priority",
+    "name": "What is the character leveling priority in NTE? Who to build first?",
+    "nameEn": "What is the character leveling priority in NTE? Who to build first?",
+    "type": "faq",
+    "url": "/en/faq/character-build-priority",
+    "tags": [
+      "beginner",
+      "characters",
+      "leveling",
+      "priority"
+    ]
+  },
+  {
+    "id": "genesis-team-guide",
+    "name": "异环创生队怎么配？最强配队推荐",
+    "nameEn": "How to build Genesis team in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/genesis-team-guide",
+    "tags": [
+      "team",
+      "genesis"
+    ]
+  },
+  {
+    "id": "genesis-team-guide",
+    "name": "How to build Genesis team in NTE?",
+    "nameEn": "How to build Genesis team in NTE?",
+    "type": "faq",
+    "url": "/en/faq/genesis-team-guide",
+    "tags": [
+      "team",
+      "genesis"
+    ]
+  },
+  {
+    "id": "turbid-burn-team-guide",
+    "name": "异环浊燃队怎么配？暗属性破盾队推荐",
+    "nameEn": "How to build Turbid Burn team in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/turbid-burn-team-guide",
+    "tags": [
+      "team",
+      "turbid-burn"
+    ]
+  },
+  {
+    "id": "turbid-burn-team-guide",
+    "name": "How to build Turbid Burn team in NTE?",
+    "nameEn": "How to build Turbid Burn team in NTE?",
+    "type": "faq",
+    "url": "/en/faq/turbid-burn-team-guide",
+    "tags": [
+      "team",
+      "turbid-burn"
+    ]
+  },
+  {
+    "id": "f2p-team-guide",
+    "name": "异环平民配队推荐？零氪最强队伍",
+    "nameEn": "Best F2P team comp in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/f2p-team-guide",
+    "tags": [
+      "team",
+      "f2p"
+    ]
+  },
+  {
+    "id": "f2p-team-guide",
+    "name": "Best F2P team comp in NTE?",
+    "nameEn": "Best F2P team comp in NTE?",
+    "type": "faq",
+    "url": "/en/faq/f2p-team-guide",
+    "tags": [
+      "team",
+      "f2p"
+    ]
+  },
+  {
+    "id": "blaze-team-guide",
+    "name": "异环灼烧队怎么配？白藏火系配队",
+    "nameEn": "How to build Blaze team in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/blaze-team-guide",
+    "tags": [
+      "team",
+      "blaze"
+    ]
+  },
+  {
+    "id": "blaze-team-guide",
+    "name": "How to build Blaze team in NTE?",
+    "nameEn": "How to build Blaze team in NTE?",
+    "type": "faq",
+    "url": "/en/faq/blaze-team-guide",
+    "tags": [
+      "team",
+      "blaze"
+    ]
+  },
+  {
+    "id": "best-launch-teams",
+    "name": "异环公测最强配队排名？T0队伍推荐",
+    "nameEn": "Best launch teams ranked in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/best-launch-teams",
+    "tags": [
+      "team",
+      "tier-list"
+    ]
+  },
+  {
+    "id": "best-launch-teams",
+    "name": "Best launch teams ranked in NTE?",
+    "nameEn": "Best launch teams ranked in NTE?",
+    "type": "faq",
+    "url": "/en/faq/best-launch-teams",
+    "tags": [
+      "team",
+      "tier-list"
+    ]
+  },
+  {
+    "id": "disk-upgrade-faq",
+    "name": "异环磁盘怎么强化？强化材料获取",
+    "nameEn": "How to upgrade disks in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/disk-upgrade-faq",
+    "tags": [
+      "equipment",
+      "disk"
+    ]
+  },
+  {
+    "id": "disk-upgrade-faq",
+    "name": "How to upgrade disks in NTE?",
+    "nameEn": "How to upgrade disks in NTE?",
+    "type": "faq",
+    "url": "/en/faq/disk-upgrade-faq",
+    "tags": [
+      "equipment",
+      "disk"
+    ]
+  },
+  {
+    "id": "weapon-upgrade-faq",
+    "name": "异环武器怎么升级？武器强化材料哪里刷？",
+    "nameEn": "How to upgrade weapons in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/weapon-upgrade-faq",
+    "tags": [
+      "equipment",
+      "weapon"
+    ]
+  },
+  {
+    "id": "weapon-upgrade-faq",
+    "name": "How to upgrade weapons in NTE?",
+    "nameEn": "How to upgrade weapons in NTE?",
+    "type": "faq",
+    "url": "/en/faq/weapon-upgrade-faq",
+    "tags": [
+      "equipment",
+      "weapon"
+    ]
+  },
+  {
+    "id": "best-disk-set-per-role",
+    "name": "异环磁盘套装怎么选？各定位最佳套装",
+    "nameEn": "Which disk set to use per role in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/best-disk-set-per-role",
+    "tags": [
+      "equipment",
+      "disk-set"
+    ]
+  },
+  {
+    "id": "best-disk-set-per-role",
+    "name": "Which disk set to use per role in NTE?",
+    "nameEn": "Which disk set to use per role in NTE?",
+    "type": "faq",
+    "url": "/en/faq/best-disk-set-per-role",
+    "tags": [
+      "equipment",
+      "disk-set"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "NTE Download & Install Guide — All Platforms",
@@ -5263,6 +5641,34 @@
       "版本",
       "patch",
       "notes"
+    ]
+  },
+  {
+    "id": "arc-disc-guide",
+    "name": "弧盘系统完全攻略 — S级弧盘获取与搭配推荐",
+    "nameEn": "Arc Disc Complete Guide — S-Rank Discs, Acquisition & Best Builds",
+    "type": "guide",
+    "url": "/zh/guides/arc-disc-guide",
+    "tags": [
+      "弧盘",
+      "装备",
+      "攻略",
+      "Arc Disc",
+      "Equipment"
+    ]
+  },
+  {
+    "id": "arc-disc-guide",
+    "name": "Arc Disc Complete Guide — S-Rank Discs, Acquisition & Best Builds",
+    "nameEn": "Arc Disc Complete Guide — S-Rank Discs, Acquisition & Best Builds",
+    "type": "guide",
+    "url": "/en/guides/arc-disc-guide",
+    "tags": [
+      "弧盘",
+      "装备",
+      "攻略",
+      "Arc Disc",
+      "Equipment"
     ]
   },
   {
