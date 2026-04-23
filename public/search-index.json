@@ -176,7 +176,7 @@
     "tags": [
       "chaos",
       "s",
-      "support"
+      "attack"
     ]
   },
   {
@@ -188,7 +188,7 @@
     "tags": [
       "chaos",
       "s",
-      "support"
+      "attack"
     ]
   },
   {
@@ -223,8 +223,8 @@
     "url": "/zh/characters/haniel",
     "tags": [
       "psyche",
-      "s",
-      "tbd"
+      "a",
+      "support"
     ]
   },
   {
@@ -235,8 +235,8 @@
     "url": "/en/characters/haniel",
     "tags": [
       "psyche",
-      "s",
-      "tbd"
+      "a",
+      "support"
     ]
   },
   {
@@ -931,6 +931,30 @@
     "url": "/en/characters/xiaozhi",
     "tags": [
       "anima",
+      "s",
+      "attack"
+    ]
+  },
+  {
+    "id": "xun",
+    "name": "浔",
+    "nameEn": "Xun",
+    "type": "character",
+    "url": "/zh/characters/xun",
+    "tags": [
+      "cosmos",
+      "s",
+      "attack"
+    ]
+  },
+  {
+    "id": "xun",
+    "name": "Xun",
+    "nameEn": "Xun",
+    "type": "character",
+    "url": "/en/characters/xun",
+    "tags": [
+      "cosmos",
       "s",
       "attack"
     ]

@@ -84,7 +84,7 @@
     "element": "chaos",
     "weapon": "Liquid-type Arc",
     "rarity": 5,
-    "role": "Support",
+    "role": "Attack",
     "image": "/images/characters/daffodil.webp"
   },
   {
@@ -104,9 +104,9 @@
     "nameCn": "哈尼尔",
     "slug": "haniel",
     "element": "psyche",
-    "weapon": "TBD",
-    "rarity": 5,
-    "role": "TBD",
+    "weapon": "Speaker",
+    "rarity": 4,
+    "role": "Support",
     "image": "/images/characters/haniel.webp"
   },
   {
@@ -426,6 +426,17 @@
     "weapon": "Wand",
     "rarity": 5,
     "role": "Attack",
-    "image": "/images/characters/xiaozhi.webp"
+    "image": "/images/characters/xiaozhi.png"
+  },
+  {
+    "id": "xun",
+    "name": "Xun",
+    "nameCn": "浔",
+    "slug": "xun",
+    "element": "cosmos",
+    "weapon": "Tachi",
+    "rarity": 5,
+    "role": "Attack",
+    "image": "/images/characters/xun.png"
   }
 ]

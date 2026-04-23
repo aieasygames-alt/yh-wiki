@@ -30,7 +30,8 @@ export function DataStatusBanner({
   locale: Locale;
   status?: string;
 }) {
-  const msg = (status && messages[status]) ? messages[status] : messages.default;
+  if (!status || status === "available") return null;
+  const msg = messages[status] || messages.default;
   return (
     <div className="max-w-4xl mx-auto px-4 pt-4">
       <div className="rounded-lg border border-yellow-500/30 bg-yellow-500/10 px-4 py-2.5 text-sm text-yellow-300">
