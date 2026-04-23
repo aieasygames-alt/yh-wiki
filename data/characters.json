@@ -10,7 +10,7 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Coluccis 家族一代目，Eibon 古董店的招牌异能者。猫族异能者，以利爪进行高速近身格斗，拥有强大的反重力能力。",
+    "description": "Eibon古董店的明星店员，Coluccis家族的未来一代目。开朗大方、慷慨善良，参与了多次重大异象收容行动。",
     "faq": [
       {
         "question": "Is Nanally good in Neverness to Everness?",
@@ -53,45 +53,88 @@
     "tierReasonZh": "开服最强限S主C，数值独一档，短期不会退役",
     "skills": {
       "normalAttack": {
-        "name": "娜娜莉生命之爪",
-        "nameEn": "Nanally's Anima Claws",
-        "description": "娜娜莉使用格斗进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Nanally performs consecutive attacks with their Fangs and Claws, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "柯林斯秘传技法",
+        "nameEn": "Collins Secret Technique",
+        "description": "娜娜莉使用巨型拳套进行连续攻击，造成灵系属性伤害。包含地面连击与空中连击。",
+        "descriptionEn": "Nanally performs consecutive attacks with giant fists, dealing Anima damage. Includes ground and air combos."
       },
       "skill": {
-        "name": "生命脉冲",
-        "nameEn": "Anima Pulse",
-        "description": "释放anima属性的强力攻击，对周围敌人造成大量anima属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful anima attack dealing massive anima damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
-        "cooldown": "8s",
+        "name": "柯林斯·嗷呜术",
+        "nameEn": "Collins Howl Art",
+        "description": "发射灵系属性弹幕，造成5次远程灵系伤害，并进入「一代目的权柄」状态，提升暴击伤害。",
+        "descriptionEn": "Fires Anima projectiles dealing 5 instances of ranged Anima DMG, entering Dominator state for increased Crit DMG.",
+        "cooldown": "10s",
         "cost": "40 能量"
       },
       "ultimate": {
-        "name": "万物复苏",
-        "nameEn": "Revival of All Things",
-        "description": "娜娜莉的终结技，释放anima属性的全屏攻击，对所有敌人造成毁灭性的anima属性伤害。队伍中每有一个anima属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Nanally's ultimate unleashes a fullscreen anima attack dealing devastating anima damage. DMG increases 10% per anima party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "柯林斯·终极术",
+        "nameEn": "Collins Ultimate Art",
+        "description": "召唤副手发动终极攻击，造成7次远程灵系属性伤害。",
+        "descriptionEn": "Summons sidekick for ultimate attack, dealing 7 instances of ranged Anima DMG.",
+        "cost": "80 能量"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当娜娜莉的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Nanally's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "不止「一腔」的热血",
+          "nameEn": "More Than Just Passion",
+          "description": "...",
+          "descriptionEn": "..."
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，anima属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, anima DMG Bonus increases by 15% for 10s."
+          "name": "绝对「公正」的决斗",
+          "nameEn": "Absolutely Fair Duel",
+          "description": "...",
+          "descriptionEn": "..."
+        }
+      ],
+      "qte": {
+        "name": "天降正义",
+        "nameEn": "Justice From Above",
+        "description": "旋转飞踢，造成1次远程灵系伤害",
+        "descriptionEn": "Spinning kick dealing 1 instance of ranged Anima DMG"
+      },
+      "resonance": [
+        {
+          "name": "柯林斯秘辛·上",
+          "nameEn": "Collins Secret: Upper",
+          "awakenReq": 3
+        },
+        {
+          "name": "柯林斯秘辛·下",
+          "nameEn": "Collins Secret: Lower",
+          "awakenReq": 6
+        }
+      ],
+      "awakening": [
+        {
+          "name": "帮派初建成",
+          "nameEn": "Gang First Established",
+          "level": 1
+        },
+        {
+          "name": "第二位成员",
+          "nameEn": "Second Member",
+          "level": 2
+        },
+        {
+          "name": "要叫大姐头",
+          "nameEn": "Call Me Boss",
+          "level": 3
+        },
+        {
+          "name": "不是闯祸精",
+          "nameEn": "Not a Troublemaker",
+          "level": 4
+        },
+        {
+          "name": "小弟遍天下",
+          "nameEn": "Followers Everywhere",
+          "level": 5
+        },
+        {
+          "name": "因为是家人",
+          "nameEn": "Because We're Family",
+          "level": 6
         }
       ]
     },
@@ -164,12 +207,13 @@
     "image": "/images/characters/nanally.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
-    "descriptionEn": "First-generation member of the Coluccis family and the star Esper of the Eibon Antique Shop. A catfolk Esper who fights with razor-sharp claws at blinding speed, wielding powerful anti-gravity abilities.",
+    "descriptionEn": "The star attraction of the Eibon Antique Shop and the future head of the Coluccis family. Cheerful, generous, and kind, she has participated in numerous major Anomaly containment operations.",
     "status": "available",
     "nameTw": "娜娜莉",
     "cvZh": "宋媛媛",
-    "cvJp": "竹达彩奈",
-    "cvJpEn": "Ayana Taketatsu"
+    "cvJp": "竹達彩奈",
+    "cvJpEn": "Ayana Taketatsu",
+    "cvEn": "Brittany Lauda"
   },
   {
     "id": "sakiri",
@@ -182,7 +226,7 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店的角族异能者，与贪吃的异常伴生体桐丸一起战斗。咒术属性支援角色，擅长为队友提供增益。",
+    "description": "Eibon古董店的冰箱贴条规则制定者。手持名为「�的狼丸」的异象锤，性格直率而火爆。与古董店成员一同行动。",
     "faq": [
       {
         "question": "Is Sakiri good in Neverness to Everness?",
@@ -336,9 +380,12 @@
     "image": "/images/characters/sakiri.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "beginner-selector",
-    "descriptionEn": "A horned Esper of the Eibon Antique Shop who fights alongside her gluttonous Anomaly companion Kiroumaru. An Incantation-attribute support specialist who excels at buffing teammates.",
+    "descriptionEn": "The rule maker for the fridge sticky notes at the Eibon Antique Shop. Wields an Anomaly hammer named Kiroumaru. Known for her straightforward and fiery personality.",
     "status": "available",
-    "nameTw": "咲里"
+    "nameTw": "咲里",
+    "cvJp": "伊藤美来",
+    "cvJpEn": "Miku Ito",
+    "cvEn": "Brianna Knickerbocker"
   },
   {
     "id": "fadia",
@@ -394,45 +441,82 @@
     "tierReasonZh": "分摊伤害防猝死，但缺回血/护盾",
     "skills": {
       "normalAttack": {
-        "name": "法蒂亚灵魂冲击",
-        "nameEn": "Fadia's Soul Impact",
-        "description": "法蒂亚使用变形十字盾进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Fadia performs consecutive attacks with their Transforming Cross-Shield, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "话语中断的否定",
+        "nameEn": "Denial of Interrupted Words",
+        "description": "进行至多4段连续攻击，造成魂系伤害"
       },
       "skill": {
-        "name": "心灵感应",
-        "nameEn": "Telepathy",
-        "description": "释放psyche属性的强力攻击，对周围敌人造成大量psyche属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful psyche attack dealing massive psyche damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
-        "cooldown": "8s",
-        "cost": "40 能量"
+        "name": "存在证明的体验",
+        "nameEn": "Experience of Existence Proof",
+        "description": "与队伍中其他角色分担30%伤害，并施加减益效果",
+        "cooldown": 15,
+        "cost": 80
       },
       "ultimate": {
-        "name": "灵魂风暴",
-        "nameEn": "Soul Storm",
-        "description": "法蒂亚的终结技，释放psyche属性的全屏攻击，对所有敌人造成毁灭性的psyche属性伤害。队伍中每有一个psyche属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Fadia's ultimate unleashes a fullscreen psyche attack dealing devastating psyche damage. DMG increases 10% per psyche party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "痛苦让位于狂喜",
+        "nameEn": "Pain Gives Way to Ecstasy",
+        "description": "进入敌神者状态，进行6次攻击及5次追击",
+        "cost": 120
+      },
+      "qte": {
+        "name": "脱格者的嘲弄",
+        "nameEn": "Mockery of the Outcast",
+        "description": "出场进行协同攻击"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当法蒂亚的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Fadia's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "罪感熔炉",
+          "nameEn": "Furnace of Guilt",
+          "description": "被动技能"
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，psyche属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, psyche DMG Bonus increases by 15% for 10s."
+          "name": "拒斥与豪掠",
+          "nameEn": "Rejection and Plunder",
+          "description": "被动技能"
+        }
+      ],
+      "awakening": [
+        {
+          "name": "欲盖弥彰的圣洁",
+          "nameEn": "Concealed Holiness",
+          "level": 1
+        },
+        {
+          "name": "无可否认的本能",
+          "nameEn": "Undeniable Instinct",
+          "level": 2
+        },
+        {
+          "name": "诅咒祝福之人",
+          "nameEn": "The Cursed Blessed One",
+          "level": 3
+        },
+        {
+          "name": "僭越禁忌之人",
+          "nameEn": "Transgressor of Taboos",
+          "level": 4
+        },
+        {
+          "name": "回朔死亡之人",
+          "nameEn": "Death Retracer",
+          "level": 5
+        },
+        {
+          "name": "爱与死的使徒",
+          "nameEn": "Apostle of Love and Death",
+          "level": 6
+        }
+      ],
+      "resonance": [
+        {
+          "name": "不敬的「圣洁」之人",
+          "nameEn": "The Irreverent Holy One",
+          "awakenReq": 3
+        },
+        {
+          "name": "归一的「圣洁」之人",
+          "nameEn": "The Unified Holy One",
+          "awakenReq": 6
         }
       ]
     },
@@ -509,8 +593,10 @@
     "status": "available",
     "nameTw": "法帝婭",
     "cvZh": "裴致莹",
-    "cvJp": "真藤圭",
-    "cvJpEn": "Kei Shindo"
+    "cvJp": "真堂圭",
+    "cvJpEn": "Kei Shindo",
+    "cvEn": "Amber Lee Connors",
+    "trait": "投身损耗的迷狂"
   },
   {
     "id": "lacrimosa",
@@ -566,45 +652,90 @@
     "tierReasonZh": "召唤物AoE优秀，适合群体战斗",
     "skills": {
       "normalAttack": {
-        "name": "拉克莉莫萨混沌侵蚀",
-        "nameEn": "Lacrimosa's Chaos Erosion",
-        "description": "拉克莉莫萨使用异能构装体进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Lacrimosa performs consecutive attacks with their Esper Constructs, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "酸甜口味的制裁",
+        "nameEn": "Sweet and Sour Judgment",
+        "description": "进行最多5段连续攻击，前四段喷绘造成伤害，第五段触发炮弹轰炸。可触发恶魔的灵感、番茄座流星雨、fff休止符等派生招式"
       },
       "skill": {
-        "name": "虚空撕裂",
-        "nameEn": "Void Tear",
-        "description": "释放chaos属性的强力攻击，对周围敌人造成大量chaos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful chaos attack dealing massive chaos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
-        "cooldown": "8s",
-        "cost": "40 能量"
+        "name": "起床气加载中",
+        "nameEn": "Loading Sleepyhead Mode",
+        "description": "投掷异能造物造成范围伤害。包含起床气加载中、恶魔的礼物等招式。恶魔的礼物可吸收普通怪物并拟态其外形与技能",
+        "cooldown": 15,
+        "cost": 80
       },
       "ultimate": {
-        "name": "终焉之刻",
-        "nameEn": "Moment of End",
-        "description": "拉克莉莫萨的终结技，释放chaos属性的全屏攻击，对所有敌人造成毁灭性的chaos属性伤害。队伍中每有一个chaos属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Lacrimosa's ultimate unleashes a fullscreen chaos attack dealing devastating chaos damage. DMG increases 10% per chaos party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "工作日的最终审判",
+        "nameEn": "Final Judgment of Workday",
+        "description": "安魂曲操纵巨型异能造物，造成5次范围性的混沌伤害，并为范围内所有目标附加噩梦效果",
+        "cost": 120
+      },
+      "qte": {
+        "name": "紧急唤醒",
+        "nameEn": "Emergency Wake-Up",
+        "description": "安魂曲迅速操纵异能造物，造成范围性的混沌伤害。包含番茄酱盛宴、就要自然醒等衍生招式"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当拉克莉莫萨的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Lacrimosa's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "番茄酱盛宴",
+          "nameEn": "Ketchup Feast",
+          "description": "QTE衍生招式"
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，chaos属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, chaos DMG Bonus increases by 15% for 10s."
+          "name": "就要自然醒",
+          "nameEn": "Natural Wake-Up",
+          "description": "QTE衍生招式"
+        }
+      ],
+      "awakening": [
+        {
+          "name": "噩梦倍增",
+          "nameEn": "Nightmare Amplification",
+          "level": 1,
+          "description": "噩梦的伤害倍率提升50%"
+        },
+        {
+          "name": "入轨强化",
+          "nameEn": "Orbital Enhancement",
+          "level": 2,
+          "description": "通过入轨攻击入场时伤害提升15%，持续15秒"
+        },
+        {
+          "name": "噩梦清算",
+          "nameEn": "Nightmare Settlement",
+          "level": 3,
+          "description": "第5段酸甜口味的制裁命中时一次性结算目标全部噩梦效果"
+        },
+        {
+          "name": "噩梦延长",
+          "nameEn": "Nightmare Extension",
+          "level": 4,
+          "description": "噩梦状态持续时间延长至6秒"
+        },
+        {
+          "name": "噩梦侵蚀",
+          "nameEn": "Nightmare Erosion",
+          "level": 5,
+          "description": "目标受到治疗时不再移除噩梦层数，并基于噩梦伤害值的200%削减目标生命上限"
+        },
+        {
+          "name": "即时入轨",
+          "nameEn": "Instant Orbital",
+          "level": 6,
+          "description": "释放恶魔的礼物后5秒内，从特定角色切换至安魂曲时无需累计环合系数即可自动释放入轨攻击"
+        }
+      ],
+      "resonance": [
+        {
+          "name": "困倦的火焰在心中燃烧",
+          "nameEn": "Drowsy Flame Burning Within",
+          "awakenReq": 3,
+          "description": "酸甜口味的制裁、起床气加载中、恶魔的礼物、工作日的最终审判技能等级+1"
+        },
+        {
+          "name": "美梦的时刻即将来临",
+          "nameEn": "The Moment of Sweet Dreams Approaches",
+          "awakenReq": 6,
+          "description": "安魂曲造成的伤害无视目标10%防御力"
         }
       ]
     },
@@ -681,8 +812,10 @@
     "status": "available",
     "nameTw": "拉克莉莫薩",
     "cvZh": "宴宁",
-    "cvJp": "长绳麻理亚",
-    "cvJpEn": "Maria Naganawa"
+    "cvJp": "長縄まりあ",
+    "cvJpEn": "Maria Naganawa",
+    "cvEn": "Baraka May",
+    "trait": "高难度梦游"
   },
   {
     "id": "baicang",
@@ -738,45 +871,90 @@
     "tierReasonZh": "伤害同层顶级，但配队刚需达芙蒂尔",
     "skills": {
       "normalAttack": {
-        "name": "白藏咒文打击",
-        "nameEn": "Baicang's Spell Strike",
-        "description": "白藏使用言灵之力进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Baicang performs consecutive attacks with their Power of Words, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "name": "言行合一",
+        "nameEn": "Words and Deeds United",
+        "description": "进行至多4段连续攻击，造成咒系伤害。可触发无状之言、无讳之语、于风中、如影随形、避实击虚等派生招式"
       },
       "skill": {
-        "name": "言灵之力",
-        "nameEn": "Power of Words",
-        "description": "生成一个incantation属性护盾，吸收一定比例的伤害。护盾存在期间，队伍全员受到的伤害降低20%。",
-        "descriptionEn": "Generates a incantation shield that absorbs a portion of damage. While the shield is active, all party members take 20% less damage.",
-        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
-        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
-        "cooldown": "15s",
-        "cost": "60 能量"
+        "name": "不吝赐教",
+        "nameEn": "Generous Instruction",
+        "description": "发动咒系技能攻击，每一击带着诚意。包含天地之心、呪念、如此罪状等招式",
+        "cooldown": 15,
+        "cost": 80
       },
       "ultimate": {
-        "name": "咒阵爆发",
-        "nameEn": "Incantation Burst",
-        "description": "白藏的终结技，创造一个incantation属性力场，在力场内的队伍成员受到的伤害降低40%，并持续恢复生命值。力场持续10秒。",
-        "descriptionEn": "Baicang's ultimate creates a incantation field reducing incoming damage by 40% and continuously healing party members inside. Field lasts 10 seconds.",
-        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
-        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "不言不知秋",
+        "nameEn": "Silent Autumn Unnoticed",
+        "description": "白藏释放领域，进入言灵状态，对目标造成持续伤害。当目标生命值低于10%（BOSS为5%）时发动即刻斩杀。期间可免疫一次致命伤害。触发呪字造成单体高伤害，詈字造成群体伤害，祝字造成单体伤害并回复生命",
+        "cost": 120
+      },
+      "qte": {
+        "name": "摸鱼结束",
+        "nameEn": "Slacking Off Over",
+        "description": "白藏短暂蓄力书写咒令，指向目标并造成范围咒系伤害。攻击命中时随机生成呪或詈言灵字"
       },
       "passives": [
         {
-          "name": "坚不可摧",
-          "nameEn": "Unbreakable",
-          "description": "白藏受到致命伤害时，恢复20%最大生命值。该效果每300秒触发一次。",
-          "descriptionEn": "When Baicang would take lethal damage, recover 20% Max HP. This effect triggers once every 300s."
+          "name": "适度恶趣味",
+          "nameEn": "Mild Mischief",
+          "description": "QTE衍生招式"
         },
         {
-          "name": "壁垒意志",
-          "nameEn": "Bastion Will",
-          "description": "护盾强度额外提升15%，且护盾存在期间白藏的防御力提升10%。",
-          "descriptionEn": "Shield strength increases by 15%, and Baicang's DEF increases by 10% while shielded."
+          "name": "适度上工",
+          "nameEn": "Mild Diligence",
+          "description": "QTE衍生招式"
+        }
+      ],
+      "awakening": [
+        {
+          "name": "唷 队长!",
+          "nameEn": "Hey Captain!",
+          "level": 1,
+          "description": "不言不知秋期间，触发呪字提升30%下次技能伤害，触发詈字缩短技能冷却5秒"
+        },
+        {
+          "name": "招魂幡",
+          "nameEn": "Soul Banner",
+          "level": 2,
+          "description": "每生成任意1个言灵字，攻击力提升6%，最多叠加4层"
+        },
+        {
+          "name": "恶诅不过一开口",
+          "nameEn": "A Curse Is But a Word",
+          "level": 3,
+          "description": "言灵字上限提升至4个"
+        },
+        {
+          "name": "亦或是祝祷",
+          "nameEn": "Or Perhaps a Prayer",
+          "level": 4,
+          "description": "消耗言灵字时额外恢复2.5%最大生命值"
+        },
+        {
+          "name": "敬此月色",
+          "nameEn": "To This Moonlight",
+          "level": 5,
+          "description": "不言不知秋持续时间提升至20秒"
+        },
+        {
+          "name": "于五色为白",
+          "nameEn": "White Among Five Colors",
+          "level": 6,
+          "description": "不言不知秋期间暴击率提升30%"
+        }
+      ],
+      "resonance": [
+        {
+          "name": "序属归藏",
+          "nameEn": "Preface to Guizang",
+          "awakenReq": 3,
+          "description": "言行合一、不吝赐教、不言不知秋技能等级+1"
+        },
+        {
+          "name": "驻于此处",
+          "nameEn": "Remaining Here",
+          "awakenReq": 6,
+          "description": "不言不知秋期间领域内全体队员获得20%攻击力加成，均可触发即刻斩杀"
         }
       ]
     },
@@ -854,7 +1032,9 @@
     "nameTw": "白藏",
     "cvZh": "桑毓泽",
     "cvJp": "中村悠一",
-    "cvJpEn": "Yuichi Nakamura"
+    "cvJpEn": "Yuichi Nakamura",
+    "cvEn": "Griffin Burns",
+    "trait": "言灵使"
   },
   {
     "id": "zero",
@@ -867,13 +1047,13 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店成员，沉默寡言的剑士。在测试版画面中与娜娜莉、咲里和薄荷一同战斗。",
+    "description": "Eibon 古董店成员，异环的主角。可在男性/女性两种形态间选择，拥有宇宙属性的剑术战斗风格。作为主角免费获得。",
     "faq": [
       {
         "question": "Is Zero good in Neverness to Everness?",
         "questionZh": "零值得培养吗？",
-        "answer": "Zero is a S-rank Attack character in Neverness to Everness. As a cosmos element Attack, Zero offers unique combat capabilities. Check our tier list for the latest ranking.",
-        "answerZh": "零是异环中的S级进攻角色。Eibon 古董店成员，沉默寡言的剑士。在测试版画面中与娜娜莉、咲里和薄荷一同战斗。"
+        "answer": "Zero is the S-rank protagonist of Neverness to Everness, wielding cosmos-attribute sword combat. As the main character, Zero has unique Instant Ring Fusion abilities and is an irreplaceable team enabler. Rated S+ tier.",
+        "answerZh": "零是异环的S级主角，拥有宇宙属性剑术战斗风格。作为主角拥有独特的即瞬环合机制，是不可替代的队伍核心。评级S+。"
       },
       {
         "question": "What is the best build for Zero?",
@@ -882,10 +1062,10 @@
         "answerZh": "零的最佳配装侧重于最大化其进攻潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
       },
       {
-        "question": "How to get Zero in Neverness to Everness?",
+        "question": "How to get Zero in Neverness to Everness? Is Zero free?",
         "questionZh": "如何获得零？",
-        "answer": "Zero can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
-        "answerZh": "零可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+        "answer": "Zero is the protagonist and is obtained for free at the start of the game. You can choose between the male variant (CV: 马洋 / Yuma Uchida) or female variant (CV: 曹彤 / Maaya Uchida).",
+        "answerZh": "零是游戏主角，开局免费获得。可在男性形态（CV：马洋/内田雄马）和女性形态（CV：曹彤/内田真礼）之间选择。"
       },
       {
         "question": "What is the best team for Zero?",
@@ -910,28 +1090,28 @@
     "tierReasonZh": "主角即瞬环合机制不可替代，队伍润滑剂",
     "skills": {
       "normalAttack": {
-        "name": "零星辰斩",
-        "nameEn": "Zero's Star Slash",
-        "description": "零使用剑进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Zero performs consecutive attacks with their Sword, up to 4 hits. The 4th hit deals bonus elemental damage.",
+        "name": "鉴痕",
+        "nameEn": "Appraisal Mark",
+        "description": "零使用武器引导能量，进行最多5次连续攻击。",
+        "descriptionEn": "Zero wields their weapon to channel energy, performing up to 5 consecutive attacks.",
         "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
         "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
       },
       "skill": {
-        "name": "宇宙裂隙",
-        "nameEn": "Cosmic Rift",
-        "description": "释放cosmos属性的强力攻击，对周围敌人造成大量cosmos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful cosmos attack dealing massive cosmos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
+        "name": "铭隙鉴刻",
+        "nameEn": "Engraving Appraisal",
+        "description": "进行3次连续武器攻击后跃起蓄力，发射异能炮对区域造成Cosmos伤害。对低于自身等级的首个目标造成额外Cosmos伤害。",
+        "descriptionEn": "Performs 3 consecutive weapon strikes. Leaps into the air to charge and fires an Esper Cannon dealing 1 instance of Cosmos DMG. Deals an additional 1 instance of Cosmos DMG to the first enemy hit whose level is below Zero's own level.",
+        "scaling": "技能伤害: 280% ATK\n额外伤害: 200% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
         "cost": "40 能量"
       },
       "ultimate": {
-        "name": "星河坠落",
-        "nameEn": "Galaxy Fall",
-        "description": "零的终结技，释放cosmos属性的全屏攻击，对所有敌人造成毁灭性的cosmos属性伤害。队伍中每有一个cosmos属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Zero's ultimate unleashes a fullscreen cosmos attack dealing devastating cosmos damage. DMG increases 10% per cosmos party member (max 30%).",
+        "name": "奇零除尽",
+        "nameEn": "Odd Zero Division",
+        "description": "以刀锋之舞斩断连接枢纽的无形之线，对区域造成多段Cosmos伤害。",
+        "descriptionEn": "Sweeps away the unseen lines that connect the Nexus in a dance of blades. Deals multiple instances of Cosmos DMG to an area.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -939,16 +1119,66 @@
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当零的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Zero's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "鉴定师",
+          "nameEn": "Appraiser",
+          "description": "当场上角色获得终结技能量时，恢复相当于零基础攻击力50%的生命值。",
+          "descriptionEn": "Restores HP equal to 50% of Zero's Base ATK when the active character gains Ultimate Energy."
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，cosmos属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, cosmos DMG Bonus increases by 15% for 10s."
+          "name": "异象感知力",
+          "nameEn": "Anomaly Perception",
+          "description": "终结技「被零除」伤害提升25%。",
+          "descriptionEn": "Ultimate: Divide by Zero damage increases by 25%."
+        }
+      ],
+      "qte": {
+        "name": "绽裂",
+        "nameEn": "Rupture",
+        "description": "进行2次范围性Cosmos伤害",
+        "descriptionEn": "Deals 2 instances of AoE Cosmos DMG"
+      },
+      "awakening": [
+        {
+          "name": "初明凝视",
+          "nameEn": "First Gaze of Dawn",
+          "level": 1
+        },
+        {
+          "name": "探悉天职",
+          "nameEn": "Investigative Calling",
+          "level": 2
+        },
+        {
+          "name": "奇异记叙",
+          "nameEn": "Strange Chronicle",
+          "level": 3
+        },
+        {
+          "name": "未决迷数",
+          "nameEn": "Undetermined Enigma",
+          "level": 4
+        },
+        {
+          "name": "默示赋命",
+          "nameEn": "Silent Bestowal",
+          "level": 5
+        },
+        {
+          "name": "诓定解放",
+          "nameEn": "Delusive Liberation",
+          "level": 6
+        }
+      ],
+      "resonance": [
+        {
+          "name": "鉴解",
+          "nameEn": "Appraisal Resolution",
+          "awakenReq": 3
+        },
+        {
+          "name": "零示",
+          "nameEn": "Zero Revelation",
+          "awakenReq": 6
         }
       ]
     },
@@ -1020,8 +1250,8 @@
     ],
     "image": "/images/characters/zero.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Eibon Antique Shop and a taciturn swordsman. Seen fighting alongside Nanally, Sakiri, and Mint in the beta test footage.",
+    "acquisitionMethod": "free",
+    "descriptionEn": "A member of the Eibon Antique Shop and the protagonist of Neverness to Everness. Available in male and female variants with cosmos-attribute sword combat. Obtained for free as the starting character.",
     "status": "available",
     "nameTw": "零",
     "cvZh": "马洋/曹彤",
@@ -1082,45 +1312,82 @@
     "tierReasonZh": "唯一S级辅助，聚怪+加攻，1觉质变拐力翻倍",
     "skills": {
       "normalAttack": {
-        "name": "穗鸟星辰斩",
-        "nameEn": "Hotori's Star Slash",
-        "description": "穗鸟使用唐伞刀进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Hotori performs consecutive attacks with their Umbrella Katana, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "胧月流",
+        "nameEn": "Oboro Moon Style",
+        "description": "进行至多4段连续攻击，造成光系伤害"
       },
       "skill": {
-        "name": "宇宙裂隙",
-        "nameEn": "Cosmic Rift",
-        "description": "释放cosmos属性的强力攻击，对周围敌人造成大量cosmos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful cosmos attack dealing massive cosmos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
-        "cooldown": "8s",
-        "cost": "40 能量"
+        "name": "今景复映",
+        "nameEn": "Present Scene Reflected",
+        "description": "发动光系技能攻击",
+        "cooldown": 12,
+        "cost": 70
       },
       "ultimate": {
-        "name": "星河坠落",
-        "nameEn": "Galaxy Fall",
-        "description": "穗鸟的终结技，释放cosmos属性的全屏攻击，对所有敌人造成毁灭性的cosmos属性伤害。队伍中每有一个cosmos属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Hotori's ultimate unleashes a fullscreen cosmos attack dealing devastating cosmos damage. DMG increases 10% per cosmos party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "浮世来潮",
+        "nameEn": "Tides of the Floating World",
+        "description": "发动强力光系范围攻击",
+        "cost": 120
+      },
+      "qte": {
+        "name": "店主威势",
+        "nameEn": "Shopkeeper's Authority",
+        "description": "出场进行协同攻击"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当穗鸟的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Hotori's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "鬼兰家纹",
+          "nameEn": "Oni Ran Family Crest",
+          "description": "被动技能"
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，cosmos属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, cosmos DMG Bonus increases by 15% for 10s."
+          "name": "天下万宝",
+          "nameEn": "Treasures of the World",
+          "description": "被动技能"
+        }
+      ],
+      "awakening": [
+        {
+          "name": "欣欣渐行",
+          "nameEn": "Gradual Progress",
+          "level": 1
+        },
+        {
+          "name": "忆昔告远",
+          "nameEn": "Remembering the Distant Past",
+          "level": 2
+        },
+        {
+          "name": "垂目须臾",
+          "nameEn": "Glimpse of the Moment",
+          "level": 3
+        },
+        {
+          "name": "旧藏遗散",
+          "nameEn": "Scattered Old Collection",
+          "level": 4
+        },
+        {
+          "name": "独窥全相",
+          "nameEn": "Seeing the Whole Picture",
+          "level": 5
+        },
+        {
+          "name": "时轮啮雪",
+          "nameEn": "Time Wheel Biting Snow",
+          "level": 6
+        }
+      ],
+      "resonance": [
+        {
+          "name": "东零西碎的永恒",
+          "nameEn": "Eternity of Scattered Fragments",
+          "awakenReq": 3
+        },
+        {
+          "name": "了然于中的至珍",
+          "nameEn": "The Treasured Understanding",
+          "awakenReq": 6
         }
       ]
     },
@@ -1195,7 +1462,11 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle.",
     "status": "available",
-    "nameTw": "穗鳥"
+    "nameTw": "穗鳥",
+    "cvJp": "伊藤静",
+    "cvJpEn": "Shizuka Ito",
+    "cvEn": "Lindsay Sheppard",
+    "trait": "凝雪之仪"
   },
   {
     "id": "daffodil",
@@ -1251,45 +1522,32 @@
     "tierReasonZh": "高频振刀Boss特化输出，白藏队刚需",
     "skills": {
       "normalAttack": {
-        "name": "达芙迪尔混沌侵蚀",
-        "nameEn": "Daffodil's Chaos Erosion",
-        "description": "达芙迪尔使用液态弧光进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Daffodil performs consecutive attacks with their Liquid-type Arc, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "name": "双刃斩",
+        "nameEn": "Twin Blade Slash",
+        "description": "5段暗属性伤害连击。长按进入「临水照影」状态，突进旋风斩并留下暗伤印痕。",
+        "descriptionEn": "5-hit Dark DMG combo. Hold to enter Water Reflection state, dashing whirlwind slash leaving Dark DMG marks."
       },
       "skill": {
-        "name": "虚空撕裂",
-        "nameEn": "Void Tear",
-        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
-        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
-        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
-        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
-        "cooldown": "12s",
-        "cost": "50 能量"
+        "name": "同振",
+        "nameEn": "Co-resonance",
+        "description": "造成暗属性伤害。队友QTE可叠加层数，2层满后强化为「如响私影」，造成高额暗伤+强控+高倾陷值。",
+        "descriptionEn": "Deals Dark DMG. Allies QTE stacks layers; at 2 full stacks enhances to Echo Shadow, dealing high Dark DMG + CC + high Stagger.",
+        "cooldown": "8s",
+        "cost": "40 能量"
       },
       "ultimate": {
-        "name": "终焉之刻",
-        "nameEn": "Moment of End",
-        "description": "达芙迪尔的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
-        "descriptionEn": "Daffodil's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
-        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
-        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "见此终幕",
+        "nameEn": "Final Curtain",
+        "description": "范围爆发攻击，解放左眼，12秒内伤害+30%。给敌人挂「洞察」状态，破韧时触发额外高伤害。",
+        "descriptionEn": "AoE burst attack, unleashes left eye for +30% DMG for 12s. Applies Insight to enemies, triggering bonus DMG on Stagger break.",
+        "cost": "80 能量"
       },
       "passives": [
         {
-          "name": "守护之光",
-          "nameEn": "Light of Protection",
-          "description": "当队伍中有角色生命值低于50%时，达芙迪尔的治疗效果提升20%。",
-          "descriptionEn": "When a party member's HP falls below 50%, Daffodil's healing effectiveness increases by 20%."
-        },
-        {
-          "name": "生命涌泉",
-          "nameEn": "Life Spring",
-          "description": "队伍中每有一个不同属性的角色，达芙迪尔的能量回复速度提升5%。",
-          "descriptionEn": "For each different element in the party, Daffodil's Energy Recharge increases by 5%."
+          "name": "暗影契约",
+          "nameEn": "Shadow Pact",
+          "description": "叠层满时暴击率+20%;队伍中每有1名暗系角色，伤害+10%，上限20%。",
+          "descriptionEn": "At full stacks CRIT Rate +20%; for each Dark ally, DMG +10% (max 20%)."
         }
       ]
     },
@@ -1366,8 +1624,9 @@
     "status": "available",
     "nameTw": "達芙蒂爾",
     "cvZh": "陈彦亦",
-    "cvJp": "大原沙耶香",
-    "cvJpEn": "Sayaka Ohara"
+    "cvJp": "大原さやか",
+    "cvJpEn": "Sayaka Ohara",
+    "cvEn": "Natalie Van Sistine"
   },
   {
     "id": "jiuyuan",
@@ -1379,8 +1638,8 @@
     "weaponEn": "Vehicle",
     "role": "辅助",
     "roleEn": "Utility",
-    "faction": "Eibon Antique Shop",
-    "description": "被称为「九原小姐」的顶级驾驶员，负责运送异能者和紧急异常物资。生命属性 S 级异能者。",
+    "faction": "Sterry Express",
+    "description": "Sterry Express成员，成熟优雅的都市时髦风格。黑色宽檐帽搭配蓝色花朵，深色外套内衬鲜亮的电光蓝。Anima属性角色，Solid弧型。",
     "faq": [
       {
         "question": "Is Jiuyuan good in Neverness to Everness?",
@@ -1423,47 +1682,37 @@
     "tierReasonZh": "常驻S首选自选，超大范围聚怪+1觉客串奶妈，泛用性顶级",
     "skills": {
       "normalAttack": {
-        "name": "九原生命之爪",
-        "nameEn": "Jiuyuan's Anima Claws",
-        "description": "九原使用载具进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Jiuyuan performs consecutive attacks with their Vehicle, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "name": "秘密成型时",
+        "nameEn": "When Secrets Take Shape",
+        "description": "点按普攻，九原使用双枪可释放最多5段连续攻击，过程中可获得2颗玫约子弹。最后一击命中目标可给敌人施加附着物致命玫约。"
       },
       "skill": {
-        "name": "生命脉冲",
-        "nameEn": "Anima Pulse",
-        "description": "发动特殊能力，对目标区域造成anima属性伤害，并根据场上状态触发不同的附加效果。",
-        "descriptionEn": "Activates a special ability dealing anima damage to the target area, triggering different bonus effects based on field state.",
-        "scaling": "护盾吸收: 25% Max HP\n减伤: 20%",
-        "scalingEn": "Shield Absorption: 25% Max HP\nDMG Reduction: 20%",
-        "cooldown": "15s",
-        "cost": "60 能量"
+        "name": "情报猎手",
+        "nameEn": "Intelligence Hunter",
+        "description": "向前突进并大范围聚怪，对敌人造成多段伤害，获得4颗玫约子弹且施加致命玫约。",
+        "cooldown": 15,
+        "cost": 80
       },
       "ultimate": {
-        "name": "万物复苏",
-        "nameEn": "Revival of All Things",
-        "description": "九原的终结技，对大范围敌人造成anima属性伤害，并根据敌人数量提升伤害倍率，敌人越多伤害越高。",
-        "descriptionEn": "Jiuyuan's ultimate deals anima AoE damage that scales with enemy count - more enemies means higher damage.",
-        "scaling": "减伤: 40%\n治疗: 80% ATK/s\n持续: 10s",
-        "scalingEn": "DMG Reduction: 40%\nHealing: 80% ATK/s\nDuration: 10s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "终局清账",
+        "nameEn": "Final Settlement",
+        "description": "对周围敌人展开连续多次射击，最后以大范围爆炸收尾。大招可使有致命玫约的目标进入清算阶段，并在最后一段伤害时统一清算引爆。",
+        "cost": 120
+      },
+      "qte": {
+        "name": "强化创生株",
+        "nameEn": "Enhanced Creation Sprout",
+        "description": "额外生成1株创生株；创生花攻击可触发致命玫约，若已有致命玫约则触发追加清算。"
       },
       "passives": [
         {
-          "name": "灵巧身法",
-          "nameEn": "Agile Movement",
-          "description": "九原的闪避成功后，移动速度提升15%，持续5秒。",
-          "descriptionEn": "After Jiuyuan successfully dodges, movement speed increases by 15% for 5s."
-        },
-        {
-          "name": "随机应变",
-          "nameEn": "Adaptability",
-          "description": "切换到九原时，获得一个随机增益效果，持续8秒。",
-          "descriptionEn": "When switching to Jiuyuan, gain a random buff for 8s."
+          "name": "致命玫约",
+          "nameEn": "Fatal Rose Pact",
+          "description": "DOT类技能，通过普攻最后一下、闪避反击、变轨技能和极轨终结给敌人施加致命玫约，5秒后进入清算阶段"
         }
-      ]
+      ],
+      "awakening": [],
+      "resonance": []
     },
     "recommendedBuild": {
       "bestWeapon": "载具·破晓",
@@ -1534,25 +1783,26 @@
     "image": "/images/characters/jiuyuan.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "Known as \"Miss Jiuyuan,\" a top-tier driver responsible for transporting Espers and emergency anomaly supplies. An Anima-attribute S-rank Esper.",
+    "descriptionEn": "A member of the Sterry Express with mature, sophisticated elegance and urban-chic style. Wears a black wide-brimmed hat with a blue flower and a dark overcoat lined in electric blue. An Anima-attribute, Solid-type character.",
     "status": "available",
     "nameTw": "九原",
     "cvZh": "张安琪",
-    "cvJp": "田中理惠",
-    "cvJpEn": "Rie Tanaka"
+    "cvJp": "田中理恵",
+    "cvJpEn": "Rie Tanaka",
+    "cvEn": "Baraka May"
   },
   {
     "id": "haniel",
     "name": "哈尼尔",
     "nameEn": "Haniel",
     "attribute": "psyche",
-    "rank": "S",
+    "rank": "A",
     "weapon": "待定",
     "weaponEn": "TBD",
     "role": "待定",
     "roleEn": "TBD",
-    "faction": "Eibon Antique Shop",
-    "description": "目前仅公开宣传画，详细战斗风格和剧情定位尚未公布。灵魂属性 S 级异能者。",
+    "faction": "Sterry Express",
+    "description": "Sterry Express的月度最快送达纪录保持者，自诩为海瑟路 overseeing 耳机的神。性格活泼，充满活力，风格融合了街头文化与游戏元素。",
     "faq": [
       {
         "question": "Is Haniel good in Neverness to Everness?",
@@ -1706,12 +1956,13 @@
     "image": "/images/characters/haniel.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A Psyche-attribute S-rank Esper currently revealed only through promotional artwork. Full combat details and story role await the official launch.",
+    "descriptionEn": "Sterry Express's record holder for the fastest delivery of the month. A playful, energetic character whose style blends street culture and gaming elements.",
     "status": "available",
     "nameTw": "哈尼婭",
     "cvZh": "苏子芜",
-    "cvJp": "石见舞菜香",
-    "cvJpEn": "Maaya Sakamoto"
+    "cvJp": "石見舞菜香",
+    "cvJpEn": "Manaka Iwami",
+    "cvEn": "Alexis Tipton"
   },
   {
     "id": "adler",
@@ -1767,47 +2018,46 @@
     "tierReasonZh": "1.0最佳生存位，护盾+减攻+属性抗性",
     "skills": {
       "normalAttack": {
-        "name": "阿德勒咒文打击",
-        "nameEn": "Adler's Spell Strike",
-        "description": "阿德勒使用杖剑与 Sunyas进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Adler performs consecutive attacks with their Cane Sword and Sunyas, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "度恶",
+        "nameEn": "Deliverance from Evil",
+        "description": "阿德勒使用杖剑进行连续攻击，造成咒系属性伤害。包含：度恶·灭苦·无明·「业」·揭谛。",
+        "descriptionEn": "Adler performs consecutive attacks with cane sword, dealing Psyche damage. Includes sub-skills: Deliverance, Suffering, Ignorance, Karma, Revelation."
       },
       "skill": {
-        "name": "言灵之力",
-        "nameEn": "Power of Words",
-        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
-        "cooldown": "8s",
+        "name": "诛恶护持",
+        "nameEn": "Evil-Slaying Protection",
+        "description": "召唤空若虚影，造成咒系属性伤害，并为自身附加「明悟之慧佑」护盾。",
+        "descriptionEn": "Summons Sunyas phantom dealing Psyche DMG and granting Shield of Enlightenment.",
+        "cooldown": "10s",
         "cost": "40 能量"
       },
       "ultimate": {
-        "name": "咒阵爆发",
-        "nameEn": "Incantation Burst",
-        "description": "阿德勒的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Adler's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "万象澄寂",
+        "nameEn": "All Phenomena Stilled",
+        "description": "召唤5个空若（色、受、想、识、行），对每个目标造成5次咒系属性伤害。",
+        "descriptionEn": "Summons 5 Sunyas (Form, Feeling, Perception, Consciousness, Volition), dealing 5 instances of Psyche DMG per target.",
+        "cost": "80 能量"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当阿德勒的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Adler's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "克己",
+          "nameEn": "Self-Restraint",
+          "description": "护盾强度+15%",
+          "descriptionEn": "Shield Strength +15%"
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，incantation属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, incantation DMG Bonus increases by 15% for 10s."
+          "name": "正心",
+          "nameEn": "Righteous Heart",
+          "description": "队伍中有伊波恩成员时，全队咒属性伤害+8%",
+          "descriptionEn": "When party has Ebon members, team Curse DMG +8%"
         }
-      ]
+      ],
+      "qte": {
+        "name": "明镜本无尘",
+        "nameEn": "Clear Mirror Free of Dust",
+        "description": "发射压缩子弹，造成1次咒系伤害",
+        "descriptionEn": "Fires compressed bullet dealing 1 instance of Psyche DMG"
+      }
     },
     "recommendedBuild": {
       "bestWeapon": "杖剑与 Sunyas·破晓",
@@ -1883,7 +2133,8 @@
     "nameTw": "阿德勒",
     "cvZh": "王宇航",
     "cvJp": "森川智之",
-    "cvJpEn": "Tomoyuki Morikawa"
+    "cvJpEn": "Toshiyuki Morikawa",
+    "cvEn": "Jacob Craner"
   },
   {
     "id": "skia",
@@ -1895,7 +2146,7 @@
     "weaponEn": "Shadow Manipulation",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "ETD-4",
+    "faction": "Bureau of Anomaly Control (ETD-4)",
     "description": "异常控制局 ETD-4 队员，与法蒂亚和拉克莉莫萨一同行动。相属性异能者，以影子操控进行战斗。",
     "faq": [
       {
@@ -1939,45 +2190,38 @@
     "tierReasonZh": "数值和机制均不亮眼，小吱队凑反应用",
     "skills": {
       "normalAttack": {
-        "name": "翳相态变换",
-        "nameEn": "Skia's Phase Shift",
-        "description": "翳使用影操控进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Skia performs consecutive attacks with their Shadow Manipulation, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "拘管格斗术",
+        "nameEn": "Restraint Combat Arts",
+        "description": "翳以稳健的格斗技法，进行至多5段的连续攻击，造成相属性异能伤害。每当命中1个目标，便从自己的影子中分裂出1个「兽牙影刺」对其追击，每个目标最多可同时被3个「兽牙影刺」锁定"
       },
       "skill": {
-        "name": "镜像分身",
-        "nameEn": "Mirror Clone",
-        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
-        "cooldown": "8s",
-        "cost": "40 能量"
+        "name": "啮逐潜影",
+        "nameEn": "Pursuit Shadow Dive",
+        "description": "翳获得「尾追」状态，随后跃入自身影子之中，造成6次范围性的相属性异能伤害，对于本轮伤害命中的每个目标，从自己的影子中分裂出3个「兽牙影刺」分别对其追击，随后进入「啮逐潜影」模式。尾追状态下兽牙影刺对目标造成伤害后不会消失",
+        "cooldown": 15,
+        "cost": 80
       },
       "ultimate": {
-        "name": "万象归虚",
-        "nameEn": "Return to Void",
-        "description": "翳的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Skia's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "群犬吠形",
+        "nameEn": "Howling Shadow Pack",
+        "description": "翳抛出旋转的打火机，使自身的影子朝地面各方向扩散，造成1次范围性的相属性异能伤害。随后，多重黑影如训练有素的犬只同时奔袭一处，再造成3次范围性的相属性异能伤害。释放后兽牙影刺造成的伤害提升，每次发动攻击时对目标施加控制效果",
+        "cost": 120
+      },
+      "qte": {
+        "name": "穷追不舍",
+        "nameEn": "Relentless Pursuit",
+        "description": "翳以指挥警犬的方式指示影子撕咬目标，造成1次范围性的相属性异能伤害"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当翳的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Skia's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "兽牙影刺",
+          "nameEn": "Beast Fang Shadow Pierce",
+          "description": "从翳的影子中分裂而出，如巨兽利牙般的破碎阴影。会自动追踪并附着在目标身上，造成1次相属性异能伤害后消失"
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+          "name": "顿笔签字",
+          "nameEn": "Brush Stroke Signature",
+          "description": "极限反击：触发极限闪避后使用拘管格斗术触发，翳使用以泼墨般的暗影重击对手，造成1次范围性的相属性异能伤害，并额外扣除一定倾陷值"
         }
       ]
     },
@@ -2055,7 +2299,9 @@
     "nameTw": "翳",
     "cvZh": "刘雨轩",
     "cvJp": "杉田智和",
-    "cvJpEn": "Tomokazu Sugita"
+    "cvJpEn": "Tomokazu Sugita",
+    "cvEn": "Bill Butts",
+    "trait": "影子执法者"
   },
   {
     "id": "edgar",
@@ -2068,7 +2314,7 @@
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店成员，蓝发少年。宇宙属性 A 级异能者，在古董店协助阿德勒处理各类异常委托。",
+    "description": "Eibon古董店成员，拥有精致的外表与沉稳的气质。浅蓝色头发搭配白色夹克，腰间挂着金色钥匙。名字源自古英语，意为「富有的矛」。",
     "faq": [
       {
         "question": "Is Edgar good in Neverness to Everness?",
@@ -2111,45 +2357,38 @@
     "tierReasonZh": "纯治疗无其他功能，手残党可选",
     "skills": {
       "normalAttack": {
-        "name": "埃德加星辰斩",
-        "nameEn": "Edgar's Star Slash",
-        "description": "埃德加使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Edgar performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "name": "体术实战",
+        "nameEn": "Practical Martial Arts",
+        "description": "埃德嘉活用「灯校」体术课的学习成果，进行至多五段的连续攻击，造成光属性异能伤害"
       },
       "skill": {
-        "name": "宇宙裂隙",
-        "nameEn": "Cosmic Rift",
-        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
-        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
-        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
-        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
-        "cooldown": "12s",
-        "cost": "50 能量"
+        "name": "狂流",
+        "nameEn": "Wild Stream",
+        "description": "长按进入持续状态，向目标持续使用「流」，造成光属性异能伤害并持续治疗生命值最低的队友。冷却时间会随使用时长而增加",
+        "cooldown": 12,
+        "cost": 50
       },
       "ultimate": {
-        "name": "星河坠落",
-        "nameEn": "Galaxy Fall",
-        "description": "埃德加的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
-        "descriptionEn": "Edgar's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
-        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
-        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "迷宫领域",
+        "nameEn": "Labyrinth Domain",
+        "description": "埃德嘉沉浸在自己思绪中，释放迷宫般的领域。造成1次范围性的光属性异能伤害，领域维持10秒，期间持续治疗当前角色",
+        "cost": 120
+      },
+      "qte": {
+        "name": "沉重的书包",
+        "nameEn": "Heavy Schoolbag",
+        "description": "埃德嘉冲向目标，使劲挥动书包对目标造成1次范围性的光属性异能伤害"
       },
       "passives": [
         {
-          "name": "守护之光",
-          "nameEn": "Light of Protection",
-          "description": "当队伍中有角色生命值低于50%时，埃德加的治疗效果提升20%。",
-          "descriptionEn": "When a party member's HP falls below 50%, Edgar's healing effectiveness increases by 20%."
+          "name": "精心计算后的着陆",
+          "nameEn": "Calculated Landing",
+          "description": "埃德嘉滞空时点按普攻，落地时造成1次范围性的光属性异能伤害，伤害随下落高度升高而提升，最高提升200%"
         },
         {
-          "name": "生命涌泉",
-          "nameEn": "Life Spring",
-          "description": "队伍中每有一个不同属性的角色，埃德加的能量回复速度提升5%。",
-          "descriptionEn": "For each different element in the party, Edgar's Energy Recharge increases by 5%."
+          "name": "危机亦是机遇",
+          "nameEn": "Crisis as Opportunity",
+          "description": "极限反击：触发极限闪避后点击普通攻击触发，埃德嘉冲向目标，通过书包使用「流」造成1次范围性的光属性异能伤害，并额外扣除一定倾陷值"
         }
       ]
     },
@@ -2222,12 +2461,14 @@
     "image": "/images/characters/edgar.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Eibon Antique Shop, a blue-haired youth. A Cosmos-attribute A-rank Esper who assists Adler with various anomaly commissions at the shop.",
+    "descriptionEn": "A member of the Eibon Antique Shop with a refined aesthetic and composed air. Light blue hair with a white jacket and a golden key hanging from his hip. His name means 'Rich Spear' in Old English.",
     "status": "available",
     "nameTw": "埃德嘉",
     "cvZh": "四白",
     "cvJp": "三瓶由布子",
-    "cvJpEn": "Yuko Sanpei"
+    "cvJpEn": "Yuko Sanpei",
+    "cvEn": "Casey Mongillo",
+    "trait": "灯校优等生"
   },
   {
     "id": "mint",
@@ -2239,8 +2480,8 @@
     "weaponEn": "Dual Blades",
     "role": "支援",
     "roleEn": "Support",
-    "faction": "异常控制局",
-    "description": "异常控制局 CSU-2 成员。生命属性 A 级异能者，以双刃进行快速支援战斗。",
+    "faction": "Bureau of Anomaly Control (ETD-2)",
+    "description": "异常控制局收容2科的新星，活字典般的人物。无论是总务科的严厉理财专家、食堂的颤抖大叔、Budoriya沉默寡言的酋长还是DSD Pop热情的向导，薄荷都能聊得来。",
     "faq": [
       {
         "question": "Is Mint good in Neverness to Everness?",
@@ -2283,45 +2524,88 @@
     "tierReasonZh": "御三家之一，九原下位替代",
     "skills": {
       "normalAttack": {
-        "name": "薄荷生命之爪",
-        "nameEn": "Mint's Anima Claws",
-        "description": "薄荷使用双刃进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Mint performs consecutive attacks with their Dual Blades, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "name": "满分收容术",
+        "nameEn": "Perfect Containment Art",
+        "description": "薄荷进行连续攻击，造成灵系属性伤害。包含：满分收容术·天降正义法·焦糖脆片·薄荷味旋风。",
+        "descriptionEn": "Mint performs consecutive attacks dealing Anima damage. Includes sub-skills: Perfect Containment, Justice From Above, Caramel Chips, Mint Tornado."
       },
       "skill": {
-        "name": "生命脉冲",
-        "nameEn": "Anima Pulse",
-        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
-        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
-        "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
-        "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
-        "cooldown": "12s",
-        "cost": "50 能量"
+        "name": "奥义·超级连风爪",
+        "nameEn": "Ultimate: Super Chain Wind Claw",
+        "description": "冲刺穿过敌人，造成2次灵系属性伤害。",
+        "descriptionEn": "Dashes through enemies dealing 2 instances of Anima DMG.",
+        "cooldown": "8s",
+        "cost": "40 能量"
       },
       "ultimate": {
-        "name": "万物复苏",
-        "nameEn": "Revival of All Things",
-        "description": "薄荷的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
-        "descriptionEn": "Mint's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
-        "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
-        "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "奥义·霹雳疾风斩",
+        "nameEn": "Ultimate: Lightning Gale Slash",
+        "description": "释放风刃进行多段攻击，造成灵系属性伤害。",
+        "descriptionEn": "Unleashes wind blades for multi-hit attack dealing Anima DMG.",
+        "cost": "80 能量"
       },
       "passives": [
         {
-          "name": "守护之光",
-          "nameEn": "Light of Protection",
-          "description": "当队伍中有角色生命值低于50%时，薄荷的治疗效果提升20%。",
-          "descriptionEn": "When a party member's HP falls below 50%, Mint's healing effectiveness increases by 20%."
+          "name": "变身！超级薄荷！",
+          "nameEn": "Transform! Super Mint!",
+          "description": "...",
+          "descriptionEn": "..."
         },
         {
-          "name": "生命涌泉",
-          "nameEn": "Life Spring",
-          "description": "队伍中每有一个不同属性的角色，薄荷的能量回复速度提升5%。",
-          "descriptionEn": "For each different element in the party, Mint's Energy Recharge increases by 5%."
+          "name": "收工！宾果时间！",
+          "nameEn": "Done! Bingo Time!",
+          "description": "...",
+          "descriptionEn": "..."
+        }
+      ],
+      "qte": {
+        "name": "奥义·无敌飓风刃",
+        "nameEn": "Ultimate: Invincible Hurricane Blade",
+        "description": "空中穿刺，造成1次灵系伤害",
+        "descriptionEn": "Aerial pierce dealing 1 instance of Anima DMG"
+      },
+      "resonance": [
+        {
+          "name": "薄荷波波茶",
+          "nameEn": "Mint Bubble Tea",
+          "awakenReq": 3
+        },
+        {
+          "name": "蓬绒绒慕斯",
+          "nameEn": "Fluffy Mousse",
+          "awakenReq": 6
+        }
+      ],
+      "awakening": [
+        {
+          "name": "特遣行动",
+          "nameEn": "Special Operations",
+          "level": 1
+        },
+        {
+          "name": "二次补考",
+          "nameEn": "Make-up Exam",
+          "level": 2
+        },
+        {
+          "name": "全勤奖金",
+          "nameEn": "Perfect Attendance Bonus",
+          "level": 3
+        },
+        {
+          "name": "午休时间",
+          "nameEn": "Lunch Break",
+          "level": 4
+        },
+        {
+          "name": "第一直觉",
+          "nameEn": "First Intuition",
+          "level": 5
+        },
+        {
+          "name": "精英队员",
+          "nameEn": "Elite Member",
+          "level": 6
         }
       ]
     },
@@ -2394,12 +2678,13 @@
     "image": "/images/characters/mint.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "A member of the Bureau of Anomaly Control's CSU-2 unit. An Anima-attribute A-rank Esper who wields dual blades for swift support combat.",
+    "descriptionEn": "A rising star in the Bureau of Anomaly Control's Containment Unit 2, Mint is a living dictionary of people and places in Hethereau. Friendly and knowledgeable, she can chat with anyone about anything.",
     "status": "available",
     "nameTw": "薄荷",
     "cvZh": "陈雨",
-    "cvJp": "鬼头明里",
-    "cvJpEn": "Akari Kito"
+    "cvJp": "鬼頭明里",
+    "cvJpEn": "Akari Kito",
+    "cvEn": "Brianna Knickerbocker"
   },
   {
     "id": "nelly",
@@ -3087,8 +3372,8 @@
     "weaponEn": "Blade Wings",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "ETD-4",
-    "description": "S 级相属性异能者，以刃翼为武器进行战斗。详细信息待确认。",
+    "faction": "Sterry Express",
+    "description": "Sterry Express的特工，银白色长发配以天使羽翼。设计融合了神圣与朋克元素，黑白色调搭配金色星形纽扣与铆钉装饰。Lakshana属性角色。",
     "faq": [
       {
         "question": "Is Hathor good in Neverness to Everness?",
@@ -3131,45 +3416,94 @@
     "tierReasonZh": "大世界清杂优秀，但长E被打断",
     "skills": {
       "normalAttack": {
-        "name": "哈索尔相态变换",
-        "nameEn": "Hathor's Phase Shift",
-        "description": "哈索尔使用刃翼进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Hathor performs consecutive attacks with their Blade Wings, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "name": "高频送达",
+        "nameEn": "High-Frequency Delivery",
+        "description": "哈索尔进行连续攻击，造成相系属性伤害。",
+        "descriptionEn": "Hathor performs consecutive attacks, dealing Phase damage."
       },
       "skill": {
-        "name": "镜像分身",
-        "nameEn": "Mirror Clone",
-        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
-        "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
-        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "name": "空中指令",
+        "nameEn": "Air Command",
+        "description": "释放相系属性攻击。在紧急派送状态下变为「轮转打击」。",
+        "descriptionEn": "Unleashes Phase attack. Changes to Wheel Strike in Express Delivery state.",
         "cooldown": "8s",
         "cost": "40 能量"
       },
       "ultimate": {
-        "name": "万象归虚",
-        "nameEn": "Return to Void",
-        "description": "哈索尔的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Hathor's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
-        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
-        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
-        "cooldown": "60s",
-        "cost": "80 能量 / 80 Energy"
+        "name": "铁骑速递",
+        "nameEn": "Iron Rider Express",
+        "description": "召唤荆棘摩托车发动终极攻击，造成相系属性伤害，进入紧急派送状态。",
+        "descriptionEn": "Summons bramble motorcycle for ultimate attack, dealing Phase DMG and entering Express Delivery state.",
+        "cost": "80 能量"
       },
       "passives": [
         {
-          "name": "破晓之刃",
-          "nameEn": "Blade of Dawn",
-          "description": "当哈索尔的暴击触发时，攻击力提升10%，持续8秒。该效果每12秒最多触发一次。",
-          "descriptionEn": "When Hathor's attack crits, ATK increases by 10% for 8s. This effect can trigger once every 12s."
+          "name": "延时预警",
+          "nameEn": "Delayed Warning",
+          "description": "...",
+          "descriptionEn": "..."
         },
         {
-          "name": "元素共鸣",
-          "nameEn": "Elemental Resonance",
-          "description": "使用技能命中敌人后，lakshana属性伤害加成提升15%，持续10秒。",
-          "descriptionEn": "After hitting an enemy with Skill, lakshana DMG Bonus increases by 15% for 10s."
+          "name": "效率推进",
+          "nameEn": "Efficiency Boost",
+          "description": "...",
+          "descriptionEn": "..."
+        }
+      ],
+      "trait": {
+        "name": "优评锁定",
+        "nameEn": "Premium Lock-on",
+        "description": "敌人停留在身边5秒后触发",
+        "descriptionEn": "Triggers when enemies stay nearby for 5s"
+      },
+      "qte": {
+        "name": "坠点标定",
+        "nameEn": "Drop Point Calibration",
+        "description": "空中飞踢，造成2次远程相系伤害",
+        "descriptionEn": "Aerial kick dealing 2 instances of ranged Phase DMG"
+      },
+      "resonance": [
+        {
+          "name": "运力加倍",
+          "nameEn": "Delivery Capacity Doubled",
+          "awakenReq": 3
+        },
+        {
+          "name": "无阻通行",
+          "nameEn": "Unhindered Passage",
+          "awakenReq": 6
+        }
+      ],
+      "awakening": [
+        {
+          "name": "精英快递员",
+          "nameEn": "Elite Courier",
+          "level": 1
+        },
+        {
+          "name": "荆棘支配",
+          "nameEn": "Bramble Dominion",
+          "level": 2
+        },
+        {
+          "name": "一翼失衡",
+          "nameEn": "One Wing Imbalance",
+          "level": 3
+        },
+        {
+          "name": "引擎共鸣",
+          "nameEn": "Engine Resonance",
+          "level": 4
+        },
+        {
+          "name": "例行三明治",
+          "nameEn": "Routine Sandwich",
+          "level": 5
+        },
+        {
+          "name": "日常生活攻略中",
+          "nameEn": "Daily Life Strategy in Progress",
+          "level": 6
         }
       ]
     },
@@ -3242,12 +3576,13 @@
     "image": "/images/characters/hathor.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "An S-rank Lakshana-attribute Esper who wields blade wings in combat. Full details await official confirmation.",
+    "descriptionEn": "An operative of the Sterry Express with silver-white hair and majestic angel wings. Her design blends sacred and punk elements in black and white with gold star-shaped buttons and studs. A Lakshana-attribute character.",
     "status": "available",
     "nameTw": "哈索爾",
     "cvZh": "洪海天",
-    "cvJp": "市之濑加那",
-    "cvJpEn": "Kana Ichinose"
+    "cvJp": "市ノ瀬加那",
+    "cvJpEn": "Kana Ichinose",
+    "cvEn": "Allegra Clark"
   },
   {
     "id": "chiz",
@@ -3259,8 +3594,8 @@
     "weaponEn": "Yokai Hammer",
     "role": "进攻",
     "roleEn": "Attack",
-    "faction": "ETD-4",
-    "description": "S 级宇宙属性异能者，使用妖锤战斗。城市大亨模式 18 级免费获取。",
+    "faction": "Pink Paws",
+    "description": "Pink Paws的员工，粉色短发搭配鼠耳造型。身着粉白护士风连衣裙，带有暗黑可爱（Yami Kawaii）风格元素。Cosmos属性角色。",
     "faq": [
       {
         "question": "Is Chiz good in Neverness to Everness?",
@@ -3414,9 +3749,12 @@
     "image": "/images/characters/chiz.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "descriptionEn": "An S-rank Cosmos-attribute Esper wielding a Yokai Hammer. Obtainable for free at level 18 in the City Tycoon mode.",
+    "descriptionEn": "An employee of Pink Paws with a pink bob styled to look like mouse ears. Wears a nurse-style dress with Yami Kawaii aesthetic elements. A Cosmos-attribute character.",
     "status": "available",
-    "nameTw": "赤子"
+    "nameTw": "赤子",
+    "cvJp": "古賀葵",
+    "cvJpEn": "Konomi Kohara",
+    "cvEn": "Alice Himora"
   },
   {
     "id": "lilina",
@@ -4768,7 +5106,10 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch.",
     "status": "rumored",
-    "nameTw": "赤音"
+    "nameTw": "赤音",
+    "cvJp": "TBA",
+    "cvJpEn": "TBA",
+    "cvEn": "Cristina Vee"
   },
   {
     "id": "jenson",
@@ -6404,5 +6745,149 @@
     "cvZh": "则灵",
     "cvJp": "小原好美",
     "cvJpEn": "Konomi Kohara"
+  },
+  {
+    "id": "xun",
+    "name": "浔",
+    "nameEn": "Xun",
+    "attribute": "cosmos",
+    "rank": "S",
+    "weapon": "太刀",
+    "weaponEn": "Tachi",
+    "role": "进攻",
+    "roleEn": "Attack",
+    "faction": "鬼兰商会",
+    "description": "鬼兰商会的店主，光系属性异能者。外表沉稳内敛，经营着一家古董商店。",
+    "faq": [],
+    "relatedCharacters": [],
+    "skills": {
+      "normalAttack": {
+        "name": "胧月流",
+        "nameEn": "Oboro Moon Style",
+        "description": "浔进行连续攻击，造成光系属性伤害。",
+        "descriptionEn": "Xun performs consecutive attacks, dealing Cosmos DMG."
+      },
+      "skill": {
+        "name": "今景复映",
+        "nameEn": "Scene Revisited",
+        "description": "释放光系属性攻击。",
+        "descriptionEn": "Unleashes Cosmos attack.",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "浮世来潮",
+        "nameEn": "Tides of the Floating World",
+        "description": "发动终极攻击，造成光系属性伤害。",
+        "descriptionEn": "Unleashes ultimate attack, dealing Cosmos DMG.",
+        "cost": "80 能量"
+      },
+      "passives": [
+        {
+          "name": "鬼兰家纹",
+          "nameEn": "Ghost Orchid Crest",
+          "description": "...",
+          "descriptionEn": "..."
+        },
+        {
+          "name": "天下万宝",
+          "nameEn": "Treasures of the World",
+          "description": "...",
+          "descriptionEn": "..."
+        }
+      ],
+      "trait": {
+        "name": "凝雪之仪",
+        "nameEn": "Snow凝 Ceremony",
+        "description": "...",
+        "descriptionEn": "..."
+      },
+      "qte": {
+        "name": "店主威势",
+        "nameEn": "Shopkeeper Authority",
+        "description": "...",
+        "descriptionEn": "..."
+      },
+      "resonance": [
+        {
+          "name": "东零西碎的永恒",
+          "nameEn": "Eternal Fragments",
+          "awakenReq": 3
+        },
+        {
+          "name": "了然于中的至珍",
+          "nameEn": "Clarity Within",
+          "awakenReq": 6
+        }
+      ],
+      "awakening": [
+        {
+          "name": "欣欣渐行",
+          "nameEn": "Joyful Journey",
+          "level": 1
+        },
+        {
+          "name": "忆昔告远",
+          "nameEn": "Farewell to the Past",
+          "level": 2
+        },
+        {
+          "name": "垂目须臾",
+          "nameEn": "Brief Gaze",
+          "level": 3
+        },
+        {
+          "name": "旧藏遗散",
+          "nameEn": "Lost Collection",
+          "level": 4
+        },
+        {
+          "name": "独窥全相",
+          "nameEn": "Full Perspective",
+          "level": 5
+        },
+        {
+          "name": "时轮啮雪",
+          "nameEn": "Time Wheel Gnawing Snow",
+          "level": 6
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "太刀",
+      "bestWeaponEn": "Tachi",
+      "alternativeWeapons": [],
+      "bestDiskSet": "光系伤害加成",
+      "bestDiskSetEn": "Cosmos DMG Bonus",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "光系伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Cosmos DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [],
+    "image": "/images/characters/xun.webp",
+    "availableAtLaunch": true,
+    "acquisitionMethod": "gacha",
+    "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor who runs an antique shop.",
+    "status": "available",
+    "nameTw": "浔"
   }
 ]
