@@ -27,7 +27,7 @@ export async function generateMetadata({
   return {
     title:
       isZhLocale(lang)
-        ? `${material.name} 获取方式 & 用途 | 异环 Wiki`
+        ? `${material.name} 获取方式 & 用途 | 异环游戏 Wiki`
         : `${material.nameEn} (${material.name}) Source & Usage - NTE Guide`,
     description:
       isZhLocale(lang)
@@ -37,7 +37,7 @@ export async function generateMetadata({
     openGraph: {
       title:
         isZhLocale(lang)
-          ? `${material.name} 获取方式 & 用途 | 异环 Wiki`
+          ? `${material.name} 获取方式 & 用途 | 异环游戏 Wiki`
           : `${material.nameEn} Source & Usage | NTE Guide`,
       description:
         isZhLocale(lang)

@@ -46,7 +46,7 @@ export async function generateMetadata({
   const name = charName(character, lang);
   const title =
     isZhLocale(lang)
-      ? `${charName(character, lang)} - ${isZhLocale(lang) && lang === "tw" ? "異環角色攻略：配裝/技能/配隊" : "异环角色攻略：配装/技能/配队"} | NTE Guide`
+      ? `${charName(character, lang)} - ${isZhLocale(lang) && lang === "tw" ? "異環遊戲角色攻略：配裝/技能/配隊" : "异环游戏角色攻略：配装/技能/配队"} | NTE Guide`
       : `${character.nameEn} - NTE Character Guide: Build, Skills & Team | NTE Guide`;
   const description =
     isZhLocale(lang)

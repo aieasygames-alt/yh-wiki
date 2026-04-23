@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
   return {
     title: isZhLocale(locale)
-      ? "异环配置要求 — PC/Android/iOS 最低与推荐配置"
+      ? "异环游戏配置要求 — PC/Android/iOS/PS5 最低与推荐配置"
       : "NTE System Requirements — PC, Android & iOS Specs",
     description: isZhLocale(locale)
       ? "异环(Neverness to Everness)完整配置要求：PC、Android、iOS 最低和推荐配置，存储空间大小，支持平台一览。"

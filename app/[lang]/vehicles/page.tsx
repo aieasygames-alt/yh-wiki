@@ -14,7 +14,7 @@ export async function generateMetadata({
   return {
     title:
       isZhLocale(lang)
-        ? "载具图鉴 & 属性大全 | 异环 Wiki"
+        ? "载具图鉴 & 属性大全 | 异环游戏 Wiki"
         : "All Vehicles & Stats | Neverness to Everness Wiki",
     description:
       isZhLocale(lang)

@@ -28,7 +28,7 @@ export async function generateMetadata({
   return {
     title:
       isZhLocale(lang)
-        ? `${vehicle.name} 属性 & 获取方式 | 异环 Wiki`
+        ? `${vehicle.name} 属性 & 获取方式 | 异环游戏 Wiki`
         : `${vehicle.nameEn} (${vehicle.name}) Stats & How to Get - NTE Guide`,
     description:
       isZhLocale(lang)
@@ -38,7 +38,7 @@ export async function generateMetadata({
     openGraph: {
       title:
         isZhLocale(lang)
-          ? `${vehicle.name} | 异环 Wiki`
+          ? `${vehicle.name} | 异环游戏 Wiki`
           : `${vehicle.nameEn} Stats & Acquisition | NTE Guide`,
       description:
         isZhLocale(lang)

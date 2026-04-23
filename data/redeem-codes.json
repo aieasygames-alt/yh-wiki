@@ -1,30 +1,30 @@
 [
   {
     "code": "YHNOWTOENJOY",
-    "reward": "前瞻直播专属奖励",
-    "rewardEn": "Livestream Exclusive Rewards",
+    "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
+    "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Coin x4000",
     "status": "active",
-    "expiresAt": "2026-05-23",
+    "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
     "revealedAt": "2026-04-18"
   },
   {
     "code": "YHNANALLYGO",
-    "reward": "前瞻直播专属奖励",
-    "rewardEn": "Livestream Exclusive Rewards",
+    "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x6000",
+    "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Coin x6000",
     "status": "active",
-    "expiresAt": "2026-05-23",
+    "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
     "revealedAt": "2026-04-18"
   },
   {
     "code": "YHOB0423",
-    "reward": "前瞻直播专属奖励",
-    "rewardEn": "Livestream Exclusive Rewards",
+    "reward": "环石x100、特级猎人攻略x2、混沌染剂x2、甲硬币x12000",
+    "rewardEn": "Ring Stones x100, Expert Hunter Guide x2, Chaos Dye x2, Coin x12000",
     "status": "active",
-    "expiresAt": "2026-05-23",
+    "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
     "revealedAt": "2026-04-18"

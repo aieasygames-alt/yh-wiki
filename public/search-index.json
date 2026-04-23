@@ -4425,30 +4425,34 @@
   },
   {
     "id": "team-building",
-    "name": "队伍搭配与阵容推荐",
-    "nameEn": "Team Building & Composition Guide",
+    "name": "公测配队推荐 — 最强阵容搭配指南",
+    "nameEn": "Launch Best Team Comps — Meta Team Building Guide",
     "type": "guide",
     "url": "/zh/guides/team-building",
     "tags": [
       "队伍",
       "搭配",
       "阵容",
+      "配队",
       "Team",
-      "Composition"
+      "Composition",
+      "launch"
     ]
   },
   {
     "id": "team-building",
-    "name": "Team Building & Composition Guide",
-    "nameEn": "Team Building & Composition Guide",
+    "name": "Launch Best Team Comps — Meta Team Building Guide",
+    "nameEn": "Launch Best Team Comps — Meta Team Building Guide",
     "type": "guide",
     "url": "/en/guides/team-building",
     "tags": [
       "队伍",
       "搭配",
       "阵容",
+      "配队",
       "Team",
-      "Composition"
+      "Composition",
+      "launch"
     ]
   },
   {

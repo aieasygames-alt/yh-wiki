@@ -25,11 +25,11 @@ export async function generateMetadata({
   if (!faq) return {};
   const question = isZhLocale(lang) ? faq.question : faq.questionEn;
   return {
-    title: `${question}${isZhLocale(lang) ? " | 异环 Wiki" : " - NTE Guide"}`,
+    title: `${question}${isZhLocale(lang) ? " | 异环游戏 Wiki" : " - NTE Guide"}`,
     description: isZhLocale(lang) ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
     alternates: hreflangAlternates(`faq/${slug}`, lang),
     openGraph: {
-      title: `${question}${isZhLocale(lang) ? " | 异环 Wiki" : " - NTE Guide"}`,
+      title: `${question}${isZhLocale(lang) ? " | 异环游戏 Wiki" : " - NTE Guide"}`,
       description: isZhLocale(lang) ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
       type: "article",
     },

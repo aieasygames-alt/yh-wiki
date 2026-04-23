@@ -253,43 +253,52 @@
   },
   {
     "id": "team-building",
-    "title": "队伍搭配与阵容推荐",
-    "titleEn": "Team Building & Composition Guide",
+    "title": "公测配队推荐 — 最强阵容搭配指南",
+    "titleEn": "Launch Best Team Comps — Meta Team Building Guide",
     "category": "combat",
     "categoryZh": "战斗攻略",
     "categoryEn": "Combat",
-    "summary": "各类型队伍的搭配思路和推荐阵容组合。",
-    "summaryEn": "Team building strategies and recommended party compositions for every archetype.",
-    "content": "合理的队伍搭配可以将角色能力发挥到极致。本指南介绍主流的队伍搭配思路，帮助你根据已有的角色构建最优阵容。\n\n## 队伍基础框架\n\n一个完整的队伍通常包含4个角色，推荐框架为：主C + 副C + 辅助 + 生存位。根据不同的玩法需求可以灵活调整。主C负责主要伤害输出，副C在主C技能冷却时提供持续伤害，辅助提供增益或减益效果，生存位负责治疗或护盾。\n\n## 蒸发队\n\n以火元素输出为核心，配合水元素触发蒸发反应。这是最经典的增幅队伍类型，伤害上限高。关键点在于控制火水附着的顺序——水先火后触发蒸发可以获得2倍增幅，火先水后则只有1.5倍。\n\n典型的蒸发队组成：火元素主C + 水元素副C/辅助 + 风元素扩散位 + 治疗或护盾。风元素角色的扩散可以降低敌人对应元素抗性，进一步提升伤害。\n\n## 冻结队\n\n冰水组合触发冻结效果，兼顾控制和输出。适合不太擅长闪避的玩家，容错率高。冻结状态下敌人完全无法行动，为输出创造了安全窗口。\n\n冻结队的核心是高频的冰水附着。需要冰元素和水元素角色都能频繁施放技能来维持冻结效果。部分敌人有冻结抗性或特殊的元素附着机制，遇到这类敌人时需要调整策略。\n\n## 超导队\n\n冰雷组合降低物理抗性，适合物理输出角色。在特定场景下表现优异。超导反应会降低敌人物理防御30%以上，对物理输出角色的提升非常显著。\n\n超导队的适用范围相对有限，因为大部分强力输出角色依赖元素伤害而非物理伤害。但如果你拥有强力的物理输出角色，超导队的输出能力绝对不容小觑。\n\n## 纯色队\n\n同一元素的四名角色组成，虽然没有元素反应但可以获得元素共鸣加成。在特定环境下有独特的优势。元素共鸣提供的属性加成对所有角色生效，加上减少了反应搭配的复杂性，操作门槛较低。\n\n## 队伍切换技巧\n\n战斗中合理切换角色可以最大化元素附着和技能冷却的利用效率。掌握切人时机是进阶操作的核心。一般原则是：在当前角色的主要输出技能冷却时切换到下一个角色，保证场上始终有技能可用。\n\n切换角色时触发的连携技也是重要的伤害来源。合理搭配角色的出场技和退场技可以让队伍输出效率大幅提升。\n\n## 根据角色选择配队\n\n构建队伍的第一步是确定核心输出角色，然后围绕这个角色选择能提升其伤害的队友。关键考虑因素包括：元素附着频率（是否能稳定触发核心反应）、技能协同（角色技能之间是否能形成连招循环）、站位需求（近战和远程角色的输出窗口是否兼容）。\n\n不要盲目照抄网上的热门配队。每个玩家的角色持有情况不同，需要根据自己的角色库灵活调整。一个使用自己已有角色搭配的次优阵容，往往比强行凑出的所谓最优阵容表现更好，因为你更熟悉角色的操作。\n\n## 练度与队伍的关系\n\n队伍的实际表现不仅取决于角色搭配，还取决于整体练度。一个练度充足的合理配队可以轻松通关大部分内容。建议先将主力队伍的角色等级、武器和关键技能提升到当前阶段的上限，再考虑优化配队方案。过度追求完美配队而忽视基础练度是新手常见的陷阱。\n\n## 队伍培养顺序\n\n一个完整的队伍需要四个角色，但不应该同时平均培养所有角色。推荐培养顺序：第一步将主C提升到当前阶段满级，第二步提升副C到可用水平，第三步提升辅助角色的关键技能，最后提升生存位。\n\n这种阶梯式培养可以确保队伍始终有一个明确的输出核心，同时逐步提升整体实力。不要试图同时让四个角色保持相同等级，这样会导致所有角色都不够强力。",
-    "contentEn": "Proper team composition maximizes character potential. This guide covers mainstream team building strategies.\n\n## Basic Team Framework\n\nA full team has 4 characters. Recommended framework: Main DPS + Sub DPS + Support + Survival slot.\n\n## Vaporize Team\n\nFire DPS core with Hydro for Vaporize reactions. Classic amplification team with high damage ceiling.\n\n## Freeze Team\n\nCryo + Hydro for freeze effects, balancing control and damage. High tolerance for players less skilled at dodging.\n\n## Superconduct Team\n\nCryo + Electro reduces physical resistance, ideal for physical DPS characters.\n\n## Mono Element Team\n\nFour characters of the same element. No reactions but gains resonance bonuses. Unique advantages in specific scenarios.\n\n## Swap Combo Tips\n\nStrategic character switching maximizes elemental application and skill cooldown efficiency. Mastering swap timing is key to advanced play.",
+    "summary": "异环公测版本最强配队推荐，包括娜娜莉创生队、小吱盈蓄队、白藏浊燃队等毕业阵容，附带零氪平民配队方案。",
+    "summaryEn": "Best team compositions for NTE launch version. Nanally Genesis team, Xiaozhi Accumulation team, Baicang Blaze team, and F2P budget options.",
+    "content": "合理的队伍搭配是异环战斗的核心。公测版本属性反应体系以创生、盈蓄、浊燃三大反应为主轴，围绕核心主C构建队伍。本指南基于公测最新节奏榜，推荐当前版本最优阵容搭配。\n\n## 队伍基础框架\n\n异环每队4人，推荐框架为：主C + 副C/聚怪 + 辅助/增益 + 生存位/功能位。核心原则是围绕一个属性反应体系构建，利用环合（Ring Fusion）机制触发双人或三人反应。\n\n关键机制：异能者-零（主角）拥有唯一即瞬环合能力，一个E技能直接满环合，是几乎所有队伍的润滑剂，必练角色。\n\n## 阵容一：娜娜莉创生队（综合最强）\n\n毕业阵容：娜娜莉（限S）+ 九原（常驻S）+ 异能者-零（主角）+ 早雾（常驻S）\n\n| 位置 | 角色 | 属性 | 作用 |\n|------|------|------|------|\n| 主C | 娜娜莉 | 灵 | 创生反应核心输出，数值独一档 |\n| 副C | 九原 | 灵 | 超大范围聚怪，1觉可补奶 |\n| 辅助 | 早雾 | 咒 | 聚怪+加攻，1觉拐力翻倍 |\n| 功能 | 主角 | 光 | 即瞬环合光速启动 |\n\n下位替代：九原可换薄荷、早雾可换阿德勒（套盾+减抗）或哈尼娅（泛用拐）\n\n核心思路：灵+光触发创生反应，主角即瞬环合快速启动。0觉全队无治疗，九原1觉可补奶；生存压力大换阿德勒。1.0下半浔上线后是主角的上位替代。\n\n常驻S自选建议：九原（聚怪+泛用性最高）大于 早雾（辅助核心）大于 其他\n\n## 阵容二：小吱盈蓄队（平民首选）\n\n毕业阵容：小吱（免费满配）+ 九原 + 哈索尔 + 异能者-零\n\n| 位置 | 角色 | 属性 | 作用 |\n|------|------|------|------|\n| 主C | 小吱 | 光 | 都市大亨免费6+5满配，前几版本必练 |\n| 副C | 九原 | 灵 | 聚怪+灵属性反应触发 |\n| 反应位 | 哈索尔 | 相 | 触发盈蓄反应 |\n| 辅助 | 主角 | 光 | 高频环合需求 |\n\n下位替代：哈索尔可换翳、九原可换薄荷、主角可换早雾/阿德勒/哈尼娅\n\n核心思路：光+灵+相三属性触发盈蓄反应，增伤收益远大于纯堆强度。小吱满配后强度超过所有主C，是零氪玩家绝对首选。通过都市大亨（City Tycoon）系统免费获取。\n\n## 阵容三：白藏浊燃队\n\n毕业阵容：白藏（常驻S）+ 早雾 + 达芙蒂尔 + 法蒂娅\n\n| 位置 | 角色 | 属性 | 作用 |\n|------|------|------|------|\n| 主C | 白藏 | 咒 | 浊燃反应核心输出 |\n| 增益 | 早雾 | 咒 | 聚怪+加攻+咒属性共鸣 |\n| 反应位 | 达芙蒂尔 | 暗 | 浊燃必备，不可替代 |\n| 补位 | 法蒂娅 | 魂 | 失谐反应或减伤 |\n\n核心思路：咒+暗浊燃持续伤害，可扩展为咒暗魂三属性失谐反应。刚需达芙蒂尔无替代。注意1.1版本安魂曲上线后可能上位替代白藏。\n\n## 零氪/微氪配队建议\n\n如果你不打算氪金，按以下优先级培养：\n\n1. 小吱 — 都市大亨免费6+5满配，绝对主C\n2. 九原 — 常驻S自选，聚怪+奶妈，泛用性最高\n3. 哈尼娅 — 开服送一只A级辅助，满觉加攻拐\n4. 主角 — 必练，即瞬环合不可替代\n5. 阿德勒 — 最佳免费生存位\n\n推荐平民阵容：小吱 + 九原 + 哈索尔/翳 + 主角\n\n抽卡策略：娜娜莉限S池能抽则抽，抽不到靠小吱队也能通所有内容。\n\n## 属性反应体系速览\n\n| 反应名称 | 属性组合 | 适用队伍 |\n|----------|---------|----------|\n| 创生 | 灵+光 | 娜娜莉队核心 |\n| 盈蓄 | 光+灵+相 | 小吱队核心 |\n| 浊燃 | 咒+暗 | 白藏队核心 |\n| 失谐 | 咒+暗+魂 | 白藏队进阶 |\n| 覆纹 | 咒+灵 | 白藏队替代 |\n\n## 常驻S级自选优先级\n\n九原（聚怪+奶妈，泛用最高）大于 早雾（唯一S级辅助，拐力翻倍）大于 白藏（需特定配队）大于 其余",
+    "contentEn": "Proper team composition is the core of NTE combat. The launch version revolves around three major reaction systems built around a core DPS character.\n\n## Team Framework\n\nEach team has 4 members: Main DPS + Sub-DPS/Grouper + Support/Buffer + Survival/Utility. Build around one elemental reaction system and use Ring Fusion to trigger duo or trio reactions.\n\nKey mechanic: The Protagonist (Zero) has unique Instant Ring Fusion - one E skill fills the gauge instantly. Essential for almost all teams. Must-build character.\n\n## Team 1: Nanally Genesis Team (Overall Best)\n\nOptimal Lineup: Nanally (Limited S) + Jiuyuan (Standard S) + Protagonist + Hotori (Standard S)\n\n| Slot | Character | Element | Role |\n|------|-----------|---------|------|\n| Main DPS | Nanally | Anima | Genesis reaction core, unmatched damage |\n| Sub DPS | Jiuyuan | Anima | Huge AoE grouping, 1-awaken off-heal |\n| Support | Hotori | Incantation | Grouping + ATK buff, 1-awaken doubles buff |\n| Utility | Protagonist | Cosmos | Instant Ring Fusion for fast setup |\n\nBudget replacements: Jiuyuan can be replaced by Mint, Hotori by Adler (shield + resist) or Haniel (buffer).\n\nStrategy: Anima + Cosmos triggers Genesis reaction. No healing at 0-awaken; Jiuyuan 1-awaken adds healing. Xun (1.0 Phase 2) is Protagonist upgrade.\n\nStandard S Pick Priority: Jiuyuan (versatility) > Hotori (support) > Others\n\n## Team 2: Xiaozhi Accumulation Team (F2P Best)\n\nOptimal Lineup: Xiaozhi (Free Max) + Jiuyuan + Hathor + Protagonist\n\n| Slot | Character | Element | Role |\n|------|-----------|---------|------|\n| Main DPS | Xiaozhi | Cosmos | Free 6+5 from City Tycoon |\n| Sub DPS | Jiuyuan | Anima | Grouping + reaction trigger |\n| Reaction | Hathor | Lakshana | Triggers Accumulation |\n| Support | Protagonist | Cosmos | High-frequency Ring Fusion |\n\nBudget replacements: Hathor can be replaced by Skia, Jiuyuan by Mint.\n\nStrategy: Cosmos + Anima + Lakshana triggers Accumulation for massive amplification. Xiaozhi at max investment outperforms all DPS.\n\n## Team 3: Baicang Blaze Team\n\nOptimal Lineup: Baicang (Standard S) + Hotori + Daffodil + Fadia\n\nStrategy: Incantation + Chaos triggers Blaze DoT. Daffodil is irreplaceable. Requiem (v1.1) may powercreep Baicang.\n\n## F2P Priority\n\n1. Xiaozhi (free 6+5, absolute main DPS)\n2. Jiuyuan (Standard S pick, grouping + healing)\n3. Haniel (free A-rank buffer)\n4. Protagonist (irreplaceable Instant Ring Fusion)\n5. Adler (best free survival)\n\nRecommended F2P Team: Xiaozhi + Jiuyuan + Hathor/Skia + Protagonist\n\n## Reaction System Overview\n\n| Reaction | Elements | Best Team |\n|----------|----------|------------|\n| Genesis | Anima + Cosmos | Nanally team |\n| Accumulation | Cosmos + Anima + Lakshana | Xiaozhi team |\n| Blaze | Incantation + Chaos | Baicang team |\n| Discord | Incantation + Chaos + Psyche | Baicang advanced |\n\n## Standard S Pick Priority\n\nJiuyuan (versatility) > Hotori (only S-rank support) > Baicang (team-locked) > Others",
     "tags": [
       "队伍",
       "搭配",
       "阵容",
+      "配队",
       "Team",
-      "Composition"
+      "Composition",
+      "launch"
     ],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "xiaozhi",
+      "baicang",
+      "hotori",
+      "zero"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
     "faq": [
       {
-        "question": "What is the best team building & composition strategy in Neverness to Everness?",
-        "questionZh": "异环中队伍搭配与阵容推荐最重要的是什么？",
-        "answer": "Team building strategies and recommended party compositions for every archetype.",
-        "answerZh": "各类型队伍的搭配思路和推荐阵容组合。"
+        "question": "What is the best team in NTE launch version?",
+        "questionZh": "异环公测版本最强配队是什么？",
+        "answer": "Nanally Genesis team (Nanally + Jiuyuan + Protagonist + Hotori) is overall the strongest. For F2P players, Xiaozhi Accumulation team (Xiaozhi + Jiuyuan + Hathor + Protagonist) is the best choice.",
+        "answerZh": "娜娜莉创生队（娜娜莉+九原+主角+早雾）综合最强。零氪玩家推荐小吱盈蓄队（小吱+九原+哈索尔+主角）。"
       },
       {
-        "question": "How to improve at Neverness to Everness?",
-        "questionZh": "如何提升异环的游戏水平？",
-        "answer": "Follow our team building & composition guide for the best results. This guide covers essential tips and strategies for Neverness to Everness players.",
-        "answerZh": "遵循我们的队伍搭配与阵容推荐可以获得最佳效果。本攻略涵盖异环玩家必备的技巧和策略。"
+        "question": "Which standard S character should I pick in NTE?",
+        "questionZh": "异环常驻S级角色自选选谁？",
+        "answer": "Jiuyuan is the best pick with versatile grouping and off-healing at 1-awaken. Hotori is second for irreplaceable support buffs.",
+        "answerZh": "九原是最优选，超大范围聚怪+1觉客串奶妈，泛用性顶级。早雾第二选，唯一S级辅助。"
       },
       {
-        "question": "Is team building & composition  worth it in Neverness to Everness?",
-        "questionZh": "异环队伍搭配与阵容推荐值得投入吗？",
-        "answer": "Yes, Team building strategies and recommended party compositions for every archetype.",
-        "answerZh": "各类型队伍的搭配思路和推荐阵容组合。"
+        "question": "Is Xiaozhi worth building for F2P players?",
+        "questionZh": "零氪玩家小吱值得培养吗？",
+        "answer": "Absolutely. Xiaozhi is free 6+5 from City Tycoon and at max investment outperforms all DPS. Must-build for F2P.",
+        "answerZh": "绝对值得。小吱通过都市大亨免费满配6+5，满配后强度超过所有主C，零氪必练。"
       }
     ]
   },

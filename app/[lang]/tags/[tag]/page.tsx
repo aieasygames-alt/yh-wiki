@@ -40,7 +40,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string; tag: string } }) {
   const { lang, tag } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环 Wiki` : `#${tag} - NTE Guide`;
+  const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环游戏 Wiki` : `#${tag} - NTE Guide`;
   return {
     title: `${title} | NTE Guide`,
     description: title,

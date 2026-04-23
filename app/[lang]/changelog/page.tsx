@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
-  const title = isZhLocale(lang) ? "版本更新日志 - 异环" : "Version Changelog - NTE";
+  const title = isZhLocale(lang) ? "版本更新日志 - 异环游戏" : "Version Changelog - NTE";
   const description = isZhLocale(lang)
     ? "异环（Neverness to Everness）版本更新日志，包含新角色、新功能、系统优化等完整更新内容。"
     : "Neverness to Everness version changelog with new characters, features, system optimizations and more.";

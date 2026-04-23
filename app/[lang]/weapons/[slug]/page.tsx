@@ -29,7 +29,7 @@ export async function generateMetadata({
   return {
     title:
       isZhLocale(lang)
-        ? `${weapon.name} 属性 & 适用角色 | 异环 Wiki`
+        ? `${weapon.name} 属性 & 适用角色 | 异环游戏 Wiki`
         : `${weapon.nameEn} (${weapon.name}) Stats & Best Characters - NTE`,
     description:
       isZhLocale(lang)
@@ -39,7 +39,7 @@ export async function generateMetadata({
     openGraph: {
       title:
         isZhLocale(lang)
-          ? `${weapon.name} | 异环 Wiki`
+          ? `${weapon.name} | 异环游戏 Wiki`
           : `${weapon.nameEn} Stats & Best Characters | NTE`,
       description:
         isZhLocale(lang)

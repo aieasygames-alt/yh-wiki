@@ -13,6 +13,8 @@ export const metadata: Metadata = {
     "Neverness to Everness", "NTE", "NTE guide", "NTE wiki",
     "NTE characters", "NTE tier list", "NTE calculator",
     "NTE redeem codes", "NTE builds",
+    "异环", "异环游戏", "异环攻略", "异环角色", "异环强度榜",
+    "异环兑换码", "异环抽卡", "异环配队", "异环Wiki",
   ],
   icons: {
     icon: "/favicon.ico",

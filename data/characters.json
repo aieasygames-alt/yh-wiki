@@ -48,9 +48,9 @@
       "mint",
       "nelly"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "SS",
+    "tierReason": "Launch best limited S-rank DPS, unmatched numbers, won't be powercrept soon",
+    "tierReasonZh": "开服最强限S主C，数值独一档，短期不会退役",
     "skills": {
       "normalAttack": {
         "name": "娜娜莉生命之爪",
@@ -217,9 +217,9 @@
       "adler",
       "lingko"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "S级支援角色。",
+    "tierRank": "A+",
+    "tierReason": "Core buff support, pairs well with any DPS",
+    "tierReasonZh": "核心增益辅助，搭配任意输出角色均可",
     "skills": {
       "normalAttack": {
         "name": "咲里咒文打击",
@@ -386,9 +386,9 @@
       "nitsa",
       "jenson"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "Damage share prevents burst deaths, but no healing/shield",
+    "tierReasonZh": "分摊伤害防猝死，但缺回血/护盾",
     "skills": {
       "normalAttack": {
         "name": "法蒂亚灵魂冲击",
@@ -555,9 +555,9 @@
       "mismo",
       "black-bird"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "Construct AoE is strong, good for group fights",
+    "tierReasonZh": "召唤物AoE优秀，适合群体战斗",
     "skills": {
       "normalAttack": {
         "name": "拉克莉莫萨混沌侵蚀",
@@ -724,9 +724,9 @@
       "adler",
       "lingko"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Defense character in Neverness to Everness.",
-    "tierReasonZh": "S级防护角色。",
+    "tierRank": "S+",
+    "tierReason": "Top-tier damage but team locked to Daffodil",
+    "tierReasonZh": "伤害同层顶级，但配队刚需达芙蒂尔",
     "skills": {
       "normalAttack": {
         "name": "白藏咒文打击",
@@ -893,9 +893,9 @@
       "edgar",
       "taygedo"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "S+",
+    "tierReason": "Protagonist with instant Ring Fusion, irreplaceable team enabler",
+    "tierReasonZh": "主角即瞬环合机制不可替代，队伍润滑剂",
     "skills": {
       "normalAttack": {
         "name": "零星辰斩",
@@ -1062,9 +1062,9 @@
       "edgar",
       "taygedo"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "S+",
+    "tierReason": "Only S-rank support, grouping + ATK buff, 1-awaken doubles buff power",
+    "tierReasonZh": "唯一S级辅助，聚怪+加攻，1觉质变拐力翻倍",
     "skills": {
       "normalAttack": {
         "name": "穗鸟星辰斩",
@@ -1231,9 +1231,9 @@
       "mismo",
       "black-bird"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "S级支援角色。",
+    "tierRank": "A+",
+    "tierReason": "High-frequency parry boss specialist, required for Baicang team",
+    "tierReasonZh": "高频振刀Boss特化输出，白藏队刚需",
     "skills": {
       "normalAttack": {
         "name": "达芙迪尔混沌侵蚀",
@@ -1400,9 +1400,9 @@
       "mint",
       "nelly"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Utility character in Neverness to Everness.",
-    "tierReasonZh": "S级辅助角色。",
+    "tierRank": "SS",
+    "tierReason": "Best standard S pick, huge AoE grouping + 1-awaken off-heal, top versatility",
+    "tierReasonZh": "常驻S首选自选，超大范围聚怪+1觉客串奶妈，泛用性顶级",
     "skills": {
       "normalAttack": {
         "name": "九原生命之爪",
@@ -1569,9 +1569,9 @@
       "nitsa",
       "jenson"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank TBD character in Neverness to Everness.",
-    "tierReasonZh": "S级待定角色。",
+    "tierRank": "A+",
+    "tierReason": "A-rank powerhouse, top ATK buffer, 12% crit DMG at max awaken",
+    "tierReasonZh": "A级战神，顶级加攻拐力，满觉12%暴伤加成",
     "skills": {
       "normalAttack": {
         "name": "哈尼尔灵魂冲击",
@@ -1738,9 +1738,9 @@
       "baicang",
       "lingko"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。",
+    "tierRank": "A+",
+    "tierReason": "Best 1.0 survival slot, shield + ATK reduction + elemental resist",
+    "tierReasonZh": "1.0最佳生存位，护盾+减攻+属性抗性",
     "skills": {
       "normalAttack": {
         "name": "阿德勒咒文打击",
@@ -1907,9 +1907,9 @@
       "alphard",
       "hathor"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。",
+    "tierRank": "B",
+    "tierReason": "Underwhelming kit, used as reaction trigger in Xiaozhi team",
+    "tierReasonZh": "数值和机制均不亮眼，小吱队凑反应用",
     "skills": {
       "normalAttack": {
         "name": "翳相态变换",
@@ -2076,9 +2076,9 @@
       "hotori",
       "taygedo"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。",
+    "tierRank": "B",
+    "tierReason": "Pure healer with no utility, good for beginners",
+    "tierReasonZh": "纯治疗无其他功能，手残党可选",
     "skills": {
       "normalAttack": {
         "name": "埃德加星辰斩",
@@ -2246,8 +2246,8 @@
       "nelly"
     ],
     "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。",
+    "tierReason": "Starter character, Jiuyuan budget replacement",
+    "tierReasonZh": "御三家之一，九原下位替代",
     "skills": {
       "normalAttack": {
         "name": "薄荷生命之爪",
@@ -2414,9 +2414,9 @@
       "jiuyuan",
       "mint"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "奈莉生命之爪",
@@ -2583,9 +2583,9 @@
       "alphard",
       "hathor"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "梅露拉相态变换",
@@ -2752,9 +2752,9 @@
       "merula",
       "hathor"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank TBD character in Neverness to Everness.",
-    "tierReasonZh": "A级待定角色。",
+    "tierRank": "B",
+    "tierReason": "Requires specific team synergy",
+    "tierReasonZh": "需要特定阵容配合",
     "skills": {
       "normalAttack": {
         "name": "阿尔法德相态变换",
@@ -2921,9 +2921,9 @@
       "hotori",
       "edgar"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。",
+    "tierRank": "B",
+    "tierReason": "Construct utility is average",
+    "tierReasonZh": "构装体功能一般",
     "skills": {
       "normalAttack": {
         "name": "泰格多星辰斩",
@@ -3090,9 +3090,9 @@
       "merula",
       "alphard"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "B",
+    "tierReason": "Great for open-world clearing, but long E is interruptible",
+    "tierReasonZh": "大世界清杂优秀，但长E被打断",
     "skills": {
       "normalAttack": {
         "name": "哈索尔相态变换",
@@ -3259,9 +3259,9 @@
       "hotori",
       "edgar"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "Hammer has wide range, versatile for AoE and boss fights",
+    "tierReasonZh": "妖锤攻击范围广，群体和Boss战均可",
     "skills": {
       "normalAttack": {
         "name": "赤子星辰斩",
@@ -3428,9 +3428,9 @@
       "hotori",
       "edgar"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank TBD character in Neverness to Everness.",
-    "tierReasonZh": "S级待定角色。",
+    "tierRank": "A",
+    "tierReason": "Specialized DPS character",
+    "tierReasonZh": "特色输出角色",
     "skills": {
       "normalAttack": {
         "name": "莉莉娜星辰斩",
@@ -3597,9 +3597,9 @@
       "baicang",
       "adler"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "凛子咒文打击",
@@ -3766,9 +3766,9 @@
       "daffodil",
       "black-bird"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "密斯莫混沌侵蚀",
@@ -3935,9 +3935,9 @@
       "jiuyuan",
       "mint"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "A级进攻角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "沁红生命之爪",
@@ -4104,9 +4104,9 @@
       "haniel",
       "jenson"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级支援角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "尼察灵魂冲击",
@@ -4273,9 +4273,9 @@
       "daffodil",
       "mismo"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "High mobility DPS character",
+    "tierReasonZh": "高机动性输出角色",
     "skills": {
       "normalAttack": {
         "name": "黑鸟混沌侵蚀",
@@ -4442,9 +4442,9 @@
       "jiuyuan",
       "mint"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "Balanced character, stable performance",
+    "tierReasonZh": "均衡型角色，表现稳定",
     "skills": {
       "normalAttack": {
         "name": "明虎生命之爪",
@@ -4611,9 +4611,9 @@
       "baicang",
       "adler"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "Distinctive kit, excels in specific scenarios",
+    "tierReasonZh": "特色鲜明，有特定场景发挥",
     "skills": {
       "normalAttack": {
         "name": "赤音咒文打击",
@@ -4780,9 +4780,9 @@
       "haniel",
       "nitsa"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Defense character in Neverness to Everness.",
-    "tierReasonZh": "A级防护角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "詹森灵魂冲击",
@@ -4949,9 +4949,9 @@
       "merula",
       "alphard"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Attack character in Neverness to Everness.",
-    "tierReasonZh": "S级进攻角色。",
+    "tierRank": "A",
+    "tierReason": "Utility character, consistent team contribution",
+    "tierReasonZh": "功能型角色，团队贡献稳定",
     "skills": {
       "normalAttack": {
         "name": "伊利卡相态变换",
@@ -5119,9 +5119,9 @@
       "jiuyuan",
       "mint"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级辅助角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "风花生命之爪",
@@ -5288,9 +5288,9 @@
       "daffodil",
       "mismo"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "S级输出角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "克劳混沌侵蚀",
@@ -5457,9 +5457,9 @@
       "haniel",
       "nitsa"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "A级辅助角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "蕾妮灵魂冲击",
@@ -5626,9 +5626,9 @@
       "baicang",
       "adler"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "A级输出角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "吾郎咒文打击",
@@ -5795,9 +5795,9 @@
       "hotori",
       "edgar"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "S级输出角色。",
+    "tierRank": "A",
+    "tierReason": "Unique utility, valuable in specific team comps",
+    "tierReasonZh": "功能独特，特定配队有价值",
     "skills": {
       "normalAttack": {
         "name": "玛丽娜星辰斩",
@@ -5964,9 +5964,9 @@
       "merula",
       "alphard"
     ],
-    "tierRank": "A",
-    "tierReason": "A-rank DPS character in Neverness to Everness.",
-    "tierReasonZh": "A级输出角色。",
+    "tierRank": "B",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "海斗相态变换",
@@ -6133,9 +6133,9 @@
       "jiuyuan",
       "mint"
     ],
-    "tierRank": "S",
-    "tierReason": "S-rank Support character in Neverness to Everness.",
-    "tierReasonZh": "S级辅助角色。",
+    "tierRank": "A",
+    "tierReason": "Support character, provides consistent buffs",
+    "tierReasonZh": "辅助型角色，提供稳定增益",
     "skills": {
       "normalAttack": {
         "name": "希尔菲生命之爪",
@@ -6267,8 +6267,8 @@
     "faq": [],
     "relatedCharacters": [],
     "tierRank": "B",
-    "tierReason": "New A-rank character, evaluation pending post-launch.",
-    "tierReasonZh": "公测新增A级角色，待上线后评估。",
+    "tierReason": "Needs more exploration",
+    "tierReasonZh": "需要更多开发",
     "skills": {
       "normalAttack": {
         "name": "待定",
@@ -6311,9 +6311,9 @@
     "description": "通过都市大亨模式免费获取的S级角色。详细技能信息待公测后更新。",
     "faq": [],
     "relatedCharacters": [],
-    "tierRank": "A",
-    "tierReason": "Free S-rank from City Tycoon, solid value for F2P players.",
-    "tierReasonZh": "都市大亨免费获取的S级角色，对零氪玩家有很高价值。",
+    "tierRank": "S+",
+    "tierReason": "Free 6+5 from City Tycoon, outperforms all DPS at max investment",
+    "tierReasonZh": "都市大亨免费6+5满配，满配后强度高于所有主C",
     "skills": {
       "normalAttack": {
         "name": "待定",
