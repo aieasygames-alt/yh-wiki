@@ -4,18 +4,33 @@
     "builds": [
       {
         "id": "nanally-dps",
-        "name": "输出流",
-        "nameEn": "DPS Build",
-        "description": "以暴击为核心的近战输出 Build，最大化格斗伤害",
-        "descriptionEn": "Crit-focused melee DPS build that maximizes Fangs and Claws damage",
+        "name": "创生主C输出流",
+        "nameEn": "Genesis DPS Build",
+        "description": "以暴击和攻击力为核心的创生反应主C Build，搭配九原聚怪+早雾增伤",
+        "descriptionEn": "Crit and ATK-focused Genesis reaction DPS build, paired with Jiuyuan grouping and Hotori buffs",
         "mainStat": "攻击力%",
         "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "暴击伤害", "攻击力%", "生命%"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "HP%"],
-        "recommendedWeapons": ["fangs-and-claws"],
-        "teamComp": ["sakiri", "fadia"],
-        "notes": "娜娜莉核心输出流，需要咲里提供增益、法蒂亚提供护盾",
-        "notesEn": "Nanally's core DPS build. Sakiri provides buffs, Fadia provides shields"
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "fangs-and-claws"
+        ],
+        "teamComp": [
+          "jiuyuan",
+          "hotori"
+        ],
+        "notes": "娜娜莉创生队核心，九原聚怪+早雾增伤+主角即瞬环合。0觉无治疗，九原1觉补奶。",
+        "notesEn": "Nanally Genesis team core. Jiuyuan groups, Hotori buffs, Protagonist instant Ring Fusion. No healing at 0-awaken, Jiuyuan 1-awaken adds heal."
       }
     ]
   },
@@ -24,18 +39,33 @@
     "builds": [
       {
         "id": "sakiri-support",
-        "name": "增益支援",
-        "nameEn": "Buff Support",
-        "description": "以生命和充能为核心的支援 Build，最大化团队增益效果",
-        "descriptionEn": "HP and energy-focused support build that maximizes team buffs",
+        "name": "增益支援流",
+        "nameEn": "Buff Support Build",
+        "description": "以生命和充能为核心的支援 Build，搭配任意输出角色",
+        "descriptionEn": "HP and energy-focused support, pairs with any DPS character",
         "mainStat": "生命%",
         "mainStatEn": "HP%",
-        "subStats": ["生命%", "能量回复", "防御%", "生命"],
-        "subStatsEn": ["HP%", "Energy Regen", "DEF%", "HP"],
-        "recommendedWeapons": ["kiroumaru"],
-        "teamComp": ["nanally", "zero"],
-        "notes": "咲里作为核心辅助，搭配任意输出角色均可",
-        "notesEn": "Sakiri as core support pairs well with any DPS character"
+        "subStats": [
+          "生命%",
+          "能量回复",
+          "防御%",
+          "速度"
+        ],
+        "subStatsEn": [
+          "HP%",
+          "Energy Regen",
+          "DEF%",
+          "Speed"
+        ],
+        "recommendedWeapons": [
+          "kiroumaru"
+        ],
+        "teamComp": [
+          "nanally",
+          "zero"
+        ],
+        "notes": "核心增益辅助，搭配任意输出角色均可。灵属性共鸣提供稳定增益。",
+        "notesEn": "Core buff support, works with any DPS. Anima resonance provides consistent buffs."
       }
     ]
   },
@@ -50,10 +80,25 @@
         "descriptionEn": "Balanced build that maintains both offensive and defensive capabilities",
         "mainStat": "攻击力%",
         "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "暴击伤害", "生命%", "防御%"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "HP%", "DEF%"],
-        "recommendedWeapons": ["transforming-cross-shield"],
-        "teamComp": ["sakiri", "baicang"],
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "生命%",
+          "防御%"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "HP%",
+          "DEF%"
+        ],
+        "recommendedWeapons": [
+          "transforming-cross-shield"
+        ],
+        "teamComp": [
+          "sakiri",
+          "baicang"
+        ],
         "notes": "法蒂亚自带护盾，可以走更激进的输出路线",
         "notesEn": "Fadia has built-in shields, allowing a more aggressive playstyle"
       }
@@ -70,10 +115,25 @@
         "descriptionEn": "Esper ATK-focused summon DPS build",
         "mainStat": "异能攻击%",
         "mainStatEn": "Esper ATK%",
-        "subStats": ["暴击率", "暴击伤害", "攻击力%", "充能效率"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "Energy Regen"],
-        "recommendedWeapons": ["esper-constructs"],
-        "teamComp": ["sakiri", "daffodil"],
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "esper-constructs"
+        ],
+        "teamComp": [
+          "sakiri",
+          "daffodil"
+        ],
         "notes": "拉克莉莫萨的构装体可以同时攻击多个目标，适合群体战斗",
         "notesEn": "Lacrimosa's constructs attack multiple targets simultaneously, great for AoE"
       }
@@ -83,19 +143,34 @@
     "characterId": "baicang",
     "builds": [
       {
-        "id": "baicang-defense",
-        "name": "防护专精",
-        "nameEn": "Defense Build",
-        "description": "以防御和生命为核心的防护 Build，最大化言灵护盾效果",
-        "descriptionEn": "DEF and HP-focused build that maximizes Incantation barrier effects",
-        "mainStat": "防御%",
-        "mainStatEn": "DEF%",
-        "subStats": ["生命%", "防御%", "能量回复", "生命"],
-        "subStatsEn": ["HP%", "DEF%", "Energy Regen", "HP"],
-        "recommendedWeapons": ["power-of-words"],
-        "teamComp": ["fadia", "lacrimosa"],
-        "notes": "白藏作为队长角色，防护 Build 可以极大提升团队生存能力",
-        "notesEn": "Baicang as team captain, defense build greatly improves team survivability"
+        "id": "baicang-dps",
+        "name": "浊燃输出流",
+        "nameEn": "Blaze DPS Build",
+        "description": "以暴击为核心的浊燃反应主C Build，搭配达芙蒂尔触发浊燃",
+        "descriptionEn": "Crit-focused Blaze reaction DPS build, paired with Daffodil for Blaze trigger",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "power-of-words"
+        ],
+        "teamComp": [
+          "hotori",
+          "daffodil"
+        ],
+        "notes": "白藏浊燃队核心，刚需达芙蒂尔触发浊燃。注意1.1版本安魂曲可能上位替代。",
+        "notesEn": "Baicang Blaze team core, requires Daffodil for Blaze trigger. Requiem in v1.1 may powercreep."
       }
     ]
   },
@@ -110,10 +185,25 @@
         "descriptionEn": "Crit-focused sword DPS build",
         "mainStat": "攻击力%",
         "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "暴击伤害", "攻击力%", "速度"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "Speed"],
-        "recommendedWeapons": ["sword"],
-        "teamComp": ["sakiri", "hotori"],
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "速度"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Speed"
+        ],
+        "recommendedWeapons": [
+          "sword"
+        ],
+        "teamComp": [
+          "sakiri",
+          "hotori"
+        ],
         "notes": "零的剑术连击流畅，适合追求高输出的玩家",
         "notesEn": "Zero's sword combos are fluid, suited for players who maximize damage output"
       }
@@ -123,19 +213,34 @@
     "characterId": "hotori",
     "builds": [
       {
-        "id": "hotori-dps",
-        "name": "唐伞输出",
-        "nameEn": "Umbrella DPS",
-        "description": "以暴击和攻击为核心的唐伞刀输出 Build",
-        "descriptionEn": "Crit and ATK-focused Umbrella Katana DPS build",
-        "mainStat": "攻击力%",
-        "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "暴击伤害", "攻击力%", "生命%"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "HP%"],
-        "recommendedWeapons": ["umbrella-katana"],
-        "teamComp": ["sakiri", "zero"],
-        "notes": "穗鸟的唐伞刀变形机制独特，攻防转换灵活",
-        "notesEn": "Hotori's umbrella transformation mechanics are unique, switching freely between offense and defense"
+        "id": "hotori-support",
+        "name": "聚怪增伤辅助流",
+        "nameEn": "Grouping Buffer Support",
+        "description": "以生命和充能为核心的唯一S级辅助 Build，聚怪+加攻，1觉拐力翻倍",
+        "descriptionEn": "HP and energy-focused only S-rank support, grouping + ATK buff, 1-awaken doubles buff power",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": [
+          "生命%",
+          "能量回复",
+          "速度",
+          "防御%"
+        ],
+        "subStatsEn": [
+          "HP%",
+          "Energy Regen",
+          "Speed",
+          "DEF%"
+        ],
+        "recommendedWeapons": [
+          "umbrella-katana"
+        ],
+        "teamComp": [
+          "nanally",
+          "jiuyuan"
+        ],
+        "notes": "唯一S级辅助，兼顾聚怪+加攻。1觉质变拐力翻倍，常驻S兑换优先级仅次于九原。",
+        "notesEn": "Only S-rank support with grouping + ATK buff. 1-awaken doubles buff, second priority after Jiuyuan for standard S pick."
       }
     ]
   },
@@ -143,19 +248,34 @@
     "characterId": "daffodil",
     "builds": [
       {
-        "id": "daffodil-support",
-        "name": "远程支援",
-        "nameEn": "Ranged Support",
-        "description": "以生命和充能为核心的远程支援 Build",
-        "descriptionEn": "HP and energy-focused ranged support build",
-        "mainStat": "生命%",
-        "mainStatEn": "HP%",
-        "subStats": ["生命%", "能量回复", "攻击力%", "防御%"],
-        "subStatsEn": ["HP%", "Energy Regen", "ATK%", "DEF%"],
-        "recommendedWeapons": ["liquid-arc"],
-        "teamComp": ["nanally", "lacrimosa"],
-        "notes": "达芙迪尔的液态武器可以远程支援，适合搭配近战输出角色",
-        "notesEn": "Daffodil's liquid weapon provides ranged support, ideal with melee DPS characters"
+        "id": "daffodil-subdps",
+        "name": "浊燃反应副C流",
+        "nameEn": "Blaze Reaction Sub-DPS",
+        "description": "以攻击和暴击为核心的高频振刀Boss特化输出 Build",
+        "descriptionEn": "ATK and Crit-focused high-frequency parry boss specialist sub-DPS",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "充能效率"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "liquid-arc"
+        ],
+        "teamComp": [
+          "baicang",
+          "hotori"
+        ],
+        "notes": "白藏队刚需副C，高频振刀Boss特化。浊燃反应触发位，不可替代。",
+        "notesEn": "Required for Baicang team, high-frequency parry boss specialist. Blaze reaction trigger, irreplaceable."
       }
     ]
   },
@@ -163,19 +283,34 @@
     "characterId": "jiuyuan",
     "builds": [
       {
-        "id": "jiuyuan-utility",
-        "name": "功能辅助",
-        "nameEn": "Utility Build",
-        "description": "以速度和充能为核心的功能辅助 Build",
-        "descriptionEn": "Speed and energy-focused utility build",
-        "mainStat": "速度",
-        "mainStatEn": "Speed",
-        "subStats": ["速度", "能量回复", "生命%", "防御%"],
-        "subStatsEn": ["Speed", "Energy Regen", "HP%", "DEF%"],
-        "recommendedWeapons": ["vehicle"],
-        "teamComp": ["baicang", "mint"],
-        "notes": "九原主要负责运输和机动支援，Build 以功能性为主",
-        "notesEn": "Jiuyuan focuses on transport and mobility support, build prioritizes utility"
+        "id": "jiuyuan-support",
+        "name": "聚怪奶妈辅助流",
+        "nameEn": "Grouping Healer Support",
+        "description": "以生命和充能为核心的聚怪+治疗辅助 Build，1觉解锁奶妈能力",
+        "descriptionEn": "HP and energy-focused grouping + healing support, unlocks healer role at 1-awaken",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": [
+          "生命%",
+          "能量回复",
+          "速度",
+          "防御%"
+        ],
+        "subStatsEn": [
+          "HP%",
+          "Energy Regen",
+          "Speed",
+          "DEF%"
+        ],
+        "recommendedWeapons": [
+          "kiroumaru"
+        ],
+        "teamComp": [
+          "nanally",
+          "hotori"
+        ],
+        "notes": "常驻S首选自选，超大范围聚怪泛用性顶级。1觉质变可客串奶妈，几乎所有队伍都能就业。",
+        "notesEn": "Best standard S pick, huge AoE grouping with top versatility. 1-awaken adds healing, fits almost every team."
       }
     ]
   },
@@ -190,10 +325,25 @@
         "descriptionEn": "Crit and ATK-focused flying DPS build",
         "mainStat": "攻击力%",
         "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "暴击伤害", "攻击力%", "速度"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "ATK%", "Speed"],
-        "recommendedWeapons": ["blade-wings"],
-        "teamComp": ["sakiri", "fadia"],
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "速度"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Speed"
+        ],
+        "recommendedWeapons": [
+          "blade-wings"
+        ],
+        "teamComp": [
+          "sakiri",
+          "fadia"
+        ],
         "notes": "哈索尔的刃翼兼具飞行和攻击能力，机动性极强",
         "notesEn": "Hathor's blade wings combine flight and offense, offering extreme mobility"
       }
@@ -210,10 +360,25 @@
         "descriptionEn": "Crit DMG and ATK-focused heavy strike build",
         "mainStat": "攻击力%",
         "mainStatEn": "ATK%",
-        "subStats": ["暴击伤害", "暴击率", "攻击力%", "生命%"],
-        "subStatsEn": ["Crit DMG", "Crit Rate", "ATK%", "HP%"],
-        "recommendedWeapons": ["yokai-hammer"],
-        "teamComp": ["sakiri", "hathor"],
+        "subStats": [
+          "暴击伤害",
+          "暴击率",
+          "攻击力%",
+          "生命%"
+        ],
+        "subStatsEn": [
+          "Crit DMG",
+          "Crit Rate",
+          "ATK%",
+          "HP%"
+        ],
+        "recommendedWeapons": [
+          "yokai-hammer"
+        ],
+        "teamComp": [
+          "sakiri",
+          "hathor"
+        ],
         "notes": "赤子的妖锤攻击范围广，适合群体战斗和 BOSS 战",
         "notesEn": "Chiz's yokai hammer has wide attack range, great for both AoE and boss fights"
       }
@@ -223,19 +388,34 @@
     "characterId": "adler",
     "builds": [
       {
-        "id": "adler-dps",
-        "name": "管家剑术",
-        "nameEn": "Butler Sword",
-        "description": "平衡攻击和充能的 Build，兼顾输出和辅助能力",
-        "descriptionEn": "Balanced ATK and energy build for both offense and support",
-        "mainStat": "攻击力%",
-        "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "攻击力%", "能量回复", "速度"],
-        "subStatsEn": ["Crit Rate", "ATK%", "Energy Regen", "Speed"],
-        "recommendedWeapons": ["cane-sword-and-sunyas"],
-        "teamComp": ["edgar", "mint"],
-        "notes": "阿德勒与 Sunyas 协同作战，充能效率很重要",
-        "notesEn": "Adler fights alongside Sunyas, energy efficiency is important"
+        "id": "adler-survival",
+        "name": "护盾生存流",
+        "nameEn": "Shield Survival Build",
+        "description": "以生命和防御为核心的1.0最佳生存位 Build，护盾+减攻+属性抗性",
+        "descriptionEn": "HP and DEF-focused best 1.0 survival slot, shield + ATK reduction + elemental resist",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": [
+          "生命%",
+          "防御%",
+          "能量回复",
+          "速度"
+        ],
+        "subStatsEn": [
+          "HP%",
+          "DEF%",
+          "Energy Regen",
+          "Speed"
+        ],
+        "recommendedWeapons": [
+          "cane-sword-and-sunyas"
+        ],
+        "teamComp": [
+          "baicang",
+          "hotori"
+        ],
+        "notes": "1.0最佳生存位，护盾+减攻+属性抗性+倾陷效率。咒队额外10%增伤。",
+        "notesEn": "Best 1.0 survival, shield + ATK reduction + resist + break efficiency. Extra 10% DMG for Incantation teams."
       }
     ]
   },
@@ -250,10 +430,25 @@
         "descriptionEn": "Crit and speed-focused shadow strike build",
         "mainStat": "攻击力%",
         "mainStatEn": "ATK%",
-        "subStats": ["暴击率", "暴击伤害", "速度", "攻击力%"],
-        "subStatsEn": ["Crit Rate", "Crit DMG", "Speed", "ATK%"],
-        "recommendedWeapons": ["shadow-manipulation"],
-        "teamComp": ["fadia", "lacrimosa"],
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "速度",
+          "攻击力%"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "Speed",
+          "ATK%"
+        ],
+        "recommendedWeapons": [
+          "shadow-manipulation"
+        ],
+        "teamComp": [
+          "fadia",
+          "lacrimosa"
+        ],
         "notes": "翳擅长从暗处发起攻击，速度词条提升先手优势",
         "notesEn": "Skia excels at attacking from darkness, speed substats improve first-strike advantage"
       }
@@ -270,10 +465,25 @@
         "descriptionEn": "HP and speed-focused quick support build",
         "mainStat": "生命%",
         "mainStatEn": "HP%",
-        "subStats": ["速度", "生命%", "防御%", "能量回复"],
-        "subStatsEn": ["Speed", "HP%", "DEF%", "Energy Regen"],
-        "recommendedWeapons": ["dual-blades"],
-        "teamComp": ["adler", "edgar"],
+        "subStats": [
+          "速度",
+          "生命%",
+          "防御%",
+          "能量回复"
+        ],
+        "subStatsEn": [
+          "Speed",
+          "HP%",
+          "DEF%",
+          "Energy Regen"
+        ],
+        "recommendedWeapons": [
+          "dual-blades"
+        ],
+        "teamComp": [
+          "adler",
+          "edgar"
+        ],
         "notes": "薄荷攻速极快，可以快速提供支援效果",
         "notesEn": "Mint's fast attack speed enables quick support effect application"
       }
@@ -290,12 +500,97 @@
         "descriptionEn": "HP and DEF-focused construct support build",
         "mainStat": "生命%",
         "mainStatEn": "HP%",
-        "subStats": ["生命%", "防御%", "能量回复", "异能攻击%"],
-        "subStatsEn": ["HP%", "DEF%", "Energy Regen", "Esper ATK%"],
-        "recommendedWeapons": ["construct"],
-        "teamComp": ["baicang", "lacrimosa"],
+        "subStats": [
+          "生命%",
+          "防御%",
+          "能量回复",
+          "异能攻击%"
+        ],
+        "subStatsEn": [
+          "HP%",
+          "DEF%",
+          "Energy Regen",
+          "Esper ATK%"
+        ],
+        "recommendedWeapons": [
+          "construct"
+        ],
+        "teamComp": [
+          "baicang",
+          "lacrimosa"
+        ],
         "notes": "泰格多的构装体兼具攻击和支援能力",
         "notesEn": "Taygedo's constructs offer both offensive and support capabilities"
+      }
+    ]
+  },
+  {
+    "characterId": "xiaozhi",
+    "builds": [
+      {
+        "id": "xiaozhi-dps",
+        "name": "盈蓄主C输出流",
+        "nameEn": "Accumulation DPS Build",
+        "description": "以暴击和攻击为核心的盈蓄反应主C Build，都市大亨免费满配6+5",
+        "descriptionEn": "Crit and ATK-focused Accumulation reaction DPS, free 6+5 from City Tycoon",
+        "mainStat": "攻击力%",
+        "mainStatEn": "ATK%",
+        "subStats": [
+          "暴击率",
+          "暴击伤害",
+          "攻击力%",
+          "速度"
+        ],
+        "subStatsEn": [
+          "Crit Rate",
+          "Crit DMG",
+          "ATK%",
+          "Speed"
+        ],
+        "recommendedWeapons": [
+          "dual-blades"
+        ],
+        "teamComp": [
+          "jiuyuan",
+          "hathor"
+        ],
+        "notes": "都市大亨免费6+5满配，满配后强度超过所有主C。搭配九原+哈索尔触发盈蓄反应。",
+        "notesEn": "Free 6+5 from City Tycoon, outperforms all DPS at max investment. Pair with Jiuyuan + Hathor for Accumulation reaction."
+      }
+    ]
+  },
+  {
+    "characterId": "haniel",
+    "builds": [
+      {
+        "id": "haniel-support",
+        "name": "加攻拐辅助流",
+        "nameEn": "ATK Buffer Support",
+        "description": "以生命和速度为核心的A级战神辅助 Build，满觉12%暴伤加成",
+        "descriptionEn": "HP and Speed-focused A-rank powerhouse support, 12% crit DMG at max awaken",
+        "mainStat": "生命%",
+        "mainStatEn": "HP%",
+        "subStats": [
+          "速度",
+          "生命%",
+          "能量回复",
+          "攻击力%"
+        ],
+        "subStatsEn": [
+          "Speed",
+          "HP%",
+          "Energy Regen",
+          "ATK%"
+        ],
+        "recommendedWeapons": [
+          "liquid-arc"
+        ],
+        "teamComp": [
+          "nanally",
+          "xiaozhi"
+        ],
+        "notes": "A级战神，开服送一只。满觉后12%暴伤加成，二队必练的泛用拐。",
+        "notesEn": "A-rank powerhouse, given free at launch. 12% crit DMG at max awaken, must-build for second team."
       }
     ]
   }

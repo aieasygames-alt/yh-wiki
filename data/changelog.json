@@ -2,24 +2,28 @@
   {
     "id": "version-1-0",
     "version": "1.0",
-    "versionName": "公测定档",
+    "versionName": "公测上线",
     "versionNameEn": "Official Launch",
     "date": "2026-04-23",
     "dateGlobal": "2026-04-29",
     "type": "major",
     "highlights": [
       "异环正式公测上线",
-      "16位首发S级角色",
-      "无50/50抽卡系统",
-      "约418抽免费福利",
-      "全新城市经营与房屋系统"
+      "21位S级角色 + 18位A级角色",
+      "无50/50抽卡系统，限定池不歪",
+      "470+抽免费福利",
+      "都市大亨(City Tycoon)、房屋、载具驾驶系统",
+      "P5联动 — 车载音响收录《女神异闻录5》经典歌曲",
+      "全球预约3500万+，6平台同步上线"
     ],
     "highlightsEn": [
       "Neverness to Everness officially launches",
-      "16 S-rank characters available at launch",
-      "No 50/50 gacha system — guaranteed featured character",
-      "Approximately 418 free pulls available",
-      "New City Tycoon and Housing systems"
+      "21 S-rank + 18 A-rank characters available",
+      "No 50/50 gacha — guaranteed featured character",
+      "470+ free pulls available",
+      "City Tycoon, Housing, and Vehicle Driving systems",
+      "Persona 5 collaboration — P5 music in car stereo",
+      "35M+ global pre-registrations, 6 platforms"
     ],
     "sections": [
       {
@@ -63,7 +67,7 @@
             "tags": ["S级"]
           },
           {
-            "name": "柏苍",
+            "name": "白藏",
             "nameEn": "Baicang",
             "description": "S级角色，公测首发角色。",
             "descriptionEn": "S-rank character available at launch.",
@@ -81,16 +85,16 @@
             "tags": ["S级"]
           },
           {
-            "name": "星穗",
+            "name": "穗鸟",
             "nameEn": "Hotori",
-            "description": "S级角色，公测首发角色。",
+            "description": "S级角色，唯一S级辅助，聚怪+加攻。",
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "hotori",
             "tags": ["S级"]
           },
           {
-            "name": "达芙黛",
+            "name": "达芙迪尔",
             "nameEn": "Daffodil",
             "description": "S级角色，公测首发角色。",
             "descriptionEn": "S-rank character available at launch.",
@@ -99,9 +103,9 @@
             "tags": ["S级"]
           },
           {
-            "name": "九渊",
+            "name": "九原",
             "nameEn": "Jiuyuan",
-            "description": "S级角色，公测首发角色。",
+            "description": "S级角色，常驻S首选自选，超大范围聚怪+1觉奶妈。",
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "jiuyuan",
@@ -153,7 +157,7 @@
             "tags": ["S级"]
           },
           {
-            "name": "小真",
+            "name": "明虎",
             "nameEn": "Xiaozhen",
             "description": "S级角色，公测首发角色。",
             "descriptionEn": "S-rank character available at launch.",
@@ -162,9 +166,9 @@
             "tags": ["S级"]
           },
           {
-            "name": "小芷",
+            "name": "小吱",
             "nameEn": "Xiaozhi",
-            "description": "S级角色，可通过城市经营模式免费获取。",
+            "description": "A级角色，都市大亨系统免费6+5满配，零氪必练主C。",
             "descriptionEn": "S-rank character, obtainable for free via the City Tycoon mode.",
             "type": "character",
             "ref": "xiaozhi",
@@ -189,7 +193,7 @@
             "tags": ["A级"]
           },
           {
-            "name": "斯基亚",
+            "name": "翳",
             "nameEn": "Skia",
             "description": "A级角色，公测首发角色。",
             "descriptionEn": "A-rank character available at launch.",
@@ -301,6 +305,24 @@
             "type": "feature",
             "ref": null,
             "tags": ["玩法"]
+          },
+          {
+            "name": "随身听功能",
+            "nameEn": "Walkman Music Player",
+            "description": "公测新增随身听功能，可在探索时播放音乐，车载音响收录P5经典曲目。",
+            "descriptionEn": "New Walkman feature for exploring with music. Car stereo includes Persona 5 classic tracks.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["联动"]
+          },
+          {
+            "name": "P5联动",
+            "nameEn": "Persona 5 Collaboration",
+            "description": "公测前瞻公布与《女神异闻录：夜幕魅影》联动，车载音响收录P5经典音乐。",
+            "descriptionEn": "Collaboration with Persona 5: Phantom X announced. P5 classic music in car stereo.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["联动"]
           }
         ]
       },
@@ -342,10 +364,10 @@
         "titleEn": "Launch Rewards",
         "items": [
           {
-            "name": "约418抽免费福利",
-            "nameEn": "Approximately 418 Free Pulls",
-            "description": "公测上线后玩家可通过各种活动、任务和邮件获取约418次免费抽卡机会。",
-            "descriptionEn": "At launch, players can obtain approximately 418 free pulls through various events, missions, and mail rewards.",
+            "name": "470+抽免费福利",
+            "nameEn": "470+ Free Pulls",
+            "description": "公测上线后玩家可通过各种活动、任务和邮件获取超过470次免费抽卡机会，开服即送120+抽。",
+            "descriptionEn": "At launch, players can obtain over 470 free pulls through events, missions, and mail rewards. 120+ pulls available immediately.",
             "type": "reward",
             "ref": null,
             "tags": ["免费抽"]
@@ -404,11 +426,29 @@
           {
             "name": "PlayStation 5",
             "nameEn": "PlayStation 5",
-            "description": "PS5 版本将在后续更新中上线，敬请期待。",
-            "descriptionEn": "The PS5 version will be available at a later date. Stay tuned.",
+            "description": "PS5 版本与公测同步上线，支持手柄操作。",
+            "descriptionEn": "PS5 version launches alongside all other platforms with controller support.",
             "type": "platform",
             "ref": null,
             "tags": ["主机"]
+          },
+          {
+            "name": "Mac 客户端",
+            "nameEn": "Mac Client",
+            "description": "支持 macOS 平台，公测同步上线。",
+            "descriptionEn": "Available on macOS at launch.",
+            "type": "platform",
+            "ref": null,
+            "tags": ["Mac"]
+          },
+          {
+            "name": "鸿蒙 HarmonyOS",
+            "nameEn": "HarmonyOS",
+            "description": "支持华为鸿蒙系统，公测同步上线。",
+            "descriptionEn": "Available on Huawei HarmonyOS at launch.",
+            "type": "platform",
+            "ref": null,
+            "tags": ["鸿蒙"]
           }
         ]
       }
