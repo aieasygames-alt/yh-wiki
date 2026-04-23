@@ -1476,10 +1476,10 @@
     "rank": "S",
     "weapon": "液态弧光",
     "weaponEn": "Liquid-type Arc",
-    "role": "支援",
-    "roleEn": "Support",
+    "role": "进攻",
+    "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店安保专员，使用液态弧光武器的混沌属性支援角色。",
+    "description": "Eibon古董店安保主管与隐性监察者。S级混沌属性近战输出角色，以双刀为武器，核心机制为叠层增伤+形态进化，兼具高机动与爆发能力。",
     "faq": [
       {
         "question": "Is Daffodil good in Neverness to Everness?",
@@ -1522,24 +1522,24 @@
     "tierReasonZh": "高频振刀Boss特化输出，白藏队刚需",
     "skills": {
       "normalAttack": {
-        "name": "双刃斩",
-        "nameEn": "Twin Blade Slash",
-        "description": "5段暗属性伤害连击。长按进入「临水照影」状态，突进旋风斩并留下暗伤印痕。",
-        "descriptionEn": "5-hit Dark DMG combo. Hold to enter Water Reflection state, dashing whirlwind slash leaving Dark DMG marks."
+        "name": "止水",
+        "nameEn": "Still Water",
+        "description": "挥舞双刃进行至多5段连续攻击，造成混沌属性伤害。长按触发「临水照影」，向前穿梭旋风急斩并留下印痕。闪避期间点按触发「错位锋芒」特殊闪避动作，期间无敌。",
+        "descriptionEn": "Wields twin blades for up to 5 consecutive attacks dealing Chaos DMG. Hold to trigger Water Reflection, dashing whirlwind slash leaving marks. Dodge during combo triggers Displaced Edge with i-frames."
       },
       "skill": {
         "name": "同振",
         "nameEn": "Co-resonance",
-        "description": "造成暗属性伤害。队友QTE可叠加层数，2层满后强化为「如响私影」，造成高额暗伤+强控+高倾陷值。",
-        "descriptionEn": "Deals Dark DMG. Allies QTE stacks layers; at 2 full stacks enhances to Echo Shadow, dealing high Dark DMG + CC + high Stagger.",
+        "description": "造成混沌属性伤害。队友释放援护技可叠加层数（上限2层），叠满后替换为「如响斯应」，造成高额混沌伤害。",
+        "descriptionEn": "Deals Chaos DMG. Allies' QTE stacks layers (max 2); at full stacks replaces with Echo Resonance, dealing high Chaos DMG.",
         "cooldown": "8s",
         "cost": "40 能量"
       },
       "ultimate": {
         "name": "见此终幕",
         "nameEn": "Final Curtain",
-        "description": "范围爆发攻击，解放左眼，12秒内伤害+30%。给敌人挂「洞察」状态，破韧时触发额外高伤害。",
-        "descriptionEn": "AoE burst attack, unleashes left eye for +30% DMG for 12s. Applies Insight to enemies, triggering bonus DMG on Stagger break.",
+        "description": "范围爆发攻击，解放左眼提升自身伤害。给敌人植入「洞察」，新增「幻影移行」技能（可用2次）。",
+        "descriptionEn": "AoE burst attack, unleashes left eye for increased DMG. Implants Insight on enemies and gains Phantom Shift skill (2 uses).",
         "cost": "80 能量"
       },
       "passives": [
