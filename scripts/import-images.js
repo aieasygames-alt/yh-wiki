@@ -72,8 +72,12 @@ async function downloadImage(url, options = {}) {
 
   return new Promise((resolve, reject) => {
     const protocol = url.startsWith("https") ? https : http;
+    const parsedUrl = new URL(url);
     const reqOptions = {
-      ...new URL(url),
+      hostname: parsedUrl.hostname,
+      port: parsedUrl.port || (url.startsWith("https") ? 443 : 80),
+      path: parsedUrl.pathname + parsedUrl.search,
+      method: "GET",
       headers: {
         "User-Agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
