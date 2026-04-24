@@ -322,7 +322,7 @@ export default function GachaPage() {
                   style={{ animation: "fadeInUp 0.3s ease-out", animationDelay: `${i * 0.05}s`, animationFillMode: "both" }}
                 >
                   <div className={`w-16 h-16 mx-auto mb-2 rounded-lg overflow-hidden ${isS ? "ring-2 ring-yellow-400/50" : ""}`}>
-                    <GameImage type="character" id={char.id} name={char.name} />
+                    <GameImage type="character" id={char.id} name={char.name} src={char.image} />
                   </div>
                   <p className="text-xs font-medium truncate">{char.name}</p>
                   <p className="text-xs text-gray-500">{char.nameEn}</p>

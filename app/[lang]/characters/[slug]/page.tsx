@@ -98,7 +98,7 @@ export default async function CharacterDetailPage({
         {/* Character Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <GameImage type="character" id={character.id} name={character.name} className="w-24 h-24 rounded-lg shrink-0" />
+            <GameImage type="character" id={character.id} name={character.name} src={character.image} className="w-24 h-24 rounded-lg shrink-0" />
             <div className="flex-1 min-w-0">
               <h1 className="text-2xl font-bold">{locale === "en" ? `${character.nameEn} Build Guide & Tier Ranking` : charName(character, locale)}</h1>
               <p className="text-gray-500">{locale === "en" ? character.name : character.nameEn}</p>

@@ -11,6 +11,7 @@ interface CharacterCardProps {
   attribute: string;
   rank: string;
   status?: string;
+  image?: string;
   locale: Locale;
 }
 
@@ -27,6 +28,7 @@ export function CharacterCard({
   attribute,
   rank,
   status,
+  image,
   locale,
 }: CharacterCardProps) {
   const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
@@ -58,6 +60,7 @@ export function CharacterCard({
         type="character"
         id={id}
         name={name}
+        src={image}
         className="w-full aspect-square rounded-lg mb-3"
       />
       <h3 className="font-medium text-sm truncate">{displayName}</h3>

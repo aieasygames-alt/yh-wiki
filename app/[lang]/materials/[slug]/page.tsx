@@ -119,7 +119,7 @@ export default async function MaterialDetailPage({
                   href={`/${lang}/characters/${c.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
-                  <GameImage type="character" id={c.id} name={c.name} className="w-10 h-10 rounded shrink-0" />
+                  <GameImage type="character" id={c.id} name={c.name} src={c.image} className="w-10 h-10 rounded shrink-0" />
                   <div className="min-w-0">
                     <p className="text-sm font-medium truncate">{c.name}</p>
                     <div className="flex items-center gap-1">

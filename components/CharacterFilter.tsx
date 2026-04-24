@@ -127,6 +127,7 @@ export function CharacterFilter({ characters, locale, lang }: CharacterFilterPro
             attribute={c.attribute}
             rank={c.rank}
             status={c.status}
+            image={c.image}
             locale={locale}
           />
         ))}
