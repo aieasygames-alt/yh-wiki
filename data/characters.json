@@ -2857,7 +2857,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "奈莉"
   },
   {
@@ -3026,7 +3026,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A Lakshana-attribute Esper, potentially S-rank according to Wiki data. Full details to be confirmed upon the game's official launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "梅露拉"
   },
   {
@@ -3195,7 +3195,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "阿爾法德"
   },
   {
@@ -3364,7 +3364,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "泰格多"
   },
   {
@@ -4096,7 +4096,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character appearing in the game's trailer, an Incantation-attribute Esper. Full details await the official launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "凛子"
   },
   {
@@ -4265,7 +4265,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "密斯莫"
   },
   {
@@ -4434,7 +4434,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character from the Co-Ex beta test, an Anima-attribute Esper. Full details await the official launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "沁紅"
   },
   {
@@ -4603,7 +4603,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character from the beta test, a Psyche-attribute Esper. Full details await the official launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "尼察"
   },
   {
@@ -4772,7 +4772,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A datamined character, a Chaos-attribute S-rank Esper. Full details to be confirmed; may appear in the official launch.",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "黑鳥"
   },
   {
@@ -4941,7 +4941,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A datamined character, an Anima-attribute S-rank Esper. Full details to be confirmed.",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "明虎"
   },
   {
@@ -5110,7 +5110,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch.",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "赤音",
     "cvJp": "TBA",
     "cvJpEn": "TBA",
@@ -5282,7 +5282,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character sourced from community data, a Psyche-attribute Esper. Full details to be confirmed.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "詹森"
   },
   {
@@ -5451,7 +5451,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch.",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "伊利卡"
   },
   {
@@ -5620,7 +5620,7 @@
     "image": "/images/characters/fuuka.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "風花"
   },
   {
@@ -5789,7 +5789,7 @@
     "image": "/images/characters/crow.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "克勞"
   },
   {
@@ -5958,7 +5958,7 @@
     "image": "/images/characters/renee.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "蕾妮"
   },
   {
@@ -6127,7 +6127,7 @@
     "image": "/images/characters/goro.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "吾郎"
   },
   {
@@ -6296,7 +6296,7 @@
     "image": "/images/characters/marina.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "瑪麗娜"
   },
   {
@@ -6465,7 +6465,7 @@
     "image": "/images/characters/kaito.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "海斗"
   },
   {
@@ -6634,7 +6634,7 @@
     "image": "/images/characters/sylphy.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
-    "status": "rumored",
+    "status": "available",
     "nameTw": "希爾菲"
   },
   {
@@ -6679,7 +6679,7 @@
     "acquisitionMethod": "gacha",
     "image": "/images/characters/aurelia.webp",
     "descriptionEn": "A newly added A-rank character for the official launch. Full details to be updated after launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "奧蕾莉亞"
   },
   {
@@ -6745,7 +6745,7 @@
     "acquisitionMethod": "city-tycoon",
     "image": "/images/characters/xiaozhi.png",
     "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "小吱",
     "cvZh": "则灵",
     "cvJp": "小原好美",
