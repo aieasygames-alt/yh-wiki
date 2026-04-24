@@ -197,7 +197,7 @@
         "members": [
           "nanally",
           "sakiri",
-          "zero",
+          "zero-male",
           "hotori"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
@@ -370,7 +370,7 @@
         "members": [
           "sakiri",
           "nanally",
-          "zero",
+          "zero-male",
           "hotori"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
@@ -1037,9 +1037,9 @@
     "trait": "言灵使"
   },
   {
-    "id": "zero",
-    "name": "零",
-    "nameEn": "Zero",
+    "id": "zero-male",
+    "name": "零（男）",
+    "nameEn": "Zero (Male)",
     "attribute": "cosmos",
     "rank": "S",
     "weapon": "剑",
@@ -1047,7 +1047,7 @@
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
-    "description": "Eibon 古董店成员，异环的主角。可在男性/女性两种形态间选择，拥有宇宙属性的剑术战斗风格。作为主角免费获得。",
+    "description": "Eibon 古董店成员，异环的男主角。拥有宇宙属性的剑术战斗风格，作为主角免费获得。",
     "faq": [
       {
         "question": "Is Zero good in Neverness to Everness?",
@@ -1060,12 +1060,6 @@
         "questionZh": "零最佳配装是什么？",
         "answer": "The best build for Zero in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank cosmos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
         "answerZh": "零的最佳配装侧重于最大化其进攻潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
-      },
-      {
-        "question": "How to get Zero in Neverness to Everness? Is Zero free?",
-        "questionZh": "如何获得零？",
-        "answer": "Zero is the protagonist and is obtained for free at the start of the game. You can choose between the male variant (CV: 马洋 / Yuma Uchida) or female variant (CV: 曹彤 / Maaya Uchida).",
-        "answerZh": "零是游戏主角，开局免费获得。可在男性形态（CV：马洋/内田雄马）和女性形态（CV：曹彤/内田真礼）之间选择。"
       },
       {
         "question": "What is the best team for Zero?",
@@ -1227,7 +1221,7 @@
         "name": "零最佳配队",
         "nameEn": "Zero Best Team",
         "members": [
-          "zero",
+          "zero-male",
           "hotori",
           "edgar",
           "taygedo"
@@ -1239,7 +1233,7 @@
         "name": "Eibon Antique Shop阵容",
         "nameEn": "Eibon Antique Shop Squad",
         "members": [
-          "zero",
+          "zero-male",
           "nanally",
           "sakiri",
           "hotori"
@@ -1248,15 +1242,231 @@
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
       }
     ],
-    "image": "/images/characters/zero.webp",
+    "image": "/images/characters/zero-male.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "free",
-    "descriptionEn": "A member of the Eibon Antique Shop and the protagonist of Neverness to Everness. Available in male and female variants with cosmos-attribute sword combat. Obtained for free as the starting character.",
+    "descriptionEn": "A member of the Eibon Antique Shop and the male protagonist of Neverness to Everness. Wields cosmos-attribute sword combat. Obtained for free as the starting character.",
     "status": "available",
-    "nameTw": "零",
-    "cvZh": "马洋/曹彤",
-    "cvJp": "内田雄马/内田真礼",
-    "cvJpEn": "Yuma Uchida/Maaya Uchida"
+    "nameTw": "零（男）",
+    "cvZh": "马洋",
+    "cvJp": "内田雄马",
+    "cvJpEn": "Yuma Uchida"
+  },
+  {
+    "id": "zero-female",
+    "name": "零（女）",
+    "nameEn": "Zero (Female)",
+    "attribute": "cosmos",
+    "rank": "S",
+    "weapon": "剑",
+    "weaponEn": "Sword",
+    "role": "进攻",
+    "roleEn": "Attack",
+    "faction": "Eibon Antique Shop",
+    "description": "Eibon 古董店成员，异环的女主角。拥有宇宙属性的剑术战斗风格，作为主角免费获得。",
+    "faq": [
+      {
+        "question": "Is Zero good in Neverness to Everness?",
+        "questionZh": "零值得培养吗？",
+        "answer": "Zero is the S-rank protagonist of Neverness to Everness, wielding cosmos-attribute sword combat. As the main character, Zero has unique Instant Ring Fusion abilities and is an irreplaceable team enabler. Rated S+ tier.",
+        "answerZh": "零是异环的S级主角，拥有宇宙属性剑术战斗风格。作为主角拥有独特的即瞬环合机制，是不可替代的队伍核心。评级S+。"
+      },
+      {
+        "question": "What is the best build for Zero?",
+        "questionZh": "零最佳配装是什么？",
+        "answer": "The best build for Zero in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank cosmos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "零的最佳配装侧重于最大化其进攻潜力。作为S级cosmos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "What is the best team for Zero?",
+        "questionZh": "零最佳配队是什么？",
+        "answer": "The best team for Zero in Neverness to Everness depends on the content. As a cosmos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "零的最佳配队取决于具体内容。作为cosmos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Zero?",
+        "questionZh": "零最佳武器是什么？",
+        "answer": "The best weapon for Zero depends on your playstyle and available options. They use Sword type weapons. Check our weapon tier list for the best options for Zero.",
+        "answerZh": "零的最佳武器取决于你的玩法和可用选项。他们使用剑类型武器。查看我们的武器排行榜了解零的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "hotori",
+      "edgar",
+      "taygedo"
+    ],
+    "tierRank": "S+",
+    "tierReason": "Protagonist with instant Ring Fusion, irreplaceable team enabler",
+    "tierReasonZh": "主角即瞬环合机制不可替代，队伍润滑剂",
+    "skills": {
+      "normalAttack": {
+        "name": "鉴痕",
+        "nameEn": "Appraisal Mark",
+        "description": "零使用武器引导能量，进行最多5次连续攻击。",
+        "descriptionEn": "Zero wields their weapon to channel energy, performing up to 5 consecutive attacks.",
+        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
+        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+      },
+      "skill": {
+        "name": "铭隙鉴刻",
+        "nameEn": "Engraving Appraisal",
+        "description": "进行3次连续武器攻击后跃起蓄力，发射异能炮对区域造成Cosmos伤害。对低于自身等级的首个目标造成额外Cosmos伤害。",
+        "descriptionEn": "Performs 3 consecutive weapon strikes. Leaps into the air to charge and fires an Esper Cannon dealing 1 instance of Cosmos DMG. Deals an additional 1 instance of Cosmos DMG to the first enemy hit whose level is below Zero's own level.",
+        "scaling": "技能伤害: 280% ATK\n额外伤害: 200% ATK",
+        "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
+        "cooldown": "8s",
+        "cost": "40 能量"
+      },
+      "ultimate": {
+        "name": "奇零除尽",
+        "nameEn": "Odd Zero Division",
+        "description": "以刀锋之舞斩断连接枢纽的无形之线，对区域造成多段Cosmos伤害。",
+        "descriptionEn": "Sweeps away the unseen lines that connect the Nexus in a dance of blades. Deals multiple instances of Cosmos DMG to an area.",
+        "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
+        "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
+        "cooldown": "60s",
+        "cost": "80 能量 / 80 Energy"
+      },
+      "passives": [
+        {
+          "name": "鉴定师",
+          "nameEn": "Appraiser",
+          "description": "当场上角色获得终结技能量时，恢复相当于零基础攻击力50%的生命值。",
+          "descriptionEn": "Restores HP equal to 50% of Zero's Base ATK when the active character gains Ultimate Energy."
+        },
+        {
+          "name": "异象感知力",
+          "nameEn": "Anomaly Perception",
+          "description": "终结技「被零除」伤害提升25%。",
+          "descriptionEn": "Ultimate: Divide by Zero damage increases by 25%."
+        }
+      ],
+      "qte": {
+        "name": "绽裂",
+        "nameEn": "Rupture",
+        "description": "进行2次范围性Cosmos伤害",
+        "descriptionEn": "Deals 2 instances of AoE Cosmos DMG"
+      },
+      "awakening": [
+        {
+          "name": "初明凝视",
+          "nameEn": "First Gaze of Dawn",
+          "level": 1
+        },
+        {
+          "name": "探悉天职",
+          "nameEn": "Investigative Calling",
+          "level": 2
+        },
+        {
+          "name": "奇异记叙",
+          "nameEn": "Strange Chronicle",
+          "level": 3
+        },
+        {
+          "name": "未决迷数",
+          "nameEn": "Undetermined Enigma",
+          "level": 4
+        },
+        {
+          "name": "默示赋命",
+          "nameEn": "Silent Bestowal",
+          "level": 5
+        },
+        {
+          "name": "诓定解放",
+          "nameEn": "Delusive Liberation",
+          "level": 6
+        }
+      ],
+      "resonance": [
+        {
+          "name": "鉴解",
+          "nameEn": "Appraisal Resolution",
+          "awakenReq": 3
+        },
+        {
+          "name": "零示",
+          "nameEn": "Zero Revelation",
+          "awakenReq": 6
+        }
+      ]
+    },
+    "recommendedBuild": {
+      "bestWeapon": "剑·破晓",
+      "bestWeaponEn": "Sword - Dawn",
+      "alternativeWeapons": [
+        {
+          "id": "fangs-and-claws",
+          "name": "格斗",
+          "nameEn": "Fangs and Claws"
+        },
+        {
+          "id": "transforming-cross-shield",
+          "name": "变形十字盾",
+          "nameEn": "Transforming Cross-Shield"
+        }
+      ],
+      "bestDiskSet": "裂空之牙",
+      "bestDiskSetEn": "Skyrending Fang",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [
+      {
+        "name": "零最佳配队",
+        "nameEn": "Zero Best Team",
+        "members": [
+          "zero-male",
+          "hotori",
+          "edgar",
+          "taygedo"
+        ],
+        "description": "以零为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化零的伤害输出。",
+        "descriptionEn": "A team built around Zero as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
+      },
+      {
+        "name": "Eibon Antique Shop阵容",
+        "nameEn": "Eibon Antique Shop Squad",
+        "members": [
+          "zero-male",
+          "nanally",
+          "sakiri",
+          "hotori"
+        ],
+        "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
+        "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
+      }
+    ],
+    "image": "/images/characters/zero-female.webp",
+    "availableAtLaunch": true,
+    "acquisitionMethod": "free",
+    "descriptionEn": "A member of the Eibon Antique Shop and the female protagonist of Neverness to Everness. Wields cosmos-attribute sword combat. Obtained for free as the starting character.",
+    "status": "available",
+    "nameTw": "零（女）",
+    "cvZh": "曹彤",
+    "cvJp": "内田真礼",
+    "cvJpEn": "Maaya Uchida"
   },
   {
     "id": "hotori",
@@ -1303,7 +1513,7 @@
       }
     ],
     "relatedCharacters": [
-      "zero",
+      "zero-male",
       "edgar",
       "taygedo"
     ],
@@ -1437,7 +1647,7 @@
         "nameEn": "Hotori Best Team",
         "members": [
           "hotori",
-          "zero",
+          "zero-male",
           "edgar",
           "taygedo"
         ],
@@ -1451,7 +1661,7 @@
           "hotori",
           "nanally",
           "sakiri",
-          "zero"
+          "zero-male"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
@@ -1611,7 +1821,7 @@
           "daffodil",
           "nanally",
           "sakiri",
-          "zero"
+          "zero-male"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
@@ -1880,16 +2090,48 @@
         }
       ],
       "awakening": [
-        { "name": "共鸣强化I", "nameEn": "Resonance I", "level": 1 },
-        { "name": "咕咕子延续", "nameEn": "CooCoo Extension", "level": 2 },
-        { "name": "旋律暴击", "nameEn": "Melodic Crit", "level": 3 },
-        { "name": "合奏加倍", "nameEn": "Duet Double", "level": 4 },
-        { "name": "灵魂增幅", "nameEn": "Psyche Amplification", "level": 5 },
-        { "name": "蓄力上限突破", "nameEn": "Charge Limit Break", "level": 6 }
+        {
+          "name": "共鸣强化I",
+          "nameEn": "Resonance I",
+          "level": 1
+        },
+        {
+          "name": "咕咕子延续",
+          "nameEn": "CooCoo Extension",
+          "level": 2
+        },
+        {
+          "name": "旋律暴击",
+          "nameEn": "Melodic Crit",
+          "level": 3
+        },
+        {
+          "name": "合奏加倍",
+          "nameEn": "Duet Double",
+          "level": 4
+        },
+        {
+          "name": "灵魂增幅",
+          "nameEn": "Psyche Amplification",
+          "level": 5
+        },
+        {
+          "name": "蓄力上限突破",
+          "nameEn": "Charge Limit Break",
+          "level": 6
+        }
       ],
       "resonance": [
-        { "name": "全队暴伤共鸣", "nameEn": "Team Crit DMG Resonance", "awakenReq": 3 },
-        { "name": "全队暴伤共鸣·极", "nameEn": "Team Crit DMG Resonance Max", "awakenReq": 6 }
+        {
+          "name": "全队暴伤共鸣",
+          "nameEn": "Team Crit DMG Resonance",
+          "awakenReq": 3
+        },
+        {
+          "name": "全队暴伤共鸣·极",
+          "nameEn": "Team Crit DMG Resonance Max",
+          "awakenReq": 6
+        }
       ]
     },
     "recommendedBuild": {
@@ -2124,7 +2366,7 @@
           "adler",
           "nanally",
           "sakiri",
-          "zero"
+          "zero-male"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
@@ -2353,7 +2595,7 @@
       }
     ],
     "relatedCharacters": [
-      "zero",
+      "zero-male",
       "hotori",
       "taygedo"
     ],
@@ -2443,7 +2685,7 @@
         "nameEn": "Edgar Best Team",
         "members": [
           "edgar",
-          "zero",
+          "zero-male",
           "hotori",
           "taygedo"
         ],
@@ -2457,7 +2699,7 @@
           "edgar",
           "nanally",
           "sakiri",
-          "zero"
+          "zero-male"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
@@ -3243,7 +3485,7 @@
       }
     ],
     "relatedCharacters": [
-      "zero",
+      "zero-male",
       "hotori",
       "edgar"
     ],
@@ -3340,7 +3582,7 @@
         "nameEn": "Taygedo Best Team",
         "members": [
           "taygedo",
-          "zero",
+          "zero-male",
           "hotori",
           "edgar"
         ],
@@ -3354,7 +3596,7 @@
           "taygedo",
           "nanally",
           "sakiri",
-          "zero"
+          "zero-male"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
@@ -3634,7 +3876,7 @@
       }
     ],
     "relatedCharacters": [
-      "zero",
+      "zero-male",
       "hotori",
       "edgar"
     ],
@@ -3731,7 +3973,7 @@
         "nameEn": "Chiz Best Team",
         "members": [
           "chiz",
-          "zero",
+          "zero-male",
           "hotori",
           "edgar"
         ],
@@ -3806,7 +4048,7 @@
       }
     ],
     "relatedCharacters": [
-      "zero",
+      "zero-male",
       "hotori",
       "edgar"
     ],
@@ -3903,7 +4145,7 @@
         "nameEn": "Lilina Best Team",
         "members": [
           "lilina",
-          "zero",
+          "zero-male",
           "hotori",
           "edgar"
         ],
@@ -3917,7 +4159,7 @@
           "lilina",
           "nanally",
           "sakiri",
-          "zero"
+          "zero-male"
         ],
         "description": "以Eibon Antique Shop成员为主的队伍，利用阵营加成和角色间的协同效果。",
         "descriptionEn": "A team of Eibon Antique Shop members, leveraging faction bonuses and character synergies."
@@ -6176,7 +6418,7 @@
       }
     ],
     "relatedCharacters": [
-      "zero",
+      "zero-male",
       "hotori",
       "edgar"
     ],
@@ -6273,7 +6515,7 @@
         "nameEn": "Marina Best Team",
         "members": [
           "marina",
-          "zero",
+          "zero-male",
           "hotori",
           "edgar"
         ],
@@ -6743,7 +6985,7 @@
     },
     "availableAtLaunch": true,
     "acquisitionMethod": "city-tycoon",
-    "image": "/images/characters/xiaozhi.png",
+    "image": "/images/characters/xiaozhi.webp",
     "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch.",
     "status": "available",
     "nameTw": "小吱",
@@ -6888,7 +7130,7 @@
       ]
     },
     "teamComps": [],
-    "image": "/images/characters/xun.png",
+    "image": "/images/characters/xun.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor who runs an antique shop.",

@@ -55,15 +55,26 @@
     "image": "/images/characters/baicang.webp"
   },
   {
-    "id": "zero",
-    "name": "Zero",
-    "nameCn": "零",
-    "slug": "zero",
+    "id": "zero-male",
+    "name": "Zero (Male)",
+    "nameCn": "零（男）",
+    "slug": "zero-male",
     "element": "cosmos",
     "weapon": "Sword",
     "rarity": 5,
     "role": "Attack",
-    "image": "/images/characters/zero.webp"
+    "image": "/images/characters/zero-male.webp"
+  },
+  {
+    "id": "zero-female",
+    "name": "Zero (Female)",
+    "nameCn": "零（女）",
+    "slug": "zero-female",
+    "element": "cosmos",
+    "weapon": "Sword",
+    "rarity": 5,
+    "role": "Attack",
+    "image": "/images/characters/zero-female.webp"
   },
   {
     "id": "hotori",
@@ -426,7 +437,7 @@
     "weapon": "Wand",
     "rarity": 5,
     "role": "Attack",
-    "image": "/images/characters/xiaozhi.png"
+    "image": "/images/characters/xiaozhi.webp"
   },
   {
     "id": "xun",
@@ -437,6 +448,6 @@
     "weapon": "Tachi",
     "rarity": 5,
     "role": "Attack",
-    "image": "/images/characters/xun.png"
+    "image": "/images/characters/xun.webp"
   }
 ]

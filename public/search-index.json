@@ -120,11 +120,11 @@
     ]
   },
   {
-    "id": "zero",
-    "name": "零",
-    "nameEn": "Zero",
+    "id": "zero-male",
+    "name": "零（男）",
+    "nameEn": "Zero (Male)",
     "type": "character",
-    "url": "/zh/characters/zero",
+    "url": "/zh/characters/zero-male",
     "tags": [
       "cosmos",
       "s",
@@ -132,11 +132,35 @@
     ]
   },
   {
-    "id": "zero",
-    "name": "Zero",
-    "nameEn": "Zero",
+    "id": "zero-male",
+    "name": "Zero (Male)",
+    "nameEn": "Zero (Male)",
     "type": "character",
-    "url": "/en/characters/zero",
+    "url": "/en/characters/zero-male",
+    "tags": [
+      "cosmos",
+      "s",
+      "attack"
+    ]
+  },
+  {
+    "id": "zero-female",
+    "name": "零（女）",
+    "nameEn": "Zero (Female)",
+    "type": "character",
+    "url": "/zh/characters/zero-female",
+    "tags": [
+      "cosmos",
+      "s",
+      "attack"
+    ]
+  },
+  {
+    "id": "zero-female",
+    "name": "Zero (Female)",
+    "nameEn": "Zero (Female)",
+    "type": "character",
+    "url": "/en/characters/zero-female",
     "tags": [
       "cosmos",
       "s",
