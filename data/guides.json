@@ -999,5 +999,330 @@
         "answerZh": "S级弧盘主要通过击败高级Boss异象获得，海囚Boss掉落概率最高。高级弧盘副本也有概率产出S级弧盘。"
       }
     ]
+  },
+  {
+    "id": "team-composition-guide",
+    "title": "异环队伍搭配推荐 — 最强阵容组合攻略",
+    "titleEn": "NTE Team Composition Guide — Best Team Lineups",
+    "category": "combat",
+    "categoryZh": "战斗攻略",
+    "categoryEn": "Combat",
+    "summary": "队伍搭配是异环战斗系统的核心。本文详解配队逻辑、元素协同、角色定位，推荐多套主流阵容和平民阵容。",
+    "summaryEn": "Team composition is the core of NTE's combat system. This guide covers team-building logic, elemental synergy, role balance, and recommends multiple meta and F2P-friendly teams.",
+    "content": "异环的战斗系统基于3人小队搭配，合理的队伍组合可以大幅提升战斗效率。本文将从配队基础到高阶阵容，全面讲解异环的队伍搭配策略。\n\n配队基础\n\n每支队伍由3名角色组成，涵盖主C（主输出）、副C/辅助和功能位三个位置。配队时需要考虑元素搭配、角色技能衔接和队伍整体输出循环。\n\n角色定位分类\n\n主C（DPS）：负责主要输出，如九渊（Anima/高爆发）、南那（Lakshana/持续输出）。主C需要队伍提供增益和生存保障。\n\n辅助（Support）：提供增益、减益或治疗，如薄荷（回复+增益）、Adler（护盾+增益）。辅助角色能显著提升主C的输出能力。\n\n功能位（Utility）：提供控制、破盾或特殊机制，如零（Cosmos/全能型）、白藏（Bose/控场）。功能位根据副本需求灵活调整。\n\n元素搭配原则\n\n异环共有6种元素属性：Anima（生命）、Incantation（咒术）、Chaos（混沌）、Psyche（精神）、Cosmos（宇宙）、Lakshana（特性）。\n\n推荐搭配策略：1）同元素共鸣队（2-3名同元素角色触发元素共鸣效果）；2）跨元素反应队（利用不同元素间的联动效果）；3）纯色队（3名相同元素，最大化共鸣收益）。\n\n主流阵容推荐\n\n阵容一：九渊爆发队\n九渊（主C）+ 白藏（辅助/控场）+ 薄荷（治疗/增益）\n核心思路：白藏提供Bose元素控场，薄荷提供回复和增益，九渊作为Anima主C打出高额爆发。这套阵容输出稳定，适合大多数副本。\n\n阵容二：南那持续输出队\n南那（主C）+ 小吱（辅助/破盾）+ 零（功能/全能）\n核心思路：南那的Lakshana属性提供持续稳定输出，小吱的辅助能力提升整体效率，零作为Cosmos万能位补足队伍短板。\n\n阵容三：浔高速连招队\n浔（主C）+ Sakiri（副C/辅助）+ Edgar（功能/输出）\n核心思路：浔的高速连招配合Sakiri的Gas元素辅助，Edgar的Liquid元素补充输出。这套阵容操作感强，适合喜欢动作游戏的玩家。\n\n平民阵容推荐\n\n如果你没有太多S级角色，以下阵容同样有效：\n\n薄荷（新手池自选）+ Adler + Edgar：利用Cosmos元素的共鸣效果，Adler提供护盾保生存，Edgar补充输出，薄荷提供治疗和增益。\n\n新手推荐的开荒队是新手池自选S级 + 任意两名属性互补的角色，优先保证队伍有输出、有辅助、有生存。\n\n配队进阶技巧\n\n1. 注意技能释放顺序：先放辅助增益再放主C大招，最大化输出窗口。\n2. 利用切换取消后摇：角色切换时有短暂无敌帧，可以用来规避伤害。\n3. 根据Boss弱点调整元素：查看Boss的元素弱点，选择对应属性的角色参战。\n4. 觉醒共鸣搭配：同队角色觉醒到3/6级时触发额外共鸣效果，配队时考虑觉醒进度。\n\n常见配队错误\n\n1. 三名同定位角色（如三个主C），缺少辅助和生存。\n2. 忽略元素克制关系，用被Boss克制的属性。\n3. 不重视辅助角色的价值，只堆输出。\n4. 不了解角色技能机制，无法形成有效循环。\n\n更多角色详细数据和技能分析，请查看我们的角色页面。想了解哪些角色最强，可以参考强度排行榜。",
+    "contentEn": "NTE's combat system revolves around 3-character teams. Proper team composition dramatically improves combat efficiency. This guide covers everything from basics to advanced team lineups.\n\nTeam Basics\n\nEach team has 3 characters covering main DPS, support/utility, and flex roles. Consider elemental synergy, skill chaining, and overall damage rotation when building teams.\n\nRole Classification\n\nMain DPS: Primary damage dealer. Examples: Jiuyuan (Anima/burst), Nanally (Lakshana/sustained). DPS characters need team support for buffs and survival.\n\nSupport: Provides buffs, debuffs, or healing. Examples: Mint (heal+buff), Adler (shield+buff). Supports significantly amplify DPS output.\n\nUtility: Provides crowd control, shield-breaking, or special mechanics. Examples: Zero (Cosmos/versatile), Baicang (Bose/control). Adjust based on content needs.\n\nElemental Principles\n\nNTE has 6 elements: Anima, Incantation, Chaos, Psyche, Cosmos, Lakshana.\n\nRecommended strategies: 1) Same-element resonance (2-3 characters of same element trigger bonus effects); 2) Cross-element reaction teams; 3) Mono-element teams (maximize resonance).\n\nMeta Team Compositions\n\nTeam 1: Jiuyuan Burst\nJiuyuan (DPS) + Baicang (support/control) + Mint (heal/buff)\nCore: Baicang controls with Bose element, Mint provides sustain and buffs, Jiuyuan delivers massive Anima burst damage. Stable and versatile.\n\nTeam 2: Nanally Sustained\nNanally (DPS) + Xiaozhi (support/shield-break) + Zero (utility/versatile)\nCore: Nanally's Lakshana provides consistent damage, Xiaozhi boosts efficiency, Zero covers team weaknesses.\n\nTeam 3: Hotori Speed Combo\nHotori (DPS) + Sakiri (sub-DPS/support) + Edgar (utility/DPS)\nCore: Hotori's fast combos paired with Sakiri's Gas support and Edgar's Liquid damage. High-skill-ceiling for action game fans.\n\nF2P-Friendly Teams\n\nMint (beginner selector) + Adler + Edgar: Cosmos resonance team. Adler shields, Edgar adds damage, Mint heals and buffs.\n\nFor beginners: Beginner selector S-rank + two complementary characters. Ensure your team has damage, support, and survival.\n\nAdvanced Tips\n\n1. Skill order: Buff before ultimate for maximum damage window.\n2. Switch cancel: Character swaps have i-frames, useful for dodging.\n3. Match boss weakness: Check elemental weaknesses and adjust team.\n4. Awakening resonance: Consider awakening levels for bonus effects at 3/6.\n\nCommon Mistakes\n\n1. Three same-role characters (e.g., 3 DPS) with no support.\n2. Ignoring elemental counters.\n3. Undervaluing supports.\n4. Not understanding skill rotations.\n\nFor detailed character data, visit our character pages. Check our tier list for power rankings.",
+    "tags": [
+      "配队",
+      "阵容",
+      "队伍",
+      "team",
+      "composition",
+      "搭配"
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "xiaozhi",
+      "baicang",
+      "hotori",
+      "mint",
+      "sakiri"
+    ],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "How many characters are in a team?",
+        "questionZh": "异环一支队伍几个人？",
+        "answer": "Each team has 3 characters. You can switch between them during combat to chain skills and trigger elemental effects.",
+        "answerZh": "每支队伍由3名角色组成。战斗中可以切换角色衔接技能并触发元素效果。"
+      },
+      {
+        "question": "What is the best beginner team?",
+        "questionZh": "异环新手最强配队是什么？",
+        "answer": "Use your beginner selector S-rank as core, add Adler for shields and Mint for healing. This gives you a balanced team with DPS, tank, and healer.",
+        "answerZh": "以新手池自选S级角色为核心，搭配Adler提供护盾和Mint提供治疗。这样队伍有输出、有坦、有奶，非常均衡。"
+      },
+      {
+        "question": "Should I focus on same-element teams?",
+        "questionZh": "异环应该玩同色队还是混色队？",
+        "answer": "Same-element teams benefit from resonance bonuses at 3 matching elements, but mixed teams offer more flexibility. For beginners, mixed teams are recommended until you have enough characters for mono-element.",
+        "answerZh": "同元素队有共鸣加成，但混色队更灵活。新手建议先用混色队，等角色池深了再考虑纯色队。"
+      },
+      {
+        "question": "How do elemental reactions work in teams?",
+        "questionZh": "异环元素反应怎么触发？",
+        "answer": "Elemental reactions trigger when different elements interact on enemies. Switching characters and applying different elements in sequence creates powerful combination effects that deal bonus damage.",
+        "answerZh": "不同元素作用于敌人时触发元素反应。按顺序切换角色施加不同元素可以产生强力的组合效果，造成额外伤害。"
+      },
+      {
+        "question": "Which characters should I prioritize building for teams?",
+        "questionZh": "异环配队优先培养哪些角色？",
+        "answer": "Prioritize your main DPS first, then a support character (Mint is excellent and free from beginner selector), then a utility/flex pick. Level your DPS to max before heavily investing in supports.",
+        "answerZh": "优先培养主C角色，其次是辅助（薄荷非常好，新手池可自选），最后是功能位。主C拉满后再重点投入辅助。"
+      }
+    ]
+  },
+  {
+    "id": "boss-guide-comprehensive",
+    "title": "异环全Boss攻略 — 弱点分析与打法详解",
+    "titleEn": "NTE Boss Guide — Weakness Analysis and Strategy",
+    "category": "combat",
+    "categoryZh": "战斗攻略",
+    "categoryEn": "Combat",
+    "summary": "全面解析异环中的Boss战机制，包括元素弱点、攻击模式分析、推荐阵容和掉落奖励一览。",
+    "summaryEn": "Comprehensive guide to NTE boss mechanics including elemental weaknesses, attack patterns, recommended teams, and drop rewards.",
+    "content": "Boss战是异环中最具挑战性的内容之一。了解Boss的弱点和攻击模式，选择正确的队伍和策略，是高效通关的关键。本文为你详解异环中的Boss系统。\n\nBoss类型概览\n\n异环中的Boss分为以下几类：\n\n世界Boss：在海瑟劳城各区域出现的强力异象，可以随时挑战。难度适中，主要掉落基础强化材料。\n\n异象监狱Boss（Anomaly Prison）：高难度副本Boss，需要组队挑战。掉落高级强化材料和稀有磁盘套装。是游戏终局内容的核心。\n\n周本Boss：每周可挑战次数有限，掉落珍贵的觉醒材料。建议每周打完所有次数。\n\n活动Boss：限时活动中的特殊Boss，通常有独特机制和限定奖励。\n\n元素弱点系统\n\n每个Boss都有特定的元素弱点和抗性。攻击弱点元素会造成额外伤害（约1.5-2倍），而攻击抗性元素伤害会大幅降低（约0.5倍）。\n\n查看Boss弱点的方法：在Boss战开始前的队伍选择界面，可以查看当前Boss的元素弱点图标。建议根据弱点调整队伍中至少1-2名角色的元素属性。\n\nBoss战核心机制\n\n护盾系统：部分Boss会周期性生成元素护盾。需要使用克制元素攻击才能快速破盾。破盾后Boss会进入短暂的虚弱状态，是输出的最佳时机。\n\n愤怒模式：当Boss血量降至一定程度（通常30%以下）时，会进入愤怒模式，攻击力和速度大幅提升。此时需要更谨慎地躲避攻击，等待队友的增益效果。\n\n特殊机制Boss：某些Boss有独特的机制，如召唤小怪、区域AOE、追踪攻击等。需要在实战中学习应对方法。\n\n通用Boss打法策略\n\n1. 先观察Boss攻击模式，熟悉躲避时机。\n2. 利用弹反机制：部分Boss的攻击可以被弹反，成功弹反会造成大量伤害并打断Boss动作。\n3. 破盾优先：如果Boss有护盾，优先用克制元素破盾后再输出。\n4. 保留大招：等Boss进入虚弱状态或破盾后再释放队伍大招。\n5. 合理切换角色：利用角色切换的无敌帧规避Boss的高伤害技能。\n\n推荐Boss通用阵容\n\n九渊（爆发输出）+ 薄荷（治疗/增益）+ 白藏（控场）：百搭阵容，适合大多数Boss。\n\n南那（持续输出）+ Adler（护盾）+ Sakiri（辅助）：偏稳健的阵容，适合高难度Boss。\n\nBoss掉落奖励\n\n世界Boss：基础强化材料、低级磁盘、经验材料。\n异象监狱Boss：高级强化材料、SR/SSR磁盘套装、觉醒材料碎片。\n周本Boss：觉醒材料、稀有道具、角色升级材料。\n活动Boss：限定奖励、活动代币、联动道具。\n\nBoss战效率提升\n\n1. 提升角色等级和装备等级是最直接的战力提升方式。\n2. 使用克制元素的磁盘套装（对应元素伤害加成）。\n3. 觉醒角色解锁更强的技能效果。\n4. 熟悉Boss机制比堆数值更有效——很多Boss有固定的攻击模式可以预判。\n\n更多角色配队建议请查看配队攻略，角色强度排行请参考节奏榜。",
+    "contentEn": "Boss battles are among the most challenging content in NTE. Understanding weaknesses, attack patterns, and team strategy is key to efficient clears.\n\nBoss Types\n\nWorld Bosses: Appear throughout Hethereau, moderate difficulty, drop basic enhancement materials.\n\nAnomaly Prison Bosses: High-difficulty instance bosses requiring team coordination. Drop advanced materials and rare disk sets. Core endgame content.\n\nWeekly Bosses: Limited attempts per week, drop valuable awakening materials. Clear all weekly attempts.\n\nEvent Bosses: Limited-time special bosses with unique mechanics and exclusive rewards.\n\nElemental Weakness System\n\nEach boss has specific elemental weaknesses and resistances. Hitting weaknesses deals 1.5-2x damage; hitting resistances deals ~0.5x damage.\n\nCheck weaknesses in the team selection screen before battle. Adjust 1-2 characters to match the boss weakness.\n\nCore Mechanics\n\nShield System: Some bosses generate elemental shields periodically. Use counter-elements to break shields quickly. After breaking, the boss enters a vulnerable state — the best time to deal damage.\n\nEnrage Mode: Below ~30% HP, bosses enter enrage mode with increased attack and speed. Play more defensively during this phase.\n\nSpecial Mechanics: Some bosses summon adds, cast area AoE, or use tracking attacks. Learn these in practice.\n\nGeneral Strategy\n\n1. Observe attack patterns first.\n2. Use parry mechanics on parryable attacks for massive damage and interruption.\n3. Prioritize shield-breaking with counter elements.\n4. Save ultimates for vulnerable phases.\n5. Use character switch i-frames to dodge heavy attacks.\n\nRecommended Universal Teams\n\nJiuyuan (burst) + Mint (heal/buff) + Baicang (control): Versatile for most bosses.\nNanally (sustained) + Adler (shield) + Sakiri (support): Stable for high-difficulty bosses.\n\nBoss Drop Rewards\n\nWorld Bosses: Basic enhancement materials, low-tier disks, experience materials.\nAnomaly Prison: Advanced materials, SR/SSR disk sets, awakening material fragments.\nWeekly: Awakening materials, rare items, character upgrade materials.\nEvent: Limited rewards, event tokens, collaboration items.\n\nEfficiency Tips\n\n1. Level up characters and equipment for direct power increase.\n2. Use element-specific disk sets for damage bonuses.\n3. Awaken characters for stronger skill effects.\n4. Learning boss patterns is more effective than raw stats — most bosses have predictable attack cycles.\n\nFor team composition advice, check our team guide. For character rankings, see the tier list.",
+    "tags": [
+      "Boss",
+      "副本",
+      "攻略",
+      "boss",
+      "guide",
+      "weakness"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "How do I check a boss's elemental weakness?",
+        "questionZh": "怎么查看Boss的元素弱点？",
+        "answer": "In the team selection screen before battle, elemental weakness icons are displayed next to the boss info. Build your team around these weaknesses for maximum damage.",
+        "answerZh": "在Boss战前的队伍选择界面，Boss信息旁边会显示元素弱点图标。根据弱点组建队伍可以最大化伤害。"
+      },
+      {
+        "question": "What happens when I break a boss's shield?",
+        "questionZh": "打破Boss护盾后会发生什么？",
+        "answer": "Breaking a boss's shield puts it into a vulnerable state for several seconds. During this time, the boss takes increased damage and cannot attack. This is the optimal window to use your strongest skills and ultimates.",
+        "answerZh": "打破Boss护盾后Boss会进入数秒的虚弱状态，期间受到的伤害增加且无法攻击。这是释放大招和最强技能的最佳时机。"
+      },
+      {
+        "question": "Can I solo boss content in NTE?",
+        "questionZh": "异环Boss可以单刷吗？",
+        "answer": "World bosses can be soloed with a well-built team. Anomaly Prison bosses are designed for co-op but can be soloed by highly skilled players with strong characters. Weekly bosses have matchmaking for easy grouping.",
+        "answerZh": "世界Boss可以用成型队伍单刷。异象监狱Boss设计为组队内容，但高练度玩家也可以单刷。周本有匹配系统方便组队。"
+      },
+      {
+        "question": "What are the best characters for boss fights?",
+        "questionZh": "打Boss用哪些角色最好？",
+        "answer": "High-burst DPS characters like Jiuyuan and Nanally excel in boss fights. Supports like Mint (healing) and Baicang (crowd control) are also valuable. Always match your team's elements to the boss weakness.",
+        "answerZh": "高爆发角色如九渊和南那在Boss战中表现出色。薄荷（治疗）和白藏（控制）等辅助也很有价值。记得根据Boss弱点匹配队伍元素。"
+      },
+      {
+        "question": "How often can I fight weekly bosses?",
+        "questionZh": "周本Boss一周能打几次？",
+        "answer": "Weekly bosses can be challenged a limited number of times per week (typically 3 clears per boss). Resets on Monday. Prioritize clearing all weekly bosses for awakening materials.",
+        "answerZh": "周本Boss每周有挑战次数限制（通常每个Boss可通关3次），周一重置。建议优先打完所有周本获取觉醒材料。"
+      }
+    ]
+  },
+  {
+    "id": "housing-system-guide",
+    "title": "异环房屋系统攻略 — 买房装修与收益指南",
+    "titleEn": "NTE Housing System Guide — Buying, Decorating, and Profits",
+    "category": "beginner",
+    "categoryZh": "新手指南",
+    "categoryEn": "Beginner",
+    "summary": "详解异环的房屋系统，包括买房流程、装修玩法、收益机制和城市经营模式（City Tycoon）的免费S级角色获取。",
+    "summaryEn": "Complete guide to NTE's housing system including buying property, decoration, income mechanics, and the City Tycoon mode for earning a free S-rank character.",
+    "content": "异环的房屋系统是游戏中独特的生活玩法之一。玩家可以在海瑟劳城购买自己的房子，进行装修布置，并通过城市经营模式获取收益，甚至免费获得S级角色。本文详解房屋系统的方方面面。\n\n如何解锁房屋系统\n\n房屋系统在完成主线剧情第二章后解锁。解锁后会接到一个引导任务，带你参观海瑟劳城的房产并完成首次购房。首次购房的费用较低（系统会提供补贴），后续购买的房产价格递增。\n\n买房流程\n\n1. 前往海瑟劳城的房产中介NPC处查看可购买的房产。\n2. 不同区域的房产价格和功能不同，市中心区域最贵但收益也最高。\n3. 选择心仪的房产后支付甲硬币（游戏内免费货币）完成购买。\n4. 购买后可以自由进出自己的房屋，开始装修和布置。\n\n装修系统\n\n房屋装修包括以下功能：\n\n家具放置：从家具商店购买或通过制作获得家具，在房屋内自由摆放。家具分为装饰类（纯外观）和功能类（提供属性加成）。\n\n功能家具包括：休息床（恢复体力并获取经验加成buff）、储物柜（额外存储空间）、展示架（展示收藏品和武器）、工作台（制作家具和道具）。\n\n装修风格：游戏提供多种装修风格预设，包括现代简约、日式和风、工业复古等。也可以完全自由搭配。\n\n互动功能：部分家具支持互动，如音响可以播放收集到的音乐（包括P5R联动曲目），电视可以播放游戏内动画。\n\n城市经营模式（City Tycoon）\n\n这是房屋系统中最有价值的玩法。通过经营自己在海瑟劳城中的区域，可以获取持续收益：\n\n店铺经营：在拥有的房产中开设店铺，定期产生甲硬币和材料收益。不同类型的店铺产出的资源不同。\n\n区域发展：投资自己所在的区域，提升区域繁荣度。繁荣度越高，所有该区域的玩家获得的收益加成越大。\n\n城市任务：完成城市经营相关的日常任务，获取经营积分。积分可以兑换各种奖励。\n\n免费S级角色：当城市经营进度达到特定里程碑时，可以免费获得S级角色「小吱」。这是游戏内最重要的免费S级角色来源之一，强烈建议所有玩家积极参与。\n\n收益优化建议\n\n1. 优先购买能开设店铺的房产，建立持续收入来源。\n2. 每天登录收取店铺收益，不要让收益溢出浪费。\n3. 优先升级高收益的店铺类型。\n4. 参与区域合作项目，与其他玩家一起提升区域繁荣度。\n5. 完成所有城市经营日常任务，积累积分兑换奖励。\n\n房屋系统的社交功能\n\n你可以邀请好友参观你的房屋，查看彼此的装修设计。游戏中还有房屋设计评比活动，优秀的设计可以获得限定奖励。\n\n总结\n\n异环的房屋系统不仅是休闲玩法，更是获取免费S级角色和持续资源的重要途径。建议在推进主线的同时，尽早解锁并投入城市经营玩法。",
+    "contentEn": "NTE's housing system is a unique lifestyle feature. Players can buy property in Hethereau, decorate homes, and earn ongoing income through the City Tycoon mode — including a free S-rank character.\n\nUnlocking Housing\n\nHousing unlocks after completing Chapter 2 of the main story. A guide quest leads you through your first property purchase with a system subsidy.\n\nBuying Property\n\n1. Visit the real estate NPC in Hethereau to view available properties.\n2. Different districts have different prices and functions — city center is most expensive but offers highest returns.\n3. Pay with Coins (free in-game currency) to complete purchase.\n4. Enter and decorate your property freely.\n\nDecoration System\n\nFurniture Placement: Purchase from furniture shops or craft items. Decorative furniture is cosmetic; functional furniture provides stat bonuses.\n\nFunctional Furniture: Rest bed (stamina recovery + XP buff), storage (extra inventory), display shelf (showcase collectibles), workbench (craft furniture and items).\n\nStyles: Modern minimalist, Japanese, industrial, and more. Or mix freely.\n\nInteractibles: Speakers play collected music (including P5R collab tracks), TVs display in-game animations.\n\nCity Tycoon Mode\n\nThe most valuable part of housing:\n\nShop Management: Open shops in your properties for regular Coin and material income. Different shop types yield different resources.\n\nDistrict Development: Invest in your district to raise prosperity. Higher prosperity = better yield bonuses for all players in the area.\n\nCity Quests: Complete daily city management tasks for City Points, exchangeable for rewards.\n\nFree S-Rank Character: Reach specific City Tycoon milestones to earn Xiaozhi (S-rank) for free. One of the most important free character sources — participate actively.\n\nIncome Optimization\n\n1. Prioritize properties that can host shops.\n2. Collect shop income daily — don't let it cap out.\n3. Upgrade high-yield shops first.\n4. Join district cooperation projects with other players.\n5. Complete all daily city quests for maximum points.\n\nSocial Features\n\nInvite friends to visit your home and view designs. Housing design competitions offer exclusive rewards.\n\nNTE's housing system is both a relaxing activity and an important resource engine. Unlock and invest in City Tycoon early for the free S-rank character.",
+    "tags": [
+      "房屋",
+      "买房",
+      "装修",
+      "城市经营",
+      "housing",
+      "property",
+      "tycoon"
+    ],
+    "relatedCharacters": [
+      "xiaozhi"
+    ],
+    "relatedLocations": [
+      "hethereau"
+    ],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "When does the housing system unlock?",
+        "questionZh": "异环房屋系统什么时候解锁？",
+        "answer": "Housing unlocks after completing Chapter 2 of the main story. You'll receive a guide quest that walks you through your first property purchase.",
+        "answerZh": "完成主线第二章后解锁。系统会给你一个引导任务，带你完成首次购房。"
+      },
+      {
+        "question": "How do I get the free S-rank character from City Tycoon?",
+        "questionZh": "城市经营怎么免费获得S级角色？",
+        "answer": "Progress through City Tycoon milestones by managing shops, completing city quests, and developing your district. At a specific milestone, you'll unlock Xiaozhi (S-rank) for free. This takes approximately 2-3 weeks of active play.",
+        "answerZh": "通过经营店铺、完成城市任务和发展区域来推进城市经营进度。达到特定里程碑时解锁免费S级角色小吱，大约需要2-3周活跃游戏。"
+      },
+      {
+        "question": "Can I buy multiple properties?",
+        "questionZh": "异环可以买多套房子吗？",
+        "answer": "Yes, you can purchase multiple properties in different districts. Each property can be decorated independently and host different types of shops for varied income streams.",
+        "answerZh": "可以。你可以在不同区域购买多处房产，每处独立装修并开设不同类型的店铺获取多样收益。"
+      },
+      {
+        "question": "Is the housing system pay-to-win?",
+        "questionZh": "房屋系统要氪金吗？",
+        "answer": "No. Properties are purchased with Coins (free currency). Furniture can be crafted or bought with free currency. The City Tycoon free S-rank character is achievable entirely without spending real money.",
+        "answerZh": "不需要。房产用甲硬币（免费货币）购买，家具可以制作或用免费货币购买。城市经营的免费S级角色完全可以零氪获得。"
+      }
+    ]
+  },
+  {
+    "id": "awakening-system-guide",
+    "title": "异环觉醒系统详解 — 材料获取与共鸣效果",
+    "titleEn": "NTE Awakening System Guide — Materials and Resonance Effects",
+    "category": "advanced",
+    "categoryZh": "进阶攻略",
+    "categoryEn": "Advanced",
+    "summary": "详解异环觉醒系统的6级觉醒机制、3/6级共鸣效果、材料获取途径和觉醒优先级建议。",
+    "summaryEn": "Complete guide to NTE's awakening system: 6-level progression, resonance effects at levels 3/6, material farming, and priority recommendations.",
+    "content": "觉醒系统是异环角色培养的核心进阶内容。通过消耗特定材料为角色觉醒，可以大幅提升角色属性并解锁强大的共鸣效果。本文详解觉醒系统的方方面面。\n\n觉醒系统概述\n\n每个角色有6个觉醒等级。每次觉醒需要消耗特定的觉醒材料（不同角色需要的材料不同）。觉醒后会提升角色的基础属性（攻击力、生命值、防御力等），并在特定等级解锁强大的共鸣效果。\n\n觉醒等级与属性提升\n\n觉醒1级：基础属性小幅提升\n觉醒2级：基础属性小幅提升\n觉醒3级：基础属性提升 + 解锁第一层共鸣效果\n觉醒4级：基础属性中幅提升\n觉醒5级：基础属性中幅提升\n觉醒6级：基础属性大幅提升 + 解锁第二层共鸣效果\n\n属性提升随等级递增，3级和6级是关键节点。\n\n共鸣效果详解\n\n共鸣效果是觉醒系统最大的价值所在：\n\n3级共鸣：解锁角色的第一个共鸣技能。通常是被动效果，如特定条件下增伤、减伤或提供团队增益。每个角色的共鸣效果不同，需要根据角色特点来评估价值。\n\n6级共鸣：解锁角色的第二个共鸣技能。通常是更强大的效果，可能改变角色的玩法定位或大幅提升输出能力。6级共鸣的材料需求也远高于3级。\n\n材料获取途径\n\n觉醒材料的获取途径包括：\n\n异象监狱（主要来源）：通关高难度异象监狱副本，按层数和难度掉落不同品质的觉醒材料。这是获取觉醒材料最高效的途径。\n\n周本Boss：每周Boss挑战掉落稀有觉醒材料。建议每周打完所有次数。\n\n活动奖励：限时活动和签到活动中经常包含觉醒材料作为奖励。\n\n商店兑换：使用游戏内货币在特定商店中兑换觉醒材料。\n\n探索收集：在海瑟劳城的探索中也能找到少量觉醒材料。\n\n觉醒优先级建议\n\n资源有限时，建议按以下优先级觉醒角色：\n\n最高优先级：你的主C角色。主C的觉醒直接提升队伍输出上限，收益最大。\n\n高优先级：核心辅助角色。如薄荷（治疗/增益）、Adler（护盾），觉醒后能提供更强的团队支持。\n\n中等优先级：常用的副C和功能位角色。\n\n低优先级：不常用或已替代的角色。\n\nF2P觉醒策略\n\n零氪玩家获取觉醒材料的速度有限，建议：\n1. 集中资源先让主C达到3级觉醒（解锁第一层共鸣）。\n2. 核心辅助也到3级觉醒。\n3. 再将主C推到6级觉醒。\n4. 不要分散资源同时觉醒多个角色。\n\n觉醒材料需求量\n\n1-3级觉醒需要的材料相对较少，大约1-2周可以完成。\n4-6级觉醒材料需求大幅增加，可能需要1-2个月的持续积累。\n\n建议制定长期的觉醒计划，根据当前版本的Meta和自己的角色池来分配资源。\n\n觉醒系统与其他系统的联动\n\n觉醒效果与磁盘套装、武器选择和队伍配合同时有影响。一个6级觉醒的角色配合正确的磁盘套装和队伍搭配，战斗力可能比觉醒前翻倍。建议综合考虑所有培养维度。",
+    "contentEn": "The Awakening system is NTE's core character progression mechanic. By consuming specific materials, characters gain stat boosts and powerful resonance effects at key milestones.\n\nOverview\n\nEach character has 6 awakening levels. Each level requires specific materials (different per character). Awakening boosts base stats (ATK, HP, DEF) and unlocks resonance effects at levels 3 and 6.\n\nLevel Progression\n\nLevel 1-2: Small stat boosts\nLevel 3: Stat boost + First Resonance Effect\nLevel 4-5: Medium stat boosts\nLevel 6: Large stat boost + Second Resonance Effect\n\nLevels 3 and 6 are the key milestones.\n\nResonance Effects\n\nLevel 3 Resonance: Unlocks the first resonance skill — usually a passive effect like conditional damage boost, damage reduction, or team buff. Each character's resonance is unique.\n\nLevel 6 Resonance: Unlocks the second, more powerful resonance skill. May change a character's playstyle or dramatically increase output. Material costs are significantly higher.\n\nMaterial Sources\n\nAnomaly Prisons (primary): Higher difficulty = better drops. Most efficient source.\nWeekly Bosses: Drop rare awakening materials. Clear all weekly attempts.\nEvent Rewards: Limited-time events often include awakening materials.\nShop Exchange: Trade in-game currency for materials.\nExploration: Small amounts found throughout Hethereau.\n\nPriority Guide\n\nHighest: Main DPS — directly increases team damage ceiling.\nHigh: Core supports (Mint, Adler) — stronger team utility after awakening.\nMedium: Frequently-used sub-DPS and utility characters.\nLow: Rarely-used or replaced characters.\n\nF2P Strategy\n\n1. Focus on main DPS to level 3 first.\n2. Core support to level 3.\n3. Push main DPS to level 6.\n4. Don't spread resources across many characters simultaneously.\n\nMaterial Costs\n\nLevels 1-3: ~1-2 weeks of farming.\nLevels 4-6: ~1-2 months of sustained farming.\n\nPlan your awakening progression based on current meta and your character roster. Awakening synergizes with disk sets, weapons, and team composition for multiplicative power gains.",
+    "tags": [
+      "觉醒",
+      "共鸣",
+      "培养",
+      "awakening",
+      "resonance",
+      "材料"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "What is the awakening system in NTE?",
+        "questionZh": "异环觉醒系统是什么？",
+        "answer": "Awakening is a character progression system with 6 levels. Each level boosts base stats, and levels 3 and 6 unlock powerful resonance effects that significantly enhance character abilities.",
+        "answerZh": "觉醒是角色培养系统，共6级。每级提升基础属性，3级和6级解锁强力的共鸣效果，大幅增强角色能力。"
+      },
+      {
+        "question": "Which characters should I awaken first?",
+        "questionZh": "优先觉醒哪些角色？",
+        "answer": "Always awaken your main DPS first, then core supports. The level 3 resonance is the most cost-effective milestone. Focus resources on one character at a time rather than spreading them thin.",
+        "answerZh": "优先觉醒主C角色，其次是核心辅助。3级觉醒是性价比最高的里程碑。集中资源一个一个来，不要分散。"
+      },
+      {
+        "question": "Where do I get awakening materials?",
+        "questionZh": "觉醒材料怎么获取？",
+        "answer": "Anomaly Prisons are the primary source. Weekly bosses and events also provide materials. Farm the highest difficulty you can clear efficiently.",
+        "answerZh": "异象监狱是主要来源。周本Boss和活动也提供材料。尽量刷你能高效通关的最高难度。"
+      },
+      {
+        "question": "How long does it take to fully awaken a character?",
+        "questionZh": "满觉醒一个角色需要多久？",
+        "answer": "Getting to level 3 takes about 1-2 weeks for F2P players. Full level 6 awakening takes approximately 1-2 months of consistent farming.",
+        "answerZh": "零氪玩家到3级觉醒大约需要1-2周。满6级觉醒大约需要1-2个月的持续积累。"
+      }
+    ]
+  },
+  {
+    "id": "hidden-quests-chests-guide",
+    "title": "异环隐藏任务与宝箱收集攻略",
+    "titleEn": "NTE Hidden Quests and Chest Collection Guide",
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "summary": "海瑟劳城中隐藏着大量秘密任务和宝箱。本文汇总隐藏任务的触发方式、宝箱位置和收集奖励。",
+    "summaryEn": "Hethereau is full of hidden quests and treasure chests. This guide covers hidden quest triggers, chest locations, and collection rewards.",
+    "content": "海瑟劳城作为异环的开放世界舞台，不仅有丰富的主线和支线任务，还隐藏着大量秘密内容等待玩家发现。本文为你整理隐藏任务和宝箱收集的相关信息。\n\n隐藏任务系统\n\n隐藏任务是游戏中不会直接在任务列表中显示的特殊任务。它们需要满足特定条件才会触发，如：\n\n特定时间触发：某些隐藏任务只在游戏内的白天或夜晚出现。\n特定地点触发：到达某些隐蔽区域时自动触发。\nNPC交互触发：与特定NPC对话或完成特定行为后触发。\n物品触发：拾取特定物品后解锁相关隐藏任务。\n\n已知的隐藏任务类型\n\n神秘委托：在海瑟劳城的偏僻角落遇到的神秘NPC给出的特殊委托。完成委托通常获得稀有材料和限定道具。\n\n收集系列任务：收集特定数量的某种物品后触发。如收集城市中所有异象碎片、找到所有隐藏的记忆碎片等。\n\n连锁任务：完成一个隐藏任务后解锁下一个，形成多步骤的系列任务。奖励随步骤递增。\n\n限时挑战任务：在特定区域内完成限时战斗挑战。通常需要在限定时间内击败所有敌人。\n\n宝箱系统\n\n海瑟劳城中散布着各种宝箱，按品质分为：\n\n普通宝箱（白色）：基础材料和小量货币。数量最多，分布广泛。\n\n精致宝箱（蓝色）：包含较好的材料和中等数量的货币。通常在稍微隐蔽的位置。\n\n珍贵宝箱（紫色）：稀有材料和较多货币。通常需要解谜或完成挑战才能获得。\n\n华丽宝箱（金色）：最稀有的宝箱，包含珍贵道具和大量资源。通常与隐藏任务或复杂解谜关联。\n\n宝箱收集技巧\n\n1. 注意环境中的视觉提示：发光的物体、异常的地形特征、看似可以互动的物品。\n2. 利用载具扩大搜索范围：驾驶车辆在城市中巡视，更容易发现远处的宝箱。\n3. 关注小地图标记：接近隐藏内容时，小地图可能出现微弱的提示。\n4. 夜晚探索：部分隐藏内容只在游戏内夜间出现。\n5. 与所有NPC对话：有些NPC会在对话中暗示隐藏内容的位置。\n6. 尝试与环境互动：推箱子、转动机关、使用元素技能攻击可疑物体。\n\n探索奖励\n\n收集隐藏内容和宝箱可以获得：\n- 方斯（抽卡货币）\n- 角色经验材料\n- 突破材料\n- 磁盘套装\n- 限定称号和头像\n- 成就点数\n\n完成度奖励\n\n达到特定探索完成度时，会获得额外的大奖：\n- 区域100%探索：限定称号 + 大量方斯\n- 全城100%探索：限定头像框 + S级材料自选箱\n\n探索进度可以在游戏内的探索界面查看，建议按区域逐步完成。\n\n总结\n\n隐藏任务和宝箱是异环探索玩法的核心乐趣之一。不要急于赶路，多留意周围的细节，你会收获更多惊喜。更多探索技巧请查看我们的探索攻略。",
+    "contentEn": "Hethereau hides numerous secret quests and treasure chests beyond the main storyline. This guide helps you find them all.\n\nHidden Quest System\n\nHidden quests don't appear in the quest log until triggered by specific conditions:\n\nTime-based: Some quests only appear during in-game day or night.\nLocation-based: Entering hidden areas triggers quests automatically.\nNPC interaction: Talking to specific NPCs or performing certain actions.\nItem triggers: Picking up specific items unlocks related hidden quests.\n\nHidden Quest Types\n\nMysterious Commissions: Special tasks from enigmatic NPCs in secluded areas. Rewards include rare materials and exclusive items.\n\nCollection Series: Triggered by collecting specific items (anomaly fragments, memory shards, etc.).\n\nChain Quests: Multi-step sequences where completing one unlocks the next, with escalating rewards.\n\nTimed Challenges: Defeat all enemies within a time limit in specific areas.\n\nChest System\n\nChests come in four tiers:\n\nCommon (white): Basic materials, small currency. Most numerous.\nExquisite (blue): Better materials, moderate currency. Slightly hidden.\nPrecious (purple): Rare materials, substantial currency. Requires puzzles or challenges.\nMagnificent (gold): Rarest — precious items and large resources. Linked to hidden quests or complex puzzles.\n\nCollection Tips\n\n1. Watch for visual cues: Glowing objects, unusual terrain, interactable items.\n2. Use vehicles to cover more ground while searching.\n3. Check minimap for subtle hints near hidden content.\n4. Night exploration: Some content only appears at in-game night.\n5. Talk to every NPC — some hint at hidden content locations.\n6. Experiment with environment interactions.\n\nExploration Rewards\n\n- Fangs (gacha currency)\n- Character XP materials\n- Ascension materials\n- Disk sets\n- Exclusive titles and avatars\n- Achievement points\n\nCompletion Rewards\n\nRegion 100%: Exclusive title + large Fangs reward\nFull City 100%: Exclusive avatar frame + S-rank material selector\n\nCheck exploration progress in-game. Complete region by region for systematic progress.\n\nHidden content is a core joy of NTE's exploration. Take your time, observe your surroundings, and discover surprises. For more exploration tips, see our exploration guide.",
+    "tags": [
+      "隐藏任务",
+      "宝箱",
+      "收集",
+      "探索",
+      "hidden",
+      "chests",
+      "collection"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [
+      "hethereau"
+    ],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "How do I find hidden quests in NTE?",
+        "questionZh": "异环隐藏任务怎么找？",
+        "answer": "Hidden quests trigger through specific conditions: visiting particular locations, talking to certain NPCs at specific times, or picking up special items. Explore thoroughly and interact with everything to discover them.",
+        "answerZh": "隐藏任务通过特定条件触发：到达特定地点、在特定时间与特定NPC对话、或拾取特殊物品。多探索多互动就能发现。"
+      },
+      {
+        "question": "How many chests are in Hethereau?",
+        "questionZh": "海瑟劳城有多少宝箱？",
+        "answer": "The exact number varies as the game updates, but there are hundreds of chests across all districts. Each region has a completion percentage tracker so you can see how many you've found.",
+        "answerZh": "随版本更新数量会变化，但全城有数百个宝箱。每个区域有完成度追踪器，可以查看你已找到的数量。"
+      },
+      {
+        "question": "Do chests respawn in NTE?",
+        "questionZh": "异环宝箱会刷新吗？",
+        "answer": "Most chests are one-time collection and do not respawn. However, some special chests in dynamic events may reappear. Focus on collecting permanent chests first for guaranteed rewards.",
+        "answerZh": "大部分宝箱是一次性收集的，不会刷新。但动态活动中的特殊宝箱可能重新出现。优先收集永久宝箱。"
+      },
+      {
+        "question": "What rewards do I get for 100% exploration?",
+        "questionZh": "探索100%有什么奖励？",
+        "answer": "Each region at 100% grants an exclusive title and a large amount of Fangs. Completing all regions to 100% unlocks an exclusive avatar frame and an S-rank material selector box.",
+        "answerZh": "每个区域100%给限定称号和大量方斯。全城100%解锁限定头像框和S级材料自选箱。"
+      }
+    ]
+  },
+  {
+    "id": "vehicle-system-guide",
+    "title": "异环载具系统攻略 — 全车辆获取与驾驶技巧",
+    "titleEn": "NTE Vehicle System Guide — All Vehicles and Driving Tips",
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "summary": "详解异环的载具系统，包括车辆获取方式、驾驶操作、车辆类型和载具相关活动。",
+    "summaryEn": "Complete guide to NTE's vehicle system: how to get vehicles, driving controls, vehicle types, and vehicle-related events.",
+    "content": "异环的载具系统是游戏中极具特色的玩法。在海瑟劳这座现代都市中，你可以驾驶各种车辆自由穿行，不仅大幅提升探索效率，还能参与赛车活动获取丰厚奖励。\n\n载具系统解锁\n\n载具系统在完成主线第一章后解锁。系统会赠送一辆基础轿车作为你的第一辆载具。解锁后可以在城市道路上的停车场召唤你的车辆。\n\n车辆获取方式\n\n剧情赠送：推进主线剧情会免费获得基础轿车。\n商店购买：使用甲硬币在车辆商店购买更多车型。价格从几千到数万不等。\n活动奖励：限时活动中可以获得限定款式的载具。\n收集解锁：完成特定的收集成就解锁特殊车辆。\n车辆类型\n\n轿车：均衡型，速度和操控性平衡。适合日常探索。\n跑车：高速型，速度极快但操控较难。适合直线竞速。\n越野车：耐久型，速度中等但稳定性好。适合复杂地形。\n摩托车：灵活型，加速快体积小，可以在狭窄道路穿行。\n特殊载具：通过活动或成就获得的独特载具，通常有特殊外观和特效。\n\n驾驶操作\n\nPC端：WASD控制方向和加速/刹车，空格手刹，Shift加速冲刺。\n手机端：虚拟摇杆+按钮控制。\nPS5：手柄摇杆+扳机键。\n\n驾驶技巧\n\n1. 利用冲刺功能快速通过长距离路段。\n2. 手刹漂移可以在弯道保持高速过弯。\n3. 注意城市交通规则：闯红灯虽然不会受罚，但会撞到NPC车辆影响速度。\n4. 摩托车可以在轿车无法通过的窄巷中穿行，是城市探索的利器。\n5. 越野车可以驶离道路进入野外区域，发现隐藏内容。\n\n载具与探索\n\n载具大幅提升了在海瑟劳城中的移动效率。不同类型的车辆适合不同的探索场景：城市中心用摩托车穿行小巷，郊区用越野车探索野外，高速公路用跑车快速移动。\n\n载具还可以停放在你的房产旁作为装饰展示。\n\n赛车活动\n\n游戏中定期举办赛车活动，包括：\n\n竞速赛：与其他玩家比拼圈速，排名靠前获得丰厚奖励。\n\n漂移挑战：在指定赛道上展示漂移技巧，按漂移距离和持续时间评分。\n\n限时配送：驾驶载具在限定时间内完成物品配送任务。\n\n赛车活动的奖励包括限定载具、稀有材料和大量方斯。\n\n载具改装\n\n部分载具支持外观改装，可以更换车身颜色、添加贴纸和改装轮毂。改装不影响载具性能，纯粹是外观个性化。\n\n总结\n\n异环的载具系统让城市的探索更加生动有趣。不同车辆各有特色，建议收集多种类型以应对不同场景。更多探索技巧请查看我们的探索攻略。",
+    "contentEn": "NTE's vehicle system is a standout feature. In the modern city of Hethereau, you can drive various vehicles freely — boosting exploration efficiency and participating in racing events for rewards.\n\nUnlocking Vehicles\n\nVehicles unlock after completing Chapter 1. You receive a free basic sedan. Summon vehicles at parking spots throughout the city.\n\nHow to Get Vehicles\n\nStory rewards: Free basic sedan from main quest.\nShop purchase: Buy with Coins. Prices range from thousands to tens of thousands.\nEvent rewards: Limited-edition vehicles from timed events.\nCollection unlocks: Special vehicles from achievement milestones.\n\nVehicle Types\n\nSedan: Balanced speed and handling. Great for general exploration.\nSports Car: Very fast but harder to control. Best for straight-line racing.\nSUV: Durable and stable. Handles rough terrain well.\nMotorcycle: Nimble, quick acceleration, fits through narrow alleys.\nSpecial Vehicles: Unique event/achievement rewards with special effects.\n\nDriving Controls\n\nPC: WASD for steering/acceleration, Space for handbrake, Shift for boost.\nMobile: Virtual joystick + buttons.\nPS5: Controller sticks and triggers.\n\nDriving Tips\n\n1. Use boost for long straight roads.\n2. Handbrake drift maintains speed through corners.\n3. Motorcycles navigate narrow alleys that cars can't access.\n4. SUVs can go off-road to discover hidden content.\n5. Park vehicles near your property as decoration.\n\nVehicles and Exploration\n\nDifferent vehicles suit different scenarios: motorcycles for city center alleys, SUVs for outskirts, sports cars for highways. Vehicles significantly improve traversal speed across Hethereau.\n\nRacing Events\n\nSpeed Races: Compete for best lap times against other players.\nDrift Challenges: Score points for drift distance and duration.\nTimed Deliveries: Complete deliveries within time limits.\n\nRewards include limited vehicles, rare materials, and large Fangs amounts.\n\nVehicle Customization\n\nSome vehicles support visual customization: paint colors, decals, and wheel modifications. Purely cosmetic — no performance impact.\n\nNTE's vehicle system makes city exploration more dynamic and fun. Collect different types for different scenarios. For more exploration tips, see our exploration guide.",
+    "tags": [
+      "载具",
+      "车辆",
+      "驾驶",
+      "赛车",
+      "vehicle",
+      "driving",
+      "racing"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [
+      "hethereau"
+    ],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "When do vehicles unlock in NTE?",
+        "questionZh": "异环载具什么时候解锁？",
+        "answer": "Vehicles unlock after completing Chapter 1 of the main story. You'll receive a free basic sedan to get started.",
+        "answerZh": "完成主线第一章后解锁。系统会赠送一辆基础轿车作为起步。"
+      },
+      {
+        "question": "How many vehicle types are in NTE?",
+        "questionZh": "异环有几种载具？",
+        "answer": "There are five main types: sedans (balanced), sports cars (speed), SUVs (durability), motorcycles (agility), and special event vehicles. Each suits different exploration scenarios.",
+        "answerZh": "主要有五种：轿车（均衡）、跑车（速度）、越野车（耐久）、摩托车（灵活）和活动限定特殊载具。各适合不同场景。"
+      },
+      {
+        "question": "Can I customize my vehicles?",
+        "questionZh": "异环载具可以改装吗？",
+        "answer": "Yes, you can customize vehicle appearance with paint colors, decals, and wheel modifications. Customization is purely cosmetic and doesn't affect performance.",
+        "answerZh": "可以。可以自定义车身颜色、贴纸和轮毂。改装纯属外观，不影响性能。"
+      },
+      {
+        "question": "Are there racing events in NTE?",
+        "questionZh": "异环有赛车活动吗？",
+        "answer": "Yes, NTE has regular racing events including speed races, drift challenges, and timed delivery missions. These events offer exclusive vehicle rewards and rare materials.",
+        "answerZh": "有。异环定期举办竞速赛、漂移挑战和限时配送等赛车活动。活动奖励包括限定载具和稀有材料。"
+      }
+    ]
   }
 ]

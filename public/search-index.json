@@ -5970,6 +5970,192 @@
     ]
   },
   {
+    "id": "team-composition-guide",
+    "name": "异环队伍搭配推荐 — 最强阵容组合攻略",
+    "nameEn": "NTE Team Composition Guide — Best Team Lineups",
+    "type": "guide",
+    "url": "/zh/guides/team-composition-guide",
+    "tags": [
+      "配队",
+      "阵容",
+      "队伍",
+      "team",
+      "composition",
+      "搭配"
+    ]
+  },
+  {
+    "id": "team-composition-guide",
+    "name": "NTE Team Composition Guide — Best Team Lineups",
+    "nameEn": "NTE Team Composition Guide — Best Team Lineups",
+    "type": "guide",
+    "url": "/en/guides/team-composition-guide",
+    "tags": [
+      "配队",
+      "阵容",
+      "队伍",
+      "team",
+      "composition",
+      "搭配"
+    ]
+  },
+  {
+    "id": "boss-guide-comprehensive",
+    "name": "异环全Boss攻略 — 弱点分析与打法详解",
+    "nameEn": "NTE Boss Guide — Weakness Analysis and Strategy",
+    "type": "guide",
+    "url": "/zh/guides/boss-guide-comprehensive",
+    "tags": [
+      "Boss",
+      "副本",
+      "攻略",
+      "boss",
+      "guide",
+      "weakness"
+    ]
+  },
+  {
+    "id": "boss-guide-comprehensive",
+    "name": "NTE Boss Guide — Weakness Analysis and Strategy",
+    "nameEn": "NTE Boss Guide — Weakness Analysis and Strategy",
+    "type": "guide",
+    "url": "/en/guides/boss-guide-comprehensive",
+    "tags": [
+      "Boss",
+      "副本",
+      "攻略",
+      "boss",
+      "guide",
+      "weakness"
+    ]
+  },
+  {
+    "id": "housing-system-guide",
+    "name": "异环房屋系统攻略 — 买房装修与收益指南",
+    "nameEn": "NTE Housing System Guide — Buying, Decorating, and Profits",
+    "type": "guide",
+    "url": "/zh/guides/housing-system-guide",
+    "tags": [
+      "房屋",
+      "买房",
+      "装修",
+      "城市经营",
+      "housing",
+      "property",
+      "tycoon"
+    ]
+  },
+  {
+    "id": "housing-system-guide",
+    "name": "NTE Housing System Guide — Buying, Decorating, and Profits",
+    "nameEn": "NTE Housing System Guide — Buying, Decorating, and Profits",
+    "type": "guide",
+    "url": "/en/guides/housing-system-guide",
+    "tags": [
+      "房屋",
+      "买房",
+      "装修",
+      "城市经营",
+      "housing",
+      "property",
+      "tycoon"
+    ]
+  },
+  {
+    "id": "awakening-system-guide",
+    "name": "异环觉醒系统详解 — 材料获取与共鸣效果",
+    "nameEn": "NTE Awakening System Guide — Materials and Resonance Effects",
+    "type": "guide",
+    "url": "/zh/guides/awakening-system-guide",
+    "tags": [
+      "觉醒",
+      "共鸣",
+      "培养",
+      "awakening",
+      "resonance",
+      "材料"
+    ]
+  },
+  {
+    "id": "awakening-system-guide",
+    "name": "NTE Awakening System Guide — Materials and Resonance Effects",
+    "nameEn": "NTE Awakening System Guide — Materials and Resonance Effects",
+    "type": "guide",
+    "url": "/en/guides/awakening-system-guide",
+    "tags": [
+      "觉醒",
+      "共鸣",
+      "培养",
+      "awakening",
+      "resonance",
+      "材料"
+    ]
+  },
+  {
+    "id": "hidden-quests-chests-guide",
+    "name": "异环隐藏任务与宝箱收集攻略",
+    "nameEn": "NTE Hidden Quests and Chest Collection Guide",
+    "type": "guide",
+    "url": "/zh/guides/hidden-quests-chests-guide",
+    "tags": [
+      "隐藏任务",
+      "宝箱",
+      "收集",
+      "探索",
+      "hidden",
+      "chests",
+      "collection"
+    ]
+  },
+  {
+    "id": "hidden-quests-chests-guide",
+    "name": "NTE Hidden Quests and Chest Collection Guide",
+    "nameEn": "NTE Hidden Quests and Chest Collection Guide",
+    "type": "guide",
+    "url": "/en/guides/hidden-quests-chests-guide",
+    "tags": [
+      "隐藏任务",
+      "宝箱",
+      "收集",
+      "探索",
+      "hidden",
+      "chests",
+      "collection"
+    ]
+  },
+  {
+    "id": "vehicle-system-guide",
+    "name": "异环载具系统攻略 — 全车辆获取与驾驶技巧",
+    "nameEn": "NTE Vehicle System Guide — All Vehicles and Driving Tips",
+    "type": "guide",
+    "url": "/zh/guides/vehicle-system-guide",
+    "tags": [
+      "载具",
+      "车辆",
+      "驾驶",
+      "赛车",
+      "vehicle",
+      "driving",
+      "racing"
+    ]
+  },
+  {
+    "id": "vehicle-system-guide",
+    "name": "NTE Vehicle System Guide — All Vehicles and Driving Tips",
+    "nameEn": "NTE Vehicle System Guide — All Vehicles and Driving Tips",
+    "type": "guide",
+    "url": "/en/guides/vehicle-system-guide",
+    "tags": [
+      "载具",
+      "车辆",
+      "驾驶",
+      "赛车",
+      "vehicle",
+      "driving",
+      "racing"
+    ]
+  },
+  {
     "id": "espers",
     "name": "异能者",
     "nameEn": "Espers",
