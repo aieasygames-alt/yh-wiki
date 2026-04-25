@@ -5,6 +5,7 @@ import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
 import { FaqSection } from "../../../components/FaqSection";
+import { ArticleContent } from "../../../components/ArticleContent";
 
 export function generateStaticParams() {
   return [{ lang: "zh" }, { lang: "tw" }, { lang: "en" }];
@@ -85,30 +86,7 @@ export default async function TeamsPage({
           </span>
         </div>
         <h1 className="text-2xl font-bold mb-6">{title}</h1>
-        <div className="prose prose-invert max-w-none">
-          {content.split("\n").map((paragraph, i) => {
-            if (paragraph.startsWith("## ")) {
-              return (
-                <h2 key={i} className="text-xl font-bold mt-8 mb-4 text-gray-100">
-                  {paragraph.replace("## ", "")}
-                </h2>
-              );
-            }
-            if (paragraph.startsWith("### ")) {
-              return (
-                <h3 key={i} className="text-lg font-bold mt-6 mb-3 text-gray-200">
-                  {paragraph.replace("### ", "")}
-                </h3>
-              );
-            }
-            if (!paragraph.trim()) return null;
-            return (
-              <p key={i} className="text-gray-300 mb-4 leading-relaxed">
-                {paragraph}
-              </p>
-            );
-          })}
-        </div>
+        <ArticleContent content={content} />
 
         {/* FAQ Section */}
         {guide.faq && guide.faq.length > 0 && (

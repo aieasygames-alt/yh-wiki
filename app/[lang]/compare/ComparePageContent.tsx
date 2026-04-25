@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { ArticleContent } from "../../../components/ArticleContent";
 import { getCompare } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
@@ -99,30 +100,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         )}
 
         {/* Content */}
-        <div className="prose prose-invert max-w-none">
-          {content.split("\n").map((paragraph, i) => {
-            const trimmed = paragraph.trim();
-            if (!trimmed) return null;
-            if (trimmed.startsWith("### ")) {
-              return <h3 key={i} className="text-lg font-semibold mt-6 mb-3 text-gray-200">{trimmed.slice(4)}</h3>;
-            }
-            if (trimmed.startsWith("## ")) {
-              return <h2 key={i} className="text-xl font-bold mt-8 mb-4 text-gray-100">{trimmed.slice(3)}</h2>;
-            }
-            if (/^\d+\.\s/.test(trimmed)) {
-              const nameEnd = trimmed.indexOf("\n");
-              const name = nameEnd > -1 ? trimmed.slice(0, nameEnd) : trimmed;
-              const rest = nameEnd > -1 ? trimmed.slice(nameEnd + 1) : "";
-              return (
-                <div key={i} className="mb-4 pl-4 border-l-2 border-gray-700">
-                  <p className="font-semibold text-gray-200">{name}</p>
-                  {rest && <p className="text-gray-300 mt-1 leading-relaxed">{rest}</p>}
-                </div>
-              );
-            }
-            return <p key={i} className="text-gray-300 mb-4 leading-relaxed">{trimmed}</p>;
-          })}
-        </div>
+        <ArticleContent content={content} />
 
         {/* Tags */}
         {article.tags.length > 0 && (

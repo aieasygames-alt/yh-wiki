@@ -6,6 +6,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
+import { ArticleContent } from "../../../../components/ArticleContent";
 
 export function generateStaticParams() {
   const guides = getAllGuides();
@@ -89,13 +90,7 @@ export default async function GuideDetailPage({
           </span>
         </div>
         <h1 className="text-2xl font-bold mb-6">{title}</h1>
-        <div className="prose prose-invert max-w-none">
-          {content.split("\n").map((paragraph, i) => (
-            <p key={i} className="text-gray-300 mb-4 leading-relaxed">
-              {paragraph}
-            </p>
-          ))}
-        </div>
+        <ArticleContent content={content} />
 
         {/* FAQ Section */}
         {guide.faq && guide.faq.length > 0 && (

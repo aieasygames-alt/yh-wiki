@@ -4,6 +4,7 @@ import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n"
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
+import { ArticleContent } from "../../../../components/ArticleContent";
 
 function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
   const allPosts = getAllBlogPosts();
@@ -100,13 +101,7 @@ export default async function BlogDetailPage({
         <p className="text-gray-400 mb-6 text-sm border-l-2 border-primary-500 pl-3">
           {summary}
         </p>
-        <div className="prose prose-invert max-w-none">
-          {content.split("\n").map((paragraph, i) => (
-            <p key={i} className="text-gray-300 mb-4 leading-relaxed">
-              {paragraph}
-            </p>
-          ))}
-        </div>
+        <ArticleContent content={content} />
 
         {/* Tags */}
         {post.tags.length > 0 && (
