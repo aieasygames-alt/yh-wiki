@@ -462,5 +462,75 @@
       "/redeem-codes",
       "/vehicles"
     ]
+  },
+  {
+    "id": "hotfix-1-0-1",
+    "version": "1.0.1",
+    "versionName": "公测首日热修",
+    "versionNameEn": "Launch Day Hotfix",
+    "date": "2026-04-24",
+    "dateGlobal": null,
+    "type": "hotfix",
+    "highlights": [
+      "修复部分玩家无法登录的问题",
+      "优化移动端帧率表现",
+      "修复角色技能异常",
+      "修复部分任务无法完成的BUG"
+    ],
+    "highlightsEn": [
+      "Fixed login issues for some players",
+      "Improved mobile frame rate performance",
+      "Fixed character skill abnormalities",
+      "Fixed bugs preventing quest completion"
+    ],
+    "sections": [
+      {
+        "title": "Bug修复",
+        "titleEn": "Bug Fixes",
+        "items": [
+          {
+            "name": "登录问题修复",
+            "nameEn": "Login Issue Fix",
+            "description": "修复部分玩家在特定网络环境下无法正常登录游戏的问题。",
+            "descriptionEn": "Fixed an issue where some players could not log in under certain network conditions.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["登录"]
+          },
+          {
+            "name": "移动端帧率优化",
+            "nameEn": "Mobile Frame Rate Optimization",
+            "description": "优化中端手机的帧率表现，减少战斗场景掉帧。",
+            "descriptionEn": "Optimized frame rate on mid-range phones, reducing drops during combat.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["优化"]
+          },
+          {
+            "name": "技能动画修复",
+            "nameEn": "Skill Animation Fix",
+            "description": "修复部分角色技能动画卡顿和异常中断的问题。",
+            "descriptionEn": "Fixed skill animation stuttering and abnormal interruptions for some characters.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["战斗"]
+          },
+          {
+            "name": "任务进度修复",
+            "nameEn": "Quest Progress Fix",
+            "description": "修复部分支线任务在特定条件下无法完成的问题。",
+            "descriptionEn": "Fixed some side quests that could not be completed under specific conditions.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["任务"]
+          }
+        ]
+      }
+    ],
+    "compensation": "方斯x200",
+    "internalLinks": [
+      "/guides",
+      "/characters"
+    ]
   }
 ]

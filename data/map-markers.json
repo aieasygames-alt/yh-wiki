@@ -205,6 +205,236 @@
           "description": "新艾利都西部区域传送点",
           "descriptionEn": "West area waypoint of New Elydon",
           "relatedMaterials": []
+        },
+        {
+          "id": "waypoint-north",
+          "name": "北部传送点",
+          "nameEn": "North Waypoint",
+          "type": "waypoint",
+          "x": 50.0,
+          "y": 15.0,
+          "description": "新艾利都北部区域传送点",
+          "descriptionEn": "North area waypoint of New Elydon",
+          "relatedMaterials": []
+        },
+        {
+          "id": "waypoint-south",
+          "name": "南部传送点",
+          "nameEn": "South Waypoint",
+          "type": "waypoint",
+          "x": 50.0,
+          "y": 85.0,
+          "description": "新艾利都南部区域传送点",
+          "descriptionEn": "South area waypoint of New Elydon",
+          "relatedMaterials": []
+        },
+        {
+          "id": "chest-1",
+          "name": "普通宝箱·中央广场",
+          "nameEn": "Common Chest — Central Square",
+          "type": "chest",
+          "x": 48.0,
+          "y": 43.0,
+          "description": "中央广场角落的普通宝箱",
+          "descriptionEn": "Common chest in the corner of Central Square",
+          "relatedMaterials": []
+        },
+        {
+          "id": "chest-2",
+          "name": "精致宝箱·东区巷道",
+          "nameEn": "Exquisite Chest — East Alley",
+          "type": "chest",
+          "x": 72.0,
+          "y": 42.0,
+          "description": "东区巷道尽头隐藏的精致宝箱",
+          "descriptionEn": "Exquisite chest hidden at the end of East Alley",
+          "relatedMaterials": []
+        },
+        {
+          "id": "chest-3",
+          "name": "珍贵宝箱·屋顶平台",
+          "nameEn": "Precious Chest — Rooftop",
+          "type": "chest",
+          "x": 35.0,
+          "y": 28.0,
+          "description": "需要攀爬到屋顶平台获取的珍贵宝箱",
+          "descriptionEn": "Precious chest on a rooftop platform, requires climbing",
+          "relatedMaterials": []
+        },
+        {
+          "id": "chest-4",
+          "name": "华丽宝箱·地下通道",
+          "nameEn": "Luxurious Chest — Underground Passage",
+          "type": "chest",
+          "x": 55.0,
+          "y": 72.0,
+          "description": "地下通道深处的华丽宝箱，需解谜开启",
+          "descriptionEn": "Luxurious chest deep in underground passage, requires puzzle",
+          "relatedMaterials": []
+        },
+        {
+          "id": "puzzle-1",
+          "name": "异象碎片解谜·西区",
+          "nameEn": "Anomaly Shard Puzzle — West District",
+          "type": "puzzle",
+          "x": 22.0,
+          "y": 38.0,
+          "description": "收集3个异象碎片解锁的解谜挑战",
+          "descriptionEn": "Puzzle challenge unlocked by collecting 3 anomaly shards",
+          "relatedMaterials": []
+        },
+        {
+          "id": "puzzle-2",
+          "name": "符文连线解谜·北区",
+          "nameEn": "Rune Link Puzzle — North District",
+          "type": "puzzle",
+          "x": 42.0,
+          "y": 18.0,
+          "description": "按正确顺序连接符文的解谜",
+          "descriptionEn": "Puzzle requiring correct rune link sequence",
+          "relatedMaterials": []
+        },
+        {
+          "id": "puzzle-3",
+          "name": "能量管道解谜·南区",
+          "nameEn": "Energy Pipe Puzzle — South District",
+          "type": "puzzle",
+          "x": 62.0,
+          "y": 75.0,
+          "description": "重新排列能量管道方向的解谜",
+          "descriptionEn": "Puzzle requiring rearrangement of energy pipe directions",
+          "relatedMaterials": []
+        },
+        {
+          "id": "npc-eibon",
+          "name": "伊本古董店",
+          "nameEn": "Eibon Antique Shop",
+          "type": "npc",
+          "x": 52.0,
+          "y": 48.0,
+          "description": "主角所属的古董店，可接取主线任务",
+          "descriptionEn": "The antique shop where the protagonist works, main quest hub",
+          "relatedMaterials": []
+        },
+        {
+          "id": "npc-bureau",
+          "name": "异常控制局",
+          "nameEn": "Anomaly Control Bureau",
+          "type": "npc",
+          "x": 38.0,
+          "y": 32.0,
+          "description": "异常控制局总部，可接取收容任务",
+          "descriptionEn": "Anomaly Control Bureau HQ, containment mission hub",
+          "relatedMaterials": []
+        },
+        {
+          "id": "npc-sterry",
+          "name": "斯特里快递站",
+          "nameEn": "Sterry Express Station",
+          "type": "npc",
+          "x": 68.0,
+          "y": 55.0,
+          "description": "快递站NPC，可接取支线任务",
+          "descriptionEn": "Delivery station NPC, side quest hub",
+          "relatedMaterials": []
+        },
+        {
+          "id": "viewpoint-1",
+          "name": "城市天际线观景点",
+          "nameEn": "City Skyline Viewpoint",
+          "type": "viewpoint",
+          "x": 85.0,
+          "y": 12.0,
+          "description": "新艾利都最高点，可俯瞰全城天际线",
+          "descriptionEn": "Highest point in New Elydon, overlooks the entire city skyline",
+          "relatedMaterials": []
+        },
+        {
+          "id": "viewpoint-2",
+          "name": "河畔夜景观景点",
+          "nameEn": "Riverside Night View Viewpoint",
+          "type": "viewpoint",
+          "x": 12.0,
+          "y": 65.0,
+          "description": "河畔最佳夜景拍摄点",
+          "descriptionEn": "Best riverside spot for night photography",
+          "relatedMaterials": []
+        },
+        {
+          "id": "viewpoint-3",
+          "name": "异象裂缝观景点",
+          "nameEn": "Anomaly Rift Viewpoint",
+          "type": "viewpoint",
+          "x": 58.0,
+          "y": 22.0,
+          "description": "可近距离观察异象裂缝的观景点",
+          "descriptionEn": "Viewpoint to observe anomaly rifts up close",
+          "relatedMaterials": []
+        }
+      ]
+    },
+    {
+      "id": "hethereau-commercial",
+      "name": "海瑟劳·商业区",
+      "nameEn": "Hethereau Commercial District",
+      "image": "/images/maps/hethereau-commercial.png",
+      "description": "海瑟劳繁华的商业区，商店、餐厅和娱乐场所林立。",
+      "descriptionEn": "The bustling commercial district of Hethereau, lined with shops, restaurants, and entertainment.",
+      "markers": [
+        {
+          "id": "shop-weapon",
+          "name": "武器改装店",
+          "nameEn": "Weapon Mod Shop",
+          "type": "npc",
+          "x": 45.0,
+          "y": 40.0,
+          "description": "武器强化和改装商店",
+          "descriptionEn": "Weapon enhancement and modification shop",
+          "relatedMaterials": []
+        },
+        {
+          "id": "shop-grocery",
+          "name": "杂货店",
+          "nameEn": "General Store",
+          "type": "npc",
+          "x": 55.0,
+          "y": 45.0,
+          "description": "出售各类基础材料",
+          "descriptionEn": "Sells various basic materials",
+          "relatedMaterials": []
+        },
+        {
+          "id": "chest-commercial-1",
+          "name": "普通宝箱·商场后巷",
+          "nameEn": "Common Chest — Mall Back Alley",
+          "type": "chest",
+          "x": 60.0,
+          "y": 35.0,
+          "description": "商场后方小巷中的宝箱",
+          "descriptionEn": "Chest in the back alley behind the mall",
+          "relatedMaterials": []
+        },
+        {
+          "id": "waypoint-commercial",
+          "name": "商业区传送点",
+          "nameEn": "Commercial District Waypoint",
+          "type": "waypoint",
+          "x": 50.0,
+          "y": 50.0,
+          "description": "海瑟劳商业区中心传送点",
+          "descriptionEn": "Central waypoint of Hethereau Commercial District",
+          "relatedMaterials": []
+        },
+        {
+          "id": "viewpoint-commercial",
+          "name": "商业街夜景",
+          "nameEn": "Commercial Street Night View",
+          "type": "viewpoint",
+          "x": 30.0,
+          "y": 30.0,
+          "description": "霓虹灯闪烁的商业街最佳拍摄点",
+          "descriptionEn": "Best photo spot for neon-lit commercial street",
+          "relatedMaterials": []
         }
       ]
     }
