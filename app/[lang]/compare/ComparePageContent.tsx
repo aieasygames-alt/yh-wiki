@@ -218,6 +218,41 @@ function getCompareTable(slug: string, locale: Locale) {
     };
   }
 
+  if (slug === "nte-vs-zzz") {
+    if (isZhLocale(locale)) {
+      return {
+        headers: ["维度", "异环 (NTE)", "绝区零 (ZZZ)"],
+        items: [
+          { name: "开发商", values: ["Hotta Studio (完美世界)", "miHoYo (米哈游)"] },
+          { name: "游戏类型", values: ["开放世界动作RPG", "都市动作RPG"] },
+          { name: "世界观", values: ["超自然都市开放世界", "空洞危机都市"] },
+          { name: "战斗风格", values: ["异能连招 + 弹反", "动作连携 + 属性异常"] },
+          { name: "探索模式", values: ["无缝开放世界", "关卡制（TV频道+战斗）"] },
+          { name: "50/50机制", values: ["无（必出UP）", "有（50%歪常驻）"] },
+          { name: "保底抽数", values: ["90抽", "90抽"] },
+          { name: "画面风格", values: ["写实渲染 (UE5)", "风格化赛璐璐"] },
+          { name: "平台", values: ["PC / 手机 / PS5", "PC / 手机 / PS5"] },
+          { name: "特色系统", values: ["载具驾驶、买房装修", "TV探索、连携技"] },
+        ],
+      };
+    }
+    return {
+      headers: ["Feature", "NTE", "Zenless Zone Zero"],
+      items: [
+        { name: "Developer", values: ["Hotta Studio (Perfect World)", "miHoYo (HoYoverse)"] },
+        { name: "Genre", values: ["Open World Action RPG", "Urban Action RPG"] },
+        { name: "Setting", values: ["Supernatural Urban Open World", "Hollow Crisis City"] },
+        { name: "Combat", values: ["Esper Combos + Parry", "Chain Attacks + Anomaly"] },
+        { name: "Exploration", values: ["Seamless Open World", "Instance-based (TV + Combat)"] },
+        { name: "50/50 System", values: ["None (Guaranteed Featured)", "Yes (50% Standard)"] },
+        { name: "Pity Count", values: ["90 pulls", "90 pulls"] },
+        { name: "Art Style", values: ["Realistic (UE5)", "Stylized Cel-shaded"] },
+        { name: "Platforms", values: ["PC / Mobile / PS5", "PC / Mobile / PS5"] },
+        { name: "Unique Features", values: ["Driving, Housing", "TV Exploration, Chain Attacks"] },
+      ],
+    };
+  }
+
   return null;
 }
 
@@ -269,6 +304,26 @@ function getCompareFaqs(slug: string) {
         questionZh: "异环是免费游戏吗？",
         answer: "Yes, Neverness to Everness is completely free to download and play. It uses an optional in-game purchase model for character acquisition through the gacha system.",
         answerZh: "是的，异环完全免费下载和游玩。游戏使用可选的内购模式，通过抽卡系统获取角色。"
+      },
+    ],
+    "nte-vs-zzz": [
+      {
+        question: "Is NTE better than Zenless Zone Zero?",
+        questionZh: "异环比绝区零更好吗？",
+        answer: "They are different experiences. NTE is a true open-world game with driving, housing, and urban exploration. ZZZ focuses on instanced combat and TV-style exploration. If you want an open world, choose NTE. If you prefer polished instanced combat, ZZZ may appeal more.",
+        answerZh: "两者体验不同。异环是真正的开放世界，有驾驶、买房和城市探索。绝区零专注于关卡制战斗和TV式探索。如果你想要开放世界，选异环。如果你更喜欢精良的关卡制战斗，绝区零更合适。"
+      },
+      {
+        question: "Which is more F2P friendly: NTE or ZZZ?",
+        questionZh: "异环和绝区零哪个对零氪更友好？",
+        answer: "NTE is significantly more F2P-friendly. NTE has no 50/50 mechanic on the limited banner (guaranteed featured character), gives ~418 free pulls at launch, offers beginner banner selector, and provides a free S-rank from City Tycoon. ZZZ has a traditional 50/50 system requiring up to 180 pulls for guarantee.",
+        answerZh: "异环对零氪友好得多。异环限定池无50/50（必出UP角色），开服送约418抽，新手池可自选，城市经营送免费S级角色。绝区零有传统50/50机制，大保底需180抽。"
+      },
+      {
+        question: "Can I play both NTE and ZZZ?",
+        questionZh: "可以同时玩异环和绝区零吗？",
+        answer: "Yes, both are free-to-play. They offer different enough experiences that many players enjoy both. NTE for open-world urban exploration and ZZZ for stylized combat sessions.",
+        answerZh: "可以，两款都是免费的。它们体验差异足够大，很多玩家同时享受两款。异环玩开放世界城市探索，绝区零玩风格化战斗。"
       },
     ],
   };

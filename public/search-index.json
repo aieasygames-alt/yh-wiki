@@ -4874,6 +4874,256 @@
     ]
   },
   {
+    "id": "nte-vs-zzz-which",
+    "name": "异环和绝区零哪个好玩？",
+    "nameEn": "Which is better: NTE or ZZZ?",
+    "type": "faq",
+    "url": "/zh/faq/nte-vs-zzz-which",
+    "tags": [
+      "beginner",
+      "comparison",
+      "meta"
+    ]
+  },
+  {
+    "id": "nte-vs-zzz-which",
+    "name": "Which is better: NTE or ZZZ?",
+    "nameEn": "Which is better: NTE or ZZZ?",
+    "type": "faq",
+    "url": "/en/faq/nte-vs-zzz-which",
+    "tags": [
+      "beginner",
+      "comparison",
+      "meta"
+    ]
+  },
+  {
+    "id": "how-awakening-works",
+    "name": "异环觉醒系统怎么玩？",
+    "nameEn": "How does NTE's awakening system work?",
+    "type": "faq",
+    "url": "/zh/faq/how-awakening-works",
+    "tags": [
+      "combat",
+      "awakening",
+      "progression"
+    ]
+  },
+  {
+    "id": "how-awakening-works",
+    "name": "How does NTE's awakening system work?",
+    "nameEn": "How does NTE's awakening system work?",
+    "type": "faq",
+    "url": "/en/faq/how-awakening-works",
+    "tags": [
+      "combat",
+      "awakening",
+      "progression"
+    ]
+  },
+  {
+    "id": "best-team-beginner",
+    "name": "异环新手配队推荐？",
+    "nameEn": "Best beginner team in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/best-team-beginner",
+    "tags": [
+      "beginner",
+      "team-building",
+      "f2p"
+    ]
+  },
+  {
+    "id": "best-team-beginner",
+    "name": "Best beginner team in NTE?",
+    "nameEn": "Best beginner team in NTE?",
+    "type": "faq",
+    "url": "/en/faq/best-team-beginner",
+    "tags": [
+      "beginner",
+      "team-building",
+      "f2p"
+    ]
+  },
+  {
+    "id": "how-to-buy-house",
+    "name": "异环怎么买房？",
+    "nameEn": "How to buy a house in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/how-to-buy-house",
+    "tags": [
+      "housing",
+      "system",
+      "guide"
+    ]
+  },
+  {
+    "id": "how-to-buy-house",
+    "name": "How to buy a house in NTE?",
+    "nameEn": "How to buy a house in NTE?",
+    "type": "faq",
+    "url": "/en/faq/how-to-buy-house",
+    "tags": [
+      "housing",
+      "system",
+      "guide"
+    ]
+  },
+  {
+    "id": "how-to-join-collab-event",
+    "name": "异环P5R联动怎么参加？",
+    "nameEn": "How to join NTE P5R collaboration?",
+    "type": "faq",
+    "url": "/zh/faq/how-to-join-collab-event",
+    "tags": [
+      "event",
+      "collaboration",
+      "p5r"
+    ]
+  },
+  {
+    "id": "how-to-join-collab-event",
+    "name": "How to join NTE P5R collaboration?",
+    "nameEn": "How to join NTE P5R collaboration?",
+    "type": "faq",
+    "url": "/en/faq/how-to-join-collab-event",
+    "tags": [
+      "event",
+      "collaboration",
+      "p5r"
+    ]
+  },
+  {
+    "id": "global-server-download",
+    "name": "异环国际服怎么下载？",
+    "nameEn": "How to download NTE global server?",
+    "type": "faq",
+    "url": "/zh/faq/global-server-download",
+    "tags": [
+      "download",
+      "global",
+      "platform",
+      "launch"
+    ]
+  },
+  {
+    "id": "global-server-download",
+    "name": "How to download NTE global server?",
+    "nameEn": "How to download NTE global server?",
+    "type": "faq",
+    "url": "/en/faq/global-server-download",
+    "tags": [
+      "download",
+      "global",
+      "platform",
+      "launch"
+    ]
+  },
+  {
+    "id": "free-s-rank-characters",
+    "name": "异环免费S级角色有哪些？",
+    "nameEn": "Which S-rank characters are free in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/free-s-rank-characters",
+    "tags": [
+      "characters",
+      "free",
+      "f2p",
+      "beginner"
+    ]
+  },
+  {
+    "id": "free-s-rank-characters",
+    "name": "Which S-rank characters are free in NTE?",
+    "nameEn": "Which S-rank characters are free in NTE?",
+    "type": "faq",
+    "url": "/en/faq/free-s-rank-characters",
+    "tags": [
+      "characters",
+      "free",
+      "f2p",
+      "beginner"
+    ]
+  },
+  {
+    "id": "driving-vehicle-guide",
+    "name": "异环怎么开车？",
+    "nameEn": "How to drive in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/driving-vehicle-guide",
+    "tags": [
+      "vehicle",
+      "exploration",
+      "system",
+      "guide"
+    ]
+  },
+  {
+    "id": "driving-vehicle-guide",
+    "name": "How to drive in NTE?",
+    "nameEn": "How to drive in NTE?",
+    "type": "faq",
+    "url": "/en/faq/driving-vehicle-guide",
+    "tags": [
+      "vehicle",
+      "exploration",
+      "system",
+      "guide"
+    ]
+  },
+  {
+    "id": "photo-mode-guide",
+    "name": "异环拍照模式怎么用？",
+    "nameEn": "How to use photo mode in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/photo-mode-guide",
+    "tags": [
+      "photo-mode",
+      "system",
+      "guide",
+      "social"
+    ]
+  },
+  {
+    "id": "photo-mode-guide",
+    "name": "How to use photo mode in NTE?",
+    "nameEn": "How to use photo mode in NTE?",
+    "type": "faq",
+    "url": "/en/faq/photo-mode-guide",
+    "tags": [
+      "photo-mode",
+      "system",
+      "guide",
+      "social"
+    ]
+  },
+  {
+    "id": "launch-free-pulls-total",
+    "name": "异环公测能白嫖多少抽？",
+    "nameEn": "How many free pulls at NTE launch?",
+    "type": "faq",
+    "url": "/zh/faq/launch-free-pulls-total",
+    "tags": [
+      "gacha",
+      "free-pulls",
+      "launch",
+      "f2p"
+    ]
+  },
+  {
+    "id": "launch-free-pulls-total",
+    "name": "How many free pulls at NTE launch?",
+    "nameEn": "How many free pulls at NTE launch?",
+    "type": "faq",
+    "url": "/en/faq/launch-free-pulls-total",
+    "tags": [
+      "gacha",
+      "free-pulls",
+      "launch",
+      "f2p"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "NTE Download & Install Guide — All Platforms",

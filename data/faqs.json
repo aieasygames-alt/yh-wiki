@@ -1956,5 +1956,191 @@
     "relatedMaterials": [
       "disk-set"
     ]
+  },
+  {
+    "id": "nte-vs-zzz-which",
+    "question": "异环和绝区零哪个好玩？",
+    "questionEn": "Which is better: NTE or ZZZ?",
+    "answer": "异环和绝区零各有特色，适合不同玩家。异环是开放世界动作RPG，拥有无缝大地图探索、买房系统、开车等玩法，沉浸感更强；绝区零是箱庭副本制，节奏更快更聚焦战斗。异环抽卡没有50/50机制，获得限定角色更稳定；绝区零有50/50则需要一定运气。喜欢自由探索和开放世界选异环，喜欢快节奏动作和影视化叙事选绝区零。",
+    "answerEn": "NTE and ZZZ suit different players. NTE is an open-world action RPG with seamless exploration, housing, and driving for greater immersion, while ZZZ uses instanced zones with faster, combat-focused pacing. NTE has no 50/50 gacha system, making limited characters more reliable to obtain, whereas ZZZ uses a 50/50 mechanic. Choose NTE for open-world freedom and exploration, or ZZZ for fast-paced action and cinematic storytelling.",
+    "tags": [
+      "beginner",
+      "comparison",
+      "meta"
+    ],
+    "category": "meta",
+    "categoryZh": "站点数据",
+    "categoryEn": "Meta",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-awakening-works",
+    "question": "异环觉醒系统怎么玩？",
+    "questionEn": "How does NTE's awakening system work?",
+    "answer": "异环的觉醒系统是对角色的进一步强化机制，每个角色有6个觉醒等级。觉醒需要消耗对应角色的信物碎片和专用觉醒材料。在觉醒3级和6级时会解锁核心共鸣效果，大幅提升角色能力。觉醒材料主要来源于高难副本、周常挑战和活动兑换。建议优先觉醒主C角色，收益最为明显。",
+    "answerEn": "NTE's awakening system provides further character enhancement with 6 awakening levels per character. Awakening requires character-specific sigil fragments and dedicated awakening materials. At awakening levels 3 and 6, you unlock core resonance effects that significantly boost character power. Awakening materials come mainly from high-difficulty domains, weekly challenges, and event exchanges. Prioritize awakening your main DPS for the most noticeable improvement.",
+    "tags": [
+      "combat",
+      "awakening",
+      "progression"
+    ],
+    "category": "combat",
+    "categoryZh": "战斗机制",
+    "categoryEn": "Combat",
+    "relatedCharacters": [],
+    "relatedMaterials": [
+      "awakening-material",
+      "sigil-fragment"
+    ]
+  },
+  {
+    "id": "best-team-beginner",
+    "question": "异环新手配队推荐？",
+    "questionEn": "Best beginner team in NTE?",
+    "answer": "新手推荐使用免费获得的S级角色组成过渡阵容。前排推荐娜娜莉（生命/格斗）作为主C，搭配咲里或薄荷（咒术/支援）提供增益。后排选择一个副C和一个治疗或护盾角色。开局送的A级角色也完全可以通关前期所有内容。重点是保证阵容中有主属性覆盖齐全的角色，避免遇到属性克制的敌人时无法应对。",
+    "answerEn": "For beginners, build a team using free S-rank characters as a starting lineup. Use Nanally (Anima/Fangs and Claws) as main DPS in the front, paired with Sakiri or Mint (Incantation/Support) for buffs. Place a sub-DPS and a healer or shield character in the back row. The free A-rank characters can clear all early-game content. Focus on covering multiple attributes in your team so you can handle enemies with various elemental weaknesses.",
+    "tags": [
+      "beginner",
+      "team-building",
+      "f2p"
+    ],
+    "category": "team-building",
+    "categoryZh": "阵容搭配",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "nanally",
+      "sakiri",
+      "mint"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-to-buy-house",
+    "question": "异环怎么买房？",
+    "questionEn": "How to buy a house in NTE?",
+    "answer": "异环的买房系统需要先完成主线剧情推进到一定章节后解锁。解锁后前往指定区域的房产中介NPC处可以选择购买的房型。不同位置的房产价格不同，部分稀有地段需要特殊货币购买。买房后可以自定义装修，放置家具和装饰品，同时部分房产会提供属性加成或资源产出等实用收益。",
+    "answerEn": "NTE's housing system unlocks after progressing the main story to a certain chapter. Once unlocked, visit the real estate NPC in designated areas to browse and purchase houses. Prices vary by location, and some premium spots require special currency. After purchasing, you can customize the interior with furniture and decorations. Certain properties also provide stat bonuses or passive resource generation as practical benefits.",
+    "tags": [
+      "housing",
+      "system",
+      "guide"
+    ],
+    "category": "system",
+    "categoryZh": "游戏系统",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-to-join-collab-event",
+    "question": "异环P5R联动怎么参加？",
+    "questionEn": "How to join NTE P5R collaboration?",
+    "answer": "异环与女神异闻录5皇家版（P5R）的联动是以音乐合作为主的活动。玩家需要在游戏内完成特定联动任务即可参与，活动期间登录即可获得联动限定奖励。联动内容包括限定音乐曲目和主题装饰道具等。建议关注游戏内公告获取最新的活动参与条件和时间安排，确保不会错过限时奖励。",
+    "answerEn": "The NTE x Persona 5 Royal collaboration is primarily a music-focused crossover event. Players can participate by completing specific collaboration quests in-game, and simply logging in during the event period grants limited-time rewards. The collab content includes exclusive music tracks and themed decorative items. Check in-game announcements for the latest participation requirements and schedule to ensure you don't miss the limited-time rewards.",
+    "tags": [
+      "event",
+      "collaboration",
+      "p5r"
+    ],
+    "category": "events",
+    "categoryZh": "活动",
+    "categoryEn": "Events",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "global-server-download",
+    "question": "异环国际服怎么下载？",
+    "questionEn": "How to download NTE global server?",
+    "answer": "异环国际服于2026年4月29日正式上线。PC端可通过官网下载客户端或通过Steam商店搜索异环下载。iOS用户在App Store搜索异环即可下载，Android用户可通过Google Play或官网下载APK安装包。下载前请确认设备满足最低配置要求，建议预留足够的存储空间以保证流畅运行。",
+    "answerEn": "The NTE global server officially launches on April 29, 2026. PC players can download the client from the official website or find NTE on Steam. iOS users can search for NTE on the App Store, while Android users can download via Google Play or the official APK from the website. Make sure your device meets the minimum system requirements and has sufficient storage space for a smooth experience.",
+    "tags": [
+      "download",
+      "global",
+      "platform",
+      "launch"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "free-s-rank-characters",
+    "question": "异环免费S级角色有哪些？",
+    "questionEn": "Which S-rank characters are free in NTE?",
+    "answer": "异环中可以通过免费途径获得多个S级角色。首先是通过城市经营玩法可以获得小智（S级）。新手阶段会提供S级角色自选券，可从薄荷和咲里中选择一个。此外在标准池累计抽取50次后还可以获得一张S级自选券。这些免费S级角色培养价值很高，建议根据自己阵容需求合理选择。",
+    "answerEn": "You can obtain several S-rank characters for free in NTE. Xiaozhi (S-rank) is available through the City Tycoon gameplay mode. During the beginner phase, you receive an S-rank selector ticket to choose between Mint and Sakiri. Additionally, after accumulating 50 pulls on the standard banner, you earn another S-rank selector ticket. These free S-rank characters are well worth investing in, so choose based on your team composition needs.",
+    "tags": [
+      "characters",
+      "free",
+      "f2p",
+      "beginner"
+    ],
+    "category": "characters",
+    "categoryZh": "角色相关",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "xiaozhi",
+      "mint",
+      "sakiri"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "driving-vehicle-guide",
+    "question": "异环怎么开车？",
+    "questionEn": "How to drive in NTE?",
+    "answer": "异环中的载具系统在完成主线一定进度后自动解锁。解锁后可以在开放世界中召唤载具，使用方向键控制移动，支持加速和漂移操作。游戏内有多种载具类型，包括轿车、摩托车等，部分可以通过活动或商店获取。载具能大幅提升大地图探索效率，是快速移动和赶路的重要工具。",
+    "answerEn": "NTE's vehicle system unlocks automatically after reaching a certain point in the main story. Once unlocked, you can summon vehicles in the open world and control them with directional inputs, including acceleration and drifting. The game features multiple vehicle types including cars and motorcycles, with some available through events or shops. Vehicles significantly improve open-world exploration efficiency and are essential for quick travel across the map.",
+    "tags": [
+      "vehicle",
+      "exploration",
+      "system",
+      "guide"
+    ],
+    "category": "system",
+    "categoryZh": "游戏系统",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "photo-mode-guide",
+    "question": "异环拍照模式怎么用？",
+    "questionEn": "How to use photo mode in NTE?",
+    "answer": "异环的拍照模式可以在游戏内通过快捷键或菜单进入。进入拍照模式后可以自由调整相机角度、焦距和构图。系统提供多种滤镜和特效供选择，还可以调整角色表情和动作姿势。拍摄的照片可以保存到本地相册，也可以直接分享到社交平台。拍照模式不会暂停部分在线功能，使用时请注意周围环境安全。",
+    "answerEn": "NTE's photo mode can be accessed via a hotkey or the in-game menu. Once active, you can freely adjust the camera angle, focal length, and composition. The system offers various filters and effects, and you can change character expressions and pose animations. Photos can be saved locally or shared directly to social media platforms. Note that photo mode does not pause all online functions, so be mindful of your surroundings while using it.",
+    "tags": [
+      "photo-mode",
+      "system",
+      "guide",
+      "social"
+    ],
+    "category": "system",
+    "categoryZh": "游戏系统",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "launch-free-pulls-total",
+    "question": "异环公测能白嫖多少抽？",
+    "questionEn": "How many free pulls at NTE launch?",
+    "answer": "异环公测期间玩家总共可以获得约418次免费抽卡机会。这些抽卡资源来源包括：新手福利和七日签到约80抽、主线和支线任务通关奖励约100抽、探索进度和成就奖励约60抽、预约里程碑和公测活动约100抽、以及各类兑换码和补偿约78抽。数量会随版本活动和运营策略有所浮动，建议关注官方公告获取最新信息。",
+    "answerEn": "Players can earn approximately 418 free pulls during the NTE global launch period. These gacha resources come from multiple sources: beginner福利 and 7-day login bonuses (~80 pulls), main story and side quest completion rewards (~100 pulls), exploration progress and achievement rewards (~60 pulls), pre-registration milestones and launch events (~100 pulls), plus redemption codes and compensations (~78 pulls). The exact number may vary with version updates and events, so check official announcements for the latest information.",
+    "tags": [
+      "gacha",
+      "free-pulls",
+      "launch",
+      "f2p"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
