@@ -43,6 +43,7 @@ export function Footer() {
         { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
         { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },
+        { href: `/${lang}/contact`, label: isZhLocale(lang) ? (lang === "tw" ? "聯絡我們" : "联系我们") : "Contact Us" },
       ],
     },
   ];

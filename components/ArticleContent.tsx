@@ -90,6 +90,49 @@ export function ArticleContent({ content }: ArticleContentProps) {
                 </div>
               </div>
             );
+          case "table":
+            return (
+              <div key={i} className="my-5 overflow-x-auto rounded-lg border border-gray-800">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-gray-700 bg-gray-800/50">
+                      {block.headers.map((h, hi) => (
+                        <th key={hi} className="px-4 py-2.5 text-left text-gray-300 font-semibold whitespace-nowrap">
+                          {renderInlineFormatting(h)}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {block.rows.map((row, ri) => (
+                      <tr key={ri} className={ri % 2 === 0 ? "bg-gray-900/20" : "bg-gray-900/40"}>
+                        {row.map((cell, ci) => (
+                          <td key={ci} className="px-4 py-2.5 text-gray-400">
+                            {renderInlineFormatting(cell)}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          case "info-card":
+            return (
+              <div key={i} className="my-5 rounded-xl border border-primary-500/20 bg-primary-500/5 p-5">
+                {block.title && (
+                  <h4 className="text-sm font-bold text-primary-300 mb-3">{block.title}</h4>
+                )}
+                <ul className="space-y-1.5">
+                  {block.items.map((item, ji) => (
+                    <li key={ji} className="flex items-start gap-2 text-sm text-gray-300 leading-relaxed">
+                      <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-primary-400 mt-2" />
+                      <span className="flex-1">{renderInlineFormatting(item)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
           case "empty":
             return <div key={i} className="h-2" />;
           case "paragraph":
@@ -132,6 +175,8 @@ type Block =
   | { type: "ul"; items: string[] }
   | { type: "tip"; text: string }
   | { type: "warning"; text: string }
+  | { type: "table"; headers: string[]; rows: string[][] }
+  | { type: "info-card"; title: string; items: string[] }
   | { type: "empty" };
 
 function parseContent(content: string): Block[] {
@@ -210,6 +255,43 @@ function parseContent(content: string): Block[] {
         .replace(/^>\s*(warning|警告|注意|危险)[：:]\s*/i, "");
       blocks.push({ type: "warning", text: warnText });
       i++;
+      continue;
+    }
+
+    // Table (| header | header |)
+    if (/^\|/.test(trimmed)) {
+      const tableLines: string[] = [];
+      while (i < lines.length && /^\|/.test(lines[i].trim())) {
+        tableLines.push(lines[i].trim());
+        i++;
+      }
+      // Filter out separator lines (|---|---|)
+      const dataLines = tableLines.filter((l) => !/^\|[\s\-:|]+\|$/.test(l));
+      if (dataLines.length >= 2) {
+        const parseCells = (line: string) =>
+          line.split("|").slice(1, -1).map((c) => c.trim());
+        const headers = parseCells(dataLines[0]);
+        const rows = dataLines.slice(1).map(parseCells);
+        blocks.push({ type: "table", headers, rows });
+      }
+      continue;
+    }
+
+    // Info card (lines starting with 📋 or > info:)
+    if (
+      trimmed.startsWith("📋") ||
+      /^>\s*(info|信息|卡片|card)[：:]/i.test(trimmed)
+    ) {
+      const title = trimmed
+        .replace(/^📋\s*/, "")
+        .replace(/^>\s*(info|信息|卡片|card)[：:]\s*/i, "");
+      const items: string[] = [];
+      i++;
+      while (i < lines.length && /^[-•]\s/.test(lines[i].trim())) {
+        items.push(lines[i].trim().slice(2));
+        i++;
+      }
+      blocks.push({ type: "info-card", title, items });
       continue;
     }
 
