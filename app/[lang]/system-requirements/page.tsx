@@ -19,14 +19,22 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const { lang } = await params;
   const locale = lang as Locale;
 
+  const title = isZhLocale(locale)
+    ? "异环配置要求 — PC/Android/iOS 最低与推荐配置、下载大小（2026）"
+    : "NTE System Requirements: PC, Mobile & Console Specs (2026)";
+  const description = isZhLocale(locale)
+    ? "异环(Neverness to Everness)完整配置要求：PC、Android、iOS 最低和推荐配置，下载大小约40GB(PC)/15GB(手机)，存储空间要求一览。"
+    : "Can your device run Neverness to Everness (NTE)? Full PC, Android, iOS minimum & recommended specs, download size (~40GB PC / ~15GB mobile), and storage requirements.";
+
   return {
-    title: isZhLocale(locale)
-      ? "异环游戏配置要求 — PC/Android/iOS/PS5 最低与推荐配置"
-      : "NTE System Requirements — PC, Android & iOS Specs",
-    description: isZhLocale(locale)
-      ? "异环(Neverness to Everness)完整配置要求：PC、Android、iOS 最低和推荐配置，存储空间大小，支持平台一览。"
-      : "Complete Neverness to Everness system requirements for PC, Android, and iOS. Check minimum and recommended specs, storage size, and supported platforms.",
+    title,
+    description,
     alternates: hreflangAlternates("system-requirements", lang),
+    openGraph: {
+      title,
+      description,
+      type: "website",
+    },
   };
 }
 
@@ -113,12 +121,12 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       />
 
       <h1 className="text-3xl font-bold mt-4 mb-2">
-        {isZhLocale(locale) ? "异环配置要求" : "NTE System Requirements"}
+        {isZhLocale(locale) ? "异环配置要求 — 你的设备能运行吗？" : "NTE System Requirements — Can Your Device Run It?"}
       </h1>
       <p className="text-sm text-gray-500 mb-8">
         {isZhLocale(locale)
-          ? "异环(Neverness to Everness)全平台配置要求一览，包含 PC、Android、iOS 最低与推荐配置。"
-          : "Complete system requirements for Neverness to Everness on PC, Android, and iOS — minimum and recommended specs."}
+          ? "异环(Neverness to Everness)全平台配置要求一览，包含 PC、Android、iOS 最低与推荐配置，下载大小和存储空间需求。"
+          : "Complete system requirements for Neverness to Everness on PC, Android, and iOS — minimum and recommended specs, download size, and storage."}
       </p>
 
       {/* PC Requirements */}

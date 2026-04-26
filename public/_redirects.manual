@@ -4,15 +4,36 @@
 # Language roots - ensure trailing slash
 /zh /zh/ 301
 /en /en/ 301
+/tw /tw/ 301
 
-# FAQ -> dedicated pages
+# FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
 /en/faq/system-requirements/ /en/system-requirements/ 301
 /zh/faq/system-requirements /zh/system-requirements/ 301
 /zh/faq/system-requirements/ /zh/system-requirements/ 301
+/tw/faq/system-requirements /tw/system-requirements/ 301
+/tw/faq/system-requirements/ /tw/system-requirements/ 301
+
+# FAQ -> dedicated pages (download-installation -> download-install-guide)
+/en/faq/download-installation /en/guides/download-install-guide/ 301
+/en/faq/download-installation/ /en/guides/download-install-guide/ 301
+/zh/faq/download-installation /zh/guides/download-install-guide/ 301
+/zh/faq/download-installation/ /zh/guides/download-install-guide/ 301
+/tw/faq/download-installation /tw/guides/download-install-guide/ 301
+/tw/faq/download-installation/ /tw/guides/download-install-guide/ 301
+
+# FAQ index pages -> homepage (low CTR, better to direct to home)
+/zh/faq /zh/ 301
+/zh/faq/ /zh/ 301
+/en/faq /en/ 301
+/en/faq/ /en/ 301
+/tw/faq /tw/ 301
+/tw/faq/ /tw/ 301
 
 # Character renamed/merged
 /en/characters/the-appraiser /en/characters/zero/ 301
 /en/characters/the-appraiser/ /en/characters/zero/ 301
 /zh/characters/the-appraiser /zh/characters/zero/ 301
 /zh/characters/the-appraiser/ /zh/characters/zero/ 301
+/tw/characters/the-appraiser /tw/characters/zero/ 301
+/tw/characters/the-appraiser/ /tw/characters/zero/ 301

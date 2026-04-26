@@ -44,14 +44,16 @@ export async function generateMetadata({
   const character = getCharacter(slug);
   if (!character) return {};
   const name = charName(character, lang);
-  const title =
-    isZhLocale(lang)
-      ? `${charName(character, lang)} - ${isZhLocale(lang) && lang === "tw" ? "異環遊戲角色攻略：配裝/技能/配隊" : "异环游戏角色攻略：配装/技能/配队"} | NTE Guide`
-      : `${character.nameEn} - NTE Character Guide: Build, Skills & Team | NTE Guide`;
-  const description =
-    isZhLocale(lang)
-      ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${charName(character, lang)} ${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
-      : `Complete ${character.nameEn} guide for Neverness to Everness. Best build, skills analysis, team compositions, and leveling materials.`;
+  const isZh = isZhLocale(lang);
+
+  // Build title with tier rank and role for better CTR
+  const tierStr = character.tierRank ? ` [${character.tierRank} Tier]` : "";
+  const title = isZh
+    ? `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${lang === "tw" ? "異環角色攻略：配裝/技能/配隊" : "异环角色攻略：配装/技能/配队"} | NTE Guide`
+    : `${character.nameEn}${tierStr} - NTE Character Guide: Build, Skills & Team`;
+  const description = isZh
+    ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
+    : `Complete ${character.nameEn} guide for Neverness to Everness${character.tierRank ? `. ${character.tierRank} Tier ${character.roleEn} character` : ""}. Best build, skills analysis, team compositions, and leveling materials.`;
   return {
     title,
     description,

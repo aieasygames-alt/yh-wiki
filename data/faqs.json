@@ -780,6 +780,10 @@
     "id": "global-server-launch",
     "question": "异环国际服什么时候上线？和国服有什么不同？",
     "questionEn": "When does NTE global server launch? How is it different from CN?",
+    "seoTitleZh": "异环国际服什么时候上线？全球服务器开放时间详解（2026）",
+    "seoTitleEn": "NTE Global Server Launch Date & How It Differs from CN (2026)",
+    "seoDescriptionZh": "异环国际服4月29日正式上线！详解国服与国际服区别、开服时间、预下载安排、兑换码差异及服务器选择建议。",
+    "seoDescriptionEn": "NTE global server launches April 29. Complete comparison of CN vs Global servers: launch schedule, pre-download, redeem codes, language support, and pricing differences.",
     "answer": "异环国服4月23日正式上线，国际服4月29日正式上线（前瞻直播确认）。预下载4月21日开放。两个版本的主要区别：1) 进度：国服比国际服早6天开服；2) 兑换码不同：直播共发放6组兑换码，国服3组（YH开头）和国际服3组（NTE开头），各自仅能在对应服务器使用；3) 语言：国服简体中文，国际服英文/日文等多语言；4) 定价可能因地区而异。游戏内容和角色数据在两个服务器之间是一致的，开服共有16位S级角色。",
     "answerEn": "NTE CN server launches April 23, Global server launches April 29 (confirmed by livestream). Pre-download starts April 21. Key differences: 1) Schedule: CN server is 6 days ahead; 2) Different redeem codes: 6 livestream codes total — 3 for CN (YH-prefix) and 3 for Global (NTE-prefix), each only usable on its respective server; 3) Languages: CN is Simplified Chinese, Global supports English, Japanese, and more; 4) Pricing may vary by region. Game content and character data are identical across servers, with 16 S-rank characters available at launch.",
     "tags": [
@@ -847,6 +851,10 @@
     "id": "download-size",
     "question": "异环下载多大？需要多少存储空间？",
     "questionEn": "How large is the NTE download? How much storage space is needed?",
+    "seoTitleZh": "异环下载大小：PC/手机版多少GB？安装包大小汇总",
+    "seoTitleEn": "NTE Download Size: How Many GB for PC & Mobile? (2026)",
+    "seoDescriptionZh": "异环(NTE)各平台下载大小汇总：PC版约40GB，手机版约15GB。包含存储空间需求、下载安装指南和预下载时间。",
+    "seoDescriptionEn": "NTE download size: ~40GB for PC, ~15GB for mobile. Complete guide to storage requirements, download links, and pre-download schedule for all platforms.",
     "answer": "根据前瞻直播确认，异环预下载将于4月21日开放。预计PC版下载大小约30-40GB（含高清资源包），手机版（Android/iOS）约15-20GB。建议PC玩家预留至少60GB存储空间（含后续更新），手机玩家预留30GB以上。预下载完成后，国服4月23日、国际服4月29日开服时只需下载小量更新包即可进入游戏。建议提前预下载避免开服当天下载拥堵。",
     "answerEn": "Pre-download starts April 21 (confirmed by livestream). Expected download size is approximately 30-40GB for PC (including HD assets) and 15-20GB for mobile (Android/iOS). We recommend reserving at least 60GB for PC (including future updates) and 30GB+ for mobile. After pre-downloading, you will only need a small update patch on launch day — April 23 for CN server, April 29 for Global server. Pre-downloading early is recommended to avoid server congestion on launch day.",
     "tags": [
@@ -959,8 +967,12 @@
     "id": "multiplayer-coop",
     "question": "异环可以联机吗？多人模式怎么玩？",
     "questionEn": "Does NTE have multiplayer/co-op? How does it work?",
-    "answer": "异环支持最多4人联机合作。联机玩法包括：1) 协作任务 — 组队完成专门的协作挑战，奖励比单人更丰厚；2) 世界Boss挑战 — 多人协作击败强力Boss，降低战斗难度；3) 副本合作 — 部分高难副本支持多人挑战。联机时宝箱和收集品的获取是独立的（每个人都能拾取），不会出现争抢的情况。游戏还支持实时语音、表情互动等社交功能。匹配系统可以根据玩家等级和进度智能匹配队友。建议在高难度区域探索时组队前往。",
-    "answerEn": "NTE supports up to 4-player co-op. Multiplayer features include: 1) Cooperative Missions — team up for exclusive challenges with better rewards than solo; 2) World Boss battles — coordinate to defeat powerful bosses; 3) Dungeon co-op — some challenging dungeons support multiplayer. Chests and collectibles are independent per player, so there's no competition. The game also supports real-time voice chat, emotes, and other social features. The matchmaking system pairs players by level and progress. Team up for high-difficulty area exploration.",
+    "seoTitleZh": "异环可以联机吗？多人合作模式完整攻略（2026）",
+    "seoTitleEn": "Is NTE Multiplayer? Co-op & Online Features Explained (2026)",
+    "seoDescriptionZh": "异环支持最多4人联机合作！详解联机玩法、跨平台联机、匹配系统、组队方法及联机奖励。包含协作任务、世界Boss、副本合作等多人模式介绍。",
+    "seoDescriptionEn": "Yes, NTE supports up to 4-player co-op multiplayer. Complete guide to online features, cross-platform play, matchmaking, party system, co-op missions, and world boss battles.",
+    "answer": "异环支持最多4人联机合作。\n\n【核心结论】异环是一款支持多人联机的游戏，最多4人组队合作。游戏以单人剧情探索为主，联机是重要的辅助玩法。\n\n【联机模式介绍】\n1) 协作任务 — 组队完成专门的协作挑战，奖励比单人更丰厚\n2) 世界Boss挑战 — 多人协作击败强力Boss，降低战斗难度\n3) 副本合作 — 部分高难副本支持多人挑战\n4) 自由探索 — 可以邀请好友进入你的世界一起探索\n\n【联机规则】\n- 每队最多4人\n- 宝箱和收集品获取独立（每人都能拾取，不会争抢）\n- 支持实时语音和表情互动\n- 匹配系统根据等级和进度智能匹配队友\n- 联机时部分单人剧情可能受限\n\n【跨平台联机】\n异环支持跨平台联机，PC、Android、iOS玩家可以一起组队游戏。登录同一账号即可在不同平台间切换。\n\n【如何组队】\n1) 通过好友列表邀请好友\n2) 使用匹配系统随机匹配队友\n3) 在特定NPC处创建或加入队伍\n\n【联机建议】\n建议在高难度区域探索、世界Boss挑战时组队前往，可以获得更好的游戏体验和更丰厚的奖励。",
+    "answerEn": "Yes, NTE is a multiplayer game that supports up to 4-player online co-op.\n\nQuick Answer: NTE supports multiplayer co-op for up to 4 players. While the game is primarily a single-player open-world RPG, co-op is a major feature for challenging content.\n\nCo-op Game Modes:\n1) Cooperative Missions — Team up for exclusive co-op challenges with better rewards than solo play\n2) World Boss Battles — Coordinate with other players to defeat powerful bosses\n3) Dungeon Co-op — Some challenging dungeons support multiplayer parties\n4) Open World Exploration — Invite friends to explore your world together\n\nMultiplayer Rules:\n- Maximum party size: 4 players\n- Chests and collectibles are independent per player (everyone gets their own loot)\n- Real-time voice chat and emotes supported\n- Smart matchmaking based on player level and progress\n- Some solo story content may be restricted during co-op\n\nCross-Platform Play:\nNTE supports cross-platform multiplayer across PC, Android, and iOS. Log in with the same account to play across different devices.\n\nHow to Team Up:\n1) Invite friends from your friend list\n2) Use the matchmaking system to find random teammates\n3) Create or join a party at specific NPCs in-game\n\nDoes NTE have PvP?\nCurrently, NTE does not have PvP (player vs player) mode. The multiplayer focus is entirely on cooperative PvE content.\n\nIs NTE an online-only game?\nNo, NTE can be played solo offline for most story and exploration content. However, multiplayer features and some events require an internet connection.\n\nTips: Team up for high-difficulty areas and world boss fights for better rewards and a more enjoyable experience.",
     "tags": [
       "system",
       "multiplayer"
@@ -1257,6 +1269,10 @@
     "id": "preregistration-rewards-how",
     "question": "异环预抽卡活动怎么参加？有什么奖励？",
     "questionEn": "How to participate in the NTE pre-gacha event? What are the rewards?",
+    "seoTitleZh": "异环预约奖励怎么领？预抽卡活动完整领取攻略与截止时间",
+    "seoTitleEn": "NTE Pre-Gacha Event Guide: How to Claim Rewards Before Launch",
+    "seoDescriptionZh": "异环预抽卡活动参与攻略：预约奖励领取方式、活动截止时间、Fabrication Dice×20等奖励一览，错过截止日期将无法参与。",
+    "seoDescriptionEn": "Complete guide to NTE pre-gacha event: how to participate, claim Fabrication Dice x20 and other rewards, event deadline, and tips for maximizing your pulls.",
     "answer": "异环公测前正在举办预抽卡活动，参加方式：1) 前往官网或TapTap的异环预抽卡活动页面；2) 定制你的「海特洛市民卡」；3) 完成指定任务获取启程道具抽取机会。活动奖励包括：Fabrication Dice×20、A级Arc Disc、抽卡券等珍贵资源。活动截止时间为2026年4月22日23:59，请务必在此之前完成参与。此外，参与过此前「共存测试」的玩家在公测时可以获得充值返还。实体奖品还包括PS5主机和官方周边。",
     "answerEn": "NTE is running a pre-gacha event before launch. How to participate: 1) Visit the official website or TapTap pre-gacha event page; 2) Customize your Hethereau Citizen Card; 3) Complete tasks to earn draw chances. Rewards include: Fabrication Dice ×20, A-rank Arc Disc, gacha tickets, and more. The event ends on April 22, 2026 at 23:59 — participate before then. Players who participated in the Coexistence Test will receive purchase refunds at launch. Physical prizes include a PS5 console and official merchandise.",
     "tags": [

@@ -23,14 +23,24 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const faq = getFaq(slug);
   if (!faq) return {};
-  const question = isZhLocale(lang) ? faq.question : faq.questionEn;
+  const locale = lang as Locale;
+  const isZh = isZhLocale(locale);
+
+  // Use custom SEO title/description if defined, otherwise fall back to question
+  const title = isZh
+    ? (faq.seoTitleZh || `${faq.question} | 异环游戏 Wiki`)
+    : (faq.seoTitleEn || `${faq.questionEn} - NTE Guide`);
+  const description = isZh
+    ? (faq.seoDescriptionZh || faq.answer.slice(0, 160))
+    : (faq.seoDescriptionEn || faq.answerEn.slice(0, 160));
+
   return {
-    title: `${question}${isZhLocale(lang) ? " | 异环游戏 Wiki" : " - NTE Guide"}`,
-    description: isZhLocale(lang) ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
+    title,
+    description,
     alternates: hreflangAlternates(`faq/${slug}`, lang),
     openGraph: {
-      title: `${question}${isZhLocale(lang) ? " | 异环游戏 Wiki" : " - NTE Guide"}`,
-      description: isZhLocale(lang) ? faq.answer.slice(0, 160) : faq.answerEn.slice(0, 160),
+      title,
+      description,
       type: "article",
     },
   };

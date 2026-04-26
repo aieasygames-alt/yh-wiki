@@ -4,18 +4,39 @@
 # Language roots - ensure trailing slash
 /zh /zh/ 301
 /en /en/ 301
+/tw /tw/ 301
 
-# FAQ -> dedicated pages
+# FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
 /en/faq/system-requirements/ /en/system-requirements/ 301
 /zh/faq/system-requirements /zh/system-requirements/ 301
 /zh/faq/system-requirements/ /zh/system-requirements/ 301
+/tw/faq/system-requirements /tw/system-requirements/ 301
+/tw/faq/system-requirements/ /tw/system-requirements/ 301
+
+# FAQ -> dedicated pages (download-installation -> download-install-guide)
+/en/faq/download-installation /en/guides/download-install-guide/ 301
+/en/faq/download-installation/ /en/guides/download-install-guide/ 301
+/zh/faq/download-installation /zh/guides/download-install-guide/ 301
+/zh/faq/download-installation/ /zh/guides/download-install-guide/ 301
+/tw/faq/download-installation /tw/guides/download-install-guide/ 301
+/tw/faq/download-installation/ /tw/guides/download-install-guide/ 301
+
+# FAQ index pages -> homepage (low CTR, better to direct to home)
+/zh/faq /zh/ 301
+/zh/faq/ /zh/ 301
+/en/faq /en/ 301
+/en/faq/ /en/ 301
+/tw/faq /tw/ 301
+/tw/faq/ /tw/ 301
 
 # Character renamed/merged
 /en/characters/the-appraiser /en/characters/zero/ 301
 /en/characters/the-appraiser/ /en/characters/zero/ 301
 /zh/characters/the-appraiser /zh/characters/zero/ 301
 /zh/characters/the-appraiser/ /zh/characters/zero/ 301
+/tw/characters/the-appraiser /tw/characters/zero/ 301
+/tw/characters/the-appraiser/ /tw/characters/zero/ 301
 
 # Auto-generated trailing slash redirects (do not edit manually)
 /en /en/ 301
@@ -52,6 +73,7 @@
 /en/blog/nte-launch-collaborations /en/blog/nte-launch-collaborations/ 301
 /en/blog/nte-launch-free-pulls-breakdown /en/blog/nte-launch-free-pulls-breakdown/ 301
 /en/blog/nte-launch-new-features /en/blog/nte-launch-new-features/ 301
+/en/blog/nte-launch-review /en/blog/nte-launch-review/ 301
 /en/blog/nte-livestream-summary /en/blog/nte-livestream-summary/ 301
 /en/blog/nte-open-world-exploration-guide /en/blog/nte-open-world-exploration-guide/ 301
 /en/blog/nte-p5r-tof-music-collab /en/blog/nte-p5r-tof-music-collab/ 301
@@ -63,10 +85,12 @@
 /en/blog/nte-v11-collaboration-preview /en/blog/nte-v11-collaboration-preview/ 301
 /en/blog/nte-version-1-0-update /en/blog/nte-version-1-0-update/ 301
 /en/blog/nte-vs-genshin-vs-wuthering-waves /en/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/en/bosses /en/bosses/ 301
 /en/calculator/build /en/calculator/build/ 301
 /en/calculator/leveling /en/calculator/leveling/ 301
 /en/changelog /en/changelog/ 301
 /en/changelog/1.0 /en/changelog/1.0/ 301
+/en/changelog/1.0.1 /en/changelog/1.0.1/ 301
 /en/characters /en/characters/ 301
 /en/characters/adler /en/characters/adler/ 301
 /en/characters/akane /en/characters/akane/ 301
@@ -270,6 +294,7 @@
 /en/guides/leveling-priority /en/guides/leveling-priority/ 301
 /en/guides/patch-notes /en/guides/patch-notes/ 301
 /en/guides/performance-guide /en/guides/performance-guide/ 301
+/en/guides/photo-mode-guide /en/guides/photo-mode-guide/ 301
 /en/guides/pvp-guide /en/guides/pvp-guide/ 301
 /en/guides/reroll-guide-detailed /en/guides/reroll-guide-detailed/ 301
 /en/guides/stamina-management /en/guides/stamina-management/ 301
@@ -357,6 +382,7 @@
 /en/tags/blaze /en/tags/blaze/ 301
 /en/tags/boss /en/tags/boss/ 301
 /en/tags/build /en/tags/build/ 301
+/en/tags/camera /en/tags/camera/ 301
 /en/tags/challenge /en/tags/challenge/ 301
 /en/tags/chaos /en/tags/chaos/ 301
 /en/tags/characters /en/tags/characters/ 301
@@ -436,6 +462,7 @@
 /en/tags/performance /en/tags/performance/ 301
 /en/tags/permit /en/tags/permit/ 301
 /en/tags/phenomena /en/tags/phenomena/ 301
+/en/tags/photo /en/tags/photo/ 301
 /en/tags/photo-mode /en/tags/photo-mode/ 301
 /en/tags/pity /en/tags/pity/ 301
 /en/tags/planning /en/tags/planning/ 301
@@ -518,10 +545,12 @@
 /en/tags/强度榜 /en/tags/强度榜/ 301
 /en/tags/待定 /en/tags/待定/ 301
 /en/tags/战斗 /en/tags/战斗/ 301
+/en/tags/截图 /en/tags/截图/ 301
 /en/tags/房屋 /en/tags/房屋/ 301
 /en/tags/打法 /en/tags/打法/ 301
 /en/tags/技能 /en/tags/技能/ 301
 /en/tags/抽卡 /en/tags/抽卡/ 301
+/en/tags/拍照 /en/tags/拍照/ 301
 /en/tags/挑战 /en/tags/挑战/ 301
 /en/tags/排行 /en/tags/排行/ 301
 /en/tags/探索 /en/tags/探索/ 301
@@ -535,6 +564,7 @@
 /en/tags/日常 /en/tags/日常/ 301
 /en/tags/更新 /en/tags/更新/ 301
 /en/tags/材料 /en/tags/材料/ 301
+/en/tags/构图 /en/tags/构图/ 301
 /en/tags/概率 /en/tags/概率/ 301
 /en/tags/武器 /en/tags/武器/ 301
 /en/tags/每日 /en/tags/每日/ 301
@@ -572,6 +602,7 @@
 /en/tags/隐藏任务 /en/tags/隐藏任务/ 301
 /en/tags/零氪 /en/tags/零氪/ 301
 /en/tags/驾驶 /en/tags/驾驶/ 301
+/en/teams /en/teams/ 301
 /en/tier-list /en/tier-list/ 301
 /en/vehicles /en/vehicles/ 301
 /en/vehicles/azure-dream /en/vehicles/azure-dream/ 301
@@ -667,6 +698,7 @@
 /tw/blog/nte-launch-collaborations /tw/blog/nte-launch-collaborations/ 301
 /tw/blog/nte-launch-free-pulls-breakdown /tw/blog/nte-launch-free-pulls-breakdown/ 301
 /tw/blog/nte-launch-new-features /tw/blog/nte-launch-new-features/ 301
+/tw/blog/nte-launch-review /tw/blog/nte-launch-review/ 301
 /tw/blog/nte-livestream-summary /tw/blog/nte-livestream-summary/ 301
 /tw/blog/nte-open-world-exploration-guide /tw/blog/nte-open-world-exploration-guide/ 301
 /tw/blog/nte-p5r-tof-music-collab /tw/blog/nte-p5r-tof-music-collab/ 301
@@ -678,10 +710,12 @@
 /tw/blog/nte-v11-collaboration-preview /tw/blog/nte-v11-collaboration-preview/ 301
 /tw/blog/nte-version-1-0-update /tw/blog/nte-version-1-0-update/ 301
 /tw/blog/nte-vs-genshin-vs-wuthering-waves /tw/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/tw/bosses /tw/bosses/ 301
 /tw/calculator/build /tw/calculator/build/ 301
 /tw/calculator/leveling /tw/calculator/leveling/ 301
 /tw/changelog /tw/changelog/ 301
 /tw/changelog/1.0 /tw/changelog/1.0/ 301
+/tw/changelog/1.0.1 /tw/changelog/1.0.1/ 301
 /tw/characters /tw/characters/ 301
 /tw/characters/adler /tw/characters/adler/ 301
 /tw/characters/akane /tw/characters/akane/ 301
@@ -885,6 +919,7 @@
 /tw/guides/leveling-priority /tw/guides/leveling-priority/ 301
 /tw/guides/patch-notes /tw/guides/patch-notes/ 301
 /tw/guides/performance-guide /tw/guides/performance-guide/ 301
+/tw/guides/photo-mode-guide /tw/guides/photo-mode-guide/ 301
 /tw/guides/pvp-guide /tw/guides/pvp-guide/ 301
 /tw/guides/reroll-guide-detailed /tw/guides/reroll-guide-detailed/ 301
 /tw/guides/stamina-management /tw/guides/stamina-management/ 301
@@ -972,6 +1007,7 @@
 /tw/tags/blaze /tw/tags/blaze/ 301
 /tw/tags/boss /tw/tags/boss/ 301
 /tw/tags/build /tw/tags/build/ 301
+/tw/tags/camera /tw/tags/camera/ 301
 /tw/tags/challenge /tw/tags/challenge/ 301
 /tw/tags/chaos /tw/tags/chaos/ 301
 /tw/tags/characters /tw/tags/characters/ 301
@@ -1051,6 +1087,7 @@
 /tw/tags/performance /tw/tags/performance/ 301
 /tw/tags/permit /tw/tags/permit/ 301
 /tw/tags/phenomena /tw/tags/phenomena/ 301
+/tw/tags/photo /tw/tags/photo/ 301
 /tw/tags/photo-mode /tw/tags/photo-mode/ 301
 /tw/tags/pity /tw/tags/pity/ 301
 /tw/tags/planning /tw/tags/planning/ 301
@@ -1133,10 +1170,12 @@
 /tw/tags/强度榜 /tw/tags/强度榜/ 301
 /tw/tags/待定 /tw/tags/待定/ 301
 /tw/tags/战斗 /tw/tags/战斗/ 301
+/tw/tags/截图 /tw/tags/截图/ 301
 /tw/tags/房屋 /tw/tags/房屋/ 301
 /tw/tags/打法 /tw/tags/打法/ 301
 /tw/tags/技能 /tw/tags/技能/ 301
 /tw/tags/抽卡 /tw/tags/抽卡/ 301
+/tw/tags/拍照 /tw/tags/拍照/ 301
 /tw/tags/挑战 /tw/tags/挑战/ 301
 /tw/tags/排行 /tw/tags/排行/ 301
 /tw/tags/探索 /tw/tags/探索/ 301
@@ -1150,6 +1189,7 @@
 /tw/tags/日常 /tw/tags/日常/ 301
 /tw/tags/更新 /tw/tags/更新/ 301
 /tw/tags/材料 /tw/tags/材料/ 301
+/tw/tags/构图 /tw/tags/构图/ 301
 /tw/tags/概率 /tw/tags/概率/ 301
 /tw/tags/武器 /tw/tags/武器/ 301
 /tw/tags/每日 /tw/tags/每日/ 301
@@ -1187,6 +1227,7 @@
 /tw/tags/隐藏任务 /tw/tags/隐藏任务/ 301
 /tw/tags/零氪 /tw/tags/零氪/ 301
 /tw/tags/驾驶 /tw/tags/驾驶/ 301
+/tw/teams /tw/teams/ 301
 /tw/tier-list /tw/tier-list/ 301
 /tw/vehicles /tw/vehicles/ 301
 /tw/vehicles/azure-dream /tw/vehicles/azure-dream/ 301
@@ -1282,6 +1323,7 @@
 /zh/blog/nte-launch-collaborations /zh/blog/nte-launch-collaborations/ 301
 /zh/blog/nte-launch-free-pulls-breakdown /zh/blog/nte-launch-free-pulls-breakdown/ 301
 /zh/blog/nte-launch-new-features /zh/blog/nte-launch-new-features/ 301
+/zh/blog/nte-launch-review /zh/blog/nte-launch-review/ 301
 /zh/blog/nte-livestream-summary /zh/blog/nte-livestream-summary/ 301
 /zh/blog/nte-open-world-exploration-guide /zh/blog/nte-open-world-exploration-guide/ 301
 /zh/blog/nte-p5r-tof-music-collab /zh/blog/nte-p5r-tof-music-collab/ 301
@@ -1293,10 +1335,12 @@
 /zh/blog/nte-v11-collaboration-preview /zh/blog/nte-v11-collaboration-preview/ 301
 /zh/blog/nte-version-1-0-update /zh/blog/nte-version-1-0-update/ 301
 /zh/blog/nte-vs-genshin-vs-wuthering-waves /zh/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/zh/bosses /zh/bosses/ 301
 /zh/calculator/build /zh/calculator/build/ 301
 /zh/calculator/leveling /zh/calculator/leveling/ 301
 /zh/changelog /zh/changelog/ 301
 /zh/changelog/1.0 /zh/changelog/1.0/ 301
+/zh/changelog/1.0.1 /zh/changelog/1.0.1/ 301
 /zh/characters /zh/characters/ 301
 /zh/characters/adler /zh/characters/adler/ 301
 /zh/characters/akane /zh/characters/akane/ 301
@@ -1500,6 +1544,7 @@
 /zh/guides/leveling-priority /zh/guides/leveling-priority/ 301
 /zh/guides/patch-notes /zh/guides/patch-notes/ 301
 /zh/guides/performance-guide /zh/guides/performance-guide/ 301
+/zh/guides/photo-mode-guide /zh/guides/photo-mode-guide/ 301
 /zh/guides/pvp-guide /zh/guides/pvp-guide/ 301
 /zh/guides/reroll-guide-detailed /zh/guides/reroll-guide-detailed/ 301
 /zh/guides/stamina-management /zh/guides/stamina-management/ 301
@@ -1587,6 +1632,7 @@
 /zh/tags/blaze /zh/tags/blaze/ 301
 /zh/tags/boss /zh/tags/boss/ 301
 /zh/tags/build /zh/tags/build/ 301
+/zh/tags/camera /zh/tags/camera/ 301
 /zh/tags/challenge /zh/tags/challenge/ 301
 /zh/tags/chaos /zh/tags/chaos/ 301
 /zh/tags/characters /zh/tags/characters/ 301
@@ -1666,6 +1712,7 @@
 /zh/tags/performance /zh/tags/performance/ 301
 /zh/tags/permit /zh/tags/permit/ 301
 /zh/tags/phenomena /zh/tags/phenomena/ 301
+/zh/tags/photo /zh/tags/photo/ 301
 /zh/tags/photo-mode /zh/tags/photo-mode/ 301
 /zh/tags/pity /zh/tags/pity/ 301
 /zh/tags/planning /zh/tags/planning/ 301
@@ -1748,10 +1795,12 @@
 /zh/tags/强度榜 /zh/tags/强度榜/ 301
 /zh/tags/待定 /zh/tags/待定/ 301
 /zh/tags/战斗 /zh/tags/战斗/ 301
+/zh/tags/截图 /zh/tags/截图/ 301
 /zh/tags/房屋 /zh/tags/房屋/ 301
 /zh/tags/打法 /zh/tags/打法/ 301
 /zh/tags/技能 /zh/tags/技能/ 301
 /zh/tags/抽卡 /zh/tags/抽卡/ 301
+/zh/tags/拍照 /zh/tags/拍照/ 301
 /zh/tags/挑战 /zh/tags/挑战/ 301
 /zh/tags/排行 /zh/tags/排行/ 301
 /zh/tags/探索 /zh/tags/探索/ 301
@@ -1765,6 +1814,7 @@
 /zh/tags/日常 /zh/tags/日常/ 301
 /zh/tags/更新 /zh/tags/更新/ 301
 /zh/tags/材料 /zh/tags/材料/ 301
+/zh/tags/构图 /zh/tags/构图/ 301
 /zh/tags/概率 /zh/tags/概率/ 301
 /zh/tags/武器 /zh/tags/武器/ 301
 /zh/tags/每日 /zh/tags/每日/ 301
@@ -1802,6 +1852,7 @@
 /zh/tags/隐藏任务 /zh/tags/隐藏任务/ 301
 /zh/tags/零氪 /zh/tags/零氪/ 301
 /zh/tags/驾驶 /zh/tags/驾驶/ 301
+/zh/teams /zh/teams/ 301
 /zh/tier-list /zh/tier-list/ 301
 /zh/vehicles /zh/vehicles/ 301
 /zh/vehicles/azure-dream /zh/vehicles/azure-dream/ 301

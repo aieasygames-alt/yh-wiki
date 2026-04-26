@@ -187,6 +187,10 @@ export interface Faq {
   questionEn: string;
   answer: string;
   answerEn: string;
+  seoTitleZh?: string;
+  seoTitleEn?: string;
+  seoDescriptionZh?: string;
+  seoDescriptionEn?: string;
   tags: string[];
   category: string;
   categoryZh: string;
