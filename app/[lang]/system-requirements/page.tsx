@@ -20,10 +20,14 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const locale = lang as Locale;
 
   const title = isZhLocale(locale)
-    ? "异环配置要求 — PC/Android/iOS 最低与推荐配置、下载大小（2026）"
+    ? (locale === "tw"
+      ? "異環配置要求與下載大小 — PC/Android/iOS 最低推薦配置（2026）"
+      : "异环配置要求与下载大小 — PC/Android/iOS 最低与推荐配置（2026）")
     : "NTE System Requirements: PC, Mobile & Console Specs (2026)";
   const description = isZhLocale(locale)
-    ? "异环(Neverness to Everness)完整配置要求：PC、Android、iOS 最低和推荐配置，下载大小约40GB(PC)/15GB(手机)，存储空间要求一览。"
+    ? (locale === "tw"
+      ? "異環(NTE)完整配置要求：PC、Android、iOS 最低和推薦配置，下載大小約40GB(PC)/15GB(手機)，儲存空間需求一覽。"
+      : "异环(NTE)完整配置要求与下载大小：PC约40GB、手机约15GB，含PC/Android/iOS最低和推荐配置、存储空间要求。")
     : "Can your device run Neverness to Everness (NTE)? Full PC, Android, iOS minimum & recommended specs, download size (~40GB PC / ~15GB mobile), and storage requirements.";
 
   return {

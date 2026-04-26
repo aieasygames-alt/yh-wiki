@@ -15,21 +15,29 @@ export async function generateMetadata({
   return {
     title:
       isZhLocale(lang)
-        ? "异环 Wiki - 攻略 · 配装 · 工具 | NTE Guide"
+        ? (lang === "tw"
+          ? "異環 Wiki 官網 - 攻略 · 配裝 · 工具 | NTE Guide"
+          : "异环 Wiki 官网 - 攻略 · 配装 · 工具 | NTE Guide")
         : "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
     description:
       isZhLocale(lang)
-        ? "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。"
+        ? (lang === "tw"
+          ? "異環(Neverness to Everness)Wiki官方攻略站，提供角色配裝、升級計算器、攻略指南和兌換碼。"
+          : "异环(Neverness to Everness)Wiki官网，提供角色配装、升级计算器、攻略指南、兑换码和交互地图。")
         : "Find the best builds, tier lists, and guides for Neverness to Everness. Complete character database, leveling calculator, and redeem codes.",
     alternates: hreflangAlternatesIndex(lang),
     openGraph: {
       title:
         isZhLocale(lang)
-          ? "异环 Wiki - 攻略 · 配装 · 工具 | NTE Guide"
-          : "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
+          ? (lang === "tw"
+            ? "異環 Wiki 官網 - 攻略 · 配裝 · 工具"
+            : "异环 Wiki 官网 - 攻略 · 配装 · 工具")
+          : "Neverness to Everness Wiki & Calculator",
       description:
         isZhLocale(lang)
-          ? "异环(Neverness to Everness)Wiki与工具站，提供角色配装、升级计算器、攻略指南和兑换码。"
+          ? (lang === "tw"
+            ? "異環(NTE)Wiki官方攻略站，提供角色配裝、計算器、攻略和兌換碼。"
+            : "异环(NTE)Wiki官网，提供角色配装、计算器、攻略、兑换码和地图。")
           : "Find the best builds, tier lists, and guides for Neverness to Everness.",
       type: "website",
     },
