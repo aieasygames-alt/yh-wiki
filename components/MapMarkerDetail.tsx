@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useCallback } from "react";
 import Link from "next/link";
 import type { MapMarker, MarkerTypeInfo, ProgressMap } from "../lib/map-utils";
 import { isZhLocale, Locale } from "../lib/i18n";
@@ -9,8 +10,10 @@ interface MapMarkerDetailProps {
   marker: MapMarker;
   typeInfo: MarkerTypeInfo | undefined;
   progress: ProgressMap;
+  nearbyMarkers: MapMarker[];
   onToggleCollect: (markerId: string) => void;
   onClose: () => void;
+  onSelectMarker: (marker: MapMarker) => void;
   lang: Locale;
 }
 
@@ -31,17 +34,28 @@ export default function MapMarkerDetail({
   marker,
   typeInfo,
   progress,
+  nearbyMarkers,
   onToggleCollect,
   onClose,
+  onSelectMarker,
   lang,
 }: MapMarkerDetailProps) {
   const isCollected = !!progress[marker.id];
   const color = typeInfo?.color || "#6b7280";
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyCoords = useCallback(() => {
+    const text = `X: ${marker.x.toFixed(1)}, Y: ${marker.y.toFixed(1)}`;
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    });
+  }, [marker.x, marker.y]);
 
   return (
     <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-4">
       {/* Header with type badge */}
-      <div className="flex items-center gap-2 mb-3">
+      <div className="flex items-center gap-2 mb-3 flex-wrap">
         <span
           className="w-3 h-3 rounded-full"
           style={{ backgroundColor: color }}
@@ -86,11 +100,23 @@ export default function MapMarkerDetail({
         {isZhLocale(lang) ? marker.description : marker.descriptionEn}
       </p>
 
-      {/* Coordinates */}
-      <div className="flex items-center gap-2 mb-3 text-xs text-gray-600">
-        <span>
+      {/* Coordinates with copy */}
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-xs text-gray-600">
           X: {marker.x.toFixed(1)}, Y: {marker.y.toFixed(1)}
         </span>
+        <button
+          onClick={handleCopyCoords}
+          className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-500 border border-gray-700 hover:text-gray-300 hover:border-gray-600 transition-colors"
+        >
+          {copied
+            ? isZhLocale(lang)
+              ? "已复制"
+              : "Copied"
+            : isZhLocale(lang)
+            ? "复制坐标"
+            : "Copy"}
+        </button>
       </div>
 
       {/* Related materials */}
@@ -125,6 +151,42 @@ export default function MapMarkerDetail({
           >
             {isZhLocale(lang) ? "查看攻略 →" : "View Guide →"}
           </Link>
+        </div>
+      )}
+
+      {/* Nearby markers */}
+      {nearbyMarkers.length > 0 && (
+        <div className="mb-3">
+          <p className="text-xs text-gray-500 mb-1.5">
+            {isZhLocale(lang)
+              ? `附近标记 (${nearbyMarkers.length})`
+              : `Nearby (${nearbyMarkers.length})`}
+          </p>
+          <div className="space-y-1">
+            {nearbyMarkers.slice(0, 5).map((nm) => {
+              const nmType = nm.type;
+              return (
+                <button
+                  key={nm.id}
+                  onClick={() => onSelectMarker(nm)}
+                  className="w-full text-left px-2 py-1.5 rounded hover:bg-gray-800/30 transition-colors flex items-center gap-2"
+                >
+                  <span
+                    className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+                    style={{ backgroundColor: color }}
+                  />
+                  <span className="text-xs text-gray-400 truncate">
+                    {isZhLocale(lang) ? nm.name : nm.nameEn}
+                  </span>
+                  <span className="text-[10px] text-gray-600 ml-auto flex-shrink-0">
+                    {Math.sqrt(
+                      (nm.x - marker.x) ** 2 + (nm.y - marker.y) ** 2
+                    ).toFixed(0)}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       )}
 
