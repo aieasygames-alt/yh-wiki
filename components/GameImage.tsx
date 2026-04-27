@@ -13,14 +13,19 @@ interface GameImageProps {
   height?: number;
   priority?: boolean;
   src?: string;
+  contain?: boolean;
 }
 
-export function GameImage({ type, id, name, className = "", alt, width, height, priority = false, src: srcProp, contain }: GameImageProps & { contain?: boolean }) {
+// Cache buster for static assets — bump when images change
+const IMG_VERSION = "v=2";
+
+export function GameImage({ type, id, name, className = "", alt, width, height, priority = false, src: srcProp, contain }: GameImageProps) {
   const [error, setError] = useState(false);
   // Use explicit src if provided, otherwise construct from type/id
-  const src = srcProp ?? (type === "vehicle"
+  const basePath = srcProp ?? (type === "vehicle"
     ? `/images/vehicles/${id}.webp`
     : `/images/${type}s/${id}.webp`);
+  const src = `${basePath}?${IMG_VERSION}`;
   const altText = alt ?? `${name} - ${type} in Neverness to Everness`;
   // Material images use contain by default; characters/weapons/vehicles use cover
   const useContain = contain ?? (type === "material");
