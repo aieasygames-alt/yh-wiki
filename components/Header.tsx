@@ -113,8 +113,8 @@ export function Header() {
                   </button>
                   {openDropdown === item.key && (
                     <div className="absolute top-full left-0 pt-1">
-                      {/* Invisible bridge to prevent mouseLeave gap */}
-                      <div className="absolute inset-0 -top-1" />
+                      {/* Invisible bridge to prevent mouseLeave gap — must not block clicks */}
+                      <div className="absolute inset-0 -top-1 pointer-events-none" />
                       <div className="bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg">
                         {item.items.map((sub) => (
                           <Link
