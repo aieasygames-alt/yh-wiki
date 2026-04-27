@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, type Locale, isZhLocale } from "../lib/i18n";
@@ -25,6 +25,20 @@ export function Header() {
   const lang = (pathname.split("/")[1] || "zh") as Locale;
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const scheduleClose = useCallback((key: string) => {
+    closeTimer.current = setTimeout(() => {
+      setOpenDropdown((prev) => (prev === key ? null : prev));
+    }, 300);
+  }, []);
+
+  const cancelClose = useCallback(() => {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
+  }, []);
 
   const otherLang = lang === "zh" ? "tw" : "zh";
   const langLabel = lang === "zh" ? "繁" : lang === "tw" ? "EN" : "中文";
@@ -79,8 +93,11 @@ export function Header() {
                 <div
                   key={item.key}
                   className="relative"
-                  onMouseEnter={() => setOpenDropdown(item.key!)}
-                  onMouseLeave={() => setOpenDropdown(null)}
+                  onMouseEnter={() => {
+                    cancelClose();
+                    setOpenDropdown(item.key!);
+                  }}
+                  onMouseLeave={() => scheduleClose(item.key!)}
                 >
                   <button
                     className={`text-sm transition-colors hover:text-primary-400 flex items-center gap-1 ${
@@ -95,20 +112,24 @@ export function Header() {
                     </svg>
                   </button>
                   {openDropdown === item.key && (
-                    <div className="absolute top-full left-0 mt-1 bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg">
-                      {item.items.map((sub) => (
-                        <Link
-                          key={sub.href}
-                          href={sub.href}
-                          className={`block px-3 py-2 text-sm transition-colors ${
-                            isActive(sub.href)
-                              ? "text-primary-400"
-                              : "text-gray-400 hover:text-white hover:bg-gray-800"
-                          }`}
-                        >
-                          {sub.label}
-                        </Link>
-                      ))}
+                    <div className="absolute top-full left-0 pt-1">
+                      {/* Invisible bridge to prevent mouseLeave gap */}
+                      <div className="absolute inset-0 -top-1" />
+                      <div className="bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg">
+                        {item.items.map((sub) => (
+                          <Link
+                            key={sub.href}
+                            href={sub.href}
+                            className={`block px-3 py-2 text-sm transition-colors ${
+                              isActive(sub.href)
+                                ? "text-primary-400"
+                                : "text-gray-400 hover:text-white hover:bg-gray-800"
+                            }`}
+                          >
+                            {sub.label}
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </div>
