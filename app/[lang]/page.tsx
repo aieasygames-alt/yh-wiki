@@ -99,7 +99,7 @@ export default async function HomePage({
         {/* Tools Section */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-2xl font-bold mb-6">{isZhLocale(locale) ? "实用工具" : "Tools"}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
               { title: isZhLocale(locale) ? "升级计算器" : "Leveling Calc", desc: isZhLocale(locale) ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
               { title: isZhLocale(locale) ? "Build 计算器" : "Build Calc", desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
@@ -112,6 +112,27 @@ export default async function HomePage({
                 <p className="text-sm text-gray-500 mt-1">{tool.desc}</p>
               </Link>
             ))}
+            <a
+              href="https://ruleword.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group"
+            >
+              <span className="text-2xl">🎮</span>
+              <h3 className="text-base font-bold mt-3 group-hover:text-primary-400 transition-colors">
+                {isZhLocale(locale)
+                  ? (locale === "tw" ? "休閒小遊戲" : "休闲小游戏")
+                  : "Free Mini Games"}
+              </h3>
+              <p className="text-sm text-gray-500 mt-1">
+                {isZhLocale(locale)
+                  ? (locale === "tw" ? "等體力恢復？100+免費益智遊戲" : "等体力恢复？100+免费益智游戏")
+                  : "100+ free puzzle & brain games"}
+              </p>
+              <span className="text-xs text-primary-400/50 mt-2 inline-flex items-center gap-0.5">
+                ruleword.com ↗
+              </span>
+            </a>
           </div>
         </section>
 
