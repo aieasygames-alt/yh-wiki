@@ -178,7 +178,7 @@
     }
   },
   "map": {
-    "title": "异环地图标点",
+    "title": "异环互动地图",
     "description": "异环全地图资源点标记，副本、BOSS和采集点",
     "markerList": "标点列表",
     "relatedMaterials": "掉落材料",
@@ -186,7 +186,26 @@
     "allTypes": "全部",
     "markerCount": "共 {0} 个标点",
     "resetView": "重置视图",
-    "noMarker": "暂无标记"
+    "noMarker": "暂无标记",
+    "searchPlaceholder": "搜索标记...",
+    "collectionProgress": "收集进度",
+    "selectAll": "全选",
+    "deselectAll": "全不选",
+    "markCollected": "标记为已收集",
+    "collected": "已收集",
+    "resetProgress": "重置进度",
+    "hidePanel": "隐藏面板",
+    "showPanel": "显示面板",
+    "viewGuide": "查看攻略 →",
+    "close": "关闭",
+    "once": "一次性",
+    "daily": "每日刷新",
+    "weekly": "每周刷新",
+    "common": "普通",
+    "exquisite": "精致",
+    "precious": "珍贵",
+    "luxurious": "华丽",
+    "coordinates": "坐标"
   },
   "attributes": {
     "cosmos": "宇宙",

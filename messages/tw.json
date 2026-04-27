@@ -177,7 +177,7 @@
     }
   },
   "map": {
-    "title": "異環地圖標點",
+    "title": "異環互動地圖",
     "description": "異環全地圖資源點標記，副本、BOSS和採集點",
     "markerList": "標點列表",
     "relatedMaterials": "掉落材料",
@@ -185,7 +185,26 @@
     "allTypes": "全部",
     "markerCount": "共 {0} 個標點",
     "resetView": "重置檢視",
-    "noMarker": "暫無標記"
+    "noMarker": "暫無標記",
+    "searchPlaceholder": "搜尋標記...",
+    "collectionProgress": "收集進度",
+    "selectAll": "全選",
+    "deselectAll": "全不選",
+    "markCollected": "標記為已收集",
+    "collected": "已收集",
+    "resetProgress": "重置進度",
+    "hidePanel": "隱藏面板",
+    "showPanel": "顯示面板",
+    "viewGuide": "查看攻略 →",
+    "close": "關閉",
+    "once": "一次性",
+    "daily": "每日刷新",
+    "weekly": "每週刷新",
+    "common": "普通",
+    "exquisite": "精緻",
+    "precious": "珍貴",
+    "luxurious": "華麗",
+    "coordinates": "座標"
   },
   "attributes": {
     "cosmos": "宇宙",
