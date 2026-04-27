@@ -60,6 +60,7 @@
 /en/anomalies/tower-arc-disc /en/anomalies/tower-arc-disc/ 301
 /en/blog /en/blog/ 301
 /en/blog/day-one-beginner-guide /en/blog/day-one-beginner-guide/ 301
+/en/blog/nte-alipay-qualcomm-collab-guide /en/blog/nte-alipay-qualcomm-collab-guide/ 301
 /en/blog/nte-all-characters-overview /en/blog/nte-all-characters-overview/ 301
 /en/blog/nte-anime-references-easter-eggs /en/blog/nte-anime-references-easter-eggs/ 301
 /en/blog/nte-best-settings-guide /en/blog/nte-best-settings-guide/ 301
@@ -71,6 +72,7 @@
 /en/blog/nte-global-launch-guide /en/blog/nte-global-launch-guide/ 301
 /en/blog/nte-launch-6-choose-1 /en/blog/nte-launch-6-choose-1/ 301
 /en/blog/nte-launch-collaborations /en/blog/nte-launch-collaborations/ 301
+/en/blog/nte-launch-compensation-guide /en/blog/nte-launch-compensation-guide/ 301
 /en/blog/nte-launch-free-pulls-breakdown /en/blog/nte-launch-free-pulls-breakdown/ 301
 /en/blog/nte-launch-new-features /en/blog/nte-launch-new-features/ 301
 /en/blog/nte-launch-review /en/blog/nte-launch-review/ 301
@@ -274,6 +276,7 @@
 /en/guides/beginner-mistakes /en/guides/beginner-mistakes/ 301
 /en/guides/boss-guide /en/guides/boss-guide/ 301
 /en/guides/boss-guide-comprehensive /en/guides/boss-guide-comprehensive/ 301
+/en/guides/character-selector-guide /en/guides/character-selector-guide/ 301
 /en/guides/collectibles-guide /en/guides/collectibles-guide/ 301
 /en/guides/daily-routine /en/guides/daily-routine/ 301
 /en/guides/damage-formula /en/guides/damage-formula/ 301
@@ -292,7 +295,9 @@
 /en/guides/game-review /en/guides/game-review/ 301
 /en/guides/hidden-quests-chests-guide /en/guides/hidden-quests-chests-guide/ 301
 /en/guides/housing-system-guide /en/guides/housing-system-guide/ 301
+/en/guides/jiuyuan-guide /en/guides/jiuyuan-guide/ 301
 /en/guides/leveling-priority /en/guides/leveling-priority/ 301
+/en/guides/nanally-guide /en/guides/nanally-guide/ 301
 /en/guides/patch-notes /en/guides/patch-notes/ 301
 /en/guides/performance-guide /en/guides/performance-guide/ 301
 /en/guides/photo-mode-guide /en/guides/photo-mode-guide/ 301
@@ -367,6 +372,7 @@
 /en/materials/warp-pieces /en/materials/warp-pieces/ 301
 /en/redeem-codes /en/redeem-codes/ 301
 /en/system-requirements /en/system-requirements/ 301
+/en/tags/6选1 /en/tags/6选1/ 301
 /en/tags/a /en/tags/a/ 301
 /en/tags/abyss /en/tags/abyss/ 301
 /en/tags/android /en/tags/android/ 301
@@ -499,6 +505,7 @@
 /en/tags/support /en/tags/support/ 301
 /en/tags/system /en/tags/system/ 301
 /en/tags/systems /en/tags/systems/ 301
+/en/tags/t0 /en/tags/t0/ 301
 /en/tags/talent /en/tags/talent/ 301
 /en/tags/team /en/tags/team/ 301
 /en/tags/team-building /en/tags/team-building/ 301
@@ -516,6 +523,7 @@
 /en/tags/weapon /en/tags/weapon/ 301
 /en/tags/weapons /en/tags/weapons/ 301
 /en/tags/下载 /en/tags/下载/ 301
+/en/tags/九原 /en/tags/九原/ 301
 /en/tags/买房 /en/tags/买房/ 301
 /en/tags/优化 /en/tags/优化/ 301
 /en/tags/伤害 /en/tags/伤害/ 301
@@ -536,6 +544,7 @@
 /en/tags/培养 /en/tags/培养/ 301
 /en/tags/基础 /en/tags/基础/ 301
 /en/tags/天赋 /en/tags/天赋/ 301
+/en/tags/娜娜莉 /en/tags/娜娜莉/ 301
 /en/tags/安装 /en/tags/安装/ 301
 /en/tags/宝箱 /en/tags/宝箱/ 301
 /en/tags/属性 /en/tags/属性/ 301
@@ -578,10 +587,13 @@
 /en/tags/管理 /en/tags/管理/ 301
 /en/tags/系统 /en/tags/系统/ 301
 /en/tags/终局 /en/tags/终局/ 301
+/en/tags/聚怪 /en/tags/聚怪/ 301
+/en/tags/自选角色 /en/tags/自选角色/ 301
 /en/tags/装修 /en/tags/装修/ 301
 /en/tags/装备 /en/tags/装备/ 301
 /en/tags/觉醒 /en/tags/觉醒/ 301
 /en/tags/角色排行 /en/tags/角色排行/ 301
+/en/tags/角色攻略 /en/tags/角色攻略/ 301
 /en/tags/评测 /en/tags/评测/ 301
 /en/tags/资源 /en/tags/资源/ 301
 /en/tags/赛车 /en/tags/赛车/ 301
@@ -599,6 +611,7 @@
 /en/tags/队伍 /en/tags/队伍/ 301
 /en/tags/防护 /en/tags/防护/ 301
 /en/tags/阵容 /en/tags/阵容/ 301
+/en/tags/限定 /en/tags/限定/ 301
 /en/tags/限时 /en/tags/限时/ 301
 /en/tags/隐藏任务 /en/tags/隐藏任务/ 301
 /en/tags/零氪 /en/tags/零氪/ 301
@@ -686,6 +699,7 @@
 /tw/anomalies/tower-arc-disc /tw/anomalies/tower-arc-disc/ 301
 /tw/blog /tw/blog/ 301
 /tw/blog/day-one-beginner-guide /tw/blog/day-one-beginner-guide/ 301
+/tw/blog/nte-alipay-qualcomm-collab-guide /tw/blog/nte-alipay-qualcomm-collab-guide/ 301
 /tw/blog/nte-all-characters-overview /tw/blog/nte-all-characters-overview/ 301
 /tw/blog/nte-anime-references-easter-eggs /tw/blog/nte-anime-references-easter-eggs/ 301
 /tw/blog/nte-best-settings-guide /tw/blog/nte-best-settings-guide/ 301
@@ -697,6 +711,7 @@
 /tw/blog/nte-global-launch-guide /tw/blog/nte-global-launch-guide/ 301
 /tw/blog/nte-launch-6-choose-1 /tw/blog/nte-launch-6-choose-1/ 301
 /tw/blog/nte-launch-collaborations /tw/blog/nte-launch-collaborations/ 301
+/tw/blog/nte-launch-compensation-guide /tw/blog/nte-launch-compensation-guide/ 301
 /tw/blog/nte-launch-free-pulls-breakdown /tw/blog/nte-launch-free-pulls-breakdown/ 301
 /tw/blog/nte-launch-new-features /tw/blog/nte-launch-new-features/ 301
 /tw/blog/nte-launch-review /tw/blog/nte-launch-review/ 301
@@ -900,6 +915,7 @@
 /tw/guides/beginner-mistakes /tw/guides/beginner-mistakes/ 301
 /tw/guides/boss-guide /tw/guides/boss-guide/ 301
 /tw/guides/boss-guide-comprehensive /tw/guides/boss-guide-comprehensive/ 301
+/tw/guides/character-selector-guide /tw/guides/character-selector-guide/ 301
 /tw/guides/collectibles-guide /tw/guides/collectibles-guide/ 301
 /tw/guides/daily-routine /tw/guides/daily-routine/ 301
 /tw/guides/damage-formula /tw/guides/damage-formula/ 301
@@ -918,7 +934,9 @@
 /tw/guides/game-review /tw/guides/game-review/ 301
 /tw/guides/hidden-quests-chests-guide /tw/guides/hidden-quests-chests-guide/ 301
 /tw/guides/housing-system-guide /tw/guides/housing-system-guide/ 301
+/tw/guides/jiuyuan-guide /tw/guides/jiuyuan-guide/ 301
 /tw/guides/leveling-priority /tw/guides/leveling-priority/ 301
+/tw/guides/nanally-guide /tw/guides/nanally-guide/ 301
 /tw/guides/patch-notes /tw/guides/patch-notes/ 301
 /tw/guides/performance-guide /tw/guides/performance-guide/ 301
 /tw/guides/photo-mode-guide /tw/guides/photo-mode-guide/ 301
@@ -993,6 +1011,7 @@
 /tw/materials/warp-pieces /tw/materials/warp-pieces/ 301
 /tw/redeem-codes /tw/redeem-codes/ 301
 /tw/system-requirements /tw/system-requirements/ 301
+/tw/tags/6选1 /tw/tags/6选1/ 301
 /tw/tags/a /tw/tags/a/ 301
 /tw/tags/abyss /tw/tags/abyss/ 301
 /tw/tags/android /tw/tags/android/ 301
@@ -1125,6 +1144,7 @@
 /tw/tags/support /tw/tags/support/ 301
 /tw/tags/system /tw/tags/system/ 301
 /tw/tags/systems /tw/tags/systems/ 301
+/tw/tags/t0 /tw/tags/t0/ 301
 /tw/tags/talent /tw/tags/talent/ 301
 /tw/tags/team /tw/tags/team/ 301
 /tw/tags/team-building /tw/tags/team-building/ 301
@@ -1142,6 +1162,7 @@
 /tw/tags/weapon /tw/tags/weapon/ 301
 /tw/tags/weapons /tw/tags/weapons/ 301
 /tw/tags/下载 /tw/tags/下载/ 301
+/tw/tags/九原 /tw/tags/九原/ 301
 /tw/tags/买房 /tw/tags/买房/ 301
 /tw/tags/优化 /tw/tags/优化/ 301
 /tw/tags/伤害 /tw/tags/伤害/ 301
@@ -1162,6 +1183,7 @@
 /tw/tags/培养 /tw/tags/培养/ 301
 /tw/tags/基础 /tw/tags/基础/ 301
 /tw/tags/天赋 /tw/tags/天赋/ 301
+/tw/tags/娜娜莉 /tw/tags/娜娜莉/ 301
 /tw/tags/安装 /tw/tags/安装/ 301
 /tw/tags/宝箱 /tw/tags/宝箱/ 301
 /tw/tags/属性 /tw/tags/属性/ 301
@@ -1204,10 +1226,13 @@
 /tw/tags/管理 /tw/tags/管理/ 301
 /tw/tags/系统 /tw/tags/系统/ 301
 /tw/tags/终局 /tw/tags/终局/ 301
+/tw/tags/聚怪 /tw/tags/聚怪/ 301
+/tw/tags/自选角色 /tw/tags/自选角色/ 301
 /tw/tags/装修 /tw/tags/装修/ 301
 /tw/tags/装备 /tw/tags/装备/ 301
 /tw/tags/觉醒 /tw/tags/觉醒/ 301
 /tw/tags/角色排行 /tw/tags/角色排行/ 301
+/tw/tags/角色攻略 /tw/tags/角色攻略/ 301
 /tw/tags/评测 /tw/tags/评测/ 301
 /tw/tags/资源 /tw/tags/资源/ 301
 /tw/tags/赛车 /tw/tags/赛车/ 301
@@ -1225,6 +1250,7 @@
 /tw/tags/队伍 /tw/tags/队伍/ 301
 /tw/tags/防护 /tw/tags/防护/ 301
 /tw/tags/阵容 /tw/tags/阵容/ 301
+/tw/tags/限定 /tw/tags/限定/ 301
 /tw/tags/限时 /tw/tags/限时/ 301
 /tw/tags/隐藏任务 /tw/tags/隐藏任务/ 301
 /tw/tags/零氪 /tw/tags/零氪/ 301
@@ -1312,6 +1338,7 @@
 /zh/anomalies/tower-arc-disc /zh/anomalies/tower-arc-disc/ 301
 /zh/blog /zh/blog/ 301
 /zh/blog/day-one-beginner-guide /zh/blog/day-one-beginner-guide/ 301
+/zh/blog/nte-alipay-qualcomm-collab-guide /zh/blog/nte-alipay-qualcomm-collab-guide/ 301
 /zh/blog/nte-all-characters-overview /zh/blog/nte-all-characters-overview/ 301
 /zh/blog/nte-anime-references-easter-eggs /zh/blog/nte-anime-references-easter-eggs/ 301
 /zh/blog/nte-best-settings-guide /zh/blog/nte-best-settings-guide/ 301
@@ -1323,6 +1350,7 @@
 /zh/blog/nte-global-launch-guide /zh/blog/nte-global-launch-guide/ 301
 /zh/blog/nte-launch-6-choose-1 /zh/blog/nte-launch-6-choose-1/ 301
 /zh/blog/nte-launch-collaborations /zh/blog/nte-launch-collaborations/ 301
+/zh/blog/nte-launch-compensation-guide /zh/blog/nte-launch-compensation-guide/ 301
 /zh/blog/nte-launch-free-pulls-breakdown /zh/blog/nte-launch-free-pulls-breakdown/ 301
 /zh/blog/nte-launch-new-features /zh/blog/nte-launch-new-features/ 301
 /zh/blog/nte-launch-review /zh/blog/nte-launch-review/ 301
@@ -1526,6 +1554,7 @@
 /zh/guides/beginner-mistakes /zh/guides/beginner-mistakes/ 301
 /zh/guides/boss-guide /zh/guides/boss-guide/ 301
 /zh/guides/boss-guide-comprehensive /zh/guides/boss-guide-comprehensive/ 301
+/zh/guides/character-selector-guide /zh/guides/character-selector-guide/ 301
 /zh/guides/collectibles-guide /zh/guides/collectibles-guide/ 301
 /zh/guides/daily-routine /zh/guides/daily-routine/ 301
 /zh/guides/damage-formula /zh/guides/damage-formula/ 301
@@ -1544,7 +1573,9 @@
 /zh/guides/game-review /zh/guides/game-review/ 301
 /zh/guides/hidden-quests-chests-guide /zh/guides/hidden-quests-chests-guide/ 301
 /zh/guides/housing-system-guide /zh/guides/housing-system-guide/ 301
+/zh/guides/jiuyuan-guide /zh/guides/jiuyuan-guide/ 301
 /zh/guides/leveling-priority /zh/guides/leveling-priority/ 301
+/zh/guides/nanally-guide /zh/guides/nanally-guide/ 301
 /zh/guides/patch-notes /zh/guides/patch-notes/ 301
 /zh/guides/performance-guide /zh/guides/performance-guide/ 301
 /zh/guides/photo-mode-guide /zh/guides/photo-mode-guide/ 301
@@ -1619,6 +1650,7 @@
 /zh/materials/warp-pieces /zh/materials/warp-pieces/ 301
 /zh/redeem-codes /zh/redeem-codes/ 301
 /zh/system-requirements /zh/system-requirements/ 301
+/zh/tags/6选1 /zh/tags/6选1/ 301
 /zh/tags/a /zh/tags/a/ 301
 /zh/tags/abyss /zh/tags/abyss/ 301
 /zh/tags/android /zh/tags/android/ 301
@@ -1751,6 +1783,7 @@
 /zh/tags/support /zh/tags/support/ 301
 /zh/tags/system /zh/tags/system/ 301
 /zh/tags/systems /zh/tags/systems/ 301
+/zh/tags/t0 /zh/tags/t0/ 301
 /zh/tags/talent /zh/tags/talent/ 301
 /zh/tags/team /zh/tags/team/ 301
 /zh/tags/team-building /zh/tags/team-building/ 301
@@ -1768,6 +1801,7 @@
 /zh/tags/weapon /zh/tags/weapon/ 301
 /zh/tags/weapons /zh/tags/weapons/ 301
 /zh/tags/下载 /zh/tags/下载/ 301
+/zh/tags/九原 /zh/tags/九原/ 301
 /zh/tags/买房 /zh/tags/买房/ 301
 /zh/tags/优化 /zh/tags/优化/ 301
 /zh/tags/伤害 /zh/tags/伤害/ 301
@@ -1788,6 +1822,7 @@
 /zh/tags/培养 /zh/tags/培养/ 301
 /zh/tags/基础 /zh/tags/基础/ 301
 /zh/tags/天赋 /zh/tags/天赋/ 301
+/zh/tags/娜娜莉 /zh/tags/娜娜莉/ 301
 /zh/tags/安装 /zh/tags/安装/ 301
 /zh/tags/宝箱 /zh/tags/宝箱/ 301
 /zh/tags/属性 /zh/tags/属性/ 301
@@ -1830,10 +1865,13 @@
 /zh/tags/管理 /zh/tags/管理/ 301
 /zh/tags/系统 /zh/tags/系统/ 301
 /zh/tags/终局 /zh/tags/终局/ 301
+/zh/tags/聚怪 /zh/tags/聚怪/ 301
+/zh/tags/自选角色 /zh/tags/自选角色/ 301
 /zh/tags/装修 /zh/tags/装修/ 301
 /zh/tags/装备 /zh/tags/装备/ 301
 /zh/tags/觉醒 /zh/tags/觉醒/ 301
 /zh/tags/角色排行 /zh/tags/角色排行/ 301
+/zh/tags/角色攻略 /zh/tags/角色攻略/ 301
 /zh/tags/评测 /zh/tags/评测/ 301
 /zh/tags/资源 /zh/tags/资源/ 301
 /zh/tags/赛车 /zh/tags/赛车/ 301
@@ -1851,6 +1889,7 @@
 /zh/tags/队伍 /zh/tags/队伍/ 301
 /zh/tags/防护 /zh/tags/防护/ 301
 /zh/tags/阵容 /zh/tags/阵容/ 301
+/zh/tags/限定 /zh/tags/限定/ 301
 /zh/tags/限时 /zh/tags/限时/ 301
 /zh/tags/隐藏任务 /zh/tags/隐藏任务/ 301
 /zh/tags/零氪 /zh/tags/零氪/ 301

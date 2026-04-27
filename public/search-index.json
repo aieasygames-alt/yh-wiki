@@ -6156,6 +6156,116 @@
     ]
   },
   {
+    "id": "photo-mode-guide",
+    "name": "异环拍照模式详解 — 构图技巧与隐藏功能",
+    "nameEn": "NTE Photo Mode Guide — Composition Tips and Hidden Features",
+    "type": "guide",
+    "url": "/zh/guides/photo-mode-guide",
+    "tags": [
+      "拍照",
+      "截图",
+      "构图",
+      "photo",
+      "camera"
+    ]
+  },
+  {
+    "id": "photo-mode-guide",
+    "name": "NTE Photo Mode Guide — Composition Tips and Hidden Features",
+    "nameEn": "NTE Photo Mode Guide — Composition Tips and Hidden Features",
+    "type": "guide",
+    "url": "/en/guides/photo-mode-guide",
+    "tags": [
+      "拍照",
+      "截图",
+      "构图",
+      "photo",
+      "camera"
+    ]
+  },
+  {
+    "id": "nanally-guide",
+    "name": "娜娜莉完全攻略 — T0级猫族格斗家配队/弧盘/磁盘推荐",
+    "nameEn": "Nanally Complete Guide — T0 Cat-Fighter Build",
+    "type": "guide",
+    "url": "/zh/guides/nanally-guide",
+    "tags": [
+      "娜娜莉",
+      "角色攻略",
+      "T0",
+      "限定",
+      "配队"
+    ]
+  },
+  {
+    "id": "nanally-guide",
+    "name": "Nanally Complete Guide — T0 Cat-Fighter Build",
+    "nameEn": "Nanally Complete Guide — T0 Cat-Fighter Build",
+    "type": "guide",
+    "url": "/en/guides/nanally-guide",
+    "tags": [
+      "娜娜莉",
+      "角色攻略",
+      "T0",
+      "限定",
+      "配队"
+    ]
+  },
+  {
+    "id": "jiuyuan-guide",
+    "name": "九原完全攻略 — T0级聚怪副C配队/弧盘/磁盘推荐",
+    "nameEn": "Jiuyuan Complete Guide — T0 Grouper & Sub-DPS Build",
+    "type": "guide",
+    "url": "/zh/guides/jiuyuan-guide",
+    "tags": [
+      "九原",
+      "角色攻略",
+      "T0",
+      "聚怪",
+      "6选1"
+    ]
+  },
+  {
+    "id": "jiuyuan-guide",
+    "name": "Jiuyuan Complete Guide — T0 Grouper & Sub-DPS Build",
+    "nameEn": "Jiuyuan Complete Guide — T0 Grouper & Sub-DPS Build",
+    "type": "guide",
+    "url": "/en/guides/jiuyuan-guide",
+    "tags": [
+      "九原",
+      "角色攻略",
+      "T0",
+      "聚怪",
+      "6选1"
+    ]
+  },
+  {
+    "id": "character-selector-guide",
+    "name": "异环6选1自选角色攻略 — 哪个角色最值得选？",
+    "nameEn": "NTE Character Selector Guide — Which to Pick?",
+    "type": "guide",
+    "url": "/zh/guides/character-selector-guide",
+    "tags": [
+      "6选1",
+      "自选角色",
+      "新手",
+      "九原"
+    ]
+  },
+  {
+    "id": "character-selector-guide",
+    "name": "NTE Character Selector Guide — Which to Pick?",
+    "nameEn": "NTE Character Selector Guide — Which to Pick?",
+    "type": "guide",
+    "url": "/en/guides/character-selector-guide",
+    "tags": [
+      "6选1",
+      "自选角色",
+      "新手",
+      "九原"
+    ]
+  },
+  {
     "id": "espers",
     "name": "异能者",
     "nameEn": "Espers",

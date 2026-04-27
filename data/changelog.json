@@ -475,13 +475,17 @@
       "修复部分玩家无法登录的问题",
       "优化移动端帧率表现",
       "修复角色技能异常",
-      "修复部分任务无法完成的BUG"
+      "修复部分任务无法完成的BUG",
+      "修复双倍经验兔子洞Bug，补偿800环石",
+      "公测致歉补偿1600环石"
     ],
     "highlightsEn": [
       "Fixed login issues for some players",
       "Improved mobile frame rate performance",
       "Fixed character skill abnormalities",
-      "Fixed bugs preventing quest completion"
+      "Fixed bugs preventing quest completion",
+      "Fixed Double EXP Rabbit Hole bug, 800 Ring Stones compensated",
+      "Launch apology compensation of 1600 Ring Stones"
     ],
     "sections": [
       {
@@ -523,11 +527,29 @@
             "type": "fix",
             "ref": null,
             "tags": ["任务"]
+          },
+          {
+            "name": "双倍经验兔子洞Bug修复",
+            "nameEn": "Double EXP Rabbit Hole Bug Fix",
+            "description": "修复了双倍经验兔子洞相关Bug，已向玩家补偿800环石。",
+            "descriptionEn": "Fixed the Double EXP Rabbit Hole bug. 800 Ring Stones compensated to all players.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["补偿"]
+          },
+          {
+            "name": "公测致歉补偿",
+            "nameEn": "Launch Apology Compensation",
+            "description": "针对游戏稳定性与移动端表现不足问题，项目组发布致歉公告，补偿1600环石。",
+            "descriptionEn": "Dev team issued apology for stability and mobile performance issues. 1600 Ring Stones compensated.",
+            "type": "compensation",
+            "ref": null,
+            "tags": ["补偿"]
           }
         ]
       }
     ],
-    "compensation": "方斯x200",
+    "compensation": "方斯x200, 环石x2400（含致歉补偿1600+兔子洞Bug补偿800）",
     "internalLinks": [
       "/guides",
       "/characters"
