@@ -31,6 +31,13 @@ export default async function LangLayout({
       <head>
         <meta name="msvalidate.01" content="1FDBEDECCADE86F6C58D3B85E9492A14" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1719881162787470"
+          crossorigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="lazyOnload"
