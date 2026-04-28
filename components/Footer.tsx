@@ -44,6 +44,9 @@ export function Footer() {
         { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },
         { href: `/${lang}/contact`, label: isZhLocale(lang) ? (lang === "tw" ? "聯絡我們" : "联系我们") : "Contact Us" },
+        { href: `/${lang}/about`, label: isZhLocale(lang) ? (lang === "tw" ? "關於我們" : "关于我们") : "About Us" },
+        { href: `/${lang}/privacy-policy`, label: isZhLocale(lang) ? (lang === "tw" ? "隱私政策" : "隐私政策") : "Privacy Policy" },
+        { href: `/${lang}/terms`, label: isZhLocale(lang) ? (lang === "tw" ? "服務條款" : "服务条款") : "Terms of Service" },
       ],
     },
   ];
