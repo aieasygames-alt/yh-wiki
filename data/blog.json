@@ -1037,5 +1037,61 @@
     ],
     "content": "异环公测期间联动活动非常丰富，涵盖多个品牌和线下场景。\n\n## 支付宝联动\n\n### 限定周边（限量开售）\n- 薄荷徽章、娜娜莉挂件、小吱帆布袋\n- 开售时间：4月29日15:00\n- 购买即赠50000方斯\n- 渠道：支付宝搜索「异环」\n\n## 骁龙联动\n\n### 骁友会小程序\n- 微信搜索「骁友会」\n- 完成任务解锁角色海报\n- 参与抽奖赢公测礼包\n\n## 其他联动\n\n- 爆妹表情包：微信/抖音/QQ免费下载\n- Apple授权店：定制角色徽章即将推出\n- 4399游戏盒：下载领永久限定徽章（至5月21日）\n\n## 线下快闪（4/23-4/29）\n\n- 城市：上海、苏州、广州、成都\n- 福利：打卡领周边、集章领文件袋、Q版拍立得透卡\n\n## 注意事项\n\n1. 限定周边数量有限，售完即止\n2. 线下活动4月29日结束\n3. 兑换码有效期不同，领取后尽快使用\n\n*联动信息持续更新中。*",
     "contentEn": "NTE has launched extensive brand collaborations during launch.\n\n## Alipay Collab\n\n### Limited Merch (April 29, 3PM)\n- Mint Badge, Nanally Charm, Xiaozhi Tote\n- Bonus: 50,000 Vons with purchase\n- Search NTE in Alipay\n\n## Snapdragon Collab\n\n- WeChat: Search Xiaoyouhui\n- Complete tasks for character posters\n- Raffle for launch gift packs\n\n## Other Collabs\n\n- Baomei stickers: Free on WeChat/Douyin/QQ\n- Apple Stores: Custom badges coming soon\n- 4399: Download for permanent badge (until May 21)\n\n## Offline Pop-Up (Apr 23-29)\n\n- Cities: Shanghai, Suzhou, Guangzhou, Chengdu\n- Free merch, stamps, Polaroid cards\n\n## Notes\n\n1. Limited stock for merch\n2. Offline events end April 29\n3. Use redeem codes promptly\n\n*Continuously updated.*"
+  },
+  {
+    "id": "nte-global-launch-live-guide",
+    "title": "异环全球服上线实测指南 — 4月29日全平台互通/下载/注意事项",
+    "titleEn": "NTE Global Launch Live Guide — April 29 Cross-Platform & Download Tips",
+    "category": "上线资讯",
+    "categoryZh": "上线资讯",
+    "categoryEn": "Launch News",
+    "date": "2026-04-28",
+    "tags": ["全球服", "上线", "下载", "跨平台"],
+    "summary": "异环全球服4月29日正式上线，支持PC/PS5/iOS/Android/Mac全平台互通。本文提供实测下载指南和首发攻略。",
+    "summaryEn": "NTE global server launches April 29 with full cross-platform play. Live guide with download tips and cross-play notes.",
+    "internalLinks": [
+      {"label": "下载安装指南", "labelEn": "Download Guide", "href": "/guides/download-install-guide"},
+      {"label": "系统配置", "labelEn": "System Requirements", "href": "/guides/performance-guide"},
+      {"label": "新手入门", "labelEn": "Beginner Guide", "href": "/guides/beginner-guide"}
+    ],
+    "content": "异环全球服将于4月29日正式上线！以下是你需要知道的一切。\n\n## 上线时间\n\n- 全球统一上线：2026年4月29日\n- 平台：PC / PS5 / iOS / Android / Mac\n- 全平台互通：进度、角色、货币跨平台共享\n\n## 各平台下载方式\n\n### PC端\n- 官网下载：yh.wanmei.com（约40-60GB，建议SSD）\n\n### PS5\n- PlayStation Store搜索「Neverness to Everness」\n- 支持PS5 Pro增强\n\n### iOS\n- App Store搜索（最低iPhone XS，推荐iPhone 12+）\n\n### Android\n- Google Play（最低骁龙845/6GB RAM，推荐骁龙865+）\n\n## 跨平台互通\n\n- 一个账号全平台登录，进度实时同步\n- 抽卡记录和货币共享\n- PS5需要绑定账号\n\n## 首日必做\n\n1. 完成新手引导（约30分钟）\n2. 领取预注册奖励\n3. 使用兑换码\n4. 新手卡池20抽（自选S级）\n5. 开始推主线，解锁都市大亨\n\n## 注意事项\n\n1. 全球服和CN服数据不互通\n2. 首日服务器可能拥挤\n3. 移动端建议降低画质\n4. 完成教程后优先领取所有邮件奖励",
+    "contentEn": "NTE global server launches April 29! Here's everything you need.\n\n## Launch Info\n\n- Date: April 29, 2026 | Platforms: PC/PS5/iOS/Android/Mac\n- Full cross-platform: Progress, characters, currency shared\n\n## Downloads\n\n- PC: yh.wanmei.com (~40-60GB, SSD recommended)\n- PS5: PlayStation Store (PS5 Pro enhanced)\n- iOS: App Store (iPhone XS min, 12+ recommended)\n- Android: Google Play (SD845 min, 865+ recommended)\n\n## Cross-Platform\n\nOne account, all platforms. Real-time sync. PS5 requires account linking.\n\n## Day-One Checklist\n\n1. Tutorial (~30 min) 2. Pre-reg rewards 3. Redeem codes 4. 20 beginner pulls (free S-rank) 5. Start main story\n\n## Notes\n\nGlobal and CN servers separate. Expect congestion. Lower mobile graphics for stability."
+  },
+  {
+    "id": "nte-v11-preview",
+    "title": "异环1.1版本前瞻 — 新角色翳/呗果/哈尼娅 + Opera GX联动",
+    "titleEn": "NTE v1.1 Preview — Skia/Beiguo/Haniya + Opera GX Collab",
+    "category": "上线资讯",
+    "categoryZh": "上线资讯",
+    "categoryEn": "Launch News",
+    "date": "2026-04-28",
+    "tags": ["1.1版本", "前瞻", "新角色", "翳", "联动"],
+    "summary": "异环1.1版本前瞻：新角色翳（近战主C）、呗果、哈尼娅（免费送），Opera GX和Beard Papa联动详情。",
+    "summaryEn": "NTE v1.1 preview: New characters Skia (melee DPS), Beiguo, Haniya (free), Opera GX and Beard Papa collabs.",
+    "internalLinks": [
+      {"label": "角色图鉴", "labelEn": "Characters", "href": "/characters"},
+      {"label": "更新日志", "labelEn": "Changelog", "href": "/changelog/1.0"}
+    ],
+    "content": "异环1.0版本刚上线，1.1版本内容已在预热中。\n\n## 新角色\n\n### 翳\n- 定位：近战主C（预定）\n- 造型：狼首+西装，野性与冷峻融合\n- 所属：异象管理局禁制机动队四队\n- 期待值极高\n\n### 呗果\n- 具体信息待公布\n\n### 哈尼娅（A级，免费送）\n- 粉毛短裙辣妹造型\n- 1.1版本上线后免费赠送\n\n## 联动\n\n- Opera GX浏览器：游戏内主题+浏览器皮肤\n- Beard Papa甜甜圈：线下门店+游戏内活动\n\n## 更新方向\n\n新角色、联动活动、UE5光影升级、海底隧道新场景、4人联机完善、航拍和免费时装系统\n\n## 抽卡建议\n\nF2P建议保留部分环石等1.1。翳如果是限定角色值得抽取。哈尼娅免费。\n\n*以上信息基于官方预告，实际内容以正式公告为准。*",
+    "contentEn": "NTE v1.0 just launched, but v1.1 is already being teased.\n\n## New Characters\n\n### Skia — Melee DPS (expected)\n- Wolf-head + suit design\n- Anomaly Management Bureau\n- Very high community hype\n\n### Beiguo — Details TBD\n\n### Haniya (A-rank, FREE)\n- Pink-haired, free at v1.1 launch\n\n## Collaborations\n\n- Opera GX: In-game themes + browser skins\n- Beard Papa: Store and in-game collab\n\n## Update Direction\n\nNew characters, collab events, UE5 upgrades, underwater tunnel, co-op improvements, free costumes.\n\n## Pull Planning\n\nSave some Ring Stones for v1.1. Skia worth pulling if limited. Haniya is free.\n\n*Based on official previews. Subject to change.*"
+  },
+  {
+    "id": "nte-launch-deep-review",
+    "title": "异环公测深度评测 — 8.5分诚意之作，但有明显短板",
+    "titleEn": "NTE Launch Deep Review — 8.5/10 Sincere Effort with Notable Flaws",
+    "category": "评测",
+    "categoryZh": "评测",
+    "categoryEn": "Review",
+    "date": "2026-04-28",
+    "tags": ["评测", "评分", "口碑", "深度"],
+    "summary": "公测4天后深度评测：画面8.5、战斗8.5、开放世界8、抽卡9.5，但移动端优化和玩法创新是主要短板。",
+    "summaryEn": "Deep review after 4 days: Graphics 8.5, Combat 8.5, Open World 8, Gacha 9.5. Mobile optimization and innovation are key weaknesses.",
+    "internalLinks": [
+      {"label": "新手入门", "labelEn": "Beginner Guide", "href": "/guides/beginner-guide"},
+      {"label": "系统配置", "labelEn": "System Requirements", "href": "/guides/performance-guide"},
+      {"label": "抽卡攻略", "labelEn": "Gacha Guide", "href": "/guides/gacha-guide"}
+    ],
+    "content": "异环公测已经过去4天，经过充分体验后给出深度评测。\n\n## 总评：8.5/10\n\n## 画面 — 8.5/10\n\nUE5引擎，海特洛城光影效果达到二次元手游天花板。RTX 5090在4K下约90-100帧。不足：移动端优化堪忧，中端手机掉帧严重。\n\n## 战斗 — 8.5/10\n\n弹反机制增加策略深度，元素反应系统有深度，配队有意义。战斗节奏比原神更快。不足：部分角色技能动画较长。\n\n## 开放世界 — 8/10\n\n罕见的现代都市开放世界，100+动漫彩蛋，都市大亨和房屋玩法亮眼。不足：地图面积偏小。\n\n## 剧情与角色 — 8/10\n\n41个可玩角色各具特色，CV阵容强大。不足：部分支线质量参差，二次元味较重。\n\n## 抽卡友好度 — 9.5/10\n\n最大差异化优势：无50/50，90抽保底必出UP，开服470+抽免费资源，都市大亨送免费S级满配。\n\n## 口碑现状\n\n| 平台 | 评分 |\n|------|------|\n| TapTap | 6.1（褒贬不一） |\n| App Store | 4.6/5 |\n| 媒体 | ~7/10 |\n\nTapTap低分主因：移动端优化差、玩法创新不足。\n\n## 官方反应\n\n首日热修v1.0.1，累计补偿约2400环石，持续优化中。\n\n## 结论\n\n诚意十足的都市开放世界RPG。对零氪和微氪玩家是目前最友好的抽卡游戏之一。强烈推荐入坑。",
+    "contentEn": "After 4 days of extensive playtime, our deep review.\n\n## Overall: 8.5/10\n\n## Graphics — 8.5/10\n\nUE5-powered city with ceiling-level lighting. RTX 5090: ~90-100 FPS at 4K. Weakness: Poor mobile optimization.\n\n## Combat — 8.5/10\n\nParry mechanics, deep elemental reactions, meaningful team building. Faster pacing than Genshin.\n\n## Open World — 8/10\n\nRare urban open world, 100+ anime easter eggs, City Tycoon. Map smaller than competitors.\n\n## Gacha — 9.5/10\n\nNo 50/50, 90-pull guaranteed featured, 470+ free pulls, free maxed S-rank from City Tycoon.\n\n## Reception\n\nTapTap: 6.1 | App Store: 4.6/5 | Media: ~7/10\n\nLow TapTap driven by mobile optimization complaints.\n\n## Verdict\n\nSincere urban RPG. Highly recommended, especially for F2P players."
   }
 ]

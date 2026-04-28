@@ -6266,6 +6266,166 @@
     ]
   },
   {
+    "id": "baicang-guide",
+    "name": "白藏完全攻略 — T1级泛用输出配队/弧盘/磁盘推荐",
+    "nameEn": "Baicang Complete Guide — T1 Versatile DPS Build",
+    "type": "guide",
+    "url": "/zh/guides/baicang-guide",
+    "tags": [
+      "白藏",
+      "角色攻略",
+      "T1",
+      "输出",
+      "配队"
+    ]
+  },
+  {
+    "id": "baicang-guide",
+    "name": "Baicang Complete Guide — T1 Versatile DPS Build",
+    "nameEn": "Baicang Complete Guide — T1 Versatile DPS Build",
+    "type": "guide",
+    "url": "/en/guides/baicang-guide",
+    "tags": [
+      "白藏",
+      "角色攻略",
+      "T1",
+      "输出",
+      "配队"
+    ]
+  },
+  {
+    "id": "mint-guide",
+    "name": "薄荷完全攻略 — 高适配性首发辅助配队/弧盘/磁盘推荐",
+    "nameEn": "Mint Complete Guide — High-Compatibility Launch Support Build",
+    "type": "guide",
+    "url": "/zh/guides/mint-guide",
+    "tags": [
+      "薄荷",
+      "角色攻略",
+      "辅助",
+      "治疗",
+      "A级"
+    ]
+  },
+  {
+    "id": "mint-guide",
+    "name": "Mint Complete Guide — High-Compatibility Launch Support Build",
+    "nameEn": "Mint Complete Guide — High-Compatibility Launch Support Build",
+    "type": "guide",
+    "url": "/en/guides/mint-guide",
+    "tags": [
+      "薄荷",
+      "角色攻略",
+      "辅助",
+      "治疗",
+      "A级"
+    ]
+  },
+  {
+    "id": "arc-tier-list",
+    "name": "弧盘(武器)强度排行 — 公测最新T0-T2弧盘推荐",
+    "nameEn": "Arc (Weapon) Tier List — Latest T0-T2 Rankings",
+    "type": "guide",
+    "url": "/zh/guides/arc-tier-list",
+    "tags": [
+      "弧盘",
+      "武器",
+      "排行",
+      "tier-list"
+    ]
+  },
+  {
+    "id": "arc-tier-list",
+    "name": "Arc (Weapon) Tier List — Latest T0-T2 Rankings",
+    "nameEn": "Arc (Weapon) Tier List — Latest T0-T2 Rankings",
+    "type": "guide",
+    "url": "/en/guides/arc-tier-list",
+    "tags": [
+      "弧盘",
+      "武器",
+      "排行",
+      "tier-list"
+    ]
+  },
+  {
+    "id": "disk-set-guide",
+    "name": "磁盘套装详细数据表 — 全套装效果与搭配推荐",
+    "nameEn": "Disk Set Complete Guide — All Set Effects & Build Recommendations",
+    "type": "guide",
+    "url": "/zh/guides/disk-set-guide",
+    "tags": [
+      "磁盘",
+      "圣遗物",
+      "装备",
+      "搭配"
+    ]
+  },
+  {
+    "id": "disk-set-guide",
+    "name": "Disk Set Complete Guide — All Set Effects & Build Recommendations",
+    "nameEn": "Disk Set Complete Guide — All Set Effects & Build Recommendations",
+    "type": "guide",
+    "url": "/en/guides/disk-set-guide",
+    "tags": [
+      "磁盘",
+      "圣遗物",
+      "装备",
+      "搭配"
+    ]
+  },
+  {
+    "id": "money-making-guide",
+    "name": "异环赚钱攻略 — 信用点/方斯最优获取路线",
+    "nameEn": "NTE Money Making Guide — Credit & Vons Farming Routes",
+    "type": "guide",
+    "url": "/zh/guides/money-making-guide",
+    "tags": [
+      "赚钱",
+      "信用点",
+      "方斯",
+      "刷材料"
+    ]
+  },
+  {
+    "id": "money-making-guide",
+    "name": "NTE Money Making Guide — Credit & Vons Farming Routes",
+    "nameEn": "NTE Money Making Guide — Credit & Vons Farming Routes",
+    "type": "guide",
+    "url": "/en/guides/money-making-guide",
+    "tags": [
+      "赚钱",
+      "信用点",
+      "方斯",
+      "刷材料"
+    ]
+  },
+  {
+    "id": "shop-exchange-guide",
+    "name": "商店兑换优先级攻略 — 各商店最优兑换顺序",
+    "nameEn": "Shop Exchange Priority Guide — Best Items to Buy First",
+    "type": "guide",
+    "url": "/zh/guides/shop-exchange-guide",
+    "tags": [
+      "商店",
+      "兑换",
+      "优先级",
+      "货币"
+    ]
+  },
+  {
+    "id": "shop-exchange-guide",
+    "name": "Shop Exchange Priority Guide — Best Items to Buy First",
+    "nameEn": "Shop Exchange Priority Guide — Best Items to Buy First",
+    "type": "guide",
+    "url": "/en/guides/shop-exchange-guide",
+    "tags": [
+      "商店",
+      "兑换",
+      "优先级",
+      "货币"
+    ]
+  },
+  {
     "id": "espers",
     "name": "异能者",
     "nameEn": "Espers",
