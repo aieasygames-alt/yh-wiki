@@ -251,16 +251,15 @@
     "relatedLore": "Related Lore"
   },
   "weapons": {
-    "title": "NTE Weapons - All 42 Weapon Types & Best Characters",
-    "description": "Complete Neverness to Everness weapon database covering all 42 weapon types, stats, skills, and best character matchups",
+    "title": "NTE Arc Disks - All 42 Arcs Stats & Best Characters",
+    "description": "Complete Neverness to Everness Arc Disk database covering all 42 arcs with ATK, substats, passive effects, and best character matchups",
     "type": "Type",
-    "relatedCharacters": "Used By",
-    "melee": "Melee",
-    "ranged": "Ranged",
-    "magic": "Esper",
-    "companion": "Companion",
-    "summon": "Summon",
-    "support": "Support"
+    "relatedCharacters": "Best Characters",
+    "gas": "Gas",
+    "liquid": "Liquid",
+    "plasma": "Plasma",
+    "solid": "Solid",
+    "synthesis": "Synthesis"
   },
   "blog": {
     "title": "Blog",

@@ -251,16 +251,15 @@
     "relatedLore": "相關世界觀"
   },
   "weapons": {
-    "title": "異環武器大全 - 全武器類型與適用角色",
-    "description": "異環全42把武器詳解，包含格鬥、伴生體、異能、遠程等類型武器屬性、技能及最佳適用角色推薦",
+    "title": "異環弧盤大全 - 全42把弧盤屬性與獲取方式",
+    "description": "異環全42把弧盤詳解，包含S級、A級、B級弧盤屬性、被動效果、精煉數據及獲取方式",
     "type": "類型",
-    "relatedCharacters": "使用角色",
-    "melee": "近戰",
-    "ranged": "遠程",
-    "magic": "異能",
-    "companion": "伴生體",
-    "summon": "召喚",
-    "support": "輔助"
+    "relatedCharacters": "適配角色",
+    "gas": "氣體",
+    "liquid": "液體",
+    "plasma": "電漿",
+    "solid": "固體",
+    "synthesis": "合成"
   },
   "blog": {
     "title": "部落格",

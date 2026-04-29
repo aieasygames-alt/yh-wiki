@@ -5,8 +5,8 @@
     "nameEn": "Nanally",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "格斗",
-    "weaponEn": "Fangs and Claws",
+    "weapon": "等离子",
+    "weaponEn": "Plasma",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -213,7 +213,9 @@
     "cvZh": "宋媛媛",
     "cvJp": "竹達彩奈",
     "cvJpEn": "Ayana Taketatsu",
-    "cvEn": "Brittany Lauda"
+    "cvEn": "Brittany Lauda",
+    "arcType": "plasma",
+    "signatureArc": "ready-ready"
   },
   {
     "id": "sakiri",
@@ -221,8 +223,8 @@
     "nameEn": "Sakiri",
     "attribute": "incantation",
     "rank": "S",
-    "weapon": "桐丸",
-    "weaponEn": "Kiroumaru",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
@@ -385,7 +387,9 @@
     "nameTw": "咲里",
     "cvJp": "伊藤美来",
     "cvJpEn": "Miku Ito",
-    "cvEn": "Brianna Knickerbocker"
+    "cvEn": "Brianna Knickerbocker",
+    "arcType": "gas",
+    "signatureArc": ""
   },
   {
     "id": "fadia",
@@ -393,8 +397,8 @@
     "nameEn": "Fadia",
     "attribute": "psyche",
     "rank": "S",
-    "weapon": "变形十字盾",
-    "weaponEn": "Transforming Cross-Shield",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -596,7 +600,9 @@
     "cvJp": "真堂圭",
     "cvJpEn": "Kei Shindo",
     "cvEn": "Amber Lee Connors",
-    "trait": "投身损耗的迷狂"
+    "trait": "投身损耗的迷狂",
+    "arcType": "synthesis",
+    "signatureArc": "eternal-waltz"
   },
   {
     "id": "lacrimosa",
@@ -604,8 +610,8 @@
     "nameEn": "Lacrimosa",
     "attribute": "chaos",
     "rank": "S",
-    "weapon": "异能构装体",
-    "weaponEn": "Esper Constructs",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -815,7 +821,9 @@
     "cvJp": "長縄まりあ",
     "cvJpEn": "Maria Naganawa",
     "cvEn": "Baraka May",
-    "trait": "高难度梦游"
+    "trait": "高难度梦游",
+    "arcType": "synthesis",
+    "signatureArc": ""
   },
   {
     "id": "baicang",
@@ -823,8 +831,8 @@
     "nameEn": "Baicang",
     "attribute": "incantation",
     "rank": "S",
-    "weapon": "言灵之力",
-    "weaponEn": "Power of Words",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "防护",
     "roleEn": "Defense",
     "faction": "ETD-4",
@@ -1034,7 +1042,9 @@
     "cvJp": "中村悠一",
     "cvJpEn": "Yuichi Nakamura",
     "cvEn": "Griffin Burns",
-    "trait": "言灵使"
+    "trait": "言灵使",
+    "arcType": "synthesis",
+    "signatureArc": "camellia-society"
   },
   {
     "id": "zero-male",
@@ -1042,8 +1052,8 @@
     "nameEn": "Zero (Male)",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "剑",
-    "weaponEn": "Sword",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -1250,7 +1260,9 @@
     "nameTw": "零（男）",
     "cvZh": "马洋",
     "cvJp": "内田雄马",
-    "cvJpEn": "Yuma Uchida"
+    "cvJpEn": "Yuma Uchida",
+    "arcType": "solid",
+    "signatureArc": "day-off"
   },
   {
     "id": "zero-female",
@@ -1258,8 +1270,8 @@
     "nameEn": "Zero (Female)",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "剑",
-    "weaponEn": "Sword",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -1466,7 +1478,9 @@
     "nameTw": "零（女）",
     "cvZh": "曹彤",
     "cvJp": "内田真礼",
-    "cvJpEn": "Maaya Uchida"
+    "cvJpEn": "Maaya Uchida",
+    "arcType": "solid",
+    "signatureArc": "day-off"
   },
   {
     "id": "hotori",
@@ -1474,8 +1488,8 @@
     "nameEn": "Hotori",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "唐伞刀",
-    "weaponEn": "Umbrella Katana",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -1676,7 +1690,9 @@
     "cvJp": "伊藤静",
     "cvJpEn": "Shizuka Ito",
     "cvEn": "Lindsay Sheppard",
-    "trait": "凝雪之仪"
+    "trait": "凝雪之仪",
+    "arcType": "gas",
+    "signatureArc": "tears-beneath-the-mask"
   },
   {
     "id": "daffodil",
@@ -1684,8 +1700,8 @@
     "nameEn": "Daffodil",
     "attribute": "chaos",
     "rank": "S",
-    "weapon": "液态弧光",
-    "weaponEn": "Liquid-type Arc",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -1836,7 +1852,9 @@
     "cvZh": "陈彦亦",
     "cvJp": "大原さやか",
     "cvJpEn": "Sayaka Ohara",
-    "cvEn": "Natalie Van Sistine"
+    "cvEn": "Natalie Van Sistine",
+    "arcType": "liquid",
+    "signatureArc": "youthful-fantasy"
   },
   {
     "id": "jiuyuan",
@@ -1844,8 +1862,8 @@
     "nameEn": "Jiuyuan",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "载具",
-    "weaponEn": "Vehicle",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "辅助",
     "roleEn": "Utility",
     "faction": "Sterry Express",
@@ -1999,7 +2017,9 @@
     "cvZh": "张安琪",
     "cvJp": "田中理恵",
     "cvJpEn": "Rie Tanaka",
-    "cvEn": "Baraka May"
+    "cvEn": "Baraka May",
+    "arcType": "solid",
+    "signatureArc": "reality-refuge"
   },
   {
     "id": "haniel",
@@ -2007,8 +2027,8 @@
     "nameEn": "Haniel",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "音响",
-    "weaponEn": "Speaker",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "支援",
     "roleEn": "Support",
     "faction": "Sterry Express",
@@ -2209,7 +2229,9 @@
     "cvZh": "苏子芜",
     "cvJp": "石見舞菜香",
     "cvJpEn": "Manaka Iwami",
-    "cvEn": "Alexis Tipton"
+    "cvEn": "Alexis Tipton",
+    "arcType": "solid",
+    "signatureArc": "blow-up-the-crowd"
   },
   {
     "id": "adler",
@@ -2217,8 +2239,8 @@
     "nameEn": "Adler",
     "attribute": "incantation",
     "rank": "A",
-    "weapon": "杖剑与 Sunyas",
-    "weaponEn": "Cane Sword and Sunyas",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -2381,7 +2403,9 @@
     "cvZh": "王宇航",
     "cvJp": "森川智之",
     "cvJpEn": "Toshiyuki Morikawa",
-    "cvEn": "Jacob Craner"
+    "cvEn": "Jacob Craner",
+    "arcType": "synthesis",
+    "signatureArc": ""
   },
   {
     "id": "skia",
@@ -2389,8 +2413,8 @@
     "nameEn": "Skia",
     "attribute": "lakshana",
     "rank": "A",
-    "weapon": "影操控",
-    "weaponEn": "Shadow Manipulation",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Bureau of Anomaly Control (ETD-4)",
@@ -2548,7 +2572,9 @@
     "cvJp": "杉田智和",
     "cvJpEn": "Tomokazu Sugita",
     "cvEn": "Bill Butts",
-    "trait": "影子执法者"
+    "trait": "影子执法者",
+    "arcType": "gas",
+    "signatureArc": ""
   },
   {
     "id": "edgar",
@@ -2556,8 +2582,8 @@
     "nameEn": "Edgar",
     "attribute": "cosmos",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
@@ -2715,7 +2741,9 @@
     "cvJp": "三瓶由布子",
     "cvJpEn": "Yuko Sanpei",
     "cvEn": "Casey Mongillo",
-    "trait": "灯校优等生"
+    "trait": "灯校优等生",
+    "arcType": "liquid",
+    "signatureArc": ""
   },
   {
     "id": "mint",
@@ -2723,8 +2751,8 @@
     "nameEn": "Mint",
     "attribute": "anima",
     "rank": "A",
-    "weapon": "双刃",
-    "weaponEn": "Dual Blades",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "支援",
     "roleEn": "Support",
     "faction": "Bureau of Anomaly Control (ETD-2)",
@@ -2931,7 +2959,9 @@
     "cvZh": "陈雨",
     "cvJp": "鬼頭明里",
     "cvJpEn": "Akari Kito",
-    "cvEn": "Brianna Knickerbocker"
+    "cvEn": "Brianna Knickerbocker",
+    "arcType": "liquid",
+    "signatureArc": ""
   },
   {
     "id": "nelly",
@@ -2939,8 +2969,8 @@
     "nameEn": "Nelly",
     "attribute": "anima",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "支援",
     "roleEn": "Support",
     "faction": "异常控制局",
@@ -3100,7 +3130,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper.",
     "status": "available",
-    "nameTw": "奈莉"
+    "nameTw": "奈莉",
+    "arcType": "gas",
+    "signatureArc": ""
   },
   {
     "id": "merula",
@@ -3108,8 +3140,8 @@
     "nameEn": "Merula",
     "attribute": "lakshana",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "等离子",
+    "weaponEn": "Plasma",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "异常控制局",
@@ -3269,7 +3301,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A Lakshana-attribute Esper, potentially S-rank according to Wiki data. Full details to be confirmed upon the game's official launch.",
     "status": "available",
-    "nameTw": "梅露拉"
+    "nameTw": "梅露拉",
+    "arcType": "plasma",
+    "signatureArc": ""
   },
   {
     "id": "alphard",
@@ -3277,8 +3311,8 @@
     "nameEn": "Alphard",
     "attribute": "lakshana",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "待定",
     "roleEn": "TBD",
     "faction": "异常控制局",
@@ -3438,7 +3472,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed.",
     "status": "available",
-    "nameTw": "阿爾法德"
+    "nameTw": "阿爾法德",
+    "arcType": "liquid",
+    "signatureArc": ""
   },
   {
     "id": "taygedo",
@@ -3446,8 +3482,8 @@
     "nameEn": "Taygedo",
     "attribute": "cosmos",
     "rank": "A",
-    "weapon": "构装体",
-    "weaponEn": "Construct",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
@@ -3607,7 +3643,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
     "status": "available",
-    "nameTw": "泰格多"
+    "nameTw": "泰格多",
+    "arcType": "synthesis",
+    "signatureArc": ""
   },
   {
     "id": "hathor",
@@ -3615,8 +3653,8 @@
     "nameEn": "Hathor",
     "attribute": "lakshana",
     "rank": "S",
-    "weapon": "刃翼",
-    "weaponEn": "Blade Wings",
+    "weapon": "等离子",
+    "weaponEn": "Plasma",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Sterry Express",
@@ -3829,7 +3867,9 @@
     "cvZh": "洪海天",
     "cvJp": "市ノ瀬加那",
     "cvJpEn": "Kana Ichinose",
-    "cvEn": "Allegra Clark"
+    "cvEn": "Allegra Clark",
+    "arcType": "plasma",
+    "signatureArc": "raging-flames"
   },
   {
     "id": "chiz",
@@ -3837,8 +3877,8 @@
     "nameEn": "Chiz",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "妖锤",
-    "weaponEn": "Yokai Hammer",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Pink Paws",
@@ -4001,7 +4041,9 @@
     "nameTw": "赤子",
     "cvJp": "古賀葵",
     "cvJpEn": "Konomi Kohara",
-    "cvEn": "Alice Himora"
+    "cvEn": "Alice Himora",
+    "arcType": "gas",
+    "signatureArc": ""
   },
   {
     "id": "lilina",
@@ -4009,8 +4051,8 @@
     "nameEn": "Lilina",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "待定",
     "roleEn": "TBD",
     "faction": "Eibon Antique Shop",
@@ -4170,7 +4212,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "The top star of the Eibon Antique Shop, featured on the official website. Full details to be confirmed upon the game's official launch.",
     "status": "available",
-    "nameTw": "莉莉娜"
+    "nameTw": "莉莉娜",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "lingko",
@@ -4178,8 +4222,8 @@
     "nameEn": "Lingko",
     "attribute": "incantation",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "异常控制局",
@@ -4339,7 +4383,9 @@
     "acquisitionMethod": "future",
     "descriptionEn": "A character appearing in the game's trailer, an Incantation-attribute Esper. Full details await the official launch.",
     "status": "available",
-    "nameTw": "凛子"
+    "nameTw": "凛子",
+    "arcType": "liquid",
+    "signatureArc": ""
   },
   {
     "id": "mismo",
@@ -4347,8 +4393,8 @@
     "nameEn": "Mismo",
     "attribute": "chaos",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "支援",
     "roleEn": "Support",
     "faction": "星铁快递",
@@ -4508,7 +4554,9 @@
     "acquisitionMethod": "future",
     "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch.",
     "status": "available",
-    "nameTw": "密斯莫"
+    "nameTw": "密斯莫",
+    "arcType": "synthesis",
+    "signatureArc": ""
   },
   {
     "id": "shinku",
@@ -4516,8 +4564,8 @@
     "nameEn": "Shinku",
     "attribute": "anima",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "等离子",
+    "weaponEn": "Plasma",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "异常控制局",
@@ -4677,7 +4725,9 @@
     "acquisitionMethod": "future",
     "descriptionEn": "A character from the Co-Ex beta test, an Anima-attribute Esper. Full details await the official launch.",
     "status": "available",
-    "nameTw": "沁紅"
+    "nameTw": "沁紅",
+    "arcType": "plasma",
+    "signatureArc": ""
   },
   {
     "id": "nitsa",
@@ -4685,8 +4735,8 @@
     "nameEn": "Nitsa",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "支援",
     "roleEn": "Support",
     "faction": "星铁快递",
@@ -4846,7 +4896,9 @@
     "acquisitionMethod": "future",
     "descriptionEn": "A character from the beta test, a Psyche-attribute Esper. Full details await the official launch.",
     "status": "available",
-    "nameTw": "尼察"
+    "nameTw": "尼察",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "black-bird",
@@ -4854,8 +4906,8 @@
     "nameEn": "Black Bird",
     "attribute": "chaos",
     "rank": "S",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -5015,7 +5067,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A datamined character, a Chaos-attribute S-rank Esper. Full details to be confirmed; may appear in the official launch.",
     "status": "available",
-    "nameTw": "黑鳥"
+    "nameTw": "黑鳥",
+    "arcType": "gas",
+    "signatureArc": ""
   },
   {
     "id": "xiaozhen",
@@ -5023,8 +5077,8 @@
     "nameEn": "Xiaozhen",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -5184,7 +5238,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A datamined character, an Anima-attribute S-rank Esper. Full details to be confirmed.",
     "status": "available",
-    "nameTw": "明虎"
+    "nameTw": "明虎",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "akane",
@@ -5192,8 +5248,8 @@
     "nameEn": "Akane",
     "attribute": "incantation",
     "rank": "S",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "等离子",
+    "weaponEn": "Plasma",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -5356,7 +5412,9 @@
     "nameTw": "赤音",
     "cvJp": "TBA",
     "cvJpEn": "TBA",
-    "cvEn": "Cristina Vee"
+    "cvEn": "Cristina Vee",
+    "arcType": "plasma",
+    "signatureArc": ""
   },
   {
     "id": "jenson",
@@ -5364,8 +5422,8 @@
     "nameEn": "Jenson",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "防护",
     "roleEn": "Defense",
     "faction": "异常管理局",
@@ -5525,7 +5583,9 @@
     "acquisitionMethod": "future",
     "descriptionEn": "A character sourced from community data, a Psyche-attribute Esper. Full details to be confirmed.",
     "status": "available",
-    "nameTw": "詹森"
+    "nameTw": "詹森",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "illica",
@@ -5533,8 +5593,8 @@
     "nameEn": "Illica",
     "attribute": "lakshana",
     "rank": "S",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "等离子",
+    "weaponEn": "Plasma",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -5694,7 +5754,9 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch.",
     "status": "available",
-    "nameTw": "伊利卡"
+    "nameTw": "伊利卡",
+    "arcType": "plasma",
+    "signatureArc": ""
   },
   {
     "id": "fuuka",
@@ -5702,8 +5764,8 @@
     "nameEn": "Fuuka",
     "attribute": "anima",
     "rank": "A",
-    "weapon": "近战",
-    "weaponEn": "Melee",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "辅助",
     "roleEn": "Support",
     "faction": "星铁快递",
@@ -5863,7 +5925,9 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "status": "available",
-    "nameTw": "風花"
+    "nameTw": "風花",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "crow",
@@ -5871,8 +5935,8 @@
     "nameEn": "Crow",
     "attribute": "chaos",
     "rank": "S",
-    "weapon": "远程",
-    "weaponEn": "Ranged",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "输出",
     "roleEn": "DPS",
     "faction": "圆环",
@@ -6032,7 +6096,9 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "status": "available",
-    "nameTw": "克勞"
+    "nameTw": "克勞",
+    "arcType": "liquid",
+    "signatureArc": ""
   },
   {
     "id": "renee",
@@ -6040,8 +6106,8 @@
     "nameEn": "Renee",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "异能",
-    "weaponEn": "Esper",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "辅助",
     "roleEn": "Support",
     "faction": "异常管理局",
@@ -6201,7 +6267,9 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "status": "available",
-    "nameTw": "蕾妮"
+    "nameTw": "蕾妮",
+    "arcType": "synthesis",
+    "signatureArc": ""
   },
   {
     "id": "goro",
@@ -6209,8 +6277,8 @@
     "nameEn": "Goro",
     "attribute": "incantation",
     "rank": "A",
-    "weapon": "近战",
-    "weaponEn": "Melee",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "输出",
     "roleEn": "DPS",
     "faction": "异常管理局",
@@ -6370,7 +6438,9 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "status": "available",
-    "nameTw": "吾郎"
+    "nameTw": "吾郎",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "marina",
@@ -6378,8 +6448,8 @@
     "nameEn": "Marina",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "召唤",
-    "weaponEn": "Summon",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "输出",
     "roleEn": "DPS",
     "faction": "异常管理局",
@@ -6539,7 +6609,9 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "status": "available",
-    "nameTw": "瑪麗娜"
+    "nameTw": "瑪麗娜",
+    "arcType": "liquid",
+    "signatureArc": ""
   },
   {
     "id": "kaito",
@@ -6547,8 +6619,8 @@
     "nameEn": "Kaito",
     "attribute": "lakshana",
     "rank": "A",
-    "weapon": "近战",
-    "weaponEn": "Melee",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "输出",
     "roleEn": "DPS",
     "faction": "异常管理局",
@@ -6708,7 +6780,9 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "status": "available",
-    "nameTw": "海斗"
+    "nameTw": "海斗",
+    "arcType": "gas",
+    "signatureArc": ""
   },
   {
     "id": "sylphy",
@@ -6716,8 +6790,8 @@
     "nameEn": "Sylphy",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "伴生体",
-    "weaponEn": "Companion",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
     "role": "辅助",
     "roleEn": "Support",
     "faction": "星铁快递",
@@ -6877,7 +6951,9 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "gacha",
     "status": "available",
-    "nameTw": "希爾菲"
+    "nameTw": "希爾菲",
+    "arcType": "synthesis",
+    "signatureArc": ""
   },
   {
     "id": "aurelia",
@@ -6885,8 +6961,8 @@
     "nameEn": "Aurelia",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "待定",
-    "weaponEn": "TBD",
+    "weapon": "固体",
+    "weaponEn": "Solid",
     "role": "支援",
     "roleEn": "Support",
     "faction": "圆环",
@@ -6922,7 +6998,9 @@
     "image": "/images/characters/aurelia.webp",
     "descriptionEn": "A newly added A-rank character for the official launch. Full details to be updated after launch.",
     "status": "available",
-    "nameTw": "奧蕾莉亞"
+    "nameTw": "奧蕾莉亞",
+    "arcType": "solid",
+    "signatureArc": ""
   },
   {
     "id": "xiaozhi",
@@ -6930,8 +7008,8 @@
     "nameEn": "Xiaozhi",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "短杖",
-    "weaponEn": "Wand",
+    "weapon": "气体",
+    "weaponEn": "Gas",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -6991,7 +7069,9 @@
     "nameTw": "小吱",
     "cvZh": "则灵",
     "cvJp": "小原好美",
-    "cvJpEn": "Konomi Kohara"
+    "cvJpEn": "Konomi Kohara",
+    "arcType": "gas",
+    "signatureArc": "contemplative-cat"
   },
   {
     "id": "xun",
@@ -6999,8 +7079,8 @@
     "nameEn": "Xun",
     "attribute": "cosmos",
     "rank": "S",
-    "weapon": "太刀",
-    "weaponEn": "Tachi",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "鬼兰商会",
@@ -7135,6 +7215,8 @@
     "acquisitionMethod": "gacha",
     "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor who runs an antique shop.",
     "status": "available",
-    "nameTw": "浔"
+    "nameTw": "浔",
+    "arcType": "liquid",
+    "signatureArc": "clear-skies"
   }
 ]

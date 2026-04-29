@@ -227,14 +227,24 @@ export function getFaqCategories(locale: Locale): { slug: string; name: string }
 export interface Weapon {
   id: string;
   name: string;
+  nameTw: string;
   nameEn: string;
+  rank: string;
   type: string;
-  description: string;
-  descriptionEn: string;
-  relatedCharacters: string[];
-  faq?: FaqItem[];
-  bestFor?: string;
-  bestForZh?: string;
+  baseAtk: number;
+  substat: string;
+  substatValue: string;
+  effectName: string;
+  effectNameTw: string;
+  effectNameEn: string;
+  effectDescription: string;
+  effectDescriptionTw: string;
+  effectDescriptionEn: string;
+  howToObtain: string;
+  howToObtainZh: string;
+  howToObtainEn: string;
+  signatureCharacter: string;
+  status: string;
 }
 
 export function getAllWeapons(): Weapon[] {
@@ -248,7 +258,37 @@ export function getWeapon(slug: string): Weapon | undefined {
 export function getCharactersUsingWeapon(weaponId: string): Character[] {
   const weapon = getWeapon(weaponId);
   if (!weapon) return [];
-  return getAllCharacters().filter((c) => weapon.relatedCharacters.includes(c.id));
+  const chars = getAllCharacters();
+  const result: Character[] = [];
+
+  // Add signature character first
+  if (weapon.signatureCharacter) {
+    const sig = chars.find(c => c.id === weapon.signatureCharacter);
+    if (sig) result.push(sig);
+  }
+
+  // Add other characters with matching arc type
+  chars.forEach(c => {
+    if ((c as any).arcType === weapon.type && c.id !== weapon.signatureCharacter) {
+      result.push(c);
+    }
+  });
+
+  return result;
+}
+
+export function getWeaponsByType(type: string): Weapon[] {
+  return getAllWeapons().filter(w => w.type === type);
+}
+
+export function getWeaponsByRank(rank: string): Weapon[] {
+  return getAllWeapons().filter(w => w.rank === rank);
+}
+
+export function getWeaponsForCharacter(characterId: string): Weapon[] {
+  const char = getCharacter(characterId);
+  if (!char || !(char as any).arcType) return [];
+  return getAllWeapons().filter(w => w.type === (char as any).arcType);
 }
 
 // Guide types and queries

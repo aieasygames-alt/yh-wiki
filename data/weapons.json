@@ -1,1396 +1,926 @@
 [
   {
-    "id": "fangs-and-claws",
-    "name": "格斗",
-    "nameEn": "Fangs and Claws",
-    "type": "melee",
-    "description": "以利爪进行高速近身格斗的武器类型，兼具攻击速度与机动性。",
-    "descriptionEn": "A weapon type for high-speed close combat using claws, combining attack speed with mobility.",
-    "relatedCharacters": [
-      "nanally"
-    ],
-    "faq": [
-      {
-        "question": "Is Fangs and Claws good in Neverness to Everness?",
-        "questionZh": "格斗好用吗？",
-        "answer": "Fangs and Claws is a melee weapon in Neverness to Everness. A weapon type for high-speed close combat using claws, combining attack speed with mobility. 格斗是娜娜莉的专属武器类型，目前仅娜娜莉使用。作为S级限定角色专武，强度在T0级别。",
-        "answerZh": "格斗是异环中的melee类型武器。以利爪进行高速近身格斗的武器类型，兼具攻击速度与机动性。 格斗是娜娜莉的专属武器类型，目前仅娜娜莉使用。作为S级限定角色专武，强度在T0级别。"
-      },
-      {
-        "question": "How to get Fangs and Claws in Neverness to Everness?",
-        "questionZh": "如何获得格斗？",
-        "answer": "Nanally's signature weapon, obtainable from the limited banner. S-rank weapon rate 0.6%, pity at 90 pulls.",
-        "answerZh": "娜娜莉专属武器，通过限定祈愿池获取。抽取概率S级武器0.6%，保底90抽。"
-      },
-      {
-        "question": "What is the best alternative to Fangs and Claws?",
-        "questionZh": "格斗的最佳替代武器是什么？",
-        "answer": "A-rank alternatives: Basic Claws (main story free), Split Claws (crafting). Max refine Basic Claws is ~65% of signature.",
-        "answerZh": "格斗类型A级替代：利爪初型（主线赠送）、裂爪（锻造获取）。满精利爪初型约为专武的65%。"
-      }
-    ],
-    "bestFor": "Nanally",
-    "bestForZh": "娜娜莉",
-    "image": "/images/weapons/fangs-and-claws.webp"
+    "id": "blow-up-the-crowd",
+    "name": "引爆全场",
+    "nameTw": "引爆全場",
+    "nameEn": "Blow up the Crowd",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "热狂涡",
+    "effectNameTw": "熱狂渦",
+    "effectNameEn": "Raging Vortex",
+    "effectDescription": "后台时活跃角色ATK+10%+2%/层(最多4层)，每2秒触发1次，站场时重置。站场时灵魂伤害+12%+2%/层(最多10层)，每0.3秒触发1次，切换角色时重置。",
+    "effectDescriptionTw": "後台時活躍角色ATK+10%+2%/層(最多4層)，每2秒觸發1次，站場時重置。站場時靈魂傷害+12%+2%/層(最多10層)，每0.3秒觸發1次，切換角色時重置。",
+    "effectDescriptionEn": "While off-field, increases active character ATK by 10% + 2%/stack (max 4), triggering every 2s. Resets when on-field. While on-field, increases Psyche DMG by 12% + 2%/stack (max 10), triggering every 0.3s. Resets when switching.",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "完成绘空町异象委托「律动大师」，击败Boss",
+    "howToObtainEn": "Complete Heterocity Anomaly Commission Rhythm Master, defeat boss",
+    "signatureCharacter": "haniel",
+    "status": "available"
   },
   {
-    "id": "kiroumaru",
-    "name": "桐丸",
-    "nameEn": "Kiroumaru",
-    "type": "companion",
-    "description": "咲里的异常伴生体桐丸，贪吃的奇异生物，与咲里协同作战。",
-    "descriptionEn": "Sakiri's anomalous companion Kiroumaru, a gluttonous creature that fights alongside her.",
-    "relatedCharacters": [
-      "sakiri"
-    ],
-    "faq": [
-      {
-        "question": "Is Kiroumaru good in Neverness to Everness?",
-        "questionZh": "桐丸好用吗？",
-        "answer": "Kiroumaru is a companion weapon in Neverness to Everness. Sakiri's anomalous companion Kiroumaru, a gluttonous creature that fights alongside her. 伴生体类型武器与角色绑定，不可更换。桐丸提供灵属性共鸣增益。",
-        "answerZh": "桐丸是异环中的companion类型武器。咲里的异常伴生体桐丸，贪吃的奇异生物，与咲里协同作战。 伴生体类型武器与角色绑定，不可更换。桐丸提供灵属性共鸣增益。"
-      },
-      {
-        "question": "How to get Kiroumaru in Neverness to Everness?",
-        "questionZh": "如何获得桐丸？",
-        "answer": "Sakiri's companion Kiroumaru, unlocked with the character. No additional acquisition needed.",
-        "answerZh": "咲里的伴生体桐丸，随角色一起解锁，无需额外获取。"
-      },
-      {
-        "question": "What is the best alternative to Kiroumaru?",
-        "questionZh": "桐丸的最佳替代武器是什么？",
-        "answer": "Kiroumaru is Sakiri's exclusive companion, no alternative. Sakiri from standard banner.",
-        "answerZh": "桐丸是咲里专属伴生体，无替代武器。咲里通过祈愿获取（常驻池）。"
-      }
-    ],
-    "bestFor": "Sakiri",
-    "bestForZh": "咲里",
-    "image": "/images/weapons/kiroumaru.webp"
+    "id": "camellia-society",
+    "name": "茶花会",
+    "nameTw": "茶花會",
+    "nameEn": "Camellia Society",
+    "rank": "S",
+    "type": "synthesis",
+    "baseAtk": 666,
+    "substat": "critRate",
+    "substatValue": "12%",
+    "effectName": "静默庭院",
+    "effectNameTw": "靜默庭院",
+    "effectNameEn": "Silent Garden",
+    "effectDescription": "HP不因受伤减少时暴伤+12%~20%持续5秒，最多4层。解锁弧盘·静默庭院：消耗5%当前HP，随机发动苛责(5次咒术伤害24%~40%ATK)或絮叨(6次咒术伤害18%~30%ATK，末次双倍)(CD 25秒)。",
+    "effectDescriptionTw": "HP不因受傷減少時暴傷+12%~20%持續5秒，最多4層。解鎖弧盤·靜默庭院：消耗5%當前HP，隨機發動苛責(5次咒術傷害24%~40%ATK)或絮叨(6次咒術傷害18%~30%ATK，末次雙倍)(CD 25秒)。",
+    "effectDescriptionEn": "Increases CRIT DMG by 12-20% for 5s when HP is reduced without taking damage, up to 4 stacks. Unlocks Arc: Silent Garden - consumes 5% HP, randomly performs Harsh Rebuke (5x Incantation DMG 24-40% ATK) or Incessant Nagging (6x 18-30% ATK, final hit 2x) (CD 25s).",
+    "howToObtain": "free-boss",
+    "howToObtainZh": "击败世界Boss塞润尼缇；完成番外「不言不知秋」",
+    "howToObtainEn": "Defeat World Boss Sereniti; complete Extra Chapter",
+    "signatureCharacter": "baicang",
+    "status": "available"
   },
   {
-    "id": "transforming-cross-shield",
-    "name": "变形十字盾",
-    "nameEn": "Transforming Cross-Shield",
-    "type": "melee",
-    "description": "可变形的十字盾，能在攻防之间自由切换，适合攻防一体的战斗风格。",
-    "descriptionEn": "A transforming cross-shield that freely switches between offense and defense for versatile combat.",
-    "relatedCharacters": [
-      "fadia"
-    ],
-    "faq": [
-      {
-        "question": "Is Transforming Cross-Shield good in Neverness to Everness?",
-        "questionZh": "变形十字盾好用吗？",
-        "answer": "Transforming Cross-Shield is a melee weapon in Neverness to Everness. A transforming cross-shield that freely switches between offense and defense for versatile combat. 变形十字盾攻防一体，法蒂亚专属，攻防切换机制独特。T1级武器。",
-        "answerZh": "变形十字盾是异环中的melee类型武器。可变形的十字盾，能在攻防之间自由切换，适合攻防一体的战斗风格。 变形十字盾攻防一体，法蒂亚专属，攻防切换机制独特。T1级武器。"
-      },
-      {
-        "question": "How to get Transforming Cross-Shield in Neverness to Everness?",
-        "questionZh": "如何获得变形十字盾？",
-        "answer": "Fadia's signature weapon from the standard banner. S-rank weapon pity at 90 pulls.",
-        "answerZh": "法蒂亚专属武器，通过常驻祈愿池获取。S级武器保底90抽。"
-      },
-      {
-        "question": "What is the best alternative to Transforming Cross-Shield?",
-        "questionZh": "变形十字盾的最佳替代武器是什么？",
-        "answer": "A-rank alternatives: Iron Wall Shield (shop exchange), Guardian Shield (crafting). Fadia's built-in shields allow budget options.",
-        "answerZh": "A级替代：铁壁盾牌（商店兑换）、守护之盾（锻造）。法蒂亚自带护盾可适当降配。"
-      }
-    ],
-    "bestFor": "Fadia",
-    "bestForZh": "法蒂亚",
-    "image": "/images/weapons/transforming-cross-shield.webp"
+    "id": "contemplative-cat",
+    "name": "思考喵",
+    "nameTw": "思考喵",
+    "nameEn": "Contemplative Cat",
+    "rank": "S",
+    "type": "gas",
+    "baseAtk": 512,
+    "substat": "critDmg",
+    "substatValue": "44%",
+    "effectName": "玛门",
+    "effectNameTw": "瑪門",
+    "effectNameEn": "Mammon",
+    "effectDescription": "每持有10万源泉，宇宙伤害+2.5%~4.5%，最多10层。",
+    "effectDescriptionTw": "每持有10萬源泉，宇宙傷害+2.5%~4.5%，最多10層。",
+    "effectDescriptionEn": "Increases Cosmos DMG by 2.5-4.5% for every 100,000 Fons held, up to 10 stacks.",
+    "howToObtain": "free-event",
+    "howToObtainZh": "都市大亨等级21奖励",
+    "howToObtainEn": "Urban Tycoon level 21 reward",
+    "signatureCharacter": "xiaozhi",
+    "status": "available"
   },
   {
-    "id": "esper-constructs",
-    "name": "异能构装体",
-    "nameEn": "Esper Constructs",
-    "type": "summon",
-    "description": "操控多个异能构装体进行协同战斗，可同时应对多个目标。",
-    "descriptionEn": "Controls multiple esper constructs for coordinated attacks against multiple targets.",
-    "relatedCharacters": [
-      "lacrimosa"
-    ],
-    "faq": [
-      {
-        "question": "Is Esper Constructs good in Neverness to Everness?",
-        "questionZh": "异能构装体好用吗？",
-        "answer": "Esper Constructs is a summon weapon in Neverness to Everness. Controls multiple esper constructs for coordinated attacks against multiple targets. 异能构装体是召唤流核心武器，构装体数量和伤害倍率随武器等级提升。T1级。",
-        "answerZh": "异能构装体是异环中的summon类型武器。操控多个异能构装体进行协同战斗，可同时应对多个目标。 异能构装体是召唤流核心武器，构装体数量和伤害倍率随武器等级提升。T1级。"
-      },
-      {
-        "question": "How to get Esper Constructs in Neverness to Everness?",
-        "questionZh": "如何获得异能构装体？",
-        "answer": "Lacrimosa's signature weapon from the standard banner.",
-        "answerZh": "拉克莉莫萨专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Esper Constructs?",
-        "questionZh": "异能构装体的最佳替代武器是什么？",
-        "answer": "A-rank alternatives: Basic Constructs (quest reward), Improved Constructs (crafting). Construct count affects DPS, at least A-rank recommended.",
-        "answerZh": "A级替代：基础构装体（任务赠送）、改良构装体（锻造）。构装体数量影响输出，建议至少A级。"
-      }
-    ],
-    "bestFor": "Lacrimosa",
-    "bestForZh": "拉克莉莫萨",
-    "image": "/images/weapons/esper-constructs.webp"
+    "id": "day-off",
+    "name": "休息日",
+    "nameTw": "休息日",
+    "nameEn": "Day Off",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 512,
+    "substat": "chargeEff",
+    "substatValue": "33%",
+    "effectName": "日蚀",
+    "effectNameTw": "日蝕",
+    "effectNameEn": "Eclipse",
+    "effectDescription": "ATK+30%~50%。解锁弧盘·日蚀：创造40秒日蚀，期间击败敌人回复6~10终结能量，最多5次(CD 300秒)。",
+    "effectDescriptionTw": "ATK+30%~50%。解鎖弧盤·日蝕：創造40秒日蝕，期間擊敗敵人回覆6~10終結能量，最多5次(CD 300秒)。",
+    "effectDescriptionEn": "Increases ATK by 30-50%. Unlocks Arc: Eclipse - creates 40s Eclipse, defeating enemies restores 6-10 Ultimate Energy, up to 5 times (CD 300s).",
+    "howToObtain": "free-hidden",
+    "howToObtainZh": "隐藏任务：遇到6次日蚀",
+    "howToObtainEn": "Hidden quest: encounter 6 eclipses",
+    "signatureCharacter": "zero-male",
+    "status": "available"
   },
   {
-    "id": "power-of-words",
-    "name": "言灵之力",
-    "nameEn": "Power of Words",
-    "type": "magic",
-    "description": "以言灵之力构筑防御阵地，为队友提供强大的防护支援。",
-    "descriptionEn": "Uses the power of incantations to build defensive formations, providing strong protection for allies.",
-    "relatedCharacters": [
-      "baicang"
-    ],
-    "faq": [
-      {
-        "question": "Is Power of Words good in Neverness to Everness?",
-        "questionZh": "言灵之力好用吗？",
-        "answer": "Power of Words is a magic weapon in Neverness to Everness. Uses the power of incantations to build defensive formations, providing strong protection for allies. 言灵之力提供言灵增幅和防护支援，白藏专属T0级武器。",
-        "answerZh": "言灵之力是异环中的magic类型武器。以言灵之力构筑防御阵地，为队友提供强大的防护支援。 言灵之力提供言灵增幅和防护支援，白藏专属T0级武器。"
-      },
-      {
-        "question": "How to get Power of Words in Neverness to Everness?",
-        "questionZh": "如何获得言灵之力？",
-        "answer": "Baicang's signature weapon from the standard banner. Core for Baicang Blaze team.",
-        "answerZh": "白藏专属武器，通过常驻祈愿池获取。言灵之力是白藏浊燃队的核心。"
-      },
-      {
-        "question": "What is the best alternative to Power of Words?",
-        "questionZh": "言灵之力的最佳替代武器是什么？",
-        "answer": "A-rank alternatives: Incantation Wand (crafting), Spirit Staff (shop exchange). Baicang needs Daffodil for Blaze, weapon can be budget.",
-        "answerZh": "A级替代：咒术短杖（锻造）、灵言法杖（商店兑换）。白藏刚需达芙蒂尔触发浊燃，武器可降配。"
-      }
-    ],
-    "bestFor": "Baicang",
-    "bestForZh": "白藏",
-    "image": "/images/weapons/power-of-words.webp"
+    "id": "eternal-waltz",
+    "name": "永恒圆舞曲",
+    "nameTw": "永恆圓舞曲",
+    "nameEn": "Eternal Waltz",
+    "rank": "S",
+    "type": "synthesis",
+    "baseAtk": 424,
+    "substat": "hpPct",
+    "substatValue": "41.25%",
+    "effectName": "阿拉克涅",
+    "effectNameTw": "阿拉克涅",
+    "effectNameEn": "Arachne",
+    "effectDescription": "最大HP+20%~32%。施放终结技后精神伤害+10%~18%持续10秒。",
+    "effectDescriptionTw": "最大HP+20%~32%。施放終結技後精神傷害+10%~18%持續10秒。",
+    "effectDescriptionEn": "Increases Max HP by 20-32%. Increases Mental DMG by 10-18% for 10s after casting Ultimate.",
+    "howToObtain": "free-boss",
+    "howToObtainZh": "周本Boss「永不谢幕的阿拉克涅」掉落；完成主线「成交？成交！」",
+    "howToObtainEn": "Weekly Boss Arachne drop; complete Main Story",
+    "signatureCharacter": "fadia",
+    "status": "available"
   },
   {
-    "id": "sword",
-    "name": "剑",
-    "nameEn": "Sword",
-    "type": "melee",
-    "description": "经典的剑术武器，以精准的剑技进行战斗。",
-    "descriptionEn": "A classic sword weapon, engaging in combat with precise swordsmanship.",
-    "relatedCharacters": [
-      "zero"
-    ],
-    "faq": [
-      {
-        "question": "Is Sword good in Neverness to Everness?",
-        "questionZh": "剑好用吗？",
-        "answer": "Sword is a melee weapon in Neverness to Everness. A classic sword weapon, engaging in combat with precise swordsmanship. 剑是零的基础武器，获取简单。适合新手过渡使用。",
-        "answerZh": "剑是异环中的melee类型武器。经典的剑术武器，以精准的剑技进行战斗。 剑是零的基础武器，获取简单。适合新手过渡使用。"
-      },
-      {
-        "question": "How to get Sword in Neverness to Everness?",
-        "questionZh": "如何获得剑？",
-        "answer": "Zero's starting weapon, unlocked with the character. Upgraded via crafting.",
-        "answerZh": "零的起始武器，随角色解锁获得。高级版本通过锻造升级。"
-      },
-      {
-        "question": "What is the best alternative to Sword?",
-        "questionZh": "剑的最佳替代武器是什么？",
-        "answer": "Upgrades: Forged Sword (crafting), Skyrending Blade (event reward). Zero's combos are fluid, weapon gap is small.",
-        "answerZh": "进阶替代：精锻剑（锻造）、裂空之剑（活动奖励）。零剑术连击流畅，武器差异不大。"
-      }
-    ],
-    "bestFor": "Zero",
-    "bestForZh": "零",
-    "image": "/images/weapons/sword.webp"
+    "id": "good-boys-grand-adventure",
+    "name": "好狗狗走四方",
+    "nameTw": "好狗狗走四方",
+    "nameEn": "Good Boy's Grand Adventure",
+    "rank": "S",
+    "type": "gas",
+    "baseAtk": 474,
+    "substat": "atkPct",
+    "substatValue": "45%",
+    "effectName": "墨菲克斯",
+    "effectNameTw": "墨菲克斯",
+    "effectNameEn": "Morphix",
+    "effectDescription": "充能效率+18%~30%。施放终结技后全队ATK+10%~16%持续20秒。若敌人被终结技控制，额外+6%~10%。",
+    "effectDescriptionTw": "充能效率+18%~30%。施放終結技後全隊ATK+10%~16%持續20秒。若敵人被終結技控制，額外+6%~10%。",
+    "effectDescriptionEn": "Increases Charge Efficiency by 18-30%. After Ultimate, increases Team ATK by 10-16% for 20s. Additional 6-10% if enemies are controlled by Ultimate.",
+    "howToObtain": "free-boss",
+    "howToObtainZh": "周本Boss墨菲克斯掉落；完成番外「月光当铺」",
+    "howToObtainEn": "Weekly Boss Morphix drop; complete Extra Chapter Moonlit Pawnshop",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "umbrella-katana",
-    "name": "唐伞刀",
-    "nameEn": "Umbrella Katana",
-    "type": "melee",
-    "description": "唐伞形态的刀，收合时为伞、展开时为刀的变形武器。",
-    "descriptionEn": "A katana disguised as a traditional umbrella, transforming between parasol and blade forms.",
-    "relatedCharacters": [
-      "hotori"
-    ],
-    "faq": [
-      {
-        "question": "Is Umbrella Katana good in Neverness to Everness?",
-        "questionZh": "唐伞刀好用吗？",
-        "answer": "Umbrella Katana is a melee weapon in Neverness to Everness. A katana disguised as a traditional umbrella, transforming between parasol and blade forms. 唐伞刀是唯一S级辅助专武，提供聚怪+增伤双重效果。常驻S兑换优先级高。T0级。",
-        "answerZh": "唐伞刀是异环中的melee类型武器。唐伞形态的刀，收合时为伞、展开时为刀的变形武器。 唐伞刀是唯一S级辅助专武，提供聚怪+增伤双重效果。常驻S兑换优先级高。T0级。"
-      },
-      {
-        "question": "How to get Umbrella Katana in Neverness to Everness?",
-        "questionZh": "如何获得唐伞刀？",
-        "answer": "Hotori's signature weapon from the standard banner. S-rank weapon pity at 90 pulls.",
-        "answerZh": "早雾穗鸟专属武器，通过常驻祈愿池获取。S级武器保底90抽。"
-      },
-      {
-        "question": "What is the best alternative to Umbrella Katana?",
-        "questionZh": "唐伞刀的最佳替代武器是什么？",
-        "answer": "A-rank alternatives: Basic Umbrella (shop exchange), Gale Umbrella (crafting). Hotori's grouping/buffs are core value, weapon can be budget.",
-        "answerZh": "A级替代：唐伞初型（商店兑换）、疾风伞（锻造）。早雾聚怪增伤为核心价值，武器可降配。"
-      }
-    ],
-    "bestFor": "Hotori",
-    "bestForZh": "穗鸟",
-    "image": "/images/weapons/umbrella-katana.webp"
+    "id": "hethereraus-keeper",
+    "name": "海特洛的安宁",
+    "nameTw": "海特洛的安寧",
+    "nameEn": "Hethereau's Keeper",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "通行正义",
+    "effectNameTw": "通行正義",
+    "effectNameEn": "Justice Executioner",
+    "effectDescription": "ATK+15%~25%。对Boss伤害+15%~25%。解锁弧盘·威须：召唤威须助战，每击造成100%~200%ATK伤害，持续30秒(CD 60秒)。",
+    "effectDescriptionTw": "ATK+15%~25%。對Boss傷害+15%~25%。解鎖弧盤·威鬚：召喚威鬚助戰，每擊造成100%~200%ATK傷害，持續30秒(CD 60秒)。",
+    "effectDescriptionEn": "Increases ATK by 15-25%. Increases Boss DMG by 15-25%. Unlocks Arc: Officer Whisker - summons assistant dealing 100-200% ATK per hit for 30s (CD 60s).",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "通缉4星完成奖励；击败Boss通行正义",
+    "howToObtainEn": "4-star Wanted reward; defeat Boss Justice Executioner",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "liquid-arc",
-    "name": "液态弧光",
-    "nameEn": "Liquid-type Arc",
-    "type": "ranged",
-    "description": "液态弧光武器，可灵活变形的远程支援武器。",
-    "descriptionEn": "A liquid-type arc weapon, a flexible ranged support weapon that can reshape itself.",
-    "relatedCharacters": [
-      "daffodil"
-    ],
-    "faq": [
-      {
-        "question": "Is Liquid-type Arc good in Neverness to Everness?",
-        "questionZh": "液态弧光好用吗？",
-        "answer": "Liquid-type Arc is a ranged weapon in Neverness to Everness. A liquid-type arc weapon, a flexible ranged support weapon that can reshape itself. 液态弧光是达芙蒂尔浊燃反应触发位的核心武器，振刀Boss特化。T1级。",
-        "answerZh": "液态弧光是异环中的ranged类型武器。液态弧光武器，可灵活变形的远程支援武器。 液态弧光是达芙蒂尔浊燃反应触发位的核心武器，振刀Boss特化。T1级。"
-      },
-      {
-        "question": "How to get Liquid-type Arc in Neverness to Everness?",
-        "questionZh": "如何获得液态弧光？",
-        "answer": "Daffodil's signature weapon from the standard banner.",
-        "answerZh": "达芙蒂尔专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Liquid-type Arc?",
-        "questionZh": "液态弧光的最佳替代武器是什么？",
-        "answer": "A-rank alternative: Basic Liquid Arc (crafting). Daffodil specializes in high-frequency parry, weapon boosts parry multiplier.",
-        "answerZh": "A级替代：液态弧光初型（锻造）。达芙蒂尔高频振刀Boss特化，武器提升振刀倍率。"
-      }
-    ],
-    "bestFor": "Daffodil",
-    "bestForZh": "达芙迪尔",
-    "image": "/images/weapons/liquid-arc.webp"
+    "id": "marching-beyond-time",
+    "name": "踏越时间行军",
+    "nameTw": "踏越時間行軍",
+    "nameEn": "Marching Beyond Time",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 570,
+    "substat": "critRate",
+    "substatValue": "24%",
+    "effectName": "超越时间",
+    "effectNameTw": "超越時間",
+    "effectNameEn": "Time Beyond Time",
+    "effectDescription": "ATK+16%~32%。施放变轨后每秒获得1层沙漏(最多15层)，施放终结技消耗所有沙漏，每层终结暴伤+3%~6%。15层时额外无视12%~24%防御持续3秒。",
+    "effectDescriptionTw": "ATK+16%~32%。施放變軌後每秒獲得1層沙漏(最多15層)，施放終結技消耗所有沙漏，每層終結暴傷+3%~6%。15層時額外無視12%~24%防禦持續3秒。",
+    "effectDescriptionEn": "Increases ATK by 16-32%. Gains 1 Hourglass stack/s after Redirect Skill (max 15). Consumes all stacks on Ultimate, +3-6% CRIT DMG per stack. 15 stacks grants 12-24% DEF Ignore for 3s.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "vehicle",
-    "name": "载具",
-    "nameEn": "Vehicle",
-    "type": "support",
-    "description": "战斗用载具，擅长高速移动和运输。",
-    "descriptionEn": "Combat vehicle specialized in high-speed movement and transportation.",
-    "relatedCharacters": [
-      "jiuyuan"
-    ],
-    "faq": [
-      {
-        "question": "Is Vehicle good in Neverness to Everness?",
-        "questionZh": "载具好用吗？",
-        "answer": "Vehicle is a support weapon in Neverness to Everness. Combat vehicle specialized in high-speed movement and transportation. 九原载具提供超大范围聚怪，1觉解锁治疗。开服必练辅助，泛用性顶级。",
-        "answerZh": "载具是异环中的support类型武器。战斗用载具，擅长高速移动和运输。 九原载具提供超大范围聚怪，1觉解锁治疗。开服必练辅助，泛用性顶级。"
-      },
-      {
-        "question": "How to get Vehicle in Neverness to Everness?",
-        "questionZh": "如何获得载具？",
-        "answer": "Jiuyuan's vehicle, unlocked with the character. Jiuyuan from standard banner or S-rank selector.",
-        "answerZh": "九原的载具，随角色一起解锁。九原通过常驻池或自选S获取。"
-      },
-      {
-        "question": "What is the best alternative to Vehicle?",
-        "questionZh": "载具的最佳替代武器是什么？",
-        "answer": "Vehicle is Jiuyuan-exclusive, no alternative. Recommend picking Jiuyuan first with S-rank selector.",
-        "answerZh": "载具是九原专属，无替代。建议开服自选S优先选九原。"
-      }
-    ],
-    "bestFor": "Jiuyuan",
-    "bestForZh": "九原",
-    "image": "/images/weapons/vehicle.webp"
+    "id": "raging-flames",
+    "name": "焰魂狂飙",
+    "nameTw": "焰魂狂飆",
+    "nameEn": "Raging Flames",
+    "rank": "S",
+    "type": "plasma",
+    "baseAtk": 666,
+    "substat": "critDmg",
+    "substatValue": "24%",
+    "effectName": "无首铁驭",
+    "effectNameTw": "無首鐵馭",
+    "effectNameEn": "Headless Rider",
+    "effectDescription": "施放终结技后变轨伤害+22.5%~37.5%持续10秒。站场时每施放变轨伤害+15%~25%，最多2层。",
+    "effectDescriptionTw": "施放終結技後變軌傷害+22.5%~37.5%持續10秒。站場時每施放變軌傷害+15%~25%，最多2層。",
+    "effectDescriptionEn": "After Ultimate, increases Redirect Skill DMG by 22.5-37.5% for 10s. Each Redirect Skill cast while active increases DMG by 15-25%, up to 2 stacks.",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "完成桥间地异象委托「铁驭强袭」，击败Boss",
+    "howToObtainEn": "Complete Bridge Area Anomaly Commission, defeat boss",
+    "signatureCharacter": "hathor",
+    "status": "available"
   },
   {
-    "id": "cane-sword-and-sunyas",
-    "name": "杖剑与 Sunyas",
-    "nameEn": "Cane Sword and Sunyas",
-    "type": "melee",
-    "description": "杖剑与伴生体 Sunyas 协同作战的复合战斗方式。",
-    "descriptionEn": "A hybrid combat style using a cane sword alongside the companion Sunyas.",
-    "relatedCharacters": [
-      "adler"
-    ],
-    "faq": [
-      {
-        "question": "Is Cane Sword and Sunyas good in Neverness to Everness?",
-        "questionZh": "杖剑与 Sunyas好用吗？",
-        "answer": "Cane Sword and Sunyas is a melee weapon in Neverness to Everness. A hybrid combat style using a cane sword alongside the companion Sunyas. 杖剑与Sunyas协同作战，提供护盾+减攻+属性抗性。1.0最佳生存位武器。T1级。",
-        "answerZh": "杖剑与 Sunyas是异环中的melee类型武器。杖剑与伴生体 Sunyas 协同作战的复合战斗方式。 杖剑与Sunyas协同作战，提供护盾+减攻+属性抗性。1.0最佳生存位武器。T1级。"
-      },
-      {
-        "question": "How to get Cane Sword and Sunyas in Neverness to Everness?",
-        "questionZh": "如何获得杖剑与 Sunyas？",
-        "answer": "Adler's signature weapon from gacha (A-rank weapons have higher rates).",
-        "answerZh": "阿德勒专属武器，通过祈愿获取（A级武器概率较高）。"
-      },
-      {
-        "question": "What is the best alternative to Cane Sword and Sunyas?",
-        "questionZh": "杖剑与 Sunyas的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Cane Sword (main story free). Adler is best 1.0 survival, signature weapon recommended for stronger shields.",
-        "answerZh": "替代：杖剑初型（主线赠送）。阿德勒1.0最佳生存位，建议获取专武提升护盾效果。"
-      }
-    ],
-    "bestFor": "Adler",
-    "bestForZh": "阿德勒",
-    "image": "/images/weapons/cane-sword-and-sunyas.webp"
+    "id": "ready-ready",
+    "name": "预备备",
+    "nameTw": "預備預備",
+    "nameEn": "Ready-Ready",
+    "rank": "S",
+    "type": "plasma",
+    "baseAtk": 570,
+    "substat": "critRate",
+    "substatValue": "24%",
+    "effectName": "猛虎特刊",
+    "effectNameTw": "猛虎特刊",
+    "effectNameEn": "Commander Tiger Talisman",
+    "effectDescription": "ATK+15%~30%。施放变轨或终结技后普攻和暴击反击伤害+15%~30%持续15秒，最多2层。变轨获得左虎符，终结技获得右虎符。15秒内获得另一虎符时解锁弧盘·猛虎特刊：对Boss伤害+10%~20%持续10秒。",
+    "effectDescriptionTw": "ATK+15%~30%。施放變軌或終結技後普攻和暴擊反擊傷害+15%~30%持續15秒，最多2層。變軌獲得左虎符，終結技獲得右虎符。15秒內獲得另一虎符時解鎖弧盤·猛虎特刊：對Boss傷害+10%~20%持續10秒。",
+    "effectDescriptionEn": "Increases ATK by 15-30%. After Redirect Skill or Ultimate, increases Basic Attack and Critical Riposte DMG by 15-30% for 15s, up to 2 stacks. Unlocks Commander Tiger Talisman Arc: +10-20% Boss DMG for 10s.",
+    "howToObtain": "gacha-limited",
+    "howToObtainZh": "限定弧盘研究计划(2026/4/23~5/7)",
+    "howToObtainEn": "Limited Arc Research Program (2026/4/23~5/7)",
+    "signatureCharacter": "nanally",
+    "status": "available"
   },
   {
-    "id": "shadow-manipulation",
-    "name": "影操控",
-    "nameEn": "Shadow Manipulation",
-    "type": "magic",
-    "description": "以影子操控进行战斗的异能，擅长从暗处发起攻击。",
-    "descriptionEn": "An esper ability that manipulates shadows, specializing in attacks from the darkness.",
-    "relatedCharacters": [
-      "skia"
-    ],
-    "faq": [
-      {
-        "question": "Is Shadow Manipulation good in Neverness to Everness?",
-        "questionZh": "影操控好用吗？",
-        "answer": "Shadow Manipulation is a magic weapon in Neverness to Everness. An esper ability that manipulates shadows, specializing in attacks from the darkness. 影操控提供暗影突袭和隐身机制，翳A级进攻角色中性价比高。",
-        "answerZh": "影操控是异环中的magic类型武器。以影子操控进行战斗的异能，擅长从暗处发起攻击。 影操控提供暗影突袭和隐身机制，翳A级进攻角色中性价比高。"
-      },
-      {
-        "question": "How to get Shadow Manipulation in Neverness to Everness?",
-        "questionZh": "如何获得影操控？",
-        "answer": "Skia's exclusive ability, unlocked with the character. Skia from gacha (A-rank).",
-        "answerZh": "翳的专属能力，随角色解锁。翳通过祈愿获取（A级角色）。"
-      },
-      {
-        "question": "What is the best alternative to Shadow Manipulation?",
-        "questionZh": "影操控的最佳替代武器是什么？",
-        "answer": "Shadow Manipulation is Skia-exclusive, no alternative. Skia excels at attacking from darkness.",
-        "answerZh": "影操控是翳的专属能力，无替代武器。翳擅长从暗处发起攻击。"
-      }
-    ],
-    "bestFor": "Skia",
-    "bestForZh": "翳",
-    "image": "/images/weapons/shadow-manipulation.webp"
+    "id": "reality-refuge",
+    "name": "现实避难所",
+    "nameTw": "現實避難所",
+    "nameEn": "Reality Refuge",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 570,
+    "substat": "atkPct",
+    "substatValue": "30%",
+    "effectName": "蝶尾",
+    "effectNameTw": "蝶尾",
+    "effectNameEn": "Swallowtail",
+    "effectDescription": "灵魂伤害+15%~25%。附身伤害+10%~15%。施放终结技后附身伤害提升至20%~30%持续6秒。",
+    "effectDescriptionTw": "靈魂傷害+15%~25%。附身傷害+10%~15%。施放終結技後附身傷害提升至20%~30%持續6秒。",
+    "effectDescriptionEn": "Increases Psyche DMG by 15-25%. Increases Attachment DMG by 10-15%. After Ultimate, increases Attachment DMG bonus to 20-30% for 6s.",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "完成新赫兰德区异象委托「去看电影吧」，击败Boss斑蝶",
+    "howToObtainEn": "Complete New Heterocity Anomaly Commission, defeat boss",
+    "signatureCharacter": "jiuyuan",
+    "status": "available"
   },
   {
-    "id": "dual-blades",
-    "name": "双刃",
-    "nameEn": "Dual Blades",
-    "type": "melee",
-    "description": "双持短刃进行快速战斗，攻速极高。",
-    "descriptionEn": "Dual-wielding short blades for extremely fast-paced combat.",
-    "relatedCharacters": [
-      "mint"
-    ],
-    "faq": [
-      {
-        "question": "Is Dual Blades good in Neverness to Everness?",
-        "questionZh": "双刃好用吗？",
-        "answer": "Dual Blades is a melee weapon in Neverness to Everness. Dual-wielding short blades for extremely fast-paced combat. 双刃攻速极快，薄荷和小吱使用。小吱免费满配后双刃价值大增。",
-        "answerZh": "双刃是异环中的melee类型武器。双持短刃进行快速战斗，攻速极高。 双刃攻速极快，薄荷和小吱使用。小吱免费满配后双刃价值大增。"
-      },
-      {
-        "question": "How to get Dual Blades in Neverness to Everness?",
-        "questionZh": "如何获得双刃？",
-        "answer": "Shared weapon type for Mint and Xiaozhi, obtainable from gacha or crafting.",
-        "answerZh": "薄荷和小吱共用武器类型，通过祈愿或锻造获取。"
-      },
-      {
-        "question": "What is the best alternative to Dual Blades?",
-        "questionZh": "双刃的最佳替代武器是什么？",
-        "answer": "Alternatives: Basic Dual Blades (quest free), Gale Dual Blades (crafting). Xiaozhi gets free max gear from City Tycoon.",
-        "answerZh": "替代：双刃初型（任务赠送）、疾风双刃（锻造）。小吱都市大亨免费满配，武器可免费获取。"
-      }
-    ],
-    "bestFor": "Mint",
-    "bestForZh": "薄荷",
-    "image": "/images/weapons/dual-blades.webp"
+    "id": "song-of-the-whale",
+    "name": "鲸之歌",
+    "nameTw": "鯨之歌",
+    "nameEn": "Song of the Whale",
+    "rank": "S",
+    "type": "plasma",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "深蓝之恸",
+    "effectNameTw": "深藍之慟",
+    "effectNameEn": "Deep Blue Sorrow",
+    "effectDescription": "ATK+12%~20%。对破碎状态敌人伤害+12%~20%。击败破碎敌人回复30%HP(CD 30秒)。",
+    "effectDescriptionTw": "ATK+12%~20%。對破碎狀態敵人傷害+12%~20%。擊敗破碎敵人回覆30%HP(CD 30秒)。",
+    "effectDescriptionEn": "Increases ATK by 12-20%. Increases DMG to Broken enemies by 12-20%. Restores 30% HP when defeating Broken enemy (CD 30s).",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "完成新赫兰德区异象委托「深蓝之恸」",
+    "howToObtainEn": "Complete New Heterocity Anomaly Commission Deep Blue Sorrow",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "construct",
-    "name": "构装体",
-    "nameEn": "Construct",
-    "type": "summon",
-    "description": "操控构装体进行战斗，兼具攻击和支援能力。",
-    "descriptionEn": "Controls constructs for battle, combining offensive and support capabilities.",
-    "relatedCharacters": [
-      "taygedo"
-    ],
-    "faq": [
-      {
-        "question": "Is Construct good in Neverness to Everness?",
-        "questionZh": "构装体好用吗？",
-        "answer": "Construct is a summon weapon in Neverness to Everness. Controls constructs for battle, combining offensive and support capabilities. 构装体兼具攻击和支援能力，泰格多A级支援中泛用性不错。",
-        "answerZh": "构装体是异环中的summon类型武器。操控构装体进行战斗，兼具攻击和支援能力。 构装体兼具攻击和支援能力，泰格多A级支援中泛用性不错。"
-      },
-      {
-        "question": "How to get Construct in Neverness to Everness?",
-        "questionZh": "如何获得构装体？",
-        "answer": "Taygedo's constructs, unlocked with the A-rank character.",
-        "answerZh": "泰格多的构装体，随A级角色解锁。"
-      },
-      {
-        "question": "What is the best alternative to Construct?",
-        "questionZh": "构装体的最佳替代武器是什么？",
-        "answer": "Constructs are Taygedo-exclusive, no alternative. A-rank support, easy to obtain.",
-        "answerZh": "构装体是泰格多专属，无替代。A级支援角色获取难度低。"
-      }
-    ],
-    "bestFor": "Taygedo",
-    "bestForZh": "泰格多",
-    "image": "/images/weapons/construct.webp"
+    "id": "tears-beneath-the-mask",
+    "name": "面具下的泪",
+    "nameTw": "面具下的淚",
+    "nameEn": "Tears Beneath the Mask",
+    "rank": "S",
+    "type": "gas",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "归巢之鸟",
+    "effectNameTw": "歸巢之鳥",
+    "effectNameEn": "Nestbound Bird",
+    "effectDescription": "被终结技命中的敌人施加警示凝视标记，标记敌人造成伤害降低18%持续20秒。",
+    "effectDescriptionTw": "被終結技命中的敵人施加警示凝視標記，標記敵人造成傷害降低18%持續20秒。",
+    "effectDescriptionEn": "Applies Warning Gaze to enemies hit by Ultimate. Marked enemies deal 18% reduced DMG for 20s.",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "完成新赫兰德区异象委托「唤孤归」，击败楼顶Boss",
+    "howToObtainEn": "Complete New Heterocity Anomaly Commission, defeat rooftop boss",
+    "signatureCharacter": "hotori",
+    "status": "available"
   },
   {
-    "id": "blade-wings",
-    "name": "刃翼",
-    "nameEn": "Blade Wings",
-    "type": "melee",
-    "description": "以刃翼为武器进行战斗，兼具飞行和攻击能力。",
-    "descriptionEn": "Fights using blade wings, combining flight capabilities with offensive power.",
-    "relatedCharacters": [
-      "hathor"
-    ],
-    "faq": [
-      {
-        "question": "Is Blade Wings good in Neverness to Everness?",
-        "questionZh": "刃翼好用吗？",
-        "answer": "Blade Wings is a melee weapon in Neverness to Everness. Fights using blade wings, combining flight capabilities with offensive power. 刃翼兼具飞行和攻击能力，哈索尔机动性全角色最高。T1级武器。",
-        "answerZh": "刃翼是异环中的melee类型武器。以刃翼为武器进行战斗，兼具飞行和攻击能力。 刃翼兼具飞行和攻击能力，哈索尔机动性全角色最高。T1级武器。"
-      },
-      {
-        "question": "How to get Blade Wings in Neverness to Everness?",
-        "questionZh": "如何获得刃翼？",
-        "answer": "Hathor's signature weapon from the standard banner.",
-        "answerZh": "哈索尔专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Blade Wings?",
-        "questionZh": "刃翼的最佳替代武器是什么？",
-        "answer": "A-rank alternative: Basic Blade Wings (crafting). Hathor's flight+attack mobility is exceptional.",
-        "answerZh": "A级替代：初级刃翼（锻造）。哈索尔飞行+攻击机动性极强。"
-      }
-    ],
-    "bestFor": "Hathor",
-    "bestForZh": "哈索尔",
-    "image": "/images/weapons/blade-wings.webp"
+    "id": "the-last-rose",
+    "name": "最后的玫瑰",
+    "nameTw": "最後的玫瑰",
+    "nameEn": "The Last Rose",
+    "rank": "S",
+    "type": "liquid",
+    "baseAtk": 570,
+    "substat": "critRate",
+    "substatValue": "24%",
+    "effectName": "波西米亚玫瑰",
+    "effectNameTw": "波西米亞玫瑰",
+    "effectNameEn": "Bohemian Rose",
+    "effectDescription": "ATK+14%~28%。造成持续伤害时获得1层混沌刺，每层暴伤+6%~12%持续3秒(0.3秒1次，最多10层)。变轨时立即获得10层。对破碎敌人延长破碎3秒。",
+    "effectDescriptionTw": "ATK+14%~28%。造成持續傷害時獲得1層混沌刺，每層暴傷+6%~12%持續3秒(0.3秒1次，最多10層)。變軌時立即獲得10層。對破碎敵人延長破碎3秒。",
+    "effectDescriptionEn": "Increases ATK by 14-28%. Gains Chaos Thorn stack on DoT, each stack +6-12% CRIT DMG for 3s (max 10). Redirect Skill grants 10 instant stacks. Extends Broken state by 3s.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "yokai-hammer",
-    "name": "妖锤",
-    "nameEn": "Yokai Hammer",
-    "type": "melee",
-    "description": "大型妖锤武器，攻击范围广，破坏力极强。",
-    "descriptionEn": "A large yokai hammer with a wide attack range and devastating destructive power.",
-    "relatedCharacters": [
-      "chiz"
-    ],
-    "faq": [
-      {
-        "question": "Is Yokai Hammer good in Neverness to Everness?",
-        "questionZh": "妖锤好用吗？",
-        "answer": "Yokai Hammer is a melee weapon in Neverness to Everness. A large yokai hammer with a wide attack range and devastating destructive power. 妖锤是赤子的重击武器，攻击范围广破坏力极强。适合AOE和Boss战。T1级。",
-        "answerZh": "妖锤是异环中的melee类型武器。大型妖锤武器，攻击范围广，破坏力极强。 妖锤是赤子的重击武器，攻击范围广破坏力极强。适合AOE和Boss战。T1级。"
-      },
-      {
-        "question": "How to get Yokai Hammer in Neverness to Everness?",
-        "questionZh": "如何获得妖锤？",
-        "answer": "Chiz's signature weapon from the standard banner.",
-        "answerZh": "赤子专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Yokai Hammer?",
-        "questionZh": "妖锤的最佳替代武器是什么？",
-        "answer": "A-rank alternatives: Iron Hammer (crafting), Oni Hammer (event reward). Chiz's hammer has wide attack range.",
-        "answerZh": "A级替代：铁锤（锻造）、大鬼锤（活动奖励）。赤子妖锤攻击范围广。"
-      }
-    ],
-    "bestFor": "Chiz",
-    "bestForZh": "赤子",
-    "image": "/images/weapons/yokai-hammer.webp"
+    "id": "your-happiness-is-priceless",
+    "name": "千金难买你开心",
+    "nameTw": "千金難買你開心",
+    "nameEn": "Your Happiness is Priceless",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 512,
+    "substat": "defPct",
+    "substatValue": "38.5%",
+    "effectName": "纳库佩达",
+    "effectNameTw": "納庫佩達",
+    "effectNameEn": "Nacupeda",
+    "effectDescription": "HP+24%~40%。施放终结技时随机：回复最低HP队友20%~40%HP，或给予护盾(20%~40%最大HP)，或回复全体10%~20%HP(CD 30秒)。",
+    "effectDescriptionTw": "HP+24%~40%。施放終結技時隨機：回覆最低HP隊友20%~40%HP，或給予護盾(20%~40%最大HP)，或回覆全體10%~20%HP(CD 30秒)。",
+    "effectDescriptionEn": "Increases HP by 24-40%. On Ultimate, randomly: heal lowest HP ally 20-40%, or grant Shield (20-40% Max HP), or heal all 10-20% (CD 30s).",
+    "howToObtain": "free-shop",
+    "howToObtainZh": "弧盘商店兑换(向纳库佩达喷泉投入100硬币)",
+    "howToObtainEn": "Arc Shop exchange (throw 100 coins into Nacupeda fountain)",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "appraisal-ability",
-    "name": "鉴定能力",
-    "nameEn": "Appraisal Ability",
-    "type": "magic",
-    "description": "鉴定师独有的异常物品鉴定能力，能识别和分析奇物与异象。",
-    "descriptionEn": "The Appraiser's unique ability to identify and analyze anomalous objects, Oddities and Anomalies.",
-    "relatedCharacters": [
-      "the-appraiser"
-    ],
-    "faq": [
-      {
-        "question": "Is Appraisal Ability good in Neverness to Everness?",
-        "questionZh": "鉴定能力好用吗？",
-        "answer": "Appraisal Ability is a magic weapon in Neverness to Everness. The Appraiser's unique ability to identify and analyze anomalous objects, Oddities and Anomalies. 鉴定能力用于识别和分析奇物与异象，是主线剧情推进的关键能力。",
-        "answerZh": "鉴定能力是异环中的magic类型武器。鉴定师独有的异常物品鉴定能力，能识别和分析奇物与异象。 鉴定能力用于识别和分析奇物与异象，是主线剧情推进的关键能力。"
-      },
-      {
-        "question": "How to get Appraisal Ability in Neverness to Everness?",
-        "questionZh": "如何获得鉴定能力？",
-        "answer": "The Appraiser NPC's exclusive ability, unlocked through main story. Not a playable character weapon.",
-        "answerZh": "鉴定师NPC的专属能力，主线剧情解锁。非玩家角色武器。"
-      },
-      {
-        "question": "What is the best alternative to Appraisal Ability?",
-        "questionZh": "鉴定能力的最佳替代武器是什么？",
-        "answer": "Appraisal Ability is exclusive to the Appraiser NPC, not controllable by players.",
-        "answerZh": "鉴定能力是鉴定师NPC专属，玩家不可操控。"
-      }
-    ],
-    "bestFor": "The Appraiser",
-    "bestForZh": "鉴定师",
-    "image": "/images/weapons/appraisal-ability.webp"
+    "id": "youthful-fantasy",
+    "name": "漆黑青春妄想",
+    "nameTw": "漆黑青春妄想",
+    "nameEn": "Youthful Fantasy",
+    "rank": "S",
+    "type": "liquid",
+    "baseAtk": 570,
+    "substat": "atkPct",
+    "substatValue": "30%",
+    "effectName": "黑色典籍",
+    "effectNameTw": "黑色典籍",
+    "effectNameEn": "Black Tome",
+    "effectDescription": "破韧强度+60~88。默认双链封印弧盘·黑色典籍，队友施放支援技能时解开1链，全部解开时激活弧盘·黑色典籍20秒：每5秒指定1名敌人，对该敌人混沌伤害+20%~36%，受到破韧伤害时额外造成200%~320%ATK混沌伤害。",
+    "effectDescriptionTw": "破韌強度+60~88。預設雙鏈封印弧盤·黑色典籍，隊友施放支援技能時解開1鏈，全部解開時激活弧盤·黑色典籍20秒：每5秒指定1名敵人，對該敵人混沌傷害+20%~36%，受到破韌傷害時額外造成200%~320%ATK混沌傷害。",
+    "effectDescriptionEn": "Increases Break Intensity by 60-88. Seals Arc: Black Tome with 2 chains. Each Support Skill from teammates unleashes 1 chain. When all unleashed, activates Arc: Black Tome for 20s.",
+    "howToObtain": "free-anomaly",
+    "howToObtainZh": "完成新赫兰德区异象委托「后青春期的书」，击败Boss",
+    "howToObtainEn": "Complete New Heterocity Anomaly Commission, defeat boss",
+    "signatureCharacter": "daffodil",
+    "status": "available"
   },
   {
-    "id": "whip-sword",
-    "name": "鞭剑",
-    "nameEn": "Whip Sword",
-    "type": "melee",
-    "description": "可伸缩的鞭形剑，在远近距离之间灵活切换的武器。",
-    "descriptionEn": "A flexible whip-sword that can extend and retract, switching between close and mid-range combat.",
-    "relatedCharacters": [
-      "lingko"
-    ],
-    "faq": [
-      {
-        "question": "Is Whip Sword good in Neverness to Everness?",
-        "questionZh": "鞭剑好用吗？",
-        "answer": "Whip Sword is a melee weapon in Neverness to Everness. A flexible whip-sword that can extend and retract, switching between close and mid-range combat. 鞭剑可伸缩远近切换，凛子A级进攻中操作手感极佳。",
-        "answerZh": "鞭剑是异环中的melee类型武器。可伸缩的鞭形剑，在远近距离之间灵活切换的武器。 鞭剑可伸缩远近切换，凛子A级进攻中操作手感极佳。"
-      },
-      {
-        "question": "How to get Whip Sword in Neverness to Everness?",
-        "questionZh": "如何获得鞭剑？",
-        "answer": "Lingko's Whip Sword, unlocked with the A-rank character. Lingko from gacha.",
-        "answerZh": "凛子的鞭剑，随A级角色解锁。凛子通过祈愿获取。"
-      },
-      {
-        "question": "What is the best alternative to Whip Sword?",
-        "questionZh": "鞭剑的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Whip Sword (crafting). Lingko's range switching is fluid, good value A-rank DPS.",
-        "answerZh": "替代：鞭剑初型（锻造）。凛子远近切换流畅，A级输出中性价比较高。"
-      }
-    ],
-    "bestFor": "Lingko",
-    "bestForZh": "凛子",
-    "image": "/images/weapons/whip-sword.webp"
+    "id": "fluff-of-fearlessness",
+    "name": "勇气绒绒",
+    "nameTw": "勇氣絨絨",
+    "nameEn": "Fluff of Fearlessness",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 512,
+    "substat": "critRate",
+    "substatValue": "22%",
+    "effectName": "爆裂糖果",
+    "effectNameTw": "爆裂糖果",
+    "effectNameEn": "Popping Candy",
+    "effectDescription": "施放终结技后ATK+25%~45%持续10秒，不叠加。",
+    "effectDescriptionTw": "施放終結技後ATK+25%~45%持續10秒，不疊加。",
+    "effectDescriptionEn": "Increases ATK by 25-45% for 10s after casting Ultimate. Does not stack.",
+    "howToObtain": "battle-pass",
+    "howToObtainZh": "环期赏令大月卡5选1",
+    "howToObtainEn": "Battle Pass 5-choice reward",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "chaos-orbs",
-    "name": "混沌宝珠",
-    "nameEn": "Chaos Orbs",
-    "type": "magic",
-    "description": "操控混沌能量形成的宝珠进行远程攻击。",
-    "descriptionEn": "Controls chaos energy formed into orbs for ranged attacks.",
-    "relatedCharacters": [
-      "mismo"
-    ],
-    "faq": [
-      {
-        "question": "Is Chaos Orbs good in Neverness to Everness?",
-        "questionZh": "混沌宝珠好用吗？",
-        "answer": "Chaos Orbs is a magic weapon in Neverness to Everness. Controls chaos energy formed into orbs for ranged attacks. 混沌宝珠是密斯莫的混沌属性辅助武器，施加负面状态增伤。",
-        "answerZh": "混沌宝珠是异环中的magic类型武器。操控混沌能量形成的宝珠进行远程攻击。 混沌宝珠是密斯莫的混沌属性辅助武器，施加负面状态增伤。"
-      },
-      {
-        "question": "How to get Chaos Orbs in Neverness to Everness?",
-        "questionZh": "如何获得混沌宝珠？",
-        "answer": "Mismo's Chaos Orbs, unlocked with the A-rank character.",
-        "answerZh": "密斯莫的混沌宝珠，随A级角色解锁。"
-      },
-      {
-        "question": "What is the best alternative to Chaos Orbs?",
-        "questionZh": "混沌宝珠的最佳替代武器是什么？",
-        "answer": "Chaos Orbs are Mismo-exclusive, no alternative. Easy to obtain A-rank support.",
-        "answerZh": "混沌宝珠是密斯莫专属，无替代。A级支援获取简单。"
-      }
-    ],
-    "bestFor": "Mismo",
-    "bestForZh": "密斯莫",
-    "image": "/images/weapons/chaos-orbs.webp"
+    "id": "fluff-of-ferocity",
+    "name": "猛绒绒",
+    "nameTw": "猛絨絨",
+    "nameEn": "Fluff of Ferocity",
+    "rank": "S",
+    "type": "synthesis",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "骑士糖果",
+    "effectNameTw": "騎士糖果",
+    "effectNameEn": "Knight's Candy",
+    "effectDescription": "暴击时暴伤+4%~7.2%持续10秒，最多10层，重复触发刷新持续时间。",
+    "effectDescriptionTw": "暴擊時暴傷+4%~7.2%持續10秒，最多10層，重複觸發刷新持續時間。",
+    "effectDescriptionEn": "Increases CRIT DMG by 4-7.2% for 10s on critical hit, up to 10 stacks. Resets duration on retrigger.",
+    "howToObtain": "battle-pass",
+    "howToObtainZh": "环期赏令大月卡5选1",
+    "howToObtainEn": "Battle Pass 5-choice reward",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "blood-blades",
-    "name": "血刃",
-    "nameEn": "Blood Blades",
-    "type": "melee",
-    "description": "以生命能量凝聚的赤红色刀刃，攻击时会消耗少量生命值但造成高额伤害。",
-    "descriptionEn": "Life-energy condensed crimson blades that sacrifice a small amount of health for high damage output.",
-    "relatedCharacters": [
-      "shinku"
-    ],
-    "faq": [
-      {
-        "question": "Is Blood Blades good in Neverness to Everness?",
-        "questionZh": "血刃好用吗？",
-        "answer": "Blood Blades is a melee weapon in Neverness to Everness. Life-energy condensed crimson blades that sacrifice a small amount of health for high damage output. 血刃消耗生命换取高伤害，低血量时爆发极高。A级高风险高回报武器。",
-        "answerZh": "血刃是异环中的melee类型武器。以生命能量凝聚的赤红色刀刃，攻击时会消耗少量生命值但造成高额伤害。 血刃消耗生命换取高伤害，低血量时爆发极高。A级高风险高回报武器。"
-      },
-      {
-        "question": "How to get Blood Blades in Neverness to Everness?",
-        "questionZh": "如何获得血刃？",
-        "answer": "Shinku's Blood Blades, unlocked with the A-rank character. Shinku from gacha.",
-        "answerZh": "沁红的血刃，随A级角色解锁。沁红通过祈愿获取。"
-      },
-      {
-        "question": "What is the best alternative to Blood Blades?",
-        "questionZh": "血刃的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Blood Blades (crafting). Shinku's sacrifice playstyle needs shield/healer support.",
-        "answerZh": "替代：血刃初型（锻造）。沁红献祭流需要护盾/治疗角色保护。"
-      }
-    ],
-    "bestFor": "Shinku",
-    "bestForZh": "沁红",
-    "image": "/images/weapons/blood-blades.webp"
+    "id": "fluff-of-finesse",
+    "name": "灵巧绒绒",
+    "nameTw": "靈巧絨絨",
+    "nameEn": "Fluff of Finesse",
+    "rank": "S",
+    "type": "gas",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "盗贼糖果",
+    "effectNameTw": "盜賊糖果",
+    "effectNameEn": "Thief's Candy",
+    "effectDescription": "完美闪避后伤害+8%~14.4%持续10秒，最多3层，重复触发刷新持续时间。",
+    "effectDescriptionTw": "完美閃避後傷害+8%~14.4%持續10秒，最多3層，重複觸發刷新持續時間。",
+    "effectDescriptionEn": "Increases DMG by 8-14.4% for 10s after Critical Dodge, up to 3 stacks. Resets duration on retrigger.",
+    "howToObtain": "battle-pass",
+    "howToObtainZh": "环期赏令大月卡5选1",
+    "howToObtainEn": "Battle Pass 5-choice reward",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "psychic-barriers",
-    "name": "念力屏障",
-    "nameEn": "Psychic Barriers",
-    "type": "support",
-    "description": "以灵魂力量构筑防护屏障，为队友提供坚实的防御。",
-    "descriptionEn": "Constructs protective barriers using psychic power, providing solid defense for allies.",
-    "relatedCharacters": [
-      "nitsa"
-    ],
-    "faq": [
-      {
-        "question": "Is Psychic Barriers good in Neverness to Everness?",
-        "questionZh": "念力屏障好用吗？",
-        "answer": "Psychic Barriers is a support weapon in Neverness to Everness. Constructs protective barriers using psychic power, providing solid defense for allies. 念力屏障为队友提供防护，尼察是A级护盾辅助中性价比最高的。",
-        "answerZh": "念力屏障是异环中的support类型武器。以灵魂力量构筑防护屏障，为队友提供坚实的防御。 念力屏障为队友提供防护，尼察是A级护盾辅助中性价比最高的。"
-      },
-      {
-        "question": "How to get Psychic Barriers in Neverness to Everness?",
-        "questionZh": "如何获得念力屏障？",
-        "answer": "Nitsa's Psychic Barriers, unlocked with the A-rank character.",
-        "answerZh": "尼察的念力屏障，随A级角色解锁。"
-      },
-      {
-        "question": "What is the best alternative to Psychic Barriers?",
-        "questionZh": "念力屏障的最佳替代武器是什么？",
-        "answer": "Psychic Barriers are Nitsa-exclusive, budget alternative to Adler. Easy to obtain A-rank support.",
-        "answerZh": "念力屏障是尼察专属，阿德勒的低配替代。A级辅助易获取。"
-      }
-    ],
-    "bestFor": "Nitsa",
-    "bestForZh": "尼察",
-    "image": "/images/weapons/psychic-barriers.webp"
+    "id": "fluff-of-fleetness",
+    "name": "飞速绒绒",
+    "nameTw": "飛速絨絨",
+    "nameEn": "Fluff of Fleetness",
+    "rank": "S",
+    "type": "liquid",
+    "baseAtk": 512,
+    "substat": "critDmg",
+    "substatValue": "44%",
+    "effectName": "马达糖果",
+    "effectNameTw": "馬達糖果",
+    "effectNameEn": "Motor Candy",
+    "effectDescription": "站场时每秒ATK+5%~9%，最多5层。离场时重置。",
+    "effectDescriptionTw": "站場時每秒ATK+5%~9%，最多5層。離場時重置。",
+    "effectDescriptionEn": "While active, increases ATK by 5-9% every 1s, up to 5 stacks. Resets when leaving field.",
+    "howToObtain": "battle-pass",
+    "howToObtainZh": "环期赏令大月卡5选1",
+    "howToObtainEn": "Battle Pass 5-choice reward",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "dark-feathers",
-    "name": "暗羽",
-    "nameEn": "Dark Feathers",
-    "type": "ranged",
-    "description": "以黑暗能量凝聚的羽毛进行远程攻击，可同时发射多枚追踪弹。",
-    "descriptionEn": "Dark energy feathers used for ranged attacks, capable of launching multiple homing projectiles.",
-    "relatedCharacters": [
-      "black-bird"
-    ],
-    "faq": [
-      {
-        "question": "Is Dark Feathers good in Neverness to Everness?",
-        "questionZh": "暗羽好用吗？",
-        "answer": "Dark Feathers is a ranged weapon in Neverness to Everness. Dark energy feathers used for ranged attacks, capable of launching multiple homing projectiles. 暗羽是黑鸟速切队核心，追踪弹+连携技高频伤害。T0级速切武器。",
-        "answerZh": "暗羽是异环中的ranged类型武器。以黑暗能量凝聚的羽毛进行远程攻击，可同时发射多枚追踪弹。 暗羽是黑鸟速切队核心，追踪弹+连携技高频伤害。T0级速切武器。"
-      },
-      {
-        "question": "How to get Dark Feathers in Neverness to Everness?",
-        "questionZh": "如何获得暗羽？",
-        "answer": "Black Bird's signature weapon from the limited banner. S-rank weapon pity at 90 pulls.",
-        "answerZh": "黑鸟专属武器，通过限定祈愿池获取。S级武器保底90抽。"
-      },
-      {
-        "question": "What is the best alternative to Dark Feathers?",
-        "questionZh": "暗羽的最佳替代武器是什么？",
-        "answer": "A-rank alternative: Dark Feather Shards (crafting). Black Bird is quick-swap core, signature weapon boosts chain attack damage.",
-        "answerZh": "A级替代：暗羽碎片（锻造）。黑鸟速切队核心，专武提升连携技伤害。"
-      }
-    ],
-    "bestFor": "Black Bird",
-    "bestForZh": "黑鸟",
-    "image": "/images/weapons/dark-feathers.webp"
+    "id": "fluff-of-fortitude",
+    "name": "坚韧绒绒",
+    "nameTw": "堅韌絨絨",
+    "nameEn": "Fluff of Fortitude",
+    "rank": "S",
+    "type": "plasma",
+    "baseAtk": 512,
+    "substat": "atkPct",
+    "substatValue": "27.5%",
+    "effectName": "拳击糖果",
+    "effectNameTw": "拳擊糖果",
+    "effectNameEn": "Jawbreaker's Candy",
+    "effectDescription": "伤害+22%~38%。对HP低于50%的敌人伤害提升至28%~52%。",
+    "effectDescriptionTw": "傷害+22%~38%。對HP低於50%的敵人傷害提升至28%~52%。",
+    "effectDescriptionEn": "Increases DMG by 22-38%. Increases to 28-52% against enemies below 50% HP.",
+    "howToObtain": "battle-pass",
+    "howToObtainZh": "环期赏令大月卡5选1",
+    "howToObtainEn": "Battle Pass 5-choice reward",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "tiger-fangs",
-    "name": "虎牙",
-    "nameEn": "Tiger Fangs",
-    "type": "melee",
-    "description": "以猛虎之力强化的格斗武器，攻击带有生命属性的震荡效果。",
-    "descriptionEn": "Combat weapon enhanced with tiger power, attacks carry Anima-attribute shock effects.",
-    "relatedCharacters": [
-      "xiaozhen"
-    ],
-    "faq": [
-      {
-        "question": "Is Tiger Fangs good in Neverness to Everness?",
-        "questionZh": "虎牙好用吗？",
-        "answer": "Tiger Fangs is a melee weapon in Neverness to Everness. Combat weapon enhanced with tiger power, attacks carry Anima-attribute shock effects. 虎牙蓄力重击伤害极高，明虎S级物理格斗爆发输出。T1级。",
-        "answerZh": "虎牙是异环中的melee类型武器。以猛虎之力强化的格斗武器，攻击带有生命属性的震荡效果。 虎牙蓄力重击伤害极高，明虎S级物理格斗爆发输出。T1级。"
-      },
-      {
-        "question": "How to get Tiger Fangs in Neverness to Everness?",
-        "questionZh": "如何获得虎牙？",
-        "answer": "Xiaozhen's signature weapon from the standard banner.",
-        "answerZh": "明虎专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Tiger Fangs?",
-        "questionZh": "虎牙的最佳替代武器是什么？",
-        "answer": "A-rank alternative: Basic Tiger Fangs (crafting). Xiaozhen's charged attacks need safe windows.",
-        "answerZh": "A级替代：虎牙初型（锻造）。明虎蓄力重击需要安全输出环境。"
-      }
-    ],
-    "bestFor": "Xiaozhen",
-    "bestForZh": "明虎",
-    "image": "/images/weapons/tiger-fangs.webp"
+    "id": "a-time-will-come",
+    "name": "时机终至",
+    "nameTw": "時機終至",
+    "nameEn": "A Time Will Come",
+    "rank": "A",
+    "type": "synthesis",
+    "baseAtk": 475,
+    "substat": "critRate",
+    "substatValue": "20%",
+    "effectName": "潮汐升腾",
+    "effectNameTw": "潮汐升騰",
+    "effectNameEn": "Tidal Ascension",
+    "effectDescription": "队伍有3种不同弧盘类型时获得ATK/DEF/HP各+10%~18%。",
+    "effectDescriptionTw": "隊伍有3種不同弧盤類型時獲得ATK/DEF/HP各+10%~18%。",
+    "effectDescriptionEn": "Grants 10-18% ATK, DEF and HP when team has 3+ different Arc types.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "flame-talismans",
-    "name": "焰符",
-    "nameEn": "Flame Talismans",
-    "type": "magic",
-    "description": "以咒术符纸为媒介释放火焰攻击，可贴附在敌人身上延迟引爆。",
-    "descriptionEn": "Incantation talismans that unleash fire attacks, can be attached to enemies for delayed detonation.",
-    "relatedCharacters": [
-      "akane"
-    ],
-    "faq": [
-      {
-        "question": "Is Flame Talismans good in Neverness to Everness?",
-        "questionZh": "焰符好用吗？",
-        "answer": "Flame Talismans is a magic weapon in Neverness to Everness. Incantation talismans that unleash fire attacks, can be attached to enemies for delayed detonation. 焰符延迟引爆机制独特，赤音S级灼烧反应主C。T1级。",
-        "answerZh": "焰符是异环中的magic类型武器。以咒术符纸为媒介释放火焰攻击，可贴附在敌人身上延迟引爆。 焰符延迟引爆机制独特，赤音S级灼烧反应主C。T1级。"
-      },
-      {
-        "question": "How to get Flame Talismans in Neverness to Everness?",
-        "questionZh": "如何获得焰符？",
-        "answer": "Akane's signature weapon from the standard banner.",
-        "answerZh": "赤音专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Flame Talismans?",
-        "questionZh": "焰符的最佳替代武器是什么？",
-        "answer": "A-rank alternative: Basic Flame Talismans (crafting). Akane is burn team core, signature extends burn duration.",
-        "answerZh": "A级替代：焰符初型（锻造）。赤音灼烧队核心输出，专武提升灼烧持续时间。"
-      }
-    ],
-    "bestFor": "Akane",
-    "bestForZh": "赤音",
-    "image": "/images/weapons/flame-talismans.webp"
+    "id": "call-of-the-twisted-city",
+    "name": "扭曲之城呼唤",
+    "nameTw": "扭曲之城呼喚",
+    "nameEn": "Call of the Twisted City",
+    "rank": "A",
+    "type": "liquid",
+    "baseAtk": 395,
+    "substat": "hpPct",
+    "substatValue": "37.5%",
+    "effectName": "纸箱城堡",
+    "effectNameTw": "紙箱城堡",
+    "effectNameEn": "Cardboard Castle",
+    "effectDescription": "施放变轨后治疗加成+12%~20%持续10秒，不叠加。",
+    "effectDescriptionTw": "施放變軌後治療加成+12%~20%持續10秒，不疊加。",
+    "effectDescriptionEn": "Increases Healing Bonus by 12-20% for 10s after Redirect Skill. Does not stack.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "gravity-hammer",
-    "name": "重力锤",
-    "nameEn": "Gravity Hammer",
-    "type": "melee",
-    "description": "操控重力场的大锤，攻击时可产生吸引敌人的引力效果。",
-    "descriptionEn": "A large hammer that manipulates gravity fields, creating gravitational pulls that draw enemies in.",
-    "relatedCharacters": [
-      "jenson"
-    ],
-    "faq": [
-      {
-        "question": "Is Gravity Hammer good in Neverness to Everness?",
-        "questionZh": "重力锤好用吗？",
-        "answer": "Gravity Hammer is a melee weapon in Neverness to Everness. A large hammer that manipulates gravity fields, creating gravitational pulls that draw enemies in. 重力锤产生引力效果吸引敌人，A级坦克中聚怪能力突出。",
-        "answerZh": "重力锤是异环中的melee类型武器。操控重力场的大锤，攻击时可产生吸引敌人的引力效果。 重力锤产生引力效果吸引敌人，A级坦克中聚怪能力突出。"
-      },
-      {
-        "question": "How to get Gravity Hammer in Neverness to Everness?",
-        "questionZh": "如何获得重力锤？",
-        "answer": "Jenson's signature weapon, unlocked with the A-rank character.",
-        "answerZh": "詹森专属武器，随A级角色解锁。"
-      },
-      {
-        "question": "What is the best alternative to Gravity Hammer?",
-        "questionZh": "重力锤的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Gravity Hammer (crafting). Jenson is A-rank taunt tank, drawing enemies to protect allies.",
-        "answerZh": "替代：重力锤初型（锻造）。詹森A级嘲讽坦克，吸引敌人保护队友。"
-      }
-    ],
-    "bestFor": "Jenson",
-    "bestForZh": "詹森",
-    "image": "/images/weapons/gravity-hammer.webp"
+    "id": "clear-skies",
+    "name": "晴空",
+    "nameTw": "晴空",
+    "nameEn": "Clear Skies",
+    "rank": "A",
+    "type": "liquid",
+    "baseAtk": 475,
+    "substat": "atkPct",
+    "substatValue": "25%",
+    "effectName": "纸飞机编队",
+    "effectNameTw": "紙飛機編隊",
+    "effectNameEn": "Paper Squadron",
+    "effectDescription": "变轨和终结技灵魂伤害+20%~35%。",
+    "effectDescriptionTw": "變軌和終結技靈魂傷害+20%~35%。",
+    "effectDescriptionEn": "Increases Psyche DMG of Redirect Skill and Ultimate by 20-35%.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "phase-blades",
-    "name": "相位刃",
-    "nameEn": "Phase Blades",
-    "type": "melee",
-    "description": "可在不同相位间切换的刃武器，能穿透常规防御。",
-    "descriptionEn": "Blades that can shift between phases, capable of penetrating standard defenses.",
-    "relatedCharacters": [
-      "illica"
-    ],
-    "faq": [
-      {
-        "question": "Is Phase Blades good in Neverness to Everness?",
-        "questionZh": "相位刃好用吗？",
-        "answer": "Phase Blades is a melee weapon in Neverness to Everness. Blades that can shift between phases, capable of penetrating standard defenses. 相位刃穿透防御，伊利卡狂战士暴击流高频暴击。T1级。",
-        "answerZh": "相位刃是异环中的melee类型武器。可在不同相位间切换的刃武器，能穿透常规防御。 相位刃穿透防御，伊利卡狂战士暴击流高频暴击。T1级。"
-      },
-      {
-        "question": "How to get Phase Blades in Neverness to Everness?",
-        "questionZh": "如何获得相位刃？",
-        "answer": "Illica's signature weapon from the standard banner.",
-        "answerZh": "伊利卡专属武器，通过常驻祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Phase Blades?",
-        "questionZh": "相位刃的最佳替代武器是什么？",
-        "answer": "A-rank alternative: Basic Phase Blades (crafting). Illica is the core user of Berserker crit builds.",
-        "answerZh": "A级替代：相位刃初型（锻造）。伊利卡狂战士暴击流核心。"
-      }
-    ],
-    "bestFor": "Illica",
-    "bestForZh": "伊利卡",
-    "image": "/images/weapons/phase-blades.webp"
+    "id": "cosmos-daze-wild-reverie",
+    "name": "宇宙迷离狂想曲",
+    "nameTw": "宇宙迷離狂想曲",
+    "nameEn": "Cosmos Daze, Wild Reverie",
+    "rank": "A",
+    "type": "gas",
+    "baseAtk": 475,
+    "substat": "atkPct",
+    "substatValue": "25%",
+    "effectName": "波普",
+    "effectNameTw": "波普",
+    "effectNameEn": "Bopp",
+    "effectDescription": "施放支援技能后伤害+18%~30%持续10秒(CD 20秒)。",
+    "effectDescriptionTw": "施放支援技能後傷害+18%~30%持續10秒(CD 20秒)。",
+    "effectDescriptionEn": "Increases DMG by 18-30% for 10s after Support Skill (CD 20s).",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "sonic-guitar",
-    "name": "音波吉他",
-    "nameEn": "Sonic Guitar",
-    "type": "ranged",
-    "description": "以音波振动为武器的吉他型装置，范围攻击效果出色。",
-    "descriptionEn": "A guitar-shaped weapon using sonic vibrations, excellent for area-of-effect attacks.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Sonic Guitar good in Neverness to Everness?",
-        "questionZh": "音波吉他好用吗？",
-        "answer": "Sonic Guitar is a ranged weapon in Neverness to Everness. A guitar-shaped weapon using sonic vibrations, excellent for area-of-effect attacks. 音波吉他范围攻击出色，通用武器中AOE能力突出。适合多目标战斗。",
-        "answerZh": "音波吉他是异环中的ranged类型武器。以音波振动为武器的吉他型装置，范围攻击效果出色。 音波吉他范围攻击出色，通用武器中AOE能力突出。适合多目标战斗。"
-      },
-      {
-        "question": "How to get Sonic Guitar in Neverness to Everness?",
-        "questionZh": "如何获得音波吉他？",
-        "answer": "Universal sonic weapon from gacha or shop exchange. Akane can use it.",
-        "answerZh": "通用音波武器，通过祈愿池或商店兑换获取。赤音可使用。"
-      },
-      {
-        "question": "What is the best alternative to Sonic Guitar?",
-        "questionZh": "音波吉他的最佳替代武器是什么？",
-        "answer": "Alternatives: Basic Sonic Guitar (crafting), Flame Talismans (better for Akane). Excellent AoE.",
-        "answerZh": "替代：音波吉他初型（锻造）、焰符（赤音专武更好）。范围AOE优秀。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/sonic-guitar.webp"
+    "id": "drawn-blade",
+    "name": "拔刀",
+    "nameTw": "拔刀",
+    "nameEn": "Drawn Blade",
+    "rank": "A",
+    "type": "plasma",
+    "baseAtk": 395,
+    "substat": "atkPct",
+    "substatValue": "37.5%",
+    "effectName": "绯红妖刀",
+    "effectNameTw": "緋紅妖刀",
+    "effectNameEn": "Crimson Hexblade",
+    "effectDescription": "触发弹反时造成额外咒术伤害(200%~320%ATK)。",
+    "effectDescriptionTw": "觸發彈反時造成額外咒術傷害(200%~320%ATK)。",
+    "effectDescriptionEn": "Deals additional Incantation DMG (200-320% ATK) on Parry Attack.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "magnet-gauntlets",
-    "name": "磁力拳套",
-    "nameEn": "Magnet Gauntlets",
-    "type": "melee",
-    "description": "操控磁场进行近距离格斗的拳套，可吸引或排斥金属物体。",
-    "descriptionEn": "Gauntlets that control magnetic fields for close combat, can attract or repel metallic objects.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Magnet Gauntlets good in Neverness to Everness?",
-        "questionZh": "磁力拳套好用吗？",
-        "answer": "Magnet Gauntlets is a melee weapon in Neverness to Everness. Gauntlets that control magnetic fields for close combat, can attract or repel metallic objects. 磁力拳套可吸引金属物体，通用格斗武器中有不错的控场能力。",
-        "answerZh": "磁力拳套是异环中的melee类型武器。操控磁场进行近距离格斗的拳套，可吸引或排斥金属物体。 磁力拳套可吸引金属物体，通用格斗武器中有不错的控场能力。"
-      },
-      {
-        "question": "How to get Magnet Gauntlets in Neverness to Everness?",
-        "questionZh": "如何获得磁力拳套？",
-        "answer": "Universal combat weapon from gacha or crafting. Xiaozhen can use it.",
-        "answerZh": "通用格斗武器，通过祈愿池或锻造获取。明虎可使用。"
-      },
-      {
-        "question": "What is the best alternative to Magnet Gauntlets?",
-        "questionZh": "磁力拳套的最佳替代武器是什么？",
-        "answer": "Alternatives: Basic Magnet Gauntlets (crafting), Tiger Fangs (better for Xiaozhen). Magnetic pull CC is decent.",
-        "answerZh": "替代：磁力拳套初型（锻造）、虎牙（明虎专武更好）。磁力吸引控制效果不错。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/magnet-gauntlets.webp"
+    "id": "failing-you-heavy-in-my-heart",
+    "name": "辜负你心中沉重",
+    "nameTw": "辜負你心中沉重",
+    "nameEn": "Failing You, Heavy in My Heart",
+    "rank": "A",
+    "type": "gas",
+    "baseAtk": 475,
+    "substat": "breakPower",
+    "substatValue": "120",
+    "effectName": "蜘蛛知识收集者",
+    "effectNameTw": "蜘蛛知識收集者",
+    "effectNameEn": "Spider Knowledge Collector",
+    "effectDescription": "普攻造成伤害获得1层蜘蛛知识(最多8层，0.5秒1层)，施放终结技消耗所有层，每层全队ATK+1%~1.6%持续10秒。8层时额外ATK+2%~3.2%。",
+    "effectDescriptionTw": "普攻造成傷害獲得1層蜘蛛知識(最多8層，0.5秒1層)，施放終結技消耗所有層，每層全隊ATK+1%~1.6%持續10秒。8層時額外ATK+2%~3.2%。",
+    "effectDescriptionEn": "Basic Attacks grant Spider Knowledge stack (max 8, 1 per 0.5s). Ultimate consumes all stacks, +1-1.6% Team ATK per stack for 10s. 8 stacks grants additional 2-3.2% ATK.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "time-hourglass",
-    "name": "时之沙漏",
-    "nameEn": "Time Hourglass",
-    "type": "support",
-    "description": "操控局部时间流速的沙漏型异能装置，可减缓敌人行动。",
-    "descriptionEn": "An hourglass-type esper device that controls local time flow, slowing enemy movements.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Time Hourglass good in Neverness to Everness?",
-        "questionZh": "时之沙漏好用吗？",
-        "answer": "Time Hourglass is a support weapon in Neverness to Everness. An hourglass-type esper device that controls local time flow, slowing enemy movements. 时之沙漏可减缓敌人行动，通用辅助武器中减速效果实用。",
-        "answerZh": "时之沙漏是异环中的support类型武器。操控局部时间流速的沙漏型异能装置，可减缓敌人行动。 时之沙漏可减缓敌人行动，通用辅助武器中减速效果实用。"
-      },
-      {
-        "question": "How to get Time Hourglass in Neverness to Everness?",
-        "questionZh": "如何获得时之沙漏？",
-        "answer": "Universal support weapon from gacha or event rewards.",
-        "answerZh": "通用辅助武器，通过祈愿池或活动奖励获取。"
-      },
-      {
-        "question": "What is the best alternative to Time Hourglass?",
-        "questionZh": "时之沙漏的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Time Hourglass (crafting). Enemy slow works on bosses too.",
-        "answerZh": "替代：时之沙漏初型（锻造）。减速敌人效果对Boss也有效。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/time-hourglass.webp"
+    "id": "mind-royale",
+    "name": "灵感王冠",
+    "nameTw": "靈感王冠",
+    "nameEn": "Mind Royale",
+    "rank": "A",
+    "type": "liquid",
+    "baseAtk": 555,
+    "substat": "breakPower",
+    "substatValue": "60",
+    "effectName": "灵感终结者",
+    "effectNameTw": "靈感終結者",
+    "effectNameEn": "Inspiration Terminator",
+    "effectDescription": "施放变轨时回复10~18终结能量(CD 20秒)。",
+    "effectDescriptionTw": "施放變軌時回覆10~18終結能量(CD 20秒)。",
+    "effectDescriptionEn": "Grants 10-18 Ultimate Energy when casting Redirect Skill (CD 20s).",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "ink-brush",
-    "name": "墨笔",
-    "nameEn": "Ink Brush",
-    "type": "magic",
-    "description": "以水墨之力绘出攻击的魔法笔，画出的图案会实体化为攻击手段。",
-    "descriptionEn": "A magical brush using ink power, drawn patterns materialize into attacks.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Ink Brush good in Neverness to Everness?",
-        "questionZh": "墨笔好用吗？",
-        "answer": "Ink Brush is a magic weapon in Neverness to Everness. A magical brush using ink power, drawn patterns materialize into attacks. 墨笔绘出的图案实体化为攻击手段，通用魔法武器中创意十足。",
-        "answerZh": "墨笔是异环中的magic类型武器。以水墨之力绘出攻击的魔法笔，画出的图案会实体化为攻击手段。 墨笔绘出的图案实体化为攻击手段，通用魔法武器中创意十足。"
-      },
-      {
-        "question": "How to get Ink Brush in Neverness to Everness?",
-        "questionZh": "如何获得墨笔？",
-        "answer": "Universal magic weapon from gacha or crafting.",
-        "answerZh": "通用魔法武器，通过祈愿池或锻造获取。"
-      },
-      {
-        "question": "What is the best alternative to Ink Brush?",
-        "questionZh": "墨笔的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Ink Brush (crafting). Materialized attacks have wide range, good for AoE.",
-        "answerZh": "替代：墨笔初型（锻造）。实体化攻击范围广，适合AOE。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/ink-brush.webp"
+    "id": "oraora",
+    "name": "欧拉欧拉！",
+    "nameTw": "歐拉歐拉！",
+    "nameEn": "Oraora!",
+    "rank": "A",
+    "type": "plasma",
+    "baseAtk": 395,
+    "substat": "atkPct",
+    "substatValue": "37.5%",
+    "effectName": "欧拉拳套",
+    "effectNameTw": "歐拉拳套",
+    "effectNameEn": "Ora Puncher",
+    "effectDescription": "每次普攻普攻伤害+2%~3.6%持续10秒，最多10层，独立计时。",
+    "effectDescriptionTw": "每次普攻普攻傷害+2%~3.6%持續10秒，最多10層，獨立計時。",
+    "effectDescriptionEn": "Each Basic Attack increases Basic Attack DMG by 2-3.6% for 10s, up to 10 stacks. Tracks each stack independently.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "chain-scythe",
-    "name": "链镰",
-    "nameEn": "Chain Scythe",
-    "type": "melee",
-    "description": "链式镰刀武器，可近距离挥砍也可远距离抛掷攻击。",
-    "descriptionEn": "A chain-connected scythe for both close-range slashes and long-range throws.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Chain Scythe good in Neverness to Everness?",
-        "questionZh": "链镰好用吗？",
-        "answer": "Chain Scythe is a melee weapon in Neverness to Everness. A chain-connected scythe for both close-range slashes and long-range throws. 链镰近距离挥砍+远距离抛掷，通用近战武器中灵活性突出。",
-        "answerZh": "链镰是异环中的melee类型武器。链式镰刀武器，可近距离挥砍也可远距离抛掷攻击。 链镰近距离挥砍+远距离抛掷，通用近战武器中灵活性突出。"
-      },
-      {
-        "question": "How to get Chain Scythe in Neverness to Everness?",
-        "questionZh": "如何获得链镰？",
-        "answer": "Universal melee weapon from gacha or crafting. Black Bird can use it.",
-        "answerZh": "通用近战武器，通过祈愿池或锻造获取。黑鸟可使用。"
-      },
-      {
-        "question": "What is the best alternative to Chain Scythe?",
-        "questionZh": "链镰的最佳替代武器是什么？",
-        "answer": "Alternatives: Basic Chain Scythe (crafting), Dark Feathers (better for Black Bird). Flexible close/long range.",
-        "answerZh": "替代：链镰初型（锻造）、暗羽（黑鸟专武更好）。远近双距离攻击灵活。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/chain-scythe.webp"
+    "id": "shiny-days",
+    "name": "闪亮的日子",
+    "nameTw": "閃亮的日子",
+    "nameEn": "Shiny Days",
+    "rank": "A",
+    "type": "liquid",
+    "baseAtk": 475,
+    "substat": "atkPct",
+    "substatValue": "25%",
+    "effectName": "胶卷·MANISH",
+    "effectNameTw": "膠捲·MANISH",
+    "effectNameEn": "Film - MANISH",
+    "effectDescription": "破韧强度+48~84。对破碎单位伤害+10%~18%。",
+    "effectDescriptionTw": "破韌強度+48~84。對破碎單位傷害+10%~18%。",
+    "effectDescriptionEn": "Increases Break Intensity by 48-84. Increases DMG to Broken units by 10-18%.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "crystal-shards",
-    "name": "晶碎",
-    "nameEn": "Crystal Shards",
-    "type": "ranged",
-    "description": "操控结晶体碎片进行远程穿透攻击。",
-    "descriptionEn": "Controls crystal shards for long-range piercing attacks.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Crystal Shards good in Neverness to Everness?",
-        "questionZh": "晶碎好用吗？",
-        "answer": "Crystal Shards is a ranged weapon in Neverness to Everness. Controls crystal shards for long-range piercing attacks. 晶碎远程穿透攻击，通用远程武器中对群体效果优秀。",
-        "answerZh": "晶碎是异环中的ranged类型武器。操控结晶体碎片进行远程穿透攻击。 晶碎远程穿透攻击，通用远程武器中对群体效果优秀。"
-      },
-      {
-        "question": "How to get Crystal Shards in Neverness to Everness?",
-        "questionZh": "如何获得晶碎？",
-        "answer": "Universal ranged weapon from gacha or crafting.",
-        "answerZh": "通用远程武器，通过祈愿池或锻造获取。"
-      },
-      {
-        "question": "What is the best alternative to Crystal Shards?",
-        "questionZh": "晶碎的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Crystal Shards (crafting). Piercing attacks excel against enemies in a line.",
-        "answerZh": "替代：晶碎初型（锻造）。穿透攻击对直线排列的敌人效果极佳。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/crystal-shards.webp"
+    "id": "the-fools-spring",
+    "name": "愚者之春",
+    "nameTw": "愚者之春",
+    "nameEn": "The Fools' Spring",
+    "rank": "A",
+    "type": "synthesis",
+    "baseAtk": 395,
+    "substat": "defPct",
+    "substatValue": "52.5%",
+    "effectName": "避日蛛之命",
+    "effectNameTw": "避日蛛之命",
+    "effectNameEn": "Solifugae Vita",
+    "effectDescription": "持有护盾时ATK+18%~30%。",
+    "effectDescriptionTw": "持有護盾時ATK+18%~30%。",
+    "effectDescriptionEn": "Increases ATK by 18-30% while having a Shield.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "puppet-strings",
-    "name": "傀儡线",
-    "nameEn": "Puppet Strings",
-    "type": "summon",
-    "description": "操控不可见的丝线控制敌人的傀儡型武器。",
-    "descriptionEn": "Controls invisible strings to manipulate enemies, a puppet-type weapon.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Puppet Strings good in Neverness to Everness?",
-        "questionZh": "傀儡线好用吗？",
-        "answer": "Puppet Strings is a summon weapon in Neverness to Everness. Controls invisible strings to manipulate enemies, a puppet-type weapon. 傀儡线可控制敌人，通用召唤武器中控制能力最独特。",
-        "answerZh": "傀儡线是异环中的summon类型武器。操控不可见的丝线控制敌人的傀儡型武器。 傀儡线可控制敌人，通用召唤武器中控制能力最独特。"
-      },
-      {
-        "question": "How to get Puppet Strings in Neverness to Everness?",
-        "questionZh": "如何获得傀儡线？",
-        "answer": "Universal summon weapon from gacha.",
-        "answerZh": "通用召唤武器，通过祈愿池获取。"
-      },
-      {
-        "question": "What is the best alternative to Puppet Strings?",
-        "questionZh": "傀儡线的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Puppet Strings (crafting). Enemy manipulation is unique but skill-intensive.",
-        "answerZh": "替代：傀儡线初型（锻造）。控制敌人效果独特但需要操作技巧。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/puppet-strings.webp"
+    "id": "the-forgotten",
+    "name": "被遗忘的",
+    "nameTw": "被遺忘的",
+    "nameEn": "The Forgotten",
+    "rank": "A",
+    "type": "solid",
+    "baseAtk": 475,
+    "substat": "hpPct",
+    "substatValue": "25%",
+    "effectName": "画框",
+    "effectNameTw": "畫框",
+    "effectNameEn": "Picture Frame",
+    "effectDescription": "HP>50%时ATK+20%~36%；HP<50%时DEF+20%~36%。",
+    "effectDescriptionTw": "HP>50%時ATK+20%~36%；HP<50%時DEF+20%~36%。",
+    "effectDescriptionEn": "ATK +20-36% when HP>50%; DEF +20-36% when HP<50%.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "void-scythe",
-    "name": "虚空镰",
-    "nameEn": "Void Scythe",
-    "type": "melee",
-    "description": "切割空间本身的大镰刀，攻击时会留下空间裂缝。",
-    "descriptionEn": "A scythe that cuts through space itself, leaving spatial rifts with each strike.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Void Scythe good in Neverness to Everness?",
-        "questionZh": "虚空镰好用吗？",
-        "answer": "Void Scythe is a melee weapon in Neverness to Everness. A scythe that cuts through space itself, leaving spatial rifts with each strike. 虚空镰切割空间本身，莉莉娜浊燃队核心武器。高倍率持续伤害。",
-        "answerZh": "虚空镰是异环中的melee类型武器。切割空间本身的大镰刀，攻击时会留下空间裂缝。 虚空镰切割空间本身，莉莉娜浊燃队核心武器。高倍率持续伤害。"
-      },
-      {
-        "question": "How to get Void Scythe in Neverness to Everness?",
-        "questionZh": "如何获得虚空镰？",
-        "answer": "Void Scythe usable by Lilina, from gacha. High rarity weapon.",
-        "answerZh": "莉莉娜可使用的虚空镰刀，通过祈愿池获取。高稀有度武器。"
-      },
-      {
-        "question": "What is the best alternative to Void Scythe?",
-        "questionZh": "虚空镰的最佳替代武器是什么？",
-        "answer": "Alternatives: Basic Void Scythe (crafting), Chain Scythe (universal substitute). Spatial rift DoT is decent.",
-        "answerZh": "替代：虚空镰初型（锻造）、链镰（通用替代）。空间裂缝持续伤害效果不错。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/void-scythe.webp"
+    "id": "the-good-the-bad-the-bitter",
+    "name": "好的坏的苦的",
+    "nameTw": "好的壞的苦的",
+    "nameEn": "The Good, The Bad, The Bitter",
+    "rank": "A",
+    "type": "synthesis",
+    "baseAtk": 475,
+    "substat": "hpPct",
+    "substatValue": "25%",
+    "effectName": "苦蛋糕",
+    "effectNameTw": "苦蛋糕",
+    "effectNameEn": "Bittercake",
+    "effectDescription": "受伤时DEF+26%~46%持续10秒(CD 20秒)。",
+    "effectDescriptionTw": "受傷時DEF+26%~46%持續10秒(CD 20秒)。",
+    "effectDescriptionEn": "Increases DEF by 26-46% for 10s when taking damage (CD 20s).",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "plasma-cannon",
-    "name": "等离子炮",
-    "nameEn": "Plasma Cannon",
-    "type": "ranged",
-    "description": "蓄力型等离子射击武器，单发伤害极高但攻击速度较慢。",
-    "descriptionEn": "A charged plasma射击 weapon with extremely high single-shot damage but slow attack speed.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Plasma Cannon good in Neverness to Everness?",
-        "questionZh": "等离子炮好用吗？",
-        "answer": "Plasma Cannon is a ranged weapon in Neverness to Everness. A charged plasma射击 weapon with extremely high single-shot damage but slow attack speed. 等离子炮蓄力型射击武器，通用远程武器中单发伤害最高。",
-        "answerZh": "等离子炮是异环中的ranged类型武器。蓄力型等离子射击武器，单发伤害极高但攻击速度较慢。 等离子炮蓄力型射击武器，通用远程武器中单发伤害最高。"
-      },
-      {
-        "question": "How to get Plasma Cannon in Neverness to Everness?",
-        "questionZh": "如何获得等离子炮？",
-        "answer": "Universal ranged weapon from gacha. Illica can use it.",
-        "answerZh": "通用远程武器，通过祈愿池获取。伊利卡可使用。"
-      },
-      {
-        "question": "What is the best alternative to Plasma Cannon?",
-        "questionZh": "等离子炮的最佳替代武器是什么？",
-        "answer": "Alternatives: Basic Plasma Cannon (crafting), Phase Blades (better for Illica). Extremely high single-shot damage.",
-        "answerZh": "替代：等离子炮初型（锻造）、相位刃（伊利卡专武更好）。单发伤害极高。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/plasma-cannon.webp"
+    "id": "the-great-thief",
+    "name": "大盗",
+    "nameTw": "大盜",
+    "nameEn": "The Great Thief",
+    "rank": "A",
+    "type": "synthesis",
+    "baseAtk": 475,
+    "substat": "breakPower",
+    "substatValue": "120",
+    "effectName": "团三郎",
+    "effectNameTw": "團三郎",
+    "effectNameEn": "Danzaburou",
+    "effectDescription": "队伍有3名以上同弧盘类型角色时，所有该类型角色破韧强度+70~126，不叠加。",
+    "effectDescriptionTw": "隊伍有3名以上同弧盤類型角色時，所有該類型角色破韌強度+70~126，不疊加。",
+    "effectDescriptionEn": "When team has 3+ same Arc type characters, all characters of that type gain +70-126 Break Intensity. Does not stack.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "nature-vines",
-    "name": "自然藤蔓",
-    "nameEn": "Nature Vines",
-    "type": "support",
-    "description": "操控植物藤蔓进行束缚和治疗的支援型武器。",
-    "descriptionEn": "Controls plant vines for binding enemies and healing allies, a support-type weapon.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Nature Vines good in Neverness to Everness?",
-        "questionZh": "自然藤蔓好用吗？",
-        "answer": "Nature Vines is a support weapon in Neverness to Everness. Controls plant vines for binding enemies and healing allies, a support-type weapon. 自然藤蔓束缚+治疗双效果，通用辅助武器中续航能力优秀。",
-        "answerZh": "自然藤蔓是异环中的support类型武器。操控植物藤蔓进行束缚和治疗的支援型武器。 自然藤蔓束缚+治疗双效果，通用辅助武器中续航能力优秀。"
-      },
-      {
-        "question": "How to get Nature Vines in Neverness to Everness?",
-        "questionZh": "如何获得自然藤蔓？",
-        "answer": "Universal support weapon from gacha or crafting.",
-        "answerZh": "通用辅助武器，通过祈愿池或锻造获取。"
-      },
-      {
-        "question": "What is the best alternative to Nature Vines?",
-        "questionZh": "自然藤蔓的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Nature Vines (crafting). Binding + healing dual effect is practical.",
-        "answerZh": "替代：自然藤蔓初型（锻造）。束缚+治疗双效果实用。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/nature-vines.webp"
+    "id": "time-bandit",
+    "name": "时间大盗",
+    "nameTw": "時間大盜",
+    "nameEn": "Time Bandit",
+    "rank": "A",
+    "type": "solid",
+    "baseAtk": 475,
+    "substat": "hpPct",
+    "substatValue": "25%",
+    "effectName": "撬撬",
+    "effectNameTw": "撬撬",
+    "effectNameEn": "Picky",
+    "effectDescription": "施放变轨后破韧强度+90~162持续10秒。解锁弧盘·撬撬：召唤撬撬解锁附近可锁定物品。",
+    "effectDescriptionTw": "施放變軌後破韌強度+90~162持續10秒。解鎖弧盤·撬撬：召喚撬撬解鎖附近可鎖定物品。",
+    "effectDescriptionEn": "Increases Break Intensity by 90-162 for 10s after Redirect Skill. Unlocks Arc: Picky - summons Picky to unlock nearby lockable objects.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "mirror-shield",
-    "name": "镜盾",
-    "nameEn": "Mirror Shield",
-    "type": "support",
-    "description": "可反射敌人攻击的镜面盾牌，也能用于侦查。",
-    "descriptionEn": "A mirror shield that can reflect enemy attacks and be used for reconnaissance.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Mirror Shield good in Neverness to Everness?",
-        "questionZh": "镜盾好用吗？",
-        "answer": "Mirror Shield is a support weapon in Neverness to Everness. A mirror shield that can reflect enemy attacks and be used for reconnaissance. 镜盾可反射敌人攻击，通用辅助武器中防御机制独特。",
-        "answerZh": "镜盾是异环中的support类型武器。可反射敌人攻击的镜面盾牌，也能用于侦查。 镜盾可反射敌人攻击，通用辅助武器中防御机制独特。"
-      },
-      {
-        "question": "How to get Mirror Shield in Neverness to Everness?",
-        "questionZh": "如何获得镜盾？",
-        "answer": "Universal support weapon from gacha or crafting. Aurelia can use it.",
-        "answerZh": "通用辅助武器，通过祈愿池或锻造获取。奥蕾莉亚可使用。"
-      },
-      {
-        "question": "What is the best alternative to Mirror Shield?",
-        "questionZh": "镜盾的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Mirror Shield (crafting). Reflecting enemy attacks is a unique defensive option.",
-        "answerZh": "替代：镜盾初型（锻造）。反射敌人攻击是独特防御手段。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/mirror-shield.webp"
+    "id": "umbrella",
+    "name": "雨伞",
+    "nameTw": "雨傘",
+    "nameEn": "Umbrella",
+    "rank": "A",
+    "type": "synthesis",
+    "baseAtk": 395,
+    "substat": "defPct",
+    "substatValue": "52.5%",
+    "effectName": "雨人",
+    "effectNameTw": "雨人",
+    "effectNameEn": "Rainman",
+    "effectDescription": "HP+10%~18%。HP>50%时护盾+10%~18%。",
+    "effectDescriptionTw": "HP+10%~18%。HP>50%時護盾+10%~18%。",
+    "effectDescriptionEn": "Increases HP by 10-18%. Strengthens shields by 10-18% when HP>50%.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "thunder-drums",
-    "name": "雷鼓",
-    "nameEn": "Thunder Drums",
-    "type": "magic",
-    "description": "以雷电之力强化的战鼓，敲击时释放范围雷击。",
-    "descriptionEn": "War drums enhanced with lightning power, releasing area thunder strikes when beaten.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Thunder Drums good in Neverness to Everness?",
-        "questionZh": "雷鼓好用吗？",
-        "answer": "Thunder Drums is a magic weapon in Neverness to Everness. War drums enhanced with lightning power, releasing area thunder strikes when beaten. 雷鼓范围雷击攻击，通用魔法武器中AOE雷电伤害突出。",
-        "answerZh": "雷鼓是异环中的magic类型武器。以雷电之力强化的战鼓，敲击时释放范围雷击。 雷鼓范围雷击攻击，通用魔法武器中AOE雷电伤害突出。"
-      },
-      {
-        "question": "How to get Thunder Drums in Neverness to Everness?",
-        "questionZh": "如何获得雷鼓？",
-        "answer": "Universal magic weapon from gacha or crafting.",
-        "answerZh": "通用魔法武器，通过祈愿池或锻造获取。"
-      },
-      {
-        "question": "What is the best alternative to Thunder Drums?",
-        "questionZh": "雷鼓的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Thunder Drums (crafting). AoE thunder damage is excellent.",
-        "answerZh": "替代：雷鼓初型（锻造）。范围雷击AOE伤害出色。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/thunder-drums.webp"
+    "id": "watch-your-heads",
+    "name": "小心头顶！",
+    "nameTw": "小心頭頂！",
+    "nameEn": "Watch Your Heads!",
+    "rank": "A",
+    "type": "gas",
+    "baseAtk": 475,
+    "substat": "critDmg",
+    "substatValue": "40%",
+    "effectName": "幽灵风筝",
+    "effectNameTw": "幽靈風箏",
+    "effectNameEn": "Ghostly Kite",
+    "effectDescription": "施放变轨后ATK+10%~18%且对受Remora和Stain影响目标的Lakshana伤害+10%~18%持续15秒，不叠加。",
+    "effectDescriptionTw": "施放變軌後ATK+10%~18%且對受Remora和Stain影響目標的Lakshana傷害+10%~18%持續15秒，不疊加。",
+    "effectDescriptionEn": "After Redirect Skill, +10-18% ATK and +10-18% Lakshana DMG to targets affected by Remora/Stain for 15s. Does not stack.",
+    "howToObtain": "gacha-standard",
+    "howToObtainZh": "常驻弧盘祈愿池",
+    "howToObtainEn": "Standard Arc gacha",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "frost-fan",
-    "name": "冰扇",
-    "nameEn": "Frost Fan",
-    "type": "magic",
-    "description": "释放冰霜风暴的折叠扇，能大范围减速敌人。",
-    "descriptionEn": "A folding fan that releases frost storms, capable of slowing enemies in a wide area.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Frost Fan good in Neverness to Everness?",
-        "questionZh": "冰扇好用吗？",
-        "answer": "Frost Fan is a magic weapon in Neverness to Everness. A folding fan that releases frost storms, capable of slowing enemies in a wide area. 冰扇释放冰霜风暴减速敌人，玛丽娜裂空反应输出核心武器。",
-        "answerZh": "冰扇是异环中的magic类型武器。释放冰霜风暴的折叠扇，能大范围减速敌人。 冰扇释放冰霜风暴减速敌人，玛丽娜裂空反应输出核心武器。"
-      },
-      {
-        "question": "How to get Frost Fan in Neverness to Everness?",
-        "questionZh": "如何获得冰扇？",
-        "answer": "Universal magic weapon from gacha or crafting. Marina can use it.",
-        "answerZh": "通用魔法武器，通过祈愿池或锻造获取。玛丽娜可使用。"
-      },
-      {
-        "question": "What is the best alternative to Frost Fan?",
-        "questionZh": "冰扇的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Frost Fan (crafting). Wide-area slow CC is excellent.",
-        "answerZh": "替代：冰扇初型（锻造）。大范围减速控制效果优秀。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/frost-fan.webp"
+    "id": "real-music",
+    "name": "真正的音乐",
+    "nameTw": "真正的音樂",
+    "nameEn": "Real Music",
+    "rank": "B",
+    "type": "liquid",
+    "baseAtk": 380,
+    "substat": "atkPct",
+    "substatValue": "20%",
+    "effectName": "附点灵",
+    "effectNameTw": "附點靈",
+    "effectNameEn": "Haunted Record",
+    "effectDescription": "变轨伤害+12%~16%。",
+    "effectDescriptionTw": "變軌傷害+12%~16%。",
+    "effectDescriptionEn": "Increases Redirect Skill DMG by 12-16%.",
+    "howToObtain": "starter",
+    "howToObtainZh": "初始赠送",
+    "howToObtainEn": "Starter weapon",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "gravity-boots",
-    "name": "重力靴",
-    "nameEn": "Gravity Boots",
-    "type": "melee",
-    "description": "强化踢技的重力靴，可在墙壁和天花板上行走。",
-    "descriptionEn": "Gravity boots that enhance kick attacks, allowing the user to walk on walls and ceilings.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Gravity Boots good in Neverness to Everness?",
-        "questionZh": "重力靴好用吗？",
-        "answer": "Gravity Boots is a melee weapon in Neverness to Everness. Gravity boots that enhance kick attacks, allowing the user to walk on walls and ceilings. 重力靴强化踢技，可在墙壁和天花板行走。通用近战武器中机动性最高。",
-        "answerZh": "重力靴是异环中的melee类型武器。强化踢技的重力靴，可在墙壁和天花板上行走。 重力靴强化踢技，可在墙壁和天花板行走。通用近战武器中机动性最高。"
-      },
-      {
-        "question": "How to get Gravity Boots in Neverness to Everness?",
-        "questionZh": "如何获得重力靴？",
-        "answer": "Universal melee weapon from gacha or crafting. Goro can use it.",
-        "answerZh": "通用近战武器，通过祈愿池或锻造获取。吾郎可使用。"
-      },
-      {
-        "question": "What is the best alternative to Gravity Boots?",
-        "questionZh": "重力靴的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Gravity Boots (crafting). Kick attacks + wall walking for high mobility.",
-        "answerZh": "替代：重力靴初型（锻造）。踢技+墙壁行走机动性高。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/gravity-boots.webp"
+    "id": "be-happy",
+    "name": "要开心",
+    "nameTw": "要開心",
+    "nameEn": "Be Happy",
+    "rank": "B",
+    "type": "gas",
+    "baseAtk": 316,
+    "substat": "hpPct",
+    "substatValue": "30%",
+    "effectName": "拥抱藤",
+    "effectNameTw": "擁抱藤",
+    "effectNameEn": "Huggy Vines",
+    "effectDescription": "击败敌人回复12%~20%HP(CD 20秒)。",
+    "effectDescriptionTw": "擊敗敵人回覆12%~20%HP(CD 20秒)。",
+    "effectDescriptionEn": "Restores 12-20% HP upon defeating an enemy (CD 20s).",
+    "howToObtain": "starter",
+    "howToObtainZh": "初始赠送",
+    "howToObtainEn": "Starter weapon",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "spirit-bow",
-    "name": "灵弓",
-    "nameEn": "Spirit Bow",
-    "type": "ranged",
-    "description": "发射灵力箭矢的长弓，箭矢可追踪目标。",
-    "descriptionEn": "A longbow that fires spirit arrows capable of tracking targets.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Spirit Bow good in Neverness to Everness?",
-        "questionZh": "灵弓好用吗？",
-        "answer": "Spirit Bow is a ranged weapon in Neverness to Everness. A longbow that fires spirit arrows capable of tracking targets. 灵弓追踪箭矢，克劳裂空高频输出核心武器。自动追踪降低操作难度。",
-        "answerZh": "灵弓是异环中的ranged类型武器。发射灵力箭矢的长弓，箭矢可追踪目标。 灵弓追踪箭矢，克劳裂空高频输出核心武器。自动追踪降低操作难度。"
-      },
-      {
-        "question": "How to get Spirit Bow in Neverness to Everness?",
-        "questionZh": "如何获得灵弓？",
-        "answer": "Universal ranged weapon from gacha or crafting. Crow can use it.",
-        "answerZh": "通用远程武器，通过祈愿池或锻造获取。克劳可使用。"
-      },
-      {
-        "question": "What is the best alternative to Spirit Bow?",
-        "questionZh": "灵弓的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Spirit Bow (crafting). Tracking arrows excel against moving enemies.",
-        "answerZh": "替代：灵弓初型（锻造）。追踪箭矢对移动敌人效果极佳。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/spirit-bow.webp"
+    "id": "dangerous-game",
+    "name": "危险游戏",
+    "nameTw": "危險遊戲",
+    "nameEn": "Dangerous Game",
+    "rank": "B",
+    "type": "synthesis",
+    "baseAtk": 380,
+    "substat": "breakPower",
+    "substatValue": "96",
+    "effectName": "分解者",
+    "effectNameTw": "分解者",
+    "effectNameEn": "Decomposer",
+    "effectDescription": "降低破韧时破韧强度+60~84持续10秒(CD 20秒)。",
+    "effectDescriptionTw": "降低破韌時破韌強度+60~84持續10秒(CD 20秒)。",
+    "effectDescriptionEn": "Increases Break Intensity by 60-84 for 10s when reducing Break (CD 20s).",
+    "howToObtain": "starter",
+    "howToObtainZh": "初始赠送",
+    "howToObtainEn": "Starter weapon",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "nanite-swarm",
-    "name": "纳米虫群",
-    "nameEn": "Nanite Swarm",
-    "type": "summon",
-    "description": "操控纳米级机器人群体进行攻击和修复的科技武器。",
-    "descriptionEn": "Controls swarms of nanobots for attacks and repairs, a technology-type weapon.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Nanite Swarm good in Neverness to Everness?",
-        "questionZh": "纳米虫群好用吗？",
-        "answer": "Nanite Swarm is a summon weapon in Neverness to Everness. Controls swarms of nanobots for attacks and repairs, a technology-type weapon. 纳米虫群兼具攻击和修复能力，通用召唤武器中续航能力不错。",
-        "answerZh": "纳米虫群是异环中的summon类型武器。操控纳米级机器人群体进行攻击和修复的科技武器。 纳米虫群兼具攻击和修复能力，通用召唤武器中续航能力不错。"
-      },
-      {
-        "question": "How to get Nanite Swarm in Neverness to Everness?",
-        "questionZh": "如何获得纳米虫群？",
-        "answer": "Universal summon weapon from gacha or crafting.",
-        "answerZh": "通用召唤武器，通过祈愿池或锻造获取。"
-      },
-      {
-        "question": "What is the best alternative to Nanite Swarm?",
-        "questionZh": "纳米虫群的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Nanite Swarm (crafting). Attack + repair dual mode switching.",
-        "answerZh": "替代：纳米虫群初型（锻造）。攻击+修复双模式灵活切换。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/nanite-swarm.webp"
+    "id": "first-step-to-success",
+    "name": "成功的第一步",
+    "nameTw": "成功的第一步",
+    "nameEn": "First Step to Success",
+    "rank": "B",
+    "type": "solid",
+    "baseAtk": 380,
+    "substat": "atkPct",
+    "substatValue": "20%",
+    "effectName": "诺罗斯",
+    "effectNameTw": "諾羅斯",
+    "effectNameEn": "Noros",
+    "effectDescription": "施放变轨后ATK+12%~16%持续10秒(CD 20秒)。",
+    "effectDescriptionTw": "施放變軌後ATK+12%~16%持續10秒(CD 20秒)。",
+    "effectDescriptionEn": "Increases ATK by 12-16% for 10s when casting Redirect Skill (CD 20s).",
+    "howToObtain": "starter",
+    "howToObtainZh": "初始赠送",
+    "howToObtainEn": "Starter weapon",
+    "signatureCharacter": "",
+    "status": "available"
   },
   {
-    "id": "soul-lantern",
-    "name": "魂灯",
-    "nameEn": "Soul Lantern",
-    "type": "support",
-    "description": "吸收和释放灵魂能量的灯笼，可为队友恢复能量。",
-    "descriptionEn": "A lantern that absorbs and releases soul energy, restoring energy for allies.",
-    "relatedCharacters": [],
-    "faq": [
-      {
-        "question": "Is Soul Lantern good in Neverness to Everness?",
-        "questionZh": "魂灯好用吗？",
-        "answer": "Soul Lantern is a support weapon in Neverness to Everness. A lantern that absorbs and releases soul energy, restoring energy for allies. 魂灯吸收释放灵魂能量回复队友，希尔菲回响充能辅助核心武器。",
-        "answerZh": "魂灯是异环中的support类型武器。吸收和释放灵魂能量的灯笼，可为队友恢复能量。 魂灯吸收释放灵魂能量回复队友，希尔菲回响充能辅助核心武器。"
-      },
-      {
-        "question": "How to get Soul Lantern in Neverness to Everness?",
-        "questionZh": "如何获得魂灯？",
-        "answer": "Universal support weapon from gacha or crafting. Core weapon for Sylphy.",
-        "answerZh": "通用辅助武器，通过祈愿池或锻造获取。希尔菲核心使用。"
-      },
-      {
-        "question": "What is the best alternative to Soul Lantern?",
-        "questionZh": "魂灯的最佳替代武器是什么？",
-        "answer": "Alternative: Basic Soul Lantern (crafting). Stable energy regen support effect.",
-        "answerZh": "替代：魂灯初型（锻造）。能量回复辅助效果稳定。"
-      }
-    ],
-    "bestFor": "various characters",
-    "bestForZh": "多种角色",
-    "image": "/images/weapons/soul-lantern.webp"
+    "id": "us",
+    "name": "我们。",
+    "nameTw": "我們。",
+    "nameEn": "Us.",
+    "rank": "B",
+    "type": "plasma",
+    "baseAtk": 380,
+    "substat": "atkPct",
+    "substatValue": "20%",
+    "effectName": "原核体",
+    "effectNameTw": "原核體",
+    "effectNameEn": "Protocore",
+    "effectDescription": "普攻伤害+12%~16%。",
+    "effectDescriptionTw": "普攻傷害+12%~16%。",
+    "effectDescriptionEn": "Increases Basic Attack DMG by 12-16%.",
+    "howToObtain": "starter",
+    "howToObtainZh": "初始赠送",
+    "howToObtainEn": "Starter weapon",
+    "signatureCharacter": "",
+    "status": "available"
   }
 ]

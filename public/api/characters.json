@@ -5,7 +5,7 @@
     "nameCn": "娜娜莉",
     "slug": "nanally",
     "element": "anima",
-    "weapon": "Fangs and Claws",
+    "weapon": "Plasma",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/nanally.webp"
@@ -16,7 +16,7 @@
     "nameCn": "咲里",
     "slug": "sakiri",
     "element": "incantation",
-    "weapon": "Kiroumaru",
+    "weapon": "Gas",
     "rarity": 5,
     "role": "Support",
     "image": "/images/characters/sakiri.webp"
@@ -27,7 +27,7 @@
     "nameCn": "法蒂亚",
     "slug": "fadia",
     "element": "psyche",
-    "weapon": "Transforming Cross-Shield",
+    "weapon": "Synthesis",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/fadia.webp"
@@ -38,7 +38,7 @@
     "nameCn": "拉克莉莫萨",
     "slug": "lacrimosa",
     "element": "chaos",
-    "weapon": "Esper Constructs",
+    "weapon": "Synthesis",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/lacrimosa.webp"
@@ -49,7 +49,7 @@
     "nameCn": "白藏",
     "slug": "baicang",
     "element": "incantation",
-    "weapon": "Power of Words",
+    "weapon": "Synthesis",
     "rarity": 5,
     "role": "Defense",
     "image": "/images/characters/baicang.webp"
@@ -60,7 +60,7 @@
     "nameCn": "零（男）",
     "slug": "zero-male",
     "element": "cosmos",
-    "weapon": "Sword",
+    "weapon": "Solid",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/zero-male.webp"
@@ -71,7 +71,7 @@
     "nameCn": "零（女）",
     "slug": "zero-female",
     "element": "cosmos",
-    "weapon": "Sword",
+    "weapon": "Solid",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/zero-female.webp"
@@ -82,7 +82,7 @@
     "nameCn": "穗鸟",
     "slug": "hotori",
     "element": "cosmos",
-    "weapon": "Umbrella Katana",
+    "weapon": "Gas",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/hotori.webp"
@@ -93,7 +93,7 @@
     "nameCn": "达芙迪尔",
     "slug": "daffodil",
     "element": "chaos",
-    "weapon": "Liquid-type Arc",
+    "weapon": "Liquid",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/daffodil.webp"
@@ -104,7 +104,7 @@
     "nameCn": "九原",
     "slug": "jiuyuan",
     "element": "anima",
-    "weapon": "Vehicle",
+    "weapon": "Solid",
     "rarity": 5,
     "role": "Utility",
     "image": "/images/characters/jiuyuan.webp"
@@ -115,7 +115,7 @@
     "nameCn": "哈尼尔",
     "slug": "haniel",
     "element": "psyche",
-    "weapon": "Speaker",
+    "weapon": "Solid",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/haniel.webp"
@@ -126,7 +126,7 @@
     "nameCn": "阿德勒",
     "slug": "adler",
     "element": "incantation",
-    "weapon": "Cane Sword and Sunyas",
+    "weapon": "Synthesis",
     "rarity": 4,
     "role": "Attack",
     "image": "/images/characters/adler.webp"
@@ -137,7 +137,7 @@
     "nameCn": "翳",
     "slug": "skia",
     "element": "lakshana",
-    "weapon": "Shadow Manipulation",
+    "weapon": "Gas",
     "rarity": 4,
     "role": "Attack",
     "image": "/images/characters/skia.webp"
@@ -148,7 +148,7 @@
     "nameCn": "埃德加",
     "slug": "edgar",
     "element": "cosmos",
-    "weapon": "TBD",
+    "weapon": "Liquid",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/edgar.webp"
@@ -159,7 +159,7 @@
     "nameCn": "薄荷",
     "slug": "mint",
     "element": "anima",
-    "weapon": "Dual Blades",
+    "weapon": "Liquid",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/mint.webp"
@@ -170,7 +170,7 @@
     "nameCn": "奈莉",
     "slug": "nelly",
     "element": "anima",
-    "weapon": "TBD",
+    "weapon": "Gas",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/nelly.webp"
@@ -181,7 +181,7 @@
     "nameCn": "梅露拉",
     "slug": "merula",
     "element": "lakshana",
-    "weapon": "TBD",
+    "weapon": "Plasma",
     "rarity": 4,
     "role": "Attack",
     "image": "/images/characters/merula.webp"
@@ -192,7 +192,7 @@
     "nameCn": "阿尔法德",
     "slug": "alphard",
     "element": "lakshana",
-    "weapon": "TBD",
+    "weapon": "Liquid",
     "rarity": 4,
     "role": "TBD",
     "image": "/images/characters/alphard.webp"
@@ -203,7 +203,7 @@
     "nameCn": "泰格多",
     "slug": "taygedo",
     "element": "cosmos",
-    "weapon": "Construct",
+    "weapon": "Synthesis",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/taygedo.webp"
@@ -214,7 +214,7 @@
     "nameCn": "哈索尔",
     "slug": "hathor",
     "element": "lakshana",
-    "weapon": "Blade Wings",
+    "weapon": "Plasma",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/hathor.webp"
@@ -225,7 +225,7 @@
     "nameCn": "赤子",
     "slug": "chiz",
     "element": "cosmos",
-    "weapon": "Yokai Hammer",
+    "weapon": "Gas",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/chiz.webp"
@@ -236,7 +236,7 @@
     "nameCn": "莉莉娜",
     "slug": "lilina",
     "element": "cosmos",
-    "weapon": "TBD",
+    "weapon": "Solid",
     "rarity": 5,
     "role": "TBD",
     "image": "/images/characters/lilina.webp"
@@ -247,7 +247,7 @@
     "nameCn": "凛子",
     "slug": "lingko",
     "element": "incantation",
-    "weapon": "TBD",
+    "weapon": "Liquid",
     "rarity": 4,
     "role": "Attack",
     "image": "/images/characters/lingko.webp"
@@ -258,7 +258,7 @@
     "nameCn": "密斯莫",
     "slug": "mismo",
     "element": "chaos",
-    "weapon": "TBD",
+    "weapon": "Synthesis",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/mismo.webp"
@@ -269,7 +269,7 @@
     "nameCn": "沁红",
     "slug": "shinku",
     "element": "anima",
-    "weapon": "TBD",
+    "weapon": "Plasma",
     "rarity": 4,
     "role": "Attack",
     "image": "/images/characters/shinku.webp"
@@ -280,7 +280,7 @@
     "nameCn": "尼察",
     "slug": "nitsa",
     "element": "psyche",
-    "weapon": "TBD",
+    "weapon": "Solid",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/nitsa.webp"
@@ -291,7 +291,7 @@
     "nameCn": "黑鸟",
     "slug": "black-bird",
     "element": "chaos",
-    "weapon": "TBD",
+    "weapon": "Gas",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/black-bird.webp"
@@ -302,7 +302,7 @@
     "nameCn": "明虎",
     "slug": "xiaozhen",
     "element": "anima",
-    "weapon": "TBD",
+    "weapon": "Solid",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/xiaozhen.webp"
@@ -313,7 +313,7 @@
     "nameCn": "赤音",
     "slug": "akane",
     "element": "incantation",
-    "weapon": "TBD",
+    "weapon": "Plasma",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/akane.webp"
@@ -324,7 +324,7 @@
     "nameCn": "詹森",
     "slug": "jenson",
     "element": "psyche",
-    "weapon": "TBD",
+    "weapon": "Solid",
     "rarity": 4,
     "role": "Defense",
     "image": "/images/characters/jenson.webp"
@@ -335,7 +335,7 @@
     "nameCn": "伊利卡",
     "slug": "illica",
     "element": "lakshana",
-    "weapon": "TBD",
+    "weapon": "Plasma",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/illica.webp"
@@ -346,7 +346,7 @@
     "nameCn": "风花",
     "slug": "fuuka",
     "element": "anima",
-    "weapon": "Melee",
+    "weapon": "Solid",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/fuuka.webp"
@@ -357,7 +357,7 @@
     "nameCn": "克劳",
     "slug": "crow",
     "element": "chaos",
-    "weapon": "Ranged",
+    "weapon": "Liquid",
     "rarity": 5,
     "role": "DPS",
     "image": "/images/characters/crow.webp"
@@ -368,7 +368,7 @@
     "nameCn": "蕾妮",
     "slug": "renee",
     "element": "psyche",
-    "weapon": "Esper",
+    "weapon": "Synthesis",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/renee.webp"
@@ -379,7 +379,7 @@
     "nameCn": "吾郎",
     "slug": "goro",
     "element": "incantation",
-    "weapon": "Melee",
+    "weapon": "Solid",
     "rarity": 4,
     "role": "DPS",
     "image": "/images/characters/goro.webp"
@@ -390,7 +390,7 @@
     "nameCn": "玛丽娜",
     "slug": "marina",
     "element": "cosmos",
-    "weapon": "Summon",
+    "weapon": "Liquid",
     "rarity": 5,
     "role": "DPS",
     "image": "/images/characters/marina.webp"
@@ -401,7 +401,7 @@
     "nameCn": "海斗",
     "slug": "kaito",
     "element": "lakshana",
-    "weapon": "Melee",
+    "weapon": "Gas",
     "rarity": 4,
     "role": "DPS",
     "image": "/images/characters/kaito.webp"
@@ -412,7 +412,7 @@
     "nameCn": "希尔菲",
     "slug": "sylphy",
     "element": "anima",
-    "weapon": "Companion",
+    "weapon": "Synthesis",
     "rarity": 5,
     "role": "Support",
     "image": "/images/characters/sylphy.webp"
@@ -423,7 +423,7 @@
     "nameCn": "奥蕾莉亚",
     "slug": "aurelia",
     "element": "psyche",
-    "weapon": "TBD",
+    "weapon": "Solid",
     "rarity": 4,
     "role": "Support",
     "image": "/images/characters/aurelia.webp"
@@ -434,7 +434,7 @@
     "nameCn": "小吱",
     "slug": "xiaozhi",
     "element": "anima",
-    "weapon": "Wand",
+    "weapon": "Gas",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/xiaozhi.webp"
@@ -445,7 +445,7 @@
     "nameCn": "浔",
     "slug": "xun",
     "element": "cosmos",
-    "weapon": "Tachi",
+    "weapon": "Liquid",
     "rarity": 5,
     "role": "Attack",
     "image": "/images/characters/xun.webp"

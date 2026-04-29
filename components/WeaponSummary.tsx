@@ -1,30 +1,47 @@
 import type { Locale } from "../lib/i18n";
+import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS } from "../lib/attributes";
 
 interface WeaponSummaryProps {
   name: string;
+  nameTw: string;
   nameEn: string;
+  rank: string;
   type: string;
-  typeLabel: string;
-  description: string;
-  descriptionEn: string;
-  relatedCharacters: { name: string; nameEn: string }[];
+  baseAtk: number;
+  substat: string;
+  substatValue: string;
+  howToObtain: string;
+  howToObtainZh: string;
+  howToObtainEn: string;
+  relatedCharacters: { name: string; nameTw: string; nameEn: string }[];
   locale: Locale;
 }
 
-export function WeaponSummary({ name, nameEn, type, typeLabel, description, descriptionEn, relatedCharacters, locale }: WeaponSummaryProps) {
+export function WeaponSummary({ name, nameTw, nameEn, rank, type, baseAtk, substat, substatValue, howToObtain, howToObtainZh, howToObtainEn, relatedCharacters, locale }: WeaponSummaryProps) {
+  const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
+  const altName = locale === "en" ? name : nameEn;
+  const rankLabel = ARC_RANK_LABELS[rank]?.[locale] || rank;
+  const typeLabel = ARC_TYPE_LABELS[type]?.[locale] || type;
+  const substatLabel = SUBSTAT_LABELS[substat]?.[locale] || substat;
+  const obtainMethod = OBTAIN_METHOD_LABELS[howToObtain]?.[locale] || howToObtain;
+
   const rows = [
-    { key: locale === "en" ? "Name" : "名称", val: locale === "en" ? `${nameEn} (${name})` : `${name} (${nameEn})` },
-    { key: locale === "en" ? "Type" : "类型", val: typeLabel },
+    { key: locale === "en" ? "Name" : locale === "tw" ? "名稱" : "名称", val: `${displayName} (${altName})` },
+    { key: locale === "en" ? "Rank" : locale === "tw" ? "稀有度" : "稀有度", val: rankLabel },
+    { key: locale === "en" ? "Type" : locale === "tw" ? "類型" : "类型", val: typeLabel },
+    { key: "ATK", val: String(baseAtk) },
+    { key: substatLabel, val: substatValue },
+    { key: locale === "en" ? "Obtain" : locale === "tw" ? "獲取方式" : "获取方式", val: locale === "en" ? howToObtainEn : howToObtainZh },
   ];
 
   if (relatedCharacters.length > 0) {
-    const charNames = relatedCharacters.map(c => locale === "en" ? c.nameEn : c.name).join(", ");
-    rows.push({ key: locale === "en" ? "Best For" : "适用角色", val: charNames });
+    const charNames = relatedCharacters.map(c => locale === "en" ? c.nameEn : (locale === "tw" ? (c.nameTw || c.name) : c.name)).join(", ");
+    rows.push({ key: locale === "en" ? "Best For" : locale === "tw" ? "適配角色" : "适配角色", val: charNames });
   }
 
   return (
-    <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8" aria-label={locale === "en" ? "Weapon Summary" : "武器摘要"}>
-      <h2 className="text-lg font-bold mb-3">{locale === "en" ? "Quick Stats" : "武器概览"}</h2>
+    <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8" aria-label={locale === "en" ? "Arc Disk Summary" : locale === "tw" ? "弧盤摘要" : "弧盘摘要"}>
+      <h2 className="text-lg font-bold mb-3">{locale === "en" ? "Quick Stats" : locale === "tw" ? "弧盤概覽" : "弧盘概览"}</h2>
       <table className="w-full text-sm">
         <tbody>
           {rows.map((row) => (

@@ -984,843 +984,843 @@
     ]
   },
   {
-    "id": "fangs-and-claws",
-    "name": "格斗",
-    "nameEn": "Fangs and Claws",
+    "id": "blow-up-the-crowd",
+    "name": "引爆全场",
+    "nameEn": "Blow up the Crowd",
     "type": "weapon",
-    "url": "/zh/weapons/fangs-and-claws",
+    "url": "/zh/weapons/blow-up-the-crowd",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "fangs-and-claws",
-    "name": "Fangs and Claws",
-    "nameEn": "Fangs and Claws",
+    "id": "blow-up-the-crowd",
+    "name": "Blow up the Crowd",
+    "nameEn": "Blow up the Crowd",
     "type": "weapon",
-    "url": "/en/weapons/fangs-and-claws",
+    "url": "/en/weapons/blow-up-the-crowd",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "kiroumaru",
-    "name": "桐丸",
-    "nameEn": "Kiroumaru",
+    "id": "camellia-society",
+    "name": "茶花会",
+    "nameEn": "Camellia Society",
     "type": "weapon",
-    "url": "/zh/weapons/kiroumaru",
+    "url": "/zh/weapons/camellia-society",
     "tags": [
-      "companion"
+      "synthesis"
     ]
   },
   {
-    "id": "kiroumaru",
-    "name": "Kiroumaru",
-    "nameEn": "Kiroumaru",
+    "id": "camellia-society",
+    "name": "Camellia Society",
+    "nameEn": "Camellia Society",
     "type": "weapon",
-    "url": "/en/weapons/kiroumaru",
+    "url": "/en/weapons/camellia-society",
     "tags": [
-      "companion"
+      "synthesis"
     ]
   },
   {
-    "id": "transforming-cross-shield",
-    "name": "变形十字盾",
-    "nameEn": "Transforming Cross-Shield",
+    "id": "contemplative-cat",
+    "name": "思考喵",
+    "nameEn": "Contemplative Cat",
     "type": "weapon",
-    "url": "/zh/weapons/transforming-cross-shield",
+    "url": "/zh/weapons/contemplative-cat",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "transforming-cross-shield",
-    "name": "Transforming Cross-Shield",
-    "nameEn": "Transforming Cross-Shield",
+    "id": "contemplative-cat",
+    "name": "Contemplative Cat",
+    "nameEn": "Contemplative Cat",
     "type": "weapon",
-    "url": "/en/weapons/transforming-cross-shield",
+    "url": "/en/weapons/contemplative-cat",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "esper-constructs",
-    "name": "异能构装体",
-    "nameEn": "Esper Constructs",
+    "id": "day-off",
+    "name": "休息日",
+    "nameEn": "Day Off",
     "type": "weapon",
-    "url": "/zh/weapons/esper-constructs",
+    "url": "/zh/weapons/day-off",
     "tags": [
-      "summon"
+      "solid"
     ]
   },
   {
-    "id": "esper-constructs",
-    "name": "Esper Constructs",
-    "nameEn": "Esper Constructs",
+    "id": "day-off",
+    "name": "Day Off",
+    "nameEn": "Day Off",
     "type": "weapon",
-    "url": "/en/weapons/esper-constructs",
+    "url": "/en/weapons/day-off",
     "tags": [
-      "summon"
+      "solid"
     ]
   },
   {
-    "id": "power-of-words",
-    "name": "言灵之力",
-    "nameEn": "Power of Words",
+    "id": "eternal-waltz",
+    "name": "永恒圆舞曲",
+    "nameEn": "Eternal Waltz",
     "type": "weapon",
-    "url": "/zh/weapons/power-of-words",
+    "url": "/zh/weapons/eternal-waltz",
     "tags": [
-      "magic"
+      "synthesis"
     ]
   },
   {
-    "id": "power-of-words",
-    "name": "Power of Words",
-    "nameEn": "Power of Words",
+    "id": "eternal-waltz",
+    "name": "Eternal Waltz",
+    "nameEn": "Eternal Waltz",
     "type": "weapon",
-    "url": "/en/weapons/power-of-words",
+    "url": "/en/weapons/eternal-waltz",
     "tags": [
-      "magic"
+      "synthesis"
     ]
   },
   {
-    "id": "sword",
-    "name": "剑",
-    "nameEn": "Sword",
+    "id": "good-boys-grand-adventure",
+    "name": "好狗狗走四方",
+    "nameEn": "Good Boy's Grand Adventure",
     "type": "weapon",
-    "url": "/zh/weapons/sword",
+    "url": "/zh/weapons/good-boys-grand-adventure",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "sword",
-    "name": "Sword",
-    "nameEn": "Sword",
+    "id": "good-boys-grand-adventure",
+    "name": "Good Boy's Grand Adventure",
+    "nameEn": "Good Boy's Grand Adventure",
     "type": "weapon",
-    "url": "/en/weapons/sword",
+    "url": "/en/weapons/good-boys-grand-adventure",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "umbrella-katana",
-    "name": "唐伞刀",
-    "nameEn": "Umbrella Katana",
+    "id": "hethereraus-keeper",
+    "name": "海特洛的安宁",
+    "nameEn": "Hethereau's Keeper",
     "type": "weapon",
-    "url": "/zh/weapons/umbrella-katana",
+    "url": "/zh/weapons/hethereraus-keeper",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "umbrella-katana",
-    "name": "Umbrella Katana",
-    "nameEn": "Umbrella Katana",
+    "id": "hethereraus-keeper",
+    "name": "Hethereau's Keeper",
+    "nameEn": "Hethereau's Keeper",
     "type": "weapon",
-    "url": "/en/weapons/umbrella-katana",
+    "url": "/en/weapons/hethereraus-keeper",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "liquid-arc",
-    "name": "液态弧光",
-    "nameEn": "Liquid-type Arc",
+    "id": "marching-beyond-time",
+    "name": "踏越时间行军",
+    "nameEn": "Marching Beyond Time",
     "type": "weapon",
-    "url": "/zh/weapons/liquid-arc",
+    "url": "/zh/weapons/marching-beyond-time",
     "tags": [
-      "ranged"
+      "solid"
     ]
   },
   {
-    "id": "liquid-arc",
-    "name": "Liquid-type Arc",
-    "nameEn": "Liquid-type Arc",
+    "id": "marching-beyond-time",
+    "name": "Marching Beyond Time",
+    "nameEn": "Marching Beyond Time",
     "type": "weapon",
-    "url": "/en/weapons/liquid-arc",
+    "url": "/en/weapons/marching-beyond-time",
     "tags": [
-      "ranged"
+      "solid"
     ]
   },
   {
-    "id": "vehicle",
-    "name": "载具",
-    "nameEn": "Vehicle",
+    "id": "raging-flames",
+    "name": "焰魂狂飙",
+    "nameEn": "Raging Flames",
     "type": "weapon",
-    "url": "/zh/weapons/vehicle",
+    "url": "/zh/weapons/raging-flames",
     "tags": [
-      "support"
+      "plasma"
     ]
   },
   {
-    "id": "vehicle",
-    "name": "Vehicle",
-    "nameEn": "Vehicle",
+    "id": "raging-flames",
+    "name": "Raging Flames",
+    "nameEn": "Raging Flames",
     "type": "weapon",
-    "url": "/en/weapons/vehicle",
+    "url": "/en/weapons/raging-flames",
     "tags": [
-      "support"
+      "plasma"
     ]
   },
   {
-    "id": "cane-sword-and-sunyas",
-    "name": "杖剑与 Sunyas",
-    "nameEn": "Cane Sword and Sunyas",
+    "id": "ready-ready",
+    "name": "预备备",
+    "nameEn": "Ready-Ready",
     "type": "weapon",
-    "url": "/zh/weapons/cane-sword-and-sunyas",
+    "url": "/zh/weapons/ready-ready",
     "tags": [
-      "melee"
+      "plasma"
     ]
   },
   {
-    "id": "cane-sword-and-sunyas",
-    "name": "Cane Sword and Sunyas",
-    "nameEn": "Cane Sword and Sunyas",
+    "id": "ready-ready",
+    "name": "Ready-Ready",
+    "nameEn": "Ready-Ready",
     "type": "weapon",
-    "url": "/en/weapons/cane-sword-and-sunyas",
+    "url": "/en/weapons/ready-ready",
     "tags": [
-      "melee"
+      "plasma"
     ]
   },
   {
-    "id": "shadow-manipulation",
-    "name": "影操控",
-    "nameEn": "Shadow Manipulation",
+    "id": "reality-refuge",
+    "name": "现实避难所",
+    "nameEn": "Reality Refuge",
     "type": "weapon",
-    "url": "/zh/weapons/shadow-manipulation",
+    "url": "/zh/weapons/reality-refuge",
     "tags": [
-      "magic"
+      "solid"
     ]
   },
   {
-    "id": "shadow-manipulation",
-    "name": "Shadow Manipulation",
-    "nameEn": "Shadow Manipulation",
+    "id": "reality-refuge",
+    "name": "Reality Refuge",
+    "nameEn": "Reality Refuge",
     "type": "weapon",
-    "url": "/en/weapons/shadow-manipulation",
+    "url": "/en/weapons/reality-refuge",
     "tags": [
-      "magic"
+      "solid"
     ]
   },
   {
-    "id": "dual-blades",
-    "name": "双刃",
-    "nameEn": "Dual Blades",
+    "id": "song-of-the-whale",
+    "name": "鲸之歌",
+    "nameEn": "Song of the Whale",
     "type": "weapon",
-    "url": "/zh/weapons/dual-blades",
+    "url": "/zh/weapons/song-of-the-whale",
     "tags": [
-      "melee"
+      "plasma"
     ]
   },
   {
-    "id": "dual-blades",
-    "name": "Dual Blades",
-    "nameEn": "Dual Blades",
+    "id": "song-of-the-whale",
+    "name": "Song of the Whale",
+    "nameEn": "Song of the Whale",
     "type": "weapon",
-    "url": "/en/weapons/dual-blades",
+    "url": "/en/weapons/song-of-the-whale",
     "tags": [
-      "melee"
+      "plasma"
     ]
   },
   {
-    "id": "construct",
-    "name": "构装体",
-    "nameEn": "Construct",
+    "id": "tears-beneath-the-mask",
+    "name": "面具下的泪",
+    "nameEn": "Tears Beneath the Mask",
     "type": "weapon",
-    "url": "/zh/weapons/construct",
+    "url": "/zh/weapons/tears-beneath-the-mask",
     "tags": [
-      "summon"
+      "gas"
     ]
   },
   {
-    "id": "construct",
-    "name": "Construct",
-    "nameEn": "Construct",
+    "id": "tears-beneath-the-mask",
+    "name": "Tears Beneath the Mask",
+    "nameEn": "Tears Beneath the Mask",
     "type": "weapon",
-    "url": "/en/weapons/construct",
+    "url": "/en/weapons/tears-beneath-the-mask",
     "tags": [
-      "summon"
+      "gas"
     ]
   },
   {
-    "id": "blade-wings",
-    "name": "刃翼",
-    "nameEn": "Blade Wings",
+    "id": "the-last-rose",
+    "name": "最后的玫瑰",
+    "nameEn": "The Last Rose",
     "type": "weapon",
-    "url": "/zh/weapons/blade-wings",
+    "url": "/zh/weapons/the-last-rose",
     "tags": [
-      "melee"
+      "liquid"
     ]
   },
   {
-    "id": "blade-wings",
-    "name": "Blade Wings",
-    "nameEn": "Blade Wings",
+    "id": "the-last-rose",
+    "name": "The Last Rose",
+    "nameEn": "The Last Rose",
     "type": "weapon",
-    "url": "/en/weapons/blade-wings",
+    "url": "/en/weapons/the-last-rose",
     "tags": [
-      "melee"
+      "liquid"
     ]
   },
   {
-    "id": "yokai-hammer",
-    "name": "妖锤",
-    "nameEn": "Yokai Hammer",
+    "id": "your-happiness-is-priceless",
+    "name": "千金难买你开心",
+    "nameEn": "Your Happiness is Priceless",
     "type": "weapon",
-    "url": "/zh/weapons/yokai-hammer",
+    "url": "/zh/weapons/your-happiness-is-priceless",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "yokai-hammer",
-    "name": "Yokai Hammer",
-    "nameEn": "Yokai Hammer",
+    "id": "your-happiness-is-priceless",
+    "name": "Your Happiness is Priceless",
+    "nameEn": "Your Happiness is Priceless",
     "type": "weapon",
-    "url": "/en/weapons/yokai-hammer",
+    "url": "/en/weapons/your-happiness-is-priceless",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "appraisal-ability",
-    "name": "鉴定能力",
-    "nameEn": "Appraisal Ability",
+    "id": "youthful-fantasy",
+    "name": "漆黑青春妄想",
+    "nameEn": "Youthful Fantasy",
     "type": "weapon",
-    "url": "/zh/weapons/appraisal-ability",
+    "url": "/zh/weapons/youthful-fantasy",
     "tags": [
-      "magic"
+      "liquid"
     ]
   },
   {
-    "id": "appraisal-ability",
-    "name": "Appraisal Ability",
-    "nameEn": "Appraisal Ability",
+    "id": "youthful-fantasy",
+    "name": "Youthful Fantasy",
+    "nameEn": "Youthful Fantasy",
     "type": "weapon",
-    "url": "/en/weapons/appraisal-ability",
+    "url": "/en/weapons/youthful-fantasy",
     "tags": [
-      "magic"
+      "liquid"
     ]
   },
   {
-    "id": "whip-sword",
-    "name": "鞭剑",
-    "nameEn": "Whip Sword",
+    "id": "fluff-of-fearlessness",
+    "name": "勇气绒绒",
+    "nameEn": "Fluff of Fearlessness",
     "type": "weapon",
-    "url": "/zh/weapons/whip-sword",
+    "url": "/zh/weapons/fluff-of-fearlessness",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "whip-sword",
-    "name": "Whip Sword",
-    "nameEn": "Whip Sword",
+    "id": "fluff-of-fearlessness",
+    "name": "Fluff of Fearlessness",
+    "nameEn": "Fluff of Fearlessness",
     "type": "weapon",
-    "url": "/en/weapons/whip-sword",
+    "url": "/en/weapons/fluff-of-fearlessness",
     "tags": [
-      "melee"
+      "solid"
     ]
   },
   {
-    "id": "chaos-orbs",
-    "name": "混沌宝珠",
-    "nameEn": "Chaos Orbs",
+    "id": "fluff-of-ferocity",
+    "name": "猛绒绒",
+    "nameEn": "Fluff of Ferocity",
     "type": "weapon",
-    "url": "/zh/weapons/chaos-orbs",
+    "url": "/zh/weapons/fluff-of-ferocity",
     "tags": [
-      "magic"
+      "synthesis"
     ]
   },
   {
-    "id": "chaos-orbs",
-    "name": "Chaos Orbs",
-    "nameEn": "Chaos Orbs",
+    "id": "fluff-of-ferocity",
+    "name": "Fluff of Ferocity",
+    "nameEn": "Fluff of Ferocity",
     "type": "weapon",
-    "url": "/en/weapons/chaos-orbs",
+    "url": "/en/weapons/fluff-of-ferocity",
     "tags": [
-      "magic"
+      "synthesis"
     ]
   },
   {
-    "id": "blood-blades",
-    "name": "血刃",
-    "nameEn": "Blood Blades",
+    "id": "fluff-of-finesse",
+    "name": "灵巧绒绒",
+    "nameEn": "Fluff of Finesse",
     "type": "weapon",
-    "url": "/zh/weapons/blood-blades",
+    "url": "/zh/weapons/fluff-of-finesse",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "blood-blades",
-    "name": "Blood Blades",
-    "nameEn": "Blood Blades",
+    "id": "fluff-of-finesse",
+    "name": "Fluff of Finesse",
+    "nameEn": "Fluff of Finesse",
     "type": "weapon",
-    "url": "/en/weapons/blood-blades",
+    "url": "/en/weapons/fluff-of-finesse",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "psychic-barriers",
-    "name": "念力屏障",
-    "nameEn": "Psychic Barriers",
+    "id": "fluff-of-fleetness",
+    "name": "飞速绒绒",
+    "nameEn": "Fluff of Fleetness",
     "type": "weapon",
-    "url": "/zh/weapons/psychic-barriers",
+    "url": "/zh/weapons/fluff-of-fleetness",
     "tags": [
-      "support"
+      "liquid"
     ]
   },
   {
-    "id": "psychic-barriers",
-    "name": "Psychic Barriers",
-    "nameEn": "Psychic Barriers",
+    "id": "fluff-of-fleetness",
+    "name": "Fluff of Fleetness",
+    "nameEn": "Fluff of Fleetness",
     "type": "weapon",
-    "url": "/en/weapons/psychic-barriers",
+    "url": "/en/weapons/fluff-of-fleetness",
     "tags": [
-      "support"
+      "liquid"
     ]
   },
   {
-    "id": "dark-feathers",
-    "name": "暗羽",
-    "nameEn": "Dark Feathers",
+    "id": "fluff-of-fortitude",
+    "name": "坚韧绒绒",
+    "nameEn": "Fluff of Fortitude",
     "type": "weapon",
-    "url": "/zh/weapons/dark-feathers",
+    "url": "/zh/weapons/fluff-of-fortitude",
     "tags": [
-      "ranged"
+      "plasma"
     ]
   },
   {
-    "id": "dark-feathers",
-    "name": "Dark Feathers",
-    "nameEn": "Dark Feathers",
+    "id": "fluff-of-fortitude",
+    "name": "Fluff of Fortitude",
+    "nameEn": "Fluff of Fortitude",
     "type": "weapon",
-    "url": "/en/weapons/dark-feathers",
+    "url": "/en/weapons/fluff-of-fortitude",
     "tags": [
-      "ranged"
+      "plasma"
     ]
   },
   {
-    "id": "tiger-fangs",
-    "name": "虎牙",
-    "nameEn": "Tiger Fangs",
+    "id": "a-time-will-come",
+    "name": "时机终至",
+    "nameEn": "A Time Will Come",
     "type": "weapon",
-    "url": "/zh/weapons/tiger-fangs",
+    "url": "/zh/weapons/a-time-will-come",
     "tags": [
-      "melee"
+      "synthesis"
     ]
   },
   {
-    "id": "tiger-fangs",
-    "name": "Tiger Fangs",
-    "nameEn": "Tiger Fangs",
+    "id": "a-time-will-come",
+    "name": "A Time Will Come",
+    "nameEn": "A Time Will Come",
     "type": "weapon",
-    "url": "/en/weapons/tiger-fangs",
+    "url": "/en/weapons/a-time-will-come",
     "tags": [
-      "melee"
+      "synthesis"
     ]
   },
   {
-    "id": "flame-talismans",
-    "name": "焰符",
-    "nameEn": "Flame Talismans",
+    "id": "call-of-the-twisted-city",
+    "name": "扭曲之城呼唤",
+    "nameEn": "Call of the Twisted City",
     "type": "weapon",
-    "url": "/zh/weapons/flame-talismans",
+    "url": "/zh/weapons/call-of-the-twisted-city",
     "tags": [
-      "magic"
+      "liquid"
     ]
   },
   {
-    "id": "flame-talismans",
-    "name": "Flame Talismans",
-    "nameEn": "Flame Talismans",
+    "id": "call-of-the-twisted-city",
+    "name": "Call of the Twisted City",
+    "nameEn": "Call of the Twisted City",
     "type": "weapon",
-    "url": "/en/weapons/flame-talismans",
+    "url": "/en/weapons/call-of-the-twisted-city",
     "tags": [
-      "magic"
+      "liquid"
     ]
   },
   {
-    "id": "gravity-hammer",
-    "name": "重力锤",
-    "nameEn": "Gravity Hammer",
+    "id": "clear-skies",
+    "name": "晴空",
+    "nameEn": "Clear Skies",
     "type": "weapon",
-    "url": "/zh/weapons/gravity-hammer",
+    "url": "/zh/weapons/clear-skies",
     "tags": [
-      "melee"
+      "liquid"
     ]
   },
   {
-    "id": "gravity-hammer",
-    "name": "Gravity Hammer",
-    "nameEn": "Gravity Hammer",
+    "id": "clear-skies",
+    "name": "Clear Skies",
+    "nameEn": "Clear Skies",
     "type": "weapon",
-    "url": "/en/weapons/gravity-hammer",
+    "url": "/en/weapons/clear-skies",
     "tags": [
-      "melee"
+      "liquid"
     ]
   },
   {
-    "id": "phase-blades",
-    "name": "相位刃",
-    "nameEn": "Phase Blades",
+    "id": "cosmos-daze-wild-reverie",
+    "name": "宇宙迷离狂想曲",
+    "nameEn": "Cosmos Daze, Wild Reverie",
     "type": "weapon",
-    "url": "/zh/weapons/phase-blades",
+    "url": "/zh/weapons/cosmos-daze-wild-reverie",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "phase-blades",
-    "name": "Phase Blades",
-    "nameEn": "Phase Blades",
+    "id": "cosmos-daze-wild-reverie",
+    "name": "Cosmos Daze, Wild Reverie",
+    "nameEn": "Cosmos Daze, Wild Reverie",
     "type": "weapon",
-    "url": "/en/weapons/phase-blades",
+    "url": "/en/weapons/cosmos-daze-wild-reverie",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "sonic-guitar",
-    "name": "音波吉他",
-    "nameEn": "Sonic Guitar",
+    "id": "drawn-blade",
+    "name": "拔刀",
+    "nameEn": "Drawn Blade",
     "type": "weapon",
-    "url": "/zh/weapons/sonic-guitar",
+    "url": "/zh/weapons/drawn-blade",
     "tags": [
-      "ranged"
+      "plasma"
     ]
   },
   {
-    "id": "sonic-guitar",
-    "name": "Sonic Guitar",
-    "nameEn": "Sonic Guitar",
+    "id": "drawn-blade",
+    "name": "Drawn Blade",
+    "nameEn": "Drawn Blade",
     "type": "weapon",
-    "url": "/en/weapons/sonic-guitar",
+    "url": "/en/weapons/drawn-blade",
     "tags": [
-      "ranged"
+      "plasma"
     ]
   },
   {
-    "id": "magnet-gauntlets",
-    "name": "磁力拳套",
-    "nameEn": "Magnet Gauntlets",
+    "id": "failing-you-heavy-in-my-heart",
+    "name": "辜负你心中沉重",
+    "nameEn": "Failing You, Heavy in My Heart",
     "type": "weapon",
-    "url": "/zh/weapons/magnet-gauntlets",
+    "url": "/zh/weapons/failing-you-heavy-in-my-heart",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "magnet-gauntlets",
-    "name": "Magnet Gauntlets",
-    "nameEn": "Magnet Gauntlets",
+    "id": "failing-you-heavy-in-my-heart",
+    "name": "Failing You, Heavy in My Heart",
+    "nameEn": "Failing You, Heavy in My Heart",
     "type": "weapon",
-    "url": "/en/weapons/magnet-gauntlets",
+    "url": "/en/weapons/failing-you-heavy-in-my-heart",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "time-hourglass",
-    "name": "时之沙漏",
-    "nameEn": "Time Hourglass",
+    "id": "mind-royale",
+    "name": "灵感王冠",
+    "nameEn": "Mind Royale",
     "type": "weapon",
-    "url": "/zh/weapons/time-hourglass",
+    "url": "/zh/weapons/mind-royale",
     "tags": [
-      "support"
+      "liquid"
     ]
   },
   {
-    "id": "time-hourglass",
-    "name": "Time Hourglass",
-    "nameEn": "Time Hourglass",
+    "id": "mind-royale",
+    "name": "Mind Royale",
+    "nameEn": "Mind Royale",
     "type": "weapon",
-    "url": "/en/weapons/time-hourglass",
+    "url": "/en/weapons/mind-royale",
     "tags": [
-      "support"
+      "liquid"
     ]
   },
   {
-    "id": "ink-brush",
-    "name": "墨笔",
-    "nameEn": "Ink Brush",
+    "id": "oraora",
+    "name": "欧拉欧拉！",
+    "nameEn": "Oraora!",
     "type": "weapon",
-    "url": "/zh/weapons/ink-brush",
+    "url": "/zh/weapons/oraora",
     "tags": [
-      "magic"
+      "plasma"
     ]
   },
   {
-    "id": "ink-brush",
-    "name": "Ink Brush",
-    "nameEn": "Ink Brush",
+    "id": "oraora",
+    "name": "Oraora!",
+    "nameEn": "Oraora!",
     "type": "weapon",
-    "url": "/en/weapons/ink-brush",
+    "url": "/en/weapons/oraora",
     "tags": [
-      "magic"
+      "plasma"
     ]
   },
   {
-    "id": "chain-scythe",
-    "name": "链镰",
-    "nameEn": "Chain Scythe",
+    "id": "shiny-days",
+    "name": "闪亮的日子",
+    "nameEn": "Shiny Days",
     "type": "weapon",
-    "url": "/zh/weapons/chain-scythe",
+    "url": "/zh/weapons/shiny-days",
     "tags": [
-      "melee"
+      "liquid"
     ]
   },
   {
-    "id": "chain-scythe",
-    "name": "Chain Scythe",
-    "nameEn": "Chain Scythe",
+    "id": "shiny-days",
+    "name": "Shiny Days",
+    "nameEn": "Shiny Days",
     "type": "weapon",
-    "url": "/en/weapons/chain-scythe",
+    "url": "/en/weapons/shiny-days",
     "tags": [
-      "melee"
+      "liquid"
     ]
   },
   {
-    "id": "crystal-shards",
-    "name": "晶碎",
-    "nameEn": "Crystal Shards",
+    "id": "the-fools-spring",
+    "name": "愚者之春",
+    "nameEn": "The Fools' Spring",
     "type": "weapon",
-    "url": "/zh/weapons/crystal-shards",
+    "url": "/zh/weapons/the-fools-spring",
     "tags": [
-      "ranged"
+      "synthesis"
     ]
   },
   {
-    "id": "crystal-shards",
-    "name": "Crystal Shards",
-    "nameEn": "Crystal Shards",
+    "id": "the-fools-spring",
+    "name": "The Fools' Spring",
+    "nameEn": "The Fools' Spring",
     "type": "weapon",
-    "url": "/en/weapons/crystal-shards",
+    "url": "/en/weapons/the-fools-spring",
     "tags": [
-      "ranged"
+      "synthesis"
     ]
   },
   {
-    "id": "puppet-strings",
-    "name": "傀儡线",
-    "nameEn": "Puppet Strings",
+    "id": "the-forgotten",
+    "name": "被遗忘的",
+    "nameEn": "The Forgotten",
     "type": "weapon",
-    "url": "/zh/weapons/puppet-strings",
+    "url": "/zh/weapons/the-forgotten",
     "tags": [
-      "summon"
+      "solid"
     ]
   },
   {
-    "id": "puppet-strings",
-    "name": "Puppet Strings",
-    "nameEn": "Puppet Strings",
+    "id": "the-forgotten",
+    "name": "The Forgotten",
+    "nameEn": "The Forgotten",
     "type": "weapon",
-    "url": "/en/weapons/puppet-strings",
+    "url": "/en/weapons/the-forgotten",
     "tags": [
-      "summon"
+      "solid"
     ]
   },
   {
-    "id": "void-scythe",
-    "name": "虚空镰",
-    "nameEn": "Void Scythe",
+    "id": "the-good-the-bad-the-bitter",
+    "name": "好的坏的苦的",
+    "nameEn": "The Good, The Bad, The Bitter",
     "type": "weapon",
-    "url": "/zh/weapons/void-scythe",
+    "url": "/zh/weapons/the-good-the-bad-the-bitter",
     "tags": [
-      "melee"
+      "synthesis"
     ]
   },
   {
-    "id": "void-scythe",
-    "name": "Void Scythe",
-    "nameEn": "Void Scythe",
+    "id": "the-good-the-bad-the-bitter",
+    "name": "The Good, The Bad, The Bitter",
+    "nameEn": "The Good, The Bad, The Bitter",
     "type": "weapon",
-    "url": "/en/weapons/void-scythe",
+    "url": "/en/weapons/the-good-the-bad-the-bitter",
     "tags": [
-      "melee"
+      "synthesis"
     ]
   },
   {
-    "id": "plasma-cannon",
-    "name": "等离子炮",
-    "nameEn": "Plasma Cannon",
+    "id": "the-great-thief",
+    "name": "大盗",
+    "nameEn": "The Great Thief",
     "type": "weapon",
-    "url": "/zh/weapons/plasma-cannon",
+    "url": "/zh/weapons/the-great-thief",
     "tags": [
-      "ranged"
+      "synthesis"
     ]
   },
   {
-    "id": "plasma-cannon",
-    "name": "Plasma Cannon",
-    "nameEn": "Plasma Cannon",
+    "id": "the-great-thief",
+    "name": "The Great Thief",
+    "nameEn": "The Great Thief",
     "type": "weapon",
-    "url": "/en/weapons/plasma-cannon",
+    "url": "/en/weapons/the-great-thief",
     "tags": [
-      "ranged"
+      "synthesis"
     ]
   },
   {
-    "id": "nature-vines",
-    "name": "自然藤蔓",
-    "nameEn": "Nature Vines",
+    "id": "time-bandit",
+    "name": "时间大盗",
+    "nameEn": "Time Bandit",
     "type": "weapon",
-    "url": "/zh/weapons/nature-vines",
+    "url": "/zh/weapons/time-bandit",
     "tags": [
-      "support"
+      "solid"
     ]
   },
   {
-    "id": "nature-vines",
-    "name": "Nature Vines",
-    "nameEn": "Nature Vines",
+    "id": "time-bandit",
+    "name": "Time Bandit",
+    "nameEn": "Time Bandit",
     "type": "weapon",
-    "url": "/en/weapons/nature-vines",
+    "url": "/en/weapons/time-bandit",
     "tags": [
-      "support"
+      "solid"
     ]
   },
   {
-    "id": "mirror-shield",
-    "name": "镜盾",
-    "nameEn": "Mirror Shield",
+    "id": "umbrella",
+    "name": "雨伞",
+    "nameEn": "Umbrella",
     "type": "weapon",
-    "url": "/zh/weapons/mirror-shield",
+    "url": "/zh/weapons/umbrella",
     "tags": [
-      "support"
+      "synthesis"
     ]
   },
   {
-    "id": "mirror-shield",
-    "name": "Mirror Shield",
-    "nameEn": "Mirror Shield",
+    "id": "umbrella",
+    "name": "Umbrella",
+    "nameEn": "Umbrella",
     "type": "weapon",
-    "url": "/en/weapons/mirror-shield",
+    "url": "/en/weapons/umbrella",
     "tags": [
-      "support"
+      "synthesis"
     ]
   },
   {
-    "id": "thunder-drums",
-    "name": "雷鼓",
-    "nameEn": "Thunder Drums",
+    "id": "watch-your-heads",
+    "name": "小心头顶！",
+    "nameEn": "Watch Your Heads!",
     "type": "weapon",
-    "url": "/zh/weapons/thunder-drums",
+    "url": "/zh/weapons/watch-your-heads",
     "tags": [
-      "magic"
+      "gas"
     ]
   },
   {
-    "id": "thunder-drums",
-    "name": "Thunder Drums",
-    "nameEn": "Thunder Drums",
+    "id": "watch-your-heads",
+    "name": "Watch Your Heads!",
+    "nameEn": "Watch Your Heads!",
     "type": "weapon",
-    "url": "/en/weapons/thunder-drums",
+    "url": "/en/weapons/watch-your-heads",
     "tags": [
-      "magic"
+      "gas"
     ]
   },
   {
-    "id": "frost-fan",
-    "name": "冰扇",
-    "nameEn": "Frost Fan",
+    "id": "real-music",
+    "name": "真正的音乐",
+    "nameEn": "Real Music",
     "type": "weapon",
-    "url": "/zh/weapons/frost-fan",
+    "url": "/zh/weapons/real-music",
     "tags": [
-      "magic"
+      "liquid"
     ]
   },
   {
-    "id": "frost-fan",
-    "name": "Frost Fan",
-    "nameEn": "Frost Fan",
+    "id": "real-music",
+    "name": "Real Music",
+    "nameEn": "Real Music",
     "type": "weapon",
-    "url": "/en/weapons/frost-fan",
+    "url": "/en/weapons/real-music",
     "tags": [
-      "magic"
+      "liquid"
     ]
   },
   {
-    "id": "gravity-boots",
-    "name": "重力靴",
-    "nameEn": "Gravity Boots",
+    "id": "be-happy",
+    "name": "要开心",
+    "nameEn": "Be Happy",
     "type": "weapon",
-    "url": "/zh/weapons/gravity-boots",
+    "url": "/zh/weapons/be-happy",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "gravity-boots",
-    "name": "Gravity Boots",
-    "nameEn": "Gravity Boots",
+    "id": "be-happy",
+    "name": "Be Happy",
+    "nameEn": "Be Happy",
     "type": "weapon",
-    "url": "/en/weapons/gravity-boots",
+    "url": "/en/weapons/be-happy",
     "tags": [
-      "melee"
+      "gas"
     ]
   },
   {
-    "id": "spirit-bow",
-    "name": "灵弓",
-    "nameEn": "Spirit Bow",
+    "id": "dangerous-game",
+    "name": "危险游戏",
+    "nameEn": "Dangerous Game",
     "type": "weapon",
-    "url": "/zh/weapons/spirit-bow",
+    "url": "/zh/weapons/dangerous-game",
     "tags": [
-      "ranged"
+      "synthesis"
     ]
   },
   {
-    "id": "spirit-bow",
-    "name": "Spirit Bow",
-    "nameEn": "Spirit Bow",
+    "id": "dangerous-game",
+    "name": "Dangerous Game",
+    "nameEn": "Dangerous Game",
     "type": "weapon",
-    "url": "/en/weapons/spirit-bow",
+    "url": "/en/weapons/dangerous-game",
     "tags": [
-      "ranged"
+      "synthesis"
     ]
   },
   {
-    "id": "nanite-swarm",
-    "name": "纳米虫群",
-    "nameEn": "Nanite Swarm",
+    "id": "first-step-to-success",
+    "name": "成功的第一步",
+    "nameEn": "First Step to Success",
     "type": "weapon",
-    "url": "/zh/weapons/nanite-swarm",
+    "url": "/zh/weapons/first-step-to-success",
     "tags": [
-      "summon"
+      "solid"
     ]
   },
   {
-    "id": "nanite-swarm",
-    "name": "Nanite Swarm",
-    "nameEn": "Nanite Swarm",
+    "id": "first-step-to-success",
+    "name": "First Step to Success",
+    "nameEn": "First Step to Success",
     "type": "weapon",
-    "url": "/en/weapons/nanite-swarm",
+    "url": "/en/weapons/first-step-to-success",
     "tags": [
-      "summon"
+      "solid"
     ]
   },
   {
-    "id": "soul-lantern",
-    "name": "魂灯",
-    "nameEn": "Soul Lantern",
+    "id": "us",
+    "name": "我们。",
+    "nameEn": "Us.",
     "type": "weapon",
-    "url": "/zh/weapons/soul-lantern",
+    "url": "/zh/weapons/us",
     "tags": [
-      "support"
+      "plasma"
     ]
   },
   {
-    "id": "soul-lantern",
-    "name": "Soul Lantern",
-    "nameEn": "Soul Lantern",
+    "id": "us",
+    "name": "Us.",
+    "nameEn": "Us.",
     "type": "weapon",
-    "url": "/en/weapons/soul-lantern",
+    "url": "/en/weapons/us",
     "tags": [
-      "support"
+      "plasma"
     ]
   },
   {

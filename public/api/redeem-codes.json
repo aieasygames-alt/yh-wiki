@@ -46,5 +46,21 @@
     "expired": false,
     "expiresAt": "2026-05-29",
     "region": "global"
+  },
+  {
+    "code": "NTEGIFT",
+    "reward": "Launch Bonus Rewards",
+    "rewardCn": "公测福利奖励",
+    "expired": false,
+    "expiresAt": "2026-05-29",
+    "region": "global"
+  },
+  {
+    "code": "NTEHAVEFUN",
+    "reward": "Launch Bonus Rewards",
+    "rewardCn": "公测福利奖励",
+    "expired": false,
+    "expiresAt": "2026-05-29",
+    "region": "global"
   }
 ]

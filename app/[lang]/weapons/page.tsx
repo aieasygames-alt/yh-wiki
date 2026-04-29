@@ -3,6 +3,7 @@ import { getAllWeapons } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
 import { WeaponCard } from "../../../components/WeaponCard";
+import { ARC_TYPE_LABELS, ARC_RANK_LABELS } from "../../../lib/attributes";
 
 export async function generateMetadata({
   params,
@@ -23,16 +24,8 @@ export async function generateMetadata({
   };
 }
 
-const TYPE_ORDER = ["melee", "companion", "magic", "ranged", "summon", "support"];
-
-const TYPE_LABELS: Record<string, Record<Locale, string>> = {
-  melee: { zh: "近战武器", tw: "近战武器", en: "Melee Weapons" },
-  companion: { zh: "伴生体武器", tw: "伴生体武器", en: "Companion Weapons" },
-  magic: { zh: "异能武器", tw: "异能武器", en: "Esper Weapons" },
-  ranged: { zh: "远程武器", tw: "远程武器", en: "Ranged Weapons" },
-  summon: { zh: "召唤武器", tw: "召唤武器", en: "Summon Weapons" },
-  support: { zh: "辅助武器", tw: "辅助武器", en: "Support Weapons" },
-};
+const RANK_ORDER = ["S", "A", "B"];
+const TYPE_ORDER = ["solid", "liquid", "gas", "plasma", "synthesis"];
 
 export default async function WeaponsPage({
   params,
@@ -43,11 +36,15 @@ export default async function WeaponsPage({
   const locale = lang as Locale;
   const weapons = getAllWeapons();
 
-  const weaponsByType = TYPE_ORDER.map((type) => ({
-    type,
-    label: TYPE_LABELS[type]?.[locale] || type,
-    weapons: weapons.filter((w) => w.type === type),
-  })).filter((group) => group.weapons.length > 0);
+  const weaponsByRank = RANK_ORDER.map((rank) => ({
+    rank,
+    rankLabel: ARC_RANK_LABELS[rank]?.[locale] || rank,
+    types: TYPE_ORDER.map((type) => ({
+      type,
+      typeLabel: ARC_TYPE_LABELS[type]?.[locale] || type,
+      weapons: weapons.filter((w) => w.rank === rank && w.type === type),
+    })).filter((group) => group.weapons.length > 0),
+  })).filter((group) => group.types.length > 0);
 
   return (
     <>
@@ -67,21 +64,31 @@ export default async function WeaponsPage({
         <h1 className="text-3xl font-bold mb-2">{t(locale, "weapons.title")}</h1>
         <p className="text-gray-400 mb-8">{t(locale, "weapons.description")}</p>
 
-        {weaponsByType.map((group) => (
-          <section key={group.type} className="mb-10">
-            <h2 className="text-xl font-bold mb-4 text-primary-400">{group.label}</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-              {group.weapons.map((w) => (
-                <WeaponCard
-                  key={w.id}
-                  id={w.id}
-                  name={w.name}
-                  nameEn={w.nameEn}
-                  type={w.type}
-                  locale={locale}
-                />
-              ))}
-            </div>
+        {weaponsByRank.map((rankGroup) => (
+          <section key={rankGroup.rank} className="mb-12">
+            <h2 className="text-2xl font-bold mb-6 text-primary-400">{rankGroup.rankLabel}</h2>
+            {rankGroup.types.map((typeGroup) => (
+              <div key={typeGroup.type} className="mb-8">
+                <h3 className="text-lg font-semibold mb-3 text-gray-300">{typeGroup.typeLabel}</h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                  {typeGroup.weapons.map((w) => (
+                    <WeaponCard
+                      key={w.id}
+                      id={w.id}
+                      name={w.name}
+                      nameTw={w.nameTw}
+                      nameEn={w.nameEn}
+                      rank={w.rank}
+                      type={w.type}
+                      baseAtk={w.baseAtk}
+                      substat={w.substat}
+                      substatValue={w.substatValue}
+                      locale={locale}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
           </section>
         ))}
       </div>
