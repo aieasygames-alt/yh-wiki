@@ -5,6 +5,7 @@ import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { GameImage } from "../../../components/GameImage";
 import { TierBadge } from "../../../components/TierBadge";
+import { GiscusComments } from "../../../components/GiscusComments";
 
 export async function generateMetadata({
   params,
@@ -203,6 +204,9 @@ export default async function TierListPage({
             ? "评级基于游戏测试版本数据，正式上线后可能调整。评级综合考虑角色在主流队伍中的表现、技能倍率和泛用性。"
             : "Ratings are based on beta test data and may change after official launch. Tier rankings consider overall performance in meta teams, skill multipliers, and versatility."}
         </p>
+
+        {/* Player Discussion */}
+        <GiscusComments locale={locale} term="tier-list" />
       </div>
     </>
   );

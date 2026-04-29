@@ -7,6 +7,7 @@ import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
+import { GiscusComments } from "../../../../components/GiscusComments";
 
 export function generateStaticParams() {
   const guides = getAllGuides();
@@ -165,6 +166,8 @@ export default async function GuideDetailPage({
             </div>
           </section>
         )}
+        {/* Player Discussion */}
+        <GiscusComments locale={locale} term={`guide-${slug}`} />
       </article>
     </>
   );

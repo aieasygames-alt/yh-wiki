@@ -4,6 +4,7 @@ import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons, getLate
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { SearchDialog } from "../../components/SearchDialog";
+import { GiscusComments } from "../../components/GiscusComments";
 
 export async function generateMetadata({
   params,
@@ -231,6 +232,11 @@ export default async function HomePage({
               </Link>
             ))}
           </div>
+        </section>
+
+        {/* Player Discussion */}
+        <section className="max-w-4xl mx-auto px-4 py-12">
+          <GiscusComments locale={locale} term="general" />
         </section>
       </div>
     </>

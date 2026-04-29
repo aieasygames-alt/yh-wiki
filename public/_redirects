@@ -22,13 +22,8 @@
 /tw/faq/download-installation /tw/guides/download-install-guide/ 301
 /tw/faq/download-installation/ /tw/guides/download-install-guide/ 301
 
-# FAQ index pages -> homepage (low CTR, better to direct to home)
-/zh/faq /zh/ 301
-/zh/faq/ /zh/ 301
-/en/faq /en/ 301
-/en/faq/ /en/ 301
-/tw/faq /tw/ 301
-/tw/faq/ /tw/ 301
+# FAQ index pages - restored with optimized content
+# (previously redirected to homepage, now serving FAQ listing page)
 
 # Character renamed/merged
 /en/characters/the-appraiser /en/characters/zero/ 301
@@ -40,6 +35,7 @@
 
 # Auto-generated trailing slash redirects (do not edit manually)
 /en /en/ 301
+/en/about /en/about/ 301
 /en/anomalies /en/anomalies/ 301
 /en/anomalies/aura-fist /en/anomalies/aura-fist/ 301
 /en/anomalies/bandage-monster /en/anomalies/bandage-monster/ 301
@@ -379,6 +375,7 @@
 /en/materials/solid-dice /en/materials/solid-dice/ 301
 /en/materials/tri-key /en/materials/tri-key/ 301
 /en/materials/warp-pieces /en/materials/warp-pieces/ 301
+/en/privacy-policy /en/privacy-policy/ 301
 /en/redeem-codes /en/redeem-codes/ 301
 /en/system-requirements /en/system-requirements/ 301
 /en/tags/6选1 /en/tags/6选1/ 301
@@ -639,6 +636,7 @@
 /en/tags/零氪 /en/tags/零氪/ 301
 /en/tags/驾驶 /en/tags/驾驶/ 301
 /en/teams /en/teams/ 301
+/en/terms /en/terms/ 301
 /en/tier-list /en/tier-list/ 301
 /en/vehicles /en/vehicles/ 301
 /en/vehicles/azure-dream /en/vehicles/azure-dream/ 301
@@ -701,6 +699,7 @@
 /en/weapons/whip-sword /en/weapons/whip-sword/ 301
 /en/weapons/yokai-hammer /en/weapons/yokai-hammer/ 301
 /tw /tw/ 301
+/tw/about /tw/about/ 301
 /tw/anomalies /tw/anomalies/ 301
 /tw/anomalies/aura-fist /tw/anomalies/aura-fist/ 301
 /tw/anomalies/bandage-monster /tw/anomalies/bandage-monster/ 301
@@ -1040,6 +1039,7 @@
 /tw/materials/solid-dice /tw/materials/solid-dice/ 301
 /tw/materials/tri-key /tw/materials/tri-key/ 301
 /tw/materials/warp-pieces /tw/materials/warp-pieces/ 301
+/tw/privacy-policy /tw/privacy-policy/ 301
 /tw/redeem-codes /tw/redeem-codes/ 301
 /tw/system-requirements /tw/system-requirements/ 301
 /tw/tags/6选1 /tw/tags/6选1/ 301
@@ -1300,6 +1300,7 @@
 /tw/tags/零氪 /tw/tags/零氪/ 301
 /tw/tags/驾驶 /tw/tags/驾驶/ 301
 /tw/teams /tw/teams/ 301
+/tw/terms /tw/terms/ 301
 /tw/tier-list /tw/tier-list/ 301
 /tw/vehicles /tw/vehicles/ 301
 /tw/vehicles/azure-dream /tw/vehicles/azure-dream/ 301
@@ -1362,6 +1363,7 @@
 /tw/weapons/whip-sword /tw/weapons/whip-sword/ 301
 /tw/weapons/yokai-hammer /tw/weapons/yokai-hammer/ 301
 /zh /zh/ 301
+/zh/about /zh/about/ 301
 /zh/anomalies /zh/anomalies/ 301
 /zh/anomalies/aura-fist /zh/anomalies/aura-fist/ 301
 /zh/anomalies/bandage-monster /zh/anomalies/bandage-monster/ 301
@@ -1701,6 +1703,7 @@
 /zh/materials/solid-dice /zh/materials/solid-dice/ 301
 /zh/materials/tri-key /zh/materials/tri-key/ 301
 /zh/materials/warp-pieces /zh/materials/warp-pieces/ 301
+/zh/privacy-policy /zh/privacy-policy/ 301
 /zh/redeem-codes /zh/redeem-codes/ 301
 /zh/system-requirements /zh/system-requirements/ 301
 /zh/tags/6选1 /zh/tags/6选1/ 301
@@ -1961,6 +1964,7 @@
 /zh/tags/零氪 /zh/tags/零氪/ 301
 /zh/tags/驾驶 /zh/tags/驾驶/ 301
 /zh/teams /zh/teams/ 301
+/zh/terms /zh/terms/ 301
 /zh/tier-list /zh/tier-list/ 301
 /zh/vehicles /zh/vehicles/ 301
 /zh/vehicles/azure-dream /zh/vehicles/azure-dream/ 301

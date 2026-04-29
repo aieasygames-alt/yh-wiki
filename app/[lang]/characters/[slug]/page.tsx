@@ -18,6 +18,7 @@ import { SkillDetail } from "../../../../components/SkillDetail";
 import { BuildRecommendation } from "../../../../components/BuildRecommendation";
 import { TeamCompCard } from "../../../../components/TeamCompCard";
 import { TierBadge } from "../../../../components/TierBadge";
+import { GiscusComments } from "../../../../components/GiscusComments";
 
 /** Get character display name for a given locale */
 function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {
@@ -279,6 +280,9 @@ export default async function CharacterDetailPage({
             </Link>
           </div>
         )}
+
+        {/* Player Discussion */}
+        <GiscusComments locale={locale} term={`character-${slug}`} />
       </div>
     </>
   );

@@ -5,6 +5,7 @@ import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { ArticleContent } from "../../../../components/ArticleContent";
+import { GiscusComments } from "../../../../components/GiscusComments";
 
 function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
   const allPosts = getAllBlogPosts();
@@ -169,6 +170,8 @@ export default async function BlogDetailPage({
             </section>
           );
         })()}
+        {/* Player Discussion */}
+        <GiscusComments locale={locale} term={`blog-${slug}`} />
       </article>
     </>
   );
