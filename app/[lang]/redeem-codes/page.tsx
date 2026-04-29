@@ -242,6 +242,48 @@ export default function RedeemCodesPage() {
         </ol>
       </div>
 
+      {/* FAQ Section */}
+      <div className="mt-10">
+        <h2 className="text-xl font-bold mb-4">
+          {isZhLocale(lang)
+            ? (lang === "tw" ? "兌換碼常見問題" : "兑换码常见问题")
+            : "Redeem Codes FAQ"}
+        </h2>
+        <div className="space-y-3">
+          {(isZhLocale(lang)
+            ? (lang === "tw"
+              ? [
+                  { q: "異環兌換碼怎麼用？在哪裡輸入？", a: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入有效的兌換碼即可領取獎勵。建議開服後第一時間兌換，避免過期。" },
+                  { q: "異環國際服兌換碼有哪些？", a: "目前國際服有效兌換碼包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429 等，有效期至2026年5月。請以本頁面最新資訊為準。" },
+                  { q: "異環兌換碼過期了怎麼辦？", a: "兌換碼有使用期限，過期後無法使用。請關注官方直播和社群活動獲取新兌換碼，本頁面也會即時更新。" },
+                  { q: "異環前瞻直播兌換碼有哪些？", a: "公測前瞻直播（4月18日）公布了國服3個和國際服3個兌換碼。國服碼有效期至5月7日，國際服碼有效期至5月29日。" },
+                ]
+              : [
+                  { q: "异环兑换码在哪里输入？怎么用？", a: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效的兑换码即可领取奖励。建议开服后第一时间兑换，避免过期。" },
+                  { q: "异环国际服兑换码有哪些？", a: "目前国际服有效兑换码包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429 等，有效期至2026年5月。请以本页面最新信息为准。" },
+                  { q: "异环开服兑换码有哪些？公测码是多少？", a: "异环公测兑换码分为国服和国际服两组。国服：YHNOWTOENJOY、YHNANALLYGO、YHOB0423（有效期至5月7日）。国际服：NTENOWTOENJOY、NTENANALLYGO、NTE0429（有效期至5月29日）。" },
+                  { q: "异环前瞻直播兑换码有哪些？", a: "公测前瞻直播（4月18日）公布了国服3个和国际服3个兑换码。国服码有效期至5月7日，国际服码有效期至5月29日。后续直播活动可能发布更多兑换码。" },
+                ])
+            : [
+                { q: "How to redeem codes in Neverness to Everness?", a: "Launch the game, tap your profile icon (top-right) → Settings → enter the code in the Redeem Code field. Redeem immediately after launch to avoid expiration." },
+                { q: "What are the active NTE redeem codes for Global server?", a: "Active Global codes include NTENOWTOENJOY, NTENANALLYGO, and NTE0429, valid through May 2026. Check this page for the latest updates." },
+                { q: "Do NTE redeem codes expire?", a: "Yes, all redeem codes have expiration dates and some have usage limits. Redeem them as soon as possible after the game launches." },
+                { q: "Where do I find new NTE redeem codes?", a: "New codes are announced during official livestreams, social media events, and partner promotions. This page is updated in real-time with all available codes." },
+              ]
+          ).map((item, i) => (
+            <details key={i} className="group rounded-xl border border-gray-800 bg-gray-900/50">
+              <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-200 hover:text-primary-400 transition-colors list-none flex items-center gap-2">
+                <span className="text-primary-400 group-open:rotate-90 transition-transform">▸</span>
+                {item.q}
+              </summary>
+              <div className="px-4 pb-3 text-sm text-gray-400">
+                {item.a}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+
       {/* Module A: Next Steps */}
       <div className="mt-12">
         <h2 className="text-xl font-bold mb-4">{t(lang, "redeemCodes.nextSteps.title")}</h2>

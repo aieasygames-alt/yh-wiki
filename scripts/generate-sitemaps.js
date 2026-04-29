@@ -20,7 +20,7 @@ const ROOT = path.resolve(__dirname, "..");
 const PUBLIC = path.join(ROOT, "public");
 const DATA = path.join(ROOT, "data");
 const BASE_URL = "https://nteguide.com";
-const langs = ["zh", "en"];
+const langs = ["zh", "tw", "en"];
 
 // Load data (safe-load: returns [] if file missing)
 function loadJson(name) {
