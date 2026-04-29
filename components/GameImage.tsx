@@ -17,7 +17,7 @@ interface GameImageProps {
 }
 
 // Cache buster for static assets — bump when images change
-const IMG_VERSION = "v=2";
+const IMG_VERSION = "v=3";
 
 export function GameImage({ type, id, name, className = "", alt, width, height, priority = false, src: srcProp, contain }: GameImageProps) {
   const [error, setError] = useState(false);
