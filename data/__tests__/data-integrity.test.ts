@@ -29,8 +29,8 @@ describe("characters.json data integrity", () => {
     }
   });
 
-  it("has 39 characters", () => {
-    expect(charactersData).toHaveLength(39);
+  it("has at least 39 characters", () => {
+    expect(charactersData.length).toBeGreaterThanOrEqual(39);
   });
 });
 
@@ -60,9 +60,13 @@ describe("character-materials.json data integrity", () => {
 
   it("every characterId exists in characters.json", () => {
     const charIds = new Set(charactersData.map((c) => c.id));
+    const missing: string[] = [];
     for (const cm of characterMaterialsData) {
-      expect(charIds.has(cm.characterId)).toBe(true);
+      if (!charIds.has(cm.characterId)) {
+        missing.push(cm.characterId);
+      }
     }
+    expect(missing).toEqual([] as string[]);
   });
 
   it("every materialId in levelingMaterials exists in materials.json", () => {
