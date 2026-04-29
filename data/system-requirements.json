@@ -89,6 +89,18 @@
       "questionZh": "异环会在 Epic Games 或 Steam 上架吗？",
       "answer": "NTE is currently distributed through its official launcher. Availability on Steam or Epic Games Store has not been confirmed. Check official announcements for the latest platform information.",
       "answerZh": "异环目前通过官方启动器分发。是否在 Steam 或 Epic Games Store 上架尚未确认。请关注官方公告获取最新平台信息。"
+    },
+    {
+      "question": "Is Neverness to Everness available on PC?",
+      "questionZh": "异环可以在PC上玩吗？",
+      "answer": "Yes, Neverness to Everness (NTE) is available on PC (Windows). You can download the PC client for free from the official website at nte.perfectworld.com. The game requires Windows 10 64-bit, 16GB RAM, and about 90GB of storage space. An NVMe SSD is strongly recommended.",
+      "answerZh": "是的，异环(NTE)支持PC（Windows）平台。可以从官网 nte.perfectworld.com 免费下载PC客户端。游戏需要 Windows 10 64位系统、16GB内存和约90GB存储空间，强烈推荐使用NVMe SSD。"
+    },
+    {
+      "question": "Can I run NTE with 8GB RAM?",
+      "questionZh": "8GB内存能运行异环吗？",
+      "answer": "NTE requires a minimum of 16GB RAM. Running the game with 8GB RAM is not officially supported and may cause crashes, stuttering, or failure to launch. We strongly recommend upgrading to at least 16GB RAM before playing.",
+      "answerZh": "异环最低需要16GB内存。8GB内存不在官方支持范围内，可能导致闪退、卡顿或无法启动。强烈建议升级到至少16GB内存后再游玩。"
     }
   ]
 }

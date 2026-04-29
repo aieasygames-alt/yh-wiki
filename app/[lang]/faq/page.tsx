@@ -16,12 +16,12 @@ export async function generateMetadata({
     ? "異環常見問題FAQ — 新手指南、下載、國際服、配備要求總匯"
     : isZh
       ? "异环常见问题FAQ — 新手指南、下载安装、国际服、配置要求大全"
-      : "Neverness to Everness FAQ — Download, System Requirements, Global Server & More";
+      : "NTE FAQ — Is NTE on PC? How to Download, System Requirements, Global Server & More";
   const description = isTw
     ? "異環(NTE)常見問題解答大全，涵蓋下載安裝、國際服、配置要求、兌換碼、抽卡機制等熱門問題。"
     : isZh
       ? "异环(NTE)常见问题解答大全，涵盖下载安装、国际服、配置要求、兑换码、抽卡机制等热门问题，实时更新。"
-      : "Complete NTE FAQ covering download & install, global server, system requirements, redeem codes, gacha, co-op and more.";
+      : "Answers to top Neverness to Everness questions: Is NTE on PC? How to download? System requirements, global server, storage size, redeem codes, gacha rates, co-op, and more.";
   return {
     title,
     description,
