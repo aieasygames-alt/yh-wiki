@@ -70,9 +70,16 @@ export default async function HomePage({
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
           <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              {isZhLocale(locale) ? "异环 Wiki" : "Neverness to Everness Wiki"}
+              {locale === "tw" ? "異環 Wiki 官網" : isZhLocale(locale) ? "异环 Wiki 官网" : "Neverness to Everness Wiki"}
             </h1>
             <p className="mt-4 text-lg text-gray-400">{t(locale, "home.heroSubtitle")}</p>
+            <p className="mt-3 text-sm text-gray-500 max-w-2xl mx-auto">
+              {locale === "tw"
+                ? "異環(NTE)百科攻略官網，收錄全角色圖鑑、配裝推薦、攻略指南、兌換碼、互動地圖與計算器工具。"
+                : isZhLocale(locale)
+                  ? "异环(NTE)百科攻略官网，收录全角色图鉴、配装推荐、攻略指南、兑换码、交互地图与计算器工具。"
+                  : "The complete Neverness to Everness wiki with character builds, guides, tier lists, redeem codes, interactive map, and calculators."}
+            </p>
             <div className="mt-6 flex justify-center">
               <SearchDialog lang={lang} />
             </div>

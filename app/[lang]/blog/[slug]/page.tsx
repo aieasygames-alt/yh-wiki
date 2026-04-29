@@ -47,11 +47,11 @@ export async function generateMetadata({
   const title = isZhLocale(lang) ? post.title : post.titleEn;
   const description = isZhLocale(lang) ? post.summary : post.summaryEn;
   return {
-    title: `${title} | NTE Blog`,
+    title: `${title} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`blog/${slug}`, lang),
     openGraph: {
-      title: `${title} | NTE Blog`,
+      title: `${title} | NTE Guide`,
       description,
       type: "article",
       publishedTime: post.date,

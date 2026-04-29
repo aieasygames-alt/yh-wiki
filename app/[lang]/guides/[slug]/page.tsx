@@ -28,11 +28,11 @@ export async function generateMetadata({
   const title = isZhLocale(lang) ? guide.title : guide.titleEn;
   const description = isZhLocale(lang) ? guide.summary : guide.summaryEn;
   return {
-    title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
+    title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "NTE Guide"} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`guides/${slug}`, lang),
     openGraph: {
-      title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
+      title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "NTE Guide"} | NTE Guide`,
       description,
       type: "article",
     },
