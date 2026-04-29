@@ -22,13 +22,8 @@
 /tw/faq/download-installation /tw/guides/download-install-guide/ 301
 /tw/faq/download-installation/ /tw/guides/download-install-guide/ 301
 
-# FAQ index pages -> homepage (low CTR, better to direct to home)
-/zh/faq /zh/ 301
-/zh/faq/ /zh/ 301
-/en/faq /en/ 301
-/en/faq/ /en/ 301
-/tw/faq /tw/ 301
-/tw/faq/ /tw/ 301
+# FAQ index pages - restored with optimized content
+# (previously redirected to homepage, now serving FAQ listing page)
 
 # Character renamed/merged
 /en/characters/the-appraiser /en/characters/zero/ 301

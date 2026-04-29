@@ -94,6 +94,7 @@ export default async function WeaponDetailPage({
               id={weapon.id}
               name={weapon.name}
               className="w-24 h-24 rounded-lg shrink-0"
+              priority
             />
             <div>
               <h1 className="text-2xl font-bold">{isZhLocale(locale) ? weapon.name : `${weapon.nameEn} Stats & Best Characters`}</h1>
