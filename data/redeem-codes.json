@@ -58,5 +58,25 @@
     "source": "livestream",
     "region": "global",
     "revealedAt": "2026-04-18"
+  },
+  {
+    "code": "NTEGIFT",
+    "reward": "公测福利奖励",
+    "rewardEn": "Launch Bonus Rewards",
+    "status": "active",
+    "expiresAt": "2026-05-29",
+    "source": "launch",
+    "region": "global",
+    "revealedAt": "2026-04-29"
+  },
+  {
+    "code": "NTEHAVEFUN",
+    "reward": "公测福利奖励",
+    "rewardEn": "Launch Bonus Rewards",
+    "status": "active",
+    "expiresAt": "2026-05-29",
+    "source": "launch",
+    "region": "global",
+    "revealedAt": "2026-04-29"
   }
 ]
