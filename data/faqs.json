@@ -2162,5 +2162,298 @@
     "categoryEn": "Gacha",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "awakening-priority",
+    "question": "异环觉醒优先升谁？哪些角色先开觉醒？",
+    "questionEn": "Who should I prioritize for Awakening in NTE? Which characters to awaken first?",
+    "answer": "觉醒（命座）优先给主C角色升到S2（2命），这是关键质变节点。推荐优先觉醒：娜娜莉（S2质变）> 白藏（S1即可）> 九原。辅助角色S1就够用，无需全员满命。觉醒点数来自重复抽卡，每次重复+1点。",
+    "answerEn": "Prioritize Awakening (constellation) for your main DPS to S2 (2 copies), which is the key power spike. Recommended priority: Nanally (S2 breakpoint) > Baicang (S1 is enough) > Jiuyuan. Support characters only need S1; there is no need to fully awaken everyone. Awakening points come from duplicate pulls, +1 point per duplicate.",
+    "tags": [
+      "awakening",
+      "constellation",
+      "priority",
+      "character-building"
+    ],
+    "category": "角色培养",
+    "categoryZh": "角色培养",
+    "categoryEn": "Character Building",
+    "relatedCharacters": [
+      "nanally",
+      "baicang",
+      "jiuyuan"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "awakening-vs-new-character",
+    "question": "异环觉醒和抽新角色哪个更值？",
+    "questionEn": "Is it better to awaken characters or pull new characters in NTE?",
+    "answer": "优先抽新角色。NTE无50/50，90抽保底必得当期限定，性价比极高。觉醒是后期提升，新手建议先拓宽角色池，至少有2-3队完整阵容后再考虑觉醒。例外：小志通过都市大亨可免费满命，优先完成。",
+    "answerEn": "Prioritize pulling new characters. NTE has no 50/50 system — 90 pulls guarantee the rate-limited character, offering excellent value. Awakening is a late-game investment. Beginners should expand their roster first and build at least 2-3 complete teams before focusing on awakening. Exception: Xiaozhi can be fully awakened for free through City Tycoon, so prioritize completing that.",
+    "tags": [
+      "awakening",
+      "gacha",
+      "priority",
+      "f2p"
+    ],
+    "category": "抽卡系统",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [
+      "xiaozhi"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "beginner-first-day-checklist",
+    "question": "异环公测第一天必做什么？新手开服清单",
+    "questionEn": "What to do on day one of NTE launch? Beginner opening day checklist",
+    "answer": "Day 1必做：1)兑换所有兑换码 2)完成新手池20抽拿S级 3)推主线到解锁常驻池 4)常驻池50抽拿自选S级 5)开始都市大亨拿小志 6)领取预注册奖励 7)完成首日限时活动。优先推主线，主线是解锁玩法和获取经验的主要来源。",
+    "answerEn": "Day 1 must-dos: 1) Redeem all gift codes 2) Do 20 pulls on the beginner banner for an S-rank 3) Progress the main story until the standard banner unlocks 4) Do 50 pulls on standard banner for the S-rank selector 5) Start City Tycoon to get Xiaozhi 6) Claim pre-registration rewards 7) Complete day-one limited events. Prioritize the main story — it is the primary source of EXP and unlocks game modes.",
+    "tags": [
+      "beginner",
+      "checklist",
+      "day-one",
+      "opening"
+    ],
+    "category": "新手指南",
+    "categoryZh": "新手指南",
+    "categoryEn": "Beginner Guide",
+    "relatedCharacters": [
+      "xiaozhi"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "gacha-dice-board",
+    "question": "异环抽卡骰子棋盘是什么？怎么玩？",
+    "questionEn": "What is the gacha dice board in NTE? How does it work?",
+    "answer": "NTE的抽卡系统采用独特的骰子棋盘机制，每次抽卡相当于掷骰子在棋盘上前进。棋盘走满一定步数即触发保底。这种可视化设计让抽卡过程更有趣，也更容易追踪保底进度。机制与结果不影响概率，仅是视觉呈现方式不同。",
+    "answerEn": "NTE uses a unique dice board mechanic for its gacha system. Each pull acts like rolling dice and moving forward on a board. When you fill a certain number of steps, the pity is triggered. This visual design makes pulling more engaging and makes it easier to track pity progress. The mechanic does not affect probabilities — it is purely a visual presentation difference.",
+    "tags": [
+      "gacha",
+      "dice-board",
+      "mechanic",
+      "pity"
+    ],
+    "category": "抽卡系统",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "120-pull-exchange",
+    "question": "异环120抽兑换是什么？怎么用120抽换角色？",
+    "questionEn": "What is the 120-pull exchange in NTE? How to exchange 120 pulls for a character?",
+    "answer": "累计抽卡120次后可兑换任意S级角色。这是NTE的兜底机制，即使运气不好也能通过积累获得想要的角色。建议用这个机制兑换常驻S级中没抽到的角色，限定角色还是走限定池更划算。",
+    "answerEn": "After accumulating 120 total pulls, you can exchange for any S-rank character. This is NTE safety net mechanic — even with bad luck, you can still get the character you want through accumulation. It is recommended to use this to exchange for standard S-rank characters you did not pull. For limited characters, pulling on the limited banner is more efficient.",
+    "tags": [
+      "gacha",
+      "exchange",
+      "120-pull",
+      "safety-net"
+    ],
+    "category": "抽卡系统",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "best-weapon-to-pull",
+    "question": "异环武器池值得抽吗？优先抽什么武器？",
+    "questionEn": "Is the weapon banner worth pulling in NTE? Which weapons to prioritize?",
+    "answer": "武器池60抽保底，S级武器出率约22.8%，每十连赠送A级武器。建议：优先抽角色，角色阵容成型后再考虑武器。S级角色专属武器提升明显，但不是必须的。零氪玩家可以跳过武器池，用A级武器过渡。",
+    "answerEn": "The weapon banner has a 60-pull pity with approximately 22.8% S-rank weapon rate, and each 10-pull grants an A-rank weapon. Recommendation: Prioritize pulling characters first, then consider weapons once your roster is established. S-rank signature weapons provide noticeable upgrades but are not mandatory. F2P players can skip the weapon banner and use A-rank weapons as placeholders.",
+    "tags": [
+      "gacha",
+      "weapon",
+      "banner",
+      "priority"
+    ],
+    "category": "抽卡系统",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "stamina-buy-guide",
+    "question": "异环每天买几次体力？体力购买性价比",
+    "questionEn": "How many times should I buy stamina daily in NTE? Stamina purchase cost-effectiveness",
+    "answer": "零氪/微氪建议每天买满前3次体力（消耗递增但性价比高）。体力是刷经验、装备、材料的基础，开服期等级领先=资源领先。中氪可以买5次，重氪可买满。优先用体力刷角色培养材料。",
+    "answerEn": "F2P and light spenders should buy the first 3 stamina refills daily (cost increases but remains cost-effective). Stamina is the foundation for farming EXP, gear, and materials. Being ahead in level during launch means being ahead in resources. Medium spenders can buy 5 times, and heavy spenders can buy all. Prioritize using stamina on character building materials.",
+    "tags": [
+      "stamina",
+      "daily",
+      "resource-management",
+      "f2p"
+    ],
+    "category": "日常玩法",
+    "categoryZh": "日常玩法",
+    "categoryEn": "Daily Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "game-crash-fix",
+    "question": "异环闪退/卡顿/掉帧怎么解决？",
+    "questionEn": "How to fix NTE crashing, stuttering, and frame drops?",
+    "answer": "PC端：1)关闭MSI Afterburner和RivaTuner 2)更新显卡驱动 3)降低画质设置 4)安装到SSD。移动端：1)确认满足最低配置 2)降低画质 3)关闭后台应用 4)发烫时暂停散热后继续。网络问题：使用游戏加速器（迅游/biubiu等）。NVIDIA驱动595.79版本已知有兼容问题，建议降级。",
+    "answerEn": "PC: 1) Close MSI Afterburner and RivaTuner 2) Update GPU drivers 3) Lower graphics settings 4) Install on SSD. Mobile: 1) Confirm your device meets minimum specs 2) Lower graphics settings 3) Close background apps 4) Pause and let device cool when overheating. Network issues: Use a game accelerator (Xunyou/Biubiu etc.). NVIDIA driver version 595.79 has known compatibility issues; consider downgrading.",
+    "tags": [
+      "crash",
+      "stutter",
+      "fps",
+      "troubleshooting",
+      "performance"
+    ],
+    "category": "技术支持",
+    "categoryZh": "技术支持",
+    "categoryEn": "Technical Support",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "pc-crash-launcher",
+    "question": "异环PC端启动器点Play没反应怎么办？",
+    "questionEn": "NTE PC launcher Play button not working? How to fix",
+    "answer": "1)以管理员身份运行启动器 2)检查杀毒软件是否拦截 3)重启电脑后重试 4)卸载后重新安装启动器 5)确保游戏安装在SSD 6)关闭VPN（Astrill VPN已知冲突）。如仍无法解决，查看官方FAQ：nte.perfectworld.com",
+    "answerEn": "1) Run the launcher as administrator 2) Check if antivirus is blocking it 3) Restart your PC and try again 4) Uninstall and reinstall the launcher 5) Make sure the game is installed on SSD 6) Disable VPN (Astrill VPN has known conflicts). If the issue persists, check the official FAQ: nte.perfectworld.com",
+    "tags": [
+      "launcher",
+      "crash",
+      "pc",
+      "troubleshooting"
+    ],
+    "category": "技术支持",
+    "categoryZh": "技术支持",
+    "categoryEn": "Technical Support",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "ssd-requirement",
+    "question": "异环必须装SSD吗？机械硬盘能玩吗？",
+    "questionEn": "Does NTE require an SSD? Can I play on an HDD?",
+    "answer": "官方建议安装到SSD获得最佳体验。机械硬盘可以运行但加载时间会明显变长，且可能出现卡顿。如果只有机械硬盘，建议降低画质设置来弥补。PC版约30-40GB，确保有足够空间。",
+    "answerEn": "The official recommendation is to install on an SSD for the best experience. HDDs can run the game but load times will be noticeably longer and you may experience stuttering. If you only have an HDD, lowering graphics settings is recommended to compensate. The PC version is approximately 30-40GB; ensure you have enough free space.",
+    "tags": [
+      "ssd",
+      "hdd",
+      "storage",
+      "performance",
+      "pc"
+    ],
+    "category": "技术支持",
+    "categoryZh": "技术支持",
+    "categoryEn": "Technical Support",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "account-link-cross-save",
+    "question": "异环怎么绑定账号跨平台同步？",
+    "questionEn": "How to link your account for cross-platform save in NTE?",
+    "answer": "使用同一个账号在PC/PS5/iOS/Android上登录即可自动同步进度。绑定步骤：设置→账号管理→绑定邮箱/手机。跨平台数据完全互通，包括角色、抽卡记录、进度等。Mac版同样支持。",
+    "answerEn": "Log in with the same account on PC/PS5/iOS/Android to automatically sync progress. Binding steps: Settings → Account Management → Bind email/phone. Cross-platform data is fully shared, including characters, pull history, and progress. The Mac version is also supported.",
+    "tags": [
+      "cross-platform",
+      "account",
+      "sync",
+      "cross-save"
+    ],
+    "category": "新手指南",
+    "categoryZh": "新手指南",
+    "categoryEn": "Beginner Guide",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nanally-team-comp",
+    "question": "异环娜娜莉最佳配队是什么？",
+    "questionEn": "What is the best team composition for Nanally in NTE?",
+    "answer": "娜娜莉作为开服最强主C，推荐配队：娜娜莉+九原/薄荷+白藏/阿德勒+辅助。核心思路是利用娜娜莉的高爆发配合副C和聚怪角色。九原提供控制和副C输出，白藏提供护盾。开服可用：娜娜莉+主角+九原+阿德勒过渡。",
+    "answerEn": "As the strongest launch main DPS, Nanally recommended team: Nanally + Jiuyuan/Mint + Baicang/Adler + Support. The core strategy is pairing Nanally high burst with a sub-DPS and crowd-control character. Jiuyuan provides CC and sub-DPS, Baicang provides shields. For launch: Nanally + Protagonist + Jiuyuan + Adler works as a transition team.",
+    "tags": [
+      "team-comp",
+      "nanally",
+      "best-team",
+      "beginner"
+    ],
+    "category": "角色培养",
+    "categoryZh": "角色培养",
+    "categoryEn": "Character Building",
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint",
+      "baicang",
+      "adler"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "jiuyuan-worth-building",
+    "question": "异环九原值得培养吗？",
+    "questionEn": "Is Jiuyuan worth building in NTE?",
+    "answer": "九原是常驻S级中优先级最高的角色，常驻自选首推九原。提供优秀的控制和副C能力，泛用性极高。与娜娜莉配合效果出色。如果新手池没抽到九原，建议用常驻50抽自选拿九原。",
+    "answerEn": "Jiuyuan is the highest priority among standard S-rank characters, and is the top recommendation for the standard banner selector. Provides excellent crowd control and sub-DPS capabilities with extremely high versatility. Works exceptionally well with Nanally. If you did not get Jiuyuan from the beginner banner, use the 50-pull standard selector to pick Jiuyuan.",
+    "tags": [
+      "jiuyuan",
+      "character-building",
+      "s-rank",
+      "recommendation"
+    ],
+    "category": "角色培养",
+    "categoryZh": "角色培养",
+    "categoryEn": "Character Building",
+    "relatedCharacters": [
+      "jiuyuan",
+      "nanally"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "baicang-worth-building",
+    "question": "异环白藏值得培养吗？",
+    "questionEn": "Is Baicang worth building in NTE?",
+    "answer": "白藏是常驻S级输出/机制双优角色，开荒首选之一。灼烧队核心，S1即可满足大部分需求。如果抽到白藏，建议优先培养，可作为主C或副C使用。灼烧队配队：白藏+辅助+副C+治疗。",
+    "answerEn": "Baicang is a standard S-rank character excelling in both damage and mechanics, making them a top pick for progression. Core of the Burn team, and S1 is sufficient for most content. If you pull Baicang, prioritize building them — they can serve as either main DPS or sub-DPS. Burn team comp: Baicang + Support + Sub-DPS + Healer.",
+    "tags": [
+      "baicang",
+      "character-building",
+      "s-rank",
+      "burn-team",
+      "recommendation"
+    ],
+    "category": "角色培养",
+    "categoryZh": "角色培养",
+    "categoryEn": "Character Building",
+    "relatedCharacters": [
+      "baicang"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "daily-routine",
+    "question": "异环每天做什么？日常任务优先级",
+    "questionEn": "What to do daily in NTE? Daily task priority guide",
+    "answer": "每日必做清单：1)完成4个每日委托（经验+材料） 2)消耗体力刷培养材料 3)购买前3次体力 4)完成异象委托 5)都市大亨日常任务 6)检查限时活动。每周：周本boss、周常任务。体力优先刷当前培养角色的突破材料。",
+    "answerEn": "Daily must-do checklist: 1) Complete 4 daily commissions (EXP + materials) 2) Spend stamina on building materials 3) Buy first 3 stamina refills 4) Complete Anomaly Commissions 5) City Tycoon daily tasks 6) Check limited-time events. Weekly: Weekly boss and weekly quests. Prioritize stamina on ascension materials for characters you are currently building.",
+    "tags": [
+      "daily",
+      "routine",
+      "priority",
+      "stamina",
+      "commissions"
+    ],
+    "category": "日常玩法",
+    "categoryZh": "日常玩法",
+    "categoryEn": "Daily Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]

@@ -5124,6 +5124,404 @@
     ]
   },
   {
+    "id": "awakening-priority",
+    "name": "异环觉醒优先升谁？哪些角色先开觉醒？",
+    "nameEn": "Who should I prioritize for Awakening in NTE? Which characters to awaken first?",
+    "type": "faq",
+    "url": "/zh/faq/awakening-priority",
+    "tags": [
+      "awakening",
+      "constellation",
+      "priority",
+      "character-building"
+    ]
+  },
+  {
+    "id": "awakening-priority",
+    "name": "Who should I prioritize for Awakening in NTE? Which characters to awaken first?",
+    "nameEn": "Who should I prioritize for Awakening in NTE? Which characters to awaken first?",
+    "type": "faq",
+    "url": "/en/faq/awakening-priority",
+    "tags": [
+      "awakening",
+      "constellation",
+      "priority",
+      "character-building"
+    ]
+  },
+  {
+    "id": "awakening-vs-new-character",
+    "name": "异环觉醒和抽新角色哪个更值？",
+    "nameEn": "Is it better to awaken characters or pull new characters in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/awakening-vs-new-character",
+    "tags": [
+      "awakening",
+      "gacha",
+      "priority",
+      "f2p"
+    ]
+  },
+  {
+    "id": "awakening-vs-new-character",
+    "name": "Is it better to awaken characters or pull new characters in NTE?",
+    "nameEn": "Is it better to awaken characters or pull new characters in NTE?",
+    "type": "faq",
+    "url": "/en/faq/awakening-vs-new-character",
+    "tags": [
+      "awakening",
+      "gacha",
+      "priority",
+      "f2p"
+    ]
+  },
+  {
+    "id": "beginner-first-day-checklist",
+    "name": "异环公测第一天必做什么？新手开服清单",
+    "nameEn": "What to do on day one of NTE launch? Beginner opening day checklist",
+    "type": "faq",
+    "url": "/zh/faq/beginner-first-day-checklist",
+    "tags": [
+      "beginner",
+      "checklist",
+      "day-one",
+      "opening"
+    ]
+  },
+  {
+    "id": "beginner-first-day-checklist",
+    "name": "What to do on day one of NTE launch? Beginner opening day checklist",
+    "nameEn": "What to do on day one of NTE launch? Beginner opening day checklist",
+    "type": "faq",
+    "url": "/en/faq/beginner-first-day-checklist",
+    "tags": [
+      "beginner",
+      "checklist",
+      "day-one",
+      "opening"
+    ]
+  },
+  {
+    "id": "gacha-dice-board",
+    "name": "异环抽卡骰子棋盘是什么？怎么玩？",
+    "nameEn": "What is the gacha dice board in NTE? How does it work?",
+    "type": "faq",
+    "url": "/zh/faq/gacha-dice-board",
+    "tags": [
+      "gacha",
+      "dice-board",
+      "mechanic",
+      "pity"
+    ]
+  },
+  {
+    "id": "gacha-dice-board",
+    "name": "What is the gacha dice board in NTE? How does it work?",
+    "nameEn": "What is the gacha dice board in NTE? How does it work?",
+    "type": "faq",
+    "url": "/en/faq/gacha-dice-board",
+    "tags": [
+      "gacha",
+      "dice-board",
+      "mechanic",
+      "pity"
+    ]
+  },
+  {
+    "id": "120-pull-exchange",
+    "name": "异环120抽兑换是什么？怎么用120抽换角色？",
+    "nameEn": "What is the 120-pull exchange in NTE? How to exchange 120 pulls for a character?",
+    "type": "faq",
+    "url": "/zh/faq/120-pull-exchange",
+    "tags": [
+      "gacha",
+      "exchange",
+      "120-pull",
+      "safety-net"
+    ]
+  },
+  {
+    "id": "120-pull-exchange",
+    "name": "What is the 120-pull exchange in NTE? How to exchange 120 pulls for a character?",
+    "nameEn": "What is the 120-pull exchange in NTE? How to exchange 120 pulls for a character?",
+    "type": "faq",
+    "url": "/en/faq/120-pull-exchange",
+    "tags": [
+      "gacha",
+      "exchange",
+      "120-pull",
+      "safety-net"
+    ]
+  },
+  {
+    "id": "best-weapon-to-pull",
+    "name": "异环武器池值得抽吗？优先抽什么武器？",
+    "nameEn": "Is the weapon banner worth pulling in NTE? Which weapons to prioritize?",
+    "type": "faq",
+    "url": "/zh/faq/best-weapon-to-pull",
+    "tags": [
+      "gacha",
+      "weapon",
+      "banner",
+      "priority"
+    ]
+  },
+  {
+    "id": "best-weapon-to-pull",
+    "name": "Is the weapon banner worth pulling in NTE? Which weapons to prioritize?",
+    "nameEn": "Is the weapon banner worth pulling in NTE? Which weapons to prioritize?",
+    "type": "faq",
+    "url": "/en/faq/best-weapon-to-pull",
+    "tags": [
+      "gacha",
+      "weapon",
+      "banner",
+      "priority"
+    ]
+  },
+  {
+    "id": "stamina-buy-guide",
+    "name": "异环每天买几次体力？体力购买性价比",
+    "nameEn": "How many times should I buy stamina daily in NTE? Stamina purchase cost-effectiveness",
+    "type": "faq",
+    "url": "/zh/faq/stamina-buy-guide",
+    "tags": [
+      "stamina",
+      "daily",
+      "resource-management",
+      "f2p"
+    ]
+  },
+  {
+    "id": "stamina-buy-guide",
+    "name": "How many times should I buy stamina daily in NTE? Stamina purchase cost-effectiveness",
+    "nameEn": "How many times should I buy stamina daily in NTE? Stamina purchase cost-effectiveness",
+    "type": "faq",
+    "url": "/en/faq/stamina-buy-guide",
+    "tags": [
+      "stamina",
+      "daily",
+      "resource-management",
+      "f2p"
+    ]
+  },
+  {
+    "id": "game-crash-fix",
+    "name": "异环闪退/卡顿/掉帧怎么解决？",
+    "nameEn": "How to fix NTE crashing, stuttering, and frame drops?",
+    "type": "faq",
+    "url": "/zh/faq/game-crash-fix",
+    "tags": [
+      "crash",
+      "stutter",
+      "fps",
+      "troubleshooting",
+      "performance"
+    ]
+  },
+  {
+    "id": "game-crash-fix",
+    "name": "How to fix NTE crashing, stuttering, and frame drops?",
+    "nameEn": "How to fix NTE crashing, stuttering, and frame drops?",
+    "type": "faq",
+    "url": "/en/faq/game-crash-fix",
+    "tags": [
+      "crash",
+      "stutter",
+      "fps",
+      "troubleshooting",
+      "performance"
+    ]
+  },
+  {
+    "id": "pc-crash-launcher",
+    "name": "异环PC端启动器点Play没反应怎么办？",
+    "nameEn": "NTE PC launcher Play button not working? How to fix",
+    "type": "faq",
+    "url": "/zh/faq/pc-crash-launcher",
+    "tags": [
+      "launcher",
+      "crash",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "pc-crash-launcher",
+    "name": "NTE PC launcher Play button not working? How to fix",
+    "nameEn": "NTE PC launcher Play button not working? How to fix",
+    "type": "faq",
+    "url": "/en/faq/pc-crash-launcher",
+    "tags": [
+      "launcher",
+      "crash",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "ssd-requirement",
+    "name": "异环必须装SSD吗？机械硬盘能玩吗？",
+    "nameEn": "Does NTE require an SSD? Can I play on an HDD?",
+    "type": "faq",
+    "url": "/zh/faq/ssd-requirement",
+    "tags": [
+      "ssd",
+      "hdd",
+      "storage",
+      "performance",
+      "pc"
+    ]
+  },
+  {
+    "id": "ssd-requirement",
+    "name": "Does NTE require an SSD? Can I play on an HDD?",
+    "nameEn": "Does NTE require an SSD? Can I play on an HDD?",
+    "type": "faq",
+    "url": "/en/faq/ssd-requirement",
+    "tags": [
+      "ssd",
+      "hdd",
+      "storage",
+      "performance",
+      "pc"
+    ]
+  },
+  {
+    "id": "account-link-cross-save",
+    "name": "异环怎么绑定账号跨平台同步？",
+    "nameEn": "How to link your account for cross-platform save in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/account-link-cross-save",
+    "tags": [
+      "cross-platform",
+      "account",
+      "sync",
+      "cross-save"
+    ]
+  },
+  {
+    "id": "account-link-cross-save",
+    "name": "How to link your account for cross-platform save in NTE?",
+    "nameEn": "How to link your account for cross-platform save in NTE?",
+    "type": "faq",
+    "url": "/en/faq/account-link-cross-save",
+    "tags": [
+      "cross-platform",
+      "account",
+      "sync",
+      "cross-save"
+    ]
+  },
+  {
+    "id": "nanally-team-comp",
+    "name": "异环娜娜莉最佳配队是什么？",
+    "nameEn": "What is the best team composition for Nanally in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/nanally-team-comp",
+    "tags": [
+      "team-comp",
+      "nanally",
+      "best-team",
+      "beginner"
+    ]
+  },
+  {
+    "id": "nanally-team-comp",
+    "name": "What is the best team composition for Nanally in NTE?",
+    "nameEn": "What is the best team composition for Nanally in NTE?",
+    "type": "faq",
+    "url": "/en/faq/nanally-team-comp",
+    "tags": [
+      "team-comp",
+      "nanally",
+      "best-team",
+      "beginner"
+    ]
+  },
+  {
+    "id": "jiuyuan-worth-building",
+    "name": "异环九原值得培养吗？",
+    "nameEn": "Is Jiuyuan worth building in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/jiuyuan-worth-building",
+    "tags": [
+      "jiuyuan",
+      "character-building",
+      "s-rank",
+      "recommendation"
+    ]
+  },
+  {
+    "id": "jiuyuan-worth-building",
+    "name": "Is Jiuyuan worth building in NTE?",
+    "nameEn": "Is Jiuyuan worth building in NTE?",
+    "type": "faq",
+    "url": "/en/faq/jiuyuan-worth-building",
+    "tags": [
+      "jiuyuan",
+      "character-building",
+      "s-rank",
+      "recommendation"
+    ]
+  },
+  {
+    "id": "baicang-worth-building",
+    "name": "异环白藏值得培养吗？",
+    "nameEn": "Is Baicang worth building in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/baicang-worth-building",
+    "tags": [
+      "baicang",
+      "character-building",
+      "s-rank",
+      "burn-team",
+      "recommendation"
+    ]
+  },
+  {
+    "id": "baicang-worth-building",
+    "name": "Is Baicang worth building in NTE?",
+    "nameEn": "Is Baicang worth building in NTE?",
+    "type": "faq",
+    "url": "/en/faq/baicang-worth-building",
+    "tags": [
+      "baicang",
+      "character-building",
+      "s-rank",
+      "burn-team",
+      "recommendation"
+    ]
+  },
+  {
+    "id": "daily-routine",
+    "name": "异环每天做什么？日常任务优先级",
+    "nameEn": "What to do daily in NTE? Daily task priority guide",
+    "type": "faq",
+    "url": "/zh/faq/daily-routine",
+    "tags": [
+      "daily",
+      "routine",
+      "priority",
+      "stamina",
+      "commissions"
+    ]
+  },
+  {
+    "id": "daily-routine",
+    "name": "What to do daily in NTE? Daily task priority guide",
+    "nameEn": "What to do daily in NTE? Daily task priority guide",
+    "type": "faq",
+    "url": "/en/faq/daily-routine",
+    "tags": [
+      "daily",
+      "routine",
+      "priority",
+      "stamina",
+      "commissions"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",
