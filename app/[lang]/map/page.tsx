@@ -10,6 +10,9 @@ import {
   toggleMarker,
   saveProgress,
   clearProgress,
+  loadFilters,
+  saveFilters,
+  progressPercent,
 } from "../../../lib/map-progress";
 import mapData from "../../../data/map-markers.json";
 
@@ -69,10 +72,13 @@ export default function MapPage() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [mapDropdownOpen, setMapDropdownOpen] = useState(false);
+  const [hideCollected, setHideCollected] = useState(false);
 
-  // Load progress on mount
+  // Load progress and filters on mount
   useEffect(() => {
     setProgress(loadProgress());
+    const saved = loadFilters();
+    if (saved) setActiveFilters(new Set(saved));
   }, []);
 
   const map = data.maps[activeMap];
@@ -80,8 +86,10 @@ export default function MapPage() {
 
   const filteredMarkers = useMemo(() => {
     if (!map) return [];
-    return map.markers.filter((m) => activeFilters.has(m.type));
-  }, [map, activeFilters]);
+    return map.markers.filter(
+      (m) => activeFilters.has(m.type) && (!hideCollected || !progress[m.id])
+    );
+  }, [map, activeFilters, hideCollected, progress]);
 
   const nearbyMarkers = useMemo(() => {
     if (!selectedMarker || !map) return [];
@@ -93,6 +101,7 @@ export default function MapPage() {
       const next = new Set(prev);
       if (next.has(type)) next.delete(type);
       else next.add(type);
+      saveFilters(next);
       return next;
     });
     setSelectedMarker(null);
@@ -187,6 +196,17 @@ export default function MapPage() {
           >
             {isFullscreen ? "✕" : "⛶"}
           </button>
+          {/* Hide collected */}
+          <button
+            onClick={() => setHideCollected(!hideCollected)}
+            className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
+              hideCollected
+                ? "bg-primary-500/20 text-primary-400 border-primary-500/30"
+                : "bg-gray-800 text-gray-400 border-gray-700 hover:text-gray-300"
+            }`}
+          >
+            {isZhLocale(lang) ? "隐藏已收集" : "Hide Collected"}
+          </button>
           {/* Clear progress */}
           <button
             onClick={handleClearProgress}
@@ -217,6 +237,11 @@ export default function MapPage() {
                   }`}
                 >
                   {isZhLocale(lang) ? m.name : m.nameEn}
+                  {m.markers.length > 0 && (
+                    <span className="text-xs text-gray-500 ml-1">
+                      {progressPercent(progress, m.markers.map((mk) => mk.id))}%
+                    </span>
+                  )}
                 </button>
               ))}
             </div>
@@ -251,9 +276,15 @@ export default function MapPage() {
                       <span className="font-medium">
                         {isZhLocale(lang) ? m.name : m.nameEn}
                       </span>
-                      <span className="text-xs text-gray-600 ml-2">
-                        ({m.markers.length})
-                      </span>
+                      {m.markers.length > 0 ? (
+                        <span className="text-xs text-gray-500 ml-2">
+                          {progressPercent(progress, m.markers.map((mk) => mk.id))}%
+                        </span>
+                      ) : (
+                        <span className="text-xs text-gray-600 ml-2">
+                          (0)
+                        </span>
+                      )}
                     </button>
                   ))}
                 </div>

@@ -66,3 +66,28 @@ export function clearProgress(): ProgressMap {
   }
   return {};
 }
+
+// ─── Filter Persistence ────────────────────────────────────────
+
+const FILTER_KEY = "nte-map-filters";
+
+/** Load saved filter set from localStorage */
+export function loadFilters(): string[] | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = localStorage.getItem(FILTER_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Save filter set to localStorage */
+export function saveFilters(filters: Set<string>): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(FILTER_KEY, JSON.stringify([...filters]));
+  } catch {
+    // ignore
+  }
+}
