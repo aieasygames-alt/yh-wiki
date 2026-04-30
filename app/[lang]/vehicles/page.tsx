@@ -18,8 +18,8 @@ export async function generateMetadata({
         : "All Vehicles & Stats | Neverness to Everness Wiki",
     description:
       isZhLocale(lang)
-        ? "异环全载具图鉴，包含摩托车、越野车、轿车、跑车、SUV等所有载具的详细属性、价格和获取方式。"
-        : "Complete vehicle database for Neverness to Everness. All motorcycles, off-road vehicles, sedans, sports cars, and SUVs with detailed stats, prices, and acquisition methods.",
+        ? "异环全载具图鉴，包含轿车、摩托车、小型摩托、卡丁车等所有载具的详细属性、价格和获取方式。"
+        : "Complete vehicle database for Neverness to Everness. All cars, motorcycles, scooters, and karts with detailed stats, prices, and acquisition methods.",
     alternates: hreflangAlternates("vehicles", lang),
   };
 }
@@ -40,6 +40,10 @@ export default async function VehiclesPage({
     acc[type].push(v);
     return acc;
   }, {} as Record<string, typeof vehicles>);
+
+  const fastest = vehicles.reduce((a, b) => a.topSpeed > b.topSpeed ? a : b);
+  const mostExpensive = vehicles.filter(v => v.price !== null).reduce((a, b) => (a.price ?? 0) > (b.price ?? 0) ? a : b);
+  const freeVehicles = vehicles.filter(v => v.price === null).length;
 
   return (
     <>
@@ -77,7 +81,10 @@ export default async function VehiclesPage({
                   nameEn={vehicle.nameEn}
                   type={vehicle.type}
                   typeEn={vehicle.typeEn}
-                  rarity={vehicle.rarity}
+                  topSpeed={vehicle.topSpeed}
+                  price={vehicle.price ?? null}
+                  brand={vehicle.brand}
+                  brandEn={vehicle.brandEn}
                   locale={locale}
                 />
               ))}
@@ -97,21 +104,21 @@ export default async function VehiclesPage({
             </div>
             <div>
               <p className="text-2xl font-bold text-yellow-400">
-                {vehicles.filter((v) => v.rarity >= 5).length}
+                {fastest.topSpeed} km/h
               </p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? "5星载具" : "5-Star"}</p>
+              <p className="text-sm text-gray-400">{isZhLocale(locale) ? `最快: ${fastest.nameEn}` : `Fastest: ${fastest.nameEn}`}</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-green-400">
-                {vehicles.filter((v) => v.speed === "S").length}
+                {mostExpensive.price !== null ? `${(mostExpensive.price / 1000000).toFixed(0)}M` : "—"}
               </p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? "S级速度" : "S-Rank Speed"}</p>
+              <p className="text-sm text-gray-400">{isZhLocale(locale) ? `最贵: ${mostExpensive.nameEn}` : `Most Expensive: ${mostExpensive.nameEn}`}</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-red-400">
-                {vehicles.filter((v) => v.price !== "-").length}
+                {freeVehicles}
               </p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? "商店可购买" : "Shop Available"}</p>
+              <p className="text-sm text-gray-400">{isZhLocale(locale) ? "免费载具" : "Free Vehicles"}</p>
             </div>
           </div>
         </div>

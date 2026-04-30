@@ -1,426 +1,382 @@
 [
   {
-    "id": "drift-photon",
-    "name": "漂移光子",
-    "nameEn": "Drift Photon",
+    "id": "b100",
+    "name": "B100",
+    "nameEn": "B100",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "诺维斯",
+    "brandEn": "Novus",
+    "description": "诺维斯出品的入门级轿车，性能均衡，是新手玩家的理想选择。",
+    "descriptionEn": "An entry-level car from Novus with balanced performance. The ideal choice for new players starting their journey in Hethereau.",
+    "topSpeed": 132,
+    "stats": { "acceleration": 4, "shift": 5, "brake": 4, "drift": 4 },
+    "source": "初始免费",
+    "sourceEn": "Free (Starter Vehicle)",
+    "price": null,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get B100 in Neverness to Everness?",
+        "questionZh": "如何获得B100？",
+        "answer": "The B100 is a starter vehicle that players receive for free when they first unlock the vehicle system in Neverness to Everness.",
+        "answerZh": "B100是玩家首次解锁载具系统时免费获得的初始车辆。"
+      }
+    ],
+    "image": "/images/vehicles/b100.webp"
+  },
+  {
+    "id": "c2000",
+    "name": "C2000",
+    "nameEn": "C2000",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "诺维斯",
+    "brandEn": "Novus",
+    "description": "诺维斯的经济型轿车，价格亲民，适合日常城市通勤。",
+    "descriptionEn": "An affordable car from Novus, perfect for daily city commuting around Hethereau at a budget-friendly price.",
+    "topSpeed": 130,
+    "stats": { "acceleration": 3, "shift": 4, "brake": 3, "drift": null },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 50000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get C2000 in Neverness to Everness?",
+        "questionZh": "如何获得C2000？",
+        "answer": "The C2000 can be purchased from the Vehicle Shop for 50,000 Fons.",
+        "answerZh": "C2000可以在载具商店花费50,000 Fons购买。"
+      },
+      {
+        "question": "Is C2000 worth buying in NTE?",
+        "questionZh": "C2000值得买吗？",
+        "answer": "The C2000 is the cheapest purchasable car in the game. It's a good early-game option if you want a second car, but you may want to save for better vehicles.",
+        "answerZh": "C2000是游戏中最便宜的轿车，如果你想拥有第二辆车它是不错的早期选择，但也可以考虑攒钱购买更好的载具。"
+      }
+    ],
+    "image": "/images/vehicles/c2000.webp"
+  },
+  {
+    "id": "g3",
+    "name": "G3",
+    "nameEn": "G3",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "泰拉X",
+    "brandEn": "TerraX",
+    "description": "泰拉X制造的中型轿车，刹车性能优异，操控稳定可靠。",
+    "descriptionEn": "A mid-size sedan from TerraX featuring excellent braking performance and stable, reliable handling on Hethereau's roads.",
+    "topSpeed": 138,
+    "stats": { "acceleration": 4, "shift": 3, "brake": 5, "drift": null },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 200000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get G3 in Neverness to Everness?",
+        "questionZh": "如何获得G3？",
+        "answer": "The G3 can be purchased from the Vehicle Shop for 200,000 Fons.",
+        "answerZh": "G3可以在载具商店花费200,000 Fons购买。"
+      }
+    ],
+    "image": "/images/vehicles/g3.webp"
+  },
+  {
+    "id": "m1000",
+    "name": "M1000",
+    "nameEn": "M1000",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "诺维斯",
+    "brandEn": "Novus",
+    "description": "诺维斯的高性能轿车，加速与变速均表现出色，中端玩家的进阶之选。",
+    "descriptionEn": "A high-performance car from Novus with strong acceleration and shifting. An excellent upgrade for mid-game players.",
+    "topSpeed": 146,
+    "stats": { "acceleration": 5, "shift": 5, "brake": 4, "drift": null },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 350000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get M1000 in Neverness to Everness?",
+        "questionZh": "如何获得M1000？",
+        "answer": "The M1000 can be purchased from the Vehicle Shop for 350,000 Fons.",
+        "answerZh": "M1000可以在载具商店花费350,000 Fons购买。"
+      }
+    ],
+    "image": "/images/vehicles/m1000.webp"
+  },
+  {
+    "id": "st79",
+    "name": "ST79",
+    "nameEn": "ST79",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "诺维斯",
+    "brandEn": "Novus",
+    "description": "诺维斯的运动型轿车，极速表现突出，适合追求速度的驾驶者。",
+    "descriptionEn": "A sporty car from Novus with impressive top speed, designed for drivers who crave velocity on Hethereau's highways.",
+    "topSpeed": 155,
+    "stats": { "acceleration": null, "shift": null, "brake": null, "drift": null },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 450000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get ST79 in Neverness to Everness?",
+        "questionZh": "如何获得ST79？",
+        "answer": "The ST79 can be purchased from the Vehicle Shop for 450,000 Fons.",
+        "answerZh": "ST79可以在载具商店花费450,000 Fons购买。"
+      }
+    ],
+    "image": "/images/vehicles/st79.webp"
+  },
+  {
+    "id": "enforcer",
+    "name": "Enforcer",
+    "nameEn": "Enforcer",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "诺维斯",
+    "brandEn": "Novus",
+    "description": "诺维斯的执法级轿车，全面均衡的高性能载具，漂移操控尤为出色。",
+    "descriptionEn": "An enforcement-grade car from Novus with well-rounded high performance and particularly outstanding drift handling.",
+    "topSpeed": 172,
+    "stats": { "acceleration": 6, "shift": 6, "brake": 6, "drift": 8 },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 1720000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get Enforcer in Neverness to Everness?",
+        "questionZh": "如何获得Enforcer？",
+        "answer": "The Enforcer can be purchased from the Vehicle Shop for 1,720,000 Fons.",
+        "answerZh": "Enforcer可以在载具商店花费1,720,000 Fons购买。"
+      },
+      {
+        "question": "Is Enforcer good for drifting in NTE?",
+        "questionZh": "Enforcer漂移性能好吗？",
+        "answer": "Yes, the Enforcer has a drift rating of 8 out of 10, making it one of the best drifting cars available for purchase.",
+        "answerZh": "是的，Enforcer的漂移评级为8/10，是可购买的最佳漂移车辆之一。"
+      }
+    ],
+    "image": "/images/vehicles/enforcer.webp"
+  },
+  {
+    "id": "pursuit-v8",
+    "name": "Pursuit V8",
+    "nameEn": "Pursuit V8",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "瑞加利亞",
+    "brandEn": "Regalia",
+    "description": "瑞加利亞的旗舰级运动轿车，拥有极高的极速表现，是顶级驾驶者的梦想座驾。",
+    "descriptionEn": "A flagship sports car from Regalia with incredible top speed. A dream ride for top-tier drivers in Hethereau.",
+    "topSpeed": 180,
+    "stats": { "acceleration": null, "shift": null, "brake": null, "drift": null },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 4000000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get Pursuit V8 in Neverness to Everness?",
+        "questionZh": "如何获得Pursuit V8？",
+        "answer": "The Pursuit V8 can be purchased from the Vehicle Shop for 4,000,000 Fons.",
+        "answerZh": "Pursuit V8可以在载具商店花费4,000,000 Fons购买。"
+      }
+    ],
+    "image": "/images/vehicles/pursuit-v8.webp"
+  },
+  {
+    "id": "levelox",
+    "name": "LaVelox",
+    "nameEn": "LaVelox",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "瑞加利亞",
+    "brandEn": "Regalia",
+    "description": "瑞加利亞的超高端轿车，极速接近200km/h，加速与变速表现近乎完美。",
+    "descriptionEn": "An ultra-premium car from Regalia approaching 200 km/h top speed with near-perfect acceleration and shifting performance.",
+    "topSpeed": 191,
+    "stats": { "acceleration": 8, "shift": 9, "brake": null, "drift": null },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 10800000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get LaVelox in Neverness to Everness?",
+        "questionZh": "如何获得LaVelox？",
+        "answer": "The LaVelox can be purchased from the Vehicle Shop for 10,800,000 Fons.",
+        "answerZh": "LaVelox可以在载具商店花费10,800,000 Fons购买。"
+      },
+      {
+        "question": "Is LaVelox the fastest car in NTE?",
+        "questionZh": "LaVelox是最快的车吗？",
+        "answer": "LaVelox is the second-fastest car in the game at 191 km/h, behind only the Pendragon at 202 km/h.",
+        "answerZh": "LaVelox是游戏中第二快的车辆，极速191 km/h，仅次于Pendragon的202 km/h。"
+      }
+    ],
+    "image": "/images/vehicles/levelox.webp"
+  },
+  {
+    "id": "pendragon",
+    "name": "Pendragon",
+    "nameEn": "Pendragon",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "瑞加利亞",
+    "brandEn": "Regalia",
+    "description": "瑞加利亞的究极旗舰轿车，全游戏极速最高的地面载具，全方位性能登峰造极。",
+    "descriptionEn": "The ultimate flagship car from Regalia. The fastest ground vehicle in the game with peak performance across all categories.",
+    "topSpeed": 202,
+    "stats": { "acceleration": 9, "shift": 8, "brake": 7, "drift": 8 },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": 12000000,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get Pendragon in Neverness to Everness?",
+        "questionZh": "如何获得Pendragon？",
+        "answer": "The Pendragon can be purchased from the Vehicle Shop for 12,000,000 Fons, making it the most expensive vehicle in the game.",
+        "answerZh": "Pendragon可以在载具商店花费12,000,000 Fons购买，是游戏中最昂贵的载具。"
+      },
+      {
+        "question": "Is Pendragon the best vehicle in NTE?",
+        "questionZh": "Pendragon是最好的载具吗？",
+        "answer": "The Pendragon has the highest top speed (202 km/h) and top-tier stats across the board, making it the best car available for purchase in the current version.",
+        "answerZh": "Pendragon拥有最高极速（202 km/h）和全面的顶级属性，是当前版本可购买的最佳轿车。"
+      }
+    ],
+    "image": "/images/vehicles/pendragon.webp"
+  },
+  {
+    "id": "novis-st-x-950",
+    "name": "Novis ST-X 950",
+    "nameEn": "Novis ST-X 950",
     "type": "摩托车",
     "typeEn": "Motorcycle",
-    "rarity": 4,
-    "description": "高速轻型摩托车，适合城市穿梭。流线型设计减少风阻，加速性能出色。",
-    "descriptionEn": "High-speed lightweight motorcycle, perfect for urban navigation. Streamlined design reduces wind resistance with excellent acceleration.",
-    "speed": "S",
-    "acceleration": "A",
-    "handling": "S",
-    "source": "载具商店",
+    "brand": "瑞加利亞",
+    "brandEn": "Regalia",
+    "description": "瑞加利亞的运动型摩托车，变速与漂移性能卓越，操控灵活精准。",
+    "descriptionEn": "A sport motorcycle from Regalia with outstanding shifting and drift performance. Agile and precise handling for skilled riders.",
+    "topSpeed": 140,
+    "stats": { "acceleration": 6, "shift": 8, "brake": 6, "drift": 8 },
+    "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
-    "price": "36000",
+    "price": 250000,
+    "currency": "fons",
     "faq": [
       {
-        "question": "How to get Drift Photon in Neverness to Everness?",
-        "questionZh": "如何获得漂移光子？",
-        "answer": "Drift Photon can be purchased from the Vehicle Shop in Neverness to Everness for 36000 currency.",
-        "answerZh": "漂移光子可以在异环的载具商店购买，价格为36000货币。"
+        "question": "How to get Novis ST-X 950 in Neverness to Everness?",
+        "questionZh": "如何获得Novis ST-X 950？",
+        "answer": "The Novis ST-X 950 can be purchased from the Vehicle Shop for 250,000 Fons.",
+        "answerZh": "Novis ST-X 950可以在载具商店花费250,000 Fons购买。"
       },
       {
-        "question": "Is Drift Photon good in Neverness to Everness?",
-        "questionZh": "漂移光子好用吗？",
-        "answer": "Drift Photon is a top-tier motorcycle in Neverness to Everness with S-rank speed and handling, making it ideal for quick travel and exploration.",
-        "answerZh": "漂移光子是异环中的顶级摩托车，拥有S级速度和操控性，非常适合快速移动和探索。"
+        "question": "Is Novis ST-X 950 good for drifting?",
+        "questionZh": "Novis ST-X 950漂移性能好吗？",
+        "answer": "Yes, with a drift rating of 8/10 and shift rating of 8/10, it's one of the best vehicles for drifting in its price range.",
+        "answerZh": "是的，漂移评级8/10、变速评级8/10，在同价位中是最佳漂移载具之一。"
       }
     ],
-    "image": "/images/vehicles/drift-photon.webp"
+    "image": "/images/vehicles/novis-st-x-950.webp"
   },
   {
-    "id": "rattler",
-    "name": "响尾蛇",
-    "nameEn": "Rattler",
-    "type": "越野车",
-    "typeEn": "Off-road Vehicle",
-    "rarity": 4,
-    "description": "全地形越野车，擅长崎岖路面。强劲悬挂系统保证舒适性和稳定性。",
-    "descriptionEn": "All-terrain off-road vehicle, excels on rugged surfaces. Powerful suspension system ensures comfort and stability.",
-    "speed": "A",
-    "acceleration": "S",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "42000",
-    "faq": [
-      {
-        "question": "How to get Rattler in Neverness to Everness?",
-        "questionZh": "如何获得响尾蛇？",
-        "answer": "Rattler can be purchased from the Vehicle Shop in Neverness to Everness for 42000 currency.",
-        "answerZh": "响尾蛇可以在异环的载具商店购买，价格为42000货币。"
-      },
-      {
-        "question": "Is Rattler the best off-road vehicle?",
-        "questionZh": "响尾蛇是最好的越野车吗？",
-        "answer": "Rattler is one of the best off-road vehicles in Neverness to Everness with excellent acceleration and handling on rough terrain.",
-        "answerZh": "响尾蛇是异环中最好的越野车之一，在崎岖地形上具有出色的加速和操控性能。"
-      }
-    ],
-    "image": "/images/vehicles/rattler.webp"
-  },
-  {
-    "id": "halove",
-    "name": "哈洛夫",
-    "nameEn": "Halove",
-    "type": "轿车",
-    "typeEn": "Sedan",
-    "rarity": 3,
-    "description": "经典轿车，平衡的性能表现。适合日常使用和长途旅行。",
-    "descriptionEn": "Classic sedan with balanced performance. Suitable for daily use and long-distance travel.",
-    "speed": "B",
-    "acceleration": "B",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "25000",
-    "faq": [
-      {
-        "question": "How to get Halove in Neverness to Everness?",
-        "questionZh": "如何获得哈洛夫？",
-        "answer": "Halove can be purchased from the Vehicle Shop in Neverness to Everness for 25000 currency.",
-        "answerZh": "哈洛夫可以在异环的载具商店购买，价格为25000货币。"
-      }
-    ],
-    "image": "/images/vehicles/halove.webp"
-  },
-  {
-    "id": "thunder-bolt",
-    "name": "雷霆闪电",
-    "nameEn": "Thunder Bolt",
-    "type": "跑车",
-    "typeEn": "Sports Car",
-    "rarity": 5,
-    "description": "顶级跑车，极致速度与激情。专为追求极速的玩家设计。",
-    "descriptionEn": "Top-tier sports car with ultimate speed and excitement. Designed for players seeking maximum velocity.",
-    "speed": "S",
-    "acceleration": "S",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "85000",
-    "faq": [
-      {
-        "question": "How to get Thunder Bolt in Neverness to Everness?",
-        "questionZh": "如何获得雷霆闪电？",
-        "answer": "Thunder Bolt can be purchased from the Vehicle Shop in Neverness to Everness for 85000 currency. It's one of the most expensive vehicles.",
-        "answerZh": "雷霆闪电可以在异环的载具商店购买，价格为85000货币。它是最昂贵的载具之一。"
-      },
-      {
-        "question": "Is Thunder Bolt worth it?",
-        "questionZh": "雷霆闪电值得买吗？",
-        "answer": "Thunder Bolt is worth it if you prioritize speed in Neverness to Everness. With S-rank speed and acceleration, it's the fastest vehicle in the game.",
-        "answerZh": "如果你追求速度，雷霆闪电是值得的。拥有S级速度和加速，它是游戏中最快的载具。"
-      }
-    ],
-    "image": "/images/vehicles/thunder-bolt.webp"
-  },
-  {
-    "id": "shadow-wraith",
-    "name": "暗影幽灵",
-    "nameEn": "Shadow Wraith",
+    "id": "blizzard-v4",
+    "name": "Blizzard-V4",
+    "nameEn": "Blizzard-V4",
     "type": "摩托车",
     "typeEn": "Motorcycle",
-    "rarity": 5,
-    "description": "神秘摩托车，传说中由暗影能量驱动。拥有独特的隐形涂层。",
-    "descriptionEn": "Mysterious motorcycle rumored to be powered by shadow energy. Features unique stealth coating.",
-    "speed": "S",
-    "acceleration": "S",
-    "handling": "S",
-    "source": "限时活动",
-    "sourceEn": "Limited Event",
-    "price": "-",
-    "faq": [
-      {
-        "question": "How to get Shadow Wraith in Neverness to Everness?",
-        "questionZh": "如何获得暗影幽灵？",
-        "answer": "Shadow Wraith is a limited event vehicle in Neverness to Everness. Keep an eye on special events for its return.",
-        "answerZh": "暗影幽灵是异环中的限时活动载具。请关注特殊活动以获取其返场信息。"
-      }
-    ],
-    "image": "/images/vehicles/shadow-wraith.webp"
-  },
-  {
-    "id": "iron-titan",
-    "name": "钢铁泰坦",
-    "nameEn": "Iron Titan",
-    "type": "SUV",
-    "typeEn": "SUV",
-    "rarity": 4,
-    "description": "重型SUV，坚固耐用。适合危险区域探索，防护性能出色。",
-    "descriptionEn": "Heavy-duty SUV, sturdy and durable. Perfect for dangerous area exploration with excellent protection.",
-    "speed": "B",
-    "acceleration": "B",
-    "handling": "B",
-    "source": "载具商店",
+    "brand": "瑞加利亞",
+    "brandEn": "Regalia",
+    "description": "瑞加利亞的顶级摩托车，极速媲美超级跑车，全面性能在摩托车中无可匹敌。",
+    "descriptionEn": "A top-tier motorcycle from Regalia with supercar-level top speed. Unmatched all-around performance among motorcycles.",
+    "topSpeed": 180,
+    "stats": { "acceleration": 7, "shift": 10, "brake": 7, "drift": 9 },
+    "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
-    "price": "55000",
+    "price": 2450000,
+    "currency": "fons",
     "faq": [
       {
-        "question": "How to get Iron Titan in Neverness to Everness?",
-        "questionZh": "如何获得钢铁泰坦？",
-        "answer": "Iron Titan can be purchased from the Vehicle Shop in Neverness to Everness for 55000 currency.",
-        "answerZh": "钢铁泰坦可以在异环的载具商店购买，价格为55000货币。"
-      }
-    ],
-    "image": "/images/vehicles/iron-titan.webp"
-  },
-  {
-    "id": "neon-cruiser",
-    "name": "霓虹巡洋舰",
-    "nameEn": "Neon Cruiser",
-    "type": "轿车",
-    "typeEn": "Sedan",
-    "rarity": 3,
-    "description": "复古风格轿车，配备霓虹灯光系统。夜间行驶格外引人注目。",
-    "descriptionEn": "Retro-style sedan with neon lighting system. Particularly eye-catching when driving at night.",
-    "speed": "B",
-    "acceleration": "B",
-    "handling": "B",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "28000",
-    "faq": [
-      {
-        "question": "How to get Neon Cruiser in Neverness to Everness?",
-        "questionZh": "如何获得霓虹巡洋舰？",
-        "answer": "Neon Cruiser can be purchased from the Vehicle Shop in Neverness to Everness for 28000 currency.",
-        "answerZh": "霓虹巡洋舰可以在异环的载具商店购买，价格为28000货币。"
-      }
-    ],
-    "image": "/images/vehicles/neon-cruiser.webp"
-  },
-  {
-    "id": "storm-chaser",
-    "name": "风暴追逐者",
-    "nameEn": "Storm Chaser",
-    "type": "越野车",
-    "typeEn": "Off-road Vehicle",
-    "rarity": 5,
-    "description": "极端天气专用越野车。配备全地形轮胎和强化底盘。",
-    "descriptionEn": "Extreme weather off-road vehicle. Equipped with all-terrain tires and reinforced chassis.",
-    "speed": "A",
-    "acceleration": "A",
-    "handling": "S",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "65000",
-    "faq": [
-      {
-        "question": "How to get Storm Chaser in Neverness to Everness?",
-        "questionZh": "如何获得风暴追逐者？",
-        "answer": "Storm Chaser can be purchased from the Vehicle Shop in Neverness to Everness for 65000 currency.",
-        "answerZh": "风暴追逐者可以在异环的载具商店购买，价格为65000货币。"
-      }
-    ],
-    "image": "/images/vehicles/storm-chaser.webp"
-  },
-  {
-    "id": "crimson-widow",
-    "name": "绯红寡妇",
-    "nameEn": "Crimson Widow",
-    "type": "跑车",
-    "typeEn": "Sports Car",
-    "rarity": 4,
-    "description": "红色流线型跑车，兼具美观与性能。深受玩家喜爱。",
-    "descriptionEn": "Red streamlined sports car combining beauty and performance. A favorite among players.",
-    "speed": "S",
-    "acceleration": "A",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "58000",
-    "faq": [
-      {
-        "question": "How to get Crimson Widow in Neverness to Everness?",
-        "questionZh": "如何获得绯红寡妇？",
-        "answer": "Crimson Widow can be purchased from the Vehicle Shop in Neverness to Everness for 58000 currency.",
-        "answerZh": "绯红寡妇可以在异环的载具商店购买，价格为58000货币。"
-      }
-    ],
-    "image": "/images/vehicles/crimson-widow.webp"
-  },
-  {
-    "id": "echo-rider",
-    "name": "回声骑士",
-    "nameEn": "Echo Rider",
-    "type": "摩托车",
-    "typeEn": "Motorcycle",
-    "rarity": 3,
-    "description": "入门级摩托车，性价比高。适合新手玩家使用。",
-    "descriptionEn": "Entry-level motorcycle with great value for money. Suitable for beginner players.",
-    "speed": "B",
-    "acceleration": "B",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "18000",
-    "faq": [
-      {
-        "question": "How to get Echo Rider in Neverness to Everness?",
-        "questionZh": "如何获得回声骑士？",
-        "answer": "Echo Rider can be purchased from the Vehicle Shop in Neverness to Everness for 18000 currency.",
-        "answerZh": "回声骑士可以在异环的载具商店购买，价格为18000货币。"
-      }
-    ],
-    "image": "/images/vehicles/echo-rider.webp"
-  },
-  {
-    "id": "azure-dream",
-    "name": "蔚蓝之梦",
-    "nameEn": "Azure Dream",
-    "type": "跑车",
-    "typeEn": "Sports Car",
-    "rarity": 4,
-    "description": "蓝色敞篷跑车，享受自由驰骋的快感。限量版配色。",
-    "descriptionEn": "Blue convertible sports car for the thrill of open-top driving. Limited edition color scheme.",
-    "speed": "A",
-    "acceleration": "A",
-    "handling": "S",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "62000",
-    "faq": [
-      {
-        "question": "How to get Azure Dream in Neverness to Everness?",
-        "questionZh": "如何获得蔚蓝之梦？",
-        "answer": "Azure Dream can be purchased from the Vehicle Shop in Neverness to Everness for 62000 currency.",
-        "answerZh": "蔚蓝之梦可以在异环的载具商店购买，价格为62000货币。"
-      }
-    ],
-    "image": "/images/vehicles/azure-dream.webp"
-  },
-  {
-    "id": "desert-hawk",
-    "name": "沙漠之鹰",
-    "nameEn": "Desert Hawk",
-    "type": "越野车",
-    "typeEn": "Off-road Vehicle",
-    "rarity": 4,
-    "description": "沙漠地形专用越野车。配备沙地轮胎和冷却系统。",
-    "descriptionEn": "Desert terrain specialized off-road vehicle. Equipped with sand tires and cooling system.",
-    "speed": "A",
-    "acceleration": "S",
-    "handling": "B",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "48000",
-    "faq": [
-      {
-        "question": "How to get Desert Hawk in Neverness to Everness?",
-        "questionZh": "如何获得沙漠之鹰？",
-        "answer": "Desert Hawk can be purchased from the Vehicle Shop in Neverness to Everness for 48000 currency.",
-        "answerZh": "沙漠之鹰可以在异环的载具商店购买，价格为48000货币。"
-      }
-    ],
-    "image": "/images/vehicles/desert-hawk.webp"
-  },
-  {
-    "id": "night-fury",
-    "name": "夜之愤怒",
-    "nameEn": "Night Fury",
-    "type": "跑车",
-    "typeEn": "Sports Car",
-    "rarity": 5,
-    "description": "黑色隐身涂层跑车，夜间行驶难以察觉。暗夜中的王者。",
-    "descriptionEn": "Black stealth coating sports car, hard to detect at night. The king of the dark night.",
-    "speed": "S",
-    "acceleration": "S",
-    "handling": "S",
-    "source": "限时活动",
-    "sourceEn": "Limited Event",
-    "price": "-",
-    "faq": [
-      {
-        "question": "How to get Night Fury in Neverness to Everness?",
-        "questionZh": "如何获得夜之愤怒？",
-        "answer": "Night Fury is a limited event vehicle in Neverness to Everness. Watch for special events.",
-        "answerZh": "夜之愤怒是异环中的限时活动载具。请关注特殊活动。"
-      }
-    ],
-    "image": "/images/vehicles/night-fury.webp"
-  },
-  {
-    "id": "urban-glider",
-    "name": "城市滑翔者",
-    "nameEn": "Urban Glider",
-    "type": "轿车",
-    "typeEn": "Sedan",
-    "rarity": 3,
-    "description": "城市通勤专用轿车，省油环保。适合日常使用。",
-    "descriptionEn": "City-commute specialized sedan, fuel-efficient and eco-friendly. Perfect for daily use.",
-    "speed": "B",
-    "acceleration": "B",
-    "handling": "B",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "22000",
-    "faq": [
-      {
-        "question": "How to get Urban Glider in Neverness to Everness?",
-        "questionZh": "如何获得城市滑翔者？",
-        "answer": "Urban Glider can be purchased from the Vehicle Shop in Neverness to Everness for 22000 currency.",
-        "answerZh": "城市滑翔者可以在异环的载具商店购买，价格为22000货币。"
-      }
-    ],
-    "image": "/images/vehicles/urban-glider.webp"
-  },
-  {
-    "id": "frost-bite",
-    "name": "冰霜之咬",
-    "nameEn": "Frost Bite",
-    "type": "SUV",
-    "typeEn": "SUV",
-    "rarity": 4,
-    "description": "寒冷地区专用SUV，配备加热系统和雪地轮胎。",
-    "descriptionEn": "Cold region specialized SUV with heating system and snow tires.",
-    "speed": "B",
-    "acceleration": "B",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "52000",
-    "faq": [
-      {
-        "question": "How to get Frost Bite in Neverness to Everness?",
-        "questionZh": "如何获得冰霜之咬？",
-        "answer": "Frost Bite can be purchased from the Vehicle Shop in Neverness to Everness for 52000 currency.",
-        "answerZh": "冰霜之咬可以在异环的载具商店购买，价格为52000货币。"
-      }
-    ],
-    "image": "/images/vehicles/frost-bite.webp"
-  },
-  {
-    "id": "solar-flare",
-    "name": "太阳耀斑",
-    "nameEn": "Solar Flare",
-    "type": "跑车",
-    "typeEn": "Sports Car",
-    "rarity": 5,
-    "description": "金色超跑，象征荣耀与财富。游戏中最贵的载具之一。",
-    "descriptionEn": "Golden supercar symbolizing glory and wealth. One of the most expensive vehicles in the game.",
-    "speed": "S",
-    "acceleration": "S",
-    "handling": "A",
-    "source": "载具商店",
-    "sourceEn": "Vehicle Shop",
-    "price": "120000",
-    "faq": [
-      {
-        "question": "How to get Solar Flare in Neverness to Everness?",
-        "questionZh": "如何获得太阳耀斑？",
-        "answer": "Solar Flare can be purchased from the Vehicle Shop in Neverness to Everness for 120000 currency. It's the most expensive regular vehicle.",
-        "answerZh": "太阳耀斑可以在异环的载具商店购买，价格为120000货币。它是最贵的常规载具。"
+        "question": "How to get Blizzard-V4 in Neverness to Everness?",
+        "questionZh": "如何获得Blizzard-V4？",
+        "answer": "The Blizzard-V4 can be purchased from the Vehicle Shop for 2,450,000 Fons.",
+        "answerZh": "Blizzard-V4可以在载具商店花费2,450,000 Fons购买。"
       },
       {
-        "question": "Is Solar Flare worth the price?",
-        "questionZh": "太阳耀斑值得这个价格吗？",
-        "answer": "Solar Flare is worth it for collectors and speed enthusiasts in Neverness to Everness. Its golden appearance and top-tier performance make it stand out.",
-        "answerZh": "对于收藏家和速度爱好者来说，太阳耀斑是值得的。其金色外观和顶级性能让它脱颖而出。"
+        "question": "Is Blizzard-V4 the best motorcycle in NTE?",
+        "questionZh": "Blizzard-V4是最好的摩托车吗？",
+        "answer": "Yes, the Blizzard-V4 is the best motorcycle in the game with 180 km/h top speed, a perfect 10/10 shift rating, and 9/10 drift rating.",
+        "answerZh": "是的，Blizzard-V4是游戏中最好的摩托车，极速180 km/h，变速满分10/10，漂移9/10。"
       }
     ],
-    "image": "/images/vehicles/solar-flare.webp"
+    "image": "/images/vehicles/blizzard-v4.webp"
+  },
+  {
+    "id": "rover-a1",
+    "name": "Rover A1",
+    "nameEn": "Rover A1",
+    "type": "小型摩托",
+    "typeEn": "Scooter",
+    "brand": "",
+    "brandEn": "",
+    "description": "便捷的城市代步踏板车，可以在任意位置召唤，是探索赫瑟劳最灵活的交通方式。",
+    "descriptionEn": "A convenient city scooter that can be summoned anywhere. The most flexible way to explore Hethereau without needing a roadside.",
+    "topSpeed": 40,
+    "stats": { "acceleration": 2, "shift": 0, "brake": 5, "drift": 6 },
+    "source": "载具商店购买",
+    "sourceEn": "Vehicle Shop",
+    "price": null,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get Rover A1 in Neverness to Everness?",
+        "questionZh": "如何获得Rover A1？",
+        "answer": "The Rover A1 can be purchased from the Vehicle Shop. Unlike cars and motorcycles, scooters can be summoned anywhere, not just on roadsides.",
+        "answerZh": "Rover A1可以在载具商店购买。与轿车和摩托车不同，踏板车可以在任意位置召唤，无需在路边。"
+      },
+      {
+        "question": "Can scooters be summoned anywhere in NTE?",
+        "questionZh": "踏板车可以在任何地方召唤吗？",
+        "answer": "Yes, scooters like the Rover A1 can be summoned anywhere in the open world, unlike cars and motorcycles which require you to be near a roadside.",
+        "answerZh": "是的，像Rover A1这样的踏板车可以在开放世界的任何地方召唤，而轿车和摩托车需要在路边才能召唤。"
+      }
+    ],
+    "image": "/images/vehicles/rover-a1.webp"
+  },
+  {
+    "id": "tomorrow-rush",
+    "name": "Tomorrow Rush",
+    "nameEn": "Tomorrow Rush",
+    "type": "卡丁车",
+    "typeEn": "Kart",
+    "brand": "",
+    "brandEn": "",
+    "description": "独特的卡丁车造型载具，充满趣味性，通过特殊活动获取。",
+    "descriptionEn": "A unique kart-style vehicle full of fun. Obtained through special in-game events rather than standard purchase.",
+    "topSpeed": 50,
+    "stats": { "acceleration": 2, "shift": 0, "brake": 5, "drift": 7 },
+    "source": "特殊活动",
+    "sourceEn": "Special Event",
+    "price": null,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get Tomorrow Rush in Neverness to Everness?",
+        "questionZh": "如何获得Tomorrow Rush？",
+        "answer": "The Tomorrow Rush is obtained through special in-game events. It is not available for purchase in the Vehicle Shop.",
+        "answerZh": "Tomorrow Rush通过游戏内特殊活动获取，无法在载具商店购买。"
+      }
+    ],
+    "image": "/images/vehicles/tomorrow-rush.webp"
   }
 ]

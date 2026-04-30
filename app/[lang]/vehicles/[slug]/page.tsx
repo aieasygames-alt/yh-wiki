@@ -29,11 +29,11 @@ export async function generateMetadata({
     title:
       isZhLocale(lang)
         ? `${vehicle.name} 属性 & 获取方式 | 异环游戏 Wiki`
-        : `${vehicle.nameEn} (${vehicle.name}) Stats & How to Get - NTE Guide`,
+        : `${vehicle.nameEn} Stats & How to Get - NTE Guide`,
     description:
       isZhLocale(lang)
-        ? `异环载具「${vehicle.name}」详细属性数据，包含速度、加速度、操控性及获取方式。`
-        : `Complete stats for ${vehicle.nameEn} in Neverness to Everness. Speed, acceleration, handling, and how to get it.`,
+        ? `异环载具「${vehicle.name}」详细属性数据，包含极速、加速、操控及获取方式。`
+        : `Complete stats for ${vehicle.nameEn} in Neverness to Everness. Top speed, acceleration, handling, and how to get it.`,
     alternates: hreflangAlternates(`vehicles/${slug}`, lang),
     openGraph: {
       title:
@@ -42,24 +42,25 @@ export async function generateMetadata({
           : `${vehicle.nameEn} Stats & Acquisition | NTE Guide`,
       description:
         isZhLocale(lang)
-          ? `异环载具「${vehicle.name}」详细属性数据，包含速度、加速度、操控性及获取方式。`
-          : `Complete stats for ${vehicle.nameEn} in Neverness to Everness.`,
+          ? `异环载具「${vehicle.name}」详细属性数据，极速${vehicle.topSpeed}km/h。`
+          : `Complete stats for ${vehicle.nameEn} in Neverness to Everness. Top speed: ${vehicle.topSpeed} km/h.`,
       type: "article",
     },
   };
 }
 
-function StatBar({ label, value, locale }: { label: string; value: string; locale: Locale }) {
-  const rankValue = value === "S" ? 100 : value === "A" ? 75 : value === "B" ? 50 : 25;
-  const colorClass = value === "S" ? "bg-yellow-500" : value === "A" ? "bg-green-500" : value === "B" ? "bg-blue-500" : "bg-gray-500";
+function StatBar({ label, value }: { label: string; value: number | null }) {
+  if (value === null) return null;
+  const pct = (value / 10) * 100;
+  const colorClass = value >= 8 ? "bg-yellow-500" : value >= 5 ? "bg-green-500" : value >= 3 ? "bg-blue-500" : "bg-gray-500";
 
   return (
     <div className="flex items-center gap-3">
-      <span className="text-sm text-gray-400 w-16">{label}</span>
+      <span className="text-sm text-gray-400 w-20 shrink-0">{label}</span>
       <div className="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
-        <div className={`h-full ${colorClass}`} style={{ width: `${rankValue}%` }}></div>
+        <div className={`h-full ${colorClass}`} style={{ width: `${pct}%` }}></div>
       </div>
-      <span className={`text-sm font-bold ${value === "S" ? "text-yellow-400" : value === "A" ? "text-green-400" : "text-gray-400"} w-6`}>
+      <span className={`text-sm font-bold w-6 text-right ${value >= 8 ? "text-yellow-400" : value >= 5 ? "text-green-400" : "text-gray-400"}`}>
         {value}
       </span>
     </div>
@@ -78,12 +79,22 @@ export default async function VehicleDetailPage({
 
   const typeLabel = isZhLocale(locale) ? vehicle.type : vehicle.typeEn;
   const sourceLabel = isZhLocale(locale) ? vehicle.source : vehicle.sourceEn;
+  const brandLabel = isZhLocale(locale) ? vehicle.brand : vehicle.brandEn;
+  const description = isZhLocale(locale) ? vehicle.description : vehicle.descriptionEn;
+
+  const priceLabel = vehicle.price !== null
+    ? (vehicle.price >= 1000000
+      ? `${(vehicle.price / 1000000).toFixed(1)}M Fons`
+      : vehicle.price >= 1000
+        ? `${(vehicle.price / 1000).toFixed(0)}K Fons`
+        : `${vehicle.price} Fons`)
+    : (isZhLocale(locale) ? "免费" : "Free");
 
   return (
     <>
       <ProductJsonLd
         name={isZhLocale(locale) ? vehicle.name : vehicle.nameEn}
-        description={isZhLocale(locale) ? vehicle.description : vehicle.descriptionEn}
+        description={description}
         url={`https://nteguide.com/${lang}/vehicles/${slug}`}
         image={`https://nteguide.com${vehicle.image || ""}`}
       />
@@ -116,20 +127,16 @@ export default async function VehicleDetailPage({
                 <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
                   {typeLabel}
                 </span>
-                {vehicle.rarity >= 5 && (
-                  <span className="text-xs font-bold text-yellow-400">★★★★★</span>
-                )}
-                {vehicle.rarity === 4 && (
-                  <span className="text-xs font-bold text-blue-400">★★★★</span>
-                )}
-                {vehicle.rarity === 3 && (
-                  <span className="text-xs font-bold text-green-400">★★★</span>
+                {brandLabel && (
+                  <span className="text-xs px-3 py-1 rounded-full border bg-blue-900/30 text-blue-400 border-blue-500/30">
+                    {brandLabel}
+                  </span>
                 )}
               </div>
             </div>
           </div>
           <p className="mt-4 text-sm text-gray-400">
-            {isZhLocale(locale) ? vehicle.description : vehicle.descriptionEn}
+            {description}
           </p>
         </div>
 
@@ -139,9 +146,17 @@ export default async function VehicleDetailPage({
             {isZhLocale(locale) ? "性能属性" : "Performance Stats"}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4 space-y-3">
-            <StatBar label={isZhLocale(locale) ? "速度" : "Speed"} value={vehicle.speed} locale={locale} />
-            <StatBar label={isZhLocale(locale) ? "加速" : "Acceleration"} value={vehicle.acceleration} locale={locale} />
-            <StatBar label={isZhLocale(locale) ? "操控" : "Handling"} value={vehicle.handling} locale={locale} />
+            <div className="flex items-center gap-3">
+              <span className="text-sm text-gray-400 w-20 shrink-0">{isZhLocale(locale) ? "极速" : "Top Speed"}</span>
+              <div className="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
+                <div className="h-full bg-red-500" style={{ width: `${Math.min((vehicle.topSpeed / 220) * 100, 100)}%` }}></div>
+              </div>
+              <span className="text-sm font-bold text-red-400 w-20 text-right">{vehicle.topSpeed} km/h</span>
+            </div>
+            <StatBar label={isZhLocale(locale) ? "加速" : "Acceleration"} value={vehicle.stats.acceleration} />
+            <StatBar label={isZhLocale(locale) ? "变速" : "Shift"} value={vehicle.stats.shift} />
+            <StatBar label={isZhLocale(locale) ? "刹车" : "Brake"} value={vehicle.stats.brake} />
+            <StatBar label={isZhLocale(locale) ? "漂移" : "Drift"} value={vehicle.stats.drift} />
           </div>
         </section>
 
@@ -156,12 +171,10 @@ export default async function VehicleDetailPage({
                 <p className="text-sm text-gray-400">{isZhLocale(locale) ? "来源" : "Source"}</p>
                 <p className="font-medium">{sourceLabel}</p>
               </div>
-              {vehicle.price !== "-" && (
-                <div className="text-right">
-                  <p className="text-sm text-gray-400">{isZhLocale(locale) ? "价格" : "Price"}</p>
-                  <p className="font-medium text-primary-400">¤{vehicle.price}</p>
-                </div>
-              )}
+              <div className="text-right">
+                <p className="text-sm text-gray-400">{isZhLocale(locale) ? "价格" : "Price"}</p>
+                <p className="font-medium text-primary-400">{priceLabel}</p>
+              </div>
             </div>
           </div>
         </section>

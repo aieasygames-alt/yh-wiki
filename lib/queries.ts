@@ -442,21 +442,29 @@ export function getCompare(slug: string): CompareArticle | undefined {
 
 // Vehicle types and queries
 
+export interface VehicleStats {
+  acceleration: number | null;
+  shift: number | null;
+  brake: number | null;
+  drift: number | null;
+}
+
 export interface Vehicle {
   id: string;
   name: string;
   nameEn: string;
   type: string;
   typeEn: string;
-  rarity: number;
+  brand: string;
+  brandEn: string;
   description: string;
   descriptionEn: string;
-  speed: string;
-  acceleration: string;
-  handling: string;
+  topSpeed: number;
+  stats: VehicleStats;
   source: string;
   sourceEn: string;
-  price: string;
+  price: number | null;
+  currency: string;
   faq?: {
     question: string;
     questionZh: string;
