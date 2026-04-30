@@ -103,11 +103,10 @@ export default async function BlogDetailPage({
         <p className="text-gray-400 mb-6 text-sm border-l-2 border-primary-500 pl-3">
           {summary}
         </p>
-        <ArticleContent content={content} />
-
-        <div className="mt-6">
+        <div className="mb-6">
           <KardzPromoCard locale={locale} variant="compact" />
         </div>
+        <ArticleContent content={content} />
 
         {/* Tags */}
         {post.tags.length > 0 && (
