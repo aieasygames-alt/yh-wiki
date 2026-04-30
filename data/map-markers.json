@@ -504,6 +504,66 @@
           "verified": true
         }
       ]
+    },
+    {
+      "id": "bridge-crossings",
+      "name": "桥间地",
+      "nameEn": "Bridge Crossings",
+      "image": "/images/maps/bridge-crossings.webp",
+      "description": "历史悠久的老城区，因两座跨海大桥在此交汇而得名。物价低廉，生活节奏悠闲。",
+      "descriptionEn": "A historic old town named after two cross-sea bridges. Low prices and a relaxed pace of life.",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [[100, 0], [0, 100]],
+      "markers": []
+    },
+    {
+      "id": "miguel-district",
+      "name": "米格尔区",
+      "nameEn": "Miguel District",
+      "image": "/images/maps/miguel-district.webp",
+      "description": "美丽的湖畔地区，群山环绕，薄雾缭绕。融合了传统和现代建筑。",
+      "descriptionEn": "A beautiful lakeside area surrounded by mountains and mist. Blends traditional and modern architecture.",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [[100, 0], [0, 100]],
+      "markers": []
+    },
+    {
+      "id": "unheard-shores",
+      "name": "未闻浦",
+      "nameEn": "Unheard Shores",
+      "image": "/images/maps/unheard-shores.webp",
+      "description": "沿海地区，地形复杂。存在大量可收集物品，但具有挑战性的布局。",
+      "descriptionEn": "A coastal area with complex terrain. Rich in collectibles but with challenging layouts.",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [[100, 0], [0, 100]],
+      "markers": []
+    },
+    {
+      "id": "new-herland",
+      "name": "新赫兰德区",
+      "nameEn": "New Herland District",
+      "image": "/images/maps/new-herland.webp",
+      "description": "商业与企业中心。摩天大楼林立，霓虹灯闪烁，属于不夜城。",
+      "descriptionEn": "The commercial and corporate hub. Skyscrapers, neon lights, and the city that never sleeps.",
+      "minZoom": 1,
+      "maxZoom": 4,
+      "bounds": [[100, 0], [0, 100]],
+      "markers": []
+    },
+    {
+      "id": "seaside-resort",
+      "name": "海滨度假区",
+      "nameEn": "Seaside Resort",
+      "image": "/images/maps/seaside-resort.webp",
+      "description": "拥有金色沙滩、豪华游艇码头和清澈海水的休闲区。设有钓鱼比赛等休闲活动。",
+      "descriptionEn": "A leisure area with golden beaches, luxury marinas, and crystal-clear waters. Features fishing competitions.",
+      "minZoom": 1,
+      "maxZoom": 3,
+      "bounds": [[100, 0], [0, 100]],
+      "markers": []
     }
   ],
   "markerTypes": {
@@ -577,6 +637,68 @@
       "color": "#06b6d4",
       "label": "观景点",
       "labelEn": "Viewpoint"
+    },
+    "oracle-stone": {
+      "color": "#a78bfa",
+      "label": "谕石",
+      "labelEn": "Oracle Stone"
+    },
+    "phone-booth": {
+      "color": "#06b6d4",
+      "label": "电话亭",
+      "labelEn": "Phone Booth"
+    },
+    "gift-21": {
+      "color": "#f472b6",
+      "label": "赠礼",
+      "labelEn": "Gift from \"21\""
+    },
+    "mystery-box": {
+      "color": "#7c3aed",
+      "label": "神秘盒子",
+      "labelEn": "Mystery Box"
+    },
+    "anomaly": {
+      "color": "#ef4444",
+      "label": "异象委托",
+      "labelEn": "Anomaly Commission",
+      "subtypes": {
+        "combat": { "label": "战斗委托", "labelEn": "Combat Commission" },
+        "stealth": { "label": "潜行委托", "labelEn": "Stealth Commission" },
+        "escort": { "label": "护送委托", "labelEn": "Escort Commission" }
+      }
+    },
+    "tower": {
+      "color": "#eab308",
+      "label": "韦特海默之塔",
+      "labelEn": "Wertheimer Tower"
+    },
+    "arc-plate": {
+      "color": "#3b82f6",
+      "label": "弧盘",
+      "labelEn": "Arc Plate",
+      "subtypes": {
+        "s-class": { "label": "S级弧盘", "labelEn": "S-Class Arc Plate" },
+        "a-class": { "label": "A级弧盘", "labelEn": "A-Class Arc Plate" }
+      }
+    },
+    "checkin": {
+      "color": "#22c55e",
+      "label": "打卡点",
+      "labelEn": "Check-in Point",
+      "subtypes": {
+        "photo": { "label": "拍照点", "labelEn": "Photo Spot" },
+        "landmark": { "label": "地标", "labelEn": "Landmark" }
+      }
+    },
+    "currency": {
+      "color": "#facc15",
+      "label": "货币收集",
+      "labelEn": "Currency Node",
+      "subtypes": {
+        "fon": { "label": "方斯", "labelEn": "Fon" },
+        "annulith": { "label": "虚无石", "labelEn": "Annulith" }
+      }
     }
   }
 }
