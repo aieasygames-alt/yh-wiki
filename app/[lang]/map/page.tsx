@@ -72,7 +72,6 @@ export default function MapPage() {
   const [progress, setProgress] = useState<Record<string, boolean>>({});
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [mapDropdownOpen, setMapDropdownOpen] = useState(false);
   const [hideCollected, setHideCollected] = useState(false);
   const [routeMarkerIds, setRouteMarkerIds] = useState<string[]>([]);
 
@@ -149,14 +148,6 @@ export default function MapPage() {
     return () => document.removeEventListener("fullscreenchange", handler);
   }, []);
 
-  // Close dropdown on outside click
-  useEffect(() => {
-    if (!mapDropdownOpen) return;
-    const handler = () => setMapDropdownOpen(false);
-    document.addEventListener("click", handler);
-    return () => document.removeEventListener("click", handler);
-  }, [mapDropdownOpen]);
-
   if (!map) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -225,80 +216,32 @@ export default function MapPage() {
         </div>
       </div>
 
-      {/* Map selector — dropdown when 3+ maps, buttons when 2 */}
+      {/* Map selector — flat scrolling buttons */}
       {data.maps.length > 1 && (
         <div className={`mb-4 ${isFullscreen ? "hidden" : ""}`}>
-          {data.maps.length <= 3 ? (
-            /* Button style for few maps */
-            <div className="flex gap-2 overflow-x-auto pb-1">
-              {data.maps.map((m, i) => (
-                <button
-                  key={m.id}
-                  onClick={() => {
-                    setActiveMap(i);
-                    setSelectedMarker(null);
-                  }}
-                  className={`px-4 py-2 text-sm rounded-lg transition-colors whitespace-nowrap ${
-                    activeMap === i
-                      ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
-                      : "bg-gray-800 text-gray-400 border border-gray-700 hover:border-gray-600"
-                  }`}
-                >
-                  {isZhLocale(lang) ? m.name : m.nameEn}
-                  {m.markers.length > 0 && (
-                    <span className="text-xs text-gray-500 ml-1">
-                      {progressPercent(progress, m.markers.map((mk) => mk.id))}%
-                    </span>
-                  )}
-                </button>
-              ))}
-            </div>
-          ) : (
-            /* Dropdown for many maps */
-            <div className="relative inline-block">
+          <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+            {data.maps.map((m, i) => (
               <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setMapDropdownOpen(!mapDropdownOpen);
+                key={m.id}
+                onClick={() => {
+                  setActiveMap(i);
+                  setSelectedMarker(null);
                 }}
-                className="px-4 py-2 text-sm rounded-lg bg-gray-800 text-gray-300 border border-gray-700 hover:border-gray-600 transition-colors flex items-center gap-2"
+                className={`px-4 py-2 text-sm rounded-lg transition-colors whitespace-nowrap flex-shrink-0 ${
+                  activeMap === i
+                    ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
+                    : "bg-gray-800 text-gray-400 border border-gray-700 hover:border-gray-600"
+                }`}
               >
-                {isZhLocale(lang) ? map.name : map.nameEn}
-                <span className="text-gray-500">{mapDropdownOpen ? "▴" : "▾"}</span>
+                {isZhLocale(lang) ? m.name : m.nameEn}
+                {m.markers.length > 0 && (
+                  <span className="text-xs text-gray-500 ml-1">
+                    {progressPercent(progress, m.markers.map((mk) => mk.id))}%
+                  </span>
+                )}
               </button>
-              {mapDropdownOpen && (
-                <div className="absolute top-full mt-1 left-0 z-50 bg-gray-900 border border-gray-700 rounded-lg shadow-xl overflow-hidden min-w-[200px]">
-                  {data.maps.map((m, i) => (
-                    <button
-                      key={m.id}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setActiveMap(i);
-                        setSelectedMarker(null);
-                        setMapDropdownOpen(false);
-                      }}
-                      className={`w-full text-left px-4 py-2.5 text-sm hover:bg-gray-800/50 transition-colors border-b border-gray-800/50 last:border-0 ${
-                        activeMap === i ? "text-primary-400 bg-gray-800/30" : "text-gray-300"
-                      }`}
-                    >
-                      <span className="font-medium">
-                        {isZhLocale(lang) ? m.name : m.nameEn}
-                      </span>
-                      {m.markers.length > 0 ? (
-                        <span className="text-xs text-gray-500 ml-2">
-                          {progressPercent(progress, m.markers.map((mk) => mk.id))}%
-                        </span>
-                      ) : (
-                        <span className="text-xs text-gray-600 ml-2">
-                          (0)
-                        </span>
-                      )}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          )}
+            ))}
+          </div>
         </div>
       )}
 
