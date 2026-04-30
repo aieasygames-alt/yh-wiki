@@ -24,6 +24,7 @@ interface InteractiveMapProps {
   onSelectMarker: (marker: MapMarker | null) => void;
   progress: ProgressMap;
   lang: string;
+  routeMarkerIds?: string[];
 }
 
 const CLUSTER_ICON_CREATE = `
@@ -46,10 +47,12 @@ export default function InteractiveMap({
   onSelectMarker,
   progress,
   lang,
+  routeMarkerIds = [],
 }: InteractiveMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const clusterRef = useRef<L.MarkerClusterGroup | null>(null);
+  const routeLayerRef = useRef<L.Polyline | null>(null);
 
   // Initialize map once
   useEffect(() => {
@@ -125,6 +128,35 @@ export default function InteractiveMap({
       clusterRef.current!.addLayer(leafletMarker);
     });
   }, [markers, selectedMarker, markerTypes, progress, lang, onSelectMarker]);
+
+  // Draw route polyline
+  useEffect(() => {
+    if (!mapRef.current) return;
+
+    // Remove existing route
+    if (routeLayerRef.current) {
+      routeLayerRef.current.remove();
+      routeLayerRef.current = null;
+    }
+
+    if (routeMarkerIds.length < 2) return;
+
+    // Build ordered lat/lng points
+    const points: L.LatLngExpression[] = [];
+    for (const id of routeMarkerIds) {
+      const m = markers.find((mk) => mk.id === id);
+      if (m) points.push(markerToLatLng(m));
+    }
+
+    if (points.length < 2) return;
+
+    routeLayerRef.current = L.polyline(points, {
+      color: "#818cf8",
+      weight: 3,
+      opacity: 0.8,
+      dashArray: "8 4",
+    }).addTo(mapRef.current);
+  }, [routeMarkerIds, markers]);
 
   // Pan to selected marker
   useEffect(() => {

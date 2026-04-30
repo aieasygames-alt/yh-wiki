@@ -225,7 +225,14 @@
     "checkinLandmark": "Landmark",
     "currency": "Currency Node",
     "currencyFon": "Fon",
-    "currencyAnnulith": "Annulith"
+    "currencyAnnulith": "Annulith",
+    "routePlanner": "Route Planner",
+    "optimizeRoute": "Optimize",
+    "shareRoute": "Share",
+    "clearRoute": "Clear",
+    "addToRoute": "Add to Route",
+    "totalDistance": "Total distance",
+    "clickToAddRoute": "Click markers to add to route"
   },
   "attributes": {
     "cosmos": "Cosmos",

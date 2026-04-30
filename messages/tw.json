@@ -225,7 +225,14 @@
     "checkinLandmark": "地標",
     "currency": "貨幣收集",
     "currencyFon": "方斯",
-    "currencyAnnulith": "虛無石"
+    "currencyAnnulith": "虛無石",
+    "routePlanner": "路線規劃",
+    "optimizeRoute": "優化",
+    "shareRoute": "分享",
+    "clearRoute": "清空",
+    "addToRoute": "添加到路線",
+    "totalDistance": "總距離",
+    "clickToAddRoute": "點擊標記添加到路線"
   },
   "attributes": {
     "cosmos": "宇宙",

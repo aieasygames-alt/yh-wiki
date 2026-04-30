@@ -33,6 +33,7 @@ import MapSidebar from "../../../components/MapSidebar";
 import MapMarkerDetail from "../../../components/MapMarkerDetail";
 import MapSearch from "../../../components/MapSearch";
 import MapProgressBar from "../../../components/MapProgressBar";
+import MapRoutePlanner from "../../../components/MapRoutePlanner";
 
 const data = mapData as {
   maps: MapInfo[];
@@ -73,12 +74,19 @@ export default function MapPage() {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [mapDropdownOpen, setMapDropdownOpen] = useState(false);
   const [hideCollected, setHideCollected] = useState(false);
+  const [routeMarkerIds, setRouteMarkerIds] = useState<string[]>([]);
 
-  // Load progress and filters on mount
+  // Load progress, filters and route on mount
   useEffect(() => {
     setProgress(loadProgress());
     const saved = loadFilters();
     if (saved) setActiveFilters(new Set(saved));
+    // Load route from URL
+    const params = new URLSearchParams(window.location.search);
+    const routeParam = params.get("route");
+    if (routeParam) {
+      setRouteMarkerIds(routeParam.split(","));
+    }
   }, []);
 
   const map = data.maps[activeMap];
@@ -317,6 +325,15 @@ export default function MapPage() {
               lang={lang}
             />
 
+            {/* Route planner */}
+            <MapRoutePlanner
+              markers={filteredMarkers}
+              markerTypes={markerTypes}
+              routeMarkerIds={routeMarkerIds}
+              onRouteChange={setRouteMarkerIds}
+              lang={lang}
+            />
+
             {/* Category tree + marker list */}
             <div className="rounded-xl border border-gray-800 bg-gray-900/50 overflow-hidden">
               <div className="h-[calc(100vh-420px)] min-h-[300px]">
@@ -360,22 +377,49 @@ export default function MapPage() {
               onSelectMarker={handleSelectMarker}
               progress={progress}
               lang={lang}
+              routeMarkerIds={routeMarkerIds}
             />
           </div>
 
-          {/* Mobile marker detail (below map) */}
+          {/* Mobile bottom sheet */}
           {selectedMarker && (
-            <div className="mt-3 lg:hidden">
-              <MapMarkerDetail
-                marker={selectedMarker}
-                typeInfo={markerTypes[selectedMarker.type]}
-                progress={progress}
-                nearbyMarkers={nearbyMarkers}
-                onToggleCollect={handleToggleCollect}
-                onClose={() => setSelectedMarker(null)}
-                onSelectMarker={handleSelectMarker}
-                lang={lang}
-              />
+            <div className="mt-3 lg:hidden fixed inset-x-0 bottom-0 z-40">
+              <div
+                className="bg-gray-900 border-t border-gray-700 rounded-t-2xl shadow-2xl max-h-[60vh] overflow-y-auto"
+                onTouchStart={(e) => {
+                  const startY = (e.touches[0].clientY);
+                  const el = e.currentTarget;
+                  const onClose = () => setSelectedMarker(null);
+                  function onMove(ev: TouchEvent) {
+                    const dy = startY - ev.touches[0].clientY;
+                    if (dy < -60) {
+                      cleanup();
+                      onClose();
+                    }
+                  }
+                  function cleanup() {
+                    el.removeEventListener("touchmove", onMove);
+                    el.removeEventListener("touchend", cleanup);
+                  }
+                  el.addEventListener("touchmove", onMove);
+                  el.addEventListener("touchend", cleanup);
+                }}
+              >
+                {/* Drag handle */}
+                <div className="flex justify-center pt-2 pb-1">
+                  <div className="w-8 h-1 rounded-full bg-gray-700" />
+                </div>
+                <MapMarkerDetail
+                  marker={selectedMarker}
+                  typeInfo={markerTypes[selectedMarker.type]}
+                  progress={progress}
+                  nearbyMarkers={nearbyMarkers}
+                  onToggleCollect={handleToggleCollect}
+                  onClose={() => setSelectedMarker(null)}
+                  onSelectMarker={handleSelectMarker}
+                  lang={lang}
+                />
+              </div>
             </div>
           )}
         </div>
