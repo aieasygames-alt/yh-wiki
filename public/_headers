@@ -14,6 +14,11 @@
 /robots.txt
   Cache-Control: public, max-age=3600
 
+# IndexNow key
+/113be43db95093ec0475d10e2f342d8c.txt
+  Content-Type: text/plain
+  Cache-Control: public, max-age=3600
+
 # Sub-sitemaps
 /sitemap-pages.xml
   Cache-Control: public, max-age=3600
