@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getDiskSet, getAllDiskSets, getAllCharacters } from "../../../../lib/queries";
+import { getAttributeLabel, getAttributeColor } from "../../../../lib/attributes";
+import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
@@ -24,8 +26,8 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
       ? `${set.name}套装效果 & 适用角色 | 异环游戏 Wiki`
       : `${set.nameEn} Set Bonus & Best Characters - NTE Guide`,
     description: isZhLocale(lang)
-      ? `异环磁盘套装「${set.name}」2件套和4件套效果详解，适用角色推荐。`
-      : `${set.nameEn} disk set guide: 2-piece and 4-piece bonuses, best characters, and how to use it in Neverness to Everness.`,
+      ? `异环卡带「${set.name}」2件套和4件套效果详解，适用角色推荐。`
+      : `${set.nameEn} cartridge set guide: 2-piece and 4-piece bonuses, best characters, and how to use it in Neverness to Everness.`,
     alternates: hreflangAlternates(`disk-sets/${slug}`, lang),
   };
 }
@@ -44,26 +46,42 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
       <Breadcrumb
         items={[
           { label: isZhLocale(locale) ? "首页" : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? "磁盘套装" : "Disk Sets", href: `/${lang}/disk-sets` },
+          { label: isZhLocale(locale) ? "卡带" : "Cartridges", href: `/${lang}/disk-sets` },
           { label: isZhLocale(locale) ? set.name : set.nameEn },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Header */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
-          <h1 className="text-2xl font-bold">
-            {isZhLocale(locale) ? set.name : set.nameEn}
-          </h1>
-          <p className="text-gray-500">{isZhLocale(locale) ? set.nameEn : set.name}</p>
-          <div className="flex items-center gap-2 mt-2">
-            <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
-              {set.pieces}{isZhLocale(locale) ? "件套" : "-piece set"}
-            </span>
-            {set.bestFor.filter(b => isZhLocale(locale) ? !/^[A-Z]/.test(b) : /^[A-Z]/.test(b)).map((b, i) => (
-              <span key={i} className="text-xs px-3 py-1 rounded-full border border-primary-500/30 text-primary-400">
-                {b}
-              </span>
-            ))}
+          <div className="flex items-center gap-4">
+            <GameImage
+              type="cassette"
+              id={set.id}
+              name={isZhLocale(locale) ? set.name : set.nameEn}
+              className="w-20 h-20 rounded-lg shrink-0"
+              contain
+            />
+            <div>
+              <h1 className="text-2xl font-bold">
+                {isZhLocale(locale) ? set.name : set.nameEn}
+              </h1>
+              <p className="text-gray-500">{isZhLocale(locale) ? set.nameEn : set.name}</p>
+              <div className="flex items-center gap-2 mt-2">
+                <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
+                  {set.pieces}{isZhLocale(locale) ? "件套" : "-piece set"}
+                </span>
+                <span className={`text-xs px-3 py-1 rounded-full border ${set.category === "elemental" ? "bg-purple-500/20 text-purple-400 border-purple-500/30" : "bg-blue-500/20 text-blue-400 border-blue-500/30"}`}>
+                  {set.category === "elemental"
+                    ? (isZhLocale(locale) ? "元素专属" : "Elemental")
+                    : (isZhLocale(locale) ? "通用" : "General")}
+                </span>
+                {set.element && (
+                  <span className={`text-xs px-3 py-1 rounded-full border ${getAttributeColor(set.element)}`}>
+                    {getAttributeLabel(set.element, locale)}
+                  </span>
+                )}
+              </div>
+            </div>
           </div>
         </div>
 

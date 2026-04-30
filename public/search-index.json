@@ -5522,6 +5522,714 @@
     ]
   },
   {
+    "id": "wrong-server-transfer",
+    "name": "异环选错了服务器可以转服吗？",
+    "nameEn": "Can I transfer servers if I picked the wrong one in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/wrong-server-transfer",
+    "tags": [
+      "server",
+      "transfer",
+      "account",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "wrong-server-transfer",
+    "name": "Can I transfer servers if I picked the wrong one in NTE?",
+    "nameEn": "Can I transfer servers if I picked the wrong one in NTE?",
+    "type": "faq",
+    "url": "/en/faq/wrong-server-transfer",
+    "tags": [
+      "server",
+      "transfer",
+      "account",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "login-verification-code-not-received",
+    "name": "异环登录收不到手机验证码怎么办？",
+    "nameEn": "NTE login verification code not received? How to fix",
+    "type": "faq",
+    "url": "/zh/faq/login-verification-code-not-received",
+    "tags": [
+      "login",
+      "verification",
+      "sms",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "login-verification-code-not-received",
+    "name": "NTE login verification code not received? How to fix",
+    "nameEn": "NTE login verification code not received? How to fix",
+    "type": "faq",
+    "url": "/en/faq/login-verification-code-not-received",
+    "tags": [
+      "login",
+      "verification",
+      "sms",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "login-white-screen",
+    "name": "异环PC端登录白屏/黑屏怎么解决？",
+    "nameEn": "NTE PC login white screen or black screen fix",
+    "type": "faq",
+    "url": "/zh/faq/login-white-screen",
+    "tags": [
+      "white-screen",
+      "black-screen",
+      "login",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "login-white-screen",
+    "name": "NTE PC login white screen or black screen fix",
+    "nameEn": "NTE PC login white screen or black screen fix",
+    "type": "faq",
+    "url": "/en/faq/login-white-screen",
+    "tags": [
+      "white-screen",
+      "black-screen",
+      "login",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "server-queue-long",
+    "name": "异环服务器排队时间太长怎么办？",
+    "nameEn": "NTE server queue too long? How to reduce wait time",
+    "type": "faq",
+    "url": "/zh/faq/server-queue-long",
+    "tags": [
+      "server",
+      "queue",
+      "wait",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "server-queue-long",
+    "name": "NTE server queue too long? How to reduce wait time",
+    "nameEn": "NTE server queue too long? How to reduce wait time",
+    "type": "faq",
+    "url": "/en/faq/server-queue-long",
+    "tags": [
+      "server",
+      "queue",
+      "wait",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "high-latency-lag",
+    "name": "异环游戏延迟高/网络卡顿怎么解决？",
+    "nameEn": "How to fix high latency and network lag in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/high-latency-lag",
+    "tags": [
+      "latency",
+      "network",
+      "lag",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "high-latency-lag",
+    "name": "How to fix high latency and network lag in NTE?",
+    "nameEn": "How to fix high latency and network lag in NTE?",
+    "type": "faq",
+    "url": "/en/faq/high-latency-lag",
+    "tags": [
+      "latency",
+      "network",
+      "lag",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "dx12-error",
+    "name": "异环DX12报错/启动失败怎么办？",
+    "nameEn": "NTE DX12 error or failed to launch? How to fix",
+    "type": "faq",
+    "url": "/zh/faq/dx12-error",
+    "tags": [
+      "dx12",
+      "dx11",
+      "launch-error",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "dx12-error",
+    "name": "NTE DX12 error or failed to launch? How to fix",
+    "nameEn": "NTE DX12 error or failed to launch? How to fix",
+    "type": "faq",
+    "url": "/en/faq/dx12-error",
+    "tags": [
+      "dx12",
+      "dx11",
+      "launch-error",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "memory-leak-crash",
+    "name": "异环玩久了越来越卡/内存占用高怎么办？",
+    "nameEn": "NTE getting laggier over time? Memory leak fix",
+    "type": "faq",
+    "url": "/zh/faq/memory-leak-crash",
+    "tags": [
+      "memory",
+      "lag",
+      "crash",
+      "performance",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "memory-leak-crash",
+    "name": "NTE getting laggier over time? Memory leak fix",
+    "nameEn": "NTE getting laggier over time? Memory leak fix",
+    "type": "faq",
+    "url": "/en/faq/memory-leak-crash",
+    "tags": [
+      "memory",
+      "lag",
+      "crash",
+      "performance",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "gpu-overheating",
+    "name": "异环GPU/CPU温度过高怎么降温？",
+    "nameEn": "NTE causing GPU/CPU overheating? How to cool down",
+    "type": "faq",
+    "url": "/zh/faq/gpu-overheating",
+    "tags": [
+      "overheating",
+      "temperature",
+      "gpu",
+      "cpu",
+      "performance",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "gpu-overheating",
+    "name": "NTE causing GPU/CPU overheating? How to cool down",
+    "nameEn": "NTE causing GPU/CPU overheating? How to cool down",
+    "type": "faq",
+    "url": "/en/faq/gpu-overheating",
+    "tags": [
+      "overheating",
+      "temperature",
+      "gpu",
+      "cpu",
+      "performance",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "alt-tab-black-screen",
+    "name": "异环Alt+Tab切换后黑屏怎么办？",
+    "nameEn": "NTE black screen after Alt+Tab? How to fix",
+    "type": "faq",
+    "url": "/zh/faq/alt-tab-black-screen",
+    "tags": [
+      "black-screen",
+      "alt-tab",
+      "fullscreen",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "alt-tab-black-screen",
+    "name": "NTE black screen after Alt+Tab? How to fix",
+    "nameEn": "NTE black screen after Alt+Tab? How to fix",
+    "type": "faq",
+    "url": "/en/faq/alt-tab-black-screen",
+    "tags": [
+      "black-screen",
+      "alt-tab",
+      "fullscreen",
+      "pc",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "mobile-overheating",
+    "name": "异环手机发烫严重/帧率骤降怎么办？",
+    "nameEn": "NTE mobile overheating and frame rate drops? How to fix",
+    "type": "faq",
+    "url": "/zh/faq/mobile-overheating",
+    "tags": [
+      "mobile",
+      "overheating",
+      "frame-rate",
+      "phone",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "mobile-overheating",
+    "name": "NTE mobile overheating and frame rate drops? How to fix",
+    "nameEn": "NTE mobile overheating and frame rate drops? How to fix",
+    "type": "faq",
+    "url": "/en/faq/mobile-overheating",
+    "tags": [
+      "mobile",
+      "overheating",
+      "frame-rate",
+      "phone",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "mobile-storage-space",
+    "name": "异环手机存储空间不够安装不了怎么办？",
+    "nameEn": "NTE mobile not enough storage space to install? Solutions",
+    "type": "faq",
+    "url": "/zh/faq/mobile-storage-space",
+    "tags": [
+      "storage",
+      "install",
+      "mobile",
+      "space",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "mobile-storage-space",
+    "name": "NTE mobile not enough storage space to install? Solutions",
+    "nameEn": "NTE mobile not enough storage space to install? Solutions",
+    "type": "faq",
+    "url": "/en/faq/mobile-storage-space",
+    "tags": [
+      "storage",
+      "install",
+      "mobile",
+      "space",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "android-low-memory-crash",
+    "name": "异环安卓手机频繁闪退怎么办？",
+    "nameEn": "NTE Android crashing frequently? How to fix",
+    "type": "faq",
+    "url": "/zh/faq/android-low-memory-crash",
+    "tags": [
+      "android",
+      "crash",
+      "memory",
+      "mobile",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "android-low-memory-crash",
+    "name": "NTE Android crashing frequently? How to fix",
+    "nameEn": "NTE Android crashing frequently? How to fix",
+    "type": "faq",
+    "url": "/en/faq/android-low-memory-crash",
+    "tags": [
+      "android",
+      "crash",
+      "memory",
+      "mobile",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "ios-graphics-blurry",
+    "name": "异环iPhone画面模糊/画质低怎么调？",
+    "nameEn": "NTE iPhone graphics blurry or low quality? How to improve",
+    "type": "faq",
+    "url": "/zh/faq/ios-graphics-blurry",
+    "tags": [
+      "ios",
+      "iphone",
+      "graphics",
+      "quality",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "ios-graphics-blurry",
+    "name": "NTE iPhone graphics blurry or low quality? How to improve",
+    "nameEn": "NTE iPhone graphics blurry or low quality? How to improve",
+    "type": "faq",
+    "url": "/en/faq/ios-graphics-blurry",
+    "tags": [
+      "ios",
+      "iphone",
+      "graphics",
+      "quality",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "ps5-download-interrupted",
+    "name": "异环PS5下载中断/安装失败怎么办？",
+    "nameEn": "NTE PS5 download interrupted or install failed? Fix",
+    "type": "faq",
+    "url": "/zh/faq/ps5-download-interrupted",
+    "tags": [
+      "ps5",
+      "download",
+      "install",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "ps5-download-interrupted",
+    "name": "NTE PS5 download interrupted or install failed? Fix",
+    "nameEn": "NTE PS5 download interrupted or install failed? Fix",
+    "type": "faq",
+    "url": "/en/faq/ps5-download-interrupted",
+    "tags": [
+      "ps5",
+      "download",
+      "install",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "character-stuck-in-map",
+    "name": "异环角色卡在地图里/墙壁里怎么办？",
+    "nameEn": "NTE character stuck in map or wall? How to get unstuck",
+    "type": "faq",
+    "url": "/zh/faq/character-stuck-in-map",
+    "tags": [
+      "stuck",
+      "map",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "character-stuck-in-map",
+    "name": "NTE character stuck in map or wall? How to get unstuck",
+    "nameEn": "NTE character stuck in map or wall? How to get unstuck",
+    "type": "faq",
+    "url": "/en/faq/character-stuck-in-map",
+    "tags": [
+      "stuck",
+      "map",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "quest-npc-not-spawning",
+    "name": "异环任务NPC不出现/任务物品无法拾取怎么办？",
+    "nameEn": "NTE quest NPC not spawning or can't pick up quest items? Fix",
+    "type": "faq",
+    "url": "/zh/faq/quest-npc-not-spawning",
+    "tags": [
+      "quest",
+      "npc",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "quest-npc-not-spawning",
+    "name": "NTE quest NPC not spawning or can't pick up quest items? Fix",
+    "nameEn": "NTE quest NPC not spawning or can't pick up quest items? Fix",
+    "type": "faq",
+    "url": "/en/faq/quest-npc-not-spawning",
+    "tags": [
+      "quest",
+      "npc",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "gacha-animation-stuck",
+    "name": "异环抽卡动画卡住/结果不显示怎么办？",
+    "nameEn": "NTE gacha/wish animation stuck or results not showing? Fix",
+    "type": "faq",
+    "url": "/zh/faq/gacha-animation-stuck",
+    "tags": [
+      "gacha",
+      "wish",
+      "animation",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "gacha-animation-stuck",
+    "name": "NTE gacha/wish animation stuck or results not showing? Fix",
+    "nameEn": "NTE gacha/wish animation stuck or results not showing? Fix",
+    "type": "faq",
+    "url": "/en/faq/gacha-animation-stuck",
+    "tags": [
+      "gacha",
+      "wish",
+      "animation",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "sound-lost",
+    "name": "异环游戏突然没有声音了怎么解决？",
+    "nameEn": "NTE suddenly lost all sound? How to fix audio issues",
+    "type": "faq",
+    "url": "/zh/faq/sound-lost",
+    "tags": [
+      "sound",
+      "audio",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "sound-lost",
+    "name": "NTE suddenly lost all sound? How to fix audio issues",
+    "nameEn": "NTE suddenly lost all sound? How to fix audio issues",
+    "type": "faq",
+    "url": "/en/faq/sound-lost",
+    "tags": [
+      "sound",
+      "audio",
+      "bug",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "touch-not-responding",
+    "name": "异环手机战斗中触控失灵怎么办？",
+    "nameEn": "NTE touch controls not responding during combat? Fix",
+    "type": "faq",
+    "url": "/zh/faq/touch-not-responding",
+    "tags": [
+      "touch",
+      "controls",
+      "mobile",
+      "combat",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "touch-not-responding",
+    "name": "NTE touch controls not responding during combat? Fix",
+    "nameEn": "NTE touch controls not responding during combat? Fix",
+    "type": "faq",
+    "url": "/en/faq/touch-not-responding",
+    "tags": [
+      "touch",
+      "controls",
+      "mobile",
+      "combat",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "recharge-not-received",
+    "name": "异环充值成功了但没到账怎么办？",
+    "nameEn": "NTE payment successful but in-game currency not received? Fix",
+    "type": "faq",
+    "url": "/zh/faq/recharge-not-received",
+    "tags": [
+      "recharge",
+      "payment",
+      "currency",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "recharge-not-received",
+    "name": "NTE payment successful but in-game currency not received? Fix",
+    "nameEn": "NTE payment successful but in-game currency not received? Fix",
+    "type": "faq",
+    "url": "/en/faq/recharge-not-received",
+    "tags": [
+      "recharge",
+      "payment",
+      "currency",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "double-recharge-reset",
+    "name": "异环换设备/重装后首充双倍消失了怎么办？",
+    "nameEn": "NTE first recharge double bonus disappeared after reinstall? Fix",
+    "type": "faq",
+    "url": "/zh/faq/double-recharge-reset",
+    "tags": [
+      "recharge",
+      "double-bonus",
+      "bug",
+      "account",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "double-recharge-reset",
+    "name": "NTE first recharge double bonus disappeared after reinstall? Fix",
+    "nameEn": "NTE first recharge double bonus disappeared after reinstall? Fix",
+    "type": "faq",
+    "url": "/en/faq/double-recharge-reset",
+    "tags": [
+      "recharge",
+      "double-bonus",
+      "bug",
+      "account",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "monthly-card-not-rewarded",
+    "name": "异环月卡购买了但每日奖励没发放怎么办？",
+    "nameEn": "NTE monthly pass purchased but daily rewards not received? Fix",
+    "type": "faq",
+    "url": "/zh/faq/monthly-card-not-rewarded",
+    "tags": [
+      "monthly-card",
+      "reward",
+      "payment",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "monthly-card-not-rewarded",
+    "name": "NTE monthly pass purchased but daily rewards not received? Fix",
+    "nameEn": "NTE monthly pass purchased but daily rewards not received? Fix",
+    "type": "faq",
+    "url": "/en/faq/monthly-card-not-rewarded",
+    "tags": [
+      "monthly-card",
+      "reward",
+      "payment",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "co-op-matchmaking-failed",
+    "name": "异环联机组队匹配不到人怎么办？",
+    "nameEn": "NTE co-op matchmaking not finding teammates? Fix",
+    "type": "faq",
+    "url": "/zh/faq/co-op-matchmaking-failed",
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "matchmaking",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "co-op-matchmaking-failed",
+    "name": "NTE co-op matchmaking not finding teammates? Fix",
+    "nameEn": "NTE co-op matchmaking not finding teammates? Fix",
+    "type": "faq",
+    "url": "/en/faq/co-op-matchmaking-failed",
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "matchmaking",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "account-progress-lost",
+    "name": "异环换设备/换手机后账号进度没了怎么办？",
+    "nameEn": "NTE account progress lost after switching devices? How to recover",
+    "type": "faq",
+    "url": "/zh/faq/account-progress-lost",
+    "tags": [
+      "account",
+      "progress",
+      "device",
+      "recovery",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "account-progress-lost",
+    "name": "NTE account progress lost after switching devices? How to recover",
+    "nameEn": "NTE account progress lost after switching devices? How to recover",
+    "type": "faq",
+    "url": "/en/faq/account-progress-lost",
+    "tags": [
+      "account",
+      "progress",
+      "device",
+      "recovery",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "auto-battle-not-working",
+    "name": "异环自动战斗AI不动/不放技能怎么办？",
+    "nameEn": "NTE auto-battle AI not moving or using skills? Fix",
+    "type": "faq",
+    "url": "/zh/faq/auto-battle-not-working",
+    "tags": [
+      "auto-battle",
+      "ai",
+      "bug",
+      "combat",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "auto-battle-not-working",
+    "name": "NTE auto-battle AI not moving or using skills? Fix",
+    "nameEn": "NTE auto-battle AI not moving or using skills? Fix",
+    "type": "faq",
+    "url": "/en/faq/auto-battle-not-working",
+    "tags": [
+      "auto-battle",
+      "ai",
+      "bug",
+      "combat",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "low-fps-town-area",
+    "name": "异环城镇场景帧率很低/卡顿怎么优化？",
+    "nameEn": "NTE low FPS in town/city areas? Performance optimization",
+    "type": "faq",
+    "url": "/zh/faq/low-fps-town-area",
+    "tags": [
+      "fps",
+      "town",
+      "performance",
+      "optimization",
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "low-fps-town-area",
+    "name": "NTE low FPS in town/city areas? Performance optimization",
+    "nameEn": "NTE low FPS in town/city areas? Performance optimization",
+    "type": "faq",
+    "url": "/en/faq/low-fps-town-area",
+    "tags": [
+      "fps",
+      "town",
+      "performance",
+      "optimization",
+      "troubleshooting"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",

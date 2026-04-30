@@ -4,7 +4,7 @@ import { useState } from "react";
 import { getPlaceholderImage } from "../lib/placeholder";
 
 interface GameImageProps {
-  type: "character" | "material" | "weapon" | "vehicle";
+  type: "character" | "material" | "weapon" | "vehicle" | "cassette";
   id: string;
   name: string;
   className?: string;
@@ -17,13 +17,15 @@ interface GameImageProps {
 }
 
 // Cache buster for static assets — bump when images change
-const IMG_VERSION = "v=5";
+const IMG_VERSION = "v=6";
 
 export function GameImage({ type, id, name, className = "", alt, width, height, priority = false, src: srcProp, contain }: GameImageProps) {
   const [error, setError] = useState(false);
   // Use explicit src if provided, otherwise construct from type/id
   const basePath = srcProp ?? (type === "vehicle"
     ? `/images/vehicles/${id}.webp`
+    : type === "cassette"
+    ? `/images/cassettes/${id}.webp`
     : `/images/${type}s/${id}.webp`);
   const src = `${basePath}?${IMG_VERSION}`;
   const altText = alt ?? `${name} - ${type} in Neverness to Everness`;

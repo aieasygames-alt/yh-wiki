@@ -57,6 +57,7 @@ export function Header() {
       { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
       { href: `/${lang}/vehicles`, label: t(lang, "site.nav.vehicles") },
       { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
+      { href: `/${lang}/disk-sets`, label: t(lang, "site.nav.cassettes") },
       { href: `/${lang}/compare/nte-vs-genshin`, label: t(lang, "compare.nteVsGenshin") },
       { href: `/${lang}/compare/nte-vs-wuthering-waves`, label: t(lang, "compare.nteVsWuwa") },
       { href: `/${lang}/compare/games-like-nte`, label: t(lang, "compare.gamesLikeNte") },

@@ -523,11 +523,14 @@ export function getChangelogByVersion(version: string): Changelog | undefined {
   return changelogsData.find((cl) => cl.version === version);
 }
 
-// Disk Sets
+// Disk Sets (Cartridges)
 export interface DiskSet {
   id: string;
   name: string;
+  nameTw: string;
   nameEn: string;
+  category: "elemental" | "general";
+  element: string | null;
   pieces: number;
   setDescription2pc: string;
   setDescription2pcEn: string;
@@ -535,6 +538,7 @@ export interface DiskSet {
   setDescription4pcEn: string;
   bestFor: string[];
   characters: string[];
+  image?: string;
 }
 
 export function getAllDiskSets(): DiskSet[] {
