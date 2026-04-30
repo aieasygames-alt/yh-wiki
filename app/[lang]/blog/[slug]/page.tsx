@@ -6,6 +6,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { ArticleContent } from "../../../../components/ArticleContent";
 import { GiscusComments } from "../../../../components/GiscusComments";
+import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 
 function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
   const allPosts = getAllBlogPosts();
@@ -103,6 +104,10 @@ export default async function BlogDetailPage({
           {summary}
         </p>
         <ArticleContent content={content} />
+
+        <div className="mt-6">
+          <KardzPromoCard locale={locale} variant="compact" />
+        </div>
 
         {/* Tags */}
         {post.tags.length > 0 && (

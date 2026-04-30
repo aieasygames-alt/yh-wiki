@@ -9,6 +9,7 @@ import { getAttributeColor } from "../../../lib/attributes";
 import redeemCodesData from "../../../data/redeem-codes.json";
 import charactersData from "../../../data/characters.json";
 import blogData from "../../../data/blog.json";
+import { KardzPromoCard } from "../../../components/KardzPromoCard";
 
 interface RedeemCode {
   code: string;
@@ -94,6 +95,10 @@ export default function RedeemCodesPage() {
       <p className="text-xs text-gray-600 mb-8">
         {t(lang, "redeemCodes.lastUpdate")}: 2026-04-23
       </p>
+
+      <div className="mb-6">
+        <KardzPromoCard locale={lang} variant="banner" />
+      </div>
 
       {/* Summary */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">

@@ -3,6 +3,7 @@ import { getAllCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
 import { CharacterFilter } from "../../../components/CharacterFilter";
+import { KardzPromoCard } from "../../../components/KardzPromoCard";
 
 export async function generateMetadata({
   params,
@@ -48,6 +49,9 @@ export default async function CharactersPage({
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-8">{t(locale, "characters.title")}</h1>
+        <div className="mb-6">
+          <KardzPromoCard locale={locale} variant="banner" />
+        </div>
         <CharacterFilter characters={characters} locale={locale} lang={lang} />
       </div>
     </>
