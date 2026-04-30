@@ -175,41 +175,6 @@
     ]
   },
   {
-    "characterId": "zero",
-    "builds": [
-      {
-        "id": "zero-dps",
-        "name": "剑术输出",
-        "nameEn": "Sword DPS",
-        "description": "以暴击为核心的剑术输出 Build",
-        "descriptionEn": "Crit-focused sword DPS build",
-        "mainStat": "攻击力%",
-        "mainStatEn": "ATK%",
-        "subStats": [
-          "暴击率",
-          "暴击伤害",
-          "攻击力%",
-          "速度"
-        ],
-        "subStatsEn": [
-          "Crit Rate",
-          "Crit DMG",
-          "ATK%",
-          "Speed"
-        ],
-        "recommendedWeapons": [
-          "day-off"
-        ],
-        "teamComp": [
-          "sakiri",
-          "hotori"
-        ],
-        "notes": "零的剑术连击流畅，适合追求高输出的玩家",
-        "notesEn": "Zero's sword combos are fluid, suited for players who maximize damage output"
-      }
-    ]
-  },
-  {
     "characterId": "hotori",
     "builds": [
       {

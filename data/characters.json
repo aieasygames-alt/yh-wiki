@@ -812,10 +812,10 @@
       }
     ],
     "image": "/images/characters/lacrimosa.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "拉克莉莫薩",
     "cvZh": "宴宁",
     "cvJp": "長縄まりあ",
@@ -1683,7 +1683,7 @@
     ],
     "image": "/images/characters/hotori.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "acquisitionMethod": "limited-banner",
     "descriptionEn": "The proprietor of the Eibon Antique Shop. A Cosmos-attribute Esper who wields an umbrella-style katana in battle.",
     "status": "available",
     "nameTw": "穗鳥",
@@ -2222,7 +2222,7 @@
     ],
     "image": "/images/characters/haniel.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "acquisitionMethod": "free",
     "descriptionEn": "Sterry Express's record holder for the fastest delivery of the month. A playful, energetic character whose style blends street culture and gaming elements.",
     "status": "available",
     "nameTw": "哈尼婭",
@@ -2975,7 +2975,7 @@
     "roleEn": "Support",
     "faction": "异常控制局",
     "description": "异常控制局秘书长，生命属性的A级支援型异能者。表面上是文职干部，实际上她才是让整个管理局运转起来的核心齿轮。",
-    "descriptionEn": "The Bureau's Secretary-General and an Anima-type A-rank support — she may look like a paper-pusher, but she's the gear that keeps the whole operation running.",
+    "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper.",
     "faq": [
       {
         "question": "Is Nelly good in Neverness to Everness?",
@@ -3127,10 +3127,9 @@
       }
     ],
     "image": "/images/characters/nelly.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "descriptionEn": "Secretary General of the Bureau of Anomaly Control. An Anima-attribute A-rank Esper.",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "奈莉",
     "arcType": "gas",
     "signatureArc": ""
@@ -3298,10 +3297,10 @@
       }
     ],
     "image": "/images/characters/merula.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "A Lakshana-attribute Esper, potentially S-rank according to Wiki data. Full details to be confirmed upon the game's official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "梅露拉",
     "arcType": "plasma",
     "signatureArc": ""
@@ -3469,10 +3468,10 @@
       }
     ],
     "image": "/images/characters/alphard.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "A white-haired girl who encounters the protagonist early in the story. A Lakshana-attribute Esper whose identity and faction details remain to be confirmed.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "阿爾法德",
     "arcType": "liquid",
     "signatureArc": ""
@@ -3640,10 +3639,10 @@
       }
     ],
     "image": "/images/characters/taygedo.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "泰格多",
     "arcType": "synthesis",
     "signatureArc": ""
@@ -4036,7 +4035,7 @@
     ],
     "image": "/images/characters/chiz.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "acquisitionMethod": "city-tycoon",
     "descriptionEn": "An employee of Pink Paws with a pink bob styled to look like mouse ears. Wears a nurse-style dress with Yami Kawaii aesthetic elements. A Cosmos-attribute character.",
     "status": "available",
     "nameTw": "赤子",
@@ -4058,7 +4057,7 @@
     "roleEn": "TBD",
     "faction": "Eibon Antique Shop",
     "description": "Eibon古董店的灵魂人物，被冠以「一号台柱」之名。宇宙属性的她自带一种让人移不开眼的气场。",
-    "descriptionEn": "The undisputed star of Eibon Antique Shop and its proud \"Number One Pillar\" — a Cosmos-type with the kind of presence you simply can't ignore.",
+    "descriptionEn": "The top star of the Eibon Antique Shop, featured on the official website. Full details to be confirmed upon the game's official launch.",
     "faq": [
       {
         "question": "Is Lilina good in Neverness to Everness?",
@@ -4210,10 +4209,9 @@
       }
     ],
     "image": "/images/characters/lilina.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "descriptionEn": "The top star of the Eibon Antique Shop, featured on the official website. Full details to be confirmed upon the game's official launch.",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "莉莉娜",
     "arcType": "solid",
     "signatureArc": ""
@@ -4384,7 +4382,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character appearing in the game's trailer, an Incantation-attribute Esper. Full details await the official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "凛子",
     "arcType": "liquid",
     "signatureArc": ""
@@ -4555,7 +4553,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "密斯莫",
     "arcType": "synthesis",
     "signatureArc": ""
@@ -4726,7 +4724,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character from the Co-Ex beta test, an Anima-attribute Esper. Full details await the official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "沁紅",
     "arcType": "plasma",
     "signatureArc": ""
@@ -4897,7 +4895,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character from the beta test, a Psyche-attribute Esper. Full details await the official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "尼察",
     "arcType": "solid",
     "signatureArc": ""
@@ -5065,10 +5063,10 @@
       }
     ],
     "image": "/images/characters/black-bird.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "A datamined character, a Chaos-attribute S-rank Esper. Full details to be confirmed; may appear in the official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "黑鳥",
     "arcType": "gas",
     "signatureArc": ""
@@ -5236,10 +5234,10 @@
       }
     ],
     "image": "/images/characters/xiaozhen.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "A datamined character, an Anima-attribute S-rank Esper. Full details to be confirmed.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "明虎",
     "arcType": "solid",
     "signatureArc": ""
@@ -5256,7 +5254,7 @@
     "roleEn": "Attack",
     "faction": "ETD-4",
     "description": "ETD-4所属的咒术系进攻型异能者，等离子武器操控精准凌厉，战斗风格兼具优雅与破坏力。",
-    "descriptionEn": "An Incantation-type attacker from ETD-4 who wields plasma weaponry with lethal precision — graceful on the outside, devastating on the inside.",
+    "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch.",
     "faq": [
       {
         "question": "Is Akane good in Neverness to Everness?",
@@ -5408,10 +5406,9 @@
       }
     ],
     "image": "/images/characters/akane.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "descriptionEn": "A confirmed S-rank character and Incantation-attribute Esper. Full details await the official launch.",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "赤音",
     "cvJp": "TBA",
     "cvJpEn": "TBA",
@@ -5585,7 +5582,7 @@
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
     "descriptionEn": "A character sourced from community data, a Psyche-attribute Esper. Full details to be confirmed.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "詹森",
     "arcType": "solid",
     "signatureArc": ""
@@ -5602,7 +5599,7 @@
     "roleEn": "Attack",
     "faction": "ETD-4",
     "description": "ETD-4的相属性进攻手，输出稳定且兼具团队辅助价值，是任何队伍都想拥有的万金油选手。",
-    "descriptionEn": "ETD-4's Lakshana attacker who brings consistent damage and reliable team utility — the kind of all-rounder every squad wants on their side.",
+    "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch.",
     "faq": [
       {
         "question": "Is Illica good in Neverness to Everness?",
@@ -5754,10 +5751,9 @@
       }
     ],
     "image": "/images/characters/illica.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch.",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "伊利卡",
     "arcType": "plasma",
     "signatureArc": ""
@@ -5928,7 +5924,7 @@
     "image": "/images/characters/fuuka.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "風花",
     "arcType": "solid",
     "signatureArc": ""
@@ -6097,9 +6093,9 @@
       }
     ],
     "image": "/images/characters/crow.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "克勞",
     "arcType": "liquid",
     "signatureArc": ""
@@ -6270,7 +6266,7 @@
     "image": "/images/characters/renee.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "蕾妮",
     "arcType": "synthesis",
     "signatureArc": ""
@@ -6441,7 +6437,7 @@
     "image": "/images/characters/goro.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "吾郎",
     "arcType": "solid",
     "signatureArc": ""
@@ -6610,9 +6606,9 @@
       }
     ],
     "image": "/images/characters/marina.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "瑪麗娜",
     "arcType": "liquid",
     "signatureArc": ""
@@ -6783,7 +6779,7 @@
     "image": "/images/characters/kaito.webp",
     "availableAtLaunch": false,
     "acquisitionMethod": "future",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "海斗",
     "arcType": "gas",
     "signatureArc": ""
@@ -6952,9 +6948,9 @@
       }
     ],
     "image": "/images/characters/sylphy.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
-    "status": "available",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
+    "status": "upcoming",
     "nameTw": "希爾菲",
     "arcType": "synthesis",
     "signatureArc": ""
@@ -6998,7 +6994,7 @@
       "passives": []
     },
     "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "acquisitionMethod": "free",
     "image": "/images/characters/aurelia.webp",
     "descriptionEn": "A newly added A-rank character for the official launch. Full details to be updated after launch.",
     "status": "available",
@@ -7038,7 +7034,12 @@
       {
         "name": "圆环辅助阵容",
         "nameEn": "Circle Support Team",
-        "members": ["aurelia", "lacrimosa", "fadia", "skia"],
+        "members": [
+          "aurelia",
+          "lacrimosa",
+          "fadia",
+          "skia"
+        ],
         "description": "圆环组织成员阵容，Aurelia 提供支援",
         "descriptionEn": "Circle org team with Aurelia providing support"
       }
@@ -7103,11 +7104,11 @@
         }
       ]
     },
-    "availableAtLaunch": true,
-    "acquisitionMethod": "city-tycoon",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "image": "/images/characters/xiaozhi.webp",
     "descriptionEn": "An S-rank character obtainable for free through the City Tycoon mode. Detailed skill information to be updated after the official launch.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "小吱",
     "cvZh": "则灵",
     "cvJp": "小原好美",
@@ -7147,14 +7148,24 @@
       {
         "name": "小吱金谷爆发队",
         "nameEn": "Xiaozhi Jinggu Burst Team",
-        "members": ["xiaozhi", "sakiri", "mint", "nanally"],
+        "members": [
+          "xiaozhi",
+          "sakiri",
+          "mint",
+          "nanally"
+        ],
         "description": "小吱站场主C + 咲里增益 + 薄荷辅助 + 娜娜莉副C，金谷市场全覆盖",
         "descriptionEn": "Xiaozhi on-field DPS + Sakiri buffs + Mint support + Nanally sub-DPS with full Jinggu Market uptime"
       },
       {
         "name": "Eibon免费阵容",
         "nameEn": "Eibon F2P Team",
-        "members": ["xiaozhi", "sakiri", "hotori", "zero"],
+        "members": [
+          "xiaozhi",
+          "sakiri",
+          "hotori",
+          "zero"
+        ],
         "description": "全员Eibon古董店成员，小吱和零双C输出",
         "descriptionEn": "Full Eibon Antique Shop F2P roster with Xiaozhi and Zero dual DPS"
       }
@@ -7298,155 +7309,12 @@
     },
     "teamComps": [],
     "image": "/images/characters/xun.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "gacha",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "future",
     "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor who runs an antique shop.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "浔",
     "arcType": "liquid",
     "signatureArc": "clear-skies"
-  },
-  {
-    "id": "zero",
-    "name": "零",
-    "nameEn": "Zero",
-    "attribute": "cosmos",
-    "rank": "S",
-    "weapon": "固体",
-    "weaponEn": "Solid",
-    "role": "进攻",
-    "roleEn": "Attack",
-    "faction": "Eibon Antique Shop",
-    "description": "沉默寡言的剑士，Eibon古董店的核心成员。拥有独特的「即瞬环合」能力，可在瞬间填满环合槽位。作为游戏主角，几乎所有阵容都能找到他的位置，是公认的必练角色。",
-    "faq": [
-      {
-        "question": "Is Zero good in Neverness to Everness?",
-        "questionZh": "零值得培养吗？",
-        "answer": "Zero is arguably the most versatile S-rank character in Neverness to Everness. His unique Instant Ring Fusion ability makes him a staple in almost every team composition. He is widely considered a must-build character.",
-        "answerZh": "零可以说是异环中泛用性最高的S级角色。他的即瞬环合能力让他几乎适配所有阵容，被公认为必练角色。"
-      },
-      {
-        "question": "What is the best build for Zero?",
-        "questionZh": "零的最佳配装是什么？",
-        "answer": "Zero's best build focuses on crit stats. Prioritize CRIT Rate and CRIT DMG with ATK% as main stat. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "零的最佳配装以暴击为核心。主词条优先攻击力%，副词条堆叠暴击率和暴击伤害。使用配装计算器查看详细推荐。"
-      },
-      {
-        "question": "How to get Zero in Neverness to Everness?",
-        "questionZh": "如何获得零？",
-        "answer": "Zero is obtained through the story progression in Neverness to Everness. As a core character, he becomes available early in the main campaign.",
-        "answerZh": "零通过主线剧情获得。作为核心角色，他在主线早期就会加入队伍。"
-      },
-      {
-        "question": "What is the best team for Zero?",
-        "questionZh": "零的最佳配队是什么？",
-        "answer": "Zero works well with Sakiri for buffs and Hotori for team synergy. His versatility means he can fit into most team compositions effectively.",
-        "answerZh": "零与咲里的增益配合、与凤里的团队协同都非常出色。他的泛用性让他几乎能融入任何阵容。"
-      },
-      {
-        "question": "What is the best weapon for Zero?",
-        "questionZh": "零的最佳武器是什么？",
-        "answer": "Zero's signature weapon is Day Off (休息日), obtainable through hidden quest. It provides significant ATK boost and the unique Eclipse Arc ability.",
-        "answerZh": "零的专武是「休息日」，通过隐藏任务获取。它提供大量攻击力加成和独特的日蚀弧盘能力。"
-      }
-    ],
-    "relatedCharacters": [
-      "nanally",
-      "sakiri",
-      "hotori",
-      "adler"
-    ],
-    "tierRank": "SS",
-    "tierReason": "Must-build for every team — Instant Ring Fusion makes him universally useful",
-    "tierReasonZh": "必练角色——即瞬环合能力让他几乎适配所有阵容",
-    "skills": {
-      "normalAttack": {
-        "name": "无名剑术",
-        "nameEn": "Nameless Sword Art",
-        "description": "以流畅的剑术进行至多五段连续攻击，造成宇宙属性异能伤害。命中敌人时积累环合能量。",
-        "descriptionEn": "Perform up to 5 consecutive sword strikes dealing Cosmos damage. Hits generate Ring Fusion energy."
-      },
-      "skill": {
-        "name": "即瞬环合",
-        "nameEn": "Instant Ring Fusion",
-        "description": "核心技能：瞬间填满环合槽位，使下一次攻击获得巨额伤害加成。可在连击中无缝衔接，是零的核心输出机制。",
-        "descriptionEn": "Core skill: Instantly fills the Ring Fusion gauge, granting massive damage bonus to the next attack. Can seamlessly chain into combos.",
-        "cooldown": "8s"
-      },
-      "ultimate": {
-        "name": "万象归零",
-        "nameEn": "All Returns to Zero",
-        "description": "释放全部环合能量，造成大范围宇宙属性伤害。环合层数越多，伤害倍率越高。满层时额外触发时空减速效果。",
-        "descriptionEn": "Unleash all Ring Fusion energy for wide-area Cosmos damage. More Fusion stacks = higher multiplier. At max stacks, triggers time-slow effect.",
-        "cost": "80"
-      },
-      "passives": [
-        {
-          "name": "沉默之刃",
-          "nameEn": "Silent Blade",
-          "description": "即瞬环合的暴击率+15%。触发暴击时，环合能量恢复速度提升20%，持续5秒。",
-          "descriptionEn": "Instant Ring Fusion CRIT Rate +15%. On crit, Ring Fusion energy recovery +20% for 5s."
-        },
-        {
-          "name": "归零协议",
-          "nameEn": "Zero Protocol",
-          "description": "队伍中每有一位宇宙属性角色，零的攻击力+8%（最多+24%）。释放万象归零后全队攻击力+10%，持续10秒。",
-          "descriptionEn": "Each Cosmos character in party grants Zero +8% ATK (max +24%). After using ultimate, team ATK +10% for 10s."
-        }
-      ]
-    },
-    "recommendedBuild": {
-      "bestWeapon": "休息日",
-      "bestWeaponEn": "Day Off",
-      "alternativeWeapons": [],
-      "bestDiskSet": "裂空之牙",
-      "bestDiskSetEn": "Skyrending Fang",
-      "mainStats": {
-        "Sands": "攻击力%",
-        "Goblet": "元素伤害加成",
-        "Circlet": "暴击率"
-      },
-      "mainStatsEn": {
-        "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "CRIT Rate"
-      },
-      "subStatPriority": [
-        "暴击率",
-        "暴击伤害",
-        "攻击力%",
-        "速度"
-      ],
-      "subStatPriorityEn": [
-        "CRIT Rate",
-        "CRIT DMG",
-        "ATK%",
-        "Speed"
-      ]
-    },
-    "teamComps": [
-      {
-        "name": "零最佳配队",
-        "nameEn": "Zero Best Team",
-        "members": ["zero", "sakiri", "hotori", "nanally"],
-        "description": "零 + 咲里增益 + 凤里协同 + 娜娜莉主C的全面阵容",
-        "descriptionEn": "Zero + Sakiri buffs + Hotori synergy + Nanally DPS — versatile all-rounder team"
-      },
-      {
-        "name": "Eibon Antique Shop阵容",
-        "nameEn": "Eibon Antique Shop Team",
-        "members": ["zero", "nanally", "sakiri", "adler"],
-        "description": "全员Eibon古董店成员的阵容，羁绊加成丰富",
-        "descriptionEn": "Full Eibon Antique Shop roster with rich synergy bonuses"
-      }
-    ],
-    "image": "/images/characters/zero.webp",
-    "availableAtLaunch": true,
-    "acquisitionMethod": "story",
-    "descriptionEn": "A taciturn swordsman and core member of the Eibon Antique Shop. Wields the unique Instant Ring Fusion ability that fills his Ring Fusion gauge instantly. As the protagonist, he fits into almost any team composition and is widely considered a must-build character.",
-    "status": "available",
-    "nameTw": "零",
-    "arcType": "solid",
-    "signatureArc": "day-off"
   }
 ]
