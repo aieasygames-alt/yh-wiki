@@ -5,6 +5,7 @@ import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../compon
 import { CharacterCard } from "../../components/CharacterCard";
 import { SearchDialog } from "../../components/SearchDialog";
 import { GiscusComments } from "../../components/GiscusComments";
+import { KardzPromoCard } from "../../components/KardzPromoCard";
 
 export async function generateMetadata({
   params,
@@ -107,7 +108,7 @@ export default async function HomePage({
         {/* Tools Section */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-2xl font-bold mb-6">{isZhLocale(locale) ? "实用工具" : "Tools"}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4">
             {[
               { title: isZhLocale(locale) ? "升级计算器" : "Leveling Calc", desc: isZhLocale(locale) ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
               { title: isZhLocale(locale) ? "Build 计算器" : "Build Calc", desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
@@ -141,6 +142,7 @@ export default async function HomePage({
                 ruleword.com ↗
               </span>
             </a>
+            <KardzPromoCard locale={locale} variant="card" />
           </div>
         </section>
 

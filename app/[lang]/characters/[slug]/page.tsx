@@ -19,6 +19,7 @@ import { BuildRecommendation } from "../../../../components/BuildRecommendation"
 import { TeamCompCard } from "../../../../components/TeamCompCard";
 import { TierBadge } from "../../../../components/TierBadge";
 import { GiscusComments } from "../../../../components/GiscusComments";
+import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 
 /** Get character display name for a given locale */
 function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {
@@ -163,6 +164,11 @@ export default async function CharacterDetailPage({
         {character.teamComps && character.teamComps.length > 0 && (
           <TeamCompCard teams={character.teamComps} locale={locale} />
         )}
+
+        {/* Kardz Promo */}
+        <div className="mb-8">
+          <KardzPromoCard locale={locale} variant="compact" />
+        </div>
 
         {/* Leveling Materials - only for available characters */}
         {cm && character.status === "available" && (

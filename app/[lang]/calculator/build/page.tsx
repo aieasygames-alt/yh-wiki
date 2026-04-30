@@ -13,6 +13,7 @@ import {
 } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel, ATTRIBUTE_LABELS } from "../../../../lib/attributes";
 import { ShareBuildButton } from "../../../../components/ShareBuildButton";
+import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import buildsData from "../../../../data/builds.json";
 
 interface Build {
@@ -377,6 +378,10 @@ export default function BuildCalculatorPage() {
           <p className="text-sm">{t(lang, "buildCalculator.filterHint")}</p>
         </div>
       )}
+
+      <div className="mt-8">
+        <KardzPromoCard locale={lang} variant="banner" />
+      </div>
     </div>
   );
 }

@@ -8,6 +8,7 @@ import { getAllCharacters } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import gachaConfig from "../../../data/gacha.json";
 import { GameImage } from "../../../components/GameImage";
+import { KardzPromoCard } from "../../../components/KardzPromoCard";
 
 interface BannerConfig {
   id: string;
@@ -199,6 +200,10 @@ export default function GachaPage() {
     <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">{t(lang, "gacha.title")}</h1>
       <p className="text-sm text-gray-500 mb-8">{t(lang, "gacha.disclaimer")}</p>
+
+      <div className="mb-6">
+        <KardzPromoCard locale={lang} variant="banner" />
+      </div>
 
       {/* Banner Select */}
       <div className="flex gap-2 mb-6">

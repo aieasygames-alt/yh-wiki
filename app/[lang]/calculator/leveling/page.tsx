@@ -11,6 +11,7 @@ import {
   calculateMaterials,
 } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
+import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 
 export default function CalculatorPage() {
   const { lang: langParam } = useParams();
@@ -219,6 +220,10 @@ export default function CalculatorPage() {
           <p>{t(lang, "calculator.noResult")}</p>
         </div>
       )}
+
+      <div className="mt-8">
+        <KardzPromoCard locale={lang} variant="banner" />
+      </div>
     </div>
   );
 }
