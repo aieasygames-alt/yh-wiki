@@ -43,6 +43,8 @@ const locations = loadJson("locations.json");
 const blogPosts = loadJson("blog.json");
 const compares = loadJson("compares.json");
 const changelogs = loadJson("changelog.json");
+const anomalies = loadJson("anomalies.json");
+const diskSets = loadJson("disk-sets.json");
 
 const commonTags = [
   "s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana",
@@ -51,7 +53,8 @@ const commonTags = [
 
 const toolPages = ["calculator/leveling", "calculator/build", "gacha", "redeem-codes", "map", "system-requirements"];
 const guideSubPages = ["guides/gacha-system"];
-const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog"];
+const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets"];
+const staticInfoPages = ["about", "contact", "terms", "privacy-policy"];
 
 function escapeXml(str) {
   return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -104,6 +107,11 @@ toolPages.forEach((p) => {
 guideSubPages.forEach((p) => {
   langs.forEach((lang) => {
     pageUrls.push({ url: `${BASE_URL}/${lang}/${p}/`, priority: 0.9, changeFreq: "weekly" });
+  });
+});
+staticInfoPages.forEach((p) => {
+  langs.forEach((lang) => {
+    pageUrls.push({ url: `${BASE_URL}/${lang}/${p}/`, priority: 0.5, changeFreq: "monthly" });
   });
 });
 
@@ -183,6 +191,16 @@ langs.forEach((lang) => {
 changelogs.forEach((cl) => {
   langs.forEach((lang) => {
     otherUrls.push({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly" });
+  });
+});
+anomalies.forEach((a) => {
+  langs.forEach((lang) => {
+    otherUrls.push({ url: `${BASE_URL}/${lang}/anomalies/${a.id}/`, priority: 0.7, changeFreq: "monthly" });
+  });
+});
+diskSets.forEach((d) => {
+  langs.forEach((lang) => {
+    otherUrls.push({ url: `${BASE_URL}/${lang}/disk-sets/${d.id}/`, priority: 0.7, changeFreq: "monthly" });
   });
 });
 
