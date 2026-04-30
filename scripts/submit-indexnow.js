@@ -19,6 +19,7 @@ const KEY_LOCATION = `${BASE_URL}/${KEY}.txt`;
 
 // IndexNow endpoints
 const ENDPOINTS = [
+  "www.bing.com",        // Bing-specific endpoint
   "api.indexnow.org",    // Shared endpoint (submits to all engines)
 ];
 
@@ -46,7 +47,7 @@ function postIndexNow(urls) {
   const options = {
     hostname: ENDPOINTS[0],
     port: 443,
-    path: "/IndexNow",
+    path: "/indexnow",
     method: "POST",
     headers: {
       "Content-Type": "application/json",
