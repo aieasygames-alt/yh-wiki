@@ -2462,7 +2462,12 @@
     "questionEn": "Can I transfer servers if I picked the wrong one in NTE?",
     "answer": "目前异环不支持跨服转服功能。角色数据绑定在创建时的服务器上，无法迁移到其他服务器。建议在开始游戏前确认好要进入的服务器，和朋友提前沟通好选择同一服务器。如果不小心选错了，只能在新服务器重新创建角色。关注官方公告，未来可能开放转服功能。",
     "answerEn": "NTE currently does not support server transfers. Character data is bound to the server where it was created and cannot be migrated. Make sure to confirm your server choice before starting, and coordinate with friends to join the same server. If you picked the wrong one, you'll need to create a new character on the correct server. Watch for official announcements — server transfer may be added in the future.",
-    "tags": ["server", "transfer", "account", "troubleshooting"],
+    "tags": [
+      "server",
+      "transfer",
+      "account",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2475,7 +2480,12 @@
     "questionEn": "NTE login verification code not received? How to fix",
     "answer": "1)检查手机号是否输入正确 2)查看短信是否被拦截/归入垃圾短信 3)等待60秒后重新获取 4)切换网络（WiFi/4G/5G）重试 5)联系运营商确认没有屏蔽短信号码 6)如果仍无法收到，尝试使用邮箱登录方式 7)联系官方客服提供手机号和注册信息协助处理。",
     "answerEn": "1) Check that your phone number is entered correctly 2) Check if the SMS was blocked or filtered as spam 3) Wait 60 seconds and request again 4) Switch networks (WiFi/4G/5G) and retry 5) Contact your carrier to confirm the short code isn't blocked 6) If still not received, try logging in with email instead 7) Contact official customer support with your phone number and registration info for assistance.",
-    "tags": ["login", "verification", "sms", "troubleshooting"],
+    "tags": [
+      "login",
+      "verification",
+      "sms",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2488,7 +2498,13 @@
     "questionEn": "NTE PC login white screen or black screen fix",
     "answer": "1)更新显卡驱动至最新版本 2)删除游戏目录下的ShaderCache文件夹后重新启动 3)在启动器设置中切换DX11/DX12 4)关闭全屏优化：右键游戏exe→属性→兼容性→禁用全屏优化 5)以管理员身份运行 6)检查是否安装了最新的Visual C++运行库 7)尝试窗口化模式启动。",
     "answerEn": "1) Update GPU drivers to the latest version 2) Delete the ShaderCache folder in the game directory and restart 3) Switch between DX11/DX12 in launcher settings 4) Disable fullscreen optimization: right-click game exe → Properties → Compatibility → Disable fullscreen optimization 5) Run as administrator 6) Check that the latest Visual C++ runtime is installed 7) Try launching in windowed mode.",
-    "tags": ["white-screen", "black-screen", "login", "pc", "troubleshooting"],
+    "tags": [
+      "white-screen",
+      "black-screen",
+      "login",
+      "pc",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2501,7 +2517,12 @@
     "questionEn": "NTE server queue too long? How to reduce wait time",
     "answer": "高峰期（晚上7-11点、周末）排队人数较多属于正常现象。建议：1)避开高峰时段登录 2)选择人数较少的服务器 3)保持排队不要反复取消重排，否则会重新排队 4)关注官方维护公告，维护后登录人数激增 5)提前在非高峰时段保持在线。排队期间不要关闭游戏窗口。",
     "answerEn": "Long queues during peak hours (7-11 PM, weekends) are normal. Tips: 1) Avoid peak hours 2) Choose a less populated server 3) Stay in queue — don't cancel and re-queue or you'll restart 4) Watch for maintenance announcements — login surges after maintenance 5) Log in during off-peak hours and stay online. Don't close the game window while queuing.",
-    "tags": ["server", "queue", "wait", "troubleshooting"],
+    "tags": [
+      "server",
+      "queue",
+      "wait",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2514,7 +2535,12 @@
     "questionEn": "How to fix high latency and network lag in NTE?",
     "answer": "1)使用有线网络代替WiFi 2)关闭后台下载和流媒体应用 3)使用游戏加速器（迅游/biubiu/雷神等） 4)更换加速节点 5)重启路由器 6)检查DNS设置，尝试使用公共DNS（114.114.114.114或8.8.8.8） 7)海外玩家建议选择对应区域的加速线路。如果持续高延迟，可能是服务器维护，查看官方公告。",
     "answerEn": "1) Use a wired connection instead of WiFi 2) Close background downloads and streaming apps 3) Use a game VPN/accelerator (Xunyou/Biubiu/Leishen etc.) 4) Switch accelerator nodes 5) Restart your router 6) Check DNS settings — try public DNS (8.8.8.8 or 1.1.1.1) 7) Overseas players should select the appropriate regional acceleration route. If latency persists, check official announcements for server maintenance.",
-    "tags": ["latency", "network", "lag", "troubleshooting"],
+    "tags": [
+      "latency",
+      "network",
+      "lag",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2527,7 +2553,13 @@
     "questionEn": "NTE DX12 error or failed to launch? How to fix",
     "answer": "1)确认显卡支持DX12（GTX 700系列以下不支持） 2)在启动器设置中切换为DX11模式 3)更新Windows系统至最新版本 4)更新显卡驱动 5)运行DirectX修复工具 6)检查游戏文件完整性（启动器→设置→修复）。如果显卡不支持DX12，只能使用DX11模式，部分画面效果会有差异。",
     "answerEn": "1) Confirm your GPU supports DX12 (GTX 700 series and below do not) 2) Switch to DX11 mode in launcher settings 3) Update Windows to the latest version 4) Update GPU drivers 5) Run DirectX repair tool 6) Verify game file integrity (Launcher → Settings → Repair). If your GPU doesn't support DX12, you can only use DX11 mode — some visual effects may differ.",
-    "tags": ["dx12", "dx11", "launch-error", "pc", "troubleshooting"],
+    "tags": [
+      "dx12",
+      "dx11",
+      "launch-error",
+      "pc",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2540,7 +2572,13 @@
     "questionEn": "NTE getting laggier over time? Memory leak fix",
     "answer": "这是已知的内存泄漏问题。解决方案：1)每玩1-2小时重启一次游戏 2)关闭游戏内不必要的后台功能（录屏、直播等） 3)降低画质设置减少显存占用 4)确保系统有足够可用内存（建议16GB以上） 5)关闭其他占用内存的程序（浏览器、Discord等） 6)等待官方补丁修复。",
     "answerEn": "This is a known memory leak issue. Workarounds: 1) Restart the game every 1-2 hours 2) Disable unnecessary in-game background features (recording, streaming) 3) Lower graphics settings to reduce VRAM usage 4) Ensure sufficient system RAM (16GB+ recommended) 5) Close other memory-intensive programs (browsers, Discord, etc.) 6) Wait for an official patch.",
-    "tags": ["memory", "lag", "crash", "performance", "troubleshooting"],
+    "tags": [
+      "memory",
+      "lag",
+      "crash",
+      "performance",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2553,7 +2591,14 @@
     "questionEn": "NTE causing GPU/CPU overheating? How to cool down",
     "answer": "PC端：1)降低画质设置（尤其阴影和特效质量） 2)限制帧率上限（60fps） 3)清理电脑内部灰尘 4)确保机箱散热良好 5)笔记本用户使用散热垫 6)更新显卡驱动。移动端：1)降低画质和帧率 2)摘掉手机壳散热 3)避免边充电边玩 4)在空调环境下游戏 5)使用手机散热风扇。",
     "answerEn": "PC: 1) Lower graphics settings (especially shadows and effects) 2) Cap frame rate at 60fps 3) Clean dust inside your PC 4) Ensure good case airflow 5) Laptop users should use a cooling pad 6) Update GPU drivers. Mobile: 1) Lower graphics and frame rate 2) Remove phone case for better heat dissipation 3) Avoid playing while charging 4) Play in an air-conditioned environment 5) Use a phone cooling fan.",
-    "tags": ["overheating", "temperature", "gpu", "cpu", "performance", "troubleshooting"],
+    "tags": [
+      "overheating",
+      "temperature",
+      "gpu",
+      "cpu",
+      "performance",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2566,7 +2611,13 @@
     "questionEn": "NTE black screen after Alt+Tab? How to fix",
     "answer": "1)在游戏设置中切换为窗口化或无边框窗口模式 2)按Alt+Enter切换全屏模式 3)按Ctrl+Shift+Esc打开任务管理器再切回游戏 4)禁用全屏优化（右键游戏exe→属性→兼容性） 5)更新显卡驱动。最有效的解决方案是使用无边框窗口模式，虽然略微影响性能但可以避免切屏黑屏问题。",
     "answerEn": "1) Switch to windowed or borderless windowed mode in game settings 2) Press Alt+Enter to toggle fullscreen 3) Press Ctrl+Shift+Esc to open Task Manager, then switch back to the game 4) Disable fullscreen optimization (right-click game exe → Properties → Compatibility) 5) Update GPU drivers. The most effective solution is using borderless windowed mode — slight performance trade-off but avoids the black screen issue.",
-    "tags": ["black-screen", "alt-tab", "fullscreen", "pc", "troubleshooting"],
+    "tags": [
+      "black-screen",
+      "alt-tab",
+      "fullscreen",
+      "pc",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2579,7 +2630,13 @@
     "questionEn": "NTE mobile overheating and frame rate drops? How to fix",
     "answer": "1)在游戏设置中将画质调至「均衡」或「流畅」 2)关闭高帧率模式（60fps即可） 3)摘掉手机壳帮助散热 4)避免边充电边玩 5)关闭后台应用 6)在空调或风扇环境下游戏 7)使用半导体散热背夹效果最佳 8)发烫后暂停游戏5-10分钟让手机降温。iPhone用户注意低电量模式会自动降频。",
     "answerEn": "1) Set graphics to 'Balanced' or 'Smooth' in game settings 2) Disable high frame rate mode (60fps is fine) 3) Remove phone case for heat dissipation 4) Avoid playing while charging 5) Close background apps 6) Play in an air-conditioned or fanned environment 7) A semiconductor cooling clip works best 8) Pause for 5-10 minutes when the device gets hot. iPhone users note that Low Power Mode will throttle performance.",
-    "tags": ["mobile", "overheating", "frame-rate", "phone", "troubleshooting"],
+    "tags": [
+      "mobile",
+      "overheating",
+      "frame-rate",
+      "phone",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2592,7 +2649,13 @@
     "questionEn": "NTE mobile not enough storage space to install? Solutions",
     "answer": "异环移动端完整安装约需20-25GB空间。解决方法：1)清理手机不常用的应用和缓存 2)删除照片和视频到云端释放空间 3)卸载其他大型游戏腾出空间 4)如果空间实在不够，可以使用PC版（约30-40GB）或云游戏版本 5)安装时确保留出额外5GB以上的缓冲空间用于解压。安卓用户可以将游戏安装到SD卡（部分机型支持）。",
     "answerEn": "NTE mobile requires approximately 20-25GB of storage. Solutions: 1) Clean up unused apps and cache 2) Move photos and videos to cloud storage 3) Uninstall other large games 4) If storage is still insufficient, consider the PC version (~30-40GB) or cloud gaming 5) Keep at least 5GB extra free space for decompression during install. Android users may be able to install to SD card (device dependent).",
-    "tags": ["storage", "install", "mobile", "space", "troubleshooting"],
+    "tags": [
+      "storage",
+      "install",
+      "mobile",
+      "space",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2605,7 +2668,13 @@
     "questionEn": "NTE Android crashing frequently? How to fix",
     "answer": "1)确认手机满足最低配置（骁龙845/天玑1000+同等或以上，6GB内存以上） 2)在开发者选项中限制后台进程数为4个 3)关闭内存扩展/虚拟内存功能（部分品牌此功能反而导致闪退） 4)降低游戏画质设置 5)清理后台应用释放内存 6)重启手机后进入游戏 7)更新游戏到最新版本 8)如仍闪退，可能是机型兼容问题，等待官方适配更新。",
     "answerEn": "1) Confirm your device meets minimum specs (Snapdragon 845 / Dimensity 1000+ equivalent or better, 6GB+ RAM) 2) Limit background processes to 4 in Developer Options 3) Disable virtual memory / RAM expansion (causes crashes on some brands) 4) Lower in-game graphics settings 5) Close background apps to free memory 6) Restart your phone before launching the game 7) Update the game to the latest version 8) If crashing persists, it may be a device compatibility issue — wait for an official compatibility update.",
-    "tags": ["android", "crash", "memory", "mobile", "troubleshooting"],
+    "tags": [
+      "android",
+      "crash",
+      "memory",
+      "mobile",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2618,7 +2687,13 @@
     "questionEn": "NTE iPhone graphics blurry or low quality? How to improve",
     "answer": "1)进入游戏设置→画面，手动调高渲染分辨率和画质等级 2)部分iPhone机型默认低画质以保帧率，关闭「自动画质」后手动设置 3)iPhone 13以下机型建议开到「均衡」画质，强行开高画质会导致发热和掉帧 4)确保iOS系统为最新版本 5)关闭低电量模式（设置→电池→低电量模式），该模式会限制GPU性能导致画质下降。",
     "answerEn": "1) Go to game Settings → Graphics and manually increase render resolution and quality level 2) Some iPhone models default to low quality to maintain frame rate — disable 'Auto Quality' and set manually 3) iPhone 13 and below should use 'Balanced' quality — forcing higher settings causes overheating and frame drops 4) Ensure iOS is updated to the latest version 5) Disable Low Power Mode (Settings → Battery → Low Power Mode) as it limits GPU performance and reduces quality.",
-    "tags": ["ios", "iphone", "graphics", "quality", "troubleshooting"],
+    "tags": [
+      "ios",
+      "iphone",
+      "graphics",
+      "quality",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2631,7 +2706,12 @@
     "questionEn": "NTE PS5 download interrupted or install failed? Fix",
     "answer": "1)暂停下载后重新继续 2)检查PS5系统存储空间（至少留出50GB） 3)重启PS5后重新下载 4)检查网络连接，建议使用有线网络 5)进入PS5设置→下载/上传→暂停所有其他下载 6)如果反复中断，尝试删除已下载的部分文件重新下载 7)更改PS5DNS设置（使用8.8.8.8或1.1.1.1） 8)在PSN状态页面确认服务正常。",
     "answerEn": "1) Pause and resume the download 2) Check PS5 system storage (keep at least 50GB free) 3) Restart PS5 and retry the download 4) Check network connection — use a wired connection 5) Go to PS5 Settings → Downloads/Uploads → Pause all other downloads 6) If it keeps interrupting, delete the partial download and start fresh 7) Change PS5 DNS settings (use 8.8.8.8 or 1.1.1.1) 8) Check the PSN status page to confirm services are running.",
-    "tags": ["ps5", "download", "install", "troubleshooting"],
+    "tags": [
+      "ps5",
+      "download",
+      "install",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2644,7 +2724,12 @@
     "questionEn": "NTE character stuck in map or wall? How to get unstuck",
     "answer": "1)打开地图传送到最近的传送点 2)使用快速旅行功能（如可用） 3)重新登录游戏 4)如果战斗中卡住，等待被怪物击败后自动复活在安全区域 5)使用角色的位移技能尝试脱离 6)以上方法都不行时，联系客服说明卡住的位置。建议遇到容易卡住的地形时截图反馈给官方，帮助修复地图碰撞问题。",
     "answerEn": "1) Open the map and teleport to the nearest waypoint 2) Use fast travel if available 3) Re-login to the game 4) If stuck during combat, wait to be defeated — you'll auto-respawn at a safe location 5) Try using a character's dash/dodge skill to escape 6) If nothing works, contact customer support with your stuck location. Screenshot and report terrain that causes stuck issues to help the developers fix collision bugs.",
-    "tags": ["stuck", "map", "bug", "troubleshooting"],
+    "tags": [
+      "stuck",
+      "map",
+      "bug",
+      "troubleshooting"
+    ],
     "category": "游戏Bug",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
@@ -2657,7 +2742,12 @@
     "questionEn": "NTE quest NPC not spawning or can't pick up quest items? Fix",
     "answer": "1)离开当前区域后返回，NPC可能会刷新 2)传送至其他区域再传送回来 3)重新登录游戏 4)检查是否缺少前置任务条件 5)确认背包是否已满（部分任务物品无法拾取是因为背包满了） 6)查看任务日志确认当前步骤 7)如果是已知Bug，查看官方公告是否有修复时间表 8)向客服反馈，提供角色名、服务器、任务名称和问题描述。",
     "answerEn": "1) Leave the area and return — the NPC may respawn 2) Teleport to another area and teleport back 3) Re-login to the game 4) Check if you're missing prerequisite quest conditions 5) Check if your inventory is full (some quest items can't be picked up with full inventory) 6) Check your quest log for the current step 7) If it's a known bug, check official announcements for a fix timeline 8) Report to customer support with your character name, server, quest name, and issue description.",
-    "tags": ["quest", "npc", "bug", "troubleshooting"],
+    "tags": [
+      "quest",
+      "npc",
+      "bug",
+      "troubleshooting"
+    ],
     "category": "游戏Bug",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
@@ -2670,7 +2760,13 @@
     "questionEn": "NTE gacha/wish animation stuck or results not showing? Fix",
     "answer": "1)等待30秒，有时是网络延迟导致结果加载慢 2)重启游戏后查看抽卡历史记录确认是否抽卡成功 3)检查网络连接 4)清除游戏缓存后重试 5)抽卡记录在「祈愿记录」中可查看，确认是否实际消耗了抽卡资源。如果资源被消耗但未获得结果，截图联系客服补偿。",
     "answerEn": "1) Wait 30 seconds — sometimes network delay causes slow result loading 2) Restart the game and check gacha history to confirm if the pull went through 3) Check your network connection 4) Clear game cache and retry 5) Pull records can be viewed in 'Wish History' — confirm if pull currency was actually consumed. If currency was spent but no results given, screenshot and contact support for compensation.",
-    "tags": ["gacha", "wish", "animation", "bug", "troubleshooting"],
+    "tags": [
+      "gacha",
+      "wish",
+      "animation",
+      "bug",
+      "troubleshooting"
+    ],
     "category": "游戏Bug",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
@@ -2683,7 +2779,12 @@
     "questionEn": "NTE suddenly lost all sound? How to fix audio issues",
     "answer": "1)检查游戏内音量设置是否被调到最低 2)检查系统音量设置 3)检查耳机/扬声器连接 4)重启游戏 5)在游戏设置中切换音频输出设备 6)PC端：检查音频驱动是否正常，右键音量图标→播放设备确认默认设备正确 7)如果只有部分音效丢失（如战斗音效），可能是游戏Bug，等待更新修复。",
     "answerEn": "1) Check if in-game volume settings were turned down 2) Check system volume settings 3) Check headphone/speaker connections 4) Restart the game 5) Switch audio output device in game settings 6) PC: Check audio drivers — right-click volume icon → Playback devices and confirm the default device is correct 7) If only specific sounds are missing (e.g., combat SFX), it may be a game bug — wait for an update.",
-    "tags": ["sound", "audio", "bug", "troubleshooting"],
+    "tags": [
+      "sound",
+      "audio",
+      "bug",
+      "troubleshooting"
+    ],
     "category": "游戏Bug",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
@@ -2696,7 +2797,13 @@
     "questionEn": "NTE touch controls not responding during combat? Fix",
     "answer": "1)清理手机屏幕（油污和水分影响触控） 2)取下手机膜试试（部分防窥膜/钢化膜影响触控灵敏度） 3)重启游戏 4)在游戏设置中重置按键布局 5)关闭防误触模式 6)如果是特定技能按钮失灵，尝试调整按钮位置和大小 7)更新游戏到最新版本。部分安卓机型存在触控采样率过低的问题，建议使用游戏模式。",
     "answerEn": "1) Clean your phone screen (oil and moisture affect touch sensitivity) 2) Try removing your screen protector (some privacy/glass protectors affect touch sensitivity) 3) Restart the game 4) Reset button layout in game settings 5) Disable accidental touch protection 6) If specific skill buttons are unresponsive, try adjusting button position and size 7) Update to the latest game version. Some Android devices have low touch sampling rates — try enabling Game Mode.",
-    "tags": ["touch", "controls", "mobile", "combat", "troubleshooting"],
+    "tags": [
+      "touch",
+      "controls",
+      "mobile",
+      "combat",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2709,7 +2816,12 @@
     "questionEn": "NTE payment successful but in-game currency not received? Fix",
     "answer": "1)等待最多24小时，部分支付渠道到账有延迟 2)检查支付订单号确认扣款成功 3)退出游戏重新登录查看 4)检查是否充到了正确的服务器和账号 5)如果24小时后仍未到账，联系官方客服并提供：游戏UID、充值时间、金额、订单号、支付截图。iOS用户如申请退款可能导致账号封禁，请谨慎操作。",
     "answerEn": "1) Wait up to 24 hours — some payment channels have processing delays 2) Check your payment order number to confirm the charge went through 3) Log out and back in to check 4) Verify you topped up on the correct server and account 5) If not received after 24 hours, contact customer support with: game UID, recharge time, amount, order number, and payment screenshot. iOS users: requesting refunds may result in account bans — proceed with caution.",
-    "tags": ["recharge", "payment", "currency", "troubleshooting"],
+    "tags": [
+      "recharge",
+      "payment",
+      "currency",
+      "troubleshooting"
+    ],
     "category": "充值与账号",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
@@ -2722,7 +2834,13 @@
     "questionEn": "NTE first recharge double bonus disappeared after reinstall? Fix",
     "answer": "首充双倍重置是已知的显示Bug，实际充值记录保存在服务器端。1)退出游戏重新登录 2)检查充值历史记录确认双倍状态 3)如果确实显示异常，截图反馈给客服 4)不要重复充值尝试触发双倍，可能造成浪费。官方通常会在后续更新中修复首充显示问题。",
     "answerEn": "The first-recharge double bonus reset is a known display bug — actual purchase records are saved server-side. 1) Log out and back in 2) Check purchase history to confirm double bonus status 3) If the display is clearly wrong, screenshot and report to customer support 4) Don't try re-purchasing to trigger the double bonus — it may waste money. The developers usually fix first-recharge display issues in a subsequent update.",
-    "tags": ["recharge", "double-bonus", "bug", "account", "troubleshooting"],
+    "tags": [
+      "recharge",
+      "double-bonus",
+      "bug",
+      "account",
+      "troubleshooting"
+    ],
     "category": "充值与账号",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
@@ -2735,7 +2853,12 @@
     "questionEn": "NTE monthly pass purchased but daily rewards not received? Fix",
     "answer": "1)确认月卡是否激活成功：进入商城→月卡页面查看状态 2)每日奖励需要在当天手动领取，不会自动发放到邮箱 3)检查是否在正确的服务器上 4)如果显示已购买但无法领取，重新登录后重试 5)联系客服提供购买记录和UID。注意月卡有效期为30天，过期后需要重新购买。",
     "answerEn": "1) Confirm the monthly pass is active: go to Shop → Monthly Pass page and check status 2) Daily rewards must be manually claimed each day — they are not auto-sent to mail 3) Check if you're on the correct server 4) If it shows purchased but can't claim, re-login and try again 5) Contact support with purchase records and UID. Note: the monthly pass lasts 30 days and must be repurchased after expiration.",
-    "tags": ["monthly-card", "reward", "payment", "troubleshooting"],
+    "tags": [
+      "monthly-card",
+      "reward",
+      "payment",
+      "troubleshooting"
+    ],
     "category": "充值与账号",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
@@ -2748,7 +2871,12 @@
     "questionEn": "NTE co-op matchmaking not finding teammates? Fix",
     "answer": "1)确认已解锁联机功能（需要完成一定主线进度） 2)检查世界等级设置，过高的世界等级匹配范围较小 3)尝试降低匹配条件 4)在聊天频道主动发起组队邀请 5)让好友直接通过UID邀请你 6)避开凌晨等低活跃时段 7)检查网络连接是否正常。部分副本需要先解锁才能联机。",
     "answerEn": "1) Confirm you've unlocked co-op (requires certain main story progress) 2) Check your World Level — higher levels have smaller matchmaking pools 3) Try lowering matchmaking requirements 4) Post in chat channels to invite teammates directly 5) Have friends invite you via UID 6) Avoid low-activity hours like late night 7) Check your network connection. Some dungeons need to be unlocked before co-op is available.",
-    "tags": ["co-op", "multiplayer", "matchmaking", "troubleshooting"],
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "matchmaking",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
@@ -2761,7 +2889,13 @@
     "questionEn": "NTE account progress lost after switching devices? How to recover",
     "answer": "1)确认使用的是同一个账号登录（不是游客账号） 2)确认登录的是同一个服务器 3)如果是第三方登录（微信/QQ/Apple），确保使用相同的第三方账号 4)游客账号数据只保存在本地，换设备无法恢复 5)在登录界面选择「已有账号」而不是「注册新账号」 6)如确认账号和服务器正确但进度丢失，联系客服提供UID、服务器、注册信息协助查找。",
     "answerEn": "1) Confirm you're logging in with the same account (not a guest account) 2) Confirm you're on the same server 3) For third-party login (WeChat/QQ/Apple), make sure you use the same third-party account 4) Guest account data is only saved locally and cannot be recovered on a new device 5) On the login screen, select 'Existing Account' instead of 'Register New Account' 6) If account and server are correct but progress is missing, contact support with your UID, server, and registration info.",
-    "tags": ["account", "progress", "device", "recovery", "troubleshooting"],
+    "tags": [
+      "account",
+      "progress",
+      "device",
+      "recovery",
+      "troubleshooting"
+    ],
     "category": "充值与账号",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
@@ -2774,7 +2908,13 @@
     "questionEn": "NTE auto-battle AI not moving or using skills? Fix",
     "answer": "1)确认已开启自动战斗模式 2)检查角色的技能是否有足够的能量/资源释放 3)部分角色的自动AI行为逻辑有限，可能需要手动释放关键技能 4)重新进入战斗触发AI重置 5)在设置中检查自动战斗相关选项 6)如果AI完全不动，退出战斗重新进入 7)这是已知问题，官方正在优化自动战斗AI，关注版本更新日志。",
     "answerEn": "1) Confirm auto-battle mode is enabled 2) Check if the character has enough energy/resources to use skills 3) Some characters have limited auto-battle AI logic — you may need to manually use key skills 4) Re-enter combat to reset the AI 5) Check auto-battle options in settings 6) If AI completely stops, exit and re-enter combat 7) This is a known issue — the developers are optimizing auto-battle AI. Check patch notes for updates.",
-    "tags": ["auto-battle", "ai", "bug", "combat", "troubleshooting"],
+    "tags": [
+      "auto-battle",
+      "ai",
+      "bug",
+      "combat",
+      "troubleshooting"
+    ],
     "category": "游戏Bug",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
@@ -2787,10 +2927,339 @@
     "questionEn": "NTE low FPS in town/city areas? Performance optimization",
     "answer": "城镇场景由于NPC和建筑较多，对GPU和CPU要求较高。优化建议：1)降低「场景复杂度」和「阴影质量」设置 2)关闭「体积雾」和「屏幕空间反射」 3)降低渲染分辨率（90%或更低） 4)限制帧率上限 5)安装到SSD减少加载卡顿 6)关闭后台程序释放CPU资源 7)GTX 1060等中低端显卡建议整体画质设为「低」或「中」。",
     "answerEn": "Town areas have many NPCs and buildings, demanding more from GPU and CPU. Optimization tips: 1) Lower 'Scene Complexity' and 'Shadow Quality' settings 2) Disable 'Volumetric Fog' and 'Screen Space Reflections' 3) Lower render resolution (90% or below) 4) Cap the frame rate 5) Install on SSD to reduce loading stutter 6) Close background programs to free CPU resources 7) Mid-range GPUs like GTX 1060 should use 'Low' or 'Medium' overall quality.",
-    "tags": ["fps", "town", "performance", "optimization", "troubleshooting"],
+    "tags": [
+      "fps",
+      "town",
+      "performance",
+      "optimization",
+      "troubleshooting"
+    ],
     "category": "技术支持",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-ai-art-controversy",
+    "question": "异环用了AI美术吗？制作人是怎么回应的？",
+    "questionEn": "Does NTE use AI art? What did the developer say about AI-generated content?",
+    "answer": "异环在公测前后确实引发了AI美术争议，部分玩家质疑角色立绘和场景美术使用了AI生成。制作人杨磊在公测前的专访中公开承诺：后续核心资产和角色立绘坚决不用AI。相关话题曾登上热搜，讨论量接近百万。这一承诺反映了玩家对游戏美术原创性的高度关注。目前异环的美术主要由人工创作，玩家可以放心。",
+    "answerEn": "NTE did face AI art controversy around launch, with some players questioning whether character illustrations and environment art used AI generation. Producer Yang Lei publicly promised in a pre-launch interview that future core assets and character illustrations will absolutely NOT use AI. The topic trended on social media with nearly a million discussions. This commitment reflects the community's high expectations for original artwork. Currently, NTE's art is primarily hand-crafted by human artists.",
+    "seoTitleZh": "异环用了AI吗？制作人承诺不用AI美术（2026最新回应）",
+    "seoTitleEn": "Does NTE Use AI Art? Developer's Promise on AI-Generated Content (2026)",
+    "seoDescriptionZh": "异环AI美术争议完整说明。制作人杨磊公开承诺后续核心资产和角色立绘坚决不用AI。了解异环AI相关争议的最新回应。",
+    "seoDescriptionEn": "NTE AI art controversy explained. Producer Yang Lei promised no AI for core assets and character illustrations. Get the latest on NTE's AI stance.",
+    "tags": [
+      "ai",
+      "controversy",
+      "developer"
+    ],
+    "category": "general",
+    "categoryZh": "游戏资讯",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-to-get-modules",
+    "question": "异环模块（Modules）怎么获取？模块系统是什么？",
+    "questionEn": "How to get Modules in NTE? What is the Module system?",
+    "answer": "模块（Modules）是异环中提升角色战斗力的重要装备系统。模块主要通过以下途径获取：1）模块副本（异域）：消耗体力挑战不同难度的模块副本，高难度掉落高品质模块；2）城市探索：在海瑟劳各区域探索时可以发现隐藏的模块宝箱；3）商店兑换：使用特定货币在商店中兑换模块；4）活动和任务奖励：完成限时活动和主线任务可获得高品质模块。模块有不同星级和主属性，建议优先获取与角色属性匹配的模块套装，以激活套装效果获得额外加成。",
+    "answerEn": "Modules are an important equipment system in NTE that boost your character's combat power. You can obtain Modules through: 1) Module Domains — spend stamina to challenge different difficulty levels, higher difficulties drop higher quality Modules; 2) City Exploration — find hidden Module chests throughout Hethereau; 3) Shop Exchange — trade specific currencies for Modules; 4) Events & Quests — complete limited-time events and main story quests for high-quality Modules. Modules come in different star ratings and main stats. Prioritize Modules matching your character's attribute to activate set bonuses for extra effects.",
+    "seoTitleZh": "异环模块怎么获取？模块副本、获取途径与强化攻略",
+    "seoTitleEn": "How to Get Modules in NTE — Module Domains, Farming Guide & Best Sets",
+    "seoDescriptionZh": "异环模块系统详解：模块副本位置、最佳刷取路线、模块强化攻略，帮你快速提升角色战斗力。",
+    "seoDescriptionEn": "Complete NTE Module guide: Module Domain locations, best farming routes, upgrade tips to boost your character's combat power fast.",
+    "tags": [
+      "modules",
+      "equipment",
+      "beginner"
+    ],
+    "category": "equipment",
+    "categoryZh": "装备系统",
+    "categoryEn": "Equipment",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "hospital-location-guide",
+    "question": "异环医院在哪里？医院任务怎么做？",
+    "questionEn": "Where is the Hospital in NTE? How to complete Hospital missions?",
+    "answer": "异环中的医院（维特海姆中央医院）是海瑟劳城的重要地点之一，位于主城区北部。医院是一个多层的室内探索区域，包含多个异象事件和隐藏任务。进入医院需要先完成主线剧情第三章的相关任务解锁。医院内的主要内容包括：1）异象清理任务——清除医院内各楼层的异常现象；2）隐藏档案收集——在各个房间寻找散落的病历档案；3）Boss战——地下层有一个强力异象Boss需要击败。建议角色等级达到30级以上再挑战医院高难度内容。",
+    "answerEn": "The Hospital (Vithem Central Hospital) in NTE is a key location in Hethereau, located in the northern part of the main city district. It's a multi-floor indoor exploration area with multiple anomaly events and hidden quests. Access requires completing Main Story Chapter 3. Hospital content includes: 1) Anomaly cleanup missions — clear anomalies on each floor; 2) Hidden archive collection — find scattered medical records; 3) Boss fight — a powerful Anomaly boss awaits in the basement. Recommended character level 30+ for harder Hospital content.",
+    "seoTitleZh": "异环医院在哪里？维特海姆中央医院任务攻略",
+    "seoTitleEn": "NTE Hospital Location Guide — Vithem Central Hospital Missions & Walkthrough",
+    "seoDescriptionZh": "异环医院位置、进入条件、各楼层异象任务攻略、隐藏档案收集、Boss战打法详解。",
+    "seoDescriptionEn": "NTE Hospital location, unlock requirements, floor-by-floor anomaly missions, hidden archives, and boss fight strategy guide.",
+    "tags": [
+      "hospital",
+      "location",
+      "quest"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "headless-rider-guide",
+    "question": "异环无头骑士是什么？怎么触发和击败无头骑士？",
+    "questionEn": "What is the Headless Rider in NTE? How to trigger and defeat it?",
+    "answer": "无头骑士（Headless Rider）是异环中一个神秘的世界Boss/特殊事件，出现在海瑟劳城的特定区域。无头骑士通常在夜间（游戏内时间）出现在城市东部的旧城区附近。触发条件：需要先完成主线第二章，然后在夜间探索旧城区时有概率遇到。无头骑士的战斗特点：1）高机动性，会快速冲锋和范围攻击；2）弱点是背部核心，需要利用闪避绕后输出；3）推荐使用Anima属性角色克制。击败后掉落稀有模块和专属成就。建议组队挑战，单人难度较高。",
+    "answerEn": "The Headless Rider is a mysterious world boss/special event in NTE that appears in specific areas of Hethereau. It typically spawns at night (in-game time) near the Old Town district in eastern Hethereau. Trigger: Complete Main Story Chapter 2, then explore Old Town at night for a chance encounter. Combat tips: 1) High mobility with fast charges and AoE attacks; 2) Weak point is the core on its back — dodge behind it to deal damage; 3) Anima-attribute characters have advantage. Drops rare Modules and an exclusive achievement. Team recommended for this challenging fight.",
+    "seoTitleZh": "异环无头骑士怎么打？触发条件、位置与打法攻略",
+    "seoTitleEn": "NTE Headless Rider Boss Guide — Spawn Location, How to Trigger & Beat It",
+    "seoDescriptionZh": "异环无头骑士出现位置、触发条件、战斗机制详解、推荐配队与掉落奖励。",
+    "seoDescriptionEn": "NTE Headless Rider spawn location, trigger conditions, combat mechanics, recommended teams, and drop rewards.",
+    "tags": [
+      "boss",
+      "headless-rider",
+      "world-boss"
+    ],
+    "category": "boss",
+    "categoryZh": "首领攻略",
+    "categoryEn": "Boss Guides",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "day-off-arc-guide",
+    "question": "异环休息日（Day Off）是什么？休息日事件怎么做？",
+    "questionEn": "What is Day Off in NTE? How to complete Day Off Arc events?",
+    "answer": "休息日（Day Off Arc）是异环中一个特色的角色互动系统。当角色的好感度达到一定等级后，可以触发该角色的专属休息日事件。在休息日中，你可以和角色一起在城市中自由活动，包括逛街、吃饭、拍照等互动。完成休息日事件可以获得大量好感度经验、专属对话和限定奖励。触发条件：角色好感度达到3级以上，在角色界面查看是否有可触发的休息日事件。每个角色有独特的休息日剧情，是深入了解角色背景故事的重要方式。",
+    "answerEn": "Day Off Arc is a unique character interaction system in NTE. When a character's affinity reaches a certain level, you can trigger their exclusive Day Off event. During Day Off, you can freely explore the city with the character — shopping, dining, taking photos, and more. Completing Day Off events grants affinity experience, exclusive dialogue, and limited rewards. Trigger: Character affinity level 3+. Check the character screen for available Day Off events. Each character has unique Day Off storylines — a great way to learn their backstories.",
+    "seoTitleZh": "异环休息日（Day Off）怎么触发？角色约会事件攻略",
+    "seoTitleEn": "NTE Day Off Arc Guide — How to Trigger Character Date Events & Rewards",
+    "seoDescriptionZh": "异环休息日事件触发条件、各角色休息日攻略、好感度要求与专属奖励一览。",
+    "seoDescriptionEn": "NTE Day Off Arc trigger conditions, character-specific guides, affinity requirements, and exclusive rewards.",
+    "tags": [
+      "day-off",
+      "character",
+      "interaction"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法攻略",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "pink-paws-heist-guide",
+    "question": "异环粉爪劫案（Pink Paws Heist）怎么做？攻略流程是什么？",
+    "questionEn": "How to complete Pink Paws Heist in NTE? Full walkthrough guide",
+    "answer": "粉爪劫案（Pink Paws Heist）是异环中一个精彩的限时联机活动任务。这个任务需要玩家组队（2-4人）参与，在限定时间内完成一系列劫案挑战。攻略流程：1）在活动面板中接取粉爪劫案任务；2）组队进入专属副本区域；3）按照提示完成潜入、破解和逃脱三个阶段；4）每个阶段有时间限制，需要在倒计时结束前完成目标。奖励包括大量环石、限定头像框和稀有模块。建议与好友组队，沟通配合可以大幅提高通关效率。单人也可以匹配随机玩家组队。",
+    "answerEn": "Pink Paws Heist is an exciting limited-time co-op event in NTE. It requires a team of 2-4 players to complete a series of heist challenges within a time limit. Walkthrough: 1) Accept the Pink Paws Heist quest from the Event panel; 2) Enter the dedicated co-op dungeon; 3) Complete three phases: infiltration, hacking, and escape; 4) Each phase has a time limit. Rewards include Ring Stones, exclusive avatar frames, and rare Modules. Team up with friends for best results, or match with random players.",
+    "seoTitleZh": "异环粉爪劫案攻略：组队流程、通关技巧与奖励",
+    "seoTitleEn": "NTE Pink Paws Heist Complete Guide — Co-op Walkthrough, Tips & Rewards",
+    "seoDescriptionZh": "异环粉爪劫案活动完整攻略：组队要求、三阶段通关流程、时间限制技巧、奖励一览。",
+    "seoDescriptionEn": "Complete NTE Pink Paws Heist guide: team requirements, three-phase walkthrough, time management tips, and reward list.",
+    "tags": [
+      "pink-paws",
+      "heist",
+      "co-op",
+      "event"
+    ],
+    "category": "event",
+    "categoryZh": "活动攻略",
+    "categoryEn": "Events",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "lonely-player-guide",
+    "question": "异环孤独玩家（Lonely Player）是什么？怎么触发？",
+    "questionEn": "What is the Lonely Player in NTE? How to trigger this event?",
+    "answer": "孤独玩家（Lonely Player）是异环中的一个隐藏NPC事件/彩蛋。在海瑟劳城的某些特定位置（如公园长椅、天台、地铁站等），你会遇到一个独处的NPC角色。与这个NPC多次对话后，会触发一系列隐藏任务链，讲述一个关于孤独与陪伴的感人小故事。完成全部对话和任务后，可以获得环石奖励和隐藏成就。这个彩蛋致敬了都市生活中孤独的人群，与异环的都市超自然主题相呼应。探索城市时多留意角落里的NPC，可能会发现更多类似的隐藏故事。",
+    "answerEn": "The Lonely Player is a hidden NPC event/easter egg in NTE. In specific locations around Hethereau (park benches, rooftops, subway stations), you'll encounter a solitary NPC. After multiple conversations, this triggers a hidden quest chain telling a touching story about loneliness and companionship. Completing all dialogues and quests grants Ring Stones and a hidden achievement. This easter egg pays tribute to lonely people in city life, resonating with NTE's supernatural urban theme. Look out for NPCs in corners while exploring — there are more hidden stories to discover.",
+    "seoTitleZh": "异环孤独玩家NPC事件攻略：触发位置与隐藏任务链",
+    "seoTitleEn": "NTE Lonely Player Hidden Event Guide — Location, Quest Chain & Rewards",
+    "seoDescriptionZh": "异环孤独玩家隐藏事件触发条件、NPC位置、对话流程、隐藏任务链与奖励。",
+    "seoDescriptionEn": "NTE Lonely Player hidden event trigger conditions, NPC locations, dialogue walkthrough, quest chain and rewards.",
+    "tags": [
+      "hidden",
+      "npc",
+      "easter-egg"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "ride-assault-guide",
+    "question": "异环突袭驾驶（Ride Assault）怎么玩？攻略技巧",
+    "questionEn": "How to play Ride Assault in NTE? Tips and strategies",
+    "answer": "突袭驾驶（Ride Assault）是异环中结合载具驾驶和战斗的特色玩法。在这个模式中，玩家驾驶载具在高速行驶的同时与敌人战斗。攻略要点：1）选择操控性好的载具（推荐跑车类），速度适中更容易操作；2）利用漂移和加速进行闪避和冲锋攻击；3）优先击破路边出现的弱点目标，可以获得额外积分；4）注意载具耐久度，受损过重需要找维修点修复。Ride Assault的排名越高奖励越好，高排名可以获得稀有模块和大量环石。",
+    "answerEn": "Ride Assault is a unique NTE gameplay mode combining vehicle driving with combat. Players drive vehicles at high speed while fighting enemies. Tips: 1) Choose a vehicle with good handling (sports cars recommended); 2) Use drifting and acceleration for dodge and charge attacks; 3) Prioritize destroying weak point targets on the roadside for bonus points; 4) Monitor vehicle durability — find repair stations when heavily damaged. Higher Ride Assault rankings yield better rewards including rare Modules and Ring Stones.",
+    "seoTitleZh": "异环突袭驾驶（Ride Assault）攻略：载具选择与高分技巧",
+    "seoTitleEn": "NTE Ride Assault Guide — Best Vehicles, High Score Tips & Rewards",
+    "seoDescriptionZh": "异环突袭驾驶玩法详解：载具推荐、战斗技巧、排名奖励获取攻略。",
+    "seoDescriptionEn": "NTE Ride Assault mode guide: best vehicle picks, combat techniques, ranking rewards strategy.",
+    "tags": [
+      "ride-assault",
+      "vehicle",
+      "gameplay"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法攻略",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "reality-refuge-guide",
+    "question": "异环现实避难所（Reality Refuge）是什么？怎么解锁？",
+    "questionEn": "What is Reality Refuge in NTE? How to unlock it?",
+    "answer": "现实避难所（Reality Refuge）是异环中的高难度挑战副本。这是一个类似Roguelike的玩法模式，玩家需要在随机生成的多层异象空间中不断深入探索。每层会遇到不同类型的敌人和随机事件，击败敌人可以获得临时增益。核心机制：1）进入需要消耗入场券（通过日常任务获取）；2）层数越深难度越高但奖励越好；3）角色在副本中阵亡会失去部分临时增益但不影响正常养成进度；4）每5层有一个Boss关卡。推荐使用综合战力最强的队伍，带上治疗和护盾角色保证续航。",
+    "answerEn": "Reality Refuge is a high-difficulty challenge dungeon in NTE with Roguelike elements. Players explore randomly generated multi-layer anomaly spaces, encountering different enemies and random events on each floor. Key mechanics: 1) Requires entry tickets (from daily quests); 2) Deeper floors = harder difficulty but better rewards; 3) Character death in the dungeon loses some temporary buffs but doesn't affect normal progression; 4) Boss every 5 floors. Recommended: Use your strongest team with healing and shield characters for sustainability.",
+    "seoTitleZh": "异环现实避难所攻略：解锁条件、通关技巧与奖励",
+    "seoTitleEn": "NTE Reality Refuge Guide — Unlock, Strategy & Rewards",
+    "seoDescriptionZh": "异环现实避难所玩法详解：入场条件、每层攻略、Boss打法、推荐配队与奖励一览。",
+    "seoDescriptionEn": "NTE Reality Refuge complete guide: entry requirements, floor strategies, boss tactics, team recommendations and rewards.",
+    "tags": [
+      "reality-refuge",
+      "dungeon",
+      "endgame"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法攻略",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "raging-flames-guide",
+    "question": "异环烈焰（Raging Flames）怎么打？烈焰副本攻略",
+    "questionEn": "How to beat Raging Flames in NTE? Domain guide",
+    "answer": "烈焰（Raging Flames）是异环中的一个高难度火属性挑战副本。这个副本的特点是大量火属性敌人，需要合理的属性克制配队来应对。攻略要点：1）推荐使用水属性或冰属性角色进行克制；2）Boss会周期性释放全屏火焰AOE，需要在预警时闪避到安全区域；3）场地周围有可以互动的灭火装置，使用后可以短暂降低Boss的防御；4）推荐带一个护盾角色（如白藏或达芙迪尔）来提高生存率。掉落奖励包括火属性模块和高品质升级材料。",
+    "answerEn": "Raging Flames is a high-difficulty fire-attribute challenge dungeon in NTE. It features many fire-attribute enemies requiring proper elemental counter team composition. Strategy: 1) Use water or ice-attribute characters for elemental advantage; 2) The boss periodically unleashes full-screen fire AoE — dodge to safe zones during warnings; 3) Interact with fire extinguishing devices around the arena to temporarily lower the boss's defense; 4) Bring a shield character (like Baicang or Daffodil) for survivability. Drops include fire-attribute Modules and high-quality upgrade materials.",
+    "seoTitleZh": "异环烈焰副本攻略：推荐配队、Boss机制与掉落奖励",
+    "seoTitleEn": "NTE Raging Flames Domain Guide — Best Teams, Boss Mechanics & Drops",
+    "seoDescriptionZh": "异环烈焰副本完整攻略：属性克制配队、Boss技能机制、安全区域位置与掉落一览。",
+    "seoDescriptionEn": "NTE Raging Flames complete guide: elemental counter teams, boss mechanics, safe zones and drop list.",
+    "tags": [
+      "raging-flames",
+      "domain",
+      "fire"
+    ],
+    "category": "boss",
+    "categoryZh": "首领攻略",
+    "categoryEn": "Boss Guides",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "who-made-nte",
+    "question": "异环是谁开发的？制作团队是什么来头？",
+    "questionEn": "Who made NTE? What developer studio created Neverness to Everness?",
+    "answer": "异环（Neverness to Everness）由完美世界（Perfect World Games）旗下的Hotta Studio开发。Hotta Studio也是热门游戏《幻塔》（Tower of Fantasy）的开发团队。异环是他们继幻塔之后的第二款大型项目，采用虚幻引擎5.7开发。制作人杨磊在公测前专访中表示团队以00后为主，保持边想边做的开发模式。从首曝到公测仅用了约20个月，开发节奏非常紧凑。异环的全球发行由完美世界负责。",
+    "answerEn": "NTE is developed by Hotta Studio under Perfect World Games — the same team behind Tower of Fantasy. It's their second major project, built on Unreal Engine 5.7. Producer Yang Lei mentioned in a pre-launch interview that the team is primarily Gen-Z developers who work in an agile, iterative style. From first reveal to launch took only about 20 months. Perfect World handles global publishing.",
+    "seoTitleZh": "异环是谁开发的？Hotta Studio与完美世界制作团队介绍",
+    "seoTitleEn": "Who Made NTE? Hotta Studio, Perfect World & Developer Background",
+    "seoDescriptionZh": "异环开发商Hotta Studio介绍、完美世界发行、制作人杨磊团队背景、从幻塔到异环的发展历程。",
+    "seoDescriptionEn": "NTE developer Hotta Studio background, Perfect World Games publishing, producer Yang Lei, and the journey from Tower of Fantasy to NTE.",
+    "tags": [
+      "developer",
+      "general"
+    ],
+    "category": "general",
+    "categoryZh": "游戏资讯",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "next-banner-schedule",
+    "question": "异环下一个卡池是什么？未来限定角色预告",
+    "questionEn": "What is the next banner in NTE? Upcoming limited character schedule",
+    "answer": "异环公测1.0版本的首个限定卡池角色是娜娜莉（Nanally）。根据官方公布的信息和版本节奏（每6周更新一个大版本），后续版本的限定角色尚未正式公布。根据测试服数据推测，v1.1版本可能会推出新角色浔和保时捷联动相关内容。建议关注官方社交媒体（Twitter/X @NTE_GL、Discord）获取最新卡池预告。通常新版本前瞻直播会提前2周公布下个卡池信息。我们也会在nteguide.com第一时间更新卡池信息。",
+    "answerEn": "NTE's first limited banner in Version 1.0 features Nanally. Based on the official 6-week version cycle, future limited characters haven't been officially announced. Based on beta data, Version 1.1 may introduce new character Xun and Porsche collaboration content. Follow official social media (Twitter/X @NTE_GL, Discord) for the latest banner previews. New version livestreams typically reveal the next banner 2 weeks in advance. We'll update banner info on nteguide.com as soon as it's announced.",
+    "seoTitleZh": "异环下个卡池是谁？v1.1版本限定角色预告与卡池时间表",
+    "seoTitleEn": "NTE Next Banner Schedule — v1.1 Upcoming Characters & Banner Timeline",
+    "seoDescriptionZh": "异环下一个限定卡池角色预测、v1.1版本新角色、卡池时间表与抽卡规划建议。",
+    "seoDescriptionEn": "NTE next limited banner predictions, v1.1 new characters, banner timeline and pull planning advice.",
+    "tags": [
+      "banner",
+      "gacha",
+      "upcoming"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "hathor-team-comp",
+    "question": "异环哈索尔最佳配队是什么？哈索尔配队推荐",
+    "questionEn": "What is the best team comp for Hathor in NTE? Recommended teams",
+    "answer": "哈索尔（Hathor）是异环中的S级辅助角色，拥有强力的团队增益技能。最佳配队推荐：配队一（哈索尔核心队）：哈索尔 + 娜娜莉 + 九原 + 早雾，哈索尔提供全队增伤，娜娜莉主C输出，九原聚怪控制，早雾增伤叠加。配队二（双辅助队）：哈索尔 + 达芙迪尔 + 娜娜莉 + 主角，双辅助提供高额增伤和护盾，适合高难副本。配队三（通用辅助）：哈索尔可以加入任何需要增伤的队伍，她的技能机制使她成为最泛用的辅助之一。碟片推荐选择能量回复和增伤类套装。",
+    "answerEn": "Hathor is an S-rank support character with powerful team buff abilities. Best team recommendations: Team 1 (Hathor Core): Hathor + Nanally + Jiuyuan + Hayate — Hathor provides team buffs, Nanally as main DPS, Jiuyuan for crowd control, Hayate for damage stacking. Team 2 (Double Support): Hathor + Daffodil + Nanally + Protagonist — double support for massive buffs and shields, ideal for challenging content. Team 3 (Flex): Hathor fits into any team needing damage amplification — she's one of the most versatile supports. Recommended Disc sets: energy recharge and damage bonus sets.",
+    "seoTitleZh": "异环哈索尔配队推荐：最佳队伍组合与碟片选择",
+    "seoTitleEn": "NTE Hathor Best Team Comps — Recommended Teams & Disc Sets",
+    "seoDescriptionZh": "异环哈索尔最佳配队组合、队伍搭配思路、碟片推荐与实战打法。",
+    "seoDescriptionEn": "NTE Hathor best team compositions, team building strategy, disc recommendations and combat tips.",
+    "tags": [
+      "hathor",
+      "team",
+      "support"
+    ],
+    "category": "team",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "hathor",
+      "nanally",
+      "jiuyuan"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "daffodil-team-comp",
+    "question": "异环达芙迪尔配队怎么搭配？最佳队伍推荐",
+    "questionEn": "What is the best Daffodil team comp in NTE? Recommended teams",
+    "answer": "达芙迪尔（Daffodil）是异环中的S级支援型角色，擅长提供护盾和增伤效果。最佳配队推荐：配队一（达芙迪尔保核队）：达芙迪尔 + 娜娜莉 + 九原 + 早雾，达芙迪尔提供护盾保证娜娜莉的生存，九原聚怪，早雾增伤。配队二（达芙迪尔+白藏双盾队）：达芙迪尔 + 白藏 + 拉克莉莫萨 + 主角，双护盾极度稳定的生存流，适合高难度挑战。配队三（达芙迪尔开荒队）：达芙迪尔 + 任意主C + A级辅助 + 主角，利用护盾和减伤效果让开荒更安全。达芙迪尔几乎百搭，适合任何需要提高容错率的场合。",
+    "answerEn": "Daffodil is an S-rank support specializing in shields and damage amplification. Best team recommendations: Team 1 (Protect the Carry): Daffodil + Nanally + Jiuyuan + Hayate — Daffodil shields protect Nanally while Jiuyuan groups enemies and Hayate buffs. Team 2 (Double Shield): Daffodil + Baicang + Lacrimosa + Protagonist — dual shields for extreme survivability in challenging content. Team 3 (Progression): Daffodil + any main DPS + A-rank support + Protagonist — shields and damage reduction for safer progression. Daffodil is extremely versatile for any content needing extra survivability.",
+    "seoTitleZh": "异环达芙迪尔配队推荐：护盾辅助最佳队伍组合",
+    "seoTitleEn": "NTE Daffodil Best Team Comps — Shield Support Team Guide",
+    "seoDescriptionZh": "异环达芙迪尔配队攻略：护盾保核队、双盾生存队、开荒队搭配推荐。",
+    "seoDescriptionEn": "NTE Daffodil team guide: shield carry protect, double shield survival, and progression team builds.",
+    "tags": [
+      "daffodil",
+      "team",
+      "support"
+    ],
+    "category": "team",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "daffodil",
+      "nanally",
+      "baicang"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "upcoming-characters",
+    "question": "异环未来会出哪些新角色？v1.1版本新角色预告",
+    "questionEn": "What new characters are coming to NTE? v1.1 upcoming characters",
+    "answer": "异环公测1.0版本共有41位可玩角色（含16位S级角色）。未来版本计划推出的新角色方面：1）浔——已在公测版本中有所铺垫的神秘角色，预计v1.1版本正式上线；2）14位尚未公布完整立绘的角色可能会在后续版本中逐步揭晓；3）保时捷联动可能会带来联动专属角色或皮肤。官方计划每6周更新一个大版本，每个新版本预计会推出1-2位新角色。关注官方公告和nteguide.com获取最新角色情报。",
+    "answerEn": "NTE Version 1.0 launched with 41 playable characters (including 16 S-rank). Upcoming characters: 1) Xun — a mysterious character teased in 1.0, expected to officially debut in v1.1; 2) 14 characters with unrevealed designs may be gradually introduced; 3) Porsche collaboration may bring exclusive characters or skins. New versions every 6 weeks, with 1-2 new characters per update. Follow official announcements and nteguide.com for the latest character news.",
+    "seoTitleZh": "异环未来新角色预告：v1.1版本浔、联动角色与更新计划",
+    "seoTitleEn": "NTE Upcoming Characters — v1.1 Xun, Collaboration Characters & Roadmap",
+    "seoDescriptionZh": "异环未来版本新角色预测、浔上线时间、联动专属角色、版本更新节奏一览。",
+    "seoDescriptionEn": "NTE future character predictions, Xun release timeline, collaboration characters, and version update schedule.",
+    "tags": [
+      "upcoming",
+      "characters",
+      "roadmap"
+    ],
+    "category": "general",
+    "categoryZh": "游戏资讯",
+    "categoryEn": "General",
     "relatedCharacters": [],
     "relatedMaterials": []
   }

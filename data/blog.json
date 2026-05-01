@@ -1,5 +1,102 @@
 [
   {
+    "id": "nte-best-team-comps-1-0",
+    "title": "异环公测1.0版本最佳配队排行：T0队伍组合与构建指南",
+    "titleEn": "NTE Version 1.0 Best Team Comps — T0 Teams & Building Guide",
+    "category": "guide",
+    "categoryZh": "攻略指南",
+    "categoryEn": "Guide",
+    "date": "2026-05-01",
+    "tags": [
+      "team",
+      "guide",
+      "tier-list",
+      "hathor",
+      "daffodil",
+      "nanally",
+      "fadia"
+    ],
+    "summary": "异环1.0版本最强配队推荐，包含娜娜莉核心队、哈索尔增伤队、达芙迪尔保核队等T0阵容详解，以及平民零氪最佳配队方案。",
+    "summaryEn": "Best team compositions for NTE Version 1.0, featuring Nanally core team, Hathor buff team, Daffodil shield team, and F2P optimal builds.",
+    "internalLinks": [
+      {
+        "href": "/characters",
+        "label": "全部角色",
+        "labelEn": "All Characters"
+      },
+      {
+        "href": "/blog/nte-tier-list-1-0",
+        "label": "角色强度榜",
+        "labelEn": "Tier List"
+      },
+      {
+        "href": "/blog/nte-nanally-build-guide",
+        "label": "娜娜莉Build",
+        "labelEn": "Nanally Build"
+      },
+      {
+        "href": "/teams",
+        "label": "配队工具",
+        "labelEn": "Team Builder"
+      },
+      {
+        "href": "/calculator/build",
+        "label": "配装计算器",
+        "labelEn": "Build Calculator"
+      }
+    ],
+    "content": "配队是异环战斗系统的核心。合理的队伍搭配能让角色发挥远超单体的战斗力。本文基于公测1.0版本的实战数据，推荐当前最强配队方案。\n\n## T0配队 — 版本最强阵容\n\n### 队伍一：创生爆发队\n\n| 位置 | 角色 | 定位 | 关键作用 |\n|------|------|------|---------|\n| 主C | **娜娜莉** | 创生/进攻 | 核心输出，反重力连招 |\n| 副C/聚怪 | **九原** | 创生/控制 | 聚怪+控制，1觉后兼职治疗 |\n| 增伤 | **早雾** | 咒术/辅助 | 全队增伤buff |\n| 功能 | **主角** | 万能 | 免费角色，功能补充 |\n\n**阵容特点**：当前版本综合输出最高的队伍。九原的聚怪能力让娜娜莉的范围技能效率翻倍，早雾的增伤buff叠加后效果极为可观。\n\n**操作要点**：先九原聚怪 → 早雾上增伤 → 娜娜莉输出 → 触发环合爆发 → 循环。\n\n### 队伍二：哈索尔超增伤队\n\n| 位置 | 角色 | 定位 | 关键作用 |\n|------|------|------|---------|\n| 主C | **娜娜莉** 或 **拉克莉莫萨** | 主力输出 | 承接增伤进行爆发 |\n| 增伤核心 | **哈索尔** | 辅助/增伤 | 全队高额增伤 |\n| 副C/治疗 | **九原** | 控制+治疗 | 聚怪+续航 |\n| 护盾 | **达芙迪尔** | 护盾/减伤 | 保证生存 |\n\n**阵容特点**：哈索尔的增伤能力是公测版本天花板级别。配合达芙迪尔的护盾保护，主C可以安心站桩输出。适合高难度副本和Boss战。\n\n### 队伍三：达芙迪尔双盾生存队\n\n| 位置 | 角色 | 定位 |\n|------|------|------|\n| 主C | **拉克莉莫萨** | 混沌/进攻 |\n| 主盾 | **达芙迪尔** | 混沌/护盾 |\n| 副盾 | **白藏** | 咒术/防护 |\n| 治疗 | **九原** | 治疗+控制 |\n\n**阵容特点**：极限生存流，双盾+治疗让队伍几乎不会减员。适合挑战超高难度内容。输出偏低但极其稳定。\n\n## T1配队 — 强力可选阵容\n\n### 光系爆发队\n\n| 位置 | 角色 | 定位 |\n|------|------|------|\n| 主C | **浔** | 宇宙/进攻 |\n| 副C | **零** | 宇宙/爆发 |\n| 增伤 | **薄荷** | 增伤/辅助 |\n| 功能 | **主角** | 功能位 |\n\n光系输出爆发流，零的终结技配合浔的持续输出，爆发伤害惊人。\n\n### 哈索尔+法蒂亚控制队\n\n| 位置 | 角色 | 定位 |\n|------|------|------|\n| 主C | **法蒂亚** | 宇宙/进攻+控制 |\n| 增伤 | **哈索尔** | 辅助增伤 |\n| 副C | **小吱**（A级） | 免费+强力 |\n| 治疗 | **九原** | 续航 |\n\n法蒂亚的控制能力配合哈索尔的增伤，在高难本中表现优异。\n\n## 平民零氪最佳配队\n\n### 开荒推荐阵容\n\n| 位置 | 角色 | 获取方式 |\n|------|------|---------|\n| 主C | **娜娜莉** | 6选1自选或新手池20抽 |\n| 副C | **小吱**（A级） | 免费满命，城市经营获取 |\n| 治疗 | **埃德嘉**（A级） | 免费获取，自动回血 |\n| 功能 | **主角** | 初始角色 |\n\n这套阵容所有角色免费或低成本获取，足以应对前中期全部内容。\n\n### 进阶零氪阵容\n\n| 位置 | 角色 | 获取方式 |\n|------|------|---------|\n| 主C | **娜娜莉** | 6选1/新手池 |\n| 副C | **九原** | 常驻池50抽自选 |\n| 增伤 | **早雾** | 常驻池抽取 |\n| 功能 | **小吱** | 免费满命 |\n\n利用470+免费抽卡获取核心S级角色，组建强力零氪队伍。\n\n## 配队核心原则\n\n### 属性搭配\n\n| 原则 | 说明 |\n|------|------|\n| **至少2种属性** | 避免被单一属性敌人克制 |\n| **触发环合反应** | 不同属性角色配合触发额外伤害 |\n| **注意克制关系** | 创生→混沌→宇宙→创生 |\n\n### 角色定位搭配\n\n一个完整的队伍通常需要：\n- 1个主C（输出核心）\n- 1个增伤/辅助（提升全队伤害）\n- 1个治疗/护盾（保证生存）\n- 1个功能位（聚怪、控制或副C）\n\n### 常见配队误区\n\n1. **双主C不一定强**：两个输出角色不如一输出一辅助，辅助的增伤效果通常大于额外一个输出的贡献\n2. **不要忽视A级角色**：小吱（A级）免费满命后战斗力接近S级低觉，性价比极高\n3. **属性比稀有度重要**：部分S级角色在特定场景不如A级角色，根据关卡属性选择\n4. **先集中后分散**：优先培养1个完整队伍到满级，再考虑第二队\n\n## 角色价值排行（配队角度）\n\n| 排名 | 角色 | 理由 |\n|------|------|------|\n| 1 | **娜娜莉** | 最强主C，几乎所有T0队伍的核心 |\n| 2 | **九原** | 聚怪+控制+治疗，最泛用的副C |\n| 3 | **哈索尔** | 最高增伤辅助，提升全队上限 |\n| 4 | **早雾** | 稳定增伤，获取相对容易 |\n| 5 | **达芙迪尔** | 最佳护盾角色，提高容错率 |\n| 6 | **白藏** | 最强坦克，多人副本必备 |\n| 7 | **小吱**（A级） | 免费满命，开荒神器 |\n\n## 版本展望\n\nv1.1版本预计推出新角色浔和保时捷联动内容，配队格局可能会有变化。但娜娜莉+九原+辅助的核心框架在可预见的未来应该保持强势。关注nteguide.com获取最新的配队更新和角色分析！",
+    "contentEn": "Team composition is the core of NTE's combat system. The right team can multiply individual character effectiveness. This guide recommends the strongest team compositions based on Version 1.0 gameplay data.\n\n## T0 Teams — Meta-Defining Compositions\n\n### Team 1: Anima Burst Team\n\n| Position | Character | Role | Key Function |\n|----------|-----------|------|-------------|\n| Main DPS | **Nanally** | Anima/Attack | Core damage, anti-gravity combos |\n| Sub-DPS/CC | **Jiuyuan** | Anima/Control | Enemy grouping + CC, healing at C1 |\n| Buffer | **Hayate** | Incantation/Support | Team-wide damage buff |\n| Flex | **Protagonist** | Utility | Free character, flexible support |\n\n**Strengths**: Highest overall DPS in the current meta. Jiuyuan's grouping doubles Nanally's AoE efficiency, while Hayate's stacking buffs are extremely powerful.\n\n**Rotation**: Jiuyuan groups enemies → Hayate applies buffs → Nanally attacks → Trigger Ring Fusion Burst → Loop.\n\n### Team 2: Hathor Hyper-Buff Team\n\n| Position | Character | Role | Key Function |\n|----------|-----------|------|-------------|\n| Main DPS | **Nanally** or **Lacrimosa** | Carry | Benefits from massive buffs |\n| Buffer | **Hathor** | Support/Buff | Top-tier team damage amplification |\n| Sub-DPS | **Jiuyuan** | CC + Healing | Grouping + sustain |\n| Shielder | **Daffodil** | Shield/DR | Survival guarantee |\n\n**Strengths**: Hathor's buff ceiling is the highest in Version 1.0. With Daffodil's shields protecting the team, your carry can freely deal damage. Best for challenging bosses and endgame content.\n\n### Team 3: Daffodil Double Shield Survival\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Lacrimosa** | Chaos/Attack |\n| Shield 1 | **Daffodil** | Chaos/Shield |\n| Shield 2 | **Baicang** | Incantation/Defense |\n| Healer | **Jiuyuan** | Healing + CC |\n\n**Strengths**: Extreme survivability with double shields + healer. Near-impossible to wipe. Ideal for super challenging content. Lower DPS but incredibly stable.\n\n## T1 Teams — Strong Alternatives\n\n### Cosmos Burst Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Xun** | Cosmos/Attack |\n| Sub-DPS | **Zero** | Cosmos/Burst |\n| Buffer | **Mint** | Buff/Support |\n| Flex | **Protagonist** | Utility |\n\nCosmos burst damage team. Zero's Finisher combined with Xun's sustained output creates devastating burst windows.\n\n### Hathor + Fadia Control Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Fadia** | Cosmos/Attack + Control |\n| Buffer | **Hathor** | Support buff |\n| Sub-DPS | **Chiz** (A-rank) | Free + strong |\n| Healer | **Jiuyuan** | Sustain |\n\nFadia's crowd control combined with Hathor's buffs excels in challenging dungeons.\n\n## F2P Best Teams\n\n### Progression Starter Team\n\n| Position | Character | How to Get |\n|----------|-----------|-----------|\n| Main DPS | **Nanally** | 6-choose-1 selector or beginner 20-pull |\n| Sub-DPS | **Chiz** (A-rank) | Free max constellation from City Tycoon |\n| Healer | **Edgar** (A-rank) | Free, auto-heal |\n| Flex | **Protagonist** | Starter character |\n\nAll characters are free or low-cost. Sufficient for all early-to-mid game content.\n\n### Advanced F2P Team\n\n| Position | Character | How to Get |\n|----------|-----------|-----------|\n| Main DPS | **Nanally** | 6-choose-1/Beginner banner |\n| Sub-DPS | **Jiuyuan** | Standard 50-pull selector |\n| Buffer | **Hayate** | Standard banner pulls |\n| Flex | **Chiz** | Free max constellation |\n\nUse 470+ free pulls to acquire core S-rank characters for a powerful F2P team.\n\n## Team Building Principles\n\n### Attribute Coverage\n\n| Principle | Details |\n|-----------|---------|\n| **Cover 2+ attributes** | Avoid being hard-countered by single-attribute enemies |\n| **Trigger Ring Fusion** | Different attributes combine for bonus damage |\n| **Know counters** | Anima → Chaos → Cosmos → Anima |\n\n### Role Balance\n\nA complete team typically needs:\n- 1 Main DPS (damage core)\n- 1 Buffer/Support (amplify team damage)\n- 1 Healer/Shield (ensure survival)\n- 1 Flex (CC, sub-DPS, or utility)\n\n### Common Mistakes\n\n1. **Double DPS isn't always better**: One DPS + one support often outperforms two DPS, as buffs multiply effectiveness\n2. **Don't ignore A-ranks**: Chiz (A-rank) at max constellation rivals low-constellation S-ranks\n3. **Attribute > Rarity**: Some S-ranks underperform A-ranks in specific scenarios\n4. **Focus first**: Max one complete team before building a second\n\n## Character Value Ranking (Team Perspective)\n\n| Rank | Character | Reason |\n|------|-----------|--------|\n| 1 | **Nanally** | Best DPS, core of nearly all T0 teams |\n| 2 | **Jiuyuan** | Grouping + CC + healing, most versatile sub-DPS |\n| 3 | **Hathor** | Highest buff ceiling, raises team ceiling |\n| 4 | **Hayate** | Consistent buffs, relatively easy to obtain |\n| 5 | **Daffodil** | Best shield character, error tolerance |\n| 6 | **Baicang** | Strongest tank, co-op essential |\n| 7 | **Chiz** (A-rank) | Free max constellation, progression powerhouse |\n\n## Version Outlook\n\nVersion 1.1 is expected to introduce new character Xun and Porsche collaboration content, which may shift the team meta. However, the Nanally + Jiuyuan + Support core framework should remain strong for the foreseeable future. Follow nteguide.com for the latest team updates and character analysis!"
+  },
+  {
+    "id": "nte-nanally-build-guide",
+    "title": "异环娜娜莉最佳Build攻略：碟片、武器、配队与养成路线全解",
+    "titleEn": "NTE Nanally Best Build Guide — Discs, Weapons, Teams & Progression",
+    "category": "guide",
+    "categoryZh": "攻略指南",
+    "categoryEn": "Guide",
+    "date": "2026-05-01",
+    "tags": [
+      "nanally",
+      "build",
+      "guide",
+      "dps",
+      "beginner",
+      "anima"
+    ],
+    "summary": "娜娜莉是异环公测版本公认的最强主C，本攻略详解娜娜莉的最佳碟片搭配、专武对比、推荐配队、技能升级顺序和养成路线规划，帮你最大化输出。",
+    "summaryEn": "Nanally is the undisputed best main DPS in NTE Version 1.0. This guide covers her best Disc sets, weapon comparisons, recommended teams, skill upgrade priority, and full progression plan.",
+    "internalLinks": [
+      {
+        "href": "/characters/nanally",
+        "label": "娜娜莉角色详情",
+        "labelEn": "Nanally Character Page"
+      },
+      {
+        "href": "/blog/nte-tier-list-1-0",
+        "label": "角色强度榜",
+        "labelEn": "Tier List"
+      },
+      {
+        "href": "/calculator/build",
+        "label": "配装计算器",
+        "labelEn": "Build Calculator"
+      },
+      {
+        "href": "/blog/nte-gacha-no-5050",
+        "label": "抽卡系统详解",
+        "labelEn": "Gacha Guide"
+      },
+      {
+        "href": "/blog/nte-launch-6-choose-1",
+        "label": "6选1角色推荐",
+        "labelEn": "6-Choose-1 Guide"
+      }
+    ],
+    "content": "娜娜莉（Nanally）是异环公测版本公认的综合第一主C。无论你是零氪新手还是氪金大佬，娜娜莉都是最优先获取和培养的角色。本攻略将全面解析娜娜莉的最佳Build方案。\n\n## 为什么娜娜莉是第一主C？\n\n| 优势 | 说明 |\n|------|------|\n| **最高输出** | 技能倍率高，连招流畅，持续输出和爆发兼顾 |\n| **操作简单** | 近战连招容易上手，新手也能快速发挥 |\n| **属性优势** | 创生（Anima）属性克制面广 |\n| **保值性高** | 版本核心角色，短期内不会被替代 |\n| **免费可获取** | 6选1自选或新手池20抽可获取 |\n\n## 碟片（Disc）搭配\n\n### 最佳套装选择\n\n| 方案 | 碟片组合 | 效果 | 适用场景 |\n|------|---------|------|---------|\n| **毕业方案** | 创生4件套 | 创生属性伤害+25%，触发共鸣额外+15% | 所有内容 |\n| **次优方案** | 创生2件+攻击2件 | 创生伤害+15%，攻击+12% | 过渡期 |\n| **开荒方案** | 攻击4件套 | 攻击力+12%，暴击率+8% | 前期无创生套时 |\n\n### 主词条优先级\n\n| 位置 | 推荐主词条 |\n|------|-----------|\n| **碟片1** | 攻击力%（固定） |\n| **碟片2** | 创生属性伤害加成 |\n| **碟片3** | 暴击率 或 暴击伤害 |\n| **碟片4** | 攻击力% 或 精通 |\n\n### 副词条优先级\n\n暴击率 > 暴击伤害 > 攻击力% > 精通 > 固定攻击力\n\n💡 目标属性面板：暴击率70%+，暴击伤害140%+，攻击力2000+。暴击率和暴击伤害保持1:2的比例最优。\n\n## 武器选择\n\n### 专武 vs 替代武器\n\n| 武器 | 类型 | 效果 | 推荐度 |\n|------|------|------|--------|\n| **娜娜莉专武** | 5星格斗 | 暴击率+20%，技能命中后攻击力+30% | ★★★★★ |\n| **万金拳套** | 4星格斗 | 攻击力+15%，连击叠加增伤 | ★★★★ |\n| **裂空之爪** | 4星格斗 | 创生属性伤害+18% | ★★★★ |\n| **铁拳** | 3星格斗 | 基础攻击加成 | ★★★ |\n\n💡 专武提升约20-25%输出。零氪玩家优先保证角色获取，有余力再考虑专武。4星武器足够通关所有内容。\n\n## 技能升级顺序\n\n| 优先级 | 技能 | 说明 |\n|--------|------|------|\n| **第一** | 核心输出技能 | 主要伤害来源，优先拉满 |\n| **第二** | 终结技（Finisher） | 爆发输出的关键 |\n| **第三** | 被动技能 | 提升基础属性和连招效果 |\n| **第四** | 普通攻击 | 收益相对较低，最后升级 |\n\n## 推荐配队\n\n### 队伍一：娜娜莉核心输出队（T0）\n\n| 位置 | 角色 | 定位 | 说明 |\n|------|------|------|------|\n| 主C | **娜娜莉** | 创生/进攻 | 核心输出 |\n| 副C | **九原** | 创生/聚怪控制 | 聚怪+控制，1觉后可治疗 |\n| 增伤 | **早雾** | 咒术/增伤辅助 | 全队增伤buff |\n| 功能 | **主角** | 全能 | 免费角色，功能性补充 |\n\n这是目前最推荐的娜娜莉配队。九原的聚怪让娜娜莉的范围技能效率翻倍，早雾的增伤直接提升全队输出。\n\n### 队伍二：双辅助保核队\n\n| 位置 | 角色 | 定位 |\n|------|------|------|\n| 主C | **娜娜莉** | 输出 |\n| 增伤 | **哈索尔** | 辅助增伤 |\n| 护盾 | **达芙迪尔** | 护盾+减伤 |\n| 奶妈 | **九原** | 治疗+控制 |\n\n适合高难度副本，双辅助确保娜娜莉持续输出不断档。\n\n### 队伍三：平民开荒队\n\n| 位置 | 角色 | 定位 |\n|------|------|------|\n| 主C | **娜娜莉** | 输出 |\n| 副C | **小吱**（A级） | 免费满命副C |\n| 治疗 | **埃德嘉**（A级） | 自动回血 |\n| 功能 | **主角** | 灵活位 |\n\n零氪友好阵容，所有角色免费或低成本获取。\n\n## 养成路线规划\n\n### 第一阶段（1-30级）\n\n1. 优先升级娜娜莉到当前等级上限\n2. 装备攻击4件套过渡\n3. 技能优先点满核心输出技能\n4. 搭配A级角色组成过渡队伍\n\n### 第二阶段（30-50级）\n\n1. 开始刷创生属性碟片副本\n2. 目标凑齐创生4件套\n3. 碟片主词条达标即可，不要追求完美副词条\n4. 技能全部升到6级以上\n\n### 第三阶段（50级+）\n\n1. 精炼碟片副词条，追求暴击/暴伤\n2. 升级专武或最佳4星武器\n3. 完成觉醒提升额外属性\n4. 调整配队进入高难内容\n\n## 常见问题\n\n**Q：娜娜莉需要抽命座/觉醒吗？**\n0命（0觉）娜娜莉已经是完整角色，核心机制全部解锁。1觉提供额外的技能伤害加成，性价比不错但非必需。零氪不建议追求高觉。\n\n**Q：暴击率和暴击伤害怎么平衡？**\n保持1:2的比例最优（如70%暴击率配140%暴击伤害）。如果碟片副词条偏暴击，就优先选暴伤主词条的碟片，反之亦然。\n\n**Q：娜娜莉和零选谁？**\n娜娜莉更适合绝大多数玩家——持续输出稳定、操作简单、泛用性强。零适合追求极限爆发的玩家，但需要更高的操作技巧。\n\n**Q：不抽专武可以玩吗？**\n完全可以。4星武器与专武差距约20%，不影响通关任何内容。零氪建议把资源集中在角色获取上。\n\n娜娜莉是异环公测版本当之无愧的第一主C。无论你是刚入坑的新手还是老玩家，投入资源培养娜娜莉都不会后悔。希望这篇Build攻略能帮助你打造出最强娜娜莉！",
+    "contentEn": "Nanally is the undisputed best main DPS in NTE Version 1.0. Whether you're F2P or a spender, Nanally should be your #1 priority to acquire and build. This guide covers everything you need for the optimal Nanally build.\n\n## Why Nanally is the #1 Main DPS\n\n| Strength | Details |\n|----------|---------|\n| **Highest Output** | Top skill multipliers with fluid combos — both sustained and burst |\n| **Easy to Play** | Melee combos are intuitive, beginners can perform well immediately |\n| **Attribute Advantage** | Anima attribute has broad effectiveness |\n| **Long-term Value** | Core meta character unlikely to be replaced soon |\n| **Free to Obtain** | Available from 6-choose-1 selector or beginner 20-pull guarantee |\n\n## Disc (Equipment) Setup\n\n### Best Disc Sets\n\n| Build | Disc Combo | Effect | Best For |\n|-------|-----------|--------|----------|\n| **BiS** | Anima 4-piece | Anima DMG +25%, resonance bonus +15% | All content |\n| **Alternative** | Anima 2pc + ATK 2pc | Anima DMG +15%, ATK +12% | Transition |\n| **Budget** | ATK 4-piece | ATK +12%, Crit Rate +8% | Early game |\n\n### Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| **Disc 1** | ATK% (fixed) |\n| **Disc 2** | Anima DMG Bonus |\n| **Disc 3** | Crit Rate or Crit DMG |\n| **Disc 4** | ATK% or Mastery |\n\n### Sub-Stat Priority\n\nCrit Rate > Crit DMG > ATK% > Mastery > Flat ATK\n\n💡 Target stats: Crit Rate 70%+, Crit DMG 140%+, ATK 2000+. Maintain 1:2 Crit Rate:Crit DMG ratio.\n\n## Weapon Choices\n\n### Signature vs Alternatives\n\n| Weapon | Rarity | Effect | Rating |\n|--------|--------|--------|--------|\n| **Nanally Signature** | 5★ | Crit Rate +20%, ATK +30% after skill hit | ★★★★★ |\n| **Versatile Fangs** | 4★ | ATK +15%, combo stacking DMG bonus | ★★★★ |\n| **Sky Cleaver** | 4★ | Anima DMG +18% | ★★★★ |\n| **Iron Fist** | 3★ | Base ATK bonus | ★★★ |\n\n💡 Signature weapon provides ~20-25% DPS increase. F2P players should prioritize character acquisition first. 4★ weapons are sufficient for all content.\n\n## Skill Upgrade Priority\n\n| Priority | Skill | Reason |\n|----------|-------|--------|\n| **First** | Core damage skill | Primary damage source, max ASAP |\n| **Second** | Finisher | Key burst damage window |\n| **Third** | Passive | Base stat and combo enhancements |\n| **Fourth** | Normal attack | Lower ROI, upgrade last |\n\n## Recommended Teams\n\n### Team 1: Nanally Core DPS (T0)\n\n| Position | Character | Role | Notes |\n|----------|-----------|------|--------|\n| Main DPS | **Nanally** | Anima/Attack | Core damage dealer |\n| Sub-DPS | **Jiuyuan** | Anima/CC | Groups enemies, C1 adds healing |\n| Buffer | **Hayate** | Incantation/Buff | Team-wide damage buff |\n| Flex | **Protagonist** | Utility | Free character, flexible support |\n\nThe most recommended Nanally team. Jiuyuan's grouping doubles Nanally's AoE efficiency, while Hayate's buffs boost the entire team.\n\n### Team 2: Double Support Protect Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Nanally** | Damage |\n| Buffer | **Hathor** | Support buff |\n| Shielder | **Daffodil** | Shield + damage reduction |\n| Healer | **Jiuyuan** | Healing + CC |\n\nIdeal for challenging content — double support ensures Nanally keeps dealing damage without interruptions.\n\n### Team 3: F2P Progression Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Nanally** | Damage |\n| Sub-DPS | **Chiz** (A-rank) | Free max-constellation sub-DPS |\n| Healer | **Edgar** (A-rank) | Auto-heal |\n| Flex | **Protagonist** | Flexible |\n\nF2P-friendly — all characters are free or low-cost to obtain.\n\n## Progression Roadmap\n\n### Phase 1 (Level 1-30)\n\n1. Max Nanally to current level cap\n2. Equip ATK 4-piece as placeholder\n3. Prioritize core damage skill upgrades\n4. Form a transition team with A-rank characters\n\n### Phase 2 (Level 30-50)\n\n1. Start farming Anima disc domains\n2. Aim for Anima 4-piece set\n3. Accept decent main stats, don't chase perfect sub-stats\n4. Upgrade all skills to level 6+\n\n### Phase 3 (Level 50+)\n\n1. Refine disc sub-stats for Crit/Crit DMG\n2. Upgrade signature or best 4★ weapon\n3. Complete awakening for extra stats\n4. Optimize team for endgame content\n\n## FAQ\n\n**Q: Does Nanally need constellations/awakenings?**\nC0 Nanally is a complete character with all core mechanics unlocked. C1 provides extra skill damage — nice but not necessary. F2P should not chase high constellations.\n\n**Q: How to balance Crit Rate and Crit DMG?**\nMaintain a 1:2 ratio (e.g., 70% Crit Rate with 140% Crit DMG). If your disc sub-stats lean toward Crit Rate, choose Crit DMG main stat discs, and vice versa.\n\n**Q: Nanally or Zero?**\nNanally suits most players — stable sustained output, easy mechanics, versatile. Zero suits players who prefer extreme burst damage but requires more skill.\n\n**Q: Can I play without the signature weapon?**\nAbsolutely. 4★ weapons are only ~20% behind the signature. F2P should invest resources in characters first.\n\nNanally is undeniably the #1 main DPS in NTE. Investing in her build is never a wrong choice. We hope this guide helps you create the strongest Nanally possible!"
+  },
+  {
     "id": "nte-global-server-recharge-guide",
     "title": "异环国际服充值攻略2026 — 安全充值方法、代充平台推荐与常见问题解答",
     "titleEn": "NTE Global Server Recharge Guide 2026 — Safe Top-up Methods, Platform Recommendations & FAQ",
