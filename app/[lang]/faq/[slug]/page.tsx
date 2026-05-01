@@ -79,13 +79,66 @@ export default async function FaqDetailPage({
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-2xl font-bold mb-6">{question}</h1>
-        <div className="prose prose-invert max-w-none">
-          {answer.split("\n").map((paragraph, i) => (
-            <p key={i} className="text-gray-300 mb-4 leading-relaxed">
-              {paragraph}
-            </p>
-          ))}
+        {/* FAQ Header */}
+        <header className="mb-8">
+          <h1 className="text-2xl font-bold leading-snug">{question}</h1>
+          <div className="mt-3 flex items-center gap-3 text-sm text-gray-500">
+            <span className="px-2 py-0.5 rounded bg-primary-500/10 text-primary-400 border border-primary-500/20">
+              {isZhLocale(locale) ? faq.categoryZh : faq.categoryEn}
+            </span>
+            <span>{isZhLocale(locale) ? `共 ${faq.tags.length} 个标签` : `${faq.tags.length} tags`}</span>
+          </div>
+        </header>
+
+        {/* Answer Content Card */}
+        <div className="rounded-xl border border-gray-800 bg-gray-900/40 p-6 sm:p-8">
+          <div className="prose prose-invert max-w-none">
+            {answer.split("\n").filter(p => p.trim()).map((paragraph, i) => {
+              // Detect list items (starting with number+paren or bullet)
+              const isNumberedList = /^[\d]+\）/ .test(paragraph);
+              const isBulletList = /^[•\-\*] /.test(paragraph);
+
+              if (isNumberedList || isBulletList) {
+                return (
+                  <p key={i} className="text-gray-300 leading-relaxed pl-2 border-l-2 border-primary-500/20 my-2 py-0.5">
+                    {paragraph}
+                  </p>
+                );
+              }
+
+              // Section headers (short lines ending with colon)
+              const isSectionHeader = paragraph.length < 30 && paragraph.endsWith("：") || paragraph.endsWith(":");
+
+              if (isSectionHeader) {
+                return (
+                  <h3 key={i} className="text-base font-bold text-gray-200 mt-5 mb-2 flex items-center gap-2">
+                    <span className="w-1 h-4 bg-primary-500 rounded-full inline-block" />
+                    {paragraph}
+                  </h3>
+                );
+              }
+
+              return (
+                <p key={i} className="text-gray-300 leading-relaxed my-3">
+                  {paragraph}
+                </p>
+              );
+            })}
+          </div>
+
+          {/* Tags */}
+          {faq.tags && faq.tags.length > 0 && (
+            <div className="mt-6 pt-4 border-t border-gray-800 flex gap-2 flex-wrap">
+              {faq.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs px-2.5 py-1 rounded-full bg-gray-800/80 text-gray-400 border border-gray-700"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Related Characters */}
@@ -152,11 +205,16 @@ export default async function FaqDetailPage({
                   <Link
                     key={rf.id}
                     href={`/${lang}/faq/${rf.id}`}
-                    className="block rounded-lg border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
+                    className="group block rounded-xl border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-all"
                   >
-                    <h3 className="text-sm font-medium">
-                      {isZhLocale(locale) ? rf.question : rf.questionEn}
-                    </h3>
+                    <div className="flex items-center justify-between">
+                      <h3 className="text-sm font-medium group-hover:text-primary-300 transition-colors">
+                        {isZhLocale(locale) ? rf.question : rf.questionEn}
+                      </h3>
+                      <svg className="w-4 h-4 text-gray-600 group-hover:text-primary-400 transition-colors flex-shrink-0 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
                   </Link>
                 ))}
               </div>

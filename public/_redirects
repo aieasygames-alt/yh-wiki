@@ -535,11 +535,18 @@
 /en/faq/no-50-50-confirmed /en/faq/no-50-50-confirmed/ 301
 /en/faq/no-50-50-system /en/faq/no-50-50-system/ 301
 /en/faq/nte-ai-art-controversy /en/faq/nte-ai-art-controversy/ 301
+/en/faq/nte-anomaly-school-guide /en/faq/nte-anomaly-school-guide/ 301
 /en/faq/nte-berapa-gb /en/faq/nte-berapa-gb/ 301
 /en/faq/nte-collect-furniture-guide /en/faq/nte-collect-furniture-guide/ 301
+/en/faq/nte-console-platforms /en/faq/nte-console-platforms/ 301
+/en/faq/nte-deep-blue-sorrow-guide /en/faq/nte-deep-blue-sorrow-guide/ 301
+/en/faq/nte-doomscroll-anomaly-guide /en/faq/nte-doomscroll-anomaly-guide/ 301
+/en/faq/nte-fons-farming-guide /en/faq/nte-fons-farming-guide/ 301
 /en/faq/nte-mods-guide /en/faq/nte-mods-guide/ 301
+/en/faq/nte-patch-notes-guide /en/faq/nte-patch-notes-guide/ 301
 /en/faq/nte-steam-platform /en/faq/nte-steam-platform/ 301
 /en/faq/nte-top-up-guide /en/faq/nte-top-up-guide/ 301
+/en/faq/nte-vehicles-cars-guide /en/faq/nte-vehicles-cars-guide/ 301
 /en/faq/nte-vs-zzz-which /en/faq/nte-vs-zzz-which/ 301
 /en/faq/nte-witch-house-guide /en/faq/nte-witch-house-guide/ 301
 /en/faq/nvidia-driver-nte /en/faq/nvidia-driver-nte/ 301
@@ -723,6 +730,7 @@
 /en/tags/anima /en/tags/anima/ 301
 /en/tags/animation /en/tags/animation/ 301
 /en/tags/anomaly /en/tags/anomaly/ 301
+/en/tags/anomaly-school /en/tags/anomaly-school/ 301
 /en/tags/arc disc /en/tags/arc disc/ 301
 /en/tags/arc-disc /en/tags/arc-disc/ 301
 /en/tags/attributes /en/tags/attributes/ 301
@@ -745,7 +753,9 @@
 /en/tags/burn-team /en/tags/burn-team/ 301
 /en/tags/camellia-society /en/tags/camellia-society/ 301
 /en/tags/camera /en/tags/camera/ 301
+/en/tags/cars /en/tags/cars/ 301
 /en/tags/challenge /en/tags/challenge/ 301
+/en/tags/changelog /en/tags/changelog/ 301
 /en/tags/chaos /en/tags/chaos/ 301
 /en/tags/character /en/tags/character/ 301
 /en/tags/character-building /en/tags/character-building/ 301
@@ -765,6 +775,7 @@
 /en/tags/comparison /en/tags/comparison/ 301
 /en/tags/competitive /en/tags/competitive/ 301
 /en/tags/composition /en/tags/composition/ 301
+/en/tags/console /en/tags/console/ 301
 /en/tags/constellation /en/tags/constellation/ 301
 /en/tags/controller /en/tags/controller/ 301
 /en/tags/controls /en/tags/controls/ 301
@@ -780,6 +791,7 @@
 /en/tags/damage /en/tags/damage/ 301
 /en/tags/day-off /en/tags/day-off/ 301
 /en/tags/day-one /en/tags/day-one/ 301
+/en/tags/deep-blue-sorrow /en/tags/deep-blue-sorrow/ 301
 /en/tags/developer /en/tags/developer/ 301
 /en/tags/device /en/tags/device/ 301
 /en/tags/dice-board /en/tags/dice-board/ 301
@@ -788,6 +800,7 @@
 /en/tags/disks /en/tags/disks/ 301
 /en/tags/district /en/tags/district/ 301
 /en/tags/domain /en/tags/domain/ 301
+/en/tags/doomscroll /en/tags/doomscroll/ 301
 /en/tags/double-bonus /en/tags/double-bonus/ 301
 /en/tags/download /en/tags/download/ 301
 /en/tags/driving /en/tags/driving/ 301
@@ -809,6 +822,7 @@
 /en/tags/facility /en/tags/facility/ 301
 /en/tags/farming /en/tags/farming/ 301
 /en/tags/fire /en/tags/fire/ 301
+/en/tags/fons /en/tags/fons/ 301
 /en/tags/formula /en/tags/formula/ 301
 /en/tags/fps /en/tags/fps/ 301
 /en/tags/frame-rate /en/tags/frame-rate/ 301
@@ -848,6 +862,7 @@
 /en/tags/launch-error /en/tags/launch-error/ 301
 /en/tags/launcher /en/tags/launcher/ 301
 /en/tags/leveling /en/tags/leveling/ 301
+/en/tags/linux /en/tags/linux/ 301
 /en/tags/liquid /en/tags/liquid/ 301
 /en/tags/location /en/tags/location/ 301
 /en/tags/login /en/tags/login/ 301
@@ -879,6 +894,7 @@
 /en/tags/overheating /en/tags/overheating/ 301
 /en/tags/p5r /en/tags/p5r/ 301
 /en/tags/patch /en/tags/patch/ 301
+/en/tags/patch-notes /en/tags/patch-notes/ 301
 /en/tags/payment /en/tags/payment/ 301
 /en/tags/pc /en/tags/pc/ 301
 /en/tags/performance /en/tags/performance/ 301
@@ -897,6 +913,7 @@
 /en/tags/progress /en/tags/progress/ 301
 /en/tags/progression /en/tags/progression/ 301
 /en/tags/property /en/tags/property/ 301
+/en/tags/ps4 /en/tags/ps4/ 301
 /en/tags/ps5 /en/tags/ps5/ 301
 /en/tags/psyche /en/tags/psyche/ 301
 /en/tags/pvp /en/tags/pvp/ 301
@@ -948,6 +965,7 @@
 /en/tags/stuck /en/tags/stuck/ 301
 /en/tags/stutter /en/tags/stutter/ 301
 /en/tags/support /en/tags/support/ 301
+/en/tags/switch /en/tags/switch/ 301
 /en/tags/sync /en/tags/sync/ 301
 /en/tags/synthesis /en/tags/synthesis/ 301
 /en/tags/system /en/tags/system/ 301
@@ -976,7 +994,9 @@
 /en/tags/upcoming /en/tags/upcoming/ 301
 /en/tags/update /en/tags/update/ 301
 /en/tags/vehicle /en/tags/vehicle/ 301
+/en/tags/vehicles /en/tags/vehicles/ 301
 /en/tags/verification /en/tags/verification/ 301
+/en/tags/version /en/tags/version/ 301
 /en/tags/wait /en/tags/wait/ 301
 /en/tags/weakness /en/tags/weakness/ 301
 /en/tags/weapon /en/tags/weapon/ 301
@@ -985,6 +1005,7 @@
 /en/tags/wish /en/tags/wish/ 301
 /en/tags/witch-house /en/tags/witch-house/ 301
 /en/tags/world-boss /en/tags/world-boss/ 301
+/en/tags/xbox /en/tags/xbox/ 301
 /en/tags/下载 /en/tags/下载/ 301
 /en/tags/九原 /en/tags/九原/ 301
 /en/tags/买房 /en/tags/买房/ 301
@@ -1397,11 +1418,18 @@
 /tw/faq/no-50-50-confirmed /tw/faq/no-50-50-confirmed/ 301
 /tw/faq/no-50-50-system /tw/faq/no-50-50-system/ 301
 /tw/faq/nte-ai-art-controversy /tw/faq/nte-ai-art-controversy/ 301
+/tw/faq/nte-anomaly-school-guide /tw/faq/nte-anomaly-school-guide/ 301
 /tw/faq/nte-berapa-gb /tw/faq/nte-berapa-gb/ 301
 /tw/faq/nte-collect-furniture-guide /tw/faq/nte-collect-furniture-guide/ 301
+/tw/faq/nte-console-platforms /tw/faq/nte-console-platforms/ 301
+/tw/faq/nte-deep-blue-sorrow-guide /tw/faq/nte-deep-blue-sorrow-guide/ 301
+/tw/faq/nte-doomscroll-anomaly-guide /tw/faq/nte-doomscroll-anomaly-guide/ 301
+/tw/faq/nte-fons-farming-guide /tw/faq/nte-fons-farming-guide/ 301
 /tw/faq/nte-mods-guide /tw/faq/nte-mods-guide/ 301
+/tw/faq/nte-patch-notes-guide /tw/faq/nte-patch-notes-guide/ 301
 /tw/faq/nte-steam-platform /tw/faq/nte-steam-platform/ 301
 /tw/faq/nte-top-up-guide /tw/faq/nte-top-up-guide/ 301
+/tw/faq/nte-vehicles-cars-guide /tw/faq/nte-vehicles-cars-guide/ 301
 /tw/faq/nte-vs-zzz-which /tw/faq/nte-vs-zzz-which/ 301
 /tw/faq/nte-witch-house-guide /tw/faq/nte-witch-house-guide/ 301
 /tw/faq/nvidia-driver-nte /tw/faq/nvidia-driver-nte/ 301
@@ -1585,6 +1613,7 @@
 /tw/tags/anima /tw/tags/anima/ 301
 /tw/tags/animation /tw/tags/animation/ 301
 /tw/tags/anomaly /tw/tags/anomaly/ 301
+/tw/tags/anomaly-school /tw/tags/anomaly-school/ 301
 /tw/tags/arc disc /tw/tags/arc disc/ 301
 /tw/tags/arc-disc /tw/tags/arc-disc/ 301
 /tw/tags/attributes /tw/tags/attributes/ 301
@@ -1607,7 +1636,9 @@
 /tw/tags/burn-team /tw/tags/burn-team/ 301
 /tw/tags/camellia-society /tw/tags/camellia-society/ 301
 /tw/tags/camera /tw/tags/camera/ 301
+/tw/tags/cars /tw/tags/cars/ 301
 /tw/tags/challenge /tw/tags/challenge/ 301
+/tw/tags/changelog /tw/tags/changelog/ 301
 /tw/tags/chaos /tw/tags/chaos/ 301
 /tw/tags/character /tw/tags/character/ 301
 /tw/tags/character-building /tw/tags/character-building/ 301
@@ -1627,6 +1658,7 @@
 /tw/tags/comparison /tw/tags/comparison/ 301
 /tw/tags/competitive /tw/tags/competitive/ 301
 /tw/tags/composition /tw/tags/composition/ 301
+/tw/tags/console /tw/tags/console/ 301
 /tw/tags/constellation /tw/tags/constellation/ 301
 /tw/tags/controller /tw/tags/controller/ 301
 /tw/tags/controls /tw/tags/controls/ 301
@@ -1642,6 +1674,7 @@
 /tw/tags/damage /tw/tags/damage/ 301
 /tw/tags/day-off /tw/tags/day-off/ 301
 /tw/tags/day-one /tw/tags/day-one/ 301
+/tw/tags/deep-blue-sorrow /tw/tags/deep-blue-sorrow/ 301
 /tw/tags/developer /tw/tags/developer/ 301
 /tw/tags/device /tw/tags/device/ 301
 /tw/tags/dice-board /tw/tags/dice-board/ 301
@@ -1650,6 +1683,7 @@
 /tw/tags/disks /tw/tags/disks/ 301
 /tw/tags/district /tw/tags/district/ 301
 /tw/tags/domain /tw/tags/domain/ 301
+/tw/tags/doomscroll /tw/tags/doomscroll/ 301
 /tw/tags/double-bonus /tw/tags/double-bonus/ 301
 /tw/tags/download /tw/tags/download/ 301
 /tw/tags/driving /tw/tags/driving/ 301
@@ -1671,6 +1705,7 @@
 /tw/tags/facility /tw/tags/facility/ 301
 /tw/tags/farming /tw/tags/farming/ 301
 /tw/tags/fire /tw/tags/fire/ 301
+/tw/tags/fons /tw/tags/fons/ 301
 /tw/tags/formula /tw/tags/formula/ 301
 /tw/tags/fps /tw/tags/fps/ 301
 /tw/tags/frame-rate /tw/tags/frame-rate/ 301
@@ -1710,6 +1745,7 @@
 /tw/tags/launch-error /tw/tags/launch-error/ 301
 /tw/tags/launcher /tw/tags/launcher/ 301
 /tw/tags/leveling /tw/tags/leveling/ 301
+/tw/tags/linux /tw/tags/linux/ 301
 /tw/tags/liquid /tw/tags/liquid/ 301
 /tw/tags/location /tw/tags/location/ 301
 /tw/tags/login /tw/tags/login/ 301
@@ -1741,6 +1777,7 @@
 /tw/tags/overheating /tw/tags/overheating/ 301
 /tw/tags/p5r /tw/tags/p5r/ 301
 /tw/tags/patch /tw/tags/patch/ 301
+/tw/tags/patch-notes /tw/tags/patch-notes/ 301
 /tw/tags/payment /tw/tags/payment/ 301
 /tw/tags/pc /tw/tags/pc/ 301
 /tw/tags/performance /tw/tags/performance/ 301
@@ -1759,6 +1796,7 @@
 /tw/tags/progress /tw/tags/progress/ 301
 /tw/tags/progression /tw/tags/progression/ 301
 /tw/tags/property /tw/tags/property/ 301
+/tw/tags/ps4 /tw/tags/ps4/ 301
 /tw/tags/ps5 /tw/tags/ps5/ 301
 /tw/tags/psyche /tw/tags/psyche/ 301
 /tw/tags/pvp /tw/tags/pvp/ 301
@@ -1810,6 +1848,7 @@
 /tw/tags/stuck /tw/tags/stuck/ 301
 /tw/tags/stutter /tw/tags/stutter/ 301
 /tw/tags/support /tw/tags/support/ 301
+/tw/tags/switch /tw/tags/switch/ 301
 /tw/tags/sync /tw/tags/sync/ 301
 /tw/tags/synthesis /tw/tags/synthesis/ 301
 /tw/tags/system /tw/tags/system/ 301
@@ -1838,7 +1877,9 @@
 /tw/tags/upcoming /tw/tags/upcoming/ 301
 /tw/tags/update /tw/tags/update/ 301
 /tw/tags/vehicle /tw/tags/vehicle/ 301
+/tw/tags/vehicles /tw/tags/vehicles/ 301
 /tw/tags/verification /tw/tags/verification/ 301
+/tw/tags/version /tw/tags/version/ 301
 /tw/tags/wait /tw/tags/wait/ 301
 /tw/tags/weakness /tw/tags/weakness/ 301
 /tw/tags/weapon /tw/tags/weapon/ 301
@@ -1847,6 +1888,7 @@
 /tw/tags/wish /tw/tags/wish/ 301
 /tw/tags/witch-house /tw/tags/witch-house/ 301
 /tw/tags/world-boss /tw/tags/world-boss/ 301
+/tw/tags/xbox /tw/tags/xbox/ 301
 /tw/tags/下载 /tw/tags/下载/ 301
 /tw/tags/九原 /tw/tags/九原/ 301
 /tw/tags/买房 /tw/tags/买房/ 301
@@ -2259,11 +2301,18 @@
 /zh/faq/no-50-50-confirmed /zh/faq/no-50-50-confirmed/ 301
 /zh/faq/no-50-50-system /zh/faq/no-50-50-system/ 301
 /zh/faq/nte-ai-art-controversy /zh/faq/nte-ai-art-controversy/ 301
+/zh/faq/nte-anomaly-school-guide /zh/faq/nte-anomaly-school-guide/ 301
 /zh/faq/nte-berapa-gb /zh/faq/nte-berapa-gb/ 301
 /zh/faq/nte-collect-furniture-guide /zh/faq/nte-collect-furniture-guide/ 301
+/zh/faq/nte-console-platforms /zh/faq/nte-console-platforms/ 301
+/zh/faq/nte-deep-blue-sorrow-guide /zh/faq/nte-deep-blue-sorrow-guide/ 301
+/zh/faq/nte-doomscroll-anomaly-guide /zh/faq/nte-doomscroll-anomaly-guide/ 301
+/zh/faq/nte-fons-farming-guide /zh/faq/nte-fons-farming-guide/ 301
 /zh/faq/nte-mods-guide /zh/faq/nte-mods-guide/ 301
+/zh/faq/nte-patch-notes-guide /zh/faq/nte-patch-notes-guide/ 301
 /zh/faq/nte-steam-platform /zh/faq/nte-steam-platform/ 301
 /zh/faq/nte-top-up-guide /zh/faq/nte-top-up-guide/ 301
+/zh/faq/nte-vehicles-cars-guide /zh/faq/nte-vehicles-cars-guide/ 301
 /zh/faq/nte-vs-zzz-which /zh/faq/nte-vs-zzz-which/ 301
 /zh/faq/nte-witch-house-guide /zh/faq/nte-witch-house-guide/ 301
 /zh/faq/nvidia-driver-nte /zh/faq/nvidia-driver-nte/ 301
@@ -2447,6 +2496,7 @@
 /zh/tags/anima /zh/tags/anima/ 301
 /zh/tags/animation /zh/tags/animation/ 301
 /zh/tags/anomaly /zh/tags/anomaly/ 301
+/zh/tags/anomaly-school /zh/tags/anomaly-school/ 301
 /zh/tags/arc disc /zh/tags/arc disc/ 301
 /zh/tags/arc-disc /zh/tags/arc-disc/ 301
 /zh/tags/attributes /zh/tags/attributes/ 301
@@ -2469,7 +2519,9 @@
 /zh/tags/burn-team /zh/tags/burn-team/ 301
 /zh/tags/camellia-society /zh/tags/camellia-society/ 301
 /zh/tags/camera /zh/tags/camera/ 301
+/zh/tags/cars /zh/tags/cars/ 301
 /zh/tags/challenge /zh/tags/challenge/ 301
+/zh/tags/changelog /zh/tags/changelog/ 301
 /zh/tags/chaos /zh/tags/chaos/ 301
 /zh/tags/character /zh/tags/character/ 301
 /zh/tags/character-building /zh/tags/character-building/ 301
@@ -2489,6 +2541,7 @@
 /zh/tags/comparison /zh/tags/comparison/ 301
 /zh/tags/competitive /zh/tags/competitive/ 301
 /zh/tags/composition /zh/tags/composition/ 301
+/zh/tags/console /zh/tags/console/ 301
 /zh/tags/constellation /zh/tags/constellation/ 301
 /zh/tags/controller /zh/tags/controller/ 301
 /zh/tags/controls /zh/tags/controls/ 301
@@ -2504,6 +2557,7 @@
 /zh/tags/damage /zh/tags/damage/ 301
 /zh/tags/day-off /zh/tags/day-off/ 301
 /zh/tags/day-one /zh/tags/day-one/ 301
+/zh/tags/deep-blue-sorrow /zh/tags/deep-blue-sorrow/ 301
 /zh/tags/developer /zh/tags/developer/ 301
 /zh/tags/device /zh/tags/device/ 301
 /zh/tags/dice-board /zh/tags/dice-board/ 301
@@ -2512,6 +2566,7 @@
 /zh/tags/disks /zh/tags/disks/ 301
 /zh/tags/district /zh/tags/district/ 301
 /zh/tags/domain /zh/tags/domain/ 301
+/zh/tags/doomscroll /zh/tags/doomscroll/ 301
 /zh/tags/double-bonus /zh/tags/double-bonus/ 301
 /zh/tags/download /zh/tags/download/ 301
 /zh/tags/driving /zh/tags/driving/ 301
@@ -2533,6 +2588,7 @@
 /zh/tags/facility /zh/tags/facility/ 301
 /zh/tags/farming /zh/tags/farming/ 301
 /zh/tags/fire /zh/tags/fire/ 301
+/zh/tags/fons /zh/tags/fons/ 301
 /zh/tags/formula /zh/tags/formula/ 301
 /zh/tags/fps /zh/tags/fps/ 301
 /zh/tags/frame-rate /zh/tags/frame-rate/ 301
@@ -2572,6 +2628,7 @@
 /zh/tags/launch-error /zh/tags/launch-error/ 301
 /zh/tags/launcher /zh/tags/launcher/ 301
 /zh/tags/leveling /zh/tags/leveling/ 301
+/zh/tags/linux /zh/tags/linux/ 301
 /zh/tags/liquid /zh/tags/liquid/ 301
 /zh/tags/location /zh/tags/location/ 301
 /zh/tags/login /zh/tags/login/ 301
@@ -2603,6 +2660,7 @@
 /zh/tags/overheating /zh/tags/overheating/ 301
 /zh/tags/p5r /zh/tags/p5r/ 301
 /zh/tags/patch /zh/tags/patch/ 301
+/zh/tags/patch-notes /zh/tags/patch-notes/ 301
 /zh/tags/payment /zh/tags/payment/ 301
 /zh/tags/pc /zh/tags/pc/ 301
 /zh/tags/performance /zh/tags/performance/ 301
@@ -2621,6 +2679,7 @@
 /zh/tags/progress /zh/tags/progress/ 301
 /zh/tags/progression /zh/tags/progression/ 301
 /zh/tags/property /zh/tags/property/ 301
+/zh/tags/ps4 /zh/tags/ps4/ 301
 /zh/tags/ps5 /zh/tags/ps5/ 301
 /zh/tags/psyche /zh/tags/psyche/ 301
 /zh/tags/pvp /zh/tags/pvp/ 301
@@ -2672,6 +2731,7 @@
 /zh/tags/stuck /zh/tags/stuck/ 301
 /zh/tags/stutter /zh/tags/stutter/ 301
 /zh/tags/support /zh/tags/support/ 301
+/zh/tags/switch /zh/tags/switch/ 301
 /zh/tags/sync /zh/tags/sync/ 301
 /zh/tags/synthesis /zh/tags/synthesis/ 301
 /zh/tags/system /zh/tags/system/ 301
@@ -2700,7 +2760,9 @@
 /zh/tags/upcoming /zh/tags/upcoming/ 301
 /zh/tags/update /zh/tags/update/ 301
 /zh/tags/vehicle /zh/tags/vehicle/ 301
+/zh/tags/vehicles /zh/tags/vehicles/ 301
 /zh/tags/verification /zh/tags/verification/ 301
+/zh/tags/version /zh/tags/version/ 301
 /zh/tags/wait /zh/tags/wait/ 301
 /zh/tags/weakness /zh/tags/weakness/ 301
 /zh/tags/weapon /zh/tags/weapon/ 301
@@ -2709,6 +2771,7 @@
 /zh/tags/wish /zh/tags/wish/ 301
 /zh/tags/witch-house /zh/tags/witch-house/ 301
 /zh/tags/world-boss /zh/tags/world-boss/ 301
+/zh/tags/xbox /zh/tags/xbox/ 301
 /zh/tags/下载 /zh/tags/下载/ 301
 /zh/tags/九原 /zh/tags/九原/ 301
 /zh/tags/买房 /zh/tags/买房/ 301

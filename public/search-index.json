@@ -6942,6 +6942,194 @@
     ]
   },
   {
+    "id": "nte-deep-blue-sorrow-guide",
+    "name": "异环深蓝哀伤（Deep Blue Sorrow）是什么？怎么完成？",
+    "nameEn": "What is Deep Blue Sorrow in NTE? How to complete it?",
+    "type": "faq",
+    "url": "/zh/faq/nte-deep-blue-sorrow-guide",
+    "tags": [
+      "deep-blue-sorrow",
+      "event",
+      "exploration",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-deep-blue-sorrow-guide",
+    "name": "What is Deep Blue Sorrow in NTE? How to complete it?",
+    "nameEn": "What is Deep Blue Sorrow in NTE? How to complete it?",
+    "type": "faq",
+    "url": "/en/faq/nte-deep-blue-sorrow-guide",
+    "tags": [
+      "deep-blue-sorrow",
+      "event",
+      "exploration",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-patch-notes-guide",
+    "name": "异环最新更新公告在哪看？版本补丁说明",
+    "nameEn": "Where to find NTE patch notes? Latest update changelog",
+    "type": "faq",
+    "url": "/zh/faq/nte-patch-notes-guide",
+    "tags": [
+      "patch-notes",
+      "update",
+      "changelog",
+      "version"
+    ]
+  },
+  {
+    "id": "nte-patch-notes-guide",
+    "name": "Where to find NTE patch notes? Latest update changelog",
+    "nameEn": "Where to find NTE patch notes? Latest update changelog",
+    "type": "faq",
+    "url": "/en/faq/nte-patch-notes-guide",
+    "tags": [
+      "patch-notes",
+      "update",
+      "changelog",
+      "version"
+    ]
+  },
+  {
+    "id": "nte-anomaly-school-guide",
+    "name": "异环异象学园（Anomaly School）是什么？怎么解锁？",
+    "nameEn": "What is Anomaly School in NTE? How to unlock it?",
+    "type": "faq",
+    "url": "/zh/faq/nte-anomaly-school-guide",
+    "tags": [
+      "anomaly-school",
+      "challenge",
+      "guide",
+      "endgame"
+    ]
+  },
+  {
+    "id": "nte-anomaly-school-guide",
+    "name": "What is Anomaly School in NTE? How to unlock it?",
+    "nameEn": "What is Anomaly School in NTE? How to unlock it?",
+    "type": "faq",
+    "url": "/en/faq/nte-anomaly-school-guide",
+    "tags": [
+      "anomaly-school",
+      "challenge",
+      "guide",
+      "endgame"
+    ]
+  },
+  {
+    "id": "nte-fons-farming-guide",
+    "name": "异环星泉（Fons）怎么快速刷？最佳刷取攻略",
+    "nameEn": "How to farm Fons fast in NTE? Best farming guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-fons-farming-guide",
+    "tags": [
+      "fons",
+      "farming",
+      "currency",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-fons-farming-guide",
+    "name": "How to farm Fons fast in NTE? Best farming guide",
+    "nameEn": "How to farm Fons fast in NTE? Best farming guide",
+    "type": "faq",
+    "url": "/en/faq/nte-fons-farming-guide",
+    "tags": [
+      "fons",
+      "farming",
+      "currency",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-console-platforms",
+    "name": "异环支持PS4/PS5/Xbox/Switch吗？主机平台一览",
+    "nameEn": "Is NTE on PS4, PS5, Xbox, or Switch? Console platform guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-console-platforms",
+    "tags": [
+      "ps4",
+      "ps5",
+      "xbox",
+      "switch",
+      "platform",
+      "console",
+      "linux"
+    ]
+  },
+  {
+    "id": "nte-console-platforms",
+    "name": "Is NTE on PS4, PS5, Xbox, or Switch? Console platform guide",
+    "nameEn": "Is NTE on PS4, PS5, Xbox, or Switch? Console platform guide",
+    "type": "faq",
+    "url": "/en/faq/nte-console-platforms",
+    "tags": [
+      "ps4",
+      "ps5",
+      "xbox",
+      "switch",
+      "platform",
+      "console",
+      "linux"
+    ]
+  },
+  {
+    "id": "nte-doomscroll-anomaly-guide",
+    "name": "异环末日刷屏（Doomscroll）异象是什么？怎么触发？",
+    "nameEn": "What is Doomscroll Anomaly in NTE? How to trigger it?",
+    "type": "faq",
+    "url": "/zh/faq/nte-doomscroll-anomaly-guide",
+    "tags": [
+      "doomscroll",
+      "anomaly",
+      "hidden",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-doomscroll-anomaly-guide",
+    "name": "What is Doomscroll Anomaly in NTE? How to trigger it?",
+    "nameEn": "What is Doomscroll Anomaly in NTE? How to trigger it?",
+    "type": "faq",
+    "url": "/en/faq/nte-doomscroll-anomaly-guide",
+    "tags": [
+      "doomscroll",
+      "anomaly",
+      "hidden",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-vehicles-cars-guide",
+    "name": "异环怎么获得车辆？所有载具获取方法",
+    "nameEn": "How to get cars and vehicles in NTE? All vehicle acquisition guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-vehicles-cars-guide",
+    "tags": [
+      "vehicles",
+      "cars",
+      "guide",
+      "collection"
+    ]
+  },
+  {
+    "id": "nte-vehicles-cars-guide",
+    "name": "How to get cars and vehicles in NTE? All vehicle acquisition guide",
+    "nameEn": "How to get cars and vehicles in NTE? All vehicle acquisition guide",
+    "type": "faq",
+    "url": "/en/faq/nte-vehicles-cars-guide",
+    "tags": [
+      "vehicles",
+      "cars",
+      "guide",
+      "collection"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",
