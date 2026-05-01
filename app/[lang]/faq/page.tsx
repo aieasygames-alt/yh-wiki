@@ -64,10 +64,23 @@ export default async function FaqListPage({
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold mb-8">{t(locale, "faq.title")}</h1>
+        <h1 className="text-3xl font-bold mb-6">{t(locale, "faq.title")}</h1>
+
+        {/* Category Quick Jump */}
+        <div className="flex flex-wrap gap-2 mb-8 sticky top-0 bg-[var(--background)] py-3 z-10 border-b border-gray-800">
+          {faqsByCategory.map((cat) => (
+            <a
+              key={cat.slug}
+              href={`#cat-${cat.slug}`}
+              className="text-xs px-3 py-1.5 rounded-full border border-gray-700 text-gray-400 hover:text-primary-400 hover:border-primary-500/50 transition-colors"
+            >
+              {cat.name} ({cat.faqs.length})
+            </a>
+          ))}
+        </div>
 
         {faqsByCategory.map((cat) => (
-          <section key={cat.slug} className="mb-10">
+          <section key={cat.slug} id={`cat-${cat.slug}`} className="mb-10 scroll-mt-20">
             <h2 className="text-xl font-bold mb-4 text-primary-400">{cat.name}</h2>
             <div className="space-y-4">
               {cat.faqs.map((faq) => (

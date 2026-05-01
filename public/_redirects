@@ -441,9 +441,11 @@
 /en/faq/beta-refund /en/faq/beta-refund/ 301
 /en/faq/blaze-team-guide /en/faq/blaze-team-guide/ 301
 /en/faq/boss-materials /en/faq/boss-materials/ 301
+/en/faq/camellia-society-guide /en/faq/camellia-society-guide/ 301
 /en/faq/chain-burst /en/faq/chain-burst/ 301
 /en/faq/character-build-priority /en/faq/character-build-priority/ 301
 /en/faq/character-customization /en/faq/character-customization/ 301
+/en/faq/character-pixels-guide /en/faq/character-pixels-guide/ 301
 /en/faq/character-stuck-in-map /en/faq/character-stuck-in-map/ 301
 /en/faq/chiz-worth-building /en/faq/chiz-worth-building/ 301
 /en/faq/city-tycoon /en/faq/city-tycoon/ 301
@@ -497,6 +499,7 @@
 /en/faq/how-to-get-modules /en/faq/how-to-get-modules/ 301
 /en/faq/how-to-join-collab-event /en/faq/how-to-join-collab-event/ 301
 /en/faq/how-to-level-up-fast /en/faq/how-to-level-up-fast/ 301
+/en/faq/how-to-uninstall-nte /en/faq/how-to-uninstall-nte/ 301
 /en/faq/ios-graphics-blurry /en/faq/ios-graphics-blurry/ 301
 /en/faq/ios-minimum-specs /en/faq/ios-minimum-specs/ 301
 /en/faq/is-nte-free /en/faq/is-nte-free/ 301
@@ -509,6 +512,7 @@
 /en/faq/login-verification-code-not-received /en/faq/login-verification-code-not-received/ 301
 /en/faq/login-white-screen /en/faq/login-white-screen/ 301
 /en/faq/lonely-player-guide /en/faq/lonely-player-guide/ 301
+/en/faq/lost-tales-guide /en/faq/lost-tales-guide/ 301
 /en/faq/low-fps-town-area /en/faq/low-fps-town-area/ 301
 /en/faq/mac-support /en/faq/mac-support/ 301
 /en/faq/material-domains-location /en/faq/material-domains-location/ 301
@@ -528,6 +532,7 @@
 /en/faq/no-50-50-confirmed /en/faq/no-50-50-confirmed/ 301
 /en/faq/no-50-50-system /en/faq/no-50-50-system/ 301
 /en/faq/nte-ai-art-controversy /en/faq/nte-ai-art-controversy/ 301
+/en/faq/nte-mods-guide /en/faq/nte-mods-guide/ 301
 /en/faq/nte-vs-zzz-which /en/faq/nte-vs-zzz-which/ 301
 /en/faq/nvidia-driver-nte /en/faq/nvidia-driver-nte/ 301
 /en/faq/pc-crash-launcher /en/faq/pc-crash-launcher/ 301
@@ -556,6 +561,7 @@
 /en/faq/ring-fusion-mechanic /en/faq/ring-fusion-mechanic/ 301
 /en/faq/ring-fusion-mechanics /en/faq/ring-fusion-mechanics/ 301
 /en/faq/s-rank-characters /en/faq/s-rank-characters/ 301
+/en/faq/safe-locations-guide /en/faq/safe-locations-guide/ 301
 /en/faq/sakiri-worth-building /en/faq/sakiri-worth-building/ 301
 /en/faq/server-queue-long /en/faq/server-queue-long/ 301
 /en/faq/shop-auto-farm /en/faq/shop-auto-farm/ 301
@@ -726,6 +732,7 @@
 /en/tags/bug /en/tags/bug/ 301
 /en/tags/build /en/tags/build/ 301
 /en/tags/burn-team /en/tags/burn-team/ 301
+/en/tags/camellia-society /en/tags/camellia-society/ 301
 /en/tags/camera /en/tags/camera/ 301
 /en/tags/challenge /en/tags/challenge/ 301
 /en/tags/chaos /en/tags/chaos/ 301
@@ -739,6 +746,7 @@
 /en/tags/co-op /en/tags/co-op/ 301
 /en/tags/codes /en/tags/codes/ 301
 /en/tags/collaboration /en/tags/collaboration/ 301
+/en/tags/collectible /en/tags/collectible/ 301
 /en/tags/collectibles /en/tags/collectibles/ 301
 /en/tags/collection /en/tags/collection/ 301
 /en/tags/combat /en/tags/combat/ 301
@@ -831,6 +839,7 @@
 /en/tags/location /en/tags/location/ 301
 /en/tags/login /en/tags/login/ 301
 /en/tags/lore /en/tags/lore/ 301
+/en/tags/lost-tales /en/tags/lost-tales/ 301
 /en/tags/manual /en/tags/manual/ 301
 /en/tags/map /en/tags/map/ 301
 /en/tags/matchmaking /en/tags/matchmaking/ 301
@@ -841,6 +850,7 @@
 /en/tags/meta /en/tags/meta/ 301
 /en/tags/mistakes /en/tags/mistakes/ 301
 /en/tags/mobile /en/tags/mobile/ 301
+/en/tags/mods /en/tags/mods/ 301
 /en/tags/modules /en/tags/modules/ 301
 /en/tags/monthly-card /en/tags/monthly-card/ 301
 /en/tags/multiplayer /en/tags/multiplayer/ 301
@@ -864,6 +874,7 @@
 /en/tags/photo-mode /en/tags/photo-mode/ 301
 /en/tags/pink-paws /en/tags/pink-paws/ 301
 /en/tags/pity /en/tags/pity/ 301
+/en/tags/pixels /en/tags/pixels/ 301
 /en/tags/planning /en/tags/planning/ 301
 /en/tags/plasma /en/tags/plasma/ 301
 /en/tags/platform /en/tags/platform/ 301
@@ -901,6 +912,7 @@
 /en/tags/routine /en/tags/routine/ 301
 /en/tags/s /en/tags/s/ 301
 /en/tags/s-rank /en/tags/s-rank/ 301
+/en/tags/safe-locations /en/tags/safe-locations/ 301
 /en/tags/safety-net /en/tags/safety-net/ 301
 /en/tags/secrets /en/tags/secrets/ 301
 /en/tags/selector /en/tags/selector/ 301
@@ -941,6 +953,7 @@
 /en/tags/troubleshooting /en/tags/troubleshooting/ 301
 /en/tags/turbid-burn /en/tags/turbid-burn/ 301
 /en/tags/tycoon /en/tags/tycoon/ 301
+/en/tags/uninstall /en/tags/uninstall/ 301
 /en/tags/upcoming /en/tags/upcoming/ 301
 /en/tags/update /en/tags/update/ 301
 /en/tags/vehicle /en/tags/vehicle/ 301
@@ -1270,9 +1283,11 @@
 /tw/faq/beta-refund /tw/faq/beta-refund/ 301
 /tw/faq/blaze-team-guide /tw/faq/blaze-team-guide/ 301
 /tw/faq/boss-materials /tw/faq/boss-materials/ 301
+/tw/faq/camellia-society-guide /tw/faq/camellia-society-guide/ 301
 /tw/faq/chain-burst /tw/faq/chain-burst/ 301
 /tw/faq/character-build-priority /tw/faq/character-build-priority/ 301
 /tw/faq/character-customization /tw/faq/character-customization/ 301
+/tw/faq/character-pixels-guide /tw/faq/character-pixels-guide/ 301
 /tw/faq/character-stuck-in-map /tw/faq/character-stuck-in-map/ 301
 /tw/faq/chiz-worth-building /tw/faq/chiz-worth-building/ 301
 /tw/faq/city-tycoon /tw/faq/city-tycoon/ 301
@@ -1326,6 +1341,7 @@
 /tw/faq/how-to-get-modules /tw/faq/how-to-get-modules/ 301
 /tw/faq/how-to-join-collab-event /tw/faq/how-to-join-collab-event/ 301
 /tw/faq/how-to-level-up-fast /tw/faq/how-to-level-up-fast/ 301
+/tw/faq/how-to-uninstall-nte /tw/faq/how-to-uninstall-nte/ 301
 /tw/faq/ios-graphics-blurry /tw/faq/ios-graphics-blurry/ 301
 /tw/faq/ios-minimum-specs /tw/faq/ios-minimum-specs/ 301
 /tw/faq/is-nte-free /tw/faq/is-nte-free/ 301
@@ -1338,6 +1354,7 @@
 /tw/faq/login-verification-code-not-received /tw/faq/login-verification-code-not-received/ 301
 /tw/faq/login-white-screen /tw/faq/login-white-screen/ 301
 /tw/faq/lonely-player-guide /tw/faq/lonely-player-guide/ 301
+/tw/faq/lost-tales-guide /tw/faq/lost-tales-guide/ 301
 /tw/faq/low-fps-town-area /tw/faq/low-fps-town-area/ 301
 /tw/faq/mac-support /tw/faq/mac-support/ 301
 /tw/faq/material-domains-location /tw/faq/material-domains-location/ 301
@@ -1357,6 +1374,7 @@
 /tw/faq/no-50-50-confirmed /tw/faq/no-50-50-confirmed/ 301
 /tw/faq/no-50-50-system /tw/faq/no-50-50-system/ 301
 /tw/faq/nte-ai-art-controversy /tw/faq/nte-ai-art-controversy/ 301
+/tw/faq/nte-mods-guide /tw/faq/nte-mods-guide/ 301
 /tw/faq/nte-vs-zzz-which /tw/faq/nte-vs-zzz-which/ 301
 /tw/faq/nvidia-driver-nte /tw/faq/nvidia-driver-nte/ 301
 /tw/faq/pc-crash-launcher /tw/faq/pc-crash-launcher/ 301
@@ -1385,6 +1403,7 @@
 /tw/faq/ring-fusion-mechanic /tw/faq/ring-fusion-mechanic/ 301
 /tw/faq/ring-fusion-mechanics /tw/faq/ring-fusion-mechanics/ 301
 /tw/faq/s-rank-characters /tw/faq/s-rank-characters/ 301
+/tw/faq/safe-locations-guide /tw/faq/safe-locations-guide/ 301
 /tw/faq/sakiri-worth-building /tw/faq/sakiri-worth-building/ 301
 /tw/faq/server-queue-long /tw/faq/server-queue-long/ 301
 /tw/faq/shop-auto-farm /tw/faq/shop-auto-farm/ 301
@@ -1555,6 +1574,7 @@
 /tw/tags/bug /tw/tags/bug/ 301
 /tw/tags/build /tw/tags/build/ 301
 /tw/tags/burn-team /tw/tags/burn-team/ 301
+/tw/tags/camellia-society /tw/tags/camellia-society/ 301
 /tw/tags/camera /tw/tags/camera/ 301
 /tw/tags/challenge /tw/tags/challenge/ 301
 /tw/tags/chaos /tw/tags/chaos/ 301
@@ -1568,6 +1588,7 @@
 /tw/tags/co-op /tw/tags/co-op/ 301
 /tw/tags/codes /tw/tags/codes/ 301
 /tw/tags/collaboration /tw/tags/collaboration/ 301
+/tw/tags/collectible /tw/tags/collectible/ 301
 /tw/tags/collectibles /tw/tags/collectibles/ 301
 /tw/tags/collection /tw/tags/collection/ 301
 /tw/tags/combat /tw/tags/combat/ 301
@@ -1660,6 +1681,7 @@
 /tw/tags/location /tw/tags/location/ 301
 /tw/tags/login /tw/tags/login/ 301
 /tw/tags/lore /tw/tags/lore/ 301
+/tw/tags/lost-tales /tw/tags/lost-tales/ 301
 /tw/tags/manual /tw/tags/manual/ 301
 /tw/tags/map /tw/tags/map/ 301
 /tw/tags/matchmaking /tw/tags/matchmaking/ 301
@@ -1670,6 +1692,7 @@
 /tw/tags/meta /tw/tags/meta/ 301
 /tw/tags/mistakes /tw/tags/mistakes/ 301
 /tw/tags/mobile /tw/tags/mobile/ 301
+/tw/tags/mods /tw/tags/mods/ 301
 /tw/tags/modules /tw/tags/modules/ 301
 /tw/tags/monthly-card /tw/tags/monthly-card/ 301
 /tw/tags/multiplayer /tw/tags/multiplayer/ 301
@@ -1693,6 +1716,7 @@
 /tw/tags/photo-mode /tw/tags/photo-mode/ 301
 /tw/tags/pink-paws /tw/tags/pink-paws/ 301
 /tw/tags/pity /tw/tags/pity/ 301
+/tw/tags/pixels /tw/tags/pixels/ 301
 /tw/tags/planning /tw/tags/planning/ 301
 /tw/tags/plasma /tw/tags/plasma/ 301
 /tw/tags/platform /tw/tags/platform/ 301
@@ -1730,6 +1754,7 @@
 /tw/tags/routine /tw/tags/routine/ 301
 /tw/tags/s /tw/tags/s/ 301
 /tw/tags/s-rank /tw/tags/s-rank/ 301
+/tw/tags/safe-locations /tw/tags/safe-locations/ 301
 /tw/tags/safety-net /tw/tags/safety-net/ 301
 /tw/tags/secrets /tw/tags/secrets/ 301
 /tw/tags/selector /tw/tags/selector/ 301
@@ -1770,6 +1795,7 @@
 /tw/tags/troubleshooting /tw/tags/troubleshooting/ 301
 /tw/tags/turbid-burn /tw/tags/turbid-burn/ 301
 /tw/tags/tycoon /tw/tags/tycoon/ 301
+/tw/tags/uninstall /tw/tags/uninstall/ 301
 /tw/tags/upcoming /tw/tags/upcoming/ 301
 /tw/tags/update /tw/tags/update/ 301
 /tw/tags/vehicle /tw/tags/vehicle/ 301
@@ -2099,9 +2125,11 @@
 /zh/faq/beta-refund /zh/faq/beta-refund/ 301
 /zh/faq/blaze-team-guide /zh/faq/blaze-team-guide/ 301
 /zh/faq/boss-materials /zh/faq/boss-materials/ 301
+/zh/faq/camellia-society-guide /zh/faq/camellia-society-guide/ 301
 /zh/faq/chain-burst /zh/faq/chain-burst/ 301
 /zh/faq/character-build-priority /zh/faq/character-build-priority/ 301
 /zh/faq/character-customization /zh/faq/character-customization/ 301
+/zh/faq/character-pixels-guide /zh/faq/character-pixels-guide/ 301
 /zh/faq/character-stuck-in-map /zh/faq/character-stuck-in-map/ 301
 /zh/faq/chiz-worth-building /zh/faq/chiz-worth-building/ 301
 /zh/faq/city-tycoon /zh/faq/city-tycoon/ 301
@@ -2155,6 +2183,7 @@
 /zh/faq/how-to-get-modules /zh/faq/how-to-get-modules/ 301
 /zh/faq/how-to-join-collab-event /zh/faq/how-to-join-collab-event/ 301
 /zh/faq/how-to-level-up-fast /zh/faq/how-to-level-up-fast/ 301
+/zh/faq/how-to-uninstall-nte /zh/faq/how-to-uninstall-nte/ 301
 /zh/faq/ios-graphics-blurry /zh/faq/ios-graphics-blurry/ 301
 /zh/faq/ios-minimum-specs /zh/faq/ios-minimum-specs/ 301
 /zh/faq/is-nte-free /zh/faq/is-nte-free/ 301
@@ -2167,6 +2196,7 @@
 /zh/faq/login-verification-code-not-received /zh/faq/login-verification-code-not-received/ 301
 /zh/faq/login-white-screen /zh/faq/login-white-screen/ 301
 /zh/faq/lonely-player-guide /zh/faq/lonely-player-guide/ 301
+/zh/faq/lost-tales-guide /zh/faq/lost-tales-guide/ 301
 /zh/faq/low-fps-town-area /zh/faq/low-fps-town-area/ 301
 /zh/faq/mac-support /zh/faq/mac-support/ 301
 /zh/faq/material-domains-location /zh/faq/material-domains-location/ 301
@@ -2186,6 +2216,7 @@
 /zh/faq/no-50-50-confirmed /zh/faq/no-50-50-confirmed/ 301
 /zh/faq/no-50-50-system /zh/faq/no-50-50-system/ 301
 /zh/faq/nte-ai-art-controversy /zh/faq/nte-ai-art-controversy/ 301
+/zh/faq/nte-mods-guide /zh/faq/nte-mods-guide/ 301
 /zh/faq/nte-vs-zzz-which /zh/faq/nte-vs-zzz-which/ 301
 /zh/faq/nvidia-driver-nte /zh/faq/nvidia-driver-nte/ 301
 /zh/faq/pc-crash-launcher /zh/faq/pc-crash-launcher/ 301
@@ -2214,6 +2245,7 @@
 /zh/faq/ring-fusion-mechanic /zh/faq/ring-fusion-mechanic/ 301
 /zh/faq/ring-fusion-mechanics /zh/faq/ring-fusion-mechanics/ 301
 /zh/faq/s-rank-characters /zh/faq/s-rank-characters/ 301
+/zh/faq/safe-locations-guide /zh/faq/safe-locations-guide/ 301
 /zh/faq/sakiri-worth-building /zh/faq/sakiri-worth-building/ 301
 /zh/faq/server-queue-long /zh/faq/server-queue-long/ 301
 /zh/faq/shop-auto-farm /zh/faq/shop-auto-farm/ 301
@@ -2384,6 +2416,7 @@
 /zh/tags/bug /zh/tags/bug/ 301
 /zh/tags/build /zh/tags/build/ 301
 /zh/tags/burn-team /zh/tags/burn-team/ 301
+/zh/tags/camellia-society /zh/tags/camellia-society/ 301
 /zh/tags/camera /zh/tags/camera/ 301
 /zh/tags/challenge /zh/tags/challenge/ 301
 /zh/tags/chaos /zh/tags/chaos/ 301
@@ -2397,6 +2430,7 @@
 /zh/tags/co-op /zh/tags/co-op/ 301
 /zh/tags/codes /zh/tags/codes/ 301
 /zh/tags/collaboration /zh/tags/collaboration/ 301
+/zh/tags/collectible /zh/tags/collectible/ 301
 /zh/tags/collectibles /zh/tags/collectibles/ 301
 /zh/tags/collection /zh/tags/collection/ 301
 /zh/tags/combat /zh/tags/combat/ 301
@@ -2489,6 +2523,7 @@
 /zh/tags/location /zh/tags/location/ 301
 /zh/tags/login /zh/tags/login/ 301
 /zh/tags/lore /zh/tags/lore/ 301
+/zh/tags/lost-tales /zh/tags/lost-tales/ 301
 /zh/tags/manual /zh/tags/manual/ 301
 /zh/tags/map /zh/tags/map/ 301
 /zh/tags/matchmaking /zh/tags/matchmaking/ 301
@@ -2499,6 +2534,7 @@
 /zh/tags/meta /zh/tags/meta/ 301
 /zh/tags/mistakes /zh/tags/mistakes/ 301
 /zh/tags/mobile /zh/tags/mobile/ 301
+/zh/tags/mods /zh/tags/mods/ 301
 /zh/tags/modules /zh/tags/modules/ 301
 /zh/tags/monthly-card /zh/tags/monthly-card/ 301
 /zh/tags/multiplayer /zh/tags/multiplayer/ 301
@@ -2522,6 +2558,7 @@
 /zh/tags/photo-mode /zh/tags/photo-mode/ 301
 /zh/tags/pink-paws /zh/tags/pink-paws/ 301
 /zh/tags/pity /zh/tags/pity/ 301
+/zh/tags/pixels /zh/tags/pixels/ 301
 /zh/tags/planning /zh/tags/planning/ 301
 /zh/tags/plasma /zh/tags/plasma/ 301
 /zh/tags/platform /zh/tags/platform/ 301
@@ -2559,6 +2596,7 @@
 /zh/tags/routine /zh/tags/routine/ 301
 /zh/tags/s /zh/tags/s/ 301
 /zh/tags/s-rank /zh/tags/s-rank/ 301
+/zh/tags/safe-locations /zh/tags/safe-locations/ 301
 /zh/tags/safety-net /zh/tags/safety-net/ 301
 /zh/tags/secrets /zh/tags/secrets/ 301
 /zh/tags/selector /zh/tags/selector/ 301
@@ -2599,6 +2637,7 @@
 /zh/tags/troubleshooting /zh/tags/troubleshooting/ 301
 /zh/tags/turbid-burn /zh/tags/turbid-burn/ 301
 /zh/tags/tycoon /zh/tags/tycoon/ 301
+/zh/tags/uninstall /zh/tags/uninstall/ 301
 /zh/tags/upcoming /zh/tags/upcoming/ 301
 /zh/tags/update /zh/tags/update/ 301
 /zh/tags/vehicle /zh/tags/vehicle/ 301

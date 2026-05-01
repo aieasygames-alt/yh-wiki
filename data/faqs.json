@@ -217,7 +217,8 @@
       "anima-fragment",
       "anima-crystal",
       "boss-anima"
-    ]
+    ],
+    "seoTitleEn": "Is Nanally Worth Building in NTE? Best DPS Guide & Build Tips (2026)"
   },
   {
     "id": "sakiri-worth-building",
@@ -573,7 +574,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "crow-jade"
-    ]
+    ],
+    "seoTitleEn": "NTE Interactive Map — Hethereau Exploration Guide, Hidden Locations & Collectibles"
   },
   {
     "id": "crow-jade",
@@ -1054,7 +1056,11 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "credits"
-    ]
+    ],
+    "seoTitleZh": "异环Fons（环石）是什么？抽卡货币获取与使用指南",
+    "seoTitleEn": "What is Fons in NTE? Gacha Currency Guide — How to Get & Use Ring Stones",
+    "seoDescriptionZh": "异环Fons（环石/原晶）是抽卡的核心货币。详解Fons获取途径、160环石一次抽卡、免费获取470抽的方法。",
+    "seoDescriptionEn": "Fons (Ring Stones) is the core gacha currency in NTE. Complete guide on how to get Fons, 160 per pull, and earn 470+ free pulls."
   },
   {
     "id": "collapse-mechanic",
@@ -1150,7 +1156,8 @@
       "mint",
       "nanally"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Mint Build Guide — Is Mint Worth Building? Best Teams & Discs (2026)"
   },
   {
     "id": "housing-system",
@@ -1251,7 +1258,9 @@
     "relatedCharacters": [
       "jiuyuan"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "seoTitleEn": "How to Drive Cars in NTE — All Vehicles, Controls & Best Cars Guide",
+    "seoDescriptionEn": "Complete NTE driving guide: how to get cars, vehicle controls, all vehicle types (sports cars, motorcycles), and driving tips."
   },
   {
     "id": "harmonyos-support",
@@ -1789,7 +1798,9 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Latest Update — UE5.7 Engine Upgrade, Day 1 Patch Notes & Changes (2026)",
+    "seoDescriptionEn": "NTE latest update details: Unreal Engine 5.7 upgrade, Day 1 patch improvements, new features, bug fixes, and performance optimizations."
   },
   {
     "id": "character-build-priority",
@@ -2393,7 +2404,8 @@
       "baicang",
       "adler"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Nanally Best Team Comp — Anima DPS Team Building Guide (2026)"
   },
   {
     "id": "jiuyuan-worth-building",
@@ -3256,6 +3268,131 @@
       "upcoming",
       "characters",
       "roadmap"
+    ],
+    "category": "general",
+    "categoryZh": "游戏资讯",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "safe-locations-guide",
+    "question": "异环安全屋（Safe Locations）在哪里？怎么解锁？",
+    "questionEn": "Where are Safe Locations in NTE? How to unlock safe houses?",
+    "answer": "安全屋（Safe Locations）是异环中散布在海瑟劳城各处的安全据点。解锁安全屋后可以快速传送、回复队伍状态和存储物品。解锁方式：到达安全屋位置后与门前的终端互动即可解锁。目前已知的固定安全屋位置包括：维特海姆塔一楼、火车站大厅、商业区中心广场、旧城区入口、港口码头办公室。探索时注意地图上的安全屋图标（盾牌标记），靠近后自动显示解锁提示。",
+    "answerEn": "Safe Locations are secure checkpoints scattered throughout Hethereau. Once unlocked, they allow fast travel, party healing, and item storage. To unlock: interact with the terminal at each safe house entrance. Known fixed safe locations include: Vithem Tower ground floor, Train Station lobby, Commercial District central plaza, Old Town entrance, and Harbor Dock office. Look for the shield icon on your map — the unlock prompt appears when you approach.",
+    "seoTitleZh": "异环安全屋位置大全：所有安全地点快速传送点",
+    "seoTitleEn": "NTE Safe Locations Guide — All Safe Houses & Fast Travel Points",
+    "seoDescriptionZh": "异环全部安全屋位置、解锁方式、快速传送点一览。",
+    "seoDescriptionEn": "All NTE safe house locations, unlock requirements, and fast travel points in Hethereau.",
+    "tags": [
+      "safe-locations",
+      "map",
+      "exploration"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "camellia-society-guide",
+    "question": "异环山茶花会（Camellia Society）是什么？怎么加入？",
+    "questionEn": "What is the Camellia Society in NTE? How to join?",
+    "answer": "山茶花会（Camellia Society）是异环中的一个神秘NPC组织，在主线剧情中占有重要地位。这是一个由都市中的异能者组成的秘密结社，与伊本古董店有着复杂的关系。玩家在推进主线至第四章后，会正式接触山茶花会的相关剧情。加入山茶花会需要完成特定的主线任务和支线任务链，加入后可以解锁专属任务线和限定商店。",
+    "answerEn": "The Camellia Society is a mysterious NPC organization in NTE that plays a significant role in the main story. It's a secret society of Espers in the city with a complex relationship with Eibon Antique Shop. Players encounter the Camellia Society storyline after reaching Main Story Chapter 4. Joining requires completing specific main and side quest chains, which unlocks exclusive quest lines and a limited shop.",
+    "seoTitleZh": "异环山茶花会是什么？加入条件与专属任务攻略",
+    "seoTitleEn": "NTE Camellia Society Guide — How to Join, Quests & Rewards",
+    "seoDescriptionZh": "异环山茶花会组织介绍、加入方法、专属任务线与限定商店。",
+    "seoDescriptionEn": "NTE Camellia Society: how to join, exclusive quest lines, and special shop items.",
+    "tags": [
+      "camellia-society",
+      "lore",
+      "quest"
+    ],
+    "category": "lore",
+    "categoryZh": "世界观",
+    "categoryEn": "Lore",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "lost-tales-guide",
+    "question": "异环失落传说（Lost Tales）怎么触发？隐藏故事攻略",
+    "questionEn": "How to trigger Lost Tales in NTE? Hidden story guide",
+    "answer": "失落传说（Lost Tales）是异环中的隐藏故事任务系统。这些任务不会出现在常规任务列表中，需要玩家在探索时通过特定条件触发。目前已知的失落传说触发方式：1）在特定地点使用拍照功能拍下隐藏的壁画或雕像；2）与特定NPC进行多轮对话（同一个NPC对话3次以上）；3）在夜间前往特定区域探索；4）收集特定物品组合后带到指定位置。完成失落传说可以获得环石、隐藏成就和独特的剧情碎片，深入了解海瑟劳的隐藏历史。",
+    "answerEn": "Lost Tales is a hidden story quest system in NTE. These quests don't appear in the regular quest list and require specific conditions to trigger. Known trigger methods: 1) Use photo mode at specific locations to capture hidden murals or statues; 2) Talk to certain NPCs 3+ times; 3) Explore specific areas at night; 4) Bring specific item combinations to designated locations. Completing Lost Tales grants Ring Stones, hidden achievements, and story fragments revealing Hethereau's hidden history.",
+    "seoTitleZh": "异环失落传说触发条件大全：隐藏故事任务攻略",
+    "seoTitleEn": "NTE Lost Tales Guide — All Hidden Story Quests & Trigger Conditions",
+    "seoDescriptionZh": "异环失落传说触发方式、隐藏故事攻略、奖励一览。",
+    "seoDescriptionEn": "All NTE Lost Tales trigger conditions, hidden story walkthroughs, and rewards.",
+    "tags": [
+      "lost-tales",
+      "hidden",
+      "story"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-mods-guide",
+    "question": "异环支持MOD吗？怎么安装MOD？",
+    "questionEn": "Does NTE support mods? How to install mods?",
+    "answer": "异环目前官方不支持MOD，安装第三方MOD可能导致账号封禁或游戏无法正常运行。官方服务条款明确禁止修改游戏文件。不过社区中有一些UI美化工具和截图辅助工具（不影响游戏文件），这些通常是安全的。建议玩家不要使用任何影响游戏平衡或修改核心文件的MOD。如果未来官方开放MOD支持，我们会在nteguide.com第一时间公布。",
+    "answerEn": "NTE currently does not officially support mods. Installing third-party mods may result in account bans or game instability. The Terms of Service explicitly prohibit modifying game files. However, some community UI customization tools and screenshot helpers that don't affect game files are generally safe. We recommend avoiding any mods that affect game balance or modify core files. If official mod support is added in the future, we'll announce it on nteguide.com.",
+    "seoTitleZh": "异环能用MOD吗？MOD安装风险与官方态度说明",
+    "seoTitleEn": "Does NTE Support Mods? Installation Risks & Official Stance",
+    "seoDescriptionZh": "异环MOD支持情况、安装风险、官方条款说明。",
+    "seoDescriptionEn": "NTE mod support status, installation risks, and official terms of service regarding modifications.",
+    "tags": [
+      "mods",
+      "general"
+    ],
+    "category": "general",
+    "categoryZh": "游戏资讯",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "character-pixels-guide",
+    "question": "异环角色像素画（Character Pixels）怎么获取？",
+    "questionEn": "How to get Character Pixels in NTE? Pixel art collectibles guide",
+    "answer": "角色像素画（Character Pixels）是异环中的收藏品系统。每个角色都有对应的像素风格头像/立绘，可以通过以下方式获取：1）角色好感度达到特定等级后解锁；2）完成角色的专属休息日（Day Off）事件；3）在扭蛋机中随机获得；4）特定活动和成就奖励。收集角色像素画可以解锁专属展示柜功能，在你的个人房屋中展示已收集的像素角色。部分稀有像素画有收集进度奖励。",
+    "answerEn": "Character Pixels are a collectible system in NTE. Each character has a pixel-art portrait/illustration obtainable through: 1) Reaching specific affinity levels with characters; 2) Completing character Day Off events; 3) Random drops from gachapon machines; 4) Specific events and achievement rewards. Collecting Character Pixels unlocks a display cabinet feature in your personal housing. Some rare pixels have collection milestones with bonus rewards.",
+    "seoTitleZh": "异环角色像素画获取攻略：全角色Pixels收集指南",
+    "seoTitleEn": "NTE Character Pixels Guide — How to Collect All Pixel Art",
+    "seoDescriptionZh": "异环角色像素画获取方式、收集进度奖励、展示柜功能介绍。",
+    "seoDescriptionEn": "How to collect all Character Pixels in NTE, collection milestones, and display cabinet features.",
+    "tags": [
+      "pixels",
+      "collectible",
+      "character"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法攻略",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-to-uninstall-nte",
+    "question": "异环怎么卸载？PC和手机卸载方法",
+    "questionEn": "How to uninstall NTE? PC and mobile removal guide",
+    "answer": "异环卸载方法：PC端：打开控制面板→程序和功能→找到「Neverness to Everness」→右键卸载。或直接删除游戏安装目录（默认在C:\\Program Files\\NTE）。卸载后建议手动删除残留的配置文件（位于C:\\Users\\用户名\\AppData\\Local\\NTE）。手机端：Android — 设置→应用管理→找到NTE→卸载；iOS — 长按应用图标→删除App。PS5 — 设置→存储→游戏→选择NTE→删除。卸载不会影响账号数据，重新安装后可以恢复进度。",
+    "answerEn": "How to uninstall NTE: PC — Control Panel → Programs and Features → find 'Neverness to Everness' → right-click Uninstall. Or delete the game directory directly. After uninstalling, manually delete config files in C:\\Users\\Username\\AppData\\Local\\NTE. Mobile: Android — Settings → Apps → find NTE → Uninstall; iOS — long-press app icon → Remove App. PS5 — Settings → Storage → Games → select NTE → Delete. Uninstalling does not affect account data — your progress is preserved when you reinstall.",
+    "seoTitleZh": "异环怎么卸载？PC/手机/PS5完整卸载教程",
+    "seoTitleEn": "How to Uninstall NTE — Complete Removal Guide for PC, Mobile & PS5",
+    "seoDescriptionZh": "异环卸载教程：PC端、Android、iOS、PS5各平台卸载步骤，清理残留文件方法。",
+    "seoDescriptionEn": "NTE uninstall guide for PC, Android, iOS, and PS5. Step-by-step removal and leftover file cleanup.",
+    "tags": [
+      "uninstall",
+      "guide",
+      "general"
     ],
     "category": "general",
     "categoryZh": "游戏资讯",

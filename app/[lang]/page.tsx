@@ -199,13 +199,13 @@ export default async function HomePage({
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {[
               { label: isZhLocale(locale) ? "强度排行" : "Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? "角色评级排名" : "Character rankings" },
+              { label: isZhLocale(locale) ? "Build攻略" : "Build Guide", href: `/${lang}/blog/nte-nanally-build-guide`, desc: isZhLocale(locale) ? "角色配装推荐" : "Best character builds" },
+              { label: isZhLocale(locale) ? "配队指南" : "Team Comps", href: `/${lang}/blog/nte-best-team-comps-1-0`, desc: isZhLocale(locale) ? "最佳队伍搭配" : "Best team builds" },
               { label: isZhLocale(locale) ? "交互地图" : "Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? "全地图标记" : "Interactive map" },
               { label: isZhLocale(locale) ? "配置要求" : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? "PC/手机配置" : "PC & mobile specs" },
               { label: isZhLocale(locale) ? "兑换码" : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? "最新兑换码" : "Latest codes" },
-              { label: isZhLocale(locale) ? "世界观" : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? "游戏设定" : "Story & lore" },
-              { label: isZhLocale(locale) ? "材料" : "Materials", href: `/${lang}/materials`, desc: isZhLocale(locale) ? "材料图鉴" : "Item database" },
               { label: isZhLocale(locale) ? "武器" : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? "武器图鉴" : "Weapon database" },
-              { label: isZhLocale(locale) ? "地点" : "Locations", href: `/${lang}/locations`, desc: isZhLocale(locale) ? "全地点一览" : "All locations" },
+              { label: isZhLocale(locale) ? "世界观" : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? "游戏设定" : "Story & lore" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>
