@@ -6230,6 +6230,718 @@
     ]
   },
   {
+    "id": "nte-ai-art-controversy",
+    "name": "异环用了AI美术吗？制作人是怎么回应的？",
+    "nameEn": "Does NTE use AI art? What did the developer say about AI-generated content?",
+    "type": "faq",
+    "url": "/zh/faq/nte-ai-art-controversy",
+    "tags": [
+      "ai",
+      "controversy",
+      "developer"
+    ]
+  },
+  {
+    "id": "nte-ai-art-controversy",
+    "name": "Does NTE use AI art? What did the developer say about AI-generated content?",
+    "nameEn": "Does NTE use AI art? What did the developer say about AI-generated content?",
+    "type": "faq",
+    "url": "/en/faq/nte-ai-art-controversy",
+    "tags": [
+      "ai",
+      "controversy",
+      "developer"
+    ]
+  },
+  {
+    "id": "how-to-get-modules",
+    "name": "异环模块（Modules）怎么获取？模块系统是什么？",
+    "nameEn": "How to get Modules in NTE? What is the Module system?",
+    "type": "faq",
+    "url": "/zh/faq/how-to-get-modules",
+    "tags": [
+      "modules",
+      "equipment",
+      "beginner"
+    ]
+  },
+  {
+    "id": "how-to-get-modules",
+    "name": "How to get Modules in NTE? What is the Module system?",
+    "nameEn": "How to get Modules in NTE? What is the Module system?",
+    "type": "faq",
+    "url": "/en/faq/how-to-get-modules",
+    "tags": [
+      "modules",
+      "equipment",
+      "beginner"
+    ]
+  },
+  {
+    "id": "hospital-location-guide",
+    "name": "异环医院在哪里？医院任务怎么做？",
+    "nameEn": "Where is the Hospital in NTE? How to complete Hospital missions?",
+    "type": "faq",
+    "url": "/zh/faq/hospital-location-guide",
+    "tags": [
+      "hospital",
+      "location",
+      "quest"
+    ]
+  },
+  {
+    "id": "hospital-location-guide",
+    "name": "Where is the Hospital in NTE? How to complete Hospital missions?",
+    "nameEn": "Where is the Hospital in NTE? How to complete Hospital missions?",
+    "type": "faq",
+    "url": "/en/faq/hospital-location-guide",
+    "tags": [
+      "hospital",
+      "location",
+      "quest"
+    ]
+  },
+  {
+    "id": "headless-rider-guide",
+    "name": "异环无头骑士是什么？怎么触发和击败无头骑士？",
+    "nameEn": "What is the Headless Rider in NTE? How to trigger and defeat it?",
+    "type": "faq",
+    "url": "/zh/faq/headless-rider-guide",
+    "tags": [
+      "boss",
+      "headless-rider",
+      "world-boss"
+    ]
+  },
+  {
+    "id": "headless-rider-guide",
+    "name": "What is the Headless Rider in NTE? How to trigger and defeat it?",
+    "nameEn": "What is the Headless Rider in NTE? How to trigger and defeat it?",
+    "type": "faq",
+    "url": "/en/faq/headless-rider-guide",
+    "tags": [
+      "boss",
+      "headless-rider",
+      "world-boss"
+    ]
+  },
+  {
+    "id": "day-off-arc-guide",
+    "name": "异环休息日（Day Off）是什么？休息日事件怎么做？",
+    "nameEn": "What is Day Off in NTE? How to complete Day Off Arc events?",
+    "type": "faq",
+    "url": "/zh/faq/day-off-arc-guide",
+    "tags": [
+      "day-off",
+      "character",
+      "interaction"
+    ]
+  },
+  {
+    "id": "day-off-arc-guide",
+    "name": "What is Day Off in NTE? How to complete Day Off Arc events?",
+    "nameEn": "What is Day Off in NTE? How to complete Day Off Arc events?",
+    "type": "faq",
+    "url": "/en/faq/day-off-arc-guide",
+    "tags": [
+      "day-off",
+      "character",
+      "interaction"
+    ]
+  },
+  {
+    "id": "pink-paws-heist-guide",
+    "name": "异环粉爪劫案（Pink Paws Heist）怎么做？攻略流程是什么？",
+    "nameEn": "How to complete Pink Paws Heist in NTE? Full walkthrough guide",
+    "type": "faq",
+    "url": "/zh/faq/pink-paws-heist-guide",
+    "tags": [
+      "pink-paws",
+      "heist",
+      "co-op",
+      "event"
+    ]
+  },
+  {
+    "id": "pink-paws-heist-guide",
+    "name": "How to complete Pink Paws Heist in NTE? Full walkthrough guide",
+    "nameEn": "How to complete Pink Paws Heist in NTE? Full walkthrough guide",
+    "type": "faq",
+    "url": "/en/faq/pink-paws-heist-guide",
+    "tags": [
+      "pink-paws",
+      "heist",
+      "co-op",
+      "event"
+    ]
+  },
+  {
+    "id": "lonely-player-guide",
+    "name": "异环孤独玩家（Lonely Player）是什么？怎么触发？",
+    "nameEn": "What is the Lonely Player in NTE? How to trigger this event?",
+    "type": "faq",
+    "url": "/zh/faq/lonely-player-guide",
+    "tags": [
+      "hidden",
+      "npc",
+      "easter-egg"
+    ]
+  },
+  {
+    "id": "lonely-player-guide",
+    "name": "What is the Lonely Player in NTE? How to trigger this event?",
+    "nameEn": "What is the Lonely Player in NTE? How to trigger this event?",
+    "type": "faq",
+    "url": "/en/faq/lonely-player-guide",
+    "tags": [
+      "hidden",
+      "npc",
+      "easter-egg"
+    ]
+  },
+  {
+    "id": "ride-assault-guide",
+    "name": "异环突袭驾驶（Ride Assault）怎么玩？攻略技巧",
+    "nameEn": "How to play Ride Assault in NTE? Tips and strategies",
+    "type": "faq",
+    "url": "/zh/faq/ride-assault-guide",
+    "tags": [
+      "ride-assault",
+      "vehicle",
+      "gameplay"
+    ]
+  },
+  {
+    "id": "ride-assault-guide",
+    "name": "How to play Ride Assault in NTE? Tips and strategies",
+    "nameEn": "How to play Ride Assault in NTE? Tips and strategies",
+    "type": "faq",
+    "url": "/en/faq/ride-assault-guide",
+    "tags": [
+      "ride-assault",
+      "vehicle",
+      "gameplay"
+    ]
+  },
+  {
+    "id": "reality-refuge-guide",
+    "name": "异环现实避难所（Reality Refuge）是什么？怎么解锁？",
+    "nameEn": "What is Reality Refuge in NTE? How to unlock it?",
+    "type": "faq",
+    "url": "/zh/faq/reality-refuge-guide",
+    "tags": [
+      "reality-refuge",
+      "dungeon",
+      "endgame"
+    ]
+  },
+  {
+    "id": "reality-refuge-guide",
+    "name": "What is Reality Refuge in NTE? How to unlock it?",
+    "nameEn": "What is Reality Refuge in NTE? How to unlock it?",
+    "type": "faq",
+    "url": "/en/faq/reality-refuge-guide",
+    "tags": [
+      "reality-refuge",
+      "dungeon",
+      "endgame"
+    ]
+  },
+  {
+    "id": "raging-flames-guide",
+    "name": "异环烈焰（Raging Flames）怎么打？烈焰副本攻略",
+    "nameEn": "How to beat Raging Flames in NTE? Domain guide",
+    "type": "faq",
+    "url": "/zh/faq/raging-flames-guide",
+    "tags": [
+      "raging-flames",
+      "domain",
+      "fire"
+    ]
+  },
+  {
+    "id": "raging-flames-guide",
+    "name": "How to beat Raging Flames in NTE? Domain guide",
+    "nameEn": "How to beat Raging Flames in NTE? Domain guide",
+    "type": "faq",
+    "url": "/en/faq/raging-flames-guide",
+    "tags": [
+      "raging-flames",
+      "domain",
+      "fire"
+    ]
+  },
+  {
+    "id": "who-made-nte",
+    "name": "异环是谁开发的？制作团队是什么来头？",
+    "nameEn": "Who made NTE? What developer studio created Neverness to Everness?",
+    "type": "faq",
+    "url": "/zh/faq/who-made-nte",
+    "tags": [
+      "developer",
+      "general"
+    ]
+  },
+  {
+    "id": "who-made-nte",
+    "name": "Who made NTE? What developer studio created Neverness to Everness?",
+    "nameEn": "Who made NTE? What developer studio created Neverness to Everness?",
+    "type": "faq",
+    "url": "/en/faq/who-made-nte",
+    "tags": [
+      "developer",
+      "general"
+    ]
+  },
+  {
+    "id": "next-banner-schedule",
+    "name": "异环下一个卡池是什么？未来限定角色预告",
+    "nameEn": "What is the next banner in NTE? Upcoming limited character schedule",
+    "type": "faq",
+    "url": "/zh/faq/next-banner-schedule",
+    "tags": [
+      "banner",
+      "gacha",
+      "upcoming"
+    ]
+  },
+  {
+    "id": "next-banner-schedule",
+    "name": "What is the next banner in NTE? Upcoming limited character schedule",
+    "nameEn": "What is the next banner in NTE? Upcoming limited character schedule",
+    "type": "faq",
+    "url": "/en/faq/next-banner-schedule",
+    "tags": [
+      "banner",
+      "gacha",
+      "upcoming"
+    ]
+  },
+  {
+    "id": "hathor-team-comp",
+    "name": "异环哈索尔最佳配队是什么？哈索尔配队推荐",
+    "nameEn": "What is the best team comp for Hathor in NTE? Recommended teams",
+    "type": "faq",
+    "url": "/zh/faq/hathor-team-comp",
+    "tags": [
+      "hathor",
+      "team",
+      "support"
+    ]
+  },
+  {
+    "id": "hathor-team-comp",
+    "name": "What is the best team comp for Hathor in NTE? Recommended teams",
+    "nameEn": "What is the best team comp for Hathor in NTE? Recommended teams",
+    "type": "faq",
+    "url": "/en/faq/hathor-team-comp",
+    "tags": [
+      "hathor",
+      "team",
+      "support"
+    ]
+  },
+  {
+    "id": "daffodil-team-comp",
+    "name": "异环达芙迪尔配队怎么搭配？最佳队伍推荐",
+    "nameEn": "What is the best Daffodil team comp in NTE? Recommended teams",
+    "type": "faq",
+    "url": "/zh/faq/daffodil-team-comp",
+    "tags": [
+      "daffodil",
+      "team",
+      "support"
+    ]
+  },
+  {
+    "id": "daffodil-team-comp",
+    "name": "What is the best Daffodil team comp in NTE? Recommended teams",
+    "nameEn": "What is the best Daffodil team comp in NTE? Recommended teams",
+    "type": "faq",
+    "url": "/en/faq/daffodil-team-comp",
+    "tags": [
+      "daffodil",
+      "team",
+      "support"
+    ]
+  },
+  {
+    "id": "upcoming-characters",
+    "name": "异环未来会出哪些新角色？v1.1版本新角色预告",
+    "nameEn": "What new characters are coming to NTE? v1.1 upcoming characters",
+    "type": "faq",
+    "url": "/zh/faq/upcoming-characters",
+    "tags": [
+      "upcoming",
+      "characters",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "upcoming-characters",
+    "name": "What new characters are coming to NTE? v1.1 upcoming characters",
+    "nameEn": "What new characters are coming to NTE? v1.1 upcoming characters",
+    "type": "faq",
+    "url": "/en/faq/upcoming-characters",
+    "tags": [
+      "upcoming",
+      "characters",
+      "roadmap"
+    ]
+  },
+  {
+    "id": "safe-locations-guide",
+    "name": "异环安全屋（Safe Locations）在哪里？怎么解锁？",
+    "nameEn": "Where are Safe Locations in NTE? How to unlock safe houses?",
+    "type": "faq",
+    "url": "/zh/faq/safe-locations-guide",
+    "tags": [
+      "safe-locations",
+      "map",
+      "exploration"
+    ]
+  },
+  {
+    "id": "safe-locations-guide",
+    "name": "Where are Safe Locations in NTE? How to unlock safe houses?",
+    "nameEn": "Where are Safe Locations in NTE? How to unlock safe houses?",
+    "type": "faq",
+    "url": "/en/faq/safe-locations-guide",
+    "tags": [
+      "safe-locations",
+      "map",
+      "exploration"
+    ]
+  },
+  {
+    "id": "camellia-society-guide",
+    "name": "异环山茶花会（Camellia Society）是什么？怎么加入？",
+    "nameEn": "What is the Camellia Society in NTE? How to join?",
+    "type": "faq",
+    "url": "/zh/faq/camellia-society-guide",
+    "tags": [
+      "camellia-society",
+      "lore",
+      "quest"
+    ]
+  },
+  {
+    "id": "camellia-society-guide",
+    "name": "What is the Camellia Society in NTE? How to join?",
+    "nameEn": "What is the Camellia Society in NTE? How to join?",
+    "type": "faq",
+    "url": "/en/faq/camellia-society-guide",
+    "tags": [
+      "camellia-society",
+      "lore",
+      "quest"
+    ]
+  },
+  {
+    "id": "lost-tales-guide",
+    "name": "异环失落传说（Lost Tales）怎么触发？隐藏故事攻略",
+    "nameEn": "How to trigger Lost Tales in NTE? Hidden story guide",
+    "type": "faq",
+    "url": "/zh/faq/lost-tales-guide",
+    "tags": [
+      "lost-tales",
+      "hidden",
+      "story"
+    ]
+  },
+  {
+    "id": "lost-tales-guide",
+    "name": "How to trigger Lost Tales in NTE? Hidden story guide",
+    "nameEn": "How to trigger Lost Tales in NTE? Hidden story guide",
+    "type": "faq",
+    "url": "/en/faq/lost-tales-guide",
+    "tags": [
+      "lost-tales",
+      "hidden",
+      "story"
+    ]
+  },
+  {
+    "id": "nte-mods-guide",
+    "name": "异环支持MOD吗？怎么安装MOD？",
+    "nameEn": "Does NTE support mods? How to install mods?",
+    "type": "faq",
+    "url": "/zh/faq/nte-mods-guide",
+    "tags": [
+      "mods",
+      "general"
+    ]
+  },
+  {
+    "id": "nte-mods-guide",
+    "name": "Does NTE support mods? How to install mods?",
+    "nameEn": "Does NTE support mods? How to install mods?",
+    "type": "faq",
+    "url": "/en/faq/nte-mods-guide",
+    "tags": [
+      "mods",
+      "general"
+    ]
+  },
+  {
+    "id": "character-pixels-guide",
+    "name": "异环角色像素画（Character Pixels）怎么获取？",
+    "nameEn": "How to get Character Pixels in NTE? Pixel art collectibles guide",
+    "type": "faq",
+    "url": "/zh/faq/character-pixels-guide",
+    "tags": [
+      "pixels",
+      "collectible",
+      "character"
+    ]
+  },
+  {
+    "id": "character-pixels-guide",
+    "name": "How to get Character Pixels in NTE? Pixel art collectibles guide",
+    "nameEn": "How to get Character Pixels in NTE? Pixel art collectibles guide",
+    "type": "faq",
+    "url": "/en/faq/character-pixels-guide",
+    "tags": [
+      "pixels",
+      "collectible",
+      "character"
+    ]
+  },
+  {
+    "id": "how-to-uninstall-nte",
+    "name": "异环怎么卸载？PC和手机卸载方法",
+    "nameEn": "How to uninstall NTE? PC and mobile removal guide",
+    "type": "faq",
+    "url": "/zh/faq/how-to-uninstall-nte",
+    "tags": [
+      "uninstall",
+      "guide",
+      "general"
+    ]
+  },
+  {
+    "id": "how-to-uninstall-nte",
+    "name": "How to uninstall NTE? PC and mobile removal guide",
+    "nameEn": "How to uninstall NTE? PC and mobile removal guide",
+    "type": "faq",
+    "url": "/en/faq/how-to-uninstall-nte",
+    "tags": [
+      "uninstall",
+      "guide",
+      "general"
+    ]
+  },
+  {
+    "id": "song-of-the-whale-guide",
+    "name": "异环鲸歌（Song of the Whale）是什么？怎么完成？",
+    "nameEn": "What is Song of the Whale in NTE? Complete guide",
+    "type": "faq",
+    "url": "/zh/faq/song-of-the-whale-guide",
+    "tags": [
+      "song-of-the-whale",
+      "event",
+      "exploration",
+      "guide"
+    ]
+  },
+  {
+    "id": "song-of-the-whale-guide",
+    "name": "What is Song of the Whale in NTE? Complete guide",
+    "nameEn": "What is Song of the Whale in NTE? Complete guide",
+    "type": "faq",
+    "url": "/en/faq/song-of-the-whale-guide",
+    "tags": [
+      "song-of-the-whale",
+      "event",
+      "exploration",
+      "guide"
+    ]
+  },
+  {
+    "id": "oracle-stone-guide",
+    "name": "异环神谕石（Oracle Stone）是什么？怎么获取和使用？",
+    "nameEn": "What is Oracle Stone in NTE? How to get and use it?",
+    "type": "faq",
+    "url": "/zh/faq/oracle-stone-guide",
+    "tags": [
+      "oracle-stone",
+      "materials",
+      "guide",
+      "advanced"
+    ]
+  },
+  {
+    "id": "oracle-stone-guide",
+    "name": "What is Oracle Stone in NTE? How to get and use it?",
+    "nameEn": "What is Oracle Stone in NTE? How to get and use it?",
+    "type": "faq",
+    "url": "/en/faq/oracle-stone-guide",
+    "tags": [
+      "oracle-stone",
+      "materials",
+      "guide",
+      "advanced"
+    ]
+  },
+  {
+    "id": "nte-top-up-guide",
+    "name": "异环怎么充值？国际服充值方法和氪金指南",
+    "nameEn": "How to top up in NTE? Global server recharge guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-top-up-guide",
+    "tags": [
+      "top-up",
+      "recharge",
+      "payment",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-top-up-guide",
+    "name": "How to top up in NTE? Global server recharge guide",
+    "nameEn": "How to top up in NTE? Global server recharge guide",
+    "type": "faq",
+    "url": "/en/faq/nte-top-up-guide",
+    "tags": [
+      "top-up",
+      "recharge",
+      "payment",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-witch-house-guide",
+    "name": "异环魔女之屋（Witch House）在哪里？怎么解锁？",
+    "nameEn": "Where is the Witch House in NTE? How to unlock it?",
+    "type": "faq",
+    "url": "/zh/faq/nte-witch-house-guide",
+    "tags": [
+      "witch-house",
+      "exploration",
+      "hidden",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-witch-house-guide",
+    "name": "Where is the Witch House in NTE? How to unlock it?",
+    "nameEn": "Where is the Witch House in NTE? How to unlock it?",
+    "type": "faq",
+    "url": "/en/faq/nte-witch-house-guide",
+    "tags": [
+      "witch-house",
+      "exploration",
+      "hidden",
+      "guide"
+    ]
+  },
+  {
+    "id": "miles-apart-guide",
+    "name": "异环千里之遥（Miles Apart）是什么？怎么完成？",
+    "nameEn": "What is Miles Apart in NTE? How to complete it?",
+    "type": "faq",
+    "url": "/zh/faq/miles-apart-guide",
+    "tags": [
+      "miles-apart",
+      "quest",
+      "story",
+      "guide"
+    ]
+  },
+  {
+    "id": "miles-apart-guide",
+    "name": "What is Miles Apart in NTE? How to complete it?",
+    "nameEn": "What is Miles Apart in NTE? How to complete it?",
+    "type": "faq",
+    "url": "/en/faq/miles-apart-guide",
+    "tags": [
+      "miles-apart",
+      "quest",
+      "story",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-berapa-gb",
+    "name": "异环游戏多大？需要多少存储空间？",
+    "nameEn": "How many GB is NTE? Storage size and disk space requirements",
+    "type": "faq",
+    "url": "/zh/faq/nte-berapa-gb",
+    "tags": [
+      "storage",
+      "size",
+      "gb",
+      "requirements",
+      "platform"
+    ]
+  },
+  {
+    "id": "nte-berapa-gb",
+    "name": "How many GB is NTE? Storage size and disk space requirements",
+    "nameEn": "How many GB is NTE? Storage size and disk space requirements",
+    "type": "faq",
+    "url": "/en/faq/nte-berapa-gb",
+    "tags": [
+      "storage",
+      "size",
+      "gb",
+      "requirements",
+      "platform"
+    ]
+  },
+  {
+    "id": "nte-steam-platform",
+    "name": "异环在Steam上可以玩吗？Steam版和客户端有什么区别？",
+    "nameEn": "Is NTE on Steam? Difference between Steam and standalone client",
+    "type": "faq",
+    "url": "/zh/faq/nte-steam-platform",
+    "tags": [
+      "steam",
+      "platform",
+      "pc",
+      "release"
+    ]
+  },
+  {
+    "id": "nte-steam-platform",
+    "name": "Is NTE on Steam? Difference between Steam and standalone client",
+    "nameEn": "Is NTE on Steam? Difference between Steam and standalone client",
+    "type": "faq",
+    "url": "/en/faq/nte-steam-platform",
+    "tags": [
+      "steam",
+      "platform",
+      "pc",
+      "release"
+    ]
+  },
+  {
+    "id": "nte-collect-furniture-guide",
+    "name": "异环怎么收集家具？家具获取途径大全",
+    "nameEn": "How to collect furniture in NTE? All furniture acquisition methods",
+    "type": "faq",
+    "url": "/zh/faq/nte-collect-furniture-guide",
+    "tags": [
+      "furniture",
+      "housing",
+      "collection",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-collect-furniture-guide",
+    "name": "How to collect furniture in NTE? All furniture acquisition methods",
+    "nameEn": "How to collect furniture in NTE? All furniture acquisition methods",
+    "type": "faq",
+    "url": "/en/faq/nte-collect-furniture-guide",
+    "tags": [
+      "furniture",
+      "housing",
+      "collection",
+      "guide"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",

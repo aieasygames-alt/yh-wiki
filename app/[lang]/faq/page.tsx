@@ -49,6 +49,8 @@ export default async function FaqListPage({
     faqs: faqs.filter((f) => f.category === cat.slug),
   }));
 
+  const totalFaqs = faqs.length;
+
   return (
     <>
       <ItemListJsonLd
@@ -64,7 +66,25 @@ export default async function FaqListPage({
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold mb-6">{t(locale, "faq.title")}</h1>
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold">{t(locale, "faq.title")}</h1>
+          <p className="mt-2 text-gray-500">
+            {isZhLocale(locale)
+              ? `共 ${totalFaqs} 个常见问题，覆盖新手入门、角色培养、抽卡系统等分类`
+              : `${totalFaqs} frequently asked questions covering beginners, characters, gacha, and more`}
+          </p>
+        </div>
+
+        {/* Search Input */}
+        <div className="mb-6">
+          <input
+            id="faq-search"
+            type="text"
+            placeholder={isZhLocale(locale) ? "搜索问题..." : "Search questions..."}
+            className="w-full px-4 py-3 rounded-xl border border-gray-700 bg-gray-900/50 text-sm placeholder:text-gray-600 focus:outline-none focus:border-primary-500/50 focus:ring-1 focus:ring-primary-500/30 transition-colors"
+          />
+        </div>
 
         {/* Category Quick Jump */}
         <div className="flex flex-wrap gap-2 mb-8 sticky top-0 bg-[var(--background)] py-3 z-10 border-b border-gray-800">
@@ -79,38 +99,99 @@ export default async function FaqListPage({
           ))}
         </div>
 
+        {/* FAQ List */}
         {faqsByCategory.map((cat) => (
           <section key={cat.slug} id={`cat-${cat.slug}`} className="mb-10 scroll-mt-20">
-            <h2 className="text-xl font-bold mb-4 text-primary-400">{cat.name}</h2>
-            <div className="space-y-4">
-              {cat.faqs.map((faq) => (
+            <div className="flex items-center gap-3 mb-4">
+              <h2 className="text-xl font-bold text-primary-400">{cat.name}</h2>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-primary-500/10 text-primary-400 border border-primary-500/20">
+                {cat.faqs.length}
+              </span>
+            </div>
+            <div className="space-y-3">
+              {cat.faqs.map((faq, index) => (
                 <a
                   key={faq.id}
                   href={`/${lang}/faq/${faq.id}`}
-                  className="block rounded-lg border border-gray-800 bg-gray-900/30 p-5 hover:border-primary-500/50 hover:bg-gray-900/50 transition-colors"
+                  className="faq-item group block rounded-xl border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-all duration-200 hover:shadow-lg hover:shadow-primary-500/5"
                 >
-                  <h3 className="text-base font-medium">
-                    {isZhLocale(locale) ? faq.question : faq.questionEn}
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-500 line-clamp-2">
-                    {isZhLocale(locale) ? faq.answer : faq.answerEn}
-                  </p>
-                  <div className="mt-3 flex gap-2">
-                    {faq.tags.slice(0, 3).map((tag) => (
-                      <span
-                        key={tag}
-                        className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400"
-                      >
-                        {tag}
-                      </span>
-                    ))}
+                  <div className="flex items-start gap-3">
+                    <span className="flex-shrink-0 mt-0.5 w-6 h-6 rounded-md bg-gray-800 group-hover:bg-primary-500/20 flex items-center justify-center text-xs text-gray-500 group-hover:text-primary-400 transition-colors">
+                      {index + 1}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="text-sm font-medium group-hover:text-primary-300 transition-colors">
+                        {isZhLocale(locale) ? faq.question : faq.questionEn}
+                      </h3>
+                      <p className="mt-1.5 text-xs text-gray-500 line-clamp-2">
+                        {isZhLocale(locale) ? faq.answer : faq.answerEn}
+                      </p>
+                      {faq.tags && faq.tags.length > 0 && (
+                        <div className="mt-2 flex gap-1.5 flex-wrap">
+                          {faq.tags.slice(0, 3).map((tag) => (
+                            <span
+                              key={tag}
+                              className="text-[10px] px-1.5 py-0.5 rounded bg-gray-800/80 text-gray-500"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                    <svg className="flex-shrink-0 w-4 h-4 text-gray-600 group-hover:text-primary-400 transition-colors mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
                   </div>
                 </a>
               ))}
             </div>
           </section>
         ))}
+
+        {/* No Results Message (hidden by default, shown by JS) */}
+        <div id="faq-no-results" className="hidden text-center py-12">
+          <p className="text-gray-500">
+            {isZhLocale(locale) ? "没有找到匹配的问题" : "No matching questions found"}
+          </p>
+        </div>
       </div>
+
+      {/* Client-side search script */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+(function() {
+  var input = document.getElementById('faq-search');
+  if (!input) return;
+  var noResults = document.getElementById('faq-no-results');
+  var sections = document.querySelectorAll('section[id^="cat-"]');
+  var items = document.querySelectorAll('.faq-item');
+
+  input.addEventListener('input', function() {
+    var q = this.value.toLowerCase().trim();
+    var visibleCount = 0;
+
+    items.forEach(function(item) {
+      var text = item.textContent.toLowerCase();
+      var show = !q || text.indexOf(q) !== -1;
+      item.style.display = show ? '' : 'none';
+      if (show) visibleCount++;
+    });
+
+    sections.forEach(function(section) {
+      var visibleItems = section.querySelectorAll('.faq-item:not([style*="display: none"])');
+      section.style.display = visibleItems.length > 0 ? '' : 'none';
+    });
+
+    if (noResults) {
+      noResults.classList.toggle('hidden', visibleCount > 0 || !q);
+    }
+  });
+})();
+          `,
+        }}
+      />
     </>
   );
 }

@@ -201,6 +201,8 @@ export default async function HomePage({
               { label: isZhLocale(locale) ? "强度排行" : "Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? "角色评级排名" : "Character rankings" },
               { label: isZhLocale(locale) ? "Build攻略" : "Build Guide", href: `/${lang}/blog/nte-nanally-build-guide`, desc: isZhLocale(locale) ? "角色配装推荐" : "Best character builds" },
               { label: isZhLocale(locale) ? "配队指南" : "Team Comps", href: `/${lang}/blog/nte-best-team-comps-1-0`, desc: isZhLocale(locale) ? "最佳队伍搭配" : "Best team builds" },
+              { label: isZhLocale(locale) ? "零Build" : "Zero Build", href: `/${lang}/blog/nte-zero-build-guide`, desc: isZhLocale(locale) ? "零爆发配装" : "Zero burst guide" },
+              { label: isZhLocale(locale) ? "九原Build" : "Jiuyuan Build", href: `/${lang}/blog/nte-jiuyuan-build-guide`, desc: isZhLocale(locale) ? "九原辅助配装" : "Jiuyuan support guide" },
               { label: isZhLocale(locale) ? "交互地图" : "Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? "全地图标记" : "Interactive map" },
               { label: isZhLocale(locale) ? "配置要求" : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? "PC/手机配置" : "PC & mobile specs" },
               { label: isZhLocale(locale) ? "兑换码" : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? "最新兑换码" : "Latest codes" },

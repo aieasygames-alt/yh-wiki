@@ -324,6 +324,7 @@
 /en/blog/nte-global-launch-guide /en/blog/nte-global-launch-guide/ 301
 /en/blog/nte-global-launch-live-guide /en/blog/nte-global-launch-live-guide/ 301
 /en/blog/nte-global-server-recharge-guide /en/blog/nte-global-server-recharge-guide/ 301
+/en/blog/nte-jiuyuan-build-guide /en/blog/nte-jiuyuan-build-guide/ 301
 /en/blog/nte-launch-6-choose-1 /en/blog/nte-launch-6-choose-1/ 301
 /en/blog/nte-launch-collaborations /en/blog/nte-launch-collaborations/ 301
 /en/blog/nte-launch-compensation-guide /en/blog/nte-launch-compensation-guide/ 301
@@ -344,6 +345,7 @@
 /en/blog/nte-v11-preview /en/blog/nte-v11-preview/ 301
 /en/blog/nte-version-1-0-update /en/blog/nte-version-1-0-update/ 301
 /en/blog/nte-vs-genshin-vs-wuthering-waves /en/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/en/blog/nte-zero-build-guide /en/blog/nte-zero-build-guide/ 301
 /en/bosses /en/bosses/ 301
 /en/calculator/build /en/calculator/build/ 301
 /en/calculator/leveling /en/calculator/leveling/ 301
@@ -517,6 +519,7 @@
 /en/faq/mac-support /en/faq/mac-support/ 301
 /en/faq/material-domains-location /en/faq/material-domains-location/ 301
 /en/faq/memory-leak-crash /en/faq/memory-leak-crash/ 301
+/en/faq/miles-apart-guide /en/faq/miles-apart-guide/ 301
 /en/faq/mint-character /en/faq/mint-character/ 301
 /en/faq/mobile-battery-drain /en/faq/mobile-battery-drain/ 301
 /en/faq/mobile-controller-support /en/faq/mobile-controller-support/ 301
@@ -532,9 +535,15 @@
 /en/faq/no-50-50-confirmed /en/faq/no-50-50-confirmed/ 301
 /en/faq/no-50-50-system /en/faq/no-50-50-system/ 301
 /en/faq/nte-ai-art-controversy /en/faq/nte-ai-art-controversy/ 301
+/en/faq/nte-berapa-gb /en/faq/nte-berapa-gb/ 301
+/en/faq/nte-collect-furniture-guide /en/faq/nte-collect-furniture-guide/ 301
 /en/faq/nte-mods-guide /en/faq/nte-mods-guide/ 301
+/en/faq/nte-steam-platform /en/faq/nte-steam-platform/ 301
+/en/faq/nte-top-up-guide /en/faq/nte-top-up-guide/ 301
 /en/faq/nte-vs-zzz-which /en/faq/nte-vs-zzz-which/ 301
+/en/faq/nte-witch-house-guide /en/faq/nte-witch-house-guide/ 301
 /en/faq/nvidia-driver-nte /en/faq/nvidia-driver-nte/ 301
+/en/faq/oracle-stone-guide /en/faq/oracle-stone-guide/ 301
 /en/faq/pc-crash-launcher /en/faq/pc-crash-launcher/ 301
 /en/faq/perfect-dodge-counter /en/faq/perfect-dodge-counter/ 301
 /en/faq/permit-materials /en/faq/permit-materials/ 301
@@ -567,6 +576,7 @@
 /en/faq/shop-auto-farm /en/faq/shop-auto-farm/ 301
 /en/faq/six-attributes /en/faq/six-attributes/ 301
 /en/faq/skill-upgrade-materials /en/faq/skill-upgrade-materials/ 301
+/en/faq/song-of-the-whale-guide /en/faq/song-of-the-whale-guide/ 301
 /en/faq/sound-lost /en/faq/sound-lost/ 301
 /en/faq/ssd-requirement /en/faq/ssd-requirement/ 301
 /en/faq/stamina-buy-guide /en/faq/stamina-buy-guide/ 301
@@ -706,6 +716,7 @@
 /en/tags/a /en/tags/a/ 301
 /en/tags/abyss /en/tags/abyss/ 301
 /en/tags/account /en/tags/account/ 301
+/en/tags/advanced /en/tags/advanced/ 301
 /en/tags/ai /en/tags/ai/ 301
 /en/tags/alt-tab /en/tags/alt-tab/ 301
 /en/tags/android /en/tags/android/ 301
@@ -805,9 +816,11 @@
 /en/tags/free to play /en/tags/free to play/ 301
 /en/tags/free-pulls /en/tags/free-pulls/ 301
 /en/tags/fullscreen /en/tags/fullscreen/ 301
+/en/tags/furniture /en/tags/furniture/ 301
 /en/tags/gacha /en/tags/gacha/ 301
 /en/tags/gameplay /en/tags/gameplay/ 301
 /en/tags/gas /en/tags/gas/ 301
+/en/tags/gb /en/tags/gb/ 301
 /en/tags/general /en/tags/general/ 301
 /en/tags/genesis /en/tags/genesis/ 301
 /en/tags/global /en/tags/global/ 301
@@ -848,6 +861,7 @@
 /en/tags/mechanics /en/tags/mechanics/ 301
 /en/tags/memory /en/tags/memory/ 301
 /en/tags/meta /en/tags/meta/ 301
+/en/tags/miles-apart /en/tags/miles-apart/ 301
 /en/tags/mistakes /en/tags/mistakes/ 301
 /en/tags/mobile /en/tags/mobile/ 301
 /en/tags/mods /en/tags/mods/ 301
@@ -860,6 +874,7 @@
 /en/tags/npc /en/tags/npc/ 301
 /en/tags/opening /en/tags/opening/ 301
 /en/tags/optimization /en/tags/optimization/ 301
+/en/tags/oracle-stone /en/tags/oracle-stone/ 301
 /en/tags/organizations /en/tags/organizations/ 301
 /en/tags/overheating /en/tags/overheating/ 301
 /en/tags/p5r /en/tags/p5r/ 301
@@ -917,14 +932,17 @@
 /en/tags/secrets /en/tags/secrets/ 301
 /en/tags/selector /en/tags/selector/ 301
 /en/tags/server /en/tags/server/ 301
+/en/tags/size /en/tags/size/ 301
 /en/tags/sms /en/tags/sms/ 301
 /en/tags/social /en/tags/social/ 301
 /en/tags/solid /en/tags/solid/ 301
+/en/tags/song-of-the-whale /en/tags/song-of-the-whale/ 301
 /en/tags/sound /en/tags/sound/ 301
 /en/tags/space /en/tags/space/ 301
 /en/tags/specs /en/tags/specs/ 301
 /en/tags/ssd /en/tags/ssd/ 301
 /en/tags/stamina /en/tags/stamina/ 301
+/en/tags/steam /en/tags/steam/ 301
 /en/tags/storage /en/tags/storage/ 301
 /en/tags/story /en/tags/story/ 301
 /en/tags/stuck /en/tags/stuck/ 301
@@ -947,6 +965,7 @@
 /en/tags/tier-list /en/tags/tier-list/ 301
 /en/tags/timeline /en/tags/timeline/ 301
 /en/tags/tips /en/tags/tips/ 301
+/en/tags/top-up /en/tags/top-up/ 301
 /en/tags/touch /en/tags/touch/ 301
 /en/tags/town /en/tags/town/ 301
 /en/tags/transfer /en/tags/transfer/ 301
@@ -964,6 +983,7 @@
 /en/tags/weapons /en/tags/weapons/ 301
 /en/tags/white-screen /en/tags/white-screen/ 301
 /en/tags/wish /en/tags/wish/ 301
+/en/tags/witch-house /en/tags/witch-house/ 301
 /en/tags/world-boss /en/tags/world-boss/ 301
 /en/tags/下载 /en/tags/下载/ 301
 /en/tags/九原 /en/tags/九原/ 301
@@ -1166,6 +1186,7 @@
 /tw/blog/nte-global-launch-guide /tw/blog/nte-global-launch-guide/ 301
 /tw/blog/nte-global-launch-live-guide /tw/blog/nte-global-launch-live-guide/ 301
 /tw/blog/nte-global-server-recharge-guide /tw/blog/nte-global-server-recharge-guide/ 301
+/tw/blog/nte-jiuyuan-build-guide /tw/blog/nte-jiuyuan-build-guide/ 301
 /tw/blog/nte-launch-6-choose-1 /tw/blog/nte-launch-6-choose-1/ 301
 /tw/blog/nte-launch-collaborations /tw/blog/nte-launch-collaborations/ 301
 /tw/blog/nte-launch-compensation-guide /tw/blog/nte-launch-compensation-guide/ 301
@@ -1186,6 +1207,7 @@
 /tw/blog/nte-v11-preview /tw/blog/nte-v11-preview/ 301
 /tw/blog/nte-version-1-0-update /tw/blog/nte-version-1-0-update/ 301
 /tw/blog/nte-vs-genshin-vs-wuthering-waves /tw/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/tw/blog/nte-zero-build-guide /tw/blog/nte-zero-build-guide/ 301
 /tw/bosses /tw/bosses/ 301
 /tw/calculator/build /tw/calculator/build/ 301
 /tw/calculator/leveling /tw/calculator/leveling/ 301
@@ -1359,6 +1381,7 @@
 /tw/faq/mac-support /tw/faq/mac-support/ 301
 /tw/faq/material-domains-location /tw/faq/material-domains-location/ 301
 /tw/faq/memory-leak-crash /tw/faq/memory-leak-crash/ 301
+/tw/faq/miles-apart-guide /tw/faq/miles-apart-guide/ 301
 /tw/faq/mint-character /tw/faq/mint-character/ 301
 /tw/faq/mobile-battery-drain /tw/faq/mobile-battery-drain/ 301
 /tw/faq/mobile-controller-support /tw/faq/mobile-controller-support/ 301
@@ -1374,9 +1397,15 @@
 /tw/faq/no-50-50-confirmed /tw/faq/no-50-50-confirmed/ 301
 /tw/faq/no-50-50-system /tw/faq/no-50-50-system/ 301
 /tw/faq/nte-ai-art-controversy /tw/faq/nte-ai-art-controversy/ 301
+/tw/faq/nte-berapa-gb /tw/faq/nte-berapa-gb/ 301
+/tw/faq/nte-collect-furniture-guide /tw/faq/nte-collect-furniture-guide/ 301
 /tw/faq/nte-mods-guide /tw/faq/nte-mods-guide/ 301
+/tw/faq/nte-steam-platform /tw/faq/nte-steam-platform/ 301
+/tw/faq/nte-top-up-guide /tw/faq/nte-top-up-guide/ 301
 /tw/faq/nte-vs-zzz-which /tw/faq/nte-vs-zzz-which/ 301
+/tw/faq/nte-witch-house-guide /tw/faq/nte-witch-house-guide/ 301
 /tw/faq/nvidia-driver-nte /tw/faq/nvidia-driver-nte/ 301
+/tw/faq/oracle-stone-guide /tw/faq/oracle-stone-guide/ 301
 /tw/faq/pc-crash-launcher /tw/faq/pc-crash-launcher/ 301
 /tw/faq/perfect-dodge-counter /tw/faq/perfect-dodge-counter/ 301
 /tw/faq/permit-materials /tw/faq/permit-materials/ 301
@@ -1409,6 +1438,7 @@
 /tw/faq/shop-auto-farm /tw/faq/shop-auto-farm/ 301
 /tw/faq/six-attributes /tw/faq/six-attributes/ 301
 /tw/faq/skill-upgrade-materials /tw/faq/skill-upgrade-materials/ 301
+/tw/faq/song-of-the-whale-guide /tw/faq/song-of-the-whale-guide/ 301
 /tw/faq/sound-lost /tw/faq/sound-lost/ 301
 /tw/faq/ssd-requirement /tw/faq/ssd-requirement/ 301
 /tw/faq/stamina-buy-guide /tw/faq/stamina-buy-guide/ 301
@@ -1548,6 +1578,7 @@
 /tw/tags/a /tw/tags/a/ 301
 /tw/tags/abyss /tw/tags/abyss/ 301
 /tw/tags/account /tw/tags/account/ 301
+/tw/tags/advanced /tw/tags/advanced/ 301
 /tw/tags/ai /tw/tags/ai/ 301
 /tw/tags/alt-tab /tw/tags/alt-tab/ 301
 /tw/tags/android /tw/tags/android/ 301
@@ -1647,9 +1678,11 @@
 /tw/tags/free to play /tw/tags/free to play/ 301
 /tw/tags/free-pulls /tw/tags/free-pulls/ 301
 /tw/tags/fullscreen /tw/tags/fullscreen/ 301
+/tw/tags/furniture /tw/tags/furniture/ 301
 /tw/tags/gacha /tw/tags/gacha/ 301
 /tw/tags/gameplay /tw/tags/gameplay/ 301
 /tw/tags/gas /tw/tags/gas/ 301
+/tw/tags/gb /tw/tags/gb/ 301
 /tw/tags/general /tw/tags/general/ 301
 /tw/tags/genesis /tw/tags/genesis/ 301
 /tw/tags/global /tw/tags/global/ 301
@@ -1690,6 +1723,7 @@
 /tw/tags/mechanics /tw/tags/mechanics/ 301
 /tw/tags/memory /tw/tags/memory/ 301
 /tw/tags/meta /tw/tags/meta/ 301
+/tw/tags/miles-apart /tw/tags/miles-apart/ 301
 /tw/tags/mistakes /tw/tags/mistakes/ 301
 /tw/tags/mobile /tw/tags/mobile/ 301
 /tw/tags/mods /tw/tags/mods/ 301
@@ -1702,6 +1736,7 @@
 /tw/tags/npc /tw/tags/npc/ 301
 /tw/tags/opening /tw/tags/opening/ 301
 /tw/tags/optimization /tw/tags/optimization/ 301
+/tw/tags/oracle-stone /tw/tags/oracle-stone/ 301
 /tw/tags/organizations /tw/tags/organizations/ 301
 /tw/tags/overheating /tw/tags/overheating/ 301
 /tw/tags/p5r /tw/tags/p5r/ 301
@@ -1759,14 +1794,17 @@
 /tw/tags/secrets /tw/tags/secrets/ 301
 /tw/tags/selector /tw/tags/selector/ 301
 /tw/tags/server /tw/tags/server/ 301
+/tw/tags/size /tw/tags/size/ 301
 /tw/tags/sms /tw/tags/sms/ 301
 /tw/tags/social /tw/tags/social/ 301
 /tw/tags/solid /tw/tags/solid/ 301
+/tw/tags/song-of-the-whale /tw/tags/song-of-the-whale/ 301
 /tw/tags/sound /tw/tags/sound/ 301
 /tw/tags/space /tw/tags/space/ 301
 /tw/tags/specs /tw/tags/specs/ 301
 /tw/tags/ssd /tw/tags/ssd/ 301
 /tw/tags/stamina /tw/tags/stamina/ 301
+/tw/tags/steam /tw/tags/steam/ 301
 /tw/tags/storage /tw/tags/storage/ 301
 /tw/tags/story /tw/tags/story/ 301
 /tw/tags/stuck /tw/tags/stuck/ 301
@@ -1789,6 +1827,7 @@
 /tw/tags/tier-list /tw/tags/tier-list/ 301
 /tw/tags/timeline /tw/tags/timeline/ 301
 /tw/tags/tips /tw/tags/tips/ 301
+/tw/tags/top-up /tw/tags/top-up/ 301
 /tw/tags/touch /tw/tags/touch/ 301
 /tw/tags/town /tw/tags/town/ 301
 /tw/tags/transfer /tw/tags/transfer/ 301
@@ -1806,6 +1845,7 @@
 /tw/tags/weapons /tw/tags/weapons/ 301
 /tw/tags/white-screen /tw/tags/white-screen/ 301
 /tw/tags/wish /tw/tags/wish/ 301
+/tw/tags/witch-house /tw/tags/witch-house/ 301
 /tw/tags/world-boss /tw/tags/world-boss/ 301
 /tw/tags/下载 /tw/tags/下载/ 301
 /tw/tags/九原 /tw/tags/九原/ 301
@@ -2008,6 +2048,7 @@
 /zh/blog/nte-global-launch-guide /zh/blog/nte-global-launch-guide/ 301
 /zh/blog/nte-global-launch-live-guide /zh/blog/nte-global-launch-live-guide/ 301
 /zh/blog/nte-global-server-recharge-guide /zh/blog/nte-global-server-recharge-guide/ 301
+/zh/blog/nte-jiuyuan-build-guide /zh/blog/nte-jiuyuan-build-guide/ 301
 /zh/blog/nte-launch-6-choose-1 /zh/blog/nte-launch-6-choose-1/ 301
 /zh/blog/nte-launch-collaborations /zh/blog/nte-launch-collaborations/ 301
 /zh/blog/nte-launch-compensation-guide /zh/blog/nte-launch-compensation-guide/ 301
@@ -2028,6 +2069,7 @@
 /zh/blog/nte-v11-preview /zh/blog/nte-v11-preview/ 301
 /zh/blog/nte-version-1-0-update /zh/blog/nte-version-1-0-update/ 301
 /zh/blog/nte-vs-genshin-vs-wuthering-waves /zh/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/zh/blog/nte-zero-build-guide /zh/blog/nte-zero-build-guide/ 301
 /zh/bosses /zh/bosses/ 301
 /zh/calculator/build /zh/calculator/build/ 301
 /zh/calculator/leveling /zh/calculator/leveling/ 301
@@ -2201,6 +2243,7 @@
 /zh/faq/mac-support /zh/faq/mac-support/ 301
 /zh/faq/material-domains-location /zh/faq/material-domains-location/ 301
 /zh/faq/memory-leak-crash /zh/faq/memory-leak-crash/ 301
+/zh/faq/miles-apart-guide /zh/faq/miles-apart-guide/ 301
 /zh/faq/mint-character /zh/faq/mint-character/ 301
 /zh/faq/mobile-battery-drain /zh/faq/mobile-battery-drain/ 301
 /zh/faq/mobile-controller-support /zh/faq/mobile-controller-support/ 301
@@ -2216,9 +2259,15 @@
 /zh/faq/no-50-50-confirmed /zh/faq/no-50-50-confirmed/ 301
 /zh/faq/no-50-50-system /zh/faq/no-50-50-system/ 301
 /zh/faq/nte-ai-art-controversy /zh/faq/nte-ai-art-controversy/ 301
+/zh/faq/nte-berapa-gb /zh/faq/nte-berapa-gb/ 301
+/zh/faq/nte-collect-furniture-guide /zh/faq/nte-collect-furniture-guide/ 301
 /zh/faq/nte-mods-guide /zh/faq/nte-mods-guide/ 301
+/zh/faq/nte-steam-platform /zh/faq/nte-steam-platform/ 301
+/zh/faq/nte-top-up-guide /zh/faq/nte-top-up-guide/ 301
 /zh/faq/nte-vs-zzz-which /zh/faq/nte-vs-zzz-which/ 301
+/zh/faq/nte-witch-house-guide /zh/faq/nte-witch-house-guide/ 301
 /zh/faq/nvidia-driver-nte /zh/faq/nvidia-driver-nte/ 301
+/zh/faq/oracle-stone-guide /zh/faq/oracle-stone-guide/ 301
 /zh/faq/pc-crash-launcher /zh/faq/pc-crash-launcher/ 301
 /zh/faq/perfect-dodge-counter /zh/faq/perfect-dodge-counter/ 301
 /zh/faq/permit-materials /zh/faq/permit-materials/ 301
@@ -2251,6 +2300,7 @@
 /zh/faq/shop-auto-farm /zh/faq/shop-auto-farm/ 301
 /zh/faq/six-attributes /zh/faq/six-attributes/ 301
 /zh/faq/skill-upgrade-materials /zh/faq/skill-upgrade-materials/ 301
+/zh/faq/song-of-the-whale-guide /zh/faq/song-of-the-whale-guide/ 301
 /zh/faq/sound-lost /zh/faq/sound-lost/ 301
 /zh/faq/ssd-requirement /zh/faq/ssd-requirement/ 301
 /zh/faq/stamina-buy-guide /zh/faq/stamina-buy-guide/ 301
@@ -2390,6 +2440,7 @@
 /zh/tags/a /zh/tags/a/ 301
 /zh/tags/abyss /zh/tags/abyss/ 301
 /zh/tags/account /zh/tags/account/ 301
+/zh/tags/advanced /zh/tags/advanced/ 301
 /zh/tags/ai /zh/tags/ai/ 301
 /zh/tags/alt-tab /zh/tags/alt-tab/ 301
 /zh/tags/android /zh/tags/android/ 301
@@ -2489,9 +2540,11 @@
 /zh/tags/free to play /zh/tags/free to play/ 301
 /zh/tags/free-pulls /zh/tags/free-pulls/ 301
 /zh/tags/fullscreen /zh/tags/fullscreen/ 301
+/zh/tags/furniture /zh/tags/furniture/ 301
 /zh/tags/gacha /zh/tags/gacha/ 301
 /zh/tags/gameplay /zh/tags/gameplay/ 301
 /zh/tags/gas /zh/tags/gas/ 301
+/zh/tags/gb /zh/tags/gb/ 301
 /zh/tags/general /zh/tags/general/ 301
 /zh/tags/genesis /zh/tags/genesis/ 301
 /zh/tags/global /zh/tags/global/ 301
@@ -2532,6 +2585,7 @@
 /zh/tags/mechanics /zh/tags/mechanics/ 301
 /zh/tags/memory /zh/tags/memory/ 301
 /zh/tags/meta /zh/tags/meta/ 301
+/zh/tags/miles-apart /zh/tags/miles-apart/ 301
 /zh/tags/mistakes /zh/tags/mistakes/ 301
 /zh/tags/mobile /zh/tags/mobile/ 301
 /zh/tags/mods /zh/tags/mods/ 301
@@ -2544,6 +2598,7 @@
 /zh/tags/npc /zh/tags/npc/ 301
 /zh/tags/opening /zh/tags/opening/ 301
 /zh/tags/optimization /zh/tags/optimization/ 301
+/zh/tags/oracle-stone /zh/tags/oracle-stone/ 301
 /zh/tags/organizations /zh/tags/organizations/ 301
 /zh/tags/overheating /zh/tags/overheating/ 301
 /zh/tags/p5r /zh/tags/p5r/ 301
@@ -2601,14 +2656,17 @@
 /zh/tags/secrets /zh/tags/secrets/ 301
 /zh/tags/selector /zh/tags/selector/ 301
 /zh/tags/server /zh/tags/server/ 301
+/zh/tags/size /zh/tags/size/ 301
 /zh/tags/sms /zh/tags/sms/ 301
 /zh/tags/social /zh/tags/social/ 301
 /zh/tags/solid /zh/tags/solid/ 301
+/zh/tags/song-of-the-whale /zh/tags/song-of-the-whale/ 301
 /zh/tags/sound /zh/tags/sound/ 301
 /zh/tags/space /zh/tags/space/ 301
 /zh/tags/specs /zh/tags/specs/ 301
 /zh/tags/ssd /zh/tags/ssd/ 301
 /zh/tags/stamina /zh/tags/stamina/ 301
+/zh/tags/steam /zh/tags/steam/ 301
 /zh/tags/storage /zh/tags/storage/ 301
 /zh/tags/story /zh/tags/story/ 301
 /zh/tags/stuck /zh/tags/stuck/ 301
@@ -2631,6 +2689,7 @@
 /zh/tags/tier-list /zh/tags/tier-list/ 301
 /zh/tags/timeline /zh/tags/timeline/ 301
 /zh/tags/tips /zh/tags/tips/ 301
+/zh/tags/top-up /zh/tags/top-up/ 301
 /zh/tags/touch /zh/tags/touch/ 301
 /zh/tags/town /zh/tags/town/ 301
 /zh/tags/transfer /zh/tags/transfer/ 301
@@ -2648,6 +2707,7 @@
 /zh/tags/weapons /zh/tags/weapons/ 301
 /zh/tags/white-screen /zh/tags/white-screen/ 301
 /zh/tags/wish /zh/tags/wish/ 301
+/zh/tags/witch-house /zh/tags/witch-house/ 301
 /zh/tags/world-boss /zh/tags/world-boss/ 301
 /zh/tags/下载 /zh/tags/下载/ 301
 /zh/tags/九原 /zh/tags/九原/ 301

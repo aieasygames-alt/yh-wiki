@@ -3399,5 +3399,182 @@
     "categoryEn": "General",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "song-of-the-whale-guide",
+    "question": "异环鲸歌（Song of the Whale）是什么？怎么完成？",
+    "questionEn": "What is Song of the Whale in NTE? Complete guide",
+    "seoTitleZh": "异环鲸歌活动攻略 — Song of the Whale完成方法与奖励",
+    "seoTitleEn": "NTE Song of the Whale Guide — Complete Walkthrough & Rewards",
+    "seoDescriptionZh": "异环鲸歌（Song of the Whale）活动完整攻略，包含触发条件、流程步骤、隐藏奖励和注意事项。",
+    "seoDescriptionEn": "Complete guide to NTE Song of the Whale event: how to trigger, walkthrough steps, hidden rewards, and tips.",
+    "answer": "鲸歌（Song of the Whale）是异环中一个重要的世界探索事件/活动。完成方法：1) 前往指定海域/湖泊区域，寻找鲸歌标记点；2) 靠近后触发剧情动画；3) 根据指引完成对应的探索任务，包括解谜和收集；4) 完成后获得丰厚奖励，包含星泉和信用点。建议等级达到30级以上再尝试，部分区域需要解锁对应主线进度。",
+    "answerEn": "Song of the Whale is an important world exploration event in NTE. How to complete: 1) Go to the designated sea/lake area and find the Song of the Whale marker; 2) Approach to trigger the story cutscene; 3) Follow the guide to complete exploration tasks including puzzles and collection; 4) Receive generous rewards including Fons and Credits. Recommended level 30+ before attempting. Some areas require main story progress.",
+    "tags": [
+      "song-of-the-whale",
+      "event",
+      "exploration",
+      "guide"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "oracle-stone-guide",
+    "question": "异环神谕石（Oracle Stone）是什么？怎么获取和使用？",
+    "questionEn": "What is Oracle Stone in NTE? How to get and use it?",
+    "seoTitleZh": "异环神谕石获取攻略 — Oracle Stone用途与快速收集方法",
+    "seoTitleEn": "NTE Oracle Stone Guide — How to Get & Best Uses",
+    "seoDescriptionZh": "异环神谕石（Oracle Stone）获取方式、用途详解，包含所有掉落来源和最佳使用建议。",
+    "seoDescriptionEn": "Complete guide to Oracle Stones in NTE: all drop sources, best uses, and farming tips for maximum efficiency.",
+    "answer": "神谕石（Oracle Stone）是异环中的重要进阶道具，主要用于角色觉醒和高级装备强化。获取途径：1) 高难度副本/领域掉落；2) 世界BOSS击杀奖励；3) 活动限定兑换；4) 商店用高级货币购买。建议优先用于核心输出角色的觉醒突破，因为觉醒带来的属性提升非常显著。每周限量兑换的神谕石一定要买满。",
+    "answerEn": "Oracle Stone is an important advancement material in NTE, primarily used for character awakening and high-level equipment enhancement. How to get: 1) High-difficulty domain drops; 2) World Boss kill rewards; 3) Limited-time event exchange; 4) Shop purchase with premium currency. Best used for awakening your core DPS characters first, as awakening provides significant stat boosts. Make sure to buy out the weekly Oracle Stone exchange.",
+    "tags": [
+      "oracle-stone",
+      "materials",
+      "guide",
+      "advanced"
+    ],
+    "category": "materials",
+    "categoryZh": "材料获取",
+    "categoryEn": "Materials",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-top-up-guide",
+    "question": "异环怎么充值？国际服充值方法和氪金指南",
+    "questionEn": "How to top up in NTE? Global server recharge guide",
+    "seoTitleZh": "异环充值攻略 — 国际服氪金方法、首充奖励与性价比分析",
+    "seoTitleEn": "NTE Top Up Guide — How to Recharge on Global Server, Best Value Packs",
+    "seoDescriptionZh": "异环国际服充值完全攻略：支持哪些支付方式、月卡和通行证性价比对比、首充双倍技巧、安全充值注意事项。",
+    "seoDescriptionEn": "Complete NTE top up guide: supported payment methods, monthly pass vs battle pass value comparison, first-time bonus tips, and safe recharge practices.",
+    "answer": "异环国际服充值方法：1) PC端通过游戏内商城直接购买，支持信用卡、PayPal等；2) 移动端通过App Store/Google Play内购；3) 第三方充值平台（如CodaShop、SEAGM等）提供更多支付方式。充值建议：① 月卡（30天星泉合约）性价比最高，约2倍价值；② 战斗通行证适合活跃玩家；③ 首充双倍一定要利用好，优先用在最需要的卡池。注意使用官方渠道充值，避免账号风险。",
+    "answerEn": "NTE Global Server top-up methods: 1) PC: In-game shop with credit card, PayPal, etc.; 2) Mobile: App Store/Google Play in-app purchases; 3) Third-party platforms (CodaShop, SEAGM, etc.) for more payment options. Recharge tips: ① Monthly pass (30-day Fons Contract) offers best value at ~2x worth; ② Battle Pass is great for active players; ③ Use first-time double bonus wisely on the banner you need most. Always use official channels to avoid account risks.",
+    "tags": [
+      "top-up",
+      "recharge",
+      "payment",
+      "guide"
+    ],
+    "category": "充值与账号",
+    "categoryZh": "充值与账号",
+    "categoryEn": "Top-up & Account",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-witch-house-guide",
+    "question": "异环魔女之屋（Witch House）在哪里？怎么解锁？",
+    "questionEn": "Where is the Witch House in NTE? How to unlock it?",
+    "seoTitleZh": "异环魔女之屋攻略 — Witch House位置、解锁条件与隐藏内容",
+    "seoTitleEn": "NTE Witch House Guide — Location, Unlock Requirements & Hidden Content",
+    "seoDescriptionZh": "异环魔女之屋（Witch House）完整攻略：位置坐标、解锁条件、内部探索内容和隐藏奖励一览。",
+    "seoDescriptionEn": "Complete NTE Witch House guide: exact location, unlock requirements, exploration content, and hidden rewards inside.",
+    "answer": "魔女之屋（Witch House）是异环中的一个隐藏探索地点，位于赫瑟雷区域外围的隐蔽山谷中。解锁条件：1) 完成主线剧情第3章；2) 在赫瑟雷探索时找到并阅读「古老日记」道具；3) 前往标记位置与NPC对话触发。魔女之屋内包含：多个宝箱、隐藏BOSS战、独特家具图纸以及一段重要的世界观剧情。建议带上战斗角色进入，屋内隐藏BOSS难度较高。",
+    "answerEn": "The Witch House is a hidden exploration location in NTE, located in a concealed valley on the outskirts of the Hethereau region. Unlock requirements: 1) Complete Main Story Chapter 3; 2) Find and read the \"Ancient Diary\" item while exploring Hethereau; 3) Go to the marked location and talk to the NPC to trigger. The Witch House contains: multiple chests, a hidden boss fight, unique furniture blueprints, and an important lore storyline. Bring combat-ready characters as the hidden boss inside is quite challenging.",
+    "tags": [
+      "witch-house",
+      "exploration",
+      "hidden",
+      "guide"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "miles-apart-guide",
+    "question": "异环千里之遥（Miles Apart）是什么？怎么完成？",
+    "questionEn": "What is Miles Apart in NTE? How to complete it?",
+    "seoTitleZh": "异环千里之遥任务攻略 — Miles Apart完成方法与剧情解析",
+    "seoTitleEn": "NTE Miles Apart Quest Guide — Walkthrough & Story Explained",
+    "seoDescriptionZh": "异环千里之遥（Miles Apart）任务完整攻略，包含触发条件、任务流程、选择分支和奖励内容。",
+    "seoDescriptionEn": "Complete NTE Miles Apart quest guide: trigger conditions, walkthrough steps, choice branches, and rewards.",
+    "answer": "千里之遥（Miles Apart）是异环中的一条支线任务线，讲述两个角色跨越距离的故事。触发方式：在主城区域的公告板上接取，需要先完成第2章主线。任务流程分为3个阶段：1) 收集3封信件散落在不同区域；2) 护送NPC穿越危险区域；3) 在指定地点完成最终对话。任务中选择会影响结局和奖励，推荐选择「等待」获得额外隐藏奖励。完成后解锁一个独特的家具和成就。",
+    "answerEn": "Miles Apart is a side quest chain in NTE about two characters separated by distance. How to trigger: Pick up from the bulletin board in the main city area, requires completing Chapter 2 main story. Quest has 3 phases: 1) Collect 3 letters scattered across different regions; 2) Escort NPC through dangerous areas; 3) Complete the final dialogue at the designated location. Choices during the quest affect the ending and rewards — choosing \"Wait\" gives bonus hidden rewards. Unlocks a unique furniture piece and achievement.",
+    "tags": [
+      "miles-apart",
+      "quest",
+      "story",
+      "guide"
+    ],
+    "category": "lore",
+    "categoryZh": "剧情",
+    "categoryEn": "Lore",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-berapa-gb",
+    "question": "异环游戏多大？需要多少存储空间？",
+    "questionEn": "How many GB is NTE? Storage size and disk space requirements",
+    "seoTitleZh": "异环游戏大小 — PC/手机/PS各平台存储空间需求（2026最新）",
+    "seoTitleEn": "NTE Game Size — How Many GB for PC, Mobile & PS (2026 Updated)",
+    "seoDescriptionZh": "异环（NTE）各平台安装大小：PC版约35GB、手机版约20GB、PS5版约38GB。包含最低配置和推荐配置详情。",
+    "seoDescriptionEn": "NTE install size across platforms: PC ~35GB, Mobile ~20GB, PS5 ~38GB. Includes minimum and recommended specs details.",
+    "answer": "异环（Neverness to Everness）各平台存储空间需求如下：PC端：安装包约35GB，建议预留45GB以上空间（含后续更新）；手机端：Android/iOS安装包约18-22GB，建议预留30GB空间；PS5端：约38GB。配置建议：PC最低配置需要GTX 1060 6GB + 16GB内存；推荐RTX 3060及以上。游戏后续更新会持续增加体积，建议使用SSD获得最佳加载体验。手机端可以在设置中选择「精简资源包」减少占用。",
+    "answerEn": "NTE storage requirements by platform: PC: ~35GB install, recommend 45GB+ free space (including future updates); Mobile: ~18-22GB on Android/iOS, recommend 30GB free space; PS5: ~38GB. PC minimum specs: GTX 1060 6GB + 16GB RAM; recommended: RTX 3060 or better. The game size will grow with updates, so SSD is recommended for best loading times. On mobile, you can select \"Reduced Resource Pack\" in settings to save space.",
+    "tags": [
+      "storage",
+      "size",
+      "gb",
+      "requirements",
+      "platform"
+    ],
+    "category": "system",
+    "categoryZh": "系统要求",
+    "categoryEn": "System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-steam-platform",
+    "question": "异环在Steam上可以玩吗？Steam版和客户端有什么区别？",
+    "questionEn": "Is NTE on Steam? Difference between Steam and standalone client",
+    "seoTitleZh": "异环Steam版上线了吗？Steam与独立客户端区别对比",
+    "seoTitleEn": "Is NTE on Steam? Steam vs Standalone Client Comparison",
+    "seoDescriptionZh": "异环Steam版最新动态、上线时间、与独立客户端和Epic版的区别对比、账号互通说明。",
+    "seoDescriptionEn": "Latest on NTE Steam version: release date, differences vs standalone and Epic client, account cross-play details.",
+    "answer": "异环目前主要通过官方网站客户端、Epic Games Store以及移动端应用商店发行。关于Steam版：1) 开发团队Hotta Studio已确认计划登陆Steam平台，但具体日期尚未公布；2) Steam版预期与现有版本账号互通，数据可跨平台同步；3) 不同平台客户端的游戏内容完全一致，区别主要在更新速度和社区功能（Steam创意工坊可能支持Mod）。建议关注官方社交媒体获取Steam版最新消息。",
+    "answerEn": "NTE is currently available through the official website client, Epic Games Store, and mobile app stores. About the Steam version: 1) Hotta Studio has confirmed plans to release on Steam, but the exact date is not yet announced; 2) The Steam version is expected to support cross-play with existing platforms and data syncing; 3) Game content is identical across all platforms, with differences mainly in update speed and community features (Steam Workshop mod support is possible). Follow official social media for the latest Steam release news.",
+    "tags": [
+      "steam",
+      "platform",
+      "pc",
+      "release"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-collect-furniture-guide",
+    "question": "异环怎么收集家具？家具获取途径大全",
+    "questionEn": "How to collect furniture in NTE? All furniture acquisition methods",
+    "seoTitleZh": "异环家具收集攻略 — 全家具获取途径与家园装饰指南",
+    "seoTitleEn": "NTE Furniture Collection Guide — All Acquisition Methods & Home Decor Tips",
+    "seoDescriptionZh": "异环家具收集完全攻略：所有家具获取途径、稀有家具位置、家园系统玩法详解。",
+    "seoDescriptionEn": "Complete NTE furniture collection guide: all acquisition methods, rare furniture locations, and housing system tips.",
+    "answer": "异环中家具获取途径丰富：1) 探索宝箱：在开放世界各处宝箱中随机获得家具；2) 任务奖励：完成支线任务和隐藏任务获得独特家具；3) 活动限定：参与限时活动兑换限定家具；4) NPC购买：部分NPC商店出售家具图纸；5) 制作系统：使用收集的材料在家园系统中制作家具；6) 魔女之屋等隐藏地点有特殊家具图纸。建议优先收集增加好感度加成的家具，部分家具组合可以激活套装效果。",
+    "answerEn": "Furniture in NTE can be obtained through various methods: 1) Exploration chests: Random furniture drops from chests across the open world; 2) Quest rewards: Unique furniture from side quests and hidden quests; 3) Limited-time events: Exchange for exclusive event furniture; 4) NPC shops: Some NPCs sell furniture blueprints; 5) Crafting system: Use collected materials to craft furniture in the housing system; 6) Hidden locations like the Witch House have special furniture blueprints. Prioritize furniture that provides affinity bonuses — some furniture sets activate set bonuses.",
+    "tags": [
+      "furniture",
+      "housing",
+      "collection",
+      "guide"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
