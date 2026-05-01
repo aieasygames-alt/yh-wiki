@@ -93,34 +93,39 @@ export default async function FaqDetailPage({
         {/* Answer Content Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/40 p-6 sm:p-8">
           <div className="prose prose-invert max-w-none">
-            {answer.split("\n").filter(p => p.trim()).map((paragraph, i) => {
-              // Detect list items (starting with number+paren or bullet)
-              const isNumberedList = /^[\d]+\）/ .test(paragraph);
-              const isBulletList = /^[•\-\*] /.test(paragraph);
+            {answer.split("\n").map((line, i) => {
+              // Empty line = paragraph break spacer
+              if (!line.trim()) {
+                return <div key={i} className="h-3" />;
+              }
+
+              // Detect list items (e.g. "1）xxx" or "1) xxx" or "- xxx" or "• xxx")
+              const isNumberedList = /^[\d]+[）\)]\s*/.test(line);
+              const isBulletList = /^[•\-\*]\s/.test(line);
 
               if (isNumberedList || isBulletList) {
                 return (
-                  <p key={i} className="text-gray-300 leading-relaxed pl-2 border-l-2 border-primary-500/20 my-2 py-0.5">
-                    {paragraph}
+                  <p key={i} className="text-gray-300 leading-relaxed pl-3 border-l-2 border-primary-500/30 my-1.5 py-0.5">
+                    {line}
                   </p>
                 );
               }
 
-              // Section headers (short lines ending with colon)
-              const isSectionHeader = paragraph.length < 30 && paragraph.endsWith("：") || paragraph.endsWith(":");
+              // Section headers (short lines ending with Chinese/English colon)
+              const isSectionHeader = line.trim().length < 25 && (line.trim().endsWith("：") || line.trim().endsWith(":"));
 
               if (isSectionHeader) {
                 return (
-                  <h3 key={i} className="text-base font-bold text-gray-200 mt-5 mb-2 flex items-center gap-2">
+                  <h3 key={i} className="text-base font-semibold text-gray-200 mt-5 mb-2 flex items-center gap-2">
                     <span className="w-1 h-4 bg-primary-500 rounded-full inline-block" />
-                    {paragraph}
+                    {line}
                   </h3>
                 );
               }
 
               return (
-                <p key={i} className="text-gray-300 leading-relaxed my-3">
-                  {paragraph}
+                <p key={i} className="text-gray-300 leading-7 my-3">
+                  {line}
                 </p>
               );
             })}
