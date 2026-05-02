@@ -292,7 +292,7 @@
           "x": 54.29,
           "y": 55.12,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -303,7 +303,7 @@
           "x": 52.1,
           "y": 55.13,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -314,7 +314,7 @@
           "x": 53.01,
           "y": 63.85,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -324,8 +324,8 @@
           "type": "waypoint",
           "x": 54.17,
           "y": 66.1,
-          "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "region": "bridge-crossings",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -335,8 +335,8 @@
           "type": "waypoint",
           "x": 56.11,
           "y": 66.16,
-          "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "region": "bridge-crossings",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -346,8 +346,8 @@
           "type": "waypoint",
           "x": 57.93,
           "y": 63.04,
-          "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "region": "bridge-crossings",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -358,7 +358,7 @@
           "x": 55.87,
           "y": 61.79,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -369,7 +369,7 @@
           "x": 54.32,
           "y": 63.56,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -380,7 +380,7 @@
           "x": 56.15,
           "y": 63.32,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -391,7 +391,7 @@
           "x": 53.75,
           "y": 60.04,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -402,7 +402,7 @@
           "x": 56.3,
           "y": 59.5,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -412,8 +412,8 @@
           "type": "waypoint",
           "x": 58.49,
           "y": 61.34,
-          "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "region": "bridge-crossings",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -424,7 +424,7 @@
           "x": 56.89,
           "y": 57.58,
           "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -435,7 +435,7 @@
           "x": 60.63,
           "y": 63.62,
           "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -446,7 +446,7 @@
           "x": 61.17,
           "y": 72.46,
           "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -456,8 +456,8 @@
           "type": "waypoint",
           "x": 51.51,
           "y": 65.12,
-          "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "region": "illusion-town",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -468,7 +468,7 @@
           "x": 50.63,
           "y": 66.16,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -479,7 +479,7 @@
           "x": 50.3,
           "y": 68.01,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -490,7 +490,7 @@
           "x": 47.44,
           "y": 69.24,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -501,7 +501,7 @@
           "x": 49.86,
           "y": 70.93,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -512,7 +512,7 @@
           "x": 48.2,
           "y": 73.62,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -522,8 +522,8 @@
           "type": "waypoint",
           "x": 52.03,
           "y": 71.77,
-          "region": "unheard-shores",
-          "subtype": "fast-travel",
+          "region": "illusion-town",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -534,7 +534,7 @@
           "x": 46.39,
           "y": 66.41,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -545,7 +545,7 @@
           "x": 44.35,
           "y": 60.81,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -556,7 +556,7 @@
           "x": 42.29,
           "y": 58.38,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -567,7 +567,7 @@
           "x": 41.01,
           "y": 60.4,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -578,7 +578,7 @@
           "x": 39.04,
           "y": 61.43,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -589,7 +589,7 @@
           "x": 44.07,
           "y": 69.11,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -600,7 +600,7 @@
           "x": 43.37,
           "y": 64.57,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -611,7 +611,7 @@
           "x": 45.94,
           "y": 69.29,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -622,7 +622,7 @@
           "x": 47.48,
           "y": 64.32,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -633,7 +633,7 @@
           "x": 44.41,
           "y": 56.42,
           "region": "illusion-town",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -644,7 +644,7 @@
           "x": 39.46,
           "y": 55.53,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -654,8 +654,8 @@
           "type": "waypoint",
           "x": 39.03,
           "y": 49.23,
-          "region": "miguel-district",
-          "subtype": "fast-travel",
+          "region": "new-herland",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -665,8 +665,8 @@
           "type": "waypoint",
           "x": 39.2,
           "y": 43.11,
-          "region": "new-herland",
-          "subtype": "fast-travel",
+          "region": "miguel-district",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -677,7 +677,7 @@
           "x": 37.53,
           "y": 49.0,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -688,7 +688,7 @@
           "x": 37.32,
           "y": 56.82,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -699,7 +699,7 @@
           "x": 36.57,
           "y": 55.65,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -710,7 +710,7 @@
           "x": 37.28,
           "y": 52.94,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -721,7 +721,7 @@
           "x": 35.94,
           "y": 50.17,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -732,7 +732,7 @@
           "x": 36.5,
           "y": 46.12,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -743,7 +743,7 @@
           "x": 34.97,
           "y": 44.39,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -754,7 +754,7 @@
           "x": 35.81,
           "y": 41.76,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -765,7 +765,7 @@
           "x": 34.69,
           "y": 38.46,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -775,8 +775,8 @@
           "type": "waypoint",
           "x": 37.11,
           "y": 37.08,
-          "region": "new-herland",
-          "subtype": "fast-travel",
+          "region": "miguel-district",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -787,7 +787,7 @@
           "x": 32.39,
           "y": 45.13,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -798,7 +798,7 @@
           "x": 33.51,
           "y": 50.01,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -809,7 +809,7 @@
           "x": 33.49,
           "y": 53.76,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -820,7 +820,7 @@
           "x": 31.61,
           "y": 56.68,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -831,7 +831,7 @@
           "x": 29.16,
           "y": 55.36,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -842,7 +842,7 @@
           "x": 29.38,
           "y": 51.09,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -853,7 +853,7 @@
           "x": 28.8,
           "y": 58.12,
           "region": "miguel-district",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -863,8 +863,8 @@
           "type": "waypoint",
           "x": 41.88,
           "y": 53.93,
-          "region": "miguel-district",
-          "subtype": "fast-travel",
+          "region": "new-herland",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -875,7 +875,7 @@
           "x": 43.48,
           "y": 50.01,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -886,7 +886,7 @@
           "x": 41.34,
           "y": 46.13,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -897,7 +897,7 @@
           "x": 40.47,
           "y": 41.55,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -908,7 +908,7 @@
           "x": 41.27,
           "y": 39.69,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -919,7 +919,7 @@
           "x": 42.69,
           "y": 40.21,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -930,7 +930,7 @@
           "x": 42.37,
           "y": 43.05,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -941,7 +941,7 @@
           "x": 44.32,
           "y": 43.49,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -952,7 +952,7 @@
           "x": 43.18,
           "y": 44.88,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -963,7 +963,7 @@
           "x": 45.86,
           "y": 45.87,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -974,7 +974,7 @@
           "x": 44.37,
           "y": 47.31,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -985,7 +985,7 @@
           "x": 45.97,
           "y": 49.89,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -996,7 +996,7 @@
           "x": 45.26,
           "y": 51.84,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1007,7 +1007,7 @@
           "x": 50.06,
           "y": 50.7,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1018,7 +1018,7 @@
           "x": 48.36,
           "y": 48.77,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1029,7 +1029,7 @@
           "x": 46.17,
           "y": 44.12,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1040,7 +1040,7 @@
           "x": 46.65,
           "y": 40.93,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1051,7 +1051,7 @@
           "x": 45.6,
           "y": 39.02,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1062,7 +1062,7 @@
           "x": 48.33,
           "y": 38.3,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1073,7 +1073,7 @@
           "x": 47.65,
           "y": 39.63,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1084,7 +1084,7 @@
           "x": 48.68,
           "y": 41.34,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1095,7 +1095,7 @@
           "x": 49.69,
           "y": 43.42,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1106,7 +1106,7 @@
           "x": 49.32,
           "y": 46.27,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1116,8 +1116,8 @@
           "type": "waypoint",
           "x": 52.76,
           "y": 50.33,
-          "region": "bridge-crossings",
-          "subtype": "fast-travel",
+          "region": "new-herland",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1128,7 +1128,7 @@
           "x": 52.39,
           "y": 47.62,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1139,7 +1139,7 @@
           "x": 53.38,
           "y": 45.47,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1150,7 +1150,7 @@
           "x": 50.82,
           "y": 36.65,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1161,7 +1161,7 @@
           "x": 44.35,
           "y": 40.45,
           "region": "new-herland",
-          "subtype": "fast-travel",
+          "subtype": "taxi",
           "categoryId": "387"
         },
         {
@@ -1287,7 +1287,7 @@
           "type": "collectible",
           "x": 55.01,
           "y": 65.41,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1331,7 +1331,7 @@
           "type": "collectible",
           "x": 56.64,
           "y": 63.35,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1452,7 +1452,7 @@
           "type": "collectible",
           "x": 55.7,
           "y": 65.54,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1628,7 +1628,7 @@
           "type": "collectible",
           "x": 58.22,
           "y": 62.0,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1639,7 +1639,7 @@
           "type": "collectible",
           "x": 57.62,
           "y": 62.64,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1650,7 +1650,7 @@
           "type": "collectible",
           "x": 56.71,
           "y": 63.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1771,7 +1771,7 @@
           "type": "collectible",
           "x": 58.74,
           "y": 61.44,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1782,7 +1782,7 @@
           "type": "collectible",
           "x": 57.21,
           "y": 62.56,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1815,7 +1815,7 @@
           "type": "collectible",
           "x": 55.74,
           "y": 64.12,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -1859,7 +1859,7 @@
           "type": "collectible",
           "x": 58.84,
           "y": 62.67,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -2002,7 +2002,7 @@
           "type": "collectible",
           "x": 58.39,
           "y": 67.03,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -2024,7 +2024,7 @@
           "type": "collectible",
           "x": 54.86,
           "y": 67.26,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -2046,7 +2046,7 @@
           "type": "collectible",
           "x": 53.29,
           "y": 66.55,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -2178,7 +2178,7 @@
           "type": "collectible",
           "x": 52.27,
           "y": 64.68,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -2992,7 +2992,7 @@
           "type": "collectible",
           "x": 36.17,
           "y": 59.36,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -3333,7 +3333,7 @@
           "type": "collectible",
           "x": 42.68,
           "y": 53.6,
-          "region": "illusion-town",
+          "region": "new-herland",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -3344,7 +3344,7 @@
           "type": "collectible",
           "x": 41.04,
           "y": 51.39,
-          "region": "miguel-district",
+          "region": "new-herland",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -3531,7 +3531,7 @@
           "type": "collectible",
           "x": 40.34,
           "y": 53.57,
-          "region": "miguel-district",
+          "region": "new-herland",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -3641,7 +3641,7 @@
           "type": "collectible",
           "x": 58.15,
           "y": 61.93,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -3751,7 +3751,7 @@
           "type": "collectible",
           "x": 38.11,
           "y": 40.47,
-          "region": "new-herland",
+          "region": "miguel-district",
           "subtype": "chameleon",
           "categoryId": "347"
         },
@@ -3980,7 +3980,7 @@
           "type": "collectible",
           "x": 55.78,
           "y": 64.45,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "375"
         },
         {
@@ -4020,7 +4020,7 @@
           "type": "collectible",
           "x": 50.44,
           "y": 62.83,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "375"
         },
         {
@@ -4130,7 +4130,7 @@
           "type": "collectible",
           "x": 54.83,
           "y": 64.8,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "376"
         },
         {
@@ -4160,7 +4160,7 @@
           "type": "collectible",
           "x": 58.79,
           "y": 61.95,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "376"
         },
         {
@@ -4170,7 +4170,7 @@
           "type": "collectible",
           "x": 57.25,
           "y": 62.99,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "376"
         },
         {
@@ -4210,7 +4210,7 @@
           "type": "oracle-stone",
           "x": 55.85,
           "y": 64.84,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4220,7 +4220,7 @@
           "type": "oracle-stone",
           "x": 55.42,
           "y": 65.9,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4230,7 +4230,7 @@
           "type": "oracle-stone",
           "x": 55.69,
           "y": 64.87,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4350,7 +4350,7 @@
           "type": "oracle-stone",
           "x": 58.43,
           "y": 62.04,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4360,7 +4360,7 @@
           "type": "oracle-stone",
           "x": 58.48,
           "y": 62.43,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4550,7 +4550,7 @@
           "type": "oracle-stone",
           "x": 56.71,
           "y": 70.98,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4580,7 +4580,7 @@
           "type": "oracle-stone",
           "x": 57.06,
           "y": 68.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4600,7 +4600,7 @@
           "type": "oracle-stone",
           "x": 57.41,
           "y": 67.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4610,7 +4610,7 @@
           "type": "oracle-stone",
           "x": 58.88,
           "y": 66.85,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4650,7 +4650,7 @@
           "type": "oracle-stone",
           "x": 60.58,
           "y": 60.42,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -4920,7 +4920,7 @@
           "type": "oracle-stone",
           "x": 53.13,
           "y": 68.4,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "419"
         },
         {
@@ -4940,7 +4940,7 @@
           "type": "oracle-stone",
           "x": 52.89,
           "y": 69.93,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "419"
         },
         {
@@ -4980,7 +4980,7 @@
           "type": "oracle-stone",
           "x": 53.34,
           "y": 67.29,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "419"
         },
         {
@@ -5040,7 +5040,7 @@
           "type": "oracle-stone",
           "x": 51.92,
           "y": 64.72,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "419"
         },
         {
@@ -5060,7 +5060,7 @@
           "type": "oracle-stone",
           "x": 50.62,
           "y": 62.89,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "419"
         },
         {
@@ -5070,7 +5070,7 @@
           "type": "oracle-stone",
           "x": 51.16,
           "y": 63.82,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "419"
         },
         {
@@ -5310,7 +5310,7 @@
           "type": "oracle-stone",
           "x": 36.29,
           "y": 56.23,
-          "region": "miguel-district",
+          "region": "illusion-town",
           "categoryId": "419"
         },
         {
@@ -5520,7 +5520,7 @@
           "type": "oracle-stone",
           "x": 37.49,
           "y": 58.39,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "419"
         },
         {
@@ -5670,7 +5670,7 @@
           "type": "oracle-stone",
           "x": 38.7,
           "y": 56.99,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "419"
         },
         {
@@ -5750,7 +5750,7 @@
           "type": "oracle-stone",
           "x": 40.83,
           "y": 52.53,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "419"
         },
         {
@@ -5770,7 +5770,7 @@
           "type": "oracle-stone",
           "x": 40.31,
           "y": 51.26,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "419"
         },
         {
@@ -5850,7 +5850,7 @@
           "type": "oracle-stone",
           "x": 54.52,
           "y": 50.54,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "419"
         },
         {
@@ -5910,7 +5910,7 @@
           "type": "oracle-stone",
           "x": 39.78,
           "y": 47.23,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "419"
         },
         {
@@ -5990,7 +5990,7 @@
           "type": "oracle-stone",
           "x": 39.69,
           "y": 44.26,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "419"
         },
         {
@@ -6280,7 +6280,7 @@
           "type": "collectible",
           "x": 57.26,
           "y": 63.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -6310,7 +6310,7 @@
           "type": "collectible",
           "x": 56.01,
           "y": 64.49,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -6320,7 +6320,7 @@
           "type": "collectible",
           "x": 58.63,
           "y": 61.61,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -6340,7 +6340,7 @@
           "type": "collectible",
           "x": 58.85,
           "y": 66.69,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -6350,7 +6350,7 @@
           "type": "collectible",
           "x": 57.62,
           "y": 68.77,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -6360,7 +6360,7 @@
           "type": "collectible",
           "x": 56.54,
           "y": 68.94,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -6500,7 +6500,7 @@
           "type": "collectible",
           "x": 51.51,
           "y": 63.4,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "431"
         },
         {
@@ -6550,7 +6550,7 @@
           "type": "collectible",
           "x": 52.06,
           "y": 70.41,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "431"
         },
         {
@@ -6700,7 +6700,7 @@
           "type": "collectible",
           "x": 41.18,
           "y": 54.27,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "431"
         },
         {
@@ -6910,7 +6910,7 @@
           "type": "collectible",
           "x": 37.41,
           "y": 35.38,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "431"
         },
         {
@@ -7020,7 +7020,7 @@
           "type": "collectible",
           "x": 57.79,
           "y": 67.39,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "431"
         },
         {
@@ -7155,7 +7155,7 @@
           "type": "collectible",
           "x": 58.43,
           "y": 62.08,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "yahaha",
           "categoryId": "433"
         },
@@ -7177,7 +7177,7 @@
           "type": "collectible",
           "x": 58.68,
           "y": 61.41,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "subtype": "yahaha",
           "categoryId": "433"
         },
@@ -9666,7 +9666,7 @@
           "type": "quest",
           "x": 58.16,
           "y": 62.11,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "452"
         },
         {
@@ -9676,7 +9676,7 @@
           "type": "quest",
           "x": 54.71,
           "y": 66.01,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "452"
         },
         {
@@ -9786,7 +9786,7 @@
           "type": "quest",
           "x": 58.33,
           "y": 62.74,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "452"
         },
         {
@@ -9896,7 +9896,7 @@
           "type": "quest",
           "x": 57.04,
           "y": 63.22,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -9916,7 +9916,7 @@
           "type": "quest",
           "x": 55.4,
           "y": 64.48,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -9986,7 +9986,7 @@
           "type": "quest",
           "x": 58.22,
           "y": 62.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -9996,7 +9996,7 @@
           "type": "quest",
           "x": 58.22,
           "y": 62.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -10006,7 +10006,7 @@
           "type": "quest",
           "x": 58.22,
           "y": 62.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -10016,7 +10016,7 @@
           "type": "quest",
           "x": 58.22,
           "y": 62.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -10126,7 +10126,7 @@
           "type": "quest",
           "x": 60.8,
           "y": 61.35,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -10186,7 +10186,7 @@
           "type": "quest",
           "x": 58.47,
           "y": 62.86,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "453"
         },
         {
@@ -10856,7 +10856,7 @@
           "type": "quest",
           "x": 56.42,
           "y": 63.67,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "457"
         },
         {
@@ -10886,7 +10886,7 @@
           "type": "quest",
           "x": 57.66,
           "y": 63.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "457"
         },
         {
@@ -10926,7 +10926,7 @@
           "type": "quest",
           "x": 54.91,
           "y": 64.95,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "455"
         },
         {
@@ -11116,7 +11116,7 @@
           "type": "quest",
           "x": 58.06,
           "y": 62.62,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "455"
         },
         {
@@ -11166,7 +11166,7 @@
           "type": "quest",
           "x": 52.86,
           "y": 66.23,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "455"
         },
         {
@@ -11296,7 +11296,7 @@
           "type": "quest",
           "x": 54.8,
           "y": 64.76,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "456"
         },
         {
@@ -11526,7 +11526,7 @@
           "type": "quest",
           "x": 52.78,
           "y": 66.37,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "456"
         },
         {
@@ -11626,7 +11626,7 @@
           "type": "quest",
           "x": 54.8,
           "y": 64.76,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "456"
         },
         {
@@ -11856,7 +11856,7 @@
           "type": "quest",
           "x": 52.78,
           "y": 66.37,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "456"
         },
         {
@@ -11876,7 +11876,7 @@
           "type": "quest",
           "x": 56.77,
           "y": 67.03,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "423"
         },
         {
@@ -11886,7 +11886,7 @@
           "type": "quest",
           "x": 56.81,
           "y": 67.45,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "423"
         },
         {
@@ -11896,7 +11896,7 @@
           "type": "quest",
           "x": 57.01,
           "y": 67.56,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "423"
         },
         {
@@ -11906,7 +11906,7 @@
           "type": "quest",
           "x": 56.56,
           "y": 63.11,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "423"
         },
         {
@@ -12316,7 +12316,7 @@
           "type": "boss",
           "x": 40.17,
           "y": 51.37,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "447"
         },
         {
@@ -12326,7 +12326,7 @@
           "type": "boss",
           "x": 40.17,
           "y": 51.37,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "447"
         },
         {
@@ -12406,7 +12406,7 @@
           "type": "arc-plate",
           "x": 56.26,
           "y": 67.62,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "463"
         },
         {
@@ -12476,7 +12476,7 @@
           "type": "arc-plate",
           "x": 52.8,
           "y": 68.06,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "468"
         },
         {
@@ -12506,7 +12506,7 @@
           "type": "arc-plate",
           "x": 56.62,
           "y": 63.51,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "471"
         },
         {
@@ -12546,7 +12546,7 @@
           "type": "arc-plate",
           "x": 40.17,
           "y": 51.37,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "473"
         },
         {
@@ -12626,7 +12626,7 @@
           "type": "currency",
           "x": 56.34,
           "y": 63.46,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -12686,7 +12686,7 @@
           "type": "currency",
           "x": 58.27,
           "y": 62.47,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -12696,7 +12696,7 @@
           "type": "currency",
           "x": 57.67,
           "y": 63.07,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -12706,7 +12706,7 @@
           "type": "currency",
           "x": 56.75,
           "y": 63.46,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -12716,7 +12716,7 @@
           "type": "currency",
           "x": 54.79,
           "y": 64.84,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -12896,7 +12896,7 @@
           "type": "currency",
           "x": 54.99,
           "y": 64.88,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -12916,7 +12916,7 @@
           "type": "currency",
           "x": 58.19,
           "y": 62.41,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "377"
         },
         {
@@ -13106,7 +13106,7 @@
           "type": "currency",
           "x": 43.19,
           "y": 53.68,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "377"
         },
         {
@@ -13246,7 +13246,7 @@
           "type": "currency",
           "x": 57.3,
           "y": 63.94,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -13276,7 +13276,7 @@
           "type": "currency",
           "x": 56.05,
           "y": 64.8,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -13286,7 +13286,7 @@
           "type": "currency",
           "x": 58.68,
           "y": 62.11,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -13316,7 +13316,7 @@
           "type": "currency",
           "x": 58.9,
           "y": 66.85,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -13326,7 +13326,7 @@
           "type": "currency",
           "x": 57.66,
           "y": 68.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -13336,7 +13336,7 @@
           "type": "currency",
           "x": 56.58,
           "y": 68.94,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -13476,7 +13476,7 @@
           "type": "currency",
           "x": 51.53,
           "y": 63.78,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "378"
         },
         {
@@ -13526,7 +13526,7 @@
           "type": "currency",
           "x": 52.09,
           "y": 70.31,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "378"
         },
         {
@@ -13556,7 +13556,7 @@
           "type": "currency",
           "x": 38.86,
           "y": 56.71,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "378"
         },
         {
@@ -13666,7 +13666,7 @@
           "type": "currency",
           "x": 41.2,
           "y": 49.28,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "378"
         },
         {
@@ -13976,7 +13976,7 @@
           "type": "currency",
           "x": 57.83,
           "y": 67.5,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "378"
         },
         {
@@ -14126,7 +14126,7 @@
           "type": "currency",
           "x": 58.53,
           "y": 61.61,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "379"
         },
         {
@@ -14156,7 +14156,7 @@
           "type": "currency",
           "x": 55.05,
           "y": 65.65,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "379"
         },
         {
@@ -14196,7 +14196,7 @@
           "type": "currency",
           "x": 56.68,
           "y": 63.73,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "379"
         },
         {
@@ -14216,7 +14216,7 @@
           "type": "currency",
           "x": 58.88,
           "y": 63.09,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "379"
         },
         {
@@ -14286,7 +14286,7 @@
           "type": "currency",
           "x": 53.31,
           "y": 66.71,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "379"
         },
         {
@@ -14406,7 +14406,7 @@
           "type": "currency",
           "x": 38.72,
           "y": 57.21,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "379"
         },
         {
@@ -14526,7 +14526,7 @@
           "type": "currency",
           "x": 41.21,
           "y": 49.05,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "379"
         },
         {
@@ -14586,7 +14586,7 @@
           "type": "currency",
           "x": 42.65,
           "y": 52.73,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "379"
         },
         {
@@ -14726,7 +14726,7 @@
           "type": "currency",
           "x": 58.87,
           "y": 61.28,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "380"
         },
         {
@@ -14736,7 +14736,7 @@
           "type": "currency",
           "x": 55.74,
           "y": 65.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "380"
         },
         {
@@ -14856,7 +14856,7 @@
           "type": "currency",
           "x": 58.43,
           "y": 67.16,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "380"
         },
         {
@@ -14876,7 +14876,7 @@
           "type": "currency",
           "x": 54.89,
           "y": 67.37,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "380"
         },
         {
@@ -14896,7 +14896,7 @@
           "type": "currency",
           "x": 52.29,
           "y": 64.97,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "380"
         },
         {
@@ -15186,7 +15186,7 @@
           "type": "currency",
           "x": 55.11,
           "y": 64.75,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "380"
         },
         {
@@ -15296,7 +15296,7 @@
           "type": "currency",
           "x": 38.73,
           "y": 56.98,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "380"
         },
         {
@@ -15306,7 +15306,7 @@
           "type": "currency",
           "x": 36.18,
           "y": 60.02,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "380"
         },
         {
@@ -15506,7 +15506,7 @@
           "type": "currency",
           "x": 41.03,
           "y": 52.59,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "380"
         },
         {
@@ -15766,7 +15766,7 @@
           "type": "currency",
           "x": 58.58,
           "y": 62.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15786,7 +15786,7 @@
           "type": "currency",
           "x": 55.36,
           "y": 64.4,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15836,7 +15836,7 @@
           "type": "currency",
           "x": 56.28,
           "y": 64.74,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15846,7 +15846,7 @@
           "type": "currency",
           "x": 57.56,
           "y": 63.23,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15886,7 +15886,7 @@
           "type": "currency",
           "x": 55.09,
           "y": 65.82,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15926,7 +15926,7 @@
           "type": "currency",
           "x": 56.01,
           "y": 64.09,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15936,7 +15936,7 @@
           "type": "currency",
           "x": 57.75,
           "y": 63.02,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -15956,7 +15956,7 @@
           "type": "currency",
           "x": 54.93,
           "y": 66.29,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16016,7 +16016,7 @@
           "type": "currency",
           "x": 55.89,
           "y": 64.55,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16176,7 +16176,7 @@
           "type": "currency",
           "x": 55.07,
           "y": 65.14,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16186,7 +16186,7 @@
           "type": "currency",
           "x": 56.74,
           "y": 65.27,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16346,7 +16346,7 @@
           "type": "currency",
           "x": 55.36,
           "y": 66.43,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16356,7 +16356,7 @@
           "type": "currency",
           "x": 54.89,
           "y": 65.95,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16366,7 +16366,7 @@
           "type": "currency",
           "x": 54.77,
           "y": 66.11,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16376,7 +16376,7 @@
           "type": "currency",
           "x": 54.58,
           "y": 65.87,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16386,7 +16386,7 @@
           "type": "currency",
           "x": 55.5,
           "y": 66.22,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16396,7 +16396,7 @@
           "type": "currency",
           "x": 55.47,
           "y": 65.54,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16406,7 +16406,7 @@
           "type": "currency",
           "x": 55.18,
           "y": 64.58,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16596,7 +16596,7 @@
           "type": "currency",
           "x": 58.42,
           "y": 61.87,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16616,7 +16616,7 @@
           "type": "currency",
           "x": 54.43,
           "y": 65.58,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16736,7 +16736,7 @@
           "type": "currency",
           "x": 57.06,
           "y": 63.33,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16746,7 +16746,7 @@
           "type": "currency",
           "x": 56.55,
           "y": 65.13,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16816,7 +16816,7 @@
           "type": "currency",
           "x": 55.76,
           "y": 65.7,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -16826,7 +16826,7 @@
           "type": "currency",
           "x": 54.86,
           "y": 66.04,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17146,7 +17146,7 @@
           "type": "currency",
           "x": 54.88,
           "y": 64.83,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17156,7 +17156,7 @@
           "type": "currency",
           "x": 54.7,
           "y": 64.86,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17166,7 +17166,7 @@
           "type": "currency",
           "x": 54.56,
           "y": 65.96,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17176,7 +17176,7 @@
           "type": "currency",
           "x": 55.5,
           "y": 65.53,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17186,7 +17186,7 @@
           "type": "currency",
           "x": 55.27,
           "y": 65.28,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17196,7 +17196,7 @@
           "type": "currency",
           "x": 55.66,
           "y": 65.8,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17206,7 +17206,7 @@
           "type": "currency",
           "x": 55.4,
           "y": 65.97,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17216,7 +17216,7 @@
           "type": "currency",
           "x": 57.25,
           "y": 63.2,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17236,7 +17236,7 @@
           "type": "currency",
           "x": 58.77,
           "y": 62.45,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17246,7 +17246,7 @@
           "type": "currency",
           "x": 59.95,
           "y": 61.22,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "381"
         },
         {
@@ -17516,7 +17516,7 @@
           "type": "currency",
           "x": 51.51,
           "y": 64.07,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -17566,7 +17566,7 @@
           "type": "currency",
           "x": 51.88,
           "y": 71.76,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -17626,7 +17626,7 @@
           "type": "currency",
           "x": 50.55,
           "y": 62.83,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -17716,7 +17716,7 @@
           "type": "currency",
           "x": 53.01,
           "y": 67.33,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -17776,7 +17776,7 @@
           "type": "currency",
           "x": 51.79,
           "y": 63.57,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -17786,7 +17786,7 @@
           "type": "currency",
           "x": 52.52,
           "y": 64.85,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -18246,7 +18246,7 @@
           "type": "currency",
           "x": 52.32,
           "y": 63.85,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -18266,7 +18266,7 @@
           "type": "currency",
           "x": 52.57,
           "y": 65.31,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -18276,7 +18276,7 @@
           "type": "currency",
           "x": 53.03,
           "y": 67.38,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "382"
         },
         {
@@ -18826,7 +18826,7 @@
           "type": "currency",
           "x": 53.38,
           "y": 67.36,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "382"
         },
         {
@@ -19486,7 +19486,7 @@
           "type": "currency",
           "x": 35.55,
           "y": 59.19,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "383"
         },
         {
@@ -19716,7 +19716,7 @@
           "type": "currency",
           "x": 38.7,
           "y": 56.67,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "383"
         },
         {
@@ -20086,7 +20086,7 @@
           "type": "currency",
           "x": 36.66,
           "y": 37.36,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "383"
         },
         {
@@ -20746,7 +20746,7 @@
           "type": "currency",
           "x": 32.05,
           "y": 62.07,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "383"
         },
         {
@@ -21566,7 +21566,7 @@
           "type": "currency",
           "x": 37.82,
           "y": 40.04,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "383"
         },
         {
@@ -21836,7 +21836,7 @@
           "type": "currency",
           "x": 41.56,
           "y": 54.57,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -21846,7 +21846,7 @@
           "type": "currency",
           "x": 41.77,
           "y": 52.25,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -21856,7 +21856,7 @@
           "type": "currency",
           "x": 40.96,
           "y": 51.61,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -21866,7 +21866,7 @@
           "type": "currency",
           "x": 41.15,
           "y": 49.18,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22016,7 +22016,7 @@
           "type": "currency",
           "x": 53.19,
           "y": 50.62,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22026,7 +22026,7 @@
           "type": "currency",
           "x": 54.56,
           "y": 50.18,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22036,7 +22036,7 @@
           "type": "currency",
           "x": 54.07,
           "y": 50.52,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22116,7 +22116,7 @@
           "type": "currency",
           "x": 39.81,
           "y": 47.71,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22126,7 +22126,7 @@
           "type": "currency",
           "x": 40.17,
           "y": 47.19,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22716,7 +22716,7 @@
           "type": "currency",
           "x": 42.59,
           "y": 52.73,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22746,7 +22746,7 @@
           "type": "currency",
           "x": 42.46,
           "y": 53.14,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22756,7 +22756,7 @@
           "type": "currency",
           "x": 41.26,
           "y": 54.35,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22766,7 +22766,7 @@
           "type": "currency",
           "x": 40.52,
           "y": 51.4,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22776,7 +22776,7 @@
           "type": "currency",
           "x": 41.1,
           "y": 51.57,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22796,7 +22796,7 @@
           "type": "currency",
           "x": 41.21,
           "y": 49.06,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22806,7 +22806,7 @@
           "type": "currency",
           "x": 40.64,
           "y": 49.8,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22816,7 +22816,7 @@
           "type": "currency",
           "x": 40.2,
           "y": 47.69,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22826,7 +22826,7 @@
           "type": "currency",
           "x": 40.39,
           "y": 47.15,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -22846,7 +22846,7 @@
           "type": "currency",
           "x": 39.63,
           "y": 44.06,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "384"
         },
         {
@@ -22976,7 +22976,7 @@
           "type": "currency",
           "x": 50.47,
           "y": 51.48,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -23026,7 +23026,7 @@
           "type": "currency",
           "x": 53.59,
           "y": 50.89,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -23036,7 +23036,7 @@
           "type": "currency",
           "x": 54.06,
           "y": 50.96,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -23046,7 +23046,7 @@
           "type": "currency",
           "x": 54.89,
           "y": 49.9,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -23716,7 +23716,7 @@
           "type": "currency",
           "x": 42.48,
           "y": 52.51,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "384"
         },
         {
@@ -24196,7 +24196,7 @@
           "type": "currency",
           "x": 57.31,
           "y": 62.61,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "425"
         },
         {
@@ -24246,7 +24246,7 @@
           "type": "currency",
           "x": 56.02,
           "y": 64.17,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "425"
         },
         {
@@ -24646,7 +24646,7 @@
           "type": "currency",
           "x": 56.09,
           "y": 64.2,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "425"
         },
         {
@@ -24656,7 +24656,7 @@
           "type": "currency",
           "x": 55.99,
           "y": 64.19,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "425"
         },
         {
@@ -25646,7 +25646,7 @@
           "type": "currency",
           "x": 54.56,
           "y": 65.88,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -25656,7 +25656,7 @@
           "type": "currency",
           "x": 55.34,
           "y": 66.34,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -25666,7 +25666,7 @@
           "type": "currency",
           "x": 56.21,
           "y": 65.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -25676,7 +25676,7 @@
           "type": "currency",
           "x": 55.99,
           "y": 64.99,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -25696,7 +25696,7 @@
           "type": "currency",
           "x": 58.76,
           "y": 62.36,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -25986,7 +25986,7 @@
           "type": "currency",
           "x": 56.75,
           "y": 63.37,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -25996,7 +25996,7 @@
           "type": "currency",
           "x": 58.53,
           "y": 61.8,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26006,7 +26006,7 @@
           "type": "currency",
           "x": 57.46,
           "y": 63.66,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26016,7 +26016,7 @@
           "type": "currency",
           "x": 57.29,
           "y": 62.95,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26026,7 +26026,7 @@
           "type": "currency",
           "x": 56.46,
           "y": 64.4,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26046,7 +26046,7 @@
           "type": "currency",
           "x": 54.71,
           "y": 65.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26056,7 +26056,7 @@
           "type": "currency",
           "x": 54.89,
           "y": 65.71,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26126,7 +26126,7 @@
           "type": "currency",
           "x": 54.75,
           "y": 66.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26136,7 +26136,7 @@
           "type": "currency",
           "x": 55.61,
           "y": 65.14,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "427"
         },
         {
@@ -26356,7 +26356,7 @@
           "type": "currency",
           "x": 51.06,
           "y": 63.09,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -26376,7 +26376,7 @@
           "type": "currency",
           "x": 52.42,
           "y": 66.48,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -26606,7 +26606,7 @@
           "type": "currency",
           "x": 50.97,
           "y": 63.91,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -26686,7 +26686,7 @@
           "type": "currency",
           "x": 52.97,
           "y": 65.22,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -26696,7 +26696,7 @@
           "type": "currency",
           "x": 53.6,
           "y": 66.7,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "428"
         },
         {
@@ -26726,7 +26726,7 @@
           "type": "currency",
           "x": 53.3,
           "y": 68.86,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -26766,7 +26766,7 @@
           "type": "currency",
           "x": 52.4,
           "y": 64.91,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -26776,7 +26776,7 @@
           "type": "currency",
           "x": 53.08,
           "y": 69.85,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "428"
         },
         {
@@ -28176,7 +28176,7 @@
           "type": "currency",
           "x": 39.1,
           "y": 57.36,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "429"
         },
         {
@@ -28906,7 +28906,7 @@
           "type": "currency",
           "x": 37.92,
           "y": 40.28,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "429"
         },
         {
@@ -29336,7 +29336,7 @@
           "type": "currency",
           "x": 41.29,
           "y": 54.86,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29346,7 +29346,7 @@
           "type": "currency",
           "x": 42.65,
           "y": 54.27,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29366,7 +29366,7 @@
           "type": "currency",
           "x": 42.47,
           "y": 52.53,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29376,7 +29376,7 @@
           "type": "currency",
           "x": 41.51,
           "y": 52.69,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29386,7 +29386,7 @@
           "type": "currency",
           "x": 40.53,
           "y": 51.58,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29396,7 +29396,7 @@
           "type": "currency",
           "x": 41.1,
           "y": 51.57,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29406,7 +29406,7 @@
           "type": "currency",
           "x": 41.06,
           "y": 49.73,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29416,7 +29416,7 @@
           "type": "currency",
           "x": 40.67,
           "y": 48.51,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29436,7 +29436,7 @@
           "type": "currency",
           "x": 40.41,
           "y": 47.49,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29446,7 +29446,7 @@
           "type": "currency",
           "x": 39.7,
           "y": 44.56,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "430"
         },
         {
@@ -29606,7 +29606,7 @@
           "type": "currency",
           "x": 53.58,
           "y": 50.99,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29616,7 +29616,7 @@
           "type": "currency",
           "x": 54.05,
           "y": 50.78,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -29626,7 +29626,7 @@
           "type": "currency",
           "x": 54.65,
           "y": 50.34,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "430"
         },
         {
@@ -30836,7 +30836,7 @@
           "type": "activity",
           "x": 55.73,
           "y": 65.8,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "449"
         },
         {
@@ -30896,7 +30896,7 @@
           "type": "activity",
           "x": 57.29,
           "y": 63.33,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "449"
         },
         {
@@ -30916,7 +30916,7 @@
           "type": "activity",
           "x": 56.03,
           "y": 65.31,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "449"
         },
         {
@@ -30946,7 +30946,7 @@
           "type": "activity",
           "x": 48.8,
           "y": 55.54,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "449"
         },
         {
@@ -30956,7 +30956,7 @@
           "type": "activity",
           "x": 57.52,
           "y": 64.81,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "449"
         },
         {
@@ -30976,7 +30976,7 @@
           "type": "activity",
           "x": 54.45,
           "y": 66.23,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "449"
         },
         {
@@ -31196,7 +31196,7 @@
           "type": "activity",
           "x": 51.35,
           "y": 63.31,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "449"
         },
         {
@@ -31256,7 +31256,7 @@
           "type": "activity",
           "x": 54.76,
           "y": 68.63,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "449"
         },
         {
@@ -31306,7 +31306,7 @@
           "type": "activity",
           "x": 53.02,
           "y": 67.13,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "449"
         },
         {
@@ -31326,7 +31326,7 @@
           "type": "activity",
           "x": 52.32,
           "y": 72.2,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "449"
         },
         {
@@ -31466,7 +31466,7 @@
           "type": "activity",
           "x": 35.71,
           "y": 56.06,
-          "region": "miguel-district",
+          "region": "illusion-town",
           "categoryId": "449"
         },
         {
@@ -31496,7 +31496,7 @@
           "type": "activity",
           "x": 36.21,
           "y": 59.87,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "449"
         },
         {
@@ -31636,7 +31636,7 @@
           "type": "activity",
           "x": 54.28,
           "y": 50.15,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "449"
         },
         {
@@ -31786,7 +31786,7 @@
           "type": "activity",
           "x": 39.38,
           "y": 48.65,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "449"
         },
         {
@@ -31796,7 +31796,7 @@
           "type": "activity",
           "x": 42.56,
           "y": 52.55,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "449"
         },
         {
@@ -31816,7 +31816,7 @@
           "type": "activity",
           "x": 58.38,
           "y": 62.56,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "450"
         },
         {
@@ -32146,7 +32146,7 @@
           "type": "boss",
           "x": 40.54,
           "y": 47.7,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "396"
         },
         {
@@ -32306,7 +32306,7 @@
           "type": "boss",
           "x": 59.46,
           "y": 61.52,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "396"
         },
         {
@@ -32326,7 +32326,7 @@
           "type": "boss",
           "x": 41.49,
           "y": 52.59,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "396"
         },
         {
@@ -32356,7 +32356,7 @@
           "type": "boss",
           "x": 41.49,
           "y": 52.59,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "396"
         },
         {
@@ -32376,7 +32376,7 @@
           "type": "boss",
           "x": 55.7,
           "y": 72.25,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "397"
         },
         {
@@ -32386,7 +32386,7 @@
           "type": "boss",
           "x": 55.65,
           "y": 72.15,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "397"
         },
         {
@@ -32486,7 +32486,7 @@
           "type": "boss",
           "x": 52.8,
           "y": 50.89,
-          "region": "bridge-crossings",
+          "region": "new-herland",
           "categoryId": "397"
         },
         {
@@ -32496,7 +32496,7 @@
           "type": "boss",
           "x": 57.34,
           "y": 68.62,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "398"
         },
         {
@@ -32506,7 +32506,7 @@
           "type": "boss",
           "x": 57.34,
           "y": 68.73,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "398"
         },
         {
@@ -32516,7 +32516,7 @@
           "type": "boss",
           "x": 57.37,
           "y": 68.51,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "398"
         },
         {
@@ -32526,7 +32526,7 @@
           "type": "boss",
           "x": 57.25,
           "y": 68.76,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "398"
         },
         {
@@ -32636,7 +32636,7 @@
           "type": "boss",
           "x": 37.13,
           "y": 37.61,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "399"
         },
         {
@@ -32876,7 +32876,7 @@
           "type": "boss",
           "x": 56.45,
           "y": 66.23,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "400"
         },
         {
@@ -32886,7 +32886,7 @@
           "type": "boss",
           "x": 56.47,
           "y": 66.21,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "400"
         },
         {
@@ -32896,7 +32896,7 @@
           "type": "boss",
           "x": 56.49,
           "y": 66.19,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "400"
         },
         {
@@ -33046,7 +33046,7 @@
           "type": "boss",
           "x": 40.9,
           "y": 51.18,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "400"
         },
         {
@@ -33056,7 +33056,7 @@
           "type": "boss",
           "x": 40.86,
           "y": 51.21,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "400"
         },
         {
@@ -33066,7 +33066,7 @@
           "type": "boss",
           "x": 40.85,
           "y": 51.25,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "400"
         },
         {
@@ -33266,7 +33266,7 @@
           "type": "boss",
           "x": 59.15,
           "y": 60.85,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "400"
         },
         {
@@ -33276,7 +33276,7 @@
           "type": "boss",
           "x": 59.31,
           "y": 60.68,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "400"
         },
         {
@@ -33286,7 +33286,7 @@
           "type": "boss",
           "x": 52.8,
           "y": 68.06,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "401"
         },
         {
@@ -33426,7 +33426,7 @@
           "type": "boss",
           "x": 56.19,
           "y": 69.13,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "401"
         },
         {
@@ -33466,7 +33466,7 @@
           "type": "boss",
           "x": 56.19,
           "y": 69.13,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "401"
         },
         {
@@ -33916,7 +33916,7 @@
           "type": "monster",
           "x": 59.57,
           "y": 61.58,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "403"
         },
         {
@@ -34076,7 +34076,7 @@
           "type": "monster",
           "x": 41.2,
           "y": 49.3,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "405"
         },
         {
@@ -34136,7 +34136,7 @@
           "type": "monster",
           "x": 51.57,
           "y": 63.81,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "405"
         },
         {
@@ -34146,7 +34146,7 @@
           "type": "monster",
           "x": 51.6,
           "y": 63.87,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "405"
         },
         {
@@ -34166,7 +34166,7 @@
           "type": "monster",
           "x": 56.0,
           "y": 68.2,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34186,7 +34186,7 @@
           "type": "monster",
           "x": 57.78,
           "y": 68.53,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34196,7 +34196,7 @@
           "type": "monster",
           "x": 57.58,
           "y": 68.62,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34206,7 +34206,7 @@
           "type": "monster",
           "x": 58.02,
           "y": 67.68,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34216,7 +34216,7 @@
           "type": "monster",
           "x": 57.58,
           "y": 67.36,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34226,7 +34226,7 @@
           "type": "monster",
           "x": 57.91,
           "y": 67.48,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34236,7 +34236,7 @@
           "type": "monster",
           "x": 57.14,
           "y": 68.17,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34246,7 +34246,7 @@
           "type": "monster",
           "x": 57.23,
           "y": 68.19,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34256,7 +34256,7 @@
           "type": "monster",
           "x": 56.52,
           "y": 68.81,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34276,7 +34276,7 @@
           "type": "monster",
           "x": 56.52,
           "y": 68.81,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "406"
         },
         {
@@ -34336,7 +34336,7 @@
           "type": "monster",
           "x": 56.62,
           "y": 67.98,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34346,7 +34346,7 @@
           "type": "monster",
           "x": 55.94,
           "y": 68.21,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34356,7 +34356,7 @@
           "type": "monster",
           "x": 56.78,
           "y": 68.2,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34366,7 +34366,7 @@
           "type": "monster",
           "x": 55.73,
           "y": 67.6,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34376,7 +34376,7 @@
           "type": "monster",
           "x": 58.38,
           "y": 67.29,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34386,7 +34386,7 @@
           "type": "monster",
           "x": 57.69,
           "y": 68.81,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34396,7 +34396,7 @@
           "type": "monster",
           "x": 56.85,
           "y": 68.57,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34406,7 +34406,7 @@
           "type": "monster",
           "x": 57.06,
           "y": 68.61,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34416,7 +34416,7 @@
           "type": "monster",
           "x": 57.0,
           "y": 69.59,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34426,7 +34426,7 @@
           "type": "monster",
           "x": 56.84,
           "y": 69.52,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34436,7 +34436,7 @@
           "type": "monster",
           "x": 57.59,
           "y": 67.03,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34446,7 +34446,7 @@
           "type": "monster",
           "x": 57.44,
           "y": 67.08,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34466,7 +34466,7 @@
           "type": "monster",
           "x": 58.94,
           "y": 66.92,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34476,7 +34476,7 @@
           "type": "monster",
           "x": 56.87,
           "y": 68.65,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34486,7 +34486,7 @@
           "type": "monster",
           "x": 56.82,
           "y": 69.18,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34496,7 +34496,7 @@
           "type": "monster",
           "x": 56.67,
           "y": 68.51,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34506,7 +34506,7 @@
           "type": "monster",
           "x": 56.69,
           "y": 68.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34516,7 +34516,7 @@
           "type": "monster",
           "x": 56.63,
           "y": 68.82,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34526,7 +34526,7 @@
           "type": "monster",
           "x": 56.38,
           "y": 68.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34536,7 +34536,7 @@
           "type": "monster",
           "x": 58.89,
           "y": 68.18,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34546,7 +34546,7 @@
           "type": "monster",
           "x": 58.56,
           "y": 67.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "408"
         },
         {
@@ -34556,7 +34556,7 @@
           "type": "monster",
           "x": 56.31,
           "y": 67.58,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "409"
         },
         {
@@ -34606,7 +34606,7 @@
           "type": "monster",
           "x": 40.17,
           "y": 51.37,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "409"
         },
         {
@@ -34786,7 +34786,7 @@
           "type": "monster",
           "x": 54.83,
           "y": 65.87,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34796,7 +34796,7 @@
           "type": "monster",
           "x": 54.92,
           "y": 65.88,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34806,7 +34806,7 @@
           "type": "monster",
           "x": 54.98,
           "y": 65.78,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34946,7 +34946,7 @@
           "type": "monster",
           "x": 54.98,
           "y": 66.14,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34956,7 +34956,7 @@
           "type": "monster",
           "x": 54.96,
           "y": 66.22,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34966,7 +34966,7 @@
           "type": "monster",
           "x": 54.96,
           "y": 66.17,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34976,7 +34976,7 @@
           "type": "monster",
           "x": 56.19,
           "y": 64.65,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -34986,7 +34986,7 @@
           "type": "monster",
           "x": 56.09,
           "y": 64.63,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35046,7 +35046,7 @@
           "type": "monster",
           "x": 55.19,
           "y": 65.17,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35056,7 +35056,7 @@
           "type": "monster",
           "x": 55.24,
           "y": 65.09,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35066,7 +35066,7 @@
           "type": "monster",
           "x": 55.29,
           "y": 65.07,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35076,7 +35076,7 @@
           "type": "monster",
           "x": 55.14,
           "y": 65.17,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35086,7 +35086,7 @@
           "type": "monster",
           "x": 55.25,
           "y": 65.12,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35096,7 +35096,7 @@
           "type": "monster",
           "x": 55.23,
           "y": 64.98,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "411"
         },
         {
@@ -35226,7 +35226,7 @@
           "type": "phone-booth",
           "x": 54.96,
           "y": 65.62,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "412"
         },
         {
@@ -35416,7 +35416,7 @@
           "type": "monster",
           "x": 52.23,
           "y": 70.29,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "415"
         },
         {
@@ -35446,7 +35446,7 @@
           "type": "monster",
           "x": 58.57,
           "y": 62.1,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "415"
         },
         {
@@ -35486,7 +35486,7 @@
           "type": "monster",
           "x": 56.62,
           "y": 63.51,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "415"
         },
         {
@@ -35546,7 +35546,7 @@
           "type": "monster",
           "x": 58.57,
           "y": 62.1,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "415"
         },
         {
@@ -35616,7 +35616,7 @@
           "type": "monster",
           "x": 56.62,
           "y": 63.51,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "415"
         },
         {
@@ -35696,7 +35696,7 @@
           "type": "monster",
           "x": 32.02,
           "y": 61.95,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "416"
         },
         {
@@ -35706,7 +35706,7 @@
           "type": "monster",
           "x": 32.06,
           "y": 62.0,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "416"
         },
         {
@@ -35716,7 +35716,7 @@
           "type": "monster",
           "x": 32.07,
           "y": 61.92,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "416"
         },
         {
@@ -36156,7 +36156,7 @@
           "type": "monster",
           "x": 57.23,
           "y": 63.97,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "417"
         },
         {
@@ -36166,7 +36166,7 @@
           "type": "monster",
           "x": 57.33,
           "y": 63.89,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "417"
         },
         {
@@ -36236,7 +36236,7 @@
           "type": "monster",
           "x": 41.24,
           "y": 49.31,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "417"
         },
         {
@@ -36246,7 +36246,7 @@
           "type": "monster",
           "x": 41.17,
           "y": 49.31,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "417"
         },
         {
@@ -36316,7 +36316,7 @@
           "type": "monster",
           "x": 38.81,
           "y": 56.85,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "417"
         },
         {
@@ -36326,7 +36326,7 @@
           "type": "monster",
           "x": 38.89,
           "y": 56.87,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "417"
         },
         {
@@ -36436,7 +36436,7 @@
           "type": "monster",
           "x": 51.69,
           "y": 63.79,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "417"
         },
         {
@@ -36506,7 +36506,7 @@
           "type": "monster",
           "x": 57.29,
           "y": 63.91,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "418"
         },
         {
@@ -36546,7 +36546,7 @@
           "type": "monster",
           "x": 38.84,
           "y": 56.73,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "418"
         },
         {
@@ -36586,7 +36586,7 @@
           "type": "monster",
           "x": 51.63,
           "y": 63.76,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "418"
         },
         {
@@ -36726,7 +36726,7 @@
           "type": "monster",
           "x": 33.88,
           "y": 60.5,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "434"
         },
         {
@@ -36966,7 +36966,7 @@
           "type": "monster",
           "x": 35.51,
           "y": 59.25,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "434"
         },
         {
@@ -36976,7 +36976,7 @@
           "type": "monster",
           "x": 35.48,
           "y": 59.22,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "434"
         },
         {
@@ -36986,7 +36986,7 @@
           "type": "monster",
           "x": 33.57,
           "y": 60.87,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "434"
         },
         {
@@ -36996,7 +36996,7 @@
           "type": "monster",
           "x": 33.53,
           "y": 61.02,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "434"
         },
         {
@@ -37006,7 +37006,7 @@
           "type": "monster",
           "x": 33.55,
           "y": 61.27,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "434"
         },
         {
@@ -37206,7 +37206,7 @@
           "type": "monster",
           "x": 55.82,
           "y": 64.42,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "435"
         },
         {
@@ -37216,7 +37216,7 @@
           "type": "monster",
           "x": 55.88,
           "y": 64.24,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "435"
         },
         {
@@ -37406,7 +37406,7 @@
           "type": "monster",
           "x": 40.17,
           "y": 51.37,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "438"
         },
         {
@@ -37416,7 +37416,7 @@
           "type": "monster",
           "x": 40.17,
           "y": 51.37,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "438"
         },
         {
@@ -37456,7 +37456,7 @@
           "type": "service",
           "x": 57.34,
           "y": 62.68,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "350"
         },
         {
@@ -37576,7 +37576,7 @@
           "type": "service",
           "x": 57.67,
           "y": 63.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "358"
         },
         {
@@ -37656,7 +37656,7 @@
           "type": "service",
           "x": 52.86,
           "y": 66.23,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "361"
         },
         {
@@ -37666,7 +37666,7 @@
           "type": "service",
           "x": 56.61,
           "y": 63.5,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "362"
         },
         {
@@ -37726,7 +37726,7 @@
           "type": "service",
           "x": 58.3,
           "y": 62.52,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "365"
         },
         {
@@ -37806,7 +37806,7 @@
           "type": "service",
           "x": 59.48,
           "y": 61.63,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "367"
         },
         {
@@ -37816,7 +37816,7 @@
           "type": "service",
           "x": 54.48,
           "y": 66.26,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "367"
         },
         {
@@ -37976,7 +37976,7 @@
           "type": "service",
           "x": 57.83,
           "y": 67.5,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "368"
         },
         {
@@ -38036,7 +38036,7 @@
           "type": "service",
           "x": 57.85,
           "y": 63.25,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "371"
         },
         {
@@ -38206,7 +38206,7 @@
           "type": "service",
           "x": 36.28,
           "y": 56.11,
-          "region": "miguel-district",
+          "region": "illusion-town",
           "categoryId": "374"
         },
         {
@@ -38246,7 +38246,7 @@
           "type": "shop",
           "x": 55.98,
           "y": 64.22,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "306"
         },
         {
@@ -38366,7 +38366,7 @@
           "type": "shop",
           "x": 41.62,
           "y": 52.19,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "306"
         },
         {
@@ -38686,7 +38686,7 @@
           "type": "shop",
           "x": 55.37,
           "y": 64.76,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "311"
         },
         {
@@ -38846,7 +38846,7 @@
           "type": "shop",
           "x": 52.35,
           "y": 64.91,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "313"
         },
         {
@@ -39266,7 +39266,7 @@
           "type": "shop",
           "x": 54.81,
           "y": 64.77,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "325"
         },
         {
@@ -39516,7 +39516,7 @@
           "type": "shop",
           "x": 55.42,
           "y": 65.29,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "331"
         },
         {
@@ -39586,7 +39586,7 @@
           "type": "shop",
           "x": 55.21,
           "y": 65.74,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "332"
         },
         {
@@ -39746,7 +39746,7 @@
           "type": "shop",
           "x": 55.1,
           "y": 64.52,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "335"
         },
         {
@@ -40076,7 +40076,7 @@
           "type": "shop",
           "x": 54.73,
           "y": 65.83,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "344"
         },
         {
@@ -40146,7 +40146,7 @@
           "type": "shop",
           "x": 55.05,
           "y": 65.87,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "345"
         },
         {
@@ -40226,7 +40226,7 @@
           "type": "shop",
           "x": 54.64,
           "y": 66.13,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "346"
         },
         {
@@ -40396,7 +40396,7 @@
           "type": "shop",
           "x": 40.41,
           "y": 47.52,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -40406,7 +40406,7 @@
           "type": "shop",
           "x": 40.41,
           "y": 47.54,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -40496,7 +40496,7 @@
           "type": "shop",
           "x": 42.66,
           "y": 52.99,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -40506,7 +40506,7 @@
           "type": "shop",
           "x": 42.68,
           "y": 52.99,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -40516,7 +40516,7 @@
           "type": "shop",
           "x": 42.79,
           "y": 53.04,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -40636,7 +40636,7 @@
           "type": "shop",
           "x": 53.06,
           "y": 66.76,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -40646,7 +40646,7 @@
           "type": "shop",
           "x": 53.04,
           "y": 66.75,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -40836,7 +40836,7 @@
           "type": "shop",
           "x": 55.24,
           "y": 65.82,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -40846,7 +40846,7 @@
           "type": "shop",
           "x": 55.23,
           "y": 65.8,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -40896,7 +40896,7 @@
           "type": "shop",
           "x": 40.67,
           "y": 48.45,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -40906,7 +40906,7 @@
           "type": "shop",
           "x": 40.67,
           "y": 48.46,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -41276,7 +41276,7 @@
           "type": "shop",
           "x": 53.01,
           "y": 69.98,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "476"
         },
         {
@@ -41286,7 +41286,7 @@
           "type": "shop",
           "x": 53.03,
           "y": 69.97,
-          "region": "unheard-shores",
+          "region": "illusion-town",
           "categoryId": "476"
         },
         {
@@ -41596,7 +41596,7 @@
           "type": "shop",
           "x": 36.34,
           "y": 60.04,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "476"
         },
         {
@@ -41606,7 +41606,7 @@
           "type": "shop",
           "x": 36.31,
           "y": 60.04,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "476"
         },
         {
@@ -41616,7 +41616,7 @@
           "type": "shop",
           "x": 36.29,
           "y": 60.04,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "476"
         },
         {
@@ -41626,7 +41626,7 @@
           "type": "shop",
           "x": 36.32,
           "y": 60.04,
-          "region": "illusion-town",
+          "region": "miguel-district",
           "categoryId": "476"
         },
         {
@@ -41636,7 +41636,7 @@
           "type": "shop",
           "x": 54.73,
           "y": 65.05,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -41646,7 +41646,7 @@
           "type": "shop",
           "x": 54.71,
           "y": 65.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -41686,7 +41686,7 @@
           "type": "shop",
           "x": 54.75,
           "y": 66.58,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -41696,7 +41696,7 @@
           "type": "shop",
           "x": 54.76,
           "y": 66.59,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -41976,7 +41976,7 @@
           "type": "shop",
           "x": 56.42,
           "y": 63.65,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -41986,7 +41986,7 @@
           "type": "shop",
           "x": 56.4,
           "y": 63.63,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42376,7 +42376,7 @@
           "type": "shop",
           "x": 53.38,
           "y": 67.47,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42386,7 +42386,7 @@
           "type": "shop",
           "x": 53.37,
           "y": 67.48,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42436,7 +42436,7 @@
           "type": "shop",
           "x": 42.66,
           "y": 54.43,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -42446,7 +42446,7 @@
           "type": "shop",
           "x": 42.68,
           "y": 54.43,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -42606,7 +42606,7 @@
           "type": "shop",
           "x": 57.34,
           "y": 63.33,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42616,7 +42616,7 @@
           "type": "shop",
           "x": 57.72,
           "y": 63.0,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42626,7 +42626,7 @@
           "type": "shop",
           "x": 57.71,
           "y": 62.98,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42636,7 +42636,7 @@
           "type": "shop",
           "x": 57.51,
           "y": 63.14,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42836,7 +42836,7 @@
           "type": "shop",
           "x": 55.73,
           "y": 65.28,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42846,7 +42846,7 @@
           "type": "shop",
           "x": 55.85,
           "y": 64.82,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -42856,7 +42856,7 @@
           "type": "shop",
           "x": 55.8,
           "y": 65.05,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "476"
         },
         {
@@ -43976,7 +43976,7 @@
           "type": "shop",
           "x": 40.22,
           "y": 50.89,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -43986,7 +43986,7 @@
           "type": "shop",
           "x": 40.22,
           "y": 50.87,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "476"
         },
         {
@@ -44206,7 +44206,7 @@
           "type": "shop",
           "x": 57.51,
           "y": 62.74,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "477"
         },
         {
@@ -44216,7 +44216,7 @@
           "type": "shop",
           "x": 57.49,
           "y": 62.72,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "477"
         },
         {
@@ -44246,7 +44246,7 @@
           "type": "service",
           "x": 56.35,
           "y": 65.38,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "389"
         },
         {
@@ -44256,7 +44256,7 @@
           "type": "service",
           "x": 51.1,
           "y": 64.04,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "389"
         },
         {
@@ -44376,7 +44376,7 @@
           "type": "service",
           "x": 56.31,
           "y": 65.12,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "390"
         },
         {
@@ -44386,7 +44386,7 @@
           "type": "service",
           "x": 51.08,
           "y": 63.68,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "390"
         },
         {
@@ -44716,7 +44716,7 @@
           "type": "viewpoint",
           "x": 55.77,
           "y": 66.31,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -44736,7 +44736,7 @@
           "type": "viewpoint",
           "x": 57.4,
           "y": 68.24,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -44786,7 +44786,7 @@
           "type": "viewpoint",
           "x": 51.62,
           "y": 64.57,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "420"
         },
         {
@@ -44806,7 +44806,7 @@
           "type": "viewpoint",
           "x": 56.8,
           "y": 71.27,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -44816,7 +44816,7 @@
           "type": "viewpoint",
           "x": 53.93,
           "y": 65.61,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -44856,7 +44856,7 @@
           "type": "viewpoint",
           "x": 57.8,
           "y": 62.83,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -44876,7 +44876,7 @@
           "type": "viewpoint",
           "x": 52.84,
           "y": 66.03,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "420"
         },
         {
@@ -45046,7 +45046,7 @@
           "type": "viewpoint",
           "x": 56.31,
           "y": 65.12,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -45056,7 +45056,7 @@
           "type": "viewpoint",
           "x": 51.08,
           "y": 63.68,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "420"
         },
         {
@@ -45156,7 +45156,7 @@
           "type": "viewpoint",
           "x": 58.25,
           "y": 62.05,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -45246,7 +45246,7 @@
           "type": "viewpoint",
           "x": 54.7,
           "y": 65.6,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -45316,7 +45316,7 @@
           "type": "viewpoint",
           "x": 55.02,
           "y": 65.65,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -45386,7 +45386,7 @@
           "type": "viewpoint",
           "x": 55.18,
           "y": 65.5,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -45576,7 +45576,7 @@
           "type": "viewpoint",
           "x": 55.94,
           "y": 63.87,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -45696,7 +45696,7 @@
           "type": "viewpoint",
           "x": 41.63,
           "y": 50.97,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -45986,7 +45986,7 @@
           "type": "viewpoint",
           "x": 55.33,
           "y": 64.45,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -46286,7 +46286,7 @@
           "type": "viewpoint",
           "x": 52.33,
           "y": 64.62,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "420"
         },
         {
@@ -46856,7 +46856,7 @@
           "type": "viewpoint",
           "x": 55.39,
           "y": 65.02,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -46926,7 +46926,7 @@
           "type": "viewpoint",
           "x": 38.0,
           "y": 40.44,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "420"
         },
         {
@@ -47086,7 +47086,7 @@
           "type": "viewpoint",
           "x": 56.57,
           "y": 63.11,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -47186,7 +47186,7 @@
           "type": "viewpoint",
           "x": 54.6,
           "y": 65.93,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -47286,7 +47286,7 @@
           "type": "viewpoint",
           "x": 57.62,
           "y": 62.63,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -47426,7 +47426,7 @@
           "type": "viewpoint",
           "x": 36.31,
           "y": 55.17,
-          "region": "miguel-district",
+          "region": "illusion-town",
           "categoryId": "420"
         },
         {
@@ -47476,7 +47476,7 @@
           "type": "viewpoint",
           "x": 57.79,
           "y": 67.39,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -47576,7 +47576,7 @@
           "type": "viewpoint",
           "x": 39.53,
           "y": 43.19,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "420"
         },
         {
@@ -47676,7 +47676,7 @@
           "type": "viewpoint",
           "x": 59.43,
           "y": 61.1,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -47686,7 +47686,7 @@
           "type": "viewpoint",
           "x": 54.45,
           "y": 66.06,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "420"
         },
         {
@@ -47976,7 +47976,7 @@
           "type": "viewpoint",
           "x": 36.77,
           "y": 36.31,
-          "region": "new-herland",
+          "region": "miguel-district",
           "categoryId": "420"
         },
         {
@@ -47986,7 +47986,7 @@
           "type": "viewpoint",
           "x": 41.97,
           "y": 52.22,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -48076,7 +48076,7 @@
           "type": "viewpoint",
           "x": 39.42,
           "y": 49.85,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -48176,7 +48176,7 @@
           "type": "viewpoint",
           "x": 37.21,
           "y": 38.88,
-          "region": "miguel-district",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -48186,7 +48186,7 @@
           "type": "viewpoint",
           "x": 84.6,
           "y": 5.49,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -48326,7 +48326,7 @@
           "type": "viewpoint",
           "x": 56.17,
           "y": 63.54,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "424"
         },
         {
@@ -48376,7 +48376,7 @@
           "type": "viewpoint",
           "x": 57.88,
           "y": 67.45,
-          "region": "unheard-shores",
+          "region": "bridge-crossings",
           "categoryId": "424"
         },
         {
@@ -48386,7 +48386,7 @@
           "type": "viewpoint",
           "x": 52.79,
           "y": 66.07,
-          "region": "bridge-crossings",
+          "region": "illusion-town",
           "categoryId": "424"
         },
         {
@@ -48536,7 +48536,7 @@
           "type": "viewpoint",
           "x": 43.85,
           "y": 53.68,
-          "region": "illusion-town",
+          "region": "new-herland",
           "categoryId": "424"
         },
         {
