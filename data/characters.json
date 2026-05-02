@@ -7179,12 +7179,37 @@
     "rank": "S",
     "weapon": "液体",
     "weaponEn": "Liquid",
-    "role": "进攻",
-    "roleEn": "Attack",
+    "role": "支援",
+    "roleEn": "Support",
     "faction": "鬼兰商会",
-    "description": "鬼兰商会的店主，光系属性异能者。外表沉稳内敛，经营着一家古董商店。",
-    "faq": [],
-    "relatedCharacters": [],
+    "description": "鬼兰商会的店主，光系属性异能者。外表沉稳内敛，经营着一家古董商店。核心机制为「技能复刻」——记录队友的协同技能并在大招中重现，兼具治疗、控制与副输出能力。",
+    "faq": [
+      {
+        "question": "Is Xun a DPS or Support?",
+        "questionZh": "浔是输出还是辅助？",
+        "answer": "Xun is primarily a Support/Sub-DPS with crowd control, healing, and a unique skill replay mechanic. She records teammates' skills and replays them with her Ultimate.",
+        "answerZh": "浔是支援/副输出角色，拥有控制、治疗和独有技能复刻机制。她记录队友技能并通过大招重现。"
+      },
+      {
+        "question": "What is Xun's best team in NTE?",
+        "questionZh": "浔的最佳配队是什么？",
+        "answer": "Xun + Zero + Mint (Cosmos Blossom Burst) or Xun + Nanally + Zero (CC Lockdown Burst). Both are rated T0 teams.",
+        "answerZh": "浔+零+薄荷（光耀坼绽爆发队）或浔+娜娜莉+零（控场爆发队），均为T0配队。"
+      },
+      {
+        "question": "What is Xun's best weapon in Neverness to Everness?",
+        "questionZh": "浔最佳弧盘是什么？",
+        "answer": "Ignite the Scene (引爆全场) is the best arc disk for Xun, providing ATK buffs and Cosmos DMG bonus for both on-field and off-field play.",
+        "answerZh": "最佳弧盘为「引爆全场」，提供攻击力加成和光系伤害提升，适合浔的混合输出/辅助定位。"
+      },
+      {
+        "question": "How to get Xun in NTE?",
+        "questionZh": "如何获得浔？",
+        "answer": "Xun is a limited banner character available in the second half of v1.0 (after Nanally's banner). She is not in the standard pool.",
+        "answerZh": "浔是1.0下半限定池角色（娜娜莉池结束后），不在常驻池中。"
+      }
+    ],
+    "relatedCharacters": ["zero-male", "nanally", "mint"],
     "skills": {
       "normalAttack": {
         "name": "胧月流",
@@ -7195,16 +7220,16 @@
       "skill": {
         "name": "今景复映",
         "nameEn": "Scene Revisited",
-        "description": "释放光系属性攻击。",
-        "descriptionEn": "Unleashes Cosmos attack.",
+        "description": "释放6段光系范围伤害，记录队友的协同技能和弧盘变化攻击。",
+        "descriptionEn": "Deals 6-hit AoE Cosmos DMG. Records teammates' synergy skills and arc-shift attacks.",
         "cooldown": "8s",
         "cost": "40 能量"
       },
       "ultimate": {
         "name": "浮世来潮",
         "nameEn": "Tides of the Floating World",
-        "description": "发动终极攻击，造成光系属性伤害。",
-        "descriptionEn": "Unleashes ultimate attack, dealing Cosmos DMG.",
+        "description": "造成10段光系范围伤害，触发局部时停效果，净化队友时间类减益，并重现所有已记录的队友技能。",
+        "descriptionEn": "Deals 10-hit AoE Cosmos DMG. Triggers localized time-stop, cleanses time-type debuffs from allies, and replays all recorded teammate skills.",
         "cost": "80 能量"
       },
       "passives": [
@@ -7279,11 +7304,14 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "太刀",
-      "bestWeaponEn": "Tachi",
-      "alternativeWeapons": [],
-      "bestDiskSet": "光系伤害加成",
-      "bestDiskSetEn": "Cosmos DMG Bonus",
+      "bestWeapon": "引爆全场",
+      "bestWeaponEn": "Ignite the Scene",
+      "alternativeWeapons": [
+        { "id": "standby-ready", "name": "预备备", "nameEn": "Standby Ready" },
+        { "id": "flame-soul-speed", "name": "焰魂狂飙", "nameEn": "Flame Soul Speed" }
+      ],
+      "bestDiskSet": "失落光芒",
+      "bestDiskSetEn": "Lost Radiance",
       "mainStats": {
         "沙漏": "攻击力%",
         "杯子": "光系伤害加成",
@@ -7307,12 +7335,30 @@
         "Elemental Mastery"
       ]
     },
-    "teamComps": [],
+    "teamComps": [
+      {
+        "name": "光耀坼绽爆发队",
+        "nameEn": "Cosmos Blossom Burst",
+        "members": ["zero-male", "mint"],
+        "description": "零主C持续输出，薄荷触发坼绽反应，浔提供治疗、控制与技能复刻，综合清场效率极高。",
+        "descriptionEn": "Zero as main DPS, Mint triggers Blossom Detonation, Xun provides healing, CC, and skill replay."
+      },
+      {
+        "name": "控场爆发队",
+        "nameEn": "CC Lockdown Burst",
+        "members": ["nanally", "zero-male"],
+        "description": "娜娜莉先手控制→浔记录→零爆发→浔大招复刻娜娜莉控制技能，实现无限控制链。",
+        "descriptionEn": "Nanally opens with CC → Xun records → Zero bursts → Xun Ultimate replays Nanally's CC for infinite lockdown."
+      }
+    ],
+    "tierRank": "SS",
+    "tierReason": "Top-tier support with unique skill replay mechanic, healing, CC, and energy regen. T0 team enabler.",
+    "tierReasonZh": "顶级辅助，独有技能复刻机制，兼具治疗、控制与充能，T0配队核心。",
     "image": "/images/characters/xun.webp",
-    "availableAtLaunch": false,
-    "acquisitionMethod": "future",
-    "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor who runs an antique shop.",
-    "status": "upcoming",
+    "availableAtLaunch": true,
+    "acquisitionMethod": "限定池(下半)",
+    "descriptionEn": "The proprietor of the Ghost Orchid Merchant Guild. A Cosmos-attribute Esper with a composed and reserved demeanor. Her core mechanic is 'Skill Replay' — recording teammates' abilities and replaying them with her Ultimate, while providing healing, crowd control, and damage.",
+    "status": "available",
     "nameTw": "浔",
     "arcType": "liquid",
     "signatureArc": "clear-skies"
