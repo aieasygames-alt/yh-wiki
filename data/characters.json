@@ -139,30 +139,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "格斗·破晓",
-      "bestWeaponEn": "Fangs and Claws - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "shadow-manipulation",
-          "name": "影操控",
-          "nameEn": "Shadow Manipulation"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "炽焰之心",
-      "bestDiskSetEn": "Blazing Heart",
+      "bestWeapon": "预备备",
+      "bestWeaponEn": "Ready-Ready",
+      "alternativeWeapons": [],
+      "bestDiskSet": "森林萤火之心",
+      "bestDiskSetEn": "Fireflies and the Forest",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "灵属性伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Anima DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -314,43 +303,38 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "桐丸·破晓",
-      "bestWeaponEn": "Kiroumaru - Dawn",
+      "bestWeapon": "好狗狗走四方",
+      "bestWeaponEn": "Good Boy's Grand Adventure",
       "alternativeWeapons": [
         {
-          "id": "dual-blades",
-          "name": "双刃",
-          "nameEn": "Dual Blades"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
+          "id": "contemplative-cat",
+          "name": "思考喵",
+          "nameEn": "Contemplative Cat"
         }
       ],
-      "bestDiskSet": "永恒守护",
-      "bestDiskSetEn": "Eternal Guardian",
+      "bestDiskSet": "音速蓝刺猬",
+      "bestDiskSetEn": "Speedy Hedgehog",
       "mainStats": {
-        "沙漏": "能量回复",
-        "杯子": "属性伤害加成",
-        "头冠": "治疗加成"
+        "沙漏": "攻击力%",
+        "杯子": "攻击力%",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Healing Bonus"
+        "Sands": "ATK%",
+        "Goblet": "ATK%",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "能量回复",
-        "生命值%",
-        "元素精通",
-        "攻击力%"
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
       ],
       "subStatPriorityEn": [
-        "Energy Recharge",
-        "HP%",
-        "Elemental Mastery",
-        "ATK%"
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -525,30 +509,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "变形十字盾·破晓",
-      "bestWeaponEn": "Transforming Cross-Shield - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "狂战士之怒",
-      "bestDiskSetEn": "Berserker's Fury",
+      "bestWeapon": "永恒圆舞曲",
+      "bestWeaponEn": "Eternal Waltz",
+      "alternativeWeapons": [],
+      "bestDiskSet": "恶魔之血：魂伤",
+      "bestDiskSetEn": "Devil's Blood: Curse",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "魂属性伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Psyche DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -967,42 +940,31 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "言灵之力·破晓",
-      "bestWeaponEn": "Power of Words - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "liquid-arc",
-          "name": "液态弧光",
-          "nameEn": "Liquid-type Arc"
-        },
-        {
-          "id": "dual-blades",
-          "name": "双刃",
-          "nameEn": "Dual Blades"
-        }
-      ],
-      "bestDiskSet": "坚岩之心",
-      "bestDiskSetEn": "Heart of Stone",
+      "bestWeapon": "茶花会",
+      "bestWeaponEn": "Camellia Society",
+      "alternativeWeapons": [],
+      "bestDiskSet": "真红：双生蝶",
+      "bestDiskSetEn": "Crimson: Twin Butterflies",
       "mainStats": {
-        "沙漏": "防御力%",
-        "杯子": "属性伤害加成",
-        "头冠": "防御力%"
+        "沙漏": "攻击力%",
+        "杯子": "咒属性伤害加成",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "DEF%",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "DEF%"
+        "Sands": "ATK%",
+        "Goblet": "Incantation DMG Bonus",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "防御力%",
-        "生命值%",
-        "能量回复",
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
         "元素精通"
       ],
       "subStatPriorityEn": [
-        "DEF%",
-        "HP%",
-        "Energy Recharge",
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
         "Elemental Mastery"
       ]
     },
@@ -1187,30 +1149,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "剑·破晓",
-      "bestWeaponEn": "Sword - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "transforming-cross-shield",
-          "name": "变形十字盾",
-          "nameEn": "Transforming Cross-Shield"
-        }
-      ],
-      "bestDiskSet": "裂空之牙",
-      "bestDiskSetEn": "Skyrending Fang",
+      "bestWeapon": "休息日",
+      "bestWeaponEn": "Day Off",
+      "alternativeWeapons": [],
+      "bestDiskSet": "失落光芒",
+      "bestDiskSetEn": "Lost Radiance",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "光系伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Cosmos DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -1405,30 +1356,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "剑·破晓",
-      "bestWeaponEn": "Sword - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "transforming-cross-shield",
-          "name": "变形十字盾",
-          "nameEn": "Transforming Cross-Shield"
-        }
-      ],
-      "bestDiskSet": "裂空之牙",
-      "bestDiskSetEn": "Skyrending Fang",
+      "bestWeapon": "休息日",
+      "bestWeaponEn": "Day Off",
+      "alternativeWeapons": [],
+      "bestDiskSet": "失落光芒",
+      "bestDiskSetEn": "Lost Radiance",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "光系伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Cosmos DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -1616,30 +1556,25 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "唐伞刀·破晓",
-      "bestWeaponEn": "Umbrella Katana - Dawn",
+      "bestWeapon": "面具下的泪",
+      "bestWeaponEn": "Tears Beneath the Mask",
       "alternativeWeapons": [
         {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "construct",
-          "name": "构装体",
-          "nameEn": "Construct"
+          "id": "marching-beyond-time",
+          "name": "踏越时间行军",
+          "nameEn": "Marching Beyond Time"
         }
       ],
-      "bestDiskSet": "狂战士之怒",
-      "bestDiskSetEn": "Berserker's Fury",
+      "bestDiskSet": "失落光芒",
+      "bestDiskSetEn": "Lost Radiance",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "攻击力%",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "ATK%",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -1778,43 +1713,32 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "液态弧光·破晓",
-      "bestWeaponEn": "Liquid-type Arc - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "yokai-hammer",
-          "name": "妖锤",
-          "nameEn": "Yokai Hammer"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "繁星之誓",
-      "bestDiskSetEn": "Stellar Vow",
+      "bestWeapon": "漆黑青春妄想",
+      "bestWeaponEn": "Youthful Fantasy",
+      "alternativeWeapons": [],
+      "bestDiskSet": "迪亚波罗斯",
+      "bestDiskSetEn": "Diabolos",
       "mainStats": {
-        "沙漏": "能量回复",
-        "杯子": "属性伤害加成",
-        "头冠": "治疗加成"
+        "沙漏": "攻击力%",
+        "杯子": "暗属性伤害加成",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Healing Bonus"
+        "Sands": "ATK%",
+        "Goblet": "Chaos DMG Bonus",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "能量回复",
-        "生命值%",
-        "元素精通",
-        "攻击力%"
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
       ],
       "subStatPriorityEn": [
-        "Energy Recharge",
-        "HP%",
-        "Elemental Mastery",
-        "ATK%"
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -1943,43 +1867,32 @@
       "resonance": []
     },
     "recommendedBuild": {
-      "bestWeapon": "载具·破晓",
-      "bestWeaponEn": "Vehicle - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "appraisal-ability",
-          "name": "鉴定能力",
-          "nameEn": "Appraisal Ability"
-        }
-      ],
-      "bestDiskSet": "繁星之誓",
-      "bestDiskSetEn": "Stellar Vow",
+      "bestWeapon": "现实避难所",
+      "bestWeaponEn": "Reality Refuge",
+      "alternativeWeapons": [],
+      "bestDiskSet": "森林萤火之心",
+      "bestDiskSetEn": "Fireflies and the Forest",
       "mainStats": {
-        "沙漏": "能量回复",
-        "杯子": "属性伤害加成",
-        "头冠": "元素精通"
+        "沙漏": "攻击力%",
+        "杯子": "灵属性伤害加成",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Elemental Mastery"
+        "Sands": "ATK%",
+        "Goblet": "Anima DMG Bonus",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "元素精通",
-        "能量回复",
+        "暴击率",
+        "暴击伤害",
         "攻击力%",
-        "暴击率"
+        "元素精通"
       ],
       "subStatPriorityEn": [
-        "Elemental Mastery",
-        "Energy Recharge",
+        "CRIT Rate",
+        "CRIT DMG",
         "ATK%",
-        "CRIT Rate"
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -2155,43 +2068,32 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异环标准待定",
-      "bestWeaponEn": "Standard NTE TBD",
-      "alternativeWeapons": [
-        {
-          "id": "liquid-arc",
-          "name": "液态弧光",
-          "nameEn": "Liquid-type Arc"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "万象归一",
-      "bestDiskSetEn": "Unity of All",
+      "bestWeapon": "引爆全场",
+      "bestWeaponEn": "Blow up the Crowd",
+      "alternativeWeapons": [],
+      "bestDiskSet": "音速蓝刺猬",
+      "bestDiskSetEn": "Speedy Hedgehog",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "攻击力%",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "ATK%",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
         "暴击率",
         "暴击伤害",
         "攻击力%",
-        "能量回复"
+        "元素精通"
       ],
       "subStatPriorityEn": [
         "CRIT Rate",
         "CRIT DMG",
         "ATK%",
-        "Energy Recharge"
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -2329,30 +2231,19 @@
       }
     },
     "recommendedBuild": {
-      "bestWeapon": "杖剑与 Sunyas·破晓",
-      "bestWeaponEn": "Cane Sword and Sunyas - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "appraisal-ability",
-          "name": "鉴定能力",
-          "nameEn": "Appraisal Ability"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "裂空之牙",
-      "bestDiskSetEn": "Skyrending Fang",
+      "bestWeapon": "雨伞",
+      "bestWeaponEn": "Umbrella",
+      "alternativeWeapons": [],
+      "bestDiskSet": "守卫王国",
+      "bestDiskSetEn": "Kingdom's Guard",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "攻击力%",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "ATK%",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -2497,30 +2388,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "影操控·破晓",
-      "bestWeaponEn": "Shadow Manipulation - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "construct",
-          "name": "构装体",
-          "nameEn": "Construct"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "裂空之牙",
-      "bestDiskSetEn": "Skyrending Fang",
+      "bestWeapon": "小心头顶！",
+      "bestWeaponEn": "Watch Your Heads!",
+      "alternativeWeapons": [],
+      "bestDiskSet": "街头拳王",
+      "bestDiskSetEn": "Street Boxer",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "相属性伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Lakshana DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -2666,43 +2546,38 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异环标准待定",
-      "bestWeaponEn": "Standard NTE TBD",
+      "bestWeapon": "飞速绒绒",
+      "bestWeaponEn": "Fluff of Fleetness",
       "alternativeWeapons": [
         {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
+          "id": "call-of-the-twisted-city",
+          "name": "扭曲之城呼唤",
+          "nameEn": "Call of the Twisted City"
         }
       ],
-      "bestDiskSet": "繁星之誓",
-      "bestDiskSetEn": "Stellar Vow",
+      "bestDiskSet": "缇娜的夜间酒馆",
+      "bestDiskSetEn": "Thea's Night Tavern",
       "mainStats": {
-        "沙漏": "能量回复",
-        "杯子": "属性伤害加成",
-        "头冠": "治疗加成"
+        "沙漏": "攻击力%",
+        "杯子": "攻击力%",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Healing Bonus"
+        "Sands": "ATK%",
+        "Goblet": "ATK%",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "能量回复",
-        "生命值%",
-        "元素精通",
-        "攻击力%"
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
       ],
       "subStatPriorityEn": [
-        "Energy Recharge",
-        "HP%",
-        "Elemental Mastery",
-        "ATK%"
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -2885,43 +2760,32 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "双刃·破晓",
-      "bestWeaponEn": "Dual Blades - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "繁星之誓",
-      "bestDiskSetEn": "Stellar Vow",
+      "bestWeapon": "晴空",
+      "bestWeaponEn": "Clear Skies",
+      "alternativeWeapons": [],
+      "bestDiskSet": "森林萤火之心",
+      "bestDiskSetEn": "Fireflies and the Forest",
       "mainStats": {
-        "沙漏": "能量回复",
-        "杯子": "属性伤害加成",
-        "头冠": "治疗加成"
+        "沙漏": "攻击力%",
+        "杯子": "灵属性伤害加成",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Healing Bonus"
+        "Sands": "ATK%",
+        "Goblet": "Anima DMG Bonus",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "能量回复",
-        "生命值%",
-        "元素精通",
-        "攻击力%"
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
       ],
       "subStatPriorityEn": [
-        "Energy Recharge",
-        "HP%",
-        "Elemental Mastery",
-        "ATK%"
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -3793,30 +3657,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "刃翼·破晓",
-      "bestWeaponEn": "Blade Wings - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "kiroumaru",
-          "name": "桐丸",
-          "nameEn": "Kiroumaru"
-        },
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        }
-      ],
-      "bestDiskSet": "狂战士之怒",
-      "bestDiskSetEn": "Berserker's Fury",
+      "bestWeapon": "焰魂狂飙",
+      "bestWeaponEn": "Raging Flames",
+      "alternativeWeapons": [],
+      "bestDiskSet": "街头拳王",
+      "bestDiskSetEn": "Street Boxer",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "相属性伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Lakshana DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -3968,30 +3821,19 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "妖锤·破晓",
-      "bestWeaponEn": "Yokai Hammer - Dawn",
-      "alternativeWeapons": [
-        {
-          "id": "fangs-and-claws",
-          "name": "格斗",
-          "nameEn": "Fangs and Claws"
-        },
-        {
-          "id": "blade-wings",
-          "name": "刃翼",
-          "nameEn": "Blade Wings"
-        }
-      ],
-      "bestDiskSet": "裂空之牙",
-      "bestDiskSetEn": "Skyrending Fang",
+      "bestWeapon": "思考喵",
+      "bestWeaponEn": "Contemplative Cat",
+      "alternativeWeapons": [],
+      "bestDiskSet": "失落光芒",
+      "bestDiskSetEn": "Lost Radiance",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
+        "杯子": "光系伤害加成",
         "头冠": "暴击率"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
+        "Goblet": "Cosmos DMG Bonus",
         "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
@@ -7002,32 +6844,32 @@
     "arcType": "solid",
     "signatureArc": "",
     "recommendedBuild": {
-      "bestWeapon": "被遗忘的",
-      "bestWeaponEn": "The Forgotten",
+      "bestWeapon": "坚韧绒绒",
+      "bestWeaponEn": "Fluff of Fortitude",
       "alternativeWeapons": [],
-      "bestDiskSet": "永恒守护",
-      "bestDiskSetEn": "Eternal Guardian",
+      "bestDiskSet": "恶魔之血：魂伤",
+      "bestDiskSetEn": "Devil's Blood: Curse",
       "mainStats": {
-        "Sands": "充能效率",
-        "Goblet": "元素伤害加成",
-        "Circlet": "治疗加成"
+        "沙漏": "攻击力%",
+        "杯子": "魂属性伤害加成",
+        "头冠": "暴击率"
       },
       "mainStatsEn": {
-        "Sands": "Energy Recharge",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "Healing Bonus"
+        "Sands": "ATK%",
+        "Goblet": "Psyche DMG Bonus",
+        "Circlet": "CRIT Rate"
       },
       "subStatPriority": [
-        "充能效率",
-        "生命值%",
-        "元素精通",
-        "攻击力%"
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
       ],
       "subStatPriorityEn": [
-        "Energy Recharge",
-        "HP%",
-        "Elemental Mastery",
-        "ATK%"
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
       ]
     },
     "teamComps": [
@@ -7209,7 +7051,11 @@
         "answerZh": "浔是1.0下半限定池角色（娜娜莉池结束后），不在常驻池中。"
       }
     ],
-    "relatedCharacters": ["zero-male", "nanally", "mint"],
+    "relatedCharacters": [
+      "zero-male",
+      "nanally",
+      "mint"
+    ],
     "skills": {
       "normalAttack": {
         "name": "胧月流",
@@ -7307,8 +7153,16 @@
       "bestWeapon": "引爆全场",
       "bestWeaponEn": "Ignite the Scene",
       "alternativeWeapons": [
-        { "id": "standby-ready", "name": "预备备", "nameEn": "Standby Ready" },
-        { "id": "flame-soul-speed", "name": "焰魂狂飙", "nameEn": "Flame Soul Speed" }
+        {
+          "id": "standby-ready",
+          "name": "预备备",
+          "nameEn": "Standby Ready"
+        },
+        {
+          "id": "flame-soul-speed",
+          "name": "焰魂狂飙",
+          "nameEn": "Flame Soul Speed"
+        }
       ],
       "bestDiskSet": "失落光芒",
       "bestDiskSetEn": "Lost Radiance",
@@ -7339,14 +7193,20 @@
       {
         "name": "光耀坼绽爆发队",
         "nameEn": "Cosmos Blossom Burst",
-        "members": ["zero-male", "mint"],
+        "members": [
+          "zero-male",
+          "mint"
+        ],
         "description": "零主C持续输出，薄荷触发坼绽反应，浔提供治疗、控制与技能复刻，综合清场效率极高。",
         "descriptionEn": "Zero as main DPS, Mint triggers Blossom Detonation, Xun provides healing, CC, and skill replay."
       },
       {
         "name": "控场爆发队",
         "nameEn": "CC Lockdown Burst",
-        "members": ["nanally", "zero-male"],
+        "members": [
+          "nanally",
+          "zero-male"
+        ],
         "description": "娜娜莉先手控制→浔记录→零爆发→浔大招复刻娜娜莉控制技能，实现无限控制链。",
         "descriptionEn": "Nanally opens with CC → Xun records → Zero bursts → Xun Ultimate replays Nanally's CC for infinite lockdown."
       }
