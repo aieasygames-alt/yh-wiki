@@ -33,6 +33,12 @@ export interface MarkerTypeInfo {
   subtypes?: Record<string, { label: string; labelEn: string }>;
 }
 
+export interface RegionInfo {
+  zh: string;
+  en: string;
+  color: string;
+}
+
 export interface MapInfo {
   id: string;
   name: string;

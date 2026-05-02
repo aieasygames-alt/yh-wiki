@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";
 import { isZhLocale, Locale } from "../../../lib/i18n";
-import type { MapMarker, MapInfo, MarkerTypeInfo } from "../../../lib/map-utils";
+import type { MapMarker, MapInfo, MarkerTypeInfo, RegionInfo } from "../../../lib/map-utils";
 import {
   loadProgress,
   toggleMarker,
@@ -38,6 +38,7 @@ import MapRoutePlanner from "../../../components/MapRoutePlanner";
 const data = mapData as {
   maps: MapInfo[];
   markerTypes: Record<string, MarkerTypeInfo>;
+  regions?: Record<string, RegionInfo>;
 };
 
 /** Find markers within radius of a given marker */
@@ -68,6 +69,7 @@ export default function MapPage() {
   const [activeFilters, setActiveFilters] = useState<Set<string>>(
     new Set(Object.keys(data.markerTypes))
   );
+  const [activeRegion, setActiveRegion] = useState<string | null>(null);
   const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
   const [progress, setProgress] = useState<Record<string, boolean>>({});
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -94,9 +96,12 @@ export default function MapPage() {
   const filteredMarkers = useMemo(() => {
     if (!map) return [];
     return map.markers.filter(
-      (m) => activeFilters.has(m.type) && (!hideCollected || !progress[m.id])
+      (m) =>
+        activeFilters.has(m.type) &&
+        (!hideCollected || !progress[m.id]) &&
+        (!activeRegion || m.region === activeRegion)
     );
-  }, [map, activeFilters, hideCollected, progress]);
+  }, [map, activeFilters, hideCollected, progress, activeRegion]);
 
   const nearbyMarkers = useMemo(() => {
     if (!selectedMarker || !map) return [];
@@ -241,6 +246,50 @@ export default function MapPage() {
                 )}
               </button>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Region filter */}
+      {data.regions && Object.keys(data.regions).length > 0 && (
+        <div className={`mb-4 ${isFullscreen ? "hidden" : ""}`}>
+          <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+            <button
+              onClick={() => setActiveRegion(null)}
+              className={`px-3 py-1.5 text-xs rounded-lg transition-colors whitespace-nowrap flex-shrink-0 ${
+                activeRegion === null
+                  ? "bg-gray-600/30 text-gray-200 border border-gray-500/40"
+                  : "bg-gray-800 text-gray-500 border border-gray-700 hover:text-gray-300"
+              }`}
+            >
+              {isZhLocale(lang) ? "全部区域" : "All Regions"}
+            </button>
+            {Object.entries(data.regions).map(([rid, info]) => {
+              const count = map?.markers.filter((m) => m.region === rid).length ?? 0;
+              return (
+                <button
+                  key={rid}
+                  onClick={() => setActiveRegion(activeRegion === rid ? null : rid)}
+                  className={`px-3 py-1.5 text-xs rounded-lg transition-colors whitespace-nowrap flex-shrink-0 border ${
+                    activeRegion === rid
+                      ? "text-white"
+                      : "bg-gray-800 text-gray-400 border-gray-700 hover:text-gray-300"
+                  }`}
+                  style={
+                    activeRegion === rid
+                      ? { backgroundColor: info.color + "30", borderColor: info.color + "60" }
+                      : undefined
+                  }
+                >
+                  <span
+                    className="inline-block w-2 h-2 rounded-full mr-1.5"
+                    style={{ backgroundColor: info.color }}
+                  />
+                  {isZhLocale(lang) ? info.zh : info.en}
+                  <span className="text-gray-500 ml-1">{count}</span>
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
