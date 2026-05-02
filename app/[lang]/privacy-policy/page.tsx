@@ -304,7 +304,7 @@ export default async function PrivacyPolicyPage({ params }: { params: { lang: st
                 : "If you have any questions about this Privacy Policy, please contact us at:"}
           </p>
           <p className="text-primary-400 text-sm mt-2">
-            <a href="mailto:aieasygames@gmail.com">aieasygames@gmail.com</a>
+            <a href="mailto:contact@nteguide.com">contact@nteguide.com</a>
           </p>
         </section>
       </div>

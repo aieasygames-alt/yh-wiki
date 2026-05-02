@@ -198,7 +198,7 @@ export default async function TermsPage({ params }: { params: { lang: string } }
                 : "If you have any questions about these Terms of Service, please contact us at:"}
           </p>
           <p className="text-primary-400 text-sm mt-2">
-            <a href="mailto:aieasygames@gmail.com">aieasygames@gmail.com</a>
+            <a href="mailto:contact@nteguide.com">contact@nteguide.com</a>
           </p>
         </section>
       </div>

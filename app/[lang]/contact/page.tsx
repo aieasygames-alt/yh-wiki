@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       ? "联系我们 — NTE Guide"
       : "Contact Us — NTE Guide";
   const description = isTw
-    ? "聯絡 NTE Guide 團隊。如有建議、合作或問題，歡迎通過郵箱 aieasygames@gmail.com 聯繫我們。"
+    ? "聯絡 NTE Guide 團隊。如有建議、合作或問題，歡迎通過郵箱 contact@nteguide.com 聯繫我們。"
     : isZhLocale(locale)
-      ? "联系 NTE Guide 团队。如有建议、合作或问题，欢迎通过邮箱 aieasygames@gmail.com 联系我们。"
-      : "Contact the NTE Guide team. For suggestions, collaborations, or questions, reach us at aieasygames@gmail.com.";
+      ? "联系 NTE Guide 团队。如有建议、合作或问题，欢迎通过邮箱 contact@nteguide.com 联系我们。"
+      : "Contact the NTE Guide team. For suggestions, collaborations, or questions, reach us at contact@nteguide.com.";
 
   return {
     title,
@@ -74,10 +74,10 @@ export default async function ContactPage({ params }: { params: { lang: string }
               {isTw ? "電子郵箱" : isZhLocale(locale) ? "电子邮箱" : "Email"}
             </h2>
             <a
-              href="mailto:aieasygames@gmail.com"
+              href="mailto:contact@nteguide.com"
               className="text-primary-400 hover:text-primary-300 transition-colors"
             >
-              aieasygames@gmail.com
+              contact@nteguide.com
             </a>
             <p className="text-gray-500 text-xs mt-1">
               {isTw
