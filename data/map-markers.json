@@ -4,7 +4,7 @@
       "id": "hethereau",
       "name": "海瑟劳",
       "nameEn": "Hethereau",
-      "image": "/images/maps/hethereau-full.webp?v=7",
+      "image": "/images/maps/hethereau-full.webp?v=8",
       "description": "异环世界的完整地图，包含海瑟劳全部区域。",
       "descriptionEn": "The complete map of the NTE world, covering all of Hethereau.",
       "minZoom": 1,
@@ -137,7 +137,7 @@
           "type": "waypoint",
           "x": 68.9,
           "y": 43.53,
-          "region": "detention",
+          "region": "new-herland",
           "subtype": "fast-travel",
           "categoryId": "386"
         },
@@ -7507,7 +7507,7 @@
           "type": "collectible",
           "x": 68.92,
           "y": 41.94,
-          "region": "detention",
+          "region": "new-herland",
           "subtype": "yahaha",
           "categoryId": "433"
         },
@@ -7573,7 +7573,7 @@
           "type": "collectible",
           "x": 70.56,
           "y": 41.39,
-          "region": "detention",
+          "region": "new-herland",
           "subtype": "yahaha",
           "categoryId": "433"
         },
@@ -10696,7 +10696,7 @@
           "type": "quest",
           "x": 69.72,
           "y": 43.66,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "454"
         },
         {
@@ -11006,7 +11006,7 @@
           "type": "quest",
           "x": 71.02,
           "y": 43.69,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "455"
         },
         {
@@ -12086,7 +12086,7 @@
           "type": "quest",
           "x": 70.52,
           "y": 43.53,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "440"
         },
         {
@@ -12216,7 +12216,7 @@
           "type": "quest",
           "x": 67.53,
           "y": 43.47,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "440"
         },
         {
@@ -25106,7 +25106,7 @@
           "type": "currency",
           "x": 85.61,
           "y": 9.37,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25116,7 +25116,7 @@
           "type": "currency",
           "x": 85.41,
           "y": 9.36,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25126,7 +25126,7 @@
           "type": "currency",
           "x": 85.61,
           "y": 9.23,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25136,7 +25136,7 @@
           "type": "currency",
           "x": 85.6,
           "y": 9.47,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25146,7 +25146,7 @@
           "type": "currency",
           "x": 85.29,
           "y": 9.52,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25156,7 +25156,7 @@
           "type": "currency",
           "x": 85.07,
           "y": 9.53,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25166,7 +25166,7 @@
           "type": "currency",
           "x": 84.6,
           "y": 9.55,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25176,7 +25176,7 @@
           "type": "currency",
           "x": 84.71,
           "y": 10.22,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25186,7 +25186,7 @@
           "type": "currency",
           "x": 84.45,
           "y": 10.21,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25196,7 +25196,7 @@
           "type": "currency",
           "x": 84.53,
           "y": 10.52,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25206,7 +25206,7 @@
           "type": "currency",
           "x": 84.73,
           "y": 10.59,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25216,7 +25216,7 @@
           "type": "currency",
           "x": 84.71,
           "y": 10.81,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25226,7 +25226,7 @@
           "type": "currency",
           "x": 84.38,
           "y": 10.78,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25236,7 +25236,7 @@
           "type": "currency",
           "x": 84.76,
           "y": 10.72,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25246,7 +25246,7 @@
           "type": "currency",
           "x": 84.95,
           "y": 10.09,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25256,7 +25256,7 @@
           "type": "currency",
           "x": 85.03,
           "y": 10.15,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25266,7 +25266,7 @@
           "type": "currency",
           "x": 85.1,
           "y": 10.25,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25276,7 +25276,7 @@
           "type": "currency",
           "x": 85.16,
           "y": 10.1,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25286,7 +25286,7 @@
           "type": "currency",
           "x": 85.35,
           "y": 9.98,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25296,7 +25296,7 @@
           "type": "currency",
           "x": 85.35,
           "y": 9.78,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25306,7 +25306,7 @@
           "type": "currency",
           "x": 85.19,
           "y": 9.73,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25316,7 +25316,7 @@
           "type": "currency",
           "x": 85.02,
           "y": 9.97,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25326,7 +25326,7 @@
           "type": "currency",
           "x": 85.07,
           "y": 9.78,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25336,7 +25336,7 @@
           "type": "currency",
           "x": 85.32,
           "y": 9.65,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25346,7 +25346,7 @@
           "type": "currency",
           "x": 85.17,
           "y": 9.39,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25356,7 +25356,7 @@
           "type": "currency",
           "x": 85.34,
           "y": 9.39,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25366,7 +25366,7 @@
           "type": "currency",
           "x": 85.31,
           "y": 9.41,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25376,7 +25376,7 @@
           "type": "currency",
           "x": 85.12,
           "y": 9.66,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25386,7 +25386,7 @@
           "type": "currency",
           "x": 85.21,
           "y": 9.65,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25396,7 +25396,7 @@
           "type": "currency",
           "x": 84.54,
           "y": 9.56,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25406,7 +25406,7 @@
           "type": "currency",
           "x": 85.29,
           "y": 9.31,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25416,7 +25416,7 @@
           "type": "currency",
           "x": 85.12,
           "y": 9.32,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25426,7 +25426,7 @@
           "type": "currency",
           "x": 85.12,
           "y": 9.31,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25436,7 +25436,7 @@
           "type": "currency",
           "x": 85.21,
           "y": 9.31,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25446,7 +25446,7 @@
           "type": "currency",
           "x": 85.38,
           "y": 9.31,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25456,7 +25456,7 @@
           "type": "currency",
           "x": 84.53,
           "y": 10.14,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25466,7 +25466,7 @@
           "type": "currency",
           "x": 84.75,
           "y": 10.36,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25476,7 +25476,7 @@
           "type": "currency",
           "x": 84.91,
           "y": 9.72,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25486,7 +25486,7 @@
           "type": "currency",
           "x": 85.21,
           "y": 9.32,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -25496,7 +25496,7 @@
           "type": "currency",
           "x": 85.25,
           "y": 9.39,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "426"
         },
         {
@@ -37436,7 +37436,7 @@
           "type": "service",
           "x": 84.73,
           "y": 9.82,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "349"
         },
         {
@@ -44606,7 +44606,7 @@
           "type": "viewpoint",
           "x": 70.53,
           "y": 41.69,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -44636,7 +44636,7 @@
           "type": "viewpoint",
           "x": 66.41,
           "y": 52.7,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -44756,7 +44756,7 @@
           "type": "viewpoint",
           "x": 70.53,
           "y": 41.69,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -44886,7 +44886,7 @@
           "type": "viewpoint",
           "x": 68.82,
           "y": 41.67,
-          "region": "detention",
+          "region": "new-herland",
           "categoryId": "420"
         },
         {
@@ -48799,11 +48799,6 @@
       "zh": "幻镇",
       "en": "Illusion Town",
       "color": "#f59e0b"
-    },
-    "detention": {
-      "zh": "拘留所",
-      "en": "Detention",
-      "color": "#ef4444"
     }
   }
 }
