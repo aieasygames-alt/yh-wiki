@@ -61,13 +61,14 @@ export default async function MaterialDetailPage({
   const usedByCharacters = getCharactersUsingMaterial(slug);
 
   const typeLabels: Record<string, string> = {
-    resonance: isZhLocale(lang) ? "共鸣材料" : "Resonance",
-    nucleus: isZhLocale(lang) ? "核心材料" : "Nucleus",
-    permit: isZhLocale(lang) ? "许可证明" : "Permit",
-    drop: isZhLocale(lang) ? "掉落物" : "Drop",
+    guide: isZhLocale(lang) ? "猎手指南" : "Guide",
+    ascension: isZhLocale(lang) ? "角色突破" : "Ascension",
+    boss: isZhLocale(lang) ? "Boss掉落" : "Boss Drop",
+    esper: isZhLocale(lang) ? "异能材料" : "Esper",
+    arc: isZhLocale(lang) ? "弧光突破" : "Arc Ascension",
+    "arc-exp": isZhLocale(lang) ? "弧光经验" : "Arc EXP",
+    "module-exp": isZhLocale(lang) ? "模组经验" : "Module EXP",
     currency: isZhLocale(lang) ? "货币" : "Currency",
-    domain: isZhLocale(lang) ? "领域材料" : "Domain",
-    manual: isZhLocale(lang) ? "教材" : "Manual",
   };
 
   return (

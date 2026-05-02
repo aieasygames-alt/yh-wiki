@@ -1824,41 +1824,41 @@
     ]
   },
   {
-    "id": "basic-hunter-guide",
+    "id": "rising-hunter-guide",
     "name": "基础猎手指南",
-    "nameEn": "Basic Hunter Guide",
+    "nameEn": "Rising Hunter Guide",
     "type": "material",
-    "url": "/zh/materials/basic-hunter-guide",
+    "url": "/zh/materials/rising-hunter-guide",
     "tags": [
       "guide"
     ]
   },
   {
-    "id": "basic-hunter-guide",
-    "name": "Basic Hunter Guide",
-    "nameEn": "Basic Hunter Guide",
+    "id": "rising-hunter-guide",
+    "name": "Rising Hunter Guide",
+    "nameEn": "Rising Hunter Guide",
     "type": "material",
-    "url": "/en/materials/basic-hunter-guide",
+    "url": "/en/materials/rising-hunter-guide",
     "tags": [
       "guide"
     ]
   },
   {
-    "id": "advanced-hunter-guide",
+    "id": "senior-hunter-guide",
     "name": "进阶猎手指南",
-    "nameEn": "Advanced Hunter Guide",
+    "nameEn": "Senior Hunter Guide",
     "type": "material",
-    "url": "/zh/materials/advanced-hunter-guide",
+    "url": "/zh/materials/senior-hunter-guide",
     "tags": [
       "guide"
     ]
   },
   {
-    "id": "advanced-hunter-guide",
-    "name": "Advanced Hunter Guide",
-    "nameEn": "Advanced Hunter Guide",
+    "id": "senior-hunter-guide",
+    "name": "Senior Hunter Guide",
+    "nameEn": "Senior Hunter Guide",
     "type": "material",
-    "url": "/en/materials/advanced-hunter-guide",
+    "url": "/en/materials/senior-hunter-guide",
     "tags": [
       "guide"
     ]
@@ -1884,523 +1884,923 @@
     ]
   },
   {
-    "id": "cosmos-spark",
-    "name": "宇宙火花",
-    "nameEn": "Cosmos Spark",
+    "id": "light-dye",
+    "name": "Light Dye",
+    "nameEn": "Light Dye",
     "type": "material",
-    "url": "/zh/materials/cosmos-spark",
+    "url": "/zh/materials/light-dye",
     "tags": [
-      "drop"
+      "arc-exp"
     ]
   },
   {
-    "id": "cosmos-spark",
-    "name": "Cosmos Spark",
-    "nameEn": "Cosmos Spark",
+    "id": "light-dye",
+    "name": "Light Dye",
+    "nameEn": "Light Dye",
     "type": "material",
-    "url": "/en/materials/cosmos-spark",
+    "url": "/en/materials/light-dye",
     "tags": [
-      "drop"
+      "arc-exp"
     ]
   },
   {
-    "id": "cosmos-storm",
-    "name": "宇宙风暴",
-    "nameEn": "Cosmos Storm",
+    "id": "colorless-dye",
+    "name": "Colorless Dye",
+    "nameEn": "Colorless Dye",
     "type": "material",
-    "url": "/zh/materials/cosmos-storm",
+    "url": "/zh/materials/colorless-dye",
     "tags": [
-      "drop"
+      "arc-exp"
     ]
   },
   {
-    "id": "cosmos-storm",
-    "name": "Cosmos Storm",
-    "nameEn": "Cosmos Storm",
+    "id": "colorless-dye",
+    "name": "Colorless Dye",
+    "nameEn": "Colorless Dye",
     "type": "material",
-    "url": "/en/materials/cosmos-storm",
+    "url": "/en/materials/colorless-dye",
     "tags": [
-      "drop"
+      "arc-exp"
     ]
   },
   {
-    "id": "anima-fragment",
-    "name": "生命碎片",
-    "nameEn": "Anima Fragment",
+    "id": "chaotic-dye",
+    "name": "Chaotic Dye",
+    "nameEn": "Chaotic Dye",
     "type": "material",
-    "url": "/zh/materials/anima-fragment",
+    "url": "/zh/materials/chaotic-dye",
     "tags": [
-      "drop"
+      "arc-exp"
     ]
   },
   {
-    "id": "anima-fragment",
-    "name": "Anima Fragment",
-    "nameEn": "Anima Fragment",
+    "id": "chaotic-dye",
+    "name": "Chaotic Dye",
+    "nameEn": "Chaotic Dye",
     "type": "material",
-    "url": "/en/materials/anima-fragment",
+    "url": "/en/materials/chaotic-dye",
     "tags": [
-      "drop"
+      "arc-exp"
     ]
   },
   {
-    "id": "anima-crystal",
-    "name": "生命结晶",
-    "nameEn": "Anima Crystal",
+    "id": "manhole-thug",
+    "name": "Manhole Thug",
+    "nameEn": "Manhole Thug",
     "type": "material",
-    "url": "/zh/materials/anima-crystal",
+    "url": "/zh/materials/manhole-thug",
     "tags": [
-      "drop"
+      "module-exp"
     ]
   },
   {
-    "id": "anima-crystal",
-    "name": "Anima Crystal",
-    "nameEn": "Anima Crystal",
+    "id": "manhole-thug",
+    "name": "Manhole Thug",
+    "nameEn": "Manhole Thug",
     "type": "material",
-    "url": "/en/materials/anima-crystal",
+    "url": "/en/materials/manhole-thug",
     "tags": [
-      "drop"
+      "module-exp"
     ]
   },
   {
-    "id": "incantation-shard",
-    "name": "咒术碎片",
-    "nameEn": "Incantation Shard",
+    "id": "manhole-crook",
+    "name": "Manhole Crook",
+    "nameEn": "Manhole Crook",
     "type": "material",
-    "url": "/zh/materials/incantation-shard",
+    "url": "/zh/materials/manhole-crook",
     "tags": [
-      "drop"
+      "module-exp"
     ]
   },
   {
-    "id": "incantation-shard",
-    "name": "Incantation Shard",
-    "nameEn": "Incantation Shard",
+    "id": "manhole-crook",
+    "name": "Manhole Crook",
+    "nameEn": "Manhole Crook",
     "type": "material",
-    "url": "/en/materials/incantation-shard",
+    "url": "/en/materials/manhole-crook",
     "tags": [
-      "drop"
+      "module-exp"
     ]
   },
   {
-    "id": "incantation-crystal",
-    "name": "咒术结晶",
-    "nameEn": "Incantation Crystal",
+    "id": "manhole-boss",
+    "name": "Manhole Boss",
+    "nameEn": "Manhole Boss",
     "type": "material",
-    "url": "/zh/materials/incantation-crystal",
+    "url": "/zh/materials/manhole-boss",
     "tags": [
-      "drop"
+      "module-exp"
     ]
   },
   {
-    "id": "incantation-crystal",
-    "name": "Incantation Crystal",
-    "nameEn": "Incantation Crystal",
+    "id": "manhole-boss",
+    "name": "Manhole Boss",
+    "nameEn": "Manhole Boss",
     "type": "material",
-    "url": "/en/materials/incantation-crystal",
+    "url": "/en/materials/manhole-boss",
     "tags": [
-      "drop"
+      "module-exp"
     ]
   },
   {
-    "id": "chaos-essence",
-    "name": "混沌精华",
-    "nameEn": "Chaos Essence",
+    "id": "lost-whispers",
+    "name": "Lost Whispers",
+    "nameEn": "Lost Whispers",
     "type": "material",
-    "url": "/zh/materials/chaos-essence",
+    "url": "/zh/materials/lost-whispers",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "chaos-essence",
-    "name": "Chaos Essence",
-    "nameEn": "Chaos Essence",
+    "id": "lost-whispers",
+    "name": "Lost Whispers",
+    "nameEn": "Lost Whispers",
     "type": "material",
-    "url": "/en/materials/chaos-essence",
+    "url": "/en/materials/lost-whispers",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "chaos-core",
-    "name": "混沌核心",
-    "nameEn": "Chaos Core",
+    "id": "obscure-whispers",
+    "name": "Obscure Whispers",
+    "nameEn": "Obscure Whispers",
     "type": "material",
-    "url": "/zh/materials/chaos-core",
+    "url": "/zh/materials/obscure-whispers",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "chaos-core",
-    "name": "Chaos Core",
-    "nameEn": "Chaos Core",
+    "id": "obscure-whispers",
+    "name": "Obscure Whispers",
+    "nameEn": "Obscure Whispers",
     "type": "material",
-    "url": "/en/materials/chaos-core",
+    "url": "/en/materials/obscure-whispers",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "psyche-essence",
-    "name": "灵魂精华",
-    "nameEn": "Psyche Essence",
+    "id": "paradoxical-whispers",
+    "name": "Paradoxical Whispers",
+    "nameEn": "Paradoxical Whispers",
     "type": "material",
-    "url": "/zh/materials/psyche-essence",
+    "url": "/zh/materials/paradoxical-whispers",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "psyche-essence",
-    "name": "Psyche Essence",
-    "nameEn": "Psyche Essence",
+    "id": "paradoxical-whispers",
+    "name": "Paradoxical Whispers",
+    "nameEn": "Paradoxical Whispers",
     "type": "material",
-    "url": "/en/materials/psyche-essence",
+    "url": "/en/materials/paradoxical-whispers",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "psyche-fragment",
-    "name": "灵魂碎片",
-    "nameEn": "Psyche Fragment",
+    "id": "fading-silhouette",
+    "name": "Fading Silhouette",
+    "nameEn": "Fading Silhouette",
     "type": "material",
-    "url": "/zh/materials/psyche-fragment",
+    "url": "/zh/materials/fading-silhouette",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "psyche-fragment",
-    "name": "Psyche Fragment",
-    "nameEn": "Psyche Fragment",
+    "id": "fading-silhouette",
+    "name": "Fading Silhouette",
+    "nameEn": "Fading Silhouette",
     "type": "material",
-    "url": "/en/materials/psyche-fragment",
+    "url": "/en/materials/fading-silhouette",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "lakshana-dust",
-    "name": "相尘",
-    "nameEn": "Lakshana Dust",
+    "id": "blurred-silhouette",
+    "name": "Blurred Silhouette",
+    "nameEn": "Blurred Silhouette",
     "type": "material",
-    "url": "/zh/materials/lakshana-dust",
+    "url": "/zh/materials/blurred-silhouette",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "lakshana-dust",
-    "name": "Lakshana Dust",
-    "nameEn": "Lakshana Dust",
+    "id": "blurred-silhouette",
+    "name": "Blurred Silhouette",
+    "nameEn": "Blurred Silhouette",
     "type": "material",
-    "url": "/en/materials/lakshana-dust",
+    "url": "/en/materials/blurred-silhouette",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "lakshana-signet",
-    "name": "相印",
-    "nameEn": "Lakshana Signet",
+    "id": "chaos-silhouette",
+    "name": "Chaos Silhouette",
+    "nameEn": "Chaos Silhouette",
     "type": "material",
-    "url": "/zh/materials/lakshana-signet",
+    "url": "/zh/materials/chaos-silhouette",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "lakshana-signet",
-    "name": "Lakshana Signet",
-    "nameEn": "Lakshana Signet",
+    "id": "chaos-silhouette",
+    "name": "Chaos Silhouette",
+    "nameEn": "Chaos Silhouette",
     "type": "material",
-    "url": "/en/materials/lakshana-signet",
+    "url": "/en/materials/chaos-silhouette",
     "tags": [
-      "drop"
+      "ascension"
     ]
   },
   {
-    "id": "boss-cosmos",
-    "name": "宇宙之主",
-    "nameEn": "Cosmos Sovereign",
+    "id": "blurred-numeral",
+    "name": "Blurred Numeral",
+    "nameEn": "Blurred Numeral",
     "type": "material",
-    "url": "/zh/materials/boss-cosmos",
+    "url": "/zh/materials/blurred-numeral",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-cosmos",
-    "name": "Cosmos Sovereign",
-    "nameEn": "Cosmos Sovereign",
+    "id": "blurred-numeral",
+    "name": "Blurred Numeral",
+    "nameEn": "Blurred Numeral",
     "type": "material",
-    "url": "/en/materials/boss-cosmos",
+    "url": "/en/materials/blurred-numeral",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-anima",
-    "name": "生命守护者",
-    "nameEn": "Anima Guardian",
+    "id": "unsolved-numeral",
+    "name": "Unsolved Numeral",
+    "nameEn": "Unsolved Numeral",
     "type": "material",
-    "url": "/zh/materials/boss-anima",
+    "url": "/zh/materials/unsolved-numeral",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-anima",
-    "name": "Anima Guardian",
-    "nameEn": "Anima Guardian",
+    "id": "unsolved-numeral",
+    "name": "Unsolved Numeral",
+    "nameEn": "Unsolved Numeral",
     "type": "material",
-    "url": "/en/materials/boss-anima",
+    "url": "/en/materials/unsolved-numeral",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-incantation",
-    "name": "咒典之心",
-    "nameEn": "Incantation Heart",
+    "id": "distorted-numeral",
+    "name": "Distorted Numeral",
+    "nameEn": "Distorted Numeral",
     "type": "material",
-    "url": "/zh/materials/boss-incantation",
+    "url": "/zh/materials/distorted-numeral",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-incantation",
-    "name": "Incantation Heart",
-    "nameEn": "Incantation Heart",
+    "id": "distorted-numeral",
+    "name": "Distorted Numeral",
+    "nameEn": "Distorted Numeral",
     "type": "material",
-    "url": "/en/materials/boss-incantation",
+    "url": "/en/materials/distorted-numeral",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-chaos",
-    "name": "混沌之核",
-    "nameEn": "Chaos Core",
+    "id": "suspended-delusions",
+    "name": "Suspended Delusions",
+    "nameEn": "Suspended Delusions",
     "type": "material",
-    "url": "/zh/materials/boss-chaos",
+    "url": "/zh/materials/suspended-delusions",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-chaos",
-    "name": "Chaos Core",
-    "nameEn": "Chaos Core",
+    "id": "suspended-delusions",
+    "name": "Suspended Delusions",
+    "nameEn": "Suspended Delusions",
     "type": "material",
-    "url": "/en/materials/boss-chaos",
+    "url": "/en/materials/suspended-delusions",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-psyche",
-    "name": "灵魂巨人",
-    "nameEn": "Psyche Titan",
+    "id": "yearning-delusions",
+    "name": "Yearning Delusions",
+    "nameEn": "Yearning Delusions",
     "type": "material",
-    "url": "/zh/materials/boss-psyche",
+    "url": "/zh/materials/yearning-delusions",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-psyche",
-    "name": "Psyche Titan",
-    "nameEn": "Psyche Titan",
+    "id": "yearning-delusions",
+    "name": "Yearning Delusions",
+    "nameEn": "Yearning Delusions",
     "type": "material",
-    "url": "/en/materials/boss-psyche",
+    "url": "/en/materials/yearning-delusions",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-lakshana",
-    "name": "相之理",
-    "nameEn": "Lakshana Principle",
+    "id": "transcendent-delusions",
+    "name": "Transcendent Delusions",
+    "nameEn": "Transcendent Delusions",
     "type": "material",
-    "url": "/zh/materials/boss-lakshana",
+    "url": "/zh/materials/transcendent-delusions",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "boss-lakshana",
-    "name": "Lakshana Principle",
-    "nameEn": "Lakshana Principle",
+    "id": "transcendent-delusions",
+    "name": "Transcendent Delusions",
+    "nameEn": "Transcendent Delusions",
     "type": "material",
-    "url": "/en/materials/boss-lakshana",
+    "url": "/en/materials/transcendent-delusions",
     "tags": [
-      "domain"
+      "ascension"
     ]
   },
   {
-    "id": "pioneer-permit",
-    "name": "先锋许可",
-    "nameEn": "Pioneer Permit",
+    "id": "confessional-flower-seed",
+    "name": "Confessional Flower Seed",
+    "nameEn": "Confessional Flower Seed",
     "type": "material",
-    "url": "/zh/materials/pioneer-permit",
+    "url": "/zh/materials/confessional-flower-seed",
     "tags": [
-      "permit"
+      "boss"
     ]
   },
   {
-    "id": "pioneer-permit",
-    "name": "Pioneer Permit",
-    "nameEn": "Pioneer Permit",
+    "id": "confessional-flower-seed",
+    "name": "Confessional Flower Seed",
+    "nameEn": "Confessional Flower Seed",
     "type": "material",
-    "url": "/en/materials/pioneer-permit",
+    "url": "/en/materials/confessional-flower-seed",
     "tags": [
-      "permit"
+      "boss"
     ]
   },
   {
-    "id": "expert-permit",
-    "name": "专家许可",
-    "nameEn": "Expert Permit",
+    "id": "charging-knight-spark-plug",
+    "name": "Charging Knight Spark Plug",
+    "nameEn": "Charging Knight Spark Plug",
     "type": "material",
-    "url": "/zh/materials/expert-permit",
+    "url": "/zh/materials/charging-knight-spark-plug",
     "tags": [
-      "permit"
+      "boss"
     ]
   },
   {
-    "id": "expert-permit",
-    "name": "Expert Permit",
-    "nameEn": "Expert Permit",
+    "id": "charging-knight-spark-plug",
+    "name": "Charging Knight Spark Plug",
+    "nameEn": "Charging Knight Spark Plug",
     "type": "material",
-    "url": "/en/materials/expert-permit",
+    "url": "/en/materials/charging-knight-spark-plug",
     "tags": [
-      "permit"
+      "boss"
     ]
   },
   {
-    "id": "master-permit",
-    "name": "大师许可",
-    "nameEn": "Master Permit",
+    "id": "page-from-delusions-shore",
+    "name": "A Page from Delusion's Shore",
+    "nameEn": "A Page from Delusion's Shore",
     "type": "material",
-    "url": "/zh/materials/master-permit",
+    "url": "/zh/materials/page-from-delusions-shore",
     "tags": [
-      "permit"
+      "boss"
     ]
   },
   {
-    "id": "master-permit",
-    "name": "Master Permit",
-    "nameEn": "Master Permit",
+    "id": "page-from-delusions-shore",
+    "name": "A Page from Delusion's Shore",
+    "nameEn": "A Page from Delusion's Shore",
     "type": "material",
-    "url": "/en/materials/master-permit",
+    "url": "/en/materials/page-from-delusions-shore",
     "tags": [
-      "permit"
+      "boss"
     ]
   },
   {
-    "id": "manual-attack",
-    "name": "攻击教材",
-    "nameEn": "Attack Manual",
+    "id": "water-moon-pick",
+    "name": "Water Moon Pick",
+    "nameEn": "Water Moon Pick",
     "type": "material",
-    "url": "/zh/materials/manual-attack",
+    "url": "/zh/materials/water-moon-pick",
     "tags": [
-      "manual"
+      "boss"
     ]
   },
   {
-    "id": "manual-attack",
-    "name": "Attack Manual",
-    "nameEn": "Attack Manual",
+    "id": "water-moon-pick",
+    "name": "Water Moon Pick",
+    "nameEn": "Water Moon Pick",
     "type": "material",
-    "url": "/en/materials/manual-attack",
+    "url": "/en/materials/water-moon-pick",
     "tags": [
-      "manual"
+      "boss"
     ]
   },
   {
-    "id": "manual-defense",
-    "name": "防御教材",
-    "nameEn": "Defense Manual",
+    "id": "nest-guard-fragment",
+    "name": "Nest Guard Fragment",
+    "nameEn": "Nest Guard Fragment",
     "type": "material",
-    "url": "/zh/materials/manual-defense",
+    "url": "/zh/materials/nest-guard-fragment",
     "tags": [
-      "manual"
+      "boss"
     ]
   },
   {
-    "id": "manual-defense",
-    "name": "Defense Manual",
-    "nameEn": "Defense Manual",
+    "id": "nest-guard-fragment",
+    "name": "Nest Guard Fragment",
+    "nameEn": "Nest Guard Fragment",
     "type": "material",
-    "url": "/en/materials/manual-defense",
+    "url": "/en/materials/nest-guard-fragment",
     "tags": [
-      "manual"
+      "boss"
     ]
   },
   {
-    "id": "manual-support",
-    "name": "辅助教材",
-    "nameEn": "Support Manual",
+    "id": "colorful-ticket-stub",
+    "name": "Colorful Ticket Stub",
+    "nameEn": "Colorful Ticket Stub",
     "type": "material",
-    "url": "/zh/materials/manual-support",
+    "url": "/zh/materials/colorful-ticket-stub",
     "tags": [
-      "manual"
+      "boss"
     ]
   },
   {
-    "id": "manual-support",
-    "name": "Support Manual",
-    "nameEn": "Support Manual",
+    "id": "colorful-ticket-stub",
+    "name": "Colorful Ticket Stub",
+    "nameEn": "Colorful Ticket Stub",
     "type": "material",
-    "url": "/en/materials/manual-support",
+    "url": "/en/materials/colorful-ticket-stub",
     "tags": [
-      "manual"
+      "boss"
     ]
   },
   {
-    "id": "credits",
-    "name": "信用点",
-    "nameEn": "Credits",
+    "id": "tear-of-the-sea",
+    "name": "Tear of the Sea",
+    "nameEn": "Tear of the Sea",
     "type": "material",
-    "url": "/zh/materials/credits",
+    "url": "/zh/materials/tear-of-the-sea",
     "tags": [
-      "currency"
+      "boss"
     ]
   },
   {
-    "id": "credits",
-    "name": "Credits",
-    "nameEn": "Credits",
+    "id": "tear-of-the-sea",
+    "name": "Tear of the Sea",
+    "nameEn": "Tear of the Sea",
     "type": "material",
-    "url": "/en/materials/credits",
+    "url": "/en/materials/tear-of-the-sea",
     "tags": [
-      "currency"
+      "boss"
     ]
   },
   {
-    "id": "beetle-coins",
-    "name": "甲虫币",
-    "nameEn": "Beetle Coins",
+    "id": "good-boy-stamp",
+    "name": "Good Boy Stamp",
+    "nameEn": "Good Boy Stamp",
     "type": "material",
-    "url": "/zh/materials/beetle-coins",
+    "url": "/zh/materials/good-boy-stamp",
     "tags": [
-      "currency"
+      "esper"
     ]
   },
   {
-    "id": "beetle-coins",
-    "name": "Beetle Coins",
-    "nameEn": "Beetle Coins",
+    "id": "good-boy-stamp",
+    "name": "Good Boy Stamp",
+    "nameEn": "Good Boy Stamp",
     "type": "material",
-    "url": "/en/materials/beetle-coins",
+    "url": "/en/materials/good-boy-stamp",
     "tags": [
-      "currency"
+      "esper"
+    ]
+  },
+  {
+    "id": "the-good-boy",
+    "name": "The Good Boy's Fluff",
+    "nameEn": "The Good Boy's Fluff",
+    "type": "material",
+    "url": "/zh/materials/the-good-boy",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "the-good-boy",
+    "name": "The Good Boy's Fluff",
+    "nameEn": "The Good Boy's Fluff",
+    "type": "material",
+    "url": "/en/materials/the-good-boy",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "dandelion",
+    "name": "Dandelion's Pass",
+    "nameEn": "Dandelion's Pass",
+    "type": "material",
+    "url": "/zh/materials/dandelion",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "dandelion",
+    "name": "Dandelion's Pass",
+    "nameEn": "Dandelion's Pass",
+    "type": "material",
+    "url": "/en/materials/dandelion",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "dress-sleeves-of-vanity",
+    "name": "Dress Sleeves of Vanity",
+    "nameEn": "Dress Sleeves of Vanity",
+    "type": "material",
+    "url": "/zh/materials/dress-sleeves-of-vanity",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "dress-sleeves-of-vanity",
+    "name": "Dress Sleeves of Vanity",
+    "nameEn": "Dress Sleeves of Vanity",
+    "type": "material",
+    "url": "/en/materials/dress-sleeves-of-vanity",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "crown-called-nobility",
+    "name": "Crown Called Nobility",
+    "nameEn": "Crown Called Nobility",
+    "type": "material",
+    "url": "/zh/materials/crown-called-nobility",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "crown-called-nobility",
+    "name": "Crown Called Nobility",
+    "nameEn": "Crown Called Nobility",
+    "type": "material",
+    "url": "/en/materials/crown-called-nobility",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "scepter-called-prestige",
+    "name": "Scepter Called Prestige",
+    "nameEn": "Scepter Called Prestige",
+    "type": "material",
+    "url": "/zh/materials/scepter-called-prestige",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "scepter-called-prestige",
+    "name": "Scepter Called Prestige",
+    "nameEn": "Scepter Called Prestige",
+    "type": "material",
+    "url": "/en/materials/scepter-called-prestige",
+    "tags": [
+      "esper"
+    ]
+  },
+  {
+    "id": "iron-appleseed",
+    "name": "Iron Appleseed",
+    "nameEn": "Iron Appleseed",
+    "type": "material",
+    "url": "/zh/materials/iron-appleseed",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "iron-appleseed",
+    "name": "Iron Appleseed",
+    "nameEn": "Iron Appleseed",
+    "type": "material",
+    "url": "/en/materials/iron-appleseed",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "silver-appleseed",
+    "name": "Silver Appleseed",
+    "nameEn": "Silver Appleseed",
+    "type": "material",
+    "url": "/zh/materials/silver-appleseed",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "silver-appleseed",
+    "name": "Silver Appleseed",
+    "nameEn": "Silver Appleseed",
+    "type": "material",
+    "url": "/en/materials/silver-appleseed",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "golden-appleseed",
+    "name": "Golden Appleseed",
+    "nameEn": "Golden Appleseed",
+    "type": "material",
+    "url": "/zh/materials/golden-appleseed",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "golden-appleseed",
+    "name": "Golden Appleseed",
+    "nameEn": "Golden Appleseed",
+    "type": "material",
+    "url": "/en/materials/golden-appleseed",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "beaty",
+    "name": "Beaty",
+    "nameEn": "Beaty",
+    "type": "material",
+    "url": "/zh/materials/beaty",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "beaty",
+    "name": "Beaty",
+    "nameEn": "Beaty",
+    "type": "material",
+    "url": "/en/materials/beaty",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "versey",
+    "name": "Versey",
+    "nameEn": "Versey",
+    "type": "material",
+    "url": "/zh/materials/versey",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "versey",
+    "name": "Versey",
+    "nameEn": "Versey",
+    "type": "material",
+    "url": "/en/materials/versey",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "nameEn": "Harmony",
+    "type": "material",
+    "url": "/zh/materials/harmony",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "nameEn": "Harmony",
+    "type": "material",
+    "url": "/en/materials/harmony",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "liquid-dream-trial-kit",
+    "name": "Liquid Dream Trial Kit",
+    "nameEn": "Liquid Dream Trial Kit",
+    "type": "material",
+    "url": "/zh/materials/liquid-dream-trial-kit",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "liquid-dream-trial-kit",
+    "name": "Liquid Dream Trial Kit",
+    "nameEn": "Liquid Dream Trial Kit",
+    "type": "material",
+    "url": "/en/materials/liquid-dream-trial-kit",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "liquid-dream-travel-kit",
+    "name": "Liquid Dream Travel Kit",
+    "nameEn": "Liquid Dream Travel Kit",
+    "type": "material",
+    "url": "/zh/materials/liquid-dream-travel-kit",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "liquid-dream-travel-kit",
+    "name": "Liquid Dream Travel Kit",
+    "nameEn": "Liquid Dream Travel Kit",
+    "type": "material",
+    "url": "/en/materials/liquid-dream-travel-kit",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "liquid-dream-can",
+    "name": "Liquid Dream Can",
+    "nameEn": "Liquid Dream Can",
+    "type": "material",
+    "url": "/zh/materials/liquid-dream-can",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "liquid-dream-can",
+    "name": "Liquid Dream Can",
+    "nameEn": "Liquid Dream Can",
+    "type": "material",
+    "url": "/en/materials/liquid-dream-can",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "flavorless-cold-dessert",
+    "name": "Flavorless Cold Dessert",
+    "nameEn": "Flavorless Cold Dessert",
+    "type": "material",
+    "url": "/zh/materials/flavorless-cold-dessert",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "flavorless-cold-dessert",
+    "name": "Flavorless Cold Dessert",
+    "nameEn": "Flavorless Cold Dessert",
+    "type": "material",
+    "url": "/en/materials/flavorless-cold-dessert",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "plain-cold-dessert",
+    "name": "Plain Cold Dessert",
+    "nameEn": "Plain Cold Dessert",
+    "type": "material",
+    "url": "/zh/materials/plain-cold-dessert",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "plain-cold-dessert",
+    "name": "Plain Cold Dessert",
+    "nameEn": "Plain Cold Dessert",
+    "type": "material",
+    "url": "/en/materials/plain-cold-dessert",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "special-cold-dessert",
+    "name": "Special Cold Dessert",
+    "nameEn": "Special Cold Dessert",
+    "type": "material",
+    "url": "/zh/materials/special-cold-dessert",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "special-cold-dessert",
+    "name": "Special Cold Dessert",
+    "nameEn": "Special Cold Dessert",
+    "type": "material",
+    "url": "/en/materials/special-cold-dessert",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "beginner-drama-core",
+    "name": "Beginner Drama Core",
+    "nameEn": "Beginner Drama Core",
+    "type": "material",
+    "url": "/zh/materials/beginner-drama-core",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "beginner-drama-core",
+    "name": "Beginner Drama Core",
+    "nameEn": "Beginner Drama Core",
+    "type": "material",
+    "url": "/en/materials/beginner-drama-core",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "master-drama-core",
+    "name": "Master Drama Core",
+    "nameEn": "Master Drama Core",
+    "type": "material",
+    "url": "/zh/materials/master-drama-core",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "master-drama-core",
+    "name": "Master Drama Core",
+    "nameEn": "Master Drama Core",
+    "type": "material",
+    "url": "/en/materials/master-drama-core",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "collectors-drama-core",
+    "name": "Collector's Drama Core",
+    "nameEn": "Collector's Drama Core",
+    "type": "material",
+    "url": "/zh/materials/collectors-drama-core",
+    "tags": [
+      "arc"
+    ]
+  },
+  {
+    "id": "collectors-drama-core",
+    "name": "Collector's Drama Core",
+    "nameEn": "Collector's Drama Core",
+    "type": "material",
+    "url": "/en/materials/collectors-drama-core",
+    "tags": [
+      "arc"
     ]
   },
   {
@@ -2444,41 +2844,41 @@
     ]
   },
   {
-    "id": "annulith",
-    "name": "灭碑石",
-    "nameEn": "Annulith",
+    "id": "warp-piece",
+    "name": "跃迁碎片",
+    "nameEn": "Warp Piece",
     "type": "material",
-    "url": "/zh/materials/annulith",
+    "url": "/zh/materials/warp-piece",
     "tags": [
       "currency"
     ]
   },
   {
-    "id": "annulith",
-    "name": "Annulith",
-    "nameEn": "Annulith",
+    "id": "warp-piece",
+    "name": "Warp Piece",
+    "nameEn": "Warp Piece",
     "type": "material",
-    "url": "/en/materials/annulith",
+    "url": "/en/materials/warp-piece",
     "tags": [
       "currency"
     ]
   },
   {
-    "id": "fon",
-    "name": "芬",
-    "nameEn": "Fon",
+    "id": "lost-piece",
+    "name": "Lost Piece",
+    "nameEn": "Lost Piece",
     "type": "material",
-    "url": "/zh/materials/fon",
+    "url": "/zh/materials/lost-piece",
     "tags": [
       "currency"
     ]
   },
   {
-    "id": "fon",
-    "name": "Fon",
-    "nameEn": "Fon",
+    "id": "lost-piece",
+    "name": "Lost Piece",
+    "nameEn": "Lost Piece",
     "type": "material",
-    "url": "/en/materials/fon",
+    "url": "/en/materials/lost-piece",
     "tags": [
       "currency"
     ]
@@ -2504,21 +2904,61 @@
     ]
   },
   {
-    "id": "warp-pieces",
-    "name": "跃迁碎片",
-    "nameEn": "Warp Pieces",
+    "id": "fons",
+    "name": "芬",
+    "nameEn": "Fons",
     "type": "material",
-    "url": "/zh/materials/warp-pieces",
+    "url": "/zh/materials/fons",
     "tags": [
       "currency"
     ]
   },
   {
-    "id": "warp-pieces",
-    "name": "Warp Pieces",
-    "nameEn": "Warp Pieces",
+    "id": "fons",
+    "name": "Fons",
+    "nameEn": "Fons",
     "type": "material",
-    "url": "/en/materials/warp-pieces",
+    "url": "/en/materials/fons",
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "beetle-coin",
+    "name": "甲虫币",
+    "nameEn": "Beetle Coin",
+    "type": "material",
+    "url": "/zh/materials/beetle-coin",
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "beetle-coin",
+    "name": "Beetle Coin",
+    "nameEn": "Beetle Coin",
+    "type": "material",
+    "url": "/en/materials/beetle-coin",
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "annulith",
+    "name": "灭碑石",
+    "nameEn": "Annulith",
+    "type": "material",
+    "url": "/zh/materials/annulith",
+    "tags": [
+      "currency"
+    ]
+  },
+  {
+    "id": "annulith",
+    "name": "Annulith",
+    "nameEn": "Annulith",
+    "type": "material",
+    "url": "/en/materials/annulith",
     "tags": [
       "currency"
     ]

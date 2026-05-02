@@ -54,7 +54,7 @@ describe("getAllMaterials", () => {
 
 describe("getMaterial", () => {
   it("returns material by id", () => {
-    const mat = getMaterial("basic-hunter-guide");
+    const mat = getMaterial("rising-hunter-guide");
     expect(mat).toBeDefined();
     expect(mat!.name).toContain("猎手");
   });
@@ -66,7 +66,7 @@ describe("getMaterial", () => {
 
 describe("getMaterialById", () => {
   it("finds material by id", () => {
-    const mat = getMaterialById("credits");
+    const mat = getMaterialById("fons");
     expect(mat).toBeDefined();
     expect(mat!.type).toBe("currency");
   });
@@ -88,7 +88,7 @@ describe("getCharacterMaterials", () => {
 
 describe("getCharactersUsingMaterial", () => {
   it("returns characters that use a given material", () => {
-    const chars = getCharactersUsingMaterial("credits");
+    const chars = getCharactersUsingMaterial("fons");
     expect(chars.length).toBeGreaterThan(0);
     expect(chars.every((c) => c.id)).toBe(true);
   });
@@ -104,7 +104,7 @@ describe("calculateMaterials", () => {
     const result = calculateMaterials("adler", 1, 60);
     expect(result.length).toBeGreaterThan(0);
     // Should include resonance chips and credits
-    const hasCredits = result.some((r) => r.materialId === "credits");
+    const hasCredits = result.some((r) => r.materialId === "fons");
     expect(hasCredits).toBe(true);
   });
 

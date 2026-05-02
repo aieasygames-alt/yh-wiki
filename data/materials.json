@@ -1,19 +1,19 @@
 [
   {
-    "id": "basic-hunter-guide",
+    "id": "rising-hunter-guide",
     "name": "基础猎手指南",
-    "nameEn": "Basic Hunter Guide",
+    "nameEn": "Rising Hunter Guide",
     "type": "guide",
     "rarity": 1,
-    "source": "日常副本、主线任务奖励"
+    "source": "Houdinii的魔术舞台、猎手交易所、世界探索"
   },
   {
-    "id": "advanced-hunter-guide",
+    "id": "senior-hunter-guide",
     "name": "进阶猎手指南",
-    "nameEn": "Advanced Hunter Guide",
+    "nameEn": "Senior Hunter Guide",
     "type": "guide",
     "rarity": 2,
-    "source": "精英副本、活动奖励"
+    "source": "材料选择箱、Houdinii的魔术舞台、猎手交易所、世界探索"
   },
   {
     "id": "elite-hunter-guide",
@@ -21,215 +21,375 @@
     "nameEn": "Elite Hunter Guide",
     "type": "guide",
     "rarity": 3,
-    "source": "高难度副本、周常任务"
+    "source": "材料选择箱、Houdinii的魔术舞台、猎手交易所、世界探索"
   },
   {
-    "id": "cosmos-spark",
-    "name": "宇宙火花",
-    "nameEn": "Cosmos Spark",
-    "type": "drop",
-    "rarity": 2,
-    "source": "宇宙属性副本掉落"
-  },
-  {
-    "id": "cosmos-storm",
-    "name": "宇宙风暴",
-    "nameEn": "Cosmos Storm",
-    "type": "drop",
-    "rarity": 3,
-    "source": "宇宙属性精英副本掉落"
-  },
-  {
-    "id": "anima-fragment",
-    "name": "生命碎片",
-    "nameEn": "Anima Fragment",
-    "type": "drop",
-    "rarity": 2,
-    "source": "生命属性副本掉落"
-  },
-  {
-    "id": "anima-crystal",
-    "name": "生命结晶",
-    "nameEn": "Anima Crystal",
-    "type": "drop",
-    "rarity": 3,
-    "source": "生命属性精英副本掉落"
-  },
-  {
-    "id": "incantation-shard",
-    "name": "咒术碎片",
-    "nameEn": "Incantation Shard",
-    "type": "drop",
-    "rarity": 2,
-    "source": "咒术属性副本掉落"
-  },
-  {
-    "id": "incantation-crystal",
-    "name": "咒术结晶",
-    "nameEn": "Incantation Crystal",
-    "type": "drop",
-    "rarity": 3,
-    "source": "咒术属性精英副本掉落"
-  },
-  {
-    "id": "chaos-essence",
-    "name": "混沌精华",
-    "nameEn": "Chaos Essence",
-    "type": "drop",
-    "rarity": 2,
-    "source": "混沌属性副本掉落"
-  },
-  {
-    "id": "chaos-core",
-    "name": "混沌核心",
-    "nameEn": "Chaos Core",
-    "type": "drop",
-    "rarity": 3,
-    "source": "混沌属性精英副本掉落"
-  },
-  {
-    "id": "psyche-essence",
-    "name": "灵魂精华",
-    "nameEn": "Psyche Essence",
-    "type": "drop",
-    "rarity": 2,
-    "source": "灵魂属性副本掉落"
-  },
-  {
-    "id": "psyche-fragment",
-    "name": "灵魂碎片",
-    "nameEn": "Psyche Fragment",
-    "type": "drop",
-    "rarity": 3,
-    "source": "灵魂属性精英副本掉落"
-  },
-  {
-    "id": "lakshana-dust",
-    "name": "相尘",
-    "nameEn": "Lakshana Dust",
-    "type": "drop",
-    "rarity": 2,
-    "source": "相属性副本掉落"
-  },
-  {
-    "id": "lakshana-signet",
-    "name": "相印",
-    "nameEn": "Lakshana Signet",
-    "type": "drop",
-    "rarity": 3,
-    "source": "相属性精英副本掉落"
-  },
-  {
-    "id": "boss-cosmos",
-    "name": "宇宙之主",
-    "nameEn": "Cosmos Sovereign",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常 Boss 副本掉落"
-  },
-  {
-    "id": "boss-anima",
-    "name": "生命守护者",
-    "nameEn": "Anima Guardian",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常 Boss 副本掉落"
-  },
-  {
-    "id": "boss-incantation",
-    "name": "咒典之心",
-    "nameEn": "Incantation Heart",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常 Boss 副本掉落"
-  },
-  {
-    "id": "boss-chaos",
-    "name": "混沌之核",
-    "nameEn": "Chaos Core",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常 Boss 副本掉落"
-  },
-  {
-    "id": "boss-psyche",
-    "name": "灵魂巨人",
-    "nameEn": "Psyche Titan",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常 Boss 副本掉落"
-  },
-  {
-    "id": "boss-lakshana",
-    "name": "相之理",
-    "nameEn": "Lakshana Principle",
-    "type": "domain",
-    "rarity": 4,
-    "source": "周常 Boss 副本掉落"
-  },
-  {
-    "id": "pioneer-permit",
-    "name": "先锋许可",
-    "nameEn": "Pioneer Permit",
-    "type": "permit",
-    "rarity": 2,
-    "source": "悬赏任务、活动兑换"
-  },
-  {
-    "id": "expert-permit",
-    "name": "专家许可",
-    "nameEn": "Expert Permit",
-    "type": "permit",
-    "rarity": 3,
-    "source": "高难度悬赏、活动兑换"
-  },
-  {
-    "id": "master-permit",
-    "name": "大师许可",
-    "nameEn": "Master Permit",
-    "type": "permit",
-    "rarity": 4,
-    "source": "极限挑战、限时活动"
-  },
-  {
-    "id": "manual-attack",
-    "name": "攻击教材",
-    "nameEn": "Attack Manual",
-    "type": "manual",
-    "rarity": 2,
-    "source": "悬赏委托、商店兑换"
-  },
-  {
-    "id": "manual-defense",
-    "name": "防御教材",
-    "nameEn": "Defense Manual",
-    "type": "manual",
-    "rarity": 2,
-    "source": "悬赏委托、商店兑换"
-  },
-  {
-    "id": "manual-support",
-    "name": "辅助教材",
-    "nameEn": "Support Manual",
-    "type": "manual",
-    "rarity": 2,
-    "source": "悬赏委托、商店兑换"
-  },
-  {
-    "id": "credits",
-    "name": "信用点",
-    "nameEn": "Credits",
-    "type": "currency",
+    "id": "light-dye",
+    "name": "Light Dye",
+    "nameEn": "Light Dye",
+    "type": "arc-exp",
     "rarity": 1,
-    "source": "日常任务、副本掉落、活动奖励"
+    "source": "Houdinii的魔术舞台、猎手交易所、世界探索"
   },
   {
-    "id": "beetle-coins",
-    "name": "甲虫币",
-    "nameEn": "Beetle Coins",
-    "type": "currency",
+    "id": "colorless-dye",
+    "name": "Colorless Dye",
+    "nameEn": "Colorless Dye",
+    "type": "arc-exp",
+    "rarity": 2,
+    "source": "Houdinii的魔术舞台、猎手交易所、世界探索"
+  },
+  {
+    "id": "chaotic-dye",
+    "name": "Chaotic Dye",
+    "nameEn": "Chaotic Dye",
+    "type": "arc-exp",
+    "rarity": 3,
+    "source": "材料选择箱、Houdinii的魔术舞台、猎手交易所、世界探索"
+  },
+  {
+    "id": "manhole-thug",
+    "name": "Manhole Thug",
+    "nameEn": "Manhole Thug",
+    "type": "module-exp",
     "rarity": 1,
-    "source": "日常交易"
+    "source": "兔子洞"
+  },
+  {
+    "id": "manhole-crook",
+    "name": "Manhole Crook",
+    "nameEn": "Manhole Crook",
+    "type": "module-exp",
+    "rarity": 2,
+    "source": "材料选择箱、兔子洞"
+  },
+  {
+    "id": "manhole-boss",
+    "name": "Manhole Boss",
+    "nameEn": "Manhole Boss",
+    "type": "module-exp",
+    "rarity": 3,
+    "source": "材料选择箱、兔子洞"
+  },
+  {
+    "id": "lost-whispers",
+    "name": "Lost Whispers",
+    "nameEn": "Lost Whispers",
+    "type": "ascension",
+    "rarity": 1,
+    "source": "材料选择箱、异常体掉落、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "obscure-whispers",
+    "name": "Obscure Whispers",
+    "nameEn": "Obscure Whispers",
+    "type": "ascension",
+    "rarity": 2,
+    "source": "异常体掉落、合成、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "paradoxical-whispers",
+    "name": "Paradoxical Whispers",
+    "nameEn": "Paradoxical Whispers",
+    "type": "ascension",
+    "rarity": 3,
+    "source": "异常体掉落、合成、猎手交易所"
+  },
+  {
+    "id": "fading-silhouette",
+    "name": "Fading Silhouette",
+    "nameEn": "Fading Silhouette",
+    "type": "ascension",
+    "rarity": 1,
+    "source": "材料选择箱、异常体掉落、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "blurred-silhouette",
+    "name": "Blurred Silhouette",
+    "nameEn": "Blurred Silhouette",
+    "type": "ascension",
+    "rarity": 2,
+    "source": "异常体掉落、合成、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "chaos-silhouette",
+    "name": "Chaos Silhouette",
+    "nameEn": "Chaos Silhouette",
+    "type": "ascension",
+    "rarity": 3,
+    "source": "异常体掉落、合成、猎手交易所"
+  },
+  {
+    "id": "blurred-numeral",
+    "name": "Blurred Numeral",
+    "nameEn": "Blurred Numeral",
+    "type": "ascension",
+    "rarity": 1,
+    "source": "材料选择箱、异常体掉落、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "unsolved-numeral",
+    "name": "Unsolved Numeral",
+    "nameEn": "Unsolved Numeral",
+    "type": "ascension",
+    "rarity": 2,
+    "source": "异常体掉落、合成、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "distorted-numeral",
+    "name": "Distorted Numeral",
+    "nameEn": "Distorted Numeral",
+    "type": "ascension",
+    "rarity": 3,
+    "source": "异常体掉落、合成、猎手交易所"
+  },
+  {
+    "id": "suspended-delusions",
+    "name": "Suspended Delusions",
+    "nameEn": "Suspended Delusions",
+    "type": "ascension",
+    "rarity": 1,
+    "source": "材料选择箱、异常体掉落、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "yearning-delusions",
+    "name": "Yearning Delusions",
+    "nameEn": "Yearning Delusions",
+    "type": "ascension",
+    "rarity": 2,
+    "source": "异常体掉落、合成、猎手交易所、遗失交易所"
+  },
+  {
+    "id": "transcendent-delusions",
+    "name": "Transcendent Delusions",
+    "nameEn": "Transcendent Delusions",
+    "type": "ascension",
+    "rarity": 3,
+    "source": "异常体掉落、合成、猎手交易所"
+  },
+  {
+    "id": "confessional-flower-seed",
+    "name": "Confessional Flower Seed",
+    "nameEn": "Confessional Flower Seed",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Serenetti」"
+  },
+  {
+    "id": "charging-knight-spark-plug",
+    "name": "Charging Knight Spark Plug",
+    "nameEn": "Charging Knight Spark Plug",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Headless Rider」"
+  },
+  {
+    "id": "page-from-delusions-shore",
+    "name": "A Page from Delusion's Shore",
+    "nameEn": "A Page from Delusion's Shore",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Black Tome」"
+  },
+  {
+    "id": "water-moon-pick",
+    "name": "Water Moon Pick",
+    "nameEn": "Water Moon Pick",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Beat King」"
+  },
+  {
+    "id": "nest-guard-fragment",
+    "name": "Nest Guard Fragment",
+    "nameEn": "Nest Guard Fragment",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Nestbound Bird」"
+  },
+  {
+    "id": "colorful-ticket-stub",
+    "name": "Colorful Ticket Stub",
+    "nameEn": "Colorful Ticket Stub",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Swallowtail」"
+  },
+  {
+    "id": "tear-of-the-sea",
+    "name": "Tear of the Sea",
+    "nameEn": "Tear of the Sea",
+    "type": "boss",
+    "rarity": 4,
+    "source": "材料选择箱、异常体讨伐「Sea Prisoner」"
+  },
+  {
+    "id": "good-boy-stamp",
+    "name": "Good Boy Stamp",
+    "nameEn": "Good Boy Stamp",
+    "type": "esper",
+    "rarity": 3,
+    "source": "异常体朝圣「Morphix」"
+  },
+  {
+    "id": "the-good-boy",
+    "name": "The Good Boy's Fluff",
+    "nameEn": "The Good Boy's Fluff",
+    "type": "esper",
+    "rarity": 4,
+    "source": "异常体朝圣「Morphix」"
+  },
+  {
+    "id": "dandelion",
+    "name": "Dandelion's Pass",
+    "nameEn": "Dandelion's Pass",
+    "type": "esper",
+    "rarity": 5,
+    "source": "异常体朝圣「Morphix」"
+  },
+  {
+    "id": "dress-sleeves-of-vanity",
+    "name": "Dress Sleeves of Vanity",
+    "nameEn": "Dress Sleeves of Vanity",
+    "type": "esper",
+    "rarity": 3,
+    "source": "异常体朝圣「The Never-ending Arachne」"
+  },
+  {
+    "id": "crown-called-nobility",
+    "name": "Crown Called Nobility",
+    "nameEn": "Crown Called Nobility",
+    "type": "esper",
+    "rarity": 4,
+    "source": "异常体朝圣「The Never-ending Arachne」"
+  },
+  {
+    "id": "scepter-called-prestige",
+    "name": "Scepter Called Prestige",
+    "nameEn": "Scepter Called Prestige",
+    "type": "esper",
+    "rarity": 5,
+    "source": "异常体朝圣「The Never-ending Arachne」"
+  },
+  {
+    "id": "iron-appleseed",
+    "name": "Iron Appleseed",
+    "nameEn": "Iron Appleseed",
+    "type": "arc",
+    "rarity": 1,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所"
+  },
+  {
+    "id": "silver-appleseed",
+    "name": "Silver Appleseed",
+    "nameEn": "Silver Appleseed",
+    "type": "arc",
+    "rarity": 2,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "golden-appleseed",
+    "name": "Golden Appleseed",
+    "nameEn": "Golden Appleseed",
+    "type": "arc",
+    "rarity": 3,
+    "source": "气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "beaty",
+    "name": "Beaty",
+    "nameEn": "Beaty",
+    "type": "arc",
+    "rarity": 1,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所"
+  },
+  {
+    "id": "versey",
+    "name": "Versey",
+    "nameEn": "Versey",
+    "type": "arc",
+    "rarity": 2,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "nameEn": "Harmony",
+    "type": "arc",
+    "rarity": 3,
+    "source": "气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "liquid-dream-trial-kit",
+    "name": "Liquid Dream Trial Kit",
+    "nameEn": "Liquid Dream Trial Kit",
+    "type": "arc",
+    "rarity": 1,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所"
+  },
+  {
+    "id": "liquid-dream-travel-kit",
+    "name": "Liquid Dream Travel Kit",
+    "nameEn": "Liquid Dream Travel Kit",
+    "type": "arc",
+    "rarity": 2,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "liquid-dream-can",
+    "name": "Liquid Dream Can",
+    "nameEn": "Liquid Dream Can",
+    "type": "arc",
+    "rarity": 3,
+    "source": "气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "flavorless-cold-dessert",
+    "name": "Flavorless Cold Dessert",
+    "nameEn": "Flavorless Cold Dessert",
+    "type": "arc",
+    "rarity": 1,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所"
+  },
+  {
+    "id": "plain-cold-dessert",
+    "name": "Plain Cold Dessert",
+    "nameEn": "Plain Cold Dessert",
+    "type": "arc",
+    "rarity": 2,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "special-cold-dessert",
+    "name": "Special Cold Dessert",
+    "nameEn": "Special Cold Dessert",
+    "type": "arc",
+    "rarity": 3,
+    "source": "气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "beginner-drama-core",
+    "name": "Beginner Drama Core",
+    "nameEn": "Beginner Drama Core",
+    "type": "arc",
+    "rarity": 1,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所"
+  },
+  {
+    "id": "master-drama-core",
+    "name": "Master Drama Core",
+    "nameEn": "Master Drama Core",
+    "type": "arc",
+    "rarity": 2,
+    "source": "材料选择箱、气泡罐工厂、猎手交易所、合成"
+  },
+  {
+    "id": "collectors-drama-core",
+    "name": "Collector's Drama Core",
+    "nameEn": "Collector's Drama Core",
+    "type": "arc",
+    "rarity": 3,
+    "source": "气泡罐工厂、猎手交易所、合成"
   },
   {
     "id": "fabricated-dice",
@@ -237,7 +397,7 @@
     "nameEn": "Fabricated Dice",
     "type": "currency",
     "rarity": 2,
-    "source": "抽卡用货币"
+    "source": "跃迁交易所、灭碑石加工、活动奖励"
   },
   {
     "id": "solid-dice",
@@ -245,23 +405,23 @@
     "nameEn": "Solid Dice",
     "type": "currency",
     "rarity": 3,
-    "source": "高级抽卡用货币"
+    "source": "跃迁交易所、灭碑石加工、活动奖励"
   },
   {
-    "id": "annulith",
-    "name": "灭碑石",
-    "nameEn": "Annulith",
+    "id": "warp-piece",
+    "name": "跃迁碎片",
+    "nameEn": "Warp Piece",
     "type": "currency",
-    "rarity": 4,
-    "source": "育成相关"
+    "rarity": 3,
+    "source": "Scarborough Fair活动"
   },
   {
-    "id": "fon",
-    "name": "芬",
-    "nameEn": "Fon",
+    "id": "lost-piece",
+    "name": "Lost Piece",
+    "nameEn": "Lost Piece",
     "type": "currency",
-    "rarity": 2,
-    "source": "抽卡用货币"
+    "rarity": 3,
+    "source": "Scarborough Fair活动"
   },
   {
     "id": "tri-key",
@@ -269,14 +429,30 @@
     "nameEn": "Tri-Key",
     "type": "currency",
     "rarity": 4,
-    "source": "S 级弧光武器购买（25 Tri-Key/把）"
+    "source": "灭碑石加工、猎手交易所、活动奖励"
   },
   {
-    "id": "warp-pieces",
-    "name": "跃迁碎片",
-    "nameEn": "Warp Pieces",
+    "id": "fons",
+    "name": "芬",
+    "nameEn": "Fons",
     "type": "currency",
-    "rarity": 3,
-    "source": "重复角色转换"
+    "rarity": 2,
+    "source": "Hethereau城通用货币"
+  },
+  {
+    "id": "beetle-coin",
+    "name": "甲虫币",
+    "nameEn": "Beetle Coin",
+    "type": "currency",
+    "rarity": 1,
+    "source": "材料选择箱、Houdinii的魔术舞台、猎手交易所、世界探索"
+  },
+  {
+    "id": "annulith",
+    "name": "灭碑石",
+    "nameEn": "Annulith",
+    "type": "currency",
+    "rarity": 5,
+    "source": "充值、任务奖励"
   }
 ]

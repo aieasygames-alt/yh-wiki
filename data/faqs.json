@@ -14,8 +14,8 @@
     "categoryEn": "Leveling",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "basic-hunter-guide",
-      "advanced-hunter-guide",
+      "rising-hunter-guide",
+      "senior-hunter-guide",
       "elite-hunter-guide"
     ]
   },
@@ -34,9 +34,9 @@
     "categoryEn": "Materials",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "pioneer-permit",
-      "expert-permit",
-      "master-permit"
+      "iron-appleseed",
+      "silver-appleseed",
+      "golden-appleseed"
     ]
   },
   {
@@ -54,7 +54,7 @@
     "categoryEn": "Currency",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits"
+      "fons"
     ]
   },
   {
@@ -162,8 +162,8 @@
     "categoryEn": "Leveling",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits",
-      "basic-hunter-guide"
+      "fons",
+      "rising-hunter-guide"
     ]
   },
   {
@@ -195,7 +195,7 @@
     "categoryEn": "Materials",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "manual-attack"
+      "fabricated-dice"
     ]
   },
   {
@@ -214,9 +214,9 @@
       "nanally"
     ],
     "relatedMaterials": [
-      "anima-fragment",
-      "anima-crystal",
-      "boss-anima"
+      "fading-silhouette",
+      "blurred-silhouette",
+      "charging-knight-spark-plug"
     ],
     "seoTitleEn": "Is Nanally Worth Building in NTE? Best DPS Guide & Build Tips (2026)"
   },
@@ -251,9 +251,9 @@
     "categoryEn": "Materials",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "pioneer-permit",
-      "expert-permit",
-      "master-permit"
+      "iron-appleseed",
+      "silver-appleseed",
+      "golden-appleseed"
     ]
   },
   {
@@ -340,7 +340,7 @@
     "categoryEn": "Materials",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "boss-anima"
+      "charging-knight-spark-plug"
     ]
   },
   {
@@ -439,8 +439,8 @@
     "categoryEn": "Release",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits",
-      "basic-hunter-guide"
+      "fons",
+      "rising-hunter-guide"
     ]
   },
   {
@@ -495,7 +495,7 @@
     "categoryEn": "Gacha",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits"
+      "fons"
     ]
   },
   {
@@ -648,7 +648,7 @@
     "categoryEn": "System",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits"
+      "fons"
     ]
   },
   {
@@ -725,7 +725,7 @@
     "categoryEn": "Currency",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits"
+      "fons"
     ]
   },
   {
@@ -746,8 +746,8 @@
       "sakiri"
     ],
     "relatedMaterials": [
-      "basic-hunter-guide",
-      "credits"
+      "rising-hunter-guide",
+      "fons"
     ]
   },
   {
@@ -1055,7 +1055,7 @@
     "categoryEn": "Gacha",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits"
+      "fons"
     ],
     "seoTitleZh": "异环Fons（环石）是什么？抽卡货币获取与使用指南",
     "seoTitleEn": "What is Fons in NTE? Gacha Currency Guide — How to Get & Use Ring Stones",
@@ -1190,7 +1190,7 @@
     "categoryEn": "Currency",
     "relatedCharacters": [],
     "relatedMaterials": [
-      "credits"
+      "fons"
     ]
   },
   {
@@ -1714,7 +1714,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "stamina-potion",
-      "basic-hunter-guide",
+      "rising-hunter-guide",
       "permit"
     ]
   },

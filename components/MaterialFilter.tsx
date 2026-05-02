@@ -6,33 +6,38 @@ import type { Material } from "../lib/queries";
 import type { Locale } from "../lib/i18n";
 import { isZhLocale } from "../lib/i18n";
 
-const TYPES_ZH = ["drop", "domain", "permit", "manual", "currency", "guide"];
-const TYPES_EN = ["drop", "domain", "permit", "manual", "currency", "guide"];
+const TYPES = ["guide", "ascension", "boss", "esper", "arc", "arc-exp", "module-exp", "currency"];
 
 const TYPE_LABELS: Record<Locale, Record<string, string>> = {
   zh: {
-    drop: "掉落物",
-    domain: "领域材料",
-    permit: "许可证明",
-    manual: "教材",
+    guide: "猎手指南",
+    ascension: "角色突破",
+    boss: "Boss掉落",
+    esper: "异能材料",
+    arc: "弧光突破",
+    "arc-exp": "弧光经验",
+    "module-exp": "模组经验",
     currency: "货币",
-    guide: "教材",
   },
   tw: {
-    drop: "掉落物",
-    domain: "领域材料",
-    permit: "许可证明",
-    manual: "教材",
-    currency: "货币",
-    guide: "教材",
+    guide: "獵手指南",
+    ascension: "角色突破",
+    boss: "Boss掉落",
+    esper: "異能材料",
+    arc: "弧光突破",
+    "arc-exp": "弧光經驗",
+    "module-exp": "模組經驗",
+    currency: "貨幣",
   },
   en: {
-    drop: "Drop",
-    domain: "Domain",
-    permit: "Permit",
-    manual: "Manual",
-    currency: "Currency",
     guide: "Guide",
+    ascension: "Ascension",
+    boss: "Boss Drop",
+    esper: "Esper",
+    arc: "Arc Ascension",
+    "arc-exp": "Arc EXP",
+    "module-exp": "Module EXP",
+    currency: "Currency",
   },
 };
 
@@ -69,7 +74,7 @@ export function MaterialFilter({ materials, locale, lang }: MaterialFilterProps)
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
           <option value="">{isZhLocale(locale) ? "全部类型" : "All Types"}</option>
-          {TYPES_ZH.map((t) => (
+          {TYPES.map((t) => (
             <option key={t} value={t}>{TYPE_LABELS[locale][t] || t}</option>
           ))}
         </select>
