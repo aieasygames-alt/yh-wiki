@@ -49,7 +49,7 @@ interface MaterialFilterProps {
   lang: string;
 }
 
-export function MaterialFilter({ materials, locale, lang }: MaterialFilterProps) {
+export function MaterialFilter({ materials, locale }: MaterialFilterProps) {
   const [type, setType] = useState<string>("");
   const [rarity, setRarity] = useState<string>("");
 

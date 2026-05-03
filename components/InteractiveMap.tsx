@@ -84,7 +84,7 @@ export default function InteractiveMap({
       spiderfyOnMaxZoom: true,
       showCoverageOnHover: false,
       zoomToBoundsOnClick: true,
-      iconCreateFunction: new Function("cluster", "return (" + CLUSTER_ICON_CREATE + ")(cluster)") as any,
+      iconCreateFunction: new Function("cluster", "return (" + CLUSTER_ICON_CREATE + ")(cluster)") as (cluster: L.MarkerCluster) => L.Icon | L.DivIcon,
     });
 
     clusterGroup.addTo(leafletMap);

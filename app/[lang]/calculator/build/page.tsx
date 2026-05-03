@@ -271,7 +271,7 @@ export default function BuildCalculatorPage() {
                         <span className="text-lg">{weapon.name[0]}</span>
                         <div className="min-w-0">
                           <p className="text-sm font-medium truncate">{isZhLocale(lang) ? weapon.name : weapon.nameEn}</p>
-                          <p className="text-xs text-gray-500">{isZhLocale(lang) ? weapon.type : weapon.typeEn}</p>
+                          <p className="text-xs text-gray-500">{weapon.type}</p>
                         </div>
                       </Link>
                     ) : null;

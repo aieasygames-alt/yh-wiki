@@ -1,5 +1,8 @@
 import L from "leaflet";
 
+// Re-export ProgressMap from map-progress for convenience
+export type { ProgressMap } from "./map-progress";
+
 // ─── Marker Types ───────────────────────────────────────────────
 
 export type RespawnType = "once" | "daily" | "weekly";

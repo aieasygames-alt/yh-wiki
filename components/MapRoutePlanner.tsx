@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import type { MapMarker, MarkerTypeInfo } from "../lib/map-utils";
 import { isZhLocale, Locale } from "../lib/i18n";
 
@@ -48,8 +48,6 @@ export default function MapRoutePlanner({
   onRouteChange,
   lang,
 }: MapRoutePlannerProps) {
-  const [isAdding, setIsAdding] = useState(false);
-
   const routeMarkers = useMemo(
     () => routeMarkerIds.map((id) => markers.find((m) => m.id === id)!).filter(Boolean),
     [routeMarkerIds, markers]

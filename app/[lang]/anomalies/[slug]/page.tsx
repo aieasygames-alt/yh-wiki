@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
@@ -88,7 +87,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           <h2 className="text-lg font-bold mb-3">{isZhLocale(locale) ? "基本信息" : "Quick Stats"}</h2>
           <table className="w-full text-sm">
             <tbody>
-              <InfoRow label={isZhLocale(locale) ? "类型" : "Type"} typeLabel />
+              <InfoRow label={isZhLocale(locale) ? "类型" : "Type"} value={typeLabel} />
               <InfoRow label={isZhLocale(locale) ? "分类" : "Category"} value={isZhLocale(locale) ? anomaly.categoryZh : anomaly.category} />
               <InfoRow label={isZhLocale(locale) ? "属性" : "Attribute"} value={isZhLocale(locale) ? anomaly.attribute : anomaly.attributeEn} />
               {anomaly.hp && <InfoRow label="HP" value={anomaly.hp} />}

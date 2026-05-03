@@ -107,7 +107,7 @@ describe("getMessages", () => {
   });
 
   it("falls back to zh for unknown locale", () => {
-    const msgs = getMessages("fr" as any);
+    const msgs = getMessages("fr" as unknown as "zh" | "tw" | "en");
     expect(msgs).toBeDefined();
   });
 });

@@ -86,7 +86,7 @@ export function loadFilters(): string[] | null {
 export function saveFilters(filters: Set<string>): void {
   if (typeof window === "undefined") return;
   try {
-    localStorage.setItem(FILTER_KEY, JSON.stringify([...filters]));
+    localStorage.setItem(FILTER_KEY, JSON.stringify(Array.from(filters)));
   } catch {
     // ignore
   }

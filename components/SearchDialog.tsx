@@ -123,7 +123,7 @@ export function SearchDialog({ lang }: { lang: string }) {
 
   const handleSelect = useCallback(
     (item: SearchItem) => {
-      trackEvent({ event: "search_select", label: item.title, category: "search" });
+      trackEvent({ event: "search_select", label: item.name, category: "search" });
       const url = item.url.replace("{lang}", lang);
       router.push(url);
       setOpen(false);

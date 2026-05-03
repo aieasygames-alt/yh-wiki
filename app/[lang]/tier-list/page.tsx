@@ -4,7 +4,6 @@ import { getAllCharacters } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { GameImage } from "../../../components/GameImage";
-import { TierBadge } from "../../../components/TierBadge";
 import { GiscusComments } from "../../../components/GiscusComments";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
 

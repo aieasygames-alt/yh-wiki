@@ -60,6 +60,7 @@ describe("CharacterSchema", () => {
   });
 
   it("allows optional fields to be omitted", () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { faction, description, ...minimal } = validCharacter;
     expect(CharacterSchema.parse(minimal)).toEqual(minimal);
   });

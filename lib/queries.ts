@@ -13,6 +13,7 @@ import vehiclesData from "../data/vehicles.json";
 import diskSetsData from "../data/disk-sets.json";
 import anomaliesData from "../data/anomalies.json";
 import { isZhLocale, Locale } from "./i18n";
+import { validateData, CharactersArraySchema, WeaponsArraySchema, MaterialsArraySchema, CharacterMaterialsArraySchema } from "./schemas";
 
 export interface FaqItem {
   question: string;
@@ -62,6 +63,7 @@ export interface TeamComp {
 export interface Character {
   id: string;
   name: string;
+  nameTw?: string;
   nameEn: string;
   attribute: string;
   rank: string;
@@ -72,9 +74,12 @@ export interface Character {
   faction?: string;
   description?: string;
   descriptionEn?: string;
+  status?: string;
+  image?: string;
   cvZh?: string;
   cvJp?: string;
   cvJpEn?: string;
+  cvEn?: string;
   faq?: FaqItem[];
   relatedCharacters?: string[];
   tierRank?: string;
@@ -83,6 +88,14 @@ export interface Character {
   skills?: Skills;
   recommendedBuild?: RecommendedBuild;
   teamComps?: TeamComp[];
+  arcType?: string;
+  trait?: string;
+  signatureArc?: string;
+  acquisitionMethod?: string;
+  availableAtLaunch?: boolean;
+  awakenReq?: string;
+  rarity?: string;
+  title?: string;
 }
 
 export interface Material {
@@ -110,8 +123,13 @@ export interface CharacterMaterial {
   skillMaterials: MaterialEntry[];
 }
 
+const validatedCharacters = validateData("characters", charactersData, CharactersArraySchema);
+const validatedWeapons = validateData("weapons", weaponsData, WeaponsArraySchema);
+const validatedMaterials = validateData("materials", materialsData, MaterialsArraySchema);
+const validatedCharacterMaterials = validateData("character-materials", characterMaterialsData, CharacterMaterialsArraySchema);
+
 export function getAllCharacters(): Character[] {
-  return charactersData as Character[];
+  return validatedCharacters as unknown as Character[];
 }
 
 export function getCharacter(slug: string): Character | undefined {
@@ -119,7 +137,7 @@ export function getCharacter(slug: string): Character | undefined {
 }
 
 export function getAllMaterials(): Material[] {
-  return materialsData as Material[];
+  return validatedMaterials as Material[];
 }
 
 export function getMaterial(slug: string): Material | undefined {
@@ -127,7 +145,7 @@ export function getMaterial(slug: string): Material | undefined {
 }
 
 export function getCharacterMaterials(characterId: string): CharacterMaterial | undefined {
-  return (characterMaterialsData as CharacterMaterial[]).find(
+  return validatedCharacterMaterials.find(
     (cm) => cm.characterId === characterId
   );
 }
@@ -137,7 +155,7 @@ export function getMaterialById(id: string): Material | undefined {
 }
 
 export function getCharactersUsingMaterial(materialId: string): Character[] {
-  const ids = (characterMaterialsData as CharacterMaterial[])
+  const ids = validatedCharacterMaterials
     .filter(
       (cm) =>
         cm.levelingMaterials.some((lr) =>
@@ -248,7 +266,7 @@ export interface Weapon {
 }
 
 export function getAllWeapons(): Weapon[] {
-  return weaponsData as Weapon[];
+  return validatedWeapons as Weapon[];
 }
 
 export function getWeapon(slug: string): Weapon | undefined {
@@ -269,7 +287,7 @@ export function getCharactersUsingWeapon(weaponId: string): Character[] {
 
   // Add other characters with matching arc type
   chars.forEach(c => {
-    if ((c as any).arcType === weapon.type && c.id !== weapon.signatureCharacter) {
+    if (c.arcType === weapon.type && c.id !== weapon.signatureCharacter) {
       result.push(c);
     }
   });
@@ -287,8 +305,8 @@ export function getWeaponsByRank(rank: string): Weapon[] {
 
 export function getWeaponsForCharacter(characterId: string): Weapon[] {
   const char = getCharacter(characterId);
-  if (!char || !(char as any).arcType) return [];
-  return getAllWeapons().filter(w => w.type === (char as any).arcType);
+  if (!char || !char.arcType) return [];
+  return getAllWeapons().filter(w => w.type === char.arcType);
 }
 
 // Guide types and queries
@@ -506,7 +524,7 @@ interface Changelog {
   versionNameEn: string;
   date: string;
   dateGlobal?: string;
-  type: "major" | "minor" | "fix";
+  type: "major" | "minor" | "fix" | "hotfix";
   highlights?: string[];
   highlightsEn?: string[];
   sections?: ChangelogSection[];
@@ -516,11 +534,11 @@ interface Changelog {
 }
 
 export function getAllChangelogs(): Changelog[] {
-  return changelogsData;
+  return changelogsData as unknown as Changelog[];
 }
 
 export function getChangelogByVersion(version: string): Changelog | undefined {
-  return changelogsData.find((cl) => cl.version === version);
+  return (changelogsData as unknown as Changelog[]).find((cl) => cl.version === version);
 }
 
 // Disk Sets (Cartridges)

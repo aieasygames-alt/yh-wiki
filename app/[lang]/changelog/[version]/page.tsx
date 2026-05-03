@@ -36,7 +36,6 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
   const cl = getChangelogByVersion(version);
   if (!cl) notFound();
 
-  const dateStr = locale === "en" && cl.dateGlobal ? cl.dateGlobal : cl.date;
   const versionName = locale === "en" ? cl.versionNameEn : cl.versionName;
   const highlights = locale === "en" ? cl.highlightsEn : cl.highlights;
 

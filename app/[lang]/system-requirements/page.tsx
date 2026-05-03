@@ -1,10 +1,9 @@
 import { Metadata } from "next";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqSection } from "../../../components/FaqSection";
 import { FaqPageJsonLd } from "../../../components/JsonLd";
 import specsData from "../../../data/system-requirements.json";
-import { getAllFaqs } from "../../../lib/queries";
 
 type SpecValue = { zh: string; en: string };
 type PlatformSpecs = Record<string, SpecValue>;
@@ -42,7 +41,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   };
 }
 
-function SpecTable({ specs, labels, locale }: { specs: PlatformSpecs; labels: Record<string, Record<Locale, string>>; locale: Locale }) {
+function SpecTable({ labels, locale }: { labels: Record<string, Record<Locale, string>>; locale: Locale }) {
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
@@ -63,11 +62,11 @@ function SpecTable({ specs, labels, locale }: { specs: PlatformSpecs; labels: Re
           {Object.entries(labels).map(([key, label]) => {
             const dataKey = isZhLocale(locale) ? "zh" as const : "en" as const;
             const minVal = specsData.pc.minimum[key as keyof typeof specsData.pc.minimum] ||
-                           (specsData as Record<string, Record<string, PlatformSpecs>>).android?.minimum?.[key as string] ||
-                           (specsData as Record<string, Record<string, PlatformSpecs>>).ios?.minimum?.[key as string];
+                           (specsData as unknown as Record<string, Record<string, PlatformSpecs>>).android?.minimum?.[key as string] ||
+                           (specsData as unknown as Record<string, Record<string, PlatformSpecs>>).ios?.minimum?.[key as string];
             const recVal = specsData.pc.recommended[key as keyof typeof specsData.pc.recommended] ||
-                           (specsData as Record<string, Record<string, PlatformSpecs>>).android?.recommended?.[key as string] ||
-                           (specsData as Record<string, Record<string, PlatformSpecs>>).ios?.recommended?.[key as string];
+                           (specsData as unknown as Record<string, Record<string, PlatformSpecs>>).android?.recommended?.[key as string] ||
+                           (specsData as unknown as Record<string, Record<string, PlatformSpecs>>).ios?.recommended?.[key as string];
             return (
               <tr key={key} className="border-b border-gray-800/50">
                 <td className="py-3 px-4 text-gray-300 font-medium">{label[locale]}</td>
@@ -140,7 +139,7 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
           {isZhLocale(locale) ? "PC 配置要求" : "PC Requirements"}
         </h2>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden">
-          <SpecTable specs={specsData.pc.minimum} labels={pcLabels} locale={locale} />
+          <SpecTable labels={pcLabels} locale={locale} />
         </div>
       </section>
 
@@ -151,7 +150,7 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
           {isZhLocale(locale) ? "Android 配置要求" : "Android Requirements"}
         </h2>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden">
-          <SpecTable specs={specsData.android.minimum} labels={androidLabels} locale={locale} />
+          <SpecTable labels={androidLabels} locale={locale} />
         </div>
       </section>
 
@@ -162,7 +161,7 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
           {isZhLocale(locale) ? "iOS 配置要求" : "iOS Requirements"}
         </h2>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden">
-          <SpecTable specs={specsData.ios.minimum} labels={iosLabels} locale={locale} />
+          <SpecTable labels={iosLabels} locale={locale} />
         </div>
       </section>
 

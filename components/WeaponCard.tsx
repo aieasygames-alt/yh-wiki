@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import type { Locale } from "../lib/i18n";
-import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS } from "../lib/attributes";
+import { ARC_TYPE_LABELS, SUBSTAT_LABELS } from "../lib/attributes";
 
 const TYPE_COLORS: Record<string, string> = {
   gas: "bg-teal-500/20 text-teal-400 border-teal-500/30",

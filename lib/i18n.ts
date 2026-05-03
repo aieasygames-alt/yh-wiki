@@ -4,22 +4,36 @@ import tw from "../messages/tw.json";
 
 export type Locale = "zh" | "tw" | "en";
 
-const messages: Record<Locale, Record<string, any>> = { zh, tw, en };
+export const LOCALES: readonly Locale[] = ["zh", "tw", "en"];
 
-export function getMessages(locale: Locale) {
-  return messages[locale] || messages.zh;
+export function isLocale(value: string): value is Locale {
+  return LOCALES.includes(value as Locale);
+}
+
+export function asLocale(value: string): Locale {
+  return isLocale(value) ? value : "zh";
+}
+
+const messages: Record<Locale, Record<string, unknown>> = { zh, tw, en };
+
+export function getMessages(locale: string) {
+  const loc = asLocale(locale);
+  return messages[loc] || messages.zh;
 }
 
 /** Check if locale is a Chinese variant (zh or tw) */
-export function isZhLocale(locale: Locale): boolean {
-  return locale === "zh" || locale === "tw";
+export function isZhLocale(locale: string): boolean {
+  const loc = asLocale(locale);
+  return loc === "zh" || loc === "tw";
 }
 
-export function t(locale: Locale, path: string, ...args: string[]): string {
+export function t(locale: string, path: string, ...args: string[]): string {
+  const loc = asLocale(locale);
   const keys = path.split(".");
-  let result: any = messages[locale] || messages.zh;
+  let result: Record<string, unknown> | string | undefined = messages[loc] || messages.zh;
   for (const key of keys) {
-    result = result?.[key];
+    if (typeof result === "string") return path;
+    result = result?.[key] as Record<string, unknown> | string | undefined;
   }
   if (typeof result !== "string") return path;
   if (args.length > 0) {

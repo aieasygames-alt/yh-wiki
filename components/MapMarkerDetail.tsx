@@ -164,7 +164,6 @@ export default function MapMarkerDetail({
           </p>
           <div className="space-y-1">
             {nearbyMarkers.slice(0, 5).map((nm) => {
-              const nmType = nm.type;
               return (
                 <button
                   key={nm.id}

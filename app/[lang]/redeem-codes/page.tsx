@@ -78,6 +78,22 @@ export default function RedeemCodesPage() {
     });
   }, []);
 
+  const topChars = useMemo(
+    () =>
+      (charactersData as Array<{ id: string; name: string; nameEn: string; attribute: string; tierRank?: string; image?: string }>)
+        .filter((c) => c.tierRank === "SS" || c.tierRank === "S+")
+        .slice(0, 8),
+    []
+  );
+
+  const latestPosts = useMemo(
+    () =>
+      [...(blogData as Array<{ id: string; title: string; titleEn: string; summary: string; summaryEn: string; category: string; categoryEn: string; date: string; tags: string[] }>)]
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, 3),
+    []
+  );
+
   const filteredCodes = codes.filter((c) => {
     if (filter !== "all" && c.status !== filter) return false;
     if (region !== "all" && c.region !== region) return false;
@@ -317,96 +333,76 @@ export default function RedeemCodesPage() {
       </div>
 
       {/* Module B: Top Characters */}
-      {(() => {
-        const topChars = useMemo(
-          () =>
-            (charactersData as Array<{ id: string; name: string; nameEn: string; attribute: string; tierRank?: string; image?: string }>)
-              .filter((c) => c.tierRank === "SS" || c.tierRank === "S+")
-              .slice(0, 8),
-          []
-        );
-        if (topChars.length === 0) return null;
-        return (
-          <div className="mt-12">
-            <h2 className="text-xl font-bold mb-4">{t(lang, "redeemCodes.topCharacters.title")}</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              {topChars.map((c) => (
-                <Link
-                  key={c.id}
-                  href={`/${lang}/characters/${c.id}`}
-                  className="group flex items-center gap-3 rounded-xl border border-gray-800 bg-gray-900/50 p-3 hover:border-primary-500/40 transition-colors"
-                >
-                  {c.image && (
-                    <img
-                      src={c.image}
-                      alt={isZhLocale(lang) ? c.name : c.nameEn}
-                      className="w-10 h-10 rounded-lg object-cover bg-gray-800 shrink-0"
-                    />
-                  )}
-                  <div className="min-w-0">
-                    <p className="text-sm font-medium text-gray-200 truncate group-hover:text-primary-400 transition-colors">
-                      {isZhLocale(lang) ? c.name : c.nameEn}
-                    </p>
-                    <div className="flex items-center gap-1.5 mt-0.5">
-                      <span className={`text-xs px-1.5 py-0.5 rounded ${getAttributeColor(c.attribute)}`}>
-                        {t(lang, `attributes.${c.attribute}` as `attributes.${string}`)}
-                      </span>
-                      <span className="text-xs px-1.5 py-0.5 rounded bg-yellow-500/20 text-yellow-400">
-                        {c.tierRank || "S"}
-                      </span>
-                    </div>
+      {topChars.length > 0 && (
+        <div className="mt-12">
+          <h2 className="text-xl font-bold mb-4">{t(lang, "redeemCodes.topCharacters.title")}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {topChars.map((c) => (
+              <Link
+                key={c.id}
+                href={`/${lang}/characters/${c.id}`}
+                className="group flex items-center gap-3 rounded-xl border border-gray-800 bg-gray-900/50 p-3 hover:border-primary-500/40 transition-colors"
+              >
+                {c.image && (
+                  <img
+                    src={c.image}
+                    alt={isZhLocale(lang) ? c.name : c.nameEn}
+                    className="w-10 h-10 rounded-lg object-cover bg-gray-800 shrink-0"
+                  />
+                )}
+                <div className="min-w-0">
+                  <p className="text-sm font-medium text-gray-200 truncate group-hover:text-primary-400 transition-colors">
+                    {isZhLocale(lang) ? c.name : c.nameEn}
+                  </p>
+                  <div className="flex items-center gap-1.5 mt-0.5">
+                    <span className={`text-xs px-1.5 py-0.5 rounded ${getAttributeColor(c.attribute)}`}>
+                      {t(lang, `attributes.${c.attribute}` as `attributes.${string}`)}
+                    </span>
+                    <span className="text-xs px-1.5 py-0.5 rounded bg-yellow-500/20 text-yellow-400">
+                      {c.tierRank || "S"}
+                    </span>
                   </div>
-                </Link>
-              ))}
-            </div>
-            <Link
-              href={`/${lang}/tier-list`}
-              className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300 transition-colors"
-            >
-              {t(lang, "redeemCodes.topCharacters.viewAll")}
-            </Link>
+                </div>
+              </Link>
+            ))}
           </div>
-        );
-      })()}
+          <Link
+            href={`/${lang}/tier-list`}
+            className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300 transition-colors"
+          >
+            {t(lang, "redeemCodes.topCharacters.viewAll")}
+          </Link>
+        </div>
+      )}
 
       {/* Module C: Latest Posts */}
-      {(() => {
-        const latestPosts = useMemo(
-          () =>
-            [...(blogData as Array<{ id: string; title: string; titleEn: string; summary: string; summaryEn: string; category: string; categoryEn: string; date: string; tags: string[] }>)]
-              .sort((a, b) => b.date.localeCompare(a.date))
-              .slice(0, 3),
-          []
-        );
-        if (latestPosts.length === 0) return null;
-        return (
-          <div className="mt-12">
-            <h2 className="text-xl font-bold mb-4">{t(lang, "redeemCodes.latestPosts.title")}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {latestPosts.map((post) => (
-                <Link
-                  key={post.id}
-                  href={`/${lang}/blog/${post.id}`}
-                  className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 transition-colors"
-                >
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-1.5 py-0.5 rounded bg-primary-600/20 text-primary-400">
-                      {isZhLocale(lang) ? post.category : (post.categoryEn || post.category)}
-                    </span>
-                    <time className="text-xs text-gray-500">{post.date}</time>
-                  </div>
-                  <h3 className="text-sm font-semibold text-gray-200 group-hover:text-primary-400 transition-colors line-clamp-2">
-                    {isZhLocale(lang) ? post.title : post.titleEn}
-                  </h3>
-                  <p className="text-xs text-gray-500 mt-1 line-clamp-2">
-                    {isZhLocale(lang) ? post.summary : post.summaryEn}
-                  </p>
-                </Link>
-              ))}
-            </div>
+      {latestPosts.length > 0 && (
+        <div className="mt-12">
+          <h2 className="text-xl font-bold mb-4">{t(lang, "redeemCodes.latestPosts.title")}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {latestPosts.map((post) => (
+              <Link
+                key={post.id}
+                href={`/${lang}/blog/${post.id}`}
+                className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 transition-colors"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-xs px-1.5 py-0.5 rounded bg-primary-600/20 text-primary-400">
+                    {isZhLocale(lang) ? post.category : (post.categoryEn || post.category)}
+                  </span>
+                  <time className="text-xs text-gray-500">{post.date}</time>
+                </div>
+                <h3 className="text-sm font-semibold text-gray-200 group-hover:text-primary-400 transition-colors line-clamp-2">
+                  {isZhLocale(lang) ? post.title : post.titleEn}
+                </h3>
+                <p className="text-xs text-gray-500 mt-1 line-clamp-2">
+                  {isZhLocale(lang) ? post.summary : post.summaryEn}
+                </p>
+              </Link>
+            ))}
           </div>
-        );
-      })()}
+        </div>
+      )}
     </div>
   );
 }

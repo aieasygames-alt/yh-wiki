@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllVehicles } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";

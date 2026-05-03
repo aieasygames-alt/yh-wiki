@@ -212,13 +212,6 @@ export function ProductJsonLd({ name, description, url, image }: { name: string;
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.5",
-      bestRating: "5",
-      worstRating: "1",
-      ratingCount: "1",
-    },
   };
   return (
     <script

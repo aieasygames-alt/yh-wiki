@@ -6,7 +6,6 @@ import { getCompare } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { CompareTable } from "../../../components/CompareTable";
-import type { CompareArticle } from "../../../lib/queries";
 
 interface ComparePageProps {
   params: { lang: string; slug: string };

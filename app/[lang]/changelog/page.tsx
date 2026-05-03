@@ -66,7 +66,7 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
                   <span className="text-xs text-gray-500 ml-auto">{dateStr}</span>
                 </div>
                 <ul className="space-y-1">
-                  {highlights.slice(0, 4).map((h, i) => (
+                  {highlights?.slice(0, 4).map((h, i) => (
                     <li key={i} className="text-sm text-gray-400 flex items-start gap-2">
                       <span className="text-primary-500 mt-1">•</span>
                       {h}

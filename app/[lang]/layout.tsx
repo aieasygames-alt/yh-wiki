@@ -27,7 +27,7 @@ export default async function LangLayout({
   }
 
   return (
-    <html lang={lang}>
+    <html lang={lang === "tw" ? "zh-Hant" : lang}>
       <head>
         <meta name="msvalidate.01" content="1FDBEDECCADE86F6C58D3B85E9492A14" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
@@ -35,7 +35,7 @@ export default async function LangLayout({
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1719881162787470"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           strategy="afterInteractive"
         />
         <Script

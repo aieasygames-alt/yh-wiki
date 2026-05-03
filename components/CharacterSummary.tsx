@@ -1,5 +1,4 @@
 import type { Locale } from "../lib/i18n";
-import { isZhLocale } from "../lib/i18n";
 
 interface CharacterSummaryProps {
   name: string;
@@ -20,7 +19,7 @@ interface CharacterSummaryProps {
   locale: Locale;
 }
 
-export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, description, descriptionEn, cvZh, cvJp, cvJpEn, locale }: CharacterSummaryProps) {
+export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, cvZh, cvJp, cvJpEn, locale }: CharacterSummaryProps) {
   const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
   const rows = [
     { key: locale === "en" ? "Name" : (locale === "tw" ? "名稱" : "名称"), val: locale === "en" ? `${nameEn} (${name})` : `${displayName} (${nameEn})` },

@@ -4,7 +4,6 @@ import {
   WebSiteJsonLd,
   CharacterJsonLd,
   ItemListJsonLd,
-  FaqJsonLd,
   BreadcrumbJsonLd,
   ArticleJsonLd,
   FaqPageJsonLd,
@@ -17,11 +16,13 @@ import { hreflangAlternates, hreflangAlternatesIndex } from "../i18n";
 
 // --- JSON-LD Schema Validation ---
 
-function extractJsonLd(container: HTMLElement): any {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+function extractJsonLd(container: HTMLElement): Record<string, any> {
   const script = container.querySelector('script[type="application/ld+json"]');
-  if (!script || !script.textContent) return null;
+  if (!script || !script.textContent) return null as unknown as Record<string, any>;
   return JSON.parse(script.textContent);
 }
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 describe("WebSiteJsonLd", () => {
   it("generates valid WebSite schema", () => {

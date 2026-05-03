@@ -65,7 +65,7 @@ describe("CharacterCard", () => {
   });
 
   it("renders A rank with blue color class", () => {
-    const { container } = render(<CharacterCard {...baseProps} rank="A" />);
+    render(<CharacterCard {...baseProps} rank="A" />);
     const rankEl = screen.getByText("A");
     expect(rankEl.className).toContain("text-blue-400");
   });

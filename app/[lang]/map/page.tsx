@@ -35,7 +35,7 @@ import MapSearch from "../../../components/MapSearch";
 import MapProgressBar from "../../../components/MapProgressBar";
 import MapRoutePlanner from "../../../components/MapRoutePlanner";
 
-const data = mapData as {
+const data = mapData as unknown as {
   maps: MapInfo[];
   markerTypes: Record<string, MarkerTypeInfo>;
   regions?: Record<string, RegionInfo>;

@@ -49,7 +49,13 @@ interface PullStats {
   pityHistory: number[];
 }
 
-const gachaData = gachaConfig as Record<string, BannerConfig>;
+const gachaData = gachaConfig as unknown as Record<string, BannerConfig | { faq: unknown[] }>;
+
+function getBannerConfig(key: string): BannerConfig {
+  const entry = gachaData[key];
+  if (!entry || !("pity5" in entry)) return gachaData.limited as BannerConfig;
+  return entry as BannerConfig;
+}
 
 export default function GachaPage() {
   const { lang: langParam } = useParams();
@@ -65,13 +71,12 @@ export default function GachaPage() {
   const [history, setHistory] = useState<PullResult[]>([]);
   const [isAnimating, setIsAnimating] = useState(false);
   const [showStats, setShowStats] = useState(false);
-  const [copiedId, setCopiedId] = useState<string | null>(null);
   const pullCountRef = useRef(0);
 
   const [stats, setStats] = useState<PullStats>({ total: 0, s5Count: 0, s4Count: 0, pityHistory: [] });
 
   const bannerConfig = useMemo(() => {
-    return gachaData[activeBanner] || gachaData.limited;
+    return getBannerConfig(activeBanner);
   }, [activeBanner]);
 
   const pityRemaining = bannerConfig.pity5 - pityCount;
@@ -128,7 +133,7 @@ export default function GachaPage() {
           const isFeatured = bannerConfig.featured.length > 0 && Math.random() < 0.5;
           const selected = isFeatured
             ? bannerConfig.featured[Math.floor(Math.random() * bannerConfig.featured.length)]
-            : sRank[Math.floor(Math.random() * sRank.length)];
+            : sRank[Math.floor(Math.random() * sRank.length)].id;
 
           pulls.push({ characterId: selected, rank: "S", isNew: true, pullNumber: pullCountRef.current });
           setStats((prev) => ({
@@ -141,12 +146,12 @@ export default function GachaPage() {
           const isFeatured4 = bannerConfig.featured4.length > 0 && Math.random() < 0.5;
           const selected = isFeatured4
             ? bannerConfig.featured4[Math.floor(Math.random() * bannerConfig.featured4.length)]
-            : aRank[Math.floor(Math.random() * aRank.length)];
+            : aRank[Math.floor(Math.random() * aRank.length)].id;
 
           pulls.push({ characterId: selected, rank: "A", isNew: false, pullNumber: pullCountRef.current });
           setStats((prev) => ({ ...prev, s4Count: prev.s4Count + 1 }));
         } else {
-          const selected = aRank[Math.floor(Math.random() * aRank.length)];
+          const selected = aRank[Math.floor(Math.random() * aRank.length)].id;
           pulls.push({ characterId: selected, rank: "B", isNew: false, pullNumber: pullCountRef.current });
         }
       }
@@ -182,18 +187,11 @@ export default function GachaPage() {
     pullCountRef.current = 0;
   }, [stats.total, lang]);
 
-  const handleCopyCode = useCallback((code: string) => {
-    navigator.clipboard.writeText(code).then(() => {
-      setCopiedId(code);
-      setTimeout(() => setCopiedId(null), 2000);
-    });
-  }, []);
-
   const banners = [
-    { key: "limited", name: isZhLocale(lang) ? gachaData.limited.name : gachaData.limited.nameEn },
-    { key: "beginner", name: isZhLocale(lang) ? gachaData.beginner.name : gachaData.beginner.nameEn },
-    { key: "standard", name: isZhLocale(lang) ? gachaData.standard.name : gachaData.standard.nameEn },
-    { key: "weapons", name: isZhLocale(lang) ? gachaData.weapons.name : gachaData.weapons.nameEn },
+    { key: "limited", name: isZhLocale(lang) ? getBannerConfig("limited").name : getBannerConfig("limited").nameEn },
+    { key: "beginner", name: isZhLocale(lang) ? getBannerConfig("beginner").name : getBannerConfig("beginner").nameEn },
+    { key: "standard", name: isZhLocale(lang) ? getBannerConfig("standard").name : getBannerConfig("standard").nameEn },
+    { key: "weapons", name: isZhLocale(lang) ? getBannerConfig("weapons").name : getBannerConfig("weapons").nameEn },
   ];
 
   return (
@@ -459,8 +457,6 @@ export default function GachaPage() {
         </div>
       )}
 
-      {/* Hidden: copyCode function for potential future use */}
-      {copiedId && <span className="hidden" />}
     </div>
   );
 }

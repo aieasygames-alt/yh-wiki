@@ -1,11 +1,13 @@
 import Link from "next/link";
-import { t, hreflangAlternatesIndex, type Locale, isZhLocale } from "../../lib/i18n";
-import { getAllCharacters, getAllMaterials, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
+import dynamic from "next/dynamic";
+import { t, hreflangAlternatesIndex, isZhLocale, type Locale } from "../../lib/i18n";
+import { getAllCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
-import { SearchDialog } from "../../components/SearchDialog";
-import { GiscusComments } from "../../components/GiscusComments";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
+
+const SearchDialog = dynamic(() => import("../../components/SearchDialog").then((m) => ({ default: m.SearchDialog })), { ssr: false });
+const GiscusComments = dynamic(() => import("../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
 export async function generateMetadata({
   params,
@@ -13,7 +15,6 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  const locale = lang as Locale;
   return {
     title:
       isZhLocale(lang)
@@ -54,7 +55,6 @@ export default async function HomePage({
   const { lang } = await params;
   const locale = lang as Locale;
   const characters = getAllCharacters();
-  const materials = getAllMaterials();
   const guides = getAllGuides();
   const weapons = getAllWeapons();
   const blogPosts = getLatestBlogPosts(3);
@@ -92,7 +92,7 @@ export default async function HomePage({
         <section className="max-w-6xl mx-auto px-4 -mt-4">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { label: isZhLocale(locale) ? "角色" : "Characters", value: characters.filter((c: any) => c.status === "available").length, color: "text-yellow-400", href: `/${lang}/characters` },
+              { label: isZhLocale(locale) ? "角色" : "Characters", value: characters.filter((c) => c.status === "available").length, color: "text-yellow-400", href: `/${lang}/characters` },
               { label: isZhLocale(locale) ? "武器" : "Weapons", value: weapons.length, color: "text-blue-400", href: `/${lang}/weapons` },
               { label: isZhLocale(locale) ? "攻略" : "Guides", value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
               { label: isZhLocale(locale) ? "工具" : "Tools", value: 4, color: "text-green-400", href: `/${lang}/calculator/build` },

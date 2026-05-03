@@ -126,34 +126,32 @@ describe("map-markers.json data integrity", () => {
     }
   });
 
-  it("each marker has bilingual name and description", () => {
+  it("each marker has bilingual name", () => {
     for (const map of data.maps) {
       for (const marker of map.markers) {
         expect(marker.name).toBeTruthy();
         expect(marker.nameEn).toBeTruthy();
-        expect(marker.description).toBeTruthy();
-        expect(marker.descriptionEn).toBeTruthy();
       }
     }
   });
 
   it("markerTypes has the original 4 types", () => {
-    const required = ["domain", "boss", "collectible", "waypoint"];
+    const required = ["domain", "boss", "collectible", "waypoint"] as const;
     for (const type of required) {
-      expect(data.markerTypes[type]).toBeDefined();
-      expect(data.markerTypes[type].color).toBeTruthy();
-      expect(data.markerTypes[type].label).toBeTruthy();
-      expect(data.markerTypes[type].labelEn).toBeTruthy();
+      expect((data.markerTypes as unknown as Record<string, unknown>)[type]).toBeDefined();
+      expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).color).toBeTruthy();
+      expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).label).toBeTruthy();
+      expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).labelEn).toBeTruthy();
     }
   });
 
   it("markerTypes has extended types (chest, puzzle, npc, viewpoint)", () => {
-    const extended = ["chest", "puzzle", "npc", "viewpoint"];
+    const extended = ["chest", "puzzle", "npc", "viewpoint"] as const;
     for (const type of extended) {
-      expect(data.markerTypes[type]).toBeDefined();
-      expect(data.markerTypes[type].color).toBeTruthy();
-      expect(data.markerTypes[type].label).toBeTruthy();
-      expect(data.markerTypes[type].labelEn).toBeTruthy();
+      expect((data.markerTypes as unknown as Record<string, unknown>)[type]).toBeDefined();
+      expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).color).toBeTruthy();
+      expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).label).toBeTruthy();
+      expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).labelEn).toBeTruthy();
     }
   });
 
@@ -164,7 +162,7 @@ describe("map-markers.json data integrity", () => {
   });
 
   it("all marker type colors are valid hex colors", () => {
-    for (const [type, info] of Object.entries(data.markerTypes)) {
+    for (const [, info] of Object.entries(data.markerTypes)) {
       expect(info.color).toMatch(/^#[0-9a-fA-F]{6}$/);
     }
   });

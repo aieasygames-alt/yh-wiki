@@ -1,5 +1,5 @@
 import type { Locale } from "../lib/i18n";
-import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS } from "../lib/attributes";
+import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS } from "../lib/attributes";
 
 interface WeaponSummaryProps {
   name: string;
@@ -17,14 +17,12 @@ interface WeaponSummaryProps {
   locale: Locale;
 }
 
-export function WeaponSummary({ name, nameTw, nameEn, rank, type, baseAtk, substat, substatValue, howToObtain, howToObtainZh, howToObtainEn, relatedCharacters, locale }: WeaponSummaryProps) {
+export function WeaponSummary({ name, nameTw, nameEn, rank, type, baseAtk, substat, substatValue, howToObtainZh, howToObtainEn, relatedCharacters, locale }: WeaponSummaryProps) {
   const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
   const altName = locale === "en" ? name : nameEn;
   const rankLabel = ARC_RANK_LABELS[rank]?.[locale] || rank;
   const typeLabel = ARC_TYPE_LABELS[type]?.[locale] || type;
   const substatLabel = SUBSTAT_LABELS[substat]?.[locale] || substat;
-  const obtainMethod = OBTAIN_METHOD_LABELS[howToObtain]?.[locale] || howToObtain;
-
   const rows = [
     { key: locale === "en" ? "Name" : locale === "tw" ? "名稱" : "名称", val: `${displayName} (${altName})` },
     { key: locale === "en" ? "Rank" : locale === "tw" ? "稀有度" : "稀有度", val: rankLabel },

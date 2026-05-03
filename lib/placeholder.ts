@@ -1,5 +1,5 @@
 export function getPlaceholderImage(
-  type: "character" | "material" | "weapon" | "vehicle",
+  type: "character" | "material" | "weapon" | "vehicle" | "cassette",
   name: string
 ): string {
   const colors = {
@@ -7,6 +7,7 @@ export function getPlaceholderImage(
     material: { bg: "#1a1a2e", text: "#64748b" },
     weapon: { bg: "#2d1b1b", text: "#c4956a" },
     vehicle: { bg: "#1b2d1b", text: "#6ac49a" },
+    cassette: { bg: "#2d1b2d", text: "#c49ac4" },
   };
   const { bg, text } = colors[type];
   const display = name.length > 4 ? name.substring(0, 4) : name;

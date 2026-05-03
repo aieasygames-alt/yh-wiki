@@ -58,7 +58,7 @@ describe("FaqSection", () => {
   });
 
   it("renders nothing when faqs is null", () => {
-    const { container } = render(<FaqSection faqs={null as any} locale="zh" />);
+    const { container } = render(<FaqSection faqs={null as unknown as { question: string; questionZh: string; answer: string; answerZh: string }[]} locale="zh" />);
     expect(container.innerHTML).toBe("");
   });
 

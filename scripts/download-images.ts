@@ -92,7 +92,7 @@ async function main() {
 
   const allIds = [
     ...Object.keys(CHARACTER_IMAGES),
-    ...NO_IMAGE,
+    ...Array.from(NO_IMAGE),
   ];
 
   for (const id of allIds) {

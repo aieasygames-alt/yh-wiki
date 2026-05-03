@@ -13,12 +13,12 @@ const ROLES_EN = ["Attack", "Support", "Defense", "Utility"];
 const STATUSES = ["available", "upcoming", "rumored"];
 
 interface CharacterFilterProps {
-  characters: any[];
+  characters: { id: string; name: string; nameTw?: string; nameEn: string; attribute: string; rank: string; status?: string; image?: string; role: string; roleEn: string }[];
   locale: Locale;
   lang: string;
 }
 
-export function CharacterFilter({ characters, locale, lang }: CharacterFilterProps) {
+export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
   const [attribute, setAttribute] = useState<string>("");
   const [rank, setRank] = useState<string>("");
   const [role, setRole] = useState<string>("");
@@ -27,9 +27,9 @@ export function CharacterFilter({ characters, locale, lang }: CharacterFilterPro
   const roles = locale === "en" ? ROLES_EN : (locale === "tw" ? ROLES_TW : ROLES_ZH);
 
   const statusLabels: Record<string, Record<Locale, string>> = {
-    available: { zh: "当前可玩", en: "Available" },
-    upcoming: { zh: "即将登场", en: "Upcoming" },
-    rumored: { zh: "数据待确认", en: "Unconfirmed" },
+    available: { zh: "当前可玩", tw: "當前可玩", en: "Available" },
+    upcoming: { zh: "即将登场", tw: "即將登場", en: "Upcoming" },
+    rumored: { zh: "数据待确认", tw: "數據待確認", en: "Unconfirmed" },
   };
 
   const filtered = useMemo(() => {
