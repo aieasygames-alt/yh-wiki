@@ -8,7 +8,29 @@ import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
 
 export function generateStaticParams() {
-  return [{ lang: "zh" }, { lang: "tw" }, { lang: "en" }];
+  return [
+  {
+    "lang": "zh"
+  },
+  {
+    "lang": "tw"
+  },
+  {
+    "lang": "en"
+  },
+  {
+    "lang": "th"
+  },
+  {
+    "lang": "vi"
+  },
+  {
+    "lang": "id"
+  },
+  {
+    "lang": "pt-br"
+  }
+];
 }
 
 export async function generateMetadata({

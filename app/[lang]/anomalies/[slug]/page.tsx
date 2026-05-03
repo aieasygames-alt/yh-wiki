@@ -10,6 +10,10 @@ export function generateStaticParams() {
     { lang: "zh", slug: a.id },
     { lang: "tw", slug: a.id },
     { lang: "en", slug: a.id },
+    { lang: "th", slug: a.id },
+    { lang: "vi", slug: a.id },
+    { lang: "id", slug: a.id },
+    { lang: "pt-br", slug: a.id },,
   ]);
 }
 

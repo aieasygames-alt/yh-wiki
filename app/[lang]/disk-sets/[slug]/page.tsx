@@ -13,6 +13,10 @@ export function generateStaticParams() {
     { lang: "zh", slug: s.id },
     { lang: "tw", slug: s.id },
     { lang: "en", slug: s.id },
+    { lang: "th", slug: s.id },
+    { lang: "vi", slug: s.id },
+    { lang: "id", slug: s.id },
+    { lang: "pt-br", slug: s.id },,
   ]);
 }
 

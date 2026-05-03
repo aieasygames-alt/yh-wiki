@@ -14,6 +14,10 @@ export function generateStaticParams() {
     { lang: "zh" },
     { lang: "tw" },
     { lang: "en" },
+    { lang: "th" },
+    { lang: "vi" },
+    { lang: "id" },
+    { lang: "pt-br" },,
   ];
 }
 

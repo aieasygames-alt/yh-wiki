@@ -14,6 +14,10 @@ export function generateStaticParams() {
     { lang: "zh", slug: w.id },
     { lang: "tw", slug: w.id },
     { lang: "en", slug: w.id },
+    { lang: "th", slug: w.id },
+    { lang: "vi", slug: w.id },
+    { lang: "id", slug: w.id },
+    { lang: "pt-br", slug: w.id },
   ]);
 }
 

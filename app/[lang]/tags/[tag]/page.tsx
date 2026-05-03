@@ -34,6 +34,10 @@ export function generateStaticParams() {
     { lang: "zh", tag },
     { lang: "tw", tag },
     { lang: "en", tag },
+    { lang: "th", tag },
+    { lang: "vi", tag },
+    { lang: "id", tag },
+    { lang: "pt-br", tag },
   ]);
 }
 
@@ -73,7 +77,7 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
     return acc;
   }, {});
 
-  const labels = TYPE_LABELS[locale];
+  const labels = TYPE_LABELS[locale] || TYPE_LABELS["en"];
 
   return (
     <>
