@@ -22,7 +22,7 @@ export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps
       <a
         href={KARDZ_URL}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="sponsored noopener noreferrer"
         className="block rounded-xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 to-orange-500/10 p-4 hover:border-amber-400/50 transition-colors group"
       >
         <div className="flex items-center justify-between">
@@ -47,7 +47,7 @@ export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps
       <a
         href={KARDZ_URL}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="sponsored noopener noreferrer"
         className="block rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 hover:border-amber-500/40 transition-colors group"
       >
         <div className="flex items-center gap-2">
@@ -70,7 +70,7 @@ export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps
     <a
       href={KARDZ_URL}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="sponsored noopener noreferrer"
       className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-amber-500/30 hover:bg-gray-900/70 transition-colors group"
     >
       <span className="text-2xl">💎</span>
