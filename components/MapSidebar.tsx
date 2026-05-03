@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import type { MapMarker, MarkerTypeInfo, ProgressMap } from "../lib/map-utils";
 import { countCollected } from "../lib/map-progress";
-import { isZhLocale, Locale } from "../lib/i18n";
+import { t, isZhLocale, Locale } from "../lib/i18n";
 
 interface MapSidebarProps {
   markers: MapMarker[];
@@ -72,12 +72,8 @@ export default function MapSidebar({
             className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-400 hover:text-gray-200 transition-colors"
           >
             {allActive
-              ? isZhLocale(lang)
-                ? "全不选"
-                : "Deselect All"
-              : isZhLocale(lang)
-              ? "全选"
-              : "Select All"}
+              ? t(lang, "map.deselectAll")
+              : t(lang, "map.selectAll")}
           </button>
         </div>
 
@@ -172,16 +168,10 @@ export default function MapSidebar({
                           {marker.respawn && (
                             <span className="text-[10px] px-1 rounded bg-gray-800 text-gray-500 ml-auto flex-shrink-0">
                               {marker.respawn === "daily"
-                                ? isZhLocale(lang)
-                                  ? "每日"
-                                  : "Daily"
+                                ? t(lang, "map.daily")
                                 : marker.respawn === "weekly"
-                                ? isZhLocale(lang)
-                                  ? "每周"
-                                  : "Weekly"
-                                : isZhLocale(lang)
-                                ? "一次"
-                                : "Once"}
+                                ? t(lang, "map.weekly")
+                                : t(lang, "map.once")}
                             </span>
                           )}
                         </button>

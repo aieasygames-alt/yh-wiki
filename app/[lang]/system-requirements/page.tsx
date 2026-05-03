@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqSection } from "../../../components/FaqSection";
 import { FaqPageJsonLd } from "../../../components/JsonLd";
@@ -41,20 +41,20 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   };
 }
 
-function SpecTable({ labels, locale }: { labels: Record<string, Record<Locale, string>>; locale: Locale }) {
+function SpecTable({ labels, locale }: { labels: Record<string, string>; locale: Locale }) {
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
         <thead>
           <tr className="border-b border-gray-800">
             <th className="py-3 px-4 text-left text-gray-400 font-medium">
-              {isZhLocale(locale) ? "配置项" : "Spec"}
+              {t(locale, "systemReqs.spec")}
             </th>
             <th className="py-3 px-4 text-left text-gray-400 font-medium">
-              {isZhLocale(locale) ? "最低配置" : "Minimum"}
+              {t(locale, "systemReqs.minimum")}
             </th>
             <th className="py-3 px-4 text-left text-gray-400 font-medium">
-              {isZhLocale(locale) ? "推荐配置" : "Recommended"}
+              {t(locale, "systemReqs.recommended")}
             </th>
           </tr>
         </thead>
@@ -69,7 +69,7 @@ function SpecTable({ labels, locale }: { labels: Record<string, Record<Locale, s
                            (specsData as unknown as Record<string, Record<string, PlatformSpecs>>).ios?.recommended?.[key as string];
             return (
               <tr key={key} className="border-b border-gray-800/50">
-                <td className="py-3 px-4 text-gray-300 font-medium">{label[locale]}</td>
+                <td className="py-3 px-4 text-gray-300 font-medium">{label}</td>
                 <td className="py-3 px-4 text-gray-400">{minVal ? minVal[dataKey] : "—"}</td>
                 <td className="py-3 px-4 text-gray-400">{recVal ? recVal[dataKey] : "—"}</td>
               </tr>
@@ -85,25 +85,25 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
   const { lang } = await params;
   const locale = lang as Locale;
 
-  const pcLabels: Record<string, Record<Locale, string>> = {
-    os: { zh: "操作系统", tw: "操作系統", en: "OS" },
-    cpu: { zh: "处理器", tw: "處理器", en: "CPU" },
-    ram: { zh: "内存", tw: "記憶體", en: "RAM" },
-    gpu: { zh: "显卡", tw: "顯示卡", en: "GPU" },
-    storage: { zh: "存储空间", tw: "儲存空間", en: "Storage" },
+  const pcLabels: Record<string, string> = {
+    os: t(locale, "systemReqs.pc.os"),
+    cpu: t(locale, "systemReqs.pc.cpu"),
+    ram: t(locale, "systemReqs.pc.ram"),
+    gpu: t(locale, "systemReqs.pc.gpu"),
+    storage: t(locale, "systemReqs.pc.storage"),
   };
 
-  const androidLabels: Record<string, Record<Locale, string>> = {
-    soC: { zh: "处理器", tw: "處理器", en: "SoC" },
-    ram: { zh: "内存", tw: "記憶體", en: "RAM" },
-    os: { zh: "系统版本", tw: "系統版本", en: "OS" },
-    storage: { zh: "存储空间", tw: "儲存空間", en: "Storage" },
+  const androidLabels: Record<string, string> = {
+    soC: t(locale, "systemReqs.android.cpu"),
+    ram: t(locale, "systemReqs.android.ram"),
+    os: t(locale, "systemReqs.android.os"),
+    storage: t(locale, "systemReqs.android.storage"),
   };
 
-  const iosLabels: Record<string, Record<Locale, string>> = {
-    device: { zh: "设备", tw: "裝置", en: "Device" },
-    os: { zh: "系统版本", tw: "系統版本", en: "OS" },
-    storage: { zh: "存储空间", tw: "儲存空間", en: "Storage" },
+  const iosLabels: Record<string, string> = {
+    device: t(locale, "systemReqs.ios.device"),
+    os: t(locale, "systemReqs.ios.os"),
+    storage: t(locale, "systemReqs.ios.storage"),
   };
 
   const faqs = specsData.faq.map((f) => ({
@@ -118,25 +118,23 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       <FaqPageJsonLd faqs={faqs} lang={locale} />
       <Breadcrumb
         items={[
-          { label: isZhLocale(locale) ? "首页" : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? "配置要求" : "System Requirements" },
+          { label: t(locale, "common.home"), href: `/${lang}` },
+          { label: t(locale, "systemReqs.title") },
         ]}
       />
 
       <h1 className="text-3xl font-bold mt-4 mb-2">
-        {isZhLocale(locale) ? "异环配置要求 — 你的设备能运行吗？" : "NTE System Requirements — Can Your Device Run It?"}
+        {t(locale, "systemReqs.pageTitle")}
       </h1>
       <p className="text-sm text-gray-500 mb-8">
-        {isZhLocale(locale)
-          ? "异环(Neverness to Everness)全平台配置要求一览，包含 PC、Android、iOS 最低与推荐配置，下载大小和存储空间需求。"
-          : "Complete system requirements for Neverness to Everness on PC, Android, and iOS — minimum and recommended specs, download size, and storage."}
+        {t(locale, "systemReqs.pageDescription")}
       </p>
 
       {/* PC Requirements */}
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
           <span className="text-2xl">🖥️</span>
-          {isZhLocale(locale) ? "PC 配置要求" : "PC Requirements"}
+          {t(locale, "systemReqs.pcTitle")}
         </h2>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden">
           <SpecTable labels={pcLabels} locale={locale} />
@@ -147,7 +145,7 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
           <span className="text-2xl">📱</span>
-          {isZhLocale(locale) ? "Android 配置要求" : "Android Requirements"}
+          {t(locale, "systemReqs.androidTitle")}
         </h2>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden">
           <SpecTable labels={androidLabels} locale={locale} />
@@ -158,7 +156,7 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
           <span className="text-2xl">🍎</span>
-          {isZhLocale(locale) ? "iOS 配置要求" : "iOS Requirements"}
+          {t(locale, "systemReqs.iosTitle")}
         </h2>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden">
           <SpecTable labels={iosLabels} locale={locale} />
@@ -168,25 +166,23 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       {/* Storage Size */}
       <section className="mb-10 rounded-xl border border-gray-800 bg-gray-900/30 p-6">
         <h2 className="text-lg font-bold mb-3">
-          {isZhLocale(locale) ? "存储空间说明" : "Storage Size"}
+          {t(locale, "systemReqs.storageTitle")}
         </h2>
         <div className="space-y-2 text-sm text-gray-400">
           <p>
             <span className="text-gray-300 font-medium">PC:</span>{" "}
-            {isZhLocale(locale) ? "约 40 GB（推荐 SSD）" : "~40 GB (SSD recommended)"}
+            {t(locale, "systemReqs.pcStorage")}
           </p>
           <p>
             <span className="text-gray-300 font-medium">Android:</span>{" "}
-            {isZhLocale(locale) ? "约 10-15 GB" : "~10-15 GB"}
+            {t(locale, "systemReqs.mobileStorage")}
           </p>
           <p>
             <span className="text-gray-300 font-medium">iOS:</span>{" "}
-            {isZhLocale(locale) ? "约 10-15 GB" : "~10-15 GB"}
+            {t(locale, "systemReqs.mobileStorage")}
           </p>
           <p className="text-xs text-gray-500 mt-2">
-            {isZhLocale(locale)
-              ? "以上为安装所需空间，后续版本更新可能需要额外空间。"
-              : "Sizes above are for initial installation. Future updates may require additional space."}
+            {t(locale, "systemReqs.storageDisclaimer")}
           </p>
         </div>
       </section>

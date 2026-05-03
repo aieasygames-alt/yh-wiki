@@ -1,27 +1,16 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
-import type { Locale } from "../lib/i18n";
-import { isZhLocale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
-const TYPE_LABELS: Record<Locale, Record<string, string>> = {
-  zh: {
-    "轿车": "轿车",
-    "摩托车": "摩托车",
-    "小型摩托": "小型摩托",
-    "卡丁车": "卡丁车",
-  },
-  tw: {
-    "轿车": "轎車",
-    "摩托车": "摩托車",
-    "小型摩托": "小型摩托",
-    "卡丁车": "卡丁車",
-  },
-  en: {
-    "Car": "Car",
-    "Motorcycle": "Motorcycle",
-    "Scooter": "Scooter",
-    "Kart": "Kart",
-  },
+const TYPE_I18N_KEYS: Record<string, string> = {
+  "轿车": "vehicleTypes.car",
+  "摩托车": "vehicleTypes.motorcycle",
+  "小型摩托": "vehicleTypes.scooter",
+  "卡丁车": "vehicleTypes.kart",
+  "Car": "vehicleTypes.car",
+  "Motorcycle": "vehicleTypes.motorcycle",
+  "Scooter": "vehicleTypes.scooter",
+  "Kart": "vehicleTypes.kart",
 };
 
 const TYPE_COLORS: Record<string, string> = {
@@ -58,7 +47,8 @@ function formatPrice(price: number | null): string {
 export function VehicleCard({ id, name, nameEn, type, typeEn, topSpeed, price, brand, brandEn, locale }: VehicleCardProps) {
   const typeLabel = isZhLocale(locale) ? type : typeEn;
   const colorClass = TYPE_COLORS[type] || TYPE_COLORS[typeEn] || "bg-gray-800 text-gray-400";
-  const labelKey = TYPE_LABELS[locale][type] || TYPE_LABELS[locale][typeEn] || typeLabel;
+  const i18nKey = TYPE_I18N_KEYS[type] || TYPE_I18N_KEYS[typeEn];
+  const labelKey = i18nKey ? t(locale, i18nKey) : typeLabel;
   const brandLabel = isZhLocale(locale) ? brand : brandEn;
 
   return (

@@ -68,7 +68,7 @@ export default async function BossGuidePage({
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: isZhLocale(locale) ? "Boss攻略" : "Boss Guide" },
+          { label: t(locale, "bossGuide.title") },
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale, isZhLocale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 import Logo from "./Logo";
 
 export function Footer() {
@@ -39,14 +39,14 @@ export function Footer() {
     {
       title: t(lang, "site.nav.footer.resources"),
       links: [
-        { href: `/${lang}/tier-list`, label: isZhLocale(lang) ? "强度排行" : "Tier List" },
+        { href: `/${lang}/tier-list`, label: t(lang, "footer.tierList") },
         { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
         { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },
-        { href: `/${lang}/contact`, label: isZhLocale(lang) ? (lang === "tw" ? "聯絡我們" : "联系我们") : "Contact Us" },
-        { href: `/${lang}/about`, label: isZhLocale(lang) ? (lang === "tw" ? "關於我們" : "关于我们") : "About Us" },
-        { href: `/${lang}/privacy-policy`, label: isZhLocale(lang) ? (lang === "tw" ? "隱私政策" : "隐私政策") : "Privacy Policy" },
-        { href: `/${lang}/terms`, label: isZhLocale(lang) ? (lang === "tw" ? "服務條款" : "服务条款") : "Terms of Service" },
+        { href: `/${lang}/contact`, label: t(lang, "footer.contact") },
+        { href: `/${lang}/about`, label: t(lang, "footer.about") },
+        { href: `/${lang}/privacy-policy`, label: t(lang, "footer.privacy") },
+        { href: `/${lang}/terms`, label: t(lang, "footer.terms") },
       ],
     },
   ];
@@ -104,9 +104,7 @@ export function Footer() {
           </div>
           <p>&copy; {new Date().getFullYear()} {t(lang, "site.title")}</p>
           <p className="mt-1 text-gray-600">
-            {isZhLocale(lang)
-              ? "本站为玩家社区工具站，与官方无关"
-              : "This is a community fan site, not affiliated with the official game."}
+            {t(lang, "footer.disclaimer")}
           </p>
         </div>
       </div>

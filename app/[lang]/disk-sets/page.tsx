@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllDiskSets, getAllCharacters } from "../../../lib/queries";
 import { getAttributeLabel, getAttributeColor } from "../../../lib/attributes";
 import { GameImage } from "../../../components/GameImage";
@@ -32,8 +32,8 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
   const generalSets = diskSets.filter(s => s.category === "general");
 
   const sections = [
-    { title: isZhLocale(locale) ? "元素专属卡带" : "Elemental Cartridges", sets: elementalSets },
-    { title: isZhLocale(locale) ? "通用卡带" : "General Cartridges", sets: generalSets },
+    { title: t(locale, "diskSets.elemental"), sets: elementalSets },
+    { title: t(locale, "diskSets.general"), sets: generalSets },
   ];
 
   return (
@@ -41,14 +41,14 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
-          { label: isZhLocale(locale) ? "首页" : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? "卡带" : "Cartridges" },
+          { label: t(locale, "common.home"), href: `/${lang}` },
+          { label: t(locale, "site.nav.cassettes") },
         ]}
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold mb-4">
-            {isZhLocale(locale) ? "卡带图鉴" : "Cartridge Sets"}
+            {t(locale, "diskSets.title")}
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
             {isZhLocale(locale)
@@ -87,7 +87,7 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
                       </p>
                       <div className="flex items-center gap-2 mt-1">
                         <span className="text-xs px-2 py-0.5 rounded border bg-gray-800 text-gray-300">
-                          {set.pieces}{isZhLocale(locale) ? "件套" : "-pc"}
+                          {set.pieces}{t(locale, "diskSets.pcSet")}
                         </span>
                         {set.element && (
                           <span className={`text-xs px-2 py-0.5 rounded border ${getAttributeColor(set.element)}`}>
@@ -100,11 +100,11 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
 
                   <div className="space-y-2 text-sm">
                     <div>
-                      <span className="text-primary-400 font-medium">2{isZhLocale(locale) ? "件套" : "-pc"}: </span>
+                      <span className="text-primary-400 font-medium">2{t(locale, "diskSets.pcSet")}: </span>
                       <span className="text-gray-300">{isZhLocale(locale) ? set.setDescription2pc : set.setDescription2pcEn}</span>
                     </div>
                     <div>
-                      <span className="text-primary-400 font-medium">4{isZhLocale(locale) ? "件套" : "-pc"}: </span>
+                      <span className="text-primary-400 font-medium">4{t(locale, "diskSets.pcSet")}: </span>
                       <span className="text-gray-300 line-clamp-2">{isZhLocale(locale) ? set.setDescription4pc : set.setDescription4pcEn}</span>
                     </div>
                   </div>

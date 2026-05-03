@@ -34,6 +34,56 @@
       }
     }
   },
+  "common": {
+    "all": "全部",
+    "clear": "清除",
+    "close": "关闭",
+    "home": "首页",
+    "name": "名称",
+    "role": "定位",
+    "element": "属性",
+    "rarity": "稀有度",
+    "weaponType": "武器类型",
+    "faction": "阵营",
+    "rank": "稀有度",
+    "type": "类型",
+    "source": "来源",
+    "price": "价格",
+    "free": "免费",
+    "level": "等级",
+    "back": "返回",
+    "copy": "复制",
+    "copied": "已复制",
+    "copyCoordinates": "复制坐标",
+    "recommended": "推荐",
+    "items": "个相关内容",
+    "noResults": "没有找到结果",
+    "typeToSearch": "输入关键词开始搜索"
+  },
+  "filter": {
+    "allAttributes": "全部属性",
+    "allRanks": "全部等级",
+    "allRoles": "全部定位",
+    "allRarities": "全部稀有度",
+    "charactersCount": "个角色",
+    "materialsCount": "个材料",
+    "noMatching": "没有匹配的角色",
+    "noMatchingMaterials": "没有匹配的材料"
+  },
+  "status": {
+    "available": "当前可玩",
+    "upcoming": "即将登场",
+    "rumored": "数据待确认",
+    "active": "有效",
+    "expired": "已过期",
+    "unknown": "未知"
+  },
+  "roles": {
+    "attack": "进攻",
+    "support": "支援",
+    "defense": "防护",
+    "assist": "辅助"
+  },
   "home": {
     "heroTitle": "异环 Wiki",
     "heroSubtitle": "Neverness to Everness 攻略 · 配装 · 工具",
@@ -41,7 +91,8 @@
     "ctaCalculator": "使用计算器",
     "charactersSection": "全部角色",
     "materialsSection": "全部材料",
-    "viewAll": "查看全部"
+    "viewAll": "查看全部",
+    "sRankCharacters": "S 级角色"
   },
   "characters": {
     "title": "角色列表",
@@ -74,6 +125,22 @@
     "members": "队员",
     "relatedCharacters": "相关角色",
     "viewTierList": "查看完整强度排行 →"
+  },
+  "characterSummary": {
+    "title": "角色概览",
+    "vaCn": "中文配音",
+    "vaJp": "日文配音"
+  },
+  "weaponSummary": {
+    "title": "弧盘概览",
+    "obtain": "获取方式",
+    "bestFor": "适配角色"
+  },
+  "vehicleTypes": {
+    "car": "轿车",
+    "motorcycle": "摩托车",
+    "scooter": "小型摩托",
+    "kart": "卡丁车"
   },
   "materials": {
     "title": "材料列表",
@@ -140,6 +207,20 @@
     "s5Rate": "S 率",
     "collection": "S 级收集",
     "pityWarning": "距保底还剩 {0} 抽！"
+  },
+  "gachaSystem": {
+    "pityMechanism": "保底机制详解",
+    "optimalStrategy": "最优抽卡策略",
+    "beginnerPriority": "新手池优先",
+    "standardAccumulate": "常驻池自然积累",
+    "limitedOnDemand": "限定池按需抽取",
+    "weaponBudget": "武器池量力而行",
+    "tierListLink": "Tier List 角色排行",
+    "simulatorLink": "抽卡模拟器",
+    "beginnerGuideLink": "新手攻略"
+  },
+  "gachaDetails": {
+    "clearConfirm": "确定要清除所有抽卡记录吗？"
   },
   "gachaAnalyzer": {
     "title": "抽卡记录分析器",
@@ -226,6 +307,15 @@
       "title": "异环最新资讯"
     }
   },
+  "redeemCodesStatus": {
+    "active": "有效",
+    "expired": "已过期",
+    "unknown": "未知",
+    "cnServer": "国服",
+    "globalServer": "国际服",
+    "timeLeft": "剩余 {0}",
+    "faqTitle": "兑换码常见问题"
+  },
   "map": {
     "title": "异环互动地图",
     "description": "异环全地图资源点标记，副本、BOSS和采集点",
@@ -283,6 +373,14 @@
     "totalDistance": "总距离",
     "clickToAddRoute": "点击标记添加到路线"
   },
+  "mapPage": {
+    "title": "异环互动地图",
+    "description": "异环互动地图提供全地图资源标记...",
+    "interactiveMap": "异环互动地图",
+    "allRegions": "全部区域",
+    "fullscreen": "全屏",
+    "nearbyMarkers": "附近标记 ({0})"
+  },
   "attributes": {
     "cosmos": "宇宙",
     "anima": "生命",
@@ -305,6 +403,13 @@
     "description": "异环常见问题解答，包含升级、材料、角色培养、战斗、抽卡等攻略",
     "relatedFaqs": "相关问题"
   },
+  "faqDetails": {
+    "relatedCharacters": "相关角色",
+    "relatedMaterials": "相关材料",
+    "searchPlaceholder": "搜索问题...",
+    "noMatching": "没有找到匹配的问题",
+    "tagsCount": "个标签"
+  },
   "guides": {
     "title": "异环攻略指南 - 新手入门到进阶全攻略",
     "description": "异环完整攻略指南，涵盖新手入门、元素反应、体力管理、抽卡策略、配队推荐等深度攻略",
@@ -314,6 +419,22 @@
     "relatedLocations": "相关地点",
     "relatedLore": "相关世界观",
     "tableOfContents": "目录"
+  },
+  "guideDetails": {
+    "relatedContent": "相关内容",
+    "gachaSystemGuide": "抽卡系统详解",
+    "bannerTypes": "卡池类型一览",
+    "no5050": "无50/50",
+    "sRank": "S级",
+    "aRank": "A级",
+    "bRank": "B级",
+    "hardPity": "硬保底",
+    "softPity": "软保底",
+    "avgPulls": "平均抽数",
+    "maxPulls": "最大抽数",
+    "selectorAt": "自选节点",
+    "featuredPity": "UP保底",
+    "faq": "常见问题"
   },
   "lore": {
     "title": "世界观",
@@ -337,6 +458,127 @@
     "plasma": "等离子",
     "solid": "固体",
     "synthesis": "合成"
+  },
+  "vehicles": {
+    "title": "载具",
+    "database": "载具图鉴",
+    "statistics": "载具统计",
+    "totalVehicles": "总载具数",
+    "fastest": "最快",
+    "mostExpensive": "最贵",
+    "freeVehicles": "免费载具",
+    "performanceStats": "性能属性",
+    "topSpeed": "极速",
+    "acceleration": "加速",
+    "shift": "变速",
+    "brake": "刹车",
+    "drift": "漂移",
+    "howToGet": "获取方式",
+    "backToList": "返回载具列表"
+  },
+  "anomalies": {
+    "title": "异象图鉴",
+    "boss": "Boss级异象",
+    "elite": "精英异象",
+    "normal": "普通异象",
+    "quickStats": "基本信息",
+    "category": "分类",
+    "location": "位置",
+    "weakness": "弱点分析",
+    "mechanics": "战斗机制",
+    "strategy": "推荐攻略",
+    "drops": "掉落物"
+  },
+  "tierList": {
+    "title": "角色强度排行",
+    "ssTier": "SS 级（最强）",
+    "sPlusTier": "S+ 级（极强）",
+    "sTier": "S 级（优秀）",
+    "aPlusTier": "A+ 级（良好）",
+    "aTier": "A 级（可用）",
+    "bTier": "B 级（一般）",
+    "notRated": "待评级 (N)",
+    "disclaimer": "评级基于游戏测试版本数据..."
+  },
+  "systemReqs": {
+    "title": "配置要求",
+    "pageTitle": "异环配置要求 — 你的设备能运行吗？",
+    "pageDescription": "异环(Neverness to Everness)全平台配置要求一览，包含 PC、Android、iOS 最低与推荐配置，下载大小和存储空间需求。",
+    "spec": "配置项",
+    "minimum": "最低配置",
+    "recommended": "推荐配置",
+    "pcTitle": "PC 配置要求",
+    "androidTitle": "Android 配置要求",
+    "iosTitle": "iOS 配置要求",
+    "storageTitle": "存储空间说明",
+    "pcStorage": "约 40 GB（推荐 SSD）",
+    "mobileStorage": "约 10-15 GB",
+    "pc": { "os": "操作系统", "cpu": "处理器", "ram": "内存", "gpu": "显卡", "storage": "存储空间" },
+    "android": { "cpu": "处理器", "ram": "内存", "os": "系统版本", "storage": "存储空间" },
+    "ios": { "device": "设备", "os": "系统版本", "storage": "存储空间" },
+    "storageDisclaimer": "以上为安装所需空间，后续版本更新可能需要额外空间。"
+  },
+  "diskSets": {
+    "title": "卡带图鉴",
+    "elemental": "元素专属卡带",
+    "general": "通用卡带",
+    "pcSet": "件套",
+    "setBonuses": "套装效果",
+    "recommendedCharacters": "推荐角色",
+    "elementalLabel": "元素专属",
+    "generalLabel": "通用"
+  },
+  "diskSetDetail": {
+    "setTitle": "套装效果 & 适用角色",
+    "setDescription": "件套效果"
+  },
+  "materialsDetail": {
+    "hunterGuide": "猎手指南",
+    "ascension": "角色突破",
+    "bossDrop": "Boss掉落",
+    "esper": "异能材料",
+    "arcAscension": "弧光突破",
+    "arcExp": "弧光经验",
+    "moduleExp": "模组经验",
+    "currency": "货币",
+    "calculateCost": "计算养成成本"
+  },
+  "materialTypes": {
+    "hunterGuide": "猎手指南",
+    "ascension": "角色突破",
+    "bossDrop": "Boss掉落",
+    "esper": "异能材料",
+    "arcAscension": "弧光突破",
+    "arcExp": "弧光经验",
+    "moduleExp": "模组经验",
+    "currency": "货币"
+  },
+  "materialDetail": {
+    "titleTemplate": "{name} 获取方式 & 用途",
+    "descriptionTemplate": "异环 {name} 获取方法、掉落地点..."
+  },
+  "dataStatus": {
+    "live": "以下数据基于 1.0 公测版本整理，如有出入以游戏内实际数据为准。",
+    "upcoming": "该角色尚未在当前版本实装，数据来源于前瞻直播和官方公告，可能会在正式上线时调整。",
+    "leaked": "该角色信息来源于数据挖掘，最终数据以官方公告为准。",
+    "beta": "以下数据基于测试版本整理，正式版本可能有所调整。"
+  },
+  "search": {
+    "placeholder": "搜索...",
+    "searchHint": "搜索角色、武器、攻略...",
+    "categories": {
+      "characters": "角色",
+      "weapons": "武器",
+      "materials": "材料",
+      "guides": "攻略",
+      "lore": "世界观",
+      "locations": "地点"
+    }
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "Page Not Found",
+    "backHome": "返回首页"
   },
   "blog": {
     "title": "博客",
@@ -383,9 +625,24 @@
       "official-launch": "公测"
     }
   },
+  "blogDetails": {
+    "relatedContent": "相关内容",
+    "relatedPosts": "推荐阅读"
+  },
   "changelog": {
     "title": "版本日志",
     "description": "异环版本更新日志，包含新角色、新功能、系统优化等完整更新内容"
+  },
+  "changelogDetails": {
+    "major": "大版本",
+    "minor": "小版本",
+    "fix": "修复",
+    "cn": "国服",
+    "global": "国际服",
+    "highlights": "更新亮点",
+    "compensation": "维护补偿",
+    "relatedLinks": "相关链接",
+    "backToList": "返回版本列表"
   },
   "compare": {
     "title": "游戏对比",
@@ -394,7 +651,39 @@
     "nteVsWuwa": "异环 vs 鸣潮",
     "gamesLikeNte": "类似异环的游戏"
   },
+  "compareDetails": {
+    "compare": "对比",
+    "gameCompare": "游戏对比",
+    "quickComparison": "快速对比",
+    "relatedContent": "相关内容"
+  },
   "comments": {
     "title": "玩家讨论区"
+  },
+  "kardz": {
+    "title": "异环国际服代充",
+    "subtitle": "安全便捷 · 即刻到账",
+    "badge": "推荐"
+  },
+  "footer": {
+    "tierList": "强度排行",
+    "contact": "联系我们",
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "disclaimer": "本站为玩家社区工具站，与官方无关"
+  },
+  "header": {
+    "joinDiscord": "加入 Discord 社区",
+    "joinReddit": "加入 Reddit 社区"
+  },
+  "quickLinks": {
+    "title": "快速导航："
+  },
+  "teamComps": {
+    "title": "队伍搭配"
+  },
+  "bossGuide": {
+    "title": "Boss攻略"
   }
 }

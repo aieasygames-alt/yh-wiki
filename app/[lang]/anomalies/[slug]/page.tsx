@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
@@ -58,8 +58,8 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
-          { label: isZhLocale(locale) ? "首页" : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? "异象图鉴" : "Anomalies", href: `/${lang}/anomalies` },
+          { label: t(locale, "common.home"), href: `/${lang}` },
+          { label: t(locale, "anomalies.title"), href: `/${lang}/anomalies` },
           { label: isZhLocale(locale) ? anomaly.name : anomaly.nameEn },
         ]}
       />
@@ -84,14 +84,14 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
 
         {/* Quick Stats */}
         <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8">
-          <h2 className="text-lg font-bold mb-3">{isZhLocale(locale) ? "基本信息" : "Quick Stats"}</h2>
+          <h2 className="text-lg font-bold mb-3">{t(locale, "anomalies.quickStats")}</h2>
           <table className="w-full text-sm">
             <tbody>
-              <InfoRow label={isZhLocale(locale) ? "类型" : "Type"} value={typeLabel} />
-              <InfoRow label={isZhLocale(locale) ? "分类" : "Category"} value={isZhLocale(locale) ? anomaly.categoryZh : anomaly.category} />
-              <InfoRow label={isZhLocale(locale) ? "属性" : "Attribute"} value={isZhLocale(locale) ? anomaly.attribute : anomaly.attributeEn} />
+              <InfoRow label={t(locale, "common.type")} value={typeLabel} />
+              <InfoRow label={t(locale, "anomalies.category")} value={isZhLocale(locale) ? anomaly.categoryZh : anomaly.category} />
+              <InfoRow label={t(locale, "common.element")} value={isZhLocale(locale) ? anomaly.attribute : anomaly.attributeEn} />
               {anomaly.hp && <InfoRow label="HP" value={anomaly.hp} />}
-              <InfoRow label={isZhLocale(locale) ? "位置" : "Location"} value={isZhLocale(locale) ? anomaly.location : anomaly.locationEn} />
+              <InfoRow label={t(locale, "anomalies.location")} value={isZhLocale(locale) ? anomaly.location : anomaly.locationEn} />
             </tbody>
           </table>
         </aside>
@@ -99,7 +99,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Weakness */}
         {anomaly.weakness && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{isZhLocale(locale) ? "弱点分析" : "Weakness"}</h2>
+            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.weakness")}</h2>
             <div className="rounded-lg border border-yellow-500/20 bg-yellow-500/5 p-5">
               <p className="text-gray-300">{isZhLocale(locale) ? anomaly.weakness : anomaly.weaknessEn}</p>
             </div>
@@ -109,7 +109,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Mechanics */}
         {anomaly.mechanics && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{isZhLocale(locale) ? "战斗机制" : "Mechanics"}</h2>
+            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.mechanics")}</h2>
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
               <p className="text-gray-300">{isZhLocale(locale) ? anomaly.mechanics : anomaly.mechanicsEn}</p>
             </div>
@@ -119,7 +119,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Strategy */}
         {anomaly.strategy && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{isZhLocale(locale) ? "推荐攻略" : "Strategy"}</h2>
+            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.strategy")}</h2>
             <div className="rounded-lg border border-primary-500/20 bg-primary-500/5 p-5">
               <p className="text-gray-300">{isZhLocale(locale) ? anomaly.strategy : anomaly.strategyEn}</p>
             </div>
@@ -129,7 +129,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Drops */}
         {anomaly.drops && anomaly.drops.length > 0 && (
           <section>
-            <h2 className="text-xl font-bold mb-4">{isZhLocale(locale) ? "掉落物" : "Drops"}</h2>
+            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.drops")}</h2>
             <div className="flex flex-wrap gap-2">
               {(isZhLocale(locale) ? anomaly.drops : anomaly.dropsEn || anomaly.drops).map((drop, i) => (
                 <span key={i} className="text-sm px-3 py-1 rounded-full border border-gray-700 bg-gray-800/50 text-gray-300">

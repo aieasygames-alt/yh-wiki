@@ -75,7 +75,7 @@ export default async function TeamsPage({
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           {
-            label: isZhLocale(locale) ? "队伍搭配" : "Team Compositions",
+            label: t(locale, "teamComps.title"),
           },
         ]}
       />

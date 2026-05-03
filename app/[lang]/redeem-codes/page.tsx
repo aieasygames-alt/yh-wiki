@@ -26,28 +26,28 @@ const codes = redeemCodesData as RedeemCode[];
 
 const STATUS_CONFIG = {
   active: {
-    label: { zh: "有效", tw: "有效", en: "Active" },
+    labelKey: "status.active",
     dot: "bg-green-400",
     border: "border-green-500/20",
     bg: "bg-green-500/5",
   },
   expired: {
-    label: { zh: "已过期", tw: "已過期", en: "Expired" },
+    labelKey: "status.expired",
     dot: "bg-gray-500",
     border: "border-gray-700",
     bg: "bg-gray-800/30 opacity-50",
   },
   unknown: {
-    label: { zh: "未知", tw: "未知", en: "Unknown" },
+    labelKey: "status.unknown",
     dot: "bg-yellow-400",
     border: "border-yellow-500/20",
     bg: "bg-yellow-500/5",
   },
 };
 
-const REGION_LABELS = {
-  cn: { zh: "国服", tw: "國服", en: "CN Server" },
-  global: { zh: "国际服", tw: "國際服", en: "Global Server" },
+const REGION_LABEL_KEYS = {
+  cn: "redeemCodesStatus.cnServer",
+  global: "redeemCodesStatus.globalServer",
 };
 
 export default function RedeemCodesPage() {
@@ -163,7 +163,7 @@ export default function RedeemCodesPage() {
           >
             {r === "all"
               ? t(lang, "redeemCodes.filter_all")
-              : `${REGION_LABELS[r][lang]} (${r === "cn" ? cnCount : globalCount})`}
+              : `${t(lang, REGION_LABEL_KEYS[r] as `redeemCodesStatus.${string}`)} (${r === "cn" ? cnCount : globalCount})`}
           </button>
         ))}
       </div>
@@ -192,10 +192,10 @@ export default function RedeemCodesPage() {
                         ? "bg-green-500/20 text-green-400"
                         : "bg-gray-700/50 text-gray-500"
                     }`}>
-                      {config.label[lang]}
+                      {t(lang, config.labelKey as `status.${string}`)}
                     </span>
                     <span className="text-xs px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
-                      {REGION_LABELS[code.region]?.[lang] || code.region}
+                      {t(lang, REGION_LABEL_KEYS[code.region as keyof typeof REGION_LABEL_KEYS] as `redeemCodesStatus.${string}`) || code.region}
                     </span>
                   </div>
                   <p className={`text-sm mb-1 ${isExpired ? "text-gray-600" : "text-gray-300"}`}>

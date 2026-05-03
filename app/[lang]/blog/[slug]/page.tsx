@@ -127,7 +127,7 @@ export default async function BlogDetailPage({
         {post.internalLinks.length > 0 && (
           <section className="mt-10 border-t border-gray-800 pt-6">
             <h2 className="text-lg font-bold mb-4">
-              {isZhLocale(locale) ? "相关内容" : "Related Content"}
+              {t(locale, "blogDetails.relatedContent")}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {post.internalLinks.map((link) => (
@@ -152,7 +152,7 @@ export default async function BlogDetailPage({
           return (
             <section className="mt-10 border-t border-gray-800 pt-6">
               <h2 className="text-lg font-bold mb-4">
-                {isZhLocale(locale) ? "推荐阅读" : "Related Posts"}
+                {t(locale, "blogDetails.relatedPosts")}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {related.map((rp) => (

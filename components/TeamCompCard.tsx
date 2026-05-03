@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { TeamComp } from "../lib/queries";
-import type { Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 interface TeamCompCardProps {
   teams: TeamComp[];
@@ -13,7 +13,7 @@ export function TeamCompCard({ teams, locale }: TeamCompCardProps) {
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
-        {locale === "en" ? "Recommended Teams" : "推荐阵容"}
+        {t(locale, "characters.teamComps")}
       </h2>
       <div className="grid gap-4 sm:grid-cols-2">
         {teams.map((team, i) => {

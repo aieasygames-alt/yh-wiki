@@ -3,7 +3,7 @@
 import { useState, useCallback } from "react";
 import Link from "next/link";
 import type { MapMarker, MarkerTypeInfo, ProgressMap } from "../lib/map-utils";
-import { isZhLocale, Locale } from "../lib/i18n";
+import { t, isZhLocale, Locale } from "../lib/i18n";
 import { getMaterialById } from "../lib/queries";
 
 interface MapMarkerDetailProps {
@@ -17,17 +17,17 @@ interface MapMarkerDetailProps {
   lang: Locale;
 }
 
-const RESPAWN_LABELS: Record<string, Record<string, string>> = {
-  once: { zh: "一次性", tw: "一次性", en: "One-time" },
-  daily: { zh: "每日刷新", tw: "每日刷新", en: "Daily Respawn" },
-  weekly: { zh: "每周刷新", tw: "每週刷新", en: "Weekly Respawn" },
+const RESPAWN_I18N_KEYS: Record<string, string> = {
+  once: "map.once",
+  daily: "map.daily",
+  weekly: "map.weekly",
 };
 
-const RARITY_LABELS: Record<number, Record<string, string>> = {
-  1: { zh: "普通", tw: "普通", en: "Common" },
-  2: { zh: "精致", tw: "精緻", en: "Exquisite" },
-  3: { zh: "珍贵", tw: "珍貴", en: "Precious" },
-  4: { zh: "华丽", tw: "華麗", en: "Luxurious" },
+const RARITY_I18N_KEYS: Record<number, string> = {
+  1: "map.common",
+  2: "map.exquisite",
+  3: "map.precious",
+  4: "map.luxurious",
 };
 
 export default function MapMarkerDetail({
@@ -69,14 +69,14 @@ export default function MapMarkerDetail({
         >
           {isZhLocale(lang) ? typeInfo?.label : typeInfo?.labelEn}
         </span>
-        {marker.rarity && RARITY_LABELS[marker.rarity] && (
+        {marker.rarity && RARITY_I18N_KEYS[marker.rarity] && (
           <span className="text-xs px-2 py-0.5 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">
-            {RARITY_LABELS[marker.rarity]?.[lang] || RARITY_LABELS[marker.rarity]?.zh}
+            {t(lang, RARITY_I18N_KEYS[marker.rarity])}
           </span>
         )}
-        {marker.respawn && RESPAWN_LABELS[marker.respawn] && (
+        {marker.respawn && RESPAWN_I18N_KEYS[marker.respawn] && (
           <span className="text-xs px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
-            {RESPAWN_LABELS[marker.respawn]?.[lang] || RESPAWN_LABELS[marker.respawn]?.zh}
+            {t(lang, RESPAWN_I18N_KEYS[marker.respawn])}
           </span>
         )}
       </div>
@@ -110,12 +110,8 @@ export default function MapMarkerDetail({
           className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-500 border border-gray-700 hover:text-gray-300 hover:border-gray-600 transition-colors"
         >
           {copied
-            ? isZhLocale(lang)
-              ? "已复制"
-              : "Copied"
-            : isZhLocale(lang)
-            ? "复制坐标"
-            : "Copy"}
+            ? t(lang, "common.copied")
+            : t(lang, "common.copy")}
         </button>
       </div>
 
@@ -123,7 +119,7 @@ export default function MapMarkerDetail({
       {marker.relatedMaterials.length > 0 && (
         <div className="mb-3">
           <p className="text-xs text-gray-500 mb-1.5">
-            {isZhLocale(lang) ? "掉落材料" : "Drop Materials"}
+            {t(lang, "map.relatedMaterials")}
           </p>
           <div className="flex flex-wrap gap-1.5">
             {marker.relatedMaterials.map((mId) => {
@@ -149,7 +145,7 @@ export default function MapMarkerDetail({
             href={marker.guideUrl}
             className="text-xs text-primary-400 hover:text-primary-300 underline transition-colors"
           >
-            {isZhLocale(lang) ? "查看攻略 →" : "View Guide →"}
+            {t(lang, "map.viewGuide")}
           </Link>
         </div>
       )}
@@ -158,9 +154,7 @@ export default function MapMarkerDetail({
       {nearbyMarkers.length > 0 && (
         <div className="mb-3">
           <p className="text-xs text-gray-500 mb-1.5">
-            {isZhLocale(lang)
-              ? `附近标记 (${nearbyMarkers.length})`
-              : `Nearby (${nearbyMarkers.length})`}
+            {t(lang, "map.nearbyMarkers", `${nearbyMarkers.length}`)}
           </p>
           <div className="space-y-1">
             {nearbyMarkers.slice(0, 5).map((nm) => {
@@ -200,18 +194,14 @@ export default function MapMarkerDetail({
           }`}
         >
           {isCollected
-            ? isZhLocale(lang)
-              ? "已收集 ✓"
-              : "Collected ✓"
-            : isZhLocale(lang)
-            ? "标记为已收集"
-            : "Mark as Collected"}
+            ? `${t(lang, "map.collected")} ✓`
+            : t(lang, "map.markCollected")}
         </button>
         <button
           onClick={onClose}
           className="text-xs px-3 py-2 text-gray-500 hover:text-gray-300 transition-colors"
         >
-          {isZhLocale(lang) ? "关闭" : "Close"}
+          {t(lang, "map.close")}
         </button>
       </div>
     </div>

@@ -41,7 +41,8 @@
     "ctaCalculator": "Use Calculator",
     "charactersSection": "All Characters",
     "materialsSection": "All Materials",
-    "viewAll": "View All"
+    "viewAll": "View All",
+    "sRankCharacters": "S-Rank Characters"
   },
   "characters": {
     "title": "NTE Characters",
@@ -395,5 +396,308 @@
   },
   "comments": {
     "title": "Player Discussion"
+  },
+  "common": {
+    "all": "All",
+    "clear": "Clear",
+    "close": "Close",
+    "home": "Home",
+    "name": "Name",
+    "role": "Role",
+    "element": "Element",
+    "rarity": "Rarity",
+    "weaponType": "Weapon Type",
+    "faction": "Faction",
+    "rank": "Rank",
+    "type": "Type",
+    "source": "Source",
+    "price": "Price",
+    "free": "Free",
+    "level": "Level",
+    "back": "Back",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyCoordinates": "Copy coordinates",
+    "recommended": "Recommended",
+    "items": "items",
+    "noResults": "No results found",
+    "typeToSearch": "Type to start searching"
+  },
+  "filter": {
+    "allAttributes": "All Attributes",
+    "allRanks": "All Ranks",
+    "allRoles": "All Roles",
+    "allRarities": "All Rarities",
+    "charactersCount": "characters",
+    "materialsCount": "materials",
+    "noMatching": "No matching characters",
+    "noMatchingMaterials": "No matching materials"
+  },
+  "status": {
+    "available": "Available",
+    "upcoming": "Upcoming",
+    "rumored": "Unconfirmed",
+    "active": "Active",
+    "expired": "Expired",
+    "unknown": "Unknown"
+  },
+  "roles": {
+    "attack": "Attack",
+    "support": "Support",
+    "defense": "Defense",
+    "assist": "Assist"
+  },
+  "characterSummary": {
+    "title": "Quick Stats",
+    "vaCn": "VA (CN)",
+    "vaJp": "VA (JP)"
+  },
+  "weaponSummary": {
+    "title": "Arc Disk Summary",
+    "obtain": "Obtain",
+    "bestFor": "Best For"
+  },
+  "vehicleTypes": {
+    "car": "Car",
+    "motorcycle": "Motorcycle",
+    "scooter": "Scooter",
+    "kart": "Kart"
+  },
+  "vehicles": {
+    "title": "Vehicles",
+    "database": "Vehicle Database",
+    "statistics": "Vehicle Statistics",
+    "totalVehicles": "Total Vehicles",
+    "fastest": "Fastest",
+    "mostExpensive": "Most Expensive",
+    "freeVehicles": "Free Vehicles",
+    "performanceStats": "Performance Stats",
+    "topSpeed": "Top Speed",
+    "acceleration": "Acceleration",
+    "shift": "Shift",
+    "brake": "Brake",
+    "drift": "Drift",
+    "howToGet": "How to Get",
+    "backToList": "Back to Vehicles"
+  },
+  "anomalies": {
+    "title": "Anomaly Guide",
+    "boss": "Boss Anomalies",
+    "elite": "Elite Anomalies",
+    "normal": "Normal Anomalies",
+    "quickStats": "Quick Stats",
+    "category": "Category",
+    "location": "Location",
+    "weakness": "Weakness",
+    "mechanics": "Mechanics",
+    "strategy": "Strategy",
+    "drops": "Drops"
+  },
+  "tierList": {
+    "title": "Tier List",
+    "ssTier": "SS Tier (Best)",
+    "sPlusTier": "S+ Tier (Excellent)",
+    "sTier": "S Tier (Great)",
+    "aPlusTier": "A+ Tier (Good)",
+    "aTier": "A Tier (Viable)",
+    "bTier": "B Tier (Average)",
+    "notRated": "Not Rated (N)",
+    "disclaimer": "Ratings based on game test version data..."
+  },
+  "systemReqs": {
+    "title": "System Requirements",
+    "pageTitle": "NTE System Requirements — Can Your Device Run It?",
+    "pageDescription": "Complete system requirements for Neverness to Everness on PC, Android, and iOS — minimum and recommended specs, download size, and storage.",
+    "spec": "Spec",
+    "minimum": "Minimum",
+    "recommended": "Recommended",
+    "pcTitle": "PC Requirements",
+    "androidTitle": "Android Requirements",
+    "iosTitle": "iOS Requirements",
+    "storageTitle": "Storage Size",
+    "pcStorage": "~40 GB (SSD recommended)",
+    "mobileStorage": "~10-15 GB",
+    "pc": {
+      "os": "OS",
+      "cpu": "CPU",
+      "ram": "RAM",
+      "gpu": "GPU",
+      "storage": "Storage"
+    },
+    "android": {
+      "cpu": "SoC",
+      "ram": "RAM",
+      "os": "OS",
+      "storage": "Storage"
+    },
+    "storageDisclaimer": "Sizes above are for initial installation. Future updates may require additional space.",
+    "ios": {
+      "device": "Device",
+      "os": "OS",
+      "storage": "Storage"
+    }
+  },
+  "changelogDetails": {
+    "major": "Major",
+    "minor": "Minor",
+    "fix": "Fix",
+    "cn": "CN",
+    "global": "Global",
+    "highlights": "Highlights",
+    "compensation": "Maintenance Compensation",
+    "relatedLinks": "Related Links",
+    "backToList": "Back to Changelog"
+  },
+  "blogDetails": {
+    "relatedContent": "Related Content",
+    "relatedPosts": "Related Posts"
+  },
+  "guideDetails": {
+    "relatedContent": "Related Content",
+    "gachaSystemGuide": "Gacha System Guide",
+    "bannerTypes": "Banner Types Overview",
+    "no5050": "No 50/50",
+    "sRank": "S-Rank",
+    "aRank": "A-Rank",
+    "bRank": "B-Rank",
+    "hardPity": "Hard Pity",
+    "softPity": "Soft Pity",
+    "avgPulls": "Avg Pulls",
+    "maxPulls": "Max Pulls",
+    "selectorAt": "Selector At",
+    "featuredPity": "Featured Pity",
+    "faq": "FAQ"
+  },
+  "faqDetails": {
+    "relatedCharacters": "Related Characters",
+    "relatedMaterials": "Related Materials",
+    "searchPlaceholder": "Search questions...",
+    "noMatching": "No matching questions found",
+    "tagsCount": "tags"
+  },
+  "compareDetails": {
+    "compare": "Compare",
+    "gameCompare": "Compare",
+    "quickComparison": "Quick Comparison",
+    "relatedContent": "Related Content"
+  },
+  "diskSets": {
+    "title": "Cartridge Sets",
+    "elemental": "Elemental Cartridges",
+    "general": "General Cartridges",
+    "pcSet": "-pc",
+    "setBonuses": "Set Bonuses",
+    "recommendedCharacters": "Recommended Characters",
+    "elementalLabel": "Elemental",
+    "generalLabel": "General"
+  },
+  "materialsDetail": {
+    "hunterGuide": "Guide",
+    "ascension": "Ascension",
+    "bossDrop": "Boss Drop",
+    "esper": "Esper",
+    "arcAscension": "Arc Ascension",
+    "arcExp": "Arc EXP",
+    "moduleExp": "Module EXP",
+    "currency": "Currency",
+    "calculateCost": "Calculate Farming Cost"
+  },
+  "materialTypes": {
+    "hunterGuide": "Guide",
+    "ascension": "Ascension",
+    "bossDrop": "Boss Drop",
+    "esper": "Esper",
+    "arcAscension": "Arc Ascension",
+    "arcExp": "Arc EXP",
+    "moduleExp": "Module EXP",
+    "currency": "Currency"
+  },
+  "redeemCodesStatus": {
+    "active": "Active",
+    "expired": "Expired",
+    "unknown": "Unknown",
+    "cnServer": "CN Server",
+    "globalServer": "Global Server",
+    "timeLeft": "{0} left",
+    "faqTitle": "Redeem Code FAQ"
+  },
+  "dataStatus": {
+    "live": "Data below is based on version 1.0. Actual in-game data may differ.",
+    "upcoming": "This character is not yet available in the current version. Data sourced from livestreams and official announcements.",
+    "leaked": "This character's data is sourced from datamining. Official data may differ.",
+    "beta": "Data below is based on the test version. Final version may differ."
+  },
+  "search": {
+    "placeholder": "Search...",
+    "searchHint": "Search characters, weapons, guides...",
+    "categories": {
+      "characters": "Characters",
+      "weapons": "Weapons",
+      "materials": "Materials",
+      "guides": "Guides",
+      "lore": "Lore",
+      "locations": "Locations"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Page Not Found",
+    "backHome": "Back to Home"
+  },
+  "gachaSystem": {
+    "pityMechanism": "Pity Mechanism",
+    "optimalStrategy": "Optimal Strategy",
+    "beginnerPriority": "Beginner Priority",
+    "standardAccumulate": "Standard Accumulation",
+    "limitedOnDemand": "Limited On Demand",
+    "weaponBudget": "Weapon Budget",
+    "tierListLink": "Tier List",
+    "simulatorLink": "Gacha Simulator",
+    "beginnerGuideLink": "Beginner Guide"
+  },
+  "gachaDetails": {
+    "clearConfirm": "Are you sure you want to clear all pull history?"
+  },
+  "kardz": {
+    "title": "NTE Global Recharge",
+    "subtitle": "Safe & Fast Top-up",
+    "badge": "Recommended"
+  },
+  "footer": {
+    "tierList": "Tier List",
+    "contact": "Contact Us",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "This is a fan-made community site, not affiliated with the official game."
+  },
+  "header": {
+    "joinDiscord": "Join Discord",
+    "joinReddit": "Join Reddit"
+  },
+  "quickLinks": {
+    "title": "Quick Links:"
+  },
+  "teamComps": {
+    "title": "Team Compositions"
+  },
+  "bossGuide": {
+    "title": "Boss Guide"
+  },
+  "mapPage": {
+    "title": "NTE Interactive Map",
+    "description": "NTE interactive map with full resource markers...",
+    "interactiveMap": "NTE Interactive Map",
+    "allRegions": "All Regions",
+    "fullscreen": "Fullscreen",
+    "nearbyMarkers": "Nearby markers ({0})"
+  },
+  "diskSetDetail": {
+    "setTitle": "Set Bonuses & Best Characters",
+    "setDescription": "-Piece Bonus"
+  },
+  "materialDetail": {
+    "titleTemplate": "{name} - Source & Usage",
+    "descriptionTemplate": "NTE {name} source, drops and usage..."
   }
 }

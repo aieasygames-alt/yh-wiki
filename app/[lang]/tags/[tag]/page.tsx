@@ -92,7 +92,7 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">#{tag}</h1>
         <p className="text-gray-500 mb-8">
-          {matched.length} {isZhLocale(locale) ? "个相关内容" : "items"}
+          {matched.length} {t(locale, "common.items")}
         </p>
 
         {Object.entries(grouped).map(([type, items]) => (

@@ -179,7 +179,7 @@ export default function GachaPage() {
 
   const handleReset = useCallback(() => {
     if (stats.total === 0) return;
-    if (!confirm(isZhLocale(lang) ? "确定要清除所有抽卡记录吗？" : "Are you sure you want to clear all pull history?")) return;
+    if (!confirm(t(lang, "gachaDetails.clearConfirm"))) return;
     setHistory([]);
     setResults([]);
     setStats({ total: 0, s5Count: 0, s4Count: 0, pityHistory: [] });

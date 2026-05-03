@@ -46,10 +46,10 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
   };
 
   const typeLabel = cl.type === "major"
-    ? (isZhLocale(locale) ? "大版本" : "Major")
+    ? t(locale, "changelogDetails.major")
     : cl.type === "minor"
-    ? (isZhLocale(locale) ? "小版本" : "Minor")
-    : (isZhLocale(locale) ? "修复" : "Fix");
+    ? t(locale, "changelogDetails.minor")
+    : t(locale, "changelogDetails.fix");
 
   return (
     <>
@@ -72,8 +72,8 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
             </span>
           </div>
           <div className="flex items-center gap-4 text-sm text-gray-500">
-            <span>{isZhLocale(locale) ? "国服" : "CN"}: {cl.date}</span>
-            {cl.dateGlobal && <span>{isZhLocale(locale) ? "国际服" : "Global"}: {cl.dateGlobal}</span>}
+            <span>{t(locale, "changelogDetails.cn")}: {cl.date}</span>
+            {cl.dateGlobal && <span>{t(locale, "changelogDetails.global")}: {cl.dateGlobal}</span>}
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         {highlights && highlights.length > 0 && (
           <div className="rounded-xl border border-yellow-500/20 bg-yellow-500/5 p-4 mb-8">
             <h2 className="text-sm font-bold text-yellow-400 mb-2">
-              {isZhLocale(locale) ? "更新亮点" : "Highlights"}
+              {t(locale, "changelogDetails.highlights")}
             </h2>
             <ul className="space-y-1">
               {highlights.map((h, i) => (
@@ -131,7 +131,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         {cl.compensation && (
           <div className="rounded-xl border border-primary-500/20 bg-primary-500/5 p-4 mb-8">
             <h2 className="text-sm font-bold text-primary-400 mb-1">
-              {isZhLocale(locale) ? "维护补偿" : "Maintenance Compensation"}
+              {t(locale, "changelogDetails.compensation")}
             </h2>
             <p className="text-sm text-gray-300">{locale === "en" ? cl.compensationEn : cl.compensation}</p>
           </div>
@@ -141,7 +141,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         {cl.internalLinks && cl.internalLinks.length > 0 && (
           <div className="mt-8 pt-4 border-t border-gray-800">
             <h3 className="text-sm font-bold text-gray-400 mb-2">
-              {isZhLocale(locale) ? "相关链接" : "Related Links"}
+              {t(locale, "changelogDetails.relatedLinks")}
             </h3>
             <div className="flex flex-wrap gap-2">
               {cl.internalLinks.map((link) => (
@@ -160,7 +160,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         {/* Back */}
         <div className="mt-8">
           <Link href={`/${lang}/changelog`} className="text-sm text-primary-400 hover:underline">
-            ← {isZhLocale(locale) ? "返回版本列表" : "Back to Changelog"}
+            ← {t(locale, "changelogDetails.backToList")}
           </Link>
         </div>
       </div>

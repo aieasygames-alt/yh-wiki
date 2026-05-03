@@ -41,7 +41,8 @@
     "ctaCalculator": "使用計算器",
     "charactersSection": "全部角色",
     "materialsSection": "全部材料",
-    "viewAll": "檢視全部"
+    "viewAll": "檢視全部",
+    "sRankCharacters": "S 級角色"
   },
   "characters": {
     "title": "角色列表",
@@ -395,5 +396,308 @@
   },
   "comments": {
     "title": "玩家討論區"
+  },
+  "common": {
+    "all": "全部",
+    "clear": "清除",
+    "close": "關閉",
+    "home": "首頁",
+    "name": "名稱",
+    "role": "定位",
+    "element": "屬性",
+    "rarity": "稀有度",
+    "weaponType": "武器類型",
+    "faction": "陣營",
+    "rank": "稀有度",
+    "type": "類型",
+    "source": "來源",
+    "price": "價格",
+    "free": "免費",
+    "level": "等級",
+    "back": "返回",
+    "copy": "複製",
+    "copied": "已複製",
+    "copyCoordinates": "複製座標",
+    "recommended": "推薦",
+    "items": "個相關內容",
+    "noResults": "沒有找到結果",
+    "typeToSearch": "輸入關鍵詞開始搜尋"
+  },
+  "filter": {
+    "allAttributes": "全部屬性",
+    "allRanks": "全部等級",
+    "allRoles": "全部定位",
+    "allRarities": "全部稀有度",
+    "charactersCount": "個角色",
+    "materialsCount": "個材料",
+    "noMatching": "沒有匹配的角色",
+    "noMatchingMaterials": "沒有匹配的材料"
+  },
+  "status": {
+    "available": "當前可玩",
+    "upcoming": "即將登場",
+    "rumored": "數據待確認",
+    "active": "有效",
+    "expired": "已過期",
+    "unknown": "未知"
+  },
+  "roles": {
+    "attack": "進攻",
+    "support": "支援",
+    "defense": "防護",
+    "assist": "輔助"
+  },
+  "characterSummary": {
+    "title": "角色概覽",
+    "vaCn": "中文配音",
+    "vaJp": "日文配音"
+  },
+  "weaponSummary": {
+    "title": "弧盤概覽",
+    "obtain": "獲取方式",
+    "bestFor": "適配角色"
+  },
+  "vehicleTypes": {
+    "car": "轎車",
+    "motorcycle": "摩托車",
+    "scooter": "小型摩托",
+    "kart": "卡丁車"
+  },
+  "vehicles": {
+    "title": "載具",
+    "database": "載具圖鑑",
+    "statistics": "載具統計",
+    "totalVehicles": "總載具數",
+    "fastest": "最快",
+    "mostExpensive": "最貴",
+    "freeVehicles": "免費載具",
+    "performanceStats": "效能屬性",
+    "topSpeed": "極速",
+    "acceleration": "加速",
+    "shift": "變速",
+    "brake": "剎車",
+    "drift": "漂移",
+    "howToGet": "獲取方式",
+    "backToList": "返回載具列表"
+  },
+  "anomalies": {
+    "title": "異象圖鑑",
+    "boss": "Boss級異象",
+    "elite": "精英異象",
+    "normal": "普通異象",
+    "quickStats": "基本資訊",
+    "category": "分類",
+    "location": "位置",
+    "weakness": "弱點分析",
+    "mechanics": "戰鬥機制",
+    "strategy": "推薦攻略",
+    "drops": "掉落物"
+  },
+  "tierList": {
+    "title": "角色強度排行",
+    "ssTier": "SS 級（最強）",
+    "sPlusTier": "S+ 級（極強）",
+    "sTier": "S 級（優秀）",
+    "aPlusTier": "A+ 級（良好）",
+    "aTier": "A 級（可用）",
+    "bTier": "B 級（一般）",
+    "notRated": "待評級 (N)",
+    "disclaimer": "評級基於遊戲測試版本數據..."
+  },
+  "systemReqs": {
+    "title": "配置要求",
+    "pageTitle": "異環配置要求 — 你的裝置能運行嗎？",
+    "pageDescription": "異環(Neverness to Everness)全平台配置要求一覽，包含 PC、Android、iOS 最低與推薦配置，下載大小和儲存空間需求。",
+    "spec": "配置項",
+    "minimum": "最低配置",
+    "recommended": "推薦配置",
+    "pcTitle": "PC 配置要求",
+    "androidTitle": "Android 配置要求",
+    "iosTitle": "iOS 配置要求",
+    "storageTitle": "儲存空間說明",
+    "pcStorage": "約 40 GB（推薦 SSD）",
+    "mobileStorage": "約 10-15 GB",
+    "pc": {
+      "os": "操作系統",
+      "cpu": "處理器",
+      "ram": "記憶體",
+      "gpu": "顯示卡",
+      "storage": "儲存空間"
+    },
+    "android": {
+      "cpu": "處理器",
+      "ram": "記憶體",
+      "os": "系統版本",
+      "storage": "儲存空間"
+    },
+    "ios": {
+      "device": "裝置",
+      "os": "系統版本",
+      "storage": "儲存空間"
+    },
+    "storageDisclaimer": "以上為安裝所需空間，後續版本更新可能需要額外空間。"
+  },
+  "changelogDetails": {
+    "major": "大版本",
+    "minor": "小版本",
+    "fix": "修復",
+    "cn": "國服",
+    "global": "國際服",
+    "highlights": "更新亮點",
+    "compensation": "維護補償",
+    "relatedLinks": "相關連結",
+    "backToList": "返回版本列表"
+  },
+  "blogDetails": {
+    "relatedContent": "相關內容",
+    "relatedPosts": "推薦閱讀"
+  },
+  "guideDetails": {
+    "relatedContent": "相關內容",
+    "gachaSystemGuide": "抽卡系統詳解",
+    "bannerTypes": "卡池類型一覽",
+    "no5050": "無50/50",
+    "sRank": "S級",
+    "aRank": "A級",
+    "bRank": "B級",
+    "hardPity": "硬保底",
+    "softPity": "軟保底",
+    "avgPulls": "平均抽數",
+    "maxPulls": "最大抽數",
+    "selectorAt": "自選節點",
+    "featuredPity": "UP保底",
+    "faq": "常見問題"
+  },
+  "faqDetails": {
+    "relatedCharacters": "相關角色",
+    "relatedMaterials": "相關材料",
+    "searchPlaceholder": "搜尋問題...",
+    "noMatching": "沒有找到匹配的問題",
+    "tagsCount": "個標籤"
+  },
+  "compareDetails": {
+    "compare": "對比",
+    "gameCompare": "遊戲對比",
+    "quickComparison": "快速對比",
+    "relatedContent": "相關內容"
+  },
+  "diskSets": {
+    "title": "卡帶圖鑑",
+    "elemental": "元素專屬卡帶",
+    "general": "通用卡帶",
+    "pcSet": "件套",
+    "setBonuses": "套裝效果",
+    "recommendedCharacters": "推薦角色",
+    "elementalLabel": "元素專屬",
+    "generalLabel": "通用"
+  },
+  "materialsDetail": {
+    "hunterGuide": "獵手指南",
+    "ascension": "角色突破",
+    "bossDrop": "Boss掉落",
+    "esper": "異能材料",
+    "arcAscension": "弧光突破",
+    "arcExp": "弧光經驗",
+    "moduleExp": "模組經驗",
+    "currency": "貨幣",
+    "calculateCost": "計算養成成本"
+  },
+  "materialTypes": {
+    "hunterGuide": "獵手指南",
+    "ascension": "角色突破",
+    "bossDrop": "Boss掉落",
+    "esper": "異能材料",
+    "arcAscension": "弧光突破",
+    "arcExp": "弧光經驗",
+    "moduleExp": "模組經驗",
+    "currency": "貨幣"
+  },
+  "redeemCodesStatus": {
+    "active": "有效",
+    "expired": "已過期",
+    "unknown": "未知",
+    "cnServer": "國服",
+    "globalServer": "國際服",
+    "timeLeft": "剩餘 {0}",
+    "faqTitle": "兌換碼常見問題"
+  },
+  "dataStatus": {
+    "live": "以下資料基於 1.0 公測版本整理，如有出入以遊戲內實際資料為準。",
+    "upcoming": "該角色尚未在當前版本實裝，資料來源於前瞻直播和官方公告，可能會在正式上線時調整。",
+    "leaked": "該角色資訊來源於資料探勘，最終資料以官方公告為準。",
+    "beta": "以下資料基於測試版本整理，正式版本可能有所調整。"
+  },
+  "search": {
+    "placeholder": "搜尋...",
+    "searchHint": "搜尋角色、武器、攻略...",
+    "categories": {
+      "characters": "角色",
+      "weapons": "武器",
+      "materials": "材料",
+      "guides": "攻略",
+      "lore": "世界觀",
+      "locations": "地點"
+    }
+  },
+  "notFound": {
+    "title": "頁面未找到",
+    "description": "Page Not Found",
+    "backHome": "返回首頁"
+  },
+  "gachaSystem": {
+    "pityMechanism": "保底機制詳解",
+    "optimalStrategy": "最優抽卡策略",
+    "beginnerPriority": "新手池優先",
+    "standardAccumulate": "常駐池自然積累",
+    "limitedOnDemand": "限定池按需抽取",
+    "weaponBudget": "武器池量力而行",
+    "tierListLink": "Tier List 角色排行",
+    "simulatorLink": "抽卡模擬器",
+    "beginnerGuideLink": "新手攻略"
+  },
+  "gachaDetails": {
+    "clearConfirm": "確定要清除所有抽卡紀錄嗎？"
+  },
+  "kardz": {
+    "title": "異環國際服代儲",
+    "subtitle": "安全便捷 · 即刻到帳",
+    "badge": "推薦"
+  },
+  "footer": {
+    "tierList": "強度排行",
+    "contact": "聯絡我們",
+    "about": "關於我們",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "disclaimer": "本站為玩家社群工具站，與官方無關"
+  },
+  "header": {
+    "joinDiscord": "加入 Discord 社群",
+    "joinReddit": "加入 Reddit 社群"
+  },
+  "quickLinks": {
+    "title": "快速導航："
+  },
+  "teamComps": {
+    "title": "隊伍搭配"
+  },
+  "bossGuide": {
+    "title": "Boss攻略"
+  },
+  "mapPage": {
+    "title": "異環互動地圖",
+    "description": "異環互動地圖提供全地圖資源標記...",
+    "interactiveMap": "異環互動地圖",
+    "allRegions": "全部區域",
+    "fullscreen": "全螢幕",
+    "nearbyMarkers": "附近標記 ({0})"
+  },
+  "diskSetDetail": {
+    "setTitle": "套裝效果 & 適用角色",
+    "setDescription": "件套效果"
+  },
+  "materialDetail": {
+    "titleTemplate": "{name} 取得方式 & 用途",
+    "descriptionTemplate": "異環 {name} 取得方法、掉落地點..."
   }
 }

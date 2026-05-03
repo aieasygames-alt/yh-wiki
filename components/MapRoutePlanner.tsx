@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import type { MapMarker, MarkerTypeInfo } from "../lib/map-utils";
-import { isZhLocale, Locale } from "../lib/i18n";
+import { t, isZhLocale, Locale } from "../lib/i18n";
 
 interface MapRoutePlannerProps {
   markers: MapMarker[];
@@ -90,7 +90,7 @@ export default function MapRoutePlanner({
       {/* Header */}
       <div className="flex items-center justify-between px-3 py-2 border-b border-gray-800">
         <span className="text-xs font-medium text-gray-300">
-          {isZhLocale(lang) ? "路线规划" : "Route Planner"}
+          {t(lang, "map.routePlanner")}
         </span>
         <div className="flex gap-1.5">
           {routeMarkerIds.length > 0 && (
@@ -98,22 +98,22 @@ export default function MapRoutePlanner({
               <button
                 onClick={handleOptimize}
                 className="text-[10px] px-2 py-1 rounded bg-indigo-500/20 text-indigo-400 hover:bg-indigo-500/30 transition-colors"
-                title={isZhLocale(lang) ? "优化顺序" : "Optimize order"}
+                title={t(lang, "map.optimizeRoute")}
               >
-                {isZhLocale(lang) ? "优化" : "Optimize"}
+                {t(lang, "map.optimizeRoute")}
               </button>
               <button
                 onClick={handleShare}
                 className="text-[10px] px-2 py-1 rounded bg-gray-800 text-gray-400 hover:text-gray-300 transition-colors"
-                title={isZhLocale(lang) ? "分享路线" : "Share route"}
+                title={t(lang, "map.shareRoute")}
               >
-                {isZhLocale(lang) ? "分享" : "Share"}
+                {t(lang, "map.shareRoute")}
               </button>
               <button
                 onClick={() => onRouteChange([])}
                 className="text-[10px] px-2 py-1 rounded bg-gray-800 text-red-400/70 hover:text-red-400 transition-colors"
               >
-                {isZhLocale(lang) ? "清空" : "Clear"}
+                {t(lang, "map.clearRoute")}
               </button>
             </>
           )}
@@ -123,9 +123,7 @@ export default function MapRoutePlanner({
       {/* Route list */}
       {routeMarkerIds.length === 0 ? (
         <div className="px-3 py-3 text-xs text-gray-600 text-center">
-          {isZhLocale(lang)
-            ? "点击标记添加到路线"
-            : "Click markers to add to route"}
+          {t(lang, "map.clickToAddRoute")}
         </div>
       ) : (
         <div className="max-h-48 overflow-y-auto">
@@ -157,7 +155,7 @@ export default function MapRoutePlanner({
           })}
           {totalDistance > 0 && (
             <div className="px-3 py-1.5 border-t border-gray-800/50 text-[10px] text-gray-500">
-              {isZhLocale(lang) ? "总距离" : "Total distance"}: {totalDistance}
+              {t(lang, "map.totalDistance")}: {totalDistance}
             </div>
           )}
         </div>

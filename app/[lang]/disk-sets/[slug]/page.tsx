@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
 import { getDiskSet, getAllDiskSets, getAllCharacters } from "../../../../lib/queries";
 import { getAttributeLabel, getAttributeColor } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
@@ -45,8 +45,8 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
-          { label: isZhLocale(locale) ? "首页" : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? "卡带" : "Cartridges", href: `/${lang}/disk-sets` },
+          { label: t(locale, "common.home"), href: `/${lang}` },
+          { label: t(locale, "site.nav.cassettes"), href: `/${lang}/disk-sets` },
           { label: isZhLocale(locale) ? set.name : set.nameEn },
         ]}
       />
@@ -72,8 +72,8 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
                 </span>
                 <span className={`text-xs px-3 py-1 rounded-full border ${set.category === "elemental" ? "bg-purple-500/20 text-purple-400 border-purple-500/30" : "bg-blue-500/20 text-blue-400 border-blue-500/30"}`}>
                   {set.category === "elemental"
-                    ? (isZhLocale(locale) ? "元素专属" : "Elemental")
-                    : (isZhLocale(locale) ? "通用" : "General")}
+                    ? t(locale, "diskSets.elementalLabel")
+                    : t(locale, "diskSets.generalLabel")}
                 </span>
                 {set.element && (
                   <span className={`text-xs px-3 py-1 rounded-full border ${getAttributeColor(set.element)}`}>
@@ -88,15 +88,15 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         {/* Set Bonuses */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {isZhLocale(locale) ? "套装效果" : "Set Bonuses"}
+            {t(locale, "diskSets.setBonuses")}
           </h2>
           <div className="space-y-4">
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
-              <h3 className="text-primary-400 font-semibold mb-2">2{isZhLocale(locale) ? "件套效果" : "-Piece Bonus"}</h3>
+              <h3 className="text-primary-400 font-semibold mb-2">2{t(locale, "diskSetDetail.setDescription")}</h3>
               <p className="text-gray-300">{isZhLocale(locale) ? set.setDescription2pc : set.setDescription2pcEn}</p>
             </div>
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
-              <h3 className="text-primary-400 font-semibold mb-2">4{isZhLocale(locale) ? "件套效果" : "-Piece Bonus"}</h3>
+              <h3 className="text-primary-400 font-semibold mb-2">4{t(locale, "diskSetDetail.setDescription")}</h3>
               <p className="text-gray-300">{isZhLocale(locale) ? set.setDescription4pc : set.setDescription4pcEn}</p>
             </div>
           </div>
@@ -105,7 +105,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         {/* Recommended Characters */}
         <section>
           <h2 className="text-xl font-bold mb-4">
-            {isZhLocale(locale) ? "推荐角色" : "Recommended Characters"}
+            {t(locale, "diskSets.recommendedCharacters")}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {set.characters.map((cid) => {

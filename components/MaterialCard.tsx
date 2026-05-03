@@ -1,35 +1,15 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
-import type { Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
-const TYPE_LABELS: Record<Locale, Record<string, string>> = {
-  zh: {
-    resonance: "共鸣材料",
-    nucleus: "核心材料",
-    permit: "许可证明",
-    drop: "掉落物",
-    currency: "货币",
-    domain: "领域材料",
-    manual: "教材",
-  },
-  tw: {
-    resonance: "共鳴材料",
-    nucleus: "核心材料",
-    permit: "許可證明",
-    drop: "掉落物",
-    currency: "貨幣",
-    domain: "領域材料",
-    manual: "教材",
-  },
-  en: {
-    resonance: "Resonance",
-    nucleus: "Nucleus",
-    permit: "Permit",
-    drop: "Drop",
-    currency: "Currency",
-    domain: "Domain",
-    manual: "Manual",
-  },
+const TYPE_I18N_KEYS: Record<string, string> = {
+  resonance: "types.resonance",
+  nucleus: "types.nucleus",
+  permit: "types.permit",
+  drop: "types.drop",
+  currency: "types.currency",
+  domain: "types.domain",
+  manual: "types.manual",
 };
 
 interface MaterialCardProps {
@@ -67,7 +47,7 @@ export function MaterialCard({
       {showType ? (
         <div className="flex items-center gap-2 mt-2">
           <span className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400">
-            {TYPE_LABELS[locale][type] || type}
+            {TYPE_I18N_KEYS[type] ? t(locale, TYPE_I18N_KEYS[type]) : type}
           </span>
           <span className="text-xs text-yellow-500">
             {"★".repeat(rarity)}

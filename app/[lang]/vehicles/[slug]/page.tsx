@@ -88,7 +88,7 @@ export default async function VehicleDetailPage({
       : vehicle.price >= 1000
         ? `${(vehicle.price / 1000).toFixed(0)}K Fons`
         : `${vehicle.price} Fons`)
-    : (isZhLocale(locale) ? "免费" : "Free");
+    : (t(locale, "common.free"));
 
   return (
     <>
@@ -105,7 +105,7 @@ export default async function VehicleDetailPage({
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: isZhLocale(locale) ? "载具" : "Vehicles", href: `/${lang}/vehicles` },
+          { label: t(locale, "vehicles.title"), href: `/${lang}/vehicles` },
           { label: isZhLocale(locale) ? vehicle.name : vehicle.nameEn },
         ]}
       />
@@ -143,36 +143,36 @@ export default async function VehicleDetailPage({
         {/* Performance Stats */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {isZhLocale(locale) ? "性能属性" : "Performance Stats"}
+            {t(locale, "vehicles.performanceStats")}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4 space-y-3">
             <div className="flex items-center gap-3">
-              <span className="text-sm text-gray-400 w-20 shrink-0">{isZhLocale(locale) ? "极速" : "Top Speed"}</span>
+              <span className="text-sm text-gray-400 w-20 shrink-0">{t(locale, "vehicles.topSpeed")}</span>
               <div className="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
                 <div className="h-full bg-red-500" style={{ width: `${Math.min((vehicle.topSpeed / 220) * 100, 100)}%` }}></div>
               </div>
               <span className="text-sm font-bold text-red-400 w-20 text-right">{vehicle.topSpeed} km/h</span>
             </div>
-            <StatBar label={isZhLocale(locale) ? "加速" : "Acceleration"} value={vehicle.stats.acceleration} />
-            <StatBar label={isZhLocale(locale) ? "变速" : "Shift"} value={vehicle.stats.shift} />
-            <StatBar label={isZhLocale(locale) ? "刹车" : "Brake"} value={vehicle.stats.brake} />
-            <StatBar label={isZhLocale(locale) ? "漂移" : "Drift"} value={vehicle.stats.drift} />
+            <StatBar label={t(locale, "vehicles.acceleration")} value={vehicle.stats.acceleration} />
+            <StatBar label={t(locale, "vehicles.shift")} value={vehicle.stats.shift} />
+            <StatBar label={t(locale, "vehicles.brake")} value={vehicle.stats.brake} />
+            <StatBar label={t(locale, "vehicles.drift")} value={vehicle.stats.drift} />
           </div>
         </section>
 
         {/* Acquisition */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {isZhLocale(locale) ? "获取方式" : "How to Get"}
+            {t(locale, "vehicles.howToGet")}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-400">{isZhLocale(locale) ? "来源" : "Source"}</p>
+                <p className="text-sm text-gray-400">{t(locale, "common.source")}</p>
                 <p className="font-medium">{sourceLabel}</p>
               </div>
               <div className="text-right">
-                <p className="text-sm text-gray-400">{isZhLocale(locale) ? "价格" : "Price"}</p>
+                <p className="text-sm text-gray-400">{t(locale, "common.price")}</p>
                 <p className="font-medium text-primary-400">{priceLabel}</p>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default async function VehicleDetailPage({
             href={`/${lang}/vehicles`}
             className="inline-block px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-medium transition-colors"
           >
-            {isZhLocale(locale) ? "← 返回载具列表" : "← Back to Vehicles"}
+            {`← ${t(locale, "vehicles.backToList")}`}
           </Link>
         </div>
       </div>

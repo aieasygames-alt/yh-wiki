@@ -1,6 +1,6 @@
 "use client";
 
-import { isZhLocale, type Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 const KARDZ_URL = "https://kardzntewiki.kardz.cn/detail/1578299835";
 
@@ -10,12 +10,9 @@ interface KardzPromoCardProps {
 }
 
 export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps) {
-  const isTw = locale === "tw";
-  const isZh = isZhLocale(locale);
-
-  const title = isTw ? "異環國際服代儲" : isZh ? "异环国际服代充" : "NTE Global Recharge";
-  const desc = isTw ? "安全便捷 · 即刻到帳" : isZh ? "安全便捷 · 即刻到账" : "Safe & Fast Top-up";
-  const tag = isTw ? "推薦" : isZh ? "推荐" : "Recommended";
+  const title = t(locale, "kardz.title");
+  const desc = t(locale, "kardz.subtitle");
+  const tag = t(locale, "kardz.badge");
 
   if (variant === "banner") {
     return (

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 interface FaqItem {
   question: string;
@@ -23,7 +23,7 @@ export function FaqSection({ faqs, locale }: FaqSectionProps) {
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
-        {locale === "en" ? "FAQ" : "常见问题"}
+        {t(locale, "faq.title")}
       </h2>
       <div className="space-y-2">
         {faqs.map((faq, i) => {

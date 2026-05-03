@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllAnomalies } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
 
-const typeLabels: Record<string, { zh: string; en: string }> = {
-  boss: { zh: "Boss级异象", en: "Boss Anomalies" },
-  elite: { zh: "精英异象", en: "Elite Anomalies" },
-  normal: { zh: "普通异象", en: "Normal Anomalies" },
+const typeLabelKeys: Record<string, string> = {
+  boss: "anomalies.boss",
+  elite: "anomalies.elite",
+  normal: "anomalies.normal",
 };
 
 const categoryColors: Record<string, string> = {
@@ -49,8 +49,8 @@ export default async function AnomaliesPage({ params }: { params: { lang: string
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
-          { label: isZhLocale(locale) ? "首页" : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? "异象图鉴" : "Anomalies" },
+          { label: t(locale, "common.home"), href: `/${lang}` },
+          { label: t(locale, "anomalies.title") },
         ]}
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -68,13 +68,13 @@ export default async function AnomaliesPage({ params }: { params: { lang: string
         {(["boss", "elite", "normal"] as const).map((type) => {
           const items = grouped[type];
           if (items.length === 0) return null;
-          const label = typeLabels[type];
+          const label = typeLabelKeys[type];
 
           return (
             <section key={type} className="mb-12">
               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
                 <span className={`w-1 h-6 rounded ${type === "boss" ? "bg-red-500" : type === "elite" ? "bg-yellow-500" : "bg-blue-500"}`}></span>
-                {isZhLocale(locale) ? label.zh : label.en}
+                {t(locale, label)}
                 <span className="text-sm text-gray-500 font-normal">({items.length})</span>
               </h2>
               <div className={`grid gap-4 ${type === "boss" ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3"}`}>

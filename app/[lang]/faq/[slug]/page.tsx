@@ -150,7 +150,7 @@ export default async function FaqDetailPage({
         {relatedChars.length > 0 && (
           <section className="mt-10">
             <h2 className="text-lg font-bold mb-4">
-              {isZhLocale(locale) ? "相关角色" : "Related Characters"}
+              {t(locale, "faqDetails.relatedCharacters")}
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map((c) => (
@@ -173,7 +173,7 @@ export default async function FaqDetailPage({
         {relatedMats.length > 0 && (
           <section className="mt-8">
             <h2 className="text-lg font-bold mb-4">
-              {isZhLocale(locale) ? "相关材料" : "Related Materials"}
+              {t(locale, "faqDetails.relatedMaterials")}
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedMats.map((m) => (

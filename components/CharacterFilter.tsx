@@ -3,13 +3,11 @@
 import { useState, useMemo } from "react";
 import { CharacterCard } from "./CharacterCard";
 import { getAttributeLabel } from "../lib/attributes";
-import type { Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 const ATTRIBUTES = ["cosmos", "anima", "incantation", "chaos", "psyche", "lakshana"];
 const RANKS = ["S", "A"];
-const ROLES_ZH = ["进攻", "支援", "防护", "辅助"];
-const ROLES_TW = ["進攻", "支援", "防護", "輔助"];
-const ROLES_EN = ["Attack", "Support", "Defense", "Utility"];
+const ROLE_KEYS = ["attack", "support", "defense", "assist"];
 const STATUSES = ["available", "upcoming", "rumored"];
 
 interface CharacterFilterProps {
@@ -24,13 +22,8 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
   const [role, setRole] = useState<string>("");
   const [status, setStatus] = useState<string>("available");
 
-  const roles = locale === "en" ? ROLES_EN : (locale === "tw" ? ROLES_TW : ROLES_ZH);
+  const roles = ROLE_KEYS.map((key) => t(locale, `roles.${key}`));
 
-  const statusLabels: Record<string, Record<Locale, string>> = {
-    available: { zh: "当前可玩", tw: "當前可玩", en: "Available" },
-    upcoming: { zh: "即将登场", tw: "即將登場", en: "Upcoming" },
-    rumored: { zh: "数据待确认", tw: "數據待確認", en: "Unconfirmed" },
-  };
 
   const filtered = useMemo(() => {
     return characters.filter((c) => {
@@ -57,11 +50,11 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
           onChange={(e) => setStatus(e.target.value)}
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
-          <option value="available">{statusLabels.available[locale]}</option>
+          <option value="available">{t(locale, "status.available")}</option>
           {STATUSES.filter(s => s !== "available").map((s) => (
-            <option key={s} value={s}>{statusLabels[s]?.[locale] || s}</option>
+            <option key={s} value={s}>{t(locale, `status.${s}`)}</option>
           ))}
-          <option value="">{locale === "zh" ? "全部" : "All"}</option>
+          <option value="">{t(locale, "common.all")}</option>
         </select>
 
         {/* Attribute Filter */}
@@ -70,7 +63,7 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
           onChange={(e) => setAttribute(e.target.value)}
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
-          <option value="">{locale === "zh" ? "全部属性" : "All Attributes"}</option>
+          <option value="">{t(locale, "filter.allAttributes")}</option>
           {ATTRIBUTES.map((attr) => (
             <option key={attr} value={attr}>{getAttributeLabel(attr, locale)}</option>
           ))}
@@ -82,7 +75,7 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
           onChange={(e) => setRank(e.target.value)}
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
-          <option value="">{locale === "zh" ? "全部等级" : "All Ranks"}</option>
+          <option value="">{t(locale, "filter.allRanks")}</option>
           {RANKS.map((r) => (
             <option key={r} value={r}>{r}-rank</option>
           ))}
@@ -94,7 +87,7 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
           onChange={(e) => setRole(e.target.value)}
           className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
         >
-          <option value="">{locale === "zh" ? "全部定位" : "All Roles"}</option>
+          <option value="">{t(locale, "filter.allRoles")}</option>
           {roles.map((r) => (
             <option key={r} value={r}>{r}</option>
           ))}
@@ -105,14 +98,14 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
             onClick={() => { setStatus("available"); setAttribute(""); setRank(""); setRole(""); }}
             className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-400 hover:text-gray-200 transition-colors"
           >
-            {locale === "zh" ? "清除" : "Clear"}
+            {t(locale, "common.clear")}
           </button>
         )}
       </div>
 
       {/* Results Count */}
       <p className="text-sm text-gray-500 mb-4">
-        {filtered.length} {locale === "zh" ? "个角色" : "characters"}
+        {filtered.length} {t(locale, "filter.charactersCount")}
       </p>
 
       {/* Character Grid */}
@@ -135,7 +128,7 @@ export function CharacterFilter({ characters, locale }: CharacterFilterProps) {
 
       {filtered.length === 0 && (
         <div className="text-center py-12 text-gray-500">
-          {locale === "zh" ? "没有匹配的角色" : "No matching characters"}
+          {t(locale, "filter.noMatching")}
         </div>
       )}
     </>

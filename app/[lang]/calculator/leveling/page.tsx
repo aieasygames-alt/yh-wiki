@@ -66,7 +66,7 @@ export default function CalculatorPage() {
               !filterRank ? "bg-primary-500/20 text-primary-400 border-primary-500/30" : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
             }`}
           >
-            {zh ? "全部" : "All"}
+            {t(lang, "common.all")}
           </button>
           {(["S", "A"] as const).map((r) => (
             <button
@@ -87,7 +87,7 @@ export default function CalculatorPage() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={zh ? "搜索角色..." : "Search..."}
+            placeholder={t(lang, "calculator.selectCharacter")}
             className="w-40 px-3 py-1.5 rounded-lg bg-gray-800 border border-gray-700 text-xs text-gray-300 focus:outline-none focus:border-primary-500"
           />
         </div>

@@ -46,10 +46,10 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
             const highlights = locale === "en" ? cl.highlightsEn : cl.highlights;
             const versionName = locale === "en" ? cl.versionNameEn : cl.versionName;
             const typeLabel = cl.type === "major"
-              ? (isZhLocale(locale) ? "大版本" : "Major")
+              ? t(locale, "changelogDetails.major")
               : cl.type === "minor"
-              ? (isZhLocale(locale) ? "小版本" : "Minor")
-              : (isZhLocale(locale) ? "修复" : "Fix");
+              ? t(locale, "changelogDetails.minor")
+              : t(locale, "changelogDetails.fix");
 
             return (
               <Link

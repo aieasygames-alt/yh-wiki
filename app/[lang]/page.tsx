@@ -92,10 +92,10 @@ export default async function HomePage({
         <section className="max-w-6xl mx-auto px-4 -mt-4">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { label: isZhLocale(locale) ? "角色" : "Characters", value: characters.filter((c) => c.status === "available").length, color: "text-yellow-400", href: `/${lang}/characters` },
-              { label: isZhLocale(locale) ? "武器" : "Weapons", value: weapons.length, color: "text-blue-400", href: `/${lang}/weapons` },
-              { label: isZhLocale(locale) ? "攻略" : "Guides", value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
-              { label: isZhLocale(locale) ? "工具" : "Tools", value: 4, color: "text-green-400", href: `/${lang}/calculator/build` },
+              { label: t(locale, "site.nav.characters"), value: characters.filter((c) => c.status === "available").length, color: "text-yellow-400", href: `/${lang}/characters` },
+              { label: t(locale, "site.nav.weapons"), value: weapons.length, color: "text-blue-400", href: `/${lang}/weapons` },
+              { label: t(locale, "site.nav.guides"), value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
+              { label: t(locale, "site.nav.guidesAndTools"), value: 4, color: "text-green-400", href: `/${lang}/calculator/build` },
             ].map((stat) => (
               <Link key={stat.label} href={stat.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center hover:border-primary-500/30 transition-colors">
                 <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
@@ -107,13 +107,13 @@ export default async function HomePage({
 
         {/* Tools Section */}
         <section className="max-w-6xl mx-auto px-4 py-12">
-          <h2 className="text-2xl font-bold mb-6">{isZhLocale(locale) ? "实用工具" : "Tools"}</h2>
+          <h2 className="text-2xl font-bold mb-6">{t(locale, "site.nav.guidesAndTools")}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
-              { title: isZhLocale(locale) ? "升级计算器" : "Leveling Calc", desc: isZhLocale(locale) ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
-              { title: isZhLocale(locale) ? "Build 计算器" : "Build Calc", desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
-              { title: isZhLocale(locale) ? "抽卡模拟器" : "Gacha Sim", desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
-              { title: isZhLocale(locale) ? "兑换码" : "Codes", desc: isZhLocale(locale) ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
+              { title: t(locale, "calculator.leveling"), desc: isZhLocale(locale) ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
+              { title: t(locale, "calculator.build"), desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
+              { title: t(locale, "gacha.title"), desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
+              { title: t(locale, "site.nav.redeemCodes"), desc: isZhLocale(locale) ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
             ].map((tool) => (
               <Link key={tool.href} href={tool.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group">
                 <span className="text-2xl">{tool.icon}</span>
@@ -128,7 +128,7 @@ export default async function HomePage({
         {/* Hot Guides */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold">{isZhLocale(locale) ? "热门攻略" : "Popular Guides"}</h2>
+            <h2 className="text-2xl font-bold">{t(locale, "guides.title")}</h2>
             <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
@@ -153,7 +153,7 @@ export default async function HomePage({
         {/* Latest Blog */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold">{isZhLocale(locale) ? "最新博客" : "Latest Blog"}</h2>
+            <h2 className="text-2xl font-bold">{t(locale, "blog.title")}</h2>
             <Link href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
@@ -181,7 +181,7 @@ export default async function HomePage({
         {/* S-Rank Characters */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold">{isZhLocale(locale) ? "S 级角色" : "S-Rank Characters"}</h2>
+            <h2 className="text-2xl font-bold">{t(locale, "home.sRankCharacters")}</h2>
             <Link href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
@@ -195,7 +195,7 @@ export default async function HomePage({
 
         {/* Quick Links */}
         <section className="max-w-6xl mx-auto px-4 py-12">
-          <h2 className="text-2xl font-bold mb-6">{isZhLocale(locale) ? "快速导航" : "Quick Links"}</h2>
+          <h2 className="text-2xl font-bold mb-6">{t(locale, "quickLinks.title")}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {[
               { label: isZhLocale(locale) ? "强度排行" : "Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? "角色评级排名" : "Character rankings" },

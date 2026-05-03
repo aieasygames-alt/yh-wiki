@@ -61,14 +61,14 @@ export default async function MaterialDetailPage({
   const usedByCharacters = getCharactersUsingMaterial(slug);
 
   const typeLabels: Record<string, string> = {
-    guide: isZhLocale(lang) ? "猎手指南" : "Guide",
-    ascension: isZhLocale(lang) ? "角色突破" : "Ascension",
-    boss: isZhLocale(lang) ? "Boss掉落" : "Boss Drop",
-    esper: isZhLocale(lang) ? "异能材料" : "Esper",
-    arc: isZhLocale(lang) ? "弧光突破" : "Arc Ascension",
-    "arc-exp": isZhLocale(lang) ? "弧光经验" : "Arc EXP",
-    "module-exp": isZhLocale(lang) ? "模组经验" : "Module EXP",
-    currency: isZhLocale(lang) ? "货币" : "Currency",
+    guide: t(locale, "materialsDetail.hunterGuide"),
+    ascension: t(locale, "materialsDetail.ascension"),
+    boss: t(locale, "materialsDetail.bossDrop"),
+    esper: t(locale, "materialsDetail.esper"),
+    arc: t(locale, "materialsDetail.arcAscension"),
+    "arc-exp": t(locale, "materialsDetail.arcExp"),
+    "module-exp": t(locale, "materialsDetail.moduleExp"),
+    currency: t(locale, "materialsDetail.currency"),
   };
 
   return (
@@ -143,7 +143,7 @@ export default async function MaterialDetailPage({
             href={`/${lang}/calculator/leveling`}
             className="inline-block px-8 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
           >
-            {isZhLocale(lang) ? "计算养成成本" : "Calculate Farming Cost"}
+            {t(locale, "materialsDetail.calculateCost")}
           </Link>
         </div>
       </div>

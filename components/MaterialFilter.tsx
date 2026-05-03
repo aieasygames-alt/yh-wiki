@@ -3,42 +3,19 @@
 import { useState, useMemo } from "react";
 import { MaterialCard } from "./MaterialCard";
 import type { Material } from "../lib/queries";
-import type { Locale } from "../lib/i18n";
-import { isZhLocale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 const TYPES = ["guide", "ascension", "boss", "esper", "arc", "arc-exp", "module-exp", "currency"];
 
-const TYPE_LABELS: Record<Locale, Record<string, string>> = {
-  zh: {
-    guide: "猎手指南",
-    ascension: "角色突破",
-    boss: "Boss掉落",
-    esper: "异能材料",
-    arc: "弧光突破",
-    "arc-exp": "弧光经验",
-    "module-exp": "模组经验",
-    currency: "货币",
-  },
-  tw: {
-    guide: "獵手指南",
-    ascension: "角色突破",
-    boss: "Boss掉落",
-    esper: "異能材料",
-    arc: "弧光突破",
-    "arc-exp": "弧光經驗",
-    "module-exp": "模組經驗",
-    currency: "貨幣",
-  },
-  en: {
-    guide: "Guide",
-    ascension: "Ascension",
-    boss: "Boss Drop",
-    esper: "Esper",
-    arc: "Arc Ascension",
-    "arc-exp": "Arc EXP",
-    "module-exp": "Module EXP",
-    currency: "Currency",
-  },
+const TYPE_I18N_KEYS: Record<string, string> = {
+  guide: "materialTypes.hunterGuide",
+  ascension: "materialTypes.ascension",
+  boss: "materialTypes.bossDrop",
+  esper: "materialTypes.esper",
+  arc: "materialTypes.arcAscension",
+  "arc-exp": "materialTypes.arcExp",
+  "module-exp": "materialTypes.moduleExp",
+  currency: "materialTypes.currency",
 };
 
 const RARITIES = [1, 2, 3, 4, 5];
@@ -73,19 +50,19 @@ export function MaterialFilter({ materials, locale }: MaterialFilterProps) {
               !type ? "bg-primary-500/20 text-primary-400 border-primary-500/30" : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
             }`}
           >
-            {isZhLocale(locale) ? "全部" : "All"}
+            {t(locale, "common.all")}
           </button>
-          {TYPES.map((t) => (
+          {TYPES.map((typeKey) => (
             <button
-              key={t}
-              onClick={() => setType(type === t ? "" : t)}
+              key={typeKey}
+              onClick={() => setType(type === typeKey ? "" : typeKey)}
               className={`text-xs px-2.5 py-1 rounded-lg border transition-colors ${
-                type === t
+                type === typeKey
                   ? "bg-primary-500/20 text-primary-400 border-primary-500/30"
                   : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
               }`}
             >
-              {TYPE_LABELS[locale][t] || t}
+              {TYPE_I18N_KEYS[typeKey] ? t(locale, TYPE_I18N_KEYS[typeKey]) : typeKey}
             </button>
           ))}
         </div>
@@ -98,7 +75,7 @@ export function MaterialFilter({ materials, locale }: MaterialFilterProps) {
               !rarity ? "bg-primary-500/20 text-primary-400 border-primary-500/30" : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
             }`}
           >
-            {isZhLocale(locale) ? "全部稀有度" : "All Rarities"}
+            {t(locale, "filter.allRarities")}
           </button>
           {RARITIES.map((r) => (
             <button
@@ -118,7 +95,7 @@ export function MaterialFilter({ materials, locale }: MaterialFilterProps) {
 
       {/* Results Count */}
       <p className="text-sm text-gray-500 mb-4">
-        {filtered.length} {isZhLocale(locale) ? "个材料" : "materials"}
+        {filtered.length} {t(locale, "filter.materialsCount")}
       </p>
 
       {/* Material Grid */}
@@ -139,7 +116,7 @@ export function MaterialFilter({ materials, locale }: MaterialFilterProps) {
 
       {filtered.length === 0 && (
         <div className="text-center py-12 text-gray-500">
-          {isZhLocale(locale) ? "没有匹配的材料" : "No matching materials"}
+          {t(locale, "filter.noMatchingMaterials")}
         </div>
       )}
     </>

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { Skills, Skill } from "../lib/queries";
-import type { Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 interface SkillDetailProps {
   skills: Skills;
@@ -64,7 +64,7 @@ function SkillCard({
           {scaling && (
             <div className="rounded-md bg-gray-800/50 px-4 py-2">
               <span className="text-xs text-gray-500 block mb-1">
-                {locale === "en" ? "Scaling" : "倍率"}
+                {t(locale, "characters.scaling")}
               </span>
               <p className="text-sm text-gray-300 whitespace-pre-wrap">
                 {scaling}
@@ -74,12 +74,12 @@ function SkillCard({
           <div className="flex gap-4 text-xs text-gray-500">
             {skill.cooldown && (
               <span>
-                {locale === "en" ? "CD" : "冷却"}: {skill.cooldown}
+                {t(locale, "characters.cooldown")}: {skill.cooldown}
               </span>
             )}
             {skill.cost && (
               <span>
-                {locale === "en" ? "Cost" : "消耗"}: {skill.cost}
+                {t(locale, "characters.cost")}: {skill.cost}
               </span>
             )}
           </div>
@@ -97,17 +97,17 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
   }[] = [
     {
       skill: skills.normalAttack,
-      label: locale === "en" ? "Normal Attack" : "普通攻击",
+      label: t(locale, "characters.normalAttack"),
       icon: "⚔",
     },
     {
       skill: skills.skill,
-      label: locale === "en" ? "Skill" : "战技",
+      label: t(locale, "characters.skill"),
       icon: "✦",
     },
     {
       skill: skills.ultimate,
-      label: locale === "en" ? "Ultimate" : "终结技",
+      label: t(locale, "characters.ultimate"),
       icon: "★",
     },
   ];
@@ -115,7 +115,7 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
-        {locale === "en" ? "Skills" : "技能详情"}
+        {t(locale, "characters.skills")}
       </h2>
       <div className="space-y-2">
         {sections.map((s, i) => (
@@ -131,7 +131,7 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
         {skills.passives && skills.passives.length > 0 && (
           <div className="mt-4">
             <h3 className="text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wide">
-              {locale === "en" ? "Passives" : "被动技能"}
+              {t(locale, "characters.passives")}
             </h3>
             <div className="space-y-2">
               {skills.passives.map((passive, i) => (

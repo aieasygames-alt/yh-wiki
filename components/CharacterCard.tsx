@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { getAttributeColor, getAttributeLabel } from "../lib/attributes";
-import type { Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 interface CharacterCardProps {
   id: string;
@@ -15,9 +15,9 @@ interface CharacterCardProps {
   locale: Locale;
 }
 
-const STATUS_LABELS: Record<string, Record<Locale, string>> = {
-  upcoming: { zh: "即将登场", tw: "即將登場", en: "Upcoming" },
-  rumored: { zh: "数据待确认", tw: "數據待確認", en: "Unconfirmed" },
+const STATUS_KEYS: Record<string, string> = {
+  upcoming: "status.upcoming",
+  rumored: "status.rumored",
 };
 
 export function CharacterCard({
@@ -34,7 +34,7 @@ export function CharacterCard({
   const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
   const subName = locale === "en" ? name : nameEn;
   const isUnavailable = status === "upcoming" || status === "rumored";
-  const statusLabel = status ? STATUS_LABELS[status]?.[locale] : null;
+  const statusLabel = status ? (STATUS_KEYS[status] ? t(locale, STATUS_KEYS[status]) : null) : null;
   const statusColor =
     status === "upcoming"
       ? "bg-orange-500/80 text-white"

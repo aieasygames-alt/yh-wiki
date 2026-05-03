@@ -2,7 +2,7 @@
 
 import type { MapMarker, ProgressMap } from "../lib/map-utils";
 import { countCollected } from "../lib/map-progress";
-import { isZhLocale, Locale } from "../lib/i18n";
+import { t, Locale } from "../lib/i18n";
 
 interface MapProgressBarProps {
   markers: MapMarker[];
@@ -26,7 +26,7 @@ export default function MapProgressBar({
     <div className="px-3 py-2 border-b border-gray-800">
       <div className="flex items-center justify-between mb-1.5">
         <span className="text-xs text-gray-400">
-          {isZhLocale(lang) ? "收集进度" : "Collection Progress"}
+          {t(lang, "map.collectionProgress")}
         </span>
         <span className="text-xs text-gray-500">
           {collected}/{total} ({percent}%)

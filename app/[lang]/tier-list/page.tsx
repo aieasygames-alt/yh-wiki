@@ -35,12 +35,12 @@ export async function generateMetadata({
 }
 
 const TIERS = [
-  { key: "SS", labelZh: "SS 级（最强）", labelEn: "SS Tier (Best)" },
-  { key: "S+", labelZh: "S+ 级（极强）", labelEn: "S+ Tier (Excellent)" },
-  { key: "S", labelZh: "S 级（优秀）", labelEn: "S Tier (Great)" },
-  { key: "A+", labelZh: "A+ 级（良好）", labelEn: "A+ Tier (Good)" },
-  { key: "A", labelZh: "A 级（可用）", labelEn: "A Tier (Viable)" },
-  { key: "B", labelZh: "B 级（一般）", labelEn: "B Tier (Average)" },
+  { key: "SS", labelKey: "tierList.ssTier" },
+  { key: "S+", labelKey: "tierList.sPlusTier" },
+  { key: "S", labelKey: "tierList.sTier" },
+  { key: "A+", labelKey: "tierList.aPlusTier" },
+  { key: "A", labelKey: "tierList.aTier" },
+  { key: "B", labelKey: "tierList.bTier" },
 ];
 
 const TIER_COLORS: Record<string, string> = {
@@ -86,7 +86,7 @@ export default async function TierListPage({
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           {
             label:
-              isZhLocale(locale) ? "角色强度排行" : "Tier List",
+              t(locale, "tierList.title"),
           },
         ]}
       />
@@ -115,7 +115,7 @@ export default async function TierListPage({
                   {tier.key}
                 </span>
                 <span className="text-sm text-gray-500">
-                  {isZhLocale(locale) ? tier.labelZh : tier.labelEn}
+                  {t(locale, tier.labelKey)}
                 </span>
                 <span className="text-xs text-gray-600">
                   ({tier.characters.length})

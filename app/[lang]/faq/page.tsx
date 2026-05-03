@@ -81,7 +81,7 @@ export default async function FaqListPage({
           <input
             id="faq-search"
             type="text"
-            placeholder={isZhLocale(locale) ? "搜索问题..." : "Search questions..."}
+            placeholder={t(locale, "faqDetails.searchPlaceholder")}
             className="w-full px-4 py-3 rounded-xl border border-gray-700 bg-gray-900/50 text-sm placeholder:text-gray-600 focus:outline-none focus:border-primary-500/50 focus:ring-1 focus:ring-primary-500/30 transition-colors"
           />
         </div>
@@ -152,7 +152,7 @@ export default async function FaqListPage({
         {/* No Results Message (hidden by default, shown by JS) */}
         <div id="faq-no-results" className="hidden text-center py-12">
           <p className="text-gray-500">
-            {isZhLocale(locale) ? "没有找到匹配的问题" : "No matching questions found"}
+            {t(locale, "faqDetails.noMatching")}
           </p>
         </div>
       </div>

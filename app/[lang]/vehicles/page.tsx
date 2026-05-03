@@ -50,13 +50,13 @@ export default async function VehiclesPage({
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: isZhLocale(locale) ? "载具" : "Vehicles" },
+          { label: t(locale, "vehicles.title") },
         ]}
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold mb-4">
-            {isZhLocale(locale) ? "载具图鉴" : "Vehicle Database"}
+            {t(locale, "vehicles.database")}
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
             {isZhLocale(locale)
@@ -94,30 +94,30 @@ export default async function VehiclesPage({
         {/* Stats Summary */}
         <div className="mt-12 p-6 rounded-xl border border-gray-800 bg-gray-900/50">
           <h2 className="text-lg font-bold mb-4">
-            {isZhLocale(locale) ? "载具统计" : "Vehicle Statistics"}
+            {t(locale, "vehicles.statistics")}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             <div>
               <p className="text-2xl font-bold text-primary-400">{vehicles.length}</p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? "总载具数" : "Total Vehicles"}</p>
+              <p className="text-sm text-gray-400">{t(locale, "vehicles.totalVehicles")}</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-yellow-400">
                 {fastest.topSpeed} km/h
               </p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? `最快: ${fastest.nameEn}` : `Fastest: ${fastest.nameEn}`}</p>
+              <p className="text-sm text-gray-400">{`${t(locale, "vehicles.fastest")}: ${fastest.nameEn}`}</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-green-400">
                 {mostExpensive.price !== null ? `${(mostExpensive.price / 1000000).toFixed(0)}M` : "—"}
               </p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? `最贵: ${mostExpensive.nameEn}` : `Most Expensive: ${mostExpensive.nameEn}`}</p>
+              <p className="text-sm text-gray-400">{`${t(locale, "vehicles.mostExpensive")}: ${mostExpensive.nameEn}`}</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-red-400">
                 {freeVehicles}
               </p>
-              <p className="text-sm text-gray-400">{isZhLocale(locale) ? "免费载具" : "Free Vehicles"}</p>
+              <p className="text-sm text-gray-400">{t(locale, "vehicles.freeVehicles")}</p>
             </div>
           </div>
         </div>

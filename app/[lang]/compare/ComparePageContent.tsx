@@ -59,14 +59,14 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
       <BreadcrumbJsonLd
         items={[
           { name: "NTE Guide", url: "https://nteguide.com" },
-          { name: isZhLocale(locale) ? "对比" : "Compare", url: `https://nteguide.com/${lang}/compare/${slug}` },
+          { name: t(locale, "compareDetails.compare"), url: `https://nteguide.com/${lang}/compare/${slug}` },
           { name: title },
         ]}
       />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: isZhLocale(locale) ? "游戏对比" : "Compare", href: `/${lang}/compare/${slug}` },
+          { label: t(locale, "compareDetails.gameCompare"), href: `/${lang}/compare/${slug}` },
           { label: title },
         ]}
       />
@@ -88,7 +88,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         {compareTable && (
           <section className="mb-8">
             <h2 className="text-lg font-bold mb-4">
-              {isZhLocale(locale) ? "快速对比" : "Quick Comparison"}
+              {t(locale, "compareDetails.quickComparison")}
             </h2>
             <CompareTable
               headers={compareTable.headers}
@@ -120,7 +120,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         {article.internalLinks.length > 0 && (
           <section className="mt-10 border-t border-gray-800 pt-6">
             <h2 className="text-lg font-bold mb-4">
-              {isZhLocale(locale) ? "相关内容" : "Related Content"}
+              {t(locale, "compareDetails.relatedContent")}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {article.internalLinks.map((link) => (
