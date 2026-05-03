@@ -61,44 +61,59 @@ export function MaterialFilter({ materials, locale }: MaterialFilterProps) {
     });
   }, [materials, type, rarity]);
 
-  const hasFilters = type || rarity;
-
   return (
     <>
-      {/* Filter Bar */}
-      <div className="flex flex-wrap gap-3 mb-6">
-        {/* Type Filter */}
-        <select
-          value={type}
-          onChange={(e) => setType(e.target.value)}
-          className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
-        >
-          <option value="">{isZhLocale(locale) ? "全部类型" : "All Types"}</option>
-          {TYPES.map((t) => (
-            <option key={t} value={t}>{TYPE_LABELS[locale][t] || t}</option>
-          ))}
-        </select>
-
-        {/* Rarity Filter */}
-        <select
-          value={rarity}
-          onChange={(e) => setRarity(e.target.value)}
-          className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300 focus:border-primary-500 focus:outline-none"
-        >
-          <option value="">{isZhLocale(locale) ? "全部稀有度" : "All Rarities"}</option>
-          {RARITIES.map((r) => (
-            <option key={r} value={r}>{"★".repeat(r)}</option>
-          ))}
-        </select>
-
-        {hasFilters && (
+      {/* Filter Bar — pill buttons */}
+      <div className="space-y-3 mb-6">
+        {/* Type filter */}
+        <div className="flex flex-wrap gap-1.5">
           <button
-            onClick={() => { setType(""); setRarity(""); }}
-            className="px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-400 hover:text-gray-200 transition-colors"
+            onClick={() => setType("")}
+            className={`text-xs px-2.5 py-1 rounded-lg border transition-colors ${
+              !type ? "bg-primary-500/20 text-primary-400 border-primary-500/30" : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
+            }`}
           >
-            {isZhLocale(locale) ? "清除" : "Clear"}
+            {isZhLocale(locale) ? "全部" : "All"}
           </button>
-        )}
+          {TYPES.map((t) => (
+            <button
+              key={t}
+              onClick={() => setType(type === t ? "" : t)}
+              className={`text-xs px-2.5 py-1 rounded-lg border transition-colors ${
+                type === t
+                  ? "bg-primary-500/20 text-primary-400 border-primary-500/30"
+                  : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
+              }`}
+            >
+              {TYPE_LABELS[locale][t] || t}
+            </button>
+          ))}
+        </div>
+
+        {/* Rarity filter */}
+        <div className="flex flex-wrap gap-1.5">
+          <button
+            onClick={() => setRarity("")}
+            className={`text-xs px-2.5 py-1 rounded-lg border transition-colors ${
+              !rarity ? "bg-primary-500/20 text-primary-400 border-primary-500/30" : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
+            }`}
+          >
+            {isZhLocale(locale) ? "全部稀有度" : "All Rarities"}
+          </button>
+          {RARITIES.map((r) => (
+            <button
+              key={r}
+              onClick={() => setRarity(rarity === String(r) ? "" : String(r))}
+              className={`text-xs px-2.5 py-1 rounded-lg border transition-colors ${
+                rarity === String(r)
+                  ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
+                  : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
+              }`}
+            >
+              {"★".repeat(r)}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Results Count */}
