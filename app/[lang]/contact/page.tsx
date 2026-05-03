@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { isZhLocale, Locale, hreflangAlternates, t } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 
 const langs = ["zh", "tw", "en"] as const;
@@ -39,26 +39,21 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 export default async function ContactPage({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const isTw = locale === "tw";
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <Breadcrumb
         items={[
-          { label: isZhLocale(locale) ? (isTw ? "首頁" : "首页") : "Home", href: `/${lang}` },
-          { label: isZhLocale(locale) ? (isTw ? "聯絡我們" : "联系我们") : "Contact Us" },
+          { label: t(locale, "contact.breadcrumbHome"), href: `/${lang}` },
+          { label: t(locale, "contact.breadcrumbLabel") },
         ]}
       />
 
       <h1 className="text-3xl font-bold mt-4 mb-2">
-        {isTw ? "聯絡我們" : isZhLocale(locale) ? "联系我们" : "Contact Us"}
+        {t(locale, "contact.title")}
       </h1>
       <p className="text-gray-400 mb-8 text-sm">
-        {isTw
-          ? "如有建議、合作洽談或任何問題，歡迎通過以下方式聯繫我們。"
-          : isZhLocale(locale)
-            ? "如有建议、合作洽谈或任何问题，欢迎通过以下方式联系我们。"
-            : "For suggestions, business inquiries, or any questions, feel free to reach out through the following channels."}
+        {t(locale, "contact.subtitle")}
       </p>
 
       <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 space-y-6">
@@ -71,7 +66,7 @@ export default async function ContactPage({ params }: { params: { lang: string }
           </div>
           <div>
             <h2 className="text-white font-semibold mb-1">
-              {isTw ? "電子郵箱" : isZhLocale(locale) ? "电子邮箱" : "Email"}
+              {t(locale, "contact.emailLabel")}
             </h2>
             <a
               href="mailto:contact@nteguide.com"
@@ -80,11 +75,7 @@ export default async function ContactPage({ params }: { params: { lang: string }
               contact@nteguide.com
             </a>
             <p className="text-gray-500 text-xs mt-1">
-              {isTw
-                ? "我們會在 1-3 個工作日內回覆您的來信。"
-                : isZhLocale(locale)
-                  ? "我们会在 1-3 个工作日内回复您的来信。"
-                  : "We typically respond within 1-3 business days."}
+              {t(locale, "contact.emailResponseTime")}
             </p>
           </div>
         </div>
@@ -100,14 +91,10 @@ export default async function ContactPage({ params }: { params: { lang: string }
           </div>
           <div>
             <h2 className="text-white font-semibold mb-1">
-              {isTw ? "關於我們" : isZhLocale(locale) ? "关于我们" : "About Us"}
+              {t(locale, "contact.aboutLabel")}
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed">
-              {isTw
-                ? "NTE Guide 是一個為異環（Neverness to Everness）玩家打造的社群驅動攻略網站，提供角色資料、強度排行、養成計算器、抽卡模擬器等實用工具。"
-                : isZhLocale(locale)
-                  ? "NTE Guide 是一个为异环（Neverness to Everness）玩家打造的社区驱动攻略网站，提供角色资料、强度排行、养成计算器、抽卡模拟器等实用工具。"
-                  : "NTE Guide is a community-driven resource for Neverness to Everness players, featuring character databases, tier lists, build calculators, gacha simulators, and more."}
+              {t(locale, "contact.aboutContent")}
             </p>
           </div>
         </div>
@@ -116,11 +103,7 @@ export default async function ContactPage({ params }: { params: { lang: string }
       {/* Quick note */}
       <div className="mt-6 rounded-lg border border-gray-800 bg-gray-900/20 px-4 py-3">
         <p className="text-xs text-gray-500">
-          {isTw
-            ? "如果您發現網站上的資料有誤，或有內容建議，也歡迎通過郵箱反饋給我們。感謝您的支持！"
-            : isZhLocale(locale)
-              ? "如果您发现网站上的资料有误，或有内容建议，也欢迎通过邮箱反馈给我们。感谢您的支持！"
-              : "Found an error on our site or have content suggestions? We'd love to hear from you. Thank you for your support!"}
+          {t(locale, "contact.feedbackNote")}
         </p>
       </div>
     </div>
