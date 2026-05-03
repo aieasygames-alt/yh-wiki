@@ -7690,6 +7690,266 @@
     ]
   },
   {
+    "id": "hotori-character-guide",
+    "name": "异环星鸟（Hotori）是谁？角色介绍与技能详解",
+    "nameEn": "Who is Hotori in NTE? Character guide and skills overview",
+    "type": "faq",
+    "url": "/zh/faq/hotori-character-guide",
+    "tags": [
+      "hotori",
+      "character",
+      "guide",
+      "s-rank"
+    ]
+  },
+  {
+    "id": "hotori-character-guide",
+    "name": "Who is Hotori in NTE? Character guide and skills overview",
+    "nameEn": "Who is Hotori in NTE? Character guide and skills overview",
+    "type": "faq",
+    "url": "/en/faq/hotori-character-guide",
+    "tags": [
+      "hotori",
+      "character",
+      "guide",
+      "s-rank"
+    ]
+  },
+  {
+    "id": "nte-mammon-guide",
+    "name": "异环玛门（Mammon）是什么？Boss攻略与奖励",
+    "nameEn": "What is Mammon in NTE? Boss guide and rewards",
+    "type": "faq",
+    "url": "/zh/faq/nte-mammon-guide",
+    "tags": [
+      "mammon",
+      "boss",
+      "guide",
+      "world-boss"
+    ]
+  },
+  {
+    "id": "nte-mammon-guide",
+    "name": "What is Mammon in NTE? Boss guide and rewards",
+    "nameEn": "What is Mammon in NTE? Boss guide and rewards",
+    "type": "faq",
+    "url": "/en/faq/nte-mammon-guide",
+    "tags": [
+      "mammon",
+      "boss",
+      "guide",
+      "world-boss"
+    ]
+  },
+  {
+    "id": "nte-akane-character-guide",
+    "name": "异环赤音（Akane）是谁？角色介绍与获取方式",
+    "nameEn": "Who is Akane in NTE? Character overview and how to get",
+    "type": "faq",
+    "url": "/zh/faq/nte-akane-character-guide",
+    "tags": [
+      "akane",
+      "character",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-akane-character-guide",
+    "name": "Who is Akane in NTE? Character overview and how to get",
+    "nameEn": "Who is Akane in NTE? Character overview and how to get",
+    "type": "faq",
+    "url": "/en/faq/nte-akane-character-guide",
+    "tags": [
+      "akane",
+      "character",
+      "guide"
+    ]
+  },
+  {
+    "id": "nte-city-stamina-guide",
+    "name": "异环体力（City Stamina）怎么恢复？体力系统详解",
+    "nameEn": "How does stamina work in NTE? City Stamina recovery guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-city-stamina-guide",
+    "tags": [
+      "stamina",
+      "guide",
+      "beginner",
+      "system"
+    ]
+  },
+  {
+    "id": "nte-city-stamina-guide",
+    "name": "How does stamina work in NTE? City Stamina recovery guide",
+    "nameEn": "How does stamina work in NTE? City Stamina recovery guide",
+    "type": "faq",
+    "url": "/en/faq/nte-city-stamina-guide",
+    "tags": [
+      "stamina",
+      "guide",
+      "beginner",
+      "system"
+    ]
+  },
+  {
+    "id": "nte-elements-attributes-guide",
+    "name": "异环有哪些属性/元素？属性克制系统详解",
+    "nameEn": "What are the elements/attributes in NTE? Element counter system guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-elements-attributes-guide",
+    "tags": [
+      "elements",
+      "attributes",
+      "guide",
+      "combat",
+      "system"
+    ]
+  },
+  {
+    "id": "nte-elements-attributes-guide",
+    "name": "What are the elements/attributes in NTE? Element counter system guide",
+    "nameEn": "What are the elements/attributes in NTE? Element counter system guide",
+    "type": "faq",
+    "url": "/en/faq/nte-elements-attributes-guide",
+    "tags": [
+      "elements",
+      "attributes",
+      "guide",
+      "combat",
+      "system"
+    ]
+  },
+  {
+    "id": "nte-mahjong-guide",
+    "name": "异环麻将怎么玩？麻将小游戏规则与技巧",
+    "nameEn": "How to play Mahjong in NTE? Minigame rules and tips",
+    "type": "faq",
+    "url": "/zh/faq/nte-mahjong-guide",
+    "tags": [
+      "mahjong",
+      "minigame",
+      "guide",
+      "leisure"
+    ]
+  },
+  {
+    "id": "nte-mahjong-guide",
+    "name": "How to play Mahjong in NTE? Minigame rules and tips",
+    "nameEn": "How to play Mahjong in NTE? Minigame rules and tips",
+    "type": "faq",
+    "url": "/en/faq/nte-mahjong-guide",
+    "tags": [
+      "mahjong",
+      "minigame",
+      "guide",
+      "leisure"
+    ]
+  },
+  {
+    "id": "nte-puppet-piano-guide",
+    "name": "异环钢琴人偶（Puppet Piano）事件怎么触发和完成？",
+    "nameEn": "How to trigger and complete Puppet Piano event in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/nte-puppet-piano-guide",
+    "tags": [
+      "puppet-piano",
+      "event",
+      "puzzle",
+      "hidden"
+    ]
+  },
+  {
+    "id": "nte-puppet-piano-guide",
+    "name": "How to trigger and complete Puppet Piano event in NTE?",
+    "nameEn": "How to trigger and complete Puppet Piano event in NTE?",
+    "type": "faq",
+    "url": "/en/faq/nte-puppet-piano-guide",
+    "tags": [
+      "puppet-piano",
+      "event",
+      "puzzle",
+      "hidden"
+    ]
+  },
+  {
+    "id": "nte-whose-leak-guide",
+    "name": "异环Whose Leak Is This任务怎么完成？攻略详解",
+    "nameEn": "How to complete 'Whose Leak Is This' quest in NTE? Full guide",
+    "type": "faq",
+    "url": "/zh/faq/nte-whose-leak-guide",
+    "tags": [
+      "whose-leak",
+      "quest",
+      "guide",
+      "hidden"
+    ]
+  },
+  {
+    "id": "nte-whose-leak-guide",
+    "name": "How to complete 'Whose Leak Is This' quest in NTE? Full guide",
+    "nameEn": "How to complete 'Whose Leak Is This' quest in NTE? Full guide",
+    "type": "faq",
+    "url": "/en/faq/nte-whose-leak-guide",
+    "tags": [
+      "whose-leak",
+      "quest",
+      "guide",
+      "hidden"
+    ]
+  },
+  {
+    "id": "nte-change-gender-guide",
+    "name": "异环可以换性别吗？主角性别切换方法",
+    "nameEn": "Can you change gender in NTE? How to switch protagonist gender",
+    "type": "faq",
+    "url": "/zh/faq/nte-change-gender-guide",
+    "tags": [
+      "gender",
+      "character",
+      "guide",
+      "system"
+    ]
+  },
+  {
+    "id": "nte-change-gender-guide",
+    "name": "Can you change gender in NTE? How to switch protagonist gender",
+    "nameEn": "Can you change gender in NTE? How to switch protagonist gender",
+    "type": "faq",
+    "url": "/en/faq/nte-change-gender-guide",
+    "tags": [
+      "gender",
+      "character",
+      "guide",
+      "system"
+    ]
+  },
+  {
+    "id": "nte-voice-actors-guide",
+    "name": "异环全角色CV声优列表 — 日配/中配/英配一览",
+    "nameEn": "NTE voice actors list — All character JP/CN/EN voice cast",
+    "type": "faq",
+    "url": "/zh/faq/nte-voice-actors-guide",
+    "tags": [
+      "voice-actors",
+      "cv",
+      "guide",
+      "characters"
+    ]
+  },
+  {
+    "id": "nte-voice-actors-guide",
+    "name": "NTE voice actors list — All character JP/CN/EN voice cast",
+    "nameEn": "NTE voice actors list — All character JP/CN/EN voice cast",
+    "type": "faq",
+    "url": "/en/faq/nte-voice-actors-guide",
+    "tags": [
+      "voice-actors",
+      "cv",
+      "guide",
+      "characters"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",
