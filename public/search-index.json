@@ -7570,6 +7570,126 @@
     ]
   },
   {
+    "id": "material-farming-priority",
+    "name": "异环材料刷取优先级是什么？先刷什么材料？",
+    "nameEn": "What is the material farming priority in NTE? What to farm first?",
+    "type": "faq",
+    "url": "/zh/faq/material-farming-priority",
+    "tags": [
+      "materials",
+      "farming",
+      "beginner"
+    ]
+  },
+  {
+    "id": "material-farming-priority",
+    "name": "What is the material farming priority in NTE? What to farm first?",
+    "nameEn": "What is the material farming priority in NTE? What to farm first?",
+    "type": "faq",
+    "url": "/en/faq/material-farming-priority",
+    "tags": [
+      "materials",
+      "farming",
+      "beginner"
+    ]
+  },
+  {
+    "id": "cosmos-blossom-team-guide",
+    "name": "异环光耀坼绽队怎么玩？浔配队攻略",
+    "nameEn": "How to play Cosmos Blossom team? Xun team guide",
+    "type": "faq",
+    "url": "/zh/faq/cosmos-blossom-team-guide",
+    "tags": [
+      "team",
+      "xun",
+      "cosmos"
+    ]
+  },
+  {
+    "id": "cosmos-blossom-team-guide",
+    "name": "How to play Cosmos Blossom team? Xun team guide",
+    "nameEn": "How to play Cosmos Blossom team? Xun team guide",
+    "type": "faq",
+    "url": "/en/faq/cosmos-blossom-team-guide",
+    "tags": [
+      "team",
+      "xun",
+      "cosmos"
+    ]
+  },
+  {
+    "id": "best-free-characters",
+    "name": "异环免费角色有哪些？哪些免费角色值得培养？",
+    "nameEn": "What are the best free characters in NTE? Who should I build?",
+    "type": "faq",
+    "url": "/zh/faq/best-free-characters",
+    "tags": [
+      "characters",
+      "f2p",
+      "beginner"
+    ]
+  },
+  {
+    "id": "best-free-characters",
+    "name": "What are the best free characters in NTE? Who should I build?",
+    "nameEn": "What are the best free characters in NTE? Who should I build?",
+    "type": "faq",
+    "url": "/en/faq/best-free-characters",
+    "tags": [
+      "characters",
+      "f2p",
+      "beginner"
+    ]
+  },
+  {
+    "id": "bubble-can-factory-guide",
+    "name": "异环气泡罐工厂怎么打？弧光突破材料获取",
+    "nameEn": "How to clear Bubble Can Factory? Arc ascension material guide",
+    "type": "faq",
+    "url": "/zh/faq/bubble-can-factory-guide",
+    "tags": [
+      "materials",
+      "arc",
+      "farming"
+    ]
+  },
+  {
+    "id": "bubble-can-factory-guide",
+    "name": "How to clear Bubble Can Factory? Arc ascension material guide",
+    "nameEn": "How to clear Bubble Can Factory? Arc ascension material guide",
+    "type": "faq",
+    "url": "/en/faq/bubble-can-factory-guide",
+    "tags": [
+      "materials",
+      "arc",
+      "farming"
+    ]
+  },
+  {
+    "id": "anomaly-pilgrimage-guide",
+    "name": "异环异常体朝圣怎么打？异能材料获取攻略",
+    "nameEn": "How to clear Anomaly Pilgrimage? Esper material guide",
+    "type": "faq",
+    "url": "/zh/faq/anomaly-pilgrimage-guide",
+    "tags": [
+      "materials",
+      "esper",
+      "boss"
+    ]
+  },
+  {
+    "id": "anomaly-pilgrimage-guide",
+    "name": "How to clear Anomaly Pilgrimage? Esper material guide",
+    "nameEn": "How to clear Anomaly Pilgrimage? Esper material guide",
+    "type": "faq",
+    "url": "/en/faq/anomaly-pilgrimage-guide",
+    "tags": [
+      "materials",
+      "esper",
+      "boss"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",

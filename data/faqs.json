@@ -3734,5 +3734,112 @@
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "material-farming-priority",
+    "question": "异环材料刷取优先级是什么？先刷什么材料？",
+    "questionEn": "What is the material farming priority in NTE? What to farm first?",
+    "answer": "材料刷取优先级：①主C角色突破材料（异常体掉落的4系材料）> ②Boss掉落材料（每周限次，优先刷主C所需Boss）> ③弧光突破材料（气泡罐工厂）> ④经验材料（Houdinii的魔术舞台）。新手前期集中资源养一个主C到满级，不要分散投资。",
+    "answerEn": "Material farming priority: Main DPS ascension materials (Anomaly Drops) > Boss materials (weekly limits) > Arc ascension (Bubble Can Factory) > EXP materials (Houdinii Magic Stage). Focus on one main DPS to max level first.",
+    "tags": [
+      "materials",
+      "farming",
+      "beginner"
+    ],
+    "category": "materials",
+    "categoryZh": "材料获取",
+    "categoryEn": "Materials",
+    "relatedCharacters": [],
+    "relatedMaterials": [
+      "lost-whispers",
+      "confessional-flower-seed",
+      "iron-appleseed"
+    ]
+  },
+  {
+    "id": "cosmos-blossom-team-guide",
+    "question": "异环光耀坼绽队怎么玩？浔配队攻略",
+    "questionEn": "How to play Cosmos Blossom team? Xun team guide",
+    "answer": "光耀坼绽爆发队是1.0下半最强队伍之一：零（主C）+ 薄荷（触发坼绽反应）+ 浔（治疗+技能复刻）。核心玩法：零持续输出光属性伤害，薄荷触发坼绽反应，浔提供治疗并复刻队友技能增加输出窗口。浔推荐弧盘：失落光芒4件套，主词条攻击力%/光伤/暴击率。",
+    "answerEn": "Cosmos Blossom Burst is a top 1.0 second-half team: Zero (DPS) + Mint (Blossom trigger) + Xun (heal + skill replay). Zero deals continuous Cosmos DMG, Mint triggers Blossom Detonation, Xun heals and replays skills. Xun best disk set: Lost Radiance 4pc with ATK%/Cosmos DMG/CRIT Rate.",
+    "tags": [
+      "team",
+      "xun",
+      "cosmos"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队推荐",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "xun",
+      "zero-male",
+      "mint"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "best-free-characters",
+    "question": "异环免费角色有哪些？哪些免费角色值得培养？",
+    "questionEn": "What are the best free characters in NTE? Who should I build?",
+    "answer": "必练免费角色：①小吱（S级灵属性主C，Eibon古董店免费满命6+5，S+强度）②薄荷（S级治疗，新手自选）③零（主角，环合反应触发器）。可选：④埃德加（A级聚怪）。小吱是零氪最强主C，强度不输抽卡S角，优先培养。",
+    "answerEn": "Must-build free characters: Xiaozhi (S-rank Anima DPS, free 6+5 from Eibon Antique Shop, S+ tier), Mint (S-rank healer, free selector), Zero (protagonist, Ring Fusion trigger), Edgar (A-rank grouping). Xiaozhi is the strongest F2P DPS, matching gacha S-ranks.",
+    "tags": [
+      "characters",
+      "f2p",
+      "beginner"
+    ],
+    "category": "characters",
+    "categoryZh": "角色培养",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "xiaozhi",
+      "mint",
+      "zero-male",
+      "edgar"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "bubble-can-factory-guide",
+    "question": "异环气泡罐工厂怎么打？弧光突破材料获取",
+    "questionEn": "How to clear Bubble Can Factory? Arc ascension material guide",
+    "answer": "气泡罐工厂是获取弧光突破材料的主要途径，每天可挑战2-3次。产出5个系列的材料：苹果籽（Iron/Silver/Golden Appleseed）、Beaty/Versey/Harmony、液态梦（Trial/Travel/Can）、冷甜点（Flavorless/Plain/Special）、戏剧核心（Beginner/Master/Collector）。建议先刷主C弧光所需系列的低级材料，再通过合成升级为高级。",
+    "answerEn": "Bubble Can Factory is the main source of Arc ascension materials, available 2-3 runs daily. Produces 5 material families: Appleseed, Beaty/Versey/Harmony, Liquid Dream, Cold Dessert, Drama Core. Farm low-tier for your main DPS Arc first, then craft up to high-tier.",
+    "tags": [
+      "materials",
+      "arc",
+      "farming"
+    ],
+    "category": "materials",
+    "categoryZh": "材料获取",
+    "categoryEn": "Materials",
+    "relatedCharacters": [],
+    "relatedMaterials": [
+      "iron-appleseed",
+      "beaty",
+      "liquid-dream-trial-kit",
+      "flavorless-cold-dessert",
+      "beginner-drama-core"
+    ]
+  },
+  {
+    "id": "anomaly-pilgrimage-guide",
+    "question": "异环异常体朝圣怎么打？异能材料获取攻略",
+    "questionEn": "How to clear Anomaly Pilgrimage? Esper material guide",
+    "answer": "异常体朝圣是获取异能材料（Esper Materials）的途径，目前有2个Boss：①Morphix（掉落 Good Boy Stamp / The Good Boy Fluff / Dandelion Pass）②The Never-ending Arachne（掉落 Dress Sleeves of Vanity / Crown Called Nobility / Scepter Called Prestige）。这些材料用于提升角色的异能技能等级，建议优先刷取主C所需的Boss材料。3个稀有度等级分别对应3/4/5星。",
+    "answerEn": "Anomaly Pilgrimage provides Esper Materials from 2 bosses: Morphix (Good Boy Stamp / Fluff / Dandelion Pass) and The Never-ending Arachne (Dress Sleeves / Crown / Scepter). Used for Esper Ability upgrades. Prioritize your main DPS boss. 3 tiers correspond to 3/4/5 star rarity.",
+    "tags": [
+      "materials",
+      "esper",
+      "boss"
+    ],
+    "category": "materials",
+    "categoryZh": "材料获取",
+    "categoryEn": "Materials",
+    "relatedCharacters": [],
+    "relatedMaterials": [
+      "good-boy-stamp",
+      "dress-sleeves-of-vanity"
+    ]
   }
 ]
