@@ -51,7 +51,7 @@ export default function GachaAnalyzerPage() {
   const allItems = useMemo(
     () => [
       ...characters.map((c) => ({ id: c.id, name: c.name, nameEn: c.nameEn, rank: c.rank, type: "character" as const, image: c.image })),
-      ...weapons.map((w) => ({ id: w.id, name: w.name, nameEn: w.nameEn, rank: w.rank, type: "weapon" as const, image: w.image })),
+      ...weapons.map((w) => ({ id: w.id, name: w.name, nameEn: w.nameEn, rank: w.rank, type: "weapon" as const, image: "" })),
     ],
     [characters, weapons]
   );
@@ -531,14 +531,18 @@ export default function GachaAnalyzerPage() {
                         : "bg-gray-900/30 border-gray-800"
                     }`}
                   >
-                    {item ? (
+                    {item && item.type === "character" && item.image ? (
                       <GameImage
-                        type={item.type === "character" ? "character" : "weapon"}
+                        type="character"
                         id={item.id}
                         name={item.name}
                         src={item.image}
                         className="w-10 h-10 rounded shrink-0"
                       />
+                    ) : item ? (
+                      <div className="w-10 h-10 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-400 text-xs">
+                        {item.rank === "S" ? "★" : item.name[0]}
+                      </div>
                     ) : (
                       <div className="w-10 h-10 rounded bg-gray-800 shrink-0 flex items-center justify-center text-gray-600 text-xs">
                         ?
