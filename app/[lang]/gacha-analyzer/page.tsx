@@ -369,7 +369,7 @@ export default function GachaAnalyzerPage() {
                   {weapons.length > 0 && (
                     <optgroup label={zh ? "武器" : "Weapons"}>
                       {weapons.slice(0, 20).map((w) => (
-                        <option key={w.id} value={w.id}>{w.name} ({w.nameEn}) ★{w.rarity}</option>
+                        <option key={w.id} value={w.id}>{w.name} ({w.nameEn}) ★{w.rank}</option>
                       ))}
                     </optgroup>
                   )}
