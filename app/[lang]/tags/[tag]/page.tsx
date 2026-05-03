@@ -41,9 +41,12 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
   const { lang, tag } = await params;
   const locale = lang as Locale;
   const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环游戏 Wiki` : `#${tag} - NTE Guide`;
+  const description = isZhLocale(locale)
+    ? `异环(NTE)Wiki中与"${tag}"相关的全部内容，包括角色、武器、攻略、FAQ等。`
+    : `Browse all Neverness to Everness content tagged with "${tag}" — characters, weapons, guides, and more.`;
   return {
     title: `${title} | NTE Guide`,
-    description: title,
+    description,
     alternates: hreflangAlternates(`tags/${tag}`, lang),
   };
 }
