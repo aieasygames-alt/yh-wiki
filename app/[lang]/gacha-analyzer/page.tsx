@@ -73,6 +73,8 @@ export default function GachaAnalyzerPage() {
   const [activeTab, setActiveTab] = useState<TabKey>("log");
   const [selectedBanner, setSelectedBanner] = useState("limited");
   const [selectedItem, setSelectedItem] = useState("");
+  const [selectedRank, setSelectedRank] = useState<"S" | "A" | "B">("S");
+  const [searchQuery, setSearchQuery] = useState("");
   const [pullNumber, setPullNumber] = useState("");
   const [quickLogText, setQuickLogText] = useState("");
   const [toast, setToast] = useState("");
@@ -86,16 +88,34 @@ export default function GachaAnalyzerPage() {
   }, []);
 
   // --- Tab 1: Log Pulls ---
-  const handleAddPull = useCallback(() => {
-    if (!selectedItem) return;
-    const item = allItems.find((i) => i.id === selectedItem);
-    if (!item) return;
-    const rank = (item.rank === "S" || item.rank === "5" ? "S" : item.rank === "A" || item.rank === "4" ? "A" : "B") as "S" | "A" | "B";
+  const handleAddPull = useCallback((charId?: string, overrideRank?: "S" | "A" | "B") => {
+    let itemId = charId || selectedItem;
+    let rank = overrideRank;
+
+    if (itemId) {
+      const item = allItems.find((i) => i.id === itemId);
+      if (!item) return;
+      if (!rank) {
+        rank = (item.rank === "S" || item.rank === "5" ? "S" : item.rank === "A" || item.rank === "4" ? "A" : "B") as "S" | "A" | "B";
+      }
+    } else if (rank) {
+      // Quick rank button — pick a random character of that rank
+      const matching = allItems.filter((i) => {
+        if (rank === "S") return i.rank === "S" || i.rank === "5";
+        if (rank === "A") return i.rank === "A" || i.rank === "4";
+        return true;
+      });
+      const picked = matching[Math.floor(Math.random() * matching.length)];
+      if (picked) itemId = picked.id;
+    } else {
+      return;
+    }
+
     const pn = parseInt(pullNumber, 10) || 0;
     const newData = addPull({
       banner: selectedBanner,
-      characterId: selectedItem,
-      rank,
+      characterId: itemId,
+      rank: rank || "B",
       pullNumber: pn,
     });
     setData({ ...newData });
@@ -331,53 +351,166 @@ export default function GachaAnalyzerPage() {
 
       {/* Tab: Log Pulls */}
       {activeTab === "log" && (
-        <div className="space-y-6">
-          {/* Quick add form */}
-          <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-5">
-            <h3 className="text-sm font-medium text-gray-300 mb-4">{t(lang, `${ga}.addPull`)}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-              <div>
-                <label className="block text-xs text-gray-500 mb-1">{t(lang, `${ga}.bannerLabel`)}</label>
-                <select
-                  value={selectedBanner}
-                  onChange={(e) => setSelectedBanner(e.target.value)}
-                  className="w-full px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300"
+        <div className="space-y-5">
+          {/* Banner selector — pill buttons */}
+          <div>
+            <p className="text-xs text-gray-500 mb-2">{t(lang, `${ga}.bannerLabel`)}</p>
+            <div className="flex gap-2 flex-wrap">
+              {bannerOptions.map((b) => (
+                <button
+                  key={b.key}
+                  onClick={() => setSelectedBanner(b.key)}
+                  className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
+                    selectedBanner === b.key
+                      ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
+                      : "bg-gray-800 text-gray-400 border border-gray-700 hover:border-gray-600"
+                  }`}
                 >
-                  {bannerOptions.map((b) => (
-                    <option key={b.key} value={b.key}>{b.label}</option>
-                  ))}
-                </select>
-              </div>
-              <div>
-                <label className="block text-xs text-gray-500 mb-1">{t(lang, `${ga}.charLabel`)}</label>
-                <select
-                  value={selectedItem}
-                  onChange={(e) => setSelectedItem(e.target.value)}
-                  className="w-full px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300"
-                >
-                  <option value="">--</option>
-                  <optgroup label={zh ? "S 级角色" : "S-Rank"}>
-                    {characters.filter((c) => c.rank === "S").map((c) => (
-                      <option key={c.id} value={c.id}>{c.name} ({c.nameEn})</option>
-                    ))}
-                  </optgroup>
-                  <optgroup label={zh ? "A 级角色" : "A-Rank"}>
-                    {characters.filter((c) => c.rank === "A").map((c) => (
-                      <option key={c.id} value={c.id}>{c.name} ({c.nameEn})</option>
-                    ))}
-                  </optgroup>
-                  {weapons.length > 0 && (
-                    <optgroup label={zh ? "武器" : "Weapons"}>
-                      {weapons.slice(0, 20).map((w) => (
-                        <option key={w.id} value={w.id}>{w.name} ({w.nameEn}) ★{w.rank}</option>
-                      ))}
-                    </optgroup>
-                  )}
-                </select>
-              </div>
+                  {b.label}
+                </button>
+              ))}
             </div>
-            <div className="mb-4">
-              <label className="block text-xs text-gray-500 mb-1">{t(lang, `${ga}.pullNumberLabel`)}</label>
+          </div>
+
+          {/* Quick rank buttons — one-click logging */}
+          <div>
+            <p className="text-xs text-gray-500 mb-2">{zh ? "快速记录（随机角色）" : "Quick Log (random)"}</p>
+            <div className="flex gap-2">
+              <button
+                onClick={() => handleAddPull(undefined, "S")}
+                className="flex-1 py-3 rounded-xl bg-yellow-500/15 border border-yellow-500/30 text-yellow-400 font-bold text-lg hover:bg-yellow-500/25 transition-colors"
+              >
+                S
+              </button>
+              <button
+                onClick={() => handleAddPull(undefined, "A")}
+                className="flex-1 py-3 rounded-xl bg-purple-500/15 border border-purple-500/30 text-purple-400 font-bold text-lg hover:bg-purple-500/25 transition-colors"
+              >
+                A
+              </button>
+              <button
+                onClick={() => handleAddPull(undefined, "B")}
+                className="flex-1 py-3 rounded-xl bg-gray-700/50 border border-gray-600 text-gray-400 font-bold text-lg hover:bg-gray-600/50 transition-colors"
+              >
+                B
+              </button>
+            </div>
+            <p className="text-[10px] text-gray-600 mt-1">{zh ? "点击星级自动记录一条该等级抽卡" : "Click a rank to instantly log a pull"}</p>
+          </div>
+
+          {/* Divider */}
+          <div className="flex items-center gap-3">
+            <div className="flex-1 h-px bg-gray-800" />
+            <span className="text-xs text-gray-600">{zh ? "或选择具体角色" : "or pick a character"}</span>
+            <div className="flex-1 h-px bg-gray-800" />
+          </div>
+
+          {/* Rank filter tabs */}
+          <div className="flex gap-2">
+            {(["S", "A", "B"] as const).map((r) => (
+              <button
+                key={r}
+                onClick={() => { setSelectedRank(r); setSearchQuery(""); }}
+                className={`px-3 py-1 text-sm rounded-lg transition-colors ${
+                  selectedRank === r
+                    ? r === "S" ? "bg-yellow-500/20 text-yellow-400 border border-yellow-500/30"
+                      : r === "A" ? "bg-purple-500/20 text-purple-400 border border-purple-500/30"
+                      : "bg-gray-700 text-gray-300 border border-gray-600"
+                    : "bg-gray-800 text-gray-500 border border-gray-700 hover:border-gray-600"
+                }`}
+              >
+                {r === "B" ? (zh ? "其他" : "Other") : `${r}${zh ? " 级" : "-Rank"}`}
+              </button>
+            ))}
+          </div>
+
+          {/* Search */}
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={zh ? "搜索角色名..." : "Search character..."}
+            className="w-full px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300"
+          />
+
+          {/* Character grid */}
+          <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2">
+            {characters
+              .filter((c) => {
+                if (selectedRank === "S" && c.rank !== "S") return false;
+                if (selectedRank === "A" && c.rank !== "A") return false;
+                if (selectedRank === "B" && c.rank !== "B") return false; // no B-rank characters usually
+                if (searchQuery) {
+                  const q = searchQuery.toLowerCase();
+                  return c.name.toLowerCase().includes(q) || c.nameEn.toLowerCase().includes(q);
+                }
+                return true;
+              })
+              .map((c) => {
+                const isSelected = selectedItem === c.id;
+                return (
+                  <button
+                    key={c.id}
+                    onClick={() => {
+                      if (isSelected) {
+                        // Double-click: add immediately
+                        const rank = (c.rank === "S" ? "S" : c.rank === "A" ? "A" : "B") as "S" | "A" | "B";
+                        const pn = parseInt(pullNumber, 10) || 0;
+                        const newData = addPull({
+                          banner: selectedBanner,
+                          characterId: c.id,
+                          rank,
+                          pullNumber: pn,
+                        });
+                        setData({ ...newData });
+                        setSelectedItem("");
+                        setPullNumber("");
+                        showToast(zh ? `已记录 ${c.name}` : `Logged ${c.nameEn}`);
+                      } else {
+                        setSelectedItem(c.id);
+                      }
+                    }}
+                    className={`relative flex flex-col items-center gap-1 p-2 rounded-lg border transition-all ${
+                      isSelected
+                        ? c.rank === "S"
+                          ? "bg-yellow-500/15 border-yellow-500/40 ring-1 ring-yellow-400/30"
+                          : "bg-purple-500/15 border-purple-500/40 ring-1 ring-purple-400/30"
+                        : "bg-gray-900/50 border-gray-800 hover:border-gray-600"
+                    }`}
+                  >
+                    <div className={`w-10 h-10 rounded-lg overflow-hidden ${c.rank === "S" ? "ring-1 ring-yellow-400/30" : ""}`}>
+                      <GameImage type="character" id={c.id} name={c.name} src={c.image} />
+                    </div>
+                    <span className="text-[10px] text-gray-400 truncate w-full text-center leading-tight">
+                      {zh ? c.name : c.nameEn}
+                    </span>
+                  </button>
+                );
+              })}
+          </div>
+
+          {/* Pity count + Add button (shown when item selected) */}
+          {selectedItem && (
+            <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 space-y-3">
+              <div className="flex items-center gap-3">
+                {(() => {
+                  const c = characters.find((ch) => ch.id === selectedItem);
+                  if (!c) return null;
+                  return (
+                    <>
+                      <div className={`w-12 h-12 rounded-lg overflow-hidden ${c.rank === "S" ? "ring-1 ring-yellow-400/30" : ""}`}>
+                        <GameImage type="character" id={c.id} name={c.name} src={c.image} />
+                      </div>
+                      <div>
+                        <p className="text-sm font-medium">{zh ? c.name : c.nameEn}</p>
+                        <span className={`text-xs px-1.5 py-0.5 rounded ${
+                          c.rank === "S" ? "text-yellow-400 bg-yellow-500/20" : "text-purple-400 bg-purple-500/20"
+                        }`}>{c.rank}</span>
+                      </div>
+                    </>
+                  );
+                })()}
+              </div>
               <input
                 type="number"
                 min="0"
@@ -387,37 +520,40 @@ export default function GachaAnalyzerPage() {
                 placeholder={t(lang, `${ga}.pullNumberHint`)}
                 className="w-full px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300"
               />
-            </div>
-            <button
-              onClick={handleAddPull}
-              disabled={!selectedItem}
-              className="w-full py-2.5 rounded-lg bg-primary-600 hover:bg-primary-500 text-white text-sm font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
-            >
-              {t(lang, `${ga}.addPull`)}
-            </button>
-          </div>
-
-          {/* Quick log */}
-          <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-5">
-            <h3 className="text-sm font-medium text-gray-300 mb-1">{t(lang, `${ga}.quickLog`)}</h3>
-            <p className="text-xs text-gray-500 mb-3">{t(lang, `${ga}.quickLogHint`)}</p>
-            <div className="flex gap-2">
-              <input
-                type="text"
-                value={quickLogText}
-                onChange={(e) => setQuickLogText(e.target.value)}
-                placeholder={t(lang, `${ga}.quickLogPlaceholder`)}
-                className="flex-1 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300"
-              />
               <button
-                onClick={handleQuickLog}
-                disabled={!quickLogText.trim()}
-                className="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm text-gray-300 transition-colors disabled:opacity-40"
+                onClick={() => handleAddPull()}
+                className="w-full py-2.5 rounded-lg bg-primary-600 hover:bg-primary-500 text-white text-sm font-medium transition-colors"
               >
-                {t(lang, `${ga}.importQuickLog`)}
+                {t(lang, `${ga}.addPull`)}
               </button>
             </div>
-          </div>
+          )}
+
+          {/* Quick batch log (collapsed) */}
+          <details className="rounded-xl border border-gray-800 bg-gray-900/30">
+            <summary className="px-4 py-3 text-sm text-gray-400 cursor-pointer hover:text-gray-300">
+              {t(lang, `${ga}.quickLog`)}
+            </summary>
+            <div className="px-4 pb-4">
+              <p className="text-xs text-gray-500 mb-2">{t(lang, `${ga}.quickLogHint`)}</p>
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={quickLogText}
+                  onChange={(e) => setQuickLogText(e.target.value)}
+                  placeholder={t(lang, `${ga}.quickLogPlaceholder`)}
+                  className="flex-1 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-sm text-gray-300"
+                />
+                <button
+                  onClick={handleQuickLog}
+                  disabled={!quickLogText.trim()}
+                  className="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 text-sm text-gray-300 transition-colors disabled:opacity-40"
+                >
+                  {t(lang, `${ga}.importQuickLog`)}
+                </button>
+              </div>
+            </div>
+          </details>
 
           {/* Link to simulator */}
           <div className="text-center">
