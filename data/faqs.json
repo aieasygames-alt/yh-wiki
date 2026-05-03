@@ -1912,8 +1912,8 @@
     "id": "best-launch-teams",
     "question": "异环公测最强配队排名？T0队伍推荐",
     "questionEn": "Best launch teams ranked in NTE?",
-    "answer": "公测T0：①创生队（娜娜莉+早雾+九原+主角）；②浊燃破盾队（翳+阿德勒+莉莉娜+白藏）。T1：③灼烧队（赤音+白藏+哈尼尔+薄荷）；④速切队（黑鸟+零+咲里+支援）。零氪队：薄荷+小吱+埃德加+主角。配队核心：2同属性触发环合+1不同属性+1生存位。",
-    "answerEn": "T0: Genesis (Nanally+Hotori+Jiuyuan+Protag), Turbid Burn (Skia+Adler+Lilina+Baicang). T1: Blaze, Quick-Swap. F2P: Mint+Xiaozhi+Edgar+Protag.",
+    "answer": "公测T0：①创生队（娜娜莉+早雾+九原+主角）；②浊燃破盾队（翳+阿德勒+莉莉娜+白藏）；③光耀坼绽爆发队（零+薄荷+浔），浔1.0下半UP角色，提供治疗+技能复刻，综合清场效率极高。T1：④控场爆发队（娜娜莉+零+浔），浔记录并复刻娜娜莉控制技能实现无限控制链；⑤灼烧队（赤音+白藏+哈尼尔+薄荷）；⑥速切队（黑鸟+零+咲里+支援）。零氪队：薄荷+小吱+埃德加+主角。配队核心：2同属性触发环合+1不同属性+1生存位。",
+    "answerEn": "T0: Genesis (Nanally+Hotori+Jiuyuan+Protag), Turbid Burn (Skia+Adler+Lilina+Baicang), Cosmos Blossom Burst (Zero+Mint+Xun). Xun is 1.0 second-half banner, providing healing + skill replay. T1: CC Lockdown (Nanally+Zero+Xun, infinite CC chain), Blaze, Quick-Swap. F2P: Mint+Xiaozhi+Edgar+Protag.",
     "tags": [
       "team",
       "tier-list"
@@ -1924,7 +1924,8 @@
     "relatedCharacters": [
       "nanally",
       "skia",
-      "baicang"
+      "baicang",
+      "xun"
     ],
     "relatedMaterials": []
   },

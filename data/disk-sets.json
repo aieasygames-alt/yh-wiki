@@ -44,7 +44,7 @@
     "setDescription4pc": "佩戴者施放必杀技后，造成的伤害无视25%防御力，持续20秒（不可叠加）",
     "setDescription4pcEn": "After using Ultimate, DMG dealt ignores 25% of targets' DEF for 20s (does not stack)",
     "bestFor": ["进攻", "Attack"],
-    "characters": ["chiz", "skia"],
+    "characters": ["chiz", "skia", "xun"],
     "image": "/images/cassettes/lost-radiance.webp"
   },
   {
