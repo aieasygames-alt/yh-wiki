@@ -19,3 +19,25 @@ body {
     text-decoration: none;
   }
 }
+
+/* CJK & Thai & Vietnamese line-breaking — prevent awkward breaks */
+html[lang="th"] body,
+html[lang="vi"] body {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Thai text doesn't use spaces — allow line breaks anywhere in nav/buttons */
+html[lang="th"] nav,
+html[lang="th"] button,
+html[lang="th"] .text-sm {
+  line-break: anywhere;
+}
+
+/* Prevent text overflow in fixed-width containers for longer translations */
+.truncate-i18n {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}

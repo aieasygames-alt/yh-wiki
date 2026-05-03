@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale } from "../lib/i18n";
+import { t, LOCALES, LOCALE_NATIVE_NAME, type Locale } from "../lib/i18n";
 import { SearchDialog } from "./SearchDialog";
 import Logo from "./Logo";
 
@@ -22,9 +22,10 @@ interface NavItem {
 
 export function Header() {
   const pathname = usePathname();
-  const lang = (pathname.split("/")[1] || "zh") as Locale;
+  const lang = (pathname.split("/")[1] || "en") as Locale;
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const scheduleClose = useCallback((key: string) => {
@@ -39,9 +40,6 @@ export function Header() {
       closeTimer.current = null;
     }
   }, []);
-
-  const otherLang = lang === "zh" ? "tw" : "zh";
-  const langLabel = lang === "zh" ? "繁" : lang === "tw" ? "EN" : "中文";
 
   const navItems: NavItem[] = [
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
@@ -149,12 +147,36 @@ export function Header() {
               </Link>
             );
           })}
-          <Link
-            href={pathname.replace(`/${lang}`, `/${otherLang}`)}
-            className="text-sm text-gray-500 hover:text-primary-400 border border-gray-700 rounded px-2 py-0.5"
-          >
-            {langLabel}
-          </Link>
+          {/* Language switcher dropdown */}
+          <div className="relative">
+            <button
+              onClick={() => setLangMenuOpen(!langMenuOpen)}
+              onBlur={() => setTimeout(() => setLangMenuOpen(false), 200)}
+              className="text-sm text-gray-500 hover:text-primary-400 border border-gray-700 rounded px-2 py-0.5 flex items-center gap-1 max-w-[120px]"
+            >
+              <span className="truncate">{LOCALE_NATIVE_NAME[lang]}</span>
+              <svg className="w-3 h-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {langMenuOpen && (
+              <div className="absolute right-0 top-full mt-1 bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg z-50">
+                {LOCALES.map((loc) => (
+                  <Link
+                    key={loc}
+                    href={pathname.replace(`/${lang}`, `/${loc}`)}
+                    className={`block px-3 py-1.5 text-sm whitespace-nowrap ${
+                      loc === lang
+                        ? "text-primary-400 font-medium"
+                        : "text-gray-400 hover:text-white hover:bg-gray-800"
+                    }`}
+                  >
+                    {LOCALE_NATIVE_NAME[loc]}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
           <SearchDialog lang={lang} />
           <a
             href="https://discord.com/invite/PuWfNRcBt9"
@@ -237,13 +259,23 @@ export function Header() {
               );
             })}
             <div className="mt-3 pt-2 border-t border-gray-800">
-              <Link
-                href={pathname.replace(`/${lang}`, `/${otherLang}`)}
-                onClick={() => setMenuOpen(false)}
-                className="text-sm text-gray-500 py-1.5"
-              >
-                {lang === "zh" ? "English" : lang === "tw" ? "English" : "中文"}
-              </Link>
+              <p className="text-xs text-gray-500 uppercase tracking-wider py-1">Language</p>
+              <div className="grid grid-cols-2 gap-1">
+                {LOCALES.map((loc) => (
+                  <Link
+                    key={loc}
+                    href={pathname.replace(`/${lang}`, `/${loc}`)}
+                    onClick={() => setMenuOpen(false)}
+                    className={`text-sm py-1.5 px-1 rounded ${
+                      loc === lang
+                        ? "text-primary-400 font-medium bg-gray-800"
+                        : "text-gray-400 hover:text-white"
+                    }`}
+                  >
+                    {LOCALE_NATIVE_NAME[loc]}
+                  </Link>
+                ))}
+              </div>
               <a
                 href="https://discord.com/invite/PuWfNRcBt9"
                 target="_blank"

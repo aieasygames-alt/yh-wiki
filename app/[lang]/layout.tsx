@@ -4,14 +4,13 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { GaRouteTracker } from "../../components/GaRouteTracker";
 import { QuickLinks } from "../../components/QuickLinks";
+import { LOCALES, toHtmlLang } from "../../lib/i18n";
 import type { Locale } from "../../lib/i18n";
 
 const GA_ID = "G-KLVBV8S58R";
 
-const locales: Locale[] = ["zh", "tw", "en"];
-
 export function generateStaticParams() {
-  return locales.map((locale) => ({ lang: locale }));
+  return LOCALES.map((locale) => ({ lang: locale }));
 }
 
 export default async function LangLayout({
@@ -22,19 +21,19 @@ export default async function LangLayout({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  if (!locales.includes(lang as Locale)) {
+  if (!LOCALES.includes(lang as Locale)) {
     notFound();
   }
 
   return (
-    <html lang={lang === "tw" ? "zh-Hant" : lang}>
+    <html lang={toHtmlLang(lang)}>
       <head>
         <meta name="msvalidate.01" content="1FDBEDECCADE86F6C58D3B85E9492A14" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1719881162787470"
+          src="https://pagead2googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1719881162787470"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
