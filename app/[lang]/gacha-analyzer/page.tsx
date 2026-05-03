@@ -51,7 +51,7 @@ export default function GachaAnalyzerPage() {
   const allItems = useMemo(
     () => [
       ...characters.map((c) => ({ id: c.id, name: c.name, nameEn: c.nameEn, rank: c.rank, type: "character" as const, image: c.image })),
-      ...weapons.map((w) => ({ id: w.id, name: w.name, nameEn: w.nameEn, rank: String(w.rarity), type: "weapon" as const, image: w.image })),
+      ...weapons.map((w) => ({ id: w.id, name: w.name, nameEn: w.nameEn, rank: w.rank, type: "weapon" as const, image: w.image })),
     ],
     [characters, weapons]
   );
