@@ -91,6 +91,12 @@ export async function generateMetadata({
       ogTitle: "NTE Guide - Neverness to Everness Wiki Português",
       ogDescription: "Builds de personagens, tier list, calculadora, guias NTE em Português.",
     },
+    en: {
+      title: "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
+      description: "Find the best builds, tier lists, and guides for Neverness to Everness. Complete character database, leveling calculator, and redeem codes.",
+      ogTitle: "Neverness to Everness Wiki & Calculator",
+      ogDescription: "Find the best builds, tier lists, and guides for Neverness to Everness.",
+    },
   };
 
   const meta = metaData[locale] || metaData.en;
