@@ -475,7 +475,7 @@
     "performanceStats": "Statistik Performa",
     "topSpeed": "Kecepatan Maks",
     "acceleration": "Akselerasi",
-    "shift": "Pergeseran",
+    "shift": "Persneling",
     "brake": "Rem",
     "drift": "Drift",
     "howToGet": "Cara Mendapat",
@@ -490,7 +490,7 @@
     "category": "Kategori",
     "location": "Lokasi",
     "weakness": "Kelemahan",
-    "mechanics": "Mekanik",
+    "mechanics": "Mekanisme",
     "strategy": "Strategi",
     "drops": "Drop"
   },
@@ -650,7 +650,7 @@
     "optimalStrategy": "Strategi Optimal",
     "beginnerPriority": "Prioritas Pemula",
     "standardAccumulate": "Akumulasi Standar",
-    "limitedOnDemand": "Terbatas Sesuai Permintaan",
+    "limitedOnDemand": "Banner Terbatas",
     "weaponBudget": "Budget Senjata",
     "tierListLink": "Tier List",
     "simulatorLink": "Simulator Gacha",
@@ -695,7 +695,7 @@
   },
   "diskSetDetail": {
     "setTitle": "Bonus Set & Karakter Terbaik",
-    "setDescription": "-Potong Bonus"
+    "setDescription": "-Bagian Bonus"
   },
   "materialDetail": {
     "titleTemplate": "{name} - Sumber & Penggunaan",

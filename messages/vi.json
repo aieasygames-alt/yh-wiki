@@ -307,7 +307,7 @@
   },
   "guides": {
     "title": "Hướng dẫn NTE - Từ Tân thủ đến Nâng cao",
-    "description": "Hướng dẫn chiến lược đầy đủ cho Neverness to Everness bao gồm mẹo tân thủ, phản ứng nguyên tố, quản lý thể lực, chiến thuật Gacha và xây dựng đội hình",
+    "description": "Hướng dẫn chiến lược đầy đủ cho Neverness to Everness bao gồm mẹo tân thủ, phản ứng thuộc tính, quản lý thể lực, chiến thuật Gacha và xây dựng đội hình",
     "readMore": "Đọc thêm",
     "relatedGuides": "Hướng dẫn Liên quan",
     "relatedCharacters": "Nhân vật Liên quan",
@@ -405,7 +405,7 @@
     "home": "Trang chủ",
     "name": "Tên",
     "role": "Vai trò",
-    "element": "Nguyên tố",
+    "element": "Thuộc tính",
     "rarity": "Độ hiếm",
     "weaponType": "Loại Vũ khí",
     "faction": "Phe",
@@ -450,8 +450,8 @@
   },
   "characterSummary": {
     "title": "Thông tin nhanh",
-    "vaCn": "Seiyuu (CN)",
-    "vaJp": "Seiyuu (JP)"
+    "vaCn": "CV (CN)",
+    "vaJp": "CV (JP)"
   },
   "weaponSummary": {
     "title": "Tóm tắt Arc Disk",
@@ -584,12 +584,12 @@
   },
   "diskSets": {
     "title": "Bộ Cartridge",
-    "elemental": "Cartridge Nguyên tố",
+    "elemental": "Cartridge Thuộc tính",
     "general": "Cartridge Tổng hợp",
     "pcSet": "-pc",
     "setBonuses": "Bonus Bộ",
     "recommendedCharacters": "Nhân vật Đề xuất",
-    "elementalLabel": "Nguyên tố",
+    "elementalLabel": "Thuộc tính",
     "generalLabel": "Tổng hợp"
   },
   "materialsDetail": {
@@ -650,7 +650,7 @@
     "optimalStrategy": "Chiến thuật Tối ưu",
     "beginnerPriority": "Ưu tiên Tân thủ",
     "standardAccumulate": "Tích lũy Thường",
-    "limitedOnDemand": "Giới hạn Theo yêu cầu",
+    "limitedOnDemand": "Banner Giới hạn",
     "weaponBudget": "Ngân sách Vũ khí",
     "tierListLink": "Bảng Xếp Hạng",
     "simulatorLink": "Mô phỏng Gacha",
@@ -695,7 +695,7 @@
   },
   "diskSetDetail": {
     "setTitle": "Bonus Bộ & Nhân vật Phù hợp nhất",
-    "setDescription": "Bonus -Mảnh"
+    "setDescription": " Mảnh Bonus"
   },
   "materialDetail": {
     "titleTemplate": "{name} - Nguồn & Cách sử dụng",
