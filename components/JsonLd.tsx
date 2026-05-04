@@ -31,11 +31,12 @@ export function CharacterJsonLd({ character, locale }: { character: { name: stri
     : (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`);
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "VideoGameCharacter",
+    "@type": "Person",
     name: displayName,
     alternateName: altName,
     description,
-    game: "Neverness to Everness",
+    knowsAbout: "Neverness to Everness",
+    jobTitle: `${character.rank}-Rank ${character.attribute} Character`,
   };
 
   return (
@@ -136,16 +137,17 @@ export function ArticleJsonLd({ title, description, url, datePublished }: { titl
   );
 }
 
-export function FaqPageJsonLd({ faqs, lang }: { faqs: { question: string; questionZh: string; answer: string; answerZh: string }[]; lang: Locale }) {
+export function FaqPageJsonLd({ faqs, lang }: { faqs: { question: string; questionZh?: string; questionEn?: string; answer: string; answerZh?: string; answerEn?: string }[]; lang: Locale }) {
+  const isZh = isZhLocale(lang);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
-      name: isZhLocale(lang) ? faq.questionZh : faq.question,
+      name: isZh ? (faq.questionZh || faq.question) : (faq.questionEn || faq.question),
       acceptedAnswer: {
         "@type": "Answer",
-        text: isZhLocale(lang) ? faq.answerZh : faq.answer,
+        text: isZh ? (faq.answerZh || faq.answer) : (faq.answerEn || faq.answer),
       },
     })),
   };
