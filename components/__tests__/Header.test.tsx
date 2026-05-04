@@ -36,8 +36,8 @@ describe("Header", () => {
 
   it("renders language switcher", () => {
     render(<Header />);
-    // zh path -> shows "繁" (switch to tw)
-    expect(screen.getByText("繁")).toBeInTheDocument();
+    // zh path -> shows current language name "中文"
+    expect(screen.getByText("中文")).toBeInTheDocument();
   });
 
   it("renders search dialog", () => {

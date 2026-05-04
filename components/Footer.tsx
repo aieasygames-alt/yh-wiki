@@ -7,7 +7,7 @@ import Logo from "./Logo";
 
 export function Footer() {
   const pathname = usePathname();
-  const lang = (pathname.split("/")[1] || "zh") as Locale;
+  const lang = (pathname.split("/")[1] || "en") as Locale;
 
   const columns = [
     {

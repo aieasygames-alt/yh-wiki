@@ -9252,6 +9252,32 @@
     ]
   },
   {
+    "id": "city-tycoon-guide",
+    "name": "都市大亨完全攻略 — 建筑收益、免费S级角色与进阶技巧",
+    "nameEn": "NTE City Tycoon Complete Guide: Buildings, Income, Free S-Rank & Pro Tips",
+    "type": "guide",
+    "url": "/zh/guides/city-tycoon-guide",
+    "tags": [
+      "city-tycoon",
+      "guide",
+      "beginner",
+      "currency"
+    ]
+  },
+  {
+    "id": "city-tycoon-guide",
+    "name": "NTE City Tycoon Complete Guide: Buildings, Income, Free S-Rank & Pro Tips",
+    "nameEn": "NTE City Tycoon Complete Guide: Buildings, Income, Free S-Rank & Pro Tips",
+    "type": "guide",
+    "url": "/en/guides/city-tycoon-guide",
+    "tags": [
+      "city-tycoon",
+      "guide",
+      "beginner",
+      "currency"
+    ]
+  },
+  {
     "id": "espers",
     "name": "异能者",
     "nameEn": "Espers",

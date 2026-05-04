@@ -375,7 +375,7 @@ export default function MapPage() {
 
           {/* Mobile bottom sheet */}
           {selectedMarker && (
-            <div className="mt-3 lg:hidden fixed inset-x-0 bottom-0 z-40">
+            <div className="mt-3 lg:hidden fixed inset-x-0 bottom-0 z-[60]">
               <div
                 className="bg-gray-900 border-t border-gray-700 rounded-t-2xl shadow-2xl max-h-[60vh] overflow-y-auto"
                 onTouchStart={(e) => {

@@ -48,3 +48,24 @@ html[lang="pt-BR"] footer a {
   white-space: nowrap;
   max-width: 100%;
 }
+
+/* Hide scrollbar for horizontal scroll containers (QuickLinks, map filters) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Thin scrollbar for map filter rows */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 2px;
+}
