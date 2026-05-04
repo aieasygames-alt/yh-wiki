@@ -230,6 +230,39 @@ function getCompareTable(slug: string, locale: Locale) {
     };
   }
 
+  if (slug === "nte-vs-ananta") {
+    if (isZhLocale(locale)) {
+      return {
+        headers: ["维度", "异环 (NTE)", "无限大 (Ananta)"],
+        items: [
+          { name: "开发商", values: ["完美世界 / 幻塔工作室", "网易游戏"] },
+          { name: "游戏类型", values: ["开放世界动作RPG", "开放世界动作RPG"] },
+          { name: "世界观", values: ["现代都市奇幻", "现代都市奇幻"] },
+          { name: "战斗风格", values: ["异能连招 + 弹反", "动作连招 + 属性切换"] },
+          { name: "50/50机制", values: ["无（必出UP）", "有（50%歪常驻）"] },
+          { name: "保底抽数", values: ["90抽", "90抽"] },
+          { name: "画面风格", values: ["写实渲染 (UE5)", "风格化渲染"] },
+          { name: "平台", values: ["PC / 手机 / PS5", "PC / 手机"] },
+          { name: "特色系统", values: ["载具驾驶、买房装修、城市经营", "都市探索、角色切换"] },
+        ],
+      };
+    }
+    return {
+      headers: ["Feature", "NTE", "Ananta"],
+      items: [
+        { name: "Developer", values: ["Perfect World / Hotta Studio", "NetEase Games"] },
+        { name: "Genre", values: ["Open World Action RPG", "Open World Action RPG"] },
+        { name: "Setting", values: ["Modern Urban Fantasy", "Modern Urban Fantasy"] },
+        { name: "Combat", values: ["Esper Combos + Parry", "Action Combos + Element Switch"] },
+        { name: "50/50 System", values: ["None (Guaranteed Featured)", "Yes (50% Standard)"] },
+        { name: "Pity Count", values: ["90 pulls", "90 pulls"] },
+        { name: "Art Style", values: ["Realistic (UE5)", "Stylized"] },
+        { name: "Platforms", values: ["PC / Mobile / PS5", "PC / Mobile"] },
+        { name: "Unique Features", values: ["Driving, Housing, City Tycoon", "Urban Exploration, Character Switch"] },
+      ],
+    };
+  }
+
   return null;
 }
 
@@ -301,6 +334,26 @@ function getCompareFaqs(slug: string) {
         questionZh: "可以同时玩异环和绝区零吗？",
         answer: "Yes, both are free-to-play. They offer different enough experiences that many players enjoy both. NTE for open-world urban exploration and ZZZ for stylized combat sessions.",
         answerZh: "可以，两款都是免费的。它们体验差异足够大，很多玩家同时享受两款。异环玩开放世界城市探索，绝区零玩风格化战斗。"
+      },
+    ],
+    "nte-vs-ananta": [
+      {
+        question: "Is Neverness to Everness the same game as Ananta?",
+        questionZh: "异环和无限大是同一款游戏吗？",
+        answer: "No, they are completely different games by different developers. NTE is developed by Hotta Studio (Perfect World) and Ananta is developed by NetEase. Both are urban-themed anime RPGs, which is why they are often confused, but they have different combat systems, gacha mechanics, and unique features.",
+        answerZh: "不是，它们是完全不同的游戏，由不同开发商制作。异环由完美世界/幻塔工作室开发，无限大由网易开发。两款都是都市题材二次元RPG，因此常被混淆，但它们在战斗系统、抽卡机制和特色玩法上完全不同。"
+      },
+      {
+        question: "Which is more F2P friendly: NTE or Ananta?",
+        questionZh: "异环和无限大哪个对零氪更友好？",
+        answer: "NTE is significantly more F2P-friendly. NTE has no 50/50 mechanic on the limited banner (guaranteed featured character every time), gives ~418 free pulls at launch, and provides a free S-rank from City Tycoon. Ananta uses a traditional 50/50 gacha system where you may need up to 180 pulls for a guaranteed featured character.",
+        answerZh: "异环对零氪友好得多。异环限定池无50/50机制（每次必出UP角色），开服送约418抽，城市经营送免费S级角色。无限大使用传统50/50抽卡系统，可能需要180抽才能保底UP角色。"
+      },
+      {
+        question: "Why do people confuse NTE with Ananta?",
+        questionZh: "为什么人们会把异环和无限大搞混？",
+        answer: "Both games are modern urban-themed anime action RPGs that launched around the same time period (2026). They share similar aesthetics and gameplay concepts — open world, gacha characters, modern city setting. However, they are made by entirely different companies and have distinct combat systems, gacha policies, and unique features like NTE's driving and housing systems.",
+        answerZh: "两款游戏都是现代都市题材的二次元动作RPG，且都在2026年前后上线。它们共享类似的美学和玩法概念——开放世界、抽卡角色、现代城市设定。但它们由完全不同的公司制作，在战斗系统、抽卡政策和特色功能（如异环的驾驶和买房系统）上有明显区别。"
       },
     ],
   };

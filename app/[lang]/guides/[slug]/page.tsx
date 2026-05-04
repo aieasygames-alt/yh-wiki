@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
@@ -11,15 +11,7 @@ import { GiscusComments } from "../../../../components/GiscusComments";
 
 export function generateStaticParams() {
   const guides = getAllGuides();
-  return guides.flatMap((g) => [
-    { lang: "zh", slug: g.id },
-    { lang: "tw", slug: g.id },
-    { lang: "en", slug: g.id },
-    { lang: "th", slug: g.id },
-    { lang: "vi", slug: g.id },
-    { lang: "id", slug: g.id },
-    { lang: "pt-br", slug: g.id },,
-  ]);
+  return guides.flatMap((g) => LOCALES.map((lang) => ({ lang, slug: g.id })));
 }
 
 export async function generateMetadata({

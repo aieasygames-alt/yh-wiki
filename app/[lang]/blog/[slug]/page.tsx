@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
@@ -31,15 +31,7 @@ function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
 
 export function generateStaticParams() {
   const posts = getAllBlogPosts();
-  return posts.flatMap((p) => [
-    { lang: "zh", slug: p.id },
-    { lang: "tw", slug: p.id },
-    { lang: "en", slug: p.id },
-    { lang: "th", slug: p.id },
-    { lang: "vi", slug: p.id },
-    { lang: "id", slug: p.id },
-    { lang: "pt-br", slug: p.id },,
-  ]);
+  return posts.flatMap((p) => LOCALES.map((lang) => ({ lang, slug: p.id })));
 }
 
 export async function generateMetadata({

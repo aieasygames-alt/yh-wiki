@@ -1,14 +1,12 @@
 import Link from "next/link";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import gachaSystemData from "../../../../data/gacha-system.json";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqSection } from "../../../../components/FaqSection";
 import { FaqPageJsonLd } from "../../../../components/JsonLd";
 
-const locales: Locale[] = ["zh", "tw", "en"];
-
 export function generateStaticParams() {
-  return locales.map((locale) => ({ lang: locale }));
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata({

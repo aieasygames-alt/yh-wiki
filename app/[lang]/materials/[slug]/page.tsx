@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getMaterial, getCharactersUsingMaterial, getAllMaterials } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
@@ -9,15 +9,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const materials = getAllMaterials();
-  return materials.flatMap((m: { id: string }) => [
-    { lang: "zh", slug: m.id },
-    { lang: "tw", slug: m.id },
-    { lang: "en", slug: m.id },
-    { lang: "th", slug: m.id },
-    { lang: "vi", slug: m.id },
-    { lang: "id", slug: m.id },
-    { lang: "pt-br", slug: m.id },
-  ]);
+  return materials.flatMap((m: { id: string }) => LOCALES.map((lang) => ({ lang, slug: m.id })));
 }
 
 export async function generateMetadata({

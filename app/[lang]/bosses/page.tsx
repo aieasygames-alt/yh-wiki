@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
 import { getGuide } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
@@ -10,15 +10,7 @@ import { ArticleContent } from "../../../components/ArticleContent";
 const BOSS_GUIDE_ID = "boss-guide-comprehensive";
 
 export function generateStaticParams() {
-  return [
-    { lang: "zh" },
-    { lang: "tw" },
-    { lang: "en" },
-    { lang: "th" },
-    { lang: "vi" },
-    { lang: "id" },
-    { lang: "pt-br" },,
-  ];
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata({

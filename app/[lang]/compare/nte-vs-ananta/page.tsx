@@ -7,11 +7,11 @@ export function generateStaticParams() {
 
 export const generateMetadata = generateCompareMetadata;
 
-export default async function CompareNteVsWuWaPage({
+export default async function CompareNteVsAnantaPage({
   params,
 }: {
   params: { lang: string };
 }) {
   const resolvedParams = await params;
-  return <ComparePageContent params={{ lang: resolvedParams.lang, slug: "nte-vs-wuthering-waves" }} />;
+  return <ComparePageContent params={{ lang: resolvedParams.lang, slug: "nte-vs-ananta" }} />;
 }

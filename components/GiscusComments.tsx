@@ -16,6 +16,12 @@ const LANG_MAP: Record<Locale, string> = {
   vi: "vi",
   id: "id",
   "pt-br": "pt-BR",
+  ja: "ja",
+  ko: "ko",
+  de: "de",
+  fr: "fr",
+  es: "es",
+  ru: "ru",
 };
 
 interface GiscusCommentsProps {

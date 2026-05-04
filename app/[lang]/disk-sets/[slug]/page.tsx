@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getDiskSet, getAllDiskSets, getAllCharacters } from "../../../../lib/queries";
 import { getAttributeLabel, getAttributeColor } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
@@ -9,15 +9,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const sets = getAllDiskSets();
-  return sets.flatMap((s) => [
-    { lang: "zh", slug: s.id },
-    { lang: "tw", slug: s.id },
-    { lang: "en", slug: s.id },
-    { lang: "th", slug: s.id },
-    { lang: "vi", slug: s.id },
-    { lang: "id", slug: s.id },
-    { lang: "pt-br", slug: s.id },,
-  ]);
+  return sets.flatMap((s) => LOCALES.map((lang) => ({ lang, slug: s.id })));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string; slug: string } }) {

@@ -1,20 +1,12 @@
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const anomalies = getAllAnomalies();
-  return anomalies.flatMap((a) => [
-    { lang: "zh", slug: a.id },
-    { lang: "tw", slug: a.id },
-    { lang: "en", slug: a.id },
-    { lang: "th", slug: a.id },
-    { lang: "vi", slug: a.id },
-    { lang: "id", slug: a.id },
-    { lang: "pt-br", slug: a.id },,
-  ]);
+  return anomalies.flatMap((a) => LOCALES.map((lang) => ({ lang, slug: a.id })));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string; slug: string } }) {

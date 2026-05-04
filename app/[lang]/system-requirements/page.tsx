@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqSection } from "../../../components/FaqSection";
 import { FaqPageJsonLd } from "../../../components/JsonLd";
@@ -8,10 +8,8 @@ import specsData from "../../../data/system-requirements.json";
 type SpecValue = { zh: string; en: string };
 type PlatformSpecs = Record<string, SpecValue>;
 
-const langs = ["zh", "tw", "en"] as const;
-
 export function generateStaticParams() {
-  return langs.map((lang) => ({ lang }));
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {

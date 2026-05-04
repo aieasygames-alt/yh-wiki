@@ -1,29 +1,8 @@
 import { ComparePageContent, generateCompareMetadata } from "../ComparePageContent";
+import { LOCALES } from "../../../../lib/i18n";
 
 export function generateStaticParams() {
-  return [
-  {
-    "lang": "zh"
-  },
-  {
-    "lang": "tw"
-  },
-  {
-    "lang": "en"
-  },
-  {
-    "lang": "th"
-  },
-  {
-    "lang": "vi"
-  },
-  {
-    "lang": "id"
-  },
-  {
-    "lang": "pt-br"
-  }
-];
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export const generateMetadata = generateCompareMetadata;

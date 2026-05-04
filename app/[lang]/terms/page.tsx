@@ -1,11 +1,9 @@
 import { Metadata } from "next";
-import { isZhLocale, Locale, hreflangAlternates, t } from "../../../lib/i18n";
+import { isZhLocale, Locale, hreflangAlternates, t, LOCALES } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 
-const langs = ["zh", "tw", "en"] as const;
-
 export function generateStaticParams() {
-  return langs.map((lang) => ({ lang }));
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {

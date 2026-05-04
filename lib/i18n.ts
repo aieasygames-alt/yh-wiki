@@ -5,10 +5,16 @@ import th from "../messages/th.json";
 import vi from "../messages/vi.json";
 import id from "../messages/id.json";
 import ptBR from "../messages/pt-br.json";
+import ja from "../messages/ja.json";
+import ko from "../messages/ko.json";
+import de from "../messages/de.json";
+import fr from "../messages/fr.json";
+import es from "../messages/es.json";
+import ru from "../messages/ru.json";
 
-export type Locale = "zh" | "tw" | "en" | "th" | "vi" | "id" | "pt-br";
+export type Locale = "zh" | "tw" | "en" | "th" | "vi" | "id" | "pt-br" | "ja" | "ko" | "de" | "fr" | "es" | "ru";
 
-export const LOCALES: readonly Locale[] = ["zh", "tw", "en", "th", "vi", "id", "pt-br"];
+export const LOCALES: readonly Locale[] = ["zh", "tw", "en", "th", "vi", "id", "pt-br", "ja", "ko", "de", "fr", "es", "ru"];
 
 /** Map locale code to valid HTML lang attribute */
 export function toHtmlLang(locale: string): string {
@@ -20,6 +26,12 @@ export function toHtmlLang(locale: string): string {
     vi: "vi",
     id: "id",
     "pt-br": "pt-BR",
+    ja: "ja",
+    ko: "ko",
+    de: "de",
+    fr: "fr",
+    es: "es",
+    ru: "ru",
   };
   return map[locale] || locale;
 }
@@ -34,6 +46,12 @@ function toHreflang(locale: string): string {
     vi: "vi",
     id: "id",
     "pt-br": "pt-BR",
+    ja: "ja",
+    ko: "ko",
+    de: "de",
+    fr: "fr",
+    es: "es",
+    ru: "ru",
   };
   return map[locale] || locale;
 }
@@ -47,6 +65,12 @@ export const LOCALE_NATIVE_NAME: Record<Locale, string> = {
   vi: "Tiếng Việt",
   id: "Bahasa Indonesia",
   "pt-br": "Português (BR)",
+  ja: "日本語",
+  ko: "한국어",
+  de: "Deutsch",
+  fr: "Français",
+  es: "Español",
+  ru: "Русский",
 };
 
 export function isLocale(value: string): value is Locale {
@@ -57,7 +81,7 @@ export function asLocale(value: string): Locale {
   return isLocale(value) ? value : "en";
 }
 
-const messages: Record<Locale, Record<string, unknown>> = { zh, tw, en, th, vi, id, "pt-br": ptBR };
+const messages: Record<Locale, Record<string, unknown>> = { zh, tw, en, th, vi, id, "pt-br": ptBR, ja, ko, de, fr, es, ru };
 
 export function getMessages(locale: string) {
   const loc = asLocale(locale);

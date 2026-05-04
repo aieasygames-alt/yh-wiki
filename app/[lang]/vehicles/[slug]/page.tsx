@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getVehicle, getAllVehicles } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
@@ -9,15 +9,7 @@ import { FaqSection } from "../../../../components/FaqSection";
 
 export function generateStaticParams() {
   const vehicles = getAllVehicles();
-  return vehicles.flatMap((v) => [
-    { lang: "zh", slug: v.id },
-    { lang: "tw", slug: v.id },
-    { lang: "en", slug: v.id },
-    { lang: "th", slug: v.id },
-    { lang: "vi", slug: v.id },
-    { lang: "id", slug: v.id },
-    { lang: "pt-br", slug: v.id },,
-  ]);
+  return vehicles.flatMap((v) => LOCALES.map((lang) => ({ lang, slug: v.id })));
 }
 
 export async function generateMetadata({

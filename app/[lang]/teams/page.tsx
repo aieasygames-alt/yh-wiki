@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
 import { getGuide, getCharacter, getLocation, getLoreItem } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
@@ -8,29 +8,7 @@ import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
 
 export function generateStaticParams() {
-  return [
-  {
-    "lang": "zh"
-  },
-  {
-    "lang": "tw"
-  },
-  {
-    "lang": "en"
-  },
-  {
-    "lang": "th"
-  },
-  {
-    "lang": "vi"
-  },
-  {
-    "lang": "id"
-  },
-  {
-    "lang": "pt-br"
-  }
-];
+  return LOCALES.map((lang) => ({ lang }));
 }
 
 export async function generateMetadata({

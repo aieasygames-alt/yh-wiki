@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqJsonLd } from "../../../../components/JsonLd";
@@ -8,15 +8,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const faqs = getAllFaqs();
-  return faqs.flatMap((f) => [
-    { lang: "zh", slug: f.id },
-    { lang: "tw", slug: f.id },
-    { lang: "en", slug: f.id },
-    { lang: "th", slug: f.id },
-    { lang: "vi", slug: f.id },
-    { lang: "id", slug: f.id },
-    { lang: "pt-br", slug: f.id },,
-  ]);
+  return faqs.flatMap((f) => LOCALES.map((lang) => ({ lang, slug: f.id })));
 }
 
 export async function generateMetadata({

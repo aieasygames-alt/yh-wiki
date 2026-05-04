@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import {
   getAllCharacters,
   getAllWeapons,
@@ -30,15 +30,7 @@ function collectTags() {
 
 export function generateStaticParams() {
   collectTags();
-  return Array.from(ALL_TAGS).flatMap((tag) => [
-    { lang: "zh", tag },
-    { lang: "tw", tag },
-    { lang: "en", tag },
-    { lang: "th", tag },
-    { lang: "vi", tag },
-    { lang: "id", tag },
-    { lang: "pt-br", tag },
-  ]);
+  return Array.from(ALL_TAGS).flatMap((tag) => LOCALES.map((lang) => ({ lang, tag })));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string; tag: string } }) {

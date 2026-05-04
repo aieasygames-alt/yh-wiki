@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getLocation, getAllLocations, getCharacter, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
@@ -8,15 +8,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
   const locations = getAllLocations();
-  return locations.flatMap((l) => [
-    { lang: "zh", slug: l.id },
-    { lang: "tw", slug: l.id },
-    { lang: "en", slug: l.id },
-    { lang: "th", slug: l.id },
-    { lang: "vi", slug: l.id },
-    { lang: "id", slug: l.id },
-    { lang: "pt-br", slug: l.id },,
-  ]);
+  return locations.flatMap((l) => LOCALES.map((lang) => ({ lang, slug: l.id })));
 }
 
 export async function generateMetadata({

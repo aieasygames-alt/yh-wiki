@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import {
   getCharacter,
   getCharacterMaterials,
@@ -30,15 +30,7 @@ function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: 
 
 export function generateStaticParams() {
   const characters = getAllCharacters();
-  return characters.flatMap((c: { id: string }) => [
-    { lang: "zh", slug: c.id },
-    { lang: "tw", slug: c.id },
-    { lang: "en", slug: c.id },
-    { lang: "th", slug: c.id },
-    { lang: "vi", slug: c.id },
-    { lang: "id", slug: c.id },
-    { lang: "pt-br", slug: c.id },
-  ]);
+  return characters.flatMap((c: { id: string }) => LOCALES.map((lang) => ({ lang, slug: c.id })));
 }
 
 export async function generateMetadata({

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getWeapon, getAllWeapons, getCharactersUsingWeapon } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ProductJsonLd } from "../../../../components/JsonLd";
@@ -10,15 +10,7 @@ import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS 
 
 export function generateStaticParams() {
   const weapons = getAllWeapons();
-  return weapons.flatMap((w: { id: string }) => [
-    { lang: "zh", slug: w.id },
-    { lang: "tw", slug: w.id },
-    { lang: "en", slug: w.id },
-    { lang: "th", slug: w.id },
-    { lang: "vi", slug: w.id },
-    { lang: "id", slug: w.id },
-    { lang: "pt-br", slug: w.id },
-  ]);
+  return weapons.flatMap((w: { id: string }) => LOCALES.map((lang) => ({ lang, slug: w.id })));
 }
 
 export async function generateMetadata({
