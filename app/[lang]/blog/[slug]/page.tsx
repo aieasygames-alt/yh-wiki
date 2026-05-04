@@ -5,8 +5,10 @@ import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { ArticleContent } from "../../../../components/ArticleContent";
-import { GiscusComments } from "../../../../components/GiscusComments";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
+import dynamic from "next/dynamic";
+
+const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
 function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
   const allPosts = getAllBlogPosts();
@@ -78,6 +80,7 @@ export default async function BlogDetailPage({
         title={title}
         description={summary}
         url={`https://nteguide.com/${lang}/blog/${slug}`}
+        datePublished={post.date}
       />
       <Breadcrumb
         items={[

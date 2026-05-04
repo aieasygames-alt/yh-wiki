@@ -6811,28 +6811,28 @@
     "description": "公测新增A级角色，详细信息待公测后更新。",
     "faq": [
       {
-        "question": "奥蕾莉亚值得培养吗？",
-        "answer": "奥蕾莉亚是A级支援角色，魂属性。当前版本定位为圆环组织辅助，实用性一般。如果你没有更高稀有度的支援角色（薄荷、浔），可以作为过渡使用。不建议投入大量资源。",
-        "questionZh": "Is Aurelia worth building?",
-        "answerZh": "Aurelia is an A-rank Psyche support. Currently a Circle org support with limited utility. Use as a transitional support if you lack higher-rarity options (Mint, Xun). Not recommended for heavy investment."
+        "question": "Is Aurelia worth building?",
+        "answer": "Aurelia is an A-rank Psyche support. Currently a Circle org support with limited utility. Use as a transitional support if you lack higher-rarity options (Mint, Xun). Not recommended for heavy investment.",
+        "questionZh": "奥蕾莉亚值得培养吗？",
+        "answerZh": "奥蕾莉亚是A级支援角色，魂属性。当前版本定位为圆环组织辅助，实用性一般。如果你没有更高稀有度的支援角色（薄荷、浔），可以作为过渡使用。不建议投入大量资源。"
       },
       {
-        "question": "奥蕾莉亚最佳武器和弧盘推荐？",
-        "answer": "最佳武器：坚韧绒绒（Fluff of Fortitude）。最佳弧盘套装：恶魔之血：魂伤（4件套）。主词条优先：沙漏选攻击力%、杯子选魂属性伤害加成、头冠选暴击率。副词条优先：暴击率 > 暴击伤害 > 攻击力% > 元素精通。",
-        "questionZh": "Best weapon and disk set for Aurelia?",
-        "answerZh": "Best weapon: Fluff of Fortitude. Best disk set: Devil's Blood: Curse (4pc). Main stats: Sands ATK%, Goblet Psyche DMG Bonus, Circlet CRIT Rate. Substats: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery."
+        "question": "Best weapon and disk set for Aurelia?",
+        "answer": "Best weapon: Fluff of Fortitude. Best disk set: Devil's Blood: Curse (4pc). Main stats: Sands ATK%, Goblet Psyche DMG Bonus, Circlet CRIT Rate. Substats: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery.",
+        "questionZh": "奥蕾莉亚最佳武器和弧盘推荐？",
+        "answerZh": "最佳武器：坚韧绒绒（Fluff of Fortitude）。最佳弧盘套装：恶魔之血：魂伤（4件套）。主词条优先：沙漏选攻击力%、杯子选魂属性伤害加成、头冠选暴击率。副词条优先：暴击率 > 暴击伤害 > 攻击力% > 元素精通。"
       },
       {
-        "question": "奥蕾莉亚配队推荐？",
-        "answer": "推荐配队：圆环辅助阵容（奥蕾莉亚+拉克里莫萨+法迪亚+翳）。作为圆环组织成员阵容使用，Aurelia 提供支援增益。但该阵容强度有限，高端局建议替换为薄荷或浔。",
-        "questionZh": "Best team compositions for Aurelia?",
-        "answerZh": "Recommended: Circle Support Team (Aurelia + Lacrimosa + Fadia + Skia). A Circle-themed team with Aurelia as support. For competitive play, consider replacing with Mint or Xun."
+        "question": "Best team compositions for Aurelia?",
+        "answer": "Recommended: Circle Support Team (Aurelia + Lacrimosa + Fadia + Skia). A Circle-themed team with Aurelia as support. For competitive play, consider replacing with Mint or Xun.",
+        "questionZh": "奥蕾莉亚配队推荐？",
+        "answerZh": "推荐配队：圆环辅助阵容（奥蕾莉亚+拉克里莫萨+法迪亚+翳）。作为圆环组织成员阵容使用，Aurelia 提供支援增益。但该阵容强度有限，高端局建议替换为薄荷或浔。"
       },
       {
-        "question": "奥蕾莉亚怎么获取？",
-        "answer": "奥蕾莉亚是A级角色，可通过标准池（伪造骰子）抽取获得，也可在部分活动奖励中获取。A级角色获取概率较高，不需要特意抽取。",
-        "questionZh": "How to get Aurelia?",
-        "answerZh": "Aurelia is an A-rank character available from the Standard Banner (Fabricated Dice) and some event rewards. A-rank characters have higher pull rates, no need to specifically target."
+        "question": "How to get Aurelia?",
+        "answer": "Aurelia is an A-rank character available from the Standard Banner (Fabricated Dice) and some event rewards. A-rank characters have higher pull rates, no need to specifically target.",
+        "questionZh": "奥蕾莉亚怎么获取？",
+        "answerZh": "奥蕾莉亚是A级角色，可通过标准池（伪造骰子）抽取获得，也可在部分活动奖励中获取。A级角色获取概率较高，不需要特意抽取。"
       }
     ],
     "relatedCharacters": [],
@@ -6926,34 +6926,34 @@
     "description": "通过都市大亨模式免费获取的S级角色，可免费满觉醒(6+5)。核心机制围绕「金谷」资源展开，金谷越多伤害越高。光属性站场主C，操作简单下限极高。",
     "faq": [
       {
-        "question": "小吱值得培养吗？强度怎么样？",
-        "answer": "小吱是S级进攻角色，灵属性。强度评级S+，是游戏中最强的免费角色之一。通过Eibon古董店（都市大亨模式）可获得满命（6+5），零氪玩家必练角色。站场主C输出能力强，可担任队伍核心输出。",
-        "questionZh": "Is Xiaozhi worth building? How good is he?",
-        "answerZh": "Xiaozhi is an S-rank Anima DPS rated S+. One of the strongest free characters available. Can reach max constellation (6+5) through Eibon Antique Shop (City Tycoon mode). Must-build for F2P players. Strong on-field DPS capable of carrying teams."
+        "question": "Is Xiaozhi worth building? How good is he?",
+        "answer": "Xiaozhi is an S-rank Anima DPS rated S+. One of the strongest free characters available. Can reach max constellation (6+5) through Eibon Antique Shop (City Tycoon mode). Must-build for F2P players. Strong on-field DPS capable of carrying teams.",
+        "questionZh": "小吱值得培养吗？强度怎么样？",
+        "answerZh": "小吱是S级进攻角色，灵属性。强度评级S+，是游戏中最强的免费角色之一。通过Eibon古董店（都市大亨模式）可获得满命（6+5），零氪玩家必练角色。站场主C输出能力强，可担任队伍核心输出。"
       },
       {
-        "question": "小吱最佳武器和弧盘推荐？",
-        "answer": "最佳武器：思考喵（Contemplative Cat）。最佳弧盘套装：裂空之牙（4件套）。主词条：沙漏选攻击力%、杯子选元素伤害加成、头冠选暴击率。副词条优先：暴击率 > 暴击伤害 > 攻击力% > 元素精通。作为免费角色，小吱的装备门槛低，很容易毕业。",
-        "questionZh": "Best weapon and disk set for Xiaozhi?",
-        "answerZh": "Best weapon: Contemplative Cat. Best disk set: Skyrending Fang (4pc). Main stats: Sands ATK%, Goblet Elemental DMG Bonus, Circlet CRIT Rate. Substats: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery. Low gear requirements as a free character."
+        "question": "Best weapon and disk set for Xiaozhi?",
+        "answer": "Best weapon: Contemplative Cat. Best disk set: Skyrending Fang (4pc). Main stats: Sands ATK%, Goblet Elemental DMG Bonus, Circlet CRIT Rate. Substats: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery. Low gear requirements as a free character.",
+        "questionZh": "小吱最佳武器和弧盘推荐？",
+        "answerZh": "最佳武器：思考喵（Contemplative Cat）。最佳弧盘套装：裂空之牙（4件套）。主词条：沙漏选攻击力%、杯子选元素伤害加成、头冠选暴击率。副词条优先：暴击率 > 暴击伤害 > 攻击力% > 元素精通。作为免费角色，小吱的装备门槛低，很容易毕业。"
       },
       {
-        "question": "小吱配队推荐？",
-        "answer": "推荐配队：①小吱金谷爆发队（小吱+咲里+薄荷+娜娜莉），小吱站场主C + 咲里增益 + 薄荷辅助 + 娜娜莉副C，金谷市场全覆盖；②Eibon免费阵容（小吱+咲里+早雾+零），全员Eibon古董店成员，完全免费。小吱作为主C需要队友提供增益和反应触发。",
-        "questionZh": "Best team compositions for Xiaozhi?",
-        "answerZh": "Best teams: Jinggu Burst (Xiaozhi+ Sakiri + Mint + Nanally) for full Jinggu Market uptime; Eibon F2P Team (Xiaozhi + Sakiri + Hotori + Zero) for a completely free team. Xiaozhi needs teammates for buffs and reaction triggers."
+        "question": "Best team compositions for Xiaozhi?",
+        "answer": "Best teams: Jinggu Burst (Xiaozhi+ Sakiri + Mint + Nanally) for full Jinggu Market uptime; Eibon F2P Team (Xiaozhi + Sakiri + Hotori + Zero) for a completely free team. Xiaozhi needs teammates for buffs and reaction triggers.",
+        "questionZh": "小吱配队推荐？",
+        "answerZh": "推荐配队：①小吱金谷爆发队（小吱+咲里+薄荷+娜娜莉），小吱站场主C + 咲里增益 + 薄荷辅助 + 娜娜莉副C，金谷市场全覆盖；②Eibon免费阵容（小吱+咲里+早雾+零），全员Eibon古董店成员，完全免费。小吱作为主C需要队友提供增益和反应触发。"
       },
       {
-        "question": "小吱怎么获取和升命？",
-        "answer": "小吱是Eibon古董店（都市大亨）免费角色。通过都市大亨模式积累资源可解锁并升命，最多可达到6+5满命。这是游戏给零氪玩家最重要的福利之一——一个免费满命的S级主C。",
-        "questionZh": "How to get Xiaozhi and his duplicates?",
-        "answerZh": "Xiaozhi is obtained free through Eibon Antique Shop (City Tycoon mode). Accumulate resources in City Tycoon to unlock and upgrade him to max constellation (6+5). One of the most important F2P benefits — a free max-constellation S-rank DPS."
+        "question": "How to get Xiaozhi and his duplicates?",
+        "answer": "Xiaozhi is obtained free through Eibon Antique Shop (City Tycoon mode). Accumulate resources in City Tycoon to unlock and upgrade him to max constellation (6+5). One of the most important F2P benefits — a free max-constellation S-rank DPS.",
+        "questionZh": "小吱怎么获取和升命？",
+        "answerZh": "小吱是Eibon古董店（都市大亨）免费角色。通过都市大亨模式积累资源可解锁并升命，最多可达到6+5满命。这是游戏给零氪玩家最重要的福利之一——一个免费满命的S级主C。"
       },
       {
-        "question": "小吱和娜娜莉谁更强？",
-        "answer": "两者定位不同：娜娜莉是光属性S级主C，泛用性更广，反应伤害更高；小吱是灵属性S级主C，优势在于免费满命（6+5），命座加成后输出不输抽卡S角。如果你有娜娜莉，优先培养娜娜莉；如果是零氪，小吱是最值得投入的主C。",
-        "questionZh": "Xiaozhi vs Nanally — who is better?",
-        "answerZh": "Different roles: Nanally is Cosmos S-rank DPS with broader versatility and higher reaction damage. Xiaozhi is Anima S-rank DPS whose advantage is free max constellation (6+5), matching gacha S-ranks at full investment. If you have Nanally, prioritize her; for F2P, Xiaozhi is the best DPS investment."
+        "question": "Xiaozhi vs Nanally — who is better?",
+        "answer": "Different roles: Nanally is Cosmos S-rank DPS with broader versatility and higher reaction damage. Xiaozhi is Anima S-rank DPS whose advantage is free max constellation (6+5), matching gacha S-ranks at full investment. If you have Nanally, prioritize her; for F2P, Xiaozhi is the best DPS investment.",
+        "questionZh": "小吱和娜娜莉谁更强？",
+        "answerZh": "两者定位不同：娜娜莉是光属性S级主C，泛用性更广，反应伤害更高；小吱是灵属性S级主C，优势在于免费满命（6+5），命座加成后输出不输抽卡S角。如果你有娜娜莉，优先培养娜娜莉；如果是零氪，小吱是最值得投入的主C。"
       }
     ],
     "relatedCharacters": [],

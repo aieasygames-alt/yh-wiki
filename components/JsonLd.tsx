@@ -10,7 +10,7 @@ export function WebSiteJsonLd() {
     description: "Neverness to Everness Wiki & tools. Character builds, tier lists, calculator, guides and codes.",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://nteguide.com/zh/characters?q={search_term_string}",
+      target: "https://nteguide.com/en/characters?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -31,12 +31,14 @@ export function CharacterJsonLd({ character, locale }: { character: { name: stri
     : (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`);
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
+    "@type": "ItemPage",
     name: displayName,
     alternateName: altName,
     description,
-    knowsAbout: "Neverness to Everness",
-    jobTitle: `${character.rank}-Rank ${character.attribute} Character`,
+    mainEntity: {
+      "@type": "VideoGame",
+      name: "Neverness to Everness",
+    },
   };
 
   return (
@@ -122,10 +124,20 @@ export function ArticleJsonLd({ title, description, url, datePublished }: { titl
     description,
     url,
     ...(datePublished ? { datePublished } : {}),
+    image: "https://nteguide.com/og.png",
+    author: {
+      "@type": "Organization",
+      name: "NTE Guide",
+      url: "https://nteguide.com",
+    },
     publisher: {
       "@type": "Organization",
       name: "NTE Guide",
       url: "https://nteguide.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://nteguide.com/og.png",
+      },
     },
   };
 
@@ -198,21 +210,14 @@ export function VideoGameJsonLd() {
 export function ProductJsonLd({ name, description, url, image }: { name: string; description: string; url?: string; image?: string }) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "ItemPage",
     name,
     description,
     image: image || "https://nteguide.com/og.png",
     ...(url ? { url } : {}),
-    brand: {
-      "@type": "Brand",
+    mainEntity: {
+      "@type": "VideoGame",
       name: "Neverness to Everness",
-    },
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
-      availability: "https://schema.org/InStock",
-      itemCondition: "https://schema.org/NewCondition",
     },
   };
   return (
