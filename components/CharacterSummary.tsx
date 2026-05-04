@@ -1,4 +1,4 @@
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 interface CharacterSummaryProps {
   name: string;
@@ -20,16 +20,16 @@ interface CharacterSummaryProps {
 }
 
 export function CharacterSummary({ name, nameTw, nameEn, role, roleEn, attribute, rank, weapon, weaponEn, faction, cvZh, cvJp, cvJpEn, locale }: CharacterSummaryProps) {
-  const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
+  const displayName = locale === "zh" ? name : (locale === "tw" ? (nameTw || name) : nameEn);
   const rows = [
-    { key: t(locale, "common.name"), val: locale === "en" ? `${nameEn} (${name})` : `${displayName} (${nameEn})` },
-    { key: t(locale, "common.role"), val: locale === "en" ? roleEn : role },
+    { key: t(locale, "common.name"), val: isZhLocale(locale) ? `${displayName} (${nameEn})` : `${nameEn} (${name})` },
+    { key: t(locale, "common.role"), val: isZhLocale(locale) ? role : roleEn },
     { key: t(locale, "common.element"), val: attribute },
     { key: t(locale, "common.rarity"), val: `${rank}-Rank` },
-    ...(weapon && weapon !== "TBD" ? [{ key: t(locale, "common.weaponType"), val: locale === "en" ? weaponEn : weapon }] : []),
+    ...(weapon && weapon !== "TBD" ? [{ key: t(locale, "common.weaponType"), val: isZhLocale(locale) ? weapon : weaponEn }] : []),
     ...(faction ? [{ key: t(locale, "common.faction"), val: faction }] : []),
     ...(cvZh ? [{ key: t(locale, "characterSummary.vaCn"), val: cvZh }] : []),
-    ...(cvJp ? [{ key: t(locale, "characterSummary.vaJp"), val: locale === "en" ? `${cvJpEn || cvJp}` : cvJp }] : []),
+    ...(cvJp ? [{ key: t(locale, "characterSummary.vaJp"), val: isZhLocale(locale) ? cvJp : `${cvJpEn || cvJp}` }] : []),
   ];
 
   return (

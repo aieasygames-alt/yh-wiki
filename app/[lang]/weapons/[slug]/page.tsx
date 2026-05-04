@@ -30,7 +30,7 @@ export async function generateMetadata({
   const weapon = getWeapon(slug);
   if (!weapon) return {};
   const locale = lang as Locale;
-  const displayName = locale === "en" ? weapon.nameEn : (locale === "tw" ? (weapon.nameTw || weapon.name) : weapon.name);
+  const displayName = locale === "zh" ? weapon.name : (locale === "tw" ? (weapon.nameTw || weapon.name) : weapon.nameEn);
   return {
     title:
       locale === "tw"
@@ -64,14 +64,14 @@ export default async function WeaponDetailPage({
   if (!weapon) notFound();
 
   const characters = getCharactersUsingWeapon(slug);
-  const displayName = locale === "en" ? weapon.nameEn : (locale === "tw" ? (weapon.nameTw || weapon.name) : weapon.name);
+  const displayName = locale === "zh" ? weapon.name : (locale === "tw" ? (weapon.nameTw || weapon.name) : weapon.nameEn);
   const altName = locale === "en" ? weapon.name : weapon.nameEn;
   const typeLabel = ARC_TYPE_LABELS[weapon.type]?.[locale] || weapon.type;
   const rankLabel = ARC_RANK_LABELS[weapon.rank]?.[locale] || weapon.rank;
   const substatLabel = SUBSTAT_LABELS[weapon.substat]?.[locale] || weapon.substat;
-  const effectName = locale === "en" ? weapon.effectNameEn : (locale === "tw" ? (weapon.effectNameTw || weapon.effectName) : weapon.effectName);
-  const effectDesc = locale === "en" ? weapon.effectDescriptionEn : (locale === "tw" ? (weapon.effectDescriptionTw || weapon.effectDescription) : weapon.effectDescription);
-  const obtainDesc = locale === "en" ? weapon.howToObtainEn : (locale === "tw" ? weapon.howToObtainZh : weapon.howToObtainZh);
+  const effectName = locale === "zh" ? weapon.effectName : (locale === "tw" ? (weapon.effectNameTw || weapon.effectName) : weapon.effectNameEn);
+  const effectDesc = locale === "zh" ? weapon.effectDescription : (locale === "tw" ? (weapon.effectDescriptionTw || weapon.effectDescription) : weapon.effectDescriptionEn);
+  const obtainDesc = isZhLocale(locale) ? weapon.howToObtainZh : weapon.howToObtainEn;
   const obtainLabel = OBTAIN_METHOD_LABELS[weapon.howToObtain]?.[locale] || weapon.howToObtain;
 
   return (
@@ -120,7 +120,7 @@ export default async function WeaponDetailPage({
               <p className="text-lg font-bold text-primary-400">{weapon.substatValue}</p>
             </div>
             <div className="text-center">
-              <p className="text-xs text-gray-500 mb-1">{locale === "en" ? "Source" : locale === "tw" ? "來源" : "来源"}</p>
+              <p className="text-xs text-gray-500 mb-1">{isZhLocale(locale) ? (locale === "tw" ? "來源" : "来源") : "Source"}</p>
               <p className="text-sm font-medium text-gray-300">{obtainLabel}</p>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default async function WeaponDetailPage({
         {/* Passive Effect */}
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
           <h2 className="text-xl font-bold mb-3">
-            {locale === "en" ? "Arc Effect" : locale === "tw" ? "弧盤效果" : "弧盘效果"}
+            {isZhLocale(locale) ? (locale === "tw" ? "弧盤效果" : "弧盘效果") : "Arc Effect"}
             {effectName !== weapon.effectNameEn && effectName !== weapon.effectName && (
               <span className="text-gray-500 font-normal text-sm ml-2">
                 {locale === "en" ? weapon.effectName : weapon.effectNameEn}
@@ -146,7 +146,7 @@ export default async function WeaponDetailPage({
             )}
           </h2>
           <h3 className="text-primary-400 font-semibold mb-2">
-            {locale === "en" ? weapon.effectNameEn : (locale === "tw" ? (weapon.effectNameTw || weapon.effectName) : weapon.effectName)}
+            {locale === "zh" ? weapon.effectName : (locale === "tw" ? (weapon.effectNameTw || weapon.effectName) : weapon.effectNameEn)}
           </h3>
           <p className="text-sm text-gray-300 leading-relaxed">{effectDesc}</p>
         </section>
@@ -154,7 +154,7 @@ export default async function WeaponDetailPage({
         {/* How to Obtain */}
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
           <h2 className="text-xl font-bold mb-3">
-            {locale === "en" ? "How to Obtain" : locale === "tw" ? "獲取方式" : "获取方式"}
+            {isZhLocale(locale) ? (locale === "tw" ? "獲取方式" : "获取方式") : "How to Obtain"}
           </h2>
           <div className="flex items-start gap-3">
             <span className="text-xs px-2 py-1 rounded border bg-primary-500/20 text-primary-400 border-primary-500/30 whitespace-nowrap">
@@ -170,7 +170,7 @@ export default async function WeaponDetailPage({
           {characters.length > 0 ? (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {characters.map((c) => {
-                const charName = locale === "en" ? c.nameEn : (locale === "tw" ? (c.nameTw || c.name) : c.name);
+                const charName = locale === "zh" ? c.name : (locale === "tw" ? (c.nameTw || c.name) : c.nameEn);
                 return (
                   <Link
                     key={c.id}

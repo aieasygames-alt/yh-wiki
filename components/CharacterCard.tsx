@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { getAttributeColor, getAttributeLabel } from "../lib/attributes";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 interface CharacterCardProps {
   id: string;
@@ -31,7 +31,7 @@ export function CharacterCard({
   image,
   locale,
 }: CharacterCardProps) {
-  const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
+  const displayName = locale === "zh" ? name : (locale === "tw" ? (nameTw || name) : nameEn);
   const subName = locale === "en" ? name : nameEn;
   const isUnavailable = status === "upcoming" || status === "rumored";
   const statusLabel = status ? (STATUS_KEYS[status] ? t(locale, STATUS_KEYS[status]) : null) : null;

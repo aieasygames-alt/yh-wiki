@@ -126,7 +126,7 @@ export default async function VehicleDetailPage({
               <h1 className="text-2xl font-bold">
                 {isZhLocale(locale) ? vehicle.name : `${vehicle.nameEn} Stats & Acquisition`}
               </h1>
-              <p className="text-gray-500">{isZhLocale(locale) ? vehicle.nameEn : vehicle.name}</p>
+              <p className="text-gray-500">{locale === "en" ? vehicle.name : vehicle.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
                   {typeLabel}

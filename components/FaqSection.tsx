@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 interface FaqItem {
   question: string;
@@ -27,8 +27,8 @@ export function FaqSection({ faqs, locale }: FaqSectionProps) {
       </h2>
       <div className="space-y-2">
         {faqs.map((faq, i) => {
-          const question = locale === "en" ? faq.question : faq.questionZh;
-          const answer = locale === "en" ? faq.answer : faq.answerZh;
+          const question = isZhLocale(locale) ? faq.questionZh : faq.question;
+          const answer = isZhLocale(locale) ? faq.answerZh : faq.answer;
           const isOpen = openIndex === i;
           return (
             <div key={i} className="rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden">

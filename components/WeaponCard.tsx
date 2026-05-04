@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
-import type { Locale } from "../lib/i18n";
+import { isZhLocale, type Locale } from "../lib/i18n";
 import { ARC_TYPE_LABELS, SUBSTAT_LABELS } from "../lib/attributes";
 
 const TYPE_COLORS: Record<string, string> = {
@@ -31,8 +31,8 @@ interface WeaponCardProps {
 }
 
 export function WeaponCard({ id, name, nameTw, nameEn, rank, type, baseAtk, substat, substatValue, locale }: WeaponCardProps) {
-  const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
-  const subLabel = locale === "en" ? nameEn : (locale === "tw" ? name : nameEn);
+  const displayName = locale === "zh" ? name : (locale === "tw" ? (nameTw || name) : nameEn);
+  const subLabel = isZhLocale(locale) ? (locale === "tw" ? name : nameEn) : nameEn;
   const typeLabel = ARC_TYPE_LABELS[type]?.[locale] || type;
   const substatLabel = SUBSTAT_LABELS[substat]?.[locale] || substat;
 

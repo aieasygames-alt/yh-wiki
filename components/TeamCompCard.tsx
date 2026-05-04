@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { TeamComp } from "../lib/queries";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 interface TeamCompCardProps {
   teams: TeamComp[];
@@ -17,9 +17,9 @@ export function TeamCompCard({ teams, locale }: TeamCompCardProps) {
       </h2>
       <div className="grid gap-4 sm:grid-cols-2">
         {teams.map((team, i) => {
-          const name = locale === "en" ? team.nameEn : team.name;
+          const name = isZhLocale(locale) ? team.name : team.nameEn;
           const description =
-            locale === "en" ? team.descriptionEn : team.description;
+            isZhLocale(locale) ? team.description : team.descriptionEn;
 
           return (
             <div

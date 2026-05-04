@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { Skills, Skill } from "../lib/queries";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 interface SkillDetailProps {
   skills: Skills;
@@ -23,9 +23,9 @@ function SkillCard({
   defaultOpen: boolean;
 }) {
   const [open, setOpen] = useState(defaultOpen);
-  const name = locale === "en" ? skill.nameEn : skill.name;
-  const description = locale === "en" ? skill.descriptionEn : skill.description;
-  const scaling = locale === "en" ? skill.scalingEn : skill.scaling;
+  const name = isZhLocale(locale) ? skill.name : skill.nameEn;
+  const description = isZhLocale(locale) ? skill.description : skill.descriptionEn;
+  const scaling = isZhLocale(locale) ? skill.scaling : skill.scalingEn;
 
   return (
     <div className="rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden">
@@ -139,9 +139,9 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
                   key={`passive-${i}`}
                   skill={passive}
                   label={
-                    locale === "en"
-                      ? `Passive ${i + 1}`
-                      : `被动 ${i + 1}`
+                    isZhLocale(locale)
+                      ? `被动 ${i + 1}`
+                      : `Passive ${i + 1}`
                   }
                   icon="◆"
                   locale={locale}

@@ -23,9 +23,9 @@ import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 
 /** Get character display name for a given locale */
 function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {
-  if (locale === "en") return c.nameEn;
+  if (locale === "zh") return c.name;
   if (locale === "tw") return c.nameTw || c.name;
-  return c.name;
+  return c.nameEn;
 }
 
 export function generateStaticParams() {

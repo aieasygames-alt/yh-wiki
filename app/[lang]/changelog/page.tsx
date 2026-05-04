@@ -43,8 +43,8 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
         <div className="space-y-6">
           {changelogs.map((cl) => {
             const dateStr = locale === "en" && cl.dateGlobal ? cl.dateGlobal : cl.date;
-            const highlights = locale === "en" ? cl.highlightsEn : cl.highlights;
-            const versionName = locale === "en" ? cl.versionNameEn : cl.versionName;
+            const highlights = isZhLocale(locale) ? cl.highlights : cl.highlightsEn;
+            const versionName = isZhLocale(locale) ? cl.versionName : cl.versionNameEn;
             const typeLabel = cl.type === "major"
               ? t(locale, "changelogDetails.major")
               : cl.type === "minor"
@@ -77,7 +77,7 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
                   <div className="flex flex-wrap gap-2 mt-3">
                     {cl.sections.map((s) => (
                       <span key={s.title} className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-500">
-                        {locale === "en" ? s.titleEn : s.title}
+                        {isZhLocale(locale) ? s.title : s.titleEn}
                       </span>
                     ))}
                   </div>

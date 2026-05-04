@@ -69,7 +69,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
               <h1 className="text-2xl font-bold">
                 {isZhLocale(locale) ? set.name : set.nameEn}
               </h1>
-              <p className="text-gray-500">{isZhLocale(locale) ? set.nameEn : set.name}</p>
+              <p className="text-gray-500">{locale === "en" ? set.name : set.nameEn}</p>
               <div className="flex items-center gap-2 mt-2">
                 <span className="text-xs px-3 py-1 rounded-full border bg-gray-800 text-gray-300">
                   {set.pieces}{isZhLocale(locale) ? "件套" : "-piece set"}
@@ -126,7 +126,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
                   </div>
                   <div>
                     <div className="text-sm font-medium">{isZhLocale(locale) ? char.name : char.nameEn}</div>
-                    <div className="text-xs text-gray-500">{char.role} · {char.rank}-Rank</div>
+                    <div className="text-xs text-gray-500">{isZhLocale(locale) ? char.role : char.roleEn} · {char.rank}-Rank</div>
                   </div>
                 </Link>
               );

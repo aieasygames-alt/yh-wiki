@@ -93,7 +93,7 @@ export default async function AnomaliesPage({ params }: { params: { lang: string
                       </span>
                     </div>
                     <p className="text-xs text-gray-500 mb-2">
-                      {isZhLocale(locale) ? anomaly.nameEn : anomaly.name}
+                      {locale === "en" ? anomaly.name : anomaly.nameEn}
                       {anomaly.attribute && ` · ${isZhLocale(locale) ? anomaly.attribute : anomaly.attributeEn}`}
                     </p>
                     {anomaly.weakness && (

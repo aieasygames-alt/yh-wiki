@@ -1,4 +1,4 @@
-import type { Locale } from "../lib/i18n";
+import { isZhLocale, type Locale } from "../lib/i18n";
 
 export function WebSiteJsonLd() {
   const jsonLd = {
@@ -24,11 +24,11 @@ export function WebSiteJsonLd() {
 }
 
 export function CharacterJsonLd({ character, locale }: { character: { name: string; nameEn: string; attribute: string; rank: string; description?: string; descriptionEn?: string }; locale: Locale }) {
-  const displayName = locale === "en" ? character.nameEn : character.name;
-  const altName = locale === "en" ? character.name : character.nameEn;
-  const description = locale === "en"
-    ? (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`)
-    : (character.description || `${character.name} - Neverness to Everness 角色`);
+  const displayName = isZhLocale(locale) ? character.name : character.nameEn;
+  const altName = isZhLocale(locale) ? character.nameEn : character.name;
+  const description = isZhLocale(locale)
+    ? (character.description || `${character.name} - Neverness to Everness 角色`)
+    : (character.descriptionEn || `${character.nameEn} - Neverness to Everness character`);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "VideoGameCharacter",
@@ -68,8 +68,8 @@ export function ItemListJsonLd({ items }: { items: { name: string; url: string }
 }
 
 export function FaqJsonLd({ faq, lang }: { faq: { question: string; questionEn: string; answer: string; answerEn: string }; lang: Locale }) {
-  const question = lang === "en" ? faq.questionEn : faq.question;
-  const answer = lang === "en" ? faq.answerEn : faq.answer;
+  const question = isZhLocale(lang) ? faq.question : faq.questionEn;
+  const answer = isZhLocale(lang) ? faq.answer : faq.answerEn;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -142,10 +142,10 @@ export function FaqPageJsonLd({ faqs, lang }: { faqs: { question: string; questi
     "@type": "FAQPage",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
-      name: lang === "en" ? faq.question : faq.questionZh,
+      name: isZhLocale(lang) ? faq.questionZh : faq.question,
       acceptedAnswer: {
         "@type": "Answer",
-        text: lang === "en" ? faq.answer : faq.answerZh,
+        text: isZhLocale(lang) ? faq.answerZh : faq.answer,
       },
     })),
   };

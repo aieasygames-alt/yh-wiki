@@ -1,5 +1,5 @@
 import type { RecommendedBuild } from "../lib/queries";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 interface BuildRecommendationProps {
   build: RecommendedBuild;
@@ -10,14 +10,14 @@ export function BuildRecommendation({
   build,
   locale,
 }: BuildRecommendationProps) {
-  const bestWeapon = locale === "en" ? build.bestWeaponEn : build.bestWeapon;
-  const bestDiskSet = locale === "en" ? build.bestDiskSetEn : build.bestDiskSet;
+  const bestWeapon = isZhLocale(locale) ? build.bestWeapon : build.bestWeaponEn;
+  const bestDiskSet = isZhLocale(locale) ? build.bestDiskSet : build.bestDiskSetEn;
   const altWeapons = build.alternativeWeapons.map((w) => ({
     id: w.id,
-    name: locale === "en" ? w.nameEn : w.name,
+    name: isZhLocale(locale) ? w.name : w.nameEn,
   }));
-  const mainStats = locale === "en" ? build.mainStatsEn : build.mainStats;
-  const subStats = locale === "en" ? build.subStatPriorityEn : build.subStatPriority;
+  const mainStats = isZhLocale(locale) ? build.mainStats : build.mainStatsEn;
+  const subStats = isZhLocale(locale) ? build.subStatPriority : build.subStatPriorityEn;
 
   return (
     <section className="mb-8">

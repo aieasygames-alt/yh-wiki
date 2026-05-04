@@ -75,7 +75,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
               <h1 className="text-2xl font-bold">
                 {isZhLocale(locale) ? anomaly.name : anomaly.nameEn}
               </h1>
-              <p className="text-gray-500">{isZhLocale(locale) ? anomaly.nameEn : anomaly.name}</p>
+              <p className="text-gray-500">{locale === "en" ? anomaly.name : anomaly.nameEn}</p>
             </div>
             <span className={`text-xs px-3 py-1 rounded-full border ${typeColors[anomaly.type] || ""}`}>
               {typeLabel}

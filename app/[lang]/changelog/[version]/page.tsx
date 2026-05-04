@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: { lang: string; ver
   const cl = getChangelogByVersion(version);
   if (!cl) return { title: "Not Found" };
 
-  const versionName = lang === "en" ? cl.versionNameEn : cl.versionName;
+  const versionName = isZhLocale(lang) ? cl.versionName : cl.versionNameEn;
   const title = isZhLocale(lang)
     ? `异环 ${cl.version} ${versionName} 更新日志`
     : `NTE v${cl.version} ${versionName} Changelog`;
@@ -36,8 +36,8 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
   const cl = getChangelogByVersion(version);
   if (!cl) notFound();
 
-  const versionName = locale === "en" ? cl.versionNameEn : cl.versionName;
-  const highlights = locale === "en" ? cl.highlightsEn : cl.highlights;
+  const versionName = isZhLocale(locale) ? cl.versionName : cl.versionNameEn;
+  const highlights = isZhLocale(locale) ? cl.highlights : cl.highlightsEn;
 
   const typeColors: Record<string, string> = {
     major: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
@@ -96,14 +96,14 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
 
         {/* Sections */}
         {cl.sections && cl.sections.map((section, si) => {
-          const sectionTitle = locale === "en" ? section.titleEn : section.title;
+          const sectionTitle = isZhLocale(locale) ? section.title : section.titleEn;
           return (
             <div key={si} className="mb-8">
               <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-800">{sectionTitle}</h2>
               <div className="space-y-3">
                 {section.items && section.items.map((item, ii) => {
-                  const itemName = locale === "en" ? item.nameEn : item.name;
-                  const itemDesc = locale === "en" ? item.descriptionEn : item.description;
+                  const itemName = isZhLocale(locale) ? item.name : item.nameEn;
+                  const itemDesc = isZhLocale(locale) ? item.description : item.descriptionEn;
                   return (
                     <div key={ii} className="rounded-lg border border-gray-800 bg-gray-900/50 p-3">
                       <div className="flex items-center gap-2 mb-1">
@@ -133,7 +133,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
             <h2 className="text-sm font-bold text-primary-400 mb-1">
               {t(locale, "changelogDetails.compensation")}
             </h2>
-            <p className="text-sm text-gray-300">{locale === "en" ? cl.compensationEn : cl.compensation}</p>
+            <p className="text-sm text-gray-300">{isZhLocale(locale) ? cl.compensation : cl.compensationEn}</p>
           </div>
         )}
 

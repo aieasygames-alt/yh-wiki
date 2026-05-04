@@ -114,7 +114,7 @@ export default function InteractiveMap({
 
       const leafletMarker = L.marker(markerToLatLng(marker), { icon })
         .bindTooltip(
-          lang === "en" ? marker.nameEn : marker.name,
+          lang === "zh" || lang === "tw" ? marker.name : marker.nameEn,
           {
             direction: "top",
             offset: [0, -12],

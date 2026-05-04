@@ -1,4 +1,4 @@
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS } from "../lib/attributes";
 
 interface WeaponSummaryProps {
@@ -18,7 +18,7 @@ interface WeaponSummaryProps {
 }
 
 export function WeaponSummary({ name, nameTw, nameEn, rank, type, baseAtk, substat, substatValue, howToObtainZh, howToObtainEn, relatedCharacters, locale }: WeaponSummaryProps) {
-  const displayName = locale === "en" ? nameEn : (locale === "tw" ? (nameTw || name) : name);
+  const displayName = locale === "zh" ? name : (locale === "tw" ? (nameTw || name) : nameEn);
   const altName = locale === "en" ? name : nameEn;
   const rankLabel = ARC_RANK_LABELS[rank]?.[locale] || rank;
   const typeLabel = ARC_TYPE_LABELS[type]?.[locale] || type;
@@ -29,11 +29,11 @@ export function WeaponSummary({ name, nameTw, nameEn, rank, type, baseAtk, subst
     { key: t(locale, "common.type"), val: typeLabel },
     { key: "ATK", val: String(baseAtk) },
     { key: substatLabel, val: substatValue },
-    { key: t(locale, "weaponSummary.obtain"), val: locale === "en" ? howToObtainEn : howToObtainZh },
+    { key: t(locale, "weaponSummary.obtain"), val: isZhLocale(locale) ? howToObtainZh : howToObtainEn },
   ];
 
   if (relatedCharacters.length > 0) {
-    const charNames = relatedCharacters.map(c => locale === "en" ? c.nameEn : (locale === "tw" ? (c.nameTw || c.name) : c.name)).join(", ");
+    const charNames = relatedCharacters.map(c => locale === "zh" ? c.name : (locale === "tw" ? (c.nameTw || c.name) : c.nameEn)).join(", ");
     rows.push({ key: t(locale, "weaponSummary.bestFor"), val: charNames });
   }
 

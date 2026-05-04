@@ -134,7 +134,7 @@ export function SearchDialog({ lang }: { lang: string }) {
   }, {});
 
   const typeOrder = ["character", "weapon", "guide", "lore", "location", "material", "faq"];
-  const locale = (lang === "en" ? "en" : (lang === "tw" ? "tw" : "zh")) as Locale;
+  const locale = (lang === "zh" ? "zh" : (lang === "tw" ? "tw" : "en")) as Locale;
 
   if (!open) {
     return (
