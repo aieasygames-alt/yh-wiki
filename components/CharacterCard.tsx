@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { getAttributeColor, getAttributeLabel } from "../lib/attributes";
-import { t, isZhLocale, type Locale } from "../lib/i18n";
+import { t, type Locale } from "../lib/i18n";
 
 interface CharacterCardProps {
   id: string;
