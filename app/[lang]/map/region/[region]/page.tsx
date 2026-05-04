@@ -25,7 +25,7 @@ export async function generateMetadata({
   const { lang, region: regionId } = await params;
   if (!VALID_REGIONS.includes(regionId)) return {};
 
-  const regionInfo = (mapData as any).regions[regionId];
+  const regionInfo = (mapData as { regions: Record<string, { zh: string; en: string }> }).regions[regionId];
   const isZh = isZhLocale(lang);
   const regionName = isZh ? regionInfo.zh : regionInfo.en;
 
