@@ -5,6 +5,10 @@ const nextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   poweredByHeader: false,
+  experimental: {
+    workerThreads: true,
+    cpus: 4,
+  },
 };
 
 export default nextConfig;

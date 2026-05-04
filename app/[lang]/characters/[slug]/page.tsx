@@ -18,8 +18,10 @@ import { SkillDetail } from "../../../../components/SkillDetail";
 import { BuildRecommendation } from "../../../../components/BuildRecommendation";
 import { TeamCompCard } from "../../../../components/TeamCompCard";
 import { TierBadge } from "../../../../components/TierBadge";
-import { GiscusComments } from "../../../../components/GiscusComments";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
+import dynamic from "next/dynamic";
+
+const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
 /** Get character display name for a given locale */
 function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {

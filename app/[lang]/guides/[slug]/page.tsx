@@ -7,7 +7,9 @@ import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
-import { GiscusComments } from "../../../../components/GiscusComments";
+import dynamic from "next/dynamic";
+
+const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
 export function generateStaticParams() {
   const guides = getAllGuides();
