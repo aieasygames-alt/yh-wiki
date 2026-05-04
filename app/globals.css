@@ -34,6 +34,13 @@ html[lang="th"] .text-sm {
   line-break: anywhere;
 }
 
+/* Vietnamese & Portuguese: allow long words to break in tight spaces */
+html[lang="vi"] footer a,
+html[lang="pt-BR"] footer a {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 /* Prevent text overflow in fixed-width containers for longer translations */
 .truncate-i18n {
   overflow: hidden;

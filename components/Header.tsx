@@ -86,13 +86,13 @@ export function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-5">
+        <nav className="hidden lg:flex items-center gap-4 overflow-hidden min-w-0">
           {navItems.map((item) => {
             if (item.type === "dropdown" && item.items) {
               return (
                 <div
                   key={item.key}
-                  className="relative"
+                  className="relative shrink-0"
                   onMouseEnter={() => {
                     cancelClose();
                     setOpenDropdown(item.key!);
@@ -100,27 +100,27 @@ export function Header() {
                   onMouseLeave={() => scheduleClose(item.key!)}
                 >
                   <button
-                    className={`text-sm transition-colors hover:text-primary-400 flex items-center gap-1 ${
+                    className={`text-sm whitespace-nowrap transition-colors hover:text-primary-400 flex items-center gap-1 ${
                       isDropdownActive(item)
                         ? "text-primary-400 font-medium"
                         : "text-gray-400"
                     }`}
                   >
                     {item.label}
-                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-3 h-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
                   {openDropdown === item.key && (
-                    <div className="absolute top-full left-0 pt-1">
+                    <div className="absolute top-full left-0 pt-1 z-50">
                       {/* Invisible bridge to prevent mouseLeave gap — must not block clicks */}
                       <div className="absolute inset-0 -top-1 pointer-events-none" />
-                      <div className="bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg">
+                      <div className="bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg whitespace-nowrap">
                         {item.items.map((sub) => (
                           <Link
                             key={sub.href}
                             href={sub.href}
-                            className={`block px-3 py-2 text-sm transition-colors ${
+                            className={`block px-3 py-2 text-sm whitespace-nowrap transition-colors ${
                               isActive(sub.href)
                                 ? "text-primary-400"
                                 : "text-gray-400 hover:text-white hover:bg-gray-800"
@@ -139,7 +139,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href!}
-                className={`text-sm transition-colors hover:text-primary-400 ${
+                className={`text-sm whitespace-nowrap shrink-0 transition-colors hover:text-primary-400 ${
                   isActive(item.href!) ? "text-primary-400 font-medium" : "text-gray-400"
                 }`}
               >
@@ -182,7 +182,7 @@ export function Header() {
             href="https://discord.com/invite/PuWfNRcBt9"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-[#5865F2] hover:text-[#4752C4] transition-colors"
+            className="text-sm shrink-0 text-[#5865F2] hover:text-[#4752C4] transition-colors"
             title={t(lang, "header.joinDiscord")}
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
@@ -193,7 +193,7 @@ export function Header() {
             href="https://www.reddit.com/r/NevernessToEverness/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-[#FF4500] hover:text-[#D63E00] transition-colors"
+            className="text-sm shrink-0 text-[#FF4500] hover:text-[#D63E00] transition-colors"
             title={t(lang, "header.joinReddit")}
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">

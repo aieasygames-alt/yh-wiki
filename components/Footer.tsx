@@ -56,14 +56,14 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
           {columns.map((col) => (
-            <div key={col.title}>
+            <div key={col.title} className="min-w-0">
               <h3 className="text-sm font-medium text-gray-300 mb-3">{col.title}</h3>
               <ul className="space-y-2">
                 {col.links.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-500 hover:text-primary-400 transition-colors"
+                      className="text-sm text-gray-500 hover:text-primary-400 transition-colors break-words"
                     >
                       {link.label}
                     </Link>
