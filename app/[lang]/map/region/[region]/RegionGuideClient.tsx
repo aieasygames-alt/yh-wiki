@@ -250,7 +250,6 @@ export default function RegionGuideClient({
   regionId,
 }: {
   lang: Locale;
-  region: string;
   regionId: string;
 }) {
   const isZh = isZhLocale(lang);
