@@ -207,7 +207,7 @@ export function VideoGameJsonLd() {
   );
 }
 
-export function ProductJsonLd({ name, description, url, image }: { name: string; description: string; url?: string; image?: string }) {
+export function ProductJsonLd({ name, description, url, image, ratingValue, reviewCount }: { name: string; description: string; url?: string; image?: string; ratingValue?: number; reviewCount?: number }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemPage",
@@ -216,8 +216,18 @@ export function ProductJsonLd({ name, description, url, image }: { name: string;
     image: image || "https://nteguide.com/og.png",
     ...(url ? { url } : {}),
     mainEntity: {
-      "@type": "VideoGame",
-      name: "Neverness to Everness",
+      "@type": "Product",
+      name,
+      description,
+      ...(ratingValue ? {
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: String(ratingValue),
+          bestRating: "5",
+          worstRating: "1",
+          reviewCount: String(reviewCount || 1),
+        },
+      } : {}),
     },
   };
   return (

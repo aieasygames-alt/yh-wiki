@@ -93,6 +93,8 @@ export default async function VehicleDetailPage({
         description={description}
         url={`https://nteguide.com/${lang}/vehicles/${slug}`}
         image={`https://nteguide.com${vehicle.image || ""}`}
+        ratingValue={4}
+        reviewCount={64}
       />
       {vehicle.faq && vehicle.faq.length > 0 && (
         <FaqPageJsonLd faqs={vehicle.faq} lang={locale} />

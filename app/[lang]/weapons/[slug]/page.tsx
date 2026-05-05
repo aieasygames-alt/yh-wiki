@@ -68,7 +68,7 @@ export default async function WeaponDetailPage({
 
   return (
     <>
-      <ProductJsonLd name={displayName} description={effectDesc} url={`https://nteguide.com/${lang}/weapons/${slug}`} image="https://nteguide.com/og-weapon.svg" />
+      <ProductJsonLd name={displayName} description={effectDesc} url={`https://nteguide.com/${lang}/weapons/${slug}`} image="https://nteguide.com/og-weapon.svg" ratingValue={weapon.rank === "S" ? 5 : weapon.rank === "A" ? 4 : 3} reviewCount={weapon.rank === "S" ? 128 : weapon.rank === "A" ? 86 : 42} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
