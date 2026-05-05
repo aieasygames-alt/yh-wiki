@@ -109,7 +109,7 @@ export default function RedeemCodesPage() {
       <h1 className="text-3xl font-bold mb-2">{t(lang, "redeemCodes.title")}</h1>
       <p className="text-sm text-gray-500 mb-2">{t(lang, "redeemCodes.description")}</p>
       <p className="text-xs text-gray-600 mb-8">
-        {t(lang, "redeemCodes.lastUpdate")}: 2026-04-23
+        {t(lang, "redeemCodes.lastUpdate")}: 2026-05-05
       </p>
 
       <div className="mb-6">

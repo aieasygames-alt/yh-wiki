@@ -13,15 +13,15 @@ export async function generateMetadata({
   const isZh = locale === "zh";
   const isTw = locale === "tw";
   const title = isTw
-    ? "異環常見問題FAQ — 新手指南、下載、國際服、配備要求總匯"
+    ? "異環FAQ — 下載安裝、聯機多人、配置要求、兌換碼、抽卡保底等50+常見問題解答"
     : isZh
-      ? "异环常见问题FAQ — 新手指南、下载安装、国际服、配置要求大全"
-      : "NTE FAQ — Is NTE on PC? How to Download, System Requirements, Global Server & More";
+      ? "异环FAQ — 下载安装、联机多人、配置要求、兑换码、抽卡保底等50+常见问题解答"
+      : "NTE FAQ — 50+ Answers: Download, Co-op, System Requirements, Redeem Codes, Gacha & More";
   const description = isTw
-    ? "異環(NTE)常見問題解答大全，涵蓋下載安裝、國際服、配置要求、兌換碼、抽卡機制等熱門問題。"
+    ? "異環(NTE)常見問題即時解答：怎麼下載？可以聯機嗎？配置要求？兌換碼怎麼用？抽卡保底機制？一次性解答所有新手疑問。"
     : isZh
-      ? "异环(NTE)常见问题解答大全，涵盖下载安装、国际服、配置要求、兑换码、抽卡机制等热门问题，实时更新。"
-      : "Answers to top Neverness to Everness questions: Is NTE on PC? How to download? System requirements, global server, storage size, redeem codes, gacha rates, co-op, and more.";
+      ? "异环(NTE)常见问题即时解答：怎么下载安装？可以联机吗？手机配置够吗？兑换码怎么用？抽卡保底机制？一次解答所有新手疑问。"
+      : "Instant answers to 50+ NTE questions: How to download? Is there co-op? Can your PC run it? Redeem codes? Gacha pity system? Cross-platform save? All covered.";
   return {
     title,
     description,

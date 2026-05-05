@@ -11,15 +11,15 @@ export async function generateMetadata({
   const isTw = locale === "tw";
 
   const title = isTw
-    ? "異環兌換碼（2026年4月）— 國服/國際服禮包碼序號大全、直播兌換碼即時更新 | NTE Guide"
+    ? "異環兌換碼（2026年5月）— 國服/國際服禮包碼序號大全、直播兌換碼即時更新 | NTE Guide"
     : isZh
-      ? "异环兑换码（2026年4月）— 国服/国际服礼包码大全、开服兑换码、前瞻直播码实时更新 | NTE Guide"
-      : "Neverness to Everness Redeem Codes (April 2026) — All Active NTE Codes for CN & Global Servers";
+      ? "异环兑换码（2026年5月）— 国服/国际服礼包码大全、开服兑换码、前瞻直播码实时更新 | NTE Guide"
+      : "NTE Redeem Codes (May 2026) — All Active Codes, Gift Codes & Livestream Codes";
   const description = isTw
-    ? "異環(NTE)兌換碼即時更新（2026年4月）。國服和國際服所有有效禮包碼/序號，含前瞻直播碼、開服碼，附兌換方法教學和獎勵一覽。"
+    ? "異環(NTE)兌換碼即時更新（2026年5月）。國服和國際服所有有效禮包碼/序號，含前瞻直播碼、開服碼，附兌換方法教學和獎勵一覽。"
     : isZh
-      ? "异环(NTE)兑换码实时更新（2026年4月）。国服和国际服所有有效礼包码，含开服兑换码、前瞻直播码、合作码，附兑换入口和奖励详情。"
-      : "All active Neverness to Everness redeem codes (April 2026). Updated codes for CN & Global servers, including livestream codes, launch codes, and step-by-step redemption guide.";
+      ? "异环(NTE)兑换码实时更新（2026年5月）。国服和国际服所有有效礼包码，含开服兑换码、前瞻直播码、合作码，附兑换入口和奖励详情。"
+      : "All working NTE redeem codes for May 2026 (CN & Global). Includes livestream codes NTENOWTOENJOY, NTENANALLYGO, NTE0429 and more. Copy & redeem instantly!";
 
   return {
     title,
