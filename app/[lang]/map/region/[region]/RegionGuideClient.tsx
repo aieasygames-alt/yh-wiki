@@ -13,7 +13,7 @@ const data = mapData as unknown as {
   regions: Record<string, { zh: string; en: string; color: string }>;
 };
 
-const IMG_VERSION = "v=1";
+const IMG_VERSION = "v=2";
 
 // ─── Region content data ────────────────────────────────────────
 
