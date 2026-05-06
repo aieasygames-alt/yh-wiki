@@ -854,6 +854,20 @@
     "sweepMap": "Карта зачистки",
     "checklist": "Чек-лист",
     "totalMarkers": "Всего {0} маркеров",
-    "noRegionSelected": "Сначала выберите регион"
+    "noRegionSelected": "Сначала выберите регион",
+    "shareProgress": "Поделиться прогрессом",
+    "nickname": "Никнейм",
+    "playerId": "ID игрока",
+    "copyImage": "Копировать изображение",
+    "shareTwitter": "Поделиться в Twitter",
+    "shareReddit": "Поделиться в Reddit",
+    "imageCopied": "Изображение скопировано!",
+    "sweepSummaryTitle": "Зачистка завершена!",
+    "markersCollected": "Собрано маркеров",
+    "timeSpent": "Время",
+    "beforeProgress": "До",
+    "afterProgress": "После",
+    "toggleMap": "Показать карту",
+    "routeDistance": "Маршрут: {0}"
   }
 }

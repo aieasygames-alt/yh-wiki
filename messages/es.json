@@ -854,6 +854,20 @@
     "sweepMap": "Mapa de Barrido",
     "checklist": "Lista de Verificación",
     "totalMarkers": "{0} marcadores en total",
-    "noRegionSelected": "Selecciona una región primero"
+    "noRegionSelected": "Selecciona una región primero",
+    "shareProgress": "Compartir progreso",
+    "nickname": "Apodo",
+    "playerId": "ID del jugador",
+    "copyImage": "Copiar imagen",
+    "shareTwitter": "Compartir en Twitter",
+    "shareReddit": "Compartir en Reddit",
+    "imageCopied": "¡Imagen copiada!",
+    "sweepSummaryTitle": "¡Barrido completo!",
+    "markersCollected": "Marcadores recolectados",
+    "timeSpent": "Tiempo",
+    "beforeProgress": "Antes",
+    "afterProgress": "Después",
+    "toggleMap": "Alternar mapa",
+    "routeDistance": "Ruta: {0}"
   }
 }

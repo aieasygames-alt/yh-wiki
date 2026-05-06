@@ -854,6 +854,20 @@
     "sweepMap": "스윕 맵",
     "checklist": "체크리스트",
     "totalMarkers": "총 {0}개 마커",
-    "noRegionSelected": "지역을 먼저 선택하세요"
+    "noRegionSelected": "지역을 먼저 선택하세요",
+    "shareProgress": "진행률 공유",
+    "nickname": "닉네임",
+    "playerId": "플레이어 ID",
+    "copyImage": "이미지 복사",
+    "shareTwitter": "Twitter에 공유",
+    "shareReddit": "Reddit에 공유",
+    "imageCopied": "이미지 복사됨!",
+    "sweepSummaryTitle": "스윕 완료!",
+    "markersCollected": "수집 마커",
+    "timeSpent": "소요 시간",
+    "beforeProgress": "이전",
+    "afterProgress": "이후",
+    "toggleMap": "지도 전환",
+    "routeDistance": "경로: {0}"
   }
 }

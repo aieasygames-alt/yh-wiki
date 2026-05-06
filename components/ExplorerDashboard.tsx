@@ -15,6 +15,7 @@ interface ExplorerDashboardProps {
   markerTypes: Record<string, MarkerTypeInfo>;
   regions: Record<string, RegionInfo>;
   lang: Locale;
+  onShare?: () => void;
 }
 
 export default function ExplorerDashboard({
@@ -23,6 +24,7 @@ export default function ExplorerDashboard({
   markerTypes,
   regions,
   lang,
+  onShare,
 }: ExplorerDashboardProps) {
   const isZh = isZhLocale(lang);
   const totalIds = markers.map((m) => m.id);
@@ -91,6 +93,14 @@ export default function ExplorerDashboard({
                 <div className="text-xs text-gray-500">{t(lang, "explorer.remaining")}</div>
               </div>
             </div>
+            {onShare && (
+              <button
+                onClick={onShare}
+                className="w-full py-2 rounded-lg bg-gray-800 text-primary-400 border border-gray-700 hover:border-primary-500/30 text-sm transition-colors"
+              >
+                {t(lang, "explorer.shareProgress")}
+              </button>
+            )}
           </div>
         </div>
       </div>

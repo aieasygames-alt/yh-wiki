@@ -854,6 +854,20 @@
     "sweepMap": "Peta Sapuan",
     "checklist": "Daftar Cek",
     "totalMarkers": "Total {0} marker",
-    "noRegionSelected": "Pilih wilayah terlebih dahulu"
+    "noRegionSelected": "Pilih wilayah terlebih dahulu",
+    "shareProgress": "Bagikan Progres",
+    "nickname": "Nama Panggilan",
+    "playerId": "ID Pemain",
+    "copyImage": "Salin Gambar",
+    "shareTwitter": "Bagikan ke Twitter",
+    "shareReddit": "Bagikan ke Reddit",
+    "imageCopied": "Gambar disalin!",
+    "sweepSummaryTitle": "Sapuan Selesai!",
+    "markersCollected": "Marker Terkumpul",
+    "timeSpent": "Waktu",
+    "beforeProgress": "Sebelum",
+    "afterProgress": "Sesudah",
+    "toggleMap": "Toggle Peta",
+    "routeDistance": "Rute: {0}"
   }
 }

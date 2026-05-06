@@ -854,6 +854,20 @@
     "sweepMap": "スイープマップ",
     "checklist": "チェックリスト",
     "totalMarkers": "合計 {0} マーカー",
-    "noRegionSelected": "エリアを選択してください"
+    "noRegionSelected": "エリアを選択してください",
+    "shareProgress": "進捗を共有",
+    "nickname": "ニックネーム",
+    "playerId": "プレイヤーID",
+    "copyImage": "画像をコピー",
+    "shareTwitter": "Twitterで共有",
+    "shareReddit": "Redditで共有",
+    "imageCopied": "コピーしました！",
+    "sweepSummaryTitle": "スイープ完了！",
+    "markersCollected": "収集マーカー",
+    "timeSpent": "所要時間",
+    "beforeProgress": "開始時",
+    "afterProgress": "完了時",
+    "toggleMap": "マップ切替",
+    "routeDistance": "ルート: {0}"
   }
 }

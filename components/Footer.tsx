@@ -26,6 +26,7 @@ export function Footer() {
         { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
         { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
         { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
+        { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
       ],
     },
     {

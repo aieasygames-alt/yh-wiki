@@ -9,6 +9,7 @@ const links = [
   { key: "characters", href: "/characters" },
   { key: "gacha", href: "/gacha" },
   { key: "guides", href: "/guides" },
+  { key: "explorer", href: "/explorer" },
   { key: "faq", href: "/faq" },
 ] as const;
 

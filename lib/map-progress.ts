@@ -91,3 +91,54 @@ export function saveFilters(filters: Set<string>): void {
     // ignore
   }
 }
+
+// ─── Sweep Filter Persistence ────────────────────────────────
+
+const SWEEP_FILTER_KEY = "nte-explorer-sweep-filters";
+
+interface SweepFilterState {
+  region: string | null;
+  types: string[];
+}
+
+export function loadSweepFilters(): SweepFilterState | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = localStorage.getItem(SWEEP_FILTER_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveSweepFilters(region: string | null, types: string[]): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(SWEEP_FILTER_KEY, JSON.stringify({ region, types }));
+  } catch {
+    // ignore
+  }
+}
+
+// ─── Player Info Persistence ─────────────────────────────────
+
+const PLAYER_INFO_KEY = "nte-explorer-player-info";
+
+export function loadPlayerInfo(): { nickname: string; playerId: string } | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = localStorage.getItem(PLAYER_INFO_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function savePlayerInfo(nickname: string, playerId: string): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(PLAYER_INFO_KEY, JSON.stringify({ nickname, playerId }));
+  } catch {
+    // ignore
+  }
+}

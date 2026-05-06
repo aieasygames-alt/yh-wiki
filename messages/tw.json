@@ -854,6 +854,20 @@
     "sweepMap": "掃圖地圖",
     "checklist": "清單",
     "totalMarkers": "共 {0} 個標點",
-    "noRegionSelected": "請先選擇區域"
+    "noRegionSelected": "請先選擇區域",
+    "shareProgress": "分享進度",
+    "nickname": "暱稱",
+    "playerId": "玩家ID",
+    "copyImage": "複製圖片",
+    "shareTwitter": "分享到 Twitter",
+    "shareReddit": "分享到 Reddit",
+    "imageCopied": "圖片已複製！",
+    "sweepSummaryTitle": "掃圖完成！",
+    "markersCollected": "已收集標點",
+    "timeSpent": "用時",
+    "beforeProgress": "之前",
+    "afterProgress": "之後",
+    "toggleMap": "切換地圖",
+    "routeDistance": "路線: {0}"
   }
 }

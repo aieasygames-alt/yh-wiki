@@ -854,6 +854,20 @@
     "sweepMap": "Carte de balayage",
     "checklist": "Liste de contrôle",
     "totalMarkers": "{0} marqueurs au total",
-    "noRegionSelected": "Sélectionnez d'abord une région"
+    "noRegionSelected": "Sélectionnez d'abord une région",
+    "shareProgress": "Partager la progression",
+    "nickname": "Pseudo",
+    "playerId": "ID Joueur",
+    "copyImage": "Copier l'image",
+    "shareTwitter": "Partager sur Twitter",
+    "shareReddit": "Partager sur Reddit",
+    "imageCopied": "Image copiée !",
+    "sweepSummaryTitle": "Balayage terminé !",
+    "markersCollected": "Marqueurs collectés",
+    "timeSpent": "Temps",
+    "beforeProgress": "Avant",
+    "afterProgress": "Après",
+    "toggleMap": "Afficher la carte",
+    "routeDistance": "Route : {0}"
   }
 }

@@ -854,6 +854,20 @@
     "sweepMap": "Bản đồ quét",
     "checklist": "Danh sách",
     "totalMarkers": "Tổng {0} điểm",
-    "noRegionSelected": "Vui lòng chọn khu vực trước"
+    "noRegionSelected": "Vui lòng chọn khu vực trước",
+    "shareProgress": "Chia sẻ tiến độ",
+    "nickname": "Biệt danh",
+    "playerId": "ID Người chơi",
+    "copyImage": "Sao chép ảnh",
+    "shareTwitter": "Chia sẻ Twitter",
+    "shareReddit": "Chia sẻ Reddit",
+    "imageCopied": "Đã sao chép!",
+    "sweepSummaryTitle": "Quét hoàn tất!",
+    "markersCollected": "Đã thu thập",
+    "timeSpent": "Thời gian",
+    "beforeProgress": "Trước",
+    "afterProgress": "Sau",
+    "toggleMap": "Bật/tắt bản đồ",
+    "routeDistance": "Tuyến: {0}"
   }
 }

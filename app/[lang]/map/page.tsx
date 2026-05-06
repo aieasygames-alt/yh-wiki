@@ -417,6 +417,27 @@ export default function MapPage() {
         </div>
       </div>
 
+      {/* Cross-link to Explorer */}
+      {!isFullscreen && (
+        <div className="mt-6">
+          <a
+            href={`/${lang}/explorer`}
+            className="flex items-center gap-4 p-4 rounded-xl border border-gray-800 bg-gray-900/50 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group"
+          >
+            <span className="text-2xl">🗺️</span>
+            <div className="flex-1">
+              <h3 className="text-sm font-medium text-gray-300 group-hover:text-primary-400 transition-colors">
+                {isZhLocale(lang) ? "探索伴侣 - 扫图模式" : "Exploration Companion - Sweep Mode"}
+              </h3>
+              <p className="text-xs text-gray-500 mt-0.5">
+                {isZhLocale(lang) ? "智能路线规划，追踪收集进度" : "Smart route planning & collection progress tracking"}
+              </p>
+            </div>
+            <span className="text-gray-600 group-hover:text-primary-400 transition-colors">→</span>
+          </a>
+        </div>
+      )}
+
       {/* SEO text block — hidden in fullscreen */}
       {!isFullscreen && (
         <div className="mt-8 text-xs text-gray-600 max-w-3xl space-y-2">

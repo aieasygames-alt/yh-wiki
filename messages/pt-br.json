@@ -854,6 +854,20 @@
     "sweepMap": "Mapa de Varredura",
     "checklist": "Lista de Verificação",
     "totalMarkers": "Total de {0} marcadores",
-    "noRegionSelected": "Selecione uma região primeiro"
+    "noRegionSelected": "Selecione uma região primeiro",
+    "shareProgress": "Compartilhar Progresso",
+    "nickname": "Apelido",
+    "playerId": "ID do Jogador",
+    "copyImage": "Copiar Imagem",
+    "shareTwitter": "Compartilhar no Twitter",
+    "shareReddit": "Compartilhar no Reddit",
+    "imageCopied": "Imagem copiada!",
+    "sweepSummaryTitle": "Varredura Completa!",
+    "markersCollected": "Marcadores Coletados",
+    "timeSpent": "Tempo",
+    "beforeProgress": "Antes",
+    "afterProgress": "Depois",
+    "toggleMap": "Alternar Mapa",
+    "routeDistance": "Rota: {0}"
   }
 }

@@ -854,6 +854,20 @@
     "sweepMap": "Sweep Map",
     "checklist": "Checklist",
     "totalMarkers": "{0} markers total",
-    "noRegionSelected": "Select a region first"
+    "noRegionSelected": "Select a region first",
+    "shareProgress": "Share Progress",
+    "nickname": "Nickname",
+    "playerId": "Player ID",
+    "copyImage": "Copy Image",
+    "shareTwitter": "Share to Twitter",
+    "shareReddit": "Share to Reddit",
+    "imageCopied": "Image copied!",
+    "sweepSummaryTitle": "Sweep Complete!",
+    "markersCollected": "Markers Collected",
+    "timeSpent": "Time Spent",
+    "beforeProgress": "Before",
+    "afterProgress": "After",
+    "toggleMap": "Toggle Map",
+    "routeDistance": "Route: {0}"
   }
 }

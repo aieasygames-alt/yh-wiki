@@ -855,6 +855,20 @@
     "sweepMap": "扫图地图",
     "checklist": "清单",
     "totalMarkers": "共 {0} 个标点",
-    "noRegionSelected": "请先选择区域"
+    "noRegionSelected": "请先选择区域",
+    "shareProgress": "分享进度",
+    "nickname": "昵称",
+    "playerId": "玩家ID",
+    "copyImage": "复制图片",
+    "shareTwitter": "分享到 Twitter",
+    "shareReddit": "分享到 Reddit",
+    "imageCopied": "图片已复制！",
+    "sweepSummaryTitle": "扫图完成！",
+    "markersCollected": "已收集标点",
+    "timeSpent": "用时",
+    "beforeProgress": "之前",
+    "afterProgress": "之后",
+    "toggleMap": "切换地图",
+    "routeDistance": "路线: {0}"
   }
 }

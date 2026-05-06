@@ -854,6 +854,20 @@
     "sweepMap": "แผนที่กวาด",
     "checklist": "เช็คลิสต์",
     "totalMarkers": "ทั้งหมด {0} มาร์กเกอร์",
-    "noRegionSelected": "กรุณาเลือกภูมิภาคก่อน"
+    "noRegionSelected": "กรุณาเลือกภูมิภาคก่อน",
+    "shareProgress": "แชร์ความคืบหน้า",
+    "nickname": "ชื่อเล่น",
+    "playerId": "ไอดีผู้เล่น",
+    "copyImage": "คัดลอกรูป",
+    "shareTwitter": "แชร์ไป Twitter",
+    "shareReddit": "แชร์ไป Reddit",
+    "imageCopied": "คัดลอกแล้ว!",
+    "sweepSummaryTitle": "กวาดเสร็จสมบูรณ์!",
+    "markersCollected": "เก็บแล้ว",
+    "timeSpent": "เวลาที่ใช้",
+    "beforeProgress": "ก่อน",
+    "afterProgress": "หลัง",
+    "toggleMap": "สลับแผนที่",
+    "routeDistance": "เส้นทาง: {0}"
   }
 }
