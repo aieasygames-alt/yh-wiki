@@ -25,9 +25,11 @@ const ExplorerSweepMap = dynamic(
 
 type TabKey = "dashboard" | "sweep" | "daily";
 
-const regions = (mapData as any).regions as Record<string, { zh: string; en: string; color: string }>;
-const markerTypes = (mapData as any).markerTypes as Record<string, { color: string; label: string; labelEn: string }>;
-const maps = (mapData as any).maps as Array<{ id: string; name: string; nameEn: string; image: string; description: string; descriptionEn: string; minZoom: number; maxZoom: number; bounds: [[number, number], [number, number]]; markers: MapMarker[] }>;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const dataAny = mapData as Record<string, any>;
+const regions = dataAny.regions as Record<string, { zh: string; en: string; color: string }>;
+const markerTypes = dataAny.markerTypes as Record<string, { color: string; label: string; labelEn: string }>;
+const maps = dataAny.maps as Array<{ id: string; name: string; nameEn: string; image: string; description: string; descriptionEn: string; minZoom: number; maxZoom: number; bounds: [[number, number], [number, number]]; markers: MapMarker[] }>;
 const allMarkers: MapMarker[] = maps.length > 0 ? maps[0].markers : [];
 const mapInfo = maps[0];
 

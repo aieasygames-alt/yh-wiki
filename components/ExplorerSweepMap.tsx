@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import L from "leaflet";
 import type { MapMarker, MapInfo } from "../lib/map-utils";
 import { markerToLatLng, getMapBounds } from "../lib/map-utils";
-import type { ProgressMap } from "../lib/map-progress";
 
 interface ExplorerSweepMapProps {
   map: MapInfo;
