@@ -31,7 +31,8 @@
         "tools": "Tools",
         "content": "Content",
         "resources": "Resources"
-      }
+      },
+      "explorer": "Explorer"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "About Us",
     "aboutContent": "NTE Guide is a community-driven resource for Neverness to Everness players, featuring character databases, tier lists, build calculators, gacha simulators, and more.",
     "feedbackNote": "Found an error on our site or have content suggestions? We'd love to hear from you. Thank you for your support!"
+  },
+  "explorer": {
+    "title": "Exploration Companion",
+    "description": "Optimize collection routes and track exploration progress",
+    "tabDashboard": "Dashboard",
+    "tabSweep": "Sweep Mode",
+    "tabDaily": "Daily / Weekly",
+    "overallProgress": "Overall Progress",
+    "progressByRegion": "Progress by Region",
+    "progressByType": "Progress by Type",
+    "collected": "Collected",
+    "remaining": "Remaining",
+    "selectRegion": "Select Region",
+    "allRegions": "All Regions",
+    "selectTypes": "Select Marker Types",
+    "startSweep": "Start Sweep",
+    "stopSweep": "Stop Sweep",
+    "sweepRoute": "Sweep Route",
+    "waypoints": "{0} waypoints",
+    "estimatedTime": "Est. completion: {0}",
+    "markCollected": "Mark Collected",
+    "undoCollect": "Undo",
+    "routeGenerated": "Route generated with {0} markers",
+    "noUncollected": "All markers collected in this selection!",
+    "sweepComplete": "Sweep Complete!",
+    "dailyMarkers": "Daily Respawn Markers",
+    "weeklyMarkers": "Weekly Respawn Markers",
+    "resetDaily": "Reset Daily Progress",
+    "noDailyMarkers": "No daily respawn markers found",
+    "sweepMap": "Sweep Map",
+    "checklist": "Checklist",
+    "totalMarkers": "{0} markers total",
+    "noRegionSelected": "Select a region first"
   }
 }

@@ -31,7 +31,8 @@
         "tools": "ツール",
         "content": "コンテンツ",
         "resources": "リソース"
-      }
+      },
+      "explorer": "探索コンパニオン"
     }
   },
   "home": {
@@ -518,10 +519,25 @@
     "storageTitle": "ストレージ容量",
     "pcStorage": "約40 GB（SSD推奨）",
     "mobileStorage": "約10〜15 GB",
-    "pc": { "os": "OS", "cpu": "CPU", "ram": "メモリ", "gpu": "GPU", "storage": "ストレージ" },
-    "android": { "cpu": "SoC", "ram": "メモリ", "os": "OS", "storage": "ストレージ" },
+    "pc": {
+      "os": "OS",
+      "cpu": "CPU",
+      "ram": "メモリ",
+      "gpu": "GPU",
+      "storage": "ストレージ"
+    },
+    "android": {
+      "cpu": "SoC",
+      "ram": "メモリ",
+      "os": "OS",
+      "storage": "ストレージ"
+    },
     "storageDisclaimer": "上記のサイズは初期インストール時のものです。今後のアップデートで追加の容量が必要になる場合があります。",
-    "ios": { "device": "デバイス", "os": "OS", "storage": "ストレージ" }
+    "ios": {
+      "device": "デバイス",
+      "os": "OS",
+      "storage": "ストレージ"
+    }
   },
   "changelogDetails": {
     "major": "メジャー",
@@ -696,12 +712,24 @@
     "infoCollectionTitle": "収集する情報",
     "autoDataTitle": "自動的に収集されるデータ",
     "autoDataIntro": "当サイトにアクセスすると、以下の情報を自動的に収集する場合があります：",
-    "autoDataItems": ["ブラウザの種類とバージョン", "オペレーティングシステム", "リファラーURL（当サイトへのアクセス元）", "閲覧したページと滞在時間", "IPアドレス（おおよその地理的位置）", "デバイスタイプ（モバイル、タブレット、デスクトップ）"],
+    "autoDataItems": [
+      "ブラウザの種類とバージョン",
+      "オペレーティングシステム",
+      "リファラーURL（当サイトへのアクセス元）",
+      "閲覧したページと滞在時間",
+      "IPアドレス（おおよその地理的位置）",
+      "デバイスタイプ（モバイル、タブレット、デスクトップ）"
+    ],
     "userDataTitle": "ユーザー提供データ",
     "userDataContent": "メールでお問い合わせいただいた場合、お問い合わせへの対応を目的として、お名前とメールアドレスを収集いたします。",
     "analyticsTitle": "アクセス解析",
     "analyticsContent": "当サイトでは、ウェブサイトのトラフィックとユーザー行動を分析するため、Google Analytics（GA4）を使用しています。Google AnalyticsはCookieを使用して匿名化された利用データを収集します。収集されるデータには以下が含まれます：",
-    "analyticsItems": ["ページビューとセッション", "ユーザーの地理的位置（国/都市レベル）", "トラフィックソース", "サイト内検索キーワード"],
+    "analyticsItems": [
+      "ページビューとセッション",
+      "ユーザーの地理的位置（国/都市レベル）",
+      "トラフィックソース",
+      "サイト内検索キーワード"
+    ],
     "analyticsOptOut": "Google Analyticsオプトアウトブラウザアドオンをインストールすることで、Google Analyticsのトラッキングを無効にできます。",
     "advertisingTitle": "広告",
     "advertisingContent": "当サイトでは、Google AdSenseを使用して広告を表示しています。Google AdSenseは、Cookieや類似技術を使用して、当サイトや他のウェブサイトへの過去の訪問に基づきパーソナライズされた広告を表示する場合があります。以下の方法で広告のパーソナライズを管理できます：",
@@ -741,7 +769,13 @@
     "descriptionContent": "NTE Guideは、Neverness to Evernessプレイヤーのための非公式コミュニティリソースサイトです。ゲームデータの検索、ビルド計算機、ガチャシミュレーター、攻略などの関連ツールを提供しています。当サイトは、Perfect World、Hotta Studio、またはNeverness to Everness公式チームと提携関係にありません。",
     "rulesTitle": "利用規則",
     "rulesIntro": "当サイトを利用する際、以下の行為を行わないことに同意するものとします：",
-    "rulesItems": ["自動化された手段（ボット、スクレイパーなど）を使用したサイトコンテンツのスクレイピングまたはクローリング", "当方のシステムやデータへの不正アクセスの試み", "当サイトやサーバーの正常な機能の妨害", "許可なく当方のコンテンツを商業目的で使用", "マルウェアや有害なコードの配布"],
+    "rulesItems": [
+      "自動化された手段（ボット、スクレイパーなど）を使用したサイトコンテンツのスクレイピングまたはクローリング",
+      "当方のシステムやデータへの不正アクセスの試み",
+      "当サイトやサーバーの正常な機能の妨害",
+      "許可なく当方のコンテンツを商業目的で使用",
+      "マルウェアや有害なコードの配布"
+    ],
     "ipTitle": "知的財産",
     "ipContent": "当サイトのオリジナルコンテンツ（テキスト、コード、デザイン、レイアウトなどを含むがこれらに限定されない）は著作権法により保護されています。Neverness to Evernessに関連するすべてのゲーム素材（キャラクター名、画像、ロゴ、ゲームデータなどを含むがこれらに限定されない）は、Perfect World / Hotta Studioに帰属します。当方はこれらの素材を情報提供を目的としてフェアユースの範囲で使用しており、その所有権を主張するものではありません。",
     "disclaimerTitle": "免責事項",
@@ -788,5 +822,38 @@
     "aboutLabel": "運営情報",
     "aboutContent": "NTE Guideは、Neverness to Evernessプレイヤーのためのコミュニティ駆動型リソースサイトで、キャラクターデータベース、ティアリスト、ビルド計算機、ガチャシミュレーターなどを提供しています。",
     "feedbackNote": "当サイトの誤りのご指摘やコンテンツのご提案がございましたら、ぜひお聞かせください。ご支援ありがとうございます！"
+  },
+  "explorer": {
+    "title": "探索コンパニオン",
+    "description": "収集ルートを最適化し、探索進捗を追跡",
+    "tabDashboard": "ダッシュボード",
+    "tabSweep": "スイープモード",
+    "tabDaily": "デイリー/ウィークリー",
+    "overallProgress": "全体進捗",
+    "progressByRegion": "エリア別",
+    "progressByType": "タイプ別",
+    "collected": "収集済み",
+    "remaining": "残り",
+    "selectRegion": "エリアを選択",
+    "allRegions": "全エリア",
+    "selectTypes": "マーカータイプを選択",
+    "startSweep": "スイープ開始",
+    "stopSweep": "スイープ停止",
+    "sweepRoute": "スイープルート",
+    "waypoints": "{0} 経由地",
+    "estimatedTime": "完了予定: {0}",
+    "markCollected": "収集済みにする",
+    "undoCollect": "元に戻す",
+    "routeGenerated": "{0} マーカーのルートを生成",
+    "noUncollected": "このエリアは全て収集済みです！",
+    "sweepComplete": "スイープ完了！",
+    "dailyMarkers": "デイリーリセットマーカー",
+    "weeklyMarkers": "ウィークリーリセットマーカー",
+    "resetDaily": "デイリー進捗をリセット",
+    "noDailyMarkers": "デイリーリセットマーカーなし",
+    "sweepMap": "スイープマップ",
+    "checklist": "チェックリスト",
+    "totalMarkers": "合計 {0} マーカー",
+    "noRegionSelected": "エリアを選択してください"
   }
 }

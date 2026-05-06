@@ -31,7 +31,8 @@
         "tools": "Ferramentas",
         "content": "Conteúdo",
         "resources": "Recursos"
-      }
+      },
+      "explorer": "Explorador"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "Sobre Nós",
     "aboutContent": "O NTE Guide é um recurso conduzido pela comunidade para jogadores de Neverness to Everness, com banco de dados de personagens, tier lists, calculadoras de build, simuladores de gacha e mais.",
     "feedbackNote": "Encontrou um erro no nosso site ou tem sugestões de conteúdo? Adoraríamos ouvir você. Obrigado pelo seu apoio!"
+  },
+  "explorer": {
+    "title": "Companheiro de Exploração",
+    "description": "Otimize rotas de coleta e acompanhe o progresso de exploração",
+    "tabDashboard": "Painel",
+    "tabSweep": "Modo Varredura",
+    "tabDaily": "Diário / Semanal",
+    "overallProgress": "Progresso Geral",
+    "progressByRegion": "Por Região",
+    "progressByType": "Por Tipo",
+    "collected": "Coletado",
+    "remaining": "Restante",
+    "selectRegion": "Selecionar Região",
+    "allRegions": "Todas as Regiões",
+    "selectTypes": "Selecionar Tipos de Marcador",
+    "startSweep": "Iniciar Varredura",
+    "stopSweep": "Parar Varredura",
+    "sweepRoute": "Rota de Varredura",
+    "waypoints": "{0} pontos de passagem",
+    "estimatedTime": "Est. conclusão: {0}",
+    "markCollected": "Marcar Coletado",
+    "undoCollect": "Desfazer",
+    "routeGenerated": "Rota gerada com {0} marcadores",
+    "noUncollected": "Todos os marcadores já foram coletados!",
+    "sweepComplete": "Varredura Completa!",
+    "dailyMarkers": "Marcadores de Reset Diário",
+    "weeklyMarkers": "Marcadores de Reset Semanal",
+    "resetDaily": "Resetar Progresso Diário",
+    "noDailyMarkers": "Nenhum marcador de reset diário encontrado",
+    "sweepMap": "Mapa de Varredura",
+    "checklist": "Lista de Verificação",
+    "totalMarkers": "Total de {0} marcadores",
+    "noRegionSelected": "Selecione uma região primeiro"
   }
 }

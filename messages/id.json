@@ -31,7 +31,8 @@
         "tools": "Tools",
         "content": "Konten",
         "resources": "Sumber Daya"
-      }
+      },
+      "explorer": "Eksplorer"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "Tentang Kami",
     "aboutContent": "NTE Guide adalah sumber daya berbasis komunitas untuk pemain Neverness to Everness, menampilkan database karakter, tier list, kalkulator build, simulator gacha, dan lainnya.",
     "feedbackNote": "Menemukan kesalahan di situs kami atau punya saran konten? Kami senang mendengarnya. Terima kasih atas dukunganmu!"
+  },
+  "explorer": {
+    "title": "Eksplorasi Companion",
+    "description": "Optimalkan rute pengumpulan dan lacak progres eksplorasi",
+    "tabDashboard": "Dasbor",
+    "tabSweep": "Mode Sapuan",
+    "tabDaily": "Harian / Mingguan",
+    "overallProgress": "Progres Keseluruhan",
+    "progressByRegion": "Per Wilayah",
+    "progressByType": "Per Tipe",
+    "collected": "Terkumpul",
+    "remaining": "Tersisa",
+    "selectRegion": "Pilih Wilayah",
+    "allRegions": "Semua Wilayah",
+    "selectTypes": "Pilih Tipe Marker",
+    "startSweep": "Mulai Sapuan",
+    "stopSweep": "Hentikan Sapuan",
+    "sweepRoute": "Rute Sapuan",
+    "waypoints": "{0} titik jalur",
+    "estimatedTime": "Est. selesai: {0}",
+    "markCollected": "Tandai Terkumpul",
+    "undoCollect": "Batalkan",
+    "routeGenerated": "Rute dibuat dengan {0} marker",
+    "noUncollected": "Semua marker sudah terkumpul!",
+    "sweepComplete": "Sapuan Selesai!",
+    "dailyMarkers": "Marker Reset Harian",
+    "weeklyMarkers": "Marker Reset Mingguan",
+    "resetDaily": "Reset Progres Harian",
+    "noDailyMarkers": "Tidak ada marker reset harian",
+    "sweepMap": "Peta Sapuan",
+    "checklist": "Daftar Cek",
+    "totalMarkers": "Total {0} marker",
+    "noRegionSelected": "Pilih wilayah terlebih dahulu"
   }
 }

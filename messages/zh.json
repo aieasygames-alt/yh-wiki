@@ -31,7 +31,8 @@
         "tools": "工具",
         "content": "内容",
         "resources": "资源"
-      }
+      },
+      "explorer": "探索伴侣"
     }
   },
   "common": {
@@ -513,9 +514,24 @@
     "storageTitle": "存储空间说明",
     "pcStorage": "约 40 GB（推荐 SSD）",
     "mobileStorage": "约 10-15 GB",
-    "pc": { "os": "操作系统", "cpu": "处理器", "ram": "内存", "gpu": "显卡", "storage": "存储空间" },
-    "android": { "cpu": "处理器", "ram": "内存", "os": "系统版本", "storage": "存储空间" },
-    "ios": { "device": "设备", "os": "系统版本", "storage": "存储空间" },
+    "pc": {
+      "os": "操作系统",
+      "cpu": "处理器",
+      "ram": "内存",
+      "gpu": "显卡",
+      "storage": "存储空间"
+    },
+    "android": {
+      "cpu": "处理器",
+      "ram": "内存",
+      "os": "系统版本",
+      "storage": "存储空间"
+    },
+    "ios": {
+      "device": "设备",
+      "os": "系统版本",
+      "storage": "存储空间"
+    },
     "storageDisclaimer": "以上为安装所需空间，后续版本更新可能需要额外空间。"
   },
   "diskSets": {
@@ -807,5 +823,38 @@
     "aboutLabel": "关于我们",
     "aboutContent": "NTE Guide 是一个为异环（Neverness to Everness）玩家打造的社区驱动攻略网站，提供角色资料、强度排行、养成计算器、抽卡模拟器等实用工具。",
     "feedbackNote": "如果您发现网站上的资料有误，或有内容建议，也欢迎通过邮箱反馈给我们。感谢您的支持！"
+  },
+  "explorer": {
+    "title": "探索伴侣",
+    "description": "优化收集路线，追踪探索进度",
+    "tabDashboard": "总览",
+    "tabSweep": "扫图模式",
+    "tabDaily": "每日/每周",
+    "overallProgress": "总体进度",
+    "progressByRegion": "按区域统计",
+    "progressByType": "按类型统计",
+    "collected": "已收集",
+    "remaining": "剩余",
+    "selectRegion": "选择区域",
+    "allRegions": "全部区域",
+    "selectTypes": "选择标点类型",
+    "startSweep": "开始扫图",
+    "stopSweep": "停止扫图",
+    "sweepRoute": "扫图路线",
+    "waypoints": "{0} 个途径点",
+    "estimatedTime": "预计完成: {0}",
+    "markCollected": "标记已收集",
+    "undoCollect": "撤销",
+    "routeGenerated": "已生成 {0} 个标点的路线",
+    "noUncollected": "所选范围内已全部收集！",
+    "sweepComplete": "扫图完成！",
+    "dailyMarkers": "每日刷新标点",
+    "weeklyMarkers": "每周刷新标点",
+    "resetDaily": "重置每日进度",
+    "noDailyMarkers": "暂无每日刷新标点",
+    "sweepMap": "扫图地图",
+    "checklist": "清单",
+    "totalMarkers": "共 {0} 个标点",
+    "noRegionSelected": "请先选择区域"
   }
 }

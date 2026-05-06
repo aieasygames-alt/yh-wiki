@@ -31,7 +31,8 @@
         "tools": "Herramientas",
         "content": "Contenido",
         "resources": "Recursos"
-      }
+      },
+      "explorer": "Explorador"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "Sobre Nosotros",
     "aboutContent": "NTE Guide es un recurso comunitario para jugadores de Neverness to Everness, que ofrece bases de datos de personajes, tier lists, calculadoras de builds, simuladores de gacha y más.",
     "feedbackNote": "¿Encontraste un error en nuestro sitio o tienes sugerencias de contenido? Nos encantaría saber de ti. ¡Gracias por tu apoyo!"
+  },
+  "explorer": {
+    "title": "Compañero de Exploración",
+    "description": "Optimiza rutas de recolección y sigue tu progreso de exploración",
+    "tabDashboard": "Panel",
+    "tabSweep": "Modo Barrido",
+    "tabDaily": "Diario / Semanal",
+    "overallProgress": "Progreso General",
+    "progressByRegion": "Por Región",
+    "progressByType": "Por Tipo",
+    "collected": "Recolectado",
+    "remaining": "Restante",
+    "selectRegion": "Seleccionar Región",
+    "allRegions": "Todas las Regiones",
+    "selectTypes": "Seleccionar Tipos de Marcador",
+    "startSweep": "Iniciar Barrido",
+    "stopSweep": "Detener Barrido",
+    "sweepRoute": "Ruta de Barrido",
+    "waypoints": "{0} puntos de ruta",
+    "estimatedTime": "Tiempo est.: {0}",
+    "markCollected": "Marcar Recolectado",
+    "undoCollect": "Deshacer",
+    "routeGenerated": "Ruta generada con {0} marcadores",
+    "noUncollected": "¡Todos los marcadores ya fueron recolectados!",
+    "sweepComplete": "¡Barrido Completo!",
+    "dailyMarkers": "Marcadores Diarios",
+    "weeklyMarkers": "Marcadores Semanales",
+    "resetDaily": "Reiniciar Progreso Diario",
+    "noDailyMarkers": "No se encontraron marcadores diarios",
+    "sweepMap": "Mapa de Barrido",
+    "checklist": "Lista de Verificación",
+    "totalMarkers": "{0} marcadores en total",
+    "noRegionSelected": "Selecciona una región primero"
   }
 }

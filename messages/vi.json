@@ -31,7 +31,8 @@
         "tools": "Công cụ",
         "content": "Nội dung",
         "resources": "Tài nguyên"
-      }
+      },
+      "explorer": "Trợ lý Khám phá"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "Về chúng tôi",
     "aboutContent": "NTE Guide là tài nguyên do cộng đồng điều hành dành cho người chơi Neverness to Everness, bao gồm cơ sở dữ liệu nhân vật, Bảng Xếp Hạng, công cụ tính Build, mô phỏng Gacha và nhiều hơn nữa.",
     "feedbackNote": "Phát hiện lỗi trên trang web hoặc có đề xuất nội dung? Chúng tôi rất muốn nghe từ bạn. Cảm ơn sự hỗ trợ của bạn!"
+  },
+  "explorer": {
+    "title": "Trợ lý Khám phá",
+    "description": "Tối ưu tuyến đường thu thập và theo dõi tiến độ khám phá",
+    "tabDashboard": "Tổng quan",
+    "tabSweep": "Chế độ Quét",
+    "tabDaily": "Hàng ngày/Hàng tuần",
+    "overallProgress": "Tiến độ tổng thể",
+    "progressByRegion": "Theo khu vực",
+    "progressByType": "Theo loại",
+    "collected": "Đã thu thập",
+    "remaining": "Còn lại",
+    "selectRegion": "Chọn khu vực",
+    "allRegions": "Tất cả khu vực",
+    "selectTypes": "Chọn loại điểm đánh dấu",
+    "startSweep": "Bắt đầu quét",
+    "stopSweep": "Dừng quét",
+    "sweepRoute": "Tuyến quét",
+    "waypoints": "{0} điểm dừng",
+    "estimatedTime": "Hoàn thành dự kiến: {0}",
+    "markCollected": "Đánh dấu đã thu thập",
+    "undoCollect": "Hoàn tác",
+    "routeGenerated": "Đã tạo tuyến {0} điểm đánh dấu",
+    "noUncollected": "Đã thu thập tất cả!",
+    "sweepComplete": "Quét hoàn tất!",
+    "dailyMarkers": "Điểm đánh dấu reset hàng ngày",
+    "weeklyMarkers": "Điểm đánh dấu reset hàng tuần",
+    "resetDaily": "Đặt lại tiến độ hàng ngày",
+    "noDailyMarkers": "Không có điểm reset hàng ngày",
+    "sweepMap": "Bản đồ quét",
+    "checklist": "Danh sách",
+    "totalMarkers": "Tổng {0} điểm",
+    "noRegionSelected": "Vui lòng chọn khu vực trước"
   }
 }

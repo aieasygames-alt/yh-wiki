@@ -51,6 +51,7 @@ export function Header() {
       { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
       { href: `/${lang}/gacha-analyzer`, label: t(lang, "site.nav.gachaAnalyzer") },
       { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
+      { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
     ]},
     { type: "dropdown", key: "database", label: t(lang, "site.nav.database"), items: [
       { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },

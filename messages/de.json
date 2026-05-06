@@ -31,7 +31,8 @@
         "tools": "Tools",
         "content": "Inhalte",
         "resources": "Ressourcen"
-      }
+      },
+      "explorer": "Explorer"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "Über uns",
     "aboutContent": "NTE Guide ist eine Community-getriebene Ressource für Neverness to Everness-Spieler mit Charakter-Datenbanken, Tier Lists, Build-Rechnern, Gacha-Simulatoren und mehr.",
     "feedbackNote": "Einen Fehler auf unserer Seite gefunden oder inhaltliche Vorschläge? Wir freuen uns von dir zu hören. Danke für deine Unterstützung!"
+  },
+  "explorer": {
+    "title": "Explorations-Begleiter",
+    "description": "Optimiere Sammelrouten und verfolge deinen Erkundungsfortschritt",
+    "tabDashboard": "Übersicht",
+    "tabSweep": "Sweep-Modus",
+    "tabDaily": "Täglich / Wöchentlich",
+    "overallProgress": "Gesamtfortschritt",
+    "progressByRegion": "Nach Region",
+    "progressByType": "Nach Typ",
+    "collected": "Gesammelt",
+    "remaining": "Verbleibend",
+    "selectRegion": "Region auswählen",
+    "allRegions": "Alle Regionen",
+    "selectTypes": "Markertypen auswählen",
+    "startSweep": "Sweep starten",
+    "stopSweep": "Sweep stoppen",
+    "sweepRoute": "Sweep-Route",
+    "waypoints": "{0} Wegpunkte",
+    "estimatedTime": "Geschätzte Dauer: {0}",
+    "markCollected": "Als gesammelt markieren",
+    "undoCollect": "Rückgängig",
+    "routeGenerated": "Route mit {0} Markern erstellt",
+    "noUncollected": "Alle Marker in dieser Auswahl bereits gesammelt!",
+    "sweepComplete": "Sweep abgeschlossen!",
+    "dailyMarkers": "Täglich zurücksetzbare Marker",
+    "weeklyMarkers": "Wöchentlich zurücksetzbare Marker",
+    "resetDaily": "Tagesfortschritt zurücksetzen",
+    "noDailyMarkers": "Keine täglichen Reset-Marker gefunden",
+    "sweepMap": "Sweep-Karte",
+    "checklist": "Checkliste",
+    "totalMarkers": "{0} Marker gesamt",
+    "noRegionSelected": "Zuerst eine Region auswählen"
   }
 }

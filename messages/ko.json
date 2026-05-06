@@ -31,7 +31,8 @@
         "tools": "도구",
         "content": "콘텐츠",
         "resources": "리소스"
-      }
+      },
+      "explorer": "탐험 컴패니언"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "소개",
     "aboutContent": "NTE 가이드는 Neverness to Everness 플레이어를 위한 커뮤니티 기반 리소스로, 캐릭터 데이터베이스, 티어 리스트, 빌드 계산기, 가챠 시뮬레이터 등을 제공합니다.",
     "feedbackNote": "사이트에서 오류를 발견하셨거나 콘텐츠 제안이 있으신가요? 여러분의 의견을 기다립니다. 항상 감사합니다!"
+  },
+  "explorer": {
+    "title": "탐험 컴패니언",
+    "description": "수집 경로 최적화 및 탐험 진행 상황 추적",
+    "tabDashboard": "대시보드",
+    "tabSweep": "스윕 모드",
+    "tabDaily": "일일/주간",
+    "overallProgress": "전체 진행률",
+    "progressByRegion": "지역별 진행률",
+    "progressByType": "유형별 진행률",
+    "collected": "수집됨",
+    "remaining": "남음",
+    "selectRegion": "지역 선택",
+    "allRegions": "전체 지역",
+    "selectTypes": "마커 유형 선택",
+    "startSweep": "스윕 시작",
+    "stopSweep": "스윕 중지",
+    "sweepRoute": "스윕 경로",
+    "waypoints": "{0}개 경유지",
+    "estimatedTime": "예상 완료: {0}",
+    "markCollected": "수집 완료 표시",
+    "undoCollect": "실행 취소",
+    "routeGenerated": "{0}개 마커 경로 생성됨",
+    "noUncollected": "이 선택 범위의 마커를 모두 수집했습니다!",
+    "sweepComplete": "스윕 완료!",
+    "dailyMarkers": "일일 리셋 마커",
+    "weeklyMarkers": "주간 리셋 마커",
+    "resetDaily": "일일 진행 초기화",
+    "noDailyMarkers": "일일 리셋 마커 없음",
+    "sweepMap": "스윕 맵",
+    "checklist": "체크리스트",
+    "totalMarkers": "총 {0}개 마커",
+    "noRegionSelected": "지역을 먼저 선택하세요"
   }
 }

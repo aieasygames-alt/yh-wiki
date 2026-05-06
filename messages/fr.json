@@ -31,7 +31,8 @@
         "tools": "Outils",
         "content": "Contenu",
         "resources": "Ressources"
-      }
+      },
+      "explorer": "Explorateur"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "À propos",
     "aboutContent": "NTE Guide est une ressource communautaire pour les joueurs de Neverness to Everness, proposant une base de données de personnages, des tier lists, des calculateurs de builds, un simulateur gacha et plus encore.",
     "feedbackNote": "Vous avez trouvé une erreur sur notre site ou avez des suggestions de contenu ? Nous serions ravis de vous entendre. Merci pour votre soutien !"
+  },
+  "explorer": {
+    "title": "Compagnon d'Exploration",
+    "description": "Optimisez vos routes de collecte et suivez votre progression",
+    "tabDashboard": "Tableau de bord",
+    "tabSweep": "Mode Balayage",
+    "tabDaily": "Quotidien / Hebdomadaire",
+    "overallProgress": "Progression globale",
+    "progressByRegion": "Par région",
+    "progressByType": "Par type",
+    "collected": "Collecté",
+    "remaining": "Restant",
+    "selectRegion": "Sélectionner une région",
+    "allRegions": "Toutes les régions",
+    "selectTypes": "Sélectionner les types de marqueurs",
+    "startSweep": "Démarrer le balayage",
+    "stopSweep": "Arrêter le balayage",
+    "sweepRoute": "Route de balayage",
+    "waypoints": "{0} points de passage",
+    "estimatedTime": "Temps estimé : {0}",
+    "markCollected": "Marquer comme collecté",
+    "undoCollect": "Annuler",
+    "routeGenerated": "Route générée avec {0} marqueurs",
+    "noUncollected": "Tous les marqueurs ont été collectés !",
+    "sweepComplete": "Balayage terminé !",
+    "dailyMarkers": "Marqueurs journaliers",
+    "weeklyMarkers": "Marqueurs hebdomadaires",
+    "resetDaily": "Réinitialiser la progression quotidienne",
+    "noDailyMarkers": "Aucun marqueur journalier trouvé",
+    "sweepMap": "Carte de balayage",
+    "checklist": "Liste de contrôle",
+    "totalMarkers": "{0} marqueurs au total",
+    "noRegionSelected": "Sélectionnez d'abord une région"
   }
 }

@@ -31,7 +31,8 @@
         "tools": "เครื่องมือ",
         "content": "เนื้อหา",
         "resources": "แหล่งข้อมูล"
-      }
+      },
+      "explorer": "สหายสำรวจ"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "เกี่ยวกับเรา",
     "aboutContent": "NTE Guide เป็นแหล่งข้อมูลที่ขับเคลื่อนโดยชุมชนสำหรับผู้เล่น Neverness to Everness มีฐานข้อมูลตัวละคร, Tier List, เครื่องคำนวณบิลด์, จำลองกาชา และอื่นๆ",
     "feedbackNote": "พบข้อผิดพลาดบนเว็บไซต์หรือมีข้อเสนอแนะเกี่ยวกับเนื้อหา? เรายินดีที่จะรับฟัง ขอบคุณสำหรับการสนับสนุน!"
+  },
+  "explorer": {
+    "title": "สหายสำรวจ",
+    "description": "เพิ่มประสิทธิภาพเส้นทางเก็บของและติดตามความคืบหน้า",
+    "tabDashboard": "แดชบอร์ด",
+    "tabSweep": "โหมดกวาด",
+    "tabDaily": "รายวัน/รายสัปดาห์",
+    "overallProgress": "ความคืบหน้าทั้งหมด",
+    "progressByRegion": "ตามภูมิภาค",
+    "progressByType": "ตามประเภท",
+    "collected": "เก็บแล้ว",
+    "remaining": "ที่เหลือ",
+    "selectRegion": "เลือกภูมิภาค",
+    "allRegions": "ทุกภูมิภาค",
+    "selectTypes": "เลือกประเภทมาร์กเกอร์",
+    "startSweep": "เริ่มกวาด",
+    "stopSweep": "หยุดกวาด",
+    "sweepRoute": "เส้นทางกวาด",
+    "waypoints": "{0} จุดแวะ",
+    "estimatedTime": "เวลาโดยประมาณ: {0}",
+    "markCollected": "ทำเครื่องหมายเก็บแล้ว",
+    "undoCollect": "เลิกทำ",
+    "routeGenerated": "สร้างเส้นทาง {0} มาร์กเกอร์",
+    "noUncollected": "เก็บครบทั้งหมดแล้ว!",
+    "sweepComplete": "กวาดเสร็จสมบูรณ์!",
+    "dailyMarkers": "มาร์กเกอร์รีเซ็ตรายวัน",
+    "weeklyMarkers": "มาร์กเกอร์รีเซ็ตรายสัปดาห์",
+    "resetDaily": "รีเซ็ตความคืบหน้ารายวัน",
+    "noDailyMarkers": "ไม่พบมาร์กเกอร์รีเซ็ตรายวัน",
+    "sweepMap": "แผนที่กวาด",
+    "checklist": "เช็คลิสต์",
+    "totalMarkers": "ทั้งหมด {0} มาร์กเกอร์",
+    "noRegionSelected": "กรุณาเลือกภูมิภาคก่อน"
   }
 }

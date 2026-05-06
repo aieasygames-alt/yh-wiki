@@ -31,7 +31,8 @@
         "tools": "工具",
         "content": "內容",
         "resources": "資源"
-      }
+      },
+      "explorer": "探索伴侶"
     }
   },
   "home": {
@@ -821,5 +822,38 @@
     "aboutLabel": "關於我們",
     "aboutContent": "NTE Guide 是一個為異環（Neverness to Everness）玩家打造的社群驅動攻略網站，提供角色資料、強度排行、養成計算器、抽卡模擬器等實用工具。",
     "feedbackNote": "如果您發現網站上的資料有誤，或有內容建議，也歡迎通過郵箱反饋給我們。感謝您的支持！"
+  },
+  "explorer": {
+    "title": "探索伴侶",
+    "description": "優化收集路線，追蹤探索進度",
+    "tabDashboard": "總覽",
+    "tabSweep": "掃圖模式",
+    "tabDaily": "每日/每週",
+    "overallProgress": "總體進度",
+    "progressByRegion": "按區域統計",
+    "progressByType": "按類型統計",
+    "collected": "已收集",
+    "remaining": "剩餘",
+    "selectRegion": "選擇區域",
+    "allRegions": "全部區域",
+    "selectTypes": "選擇標點類型",
+    "startSweep": "開始掃圖",
+    "stopSweep": "停止掃圖",
+    "sweepRoute": "掃圖路線",
+    "waypoints": "{0} 個途徑點",
+    "estimatedTime": "預計完成: {0}",
+    "markCollected": "標記已收集",
+    "undoCollect": "撤銷",
+    "routeGenerated": "已生成 {0} 個標點的路線",
+    "noUncollected": "所選範圍內已全部收集！",
+    "sweepComplete": "掃圖完成！",
+    "dailyMarkers": "每日刷新標點",
+    "weeklyMarkers": "每週刷新標點",
+    "resetDaily": "重置每日進度",
+    "noDailyMarkers": "暫無每日刷新標點",
+    "sweepMap": "掃圖地圖",
+    "checklist": "清單",
+    "totalMarkers": "共 {0} 個標點",
+    "noRegionSelected": "請先選擇區域"
   }
 }
