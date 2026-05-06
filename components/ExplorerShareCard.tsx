@@ -55,7 +55,6 @@ export default function ExplorerShareCard({
     setCopying(true);
     try {
       const blob = await generateImage();
-      const file = new File([blob], "nte-explorer.png", { type: "image/png" });
       if (navigator.clipboard?.write && typeof ClipboardItem !== "undefined") {
         await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
       } else {
