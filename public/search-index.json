@@ -7950,6 +7950,266 @@
     ]
   },
   {
+    "id": "character-tier-list",
+    "name": "异环角色强度榜怎么排？谁是最强角色？",
+    "nameEn": "What is the NTE character tier list? Who is the strongest character?",
+    "type": "faq",
+    "url": "/zh/faq/character-tier-list",
+    "tags": [
+      "tier-list",
+      "角色排名",
+      "强度榜"
+    ]
+  },
+  {
+    "id": "character-tier-list",
+    "name": "What is the NTE character tier list? Who is the strongest character?",
+    "nameEn": "What is the NTE character tier list? Who is the strongest character?",
+    "type": "faq",
+    "url": "/en/faq/character-tier-list",
+    "tags": [
+      "tier-list",
+      "角色排名",
+      "强度榜"
+    ]
+  },
+  {
+    "id": "gacha-rates-explained",
+    "name": "异环抽卡概率是多少？S级出货率多高？",
+    "nameEn": "What are the NTE gacha rates? What is the S-Rank pull rate?",
+    "type": "faq",
+    "url": "/zh/faq/gacha-rates-explained",
+    "tags": [
+      "抽卡",
+      "概率",
+      "保底",
+      "gacha"
+    ]
+  },
+  {
+    "id": "gacha-rates-explained",
+    "name": "What are the NTE gacha rates? What is the S-Rank pull rate?",
+    "nameEn": "What are the NTE gacha rates? What is the S-Rank pull rate?",
+    "type": "faq",
+    "url": "/en/faq/gacha-rates-explained",
+    "tags": [
+      "抽卡",
+      "概率",
+      "保底",
+      "gacha"
+    ]
+  },
+  {
+    "id": "romance-system-guide",
+    "name": "异环有恋爱/浪漫系统吗？可以和角色谈恋爱吗？",
+    "nameEn": "Does NTE have a romance system? Can you date characters?",
+    "type": "faq",
+    "url": "/zh/faq/romance-system-guide",
+    "tags": [
+      "浪漫系统",
+      "恋爱",
+      "好感度",
+      "romance"
+    ]
+  },
+  {
+    "id": "romance-system-guide",
+    "name": "Does NTE have a romance system? Can you date characters?",
+    "nameEn": "Does NTE have a romance system? Can you date characters?",
+    "type": "faq",
+    "url": "/en/faq/romance-system-guide",
+    "tags": [
+      "浪漫系统",
+      "恋爱",
+      "好感度",
+      "romance"
+    ]
+  },
+  {
+    "id": "blue-flame-bike-guide",
+    "name": "异环蓝色火焰摩托车怎么获得？",
+    "nameEn": "How to get the Blue Flame motorcycle in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/blue-flame-bike-guide",
+    "tags": [
+      "载具",
+      "摩托车",
+      "蓝色火焰",
+      "blue flame"
+    ]
+  },
+  {
+    "id": "blue-flame-bike-guide",
+    "name": "How to get the Blue Flame motorcycle in NTE?",
+    "nameEn": "How to get the Blue Flame motorcycle in NTE?",
+    "type": "faq",
+    "url": "/en/faq/blue-flame-bike-guide",
+    "tags": [
+      "载具",
+      "摩托车",
+      "蓝色火焰",
+      "blue flame"
+    ]
+  },
+  {
+    "id": "auction-house-guide",
+    "name": "异环有拍卖行吗？玩家之间可以交易吗？",
+    "nameEn": "Does NTE have an Auction House? Can players trade with each other?",
+    "type": "faq",
+    "url": "/zh/faq/auction-house-guide",
+    "tags": [
+      "拍卖行",
+      "交易",
+      "经济系统",
+      "auction"
+    ]
+  },
+  {
+    "id": "auction-house-guide",
+    "name": "Does NTE have an Auction House? Can players trade with each other?",
+    "nameEn": "Does NTE have an Auction House? Can players trade with each other?",
+    "type": "faq",
+    "url": "/en/faq/auction-house-guide",
+    "tags": [
+      "拍卖行",
+      "交易",
+      "经济系统",
+      "auction"
+    ]
+  },
+  {
+    "id": "nte-game-review",
+    "name": "异环这个游戏怎么样？值得玩吗？评价如何？",
+    "nameEn": "Is NTE a good game? Is it worth playing? What are the reviews?",
+    "type": "faq",
+    "url": "/zh/faq/nte-game-review",
+    "tags": [
+      "评测",
+      "评价",
+      "值得玩吗",
+      "review"
+    ]
+  },
+  {
+    "id": "nte-game-review",
+    "name": "Is NTE a good game? Is it worth playing? What are the reviews?",
+    "nameEn": "Is NTE a good game? Is it worth playing? What are the reviews?",
+    "type": "faq",
+    "url": "/en/faq/nte-game-review",
+    "tags": [
+      "评测",
+      "评价",
+      "值得玩吗",
+      "review"
+    ]
+  },
+  {
+    "id": "nte-hidden-easter-eggs",
+    "name": "异环有哪些隐藏彩蛋？",
+    "nameEn": "What hidden easter eggs are in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/nte-hidden-easter-eggs",
+    "tags": [
+      "彩蛋",
+      "隐藏内容",
+      "easter eggs",
+      "探索"
+    ]
+  },
+  {
+    "id": "nte-hidden-easter-eggs",
+    "name": "What hidden easter eggs are in NTE?",
+    "nameEn": "What hidden easter eggs are in NTE?",
+    "type": "faq",
+    "url": "/en/faq/nte-hidden-easter-eggs",
+    "tags": [
+      "彩蛋",
+      "隐藏内容",
+      "easter eggs",
+      "探索"
+    ]
+  },
+  {
+    "id": "best-starting-team",
+    "name": "异环新手最强开荒队伍怎么配？",
+    "nameEn": "What is the best starting team for NTE beginners?",
+    "type": "faq",
+    "url": "/zh/faq/best-starting-team",
+    "tags": [
+      "配队",
+      "新手",
+      "开荒",
+      "队伍"
+    ]
+  },
+  {
+    "id": "best-starting-team",
+    "name": "What is the best starting team for NTE beginners?",
+    "nameEn": "What is the best starting team for NTE beginners?",
+    "type": "faq",
+    "url": "/en/faq/best-starting-team",
+    "tags": [
+      "配队",
+      "新手",
+      "开荒",
+      "队伍"
+    ]
+  },
+  {
+    "id": "city-tycoon-earnings-guide",
+    "name": "异环都市大亨怎么赚钱最快？",
+    "nameEn": "How to earn money fastest in NTE City Tycoon?",
+    "type": "faq",
+    "url": "/zh/faq/city-tycoon-earnings-guide",
+    "tags": [
+      "都市大亨",
+      "赚钱",
+      "city tycoon",
+      "小吱"
+    ]
+  },
+  {
+    "id": "city-tycoon-earnings-guide",
+    "name": "How to earn money fastest in NTE City Tycoon?",
+    "nameEn": "How to earn money fastest in NTE City Tycoon?",
+    "type": "faq",
+    "url": "/en/faq/city-tycoon-earnings-guide",
+    "tags": [
+      "都市大亨",
+      "赚钱",
+      "city tycoon",
+      "小吱"
+    ]
+  },
+  {
+    "id": "six-attributes-explained",
+    "name": "异环六属性克制关系是什么？",
+    "nameEn": "What are the six attribute counters in NTE?",
+    "type": "faq",
+    "url": "/zh/faq/six-attributes-explained",
+    "tags": [
+      "属性",
+      "克制",
+      "反应",
+      "elements",
+      "attributes"
+    ]
+  },
+  {
+    "id": "six-attributes-explained",
+    "name": "What are the six attribute counters in NTE?",
+    "nameEn": "What are the six attribute counters in NTE?",
+    "type": "faq",
+    "url": "/en/faq/six-attributes-explained",
+    "tags": [
+      "属性",
+      "克制",
+      "反应",
+      "elements",
+      "attributes"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",

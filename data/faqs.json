@@ -4093,5 +4093,204 @@
     "categoryEn": "Characters",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "character-tier-list",
+    "question": "异环角色强度榜怎么排？谁是最强角色？",
+    "questionEn": "What is the NTE character tier list? Who is the strongest character?",
+    "answer": "基于1.0版本初期数据，异环角色强度榜如下：\n\n**SS级（版本答案）**：娜娜莉（Nanally）— 开服最强限S主C，数值独一档；九原（Jiuyuan）— 常驻S首选自选，超大范围聚怪+客串奶妈。\n\n**S+级（极力推荐）**：零/主角（Esper Zero）— 瞬环合机制不可替代，免费满配；白藏（Baicang）— 攻防一体，但绑定达芙迪尔；穗鸟（Hotori）— 唯一S级辅助，聚怪+加攻；小吱（Xiaozhi）— 都市大亨免费6+5满配。\n\n**A级（强力角色）**：咲里、达芙迪尔、赤子、哈尼尔、阿德勒、黑鸟、明虎、赤音、伊利卡等。\n\n**B级（可用但非首选）**：法蒂亚、薄荷、哈索尔、翳、奥蕾莉亚、埃德加。\n\n新手最关键的建议：常驻自选选九原，免费肝小吱满配，有娜娜莉卡必抽。详细配队建议和每个角色的分析请查看我们的完整Tier List攻略。",
+    "answerEn": "Based on early Version 1.0 data, the NTE character tier list is:\n\n**SS Tier (Meta-Defining)**: Nanally — strongest limited S-Rank DPS with unmatched numbers; Jiuyuan — best standard S-Rank selector pick with massive AoE grouping and off-healing.\n\n**S+ Tier (Highly Recommended)**: Esper Zero (Protagonist) — irreplaceable Ring Fusion mechanic, free to max; Baicang — offensive defender but locked to Daffodil team; Hotori — only S-Rank support with grouping + ATK buff; Xiaozhi — free 6+5 max build from City Tycoon.\n\n**A Tier (Strong)**: Sakiri, Daffodil, Chiz, Haniel, Adler, Black Bird, Xiaozhen, Akane, Illica, and more.\n\n**B Tier (Viable)**: Fadia, Mint, Hathor, Skia, Aurelia, Edgar.\n\nKey beginner tips: Select Jiuyuan from the standard banner selector, grind Xiaozhi to max for free, and pull Nanally if available. Check our full Tier List guide for detailed analysis and team recommendations.",
+    "tags": [
+      "tier-list",
+      "角色排名",
+      "强度榜"
+    ],
+    "category": "characters",
+    "categoryZh": "角色",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "zero-male",
+      "baicang",
+      "hotori",
+      "xiaozhi",
+      "sakiri",
+      "daffodil",
+      "chiz"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "gacha-rates-explained",
+    "question": "异环抽卡概率是多少？S级出货率多高？",
+    "questionEn": "What are the NTE gacha rates? What is the S-Rank pull rate?",
+    "answer": "异环的抽卡概率如下：\n\n**基础概率**：\n- S级角色：基础概率0.6%，含保底综合概率约2.2%\n- A级角色：基础概率5.1%\n- B级角色：基础概率94.3%\n\n**保底机制**：\n- 限定池/常驻池：90抽硬保底出S级\n- 平均约53.5抽出S级（社区统计数据）\n- **无50/50机制**：抽到S级必定是当期限定角色，不存在歪到常驻的情况\n- 武器池：60抽/80抽双保底\n- 新手池：20抽自选S级（折扣抽数）\n\n**关键优势**：异环最大的抽卡优势是没有50/50机制。不像其他游戏中抽到SSR有一半概率是常驻角色，异环每次出金都是你想要的限定角色，这让抽卡体验远好于同类游戏。",
+    "answerEn": "NTE gacha rates are as follows:\n\n**Base Rates**:\n- S-Rank character: Base rate 0.6%, combined rate with pity approximately 2.2%\n- A-Rank character: Base rate 5.1%\n- B-Rank character: Base rate 94.3%\n\n**Pity System**:\n- Limited/Standard Banner: 90-pull hard pity for S-Rank\n- Average approximately 53.5 pulls per S-Rank (community statistics)\n- **No 50/50 system**: Every S-Rank pull is guaranteed to be the featured limited character — no losing to standard characters\n- Weapon Banner: 60/80 pull dual pity\n- Beginner Banner: 20-pull S-Rank selector (discounted pulls)\n\n**Key Advantage**: NTE's biggest gacha advantage is the no-50/50 system. Unlike other games where pulling an SSR has a 50% chance of being a standard character, every gold pull in NTE is the featured character you want. This makes the gacha experience far better than comparable games.",
+    "tags": [
+      "抽卡",
+      "概率",
+      "保底",
+      "gacha"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "romance-system-guide",
+    "question": "异环有恋爱/浪漫系统吗？可以和角色谈恋爱吗？",
+    "questionEn": "Does NTE have a romance system? Can you date characters?",
+    "answer": "是的，异环1.0版本中**确认存在浪漫（Romance）系统**。根据Game8等权威游戏媒体的确认，玩家可以与游戏中的某些角色发展更深层次的关系。\n\n**浪漫系统可能包含的内容**：\n- 角色好感度/亲密度提升\n- 专属剧情场景解锁\n- 特殊互动事件\n- 限定奖励获取\n\n目前浪漫系统的具体细节（如可攻略角色名单、好感度提升方式、结局数量等）还在持续探索中。建议多与NPC对话、完成角色相关支线任务来触发浪漫事件。\n\n需要注意的是，浪漫系统是游戏的辅助玩法，不会影响核心战斗体验，但能为游戏增添更多沉浸感和长期游玩动力。",
+    "answerEn": "Yes, a **Romance system is confirmed** in NTE Version 1.0. According to authoritative gaming outlets like Game8, players can develop deeper relationships with certain characters in the game.\n\n**The Romance system likely includes**:\n- Character affinity/affection increases\n- Exclusive story scenes\n- Special interaction events\n- Limited rewards\n\nSpecific details (romanceable character list, how to increase affinity, number of endings, etc.) are still being discovered. We recommend talking to NPCs frequently and completing character-related side quests to trigger romance events.\n\nNote that the romance system is a supplementary feature that doesn't affect core gameplay, but adds immersion and long-term engagement to the game.",
+    "tags": [
+      "浪漫系统",
+      "恋爱",
+      "好感度",
+      "romance"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "blue-flame-bike-guide",
+    "question": "异环蓝色火焰摩托车怎么获得？",
+    "questionEn": "How to get the Blue Flame motorcycle in NTE?",
+    "answer": "蓝色火焰摩托车是异环中的一款特殊载具，外观炫酷，带有蓝色火焰特效。\n\n**获取方式**：\n- 通过都市大亨（City Tycoon）系统积累资金后购买\n- 部分特殊载具可能通过限时活动获取\n\n**载具系统说明**：\n异环拥有完整的载具驾驶系统，目前游戏中有16款可获取的载具。载具分为轿车/SUV、跑车/运动型、摩托车和特殊载具四大类。\n\n**载具获取途径**：\n1. 都市大亨系统 — 经营赚取资金购买\n2. 活动奖励 — 限时活动赠送限定载具\n3. 商店购买 — 使用游戏内货币\n4. 任务获取 — 完成特定任务解锁\n\n蓝色火焰摩托车因为其独特的火焰特效和酷炫外观，是很多玩家的目标载具。持续参与都市大亨系统是获取它的主要方式。",
+    "answerEn": "The Blue Flame motorcycle is a special vehicle in NTE with a striking appearance and blue flame effects.\n\n**How to Obtain**:\n- Purchase through the City Tycoon system after accumulating enough funds\n- Some special vehicles may be available through limited-time events\n\n**Vehicle System Overview**:\nNTE features a full vehicle driving system with 16 obtainable vehicles across four categories: Sedan/SUV, Sports/Performance, Motorcycle, and Special Vehicles.\n\n**Vehicle Acquisition Methods**:\n1. City Tycoon System — Earn money through business management to purchase vehicles\n2. Event Rewards — Limited-time events may gift exclusive vehicles\n3. In-Game Shop — Purchase using in-game currency\n4. Quest Rewards — Unlock through specific quest completion\n\nThe Blue Flame motorcycle is a popular target due to its unique flame effects and cool appearance. Consistently participating in the City Tycoon system is the main way to obtain it.",
+    "tags": [
+      "载具",
+      "摩托车",
+      "蓝色火焰",
+      "blue flame"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "auction-house-guide",
+    "question": "异环有拍卖行吗？玩家之间可以交易吗？",
+    "questionEn": "Does NTE have an Auction House? Can players trade with each other?",
+    "answer": "异环目前的版本中**没有传统的玩家间交易或拍卖行系统**。游戏的主要经济系统围绕以下内容展开：\n\n**现有经济系统**：\n1. **商店系统** — 使用游戏内货币（甲硬币、环石等）购买物品\n2. **都市大亨系统** — 经营商铺获取收益，这是最接近\"市场经济\"的玩法\n3. **兑换系统** — 使用特定道具兑换角色、武器、材料等\n4. **活动商店** — 限时活动专属兑换商店\n\n**玩家间互动**：\n- 支持多人联机合作（粉爪小队）\n- 可以组队挑战异常区\n- 但不支持直接物品交易\n\n如果未来版本添加拍卖行或交易系统，我们会第一时间更新。目前获取稀有物品主要通过抽卡、探索、任务和都市大亨系统。",
+    "answerEn": "NTE currently **does not have a traditional Auction House or player-to-player trading system**. The game's economy revolves around:\n\n**Current Economic Systems**:\n1. **Shop System** — Purchase items using in-game currency (Beetle Coins, Ring Stones, etc.)\n2. **City Tycoon System** — Run businesses for profit, the closest thing to a \"market economy\" in the game\n3. **Exchange System** — Trade specific items for characters, weapons, materials, etc.\n4. **Event Shops** — Limited-time event exchange stores\n\n**Player Interaction**:\n- Multiplayer co-op supported (Pink Paws Squad)\n- Team up for Anomaly Zone challenges\n- But direct item trading is not supported\n\nIf an Auction House or trading system is added in future updates, we'll update immediately. Currently, obtaining rare items is primarily through gacha, exploration, quests, and the City Tycoon system.",
+    "tags": [
+      "拍卖行",
+      "交易",
+      "经济系统",
+      "auction"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-game-review",
+    "question": "异环这个游戏怎么样？值得玩吗？评价如何？",
+    "questionEn": "Is NTE a good game? Is it worth playing? What are the reviews?",
+    "answer": "异环（Neverness to Everness）作为一款全新的都市超自然开放世界游戏，首发获得了不错的评价。\n\n**Game8评测：86/100**\n\n国际知名游戏攻略网站Game8给出了86分的评价，主要亮点：\n- **画面表现**：虚幻引擎5打造的都市画面令人印象深刻，海特洛市细节丰富\n- **战斗系统**：动作流畅，3人小队切换战斗策略深度适中\n- **开放世界**：城市探索内容丰富，载具驾驶体验远超同类游戏\n- **抽卡体验**：无50/50机制获得高度评价，大大降低了玩家的沉没成本\n- **休闲玩法**：都市大亨、家具系统、浪漫系统等增加了游戏的深度\n\n**玩家评价主要优点**：\n1. 无50/50的抽卡机制极大改善了抽卡体验\n2. 载具驾驶系统是同类游戏中最出色的\n3. 都市超自然题材新颖独特\n4. 免费角色（小吱6+5满配）对零氪玩家非常友好\n\n**需要改进的方面**：\n1. 部分角色平衡性还需调整\n2. 移动端优化仍在进行中\n3. 内容量还需要持续更新\n\n**总结**：如果你喜欢都市题材+抽卡+开放世界的组合，异环绝对值得一试。无50/50的抽卡机制和免费满配的小吱让零氪玩家也能有很好的体验。",
+    "answerEn": "NTE has received positive reviews as a new urban supernatural open-world game.\n\n**Game8 Score: 86/100**\n\nThe internationally renowned gaming guide site Game8 gave NTE 86/100, highlighting:\n- **Visuals**: UE5-powered city visuals are impressive with rich detail in Haitelot City\n- **Combat**: Smooth action with moderate strategic depth in 3-character team switching\n- **Open World**: Rich city exploration with vehicle driving that surpasses comparable games\n- **Gacha**: The no-50/50 system received high praise, significantly reducing sunk costs\n- **Casual Content**: City Tycoon, furniture system, and romance system add depth\n\n**Player Reviews — Pros**:\n1. No 50/50 gacha dramatically improves the pulling experience\n2. Vehicle driving system is the best in the genre\n3. Urban supernatural theme is fresh and unique\n4. Free Xiaozhi (6+5 max build) is very F2P-friendly\n\n**Areas for Improvement**:\n1. Some character balance adjustments needed\n2. Mobile optimization still ongoing\n3. Content volume needs continued updates\n\n**Bottom Line**: If you enjoy urban themes + gacha + open world, NTE is definitely worth trying. The no-50/50 system and free max-built Xiaozhi make it very accessible for F2P players.",
+    "tags": [
+      "评测",
+      "评价",
+      "值得玩吗",
+      "review"
+    ],
+    "category": "general",
+    "categoryZh": "综合",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-hidden-easter-eggs",
+    "question": "异环有哪些隐藏彩蛋？",
+    "questionEn": "What hidden easter eggs are in NTE?",
+    "answer": "异环作为一款都市超自然题材的开放世界游戏，隐藏了大量有趣的彩蛋和秘密：\n\n**已知的重要彩蛋**：\n\n1. **孤独玩家（Lonely Player）**：在海特洛市的公园长椅、屋顶、地铁站等角落，你会遇到一个独自一人的NPC。多次对话后触发隐藏任务链，讲述关于孤独和陪伴的感人故事，完成后获得环石和隐藏成就。\n\n2. **女巫之家（Witch House）**：隐藏在海特洛郊区山谷中的秘密地点，需要完成主线第3章并找到「古代日记」道具才能解锁。内部有宝箱、隐藏Boss、独特家具图纸和重要剧情。\n\n3. **末日刷屏（Doomscroll）**：在城市区域的电子屏幕/广告牌附近触发。夜间（游戏内时间）更容易出现，附近屏幕会显示异常滚动的消息。\n\n4. **深蓝之哀（Deep Blue Sorrow）**：与深海/水下区域相关的重要探索事件，需要完成主线第4章后解锁。\n\n5. **无头骑士（Headless Rider）**：夜间在海特洛老城区出现的神秘世界Boss，击败后掉落稀有模块和专属成就。\n\n**探索技巧**：\n- 多在夜间探索城市\n- 与每个NPC都对话\n- 注意环境中的异常现象\n- 查看偏僻角落的物品\n\n更多彩蛋还在持续发现中，我们会不断更新。",
+    "answerEn": "As an urban supernatural open-world game, NTE hides numerous easter eggs and secrets:\n\n**Known Major Easter Eggs**:\n\n1. **Lonely Player**: In parks, rooftops, and subway stations around Hethereau, you'll find a solitary NPC. Multiple conversations trigger a hidden quest chain about loneliness and companionship, rewarding Ring Stones and a hidden achievement.\n\n2. **Witch House**: Hidden in a valley on the outskirts of Hethereau. Requires completing Main Story Chapter 3 and finding the 'Ancient Diary' item. Contains chests, a hidden boss, unique furniture blueprints, and important lore.\n\n3. **Doomscroll**: Triggered near electronic screens/billboards in the city area. More common at nighttime (in-game). Nearby screens display abnormal scrolling messages.\n\n4. **Deep Blue Sorrow**: An important exploration event related to deep sea/underwater areas, unlocked after completing Main Story Chapter 4.\n\n5. **Headless Rider**: A mysterious world boss that appears at night in Hethereau's Old Town district. Defeating it drops rare Modules and an exclusive achievement.\n\n**Exploration Tips**:\n- Explore the city more at night\n- Talk to every NPC\n- Watch for environmental anomalies\n- Check items in out-of-the-way corners\n\nMore easter eggs are being discovered continuously. We'll keep updating.",
+    "tags": [
+      "彩蛋",
+      "隐藏内容",
+      "easter eggs",
+      "探索"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "best-starting-team",
+    "question": "异环新手最强开荒队伍怎么配？",
+    "questionEn": "What is the best starting team for NTE beginners?",
+    "answer": "异环新手最强开荒队伍推荐：\n\n**万能开荒队**：零（主角）+ 九原 + 任意S级输出\n\n这是最适合新手的配队，原因如下：\n- **零（主角）**：免费获得，瞬环合机制适配所有队伍\n- **九原**：常驻池50抽自选，聚怪+回复，泛用性顶级\n- 第三个位置根据你拥有的S级角色灵活调整\n\n**如果你抽到了娜娜莉**：\n零 + 九原 + 娜娜莉（最强开荒组合）\n\n**如果你有白藏+达芙迪尔**：\n白藏 + 达芙迪尔 + 零/九原（Boss战特化）\n\n**纯免费开荒队（零氪推荐）**：\n零（主角）+ 薄荷 + 阿德勒\n前期可以用这套队伍过渡，等获取九原和小吱后替换。\n\n**小吱平民战神队**：\n小吱 + 哈尼尔 + 阿德勒\n都市大亨肝出小吱后，这套队伍可以让平民玩家轻松通过大部分内容。\n\n**新手配队原则**：\n1. 主角必带（免费+不可替代）\n2. 至少一个聚怪/辅助角色\n3. 注意属性搭配，覆盖多种属性克制\n4. 生存位在高难内容中很重要",
+    "answerEn": "Best starting team recommendations for NTE beginners:\n\n**Universal Starter Team**: Zero (Protagonist) + Jiuyuan + Any S-Rank DPS\n\nThis is the most beginner-friendly composition:\n- **Zero**: Free from story, Ring Fusion adapts to any team\n- **Jiuyuan**: Standard banner selector at 50 pulls, grouping + healing, top versatility\n- Third slot flexes based on your available S-Rank characters\n\n**If you pulled Nanally**:\nZero + Jiuyuan + Nanally (Strongest starter combo)\n\n**If you have Baicang + Daffodil**:\nBaicang + Daffodil + Zero/Jiuyuan (Boss fight specialist)\n\n**Pure F2P Starter Team**:\nZero (Protagonist) + Mint + Adler\nUse this to transition early game until you get Jiuyuan and Xiaozhi.\n\n**Xiaozhi F2P Warlord Team**:\nXiaozhi + Haniel + Adler\nOnce you grind Xiaozhi from City Tycoon, this team lets F2P players clear most content.\n\n**Team Building Principles**:\n1. Protagonist is mandatory (free + irreplaceable)\n2. Include at least one grouping/support character\n3. Cover multiple attribute types for elemental advantages\n4. A survival slot is important for hard content",
+    "tags": [
+      "配队",
+      "新手",
+      "开荒",
+      "队伍"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [
+      "zero-male",
+      "jiuyuan",
+      "nanally",
+      "xiaozhi",
+      "haniel",
+      "adler"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "city-tycoon-earnings-guide",
+    "question": "异环都市大亨怎么赚钱最快？",
+    "questionEn": "How to earn money fastest in NTE City Tycoon?",
+    "answer": "都市大亨（City Tycoon）是异环的核心休闲玩法，也是获取免费S级角色小吱的途径。以下是最快赚钱攻略：\n\n**核心收入来源**：\n1. **商铺经营** — 购买和管理商铺，持续产生被动收入\n2. **区域投资** — 投资不同区域获取回报，优先投资高回报区域\n3. **城市活动** — 参与限时城市活动获取额外奖励\n4. **爱好系统** — 发展个人爱好提升属性，间接增加收入\n\n**赚钱技巧**：\n- 每天登录收取被动收入（最重要！）\n- 优先升级高收益商铺\n- 不要忽视爱好系统，它能提升整体收益\n- 参与所有限时城市活动\n- 随着等级提升解锁更多区域\n\n**最关键的目标**：\n- **免费获取小吱（S级）**：通过都市大亨系统可以免费获得S级角色小吱\n- **免费满配6+5**：小吱可以完全免费满觉，满配后DPS超越所有限定主C\n- 这是对零氪玩家最重要的系统，优先级非常高",
+    "answerEn": "City Tycoon is NTE's core casual system and the path to obtaining the free S-Rank character Xiaozhi. Here's how to maximize earnings:\n\n**Core Income Sources**:\n1. **Shop Management** — Purchase and manage shops for passive income\n2. **District Investment** — Invest in different areas for returns; prioritize high-yield districts\n3. **City Events** — Participate in limited-time city events for bonus rewards\n4. **Hobby System** — Develop hobbies to boost attributes, indirectly increasing income\n\n**Money-Making Tips**:\n- Log in daily to collect passive income (most important!)\n- Prioritize upgrading high-revenue shops\n- Don't ignore the hobby system — it boosts overall earnings\n- Participate in all limited-time city events\n- Unlock more areas as your level increases\n\n**Most Critical Goal**:\n- **Free Xiaozhi (S-Rank)**: Obtain S-Rank Xiaozhi completely free through City Tycoon\n- **Free 6+5 Max Build**: Xiaozhi can be fully maxed for free — at full build, DPS surpasses all limited banner main DPS\n- This is the most important system for F2P players — very high priority",
+    "tags": [
+      "都市大亨",
+      "赚钱",
+      "city tycoon",
+      "小吱"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [
+      "xiaozhi"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "six-attributes-explained",
+    "question": "异环六属性克制关系是什么？",
+    "questionEn": "What are the six attribute counters in NTE?",
+    "answer": "异环共有6种元素属性，每种属性之间存在克制和反应关系：\n\n**六大属性**：\n1. **灵魂（Anima）** — 精神能量属性\n2. **辟邪（Incantation）** — 符咒/法术属性\n3. **精神（Psyche）** — 心灵力量属性\n4. **混沌（Chaos）** — 混沌能量属性\n5. **宇宙（Cosmos）** — 宇宙力量属性\n6. **拉克沙那（Lakshana）** — 特殊属性\n\n**属性克制关系**：\n不同属性之间存在克制关系，使用克制属性攻击可以造成额外伤害。具体克制关系：\n- Anima → Incantation → Psyche → Chaos → Cosmos → Anima（循环克制）\n- Lakshana 作为特殊属性，与多个属性都能触发反应\n\n**实战建议**：\n1. 队伍中尽量覆盖多种属性\n2. 针对Boss属性选择克制角色\n3. 零（主角）的宇宙属性可以触发环合反应\n4. 注意异常区Boss的属性，提前准备对应角色\n\n**属性反应机制**：\n不同属性组合可以触发特殊的属性反应（环合反应），造成额外伤害或产生特殊效果。了解属性克制是高难内容的关键。",
+    "answerEn": "NTE features 6 elemental attributes with counter and reaction relationships:\n\n**The Six Attributes**:\n1. **Anima** — Spiritual energy attribute\n2. **Incantation** — Spell/incantation attribute\n3. **Psyche** — Mental power attribute\n4. **Chaos** — Chaotic energy attribute\n5. **Cosmos** — Cosmic power attribute\n6. **Lakshana** — Special attribute\n\n**Attribute Counter Relationships**:\nDifferent attributes counter each other, dealing bonus damage when using advantageous attributes:\n- Anima → Incantation → Psyche → Chaos → Cosmos → Anima (circular counter)\n- Lakshana is a special attribute that can trigger reactions with multiple attributes\n\n**Practical Tips**:\n1. Try to cover multiple attributes in your team\n2. Choose counter-attribute characters for boss fights\n3. Zero (protagonist) has Cosmos attribute for triggering Ring Fusion reactions\n4. Check Anomaly Zone boss attributes beforehand and prepare appropriate characters\n\n**Attribute Reaction Mechanics**:\nDifferent attribute combinations trigger special Ring Fusion reactions, dealing bonus damage or creating special effects. Understanding attribute counters is key for challenging content.",
+    "tags": [
+      "属性",
+      "克制",
+      "反应",
+      "elements",
+      "attributes"
+    ],
+    "category": "combat",
+    "categoryZh": "战斗",
+    "categoryEn": "Combat",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
