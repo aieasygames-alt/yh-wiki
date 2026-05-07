@@ -8210,6 +8210,128 @@
     ]
   },
   {
+    "id": "romance-system-explained",
+    "name": "异环有浪漫系统吗？可以和角色谈恋爱吗？",
+    "nameEn": "Does NTE have a romance system? Can you date characters?",
+    "type": "faq",
+    "url": "/zh/faq/romance-system-explained",
+    "tags": [
+      "romance",
+      "system",
+      "social"
+    ]
+  },
+  {
+    "id": "romance-system-explained",
+    "name": "Does NTE have a romance system? Can you date characters?",
+    "nameEn": "Does NTE have a romance system? Can you date characters?",
+    "type": "faq",
+    "url": "/en/faq/romance-system-explained",
+    "tags": [
+      "romance",
+      "system",
+      "social"
+    ]
+  },
+  {
+    "id": "easter-eggs-guide",
+    "name": "异环有哪些彩蛋？隐藏彩蛋大全",
+    "nameEn": "What are the Easter Eggs in NTE? Complete hidden Easter Egg guide",
+    "type": "faq",
+    "url": "/zh/faq/easter-eggs-guide",
+    "tags": [
+      "easter-eggs",
+      "secrets",
+      "hidden-content"
+    ]
+  },
+  {
+    "id": "easter-eggs-guide",
+    "name": "What are the Easter Eggs in NTE? Complete hidden Easter Egg guide",
+    "nameEn": "What are the Easter Eggs in NTE? Complete hidden Easter Egg guide",
+    "type": "faq",
+    "url": "/en/faq/easter-eggs-guide",
+    "tags": [
+      "easter-eggs",
+      "secrets",
+      "hidden-content"
+    ]
+  },
+  {
+    "id": "nte-review-score",
+    "name": "异环评分多少？媒体评价怎么样？",
+    "nameEn": "What is NTE's review score? How do critics rate it?",
+    "type": "faq",
+    "url": "/zh/faq/nte-review-score",
+    "tags": [
+      "review",
+      "score",
+      "rating"
+    ]
+  },
+  {
+    "id": "nte-review-score",
+    "name": "What is NTE's review score? How do critics rate it?",
+    "nameEn": "What is NTE's review score? How do critics rate it?",
+    "type": "faq",
+    "url": "/en/faq/nte-review-score",
+    "tags": [
+      "review",
+      "score",
+      "rating"
+    ]
+  },
+  {
+    "id": "no-5050-explained",
+    "name": "异环没有50/50是什么意思？保底机制详解",
+    "nameEn": "What does NTE's no 50/50 system mean? Pity mechanic explained",
+    "type": "faq",
+    "url": "/zh/faq/no-5050-explained",
+    "tags": [
+      "gacha",
+      "50-50",
+      "pity",
+      "beginner"
+    ]
+  },
+  {
+    "id": "no-5050-explained",
+    "name": "What does NTE's no 50/50 system mean? Pity mechanic explained",
+    "nameEn": "What does NTE's no 50/50 system mean? Pity mechanic explained",
+    "type": "faq",
+    "url": "/en/faq/no-5050-explained",
+    "tags": [
+      "gacha",
+      "50-50",
+      "pity",
+      "beginner"
+    ]
+  },
+  {
+    "id": "cosmos-blossom-guide",
+    "name": "异环宇宙绽放是什么？怎么玩？",
+    "nameEn": "What is Cosmos Blossom in NTE? How does it work?",
+    "type": "faq",
+    "url": "/zh/faq/cosmos-blossom-guide",
+    "tags": [
+      "cosmos-blossom",
+      "event",
+      "game-mode"
+    ]
+  },
+  {
+    "id": "cosmos-blossom-guide",
+    "name": "What is Cosmos Blossom in NTE? How does it work?",
+    "nameEn": "What is Cosmos Blossom in NTE? How does it work?",
+    "type": "faq",
+    "url": "/en/faq/cosmos-blossom-guide",
+    "tags": [
+      "cosmos-blossom",
+      "event",
+      "game-mode"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",

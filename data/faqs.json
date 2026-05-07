@@ -4292,5 +4292,91 @@
     "categoryEn": "Combat",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "romance-system-explained",
+    "question": "异环有浪漫系统吗？可以和角色谈恋爱吗？",
+    "questionEn": "Does NTE have a romance system? Can you date characters?",
+    "answer": "根据Game8等权威游戏媒体确认，异环1.0版本中确实存在浪漫（Romance）系统。玩家可以与某些角色发展更深层次的关系，包括角色好感度提升、专属剧情解锁、特殊互动场景和限定奖励。具体可攻略角色名单和触发条件还在持续探索中，建议关注游戏内的好感度系统和角色个人剧情。",
+    "answerEn": "According to authoritative gaming outlets like Game8, a Romance system does exist in NTE Version 1.0. Players can develop deeper relationships with certain characters, including affinity/affection increases, exclusive story scenes, special interaction events, and limited rewards. The specific dateable characters and trigger conditions are still being explored. Check the in-game affinity system and character stories for details.",
+    "tags": [
+      "romance",
+      "system",
+      "social"
+    ],
+    "category": "gameplay",
+    "categoryZh": "游戏玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "easter-eggs-guide",
+    "question": "异环有哪些彩蛋？隐藏彩蛋大全",
+    "questionEn": "What are the Easter Eggs in NTE? Complete hidden Easter Egg guide",
+    "answer": "异环作为一款都市开放世界游戏，藏了大量有趣的彩蛋和隐藏内容。目前已发现的彩蛋包括：1) 海特洛市各处的街头涂鸦和隐藏互动点；2) 特定时间出现的隐藏NPC和对话；3) 异常区中的隐藏房间和宝箱；4) 与载具有关的特殊事件；5) 参考其他游戏或流行文化的梗和致敬。随着玩家探索深入，相信还会有更多彩蛋被发现。建议多探索城市各个角落，尝试不同的互动方式。",
+    "answerEn": "As an urban open-world game, NTE contains numerous Easter Eggs and hidden content. Discoveries so far include: 1) Street graffiti and hidden interaction points throughout Haitelot City; 2) Hidden NPCs and dialogues appearing at specific times; 3) Hidden rooms and treasure chests in Anomaly Zones; 4) Special vehicle-related events; 5) References and homages to other games and pop culture. More Easter Eggs are likely to be found as players explore further. Try exploring every corner of the city and experimenting with different interactions.",
+    "tags": [
+      "easter-eggs",
+      "secrets",
+      "hidden-content"
+    ],
+    "category": "gameplay",
+    "categoryZh": "彩蛋",
+    "categoryEn": "Easter Eggs",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-review-score",
+    "question": "异环评分多少？媒体评价怎么样？",
+    "questionEn": "What is NTE's review score? How do critics rate it?",
+    "answer": "国际知名游戏攻略网站Game8为异环给出了86/100的评分。主要评价亮点：画面表现优秀（虚幻引擎5打造）、战斗系统流畅且策略深度适中、开放世界探索内容丰富、抽卡无50/50机制获高度评价、载具驾驶体验远超同类游戏。作为一款新IP的首发作品，86分是相当有竞争力的成绩，说明异环已经站稳了脚跟。",
+    "answerEn": "The internationally renowned gaming guide site Game8 gave NTE a score of 86/100. Key highlights: impressive visuals powered by Unreal Engine 5, smooth combat with moderate strategic depth, rich open-world exploration, the no-50/50 gacha system received high praise, and vehicle driving experience surpasses comparable games. As a new IP's debut, 86/100 is a highly competitive score indicating NTE has firmly established itself.",
+    "tags": [
+      "review",
+      "score",
+      "rating"
+    ],
+    "category": "general",
+    "categoryZh": "综合信息",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "no-5050-explained",
+    "question": "异环没有50/50是什么意思？保底机制详解",
+    "questionEn": "What does NTE's no 50/50 system mean? Pity mechanic explained",
+    "answer": "异环最大的良心之一就是没有50/50机制。在原神等游戏中，抽到S级时有50%概率是常驻角色而非UP角色，需要再抽一轮保底才能获得UP角色。而异环中，当你触发保底获得S级角色时，必定是当期UP角色，不存在歪到常驻的可能。这意味着：1) 最差情况90抽必得当期UP角色；2) 平均花费比有50/50的游戏少很多；3) 抽卡体验更加可预期和友好。",
+    "answerEn": "One of NTE's most player-friendly features is the absence of a 50/50 system. In games like Genshin Impact, when you pull an S-Rank, there's a 50% chance it's a standard character instead of the featured one, requiring another pity cycle. In NTE, when you trigger pity and get an S-Rank, it IS guaranteed to be the featured character. This means: 1) Worst case is 90 pulls for the featured S-Rank; 2) Average cost is much lower than games with 50/50; 3) Gacha experience is more predictable and player-friendly.",
+    "tags": [
+      "gacha",
+      "50-50",
+      "pity",
+      "beginner"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "cosmos-blossom-guide",
+    "question": "异环宇宙绽放是什么？怎么玩？",
+    "questionEn": "What is Cosmos Blossom in NTE? How does it work?",
+    "answer": "宇宙绽放（Cosmos Blossom）是异环中的一种游戏模式/活动玩法。玩家需要组建特定属性的队伍来挑战不同难度的关卡，获取丰厚奖励。建议根据关卡属性要求选择对应属性的角色，合理搭配队伍的输出和生存能力。具体机制和奖励会随版本更新而调整。",
+    "answerEn": "Cosmos Blossom is a game mode/event in NTE. Players need to build teams with specific attributes to challenge stages of varying difficulty for generous rewards. Choose characters with attributes matching the stage requirements, and balance your team between damage and survival. Specific mechanics and rewards may change with version updates.",
+    "tags": [
+      "cosmos-blossom",
+      "event",
+      "game-mode"
+    ],
+    "category": "gameplay",
+    "categoryZh": "游戏玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
