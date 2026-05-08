@@ -4378,5 +4378,221 @@
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "cross-platform-account-linking",
+    "question": "如何绑定PS5/PC/手机账号同步进度？",
+    "questionEn": "How to link PS5/PC/Mobile accounts for cross-platform play?",
+    "answer": "跨平台账号绑定步骤：1) 进入游戏设置 > 账号中心 > 绑定账号；2) 将所有登录方式（Google、邮箱、PSN）绑定到同一个账号；3) 绑定完成后，在任何平台使用已绑定的登录方式即可同步进度。如果你已经分别在两个平台创建了不同的账号，请联系官方客服 nte.contactus@perfectworld.com，提供两个UID请求合并账号。",
+    "answerEn": "To link accounts for cross-platform play: 1) Go to Settings > Account Center > Link Account; 2) Bind all login methods (Google, email, PSN) to the same account; 3) Once linked, log in with any bound method on any platform to sync progress. If you accidentally created separate accounts on different platforms, contact official support at nte.contactus@perfectworld.com with both UIDs to request account merging.",
+    "tags": [
+      "account",
+      "ps5",
+      "cross-platform",
+      "linking"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "How to Link NTE Accounts Across PS5, PC & Mobile — Cross-Platform Progress Sync Guide (2026)",
+    "seoTitleZh": "异环跨平台账号绑定教程 — PS5/PC/手机进度同步方法（2026）",
+    "seoDescriptionEn": "Link your NTE accounts across PS5, PC, and mobile to sync game progress. Step-by-step guide to binding login methods and fixing separate account issues.",
+    "seoDescriptionZh": "异环(NTE)跨平台账号绑定教程：如何在PS5、PC和手机之间同步游戏进度，绑定登录方式，解决创建了两个账号的合并问题。"
+  },
+  {
+    "id": "pre-registration-rewards-missing",
+    "question": "预注册奖励没收到怎么办？",
+    "questionEn": "Pre-registration rewards not received?",
+    "answer": "预注册奖励未到账的解决方法：1) 检查游戏内邮箱，奖励通常通过邮件发放；2) 确认你登录的账号/邮箱与预注册时使用的一致；3) 完全退出游戏后重新登录。如果以上步骤后仍未收到，请联系客服 nte.contactus@perfectworld.com，附上你的UID和预注册时使用的邮箱地址。",
+    "answerEn": "If your pre-registration rewards are missing: 1) Check your in-game mailbox, as rewards are usually delivered via mail; 2) Verify you are logging in with the same account/email used for pre-registration; 3) Fully restart the game and log back in. If rewards are still missing after these steps, contact support at nte.contactus@perfectworld.com with your UID and the email address used for pre-registration.",
+    "tags": [
+      "account",
+      "rewards",
+      "pre-registration"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Pre-Registration Rewards Missing — How to Fix & Claim (2026)",
+    "seoTitleZh": "异环预注册奖励没收到 — 解决方法与领取指南（2026）",
+    "seoDescriptionEn": "Did not receive your NTE pre-registration rewards? Follow this troubleshooting guide to check your mailbox, verify your account, and contact support.",
+    "seoDescriptionZh": "异环(NTE)预注册奖励未到账的完整解决方案：检查邮箱、确认账号、重启游戏，以及联系客服的方法。"
+  },
+  {
+    "id": "wrong-character-selection",
+    "question": "免费S级角色选错了能换吗？",
+    "questionEn": "Selected wrong free S-rank character, can I change?",
+    "answer": "如果你在选择免费S级角色时选错了：1) 尽快联系官方客服 nte.contactus@perfectworld.com；2) 提供你的UID、收到的角色名和你想要的角色名；3) 不要使用或升级选错的角色。客服团队会根据具体情况协助处理，已有成功更换的案例，但并非保证，建议尽早联系。",
+    "answerEn": "If you selected the wrong free S-rank character: 1) Contact official support ASAP at nte.contactus@perfectworld.com; 2) Provide your UID, the character you received, and the one you intended to select; 3) Do NOT use or level up the wrong character. The support team has helped players swap characters on a case-by-case basis, but it is not guaranteed, so contact them as early as possible.",
+    "tags": [
+      "account",
+      "character",
+      "support"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Wrong Free S-Rank Character Selected — Can You Swap? (2026)",
+    "seoTitleZh": "异环免费S级角色选错了怎么办 — 能否更换？（2026）",
+    "seoDescriptionEn": "Accidentally picked the wrong free S-rank character in NTE? Learn how to contact support for a possible character swap and what steps to take immediately.",
+    "seoDescriptionZh": "异环(NTE)免费S级角色选错了的解决方法：联系客服更换的具体步骤、注意事项和成功案例说明。"
+  },
+  {
+    "id": "monthly-pass-not-received",
+    "question": "月卡/通行证购买了但没到账？",
+    "questionEn": "Monthly pass purchased but not received?",
+    "answer": "月卡或通行证购买后未到账的解决方法：1) 完全退出游戏后重新登录；2) 检查游戏内邮箱，部分奖励通过邮件发放；3) 确认支付是否已完成扣款（查看银行或支付平台记录）。如确认扣款但未到账，请联系客服 nte.contactus@perfectworld.com，附上UID、购买平台和支付凭证截图。",
+    "answerEn": "If your monthly pass or battle pass purchase did not go through: 1) Fully restart the game and log back in; 2) Check your in-game mailbox, as some rewards are delivered via mail; 3) Verify the payment was actually charged (check your bank or payment platform). If the charge went through but the pass is still missing, contact support at nte.contactus@perfectworld.com with your UID, platform, and a screenshot of the purchase receipt.",
+    "tags": [
+      "billing",
+      "pass",
+      "purchase"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Monthly Pass Not Received After Purchase — Fix Guide (2026)",
+    "seoTitleZh": "异环月卡购买了没到账 — 解决方法与客服联系方式（2026）",
+    "seoDescriptionEn": "Purchased the NTE monthly pass or battle pass but it did not appear? Troubleshooting steps including restart, mailbox check, and how to contact support with proof of purchase.",
+    "seoDescriptionZh": "异环(NTE)月卡/通行证购买后未到账的完整排查步骤：重启游戏、检查邮箱、确认支付状态以及联系客服的方法。"
+  },
+  {
+    "id": "game-crashing-fix",
+    "question": "游戏崩溃/闪退怎么解决？",
+    "questionEn": "How to fix game crashes?",
+    "answer": "游戏崩溃或闪退的排查步骤：1) 更新显卡驱动到最新版本；2) 在启动器中验证游戏文件完整性；3) 尝试切换渲染器（DX11/DX12/Vulkan）；4) 关闭后台占用的程序（尤其是覆盖层软件如Discord覆盖、GeForce Experience等）；5) 确认电脑配置满足最低要求。如问题持续，请联系 nte.contactus@perfectworld.com。",
+    "answerEn": "To fix game crashes: 1) Update your GPU drivers to the latest version; 2) Verify game file integrity through the launcher; 3) Try switching the renderer (DX11/DX12/Vulkan); 4) Close background overlay programs (Discord overlay, GeForce Experience, etc.); 5) Confirm your system meets the minimum requirements. If crashes persist, contact nte.contactus@perfectworld.com with your system specs and crash logs.",
+    "tags": [
+      "crash",
+      "performance",
+      "pc"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Crashing or Closing Unexpectedly — Complete Fix Guide (2026)",
+    "seoTitleZh": "异环游戏崩溃闪退解决方案 — 完整排查教程（2026）",
+    "seoDescriptionEn": "NTE keeps crashing? Step-by-step guide to fix game crashes: update drivers, verify files, switch renderer (DX11/DX12/Vulkan), close overlays, and check system requirements.",
+    "seoDescriptionZh": "异环(NTE)游戏崩溃或闪退的完整解决方案：更新显卡驱动、验证文件完整性、切换渲染器、关闭后台程序等排查步骤。"
+  },
+  {
+    "id": "fps-stuttering-fix",
+    "question": "游戏卡顿/FPS低怎么优化？",
+    "questionEn": "How to fix FPS drops and stuttering?",
+    "answer": "游戏卡顿和FPS低的优化方法：1) 在设置 > 画面中切换渲染器（DX11/DX12/Vulkan），不同硬件适配不同渲染器；2) 降低阴影质量和抗锯齿设置；3) 更新显卡驱动至最新版；4) 如果游戏安装在非系统盘（如D盘），尝试移动到C盘；5) 清理着色器缓存。以上方法通常能显著改善帧率。",
+    "answerEn": "To fix FPS drops and stuttering: 1) Switch between renderers (DX11/DX12/Vulkan) in Settings > Graphics — different hardware works better with different renderers; 2) Lower shadow quality and anti-aliasing settings; 3) Update your GPU drivers to the latest version; 4) If the game is installed on a secondary drive (e.g., D:), try moving it to your C: drive; 5) Clear your shader cache. These steps typically improve frame rates significantly.",
+    "tags": [
+      "fps",
+      "performance",
+      "stuttering",
+      "optimization"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Low FPS & Stuttering Fix — Best Settings & Optimization Guide (2026)",
+    "seoTitleZh": "异环卡顿FPS低优化方法 — 最佳画面设置与性能调优（2026）",
+    "seoDescriptionEn": "Fix NTE low FPS and stuttering with this optimization guide. Switch renderers, lower shadow settings, update drivers, move to SSD, and clear shader cache for smoother gameplay.",
+    "seoDescriptionZh": "异环(NTE)游戏卡顿和FPS低的优化教程：切换渲染器、调整画面设置、更新驱动、将游戏移至系统盘、清理着色器缓存等有效方法。"
+  },
+  {
+    "id": "installed-on-d-drive-stutter",
+    "question": "游戏装在D盘严重卡顿？",
+    "questionEn": "Game stuttering when installed on secondary drive?",
+    "answer": "多位玩家反馈异环安装在非系统盘时出现严重卡顿。解决方法：将游戏移动到C盘（与操作系统同一块硬盘）。具体操作：1) 在启动器中找到游戏安装路径设置；2) 将游戏文件剪切或重新下载到C盘目录；3) 重新启动游戏验证文件。此方法已帮助多位玩家从低于30FPS恢复到流畅运行。如果C盘空间不足，建议清理空间后再尝试。",
+    "answerEn": "Multiple players report severe FPS drops when NTE is installed on a non-OS drive. The fix is to move the game to your C: drive (the same drive as your operating system). Here is how: 1) Locate the game install path in the launcher settings; 2) Move or re-download game files to a folder on your C: drive; 3) Restart the game and verify files. This has resolved stuttering from under 30 FPS to smooth gameplay for many affected players. If your C: drive is low on space, try freeing up at least 50 GB before moving the game.",
+    "tags": [
+      "fps",
+      "stuttering",
+      "d-drive",
+      "performance",
+      "installation"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Stuttering on D: Drive — Move to C: Drive Fix (2026)",
+    "seoTitleZh": "异环装在D盘卡顿严重 — 移动到C盘解决方法（2026）",
+    "seoDescriptionEn": "NTE stutters badly when installed on a secondary drive? Move the game to your C: drive to fix FPS drops. Confirmed fix by multiple players going from under 30 FPS to smooth.",
+    "seoDescriptionZh": "异环(NTE)安装在D盘或非系统盘严重卡顿的解决方案：将游戏移动到C盘可大幅改善帧率，多位玩家验证有效。"
+  },
+  {
+    "id": "hunter-level-stuck",
+    "question": "猎人等级卡住不动了？",
+    "questionEn": "Hunter level stuck and not increasing?",
+    "answer": "猎人等级在特定等级（如20级、30级等）会有软上限。解决方法：1) 打开任务列表，查看是否有主线任务需要完成；2) 寻找「猎人晋升」相关的任务，完成该任务即可解锁下一等级段；3) 经验值会继续累积，但在晋升任务完成前不会提升等级上限。这是正常的游戏机制，不是Bug。",
+    "answerEn": "Your Hunter level has soft caps at certain thresholds (e.g., Lv20, Lv30). Here is what to do: 1) Open your quest log and check for pending main story quests; 2) Look for a \"Hunter Promotion\" quest — completing it unlocks the next level tier; 3) EXP continues to accumulate but your displayed level will not increase until the promotion quest is done. This is normal game mechanics, not a bug.",
+    "tags": [
+      "leveling",
+      "hunter-level",
+      "progression"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Hunter Level Stuck — How to Unlock Level Cap & Promotion Quest (2026)",
+    "seoTitleZh": "异环猎人等级卡住不升级 — 等级上限解锁与晋升任务指南（2026）",
+    "seoDescriptionEn": "Hunter level stuck in NTE? You likely hit a soft cap. Complete the Hunter Promotion quest in your quest log to unlock the next level tier. Full explanation here.",
+    "seoDescriptionZh": "异环(NTE)猎人等级卡住的原因：达到软上限后需完成猎人晋升任务才能解锁下一等级段，详细介绍与解决方法。"
+  },
+  {
+    "id": "character-stuck-bug",
+    "question": "角色卡住/任务无法推进怎么办？",
+    "questionEn": "Character stuck or quest not progressing?",
+    "answer": "角色卡住或任务无法推进的解决方法：1) 尝试传送到其他位置再传送回来；2) 完全退出游戏后重新登录；3) 如果游戏内有「脱离卡死」功能，使用该功能；4) 如果在异常区域中，尝试离开后重新进入；5) 如问题持续，联系客服 nte.contactus@perfectworld.com，附上UID、所在位置和任务名称。",
+    "answerEn": "If your character is stuck or a quest will not progress: 1) Try teleporting to a different location and back; 2) Fully restart the game and log back in; 3) Use the \"Unstuck\" feature if available in-game; 4) If inside an anomaly zone, try leaving and re-entering; 5) If the issue persists, contact support at nte.contactus@perfectworld.com with your UID, location, and quest name.",
+    "tags": [
+      "bug",
+      "stuck",
+      "quest",
+      "progression"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Character Stuck or Quest Not Progressing — How to Fix (2026)",
+    "seoTitleZh": "异环角色卡住任务无法推进 — 解决方法与脱离卡死教程（2026）",
+    "seoDescriptionEn": "Character stuck or quest bugged in NTE? Try teleporting away, restarting the game, using the unstuck feature, or contacting support with your UID and quest details.",
+    "seoDescriptionZh": "异环(NTE)角色卡住或任务无法推进的解决方法：传送脱离、重启游戏、使用脱离卡死功能，以及联系客服的详细信息。"
+  },
+  {
+    "id": "double-charge-refund",
+    "question": "充值被重复扣款/退款异常怎么办？",
+    "questionEn": "Double charged or refund issues?",
+    "answer": "充值重复扣款或退款异常的处理方法：1) 如遇重复扣款，联系客服 nte.contactus@perfectworld.com，提供UID、购买平台、两笔交易的订单号和扣款截图；2) 同时也可以通过购买平台（Epic/Google Play/App Store/PlayStation）申请退款；3) 如果因退款异常导致账户出现负余额，向客服说明情况并提供相关交易记录，客服会协助处理。",
+    "answerEn": "For double charges or refund issues: 1) If double charged, contact support at nte.contactus@perfectworld.com with your UID, platform, both transaction IDs, and screenshots of both charges; 2) You can also request a refund through your purchase platform (Epic Games/Google Play/App Store/PlayStation Store); 3) If a refund error caused a negative balance on your account, explain the situation to support with the relevant transaction records and they will help resolve it.",
+    "tags": [
+      "billing",
+      "refund",
+      "double-charge",
+      "payment"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "故障排查",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleEn": "NTE Double Charged or Refund Issues — How to Get Your Money Back (2026)",
+    "seoTitleZh": "异环充值重复扣款退款异常 — 处理方法与客服联系指南（2026）",
+    "seoDescriptionEn": "Double charged in NTE or having refund problems? Contact support with transaction IDs, request platform refunds, and resolve negative balance issues with this guide.",
+    "seoDescriptionZh": "异环(NTE)充值重复扣款和退款异常的完整处理流程：联系客服、通过平台申请退款、解决负余额问题的详细步骤。"
   }
 ]

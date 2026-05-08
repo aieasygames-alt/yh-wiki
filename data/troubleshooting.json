@@ -1,0 +1,206 @@
+{
+  "title": { "zh": "NTE常见问题排查指南", "en": "NTE Troubleshooting Guide" },
+  "description": { "zh": "异环游戏常见技术问题、账户问题和游戏Bug的完整排查指南，包含详细解决方案。", "en": "Complete troubleshooting guide for Neverness to Everness common technical issues, account problems, and game bugs with detailed solutions." },
+  "sections": [
+    {
+      "id": "installation",
+      "title": { "zh": "安装与启动", "en": "Installation & Launch" },
+      "icon": "📦",
+      "items": [
+        {
+          "id": "launcher-not-downloading",
+          "title": { "zh": "启动器无法下载游戏", "en": "Launcher won't download the game" },
+          "description": { "zh": "下载启动器后游戏内容无法下载或停止工作", "en": "After downloading the launcher, game content won't download or stops working" },
+          "severity": "high",
+          "platforms": ["pc"],
+          "steps": {
+            "zh": "1) 以管理员身份运行启动器\n2) 检查杀毒软件是否拦截，添加白名单\n3) 确保安装盘有50GB以上空间\n4) 检查网络连接和代理设置",
+            "en": "1) Run the launcher as administrator\n2) Check if antivirus is blocking it, add an exception\n3) Ensure at least 50GB free space on the install drive\n4) Check network connection and proxy settings"
+          }
+        },
+        {
+          "id": "game-crashes-on-startup",
+          "title": { "zh": "游戏启动时崩溃", "en": "Game crashes on startup" },
+          "description": { "zh": "打开游戏后立即崩溃，无法进入主界面", "en": "Game crashes immediately after opening, can't reach the main menu" },
+          "severity": "high",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 完全重启设备（不是休眠）\n2) 检查游戏是否有待更新\n3) PC：通过启动器验证游戏文件\n4) 手机：清除应用缓存\n5) PS5：删除重装（存档数据在服务器安全）",
+            "en": "1) Fully restart your device (not just sleep mode)\n2) Check for pending game updates\n3) PC: Verify game files through the launcher\n4) Mobile: Clear the app cache\n5) PS5: Delete and reinstall (save data is safe on the server)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "title": { "zh": "账户与登录", "en": "Account & Login" },
+      "icon": "🔐",
+      "items": [
+        {
+          "id": "cross-platform-linking",
+          "title": { "zh": "跨平台账号绑定/同步", "en": "Cross-platform account linking" },
+          "description": { "zh": "PS5/PC/手机账号进度不同步，如何绑定", "en": "PS5/PC/Mobile account progress not syncing, how to link" },
+          "severity": "high",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 在已有进度的设备上进入 设置 > 账号中心 > 绑定账号\n2) 绑定所有登录方式（Google、邮箱、PSN）\n3) 在新设备上使用已绑定的登录方式登录\n4) 注意：Google登录和邮箱登录是两种不同的登录方式，需都绑定\n5) 如已创建独立账号，联系 nte.contactus@perfectworld.com 提供两个UID",
+            "en": "1) On the device with progress, go to Settings > Account Center > Link Account\n2) Link all login methods (Google, email, PSN)\n3) On the new device, log in with any linked method\n4) Note: Google login and email login are separate — link both\n5) If you already created separate accounts, email nte.contactus@perfectworld.com with both UIDs"
+          }
+        },
+        {
+          "id": "pre-registration-rewards",
+          "title": { "zh": "预注册奖励未到账", "en": "Pre-registration rewards not received" },
+          "description": { "zh": "预注册了但游戏内没收到奖励", "en": "Pre-registered but didn't receive rewards in-game" },
+          "severity": "medium",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 检查游戏内邮箱，奖励通过邮件发放\n2) 确认当前登录的账号与预注册邮箱一致\n3) 重启游戏等待同步\n4) 如仍无奖励，联系 nte.contactus@perfectworld.com 提供UID和预注册邮箱",
+            "en": "1) Check your in-game mail — rewards are delivered there\n2) Verify you're logged in with the same email used for pre-registration\n3) Restart the game to trigger sync\n4) If still missing, email nte.contactus@perfectworld.com with your UID and pre-registration email"
+          }
+        },
+        {
+          "id": "account-recovery",
+          "title": { "zh": "账号找回/登录失败", "en": "Account recovery / Can't log in" },
+          "description": { "zh": "登出后无法重新登录，系统提示账号不存在", "en": "Can't log back in after logging out, system says account doesn't exist" },
+          "severity": "high",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 尝试其他登录方式（Facebook、Google、邮箱等）\n2) 不要创建新账号\n3) 检查是否选对了服务器\n4) 联系 nte.contactus@perfectworld.com 提供角色名、UID、绑定邮箱等信息",
+            "en": "1) Try other login methods (Facebook, Google, email, etc.)\n2) Do NOT create a new account\n3) Check if you're on the correct server\n4) Email nte.contactus@perfectworld.com with your character name, UID, and linked email"
+          }
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "title": { "zh": "性能优化", "en": "Performance Optimization" },
+      "icon": "⚡",
+      "items": [
+        {
+          "id": "fps-drops-stuttering",
+          "title": { "zh": "FPS下降/游戏卡顿", "en": "FPS drops and stuttering" },
+          "description": { "zh": "游戏画面卡顿，尤其是开车和战斗时", "en": "Game stutters, especially during driving and combat" },
+          "severity": "high",
+          "platforms": ["pc"],
+          "steps": {
+            "zh": "1) 在设置 > 画面中切换渲染器（DX11/DX12/Vulkan），选择最流畅的一个\n2) 降低阴影和抗锯齿设置\n3) 更新GPU驱动到最新版本\n4) 如果游戏装在D盘，尝试移到C盘（多名玩家确认有效）\n5) 关闭后台占用大的应用",
+            "en": "1) Switch renderer between DX11/DX12/Vulkan in Settings > Graphics\n2) Lower shadows and anti-aliasing\n3) Update GPU drivers to the latest version\n4) If installed on a secondary drive, move to the OS drive (C:) — confirmed fix by multiple players\n5) Close heavy background apps"
+          }
+        },
+        {
+          "id": "d-drive-stutter",
+          "title": { "zh": "安装在D盘导致严重卡顿", "en": "Severe stuttering when installed on secondary drive" },
+          "description": { "zh": "游戏安装在非系统盘时出现严重卡顿，移到C盘后恢复正常", "en": "Game stutters severely on non-OS drive, fixed by moving to C: drive" },
+          "severity": "high",
+          "platforms": ["pc"],
+          "steps": {
+            "zh": "这是一个已知问题：将游戏移到系统盘（C盘）即可解决。1) 卸载当前安装\n2) 在C盘重新安装\n3) 存档数据在服务器端，无需担心丢失进度",
+            "en": "This is a known issue. Move the game to your OS drive (C:) to fix it. 1) Uninstall current installation 2) Reinstall on C: drive 3) Save data is server-side, no progress loss"
+          }
+        },
+        {
+          "id": "visual-glitches",
+          "title": { "zh": "画面模糊/角色变黑紫色", "en": "Blurry textures, black/purple characters" },
+          "description": { "zh": "游戏画面模糊、延迟，角色模型变成黑色或紫色", "en": "Blurry image, delayed rendering, character models turn black or purple" },
+          "severity": "medium",
+          "platforms": ["pc", "mobile"],
+          "steps": {
+            "zh": "1) 更新GPU驱动（NVIDIA/AMD/Intel）\n2) 切换渲染器（DX11/DX12/Vulkan）\n3) 清理着色器缓存\n4) 降低贴图质量，关闭体积光效果\n5) 手机用户确保设备至少有6GB内存",
+            "en": "1) Update GPU drivers (NVIDIA/AMD/Intel)\n2) Switch renderer between DX11/DX12/Vulkan\n3) Clear shader cache\n4) Lower texture quality and disable volumetric effects\n5) On mobile, ensure your device has at least 6GB RAM"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bugs",
+      "title": { "zh": "游戏Bug", "en": "In-Game Bugs" },
+      "icon": "🐛",
+      "items": [
+        {
+          "id": "hunter-level-capped",
+          "title": { "zh": "猎人等级卡住不升", "en": "Hunter level stuck and won't increase" },
+          "description": { "zh": "经验值超过上限但等级不提升", "en": "EXP exceeds cap but level won't increase" },
+          "severity": "medium",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "猎人等级在特定阈值（如20级、30级）有软上限。检查任务列表中是否有「猎人晋升」相关的主线任务，完成该任务即可解锁下一等级段。经验会保留，解锁后自动提升。",
+            "en": "Hunter level has soft caps at certain thresholds (e.g., Lv20, Lv30). Check your quest log for a main story quest or \"Hunter Promotion\" quest. Complete it to unlock the next level tier. Accumulated EXP will apply automatically."
+          }
+        },
+        {
+          "id": "character-stuck",
+          "title": { "zh": "角色卡在地图/建筑里", "en": "Character stuck in map/building" },
+          "description": { "zh": "角色卡在墙壁、地板或建筑内无法移动", "en": "Character stuck inside walls, floors, or buildings" },
+          "severity": "high",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 传送到其他地图点位\n2) 进入建筑/室内触发加载\n3) 重启游戏\n4) 使用游戏内的「脱离卡死」功能\n5) 联系 nte.contactus@perfectworld.com 提供UID和位置信息",
+            "en": "1) Teleport to another map location\n2) Enter a building/interior to trigger a loading screen\n3) Restart the game\n4) Use the in-game \"Unstuck\" feature\n5) Email nte.contactus@perfectworld.com with your UID and location"
+          }
+        },
+        {
+          "id": "quest-not-progressing",
+          "title": { "zh": "任务无法推进/触发器失效", "en": "Quest not progressing / trigger not working" },
+          "description": { "zh": "到达任务地点但NPC不出现，交互点无反应", "en": "Arrived at quest location but NPC doesn't appear, interaction point not working" },
+          "severity": "medium",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 传送离开当前区域后返回\n2) 重启游戏\n3) 检查是否在正确的异常区域阶段\n4) 如仍无法解决，联系 nte.contactus@perfectworld.com 提供UID、任务名称和问题描述",
+            "en": "1) Teleport away and come back\n2) Restart the game\n3) Check if you're on the correct anomaly zone stage\n4) If still stuck, email nte.contactus@perfectworld.com with UID, quest name, and description"
+          }
+        },
+        {
+          "id": "vehicle-wheel-broken",
+          "title": { "zh": "载具轮盘无法打开", "en": "Vehicle wheel not opening" },
+          "description": { "zh": "按L1+R1无法召唤载具", "en": "Pressing L1+R1 doesn't open vehicle wheel" },
+          "severity": "medium",
+          "platforms": ["pc", "ps5"],
+          "steps": {
+            "zh": "1) 检查设置 > 控制中载具快捷键是否正确绑定，近期更新可能重置了键位\n2) 重启游戏\n3) PC端尝试键盘载具快捷键\n4) 如仍无效，联系 nte.contactus@perfectworld.com",
+            "en": "1) Check Settings > Controls — recent patches may have reset bindings\n2) Restart the game\n3) On PC, try the keyboard vehicle shortcut\n4) If still broken, email nte.contactus@perfectworld.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "title": { "zh": "充值与购买", "en": "Purchases & Billing" },
+      "icon": "💰",
+      "items": [
+        {
+          "id": "purchase-not-received",
+          "title": { "zh": "购买后未到账", "en": "Purchase not received in-game" },
+          "description": { "zh": "月卡、通行证、充值等购买后游戏内没有收到", "en": "Monthly pass, premium pass, or crystals not delivered after purchase" },
+          "severity": "high",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 重启游戏，购买有时需要重启才同步\n2) 检查游戏内邮箱\n3) 确认付款确实扣款成功\n4) 联系 nte.contactus@perfectworld.com 提供UID、平台和购买凭证截图",
+            "en": "1) Restart the game — purchases sometimes need a restart to sync\n2) Check your in-game mail\n3) Verify the payment actually went through\n4) Email nte.contactus@perfectworld.com with UID, platform, and purchase receipt screenshot"
+          }
+        },
+        {
+          "id": "double-charge",
+          "title": { "zh": "被重复扣款", "en": "Charged twice for one purchase" },
+          "description": { "zh": "一笔订单被扣了两次费用", "en": "One purchase charged twice" },
+          "severity": "high",
+          "platforms": ["pc", "mobile", "ps5"],
+          "steps": {
+            "zh": "1) 准备两笔交易的截图和交易ID\n2) 联系 nte.contactus@perfectworld.com 申请退款\n3) 同时通过购买平台申请退款（Epic/Google Play/App Store/PlayStation）\n4) 保留所有收据作为凭证",
+            "en": "1) Prepare screenshots and transaction IDs for both charges\n2) Email nte.contactus@perfectworld.com to request a refund\n3) Also request refund through your purchase platform (Epic/Google Play/App Store/PlayStation)\n4) Keep all receipts as proof"
+          }
+        }
+      ]
+    }
+  ],
+  "officialSupport": {
+    "email": "nte.contactus@perfectworld.com",
+    "channels": {
+      "zh": "游戏内：设置 > 客服/反馈 | 邮箱：nte.contactus@perfectworld.com | PlayStation：通过PSN Support反馈",
+      "en": "In-game: Settings > Customer Service / Feedback | Email: nte.contactus@perfectworld.com | PlayStation: Report via PSN Support"
+    },
+    "tip": {
+      "zh": "联系官方客服时请准备好：UID、服务器、问题描述和截图，可以加快处理速度。",
+      "en": "When contacting official support, include your UID, server, issue description, and screenshots for faster resolution."
+    }
+  }
+}
