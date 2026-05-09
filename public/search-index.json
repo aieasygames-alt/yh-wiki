@@ -8332,6 +8332,518 @@
     ]
   },
   {
+    "id": "cross-platform-account-linking",
+    "name": "如何绑定PS5/PC/手机账号同步进度？",
+    "nameEn": "How to link PS5/PC/Mobile accounts for cross-platform play?",
+    "type": "faq",
+    "url": "/zh/faq/cross-platform-account-linking",
+    "tags": [
+      "account",
+      "ps5",
+      "cross-platform",
+      "linking"
+    ]
+  },
+  {
+    "id": "cross-platform-account-linking",
+    "name": "How to link PS5/PC/Mobile accounts for cross-platform play?",
+    "nameEn": "How to link PS5/PC/Mobile accounts for cross-platform play?",
+    "type": "faq",
+    "url": "/en/faq/cross-platform-account-linking",
+    "tags": [
+      "account",
+      "ps5",
+      "cross-platform",
+      "linking"
+    ]
+  },
+  {
+    "id": "pre-registration-rewards-missing",
+    "name": "预注册奖励没收到怎么办？",
+    "nameEn": "Pre-registration rewards not received?",
+    "type": "faq",
+    "url": "/zh/faq/pre-registration-rewards-missing",
+    "tags": [
+      "account",
+      "rewards",
+      "pre-registration"
+    ]
+  },
+  {
+    "id": "pre-registration-rewards-missing",
+    "name": "Pre-registration rewards not received?",
+    "nameEn": "Pre-registration rewards not received?",
+    "type": "faq",
+    "url": "/en/faq/pre-registration-rewards-missing",
+    "tags": [
+      "account",
+      "rewards",
+      "pre-registration"
+    ]
+  },
+  {
+    "id": "wrong-character-selection",
+    "name": "免费S级角色选错了能换吗？",
+    "nameEn": "Selected wrong free S-rank character, can I change?",
+    "type": "faq",
+    "url": "/zh/faq/wrong-character-selection",
+    "tags": [
+      "account",
+      "character",
+      "support"
+    ]
+  },
+  {
+    "id": "wrong-character-selection",
+    "name": "Selected wrong free S-rank character, can I change?",
+    "nameEn": "Selected wrong free S-rank character, can I change?",
+    "type": "faq",
+    "url": "/en/faq/wrong-character-selection",
+    "tags": [
+      "account",
+      "character",
+      "support"
+    ]
+  },
+  {
+    "id": "monthly-pass-not-received",
+    "name": "月卡/通行证购买了但没到账？",
+    "nameEn": "Monthly pass purchased but not received?",
+    "type": "faq",
+    "url": "/zh/faq/monthly-pass-not-received",
+    "tags": [
+      "billing",
+      "pass",
+      "purchase"
+    ]
+  },
+  {
+    "id": "monthly-pass-not-received",
+    "name": "Monthly pass purchased but not received?",
+    "nameEn": "Monthly pass purchased but not received?",
+    "type": "faq",
+    "url": "/en/faq/monthly-pass-not-received",
+    "tags": [
+      "billing",
+      "pass",
+      "purchase"
+    ]
+  },
+  {
+    "id": "game-crashing-fix",
+    "name": "游戏崩溃/闪退怎么解决？",
+    "nameEn": "How to fix game crashes?",
+    "type": "faq",
+    "url": "/zh/faq/game-crashing-fix",
+    "tags": [
+      "crash",
+      "performance",
+      "pc"
+    ]
+  },
+  {
+    "id": "game-crashing-fix",
+    "name": "How to fix game crashes?",
+    "nameEn": "How to fix game crashes?",
+    "type": "faq",
+    "url": "/en/faq/game-crashing-fix",
+    "tags": [
+      "crash",
+      "performance",
+      "pc"
+    ]
+  },
+  {
+    "id": "fps-stuttering-fix",
+    "name": "游戏卡顿/FPS低怎么优化？",
+    "nameEn": "How to fix FPS drops and stuttering?",
+    "type": "faq",
+    "url": "/zh/faq/fps-stuttering-fix",
+    "tags": [
+      "fps",
+      "performance",
+      "stuttering",
+      "optimization"
+    ]
+  },
+  {
+    "id": "fps-stuttering-fix",
+    "name": "How to fix FPS drops and stuttering?",
+    "nameEn": "How to fix FPS drops and stuttering?",
+    "type": "faq",
+    "url": "/en/faq/fps-stuttering-fix",
+    "tags": [
+      "fps",
+      "performance",
+      "stuttering",
+      "optimization"
+    ]
+  },
+  {
+    "id": "installed-on-d-drive-stutter",
+    "name": "游戏装在D盘严重卡顿？",
+    "nameEn": "Game stuttering when installed on secondary drive?",
+    "type": "faq",
+    "url": "/zh/faq/installed-on-d-drive-stutter",
+    "tags": [
+      "fps",
+      "stuttering",
+      "d-drive",
+      "performance",
+      "installation"
+    ]
+  },
+  {
+    "id": "installed-on-d-drive-stutter",
+    "name": "Game stuttering when installed on secondary drive?",
+    "nameEn": "Game stuttering when installed on secondary drive?",
+    "type": "faq",
+    "url": "/en/faq/installed-on-d-drive-stutter",
+    "tags": [
+      "fps",
+      "stuttering",
+      "d-drive",
+      "performance",
+      "installation"
+    ]
+  },
+  {
+    "id": "hunter-level-stuck",
+    "name": "猎人等级卡住不动了？",
+    "nameEn": "Hunter level stuck and not increasing?",
+    "type": "faq",
+    "url": "/zh/faq/hunter-level-stuck",
+    "tags": [
+      "leveling",
+      "hunter-level",
+      "progression"
+    ]
+  },
+  {
+    "id": "hunter-level-stuck",
+    "name": "Hunter level stuck and not increasing?",
+    "nameEn": "Hunter level stuck and not increasing?",
+    "type": "faq",
+    "url": "/en/faq/hunter-level-stuck",
+    "tags": [
+      "leveling",
+      "hunter-level",
+      "progression"
+    ]
+  },
+  {
+    "id": "character-stuck-bug",
+    "name": "角色卡住/任务无法推进怎么办？",
+    "nameEn": "Character stuck or quest not progressing?",
+    "type": "faq",
+    "url": "/zh/faq/character-stuck-bug",
+    "tags": [
+      "bug",
+      "stuck",
+      "quest",
+      "progression"
+    ]
+  },
+  {
+    "id": "character-stuck-bug",
+    "name": "Character stuck or quest not progressing?",
+    "nameEn": "Character stuck or quest not progressing?",
+    "type": "faq",
+    "url": "/en/faq/character-stuck-bug",
+    "tags": [
+      "bug",
+      "stuck",
+      "quest",
+      "progression"
+    ]
+  },
+  {
+    "id": "double-charge-refund",
+    "name": "充值被重复扣款/退款异常怎么办？",
+    "nameEn": "Double charged or refund issues?",
+    "type": "faq",
+    "url": "/zh/faq/double-charge-refund",
+    "tags": [
+      "billing",
+      "refund",
+      "double-charge",
+      "payment"
+    ]
+  },
+  {
+    "id": "double-charge-refund",
+    "name": "Double charged or refund issues?",
+    "nameEn": "Double charged or refund issues?",
+    "type": "faq",
+    "url": "/en/faq/double-charge-refund",
+    "tags": [
+      "billing",
+      "refund",
+      "double-charge",
+      "payment"
+    ]
+  },
+  {
+    "id": "pity-inheritance-explained",
+    "name": "异环保底能不能继承到下一个卡池？保底继承规则详解",
+    "nameEn": "Does NTE pity carry over between banners? Pity inheritance rules explained",
+    "type": "faq",
+    "url": "/zh/faq/pity-inheritance-explained",
+    "tags": [
+      "gacha",
+      "pity",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "pity-inheritance-explained",
+    "name": "Does NTE pity carry over between banners? Pity inheritance rules explained",
+    "nameEn": "Does NTE pity carry over between banners? Pity inheritance rules explained",
+    "type": "faq",
+    "url": "/en/faq/pity-inheritance-explained",
+    "tags": [
+      "gacha",
+      "pity",
+      "inheritance"
+    ]
+  },
+  {
+    "id": "porsche-price-cost",
+    "name": "异环保时捷联动车要多少钱？多少方斯？保时捷918怎么获得？",
+    "nameEn": "How much does the NTE Porsche collab car cost? How to get the Porsche 918?",
+    "type": "faq",
+    "url": "/zh/faq/porsche-price-cost",
+    "tags": [
+      "porsche",
+      "vehicle",
+      "collab",
+      "918"
+    ]
+  },
+  {
+    "id": "porsche-price-cost",
+    "name": "How much does the NTE Porsche collab car cost? How to get the Porsche 918?",
+    "nameEn": "How much does the NTE Porsche collab car cost? How to get the Porsche 918?",
+    "type": "faq",
+    "url": "/en/faq/porsche-price-cost",
+    "tags": [
+      "porsche",
+      "vehicle",
+      "collab",
+      "918"
+    ]
+  },
+  {
+    "id": "fps-drift-bug-fix",
+    "name": "异环FPS设置高导致车辆无法漂移？帧率漂移Bug怎么解决？",
+    "nameEn": "NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround",
+    "type": "faq",
+    "url": "/zh/faq/fps-drift-bug-fix",
+    "tags": [
+      "bug",
+      "fps",
+      "drift",
+      "vehicle",
+      "fix"
+    ]
+  },
+  {
+    "id": "fps-drift-bug-fix",
+    "name": "NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround",
+    "nameEn": "NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround",
+    "type": "faq",
+    "url": "/en/faq/fps-drift-bug-fix",
+    "tags": [
+      "bug",
+      "fps",
+      "drift",
+      "vehicle",
+      "fix"
+    ]
+  },
+  {
+    "id": "co-op-unlock-level",
+    "name": "异环联机几级解锁？多人模式多少级能玩？最多几人联机？",
+    "nameEn": "What level unlocks co-op in NTE? How many players can play together?",
+    "type": "faq",
+    "url": "/zh/faq/co-op-unlock-level",
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "unlock",
+      "level"
+    ]
+  },
+  {
+    "id": "co-op-unlock-level",
+    "name": "What level unlocks co-op in NTE? How many players can play together?",
+    "nameEn": "What level unlocks co-op in NTE? How many players can play together?",
+    "type": "faq",
+    "url": "/en/faq/co-op-unlock-level",
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "unlock",
+      "level"
+    ]
+  },
+  {
+    "id": "nte-optimization-tips",
+    "name": "异环优化差/卡顿/掉帧怎么解决？最佳画面设置推荐",
+    "nameEn": "NTE optimization guide: How to fix lag, stuttering, and low FPS",
+    "type": "faq",
+    "url": "/zh/faq/nte-optimization-tips",
+    "tags": [
+      "optimization",
+      "fps",
+      "lag",
+      "settings",
+      "performance"
+    ]
+  },
+  {
+    "id": "nte-optimization-tips",
+    "name": "NTE optimization guide: How to fix lag, stuttering, and low FPS",
+    "nameEn": "NTE optimization guide: How to fix lag, stuttering, and low FPS",
+    "type": "faq",
+    "url": "/en/faq/nte-optimization-tips",
+    "tags": [
+      "optimization",
+      "fps",
+      "lag",
+      "settings",
+      "performance"
+    ]
+  },
+  {
+    "id": "xun-character-faq",
+    "name": "异环新角色浔（Xun）什么时候出？浔是什么属性？怎么获得？",
+    "nameEn": "When does Xun release in NTE? What attribute is Xun? How to get Xun?",
+    "type": "faq",
+    "url": "/zh/faq/xun-character-faq",
+    "tags": [
+      "xun",
+      "new-character",
+      "v1.1",
+      "cosmos"
+    ]
+  },
+  {
+    "id": "xun-character-faq",
+    "name": "When does Xun release in NTE? What attribute is Xun? How to get Xun?",
+    "nameEn": "When does Xun release in NTE? What attribute is Xun? How to get Xun?",
+    "type": "faq",
+    "url": "/en/faq/xun-character-faq",
+    "tags": [
+      "xun",
+      "new-character",
+      "v1.1",
+      "cosmos"
+    ]
+  },
+  {
+    "id": "cn-compensation-selector",
+    "name": "异环国服额外补偿S级自选是怎么回事？国际服有吗？",
+    "nameEn": "NTE CN server extra S-Rank selector compensation — does global get it?",
+    "type": "faq",
+    "url": "/zh/faq/cn-compensation-selector",
+    "tags": [
+      "compensation",
+      "selector",
+      "cn-server",
+      "global"
+    ]
+  },
+  {
+    "id": "cn-compensation-selector",
+    "name": "NTE CN server extra S-Rank selector compensation — does global get it?",
+    "nameEn": "NTE CN server extra S-Rank selector compensation — does global get it?",
+    "type": "faq",
+    "url": "/en/faq/cn-compensation-selector",
+    "tags": [
+      "compensation",
+      "selector",
+      "cn-server",
+      "global"
+    ]
+  },
+  {
+    "id": "nte-fons-farming-guide-faq",
+    "name": "异环方斯（Fons）怎么快速获取？方斯速刷攻略",
+    "nameEn": "How to farm Fons fast in NTE? Best Fons farming methods",
+    "type": "faq",
+    "url": "/zh/faq/nte-fons-farming-guide-faq",
+    "tags": [
+      "fons",
+      "farming",
+      "currency",
+      "economy"
+    ]
+  },
+  {
+    "id": "nte-fons-farming-guide-faq",
+    "name": "How to farm Fons fast in NTE? Best Fons farming methods",
+    "nameEn": "How to farm Fons fast in NTE? Best Fons farming methods",
+    "type": "faq",
+    "url": "/en/faq/nte-fons-farming-guide-faq",
+    "tags": [
+      "fons",
+      "farming",
+      "currency",
+      "economy"
+    ]
+  },
+  {
+    "id": "nte-cloud-gaming",
+    "name": "异环可以云游戏吗？怎么用云游玩异环？",
+    "nameEn": "Can you play NTE via cloud gaming? How to use cloud gaming for NTE",
+    "type": "faq",
+    "url": "/zh/faq/nte-cloud-gaming",
+    "tags": [
+      "cloud-gaming",
+      "platform",
+      "streaming"
+    ]
+  },
+  {
+    "id": "nte-cloud-gaming",
+    "name": "Can you play NTE via cloud gaming? How to use cloud gaming for NTE",
+    "nameEn": "Can you play NTE via cloud gaming? How to use cloud gaming for NTE",
+    "type": "faq",
+    "url": "/en/faq/nte-cloud-gaming",
+    "tags": [
+      "cloud-gaming",
+      "platform",
+      "streaming"
+    ]
+  },
+  {
+    "id": "nte-vs-other-games",
+    "name": "异环和无限大/望月/绝区零哪个好玩？有什么区别？",
+    "nameEn": "NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?",
+    "type": "faq",
+    "url": "/zh/faq/nte-vs-other-games",
+    "tags": [
+      "comparison",
+      "zzz",
+      "zenless-zone-zero",
+      "review"
+    ]
+  },
+  {
+    "id": "nte-vs-other-games",
+    "name": "NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?",
+    "nameEn": "NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?",
+    "type": "faq",
+    "url": "/en/faq/nte-vs-other-games",
+    "tags": [
+      "comparison",
+      "zzz",
+      "zenless-zone-zero",
+      "review"
+    ]
+  },
+  {
     "id": "download-install-guide",
     "name": "异环下载安装指南 — 全平台下载地址与安装教程",
     "nameEn": "Download Neverness to Everness (NTE) — PC, Mobile, PS5 Install Guide 2026",

@@ -4594,5 +4594,187 @@
     "seoTitleZh": "异环充值重复扣款退款异常 — 处理方法与客服联系指南（2026）",
     "seoDescriptionEn": "Double charged in NTE or having refund problems? Contact support with transaction IDs, request platform refunds, and resolve negative balance issues with this guide.",
     "seoDescriptionZh": "异环(NTE)充值重复扣款和退款异常的完整处理流程：联系客服、通过平台申请退款、解决负余额问题的详细步骤。"
+  },
+  {
+    "id": "pity-inheritance-explained",
+    "question": "异环保底能不能继承到下一个卡池？保底继承规则详解",
+    "questionEn": "Does NTE pity carry over between banners? Pity inheritance rules explained",
+    "answer": "异环的保底机制**在同类型卡池之间可以继承**。具体规则：1) 限定角色卡池的保底进度会继承到下一个限定角色卡池；2) 武器卡池的保底进度会继承到下一个武器卡池；3) 常驻卡池的保底进度在常驻卡池内继承；4) 不同类型卡池之间的保底**不互通**（如限定卡池的保底不会继承到常驻卡池）。这意味着如果你在当前限定卡池抽了70抽没出S级，下一个限定角色卡池开启时你的保底计数从70开始，只需20抽就能触发硬保底。",
+    "answerEn": "NTE pity **carries over between banners of the same type**. Rules: 1) Limited character banner pity carries to the next limited character banner; 2) Weapon banner pity carries to the next weapon banner; 3) Standard banner pity carries within standard banners; 4) Pity does NOT transfer between different banner types. If you pulled 70 times on the current limited banner without an S-Rank, your pity counter starts at 70 when the next limited banner begins — only 20 more pulls to reach hard pity.",
+    "tags": [
+      "gacha",
+      "pity",
+      "inheritance"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "porsche-price-cost",
+    "question": "异环保时捷联动车要多少钱？多少方斯？保时捷918怎么获得？",
+    "questionEn": "How much does the NTE Porsche collab car cost? How to get the Porsche 918?",
+    "answer": "保时捷联动是异环1.0版本的重磅跨界合作，目前官方尚未公布具体价格和获取方式的全部细节。已知信息：1) 保时捷联动将推出限定载具，包括保时捷918等车型；2) 获取方式预计为游戏内活动或方斯（Fons）购买；3) 联动车辆在海特洛市内有专属保时捷门店；4) 具体上线时间待官方公布，预计在1.0版本中期或1.1版本实装。建议关注官方社交媒体和我们网站获取最新消息。",
+    "answerEn": "The Porsche collaboration is a major crossover event in NTE Version 1.0. Official pricing and full acquisition details have not yet been announced. Known info: 1) Limited vehicles including the Porsche 918 will be available; 2) Expected to be obtainable via in-game events or Fons purchase; 3) There is a dedicated Porsche showroom in Haitelot City; 4) Exact release date is pending official announcement, expected mid-1.0 or in Version 1.1. Follow official social media and nteguide.com for updates.",
+    "tags": [
+      "porsche",
+      "vehicle",
+      "collab",
+      "918"
+    ],
+    "category": "gameplay",
+    "categoryZh": "联动",
+    "categoryEn": "Collaboration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "fps-drift-bug-fix",
+    "question": "异环FPS设置高导致车辆无法漂移？帧率漂移Bug怎么解决？",
+    "questionEn": "NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround",
+    "answer": "这是一个已确认的Bug：**FPS设置越高，车辆越难漂移**。原因是帧率影响了漂移判定的物理计算。多位玩家在Reddit和社区反馈并确认了此问题。解决方法：1) 将FPS上限设置为60帧或30帧，帧率越低漂移越容易触发；2) 在设置→画面→帧率限制中调整；3) 等待官方修复补丁，此Bug已在CN服被确认为已知问题。如果你发现驾驶时完全无法漂移，大概率是FPS设置过高导致的。",
+    "answerEn": "This is a confirmed bug: **the higher your FPS cap, the harder it is to drift**. Frame rate affects the physics calculations for drift detection. Multiple players have confirmed this on Reddit and community forums. Workaround: 1) Set your FPS cap to 60 or 30 — lower FPS makes drifting easier; 2) Go to Settings → Graphics → Frame Rate Limit to adjust; 3) Wait for an official fix — this is a known issue on the CN server. If you can't drift at all while driving, high FPS settings are likely the cause.",
+    "tags": [
+      "bug",
+      "fps",
+      "drift",
+      "vehicle",
+      "fix"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "问题修复",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "co-op-unlock-level",
+    "question": "异环联机几级解锁？多人模式多少级能玩？最多几人联机？",
+    "questionEn": "What level unlocks co-op in NTE? How many players can play together?",
+    "answer": "异环联机/多人模式解锁条件：1) 需要完成主线剧情一定进度后才能解锁联机功能，通常在完成新手教程章节后；2) 联机模式支持最多**4人**同时在线协作；3) 联机内容主要包括：合作挑战异常区BOSS、自由探索海特洛市、拍照互动等；4) 部分剧情任务和单人内容在联机模式下无法进行。建议先推进主线剧情解锁联机功能，再和好友一起探索。",
+    "answerEn": "NTE co-op/multiplayer unlock requirements: 1) You need to progress through the main story to a certain point, typically after completing the tutorial chapter; 2) Co-op supports up to **4 players** simultaneously; 3) Co-op activities include: challenging Anomaly Zone bosses together, free exploration of Haitelot City, photo interactions, etc.; 4) Some story quests and solo content cannot be done in co-op mode. Progress the main story first to unlock co-op, then explore with friends.",
+    "tags": [
+      "co-op",
+      "multiplayer",
+      "unlock",
+      "level"
+    ],
+    "category": "gameplay",
+    "categoryZh": "联机",
+    "categoryEn": "Multiplayer",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-optimization-tips",
+    "question": "异环优化差/卡顿/掉帧怎么解决？最佳画面设置推荐",
+    "questionEn": "NTE optimization guide: How to fix lag, stuttering, and low FPS",
+    "answer": "异环优化问题综合解决方案：**PC端**：1) 将游戏安装到C盘/SSD，D盘安装会导致严重卡顿；2) 更新显卡驱动到最新版；3) 切换渲染器（设置→画面→DX11/DX12/Vulkan），不同硬件适配不同；4) 关闭体积雾、屏幕空间反射等高负载选项；5) 渲染分辨率降至90%；6) 清理ShaderCache文件夹。**手机端**：1) 渲染精度降至中或低；2) 关闭动态模糊和体积光；3) 帧率设为30帧减少发热；4) 关闭后台应用。**通用**：确保至少20GB存储空间，使用有线网络降低延迟。",
+    "answerEn": "NTE optimization guide: **PC**: 1) Install on C drive/SSD — D drive causes severe stuttering; 2) Update GPU drivers; 3) Switch renderer (DX11/DX12/Vulkan) in settings; 4) Disable volumetric fog, screen space reflections; 5) Lower render resolution to 90%; 6) Clear ShaderCache folder. **Mobile**: 1) Lower render quality to Medium or Low; 2) Disable motion blur and volumetric lighting; 3) Set frame rate to 30 FPS to reduce heat; 4) Close background apps. **General**: Ensure 20GB+ free storage, use wired network for lower latency.",
+    "tags": [
+      "optimization",
+      "fps",
+      "lag",
+      "settings",
+      "performance"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "优化设置",
+    "categoryEn": "Optimization",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "xun-character-faq",
+    "question": "异环新角色浔（Xun）什么时候出？浔是什么属性？怎么获得？",
+    "questionEn": "When does Xun release in NTE? What attribute is Xun? How to get Xun?",
+    "answer": "浔（Xun）是异环中备受期待的新角色：1) **属性**：宇宙（Cosmos）；2) **定位**：支援型辅助；3) **获取方式**：预计在v1.1版本作为限定角色上线，通过限定卡池抽取获得；4) **特点**：技能可以复刻队友技能，提供治疗和增益效果，在光耀坼绽队中表现优秀；5) **推荐配队**：零（主C）+ 薄荷（触发反应）+ 浔（治疗+技能复刻）。浔在1.0版本中已有铺垫和暗示，具体上线时间请关注官方1.1版本前瞻直播。",
+    "answerEn": "Xun is a highly anticipated new character in NTE: 1) **Attribute**: Cosmos; 2) **Role**: Support; 3) **How to get**: Expected in v1.1 as a limited banner character via gacha; 4) **Strengths**: Can replicate teammate skills, provides healing and buffs, excellent in Cosmos Burst team; 5) **Recommended team**: Esper Zero (Main DPS) + Mint (trigger reaction) + Xun (heal + skill replicate). Xun was teased in Version 1.0. Watch for the official v1.1 livestream for the exact release date.",
+    "tags": [
+      "xun",
+      "new-character",
+      "v1.1",
+      "cosmos"
+    ],
+    "category": "characters",
+    "categoryZh": "角色",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "xun"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "cn-compensation-selector",
+    "question": "异环国服额外补偿S级自选是怎么回事？国际服有吗？",
+    "questionEn": "NTE CN server extra S-Rank selector compensation — does global get it?",
+    "answer": "异环国服（CN）因公测初期的bug和问题，向玩家额外补偿了一个**S级角色自选箱**。这是继正常公测福利之外的额外补偿。关于国际服：1) 目前国际服尚未宣布相同的额外补偿；2) 社区经理\"Mr CEO Adler\"曾表示公测奖励会分天发放；3) 国际服玩家在Reddit等社区讨论较多，希望获得同等补偿；4) 建议关注官方社交媒体获取最新补偿公告。国际服已有的公测福利包括：120+抽、S级自选箱、1600 Anulith等。",
+    "answerEn": "The CN server issued an additional **S-Rank character selector** as compensation for launch bugs and issues, on top of normal launch rewards. Regarding the global server: 1) No additional compensation has been announced for global yet; 2) Community manager 'Mr CEO Adler' stated launch rewards would be distributed day by day; 3) Global players are actively discussing this on Reddit, hoping for equal treatment; 4) Follow official social media for compensation announcements. Global launch rewards already include: 120+ pulls, S-Rank selector, 1,600 Anulith, etc.",
+    "tags": [
+      "compensation",
+      "selector",
+      "cn-server",
+      "global"
+    ],
+    "category": "general",
+    "categoryZh": "综合信息",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-fons-farming-guide-faq",
+    "question": "异环方斯（Fons）怎么快速获取？方斯速刷攻略",
+    "questionEn": "How to farm Fons fast in NTE? Best Fons farming methods",
+    "answer": "方斯（Fons）是异环中的重要游戏内货币，用于购买载具、家具等物品。快速获取方斯的方法：1) **都市大亨系统**：最主要的方斯来源，经营商铺产生被动收入，每天记得收取；2) **异常区挑战**：完成异常区副本获得大量方斯奖励；3) **每日任务和周常任务**：稳定的方斯收入来源；4) **活动奖励**：限时活动通常提供丰厚方斯奖励；5) **主线剧情**：首次通关主线关卡获得方斯；6) **都市大亨保险箱**：别忘了定期查看保险箱中的方斯收益。建议优先升级都市大亨系统，这是最高效的方斯获取方式。",
+    "answerEn": "Fons is an important in-game currency used to purchase vehicles, furniture, and more. Best farming methods: 1) **City Tycoon**: Primary source — run shops for passive income, collect daily; 2) **Anomaly Zones**: Complete zones for large Fons rewards; 3) **Daily/Weekly Quests**: Stable Fons income; 4) **Event Rewards**: Limited-time events often offer generous Fons; 5) **Main Story**: First-time story completion grants Fons; 6) **City Tycoon Safe**: Check the safe regularly for accumulated earnings. Prioritize upgrading City Tycoon for the most efficient Fons farming.",
+    "tags": [
+      "fons",
+      "farming",
+      "currency",
+      "economy"
+    ],
+    "category": "gameplay",
+    "categoryZh": "经济系统",
+    "categoryEn": "Economy",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-cloud-gaming",
+    "question": "异环可以云游戏吗？怎么用云游玩异环？",
+    "questionEn": "Can you play NTE via cloud gaming? How to use cloud gaming for NTE",
+    "answer": "异环目前可以通过部分云游戏平台进行游玩：1) 完美世界官方可能会提供云游戏版本（完美世界旗下游戏通常支持）；2) 第三方云游戏平台如网易云游戏、腾讯START等可能支持异环；3) 云游戏的优势是无需下载完整客户端，对设备配置要求低；4) 注意云游戏需要稳定的网络连接，建议使用WiFi或5G网络。如果你的设备配置不够或存储空间不足，云游戏是一个不错的替代方案。",
+    "answerEn": "NTE can be played via some cloud gaming platforms: 1) Perfect World may offer an official cloud gaming version; 2) Third-party platforms like NetEase Cloud Gaming or Tencent START may support NTE; 3) Cloud gaming requires no full download and has low device requirements; 4) Stable internet is required — WiFi or 5G recommended. If your device doesn't meet specs or lacks storage, cloud gaming is a good alternative.",
+    "tags": [
+      "cloud-gaming",
+      "platform",
+      "streaming"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-vs-other-games",
+    "question": "异环和无限大/望月/绝区零哪个好玩？有什么区别？",
+    "questionEn": "NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?",
+    "answer": "异环与同类游戏的对比：**vs 绝区零（ZZZ）**：异环有开放世界+载具驾驶+房屋系统，绝区零是箱庭动作；异环无50/50机制更良心；绝区零战斗深度更高。**vs 无限大/望月**：这两款游戏目前尚未上线，异环是已公测的成品；玩法定位不同，异环偏向都市动作RPG。**异环独特优势**：1) 虚幻引擎5打造的都市画面；2) 完整的载具驾驶系统（保时捷联动）；3) 无50/50的良心抽卡；4) 丰富的都市生活模拟（房屋、都市大亨）。如果你喜欢都市开放世界+动作战斗+抽卡，异环是目前最好的选择。",
+    "answerEn": "NTE vs similar games: **vs ZZZ**: NTE has open world + vehicles + housing; ZZZ is instance-based action. NTE's no-50/50 gacha is more generous; ZZZ has deeper combat. **vs Infinity Nikki/others**: These games aren't released yet — NTE is available now with different gameplay focus. **NTE's unique strengths**: 1) UE5-powered city visuals; 2) Full vehicle driving system (Porsche collab); 3) No-50/50 gacha; 4) Rich urban life simulation (housing, City Tycoon). If you enjoy urban open-world + action RPG + gacha, NTE is currently the best choice.",
+    "tags": [
+      "comparison",
+      "zzz",
+      "zenless-zone-zero",
+      "review"
+    ],
+    "category": "general",
+    "categoryZh": "综合信息",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
