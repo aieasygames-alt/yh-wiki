@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { type Locale, isZhLocale, hreflangAlternates } from "../../../../../lib/i18n";
+import { type Locale, LOCALES, isZhLocale, hreflangAlternates } from "../../../../../lib/i18n";
 import RegionGuideClient from "./RegionGuideClient";
 import mapData from "../../../../../data/map-markers.json";
 
@@ -14,7 +14,7 @@ const VALID_REGIONS = [
 ];
 
 export function generateStaticParams() {
-  return VALID_REGIONS.map((region) => ({ region }));
+  return VALID_REGIONS.flatMap((region) => LOCALES.map((lang) => ({ lang, region })));
 }
 
 export async function generateMetadata({

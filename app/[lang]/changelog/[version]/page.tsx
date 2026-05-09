@@ -1,12 +1,12 @@
 import { getChangelogByVersion, getAllChangelogs } from "../../../../lib/queries";
-import { t, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../../lib/i18n";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
   const changelogs = getAllChangelogs();
-  return changelogs.map((cl) => ({ version: cl.version }));
+  return changelogs.flatMap((cl) => LOCALES.map((lang) => ({ lang, version: cl.version })));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string; version: string } }) {
