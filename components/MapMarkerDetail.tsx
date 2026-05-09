@@ -116,7 +116,7 @@ export default function MapMarkerDetail({
       </div>
 
       {/* Related materials */}
-      {marker.relatedMaterials.length > 0 && (
+      {marker.relatedMaterials && marker.relatedMaterials.length > 0 && (
         <div className="mb-3">
           <p className="text-xs text-gray-500 mb-1.5">
             {t(lang, "map.relatedMaterials")}

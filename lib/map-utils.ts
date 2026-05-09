@@ -16,9 +16,9 @@ export interface MapMarker {
   subtype?: string;
   x: number;
   y: number;
-  description: string;
-  descriptionEn: string;
-  relatedMaterials: string[];
+  description?: string;
+  descriptionEn?: string;
+  relatedMaterials?: string[];
   image?: string;
   guideUrl?: string;
   respawn?: RespawnType;
@@ -26,6 +26,11 @@ export interface MapMarker {
   floor?: number;
   rarity?: MarkerRarity;
   verified?: boolean;
+  icon?: string;
+  link?: string;
+  noteTitle?: string;
+  noteTitleEn?: string;
+  primaryColor?: string;
 }
 
 export interface MarkerTypeInfo {
