@@ -14,6 +14,8 @@ interface MapMarkerDetailProps {
   onToggleCollect: (markerId: string) => void;
   onClose: () => void;
   onSelectMarker: (marker: MapMarker) => void;
+  onAddToRoute?: (markerId: string) => void;
+  isInRoute?: boolean;
   lang: Locale;
 }
 
@@ -38,6 +40,8 @@ export default function MapMarkerDetail({
   onToggleCollect,
   onClose,
   onSelectMarker,
+  onAddToRoute,
+  isInRoute = false,
   lang,
 }: MapMarkerDetailProps) {
   const isCollected = !!progress[marker.id];
@@ -197,6 +201,17 @@ export default function MapMarkerDetail({
             ? `${t(lang, "map.collected")} ✓`
             : t(lang, "map.markCollected")}
         </button>
+        {onAddToRoute && !isInRoute && (
+          <button
+            onClick={() => onAddToRoute(marker.id)}
+            className="text-xs px-3 py-2 rounded-lg bg-gray-800 text-gray-400 border border-gray-700 hover:border-primary-500/50 hover:text-primary-400 transition-colors"
+          >
+            {t(lang, "map.addToRoute")}
+          </button>
+        )}
+        {isInRoute && (
+          <span className="text-xs px-3 py-2 text-primary-400/60">✓ {isZhLocale(lang) ? "已在路线中" : "In route"}</span>
+        )}
         <button
           onClick={onClose}
           className="text-xs px-3 py-2 text-gray-500 hover:text-gray-300 transition-colors"

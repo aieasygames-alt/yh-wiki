@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { MapMarker, MarkerTypeInfo } from "../lib/map-utils";
 import { t, isZhLocale, Locale } from "../lib/i18n";
 
@@ -48,6 +48,7 @@ export default function MapRoutePlanner({
   onRouteChange,
   lang,
 }: MapRoutePlannerProps) {
+  const [copied, setCopied] = useState(false);
   const routeMarkers = useMemo(
     () => routeMarkerIds.map((id) => markers.find((m) => m.id === id)!).filter(Boolean),
     [routeMarkerIds, markers]
@@ -76,6 +77,8 @@ export default function MapRoutePlanner({
     const url = `${window.location.origin}${window.location.pathname}?route=${encodeURIComponent(ids)}`;
     try {
       await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
     } catch {
       // fallback - do nothing
     }
@@ -107,7 +110,7 @@ export default function MapRoutePlanner({
                 className="text-[10px] px-2 py-1 rounded bg-gray-800 text-gray-400 hover:text-gray-300 transition-colors"
                 title={t(lang, "map.shareRoute")}
               >
-                {t(lang, "map.shareRoute")}
+                {copied ? "✓" : t(lang, "map.shareRoute")}
               </button>
               <button
                 onClick={() => onRouteChange([])}

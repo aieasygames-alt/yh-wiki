@@ -77,7 +77,7 @@ export default function MapPage() {
   const [hideCollected, setHideCollected] = useState(false);
   const [routeMarkerIds, setRouteMarkerIds] = useState<string[]>([]);
 
-  // Load progress, filters and route on mount
+  // Load progress, filters, route, and marker deep link on mount
   useEffect(() => {
     setProgress(loadProgress());
     const saved = loadFilters();
@@ -87,6 +87,12 @@ export default function MapPage() {
     const routeParam = params.get("route");
     if (routeParam) {
       setRouteMarkerIds(routeParam.split(","));
+    }
+    // Load marker deep link
+    const markerParam = params.get("marker");
+    if (markerParam) {
+      const marker = data.maps[0]?.markers.find((m) => m.id === markerParam);
+      if (marker) setSelectedMarker(marker);
     }
   }, []);
 
@@ -121,6 +127,31 @@ export default function MapPage() {
 
   const handleSelectMarker = useCallback((marker: MapMarker | null) => {
     setSelectedMarker(marker);
+  }, []);
+
+  // Sync selected marker to URL
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    if (selectedMarker) {
+      params.set("marker", selectedMarker.id);
+    } else {
+      params.delete("marker");
+    }
+    const qs = params.toString();
+    const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    window.history.replaceState(null, "", url);
+  }, [selectedMarker]);
+
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setSelectedMarker(null);
+      }
+    };
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);
   }, []);
 
   const handleToggleCollect = useCallback(
@@ -352,6 +383,8 @@ export default function MapPage() {
                 onToggleCollect={handleToggleCollect}
                 onClose={() => setSelectedMarker(null)}
                 onSelectMarker={handleSelectMarker}
+                onAddToRoute={(id) => setRouteMarkerIds(prev => prev.includes(id) ? prev : [...prev, id])}
+                isInRoute={routeMarkerIds.includes(selectedMarker.id)}
                 lang={lang}
               />
             )}
@@ -375,8 +408,14 @@ export default function MapPage() {
 
           {/* Mobile bottom sheet */}
           {selectedMarker && (
-            <div className="mt-3 lg:hidden fixed inset-x-0 bottom-0 z-[60]">
+            <>
+              {/* Backdrop */}
               <div
+                className="fixed inset-0 z-[55] bg-black/40 lg:hidden"
+                onClick={() => setSelectedMarker(null)}
+              />
+              <div className="mt-3 lg:hidden fixed inset-x-0 bottom-0 z-[60]">
+                <div
                 className="bg-gray-900 border-t border-gray-700 rounded-t-2xl shadow-2xl max-h-[60vh] overflow-y-auto"
                 onTouchStart={(e) => {
                   const startY = (e.touches[0].clientY);
@@ -413,6 +452,7 @@ export default function MapPage() {
                 />
               </div>
             </div>
+            </>
           )}
         </div>
       </div>
