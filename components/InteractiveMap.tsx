@@ -53,6 +53,9 @@ export default function InteractiveMap({
   const mapRef = useRef<L.Map | null>(null);
   const clusterRef = useRef<L.MarkerClusterGroup | null>(null);
   const routeLayerRef = useRef<L.Polyline | null>(null);
+  // Track rendered markers by id for incremental updates
+  const renderedRef = useRef<Map<string, L.Marker>>(new Map());
+  const prevMarkerIdsRef = useRef<Set<string>>(new Set());
 
   // Initialize map once
   useEffect(() => {
@@ -95,38 +98,74 @@ export default function InteractiveMap({
       leafletMap.remove();
       mapRef.current = null;
       clusterRef.current = null;
+      renderedRef.current.clear();
+      prevMarkerIdsRef.current.clear();
     };
   }, [map.id]); // Re-init only when map changes
 
-  // Update markers when filtered list or progress changes
+  // Create or update a single Leaflet marker
+  const createLeafletMarker = (marker: MapMarker, isSelected: boolean, isCollected: boolean) => {
+    const typeInfo = markerTypes[marker.type];
+    if (!typeInfo) return null;
+
+    const icon = createMarkerIcon(typeInfo.color, isSelected, isCollected);
+    return L.marker(markerToLatLng(marker), { icon })
+      .bindTooltip(
+        lang === "zh" || lang === "tw" ? marker.name : marker.nameEn,
+        {
+          direction: "top",
+          offset: [0, -12],
+          className: "map-tooltip",
+        }
+      )
+      .on("click", () => {
+        onSelectMarker(isSelected ? null : marker);
+      });
+  };
+
+  // Update markers — incremental add/remove when only filter changes,
+  // full rebuild when the marker set composition changes
   useEffect(() => {
     if (!clusterRef.current) return;
 
-    clusterRef.current.clearLayers();
+    const currentIds = new Set(markers.map(m => m.id));
+    const prevIds = prevMarkerIdsRef.current;
+    const rendered = renderedRef.current;
 
-    markers.forEach((marker) => {
-      const typeInfo = markerTypes[marker.type];
-      if (!typeInfo) return;
+    // Check if we can do incremental update (same set of markers)
+    const sameSet = currentIds.size === prevIds.size &&
+      Array.from(currentIds).every(id => prevIds.has(id));
 
-      const isSelected = selectedMarker?.id === marker.id;
-      const isCollected = !!progress[marker.id];
-      const icon = createMarkerIcon(typeInfo.color, isSelected, isCollected);
+    if (sameSet) {
+      // Only update styles (selection/collected state) — no add/remove
+      markers.forEach((marker) => {
+        const existing = rendered.get(marker.id);
+        if (!existing) return;
 
-      const leafletMarker = L.marker(markerToLatLng(marker), { icon })
-        .bindTooltip(
-          lang === "zh" || lang === "tw" ? marker.name : marker.nameEn,
-          {
-            direction: "top",
-            offset: [0, -12],
-            className: "map-tooltip",
-          }
-        )
-        .on("click", () => {
-          onSelectMarker(isSelected ? null : marker);
-        });
+        const typeInfo = markerTypes[marker.type];
+        if (!typeInfo) return;
 
-      clusterRef.current!.addLayer(leafletMarker);
-    });
+        const isSelected = selectedMarker?.id === marker.id;
+        const isCollected = !!progress[marker.id];
+        existing.setIcon(createMarkerIcon(typeInfo.color, isSelected, isCollected));
+      });
+    } else {
+      // Marker set changed — full rebuild
+      clusterRef.current.clearLayers();
+      rendered.clear();
+
+      markers.forEach((marker) => {
+        const isSelected = selectedMarker?.id === marker.id;
+        const isCollected = !!progress[marker.id];
+        const leafletMarker = createLeafletMarker(marker, isSelected, isCollected);
+        if (leafletMarker) {
+          clusterRef.current!.addLayer(leafletMarker);
+          rendered.set(marker.id, leafletMarker);
+        }
+      });
+
+      prevMarkerIdsRef.current = currentIds;
+    }
   }, [markers, selectedMarker, markerTypes, progress, lang, onSelectMarker]);
 
   // Draw route polyline

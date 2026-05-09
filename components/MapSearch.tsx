@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useRef } from "react";
 import Fuse from "fuse.js";
 import type { MapMarker } from "../lib/map-utils";
 import { t, isZhLocale, Locale } from "../lib/i18n";
@@ -19,20 +19,27 @@ export default function MapSearch({
   const [query, setQuery] = useState("");
   const [showResults, setShowResults] = useState(false);
 
-  const fuse = useMemo(
-    () =>
-      new Fuse(markers, {
-        keys: [
-          { name: "name", weight: 2 },
-          { name: "nameEn", weight: 2 },
-          { name: "description", weight: 1 },
-          { name: "descriptionEn", weight: 1 },
-        ],
-        threshold: 0.4,
-        includeScore: true,
-      }),
-    [markers]
-  );
+  // Cache Fuse instance — only rebuild when markers reference changes
+  const fuseRef = useRef<Fuse<MapMarker> | null>(null);
+  const markersRef = useRef<MapMarker[]>([]);
+
+  if (markers !== markersRef.current) {
+    markersRef.current = markers;
+    fuseRef.current = new Fuse(markers, {
+      keys: [
+        { name: "name", weight: 2 },
+        { name: "nameEn", weight: 2 },
+        { name: "noteTitle", weight: 1.5 },
+        { name: "noteTitleEn", weight: 1.5 },
+        { name: "description", weight: 1 },
+        { name: "descriptionEn", weight: 1 },
+      ],
+      threshold: 0.4,
+      includeScore: true,
+    });
+  }
+
+  const fuse = fuseRef.current!;
 
   const results = useMemo(() => {
     if (!query.trim()) return [];
@@ -87,7 +94,7 @@ export default function MapSearch({
                 {isZhLocale(lang) ? marker.name : marker.nameEn}
               </p>
               <p className="text-[10px] text-gray-600 truncate">
-                {isZhLocale(lang) ? marker.description : marker.descriptionEn}
+                {marker.region && `(${marker.x.toFixed(1)}, ${marker.y.toFixed(1)})`}
               </p>
             </button>
           ))}

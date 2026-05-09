@@ -16,6 +16,8 @@ interface MapSidebarProps {
   lang: Locale;
 }
 
+const MARKER_LIST_LIMIT = 30;
+
 export default function MapSidebar({
   markers,
   markerTypes,
@@ -27,6 +29,7 @@ export default function MapSidebar({
   lang,
 }: MapSidebarProps) {
   const [collapsedTypes, setCollapsedTypes] = useState<Set<string>>(new Set());
+  const [expandedTypes, setExpandedTypes] = useState<Set<string>>(new Set());
 
   // Group markers by type
   const markersByType = useMemo(() => {
@@ -122,61 +125,82 @@ export default function MapSidebar({
               {/* Sub-markers list (when expanded) */}
               {!collapsed && active && typeMarkers.length > 0 && (
                 <div className="pb-1">
-                  {typeMarkers
-                    .sort((a, b) => {
+                  {(() => {
+                    const sorted = typeMarkers.sort((a, b) => {
                       const aCollected = !!progress[a.id];
                       const bCollected = !!progress[b.id];
                       if (aCollected !== bCollected) return aCollected ? 1 : -1;
                       return 0;
-                    })
-                    .map((marker) => {
-                      const isSelected = selectedMarker?.id === marker.id;
-                      const isCollected = !!progress[marker.id];
-                      return (
-                        <button
-                          key={marker.id}
-                          onClick={() =>
-                            onSelectMarker(
-                              isSelected ? null : marker
-                            )
-                          }
-                          className={`w-full text-left px-3 py-1.5 pl-8 hover:bg-gray-800/30 transition-colors flex items-center gap-2 ${
-                            isSelected ? "bg-gray-800/50" : ""
-                          }`}
-                        >
-                          <span
-                            className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
-                              isCollected
-                                ? "bg-green-500"
-                                : ""
-                            }`}
-                            style={
-                              !isCollected
-                                ? { backgroundColor: info.color }
-                                : undefined
-                            }
-                          />
-                          <span
-                            className={`text-xs truncate ${
-                              isCollected
-                                ? "text-gray-600 line-through"
-                                : "text-gray-300"
-                            }`}
+                    });
+                    const isExpanded = expandedTypes.has(type);
+                    const needsTruncate = sorted.length > MARKER_LIST_LIMIT;
+                    const visible = isExpanded || !needsTruncate
+                      ? sorted
+                      : sorted.slice(0, MARKER_LIST_LIMIT);
+
+                    return (
+                      <>
+                        {visible.map((marker) => {
+                          const isSelected = selectedMarker?.id === marker.id;
+                          const isCollected = !!progress[marker.id];
+                          return (
+                            <button
+                              key={marker.id}
+                              onClick={() =>
+                                onSelectMarker(
+                                  isSelected ? null : marker
+                                )
+                              }
+                              className={`w-full text-left px-3 py-1.5 pl-8 hover:bg-gray-800/30 transition-colors flex items-center gap-2 ${
+                                isSelected ? "bg-gray-800/50" : ""
+                              }`}
+                            >
+                              <span
+                                className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
+                                  isCollected
+                                    ? "bg-green-500"
+                                    : ""
+                                }`}
+                                style={
+                                  !isCollected
+                                    ? { backgroundColor: info.color }
+                                    : undefined
+                                }
+                              />
+                              <span
+                                className={`text-xs truncate ${
+                                  isCollected
+                                    ? "text-gray-600 line-through"
+                                    : "text-gray-300"
+                                }`}
+                              >
+                                {isZhLocale(lang) ? marker.name : marker.nameEn}
+                              </span>
+                              {marker.respawn && (
+                                <span className="text-[10px] px-1 rounded bg-gray-800 text-gray-500 ml-auto flex-shrink-0">
+                                  {marker.respawn === "daily"
+                                    ? t(lang, "map.daily")
+                                    : marker.respawn === "weekly"
+                                    ? t(lang, "map.weekly")
+                                    : t(lang, "map.once")}
+                                </span>
+                              )}
+                            </button>
+                          );
+                        })}
+                        {needsTruncate && !isExpanded && (
+                          <button
+                            onClick={() => setExpandedTypes(prev => new Set(prev).add(type))}
+                            className="w-full text-left px-3 py-1.5 pl-8 text-xs text-gray-500 hover:text-gray-300 transition-colors"
                           >
-                            {isZhLocale(lang) ? marker.name : marker.nameEn}
-                          </span>
-                          {marker.respawn && (
-                            <span className="text-[10px] px-1 rounded bg-gray-800 text-gray-500 ml-auto flex-shrink-0">
-                              {marker.respawn === "daily"
-                                ? t(lang, "map.daily")
-                                : marker.respawn === "weekly"
-                                ? t(lang, "map.weekly")
-                                : t(lang, "map.once")}
-                            </span>
-                          )}
-                        </button>
-                      );
-                    })}
+                            {isZhLocale(lang)
+                              ? `显示全部 (${sorted.length})`
+                              : `Show all (${sorted.length})`}
+                          </button>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               )}
             </div>
