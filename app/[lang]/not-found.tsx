@@ -36,12 +36,12 @@ const DEFAULT = [
   { href: "/en/guides/beginner-guide", label: "Beginner Guide" },
 ];
 
-export default async function NotFound({
+export default function NotFound({
   params,
 }: {
-  params: Promise<{ lang: string }>;
+  params: { lang: string };
 }) {
-  const { lang } = await params;
+  const lang = params?.lang || "en";
   const links = POPULAR_PAGES[lang as keyof typeof POPULAR_PAGES] || DEFAULT;
   const isZh = lang === "zh" || lang === "tw";
   const isTw = lang === "tw";
