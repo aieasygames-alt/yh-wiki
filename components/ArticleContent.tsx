@@ -135,6 +135,8 @@ export function ArticleContent({ content }: ArticleContentProps) {
             );
           case "empty":
             return <div key={i} className="h-2" />;
+          case "hr":
+            return <hr key={i} className="my-8 border-gray-800" />;
           case "paragraph":
           default:
             return (
@@ -151,9 +153,9 @@ export function ArticleContent({ content }: ArticleContentProps) {
   );
 }
 
-/** Render inline bold (**text**) as styled spans */
+/** Render inline formatting: **bold**, *italic*, [text](url) */
 function renderInlineFormatting(text: string): React.ReactNode {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\([^)]+\))/g);
   if (parts.length === 1) return text;
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -161,6 +163,21 @@ function renderInlineFormatting(text: string): React.ReactNode {
         <span key={i} className="font-semibold text-white">
           {part.slice(2, -2)}
         </span>
+      );
+    }
+    if (part.startsWith("*") && part.endsWith("*") && !part.startsWith("**")) {
+      return (
+        <em key={i} className="text-gray-200">
+          {part.slice(1, -1)}
+        </em>
+      );
+    }
+    const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (linkMatch) {
+      return (
+        <a key={i} href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-300 underline underline-offset-2 transition-colors">
+          {linkMatch[1]}
+        </a>
       );
     }
     return part;
@@ -177,6 +194,7 @@ type Block =
   | { type: "warning"; text: string }
   | { type: "table"; headers: string[]; rows: string[][] }
   | { type: "info-card"; title: string; items: string[] }
+  | { type: "hr" }
   | { type: "empty" };
 
 function parseContent(content: string): Block[] {
@@ -191,6 +209,13 @@ function parseContent(content: string): Block[] {
     // Empty line
     if (!trimmed) {
       blocks.push({ type: "empty" });
+      i++;
+      continue;
+    }
+
+    // Horizontal rule (---)
+    if (/^-{3,}$/.test(trimmed)) {
+      blocks.push({ type: "hr" });
       i++;
       continue;
     }
