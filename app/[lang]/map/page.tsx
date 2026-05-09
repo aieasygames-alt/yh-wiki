@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";
 import { isZhLocale, Locale } from "../../../lib/i18n";
-import type { MapMarker, MapInfo, MarkerTypeInfo, RegionInfo } from "../../../lib/map-utils";
+import type { MapMarker, MapInfo } from "../../../lib/map-utils";
 import {
   loadProgress,
   toggleMarker,
@@ -14,7 +14,7 @@ import {
   saveFilters,
   progressPercent,
 } from "../../../lib/map-progress";
-import mapData from "../../../data/map-markers.json";
+import { useMapData, useRegionMarkers } from "../../../lib/use-map-data";
 
 const InteractiveMap = dynamic(
   () => import("../../../components/InteractiveMap"),
@@ -34,12 +34,6 @@ import MapMarkerDetail from "../../../components/MapMarkerDetail";
 import MapSearch from "../../../components/MapSearch";
 import MapProgressBar from "../../../components/MapProgressBar";
 import MapRoutePlanner from "../../../components/MapRoutePlanner";
-
-const data = mapData as unknown as {
-  maps: MapInfo[];
-  markerTypes: Record<string, MarkerTypeInfo>;
-  regions?: Record<string, RegionInfo>;
-};
 
 /** Find markers within radius of a given marker */
 function findNearby(
@@ -65,10 +59,13 @@ export default function MapPage() {
   const lang = (langParam || "zh") as Locale;
   const mapContainerRef = useRef<HTMLDivElement>(null);
 
+  // Lazy-loaded data
+  const { maps, markerTypes, regions, loading: coreLoading } = useMapData();
+  const allRegionIds = useMemo(() => Object.keys(regions), [regions]);
+  const { markers: allMarkers, loading: markersLoading } = useRegionMarkers(null, allRegionIds);
+
   const [activeMap, setActiveMap] = useState(0);
-  const [activeFilters, setActiveFilters] = useState<Set<string>>(
-    new Set(Object.keys(data.markerTypes))
-  );
+  const [activeFilters, setActiveFilters] = useState<Set<string>>(new Set());
   const [activeRegion, setActiveRegion] = useState<string | null>(null);
   const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
   const [progress, setProgress] = useState<Record<string, boolean>>({});
@@ -77,42 +74,52 @@ export default function MapPage() {
   const [hideCollected, setHideCollected] = useState(false);
   const [routeMarkerIds, setRouteMarkerIds] = useState<string[]>([]);
 
-  // Load progress, filters, route, and marker deep link on mount
+  // Init filters once markerTypes loaded
+  useEffect(() => {
+    if (Object.keys(markerTypes).length && !activeFilters.size) {
+      const saved = loadFilters();
+      setActiveFilters(saved ? new Set(saved) : new Set(Object.keys(markerTypes)));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [markerTypes]);
+
+  // Load progress, route, and marker deep link on mount
   useEffect(() => {
     setProgress(loadProgress());
-    const saved = loadFilters();
-    if (saved) setActiveFilters(new Set(saved));
-    // Load route from URL
     const params = new URLSearchParams(window.location.search);
     const routeParam = params.get("route");
-    if (routeParam) {
-      setRouteMarkerIds(routeParam.split(","));
-    }
-    // Load marker deep link
-    const markerParam = params.get("marker");
-    if (markerParam) {
-      const marker = data.maps[0]?.markers.find((m) => m.id === markerParam);
-      if (marker) setSelectedMarker(marker);
-    }
+    if (routeParam) setRouteMarkerIds(routeParam.split(","));
   }, []);
 
-  const map = data.maps[activeMap];
-  const markerTypes = data.markerTypes;
+  // Deep link: resolve marker after data loads
+  useEffect(() => {
+    if (coreLoading || markersLoading || !allMarkers.length) return;
+    const params = new URLSearchParams(window.location.search);
+    const markerParam = params.get("marker");
+    if (markerParam) {
+      const marker = allMarkers.find((m) => m.id === markerParam);
+      if (marker) setSelectedMarker(marker);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- run once when data ready
+  }, [coreLoading, markersLoading, allMarkers]);
+
+  const map = maps[activeMap];
+  const dataLoading = coreLoading || markersLoading;
 
   const filteredMarkers = useMemo(() => {
-    if (!map) return [];
-    return map.markers.filter(
+    if (dataLoading) return [];
+    return allMarkers.filter(
       (m) =>
         activeFilters.has(m.type) &&
         (!hideCollected || !progress[m.id]) &&
         (!activeRegion || m.region === activeRegion)
     );
-  }, [map, activeFilters, hideCollected, progress, activeRegion]);
+  }, [allMarkers, activeFilters, hideCollected, progress, activeRegion, dataLoading]);
 
   const nearbyMarkers = useMemo(() => {
-    if (!selectedMarker || !map) return [];
-    return findNearby(selectedMarker, map.markers);
-  }, [selectedMarker, map]);
+    if (!selectedMarker || dataLoading) return [];
+    return findNearby(selectedMarker, allMarkers);
+  }, [selectedMarker, allMarkers, dataLoading]);
 
   const toggleFilter = useCallback((type: string) => {
     setActiveFilters((prev) => {
@@ -184,6 +191,15 @@ export default function MapPage() {
     return () => document.removeEventListener("fullscreenchange", handler);
   }, []);
 
+  if (dataLoading) {
+    return (
+      <div className="max-w-[1600px] mx-auto px-2 sm:px-4 py-4 sm:py-6">
+        <div className="w-48 h-8 bg-gray-800 rounded-lg animate-pulse mb-4" />
+        <div className="w-full rounded-xl bg-gray-800 animate-pulse" style={{ height: "calc(100vh - 200px)", minHeight: "400px" }} />
+      </div>
+    );
+  }
+
   if (!map) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -253,10 +269,10 @@ export default function MapPage() {
       </div>
 
       {/* Map selector — flat scrolling buttons */}
-      {data.maps.length > 1 && (
+      {maps.length > 1 && (
         <div className={`mb-4 ${isFullscreen ? "hidden" : ""}`}>
           <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-            {data.maps.map((m, i) => (
+            {maps.map((m, i) => (
               <button
                 key={m.id}
                 onClick={() => {
@@ -270,9 +286,9 @@ export default function MapPage() {
                 }`}
               >
                 {isZhLocale(lang) ? m.name : m.nameEn}
-                {m.markers.length > 0 && (
+                {allMarkers.length > 0 && (
                   <span className="text-xs text-gray-500 ml-1">
-                    {progressPercent(progress, m.markers.map((mk) => mk.id))}%
+                    {progressPercent(progress, allMarkers.map((mk) => mk.id))}%
                   </span>
                 )}
               </button>
@@ -282,7 +298,7 @@ export default function MapPage() {
       )}
 
       {/* Region filter */}
-      {data.regions && Object.keys(data.regions).length > 0 && (
+      {regions && Object.keys(regions).length > 0 && (
         <div className={`mb-4 ${isFullscreen ? "hidden" : ""}`}>
           <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
             <button
@@ -295,8 +311,8 @@ export default function MapPage() {
             >
               {isZhLocale(lang) ? "全部区域" : "All Regions"}
             </button>
-            {Object.entries(data.regions).map(([rid, info]) => {
-              const count = map?.markers.filter((m) => m.region === rid).length ?? 0;
+            {Object.entries(regions).map(([rid, info]) => {
+              const count = allMarkers.filter((m) => m.region === rid).length;
               return (
                 <button
                   key={rid}
@@ -336,7 +352,7 @@ export default function MapPage() {
           <div className="sticky top-20 space-y-3">
             {/* Search */}
             <MapSearch
-              markers={map.markers}
+              markers={allMarkers}
               onSelectMarker={handleSelectMarker}
               lang={lang}
             />

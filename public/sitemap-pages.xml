@@ -1,2108 +1,506 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nteguide.com/zh/</loc>
-    <lastmod>2026-05-09T05:32:46.042Z</lastmod>
+    <loc>https://nteguide.com/zh//</loc>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/tw/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <loc>https://nteguide.com/tw//</loc>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/en/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <loc>https://nteguide.com/en//</loc>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/characters/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/weapons/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/vehicles/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/materials/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/guides/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/faq/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/lore/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/locations/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/blog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/changelog/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/tier-list/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/bosses/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/teams/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/anomalies/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/disk-sets/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/calculator/leveling/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/calculator/build/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/gacha/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.043Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/redeem-codes/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/map/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/th/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <loc>https://nteguide.com/zh/explorer/</loc>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/vi/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <loc>https://nteguide.com/tw/explorer/</loc>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/id/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/system-requirements/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <loc>https://nteguide.com/en/explorer/</loc>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/guides/gacha-system/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/about/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/contact/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/terms/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/zh/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/th/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/vi/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/id/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/pt-br/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ja/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ko/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/de/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/fr/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/es/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/ru/privacy-policy/</loc>
-    <lastmod>2026-05-09T05:32:46.044Z</lastmod>
+    <lastmod>2026-05-09T14:22:25.476Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

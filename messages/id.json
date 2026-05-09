@@ -32,7 +32,7 @@
         "content": "Konten",
         "resources": "Sumber Daya"
       },
-      "explorer": "Eksplorer"
+      "explorer": "Explorer"
     }
   },
   "home": {
@@ -308,7 +308,7 @@
   },
   "guides": {
     "title": "Panduan NTE - Panduan Strategi Pemula hingga Lanjutan",
-    "description": "Panduan strategi lengkap Neverness to Everness mencakup tips pemula, reaksi elemen, manajemen stamina, strategi gacha, dan pembentukan tim",
+    "description": "Panduan strategi lengkap Neverness to Everness mencakup tips pemula, reaksi atribut, manajemen stamina, strategi gacha, dan pembentukan tim",
     "readMore": "Baca Selengkapnya",
     "relatedGuides": "Panduan Terkait",
     "relatedCharacters": "Karakter Terkait",
@@ -406,7 +406,7 @@
     "home": "Beranda",
     "name": "Nama",
     "role": "Role",
-    "element": "Elemen",
+    "element": "Atribut",
     "rarity": "Rarity",
     "weaponType": "Tipe Senjata",
     "faction": "Faksi",
@@ -585,12 +585,12 @@
   },
   "diskSets": {
     "title": "Set Cartridge",
-    "elemental": "Cartridge Elemen",
+    "elemental": "Cartridge Atribut",
     "general": "Cartridge Umum",
     "pcSet": "-pc",
     "setBonuses": "Bonus Set",
     "recommendedCharacters": "Karakter Rekomendasi",
-    "elementalLabel": "Elemen",
+    "elementalLabel": "Atribut",
     "generalLabel": "Umum"
   },
   "materialsDetail": {
@@ -824,7 +824,7 @@
     "feedbackNote": "Menemukan kesalahan di situs kami atau punya saran konten? Kami senang mendengarnya. Terima kasih atas dukunganmu!"
   },
   "explorer": {
-    "title": "Eksplorasi Companion",
+    "title": "Companion Eksplorasi",
     "description": "Optimalkan rute pengumpulan dan lacak progres eksplorasi",
     "tabDashboard": "Dasbor",
     "tabSweep": "Mode Sapuan",

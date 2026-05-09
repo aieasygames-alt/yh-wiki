@@ -308,7 +308,7 @@
   },
   "guides": {
     "title": "Guias NTE - Guias Estratégicos do Iniciante ao Avançado",
-    "description": "Guias estratégicos completos de Neverness to Everness cobrindo dicas para iniciantes, reações elementais, gerenciamento de stamina, estratégia de gacha e montagem de times",
+    "description": "Guias estratégicos completos de Neverness to Everness cobrindo dicas para iniciantes, reações de atributo, gerenciamento de stamina, estratégia de gacha e montagem de times",
     "readMore": "Leia Mais",
     "relatedGuides": "Guias Relacionados",
     "relatedCharacters": "Personagens Relacionados",
@@ -406,7 +406,7 @@
     "home": "Início",
     "name": "Nome",
     "role": "Função",
-    "element": "Elemento",
+    "element": "Atributo",
     "rarity": "Raridade",
     "weaponType": "Tipo de Arma",
     "faction": "Facção",
@@ -585,12 +585,12 @@
   },
   "diskSets": {
     "title": "Sets de Cartuchos",
-    "elemental": "Cartuchos Elementais",
+    "elemental": "Cartuchos Atributais",
     "general": "Cartuchos Gerais",
     "pcSet": "-pc",
     "setBonuses": "Bônus de Set",
     "recommendedCharacters": "Personagens Recomendados",
-    "elementalLabel": "Elemental",
+    "elementalLabel": "Atributal",
     "generalLabel": "Geral"
   },
   "materialsDetail": {

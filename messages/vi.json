@@ -696,7 +696,7 @@
   },
   "diskSetDetail": {
     "setTitle": "Bonus Bộ & Nhân vật Phù hợp nhất",
-    "setDescription": " Mảnh Bonus"
+    "setDescription": "-Mảnh Bonus"
   },
   "materialDetail": {
     "titleTemplate": "{name} - Nguồn & Cách sử dụng",

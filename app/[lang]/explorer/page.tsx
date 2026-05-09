@@ -16,7 +16,7 @@ import {
 } from "../../../lib/explorer-utils";
 import ExplorerDashboard from "../../../components/ExplorerDashboard";
 import ExplorerShareCard from "../../../components/ExplorerShareCard";
-import mapData from "../../../data/map-markers.json";
+import { useMapData, useRegionMarkers } from "../../../lib/use-map-data";
 
 const ExplorerSweepMap = dynamic(
   () => import("../../../components/ExplorerSweepMap"),
@@ -24,14 +24,6 @@ const ExplorerSweepMap = dynamic(
 );
 
 type TabKey = "dashboard" | "sweep" | "daily";
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const dataAny = mapData as Record<string, any>;
-const regions = dataAny.regions as Record<string, { zh: string; en: string; color: string }>;
-const markerTypes = dataAny.markerTypes as Record<string, { color: string; label: string; labelEn: string }>;
-const maps = dataAny.maps as Array<{ id: string; name: string; nameEn: string; image: string; description: string; descriptionEn: string; minZoom: number; maxZoom: number; bounds: [[number, number], [number, number]]; markers: MapMarker[] }>;
-const allMarkers: MapMarker[] = maps.length > 0 ? maps[0].markers : [];
-const mapInfo = maps[0];
 
 function formatDuration(ms: number): string {
   const s = Math.floor(ms / 1000);
@@ -45,6 +37,13 @@ export default function ExplorerPage() {
   const params = useParams();
   const lang = (params.lang || "en") as Locale;
   const isZh = isZhLocale(lang);
+
+  // Lazy-loaded data
+  const { maps, markerTypes, regions, loading: coreLoading } = useMapData();
+  const allRegionIds = useMemo(() => Object.keys(regions), [regions]);
+  const { markers: allMarkers, loading: markersLoading } = useRegionMarkers(null, allRegionIds);
+  const mapInfo = maps[0];
+  const dataLoading = coreLoading || markersLoading;
 
   const [mounted, setMounted] = useState(false);
   const [activeTab, setActiveTab] = useState<TabKey>("dashboard");
@@ -103,15 +102,16 @@ export default function ExplorerPage() {
     []
   );
 
-  // Sweep route: filter + optimize
+  // Sweep route: filter + optimize (skip until data loaded)
   const sweepRoute = useMemo(() => {
+    if (dataLoading) return [];
     if (!isSweeping || sweepComplete) return sweepSnapshot.current;
     const filtered = filterByRegionAndType(allMarkers, selectedRegion, selectedTypes);
     const uncollected = filterUncollected(filtered, progress);
     if (uncollected.length === 0) return [];
     if (uncollected.length > 500) return optimizeRoute(uncollected.slice(0, 500));
     return optimizeRoute(uncollected);
-  }, [isSweeping, selectedRegion, selectedTypes, progress, sweepComplete]);
+  }, [isSweeping, selectedRegion, selectedTypes, progress, sweepComplete, allMarkers, dataLoading]);
 
   const sweepCollected = useMemo(
     () => new Set(sweepRoute.filter((m) => progress[m.id]).map((m) => m.id)),
@@ -139,6 +139,7 @@ export default function ExplorerPage() {
 
   // Start sweep
   const startSweep = () => {
+    if (dataLoading) return;
     if (!selectedRegion && selectedTypes.size === 0) return;
     const filtered = filterByRegionAndType(allMarkers, selectedRegion, selectedTypes);
     const uncollected = filterUncollected(filtered, progress);
@@ -241,7 +242,7 @@ export default function ExplorerPage() {
   }, [isSweeping, sweepComplete, sweepRoute, activeIndex, progress, handleChecklistToggle, handleUndo]);
 
   // Daily/Weekly
-  const { daily, weekly } = useMemo(() => getDailyWeeklyMarkers(allMarkers), []);
+  const { daily, weekly } = useMemo(() => dataLoading ? { daily: [], weekly: [] } : getDailyWeeklyMarkers(allMarkers), [allMarkers, dataLoading]);
 
   const handleResetDaily = () => {
     const next = resetDailyProgress(progress, allMarkers);
@@ -274,7 +275,7 @@ export default function ExplorerPage() {
     savePlayerInfo(nickname, v);
   };
 
-  if (!mounted) {
+  if (!mounted || dataLoading) {
     return <div className="max-w-6xl mx-auto px-4 py-12"><div className="animate-pulse h-96 bg-gray-900 rounded-xl" /></div>;
   }
 
