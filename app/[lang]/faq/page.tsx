@@ -16,12 +16,12 @@ export async function generateMetadata({
     ? "異環FAQ — 下載安裝、聯機多人、配置要求、兌換碼、抽卡保底等50+常見問題解答"
     : isZh
       ? "异环FAQ — 下载安装、联机多人、配置要求、兑换码、抽卡保底等50+常见问题解答"
-      : "NTE FAQ — 50+ Answers: Download, Co-op, System Requirements, Redeem Codes, Gacha & More";
+      : "NTE FAQ — 50+ Answers: Is It Multiplayer? How to Download? Gacha Pity? Redeem Codes & More";
   const description = isTw
     ? "異環(NTE)常見問題即時解答：怎麼下載？可以聯機嗎？配置要求？兌換碼怎麼用？抽卡保底機制？一次性解答所有新手疑問。"
     : isZh
       ? "异环(NTE)常见问题即时解答：怎么下载安装？可以联机吗？手机配置够吗？兑换码怎么用？抽卡保底机制？一次解答所有新手疑问。"
-      : "Instant answers to 50+ NTE questions: How to download? Is there co-op? Can your PC run it? Redeem codes? Gacha pity system? Cross-platform save? All covered.";
+      : "Quick answers: Is NTE multiplayer? How to download? Can your PC run it? All active redeem codes? Gacha pity system? Cross-platform? 50+ FAQs covered.";
   return {
     title,
     description,

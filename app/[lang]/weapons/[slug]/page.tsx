@@ -29,17 +29,17 @@ export async function generateMetadata({
         ? `${displayName} 屬性與獲取方式 | 異環弧盤 Wiki`
         : isZhLocale(locale)
         ? `${displayName} 属性、精炼与获取方式 | 异环弧盘 Wiki`
-        : `${weapon.nameEn} Stats & Best Characters - NTE Arc Disks`,
+        : `${weapon.nameEn} (${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}) — Stats, Best Characters & How to Get | NTE Guide`,
     description:
       locale === "tw"
         ? `異環弧盤「${displayName}」${weapon.rank}級${ARC_TYPE_LABELS[weapon.type]?.tw || weapon.type}屬性、被動效果與獲取方式。`
         : isZhLocale(locale)
         ? `异环弧盘「${displayName}」${weapon.rank}级${ARC_TYPE_LABELS[weapon.type]?.zh || weapon.type}属性、被动效果及获取方式详解。`
-        : `${weapon.nameEn} ${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE. ATK ${weapon.baseAtk}, ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. Complete stats and guide.`,
+        : `${weapon.nameEn} is a ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE. Base ATK ${weapon.baseAtk}, ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. Best characters, full stats, and how to get it.`,
     alternates: hreflangAlternates(`weapons/${slug}`, lang),
     openGraph: {
-      title: isZhLocale(locale) ? `${displayName} | 异环弧盘 Wiki` : `${weapon.nameEn} Stats | NTE`,
-      description: isZhLocale(locale) ? `异环弧盘「${displayName}」详细属性与获取方式。` : `${weapon.nameEn} stats in Neverness to Everness`,
+      title: isZhLocale(locale) ? `${displayName} | 异环弧盘 Wiki` : `${weapon.nameEn} Stats & Best Characters | NTE Guide`,
+      description: isZhLocale(locale) ? `异环弧盘「${displayName}」详细属性与获取方式。` : `${weapon.nameEn} ${weapon.rank}-rank Arc stats, best characters, and how to get it in NTE.`,
       type: "article",
     },
   };
