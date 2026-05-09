@@ -308,7 +308,7 @@ export default function RedeemCodesPage() {
       {/* Module A: Next Steps */}
       <div className="mt-12">
         <h2 className="text-xl font-bold mb-4">{t(lang, "redeemCodes.nextSteps.title")}</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {([
             { key: "tierList", href: `/${lang}/tier-list` },
             { key: "reroll", href: `/${lang}/guides/reroll-guide-detailed` },
@@ -326,6 +326,46 @@ export default function RedeemCodesPage() {
               <p className="text-xs text-gray-500 mt-1">
                 {t(lang, `redeemCodes.nextSteps.${item.key}Desc` as `redeemCodes.nextSteps.${string}`)}
               </p>
+              <span className="text-xs text-primary-400/60 group-hover:text-primary-400 mt-2 inline-block">→</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      {/* Popular Guides — cross-link to high-impression low-CTR pages */}
+      <div className="mt-8">
+        <h2 className="text-xl font-bold mb-4">
+          {isZhLocale(lang)
+            ? (lang === "tw" ? "熱門攻略" : "热门攻略")
+            : "Popular Guides"}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          {([
+            {
+              href: `/${lang}/faq/multiplayer-coop`,
+              title: isZhLocale(lang) ? (lang === "tw" ? "多人聯機攻略" : "多人联机攻略") : "Is NTE Multiplayer? Co-op Guide",
+              desc: isZhLocale(lang) ? (lang === "tw" ? "4人聯機、跨平台、組隊方法" : "4人联机、跨平台、组队方法") : "4-player co-op, cross-platform & how to team up",
+            },
+            {
+              href: `/${lang}/guides/download-install-guide`,
+              title: isZhLocale(lang) ? (lang === "tw" ? "下載安裝指南" : "下载安装指南") : "How to Download NTE",
+              desc: isZhLocale(lang) ? (lang === "tw" ? "PC、PS5、手機安裝教程" : "PC、PS5、手机安装教程") : "PC, PS5, Mobile install guide & system requirements",
+            },
+            {
+              href: `/${lang}/guides/vehicle-system-guide`,
+              title: isZhLocale(lang) ? (lang === "tw" ? "載具系統攻略" : "载具系统攻略") : "NTE Vehicles & Driving Guide",
+              desc: isZhLocale(lang) ? (lang === "tw" ? "車輛獲取、駕駛技巧" : "车辆获取、驾驶技巧") : "How to get cars, driving controls & racing events",
+            },
+          ]).map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="group rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 hover:bg-gray-900/80 transition-colors"
+            >
+              <h3 className="text-sm font-semibold text-gray-200 group-hover:text-primary-400 transition-colors">
+                {item.title}
+              </h3>
+              <p className="text-xs text-gray-500 mt-1">{item.desc}</p>
               <span className="text-xs text-primary-400/60 group-hover:text-primary-400 mt-2 inline-block">→</span>
             </Link>
           ))}
