@@ -108,10 +108,14 @@ export default function InteractiveMap({
     const typeInfo = markerTypes[marker.type];
     if (!typeInfo) return null;
 
-    const icon = createMarkerIcon(typeInfo.color, isSelected, isCollected);
+    const icon = createMarkerIcon(typeInfo.color, isSelected, isCollected, marker.icon);
     return L.marker(markerToLatLng(marker), { icon })
       .bindTooltip(
-        lang === "zh" || lang === "tw" ? marker.name : marker.nameEn,
+        (() => {
+          const name = lang === "zh" || lang === "tw" ? marker.name : marker.nameEn;
+          const note = lang === "zh" || lang === "tw" ? marker.noteTitle : marker.noteTitleEn;
+          return note ? `${name}<br/><span style="font-size:10px;opacity:0.6">${note}</span>` : name;
+        })(),
         {
           direction: "top",
           offset: [0, -12],
@@ -147,7 +151,7 @@ export default function InteractiveMap({
 
         const isSelected = selectedMarker?.id === marker.id;
         const isCollected = !!progress[marker.id];
-        existing.setIcon(createMarkerIcon(typeInfo.color, isSelected, isCollected));
+        existing.setIcon(createMarkerIcon(typeInfo.color, isSelected, isCollected, marker.icon));
       });
     } else {
       // Marker set changed — full rebuild

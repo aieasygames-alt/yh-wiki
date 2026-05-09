@@ -86,7 +86,8 @@ export function getMapBounds(map: MapInfo): L.LatLngBoundsExpression {
 export function createMarkerIcon(
   color: string,
   isSelected: boolean,
-  isCollected?: boolean
+  isCollected?: boolean,
+  iconUrl?: string
 ): L.DivIcon {
   const size = isSelected ? 32 : 24;
   const opacity = isCollected ? 0.35 : 1;
@@ -96,13 +97,19 @@ export function createMarkerIcon(
   const checkmark = isCollected
     ? `<svg style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0.7" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>`
     : "";
+
+  // Use actual icon image if available, otherwise fall back to colored dot
+  const inner = iconUrl
+    ? `<img src="${iconUrl}" style="width:${size - 6}px;height:${size - 6}px;object-fit:contain;pointer-events:none" alt="" />`
+    : `<div style="width:8px;height:8px;border-radius:50%;background:${color}"></div>`;
+
   return L.divIcon({
     className: "custom-marker",
     html: `
       <div style="position:relative;width:${size}px;height:${size}px;display:flex;align-items:center;justify-content:center;opacity:${opacity};transition:opacity 0.2s">
         ${ring}
         <div style="width:${size}px;height:${size}px;border-radius:50%;border:2px solid ${color};background:${color}40;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:transform 0.15s">
-          <div style="width:8px;height:8px;border-radius:50%;background:${color}"></div>
+          ${inner}
         </div>
         ${checkmark}
       </div>
