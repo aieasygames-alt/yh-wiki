@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";
 import { isZhLocale, Locale } from "../../../lib/i18n";
-import type { MapMarker, MapInfo } from "../../../lib/map-utils";
+import type { MapMarker } from "../../../lib/map-utils";
 import {
   loadProgress,
   toggleMarker,

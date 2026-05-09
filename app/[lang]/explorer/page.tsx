@@ -263,7 +263,7 @@ export default function ExplorerPage() {
     if (!selectedRegion) return isZh ? "全部区域" : "All Regions";
     const info = regions[selectedRegion];
     return info ? (isZh ? info.zh : info.en) : "";
-  }, [selectedRegion, isZh]);
+  }, [selectedRegion, isZh, regions]);
 
   const handleNicknameChange = (v: string) => {
     setNickname(v);
