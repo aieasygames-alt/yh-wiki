@@ -12,9 +12,8 @@ const PUBLIC = path.join(ROOT, "public");
 const BASE_URL = "https://nteguide.com";
 
 // ── Config ──────────────────────────────────────────────
-// IMPORTANT: only include locales the app actually supports (via generateStaticParams)
-// Extra locales here produce sitemap URLs that 404 — wasting crawl budget
-const LOCALES = ["zh", "tw", "en"];
+// All locales the app supports via generateStaticParams (see lib/i18n.ts LOCALES)
+const LOCALES = ["zh", "tw", "en", "th", "vi", "id", "pt-br", "ja", "ko", "de", "fr", "es", "ru"];
 
 // ── Shared data loader (reads each JSON file once) ─────
 const cache = {};

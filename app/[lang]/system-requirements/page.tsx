@@ -23,9 +23,9 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     : "NTE System Requirements - Can Your PC Run It? (PC, Mobile Specs)";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環(NTE)完整配置要求：PC、Android、iOS 最低和推薦配置，下載大小約40GB(PC)/15GB(手機)，儲存空間需求一覽。"
-      : "异环(NTE)完整配置要求与下载大小：PC约40GB、手机约15GB，含PC/Android/iOS最低和推荐配置、存储空间要求。")
-    : "Check NTE system requirements for PC, Android & iOS. Minimum & recommended specs, download size (90GB PC) and storage needs.";
+      ? "異環(NTE)完整配置要求：PC、Android、iOS 最低和推薦配置，下載大小約90GB(PC)/20GB(手機)，儲存空間需求一覽。"
+      : "异环(NTE)完整配置要求与下载大小：PC约90GB、手机约20GB，含PC/Android/iOS最低和推荐配置、存储空间要求。")
+    : "NTE system requirements: PC minimum (i5-8400, GTX 1060, 8GB RAM, 90GB SSD), Android & iOS specs. Check if your device can run NTE.";
 
   return {
     title,

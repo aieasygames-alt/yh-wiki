@@ -135,8 +135,8 @@ describe("map-markers.json data integrity", () => {
     }
   });
 
-  it("markerTypes has the original 4 types", () => {
-    const required = ["domain", "boss", "collectible", "waypoint"] as const;
+  it("markerTypes has core types (boss, collectible, waypoint, chest)", () => {
+    const required = ["boss", "collectible", "waypoint", "chest"] as const;
     for (const type of required) {
       expect((data.markerTypes as unknown as Record<string, unknown>)[type]).toBeDefined();
       expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).color).toBeTruthy();
@@ -145,8 +145,8 @@ describe("map-markers.json data integrity", () => {
     }
   });
 
-  it("markerTypes has extended types (chest, puzzle, npc, viewpoint)", () => {
-    const extended = ["chest", "puzzle", "npc", "viewpoint"] as const;
+  it("markerTypes has extended types (viewpoint, oracle-stone, quest, region)", () => {
+    const extended = ["viewpoint", "oracle-stone", "quest", "region"] as const;
     for (const type of extended) {
       expect((data.markerTypes as unknown as Record<string, unknown>)[type]).toBeDefined();
       expect(((data.markerTypes as unknown as Record<string, Record<string, string>>)[type]).color).toBeTruthy();
@@ -155,10 +155,10 @@ describe("map-markers.json data integrity", () => {
     }
   });
 
-  it("new-elydon map has at least 18 markers", () => {
-    const elydon = data.maps.find((m) => m.id === "new-elydon");
-    expect(elydon).toBeDefined();
-    expect(elydon!.markers.length).toBeGreaterThanOrEqual(18);
+  it("hethereau map has at least 4800 markers", () => {
+    const hethereau = data.maps.find((m) => m.id === "hethereau");
+    expect(hethereau).toBeDefined();
+    expect(hethereau!.markers.length).toBeGreaterThanOrEqual(4800);
   });
 
   it("all marker type colors are valid hex colors", () => {

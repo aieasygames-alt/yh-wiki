@@ -395,10 +395,12 @@
     "categoryEn": "System",
     "relatedCharacters": [],
     "relatedMaterials": [],
-    "seoTitleEn": "NTE System Requirements: PC, Mobile & Console Specs (May 2026)",
-    "seoTitleZh": "异环配置要求：PC/手机/主机最低与推荐配置（2026年5月）",
-    "seoDescriptionEn": "Can your PC or phone run NTE? Full minimum & recommended specs: PC (i5-8400, GTX 1060, 8GB RAM), Android (Snapdragon 855+), iOS (iPhone 12+). Download size ~40GB PC.",
-    "seoDescriptionZh": "异环(NTE)完整配置要求：PC最低i5-8400/GTX 1060/8GB内存，手机骁龙855+，iPhone 12+。下载大小约40GB(PC)/15GB(手机)。附SSD要求说明。"
+    "quickAnswer": "异环最低配置：PC需i5-8400+GTX 1060+8GB内存+90GB SSD，手机需骁龙855+/6GB RAM。推荐配置：i7-9700+RTX 2060+16GB内存。完整配置表见→ /system-requirements/",
+    "quickAnswerEn": "NTE minimum specs: PC (i5-8400, GTX 1060, 8GB RAM, 90GB SSD), Mobile (Snapdragon 855+, 6GB RAM). Recommended: i7-9700, RTX 2060, 16GB RAM. See full specs → /system-requirements/",
+    "seoTitleEn": "NTE System Requirements — Can Your PC/Phone Run NTE? (Quick Check Guide)",
+    "seoTitleZh": "异环配置要求 — 你的电脑/手机能运行吗？（快速查询）",
+    "seoDescriptionEn": "Quick NTE compatibility check: minimum specs (i5-8400, GTX 1060, 8GB RAM) and recommended specs. Full detailed requirements at our system requirements page.",
+    "seoDescriptionZh": "异环最低配置i5-8400/GTX 1060/8GB内存，推荐i7-9700/RTX 2060/16GB内存。完整配置表、下载大小和SSD建议见系统要求专页。"
   },
   {
     "id": "release-date",

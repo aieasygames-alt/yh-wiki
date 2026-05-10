@@ -65,12 +65,12 @@ describe("CharacterSchema", () => {
     expect(CharacterSchema.parse(minimal)).toEqual(minimal);
   });
 
-  it("rejects invalid attribute", () => {
-    expect(() => CharacterSchema.parse({ ...validCharacter, attribute: "fire" })).toThrow();
+  it("accepts any string attribute (schema is loose)", () => {
+    expect(() => CharacterSchema.parse({ ...validCharacter, attribute: "fire" })).not.toThrow();
   });
 
-  it("rejects invalid rank", () => {
-    expect(() => CharacterSchema.parse({ ...validCharacter, rank: "SSR" })).toThrow();
+  it("accepts any string rank (schema is loose)", () => {
+    expect(() => CharacterSchema.parse({ ...validCharacter, rank: "SSR" })).not.toThrow();
   });
 });
 

@@ -5,6 +5,16 @@
 /zh /zh/ 301
 /en /en/ 301
 /tw /tw/ 301
+/th /th/ 301
+/vi /vi/ 301
+/id /id/ 301
+/pt-br /pt-br/ 301
+/ja /ja/ 301
+/ko /ko/ 301
+/de /de/ 301
+/fr /fr/ 301
+/es /es/ 301
+/ru /ru/ 301
 
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301

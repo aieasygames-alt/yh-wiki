@@ -99,8 +99,8 @@
     {
       "question": "Can I run NTE with 8GB RAM?",
       "questionZh": "8GB内存能运行异环吗？",
-      "answer": "NTE requires a minimum of 16GB RAM. Running the game with 8GB RAM is not officially supported and may cause crashes, stuttering, or failure to launch. We strongly recommend upgrading to at least 16GB RAM before playing.",
-      "answerZh": "异环最低需要16GB内存。8GB内存不在官方支持范围内，可能导致闪退、卡顿或无法启动。强烈建议升级到至少16GB内存后再游玩。"
+      "answer": "Yes, NTE's minimum requirement is 8GB RAM, which means the game can technically run on 8GB systems. However, for a smooth experience without stuttering, we strongly recommend 16GB RAM, especially when exploring large open-world areas or during combat with many effects.",
+      "answerZh": "异环最低配置要求为8GB内存，可以在8GB内存的系统上运行。但为了流畅体验、避免卡顿，强烈推荐16GB内存，尤其是在探索大地图或战斗特效较多的场景中。"
     }
   ]
 }

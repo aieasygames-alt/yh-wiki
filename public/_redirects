@@ -5,6 +5,16 @@
 /zh /zh/ 301
 /en /en/ 301
 /tw /tw/ 301
+/th /th/ 301
+/vi /vi/ 301
+/id /id/ 301
+/pt-br /pt-br/ 301
+/ja /ja/ 301
+/ko /ko/ 301
+/de /de/ 301
+/fr /fr/ 301
+/es /es/ 301
+/ru /ru/ 301
 
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
@@ -364,6 +374,7 @@
 /de/blog/nte-v10-launch-events /de/blog/nte-v10-launch-events/ 301
 /de/blog/nte-v11-collaboration-preview /de/blog/nte-v11-collaboration-preview/ 301
 /de/blog/nte-v11-preview /de/blog/nte-v11-preview/ 301
+/de/blog/nte-v11-preview-may-2026 /de/blog/nte-v11-preview-may-2026/ 301
 /de/blog/nte-version-1-0-update /de/blog/nte-version-1-0-update/ 301
 /de/blog/nte-vs-genshin-vs-wuthering-waves /de/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /de/blog/nte-week-one-recap /de/blog/nte-week-one-recap/ 301
@@ -557,6 +568,7 @@
 /de/faq/launch-date-2026 /de/faq/launch-date-2026/ 301
 /de/faq/launch-free-pulls-total /de/faq/launch-free-pulls-total/ 301
 /de/faq/launch-rewards-total /de/faq/launch-rewards-total/ 301
+/de/faq/lawson-collab-faq /de/faq/lawson-collab-faq/ 301
 /de/faq/livestream-codes-2026 /de/faq/livestream-codes-2026/ 301
 /de/faq/login-verification-code-not-received /de/faq/login-verification-code-not-received/ 301
 /de/faq/login-white-screen /de/faq/login-white-screen/ 301
@@ -578,6 +590,7 @@
 /de/faq/monthly-card-not-rewarded /de/faq/monthly-card-not-rewarded/ 301
 /de/faq/monthly-pass-not-received /de/faq/monthly-pass-not-received/ 301
 /de/faq/multiplayer-coop /de/faq/multiplayer-coop/ 301
+/de/faq/mygo-collab-faq /de/faq/mygo-collab-faq/ 301
 /de/faq/nanally-team-comp /de/faq/nanally-team-comp/ 301
 /de/faq/nanally-worth-building /de/faq/nanally-worth-building/ 301
 /de/faq/next-banner-schedule /de/faq/next-banner-schedule/ 301
@@ -602,6 +615,7 @@
 /de/faq/nte-hidden-easter-eggs /de/faq/nte-hidden-easter-eggs/ 301
 /de/faq/nte-mahjong-guide /de/faq/nte-mahjong-guide/ 301
 /de/faq/nte-mammon-guide /de/faq/nte-mammon-guide/ 301
+/de/faq/nte-marketing-highlights /de/faq/nte-marketing-highlights/ 301
 /de/faq/nte-mods-guide /de/faq/nte-mods-guide/ 301
 /de/faq/nte-optimization-tips /de/faq/nte-optimization-tips/ 301
 /de/faq/nte-patch-notes-guide /de/faq/nte-patch-notes-guide/ 301
@@ -672,6 +686,7 @@
 /de/faq/turbid-burn-team-guide /de/faq/turbid-burn-team-guide/ 301
 /de/faq/ue5-7-engine-update /de/faq/ue5-7-engine-update/ 301
 /de/faq/upcoming-characters /de/faq/upcoming-characters/ 301
+/de/faq/v11-release-date /de/faq/v11-release-date/ 301
 /de/faq/vehicle-driving /de/faq/vehicle-driving/ 301
 /de/faq/weapon-upgrade /de/faq/weapon-upgrade/ 301
 /de/faq/weapon-upgrade-faq /de/faq/weapon-upgrade-faq/ 301
@@ -679,6 +694,7 @@
 /de/faq/wrong-character-selection /de/faq/wrong-character-selection/ 301
 /de/faq/wrong-server-transfer /de/faq/wrong-server-transfer/ 301
 /de/faq/xiaozhi-free-s-rank /de/faq/xiaozhi-free-s-rank/ 301
+/de/faq/xun-banned-reason /de/faq/xun-banned-reason/ 301
 /de/faq/xun-character-faq /de/faq/xun-character-faq/ 301
 /de/gacha /de/gacha/ 301
 /de/gacha-analyzer /de/gacha-analyzer/ 301
@@ -829,6 +845,7 @@
 /de/tags/abyss /de/tags/abyss/ 301
 /de/tags/account /de/tags/account/ 301
 /de/tags/advanced /de/tags/advanced/ 301
+/de/tags/advertising /de/tags/advertising/ 301
 /de/tags/ai /de/tags/ai/ 301
 /de/tags/akane /de/tags/akane/ 301
 /de/tags/alt-tab /de/tags/alt-tab/ 301
@@ -849,6 +866,8 @@
 /de/tags/awakening /de/tags/awakening/ 301
 /de/tags/a级 /de/tags/a级/ 301
 /de/tags/baicang /de/tags/baicang/ 301
+/de/tags/band /de/tags/band/ 301
+/de/tags/banned /de/tags/banned/ 301
 /de/tags/banner /de/tags/banner/ 301
 /de/tags/basics /de/tags/basics/ 301
 /de/tags/battery /de/tags/battery/ 301
@@ -866,6 +885,7 @@
 /de/tags/camellia-society /de/tags/camellia-society/ 301
 /de/tags/camera /de/tags/camera/ 301
 /de/tags/cars /de/tags/cars/ 301
+/de/tags/censorship /de/tags/censorship/ 301
 /de/tags/challenge /de/tags/challenge/ 301
 /de/tags/changelog /de/tags/changelog/ 301
 /de/tags/chaos /de/tags/chaos/ 301
@@ -889,6 +909,7 @@
 /de/tags/collection /de/tags/collection/ 301
 /de/tags/combat /de/tags/combat/ 301
 /de/tags/commissions /de/tags/commissions/ 301
+/de/tags/community /de/tags/community/ 301
 /de/tags/comparison /de/tags/comparison/ 301
 /de/tags/compensation /de/tags/compensation/ 301
 /de/tags/competitive /de/tags/competitive/ 301
@@ -898,6 +919,7 @@
 /de/tags/controller /de/tags/controller/ 301
 /de/tags/controls /de/tags/controls/ 301
 /de/tags/controversy /de/tags/controversy/ 301
+/de/tags/convenience-store /de/tags/convenience-store/ 301
 /de/tags/cosmos /de/tags/cosmos/ 301
 /de/tags/cosmos-blossom /de/tags/cosmos-blossom/ 301
 /de/tags/cpu /de/tags/cpu/ 301
@@ -996,19 +1018,23 @@
 /de/tags/launch /de/tags/launch/ 301
 /de/tags/launch-error /de/tags/launch-error/ 301
 /de/tags/launcher /de/tags/launcher/ 301
+/de/tags/lawson /de/tags/lawson/ 301
 /de/tags/leisure /de/tags/leisure/ 301
 /de/tags/level /de/tags/level/ 301
 /de/tags/leveling /de/tags/leveling/ 301
 /de/tags/linking /de/tags/linking/ 301
 /de/tags/linux /de/tags/linux/ 301
 /de/tags/liquid /de/tags/liquid/ 301
+/de/tags/livestream /de/tags/livestream/ 301
 /de/tags/location /de/tags/location/ 301
 /de/tags/login /de/tags/login/ 301
+/de/tags/london /de/tags/london/ 301
 /de/tags/lore /de/tags/lore/ 301
 /de/tags/lost-tales /de/tags/lost-tales/ 301
 /de/tags/mahjong /de/tags/mahjong/ 301
 /de/tags/mammon /de/tags/mammon/ 301
 /de/tags/map /de/tags/map/ 301
+/de/tags/marketing /de/tags/marketing/ 301
 /de/tags/matchmaking /de/tags/matchmaking/ 301
 /de/tags/materials /de/tags/materials/ 301
 /de/tags/mechanic /de/tags/mechanic/ 301
@@ -1024,11 +1050,14 @@
 /de/tags/modules /de/tags/modules/ 301
 /de/tags/monthly-card /de/tags/monthly-card/ 301
 /de/tags/multiplayer /de/tags/multiplayer/ 301
+/de/tags/music /de/tags/music/ 301
+/de/tags/mygo /de/tags/mygo/ 301
 /de/tags/nanally /de/tags/nanally/ 301
 /de/tags/network /de/tags/network/ 301
 /de/tags/new-character /de/tags/new-character/ 301
 /de/tags/notes /de/tags/notes/ 301
 /de/tags/npc /de/tags/npc/ 301
+/de/tags/offline /de/tags/offline/ 301
 /de/tags/opening /de/tags/opening/ 301
 /de/tags/optimization /de/tags/optimization/ 301
 /de/tags/oracle-stone /de/tags/oracle-stone/ 301
@@ -1078,6 +1107,7 @@
 /de/tags/recovery /de/tags/recovery/ 301
 /de/tags/refund /de/tags/refund/ 301
 /de/tags/release /de/tags/release/ 301
+/de/tags/release-date /de/tags/release-date/ 301
 /de/tags/requirements /de/tags/requirements/ 301
 /de/tags/reroll /de/tags/reroll/ 301
 /de/tags/resonance /de/tags/resonance/ 301
@@ -1418,6 +1448,7 @@
 /en/blog/nte-v10-launch-events /en/blog/nte-v10-launch-events/ 301
 /en/blog/nte-v11-collaboration-preview /en/blog/nte-v11-collaboration-preview/ 301
 /en/blog/nte-v11-preview /en/blog/nte-v11-preview/ 301
+/en/blog/nte-v11-preview-may-2026 /en/blog/nte-v11-preview-may-2026/ 301
 /en/blog/nte-version-1-0-update /en/blog/nte-version-1-0-update/ 301
 /en/blog/nte-vs-genshin-vs-wuthering-waves /en/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /en/blog/nte-week-one-recap /en/blog/nte-week-one-recap/ 301
@@ -1611,6 +1642,7 @@
 /en/faq/launch-date-2026 /en/faq/launch-date-2026/ 301
 /en/faq/launch-free-pulls-total /en/faq/launch-free-pulls-total/ 301
 /en/faq/launch-rewards-total /en/faq/launch-rewards-total/ 301
+/en/faq/lawson-collab-faq /en/faq/lawson-collab-faq/ 301
 /en/faq/livestream-codes-2026 /en/faq/livestream-codes-2026/ 301
 /en/faq/login-verification-code-not-received /en/faq/login-verification-code-not-received/ 301
 /en/faq/login-white-screen /en/faq/login-white-screen/ 301
@@ -1632,6 +1664,7 @@
 /en/faq/monthly-card-not-rewarded /en/faq/monthly-card-not-rewarded/ 301
 /en/faq/monthly-pass-not-received /en/faq/monthly-pass-not-received/ 301
 /en/faq/multiplayer-coop /en/faq/multiplayer-coop/ 301
+/en/faq/mygo-collab-faq /en/faq/mygo-collab-faq/ 301
 /en/faq/nanally-team-comp /en/faq/nanally-team-comp/ 301
 /en/faq/nanally-worth-building /en/faq/nanally-worth-building/ 301
 /en/faq/next-banner-schedule /en/faq/next-banner-schedule/ 301
@@ -1656,6 +1689,7 @@
 /en/faq/nte-hidden-easter-eggs /en/faq/nte-hidden-easter-eggs/ 301
 /en/faq/nte-mahjong-guide /en/faq/nte-mahjong-guide/ 301
 /en/faq/nte-mammon-guide /en/faq/nte-mammon-guide/ 301
+/en/faq/nte-marketing-highlights /en/faq/nte-marketing-highlights/ 301
 /en/faq/nte-mods-guide /en/faq/nte-mods-guide/ 301
 /en/faq/nte-optimization-tips /en/faq/nte-optimization-tips/ 301
 /en/faq/nte-patch-notes-guide /en/faq/nte-patch-notes-guide/ 301
@@ -1726,6 +1760,7 @@
 /en/faq/turbid-burn-team-guide /en/faq/turbid-burn-team-guide/ 301
 /en/faq/ue5-7-engine-update /en/faq/ue5-7-engine-update/ 301
 /en/faq/upcoming-characters /en/faq/upcoming-characters/ 301
+/en/faq/v11-release-date /en/faq/v11-release-date/ 301
 /en/faq/vehicle-driving /en/faq/vehicle-driving/ 301
 /en/faq/weapon-upgrade /en/faq/weapon-upgrade/ 301
 /en/faq/weapon-upgrade-faq /en/faq/weapon-upgrade-faq/ 301
@@ -1733,6 +1768,7 @@
 /en/faq/wrong-character-selection /en/faq/wrong-character-selection/ 301
 /en/faq/wrong-server-transfer /en/faq/wrong-server-transfer/ 301
 /en/faq/xiaozhi-free-s-rank /en/faq/xiaozhi-free-s-rank/ 301
+/en/faq/xun-banned-reason /en/faq/xun-banned-reason/ 301
 /en/faq/xun-character-faq /en/faq/xun-character-faq/ 301
 /en/gacha /en/gacha/ 301
 /en/gacha-analyzer /en/gacha-analyzer/ 301
@@ -1883,6 +1919,7 @@
 /en/tags/abyss /en/tags/abyss/ 301
 /en/tags/account /en/tags/account/ 301
 /en/tags/advanced /en/tags/advanced/ 301
+/en/tags/advertising /en/tags/advertising/ 301
 /en/tags/ai /en/tags/ai/ 301
 /en/tags/akane /en/tags/akane/ 301
 /en/tags/alt-tab /en/tags/alt-tab/ 301
@@ -1903,6 +1940,8 @@
 /en/tags/awakening /en/tags/awakening/ 301
 /en/tags/a级 /en/tags/a级/ 301
 /en/tags/baicang /en/tags/baicang/ 301
+/en/tags/band /en/tags/band/ 301
+/en/tags/banned /en/tags/banned/ 301
 /en/tags/banner /en/tags/banner/ 301
 /en/tags/basics /en/tags/basics/ 301
 /en/tags/battery /en/tags/battery/ 301
@@ -1920,6 +1959,7 @@
 /en/tags/camellia-society /en/tags/camellia-society/ 301
 /en/tags/camera /en/tags/camera/ 301
 /en/tags/cars /en/tags/cars/ 301
+/en/tags/censorship /en/tags/censorship/ 301
 /en/tags/challenge /en/tags/challenge/ 301
 /en/tags/changelog /en/tags/changelog/ 301
 /en/tags/chaos /en/tags/chaos/ 301
@@ -1943,6 +1983,7 @@
 /en/tags/collection /en/tags/collection/ 301
 /en/tags/combat /en/tags/combat/ 301
 /en/tags/commissions /en/tags/commissions/ 301
+/en/tags/community /en/tags/community/ 301
 /en/tags/comparison /en/tags/comparison/ 301
 /en/tags/compensation /en/tags/compensation/ 301
 /en/tags/competitive /en/tags/competitive/ 301
@@ -1952,6 +1993,7 @@
 /en/tags/controller /en/tags/controller/ 301
 /en/tags/controls /en/tags/controls/ 301
 /en/tags/controversy /en/tags/controversy/ 301
+/en/tags/convenience-store /en/tags/convenience-store/ 301
 /en/tags/cosmos /en/tags/cosmos/ 301
 /en/tags/cosmos-blossom /en/tags/cosmos-blossom/ 301
 /en/tags/cpu /en/tags/cpu/ 301
@@ -2050,19 +2092,23 @@
 /en/tags/launch /en/tags/launch/ 301
 /en/tags/launch-error /en/tags/launch-error/ 301
 /en/tags/launcher /en/tags/launcher/ 301
+/en/tags/lawson /en/tags/lawson/ 301
 /en/tags/leisure /en/tags/leisure/ 301
 /en/tags/level /en/tags/level/ 301
 /en/tags/leveling /en/tags/leveling/ 301
 /en/tags/linking /en/tags/linking/ 301
 /en/tags/linux /en/tags/linux/ 301
 /en/tags/liquid /en/tags/liquid/ 301
+/en/tags/livestream /en/tags/livestream/ 301
 /en/tags/location /en/tags/location/ 301
 /en/tags/login /en/tags/login/ 301
+/en/tags/london /en/tags/london/ 301
 /en/tags/lore /en/tags/lore/ 301
 /en/tags/lost-tales /en/tags/lost-tales/ 301
 /en/tags/mahjong /en/tags/mahjong/ 301
 /en/tags/mammon /en/tags/mammon/ 301
 /en/tags/map /en/tags/map/ 301
+/en/tags/marketing /en/tags/marketing/ 301
 /en/tags/matchmaking /en/tags/matchmaking/ 301
 /en/tags/materials /en/tags/materials/ 301
 /en/tags/mechanic /en/tags/mechanic/ 301
@@ -2078,11 +2124,14 @@
 /en/tags/modules /en/tags/modules/ 301
 /en/tags/monthly-card /en/tags/monthly-card/ 301
 /en/tags/multiplayer /en/tags/multiplayer/ 301
+/en/tags/music /en/tags/music/ 301
+/en/tags/mygo /en/tags/mygo/ 301
 /en/tags/nanally /en/tags/nanally/ 301
 /en/tags/network /en/tags/network/ 301
 /en/tags/new-character /en/tags/new-character/ 301
 /en/tags/notes /en/tags/notes/ 301
 /en/tags/npc /en/tags/npc/ 301
+/en/tags/offline /en/tags/offline/ 301
 /en/tags/opening /en/tags/opening/ 301
 /en/tags/optimization /en/tags/optimization/ 301
 /en/tags/oracle-stone /en/tags/oracle-stone/ 301
@@ -2132,6 +2181,7 @@
 /en/tags/recovery /en/tags/recovery/ 301
 /en/tags/refund /en/tags/refund/ 301
 /en/tags/release /en/tags/release/ 301
+/en/tags/release-date /en/tags/release-date/ 301
 /en/tags/requirements /en/tags/requirements/ 301
 /en/tags/reroll /en/tags/reroll/ 301
 /en/tags/resonance /en/tags/resonance/ 301
@@ -2472,6 +2522,7 @@
 /es/blog/nte-v10-launch-events /es/blog/nte-v10-launch-events/ 301
 /es/blog/nte-v11-collaboration-preview /es/blog/nte-v11-collaboration-preview/ 301
 /es/blog/nte-v11-preview /es/blog/nte-v11-preview/ 301
+/es/blog/nte-v11-preview-may-2026 /es/blog/nte-v11-preview-may-2026/ 301
 /es/blog/nte-version-1-0-update /es/blog/nte-version-1-0-update/ 301
 /es/blog/nte-vs-genshin-vs-wuthering-waves /es/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /es/blog/nte-week-one-recap /es/blog/nte-week-one-recap/ 301
@@ -2665,6 +2716,7 @@
 /es/faq/launch-date-2026 /es/faq/launch-date-2026/ 301
 /es/faq/launch-free-pulls-total /es/faq/launch-free-pulls-total/ 301
 /es/faq/launch-rewards-total /es/faq/launch-rewards-total/ 301
+/es/faq/lawson-collab-faq /es/faq/lawson-collab-faq/ 301
 /es/faq/livestream-codes-2026 /es/faq/livestream-codes-2026/ 301
 /es/faq/login-verification-code-not-received /es/faq/login-verification-code-not-received/ 301
 /es/faq/login-white-screen /es/faq/login-white-screen/ 301
@@ -2686,6 +2738,7 @@
 /es/faq/monthly-card-not-rewarded /es/faq/monthly-card-not-rewarded/ 301
 /es/faq/monthly-pass-not-received /es/faq/monthly-pass-not-received/ 301
 /es/faq/multiplayer-coop /es/faq/multiplayer-coop/ 301
+/es/faq/mygo-collab-faq /es/faq/mygo-collab-faq/ 301
 /es/faq/nanally-team-comp /es/faq/nanally-team-comp/ 301
 /es/faq/nanally-worth-building /es/faq/nanally-worth-building/ 301
 /es/faq/next-banner-schedule /es/faq/next-banner-schedule/ 301
@@ -2710,6 +2763,7 @@
 /es/faq/nte-hidden-easter-eggs /es/faq/nte-hidden-easter-eggs/ 301
 /es/faq/nte-mahjong-guide /es/faq/nte-mahjong-guide/ 301
 /es/faq/nte-mammon-guide /es/faq/nte-mammon-guide/ 301
+/es/faq/nte-marketing-highlights /es/faq/nte-marketing-highlights/ 301
 /es/faq/nte-mods-guide /es/faq/nte-mods-guide/ 301
 /es/faq/nte-optimization-tips /es/faq/nte-optimization-tips/ 301
 /es/faq/nte-patch-notes-guide /es/faq/nte-patch-notes-guide/ 301
@@ -2780,6 +2834,7 @@
 /es/faq/turbid-burn-team-guide /es/faq/turbid-burn-team-guide/ 301
 /es/faq/ue5-7-engine-update /es/faq/ue5-7-engine-update/ 301
 /es/faq/upcoming-characters /es/faq/upcoming-characters/ 301
+/es/faq/v11-release-date /es/faq/v11-release-date/ 301
 /es/faq/vehicle-driving /es/faq/vehicle-driving/ 301
 /es/faq/weapon-upgrade /es/faq/weapon-upgrade/ 301
 /es/faq/weapon-upgrade-faq /es/faq/weapon-upgrade-faq/ 301
@@ -2787,6 +2842,7 @@
 /es/faq/wrong-character-selection /es/faq/wrong-character-selection/ 301
 /es/faq/wrong-server-transfer /es/faq/wrong-server-transfer/ 301
 /es/faq/xiaozhi-free-s-rank /es/faq/xiaozhi-free-s-rank/ 301
+/es/faq/xun-banned-reason /es/faq/xun-banned-reason/ 301
 /es/faq/xun-character-faq /es/faq/xun-character-faq/ 301
 /es/gacha /es/gacha/ 301
 /es/gacha-analyzer /es/gacha-analyzer/ 301
@@ -2937,6 +2993,7 @@
 /es/tags/abyss /es/tags/abyss/ 301
 /es/tags/account /es/tags/account/ 301
 /es/tags/advanced /es/tags/advanced/ 301
+/es/tags/advertising /es/tags/advertising/ 301
 /es/tags/ai /es/tags/ai/ 301
 /es/tags/akane /es/tags/akane/ 301
 /es/tags/alt-tab /es/tags/alt-tab/ 301
@@ -2957,6 +3014,8 @@
 /es/tags/awakening /es/tags/awakening/ 301
 /es/tags/a级 /es/tags/a级/ 301
 /es/tags/baicang /es/tags/baicang/ 301
+/es/tags/band /es/tags/band/ 301
+/es/tags/banned /es/tags/banned/ 301
 /es/tags/banner /es/tags/banner/ 301
 /es/tags/basics /es/tags/basics/ 301
 /es/tags/battery /es/tags/battery/ 301
@@ -2974,6 +3033,7 @@
 /es/tags/camellia-society /es/tags/camellia-society/ 301
 /es/tags/camera /es/tags/camera/ 301
 /es/tags/cars /es/tags/cars/ 301
+/es/tags/censorship /es/tags/censorship/ 301
 /es/tags/challenge /es/tags/challenge/ 301
 /es/tags/changelog /es/tags/changelog/ 301
 /es/tags/chaos /es/tags/chaos/ 301
@@ -2997,6 +3057,7 @@
 /es/tags/collection /es/tags/collection/ 301
 /es/tags/combat /es/tags/combat/ 301
 /es/tags/commissions /es/tags/commissions/ 301
+/es/tags/community /es/tags/community/ 301
 /es/tags/comparison /es/tags/comparison/ 301
 /es/tags/compensation /es/tags/compensation/ 301
 /es/tags/competitive /es/tags/competitive/ 301
@@ -3006,6 +3067,7 @@
 /es/tags/controller /es/tags/controller/ 301
 /es/tags/controls /es/tags/controls/ 301
 /es/tags/controversy /es/tags/controversy/ 301
+/es/tags/convenience-store /es/tags/convenience-store/ 301
 /es/tags/cosmos /es/tags/cosmos/ 301
 /es/tags/cosmos-blossom /es/tags/cosmos-blossom/ 301
 /es/tags/cpu /es/tags/cpu/ 301
@@ -3104,19 +3166,23 @@
 /es/tags/launch /es/tags/launch/ 301
 /es/tags/launch-error /es/tags/launch-error/ 301
 /es/tags/launcher /es/tags/launcher/ 301
+/es/tags/lawson /es/tags/lawson/ 301
 /es/tags/leisure /es/tags/leisure/ 301
 /es/tags/level /es/tags/level/ 301
 /es/tags/leveling /es/tags/leveling/ 301
 /es/tags/linking /es/tags/linking/ 301
 /es/tags/linux /es/tags/linux/ 301
 /es/tags/liquid /es/tags/liquid/ 301
+/es/tags/livestream /es/tags/livestream/ 301
 /es/tags/location /es/tags/location/ 301
 /es/tags/login /es/tags/login/ 301
+/es/tags/london /es/tags/london/ 301
 /es/tags/lore /es/tags/lore/ 301
 /es/tags/lost-tales /es/tags/lost-tales/ 301
 /es/tags/mahjong /es/tags/mahjong/ 301
 /es/tags/mammon /es/tags/mammon/ 301
 /es/tags/map /es/tags/map/ 301
+/es/tags/marketing /es/tags/marketing/ 301
 /es/tags/matchmaking /es/tags/matchmaking/ 301
 /es/tags/materials /es/tags/materials/ 301
 /es/tags/mechanic /es/tags/mechanic/ 301
@@ -3132,11 +3198,14 @@
 /es/tags/modules /es/tags/modules/ 301
 /es/tags/monthly-card /es/tags/monthly-card/ 301
 /es/tags/multiplayer /es/tags/multiplayer/ 301
+/es/tags/music /es/tags/music/ 301
+/es/tags/mygo /es/tags/mygo/ 301
 /es/tags/nanally /es/tags/nanally/ 301
 /es/tags/network /es/tags/network/ 301
 /es/tags/new-character /es/tags/new-character/ 301
 /es/tags/notes /es/tags/notes/ 301
 /es/tags/npc /es/tags/npc/ 301
+/es/tags/offline /es/tags/offline/ 301
 /es/tags/opening /es/tags/opening/ 301
 /es/tags/optimization /es/tags/optimization/ 301
 /es/tags/oracle-stone /es/tags/oracle-stone/ 301
@@ -3186,6 +3255,7 @@
 /es/tags/recovery /es/tags/recovery/ 301
 /es/tags/refund /es/tags/refund/ 301
 /es/tags/release /es/tags/release/ 301
+/es/tags/release-date /es/tags/release-date/ 301
 /es/tags/requirements /es/tags/requirements/ 301
 /es/tags/reroll /es/tags/reroll/ 301
 /es/tags/resonance /es/tags/resonance/ 301
@@ -3526,6 +3596,7 @@
 /fr/blog/nte-v10-launch-events /fr/blog/nte-v10-launch-events/ 301
 /fr/blog/nte-v11-collaboration-preview /fr/blog/nte-v11-collaboration-preview/ 301
 /fr/blog/nte-v11-preview /fr/blog/nte-v11-preview/ 301
+/fr/blog/nte-v11-preview-may-2026 /fr/blog/nte-v11-preview-may-2026/ 301
 /fr/blog/nte-version-1-0-update /fr/blog/nte-version-1-0-update/ 301
 /fr/blog/nte-vs-genshin-vs-wuthering-waves /fr/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /fr/blog/nte-week-one-recap /fr/blog/nte-week-one-recap/ 301
@@ -3719,6 +3790,7 @@
 /fr/faq/launch-date-2026 /fr/faq/launch-date-2026/ 301
 /fr/faq/launch-free-pulls-total /fr/faq/launch-free-pulls-total/ 301
 /fr/faq/launch-rewards-total /fr/faq/launch-rewards-total/ 301
+/fr/faq/lawson-collab-faq /fr/faq/lawson-collab-faq/ 301
 /fr/faq/livestream-codes-2026 /fr/faq/livestream-codes-2026/ 301
 /fr/faq/login-verification-code-not-received /fr/faq/login-verification-code-not-received/ 301
 /fr/faq/login-white-screen /fr/faq/login-white-screen/ 301
@@ -3740,6 +3812,7 @@
 /fr/faq/monthly-card-not-rewarded /fr/faq/monthly-card-not-rewarded/ 301
 /fr/faq/monthly-pass-not-received /fr/faq/monthly-pass-not-received/ 301
 /fr/faq/multiplayer-coop /fr/faq/multiplayer-coop/ 301
+/fr/faq/mygo-collab-faq /fr/faq/mygo-collab-faq/ 301
 /fr/faq/nanally-team-comp /fr/faq/nanally-team-comp/ 301
 /fr/faq/nanally-worth-building /fr/faq/nanally-worth-building/ 301
 /fr/faq/next-banner-schedule /fr/faq/next-banner-schedule/ 301
@@ -3764,6 +3837,7 @@
 /fr/faq/nte-hidden-easter-eggs /fr/faq/nte-hidden-easter-eggs/ 301
 /fr/faq/nte-mahjong-guide /fr/faq/nte-mahjong-guide/ 301
 /fr/faq/nte-mammon-guide /fr/faq/nte-mammon-guide/ 301
+/fr/faq/nte-marketing-highlights /fr/faq/nte-marketing-highlights/ 301
 /fr/faq/nte-mods-guide /fr/faq/nte-mods-guide/ 301
 /fr/faq/nte-optimization-tips /fr/faq/nte-optimization-tips/ 301
 /fr/faq/nte-patch-notes-guide /fr/faq/nte-patch-notes-guide/ 301
@@ -3834,6 +3908,7 @@
 /fr/faq/turbid-burn-team-guide /fr/faq/turbid-burn-team-guide/ 301
 /fr/faq/ue5-7-engine-update /fr/faq/ue5-7-engine-update/ 301
 /fr/faq/upcoming-characters /fr/faq/upcoming-characters/ 301
+/fr/faq/v11-release-date /fr/faq/v11-release-date/ 301
 /fr/faq/vehicle-driving /fr/faq/vehicle-driving/ 301
 /fr/faq/weapon-upgrade /fr/faq/weapon-upgrade/ 301
 /fr/faq/weapon-upgrade-faq /fr/faq/weapon-upgrade-faq/ 301
@@ -3841,6 +3916,7 @@
 /fr/faq/wrong-character-selection /fr/faq/wrong-character-selection/ 301
 /fr/faq/wrong-server-transfer /fr/faq/wrong-server-transfer/ 301
 /fr/faq/xiaozhi-free-s-rank /fr/faq/xiaozhi-free-s-rank/ 301
+/fr/faq/xun-banned-reason /fr/faq/xun-banned-reason/ 301
 /fr/faq/xun-character-faq /fr/faq/xun-character-faq/ 301
 /fr/gacha /fr/gacha/ 301
 /fr/gacha-analyzer /fr/gacha-analyzer/ 301
@@ -3991,6 +4067,7 @@
 /fr/tags/abyss /fr/tags/abyss/ 301
 /fr/tags/account /fr/tags/account/ 301
 /fr/tags/advanced /fr/tags/advanced/ 301
+/fr/tags/advertising /fr/tags/advertising/ 301
 /fr/tags/ai /fr/tags/ai/ 301
 /fr/tags/akane /fr/tags/akane/ 301
 /fr/tags/alt-tab /fr/tags/alt-tab/ 301
@@ -4011,6 +4088,8 @@
 /fr/tags/awakening /fr/tags/awakening/ 301
 /fr/tags/a级 /fr/tags/a级/ 301
 /fr/tags/baicang /fr/tags/baicang/ 301
+/fr/tags/band /fr/tags/band/ 301
+/fr/tags/banned /fr/tags/banned/ 301
 /fr/tags/banner /fr/tags/banner/ 301
 /fr/tags/basics /fr/tags/basics/ 301
 /fr/tags/battery /fr/tags/battery/ 301
@@ -4028,6 +4107,7 @@
 /fr/tags/camellia-society /fr/tags/camellia-society/ 301
 /fr/tags/camera /fr/tags/camera/ 301
 /fr/tags/cars /fr/tags/cars/ 301
+/fr/tags/censorship /fr/tags/censorship/ 301
 /fr/tags/challenge /fr/tags/challenge/ 301
 /fr/tags/changelog /fr/tags/changelog/ 301
 /fr/tags/chaos /fr/tags/chaos/ 301
@@ -4051,6 +4131,7 @@
 /fr/tags/collection /fr/tags/collection/ 301
 /fr/tags/combat /fr/tags/combat/ 301
 /fr/tags/commissions /fr/tags/commissions/ 301
+/fr/tags/community /fr/tags/community/ 301
 /fr/tags/comparison /fr/tags/comparison/ 301
 /fr/tags/compensation /fr/tags/compensation/ 301
 /fr/tags/competitive /fr/tags/competitive/ 301
@@ -4060,6 +4141,7 @@
 /fr/tags/controller /fr/tags/controller/ 301
 /fr/tags/controls /fr/tags/controls/ 301
 /fr/tags/controversy /fr/tags/controversy/ 301
+/fr/tags/convenience-store /fr/tags/convenience-store/ 301
 /fr/tags/cosmos /fr/tags/cosmos/ 301
 /fr/tags/cosmos-blossom /fr/tags/cosmos-blossom/ 301
 /fr/tags/cpu /fr/tags/cpu/ 301
@@ -4158,19 +4240,23 @@
 /fr/tags/launch /fr/tags/launch/ 301
 /fr/tags/launch-error /fr/tags/launch-error/ 301
 /fr/tags/launcher /fr/tags/launcher/ 301
+/fr/tags/lawson /fr/tags/lawson/ 301
 /fr/tags/leisure /fr/tags/leisure/ 301
 /fr/tags/level /fr/tags/level/ 301
 /fr/tags/leveling /fr/tags/leveling/ 301
 /fr/tags/linking /fr/tags/linking/ 301
 /fr/tags/linux /fr/tags/linux/ 301
 /fr/tags/liquid /fr/tags/liquid/ 301
+/fr/tags/livestream /fr/tags/livestream/ 301
 /fr/tags/location /fr/tags/location/ 301
 /fr/tags/login /fr/tags/login/ 301
+/fr/tags/london /fr/tags/london/ 301
 /fr/tags/lore /fr/tags/lore/ 301
 /fr/tags/lost-tales /fr/tags/lost-tales/ 301
 /fr/tags/mahjong /fr/tags/mahjong/ 301
 /fr/tags/mammon /fr/tags/mammon/ 301
 /fr/tags/map /fr/tags/map/ 301
+/fr/tags/marketing /fr/tags/marketing/ 301
 /fr/tags/matchmaking /fr/tags/matchmaking/ 301
 /fr/tags/materials /fr/tags/materials/ 301
 /fr/tags/mechanic /fr/tags/mechanic/ 301
@@ -4186,11 +4272,14 @@
 /fr/tags/modules /fr/tags/modules/ 301
 /fr/tags/monthly-card /fr/tags/monthly-card/ 301
 /fr/tags/multiplayer /fr/tags/multiplayer/ 301
+/fr/tags/music /fr/tags/music/ 301
+/fr/tags/mygo /fr/tags/mygo/ 301
 /fr/tags/nanally /fr/tags/nanally/ 301
 /fr/tags/network /fr/tags/network/ 301
 /fr/tags/new-character /fr/tags/new-character/ 301
 /fr/tags/notes /fr/tags/notes/ 301
 /fr/tags/npc /fr/tags/npc/ 301
+/fr/tags/offline /fr/tags/offline/ 301
 /fr/tags/opening /fr/tags/opening/ 301
 /fr/tags/optimization /fr/tags/optimization/ 301
 /fr/tags/oracle-stone /fr/tags/oracle-stone/ 301
@@ -4240,6 +4329,7 @@
 /fr/tags/recovery /fr/tags/recovery/ 301
 /fr/tags/refund /fr/tags/refund/ 301
 /fr/tags/release /fr/tags/release/ 301
+/fr/tags/release-date /fr/tags/release-date/ 301
 /fr/tags/requirements /fr/tags/requirements/ 301
 /fr/tags/reroll /fr/tags/reroll/ 301
 /fr/tags/resonance /fr/tags/resonance/ 301
@@ -4580,6 +4670,7 @@
 /id/blog/nte-v10-launch-events /id/blog/nte-v10-launch-events/ 301
 /id/blog/nte-v11-collaboration-preview /id/blog/nte-v11-collaboration-preview/ 301
 /id/blog/nte-v11-preview /id/blog/nte-v11-preview/ 301
+/id/blog/nte-v11-preview-may-2026 /id/blog/nte-v11-preview-may-2026/ 301
 /id/blog/nte-version-1-0-update /id/blog/nte-version-1-0-update/ 301
 /id/blog/nte-vs-genshin-vs-wuthering-waves /id/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /id/blog/nte-week-one-recap /id/blog/nte-week-one-recap/ 301
@@ -4773,6 +4864,7 @@
 /id/faq/launch-date-2026 /id/faq/launch-date-2026/ 301
 /id/faq/launch-free-pulls-total /id/faq/launch-free-pulls-total/ 301
 /id/faq/launch-rewards-total /id/faq/launch-rewards-total/ 301
+/id/faq/lawson-collab-faq /id/faq/lawson-collab-faq/ 301
 /id/faq/livestream-codes-2026 /id/faq/livestream-codes-2026/ 301
 /id/faq/login-verification-code-not-received /id/faq/login-verification-code-not-received/ 301
 /id/faq/login-white-screen /id/faq/login-white-screen/ 301
@@ -4794,6 +4886,7 @@
 /id/faq/monthly-card-not-rewarded /id/faq/monthly-card-not-rewarded/ 301
 /id/faq/monthly-pass-not-received /id/faq/monthly-pass-not-received/ 301
 /id/faq/multiplayer-coop /id/faq/multiplayer-coop/ 301
+/id/faq/mygo-collab-faq /id/faq/mygo-collab-faq/ 301
 /id/faq/nanally-team-comp /id/faq/nanally-team-comp/ 301
 /id/faq/nanally-worth-building /id/faq/nanally-worth-building/ 301
 /id/faq/next-banner-schedule /id/faq/next-banner-schedule/ 301
@@ -4818,6 +4911,7 @@
 /id/faq/nte-hidden-easter-eggs /id/faq/nte-hidden-easter-eggs/ 301
 /id/faq/nte-mahjong-guide /id/faq/nte-mahjong-guide/ 301
 /id/faq/nte-mammon-guide /id/faq/nte-mammon-guide/ 301
+/id/faq/nte-marketing-highlights /id/faq/nte-marketing-highlights/ 301
 /id/faq/nte-mods-guide /id/faq/nte-mods-guide/ 301
 /id/faq/nte-optimization-tips /id/faq/nte-optimization-tips/ 301
 /id/faq/nte-patch-notes-guide /id/faq/nte-patch-notes-guide/ 301
@@ -4888,6 +4982,7 @@
 /id/faq/turbid-burn-team-guide /id/faq/turbid-burn-team-guide/ 301
 /id/faq/ue5-7-engine-update /id/faq/ue5-7-engine-update/ 301
 /id/faq/upcoming-characters /id/faq/upcoming-characters/ 301
+/id/faq/v11-release-date /id/faq/v11-release-date/ 301
 /id/faq/vehicle-driving /id/faq/vehicle-driving/ 301
 /id/faq/weapon-upgrade /id/faq/weapon-upgrade/ 301
 /id/faq/weapon-upgrade-faq /id/faq/weapon-upgrade-faq/ 301
@@ -4895,6 +4990,7 @@
 /id/faq/wrong-character-selection /id/faq/wrong-character-selection/ 301
 /id/faq/wrong-server-transfer /id/faq/wrong-server-transfer/ 301
 /id/faq/xiaozhi-free-s-rank /id/faq/xiaozhi-free-s-rank/ 301
+/id/faq/xun-banned-reason /id/faq/xun-banned-reason/ 301
 /id/faq/xun-character-faq /id/faq/xun-character-faq/ 301
 /id/gacha /id/gacha/ 301
 /id/gacha-analyzer /id/gacha-analyzer/ 301
@@ -5045,6 +5141,7 @@
 /id/tags/abyss /id/tags/abyss/ 301
 /id/tags/account /id/tags/account/ 301
 /id/tags/advanced /id/tags/advanced/ 301
+/id/tags/advertising /id/tags/advertising/ 301
 /id/tags/ai /id/tags/ai/ 301
 /id/tags/akane /id/tags/akane/ 301
 /id/tags/alt-tab /id/tags/alt-tab/ 301
@@ -5065,6 +5162,8 @@
 /id/tags/awakening /id/tags/awakening/ 301
 /id/tags/a级 /id/tags/a级/ 301
 /id/tags/baicang /id/tags/baicang/ 301
+/id/tags/band /id/tags/band/ 301
+/id/tags/banned /id/tags/banned/ 301
 /id/tags/banner /id/tags/banner/ 301
 /id/tags/basics /id/tags/basics/ 301
 /id/tags/battery /id/tags/battery/ 301
@@ -5082,6 +5181,7 @@
 /id/tags/camellia-society /id/tags/camellia-society/ 301
 /id/tags/camera /id/tags/camera/ 301
 /id/tags/cars /id/tags/cars/ 301
+/id/tags/censorship /id/tags/censorship/ 301
 /id/tags/challenge /id/tags/challenge/ 301
 /id/tags/changelog /id/tags/changelog/ 301
 /id/tags/chaos /id/tags/chaos/ 301
@@ -5105,6 +5205,7 @@
 /id/tags/collection /id/tags/collection/ 301
 /id/tags/combat /id/tags/combat/ 301
 /id/tags/commissions /id/tags/commissions/ 301
+/id/tags/community /id/tags/community/ 301
 /id/tags/comparison /id/tags/comparison/ 301
 /id/tags/compensation /id/tags/compensation/ 301
 /id/tags/competitive /id/tags/competitive/ 301
@@ -5114,6 +5215,7 @@
 /id/tags/controller /id/tags/controller/ 301
 /id/tags/controls /id/tags/controls/ 301
 /id/tags/controversy /id/tags/controversy/ 301
+/id/tags/convenience-store /id/tags/convenience-store/ 301
 /id/tags/cosmos /id/tags/cosmos/ 301
 /id/tags/cosmos-blossom /id/tags/cosmos-blossom/ 301
 /id/tags/cpu /id/tags/cpu/ 301
@@ -5212,19 +5314,23 @@
 /id/tags/launch /id/tags/launch/ 301
 /id/tags/launch-error /id/tags/launch-error/ 301
 /id/tags/launcher /id/tags/launcher/ 301
+/id/tags/lawson /id/tags/lawson/ 301
 /id/tags/leisure /id/tags/leisure/ 301
 /id/tags/level /id/tags/level/ 301
 /id/tags/leveling /id/tags/leveling/ 301
 /id/tags/linking /id/tags/linking/ 301
 /id/tags/linux /id/tags/linux/ 301
 /id/tags/liquid /id/tags/liquid/ 301
+/id/tags/livestream /id/tags/livestream/ 301
 /id/tags/location /id/tags/location/ 301
 /id/tags/login /id/tags/login/ 301
+/id/tags/london /id/tags/london/ 301
 /id/tags/lore /id/tags/lore/ 301
 /id/tags/lost-tales /id/tags/lost-tales/ 301
 /id/tags/mahjong /id/tags/mahjong/ 301
 /id/tags/mammon /id/tags/mammon/ 301
 /id/tags/map /id/tags/map/ 301
+/id/tags/marketing /id/tags/marketing/ 301
 /id/tags/matchmaking /id/tags/matchmaking/ 301
 /id/tags/materials /id/tags/materials/ 301
 /id/tags/mechanic /id/tags/mechanic/ 301
@@ -5240,11 +5346,14 @@
 /id/tags/modules /id/tags/modules/ 301
 /id/tags/monthly-card /id/tags/monthly-card/ 301
 /id/tags/multiplayer /id/tags/multiplayer/ 301
+/id/tags/music /id/tags/music/ 301
+/id/tags/mygo /id/tags/mygo/ 301
 /id/tags/nanally /id/tags/nanally/ 301
 /id/tags/network /id/tags/network/ 301
 /id/tags/new-character /id/tags/new-character/ 301
 /id/tags/notes /id/tags/notes/ 301
 /id/tags/npc /id/tags/npc/ 301
+/id/tags/offline /id/tags/offline/ 301
 /id/tags/opening /id/tags/opening/ 301
 /id/tags/optimization /id/tags/optimization/ 301
 /id/tags/oracle-stone /id/tags/oracle-stone/ 301
@@ -5294,6 +5403,7 @@
 /id/tags/recovery /id/tags/recovery/ 301
 /id/tags/refund /id/tags/refund/ 301
 /id/tags/release /id/tags/release/ 301
+/id/tags/release-date /id/tags/release-date/ 301
 /id/tags/requirements /id/tags/requirements/ 301
 /id/tags/reroll /id/tags/reroll/ 301
 /id/tags/resonance /id/tags/resonance/ 301
@@ -5634,6 +5744,7 @@
 /ja/blog/nte-v10-launch-events /ja/blog/nte-v10-launch-events/ 301
 /ja/blog/nte-v11-collaboration-preview /ja/blog/nte-v11-collaboration-preview/ 301
 /ja/blog/nte-v11-preview /ja/blog/nte-v11-preview/ 301
+/ja/blog/nte-v11-preview-may-2026 /ja/blog/nte-v11-preview-may-2026/ 301
 /ja/blog/nte-version-1-0-update /ja/blog/nte-version-1-0-update/ 301
 /ja/blog/nte-vs-genshin-vs-wuthering-waves /ja/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /ja/blog/nte-week-one-recap /ja/blog/nte-week-one-recap/ 301
@@ -5827,6 +5938,7 @@
 /ja/faq/launch-date-2026 /ja/faq/launch-date-2026/ 301
 /ja/faq/launch-free-pulls-total /ja/faq/launch-free-pulls-total/ 301
 /ja/faq/launch-rewards-total /ja/faq/launch-rewards-total/ 301
+/ja/faq/lawson-collab-faq /ja/faq/lawson-collab-faq/ 301
 /ja/faq/livestream-codes-2026 /ja/faq/livestream-codes-2026/ 301
 /ja/faq/login-verification-code-not-received /ja/faq/login-verification-code-not-received/ 301
 /ja/faq/login-white-screen /ja/faq/login-white-screen/ 301
@@ -5848,6 +5960,7 @@
 /ja/faq/monthly-card-not-rewarded /ja/faq/monthly-card-not-rewarded/ 301
 /ja/faq/monthly-pass-not-received /ja/faq/monthly-pass-not-received/ 301
 /ja/faq/multiplayer-coop /ja/faq/multiplayer-coop/ 301
+/ja/faq/mygo-collab-faq /ja/faq/mygo-collab-faq/ 301
 /ja/faq/nanally-team-comp /ja/faq/nanally-team-comp/ 301
 /ja/faq/nanally-worth-building /ja/faq/nanally-worth-building/ 301
 /ja/faq/next-banner-schedule /ja/faq/next-banner-schedule/ 301
@@ -5872,6 +5985,7 @@
 /ja/faq/nte-hidden-easter-eggs /ja/faq/nte-hidden-easter-eggs/ 301
 /ja/faq/nte-mahjong-guide /ja/faq/nte-mahjong-guide/ 301
 /ja/faq/nte-mammon-guide /ja/faq/nte-mammon-guide/ 301
+/ja/faq/nte-marketing-highlights /ja/faq/nte-marketing-highlights/ 301
 /ja/faq/nte-mods-guide /ja/faq/nte-mods-guide/ 301
 /ja/faq/nte-optimization-tips /ja/faq/nte-optimization-tips/ 301
 /ja/faq/nte-patch-notes-guide /ja/faq/nte-patch-notes-guide/ 301
@@ -5942,6 +6056,7 @@
 /ja/faq/turbid-burn-team-guide /ja/faq/turbid-burn-team-guide/ 301
 /ja/faq/ue5-7-engine-update /ja/faq/ue5-7-engine-update/ 301
 /ja/faq/upcoming-characters /ja/faq/upcoming-characters/ 301
+/ja/faq/v11-release-date /ja/faq/v11-release-date/ 301
 /ja/faq/vehicle-driving /ja/faq/vehicle-driving/ 301
 /ja/faq/weapon-upgrade /ja/faq/weapon-upgrade/ 301
 /ja/faq/weapon-upgrade-faq /ja/faq/weapon-upgrade-faq/ 301
@@ -5949,6 +6064,7 @@
 /ja/faq/wrong-character-selection /ja/faq/wrong-character-selection/ 301
 /ja/faq/wrong-server-transfer /ja/faq/wrong-server-transfer/ 301
 /ja/faq/xiaozhi-free-s-rank /ja/faq/xiaozhi-free-s-rank/ 301
+/ja/faq/xun-banned-reason /ja/faq/xun-banned-reason/ 301
 /ja/faq/xun-character-faq /ja/faq/xun-character-faq/ 301
 /ja/gacha /ja/gacha/ 301
 /ja/gacha-analyzer /ja/gacha-analyzer/ 301
@@ -6099,6 +6215,7 @@
 /ja/tags/abyss /ja/tags/abyss/ 301
 /ja/tags/account /ja/tags/account/ 301
 /ja/tags/advanced /ja/tags/advanced/ 301
+/ja/tags/advertising /ja/tags/advertising/ 301
 /ja/tags/ai /ja/tags/ai/ 301
 /ja/tags/akane /ja/tags/akane/ 301
 /ja/tags/alt-tab /ja/tags/alt-tab/ 301
@@ -6119,6 +6236,8 @@
 /ja/tags/awakening /ja/tags/awakening/ 301
 /ja/tags/a级 /ja/tags/a级/ 301
 /ja/tags/baicang /ja/tags/baicang/ 301
+/ja/tags/band /ja/tags/band/ 301
+/ja/tags/banned /ja/tags/banned/ 301
 /ja/tags/banner /ja/tags/banner/ 301
 /ja/tags/basics /ja/tags/basics/ 301
 /ja/tags/battery /ja/tags/battery/ 301
@@ -6136,6 +6255,7 @@
 /ja/tags/camellia-society /ja/tags/camellia-society/ 301
 /ja/tags/camera /ja/tags/camera/ 301
 /ja/tags/cars /ja/tags/cars/ 301
+/ja/tags/censorship /ja/tags/censorship/ 301
 /ja/tags/challenge /ja/tags/challenge/ 301
 /ja/tags/changelog /ja/tags/changelog/ 301
 /ja/tags/chaos /ja/tags/chaos/ 301
@@ -6159,6 +6279,7 @@
 /ja/tags/collection /ja/tags/collection/ 301
 /ja/tags/combat /ja/tags/combat/ 301
 /ja/tags/commissions /ja/tags/commissions/ 301
+/ja/tags/community /ja/tags/community/ 301
 /ja/tags/comparison /ja/tags/comparison/ 301
 /ja/tags/compensation /ja/tags/compensation/ 301
 /ja/tags/competitive /ja/tags/competitive/ 301
@@ -6168,6 +6289,7 @@
 /ja/tags/controller /ja/tags/controller/ 301
 /ja/tags/controls /ja/tags/controls/ 301
 /ja/tags/controversy /ja/tags/controversy/ 301
+/ja/tags/convenience-store /ja/tags/convenience-store/ 301
 /ja/tags/cosmos /ja/tags/cosmos/ 301
 /ja/tags/cosmos-blossom /ja/tags/cosmos-blossom/ 301
 /ja/tags/cpu /ja/tags/cpu/ 301
@@ -6266,19 +6388,23 @@
 /ja/tags/launch /ja/tags/launch/ 301
 /ja/tags/launch-error /ja/tags/launch-error/ 301
 /ja/tags/launcher /ja/tags/launcher/ 301
+/ja/tags/lawson /ja/tags/lawson/ 301
 /ja/tags/leisure /ja/tags/leisure/ 301
 /ja/tags/level /ja/tags/level/ 301
 /ja/tags/leveling /ja/tags/leveling/ 301
 /ja/tags/linking /ja/tags/linking/ 301
 /ja/tags/linux /ja/tags/linux/ 301
 /ja/tags/liquid /ja/tags/liquid/ 301
+/ja/tags/livestream /ja/tags/livestream/ 301
 /ja/tags/location /ja/tags/location/ 301
 /ja/tags/login /ja/tags/login/ 301
+/ja/tags/london /ja/tags/london/ 301
 /ja/tags/lore /ja/tags/lore/ 301
 /ja/tags/lost-tales /ja/tags/lost-tales/ 301
 /ja/tags/mahjong /ja/tags/mahjong/ 301
 /ja/tags/mammon /ja/tags/mammon/ 301
 /ja/tags/map /ja/tags/map/ 301
+/ja/tags/marketing /ja/tags/marketing/ 301
 /ja/tags/matchmaking /ja/tags/matchmaking/ 301
 /ja/tags/materials /ja/tags/materials/ 301
 /ja/tags/mechanic /ja/tags/mechanic/ 301
@@ -6294,11 +6420,14 @@
 /ja/tags/modules /ja/tags/modules/ 301
 /ja/tags/monthly-card /ja/tags/monthly-card/ 301
 /ja/tags/multiplayer /ja/tags/multiplayer/ 301
+/ja/tags/music /ja/tags/music/ 301
+/ja/tags/mygo /ja/tags/mygo/ 301
 /ja/tags/nanally /ja/tags/nanally/ 301
 /ja/tags/network /ja/tags/network/ 301
 /ja/tags/new-character /ja/tags/new-character/ 301
 /ja/tags/notes /ja/tags/notes/ 301
 /ja/tags/npc /ja/tags/npc/ 301
+/ja/tags/offline /ja/tags/offline/ 301
 /ja/tags/opening /ja/tags/opening/ 301
 /ja/tags/optimization /ja/tags/optimization/ 301
 /ja/tags/oracle-stone /ja/tags/oracle-stone/ 301
@@ -6348,6 +6477,7 @@
 /ja/tags/recovery /ja/tags/recovery/ 301
 /ja/tags/refund /ja/tags/refund/ 301
 /ja/tags/release /ja/tags/release/ 301
+/ja/tags/release-date /ja/tags/release-date/ 301
 /ja/tags/requirements /ja/tags/requirements/ 301
 /ja/tags/reroll /ja/tags/reroll/ 301
 /ja/tags/resonance /ja/tags/resonance/ 301
@@ -6688,6 +6818,7 @@
 /ko/blog/nte-v10-launch-events /ko/blog/nte-v10-launch-events/ 301
 /ko/blog/nte-v11-collaboration-preview /ko/blog/nte-v11-collaboration-preview/ 301
 /ko/blog/nte-v11-preview /ko/blog/nte-v11-preview/ 301
+/ko/blog/nte-v11-preview-may-2026 /ko/blog/nte-v11-preview-may-2026/ 301
 /ko/blog/nte-version-1-0-update /ko/blog/nte-version-1-0-update/ 301
 /ko/blog/nte-vs-genshin-vs-wuthering-waves /ko/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /ko/blog/nte-week-one-recap /ko/blog/nte-week-one-recap/ 301
@@ -6881,6 +7012,7 @@
 /ko/faq/launch-date-2026 /ko/faq/launch-date-2026/ 301
 /ko/faq/launch-free-pulls-total /ko/faq/launch-free-pulls-total/ 301
 /ko/faq/launch-rewards-total /ko/faq/launch-rewards-total/ 301
+/ko/faq/lawson-collab-faq /ko/faq/lawson-collab-faq/ 301
 /ko/faq/livestream-codes-2026 /ko/faq/livestream-codes-2026/ 301
 /ko/faq/login-verification-code-not-received /ko/faq/login-verification-code-not-received/ 301
 /ko/faq/login-white-screen /ko/faq/login-white-screen/ 301
@@ -6902,6 +7034,7 @@
 /ko/faq/monthly-card-not-rewarded /ko/faq/monthly-card-not-rewarded/ 301
 /ko/faq/monthly-pass-not-received /ko/faq/monthly-pass-not-received/ 301
 /ko/faq/multiplayer-coop /ko/faq/multiplayer-coop/ 301
+/ko/faq/mygo-collab-faq /ko/faq/mygo-collab-faq/ 301
 /ko/faq/nanally-team-comp /ko/faq/nanally-team-comp/ 301
 /ko/faq/nanally-worth-building /ko/faq/nanally-worth-building/ 301
 /ko/faq/next-banner-schedule /ko/faq/next-banner-schedule/ 301
@@ -6926,6 +7059,7 @@
 /ko/faq/nte-hidden-easter-eggs /ko/faq/nte-hidden-easter-eggs/ 301
 /ko/faq/nte-mahjong-guide /ko/faq/nte-mahjong-guide/ 301
 /ko/faq/nte-mammon-guide /ko/faq/nte-mammon-guide/ 301
+/ko/faq/nte-marketing-highlights /ko/faq/nte-marketing-highlights/ 301
 /ko/faq/nte-mods-guide /ko/faq/nte-mods-guide/ 301
 /ko/faq/nte-optimization-tips /ko/faq/nte-optimization-tips/ 301
 /ko/faq/nte-patch-notes-guide /ko/faq/nte-patch-notes-guide/ 301
@@ -6996,6 +7130,7 @@
 /ko/faq/turbid-burn-team-guide /ko/faq/turbid-burn-team-guide/ 301
 /ko/faq/ue5-7-engine-update /ko/faq/ue5-7-engine-update/ 301
 /ko/faq/upcoming-characters /ko/faq/upcoming-characters/ 301
+/ko/faq/v11-release-date /ko/faq/v11-release-date/ 301
 /ko/faq/vehicle-driving /ko/faq/vehicle-driving/ 301
 /ko/faq/weapon-upgrade /ko/faq/weapon-upgrade/ 301
 /ko/faq/weapon-upgrade-faq /ko/faq/weapon-upgrade-faq/ 301
@@ -7003,6 +7138,7 @@
 /ko/faq/wrong-character-selection /ko/faq/wrong-character-selection/ 301
 /ko/faq/wrong-server-transfer /ko/faq/wrong-server-transfer/ 301
 /ko/faq/xiaozhi-free-s-rank /ko/faq/xiaozhi-free-s-rank/ 301
+/ko/faq/xun-banned-reason /ko/faq/xun-banned-reason/ 301
 /ko/faq/xun-character-faq /ko/faq/xun-character-faq/ 301
 /ko/gacha /ko/gacha/ 301
 /ko/gacha-analyzer /ko/gacha-analyzer/ 301
@@ -7153,6 +7289,7 @@
 /ko/tags/abyss /ko/tags/abyss/ 301
 /ko/tags/account /ko/tags/account/ 301
 /ko/tags/advanced /ko/tags/advanced/ 301
+/ko/tags/advertising /ko/tags/advertising/ 301
 /ko/tags/ai /ko/tags/ai/ 301
 /ko/tags/akane /ko/tags/akane/ 301
 /ko/tags/alt-tab /ko/tags/alt-tab/ 301
@@ -7173,6 +7310,8 @@
 /ko/tags/awakening /ko/tags/awakening/ 301
 /ko/tags/a级 /ko/tags/a级/ 301
 /ko/tags/baicang /ko/tags/baicang/ 301
+/ko/tags/band /ko/tags/band/ 301
+/ko/tags/banned /ko/tags/banned/ 301
 /ko/tags/banner /ko/tags/banner/ 301
 /ko/tags/basics /ko/tags/basics/ 301
 /ko/tags/battery /ko/tags/battery/ 301
@@ -7190,6 +7329,7 @@
 /ko/tags/camellia-society /ko/tags/camellia-society/ 301
 /ko/tags/camera /ko/tags/camera/ 301
 /ko/tags/cars /ko/tags/cars/ 301
+/ko/tags/censorship /ko/tags/censorship/ 301
 /ko/tags/challenge /ko/tags/challenge/ 301
 /ko/tags/changelog /ko/tags/changelog/ 301
 /ko/tags/chaos /ko/tags/chaos/ 301
@@ -7213,6 +7353,7 @@
 /ko/tags/collection /ko/tags/collection/ 301
 /ko/tags/combat /ko/tags/combat/ 301
 /ko/tags/commissions /ko/tags/commissions/ 301
+/ko/tags/community /ko/tags/community/ 301
 /ko/tags/comparison /ko/tags/comparison/ 301
 /ko/tags/compensation /ko/tags/compensation/ 301
 /ko/tags/competitive /ko/tags/competitive/ 301
@@ -7222,6 +7363,7 @@
 /ko/tags/controller /ko/tags/controller/ 301
 /ko/tags/controls /ko/tags/controls/ 301
 /ko/tags/controversy /ko/tags/controversy/ 301
+/ko/tags/convenience-store /ko/tags/convenience-store/ 301
 /ko/tags/cosmos /ko/tags/cosmos/ 301
 /ko/tags/cosmos-blossom /ko/tags/cosmos-blossom/ 301
 /ko/tags/cpu /ko/tags/cpu/ 301
@@ -7320,19 +7462,23 @@
 /ko/tags/launch /ko/tags/launch/ 301
 /ko/tags/launch-error /ko/tags/launch-error/ 301
 /ko/tags/launcher /ko/tags/launcher/ 301
+/ko/tags/lawson /ko/tags/lawson/ 301
 /ko/tags/leisure /ko/tags/leisure/ 301
 /ko/tags/level /ko/tags/level/ 301
 /ko/tags/leveling /ko/tags/leveling/ 301
 /ko/tags/linking /ko/tags/linking/ 301
 /ko/tags/linux /ko/tags/linux/ 301
 /ko/tags/liquid /ko/tags/liquid/ 301
+/ko/tags/livestream /ko/tags/livestream/ 301
 /ko/tags/location /ko/tags/location/ 301
 /ko/tags/login /ko/tags/login/ 301
+/ko/tags/london /ko/tags/london/ 301
 /ko/tags/lore /ko/tags/lore/ 301
 /ko/tags/lost-tales /ko/tags/lost-tales/ 301
 /ko/tags/mahjong /ko/tags/mahjong/ 301
 /ko/tags/mammon /ko/tags/mammon/ 301
 /ko/tags/map /ko/tags/map/ 301
+/ko/tags/marketing /ko/tags/marketing/ 301
 /ko/tags/matchmaking /ko/tags/matchmaking/ 301
 /ko/tags/materials /ko/tags/materials/ 301
 /ko/tags/mechanic /ko/tags/mechanic/ 301
@@ -7348,11 +7494,14 @@
 /ko/tags/modules /ko/tags/modules/ 301
 /ko/tags/monthly-card /ko/tags/monthly-card/ 301
 /ko/tags/multiplayer /ko/tags/multiplayer/ 301
+/ko/tags/music /ko/tags/music/ 301
+/ko/tags/mygo /ko/tags/mygo/ 301
 /ko/tags/nanally /ko/tags/nanally/ 301
 /ko/tags/network /ko/tags/network/ 301
 /ko/tags/new-character /ko/tags/new-character/ 301
 /ko/tags/notes /ko/tags/notes/ 301
 /ko/tags/npc /ko/tags/npc/ 301
+/ko/tags/offline /ko/tags/offline/ 301
 /ko/tags/opening /ko/tags/opening/ 301
 /ko/tags/optimization /ko/tags/optimization/ 301
 /ko/tags/oracle-stone /ko/tags/oracle-stone/ 301
@@ -7402,6 +7551,7 @@
 /ko/tags/recovery /ko/tags/recovery/ 301
 /ko/tags/refund /ko/tags/refund/ 301
 /ko/tags/release /ko/tags/release/ 301
+/ko/tags/release-date /ko/tags/release-date/ 301
 /ko/tags/requirements /ko/tags/requirements/ 301
 /ko/tags/reroll /ko/tags/reroll/ 301
 /ko/tags/resonance /ko/tags/resonance/ 301
@@ -7742,6 +7892,7 @@
 /pt-br/blog/nte-v10-launch-events /pt-br/blog/nte-v10-launch-events/ 301
 /pt-br/blog/nte-v11-collaboration-preview /pt-br/blog/nte-v11-collaboration-preview/ 301
 /pt-br/blog/nte-v11-preview /pt-br/blog/nte-v11-preview/ 301
+/pt-br/blog/nte-v11-preview-may-2026 /pt-br/blog/nte-v11-preview-may-2026/ 301
 /pt-br/blog/nte-version-1-0-update /pt-br/blog/nte-version-1-0-update/ 301
 /pt-br/blog/nte-vs-genshin-vs-wuthering-waves /pt-br/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /pt-br/blog/nte-week-one-recap /pt-br/blog/nte-week-one-recap/ 301
@@ -7935,6 +8086,7 @@
 /pt-br/faq/launch-date-2026 /pt-br/faq/launch-date-2026/ 301
 /pt-br/faq/launch-free-pulls-total /pt-br/faq/launch-free-pulls-total/ 301
 /pt-br/faq/launch-rewards-total /pt-br/faq/launch-rewards-total/ 301
+/pt-br/faq/lawson-collab-faq /pt-br/faq/lawson-collab-faq/ 301
 /pt-br/faq/livestream-codes-2026 /pt-br/faq/livestream-codes-2026/ 301
 /pt-br/faq/login-verification-code-not-received /pt-br/faq/login-verification-code-not-received/ 301
 /pt-br/faq/login-white-screen /pt-br/faq/login-white-screen/ 301
@@ -7956,6 +8108,7 @@
 /pt-br/faq/monthly-card-not-rewarded /pt-br/faq/monthly-card-not-rewarded/ 301
 /pt-br/faq/monthly-pass-not-received /pt-br/faq/monthly-pass-not-received/ 301
 /pt-br/faq/multiplayer-coop /pt-br/faq/multiplayer-coop/ 301
+/pt-br/faq/mygo-collab-faq /pt-br/faq/mygo-collab-faq/ 301
 /pt-br/faq/nanally-team-comp /pt-br/faq/nanally-team-comp/ 301
 /pt-br/faq/nanally-worth-building /pt-br/faq/nanally-worth-building/ 301
 /pt-br/faq/next-banner-schedule /pt-br/faq/next-banner-schedule/ 301
@@ -7980,6 +8133,7 @@
 /pt-br/faq/nte-hidden-easter-eggs /pt-br/faq/nte-hidden-easter-eggs/ 301
 /pt-br/faq/nte-mahjong-guide /pt-br/faq/nte-mahjong-guide/ 301
 /pt-br/faq/nte-mammon-guide /pt-br/faq/nte-mammon-guide/ 301
+/pt-br/faq/nte-marketing-highlights /pt-br/faq/nte-marketing-highlights/ 301
 /pt-br/faq/nte-mods-guide /pt-br/faq/nte-mods-guide/ 301
 /pt-br/faq/nte-optimization-tips /pt-br/faq/nte-optimization-tips/ 301
 /pt-br/faq/nte-patch-notes-guide /pt-br/faq/nte-patch-notes-guide/ 301
@@ -8050,6 +8204,7 @@
 /pt-br/faq/turbid-burn-team-guide /pt-br/faq/turbid-burn-team-guide/ 301
 /pt-br/faq/ue5-7-engine-update /pt-br/faq/ue5-7-engine-update/ 301
 /pt-br/faq/upcoming-characters /pt-br/faq/upcoming-characters/ 301
+/pt-br/faq/v11-release-date /pt-br/faq/v11-release-date/ 301
 /pt-br/faq/vehicle-driving /pt-br/faq/vehicle-driving/ 301
 /pt-br/faq/weapon-upgrade /pt-br/faq/weapon-upgrade/ 301
 /pt-br/faq/weapon-upgrade-faq /pt-br/faq/weapon-upgrade-faq/ 301
@@ -8057,6 +8212,7 @@
 /pt-br/faq/wrong-character-selection /pt-br/faq/wrong-character-selection/ 301
 /pt-br/faq/wrong-server-transfer /pt-br/faq/wrong-server-transfer/ 301
 /pt-br/faq/xiaozhi-free-s-rank /pt-br/faq/xiaozhi-free-s-rank/ 301
+/pt-br/faq/xun-banned-reason /pt-br/faq/xun-banned-reason/ 301
 /pt-br/faq/xun-character-faq /pt-br/faq/xun-character-faq/ 301
 /pt-br/gacha /pt-br/gacha/ 301
 /pt-br/gacha-analyzer /pt-br/gacha-analyzer/ 301
@@ -8207,6 +8363,7 @@
 /pt-br/tags/abyss /pt-br/tags/abyss/ 301
 /pt-br/tags/account /pt-br/tags/account/ 301
 /pt-br/tags/advanced /pt-br/tags/advanced/ 301
+/pt-br/tags/advertising /pt-br/tags/advertising/ 301
 /pt-br/tags/ai /pt-br/tags/ai/ 301
 /pt-br/tags/akane /pt-br/tags/akane/ 301
 /pt-br/tags/alt-tab /pt-br/tags/alt-tab/ 301
@@ -8227,6 +8384,8 @@
 /pt-br/tags/awakening /pt-br/tags/awakening/ 301
 /pt-br/tags/a级 /pt-br/tags/a级/ 301
 /pt-br/tags/baicang /pt-br/tags/baicang/ 301
+/pt-br/tags/band /pt-br/tags/band/ 301
+/pt-br/tags/banned /pt-br/tags/banned/ 301
 /pt-br/tags/banner /pt-br/tags/banner/ 301
 /pt-br/tags/basics /pt-br/tags/basics/ 301
 /pt-br/tags/battery /pt-br/tags/battery/ 301
@@ -8244,6 +8403,7 @@
 /pt-br/tags/camellia-society /pt-br/tags/camellia-society/ 301
 /pt-br/tags/camera /pt-br/tags/camera/ 301
 /pt-br/tags/cars /pt-br/tags/cars/ 301
+/pt-br/tags/censorship /pt-br/tags/censorship/ 301
 /pt-br/tags/challenge /pt-br/tags/challenge/ 301
 /pt-br/tags/changelog /pt-br/tags/changelog/ 301
 /pt-br/tags/chaos /pt-br/tags/chaos/ 301
@@ -8267,6 +8427,7 @@
 /pt-br/tags/collection /pt-br/tags/collection/ 301
 /pt-br/tags/combat /pt-br/tags/combat/ 301
 /pt-br/tags/commissions /pt-br/tags/commissions/ 301
+/pt-br/tags/community /pt-br/tags/community/ 301
 /pt-br/tags/comparison /pt-br/tags/comparison/ 301
 /pt-br/tags/compensation /pt-br/tags/compensation/ 301
 /pt-br/tags/competitive /pt-br/tags/competitive/ 301
@@ -8276,6 +8437,7 @@
 /pt-br/tags/controller /pt-br/tags/controller/ 301
 /pt-br/tags/controls /pt-br/tags/controls/ 301
 /pt-br/tags/controversy /pt-br/tags/controversy/ 301
+/pt-br/tags/convenience-store /pt-br/tags/convenience-store/ 301
 /pt-br/tags/cosmos /pt-br/tags/cosmos/ 301
 /pt-br/tags/cosmos-blossom /pt-br/tags/cosmos-blossom/ 301
 /pt-br/tags/cpu /pt-br/tags/cpu/ 301
@@ -8374,19 +8536,23 @@
 /pt-br/tags/launch /pt-br/tags/launch/ 301
 /pt-br/tags/launch-error /pt-br/tags/launch-error/ 301
 /pt-br/tags/launcher /pt-br/tags/launcher/ 301
+/pt-br/tags/lawson /pt-br/tags/lawson/ 301
 /pt-br/tags/leisure /pt-br/tags/leisure/ 301
 /pt-br/tags/level /pt-br/tags/level/ 301
 /pt-br/tags/leveling /pt-br/tags/leveling/ 301
 /pt-br/tags/linking /pt-br/tags/linking/ 301
 /pt-br/tags/linux /pt-br/tags/linux/ 301
 /pt-br/tags/liquid /pt-br/tags/liquid/ 301
+/pt-br/tags/livestream /pt-br/tags/livestream/ 301
 /pt-br/tags/location /pt-br/tags/location/ 301
 /pt-br/tags/login /pt-br/tags/login/ 301
+/pt-br/tags/london /pt-br/tags/london/ 301
 /pt-br/tags/lore /pt-br/tags/lore/ 301
 /pt-br/tags/lost-tales /pt-br/tags/lost-tales/ 301
 /pt-br/tags/mahjong /pt-br/tags/mahjong/ 301
 /pt-br/tags/mammon /pt-br/tags/mammon/ 301
 /pt-br/tags/map /pt-br/tags/map/ 301
+/pt-br/tags/marketing /pt-br/tags/marketing/ 301
 /pt-br/tags/matchmaking /pt-br/tags/matchmaking/ 301
 /pt-br/tags/materials /pt-br/tags/materials/ 301
 /pt-br/tags/mechanic /pt-br/tags/mechanic/ 301
@@ -8402,11 +8568,14 @@
 /pt-br/tags/modules /pt-br/tags/modules/ 301
 /pt-br/tags/monthly-card /pt-br/tags/monthly-card/ 301
 /pt-br/tags/multiplayer /pt-br/tags/multiplayer/ 301
+/pt-br/tags/music /pt-br/tags/music/ 301
+/pt-br/tags/mygo /pt-br/tags/mygo/ 301
 /pt-br/tags/nanally /pt-br/tags/nanally/ 301
 /pt-br/tags/network /pt-br/tags/network/ 301
 /pt-br/tags/new-character /pt-br/tags/new-character/ 301
 /pt-br/tags/notes /pt-br/tags/notes/ 301
 /pt-br/tags/npc /pt-br/tags/npc/ 301
+/pt-br/tags/offline /pt-br/tags/offline/ 301
 /pt-br/tags/opening /pt-br/tags/opening/ 301
 /pt-br/tags/optimization /pt-br/tags/optimization/ 301
 /pt-br/tags/oracle-stone /pt-br/tags/oracle-stone/ 301
@@ -8456,6 +8625,7 @@
 /pt-br/tags/recovery /pt-br/tags/recovery/ 301
 /pt-br/tags/refund /pt-br/tags/refund/ 301
 /pt-br/tags/release /pt-br/tags/release/ 301
+/pt-br/tags/release-date /pt-br/tags/release-date/ 301
 /pt-br/tags/requirements /pt-br/tags/requirements/ 301
 /pt-br/tags/reroll /pt-br/tags/reroll/ 301
 /pt-br/tags/resonance /pt-br/tags/resonance/ 301
@@ -8796,6 +8966,7 @@
 /ru/blog/nte-v10-launch-events /ru/blog/nte-v10-launch-events/ 301
 /ru/blog/nte-v11-collaboration-preview /ru/blog/nte-v11-collaboration-preview/ 301
 /ru/blog/nte-v11-preview /ru/blog/nte-v11-preview/ 301
+/ru/blog/nte-v11-preview-may-2026 /ru/blog/nte-v11-preview-may-2026/ 301
 /ru/blog/nte-version-1-0-update /ru/blog/nte-version-1-0-update/ 301
 /ru/blog/nte-vs-genshin-vs-wuthering-waves /ru/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /ru/blog/nte-week-one-recap /ru/blog/nte-week-one-recap/ 301
@@ -8989,6 +9160,7 @@
 /ru/faq/launch-date-2026 /ru/faq/launch-date-2026/ 301
 /ru/faq/launch-free-pulls-total /ru/faq/launch-free-pulls-total/ 301
 /ru/faq/launch-rewards-total /ru/faq/launch-rewards-total/ 301
+/ru/faq/lawson-collab-faq /ru/faq/lawson-collab-faq/ 301
 /ru/faq/livestream-codes-2026 /ru/faq/livestream-codes-2026/ 301
 /ru/faq/login-verification-code-not-received /ru/faq/login-verification-code-not-received/ 301
 /ru/faq/login-white-screen /ru/faq/login-white-screen/ 301
@@ -9010,6 +9182,7 @@
 /ru/faq/monthly-card-not-rewarded /ru/faq/monthly-card-not-rewarded/ 301
 /ru/faq/monthly-pass-not-received /ru/faq/monthly-pass-not-received/ 301
 /ru/faq/multiplayer-coop /ru/faq/multiplayer-coop/ 301
+/ru/faq/mygo-collab-faq /ru/faq/mygo-collab-faq/ 301
 /ru/faq/nanally-team-comp /ru/faq/nanally-team-comp/ 301
 /ru/faq/nanally-worth-building /ru/faq/nanally-worth-building/ 301
 /ru/faq/next-banner-schedule /ru/faq/next-banner-schedule/ 301
@@ -9034,6 +9207,7 @@
 /ru/faq/nte-hidden-easter-eggs /ru/faq/nte-hidden-easter-eggs/ 301
 /ru/faq/nte-mahjong-guide /ru/faq/nte-mahjong-guide/ 301
 /ru/faq/nte-mammon-guide /ru/faq/nte-mammon-guide/ 301
+/ru/faq/nte-marketing-highlights /ru/faq/nte-marketing-highlights/ 301
 /ru/faq/nte-mods-guide /ru/faq/nte-mods-guide/ 301
 /ru/faq/nte-optimization-tips /ru/faq/nte-optimization-tips/ 301
 /ru/faq/nte-patch-notes-guide /ru/faq/nte-patch-notes-guide/ 301
@@ -9104,6 +9278,7 @@
 /ru/faq/turbid-burn-team-guide /ru/faq/turbid-burn-team-guide/ 301
 /ru/faq/ue5-7-engine-update /ru/faq/ue5-7-engine-update/ 301
 /ru/faq/upcoming-characters /ru/faq/upcoming-characters/ 301
+/ru/faq/v11-release-date /ru/faq/v11-release-date/ 301
 /ru/faq/vehicle-driving /ru/faq/vehicle-driving/ 301
 /ru/faq/weapon-upgrade /ru/faq/weapon-upgrade/ 301
 /ru/faq/weapon-upgrade-faq /ru/faq/weapon-upgrade-faq/ 301
@@ -9111,6 +9286,7 @@
 /ru/faq/wrong-character-selection /ru/faq/wrong-character-selection/ 301
 /ru/faq/wrong-server-transfer /ru/faq/wrong-server-transfer/ 301
 /ru/faq/xiaozhi-free-s-rank /ru/faq/xiaozhi-free-s-rank/ 301
+/ru/faq/xun-banned-reason /ru/faq/xun-banned-reason/ 301
 /ru/faq/xun-character-faq /ru/faq/xun-character-faq/ 301
 /ru/gacha /ru/gacha/ 301
 /ru/gacha-analyzer /ru/gacha-analyzer/ 301
@@ -9261,6 +9437,7 @@
 /ru/tags/abyss /ru/tags/abyss/ 301
 /ru/tags/account /ru/tags/account/ 301
 /ru/tags/advanced /ru/tags/advanced/ 301
+/ru/tags/advertising /ru/tags/advertising/ 301
 /ru/tags/ai /ru/tags/ai/ 301
 /ru/tags/akane /ru/tags/akane/ 301
 /ru/tags/alt-tab /ru/tags/alt-tab/ 301
@@ -9281,6 +9458,8 @@
 /ru/tags/awakening /ru/tags/awakening/ 301
 /ru/tags/a级 /ru/tags/a级/ 301
 /ru/tags/baicang /ru/tags/baicang/ 301
+/ru/tags/band /ru/tags/band/ 301
+/ru/tags/banned /ru/tags/banned/ 301
 /ru/tags/banner /ru/tags/banner/ 301
 /ru/tags/basics /ru/tags/basics/ 301
 /ru/tags/battery /ru/tags/battery/ 301
@@ -9298,6 +9477,7 @@
 /ru/tags/camellia-society /ru/tags/camellia-society/ 301
 /ru/tags/camera /ru/tags/camera/ 301
 /ru/tags/cars /ru/tags/cars/ 301
+/ru/tags/censorship /ru/tags/censorship/ 301
 /ru/tags/challenge /ru/tags/challenge/ 301
 /ru/tags/changelog /ru/tags/changelog/ 301
 /ru/tags/chaos /ru/tags/chaos/ 301
@@ -9321,6 +9501,7 @@
 /ru/tags/collection /ru/tags/collection/ 301
 /ru/tags/combat /ru/tags/combat/ 301
 /ru/tags/commissions /ru/tags/commissions/ 301
+/ru/tags/community /ru/tags/community/ 301
 /ru/tags/comparison /ru/tags/comparison/ 301
 /ru/tags/compensation /ru/tags/compensation/ 301
 /ru/tags/competitive /ru/tags/competitive/ 301
@@ -9330,6 +9511,7 @@
 /ru/tags/controller /ru/tags/controller/ 301
 /ru/tags/controls /ru/tags/controls/ 301
 /ru/tags/controversy /ru/tags/controversy/ 301
+/ru/tags/convenience-store /ru/tags/convenience-store/ 301
 /ru/tags/cosmos /ru/tags/cosmos/ 301
 /ru/tags/cosmos-blossom /ru/tags/cosmos-blossom/ 301
 /ru/tags/cpu /ru/tags/cpu/ 301
@@ -9428,19 +9610,23 @@
 /ru/tags/launch /ru/tags/launch/ 301
 /ru/tags/launch-error /ru/tags/launch-error/ 301
 /ru/tags/launcher /ru/tags/launcher/ 301
+/ru/tags/lawson /ru/tags/lawson/ 301
 /ru/tags/leisure /ru/tags/leisure/ 301
 /ru/tags/level /ru/tags/level/ 301
 /ru/tags/leveling /ru/tags/leveling/ 301
 /ru/tags/linking /ru/tags/linking/ 301
 /ru/tags/linux /ru/tags/linux/ 301
 /ru/tags/liquid /ru/tags/liquid/ 301
+/ru/tags/livestream /ru/tags/livestream/ 301
 /ru/tags/location /ru/tags/location/ 301
 /ru/tags/login /ru/tags/login/ 301
+/ru/tags/london /ru/tags/london/ 301
 /ru/tags/lore /ru/tags/lore/ 301
 /ru/tags/lost-tales /ru/tags/lost-tales/ 301
 /ru/tags/mahjong /ru/tags/mahjong/ 301
 /ru/tags/mammon /ru/tags/mammon/ 301
 /ru/tags/map /ru/tags/map/ 301
+/ru/tags/marketing /ru/tags/marketing/ 301
 /ru/tags/matchmaking /ru/tags/matchmaking/ 301
 /ru/tags/materials /ru/tags/materials/ 301
 /ru/tags/mechanic /ru/tags/mechanic/ 301
@@ -9456,11 +9642,14 @@
 /ru/tags/modules /ru/tags/modules/ 301
 /ru/tags/monthly-card /ru/tags/monthly-card/ 301
 /ru/tags/multiplayer /ru/tags/multiplayer/ 301
+/ru/tags/music /ru/tags/music/ 301
+/ru/tags/mygo /ru/tags/mygo/ 301
 /ru/tags/nanally /ru/tags/nanally/ 301
 /ru/tags/network /ru/tags/network/ 301
 /ru/tags/new-character /ru/tags/new-character/ 301
 /ru/tags/notes /ru/tags/notes/ 301
 /ru/tags/npc /ru/tags/npc/ 301
+/ru/tags/offline /ru/tags/offline/ 301
 /ru/tags/opening /ru/tags/opening/ 301
 /ru/tags/optimization /ru/tags/optimization/ 301
 /ru/tags/oracle-stone /ru/tags/oracle-stone/ 301
@@ -9510,6 +9699,7 @@
 /ru/tags/recovery /ru/tags/recovery/ 301
 /ru/tags/refund /ru/tags/refund/ 301
 /ru/tags/release /ru/tags/release/ 301
+/ru/tags/release-date /ru/tags/release-date/ 301
 /ru/tags/requirements /ru/tags/requirements/ 301
 /ru/tags/reroll /ru/tags/reroll/ 301
 /ru/tags/resonance /ru/tags/resonance/ 301
@@ -9850,6 +10040,7 @@
 /th/blog/nte-v10-launch-events /th/blog/nte-v10-launch-events/ 301
 /th/blog/nte-v11-collaboration-preview /th/blog/nte-v11-collaboration-preview/ 301
 /th/blog/nte-v11-preview /th/blog/nte-v11-preview/ 301
+/th/blog/nte-v11-preview-may-2026 /th/blog/nte-v11-preview-may-2026/ 301
 /th/blog/nte-version-1-0-update /th/blog/nte-version-1-0-update/ 301
 /th/blog/nte-vs-genshin-vs-wuthering-waves /th/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /th/blog/nte-week-one-recap /th/blog/nte-week-one-recap/ 301
@@ -10043,6 +10234,7 @@
 /th/faq/launch-date-2026 /th/faq/launch-date-2026/ 301
 /th/faq/launch-free-pulls-total /th/faq/launch-free-pulls-total/ 301
 /th/faq/launch-rewards-total /th/faq/launch-rewards-total/ 301
+/th/faq/lawson-collab-faq /th/faq/lawson-collab-faq/ 301
 /th/faq/livestream-codes-2026 /th/faq/livestream-codes-2026/ 301
 /th/faq/login-verification-code-not-received /th/faq/login-verification-code-not-received/ 301
 /th/faq/login-white-screen /th/faq/login-white-screen/ 301
@@ -10064,6 +10256,7 @@
 /th/faq/monthly-card-not-rewarded /th/faq/monthly-card-not-rewarded/ 301
 /th/faq/monthly-pass-not-received /th/faq/monthly-pass-not-received/ 301
 /th/faq/multiplayer-coop /th/faq/multiplayer-coop/ 301
+/th/faq/mygo-collab-faq /th/faq/mygo-collab-faq/ 301
 /th/faq/nanally-team-comp /th/faq/nanally-team-comp/ 301
 /th/faq/nanally-worth-building /th/faq/nanally-worth-building/ 301
 /th/faq/next-banner-schedule /th/faq/next-banner-schedule/ 301
@@ -10088,6 +10281,7 @@
 /th/faq/nte-hidden-easter-eggs /th/faq/nte-hidden-easter-eggs/ 301
 /th/faq/nte-mahjong-guide /th/faq/nte-mahjong-guide/ 301
 /th/faq/nte-mammon-guide /th/faq/nte-mammon-guide/ 301
+/th/faq/nte-marketing-highlights /th/faq/nte-marketing-highlights/ 301
 /th/faq/nte-mods-guide /th/faq/nte-mods-guide/ 301
 /th/faq/nte-optimization-tips /th/faq/nte-optimization-tips/ 301
 /th/faq/nte-patch-notes-guide /th/faq/nte-patch-notes-guide/ 301
@@ -10158,6 +10352,7 @@
 /th/faq/turbid-burn-team-guide /th/faq/turbid-burn-team-guide/ 301
 /th/faq/ue5-7-engine-update /th/faq/ue5-7-engine-update/ 301
 /th/faq/upcoming-characters /th/faq/upcoming-characters/ 301
+/th/faq/v11-release-date /th/faq/v11-release-date/ 301
 /th/faq/vehicle-driving /th/faq/vehicle-driving/ 301
 /th/faq/weapon-upgrade /th/faq/weapon-upgrade/ 301
 /th/faq/weapon-upgrade-faq /th/faq/weapon-upgrade-faq/ 301
@@ -10165,6 +10360,7 @@
 /th/faq/wrong-character-selection /th/faq/wrong-character-selection/ 301
 /th/faq/wrong-server-transfer /th/faq/wrong-server-transfer/ 301
 /th/faq/xiaozhi-free-s-rank /th/faq/xiaozhi-free-s-rank/ 301
+/th/faq/xun-banned-reason /th/faq/xun-banned-reason/ 301
 /th/faq/xun-character-faq /th/faq/xun-character-faq/ 301
 /th/gacha /th/gacha/ 301
 /th/gacha-analyzer /th/gacha-analyzer/ 301
@@ -10315,6 +10511,7 @@
 /th/tags/abyss /th/tags/abyss/ 301
 /th/tags/account /th/tags/account/ 301
 /th/tags/advanced /th/tags/advanced/ 301
+/th/tags/advertising /th/tags/advertising/ 301
 /th/tags/ai /th/tags/ai/ 301
 /th/tags/akane /th/tags/akane/ 301
 /th/tags/alt-tab /th/tags/alt-tab/ 301
@@ -10335,6 +10532,8 @@
 /th/tags/awakening /th/tags/awakening/ 301
 /th/tags/a级 /th/tags/a级/ 301
 /th/tags/baicang /th/tags/baicang/ 301
+/th/tags/band /th/tags/band/ 301
+/th/tags/banned /th/tags/banned/ 301
 /th/tags/banner /th/tags/banner/ 301
 /th/tags/basics /th/tags/basics/ 301
 /th/tags/battery /th/tags/battery/ 301
@@ -10352,6 +10551,7 @@
 /th/tags/camellia-society /th/tags/camellia-society/ 301
 /th/tags/camera /th/tags/camera/ 301
 /th/tags/cars /th/tags/cars/ 301
+/th/tags/censorship /th/tags/censorship/ 301
 /th/tags/challenge /th/tags/challenge/ 301
 /th/tags/changelog /th/tags/changelog/ 301
 /th/tags/chaos /th/tags/chaos/ 301
@@ -10375,6 +10575,7 @@
 /th/tags/collection /th/tags/collection/ 301
 /th/tags/combat /th/tags/combat/ 301
 /th/tags/commissions /th/tags/commissions/ 301
+/th/tags/community /th/tags/community/ 301
 /th/tags/comparison /th/tags/comparison/ 301
 /th/tags/compensation /th/tags/compensation/ 301
 /th/tags/competitive /th/tags/competitive/ 301
@@ -10384,6 +10585,7 @@
 /th/tags/controller /th/tags/controller/ 301
 /th/tags/controls /th/tags/controls/ 301
 /th/tags/controversy /th/tags/controversy/ 301
+/th/tags/convenience-store /th/tags/convenience-store/ 301
 /th/tags/cosmos /th/tags/cosmos/ 301
 /th/tags/cosmos-blossom /th/tags/cosmos-blossom/ 301
 /th/tags/cpu /th/tags/cpu/ 301
@@ -10482,19 +10684,23 @@
 /th/tags/launch /th/tags/launch/ 301
 /th/tags/launch-error /th/tags/launch-error/ 301
 /th/tags/launcher /th/tags/launcher/ 301
+/th/tags/lawson /th/tags/lawson/ 301
 /th/tags/leisure /th/tags/leisure/ 301
 /th/tags/level /th/tags/level/ 301
 /th/tags/leveling /th/tags/leveling/ 301
 /th/tags/linking /th/tags/linking/ 301
 /th/tags/linux /th/tags/linux/ 301
 /th/tags/liquid /th/tags/liquid/ 301
+/th/tags/livestream /th/tags/livestream/ 301
 /th/tags/location /th/tags/location/ 301
 /th/tags/login /th/tags/login/ 301
+/th/tags/london /th/tags/london/ 301
 /th/tags/lore /th/tags/lore/ 301
 /th/tags/lost-tales /th/tags/lost-tales/ 301
 /th/tags/mahjong /th/tags/mahjong/ 301
 /th/tags/mammon /th/tags/mammon/ 301
 /th/tags/map /th/tags/map/ 301
+/th/tags/marketing /th/tags/marketing/ 301
 /th/tags/matchmaking /th/tags/matchmaking/ 301
 /th/tags/materials /th/tags/materials/ 301
 /th/tags/mechanic /th/tags/mechanic/ 301
@@ -10510,11 +10716,14 @@
 /th/tags/modules /th/tags/modules/ 301
 /th/tags/monthly-card /th/tags/monthly-card/ 301
 /th/tags/multiplayer /th/tags/multiplayer/ 301
+/th/tags/music /th/tags/music/ 301
+/th/tags/mygo /th/tags/mygo/ 301
 /th/tags/nanally /th/tags/nanally/ 301
 /th/tags/network /th/tags/network/ 301
 /th/tags/new-character /th/tags/new-character/ 301
 /th/tags/notes /th/tags/notes/ 301
 /th/tags/npc /th/tags/npc/ 301
+/th/tags/offline /th/tags/offline/ 301
 /th/tags/opening /th/tags/opening/ 301
 /th/tags/optimization /th/tags/optimization/ 301
 /th/tags/oracle-stone /th/tags/oracle-stone/ 301
@@ -10564,6 +10773,7 @@
 /th/tags/recovery /th/tags/recovery/ 301
 /th/tags/refund /th/tags/refund/ 301
 /th/tags/release /th/tags/release/ 301
+/th/tags/release-date /th/tags/release-date/ 301
 /th/tags/requirements /th/tags/requirements/ 301
 /th/tags/reroll /th/tags/reroll/ 301
 /th/tags/resonance /th/tags/resonance/ 301
@@ -10904,6 +11114,7 @@
 /tw/blog/nte-v10-launch-events /tw/blog/nte-v10-launch-events/ 301
 /tw/blog/nte-v11-collaboration-preview /tw/blog/nte-v11-collaboration-preview/ 301
 /tw/blog/nte-v11-preview /tw/blog/nte-v11-preview/ 301
+/tw/blog/nte-v11-preview-may-2026 /tw/blog/nte-v11-preview-may-2026/ 301
 /tw/blog/nte-version-1-0-update /tw/blog/nte-version-1-0-update/ 301
 /tw/blog/nte-vs-genshin-vs-wuthering-waves /tw/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /tw/blog/nte-week-one-recap /tw/blog/nte-week-one-recap/ 301
@@ -11097,6 +11308,7 @@
 /tw/faq/launch-date-2026 /tw/faq/launch-date-2026/ 301
 /tw/faq/launch-free-pulls-total /tw/faq/launch-free-pulls-total/ 301
 /tw/faq/launch-rewards-total /tw/faq/launch-rewards-total/ 301
+/tw/faq/lawson-collab-faq /tw/faq/lawson-collab-faq/ 301
 /tw/faq/livestream-codes-2026 /tw/faq/livestream-codes-2026/ 301
 /tw/faq/login-verification-code-not-received /tw/faq/login-verification-code-not-received/ 301
 /tw/faq/login-white-screen /tw/faq/login-white-screen/ 301
@@ -11118,6 +11330,7 @@
 /tw/faq/monthly-card-not-rewarded /tw/faq/monthly-card-not-rewarded/ 301
 /tw/faq/monthly-pass-not-received /tw/faq/monthly-pass-not-received/ 301
 /tw/faq/multiplayer-coop /tw/faq/multiplayer-coop/ 301
+/tw/faq/mygo-collab-faq /tw/faq/mygo-collab-faq/ 301
 /tw/faq/nanally-team-comp /tw/faq/nanally-team-comp/ 301
 /tw/faq/nanally-worth-building /tw/faq/nanally-worth-building/ 301
 /tw/faq/next-banner-schedule /tw/faq/next-banner-schedule/ 301
@@ -11142,6 +11355,7 @@
 /tw/faq/nte-hidden-easter-eggs /tw/faq/nte-hidden-easter-eggs/ 301
 /tw/faq/nte-mahjong-guide /tw/faq/nte-mahjong-guide/ 301
 /tw/faq/nte-mammon-guide /tw/faq/nte-mammon-guide/ 301
+/tw/faq/nte-marketing-highlights /tw/faq/nte-marketing-highlights/ 301
 /tw/faq/nte-mods-guide /tw/faq/nte-mods-guide/ 301
 /tw/faq/nte-optimization-tips /tw/faq/nte-optimization-tips/ 301
 /tw/faq/nte-patch-notes-guide /tw/faq/nte-patch-notes-guide/ 301
@@ -11212,6 +11426,7 @@
 /tw/faq/turbid-burn-team-guide /tw/faq/turbid-burn-team-guide/ 301
 /tw/faq/ue5-7-engine-update /tw/faq/ue5-7-engine-update/ 301
 /tw/faq/upcoming-characters /tw/faq/upcoming-characters/ 301
+/tw/faq/v11-release-date /tw/faq/v11-release-date/ 301
 /tw/faq/vehicle-driving /tw/faq/vehicle-driving/ 301
 /tw/faq/weapon-upgrade /tw/faq/weapon-upgrade/ 301
 /tw/faq/weapon-upgrade-faq /tw/faq/weapon-upgrade-faq/ 301
@@ -11219,6 +11434,7 @@
 /tw/faq/wrong-character-selection /tw/faq/wrong-character-selection/ 301
 /tw/faq/wrong-server-transfer /tw/faq/wrong-server-transfer/ 301
 /tw/faq/xiaozhi-free-s-rank /tw/faq/xiaozhi-free-s-rank/ 301
+/tw/faq/xun-banned-reason /tw/faq/xun-banned-reason/ 301
 /tw/faq/xun-character-faq /tw/faq/xun-character-faq/ 301
 /tw/gacha /tw/gacha/ 301
 /tw/gacha-analyzer /tw/gacha-analyzer/ 301
@@ -11369,6 +11585,7 @@
 /tw/tags/abyss /tw/tags/abyss/ 301
 /tw/tags/account /tw/tags/account/ 301
 /tw/tags/advanced /tw/tags/advanced/ 301
+/tw/tags/advertising /tw/tags/advertising/ 301
 /tw/tags/ai /tw/tags/ai/ 301
 /tw/tags/akane /tw/tags/akane/ 301
 /tw/tags/alt-tab /tw/tags/alt-tab/ 301
@@ -11389,6 +11606,8 @@
 /tw/tags/awakening /tw/tags/awakening/ 301
 /tw/tags/a级 /tw/tags/a级/ 301
 /tw/tags/baicang /tw/tags/baicang/ 301
+/tw/tags/band /tw/tags/band/ 301
+/tw/tags/banned /tw/tags/banned/ 301
 /tw/tags/banner /tw/tags/banner/ 301
 /tw/tags/basics /tw/tags/basics/ 301
 /tw/tags/battery /tw/tags/battery/ 301
@@ -11406,6 +11625,7 @@
 /tw/tags/camellia-society /tw/tags/camellia-society/ 301
 /tw/tags/camera /tw/tags/camera/ 301
 /tw/tags/cars /tw/tags/cars/ 301
+/tw/tags/censorship /tw/tags/censorship/ 301
 /tw/tags/challenge /tw/tags/challenge/ 301
 /tw/tags/changelog /tw/tags/changelog/ 301
 /tw/tags/chaos /tw/tags/chaos/ 301
@@ -11429,6 +11649,7 @@
 /tw/tags/collection /tw/tags/collection/ 301
 /tw/tags/combat /tw/tags/combat/ 301
 /tw/tags/commissions /tw/tags/commissions/ 301
+/tw/tags/community /tw/tags/community/ 301
 /tw/tags/comparison /tw/tags/comparison/ 301
 /tw/tags/compensation /tw/tags/compensation/ 301
 /tw/tags/competitive /tw/tags/competitive/ 301
@@ -11438,6 +11659,7 @@
 /tw/tags/controller /tw/tags/controller/ 301
 /tw/tags/controls /tw/tags/controls/ 301
 /tw/tags/controversy /tw/tags/controversy/ 301
+/tw/tags/convenience-store /tw/tags/convenience-store/ 301
 /tw/tags/cosmos /tw/tags/cosmos/ 301
 /tw/tags/cosmos-blossom /tw/tags/cosmos-blossom/ 301
 /tw/tags/cpu /tw/tags/cpu/ 301
@@ -11536,19 +11758,23 @@
 /tw/tags/launch /tw/tags/launch/ 301
 /tw/tags/launch-error /tw/tags/launch-error/ 301
 /tw/tags/launcher /tw/tags/launcher/ 301
+/tw/tags/lawson /tw/tags/lawson/ 301
 /tw/tags/leisure /tw/tags/leisure/ 301
 /tw/tags/level /tw/tags/level/ 301
 /tw/tags/leveling /tw/tags/leveling/ 301
 /tw/tags/linking /tw/tags/linking/ 301
 /tw/tags/linux /tw/tags/linux/ 301
 /tw/tags/liquid /tw/tags/liquid/ 301
+/tw/tags/livestream /tw/tags/livestream/ 301
 /tw/tags/location /tw/tags/location/ 301
 /tw/tags/login /tw/tags/login/ 301
+/tw/tags/london /tw/tags/london/ 301
 /tw/tags/lore /tw/tags/lore/ 301
 /tw/tags/lost-tales /tw/tags/lost-tales/ 301
 /tw/tags/mahjong /tw/tags/mahjong/ 301
 /tw/tags/mammon /tw/tags/mammon/ 301
 /tw/tags/map /tw/tags/map/ 301
+/tw/tags/marketing /tw/tags/marketing/ 301
 /tw/tags/matchmaking /tw/tags/matchmaking/ 301
 /tw/tags/materials /tw/tags/materials/ 301
 /tw/tags/mechanic /tw/tags/mechanic/ 301
@@ -11564,11 +11790,14 @@
 /tw/tags/modules /tw/tags/modules/ 301
 /tw/tags/monthly-card /tw/tags/monthly-card/ 301
 /tw/tags/multiplayer /tw/tags/multiplayer/ 301
+/tw/tags/music /tw/tags/music/ 301
+/tw/tags/mygo /tw/tags/mygo/ 301
 /tw/tags/nanally /tw/tags/nanally/ 301
 /tw/tags/network /tw/tags/network/ 301
 /tw/tags/new-character /tw/tags/new-character/ 301
 /tw/tags/notes /tw/tags/notes/ 301
 /tw/tags/npc /tw/tags/npc/ 301
+/tw/tags/offline /tw/tags/offline/ 301
 /tw/tags/opening /tw/tags/opening/ 301
 /tw/tags/optimization /tw/tags/optimization/ 301
 /tw/tags/oracle-stone /tw/tags/oracle-stone/ 301
@@ -11618,6 +11847,7 @@
 /tw/tags/recovery /tw/tags/recovery/ 301
 /tw/tags/refund /tw/tags/refund/ 301
 /tw/tags/release /tw/tags/release/ 301
+/tw/tags/release-date /tw/tags/release-date/ 301
 /tw/tags/requirements /tw/tags/requirements/ 301
 /tw/tags/reroll /tw/tags/reroll/ 301
 /tw/tags/resonance /tw/tags/resonance/ 301
@@ -11958,6 +12188,7 @@
 /vi/blog/nte-v10-launch-events /vi/blog/nte-v10-launch-events/ 301
 /vi/blog/nte-v11-collaboration-preview /vi/blog/nte-v11-collaboration-preview/ 301
 /vi/blog/nte-v11-preview /vi/blog/nte-v11-preview/ 301
+/vi/blog/nte-v11-preview-may-2026 /vi/blog/nte-v11-preview-may-2026/ 301
 /vi/blog/nte-version-1-0-update /vi/blog/nte-version-1-0-update/ 301
 /vi/blog/nte-vs-genshin-vs-wuthering-waves /vi/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /vi/blog/nte-week-one-recap /vi/blog/nte-week-one-recap/ 301
@@ -12151,6 +12382,7 @@
 /vi/faq/launch-date-2026 /vi/faq/launch-date-2026/ 301
 /vi/faq/launch-free-pulls-total /vi/faq/launch-free-pulls-total/ 301
 /vi/faq/launch-rewards-total /vi/faq/launch-rewards-total/ 301
+/vi/faq/lawson-collab-faq /vi/faq/lawson-collab-faq/ 301
 /vi/faq/livestream-codes-2026 /vi/faq/livestream-codes-2026/ 301
 /vi/faq/login-verification-code-not-received /vi/faq/login-verification-code-not-received/ 301
 /vi/faq/login-white-screen /vi/faq/login-white-screen/ 301
@@ -12172,6 +12404,7 @@
 /vi/faq/monthly-card-not-rewarded /vi/faq/monthly-card-not-rewarded/ 301
 /vi/faq/monthly-pass-not-received /vi/faq/monthly-pass-not-received/ 301
 /vi/faq/multiplayer-coop /vi/faq/multiplayer-coop/ 301
+/vi/faq/mygo-collab-faq /vi/faq/mygo-collab-faq/ 301
 /vi/faq/nanally-team-comp /vi/faq/nanally-team-comp/ 301
 /vi/faq/nanally-worth-building /vi/faq/nanally-worth-building/ 301
 /vi/faq/next-banner-schedule /vi/faq/next-banner-schedule/ 301
@@ -12196,6 +12429,7 @@
 /vi/faq/nte-hidden-easter-eggs /vi/faq/nte-hidden-easter-eggs/ 301
 /vi/faq/nte-mahjong-guide /vi/faq/nte-mahjong-guide/ 301
 /vi/faq/nte-mammon-guide /vi/faq/nte-mammon-guide/ 301
+/vi/faq/nte-marketing-highlights /vi/faq/nte-marketing-highlights/ 301
 /vi/faq/nte-mods-guide /vi/faq/nte-mods-guide/ 301
 /vi/faq/nte-optimization-tips /vi/faq/nte-optimization-tips/ 301
 /vi/faq/nte-patch-notes-guide /vi/faq/nte-patch-notes-guide/ 301
@@ -12266,6 +12500,7 @@
 /vi/faq/turbid-burn-team-guide /vi/faq/turbid-burn-team-guide/ 301
 /vi/faq/ue5-7-engine-update /vi/faq/ue5-7-engine-update/ 301
 /vi/faq/upcoming-characters /vi/faq/upcoming-characters/ 301
+/vi/faq/v11-release-date /vi/faq/v11-release-date/ 301
 /vi/faq/vehicle-driving /vi/faq/vehicle-driving/ 301
 /vi/faq/weapon-upgrade /vi/faq/weapon-upgrade/ 301
 /vi/faq/weapon-upgrade-faq /vi/faq/weapon-upgrade-faq/ 301
@@ -12273,6 +12508,7 @@
 /vi/faq/wrong-character-selection /vi/faq/wrong-character-selection/ 301
 /vi/faq/wrong-server-transfer /vi/faq/wrong-server-transfer/ 301
 /vi/faq/xiaozhi-free-s-rank /vi/faq/xiaozhi-free-s-rank/ 301
+/vi/faq/xun-banned-reason /vi/faq/xun-banned-reason/ 301
 /vi/faq/xun-character-faq /vi/faq/xun-character-faq/ 301
 /vi/gacha /vi/gacha/ 301
 /vi/gacha-analyzer /vi/gacha-analyzer/ 301
@@ -12423,6 +12659,7 @@
 /vi/tags/abyss /vi/tags/abyss/ 301
 /vi/tags/account /vi/tags/account/ 301
 /vi/tags/advanced /vi/tags/advanced/ 301
+/vi/tags/advertising /vi/tags/advertising/ 301
 /vi/tags/ai /vi/tags/ai/ 301
 /vi/tags/akane /vi/tags/akane/ 301
 /vi/tags/alt-tab /vi/tags/alt-tab/ 301
@@ -12443,6 +12680,8 @@
 /vi/tags/awakening /vi/tags/awakening/ 301
 /vi/tags/a级 /vi/tags/a级/ 301
 /vi/tags/baicang /vi/tags/baicang/ 301
+/vi/tags/band /vi/tags/band/ 301
+/vi/tags/banned /vi/tags/banned/ 301
 /vi/tags/banner /vi/tags/banner/ 301
 /vi/tags/basics /vi/tags/basics/ 301
 /vi/tags/battery /vi/tags/battery/ 301
@@ -12460,6 +12699,7 @@
 /vi/tags/camellia-society /vi/tags/camellia-society/ 301
 /vi/tags/camera /vi/tags/camera/ 301
 /vi/tags/cars /vi/tags/cars/ 301
+/vi/tags/censorship /vi/tags/censorship/ 301
 /vi/tags/challenge /vi/tags/challenge/ 301
 /vi/tags/changelog /vi/tags/changelog/ 301
 /vi/tags/chaos /vi/tags/chaos/ 301
@@ -12483,6 +12723,7 @@
 /vi/tags/collection /vi/tags/collection/ 301
 /vi/tags/combat /vi/tags/combat/ 301
 /vi/tags/commissions /vi/tags/commissions/ 301
+/vi/tags/community /vi/tags/community/ 301
 /vi/tags/comparison /vi/tags/comparison/ 301
 /vi/tags/compensation /vi/tags/compensation/ 301
 /vi/tags/competitive /vi/tags/competitive/ 301
@@ -12492,6 +12733,7 @@
 /vi/tags/controller /vi/tags/controller/ 301
 /vi/tags/controls /vi/tags/controls/ 301
 /vi/tags/controversy /vi/tags/controversy/ 301
+/vi/tags/convenience-store /vi/tags/convenience-store/ 301
 /vi/tags/cosmos /vi/tags/cosmos/ 301
 /vi/tags/cosmos-blossom /vi/tags/cosmos-blossom/ 301
 /vi/tags/cpu /vi/tags/cpu/ 301
@@ -12590,19 +12832,23 @@
 /vi/tags/launch /vi/tags/launch/ 301
 /vi/tags/launch-error /vi/tags/launch-error/ 301
 /vi/tags/launcher /vi/tags/launcher/ 301
+/vi/tags/lawson /vi/tags/lawson/ 301
 /vi/tags/leisure /vi/tags/leisure/ 301
 /vi/tags/level /vi/tags/level/ 301
 /vi/tags/leveling /vi/tags/leveling/ 301
 /vi/tags/linking /vi/tags/linking/ 301
 /vi/tags/linux /vi/tags/linux/ 301
 /vi/tags/liquid /vi/tags/liquid/ 301
+/vi/tags/livestream /vi/tags/livestream/ 301
 /vi/tags/location /vi/tags/location/ 301
 /vi/tags/login /vi/tags/login/ 301
+/vi/tags/london /vi/tags/london/ 301
 /vi/tags/lore /vi/tags/lore/ 301
 /vi/tags/lost-tales /vi/tags/lost-tales/ 301
 /vi/tags/mahjong /vi/tags/mahjong/ 301
 /vi/tags/mammon /vi/tags/mammon/ 301
 /vi/tags/map /vi/tags/map/ 301
+/vi/tags/marketing /vi/tags/marketing/ 301
 /vi/tags/matchmaking /vi/tags/matchmaking/ 301
 /vi/tags/materials /vi/tags/materials/ 301
 /vi/tags/mechanic /vi/tags/mechanic/ 301
@@ -12618,11 +12864,14 @@
 /vi/tags/modules /vi/tags/modules/ 301
 /vi/tags/monthly-card /vi/tags/monthly-card/ 301
 /vi/tags/multiplayer /vi/tags/multiplayer/ 301
+/vi/tags/music /vi/tags/music/ 301
+/vi/tags/mygo /vi/tags/mygo/ 301
 /vi/tags/nanally /vi/tags/nanally/ 301
 /vi/tags/network /vi/tags/network/ 301
 /vi/tags/new-character /vi/tags/new-character/ 301
 /vi/tags/notes /vi/tags/notes/ 301
 /vi/tags/npc /vi/tags/npc/ 301
+/vi/tags/offline /vi/tags/offline/ 301
 /vi/tags/opening /vi/tags/opening/ 301
 /vi/tags/optimization /vi/tags/optimization/ 301
 /vi/tags/oracle-stone /vi/tags/oracle-stone/ 301
@@ -12672,6 +12921,7 @@
 /vi/tags/recovery /vi/tags/recovery/ 301
 /vi/tags/refund /vi/tags/refund/ 301
 /vi/tags/release /vi/tags/release/ 301
+/vi/tags/release-date /vi/tags/release-date/ 301
 /vi/tags/requirements /vi/tags/requirements/ 301
 /vi/tags/reroll /vi/tags/reroll/ 301
 /vi/tags/resonance /vi/tags/resonance/ 301
@@ -13012,6 +13262,7 @@
 /zh/blog/nte-v10-launch-events /zh/blog/nte-v10-launch-events/ 301
 /zh/blog/nte-v11-collaboration-preview /zh/blog/nte-v11-collaboration-preview/ 301
 /zh/blog/nte-v11-preview /zh/blog/nte-v11-preview/ 301
+/zh/blog/nte-v11-preview-may-2026 /zh/blog/nte-v11-preview-may-2026/ 301
 /zh/blog/nte-version-1-0-update /zh/blog/nte-version-1-0-update/ 301
 /zh/blog/nte-vs-genshin-vs-wuthering-waves /zh/blog/nte-vs-genshin-vs-wuthering-waves/ 301
 /zh/blog/nte-week-one-recap /zh/blog/nte-week-one-recap/ 301
@@ -13205,6 +13456,7 @@
 /zh/faq/launch-date-2026 /zh/faq/launch-date-2026/ 301
 /zh/faq/launch-free-pulls-total /zh/faq/launch-free-pulls-total/ 301
 /zh/faq/launch-rewards-total /zh/faq/launch-rewards-total/ 301
+/zh/faq/lawson-collab-faq /zh/faq/lawson-collab-faq/ 301
 /zh/faq/livestream-codes-2026 /zh/faq/livestream-codes-2026/ 301
 /zh/faq/login-verification-code-not-received /zh/faq/login-verification-code-not-received/ 301
 /zh/faq/login-white-screen /zh/faq/login-white-screen/ 301
@@ -13226,6 +13478,7 @@
 /zh/faq/monthly-card-not-rewarded /zh/faq/monthly-card-not-rewarded/ 301
 /zh/faq/monthly-pass-not-received /zh/faq/monthly-pass-not-received/ 301
 /zh/faq/multiplayer-coop /zh/faq/multiplayer-coop/ 301
+/zh/faq/mygo-collab-faq /zh/faq/mygo-collab-faq/ 301
 /zh/faq/nanally-team-comp /zh/faq/nanally-team-comp/ 301
 /zh/faq/nanally-worth-building /zh/faq/nanally-worth-building/ 301
 /zh/faq/next-banner-schedule /zh/faq/next-banner-schedule/ 301
@@ -13250,6 +13503,7 @@
 /zh/faq/nte-hidden-easter-eggs /zh/faq/nte-hidden-easter-eggs/ 301
 /zh/faq/nte-mahjong-guide /zh/faq/nte-mahjong-guide/ 301
 /zh/faq/nte-mammon-guide /zh/faq/nte-mammon-guide/ 301
+/zh/faq/nte-marketing-highlights /zh/faq/nte-marketing-highlights/ 301
 /zh/faq/nte-mods-guide /zh/faq/nte-mods-guide/ 301
 /zh/faq/nte-optimization-tips /zh/faq/nte-optimization-tips/ 301
 /zh/faq/nte-patch-notes-guide /zh/faq/nte-patch-notes-guide/ 301
@@ -13320,6 +13574,7 @@
 /zh/faq/turbid-burn-team-guide /zh/faq/turbid-burn-team-guide/ 301
 /zh/faq/ue5-7-engine-update /zh/faq/ue5-7-engine-update/ 301
 /zh/faq/upcoming-characters /zh/faq/upcoming-characters/ 301
+/zh/faq/v11-release-date /zh/faq/v11-release-date/ 301
 /zh/faq/vehicle-driving /zh/faq/vehicle-driving/ 301
 /zh/faq/weapon-upgrade /zh/faq/weapon-upgrade/ 301
 /zh/faq/weapon-upgrade-faq /zh/faq/weapon-upgrade-faq/ 301
@@ -13327,6 +13582,7 @@
 /zh/faq/wrong-character-selection /zh/faq/wrong-character-selection/ 301
 /zh/faq/wrong-server-transfer /zh/faq/wrong-server-transfer/ 301
 /zh/faq/xiaozhi-free-s-rank /zh/faq/xiaozhi-free-s-rank/ 301
+/zh/faq/xun-banned-reason /zh/faq/xun-banned-reason/ 301
 /zh/faq/xun-character-faq /zh/faq/xun-character-faq/ 301
 /zh/gacha /zh/gacha/ 301
 /zh/gacha-analyzer /zh/gacha-analyzer/ 301
@@ -13477,6 +13733,7 @@
 /zh/tags/abyss /zh/tags/abyss/ 301
 /zh/tags/account /zh/tags/account/ 301
 /zh/tags/advanced /zh/tags/advanced/ 301
+/zh/tags/advertising /zh/tags/advertising/ 301
 /zh/tags/ai /zh/tags/ai/ 301
 /zh/tags/akane /zh/tags/akane/ 301
 /zh/tags/alt-tab /zh/tags/alt-tab/ 301
@@ -13497,6 +13754,8 @@
 /zh/tags/awakening /zh/tags/awakening/ 301
 /zh/tags/a级 /zh/tags/a级/ 301
 /zh/tags/baicang /zh/tags/baicang/ 301
+/zh/tags/band /zh/tags/band/ 301
+/zh/tags/banned /zh/tags/banned/ 301
 /zh/tags/banner /zh/tags/banner/ 301
 /zh/tags/basics /zh/tags/basics/ 301
 /zh/tags/battery /zh/tags/battery/ 301
@@ -13514,6 +13773,7 @@
 /zh/tags/camellia-society /zh/tags/camellia-society/ 301
 /zh/tags/camera /zh/tags/camera/ 301
 /zh/tags/cars /zh/tags/cars/ 301
+/zh/tags/censorship /zh/tags/censorship/ 301
 /zh/tags/challenge /zh/tags/challenge/ 301
 /zh/tags/changelog /zh/tags/changelog/ 301
 /zh/tags/chaos /zh/tags/chaos/ 301
@@ -13537,6 +13797,7 @@
 /zh/tags/collection /zh/tags/collection/ 301
 /zh/tags/combat /zh/tags/combat/ 301
 /zh/tags/commissions /zh/tags/commissions/ 301
+/zh/tags/community /zh/tags/community/ 301
 /zh/tags/comparison /zh/tags/comparison/ 301
 /zh/tags/compensation /zh/tags/compensation/ 301
 /zh/tags/competitive /zh/tags/competitive/ 301
@@ -13546,6 +13807,7 @@
 /zh/tags/controller /zh/tags/controller/ 301
 /zh/tags/controls /zh/tags/controls/ 301
 /zh/tags/controversy /zh/tags/controversy/ 301
+/zh/tags/convenience-store /zh/tags/convenience-store/ 301
 /zh/tags/cosmos /zh/tags/cosmos/ 301
 /zh/tags/cosmos-blossom /zh/tags/cosmos-blossom/ 301
 /zh/tags/cpu /zh/tags/cpu/ 301
@@ -13644,19 +13906,23 @@
 /zh/tags/launch /zh/tags/launch/ 301
 /zh/tags/launch-error /zh/tags/launch-error/ 301
 /zh/tags/launcher /zh/tags/launcher/ 301
+/zh/tags/lawson /zh/tags/lawson/ 301
 /zh/tags/leisure /zh/tags/leisure/ 301
 /zh/tags/level /zh/tags/level/ 301
 /zh/tags/leveling /zh/tags/leveling/ 301
 /zh/tags/linking /zh/tags/linking/ 301
 /zh/tags/linux /zh/tags/linux/ 301
 /zh/tags/liquid /zh/tags/liquid/ 301
+/zh/tags/livestream /zh/tags/livestream/ 301
 /zh/tags/location /zh/tags/location/ 301
 /zh/tags/login /zh/tags/login/ 301
+/zh/tags/london /zh/tags/london/ 301
 /zh/tags/lore /zh/tags/lore/ 301
 /zh/tags/lost-tales /zh/tags/lost-tales/ 301
 /zh/tags/mahjong /zh/tags/mahjong/ 301
 /zh/tags/mammon /zh/tags/mammon/ 301
 /zh/tags/map /zh/tags/map/ 301
+/zh/tags/marketing /zh/tags/marketing/ 301
 /zh/tags/matchmaking /zh/tags/matchmaking/ 301
 /zh/tags/materials /zh/tags/materials/ 301
 /zh/tags/mechanic /zh/tags/mechanic/ 301
@@ -13672,11 +13938,14 @@
 /zh/tags/modules /zh/tags/modules/ 301
 /zh/tags/monthly-card /zh/tags/monthly-card/ 301
 /zh/tags/multiplayer /zh/tags/multiplayer/ 301
+/zh/tags/music /zh/tags/music/ 301
+/zh/tags/mygo /zh/tags/mygo/ 301
 /zh/tags/nanally /zh/tags/nanally/ 301
 /zh/tags/network /zh/tags/network/ 301
 /zh/tags/new-character /zh/tags/new-character/ 301
 /zh/tags/notes /zh/tags/notes/ 301
 /zh/tags/npc /zh/tags/npc/ 301
+/zh/tags/offline /zh/tags/offline/ 301
 /zh/tags/opening /zh/tags/opening/ 301
 /zh/tags/optimization /zh/tags/optimization/ 301
 /zh/tags/oracle-stone /zh/tags/oracle-stone/ 301
@@ -13726,6 +13995,7 @@
 /zh/tags/recovery /zh/tags/recovery/ 301
 /zh/tags/refund /zh/tags/refund/ 301
 /zh/tags/release /zh/tags/release/ 301
+/zh/tags/release-date /zh/tags/release-date/ 301
 /zh/tags/requirements /zh/tags/requirements/ 301
 /zh/tags/reroll /zh/tags/reroll/ 301
 /zh/tags/resonance /zh/tags/resonance/ 301

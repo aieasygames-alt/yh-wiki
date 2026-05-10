@@ -55,10 +55,11 @@ describe("CharacterJsonLd", () => {
   it("generates zh character schema", () => {
     const { container } = render(<CharacterJsonLd character={character} locale="zh" />);
     const data = extractJsonLd(container);
-    expect(data["@type"]).toBe("VideoGameCharacter");
+    expect(data["@type"]).toBe("ItemPage");
     expect(data.name).toBe("测试角色");
     expect(data.alternateName).toBe("Test Char");
-    expect(data.game).toBe("Neverness to Everness");
+    expect(data.mainEntity["@type"]).toBe("VideoGame");
+    expect(data.mainEntity.name).toBe("Neverness to Everness");
   });
 
   it("generates en character schema", () => {
@@ -152,10 +153,10 @@ describe("ProductJsonLd", () => {
       <ProductJsonLd name="NTE" description="Game" url="https://nteguide.com" />
     );
     const data = extractJsonLd(container);
-    expect(data["@type"]).toBe("Product");
-    expect(data.offers["@type"]).toBe("Offer");
-    expect(data.offers.price).toBe("0");
-    expect(data.aggregateRating["@type"]).toBe("AggregateRating");
+    expect(data["@type"]).toBe("ItemPage");
+    expect(data.name).toBe("NTE");
+    expect(data.mainEntity["@type"]).toBe("Product");
+    expect(data.mainEntity.name).toBe("NTE");
   });
 });
 

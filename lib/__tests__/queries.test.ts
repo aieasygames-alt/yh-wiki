@@ -88,7 +88,7 @@ describe("getCharacterMaterials", () => {
 
 describe("getCharactersUsingMaterial", () => {
   it("returns characters that use a given material", () => {
-    const chars = getCharactersUsingMaterial("fons");
+    const chars = getCharactersUsingMaterial("credits");
     expect(chars.length).toBeGreaterThan(0);
     expect(chars.every((c) => c.id)).toBe(true);
   });
@@ -103,8 +103,8 @@ describe("calculateMaterials", () => {
   it("calculates materials for a full level range", () => {
     const result = calculateMaterials("adler", 1, 60);
     expect(result.length).toBeGreaterThan(0);
-    // Should include resonance chips and credits
-    const hasCredits = result.some((r) => r.materialId === "fons");
+    // Should include credits
+    const hasCredits = result.some((r) => r.materialId === "credits");
     expect(hasCredits).toBe(true);
   });
 
