@@ -70,22 +70,33 @@ export function ItemListJsonLd({ items }: { items: { name: string; url: string }
   );
 }
 
-export function FaqJsonLd({ faq, lang }: { faq: { question: string; questionEn: string; answer: string; answerEn: string }; lang: Locale }) {
-  const question = isZhLocale(lang) ? faq.question : faq.questionEn;
-  const answer = isZhLocale(lang) ? faq.answer : faq.answerEn;
+export function FaqJsonLd({ faq, lang }: { faq: { question: string; questionEn: string; answer: string; answerEn: string; extraFaqSchema?: { question: string; questionEn: string; answer: string; answerEn: string }[] }; lang: Locale }) {
+  const isZh = isZhLocale(lang);
+  const question = isZh ? faq.question : faq.questionEn;
+  const answer = isZh ? faq.answer : faq.answerEn;
+
+  const mainEntity = [
+    {
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    },
+  ];
+
+  if (faq.extraFaqSchema && faq.extraFaqSchema.length > 0) {
+    for (const item of faq.extraFaqSchema) {
+      mainEntity.push({
+        "@type": "Question",
+        name: isZh ? item.question : item.questionEn,
+        acceptedAnswer: { "@type": "Answer", text: isZh ? item.answer : item.answerEn },
+      });
+    }
+  }
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: answer,
-        },
-      },
-    ],
+    mainEntity,
   };
 
   return (

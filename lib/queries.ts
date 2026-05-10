@@ -209,6 +209,9 @@ export interface Faq {
   seoTitleEn?: string;
   seoDescriptionZh?: string;
   seoDescriptionEn?: string;
+  quickAnswer?: string;
+  quickAnswerEn?: string;
+  extraFaqSchema?: { question: string; questionEn: string; answer: string; answerEn: string }[];
   tags: string[];
   category: string;
   categoryZh: string;

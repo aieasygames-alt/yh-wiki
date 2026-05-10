@@ -999,7 +999,53 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "quickAnswer": "是的！异环完全支持多人联机，最多4人在线合作。支持PC、手机、PS5跨平台联机，免费游玩。没有PvP，专注合作PvE。",
+    "quickAnswerEn": "YES — NTE fully supports up to 4-player online co-op with cross-platform play (PC, Mobile, PS5). Free to play, no PvP, purely cooperative PvE.",
+    "extraFaqSchema": [
+      {
+        "question": "异环最多几人联机？",
+        "questionEn": "How many players can play NTE co-op?",
+        "answer": "异环最多支持4人联机，包括房主和最多3名访客。",
+        "answerEn": "NTE supports up to 4-player co-op — the host plus up to 3 guests."
+      },
+      {
+        "question": "异环支持跨平台联机吗？",
+        "questionEn": "Is NTE cross-platform multiplayer?",
+        "answer": "支持。异环支持PC、Android、iOS全平台跨平台联机，账号和进度跨平台同步。",
+        "answerEn": "Yes. NTE supports full cross-platform multiplayer across PC, Android, and iOS with synced progression."
+      },
+      {
+        "question": "异环可以单人玩吗？",
+        "questionEn": "Can you play NTE solo?",
+        "answer": "可以。异环大部分主线剧情、开放世界探索和角色培养都可以完全单人进行，只有联机功能需要网络连接。",
+        "answerEn": "Yes. Most story content, exploration, and character progression can be played entirely solo. Only co-op features require an internet connection."
+      },
+      {
+        "question": "异环有PvP吗？",
+        "questionEn": "Does NTE have PvP?",
+        "answer": "目前异环没有PvP模式，多人体验完全围绕合作PvE内容设计。",
+        "answerEn": "No. NTE currently has no PvP mode — multiplayer is entirely cooperative PvE."
+      },
+      {
+        "question": "异环联机怎么邀请好友？",
+        "questionEn": "How to invite friends in NTE multiplayer?",
+        "answer": "三种方式：好友列表直接邀请、匹配系统随机组队、城市NPC创建/加入队伍。",
+        "answerEn": "Three ways: invite from friend list, use matchmaking, or create/join parties via in-game NPCs in cities."
+      },
+      {
+        "question": "异环需要全程联网吗？",
+        "questionEn": "Is NTE an online-only game?",
+        "answer": "不需要。大部分内容可以离线或单人进行，只有联机功能、世界Boss和限时活动需要网络。",
+        "answerEn": "No. Most content works offline or solo. Only multiplayer features, world bosses, and live events require internet."
+      },
+      {
+        "question": "异环联机有语音聊天吗？",
+        "questionEn": "Does NTE co-op have voice chat?",
+        "answer": "有。异环内置实时语音聊天，还有表情系统和快捷聊天指令。",
+        "answerEn": "Yes. NTE has built-in voice chat, plus emotes and quick-chat commands."
+      }
+    ]
   },
   {
     "id": "starter-s-rank",
