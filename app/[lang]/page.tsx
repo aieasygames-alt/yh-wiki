@@ -20,16 +20,16 @@ export async function generateMetadata({
   // Locale-specific SEO titles and descriptions for better CTR
   const metaData: Record<string, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
     zh: {
-      title: "异环 Wiki 官网 - 攻略 · 配装 · 工具 | NTE Guide",
-      description: "异环(Neverness to Everness)Wiki官网，提供角色配装、升级计算器、攻略指南、兑换码和交互地图。",
-      ogTitle: "异环 Wiki 官网 - 攻略 · 配装 · 工具",
-      ogDescription: "异环(NTE)Wiki官网，提供角色配装、计算器、攻略、兑换码和地图。",
+      title: "异环攻略站 - 角色排行 · 互动地图 · 配装工具",
+      description: "异环(NTE)玩家攻略站：角色强度排行、互动地图、配装计算器、兑换码。内容最全的非官方Wiki。",
+      ogTitle: "异环攻略站 - 角色排行 · 互动地图 · 配装工具",
+      ogDescription: "异环(NTE)攻略站，角色排行、互动地图、配装计算器、兑换码。",
     },
     tw: {
-      title: "異環 Wiki 官網 - 攻略 · 配裝 · 工具 | NTE Guide",
-      description: "異環(Neverness to Everness)Wiki官方攻略站，提供角色配裝、升級計算器、攻略指南和兌換碼。",
-      ogTitle: "異環 Wiki 官網 - 攻略 · 配裝 · 工具",
-      ogDescription: "異環(NTE)Wiki官方攻略站，提供角色配裝、計算器、攻略和兌換碼。",
+      title: "異環攻略站 - 角色排行 · 互動地圖 · 配裝工具",
+      description: "異環(NTE)玩家攻略站：角色強度排行、互動地圖、配裝計算器、兌換碼。內容最全的非官方Wiki。",
+      ogTitle: "異環攻略站 - 角色排行 · 互動地圖 · 配裝工具",
+      ogDescription: "異環(NTE)攻略站，角色排行、互動地圖、配裝計算器、兌換碼。",
     },
     th: {
       title: "NTE Guide - Neverness to Everness Wiki ไทย | บิลด์ตัวละคร เทียร์ลิสต์ รหัสแลก",
@@ -92,10 +92,10 @@ export async function generateMetadata({
       ogDescription: "Builds de personagens, tier list, calculadora, guias NTE em Português.",
     },
     en: {
-      title: "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
-      description: "Find the best builds, tier lists, and guides for Neverness to Everness. Complete character database, leveling calculator, and redeem codes.",
-      ogTitle: "Neverness to Everness Wiki & Calculator",
-      ogDescription: "Find the best builds, tier lists, and guides for Neverness to Everness.",
+      title: "NTE Wiki: Tier List, Map, Guides & Calculator",
+      description: "NTE (Neverness to Everness) wiki with tier list, interactive map, character builds, redeem codes, and guides. Everything you need in one place.",
+      ogTitle: "NTE Wiki - Tier List, Map, Guides & Calculator",
+      ogDescription: "Tier list, interactive map, character builds, redeem codes, and guides for NTE.",
     },
   };
 

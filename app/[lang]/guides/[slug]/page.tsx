@@ -27,11 +27,11 @@ export async function generateMetadata({
   const title = isZhLocale(lang) ? guide.title : guide.titleEn;
   const description = isZhLocale(lang) ? guide.summary : guide.summaryEn;
   return {
-    title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "NTE Guide"} | NTE Guide`,
+    title,
     description,
     alternates: hreflangAlternates(`guides/${slug}`, lang),
     openGraph: {
-      title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "NTE Guide"} | NTE Guide`,
+      title,
       description,
       type: "article",
     },

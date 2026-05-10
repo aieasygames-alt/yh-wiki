@@ -14,12 +14,12 @@ export async function generateMetadata({
     ? "異環兌換碼（2026年5月）— 國服/國際服禮包碼序號大全、直播兌換碼即時更新 | NTE Guide"
     : isZh
       ? "异环兑换码（2026年5月）— 国服/国际服礼包码大全、开服兑换码、前瞻直播码实时更新 | NTE Guide"
-      : "NTE Redeem Codes (May 2026) — All Active Codes, Gift Codes & Livestream Codes";
+      : "NTE Redeem Codes - All Working Codes & How to Redeem (2026)";
   const description = isTw
     ? "異環(NTE)兌換碼即時更新（2026年5月）。國服和國際服所有有效禮包碼/序號，含前瞻直播碼、開服碼，附兌換方法教學和獎勵一覽。"
     : isZh
       ? "异环(NTE)兑换码实时更新（2026年5月）。国服和国际服所有有效礼包码，含开服兑换码、前瞻直播码、合作码，附兑换入口和奖励详情。"
-      : "All working NTE redeem codes for May 2026 (CN & Global). Includes livestream codes NTENOWTOENJOY, NTENANALLYGO, NTE0429 and more. Copy & redeem instantly!";
+      : "All active NTE redeem codes updated daily. Copy & redeem instantly for CN and Global servers. Includes step-by-step redemption guide.";
 
   return {
     title,

@@ -24,8 +24,8 @@ export async function generateMetadata({
 
   // Use custom SEO title/description if defined, otherwise fall back to question
   const title = isZh
-    ? (faq.seoTitleZh || `${faq.question} | 异环游戏 Wiki`)
-    : (faq.seoTitleEn || `${faq.questionEn} - NTE Guide`);
+    ? (faq.seoTitleZh || faq.question)
+    : (faq.seoTitleEn || faq.questionEn);
   const description = isZh
     ? (faq.seoDescriptionZh || faq.answer.slice(0, 160))
     : (faq.seoDescriptionEn || faq.answerEn.slice(0, 160));

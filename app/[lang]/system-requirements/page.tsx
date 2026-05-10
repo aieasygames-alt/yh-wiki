@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     ? (locale === "tw"
       ? "異環配置要求與下載大小 — PC/Android/iOS 最低推薦配置（2026）"
       : "异环配置要求与下载大小 — PC/Android/iOS 最低与推荐配置（2026）")
-    : "Neverness to Everness System Requirements — Can Your PC Run NTE? (2026 Specs)";
+    : "NTE System Requirements - Can Your PC Run It? (PC, Mobile Specs)";
   const description = isZhLocale(locale)
     ? (locale === "tw"
       ? "異環(NTE)完整配置要求：PC、Android、iOS 最低和推薦配置，下載大小約40GB(PC)/15GB(手機)，儲存空間需求一覽。"
       : "异环(NTE)完整配置要求与下载大小：PC约40GB、手机约15GB，含PC/Android/iOS最低和推荐配置、存储空间要求。")
-    : "Can your PC or phone run Neverness to Everness? Full minimum & recommended specs for PC (~40GB), Android, and iOS. Check if your device meets NTE requirements before downloading.";
+    : "Check NTE system requirements for PC, Android & iOS. Minimum & recommended specs, download size (90GB PC) and storage needs.";
 
   return {
     title,
