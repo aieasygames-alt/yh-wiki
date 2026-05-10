@@ -89,6 +89,60 @@ export default async function GuideDetailPage({
           </span>
         </div>
         <h1 className="text-2xl font-bold mb-6">{title}</h1>
+
+        {/* Quick Download CTA */}
+        {slug === "download-install-guide" && (
+          <div className="mb-8 rounded-xl border border-primary-500/30 bg-gradient-to-br from-primary-900/40 to-gray-900/60 p-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
+              <div className="text-3xl">⬇️</div>
+              <div>
+                <h2 className="text-lg font-bold text-white">
+                  {isZhLocale(locale) ? "立即下载异环" : "Download NTE Now — Free to Play"}
+                </h2>
+                <p className="text-sm text-gray-400 mt-1">
+                  {isZhLocale(locale)
+                    ? "PC 约90GB · 手机约15GB · 全平台免费"
+                    : "PC ~90GB · Mobile ~15GB · Free on all platforms"}
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <a
+                href="https://nte.perfectworld.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary-600 hover:bg-primary-500 text-white font-medium text-sm transition-colors"
+              >
+                🖥 PC
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.pwrd.nteglobal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-green-700 hover:bg-green-600 text-white font-medium text-sm transition-colors"
+              >
+                🤖 Android
+              </a>
+              <a
+                href="https://apps.apple.com/app/neverness-to-everness/id6741713522"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-colors"
+              >
+                🍎 iOS
+              </a>
+              <a
+                href="https://store.playstation.com/concept/10008264"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white font-medium text-sm transition-colors"
+              >
+                🎮 PS5
+              </a>
+            </div>
+          </div>
+        )}
+
         <ArticleContent content={content} />
 
         {/* FAQ Section */}
