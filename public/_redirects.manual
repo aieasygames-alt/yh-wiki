@@ -22,6 +22,14 @@
 /tw/faq/download-installation /tw/guides/download-install-guide/ 301
 /tw/faq/download-installation/ /tw/guides/download-install-guide/ 301
 
+# FAQ download-size -> download-install-guide (merged)
+/en/faq/download-size /en/guides/download-install-guide/ 301
+/en/faq/download-size/ /en/guides/download-install-guide/ 301
+/zh/faq/download-size /zh/guides/download-install-guide/ 301
+/zh/faq/download-size/ /zh/guides/download-install-guide/ 301
+/tw/faq/download-size /tw/guides/download-install-guide/ 301
+/tw/faq/download-size/ /tw/guides/download-install-guide/ 301
+
 # FAQ index pages - restored with optimized content
 # (previously redirected to homepage, now serving FAQ listing page)
 

@@ -49,7 +49,7 @@ export async function generateMetadata({
   // Build title with tier rank and role for better CTR
   const tierStr = character.tierRank ? ` [${character.tierRank} Tier]` : "";
   const title = isZh
-    ? `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${lang === "tw" ? "異環角色攻略：配裝/技能/配隊" : "异环角色攻略：配装/技能/配队"} | NTE Guide`
+    ? `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${lang === "tw" ? "異環角色攻略：配裝/技能/配隊" : "异环角色攻略：配装/技能/配队"}`
     : `${character.nameEn}${tierStr} - NTE Character Guide: Build, Skills & Team`;
   const description = isZh
     ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
