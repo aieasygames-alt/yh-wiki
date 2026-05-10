@@ -4822,5 +4822,103 @@
     "categoryEn": "General",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "mygo-collab-faq",
+    "question": "异环联动MyGO是什么？有哪些内容？",
+    "questionEn": "What is the NTE x MyGO collaboration? What content does it include?",
+    "answer": "\"异环联动MyGO\"是百度搜索高频联想词，MyGO!!!!!是日本动漫《BanG Dream! It's MyGO!!!!!》中的乐队。目前该联动尚未被官方正式公布，但百度联想词和社区讨论中出现频率较高。如果确认联动，可能包含：1) 联动音乐/BGM加入游戏；2) 联动角色外观或皮肤；3) 联动限定活动和奖励；4) 特殊家具或装饰物品。建议关注官方社交媒体和1.1版本前瞻直播获取确认消息。",
+    "answerEn": "\"NTE collab MyGO\" is a high-frequency Baidu search suggestion. MyGO!!!!! is a band from the anime \"BanG Dream! It's MyGO!!!!!\". The collaboration has not been officially announced yet, but appears frequently in Baidu suggestions and community discussions. If confirmed, potential content includes: 1) Collaboration music/BGM; 2) Character skins or outfits; 3) Limited collaboration events and rewards; 4) Special furniture or decorations. Follow official social media and the v1.1 livestream for confirmation.",
+    "tags": [
+      "collab",
+      "mygo",
+      "band",
+      "music"
+    ],
+    "category": "general",
+    "categoryZh": "联动",
+    "categoryEn": "Collaboration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "lawson-collab-faq",
+    "question": "异环联动罗森（Lawson）是什么？怎么参加？",
+    "questionEn": "What is the NTE x Lawson collaboration? How to participate?",
+    "answer": "\"异环联动罗森\"出现在百度搜索联想词中。罗森（Lawson）是日本连锁便利店，在中国也有大量门店。该联动目前尚未被官方正式公布。如果确认联动，参考其他游戏的便利店联动模式，可能包含：1) 线下门店购买联动商品获取游戏内兑换码；2) 联动限定家具或装饰物品；3) 联动专属活动任务和奖励；4) 联动主题包装的商品。建议关注官方公告和罗森门店活动信息。",
+    "answerEn": "\"NTE collab Lawson\" appears in Baidu search suggestions. Lawson is a Japanese convenience store chain with many locations in China. The collaboration has not been officially announced. Based on similar convenience store collabs in other games, possible content includes: 1) In-store purchases for game redeem codes; 2) Limited furniture or decorations; 3) Exclusive event quests and rewards; 4) Collab-themed products. Watch for official announcements and Lawson store promotions.",
+    "tags": [
+      "collab",
+      "lawson",
+      "convenience-store",
+      "offline"
+    ],
+    "category": "general",
+    "categoryZh": "联动",
+    "categoryEn": "Collaboration",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-marketing-highlights",
+    "question": "异环有哪些线下广告和营销活动？伦敦皮卡迪利广场广告",
+    "questionEn": "What offline marketing has NTE done? London Piccadilly Circus ad and more",
+    "answer": "异环在公测期间进行了一系列线下营销活动，最受关注的是：1) **伦敦皮卡迪利广场广告**：有玩家在伦敦著名的Piccadilly Circus看到薄荷（Mint）和娜娜莉（Nanally）的巨幅广告牌，照片在Reddit获得452赞，引发社区热议；2) 这些线下广告说明完美世界对异环的全球推广投入相当大；3) 除伦敦外，可能在其他国际城市也有线下广告投放。这类线下营销活动不仅提升了游戏知名度，也成为了社区讨论的热门话题。",
+    "answerEn": "NTE conducted several offline marketing campaigns during launch: 1) **London Piccadilly Circus Ad**: A player spotted Mint and Nanally on a massive billboard at London's famous Piccadilly Circus. The photo got 452 upvotes on Reddit and sparked community discussion; 2) These offline ads indicate Perfect World's significant investment in global NTE promotion; 3) Ads may also appear in other international cities. These campaigns not only boost game awareness but also become popular community discussion topics.",
+    "tags": [
+      "marketing",
+      "offline",
+      "advertising",
+      "london",
+      "community"
+    ],
+    "category": "general",
+    "categoryZh": "综合信息",
+    "categoryEn": "General",
+    "relatedCharacters": [
+      "nanally",
+      "mint"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "xun-banned-reason",
+    "question": "异环新角色浔为什么被禁播？被禁播原因是什么？",
+    "questionEn": "Why was NTE character Xun banned from streaming? What's the reason?",
+    "answer": "\"异环新角色被禁播原因\"是百度搜索的高频联想词。浔（Xun）的角色设计可能涉及某些敏感内容或版权问题，导致在部分中国直播平台和视频平台被限制展示。具体情况和原因官方尚未公开说明。需要强调的是：1) 这不影响游戏内正常使用浔角色；2) 禁播可能只针对部分平台的直播/视频内容；3) 游戏内体验完全不受影响。具体原因可能涉及角色外观设计、技能特效等方面的审核问题，等待官方进一步说明。",
+    "answerEn": "\"Why was NTE's new character banned from streaming\" is a high-frequency Baidu search. Xun's character design may involve sensitive content or copyright issues, leading to restricted display on some Chinese streaming and video platforms. Official reason has not been disclosed. Key points: 1) This does NOT affect in-game usage of Xun; 2) The ban may only apply to streaming/video content on certain platforms; 3) In-game experience is completely unaffected. The specific reason may involve character appearance or skill effects review, pending official clarification.",
+    "tags": [
+      "xun",
+      "banned",
+      "censorship",
+      "streaming"
+    ],
+    "category": "characters",
+    "categoryZh": "角色",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "xun"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "v11-release-date",
+    "question": "异环1.1版本什么时候上线？前瞻直播什么时候？",
+    "questionEn": "When does NTE Version 1.1 release? When is the livestream?",
+    "answer": "异环1.1版本的上线时间官方尚未正式公布。基于以下信息进行推测：1) 1.0版本于2026年4月29日上线；2) 参考同类抽卡游戏的更新节奏，每个大版本通常持续6-8周；3) 因此1.1版本预计在**2026年6月上旬**上线；4) 前瞻直播通常在版本上线前1-2周举行，预计在**5月下旬**。新角色浔（Xun）大概率在1.1版本上线，保时捷联动载具也可能在同期实装。建议关注官方社交媒体获取前瞻直播的具体时间公告。",
+    "answerEn": "NTE v1.1 release date has not been officially announced. Predictions based on: 1) v1.0 launched April 29, 2026; 2) Similar gacha games update every 6-8 weeks; 3) v1.1 expected in **early June 2026**; 4) Preview livestream typically 1-2 weeks before launch, expected in **late May**. New character Xun will likely debut in v1.1, and Porsche collab vehicles may launch around the same time. Follow official social media for the livestream announcement.",
+    "tags": [
+      "v1.1",
+      "update",
+      "release-date",
+      "livestream"
+    ],
+    "category": "general",
+    "categoryZh": "版本更新",
+    "categoryEn": "Updates",
+    "relatedCharacters": [
+      "xun"
+    ],
+    "relatedMaterials": []
   }
 ]
