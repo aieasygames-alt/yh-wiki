@@ -1,0 +1,870 @@
+#!/usr/bin/env node
+/**
+ * Generate Thai (th.json) translation file from English (en.json).
+ * Reads en.json, applies a comprehensive English→Thai mapping, and writes th.json.
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const messagesDir = path.join(__dirname, '..', 'messages');
+const enPath = path.join(messagesDir, 'en.json');
+const thPath = path.join(messagesDir, 'th.json');
+
+// Read English source
+const en = JSON.parse(fs.readFileSync(enPath, 'utf-8'));
+
+// ─── Thai translation ────────────────────────────────────────────────────────
+const th = {
+  site: {
+    title: "NTE Guide - Neverness to Everness Wiki",
+    description: "Wiki & เครื่องมือ Neverness to Everness บิลด์ตัวละคร, Tier List, เครื่องคำนวณ, คู่มือและรหัสแลก",
+    nav: {
+      home: "หน้าแรก",
+      characters: "ตัวละคร",
+      weapons: "อาวุธ",
+      vehicles: "ยานพาหนะ",
+      materials: "วัสดุ",
+      cassettes: "Cartridges",
+      calculator: "เครื่องคำนวณ",
+      gacha: "กาชา",
+      redeemCodes: "รหัสแลก",
+      guides: "คู่มือ",
+      lore: "เรื่องราว",
+      locations: "สถานที่",
+      faq: "คำถามยอดนิยม",
+      map: "แผนที่",
+      blog: "บล็อก",
+      guidesAndTools: "คู่มือ & เครื่องมือ",
+      database: "ฐานข้อมูล",
+      wiki: "Wiki",
+      allGuides: "คู่มือทั้งหมด",
+      levelingCalc: "คำนวณเลเวล",
+      buildCalc: "คำนวณบิลด์",
+      gachaSim: "จำลองกาชา",
+      gachaAnalyzer: "ติดตาม Pull",
+      footer: {
+        gameData: "ข้อมูลเกม",
+        tools: "เครื่องมือ",
+        content: "เนื้อหา",
+        resources: "แหล่งข้อมูล"
+      }
+    }
+  },
+  home: {
+    heroTitle: "NTE Guide",
+    heroSubtitle: "Wiki & เครื่องมือ Neverness to Everness",
+    heroDescription: "หาบิลด์ที่ดีที่สุด คำนวณต้นทุนการฟาร์ม และสำรวจ Neverness to Everness",
+    ctaCalculator: "ใช้เครื่องคำนวณ",
+    charactersSection: "ตัวละครทั้งหมด",
+    materialsSection: "วัสดุทั้งหมด",
+    viewAll: "ดูทั้งหมด",
+    sRankCharacters: "ตัวละคร S-Rank"
+  },
+  characters: {
+    title: "ตัวละคร NTE",
+    description: "บิลด์ตัวละคร, วัสดุอัปเลเวล และอันดับ Tier ของ Neverness to Everness ทั้งหมด",
+    rank: "Rank",
+    attribute: "ธาตุ",
+    levelingMaterials: "วัสดุอัปเลเวล",
+    skillMaterials: "วัสดุอัปสกิล",
+    calculatorCta: "คำนวณต้นทุนการฟาร์ม",
+    levelRange: "เลเวล {range}",
+    weapon: "อาวุธ",
+    role: "บทบาท",
+    faction: "กลุ่ม",
+    skills: "สกิล",
+    normalAttack: "โจมตีปกติ",
+    skill: "สกิล",
+    ultimate: "อัลติเมท",
+    passives: "พาสซีฟ",
+    scaling: "สเกลลิ่ง",
+    cooldown: "คูลดาวน์",
+    cost: "ต้นทุน",
+    recommendedBuild: "บิลด์ที่แนะนำ",
+    bestWeapon: "อาวุธที่ดีที่สุด",
+    alternativeWeapons: "อาวุธทางเลือก",
+    bestDiskSet: "ชุด Disk ที่ดีที่สุด",
+    mainStats: "สเตทหลัก",
+    subStatPriority: "ลำดับสเตทรอง",
+    teamComps: "ทีม",
+    tierRank: "อันดับ Tier",
+    members: "สมาชิก",
+    relatedCharacters: "ตัวละครที่เกี่ยวข้อง",
+    viewTierList: "ดู Tier List ทั้งหมด →"
+  },
+  materials: {
+    title: "วัสดุ NTE",
+    description: "แหล่งที่มาและการใช้งานของวัสดุ Neverness to Everness ทั้งหมด",
+    source: "แหล่งที่มา",
+    usedBy: "ใช้โดย",
+    rarity: "ความหายาก",
+    type: "ประเภท"
+  },
+  calculator: {
+    title: "เครื่องคำนวณเลเวล NTE",
+    description: "คำนวณวัสดุที่ต้องการสำหรับอัปเลเวลตัวละคร Neverness to Everness",
+    selectCharacter: "เลือกตัวละคร",
+    currentLevel: "เลเวลปัจจุบัน",
+    targetLevel: "เลเวลเป้าหมาย",
+    calculate: "คำนวณ",
+    result: "ผลลัพธ์",
+    material: "วัสดุ",
+    quantity: "จำนวน",
+    total: "รวม",
+    noResult: "กรุณาเลือกตัวละครและกรอกเลเวล",
+    skillMaterialsNote: "วัสดุอัปสกิล (ต้นทุนคงที่)",
+    levelingNote: "วัสดุอัปเลเวล",
+    leveling: "คำนวณเลเวล",
+    build: "คำนวณบิลด์"
+  },
+  buildCalculator: {
+    title: "เครื่องคำนวณบิลด์ NTE",
+    description: "ดูบิลด์ตัวละคร NTE, สเตทหลัก, สเตทรอง, อาวุธ และทีม",
+    selectCharacter: "เลือกตัวละคร",
+    selectHint: "เลือกตัวละครเพื่อดูบิลด์ที่แนะนำ",
+    filterHint: "ใช้ตัวกรองด้านบนเพื่อเรียงลำดับตามธาตุหรือความหายาก",
+    noBuild: "ยังไม่มีบิลด์สำหรับตัวละครนี้",
+    allAttributes: "ทั้งหมด",
+    mainStat: "สเตทหลัก",
+    subStats: "ลำดับสเตทรอง",
+    priority1: "สูงสุด",
+    priority2: "สูง",
+    priority3: "ปานกลาง",
+    priority4: "ต่ำ",
+    recommendedWeapons: "อาวุธที่แนะนำ",
+    teamComp: "ทีม",
+    materialSummary: "สรุปวัสดุเลเวลสูงสุด",
+    openLevelingCalc: "เปิดเครื่องคำนวณเลเวล →"
+  },
+  gacha: {
+    title: "จำลองกาชา NTE",
+    description: "จำลองกาชา Neverness to Everness และทดสอบความโชคของคุณ!",
+    disclaimer: "อัตราไม่เป็นทางการ ใช้เพื่อความบันเทิงเท่านั้น อัตราจริงอาจแตกต่าง",
+    pull1: "กาชา x1",
+    pull10: "กาชา x10",
+    pity: "ตัวนับ Pity",
+    totalPulls: "Pull ทั้งหมด",
+    sRankCount: "จำนวน S-Rank",
+    results: "ผลลัพธ์",
+    history: "ประวัติ",
+    clearHistory: "ล้างประวัติ",
+    pulling: "กำลังกาชา...",
+    hint: "เลือกแบนเนอร์แล้วกดกาชาเพื่อเริ่มจำลอง",
+    stats: "สถิติ",
+    avgPity: "Pity เฉลี่ย",
+    luckiest: "โชคดีที่สุด",
+    unluckiest: "โชคร้ายที่สุด",
+    s5Rate: "อัตรา 5★",
+    collection: "คอลเลกชัน 5★",
+    pityWarning: "อีก {0} pull ถึง Pity!"
+  },
+  gachaAnalyzer: {
+    title: "ติดตาม Pull กาชา",
+    subtitle: "บันทึก Pull จริง ติดตาม Pity วิเคราะห์ความโชค",
+    tabLog: "บันทึก Pull",
+    tabStats: "สถิติ",
+    tabHistory: "ประวัติ",
+    tabData: "ข้อมูล",
+    bannerLabel: "แบนเนอร์",
+    charLabel: "ตัวละคร / อาวุธ",
+    pullNumberLabel: "จำนวน Pity",
+    pullNumberHint: "กรอกจำนวน Pull ทั้งหมดก่อน S-rank นี้",
+    addPull: "เพิ่มบันทึก",
+    quickLog: "บันทึกด่วน",
+    quickLogHint: "กรอกผลลัพธ์คั่นด้วยจุลภาคเพื่อนำเข้าเป็นชุด",
+    quickLogPlaceholder: "เช่น S,A,B,B,A,B,B,B,B,S",
+    importQuickLog: "นำเข้า",
+    statsTitle: "สถิติ Pull",
+    totalPulls: "Pull ทั้งหมด",
+    totalS: "S-Rank ทั้งหมด",
+    sRate: "อัตรา S-Rank",
+    avgPity: "Pity เฉลี่ย",
+    luckIndex: "ดัชนีโชค",
+    luckGreat: "โชคดี!",
+    luckGood: "เหนือเฉลี่ย",
+    luckNormal: "เฉลี่ย",
+    luckBad: "ต่ำกว่าเฉลี่ย",
+    luckTerrible: "โชคร้าย...",
+    pityProgress: "ความคืบหน้า Pity",
+    bannerLimited: "กาชาจำกัด",
+    bannerBeginner: "กาชามือใหม่",
+    bannerStandard: "กาชามาตรฐาน",
+    bannerWeapons: "กาชาอาวุธ",
+    historyEmpty: "ยังไม่มีบันทึก Pull",
+    deleteRecord: "ลบ",
+    confirmDelete: "ลบบันทึกนี้?",
+    exportBtn: "ส่งออก JSON",
+    importBtn: "นำเข้า JSON",
+    importMerge: "ผสาน",
+    importReplace: "แทนที่",
+    clearBtn: "ล้างข้อมูล",
+    confirmClear: "คุณแน่ใจหรือไม่? ข้อมูล Pull ทั้งหมดจะถูกลบถาวร!",
+    importSuccess: "นำเข้าสำเร็จ!",
+    importError: "นำเข้าล้มเหลว: รูปแบบไม่ถูกต้อง",
+    exportSuccess: "ส่งออกสำเร็จ",
+    goSimulator: "ลองจำลองกาชา →",
+    noRecords: "ยังไม่มีบันทึก — บันทึก Pull ครั้งแรกของคุณ!"
+  },
+  redeemCodes: {
+    title: "รหัสแลก NTE",
+    description: "รหัสแลก NTE ที่ใช้ได้ทั้งหมด - อัปเดตเป็นประจำ",
+    lastUpdate: "อัปเดตล่าสุด",
+    total: "รวม",
+    active: "ใช้ได้",
+    expired: "หมดอายุ",
+    filter_all: "ทั้งหมด",
+    filter_active: "ใช้ได้",
+    filter_expired: "หมดอายุ",
+    reward: "รางวัล",
+    expires: "หมดอายุ",
+    copy: "คัดลอก",
+    copied: "คัดลอกแล้ว!",
+    howToTitle: "วิธีใช้รหัสแลก",
+    step1: "คัดลอกรหัสจากด้านบน",
+    step2: "ในเกม: แตปเมนูมุมขวาบน → [...] → ใช้รหัสแลก",
+    step3: "วางรหัสและยืนยัน รางวัลจะส่งผ่านจดหมายในเกม",
+    nextSteps: {
+      title: "ใช้รหัสแล้ว? ต่อไปคือ",
+      tierList: "Tier List",
+      tierListDesc: "ดูว่าตัวละครไหนคุ้มค่า Pull",
+      reroll: "คู่มือ Reroll",
+      rerollDesc: "ไม่พอใจผล Pull? เริ่มใหม่อย่างชาญฉลาด",
+      beginner: "คู่มือมือใหม่",
+      beginnerDesc: "ทุกสิ่งที่คุณต้องรู้ในสัปดาห์แรก",
+      teamBuilding: "สร้างทีม",
+      teamBuildingDesc: "สร้างทีมที่ดีที่สุดจากสิ่งที่คุณมี"
+    },
+    topCharacters: {
+      title: "ตัวละครที่แรงที่สุดตอนนี้",
+      viewAll: "ดู Tier List ทั้งหมด →"
+    },
+    latestPosts: {
+      title: "มือใหม่กับ NTE?"
+    }
+  },
+  map: {
+    title: "แผนที่ NTE แบบโต้ตอบ",
+    description: "แผนที่โต้ตอบ Neverness to Everness พร้อมจุด Domain, Boss และของสะสม",
+    markerList: "รายการจุดหมาย",
+    relatedMaterials: "วัสดุที่ดรอป",
+    closeDetail: "ปิด",
+    allTypes: "ทั้งหมด",
+    markerCount: "{0} จุดหมายทั้งหมด",
+    resetView: "รีเซ็ตมุมมอง",
+    noMarker: "ไม่มีจุดหมาย",
+    searchPlaceholder: "ค้นหาจุดหมาย...",
+    collectionProgress: "ความคืบหน้าการสะสม",
+    selectAll: "เลือกทั้งหมด",
+    deselectAll: "ยกเลิกเลือกทั้งหมด",
+    markCollected: "ทำเครื่องหมายว่าเก็บแล้ว",
+    collected: "เก็บแล้ว",
+    resetProgress: "รีเซ็ตความคืบหน้า",
+    hidePanel: "ซ่อนแผง",
+    showPanel: "แสดงแผง",
+    viewGuide: "ดูคู่มือ →",
+    close: "ปิด",
+    once: "ครั้งเดียว",
+    daily: "เกิดใหม่ทุกวัน",
+    weekly: "เกิดใหม่ทุกสัปดาห์",
+    common: "ธรรมดา",
+    exquisite: "ประณีต",
+    precious: "ล้ำค่า",
+    luxurious: "หรูหรา",
+    coordinates: "พิกัด",
+    hideCollected: "ซ่อนที่เก็บแล้ว",
+    regionProgress: "ความคืบหน้าตามภูมิภาค",
+    oracleStone: "Oracle Stone",
+    phoneBooth: "ตู้โทรศัพท์",
+    gift21: "ของขวัญจาก \"21\"",
+    mysteryBox: "กล่องปริศนา",
+    anomaly: "คณะกรรมการผิดปกติ",
+    anomalyCombat: "คณะกรรมการต่อสู้",
+    anomalyStealth: "คณะกรรมการแอบแฝง",
+    anomalyEscort: "คณะกรรมการคุ้มกัน",
+    tower: "หอ Wertheimer",
+    arcPlate: "Arc Plate",
+    arcPlateS: "Arc Plate ระดับ S",
+    arcPlateA: "Arc Plate ระดับ A",
+    checkin: "จุดเช็คอิน",
+    checkinPhoto: "จุดถ่ายรูป",
+    checkinLandmark: "จุดสังเกต",
+    currency: "จุดสกุลเงิน",
+    currencyFon: "Fon",
+    currencyAnnulith: "Annulith",
+    routePlanner: "วางแผนเส้นทาง",
+    optimizeRoute: "เพิ่มประสิทธิภาพ",
+    shareRoute: "แชร์",
+    clearRoute: "ล้าง",
+    addToRoute: "เพิ่มเข้าเส้นทาง",
+    totalDistance: "ระยะทางรวม",
+    clickToAddRoute: "คลิกจุดหมายเพื่อเพิ่มเข้าเส้นทาง"
+  },
+  attributes: {
+    cosmos: "Cosmos",
+    anima: "Anima",
+    incantation: "Incantation",
+    chaos: "Chaos",
+    psyche: "Psyche",
+    lakshana: "Lakshana"
+  },
+  types: {
+    resonance: "Resonance",
+    nucleus: "Nucleus",
+    permit: "Permit",
+    drop: "ดรอป",
+    currency: "สกุลเงิน",
+    domain: "Domain",
+    manual: "คู่มือ"
+  },
+  faq: {
+    title: "คำถามยอดนิยม NTE",
+    description: "คำตอบสำหรับคำถามที่พบบ่อยเกี่ยวกับ Neverness to Everness - อัปเลเวล, วัสดุ, ต่อสู้, กาชา และอื่นๆ",
+    relatedFaqs: "คำถามที่เกี่ยวข้อง"
+  },
+  guides: {
+    title: "คู่มือ NTE - ตั้งแต่มือใหม่ถึงขั้นสูง",
+    description: "คู่มือกลยุทธ์ Neverness to Everness อย่างครบถ้วน ครอบคลุมเคล็ดลับมือใหม่, ปฏิกิริยาธาตุ, การจัดการสตามิน่า, กลยุทธ์กาชา และการสร้างทีม",
+    readMore: "อ่านเพิ่มเติม",
+    relatedGuides: "คู่มือที่เกี่ยวข้อง",
+    relatedCharacters: "ตัวละครที่เกี่ยวข้อง",
+    relatedLocations: "สถานที่ที่เกี่ยวข้อง",
+    relatedLore: "เรื่องราวที่เกี่ยวข้อง",
+    tableOfContents: "สารบัญ"
+  },
+  lore: {
+    title: "เรื่องราว NTE",
+    description: "เรื่องราว Neverness to Everness - Espers, Oddities, Anomalies และโลก",
+    relatedCharacters: "ตัวละครที่เกี่ยวข้อง",
+    relatedLocations: "สถานที่ที่เกี่ยวข้อง"
+  },
+  locations: {
+    title: "สถานที่ NTE",
+    description: "สำรวจสถานที่ทั้งหมดใน Hethereau และอื่นๆ ใน Neverness to Everness",
+    relatedCharacters: "ตัวละครที่เกี่ยวข้อง",
+    relatedLore: "เรื่องราวที่เกี่ยวข้อง"
+  },
+  weapons: {
+    title: "Arc Disk NTE - สเตททั้ง 42 Arc & ตัวละครที่เหมาะสมที่สุด",
+    description: "ฐานข้อมูล Arc Disk Neverness to Everness อย่างครบถ้วน ครอบคลุมทั้ง 42 arc พร้อม ATK, สเตทรอง, เอฟเฟกต์พาสซีฟ และตัวละครที่เหมาะสมที่สุด",
+    type: "ประเภท",
+    relatedCharacters: "ตัวละครที่เหมาะสมที่สุด",
+    gas: "Gas",
+    liquid: "Liquid",
+    plasma: "Plasma",
+    solid: "Solid",
+    synthesis: "Synthesis"
+  },
+  blog: {
+    title: "บล็อก",
+    description: "ข่าวล่าสุด, คู่มือเชิงลึก และรีวิวเกม Neverness to Everness",
+    tags: {
+      comparison: "เปรียบเทียบ",
+      genshin: "Genshin Impact",
+      "wuthering-waves": "Wuthering Waves",
+      beginner: "มือใหม่",
+      review: "รีวิว",
+      cbt: "CBT",
+      characters: "ตัวละคร",
+      codes: "รหัสแลก",
+      "day-one": "วันแรก",
+      exploration: "สำรวจ",
+      gacha: "กาชา",
+      global: "Global",
+      guide: "คู่มือ",
+      launch: "เปิดตัว",
+      livestream: "Livestream",
+      meta: "Meta",
+      news: "ข่าว",
+      optimization: "เพิ่มประสิทธิภาพ",
+      pity: "Pity",
+      "pre-registration": "ลงทะเบียนล่วงหน้า",
+      settings: "ตั้งค่า",
+      "tier-list": "Tier List",
+      update: "อัปเดต",
+      "version-1-0": "เวอร์ชัน 1.0",
+      advanced: "ขั้นสูง",
+      "free-pulls": "Pull ฟรี",
+      "launch-rewards": "รางวัลเปิดตัว",
+      f2p: "F2P",
+      "beginner-guide": "คู่มือมือใหม่",
+      "pre-download": "ดาวน์โหลดล่วงหน้า",
+      "launch-guide": "คู่มือเปิดตัว",
+      download: "ดาวน์โหลด",
+      "new-features": "ฟีเจอร์ใหม่",
+      "city-tycoon": "City Tycoon",
+      housing: "ที่อยู่อาศัย",
+      driving: "ขับขี่",
+      multiplayer: "Multiplayer",
+      prison: "เรือนจำ",
+      "official-launch": "เปิดตัวอย่างเป็นทางการ"
+    }
+  },
+  changelog: {
+    title: "บันทึกการเปลี่ยนแปลง",
+    description: "ประวัติการอัปเดตเวอร์ชัน NTE พร้อมตัวละครใหม่, ฟีเจอร์ และการเปลี่ยนแปลงระบบ"
+  },
+  compare: {
+    title: "เปรียบเทียบ",
+    description: "เปรียบเทียบ NTE กับ Genshin Impact, Wuthering Waves และเกมอื่นๆ",
+    nteVsGenshin: "NTE vs Genshin",
+    nteVsWuwa: "NTE vs WuWa",
+    gamesLikeNte: "เกมที่คล้าย NTE"
+  },
+  comments: {
+    title: "พูดคุยผู้เล่น"
+  },
+  common: {
+    all: "ทั้งหมด",
+    clear: "ล้าง",
+    close: "ปิด",
+    home: "หน้าแรก",
+    name: "ชื่อ",
+    role: "บทบาท",
+    element: "ธาตุ",
+    rarity: "ความหายาก",
+    weaponType: "ประเภทอาวุธ",
+    faction: "กลุ่ม",
+    rank: "Rank",
+    type: "ประเภท",
+    source: "แหล่งที่มา",
+    price: "ราคา",
+    free: "ฟรี",
+    level: "เลเวล",
+    back: "กลับ",
+    copy: "คัดลอก",
+    copied: "คัดลอกแล้ว",
+    copyCoordinates: "คัดลอกพิกัด",
+    recommended: "แนะนำ",
+    items: "รายการ",
+    noResults: "ไม่พบผลลัพธ์",
+    typeToSearch: "พิมพ์เพื่อเริ่มค้นหา"
+  },
+  filter: {
+    allAttributes: "ธาตุทั้งหมด",
+    allRanks: "Rank ทั้งหมด",
+    allRoles: "บทบาททั้งหมด",
+    allRarities: "ความหายากทั้งหมด",
+    charactersCount: "ตัวละคร",
+    materialsCount: "วัสดุ",
+    noMatching: "ไม่มีตัวละครที่ตรงกัน",
+    noMatchingMaterials: "ไม่มีวัสดุที่ตรงกัน"
+  },
+  status: {
+    available: "มีให้ใช้",
+    upcoming: "กำลังจะมา",
+    rumored: "ยังไม่ยืนยัน",
+    active: "ใช้ได้",
+    expired: "หมดอายุ",
+    unknown: "ไม่ทราบ"
+  },
+  roles: {
+    attack: "โจมตี",
+    support: "สนับสนุน",
+    defense: "ป้องกัน",
+    assist: "ช่วยเหลือ"
+  },
+  characterSummary: {
+    title: "สถิติด่วน",
+    vaCn: "นักพากย์ (CN)",
+    vaJp: "นักพากย์ (JP)"
+  },
+  weaponSummary: {
+    title: "สรุป Arc Disk",
+    obtain: "วิธีได้รับ",
+    bestFor: "เหมาะสมที่สุดสำหรับ"
+  },
+  vehicleTypes: {
+    car: "รถยนต์",
+    motorcycle: "รถจักรยานยนต์",
+    scooter: "รถมอเตอร์ไซค์",
+    kart: "รถโกคาร์ท"
+  },
+  vehicles: {
+    title: "ยานพาหนะ",
+    database: "ฐานข้อมูลยานพาหนะ",
+    statistics: "สถิติยานพาหนะ",
+    totalVehicles: "ยานพาหนะทั้งหมด",
+    fastest: "เร็วที่สุด",
+    mostExpensive: "แพงที่สุด",
+    freeVehicles: "ยานพาหนะฟรี",
+    performanceStats: "สถิติประสิทธิภาพ",
+    topSpeed: "ความเร็วสูงสุด",
+    acceleration: "อัตราเร่ง",
+    shift: "เปลี่ยนเกียร์",
+    brake: "เบรก",
+    drift: "ดริฟท์",
+    howToGet: "วิธีได้รับ",
+    backToList: "กลับไปยานพาหนะ"
+  },
+  anomalies: {
+    title: "คู่มือ Anomaly",
+    boss: "Anomaly บอส",
+    elite: "Anomaly ชั้นยอด",
+    normal: "Anomaly ทั่วไป",
+    quickStats: "สถิติด่วน",
+    category: "หมวดหมู่",
+    location: "สถานที่",
+    weakness: "จุดอ่อน",
+    mechanics: "กลไก",
+    strategy: "กลยุทธ์",
+    drops: "ดรอป"
+  },
+  tierList: {
+    title: "Tier List",
+    ssTier: "SS Tier (ดีที่สุด)",
+    sPlusTier: "S+ Tier (ยอดเยี่ยม)",
+    sTier: "S Tier (ดีมาก)",
+    aPlusTier: "A+ Tier (ดี)",
+    aTier: "A Tier (ใช้ได้)",
+    bTier: "B Tier (เฉลี่ย)",
+    notRated: "ยังไม่จัดอันดับ (N)",
+    disclaimer: "อันดับจัดตามข้อมูลเวอร์ชันทดสอบ..."
+  },
+  systemReqs: {
+    title: "ข้อกำหนดระบบ",
+    pageTitle: "ข้อกำหนดระบบ NTE — อุปกรณ์ของคุณเล่นได้ไหม?",
+    pageDescription: "ข้อกำหนดระบบสำหรับ Neverness to Everness บน PC, Android และ iOS — ขั้นต่ำและที่แนะนำ, ขนาดดาวน์โหลด และพื้นที่จัดเก็บ",
+    spec: "ข้อมูลจำเพาะ",
+    minimum: "ขั้นต่ำ",
+    recommended: "แนะนำ",
+    pcTitle: "ข้อกำหนด PC",
+    androidTitle: "ข้อกำหนด Android",
+    iosTitle: "ข้อกำหนด iOS",
+    storageTitle: "ขนาดพื้นที่จัดเก็บ",
+    pcStorage: "~40 GB (แนะนำ SSD)",
+    mobileStorage: "~10-15 GB",
+    pc: {
+      os: "ระบบปฏิบัติการ",
+      cpu: "CPU",
+      ram: "RAM",
+      gpu: "GPU",
+      storage: "พื้นที่จัดเก็บ"
+    },
+    android: {
+      cpu: "SoC",
+      ram: "RAM",
+      os: "ระบบปฏิบัติการ",
+      storage: "พื้นที่จัดเก็บ"
+    },
+    storageDisclaimer: "ขนาดข้างต้นเป็นสำหรับการติดตั้งเริ่มต้น การอัปเดตในอนาคตอาจต้องการพื้นที่เพิ่มเติม",
+    ios: {
+      device: "อุปกรณ์",
+      os: "ระบบปฏิบัติการ",
+      storage: "พื้นที่จัดเก็บ"
+    }
+  },
+  changelogDetails: {
+    major: "หลัก",
+    minor: "รอง",
+    fix: "แก้ไข",
+    cn: "CN",
+    global: "Global",
+    highlights: "จุดเด่น",
+    compensation: "ค่าชดเชยบำรุงรักษา",
+    relatedLinks: "ลิงก์ที่เกี่ยวข้อง",
+    backToList: "กลับไปบันทึกการเปลี่ยนแปลง"
+  },
+  blogDetails: {
+    relatedContent: "เนื้อหาที่เกี่ยวข้อง",
+    relatedPosts: "บทความที่เกี่ยวข้อง"
+  },
+  guideDetails: {
+    relatedContent: "เนื้อหาที่เกี่ยวข้อง",
+    gachaSystemGuide: "คู่มือระบบกาชา",
+    bannerTypes: "ภาพรวมประเภทแบนเนอร์",
+    no5050: "ไม่มี 50/50",
+    sRank: "S-Rank",
+    aRank: "A-Rank",
+    bRank: "B-Rank",
+    hardPity: "Hard Pity",
+    softPity: "Soft Pity",
+    avgPulls: "Pull เฉลี่ย",
+    maxPulls: "Pull สูงสุด",
+    selectorAt: "Selector ที่",
+    featuredPity: "Pity ตัวเด่น",
+    faq: "คำถามยอดนิยม"
+  },
+  faqDetails: {
+    relatedCharacters: "ตัวละครที่เกี่ยวข้อง",
+    relatedMaterials: "วัสดุที่เกี่ยวข้อง",
+    searchPlaceholder: "ค้นหาคำถาม...",
+    noMatching: "ไม่พบคำถามที่ตรงกัน",
+    tagsCount: "แท็ก"
+  },
+  compareDetails: {
+    compare: "เปรียบเทียบ",
+    gameCompare: "เปรียบเทียบ",
+    quickComparison: "เปรียบเทียบด่วน",
+    relatedContent: "เนื้อหาที่เกี่ยวข้อง"
+  },
+  diskSets: {
+    title: "ชุด Cartridge",
+    elemental: "Cartridge ธาตุ",
+    general: "Cartridge ทั่วไป",
+    pcSet: "-pc",
+    setBonuses: "โบนัสชุด",
+    recommendedCharacters: "ตัวละครที่แนะนำ",
+    elementalLabel: "ธาตุ",
+    generalLabel: "ทั่วไป"
+  },
+  materialsDetail: {
+    hunterGuide: "คู่มือ",
+    ascension: "เลื่อนขั้น",
+    bossDrop: "ดรอปจากบอส",
+    esper: "Esper",
+    arcAscension: "เลื่อนขั้น Arc",
+    arcExp: "EXP Arc",
+    moduleExp: "EXP Module",
+    currency: "สกุลเงิน",
+    calculateCost: "คำนวณต้นทุนการฟาร์ม"
+  },
+  materialTypes: {
+    hunterGuide: "คู่มือ",
+    ascension: "เลื่อนขั้น",
+    bossDrop: "ดรอปจากบอส",
+    esper: "Esper",
+    arcAscension: "เลื่อนขั้น Arc",
+    arcExp: "EXP Arc",
+    moduleExp: "EXP Module",
+    currency: "สกุลเงิน"
+  },
+  redeemCodesStatus: {
+    active: "ใช้ได้",
+    expired: "หมดอายุ",
+    unknown: "ไม่ทราบ",
+    cnServer: "เซิร์ฟเวอร์ CN",
+    globalServer: "เซิร์ฟเวอร์ Global",
+    timeLeft: "เหลือ {0}",
+    faqTitle: "คำถามยอดนิยมเกี่ยวกับรหัสแลก"
+  },
+  dataStatus: {
+    live: "ข้อมูลด้านล่างอิงตามเวอร์ชัน 1.0 ข้อมูลในเกมจริงอาจแตกต่าง",
+    upcoming: "ตัวละครนี้ยังไม่พร้อมใช้งานในเวอร์ชันปัจจุบัน ข้อมูลมาจาก Livestream และประกาศอย่างเป็นทางการ",
+    leaked: "ข้อมูลตัวละครนี้มาจาก Datamining ข้อมูลทางการอาจแตกต่าง",
+    beta: "ข้อมูลด้านล่างอิงตามเวอร์ชันทดสอบ เวอร์ชันสุดท้ายอาจแตกต่าง"
+  },
+  search: {
+    placeholder: "ค้นหา...",
+    searchHint: "ค้นหาตัวละคร, อาวุธ, คู่มือ...",
+    categories: {
+      characters: "ตัวละคร",
+      weapons: "อาวุธ",
+      materials: "วัสดุ",
+      guides: "คู่มือ",
+      lore: "เรื่องราว",
+      locations: "สถานที่"
+    }
+  },
+  notFound: {
+    title: "ไม่พบหน้า",
+    description: "ไม่พบหน้า",
+    backHome: "กลับไปหน้าแรก"
+  },
+  gachaSystem: {
+    pityMechanism: "กลไก Pity",
+    optimalStrategy: "กลยุทธ์ที่เหมาะสม",
+    beginnerPriority: "ลำดับความสำคัญมือใหม่",
+    standardAccumulate: "สะสมมาตรฐาน",
+    limitedOnDemand: "จำกัดตามคำขอ",
+    weaponBudget: "งบประมาณอาวุธ",
+    tierListLink: "Tier List",
+    simulatorLink: "จำลองกาชา",
+    beginnerGuideLink: "คู่มือมือใหม่"
+  },
+  gachaDetails: {
+    clearConfirm: "คุณแน่ใจหรือไม่ที่จะล้างประวัติ Pull ทั้งหมด?"
+  },
+  kardz: {
+    title: "เติมเงิน NTE Global",
+    subtitle: "เติมปลอดภัย & รวดเร็ว",
+    badge: "แนะนำ"
+  },
+  footer: {
+    tierList: "Tier List",
+    contact: "ติดต่อเรา",
+    about: "เกี่ยวกับเรา",
+    privacy: "Privacy Policy",
+    terms: "Terms of Service",
+    disclaimer: "นี่คือเว็บไซต์ชุมชนที่สร้างโดยแฟนๆ ไม่ได้เกี่ยวข้องกับเกมอย่างเป็นทางการ"
+  },
+  header: {
+    joinDiscord: "เข้าร่วม Discord",
+    joinReddit: "เข้าร่วม Reddit"
+  },
+  quickLinks: {
+    title: "ลิงก์ด่วน:"
+  },
+  teamComps: {
+    title: "ทีม"
+  },
+  bossGuide: {
+    title: "คู่มือบอส"
+  },
+  mapPage: {
+    title: "แผนที่ NTE แบบโต้ตอบ",
+    description: "แผนที่โต้ตอบ NTE พร้อมจุดหมายทรัพยากรทั้งหมด...",
+    interactiveMap: "แผนที่ NTE แบบโต้ตอบ",
+    allRegions: "ภูมิภาคทั้งหมด",
+    fullscreen: "เต็มจอ",
+    nearbyMarkers: "จุดหมายใกล้เคียง ({0})"
+  },
+  diskSetDetail: {
+    setTitle: "โบนัสชุด & ตัวละครที่เหมาะสมที่สุด",
+    setDescription: "โบนัส -ชิ้น"
+  },
+  materialDetail: {
+    titleTemplate: "{name} - แหล่งที่มา & การใช้งาน",
+    descriptionTemplate: "แหล่งที่มา, ดรอป และการใช้งาน {name} NTE..."
+  },
+  privacyPolicy: {
+    breadcrumbHome: "หน้าแรก",
+    breadcrumbLabel: "Privacy Policy",
+    title: "Privacy Policy",
+    lastUpdated: "อัปเดตล่าสุด: {0}",
+    introTitle: "Introduction",
+    introContent: "Welcome to NTE Guide (\"we\", \"us\", or \"our\"). This Privacy Policy explains how we collect, use, store, and protect your personal information when you visit and use our website. By using our website, you agree to the practices described in this policy.",
+    infoCollectionTitle: "Information We Collect",
+    autoDataTitle: "Automatically Collected Data",
+    autoDataIntro: "When you visit our website, we may automatically collect the following information:",
+    autoDataItems: [
+      "Browser type and version",
+      "Operating system",
+      "Referring URL (how you found our site)",
+      "Pages visited and time spent",
+      "IP address (for approximate geographic location)",
+      "Device type (mobile, tablet, desktop)"
+    ],
+    userDataTitle: "User-Provided Data",
+    userDataContent: "If you contact us via email, we collect the name and email address you provide, solely for the purpose of responding to your inquiry.",
+    analyticsTitle: "Analytics",
+    analyticsContent: "We use Google Analytics (GA4) to analyze website traffic and user behavior. Google Analytics uses cookies to collect anonymized usage data. Data collected includes:",
+    analyticsItems: [
+      "Page views and sessions",
+      "User geographic location (country/city level)",
+      "Traffic sources",
+      "On-site search terms"
+    ],
+    analyticsOptOut: "You can opt out of Google Analytics tracking by installing the Google Analytics opt-out browser add-on.",
+    advertisingTitle: "Advertising",
+    advertisingContent: "We use Google AdSense to display advertisements on our website. Google AdSense may use cookies and similar technologies to display personalized ads based on your prior visits to our site or other websites. You can control ad personalization through:",
+    adManagePrefs: "Manage your ad preferences",
+    adPersonalization: "Ad Personalization Settings",
+    adOptOut: "Opt out of personalized ads",
+    adThirdPartyOptOut: "Third-party ad opt-out",
+    adThirdPartyNote: "Third-party advertisers may use cookies to track your browsing activity to display relevant ads when you visit other websites. These third parties include Google and its partners.",
+    cookieTitle: "Cookie Policy",
+    cookieContent: "Our website uses cookies and similar technologies to improve your browsing experience. Cookies are small text files stored on your device. Types of cookies we use include:",
+    cookieEssential: "Essential Cookies",
+    cookieEssentialDesc: "Required for the website to function properly",
+    cookieAnalytics: "Analytics Cookies",
+    cookieAnalyticsDesc: "Used to understand how visitors use our site (Google Analytics)",
+    cookieAdvertising: "Advertising Cookies",
+    cookieAdvertisingDesc: "Used to display relevant advertisements (Google AdSense)",
+    cookieManage: "You can manage or delete cookies through your browser settings. Please note that disabling cookies may affect certain features of the website.",
+    dataProtectionTitle: "Data Protection",
+    dataProtectionContent: "We take reasonable technical and organizational measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction. However, please note that data transmission over the internet can never be guaranteed to be 100% secure.",
+    childrenTitle: "Children's Privacy",
+    childrenContent: "Our website is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If we discover that we have collected data from a child under 13, we will take steps to delete such information immediately.",
+    thirdPartyTitle: "Third-Party Links",
+    thirdPartyContent: "Our website may contain links to third-party websites (such as Discord, Reddit, YouTube, etc.). We are not responsible for the privacy practices of these third-party websites. We recommend reading the privacy policy of any third-party website you visit.",
+    changesTitle: "Policy Changes",
+    changesContent: "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated \"Last updated\" date. Your continued use of our website after changes constitutes acceptance of the revised policy.",
+    contactTitle: "Contact Us",
+    contactContent: "If you have any questions about this Privacy Policy, please contact us at:"
+  },
+  terms: {
+    breadcrumbHome: "หน้าแรก",
+    breadcrumbLabel: "Terms of Service",
+    title: "Terms of Service",
+    lastUpdated: "อัปเดตล่าสุด: {0}",
+    acceptanceTitle: "Acceptance of Terms",
+    acceptanceContent: "By accessing and using NTE Guide (the \"Website\"), you agree to be bound by these Terms of Service. If you do not agree with these terms, please do not use our Website. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of the revised terms.",
+    descriptionTitle: "Service Description",
+    descriptionContent: "NTE Guide is an unofficial community resource website for Neverness to Everness players. We provide game data lookup, build calculators, gacha simulators, guides, and other related tools. This website is not affiliated with Perfect World, Hotta Studio, or the official Neverness to Everness team.",
+    rulesTitle: "Rules of Use",
+    rulesIntro: "When using our Website, you agree not to:",
+    rulesItems: [
+      "Scrape or crawl our website content using automated means (bots, scrapers)",
+      "Attempt to gain unauthorized access to our systems or data",
+      "Interfere with the proper functioning of our website or servers",
+      "Use our content for commercial purposes without authorization",
+      "Distribute malware or harmful code"
+    ],
+    ipTitle: "Intellectual Property",
+    ipContent: "Original content on this website (including but not limited to text, code, design, and layout) is protected by copyright law. All game-related materials for Neverness to Everness (including but not limited to character names, images, logos, and game data) are owned by Perfect World / Hotta Studio. We use these materials on a fair-use basis for informational purposes only and do not claim ownership of them.",
+    disclaimerTitle: "Disclaimer",
+    disclaimerContent: "All information provided on this website is for reference only. We do not guarantee its accuracy, completeness, or timeliness. Game data may change due to version updates, and we recommend verifying with in-game data. We are not liable for any losses resulting from the use of or inability to use our website.",
+    thirdPartyTitle: "Third-Party Content",
+    thirdPartyContent: "Our website may contain links to third-party websites or embed third-party content. We are not responsible for the content, privacy practices, or availability of these third-party websites. The inclusion of such links does not imply endorsement or recommendation.",
+    liabilityTitle: "Limitation of Liability",
+    liabilityContent: "To the maximum extent permitted by law, NTE Guide and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use of our website.",
+    changesTitle: "Changes to Terms",
+    changesContent: "We reserve the right to update these Terms of Service at any time. Changes will be posted on this page with an updated \"Last updated\" date. We recommend reviewing these terms periodically.",
+    contactTitle: "Contact Us",
+    contactContent: "If you have any questions about these Terms of Service, please contact us at:"
+  },
+  about: {
+    breadcrumbHome: "หน้าแรก",
+    breadcrumbLabel: "เกี่ยวกับเรา",
+    title: "เกี่ยวกับเรา",
+    subtitle: "เรียนรู้เกี่ยวกับพันธกิจและทีมงานของ NTE Guide",
+    whoWeAreTitle: "เราคือใคร",
+    whoWeAreContent: "NTE Guide เป็นเว็บไซต์ทรัพยากรและเครื่องมือที่ขับเคลื่อนโดยชุมชนสำหรับผู้เล่น Neverness to Everness เป้าหมายของเราคือการจัดหาข้อมูลเกมที่ครอบคลุมและแม่นยำที่สุด พร้อมเครื่องมือที่ใช้งานได้จริงสำหรับผู้เล่น NTE ทั่วโลก ช่วยให้ทุกคนสนุกกับเกมได้อย่างเต็มที่",
+    whatWeOfferTitle: "สิ่งที่เราเสนอ",
+    offerDbTitle: "ฐานข้อมูลตัวละคร",
+    offerDbDesc: "ข้อมูลตัวละครครบถ้วน รวมถึงสกิล, ธาตุ, บิลด์ที่แนะนำ และทีม",
+    offerToolsTitle: "เครื่องมือที่ใช้งานได้จริง",
+    offerToolsDesc: "เครื่องคำนวณเลเวล, เครื่องคำนวณบิลด์, จำลองกาชา และแผนที่โต้ตอบ",
+    offerTierTitle: "Tier List",
+    offerTierDesc: "อันดับและคะแนนตัวละครโดยชุมชน",
+    offerGuidesTitle: "คู่มือ & เคล็ดลับ",
+    offerGuidesDesc: "คู่มือมือใหม่, เคล็ดลับขั้นสูง และวิเคราะห์การอัปเดตเวอร์ชัน",
+    offerCodesTitle: "รหัสแลก",
+    offerCodesDesc: "รหัสแลกที่ใช้ได้อัปเดตล่าสุด",
+    communityTitle: "ชุมชน",
+    communityContent: "เราดูแลชุมชนบน Discord และ Reddit อย่างต่อเนื่อง หากคุณมีข้อเสนอแนะ พบข้อผิดพลาดของข้อมูล หรือต้องการมีส่วนร่วม สามารถเข้าร่วมชุมชนของเราหรือติดต่อผ่านอีเมลได้",
+    disclaimerTitle: "ข้อจำกัดความรับผิดชอบ",
+    disclaimerContent: "NTE Guide เป็นเว็บไซต์แฟนคลับชุมชนที่ไม่เป็นทางการ และไม่ได้เกี่ยวข้องกับ ได้รับการรับรองจาก หรือเชื่อมต่อกับ Perfect World, Hotta Studio หรือทีมงาน Neverness to Everness อย่างเป็นทางการ เนื้อหาและวัสดุที่เกี่ยวข้องกับเกมทั้งหมดบนเว็บไซต์นี้เป็นลิขสิทธิ์ของเจ้าของ各自"
+  },
+  contact: {
+    breadcrumbHome: "หน้าแรก",
+    breadcrumbLabel: "ติดต่อเรา",
+    title: "ติดต่อเรา",
+    subtitle: "สำหรับข้อเสนอแนะ ข้อสอบถามทางธุรกิจ หรือคำถามใดๆ สามารถติดต่อเราผ่านช่องทางต่อไปนี้",
+    emailLabel: "อีเมล",
+    emailResponseTime: "เรามักจะตอบกลับภายใน 1-3 วันทำการ",
+    aboutLabel: "เกี่ยวกับเรา",
+    aboutContent: "NTE Guide เป็นแหล่งข้อมูลที่ขับเคลื่อนโดยชุมชนสำหรับผู้เล่น Neverness to Everness มีฐานข้อมูลตัวละคร, Tier List, เครื่องคำนวณบิลด์, จำลองกาชา และอื่นๆ",
+    feedbackNote: "พบข้อผิดพลาดบนเว็บไซต์หรือมีข้อเสนอแนะเกี่ยวกับเนื้อหา? เรายินดีที่จะรับฟัง ขอบคุณสำหรับการสนับสนุน!"
+  }
+};
+
+// ─── Verify key count matches ────────────────────────────────────────────────
+function countKeys(obj) {
+  let count = 0;
+  for (const key of Object.keys(obj)) {
+    if (obj[key] && typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+      count += countKeys(obj[key]);
+    } else {
+      count += 1;
+    }
+  }
+  return count;
+}
+
+const enCount = countKeys(en);
+const thCount = countKeys(th);
+
+console.log(`en.json key count: ${enCount}`);
+console.log(`th.json key count: ${thCount}`);
+
+if (enCount !== thCount) {
+  console.error(`ERROR: Key count mismatch! en=${enCount}, th=${thCount}`);
+  process.exit(1);
+}
+
+// ─── Write th.json ──────────────────────────────────────────────────────────
+fs.writeFileSync(thPath, JSON.stringify(th, null, 2) + '\n', 'utf-8');
+console.log(`\nSuccessfully generated: ${thPath}`);
+console.log('Key count verified: MATCH');

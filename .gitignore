@@ -40,3 +40,13 @@ next-env.d.ts
 
 # patches
 *.bak
+
+# temp
+.lighthouseci/
+test-results/
+tmp/
+plans/
+
+# empty data stubs
+data/nte-all-items.json
+data/nte-materials.json
