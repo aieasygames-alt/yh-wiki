@@ -33,7 +33,7 @@ export default async function LangLayout({
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <Script
           async
-          src="https://pagead2googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1719881162787470"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1719881162787470"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
