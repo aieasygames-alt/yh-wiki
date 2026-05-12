@@ -2,7 +2,11 @@
 
 import { t, type Locale } from "../lib/i18n";
 
-const KARDZ_URL = "https://kardzntewiki.kardz.cn/detail/1578299835";
+const KARDZ_URLS: Record<string, string> = {
+  tw: "https://kardzntewiki.kardz.com/zh-tw/game/neverness-to-everness?id=1578299964",
+  zh: "https://kardzntewiki.kardz.com/zh-tw/game/neverness-to-everness?id=1578299964",
+};
+const KARDZ_URL_DEFAULT = "https://kardzntewiki.kardz.com/game/neverness-to-everness?id=1578299964";
 
 interface KardzPromoCardProps {
   locale: Locale;
@@ -10,6 +14,7 @@ interface KardzPromoCardProps {
 }
 
 export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps) {
+  const kardzUrl = KARDZ_URLS[locale] || KARDZ_URL_DEFAULT;
   const title = t(locale, "kardz.title");
   const desc = t(locale, "kardz.subtitle");
   const tag = t(locale, "kardz.badge");
@@ -17,7 +22,7 @@ export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps
   if (variant === "banner") {
     return (
       <a
-        href={KARDZ_URL}
+        href={kardzUrl}
         target="_blank"
         rel="sponsored noopener noreferrer"
         className="block rounded-xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 to-orange-500/10 p-4 hover:border-amber-400/50 transition-colors group"
@@ -42,7 +47,7 @@ export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps
   if (variant === "compact") {
     return (
       <a
-        href={KARDZ_URL}
+        href={kardzUrl}
         target="_blank"
         rel="sponsored noopener noreferrer"
         className="block rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 hover:border-amber-500/40 transition-colors group"
@@ -65,7 +70,7 @@ export function KardzPromoCard({ locale, variant = "card" }: KardzPromoCardProps
   // Default "card" variant
   return (
     <a
-      href={KARDZ_URL}
+      href={kardzUrl}
       target="_blank"
       rel="sponsored noopener noreferrer"
       className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-amber-500/30 hover:bg-gray-900/70 transition-colors group"
