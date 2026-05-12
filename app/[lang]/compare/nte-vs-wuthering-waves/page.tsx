@@ -1,11 +1,27 @@
-import { ComparePageContent, generateCompareMetadata } from "../ComparePageContent";
-import { LOCALES } from "../../../../lib/i18n";
+import { ComparePageContent } from "../ComparePageContent";
+import { LOCALES, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
+import { getCompare } from "../../../../lib/queries";
+import { Metadata } from "next";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
 }
 
-export const generateMetadata = generateCompareMetadata;
+export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
+  const { lang } = await params;
+  const article = getCompare("nte-vs-wuthering-waves");
+  if (!article) return {};
+  const locale = lang as Locale;
+  const rawTitle = isZhLocale(locale) ? article.title : article.titleEn;
+  const description = isZhLocale(locale) ? article.summary : article.summaryEn;
+  const title = `${rawTitle} (2026)`;
+  return {
+    title,
+    description,
+    alternates: hreflangAlternates("compare/nte-vs-wuthering-waves", lang),
+    openGraph: { title: `${title} | NTE Guide`, description, type: "article" },
+  };
+}
 
 export default async function CompareNteVsWuWaPage({
   params,

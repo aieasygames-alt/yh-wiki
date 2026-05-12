@@ -16,6 +16,14 @@
 /es /es/ 301
 /ru /ru/ 301
 
+# Privacy -> privacy-policy (short URL alias)
+/en/privacy /en/privacy-policy/ 301
+/en/privacy/ /en/privacy-policy/ 301
+/zh/privacy /zh/privacy-policy/ 301
+/zh/privacy/ /zh/privacy-policy/ 301
+/tw/privacy /tw/privacy-policy/ 301
+/tw/privacy/ /tw/privacy-policy/ 301
+
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
 /en/faq/system-requirements/ /en/system-requirements/ 301
@@ -332,6 +340,7 @@
 /de/blog/nte-alipay-qualcomm-collab-guide /de/blog/nte-alipay-qualcomm-collab-guide/ 301
 /de/blog/nte-all-characters-overview /de/blog/nte-all-characters-overview/ 301
 /de/blog/nte-anime-references-easter-eggs /de/blog/nte-anime-references-easter-eggs/ 301
+/de/blog/nte-beginner-farming-priority-guide /de/blog/nte-beginner-farming-priority-guide/ 301
 /de/blog/nte-best-disk-sets-guide /de/blog/nte-best-disk-sets-guide/ 301
 /de/blog/nte-best-settings-guide /de/blog/nte-best-settings-guide/ 301
 /de/blog/nte-best-team-comps-1-0 /de/blog/nte-best-team-comps-1-0/ 301
@@ -348,6 +357,7 @@
 /de/blog/nte-global-launch-guide /de/blog/nte-global-launch-guide/ 301
 /de/blog/nte-global-launch-live-guide /de/blog/nte-global-launch-live-guide/ 301
 /de/blog/nte-global-server-recharge-guide /de/blog/nte-global-server-recharge-guide/ 301
+/de/blog/nte-hotori-practical-tips-guide /de/blog/nte-hotori-practical-tips-guide/ 301
 /de/blog/nte-jiuyuan-build-guide /de/blog/nte-jiuyuan-build-guide/ 301
 /de/blog/nte-launch-6-choose-1 /de/blog/nte-launch-6-choose-1/ 301
 /de/blog/nte-launch-collaborations /de/blog/nte-launch-collaborations/ 301
@@ -377,6 +387,7 @@
 /de/blog/nte-v11-preview-may-2026 /de/blog/nte-v11-preview-may-2026/ 301
 /de/blog/nte-version-1-0-update /de/blog/nte-version-1-0-update/ 301
 /de/blog/nte-vs-genshin-vs-wuthering-waves /de/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/de/blog/nte-weapon-banner-deep-dive /de/blog/nte-weapon-banner-deep-dive/ 301
 /de/blog/nte-week-one-recap /de/blog/nte-week-one-recap/ 301
 /de/blog/nte-zero-build-guide /de/blog/nte-zero-build-guide/ 301
 /de/bosses /de/bosses/ 301
@@ -647,11 +658,13 @@
 /de/faq/preregistration-rewards-how /de/faq/preregistration-rewards-how/ 301
 /de/faq/prison-system /de/faq/prison-system/ 301
 /de/faq/ps5-download-interrupted /de/faq/ps5-download-interrupted/ 301
+/de/faq/ps5-price-size-performance /de/faq/ps5-price-size-performance/ 301
 /de/faq/ps5-support /de/faq/ps5-support/ 301
 /de/faq/quest-npc-not-spawning /de/faq/quest-npc-not-spawning/ 301
 /de/faq/raging-flames-guide /de/faq/raging-flames-guide/ 301
 /de/faq/reality-refuge-guide /de/faq/reality-refuge-guide/ 301
 /de/faq/recharge-not-received /de/faq/recharge-not-received/ 301
+/de/faq/redeem-code-how-to-enter /de/faq/redeem-code-how-to-enter/ 301
 /de/faq/redeem-codes /de/faq/redeem-codes/ 301
 /de/faq/release-date /de/faq/release-date/ 301
 /de/faq/reroll-guide /de/faq/reroll-guide/ 301
@@ -678,6 +691,7 @@
 /de/faq/standard-banner-selector /de/faq/standard-banner-selector/ 301
 /de/faq/starter-s-rank /de/faq/starter-s-rank/ 301
 /de/faq/starter-s-rank-selector /de/faq/starter-s-rank-selector/ 301
+/de/faq/steam-deck-compatibility /de/faq/steam-deck-compatibility/ 301
 /de/faq/system-requirements /de/faq/system-requirements/ 301
 /de/faq/team-composition-tips /de/faq/team-composition-tips/ 301
 /de/faq/test-signup /de/faq/test-signup/ 301
@@ -1082,6 +1096,7 @@
 /de/tags/platform /de/tags/platform/ 301
 /de/tags/porsche /de/tags/porsche/ 301
 /de/tags/pre-registration /de/tags/pre-registration/ 301
+/de/tags/price /de/tags/price/ 301
 /de/tags/priority /de/tags/priority/ 301
 /de/tags/progress /de/tags/progress/ 301
 /de/tags/progression /de/tags/progression/ 301
@@ -1105,6 +1120,7 @@
 /de/tags/recharge /de/tags/recharge/ 301
 /de/tags/recommendation /de/tags/recommendation/ 301
 /de/tags/recovery /de/tags/recovery/ 301
+/de/tags/redeem /de/tags/redeem/ 301
 /de/tags/refund /de/tags/refund/ 301
 /de/tags/release /de/tags/release/ 301
 /de/tags/release-date /de/tags/release-date/ 301
@@ -1142,6 +1158,7 @@
 /de/tags/ssd /de/tags/ssd/ 301
 /de/tags/stamina /de/tags/stamina/ 301
 /de/tags/steam /de/tags/steam/ 301
+/de/tags/steam-deck /de/tags/steam-deck/ 301
 /de/tags/storage /de/tags/storage/ 301
 /de/tags/story /de/tags/story/ 301
 /de/tags/streaming /de/tags/streaming/ 301
@@ -1226,6 +1243,7 @@
 /de/tags/城市经营 /de/tags/城市经营/ 301
 /de/tags/培养 /de/tags/培养/ 301
 /de/tags/基础 /de/tags/基础/ 301
+/de/tags/增益辅助 /de/tags/增益辅助/ 301
 /de/tags/天赋 /de/tags/天赋/ 301
 /de/tags/好感度 /de/tags/好感度/ 301
 /de/tags/娜娜莉 /de/tags/娜娜莉/ 301
@@ -1406,6 +1424,7 @@
 /en/blog/nte-alipay-qualcomm-collab-guide /en/blog/nte-alipay-qualcomm-collab-guide/ 301
 /en/blog/nte-all-characters-overview /en/blog/nte-all-characters-overview/ 301
 /en/blog/nte-anime-references-easter-eggs /en/blog/nte-anime-references-easter-eggs/ 301
+/en/blog/nte-beginner-farming-priority-guide /en/blog/nte-beginner-farming-priority-guide/ 301
 /en/blog/nte-best-disk-sets-guide /en/blog/nte-best-disk-sets-guide/ 301
 /en/blog/nte-best-settings-guide /en/blog/nte-best-settings-guide/ 301
 /en/blog/nte-best-team-comps-1-0 /en/blog/nte-best-team-comps-1-0/ 301
@@ -1422,6 +1441,7 @@
 /en/blog/nte-global-launch-guide /en/blog/nte-global-launch-guide/ 301
 /en/blog/nte-global-launch-live-guide /en/blog/nte-global-launch-live-guide/ 301
 /en/blog/nte-global-server-recharge-guide /en/blog/nte-global-server-recharge-guide/ 301
+/en/blog/nte-hotori-practical-tips-guide /en/blog/nte-hotori-practical-tips-guide/ 301
 /en/blog/nte-jiuyuan-build-guide /en/blog/nte-jiuyuan-build-guide/ 301
 /en/blog/nte-launch-6-choose-1 /en/blog/nte-launch-6-choose-1/ 301
 /en/blog/nte-launch-collaborations /en/blog/nte-launch-collaborations/ 301
@@ -1451,6 +1471,7 @@
 /en/blog/nte-v11-preview-may-2026 /en/blog/nte-v11-preview-may-2026/ 301
 /en/blog/nte-version-1-0-update /en/blog/nte-version-1-0-update/ 301
 /en/blog/nte-vs-genshin-vs-wuthering-waves /en/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/en/blog/nte-weapon-banner-deep-dive /en/blog/nte-weapon-banner-deep-dive/ 301
 /en/blog/nte-week-one-recap /en/blog/nte-week-one-recap/ 301
 /en/blog/nte-zero-build-guide /en/blog/nte-zero-build-guide/ 301
 /en/bosses /en/bosses/ 301
@@ -1721,11 +1742,13 @@
 /en/faq/preregistration-rewards-how /en/faq/preregistration-rewards-how/ 301
 /en/faq/prison-system /en/faq/prison-system/ 301
 /en/faq/ps5-download-interrupted /en/faq/ps5-download-interrupted/ 301
+/en/faq/ps5-price-size-performance /en/faq/ps5-price-size-performance/ 301
 /en/faq/ps5-support /en/faq/ps5-support/ 301
 /en/faq/quest-npc-not-spawning /en/faq/quest-npc-not-spawning/ 301
 /en/faq/raging-flames-guide /en/faq/raging-flames-guide/ 301
 /en/faq/reality-refuge-guide /en/faq/reality-refuge-guide/ 301
 /en/faq/recharge-not-received /en/faq/recharge-not-received/ 301
+/en/faq/redeem-code-how-to-enter /en/faq/redeem-code-how-to-enter/ 301
 /en/faq/redeem-codes /en/faq/redeem-codes/ 301
 /en/faq/release-date /en/faq/release-date/ 301
 /en/faq/reroll-guide /en/faq/reroll-guide/ 301
@@ -1752,6 +1775,7 @@
 /en/faq/standard-banner-selector /en/faq/standard-banner-selector/ 301
 /en/faq/starter-s-rank /en/faq/starter-s-rank/ 301
 /en/faq/starter-s-rank-selector /en/faq/starter-s-rank-selector/ 301
+/en/faq/steam-deck-compatibility /en/faq/steam-deck-compatibility/ 301
 /en/faq/system-requirements /en/faq/system-requirements/ 301
 /en/faq/team-composition-tips /en/faq/team-composition-tips/ 301
 /en/faq/test-signup /en/faq/test-signup/ 301
@@ -2156,6 +2180,7 @@
 /en/tags/platform /en/tags/platform/ 301
 /en/tags/porsche /en/tags/porsche/ 301
 /en/tags/pre-registration /en/tags/pre-registration/ 301
+/en/tags/price /en/tags/price/ 301
 /en/tags/priority /en/tags/priority/ 301
 /en/tags/progress /en/tags/progress/ 301
 /en/tags/progression /en/tags/progression/ 301
@@ -2179,6 +2204,7 @@
 /en/tags/recharge /en/tags/recharge/ 301
 /en/tags/recommendation /en/tags/recommendation/ 301
 /en/tags/recovery /en/tags/recovery/ 301
+/en/tags/redeem /en/tags/redeem/ 301
 /en/tags/refund /en/tags/refund/ 301
 /en/tags/release /en/tags/release/ 301
 /en/tags/release-date /en/tags/release-date/ 301
@@ -2216,6 +2242,7 @@
 /en/tags/ssd /en/tags/ssd/ 301
 /en/tags/stamina /en/tags/stamina/ 301
 /en/tags/steam /en/tags/steam/ 301
+/en/tags/steam-deck /en/tags/steam-deck/ 301
 /en/tags/storage /en/tags/storage/ 301
 /en/tags/story /en/tags/story/ 301
 /en/tags/streaming /en/tags/streaming/ 301
@@ -2300,6 +2327,7 @@
 /en/tags/城市经营 /en/tags/城市经营/ 301
 /en/tags/培养 /en/tags/培养/ 301
 /en/tags/基础 /en/tags/基础/ 301
+/en/tags/增益辅助 /en/tags/增益辅助/ 301
 /en/tags/天赋 /en/tags/天赋/ 301
 /en/tags/好感度 /en/tags/好感度/ 301
 /en/tags/娜娜莉 /en/tags/娜娜莉/ 301
@@ -2480,6 +2508,7 @@
 /es/blog/nte-alipay-qualcomm-collab-guide /es/blog/nte-alipay-qualcomm-collab-guide/ 301
 /es/blog/nte-all-characters-overview /es/blog/nte-all-characters-overview/ 301
 /es/blog/nte-anime-references-easter-eggs /es/blog/nte-anime-references-easter-eggs/ 301
+/es/blog/nte-beginner-farming-priority-guide /es/blog/nte-beginner-farming-priority-guide/ 301
 /es/blog/nte-best-disk-sets-guide /es/blog/nte-best-disk-sets-guide/ 301
 /es/blog/nte-best-settings-guide /es/blog/nte-best-settings-guide/ 301
 /es/blog/nte-best-team-comps-1-0 /es/blog/nte-best-team-comps-1-0/ 301
@@ -2496,6 +2525,7 @@
 /es/blog/nte-global-launch-guide /es/blog/nte-global-launch-guide/ 301
 /es/blog/nte-global-launch-live-guide /es/blog/nte-global-launch-live-guide/ 301
 /es/blog/nte-global-server-recharge-guide /es/blog/nte-global-server-recharge-guide/ 301
+/es/blog/nte-hotori-practical-tips-guide /es/blog/nte-hotori-practical-tips-guide/ 301
 /es/blog/nte-jiuyuan-build-guide /es/blog/nte-jiuyuan-build-guide/ 301
 /es/blog/nte-launch-6-choose-1 /es/blog/nte-launch-6-choose-1/ 301
 /es/blog/nte-launch-collaborations /es/blog/nte-launch-collaborations/ 301
@@ -2525,6 +2555,7 @@
 /es/blog/nte-v11-preview-may-2026 /es/blog/nte-v11-preview-may-2026/ 301
 /es/blog/nte-version-1-0-update /es/blog/nte-version-1-0-update/ 301
 /es/blog/nte-vs-genshin-vs-wuthering-waves /es/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/es/blog/nte-weapon-banner-deep-dive /es/blog/nte-weapon-banner-deep-dive/ 301
 /es/blog/nte-week-one-recap /es/blog/nte-week-one-recap/ 301
 /es/blog/nte-zero-build-guide /es/blog/nte-zero-build-guide/ 301
 /es/bosses /es/bosses/ 301
@@ -2795,11 +2826,13 @@
 /es/faq/preregistration-rewards-how /es/faq/preregistration-rewards-how/ 301
 /es/faq/prison-system /es/faq/prison-system/ 301
 /es/faq/ps5-download-interrupted /es/faq/ps5-download-interrupted/ 301
+/es/faq/ps5-price-size-performance /es/faq/ps5-price-size-performance/ 301
 /es/faq/ps5-support /es/faq/ps5-support/ 301
 /es/faq/quest-npc-not-spawning /es/faq/quest-npc-not-spawning/ 301
 /es/faq/raging-flames-guide /es/faq/raging-flames-guide/ 301
 /es/faq/reality-refuge-guide /es/faq/reality-refuge-guide/ 301
 /es/faq/recharge-not-received /es/faq/recharge-not-received/ 301
+/es/faq/redeem-code-how-to-enter /es/faq/redeem-code-how-to-enter/ 301
 /es/faq/redeem-codes /es/faq/redeem-codes/ 301
 /es/faq/release-date /es/faq/release-date/ 301
 /es/faq/reroll-guide /es/faq/reroll-guide/ 301
@@ -2826,6 +2859,7 @@
 /es/faq/standard-banner-selector /es/faq/standard-banner-selector/ 301
 /es/faq/starter-s-rank /es/faq/starter-s-rank/ 301
 /es/faq/starter-s-rank-selector /es/faq/starter-s-rank-selector/ 301
+/es/faq/steam-deck-compatibility /es/faq/steam-deck-compatibility/ 301
 /es/faq/system-requirements /es/faq/system-requirements/ 301
 /es/faq/team-composition-tips /es/faq/team-composition-tips/ 301
 /es/faq/test-signup /es/faq/test-signup/ 301
@@ -3230,6 +3264,7 @@
 /es/tags/platform /es/tags/platform/ 301
 /es/tags/porsche /es/tags/porsche/ 301
 /es/tags/pre-registration /es/tags/pre-registration/ 301
+/es/tags/price /es/tags/price/ 301
 /es/tags/priority /es/tags/priority/ 301
 /es/tags/progress /es/tags/progress/ 301
 /es/tags/progression /es/tags/progression/ 301
@@ -3253,6 +3288,7 @@
 /es/tags/recharge /es/tags/recharge/ 301
 /es/tags/recommendation /es/tags/recommendation/ 301
 /es/tags/recovery /es/tags/recovery/ 301
+/es/tags/redeem /es/tags/redeem/ 301
 /es/tags/refund /es/tags/refund/ 301
 /es/tags/release /es/tags/release/ 301
 /es/tags/release-date /es/tags/release-date/ 301
@@ -3290,6 +3326,7 @@
 /es/tags/ssd /es/tags/ssd/ 301
 /es/tags/stamina /es/tags/stamina/ 301
 /es/tags/steam /es/tags/steam/ 301
+/es/tags/steam-deck /es/tags/steam-deck/ 301
 /es/tags/storage /es/tags/storage/ 301
 /es/tags/story /es/tags/story/ 301
 /es/tags/streaming /es/tags/streaming/ 301
@@ -3374,6 +3411,7 @@
 /es/tags/城市经营 /es/tags/城市经营/ 301
 /es/tags/培养 /es/tags/培养/ 301
 /es/tags/基础 /es/tags/基础/ 301
+/es/tags/增益辅助 /es/tags/增益辅助/ 301
 /es/tags/天赋 /es/tags/天赋/ 301
 /es/tags/好感度 /es/tags/好感度/ 301
 /es/tags/娜娜莉 /es/tags/娜娜莉/ 301
@@ -3554,6 +3592,7 @@
 /fr/blog/nte-alipay-qualcomm-collab-guide /fr/blog/nte-alipay-qualcomm-collab-guide/ 301
 /fr/blog/nte-all-characters-overview /fr/blog/nte-all-characters-overview/ 301
 /fr/blog/nte-anime-references-easter-eggs /fr/blog/nte-anime-references-easter-eggs/ 301
+/fr/blog/nte-beginner-farming-priority-guide /fr/blog/nte-beginner-farming-priority-guide/ 301
 /fr/blog/nte-best-disk-sets-guide /fr/blog/nte-best-disk-sets-guide/ 301
 /fr/blog/nte-best-settings-guide /fr/blog/nte-best-settings-guide/ 301
 /fr/blog/nte-best-team-comps-1-0 /fr/blog/nte-best-team-comps-1-0/ 301
@@ -3570,6 +3609,7 @@
 /fr/blog/nte-global-launch-guide /fr/blog/nte-global-launch-guide/ 301
 /fr/blog/nte-global-launch-live-guide /fr/blog/nte-global-launch-live-guide/ 301
 /fr/blog/nte-global-server-recharge-guide /fr/blog/nte-global-server-recharge-guide/ 301
+/fr/blog/nte-hotori-practical-tips-guide /fr/blog/nte-hotori-practical-tips-guide/ 301
 /fr/blog/nte-jiuyuan-build-guide /fr/blog/nte-jiuyuan-build-guide/ 301
 /fr/blog/nte-launch-6-choose-1 /fr/blog/nte-launch-6-choose-1/ 301
 /fr/blog/nte-launch-collaborations /fr/blog/nte-launch-collaborations/ 301
@@ -3599,6 +3639,7 @@
 /fr/blog/nte-v11-preview-may-2026 /fr/blog/nte-v11-preview-may-2026/ 301
 /fr/blog/nte-version-1-0-update /fr/blog/nte-version-1-0-update/ 301
 /fr/blog/nte-vs-genshin-vs-wuthering-waves /fr/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/fr/blog/nte-weapon-banner-deep-dive /fr/blog/nte-weapon-banner-deep-dive/ 301
 /fr/blog/nte-week-one-recap /fr/blog/nte-week-one-recap/ 301
 /fr/blog/nte-zero-build-guide /fr/blog/nte-zero-build-guide/ 301
 /fr/bosses /fr/bosses/ 301
@@ -3869,11 +3910,13 @@
 /fr/faq/preregistration-rewards-how /fr/faq/preregistration-rewards-how/ 301
 /fr/faq/prison-system /fr/faq/prison-system/ 301
 /fr/faq/ps5-download-interrupted /fr/faq/ps5-download-interrupted/ 301
+/fr/faq/ps5-price-size-performance /fr/faq/ps5-price-size-performance/ 301
 /fr/faq/ps5-support /fr/faq/ps5-support/ 301
 /fr/faq/quest-npc-not-spawning /fr/faq/quest-npc-not-spawning/ 301
 /fr/faq/raging-flames-guide /fr/faq/raging-flames-guide/ 301
 /fr/faq/reality-refuge-guide /fr/faq/reality-refuge-guide/ 301
 /fr/faq/recharge-not-received /fr/faq/recharge-not-received/ 301
+/fr/faq/redeem-code-how-to-enter /fr/faq/redeem-code-how-to-enter/ 301
 /fr/faq/redeem-codes /fr/faq/redeem-codes/ 301
 /fr/faq/release-date /fr/faq/release-date/ 301
 /fr/faq/reroll-guide /fr/faq/reroll-guide/ 301
@@ -3900,6 +3943,7 @@
 /fr/faq/standard-banner-selector /fr/faq/standard-banner-selector/ 301
 /fr/faq/starter-s-rank /fr/faq/starter-s-rank/ 301
 /fr/faq/starter-s-rank-selector /fr/faq/starter-s-rank-selector/ 301
+/fr/faq/steam-deck-compatibility /fr/faq/steam-deck-compatibility/ 301
 /fr/faq/system-requirements /fr/faq/system-requirements/ 301
 /fr/faq/team-composition-tips /fr/faq/team-composition-tips/ 301
 /fr/faq/test-signup /fr/faq/test-signup/ 301
@@ -4304,6 +4348,7 @@
 /fr/tags/platform /fr/tags/platform/ 301
 /fr/tags/porsche /fr/tags/porsche/ 301
 /fr/tags/pre-registration /fr/tags/pre-registration/ 301
+/fr/tags/price /fr/tags/price/ 301
 /fr/tags/priority /fr/tags/priority/ 301
 /fr/tags/progress /fr/tags/progress/ 301
 /fr/tags/progression /fr/tags/progression/ 301
@@ -4327,6 +4372,7 @@
 /fr/tags/recharge /fr/tags/recharge/ 301
 /fr/tags/recommendation /fr/tags/recommendation/ 301
 /fr/tags/recovery /fr/tags/recovery/ 301
+/fr/tags/redeem /fr/tags/redeem/ 301
 /fr/tags/refund /fr/tags/refund/ 301
 /fr/tags/release /fr/tags/release/ 301
 /fr/tags/release-date /fr/tags/release-date/ 301
@@ -4364,6 +4410,7 @@
 /fr/tags/ssd /fr/tags/ssd/ 301
 /fr/tags/stamina /fr/tags/stamina/ 301
 /fr/tags/steam /fr/tags/steam/ 301
+/fr/tags/steam-deck /fr/tags/steam-deck/ 301
 /fr/tags/storage /fr/tags/storage/ 301
 /fr/tags/story /fr/tags/story/ 301
 /fr/tags/streaming /fr/tags/streaming/ 301
@@ -4448,6 +4495,7 @@
 /fr/tags/城市经营 /fr/tags/城市经营/ 301
 /fr/tags/培养 /fr/tags/培养/ 301
 /fr/tags/基础 /fr/tags/基础/ 301
+/fr/tags/增益辅助 /fr/tags/增益辅助/ 301
 /fr/tags/天赋 /fr/tags/天赋/ 301
 /fr/tags/好感度 /fr/tags/好感度/ 301
 /fr/tags/娜娜莉 /fr/tags/娜娜莉/ 301
@@ -4628,6 +4676,7 @@
 /id/blog/nte-alipay-qualcomm-collab-guide /id/blog/nte-alipay-qualcomm-collab-guide/ 301
 /id/blog/nte-all-characters-overview /id/blog/nte-all-characters-overview/ 301
 /id/blog/nte-anime-references-easter-eggs /id/blog/nte-anime-references-easter-eggs/ 301
+/id/blog/nte-beginner-farming-priority-guide /id/blog/nte-beginner-farming-priority-guide/ 301
 /id/blog/nte-best-disk-sets-guide /id/blog/nte-best-disk-sets-guide/ 301
 /id/blog/nte-best-settings-guide /id/blog/nte-best-settings-guide/ 301
 /id/blog/nte-best-team-comps-1-0 /id/blog/nte-best-team-comps-1-0/ 301
@@ -4644,6 +4693,7 @@
 /id/blog/nte-global-launch-guide /id/blog/nte-global-launch-guide/ 301
 /id/blog/nte-global-launch-live-guide /id/blog/nte-global-launch-live-guide/ 301
 /id/blog/nte-global-server-recharge-guide /id/blog/nte-global-server-recharge-guide/ 301
+/id/blog/nte-hotori-practical-tips-guide /id/blog/nte-hotori-practical-tips-guide/ 301
 /id/blog/nte-jiuyuan-build-guide /id/blog/nte-jiuyuan-build-guide/ 301
 /id/blog/nte-launch-6-choose-1 /id/blog/nte-launch-6-choose-1/ 301
 /id/blog/nte-launch-collaborations /id/blog/nte-launch-collaborations/ 301
@@ -4673,6 +4723,7 @@
 /id/blog/nte-v11-preview-may-2026 /id/blog/nte-v11-preview-may-2026/ 301
 /id/blog/nte-version-1-0-update /id/blog/nte-version-1-0-update/ 301
 /id/blog/nte-vs-genshin-vs-wuthering-waves /id/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/id/blog/nte-weapon-banner-deep-dive /id/blog/nte-weapon-banner-deep-dive/ 301
 /id/blog/nte-week-one-recap /id/blog/nte-week-one-recap/ 301
 /id/blog/nte-zero-build-guide /id/blog/nte-zero-build-guide/ 301
 /id/bosses /id/bosses/ 301
@@ -4943,11 +4994,13 @@
 /id/faq/preregistration-rewards-how /id/faq/preregistration-rewards-how/ 301
 /id/faq/prison-system /id/faq/prison-system/ 301
 /id/faq/ps5-download-interrupted /id/faq/ps5-download-interrupted/ 301
+/id/faq/ps5-price-size-performance /id/faq/ps5-price-size-performance/ 301
 /id/faq/ps5-support /id/faq/ps5-support/ 301
 /id/faq/quest-npc-not-spawning /id/faq/quest-npc-not-spawning/ 301
 /id/faq/raging-flames-guide /id/faq/raging-flames-guide/ 301
 /id/faq/reality-refuge-guide /id/faq/reality-refuge-guide/ 301
 /id/faq/recharge-not-received /id/faq/recharge-not-received/ 301
+/id/faq/redeem-code-how-to-enter /id/faq/redeem-code-how-to-enter/ 301
 /id/faq/redeem-codes /id/faq/redeem-codes/ 301
 /id/faq/release-date /id/faq/release-date/ 301
 /id/faq/reroll-guide /id/faq/reroll-guide/ 301
@@ -4974,6 +5027,7 @@
 /id/faq/standard-banner-selector /id/faq/standard-banner-selector/ 301
 /id/faq/starter-s-rank /id/faq/starter-s-rank/ 301
 /id/faq/starter-s-rank-selector /id/faq/starter-s-rank-selector/ 301
+/id/faq/steam-deck-compatibility /id/faq/steam-deck-compatibility/ 301
 /id/faq/system-requirements /id/faq/system-requirements/ 301
 /id/faq/team-composition-tips /id/faq/team-composition-tips/ 301
 /id/faq/test-signup /id/faq/test-signup/ 301
@@ -5378,6 +5432,7 @@
 /id/tags/platform /id/tags/platform/ 301
 /id/tags/porsche /id/tags/porsche/ 301
 /id/tags/pre-registration /id/tags/pre-registration/ 301
+/id/tags/price /id/tags/price/ 301
 /id/tags/priority /id/tags/priority/ 301
 /id/tags/progress /id/tags/progress/ 301
 /id/tags/progression /id/tags/progression/ 301
@@ -5401,6 +5456,7 @@
 /id/tags/recharge /id/tags/recharge/ 301
 /id/tags/recommendation /id/tags/recommendation/ 301
 /id/tags/recovery /id/tags/recovery/ 301
+/id/tags/redeem /id/tags/redeem/ 301
 /id/tags/refund /id/tags/refund/ 301
 /id/tags/release /id/tags/release/ 301
 /id/tags/release-date /id/tags/release-date/ 301
@@ -5438,6 +5494,7 @@
 /id/tags/ssd /id/tags/ssd/ 301
 /id/tags/stamina /id/tags/stamina/ 301
 /id/tags/steam /id/tags/steam/ 301
+/id/tags/steam-deck /id/tags/steam-deck/ 301
 /id/tags/storage /id/tags/storage/ 301
 /id/tags/story /id/tags/story/ 301
 /id/tags/streaming /id/tags/streaming/ 301
@@ -5522,6 +5579,7 @@
 /id/tags/城市经营 /id/tags/城市经营/ 301
 /id/tags/培养 /id/tags/培养/ 301
 /id/tags/基础 /id/tags/基础/ 301
+/id/tags/增益辅助 /id/tags/增益辅助/ 301
 /id/tags/天赋 /id/tags/天赋/ 301
 /id/tags/好感度 /id/tags/好感度/ 301
 /id/tags/娜娜莉 /id/tags/娜娜莉/ 301
@@ -5702,6 +5760,7 @@
 /ja/blog/nte-alipay-qualcomm-collab-guide /ja/blog/nte-alipay-qualcomm-collab-guide/ 301
 /ja/blog/nte-all-characters-overview /ja/blog/nte-all-characters-overview/ 301
 /ja/blog/nte-anime-references-easter-eggs /ja/blog/nte-anime-references-easter-eggs/ 301
+/ja/blog/nte-beginner-farming-priority-guide /ja/blog/nte-beginner-farming-priority-guide/ 301
 /ja/blog/nte-best-disk-sets-guide /ja/blog/nte-best-disk-sets-guide/ 301
 /ja/blog/nte-best-settings-guide /ja/blog/nte-best-settings-guide/ 301
 /ja/blog/nte-best-team-comps-1-0 /ja/blog/nte-best-team-comps-1-0/ 301
@@ -5718,6 +5777,7 @@
 /ja/blog/nte-global-launch-guide /ja/blog/nte-global-launch-guide/ 301
 /ja/blog/nte-global-launch-live-guide /ja/blog/nte-global-launch-live-guide/ 301
 /ja/blog/nte-global-server-recharge-guide /ja/blog/nte-global-server-recharge-guide/ 301
+/ja/blog/nte-hotori-practical-tips-guide /ja/blog/nte-hotori-practical-tips-guide/ 301
 /ja/blog/nte-jiuyuan-build-guide /ja/blog/nte-jiuyuan-build-guide/ 301
 /ja/blog/nte-launch-6-choose-1 /ja/blog/nte-launch-6-choose-1/ 301
 /ja/blog/nte-launch-collaborations /ja/blog/nte-launch-collaborations/ 301
@@ -5747,6 +5807,7 @@
 /ja/blog/nte-v11-preview-may-2026 /ja/blog/nte-v11-preview-may-2026/ 301
 /ja/blog/nte-version-1-0-update /ja/blog/nte-version-1-0-update/ 301
 /ja/blog/nte-vs-genshin-vs-wuthering-waves /ja/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/ja/blog/nte-weapon-banner-deep-dive /ja/blog/nte-weapon-banner-deep-dive/ 301
 /ja/blog/nte-week-one-recap /ja/blog/nte-week-one-recap/ 301
 /ja/blog/nte-zero-build-guide /ja/blog/nte-zero-build-guide/ 301
 /ja/bosses /ja/bosses/ 301
@@ -6017,11 +6078,13 @@
 /ja/faq/preregistration-rewards-how /ja/faq/preregistration-rewards-how/ 301
 /ja/faq/prison-system /ja/faq/prison-system/ 301
 /ja/faq/ps5-download-interrupted /ja/faq/ps5-download-interrupted/ 301
+/ja/faq/ps5-price-size-performance /ja/faq/ps5-price-size-performance/ 301
 /ja/faq/ps5-support /ja/faq/ps5-support/ 301
 /ja/faq/quest-npc-not-spawning /ja/faq/quest-npc-not-spawning/ 301
 /ja/faq/raging-flames-guide /ja/faq/raging-flames-guide/ 301
 /ja/faq/reality-refuge-guide /ja/faq/reality-refuge-guide/ 301
 /ja/faq/recharge-not-received /ja/faq/recharge-not-received/ 301
+/ja/faq/redeem-code-how-to-enter /ja/faq/redeem-code-how-to-enter/ 301
 /ja/faq/redeem-codes /ja/faq/redeem-codes/ 301
 /ja/faq/release-date /ja/faq/release-date/ 301
 /ja/faq/reroll-guide /ja/faq/reroll-guide/ 301
@@ -6048,6 +6111,7 @@
 /ja/faq/standard-banner-selector /ja/faq/standard-banner-selector/ 301
 /ja/faq/starter-s-rank /ja/faq/starter-s-rank/ 301
 /ja/faq/starter-s-rank-selector /ja/faq/starter-s-rank-selector/ 301
+/ja/faq/steam-deck-compatibility /ja/faq/steam-deck-compatibility/ 301
 /ja/faq/system-requirements /ja/faq/system-requirements/ 301
 /ja/faq/team-composition-tips /ja/faq/team-composition-tips/ 301
 /ja/faq/test-signup /ja/faq/test-signup/ 301
@@ -6452,6 +6516,7 @@
 /ja/tags/platform /ja/tags/platform/ 301
 /ja/tags/porsche /ja/tags/porsche/ 301
 /ja/tags/pre-registration /ja/tags/pre-registration/ 301
+/ja/tags/price /ja/tags/price/ 301
 /ja/tags/priority /ja/tags/priority/ 301
 /ja/tags/progress /ja/tags/progress/ 301
 /ja/tags/progression /ja/tags/progression/ 301
@@ -6475,6 +6540,7 @@
 /ja/tags/recharge /ja/tags/recharge/ 301
 /ja/tags/recommendation /ja/tags/recommendation/ 301
 /ja/tags/recovery /ja/tags/recovery/ 301
+/ja/tags/redeem /ja/tags/redeem/ 301
 /ja/tags/refund /ja/tags/refund/ 301
 /ja/tags/release /ja/tags/release/ 301
 /ja/tags/release-date /ja/tags/release-date/ 301
@@ -6512,6 +6578,7 @@
 /ja/tags/ssd /ja/tags/ssd/ 301
 /ja/tags/stamina /ja/tags/stamina/ 301
 /ja/tags/steam /ja/tags/steam/ 301
+/ja/tags/steam-deck /ja/tags/steam-deck/ 301
 /ja/tags/storage /ja/tags/storage/ 301
 /ja/tags/story /ja/tags/story/ 301
 /ja/tags/streaming /ja/tags/streaming/ 301
@@ -6596,6 +6663,7 @@
 /ja/tags/城市经营 /ja/tags/城市经营/ 301
 /ja/tags/培养 /ja/tags/培养/ 301
 /ja/tags/基础 /ja/tags/基础/ 301
+/ja/tags/增益辅助 /ja/tags/增益辅助/ 301
 /ja/tags/天赋 /ja/tags/天赋/ 301
 /ja/tags/好感度 /ja/tags/好感度/ 301
 /ja/tags/娜娜莉 /ja/tags/娜娜莉/ 301
@@ -6776,6 +6844,7 @@
 /ko/blog/nte-alipay-qualcomm-collab-guide /ko/blog/nte-alipay-qualcomm-collab-guide/ 301
 /ko/blog/nte-all-characters-overview /ko/blog/nte-all-characters-overview/ 301
 /ko/blog/nte-anime-references-easter-eggs /ko/blog/nte-anime-references-easter-eggs/ 301
+/ko/blog/nte-beginner-farming-priority-guide /ko/blog/nte-beginner-farming-priority-guide/ 301
 /ko/blog/nte-best-disk-sets-guide /ko/blog/nte-best-disk-sets-guide/ 301
 /ko/blog/nte-best-settings-guide /ko/blog/nte-best-settings-guide/ 301
 /ko/blog/nte-best-team-comps-1-0 /ko/blog/nte-best-team-comps-1-0/ 301
@@ -6792,6 +6861,7 @@
 /ko/blog/nte-global-launch-guide /ko/blog/nte-global-launch-guide/ 301
 /ko/blog/nte-global-launch-live-guide /ko/blog/nte-global-launch-live-guide/ 301
 /ko/blog/nte-global-server-recharge-guide /ko/blog/nte-global-server-recharge-guide/ 301
+/ko/blog/nte-hotori-practical-tips-guide /ko/blog/nte-hotori-practical-tips-guide/ 301
 /ko/blog/nte-jiuyuan-build-guide /ko/blog/nte-jiuyuan-build-guide/ 301
 /ko/blog/nte-launch-6-choose-1 /ko/blog/nte-launch-6-choose-1/ 301
 /ko/blog/nte-launch-collaborations /ko/blog/nte-launch-collaborations/ 301
@@ -6821,6 +6891,7 @@
 /ko/blog/nte-v11-preview-may-2026 /ko/blog/nte-v11-preview-may-2026/ 301
 /ko/blog/nte-version-1-0-update /ko/blog/nte-version-1-0-update/ 301
 /ko/blog/nte-vs-genshin-vs-wuthering-waves /ko/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/ko/blog/nte-weapon-banner-deep-dive /ko/blog/nte-weapon-banner-deep-dive/ 301
 /ko/blog/nte-week-one-recap /ko/blog/nte-week-one-recap/ 301
 /ko/blog/nte-zero-build-guide /ko/blog/nte-zero-build-guide/ 301
 /ko/bosses /ko/bosses/ 301
@@ -7091,11 +7162,13 @@
 /ko/faq/preregistration-rewards-how /ko/faq/preregistration-rewards-how/ 301
 /ko/faq/prison-system /ko/faq/prison-system/ 301
 /ko/faq/ps5-download-interrupted /ko/faq/ps5-download-interrupted/ 301
+/ko/faq/ps5-price-size-performance /ko/faq/ps5-price-size-performance/ 301
 /ko/faq/ps5-support /ko/faq/ps5-support/ 301
 /ko/faq/quest-npc-not-spawning /ko/faq/quest-npc-not-spawning/ 301
 /ko/faq/raging-flames-guide /ko/faq/raging-flames-guide/ 301
 /ko/faq/reality-refuge-guide /ko/faq/reality-refuge-guide/ 301
 /ko/faq/recharge-not-received /ko/faq/recharge-not-received/ 301
+/ko/faq/redeem-code-how-to-enter /ko/faq/redeem-code-how-to-enter/ 301
 /ko/faq/redeem-codes /ko/faq/redeem-codes/ 301
 /ko/faq/release-date /ko/faq/release-date/ 301
 /ko/faq/reroll-guide /ko/faq/reroll-guide/ 301
@@ -7122,6 +7195,7 @@
 /ko/faq/standard-banner-selector /ko/faq/standard-banner-selector/ 301
 /ko/faq/starter-s-rank /ko/faq/starter-s-rank/ 301
 /ko/faq/starter-s-rank-selector /ko/faq/starter-s-rank-selector/ 301
+/ko/faq/steam-deck-compatibility /ko/faq/steam-deck-compatibility/ 301
 /ko/faq/system-requirements /ko/faq/system-requirements/ 301
 /ko/faq/team-composition-tips /ko/faq/team-composition-tips/ 301
 /ko/faq/test-signup /ko/faq/test-signup/ 301
@@ -7526,6 +7600,7 @@
 /ko/tags/platform /ko/tags/platform/ 301
 /ko/tags/porsche /ko/tags/porsche/ 301
 /ko/tags/pre-registration /ko/tags/pre-registration/ 301
+/ko/tags/price /ko/tags/price/ 301
 /ko/tags/priority /ko/tags/priority/ 301
 /ko/tags/progress /ko/tags/progress/ 301
 /ko/tags/progression /ko/tags/progression/ 301
@@ -7549,6 +7624,7 @@
 /ko/tags/recharge /ko/tags/recharge/ 301
 /ko/tags/recommendation /ko/tags/recommendation/ 301
 /ko/tags/recovery /ko/tags/recovery/ 301
+/ko/tags/redeem /ko/tags/redeem/ 301
 /ko/tags/refund /ko/tags/refund/ 301
 /ko/tags/release /ko/tags/release/ 301
 /ko/tags/release-date /ko/tags/release-date/ 301
@@ -7586,6 +7662,7 @@
 /ko/tags/ssd /ko/tags/ssd/ 301
 /ko/tags/stamina /ko/tags/stamina/ 301
 /ko/tags/steam /ko/tags/steam/ 301
+/ko/tags/steam-deck /ko/tags/steam-deck/ 301
 /ko/tags/storage /ko/tags/storage/ 301
 /ko/tags/story /ko/tags/story/ 301
 /ko/tags/streaming /ko/tags/streaming/ 301
@@ -7670,6 +7747,7 @@
 /ko/tags/城市经营 /ko/tags/城市经营/ 301
 /ko/tags/培养 /ko/tags/培养/ 301
 /ko/tags/基础 /ko/tags/基础/ 301
+/ko/tags/增益辅助 /ko/tags/增益辅助/ 301
 /ko/tags/天赋 /ko/tags/天赋/ 301
 /ko/tags/好感度 /ko/tags/好感度/ 301
 /ko/tags/娜娜莉 /ko/tags/娜娜莉/ 301
@@ -7850,6 +7928,7 @@
 /pt-br/blog/nte-alipay-qualcomm-collab-guide /pt-br/blog/nte-alipay-qualcomm-collab-guide/ 301
 /pt-br/blog/nte-all-characters-overview /pt-br/blog/nte-all-characters-overview/ 301
 /pt-br/blog/nte-anime-references-easter-eggs /pt-br/blog/nte-anime-references-easter-eggs/ 301
+/pt-br/blog/nte-beginner-farming-priority-guide /pt-br/blog/nte-beginner-farming-priority-guide/ 301
 /pt-br/blog/nte-best-disk-sets-guide /pt-br/blog/nte-best-disk-sets-guide/ 301
 /pt-br/blog/nte-best-settings-guide /pt-br/blog/nte-best-settings-guide/ 301
 /pt-br/blog/nte-best-team-comps-1-0 /pt-br/blog/nte-best-team-comps-1-0/ 301
@@ -7866,6 +7945,7 @@
 /pt-br/blog/nte-global-launch-guide /pt-br/blog/nte-global-launch-guide/ 301
 /pt-br/blog/nte-global-launch-live-guide /pt-br/blog/nte-global-launch-live-guide/ 301
 /pt-br/blog/nte-global-server-recharge-guide /pt-br/blog/nte-global-server-recharge-guide/ 301
+/pt-br/blog/nte-hotori-practical-tips-guide /pt-br/blog/nte-hotori-practical-tips-guide/ 301
 /pt-br/blog/nte-jiuyuan-build-guide /pt-br/blog/nte-jiuyuan-build-guide/ 301
 /pt-br/blog/nte-launch-6-choose-1 /pt-br/blog/nte-launch-6-choose-1/ 301
 /pt-br/blog/nte-launch-collaborations /pt-br/blog/nte-launch-collaborations/ 301
@@ -7895,6 +7975,7 @@
 /pt-br/blog/nte-v11-preview-may-2026 /pt-br/blog/nte-v11-preview-may-2026/ 301
 /pt-br/blog/nte-version-1-0-update /pt-br/blog/nte-version-1-0-update/ 301
 /pt-br/blog/nte-vs-genshin-vs-wuthering-waves /pt-br/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/pt-br/blog/nte-weapon-banner-deep-dive /pt-br/blog/nte-weapon-banner-deep-dive/ 301
 /pt-br/blog/nte-week-one-recap /pt-br/blog/nte-week-one-recap/ 301
 /pt-br/blog/nte-zero-build-guide /pt-br/blog/nte-zero-build-guide/ 301
 /pt-br/bosses /pt-br/bosses/ 301
@@ -8165,11 +8246,13 @@
 /pt-br/faq/preregistration-rewards-how /pt-br/faq/preregistration-rewards-how/ 301
 /pt-br/faq/prison-system /pt-br/faq/prison-system/ 301
 /pt-br/faq/ps5-download-interrupted /pt-br/faq/ps5-download-interrupted/ 301
+/pt-br/faq/ps5-price-size-performance /pt-br/faq/ps5-price-size-performance/ 301
 /pt-br/faq/ps5-support /pt-br/faq/ps5-support/ 301
 /pt-br/faq/quest-npc-not-spawning /pt-br/faq/quest-npc-not-spawning/ 301
 /pt-br/faq/raging-flames-guide /pt-br/faq/raging-flames-guide/ 301
 /pt-br/faq/reality-refuge-guide /pt-br/faq/reality-refuge-guide/ 301
 /pt-br/faq/recharge-not-received /pt-br/faq/recharge-not-received/ 301
+/pt-br/faq/redeem-code-how-to-enter /pt-br/faq/redeem-code-how-to-enter/ 301
 /pt-br/faq/redeem-codes /pt-br/faq/redeem-codes/ 301
 /pt-br/faq/release-date /pt-br/faq/release-date/ 301
 /pt-br/faq/reroll-guide /pt-br/faq/reroll-guide/ 301
@@ -8196,6 +8279,7 @@
 /pt-br/faq/standard-banner-selector /pt-br/faq/standard-banner-selector/ 301
 /pt-br/faq/starter-s-rank /pt-br/faq/starter-s-rank/ 301
 /pt-br/faq/starter-s-rank-selector /pt-br/faq/starter-s-rank-selector/ 301
+/pt-br/faq/steam-deck-compatibility /pt-br/faq/steam-deck-compatibility/ 301
 /pt-br/faq/system-requirements /pt-br/faq/system-requirements/ 301
 /pt-br/faq/team-composition-tips /pt-br/faq/team-composition-tips/ 301
 /pt-br/faq/test-signup /pt-br/faq/test-signup/ 301
@@ -8600,6 +8684,7 @@
 /pt-br/tags/platform /pt-br/tags/platform/ 301
 /pt-br/tags/porsche /pt-br/tags/porsche/ 301
 /pt-br/tags/pre-registration /pt-br/tags/pre-registration/ 301
+/pt-br/tags/price /pt-br/tags/price/ 301
 /pt-br/tags/priority /pt-br/tags/priority/ 301
 /pt-br/tags/progress /pt-br/tags/progress/ 301
 /pt-br/tags/progression /pt-br/tags/progression/ 301
@@ -8623,6 +8708,7 @@
 /pt-br/tags/recharge /pt-br/tags/recharge/ 301
 /pt-br/tags/recommendation /pt-br/tags/recommendation/ 301
 /pt-br/tags/recovery /pt-br/tags/recovery/ 301
+/pt-br/tags/redeem /pt-br/tags/redeem/ 301
 /pt-br/tags/refund /pt-br/tags/refund/ 301
 /pt-br/tags/release /pt-br/tags/release/ 301
 /pt-br/tags/release-date /pt-br/tags/release-date/ 301
@@ -8660,6 +8746,7 @@
 /pt-br/tags/ssd /pt-br/tags/ssd/ 301
 /pt-br/tags/stamina /pt-br/tags/stamina/ 301
 /pt-br/tags/steam /pt-br/tags/steam/ 301
+/pt-br/tags/steam-deck /pt-br/tags/steam-deck/ 301
 /pt-br/tags/storage /pt-br/tags/storage/ 301
 /pt-br/tags/story /pt-br/tags/story/ 301
 /pt-br/tags/streaming /pt-br/tags/streaming/ 301
@@ -8744,6 +8831,7 @@
 /pt-br/tags/城市经营 /pt-br/tags/城市经营/ 301
 /pt-br/tags/培养 /pt-br/tags/培养/ 301
 /pt-br/tags/基础 /pt-br/tags/基础/ 301
+/pt-br/tags/增益辅助 /pt-br/tags/增益辅助/ 301
 /pt-br/tags/天赋 /pt-br/tags/天赋/ 301
 /pt-br/tags/好感度 /pt-br/tags/好感度/ 301
 /pt-br/tags/娜娜莉 /pt-br/tags/娜娜莉/ 301
@@ -8924,6 +9012,7 @@
 /ru/blog/nte-alipay-qualcomm-collab-guide /ru/blog/nte-alipay-qualcomm-collab-guide/ 301
 /ru/blog/nte-all-characters-overview /ru/blog/nte-all-characters-overview/ 301
 /ru/blog/nte-anime-references-easter-eggs /ru/blog/nte-anime-references-easter-eggs/ 301
+/ru/blog/nte-beginner-farming-priority-guide /ru/blog/nte-beginner-farming-priority-guide/ 301
 /ru/blog/nte-best-disk-sets-guide /ru/blog/nte-best-disk-sets-guide/ 301
 /ru/blog/nte-best-settings-guide /ru/blog/nte-best-settings-guide/ 301
 /ru/blog/nte-best-team-comps-1-0 /ru/blog/nte-best-team-comps-1-0/ 301
@@ -8940,6 +9029,7 @@
 /ru/blog/nte-global-launch-guide /ru/blog/nte-global-launch-guide/ 301
 /ru/blog/nte-global-launch-live-guide /ru/blog/nte-global-launch-live-guide/ 301
 /ru/blog/nte-global-server-recharge-guide /ru/blog/nte-global-server-recharge-guide/ 301
+/ru/blog/nte-hotori-practical-tips-guide /ru/blog/nte-hotori-practical-tips-guide/ 301
 /ru/blog/nte-jiuyuan-build-guide /ru/blog/nte-jiuyuan-build-guide/ 301
 /ru/blog/nte-launch-6-choose-1 /ru/blog/nte-launch-6-choose-1/ 301
 /ru/blog/nte-launch-collaborations /ru/blog/nte-launch-collaborations/ 301
@@ -8969,6 +9059,7 @@
 /ru/blog/nte-v11-preview-may-2026 /ru/blog/nte-v11-preview-may-2026/ 301
 /ru/blog/nte-version-1-0-update /ru/blog/nte-version-1-0-update/ 301
 /ru/blog/nte-vs-genshin-vs-wuthering-waves /ru/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/ru/blog/nte-weapon-banner-deep-dive /ru/blog/nte-weapon-banner-deep-dive/ 301
 /ru/blog/nte-week-one-recap /ru/blog/nte-week-one-recap/ 301
 /ru/blog/nte-zero-build-guide /ru/blog/nte-zero-build-guide/ 301
 /ru/bosses /ru/bosses/ 301
@@ -9239,11 +9330,13 @@
 /ru/faq/preregistration-rewards-how /ru/faq/preregistration-rewards-how/ 301
 /ru/faq/prison-system /ru/faq/prison-system/ 301
 /ru/faq/ps5-download-interrupted /ru/faq/ps5-download-interrupted/ 301
+/ru/faq/ps5-price-size-performance /ru/faq/ps5-price-size-performance/ 301
 /ru/faq/ps5-support /ru/faq/ps5-support/ 301
 /ru/faq/quest-npc-not-spawning /ru/faq/quest-npc-not-spawning/ 301
 /ru/faq/raging-flames-guide /ru/faq/raging-flames-guide/ 301
 /ru/faq/reality-refuge-guide /ru/faq/reality-refuge-guide/ 301
 /ru/faq/recharge-not-received /ru/faq/recharge-not-received/ 301
+/ru/faq/redeem-code-how-to-enter /ru/faq/redeem-code-how-to-enter/ 301
 /ru/faq/redeem-codes /ru/faq/redeem-codes/ 301
 /ru/faq/release-date /ru/faq/release-date/ 301
 /ru/faq/reroll-guide /ru/faq/reroll-guide/ 301
@@ -9270,6 +9363,7 @@
 /ru/faq/standard-banner-selector /ru/faq/standard-banner-selector/ 301
 /ru/faq/starter-s-rank /ru/faq/starter-s-rank/ 301
 /ru/faq/starter-s-rank-selector /ru/faq/starter-s-rank-selector/ 301
+/ru/faq/steam-deck-compatibility /ru/faq/steam-deck-compatibility/ 301
 /ru/faq/system-requirements /ru/faq/system-requirements/ 301
 /ru/faq/team-composition-tips /ru/faq/team-composition-tips/ 301
 /ru/faq/test-signup /ru/faq/test-signup/ 301
@@ -9674,6 +9768,7 @@
 /ru/tags/platform /ru/tags/platform/ 301
 /ru/tags/porsche /ru/tags/porsche/ 301
 /ru/tags/pre-registration /ru/tags/pre-registration/ 301
+/ru/tags/price /ru/tags/price/ 301
 /ru/tags/priority /ru/tags/priority/ 301
 /ru/tags/progress /ru/tags/progress/ 301
 /ru/tags/progression /ru/tags/progression/ 301
@@ -9697,6 +9792,7 @@
 /ru/tags/recharge /ru/tags/recharge/ 301
 /ru/tags/recommendation /ru/tags/recommendation/ 301
 /ru/tags/recovery /ru/tags/recovery/ 301
+/ru/tags/redeem /ru/tags/redeem/ 301
 /ru/tags/refund /ru/tags/refund/ 301
 /ru/tags/release /ru/tags/release/ 301
 /ru/tags/release-date /ru/tags/release-date/ 301
@@ -9734,6 +9830,7 @@
 /ru/tags/ssd /ru/tags/ssd/ 301
 /ru/tags/stamina /ru/tags/stamina/ 301
 /ru/tags/steam /ru/tags/steam/ 301
+/ru/tags/steam-deck /ru/tags/steam-deck/ 301
 /ru/tags/storage /ru/tags/storage/ 301
 /ru/tags/story /ru/tags/story/ 301
 /ru/tags/streaming /ru/tags/streaming/ 301
@@ -9818,6 +9915,7 @@
 /ru/tags/城市经营 /ru/tags/城市经营/ 301
 /ru/tags/培养 /ru/tags/培养/ 301
 /ru/tags/基础 /ru/tags/基础/ 301
+/ru/tags/增益辅助 /ru/tags/增益辅助/ 301
 /ru/tags/天赋 /ru/tags/天赋/ 301
 /ru/tags/好感度 /ru/tags/好感度/ 301
 /ru/tags/娜娜莉 /ru/tags/娜娜莉/ 301
@@ -9998,6 +10096,7 @@
 /th/blog/nte-alipay-qualcomm-collab-guide /th/blog/nte-alipay-qualcomm-collab-guide/ 301
 /th/blog/nte-all-characters-overview /th/blog/nte-all-characters-overview/ 301
 /th/blog/nte-anime-references-easter-eggs /th/blog/nte-anime-references-easter-eggs/ 301
+/th/blog/nte-beginner-farming-priority-guide /th/blog/nte-beginner-farming-priority-guide/ 301
 /th/blog/nte-best-disk-sets-guide /th/blog/nte-best-disk-sets-guide/ 301
 /th/blog/nte-best-settings-guide /th/blog/nte-best-settings-guide/ 301
 /th/blog/nte-best-team-comps-1-0 /th/blog/nte-best-team-comps-1-0/ 301
@@ -10014,6 +10113,7 @@
 /th/blog/nte-global-launch-guide /th/blog/nte-global-launch-guide/ 301
 /th/blog/nte-global-launch-live-guide /th/blog/nte-global-launch-live-guide/ 301
 /th/blog/nte-global-server-recharge-guide /th/blog/nte-global-server-recharge-guide/ 301
+/th/blog/nte-hotori-practical-tips-guide /th/blog/nte-hotori-practical-tips-guide/ 301
 /th/blog/nte-jiuyuan-build-guide /th/blog/nte-jiuyuan-build-guide/ 301
 /th/blog/nte-launch-6-choose-1 /th/blog/nte-launch-6-choose-1/ 301
 /th/blog/nte-launch-collaborations /th/blog/nte-launch-collaborations/ 301
@@ -10043,6 +10143,7 @@
 /th/blog/nte-v11-preview-may-2026 /th/blog/nte-v11-preview-may-2026/ 301
 /th/blog/nte-version-1-0-update /th/blog/nte-version-1-0-update/ 301
 /th/blog/nte-vs-genshin-vs-wuthering-waves /th/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/th/blog/nte-weapon-banner-deep-dive /th/blog/nte-weapon-banner-deep-dive/ 301
 /th/blog/nte-week-one-recap /th/blog/nte-week-one-recap/ 301
 /th/blog/nte-zero-build-guide /th/blog/nte-zero-build-guide/ 301
 /th/bosses /th/bosses/ 301
@@ -10313,11 +10414,13 @@
 /th/faq/preregistration-rewards-how /th/faq/preregistration-rewards-how/ 301
 /th/faq/prison-system /th/faq/prison-system/ 301
 /th/faq/ps5-download-interrupted /th/faq/ps5-download-interrupted/ 301
+/th/faq/ps5-price-size-performance /th/faq/ps5-price-size-performance/ 301
 /th/faq/ps5-support /th/faq/ps5-support/ 301
 /th/faq/quest-npc-not-spawning /th/faq/quest-npc-not-spawning/ 301
 /th/faq/raging-flames-guide /th/faq/raging-flames-guide/ 301
 /th/faq/reality-refuge-guide /th/faq/reality-refuge-guide/ 301
 /th/faq/recharge-not-received /th/faq/recharge-not-received/ 301
+/th/faq/redeem-code-how-to-enter /th/faq/redeem-code-how-to-enter/ 301
 /th/faq/redeem-codes /th/faq/redeem-codes/ 301
 /th/faq/release-date /th/faq/release-date/ 301
 /th/faq/reroll-guide /th/faq/reroll-guide/ 301
@@ -10344,6 +10447,7 @@
 /th/faq/standard-banner-selector /th/faq/standard-banner-selector/ 301
 /th/faq/starter-s-rank /th/faq/starter-s-rank/ 301
 /th/faq/starter-s-rank-selector /th/faq/starter-s-rank-selector/ 301
+/th/faq/steam-deck-compatibility /th/faq/steam-deck-compatibility/ 301
 /th/faq/system-requirements /th/faq/system-requirements/ 301
 /th/faq/team-composition-tips /th/faq/team-composition-tips/ 301
 /th/faq/test-signup /th/faq/test-signup/ 301
@@ -10748,6 +10852,7 @@
 /th/tags/platform /th/tags/platform/ 301
 /th/tags/porsche /th/tags/porsche/ 301
 /th/tags/pre-registration /th/tags/pre-registration/ 301
+/th/tags/price /th/tags/price/ 301
 /th/tags/priority /th/tags/priority/ 301
 /th/tags/progress /th/tags/progress/ 301
 /th/tags/progression /th/tags/progression/ 301
@@ -10771,6 +10876,7 @@
 /th/tags/recharge /th/tags/recharge/ 301
 /th/tags/recommendation /th/tags/recommendation/ 301
 /th/tags/recovery /th/tags/recovery/ 301
+/th/tags/redeem /th/tags/redeem/ 301
 /th/tags/refund /th/tags/refund/ 301
 /th/tags/release /th/tags/release/ 301
 /th/tags/release-date /th/tags/release-date/ 301
@@ -10808,6 +10914,7 @@
 /th/tags/ssd /th/tags/ssd/ 301
 /th/tags/stamina /th/tags/stamina/ 301
 /th/tags/steam /th/tags/steam/ 301
+/th/tags/steam-deck /th/tags/steam-deck/ 301
 /th/tags/storage /th/tags/storage/ 301
 /th/tags/story /th/tags/story/ 301
 /th/tags/streaming /th/tags/streaming/ 301
@@ -10892,6 +10999,7 @@
 /th/tags/城市经营 /th/tags/城市经营/ 301
 /th/tags/培养 /th/tags/培养/ 301
 /th/tags/基础 /th/tags/基础/ 301
+/th/tags/增益辅助 /th/tags/增益辅助/ 301
 /th/tags/天赋 /th/tags/天赋/ 301
 /th/tags/好感度 /th/tags/好感度/ 301
 /th/tags/娜娜莉 /th/tags/娜娜莉/ 301
@@ -11072,6 +11180,7 @@
 /tw/blog/nte-alipay-qualcomm-collab-guide /tw/blog/nte-alipay-qualcomm-collab-guide/ 301
 /tw/blog/nte-all-characters-overview /tw/blog/nte-all-characters-overview/ 301
 /tw/blog/nte-anime-references-easter-eggs /tw/blog/nte-anime-references-easter-eggs/ 301
+/tw/blog/nte-beginner-farming-priority-guide /tw/blog/nte-beginner-farming-priority-guide/ 301
 /tw/blog/nte-best-disk-sets-guide /tw/blog/nte-best-disk-sets-guide/ 301
 /tw/blog/nte-best-settings-guide /tw/blog/nte-best-settings-guide/ 301
 /tw/blog/nte-best-team-comps-1-0 /tw/blog/nte-best-team-comps-1-0/ 301
@@ -11088,6 +11197,7 @@
 /tw/blog/nte-global-launch-guide /tw/blog/nte-global-launch-guide/ 301
 /tw/blog/nte-global-launch-live-guide /tw/blog/nte-global-launch-live-guide/ 301
 /tw/blog/nte-global-server-recharge-guide /tw/blog/nte-global-server-recharge-guide/ 301
+/tw/blog/nte-hotori-practical-tips-guide /tw/blog/nte-hotori-practical-tips-guide/ 301
 /tw/blog/nte-jiuyuan-build-guide /tw/blog/nte-jiuyuan-build-guide/ 301
 /tw/blog/nte-launch-6-choose-1 /tw/blog/nte-launch-6-choose-1/ 301
 /tw/blog/nte-launch-collaborations /tw/blog/nte-launch-collaborations/ 301
@@ -11117,6 +11227,7 @@
 /tw/blog/nte-v11-preview-may-2026 /tw/blog/nte-v11-preview-may-2026/ 301
 /tw/blog/nte-version-1-0-update /tw/blog/nte-version-1-0-update/ 301
 /tw/blog/nte-vs-genshin-vs-wuthering-waves /tw/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/tw/blog/nte-weapon-banner-deep-dive /tw/blog/nte-weapon-banner-deep-dive/ 301
 /tw/blog/nte-week-one-recap /tw/blog/nte-week-one-recap/ 301
 /tw/blog/nte-zero-build-guide /tw/blog/nte-zero-build-guide/ 301
 /tw/bosses /tw/bosses/ 301
@@ -11387,11 +11498,13 @@
 /tw/faq/preregistration-rewards-how /tw/faq/preregistration-rewards-how/ 301
 /tw/faq/prison-system /tw/faq/prison-system/ 301
 /tw/faq/ps5-download-interrupted /tw/faq/ps5-download-interrupted/ 301
+/tw/faq/ps5-price-size-performance /tw/faq/ps5-price-size-performance/ 301
 /tw/faq/ps5-support /tw/faq/ps5-support/ 301
 /tw/faq/quest-npc-not-spawning /tw/faq/quest-npc-not-spawning/ 301
 /tw/faq/raging-flames-guide /tw/faq/raging-flames-guide/ 301
 /tw/faq/reality-refuge-guide /tw/faq/reality-refuge-guide/ 301
 /tw/faq/recharge-not-received /tw/faq/recharge-not-received/ 301
+/tw/faq/redeem-code-how-to-enter /tw/faq/redeem-code-how-to-enter/ 301
 /tw/faq/redeem-codes /tw/faq/redeem-codes/ 301
 /tw/faq/release-date /tw/faq/release-date/ 301
 /tw/faq/reroll-guide /tw/faq/reroll-guide/ 301
@@ -11418,6 +11531,7 @@
 /tw/faq/standard-banner-selector /tw/faq/standard-banner-selector/ 301
 /tw/faq/starter-s-rank /tw/faq/starter-s-rank/ 301
 /tw/faq/starter-s-rank-selector /tw/faq/starter-s-rank-selector/ 301
+/tw/faq/steam-deck-compatibility /tw/faq/steam-deck-compatibility/ 301
 /tw/faq/system-requirements /tw/faq/system-requirements/ 301
 /tw/faq/team-composition-tips /tw/faq/team-composition-tips/ 301
 /tw/faq/test-signup /tw/faq/test-signup/ 301
@@ -11822,6 +11936,7 @@
 /tw/tags/platform /tw/tags/platform/ 301
 /tw/tags/porsche /tw/tags/porsche/ 301
 /tw/tags/pre-registration /tw/tags/pre-registration/ 301
+/tw/tags/price /tw/tags/price/ 301
 /tw/tags/priority /tw/tags/priority/ 301
 /tw/tags/progress /tw/tags/progress/ 301
 /tw/tags/progression /tw/tags/progression/ 301
@@ -11845,6 +11960,7 @@
 /tw/tags/recharge /tw/tags/recharge/ 301
 /tw/tags/recommendation /tw/tags/recommendation/ 301
 /tw/tags/recovery /tw/tags/recovery/ 301
+/tw/tags/redeem /tw/tags/redeem/ 301
 /tw/tags/refund /tw/tags/refund/ 301
 /tw/tags/release /tw/tags/release/ 301
 /tw/tags/release-date /tw/tags/release-date/ 301
@@ -11882,6 +11998,7 @@
 /tw/tags/ssd /tw/tags/ssd/ 301
 /tw/tags/stamina /tw/tags/stamina/ 301
 /tw/tags/steam /tw/tags/steam/ 301
+/tw/tags/steam-deck /tw/tags/steam-deck/ 301
 /tw/tags/storage /tw/tags/storage/ 301
 /tw/tags/story /tw/tags/story/ 301
 /tw/tags/streaming /tw/tags/streaming/ 301
@@ -11966,6 +12083,7 @@
 /tw/tags/城市经营 /tw/tags/城市经营/ 301
 /tw/tags/培养 /tw/tags/培养/ 301
 /tw/tags/基础 /tw/tags/基础/ 301
+/tw/tags/增益辅助 /tw/tags/增益辅助/ 301
 /tw/tags/天赋 /tw/tags/天赋/ 301
 /tw/tags/好感度 /tw/tags/好感度/ 301
 /tw/tags/娜娜莉 /tw/tags/娜娜莉/ 301
@@ -12146,6 +12264,7 @@
 /vi/blog/nte-alipay-qualcomm-collab-guide /vi/blog/nte-alipay-qualcomm-collab-guide/ 301
 /vi/blog/nte-all-characters-overview /vi/blog/nte-all-characters-overview/ 301
 /vi/blog/nte-anime-references-easter-eggs /vi/blog/nte-anime-references-easter-eggs/ 301
+/vi/blog/nte-beginner-farming-priority-guide /vi/blog/nte-beginner-farming-priority-guide/ 301
 /vi/blog/nte-best-disk-sets-guide /vi/blog/nte-best-disk-sets-guide/ 301
 /vi/blog/nte-best-settings-guide /vi/blog/nte-best-settings-guide/ 301
 /vi/blog/nte-best-team-comps-1-0 /vi/blog/nte-best-team-comps-1-0/ 301
@@ -12162,6 +12281,7 @@
 /vi/blog/nte-global-launch-guide /vi/blog/nte-global-launch-guide/ 301
 /vi/blog/nte-global-launch-live-guide /vi/blog/nte-global-launch-live-guide/ 301
 /vi/blog/nte-global-server-recharge-guide /vi/blog/nte-global-server-recharge-guide/ 301
+/vi/blog/nte-hotori-practical-tips-guide /vi/blog/nte-hotori-practical-tips-guide/ 301
 /vi/blog/nte-jiuyuan-build-guide /vi/blog/nte-jiuyuan-build-guide/ 301
 /vi/blog/nte-launch-6-choose-1 /vi/blog/nte-launch-6-choose-1/ 301
 /vi/blog/nte-launch-collaborations /vi/blog/nte-launch-collaborations/ 301
@@ -12191,6 +12311,7 @@
 /vi/blog/nte-v11-preview-may-2026 /vi/blog/nte-v11-preview-may-2026/ 301
 /vi/blog/nte-version-1-0-update /vi/blog/nte-version-1-0-update/ 301
 /vi/blog/nte-vs-genshin-vs-wuthering-waves /vi/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/vi/blog/nte-weapon-banner-deep-dive /vi/blog/nte-weapon-banner-deep-dive/ 301
 /vi/blog/nte-week-one-recap /vi/blog/nte-week-one-recap/ 301
 /vi/blog/nte-zero-build-guide /vi/blog/nte-zero-build-guide/ 301
 /vi/bosses /vi/bosses/ 301
@@ -12461,11 +12582,13 @@
 /vi/faq/preregistration-rewards-how /vi/faq/preregistration-rewards-how/ 301
 /vi/faq/prison-system /vi/faq/prison-system/ 301
 /vi/faq/ps5-download-interrupted /vi/faq/ps5-download-interrupted/ 301
+/vi/faq/ps5-price-size-performance /vi/faq/ps5-price-size-performance/ 301
 /vi/faq/ps5-support /vi/faq/ps5-support/ 301
 /vi/faq/quest-npc-not-spawning /vi/faq/quest-npc-not-spawning/ 301
 /vi/faq/raging-flames-guide /vi/faq/raging-flames-guide/ 301
 /vi/faq/reality-refuge-guide /vi/faq/reality-refuge-guide/ 301
 /vi/faq/recharge-not-received /vi/faq/recharge-not-received/ 301
+/vi/faq/redeem-code-how-to-enter /vi/faq/redeem-code-how-to-enter/ 301
 /vi/faq/redeem-codes /vi/faq/redeem-codes/ 301
 /vi/faq/release-date /vi/faq/release-date/ 301
 /vi/faq/reroll-guide /vi/faq/reroll-guide/ 301
@@ -12492,6 +12615,7 @@
 /vi/faq/standard-banner-selector /vi/faq/standard-banner-selector/ 301
 /vi/faq/starter-s-rank /vi/faq/starter-s-rank/ 301
 /vi/faq/starter-s-rank-selector /vi/faq/starter-s-rank-selector/ 301
+/vi/faq/steam-deck-compatibility /vi/faq/steam-deck-compatibility/ 301
 /vi/faq/system-requirements /vi/faq/system-requirements/ 301
 /vi/faq/team-composition-tips /vi/faq/team-composition-tips/ 301
 /vi/faq/test-signup /vi/faq/test-signup/ 301
@@ -12896,6 +13020,7 @@
 /vi/tags/platform /vi/tags/platform/ 301
 /vi/tags/porsche /vi/tags/porsche/ 301
 /vi/tags/pre-registration /vi/tags/pre-registration/ 301
+/vi/tags/price /vi/tags/price/ 301
 /vi/tags/priority /vi/tags/priority/ 301
 /vi/tags/progress /vi/tags/progress/ 301
 /vi/tags/progression /vi/tags/progression/ 301
@@ -12919,6 +13044,7 @@
 /vi/tags/recharge /vi/tags/recharge/ 301
 /vi/tags/recommendation /vi/tags/recommendation/ 301
 /vi/tags/recovery /vi/tags/recovery/ 301
+/vi/tags/redeem /vi/tags/redeem/ 301
 /vi/tags/refund /vi/tags/refund/ 301
 /vi/tags/release /vi/tags/release/ 301
 /vi/tags/release-date /vi/tags/release-date/ 301
@@ -12956,6 +13082,7 @@
 /vi/tags/ssd /vi/tags/ssd/ 301
 /vi/tags/stamina /vi/tags/stamina/ 301
 /vi/tags/steam /vi/tags/steam/ 301
+/vi/tags/steam-deck /vi/tags/steam-deck/ 301
 /vi/tags/storage /vi/tags/storage/ 301
 /vi/tags/story /vi/tags/story/ 301
 /vi/tags/streaming /vi/tags/streaming/ 301
@@ -13040,6 +13167,7 @@
 /vi/tags/城市经营 /vi/tags/城市经营/ 301
 /vi/tags/培养 /vi/tags/培养/ 301
 /vi/tags/基础 /vi/tags/基础/ 301
+/vi/tags/增益辅助 /vi/tags/增益辅助/ 301
 /vi/tags/天赋 /vi/tags/天赋/ 301
 /vi/tags/好感度 /vi/tags/好感度/ 301
 /vi/tags/娜娜莉 /vi/tags/娜娜莉/ 301
@@ -13220,6 +13348,7 @@
 /zh/blog/nte-alipay-qualcomm-collab-guide /zh/blog/nte-alipay-qualcomm-collab-guide/ 301
 /zh/blog/nte-all-characters-overview /zh/blog/nte-all-characters-overview/ 301
 /zh/blog/nte-anime-references-easter-eggs /zh/blog/nte-anime-references-easter-eggs/ 301
+/zh/blog/nte-beginner-farming-priority-guide /zh/blog/nte-beginner-farming-priority-guide/ 301
 /zh/blog/nte-best-disk-sets-guide /zh/blog/nte-best-disk-sets-guide/ 301
 /zh/blog/nte-best-settings-guide /zh/blog/nte-best-settings-guide/ 301
 /zh/blog/nte-best-team-comps-1-0 /zh/blog/nte-best-team-comps-1-0/ 301
@@ -13236,6 +13365,7 @@
 /zh/blog/nte-global-launch-guide /zh/blog/nte-global-launch-guide/ 301
 /zh/blog/nte-global-launch-live-guide /zh/blog/nte-global-launch-live-guide/ 301
 /zh/blog/nte-global-server-recharge-guide /zh/blog/nte-global-server-recharge-guide/ 301
+/zh/blog/nte-hotori-practical-tips-guide /zh/blog/nte-hotori-practical-tips-guide/ 301
 /zh/blog/nte-jiuyuan-build-guide /zh/blog/nte-jiuyuan-build-guide/ 301
 /zh/blog/nte-launch-6-choose-1 /zh/blog/nte-launch-6-choose-1/ 301
 /zh/blog/nte-launch-collaborations /zh/blog/nte-launch-collaborations/ 301
@@ -13265,6 +13395,7 @@
 /zh/blog/nte-v11-preview-may-2026 /zh/blog/nte-v11-preview-may-2026/ 301
 /zh/blog/nte-version-1-0-update /zh/blog/nte-version-1-0-update/ 301
 /zh/blog/nte-vs-genshin-vs-wuthering-waves /zh/blog/nte-vs-genshin-vs-wuthering-waves/ 301
+/zh/blog/nte-weapon-banner-deep-dive /zh/blog/nte-weapon-banner-deep-dive/ 301
 /zh/blog/nte-week-one-recap /zh/blog/nte-week-one-recap/ 301
 /zh/blog/nte-zero-build-guide /zh/blog/nte-zero-build-guide/ 301
 /zh/bosses /zh/bosses/ 301
@@ -13535,11 +13666,13 @@
 /zh/faq/preregistration-rewards-how /zh/faq/preregistration-rewards-how/ 301
 /zh/faq/prison-system /zh/faq/prison-system/ 301
 /zh/faq/ps5-download-interrupted /zh/faq/ps5-download-interrupted/ 301
+/zh/faq/ps5-price-size-performance /zh/faq/ps5-price-size-performance/ 301
 /zh/faq/ps5-support /zh/faq/ps5-support/ 301
 /zh/faq/quest-npc-not-spawning /zh/faq/quest-npc-not-spawning/ 301
 /zh/faq/raging-flames-guide /zh/faq/raging-flames-guide/ 301
 /zh/faq/reality-refuge-guide /zh/faq/reality-refuge-guide/ 301
 /zh/faq/recharge-not-received /zh/faq/recharge-not-received/ 301
+/zh/faq/redeem-code-how-to-enter /zh/faq/redeem-code-how-to-enter/ 301
 /zh/faq/redeem-codes /zh/faq/redeem-codes/ 301
 /zh/faq/release-date /zh/faq/release-date/ 301
 /zh/faq/reroll-guide /zh/faq/reroll-guide/ 301
@@ -13566,6 +13699,7 @@
 /zh/faq/standard-banner-selector /zh/faq/standard-banner-selector/ 301
 /zh/faq/starter-s-rank /zh/faq/starter-s-rank/ 301
 /zh/faq/starter-s-rank-selector /zh/faq/starter-s-rank-selector/ 301
+/zh/faq/steam-deck-compatibility /zh/faq/steam-deck-compatibility/ 301
 /zh/faq/system-requirements /zh/faq/system-requirements/ 301
 /zh/faq/team-composition-tips /zh/faq/team-composition-tips/ 301
 /zh/faq/test-signup /zh/faq/test-signup/ 301
@@ -13970,6 +14104,7 @@
 /zh/tags/platform /zh/tags/platform/ 301
 /zh/tags/porsche /zh/tags/porsche/ 301
 /zh/tags/pre-registration /zh/tags/pre-registration/ 301
+/zh/tags/price /zh/tags/price/ 301
 /zh/tags/priority /zh/tags/priority/ 301
 /zh/tags/progress /zh/tags/progress/ 301
 /zh/tags/progression /zh/tags/progression/ 301
@@ -13993,6 +14128,7 @@
 /zh/tags/recharge /zh/tags/recharge/ 301
 /zh/tags/recommendation /zh/tags/recommendation/ 301
 /zh/tags/recovery /zh/tags/recovery/ 301
+/zh/tags/redeem /zh/tags/redeem/ 301
 /zh/tags/refund /zh/tags/refund/ 301
 /zh/tags/release /zh/tags/release/ 301
 /zh/tags/release-date /zh/tags/release-date/ 301
@@ -14030,6 +14166,7 @@
 /zh/tags/ssd /zh/tags/ssd/ 301
 /zh/tags/stamina /zh/tags/stamina/ 301
 /zh/tags/steam /zh/tags/steam/ 301
+/zh/tags/steam-deck /zh/tags/steam-deck/ 301
 /zh/tags/storage /zh/tags/storage/ 301
 /zh/tags/story /zh/tags/story/ 301
 /zh/tags/streaming /zh/tags/streaming/ 301
@@ -14114,6 +14251,7 @@
 /zh/tags/城市经营 /zh/tags/城市经营/ 301
 /zh/tags/培养 /zh/tags/培养/ 301
 /zh/tags/基础 /zh/tags/基础/ 301
+/zh/tags/增益辅助 /zh/tags/增益辅助/ 301
 /zh/tags/天赋 /zh/tags/天赋/ 301
 /zh/tags/好感度 /zh/tags/好感度/ 301
 /zh/tags/娜娜莉 /zh/tags/娜娜莉/ 301

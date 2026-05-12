@@ -18,13 +18,13 @@ export async function generateCompareMetadata({ params }: ComparePageProps) {
   const locale = lang as Locale;
   const rawTitle = isZhLocale(locale) ? article.title : article.titleEn;
   const description = isZhLocale(locale) ? article.summary : article.summaryEn;
-  const title = `${rawTitle} (2026) | NTE Guide`;
+  const title = `${rawTitle} (2026)`;
   return {
     title,
     description,
     alternates: hreflangAlternates(`compare/${slug}`, lang),
     openGraph: {
-      title,
+      title: `${title} | NTE Guide`,
       description,
       type: "article",
     },
