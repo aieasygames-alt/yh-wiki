@@ -78,5 +78,15 @@
     "source": "launch",
     "region": "global",
     "revealedAt": "2026-04-29"
+  },
+  {
+    "code": "504980102FKGOVNS",
+    "reward": "环石x30、古比奇原味芯片x1、甲硬币x20000",
+    "rewardEn": "Annulith x30, Gubichi Original Flavor Chips x1, Beetle Coin x20000",
+    "status": "active",
+    "expiresAt": "2026-06-30",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-05-01"
   }
 ]

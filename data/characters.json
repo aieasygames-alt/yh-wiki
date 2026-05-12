@@ -431,20 +431,26 @@
       "normalAttack": {
         "name": "话语中断的否定",
         "nameEn": "Denial of Interrupted Words",
-        "description": "进行至多4段连续攻击，造成魂系伤害"
+        "description": "进行至多4段连续攻击，造成魂系伤害",
+        "scaling": "2段: 29.7% + 36% Max HP\n4段: 28.3% + 33.2% Max HP\n5段: 27.3% + 80.3% Max HP\n完美反击: 178% Max HP",
+        "scalingEn": "2nd hit: 29.7% + 36% Max HP\n4th hit: 28.3% + 33.2% Max HP\n5th hit: 27.3% + 80.3% Max HP\nCritical Riposte: 178% Max HP"
       },
       "skill": {
         "name": "存在证明的体验",
         "nameEn": "Experience of Existence Proof",
         "description": "与队伍中其他角色分担30%伤害，并施加减益效果",
         "cooldown": 15,
-        "cost": 80
+        "cost": 80,
+        "scaling": "技能伤害(3段): 1.6% + 3.7% + 1.3% Max HP\n持续时间: 15秒\n重定向伤害: 300% Max HP\n重定向上限: 8% Max HP",
+        "scalingEn": "Skill DMG (3 hits): 1.6% + 3.7% + 1.3% Max HP\nDuration: 15s\nRedirection DMG: 300% Max HP\nRedirection Cap: 8% Max HP"
       },
       "ultimate": {
         "name": "痛苦让位于狂喜",
         "nameEn": "Pain Gives Way to Ecstasy",
         "description": "进入敌神者状态，进行6次攻击及5次追击",
-        "cost": 120
+        "cost": "120",
+        "scaling": "1段: 3.9% Max HP\n2段: 1.2% ×4 Max HP\n3段: 6.3% Max HP\n后续1: 2% Max HP\n后续2: 3.2% + 3.6% Max HP\n后续3: 0.9% ×2 + 1.5% Max HP\n后续4: 2.3% ×5 + 5.6% Max HP\n后续5: 5.9% Max HP\n莉莉丝状态: 持续5次后续攻击",
+        "scalingEn": "1st hit: 3.9% Max HP\n2nd hit: 1.2% x4 Max HP\n3rd hit: 6.3% Max HP\nFollow-up 1: 2% Max HP\nFollow-up 2: 3.2% + 3.6% Max HP\nFollow-up 3: 0.9% x2 + 1.5% Max HP\nFollow-up 4: 2.3% x5 + 5.6% Max HP\nFollow-up 5: 5.9% Max HP\nLilith State: lasts 5 follow-up attacks"
       },
       "qte": {
         "name": "脱格者的嘲弄",
@@ -854,20 +860,27 @@
       "normalAttack": {
         "name": "言行合一",
         "nameEn": "Words and Deeds United",
-        "description": "进行至多4段连续攻击，造成咒系伤害。可触发无状之言、无讳之语、于风中、如影随形、避实击虚等派生招式"
+        "description": "进行至多4段连续攻击，造成咒系伤害。可触发无状之言、无讳之语、于风中、如影随形、避实击虚等派生招式",
+        "scaling": "1段: 52% ATK\n2段: 46.3% ATK\n3段: 65.2% ATK\n4段: 27.5% ×3 ATK\n5段: 94.5% ATK\n无言·击退: 75.9% ATK\n无言·爆炸: 38% ATK\n肆言·击退: 69% ATK\n肆言·爆炸: 34.5% ATK\n风中: 43.7% ATK\n完美反击(道破): 144% ATK\n循环率: 29\nHP消耗: 3%当前HP/每言(50%HP以下减半)",
+        "scalingEn": "1st hit: 52% ATK\n2nd hit: 46.3% ATK\n3rd hit: 65.2% ATK\n4th hit: 27.5% x3 ATK\n5th hit: 94.5% ATK\nFormless Words (Knockback): 75.9% ATK\nFormless Words (Explosion): 38% ATK\nUnrestrained Words (Knockback): 69% ATK\nUnrestrained Words (Explosion): 34.5% ATK\nIn the Wind: 43.7% ATK\nCritical Riposte (Truth Exposed): 144% ATK\nCycle Rate: 29\nHP Cost: 3% current HP per Power Word (halved below 50% HP)"
       },
       "skill": {
         "name": "不吝赐教",
         "nameEn": "Generous Instruction",
         "description": "发动咒系技能攻击，每一击带着诚意。包含天地之心、呪念、如此罪状等招式",
-        "cooldown": 15,
-        "cost": 80
+        "cooldown": "14s",
+        "cost": 80,
+        "scaling": "天地之心: 120% ATK\n默念·飞弹: 100% ×3 ATK\n默念·爆炸: 120% ATK\n此罪: 280% ATK",
+        "scalingEn": "Heart of Heaven and Earth: 120% ATK\nSilenced Thought (Missile): 100% x3 ATK\nSilenced Thought (Explosion): 120% ATK\nSuch Crime: 280% ATK"
       },
       "ultimate": {
         "name": "不言不知秋",
         "nameEn": "Silent Autumn Unnoticed",
         "description": "白藏释放领域，进入言灵状态，对目标造成持续伤害。当目标生命值低于10%（BOSS为5%）时发动即刻斩杀。期间可免疫一次致命伤害。触发呪字造成单体高伤害，詈字造成群体伤害，祝字造成单体伤害并回复生命",
-        "cost": 120
+        "cost": "120",
+        "scaling": "扩散伤害: 400% ATK\n持续伤害: 40% ATK/次\n持续伤害时长: 12秒 (2秒间隔)\n沉默触发: 300% ATK\n斥责触发: 200% ATK\n祝福爆炸: 30% ATK\n祝福飞弹: 15% ×2 ATK\n祝福治疗: 5% Max HP\n斩杀阈值: <10% HP (BOSS <5%)",
+        "scalingEn": "Expansion DMG: 400% ATK\nDoT per tick: 40% ATK\nDoT Duration: 12s (2s interval)\nSilence Activation: 300% ATK\nObjurgate Activation: 200% ATK\nBless Explosion: 30% ATK\nBless Missile: 15% x2 ATK\nBless Heal: 5% Max HP\nExecute Threshold: <10% HP (5% for bosses)",
+        "cooldown": "20s"
       },
       "qte": {
         "name": "摸鱼结束",
@@ -1430,8 +1443,8 @@
     "rank": "S",
     "weapon": "气体",
     "weaponEn": "Gas",
-    "role": "进攻",
-    "roleEn": "Attack",
+    "role": "增益辅助",
+    "roleEn": "Buff",
     "faction": "Eibon Antique Shop",
     "description": "Eibon 古董店店主，以唐伞形态的刀为武器进行战斗的宇宙属性异能者。",
     "faq": [
@@ -1478,20 +1491,26 @@
       "normalAttack": {
         "name": "胧月流",
         "nameEn": "Oboro Moon Style",
-        "description": "进行至多4段连续攻击，造成光系伤害"
+        "description": "进行至多4段连续攻击，造成光系伤害",
+        "scaling": "2段: 35.3% + 4.4% ×2 + 72.2% ATK\n3段: 11.3% ×5 ATK\n4段: 14.2% ×2 + 66.6% ATK\n5段: 24.3% + 45.1% ATK\n完美反击(半刻): 158% ATK\n能量回复: 6/秒\n非闭合时计上限: 120",
+        "scalingEn": "2nd hit: 35.3% + 4.4% x2 + 72.2% ATK\n3rd hit: 11.3% x5 ATK\n4th hit: 14.2% x2 + 66.6% ATK\n5th hit: 24.3% + 45.1% ATK\nCritical Riposte (Half Moment): 158% ATK\nEnergy Recovery: 6/sec\nNon-Closed Timepiece Cap: 120"
       },
       "skill": {
         "name": "今景复映",
         "nameEn": "Present Scene Reflected",
         "description": "发动光系技能攻击",
         "cooldown": 12,
-        "cost": 70
+        "cost": "60 Timepiece",
+        "scaling": "伤害(7段): 17% ×6 + 130.3% + 44.3% + 261.6% ×2 ATK\n能量消耗: 60 非闭合时计\n记录时长: 5秒\n可用次数: 3次/使用",
+        "scalingEn": "DMG (7 instances): 17% x6 + 130.3% + 44.3% + 261.6% x2 ATK\nEnergy Cost: 60 Non-Closed Timepiece\nRecord Duration: 5s\nUses: Up to 3 timings per use"
       },
       "ultimate": {
         "name": "浮世来潮",
         "nameEn": "Tides of the Floating World",
         "description": "发动强力光系范围攻击",
-        "cost": 120
+        "cost": 120,
+        "scaling": "1段: 38.1% ATK\n2段: 23.4% + 63.7% ATK\n3段: 9.2% ×3 + 44.5% ATK\n4段: 25.5% + 29.7% + 25.4% + 42.4% ATK\n5段: 8.5% + 221.1% ATK\n终结技: 10连击时触发",
+        "scalingEn": "1st hit: 38.1% ATK\n2nd hit: 23.4% + 63.7% ATK\n3rd hit: 9.2% x3 + 44.5% ATK\n4th hit: 25.5% + 29.7% + 25.4% + 42.4% ATK\n5th hit: 8.5% + 221.1% ATK\nFinisher: triggers at 10 combo stacks"
       },
       "qte": {
         "name": "店主威势",
@@ -2677,7 +2696,9 @@
         "name": "满分收容术",
         "nameEn": "Perfect Containment Art",
         "description": "薄荷进行连续攻击，造成灵系属性伤害。包含：满分收容术·天降正义法·焦糖脆片·薄荷味旋风。",
-        "descriptionEn": "Mint performs consecutive attacks dealing Anima damage. Includes sub-skills: Perfect Containment, Justice From Above, Caramel Chips, Mint Tornado."
+        "descriptionEn": "Mint performs consecutive attacks dealing Anima damage. Includes sub-skills: Perfect Containment, Justice From Above, Caramel Chips, Mint Tornado.",
+        "scaling": "1段: 10.4% + 23.1% ATK\n3段: 26.2% + 34.1% ATK\n5段: 25.5% + 52.3% ATK\n完美反击(焦糖脆): 174% ATK\n跳跃攻击: 28.3% ×3 + 46.7% ATK\n蓄力(薄荷旋风): 13.3%/tick ATK (消耗体力)",
+        "scalingEn": "1st hit: 10.4% + 23.1% ATK\n3rd hit: 26.2% + 34.1% ATK\n5th hit: 25.5% + 52.3% ATK\nCritical Riposte (Caramel Crisp): 174% ATK\nJump Attack: 28.3% x3 + 46.7% ATK\nHold (Minty Whirlwind): 13.3%/tick ATK (drains Stamina)"
       },
       "skill": {
         "name": "奥义·超级连风爪",
