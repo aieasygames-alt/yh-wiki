@@ -1,5 +1,62 @@
 [
   {
+    "id": "ps5-price-size-performance",
+    "question": "异环PS5版价格多少？游戏容量多大？性能表现如何？",
+    "questionEn": "How much does NTE cost on PS5? What's the download size? How does it perform?",
+    "answer": "异环PS5版详细信息：\n\n**价格**：\n- PS5版为免费下载（Free-to-Play），与PC和移动端一致\n- 游戏内购与PC端互通，可跨平台使用已购内容\n- PS Plus会员无额外折扣需求（游戏本身免费）\n\n**下载容量**：\n- 初始安装包约25-30GB\n- 完整安装后约40-50GB（含高清资源包）\n- 建议预留至少60GB存储空间以应对后续更新\n- 如果PS5存储紧张，可以考虑外接SSD\n\n**性能表现**：\n- 画面模式：4K分辨率 + 30FPS\n- 性能模式：1440p-1800p + 60FPS（推荐）\n- 支持PS5 DualSense手柄触觉反馈和自适应扳机\n- 加载速度显著快于PS4/移动端\n- 光照效果和粒子特效有主机专属优化\n\n**常见问题**：\n- 如果遇到下载中断，参考我们的PS5下载问题FAQ\n- 支持跨平台存档同步（需绑定账号）\n- 支持PS5手柄原生操控，无需额外设置",
+    "answerEn": "NTE PS5 Edition Details:\n\n**Price**:\n- Free-to-Play on PS5, same as PC and mobile\n- In-game purchases are cross-platform\n- No PS Plus discount needed (game is free)\n\n**Download Size**:\n- Initial download: ~25-30GB\n- Full installation: ~40-50GB (with HD assets)\n- Recommend at least 60GB free space for future updates\n- External SSD is an option if PS5 storage is tight\n\n**Performance**:\n- Quality Mode: 4K resolution + 30FPS\n- Performance Mode: 1440p-1800p + 60FPS (recommended)\n- DualSense haptic feedback and adaptive triggers supported\n- Loading significantly faster than mobile/last-gen\n- Console-specific lighting and particle effect optimizations\n\n**Common Issues**:\n- Download interruptions: see our PS5 download FAQ\n- Cross-platform save sync supported (requires account linking)\n- Native DualSense support, no additional setup needed",
+    "tags": [
+      "ps5",
+      "platform",
+      "performance",
+      "download",
+      "price"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "steam-deck-compatibility",
+    "question": "异环能在Steam Deck上玩吗？兼容性和优化设置",
+    "questionEn": "Can you play NTE on Steam Deck? Compatibility and optimization settings",
+    "answer": "异环在Steam Deck上的运行状态：\n\n**当前兼容性**：\n- 异环目前通过Epic Games Store和官方客户端发行，尚未登陆Steam\n- 因此Steam Deck无法直接运行（SteamOS默认不支持Epic）\n- 可通过以下替代方案尝试运行\n\n**替代方案**：\n1. 安装Windows双系统：在Steam Deck上安装Windows后运行官方客户端或Epic版本\n2. 使用Heroic Games Launcher：Linux下的第三方Epic启动器，可尝试运行\n3. 等待Steam版上线：官方已确认计划登陆Steam，届时原生支持Steam Deck\n\n**预期性能（基于Steam Deck硬件）**：\n- Steam Deck OLED：中低画质30-40FPS可预期\n- Steam Deck LCD：低画质25-35FPS\n- 建议分辨率设为720p以提升帧率\n\n**优化设置建议**：\n- 关闭体积光\n- 阴影质量：低\n- 粒子效果：低\n- 分辨率：1280x720\n- 帧率目标：30FPS\n\n**手柄支持**：\n- 异环原生支持手柄操作\n- Steam Deck内置控制器应该可以正常使用\n- 触控板可替代鼠标操作菜单\n\n一旦Steam版上线，Steam Deck兼容性将大幅改善。建议关注官方公告了解Steam版发布时间。",
+    "answerEn": "NTE on Steam Deck:\n\n**Current Compatibility**:\n- NTE is currently on Epic Games Store and official client, not yet on Steam\n- Steam Deck cannot run it natively (SteamOS doesn't support Epic by default)\n- Workaround options available\n\n**Workarounds**:\n1. Windows dual-boot: Install Windows on Steam Deck, then run official/Epic client\n2. Heroic Games Launcher: Third-party Epic launcher for Linux\n3. Wait for Steam release: Officially confirmed Steam launch planned\n\n**Expected Performance (based on Steam Deck hardware)**:\n- Steam Deck OLED: Medium-low settings, 30-40FPS expected\n- Steam Deck LCD: Low settings, 25-35FPS\n- Recommend 720p resolution for better framerate\n\n**Optimization Settings**:\n- Volumetric lighting: Off\n- Shadow quality: Low\n- Particle effects: Low\n- Resolution: 1280x720\n- Target framerate: 30FPS\n\n**Controller Support**:\n- NTE has native controller support\n- Steam Deck built-in controls should work\n- Touchpad can substitute for mouse in menus\n\nSteam Deck compatibility will improve significantly once the Steam version launches. Watch for official announcements.",
+    "tags": [
+      "steam-deck",
+      "platform",
+      "performance",
+      "settings",
+      "controller"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "redeem-code-how-to-enter",
+    "question": "异环兑换码在哪里输入？怎么兑换？最新兑换码汇总",
+    "questionEn": "Where to enter redeem codes in NTE? How to redeem? Latest codes list",
+    "answer": "异环兑换码使用方法：\n\n**兑换步骤**：\n1. 打开游戏，进入主界面\n2. 点击左上角/右上角的菜单（设置图标）\n3. 找到「兑换码」或「礼包兑换」选项\n4. 输入兑换码（注意大小写）\n5. 确认兑换，奖励将发送到游戏内邮箱\n\n**注意事项**：\n- 每个兑换码只能使用一次\n- 部分兑换码有有效期限，过期无法使用\n- 国际服和国服的兑换码可能不同\n- 兑换码区分大小写，建议直接复制粘贴\n\n**2026年5月已知兑换码**（持续更新）：\n- 公测预约奖励兑换码\n- 官方社媒关注奖励码\n- 直播间限定码（前瞻直播时发放）\n- 合作方联动码\n\n最新兑换码请查看我们的兑换码大全页面，实时更新有效兑换码。\n\n**找不到兑换入口？**\n- 确认游戏版本为最新版\n- 部分功能需要通过新手教程后解锁\n- 尝试在设置菜单中查找\n- 如果实在找不到，可以在游戏内联系客服",
+    "answerEn": "How to redeem codes in NTE:\n\n**Steps**:\n1. Open the game, go to main menu\n2. Tap the menu/settings icon (top-left or top-right)\n3. Find \"Redeem Code\" or \"Gift Exchange\" option\n4. Enter the code (case-sensitive)\n5. Confirm — rewards will be sent to in-game mailbox\n\n**Important Notes**:\n- Each code can only be used once\n- Some codes have expiration dates\n- Global and CN server codes may differ\n- Codes are case-sensitive — copy-paste recommended\n\n**Known Codes (May 2026)**:\n- Pre-registration reward codes\n- Social media follow reward codes\n- Livestream exclusive codes\n- Collaboration partner codes\n\nCheck our redeem codes page for the latest active codes, updated in real-time.\n\n**Can't find the redeem option?**\n- Make sure your game is updated to the latest version\n- Some features unlock after completing the tutorial\n- Check the settings menu\n- Contact in-game support if needed",
+    "tags": [
+      "codes",
+      "redeem",
+      "beginner",
+      "guide",
+      "rewards"
+    ],
+    "category": "general",
+    "categoryZh": "综合",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
     "id": "how-to-level-up-fast",
     "question": "异环怎么升级角色快？",
     "questionEn": "How to level up characters fast in NTE?",
