@@ -1,27 +1,27 @@
 {
   "site": {
     "title": "NTE Leitfaden - Neverness to Everness Wiki",
-    "description": "Neverness to Everness Wiki & Tools. Charakter-Builds, Tier Lists, Rechner, Leitfaden und Codes.",
+    "description": "Neverness to Everness Wiki & Tools. Charakter-Builds, Tier Lists, Rechner, Leitfäden und Codes.",
     "nav": {
       "home": "Startseite",
       "characters": "Charaktere",
-      "weapons": "Waffen",
+      "weapons": "Arc Disks",
       "vehicles": "Fahrzeuge",
       "materials": "Materialien",
-      "cassettes": "Patronen",
+      "cassettes": "Cartridges",
       "calculator": "Rechner",
       "gacha": "Gacha",
       "redeemCodes": "Codes",
-      "guides": "Leitfaden",
+      "guides": "Leitfäden",
       "lore": "Lore",
       "locations": "Orte",
       "faq": "FAQ",
       "map": "Karte",
       "blog": "Blog",
-      "guidesAndTools": "Leitfaden & Tools",
+      "guidesAndTools": "Leitfäden & Tools",
       "database": "Datenbank",
       "wiki": "Wiki",
-      "allGuides": "Alle Leitfaden",
+      "allGuides": "Alle Leitfäden",
       "levelingCalc": "Level-Rechner",
       "buildCalc": "Build-Rechner",
       "gachaSim": "Gacha-Simulator",
@@ -123,18 +123,18 @@
   },
   "gacha": {
     "title": "NTE Gacha-Simulator",
-    "description": "Simuliere Neverness to Everness Wünsche und teste dein Glück!",
+    "description": "Simuliere Neverness to Everness Gacha-Pulls und teste dein Glück!",
     "disclaimer": "Inoffizielle Raten nur zur Unterhaltung. Die tatsächlichen Raten können abweichen.",
-    "pull1": "Wunsch x1",
-    "pull10": "Wunsch x10",
+    "pull1": "Pull x1",
+    "pull10": "Pull x10",
     "pity": "Pity-Zähler",
     "totalPulls": "Gesamt-Pulls",
     "sRankCount": "S-Rank Anzahl",
     "results": "Ergebnisse",
     "history": "Verlauf",
     "clearHistory": "Verlauf löschen",
-    "pulling": "Wünsche...",
-    "hint": "Wähle einen Banner und klicke auf Wunsch, um die Simulation zu starten",
+    "pulling": "Pulls...",
+    "hint": "Wähle einen Banner und klicke auf Pull, um die Simulation zu starten",
     "stats": "Statistiken",
     "avgPity": "Durchschn. Pity",
     "luckiest": "Glücklichster",
@@ -151,7 +151,7 @@
     "tabHistory": "Verlauf",
     "tabData": "Daten",
     "bannerLabel": "Banner",
-    "charLabel": "Charakter / Waffe",
+    "charLabel": "Charakter / Arc Disk",
     "pullNumberLabel": "Pity-Stand",
     "pullNumberHint": "Gesamt-Pulls vor diesem S-Rank eingeben",
     "addPull": "Eintrag hinzufügen",
@@ -171,10 +171,10 @@
     "luckBad": "Unterdurchschnittlich",
     "luckTerrible": "Pech...",
     "pityProgress": "Pity-Fortschritt",
-    "bannerLimited": "Limitierter Wunsch",
-    "bannerBeginner": "Anfänger-Wunsch",
-    "bannerStandard": "Standard-Wunsch",
-    "bannerWeapons": "Waffen-Wunsch",
+    "bannerLimited": "Limitiertes Banner",
+    "bannerBeginner": "Anfänger-Banner",
+    "bannerStandard": "Standard-Banner",
+    "bannerWeapons": "Waffen-Banner",
     "historyEmpty": "Noch keine Pull-Einträge",
     "deleteRecord": "Löschen",
     "confirmDelete": "Diesen Eintrag löschen?",
@@ -287,7 +287,7 @@
   "attributes": {
     "cosmos": "Kosmos",
     "anima": "Anima",
-    "incantation": "Beschwörung",
+    "incantation": "Incantation",
     "chaos": "Chaos",
     "psyche": "Psyche",
     "lakshana": "Lakshana"
@@ -307,7 +307,7 @@
     "relatedFaqs": "Verwandte Fragen"
   },
   "guides": {
-    "title": "NTE Leitfaden - Von Anfänger bis Profi",
+    "title": "NTE Leitfäden - Von Anfänger bis Profi",
     "description": "Umfassende Neverness to Everness Strategie-Leitfaden mit Anfänger-Tipps, Elementarreaktionen, Stamina-Management, Gacha-Strategie und Team-Aufbau",
     "readMore": "Weiterlesen",
     "relatedGuides": "Verwandte Leitfäden",
@@ -329,8 +329,8 @@
     "relatedLore": "Verwandte Lore"
   },
   "weapons": {
-    "title": "NTE Arc-Datenträger - Alle 42 Arcs mit Statistiken & Besten Charakteren",
-    "description": "Vollständige Neverness to Everness Arc-Datenträger-Datenbank mit allen 42 Arcs inklusive ANG, Nebenstatistiken, Passiveffekte und besten Charakter-Kombinationen",
+    "title": "NTE Arc Disks - Alle 42 Arcs mit Statistiken & Besten Charakteren",
+    "description": "Vollständige Neverness to Everness Arc Disks Datenbank mit allen 42 Arcs inklusive ANG, Nebenstatistiken, Passiveffekte und besten Charakter-Kombinationen",
     "type": "Typ",
     "relatedCharacters": "Beste Charaktere",
     "gas": "Gas",
@@ -455,7 +455,7 @@
     "vaJp": "Sprecher (JP)"
   },
   "weaponSummary": {
-    "title": "Arc-Datenträger-Übersicht",
+    "title": "Arc Disk Übersicht",
     "obtain": "Erhalt",
     "bestFor": "Am besten für"
   },
@@ -584,9 +584,9 @@
     "relatedContent": "Verwandte Inhalte"
   },
   "diskSets": {
-    "title": "Patronen-Sets",
-    "elemental": "Elementar-Patronen",
-    "general": "Allgemeine Patronen",
+    "title": "Cartridge-Sets",
+    "elemental": "Elementar-Cartridges",
+    "general": "Allgemeine Cartridges",
     "pcSet": "-Stück",
     "setBonuses": "Set-Boni",
     "recommendedCharacters": "Empfohlene Charaktere",
@@ -634,7 +634,7 @@
     "searchHint": "Suche Charaktere, Waffen, Leitfäden...",
     "categories": {
       "characters": "Charaktere",
-      "weapons": "Waffen",
+      "weapons": "Arc Disks",
       "materials": "Materialien",
       "guides": "Leitfäden",
       "lore": "Lore",
@@ -650,9 +650,9 @@
     "pityMechanism": "Pity-Mechanismus",
     "optimalStrategy": "Optimale Strategie",
     "beginnerPriority": "Anfänger-Priorität",
-    "standardAccumulate": "Standard-Ansammlung",
-    "limitedOnDemand": "Limitiert nach Bedarf",
-    "weaponBudget": "Waffen-Budget",
+    "standardAccumulate": "Standard-Banner Strategie",
+    "limitedOnDemand": "Limitiertes Banner Taktik",
+    "weaponBudget": "Waffen-Banner Budget",
     "tierListLink": "Tier List",
     "simulatorLink": "Gacha-Simulator",
     "beginnerGuideLink": "Anfänger-Leitfaden"
@@ -662,7 +662,7 @@
   },
   "kardz": {
     "title": "NTE Globales Aufladen",
-    "subtitle": "Sicher & Schnell",
+    "subtitle": "Sicher & Schnell Aufladen",
     "badge": "Empfohlen"
   },
   "footer": {
