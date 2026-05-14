@@ -18,14 +18,14 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環配置要求與下載大小 — PC/Android/iOS 最低推薦配置（2026）"
-      : "异环配置要求与下载大小 — PC/Android/iOS 最低与推荐配置（2026）")
-    : "NTE System Requirements - Can Your PC Run It? (PC, Mobile Specs)";
+      ? "異環電腦配置要求（2026更新）— PC最低i5-8400/GTX1060、手機配置"
+      : "异环电脑配置要求（2026更新）— PC最低i5-8400/GTX1060、手机配置")
+    : "NTE System Requirements 2026 - PC, Android, iOS Specs (Updated)";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環(NTE)完整配置要求：PC、Android、iOS 最低和推薦配置，下載大小約90GB(PC)/20GB(手機)，儲存空間需求一覽。"
-      : "异环(NTE)完整配置要求与下载大小：PC约90GB、手机约20GB，含PC/Android/iOS最低和推荐配置、存储空间要求。")
-    : "NTE system requirements: PC minimum (i5-8400, GTX 1060, 8GB RAM, 90GB SSD), Android & iOS specs. Check if your device can run NTE.";
+      ? "異環(NTE)配置要求：PC最低i5-8400+GTX1060+8GB記憶體，下載約90GB。手機Android 8GB/iOS iPhone 12起。含詳細推薦配置表。"
+      : "异环(NTE)配置要求：PC最低i5-8400+GTX1060+8GB内存，下载约90GB。手机Android 8GB/iOS iPhone 12起。含详细推荐配置表。")
+    : "Can your PC run NTE? Minimum: i5-8400, GTX 1060, 8GB RAM, 90GB SSD. Full specs for PC, Android & iOS. Download size, recommended hardware, and FPS guide.";
 
   return {
     title,

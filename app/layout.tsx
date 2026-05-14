@@ -8,14 +8,18 @@ export const metadata: Metadata = {
     template: "%s | NTE Guide",
   },
   description:
-    "Neverness to Everness (NTE) Wiki & tools. Character builds, tier lists, leveling calculator, guides, and redeem codes. Complete resource for NTE players.",
+    "Neverness to Everness (NTE) Wiki & tools. Character builds, tier lists, arc disc guide, gacha simulator, leveling calculator, redeem codes (May 2026), and beginner guides.",
   keywords: [
     "Neverness to Everness", "NTE", "NTE guide", "NTE wiki",
     "NTE characters", "NTE tier list", "NTE calculator",
     "NTE redeem codes", "NTE builds", "NTE download",
+    "NTE Hotori", "NTE arc disc", "NTE gacha", "NTE beginner guide",
+    "NTE best characters", "NTE system requirements", "NTE multiplayer",
+    "NTE free pulls", "NTE codes May 2026",
     "异环", "异环游戏", "异环攻略", "异环角色", "异环强度榜",
     "异环兑换码", "异环抽卡", "异环配队", "异环Wiki", "异环官网",
     "异环国际服", "异环下载", "异环地图工具", "异环官网下载",
+    "异环弧盘", "异环环合", "异环免费抽", "异环新手攻略",
     "異環", "異環攻略", "異環兌換碼", "異環Wiki",
   ],
   icons: {

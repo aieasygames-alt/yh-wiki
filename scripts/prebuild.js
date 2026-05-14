@@ -87,7 +87,10 @@ function generateSitemaps() {
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];
 
   function locUrls(paths, priority, changeFreq) {
-    return paths.flatMap(p => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/${p}/`, priority, changeFreq })));
+    return paths.flatMap(p => {
+      const segment = p ? `${p}/` : "";
+      return LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/${segment}`, priority, changeFreq }));
+    });
   }
 
   function dataUrls(data, pathFn) {

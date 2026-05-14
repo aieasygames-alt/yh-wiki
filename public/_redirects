@@ -16,14 +16,6 @@
 /es /es/ 301
 /ru /ru/ 301
 
-# Privacy -> privacy-policy (short URL alias)
-/en/privacy /en/privacy-policy/ 301
-/en/privacy/ /en/privacy-policy/ 301
-/zh/privacy /zh/privacy-policy/ 301
-/zh/privacy/ /zh/privacy-policy/ 301
-/tw/privacy /tw/privacy-policy/ 301
-/tw/privacy/ /tw/privacy-policy/ 301
-
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
 /en/faq/system-requirements/ /en/system-requirements/ 301
@@ -334,6 +326,7 @@
 /de/anomalies/spotted-butterfly /de/anomalies/spotted-butterfly/ 301
 /de/anomalies/tow-truck-anomaly /de/anomalies/tow-truck-anomaly/ 301
 /de/anomalies/tower-arc-disc /de/anomalies/tower-arc-disc/ 301
+/de/api /de/api/ 301
 /de/blog /de/blog/ 301
 /de/blog/best-sites-like-poki-free-browser-games-2026 /de/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /de/blog/day-one-beginner-guide /de/blog/day-one-beginner-guide/ 301
@@ -611,6 +604,7 @@
 /de/faq/nte-ai-art-controversy /de/faq/nte-ai-art-controversy/ 301
 /de/faq/nte-akane-character-guide /de/faq/nte-akane-character-guide/ 301
 /de/faq/nte-anomaly-school-guide /de/faq/nte-anomaly-school-guide/ 301
+/de/faq/nte-beginner-mistakes /de/faq/nte-beginner-mistakes/ 301
 /de/faq/nte-berapa-gb /de/faq/nte-berapa-gb/ 301
 /de/faq/nte-change-gender-guide /de/faq/nte-change-gender-guide/ 301
 /de/faq/nte-city-stamina-guide /de/faq/nte-city-stamina-guide/ 301
@@ -636,6 +630,7 @@
 /de/faq/nte-top-up-guide /de/faq/nte-top-up-guide/ 301
 /de/faq/nte-vehicles-cars-guide /de/faq/nte-vehicles-cars-guide/ 301
 /de/faq/nte-voice-actors-guide /de/faq/nte-voice-actors-guide/ 301
+/de/faq/nte-vs-once-human /de/faq/nte-vs-once-human/ 301
 /de/faq/nte-vs-other-games /de/faq/nte-vs-other-games/ 301
 /de/faq/nte-vs-zzz-which /de/faq/nte-vs-zzz-which/ 301
 /de/faq/nte-whose-leak-guide /de/faq/nte-whose-leak-guide/ 301
@@ -850,6 +845,7 @@
 /de/materials/yearning-delusions /de/materials/yearning-delusions/ 301
 /de/privacy-policy /de/privacy-policy/ 301
 /de/redeem-codes /de/redeem-codes/ 301
+/de/sitemap /de/sitemap/ 301
 /de/system-requirements /de/system-requirements/ 301
 /de/tags/120-pull /de/tags/120-pull/ 301
 /de/tags/50-50 /de/tags/50-50/ 301
@@ -1418,6 +1414,7 @@
 /en/anomalies/spotted-butterfly /en/anomalies/spotted-butterfly/ 301
 /en/anomalies/tow-truck-anomaly /en/anomalies/tow-truck-anomaly/ 301
 /en/anomalies/tower-arc-disc /en/anomalies/tower-arc-disc/ 301
+/en/api /en/api/ 301
 /en/blog /en/blog/ 301
 /en/blog/best-sites-like-poki-free-browser-games-2026 /en/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /en/blog/day-one-beginner-guide /en/blog/day-one-beginner-guide/ 301
@@ -1695,6 +1692,7 @@
 /en/faq/nte-ai-art-controversy /en/faq/nte-ai-art-controversy/ 301
 /en/faq/nte-akane-character-guide /en/faq/nte-akane-character-guide/ 301
 /en/faq/nte-anomaly-school-guide /en/faq/nte-anomaly-school-guide/ 301
+/en/faq/nte-beginner-mistakes /en/faq/nte-beginner-mistakes/ 301
 /en/faq/nte-berapa-gb /en/faq/nte-berapa-gb/ 301
 /en/faq/nte-change-gender-guide /en/faq/nte-change-gender-guide/ 301
 /en/faq/nte-city-stamina-guide /en/faq/nte-city-stamina-guide/ 301
@@ -1720,6 +1718,7 @@
 /en/faq/nte-top-up-guide /en/faq/nte-top-up-guide/ 301
 /en/faq/nte-vehicles-cars-guide /en/faq/nte-vehicles-cars-guide/ 301
 /en/faq/nte-voice-actors-guide /en/faq/nte-voice-actors-guide/ 301
+/en/faq/nte-vs-once-human /en/faq/nte-vs-once-human/ 301
 /en/faq/nte-vs-other-games /en/faq/nte-vs-other-games/ 301
 /en/faq/nte-vs-zzz-which /en/faq/nte-vs-zzz-which/ 301
 /en/faq/nte-whose-leak-guide /en/faq/nte-whose-leak-guide/ 301
@@ -1934,6 +1933,7 @@
 /en/materials/yearning-delusions /en/materials/yearning-delusions/ 301
 /en/privacy-policy /en/privacy-policy/ 301
 /en/redeem-codes /en/redeem-codes/ 301
+/en/sitemap /en/sitemap/ 301
 /en/system-requirements /en/system-requirements/ 301
 /en/tags/120-pull /en/tags/120-pull/ 301
 /en/tags/50-50 /en/tags/50-50/ 301
@@ -2502,6 +2502,7 @@
 /es/anomalies/spotted-butterfly /es/anomalies/spotted-butterfly/ 301
 /es/anomalies/tow-truck-anomaly /es/anomalies/tow-truck-anomaly/ 301
 /es/anomalies/tower-arc-disc /es/anomalies/tower-arc-disc/ 301
+/es/api /es/api/ 301
 /es/blog /es/blog/ 301
 /es/blog/best-sites-like-poki-free-browser-games-2026 /es/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /es/blog/day-one-beginner-guide /es/blog/day-one-beginner-guide/ 301
@@ -2779,6 +2780,7 @@
 /es/faq/nte-ai-art-controversy /es/faq/nte-ai-art-controversy/ 301
 /es/faq/nte-akane-character-guide /es/faq/nte-akane-character-guide/ 301
 /es/faq/nte-anomaly-school-guide /es/faq/nte-anomaly-school-guide/ 301
+/es/faq/nte-beginner-mistakes /es/faq/nte-beginner-mistakes/ 301
 /es/faq/nte-berapa-gb /es/faq/nte-berapa-gb/ 301
 /es/faq/nte-change-gender-guide /es/faq/nte-change-gender-guide/ 301
 /es/faq/nte-city-stamina-guide /es/faq/nte-city-stamina-guide/ 301
@@ -2804,6 +2806,7 @@
 /es/faq/nte-top-up-guide /es/faq/nte-top-up-guide/ 301
 /es/faq/nte-vehicles-cars-guide /es/faq/nte-vehicles-cars-guide/ 301
 /es/faq/nte-voice-actors-guide /es/faq/nte-voice-actors-guide/ 301
+/es/faq/nte-vs-once-human /es/faq/nte-vs-once-human/ 301
 /es/faq/nte-vs-other-games /es/faq/nte-vs-other-games/ 301
 /es/faq/nte-vs-zzz-which /es/faq/nte-vs-zzz-which/ 301
 /es/faq/nte-whose-leak-guide /es/faq/nte-whose-leak-guide/ 301
@@ -3018,6 +3021,7 @@
 /es/materials/yearning-delusions /es/materials/yearning-delusions/ 301
 /es/privacy-policy /es/privacy-policy/ 301
 /es/redeem-codes /es/redeem-codes/ 301
+/es/sitemap /es/sitemap/ 301
 /es/system-requirements /es/system-requirements/ 301
 /es/tags/120-pull /es/tags/120-pull/ 301
 /es/tags/50-50 /es/tags/50-50/ 301
@@ -3586,6 +3590,7 @@
 /fr/anomalies/spotted-butterfly /fr/anomalies/spotted-butterfly/ 301
 /fr/anomalies/tow-truck-anomaly /fr/anomalies/tow-truck-anomaly/ 301
 /fr/anomalies/tower-arc-disc /fr/anomalies/tower-arc-disc/ 301
+/fr/api /fr/api/ 301
 /fr/blog /fr/blog/ 301
 /fr/blog/best-sites-like-poki-free-browser-games-2026 /fr/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /fr/blog/day-one-beginner-guide /fr/blog/day-one-beginner-guide/ 301
@@ -3863,6 +3868,7 @@
 /fr/faq/nte-ai-art-controversy /fr/faq/nte-ai-art-controversy/ 301
 /fr/faq/nte-akane-character-guide /fr/faq/nte-akane-character-guide/ 301
 /fr/faq/nte-anomaly-school-guide /fr/faq/nte-anomaly-school-guide/ 301
+/fr/faq/nte-beginner-mistakes /fr/faq/nte-beginner-mistakes/ 301
 /fr/faq/nte-berapa-gb /fr/faq/nte-berapa-gb/ 301
 /fr/faq/nte-change-gender-guide /fr/faq/nte-change-gender-guide/ 301
 /fr/faq/nte-city-stamina-guide /fr/faq/nte-city-stamina-guide/ 301
@@ -3888,6 +3894,7 @@
 /fr/faq/nte-top-up-guide /fr/faq/nte-top-up-guide/ 301
 /fr/faq/nte-vehicles-cars-guide /fr/faq/nte-vehicles-cars-guide/ 301
 /fr/faq/nte-voice-actors-guide /fr/faq/nte-voice-actors-guide/ 301
+/fr/faq/nte-vs-once-human /fr/faq/nte-vs-once-human/ 301
 /fr/faq/nte-vs-other-games /fr/faq/nte-vs-other-games/ 301
 /fr/faq/nte-vs-zzz-which /fr/faq/nte-vs-zzz-which/ 301
 /fr/faq/nte-whose-leak-guide /fr/faq/nte-whose-leak-guide/ 301
@@ -4102,6 +4109,7 @@
 /fr/materials/yearning-delusions /fr/materials/yearning-delusions/ 301
 /fr/privacy-policy /fr/privacy-policy/ 301
 /fr/redeem-codes /fr/redeem-codes/ 301
+/fr/sitemap /fr/sitemap/ 301
 /fr/system-requirements /fr/system-requirements/ 301
 /fr/tags/120-pull /fr/tags/120-pull/ 301
 /fr/tags/50-50 /fr/tags/50-50/ 301
@@ -4670,6 +4678,7 @@
 /id/anomalies/spotted-butterfly /id/anomalies/spotted-butterfly/ 301
 /id/anomalies/tow-truck-anomaly /id/anomalies/tow-truck-anomaly/ 301
 /id/anomalies/tower-arc-disc /id/anomalies/tower-arc-disc/ 301
+/id/api /id/api/ 301
 /id/blog /id/blog/ 301
 /id/blog/best-sites-like-poki-free-browser-games-2026 /id/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /id/blog/day-one-beginner-guide /id/blog/day-one-beginner-guide/ 301
@@ -4947,6 +4956,7 @@
 /id/faq/nte-ai-art-controversy /id/faq/nte-ai-art-controversy/ 301
 /id/faq/nte-akane-character-guide /id/faq/nte-akane-character-guide/ 301
 /id/faq/nte-anomaly-school-guide /id/faq/nte-anomaly-school-guide/ 301
+/id/faq/nte-beginner-mistakes /id/faq/nte-beginner-mistakes/ 301
 /id/faq/nte-berapa-gb /id/faq/nte-berapa-gb/ 301
 /id/faq/nte-change-gender-guide /id/faq/nte-change-gender-guide/ 301
 /id/faq/nte-city-stamina-guide /id/faq/nte-city-stamina-guide/ 301
@@ -4972,6 +4982,7 @@
 /id/faq/nte-top-up-guide /id/faq/nte-top-up-guide/ 301
 /id/faq/nte-vehicles-cars-guide /id/faq/nte-vehicles-cars-guide/ 301
 /id/faq/nte-voice-actors-guide /id/faq/nte-voice-actors-guide/ 301
+/id/faq/nte-vs-once-human /id/faq/nte-vs-once-human/ 301
 /id/faq/nte-vs-other-games /id/faq/nte-vs-other-games/ 301
 /id/faq/nte-vs-zzz-which /id/faq/nte-vs-zzz-which/ 301
 /id/faq/nte-whose-leak-guide /id/faq/nte-whose-leak-guide/ 301
@@ -5186,6 +5197,7 @@
 /id/materials/yearning-delusions /id/materials/yearning-delusions/ 301
 /id/privacy-policy /id/privacy-policy/ 301
 /id/redeem-codes /id/redeem-codes/ 301
+/id/sitemap /id/sitemap/ 301
 /id/system-requirements /id/system-requirements/ 301
 /id/tags/120-pull /id/tags/120-pull/ 301
 /id/tags/50-50 /id/tags/50-50/ 301
@@ -5754,6 +5766,7 @@
 /ja/anomalies/spotted-butterfly /ja/anomalies/spotted-butterfly/ 301
 /ja/anomalies/tow-truck-anomaly /ja/anomalies/tow-truck-anomaly/ 301
 /ja/anomalies/tower-arc-disc /ja/anomalies/tower-arc-disc/ 301
+/ja/api /ja/api/ 301
 /ja/blog /ja/blog/ 301
 /ja/blog/best-sites-like-poki-free-browser-games-2026 /ja/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /ja/blog/day-one-beginner-guide /ja/blog/day-one-beginner-guide/ 301
@@ -6031,6 +6044,7 @@
 /ja/faq/nte-ai-art-controversy /ja/faq/nte-ai-art-controversy/ 301
 /ja/faq/nte-akane-character-guide /ja/faq/nte-akane-character-guide/ 301
 /ja/faq/nte-anomaly-school-guide /ja/faq/nte-anomaly-school-guide/ 301
+/ja/faq/nte-beginner-mistakes /ja/faq/nte-beginner-mistakes/ 301
 /ja/faq/nte-berapa-gb /ja/faq/nte-berapa-gb/ 301
 /ja/faq/nte-change-gender-guide /ja/faq/nte-change-gender-guide/ 301
 /ja/faq/nte-city-stamina-guide /ja/faq/nte-city-stamina-guide/ 301
@@ -6056,6 +6070,7 @@
 /ja/faq/nte-top-up-guide /ja/faq/nte-top-up-guide/ 301
 /ja/faq/nte-vehicles-cars-guide /ja/faq/nte-vehicles-cars-guide/ 301
 /ja/faq/nte-voice-actors-guide /ja/faq/nte-voice-actors-guide/ 301
+/ja/faq/nte-vs-once-human /ja/faq/nte-vs-once-human/ 301
 /ja/faq/nte-vs-other-games /ja/faq/nte-vs-other-games/ 301
 /ja/faq/nte-vs-zzz-which /ja/faq/nte-vs-zzz-which/ 301
 /ja/faq/nte-whose-leak-guide /ja/faq/nte-whose-leak-guide/ 301
@@ -6270,6 +6285,7 @@
 /ja/materials/yearning-delusions /ja/materials/yearning-delusions/ 301
 /ja/privacy-policy /ja/privacy-policy/ 301
 /ja/redeem-codes /ja/redeem-codes/ 301
+/ja/sitemap /ja/sitemap/ 301
 /ja/system-requirements /ja/system-requirements/ 301
 /ja/tags/120-pull /ja/tags/120-pull/ 301
 /ja/tags/50-50 /ja/tags/50-50/ 301
@@ -6838,6 +6854,7 @@
 /ko/anomalies/spotted-butterfly /ko/anomalies/spotted-butterfly/ 301
 /ko/anomalies/tow-truck-anomaly /ko/anomalies/tow-truck-anomaly/ 301
 /ko/anomalies/tower-arc-disc /ko/anomalies/tower-arc-disc/ 301
+/ko/api /ko/api/ 301
 /ko/blog /ko/blog/ 301
 /ko/blog/best-sites-like-poki-free-browser-games-2026 /ko/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /ko/blog/day-one-beginner-guide /ko/blog/day-one-beginner-guide/ 301
@@ -7115,6 +7132,7 @@
 /ko/faq/nte-ai-art-controversy /ko/faq/nte-ai-art-controversy/ 301
 /ko/faq/nte-akane-character-guide /ko/faq/nte-akane-character-guide/ 301
 /ko/faq/nte-anomaly-school-guide /ko/faq/nte-anomaly-school-guide/ 301
+/ko/faq/nte-beginner-mistakes /ko/faq/nte-beginner-mistakes/ 301
 /ko/faq/nte-berapa-gb /ko/faq/nte-berapa-gb/ 301
 /ko/faq/nte-change-gender-guide /ko/faq/nte-change-gender-guide/ 301
 /ko/faq/nte-city-stamina-guide /ko/faq/nte-city-stamina-guide/ 301
@@ -7140,6 +7158,7 @@
 /ko/faq/nte-top-up-guide /ko/faq/nte-top-up-guide/ 301
 /ko/faq/nte-vehicles-cars-guide /ko/faq/nte-vehicles-cars-guide/ 301
 /ko/faq/nte-voice-actors-guide /ko/faq/nte-voice-actors-guide/ 301
+/ko/faq/nte-vs-once-human /ko/faq/nte-vs-once-human/ 301
 /ko/faq/nte-vs-other-games /ko/faq/nte-vs-other-games/ 301
 /ko/faq/nte-vs-zzz-which /ko/faq/nte-vs-zzz-which/ 301
 /ko/faq/nte-whose-leak-guide /ko/faq/nte-whose-leak-guide/ 301
@@ -7354,6 +7373,7 @@
 /ko/materials/yearning-delusions /ko/materials/yearning-delusions/ 301
 /ko/privacy-policy /ko/privacy-policy/ 301
 /ko/redeem-codes /ko/redeem-codes/ 301
+/ko/sitemap /ko/sitemap/ 301
 /ko/system-requirements /ko/system-requirements/ 301
 /ko/tags/120-pull /ko/tags/120-pull/ 301
 /ko/tags/50-50 /ko/tags/50-50/ 301
@@ -7922,6 +7942,7 @@
 /pt-br/anomalies/spotted-butterfly /pt-br/anomalies/spotted-butterfly/ 301
 /pt-br/anomalies/tow-truck-anomaly /pt-br/anomalies/tow-truck-anomaly/ 301
 /pt-br/anomalies/tower-arc-disc /pt-br/anomalies/tower-arc-disc/ 301
+/pt-br/api /pt-br/api/ 301
 /pt-br/blog /pt-br/blog/ 301
 /pt-br/blog/best-sites-like-poki-free-browser-games-2026 /pt-br/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /pt-br/blog/day-one-beginner-guide /pt-br/blog/day-one-beginner-guide/ 301
@@ -8199,6 +8220,7 @@
 /pt-br/faq/nte-ai-art-controversy /pt-br/faq/nte-ai-art-controversy/ 301
 /pt-br/faq/nte-akane-character-guide /pt-br/faq/nte-akane-character-guide/ 301
 /pt-br/faq/nte-anomaly-school-guide /pt-br/faq/nte-anomaly-school-guide/ 301
+/pt-br/faq/nte-beginner-mistakes /pt-br/faq/nte-beginner-mistakes/ 301
 /pt-br/faq/nte-berapa-gb /pt-br/faq/nte-berapa-gb/ 301
 /pt-br/faq/nte-change-gender-guide /pt-br/faq/nte-change-gender-guide/ 301
 /pt-br/faq/nte-city-stamina-guide /pt-br/faq/nte-city-stamina-guide/ 301
@@ -8224,6 +8246,7 @@
 /pt-br/faq/nte-top-up-guide /pt-br/faq/nte-top-up-guide/ 301
 /pt-br/faq/nte-vehicles-cars-guide /pt-br/faq/nte-vehicles-cars-guide/ 301
 /pt-br/faq/nte-voice-actors-guide /pt-br/faq/nte-voice-actors-guide/ 301
+/pt-br/faq/nte-vs-once-human /pt-br/faq/nte-vs-once-human/ 301
 /pt-br/faq/nte-vs-other-games /pt-br/faq/nte-vs-other-games/ 301
 /pt-br/faq/nte-vs-zzz-which /pt-br/faq/nte-vs-zzz-which/ 301
 /pt-br/faq/nte-whose-leak-guide /pt-br/faq/nte-whose-leak-guide/ 301
@@ -8438,6 +8461,7 @@
 /pt-br/materials/yearning-delusions /pt-br/materials/yearning-delusions/ 301
 /pt-br/privacy-policy /pt-br/privacy-policy/ 301
 /pt-br/redeem-codes /pt-br/redeem-codes/ 301
+/pt-br/sitemap /pt-br/sitemap/ 301
 /pt-br/system-requirements /pt-br/system-requirements/ 301
 /pt-br/tags/120-pull /pt-br/tags/120-pull/ 301
 /pt-br/tags/50-50 /pt-br/tags/50-50/ 301
@@ -9006,6 +9030,7 @@
 /ru/anomalies/spotted-butterfly /ru/anomalies/spotted-butterfly/ 301
 /ru/anomalies/tow-truck-anomaly /ru/anomalies/tow-truck-anomaly/ 301
 /ru/anomalies/tower-arc-disc /ru/anomalies/tower-arc-disc/ 301
+/ru/api /ru/api/ 301
 /ru/blog /ru/blog/ 301
 /ru/blog/best-sites-like-poki-free-browser-games-2026 /ru/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /ru/blog/day-one-beginner-guide /ru/blog/day-one-beginner-guide/ 301
@@ -9283,6 +9308,7 @@
 /ru/faq/nte-ai-art-controversy /ru/faq/nte-ai-art-controversy/ 301
 /ru/faq/nte-akane-character-guide /ru/faq/nte-akane-character-guide/ 301
 /ru/faq/nte-anomaly-school-guide /ru/faq/nte-anomaly-school-guide/ 301
+/ru/faq/nte-beginner-mistakes /ru/faq/nte-beginner-mistakes/ 301
 /ru/faq/nte-berapa-gb /ru/faq/nte-berapa-gb/ 301
 /ru/faq/nte-change-gender-guide /ru/faq/nte-change-gender-guide/ 301
 /ru/faq/nte-city-stamina-guide /ru/faq/nte-city-stamina-guide/ 301
@@ -9308,6 +9334,7 @@
 /ru/faq/nte-top-up-guide /ru/faq/nte-top-up-guide/ 301
 /ru/faq/nte-vehicles-cars-guide /ru/faq/nte-vehicles-cars-guide/ 301
 /ru/faq/nte-voice-actors-guide /ru/faq/nte-voice-actors-guide/ 301
+/ru/faq/nte-vs-once-human /ru/faq/nte-vs-once-human/ 301
 /ru/faq/nte-vs-other-games /ru/faq/nte-vs-other-games/ 301
 /ru/faq/nte-vs-zzz-which /ru/faq/nte-vs-zzz-which/ 301
 /ru/faq/nte-whose-leak-guide /ru/faq/nte-whose-leak-guide/ 301
@@ -9522,6 +9549,7 @@
 /ru/materials/yearning-delusions /ru/materials/yearning-delusions/ 301
 /ru/privacy-policy /ru/privacy-policy/ 301
 /ru/redeem-codes /ru/redeem-codes/ 301
+/ru/sitemap /ru/sitemap/ 301
 /ru/system-requirements /ru/system-requirements/ 301
 /ru/tags/120-pull /ru/tags/120-pull/ 301
 /ru/tags/50-50 /ru/tags/50-50/ 301
@@ -10090,6 +10118,7 @@
 /th/anomalies/spotted-butterfly /th/anomalies/spotted-butterfly/ 301
 /th/anomalies/tow-truck-anomaly /th/anomalies/tow-truck-anomaly/ 301
 /th/anomalies/tower-arc-disc /th/anomalies/tower-arc-disc/ 301
+/th/api /th/api/ 301
 /th/blog /th/blog/ 301
 /th/blog/best-sites-like-poki-free-browser-games-2026 /th/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /th/blog/day-one-beginner-guide /th/blog/day-one-beginner-guide/ 301
@@ -10367,6 +10396,7 @@
 /th/faq/nte-ai-art-controversy /th/faq/nte-ai-art-controversy/ 301
 /th/faq/nte-akane-character-guide /th/faq/nte-akane-character-guide/ 301
 /th/faq/nte-anomaly-school-guide /th/faq/nte-anomaly-school-guide/ 301
+/th/faq/nte-beginner-mistakes /th/faq/nte-beginner-mistakes/ 301
 /th/faq/nte-berapa-gb /th/faq/nte-berapa-gb/ 301
 /th/faq/nte-change-gender-guide /th/faq/nte-change-gender-guide/ 301
 /th/faq/nte-city-stamina-guide /th/faq/nte-city-stamina-guide/ 301
@@ -10392,6 +10422,7 @@
 /th/faq/nte-top-up-guide /th/faq/nte-top-up-guide/ 301
 /th/faq/nte-vehicles-cars-guide /th/faq/nte-vehicles-cars-guide/ 301
 /th/faq/nte-voice-actors-guide /th/faq/nte-voice-actors-guide/ 301
+/th/faq/nte-vs-once-human /th/faq/nte-vs-once-human/ 301
 /th/faq/nte-vs-other-games /th/faq/nte-vs-other-games/ 301
 /th/faq/nte-vs-zzz-which /th/faq/nte-vs-zzz-which/ 301
 /th/faq/nte-whose-leak-guide /th/faq/nte-whose-leak-guide/ 301
@@ -10606,6 +10637,7 @@
 /th/materials/yearning-delusions /th/materials/yearning-delusions/ 301
 /th/privacy-policy /th/privacy-policy/ 301
 /th/redeem-codes /th/redeem-codes/ 301
+/th/sitemap /th/sitemap/ 301
 /th/system-requirements /th/system-requirements/ 301
 /th/tags/120-pull /th/tags/120-pull/ 301
 /th/tags/50-50 /th/tags/50-50/ 301
@@ -11174,6 +11206,7 @@
 /tw/anomalies/spotted-butterfly /tw/anomalies/spotted-butterfly/ 301
 /tw/anomalies/tow-truck-anomaly /tw/anomalies/tow-truck-anomaly/ 301
 /tw/anomalies/tower-arc-disc /tw/anomalies/tower-arc-disc/ 301
+/tw/api /tw/api/ 301
 /tw/blog /tw/blog/ 301
 /tw/blog/best-sites-like-poki-free-browser-games-2026 /tw/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /tw/blog/day-one-beginner-guide /tw/blog/day-one-beginner-guide/ 301
@@ -11451,6 +11484,7 @@
 /tw/faq/nte-ai-art-controversy /tw/faq/nte-ai-art-controversy/ 301
 /tw/faq/nte-akane-character-guide /tw/faq/nte-akane-character-guide/ 301
 /tw/faq/nte-anomaly-school-guide /tw/faq/nte-anomaly-school-guide/ 301
+/tw/faq/nte-beginner-mistakes /tw/faq/nte-beginner-mistakes/ 301
 /tw/faq/nte-berapa-gb /tw/faq/nte-berapa-gb/ 301
 /tw/faq/nte-change-gender-guide /tw/faq/nte-change-gender-guide/ 301
 /tw/faq/nte-city-stamina-guide /tw/faq/nte-city-stamina-guide/ 301
@@ -11476,6 +11510,7 @@
 /tw/faq/nte-top-up-guide /tw/faq/nte-top-up-guide/ 301
 /tw/faq/nte-vehicles-cars-guide /tw/faq/nte-vehicles-cars-guide/ 301
 /tw/faq/nte-voice-actors-guide /tw/faq/nte-voice-actors-guide/ 301
+/tw/faq/nte-vs-once-human /tw/faq/nte-vs-once-human/ 301
 /tw/faq/nte-vs-other-games /tw/faq/nte-vs-other-games/ 301
 /tw/faq/nte-vs-zzz-which /tw/faq/nte-vs-zzz-which/ 301
 /tw/faq/nte-whose-leak-guide /tw/faq/nte-whose-leak-guide/ 301
@@ -11690,6 +11725,7 @@
 /tw/materials/yearning-delusions /tw/materials/yearning-delusions/ 301
 /tw/privacy-policy /tw/privacy-policy/ 301
 /tw/redeem-codes /tw/redeem-codes/ 301
+/tw/sitemap /tw/sitemap/ 301
 /tw/system-requirements /tw/system-requirements/ 301
 /tw/tags/120-pull /tw/tags/120-pull/ 301
 /tw/tags/50-50 /tw/tags/50-50/ 301
@@ -12258,6 +12294,7 @@
 /vi/anomalies/spotted-butterfly /vi/anomalies/spotted-butterfly/ 301
 /vi/anomalies/tow-truck-anomaly /vi/anomalies/tow-truck-anomaly/ 301
 /vi/anomalies/tower-arc-disc /vi/anomalies/tower-arc-disc/ 301
+/vi/api /vi/api/ 301
 /vi/blog /vi/blog/ 301
 /vi/blog/best-sites-like-poki-free-browser-games-2026 /vi/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /vi/blog/day-one-beginner-guide /vi/blog/day-one-beginner-guide/ 301
@@ -12535,6 +12572,7 @@
 /vi/faq/nte-ai-art-controversy /vi/faq/nte-ai-art-controversy/ 301
 /vi/faq/nte-akane-character-guide /vi/faq/nte-akane-character-guide/ 301
 /vi/faq/nte-anomaly-school-guide /vi/faq/nte-anomaly-school-guide/ 301
+/vi/faq/nte-beginner-mistakes /vi/faq/nte-beginner-mistakes/ 301
 /vi/faq/nte-berapa-gb /vi/faq/nte-berapa-gb/ 301
 /vi/faq/nte-change-gender-guide /vi/faq/nte-change-gender-guide/ 301
 /vi/faq/nte-city-stamina-guide /vi/faq/nte-city-stamina-guide/ 301
@@ -12560,6 +12598,7 @@
 /vi/faq/nte-top-up-guide /vi/faq/nte-top-up-guide/ 301
 /vi/faq/nte-vehicles-cars-guide /vi/faq/nte-vehicles-cars-guide/ 301
 /vi/faq/nte-voice-actors-guide /vi/faq/nte-voice-actors-guide/ 301
+/vi/faq/nte-vs-once-human /vi/faq/nte-vs-once-human/ 301
 /vi/faq/nte-vs-other-games /vi/faq/nte-vs-other-games/ 301
 /vi/faq/nte-vs-zzz-which /vi/faq/nte-vs-zzz-which/ 301
 /vi/faq/nte-whose-leak-guide /vi/faq/nte-whose-leak-guide/ 301
@@ -12774,6 +12813,7 @@
 /vi/materials/yearning-delusions /vi/materials/yearning-delusions/ 301
 /vi/privacy-policy /vi/privacy-policy/ 301
 /vi/redeem-codes /vi/redeem-codes/ 301
+/vi/sitemap /vi/sitemap/ 301
 /vi/system-requirements /vi/system-requirements/ 301
 /vi/tags/120-pull /vi/tags/120-pull/ 301
 /vi/tags/50-50 /vi/tags/50-50/ 301
@@ -13342,6 +13382,7 @@
 /zh/anomalies/spotted-butterfly /zh/anomalies/spotted-butterfly/ 301
 /zh/anomalies/tow-truck-anomaly /zh/anomalies/tow-truck-anomaly/ 301
 /zh/anomalies/tower-arc-disc /zh/anomalies/tower-arc-disc/ 301
+/zh/api /zh/api/ 301
 /zh/blog /zh/blog/ 301
 /zh/blog/best-sites-like-poki-free-browser-games-2026 /zh/blog/best-sites-like-poki-free-browser-games-2026/ 301
 /zh/blog/day-one-beginner-guide /zh/blog/day-one-beginner-guide/ 301
@@ -13619,6 +13660,7 @@
 /zh/faq/nte-ai-art-controversy /zh/faq/nte-ai-art-controversy/ 301
 /zh/faq/nte-akane-character-guide /zh/faq/nte-akane-character-guide/ 301
 /zh/faq/nte-anomaly-school-guide /zh/faq/nte-anomaly-school-guide/ 301
+/zh/faq/nte-beginner-mistakes /zh/faq/nte-beginner-mistakes/ 301
 /zh/faq/nte-berapa-gb /zh/faq/nte-berapa-gb/ 301
 /zh/faq/nte-change-gender-guide /zh/faq/nte-change-gender-guide/ 301
 /zh/faq/nte-city-stamina-guide /zh/faq/nte-city-stamina-guide/ 301
@@ -13644,6 +13686,7 @@
 /zh/faq/nte-top-up-guide /zh/faq/nte-top-up-guide/ 301
 /zh/faq/nte-vehicles-cars-guide /zh/faq/nte-vehicles-cars-guide/ 301
 /zh/faq/nte-voice-actors-guide /zh/faq/nte-voice-actors-guide/ 301
+/zh/faq/nte-vs-once-human /zh/faq/nte-vs-once-human/ 301
 /zh/faq/nte-vs-other-games /zh/faq/nte-vs-other-games/ 301
 /zh/faq/nte-vs-zzz-which /zh/faq/nte-vs-zzz-which/ 301
 /zh/faq/nte-whose-leak-guide /zh/faq/nte-whose-leak-guide/ 301
@@ -13858,6 +13901,7 @@
 /zh/materials/yearning-delusions /zh/materials/yearning-delusions/ 301
 /zh/privacy-policy /zh/privacy-policy/ 301
 /zh/redeem-codes /zh/redeem-codes/ 301
+/zh/sitemap /zh/sitemap/ 301
 /zh/system-requirements /zh/system-requirements/ 301
 /zh/tags/120-pull /zh/tags/120-pull/ 301
 /zh/tags/50-50 /zh/tags/50-50/ 301
