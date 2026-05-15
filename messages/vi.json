@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Theo dõi Pull Gacha",
+    "seoTitle": "Theo Dõi Pull Gacha NTE - Ghi Nhận & Phân Tích Pull Của Bạn",
+    "seoDescription": "Theo dõi pull gacha Neverness to Everness của bạn, theo dõi tiến trình Pity và phân tích vận may với thống kê chi tiết.",
     "subtitle": "Ghi nhận pull thật, theo dõi Pity, phân tích vận may",
     "tabLog": "Ghi nhận Pull",
     "tabStats": "Thống kê",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "Mã Đổi Quà NTE",
-    "description": "Tất cả mã đổi quà NTE đang hoạt động - cập nhật thường xuyên",
+    "description": "Tất cả mã NTE hoạt động được cập nhật hàng ngày. Sao chép và nhập ngay lập tức. Hướng dẫn nhập mã từng bước.",
     "lastUpdate": "Cập nhật lần cuối",
     "total": "Tổng cộng",
     "active": "Đang hoạt động",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "Mới chơi NTE?"
-    }
+    },
+    "seoTitle": "Mã NTE - Tất Cả Mã Hoạt Động & Cách Nhập (2026)"
   },
   "map": {
     "title": "Bản đồ tương tác NTE",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Tin tức mới nhất, hướng dẫn chi tiết và đánh giá game Neverness to Everness",
+    "seoTitle": "Blog NTE - Tin Tức Mới Nhất & Hướng Dẫn Chi Tiết",
+    "description": "Blog Neverness to Everness với đánh giá game, cập nhật phiên bản, hướng dẫn nhân vật và mẹo gameplay.",
     "tags": {
       "comparison": "So sánh",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Lịch sử cập nhật",
-    "description": "Lịch sử cập nhật phiên bản NTE với nhân vật mới, tính năng và thay đổi hệ thống"
+    "seoTitle": "Lịch Sử Cập Nhật Phiên Bản - NTE",
+    "description": "Lịch sử cập nhật phiên bản Neverness to Everness với nhân vật mới, tính năng, tối ưu hóa hệ thống và nhiều hơn nữa."
   },
   "compare": {
     "title": "So sánh",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Phương tiện",
+    "seoTitle": "Tất Cả Phương Tiện & Thông Số | Wiki Neverness to Everness",
+    "seoDescription": "Cơ sở dữ liệu phương tiện đầy đủ cho Neverness to Everness. Tất cả ô tô, xe máy, xe tay ga và kart với thông số chi tiết, giá cả và cách nhận.",
     "database": "Cơ sở dữ liệu Phương tiện",
     "statistics": "Thông số Phương tiện",
     "totalVehicles": "Tổng Phương tiện",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Hướng dẫn Anomaly",
+    "seoTitle": "Hướng dẫn Anomaly — Boss, Elite & Kẻ Địch Thường | Wiki NTE",
+    "seoDescription": "Hướng dẫn Anomaly đầy đủ cho Neverness to Everness. Điểm yếu, cơ chế, rơi ra và chiến thuật cho Boss, Elite và kẻ địch thường.",
     "boss": "Anomaly Boss",
     "elite": "Anomaly Elite",
     "normal": "Anomaly Thường",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Bảng Xếp Hạng",
+    "seoTitle": "Bảng Xếp Hạng NTE - Xếp Hạng Tất Cả Nhân Vật",
+    "seoDescription": "Bảng Xếp Hạng Neverness to Everness đầy đủ xếp hạng tất cả nhân vật từ tốt nhất đến kém nhất, kèm lý do xếp hạng và build đề xuất.",
     "ssTier": "Hạng SS (Tốt nhất)",
     "sPlusTier": "Hạng S+ (Xuất sắc)",
     "sTier": "Hạng S (Rất tốt)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Bộ Cartridge",
+    "seoTitle": "Bộ Cartridge & Bonus | Wiki Neverness to Everness",
+    "seoDescription": "Hướng dẫn bộ Cartridge đầy đủ cho Neverness to Everness. 6 bộ thuộc tính và 6 bộ tổng hợp với bonus 2 mảnh và 4 mảnh cùng nhân vật đề xuất.",
     "elemental": "Cartridge Thuộc tính",
     "general": "Cartridge Tổng hợp",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "Hướng dẫn Boss"
   },
   "mapPage": {
+    "seoTitle": "Bản Đồ Tương Tác NTE - Tất Cả Vị Trí | Neverness to Everness",
+    "seoDescription": "Khám phá bản đồ tương tác Neverness to Everness với rương, tài nguyên, boss và hơn thế. Lọc theo danh mục và theo dõi tiến trình.",
     "title": "Bản đồ tương tác NTE",
     "description": "Bản đồ tương tác NTE với đầy đủ điểm đánh dấu tài nguyên...",
     "interactiveMap": "Bản đồ tương tác NTE",

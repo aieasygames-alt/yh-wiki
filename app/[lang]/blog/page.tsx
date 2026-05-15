@@ -5,16 +5,15 @@ import { BlogCard } from "../../../components/BlogCard";
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
-  const title = isZhLocale(lang) ? "异环游戏攻略博客 - 最新资讯与深度攻略" : "NTE Blog - Latest News & In-Depth Guides";
-  const description = isZhLocale(lang)
-    ? "异环（Neverness to Everness）最新攻略博客，涵盖游戏评测、版本更新、角色攻略和玩法技巧。"
-    : "Neverness to Everness blog featuring game reviews, version updates, character guides, and gameplay tips.";
+  const locale = lang as Locale;
+  const title = t(locale, "blog.seoTitle");
+  const description = t(locale, "blog.description");
   return {
-    title: `${title} | NTE Guide`,
+    title,
     description,
     alternates: hreflangAlternates("blog", lang),
     openGraph: {
-      title: `${title} | NTE Guide`,
+      title,
       description,
     },
   };

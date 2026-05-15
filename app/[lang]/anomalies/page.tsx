@@ -24,11 +24,10 @@ const categoryBadgeBg: Record<string, string> = {
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
+  const locale = lang as Locale;
   return {
-    title: isZhLocale(lang) ? "异象图鉴 — Boss/精英/普通异象攻略 | 异环游戏 Wiki" : "Anomaly Guide — Boss, Elite & Normal Enemies | NTE Wiki",
-    description: isZhLocale(lang)
-      ? "异环全异象图鉴，包含Boss级、精英级和普通异象的弱点、机制、掉落物和打法攻略。"
-      : "Complete anomaly guide for Neverness to Everness. Boss, elite, and normal enemy weaknesses, mechanics, drops, and strategies.",
+    title: t(locale, "anomalies.seoTitle"),
+    description: t(locale, "anomalies.seoDescription"),
     alternates: hreflangAlternates("anomalies", lang),
   };
 }

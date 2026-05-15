@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "ติดตาม Pull กาชา",
+    "seoTitle": "ติดตาม Pull กาชา NTE - บันทึกและวิเคราะห์ Pull ของคุณ",
+    "seoDescription": "ติดตาม Pull กาชา Neverness to Everness ของคุณ ตรวจสอบความคืบหน้า Pity และวิเคราะห์ความโชคด้วยสถิติอย่างละเอียด",
     "subtitle": "บันทึก Pull จริง ติดตาม Pity วิเคราะห์ความโชค",
     "tabLog": "บันทึก Pull",
     "tabStats": "สถิติ",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "รหัสแลก NTE",
-    "description": "รหัสแลก NTE ที่ใช้ได้ทั้งหมด - อัปเดตเป็นประจำ",
+    "description": "รหัส NTE ที่ใช้ได้ทั้งหมดอัปเดตทุกวัน คัดลอกและใช้ทันที พร้อมคำแนะนำทีละขั้นตอน",
     "lastUpdate": "อัปเดตล่าสุด",
     "total": "รวม",
     "active": "ใช้ได้",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "มือใหม่กับ NTE?"
-    }
+    },
+    "seoTitle": "รหัส NTE - รหัสที่ใช้ได้ทั้งหมดและวิธีใช้ (2026)"
   },
   "map": {
     "title": "แผนที่ NTE แบบโต้ตอบ",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "บล็อก",
-    "description": "ข่าวล่าสุด, คู่มือเชิงลึก และรีวิวเกม Neverness to Everness",
+    "seoTitle": "บล็อก NTE - ข่าวล่าสุดและคู่มือเชิงลึก",
+    "description": "บล็อก Neverness to Everness รวมรีวิวเกม อัปเดตเวอร์ชัน คู่มือตัวละคร และเคล็ดลับการเล่น",
     "tags": {
       "comparison": "เปรียบเทียบ",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "บันทึกการเปลี่ยนแปลง",
-    "description": "ประวัติการอัปเดตเวอร์ชัน NTE พร้อมตัวละครใหม่, ฟีเจอร์ และการเปลี่ยนแปลงระบบ"
+    "seoTitle": "บันทึกการเปลี่ยนแปลงเวอร์ชัน - NTE",
+    "description": "บันทึกการเปลี่ยนแปลงเวอร์ชัน Neverness to Everness พร้อมตัวละครใหม่ ฟีเจอร์ใหม่ การเพิ่มประสิทธิภาพระบบ และอื่นๆ"
   },
   "compare": {
     "title": "เปรียบเทียบ",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "ยานพาหนะ",
+    "seoTitle": "ยานพาหนะและสถิติทั้งหมด | Neverness to Everness Wiki",
+    "seoDescription": "ฐานข้อมูลยานพาหนะครบถ้วนของ Neverness to Everness รถยนต์ รถจักรยานยนต์ รถมอเตอร์ไซค์ และรถโกคาร์ททั้งหมด พร้อมสถิติ ราคา และวิธีได้รับ",
     "database": "ฐานข้อมูลยานพาหนะ",
     "statistics": "สถิติยานพาหนะ",
     "totalVehicles": "ยานพาหนะทั้งหมด",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "คู่มือ Anomaly",
+    "seoTitle": "คู่มือ Anomaly — บอส, ชั้นยอด และศัตรูทั่วไป | NTE Wiki",
+    "seoDescription": "คู่มือ Anomaly ครบถ้วนของ Neverness to Everness จุดอ่อน กลไก ดรอป และกลยุทธ์ของบอส ชั้นยอด และศัตรูทั่วไป",
     "boss": "Anomaly บอส",
     "elite": "Anomaly ชั้นยอด",
     "normal": "Anomaly ทั่วไป",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "Tier List NTE - อันดับตัวละครทั้งหมด",
+    "seoDescription": "Tier List Neverness to Everness ครบถ้วน จัดอันดับตัวละครทั้งหมดจากดีที่สุดถึงแย่ที่สุด พร้อมเหตุผลของ Tier และบิลด์ที่แนะนำ",
     "ssTier": "SS Tier (ดีที่สุด)",
     "sPlusTier": "S+ Tier (ยอดเยี่ยม)",
     "sTier": "S Tier (ดีมาก)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "ชุด Cartridge",
+    "seoTitle": "ชุด Cartridge และโบนัส | Neverness to Everness Wiki",
+    "seoDescription": "คู่มือชุด Cartridge ครบถ้วนของ Neverness to Everness ชุดธาตุ 6 ชุดและชุดทั่วไป 6 ชุด พร้อมโบนัส 2 ชิ้นและ 4 ชิ้น และตัวละครที่แนะนำ",
     "elemental": "Cartridge ธาตุ",
     "general": "Cartridge ทั่วไป",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "คู่มือบอส"
   },
   "mapPage": {
+    "seoTitle": "แผนที่เชิงโต้ตอบ NTE - ตำแหน่งทรัพยากรทั้งหมด | Neverness to Everness",
+    "seoDescription": "สำรวจแผนที่เชิงโต้ตอบ Neverness to Everness พร้อมกล่องสมบัติ ทรัพยากร บอส และอื่นๆ กรองตามหมวดหมู่และติดตามความคืบหน้า",
     "title": "แผนที่ NTE แบบโต้ตอบ",
     "description": "แผนที่โต้ตอบ NTE พร้อมจุดหมายทรัพยากรทั้งหมด...",
     "interactiveMap": "แผนที่ NTE แบบโต้ตอบ",

@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Gacha Pull-Tracker",
+    "seoTitle": "NTE Gacha Pull-Tracker - Pulls Aufzeichnen & Analysieren",
+    "seoDescription": "Verfolge deine Neverness to Everness Gacha-Pulls, ueberwache den Pity-Fortschritt und analysiere dein Glück mit detailierten Statistiken.",
     "subtitle": "Echte Pulls aufzeichnen, Pity verfolgen, dein Glück analysieren",
     "tabLog": "Pulls loggen",
     "tabStats": "Statistiken",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "NTE Codes",
-    "description": "Alle aktiven NTE Codes - regelmäßig aktualisiert",
+    "description": "Alle aktiven NTE Codes taeglich aktualisiert. Sofort kopieren und einloesen. Schritt-fuer-Schritt Einloesungsanleitung.",
     "lastUpdate": "Zuletzt aktualisiert",
     "total": "Gesamt",
     "active": "Aktiv",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "Neu bei NTE?"
-    }
+    },
+    "seoTitle": "NTE Codes - Alle funktionierenden Codes & Einloesung (2026)"
   },
   "map": {
     "title": "NTE Interaktive Karte",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Neueste News, ausführliche Leitfäden und Spielrezensionen zu Neverness to Everness",
+    "seoTitle": "NTE Blog - Neueste News & Ausfuehrliche Leitfaeden",
+    "description": "Neverness to Everness Blog mit Spielrezensionen, Versions-Updates, Charakter-Leitfaeden und Gameplay-Tipps.",
     "tags": {
       "comparison": "Vergleich",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Changelog",
-    "description": "NTE Versions-Update-Verlauf mit neuen Charakteren, Features und Systemänderungen"
+    "seoTitle": "Versions-Changelog - NTE",
+    "description": "Neverness to Everness Versions-Changelog mit neuen Charakteren, Features, Systemoptimierungen und mehr."
   },
   "compare": {
     "title": "Vergleich",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Fahrzeuge",
+    "seoTitle": "Alle Fahrzeuge & Stats | Neverness to Everness Wiki",
+    "seoDescription": "Vollstaendige Fahrzeug-Datenbank fuer Neverness to Everness. Alle Autos, Motorraeder, Roller und Karts mit detailierten Stats, Preisen und Beschaffungsmethoden.",
     "database": "Fahrzeug-Datenbank",
     "statistics": "Fahrzeugstatistiken",
     "totalVehicles": "Fahrzeuge gesamt",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Anomalie-Leitfaden",
+    "seoTitle": "Anomalie-Leitfaden — Boss, Elite & Normale Gegner | NTE Wiki",
+    "seoDescription": "Vollstaendiger Anomalie-Leitfaden fuer Neverness to Everness. Boss-, Elite- und normale Gegner mit Schwächen, Mechaniken, Drops und Strategien.",
     "boss": "Boss-Anomalien",
     "elite": "Elite-Anomalien",
     "normal": "Normale Anomalien",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "NTE Tier List - Alle Charakter-Rankings",
+    "seoDescription": "Vollstaendige Neverness to Everness Tier List mit allen Charakteren von besten bis schlechtesten, mit Tier-Gruenden und empfohlenen Builds.",
     "ssTier": "SS-Tier (Beste)",
     "sPlusTier": "S+-Tier (Hervorragend)",
     "sTier": "S-Tier (Sehr gut)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Cartridge-Sets",
+    "seoTitle": "Cartridge-Sets & Boni | Neverness to Everness Wiki",
+    "seoDescription": "Vollstaendiger Cartridge-Set-Leitfaden fuer Neverness to Everness. Alle 6 elementaren und 6 allgemeinen Cartridge-Sets mit 2- und 4-Teile-Boni und empfohlenen Charakteren.",
     "elemental": "Elementar-Cartridges",
     "general": "Allgemeine Cartridges",
     "pcSet": "-Stück",
@@ -687,6 +700,8 @@
     "title": "Boss-Leitfaden"
   },
   "mapPage": {
+    "seoTitle": "NTE Interaktive Karte - Alle Ressourcen-Standorte | Neverness to Everness",
+    "seoDescription": "Erkunden Sie die vollstaendige Neverness to Everness interaktive Karte mit allen Truhen, Ressourcen, Boss-Positionen und mehr. Filtern und Sammelfortschritt verfolgen.",
     "title": "NTE Interaktive Karte",
     "description": "NTE interaktive Karte mit allen Ressourcen-Markern...",
     "interactiveMap": "NTE Interaktive Karte",

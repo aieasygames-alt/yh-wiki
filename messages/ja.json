@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "ガチャ天井トラッカー",
+    "seoTitle": "NTEガチャ記録トラッカー - 記録＆分析",
+    "seoDescription": "Neverness to Evernessのガチャを記録し、天井の進捗を監視し、詳細な統計で運を分析。",
     "subtitle": "実際のガチャ結果を記録し、天井を追跡、運を分析",
     "tabLog": "記録",
     "tabStats": "統計",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "NTE引き換えコード",
-    "description": "有効なNTE引き換えコードまとめ - 定期更新",
+    "description": "最新のNTE引き換えコードを毎日更新。中国版・グローバル版のコピー＆即時引き換え。ステップバイステップの引き換えガイド付き。",
     "lastUpdate": "最終更新",
     "total": "合計",
     "active": "有効",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "NTEを始めたばかりの方へ"
-    }
+    },
+    "seoTitle": "NTE引き換えコード - 全有効コード＆使い方 (2026)"
   },
   "map": {
     "title": "NTEインタラクティブマップ",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "ブログ",
-    "description": "Neverness to Evernessの最新ニュース、詳細攻略、ゲームレビュー",
+    "seoTitle": "NTEブログ - 最新ニュース＆詳細攻略",
+    "description": "Neverness to Evernessの最新ニュース、詳細攻略、ゲームレビュー、キャラクターガイド、プレイTips。",
     "tags": {
       "comparison": "比較",
       "genshin": "原神",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "アップデート履歴",
-    "description": "NTEのバージョンアップデート履歴 - 新キャラクター、新機能、仕様変更"
+    "seoTitle": "バージョン更新履歴 - NTE",
+    "description": "Neverness to Evernessのバージョンアップデート履歴 - 新キャラクター、新機能、システム最適化など。"
   },
   "compare": {
     "title": "比較",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "ビークル",
+    "seoTitle": "全ビークル＆ステータス | Neverness to Everness Wiki",
+    "seoDescription": "Neverness to Evernessの完全ビークルデータベース。全車、バイク、スクーター、カートの詳細ステータス、価格、入手方法。",
     "database": "ビークルデータベース",
     "statistics": "ビークル統計",
     "totalVehicles": "ビークル総数",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "アノマリーガイド",
+    "seoTitle": "アノマリーガイド — ボス・エリート・通常敵 | NTE Wiki",
+    "seoDescription": "Neverness to Evernessの完全アノマリーガイド。ボス、エリート、通常敵の弱点、ギミック、ドロップ、攻略法。",
     "boss": "ボスアノマリー",
     "elite": "エリートアノマリー",
     "normal": "通常アノマリー",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "ティアリスト",
+    "seoTitle": "NTEティアリスト - 全キャラクターランキング",
+    "seoDescription": "Neverness to Evernessの全キャラクターを最強から順にランク付けした完全ティアリスト。評価理由とおすすめビルド付き。",
     "ssTier": "SSティア（最高）",
     "sPlusTier": "S+ティア（優秀）",
     "sTier": "Sティア（優良）",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "カートリッジセット",
+    "seoTitle": "カートリッジセット＆効果 | Neverness to Everness Wiki",
+    "seoDescription": "Neverness to Evernessの全12カートリッジセットガイド。6種の元素セットと6種の汎用セットの2セット効果、4セット効果、おすすめキャラクター。",
     "elemental": "元素カートリッジ",
     "general": "汎用カートリッジ",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "ボス攻略"
   },
   "mapPage": {
+    "seoTitle": "NTEインタラクティブマップ - 全リソース位置 | Neverness to Everness",
+    "seoDescription": "Neverness to Evernessの完全インタラクティブマップ。全宝箱、リソース、ボス位置、ウェイポイントなど。カテゴリ別フィルターと収集進捗追跡機能付き。",
     "title": "NTEインタラクティブマップ",
     "description": "NTEインタラクティブマップ - 全リソースマーカー付き...",
     "interactiveMap": "NTEインタラクティブマップ",

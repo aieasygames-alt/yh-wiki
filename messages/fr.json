@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Traqueur de tirages Gacha",
+    "seoTitle": "Traqueur de Tirages Gacha NTE - Enregistrer & Analyser vos Tirages",
+    "seoDescription": "Suivez vos tirages gacha de Neverness to Everness, surveillez votre progression de pity et analysez votre chance avec des statistiques détaillées.",
     "subtitle": "Enregistrez vos tirages, suivez votre Pity, analysez votre chance",
     "tabLog": "Enregistrer",
     "tabStats": "Statistiques",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "Codes NTE",
-    "description": "Tous les codes NTE actifs — mis à jour régulièrement",
+    "description": "Tous les codes NTE actifs mis à jour quotidiennement. Copiez et utilisez instantanément. Guide de récupération étape par étape.",
     "lastUpdate": "Dernière mise à jour",
     "total": "Total",
     "active": "Actifs",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "Nouveau sur NTE ?"
-    }
+    },
+    "seoTitle": "Codes NTE - Tous les Codes Actifs & Comment Utiliser (2026)"
   },
   "map": {
     "title": "Carte interactive NTE",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Dernières actualités, guides approfondis et analyses de jeu pour Neverness to Everness",
+    "seoTitle": "Blog NTE - Dernières Nouvelles & Guides Détaillés",
+    "description": "Blog Neverness to Everness avec critiques de jeu, mises à jour de version, guides de personnages et conseils de gameplay.",
     "tags": {
       "comparison": "Comparaison",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Notes de mise à jour",
-    "description": "Historique des mises à jour de NTE avec nouveaux personnages, fonctionnalités et changements système"
+    "seoTitle": "Changelog des Versions - NTE",
+    "description": "Changelog des versions de Neverness to Everness avec nouveaux personnages, fonctionnalités, optimisations système et plus encore."
   },
   "compare": {
     "title": "Comparaison",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Véhicules",
+    "seoTitle": "Tous les Véhicules & Stats | Wiki Neverness to Everness",
+    "seoDescription": "Base de données complète des véhicules de Neverness to Everness. Toutes les voitures, motos, scooters et karts avec stats détaillées, prix et méthodes d'obtention.",
     "database": "Base de données des véhicules",
     "statistics": "Statistiques des véhicules",
     "totalVehicles": "Total des véhicules",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Guide des anomalies",
+    "seoTitle": "Guide des Anomalies — Boss, Élite & Ennemis Normaux | Wiki NTE",
+    "seoDescription": "Guide complet des anomalies de Neverness to Everness. Faiblesses, mécaniques, drops et stratégies pour les boss, élites et ennemis normaux.",
     "boss": "Anomalies boss",
     "elite": "Anomalies élites",
     "normal": "Anomalies normales",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "Tier List NTE - Classement de tous les personnages",
+    "seoDescription": "Tier List complete de Neverness to Everness classant tous les personnages du meilleur au moins bon, avec les raisons du classement et les builds recommandes.",
     "ssTier": "Tier SS (Meilleur)",
     "sPlusTier": "Tier S+ (Excellent)",
     "sTier": "Tier S (Très bien)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Sets de cartouches",
+    "seoTitle": "Sets de Cartouches & Bonus | Wiki Neverness to Everness",
+    "seoDescription": "Guide complet des sets de cartouches pour Neverness to Everness. Les 6 sets élémentaires et 6 sets généraux avec bonus 2 pièces et 4 pièces et personnages recommandés.",
     "elemental": "Cartouches élémentaires",
     "general": "Cartouches générales",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "Guide des boss"
   },
   "mapPage": {
+    "seoTitle": "Carte Interactive NTE - Tous les Emplacements | Neverness to Everness",
+    "seoDescription": "Explorez la carte interactive Neverness to Everness avec tous les coffres, ressources, boss et plus. Filtrez par catégorie et suivez votre progression.",
     "title": "Carte interactive NTE",
     "description": "Carte interactive NTE avec tous les marqueurs de ressources...",
     "interactiveMap": "Carte interactive NTE",

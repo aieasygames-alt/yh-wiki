@@ -8,11 +8,10 @@ import { DataStatusBanner } from "../../../components/DataStatusBanner";
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
+  const locale = lang as Locale;
   return {
-    title: isZhLocale(lang) ? "卡带图鉴 & 套装效果 | 异环游戏 Wiki" : "Cartridge Sets & Bonuses | Neverness to Everness Wiki",
-    description: isZhLocale(lang)
-      ? "异环全卡带套装图鉴，包含6种元素专属和6种通用卡带的2件套和4件套效果、适用角色推荐。"
-      : "Complete cartridge set guide for Neverness to Everness. All 6 elemental and 6 general cartridge sets with 2-piece and 4-piece bonuses and recommended characters.",
+    title: t(locale, "diskSets.seoTitle"),
+    description: t(locale, "diskSets.seoDescription"),
     alternates: hreflangAlternates("disk-sets", lang),
   };
 }

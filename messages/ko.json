@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "가챠 기록 추적기",
+    "seoTitle": "NTE 가챠 기록 추적기 - 기록 & 분석",
+    "seoDescription": "Neverness to Everness 가챠를 기록하고, 천장 진행도를 추적하며, 상세 통계로 운을 분석하세요.",
     "subtitle": "실제 가챠를 기록하고, 천장을 추적하고, 운을 분석하세요",
     "tabLog": "기록 입력",
     "tabStats": "통계",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "NTE 교환 코드",
-    "description": "사용 가능한 NTE 교환 코드 모음 - 정기 업데이트",
+    "description": "매일 업데이트되는 NTE 교환 코드. CN/글로벌 서버용 복사 및 즉시 교환. 단계별 교환 가이드 포함.",
     "lastUpdate": "최종 업데이트",
     "total": "전체",
     "active": "사용 가능",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "NTE가 처음이신가요?"
-    }
+    },
+    "seoTitle": "NTE 교환 코드 - 모든 작동 코드 & 사용법 (2026)"
   },
   "map": {
     "title": "NTE 인터랙티브 맵",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "블로그",
-    "description": "Neverness to Everness 최신 소식, 심층 가이드, 게임 리뷰",
+    "seoTitle": "NTE 블로그 - 최신 소식 & 심층 가이드",
+    "description": "Neverness to Everness 최신 소식, 심층 가이드, 게임 리뷰, 캐릭터 가이드, 플레이 팁.",
     "tags": {
       "comparison": "비교",
       "genshin": "원신",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "업데이트 내역",
-    "description": "NTE 버전 업데이트 내역 - 신규 캐릭터, 기능 및 시스템 변경 사항"
+    "seoTitle": "버전 업데이트 내역 - NTE",
+    "description": "Neverness to Everness 버전 업데이트 내역 - 신규 캐릭터, 기능, 시스템 최적화 등."
   },
   "compare": {
     "title": "비교",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "차량",
+    "seoTitle": "전 차량 & 스탯 | Neverness to Everness Wiki",
+    "seoDescription": "Neverness to Everness 완전 차량 데이터베이스. 모든 자동차, 오토바이, 스쿠터, 카트의 상세 스탯, 가격 및 획득 방법.",
     "database": "차량 데이터베이스",
     "statistics": "차량 통계",
     "totalVehicles": "전체 차량",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "이상 현상 가이드",
+    "seoTitle": "이상 현상 가이드 — 보스, 엘리트, 일반 적 | NTE Wiki",
+    "seoDescription": "Neverness to Everness 완전 이상 현상 가이드. 보스, 엘리트, 일반 적의 약점, 메커니즘, 드롭 및 공략.",
     "boss": "보스 이상 현상",
     "elite": "엘리트 이상 현상",
     "normal": "일반 이상 현상",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "티어 리스트",
+    "seoTitle": "NTE 티어 리스트 - 전 캐릭터 랭킹",
+    "seoDescription": "Neverness to Everness 전 캐릭터 티어 리스팅. 강한 순으로 랭킹, 티어 평가 이유 및 추천 빌드 포함.",
     "ssTier": "SS 티어 (최상)",
     "sPlusTier": "S+ 티어 (우수)",
     "sTier": "S 티어 (상위)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "카트리지 세트",
+    "seoTitle": "카트리지 세트 & 보너스 | Neverness to Everness Wiki",
+    "seoDescription": "Neverness to Everness 완전 카트리지 세트 가이드. 6종 속성 및 6종 범용 카트리지의 2피스, 4피스 보너스 및 추천 캐릭터.",
     "elemental": "속성 카트리지",
     "general": "범용 카트리지",
     "pcSet": "-피스",
@@ -687,6 +700,8 @@
     "title": "보스 가이드"
   },
   "mapPage": {
+    "seoTitle": "NTE 인터랙티브 맵 - 전 리소스 위치 | Neverness to Everness",
+    "seoDescription": "Neverness to Everness 완전 인터랙티브 맵. 모든 보물상자, 리소스, 보스 위치, 웨이포인트 등. 카테고리별 필터 및 수집 진행도 추적 기능.",
     "title": "NTE 인터랙티브 맵",
     "description": "NTE 인터랙티브 맵 - 전체 리소스 마커...",
     "interactiveMap": "NTE 인터랙티브 맵",

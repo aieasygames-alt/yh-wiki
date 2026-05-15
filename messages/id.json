@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Pull Tracker Gacha",
+    "seoTitle": "Pull Tracker Gacha NTE - Catat & Analisis Pull Kamu",
+    "seoDescription": "Lacak pull gacha Neverness to Everness kamu, pantau progres pity, dan analisis keberuntunganmu dengan statistik detail.",
     "subtitle": "Catat pull asli, lacak pity, analisis keberuntunganmu",
     "tabLog": "Catat Pull",
     "tabStats": "Statistik",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "Kode Redeem NTE",
-    "description": "Semua kode redeem NTE yang aktif - diperbarui secara berkala",
+    "description": "Semua kode NTE aktif diperbarui harian. Salin dan tukar segera. Panduan penukaran langkah demi langkah.",
     "lastUpdate": "Terakhir Diperbarui",
     "total": "Total",
     "active": "Aktif",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "Baru Main NTE?"
-    }
+    },
+    "seoTitle": "Kode NTE - Semua Kode Aktif & Cara Tukar (2026)"
   },
   "map": {
     "title": "Peta Interaktif NTE",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Berita terbaru, panduan mendalam, dan review game Neverness to Everness",
+    "seoTitle": "Blog NTE - Berita Terbaru & Panduan Mendalam",
+    "description": "Blog Neverness to Everness dengan review game, update versi, panduan karakter, dan tips gameplay.",
     "tags": {
       "comparison": "Perbandingan",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Changelog",
-    "description": "Riwayat update versi NTE dengan karakter baru, fitur, dan perubahan sistem"
+    "seoTitle": "Changelog Versi - NTE",
+    "description": "Changelog versi Neverness to Everness dengan karakter baru, fitur, optimasi sistem, dan lainnya."
   },
   "compare": {
     "title": "Perbandingan",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Kendaraan",
+    "seoTitle": "Semua Kendaraan & Stat | Wiki Neverness to Everness",
+    "seoDescription": "Database kendaraan lengkap untuk Neverness to Everness. Semua mobil, motor, skuter, dan kart dengan stat detail, harga, dan cara mendapatkannya.",
     "database": "Database Kendaraan",
     "statistics": "Statistik Kendaraan",
     "totalVehicles": "Total Kendaraan",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Panduan Anomali",
+    "seoTitle": "Panduan Anomali — Boss, Elite & Musuh Biasa | Wiki NTE",
+    "seoDescription": "Panduan anomali lengkap untuk Neverness to Everness. Kelemahan, mekanisme, drop, dan strategi untuk boss, elite, dan musuh biasa.",
     "boss": "Anomali Boss",
     "elite": "Anomali Elite",
     "normal": "Anomali Biasa",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "Tier List NTE - Peringkat Semua Karakter",
+    "seoDescription": "Tier List lengkap Neverness to Everness dengan peringkat semua karakter dari terbaik hingga terburuk, beserta alasan tier dan build rekomendasi.",
     "ssTier": "Tier SS (Terbaik)",
     "sPlusTier": "Tier S+ (Sangat Baik)",
     "sTier": "Tier S (Bagus)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Set Cartridge",
+    "seoTitle": "Set Cartridge & Bonus | Wiki Neverness to Everness",
+    "seoDescription": "Panduan set cartridge lengkap untuk Neverness to Everness. 6 set atribut dan 6 set umum dengan bonus 2 bagian dan 4 bagian serta karakter rekomendasi.",
     "elemental": "Cartridge Atribut",
     "general": "Cartridge Umum",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "Panduan Boss"
   },
   "mapPage": {
+    "seoTitle": "Peta Interaktif NTE - Semua Lokasi | Neverness to Everness",
+    "seoDescription": "Jelajahi peta interaktif Neverness to Everness dengan semua peti, sumber daya, boss, dan lainnya. Filter dan lacak kemajuan koleksi.",
     "title": "Peta Interaktif NTE",
     "description": "Peta interaktif NTE dengan penanda sumber daya lengkap...",
     "interactiveMap": "Peta Interaktif NTE",

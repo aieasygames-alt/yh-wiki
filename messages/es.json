@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Registro de Tiradas Gacha",
+    "seoTitle": "Rastreador de Tiradas Gacha NTE - Registra y Analiza tus Tiradas",
+    "seoDescription": "Rastrea tus tiradas gacha de Neverness to Everness, monitorea tu progreso de pity y analiza tu suerte con estadísticas detalladas.",
     "subtitle": "Registra tus tiradas reales, haz seguimiento del pity y analiza tu suerte",
     "tabLog": "Registrar Tiradas",
     "tabStats": "Estadísticas",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "Códigos de Canje NTE",
-    "description": "Todos los códigos de canje activos de NTE — actualizados regularmente",
+    "description": "Todos los códigos NTE activos actualizados diariamente. Copia y canjea al instante. Guía de canje paso a paso.",
     "lastUpdate": "Última Actualización",
     "total": "Total",
     "active": "Activos",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "¿Nuevo en NTE?"
-    }
+    },
+    "seoTitle": "Códigos NTE - Todos los Códigos Activos y Canje (2026)"
   },
   "map": {
     "title": "Mapa Interactivo NTE",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Últimas noticias, guías detalladas y reseñas del juego de Neverness to Everness",
+    "seoTitle": "Blog NTE - Últimas Noticias y Guías Detalladas",
+    "description": "Blog de Neverness to Everness con reseñas del juego, actualizaciones de versión, guías de personajes y consejos de gameplay.",
     "tags": {
       "comparison": "Comparación",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Registro de Cambios",
-    "description": "Historial de actualizaciones de versiones de NTE con nuevos personajes, funciones y cambios del sistema"
+    "seoTitle": "Registro de Versiones - NTE",
+    "description": "Registro de versiones de Neverness to Everness con nuevos personajes, funciones, optimizaciones del sistema y más."
   },
   "compare": {
     "title": "Comparar",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Vehículos",
+    "seoTitle": "Todos los Vehículos y Stats | Wiki Neverness to Everness",
+    "seoDescription": "Base de datos completa de vehículos de Neverness to Everness. Todos los coches, motocicletas, scooters y karts con stats detallados, precios y métodos de obtención.",
     "database": "Base de Datos de Vehículos",
     "statistics": "Estadísticas de Vehículos",
     "totalVehicles": "Total de Vehículos",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Guía de Anomalías",
+    "seoTitle": "Guía de Anomalías — Jefes, Élite y Enemigos Normales | Wiki NTE",
+    "seoDescription": "Guía completa de anomalías de Neverness to Everness. Debilidades, mecánicas, drops y estrategias de jefes, élites y enemigos normales.",
     "boss": "Anomalías de Jefe",
     "elite": "Anomalías de Élite",
     "normal": "Anomalías Normales",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "Tier List NTE - Rankings de Todos los Personajes",
+    "seoDescription": "Tier List completa de Neverness to Everness clasificando todos los personajes de mejor a peor, con razones de tier y builds recomendados.",
     "ssTier": "Tier SS (El Mejor)",
     "sPlusTier": "Tier S+ (Excelente)",
     "sTier": "Tier S (Genial)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Sets de Cartuchos",
+    "seoTitle": "Sets de Cartuchos y Bonificaciones | Wiki Neverness to Everness",
+    "seoDescription": "Guía completa de sets de cartuchos para Neverness to Everness. Los 6 sets elementales y 6 generales con bonificaciones de 2 y 4 piezas y personajes recomendados.",
     "elemental": "Cartuchos Elementales",
     "general": "Cartuchos Generales",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "Guía de Jefes"
   },
   "mapPage": {
+    "seoTitle": "Mapa Interactivo NTE - Todos los Recursos | Neverness to Everness",
+    "seoDescription": "Explora el mapa interactivo de Neverness to Everness con todos los cofres, recursos, jefes y más. Filtra por categoría y rastrea tu progreso.",
     "title": "Mapa Interactivo NTE",
     "description": "Mapa interactivo de NTE con marcadores completos de recursos...",
     "interactiveMap": "Mapa Interactivo NTE",

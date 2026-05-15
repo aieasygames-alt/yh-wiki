@@ -14,14 +14,8 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title =
-    isZhLocale(locale)
-      ? "异环游戏角色强度排行 - 全角色 Tier List 排名"
-      : "NTE Tier List - All Character Rankings";
-  const description =
-    isZhLocale(locale)
-      ? "异环游戏(NTE)全角色强度排行，公测最新节奏榜，按SS/S+/S/A+/A/B分级，包含角色评级理由和推荐配装。"
-      : "Complete Neverness to Everness tier list ranking all characters from best to worst, with tier reasons and recommended builds.";
+  const title = t(locale, "tierList.seoTitle");
+  const description = t(locale, "tierList.seoDescription");
   return {
     title,
     description,

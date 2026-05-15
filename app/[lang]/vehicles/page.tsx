@@ -10,15 +10,10 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
+  const locale = lang as Locale;
   return {
-    title:
-      isZhLocale(lang)
-        ? "载具图鉴 & 属性大全 | 异环游戏 Wiki"
-        : "All Vehicles & Stats | Neverness to Everness Wiki",
-    description:
-      isZhLocale(lang)
-        ? "异环全载具图鉴，包含轿车、摩托车、小型摩托、卡丁车等所有载具的详细属性、价格和获取方式。"
-        : "Complete vehicle database for Neverness to Everness. All cars, motorcycles, scooters, and karts with detailed stats, prices, and acquisition methods.",
+    title: t(locale, "vehicles.seoTitle"),
+    description: t(locale, "vehicles.seoDescription"),
     alternates: hreflangAlternates("vehicles", lang),
   };
 }

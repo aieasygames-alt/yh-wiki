@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Rastreador de Pulls Gacha",
+    "seoTitle": "Rastreador de Pulls Gacha NTE - Registre e Analise seus Pulls",
+    "seoDescription": "Rastreie seus pulls gacha de Neverness to Everness, monitore o progresso de pity e analise sua sorte com estatísticas detalhadas.",
     "subtitle": "Registre pulls reais, acompanhe o pity e analise sua sorte",
     "tabLog": "Registrar Pulls",
     "tabStats": "Estatísticas",
@@ -192,7 +194,7 @@
   },
   "redeemCodes": {
     "title": "Códigos de Resgate NTE",
-    "description": "Todos os códigos de resgate ativos do NTE - atualizados regularmente",
+    "description": "Todos os códigos NTE ativos atualizados diariamente. Copie e resgate instantaneamente. Guia passo a passo incluído.",
     "lastUpdate": "Última Atualização",
     "total": "Total",
     "active": "Ativos",
@@ -225,7 +227,8 @@
     },
     "latestPosts": {
       "title": "Novo no NTE?"
-    }
+    },
+    "seoTitle": "Códigos NTE - Todos os Códigos Ativos e Como Resgatar (2026)"
   },
   "map": {
     "title": "Mapa Interativo NTE",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Últimas notícias, guias detalhados e análises do jogo Neverness to Everness",
+    "seoTitle": "Blog NTE - Últimas Notícias e Guias Detalhados",
+    "description": "Blog de Neverness to Everness com análises do jogo, atualizações de versão, guias de personagens e dicas de gameplay.",
     "tags": {
       "comparison": "Comparação",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Histórico de Atualizações",
-    "description": "Histórico de atualizações de versão do NTE com novos personagens, recursos e mudanças no sistema"
+    "seoTitle": "Changelog de Versões - NTE",
+    "description": "Changelog de versões de Neverness to Everness com novos personagens, recursos, otimizações de sistema e mais."
   },
   "compare": {
     "title": "Comparar",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Veículos",
+    "seoTitle": "Todos os Veículos e Stats | Wiki Neverness to Everness",
+    "seoDescription": "Banco de dados completo de veículos de Neverness to Everness. Todos os carros, motos, scooters e karts com stats detalhados, preços e métodos de obtenção.",
     "database": "Banco de Dados de Veículos",
     "statistics": "Estatísticas de Veículos",
     "totalVehicles": "Total de Veículos",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Guia de Anomalias",
+    "seoTitle": "Guia de Anomalias — Chefes, Elite e Inimigos Normais | Wiki NTE",
+    "seoDescription": "Guia completo de anomalias de Neverness to Everness. Fraquezas, mecânicas, drops e estratégias de chefes, elites e inimigos normais.",
     "boss": "Anomalias de Chefes",
     "elite": "Anomalias Élites",
     "normal": "Anomalias Normais",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "Tier List NTE - Rankings de Todos os Personagens",
+    "seoDescription": "Tier List completa de Neverness to Everness classificando todos os personagens do melhor ao pior, com motivos do tier e builds recomendados.",
     "ssTier": "SS Tier (Melhor)",
     "sPlusTier": "S+ Tier (Excelente)",
     "sTier": "S Tier (Ótimo)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Sets de Cartuchos",
+    "seoTitle": "Sets de Cartuchos e Bônus | Wiki Neverness to Everness",
+    "seoDescription": "Guia completo de sets de cartuchos para Neverness to Everness. Os 6 sets elementais e 6 gerais com bônus de 2 e 4 peças e personagens recomendados.",
     "elemental": "Cartuchos Atributais",
     "general": "Cartuchos Gerais",
     "pcSet": "-pc",
@@ -687,6 +700,8 @@
     "title": "Guia de Chefes"
   },
   "mapPage": {
+    "seoTitle": "Mapa Interativo NTE - Todos os Recursos | Neverness to Everness",
+    "seoDescription": "Explore o mapa interativo de Neverness to Everness com baús, recursos, chefes e mais. Filtre por categoria e acompanhe seu progresso.",
     "title": "Mapa Interativo NTE",
     "description": "Mapa interativo NTE com marcadores completos de recursos...",
     "interactiveMap": "Mapa Interativo NTE",

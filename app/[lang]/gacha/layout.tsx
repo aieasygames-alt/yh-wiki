@@ -1,4 +1,4 @@
-import { hreflangAlternates, isZhLocale } from "../../../lib/i18n";
+import { hreflangAlternates, t, Locale } from "../../../lib/i18n";
 
 export async function generateMetadata({
   params,
@@ -6,15 +6,10 @@ export async function generateMetadata({
   params: { lang: string };
 }) {
   const { lang } = await params;
+  const locale = lang as Locale;
   return {
-    title:
-      isZhLocale(lang)
-        ? "异环抽卡模拟器 | 祈愿模拟"
-        : "NTE Gacha Simulator - Neverness to Everness Wish Sim",
-    description:
-      isZhLocale(lang)
-        ? "异环抽卡模拟器，模拟限定祈愿、常驻祈愿和武器祈愿，测试你的运气！"
-        : "Simulate Neverness to Everness gacha pulls. Test your luck with our wish simulator before pulling in-game.",
+    title: t(locale, "gacha.title"),
+    description: t(locale, "gacha.description"),
     alternates: hreflangAlternates("gacha", lang),
   };
 }

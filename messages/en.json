@@ -145,6 +145,8 @@
   },
   "gachaAnalyzer": {
     "title": "Gacha Pull Tracker",
+    "seoTitle": "NTE Gacha Pull Tracker - Record & Analyze Your Pulls",
+    "seoDescription": "Track your Neverness to Everness gacha pulls, monitor pity progress, and analyze your luck with detailed statistics.",
     "subtitle": "Record real pulls, track pity, analyze your luck",
     "tabLog": "Log Pulls",
     "tabStats": "Statistics",
@@ -192,7 +194,8 @@
   },
   "redeemCodes": {
     "title": "NTE Redeem Codes",
-    "description": "All active NTE redeem codes - updated regularly",
+    "seoTitle": "NTE Redeem Codes - All Working Codes & How to Redeem (2026)",
+    "description": "All active NTE redeem codes updated daily. Copy & redeem instantly for CN and Global servers. Includes step-by-step redemption guide.",
     "lastUpdate": "Last Updated",
     "total": "Total",
     "active": "Active",
@@ -341,7 +344,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Latest news, in-depth guides, and game reviews for Neverness to Everness",
+    "seoTitle": "NTE Blog - Latest News & In-Depth Guides",
+    "description": "Neverness to Everness blog featuring game reviews, version updates, character guides, and gameplay tips.",
     "tags": {
       "comparison": "Comparison",
       "genshin": "Genshin Impact",
@@ -386,7 +390,8 @@
   },
   "changelog": {
     "title": "Changelog",
-    "description": "NTE version update history with new characters, features, and system changes"
+    "seoTitle": "Version Changelog - NTE",
+    "description": "Neverness to Everness version changelog with new characters, features, system optimizations and more."
   },
   "compare": {
     "title": "Compare",
@@ -467,6 +472,8 @@
   },
   "vehicles": {
     "title": "Vehicles",
+    "seoTitle": "All Vehicles & Stats | Neverness to Everness Wiki",
+    "seoDescription": "Complete vehicle database for Neverness to Everness. All cars, motorcycles, scooters, and karts with detailed stats, prices, and acquisition methods.",
     "database": "Vehicle Database",
     "statistics": "Vehicle Statistics",
     "totalVehicles": "Total Vehicles",
@@ -484,6 +491,8 @@
   },
   "anomalies": {
     "title": "Anomaly Guide",
+    "seoTitle": "Anomaly Guide — Boss, Elite & Normal Enemies | NTE Wiki",
+    "seoDescription": "Complete anomaly guide for Neverness to Everness. Boss, elite, and normal enemy weaknesses, mechanics, drops, and strategies.",
     "boss": "Boss Anomalies",
     "elite": "Elite Anomalies",
     "normal": "Normal Anomalies",
@@ -497,6 +506,8 @@
   },
   "tierList": {
     "title": "Tier List",
+    "seoTitle": "NTE Tier List - All Character Rankings",
+    "seoDescription": "Complete Neverness to Everness tier list ranking all characters from best to worst, with tier reasons and recommended builds.",
     "ssTier": "SS Tier (Best)",
     "sPlusTier": "S+ Tier (Excellent)",
     "sTier": "S Tier (Great)",
@@ -585,6 +596,8 @@
   },
   "diskSets": {
     "title": "Cartridge Sets",
+    "seoTitle": "Cartridge Sets & Bonuses | Neverness to Everness Wiki",
+    "seoDescription": "Complete cartridge set guide for Neverness to Everness. All 6 elemental and 6 general cartridge sets with 2-piece and 4-piece bonuses and recommended characters.",
     "elemental": "Elemental Cartridges",
     "general": "General Cartridges",
     "pcSet": "-pc",
@@ -688,6 +701,8 @@
   },
   "mapPage": {
     "title": "NTE Interactive Map",
+    "seoTitle": "NTE Interactive Map - All Resource Locations | Neverness to Everness",
+    "seoDescription": "Explore the complete Neverness to Everness interactive map with all chest locations, resource nodes, boss positions, waypoints, and more. Filter by category and track collection progress.",
     "description": "NTE interactive map with full resource markers...",
     "interactiveMap": "NTE Interactive Map",
     "allRegions": "All Regions",

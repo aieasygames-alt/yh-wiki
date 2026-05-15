@@ -225,6 +225,8 @@
   },
   "gachaAnalyzer": {
     "title": "抽卡记录分析器",
+    "seoTitle": "异环抽卡记录追踪器 - 记录与分析",
+    "seoDescription": "记录异环(NTE)抽卡结果，追踪保底进度，通过详细统计分析你的运气指数。",
     "subtitle": "记录真实抽卡结果，追踪保底进度，分析运气指数",
     "tabLog": "记录抽卡",
     "tabStats": "统计分析",
@@ -272,7 +274,8 @@
   },
   "redeemCodes": {
     "title": "异环兑换码大全",
-    "description": "异环最新可用兑换码汇总，持续更新中",
+    "seoTitle": "异环兑换码（2026年5月）— 国服/国际服礼包码大全、开服兑换码、前瞻直播码实时更新 | NTE Guide",
+    "description": "异环(NTE)兑换码实时更新（2026年5月）。国服和国际服所有有效礼包码，含开服兑换码、前瞻直播码、合作码，附兑换入口和奖励详情。",
     "lastUpdate": "最后更新",
     "updatedDate": "2026-04-23",
     "total": "总计",
@@ -376,6 +379,8 @@
   },
   "mapPage": {
     "title": "异环互动地图",
+    "seoTitle": "异环互动地图 - 全资源标记位置 | NTE Guide",
+    "seoDescription": "查看异环(NTE)完整互动地图，包含所有宝箱、资源采集点、BOSS位置、传送锚点等标记，支持分类筛选和收集进度追踪。",
     "description": "异环互动地图提供全地图资源标记...",
     "interactiveMap": "异环互动地图",
     "allRegions": "全部区域",
@@ -462,6 +467,8 @@
   },
   "vehicles": {
     "title": "载具",
+    "seoTitle": "载具图鉴 & 属性大全 | 异环游戏 Wiki",
+    "seoDescription": "异环全载具图鉴，包含轿车、摩托车、小型摩托、卡丁车等所有载具的详细属性、价格和获取方式。",
     "database": "载具图鉴",
     "statistics": "载具统计",
     "totalVehicles": "总载具数",
@@ -479,6 +486,8 @@
   },
   "anomalies": {
     "title": "异象图鉴",
+    "seoTitle": "异象图鉴 — Boss/精英/普通异象攻略 | 异环游戏 Wiki",
+    "seoDescription": "异环全异象图鉴，包含Boss级、精英级和普通异象的弱点、机制、掉落物和打法攻略。",
     "boss": "Boss级异象",
     "elite": "精英异象",
     "normal": "普通异象",
@@ -492,6 +501,8 @@
   },
   "tierList": {
     "title": "角色强度排行",
+    "seoTitle": "异环角色强度排行 - 全角色 Tier List 排名",
+    "seoDescription": "异环游戏(NTE)全角色强度排行，公测最新节奏榜，按SS/S+/S/A+/A/B分级，包含角色评级理由和推荐配装。",
     "ssTier": "SS 级（最强）",
     "sPlusTier": "S+ 级（极强）",
     "sTier": "S 级（优秀）",
@@ -536,6 +547,8 @@
   },
   "diskSets": {
     "title": "卡带图鉴",
+    "seoTitle": "卡带图鉴 & 套装效果 | 异环游戏 Wiki",
+    "seoDescription": "异环全卡带套装图鉴，包含6种元素专属和6种通用卡带的2件套和4件套效果、适用角色推荐。",
     "elemental": "元素专属卡带",
     "general": "通用卡带",
     "pcSet": "件套",
@@ -598,7 +611,8 @@
   },
   "blog": {
     "title": "博客",
-    "description": "异环最新资讯、深度攻略和游戏评测",
+    "seoTitle": "异环游戏攻略博客 - 最新资讯与深度攻略",
+    "description": "异环（Neverness to Everness）最新攻略博客，涵盖游戏评测、版本更新、角色攻略和玩法技巧。",
     "tags": {
       "comparison": "游戏对比",
       "genshin": "原神",
@@ -647,7 +661,8 @@
   },
   "changelog": {
     "title": "版本日志",
-    "description": "异环版本更新日志，包含新角色、新功能、系统优化等完整更新内容"
+    "seoTitle": "版本更新日志 - 异环游戏",
+    "description": "异环（Neverness to Everness）版本更新日志，包含新角色、新功能、系统优化等完整更新内容。"
   },
   "changelogDetails": {
     "major": "大版本",
