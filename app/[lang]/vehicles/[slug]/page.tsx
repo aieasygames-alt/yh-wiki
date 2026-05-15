@@ -4,7 +4,7 @@ import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../
 import { getVehicle, getAllVehicles } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
-import { ProductJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
+import { BreadcrumbJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { FaqSection } from "../../../../components/FaqSection";
 
 export function generateStaticParams() {
@@ -88,13 +88,12 @@ export default async function VehicleDetailPage({
 
   return (
     <>
-      <ProductJsonLd
-        name={isZhLocale(locale) ? vehicle.name : vehicle.nameEn}
-        description={description}
-        url={`https://nteguide.com/${lang}/vehicles/${slug}`}
-        image={`https://nteguide.com${vehicle.image || ""}`}
-        ratingValue={4}
-        reviewCount={64}
+      <BreadcrumbJsonLd
+        items={[
+          { name: t(locale, "site.nav.home"), url: `https://nteguide.com/${lang}` },
+          { name: t(locale, "site.nav.vehicles") || "Vehicles", url: `https://nteguide.com/${lang}/vehicles` },
+          { name: isZhLocale(locale) ? vehicle.name : vehicle.nameEn },
+        ]}
       />
       {vehicle.faq && vehicle.faq.length > 0 && (
         <FaqPageJsonLd faqs={vehicle.faq} lang={locale} />

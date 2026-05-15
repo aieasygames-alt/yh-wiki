@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getWeapon, getAllWeapons, getCharactersUsingWeapon } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { ProductJsonLd } from "../../../../components/JsonLd";
+import { BreadcrumbJsonLd } from "../../../../components/JsonLd";
 import { WeaponSummary } from "../../../../components/WeaponSummary";
 import { GameImage } from "../../../../components/GameImage";
 import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS } from "../../../../lib/attributes";
@@ -68,7 +68,13 @@ export default async function WeaponDetailPage({
 
   return (
     <>
-      <ProductJsonLd name={displayName} description={effectDesc} url={`https://nteguide.com/${lang}/weapons/${slug}`} image="https://nteguide.com/og-weapon.svg" ratingValue={weapon.rank === "S" ? 5 : weapon.rank === "A" ? 4 : 3} reviewCount={weapon.rank === "S" ? 128 : weapon.rank === "A" ? 86 : 42} />
+      <BreadcrumbJsonLd
+        items={[
+          { name: t(locale, "site.nav.home"), url: `https://nteguide.com/${lang}` },
+          { name: t(locale, "site.nav.weapons"), url: `https://nteguide.com/${lang}/weapons` },
+          { name: displayName },
+        ]}
+      />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
