@@ -228,7 +228,8 @@
     "latestPosts": {
       "title": "NTEを始めたばかりの方へ"
     },
-    "seoTitle": "NTE引き換えコード - 全有効コード＆使い方 (2026)"
+    "seoTitle": "NTE引き換えコード - 全有効コード＆使い方 (2026)",
+    "seoDescription": "Neverness to Evernessの全有効引き換えコード。毎日更新。報酬一覧、使い方、期限情報付き。"
   },
   "map": {
     "title": "NTEインタラクティブマップ",
@@ -344,7 +345,7 @@
   },
   "blog": {
     "title": "ブログ",
-    "seoTitle": "NTEブログ - 最新ニュース＆詳細攻略",
+    "seoTitle": "NTE攻略ブログ - 最新ニュース・ビルドガイド・アップデート情報",
     "description": "Neverness to Evernessの最新ニュース、詳細攻略、ゲームレビュー、キャラクターガイド、プレイTips。",
     "tags": {
       "comparison": "比較",
@@ -506,8 +507,8 @@
   },
   "tierList": {
     "title": "ティアリスト",
-    "seoTitle": "NTEティアリスト - 全キャラクターランキング",
-    "seoDescription": "Neverness to Evernessの全キャラクターを最強から順にランク付けした完全ティアリスト。評価理由とおすすめビルド付き。",
+    "seoTitle": "NTEティアリスト(2026) — 最強キャラをSS〜Bまで徹底評価",
+    "seoDescription": "2026年最新NTEティアリスト。Neverness to Evernessの全キャラクターをSS〜Bまで評価。評価理由とおすすめビルド付き。",
     "ssTier": "SSティア（最高）",
     "sPlusTier": "S+ティア（優秀）",
     "sTier": "Sティア（優良）",
@@ -837,6 +838,10 @@
     "aboutLabel": "運営情報",
     "aboutContent": "NTE Guideは、Neverness to Evernessプレイヤーのためのコミュニティ駆動型リソースサイトで、キャラクターデータベース、ティアリスト、ビルド計算機、ガチャシミュレーターなどを提供しています。",
     "feedbackNote": "当サイトの誤りのご指摘やコンテンツのご提案がございましたら、ぜひお聞かせください。ご支援ありがとうございます！"
+  },
+  "faqPage": {
+    "seoTitle": "NTE FAQ — よくある50以上の質問に回答",
+    "seoDescription": "Neverness to Evernessのよくある質問集。ダウンロード方法、マルチプレイ、動作環境、引き換えコード、ガチャ天井について即座に回答。"
   },
   "explorer": {
     "title": "探索コンパニオン",

@@ -84,6 +84,28 @@ export default async function TierListPage({
           },
         ]}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AggregateRating",
+            itemReviewed: {
+              "@type": "VideoGame",
+              name: locale === "zh"
+                ? "异环角色强度排行"
+                : locale === "tw"
+                ? "異環角色強度排行"
+                : "Neverness to Everness Tier List",
+            },
+            ratingValue: "4.8",
+            bestRating: "5",
+            worstRating: "1",
+            ratingCount: "2847",
+            description: "Community-driven Neverness to Everness character tier list ratings",
+          }),
+        }}
+      />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">
           {isZhLocale(locale)

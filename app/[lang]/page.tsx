@@ -171,6 +171,30 @@ export default async function HomePage({
           </div>
         </section>
 
+        {/* Redeem Codes CTA — boost internal linking for ranking */}
+        <section className="max-w-6xl mx-auto px-4 py-4">
+          <Link
+            href={`/${lang}/redeem-codes`}
+            className="block rounded-xl border border-primary-500/30 bg-gradient-to-r from-primary-500/10 to-purple-500/10 p-4 hover:border-primary-500/50 hover:from-primary-500/15 hover:to-purple-500/15 transition-all group"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-bold text-primary-400 group-hover:text-primary-300 transition-colors">
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "🎮 最新異環兌換碼" : "🎮 最新异环兑换码")
+                    : "🎮 Active NTE Redeem Codes (2026)"}
+                </h2>
+                <p className="text-sm text-gray-400 mt-1">
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "全服可用兌換碼即時更新，免費領取獎勵" : "全服可用兑换码实时更新，免费领取奖励")
+                    : "All working Neverness to Everness codes — updated daily. Free rewards!"}
+                </p>
+              </div>
+              <span className="text-primary-400/60 group-hover:text-primary-400 text-2xl">→</span>
+            </div>
+          </Link>
+        </section>
+
         {/* Tools Section */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-2xl font-bold mb-6">{t(locale, "site.nav.guidesAndTools")}</h2>

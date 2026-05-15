@@ -58,6 +58,15 @@ html[lang="pt-BR"] footer a {
   display: none;
 }
 
+/* Improve touch targets on mobile — min 44px tap area per WCAG */
+@media (pointer: coarse) {
+  nav a, button, summary, [role="button"] {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
 /* Thin scrollbar for map filter rows */
 .scrollbar-thin::-webkit-scrollbar {
   height: 4px;

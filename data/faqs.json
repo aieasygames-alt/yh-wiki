@@ -5022,5 +5022,92 @@
     "categoryEn": "Beginner Guide",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "how-to-uninstall-nte",
+    "question": "异环怎么卸载？如何完全删除？",
+    "questionEn": "How to uninstall Neverness to Everness completely?",
+    "answer": "**PC卸载方法：**\n1. 打开「设置」→「应用」→ 找到「异环」→ 点击卸载\n2. 手动删除残留文件夹：`C:\\Users\\你的用户名\\AppData\\Local\\NTE` 和 `C:\\Users\\你的用户名\\AppData\\Roaming\\NTE`\n3. 清空回收站\n\n**手机卸载方法：**\n- **Android：** 长按应用图标 → 应用信息 → 卸载\n- **iOS：** 长按应用图标 → 移除App → 删除App\n\n**PS5卸载方法：**\n设置 → 存储 → 游戏和应用 → 找到异环 → 删除",
+    "answerEn": "**PC Uninstall:**\n1. Go to Settings → Apps → find \"Neverness to Everness\" → click Uninstall\n2. Delete remaining folders: `C:\\Users\\YourName\\AppData\\Local\\NTE` and `C:\\Users\\YourName\\AppData\\Roaming\\NTE`\n3. Empty Recycle Bin\n\n**Mobile Uninstall:**\n- **Android:** Long-press the app icon → App Info → Uninstall\n- **iOS:** Long-press the app icon → Remove App → Delete App\n\n**PS5 Uninstall:**\nSettings → Storage → Games and Apps → find NTE → Delete",
+    "tags": [
+      "uninstall",
+      "delete",
+      "remove",
+      "cleanup"
+    ],
+    "category": "general",
+    "categoryZh": "通用",
+    "categoryEn": "General",
+    "seoTitleZh": "异环怎么卸载？完全删除教程(PC/手机/PS5)",
+    "seoTitleEn": "How to Uninstall Neverness to Everness (PC, Mobile, PS5)",
+    "seoDescriptionZh": "详细教你如何在PC、Android、iOS、PS5上完全卸载异环(NTE)，包含残留文件清理方法。",
+    "seoDescriptionEn": "Complete guide to uninstall Neverness to Everness from PC, Android, iOS, and PS5, including leftover file cleanup.",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "how-to-reinstall-nte",
+    "question": "异环怎么重新安装？",
+    "questionEn": "How to reinstall Neverness to Everness?",
+    "answer": "如果你之前卸载了异环，可以按以下步骤重新安装：\n\n**PC：** 前往官方网站或启动器重新下载安装包\n**手机：** 前往 App Store (iOS) 或 Google Play / 官网 (Android) 重新下载\n**PS5：** 在 PlayStation Store 搜索「Neverness to Everness」重新下载\n\n重新安装后，你的账号数据（角色、进度）会自动同步，因为数据存储在服务器端。但本地设置和缓存会被清除。",
+    "answerEn": "If you previously uninstalled NTE, here's how to reinstall:\n\n**PC:** Download the installer from the official website or launcher\n**Mobile:** Download from App Store (iOS) or Google Play / official site (Android)\n**PS5:** Search \"Neverness to Everness\" on PlayStation Store\n\nYour account data (characters, progress) will sync automatically since it's stored server-side. Local settings and cache will be cleared.",
+    "tags": [
+      "reinstall",
+      "download",
+      "install"
+    ],
+    "category": "general",
+    "categoryZh": "通用",
+    "categoryEn": "General",
+    "seoTitleZh": "异环重新安装教程 — 账号数据还在吗？",
+    "seoTitleEn": "How to Reinstall NTE — Will I Lose My Progress?",
+    "seoDescriptionZh": "异环(NTE)重新安装完整教程，告诉你卸载后账号数据是否会丢失，以及如何在各平台重新下载。",
+    "seoDescriptionEn": "Complete guide to reinstalling Neverness to Everness. Find out if your progress is saved and how to redownload on all platforms.",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-download-size-storage",
+    "question": "异环下载需要多少空间？安装包多大？",
+    "questionEn": "How much storage does Neverness to Everness need? Download size?",
+    "answer": "**各平台安装大小：**\n\n| 平台 | 下载包大小 | 安装后大小 | 推荐预留空间 |\n|------|-----------|-----------|------------|\n| PC | ~40 GB | ~55 GB | 70 GB |\n| PS5 | ~35 GB | ~50 GB | 65 GB |\n| Android | ~20 GB | ~25 GB | 30 GB |\n| iOS | ~18 GB | ~22 GB | 28 GB |\n\n安装后会额外下载资源包（语音、高清材质等），建议预留更多空间。如果空间不足，可以在设置中选择「低画质资源包」减小占用。",
+    "answerEn": "**Installation sizes by platform:**\n\n| Platform | Download Size | Installed Size | Recommended Free Space |\n|----------|--------------|----------------|----------------------|\n| PC | ~40 GB | ~55 GB | 70 GB |\n| PS5 | ~35 GB | ~50 GB | 65 GB |\n| Android | ~20 GB | ~25 GB | 30 GB |\n| iOS | ~18 GB | ~22 GB | 28 GB |\n\nAdditional resource packs (voice, HD textures) are downloaded after installation. If storage is tight, you can select \"low-quality assets\" in settings to reduce space usage.",
+    "tags": [
+      "download",
+      "size",
+      "storage",
+      "space"
+    ],
+    "category": "general",
+    "categoryZh": "通用",
+    "categoryEn": "General",
+    "seoTitleZh": "异环下载大小 — PC/手机/PS5各平台存储需求",
+    "seoTitleEn": "NTE Download Size & Storage Requirements (PC, Mobile, PS5)",
+    "seoDescriptionZh": "异环(NTE)各平台下载大小和安装空间需求详解：PC 55GB、Android 25GB、iOS 22GB、PS5 50GB。",
+    "seoDescriptionEn": "Complete NTE download size and storage requirements: PC 55GB, Android 25GB, iOS 22GB, PS5 50GB. Tips to reduce storage usage.",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-wont-launch-after-install",
+    "question": "异环安装后打不开/闪退怎么办？",
+    "questionEn": "NTE won't launch or crashes after installing — how to fix?",
+    "answer": "**常见解决方法：**\n\n1. **检查配置要求** — 确保设备满足最低配置\n2. **更新显卡驱动** — NVIDIA/AMD 最新驱动\n3. **验证文件完整性** — 启动器内点击「修复」\n4. **关闭杀毒软件** — 部分杀毒可能误杀游戏文件\n5. **以管理员身份运行** — 右键→以管理员身份运行\n6. **清理临时文件** — 删除 `AppData\\Local\\Temp` 下的 NTE 临时文件\n\n如果以上方法都无效，建议完全卸载后重新安装。详见[卸载教程](/faq/how-to-uninstall-nte)。",
+    "answerEn": "**Common fixes:**\n\n1. **Check system requirements** — Make sure your device meets minimum specs\n2. **Update GPU drivers** — Get the latest NVIDIA/AMD drivers\n3. **Verify game files** — Use the launcher's \"Repair\" function\n4. **Disable antivirus temporarily** — Some antivirus may flag game files\n5. **Run as administrator** — Right-click → Run as administrator\n6. **Clear temp files** — Delete NTE temp files in `AppData\\Local\\Temp`\n\nIf none of these work, try a clean reinstall. See the [uninstall guide](/faq/how-to-uninstall-nte).",
+    "tags": [
+      "crash",
+      "launch",
+      "fix",
+      "troubleshoot"
+    ],
+    "category": "general",
+    "categoryZh": "通用",
+    "categoryEn": "General",
+    "seoTitleZh": "异环打不开/闪退的解决方法",
+    "seoTitleEn": "NTE Won't Launch or Crashes — How to Fix",
+    "seoDescriptionZh": "异环安装后无法启动或闪退的完整解决方案：驱动更新、文件验证、管理员运行等方法。",
+    "seoDescriptionEn": "Complete troubleshooting guide for NTE launch failures and crashes: driver updates, file verification, admin mode, and more.",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]

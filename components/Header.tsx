@@ -60,6 +60,7 @@ export function Header() {
       { href: `/${lang}/disk-sets`, label: t(lang, "site.nav.cassettes") },
       { href: `/${lang}/compare/nte-vs-genshin`, label: t(lang, "compare.nteVsGenshin") },
       { href: `/${lang}/compare/nte-vs-wuthering-waves`, label: t(lang, "compare.nteVsWuwa") },
+      { href: `/${lang}/compare/nte-vs-honkai-star-rail`, label: "NTE vs Star Rail" },
       { href: `/${lang}/compare/games-like-nte`, label: t(lang, "compare.gamesLikeNte") },
     ]},
     { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },
