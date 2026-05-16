@@ -5,7 +5,7 @@
     "nav": {
       "home": "Início",
       "characters": "Personagens",
-      "weapons": "Armas",
+      "weapons": "Arc Disks",
       "vehicles": "Veículos",
       "materials": "Materiais",
       "cassettes": "Cartuchos",
@@ -133,7 +133,7 @@
     "results": "Resultados",
     "history": "Histórico",
     "clearHistory": "Limpar Histórico",
-    "pulling": "Puxando...",
+    "pulling": "Fazendo pull...",
     "hint": "Selecione um banner e clique em Pull para começar a simular",
     "stats": "Estatísticas",
     "avgPity": "Pity Médio",
@@ -153,7 +153,7 @@
     "tabHistory": "Histórico",
     "tabData": "Dados",
     "bannerLabel": "Banner",
-    "charLabel": "Personagem / Arma",
+    "charLabel": "Personagem / Arc Disk",
     "pullNumberLabel": "Contagem de Pity",
     "pullNumberHint": "Insira o total de pulls antes deste S-rank",
     "addPull": "Adicionar Registro",
@@ -578,7 +578,7 @@
     "avgPulls": "Média de Pulls",
     "maxPulls": "Máx. de Pulls",
     "selectorAt": "Seletor em",
-    "featuredPity": "Pity em Destaque",
+    "featuredPity": "Pity Featured",
     "faq": "FAQ"
   },
   "faqDetails": {
@@ -647,7 +647,7 @@
     "searchHint": "Buscar personagens, armas, guias...",
     "categories": {
       "characters": "Personagens",
-      "weapons": "Armas",
+      "weapons": "Arc Disks",
       "materials": "Materiais",
       "guides": "Guias",
       "lore": "Lore",
@@ -663,7 +663,7 @@
     "pityMechanism": "Mecanismo de Pity",
     "optimalStrategy": "Estratégia Ótima",
     "beginnerPriority": "Prioridade para Iniciantes",
-    "standardAccumulate": "Acumulação Padrão",
+    "standardAccumulate": "Estratégia de Banner Padrão",
     "limitedOnDemand": "Banner Limitado",
     "weaponBudget": "Orçamento de Armas",
     "tierListLink": "Tier List",
