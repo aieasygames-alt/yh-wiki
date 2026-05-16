@@ -195,6 +195,30 @@ export default async function HomePage({
           </Link>
         </section>
 
+        {/* F2P Guide CTA — high search volume topic */}
+        <section className="max-w-6xl mx-auto px-4 py-4">
+          <Link
+            href={`/${lang}/blog/nte-f2p-complete-resource-guide`}
+            className="block rounded-xl border border-emerald-500/30 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 p-4 hover:border-emerald-500/50 hover:from-emerald-500/15 hover:to-teal-500/15 transition-all group"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-bold text-emerald-400 group-hover:text-emerald-300 transition-colors">
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "💡 零氪完全資源規劃指南" : "💡 零氪完全资源规划指南")
+                    : "💡 How F2P Friendly is NTE? (2026)"}
+                </h2>
+                <p className="text-sm text-gray-400 mt-1">
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "免費抽数、體力分配、角色獲取路線全解析" : "免费抽数、体力分配、角色获取路线全解析")
+                    : "Free pulls, stamina planning, and character priority — the complete F2P breakdown."}
+                </p>
+              </div>
+              <span className="text-emerald-400/60 group-hover:text-emerald-400 text-2xl">→</span>
+            </div>
+          </Link>
+        </section>
+
         {/* Tools Section */}
         <section className="max-w-6xl mx-auto px-4 py-12">
           <h2 className="text-2xl font-bold mb-6">{t(locale, "site.nav.guidesAndTools")}</h2>

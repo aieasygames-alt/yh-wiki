@@ -5109,5 +5109,44 @@
     "seoDescriptionEn": "Complete troubleshooting guide for NTE launch failures and crashes: driver updates, file verification, admin mode, and more.",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "ios-release-date",
+    "question": "异环iOS版什么时候上线？iPhone/iPad能玩吗？",
+    "questionEn": "When is NTE coming to iOS? Can I play on iPhone/iPad?",
+    "answer": "异环iOS版上线信息：\n\n**当前状态**：\n- 异环目前已在PC（Epic/官方客户端）、Android和PS5平台上线\n- iOS版（iPhone/iPad）官方已确认在开发中\n- 预计将在后续版本更新中推出\n\n**iOS最低配置要求（已公布）**：\n- iPhone 12 Pro Max 或更高\n- iPad Air (第3代) 或更高\n- iOS 15.0 或更高\n- 存储空间：至少20GB\n\n**推荐配置**：\n- iPhone 14 或更高（最佳体验）\n- iPad Pro M1 或更高\n- iOS 16.0+\n- 存储空间：30GB+\n\n**iOS版预期特性**：\n- 支持跨平台存档同步\n- 触控优化操作界面\n- 支持手柄操作\n- 支持Metal API渲染\n\n建议关注官方社交媒体获取iOS版最新消息。同时你也可以先在PC或Android上开始游戏，iOS版上线后可跨平台同步进度。",
+    "answerEn": "NTE iOS Release Information:\n\n**Current Status**:\n- NTE is currently available on PC (Epic/Official client), Android, and PS5\n- iOS version (iPhone/iPad) is officially confirmed to be in development\n- Expected to launch in a future update\n\n**iOS Minimum Requirements (announced)**:\n- iPhone 12 Pro Max or newer\n- iPad Air (3rd gen) or newer\n- iOS 15.0 or later\n- Storage: at least 20GB\n\n**Recommended Specs**:\n- iPhone 14 or newer (best experience)\n- iPad Pro M1 or newer\n- iOS 16.0+\n- Storage: 30GB+\n\n**Expected iOS Features**:\n- Cross-platform save sync\n- Touch-optimized UI\n- Controller support\n- Metal API rendering\n\nFollow official social media for the latest iOS release news. You can start playing on PC or Android now and sync your progress when iOS launches.",
+    "tags": ["ios", "platform", "release", "mobile", "iphone", "ipad"],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "hotori-worth-pulling-building",
+    "question": "异环Hototi（穗乃果）值得抽吗？值得培养吗？优先级如何？",
+    "questionEn": "Is Hotori worth pulling and building in NTE? What's the priority?",
+    "answer": "穗乃果（Hotori）是异环中人气极高的S级角色，以下是抽卡和培养建议：\n\n**角色定位**：\n- 属性：Anima（生命）\n- 定位：主C / 爆发输出\n- Tier评级：T0.5-T1（根据版本变化）\n\n**是否值得抽？**\n- 如果你缺少Anima属性主C：值得抽\n- 如果你已有强力的Anima角色：可以跳过\n- 人气角色，设计精美，使用体验很好\n\n**培养优先级**：\n1. 弧盘主词条对即可使用，不必强求完美副词条\n2. 优先升级核心输出技能\n3. 武器选择签名武器最佳，免费替代也够用\n4. A2觉醒是第一个关键提升节点\n\n**配队建议**：\n- 作为Anima主C，搭配同属性辅助角色效果最佳\n- 需要聚怪角色配合AOE输出\n- 生存位建议带一个治疗或护盾\n\n**零氪建议**：\n- 如果你已经有小吱(Chiz)作为主C，Hotori不是刚需\n- 但如果喜欢角色设计或缺少Anima主C，值得投入\n- 建议攒够保底再抽，避免资源浪费",
+    "answerEn": "Hotori is one of the most popular S-rank characters in NTE. Here's a pull and build guide:\n\n**Character Overview**:\n- Attribute: Anima\n- Role: Main DPS / Burst damage\n- Tier: T0.5-T1 (varies by patch)\n\n**Is She Worth Pulling?**\n- If you need an Anima DPS: Yes, pull\n- If you already have a strong Anima character: Can skip\n- Popular character with great design and enjoyable gameplay\n\n**Build Priority**:\n1. Correct disc main stats are enough — don't chase perfect substats initially\n2. Prioritize core damage skill upgrades\n3. Signature weapon is best, free alternatives are viable\n4. A2 awakening is the first key power spike\n\n**Team Building**:\n- Pair with same-attribute supports for best results\n- Benefits from grouping characters for AOE damage\n- Bring sustain (healer or shield) in the team\n\n**F2P Advice**:\n- If you have Chiz as main DPS, Hotori isn't mandatory\n- But if you like the design or need Anima coverage, she's worth investing in\n- Save for full pity before pulling to avoid wasting resources",
+    "tags": ["hotori", "character", "gacha", "build", "priority", "beginner"],
+    "category": "characters",
+    "categoryZh": "角色",
+    "categoryEn": "Characters",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-ai-generated-content",
+    "question": "异环游戏中是否有AI生成的内容？AI素材争议说明",
+    "questionEn": "Does NTE use AI-generated content? AI assets controversy explained",
+    "answer": "关于异环中AI生成内容的争议说明：\n\n**社区争议背景**：\n社区中有玩家发现游戏内部分素材可能涉及AI辅助生成，引发了讨论。这是目前游戏行业的热门话题。\n\n**官方态度**：\n- 开发团队尚未就AI素材使用发布官方声明\n- 游戏的整体美术品质在同类产品中属于上游水平\n- 角色设计、场景美术和音乐水准普遍获得好评\n\n**社区观点分歧**：\n- 一部分玩家认为AI辅助不影响游戏体验\n- 一部分玩家对AI生成内容持保留态度\n- 也有观点认为AI辅助是行业趋势，关键在最终品质\n\n**对玩家的实际影响**：\n- 游戏核心玩法（战斗、探索、抽卡）不受影响\n- 美术品质在同类游戏中仍然处于较高水平\n- 不影响角色平衡和游戏机制\n\n**建议**：\n- 如果你关注这个话题，可以关注官方社媒获取最新声明\n- 建议亲自体验游戏后做出判断\n- 游戏本身的玩法品质和内容量是有目共睹的",
+    "answerEn": "Regarding the AI-generated content controversy in NTE:\n\n**Background**:\nSome community members noticed assets that may have been AI-assisted, sparking discussion. This is a hot topic across the gaming industry.\n\n**Official Stance**:\n- The development team has not released an official statement on AI asset usage\n- The game's overall art quality ranks highly among similar titles\n- Character design, environment art, and music quality are generally praised\n\n**Community Perspectives**:\n- Some players feel AI assistance doesn't affect gameplay experience\n- Some players have reservations about AI-generated content\n- Others view AI assistance as an industry trend, with final quality being what matters\n\n**Practical Impact on Players**:\n- Core gameplay (combat, exploration, gacha) is unaffected\n- Art quality remains high compared to peers\n- No impact on character balance or game mechanics\n\n**Recommendation**:\n- Follow official social media for any official statements\n- Try the game yourself and form your own opinion\n- The gameplay quality and content volume speak for themselves",
+    "tags": ["ai", "controversy", "general", "community"],
+    "category": "general",
+    "categoryZh": "综合",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
