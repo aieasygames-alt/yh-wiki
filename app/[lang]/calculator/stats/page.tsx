@@ -8,10 +8,7 @@ import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 
 // Damage formula constants (estimated, for reference only)
-const BASE_HP = 1000;
 const BASE_ATK = 200;
-const BASE_DEF = 150;
-const CRIT_MULT = 2.0;
 
 function estimateStats(baseAtk: number, substats: Record<string, number>) {
   const atkPct = (substats.atkPct || 0) + (substats.flatAtk || 0) / baseAtk * 100;

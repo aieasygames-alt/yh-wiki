@@ -5,7 +5,6 @@ import Link from "next/link";
 import { getAllWeapons, getAllDiskSets } from "../../../lib/queries";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { getAttributeColor } from "../../../lib/attributes";
 
 type EffectEntry = {
   id: string;

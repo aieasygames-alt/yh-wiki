@@ -105,7 +105,7 @@ export function CityTycoonTracker({ locale }: { locale: Locale }) {
         {/* Connecting line */}
         <div className="absolute left-[15px] top-2 bottom-2 w-0.5 bg-gray-800" />
 
-        {TYCOON_LEVELS.map((lvl, i) => {
+        {TYCOON_LEVELS.map((lvl) => {
           const isDone = completed.has(lvl.level);
           const isLv30 = lvl.level === 30;
           return (

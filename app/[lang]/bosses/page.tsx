@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
 import { getGuide, getAllAnomalies } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";

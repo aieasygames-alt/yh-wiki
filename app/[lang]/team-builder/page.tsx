@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { getAllCharacters } from "../../../lib/queries";
 import buildsData from "../../../data/builds.json";
-import type { Character, TeamComp } from "../../../lib/queries";
+import type { Character } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { GameImage } from "../../../components/GameImage";
