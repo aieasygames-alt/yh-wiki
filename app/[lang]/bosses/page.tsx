@@ -7,6 +7,7 @@ import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
 import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
+import { BossCardClient } from "../../../components/BossCardClient";
 
 const BOSS_GUIDE_ID = "boss-guide-comprehensive";
 
@@ -111,7 +112,7 @@ export default async function BossGuidePage({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {bosses.map((boss) => (
-                <BossCard key={boss.id} id={boss.id} name={isZh ? boss.name : boss.nameEn} type={boss.type} attribute={isZh ? boss.attribute : boss.attributeEn} hp={boss.hp} weakness={isZh ? boss.weakness : boss.weaknessEn} location={isZh ? boss.location : boss.locationEn} strategy={isZh ? boss.strategy : boss.strategyEn} drops={isZh ? boss.drops : boss.dropsEn} mechanics={isZh ? boss.mechanics : boss.mechanicsEn} lang={lang} />
+                <BossCardClient key={boss.id} id={boss.id} name={isZh ? boss.name : boss.nameEn} type={boss.type} attribute={isZh ? boss.attribute : boss.attributeEn} hp={boss.hp} weakness={isZh ? boss.weakness : boss.weaknessEn} location={isZh ? boss.location : boss.locationEn} strategy={isZh ? boss.strategy : boss.strategyEn} drops={isZh ? boss.drops : boss.dropsEn} mechanics={isZh ? boss.mechanics : boss.mechanicsEn} lang={lang} isZh={isZh} />
               ))}
             </div>
           </div>
@@ -128,7 +129,7 @@ export default async function BossGuidePage({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {elites.map((elite) => (
-                <BossCard key={elite.id} id={elite.id} name={isZh ? elite.name : elite.nameEn} type={elite.type} attribute={isZh ? elite.attribute : elite.attributeEn} hp={elite.hp} weakness={isZh ? elite.weakness : elite.weaknessEn} location={isZh ? elite.location : elite.locationEn} strategy={isZh ? elite.strategy : elite.strategyEn} drops={isZh ? elite.drops : elite.dropsEn} mechanics={isZh ? elite.mechanics : elite.mechanicsEn} lang={lang} />
+                <BossCardClient key={elite.id} id={elite.id} name={isZh ? elite.name : elite.nameEn} type={elite.type} attribute={isZh ? elite.attribute : elite.attributeEn} hp={elite.hp} weakness={isZh ? elite.weakness : elite.weaknessEn} location={isZh ? elite.location : elite.locationEn} strategy={isZh ? elite.strategy : elite.strategyEn} drops={isZh ? elite.drops : elite.dropsEn} mechanics={isZh ? elite.mechanics : elite.mechanicsEn} lang={lang} isZh={isZh} />
               ))}
             </div>
           </div>
@@ -145,93 +146,12 @@ export default async function BossGuidePage({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {normals.map((normal) => (
-                <BossCard key={normal.id} id={normal.id} name={isZh ? normal.name : normal.nameEn} type={normal.type} attribute={isZh ? normal.attribute : normal.attributeEn} hp={normal.hp} weakness={isZh ? normal.weakness : normal.weaknessEn} location={isZh ? normal.location : normal.locationEn} strategy={isZh ? normal.strategy : normal.strategyEn} drops={isZh ? normal.drops : normal.dropsEn} mechanics={isZh ? normal.mechanics : normal.mechanicsEn} lang={lang} />
+                <BossCardClient key={normal.id} id={normal.id} name={isZh ? normal.name : normal.nameEn} type={normal.type} attribute={isZh ? normal.attribute : normal.attributeEn} hp={normal.hp} weakness={isZh ? normal.weakness : normal.weaknessEn} location={isZh ? normal.location : normal.locationEn} strategy={isZh ? normal.strategy : normal.strategyEn} drops={isZh ? normal.drops : normal.dropsEn} mechanics={isZh ? normal.mechanics : normal.mechanicsEn} lang={lang} isZh={isZh} />
               ))}
             </div>
           </div>
         )}
       </section>
     </>
-  );
-}
-
-function BossCard({
-  id,
-  name,
-  type,
-  attribute,
-  hp,
-  weakness,
-  location,
-  strategy,
-  drops,
-  mechanics,
-  lang,
-}: {
-  id: string;
-  name: string;
-  type: string;
-  attribute?: string;
-  hp?: string;
-  weakness?: string;
-  location?: string;
-  strategy?: string;
-  drops?: string[];
-  mechanics?: string;
-  lang: string;
-}) {
-  return (
-    <Link
-      href={`/${lang}/anomalies/${id}`}
-      className="block rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 transition-colors"
-    >
-      <div className="flex items-center gap-3 mb-3">
-        <h4 className="font-semibold text-sm flex-1">{name}</h4>
-        <span className={`text-[10px] px-2 py-0.5 rounded border ${TYPE_COLORS[type] || ""}`}>
-          {type === "boss" ? "Boss" : type === "elite" ? "Elite" : "Normal"}
-        </span>
-      </div>
-
-      <div className="space-y-2 text-xs">
-        {attribute && (
-          <div className="flex gap-2">
-            <span className="text-gray-500 w-12 shrink-0">{type === "boss" ? "Attr" : "Attr"}</span>
-            <span className="text-gray-300">{attribute}</span>
-          </div>
-        )}
-        {hp && (
-          <div className="flex gap-2">
-            <span className="text-gray-500 w-12 shrink-0">HP</span>
-            <span className="text-gray-300">{hp}</span>
-          </div>
-        )}
-        {location && (
-          <div className="flex gap-2">
-            <span className="text-gray-500 w-12 shrink-0">Loc</span>
-            <span className="text-gray-300">{location}</span>
-          </div>
-        )}
-        {weakness && (
-          <div className="flex gap-2">
-            <span className="text-gray-500 w-12 shrink-0">Weak</span>
-            <span className="text-yellow-400 line-clamp-1">{weakness}</span>
-          </div>
-        )}
-        {strategy && (
-          <div className="mt-2 pt-2 border-t border-gray-800/50">
-            <p className="text-gray-400 line-clamp-2">{strategy}</p>
-          </div>
-        )}
-        {drops && drops.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-1">
-            {drops.map((d, i) => (
-              <span key={i} className="text-[10px] px-1.5 py-0.5 rounded bg-gray-800 text-gray-400">
-                {d}
-              </span>
-            ))}
-          </div>
-        )}
-      </div>
-    </Link>
   );
 }

@@ -2,9 +2,10 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { getAllWeapons, getAllDiskSets, getAllCharacters } from "../../../lib/queries";
+import { getAllWeapons, getAllDiskSets } from "../../../lib/queries";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
+import { getAttributeColor } from "../../../lib/attributes";
 
 type EffectEntry = {
   id: string;
@@ -16,6 +17,7 @@ type EffectEntry = {
   sourceEn: string;
   sourceType: "weapon" | "diskSet";
   sourceUrl: string;
+  element?: string | null;
   extra?: string;
   extraEn?: string;
 };
@@ -66,6 +68,7 @@ export default function EffectsPage({
         sourceEn: ds.nameEn,
         sourceType: "diskSet",
         sourceUrl: `/${lang}/disk-sets/${ds.id}`,
+        element: ds.element,
         extra: ds.category === "elemental" ? (isZh ? "元素套" : "Elemental") : (isZh ? "通用套" : "General"),
         extraEn: ds.category,
       });
@@ -79,6 +82,7 @@ export default function EffectsPage({
         sourceEn: ds.nameEn,
         sourceType: "diskSet",
         sourceUrl: `/${lang}/disk-sets/${ds.id}`,
+        element: ds.element,
         extra: ds.category === "elemental" ? (isZh ? "元素套" : "Elemental") : (isZh ? "通用套" : "General"),
         extraEn: ds.category,
       });
@@ -105,6 +109,42 @@ export default function EffectsPage({
 
   const weaponCount = allEffects.filter((e) => e.sourceType === "weapon").length;
   const diskSetCount = allEffects.filter((e) => e.sourceType === "diskSet").length;
+
+  // Group by source
+  const groupedEffects = useMemo(() => {
+    const groups = new Map<string, { source: string; sourceEn: string; sourceUrl: string; sourceType: "weapon" | "diskSet"; element?: string | null; effects: EffectEntry[] }>();
+    for (const e of filteredEffects) {
+      const key = e.sourceEn;
+      if (!groups.has(key)) {
+        groups.set(key, { source: e.source, sourceEn: e.sourceEn, sourceUrl: e.sourceUrl, sourceType: e.sourceType, element: e.element, effects: [] });
+      }
+      groups.get(key)!.effects.push(e);
+    }
+    return Array.from(groups.values());
+  }, [filteredEffects]);
+
+  // Highlight matching text
+  function HighlightText({ text, query }: { text: string; query: string }) {
+    if (!query) return <>{text}</>;
+    const idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return <>{text}</>;
+    return (
+      <>
+        {text.slice(0, idx)}
+        <mark className="bg-primary-500/20 text-primary-300 rounded px-0.5">{text.slice(idx, idx + query.length)}</mark>
+        {text.slice(idx + query.length)}
+      </>
+    );
+  }
+
+  const elementDotColors: Record<string, string> = {
+    cosmos: "bg-cosmos-500",
+    anima: "bg-emerald-500",
+    incantation: "bg-yellow-500",
+    chaos: "bg-purple-500",
+    psyche: "bg-blue-500",
+    lakshana: "bg-pink-500",
+  };
 
   return (
     <>
@@ -153,48 +193,71 @@ export default function EffectsPage({
           />
         </div>
 
-        {/* Effects List */}
-        <div className="space-y-3">
-          {filteredEffects.map((effect) => (
-            <div
-              key={effect.id}
-              className="rounded-xl border border-gray-800 bg-gray-900/50 p-4"
+        {/* Effects List - Grouped by Source */}
+        <div className="space-y-4">
+          {groupedEffects.map((group) => (
+            <details
+              key={group.sourceEn}
+              open={!searchQuery || group.effects.some((e) =>
+                e.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                e.description.toLowerCase().includes(searchQuery.toLowerCase())
+              )}
+              className="rounded-xl border border-gray-800 bg-gray-900/50 overflow-hidden"
             >
-              <div className="flex items-start gap-3">
+              <summary className="flex items-center gap-3 p-4 cursor-pointer hover:bg-gray-800/30 transition-colors list-none">
+                <svg className="w-4 h-4 text-gray-500 shrink-0 transition-transform details-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
                 <span
                   className={`shrink-0 text-[10px] px-2 py-1 rounded font-medium ${
-                    effect.sourceType === "weapon"
+                    group.sourceType === "weapon"
                       ? "bg-orange-500/10 text-orange-400 border border-orange-500/20"
                       : "bg-purple-500/10 text-purple-400 border border-purple-500/20"
                   }`}
                 >
-                  {effect.sourceType === "weapon"
-                    ? isZh ? "武器" : "Weapon"
-                    : isZh ? "卡带" : "Disk"}
+                  {group.sourceType === "weapon"
+                    ? (isZh ? "武器" : "Weapon")
+                    : (isZh ? "卡带" : "Disk")}
                 </span>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-1">
-                    <h3 className="text-sm font-semibold truncate">
-                      {isZh ? effect.name : effect.nameEn}
-                    </h3>
-                    {effect.extra && (
-                      <span className="text-[10px] text-gray-500 shrink-0">
-                        {isZh ? effect.extra : effect.extraEn}
-                      </span>
-                    )}
-                  </div>
-                  <p className="text-xs text-gray-400 leading-relaxed">
-                    {isZh ? effect.description : effect.descriptionEn}
-                  </p>
-                  <Link
-                    href={effect.sourceUrl}
-                    className="text-[10px] text-primary-400 hover:text-primary-300 mt-1 inline-block"
+                {group.element && (
+                  <span className={`w-2.5 h-2.5 rounded-full shrink-0 ${elementDotColors[group.element] || "bg-gray-500"}`} />
+                )}
+                <span className="text-sm font-semibold">
+                  <HighlightText text={isZh ? group.source : group.sourceEn} query={searchQuery} />
+                </span>
+                <span className="text-xs text-gray-500 ml-auto">
+                  {group.effects.length} {isZh ? "个效果" : "effects"}
+                </span>
+              </summary>
+              <div className="border-t border-gray-800/50">
+                {group.effects.map((effect) => (
+                  <div
+                    key={effect.id}
+                    className="px-4 py-3 border-b border-gray-800/30 last:border-b-0"
                   >
-                    {isZh ? `来源: ${effect.source}` : `Source: ${effect.sourceEn}`} →
-                  </Link>
-                </div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <h4 className="text-xs font-semibold">
+                        <HighlightText text={isZh ? effect.name : effect.nameEn} query={searchQuery} />
+                      </h4>
+                      {effect.extra && (
+                        <span className="text-[10px] text-gray-500 shrink-0">
+                          {isZh ? effect.extra : effect.extraEn}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-gray-400 leading-relaxed">
+                      <HighlightText text={isZh ? effect.description : effect.descriptionEn} query={searchQuery} />
+                    </p>
+                    <Link
+                      href={effect.sourceUrl}
+                      className="text-[10px] text-primary-400 hover:text-primary-300 mt-1 inline-block"
+                    >
+                      {isZh ? `来源: ${effect.source}` : `Source: ${effect.sourceEn}`} →
+                    </Link>
+                  </div>
+                ))}
               </div>
-            </div>
+            </details>
           ))}
         </div>
 

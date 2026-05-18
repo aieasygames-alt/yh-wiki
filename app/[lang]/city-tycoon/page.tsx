@@ -4,6 +4,7 @@ import { getAllCharacters, getAllWeapons } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { GameImage } from "../../../components/GameImage";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
+import { CityTycoonTracker } from "../../../components/CityTycoonTracker";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -27,26 +28,6 @@ export async function generateMetadata({
     },
   };
 }
-
-const TYCOON_LEVELS = [
-  { level: 1, rewardZh: "解锁都市大亨模式", rewardEn: "Unlock City Tycoon mode", type: "unlock" },
-  { level: 5, rewardZh: "异环币 x5000", rewardEn: "Hethereau Coin x5000", type: "currency" },
-  { level: 10, rewardZh: "B级弧盘自选箱 x1", rewardEn: "B-Rank Arc Disc Selector x1", type: "weapon" },
-  { level: 15, rewardZh: "异环币 x10000", rewardEn: "Hethereau Coin x10000", type: "currency" },
-  { level: 21, rewardZh: "专属弧盘「沉思之猫」", rewardEn: "Exclusive Arc \"Contemplative Cat\"", type: "weapon" },
-  { level: 25, rewardZh: "角色觉醒材料箱 x5", rewardEn: "Character Awakening Material Box x5", type: "material" },
-  { level: 30, rewardZh: "满配赤子（小智）6+5", rewardEn: "Max Chiz (Xiaozhi) 6+5", type: "character" },
-  { level: 35, rewardZh: "异环币 x20000", rewardEn: "Hethereau Coin x20000", type: "currency" },
-  { level: 40, rewardZh: "S级弧盘自选箱 x1", rewardEn: "S-Rank Arc Disc Selector x1", type: "weapon" },
-];
-
-const TYPE_ICONS: Record<string, string> = {
-  unlock: "🔓",
-  currency: "💰",
-  weapon: "⚔️",
-  material: "📦",
-  character: "👤",
-};
 
 export default async function CityTycoonPage({
   params,
@@ -190,31 +171,12 @@ export default async function CityTycoonPage({
           </section>
         )}
 
-        {/* Level Rewards */}
+        {/* Level Rewards — Interactive Tracker */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
             {t(locale, "cityTycoon.levelRewards")}
           </h2>
-          <div className="space-y-2">
-            {TYCOON_LEVELS.map((lvl) => (
-              <div
-                key={lvl.level}
-                className={`flex items-center gap-4 rounded-lg border p-3 ${
-                  lvl.type === "character"
-                    ? "border-yellow-500/30 bg-yellow-500/5"
-                    : "border-gray-800 bg-gray-900/30"
-                }`}
-              >
-                <span className="text-lg w-8 text-center">{TYPE_ICONS[lvl.type]}</span>
-                <span className="text-sm font-mono text-gray-500 w-16 shrink-0">
-                  Lv.{lvl.level}
-                </span>
-                <span className="text-sm text-gray-300 flex-1">
-                  {isZh ? lvl.rewardZh : lvl.rewardEn}
-                </span>
-              </div>
-            ))}
-          </div>
+          <CityTycoonTracker locale={locale} />
         </section>
 
         {/* Tips */}

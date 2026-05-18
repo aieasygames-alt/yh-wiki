@@ -78,3 +78,8 @@ html[lang="pt-BR"] footer a {
   background: #374151;
   border-radius: 2px;
 }
+
+/* Details arrow rotation */
+details[open] .details-arrow {
+  transform: rotate(180deg);
+}

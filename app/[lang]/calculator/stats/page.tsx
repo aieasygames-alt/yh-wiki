@@ -58,6 +58,33 @@ export default function StatsCalculatorPage({
 
   const baseAtk = weapon ? weapon.baseAtk : BASE_ATK;
 
+  // Auto-select signature weapon when character changes
+  const handleCharChange = (charId: string) => {
+    setSelectedChar(charId);
+    if (charId) {
+      const c = allChars.find((ch) => ch.id === charId);
+      if (c?.signatureArc) {
+        const sig = allWeapons.find((w) => w.id === c.signatureArc);
+        if (sig) setSelectedWeapon(sig.id);
+      }
+    }
+  };
+
+  // Presets
+  const presets = [
+    { key: "crit", labelZh: "暴击流", labelEn: "Crit Build", atkPct: 46.6, critRate: 64.8, critDmg: 129.6, elementalDmg: 38.8 },
+    { key: "balanced", labelZh: "均衡流", labelEn: "Balanced", atkPct: 46.6, critRate: 32.4, critDmg: 64.8, elementalDmg: 38.8 },
+    { key: "atk", labelZh: "攻击流", labelEn: "ATK Focus", atkPct: 93.2, critRate: 16.2, critDmg: 32.4, elementalDmg: 19.4 },
+    { key: "elemental", labelZh: "属性流", labelEn: "Elemental", atkPct: 23.3, critRate: 16.2, critDmg: 32.4, elementalDmg: 77.6 },
+  ];
+
+  const applyPreset = (preset: typeof presets[number]) => {
+    setAtkPct(preset.atkPct);
+    setCritRate(preset.critRate);
+    setCritDmg(preset.critDmg);
+    setElementalDmg(preset.elementalDmg);
+  };
+
   const stats = useMemo(
     () =>
       estimateStats(baseAtk, {
@@ -106,7 +133,7 @@ export default function StatsCalculatorPage({
               </h2>
               <select
                 value={selectedChar}
-                onChange={(e) => setSelectedChar(e.target.value)}
+                onChange={(e) => handleCharChange(e.target.value)}
                 className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-primary-500/50"
               >
                 <option value="">{t(locale, "statsCalc.selectCharacter")}</option>
@@ -170,6 +197,18 @@ export default function StatsCalculatorPage({
               <h2 className="text-sm font-semibold mb-3">
                 {t(locale, "statsCalc.substats")}
               </h2>
+              {/* Presets */}
+              <div className="flex gap-2 mb-4">
+                {presets.map((p) => (
+                  <button
+                    key={p.key}
+                    onClick={() => applyPreset(p)}
+                    className="text-xs px-3 py-1.5 rounded-lg bg-gray-800 text-gray-400 hover:text-primary-400 hover:bg-gray-700 transition-colors"
+                  >
+                    {isZh ? p.labelZh : p.labelEn}
+                  </button>
+                ))}
+              </div>
               <div className="grid grid-cols-2 gap-3">
                 {[
                   { label: isZh ? "攻击力%" : "ATK%", value: atkPct, set: setAtkPct, max: 200 },
@@ -181,14 +220,25 @@ export default function StatsCalculatorPage({
                     <label className="text-xs text-gray-400 block mb-1">
                       {s.label}
                     </label>
-                    <input
-                      type="number"
-                      value={s.value}
-                      onChange={(e) => s.set(Math.max(0, Math.min(s.max, Number(e.target.value))))}
-                      className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm text-white focus:outline-none focus:border-primary-500/50"
-                      min={0}
-                      max={s.max}
-                    />
+                    <div className="flex items-center gap-2">
+                      <input
+                        type="range"
+                        min={0}
+                        max={s.max}
+                        step={0.1}
+                        value={s.value}
+                        onChange={(e) => s.set(Number(e.target.value))}
+                        className="flex-1 h-1.5 bg-gray-700 rounded-full appearance-none cursor-pointer accent-primary-500"
+                      />
+                      <input
+                        type="number"
+                        value={s.value}
+                        onChange={(e) => s.set(Math.max(0, Math.min(s.max, Number(e.target.value))))}
+                        className="w-16 bg-gray-800 border border-gray-700 rounded-lg px-2 py-1 text-sm text-white text-center focus:outline-none focus:border-primary-500/50"
+                        min={0}
+                        max={s.max}
+                      />
+                    </div>
                   </div>
                 ))}
               </div>

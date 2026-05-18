@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { getAllCharacters } from "../../../lib/queries";
 import buildsData from "../../../data/builds.json";
 import type { Character, TeamComp } from "../../../lib/queries";
@@ -134,14 +135,35 @@ export default function TeamBuilderPage({
   params: { lang: string };
 }) {
   const { lang } = params;
+  return (
+    <Suspense fallback={<div className="max-w-6xl mx-auto px-4 py-8"><div className="animate-pulse h-8 bg-gray-800 rounded w-48 mb-4" /><div className="animate-pulse h-64 bg-gray-800/50 rounded" /></div>}>
+      <TeamBuilderInner lang={lang} />
+    </Suspense>
+  );
+}
+
+function TeamBuilderInner({ lang }: { lang: string }) {
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
+  const searchParams = useSearchParams();
 
   const allCharacters = useMemo(() => getAllCharacters(), []);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [filterRank, setFilterRank] = useState<string>("all");
   const [filterAttr, setFilterAttr] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [copied, setCopied] = useState(false);
+
+  // Read ?team= from URL on mount
+  useEffect(() => {
+    const teamParam = searchParams.get("team");
+    if (teamParam) {
+      const ids = teamParam.split(",").filter((id) =>
+        allCharacters.some((c) => c.id === id)
+      );
+      if (ids.length > 0) setSelectedIds(ids.slice(0, TEAM_SIZE));
+    }
+  }, [searchParams, allCharacters]);
 
   const filteredCharacters = useMemo(() => {
     return allCharacters.filter((c) => {
@@ -165,6 +187,29 @@ export default function TeamBuilderPage({
 
   const synergies = useMemo(() => analyzeSynergy(teamCharacters, isZh), [teamCharacters, isZh]);
 
+  // Team viability grade
+  const teamGrade = useMemo(() => {
+    if (selectedIds.length < 2) return null;
+    let score = 0;
+    synergies.forEach((s) => {
+      if (s.type === "positive") score += 2;
+      else if (s.type === "negative") score -= 1;
+      else score += 0;
+    });
+    // Full team bonus
+    if (selectedIds.length === TEAM_SIZE) score += 1;
+    // Balanced roles bonus
+    const roles = teamCharacters.map((c) => (isZh ? c.role : c.roleEn));
+    const hasDPS = roles.some((r) => r?.includes("进攻") || r?.includes("Attack") || r?.includes("DPS"));
+    const hasSupport = roles.some((r) => r?.includes("支援") || r?.includes("Support"));
+    const hasDefense = roles.some((r) => r?.includes("防护") || r?.includes("Defense") || r?.includes("Survival"));
+    if (hasDPS && hasSupport && hasDefense) score += 1;
+    if (score >= 5) return { grade: "S", color: "text-yellow-400 border-yellow-400/30 bg-yellow-400/10" };
+    if (score >= 3) return { grade: "A", color: "text-purple-400 border-purple-400/30 bg-purple-400/10" };
+    if (score >= 1) return { grade: "B", color: "text-blue-400 border-blue-400/30 bg-blue-400/10" };
+    return { grade: "C", color: "text-gray-400 border-gray-400/30 bg-gray-400/10" };
+  }, [selectedIds, synergies, teamCharacters, isZh]);
+
   const recommendedBuilds = useMemo(
     () => (selectedIds.length > 0 ? getRecommendedBuilds(selectedIds) : []),
     [selectedIds]
@@ -184,14 +229,16 @@ export default function TeamBuilderPage({
 
   const handleClearTeam = () => setSelectedIds([]);
 
-  const handleShare = async () => {
+  const handleShare = useCallback(async () => {
     const url = `${window.location.origin}/${lang}/team-builder?team=${selectedIds.join(",")}`;
     try {
       await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
     } catch {
       // fallback
     }
-  };
+  }, [lang, selectedIds]);
 
   return (
     <>
@@ -286,6 +333,16 @@ export default function TeamBuilderPage({
                 <h3 className="text-sm font-semibold mb-3">
                   {t(locale, "teamBuilder.synergy")}
                 </h3>
+                {teamGrade && (
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className={`text-3xl font-black px-4 py-2 rounded-xl border-2 ${teamGrade.color}`}>
+                      {teamGrade.grade}
+                    </span>
+                    <span className="text-xs text-gray-500">
+                      {isZh ? "团队评级" : "Team Grade"}
+                    </span>
+                  </div>
+                )}
                 <div className="flex flex-wrap gap-2">
                   {synergies.map((s) => (
                     <span
@@ -310,9 +367,15 @@ export default function TeamBuilderPage({
               <div className="flex gap-2">
                 <button
                   onClick={handleShare}
-                  className="flex-1 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 text-sm transition-colors"
+                  className={`flex-1 py-2 rounded-lg text-sm transition-colors ${
+                    copied
+                      ? "bg-emerald-500/20 text-emerald-400"
+                      : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                  }`}
                 >
-                  {t(locale, "teamBuilder.shareTeam")}
+                  {copied
+                    ? (isZh ? "已复制!" : "Copied!")
+                    : t(locale, "teamBuilder.shareTeam")}
                 </button>
                 <button
                   onClick={handleClearTeam}
