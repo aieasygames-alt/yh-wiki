@@ -12,8 +12,12 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const article = getCompare("nte-vs-wuthering-waves");
   if (!article) return {};
   const locale = lang as Locale;
-  const rawTitle = isZhLocale(locale) ? article.title : article.titleEn;
+  const baseTitle = isZhLocale(locale) ? article.title : article.titleEn;
   const description = isZhLocale(locale) ? article.summary : article.summaryEn;
+  // For non-zh/en locales, append locale name to avoid duplicate titles
+  const rawTitle = (!isZhLocale(locale) && locale !== "en")
+    ? `${baseTitle} (${locale.toUpperCase()})`
+    : baseTitle;
   const title = `${rawTitle} (2026)`;
   return {
     title,

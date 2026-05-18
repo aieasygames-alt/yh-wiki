@@ -47,7 +47,7 @@
   },
   "characters": {
     "title": "ตัวละคร NTE",
-    "description": "บิลด์ตัวละคร, วัสดุอัปเลเวล และอันดับ Tier ของ Neverness to Everness ทั้งหมด",
+    "description": "ตัวละคร Neverness to Everness ทั้งหมด พร้อมบิลด์แนะนำ วัสดุอัปเลเวล อันดับ Tier อาวุธที่ดีที่สุด และการจัดทีม ฐานข้อมูลตัวละครครบถ้วน",
     "rank": "Rank",
     "attribute": "ธาตุ",
     "levelingMaterials": "วัสดุอัปเลเวล",

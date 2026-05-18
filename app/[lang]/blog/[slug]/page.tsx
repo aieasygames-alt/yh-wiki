@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
@@ -44,8 +44,14 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const post = getBlogPost(slug);
   if (!post) return {};
-  const title = isZhLocale(lang) ? post.title : post.titleEn;
-  const description = isZhLocale(lang) ? post.summary : post.summaryEn;
+  const locale = asLocale(lang);
+  const isZh = isZhLocale(locale);
+  const baseTitle = isZh ? post.title : post.titleEn;
+  const description = isZh ? post.summary : post.summaryEn;
+  // For non-zh/en locales, append locale name to avoid duplicate titles
+  const title = (!isZh && locale !== "en")
+    ? `${baseTitle} (${locale.toUpperCase()})`
+    : baseTitle;
   return {
     title,
     description,

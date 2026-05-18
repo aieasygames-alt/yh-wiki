@@ -23,12 +23,16 @@ export async function generateMetadata({
   const isZh = isZhLocale(locale);
 
   // Use custom SEO title/description if defined, otherwise fall back to question
-  const title = isZh
+  const baseTitle = isZh
     ? (faq.seoTitleZh || faq.question)
     : (faq.seoTitleEn || faq.questionEn);
   const description = isZh
     ? (faq.seoDescriptionZh || faq.answer.slice(0, 160))
     : (faq.seoDescriptionEn || faq.answerEn.slice(0, 160));
+  // For non-zh/en locales, append locale name to avoid duplicate titles
+  const title = (!isZh && locale !== "en")
+    ? `${baseTitle} (${locale.toUpperCase()})`
+    : baseTitle;
 
   return {
     title,

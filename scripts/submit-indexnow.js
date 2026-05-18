@@ -23,12 +23,7 @@ const ENDPOINTS = [
   "api.indexnow.org",    // Shared endpoint (submits to all engines)
 ];
 
-function postIndexNow(urls) {
-  if (urls.length === 0) {
-    console.log("No URLs to submit.");
-    return;
-  }
-
+function postToEndpoint(hostname, urls) {
   // IndexNow allows max 10,000 URLs per request
   const batches = [];
   for (let i = 0; i < urls.length; i += 10000) {
@@ -42,10 +37,8 @@ function postIndexNow(urls) {
     urlList: batches[0],
   });
 
-  console.log(`Submitting ${urls.length} URL(s) to IndexNow...`);
-
   const options = {
-    hostname: ENDPOINTS[0],
+    hostname: hostname,
     port: 443,
     path: "/indexnow",
     method: "POST",
@@ -95,6 +88,24 @@ function postIndexNow(urls) {
     req.write(body);
     req.end();
   });
+}
+
+async function postIndexNow(urls) {
+  if (urls.length === 0) {
+    console.log("No URLs to submit.");
+    return;
+  }
+
+  console.log(`Submitting ${urls.length} URL(s) to IndexNow...`);
+
+  for (const endpoint of ENDPOINTS) {
+    console.log(`\nEndpoint: ${endpoint}`);
+    try {
+      await postToEndpoint(endpoint, urls);
+    } catch (e) {
+      console.error(`  Failed to submit to ${endpoint}: ${e.message}`);
+    }
+  }
 }
 
 // Extract URLs from sitemap XML files
