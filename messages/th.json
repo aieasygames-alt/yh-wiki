@@ -32,7 +32,11 @@
         "content": "เนื้อหา",
         "resources": "แหล่งข้อมูล"
       },
-      "explorer": "สหายสำรวจ"
+      "explorer": "สหายสำรวจ",
+      "teamBuilder": "Team Builder",
+      "effects": "Effects",
+      "statsCalc": "Stats Calc",
+      "cityTycoon": "City Tycoon"
     }
   },
   "home": {
@@ -884,5 +888,57 @@
     "afterProgress": "หลัง",
     "toggleMap": "สลับแผนที่",
     "routeDistance": "เส้นทาง: {0}"
+  },
+  "teamBuilder": {
+    "title": "Team Builder",
+    "subtitle": "Build your team, analyze synergies, find the best compositions",
+    "seoTitle": "NTE Team Builder - Best Team Compositions & Synergy Analysis",
+    "seoDescription": "Build and optimize Neverness to Everness team compositions. Analyze character synergies, find recommended builds, and share your teams.",
+    "yourTeam": "Your Team",
+    "slot": "Slot",
+    "remove": "Remove",
+    "synergy": "Synergy Analysis",
+    "shareTeam": "Share Team",
+    "clear": "Clear",
+    "recommendedBuilds": "Recommended Builds",
+    "searchPlaceholder": "Search characters...",
+    "presetTeams": "Preset Teams"
+  },
+  "bossDirectory": {
+    "title": "Boss & Enemy Directory"
+  },
+  "effects": {
+    "title": "Effects Dictionary",
+    "subtitle": "Browse all weapon effects and cartridge set bonuses in one place",
+    "seoTitle": "NTE Effects Dictionary - Weapon & Cartridge Set Effects",
+    "seoDescription": "Complete Neverness to Everness effects database. Browse all weapon passive effects and cartridge set bonuses with search and filters.",
+    "searchPlaceholder": "Search effects..."
+  },
+  "cityTycoon": {
+    "title": "City Tycoon Guide",
+    "subtitle": "Complete guide to the City Tycoon management system - free S-rank character and weapon rewards",
+    "seoTitle": "NTE City Tycoon Guide - Free S-Rank Chiz (Xiaozhi) & Level Rewards",
+    "seoDescription": "Complete City Tycoon guide for Neverness to Everness. Get free S-rank Chiz (Xiaozhi) 6+5 at Lv.30. All level rewards, tips and strategies.",
+    "overviewTitle": "Overview",
+    "keyReward": "Key Reward: Free S-Rank Character",
+    "exclusiveWeapon": "Exclusive Weapon Reward",
+    "levelRewards": "Level Rewards",
+    "tipsTitle": "Tips & Strategies",
+    "linkExplorer": "Exploration Companion",
+    "linkXiaozhi": "Chiz (Xiaozhi) Details",
+    "linkTierList": "Tier List"
+  },
+  "statsCalc": {
+    "title": "Stats Calculator",
+    "subtitle": "Estimate character damage output based on stats and weapon",
+    "seoTitle": "NTE Stats & Damage Calculator",
+    "seoDescription": "Calculate Neverness to Everness character damage output. Estimate DPS with different weapons, stats, and skill multipliers.",
+    "selectCharacter": "Select Character",
+    "selectWeapon": "Select Weapon",
+    "substats": "Substats",
+    "skillMultiplier": "Skill Multiplier",
+    "results": "Stats Summary",
+    "damageOutput": "Damage Output",
+    "breakdown": "Damage Multiplier Breakdown"
   }
 }

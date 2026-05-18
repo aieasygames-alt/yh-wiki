@@ -32,7 +32,11 @@
         "content": "內容",
         "resources": "資源"
       },
-      "explorer": "探索伴侶"
+      "explorer": "探索伴侶",
+      "teamBuilder": "配隊構建器",
+      "effects": "效果詞典",
+      "statsCalc": "屬性計算器",
+      "cityTycoon": "都市大亨"
     }
   },
   "home": {
@@ -884,5 +888,57 @@
     "afterProgress": "之後",
     "toggleMap": "切換地圖",
     "routeDistance": "路線: {0}"
+  },
+  "teamBuilder": {
+    "title": "配隊構建器",
+    "subtitle": "構建你的隊伍，分析協同效果，找到最佳陣容",
+    "seoTitle": "異環配隊構建器 - 最佳陣容搭配與協同分析",
+    "seoDescription": "構建和優化異環隊伍陣容。分析角色協同效果，查看推薦配裝，分享你的隊伍。",
+    "yourTeam": "你的隊伍",
+    "slot": "位置",
+    "remove": "移除",
+    "synergy": "協同分析",
+    "shareTeam": "分享隊伍",
+    "clear": "清空",
+    "recommendedBuilds": "推荐配装",
+    "searchPlaceholder": "搜尋角色...",
+    "presetTeams": "預設陣容"
+  },
+  "bossDirectory": {
+    "title": "Boss與敵人圖鑑"
+  },
+  "effects": {
+    "title": "效果詞典",
+    "subtitle": "一站式瀏覽所有武器效果和卡帶套裝加成",
+    "seoTitle": "異環效果詞典 - 武器與卡帶套裝效果大全",
+    "seoDescription": "异环完整效果数据库。浏览所有武器被动效果和卡带套装加成，支持搜索和筛选。",
+    "searchPlaceholder": "搜尋效果..."
+  },
+  "cityTycoon": {
+    "title": "都市大亨攻略",
+    "subtitle": "都市大亨經營系統完整攻略 - 免費S級角色和武器獎勵",
+    "seoTitle": "異環都市大亨攻略 - 免費S級赤子(小智)與等級獎勵",
+    "seoDescription": "都市大亨完整攻略。Lv.30获得免费S级赤子(小智)6+5满配。全等级奖励、技巧和策略。",
+    "overviewTitle": "系统简介",
+    "keyReward": "核心奖励：免费S级角色",
+    "exclusiveWeapon": "专属武器奖励",
+    "levelRewards": "等级奖励",
+    "tipsTitle": "经营技巧",
+    "linkExplorer": "探索伴侶",
+    "linkXiaozhi": "赤子(小智)詳情",
+    "linkTierList": "角色排行"
+  },
+  "statsCalc": {
+    "title": "屬性計算器",
+    "subtitle": "根據屬性和武器估算角色傷害輸出",
+    "seoTitle": "異環屬性與傷害計算器",
+    "seoDescription": "计算异环角色伤害输出。根据不同武器、属性和技能倍率估算DPS。",
+    "selectCharacter": "選擇角色",
+    "selectWeapon": "選擇武器",
+    "substats": "副词条",
+    "skillMultiplier": "技能倍率",
+    "results": "属性总览",
+    "damageOutput": "伤害输出",
+    "breakdown": "伤害倍率分解"
   }
 }

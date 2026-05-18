@@ -27,12 +27,16 @@ export function Footer() {
         { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
         { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
         { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
+        { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
+        { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
       ],
     },
     {
       title: t(lang, "site.nav.footer.content"),
       links: [
         { href: `/${lang}/guides`, label: t(lang, "site.nav.guides") },
+        { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
+        { href: `/${lang}/effects`, label: t(lang, "effects.title") },
         { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },
         { href: `/${lang}/lore`, label: t(lang, "site.nav.lore") },
       ],

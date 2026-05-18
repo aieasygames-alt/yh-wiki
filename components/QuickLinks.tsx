@@ -11,6 +11,8 @@ const links = [
   { key: "guides", href: "/guides" },
   { key: "explorer", href: "/explorer" },
   { key: "faq", href: "/faq" },
+  { key: "teamBuilder", href: "/team-builder" },
+  { key: "effects", href: "/effects" },
 ] as const;
 
 export function QuickLinks({ lang }: { lang: string }) {
