@@ -46,7 +46,7 @@ const STAT_ROWS: StatRow[] = [
   }},
   { label: "Sub Stat Priority", getValue: (c, isZh) => {
     const b = c.recommendedBuild;
-    return b ? (isZh ? b.subStatPriority : b.subStatPriorityEn) : "—";
+    return b ? (isZh ? b.subStatPriority : b.subStatPriorityEn).join(" > ") : "—";
   }},
   { label: "Acquisition", getValue: (c, isZh) => {
     if (!c.acquisitionMethod) return "—";
