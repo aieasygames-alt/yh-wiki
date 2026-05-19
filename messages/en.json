@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "Material Planner"
+  },
+  "compareCharacters": {
+    "title": "Character Compare"
+  },
+  "eventsCalendar": {
+    "title": "Events"
   }
 }

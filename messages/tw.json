@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "材料規劃器"
+  },
+  "compareCharacters": {
+    "title": "角色對比"
+  },
+  "eventsCalendar": {
+    "title": "活動日曆"
   }
 }

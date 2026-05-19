@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "재료 플래너"
+  },
+  "compareCharacters": {
+    "title": "캐릭터 비교"
+  },
+  "eventsCalendar": {
+    "title": "이벤트"
   }
 }

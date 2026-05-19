@@ -30,12 +30,14 @@ export function Footer() {
         { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
         { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
         { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
+        { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },
       ],
     },
     {
       title: t(lang, "site.nav.footer.content"),
       links: [
         { href: `/${lang}/guides`, label: t(lang, "site.nav.guides") },
+        { href: `/${lang}/events`, label: t(lang, "eventsCalendar.title") },
         { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
         { href: `/${lang}/effects`, label: t(lang, "effects.title") },
         { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },

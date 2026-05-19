@@ -944,5 +944,11 @@
   },
   "materialPlanner": {
     "title": "材料规划器"
+  },
+  "compareCharacters": {
+    "title": "角色对比"
+  },
+  "eventsCalendar": {
+    "title": "活动日历"
   }
 }

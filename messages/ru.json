@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "Планировщик материалов"
+  },
+  "compareCharacters": {
+    "title": "Сравнение персонажей"
+  },
+  "eventsCalendar": {
+    "title": "События"
   }
 }

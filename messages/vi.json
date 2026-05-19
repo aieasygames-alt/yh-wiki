@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "Kế hoạch Vật liệu"
+  },
+  "compareCharacters": {
+    "title": "So sánh Nhân vật"
+  },
+  "eventsCalendar": {
+    "title": "Sự kiện"
   }
 }

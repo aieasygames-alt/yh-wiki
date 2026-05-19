@@ -56,6 +56,8 @@ export function Header() {
       { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
       { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
       { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
+      { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },
+      { href: `/${lang}/events`, label: t(lang, "eventsCalendar.title") },
     ]},
     { type: "dropdown", key: "database", label: t(lang, "site.nav.database"), items: [
       { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },

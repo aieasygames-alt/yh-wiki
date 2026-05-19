@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "Perencana Material"
+  },
+  "compareCharacters": {
+    "title": "Bandingkan Karakter"
+  },
+  "eventsCalendar": {
+    "title": "Event"
   }
 }

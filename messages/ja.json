@@ -948,5 +948,11 @@
   },
   "materialPlanner": {
     "title": "素材プランナー"
+  },
+  "compareCharacters": {
+    "title": "キャラ比較"
+  },
+  "eventsCalendar": {
+    "title": "イベント"
   }
 }

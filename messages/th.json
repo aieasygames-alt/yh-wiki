@@ -943,5 +943,11 @@
   },
   "materialPlanner": {
     "title": "แผนวัสดุ"
+  },
+  "compareCharacters": {
+    "title": "เปรียบเทียบตัวละคร"
+  },
+  "eventsCalendar": {
+    "title": "กิจกรรม"
   }
 }
