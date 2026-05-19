@@ -1,5 +1,4 @@
-import { hreflangAlternates, t, LOCALES } from "../../../lib/i18n";
-import type { Metadata } from "next";
+import { hreflangAlternates, t } from "../../../lib/i18n";
 
 export async function generateMetadata({
   params,

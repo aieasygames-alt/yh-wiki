@@ -10,7 +10,6 @@ import {
   getMaterialById,
   calculateMaterials,
 } from "../../../../lib/queries";
-import type { Character } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
