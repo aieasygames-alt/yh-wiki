@@ -55,6 +55,7 @@ export function Header() {
       { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
       { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
       { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
+      { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
     ]},
     { type: "dropdown", key: "database", label: t(lang, "site.nav.database"), items: [
       { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },

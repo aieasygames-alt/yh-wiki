@@ -29,6 +29,7 @@ export function Footer() {
         { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
         { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
         { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
+        { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
       ],
     },
     {

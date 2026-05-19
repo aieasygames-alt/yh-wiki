@@ -941,5 +941,8 @@
     "results": "属性总览",
     "damageOutput": "伤害输出",
     "breakdown": "伤害倍率分解"
+  },
+  "materialPlanner": {
+    "title": "材料规划器"
   }
 }

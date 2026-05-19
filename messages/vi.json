@@ -940,5 +940,8 @@
     "results": "Stats Summary",
     "damageOutput": "Damage Output",
     "breakdown": "Damage Multiplier Breakdown"
+  },
+  "materialPlanner": {
+    "title": "Kế hoạch Vật liệu"
   }
 }
