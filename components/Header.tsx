@@ -56,6 +56,7 @@ export function Header() {
       { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
       { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
       { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
+      { href: `/${lang}/calculator/disk-score`, label: t(lang, "diskScore.title") },
       { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },
       { href: `/${lang}/events`, label: t(lang, "eventsCalendar.title") },
     ]},

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, type Locale } from "../../../../lib/i18n";
 import {
-  getAllCharacters,
+  getAvailableCharacters,
   getCharacterMaterials,
   getMaterialById,
   calculateMaterials,
@@ -90,7 +90,7 @@ export default function MaterialPlannerPage() {
   const lang = (langParam || "zh") as Locale;
   const isZh = isZhLocale(lang);
 
-  const allCharacters = useMemo(() => getAllCharacters(), []);
+  const allCharacters = useMemo(() => getAvailableCharacters(), []);
   const [plan, setPlan] = useState<PlanEntry[]>([]);
   const [owned, setOwned] = useState<Record<string, number>>({});
   const [searchQuery, setSearchQuery] = useState("");

@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "Eventos"
+  },
+  "diskScore": {
+    "title": "Calculadora de Pontuação de Disco"
   }
 }

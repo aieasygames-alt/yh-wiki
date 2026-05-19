@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { getAllCharacters, getAllWeapons } from "../../../../lib/queries";
+import { getAvailableCharacters, getAllWeapons } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import { GameImage } from "../../../../components/GameImage";
@@ -38,7 +38,7 @@ export default function StatsCalculatorPage({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
 
-  const allChars = useMemo(() => getAllCharacters(), []);
+  const allChars = useMemo(() => getAvailableCharacters(), []);
   const allWeapons = useMemo(() => getAllWeapons(), []);
 
   const [selectedChar, setSelectedChar] = useState<string>("");

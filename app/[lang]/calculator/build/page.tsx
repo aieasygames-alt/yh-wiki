@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import {
-  getAllCharacters,
+  getAvailableCharacters,
   getCharacterMaterials,
   getMaterialById,
   calculateMaterials,
@@ -48,7 +48,7 @@ export default function BuildCalculatorPage() {
   const { lang: langParam } = useParams();
   const lang = (langParam || "zh") as Locale;
 
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
   const weapons = getAllWeapons();
   const builds = buildsData as CharacterBuild[];
 

@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { getAllCharacters } from "../../../lib/queries";
+import { getAvailableCharacters } from "../../../lib/queries";
 import type { Character, Skill } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { t, isZhLocale, type Locale } from "../../../lib/i18n";
@@ -59,7 +59,7 @@ export default function CompareCharactersPage() {
   const lang = (langParam || "zh") as Locale;
   const isZh = isZhLocale(lang);
 
-  const allCharacters = useMemo(() => getAllCharacters(), []);
+  const allCharacters = useMemo(() => getAvailableCharacters(), []);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
 

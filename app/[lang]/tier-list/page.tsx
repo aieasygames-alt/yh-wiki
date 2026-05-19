@@ -1,5 +1,5 @@
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
-import { getAllCharacters } from "../../../lib/queries";
+import { getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { GiscusComments } from "../../../components/GiscusComments";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
@@ -33,7 +33,7 @@ export default async function TierListPage({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
   const isZh = isZhLocale(locale);
 
   return (

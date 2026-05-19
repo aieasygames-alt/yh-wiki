@@ -4,7 +4,7 @@ import { useState, useCallback, useMemo, useRef } from "react";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { trackEvent } from "../../../lib/analytics";
-import { getAllCharacters } from "../../../lib/queries";
+import { getAvailableCharacters } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import gachaConfig from "../../../data/gacha.json";
 import { GameImage } from "../../../components/GameImage";
@@ -61,7 +61,7 @@ export default function GachaPage() {
   const { lang: langParam } = useParams();
   const lang = (langParam || "zh") as Locale;
 
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
   const sRank = characters.filter((c) => c.rank === "S");
   const aRank = characters.filter((c) => c.rank === "A");
 

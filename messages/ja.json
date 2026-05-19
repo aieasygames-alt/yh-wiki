@@ -954,5 +954,8 @@
   },
   "eventsCalendar": {
     "title": "イベント"
+  },
+  "diskScore": {
+    "title": "ディスクスコア計算機"
   }
 }

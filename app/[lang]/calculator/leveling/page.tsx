@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import {
-  getAllCharacters,
+  getAvailableCharacters,
   getCharacterMaterials,
   getMaterialById,
   calculateMaterials,
@@ -19,7 +19,7 @@ export default function CalculatorPage() {
   const lang = (langParam || "zh") as Locale;
   const zh = isZhLocale(lang);
 
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
   const [selectedCharacter, setSelectedCharacter] = useState("");
   const [currentLevel, setCurrentLevel] = useState(1);
   const [targetLevel, setTargetLevel] = useState(60);
@@ -38,7 +38,7 @@ export default function CalculatorPage() {
 
   const selectedChar = useMemo(() => {
     if (!selectedCharacter) return null;
-    return getAllCharacters().find((c) => c.id === selectedCharacter) || null;
+    return getAvailableCharacters().find((c) => c.id === selectedCharacter) || null;
   }, [selectedCharacter]);
 
   const filteredCharacters = useMemo(() => {

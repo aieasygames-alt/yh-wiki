@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useRef, Fragment } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
-import { getAllCharacters, getAllWeapons } from "../../../lib/queries";
+import { getAvailableCharacters, getAllWeapons } from "../../../lib/queries";
 import { GameImage } from "../../../components/GameImage";
 import {
   loadData,
@@ -46,7 +46,7 @@ export default function GachaAnalyzerPage() {
   const lang = (langParam || "zh") as Locale;
   const zh = isZhLocale(lang);
 
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
   const weapons = getAllWeapons();
   const allItems = useMemo(
     () => [

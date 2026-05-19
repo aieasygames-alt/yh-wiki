@@ -132,6 +132,12 @@ export function getAllCharacters(): Character[] {
   return validatedCharacters as unknown as Character[];
 }
 
+export function getAvailableCharacters(): Character[] {
+  return getAllCharacters().filter(
+    (c) => c.status !== "upcoming" && c.status !== "rumored" && c.availableAtLaunch !== false
+  );
+}
+
 export function getCharacter(slug: string): Character | undefined {
   return getAllCharacters().find((c) => c.id === slug);
 }

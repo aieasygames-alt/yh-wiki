@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "活動日曆"
+  },
+  "diskScore": {
+    "title": "卡帶評分器"
   }
 }

@@ -30,6 +30,7 @@ export function Footer() {
         { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
         { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
         { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
+        { href: `/${lang}/calculator/disk-score`, label: t(lang, "diskScore.title") },
         { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },
       ],
     },

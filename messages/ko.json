@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "이벤트"
+  },
+  "diskScore": {
+    "title": "디스크 점수 계산기"
   }
 }

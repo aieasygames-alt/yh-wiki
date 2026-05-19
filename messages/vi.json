@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "Sự kiện"
+  },
+  "diskScore": {
+    "title": "Tính điểm Disk"
   }
 }

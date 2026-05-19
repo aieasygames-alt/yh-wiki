@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "Événements"
+  },
+  "diskScore": {
+    "title": "Calculateur de Score de Disque"
   }
 }

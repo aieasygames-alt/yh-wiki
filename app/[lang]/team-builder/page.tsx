@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { getAllCharacters } from "../../../lib/queries";
+import { getAvailableCharacters } from "../../../lib/queries";
 import buildsData from "../../../data/builds.json";
 import type { Character } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
@@ -147,7 +147,7 @@ function TeamBuilderInner({ lang }: { lang: string }) {
   const isZh = isZhLocale(locale);
   const searchParams = useSearchParams();
 
-  const allCharacters = useMemo(() => getAllCharacters(), []);
+  const allCharacters = useMemo(() => getAvailableCharacters(), []);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [filterRank, setFilterRank] = useState<string>("all");
   const [filterAttr, setFilterAttr] = useState<string>("all");

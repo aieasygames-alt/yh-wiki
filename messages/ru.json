@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "События"
+  },
+  "diskScore": {
+    "title": "Калькулятор оценки дисков"
   }
 }

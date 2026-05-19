@@ -1,5 +1,5 @@
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
-import { getAllCharacters } from "../../../lib/queries";
+import { getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
 import { CharacterFilter } from "../../../components/CharacterFilter";
@@ -31,7 +31,7 @@ export default async function CharactersPage({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
 
   return (
     <>

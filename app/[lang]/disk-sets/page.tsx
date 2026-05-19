@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
-import { getAllDiskSets, getAllCharacters } from "../../../lib/queries";
+import { getAllDiskSets, getAvailableCharacters } from "../../../lib/queries";
 import { getAttributeLabel, getAttributeColor } from "../../../lib/attributes";
 import { GameImage } from "../../../components/GameImage";
 import { Breadcrumb } from "../../../components/Breadcrumb";
@@ -20,7 +20,7 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
   const { lang } = await params;
   const locale = lang as Locale;
   const diskSets = getAllDiskSets();
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
 
   function getCharName(id: string) {
     const c = characters.find(ch => ch.id === id);

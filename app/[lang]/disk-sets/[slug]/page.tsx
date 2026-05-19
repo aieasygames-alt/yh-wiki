@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
-import { getDiskSet, getAllDiskSets, getAllCharacters } from "../../../../lib/queries";
+import { getDiskSet, getAllDiskSets, getAvailableCharacters } from "../../../../lib/queries";
 import { getAttributeLabel, getAttributeColor } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
@@ -34,7 +34,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
   const set = getDiskSet(slug);
   if (!set) notFound();
 
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
 
   return (
     <>

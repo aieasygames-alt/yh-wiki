@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { GameImage } from "./GameImage";
-import { getAllCharacters } from "../lib/queries";
+import { getAvailableCharacters } from "../lib/queries";
 import buildsData from "../data/builds.json";
 
 interface BuildEntry {
@@ -61,7 +61,7 @@ export function BossCardClient({
   const [expanded, setExpanded] = useState(false);
 
   // Find recommended teams from builds where this boss is mentioned or by matching attribute
-  const allCharacters = getAllCharacters();
+  const allCharacters = getAvailableCharacters();
   const recommendedTeams = builds
     .filter((b) => b.builds.length > 0 && b.builds[0].teamComp.length > 0)
     .slice(0, 4)

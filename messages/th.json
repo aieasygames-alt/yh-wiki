@@ -949,5 +949,8 @@
   },
   "eventsCalendar": {
     "title": "กิจกรรม"
+  },
+  "diskScore": {
+    "title": "เครื่องคิดคะแนน Disk"
   }
 }

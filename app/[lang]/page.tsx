@@ -1,7 +1,7 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { t, hreflangAlternatesIndex, isZhLocale, asLocale, type Locale } from "../../lib/i18n";
-import { getAllCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
+import { getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
@@ -120,7 +120,7 @@ export default async function HomePage({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const characters = getAllCharacters();
+  const characters = getAvailableCharacters();
   const guides = getAllGuides();
   const weapons = getAllWeapons();
   const blogPosts = getLatestBlogPosts(3);
