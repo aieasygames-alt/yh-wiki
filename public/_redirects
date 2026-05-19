@@ -398,7 +398,9 @@
 /de/blog/nte-zero-build-guide /de/blog/nte-zero-build-guide/ 301
 /de/bosses /de/bosses/ 301
 /de/calculator/build /de/calculator/build/ 301
+/de/calculator/disk-score /de/calculator/disk-score/ 301
 /de/calculator/leveling /de/calculator/leveling/ 301
+/de/calculator/planner /de/calculator/planner/ 301
 /de/calculator/stats /de/calculator/stats/ 301
 /de/changelog /de/changelog/ 301
 /de/changelog/1.0 /de/changelog/1.0/ 301
@@ -452,6 +454,7 @@
 /de/compare/nte-vs-honkai-star-rail /de/compare/nte-vs-honkai-star-rail/ 301
 /de/compare/nte-vs-wuthering-waves /de/compare/nte-vs-wuthering-waves/ 301
 /de/compare/nte-vs-zzz /de/compare/nte-vs-zzz/ 301
+/de/compare-characters /de/compare-characters/ 301
 /de/contact /de/contact/ 301
 /de/disk-sets /de/disk-sets/ 301
 /de/disk-sets/crimson-twin-butterflies /de/disk-sets/crimson-twin-butterflies/ 301
@@ -467,6 +470,7 @@
 /de/disk-sets/theas-night-tavern /de/disk-sets/theas-night-tavern/ 301
 /de/disk-sets/tiny-big-adventure /de/disk-sets/tiny-big-adventure/ 301
 /de/effects /de/effects/ 301
+/de/events /de/events/ 301
 /de/explorer /de/explorer/ 301
 /de/faq /de/faq/ 301
 /de/faq/120-pull-exchange /de/faq/120-pull-exchange/ 301
@@ -1526,7 +1530,9 @@
 /en/blog/nte-zero-build-guide /en/blog/nte-zero-build-guide/ 301
 /en/bosses /en/bosses/ 301
 /en/calculator/build /en/calculator/build/ 301
+/en/calculator/disk-score /en/calculator/disk-score/ 301
 /en/calculator/leveling /en/calculator/leveling/ 301
+/en/calculator/planner /en/calculator/planner/ 301
 /en/calculator/stats /en/calculator/stats/ 301
 /en/changelog /en/changelog/ 301
 /en/changelog/1.0 /en/changelog/1.0/ 301
@@ -1580,6 +1586,7 @@
 /en/compare/nte-vs-honkai-star-rail /en/compare/nte-vs-honkai-star-rail/ 301
 /en/compare/nte-vs-wuthering-waves /en/compare/nte-vs-wuthering-waves/ 301
 /en/compare/nte-vs-zzz /en/compare/nte-vs-zzz/ 301
+/en/compare-characters /en/compare-characters/ 301
 /en/contact /en/contact/ 301
 /en/disk-sets /en/disk-sets/ 301
 /en/disk-sets/crimson-twin-butterflies /en/disk-sets/crimson-twin-butterflies/ 301
@@ -1595,6 +1602,7 @@
 /en/disk-sets/theas-night-tavern /en/disk-sets/theas-night-tavern/ 301
 /en/disk-sets/tiny-big-adventure /en/disk-sets/tiny-big-adventure/ 301
 /en/effects /en/effects/ 301
+/en/events /en/events/ 301
 /en/explorer /en/explorer/ 301
 /en/faq /en/faq/ 301
 /en/faq/120-pull-exchange /en/faq/120-pull-exchange/ 301
@@ -2654,7 +2662,9 @@
 /es/blog/nte-zero-build-guide /es/blog/nte-zero-build-guide/ 301
 /es/bosses /es/bosses/ 301
 /es/calculator/build /es/calculator/build/ 301
+/es/calculator/disk-score /es/calculator/disk-score/ 301
 /es/calculator/leveling /es/calculator/leveling/ 301
+/es/calculator/planner /es/calculator/planner/ 301
 /es/calculator/stats /es/calculator/stats/ 301
 /es/changelog /es/changelog/ 301
 /es/changelog/1.0 /es/changelog/1.0/ 301
@@ -2708,6 +2718,7 @@
 /es/compare/nte-vs-honkai-star-rail /es/compare/nte-vs-honkai-star-rail/ 301
 /es/compare/nte-vs-wuthering-waves /es/compare/nte-vs-wuthering-waves/ 301
 /es/compare/nte-vs-zzz /es/compare/nte-vs-zzz/ 301
+/es/compare-characters /es/compare-characters/ 301
 /es/contact /es/contact/ 301
 /es/disk-sets /es/disk-sets/ 301
 /es/disk-sets/crimson-twin-butterflies /es/disk-sets/crimson-twin-butterflies/ 301
@@ -2723,6 +2734,7 @@
 /es/disk-sets/theas-night-tavern /es/disk-sets/theas-night-tavern/ 301
 /es/disk-sets/tiny-big-adventure /es/disk-sets/tiny-big-adventure/ 301
 /es/effects /es/effects/ 301
+/es/events /es/events/ 301
 /es/explorer /es/explorer/ 301
 /es/faq /es/faq/ 301
 /es/faq/120-pull-exchange /es/faq/120-pull-exchange/ 301
@@ -3782,7 +3794,9 @@
 /fr/blog/nte-zero-build-guide /fr/blog/nte-zero-build-guide/ 301
 /fr/bosses /fr/bosses/ 301
 /fr/calculator/build /fr/calculator/build/ 301
+/fr/calculator/disk-score /fr/calculator/disk-score/ 301
 /fr/calculator/leveling /fr/calculator/leveling/ 301
+/fr/calculator/planner /fr/calculator/planner/ 301
 /fr/calculator/stats /fr/calculator/stats/ 301
 /fr/changelog /fr/changelog/ 301
 /fr/changelog/1.0 /fr/changelog/1.0/ 301
@@ -3836,6 +3850,7 @@
 /fr/compare/nte-vs-honkai-star-rail /fr/compare/nte-vs-honkai-star-rail/ 301
 /fr/compare/nte-vs-wuthering-waves /fr/compare/nte-vs-wuthering-waves/ 301
 /fr/compare/nte-vs-zzz /fr/compare/nte-vs-zzz/ 301
+/fr/compare-characters /fr/compare-characters/ 301
 /fr/contact /fr/contact/ 301
 /fr/disk-sets /fr/disk-sets/ 301
 /fr/disk-sets/crimson-twin-butterflies /fr/disk-sets/crimson-twin-butterflies/ 301
@@ -3851,6 +3866,7 @@
 /fr/disk-sets/theas-night-tavern /fr/disk-sets/theas-night-tavern/ 301
 /fr/disk-sets/tiny-big-adventure /fr/disk-sets/tiny-big-adventure/ 301
 /fr/effects /fr/effects/ 301
+/fr/events /fr/events/ 301
 /fr/explorer /fr/explorer/ 301
 /fr/faq /fr/faq/ 301
 /fr/faq/120-pull-exchange /fr/faq/120-pull-exchange/ 301
@@ -4910,7 +4926,9 @@
 /id/blog/nte-zero-build-guide /id/blog/nte-zero-build-guide/ 301
 /id/bosses /id/bosses/ 301
 /id/calculator/build /id/calculator/build/ 301
+/id/calculator/disk-score /id/calculator/disk-score/ 301
 /id/calculator/leveling /id/calculator/leveling/ 301
+/id/calculator/planner /id/calculator/planner/ 301
 /id/calculator/stats /id/calculator/stats/ 301
 /id/changelog /id/changelog/ 301
 /id/changelog/1.0 /id/changelog/1.0/ 301
@@ -4964,6 +4982,7 @@
 /id/compare/nte-vs-honkai-star-rail /id/compare/nte-vs-honkai-star-rail/ 301
 /id/compare/nte-vs-wuthering-waves /id/compare/nte-vs-wuthering-waves/ 301
 /id/compare/nte-vs-zzz /id/compare/nte-vs-zzz/ 301
+/id/compare-characters /id/compare-characters/ 301
 /id/contact /id/contact/ 301
 /id/disk-sets /id/disk-sets/ 301
 /id/disk-sets/crimson-twin-butterflies /id/disk-sets/crimson-twin-butterflies/ 301
@@ -4979,6 +4998,7 @@
 /id/disk-sets/theas-night-tavern /id/disk-sets/theas-night-tavern/ 301
 /id/disk-sets/tiny-big-adventure /id/disk-sets/tiny-big-adventure/ 301
 /id/effects /id/effects/ 301
+/id/events /id/events/ 301
 /id/explorer /id/explorer/ 301
 /id/faq /id/faq/ 301
 /id/faq/120-pull-exchange /id/faq/120-pull-exchange/ 301
@@ -6038,7 +6058,9 @@
 /ja/blog/nte-zero-build-guide /ja/blog/nte-zero-build-guide/ 301
 /ja/bosses /ja/bosses/ 301
 /ja/calculator/build /ja/calculator/build/ 301
+/ja/calculator/disk-score /ja/calculator/disk-score/ 301
 /ja/calculator/leveling /ja/calculator/leveling/ 301
+/ja/calculator/planner /ja/calculator/planner/ 301
 /ja/calculator/stats /ja/calculator/stats/ 301
 /ja/changelog /ja/changelog/ 301
 /ja/changelog/1.0 /ja/changelog/1.0/ 301
@@ -6092,6 +6114,7 @@
 /ja/compare/nte-vs-honkai-star-rail /ja/compare/nte-vs-honkai-star-rail/ 301
 /ja/compare/nte-vs-wuthering-waves /ja/compare/nte-vs-wuthering-waves/ 301
 /ja/compare/nte-vs-zzz /ja/compare/nte-vs-zzz/ 301
+/ja/compare-characters /ja/compare-characters/ 301
 /ja/contact /ja/contact/ 301
 /ja/disk-sets /ja/disk-sets/ 301
 /ja/disk-sets/crimson-twin-butterflies /ja/disk-sets/crimson-twin-butterflies/ 301
@@ -6107,6 +6130,7 @@
 /ja/disk-sets/theas-night-tavern /ja/disk-sets/theas-night-tavern/ 301
 /ja/disk-sets/tiny-big-adventure /ja/disk-sets/tiny-big-adventure/ 301
 /ja/effects /ja/effects/ 301
+/ja/events /ja/events/ 301
 /ja/explorer /ja/explorer/ 301
 /ja/faq /ja/faq/ 301
 /ja/faq/120-pull-exchange /ja/faq/120-pull-exchange/ 301
@@ -7166,7 +7190,9 @@
 /ko/blog/nte-zero-build-guide /ko/blog/nte-zero-build-guide/ 301
 /ko/bosses /ko/bosses/ 301
 /ko/calculator/build /ko/calculator/build/ 301
+/ko/calculator/disk-score /ko/calculator/disk-score/ 301
 /ko/calculator/leveling /ko/calculator/leveling/ 301
+/ko/calculator/planner /ko/calculator/planner/ 301
 /ko/calculator/stats /ko/calculator/stats/ 301
 /ko/changelog /ko/changelog/ 301
 /ko/changelog/1.0 /ko/changelog/1.0/ 301
@@ -7220,6 +7246,7 @@
 /ko/compare/nte-vs-honkai-star-rail /ko/compare/nte-vs-honkai-star-rail/ 301
 /ko/compare/nte-vs-wuthering-waves /ko/compare/nte-vs-wuthering-waves/ 301
 /ko/compare/nte-vs-zzz /ko/compare/nte-vs-zzz/ 301
+/ko/compare-characters /ko/compare-characters/ 301
 /ko/contact /ko/contact/ 301
 /ko/disk-sets /ko/disk-sets/ 301
 /ko/disk-sets/crimson-twin-butterflies /ko/disk-sets/crimson-twin-butterflies/ 301
@@ -7235,6 +7262,7 @@
 /ko/disk-sets/theas-night-tavern /ko/disk-sets/theas-night-tavern/ 301
 /ko/disk-sets/tiny-big-adventure /ko/disk-sets/tiny-big-adventure/ 301
 /ko/effects /ko/effects/ 301
+/ko/events /ko/events/ 301
 /ko/explorer /ko/explorer/ 301
 /ko/faq /ko/faq/ 301
 /ko/faq/120-pull-exchange /ko/faq/120-pull-exchange/ 301
@@ -8294,7 +8322,9 @@
 /pt-br/blog/nte-zero-build-guide /pt-br/blog/nte-zero-build-guide/ 301
 /pt-br/bosses /pt-br/bosses/ 301
 /pt-br/calculator/build /pt-br/calculator/build/ 301
+/pt-br/calculator/disk-score /pt-br/calculator/disk-score/ 301
 /pt-br/calculator/leveling /pt-br/calculator/leveling/ 301
+/pt-br/calculator/planner /pt-br/calculator/planner/ 301
 /pt-br/calculator/stats /pt-br/calculator/stats/ 301
 /pt-br/changelog /pt-br/changelog/ 301
 /pt-br/changelog/1.0 /pt-br/changelog/1.0/ 301
@@ -8348,6 +8378,7 @@
 /pt-br/compare/nte-vs-honkai-star-rail /pt-br/compare/nte-vs-honkai-star-rail/ 301
 /pt-br/compare/nte-vs-wuthering-waves /pt-br/compare/nte-vs-wuthering-waves/ 301
 /pt-br/compare/nte-vs-zzz /pt-br/compare/nte-vs-zzz/ 301
+/pt-br/compare-characters /pt-br/compare-characters/ 301
 /pt-br/contact /pt-br/contact/ 301
 /pt-br/disk-sets /pt-br/disk-sets/ 301
 /pt-br/disk-sets/crimson-twin-butterflies /pt-br/disk-sets/crimson-twin-butterflies/ 301
@@ -8363,6 +8394,7 @@
 /pt-br/disk-sets/theas-night-tavern /pt-br/disk-sets/theas-night-tavern/ 301
 /pt-br/disk-sets/tiny-big-adventure /pt-br/disk-sets/tiny-big-adventure/ 301
 /pt-br/effects /pt-br/effects/ 301
+/pt-br/events /pt-br/events/ 301
 /pt-br/explorer /pt-br/explorer/ 301
 /pt-br/faq /pt-br/faq/ 301
 /pt-br/faq/120-pull-exchange /pt-br/faq/120-pull-exchange/ 301
@@ -9422,7 +9454,9 @@
 /ru/blog/nte-zero-build-guide /ru/blog/nte-zero-build-guide/ 301
 /ru/bosses /ru/bosses/ 301
 /ru/calculator/build /ru/calculator/build/ 301
+/ru/calculator/disk-score /ru/calculator/disk-score/ 301
 /ru/calculator/leveling /ru/calculator/leveling/ 301
+/ru/calculator/planner /ru/calculator/planner/ 301
 /ru/calculator/stats /ru/calculator/stats/ 301
 /ru/changelog /ru/changelog/ 301
 /ru/changelog/1.0 /ru/changelog/1.0/ 301
@@ -9476,6 +9510,7 @@
 /ru/compare/nte-vs-honkai-star-rail /ru/compare/nte-vs-honkai-star-rail/ 301
 /ru/compare/nte-vs-wuthering-waves /ru/compare/nte-vs-wuthering-waves/ 301
 /ru/compare/nte-vs-zzz /ru/compare/nte-vs-zzz/ 301
+/ru/compare-characters /ru/compare-characters/ 301
 /ru/contact /ru/contact/ 301
 /ru/disk-sets /ru/disk-sets/ 301
 /ru/disk-sets/crimson-twin-butterflies /ru/disk-sets/crimson-twin-butterflies/ 301
@@ -9491,6 +9526,7 @@
 /ru/disk-sets/theas-night-tavern /ru/disk-sets/theas-night-tavern/ 301
 /ru/disk-sets/tiny-big-adventure /ru/disk-sets/tiny-big-adventure/ 301
 /ru/effects /ru/effects/ 301
+/ru/events /ru/events/ 301
 /ru/explorer /ru/explorer/ 301
 /ru/faq /ru/faq/ 301
 /ru/faq/120-pull-exchange /ru/faq/120-pull-exchange/ 301
@@ -10550,7 +10586,9 @@
 /th/blog/nte-zero-build-guide /th/blog/nte-zero-build-guide/ 301
 /th/bosses /th/bosses/ 301
 /th/calculator/build /th/calculator/build/ 301
+/th/calculator/disk-score /th/calculator/disk-score/ 301
 /th/calculator/leveling /th/calculator/leveling/ 301
+/th/calculator/planner /th/calculator/planner/ 301
 /th/calculator/stats /th/calculator/stats/ 301
 /th/changelog /th/changelog/ 301
 /th/changelog/1.0 /th/changelog/1.0/ 301
@@ -10604,6 +10642,7 @@
 /th/compare/nte-vs-honkai-star-rail /th/compare/nte-vs-honkai-star-rail/ 301
 /th/compare/nte-vs-wuthering-waves /th/compare/nte-vs-wuthering-waves/ 301
 /th/compare/nte-vs-zzz /th/compare/nte-vs-zzz/ 301
+/th/compare-characters /th/compare-characters/ 301
 /th/contact /th/contact/ 301
 /th/disk-sets /th/disk-sets/ 301
 /th/disk-sets/crimson-twin-butterflies /th/disk-sets/crimson-twin-butterflies/ 301
@@ -10619,6 +10658,7 @@
 /th/disk-sets/theas-night-tavern /th/disk-sets/theas-night-tavern/ 301
 /th/disk-sets/tiny-big-adventure /th/disk-sets/tiny-big-adventure/ 301
 /th/effects /th/effects/ 301
+/th/events /th/events/ 301
 /th/explorer /th/explorer/ 301
 /th/faq /th/faq/ 301
 /th/faq/120-pull-exchange /th/faq/120-pull-exchange/ 301
@@ -11678,7 +11718,9 @@
 /tw/blog/nte-zero-build-guide /tw/blog/nte-zero-build-guide/ 301
 /tw/bosses /tw/bosses/ 301
 /tw/calculator/build /tw/calculator/build/ 301
+/tw/calculator/disk-score /tw/calculator/disk-score/ 301
 /tw/calculator/leveling /tw/calculator/leveling/ 301
+/tw/calculator/planner /tw/calculator/planner/ 301
 /tw/calculator/stats /tw/calculator/stats/ 301
 /tw/changelog /tw/changelog/ 301
 /tw/changelog/1.0 /tw/changelog/1.0/ 301
@@ -11732,6 +11774,7 @@
 /tw/compare/nte-vs-honkai-star-rail /tw/compare/nte-vs-honkai-star-rail/ 301
 /tw/compare/nte-vs-wuthering-waves /tw/compare/nte-vs-wuthering-waves/ 301
 /tw/compare/nte-vs-zzz /tw/compare/nte-vs-zzz/ 301
+/tw/compare-characters /tw/compare-characters/ 301
 /tw/contact /tw/contact/ 301
 /tw/disk-sets /tw/disk-sets/ 301
 /tw/disk-sets/crimson-twin-butterflies /tw/disk-sets/crimson-twin-butterflies/ 301
@@ -11747,6 +11790,7 @@
 /tw/disk-sets/theas-night-tavern /tw/disk-sets/theas-night-tavern/ 301
 /tw/disk-sets/tiny-big-adventure /tw/disk-sets/tiny-big-adventure/ 301
 /tw/effects /tw/effects/ 301
+/tw/events /tw/events/ 301
 /tw/explorer /tw/explorer/ 301
 /tw/faq /tw/faq/ 301
 /tw/faq/120-pull-exchange /tw/faq/120-pull-exchange/ 301
@@ -12806,7 +12850,9 @@
 /vi/blog/nte-zero-build-guide /vi/blog/nte-zero-build-guide/ 301
 /vi/bosses /vi/bosses/ 301
 /vi/calculator/build /vi/calculator/build/ 301
+/vi/calculator/disk-score /vi/calculator/disk-score/ 301
 /vi/calculator/leveling /vi/calculator/leveling/ 301
+/vi/calculator/planner /vi/calculator/planner/ 301
 /vi/calculator/stats /vi/calculator/stats/ 301
 /vi/changelog /vi/changelog/ 301
 /vi/changelog/1.0 /vi/changelog/1.0/ 301
@@ -12860,6 +12906,7 @@
 /vi/compare/nte-vs-honkai-star-rail /vi/compare/nte-vs-honkai-star-rail/ 301
 /vi/compare/nte-vs-wuthering-waves /vi/compare/nte-vs-wuthering-waves/ 301
 /vi/compare/nte-vs-zzz /vi/compare/nte-vs-zzz/ 301
+/vi/compare-characters /vi/compare-characters/ 301
 /vi/contact /vi/contact/ 301
 /vi/disk-sets /vi/disk-sets/ 301
 /vi/disk-sets/crimson-twin-butterflies /vi/disk-sets/crimson-twin-butterflies/ 301
@@ -12875,6 +12922,7 @@
 /vi/disk-sets/theas-night-tavern /vi/disk-sets/theas-night-tavern/ 301
 /vi/disk-sets/tiny-big-adventure /vi/disk-sets/tiny-big-adventure/ 301
 /vi/effects /vi/effects/ 301
+/vi/events /vi/events/ 301
 /vi/explorer /vi/explorer/ 301
 /vi/faq /vi/faq/ 301
 /vi/faq/120-pull-exchange /vi/faq/120-pull-exchange/ 301
@@ -13934,7 +13982,9 @@
 /zh/blog/nte-zero-build-guide /zh/blog/nte-zero-build-guide/ 301
 /zh/bosses /zh/bosses/ 301
 /zh/calculator/build /zh/calculator/build/ 301
+/zh/calculator/disk-score /zh/calculator/disk-score/ 301
 /zh/calculator/leveling /zh/calculator/leveling/ 301
+/zh/calculator/planner /zh/calculator/planner/ 301
 /zh/calculator/stats /zh/calculator/stats/ 301
 /zh/changelog /zh/changelog/ 301
 /zh/changelog/1.0 /zh/changelog/1.0/ 301
@@ -13988,6 +14038,7 @@
 /zh/compare/nte-vs-honkai-star-rail /zh/compare/nte-vs-honkai-star-rail/ 301
 /zh/compare/nte-vs-wuthering-waves /zh/compare/nte-vs-wuthering-waves/ 301
 /zh/compare/nte-vs-zzz /zh/compare/nte-vs-zzz/ 301
+/zh/compare-characters /zh/compare-characters/ 301
 /zh/contact /zh/contact/ 301
 /zh/disk-sets /zh/disk-sets/ 301
 /zh/disk-sets/crimson-twin-butterflies /zh/disk-sets/crimson-twin-butterflies/ 301
@@ -14003,6 +14054,7 @@
 /zh/disk-sets/theas-night-tavern /zh/disk-sets/theas-night-tavern/ 301
 /zh/disk-sets/tiny-big-adventure /zh/disk-sets/tiny-big-adventure/ 301
 /zh/effects /zh/effects/ 301
+/zh/events /zh/events/ 301
 /zh/explorer /zh/explorer/ 301
 /zh/faq /zh/faq/ 301
 /zh/faq/120-pull-exchange /zh/faq/120-pull-exchange/ 301

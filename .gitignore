@@ -45,7 +45,10 @@ next-env.d.ts
 .lighthouseci/
 test-results/
 tmp/
+
+# internal docs (plans, analysis, SOPs — not for deployment)
 plans/
+docs/
 
 # empty data stubs
 data/nte-all-items.json
