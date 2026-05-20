@@ -235,14 +235,7 @@ function TeamBuilderInner({ lang }: { lang: string }) {
   }, [lang, selectedIds]);
 
   return (
-    <>
-      <Breadcrumb
-        items={[
-          { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: t(locale, "teamBuilder.title") },
-        ]}
-      />
-      <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-6xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-2">
           {t(locale, "teamBuilder.title")}
         </h1>
@@ -605,6 +598,5 @@ function TeamBuilderInner({ lang }: { lang: string }) {
           </div>
         </section>
       </div>
-    </>
   );
 }
