@@ -12,10 +12,8 @@ import {
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../../components/JsonLd";
 
-const ALL_TAGS = new Set<string>();
-
-function collectTags() {
-  const sources = [
+function collectSources() {
+  return [
     ...getAllCharacters().map((c) => ({ type: "character" as const, id: c.id, name: c.name, nameEn: c.nameEn, tags: [c.attribute, c.rank.toLowerCase(), c.role.toLowerCase()] })),
     ...getAllWeapons().map((w) => ({ type: "weapon" as const, id: w.id, name: w.name, nameEn: w.nameEn, tags: [w.type.toLowerCase()] })),
     ...getAllMaterials().map((m) => ({ type: "material" as const, id: m.id, name: m.name, nameEn: m.nameEn, tags: [m.type.toLowerCase()] })),
@@ -24,17 +22,18 @@ function collectTags() {
     ...getAllLore().map((l) => ({ type: "lore" as const, id: l.id, name: l.name, nameEn: l.nameEn, tags: [l.category.toLowerCase()] })),
     ...getAllLocations().map((l) => ({ type: "location" as const, id: l.id, name: l.name, nameEn: l.nameEn, tags: [l.category.toLowerCase()] })),
   ];
-  sources.forEach((s) => s.tags.forEach((tag) => ALL_TAGS.add(tag.toLowerCase())));
-  return sources;
 }
 
 export function generateStaticParams() {
-  collectTags();
-  return Array.from(ALL_TAGS).flatMap((tag) => LOCALES.map((lang) => ({ lang, tag })));
+  const sources = collectSources();
+  const allTags = new Set<string>();
+  sources.forEach((s) => s.tags.forEach((tag) => allTags.add(tag.toLowerCase())));
+  return Array.from(allTags).flatMap((tag) => LOCALES.map((lang) => ({ lang, tag })));
 }
 
 export async function generateMetadata({ params }: { params: { lang: string; tag: string } }) {
-  const { lang, tag } = await params;
+  const { lang, tag: rawTag } = await params;
+  const tag = decodeURIComponent(rawTag);
   const locale = lang as Locale;
   const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环游戏 Wiki` : `#${tag} - NTE Guide`;
   const description = isZhLocale(locale)
@@ -54,10 +53,11 @@ const TYPE_LABELS: Record<string, Record<string, string>> = {
 };
 
 export default async function TagPage({ params }: { params: { lang: string; tag: string } }) {
-  const { lang, tag } = await params;
+  const { lang, tag: rawTag } = await params;
+  const tag = decodeURIComponent(rawTag);
   const locale = lang as Locale;
 
-  const sources = collectTags();
+  const sources = collectSources();
   const tagLower = tag.toLowerCase();
   const matched = sources.filter((s) => s.tags.some((t) => t.toLowerCase() === tagLower));
 
