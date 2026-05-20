@@ -121,19 +121,36 @@ function buildHreflangMap(pathFn: (locale: Locale) => string): Record<string, st
   return languages;
 }
 
+/**
+ * Locales with actual translated content. Others fall back to English,
+ * so their canonical should point to the English version to avoid
+ * Google flagging them as duplicate content.
+ */
+const TRANSLATED_LOCALES: ReadonlySet<string> = new Set(["zh", "tw", "en"]);
+
+/** Whether a locale has its own translated content (not falling back to English) */
+export function hasTranslation(locale: string): boolean {
+  return TRANSLATED_LOCALES.has(asLocale(locale));
+}
+
 /** Generate hreflang alternates for a given path (without leading /) */
 export function hreflangAlternates(pathWithoutLang: string, lang: string) {
   const urlWithSlash = `${pathWithoutLang}/`;
+  const locale = asLocale(lang);
+  // Point canonical to English for untranslated locales to avoid duplicate content flags
+  const canonicalLocale = hasTranslation(locale) ? locale : "en";
   return {
-    canonical: `${BASE_URL}/${lang}/${urlWithSlash}`,
-    languages: buildHreflangMap((locale) => `${BASE_URL}/${locale}/${urlWithSlash}`),
+    canonical: `${BASE_URL}/${canonicalLocale}/${urlWithSlash}`,
+    languages: buildHreflangMap((l) => `${BASE_URL}/${l}/${urlWithSlash}`),
   };
 }
 
 /** Generate hreflang alternates for index page (no sub-path) */
 export function hreflangAlternatesIndex(lang: string) {
+  const locale = asLocale(lang);
+  const canonicalLocale = hasTranslation(locale) ? locale : "en";
   return {
-    canonical: `${BASE_URL}/${lang}/`,
-    languages: buildHreflangMap((locale) => `${BASE_URL}/${locale}/`),
+    canonical: `${BASE_URL}/${canonicalLocale}/`,
+    languages: buildHreflangMap((l) => `${BASE_URL}/${l}/`),
   };
 }
