@@ -7299,5 +7299,130 @@
     "nameTw": "浔",
     "arcType": "liquid",
     "signatureArc": "clear-skies"
+  },
+  {
+    "id": "chaos",
+    "name": "卡厄斯",
+    "nameEn": "Chaos",
+    "attribute": "chaos",
+    "rank": "S",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
+    "role": "进攻",
+    "roleEn": "Attack",
+    "faction": "待定",
+    "description": "异环中首位S级限定男性角色，登场于1.1版本主线篇章「绯色研究报告」。",
+    "faq": [
+      {
+        "question": "Is Chaos good in Neverness to Everness?",
+        "questionZh": "卡厄斯值得培养吗？",
+        "answer": "Chaos is a S-rank Attack character in Neverness to Everness. As the first limited S-rank male character, debuting in Version 1.1's 'A Research in Scarlet' main episode, Chaos is expected to be a top-tier DPS. Check our tier list for the latest ranking.",
+        "answerZh": "卡厄斯是异环中的S级进攻角色，也是首位S级限定男性角色，在1.1版本主线篇章「绯色研究报告」中登场。详细评级请查看我们的角色排行榜。"
+      },
+      {
+        "question": "What is the best build for Chaos?",
+        "questionZh": "卡厄斯最佳配装是什么？",
+        "answer": "The best build for Chaos in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank chaos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "卡厄斯的最佳配装侧重于最大化其进攻潜力。作为S级chaos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+      },
+      {
+        "question": "How to get Chaos in Neverness to Everness?",
+        "questionZh": "如何获得卡厄斯？",
+        "answer": "Chaos can be obtained through the limited banner gacha system in Neverness to Everness Version 1.1. As a limited S-rank character, they are only available during their featured banner period. Check our gacha simulator to test your luck!",
+        "answerZh": "卡厄斯可以通过异环1.1版本的限定祈愿获得。作为限定S级角色，仅在活动祈愿期间开放获取。使用我们的抽卡模拟器测试运气！"
+      },
+      {
+        "question": "What is the best team for Chaos?",
+        "questionZh": "卡厄斯最佳配队是什么？",
+        "answer": "The best team for Chaos in Neverness to Everness depends on the content. As a chaos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "卡厄斯的最佳配队取决于具体内容。作为chaos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+      },
+      {
+        "question": "What is the best weapon for Chaos?",
+        "questionZh": "卡厄斯最佳武器是什么？",
+        "answer": "The best weapon for Chaos depends on your playstyle and available options. They use Esper Constructs type weapons. Check our weapon tier list for the best options for Chaos.",
+        "answerZh": "卡厄斯的最佳武器取决于你的玩法和可用选项。他们使用异能构装体类型武器。查看我们的武器排行榜了解卡厄斯的最佳选择。"
+      }
+    ],
+    "relatedCharacters": [
+      "lacrimosa"
+    ],
+    "tierRank": "TBD",
+    "tierReason": "Upcoming character, pending evaluation",
+    "tierReasonZh": "即将上线角色，待评估",
+    "skills": {
+      "normalAttack": {
+        "name": "待定",
+        "nameEn": "TBD",
+        "description": "技能详情待更新。",
+        "descriptionEn": "Skill details to be updated."
+      },
+      "skill": {
+        "name": "待定",
+        "nameEn": "TBD",
+        "description": "技能详情待更新。",
+        "descriptionEn": "Skill details to be updated.",
+        "cooldown": 0,
+        "cost": 0
+      },
+      "ultimate": {
+        "name": "待定",
+        "nameEn": "TBD",
+        "description": "技能详情待更新。",
+        "descriptionEn": "Skill details to be updated.",
+        "cost": 0
+      },
+      "qte": {
+        "name": "待定",
+        "nameEn": "TBD",
+        "description": "技能详情待更新。",
+        "descriptionEn": "Skill details to be updated."
+      },
+      "passives": [],
+      "awakening": [],
+      "resonance": []
+    },
+    "recommendedBuild": {
+      "bestWeapon": "待定",
+      "bestWeaponEn": "TBD",
+      "alternativeWeapons": [],
+      "bestDiskSet": "待定",
+      "bestDiskSetEn": "TBD",
+      "mainStats": {
+        "沙漏": "攻击力%",
+        "杯子": "属性伤害加成",
+        "头冠": "暴击率"
+      },
+      "mainStatsEn": {
+        "Sands": "ATK%",
+        "Goblet": "Elemental DMG Bonus",
+        "Circlet": "CRIT Rate"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
+    },
+    "teamComps": [],
+    "image": "/images/characters/chaos.webp",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "limited",
+    "descriptionEn": "The first S-rank limited male character in Neverness to Everness, debuting in Version 1.1's 'A Research in Scarlet' main episode.",
+    "status": "upcoming",
+    "nameTw": "卡厄斯",
+    "cvZh": "待定",
+    "cvJp": "待定",
+    "cvEn": "TBD",
+    "trait": "待定",
+    "arcType": "synthesis",
+    "signatureArc": ""
   }
 ]
