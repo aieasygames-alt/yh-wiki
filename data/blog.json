@@ -1,34 +1,36 @@
 [
   {
-    "id": "nte-v11-preview-livestream",
-    "title": "异环1.1版本「游梦洄廊」前瞻直播汇总 — 新角色、新地图、新兑换码全收录",
-    "titleEn": "NTE Version 1.1 'Wandering Corridor' Livestream Summary — New Characters, Map & Codes",
+    "id": "nte-may-19-hotfix-v11-announced",
+    "title": "异环5月19日热修复汇总 + 1.1版本「游梦洄廊」前瞻定档5月23日",
+    "titleEn": "NTE May 19 Hotfix Patch Notes + Version 1.1 'Wandering Corridor' Livestream Announced for May 23",
     "category": "版本更新",
     "categoryZh": "版本更新",
     "categoryEn": "Version Update",
-    "date": "2026-05-23",
+    "date": "2026-05-20",
     "tags": [
+      "hotfix",
+      "补丁",
       "1.1",
       "前瞻直播",
+      "游梦洄廊",
       "安魂曲",
       "卡厄斯",
       "新角色",
-      "兑换码",
-      "游梦洄廊",
-      "version update"
+      "同居系统",
+      "patch notes"
     ],
-    "summary": "异环1.1版本「游梦洄廊」前瞻特别节目于5月23日播出，暗系大C安魂曲、首位S级限定男角色卡厄斯亮相，新地图、船只载具、移动端优化等重磅内容一文汇总。",
-    "summaryEn": "NTE Version 1.1 'Wandering Corridor' preview livestream aired May 23. New S-rank characters Lacrimosa (Dark DPS) and Chaos (first limited male S-rank), new map, ship vehicles, mobile optimization and more.",
+    "summary": "异环5月19日发布热修复补丁，修复了Zero同伴活动Bug、九原终结技异常等20余项问题。同时官方宣布1.1版本「游梦洄廊」前瞻直播定档5月23日19:30，暗系大C安魂曲与首位S级限定男角色卡厄斯即将登场，还有新地图、船只载具、男角色同居系统等重磅内容。",
+    "summaryEn": "NTE deployed a May 19 hotfix fixing 20+ issues including Zero's Companion event bug and Jiuyuan's Ultimate glitch. Official 1.1 'Wandering Corridor' livestream confirmed for May 23 at 19:30 UTC+8 — featuring Lacrimosa (Dark S-rank DPS), Chaos (first limited male S-rank), new map, ship vehicles, and more.",
     "internalLinks": [
       {
         "href": "/characters/lacrimosa",
         "label": "安魂曲角色页",
-        "labelEn": "Lacrimosa Character Page"
+        "labelEn": "Lacrimosa"
       },
       {
         "href": "/characters/chaos",
         "label": "卡厄斯角色页",
-        "labelEn": "Chaos Character Page"
+        "labelEn": "Chaos"
       },
       {
         "href": "/redeem-codes",
@@ -41,8 +43,8 @@
         "labelEn": "Tier List"
       }
     ],
-    "content": "异环1.1版本「游梦洄廊」前瞻特别节目已于2026年5月23日19:30正式播出。这是异环公测后的首个大版本更新，内容量非常丰富。以下是直播核心内容汇总。\n\n新角色\n\n上半卡池 — 安魂曲（Lacrimosa）：暗属性（Chaos）S级限定进攻角色。异常控制局ETD-4队员，擅长操控多个异能构装体进行协同战斗。召唤物拥有优秀的AoE能力，适合群体战斗场景。\n\n下半卡池 — 卡厄斯（Chaos）：异环首位S级限定男角色。出现在主线「猩红研究」剧情中，具体技能和定位以游戏内实装为准。\n\n新地图与探索内容\n\n1.1版本将开放全新游乐园区域地图，包含新的探索点、宝箱和异象收集内容。互动地图将同步更新标记数据。\n\n船只载具\n\n新增船只载具系统，玩家可以在水域自由航行，拓展了探索范围和移动方式。\n\n男角色同居系统\n\n1.1版本或将上线全新的男角色同居社交玩法，具体机制待官方后续公告确认。\n\n移动端优化\n\n针对手机端性能问题进行了专项优化，包括降低发热、提升帧率稳定性、减少内存占用等。\n\n其他更新\n\n新的限时活动和副本、弧盘/武器平衡性调整、UI交互优化等。具体细节请关注游戏内公告。\n\n1.1版本兑换码\n\n前瞻直播期间发放的兑换码已更新至我们的兑换码页面，请尽快使用。兑换方式：游戏内点击头像 → 设置 → 兑换码输入框。\n\n版本上线时间\n\n1.1版本「游梦洄廊」预计于6月初上线，具体日期以官方公告为准。安魂曲预计为上半卡池，卡厄斯预计为下半卡池。\n\n抽卡建议\n\n零氪/微氪玩家建议优先保底安魂曲（暗系大C，通用性强），有余力再考虑卡厄斯。当前版本存够约90抽方可保底一个S级角色。\n\n更多1.1版本详细攻略，包括角色Build、配队推荐、材料规划等，将在版本上线后第一时间更新。关注我们的角色页面和攻略页面获取最新信息。",
-    "contentEn": "The NTE Version 1.1 'Wandering Corridor' preview livestream aired on May 23, 2026 at 19:30 (UTC+8). This is the first major update since launch, packed with new content.\n\nNew Characters\n\nPhase 1 Banner — Lacrimosa: Chaos-attribute S-rank limited Attack character. ETD-4 member who controls multiple Esper Constructs for coordinated combat. Her summons excel at AoE damage, making her strong for group fights.\n\nPhase 2 Banner — Chaos: The first S-rank limited male character in NTE. Appears in the 'A Research in Scarlet' main story quest.\n\nNew Map & Exploration\n\nA new amusement park area opens with fresh exploration points, treasure chests, and anomaly collection content. Our interactive map will be updated with all new markers.\n\nShip Vehicles\n\nA new ship vehicle system allows players to sail across water areas, expanding exploration and movement options.\n\nMale Character Co-Habitation System\n\nA new social system for male characters may be introduced in 1.1. Details pending official confirmation.\n\nMobile Optimization\n\nPerformance improvements for mobile include reduced overheating, better frame rate stability, and lower memory usage.\n\nOther Updates\n\nNew limited-time events and dungeons, arc disc/weapon balance adjustments, UI/UX improvements.\n\n1.1 Redeem Codes\n\nLivestream codes have been added to our Redeem Codes page. Redeem via: Profile → Settings → Enter Code.\n\nRelease Date\n\nVersion 1.1 is expected to go live in early June. Lacrimosa in Phase 1, Chaos in Phase 2.\n\nPull Strategy\n\nF2P/low-spenders should prioritize guaranteeing Lacrimosa (strong universal Dark DPS) first. Save ~90 pulls for one S-rank guarantee.\n\nDetailed character builds, team comps, and material planning guides will be updated immediately after the version goes live."
+    "content": "异环近期动态频繁，5月19日刚推送了新一轮热修复补丁，1.1版本前瞻直播也正式定档。以下是详细汇总。\n\n5月19日热修复补丁\n\n异环于5月19日14:00（UTC+8）推送了热修复补丁，更新期间可能短暂卡顿或掉线。本次修复内容较多，重点如下：\n\n活动Bug修复\n\n- 修复了Zero的同伴活动中，分配试用角色作为同伴会导致后续任务无法推进的问题（更新后重新分配即可）\n- 修复了多人模式「粉色爪爪劫案」中队友触碰激光后角色模型偶发异常\n- 修复了多人模式「同伴邀请」中Chiz的「独自行动·泳池玩耍」动画播放异常\n\n战斗修复\n\n- 修复了九原（Jiuyuan）终结技「最终审判」在某些情况下错误触发「契约结算」效果的问题\n- 修复了变轨技能的破抗效果偶尔无法触发的问题\n- 修复了某些角色Buff在进入「铁道彼岸」高危委托时偶尔无法生效的问题\n- 修复了异常Boss Bopp在进入第二阶段后卡在墙内的问题\n\n视觉与体验优化\n\n- 提亮了「粉色爪爪劫案」关卡整体光照\n- 调整了Regalia Griffin和Griffin Volante因更宽底盘导致的蹭墙行为\n- 修复了「海钓」中渔获结果画面光照效果显示异常\n\n其他修复\n\n- 修复了滑翔翼偶尔无法展开的问题\n- 修复了移动端「专注鸟类爱好者」隐藏任务无法正确推进的问题\n- 修复了移动端Boss血条在挑战「无头骑士」时消失的问题\n- 修复了旧邮箱异常家具移动后模型消失\n- 修复了2楼放置床后起身穿出房屋的问题\n- 修复了在家居舞台上打鼓后角色无法移动的问题\n- 统一了弧盘类型Condensate/Hybrid/Synthesis的英文翻译\n- 改善了部分语言本地化质量\n- 修复了其他已知问题\n\n1.1版本「游梦洄廊」前瞻直播定档\n\n官方宣布1.1版本「游梦洄廊」前瞻特别节目定档5月23日19:30（UTC+8），将在官方YouTube/B站/抖音等平台同步直播。这是异环公测后的首个大版本更新，核心内容如下：\n\n新角色\n\n上半卡池 — 安魂曲（Lacrimosa）：暗属性S级限定进攻角色。异常控制局ETD-4队员，操控多个异能构装体协同作战，AoE能力出众。\n\n下半卡池 — 卡厄斯（Chaos）：异环首位S级限定男角色，出现在主线「猩红研究」剧情中。\n\n新内容\n\n- 全新游乐园主题地图\n- 船只载具系统\n- 男角色同居系统（居家时刻扩展）\n- 第5话主线更新\n- 保时捷918联动\n- 移动端性能优化\n- 角色时装：安魂曲（常规×4+宿舍×1）、卡厄斯（常规×1+宿舍×1）等\n\n版本上线时间\n\n1.1版本预计6月初上线，具体日期以直播中公布的为准。前瞻直播通常会发放3-6个兑换码，我们会第一时间更新到兑换码页面。\n\n抽卡建议\n\n当前Hotori卡池即将结束，如果你还没抽到她，需要考虑是否在1.1前投入资源。零氪玩家建议优先保底安魂曲（暗系大C，通用性强），有余力再考虑卡厄斯。\n\n更多1.1版本内容我们会在直播后第一时间更新，请关注我们的角色页面和攻略页面。",
+    "contentEn": "NTE has been busy — a new hotfix dropped on May 19, and the Version 1.1 livestream is officially scheduled. Here's everything you need to know.\n\nMay 19 Hotfix Patch Notes\n\nNTE deployed a hotfix on May 19 at 14:00 UTC+8. Players may experience brief lag or disconnects during the rollout. Key fixes:\n\nEvent Bug Fixes\n\n- Fixed Zero's Companion event where assigning a trial character as your companion caused progression-blocking errors (re-assign after update)\n\n- Fixed character model glitches in multiplayer Pink Paws Heist after a teammate touched a laser\n\n- Fixed Chiz's 'Solo Actions - Play in Pool' animation in multiplayer Companion Invitation\n\nCombat Fixes\n\n- Fixed Jiuyuan's Ultimate 'Final Reckoning' incorrectly triggering the Pact Settlement effect\n\n- Fixed Redirect Skills' Break Resistance occasionally failing to activate\n\n- Fixed character buffs occasionally failing when entering High-Risk Commissions in Beyond the Rails\n\n- Fixed Anomaly boss Bopp getting stuck inside walls after entering 2nd phase\n\nVisual & Experience\n\n- Brightened overall lighting in Pink Paws Heist\n\n- Adjusted wall-snap behavior for Regalia Griffin and Griffin Volante\n\n- Fixed incorrect lighting on Sea Angler results screen\n\nOther Fixes\n\n- Fixed gliders occasionally failing to deploy\n\n- Fixed mobile hidden quest 'Focused Bird Enthusiast' failing to progress\n\n- Fixed mobile boss health bar disappearing during Anomaly Hunt: Headless Rider\n\n- Fixed Old Mailbox Anomaly furniture disappearing when moved\n\n- Fixed player clipping outside house when getting up from a 2nd-floor bed\n\n- Fixed player unable to move after playing drums on Home Performance Stage\n\n- Unified Arc types (Condensate/Hybrid/Synthesis) to single English term\n\n- Improved localization quality\n\n- Fixed other known issues\n\nVersion 1.1 'Wandering Corridor' Livestream Announced\n\nThe official 1.1 Preview Special Program is confirmed for May 23 at 19:30 UTC+8 on YouTube/Bilibili/Twitch. This is the first major update since launch.\n\nNew Characters\n\nPhase 1 — Lacrimosa: Chaos-attribute S-rank limited Attack character. ETD-4 member controlling multiple Esper Constructs with strong AoE capabilities.\n\nPhase 2 — Chaos: The first S-rank limited male character in NTE, appearing in the 'A Research in Scarlet' main story.\n\nNew Content\n\n- New amusement park themed map\n\n- Ship vehicle system\n\n- Male character co-habitation (Home Moments expansion)\n\n- Main story Episode 5 update\n\n- Porsche 918 collaboration\n\n- Mobile performance optimization\n\n- Character skins: Lacrimosa (4 regular + 1 dorm), Chaos (1 regular + 1 dorm)\n\nVersion Release Date\n\nVersion 1.1 is expected in early June. The livestream will reveal the exact date and distribute 3-6 redeem codes. We'll update our codes page immediately.\n\nPull Strategy\n\nHotori's banner ends before 1.1. F2P players should prioritize guaranteeing Lacrimosa (strong universal Dark DPS) first, then consider Chaos if resources allow.\n\nWe'll have full 1.1 coverage after the livestream — stay tuned."
   },
   {
     "id": "nte-baicang-build-guide",
