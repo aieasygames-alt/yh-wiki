@@ -843,10 +843,6 @@
     "aboutContent": "NTE Guideは、Neverness to Evernessプレイヤーのためのコミュニティ駆動型リソースサイトで、キャラクターデータベース、ティアリスト、ビルド計算機、ガチャシミュレーターなどを提供しています。",
     "feedbackNote": "当サイトの誤りのご指摘やコンテンツのご提案がございましたら、ぜひお聞かせください。ご支援ありがとうございます！"
   },
-  "faqPage": {
-    "seoTitle": "NTE FAQ — よくある50以上の質問に回答",
-    "seoDescription": "Neverness to Evernessのよくある質問集。ダウンロード方法、マルチプレイ、動作環境、引き換えコード、ガチャ天井について即座に回答。"
-  },
   "explorer": {
     "title": "探索コンパニオン",
     "description": "収集ルートを最適化し、探索進捗を追跡",

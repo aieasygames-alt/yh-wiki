@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     ? (locale === "tw"
       ? "異環電腦配置要求（2026更新）— PC最低i5-8400/GTX1060、手機配置"
       : "异环电脑配置要求（2026更新）— PC最低i5-8400/GTX1060、手机配置")
-    : "NTE System Requirements 2026 - PC, Android, iOS Specs (Updated)";
+    : "Can You Run NTE? System Requirements for PC, Android & iOS (2026)";
   const description = isZhLocale(locale)
     ? (locale === "tw"
       ? "異環(NTE)配置要求：PC最低i5-8400+GTX1060+8GB記憶體，下載約90GB。手機Android 8GB/iOS iPhone 12起。含詳細推薦配置表。"
       : "异环(NTE)配置要求：PC最低i5-8400+GTX1060+8GB内存，下载约90GB。手机Android 8GB/iOS iPhone 12起。含详细推荐配置表。")
-    : "Can your PC run NTE? Minimum: i5-8400, GTX 1060, 8GB RAM, 90GB SSD. Full specs for PC, Android & iOS. Download size, recommended hardware, and FPS guide.";
+    : "Can your PC or phone run Neverness to Everness? Min: i7-10700, GTX 1660, 60GB. Full PC, Android & iOS specs, download size, and performance tips.";
 
   return {
     title,
@@ -127,6 +127,32 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       <p className="text-sm text-gray-500 mb-8">
         {t(locale, "systemReqs.pageDescription")}
       </p>
+
+      {/* Quick Answer — helps Featured Snippet / CTR */}
+      <section className="mb-8 rounded-xl border border-primary-500/30 bg-primary-500/5 p-5">
+        <h2 className="text-lg font-bold mb-3">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "⚡ 快速回答" : "⚡ 快速回答")
+            : "⚡ Quick Answer"}
+        </h2>
+        <div className="text-sm text-gray-300 space-y-1.5">
+          <p>
+            <strong>PC Minimum:</strong> {isZhLocale(locale) ? "Windows 10, i7-10700, GTX 1660 / RX 5600, 60GB SSD" : "Windows 10, Intel i7-10700, GTX 1660 / RX 5600, 60GB SSD"}
+          </p>
+          <p>
+            <strong>PC Recommended:</strong> {isZhLocale(locale) ? "i7-12700, RTX 3060 / RX 6700, 60GB SSD" : "Intel i7-12700, RTX 3060 / RX 6700, 60GB SSD"}
+          </p>
+          <p>
+            <strong>Android:</strong> {isZhLocale(locale) ? "Snapdragon 855 / 天玑 8000，20GB 存储" : "Snapdragon 855 or Dimensity 8000, 20GB storage"}
+          </p>
+          <p>
+            <strong>iOS:</strong> {isZhLocale(locale) ? "iPhone 12 Pro Max，iOS 15+" : "iPhone 12 Pro Max, iOS 15+"}
+          </p>
+          <p>
+            <strong>{isZhLocale(locale) ? "下载大小" : "Download Size"}:</strong> {isZhLocale(locale) ? "约 60GB（额外需 60GB 临时解压空间）" : "~60GB (plus 60GB temp for extraction)"}
+          </p>
+        </div>
+      </section>
 
       {/* PC Requirements */}
       <section className="mb-10">

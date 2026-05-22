@@ -12,21 +12,13 @@ import {
   hreflangAlternatesIndex,
 } from "../i18n";
 
-const NEW_LOCALES = ["ja", "ko", "de", "fr", "es", "ru"];
-
 describe("LOCALES", () => {
-  it("contains exactly 13 locales", () => {
-    expect(LOCALES).toHaveLength(13);
+  it("contains exactly 8 locales", () => {
+    expect(LOCALES).toHaveLength(8);
   });
 
-  it("includes all original 7 locales", () => {
-    for (const loc of ["zh", "tw", "en", "th", "vi", "id", "pt-br"]) {
-      expect(LOCALES).toContain(loc);
-    }
-  });
-
-  it("includes all 6 new locales", () => {
-    for (const loc of NEW_LOCALES) {
+  it("includes all required locales", () => {
+    for (const loc of ["zh", "tw", "en", "th", "vi", "id", "ja", "ko"]) {
       expect(LOCALES).toContain(loc);
     }
   });
@@ -45,6 +37,14 @@ describe("isLocale", () => {
     expect(isLocale("JA")).toBe(false);
     expect(isLocale("zh-CN")).toBe(false);
   });
+
+  it("returns false for removed locales", () => {
+    expect(isLocale("de")).toBe(false);
+    expect(isLocale("fr")).toBe(false);
+    expect(isLocale("es")).toBe(false);
+    expect(isLocale("ru")).toBe(false);
+    expect(isLocale("pt-br")).toBe(false);
+  });
 });
 
 describe("asLocale", () => {
@@ -52,12 +52,18 @@ describe("asLocale", () => {
     expect(asLocale("en")).toBe("en");
     expect(asLocale("ja")).toBe("ja");
     expect(asLocale("ko")).toBe("ko");
-    expect(asLocale("pt-br")).toBe("pt-br");
+    expect(asLocale("th")).toBe("th");
   });
 
   it("falls back to en for invalid input", () => {
     expect(asLocale("invalid")).toBe("en");
     expect(asLocale("")).toBe("en");
+  });
+
+  it("falls back to en for removed locales", () => {
+    expect(asLocale("de")).toBe("en");
+    expect(asLocale("fr")).toBe("en");
+    expect(asLocale("pt-br")).toBe("en");
   });
 });
 
@@ -74,10 +80,9 @@ describe("isZhLocale", () => {
     expect(isZhLocale("en")).toBe(false);
   });
 
-  it("returns false for new locales", () => {
-    for (const loc of NEW_LOCALES) {
-      expect(isZhLocale(loc)).toBe(false);
-    }
+  it("returns false for ja and ko", () => {
+    expect(isZhLocale("ja")).toBe(false);
+    expect(isZhLocale("ko")).toBe(false);
   });
 });
 
@@ -86,17 +91,12 @@ describe("toHtmlLang", () => {
     expect(toHtmlLang("tw")).toBe("zh-Hant");
   });
 
-  it("maps pt-br to pt-BR", () => {
-    expect(toHtmlLang("pt-br")).toBe("pt-BR");
-  });
-
-  it("maps new locales correctly", () => {
+  it("maps locales correctly", () => {
     expect(toHtmlLang("ja")).toBe("ja");
     expect(toHtmlLang("ko")).toBe("ko");
-    expect(toHtmlLang("de")).toBe("de");
-    expect(toHtmlLang("fr")).toBe("fr");
-    expect(toHtmlLang("es")).toBe("es");
-    expect(toHtmlLang("ru")).toBe("ru");
+    expect(toHtmlLang("th")).toBe("th");
+    expect(toHtmlLang("vi")).toBe("vi");
+    expect(toHtmlLang("id")).toBe("id");
   });
 });
 
@@ -107,13 +107,12 @@ describe("LOCALE_NATIVE_NAME", () => {
     }
   });
 
-  it("has correct native names for new locales", () => {
+  it("has correct native names", () => {
     expect(LOCALE_NATIVE_NAME.ja).toBe("日本語");
     expect(LOCALE_NATIVE_NAME.ko).toBe("한국어");
-    expect(LOCALE_NATIVE_NAME.de).toBe("Deutsch");
-    expect(LOCALE_NATIVE_NAME.fr).toBe("Français");
-    expect(LOCALE_NATIVE_NAME.es).toBe("Español");
-    expect(LOCALE_NATIVE_NAME.ru).toBe("Русский");
+    expect(LOCALE_NATIVE_NAME.th).toBe("ภาษาไทย");
+    expect(LOCALE_NATIVE_NAME.vi).toBe("Tiếng Việt");
+    expect(LOCALE_NATIVE_NAME.id).toBe("Bahasa Indonesia");
   });
 });
 
@@ -138,8 +137,8 @@ describe("t() translation function", () => {
     expect(result.length).toBeGreaterThan(0);
   });
 
-  it("returns translations for all new locales", () => {
-    for (const loc of NEW_LOCALES) {
+  it("returns translations for all locales", () => {
+    for (const loc of LOCALES) {
       const result = t(loc, "site.nav.home");
       expect(result).toBeTruthy();
       expect(result.length).toBeGreaterThan(0);
@@ -161,20 +160,19 @@ describe("hreflangAlternates", () => {
     expect(result.canonical).toBe("https://nteguide.com/zh/characters/test/");
   });
 
-  it("generates all 13 language alternates", () => {
+  it("generates all 8 language alternates", () => {
     const result = hreflangAlternates("characters/test", "zh");
     const langKeys = Object.keys(result.languages).filter((k) => k !== "x-default");
-    expect(langKeys).toHaveLength(13);
+    expect(langKeys).toHaveLength(8);
   });
 
-  it("includes new locales in languages map", () => {
+  it("includes all locales in languages map", () => {
     const result = hreflangAlternates("guides", "en");
     expect(result.languages.ja).toBe("https://nteguide.com/ja/guides/");
     expect(result.languages.ko).toBe("https://nteguide.com/ko/guides/");
-    expect(result.languages.de).toBe("https://nteguide.com/de/guides/");
-    expect(result.languages.fr).toBe("https://nteguide.com/fr/guides/");
-    expect(result.languages.es).toBe("https://nteguide.com/es/guides/");
-    expect(result.languages.ru).toBe("https://nteguide.com/ru/guides/");
+    expect(result.languages.th).toBe("https://nteguide.com/th/guides/");
+    expect(result.languages.vi).toBe("https://nteguide.com/vi/guides/");
+    expect(result.languages.id).toBe("https://nteguide.com/id/guides/");
   });
 
   it("generates correct zh URL", () => {
@@ -226,8 +224,8 @@ describe("getMessages", () => {
     expect(msgs).toBeDefined();
   });
 
-  it("returns messages for all new locales", () => {
-    for (const loc of NEW_LOCALES) {
+  it("returns messages for all locales", () => {
+    for (const loc of LOCALES) {
       const msgs = getMessages(loc);
       expect(msgs).toBeDefined();
       expect(msgs.site).toBeTruthy();

@@ -2,19 +2,14 @@ import { describe, it, expect } from "vitest";
 import en from "../../messages/en.json";
 import ja from "../../messages/ja.json";
 import ko from "../../messages/ko.json";
-import de from "../../messages/de.json";
-import fr from "../../messages/fr.json";
-import es from "../../messages/es.json";
-import ru from "../../messages/ru.json";
 import zh from "../../messages/zh.json";
 import tw from "../../messages/tw.json";
 import th from "../../messages/th.json";
 import vi from "../../messages/vi.json";
 import id from "../../messages/id.json";
-import ptBR from "../../messages/pt-br.json";
 
 const allMessages: Record<string, Record<string, unknown>> = {
-  en, ja, ko, de, fr, es, ru, zh, tw, th, vi, id, "pt-br": ptBR,
+  en, ja, ko, zh, tw, th, vi, id,
 };
 
 /** Recursively collect all dot-separated key paths from a nested object */

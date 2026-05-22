@@ -13,7 +13,7 @@ const BASE_URL = "https://nteguide.com";
 
 // ── Config ──────────────────────────────────────────────
 // All locales the app supports via generateStaticParams (see lib/i18n.ts LOCALES)
-const LOCALES = ["zh", "tw", "en", "th", "vi", "id", "pt-br", "ja", "ko", "de", "fr", "es", "ru"];
+const LOCALES = ["zh", "tw", "en", "th", "vi", "id", "ja", "ko"];
 
 // ── Shared data loader (reads each JSON file once) ─────
 const cache = {};

@@ -1,6 +1,13 @@
 # Root redirect - permanent
 / /zh/ 301
 
+# Removed language redirects (pt-br/de/fr/es/ru → en)
+/pt-br/* /en/:splat 301
+/de/* /en/:splat 301
+/fr/* /en/:splat 301
+/es/* /en/:splat 301
+/ru/* /en/:splat 301
+
 # Language roots - ensure trailing slash
 /zh /zh/ 301
 /en /en/ 301
@@ -8,13 +15,8 @@
 /th /th/ 301
 /vi /vi/ 301
 /id /id/ 301
-/pt-br /pt-br/ 301
 /ja /ja/ 301
 /ko /ko/ 301
-/de /de/ 301
-/fr /fr/ 301
-/es /es/ 301
-/ru /ru/ 301
 
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
@@ -23,6 +25,37 @@
 /zh/faq/system-requirements/ /zh/system-requirements/ 301
 /tw/faq/system-requirements /tw/system-requirements/ 301
 /tw/faq/system-requirements/ /tw/system-requirements/ 301
+# Specs-related FAQ redirects to system-requirements page
+/en/faq/android-minimum-specs /en/system-requirements/ 301
+/en/faq/android-minimum-specs/ /en/system-requirements/ 301
+/zh/faq/android-minimum-specs /zh/system-requirements/ 301
+/zh/faq/android-minimum-specs/ /zh/system-requirements/ 301
+/tw/faq/android-minimum-specs /tw/system-requirements/ 301
+/tw/faq/android-minimum-specs/ /tw/system-requirements/ 301
+/en/faq/ios-minimum-specs /en/system-requirements/ 301
+/en/faq/ios-minimum-specs/ /en/system-requirements/ 301
+/zh/faq/ios-minimum-specs /zh/system-requirements/ 301
+/zh/faq/ios-minimum-specs/ /zh/system-requirements/ 301
+/tw/faq/ios-minimum-specs /tw/system-requirements/ 301
+/tw/faq/ios-minimum-specs/ /tw/system-requirements/ 301
+/en/faq/ssd-requirement /en/system-requirements/ 301
+/en/faq/ssd-requirement/ /en/system-requirements/ 301
+/zh/faq/ssd-requirement /zh/system-requirements/ 301
+/zh/faq/ssd-requirement/ /zh/system-requirements/ 301
+/tw/faq/ssd-requirement /tw/system-requirements/ 301
+/tw/faq/ssd-requirement/ /tw/system-requirements/ 301
+/en/faq/nte-download-size-storage /en/system-requirements/ 301
+/en/faq/nte-download-size-storage/ /en/system-requirements/ 301
+/zh/faq/nte-download-size-storage /zh/system-requirements/ 301
+/zh/faq/nte-download-size-storage/ /zh/system-requirements/ 301
+/tw/faq/nte-download-size-storage /tw/system-requirements/ 301
+/tw/faq/nte-download-size-storage/ /tw/system-requirements/ 301
+/en/faq/download-size /en/system-requirements/ 301
+/en/faq/download-size/ /en/system-requirements/ 301
+/zh/faq/download-size /zh/system-requirements/ 301
+/zh/faq/download-size/ /zh/system-requirements/ 301
+/tw/faq/download-size /tw/system-requirements/ 301
+/tw/faq/download-size/ /tw/system-requirements/ 301
 
 # FAQ -> dedicated pages (download-installation -> download-install-guide)
 /en/faq/download-installation /en/guides/download-install-guide/ 301

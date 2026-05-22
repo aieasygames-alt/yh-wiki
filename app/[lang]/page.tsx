@@ -61,36 +61,6 @@ export async function generateMetadata({
       ogTitle: "NTE Guide - Neverness to Everness Wiki 한국어",
       ogDescription: "캐릭터 빌드, 티어 리스트, 계산기, 가이드 NTE 한국어.",
     },
-    de: {
-      title: "NTE Guide - Neverness to Everness Wiki Deutsch | Builds, Tier List, Codes",
-      description: "Wiki & Tools für Neverness to Everness auf Deutsch. Charakter-Builds, Tier-Liste, Rechner, Leitfäden und Codes.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki Deutsch",
-      ogDescription: "Charakter-Builds, Tier-Liste, Rechner, Leitfäden NTE Deutsch.",
-    },
-    fr: {
-      title: "NTE Guide - Neverness to Everness Wiki Français | Builds, Tier List, Codes",
-      description: "Wiki & outils Neverness to Everness en français. Builds de personnages, tier list, calculateur, guides et codes.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki Français",
-      ogDescription: "Builds de personnages, tier list, calculateur, guides NTE en français.",
-    },
-    es: {
-      title: "NTE Guide - Neverness to Everness Wiki Español | Builds, Tier List, Códigos",
-      description: "Wiki y herramientas de Neverness to Everness en español. Builds de personajes, tier list, calculadora, guías y códigos.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki Español",
-      ogDescription: "Builds de personajes, tier list, calculadora, guías NTE en español.",
-    },
-    ru: {
-      title: "NTE Guide - Neverness to Everness Wiki на русском | Билды, Тир-лист, Коды",
-      description: "Wiki и инструменты Neverness to Everness на русском. Билды персонажей, тир-лист, калькулятор, гайды и коды.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki на русском",
-      ogDescription: "Билды персонажей, тир-лист, калькулятор, гайды NTE на русском.",
-    },
-    "pt-br": {
-      title: "NTE Guide - Neverness to Everness Wiki Português | Builds, Tier List, Códigos",
-      description: "Wiki e ferramentas Neverness to Everness em Português. Builds de personagens, tier list, calculadora, guias e códigos.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki Português",
-      ogDescription: "Builds de personagens, tier list, calculadora, guias NTE em Português.",
-    },
     en: {
       title: "NTE Wiki: Tier List, Map, Guides & Calculator",
       description: "NTE (Neverness to Everness) wiki with tier list, interactive map, character builds, redeem codes, and guides. Everything you need in one place.",

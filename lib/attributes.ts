@@ -2,7 +2,7 @@ import type { Locale } from "./i18n";
 
 // Helper to create locale records that fall back to English for new locales
 function locales(zh: string, tw: string, en: string): Record<Locale, string> {
-  return { zh, tw, en, th: en, vi: en, id: en, "pt-br": en } as Record<Locale, string>;
+  return { zh, tw, en, th: en, vi: en, id: en } as Record<Locale, string>;
 }
 
 export const ATTRIBUTE_COLORS: Record<string, string> = {
