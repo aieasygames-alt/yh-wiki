@@ -19,7 +19,8 @@
     "howToObtainZh": "完成绘空町异象委托「律动大师」，击败Boss",
     "howToObtainEn": "Complete Heterocity Anomaly Commission Rhythm Master, defeat boss",
     "signatureCharacter": "haniel",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/blow-up-the-crowd.webp"
   },
   {
     "id": "camellia-society",
@@ -41,7 +42,8 @@
     "howToObtainZh": "击败世界Boss塞润尼缇；完成番外「不言不知秋」",
     "howToObtainEn": "Defeat World Boss Sereniti; complete Extra Chapter",
     "signatureCharacter": "baicang",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/camellia-society.webp"
   },
   {
     "id": "contemplative-cat",
@@ -63,7 +65,8 @@
     "howToObtainZh": "都市大亨等级21奖励",
     "howToObtainEn": "Urban Tycoon level 21 reward",
     "signatureCharacter": "xiaozhi",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/contemplative-cat.webp"
   },
   {
     "id": "day-off",
@@ -85,7 +88,8 @@
     "howToObtainZh": "隐藏任务：遇到6次日蚀",
     "howToObtainEn": "Hidden quest: encounter 6 eclipses",
     "signatureCharacter": "zero-male",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/day-off.webp"
   },
   {
     "id": "eternal-waltz",
@@ -107,7 +111,8 @@
     "howToObtainZh": "周本Boss「永不谢幕的阿拉克涅」掉落；完成主线「成交？成交！」",
     "howToObtainEn": "Weekly Boss Arachne drop; complete Main Story",
     "signatureCharacter": "fadia",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/eternal-waltz.webp"
   },
   {
     "id": "good-boys-grand-adventure",
@@ -129,7 +134,8 @@
     "howToObtainZh": "周本Boss墨菲克斯掉落；完成番外「月光当铺」",
     "howToObtainEn": "Weekly Boss Morphix drop; complete Extra Chapter Moonlit Pawnshop",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/good-boys-grand-adventure.webp"
   },
   {
     "id": "hethereraus-keeper",
@@ -151,7 +157,8 @@
     "howToObtainZh": "通缉4星完成奖励；击败Boss通行正义",
     "howToObtainEn": "4-star Wanted reward; defeat Boss Justice Executioner",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/hethereraus-keeper.webp"
   },
   {
     "id": "marching-beyond-time",
@@ -173,7 +180,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/marching-beyond-time.webp"
   },
   {
     "id": "raging-flames",
@@ -195,7 +203,8 @@
     "howToObtainZh": "完成桥间地异象委托「铁驭强袭」，击败Boss",
     "howToObtainEn": "Complete Bridge Area Anomaly Commission, defeat boss",
     "signatureCharacter": "hathor",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/raging-flames.webp"
   },
   {
     "id": "ready-ready",
@@ -217,7 +226,8 @@
     "howToObtainZh": "限定弧盘研究计划(2026/4/23~5/7)",
     "howToObtainEn": "Limited Arc Research Program (2026/4/23~5/7)",
     "signatureCharacter": "nanally",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/ready-ready.webp"
   },
   {
     "id": "reality-refuge",
@@ -239,7 +249,8 @@
     "howToObtainZh": "完成新赫兰德区异象委托「去看电影吧」，击败Boss斑蝶",
     "howToObtainEn": "Complete New Heterocity Anomaly Commission, defeat boss",
     "signatureCharacter": "jiuyuan",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/reality-refuge.webp"
   },
   {
     "id": "song-of-the-whale",
@@ -261,7 +272,8 @@
     "howToObtainZh": "完成新赫兰德区异象委托「深蓝之恸」",
     "howToObtainEn": "Complete New Heterocity Anomaly Commission Deep Blue Sorrow",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/song-of-the-whale.webp"
   },
   {
     "id": "tears-beneath-the-mask",
@@ -283,7 +295,8 @@
     "howToObtainZh": "完成新赫兰德区异象委托「唤孤归」，击败楼顶Boss",
     "howToObtainEn": "Complete New Heterocity Anomaly Commission, defeat rooftop boss",
     "signatureCharacter": "hotori",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/tears-beneath-the-mask.webp"
   },
   {
     "id": "the-last-rose",
@@ -305,7 +318,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/the-last-rose.webp"
   },
   {
     "id": "your-happiness-is-priceless",
@@ -327,7 +341,8 @@
     "howToObtainZh": "弧盘商店兑换(向纳库佩达喷泉投入100硬币)",
     "howToObtainEn": "Arc Shop exchange (throw 100 coins into Nacupeda fountain)",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/your-happiness-is-priceless.webp"
   },
   {
     "id": "youthful-fantasy",
@@ -349,7 +364,8 @@
     "howToObtainZh": "完成新赫兰德区异象委托「后青春期的书」，击败Boss",
     "howToObtainEn": "Complete New Heterocity Anomaly Commission, defeat boss",
     "signatureCharacter": "daffodil",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/youthful-fantasy.webp"
   },
   {
     "id": "fluff-of-fearlessness",
@@ -371,7 +387,8 @@
     "howToObtainZh": "环期赏令大月卡5选1",
     "howToObtainEn": "Battle Pass 5-choice reward",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/fluff-of-fearlessness.webp"
   },
   {
     "id": "fluff-of-ferocity",
@@ -393,7 +410,8 @@
     "howToObtainZh": "环期赏令大月卡5选1",
     "howToObtainEn": "Battle Pass 5-choice reward",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/fluff-of-ferocity.webp"
   },
   {
     "id": "fluff-of-finesse",
@@ -415,7 +433,8 @@
     "howToObtainZh": "环期赏令大月卡5选1",
     "howToObtainEn": "Battle Pass 5-choice reward",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/fluff-of-finesse.webp"
   },
   {
     "id": "fluff-of-fleetness",
@@ -437,7 +456,8 @@
     "howToObtainZh": "环期赏令大月卡5选1",
     "howToObtainEn": "Battle Pass 5-choice reward",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/fluff-of-fleetness.webp"
   },
   {
     "id": "fluff-of-fortitude",
@@ -459,7 +479,8 @@
     "howToObtainZh": "环期赏令大月卡5选1",
     "howToObtainEn": "Battle Pass 5-choice reward",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/fluff-of-fortitude.webp"
   },
   {
     "id": "a-time-will-come",
@@ -481,7 +502,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/a-time-will-come.webp"
   },
   {
     "id": "call-of-the-twisted-city",
@@ -503,7 +525,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/call-of-the-twisted-city.webp"
   },
   {
     "id": "clear-skies",
@@ -525,7 +548,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/clear-skies.webp"
   },
   {
     "id": "cosmos-daze-wild-reverie",
@@ -547,7 +571,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/cosmos-daze-wild-reverie.webp"
   },
   {
     "id": "drawn-blade",
@@ -569,7 +594,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/drawn-blade.webp"
   },
   {
     "id": "failing-you-heavy-in-my-heart",
@@ -591,7 +617,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/failing-you-heavy-in-my-heart.webp"
   },
   {
     "id": "mind-royale",
@@ -613,7 +640,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/mind-royale.webp"
   },
   {
     "id": "oraora",
@@ -635,7 +663,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/oraora.webp"
   },
   {
     "id": "shiny-days",
@@ -657,7 +686,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/shiny-days.webp"
   },
   {
     "id": "the-fools-spring",
@@ -679,7 +709,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/the-fools-spring.webp"
   },
   {
     "id": "the-forgotten",
@@ -701,7 +732,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/the-forgotten.webp"
   },
   {
     "id": "the-good-the-bad-the-bitter",
@@ -723,7 +755,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/the-good-the-bad-the-bitter.webp"
   },
   {
     "id": "the-great-thief",
@@ -745,7 +778,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/the-great-thief.webp"
   },
   {
     "id": "time-bandit",
@@ -767,7 +801,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/time-bandit.webp"
   },
   {
     "id": "umbrella",
@@ -789,7 +824,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/umbrella.webp"
   },
   {
     "id": "watch-your-heads",
@@ -811,7 +847,8 @@
     "howToObtainZh": "常驻弧盘祈愿池",
     "howToObtainEn": "Standard Arc gacha",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/watch-your-heads.webp"
   },
   {
     "id": "real-music",
@@ -833,7 +870,8 @@
     "howToObtainZh": "初始赠送",
     "howToObtainEn": "Starter weapon",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/real-music.webp"
   },
   {
     "id": "be-happy",
@@ -855,7 +893,8 @@
     "howToObtainZh": "初始赠送",
     "howToObtainEn": "Starter weapon",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/be-happy.webp"
   },
   {
     "id": "dangerous-game",
@@ -877,7 +916,8 @@
     "howToObtainZh": "初始赠送",
     "howToObtainEn": "Starter weapon",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/dangerous-game.webp"
   },
   {
     "id": "first-step-to-success",
@@ -899,7 +939,8 @@
     "howToObtainZh": "初始赠送",
     "howToObtainEn": "Starter weapon",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/first-step-to-success.webp"
   },
   {
     "id": "us",
@@ -921,6 +962,7 @@
     "howToObtainZh": "初始赠送",
     "howToObtainEn": "Starter weapon",
     "signatureCharacter": "",
-    "status": "available"
+    "status": "available",
+    "image": "/images/weapons/us.webp"
   }
 ]
