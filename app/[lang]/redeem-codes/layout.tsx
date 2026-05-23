@@ -38,56 +38,56 @@ export default async function RedeemCodesLayout({
     ? [
         {
           question: "異環兌換碼怎麼用？在哪裡輸入？",
-          answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入有效的兌換碼即可領取獎勵。建議開服後第一時間兌換，避免過期。",
+          answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入有效的兌換碼即可領取獎勵。建議第一時間兌換，避免過期。",
         },
         {
-          question: "異環國際服兌換碼有哪些？",
-          answer: "目前國際服有效兌換碼包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429 等，有效期至 2026 年 5 月。請以本頁面最新資訊為準。",
+          question: "異環1.1前瞻直播兌換碼有哪些？",
+          answer: "1.1版本前瞻直播（5月23日）公布了3個兌換碼：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至5月25日23:59。",
         },
         {
-          question: "異環兌換碼過期了怎麼辦？",
-          answer: "兌換碼有使用期限，過期後無法使用。請關注官方直播和社群活動獲取新兌換碼，本頁面也會即時更新。",
+          question: "異環公測兌換碼還能用嗎？",
+          answer: "公測期兌換碼（NTENOWTOENJOY、NTENANALLYGO、NTE0429等）已全部過期。請關注後續直播和活動獲取新碼。",
         },
         {
-          question: "異環前瞻直播兌換碼有哪些？",
-          answer: "公測前瞻直播（4月18日）公布了國服3個和國際服3個兌換碼。國服碼有效期至5月7日，國際服碼有效期至5月29日。",
+          question: "異環新兌換碼在哪裡獲取？",
+          answer: "新兌換碼通常在官方前瞻直播中公布，也會透過社群媒體活動和合作管道發放。本頁面會第一時間更新所有有效兌換碼。",
         },
       ]
     : isZh
       ? [
           {
             question: "异环兑换码在哪里输入？怎么用？",
-            answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效的兑换码即可领取奖励。建议开服后第一时间兑换，避免过期。",
+            answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效的兑换码即可领取奖励。建议第一时间兑换，避免过期。",
           },
           {
-            question: "异环国际服兑换码有哪些？",
-            answer: "目前国际服有效兑换码包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429 等，有效期至2026年5月。请以本页面最新信息为准。",
+            question: "异环1.1前瞻直播兑换码有哪些？",
+            answer: "1.1版本前瞻直播（5月23日）公布了3个兑换码：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至5月25日23:59。",
           },
           {
-            question: "异环开服兑换码有哪些？公测码是多少？",
-            answer: "异环公测兑换码分为国服和国际服两组。国服：YHNOWTOENJOY、YHNANALLYGO、YHOB0423（有效期至5月7日）。国际服：NTENOWTOENJOY、NTENANALLYGO、NTE0429（有效期至5月29日）。",
+            question: "异环公测兑换码还能用吗？",
+            answer: "公测期兑换码（NTENOWTOENJOY、NTENANALLYGO、NTE0429等）已全部过期。请关注后续直播和活动获取新码。",
           },
           {
-            question: "异环前瞻直播兑换码有哪些？",
-            answer: "公测前瞻直播（4月18日）公布了国服3个和国际服3个兑换码。国服码有效期至5月7日，国际服码有效期至5月29日。后续直播活动可能发布更多兑换码。",
+            question: "异环新兑换码在哪里获取？",
+            answer: "新兑换码通常在官方前瞻直播中公布，也会通过社交媒体活动和合作渠道发放。本页面会第一时间更新所有有效兑换码。",
           },
         ]
       : [
           {
             question: "How to redeem codes in Neverness to Everness?",
-            answer: "Launch the game, tap your profile icon (top-right) → Settings → enter the code in the Redeem Code field. Redeem immediately after launch to avoid expiration.",
+            answer: "Launch the game, tap your profile icon (top-right) → Settings → enter the code in the Redeem Code field. Redeem immediately to avoid expiration.",
           },
           {
-            question: "What are the active NTE redeem codes for Global server?",
-            answer: "Active Global codes include NTENOWTOENJOY, NTENANALLYGO, and NTE0429, valid through May 2026. Check this page for the latest updates.",
+            question: "What are the latest NTE redeem codes from the 1.1 livestream?",
+            answer: "The 1.1 livestream (May 23) released 3 codes: DREAMWALK0603, TOMATO100, and RACENOLIMIT, valid until May 25 23:59.",
           },
           {
             question: "Do NTE redeem codes expire?",
-            answer: "Yes, all redeem codes have expiration dates and some have usage limits. CN server codes expire May 7, 2026 and Global codes expire May 29, 2026. Redeem them as soon as possible.",
+            answer: "Yes, all redeem codes have expiration dates. Launch-era codes have expired. New codes are released during livestreams and events.",
           },
           {
             question: "Where do I find new NTE redeem codes?",
-            answer: "New codes are announced during official livestreams, social media events, and partner promotions. This page is updated in real-time with all available codes.",
+            answer: "New codes are announced during official livestreams, social media events, and partner promotions. This page is updated in real-time.",
           },
         ];
 
