@@ -2905,16 +2905,14 @@
       "normalAttack": {
         "name": "奈莉生命之爪",
         "nameEn": "Nelly's Anima Claws",
-        "description": "奈莉使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Nelly performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "description": "使用手枪进行至多4段连续攻击，造成anima属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with pistol, dealing anima attribute damage."
       },
       "skill": {
         "name": "生命脉冲",
         "nameEn": "Anima Pulse",
-        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
-        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "description": "发动anima属性能力，为全体队友提供增益效果并恢复生命值。增益效果随技能等级提升。",
+        "descriptionEn": "Activate anima attribute ability, granting buffs to all party members and restoring HP. Buff effects scale with skill level.",
         "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
         "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
         "cooldown": "12s",
@@ -2923,8 +2921,8 @@
       "ultimate": {
         "name": "万物复苏",
         "nameEn": "Revival of All Things",
-        "description": "奈莉的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
-        "descriptionEn": "Nelly's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "description": "终极技能，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续时间随技能等级提升。",
+        "descriptionEn": "Ultimate ability that grants powerful buffs to the entire party, restores a large amount of HP, and increases all elemental resistances. Duration scales with skill level.",
         "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
         "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
         "cooldown": "60s",
@@ -3075,16 +3073,14 @@
       "normalAttack": {
         "name": "梅露拉相态变换",
         "nameEn": "Merula's Phase Shift",
-        "description": "梅露拉使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Merula performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用法杖进行至多4段连续攻击，造成lakshana属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with staff, dealing lakshana attribute damage."
       },
       "skill": {
         "name": "镜像分身",
         "nameEn": "Mirror Clone",
-        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放lakshana属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful lakshana attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -3093,8 +3089,8 @@
       "ultimate": {
         "name": "万象归虚",
         "nameEn": "Return to Void",
-        "description": "梅露拉的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Merula's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "description": "终极技能，释放lakshana属性的大范围攻击，对所有敌人造成毁灭性的lakshana属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive lakshana attribute AoE attack, dealing devastating lakshana damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -3246,10 +3242,8 @@
       "normalAttack": {
         "name": "阿尔法德相态变换",
         "nameEn": "Alphard's Phase Shift",
-        "description": "阿尔法德使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Alphard performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "description": "使用长枪进行至多4段连续攻击，造成lakshana属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with spear, dealing lakshana attribute damage."
       },
       "skill": {
         "name": "镜像分身",
@@ -3965,10 +3959,8 @@
       "normalAttack": {
         "name": "莉莉娜星辰斩",
         "nameEn": "Lilina's Star Slash",
-        "description": "莉莉娜使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Lilina performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "description": "使用法杖进行至多5段连续攻击，造成cosmos属性伤害。",
+        "descriptionEn": "Perform up to 5 consecutive attacks with staff, dealing cosmos attribute damage."
       },
       "skill": {
         "name": "宇宙裂隙",
@@ -4135,16 +4127,14 @@
       "normalAttack": {
         "name": "凛子咒文打击",
         "nameEn": "Lingko's Spell Strike",
-        "description": "凛子使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Lingko performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用太刀进行至多4段连续攻击，造成incantation属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with katana, dealing incantation attribute damage."
       },
       "skill": {
         "name": "言灵之力",
         "nameEn": "Power of Words",
-        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放incantation属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful incantation attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -4153,8 +4143,8 @@
       "ultimate": {
         "name": "咒阵爆发",
         "nameEn": "Incantation Burst",
-        "description": "凛子的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Lingko's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
+        "description": "终极技能，释放incantation属性的大范围攻击，对所有敌人造成毁灭性的incantation属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive incantation attribute AoE attack, dealing devastating incantation damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -4306,16 +4296,14 @@
       "normalAttack": {
         "name": "密斯莫混沌侵蚀",
         "nameEn": "Mismo's Chaos Erosion",
-        "description": "密斯莫使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Mismo performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "description": "使用拳套进行至多4段连续攻击，造成chaos属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with gauntlets, dealing chaos attribute damage."
       },
       "skill": {
         "name": "虚空撕裂",
         "nameEn": "Void Tear",
-        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
-        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "description": "发动chaos属性能力，为全体队友提供增益效果并恢复生命值。增益效果随技能等级提升。",
+        "descriptionEn": "Activate chaos attribute ability, granting buffs to all party members and restoring HP. Buff effects scale with skill level.",
         "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
         "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
         "cooldown": "12s",
@@ -4324,8 +4312,8 @@
       "ultimate": {
         "name": "终焉之刻",
         "nameEn": "Moment of End",
-        "description": "密斯莫的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
-        "descriptionEn": "Mismo's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "description": "终极技能，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续时间随技能等级提升。",
+        "descriptionEn": "Ultimate ability that grants powerful buffs to the entire party, restores a large amount of HP, and increases all elemental resistances. Duration scales with skill level.",
         "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
         "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
         "cooldown": "60s",
@@ -4477,16 +4465,14 @@
       "normalAttack": {
         "name": "沁红生命之爪",
         "nameEn": "Shinku's Anima Claws",
-        "description": "沁红使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Shinku performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用双刀进行至多4段连续攻击，造成anima属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with dual blades, dealing anima attribute damage."
       },
       "skill": {
         "name": "生命脉冲",
         "nameEn": "Anima Pulse",
-        "description": "释放anima属性的强力攻击，对周围敌人造成大量anima属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful anima attack dealing massive anima damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放anima属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful anima attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -4495,8 +4481,8 @@
       "ultimate": {
         "name": "万物复苏",
         "nameEn": "Revival of All Things",
-        "description": "沁红的终结技，释放anima属性的全屏攻击，对所有敌人造成毁灭性的anima属性伤害。队伍中每有一个anima属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Shinku's ultimate unleashes a fullscreen anima attack dealing devastating anima damage. DMG increases 10% per anima party member (max 30%).",
+        "description": "终极技能，释放anima属性的大范围攻击，对所有敌人造成毁灭性的anima属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive anima attribute AoE attack, dealing devastating anima damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -4648,16 +4634,14 @@
       "normalAttack": {
         "name": "尼察灵魂冲击",
         "nameEn": "Nitsa's Soul Impact",
-        "description": "尼察使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Nitsa performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "description": "使用弓箭进行至多4段连续攻击，造成psyche属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with bow, dealing psyche attribute damage."
       },
       "skill": {
         "name": "心灵感应",
         "nameEn": "Telepathy",
-        "description": "为全体队友提供增益效果，提升攻击力和元素精通。同时为队伍中血量最低的角色恢复生命值。",
-        "descriptionEn": "Provides buffs to all party members, boosting ATK and Elemental Mastery. Also heals the party member with the lowest HP.",
+        "description": "发动psyche属性能力，为全体队友提供增益效果并恢复生命值。增益效果随技能等级提升。",
+        "descriptionEn": "Activate psyche attribute ability, granting buffs to all party members and restoring HP. Buff effects scale with skill level.",
         "scaling": "攻击力提升: 20%\n元素精通提升: 50\n治疗量: 120% ATK",
         "scalingEn": "ATK Boost: 20%\nEM Boost: 50\nHealing: 120% ATK",
         "cooldown": "12s",
@@ -4666,8 +4650,8 @@
       "ultimate": {
         "name": "灵魂风暴",
         "nameEn": "Soul Storm",
-        "description": "尼察的终结技，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续12秒。",
-        "descriptionEn": "Nitsa's ultimate provides powerful buffs to the entire party, healing a large amount of HP and boosting all elemental resistances. Buffs last 12 seconds.",
+        "description": "终极技能，为全队提供强大的增益效果，恢复大量生命值并提升全属性抗性。增益持续时间随技能等级提升。",
+        "descriptionEn": "Ultimate ability that grants powerful buffs to the entire party, restores a large amount of HP, and increases all elemental resistances. Duration scales with skill level.",
         "scaling": "治疗量: 200% ATK\n抗性提升: 30%\n持续时间: 12s",
         "scalingEn": "Healing: 200% ATK\nRES Boost: 30%\nDuration: 12s",
         "cooldown": "60s",
@@ -4819,16 +4803,14 @@
       "normalAttack": {
         "name": "黑鸟混沌侵蚀",
         "nameEn": "Black Bird's Chaos Erosion",
-        "description": "黑鸟使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Black Bird performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用双枪进行至多5段连续攻击，造成chaos属性伤害。",
+        "descriptionEn": "Perform up to 5 consecutive attacks with dual pistols, dealing chaos attribute damage."
       },
       "skill": {
         "name": "虚空撕裂",
         "nameEn": "Void Tear",
-        "description": "释放chaos属性的强力攻击，对周围敌人造成大量chaos属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful chaos attack dealing massive chaos damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放chaos属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful chaos attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -4837,8 +4819,8 @@
       "ultimate": {
         "name": "终焉之刻",
         "nameEn": "Moment of End",
-        "description": "黑鸟的终结技，释放chaos属性的全屏攻击，对所有敌人造成毁灭性的chaos属性伤害。队伍中每有一个chaos属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Black Bird's ultimate unleashes a fullscreen chaos attack dealing devastating chaos damage. DMG increases 10% per chaos party member (max 30%).",
+        "description": "终极技能，释放chaos属性的大范围攻击，对所有敌人造成毁灭性的chaos属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive chaos attribute AoE attack, dealing devastating chaos damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -4990,16 +4972,14 @@
       "normalAttack": {
         "name": "明虎生命之爪",
         "nameEn": "Xiaozhen's Anima Claws",
-        "description": "明虎使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Xiaozhen performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用重锤进行至多5段连续攻击，造成anima属性伤害。",
+        "descriptionEn": "Perform up to 5 consecutive attacks with heavy hammer, dealing anima attribute damage."
       },
       "skill": {
         "name": "生命脉冲",
         "nameEn": "Anima Pulse",
-        "description": "释放anima属性的强力攻击，对周围敌人造成大量anima属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful anima attack dealing massive anima damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放anima属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful anima attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -5008,8 +4988,8 @@
       "ultimate": {
         "name": "万物复苏",
         "nameEn": "Revival of All Things",
-        "description": "明虎的终结技，释放anima属性的全屏攻击，对所有敌人造成毁灭性的anima属性伤害。队伍中每有一个anima属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Xiaozhen's ultimate unleashes a fullscreen anima attack dealing devastating anima damage. DMG increases 10% per anima party member (max 30%).",
+        "description": "终极技能，释放anima属性的大范围攻击，对所有敌人造成毁灭性的anima属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive anima attribute AoE attack, dealing devastating anima damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -5162,16 +5142,14 @@
       "normalAttack": {
         "name": "赤音咒文打击",
         "nameEn": "Akane's Spell Strike",
-        "description": "赤音使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Akane performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用太刀进行至多5段连续攻击，造成incantation属性伤害。",
+        "descriptionEn": "Perform up to 5 consecutive attacks with katana, dealing incantation attribute damage."
       },
       "skill": {
         "name": "言灵之力",
         "nameEn": "Power of Words",
-        "description": "释放incantation属性的强力攻击，对周围敌人造成大量incantation属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful incantation attack dealing massive incantation damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放incantation属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful incantation attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -5180,8 +5158,8 @@
       "ultimate": {
         "name": "咒阵爆发",
         "nameEn": "Incantation Burst",
-        "description": "赤音的终结技，释放incantation属性的全屏攻击，对所有敌人造成毁灭性的incantation属性伤害。队伍中每有一个incantation属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Akane's ultimate unleashes a fullscreen incantation attack dealing devastating incantation damage. DMG increases 10% per incantation party member (max 30%).",
+        "description": "终极技能，释放incantation属性的大范围攻击，对所有敌人造成毁灭性的incantation属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive incantation attribute AoE attack, dealing devastating incantation damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -5335,10 +5313,8 @@
       "normalAttack": {
         "name": "詹森灵魂冲击",
         "nameEn": "Jenson's Soul Impact",
-        "description": "詹森使用待定进行连续攻击，最多可进行4段攻击。攻击时附带轻微的属性效果。",
-        "descriptionEn": "Jenson performs consecutive attacks with their TBD, up to 4 hits. Attacks apply a minor elemental effect.",
-        "scaling": "一段: 60% ATK\n二段: 55% ATK\n三段: 70% ATK\n四段: 90% ATK",
-        "scalingEn": "Hit 1: 60% ATK\nHit 2: 55% ATK\nHit 3: 70% ATK\nHit 4: 90% ATK"
+        "description": "使用盾剑进行至多4段连续攻击，造成psyche属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with shield sword, dealing psyche attribute damage."
       },
       "skill": {
         "name": "心灵感应",
@@ -5507,16 +5483,14 @@
       "normalAttack": {
         "name": "伊利卡相态变换",
         "nameEn": "Illica's Phase Shift",
-        "description": "伊利卡使用待定进行连续攻击，最多可进行4段攻击。第四段攻击会造成额外属性伤害。",
-        "descriptionEn": "Illica performs consecutive attacks with their TBD, up to 4 hits. The 4th hit deals bonus elemental damage.",
-        "scaling": "一段: 80% ATK\n二段: 75% ATK\n三段: 95% ATK\n四段: 130% ATK",
-        "scalingEn": "Hit 1: 80% ATK\nHit 2: 75% ATK\nHit 3: 95% ATK\nHit 4: 130% ATK"
+        "description": "使用镰刀进行至多5段连续攻击，造成lakshana属性伤害。",
+        "descriptionEn": "Perform up to 5 consecutive attacks with scythe, dealing lakshana attribute damage."
       },
       "skill": {
         "name": "镜像分身",
         "nameEn": "Mirror Clone",
-        "description": "释放lakshana属性的强力攻击，对周围敌人造成大量lakshana属性伤害，并附加属性标记。命中被标记的敌人时暴击率提升15%。",
-        "descriptionEn": "Unleashes a powerful lakshana attack dealing massive lakshana damage to nearby enemies and applying an elemental mark. Crit rate increases by 15% against marked enemies.",
+        "description": "释放lakshana属性的强力攻击，对范围内敌人造成大量伤害，并附加属性标记效果。",
+        "descriptionEn": "Unleash a powerful lakshana attribute attack, dealing massive damage to enemies in range and applying attribute mark effects.",
         "scaling": "技能伤害: 280% ATK\n附加标记伤害: 80% ATK",
         "scalingEn": "Skill DMG: 280% ATK\nMark Bonus DMG: 80% ATK",
         "cooldown": "8s",
@@ -5525,8 +5499,8 @@
       "ultimate": {
         "name": "万象归虚",
         "nameEn": "Return to Void",
-        "description": "伊利卡的终结技，释放lakshana属性的全屏攻击，对所有敌人造成毁灭性的lakshana属性伤害。队伍中每有一个lakshana属性角色，伤害提升10%，最高提升30%。",
-        "descriptionEn": "Illica's ultimate unleashes a fullscreen lakshana attack dealing devastating lakshana damage. DMG increases 10% per lakshana party member (max 30%).",
+        "description": "终极技能，释放lakshana属性的大范围攻击，对所有敌人造成毁灭性的lakshana属性伤害。伤害倍率随技能等级提升。",
+        "descriptionEn": "Ultimate ability that unleashes a massive lakshana attribute AoE attack, dealing devastating lakshana damage to all enemies. Damage multiplier scales with skill level.",
         "scaling": "终极伤害: 500% ATK\n属性加成: 最高+30%",
         "scalingEn": "Ultimate DMG: 500% ATK\nElemental Bonus: up to +30%",
         "cooldown": "60s",
@@ -6863,21 +6837,21 @@
     "skills": {
       "normalAttack": {
         "name": "待定",
-        "nameEn": "TBD",
-        "description": "待更新",
-        "descriptionEn": "TBD"
+        "nameEn": "Normal Attack",
+        "description": "使用法杖进行至多4段连续攻击，造成psyche属性伤害。",
+        "descriptionEn": "Perform up to 4 consecutive attacks with staff, dealing psyche attribute damage."
       },
       "skill": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "待更新",
-        "descriptionEn": "TBD"
+        "name": "战技",
+        "nameEn": "Skill",
+        "description": "奥蕾莉亚发动psyche属性能力，为队伍提供支援效果。具体技能效果待游戏内实装确认。",
+        "descriptionEn": "Aurelia activates psyche attribute ability, providing support effects to the party. Specific effects pending in-game confirmation."
       },
       "ultimate": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "待更新",
-        "descriptionEn": "TBD"
+        "name": "终结技",
+        "nameEn": "Ultimate",
+        "description": "奥蕾莉亚释放终极技能，对范围内敌人造成psyche属性伤害并提供团队增益。具体技能效果待游戏内实装确认。",
+        "descriptionEn": "Aurelia unleashes her ultimate, dealing psyche attribute AoE damage and granting party buffs. Specific effects pending in-game confirmation."
       },
       "passives": []
     },
@@ -7353,24 +7327,21 @@
     "skills": {
       "normalAttack": {
         "name": "待定",
-        "nameEn": "TBD",
-        "description": "技能详情待更新。",
-        "descriptionEn": "Skill details to be updated."
+        "nameEn": "Normal Attack",
+        "description": "使用构装体进行至多5段连续攻击，造成chaos属性伤害。",
+        "descriptionEn": "Perform up to 5 consecutive attacks with constructs, dealing chaos attribute damage."
       },
       "skill": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "技能详情待更新。",
-        "descriptionEn": "Skill details to be updated.",
-        "cooldown": 0,
-        "cost": 0
+        "name": "战技",
+        "nameEn": "Skill",
+        "description": "卡厄斯发动chaos属性能力，操控异能构装体进行协同攻击。具体技能效果待1.1版本上线后确认。",
+        "descriptionEn": "Chaos activates chaos attribute ability, controlling Esper Constructs for coordinated attacks. Specific effects pending v1.1 launch confirmation."
       },
       "ultimate": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "技能详情待更新。",
-        "descriptionEn": "Skill details to be updated.",
-        "cost": 0
+        "name": "终结技",
+        "nameEn": "Ultimate",
+        "description": "卡厄斯释放终极技能，对大范围敌人造成毁灭性的chaos属性伤害。具体技能效果待1.1版本上线后确认。",
+        "descriptionEn": "Chaos unleashes his ultimate, dealing devastating chaos attribute damage across a wide area. Specific effects pending v1.1 launch confirmation."
       },
       "qte": {
         "name": "待定",
