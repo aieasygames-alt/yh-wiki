@@ -4,6 +4,7 @@ import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../
 import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
+import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
@@ -101,6 +102,19 @@ export default async function GuideDetailPage({
               ? (locale === "tw" ? `更新於 ${guide.date}` : `更新于 ${guide.date}`)
               : `Updated ${guide.date}`}
           </time>
+        )}
+
+        {/* Quick Answer — GEO optimized */}
+        {summary && (
+          <QuickAnswerCard
+            locale={locale}
+            items={[
+              {
+                label: isZhLocale(locale) ? "核心要点：" : "Key takeaway:",
+                value: summary,
+              },
+            ]}
+          />
         )}
 
         {/* Quick Download CTA */}

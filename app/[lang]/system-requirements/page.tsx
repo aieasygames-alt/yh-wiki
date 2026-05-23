@@ -3,6 +3,7 @@ import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqSection } from "../../../components/FaqSection";
 import { FaqPageJsonLd } from "../../../components/JsonLd";
+import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 import specsData from "../../../data/system-requirements.json";
 
 type SpecValue = { zh: string; en: string };
@@ -129,30 +130,31 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       </p>
 
       {/* Quick Answer — helps Featured Snippet / CTR */}
-      <section className="mb-8 rounded-xl border border-primary-500/30 bg-primary-500/5 p-5">
-        <h2 className="text-lg font-bold mb-3">
-          {isZhLocale(locale)
-            ? (locale === "tw" ? "⚡ 快速回答" : "⚡ 快速回答")
-            : "⚡ Quick Answer"}
-        </h2>
-        <div className="text-sm text-gray-300 space-y-1.5">
-          <p>
-            <strong>PC Minimum:</strong> {isZhLocale(locale) ? "Windows 10, i7-10700, GTX 1660 / RX 5600, 60GB SSD" : "Windows 10, Intel i7-10700, GTX 1660 / RX 5600, 60GB SSD"}
-          </p>
-          <p>
-            <strong>PC Recommended:</strong> {isZhLocale(locale) ? "i7-12700, RTX 3060 / RX 6700, 60GB SSD" : "Intel i7-12700, RTX 3060 / RX 6700, 60GB SSD"}
-          </p>
-          <p>
-            <strong>Android:</strong> {isZhLocale(locale) ? "Snapdragon 855 / 天玑 8000，20GB 存储" : "Snapdragon 855 or Dimensity 8000, 20GB storage"}
-          </p>
-          <p>
-            <strong>iOS:</strong> {isZhLocale(locale) ? "iPhone 12 Pro Max，iOS 15+" : "iPhone 12 Pro Max, iOS 15+"}
-          </p>
-          <p>
-            <strong>{isZhLocale(locale) ? "下载大小" : "Download Size"}:</strong> {isZhLocale(locale) ? "约 60GB（额外需 60GB 临时解压空间）" : "~60GB (plus 60GB temp for extraction)"}
-          </p>
-        </div>
-      </section>
+      <QuickAnswerCard
+        locale={locale}
+        items={[
+          {
+            label: "PC Minimum:",
+            value: isZhLocale(locale) ? "Windows 10, i7-10700, GTX 1660 / RX 5600, 60GB SSD" : "Windows 10, Intel i7-10700, GTX 1660 / RX 5600, 60GB SSD",
+          },
+          {
+            label: "PC Recommended:",
+            value: isZhLocale(locale) ? "i7-12700, RTX 3060 / RX 6700, 60GB SSD" : "Intel i7-12700, RTX 3060 / RX 6700, 60GB SSD",
+          },
+          {
+            label: "Android:",
+            value: isZhLocale(locale) ? "Snapdragon 855 / 天玑 8000，20GB 存储" : "Snapdragon 855 or Dimensity 8000, 20GB storage",
+          },
+          {
+            label: "iOS:",
+            value: isZhLocale(locale) ? "iPhone 12 Pro Max，iOS 15+" : "iPhone 12 Pro Max, iOS 15+",
+          },
+          {
+            label: isZhLocale(locale) ? "下载大小:" : "Download Size:",
+            value: isZhLocale(locale) ? "约 60GB（额外需 60GB 临时解压空间）" : "~60GB (plus 60GB temp for extraction)",
+          },
+        ]}
+      />
 
       {/* PC Requirements */}
       <section className="mb-10">

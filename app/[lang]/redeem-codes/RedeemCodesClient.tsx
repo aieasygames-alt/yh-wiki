@@ -8,6 +8,7 @@ import redeemCodesData from "../../../data/redeem-codes.json";
 import charactersData from "../../../data/characters.json";
 import blogData from "../../../data/blog.json";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
+import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 import Link from "next/link";
 
 interface RedeemCode {
@@ -102,39 +103,37 @@ export function RedeemCodesClient({ lang }: { lang: string }) {
   const cnCount = codes.filter((c) => c.region === "cn").length;
   const globalCount = codes.filter((c) => c.region === "global").length;
 
+  const activeCodeList = codes.filter(c => c.status === "active").map(c => c.code).join("、");
+  const activeCodeListEn = codes.filter(c => c.status === "active").map(c => c.code).join(", ");
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* Quick Answer — GEO-optimized structured summary for AI engines */}
-      <div className="rounded-xl border border-primary-500/20 bg-primary-500/5 p-4 mb-6">
-        <h2 className="text-sm font-bold text-primary-400 mb-2">
-          {isZhLocale(locale)
-            ? (locale === "tw" ? "快速答案" : "快速答案")
-            : "Quick Answer"}
-        </h2>
-        <div className="text-sm text-gray-300 space-y-1">
-          {isZhLocale(locale) ? (
-            locale === "tw" ? (
-              <>
-                <p><strong>異環 {new Date().getMonth() + 1}月有效兌換碼：</strong>NTENOWTOENJOY、NTENANALLYGO、NTE0429、NTEGIFT、NTEHAVEFUN（國際服），有效期至 2026年5月29日。</p>
-                <p><strong>如何兌換：</strong>遊戲內點擊頭像 → 設定 → 兌換碼輸入框。</p>
-                <p className="text-xs text-gray-500">共 {activeCount} 個有效碼 · {codes.length} 個總碼數 · 頁面即時更新</p>
-              </>
-            ) : (
-              <>
-                <p><strong>异环 {new Date().getMonth() + 1}月有效兑换码：</strong>NTENOWTOENJOY、NTENANALLYGO、NTE0429、NTEGIFT、NTEHAVEFUN（国际服），有效期至 2026年5月29日。</p>
-                <p><strong>如何兑换：</strong>游戏内点击头像 → 设置 → 兑换码输入框。</p>
-                <p className="text-xs text-gray-500">共 {activeCount} 个有效码 · {codes.length} 个总码数 · 页面实时更新</p>
-              </>
-            )
-          ) : (
-            <>
-              <p><strong>Active NTE Codes (May 2026):</strong> NTENOWTOENJOY, NTENANALLYGO, NTE0429, NTEGIFT, NTEHAVEFUN (Global server) — valid until May 29, 2026.</p>
-              <p><strong>How to redeem:</strong> In-game, tap your profile icon → Settings → enter code in the Redeem Code field.</p>
-              <p className="text-xs text-gray-500">{activeCount} active codes · {codes.length} total · Updated in real-time</p>
-            </>
-          )}
-        </div>
-      </div>
+      <QuickAnswerCard
+        locale={locale}
+        items={isZhLocale(locale) ? [
+          {
+            label: locale === "tw" ? "異環有效兌換碼：" : "异环有效兑换码：",
+            value: `${activeCodeList}${locale === "tw" ? "（國際服）" : "（国际服）"}`,
+          },
+          {
+            label: locale === "tw" ? "如何兌換：" : "如何兑换：",
+            value: locale === "tw" ? "遊戲內點擊頭像 → 設定 → 兌換碼輸入框。" : "游戏内点击头像 → 设置 → 兑换码输入框。",
+          },
+        ] : [
+          {
+            label: "Active NTE Codes:",
+            value: `${activeCodeListEn} (Global server)`,
+          },
+          {
+            label: "How to redeem:",
+            value: "In-game, tap your profile icon → Settings → enter code in the Redeem Code field.",
+          },
+        ]}
+        footer={isZhLocale(locale)
+          ? (locale === "tw" ? `共 ${activeCount} 個有效碼 · ${codes.length} 個總碼數 · 頁面即時更新` : `共 ${activeCount} 个有效码 · ${codes.length} 个总码数 · 页面实时更新`)
+          : `${activeCount} active codes · ${codes.length} total · Updated in real-time`}
+      />
 
       <div className="mb-6">
         <KardzPromoCard locale={locale} variant="banner" />

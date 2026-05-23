@@ -4,6 +4,7 @@ import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "..
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
+import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { ArticleContent } from "../../../../components/ArticleContent";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import dynamic from "next/dynamic";
@@ -109,6 +110,20 @@ export default async function BlogDetailPage({
         <p className="text-gray-400 mb-6 text-sm border-l-2 border-primary-500 pl-3">
           {summary}
         </p>
+
+        {/* Quick Answer — GEO optimized */}
+        {summary && (
+          <QuickAnswerCard
+            locale={locale}
+            items={[
+              {
+                label: isZhLocale(locale) ? "摘要：" : "Summary:",
+                value: summary,
+              },
+            ]}
+          />
+        )}
+
         <div className="mb-6">
           <KardzPromoCard locale={locale} variant="compact" />
         </div>

@@ -5,6 +5,7 @@ import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../l
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 
 export function generateStaticParams() {
   const faqs = getAllFaqs();
@@ -92,19 +93,15 @@ export default async function FaqDetailPage({
 
         {/* Quick Answer Card */}
         {(isZhLocale(locale) ? faq.quickAnswer : faq.quickAnswerEn) && (
-          <div className="mb-6 rounded-xl border border-green-500/30 bg-gradient-to-br from-green-900/30 to-gray-900/40 p-5 sm:p-6">
-            <div className="flex items-start gap-3">
-              <span className="text-2xl flex-shrink-0">✅</span>
-              <div>
-                <h2 className="text-sm font-bold text-green-400 uppercase tracking-wide mb-2">
-                  {isZhLocale(locale) ? "快速解答" : "Quick Answer"}
-                </h2>
-                <p className="text-gray-200 leading-relaxed text-base">
-                  {isZhLocale(locale) ? faq.quickAnswer : faq.quickAnswerEn}
-                </p>
-              </div>
-            </div>
-          </div>
+          <QuickAnswerCard
+            locale={locale}
+            items={[
+              {
+                label: isZhLocale(locale) ? "解答：" : "Answer:",
+                value: isZhLocale(locale) ? faq.quickAnswer : faq.quickAnswerEn,
+              },
+            ]}
+          />
         )}
 
         {/* Answer Content Card */}

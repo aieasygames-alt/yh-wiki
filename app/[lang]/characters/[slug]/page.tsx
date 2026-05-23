@@ -18,6 +18,7 @@ import { SkillDetail } from "../../../../components/SkillDetail";
 import { BuildRecommendation } from "../../../../components/BuildRecommendation";
 import { TeamCompCard } from "../../../../components/TeamCompCard";
 import { TierBadge } from "../../../../components/TierBadge";
+import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import dynamic from "next/dynamic";
 
@@ -148,6 +149,29 @@ export default async function CharacterDetailPage({
           descriptionEn={character.descriptionEn}
           cvZh={character.cvZh} cvJp={character.cvJp} cvJpEn={character.cvJpEn}
           locale={locale}
+        />
+
+        {/* Quick Answer — GEO optimized */}
+        <QuickAnswerCard
+          locale={locale}
+          items={[
+            {
+              label: isZhLocale(locale) ? "角色定位：" : "Role:",
+              value: isZhLocale(locale) ? `${charName(character, locale)} — ${character.rank}级${character.attribute}属性${isZhLocale(locale) ? character.role : character.roleEn}。` : `${character.nameEn} — ${character.rank}-rank ${character.attribute} ${character.roleEn}.`,
+            },
+            ...(character.tierRank ? [{
+              label: isZhLocale(locale) ? "强度评级：" : "Tier Rank:",
+              value: `${character.tierRank} — ${isZhLocale(locale) ? (character.tierReasonZh || character.tierReason || "") : (character.tierReason || "")}`,
+            }] : []),
+            ...(character.recommendedBuild?.bestWeapon ? [{
+              label: isZhLocale(locale) ? "最佳武器：" : "Best Weapon:",
+              value: isZhLocale(locale) ? (character.recommendedBuild.bestWeaponZh || character.recommendedBuild.bestWeapon) : character.recommendedBuild.bestWeapon,
+            }] : []),
+            ...(character.recommendedBuild?.bestDiskSet ? [{
+              label: isZhLocale(locale) ? "最佳弧盘：" : "Best Disk Set:",
+              value: isZhLocale(locale) ? (character.recommendedBuild.bestDiskSetZh || character.recommendedBuild.bestDiskSet) : character.recommendedBuild.bestDiskSet,
+            }] : []),
+          ]}
         />
 
         {/* Skills Section */}
