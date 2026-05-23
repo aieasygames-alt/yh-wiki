@@ -791,7 +791,7 @@
       }
     ],
     "image": "/images/characters/lacrimosa.webp",
-    "availableAtLaunch": false,
+    "availableAtLaunch": true,
     "acquisitionMethod": "future",
     "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat.",
     "status": "available",
@@ -7384,7 +7384,7 @@
     },
     "teamComps": [],
     "image": "/images/characters/chaos.webp",
-    "availableAtLaunch": false,
+    "availableAtLaunch": true,
     "acquisitionMethod": "limited",
     "descriptionEn": "The first S-rank limited male character in Neverness to Everness, debuting in Version 1.1's 'A Research in Scarlet' main episode.",
     "status": "available",

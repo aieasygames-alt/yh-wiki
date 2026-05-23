@@ -18,16 +18,18 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const characters = getAvailableCharacters();
+  const count = characters.length;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環聲優一覽 — 全42位角色日配/中配/英配聲優名單 | NTE Guide"
-      : "异环声优一览 — 全42位角色日配/中配/英配声优名单 | NTE Guide")
-    : "NTE Voice Actors — Full JP/CN/EN Voice Cast for All 42 Characters";
+      ? `異環聲優一覽 — 全${count}位角色日配/中配/英配聲優名單 | NTE Guide`
+      : `异环声优一览 — 全${count}位角色日配/中配/英配声优名单 | NTE Guide`)
+    : `NTE Voice Actors — Full JP/CN/EN Voice Cast for All ${count} Characters`;
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環（NTE）全角色聲優名單：包含日文配音、中文配音、英文配音演員資訊。涵蓋拉克莉莫薩、娜娜莉、九原、哈索爾等全部角色。"
-      : "异环（NTE）全角色声优名单：包含日文配音、中文配音、英文配音演员信息。涵盖拉克莉莫萨、娜娜莉、九原、哈索尔等全部角色。")
-    : "Complete Neverness to Everness voice actor list for all 42 characters. Japanese, Chinese, and English voice cast including Lacrimosa, Nanally, Jiuyuan, Hathor and more.";
+      ? `異環（NTE）全角色聲優名單：包含日文配音、中文配音、英文配音演員資訊。涵蓋拉克莉莫薩、娜娜莉、九原、哈索爾等全部角色。`
+      : `异环（NTE）全角色声优名单：包含日文配音、中文配音、英文配音演员信息。涵盖拉克莉莫萨、娜娜莉、九原、哈索尔等全部角色。`)
+    : `Complete Neverness to Everness voice actor list for all ${count} characters. Japanese, Chinese, and English voice cast including Lacrimosa, Nanally, Jiuyuan, Hathor and more.`;
   return {
     title,
     description,
@@ -44,6 +46,7 @@ export default async function VoiceActorsPage({
   const { lang } = await params;
   const locale = lang as Locale;
   const characters = getAvailableCharacters();
+  const count = characters.length;
   const allFaqs = getAllFaqs();
   const vaFaq = allFaqs.find((f) => f.id === "nte-voice-actors-guide");
 
@@ -51,7 +54,7 @@ export default async function VoiceActorsPage({
     <>
       <ArticleJsonLd
         title={isZhLocale(locale) ? "异环声优一览" : "NTE Voice Actors — Full Voice Cast"}
-        description={isZhLocale(locale) ? "全42位角色的日配/中配/英配声优名单" : "Complete voice actor list for all 42 NTE characters"}
+        description={isZhLocale(locale) ? `全${count}位角色的日配/中配/英配声优名单` : `Complete voice actor list for all ${count} NTE characters`}
         url={`https://nteguide.com/${lang}/voice-actors`}
       />
       {vaFaq && (
