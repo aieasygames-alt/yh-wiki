@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
-import { getGuide, getAllFaqs } from "../../../lib/queries";
+import { getAllFaqs } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqPageJsonLd, ArticleJsonLd } from "../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
@@ -62,10 +62,7 @@ export default async function GameplayPage({
       answerZh: f!.answer,
     }));
 
-  // Get game-review guide content for the overview
-  const reviewGuide = getGuide("game-review");
-
-  // Build a synthetic gameplay content from review
+  // Build gameplay overview content
   const gameplayContent = isZhLocale(locale)
     ? `## 异环（NTE）游戏玩法概览
 
