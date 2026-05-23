@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import {
-  getAvailableCharacters,
   getAllCharacters,
   getCharacterMaterials,
   getMaterialById,
