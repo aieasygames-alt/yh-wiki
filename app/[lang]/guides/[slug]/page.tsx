@@ -7,6 +7,7 @@ import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
+import { TableOfContents, TableOfContentsDesktop, extractHeadings } from "../../../../components/TableOfContents";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -34,6 +35,7 @@ export async function generateMetadata({
       title,
       description,
       type: "article",
+      ...(guide.date ? { publishedTime: guide.date } : {}),
     },
   };
 }
@@ -70,6 +72,7 @@ export default async function GuideDetailPage({
         title={title}
         description={summary}
         url={`https://nteguide.com/${lang}/guides/${slug}`}
+        datePublished={guide.date}
       />
       {guide.faq && guide.faq.length > 0 && (
         <FaqPageJsonLd faqs={guide.faq} lang={locale} />
@@ -83,12 +86,21 @@ export default async function GuideDetailPage({
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <TableOfContents headings={extractHeadings(content)} />
+        <TableOfContentsDesktop headings={extractHeadings(content)} />
         <div className="mb-2">
           <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
             {isZhLocale(locale) ? guide.categoryZh : guide.categoryEn}
           </span>
         </div>
-        <h1 className="text-2xl font-bold mb-6">{title}</h1>
+        <h1 className="text-2xl font-bold mb-2">{title}</h1>
+        {guide.date && (
+          <time className="text-xs text-gray-500 mb-6 block" dateTime={guide.date}>
+            {isZhLocale(locale)
+              ? (locale === "tw" ? `更新於 ${guide.date}` : `更新于 ${guide.date}`)
+              : `Updated ${guide.date}`}
+          </time>
+        )}
 
         {/* Quick Download CTA */}
         {slug === "download-install-guide" && (

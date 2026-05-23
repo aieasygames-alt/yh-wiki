@@ -34,7 +34,8 @@
         "answer": "No, NTE on PS5 is free to download and play without a PS+ subscription.",
         "answerZh": "不需要，PS5版异环免费下载游玩，无需PS+会员。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "beginner-guide",
@@ -76,7 +77,8 @@
         "answer": "Yes, A comprehensive beginner guide for Everyloop, covering basic systems, resource allocation, and character building priorities.",
         "answerZh": "从零开始的异环新手教程，涵盖基础系统、资源分配、角色培养优先级。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "leveling-priority",
@@ -118,7 +120,8 @@
         "answer": "Yes, Detailed material requirements for each level stage to help you plan stamina allocation efficiently.",
         "answerZh": "详解各等级阶段的材料需求，帮助你高效规划体力分配。"
       }
-    ]
+    ],
+    "date": "2026-04-30"
   },
   {
     "id": "elemental-reactions",
@@ -160,7 +163,8 @@
         "answer": "Yes, In-depth analysis of Everyloop's elemental reaction system and the core logic of team composition.",
         "answerZh": "深入解析异环的元素反应机制，掌握队伍搭配的核心逻辑。"
       }
-    ]
+    ],
+    "date": "2026-05-01"
   },
   {
     "id": "stamina-management",
@@ -202,7 +206,8 @@
         "answer": "Yes, How to efficiently use your daily limited stamina for maximum returns.",
         "answerZh": "如何高效使用每天有限的体力资源，最大化收益。"
       }
-    ]
+    ],
+    "date": "2026-05-01"
   },
   {
     "id": "daily-routine",
@@ -244,7 +249,8 @@
         "answer": "Yes, What to do every time you log in - a complete daily task planning guide.",
         "answerZh": "每天登录游戏后应该做什么，完整的每日任务规划。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "gacha-strategy",
@@ -286,7 +292,8 @@
         "answer": "Yes, Deep analysis of gacha rates, pity system, and strategies for smart pulling.",
         "answerZh": "深入分析抽卡概率、保底机制，制定合理的抽卡策略。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "team-building",
@@ -337,7 +344,8 @@
         "answer": "Absolutely. Xiaozhi is free 6+5 from City Tycoon and at max investment outperforms all DPS. Must-build for F2P.",
         "answerZh": "绝对值得。小吱通过都市大亨免费满配6+5，满配后强度超过所有主C，零氪必练。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "exploration-tips",
@@ -385,7 +393,8 @@
         "answer": "Yes, Tips for efficient open world exploration - never miss a chest or collectible.",
         "answerZh": "高效探索开放世界的技巧，不遗漏任何宝箱和收集品。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "boss-guide",
@@ -427,7 +436,8 @@
         "answer": "Yes, Strategies and recommended teams for all world bosses.",
         "answerZh": "各世界BOSS的打法技巧和推荐阵容。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "weapon-guide",
@@ -469,7 +479,8 @@
         "answer": "Yes, Best weapon choices and enhancement priorities for different character types.",
         "answerZh": "不同类型角色的最佳武器选择和强化优先级。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "disk-build",
@@ -511,7 +522,8 @@
         "answer": "Yes, Disk system building strategies and optimal stat choices for each character.",
         "answerZh": "磁盘系统的搭配思路和各角色的最优属性选择。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "farming-efficiency",
@@ -553,7 +565,8 @@
         "answer": "Yes, Most efficient methods for obtaining all materials and farming route planning.",
         "answerZh": "各种材料的最高效获取方式和刷取路线规划。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "endgame-content",
@@ -595,7 +608,8 @@
         "answer": "Yes, Introduction to endgame content available after reaching high levels.",
         "answerZh": "到达高等级后可以挑战的终局内容介绍。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "game-review",
@@ -616,7 +630,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "tier-list",
@@ -658,7 +673,8 @@
         "answer": "Tier list is a helpful reference for resource allocation, but character preference and playstyle matter more. A well-built character you enjoy playing will outperform a poorly-built top-tier unit.",
         "answerZh": "排行是资源分配的有用参考，但角色喜好和操作风格更重要。一个你喜欢的角色发挥会比不擅长的顶级角色更好。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "detailed-tier-list",
@@ -680,7 +696,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "damage-formula",
@@ -703,7 +720,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "beginner-mistakes",
@@ -726,7 +744,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "f2p-guide",
@@ -748,7 +767,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "weapon-tier-list",
@@ -770,7 +790,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "reroll-guide-detailed",
@@ -792,7 +813,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "performance-guide",
@@ -814,7 +836,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "event-guides",
@@ -836,7 +859,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "talent-priority",
@@ -858,7 +882,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "anomaly-dungeon",
@@ -880,7 +905,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "pvp-guide",
@@ -902,7 +928,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "collectibles-guide",
@@ -924,7 +951,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "farming-route",
@@ -946,7 +974,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "patch-notes",
@@ -968,7 +997,8 @@
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "arc-disc-guide",
@@ -998,7 +1028,8 @@
         "answer": "S-rank Arc Discs drop from high-level Boss anomalies, especially Sea Prisoner. You can also get them from Tower dungeons at higher difficulty levels.",
         "answerZh": "S级弧盘主要通过击败高级Boss异象获得，海囚Boss掉落概率最高。高级弧盘副本也有概率产出S级弧盘。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "team-composition-guide",
@@ -1061,7 +1092,8 @@
         "answer": "Prioritize your main DPS first, then a support character (Mint is excellent and free from beginner selector), then a utility/flex pick. Level your DPS to max before heavily investing in supports.",
         "answerZh": "优先培养主C角色，其次是辅助（薄荷非常好，新手池可自选），最后是功能位。主C拉满后再重点投入辅助。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "boss-guide-comprehensive",
@@ -1116,7 +1148,8 @@
         "answer": "Weekly bosses can be challenged a limited number of times per week (typically 3 clears per boss). Resets on Monday. Prioritize clearing all weekly bosses for awakening materials.",
         "answerZh": "周本Boss每周有挑战次数限制（通常每个Boss可通关3次），周一重置。建议优先打完所有周本获取觉醒材料。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "housing-system-guide",
@@ -1170,7 +1203,8 @@
         "answer": "No. Properties are purchased with Coins (free currency). Furniture can be crafted or bought with free currency. The City Tycoon free S-rank character is achievable entirely without spending real money.",
         "answerZh": "不需要。房产用甲硬币（免费货币）购买，家具可以制作或用免费货币购买。城市经营的免费S级角色完全可以零氪获得。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "awakening-system-guide",
@@ -1219,7 +1253,8 @@
         "answer": "Getting to level 3 takes about 1-2 weeks for F2P players. Full level 6 awakening takes approximately 1-2 months of consistent farming.",
         "answerZh": "零氪玩家到3级觉醒大约需要1-2周。满6级觉醒大约需要1-2个月的持续积累。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "hidden-quests-chests-guide",
@@ -1271,7 +1306,8 @@
         "answer": "Each region at 100% grants an exclusive title and a large amount of Fangs. Completing all regions to 100% unlocks an exclusive avatar frame and an S-rank material selector box.",
         "answerZh": "每个区域100%给限定称号和大量方斯。全城100%解锁限定头像框和S级材料自选箱。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "vehicle-system-guide",
@@ -1323,7 +1359,8 @@
         "answer": "Yes, NTE has regular racing events including speed races, drift challenges, and timed delivery missions. These events offer exclusive vehicle rewards and rare materials.",
         "answerZh": "有。异环定期举办竞速赛、漂移挑战和限时配送等赛车活动。活动奖励包括限定载具和稀有材料。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "photo-mode-guide",
@@ -1371,7 +1408,8 @@
         "answer": "Yes, you can summon all party members into the frame for a team photo. You can freely adjust each character's position and pose. Certain character combinations even unlock exclusive interaction poses.",
         "answerZh": "可以。你可以召唤队伍中的全部角色同时进入画面，自由调整各自的站位和姿势。特定角色组合还会解锁专属互动姿势。"
       }
-    ]
+    ],
+    "date": "2026-04-29"
   },
   {
     "id": "nanally-guide",
@@ -1384,11 +1422,23 @@
     "summaryEn": "Nanally is a T0 limited character in NTE v1.0. Complete guide covering skills, team comps, arc, and disk builds.",
     "content": "娜娜莉是异环公测1.0版本限定卡池featured角色，T0级输出。如果你在犹豫要不要抽，结论很简单：抽。\n\n## 角色定位\n\n- **稀有度**：S级\n- **属性**：Anima（生命）\n- **定位**：主C（核心输出）\n- **来源**：限定卡池\n\n## 技能解析\n\n### 普通攻击\n连续格斗连段，最后一击伤害较高。攻击范围中等偏近，需要贴近敌人输出。\n\n### 元素战技（E技能）\n强力单体/小范围攻击，附带元素效果。建议在敌人被聚怪后使用。\n\n### 元素爆发（Q技能）\n高额爆发伤害，是T0核心技能。范围较大，建议在敌人聚集或Boss破防时释放。\n\n### 被动天赋\n提供额外伤害加成，触发元素反应后获得显著提升。\n\n## 配队推荐\n\n### 最佳配队：娜娜莉+九原+薄荷+阿德勒\n- 娜娜莉主C，九原聚怪+副C，薄荷辅助+治疗，阿德勒副C+控制\n\n### F2P配队：娜娜莉+主角+薄荷+小吱\n- 小吱通过都市大亨免费获取\n\n## 弧盘（武器）推荐\n\n- **最佳**：专属弧盘（最大伤害提升）\n- **替代**：暴击率/暴击伤害主词条通用弧盘\n- **词条优先级**：暴击率 > 暴击伤害 > 攻击力% > 元素伤害\n\n## 磁盘搭配\n\n- **最佳套装**：攻击力+元素伤害4件套\n- **替代**：攻击力2件+元素伤害2件混搭\n- **主词条**：攻击力% / 元素伤害 / 暴击率或暴击伤害\n\n## 觉醒优先级\n\n1. 1觉（提升大招伤害，最优先）\n2. 2觉（增强普攻连段）\n3. 3觉+（锦上添花，非必需）\n\n## 操作技巧\n\n1. 先用九原聚怪，再切娜娜莉输出\n2. E技能留在敌人聚拢后使用\n3. 大招留到Boss破防阶段释放\n4. 注意走位贴近敌人（近战角色）\n\n## 总结\n\n娜娜莉是1.0版本最值得投入的角色。高输出、好配队、不挑武器，当前版本的万能主C。",
     "contentEn": "Nanally is the featured banner character for NTE v1.0, rated T0. A cat-tribe close-combat fighter. Short answer: pull for her.\n\n## Character Overview\n\n- Rarity: S-rank | Element: Anima | Role: Main DPS\n- Source: Limited Banner (v1.0)\n\n## Skill Analysis\n\n- Normal: Chain melee combos with high final hit\n- Elemental Skill (E): Powerful single/small AoE with element\n- Burst (Q): High burst damage, large AoE — core T0 skill\n- Passive: Extra damage after elemental reactions\n\n## Team Compositions\n\nBest: Nanally + Jiuyuan + Mint + Adler\nF2P: Nanally + Protagonist + Mint + Xiaozhi\n\n## Arc (Weapon)\n\n- Best: Signature arc\n- Alt: Crit rate/damage main stat\n- Priority: Crit Rate > Crit DMG > ATK% > Elemental DMG\n\n## Disk (Artifact)\n\n- Best: ATK + Elemental DMG 4-piece\n- Alt: 2+2 ATK + Elemental\n- Main stats: ATK% / Elemental DMG / Crit\n\n## Awakening\n\n1. A1: Ultimate damage boost (highest priority)\n2. A2: Enhanced combos\n3. A3+: Nice to have\n\n## Verdict\n\nMost worth-investing character in v1.0. Universal main DPS.",
-    "tags": ["娜娜莉", "角色攻略", "T0", "限定", "配队"],
-    "relatedCharacters": ["nanally", "jiuyuan", "mint", "adler"],
+    "tags": [
+      "娜娜莉",
+      "角色攻略",
+      "T0",
+      "限定",
+      "配队"
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "jiuyuan",
+      "mint",
+      "adler"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "jiuyuan-guide",
@@ -1401,11 +1451,23 @@
     "summaryEn": "Jiuyuan is one of the strongest standard characters, rated T0 for grouping and sub-DPS. Top recommendation for the 6-pick-1 selector.",
     "content": "九原是异环公测最值得入手的常驻角色。T0级聚怪+副C，6选1标准答案。\n\n## 角色定位\n\n- **稀有度**：S级\n- **属性**：Anima（生命）\n- **定位**：聚怪副C / 1觉后兼职奶妈\n- **来源**：常驻池 / 6选1自选\n\n## 为什么选九原\n\n1. 超大范围聚怪，全游戏最强\n2. 聚怪后配合主C打出爆炸伤害\n3. 1觉解锁奶妈能力，一角色两定位\n4. 常驻角色，不需要抽限定\n5. 泛用性极强\n\n## 配队推荐\n\n- 娜娜莉+九原+薄荷+阿德勒（经典T0）\n- 白藏+九原+薄荷+主角（无娜娜莉替代）\n- 小吱+九原+薄荷+埃德加（F2P）\n\n## 弧盘推荐\n\n偏向充能效率和元素精通：元素充能效率 > 元素精通 > 攻击力%\n\n## 磁盘搭配\n\n充能效率或元素精通套装，确保频繁使用聚怪技能。\n\n## 觉醒优先级\n\n1. 1觉（最关键，解锁治疗能力，质变）\n2. 2觉（增强聚怪效果）\n3. 3觉+（逐步提升，非必需）\n\n## 6选1选择建议\n\n首选九原。聚怪是稀缺功能，配队兼容性最高。已有九原则选早雾或白藏。\n\n## 总结\n\n九原是最安全的投资。无论主C是谁，九原都能完美配合。",
     "contentEn": "Jiuyuan is the most worth-getting standard character. T0 grouper + sub-DPS. Definitive answer for the 6-pick-1 selector.\n\n## Overview\n\n- S-rank | Anima | Grouper/Sub-DPS/Healer (A1)\n- Source: Standard Banner / 6-pick-1\n\n## Why Jiuyuan\n\n1. Largest AoE grouping in game\n2. Creates perfect DPS windows\n3. A1 unlocks healing — three roles in one\n4. Standard banner, no limited pulls needed\n\n## Team Comps\n\n- Nanally + Jiuyuan + Mint + Adler (T0)\n- Baicang + Jiuyuan + Mint + Protagonist\n- Xiaozhi + Jiuyuan + Mint + Edgar (F2P)\n\n## Arc & Disk\n\nFocus energy recharge and elemental mastery.\n\n## Awakening\n\nA1 is critical — unlocks healing. A2 enhances grouping.\n\n## Verdict\n\nSafest investment. Fits any team.",
-    "tags": ["九原", "角色攻略", "T0", "聚怪", "6选1"],
-    "relatedCharacters": ["jiuyuan", "nanally", "baicang", "mint"],
+    "tags": [
+      "九原",
+      "角色攻略",
+      "T0",
+      "聚怪",
+      "6选1"
+    ],
+    "relatedCharacters": [
+      "jiuyuan",
+      "nanally",
+      "baicang",
+      "mint"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "character-selector-guide",
@@ -1418,11 +1480,23 @@
     "summaryEn": "NTE offers multiple free S-rank selectors. This guide analyzes each option for the best choice.",
     "content": "异环公测福利非常丰厚，玩家可以通过多种途径免费获取S级角色。\n\n## 自选机会\n\n1. 新手卡池20抽自选（选1位S级）\n2. 常驻池50抽自选（选1位S级）\n3. 都市大亨免费获得S级小吱（满配6+5）\n\n## 6选1推荐排名\n\n### 第一名：九原（强烈推荐）\nT0级聚怪，1觉后兼职奶妈。适合所有玩家，配队兼容性最高。\n\n### 第二名：早雾\nT0级输出，爆发伤害高。适合需要第二主C的玩家。\n\n### 第三名：白藏\nT1级泛用输出。适合没有强力主C的玩家。\n\n### 第四名：穗鸟\n唯一S级辅助，聚怪+加攻。与九原功能有重叠。\n\n### 第五名：哈尼尔\n特定配队中有价值。\n\n## 不同场景建议\n\n- 纯新手：选九原（聚怪最稀缺）\n- 已有九原：选早雾或白藏\n- 已抽到娜娜莉：还是选九原来配合\n- F2P：九原 > 白藏 > 早雾\n- 已有小吱：依然选九原\n\n## 常驻50抽自选\n\n同样首推九原。已选过九原则选早雾或白藏补充输出。\n\n## 总结\n\n6选1只有一个答案：九原。聚怪是最稀缺的功能。已有九原，选早雾或白藏。",
     "contentEn": "NTE offers generous free S-rank selectors at launch.\n\n## Available Selectors\n\n1. Beginner banner 20-pull selector\n2. Standard banner 50-pull selector\n3. City Tycoon free Xiaozhi (maxed)\n\n## Ranking\n\n1. Jiuyuan — T0 grouping, heals at A1. Fits all teams.\n2. Hayamu — T0 burst DPS\n3. Baicang — T1 versatile DPS\n4. Hotori — Only S-rank support\n5. Haniel — Niche value\n\n## Scenario Advice\n\n- Beginner: Pick Jiuyuan (grouping is rarest)\n- Have Jiuyuan: Pick Hayamu or Baicang\n- Have Nanally: Still pick Jiuyuan\n- F2P: Jiuyuan > Baicang > Hayamu\n- Have Xiaozhi: Still pick Jiuyuan\n\n## Verdict\n\nOne answer: Jiuyuan. If you have her, pick Hayamu or Baicang.",
-    "tags": ["6选1", "自选角色", "新手", "九原"],
-    "relatedCharacters": ["jiuyuan", "nanally", "baicang", "hotori", "haniel"],
+    "tags": [
+      "6选1",
+      "自选角色",
+      "新手",
+      "九原"
+    ],
+    "relatedCharacters": [
+      "jiuyuan",
+      "nanally",
+      "baicang",
+      "hotori",
+      "haniel"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "baicang-guide",
@@ -1435,11 +1509,23 @@
     "summaryEn": "Baicang is a T1 S-rank character in NTE, a versatile DPS suitable as main or sub carry. Complete guide with skills, teams, arc, and disk builds.",
     "content": "白藏是异环公测泛用性最强的输出角色之一。如果你在6选1中没有选九原或早雾，白藏是最佳的输出位补充。\n\n## 角色定位\n\n- **稀有度**：S级\n- **属性**：Incantation（咒术）\n- **定位**：主C/副C\n- **来源**：常驻池 / 6选1自选\n\n## 技能解析\n\n### 普通攻击\n白藏的普攻为远程输出，攻击范围较大，可以安全地在远距离输出。这使得他的生存能力优于近战主C。\n\n### 元素战技（E技能）\n释放范围攻击，附带元素效果。冷却时间适中，可以频繁使用保持输出节奏。\n\n### 元素爆发（Q技能）\n高倍率的爆发技能，是白藏的核心输出手段。建议在元素反应触发后或Boss破防时使用。\n\n### 被动天赋\n白藏的被动提供元素伤害加成，配合特定元素队友可以获得额外增益。\n\n## 配队推荐\n\n### 配队一：白藏+九原+薄荷+阿德勒\n白藏主C，九原聚怪，薄荷辅助治疗，阿德勒副C。\n\n### 配队二：白藏+娜娜莉+薄荷+九原\n白藏作为副C，娜娜莉主C，九原聚怪。双输出位确保持续伤害。\n\n### F2P配队：白藏+小吱+薄荷+埃德加\n全免费/自选角色阵容，小吱免费满配。\n\n## 弧盘推荐\n\n- **最佳**：专属弧盘（最大输出提升）\n- **替代**：暴击率+暴击伤害主词条弧盘\n- **词条优先级**：暴击率 > 暴击伤害 > 攻击力% > 元素伤害\n\n## 磁盘搭配\n\n- **最佳**：元素伤害+攻击力4件套\n- **替代**：攻击力2件+元素伤害2件\n- **主词条**：攻击力% / 元素伤害 / 暴击率或暴击伤害\n\n## 觉醒优先级\n\n1. 1觉（提升核心技能伤害）\n2. 2觉（增强元素反应效果）\n3. 3觉+（逐步提升）\n\n## 操作技巧\n\n1. 利用远程优势保持安全距离输出\n2. E技能配合聚怪角色打出范围伤害\n3. 大招留到元素反应触发后释放（伤害加成更高）\n4. 白藏不需要贴近敌人，注意走位保持输出\n\n## 白藏 vs 其他主C\n\n- vs 娜娜莉：白藏输出略低但更安全（远程）\n- vs 早雾：白藏更泛用但爆发不如早雾\n- vs 小吱：白藏输出更高但小吱免费\n\n## 总结\n\n白藏是最均衡的输出角色。没有明显短板，适合作为6选1的第三选择。已有九原和早雾的玩家，白藏是最佳补充。",
     "contentEn": "Baicang is one of the most versatile DPS characters in NTE's launch. If you didn't pick Jiuyuan or Hayamu, Baicang is the best DPS addition.\n\n## Overview\n\n- S-rank | Incantation | Main/Sub DPS\n- Source: Standard Banner / 6-pick-1\n\n## Skills\n\n- Normal: Ranged attacks with good range for safe positioning\n- E Skill: AoE attack with elemental effect, moderate cooldown\n- Q Burst: High multiplier burst — core DPS tool\n- Passive: Elemental damage bonus with specific element teammates\n\n## Team Comps\n\n- Baicang + Jiuyuan + Mint + Adler (standard)\n- Baicang + Nanally + Mint + Jiuyuan (dual DPS)\n- Baicang + Xiaozhi + Mint + Edgar (F2P)\n\n## Arc & Disk\n\n- Best Arc: Signature arc\n- Alt: Crit rate/damage main stat\n- Disk: Elemental DMG + ATK 4-piece or 2+2 mix\n- Priority: Crit Rate > Crit DMG > ATK% > Elemental DMG\n\n## Awakening\n\nA1: Core skill damage. A2: Enhanced reactions. A3+: Incremental.\n\n## Verdict\n\nMost balanced DPS. Third choice after Jiuyuan and Hayamu for the selector.",
-    "tags": ["白藏", "角色攻略", "T1", "输出", "配队"],
-    "relatedCharacters": ["baicang", "jiuyuan", "nanally", "mint"],
+    "tags": [
+      "白藏",
+      "角色攻略",
+      "T1",
+      "输出",
+      "配队"
+    ],
+    "relatedCharacters": [
+      "baicang",
+      "jiuyuan",
+      "nanally",
+      "mint"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "mint-guide",
@@ -1452,11 +1538,23 @@
     "summaryEn": "Mint is the most iconic A-rank launch character in NTE, a cat-ear girl with extremely high versatility. Complete guide with skills, teams, arc, and disk builds.",
     "content": "薄荷是异环中最具代表性的A级角色之一。虽然是A级，但她的泛用性和实用价值让许多S级角色都相形见绌。几乎每个配队推荐中都能看到她的身影。\n\n## 角色定位\n\n- **稀有度**：A级（但实力不输S级）\n- **属性**：Anima（生命）\n- **定位**：辅助/治疗/副C\n- **来源**：常驻池 / 免费获取\n\n## 为什么练薄荷\n\n1. 免费获取，培养成本极低\n2. 几乎适配所有队伍\n3. 同时提供治疗和辅助增益\n4. 猫耳娘形象辨识度高\n5. 不占用S级位，队伍配置更灵活\n\n## 技能解析\n\n### 普通攻击\n薄荷的普攻伤害一般，但她主要在后台提供增益，不需要站场输出。\n\n### 元素战技（E技能）\n为队伍提供增益效果。这是薄荷的核心价值，合理使用可以大幅提升主C的输出。\n\n### 元素爆发（Q技能）\n薄荷的大招提供治疗和增益双重效果。大招的能量需求较低，可以频繁使用保持队伍健康。\n\n### 被动天赋\n薄荷的被动在她处于后台时也能触发效果，使她成为优秀的后台辅助。\n\n## 配队推荐\n\n薄荷几乎可以放入任何队伍：\n- 娜娜莉+九原+**薄荷**+阿德勒\n- 白藏+九原+**薄荷**+主角\n- 小吱+九原+**薄荷**+埃德加\n\n薄荷就是那个「无脑放入都不会错」的角色。\n\n## 弧盘推荐\n\n- **方向**：充能效率 + 元素精通\n- 充能效率确保大招循环\n- 元素精通提升增益效果\n- 不需要暴击/攻击力类弧盘\n\n## 磁盘搭配\n\n- **推荐**：元素充能4件套 或 元素充能2件+生命2件\n- **主词条**：充能效率 / 元素精通 / 生命值%\n\n## 觉醒优先级\n\n1. 1觉（提升治疗量和增益效果）\n2. 2觉（增强后台触发能力）\n3. 3觉+（逐步提升，非必须）\n\n## 操作技巧\n\n1. 薄荷不需要站场，EQ后立刻切人\n2. 保持大招循环（充能足够时频繁使用）\n3. 在主C输出前先用薄荷上增益\n4. 注意治疗节奏，不要等到残血才治疗\n\n## 薄荷 vs S级辅助\n\n薄荷相比穗鸟（唯一S级辅助）的优势：\n- 免费获取，不需要抽卡\n- 不占用S级队伍位\n- 治疗和增益都有\n- 培养成本极低\n\n唯一的劣势是数值略低于S级辅助，但性价比远超。\n\n## 总结\n\n薄荷是异环中最值得投入的A级角色，没有之一。免费、泛用、好用，她就是你的最佳队友。",
     "contentEn": "Mint is one of the most iconic A-rank characters in NTE. Despite being A-rank, her versatility puts many S-ranks to shame. She appears in almost every recommended team.\n\n## Overview\n\n- A-rank | Anima | Support/Healer/Sub-DPS\n- Source: Standard Banner / Free\n\n## Why Build Mint\n\n1. Free to obtain, low investment\n2. Fits virtually every team\n3. Provides both healing and buffs\n4. Iconic cat-ear design\n5. Doesn't take an S-rank slot\n\n## Skills\n\n- Normal: Average damage, but Mint mostly provides off-field support\n- E Skill: Team buffs — her core value\n- Q Burst: Healing + buffs, low energy cost for frequent use\n- Passive: Off-field effects even when not active\n\n## Team Comps\n\nMint fits anywhere:\n- Nanally + Jiuyuan + Mint + Adler\n- Baicang + Jiuyuan + Mint + Protagonist\n- Xiaozhi + Jiuyuan + Mint + Edgar\n\nShe's the 'never wrong to include' character.\n\n## Arc & Disk\n\n- Focus: Energy Recharge + Elemental Mastery\n- Disk: Energy Recharge 4-piece or 2+2 with HP\n- No need for Crit/ATK arcs\n\n## Awakening\n\nA1: Improved healing and buffs. A2: Enhanced off-field. A3+: Optional.\n\n## Verdict\n\nThe most worth-investing A-rank character. Free, versatile, effective — your best teammate.",
-    "tags": ["薄荷", "角色攻略", "辅助", "治疗", "A级"],
-    "relatedCharacters": ["mint", "nanally", "jiuyuan", "baicang"],
+    "tags": [
+      "薄荷",
+      "角色攻略",
+      "辅助",
+      "治疗",
+      "A级"
+    ],
+    "relatedCharacters": [
+      "mint",
+      "nanally",
+      "jiuyuan",
+      "baicang"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "arc-tier-list",
@@ -1469,11 +1567,17 @@
     "summaryEn": "Latest arc tier list for NTE launch, categorized by role with signature and generic arc comparisons.",
     "content": "弧盘是异环中角色的核心装备，相当于其他游戏中的武器。选择正确的弧盘可以大幅提升角色实力。本排行基于公测实测数据整理。\n\n## 弧盘系统基础\n\n- 弧盘通过抽卡（弧盘研募计划）获取\n- 基础概率3%，双重保底机制\n- 每个角色有专属弧盘（最佳选择）\n- 通用弧盘作为替代\n\n## T0弧盘（必抽）\n\n### 娜娜莉专属弧盘\n- 最大伤害提升\n- 额外暴击率和元素伤害加成\n- 如果你有娜娜莉，这是第一优先级\n\n### 九原专属弧盘\n- 提升聚怪效果的持续时间\n- 增加充能效率\n- 让九原的循环更流畅\n\n## T1弧盘（强烈推荐）\n\n### 白藏专属弧盘\n- 显著提升远程输出\n- 暴击伤害加成\n\n### 通用暴击弧盘\n- 暴击率/暴击伤害主词条\n- 适合所有输出角色\n- 没有专属弧盘时的最佳选择\n\n### 通用充能弧盘\n- 元素充能效率主词条\n- 适合所有辅助/治疗角色\n- 确保大招循环\n\n## T2弧盘（可用但非最佳）\n\n### 攻击力通用弧盘\n- 攻击力百分比主词条\n- 过渡期可用\n\n### 元素精通通用弧盘\n- 元素精通主词条\n- 特定反应流配队可用\n\n## 弧盘词条优先级\n\n### 输出角色\n1. 暴击率\n2. 暴击伤害\n3. 攻击力%\n4. 元素伤害加成\n\n### 辅助角色\n1. 元素充能效率\n2. 元素精通\n3. 生命值%\n4. 攻击力%（增益基于攻击力的角色）\n\n## 弧盘获取建议\n\n1. 优先抽取主C的专属弧盘\n2. 辅助角色用通用弧盘即可\n3. 不要为了副C的专属弧盘花太多资源\n4. 弧盘研募计划有保底，合理规划抽数\n\n## 总结\n\n弧盘对角色强度的影响很大。如果你有娜娜莉或九原，优先抽取她们的专属弧盘。其他角色使用通用暴击/充能弧盘即可。",
     "contentEn": "Arcs are core equipment in NTE. Choosing the right arc dramatically impacts performance. Rankings based on post-launch data.\n\n## Arc System\n\n- Obtain via gacha (Arc Research Plan)\n- Base rate 3%, dual pity system\n- Each character has a signature arc (best choice)\n\n## T0 Arcs (Must Pull)\n\n- Nanally Signature: Max damage boost, extra crit and elemental DMG\n- Jiuyuan Signature: Extended grouping, better energy recharge\n\n## T1 Arcs (Strongly Recommended)\n\n- Baicang Signature: Ranged DPS boost, crit damage\n- Generic Crit Arc: Crit rate/damage — best for all DPS without signature\n- Generic Recharge Arc: Energy recharge — best for all supports\n\n## T2 Arcs (Usable)\n\n- Generic ATK Arc: ATK% — good for transition\n- Generic EM Arc: Elemental mastery — for reaction teams\n\n## Stat Priority\n\nDPS: Crit Rate > Crit DMG > ATK% > Elemental DMG\nSupport: Energy Recharge > EM > HP%\n\n## Tips\n\n1. Pull main DPS signature first\n2. Supports can use generic arcs\n3. Plan pulls around the pity system",
-    "tags": ["弧盘", "武器", "排行", "tier-list"],
+    "tags": [
+      "弧盘",
+      "武器",
+      "排行",
+      "tier-list"
+    ],
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "disk-set-guide",
@@ -1486,11 +1590,17 @@
     "summaryEn": "Complete disk set guide with all 2-piece/4-piece effects, applicable characters, sub-stat ranges, and optimal combinations.",
     "content": "磁盘是异环中的装备系统（类似圣遗物/遗器），直接影响角色的战斗力。本攻略详细列出所有磁盘套装效果和搭配建议。\n\n## 磁盘系统基础\n\n- 每个角色可装备4个磁盘\n- 2件套和4件套有额外效果\n- 磁盘有主词条和副词条\n- 副词条随机生成，可以强化\n\n## 输出型磁盘套装\n\n### 攻击力套装\n- **2件套**：攻击力+15%\n- **4件套**：暴击率+8%，触发元素反应后攻击力额外+12%\n- **适用**：所有主C角色\n- **推荐**：娜娜莉、白藏、早雾\n\n### 元素伤害套装\n- **2件套**：对应元素伤害+15%\n- **4件套**：使用元素技能后，对应元素伤害+20%，持续10秒\n- **适用**：以元素伤害为主的输出角色\n- **推荐**：特定元素主C\n\n### 暴击套装\n- **2件套**：暴击率+12%\n- **4件套**：暴击时额外造成20%伤害\n- **适用**：高暴击率的输出角色\n- **推荐**：装备暴击弧盘后的主C\n\n## 辅助型磁盘套装\n\n### 充能效率套装\n- **2件套**：元素充能效率+20%\n- **4件套**：使用元素爆发后，全队元素充效率+10%\n- **适用**：所有辅助和副C\n- **推荐**：九原、薄荷、穗鸟\n\n### 元素精通套装\n- **2件套**：元素精通+80\n- **4件套**：触发元素反应后，全队元素精通+40，持续8秒\n- **适用**：反应流辅助\n- **推荐**：副C和反应触发者\n\n### 生命值套装\n- **2件套**：生命值+15%\n- **4件套**：治疗量+15%，被治疗角色攻击力+10%\n- **适用**：治疗角色\n- **推荐**：薄荷、1觉九原\n\n## 主词条选择指南\n\n| 磁盘位 | 输出角色 | 辅助角色 |\n|--------|---------|----------|\n| 位1 | 攻击力% | 充能效率/生命% |\n| 位2 | 元素伤害 | 元素精通 |\n| 位3 | 暴击率/暴击伤害 | 生命%/攻击力% |\n| 位4 | 攻击力% | 充能效率 |\n\n## 副词条优先级\n\n### 输出角色\n1. 暴击率/暴击伤害\n2. 攻击力%\n3. 元素伤害加成\n4. 元素充能效率\n\n### 辅助角色\n1. 元素充能效率\n2. 元素精通\n3. 生命值%\n4. 攻击力%\n\n## 常用2+2混搭\n\n如果凑不齐4件套，可以混搭：\n- 攻击力2件 + 元素伤害2件（最通用输出搭配）\n- 充能2件 + 精通2件（辅助万能搭配）\n- 攻击力2件 + 暴击2件（暴击不够时的过渡）\n\n## 磁盘强化建议\n\n1. 先确认主词条正确再强化\n2. +4时检查副词条是否满意\n3. 不满意的磁盘当狗粮，不要浪费资源\n4. 输出角色优先保证暴击率50%+\n5. 辅助角色优先保证充能循环不断\n\n## 总结\n\n磁盘搭配的核心原则：主词条正确 > 套装效果 > 副词条优化。先确保主词条正确，再追求套装效果，最后优化副词条。",
     "contentEn": "Disks are NTE's equipment system (similar to artifacts). This guide covers all disk sets, effects, and build recommendations.\n\n## System Basics\n\n- 4 disks per character\n- 2-piece and 4-piece set bonuses\n- Main stat + sub-stats\n- Sub-stats are random, can be enhanced\n\n## DPS Disk Sets\n\n### ATK Set\n- 2pc: ATK+15% | 4pc: Crit+8%, ATK+12% after reaction\n- Best for: All main DPS\n\n### Elemental DMG Set\n- 2pc: Elemental DMG+15% | 4pc: +20% after skill use\n- Best for: Element-focused DPS\n\n### Crit Set\n- 2pc: Crit Rate+12% | 4pc: +20% crit damage\n- Best for: High crit builds\n\n## Support Disk Sets\n\n### Energy Recharge Set\n- 2pc: ER+20% | 4pc: Team ER+10% after burst\n- Best for: All supports\n\n### Elemental Mastery Set\n- 2pc: EM+80 | 4pc: Team EM+40 after reaction\n- Best for: Reaction enablers\n\n### HP Set\n- 2pc: HP+15% | 4pc: Healing+15%, ATK+10% to healed\n- Best for: Healers\n\n## Main Stat Guide\n\nSlot 1: ATK% (DPS) / ER or HP% (Support)\nSlot 2: Elemental DMG (DPS) / EM (Support)\nSlot 3: Crit Rate/DMG (DPS) / HP% (Support)\nSlot 4: ATK% (DPS) / ER (Support)\n\n## Key Principle\n\nCorrect main stat > Set bonus > Sub-stat optimization.",
-    "tags": ["磁盘", "圣遗物", "装备", "搭配"],
+    "tags": [
+      "磁盘",
+      "圣遗物",
+      "装备",
+      "搭配"
+    ],
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "money-making-guide",
@@ -1503,11 +1613,17 @@
     "summaryEn": "Credits and Vons are core currencies in NTE. This guide covers the most efficient farming routes and methods for accumulating wealth.",
     "content": "信用点和方斯是异环中两种最重要的货币。信用点用于角色养成，方斯用于商店购买。合理规划货币获取路线可以大幅减少养成瓶颈。\n\n## 货币类型\n\n- **信用点**：角色升级、技能升级、装备强化\n- **方斯**：商店兑换、特殊物品购买\n- **环石**：抽卡货币（最珍贵）\n\n## 每日必做（稳定收入）\n\n### 日常任务\n- 每天完成4个日常任务\n- 奖励：信用点 + 经验 + 少量方斯\n- 耗时约15分钟\n- **必做**，这是最稳定的信用点来源\n\n### 每日副本\n- 每天可刷的货币副本\n- 产出大量信用点\n- 使用体力刷取\n- 优先级高于经验副本\n\n### 都市大亨收益\n- 都市大亨玩法每天产出稳定收入\n- 升级建筑增加被动收益\n- **建议**：优先升级产金建筑\n\n## 每周收入\n\n### 周常任务\n- 每周完成指定任务\n- 奖励丰厚，包含方斯和信用点\n- 建议周末集中完成\n\n### 异象副本\n- 每周重置的高难度副本\n- 产出大量信用点和稀有材料\n- 根据实力选择难度\n\n## 高效赚钱路线\n\n### 路线一：日常循环（每日30分钟）\n1. 完成4个日常任务\n2. 刷1-2次货币副本\n3. 收取都市大亨收益\n4. 完成活跃度奖励\n\n### 路线二：主线推进（初期优先）\n1. 推进主线获取大量信用点奖励\n2. 完成支线任务获取额外奖励\n3. 探索开放世界收集宝箱\n4. 新区域解锁时有大量一次性奖励\n\n### 路线三：活动刷取\n1. 限时活动通常给大量货币\n2. 活动商店优先兑换信用点和方斯\n3. 活动期间的体力效率高于日常\n\n## 省钱技巧\n\n1. 不要一次性升级所有角色，集中培养3-4个核心角色\n2. 商店中用信用点购买的材料比体力刷取更划算\n3. 周限商品每周刷新，不要错过折扣\n4. 信用点不够时优先升级角色等级，技能等级可以延后\n\n## 货币分配优先级\n\n### 信用点\n1. 角色等级突破（最优先）\n2. 核心技能升级\n3. 磁盘强化\n4. 弧盘升级\n\n### 方斯\n1. 周限折扣材料\n2. 角色突破素材（紧急时）\n3. 其他消耗品\n\n## 总结\n\n赚钱的核心是坚持每日任务 + 合理分配体力。日常30分钟的投入可以保证稳定的信用点收入，不要忽略。",
     "contentEn": "Credits and Vons are the two most important currencies in NTE. Smart farming routes minimize progression bottlenecks.\n\n## Currency Types\n\n- Credits: Character upgrades, skills, equipment\n- Vons: Shop purchases, special items\n- Ring Stones: Gacha currency (most precious)\n\n## Daily Must-Do\n\n- 4 daily quests (~15 min): Credits + EXP + Vons\n- Currency domains: Large credit yields\n- City Tycoon: Passive daily income\n\n## Weekly Income\n\n- Weekly tasks: Generous Vons and Credits\n- Anomaly dungeons: Credits + rare materials\n\n## Efficient Routes\n\n### Daily Loop (30 min)\n1. Complete 4 dailies\n2. Run 1-2 currency domains\n3. Collect City Tycoon income\n4. Claim activity rewards\n\n### Main Story (Early Priority)\n1. Main quest credit rewards\n2. Side quest bonuses\n3. Open world chests\n4. One-time area unlock rewards\n\n## Money-Saving Tips\n\n1. Focus on 3-4 core characters\n2. Shop materials can be cheaper than stamina farming\n3. Don't miss weekly discounts\n4. Prioritize character levels over skill levels\n\n## Priority\n\nCredits: Level breakthrough > Core skills > Disk enhancement\nVons: Weekly discount materials > Breakthrough materials",
-    "tags": ["赚钱", "信用点", "方斯", "刷材料"],
+    "tags": [
+      "赚钱",
+      "信用点",
+      "方斯",
+      "刷材料"
+    ],
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "shop-exchange-guide",
@@ -1520,11 +1636,17 @@
     "summaryEn": "NTE has multiple shop systems with different currencies. This guide analyzes exchange priorities for each shop to maximize your currency value.",
     "content": "异环有多个商店，每个商店使用不同的货币。合理规划兑换顺序可以最大化资源利用效率。\n\n## 商店类型一览\n\n| 商店 | 货币 | 刷新频率 |\n|------|------|----------|\n| 普通商店 | 方斯 | 每日 |\n| 周限商店 | 方斯 | 每周 |\n| 活动商店 | 活动货币 | 活动期间 |\n| 都市大亨商店 | 城市币 | 每周 |\n| 荣誉商店 | 竞技币 | 每月 |\n| 公会商店 | 公会币 | 每周 |\n\n## 普通商店兑换优先级\n\n1. **打折材料**（最高优先）\n2. 角色经验书\n3. 信用点（如果急需）\n4. 基础强化材料\n5. **不建议**：原价的高级材料（体力刷取更划算）\n\n## 周限商店兑换优先级\n\n1. **限定材料**（周限独有，其他途径无法获取）\n2. 高级突破材料\n3. 技能书\n4. 磁盘强化材料\n5. 装饰性物品（最后考虑）\n\n## 活动商店兑换优先级\n\n1. **抽卡货币**（环石/抽卡券）\n2. 限定道具/称号\n3. 高级突破材料\n4. 角色经验书和信用点\n5. 基础材料（性价比最低）\n\n## 都市大亨商店\n\n1. 角色突破材料\n2. 小吱碎片（集满可解锁/提升）\n3. 城市建设材料\n4. 装饰性物品\n\n## 荣誉/竞技商店\n\n1. 限定称号和头像\n2. 高级突破材料\n3. 抽卡货币\n4. 竞技专属道具\n\n## 通用兑换原则\n\n1. **限时折扣永远第一**：打折商品性价比最高\n2. **限定物品优先**：活动限定不会再返场\n3. **抽卡货币必买**：任何途径获取的抽卡资源都值得\n4. **基础材料最后**：可以随时用体力刷取\n5. **每周刷新的要买完**：错过要等一周\n\n## 常见误区\n\n1. 不要在普通商店买原价高级材料\n2. 不要为了装饰品放弃实用材料\n3. 不要忘记活动商店有截止日期\n4. 不要在角色还没准备好时买突破材料（会占用货币）\n\n## 总结\n\n兑换优先级口诀：折扣 > 限定 > 抽卡 > 材料 > 装饰。把有限的货币花在最有价值的地方。",
     "contentEn": "NTE has multiple shops with different currencies. Planning exchange priorities maximizes resource efficiency.\n\n## Shop Types\n\n| Shop | Currency | Reset |\n|------|----------|-------|\n| General | Vons | Daily |\n| Weekly | Vons | Weekly |\n| Event | Event Currency | During Event |\n| City Tycoon | City Coins | Weekly |\n| Honor | Arena Coins | Monthly |\n| Guild | Guild Coins | Weekly |\n\n## General Shop Priority\n\n1. Discounted materials (highest)\n2. EXP books\n3. Credits (if urgent)\n4. Basic enhancement materials\n\n## Weekly Shop Priority\n\n1. Exclusive materials (can't get elsewhere)\n2. High-tier breakthrough materials\n3. Skill books\n4. Disk enhancement materials\n\n## Event Shop Priority\n\n1. Gacha currency\n2. Limited items/titles\n3. High-tier materials\n4. EXP and credits\n\n## Key Principles\n\nDiscount > Limited > Gacha > Materials > Cosmetics",
-    "tags": ["商店", "兑换", "优先级", "货币"],
+    "tags": [
+      "商店",
+      "兑换",
+      "优先级",
+      "货币"
+    ],
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": []
+    "faq": [],
+    "date": "2026-04-29"
   },
   {
     "id": "city-tycoon-guide",
@@ -1538,16 +1660,41 @@
     "summaryEn": "Complete guide to NTE's City Tycoon system. Learn building types, income optimization, how to get the free S-rank character Xiaozhi, milestone rewards, and pro tips for managing Hethereau city.",
     "content": "都市大亨（City Tycoon）是异环中一个独具特色的都市经营模拟玩法。玩家可以在赫瑟罗城中购买、升级和管理各类建筑，通过经营获得稳定的被动收入和丰厚奖励。最重要的是，完成都市大亨的里程碑任务可以获得免费S级角色——小吱！本攻略将全面解析这个系统的方方面面。\n\n## 什么是都市大亨\n\n都市大亨是异环中嵌入的都市经营模拟系统。与主线RPG玩法不同，都市大亨让玩家扮演城市经营者的角色，在赫瑟罗城的指定区域购买地块、建造建筑、升级设施，从而获得持续的金币收益和各类资源奖励。\n\n这个系统不是单纯的放置挂机玩法。建筑的选择、升级顺序、区域搭配都会影响整体收益效率。合理的经营策略可以让你的被动收入翻倍，而不当的规划则可能浪费大量城市币。\n\n都市大亨的收益会自动累积，即使你不在线也会持续产出（有上限）。建议每天至少收取一次收益，避免达到存储上限后浪费产出。\n\n## 如何解锁都市大亨\n\n都市大亨系统在主线剧情推进到第二章后自动解锁。具体解锁条件：\n\n1. 完成主线第二章「初入赫瑟罗」\n2. 角色等级达到15级\n3. 完成引导任务「城市的脉搏」\n\n解锁后系统会赠送初始城市币和一块免费商业用地。建议在解锁后立即完成教学引导，了解基本的建造和升级操作。\n\n注意：尽早解锁都市大亨非常重要，因为它是每天被动收入的重要来源。越早开始经营，累积的收益越多。\n\n## 建筑类型与升级路线\n\n都市大亨中的建筑分为三大类，每类建筑有不同的收益特性和升级路径：\n\n### 商业建筑\n\n商业建筑是前期最推荐优先升级的类型，收益稳定且回本快。\n\n| 建筑 | 初始收益/小时 | 满级收益/小时 | 建造费用 |\n|------|--------------|--------------|----------|\n| 便利店 | 120 | 580 | 1,000城市币 |\n| 餐厅 | 200 | 960 | 2,000城市币 |\n| 购物中心 | 350 | 1,800 | 5,000城市币 |\n| 高级会所 | 500 | 3,200 | 12,000城市币 |\n\n商业建筑的特点是收益频率高（每30分钟结算一次），适合前期快速积累城市币。推荐第一个建造的建筑是餐厅，性价比最高。\n\n### 住宅建筑\n\n住宅建筑提供中等但非常稳定的收益，且有概率产出额外奖励。\n\n| 建筑 | 初始收益/小时 | 满级收益/小时 | 建造费用 |\n|------|--------------|--------------|----------|\n| 普通公寓 | 80 | 420 | 800城市币 |\n| 花园小区 | 150 | 780 | 1,800城市币 |\n| 豪华住宅 | 280 | 1,500 | 4,500城市币 |\n| 高端别墅 | 450 | 2,800 | 10,000城市币 |\n\n住宅建筑每次结算有10%概率产出额外奖励（经验书、突破材料等），长期来看收益非常可观。\n\n### 工业建筑\n\n工业建筑前期收益较低，但满级后产出最高，且能产出稀有材料。\n\n| 建筑 | 初始收益/小时 | 满级收益/小时 | 建造费用 |\n|------|--------------|--------------|----------|\n| 小型工厂 | 100 | 520 | 1,200城市币 |\n| 加工中心 | 180 | 880 | 2,500城市币 |\n| 科技园区 | 320 | 1,600 | 6,000城市币 |\n| 研发基地 | 480 | 3,500 | 15,000城市币 |\n\n工业建筑的特色是能产出其他建筑无法产出的稀有材料，包括角色突破所需的特殊素材。后期必升。\n\n### 建筑升级建议\n\n前期（1-2周）：集中升级2-3个商业建筑到5级以上\n中期（3-4周）：开始建造住宅建筑，平衡收入来源\n后期（1个月后）：全力升级工业建筑，获取稀有材料产出\n\n每座建筑最高可升至10级。升级需要消耗城市币和时间，高等级升级时间较长。建议在睡前启动长时间升级，在线时进行短时间升级。\n\n## 收益优化策略\n\n### 区域加成\n\n赫瑟罗城分为多个区域，每个区域有不同的加成效果。将同类型建筑集中在同一区域可以获得加成：\n\n- 商业区：商业建筑收益+15%\n- 住宅区：住宅建筑收益+15%\n- 工业区：工业建筑收益+15%\n- 混合区：所有建筑收益+5%\n\n### 建筑联动\n\n某些特定建筑组合会触发联动效果：\n\n- 便利店+餐厅：双方收益各+10%\n- 花园小区+购物中心：住宅收益+20%\n- 科技园区+研发基地：工业产出稀有材料概率+15%\n\n合理规划建筑布局，利用联动效果可以大幅提升整体收益。\n\n### 在线收益加成\n\n在线期间可以手动收取建筑收益，每次手动收取可获得1.2倍加成。建议每天至少手动收取2-3次，利用在线加成提升收益。\n\n### 城市币再投资\n\n收益产出的城市币应该及时再投资到建筑升级中，形成正向循环。不要囤积城市币，每一级建筑升级都是对未来收益的投资。回本周期通常在2-3天，之后就是纯利润。\n\n## 免费S级角色——小吱\n\n都市大亨最大的奖励就是免费S级角色小吱！小吱是一名非常强力的角色，完全值得投入时间获取。\n\n### 小吱获取方式\n\n小吱通过都市大亨里程碑奖励获取。具体路径：\n\n1. 累计完成都市大亨里程碑任务\n2. 达到指定里程碑等级后解锁小吱碎片\n3. 集齐60个小吱碎片即可解锁角色\n\n### 里程碑任务类型\n\n- 建造指定数量的建筑\n- 建筑达到指定等级\n- 累计收取收益达到指定金额\n- 完成特殊城市事件\n- 达到城市繁荣度要求\n\n### 小吱碎片获取里程碑\n\n| 里程碑 | 奖励碎片数 | 大致所需时间 |\n|--------|-----------|--------------|\n| 初级市民 | 5个 | 第1周 |\n| 城市新秀 | 10个 | 第2周 |\n| 经营达人 | 15个 | 第3-4周 |\n| 商业精英 | 15个 | 第5-6周 |\n| 城市大亨 | 15个 | 第7-8周 |\n\n总计需要约6-8周的持续经营即可获得小吱。虽然时间较长，但这是完全免费的角色，每天只需花几分钟收取收益即可。\n\n### 小吱角色简介\n\n小吱是一名S级雷元素输出角色，拥有优秀的群体伤害能力和独特的城市主题技能。她的技能机制围绕「经营」概念设计，被动技能可以在都市大亨中提升建筑收益。即使你已经有了其他雷元素角色，小吱的独特机制也让她在特定队伍配置中有一席之地。\n\n## 里程碑奖励一览\n\n除小吱外，都市大亨里程碑还提供大量其他奖励：\n\n| 里程碑等级 | 主要奖励 |\n|-----------|----------|\n| 等级1-5 | 城市币、信用点、经验书 |\n| 等级6-10 | 高级突破材料、抽卡券 |\n| 等级11-15 | 小吱碎片、限定头像框 |\n| 等级16-20 | 大量城市币、稀有材料、限定称号 |\n| 等级21+ | 小吱碎片、限定装饰、专属家具 |\n\n每个里程碑等级都有对应的任务目标。建议优先完成高奖励任务，低奖励任务可以顺其自然完成。\n\n## 常见误区与进阶技巧\n\n### 常见误区\n\n1. **前期建造太多建筑**：建筑数量不如建筑等级重要。前期集中资源升满2-3个建筑比建造10个低级建筑收益更高。\n2. **忽视区域加成**：随便摆放建筑会损失15%的区域加成，长期累积差距很大。\n3. **忘记收取收益**：收益有存储上限，超过上限后不再累积。每天至少收取一次。\n4. **升级顺序错误**：先升满一个建筑再升下一个，不要同时升级多个建筑。\n5. **忽视城市事件**：限时城市事件提供大量城市币和经验，不要错过。\n\n### 进阶技巧\n\n1. **离线前手动收取所有收益**：确保离线期间从零开始累积，最大化离线收益。\n2. **利用活动期间的加成**：某些活动会提供都市大亨收益加成，这时要积极收取。\n3. **关注城市事件刷新时间**：城市事件每天定时刷新，准时参与可以获得额外奖励。\n4. **合理使用城市币加速道具**：在关键升级节点使用加速道具可以更快达成里程碑。\n5. **小吱到手后不要放弃经营**：后续里程碑还有小吱的共鸣链碎片和其他珍贵奖励。\n\n## 都市大亨值得投入时间吗\n\n绝对值得。都市大亨每天只需投入5-10分钟收取收益和管理建筑，就能获得可观的被动收入。更重要的是，免费S级角色小吱的获取完全依赖这个系统。\n\n从性价比来看，都市大亨是全游戏最高的投入回报玩法：\n\n- 时间投入极低（每天5-10分钟）\n- 奖励丰厚（免费S级角色、大量城市币、稀有材料）\n- 长期收益递增（建筑等级越高收益越高）\n- 无体力消耗（独立于主线体力系统）\n\n建议所有玩家在解锁后立即开始经营都市大亨，即使是休闲玩家也能轻松获取全部奖励。\n\n## 总结\n\n都市大亨是异环中一个轻松有趣且回报丰厚的系统。记住核心原则：尽早解锁、集中升级、利用加成、坚持收取。按照本攻略的建议操作，你将在6-8周内获得免费S级角色小吱，同时享受源源不断的被动收入。",
     "contentEn": "City Tycoon is a unique urban management simulation embedded within Neverness to Everness. Players can purchase, upgrade, and manage various buildings throughout Hethereau city to generate passive income and earn valuable rewards. Most importantly, completing City Tycoon milestones rewards you with a FREE S-rank character — Xiaozhi! This guide covers everything you need to know about the system.\n\n## What is City Tycoon\n\nCity Tycoon is an urban management simulation system within NTE. Unlike the main RPG gameplay, City Tycoon lets you play the role of a city manager — buying plots, constructing buildings, and upgrading facilities in designated areas of Hethereau to earn steady passive income and resource rewards.\n\nThis is not a simple idle game. Your building choices, upgrade order, and district placement all affect overall income efficiency. Smart planning can double your passive earnings, while poor decisions waste valuable City Coins.\n\nCity Tycoon income accumulates automatically, even while offline (up to a storage cap). We recommend collecting income at least once daily to prevent waste.\n\n## How to Unlock City Tycoon\n\nThe City Tycoon system unlocks automatically as you progress through the main story:\n\n1. Complete Main Story Chapter 2: \"Arrival in Hethereau\"\n2. Reach Character Level 15\n3. Complete the guide quest \"Pulse of the City\"\n\nUpon unlocking, the system grants you initial City Coins and one free commercial plot. Complete the tutorial immediately to learn basic building and upgrade mechanics.\n\nImportant: Unlock City Tycoon as early as possible. It is a significant source of daily passive income, and the earlier you start, the more cumulative rewards you earn.\n\n## Building Types and Upgrade Paths\n\nBuildings in City Tycoon fall into three major categories, each with different income characteristics and upgrade paths.\n\n### Commercial Buildings\n\nCommercial buildings are the top priority for early investment — stable returns and fast payback.\n\n| Building | Base Income/hr | Max Income/hr | Build Cost |\n|----------|---------------|---------------|------------|\n| Convenience Store | 120 | 580 | 1,000 Coins |\n| Restaurant | 200 | 960 | 2,000 Coins |\n| Shopping Mall | 350 | 1,800 | 5,000 Coins |\n| Premium Club | 500 | 3,200 | 12,000 Coins |\n\nCommercial buildings settle income every 30 minutes, making them ideal for rapid early-game coin accumulation. The Restaurant is the best first build due to its cost-to-income ratio.\n\n### Residential Buildings\n\nResidential buildings provide moderate but very stable income, with a chance for bonus rewards.\n\n| Building | Base Income/hr | Max Income/hr | Build Cost |\n|----------|---------------|---------------|------------|\n| Apartment | 80 | 420 | 800 Coins |\n| Garden Complex | 150 | 780 | 1,800 Coins |\n| Luxury Condo | 280 | 1,500 | 4,500 Coins |\n| High-end Villa | 450 | 2,800 | 10,000 Coins |\n\nEach residential income tick has a 10% chance to produce bonus rewards (EXP books, breakthrough materials, etc.), making them extremely valuable long-term.\n\n### Industrial Buildings\n\nIndustrial buildings have lower early income but the highest max-level output, plus rare material drops.\n\n| Building | Base Income/hr | Max Income/hr | Build Cost |\n|----------|---------------|---------------|------------|\n| Small Factory | 100 | 520 | 1,200 Coins |\n| Processing Center | 180 | 880 | 2,500 Coins |\n| Tech Park | 320 | 1,600 | 6,000 Coins |\n| Research Lab | 480 | 3,500 | 15,000 Coins |\n\nIndustrial buildings produce rare materials unavailable from other building types, including special character ascension materials. Essential in late game.\n\n### Upgrade Strategy\n\nEarly (Weeks 1-2): Focus on upgrading 2-3 commercial buildings to level 5+\nMid (Weeks 3-4): Start building residential properties for balanced income\nLate (Month 1+): Push industrial buildings for rare material production\n\nEach building caps at level 10. Upgrades require City Coins and time. Start long upgrades before sleeping and short ones while online.\n\n## Income Optimization Strategies\n\n### District Bonuses\n\nHethereau is divided into districts, each offering placement bonuses:\n\n- Commercial District: Commercial income +15%\n- Residential District: Residential income +15%\n- Industrial District: Industrial income +15%\n- Mixed District: All income +5%\n\n### Building Synergy\n\nCertain building combinations trigger synergy effects:\n\n- Convenience Store + Restaurant: Both gain +10% income\n- Garden Complex + Shopping Mall: Residential income +20%\n- Tech Park + Research Lab: Rare material drop rate +15%\n\nStrategic placement using synergies dramatically boosts overall earnings.\n\n### Online Collection Bonus\n\nManually collecting income while online grants a 1.2x bonus. Collect manually 2-3 times daily to maximize returns.\n\n### Reinvestment Strategy\n\nAlways reinvest earned City Coins into building upgrades immediately. Don't hoard coins — every upgrade level is an investment in future income. Typical payback period is 2-3 days, after which it's pure profit.\n\n## The Free S-Rank Character: Xiaozhi\n\nThe biggest reward from City Tycoon is the free S-rank character Xiaozhi! She is a powerful character well worth the investment of time.\n\n### How to Get Xiaozhi\n\nXiaozhi is obtained through City Tycoon milestone rewards:\n\n1. Complete City Tycoon milestone tasks cumulatively\n2. Reach specified milestone levels to unlock Xiaozhi fragments\n3. Collect 60 Xiaozhi fragments to unlock the character\n\n### Milestone Task Types\n\n- Build a specified number of buildings\n- Upgrade buildings to specified levels\n- Accumulate a target amount of collected income\n- Complete special city events\n- Reach city prosperity requirements\n\n### Xiaozhi Fragment Milestones\n\n| Milestone | Fragments | Approximate Time |\n|-----------|-----------|------------------|\n| Novice Citizen | 5 | Week 1 |\n| Rising Star | 10 | Week 2 |\n| Management Expert | 15 | Weeks 3-4 |\n| Business Elite | 15 | Weeks 5-6 |\n| City Tycoon | 15 | Weeks 7-8 |\n\nExpect approximately 6-8 weeks of consistent play to obtain Xiaozhi. While this is a longer timeline, it requires only a few minutes daily to collect income — a free S-rank character for minimal effort.\n\n### Xiaozhi Character Overview\n\nXiaozhi is an S-rank Thunder-element DPS character with excellent AoE damage and unique city-themed abilities. Her passive skill also boosts building income in City Tycoon, making her valuable both in combat and in the management system. Even if you already have other Thunder characters, her unique mechanics make her a worthwhile addition to specific team compositions.\n\n## Progression Milestones and Rewards\n\nBeyond Xiaozhi, City Tycoon milestones provide many other rewards:\n\n| Milestone Level | Main Rewards |\n|----------------|-------------|\n| Levels 1-5 | City Coins, Credits, EXP Books |\n| Levels 6-10 | Advanced Ascension Materials, Gacha Tickets |\n| Levels 11-15 | Xiaozhi Fragments, Exclusive Avatar Frame |\n| Levels 16-20 | Large City Coins, Rare Materials, Exclusive Title |\n| Levels 21+ | Xiaozhi Fragments, Exclusive Decorations, Special Furniture |\n\nPrioritize high-reward milestone tasks. Low-reward tasks will complete naturally over time.\n\n## Tips and Common Mistakes\n\n### Common Mistakes\n\n1. **Building too many structures early**: Quality over quantity. Fully upgrading 2-3 buildings outperforms 10 low-level buildings.\n2. **Ignoring district bonuses**: Random placement wastes the 15% district bonus — a significant long-term loss.\n3. **Forgetting to collect income**: Income has a storage cap. Collect at least once daily.\n4. **Wrong upgrade order**: Max one building before starting the next. Don't spread upgrades across multiple buildings simultaneously.\n5. **Skipping city events**: Timed city events offer large coin bonuses and experience. Don't miss them.\n\n### Pro Tips\n\n1. **Collect all income before going offline**: Start offline accumulation from zero to maximize offline earnings.\n2. **Leverage event bonuses**: Some events boost City Tycoon income — collect actively during these periods.\n3. **Watch city event refresh timers**: Events refresh at fixed times daily. Participate on time for extra rewards.\n4. **Use speed-up items strategically**: Save acceleration items for critical upgrade milestones.\n5. **Keep playing after getting Xiaozhi**: Later milestones reward Xiaozhi Resonance Chain fragments and other rare items.\n\n## Is It Worth the Time Investment\n\nAbsolutely. City Tycoon requires only 5-10 minutes daily to collect income and manage buildings, yet provides substantial passive income. More importantly, the free S-rank character Xiaozhi is exclusively tied to this system.\n\nFrom a return-on-investment perspective, City Tycoon offers the highest value in the entire game:\n\n- Minimal time investment (5-10 minutes per day)\n- Generous rewards (free S-rank character, large coin income, rare materials)\n- Compounding long-term returns (higher-level buildings earn exponentially more)\n- Zero stamina cost (completely independent from the main stamina system)\n\nWe recommend all players start City Tycoon immediately upon unlocking it. Even casual players can easily earn all available rewards.\n\n## Summary\n\nCity Tycoon is a relaxing and rewarding system in NTE. Remember the core principles: unlock early, focus upgrades, leverage bonuses, and collect daily. Follow this guide and you'll have your free S-rank Xiaozhi in 6-8 weeks, along with a steady stream of passive income.",
-    "tags": ["city-tycoon", "guide", "beginner", "currency"],
+    "tags": [
+      "city-tycoon",
+      "guide",
+      "beginner",
+      "currency"
+    ],
     "relatedCharacters": [],
     "relatedLocations": [],
     "relatedLore": [],
     "internalLinks": [
-      { "title": "新手入门完全指南", "titleEn": "Complete Beginner Guide", "url": "/guides/beginner-guide" },
-      { "title": "角色排行榜", "titleEn": "Character Tier List", "url": "/tier-list" },
-      { "title": "角色列表", "titleEn": "Characters", "url": "/characters" },
-      { "title": "赚钱攻略", "titleEn": "Money Making Guide", "url": "/guides/money-making-guide" },
-      { "title": "商店兑换攻略", "titleEn": "Shop Exchange Guide", "url": "/guides/shop-exchange-guide" }
+      {
+        "title": "新手入门完全指南",
+        "titleEn": "Complete Beginner Guide",
+        "url": "/guides/beginner-guide"
+      },
+      {
+        "title": "角色排行榜",
+        "titleEn": "Character Tier List",
+        "url": "/tier-list"
+      },
+      {
+        "title": "角色列表",
+        "titleEn": "Characters",
+        "url": "/characters"
+      },
+      {
+        "title": "赚钱攻略",
+        "titleEn": "Money Making Guide",
+        "url": "/guides/money-making-guide"
+      },
+      {
+        "title": "商店兑换攻略",
+        "titleEn": "Shop Exchange Guide",
+        "url": "/guides/shop-exchange-guide"
+      }
     ],
     "faq": [
       {

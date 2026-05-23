@@ -84,6 +84,13 @@ export default async function RedeemCodesPage({
           { label: t(locale, "site.nav.redeemCodes") },
         ]}
       />
+      <div className="max-w-4xl mx-auto px-4 pt-2 pb-1">
+        <p className="text-xs text-gray-500">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "最後檢查：2026年5月23日" : "最后检查：2026年5月23日")
+            : "Last checked: May 23, 2026"}
+        </p>
+      </div>
       <RedeemCodesClient lang={lang} />
     </>
   );

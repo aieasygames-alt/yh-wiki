@@ -87,6 +87,7 @@ export default async function BlogDetailPage({
         description={summary}
         url={`https://nteguide.com/${lang}/blog/${slug}`}
         datePublished={post.date}
+        dateModified={post.date}
       />
       <Breadcrumb
         items={[

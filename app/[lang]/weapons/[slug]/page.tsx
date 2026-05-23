@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getWeapon, getAllWeapons, getCharactersUsingWeapon } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { BreadcrumbJsonLd } from "../../../../components/JsonLd";
+import { BreadcrumbJsonLd, ProductJsonLd } from "../../../../components/JsonLd";
 import { WeaponSummary } from "../../../../components/WeaponSummary";
 import { GameImage } from "../../../../components/GameImage";
 import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS } from "../../../../lib/attributes";
@@ -74,6 +74,14 @@ export default async function WeaponDetailPage({
           { name: t(locale, "site.nav.weapons"), url: `https://nteguide.com/${lang}/weapons` },
           { name: displayName },
         ]}
+      />
+      <ProductJsonLd
+        name={weapon.nameEn}
+        description={`${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc. Base ATK ${weapon.baseAtk}.`}
+        url={`https://nteguide.com/${lang}/weapons/${slug}`}
+        image={weapon.image ? `https://nteguide.com${weapon.image}` : undefined}
+        ratingValue={weapon.rank === "S" ? 5 : 4}
+        reviewCount={1}
       />
       <Breadcrumb
         items={[

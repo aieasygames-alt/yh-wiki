@@ -335,6 +335,7 @@ export interface Guide {
   relatedCharacters: string[];
   relatedLocations: string[];
   relatedLore: string[];
+  date?: string;
   faq?: FaqItem[];
 }
 

@@ -18,7 +18,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
               <div key={i} className="mt-10 mb-5 first:mt-0">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="h-px flex-1 bg-gradient-to-r from-primary-500/60 to-transparent" />
-                  <h2 className="text-xl sm:text-2xl font-bold text-white whitespace-nowrap">
+                  <h2 id={headingId(block.text)} className="text-xl sm:text-2xl font-bold text-white whitespace-nowrap scroll-mt-20">
                     {block.text}
                   </h2>
                   <div className="h-px flex-1 bg-gradient-to-l from-primary-500/60 to-transparent" />
@@ -196,6 +196,10 @@ type Block =
   | { type: "info-card"; title: string; items: string[] }
   | { type: "hr" }
   | { type: "empty" };
+
+function headingId(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9一-鿿]+/g, "-").replace(/^-|-$/g, "");
+}
 
 function parseContent(content: string): Block[] {
   const lines = content.split("\n");

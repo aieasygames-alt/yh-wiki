@@ -1,7 +1,7 @@
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllFaqs, getFaqCategories } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { ItemListJsonLd } from "../../../components/JsonLd";
+import { ItemListJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 
 export async function generateMetadata({
   params,
@@ -64,6 +64,15 @@ export default async function FaqListPage({
           name: isZhLocale(locale) ? f.question : f.questionEn,
           url: `https://nteguide.com/${lang}/faq/${f.id}`,
         }))}
+      />
+      <FaqPageJsonLd
+        faqs={faqs.slice(0, 20).map((f) => ({
+          question: f.question,
+          questionEn: f.questionEn,
+          answer: f.answer,
+          answerEn: f.answerEn,
+        }))}
+        lang={locale}
       />
       <Breadcrumb
         items={[
