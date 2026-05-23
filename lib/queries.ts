@@ -272,6 +272,7 @@ export interface Weapon {
   howToObtainEn: string;
   signatureCharacter: string;
   status: string;
+  image?: string;
 }
 
 export function getAllWeapons(): Weapon[] {
