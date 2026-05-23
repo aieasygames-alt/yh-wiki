@@ -54,7 +54,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
 
   return (
     <>
-      <ArticleJsonLd title={title} description={summary} url={url} datePublished={article.date} />
+      <ArticleJsonLd title={title} description={summary} url={url} datePublished={article.date} dateModified={article.date} />
       {getCompareFaqs(slug) && <FaqPageJsonLd faqs={getCompareFaqs(slug)!} lang={locale} />}
       <BreadcrumbJsonLd
         items={[

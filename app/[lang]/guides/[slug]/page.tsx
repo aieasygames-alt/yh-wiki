@@ -73,6 +73,7 @@ export default async function GuideDetailPage({
         description={summary}
         url={`https://nteguide.com/${lang}/guides/${slug}`}
         datePublished={guide.date}
+        dateModified={guide.date}
       />
       {guide.faq && guide.faq.length > 0 && (
         <FaqPageJsonLd faqs={guide.faq} lang={locale} />

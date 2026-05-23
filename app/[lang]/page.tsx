@@ -253,7 +253,7 @@ export default async function HomePage({
                   <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
                     {isZhLocale(locale) ? post.categoryZh : post.categoryEn}
                   </span>
-                  <time className="text-xs text-gray-500">{post.date}</time>
+                  <time className="text-xs text-gray-500" dateTime={post.date}>{post.date}</time>
                 </div>
                 <h3 className="text-base font-medium line-clamp-2">
                   {isZhLocale(locale) ? post.title : post.titleEn}
