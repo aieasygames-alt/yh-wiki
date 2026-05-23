@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../../lib/i18n";
 import {
   getAvailableCharacters,
+  getAllCharacters,
   getCharacterMaterials,
   getMaterialById,
   calculateMaterials,
@@ -48,7 +49,7 @@ export default function BuildCalculatorPage() {
   const { lang: langParam } = useParams();
   const lang = (langParam || "zh") as Locale;
 
-  const characters = getAvailableCharacters();
+  const characters = getAllCharacters();
   const weapons = getAllWeapons();
   const builds = buildsData as CharacterBuild[];
 
@@ -165,6 +166,9 @@ export default function BuildCalculatorPage() {
             <p className="text-[10px] truncate mt-1">{c.name}</p>
             {c.rank === "S" && (
               <span className="absolute top-0.5 right-0.5 text-[8px] text-yellow-400 font-bold">S</span>
+            )}
+            {c.status === "upcoming" && (
+              <span className="absolute bottom-0.5 right-0.5 text-[7px] text-orange-400/80">UP</span>
             )}
           </button>
         ))}
