@@ -641,7 +641,7 @@
     "faqTitle": "FAQ de Códigos de Canje"
   },
   "dataStatus": {
-    "live": "Los datos a continuación se basan en la versión 1.0. Los datos reales del juego pueden diferir.",
+    "live": "Los datos a continuación se basan en la versión 1.1. Los datos reales del juego pueden diferir.",
     "upcoming": "Este personaje aún no está disponible en la versión actual. Datos obtenidos de livestreams y anuncios oficiales.",
     "leaked": "Los datos de este personaje provienen de datamining. Los datos oficiales pueden diferir.",
     "beta": "Los datos a continuación se basan en la versión de prueba. La versión final puede diferir."

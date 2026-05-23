@@ -378,5 +378,37 @@
       }
     ],
     "image": "/images/vehicles/tomorrow-rush.webp"
+  },
+  {
+    "id": "wave-rider",
+    "name": "Wave Rider",
+    "nameEn": "Wave Rider",
+    "type": "船只",
+    "typeEn": "Ship",
+    "brand": "",
+    "brandEn": "",
+    "description": "1.1版本新增的船只载具，可在赫瑟劳的水域自由航行，探索全新游乐园区域。",
+    "descriptionEn": "A new ship vehicle added in Version 1.1. Sail freely across Hethereau's waters and explore the new amusement park area.",
+    "topSpeed": null,
+    "stats": { "acceleration": null, "shift": null, "brake": null, "drift": null },
+    "source": "1.1版本解锁",
+    "sourceEn": "Unlocked in Version 1.1",
+    "price": null,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get ships in Neverness to Everness?",
+        "questionZh": "如何获得船只载具？",
+        "answer": "Ship vehicles are introduced in Version 1.1. Details on unlock conditions will be confirmed after the update goes live.",
+        "answerZh": "船只载具在1.1版本中首次登场，具体解锁条件待版本上线后确认。"
+      },
+      {
+        "question": "Can you sail in Neverness to Everness?",
+        "questionZh": "异环可以开船吗？",
+        "answer": "Yes! Version 1.1 adds ship vehicles that let you sail across water areas in the open world.",
+        "answerZh": "可以！1.1版本新增船只载具系统，玩家可以在开放世界的水域中自由航行。"
+      }
+    ],
+    "image": null
   }
 ]

@@ -89,8 +89,8 @@ export default async function TierListPage({
 
         <p className="text-xs text-gray-600 mt-8">
           {isZh
-            ? "评级基于游戏测试版本数据，正式上线后可能调整。评级综合考虑角色在主流队伍中的表现、技能倍率和泛用性。"
-            : "Ratings are based on beta test data and may change after official launch. Tier rankings consider overall performance in meta teams, skill multipliers, and versatility."}
+            ? "评级基于1.1版本最新数据，随版本更新持续调整。评级综合考虑角色在主流队伍中的表现、技能倍率和泛用性。"
+            : "Ratings are based on version 1.1 data and updated with each patch. Tier rankings consider overall performance in meta teams, skill multipliers, and versatility."}
         </p>
 
         <div className="mt-6">

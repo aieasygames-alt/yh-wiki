@@ -792,7 +792,7 @@
     ],
     "image": "/images/characters/lacrimosa.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "future",
+    "acquisitionMethod": "limited-banner",
     "descriptionEn": "A member of the Bureau of Anomaly Control's ETD-4 squad. Laid-back and easygoing, she controls multiple Esper constructs in coordinated combat.",
     "status": "available",
     "nameTw": "拉克莉莫薩",
@@ -7296,8 +7296,8 @@
       {
         "question": "What is the best build for Chaos?",
         "questionZh": "卡厄斯最佳配装是什么？",
-        "answer": "The best build for Chaos in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank chaos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "卡厄斯的最佳配装侧重于最大化其进攻潜力。作为S级chaos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+        "answer": "The best build for Chaos in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank Lakshana-element character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
+        "answerZh": "卡厄斯的最佳配装侧重于最大化其进攻潜力。作为S级相属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
       },
       {
         "question": "How to get Chaos in Neverness to Everness?",
@@ -7308,14 +7308,14 @@
       {
         "question": "What is the best team for Chaos?",
         "questionZh": "卡厄斯最佳配队是什么？",
-        "answer": "The best team for Chaos in Neverness to Everness depends on the content. As a chaos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
-        "answerZh": "卡厄斯的最佳配队取决于具体内容。作为chaos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+        "answer": "The best team for Chaos in Neverness to Everness depends on the content. As a Lakshana-element Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
+        "answerZh": "卡厄斯的最佳配队取决于具体内容。作为相属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
       },
       {
         "question": "What is the best weapon for Chaos?",
         "questionZh": "卡厄斯最佳武器是什么？",
-        "answer": "The best weapon for Chaos depends on your playstyle and available options. They use Esper Constructs type weapons. Check our weapon tier list for the best options for Chaos.",
-        "answerZh": "卡厄斯的最佳武器取决于你的玩法和可用选项。他们使用异能构装体类型武器。查看我们的武器排行榜了解卡厄斯的最佳选择。"
+        "answer": "The best weapon for Chaos depends on your playstyle and available options. Weapon details will be confirmed at launch. Check our weapon tier list for the best options for Chaos.",
+        "answerZh": "卡厄斯的最佳武器取决于你的玩法和可用选项。武器详情待1.1版本上线后确认。查看我们的武器排行榜了解卡厄斯的最佳选择。"
       }
     ],
     "relatedCharacters": [
@@ -7385,7 +7385,7 @@
     "teamComps": [],
     "image": "/images/characters/chaos.webp",
     "availableAtLaunch": true,
-    "acquisitionMethod": "limited",
+    "acquisitionMethod": "limited-banner",
     "descriptionEn": "The first S-rank limited male character in Neverness to Everness, debuting in Version 1.1's 'A Research in Scarlet' main episode.",
     "status": "available",
     "nameTw": "卡厄斯",

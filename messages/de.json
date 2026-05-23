@@ -374,7 +374,7 @@
       "settings": "Einstellungen",
       "tier-list": "Tier List",
       "update": "Update",
-      "version-1-0": "Version 1.0",
+      "version-1-0": "Version 1.1",
       "advanced": "Fortgeschritten",
       "free-pulls": "Kostenlose Pulls",
       "launch-rewards": "Release-Belohnungen",
@@ -641,7 +641,7 @@
     "faqTitle": "Code-FAQ"
   },
   "dataStatus": {
-    "live": "Die folgenden Daten basieren auf Version 1.0. Die tatsächlichen In-Game-Daten können abweichen.",
+    "live": "Die folgenden Daten basieren auf Version 1.1. Die tatsächlichen In-Game-Daten können abweichen.",
     "upcoming": "Dieser Charakter ist in der aktuellen Version noch nicht verfügbar. Daten stammen aus Livestreams und offiziellen Ankündigungen.",
     "leaked": "Die Daten dieses Charakters stammen aus Datamining. Die offiziellen Daten können abweichen.",
     "beta": "Die folgenden Daten basieren auf der Testversion. Die Finalversion kann abweichen."

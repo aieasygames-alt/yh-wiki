@@ -641,7 +641,7 @@
     "faqTitle": "FAQ des codes"
   },
   "dataStatus": {
-    "live": "Les données ci-dessous sont basées sur la version 1.0. Les données en jeu peuvent différer.",
+    "live": "Les données ci-dessous sont basées sur la version 1.1. Les données en jeu peuvent différer.",
     "upcoming": "Ce personnage n'est pas encore disponible dans la version actuelle. Données issues des livestreams et annonces officielles.",
     "leaked": "Les données de ce personnage proviennent de datamining. Les données officielles peuvent différer.",
     "beta": "Les données ci-dessous sont basées sur la version de test. La version finale peut différer."

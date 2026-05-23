@@ -645,7 +645,7 @@
     "faqTitle": "Redeem Code FAQ"
   },
   "dataStatus": {
-    "live": "Data below is based on version 1.0. Actual in-game data may differ.",
+    "live": "Data below is based on version 1.1. Actual in-game data may differ.",
     "upcoming": "This character is not yet available in the current version. Data sourced from livestreams and official announcements.",
     "leaked": "This character's data is sourced from datamining. Official data may differ.",
     "beta": "Data below is based on the test version. Final version may differ."

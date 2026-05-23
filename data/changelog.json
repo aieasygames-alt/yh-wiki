@@ -554,5 +554,217 @@
       "/guides",
       "/characters"
     ]
+  },
+  {
+    "id": "version-1-1",
+    "version": "1.1",
+    "versionName": "游梦洄廊",
+    "versionNameEn": "Wandering Corridor",
+    "date": "2026-05-28",
+    "dateGlobal": "2026-05-28",
+    "type": "major",
+    "highlights": [
+      "新角色安魂曲（Lacrimosa）— 暗属性S级限定进攻角色",
+      "新角色卡厄斯（Chaos）— 首位S级限定男角色，相属性",
+      "全新游乐园地图区域开放",
+      "船只载具系统上线",
+      "保底不歪机制：限定池保底必定UP角色",
+      "保时捷联动",
+      "版本福利：17抽 + 600体力 + 30万方斯",
+      "男角色同居社交玩法",
+      "移动端专项优化 + 剧情跳过功能"
+    ],
+    "highlightsEn": [
+      "New character Lacrimosa — Chaos-attribute S-rank limited Attack",
+      "New character Chaos — First limited S-rank male character, Lakshana element",
+      "New amusement park map area",
+      "Ship vehicle system",
+      "Guarantee-no-lose banner system for limited banners",
+      "Porsche collaboration",
+      "Version rewards: 17 pulls + 600 stamina + 300,000 Fons",
+      "Male character co-habitation social system",
+      "Mobile optimization + story skip feature"
+    ],
+    "sections": [
+      {
+        "title": "新角色",
+        "titleEn": "New Characters",
+        "items": [
+          {
+            "name": "安魂曲",
+            "nameEn": "Lacrimosa",
+            "description": "暗属性（Chaos）S级限定进攻角色。异常控制局ETD-4队员，在「平底锅」和「红色果冻」两种模式间切换，通过「晨光番茄酱」和「恶魔灵感」操控异能构装体进行协同攻击。核心机制为叠加「噩梦层数」后爆发高额伤害。",
+            "descriptionEn": "Chaos-attribute S-rank limited Attack character. ETD-4 member who switches between 'frying pans' and 'red jelly' modes. Skills 'Morning Tomato' and 'Devilish Inspiration' control Esper Constructs for coordinated attacks. Core mechanic builds Nightmare Stacks then detonates for massive damage.",
+            "type": "character",
+            "ref": "lacrimosa",
+            "tags": ["S级", "限定", "上半"]
+          },
+          {
+            "name": "卡厄斯",
+            "nameEn": "Chaos",
+            "description": "异环首位S级限定男角色，相（Lakshana）属性。出现在主线「猩红研究」剧情中。",
+            "descriptionEn": "The first limited S-rank male character in NTE. Lakshana element. Appears in the 'A Research in Scarlet' main story.",
+            "type": "character",
+            "ref": "chaos",
+            "tags": ["S级", "限定", "下半"]
+          }
+        ]
+      },
+      {
+        "title": "卡池安排",
+        "titleEn": "Banner Schedule",
+        "items": [
+          {
+            "name": "上半卡池（安魂曲）",
+            "nameEn": "Phase 1 Banner (Lacrimosa)",
+            "description": "5月28日 ~ 6月11日。安魂曲限定UP。",
+            "descriptionEn": "May 28 – June 11. Lacrimosa limited banner.",
+            "type": "system",
+            "ref": null,
+            "tags": ["卡池"]
+          },
+          {
+            "name": "下半卡池（卡厄斯）",
+            "nameEn": "Phase 2 Banner (Chaos)",
+            "description": "6月11日 ~ 7月2日。卡厄斯限定UP。",
+            "descriptionEn": "June 11 – July 2. Chaos limited banner.",
+            "type": "system",
+            "ref": null,
+            "tags": ["卡池"]
+          },
+          {
+            "name": "保底不歪机制",
+            "nameEn": "Guarantee-No-Lose System",
+            "description": "1.1版本限定卡池开启「保底不歪」机制，玩家抽到保底时必定获得当期UP角色。",
+            "descriptionEn": "Version 1.1 introduces guarantee-no-lose for limited banners — your pity pull is guaranteed to be the featured character.",
+            "type": "system",
+            "ref": null,
+            "tags": ["保底"]
+          }
+        ]
+      },
+      {
+        "title": "新地图与探索",
+        "titleEn": "New Map & Exploration",
+        "items": [
+          {
+            "name": "游乐园区域",
+            "nameEn": "Amusement Park Area",
+            "description": "全新游乐园区域地图开放，包含新的探索点、宝箱和异象收集内容。",
+            "descriptionEn": "A brand-new amusement park area with fresh exploration points, treasure chests, and anomaly collection content.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["地图"]
+          }
+        ]
+      },
+      {
+        "title": "新载具与系统",
+        "titleEn": "New Vehicles & Systems",
+        "items": [
+          {
+            "name": "船只载具",
+            "nameEn": "Ship Vehicles",
+            "description": "新增船只载具系统，可在水域自由航行。",
+            "descriptionEn": "New ship vehicle system lets you sail across water areas.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["载具"]
+          },
+          {
+            "name": "车辆智能巡航",
+            "nameEn": "Vehicle Smart Cruise",
+            "description": "车辆新增智能巡航功能。",
+            "descriptionEn": "Vehicles get a new smart cruise control feature.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["载具"]
+          },
+          {
+            "name": "男角色同居社交玩法",
+            "nameEn": "Male Character Co-habitation",
+            "description": "1.1版本将上线全新的男角色同居社交玩法。",
+            "descriptionEn": "A new co-habitation social system with male characters.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["社交"]
+          }
+        ]
+      },
+      {
+        "title": "联动与活动",
+        "titleEn": "Collaborations & Events",
+        "items": [
+          {
+            "name": "保时捷联动",
+            "nameEn": "Porsche Collaboration",
+            "description": "1.1版本推出与保时捷的联动内容。",
+            "descriptionEn": "Version 1.1 includes a collaboration with Porsche.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["联动"]
+          },
+          {
+            "name": "版本更新福利",
+            "nameEn": "Version Update Rewards",
+            "description": "版本更新福利：17抽 + 600体力 + 30万方斯。",
+            "descriptionEn": "Version rewards: 17 pulls + 600 stamina + 300,000 Fons.",
+            "type": "reward",
+            "ref": null,
+            "tags": ["福利"]
+          },
+          {
+            "name": "1.1前瞻兑换码",
+            "nameEn": "1.1 Livestream Redeem Codes",
+            "description": "前瞻直播公布了3组兑换码：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至5月25日23:59。",
+            "descriptionEn": "3 livestream codes released: DREAMWALK0603, TOMATO100, RACENOLIMIT. Valid until May 25 23:59.",
+            "type": "reward",
+            "ref": null,
+            "tags": ["兑换码"]
+          }
+        ]
+      },
+      {
+        "title": "优化与调整",
+        "titleEn": "Optimizations",
+        "items": [
+          {
+            "name": "移动端优化",
+            "nameEn": "Mobile Optimization",
+            "description": "降低发热、提升帧率稳定性、减少内存占用。",
+            "descriptionEn": "Reduced overheating, improved frame rate stability, and lower memory usage.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["优化"]
+          },
+          {
+            "name": "剧情跳过功能",
+            "nameEn": "Story Skip Feature",
+            "description": "新增剧情跳过功能。",
+            "descriptionEn": "New story skip feature added.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["便利"]
+          },
+          {
+            "name": "弧盘/武器平衡性调整",
+            "nameEn": "Arc Disc / Weapon Balance",
+            "description": "部分弧盘和武器进行了平衡性调整。",
+            "descriptionEn": "Balance adjustments for some arc discs and weapons.",
+            "type": "fix",
+            "ref": null,
+            "tags": ["平衡"]
+          }
+        ]
+      }
+    ],
+    "compensation": null,
+    "internalLinks": [
+      "/characters/lacrimosa",
+      "/characters/chaos",
+      "/tier-list",
+      "/redeem-codes",
+      "/changelog"
+    ]
   }
 ]
