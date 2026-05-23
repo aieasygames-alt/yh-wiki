@@ -98,7 +98,7 @@ export default async function FaqDetailPage({
             items={[
               {
                 label: isZhLocale(locale) ? "解答：" : "Answer:",
-                value: isZhLocale(locale) ? faq.quickAnswer : faq.quickAnswerEn,
+                value: (isZhLocale(locale) ? faq.quickAnswer : faq.quickAnswerEn) ?? "",
               },
             ]}
           />
