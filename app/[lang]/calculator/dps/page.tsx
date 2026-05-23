@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useParams } from "next/navigation";
-import { getAllCharacters, getAvailableCharacters, getAllWeapons } from "../../../../lib/queries";
+import { getAvailableCharacters, getAllWeapons } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { isZhLocale, Locale } from "../../../../lib/i18n";
 
