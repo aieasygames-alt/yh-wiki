@@ -154,7 +154,6 @@ export default async function VoiceActorsPage({
             </h2>
             <FaqSection
               faqs={[{
-                id: vaFaq.id,
                 question: vaFaq.question,
                 questionZh: vaFaq.question,
                 answer: vaFaq.answer,

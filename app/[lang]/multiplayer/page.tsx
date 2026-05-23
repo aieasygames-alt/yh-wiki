@@ -58,7 +58,6 @@ export default async function MultiplayerPage({
     .map((id) => allFaqs.find((f) => f.id === id))
     .filter(Boolean)
     .map((f) => ({
-      id: f!.id,
       question: f!.question,
       questionZh: f!.question,
       answer: f!.answer,
