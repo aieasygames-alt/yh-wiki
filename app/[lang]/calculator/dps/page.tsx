@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useParams } from "next/navigation";
-import { getAllCharacters, getAllWeapons } from "../../../../lib/queries";
+import { getAllCharacters, getAvailableCharacters, getAllWeapons } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { isZhLocale, Locale } from "../../../../lib/i18n";
 
@@ -78,7 +78,7 @@ export default function DPSCalculatorPage() {
   const lang = (langParam || "en") as Locale;
   const isZh = isZhLocale(lang);
 
-  const allChars = useMemo(() => getAllCharacters(), []);
+  const allChars = useMemo(() => getAvailableCharacters(), []);
   const allWeapons = useMemo(() => getAllWeapons(), []);
 
   // Selections
