@@ -1,5 +1,5 @@
 import { isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../../lib/i18n";
-import { getAvailableCharacters, calculateMaterials } from "../../../../lib/queries";
+import { getAvailableCharacters, calculateMaterials, getMaterialById } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { WebApplicationJsonLd } from "../../../../components/JsonLd";
 import { LevelingCalcClient } from "./LevelingCalcClient";
@@ -33,7 +33,10 @@ export default async function LevelingCalcPage({ params }: { params: { lang: str
   const sRankChars = getAvailableCharacters().filter((c) => c.rank === "S").slice(0, 5);
   const exampleRows = sRankChars.map((c) => {
     const mats = calculateMaterials(c.id, 1, 60);
-    const matNames = mats.slice(0, 4).map((m) => `${m.name} ×${m.total}`);
+    const matNames = mats.slice(0, 4).map((m) => {
+      const mat = getMaterialById(m.materialId);
+      return `${mat ? (isZhLocale(locale) ? mat.name : mat.nameEn) : m.materialId} ×${m.quantity}`;
+    });
     return { name: isZhLocale(locale) ? c.name : c.nameEn, mats: matNames.join(", ") };
   });
 
