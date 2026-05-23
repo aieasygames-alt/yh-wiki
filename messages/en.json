@@ -36,6 +36,7 @@
       "teamBuilder": "Team Builder",
       "effects": "Effects",
       "statsCalc": "Stats Calc",
+      "dpsCalc": "DPS Calculator",
       "cityTycoon": "City Tycoon"
     }
   },
@@ -930,6 +931,7 @@
   },
   "statsCalc": {
     "title": "Stats Calculator",
+    "dpsTitle": "DPS Damage Calculator",
     "subtitle": "Estimate character damage output based on stats and weapon",
     "seoTitle": "NTE Stats & Damage Calculator",
     "seoDescription": "Calculate Neverness to Everness character damage output. Estimate DPS with different weapons, stats, and skill multipliers.",

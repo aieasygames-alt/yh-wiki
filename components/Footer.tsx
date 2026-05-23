@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 import Logo from "./Logo";
 
 export function Footer() {
@@ -29,6 +29,7 @@ export function Footer() {
         { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
         { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
         { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
+        { href: `/${lang}/calculator/dps`, label: isZhLocale(lang) ? "DPS 计算器" : "DPS Calculator" },
         { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
         { href: `/${lang}/calculator/disk-score`, label: t(lang, "diskScore.title") },
         { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },

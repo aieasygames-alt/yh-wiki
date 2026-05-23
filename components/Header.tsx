@@ -3,7 +3,7 @@
 import { useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, LOCALES, LOCALE_NATIVE_NAME, type Locale } from "../lib/i18n";
+import { t, isZhLocale, LOCALES, LOCALE_NATIVE_NAME, type Locale } from "../lib/i18n";
 import { SearchDialog } from "./SearchDialog";
 import Logo from "./Logo";
 
@@ -55,6 +55,7 @@ export function Header() {
       { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
       { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
       { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
+      { href: `/${lang}/calculator/dps`, label: isZhLocale(lang) ? "DPS 计算器" : "DPS Calculator" },
       { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
       { href: `/${lang}/calculator/disk-score`, label: t(lang, "diskScore.title") },
       { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },

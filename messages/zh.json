@@ -36,6 +36,7 @@
       "teamBuilder": "配队构建器",
       "effects": "效果词典",
       "statsCalc": "属性计算器",
+      "dpsCalc": "DPS 计算器",
       "cityTycoon": "都市大亨"
     }
   },
@@ -931,6 +932,7 @@
   },
   "statsCalc": {
     "title": "属性计算器",
+    "dpsTitle": "DPS 伤害计算器",
     "subtitle": "根据属性和武器估算角色伤害输出",
     "seoTitle": "异环属性与伤害计算器",
     "seoDescription": "计算异环角色伤害输出。根据不同武器、属性和技能倍率估算DPS。",
