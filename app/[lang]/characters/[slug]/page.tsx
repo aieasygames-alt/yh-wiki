@@ -63,6 +63,7 @@ export async function generateMetadata({
       title,
       description,
       type: "article",
+      images: character.image ? [`https://nteguide.com${character.image}`] : undefined,
     },
   };
 }

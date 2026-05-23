@@ -1,0 +1,416 @@
+# nteguide.com — Full Content Index
+
+> Machine-readable content index for AI crawlers.
+> Generated: 2026-05-23
+
+## Characters (42)
+- [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
+- [咲里 / Sakiri](/en/characters/sakiri/) — S-rank incantation Support
+- [法蒂亚 / Fadia](/en/characters/fadia/) — S-rank psyche Attack
+- [拉克莉莫萨 / Lacrimosa](/en/characters/lacrimosa/) — S-rank chaos Attack
+- [白藏 / Baicang](/en/characters/baicang/) — S-rank incantation Defense
+- [零（男） / Zero (Male)](/en/characters/zero-male/) — S-rank cosmos Attack
+- [零（女） / Zero (Female)](/en/characters/zero-female/) — S-rank cosmos Attack
+- [穗鸟 / Hotori](/en/characters/hotori/) — S-rank cosmos Buff
+- [达芙迪尔 / Daffodil](/en/characters/daffodil/) — S-rank chaos Attack
+- [九原 / Jiuyuan](/en/characters/jiuyuan/) — S-rank anima Utility
+- [哈尼尔 / Haniel](/en/characters/haniel/) — A-rank psyche Support
+- [阿德勒 / Adler](/en/characters/adler/) — A-rank incantation Attack
+- [翳 / Skia](/en/characters/skia/) — A-rank lakshana Attack
+- [埃德加 / Edgar](/en/characters/edgar/) — A-rank cosmos Support
+- [薄荷 / Mint](/en/characters/mint/) — A-rank anima Support
+- [奈莉 / Nelly](/en/characters/nelly/) — A-rank anima Support
+- [梅露拉 / Merula](/en/characters/merula/) — A-rank lakshana Attack
+- [阿尔法德 / Alphard](/en/characters/alphard/) — A-rank lakshana TBD
+- [泰格多 / Taygedo](/en/characters/taygedo/) — A-rank cosmos Support
+- [哈索尔 / Hathor](/en/characters/hathor/) — S-rank lakshana Attack
+- [赤子 / Chiz](/en/characters/chiz/) — S-rank cosmos Attack
+- [莉莉娜 / Lilina](/en/characters/lilina/) — S-rank cosmos TBD
+- [凛子 / Lingko](/en/characters/lingko/) — A-rank incantation Attack
+- [密斯莫 / Mismo](/en/characters/mismo/) — A-rank chaos Support
+- [沁红 / Shinku](/en/characters/shinku/) — A-rank anima Attack
+- [尼察 / Nitsa](/en/characters/nitsa/) — A-rank psyche Support
+- [黑鸟 / Black Bird](/en/characters/black-bird/) — S-rank chaos Attack
+- [明虎 / Xiaozhen](/en/characters/xiaozhen/) — S-rank anima Attack
+- [赤音 / Akane](/en/characters/akane/) — S-rank incantation Attack
+- [詹森 / Jenson](/en/characters/jenson/) — A-rank psyche Defense
+- [伊利卡 / Illica](/en/characters/illica/) — S-rank lakshana Attack
+- [风花 / Fuuka](/en/characters/fuuka/) — A-rank anima Support
+- [克劳 / Crow](/en/characters/crow/) — S-rank chaos DPS
+- [蕾妮 / Renee](/en/characters/renee/) — A-rank psyche Support
+- [吾郎 / Goro](/en/characters/goro/) — A-rank incantation DPS
+- [玛丽娜 / Marina](/en/characters/marina/) — S-rank cosmos DPS
+- [海斗 / Kaito](/en/characters/kaito/) — A-rank lakshana DPS
+- [希尔菲 / Sylphy](/en/characters/sylphy/) — S-rank anima Support
+- [奥蕾莉亚 / Aurelia](/en/characters/aurelia/) — A-rank psyche Support
+- [小吱 / Xiaozhi](/en/characters/xiaozhi/) — S-rank anima Attack
+- [浔 / Xun](/en/characters/xun/) — S-rank cosmos Support
+- [卡厄斯 / Chaos](/en/characters/chaos/) — S-rank chaos Attack
+
+## Weapons (42)
+- [引爆全场 / Blow up the Crowd](/en/weapons/blow-up-the-crowd/) — S-rank solid ATK 512
+- [茶花会 / Camellia Society](/en/weapons/camellia-society/) — S-rank synthesis ATK 666
+- [思考喵 / Contemplative Cat](/en/weapons/contemplative-cat/) — S-rank gas ATK 512
+- [休息日 / Day Off](/en/weapons/day-off/) — S-rank solid ATK 512
+- [永恒圆舞曲 / Eternal Waltz](/en/weapons/eternal-waltz/) — S-rank synthesis ATK 424
+- [好狗狗走四方 / Good Boy's Grand Adventure](/en/weapons/good-boys-grand-adventure/) — S-rank gas ATK 474
+- [海特洛的安宁 / Hethereau's Keeper](/en/weapons/hethereraus-keeper/) — S-rank solid ATK 512
+- [踏越时间行军 / Marching Beyond Time](/en/weapons/marching-beyond-time/) — S-rank solid ATK 570
+- [焰魂狂飙 / Raging Flames](/en/weapons/raging-flames/) — S-rank plasma ATK 666
+- [预备备 / Ready-Ready](/en/weapons/ready-ready/) — S-rank plasma ATK 570
+- [现实避难所 / Reality Refuge](/en/weapons/reality-refuge/) — S-rank solid ATK 570
+- [鲸之歌 / Song of the Whale](/en/weapons/song-of-the-whale/) — S-rank plasma ATK 512
+- [面具下的泪 / Tears Beneath the Mask](/en/weapons/tears-beneath-the-mask/) — S-rank gas ATK 512
+- [最后的玫瑰 / The Last Rose](/en/weapons/the-last-rose/) — S-rank liquid ATK 570
+- [千金难买你开心 / Your Happiness is Priceless](/en/weapons/your-happiness-is-priceless/) — S-rank solid ATK 512
+- [漆黑青春妄想 / Youthful Fantasy](/en/weapons/youthful-fantasy/) — S-rank liquid ATK 570
+- [勇气绒绒 / Fluff of Fearlessness](/en/weapons/fluff-of-fearlessness/) — S-rank solid ATK 512
+- [猛绒绒 / Fluff of Ferocity](/en/weapons/fluff-of-ferocity/) — S-rank synthesis ATK 512
+- [灵巧绒绒 / Fluff of Finesse](/en/weapons/fluff-of-finesse/) — S-rank gas ATK 512
+- [飞速绒绒 / Fluff of Fleetness](/en/weapons/fluff-of-fleetness/) — S-rank liquid ATK 512
+- [坚韧绒绒 / Fluff of Fortitude](/en/weapons/fluff-of-fortitude/) — S-rank plasma ATK 512
+- [时机终至 / A Time Will Come](/en/weapons/a-time-will-come/) — A-rank synthesis ATK 475
+- [扭曲之城呼唤 / Call of the Twisted City](/en/weapons/call-of-the-twisted-city/) — A-rank liquid ATK 395
+- [晴空 / Clear Skies](/en/weapons/clear-skies/) — A-rank liquid ATK 475
+- [宇宙迷离狂想曲 / Cosmos Daze, Wild Reverie](/en/weapons/cosmos-daze-wild-reverie/) — A-rank gas ATK 475
+- [拔刀 / Drawn Blade](/en/weapons/drawn-blade/) — A-rank plasma ATK 395
+- [辜负你心中沉重 / Failing You, Heavy in My Heart](/en/weapons/failing-you-heavy-in-my-heart/) — A-rank gas ATK 475
+- [灵感王冠 / Mind Royale](/en/weapons/mind-royale/) — A-rank liquid ATK 555
+- [欧拉欧拉！ / Oraora!](/en/weapons/oraora/) — A-rank plasma ATK 395
+- [闪亮的日子 / Shiny Days](/en/weapons/shiny-days/) — A-rank liquid ATK 475
+- [愚者之春 / The Fools' Spring](/en/weapons/the-fools-spring/) — A-rank synthesis ATK 395
+- [被遗忘的 / The Forgotten](/en/weapons/the-forgotten/) — A-rank solid ATK 475
+- [好的坏的苦的 / The Good, The Bad, The Bitter](/en/weapons/the-good-the-bad-the-bitter/) — A-rank synthesis ATK 475
+- [大盗 / The Great Thief](/en/weapons/the-great-thief/) — A-rank synthesis ATK 475
+- [时间大盗 / Time Bandit](/en/weapons/time-bandit/) — A-rank solid ATK 475
+- [雨伞 / Umbrella](/en/weapons/umbrella/) — A-rank synthesis ATK 395
+- [小心头顶！ / Watch Your Heads!](/en/weapons/watch-your-heads/) — A-rank gas ATK 475
+- [真正的音乐 / Real Music](/en/weapons/real-music/) — B-rank liquid ATK 380
+- [要开心 / Be Happy](/en/weapons/be-happy/) — B-rank gas ATK 316
+- [危险游戏 / Dangerous Game](/en/weapons/dangerous-game/) — B-rank synthesis ATK 380
+- [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
+- [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
+
+## Guides (48)
+- [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
+- [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
+- [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
+- [元素反应系统详解](/en/guides/elemental-reactions/) — Combat (updated 2026-05-01)
+- [体力管理最优策略](/en/guides/stamina-management/) — Beginner (updated 2026-05-01)
+- [每日必做任务清单](/en/guides/daily-routine/) — Beginner (updated 2026-04-29)
+- [抽卡策略与保底机制](/en/guides/gacha-strategy/) — Advanced (updated 2026-04-29)
+- [公测配队推荐 — 最强阵容搭配指南](/en/guides/team-building/) — Combat (updated 2026-04-29)
+- [开放世界探索技巧](/en/guides/exploration-tips/) — Exploration (updated 2026-04-29)
+- [世界BOSS挑战攻略](/en/guides/boss-guide/) — Combat (updated 2026-04-29)
+- [武器选择与强化指南](/en/guides/weapon-guide/) — Advanced (updated 2026-04-29)
+- [磁盘搭配与属性选择](/en/guides/disk-build/) — Advanced (updated 2026-04-29)
+- [材料刷取效率最大化](/en/guides/farming-efficiency/) — Advanced (updated 2026-04-29)
+- [终局玩法入门指南](/en/guides/endgame-content/) — Advanced (updated 2026-04-29)
+- [Neverness to Everness 完整评测](/en/guides/game-review/) — Review (updated 2026-04-29)
+- [角色强度排行](/en/guides/tier-list/) — Tier List (updated 2026-04-29)
+- [全角色强度排行（详细版）](/en/guides/detailed-tier-list/) — Tier List (updated 2026-04-29)
+- [伤害计算公式详解](/en/guides/damage-formula/) — Combat (updated 2026-04-29)
+- [新手 10 个常见错误](/en/guides/beginner-mistakes/) — Beginner (updated 2026-04-29)
+- [F2P 零氪指南](/en/guides/f2p-guide/) — Beginner (updated 2026-04-29)
+- [全武器排行榜](/en/guides/weapon-tier-list/) — Tier List (updated 2026-04-29)
+- [刷初始指南（详细版）](/en/guides/reroll-guide-detailed/) — Beginner (updated 2026-04-29)
+- [系统要求与优化指南](/en/guides/performance-guide/) — Advanced (updated 2026-04-29)
+- [活动攻略汇总](/en/guides/event-guides/) — Advanced (updated 2026-04-29)
+- [全角色天赋优先级](/en/guides/talent-priority/) — Advanced (updated 2026-04-29)
+- [异象副本攻略](/en/guides/anomaly-dungeon/) — Combat (updated 2026-04-29)
+- [PVP/竞技攻略](/en/guides/pvp-guide/) — Combat (updated 2026-04-29)
+- [收集品全位置](/en/guides/collectibles-guide/) — Exploration (updated 2026-04-29)
+- [赚钱/刷材料效率路线](/en/guides/farming-route/) — Advanced (updated 2026-04-29)
+- [版本更新日志](/en/guides/patch-notes/) — Advanced (updated 2026-04-29)
+- [弧盘系统完全攻略 — S级弧盘获取与搭配推荐](/en/guides/arc-disc-guide/) — Equipment (updated 2026-04-29)
+- [异环队伍搭配推荐 — 最强阵容组合攻略](/en/guides/team-composition-guide/) — Combat (updated 2026-04-29)
+- [异环全Boss攻略 — 弱点分析与打法详解](/en/guides/boss-guide-comprehensive/) — Combat (updated 2026-04-29)
+- [异环房屋系统攻略 — 买房装修与收益指南](/en/guides/housing-system-guide/) — Beginner (updated 2026-04-29)
+- [异环觉醒系统详解 — 材料获取与共鸣效果](/en/guides/awakening-system-guide/) — Advanced (updated 2026-04-29)
+- [异环隐藏任务与宝箱收集攻略](/en/guides/hidden-quests-chests-guide/) — Exploration (updated 2026-04-29)
+- [异环载具系统攻略 — 全车辆获取与驾驶技巧](/en/guides/vehicle-system-guide/) — Exploration (updated 2026-04-29)
+- [异环拍照模式详解 — 构图技巧与隐藏功能](/en/guides/photo-mode-guide/) — Exploration (updated 2026-04-29)
+- [娜娜莉完全攻略 — T0级猫族格斗家配队/弧盘/磁盘推荐](/en/guides/nanally-guide/) — Character Guide (updated 2026-04-29)
+- [九原完全攻略 — T0级聚怪副C配队/弧盘/磁盘推荐](/en/guides/jiuyuan-guide/) — Character Guide (updated 2026-04-29)
+- [异环6选1自选角色攻略 — 哪个角色最值得选？](/en/guides/character-selector-guide/) — Beginner (updated 2026-04-29)
+- [白藏完全攻略 — T1级泛用输出配队/弧盘/磁盘推荐](/en/guides/baicang-guide/) — Character Guide (updated 2026-04-29)
+- [薄荷完全攻略 — 高适配性首发辅助配队/弧盘/磁盘推荐](/en/guides/mint-guide/) — Character Guide (updated 2026-04-29)
+- [弧盘(武器)强度排行 — 公测最新T0-T2弧盘推荐](/en/guides/arc-tier-list/) — Equipment (updated 2026-04-29)
+- [磁盘套装详细数据表 — 全套装效果与搭配推荐](/en/guides/disk-set-guide/) — Equipment (updated 2026-04-29)
+- [异环赚钱攻略 — 信用点/方斯最优获取路线](/en/guides/money-making-guide/) — Farming (updated 2026-04-29)
+- [商店兑换优先级攻略 — 各商店最优兑换顺序](/en/guides/shop-exchange-guide/) — Farming (updated 2026-04-29)
+- [都市大亨完全攻略 — 建筑收益、免费S级角色与进阶技巧](/en/guides/city-tycoon-guide/) — Guide (updated 2026-05-04)
+
+## FAQ (264)
+- How much does NTE cost on PS5? What's the download size? How does it perform?
+- Can you play NTE on Steam Deck? Compatibility and optimization settings
+- Where to enter redeem codes in NTE? How to redeem? Latest codes list
+- How to level up characters fast in NTE?
+- Where are material domains in NTE?
+- How to get Credits in NTE?
+- What are the S-rank characters in NTE?
+- What is the attribute weakness system in NTE?
+- How to use daily stamina most efficiently in NTE?
+- Which characters should beginners build in NTE?
+- How to get experience quickly in NTE?
+- Is there a difference between NTE test version and official version data?
+- How to get skill upgrade materials in NTE?
+- Is Nanally worth building in NTE?
+- Is Sakiri worth building in NTE?
+- How to get Permit materials in NTE?
+- Is Fadia worth building in NTE?
+- How to build a team composition in NTE?
+- How does the stamina system work in NTE?
+- Is Chiz worth building in NTE?
+- How to get boss materials in NTE?
+- Is Adler worth building in NTE?
+- How to download NTE? What platforms are supported?
+- What are the system requirements for NTE on mobile and PC?
+- When does NTE officially launch?
+- How to participate in NTE beta tests?
+- What are the NTE pre-registration rewards?
+- How does the pity system work in NTE?
+- Which banner should beginners pull first in NTE?
+- What currency is used for gacha in NTE and how to get it?
+- How to trigger Perfect Dodge in NTE? What are the effects?
+- How to use Chain Burst in NTE?
+- What are some combat tips for NTE?
+- How to explore Hethereau City in NTE?
+- How to get Crow Jade in NTE? What is it used for?
+- How to access hidden areas in NTE?
+- What is the Awakening system in NTE? How to unlock it?
+- How to complete Anomaly Commissions in NTE?
+- What types of Esper abilities are there in NTE?
+- How does the Disk system work in NTE?
+- How to upgrade weapons in NTE?
+- How to use redeem codes in NTE? What codes are available?
+- How should beginners start NTE?
+- When does NTE launch in 2026? What is the exact release date?
+- When does NTE pre-download start? How to download early?
+- When does NTE global server launch? How is it different from CN?
+- What's the difference between NTE CN and Global servers? Which should I play?
+- How many free pulls can I get at NTE launch? Total free resources?
+- Does NTE support cross-platform play and cross-save?
+- How large is the NTE download? How much storage space is needed?
+- Is NTE free to play? Do I need to spend money?
+- Does NTE have a 50/50 system? Can pity give off-banner characters?
+- How to reroll in NTE? Is rerolling worth it?
+- NTE launch 6-choose-1: Which free S-rank character should I pick?
+- Is NTE F2P friendly? Can I enjoy it without spending money?
+- Does NTE have multiplayer/co-op? How does it work?
+- Which S-rank should beginners choose first? Build priority
+- Is NTE available on PS5? When is the console version coming?
+- Can I play NTE on Mac? How to download the Mac version?
+- What currency is used for gacha in NTE? What is Fons?
+- What is Collapse (Qingxian) in NTE? How to trigger Break?
+- What is Ring Fusion (Huanhe) in NTE? How to trigger it?
+- How many elements does NTE have? What is the weakness chart?
+- Which A-rank characters are best in NTE? A-rank worth building
+- Is Mint (Bohuo) worth building in NTE?
+- Does NTE have a housing system? How to buy and decorate a home?
+- What is the Shop Manager system in NTE? How to auto-farm currency?
+- How does the City Tycoon mode work in NTE?
+- Does NTE have character customization? How detailed is it?
+- Does NTE have auto-battle? Can I AFK farm materials?
+- How to drive vehicles in NTE? What vehicles are available?
+- Is NTE available on HarmonyOS? Can I play on Huawei phones?
+- How to participate in the NTE pre-gacha event? What are the rewards?
+- What are the NTE livestream redeem codes? How to claim?
+- Does NTE really have no 50/50? What did the livestream confirm?
+- What is the NTE beginner 20-pull selector? Which characters can I choose?
+- How does the NTE standard 50-pull S-rank selector work?
+- How does NTE beta refund work? What is the refund rate?
+- How to get Xiaozhi for free in NTE? City Tycoon guide
+- When exactly does NTE pre-download start on April 21? How to pre-download?
+- Which NVIDIA driver is recommended for NTE? How to enable RT?
+- What characters are available at NTE launch? Complete 16-character roster
+- What is Pink Paws co-op in NTE? How to play with friends?
+- What is the Anomaly Prison system in NTE? How does it work?
+- Who is Aurelia in NTE? New A-rank launch character
+- Does NTE mobile support controllers?
+- How to optimize NTE mobile graphics? Overheating fix
+- What are NTE Android minimum specs? Which phones are supported?
+- What iOS devices does NTE support?
+- NTE mobile takes too much storage, what to do?
+- How to sync NTE data across platforms? PC-mobile cross-save
+- How to download NTE on HarmonyOS? Supported devices?
+- NTE drains my phone battery fast, how to fix?
+- Which S-rank character should I pick from the selector in NTE?
+- How many free pulls can you get in NTE launch? How to get 470 pulls?
+- How to spend stamina in NTE? F2P stamina planning guide
+- How do Ring Fusion reactions work in NTE? Elemental reaction guide
+- How does the Arc Disc system work in NTE? Disc acquisition and upgrade guide
+- NTE F2P beginner guide: Day 1 must-do checklist
+- Did NTE upgrade to UE5.7 at launch? What changed?
+- What is the character leveling priority in NTE? Who to build first?
+- How to build Genesis team in NTE?
+- How to build Turbid Burn team in NTE?
+- Best F2P team comp in NTE?
+- How to build Blaze team in NTE?
+- Best launch teams ranked in NTE?
+- How to upgrade disks in NTE?
+- How to upgrade weapons in NTE?
+- Which disk set to use per role in NTE?
+- Which is better: NTE or ZZZ?
+- How does NTE's awakening system work?
+- Best beginner team in NTE?
+- How to buy a house in NTE?
+- How to join NTE P5R collaboration?
+- How to download NTE global server?
+- Which S-rank characters are free in NTE?
+- How to drive in NTE?
+- How to use photo mode in NTE?
+- How many free pulls at NTE launch?
+- Who should I prioritize for Awakening in NTE? Which characters to awaken first?
+- Is it better to awaken characters or pull new characters in NTE?
+- What to do on day one of NTE launch? Beginner opening day checklist
+- What is the gacha dice board in NTE? How does it work?
+- What is the 120-pull exchange in NTE? How to exchange 120 pulls for a character?
+- Is the weapon banner worth pulling in NTE? Which weapons to prioritize?
+- How many times should I buy stamina daily in NTE? Stamina purchase cost-effectiveness
+- How to fix NTE crashing, stuttering, and frame drops?
+- NTE PC launcher Play button not working? How to fix
+- Does NTE require an SSD? Can I play on an HDD?
+- How to link your account for cross-platform save in NTE?
+- What is the best team composition for Nanally in NTE?
+- Is Jiuyuan worth building in NTE?
+- Is Baicang worth building in NTE?
+- What to do daily in NTE? Daily task priority guide
+- Can I transfer servers if I picked the wrong one in NTE?
+- NTE login verification code not received? How to fix
+- NTE PC login white screen or black screen fix
+- NTE server queue too long? How to reduce wait time
+- How to fix high latency and network lag in NTE?
+- NTE DX12 error or failed to launch? How to fix
+- NTE getting laggier over time? Memory leak fix
+- NTE causing GPU/CPU overheating? How to cool down
+- NTE black screen after Alt+Tab? How to fix
+- NTE mobile overheating and frame rate drops? How to fix
+- NTE mobile not enough storage space to install? Solutions
+- NTE Android crashing frequently? How to fix
+- NTE iPhone graphics blurry or low quality? How to improve
+- NTE PS5 download interrupted or install failed? Fix
+- NTE character stuck in map or wall? How to get unstuck
+- NTE quest NPC not spawning or can't pick up quest items? Fix
+- NTE gacha/wish animation stuck or results not showing? Fix
+- NTE suddenly lost all sound? How to fix audio issues
+- NTE touch controls not responding during combat? Fix
+- NTE payment successful but in-game currency not received? Fix
+- NTE first recharge double bonus disappeared after reinstall? Fix
+- NTE monthly pass purchased but daily rewards not received? Fix
+- NTE co-op matchmaking not finding teammates? Fix
+- NTE account progress lost after switching devices? How to recover
+- NTE auto-battle AI not moving or using skills? Fix
+- NTE low FPS in town/city areas? Performance optimization
+- Does NTE use AI art? What did the developer say about AI-generated content?
+- How to get Modules in NTE? What is the Module system?
+- Where is the Hospital in NTE? How to complete Hospital missions?
+- What is the Headless Rider in NTE? How to trigger and defeat it?
+- What is Day Off in NTE? How to complete Day Off Arc events?
+- How to complete Pink Paws Heist in NTE? Full walkthrough guide
+- What is the Lonely Player in NTE? How to trigger this event?
+- How to play Ride Assault in NTE? Tips and strategies
+- What is Reality Refuge in NTE? How to unlock it?
+- How to beat Raging Flames in NTE? Domain guide
+- Who made NTE? What developer studio created Neverness to Everness?
+- What is the next banner in NTE? Upcoming limited character schedule
+- What is the best team comp for Hathor in NTE? Recommended teams
+- What is the best Daffodil team comp in NTE? Recommended teams
+- What new characters are coming to NTE? v1.1 upcoming characters
+- Where are Safe Locations in NTE? How to unlock safe houses?
+- What is the Camellia Society in NTE? How to join?
+- How to trigger Lost Tales in NTE? Hidden story guide
+- Does NTE support mods? How to install mods?
+- How to get Character Pixels in NTE? Pixel art collectibles guide
+- How to uninstall NTE? PC and mobile removal guide
+- What is Song of the Whale in NTE? Complete guide
+- What is Oracle Stone in NTE? How to get and use it?
+- How to top up in NTE? Global server recharge guide
+- Where is the Witch House in NTE? How to unlock it?
+- What is Miles Apart in NTE? How to complete it?
+- How many GB is NTE? Storage size and disk space requirements
+- Is NTE on Steam? Difference between Steam and standalone client
+- How to collect furniture in NTE? All furniture acquisition methods
+- What is Deep Blue Sorrow in NTE? How to complete it?
+- Where to find NTE patch notes? Latest update changelog
+- What is Anomaly School in NTE? How to unlock it?
+- How to farm Fons fast in NTE? Best farming guide
+- Is NTE on PS4, PS5, Xbox, or Switch? Console platform guide
+- What is Doomscroll Anomaly in NTE? How to trigger it?
+- How to get cars and vehicles in NTE? All vehicle acquisition guide
+- What is the material farming priority in NTE? What to farm first?
+- How to play Cosmos Blossom team? Xun team guide
+- What are the best free characters in NTE? Who should I build?
+- How to clear Bubble Can Factory? Arc ascension material guide
+- How to clear Anomaly Pilgrimage? Esper material guide
+- Who is Hotori in NTE? Character guide and skills overview
+- What is Mammon in NTE? Boss guide and rewards
+- Who is Akane in NTE? Character overview and how to get
+- How does stamina work in NTE? City Stamina recovery guide
+- What are the elements/attributes in NTE? Element counter system guide
+- How to play Mahjong in NTE? Minigame rules and tips
+- How to trigger and complete Puppet Piano event in NTE?
+- How to complete 'Whose Leak Is This' quest in NTE? Full guide
+- Can you change gender in NTE? How to switch protagonist gender
+- NTE voice actors list — All character JP/CN/EN voice cast
+- What is the NTE character tier list? Who is the strongest character?
+- What are the NTE gacha rates? What is the S-Rank pull rate?
+- Does NTE have a romance system? Can you date characters?
+- How to get the Blue Flame motorcycle in NTE?
+- Does NTE have an Auction House? Can players trade with each other?
+- Is NTE a good game? Is it worth playing? What are the reviews?
+- What hidden easter eggs are in NTE?
+- What is the best starting team for NTE beginners?
+- How to earn money fastest in NTE City Tycoon?
+- What are the six attribute counters in NTE?
+- Does NTE have a romance system? Can you date characters?
+- What are the Easter Eggs in NTE? Complete hidden Easter Egg guide
+- What is NTE's review score? How do critics rate it?
+- What does NTE's no 50/50 system mean? Pity mechanic explained
+- What is Cosmos Blossom in NTE? How does it work?
+- How to link PS5/PC/Mobile accounts for cross-platform play?
+- Pre-registration rewards not received?
+- Selected wrong free S-rank character, can I change?
+- Monthly pass purchased but not received?
+- How to fix game crashes?
+- How to fix FPS drops and stuttering?
+- Game stuttering when installed on secondary drive?
+- Hunter level stuck and not increasing?
+- Character stuck or quest not progressing?
+- Double charged or refund issues?
+- Does NTE pity carry over between banners? Pity inheritance rules explained
+- How much does the NTE Porsche collab car cost? How to get the Porsche 918?
+- NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround
+- What level unlocks co-op in NTE? How many players can play together?
+- NTE optimization guide: How to fix lag, stuttering, and low FPS
+- When does Xun release in NTE? What attribute is Xun? How to get Xun?
+- NTE CN server extra S-Rank selector compensation — does global get it?
+- How to farm Fons fast in NTE? Best Fons farming methods
+- Can you play NTE via cloud gaming? How to use cloud gaming for NTE
+- NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?
+- What is the NTE x MyGO collaboration? What content does it include?
+- What is the NTE x Lawson collaboration? How to participate?
+- What offline marketing has NTE done? London Piccadilly Circus ad and more
+- Why was NTE character Xun banned from streaming? What's the reason?
+- When does NTE Version 1.1 release? When is the livestream?
+- Is NTE the same as Once Human? What is the difference?
+- Top beginner mistakes in NTE? Common errors to avoid for new players
+- How to uninstall Neverness to Everness completely?
+- How to reinstall Neverness to Everness?
+- How much storage does Neverness to Everness need? Download size?
+- NTE won't launch or crashes after installing — how to fix?
+- When is NTE coming to iOS? Can I play on iPhone/iPad?
+- Is Hotori worth pulling and building in NTE? What's the priority?
+- Does NTE use AI-generated content? AI assets controversy explained
+- Who is Lacrimosa in NTE? Worth pulling? Weapon switching mechanic explained
+- Will NTE reduce daily grind in version 1.1? Official QoL improvements explained
+- NTE 1.1 Banner Schedule — Who's Next? Pull Roadmap & Timeline
+- NTE Free S-Rank Selector Box — Which Character Should You Pick?
+
+## Active Redeem Codes (6)
+- NTENOWTOENJOY: Livestream Exclusive Rewards
+- NTENANALLYGO: Livestream Exclusive Rewards
+- NTE0429: Livestream Exclusive Rewards
+- NTEGIFT: Launch Bonus Rewards
+- NTEHAVEFUN: Launch Bonus Rewards
+- 504980102FKGOVNS: Annulith x30, Gubichi Original Flavor Chips x1, Beetle Coin x20000

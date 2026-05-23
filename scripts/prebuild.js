@@ -172,9 +172,63 @@ function generateApiJson() {
   console.log(`[api] redeem-codes.json: ${codes.length} items`);
 }
 
+// ── 4. llms-full.txt ────────────────────────────────────
+function generateLlmsFull() {
+  const lines = [];
+  lines.push("# nteguide.com — Full Content Index");
+  lines.push("");
+  lines.push("> Machine-readable content index for AI crawlers.");
+  lines.push(`> Generated: ${new Date().toISOString().split("T")[0]}`);
+  lines.push("");
+
+  // Characters
+  const characters = load("characters.json");
+  lines.push("## Characters (" + characters.length + ")");
+  for (const c of characters) {
+    lines.push(`- [${c.name} / ${c.nameEn}](/en/characters/${c.id}/) — ${c.rank}-rank ${c.attribute || ""} ${c.roleEn || c.role || ""}`);
+  }
+  lines.push("");
+
+  // Weapons
+  const weapons = load("weapons.json");
+  lines.push("## Weapons (" + weapons.length + ")");
+  for (const w of weapons) {
+    lines.push(`- [${w.name} / ${w.nameEn}](/en/weapons/${w.id}/) — ${w.rank}-rank ${w.type} ATK ${w.baseAtk}`);
+  }
+  lines.push("");
+
+  // Guides
+  const guides = load("guides.json");
+  lines.push("## Guides (" + guides.length + ")");
+  for (const g of guides) {
+    lines.push(`- [${g.title}](/en/guides/${g.id}/) — ${g.categoryEn || ""} (updated ${g.date || "N/A"})`);
+  }
+  lines.push("");
+
+  // FAQ
+  const faqs = load("faqs.json");
+  lines.push("## FAQ (" + faqs.length + ")");
+  for (const f of faqs) {
+    lines.push(`- ${f.questionEn || f.question}`);
+  }
+  lines.push("");
+
+  // Redeem codes
+  const codes = load("redeem-codes.json").filter(c => c.status !== "expired");
+  lines.push("## Active Redeem Codes (" + codes.length + ")");
+  for (const c of codes) {
+    lines.push(`- ${c.code}: ${c.rewardEn || c.reward}`);
+  }
+
+  const outPath = path.join(PUBLIC, "llms-full.txt");
+  fs.writeFileSync(outPath, lines.join("\n"), "utf-8");
+  console.log("[llms-full] " + lines.length + " lines written");
+}
+
 // ── Run all ────────────────────────────────────────────
 console.log("=== Pre-build (merged) ===");
 generateSearchIndex();
 generateSitemaps();
 generateApiJson();
+generateLlmsFull();
 console.log("=== Pre-build done ===");

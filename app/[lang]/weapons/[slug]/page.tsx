@@ -41,6 +41,7 @@ export async function generateMetadata({
       title: isZhLocale(locale) ? `${displayName} | 异环弧盘 Wiki` : `${weapon.nameEn} Stats & Best Characters | NTE Guide`,
       description: isZhLocale(locale) ? `异环弧盘「${displayName}」详细属性与获取方式。` : `${weapon.nameEn} ${weapon.rank}-rank Arc stats, best characters, and how to get it in NTE.`,
       type: "article",
+      images: weapon.image ? [`https://nteguide.com${weapon.image}`] : undefined,
     },
   };
 }

@@ -91,7 +91,7 @@ export function Footer() {
             <a
               href="https://discord.com/invite/PuWfNRcBt9"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer me"
               className="inline-flex items-center gap-1.5 text-sm text-[#5865F2] hover:text-[#4752C4] transition-colors"
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
@@ -102,7 +102,7 @@ export function Footer() {
             <a
               href="https://www.reddit.com/r/NevernessToEverness/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer me"
               className="inline-flex items-center gap-1.5 text-sm text-[#FF4500] hover:text-[#D63E00] transition-colors"
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">

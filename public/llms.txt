@@ -1,0 +1,19 @@
+# nteguide.com — Neverness to Everness Wiki
+
+> Complete wiki for Neverness to Everness (异环/NTE) by Perfect World.
+  42 characters, 42 weapons, 48 guides, tier lists, calculators, redeem codes.
+
+## Key Sections
+- [Characters](/en/characters/) — 42 playable characters with builds, skills, teams
+- [Weapons](/en/weapons/) — 42 Arc weapons with stats and best users
+- [Guides](/en/guides/) — 48 guides: beginners, gacha, farming, system
+- [Tier List](/en/tier-list/) — S/A rank tier list updated monthly
+- [Redeem Codes](/en/redeem-codes/) — Active gift codes with rewards
+- [Calculator](/en/calculator/leveling/) — Material calculator for character leveling
+- [FAQ](/en/faq/) — 50+ frequently asked questions
+- [Blog](/en/blog/) — Game news and strategy articles
+
+## Languages
+English, 中文, 繁體中文, 日本語, 한국어, ภาษาไทย, Tiếng Việt, Bahasa Indonesia
+
+[llms-full.txt](/llms-full.txt)
