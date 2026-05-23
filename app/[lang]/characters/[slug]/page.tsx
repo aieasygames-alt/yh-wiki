@@ -165,11 +165,11 @@ export default async function CharacterDetailPage({
             }] : []),
             ...(character.recommendedBuild?.bestWeapon ? [{
               label: isZhLocale(locale) ? "最佳武器：" : "Best Weapon:",
-              value: isZhLocale(locale) ? (character.recommendedBuild.bestWeaponZh || character.recommendedBuild.bestWeapon) : character.recommendedBuild.bestWeapon,
+              value: isZhLocale(locale) ? character.recommendedBuild.bestWeapon : (character.recommendedBuild.bestWeaponEn || character.recommendedBuild.bestWeapon),
             }] : []),
             ...(character.recommendedBuild?.bestDiskSet ? [{
               label: isZhLocale(locale) ? "最佳弧盘：" : "Best Disk Set:",
-              value: isZhLocale(locale) ? (character.recommendedBuild.bestDiskSetZh || character.recommendedBuild.bestDiskSet) : character.recommendedBuild.bestDiskSet,
+              value: isZhLocale(locale) ? character.recommendedBuild.bestDiskSet : (character.recommendedBuild.bestDiskSetEn || character.recommendedBuild.bestDiskSet),
             }] : []),
           ]}
         />
