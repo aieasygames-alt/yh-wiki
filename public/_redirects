@@ -433,6 +433,7 @@
 /en/bosses /en/bosses/ 301
 /en/calculator/build /en/calculator/build/ 301
 /en/calculator/disk-score /en/calculator/disk-score/ 301
+/en/calculator/dps /en/calculator/dps/ 301
 /en/calculator/leveling /en/calculator/leveling/ 301
 /en/calculator/planner /en/calculator/planner/ 301
 /en/calculator/stats /en/calculator/stats/ 301
@@ -774,6 +775,7 @@
 /en/faq/xun-character-faq /en/faq/xun-character-faq/ 301
 /en/gacha /en/gacha/ 301
 /en/gacha-analyzer /en/gacha-analyzer/ 301
+/en/gameplay /en/gameplay/ 301
 /en/guides /en/guides/ 301
 /en/guides/anomaly-dungeon /en/guides/anomaly-dungeon/ 301
 /en/guides/arc-disc-guide /en/guides/arc-disc-guide/ 301
@@ -910,6 +912,7 @@
 /en/materials/warp-piece /en/materials/warp-piece/ 301
 /en/materials/water-moon-pick /en/materials/water-moon-pick/ 301
 /en/materials/yearning-delusions /en/materials/yearning-delusions/ 301
+/en/multiplayer /en/multiplayer/ 301
 /en/privacy-policy /en/privacy-policy/ 301
 /en/redeem-codes /en/redeem-codes/ 301
 /en/sitemap /en/sitemap/ 301
@@ -1431,6 +1434,7 @@
 /en/vehicles/rover-a1 /en/vehicles/rover-a1/ 301
 /en/vehicles/st79 /en/vehicles/st79/ 301
 /en/vehicles/tomorrow-rush /en/vehicles/tomorrow-rush/ 301
+/en/voice-actors /en/voice-actors/ 301
 /en/weapons /en/weapons/ 301
 /en/weapons/a-time-will-come /en/weapons/a-time-will-come/ 301
 /en/weapons/be-happy /en/weapons/be-happy/ 301
@@ -1568,6 +1572,7 @@
 /id/bosses /id/bosses/ 301
 /id/calculator/build /id/calculator/build/ 301
 /id/calculator/disk-score /id/calculator/disk-score/ 301
+/id/calculator/dps /id/calculator/dps/ 301
 /id/calculator/leveling /id/calculator/leveling/ 301
 /id/calculator/planner /id/calculator/planner/ 301
 /id/calculator/stats /id/calculator/stats/ 301
@@ -1909,6 +1914,7 @@
 /id/faq/xun-character-faq /id/faq/xun-character-faq/ 301
 /id/gacha /id/gacha/ 301
 /id/gacha-analyzer /id/gacha-analyzer/ 301
+/id/gameplay /id/gameplay/ 301
 /id/guides /id/guides/ 301
 /id/guides/anomaly-dungeon /id/guides/anomaly-dungeon/ 301
 /id/guides/arc-disc-guide /id/guides/arc-disc-guide/ 301
@@ -2045,6 +2051,7 @@
 /id/materials/warp-piece /id/materials/warp-piece/ 301
 /id/materials/water-moon-pick /id/materials/water-moon-pick/ 301
 /id/materials/yearning-delusions /id/materials/yearning-delusions/ 301
+/id/multiplayer /id/multiplayer/ 301
 /id/privacy-policy /id/privacy-policy/ 301
 /id/redeem-codes /id/redeem-codes/ 301
 /id/sitemap /id/sitemap/ 301
@@ -2566,6 +2573,7 @@
 /id/vehicles/rover-a1 /id/vehicles/rover-a1/ 301
 /id/vehicles/st79 /id/vehicles/st79/ 301
 /id/vehicles/tomorrow-rush /id/vehicles/tomorrow-rush/ 301
+/id/voice-actors /id/voice-actors/ 301
 /id/weapons /id/weapons/ 301
 /id/weapons/a-time-will-come /id/weapons/a-time-will-come/ 301
 /id/weapons/be-happy /id/weapons/be-happy/ 301
@@ -2703,6 +2711,7 @@
 /ja/bosses /ja/bosses/ 301
 /ja/calculator/build /ja/calculator/build/ 301
 /ja/calculator/disk-score /ja/calculator/disk-score/ 301
+/ja/calculator/dps /ja/calculator/dps/ 301
 /ja/calculator/leveling /ja/calculator/leveling/ 301
 /ja/calculator/planner /ja/calculator/planner/ 301
 /ja/calculator/stats /ja/calculator/stats/ 301
@@ -3044,6 +3053,7 @@
 /ja/faq/xun-character-faq /ja/faq/xun-character-faq/ 301
 /ja/gacha /ja/gacha/ 301
 /ja/gacha-analyzer /ja/gacha-analyzer/ 301
+/ja/gameplay /ja/gameplay/ 301
 /ja/guides /ja/guides/ 301
 /ja/guides/anomaly-dungeon /ja/guides/anomaly-dungeon/ 301
 /ja/guides/arc-disc-guide /ja/guides/arc-disc-guide/ 301
@@ -3180,6 +3190,7 @@
 /ja/materials/warp-piece /ja/materials/warp-piece/ 301
 /ja/materials/water-moon-pick /ja/materials/water-moon-pick/ 301
 /ja/materials/yearning-delusions /ja/materials/yearning-delusions/ 301
+/ja/multiplayer /ja/multiplayer/ 301
 /ja/privacy-policy /ja/privacy-policy/ 301
 /ja/redeem-codes /ja/redeem-codes/ 301
 /ja/sitemap /ja/sitemap/ 301
@@ -3701,6 +3712,7 @@
 /ja/vehicles/rover-a1 /ja/vehicles/rover-a1/ 301
 /ja/vehicles/st79 /ja/vehicles/st79/ 301
 /ja/vehicles/tomorrow-rush /ja/vehicles/tomorrow-rush/ 301
+/ja/voice-actors /ja/voice-actors/ 301
 /ja/weapons /ja/weapons/ 301
 /ja/weapons/a-time-will-come /ja/weapons/a-time-will-come/ 301
 /ja/weapons/be-happy /ja/weapons/be-happy/ 301
@@ -3838,6 +3850,7 @@
 /ko/bosses /ko/bosses/ 301
 /ko/calculator/build /ko/calculator/build/ 301
 /ko/calculator/disk-score /ko/calculator/disk-score/ 301
+/ko/calculator/dps /ko/calculator/dps/ 301
 /ko/calculator/leveling /ko/calculator/leveling/ 301
 /ko/calculator/planner /ko/calculator/planner/ 301
 /ko/calculator/stats /ko/calculator/stats/ 301
@@ -4179,6 +4192,7 @@
 /ko/faq/xun-character-faq /ko/faq/xun-character-faq/ 301
 /ko/gacha /ko/gacha/ 301
 /ko/gacha-analyzer /ko/gacha-analyzer/ 301
+/ko/gameplay /ko/gameplay/ 301
 /ko/guides /ko/guides/ 301
 /ko/guides/anomaly-dungeon /ko/guides/anomaly-dungeon/ 301
 /ko/guides/arc-disc-guide /ko/guides/arc-disc-guide/ 301
@@ -4315,6 +4329,7 @@
 /ko/materials/warp-piece /ko/materials/warp-piece/ 301
 /ko/materials/water-moon-pick /ko/materials/water-moon-pick/ 301
 /ko/materials/yearning-delusions /ko/materials/yearning-delusions/ 301
+/ko/multiplayer /ko/multiplayer/ 301
 /ko/privacy-policy /ko/privacy-policy/ 301
 /ko/redeem-codes /ko/redeem-codes/ 301
 /ko/sitemap /ko/sitemap/ 301
@@ -4836,6 +4851,7 @@
 /ko/vehicles/rover-a1 /ko/vehicles/rover-a1/ 301
 /ko/vehicles/st79 /ko/vehicles/st79/ 301
 /ko/vehicles/tomorrow-rush /ko/vehicles/tomorrow-rush/ 301
+/ko/voice-actors /ko/voice-actors/ 301
 /ko/weapons /ko/weapons/ 301
 /ko/weapons/a-time-will-come /ko/weapons/a-time-will-come/ 301
 /ko/weapons/be-happy /ko/weapons/be-happy/ 301
@@ -4973,6 +4989,7 @@
 /th/bosses /th/bosses/ 301
 /th/calculator/build /th/calculator/build/ 301
 /th/calculator/disk-score /th/calculator/disk-score/ 301
+/th/calculator/dps /th/calculator/dps/ 301
 /th/calculator/leveling /th/calculator/leveling/ 301
 /th/calculator/planner /th/calculator/planner/ 301
 /th/calculator/stats /th/calculator/stats/ 301
@@ -5314,6 +5331,7 @@
 /th/faq/xun-character-faq /th/faq/xun-character-faq/ 301
 /th/gacha /th/gacha/ 301
 /th/gacha-analyzer /th/gacha-analyzer/ 301
+/th/gameplay /th/gameplay/ 301
 /th/guides /th/guides/ 301
 /th/guides/anomaly-dungeon /th/guides/anomaly-dungeon/ 301
 /th/guides/arc-disc-guide /th/guides/arc-disc-guide/ 301
@@ -5450,6 +5468,7 @@
 /th/materials/warp-piece /th/materials/warp-piece/ 301
 /th/materials/water-moon-pick /th/materials/water-moon-pick/ 301
 /th/materials/yearning-delusions /th/materials/yearning-delusions/ 301
+/th/multiplayer /th/multiplayer/ 301
 /th/privacy-policy /th/privacy-policy/ 301
 /th/redeem-codes /th/redeem-codes/ 301
 /th/sitemap /th/sitemap/ 301
@@ -5971,6 +5990,7 @@
 /th/vehicles/rover-a1 /th/vehicles/rover-a1/ 301
 /th/vehicles/st79 /th/vehicles/st79/ 301
 /th/vehicles/tomorrow-rush /th/vehicles/tomorrow-rush/ 301
+/th/voice-actors /th/voice-actors/ 301
 /th/weapons /th/weapons/ 301
 /th/weapons/a-time-will-come /th/weapons/a-time-will-come/ 301
 /th/weapons/be-happy /th/weapons/be-happy/ 301
@@ -6108,6 +6128,7 @@
 /tw/bosses /tw/bosses/ 301
 /tw/calculator/build /tw/calculator/build/ 301
 /tw/calculator/disk-score /tw/calculator/disk-score/ 301
+/tw/calculator/dps /tw/calculator/dps/ 301
 /tw/calculator/leveling /tw/calculator/leveling/ 301
 /tw/calculator/planner /tw/calculator/planner/ 301
 /tw/calculator/stats /tw/calculator/stats/ 301
@@ -6449,6 +6470,7 @@
 /tw/faq/xun-character-faq /tw/faq/xun-character-faq/ 301
 /tw/gacha /tw/gacha/ 301
 /tw/gacha-analyzer /tw/gacha-analyzer/ 301
+/tw/gameplay /tw/gameplay/ 301
 /tw/guides /tw/guides/ 301
 /tw/guides/anomaly-dungeon /tw/guides/anomaly-dungeon/ 301
 /tw/guides/arc-disc-guide /tw/guides/arc-disc-guide/ 301
@@ -6585,6 +6607,7 @@
 /tw/materials/warp-piece /tw/materials/warp-piece/ 301
 /tw/materials/water-moon-pick /tw/materials/water-moon-pick/ 301
 /tw/materials/yearning-delusions /tw/materials/yearning-delusions/ 301
+/tw/multiplayer /tw/multiplayer/ 301
 /tw/privacy-policy /tw/privacy-policy/ 301
 /tw/redeem-codes /tw/redeem-codes/ 301
 /tw/sitemap /tw/sitemap/ 301
@@ -7106,6 +7129,7 @@
 /tw/vehicles/rover-a1 /tw/vehicles/rover-a1/ 301
 /tw/vehicles/st79 /tw/vehicles/st79/ 301
 /tw/vehicles/tomorrow-rush /tw/vehicles/tomorrow-rush/ 301
+/tw/voice-actors /tw/voice-actors/ 301
 /tw/weapons /tw/weapons/ 301
 /tw/weapons/a-time-will-come /tw/weapons/a-time-will-come/ 301
 /tw/weapons/be-happy /tw/weapons/be-happy/ 301
@@ -7243,6 +7267,7 @@
 /vi/bosses /vi/bosses/ 301
 /vi/calculator/build /vi/calculator/build/ 301
 /vi/calculator/disk-score /vi/calculator/disk-score/ 301
+/vi/calculator/dps /vi/calculator/dps/ 301
 /vi/calculator/leveling /vi/calculator/leveling/ 301
 /vi/calculator/planner /vi/calculator/planner/ 301
 /vi/calculator/stats /vi/calculator/stats/ 301
@@ -7584,6 +7609,7 @@
 /vi/faq/xun-character-faq /vi/faq/xun-character-faq/ 301
 /vi/gacha /vi/gacha/ 301
 /vi/gacha-analyzer /vi/gacha-analyzer/ 301
+/vi/gameplay /vi/gameplay/ 301
 /vi/guides /vi/guides/ 301
 /vi/guides/anomaly-dungeon /vi/guides/anomaly-dungeon/ 301
 /vi/guides/arc-disc-guide /vi/guides/arc-disc-guide/ 301
@@ -7720,6 +7746,7 @@
 /vi/materials/warp-piece /vi/materials/warp-piece/ 301
 /vi/materials/water-moon-pick /vi/materials/water-moon-pick/ 301
 /vi/materials/yearning-delusions /vi/materials/yearning-delusions/ 301
+/vi/multiplayer /vi/multiplayer/ 301
 /vi/privacy-policy /vi/privacy-policy/ 301
 /vi/redeem-codes /vi/redeem-codes/ 301
 /vi/sitemap /vi/sitemap/ 301
@@ -8241,6 +8268,7 @@
 /vi/vehicles/rover-a1 /vi/vehicles/rover-a1/ 301
 /vi/vehicles/st79 /vi/vehicles/st79/ 301
 /vi/vehicles/tomorrow-rush /vi/vehicles/tomorrow-rush/ 301
+/vi/voice-actors /vi/voice-actors/ 301
 /vi/weapons /vi/weapons/ 301
 /vi/weapons/a-time-will-come /vi/weapons/a-time-will-come/ 301
 /vi/weapons/be-happy /vi/weapons/be-happy/ 301
@@ -8378,6 +8406,7 @@
 /zh/bosses /zh/bosses/ 301
 /zh/calculator/build /zh/calculator/build/ 301
 /zh/calculator/disk-score /zh/calculator/disk-score/ 301
+/zh/calculator/dps /zh/calculator/dps/ 301
 /zh/calculator/leveling /zh/calculator/leveling/ 301
 /zh/calculator/planner /zh/calculator/planner/ 301
 /zh/calculator/stats /zh/calculator/stats/ 301
@@ -8719,6 +8748,7 @@
 /zh/faq/xun-character-faq /zh/faq/xun-character-faq/ 301
 /zh/gacha /zh/gacha/ 301
 /zh/gacha-analyzer /zh/gacha-analyzer/ 301
+/zh/gameplay /zh/gameplay/ 301
 /zh/guides /zh/guides/ 301
 /zh/guides/anomaly-dungeon /zh/guides/anomaly-dungeon/ 301
 /zh/guides/arc-disc-guide /zh/guides/arc-disc-guide/ 301
@@ -8855,6 +8885,7 @@
 /zh/materials/warp-piece /zh/materials/warp-piece/ 301
 /zh/materials/water-moon-pick /zh/materials/water-moon-pick/ 301
 /zh/materials/yearning-delusions /zh/materials/yearning-delusions/ 301
+/zh/multiplayer /zh/multiplayer/ 301
 /zh/privacy-policy /zh/privacy-policy/ 301
 /zh/redeem-codes /zh/redeem-codes/ 301
 /zh/sitemap /zh/sitemap/ 301
@@ -9376,6 +9407,7 @@
 /zh/vehicles/rover-a1 /zh/vehicles/rover-a1/ 301
 /zh/vehicles/st79 /zh/vehicles/st79/ 301
 /zh/vehicles/tomorrow-rush /zh/vehicles/tomorrow-rush/ 301
+/zh/voice-actors /zh/voice-actors/ 301
 /zh/weapons /zh/weapons/ 301
 /zh/weapons/a-time-will-come /zh/weapons/a-time-will-come/ 301
 /zh/weapons/be-happy /zh/weapons/be-happy/ 301

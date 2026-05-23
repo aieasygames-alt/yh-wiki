@@ -37,7 +37,10 @@
       "effects": "效果词典",
       "statsCalc": "属性计算器",
       "dpsCalc": "DPS 计算器",
-      "cityTycoon": "都市大亨"
+      "cityTycoon": "都市大亨",
+      "voiceActors": "声优一览",
+      "multiplayer": "多人联机",
+      "gameplay": "游戏概览"
     }
   },
   "common": {

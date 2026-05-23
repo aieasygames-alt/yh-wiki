@@ -37,7 +37,10 @@
       "effects": "Effects",
       "statsCalc": "Stats Calc",
       "dpsCalc": "DPS Calculator",
-      "cityTycoon": "City Tycoon"
+      "cityTycoon": "City Tycoon",
+      "voiceActors": "Voice Actors",
+      "multiplayer": "Multiplayer",
+      "gameplay": "Gameplay"
     }
   },
   "home": {

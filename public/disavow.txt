@@ -1,0 +1,21 @@
+# Google Disavow File for nteguide.com
+# Generated: 2026-05-23
+# These domains are spam/low-quality SEO service backlinks that should be disavowed
+# Submit at: https://search.google.com/search-console/disavow-links
+
+domain:fiverr-affordable-seo-services.site
+domain:fiverr-cost-effective-seo.site
+domain:fiverr-quality-seo-at-affordable-rates.site
+domain:fiverr-seo-for-business-growth.site
+domain:seo-growth-authority-boost-hub.shop
+domain:seo-growth-optimization-hub.shop
+domain:seopxl-optimization-lab.shop
+domain:seopxl-organic-boost-lab.shop
+domain:seopxl-performance-authority-engine.shop
+domain:seopxl-ranking-boost-engine.shop
+domain:seopxl-ranking-boost-lab.shop
+domain:seopxl-traffic-growth-lab.shop
+domain:analyticshaven.top
+domain:optimizeflow.top
+domain:trustedhumans.com
+domain:jameslinks.agency

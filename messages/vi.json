@@ -36,7 +36,10 @@
       "teamBuilder": "Team Builder",
       "effects": "Effects",
       "statsCalc": "Stats Calc",
-      "cityTycoon": "City Tycoon"
+      "cityTycoon": "City Tycoon",
+      "voiceActors": "Voice Actors",
+      "multiplayer": "Multiplayer",
+      "gameplay": "Gameplay"
     }
   },
   "home": {

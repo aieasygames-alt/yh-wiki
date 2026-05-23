@@ -57,6 +57,14 @@ function generateSearchIndex() {
     addEntry(loc.id, loc.name, loc.nameEn, "location", `/locations/${loc.id}`, [loc.category?.toLowerCase()]);
   }
 
+  // Static standalone pages
+  index.push({ id: "voice-actors", name: "声优一览", nameEn: "Voice Actors", type: "page", url: "/zh/voice-actors", tags: ["characters", "voice"] });
+  index.push({ id: "voice-actors", name: "Voice Actors", nameEn: "Voice Actors", type: "page", url: "/en/voice-actors", tags: ["characters", "voice"] });
+  index.push({ id: "multiplayer", name: "多人联机", nameEn: "Multiplayer & Co-op", type: "page", url: "/zh/multiplayer", tags: ["multiplayer", "co-op", "crossplay"] });
+  index.push({ id: "multiplayer", name: "Multiplayer & Co-op", nameEn: "Multiplayer & Co-op", type: "page", url: "/en/multiplayer", tags: ["multiplayer", "co-op", "crossplay"] });
+  index.push({ id: "gameplay", name: "游戏概览", nameEn: "Gameplay Overview", type: "page", url: "/zh/gameplay", tags: ["gameplay", "review", "overview"] });
+  index.push({ id: "gameplay", name: "Gameplay Overview", nameEn: "Gameplay Overview", type: "page", url: "/en/gameplay", tags: ["gameplay", "review", "overview"] });
+
   fs.writeFileSync(outFile, JSON.stringify(index), "utf-8");
   console.log(`[search-index] ${index.length} entries`);
 }
@@ -81,7 +89,7 @@ function generateSitemaps() {
   }
 
   const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets"];
-  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events"];
+  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay"];
   const guideSubPages = ["guides/gacha-system"];
   const staticInfoPages = ["about", "contact", "terms", "privacy-policy"];
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];
