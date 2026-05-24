@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { FaqPageJsonLd, ArticleJsonLd } from "../../../components/JsonLd";
+import { ArticleJsonLd } from "../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 
 export function generateStaticParams() {
