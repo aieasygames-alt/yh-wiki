@@ -14,6 +14,8 @@ const BASE_URL = "https://nteguide.com";
 // ── Config ──────────────────────────────────────────────
 // All locales the app supports via generateStaticParams (see lib/i18n.ts LOCALES)
 const LOCALES = ["zh", "tw", "en", "th", "vi", "id", "ja", "ko"];
+// Only locales with real translated content — used for sitemap generation to avoid crawl waste
+const SITEMAP_LOCALES = ["zh", "tw", "en"];
 
 // ── Shared data loader (reads each JSON file once) ─────
 const cache = {};
@@ -99,12 +101,12 @@ function generateSitemaps() {
   function locUrls(paths, priority, changeFreq) {
     return paths.flatMap(p => {
       const segment = p ? `${p}/` : "";
-      return LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/${segment}`, priority, changeFreq }));
+      return SITEMAP_LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/${segment}`, priority, changeFreq }));
     });
   }
 
   function dataUrls(data, pathFn) {
-    return data.flatMap(d => LOCALES.map(lang => pathFn(d, lang)));
+    return data.flatMap(d => SITEMAP_LOCALES.map(lang => pathFn(d, lang)));
   }
 
   // Pages sitemap
@@ -140,7 +142,7 @@ function generateSitemaps() {
     ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("anomalies.json"), (a, lang) => ({ url: `${BASE_URL}/${lang}/anomalies/${a.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("disk-sets.json"), (d, lang) => ({ url: `${BASE_URL}/${lang}/disk-sets/${d.id}/`, priority: 0.7, changeFreq: "monthly" })),
-    ...commonTags.flatMap(tag => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${tag}/`, priority: 0.5, changeFreq: "weekly" }))),
+    ...commonTags.flatMap(tag => SITEMAP_LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${tag}/`, priority: 0.5, changeFreq: "weekly" }))),
   ];
 
   writeSitemap("sitemap-pages.xml", pageUrls);

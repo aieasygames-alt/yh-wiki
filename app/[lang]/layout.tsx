@@ -4,10 +4,19 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { GaRouteTracker } from "../../components/GaRouteTracker";
 import { QuickLinks } from "../../components/QuickLinks";
-import { LOCALES, toHtmlLang } from "../../lib/i18n";
+import { LOCALES, toHtmlLang, hasTranslation } from "../../lib/i18n";
 import type { Locale } from "../../lib/i18n";
 
 const GA_ID = "G-KLVBV8S58R";
+
+export async function generateMetadata({ params }: { params: { lang: string } }) {
+  const { lang } = await params;
+  const locale = lang as Locale;
+  if (!hasTranslation(locale)) {
+    return { robots: { index: false, follow: true } };
+  }
+  return {};
+}
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ lang: locale }));

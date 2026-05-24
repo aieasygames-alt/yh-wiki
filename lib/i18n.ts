@@ -106,7 +106,7 @@ function buildHreflangMap(pathFn: (locale: Locale) => string): Record<string, st
  * so their canonical should point to the English version to avoid
  * Google flagging them as duplicate content.
  */
-const TRANSLATED_LOCALES: ReadonlySet<string> = new Set(["zh", "tw", "en"]);
+export const TRANSLATED_LOCALES: ReadonlySet<string> = new Set(["zh", "tw", "en"]);
 
 /** Whether a locale has its own translated content (not falling back to English) */
 export function hasTranslation(locale: string): boolean {
