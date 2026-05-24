@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-05-23
+> Generated: 2026-05-24
 
 ## Characters (42)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -91,7 +91,7 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (48)
+## Guides (49)
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -140,6 +140,7 @@
 - [异环赚钱攻略 — 信用点/方斯最优获取路线](/en/guides/money-making-guide/) — Farming (updated 2026-04-29)
 - [商店兑换优先级攻略 — 各商店最优兑换顺序](/en/guides/shop-exchange-guide/) — Farming (updated 2026-04-29)
 - [都市大亨完全攻略 — 建筑收益、免费S级角色与进阶技巧](/en/guides/city-tycoon-guide/) — Guide (updated 2026-05-04)
+- [异环「何处为家」任务攻略 — 完整流程与奖励](/en/guides/where-is-home-guide/) — Exploration (updated 2026-05-24)
 
 ## FAQ (264)
 - How much does NTE cost on PS5? What's the download size? How does it perform?

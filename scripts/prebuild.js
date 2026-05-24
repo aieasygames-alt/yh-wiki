@@ -64,6 +64,8 @@ function generateSearchIndex() {
   index.push({ id: "multiplayer", name: "Multiplayer & Co-op", nameEn: "Multiplayer & Co-op", type: "page", url: "/en/multiplayer", tags: ["multiplayer", "co-op", "crossplay"] });
   index.push({ id: "gameplay", name: "游戏概览", nameEn: "Gameplay Overview", type: "page", url: "/zh/gameplay", tags: ["gameplay", "review", "overview"] });
   index.push({ id: "gameplay", name: "Gameplay Overview", nameEn: "Gameplay Overview", type: "page", url: "/en/gameplay", tags: ["gameplay", "review", "overview"] });
+  index.push({ id: "porsche-collab", name: "保时捷联动", nameEn: "Porsche Collab", type: "page", url: "/zh/porsche-collab", tags: ["porsche", "collab", "vehicle", "918"] });
+  index.push({ id: "porsche-collab", name: "Porsche Collab", nameEn: "Porsche Collab", type: "page", url: "/en/porsche-collab", tags: ["porsche", "collab", "vehicle", "918"] });
 
   fs.writeFileSync(outFile, JSON.stringify(index), "utf-8");
   console.log(`[search-index] ${index.length} entries`);
@@ -89,7 +91,7 @@ function generateSitemaps() {
   }
 
   const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets"];
-  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay"];
+  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab"];
   const guideSubPages = ["guides/gacha-system"];
   const staticInfoPages = ["about", "contact", "terms", "privacy-policy"];
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];

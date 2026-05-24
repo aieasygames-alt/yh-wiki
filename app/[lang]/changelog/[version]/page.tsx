@@ -17,16 +17,16 @@ export async function generateMetadata({ params }: { params: { lang: string; ver
   const versionName = isZhLocale(lang) ? cl.versionName : cl.versionNameEn;
   const title = isZhLocale(lang)
     ? `异环 ${cl.version} ${versionName} 更新日志`
-    : `NTE v${cl.version} ${versionName} Changelog`;
+    : `NTE ${cl.version} Patch Notes — ${versionName}`;
   const description = isZhLocale(lang)
     ? `异环 ${cl.version} 版本更新内容：${(cl.highlights || []).slice(0, 3).join("、")}`
-    : `NTE v${cl.version} update: ${(cl.highlightsEn || []).slice(0, 3).join(", ")}`;
+    : `Neverness to Everness v${cl.version} patch notes and update details: ${(cl.highlightsEn || []).slice(0, 3).join(", ")}`;
 
   return {
-    title: `${title} | NTE Guide`,
+    title,
     description,
     alternates: hreflangAlternates(`changelog/${version}`, lang),
-    openGraph: { title: `${title} | NTE Guide`, description },
+    openGraph: { title, description },
   };
 }
 

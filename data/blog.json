@@ -1,5 +1,97 @@
 [
   {
+    "id": "nte-lacrimosa-build-guide",
+    "title": "异环拉克莉莫萨最佳Build攻略：碟片、武器、配队与召唤流全解",
+    "titleTw": "異環拉克莉莫薩最佳Build攻略：碟片、武器、配隊與召喚流全解",
+    "titleEn": "NTE Lacrimosa Build Guide — Chaos Summoner: Best Arc Discs, Weapons & Teams (1.1 Banner)",
+    "category": "guide",
+    "categoryZh": "攻略指南",
+    "categoryEn": "Guide",
+    "date": "2026-05-24",
+    "tags": [
+      "lacrimosa",
+      "build",
+      "guide",
+      "chaos",
+      "summoner",
+      "1.1",
+      "dps"
+    ],
+    "summary": "拉克莉莫萨是异环1.1版本限定S级暗属性进攻角色，召唤流AoE核心。本攻略详解最佳碟片搭配、武器选择、配队方案和养成优先级。",
+    "summaryTw": "拉克莉莫薩是異環1.1版本限定S級暗屬性進攻角色，召喚流AoE核心。本攻略詳解最佳碟片搭配、武器選擇、配隊方案和養成優先級。",
+    "summaryEn": "Lacrimosa is the limited S-rank Chaos Attack character in NTE 1.1. This build guide covers her best Arc Discs, weapons, team comps, and summoner DPS playstyle.",
+    "internalLinks": [
+      {
+        "href": "/characters/lacrimosa",
+        "label": "拉克莉莫萨角色详情",
+        "labelEn": "Lacrimosa Character Page"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Character Tier List"
+      },
+      {
+        "href": "/guides/elemental-reactions",
+        "label": "元素反应攻略",
+        "labelEn": "Elemental Reaction Guide"
+      },
+      {
+        "href": "/calculator/build",
+        "label": "Build计算器",
+        "labelEn": "Build Calculator"
+      }
+    ],
+    "content": "拉克莉莫萨（Lacrimosa）是异环1.1版本「游梦洄廊」的限定S级角色，暗属性进攻型，使用合成类武器。她是游戏首位召唤流主C，通过召唤机械造物进行大范围AoE输出，在群体战斗中表现出色。\n\n## 拉克莉莫萨核心定位\n\n- **属性**：暗（Chaos）\n- **武器类型**：合成（Synthesis）\n- **定位**：召唤物 AoE 进攻\n- **评级**：A 级（群体战斗 S 级）\n- **卡池**：1.1 第一阶段（5月28日 - 6月11日）\n\n## 最佳碟片搭配\n\n**首选：天裂之牙（Skyrending Fang）**\n4件套提供召唤物伤害加成，与拉克莉莫萨的召唤机制完美契合。\n\n**次选：失落光芒（Lost Radiance）**\n如果没有天裂之牙，失落光芒 4 件套也是不错的选择，提供稳定的元素伤害加成。\n\n## 主属性推荐\n\n- 碟片1：ATK%\n- 碟片2：暗属性伤害加成（Elemental DMG）\n- 碟片3：暴击率（CRIT Rate）或暴击伤害（CRIT DMG）\n\n## 副词条优先级\n\n暴击率 > 暴击伤害 > ATK% > 元素精通 > 能量回复\n\n## 武器推荐\n\n**最佳：异灵造物·黎明（Esper Constructs - Dawn）**\n拉克莉莫萨的专属武器，大幅提升召唤物伤害和持续时间。\n\n**替代：终有一日（A Time Will Come）**\n通用合成类武器，在没有专武时是最佳替代选择。\n\n## 推荐配队\n\n**队伍一：拉克莉莫萨最佳配队**\n- 拉克莉莫萨（主C）+ 达芙迪尔（副C）+ 密斯莫（辅助）+ 黑鸟（副C）\n- 暗属性 + Cosmos 双元素反应队\n\n**队伍二：ETD-4 小队**\n- 拉克莉莫萨 + 法蒂亚 + 白藏 + 翳\n- 全 ETD-4 阵营加成队\n\n## 养成优先级\n\n1. 等级拉满（优先）\n2. 普攻和终极技能升满\n3. 觉醒 A1 和 A5（质变节点）\n4. 专武获取（如有预算）\n\n## 抽取建议\n\n拉克莉莫萨在群体战斗（深渊、异常副本）中表现极为出色，但单体伤害略低于娜娜莉。如果你缺乏 AoE 角色或想组建暗属性队伍，强烈推荐抽取。",
+    "contentEn": "Lacrimosa is the limited S-rank Chaos-attribute Attack character in NTE Version 1.1 'Wandering Corridor', wielding Synthesis-type weapons. She is the game's first summoner DPS, deploying mechanical constructs for devastating AoE damage — excelling in group combat scenarios like Abyss floors and Anomaly dungeons.\n\n## Lacrimosa Overview\n\n- **Element**: Chaos (Dark)\n- **Weapon Type**: Synthesis\n- **Role**: Summoner AoE Attack DPS\n- **Tier Rating**: A tier (S tier for AoE content)\n- **Banner**: Version 1.1 Phase 1 (May 28 – June 11, 2026)\n- **Acquisition**: Limited banner only (no 50/50, 90-pull pity guarantees)\n\n## Best Arc Disc (Cartridge) Sets\n\n**Best: Skyrending Fang (4-piece)**\nBoosts summon damage and provides stacking Elemental DMG bonus. Perfect synergy with Lacrimosa's construct-based kit.\n\n**Alternative: Lost Radiance (4-piece)**\nA solid fallback that provides consistent Elemental DMG when Skyrending Fang isn't available.\n\n## Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| Disc 1 | ATK% |\n| Disc 2 | Elemental DMG (Chaos) |\n| Disc 3 | CRIT Rate or CRIT DMG |\n\n## Substat Priority\n\nCRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Energy Recharge\n\n## Best Weapons\n\n**Signature: Esper Constructs - Dawn**\nLacrimosa's signature Arc weapon. Massively boosts summon damage and extends construct duration — the best-in-slot choice.\n\n**Alternative: A Time Will Come**\nA strong universal Synthesis weapon that serves as the best F2P/alternative option when her signature isn't available.\n\n## Recommended Team Compositions\n\n**Team 1: Lacrimosa Best Team**\n- Lacrimosa (Main DPS) + Daffodil (Sub DPS) + Mismo (Support) + Black Bird (Sub DPS)\n- Focuses on Chaos + Cosmos elemental reactions with Turbid Burn synergy\n\n**Team 2: ETD-4 Faction Squad**\n- Lacrimosa + Fadia + Baicang + Skia\n- Leverages full ETD-4 faction bonus for enhanced stats\n\n## Skill Priority\n\n1. **Ultimate (Final Judgment of Workday)** — Max first, biggest damage source\n2. **Skill (Loading Sleepyhead Mode)** — Second priority for construct uptime\n3. **Normal Attack (Sweet and Sour Judgment)** — Third for consistent damage\n4. **Passives** — Level as resources allow\n\n## Awakening Priority\n\n- **A1**: Enhanced passive — always unlock this first\n- **A5**: Major power spike that doubles construct damage — high priority\n- **A6**: Diminishing returns but valuable for dedicated Lacrimosa mains\n\n## Pull Recommendation\n\nLacrimosa excels in AoE scenarios (Abyss, Anomaly dungeons, world bosses) but has slightly lower single-target damage than Nanally. If you lack a strong AoE DPS or want to build a Chaos-element team, she's highly recommended. F2P players should evaluate whether their current teams can handle AoE content before spending pulls.\n\n## Version 1.1 Banner Schedule\n\n- **Phase 1** (May 28 – June 11): Lacrimosa featured + guarantee no-lose system\n- **Phase 2** (June 11 – July 2): Chaos (first limited male S-rank)\n- Both phases include 17 free pulls + 600 stamina + 300K Fons"
+  },
+  {
+    "id": "nte-hotori-build-guide",
+    "title": "异环穗鸟最佳Build攻略：S+辅助的碟片、武器与配队全解",
+    "titleTw": "異環穗鳥最佳Build攻略：S+輔助的碟片、武器與配隊全解",
+    "titleEn": "NTE Hotori Build Guide — S+ Support: Time Freeze, Best Arc Discs, Weapons & Teams",
+    "category": "guide",
+    "categoryZh": "攻略指南",
+    "categoryEn": "Guide",
+    "date": "2026-05-24",
+    "tags": [
+      "hotori",
+      "build",
+      "guide",
+      "support",
+      "cosmos",
+      "buffer",
+      "time-freeze"
+    ],
+    "summary": "穗鸟是异环唯一的S+级辅助角色，集聚怪、加攻、时间冻结于一体。本攻略详解最佳碟片搭配、武器选择和配队方案。",
+    "summaryTw": "穗鳥是異環唯一的S+級輔助角色，集聚怪、加攻、時間凍結於一體。本攻略詳解最佳碟片搭配、武器選擇和配隊方案。",
+    "summaryEn": "Hotori is NTE's only S+ tier support character with grouping, ATK buffing, and time-freeze abilities. Complete build guide with best Arc Discs, weapons, and team comps.",
+    "internalLinks": [
+      {
+        "href": "/characters/hotori",
+        "label": "穗鸟角色详情",
+        "labelEn": "Hotori Character Page"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Character Tier List"
+      },
+      {
+        "href": "/guides/elemental-reactions",
+        "label": "元素反应攻略",
+        "labelEn": "Elemental Reaction Guide"
+      },
+      {
+        "href": "/calculator/build",
+        "label": "Build计算器",
+        "labelEn": "Build Calculator"
+      }
+    ],
+    "content": "穗鸟（Hotori）是异环（NTE）唯一的 S+ 级辅助角色，天属性增益型，使用气体类武器。她集聚怪、加攻、时间冻结三大核心辅助能力于一身，1觉后质变拐力翻倍，是任何队伍都想要的万能辅助。\n\n## 穗鸟核心定位\n\n- **属性**：天（Cosmos）\n- **武器类型**：气体（Gas）\n- **定位**：聚怪 + 加攻 + 时间冻结辅助\n- **评级**：S+（唯一 S 级辅助）\n- **获取方式**：限定卡池\n\n## 最佳碟片搭配\n\n**首选：失落光芒（Lost Radiance）**\n4 件套提供元素伤害加成和能量回复，确保穗鸟的技能循环流畅。\n\n**次选：森林萤火之心（Fireflies and the Forest）**\n提供全队增益效果，增强辅助能力。\n\n## 主属性推荐\n\n- 碟片1：ATK%\n- 碟片2：ATK%（双 ATK% 保证加攻量）\n- 碟片3：暴击率（CRIT Rate）\n\n## 武器推荐\n\n**最佳：面具下的泪（Tears Beneath the Mask）**\n穗鸟的专属武器，大幅提升辅助效果和聚怪能力。\n\n## 推荐配队\n\n**队伍一：穗鸟最佳配队**\n- 穗鸟 + 零 + 埃德加 + 泰格多\n- 天属性反应队\n\n**队伍二：Eibon 古董店小队**\n- 穗鸟 + 娜娜莉 + 咲里 + 零\n- 全 Eibon 阵营加成\n\n**队伍三：娜娜莉核心队**\n- 穗鸟 + 娜娜莉 + 九原 + 任意辅助\n- 穗鸟聚怪 + 娜娜莉输出的经典组合\n\n## 养成优先级\n\n1. 技能（聚怪 + 加攻）升满 — 最优先\n2. 终极技能升满 — 时间冻结持续时间\n3. 觉醒 A1（质变）→ A5\n4. 专武获取（推荐）",
+    "contentEn": "Hotori is NTE's only S+ tier support character, wielding Gas-type weapons with Cosmos attribute. She combines three essential support abilities — enemy grouping, ATK buffing, and time-freeze mechanics — making her the most versatile support in the game. Her A1 awakening is a game-changer that doubles her buff potency.\n\n## Hotori Overview\n\n- **Element**: Cosmos (Light/Celestial)\n- **Weapon Type**: Gas\n- **Role**: Buffer / Grouper / Time-Freeze Support\n- **Tier Rating**: S+ (the only S-rank support)\n- **Faction**: Eibon Antique Shop\n- **Acquisition**: Limited banner\n\n## Best Arc Disc (Cartridge) Sets\n\n**Best: Lost Radiance (4-piece)**\nProvides Elemental DMG bonus and energy recharge to maintain smooth skill rotation. The additional energy ensures Hotori can use her grouping skill frequently.\n\n**Alternative: Fireflies and the Forest (4-piece)**\nTeam-wide buffs that enhance Hotori's support capabilities and boost overall team damage.\n\n## Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| Disc 1 | ATK% |\n| Disc 2 | ATK% (double ATK% for stronger buffs) |\n| Disc 3 | CRIT Rate |\n\n## Substat Priority\n\nHP% > Energy Recharge > ATK% > Elemental Mastery > CRIT Rate\n\n## Best Weapons\n\n**Signature: Tears Beneath the Mask**\nHotori's signature Arc weapon that significantly enhances her grouping ability and buff duration. The best-in-slot choice for maximizing her support potential.\n\n## Recommended Team Compositions\n\n**Team 1: Hotori Best Team**\n- Hotori + Zero (Male or Female) + Edgar + Taygedo\n- Cosmos-element reaction team with strong synergy\n\n**Team 2: Eibon Antique Shop Squad**\n- Hotori + Nanally + Sakiri + Zero\n- Full Eibon faction team with faction bonuses\n\n**Team 3: Nanally Core Team**\n- Hotori + Nanally + Jiuyuan + flex support\n- Classic combination: Hotori groups enemies, Nanally annihilates them\n\n## Time Freeze Mechanic\n\nHotori's unique time-freeze ability (Present Scene Reflected skill) creates a temporary stasis field that:\n- Freezes all enemies in place for 3-5 seconds\n- Allows your team to freely position and set up combos\n- Triggers perfect dodge bonuses for extra damage\n- Especially powerful in Abyss floors and boss fights\n\n## Skill Priority\n\n1. **Skill (Present Scene Reflected)** — Max first for grouping and time-freeze duration\n2. **Ultimate (Tides of the Floating World)** — Second for AoE buff coverage\n3. **Normal Attack (Oboro Moon Style)** — Lower priority as support\n4. **Passives** — Level as resources allow\n\n## Awakening Priority\n\n- **A1**: Enhanced buff potency — doubles support effectiveness. This is a MUST-UNLOCK.\n- **A5**: Additional buff duration — valuable for longer fights\n- **A6**: Diminishing returns, only for dedicated Hotori mains\n\n## Pull Recommendation\n\nHotori is the single best support in NTE and fits into virtually every team composition. Her grouping + buffing + time-freeze trifecta makes her invaluable for Abyss, Anomaly dungeons, and co-op content. If you don't have her yet, she should be your top priority after your main DPS."
+  },
+  {
     "id": "nte-v11-preview-livestream",
     "title": "异环1.1版本「游梦洄廊」前瞻直播汇总 — 新角色、新地图、新兑换码全收录",
     "titleEn": "NTE Version 1.1 'Wandering Corridor' Livestream Summary — New Characters, Map & Codes",

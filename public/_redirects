@@ -393,8 +393,10 @@
 /en/blog/nte-global-launch-live-guide /en/blog/nte-global-launch-live-guide/ 301
 /en/blog/nte-global-server-recharge-guide /en/blog/nte-global-server-recharge-guide/ 301
 /en/blog/nte-hathor-build-guide /en/blog/nte-hathor-build-guide/ 301
+/en/blog/nte-hotori-build-guide /en/blog/nte-hotori-build-guide/ 301
 /en/blog/nte-hotori-practical-tips-guide /en/blog/nte-hotori-practical-tips-guide/ 301
 /en/blog/nte-jiuyuan-build-guide /en/blog/nte-jiuyuan-build-guide/ 301
+/en/blog/nte-lacrimosa-build-guide /en/blog/nte-lacrimosa-build-guide/ 301
 /en/blog/nte-launch-6-choose-1 /en/blog/nte-launch-6-choose-1/ 301
 /en/blog/nte-launch-collaborations /en/blog/nte-launch-collaborations/ 301
 /en/blog/nte-launch-compensation-guide /en/blog/nte-launch-compensation-guide/ 301
@@ -441,6 +443,7 @@
 /en/changelog /en/changelog/ 301
 /en/changelog/1.0 /en/changelog/1.0/ 301
 /en/changelog/1.0.1 /en/changelog/1.0.1/ 301
+/en/changelog/1.1 /en/changelog/1.1/ 301
 /en/characters /en/characters/ 301
 /en/characters/adler /en/characters/adler/ 301
 /en/characters/akane /en/characters/akane/ 301
@@ -827,6 +830,7 @@
 /en/guides/vehicle-system-guide /en/guides/vehicle-system-guide/ 301
 /en/guides/weapon-guide /en/guides/weapon-guide/ 301
 /en/guides/weapon-tier-list /en/guides/weapon-tier-list/ 301
+/en/guides/where-is-home-guide /en/guides/where-is-home-guide/ 301
 /en/locations /en/locations/ 301
 /en/locations/bridge-crossing /en/locations/bridge-crossing/ 301
 /en/locations/detention-center /en/locations/detention-center/ 301
@@ -914,6 +918,7 @@
 /en/materials/water-moon-pick /en/materials/water-moon-pick/ 301
 /en/materials/yearning-delusions /en/materials/yearning-delusions/ 301
 /en/multiplayer /en/multiplayer/ 301
+/en/porsche-collab /en/porsche-collab/ 301
 /en/privacy-policy /en/privacy-policy/ 301
 /en/redeem-codes /en/redeem-codes/ 301
 /en/sitemap /en/sitemap/ 301
@@ -1280,10 +1285,12 @@
 /en/tags/version /en/tags/version/ 301
 /en/tags/voice-actors /en/tags/voice-actors/ 301
 /en/tags/wait /en/tags/wait/ 301
+/en/tags/walkthrough /en/tags/walkthrough/ 301
 /en/tags/weakness /en/tags/weakness/ 301
 /en/tags/weapon /en/tags/weapon/ 301
 /en/tags/weapons /en/tags/weapons/ 301
 /en/tags/weekly /en/tags/weekly/ 301
+/en/tags/where is home /en/tags/where is home/ 301
 /en/tags/white-screen /en/tags/white-screen/ 301
 /en/tags/whose-leak /en/tags/whose-leak/ 301
 /en/tags/wish /en/tags/wish/ 301
@@ -1294,9 +1301,11 @@
 /en/tags/zenless-zone-zero /en/tags/zenless-zone-zero/ 301
 /en/tags/zzz /en/tags/zzz/ 301
 /en/tags/下载 /en/tags/下载/ 301
+/en/tags/主线 /en/tags/主线/ 301
 /en/tags/九原 /en/tags/九原/ 301
 /en/tags/买房 /en/tags/买房/ 301
 /en/tags/交易 /en/tags/交易/ 301
+/en/tags/任务 /en/tags/任务/ 301
 /en/tags/优先级 /en/tags/优先级/ 301
 /en/tags/优化 /en/tags/优化/ 301
 /en/tags/伤害 /en/tags/伤害/ 301
@@ -1435,6 +1444,7 @@
 /en/vehicles/rover-a1 /en/vehicles/rover-a1/ 301
 /en/vehicles/st79 /en/vehicles/st79/ 301
 /en/vehicles/tomorrow-rush /en/vehicles/tomorrow-rush/ 301
+/en/vehicles/wave-rider /en/vehicles/wave-rider/ 301
 /en/voice-actors /en/voice-actors/ 301
 /en/weapons /en/weapons/ 301
 /en/weapons/a-time-will-come /en/weapons/a-time-will-come/ 301
@@ -1533,8 +1543,10 @@
 /id/blog/nte-global-launch-live-guide /id/blog/nte-global-launch-live-guide/ 301
 /id/blog/nte-global-server-recharge-guide /id/blog/nte-global-server-recharge-guide/ 301
 /id/blog/nte-hathor-build-guide /id/blog/nte-hathor-build-guide/ 301
+/id/blog/nte-hotori-build-guide /id/blog/nte-hotori-build-guide/ 301
 /id/blog/nte-hotori-practical-tips-guide /id/blog/nte-hotori-practical-tips-guide/ 301
 /id/blog/nte-jiuyuan-build-guide /id/blog/nte-jiuyuan-build-guide/ 301
+/id/blog/nte-lacrimosa-build-guide /id/blog/nte-lacrimosa-build-guide/ 301
 /id/blog/nte-launch-6-choose-1 /id/blog/nte-launch-6-choose-1/ 301
 /id/blog/nte-launch-collaborations /id/blog/nte-launch-collaborations/ 301
 /id/blog/nte-launch-compensation-guide /id/blog/nte-launch-compensation-guide/ 301
@@ -1581,6 +1593,7 @@
 /id/changelog /id/changelog/ 301
 /id/changelog/1.0 /id/changelog/1.0/ 301
 /id/changelog/1.0.1 /id/changelog/1.0.1/ 301
+/id/changelog/1.1 /id/changelog/1.1/ 301
 /id/characters /id/characters/ 301
 /id/characters/adler /id/characters/adler/ 301
 /id/characters/akane /id/characters/akane/ 301
@@ -1967,6 +1980,7 @@
 /id/guides/vehicle-system-guide /id/guides/vehicle-system-guide/ 301
 /id/guides/weapon-guide /id/guides/weapon-guide/ 301
 /id/guides/weapon-tier-list /id/guides/weapon-tier-list/ 301
+/id/guides/where-is-home-guide /id/guides/where-is-home-guide/ 301
 /id/locations /id/locations/ 301
 /id/locations/bridge-crossing /id/locations/bridge-crossing/ 301
 /id/locations/detention-center /id/locations/detention-center/ 301
@@ -2054,6 +2068,7 @@
 /id/materials/water-moon-pick /id/materials/water-moon-pick/ 301
 /id/materials/yearning-delusions /id/materials/yearning-delusions/ 301
 /id/multiplayer /id/multiplayer/ 301
+/id/porsche-collab /id/porsche-collab/ 301
 /id/privacy-policy /id/privacy-policy/ 301
 /id/redeem-codes /id/redeem-codes/ 301
 /id/sitemap /id/sitemap/ 301
@@ -2420,10 +2435,12 @@
 /id/tags/version /id/tags/version/ 301
 /id/tags/voice-actors /id/tags/voice-actors/ 301
 /id/tags/wait /id/tags/wait/ 301
+/id/tags/walkthrough /id/tags/walkthrough/ 301
 /id/tags/weakness /id/tags/weakness/ 301
 /id/tags/weapon /id/tags/weapon/ 301
 /id/tags/weapons /id/tags/weapons/ 301
 /id/tags/weekly /id/tags/weekly/ 301
+/id/tags/where is home /id/tags/where is home/ 301
 /id/tags/white-screen /id/tags/white-screen/ 301
 /id/tags/whose-leak /id/tags/whose-leak/ 301
 /id/tags/wish /id/tags/wish/ 301
@@ -2434,9 +2451,11 @@
 /id/tags/zenless-zone-zero /id/tags/zenless-zone-zero/ 301
 /id/tags/zzz /id/tags/zzz/ 301
 /id/tags/下载 /id/tags/下载/ 301
+/id/tags/主线 /id/tags/主线/ 301
 /id/tags/九原 /id/tags/九原/ 301
 /id/tags/买房 /id/tags/买房/ 301
 /id/tags/交易 /id/tags/交易/ 301
+/id/tags/任务 /id/tags/任务/ 301
 /id/tags/优先级 /id/tags/优先级/ 301
 /id/tags/优化 /id/tags/优化/ 301
 /id/tags/伤害 /id/tags/伤害/ 301
@@ -2575,6 +2594,7 @@
 /id/vehicles/rover-a1 /id/vehicles/rover-a1/ 301
 /id/vehicles/st79 /id/vehicles/st79/ 301
 /id/vehicles/tomorrow-rush /id/vehicles/tomorrow-rush/ 301
+/id/vehicles/wave-rider /id/vehicles/wave-rider/ 301
 /id/voice-actors /id/voice-actors/ 301
 /id/weapons /id/weapons/ 301
 /id/weapons/a-time-will-come /id/weapons/a-time-will-come/ 301
@@ -2673,8 +2693,10 @@
 /ja/blog/nte-global-launch-live-guide /ja/blog/nte-global-launch-live-guide/ 301
 /ja/blog/nte-global-server-recharge-guide /ja/blog/nte-global-server-recharge-guide/ 301
 /ja/blog/nte-hathor-build-guide /ja/blog/nte-hathor-build-guide/ 301
+/ja/blog/nte-hotori-build-guide /ja/blog/nte-hotori-build-guide/ 301
 /ja/blog/nte-hotori-practical-tips-guide /ja/blog/nte-hotori-practical-tips-guide/ 301
 /ja/blog/nte-jiuyuan-build-guide /ja/blog/nte-jiuyuan-build-guide/ 301
+/ja/blog/nte-lacrimosa-build-guide /ja/blog/nte-lacrimosa-build-guide/ 301
 /ja/blog/nte-launch-6-choose-1 /ja/blog/nte-launch-6-choose-1/ 301
 /ja/blog/nte-launch-collaborations /ja/blog/nte-launch-collaborations/ 301
 /ja/blog/nte-launch-compensation-guide /ja/blog/nte-launch-compensation-guide/ 301
@@ -2721,6 +2743,7 @@
 /ja/changelog /ja/changelog/ 301
 /ja/changelog/1.0 /ja/changelog/1.0/ 301
 /ja/changelog/1.0.1 /ja/changelog/1.0.1/ 301
+/ja/changelog/1.1 /ja/changelog/1.1/ 301
 /ja/characters /ja/characters/ 301
 /ja/characters/adler /ja/characters/adler/ 301
 /ja/characters/akane /ja/characters/akane/ 301
@@ -3107,6 +3130,7 @@
 /ja/guides/vehicle-system-guide /ja/guides/vehicle-system-guide/ 301
 /ja/guides/weapon-guide /ja/guides/weapon-guide/ 301
 /ja/guides/weapon-tier-list /ja/guides/weapon-tier-list/ 301
+/ja/guides/where-is-home-guide /ja/guides/where-is-home-guide/ 301
 /ja/locations /ja/locations/ 301
 /ja/locations/bridge-crossing /ja/locations/bridge-crossing/ 301
 /ja/locations/detention-center /ja/locations/detention-center/ 301
@@ -3194,6 +3218,7 @@
 /ja/materials/water-moon-pick /ja/materials/water-moon-pick/ 301
 /ja/materials/yearning-delusions /ja/materials/yearning-delusions/ 301
 /ja/multiplayer /ja/multiplayer/ 301
+/ja/porsche-collab /ja/porsche-collab/ 301
 /ja/privacy-policy /ja/privacy-policy/ 301
 /ja/redeem-codes /ja/redeem-codes/ 301
 /ja/sitemap /ja/sitemap/ 301
@@ -3560,10 +3585,12 @@
 /ja/tags/version /ja/tags/version/ 301
 /ja/tags/voice-actors /ja/tags/voice-actors/ 301
 /ja/tags/wait /ja/tags/wait/ 301
+/ja/tags/walkthrough /ja/tags/walkthrough/ 301
 /ja/tags/weakness /ja/tags/weakness/ 301
 /ja/tags/weapon /ja/tags/weapon/ 301
 /ja/tags/weapons /ja/tags/weapons/ 301
 /ja/tags/weekly /ja/tags/weekly/ 301
+/ja/tags/where is home /ja/tags/where is home/ 301
 /ja/tags/white-screen /ja/tags/white-screen/ 301
 /ja/tags/whose-leak /ja/tags/whose-leak/ 301
 /ja/tags/wish /ja/tags/wish/ 301
@@ -3574,9 +3601,11 @@
 /ja/tags/zenless-zone-zero /ja/tags/zenless-zone-zero/ 301
 /ja/tags/zzz /ja/tags/zzz/ 301
 /ja/tags/下载 /ja/tags/下载/ 301
+/ja/tags/主线 /ja/tags/主线/ 301
 /ja/tags/九原 /ja/tags/九原/ 301
 /ja/tags/买房 /ja/tags/买房/ 301
 /ja/tags/交易 /ja/tags/交易/ 301
+/ja/tags/任务 /ja/tags/任务/ 301
 /ja/tags/优先级 /ja/tags/优先级/ 301
 /ja/tags/优化 /ja/tags/优化/ 301
 /ja/tags/伤害 /ja/tags/伤害/ 301
@@ -3715,6 +3744,7 @@
 /ja/vehicles/rover-a1 /ja/vehicles/rover-a1/ 301
 /ja/vehicles/st79 /ja/vehicles/st79/ 301
 /ja/vehicles/tomorrow-rush /ja/vehicles/tomorrow-rush/ 301
+/ja/vehicles/wave-rider /ja/vehicles/wave-rider/ 301
 /ja/voice-actors /ja/voice-actors/ 301
 /ja/weapons /ja/weapons/ 301
 /ja/weapons/a-time-will-come /ja/weapons/a-time-will-come/ 301
@@ -3813,8 +3843,10 @@
 /ko/blog/nte-global-launch-live-guide /ko/blog/nte-global-launch-live-guide/ 301
 /ko/blog/nte-global-server-recharge-guide /ko/blog/nte-global-server-recharge-guide/ 301
 /ko/blog/nte-hathor-build-guide /ko/blog/nte-hathor-build-guide/ 301
+/ko/blog/nte-hotori-build-guide /ko/blog/nte-hotori-build-guide/ 301
 /ko/blog/nte-hotori-practical-tips-guide /ko/blog/nte-hotori-practical-tips-guide/ 301
 /ko/blog/nte-jiuyuan-build-guide /ko/blog/nte-jiuyuan-build-guide/ 301
+/ko/blog/nte-lacrimosa-build-guide /ko/blog/nte-lacrimosa-build-guide/ 301
 /ko/blog/nte-launch-6-choose-1 /ko/blog/nte-launch-6-choose-1/ 301
 /ko/blog/nte-launch-collaborations /ko/blog/nte-launch-collaborations/ 301
 /ko/blog/nte-launch-compensation-guide /ko/blog/nte-launch-compensation-guide/ 301
@@ -3861,6 +3893,7 @@
 /ko/changelog /ko/changelog/ 301
 /ko/changelog/1.0 /ko/changelog/1.0/ 301
 /ko/changelog/1.0.1 /ko/changelog/1.0.1/ 301
+/ko/changelog/1.1 /ko/changelog/1.1/ 301
 /ko/characters /ko/characters/ 301
 /ko/characters/adler /ko/characters/adler/ 301
 /ko/characters/akane /ko/characters/akane/ 301
@@ -4247,6 +4280,7 @@
 /ko/guides/vehicle-system-guide /ko/guides/vehicle-system-guide/ 301
 /ko/guides/weapon-guide /ko/guides/weapon-guide/ 301
 /ko/guides/weapon-tier-list /ko/guides/weapon-tier-list/ 301
+/ko/guides/where-is-home-guide /ko/guides/where-is-home-guide/ 301
 /ko/locations /ko/locations/ 301
 /ko/locations/bridge-crossing /ko/locations/bridge-crossing/ 301
 /ko/locations/detention-center /ko/locations/detention-center/ 301
@@ -4334,6 +4368,7 @@
 /ko/materials/water-moon-pick /ko/materials/water-moon-pick/ 301
 /ko/materials/yearning-delusions /ko/materials/yearning-delusions/ 301
 /ko/multiplayer /ko/multiplayer/ 301
+/ko/porsche-collab /ko/porsche-collab/ 301
 /ko/privacy-policy /ko/privacy-policy/ 301
 /ko/redeem-codes /ko/redeem-codes/ 301
 /ko/sitemap /ko/sitemap/ 301
@@ -4700,10 +4735,12 @@
 /ko/tags/version /ko/tags/version/ 301
 /ko/tags/voice-actors /ko/tags/voice-actors/ 301
 /ko/tags/wait /ko/tags/wait/ 301
+/ko/tags/walkthrough /ko/tags/walkthrough/ 301
 /ko/tags/weakness /ko/tags/weakness/ 301
 /ko/tags/weapon /ko/tags/weapon/ 301
 /ko/tags/weapons /ko/tags/weapons/ 301
 /ko/tags/weekly /ko/tags/weekly/ 301
+/ko/tags/where is home /ko/tags/where is home/ 301
 /ko/tags/white-screen /ko/tags/white-screen/ 301
 /ko/tags/whose-leak /ko/tags/whose-leak/ 301
 /ko/tags/wish /ko/tags/wish/ 301
@@ -4714,9 +4751,11 @@
 /ko/tags/zenless-zone-zero /ko/tags/zenless-zone-zero/ 301
 /ko/tags/zzz /ko/tags/zzz/ 301
 /ko/tags/下载 /ko/tags/下载/ 301
+/ko/tags/主线 /ko/tags/主线/ 301
 /ko/tags/九原 /ko/tags/九原/ 301
 /ko/tags/买房 /ko/tags/买房/ 301
 /ko/tags/交易 /ko/tags/交易/ 301
+/ko/tags/任务 /ko/tags/任务/ 301
 /ko/tags/优先级 /ko/tags/优先级/ 301
 /ko/tags/优化 /ko/tags/优化/ 301
 /ko/tags/伤害 /ko/tags/伤害/ 301
@@ -4855,6 +4894,7 @@
 /ko/vehicles/rover-a1 /ko/vehicles/rover-a1/ 301
 /ko/vehicles/st79 /ko/vehicles/st79/ 301
 /ko/vehicles/tomorrow-rush /ko/vehicles/tomorrow-rush/ 301
+/ko/vehicles/wave-rider /ko/vehicles/wave-rider/ 301
 /ko/voice-actors /ko/voice-actors/ 301
 /ko/weapons /ko/weapons/ 301
 /ko/weapons/a-time-will-come /ko/weapons/a-time-will-come/ 301
@@ -4953,8 +4993,10 @@
 /th/blog/nte-global-launch-live-guide /th/blog/nte-global-launch-live-guide/ 301
 /th/blog/nte-global-server-recharge-guide /th/blog/nte-global-server-recharge-guide/ 301
 /th/blog/nte-hathor-build-guide /th/blog/nte-hathor-build-guide/ 301
+/th/blog/nte-hotori-build-guide /th/blog/nte-hotori-build-guide/ 301
 /th/blog/nte-hotori-practical-tips-guide /th/blog/nte-hotori-practical-tips-guide/ 301
 /th/blog/nte-jiuyuan-build-guide /th/blog/nte-jiuyuan-build-guide/ 301
+/th/blog/nte-lacrimosa-build-guide /th/blog/nte-lacrimosa-build-guide/ 301
 /th/blog/nte-launch-6-choose-1 /th/blog/nte-launch-6-choose-1/ 301
 /th/blog/nte-launch-collaborations /th/blog/nte-launch-collaborations/ 301
 /th/blog/nte-launch-compensation-guide /th/blog/nte-launch-compensation-guide/ 301
@@ -5001,6 +5043,7 @@
 /th/changelog /th/changelog/ 301
 /th/changelog/1.0 /th/changelog/1.0/ 301
 /th/changelog/1.0.1 /th/changelog/1.0.1/ 301
+/th/changelog/1.1 /th/changelog/1.1/ 301
 /th/characters /th/characters/ 301
 /th/characters/adler /th/characters/adler/ 301
 /th/characters/akane /th/characters/akane/ 301
@@ -5387,6 +5430,7 @@
 /th/guides/vehicle-system-guide /th/guides/vehicle-system-guide/ 301
 /th/guides/weapon-guide /th/guides/weapon-guide/ 301
 /th/guides/weapon-tier-list /th/guides/weapon-tier-list/ 301
+/th/guides/where-is-home-guide /th/guides/where-is-home-guide/ 301
 /th/locations /th/locations/ 301
 /th/locations/bridge-crossing /th/locations/bridge-crossing/ 301
 /th/locations/detention-center /th/locations/detention-center/ 301
@@ -5474,6 +5518,7 @@
 /th/materials/water-moon-pick /th/materials/water-moon-pick/ 301
 /th/materials/yearning-delusions /th/materials/yearning-delusions/ 301
 /th/multiplayer /th/multiplayer/ 301
+/th/porsche-collab /th/porsche-collab/ 301
 /th/privacy-policy /th/privacy-policy/ 301
 /th/redeem-codes /th/redeem-codes/ 301
 /th/sitemap /th/sitemap/ 301
@@ -5840,10 +5885,12 @@
 /th/tags/version /th/tags/version/ 301
 /th/tags/voice-actors /th/tags/voice-actors/ 301
 /th/tags/wait /th/tags/wait/ 301
+/th/tags/walkthrough /th/tags/walkthrough/ 301
 /th/tags/weakness /th/tags/weakness/ 301
 /th/tags/weapon /th/tags/weapon/ 301
 /th/tags/weapons /th/tags/weapons/ 301
 /th/tags/weekly /th/tags/weekly/ 301
+/th/tags/where is home /th/tags/where is home/ 301
 /th/tags/white-screen /th/tags/white-screen/ 301
 /th/tags/whose-leak /th/tags/whose-leak/ 301
 /th/tags/wish /th/tags/wish/ 301
@@ -5854,9 +5901,11 @@
 /th/tags/zenless-zone-zero /th/tags/zenless-zone-zero/ 301
 /th/tags/zzz /th/tags/zzz/ 301
 /th/tags/下载 /th/tags/下载/ 301
+/th/tags/主线 /th/tags/主线/ 301
 /th/tags/九原 /th/tags/九原/ 301
 /th/tags/买房 /th/tags/买房/ 301
 /th/tags/交易 /th/tags/交易/ 301
+/th/tags/任务 /th/tags/任务/ 301
 /th/tags/优先级 /th/tags/优先级/ 301
 /th/tags/优化 /th/tags/优化/ 301
 /th/tags/伤害 /th/tags/伤害/ 301
@@ -5995,6 +6044,7 @@
 /th/vehicles/rover-a1 /th/vehicles/rover-a1/ 301
 /th/vehicles/st79 /th/vehicles/st79/ 301
 /th/vehicles/tomorrow-rush /th/vehicles/tomorrow-rush/ 301
+/th/vehicles/wave-rider /th/vehicles/wave-rider/ 301
 /th/voice-actors /th/voice-actors/ 301
 /th/weapons /th/weapons/ 301
 /th/weapons/a-time-will-come /th/weapons/a-time-will-come/ 301
@@ -6093,8 +6143,10 @@
 /tw/blog/nte-global-launch-live-guide /tw/blog/nte-global-launch-live-guide/ 301
 /tw/blog/nte-global-server-recharge-guide /tw/blog/nte-global-server-recharge-guide/ 301
 /tw/blog/nte-hathor-build-guide /tw/blog/nte-hathor-build-guide/ 301
+/tw/blog/nte-hotori-build-guide /tw/blog/nte-hotori-build-guide/ 301
 /tw/blog/nte-hotori-practical-tips-guide /tw/blog/nte-hotori-practical-tips-guide/ 301
 /tw/blog/nte-jiuyuan-build-guide /tw/blog/nte-jiuyuan-build-guide/ 301
+/tw/blog/nte-lacrimosa-build-guide /tw/blog/nte-lacrimosa-build-guide/ 301
 /tw/blog/nte-launch-6-choose-1 /tw/blog/nte-launch-6-choose-1/ 301
 /tw/blog/nte-launch-collaborations /tw/blog/nte-launch-collaborations/ 301
 /tw/blog/nte-launch-compensation-guide /tw/blog/nte-launch-compensation-guide/ 301
@@ -6141,6 +6193,7 @@
 /tw/changelog /tw/changelog/ 301
 /tw/changelog/1.0 /tw/changelog/1.0/ 301
 /tw/changelog/1.0.1 /tw/changelog/1.0.1/ 301
+/tw/changelog/1.1 /tw/changelog/1.1/ 301
 /tw/characters /tw/characters/ 301
 /tw/characters/adler /tw/characters/adler/ 301
 /tw/characters/akane /tw/characters/akane/ 301
@@ -6527,6 +6580,7 @@
 /tw/guides/vehicle-system-guide /tw/guides/vehicle-system-guide/ 301
 /tw/guides/weapon-guide /tw/guides/weapon-guide/ 301
 /tw/guides/weapon-tier-list /tw/guides/weapon-tier-list/ 301
+/tw/guides/where-is-home-guide /tw/guides/where-is-home-guide/ 301
 /tw/locations /tw/locations/ 301
 /tw/locations/bridge-crossing /tw/locations/bridge-crossing/ 301
 /tw/locations/detention-center /tw/locations/detention-center/ 301
@@ -6614,6 +6668,7 @@
 /tw/materials/water-moon-pick /tw/materials/water-moon-pick/ 301
 /tw/materials/yearning-delusions /tw/materials/yearning-delusions/ 301
 /tw/multiplayer /tw/multiplayer/ 301
+/tw/porsche-collab /tw/porsche-collab/ 301
 /tw/privacy-policy /tw/privacy-policy/ 301
 /tw/redeem-codes /tw/redeem-codes/ 301
 /tw/sitemap /tw/sitemap/ 301
@@ -6980,10 +7035,12 @@
 /tw/tags/version /tw/tags/version/ 301
 /tw/tags/voice-actors /tw/tags/voice-actors/ 301
 /tw/tags/wait /tw/tags/wait/ 301
+/tw/tags/walkthrough /tw/tags/walkthrough/ 301
 /tw/tags/weakness /tw/tags/weakness/ 301
 /tw/tags/weapon /tw/tags/weapon/ 301
 /tw/tags/weapons /tw/tags/weapons/ 301
 /tw/tags/weekly /tw/tags/weekly/ 301
+/tw/tags/where is home /tw/tags/where is home/ 301
 /tw/tags/white-screen /tw/tags/white-screen/ 301
 /tw/tags/whose-leak /tw/tags/whose-leak/ 301
 /tw/tags/wish /tw/tags/wish/ 301
@@ -6994,9 +7051,11 @@
 /tw/tags/zenless-zone-zero /tw/tags/zenless-zone-zero/ 301
 /tw/tags/zzz /tw/tags/zzz/ 301
 /tw/tags/下载 /tw/tags/下载/ 301
+/tw/tags/主线 /tw/tags/主线/ 301
 /tw/tags/九原 /tw/tags/九原/ 301
 /tw/tags/买房 /tw/tags/买房/ 301
 /tw/tags/交易 /tw/tags/交易/ 301
+/tw/tags/任务 /tw/tags/任务/ 301
 /tw/tags/优先级 /tw/tags/优先级/ 301
 /tw/tags/优化 /tw/tags/优化/ 301
 /tw/tags/伤害 /tw/tags/伤害/ 301
@@ -7135,6 +7194,7 @@
 /tw/vehicles/rover-a1 /tw/vehicles/rover-a1/ 301
 /tw/vehicles/st79 /tw/vehicles/st79/ 301
 /tw/vehicles/tomorrow-rush /tw/vehicles/tomorrow-rush/ 301
+/tw/vehicles/wave-rider /tw/vehicles/wave-rider/ 301
 /tw/voice-actors /tw/voice-actors/ 301
 /tw/weapons /tw/weapons/ 301
 /tw/weapons/a-time-will-come /tw/weapons/a-time-will-come/ 301
@@ -7233,8 +7293,10 @@
 /vi/blog/nte-global-launch-live-guide /vi/blog/nte-global-launch-live-guide/ 301
 /vi/blog/nte-global-server-recharge-guide /vi/blog/nte-global-server-recharge-guide/ 301
 /vi/blog/nte-hathor-build-guide /vi/blog/nte-hathor-build-guide/ 301
+/vi/blog/nte-hotori-build-guide /vi/blog/nte-hotori-build-guide/ 301
 /vi/blog/nte-hotori-practical-tips-guide /vi/blog/nte-hotori-practical-tips-guide/ 301
 /vi/blog/nte-jiuyuan-build-guide /vi/blog/nte-jiuyuan-build-guide/ 301
+/vi/blog/nte-lacrimosa-build-guide /vi/blog/nte-lacrimosa-build-guide/ 301
 /vi/blog/nte-launch-6-choose-1 /vi/blog/nte-launch-6-choose-1/ 301
 /vi/blog/nte-launch-collaborations /vi/blog/nte-launch-collaborations/ 301
 /vi/blog/nte-launch-compensation-guide /vi/blog/nte-launch-compensation-guide/ 301
@@ -7281,6 +7343,7 @@
 /vi/changelog /vi/changelog/ 301
 /vi/changelog/1.0 /vi/changelog/1.0/ 301
 /vi/changelog/1.0.1 /vi/changelog/1.0.1/ 301
+/vi/changelog/1.1 /vi/changelog/1.1/ 301
 /vi/characters /vi/characters/ 301
 /vi/characters/adler /vi/characters/adler/ 301
 /vi/characters/akane /vi/characters/akane/ 301
@@ -7667,6 +7730,7 @@
 /vi/guides/vehicle-system-guide /vi/guides/vehicle-system-guide/ 301
 /vi/guides/weapon-guide /vi/guides/weapon-guide/ 301
 /vi/guides/weapon-tier-list /vi/guides/weapon-tier-list/ 301
+/vi/guides/where-is-home-guide /vi/guides/where-is-home-guide/ 301
 /vi/locations /vi/locations/ 301
 /vi/locations/bridge-crossing /vi/locations/bridge-crossing/ 301
 /vi/locations/detention-center /vi/locations/detention-center/ 301
@@ -7754,6 +7818,7 @@
 /vi/materials/water-moon-pick /vi/materials/water-moon-pick/ 301
 /vi/materials/yearning-delusions /vi/materials/yearning-delusions/ 301
 /vi/multiplayer /vi/multiplayer/ 301
+/vi/porsche-collab /vi/porsche-collab/ 301
 /vi/privacy-policy /vi/privacy-policy/ 301
 /vi/redeem-codes /vi/redeem-codes/ 301
 /vi/sitemap /vi/sitemap/ 301
@@ -8120,10 +8185,12 @@
 /vi/tags/version /vi/tags/version/ 301
 /vi/tags/voice-actors /vi/tags/voice-actors/ 301
 /vi/tags/wait /vi/tags/wait/ 301
+/vi/tags/walkthrough /vi/tags/walkthrough/ 301
 /vi/tags/weakness /vi/tags/weakness/ 301
 /vi/tags/weapon /vi/tags/weapon/ 301
 /vi/tags/weapons /vi/tags/weapons/ 301
 /vi/tags/weekly /vi/tags/weekly/ 301
+/vi/tags/where is home /vi/tags/where is home/ 301
 /vi/tags/white-screen /vi/tags/white-screen/ 301
 /vi/tags/whose-leak /vi/tags/whose-leak/ 301
 /vi/tags/wish /vi/tags/wish/ 301
@@ -8134,9 +8201,11 @@
 /vi/tags/zenless-zone-zero /vi/tags/zenless-zone-zero/ 301
 /vi/tags/zzz /vi/tags/zzz/ 301
 /vi/tags/下载 /vi/tags/下载/ 301
+/vi/tags/主线 /vi/tags/主线/ 301
 /vi/tags/九原 /vi/tags/九原/ 301
 /vi/tags/买房 /vi/tags/买房/ 301
 /vi/tags/交易 /vi/tags/交易/ 301
+/vi/tags/任务 /vi/tags/任务/ 301
 /vi/tags/优先级 /vi/tags/优先级/ 301
 /vi/tags/优化 /vi/tags/优化/ 301
 /vi/tags/伤害 /vi/tags/伤害/ 301
@@ -8275,6 +8344,7 @@
 /vi/vehicles/rover-a1 /vi/vehicles/rover-a1/ 301
 /vi/vehicles/st79 /vi/vehicles/st79/ 301
 /vi/vehicles/tomorrow-rush /vi/vehicles/tomorrow-rush/ 301
+/vi/vehicles/wave-rider /vi/vehicles/wave-rider/ 301
 /vi/voice-actors /vi/voice-actors/ 301
 /vi/weapons /vi/weapons/ 301
 /vi/weapons/a-time-will-come /vi/weapons/a-time-will-come/ 301
@@ -8373,8 +8443,10 @@
 /zh/blog/nte-global-launch-live-guide /zh/blog/nte-global-launch-live-guide/ 301
 /zh/blog/nte-global-server-recharge-guide /zh/blog/nte-global-server-recharge-guide/ 301
 /zh/blog/nte-hathor-build-guide /zh/blog/nte-hathor-build-guide/ 301
+/zh/blog/nte-hotori-build-guide /zh/blog/nte-hotori-build-guide/ 301
 /zh/blog/nte-hotori-practical-tips-guide /zh/blog/nte-hotori-practical-tips-guide/ 301
 /zh/blog/nte-jiuyuan-build-guide /zh/blog/nte-jiuyuan-build-guide/ 301
+/zh/blog/nte-lacrimosa-build-guide /zh/blog/nte-lacrimosa-build-guide/ 301
 /zh/blog/nte-launch-6-choose-1 /zh/blog/nte-launch-6-choose-1/ 301
 /zh/blog/nte-launch-collaborations /zh/blog/nte-launch-collaborations/ 301
 /zh/blog/nte-launch-compensation-guide /zh/blog/nte-launch-compensation-guide/ 301
@@ -8421,6 +8493,7 @@
 /zh/changelog /zh/changelog/ 301
 /zh/changelog/1.0 /zh/changelog/1.0/ 301
 /zh/changelog/1.0.1 /zh/changelog/1.0.1/ 301
+/zh/changelog/1.1 /zh/changelog/1.1/ 301
 /zh/characters /zh/characters/ 301
 /zh/characters/adler /zh/characters/adler/ 301
 /zh/characters/akane /zh/characters/akane/ 301
@@ -8807,6 +8880,7 @@
 /zh/guides/vehicle-system-guide /zh/guides/vehicle-system-guide/ 301
 /zh/guides/weapon-guide /zh/guides/weapon-guide/ 301
 /zh/guides/weapon-tier-list /zh/guides/weapon-tier-list/ 301
+/zh/guides/where-is-home-guide /zh/guides/where-is-home-guide/ 301
 /zh/locations /zh/locations/ 301
 /zh/locations/bridge-crossing /zh/locations/bridge-crossing/ 301
 /zh/locations/detention-center /zh/locations/detention-center/ 301
@@ -8894,6 +8968,7 @@
 /zh/materials/water-moon-pick /zh/materials/water-moon-pick/ 301
 /zh/materials/yearning-delusions /zh/materials/yearning-delusions/ 301
 /zh/multiplayer /zh/multiplayer/ 301
+/zh/porsche-collab /zh/porsche-collab/ 301
 /zh/privacy-policy /zh/privacy-policy/ 301
 /zh/redeem-codes /zh/redeem-codes/ 301
 /zh/sitemap /zh/sitemap/ 301
@@ -9260,10 +9335,12 @@
 /zh/tags/version /zh/tags/version/ 301
 /zh/tags/voice-actors /zh/tags/voice-actors/ 301
 /zh/tags/wait /zh/tags/wait/ 301
+/zh/tags/walkthrough /zh/tags/walkthrough/ 301
 /zh/tags/weakness /zh/tags/weakness/ 301
 /zh/tags/weapon /zh/tags/weapon/ 301
 /zh/tags/weapons /zh/tags/weapons/ 301
 /zh/tags/weekly /zh/tags/weekly/ 301
+/zh/tags/where is home /zh/tags/where is home/ 301
 /zh/tags/white-screen /zh/tags/white-screen/ 301
 /zh/tags/whose-leak /zh/tags/whose-leak/ 301
 /zh/tags/wish /zh/tags/wish/ 301
@@ -9274,9 +9351,11 @@
 /zh/tags/zenless-zone-zero /zh/tags/zenless-zone-zero/ 301
 /zh/tags/zzz /zh/tags/zzz/ 301
 /zh/tags/下载 /zh/tags/下载/ 301
+/zh/tags/主线 /zh/tags/主线/ 301
 /zh/tags/九原 /zh/tags/九原/ 301
 /zh/tags/买房 /zh/tags/买房/ 301
 /zh/tags/交易 /zh/tags/交易/ 301
+/zh/tags/任务 /zh/tags/任务/ 301
 /zh/tags/优先级 /zh/tags/优先级/ 301
 /zh/tags/优化 /zh/tags/优化/ 301
 /zh/tags/伤害 /zh/tags/伤害/ 301
@@ -9415,6 +9494,7 @@
 /zh/vehicles/rover-a1 /zh/vehicles/rover-a1/ 301
 /zh/vehicles/st79 /zh/vehicles/st79/ 301
 /zh/vehicles/tomorrow-rush /zh/vehicles/tomorrow-rush/ 301
+/zh/vehicles/wave-rider /zh/vehicles/wave-rider/ 301
 /zh/voice-actors /zh/voice-actors/ 301
 /zh/weapons /zh/weapons/ 301
 /zh/weapons/a-time-will-come /zh/weapons/a-time-will-come/ 301
