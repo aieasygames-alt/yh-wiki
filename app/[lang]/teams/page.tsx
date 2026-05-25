@@ -104,6 +104,9 @@ export default async function TeamsPage({
               <div className="flex items-center gap-3 mb-4">
                 {char.image && (
                   <GameImage
+                    type="character"
+                    id={char.id}
+                    name={charName(char, locale)}
                     src={char.image}
                     alt={charName(char, locale)}
                     width={40}
@@ -117,7 +120,7 @@ export default async function TeamsPage({
                 >
                   {charName(char, locale)}
                 </Link>
-                {char.tierRank && <TierBadge rank={char.tierRank} />}
+                {char.tierRank && <TierBadge rank={char.tierRank} locale={locale} />}
                 <span className="text-xs px-1.5 py-0.5 rounded bg-gray-800 text-gray-400">
                   {char.rank}
                 </span>
@@ -154,6 +157,9 @@ export default async function TeamsPage({
                           >
                             {m!.image && (
                               <GameImage
+                                type="character"
+                                id={m!.id}
+                                name={charName(m!, locale)}
                                 src={m!.image}
                                 alt={charName(m!, locale)}
                                 width={24}
