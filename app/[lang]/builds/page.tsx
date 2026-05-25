@@ -96,7 +96,7 @@ export default async function BuildsPage({
                         <span className="text-xs px-1.5 py-0.5 rounded bg-gray-800 text-gray-400">
                           {c.rank}
                         </span>
-                        {c.tierRank && <TierBadge rank={c.tierRank} />}
+                        {c.tierRank && <TierBadge rank={c.tierRank} locale={locale} />}
                       </div>
                       <p className="text-xs text-gray-500">
                         {zh ? c.role : c.roleEn}
