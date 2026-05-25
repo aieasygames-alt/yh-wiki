@@ -88,6 +88,11 @@ export interface Character {
   skills?: Skills;
   recommendedBuild?: RecommendedBuild;
   teamComps?: TeamComp[];
+  rotation?: {
+    steps: Array<{ character: string; action: string; actionEn: string; trigger?: string; triggerEn?: string }>;
+    tips?: string;
+    tipsEn?: string;
+  };
   arcType?: string;
   trait?: string;
   signatureArc?: string;
