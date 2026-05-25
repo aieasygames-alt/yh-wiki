@@ -78,6 +78,9 @@ export default async function BuildsPage({
                   <div className="flex items-center gap-3 mb-3">
                     {c.image && (
                       <GameImage
+                        type="character"
+                        id={c.id}
+                        name={zh ? c.name : c.nameEn}
                         src={c.image}
                         alt={zh ? c.name : c.nameEn}
                         width={48}

@@ -47,6 +47,9 @@ export function RotationGuide({ steps, tips, tipsEn, locale, lang }: RotationGui
                     <div className="flex items-center gap-1.5">
                       {char.image && (
                         <GameImage
+                          type="character"
+                          id={char.id}
+                          name={charName(char, locale)}
                           src={char.image}
                           alt={charName(char, locale)}
                           width={24}
