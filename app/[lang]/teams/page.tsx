@@ -61,7 +61,7 @@ export default async function TeamsPage({
     .filter((c) => c.teamComps && c.teamComps.length > 0)
     .sort((a, b) => {
       const tierOrder: Record<string, number> = { SS: 0, "S+": 1, S: 2, "A+": 3, A: 4, "B+": 5, B: 6 };
-      return (tierOrder[a.tierRank] ?? 99) - (tierOrder[b.tierRank] ?? 99);
+      return (tierOrder[a.tierRank ?? ""] ?? 99) - (tierOrder[b.tierRank ?? ""] ?? 99);
     });
 
   const title = zh
