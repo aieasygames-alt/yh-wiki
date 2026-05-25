@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { t, isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../lib/i18n";
-import { getGuide, getCharacter, getLocation, getLoreItem, getAvailableCharacters } from "../../../lib/queries";
+import { getGuide, getCharacter, getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";

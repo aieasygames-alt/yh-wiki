@@ -30,7 +30,7 @@ export default async function BuildsPage({
   const title = zh
     ? "异环全角色最佳Build推荐"
     : "Best Builds for All NTE Characters";
-  const summary = zh
+  const description = zh
     ? "一页查看所有异环角色的最佳武器（弧盘）、卡带套装、主词条与副词条优先级推荐。"
     : "View the best Arcs (weapons), Cartridge sets, main stats, and sub-stat priorities for every NTE character in one page.";
 
@@ -55,7 +55,7 @@ export default async function BuildsPage({
             locale={locale}
             items={[
               { label: zh ? "角色数量" : "Characters", value: `${characters.filter(c => c.recommendedBuild).length}` },
-              { label: zh ? "查看详情" : "Details", value: zh ? "点击角色卡片查看完整Build" : "Click a character card for full build details" },
+              { label: zh ? "查看详情" : "Details", value: zh ? "点击角色卡片查看完整Build" : description },
             ]}
           />
         </div>
