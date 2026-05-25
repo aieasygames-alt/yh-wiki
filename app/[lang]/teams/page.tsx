@@ -131,7 +131,7 @@ export default async function TeamsPage({
 
               {/* Team Comps */}
               <div className="space-y-3">
-                {char.teamComps.map((comp, idx) => {
+                {char.teamComps!.map((comp, idx) => {
                   const members = comp.members
                     .map((id) => getCharacter(id))
                     .filter(Boolean);
