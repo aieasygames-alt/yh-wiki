@@ -204,7 +204,38 @@
     "cvJpEn": "Ayana Taketatsu",
     "cvEn": "Brittany Lauda",
     "arcType": "plasma",
-    "signatureArc": "ready-ready"
+    "signatureArc": "ready-ready",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "战技聚怪",
+          "actionEn": "Skill to group enemies"
+        },
+        {
+          "character": "zero-male",
+          "action": "切出触发反应",
+          "actionEn": "Switch out to trigger reaction"
+        },
+        {
+          "character": "nanally",
+          "action": "站场爆发输出",
+          "actionEn": "On-field burst DPS"
+        },
+        {
+          "character": "zero-male",
+          "action": "战技充能",
+          "actionEn": "Use skill for meter"
+        },
+        {
+          "character": "hathor",
+          "action": "速切爆发",
+          "actionEn": "Quick-swap burst"
+        }
+      ],
+      "tips": "先Sakiri聚怪，通过Zero循环触发Blossom和Remora，切Nanally站场输出。Charge反应可加速Nanally大招充能。",
+      "tipsEn": "Open with Sakiri grouping, cycle through Zero for Blossom and Remora triggers, then Nanally sustained DPS. Charge reaction speeds up Nanally's Ultimate."
+    }
   },
   {
     "id": "sakiri",
@@ -373,7 +404,33 @@
     "cvJpEn": "Miku Ito",
     "cvEn": "Brianna Knickerbocker",
     "arcType": "gas",
-    "signatureArc": ""
+    "signatureArc": "",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "长按战技聚怪",
+          "actionEn": "Hold skill to group enemies"
+        },
+        {
+          "character": "sakiri",
+          "action": "释放提供30% ATK Buff",
+          "actionEn": "Release for 30% Team ATK buff"
+        },
+        {
+          "character": "zero-male",
+          "action": "切出触发反应",
+          "actionEn": "Switch to trigger reactions"
+        },
+        {
+          "character": "nanally",
+          "action": "站场输出",
+          "actionEn": "On-field DPS"
+        }
+      ],
+      "tips": "Sakiri是最通用的辅助，聚怪+30%全队ATK Buff（1觉再+30%）。先手聚怪后切其他角色输出。",
+      "tipsEn": "Sakiri is the most versatile support: grouping + 30% Team ATK buff (Awakening 1 adds another 30%). Open with grouping, then swap to DPS."
+    }
   },
   {
     "id": "fadia",
@@ -581,7 +638,33 @@
     "cvEn": "Amber Lee Connors",
     "trait": "投身损耗的迷狂",
     "arcType": "synthesis",
-    "signatureArc": "eternal-waltz"
+    "signatureArc": "eternal-waltz",
+    "rotation": {
+      "steps": [
+        {
+          "character": "fadia",
+          "action": "战技开启伤害分摊",
+          "actionEn": "Skill: activate damage share"
+        },
+        {
+          "character": "sakiri",
+          "action": "聚怪+Buff",
+          "actionEn": "Group + buff"
+        },
+        {
+          "character": "zero-male",
+          "action": "触发反应",
+          "actionEn": "Trigger reactions"
+        },
+        {
+          "character": "fadia",
+          "action": "站场输出",
+          "actionEn": "On-field DPS"
+        }
+      ],
+      "tips": "Fadia的伤害分摊机制防止队友被秒杀，但自身没有治疗/护盾。需要搭配生存型队友。",
+      "tipsEn": "Fadia's damage share mechanic prevents burst deaths, but she lacks healing/shields. Pair with survivability-focused teammates."
+    }
   },
   {
     "id": "lacrimosa",
@@ -1019,7 +1102,38 @@
     "cvEn": "Griffin Burns",
     "trait": "言灵使",
     "arcType": "synthesis",
-    "signatureArc": "camellia-society"
+    "signatureArc": "camellia-society",
+    "rotation": {
+      "steps": [
+        {
+          "character": "baicang",
+          "action": "战技起手",
+          "actionEn": "Open with skill"
+        },
+        {
+          "character": "daffodil",
+          "action": "切入触发Scorch",
+          "actionEn": "Switch in to trigger Scorch"
+        },
+        {
+          "character": "daffodil",
+          "action": "持续输出减Break",
+          "actionEn": "Sustained damage to reduce Break"
+        },
+        {
+          "character": "haniel",
+          "action": "切出上ATK Buff",
+          "actionEn": "Switch for ATK buff"
+        },
+        {
+          "character": "daffodil",
+          "action": "触发Discord破甲",
+          "actionEn": "Trigger Discord for Break"
+        }
+      ],
+      "tips": "Baicang与Daffodil组成Boss特化队，Scorch+Nova叠加触发Discord大幅削减Break条。Haniel提供ATK Buff提升整体输出。",
+      "tipsEn": "Baicang and Daffodill form a boss-specialized team. Scorch + Nova combo triggers Discord for massive Break gauge reduction. Haniel provides ATK buffs."
+    }
   },
   {
     "id": "zero-male",
@@ -1797,7 +1911,38 @@
     "cvJpEn": "Sayaka Ohara",
     "cvEn": "Natalie Van Sistine",
     "arcType": "liquid",
-    "signatureArc": "youthful-fantasy"
+    "signatureArc": "youthful-fantasy",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "先手聚怪+Buff",
+          "actionEn": "Open with grouping + buff"
+        },
+        {
+          "character": "baicang",
+          "action": "战技起手",
+          "actionEn": "Skill opener"
+        },
+        {
+          "character": "daffodil",
+          "action": "切入触发Scorch",
+          "actionEn": "Switch in for Scorch"
+        },
+        {
+          "character": "haniel",
+          "action": "Buff+触发Nova",
+          "actionEn": "Buff + trigger Nova"
+        },
+        {
+          "character": "daffodil",
+          "action": "触发Discord破Break",
+          "actionEn": "Trigger Discord for Break"
+        }
+      ],
+      "tips": "Daffodill专精Boss Break，Scorch+Discord组合快速削减Break条。适合高难度Boss战。",
+      "tipsEn": "Daffodill specializes in Boss Break damage. Scorch + Discord combo rapidly depletes Break gauge. Ideal for challenging boss fights."
+    }
   },
   {
     "id": "jiuyuan",
@@ -1951,7 +2096,33 @@
     "cvJpEn": "Rie Tanaka",
     "cvEn": "Baraka May",
     "arcType": "solid",
-    "signatureArc": "reality-refuge"
+    "signatureArc": "reality-refuge",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "先手聚怪",
+          "actionEn": "Open with grouping"
+        },
+        {
+          "character": "zero-male",
+          "action": "触发Blossom",
+          "actionEn": "Trigger Blossom"
+        },
+        {
+          "character": "jiuyuan",
+          "action": "大招Final Reckoning",
+          "actionEn": "Ultimate: Final Reckoning"
+        },
+        {
+          "character": "hathor",
+          "action": "速切爆发",
+          "actionEn": "Quick-swap burst"
+        }
+      ],
+      "tips": "Jiuyuan的核心是Final Reckoning大招，通过Blossom反应触发Charge加速大招充能。搭配Pact Settlement最大化伤害。",
+      "tipsEn": "Jiuyuan's core is Final Reckoning ultimate. Use Blossom reactions to trigger Charge for faster ultimate charging. Pair with Pact Settlement for maximum damage."
+    }
   },
   {
     "id": "haniel",
@@ -2846,7 +3017,33 @@
     "cvJpEn": "Akari Kito",
     "cvEn": "Brianna Knickerbocker",
     "arcType": "liquid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "rotation": {
+      "steps": [
+        {
+          "character": "mint",
+          "action": "战技输出",
+          "actionEn": "Skill DPS"
+        },
+        {
+          "character": "zero-male",
+          "action": "触发Blossom",
+          "actionEn": "Trigger Blossom"
+        },
+        {
+          "character": "mint",
+          "action": "普攻追击",
+          "actionEn": "Normal attack follow-up"
+        },
+        {
+          "character": "adler",
+          "action": "切出护盾",
+          "actionEn": "Switch for shield"
+        }
+      ],
+      "tips": "薄荷是优秀的免费主C，Blossom反应可增大花瓣追踪范围。搭配Esper Zero循环触发反应。",
+      "tipsEn": "Mint is an excellent free main DPS. Blossom reaction expands petal tracking range. Pair with Esper Zero for reaction cycling."
+    }
   },
   {
     "id": "nelly",
@@ -3737,7 +3934,38 @@
     "cvJpEn": "Kana Ichinose",
     "cvEn": "Allegra Clark",
     "arcType": "plasma",
-    "signatureArc": "raging-flames"
+    "signatureArc": "raging-flames",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "战技聚怪",
+          "actionEn": "Skill to group enemies"
+        },
+        {
+          "character": "hathor",
+          "action": "充能技能叠加层数",
+          "actionEn": "Charge skill to build stacks"
+        },
+        {
+          "character": "jiuyuan",
+          "action": "战技输出",
+          "actionEn": "Skill for DPS"
+        },
+        {
+          "character": "hathor",
+          "action": "大招爆发",
+          "actionEn": "Ultimate burst"
+        },
+        {
+          "character": "zero-male",
+          "action": "循环填充",
+          "actionEn": "Cycle filler"
+        }
+      ],
+      "tips": "Hathor需要叠加技能层数后释放大招，Sakiri先手聚怪让Hathor的AoE最大化。Jiuyuan作为副C补充输出。",
+      "tipsEn": "Hathor needs to build stacks before unleashing Ultimate. Sakiri groups enemies first to maximize Hathor's AoE. Jiuyuan covers as sub-DPS."
+    }
   },
   {
     "id": "chiz",

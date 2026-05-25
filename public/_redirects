@@ -434,6 +434,7 @@
 /en/blog/nte-week-one-recap /en/blog/nte-week-one-recap/ 301
 /en/blog/nte-zero-build-guide /en/blog/nte-zero-build-guide/ 301
 /en/bosses /en/bosses/ 301
+/en/builds /en/builds/ 301
 /en/calculator/build /en/calculator/build/ 301
 /en/calculator/disk-score /en/calculator/disk-score/ 301
 /en/calculator/dps /en/calculator/dps/ 301
@@ -1045,13 +1046,13 @@
 /en/tags/easter-eggs /en/tags/easter-eggs/ 301
 /en/tags/economy /en/tags/economy/ 301
 /en/tags/efficiency /en/tags/efficiency/ 301
-/en/tags/element /en/tags/element/ 301
 /en/tags/elements /en/tags/elements/ 301
 /en/tags/endgame /en/tags/endgame/ 301
 /en/tags/engine /en/tags/engine/ 301
 /en/tags/enhancement /en/tags/enhancement/ 301
 /en/tags/equipment /en/tags/equipment/ 301
 /en/tags/esper /en/tags/esper/ 301
+/en/tags/esper cycle /en/tags/esper cycle/ 301
 /en/tags/event /en/tags/event/ 301
 /en/tags/exchange /en/tags/exchange/ 301
 /en/tags/exploration /en/tags/exploration/ 301
@@ -1257,6 +1258,7 @@
 /en/tags/t1 /en/tags/t1/ 301
 /en/tags/talent /en/tags/talent/ 301
 /en/tags/team /en/tags/team/ 301
+/en/tags/team building /en/tags/team building/ 301
 /en/tags/team-building /en/tags/team-building/ 301
 /en/tags/team-comp /en/tags/team-comp/ 301
 /en/tags/technical /en/tags/technical/ 301
@@ -1313,7 +1315,7 @@
 /en/tags/保底 /en/tags/保底/ 301
 /en/tags/信用点 /en/tags/信用点/ 301
 /en/tags/值得玩吗 /en/tags/值得玩吗/ 301
-/en/tags/元素 /en/tags/元素/ 301
+/en/tags/元素反应 /en/tags/元素反应/ 301
 /en/tags/克制 /en/tags/克制/ 301
 /en/tags/免费 /en/tags/免费/ 301
 /en/tags/兑换 /en/tags/兑换/ 301
@@ -1339,8 +1341,10 @@
 /en/tags/宝箱 /en/tags/宝箱/ 301
 /en/tags/小吱 /en/tags/小吱/ 301
 /en/tags/属性 /en/tags/属性/ 301
+/en/tags/常见错误 /en/tags/常见错误/ 301
 /en/tags/平台 /en/tags/平台/ 301
 /en/tags/开荒 /en/tags/开荒/ 301
+/en/tags/异能循环 /en/tags/异能循环/ 301
 /en/tags/异象 /en/tags/异象/ 301
 /en/tags/弧盘 /en/tags/弧盘/ 301
 /en/tags/强化 /en/tags/强化/ 301
@@ -1395,6 +1399,7 @@
 /en/tags/装修 /en/tags/装修/ 301
 /en/tags/装备 /en/tags/装备/ 301
 /en/tags/觉醒 /en/tags/觉醒/ 301
+/en/tags/角色培养 /en/tags/角色培养/ 301
 /en/tags/角色排名 /en/tags/角色排名/ 301
 /en/tags/角色排行 /en/tags/角色排行/ 301
 /en/tags/角色攻略 /en/tags/角色攻略/ 301
@@ -1402,6 +1407,7 @@
 /en/tags/评测 /en/tags/评测/ 301
 /en/tags/货币 /en/tags/货币/ 301
 /en/tags/资源 /en/tags/资源/ 301
+/en/tags/资源规划 /en/tags/资源规划/ 301
 /en/tags/赚钱 /en/tags/赚钱/ 301
 /en/tags/赛车 /en/tags/赛车/ 301
 /en/tags/路线 /en/tags/路线/ 301
@@ -1411,11 +1417,9 @@
 /en/tags/输出 /en/tags/输出/ 301
 /en/tags/进攻 /en/tags/进攻/ 301
 /en/tags/选择 /en/tags/选择/ 301
-/en/tags/避坑 /en/tags/避坑/ 301
 /en/tags/都市大亨 /en/tags/都市大亨/ 301
 /en/tags/配置 /en/tags/配置/ 301
 /en/tags/配队 /en/tags/配队/ 301
-/en/tags/错误 /en/tags/错误/ 301
 /en/tags/队伍 /en/tags/队伍/ 301
 /en/tags/防护 /en/tags/防护/ 301
 /en/tags/阵容 /en/tags/阵容/ 301
@@ -1584,6 +1588,7 @@
 /id/blog/nte-week-one-recap /id/blog/nte-week-one-recap/ 301
 /id/blog/nte-zero-build-guide /id/blog/nte-zero-build-guide/ 301
 /id/bosses /id/bosses/ 301
+/id/builds /id/builds/ 301
 /id/calculator/build /id/calculator/build/ 301
 /id/calculator/disk-score /id/calculator/disk-score/ 301
 /id/calculator/dps /id/calculator/dps/ 301
@@ -2195,13 +2200,13 @@
 /id/tags/easter-eggs /id/tags/easter-eggs/ 301
 /id/tags/economy /id/tags/economy/ 301
 /id/tags/efficiency /id/tags/efficiency/ 301
-/id/tags/element /id/tags/element/ 301
 /id/tags/elements /id/tags/elements/ 301
 /id/tags/endgame /id/tags/endgame/ 301
 /id/tags/engine /id/tags/engine/ 301
 /id/tags/enhancement /id/tags/enhancement/ 301
 /id/tags/equipment /id/tags/equipment/ 301
 /id/tags/esper /id/tags/esper/ 301
+/id/tags/esper cycle /id/tags/esper cycle/ 301
 /id/tags/event /id/tags/event/ 301
 /id/tags/exchange /id/tags/exchange/ 301
 /id/tags/exploration /id/tags/exploration/ 301
@@ -2407,6 +2412,7 @@
 /id/tags/t1 /id/tags/t1/ 301
 /id/tags/talent /id/tags/talent/ 301
 /id/tags/team /id/tags/team/ 301
+/id/tags/team building /id/tags/team building/ 301
 /id/tags/team-building /id/tags/team-building/ 301
 /id/tags/team-comp /id/tags/team-comp/ 301
 /id/tags/technical /id/tags/technical/ 301
@@ -2463,7 +2469,7 @@
 /id/tags/保底 /id/tags/保底/ 301
 /id/tags/信用点 /id/tags/信用点/ 301
 /id/tags/值得玩吗 /id/tags/值得玩吗/ 301
-/id/tags/元素 /id/tags/元素/ 301
+/id/tags/元素反应 /id/tags/元素反应/ 301
 /id/tags/克制 /id/tags/克制/ 301
 /id/tags/免费 /id/tags/免费/ 301
 /id/tags/兑换 /id/tags/兑换/ 301
@@ -2489,8 +2495,10 @@
 /id/tags/宝箱 /id/tags/宝箱/ 301
 /id/tags/小吱 /id/tags/小吱/ 301
 /id/tags/属性 /id/tags/属性/ 301
+/id/tags/常见错误 /id/tags/常见错误/ 301
 /id/tags/平台 /id/tags/平台/ 301
 /id/tags/开荒 /id/tags/开荒/ 301
+/id/tags/异能循环 /id/tags/异能循环/ 301
 /id/tags/异象 /id/tags/异象/ 301
 /id/tags/弧盘 /id/tags/弧盘/ 301
 /id/tags/强化 /id/tags/强化/ 301
@@ -2545,6 +2553,7 @@
 /id/tags/装修 /id/tags/装修/ 301
 /id/tags/装备 /id/tags/装备/ 301
 /id/tags/觉醒 /id/tags/觉醒/ 301
+/id/tags/角色培养 /id/tags/角色培养/ 301
 /id/tags/角色排名 /id/tags/角色排名/ 301
 /id/tags/角色排行 /id/tags/角色排行/ 301
 /id/tags/角色攻略 /id/tags/角色攻略/ 301
@@ -2552,6 +2561,7 @@
 /id/tags/评测 /id/tags/评测/ 301
 /id/tags/货币 /id/tags/货币/ 301
 /id/tags/资源 /id/tags/资源/ 301
+/id/tags/资源规划 /id/tags/资源规划/ 301
 /id/tags/赚钱 /id/tags/赚钱/ 301
 /id/tags/赛车 /id/tags/赛车/ 301
 /id/tags/路线 /id/tags/路线/ 301
@@ -2561,11 +2571,9 @@
 /id/tags/输出 /id/tags/输出/ 301
 /id/tags/进攻 /id/tags/进攻/ 301
 /id/tags/选择 /id/tags/选择/ 301
-/id/tags/避坑 /id/tags/避坑/ 301
 /id/tags/都市大亨 /id/tags/都市大亨/ 301
 /id/tags/配置 /id/tags/配置/ 301
 /id/tags/配队 /id/tags/配队/ 301
-/id/tags/错误 /id/tags/错误/ 301
 /id/tags/队伍 /id/tags/队伍/ 301
 /id/tags/防护 /id/tags/防护/ 301
 /id/tags/阵容 /id/tags/阵容/ 301
@@ -2734,6 +2742,7 @@
 /ja/blog/nte-week-one-recap /ja/blog/nte-week-one-recap/ 301
 /ja/blog/nte-zero-build-guide /ja/blog/nte-zero-build-guide/ 301
 /ja/bosses /ja/bosses/ 301
+/ja/builds /ja/builds/ 301
 /ja/calculator/build /ja/calculator/build/ 301
 /ja/calculator/disk-score /ja/calculator/disk-score/ 301
 /ja/calculator/dps /ja/calculator/dps/ 301
@@ -3345,13 +3354,13 @@
 /ja/tags/easter-eggs /ja/tags/easter-eggs/ 301
 /ja/tags/economy /ja/tags/economy/ 301
 /ja/tags/efficiency /ja/tags/efficiency/ 301
-/ja/tags/element /ja/tags/element/ 301
 /ja/tags/elements /ja/tags/elements/ 301
 /ja/tags/endgame /ja/tags/endgame/ 301
 /ja/tags/engine /ja/tags/engine/ 301
 /ja/tags/enhancement /ja/tags/enhancement/ 301
 /ja/tags/equipment /ja/tags/equipment/ 301
 /ja/tags/esper /ja/tags/esper/ 301
+/ja/tags/esper cycle /ja/tags/esper cycle/ 301
 /ja/tags/event /ja/tags/event/ 301
 /ja/tags/exchange /ja/tags/exchange/ 301
 /ja/tags/exploration /ja/tags/exploration/ 301
@@ -3557,6 +3566,7 @@
 /ja/tags/t1 /ja/tags/t1/ 301
 /ja/tags/talent /ja/tags/talent/ 301
 /ja/tags/team /ja/tags/team/ 301
+/ja/tags/team building /ja/tags/team building/ 301
 /ja/tags/team-building /ja/tags/team-building/ 301
 /ja/tags/team-comp /ja/tags/team-comp/ 301
 /ja/tags/technical /ja/tags/technical/ 301
@@ -3613,7 +3623,7 @@
 /ja/tags/保底 /ja/tags/保底/ 301
 /ja/tags/信用点 /ja/tags/信用点/ 301
 /ja/tags/值得玩吗 /ja/tags/值得玩吗/ 301
-/ja/tags/元素 /ja/tags/元素/ 301
+/ja/tags/元素反应 /ja/tags/元素反应/ 301
 /ja/tags/克制 /ja/tags/克制/ 301
 /ja/tags/免费 /ja/tags/免费/ 301
 /ja/tags/兑换 /ja/tags/兑换/ 301
@@ -3639,8 +3649,10 @@
 /ja/tags/宝箱 /ja/tags/宝箱/ 301
 /ja/tags/小吱 /ja/tags/小吱/ 301
 /ja/tags/属性 /ja/tags/属性/ 301
+/ja/tags/常见错误 /ja/tags/常见错误/ 301
 /ja/tags/平台 /ja/tags/平台/ 301
 /ja/tags/开荒 /ja/tags/开荒/ 301
+/ja/tags/异能循环 /ja/tags/异能循环/ 301
 /ja/tags/异象 /ja/tags/异象/ 301
 /ja/tags/弧盘 /ja/tags/弧盘/ 301
 /ja/tags/强化 /ja/tags/强化/ 301
@@ -3695,6 +3707,7 @@
 /ja/tags/装修 /ja/tags/装修/ 301
 /ja/tags/装备 /ja/tags/装备/ 301
 /ja/tags/觉醒 /ja/tags/觉醒/ 301
+/ja/tags/角色培养 /ja/tags/角色培养/ 301
 /ja/tags/角色排名 /ja/tags/角色排名/ 301
 /ja/tags/角色排行 /ja/tags/角色排行/ 301
 /ja/tags/角色攻略 /ja/tags/角色攻略/ 301
@@ -3702,6 +3715,7 @@
 /ja/tags/评测 /ja/tags/评测/ 301
 /ja/tags/货币 /ja/tags/货币/ 301
 /ja/tags/资源 /ja/tags/资源/ 301
+/ja/tags/资源规划 /ja/tags/资源规划/ 301
 /ja/tags/赚钱 /ja/tags/赚钱/ 301
 /ja/tags/赛车 /ja/tags/赛车/ 301
 /ja/tags/路线 /ja/tags/路线/ 301
@@ -3711,11 +3725,9 @@
 /ja/tags/输出 /ja/tags/输出/ 301
 /ja/tags/进攻 /ja/tags/进攻/ 301
 /ja/tags/选择 /ja/tags/选择/ 301
-/ja/tags/避坑 /ja/tags/避坑/ 301
 /ja/tags/都市大亨 /ja/tags/都市大亨/ 301
 /ja/tags/配置 /ja/tags/配置/ 301
 /ja/tags/配队 /ja/tags/配队/ 301
-/ja/tags/错误 /ja/tags/错误/ 301
 /ja/tags/队伍 /ja/tags/队伍/ 301
 /ja/tags/防护 /ja/tags/防护/ 301
 /ja/tags/阵容 /ja/tags/阵容/ 301
@@ -3884,6 +3896,7 @@
 /ko/blog/nte-week-one-recap /ko/blog/nte-week-one-recap/ 301
 /ko/blog/nte-zero-build-guide /ko/blog/nte-zero-build-guide/ 301
 /ko/bosses /ko/bosses/ 301
+/ko/builds /ko/builds/ 301
 /ko/calculator/build /ko/calculator/build/ 301
 /ko/calculator/disk-score /ko/calculator/disk-score/ 301
 /ko/calculator/dps /ko/calculator/dps/ 301
@@ -4495,13 +4508,13 @@
 /ko/tags/easter-eggs /ko/tags/easter-eggs/ 301
 /ko/tags/economy /ko/tags/economy/ 301
 /ko/tags/efficiency /ko/tags/efficiency/ 301
-/ko/tags/element /ko/tags/element/ 301
 /ko/tags/elements /ko/tags/elements/ 301
 /ko/tags/endgame /ko/tags/endgame/ 301
 /ko/tags/engine /ko/tags/engine/ 301
 /ko/tags/enhancement /ko/tags/enhancement/ 301
 /ko/tags/equipment /ko/tags/equipment/ 301
 /ko/tags/esper /ko/tags/esper/ 301
+/ko/tags/esper cycle /ko/tags/esper cycle/ 301
 /ko/tags/event /ko/tags/event/ 301
 /ko/tags/exchange /ko/tags/exchange/ 301
 /ko/tags/exploration /ko/tags/exploration/ 301
@@ -4707,6 +4720,7 @@
 /ko/tags/t1 /ko/tags/t1/ 301
 /ko/tags/talent /ko/tags/talent/ 301
 /ko/tags/team /ko/tags/team/ 301
+/ko/tags/team building /ko/tags/team building/ 301
 /ko/tags/team-building /ko/tags/team-building/ 301
 /ko/tags/team-comp /ko/tags/team-comp/ 301
 /ko/tags/technical /ko/tags/technical/ 301
@@ -4763,7 +4777,7 @@
 /ko/tags/保底 /ko/tags/保底/ 301
 /ko/tags/信用点 /ko/tags/信用点/ 301
 /ko/tags/值得玩吗 /ko/tags/值得玩吗/ 301
-/ko/tags/元素 /ko/tags/元素/ 301
+/ko/tags/元素反应 /ko/tags/元素反应/ 301
 /ko/tags/克制 /ko/tags/克制/ 301
 /ko/tags/免费 /ko/tags/免费/ 301
 /ko/tags/兑换 /ko/tags/兑换/ 301
@@ -4789,8 +4803,10 @@
 /ko/tags/宝箱 /ko/tags/宝箱/ 301
 /ko/tags/小吱 /ko/tags/小吱/ 301
 /ko/tags/属性 /ko/tags/属性/ 301
+/ko/tags/常见错误 /ko/tags/常见错误/ 301
 /ko/tags/平台 /ko/tags/平台/ 301
 /ko/tags/开荒 /ko/tags/开荒/ 301
+/ko/tags/异能循环 /ko/tags/异能循环/ 301
 /ko/tags/异象 /ko/tags/异象/ 301
 /ko/tags/弧盘 /ko/tags/弧盘/ 301
 /ko/tags/强化 /ko/tags/强化/ 301
@@ -4845,6 +4861,7 @@
 /ko/tags/装修 /ko/tags/装修/ 301
 /ko/tags/装备 /ko/tags/装备/ 301
 /ko/tags/觉醒 /ko/tags/觉醒/ 301
+/ko/tags/角色培养 /ko/tags/角色培养/ 301
 /ko/tags/角色排名 /ko/tags/角色排名/ 301
 /ko/tags/角色排行 /ko/tags/角色排行/ 301
 /ko/tags/角色攻略 /ko/tags/角色攻略/ 301
@@ -4852,6 +4869,7 @@
 /ko/tags/评测 /ko/tags/评测/ 301
 /ko/tags/货币 /ko/tags/货币/ 301
 /ko/tags/资源 /ko/tags/资源/ 301
+/ko/tags/资源规划 /ko/tags/资源规划/ 301
 /ko/tags/赚钱 /ko/tags/赚钱/ 301
 /ko/tags/赛车 /ko/tags/赛车/ 301
 /ko/tags/路线 /ko/tags/路线/ 301
@@ -4861,11 +4879,9 @@
 /ko/tags/输出 /ko/tags/输出/ 301
 /ko/tags/进攻 /ko/tags/进攻/ 301
 /ko/tags/选择 /ko/tags/选择/ 301
-/ko/tags/避坑 /ko/tags/避坑/ 301
 /ko/tags/都市大亨 /ko/tags/都市大亨/ 301
 /ko/tags/配置 /ko/tags/配置/ 301
 /ko/tags/配队 /ko/tags/配队/ 301
-/ko/tags/错误 /ko/tags/错误/ 301
 /ko/tags/队伍 /ko/tags/队伍/ 301
 /ko/tags/防护 /ko/tags/防护/ 301
 /ko/tags/阵容 /ko/tags/阵容/ 301
@@ -5034,6 +5050,7 @@
 /th/blog/nte-week-one-recap /th/blog/nte-week-one-recap/ 301
 /th/blog/nte-zero-build-guide /th/blog/nte-zero-build-guide/ 301
 /th/bosses /th/bosses/ 301
+/th/builds /th/builds/ 301
 /th/calculator/build /th/calculator/build/ 301
 /th/calculator/disk-score /th/calculator/disk-score/ 301
 /th/calculator/dps /th/calculator/dps/ 301
@@ -5645,13 +5662,13 @@
 /th/tags/easter-eggs /th/tags/easter-eggs/ 301
 /th/tags/economy /th/tags/economy/ 301
 /th/tags/efficiency /th/tags/efficiency/ 301
-/th/tags/element /th/tags/element/ 301
 /th/tags/elements /th/tags/elements/ 301
 /th/tags/endgame /th/tags/endgame/ 301
 /th/tags/engine /th/tags/engine/ 301
 /th/tags/enhancement /th/tags/enhancement/ 301
 /th/tags/equipment /th/tags/equipment/ 301
 /th/tags/esper /th/tags/esper/ 301
+/th/tags/esper cycle /th/tags/esper cycle/ 301
 /th/tags/event /th/tags/event/ 301
 /th/tags/exchange /th/tags/exchange/ 301
 /th/tags/exploration /th/tags/exploration/ 301
@@ -5857,6 +5874,7 @@
 /th/tags/t1 /th/tags/t1/ 301
 /th/tags/talent /th/tags/talent/ 301
 /th/tags/team /th/tags/team/ 301
+/th/tags/team building /th/tags/team building/ 301
 /th/tags/team-building /th/tags/team-building/ 301
 /th/tags/team-comp /th/tags/team-comp/ 301
 /th/tags/technical /th/tags/technical/ 301
@@ -5913,7 +5931,7 @@
 /th/tags/保底 /th/tags/保底/ 301
 /th/tags/信用点 /th/tags/信用点/ 301
 /th/tags/值得玩吗 /th/tags/值得玩吗/ 301
-/th/tags/元素 /th/tags/元素/ 301
+/th/tags/元素反应 /th/tags/元素反应/ 301
 /th/tags/克制 /th/tags/克制/ 301
 /th/tags/免费 /th/tags/免费/ 301
 /th/tags/兑换 /th/tags/兑换/ 301
@@ -5939,8 +5957,10 @@
 /th/tags/宝箱 /th/tags/宝箱/ 301
 /th/tags/小吱 /th/tags/小吱/ 301
 /th/tags/属性 /th/tags/属性/ 301
+/th/tags/常见错误 /th/tags/常见错误/ 301
 /th/tags/平台 /th/tags/平台/ 301
 /th/tags/开荒 /th/tags/开荒/ 301
+/th/tags/异能循环 /th/tags/异能循环/ 301
 /th/tags/异象 /th/tags/异象/ 301
 /th/tags/弧盘 /th/tags/弧盘/ 301
 /th/tags/强化 /th/tags/强化/ 301
@@ -5995,6 +6015,7 @@
 /th/tags/装修 /th/tags/装修/ 301
 /th/tags/装备 /th/tags/装备/ 301
 /th/tags/觉醒 /th/tags/觉醒/ 301
+/th/tags/角色培养 /th/tags/角色培养/ 301
 /th/tags/角色排名 /th/tags/角色排名/ 301
 /th/tags/角色排行 /th/tags/角色排行/ 301
 /th/tags/角色攻略 /th/tags/角色攻略/ 301
@@ -6002,6 +6023,7 @@
 /th/tags/评测 /th/tags/评测/ 301
 /th/tags/货币 /th/tags/货币/ 301
 /th/tags/资源 /th/tags/资源/ 301
+/th/tags/资源规划 /th/tags/资源规划/ 301
 /th/tags/赚钱 /th/tags/赚钱/ 301
 /th/tags/赛车 /th/tags/赛车/ 301
 /th/tags/路线 /th/tags/路线/ 301
@@ -6011,11 +6033,9 @@
 /th/tags/输出 /th/tags/输出/ 301
 /th/tags/进攻 /th/tags/进攻/ 301
 /th/tags/选择 /th/tags/选择/ 301
-/th/tags/避坑 /th/tags/避坑/ 301
 /th/tags/都市大亨 /th/tags/都市大亨/ 301
 /th/tags/配置 /th/tags/配置/ 301
 /th/tags/配队 /th/tags/配队/ 301
-/th/tags/错误 /th/tags/错误/ 301
 /th/tags/队伍 /th/tags/队伍/ 301
 /th/tags/防护 /th/tags/防护/ 301
 /th/tags/阵容 /th/tags/阵容/ 301
@@ -6184,6 +6204,7 @@
 /tw/blog/nte-week-one-recap /tw/blog/nte-week-one-recap/ 301
 /tw/blog/nte-zero-build-guide /tw/blog/nte-zero-build-guide/ 301
 /tw/bosses /tw/bosses/ 301
+/tw/builds /tw/builds/ 301
 /tw/calculator/build /tw/calculator/build/ 301
 /tw/calculator/disk-score /tw/calculator/disk-score/ 301
 /tw/calculator/dps /tw/calculator/dps/ 301
@@ -6795,13 +6816,13 @@
 /tw/tags/easter-eggs /tw/tags/easter-eggs/ 301
 /tw/tags/economy /tw/tags/economy/ 301
 /tw/tags/efficiency /tw/tags/efficiency/ 301
-/tw/tags/element /tw/tags/element/ 301
 /tw/tags/elements /tw/tags/elements/ 301
 /tw/tags/endgame /tw/tags/endgame/ 301
 /tw/tags/engine /tw/tags/engine/ 301
 /tw/tags/enhancement /tw/tags/enhancement/ 301
 /tw/tags/equipment /tw/tags/equipment/ 301
 /tw/tags/esper /tw/tags/esper/ 301
+/tw/tags/esper cycle /tw/tags/esper cycle/ 301
 /tw/tags/event /tw/tags/event/ 301
 /tw/tags/exchange /tw/tags/exchange/ 301
 /tw/tags/exploration /tw/tags/exploration/ 301
@@ -7007,6 +7028,7 @@
 /tw/tags/t1 /tw/tags/t1/ 301
 /tw/tags/talent /tw/tags/talent/ 301
 /tw/tags/team /tw/tags/team/ 301
+/tw/tags/team building /tw/tags/team building/ 301
 /tw/tags/team-building /tw/tags/team-building/ 301
 /tw/tags/team-comp /tw/tags/team-comp/ 301
 /tw/tags/technical /tw/tags/technical/ 301
@@ -7063,7 +7085,7 @@
 /tw/tags/保底 /tw/tags/保底/ 301
 /tw/tags/信用点 /tw/tags/信用点/ 301
 /tw/tags/值得玩吗 /tw/tags/值得玩吗/ 301
-/tw/tags/元素 /tw/tags/元素/ 301
+/tw/tags/元素反应 /tw/tags/元素反应/ 301
 /tw/tags/克制 /tw/tags/克制/ 301
 /tw/tags/免费 /tw/tags/免费/ 301
 /tw/tags/兑换 /tw/tags/兑换/ 301
@@ -7089,8 +7111,10 @@
 /tw/tags/宝箱 /tw/tags/宝箱/ 301
 /tw/tags/小吱 /tw/tags/小吱/ 301
 /tw/tags/属性 /tw/tags/属性/ 301
+/tw/tags/常见错误 /tw/tags/常见错误/ 301
 /tw/tags/平台 /tw/tags/平台/ 301
 /tw/tags/开荒 /tw/tags/开荒/ 301
+/tw/tags/异能循环 /tw/tags/异能循环/ 301
 /tw/tags/异象 /tw/tags/异象/ 301
 /tw/tags/弧盘 /tw/tags/弧盘/ 301
 /tw/tags/强化 /tw/tags/强化/ 301
@@ -7145,6 +7169,7 @@
 /tw/tags/装修 /tw/tags/装修/ 301
 /tw/tags/装备 /tw/tags/装备/ 301
 /tw/tags/觉醒 /tw/tags/觉醒/ 301
+/tw/tags/角色培养 /tw/tags/角色培养/ 301
 /tw/tags/角色排名 /tw/tags/角色排名/ 301
 /tw/tags/角色排行 /tw/tags/角色排行/ 301
 /tw/tags/角色攻略 /tw/tags/角色攻略/ 301
@@ -7152,6 +7177,7 @@
 /tw/tags/评测 /tw/tags/评测/ 301
 /tw/tags/货币 /tw/tags/货币/ 301
 /tw/tags/资源 /tw/tags/资源/ 301
+/tw/tags/资源规划 /tw/tags/资源规划/ 301
 /tw/tags/赚钱 /tw/tags/赚钱/ 301
 /tw/tags/赛车 /tw/tags/赛车/ 301
 /tw/tags/路线 /tw/tags/路线/ 301
@@ -7161,11 +7187,9 @@
 /tw/tags/输出 /tw/tags/输出/ 301
 /tw/tags/进攻 /tw/tags/进攻/ 301
 /tw/tags/选择 /tw/tags/选择/ 301
-/tw/tags/避坑 /tw/tags/避坑/ 301
 /tw/tags/都市大亨 /tw/tags/都市大亨/ 301
 /tw/tags/配置 /tw/tags/配置/ 301
 /tw/tags/配队 /tw/tags/配队/ 301
-/tw/tags/错误 /tw/tags/错误/ 301
 /tw/tags/队伍 /tw/tags/队伍/ 301
 /tw/tags/防护 /tw/tags/防护/ 301
 /tw/tags/阵容 /tw/tags/阵容/ 301
@@ -7334,6 +7358,7 @@
 /vi/blog/nte-week-one-recap /vi/blog/nte-week-one-recap/ 301
 /vi/blog/nte-zero-build-guide /vi/blog/nte-zero-build-guide/ 301
 /vi/bosses /vi/bosses/ 301
+/vi/builds /vi/builds/ 301
 /vi/calculator/build /vi/calculator/build/ 301
 /vi/calculator/disk-score /vi/calculator/disk-score/ 301
 /vi/calculator/dps /vi/calculator/dps/ 301
@@ -7945,13 +7970,13 @@
 /vi/tags/easter-eggs /vi/tags/easter-eggs/ 301
 /vi/tags/economy /vi/tags/economy/ 301
 /vi/tags/efficiency /vi/tags/efficiency/ 301
-/vi/tags/element /vi/tags/element/ 301
 /vi/tags/elements /vi/tags/elements/ 301
 /vi/tags/endgame /vi/tags/endgame/ 301
 /vi/tags/engine /vi/tags/engine/ 301
 /vi/tags/enhancement /vi/tags/enhancement/ 301
 /vi/tags/equipment /vi/tags/equipment/ 301
 /vi/tags/esper /vi/tags/esper/ 301
+/vi/tags/esper cycle /vi/tags/esper cycle/ 301
 /vi/tags/event /vi/tags/event/ 301
 /vi/tags/exchange /vi/tags/exchange/ 301
 /vi/tags/exploration /vi/tags/exploration/ 301
@@ -8157,6 +8182,7 @@
 /vi/tags/t1 /vi/tags/t1/ 301
 /vi/tags/talent /vi/tags/talent/ 301
 /vi/tags/team /vi/tags/team/ 301
+/vi/tags/team building /vi/tags/team building/ 301
 /vi/tags/team-building /vi/tags/team-building/ 301
 /vi/tags/team-comp /vi/tags/team-comp/ 301
 /vi/tags/technical /vi/tags/technical/ 301
@@ -8213,7 +8239,7 @@
 /vi/tags/保底 /vi/tags/保底/ 301
 /vi/tags/信用点 /vi/tags/信用点/ 301
 /vi/tags/值得玩吗 /vi/tags/值得玩吗/ 301
-/vi/tags/元素 /vi/tags/元素/ 301
+/vi/tags/元素反应 /vi/tags/元素反应/ 301
 /vi/tags/克制 /vi/tags/克制/ 301
 /vi/tags/免费 /vi/tags/免费/ 301
 /vi/tags/兑换 /vi/tags/兑换/ 301
@@ -8239,8 +8265,10 @@
 /vi/tags/宝箱 /vi/tags/宝箱/ 301
 /vi/tags/小吱 /vi/tags/小吱/ 301
 /vi/tags/属性 /vi/tags/属性/ 301
+/vi/tags/常见错误 /vi/tags/常见错误/ 301
 /vi/tags/平台 /vi/tags/平台/ 301
 /vi/tags/开荒 /vi/tags/开荒/ 301
+/vi/tags/异能循环 /vi/tags/异能循环/ 301
 /vi/tags/异象 /vi/tags/异象/ 301
 /vi/tags/弧盘 /vi/tags/弧盘/ 301
 /vi/tags/强化 /vi/tags/强化/ 301
@@ -8295,6 +8323,7 @@
 /vi/tags/装修 /vi/tags/装修/ 301
 /vi/tags/装备 /vi/tags/装备/ 301
 /vi/tags/觉醒 /vi/tags/觉醒/ 301
+/vi/tags/角色培养 /vi/tags/角色培养/ 301
 /vi/tags/角色排名 /vi/tags/角色排名/ 301
 /vi/tags/角色排行 /vi/tags/角色排行/ 301
 /vi/tags/角色攻略 /vi/tags/角色攻略/ 301
@@ -8302,6 +8331,7 @@
 /vi/tags/评测 /vi/tags/评测/ 301
 /vi/tags/货币 /vi/tags/货币/ 301
 /vi/tags/资源 /vi/tags/资源/ 301
+/vi/tags/资源规划 /vi/tags/资源规划/ 301
 /vi/tags/赚钱 /vi/tags/赚钱/ 301
 /vi/tags/赛车 /vi/tags/赛车/ 301
 /vi/tags/路线 /vi/tags/路线/ 301
@@ -8311,11 +8341,9 @@
 /vi/tags/输出 /vi/tags/输出/ 301
 /vi/tags/进攻 /vi/tags/进攻/ 301
 /vi/tags/选择 /vi/tags/选择/ 301
-/vi/tags/避坑 /vi/tags/避坑/ 301
 /vi/tags/都市大亨 /vi/tags/都市大亨/ 301
 /vi/tags/配置 /vi/tags/配置/ 301
 /vi/tags/配队 /vi/tags/配队/ 301
-/vi/tags/错误 /vi/tags/错误/ 301
 /vi/tags/队伍 /vi/tags/队伍/ 301
 /vi/tags/防护 /vi/tags/防护/ 301
 /vi/tags/阵容 /vi/tags/阵容/ 301
@@ -8484,6 +8512,7 @@
 /zh/blog/nte-week-one-recap /zh/blog/nte-week-one-recap/ 301
 /zh/blog/nte-zero-build-guide /zh/blog/nte-zero-build-guide/ 301
 /zh/bosses /zh/bosses/ 301
+/zh/builds /zh/builds/ 301
 /zh/calculator/build /zh/calculator/build/ 301
 /zh/calculator/disk-score /zh/calculator/disk-score/ 301
 /zh/calculator/dps /zh/calculator/dps/ 301
@@ -9095,13 +9124,13 @@
 /zh/tags/easter-eggs /zh/tags/easter-eggs/ 301
 /zh/tags/economy /zh/tags/economy/ 301
 /zh/tags/efficiency /zh/tags/efficiency/ 301
-/zh/tags/element /zh/tags/element/ 301
 /zh/tags/elements /zh/tags/elements/ 301
 /zh/tags/endgame /zh/tags/endgame/ 301
 /zh/tags/engine /zh/tags/engine/ 301
 /zh/tags/enhancement /zh/tags/enhancement/ 301
 /zh/tags/equipment /zh/tags/equipment/ 301
 /zh/tags/esper /zh/tags/esper/ 301
+/zh/tags/esper cycle /zh/tags/esper cycle/ 301
 /zh/tags/event /zh/tags/event/ 301
 /zh/tags/exchange /zh/tags/exchange/ 301
 /zh/tags/exploration /zh/tags/exploration/ 301
@@ -9307,6 +9336,7 @@
 /zh/tags/t1 /zh/tags/t1/ 301
 /zh/tags/talent /zh/tags/talent/ 301
 /zh/tags/team /zh/tags/team/ 301
+/zh/tags/team building /zh/tags/team building/ 301
 /zh/tags/team-building /zh/tags/team-building/ 301
 /zh/tags/team-comp /zh/tags/team-comp/ 301
 /zh/tags/technical /zh/tags/technical/ 301
@@ -9363,7 +9393,7 @@
 /zh/tags/保底 /zh/tags/保底/ 301
 /zh/tags/信用点 /zh/tags/信用点/ 301
 /zh/tags/值得玩吗 /zh/tags/值得玩吗/ 301
-/zh/tags/元素 /zh/tags/元素/ 301
+/zh/tags/元素反应 /zh/tags/元素反应/ 301
 /zh/tags/克制 /zh/tags/克制/ 301
 /zh/tags/免费 /zh/tags/免费/ 301
 /zh/tags/兑换 /zh/tags/兑换/ 301
@@ -9389,8 +9419,10 @@
 /zh/tags/宝箱 /zh/tags/宝箱/ 301
 /zh/tags/小吱 /zh/tags/小吱/ 301
 /zh/tags/属性 /zh/tags/属性/ 301
+/zh/tags/常见错误 /zh/tags/常见错误/ 301
 /zh/tags/平台 /zh/tags/平台/ 301
 /zh/tags/开荒 /zh/tags/开荒/ 301
+/zh/tags/异能循环 /zh/tags/异能循环/ 301
 /zh/tags/异象 /zh/tags/异象/ 301
 /zh/tags/弧盘 /zh/tags/弧盘/ 301
 /zh/tags/强化 /zh/tags/强化/ 301
@@ -9445,6 +9477,7 @@
 /zh/tags/装修 /zh/tags/装修/ 301
 /zh/tags/装备 /zh/tags/装备/ 301
 /zh/tags/觉醒 /zh/tags/觉醒/ 301
+/zh/tags/角色培养 /zh/tags/角色培养/ 301
 /zh/tags/角色排名 /zh/tags/角色排名/ 301
 /zh/tags/角色排行 /zh/tags/角色排行/ 301
 /zh/tags/角色攻略 /zh/tags/角色攻略/ 301
@@ -9452,6 +9485,7 @@
 /zh/tags/评测 /zh/tags/评测/ 301
 /zh/tags/货币 /zh/tags/货币/ 301
 /zh/tags/资源 /zh/tags/资源/ 301
+/zh/tags/资源规划 /zh/tags/资源规划/ 301
 /zh/tags/赚钱 /zh/tags/赚钱/ 301
 /zh/tags/赛车 /zh/tags/赛车/ 301
 /zh/tags/路线 /zh/tags/路线/ 301
@@ -9461,11 +9495,9 @@
 /zh/tags/输出 /zh/tags/输出/ 301
 /zh/tags/进攻 /zh/tags/进攻/ 301
 /zh/tags/选择 /zh/tags/选择/ 301
-/zh/tags/避坑 /zh/tags/避坑/ 301
 /zh/tags/都市大亨 /zh/tags/都市大亨/ 301
 /zh/tags/配置 /zh/tags/配置/ 301
 /zh/tags/配队 /zh/tags/配队/ 301
-/zh/tags/错误 /zh/tags/错误/ 301
 /zh/tags/队伍 /zh/tags/队伍/ 301
 /zh/tags/防护 /zh/tags/防护/ 301
 /zh/tags/阵容 /zh/tags/阵容/ 301

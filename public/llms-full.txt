@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-05-24
+> Generated: 2026-05-25
 
 ## Characters (42)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -95,7 +95,7 @@
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
-- [元素反应系统详解](/en/guides/elemental-reactions/) — Combat (updated 2026-05-01)
+- [异能循环（Esper Cycle）机制详解](/en/guides/elemental-reactions/) — Combat (updated 2026-05-25)
 - [体力管理最优策略](/en/guides/stamina-management/) — Beginner (updated 2026-05-01)
 - [每日必做任务清单](/en/guides/daily-routine/) — Beginner (updated 2026-04-29)
 - [抽卡策略与保底机制](/en/guides/gacha-strategy/) — Advanced (updated 2026-04-29)
@@ -110,7 +110,7 @@
 - [角色强度排行](/en/guides/tier-list/) — Tier List (updated 2026-04-29)
 - [全角色强度排行（详细版）](/en/guides/detailed-tier-list/) — Tier List (updated 2026-04-29)
 - [伤害计算公式详解](/en/guides/damage-formula/) — Combat (updated 2026-04-29)
-- [新手 10 个常见错误](/en/guides/beginner-mistakes/) — Beginner (updated 2026-04-29)
+- [异环新手资源规划指南 — 常见错误与高效起步](/en/guides/beginner-mistakes/) — Beginner (updated 2026-05-25)
 - [F2P 零氪指南](/en/guides/f2p-guide/) — Beginner (updated 2026-04-29)
 - [全武器排行榜](/en/guides/weapon-tier-list/) — Tier List (updated 2026-04-29)
 - [刷初始指南（详细版）](/en/guides/reroll-guide-detailed/) — Beginner (updated 2026-04-29)

@@ -125,46 +125,77 @@
   },
   {
     "id": "elemental-reactions",
-    "title": "元素反应系统详解",
-    "titleEn": "Elemental Reaction System Guide",
+    "title": "异能循环（Esper Cycle）机制详解",
+    "titleEn": "Esper Cycle System Guide — Reactions, Meter & Team Building",
     "category": "combat",
     "categoryZh": "战斗攻略",
     "categoryEn": "Combat",
-    "summary": "深入解析异环的元素反应机制，掌握队伍搭配的核心逻辑。",
-    "summaryEn": "In-depth analysis of Neverness to Everness (NTE) elemental reaction system and the core logic behind optimal team composition strategies.",
-    "content": "## 异环元素反应系统攻略\n\n元素反应是异环（NTE）的核心战斗机制。理解不同元素之间的交互对于组建有效队伍和最大化伤害至关重要。\n\n## 元素类型\n\n异环共有 7 种元素：生（Anima）、混（Chaos）、天（Cosmos）、拉（Lakshana）、焰（Flame）、冰（Ice）、雷（Thunder）。\n\n## 反应类型\n\n### 增幅反应（伤害乘算）\n- 混焰（Turbid Burn）：混 + 焰，2.0x 倍率\n- 天冰（Skyrending）：天 + 冰，1.5x 倍率\n- 生雷（Anima Bloom）：生 + 雷，持续 AoE 爆发\n\n### 转化反应（固定伤害）\n- 混天（Chaos Storm）：混 + 天，聚怪持续伤害\n- 焰雷（Flame Shock）：焰 + 雷，连锁闪电\n- 冰生（Ice Bloom）：冰 + 生，治疗 + 伤害\n\n### 特殊反应\n- 崩坏（Collapse）：3+ 种元素同时反应，游戏最高伤害反应\n- 环融（Ring Fusion）：特定角色组合触发",
-    "contentEn": "## Elemental Reaction System Guide\n\nThe elemental reaction system is the core combat mechanic in Neverness to Everness (NTE). Understanding how different elements interact is essential for building effective teams and maximizing damage output. This guide covers all element types, reaction mechanics, damage calculations, and team building strategies.\n\n## Element Types\n\nNTE features 7 distinct elements, each with unique properties:\n\n- **Anima (生)** — Nature-based element. Strong against Chaos, weak against Cosmos. Anima characters like Nanally excel at sustained DPS with elemental bonus damage.\n- **Chaos (混)** — Dark/corruption element. Strong against Cosmos, weak against Anima. Chaos characters like Lacrimosa specialize in summon-based AoE attacks.\n- **Cosmos (天)** — Celestial/light element. Strong against Anima, weak against Chaos. Cosmos characters like Hotori provide powerful grouping and buff support.\n- **Lakshana (拉)** — Unique element introduced in 1.1 with Chaos character. Has special interaction mechanics with all other elements.\n- **Flame (焰)** — Fire-based element dealing persistent burn damage over time.\n- **Ice (冰)** — Freezing element that can immobilize enemies and apply shatter mechanics.\n- **Thunder (雷)** — Lightning element that chains between enemies and applies electro-charge.\n\n## Reaction Types\n\n### Amplifying Reactions (Damage Multiplier)\n\nThese reactions multiply the triggering attack's damage:\n\n- **Turbid Burn (混焰)** — Chaos + Flame: Creates a burning zone that deals continuous AoE damage. Base multiplier 2.0x. Best used with Chiz or Baicang.\n- **Skyrending (天冰)** — Cosmos + Ice: Freezes and shatters enemies in an area. Deals burst damage with 1.5x multiplier. Excellent for crowd control.\n- **Anima Bloom (生雷)** — Anima + Thunder: Creates energy blooms that explode after a delay for massive AoE damage.\n\n### Transformative Reactions (Flat Damage)\n\nThese deal flat elemental damage based on character level and elemental mastery:\n\n- **Chaos Storm (混天)** — Chaos + Cosmos: Creates a swirling vortex that pulls enemies together and deals continuous damage.\n- **Flame Shock (焰雷)** — Flame + Thunder: Triggers explosive chain lightning dealing damage to all nearby enemies.\n- **Ice Bloom (冰生)** — Ice + Anima: Creates healing frost flowers that restore HP while dealing damage.\n\n### Special Reactions\n\n- **Collapse (崩)** — Occurs when 3+ different elements interact simultaneously. Deals massive damage based on the number of unique elements involved. This is the highest damage reaction in the game.\n- **Ring Fusion (环融)** — Triggered by specific character combos. Creates a persistent elemental field that continuously applies reactions.\n\n## Damage Formula\n\nElemental reaction damage is calculated as:\n\n```\nReaction Damage = Base Damage × Reaction Multiplier × (1 + Elemental Mastery Bonus) × Enemy Resistance Modifier\n```\n\nWhere:\n- **Base Damage** = Character ATK × Skill Multiplier\n- **Reaction Multiplier** = Varies by reaction type (1.5x to 3.0x)\n- **Elemental Mastery Bonus** = 0.0006 × EM (diminishing returns after 500 EM)\n- **Enemy Resistance** = Base resistance minus any debuffs applied\n\n## Team Building for Reactions\n\n### Double Element Teams (2-2 Split)\nMost common and reliable. Two characters of each element ensure consistent reactions. Example: Nanally (Anima) + Jiuyuan (Anima) + Chiz (Chaos) + Baicang (Chaos).\n\n### Rainbow Teams (4 Different Elements)\nHigh risk, high reward. Maximizes Collapse reaction triggers but requires careful energy management. Example: Nanally + Hotori + Lacrimosa + Chiz.\n\n### Mono Element Teams\nSpecialized for specific content. Less reaction variety but maximizes elemental resonance bonuses.\n\n## Tips for Maximizing Reactions\n\n1. **Apply elements in the right order** — The first element applied determines the base. Apply the stronger element second for maximum reaction damage.\n2. **Use your support's skill before your DPS** — Supports like Hotori and Mint apply elemental fields that your main DPS can trigger reactions from.\n3. **Elemental Mastery matters** — For reaction-focused builds, invest in EM substats on your Arc Discs.\n4. **Watch enemy elemental shields** — Some bosses have elemental shields. Use the counter element to break them quickly.\n5. **Perfect dodge into reactions** — Perfect dodges create slow-motion windows. Use this time to set up powerful reaction combos.",
+    "summary": "深入解析异环的异能循环系统：六属性邻接关系、Duo/Triple Cycle 反应机制、异能量表充能原理与配队建议。",
+    "summaryEn": "Complete guide to NTE's Esper Cycle system: 6-element adjacency wheel, Duo & Triple Cycle reactions, Esper Meter charging mechanics, and team building strategies.",
+    "content": "## 异环异能循环（Esper Cycle）系统详解\n\n异能循环（Esper Cycle）是异环（NTE）的核心战斗机制。理解属性邻接关系、反应触发条件和充能机制是组建强力队伍的基础。\n\n## 异能轮盘（Esper Wheel）六属性循环\n\n异环共有 **6 种异能属性**，排列成一个环形邻接关系。只有**相邻属性**的角色之间切换才能触发异能循环反应，不相邻的属性切换**不会触发任何反应**。\n\n### 属性循环图\n\n```\n        Lakshana（相）\n       /            \\\n  Anima（灵）— Cosmos（天）\n      |                |\nIncantation（咒）— Chaos（混）\n       \\            /\n        Psyche（心）\n```\n\n- **上三角**：Lakshana ↔ Cosmos ↔ Anima（可触发 Triple Cycle — Charge）\n- **下三角**：Incantation ↔ Chaos ↔ Psyche（可触发 Triple Cycle — Discord）\n\n### 属性对应角色示例\n\n| 属性 | 中文名 | 代表角色 |\n|------|--------|---------|\n| Anima | 灵 | 娜娜莉、九原、薄荷、小吱 |\n| Cosmos | 天 | 零、穗鸟、赤子、浔 |\n| Lakshana | 相 | 哈索尔、翳、阿尔法德 |\n| Incantation | 咒 | 咲里、白藏、阿德勒 |\n| Chaos | 混沌 | 达芙迪尔、拉克莉莫萨 |\n| Psyche | 心 | 法蒂亚、哈尼尔、奥蕾莉亚 |\n\n## 异能量表（Esper Meter）充能机制\n\n每次触发异能循环反应需要消耗异能量表。量表的充能速率取决于角色在场上的行为：\n\n| 行为 | 充能速率 | 说明 |\n|------|---------|------|\n| 普通攻击 | 慢 | 基础充能，适合站场角色 |\n| 战技（技能） | 中等 | 主要充能手段 |\n| 格挡反击 | 快 | 高效充能，需要精准时机 |\n| 完美弹反（Parry） | 瞬间充满 | 一次性充满量表，是高端操作的核心 |\n\n**技巧：** 弹反（Parry）能瞬间充满异能量表，是提升队伍循环效率的关键操作。建议优先练习弹反时机。\n\n## Duo Cycle 反应（双人循环）\n\n当队伍中两个**相邻属性**的角色互相切换时，触发 Duo Cycle 反应。共有 6 种 Duo 反应：\n\n### 1. 花开（Blossom）\n- **触发属性**：Anima ↔ Cosmos（灵 ↔ 天）\n- **效果**：生成追踪敌人的能量花瓣弹，命中后造成范围伤害\n- **强化效果**：部分角色可增大花瓣弹的追踪范围\n- **关键角色**：薄荷与零配合可扩大花瓣追踪范围\n\n### 2. 寄生（Remora）\n- **触发属性**：Lakshana ↔ Anima（相 ↔ 灵）\n- **效果**：在目标身上附加标记，持续造成伤害\n- **强化效果**：标记可叠加，叠满后爆发高额伤害\n- **关键角色**：翳、娜娜莉\n\n### 3. 诅咒（Hexed）\n- **触发属性**：Incantation ↔ Lakshana（咒 ↔ 相）\n- **效果**：降低目标防御力并附加诅咒增伤效果\n- **强化效果**：受到诅咒的目标受到的所有伤害提升\n- **关键角色**：白藏、哈索尔\n\n### 4. 灼烧（Scorch）\n- **触发属性**：Chaos ↔ Incantation（混 ↔ 咒）\n- **效果**：造成持续灼烧伤害，削减目标生命值\n- **强化效果**：与 Nova 叠加时触发额外爆发\n- **关键角色**：达芙迪尔、白藏\n\n### 5. 超新星（Nova）\n- **触发属性**：Psyche ↔ Chaos（心 ↔ 混）\n- **效果**：触发一次范围爆发伤害\n- **强化效果**：与 Scorch 叠加时伤害翻倍\n- **关键角色**：哈尼尔、达芙迪尔\n\n### 6. 污渍（Stain）\n- **触发属性**：Cosmos ↔ Psyche（天 ↔ 心）\n- **效果**：附加印记，当印记被其他反应触发时产生额外伤害\n- **强化效果**：印记可被任何反应引爆\n- **关键角色**：零、法蒂亚\n\n## Triple Cycle 反应（三人循环）\n\n当队伍中有**三个同属上三角或下三角**的属性角色时，可触发更强力的 Triple Cycle 反应：\n\n### 充能（Charge）\n- **触发条件**：Cosmos + Anima + Lakshana（上三角三属性同时在队）\n- **触发方式**：当被 Remora（寄生）标记的敌人被 Blossom（花开）的花瓣弹命中时触发\n- **效果**：大幅加速当前场上角色的**大招（终极技能）充能**\n- **实战意义**：让主C更快释放大招，显著提升整体输出\n- **推荐配队**：娜娜莉(Anima) + 零(Cosmos) + 翳/哈索尔(Lakshana)\n\n### 失谐（Discord）\n- **触发条件**：Incantation + Chaos + Psyche（下三角三属性同时在队）\n- **触发方式**：当同时受到 Scorch（灼烧）和 Nova（超新星）效果时触发\n- **效果**：大幅削减目标的**崩坏值（Break Gauge）**，加速破甲\n- **实战意义**：对 Boss 战极为有效，快速削减 Break 条进入输出窗口\n- **推荐配队**：达芙迪尔(Chaos) + 白藏/咲里(Incantation) + 法蒂亚/哈尼尔(Psyche)\n\n## 共鸣（Resonance）被动效果\n\n特定角色组合在队伍中时会获得额外的共鸣被动加成：\n\n- 部分角色组合会增强特定反应的效果（如增大范围、延长持续时间、提升伤害倍率）\n- 共鸣被动在队伍成员同时在场时自动生效\n- 具体共鸣效果需查看各角色的觉醒（Awakening）技能描述\n\n## 实战配队建议\n\n### 基础原则\n1. **围绕相邻属性建队** — 确保队伍中的角色属性两两相邻，最大化 Duo 反应触发机会\n2. **优先弹反充能** — 弹反瞬间充满异能量表，是提升循环效率的关键\n3. **合理规划切换顺序** — 先用辅助/聚怪角色 → 切副C触发反应 → 切主C爆发输出\n\n### 高效循环示例（娜娜莉队）\n1. 咲里（Incantation）先手使用战技聚怪\n2. 切零（Cosmos）→ 触发 Stain 反应\n3. 切娜娜莉（Anima）→ 触发 Blossom 反应，花瓣弹追踪攻击\n4. 切零（Cosmos）再次使用战技 → 触发寄生 Remora\n5. 切哈索尔（Lakshana）→ 触发 Hexed + Charge（如果有上三角三属性）\n6. 回到娜娜莉继续输出，大招就绪后释放\n\n## 常见错误\n\n1. **不相邻属性组队** — 如同时带 Anima 和 Incantation 角色，它们不相邻，无法触发任何 Duo 反应，严重浪费输出\n2. **忽视弹反** — 只靠普攻和战技充能太慢，不练弹反会导致异能量表永远不够用\n3. **不理解 Duo vs Triple 差异** — Duo 是任意两相邻属性切换触发，Triple 需要三个特定属性同时在队且有特定触发条件\n4. **不注意切换顺序** — 先切主C再切辅助会浪费主C的站场时间\n5. **忽视共鸣被动** — 某些角色组合有额外加成，值得在建队时考虑",
+    "contentEn": "## Esper Cycle System Guide\n\nThe Esper Cycle is the core combat mechanic in Neverness to Everness (NTE). Understanding element adjacency, reaction triggers, and meter charging is essential for building strong teams and maximizing damage output.\n\n## The Esper Wheel — Six Element Cycle\n\nNTE features **6 Esper elements** arranged in a wheel of adjacency. Only characters with **adjacent elements** can trigger Esper Cycle reactions when swapped. Non-adjacent element swaps trigger **no reaction**.\n\n### Element Wheel Diagram\n\n```\n        Lakshana\n       /          \\\n  Anima ——— Cosmos\n      |              |\nIncantation — Chaos\n       \\          /\n        Psyche\n```\n\n- **Top Triangle**: Lakshana ↔ Cosmos ↔ Anima (triggers Triple Cycle — Charge)\n- **Bottom Triangle**: Incantation ↔ Chaos ↔ Psyche (triggers Triple Cycle — Discord)\n\n### Element-Character Reference\n\n| Element | Characters |\n|---------|-----------|\n| Anima | Nanally, Jiuyuan, Mint, Xiaozhi |\n| Cosmos | Esper Zero, Hotori, Chiz, Xun |\n| Lakshana | Hathor, Skia, Alphard |\n| Incantation | Sakiri, Baicang, Adler |\n| Chaos | Daffodill, Lacrimosa |\n| Psyche | Fadia, Haniel, Aurelia |\n\n## Esper Meter Charging Mechanics\n\nEach Esper Cycle reaction consumes the Esper Meter. The charging rate depends on the active character's actions:\n\n| Action | Charge Rate | Notes |\n|--------|-----------|-------|\n| Normal Attack | Slow | Base charging, suitable for on-field characters |\n| Skill | Moderate | Primary charging method |\n| Dodge Counter | Fast | Efficient charging, requires precise timing |\n| Perfect Parry | Instant (full) | Fills the entire meter instantly — the cornerstone of advanced play |\n\n**Tip:** Perfect Parry instantly fills the Esper Meter, making it the most important skill to master for maximizing team rotation efficiency.\n\n## Duo Cycle Reactions\n\nDuo Cycle reactions trigger when swapping between two characters with **adjacent elements**. There are 6 Duo reactions:\n\n### 1. Blossom\n- **Elements**: Anima ↔ Cosmos\n- **Effect**: Generates homing energy petals that track enemies and deal AoE damage on hit\n- **Enhancement**: Certain characters can increase the tracking range of petals\n- **Key Characters**: Mint + Esper Zero combo expands petal tracking range\n\n### 2. Remora\n- **Elements**: Lakshana ↔ Anima\n- **Effect**: Applies a mark to the target that deals continuous damage over time\n- **Enhancement**: Marks can stack; fully stacked marks burst for high damage\n- **Key Characters**: Skia, Nanally\n\n### 3. Hexed\n- **Elements**: Incantation ↔ Lakshana\n- **Effect**: Reduces target defense and applies a damage-amplifying curse\n- **Enhancement**: Cursed targets take increased damage from all sources\n- **Key Characters**: Baicang, Hathor\n\n### 4. Scorch\n- **Elements**: Chaos ↔ Incantation\n- **Effect**: Deals continuous burning damage, draining the target's HP\n- **Enhancement**: When combined with Nova, triggers additional burst damage\n- **Key Characters**: Daffodill, Baicang\n\n### 5. Nova\n- **Elements**: Psyche ↔ Chaos\n- **Effect**: Triggers an AoE burst of damage\n- **Enhancement**: Damage doubles when combined with Scorch on the same target\n- **Key Characters**: Haniel, Daffodill\n\n### 6. Stain\n- **Elements**: Cosmos ↔ Psyche\n- **Effect**: Applies a mark that detonates for bonus damage when triggered by another reaction\n- **Enhancement**: Marks can be detonated by any reaction\n- **Key Characters**: Esper Zero, Fadia\n\n## Triple Cycle Reactions\n\nWhen a team contains **all three elements from the same triangle** (top or bottom), powerful Triple Cycle reactions become available:\n\n### Charge\n- **Requirement**: Cosmos + Anima + Lakshana (top triangle all present in team)\n- **Trigger**: When an enemy marked by Remora is hit by Blossom petals\n- **Effect**: Greatly accelerates the active character's **Ultimate skill charging**\n- **Practical Value**: Lets your main DPS use their Ultimate more frequently, significantly boosting overall damage\n- **Recommended Team**: Nanally (Anima) + Esper Zero (Cosmos) + Skia/Hathor (Lakshana)\n\n### Discord\n- **Requirement**: Incantation + Chaos + Psyche (bottom triangle all present in team)\n- **Trigger**: When a target is simultaneously affected by both Scorch and Nova\n- **Effect**: Massively reduces the target's **Break Gauge**, accelerating stagger\n- **Practical Value**: Extremely effective against bosses — quickly depletes Break bar to enter the damage window\n- **Recommended Team**: Daffodill (Chaos) + Baicang/Sakiri (Incantation) + Fadia/Haniel (Psyche)\n\n## Resonance Passives\n\nCertain character combinations grant additional Resonance passive bonuses:\n\n- Some character pairs enhance specific reaction effects (increased range, extended duration, higher damage multipliers)\n- Resonance passives activate automatically when both characters are in the same team\n- Check each character's Awakening skill descriptions for specific Resonance effects\n\n## Practical Team Building Tips\n\n### Core Principles\n1. **Build around adjacent elements** — Ensure team members have pairwise adjacent elements to maximize Duo reaction opportunities\n2. **Prioritize Perfect Parry** — Parry instantly fills the Esper Meter, making it essential for rotation efficiency\n3. **Plan your swap order** — Use support/grouper first → swap to sub-DPS to trigger reactions → swap to main DPS for burst\n\n### Example Rotation (Nanally Team)\n1. Sakiri (Incantation) opens with skill to group enemies\n2. Swap to Esper Zero (Cosmos) → triggers Stain reaction\n3. Swap to Nanally (Anima) → triggers Blossom, homing petals attack\n4. Swap to Esper Zero (Cosmos) again, use skill → triggers Remora\n5. Swap to Hathor (Lakshana) → triggers Hexed + Charge (if top triangle is complete)\n6. Return to Nanally for sustained damage, use Ultimate when ready\n\n## Common Mistakes\n\n1. **Non-adjacent element teams** — Pairing Anima and Incantation characters means they cannot trigger any Duo reaction together, severely wasting damage potential\n2. **Ignoring Perfect Parry** — Relying only on normal attacks and skills for meter charging is too slow. Without parry practice, your Esper Meter will always be insufficient\n3. **Not understanding Duo vs Triple** — Duo triggers on any adjacent-element swap; Triple requires three specific elements in the team AND specific trigger conditions\n4. **Wrong swap order** — Swapping to your main DPS before setting up reactions wastes their field time\n5. **Overlooking Resonance passives** — Certain character pairs have hidden bonuses worth considering during team building",
     "tags": [
-      "元素",
-      "反应",
+      "异能循环",
+      "Esper Cycle",
+      "元素反应",
+      "配队",
       "战斗",
-      "Element",
-      "Combat"
+      "Combat",
+      "Team Building"
     ],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "zero-male",
+      "hathor",
+      "sakiri",
+      "daffodil",
+      "baicang",
+      "mint",
+      "skia",
+      "jiuyuan",
+      "fadia"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
     "faq": [
       {
-        "question": "What is the best elemental reaction system strategy in Neverness to Everness?",
-        "questionZh": "异环中元素反应系统详解最重要的是什么？",
-        "answer": "In-depth analysis of Everyloop's elemental reaction system and the core logic of team composition.",
-        "answerZh": "深入解析异环的元素反应机制，掌握队伍搭配的核心逻辑。"
+        "question": "How does the Esper Cycle system work in Neverness to Everness?",
+        "questionZh": "异环的异能循环系统怎么运作？",
+        "answer": "The Esper Cycle is NTE's elemental reaction system. There are 6 elements arranged in a wheel — only adjacent elements trigger reactions when you swap characters. For example, Anima can react with Cosmos and Lakshana (its neighbors) but not with Incantation or Psyche. There are two types: Duo Cycle (2-element reactions) and Triple Cycle (3-element reactions requiring all elements from one triangle).",
+        "answerZh": "异能循环是异环的元素反应系统。6种属性排成一个环形——只有相邻属性的角色切换时才会触发反应。例如，灵(Anima)可以和天(Cosmos)、相(Lakshana)反应，但不能和咒(Incantation)或心(Psyche)反应。反应分为Duo Cycle（双人循环）和Triple Cycle（三人循环，需要同三角的三种属性同时在队）。"
       },
       {
-        "question": "How to improve at Neverness to Everness?",
-        "questionZh": "如何提升异环的游戏水平？",
-        "answer": "Follow our elemental reaction system guide for the best results. This guide covers essential tips and strategies for Neverness to Everness players.",
-        "answerZh": "遵循我们的元素反应系统详解可以获得最佳效果。本攻略涵盖异环玩家必备的技巧和策略。"
+        "question": "What are the best element combinations for NTE teams?",
+        "questionZh": "异环配队什么属性组合最好？",
+        "answer": "The best combinations depend on your DPS character. For Nanally (Anima), pair with Cosmos and Lakshana characters to trigger Blossom, Remora, and potentially Charge. For Daffodill (Chaos), pair with Incantation and Psyche to trigger Scorch, Nova, and Discord for boss-breaking. Always ensure your team's elements are adjacent on the Esper Wheel.",
+        "answerZh": "最佳组合取决于你的主C角色。娜娜莉(灵)配天和相属性角色，触发花开、寄生、甚至充能。达芙迪尔(混沌)配咒和心属性角色，触发灼烧、超新星、失谐来打Boss破甲。核心原则：队伍中的属性必须在异能轮盘上相邻。"
       },
       {
-        "question": "Is elemental reaction system  worth it in Neverness to Everness?",
-        "questionZh": "异环元素反应系统详解值得投入吗？",
-        "answer": "Yes, In-depth analysis of Everyloop's elemental reaction system and the core logic of team composition.",
-        "answerZh": "深入解析异环的元素反应机制，掌握队伍搭配的核心逻辑。"
+        "question": "How do I charge the Esper Meter faster in NTE?",
+        "questionZh": "异环怎么快速充能异能量表？",
+        "answer": "Perfect Parry is the fastest method — it instantly fills the entire Esper Meter. Dodge Counter is the next best option (fast charge). Normal attacks charge slowly. Practice parry timing against bosses to maintain high rotation efficiency throughout fights.",
+        "answerZh": "完美弹反是最快的方式——瞬间充满整个异能量表。格挡反击次之（快速充能）。普攻充能最慢。建议多练习Boss的弹反时机，保持战斗中高效循环。"
+      },
+      {
+        "question": "What is the difference between Duo Cycle and Triple Cycle in NTE?",
+        "questionZh": "异环Duo Cycle和Triple Cycle有什么区别？",
+        "answer": "Duo Cycle reactions trigger when swapping between any two adjacent elements (6 possible reactions: Blossom, Remora, Hexed, Scorch, Nova, Stain). Triple Cycle requires all 3 elements from one triangle in your team: top triangle (Cosmos+Anima+Lakshana) enables Charge, bottom triangle (Incantation+Chaos+Psyche) enables Discord. Triple reactions have additional trigger conditions beyond just swapping.",
+        "answerZh": "Duo Cycle是任意两个相邻属性角色切换时触发（6种反应：花开、寄生、诅咒、灼烧、超新星、污渍）。Triple Cycle需要队伍中有同三角的三种属性：上三角(天+灵+相)触发充能，下三角(咒+混沌+心)触发失谐。Triple反应除了切换还需要特定的触发条件。"
+      },
+      {
+        "question": "Which characters should I prioritize for Esper Cycle teams?",
+        "questionZh": "异环哪些角色适合异能循环配队？",
+        "answer": "Esper Zero (Cosmos) is the most versatile cycler — adjacent to both Anima and Psyche, fitting into most team compositions. Sakiri (Incantation) provides grouping and ATK buffs while being adjacent to Lakshana and Chaos. For DPS, Nanally (Anima) and Hathor (Lakshana) are top picks. Focus on building 4 characters with good element adjacency first.",
+        "answerZh": "零(天)是最通用的循环角色——同时相邻灵和心，能融入大多数配队。咲里(咒)提供聚怪和攻击加成，同时相邻相和混沌。主C推荐娜娜莉(灵)和哈索尔(相)。优先培养4个属性相邻的角色组队。"
+      },
+      {
+        "question": "How do Charge and Discord Triple Cycle reactions work?",
+        "questionZh": "异环充能和失谐Triple Cycle反应怎么触发？",
+        "answer": "Charge (Cosmos+Anima+Lakshana) triggers when Remora-marked enemies are hit by Blossom petals — it accelerates your active character's Ultimate charging. Discord (Incantation+Chaos+Psyche) triggers when a target has both Scorch and Nova simultaneously — it massively depletes the target's Break Gauge for faster boss staggering.",
+        "answerZh": "充能(天+灵+相)在被寄生标记的敌人被花开花瓣命中时触发——加速当前角色的大招充能。失谐(咒+混沌+心)在目标同时受到灼烧和超新星效果时触发——大幅削减目标的崩坏值(Break条)，加速Boss破甲。"
       }
     ],
-    "date": "2026-05-01"
+    "date": "2026-05-25"
   },
   {
     "id": "stamina-management",
@@ -725,27 +756,67 @@
   },
   {
     "id": "beginner-mistakes",
-    "title": "新手 10 个常见错误",
-    "titleEn": "Top 10 Beginner Mistakes to Avoid",
+    "title": "异环新手资源规划指南 — 常见错误与高效起步",
+    "titleEn": "NTE Beginner Resource Planning Guide — Mistakes to Avoid & Efficient Start",
     "category": "beginner",
     "categoryZh": "新手",
     "categoryEn": "Beginner",
-    "summary": "异环新手最常犯的10个错误及其解决方法，帮助你少走弯路，更高效地享受游戏。",
-    "summaryEn": "Top 10 common mistakes new players make in Neverness to Everness and how to avoid them.",
-    "content": "新手期是游戏体验的奠基阶段，避免常见错误可以让你更高效地享受游戏。以下是异环新手最常犯的10个错误及其解决方法。\n\n## 错误1：平均分配资源\n\n新手最常见的错误是将资源平均分配给所有角色。这会导致队伍整体偏弱，没有一个角色足够强力。正确做法是集中资源培养2-3个核心角色，确保有一支主力队伍可以达到较高战力。\n\n## 错误2：忽视主线推进\n\n有些新手沉迷于探索和收集，忽视了主线任务。主线是解锁游戏功能和获取大量资源的主要途径。建议优先推进主线，至少解锁所有主要功能后再自由探索。\n\n## 错误3：盲目抽卡\n\n看到新角色就忍不住抽卡是很多新手的通病。抽卡资源非常珍贵，应该为确定需要的目标角色储备。建议提前了解未来几个版本的卡池计划，合理分配抽卡资源。\n\n## 错误4：不重视武器升级\n\n有些玩家只关注角色等级而忽视武器。实际上，武器等级对输出能力的影响非常大，前期性价比甚至高于角色等级。确保主力角色的武器跟得上等级。\n\n## 错误5：忽略元素反应\n\n只使用单一角色输出而不利用元素反应，会损失大量伤害。理解基本的元素反应机制并应用到战斗中，可以让你的输出效率翻倍。\n\n## 错误6：体力溢出\n\n体力溢出意味着白白浪费了资源。即使时间不多，也建议每天至少登录一次消耗体力。设置体力提醒可以有效避免这个问题。\n\n## 错误7：忽视食物系统\n\n食物提供的临时buff非常强力，可以大幅降低战斗难度。在挑战高难度内容前使用攻击力和防御力食物，是最简单有效的提升手段。\n\n## 错误8：不了解角色定位\n\n不了解角色实际定位就投入资源培养是很大的浪费。有些角色看起来像输出但实际是辅助，有些角色在特定命座后才有质变。培养前先查看角色攻略。\n\n## 错误9：过早追求完美装备\n\n新手期不需要完美的装备，主属性正确的过渡装备就足够了。过早刷装备副本不仅效率低，还浪费了本应用于角色升级的体力。\n\n## 错误10：不参与活动\n\n限时活动的奖励性价比远高于常驻内容。即使活动内容看起来麻烦，也建议至少完成基础奖励部分。活动结束后这些奖励无法补回。\n\n## 总结\n\n新手期的核心原则是：集中资源、优先主线、合理规划。避免以上错误可以让你在游戏初期建立良好的发展基础，后续的游戏体验会顺畅很多。\n\n## 额外建议\n\n### 善用游戏内帮助系统\n游戏内置了详细的新手教程和帮助文档。遇到不明白的系统时，先查看游戏内的说明再问别人，这样理解更深刻。\n\n### 加入社区\n加入一个活跃的游戏社区（如Discord群组、论坛或贴吧）可以获得大量实用信息。其他玩家的经验和攻略可以帮助你少走很多弯路。\n\n### 不要焦虑进度\n每个玩家的游戏节奏不同，不需要跟别人比进度。按照自己的节奏享受游戏内容，长期来看你不会落后太多。游戏没有PVP排名压力（大部分内容），按照自己的节奏推进就好。\n\n### 定期检查背包\n背包空间有限，定期整理背包可以避免空间不足的尴尬。特别是材料类物品，不要囤积暂时用不到的低级材料，该用就用该合成就合成。\n\n### 关注版本公告\n每次版本更新都会带来新内容和优化。关注公告可以提前规划活动参与和资源分配，避免错过限时奖励。每个老玩家都是从新手成长过来的，犯错是学习的一部分。即使犯了上面提到的错误，游戏也给予了足够的容错空间。重要的是从错误中学习，逐步优化自己的游戏方式。异环的开发团队也在持续优化新手引导，让新玩家能更顺畅地上手游戏。\n\n祝愿每位新玩家都能在异环的世界中找到属于自己的乐趣！这份指南总结的错误涵盖了新手期最常见的坑，对照检查自己的游戏习惯，有则改之无则加勉。",
-    "contentEn": "## Top 10 Common Mistakes for New Players\n\nStarting Neverness to Everness can be overwhelming. Here are the most common mistakes new players make and how to avoid them for a smoother early game experience.\n\n## 1. Spreading Resources Too Thin\n\nThe biggest mistake is trying to level every character equally. Focus your resources on a core team of 4 characters — one main DPS, one sub-DPS, and two supports. Investing in too many characters leaves your entire roster underpowered when difficulty spikes occur.\n\n## 2. Ignoring Elemental Reactions\n\nPure damage without reactions is significantly weaker than reaction-based damage. Learn the basic reaction pairs and build teams around elemental synergy. Even simple reactions like overload or freeze provide substantial combat advantages that raw stats cannot match.\n\n## 3. Skipping Daily Tasks\n\nDaily commissions and stamina spending are your primary source of progression materials. Skipping even a few days puts you behind on character development. Make it a habit to log in, spend your stamina, and complete daily tasks before doing other activities.\n\n## 4. Pulling on Every Banner\n\nResist the urge to pull on every limited banner. Save your premium currency for characters that genuinely improve your teams. A focused roster of well-built characters performs better than a large collection of underdeveloped ones.\n\n## 5. Neglecting Weapon Upgrades\n\nWeapons provide a massive stat boost and are often more impactful than character levels. Keep your main DPS's weapon maxed at all times. The investment required for weapon upgrades is much lower than character leveling but provides comparable power gains.\n\n## 6-10: Additional Mistakes\n\nOther common errors include ignoring disk optimization, forgetting to use food buffs, skipping co-op rewards, not reading skill descriptions carefully, and neglecting the talent priority system. Each of these represents missed optimization opportunities that compound over time into significant power differences.\n\n## Summary\n\nPatience and planning are the keys to avoiding these mistakes. Focus on a core team, learn the reaction system, stay consistent with dailies, and invest resources thoughtfully for the best long-term results.",
+    "summary": "异环新手必备的资源规划指南：角色培养优先级、Character Pixel花费、Annulith使用、City Tycoon和新手自选推荐。",
+    "summaryEn": "Essential resource planning guide for NTE beginners: character build priorities, Character Pixel spending, Annulith usage, City Tycoon tips, and free S-rank selector recommendations.",
+    "content": "## 异环新手资源规划指南 — 常见错误与高效起步\n\n新手期是异环（NTE）最关键的阶段，正确的资源分配能让你事半功倍。以下是社区总结的高效起步建议和常见避坑要点。\n\n## 1. 角色培养优先级 — 只养 4-6 人\n\n最常见的错误是同时培养太多角色。异环的资源非常紧张，建议：\n\n- **只集中培养 4-6 个角色**（一个完整队伍 + 1-2 个替补）\n- 核心队伍确定后减到只养 4 人\n\n**推荐培养顺序：**\n1. **小吱** — 免费满命/满觉，零氪战神，优先投入\n2. **娜娜莉** — 限定S级，公测最强主C\n3. **九原/早雾** — 新手自选推荐，核心队友\n4. **薄荷** — 优秀的免费灵属性主C\n5. **零（主角）** — 通用的Cosmos属性循环位\n\n## 2. Character Pixel 花费优先级\n\nCharacter Pixel 是最宝贵的资源之一，每 6 分钟才恢复 1 个。\n\n**花费优先级：**\n1. **角色突破材料** — 最高优先级，卡住就无法升级\n2. **经验材料** — 角色等级不够无法解锁新技能\n3. **Console** — 早期不要投入！等解锁金 Console 后再花\n\n**关键：** 不要在低级 Console 上浪费 Pixel，金 Console 才值得投入。\n\n## 3. Annulith 只花限定池\n\nAnnulith 是最稀有的货币，160 Annulith = 1 次抽卡。\n\n**绝对规则：**\n- ✅ 只用 Annulith 换 **Solid Dice**（限定角色池）\n- ❌ 永远不要换 **Fabricated Dice**（常驻池是永久的，迟早会抽到）\n- ❌ 永远不要用 Annulith 刷新 Character Pixel\n- ✅ 如果已抽到限定角色，可以考虑花一些在 Arc 武器池\n\n## 4. City Tycoon 不要忽视\n\nCity Tycoon 都市大亨玩法占异环近 **一半的游戏内容**，但很多新手完全忽略。\n\n**为什么要重视：**\n- 升级 Tycoon 等级可以解锁钓鱼、赛车、商铺管理等玩法\n- 可以获得**完全觉醒的免费S级角色和签名武器**\n- 每周用 City Stamina 换取 Fons（游戏内通用货币）\n\n**建议：** 主线卡级时转做 City Tycoon 任务，获取大量资源。\n\n## 5. Fons 精打细算\n\nFons 是游戏内通用货币，中后期会非常紧缺。\n\n- 不要急着买车 — 优先升级 Tycoon 等级\n- 每周 City Tycoon 是 Fons 的重要来源\n- 探索 Hethereau 城市可以捡到钱包和杂物换 Fons\n\n## 6. 新手自选推荐\n\n游戏提供免费 S 级角色自选，建议：\n\n- **首选：九原（Jiuyuan）** — 顶级Anima副C，与娜娜莉完美搭配\n- **次选：早雾（Sakiri）** — 聚怪+30% ATK Buff，万能辅助\n- 也可以考虑 **1觉九原/1觉早雾** 如果已有其中之一\n\n## 7. 开荒配队推荐\n\n**平民队伍：** 娜娜莉 + 主角（零） + 薄荷 + 早雾/阿德勒\n\n**进阶队伍：** 娜娜莉 + 咲里 + 零 + 哈索尔（四重 Esper Cycle 反应）\n\n## 8. 日常必做清单\n\n- 完成每日委托（Daily Commissions）\n- 消耗 City Stamina（都市体力）\n- 推主线（解锁更多玩法和区域）\n- 参与限时活动（奖励丰厚，错过不补）\n\n## 9. 常见错误 Top 10\n\n1. ❌ 同时培养 8+ 角色 — 资源严重不足\n2. ❌ 用 Annulith 抽常驻池 — 浪费最稀有货币\n3. ❌ 低级 Console 投入 Pixel — 等金 Console\n4. ❌ 忽视 City Tycoon — 错过免费S级角色和大量资源\n5. ❌ 不了解 Esper Cycle — 配队全凭感觉，不触发反应\n6. ❌ 跳过弹反训练 — 弹反瞬间充满异能量表\n7. ❌ 装备非相邻属性角色 — 无法触发任何 Duo 反应\n8. ❌ 过早追求完美装备 — 先提升角色等级和技能\n9. ❌ 忽视食物系统 — 食物提供战斗buff\n10. ❌ 错过限时活动 — 奖励不会复刻",
+    "contentEn": "## NTE Beginner Resource Planning Guide — Common Mistakes & Efficient Start\n\nThe beginner phase is the most critical stage in Neverness to Everness (NTE). Proper resource allocation will save you weeks of grinding. Here are community-tested tips for an efficient start.\n\n## 1. Character Building Priority — Invest in Only 4-6 Characters\n\nThe most common mistake is investing in too many characters at once. NTE is very strict with resources.\n\n- **Focus on only 4-6 characters** (one full team + 1-2 substitutes)\n- Once your main team is set, reduce to just 4 characters\n\n**Recommended build order:**\n1. **Xiaozhi** — Free max awakening, zero-cost powerhouse, invest first\n2. **Nanally** — Limited S-rank, strongest main DPS at launch\n3. **Jiuyuan or Sakiri** — Beginner selector picks, core teammates\n4. **Mint** — Excellent free Anima main DPS\n5. **Esper Zero** — Versatile Cosmos element cycler\n\n## 2. Character Pixel Spending Priority\n\nCharacter Pixels are among the most precious resources — only regenerating 1 every 6 minutes.\n\n**Priority order:**\n1. **Character ascension materials** — Highest priority, blocks progression\n2. **EXP materials** — Without levels, you can't unlock new skills\n3. **Console** — Do NOT invest early! Wait for Golden Console unlocks\n\n**Key:** Never waste Pixels on low-tier Console. Only Golden Console is worth the investment.\n\n## 3. Annulith — Only Spend on Limited Banners\n\nAnnulith is the rarest currency: 160 Annulith = 1 pull.\n\n**Absolute rules:**\n- ✅ Only use Annulith for **Solid Dice** (limited character banner)\n- ❌ NEVER spend on **Fabricated Dice** (standard banner is permanent, you'll pull eventually)\n- ❌ NEVER use Annulith to refresh Character Pixels\n- ✅ If you already have the limited character, consider spending some on the Arc weapon banner\n\n## 4. Don't Ignore City Tycoon\n\nCity Tycoon makes up nearly **half of NTE's gameplay content**, but many beginners completely skip it.\n\n**Why it matters:**\n- Leveling up Tycoon unlocks fishing, racing, shop management\n- You can earn a **fully awakened free S-rank character and signature Arc**\n- Weekly City Stamina converts to Fons (in-game currency)\n\n**Tip:** When stuck on main story level requirements, switch to City Tycoon tasks for resources.\n\n## 5. Manage Your Fons Wisely\n\nFons are the general in-game currency and become very scarce in mid-to-late game.\n\n- Don't rush to buy vehicles — prioritize Tycoon level upgrades\n- Weekly City Tycoon is a major Fons source\n- Explore Hethereau city for dropped wallets and items that convert to Fons\n\n## 6. Beginner S-Rank Selector Recommendations\n\nThe game offers a free S-rank character selector:\n\n- **First choice: Jiuyuan** — Top-tier Anima sub-DPS, perfect synergy with Nanally\n- **Second choice: Sakiri** — Grouping + 30% Team ATK buff, universal support\n- Consider **1st Awakening Jiuyuan/Sakiri** if you already have one\n\n## 7. Starter Team Compositions\n\n**F2P Team:** Nanally + Esper Zero + Mint + Sakiri/Adler\n\n**Advanced Team:** Nanally + Sakiri + Esper Zero + Hathor (quad Esper Cycle reactions)\n\n## 8. Daily Checklist\n\n- Complete Daily Commissions\n- Spend City Stamina\n- Progress Main Story (unlocks more features and areas)\n- Participate in Limited Events (generous rewards, no reruns)\n\n## 9. Top 10 Common Mistakes\n\n1. ❌ Investing in 8+ characters at once — severe resource shortage\n2. ❌ Using Annulith on standard banner — wastes rarest currency\n3. ❌ Spending Pixels on low-tier Console — wait for Golden\n4. ❌ Ignoring City Tycoon — misses free S-rank and massive resources\n5. ❌ Not understanding Esper Cycle — team building blindly, no reactions triggered\n6. ❌ Skipping parry practice — Perfect Parry instantly fills Esper Meter\n7. ❌ Running non-adjacent element teams — can't trigger any Duo reactions\n8. ❌ Chasing perfect gear too early — level characters and skills first\n9. ❌ Ignoring food system — food provides combat buffs\n10. ❌ Missing limited events — rewards don't get reruns",
     "tags": [
       "新手",
-      "错误",
-      "避坑",
+      "资源规划",
+      "常见错误",
+      "角色培养",
       "beginner",
+      "resource",
       "mistakes"
     ],
-    "relatedCharacters": [],
+    "relatedCharacters": [
+      "nanally",
+      "xiaozhi",
+      "jiuyuan",
+      "sakiri",
+      "mint",
+      "zero-male"
+    ],
     "relatedLocations": [],
     "relatedLore": [],
-    "faq": [],
-    "date": "2026-04-29"
+    "faq": [
+      {
+        "question": "What should I focus on first as a beginner in NTE?",
+        "questionZh": "异环新手应该优先做什么？",
+        "answer": "Focus on leveling 4 core characters first. Prioritize Xiaozhi (free max awakening), then your main DPS (Nanally if you have her). Progress the main story to unlock features, and don't ignore City Tycoon — it provides a free S-rank character and signature weapon.",
+        "answerZh": "优先培养4个核心角色。先投入小吱（免费满觉），然后培养主C（如果有娜娜莉）。推主线解锁更多玩法，不要忽视City Tycoon——它提供免费S级角色和签名武器。"
+      },
+      {
+        "question": "Should I spend Annulith on the standard banner in NTE?",
+        "questionZh": "异环应该用原石（Annulith）抽常驻池吗？",
+        "answer": "No. Never spend Annulith on Fabricated Dice (standard banner). The standard banner is permanent — you'll eventually get those characters. Only use Annulith for Solid Dice (limited character banner). If you already have the limited character, you can consider spending some on the Arc weapon banner.",
+        "answerZh": "绝对不要。永远不要用Annulith换Fabricated Dice（常驻池）。常驻池是永久的，迟早会抽到。只用Annulith换Solid Dice（限定角色池）。如果已有限定角色，可以适当花一些在Arc武器池。"
+      },
+      {
+        "question": "Who should I pick from the free S-rank selector in NTE?",
+        "questionZh": "异环免费S级自选选谁？",
+        "answer": "Jiuyuan is the top pick — she's a top-tier Anima sub-DPS with perfect synergy for Nanally teams. Sakiri is the second best choice — she provides grouping and a 30% Team ATK buff (another 30% at Awakening 1), making her a universal support that fits any team.",
+        "answerZh": "首选九原——顶级灵属性副C，和娜娜莉配队完美。次选早雾——聚怪+30%全队ATK Buff（1觉再加30%），是万能辅助，适配任何队伍。"
+      },
+      {
+        "question": "How should I spend Character Pixels in NTE?",
+        "questionZh": "异环Character Pixel应该怎么花？",
+        "answer": "Priority order: (1) Character ascension materials — this blocks progression, (2) EXP materials for leveling, (3) Console — ONLY after unlocking Golden Console tier. Never spend Pixels on low-tier Console. Pixels regenerate at only 1 per 6 minutes, so spend wisely.",
+        "answerZh": "优先级：(1) 角色突破材料——卡住就无法升级，(2) 经验材料提升等级，(3) Console——只等解锁金Console后再投入。永远不要在低级Console上花Pixel。Pixel每6分钟才恢复1个，必须精打细算。"
+      },
+      {
+        "question": "What is the biggest mistake new NTE players make?",
+        "questionZh": "异环新手最大的错误是什么？",
+        "answer": "The #1 mistake is investing in too many characters at once. Resources are extremely limited — focus on just 4-6 characters max, and reduce to 4 once your team is set. One strong team is always better than multiple mediocre ones.",
+        "answerZh": "最大的错误是同时培养太多角色。资源极其有限——最多只养4-6个角色，队伍确定后减到4人。一个强力队伍永远胜过多个平庸队伍。"
+      }
+    ],
+    "date": "2026-05-25"
   },
   {
     "id": "f2p-guide",

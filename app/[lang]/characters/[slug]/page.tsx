@@ -17,6 +17,7 @@ import { CharacterSummary } from "../../../../components/CharacterSummary";
 import { SkillDetail } from "../../../../components/SkillDetail";
 import { BuildRecommendation } from "../../../../components/BuildRecommendation";
 import { TeamCompCard } from "../../../../components/TeamCompCard";
+import { RotationGuide } from "../../../../components/RotationGuide";
 import { TierBadge } from "../../../../components/TierBadge";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
@@ -182,6 +183,17 @@ export default async function CharacterDetailPage({
         {/* Recommended Build */}
         {character.recommendedBuild && (
           <BuildRecommendation build={character.recommendedBuild} locale={locale} />
+        )}
+
+        {/* Rotation Guide */}
+        {character.rotation && (
+          <RotationGuide
+            steps={character.rotation.steps}
+            tips={character.rotation.tips}
+            tipsEn={character.rotation.tipsEn}
+            locale={locale}
+            lang={lang}
+          />
         )}
 
         {/* Team Compositions */}
