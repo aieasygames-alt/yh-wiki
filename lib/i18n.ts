@@ -1,15 +1,10 @@
 import zh from "../messages/zh.json";
 import en from "../messages/en.json";
 import tw from "../messages/tw.json";
-import th from "../messages/th.json";
-import vi from "../messages/vi.json";
-import id from "../messages/id.json";
-import ja from "../messages/ja.json";
-import ko from "../messages/ko.json";
 
-export type Locale = "zh" | "tw" | "en" | "th" | "vi" | "id" | "ja" | "ko";
+export type Locale = "zh" | "tw" | "en";
 
-export const LOCALES: readonly Locale[] = ["zh", "tw", "en", "th", "vi", "id", "ja", "ko"];
+export const LOCALES: readonly Locale[] = ["zh", "tw", "en"];
 
 /** Map locale code to valid HTML lang attribute */
 export function toHtmlLang(locale: string): string {
@@ -17,11 +12,6 @@ export function toHtmlLang(locale: string): string {
     zh: "zh",
     tw: "zh-Hant",
     en: "en",
-    th: "th",
-    vi: "vi",
-    id: "id",
-    ja: "ja",
-    ko: "ko",
   };
   return map[locale] || locale;
 }
@@ -32,11 +22,6 @@ function toHreflang(locale: string): string {
     zh: "zh",
     tw: "zh-Hant",
     en: "en",
-    th: "th",
-    vi: "vi",
-    id: "id",
-    ja: "ja",
-    ko: "ko",
   };
   return map[locale] || locale;
 }
@@ -46,11 +31,6 @@ export const LOCALE_NATIVE_NAME: Record<Locale, string> = {
   zh: "中文",
   tw: "繁體中文",
   en: "English",
-  th: "ภาษาไทย",
-  vi: "Tiếng Việt",
-  id: "Bahasa Indonesia",
-  ja: "日本語",
-  ko: "한국어",
 };
 
 export function isLocale(value: string): value is Locale {
@@ -61,7 +41,7 @@ export function asLocale(value: string): Locale {
   return isLocale(value) ? value : "en";
 }
 
-const messages: Record<Locale, Record<string, unknown>> = { zh, tw, en, th, vi, id, ja, ko };
+const messages: Record<Locale, Record<string, unknown>> = { zh, tw, en };
 
 export function getMessages(locale: string) {
   const loc = asLocale(locale);
@@ -101,26 +81,12 @@ function buildHreflangMap(pathFn: (locale: Locale) => string): Record<string, st
   return languages;
 }
 
-/**
- * Locales with actual translated content. Others fall back to English,
- * so their canonical should point to the English version to avoid
- * Google flagging them as duplicate content.
- */
-export const TRANSLATED_LOCALES: ReadonlySet<string> = new Set(["zh", "tw", "en"]);
-
-/** Whether a locale has its own translated content (not falling back to English) */
-export function hasTranslation(locale: string): boolean {
-  return TRANSLATED_LOCALES.has(asLocale(locale));
-}
-
 /** Generate hreflang alternates for a given path (without leading /) */
 export function hreflangAlternates(pathWithoutLang: string, lang: string) {
   const urlWithSlash = `${pathWithoutLang}/`;
   const locale = asLocale(lang);
-  // Point canonical to English for untranslated locales to avoid duplicate content flags
-  const canonicalLocale = hasTranslation(locale) ? locale : "en";
   return {
-    canonical: `${BASE_URL}/${canonicalLocale}/${urlWithSlash}`,
+    canonical: `${BASE_URL}/${locale}/${urlWithSlash}`,
     languages: buildHreflangMap((l) => `${BASE_URL}/${l}/${urlWithSlash}`),
   };
 }
@@ -128,9 +94,8 @@ export function hreflangAlternates(pathWithoutLang: string, lang: string) {
 /** Generate hreflang alternates for index page (no sub-path) */
 export function hreflangAlternatesIndex(lang: string) {
   const locale = asLocale(lang);
-  const canonicalLocale = hasTranslation(locale) ? locale : "en";
   return {
-    canonical: `${BASE_URL}/${canonicalLocale}/`,
+    canonical: `${BASE_URL}/${locale}/`,
     languages: buildHreflangMap((l) => `${BASE_URL}/${l}/`),
   };
 }

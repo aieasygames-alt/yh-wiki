@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 /**
- * Generate Cloudflare Pages _redirects file for trailing slash normalization.
+ * Generate Cloudflare Pages _redirects file.
  *
- * After `trailingSlash: true` + `next build`, all pages are directories:
- *   out/en/redeem-codes/index.html
+ * Only copies manual redirect rules from public/_redirects.manual.
+ * Trailing slash normalization is NO LONGER needed — Cloudflare Pages
+ * natively serves both /path and /path/ from /path/index.html, and
+ * the HTML <link rel="canonical"> tells Google which version to use.
  *
- * This script scans out/ and generates redirect rules so that:
- *   /en/redeem-codes  →  /en/redeem-codes/  (301)
- *
- * Preserves existing manual redirect rules from public/_redirects.manual
- * (or falls back to hardcoded defaults).
+ * Previously this script generated 9,232 trailing-slash redirect rules,
+ * which exceeded Cloudflare's 2,000-rule limit and caused 9,484 pages
+ * to be flagged as "Page with redirect" in Google Search Console.
  */
 
 const fs = require("fs");
@@ -20,85 +20,28 @@ const OUT = path.join(ROOT, "out");
 const PUBLIC_REDIRECTS = path.join(ROOT, "public", "_redirects");
 const MANUAL_REDIRECTS = path.join(ROOT, "public", "_redirects.manual");
 
-/**
- * Walk out/ and find all routes that have an index.html
- * (these are the trailing-slash URLs Next.js generated).
- */
-function collectRoutes(outDir) {
-  const routes = [];
-
-  function walk(dir, prefix) {
-    const entries = fs.readdirSync(dir, { withFileTypes: true });
-    for (const entry of entries) {
-      // Skip _next, static assets, and dot files
-      if (entry.name.startsWith("_") || entry.name.startsWith(".")) continue;
-      if (entry.name.endsWith(".xml") || entry.name.endsWith(".txt") || entry.name.endsWith(".json")) continue;
-
-      const fullPath = path.join(dir, entry.name);
-      if (entry.isDirectory()) {
-        // Check if this directory has index.html — it's a route
-        const indexPath = path.join(fullPath, "index.html");
-        if (fs.existsSync(indexPath)) {
-          routes.push(prefix + "/" + entry.name);
-        }
-        // Recurse into subdirectories
-        walk(fullPath, prefix + "/" + entry.name);
-      }
-    }
-  }
-
-  if (fs.existsSync(outDir)) {
-    walk(outDir, "");
-  }
-  return routes;
-}
-
-/**
- * Read manual redirect rules from public/_redirects.manual.
- * This file is maintained manually and prepended to generated rules.
- */
-function readManualRules() {
-  if (fs.existsSync(MANUAL_REDIRECTS)) {
-    return fs.readFileSync(MANUAL_REDIRECTS, "utf-8").trim();
-  }
-  // Default manual rules
-  return [
-    "# Root redirect - permanent",
-    "/ /zh/ 301",
-    "",
-    "# Language roots - ensure trailing slash",
-    "/zh /zh/ 301",
-    "/en /en/ 301",
-  ].join("\n");
-}
-
 // --- Main ---
 
-console.log("Generating _redirects for trailing slash normalization...");
+console.log("Generating _redirects from manual rules...");
 
-const manualRules = readManualRules();
-const routes = collectRoutes(OUT);
+let rules = "";
+if (fs.existsSync(MANUAL_REDIRECTS)) {
+  rules = fs.readFileSync(MANUAL_REDIRECTS, "utf-8").trim();
+} else {
+  // Minimal fallback
+  rules = ["# Root redirect", "/ /zh/ 301"].join("\n");
+}
 
-console.log(`  Found ${routes.length} routes with trailing slash`);
+const output = rules + "\n";
 
-const generatedRules = routes
-  .map((route) => `${route} ${route}/ 301`)
-  .join("\n");
-
-const output = [
-  manualRules,
-  "",
-  "# Auto-generated trailing slash redirects (do not edit manually)",
-  generatedRules,
-  "",
-].join("\n");
-
-// Write to out/_redirects (build output, not public/)
+// Write to out/_redirects (build output)
 const outRedirects = path.join(OUT, "_redirects");
 fs.writeFileSync(outRedirects, output, "utf-8");
-console.log(`  Written ${routes.length} redirect rules to out/_redirects`);
 
-// Also update public/_redirects for consistency (for next build cycle)
+const ruleCount = output.split("\n").filter((l) => l.trim() && !l.startsWith("#")).length;
+console.log(`  Written ${ruleCount} redirect rules to out/_redirects`);
+
+// Also update public/_redirects for consistency
 fs.writeFileSync(PUBLIC_REDIRECTS, output, "utf-8");
 console.log("  Updated public/_redirects");
 console.log("Done.");

@@ -39,10 +39,18 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
   const description = isZhLocale(locale)
     ? `异环(NTE)Wiki中与"${tag}"相关的全部内容，包括角色、武器、攻略、FAQ等。`
     : `Browse all Neverness to Everness content tagged with "${tag}" — characters, weapons, guides, and more.`;
+
+  // Count items to decide noindex for thin tag pages
+  const sources = collectSources();
+  const tagLower = tag.toLowerCase();
+  const matched = sources.filter((s) => s.tags.some((t) => t.toLowerCase() === tagLower));
+
   return {
     title: `${title} | NTE Guide`,
     description,
     alternates: hreflangAlternates(`tags/${tag}`, lang),
+    // Thin tag pages (< 4 items) waste crawl budget — noindex them
+    ...(matched.length < 4 ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
