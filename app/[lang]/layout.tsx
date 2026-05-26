@@ -9,7 +9,7 @@ import type { Locale } from "../../lib/i18n";
 
 const GA_ID = "G-KLVBV8S58R";
 
-export async function generateMetadata({ params }: { params: { lang: string } }) {
+export async function generateMetadata() {
   return {};
 }
 
