@@ -12,11 +12,6 @@ const LANG_MAP: Record<Locale, string> = {
   zh: "zh-CN",
   tw: "zh-TW",
   en: "en",
-  th: "th",
-  vi: "vi",
-  id: "id",
-  ja: "ja",
-  ko: "ko",
 };
 
 interface GiscusCommentsProps {
