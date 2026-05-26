@@ -31,9 +31,7 @@ export async function generateMetadata({
     ? (faq.seoDescriptionZh || faq.answer.slice(0, 160))
     : (faq.seoDescriptionEn || faq.answerEn.slice(0, 160));
   // For non-zh/en locales, append locale name to avoid duplicate titles
-  const title = (!isZh && locale !== "en")
-    ? `${baseTitle} (${locale.toUpperCase()})`
-    : baseTitle;
+  const title = baseTitle;
 
   return {
     title,

@@ -18,16 +18,12 @@ export async function generateMetadata({
     ? "異環FAQ — 下載安裝、聯機多人、配置要求、兌換碼、抽卡保底等50+常見問題解答"
     : isZh
       ? "异环FAQ — 下载安装、联机多人、配置要求、兑换码、抽卡保底等50+常见问题解答"
-      : locale === "en"
-        ? enBaseTitle
-        : `${enBaseTitle} (${locale.toUpperCase()})`;
+      : enBaseTitle;
   const description = isTw
     ? "異環(NTE)常見問題即時解答：怎麼下載？可以聯機嗎？配置要求？兌換碼怎麼用？抽卡保底機制？一次性解答所有新手疑問。"
     : isZh
       ? "异环(NTE)常见问题即时解答：怎么下载安装？可以联机吗？手机配置够吗？兑换码怎么用？抽卡保底机制？一次解答所有新手疑问。"
-      : locale === "en"
-        ? enBaseDesc
-        : `${enBaseDesc} In ${locale.toUpperCase()}.`;
+      : enBaseDesc;
   return {
     title,
     description,

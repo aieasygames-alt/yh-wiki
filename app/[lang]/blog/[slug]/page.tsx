@@ -50,9 +50,7 @@ export async function generateMetadata({
   const baseTitle = isZh ? post.title : post.titleEn;
   const description = isZh ? post.summary : post.summaryEn;
   // For non-zh/en locales, append locale name to avoid duplicate titles
-  const title = (!isZh && locale !== "en")
-    ? `${baseTitle} (${locale.toUpperCase()})`
-    : baseTitle;
+  const title = baseTitle;
   return {
     title,
     description,
