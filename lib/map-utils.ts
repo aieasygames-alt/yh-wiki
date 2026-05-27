@@ -71,9 +71,12 @@ export const DEFAULT_BOUNDS: L.LatLngBoundsExpression = [
   [0, 100],
 ];
 
-/** Convert a marker's x/y to Leaflet lat/lng (swap axes — raw coords are rotated 90° relative to map image) */
+/** Convert a marker's x/y to Leaflet lat/lng.
+ *  x = rawX/4096*100 (percentage left→right in game coords)
+ *  y = (4096-rawY)/4096*100 (percentage top→bottom, Y flipped from raw)
+ *  With the map image rotated 90° CCW, lat maps to y-axis and lng to x-axis. */
 export function markerToLatLng(marker: MapMarker): LatLngTuple {
-  return [marker.x, marker.y];
+  return [marker.y, marker.x];
 }
 
 /** Get bounds for a map, falling back to DEFAULT_BOUNDS */
