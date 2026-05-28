@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-05-25
+> Generated: 2026-05-28
 
 ## Characters (42)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -408,7 +408,10 @@
 - NTE 1.1 Banner Schedule — Who's Next? Pull Roadmap & Timeline
 - NTE Free S-Rank Selector Box — Which Character Should You Pick?
 
-## Active Redeem Codes (3)
-- DREAMWALK0603: Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000
-- TOMATO100: Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000
-- RACENOLIMIT: Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000
+## Active Redeem Codes (6)
+- NTE429vtuber: Fons x30,000, Beetle Coin x30,000
+- NTEFREE: Fons x30,000
+- NTEvtuber200: Fons x10,000, Beetle Coin x10,000
+- NTEWINFONS: Fons x20,000
+- NTEFUNGAME: Fons x10,000
+- NTENENE: Fons x10,000, DynamiK Zero x10, Clicky Fries x10

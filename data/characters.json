@@ -438,8 +438,8 @@
     "nameEn": "Fadia",
     "attribute": "psyche",
     "rank": "S",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -637,7 +637,7 @@
     "cvJpEn": "Kei Shindo",
     "cvEn": "Amber Lee Connors",
     "trait": "投身损耗的迷狂",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": "eternal-waltz",
     "rotation": {
       "steps": [
@@ -672,8 +672,8 @@
     "nameEn": "Lacrimosa",
     "attribute": "chaos",
     "rank": "S",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "液体",
+    "weaponEn": "Liquid",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "ETD-4",
@@ -757,37 +757,37 @@
       "awakening": [
         {
           "name": "噩梦倍增",
-          "nameEn": "Nightmare Amplification",
+          "nameEn": "Clock Out Clemency",
           "level": 1,
           "description": "噩梦的伤害倍率提升50%"
         },
         {
           "name": "入轨强化",
-          "nameEn": "Orbital Enhancement",
+          "nameEn": "Rise and Shine",
           "level": 2,
           "description": "通过入轨攻击入场时伤害提升15%，持续15秒"
         },
         {
           "name": "噩梦清算",
-          "nameEn": "Nightmare Settlement",
+          "nameEn": "Molten Ice Cream",
           "level": 3,
           "description": "第5段酸甜口味的制裁命中时一次性结算目标全部噩梦效果"
         },
         {
           "name": "噩梦延长",
-          "nameEn": "Nightmare Extension",
+          "nameEn": "Almighty Lord of Tomatoes",
           "level": 4,
           "description": "噩梦状态持续时间延长至6秒"
         },
         {
           "name": "噩梦侵蚀",
-          "nameEn": "Nightmare Erosion",
+          "nameEn": "Tempered Glass Judgement",
           "level": 5,
           "description": "目标受到治疗时不再移除噩梦层数，并基于噩梦伤害值的200%削减目标生命上限"
         },
         {
           "name": "即时入轨",
-          "nameEn": "Instant Orbital",
+          "nameEn": "Morning Spell",
           "level": 6,
           "description": "释放恶魔的礼物后5秒内，从特定角色切换至安魂曲时无需累计环合系数即可自动释放入轨攻击"
         }
@@ -795,21 +795,21 @@
       "resonance": [
         {
           "name": "困倦的火焰在心中燃烧",
-          "nameEn": "Drowsy Flame Burning Within",
+          "nameEn": "The Heart's Drowsy Flames",
           "awakenReq": 3,
           "description": "酸甜口味的制裁、起床气加载中、恶魔的礼物、工作日的最终审判技能等级+1"
         },
         {
           "name": "美梦的时刻即将来临",
-          "nameEn": "The Moment of Sweet Dreams Approaches",
+          "nameEn": "Lullaby",
           "awakenReq": 6,
           "description": "安魂曲造成的伤害无视目标10%防御力"
         }
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异能构装体·破晓",
-      "bestWeaponEn": "Esper Constructs - Dawn",
+      "bestWeapon": "最后一朵玫瑰",
+      "bestWeaponEn": "The Last Rose",
       "alternativeWeapons": [
         {
           "id": "kiroumaru",
@@ -876,7 +876,7 @@
     "image": "/images/characters/lacrimosa.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
-    "descriptionEn": "Lacrimosa is a Chaos-attribute S-rank Attack character in NTE version 1.1, wielding Synthesis-type weapons. As a summoner DPS, she excels at AoE damage through her mechanical constructs. Featured on the 1.1 Phase 1 limited banner (May 28 – June 11, 2026), Lacrimosa is the first Chaos summoner in the game, making her a top pick for Chaos-element team compositions.",
+    "descriptionEn": "Lacrimosa is a Chaos-attribute S-rank Attack character in NTE version 1.1, wielding Liquid-type weapons. As a summoner DPS, she excels at AoE damage through her mechanical constructs. Featured on the 1.1 Phase 1 limited banner (May 28 – June 18, 2026), Lacrimosa is the first Chaos summoner in the game, making her a top pick for Chaos-element team compositions.",
     "status": "available",
     "nameTw": "拉克莉莫薩",
     "cvZh": "宴宁",
@@ -884,8 +884,8 @@
     "cvJpEn": "Maria Naganawa",
     "cvEn": "Baraka May",
     "trait": "高难度梦游",
-    "arcType": "synthesis",
-    "signatureArc": ""
+    "arcType": "liquid",
+    "signatureArc": "The Last Rose"
   },
   {
     "id": "baicang",
@@ -893,8 +893,8 @@
     "nameEn": "Baicang",
     "attribute": "incantation",
     "rank": "S",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "防护",
     "roleEn": "Defense",
     "faction": "ETD-4",
@@ -1101,7 +1101,7 @@
     "cvJpEn": "Yuichi Nakamura",
     "cvEn": "Griffin Burns",
     "trait": "言灵使",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": "camellia-society",
     "rotation": {
       "steps": [
@@ -2331,8 +2331,8 @@
     "nameEn": "Adler",
     "attribute": "incantation",
     "rank": "A",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "Eibon Antique Shop",
@@ -2485,7 +2485,7 @@
     "cvJp": "森川智之",
     "cvJpEn": "Toshiyuki Morikawa",
     "cvEn": "Jacob Craner",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": ""
   },
   {
@@ -3558,8 +3558,8 @@
     "nameEn": "Taygedo",
     "attribute": "cosmos",
     "rank": "A",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "支援",
     "roleEn": "Support",
     "faction": "Eibon Antique Shop",
@@ -3720,7 +3720,7 @@
     "descriptionEn": "A bizarre creature at the Eibon Antique Shop with a TV head displaying a dog face. Three-time winner of the \"Eibon Best Repair Specialist\" award. A Cosmos-attribute A-rank support character.",
     "status": "upcoming",
     "nameTw": "泰格多",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": ""
   },
   {
@@ -4474,8 +4474,8 @@
     "nameEn": "Mismo",
     "attribute": "chaos",
     "rank": "A",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "支援",
     "roleEn": "Support",
     "faction": "星铁快递",
@@ -4634,7 +4634,7 @@
     "descriptionEn": "A character appearing in the game's trailer, a Chaos-attribute Esper. Full details await the official launch.",
     "status": "upcoming",
     "nameTw": "密斯莫",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": ""
   },
   {
@@ -6171,8 +6171,8 @@
     "nameEn": "Renee",
     "attribute": "psyche",
     "rank": "A",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "辅助",
     "roleEn": "Support",
     "faction": "异常管理局",
@@ -6333,7 +6333,7 @@
     "acquisitionMethod": "future",
     "status": "upcoming",
     "nameTw": "蕾妮",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": ""
   },
   {
@@ -6855,8 +6855,8 @@
     "nameEn": "Sylphy",
     "attribute": "anima",
     "rank": "S",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "辅助",
     "roleEn": "Support",
     "faction": "星铁快递",
@@ -7017,7 +7017,7 @@
     "acquisitionMethod": "future",
     "status": "upcoming",
     "nameTw": "希爾菲",
-    "arcType": "synthesis",
+    "arcType": "condensate",
     "signatureArc": ""
   },
   {
@@ -7508,8 +7508,8 @@
     "nameEn": "Chaos",
     "attribute": "lakshana",
     "rank": "S",
-    "weapon": "合成",
-    "weaponEn": "Synthesis",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
     "role": "进攻",
     "roleEn": "Attack",
     "faction": "待定",
@@ -7615,13 +7615,13 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
     "descriptionEn": "The first S-rank limited male character in Neverness to Everness, debuting in Version 1.1's 'A Research in Scarlet' main episode.",
-    "status": "available",
+    "status": "upcoming",
     "nameTw": "卡厄斯",
     "cvZh": "待定",
     "cvJp": "待定",
     "cvEn": "TBD",
     "trait": "待定",
-    "arcType": "synthesis",
-    "signatureArc": ""
+    "arcType": "condensate",
+    "signatureArc": "What's Desired"
   }
 ]

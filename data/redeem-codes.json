@@ -1,9 +1,69 @@
 [
   {
+    "code": "NTE429vtuber",
+    "reward": "芬斯x30000、甲硬币x30000",
+    "rewardEn": "Fons x30,000, Beetle Coin x30,000",
+    "status": "active",
+    "expiresAt": "2026-05-31",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-04-29"
+  },
+  {
+    "code": "NTEFREE",
+    "reward": "芬斯x30000",
+    "rewardEn": "Fons x30,000",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-05-01"
+  },
+  {
+    "code": "NTEvtuber200",
+    "reward": "芬斯x10000、甲硬币x10000",
+    "rewardEn": "Fons x10,000, Beetle Coin x10,000",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-05-01"
+  },
+  {
+    "code": "NTEWINFONS",
+    "reward": "芬斯x20000",
+    "rewardEn": "Fons x20,000",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-04-29"
+  },
+  {
+    "code": "NTEFUNGAME",
+    "reward": "芬斯x10000",
+    "rewardEn": "Fons x10,000",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-04-29"
+  },
+  {
+    "code": "NTENENE",
+    "reward": "芬斯x10000、动感零x10、脆脆薯条x10",
+    "rewardEn": "Fons x10,000, DynamiK Zero x10, Clicky Fries x10",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-04-29"
+  },
+  {
     "code": "DREAMWALK0603",
     "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
     "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
@@ -13,7 +73,7 @@
     "code": "TOMATO100",
     "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
     "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
@@ -23,7 +83,7 @@
     "code": "RACENOLIMIT",
     "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
     "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",

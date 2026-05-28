@@ -33,13 +33,14 @@
 /zh/faq/download-size /zh/system-requirements/ 301
 /tw/faq/download-size /tw/system-requirements/ 301
 
-# FAQ -> dedicated pages (download-install-guide)
+# FAQ -> dedicated pages (download-install → download guide)
 /en/faq/download-installation /en/guides/download-install-guide/ 301
 /zh/faq/download-installation /zh/guides/download-install-guide/ 301
 /tw/faq/download-installation /tw/guides/download-install-guide/ 301
-/en/faq/download-size /en/guides/download-install-guide/ 301
-/zh/faq/download-size /zh/guides/download-install-guide/ 301
-/tw/faq/download-size /tw/guides/download-install-guide/ 301
+# Blog post competing with dedicated page → consolidate
+/en/blog/nte-system-requirements-can-you-run-it /en/system-requirements/ 301
+/zh/blog/nte-system-requirements-can-you-run-it /zh/system-requirements/ 301
+/tw/blog/nte-system-requirements-can-you-run-it /tw/system-requirements/ 301
 
 # Character renamed/merged
 /en/characters/the-appraiser /en/characters/zero/ 301

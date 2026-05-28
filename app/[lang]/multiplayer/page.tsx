@@ -30,9 +30,9 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環多人聯機 & 跨平台存檔 — 4人組隊、跨平台連線教學 | NTE Guide"
-      : "异环多人联机 & 跨平台存档 — 4人组队、跨平台连线教学 | NTE Guide")
-    : "NTE Multiplayer & Co-op — How to Play With Friends, Cross-Platform Save";
+      ? "異環多人聯機 & 跨平台存檔 — 4人組隊、跨平台連線教學（2026）"
+      : "异环多人联机 & 跨平台存档 — 4人组队、跨平台连线教学（2026）")
+    : "Is NTE Multiplayer? Co-op & Online Features Explained (2026)";
   const description = isZhLocale(locale)
     ? (locale === "tw"
       ? "異環（NTE）多人聯機完整教學：4人組隊合作、跨平台存檔同步、Pink Paws 社交系統、聯機解鎖條件、匹配問題排查。"
@@ -199,7 +199,7 @@ export default async function MultiplayerPage({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {[
               { label: isZhLocale(locale) ? "配置要求" : "System Requirements", href: `/${lang}/system-requirements` },
-              { label: isZhLocale(locale) ? "下载安装" : "Download Guide", href: `/${lang}/guides/download-install-guide` },
+              { label: isZhLocale(locale) ? "下载安装" : "Download & Install", href: `/${lang}/system-requirements` },
               { label: isZhLocale(locale) ? "新手攻略" : "Beginner Guide", href: `/${lang}/guides/beginner-quick-start` },
             ].map((link) => (
               <Link

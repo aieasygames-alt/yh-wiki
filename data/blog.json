@@ -1,5 +1,111 @@
 [
   {
+    "id": "is-nte-pay-to-win",
+    "title": "异环氪金吗？零氪能玩吗？完整P2W分析与零氪路线规划（2026）",
+    "titleTw": "異環氪金嗎？零氪能玩嗎？完整P2W分析與零氪路線規劃（2026）",
+    "titleEn": "Is NTE Pay to Win? F2P Viability, Gacha Costs & Spending Guide (2026)",
+    "category": "analysis",
+    "categoryZh": "深度分析",
+    "categoryEn": "Analysis",
+    "date": "2026-05-28",
+    "tags": [
+      "f2p",
+      "p2w",
+      "gacha",
+      "spending",
+      "analysis",
+      "beginner"
+    ],
+    "summary": "异环到底氪不氪？本文从抽卡成本、免费资源获取、保底机制和竞品对比四个维度，全面分析NTE的付费程度和零氪可行性。",
+    "summaryTw": "異環到底氪不氪？本文從抽卡成本、免費資源獲取、保底機制和競品對比四個維度，全面分析NTE的付費程度和零氪可行性。",
+    "summaryEn": "Is Neverness to Everness pay to win? We break down gacha costs, free resources, pity mechanics, and compare NTE's monetization to Genshin Impact and Wuthering Waves.",
+    "internalLinks": [
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      },
+      {
+        "href": "/blog/nte-f2p-complete-resource-guide",
+        "label": "零氪资源规划",
+        "labelEn": "F2P Resource Guide"
+      },
+      {
+        "href": "/guides/gacha-system",
+        "label": "抽卡系统详解",
+        "labelEn": "Gacha System Guide"
+      },
+      {
+        "href": "/calculator/build",
+        "label": "Build计算器",
+        "labelEn": "Build Calculator"
+      }
+    ],
+    "content": "异环（NTE）氪金程度如何？零氪玩家能不能完整体验游戏？这是公测以来搜索量最高的问题之一。本文从抽卡成本、免费资源、保底机制和竞品对比四个维度给出全面分析。\n\n## 核心结论\n\n**异环不是传统意义上的Pay to Win游戏。** 原因：\n\n1. **没有50/50机制**：保底必得当期UP角色，这是相比原神最大的优势\n2. **免费S级角色**：游戏赠送免费S级自选箱\n3. **全部PVE内容**：目前没有排名/竞技场，不逼氪\n4. **90抽硬保底**：成本可预期，不存在无底洞\n\n但如果你追求全收集或追求全角色满觉醒，那花费会很高。\n\n## 一、抽卡系统成本分析\n\n异环使用独特的「Scarborough Fair」棋盘式抽卡系统：\n\n- **单抽价格**：约160环石（等同原石）\n- **90抽硬保底**：必得当期UP角色\n- **无50/50**：不丢失保底到常驻\n- **保底继承**：同类型池之间保底进度继承\n\n### 抽卡成本估算\n\n| 抽取数量 | 花费（约） | 说明 |\n|---------|-----------|------|\n| 90抽（保底） | ~$100 | 必得UP角色 |\n| 180抽 | ~$200 | 2个限定S级 |\n| 360抽 | ~$400 | 4个限定S级 |\n\n### 与原神对比\n\n| 对比项 | 异环（NTE） | 原神 |\n--------|------------|------|\n| 保底机制 | 90抽必得UP | 180抽才保底UP（有50/50） |\n| 50/50 | 无 | 有 |\n| 免费S级 | 有（自选箱） | 无 |\n| 抽卡继承 | 有 | 有 |\n| 单抽成本 | 类似 | 类似 |\n\n**结论**：同等投入下，异环的角色获取效率约为原神的2倍（因为没有50/50）。\n\n## 二、免费资源获取量\n\n### 版本周期内可获得的免费资源（估算）\n\n| 来源 | 环石数量 | 说明 |\n|------|---------|------|\n| 日常/周常 | ~3000 | 每日10分钟完成 |\n| 版本活动 | ~2000 | 主线+活动奖励 |\n| 探索收集 | ~1500 | 一次性奖励 |\n| 成就系统 | ~500 | 一次性奖励 |\n| 兑换码 | ~500 | 关注社媒 |\n| **版本总计** | **~7500** | **约47抽** |\n\n### 零氪一个版本能抽多少？\n\n- 纯免费资源：约47抽\n- 加上月卡（如果买）：约60-70抽\n- **不足一个保底（90抽）**，但加上版本间继承的保底进度，零氪每2个版本可以保底一次\n\n## 三、零氪生存指南\n\n### 核心策略：集中资源\n\n1. **确定1个主C**：只抽一个限定角色，不要分散\n2. **利用免费S级**：自选箱选你缺的位置\n3. **不抽武器池**：4星武器完全够用\n4. **日常必做**：每天10分钟，资源不浪费\n\n### 零氪推荐角色路线\n\n| 阶段 | 目标 | 说明 |\n|------|------|------|\n| 开服 | 免费Zero（零） | 开服赠送S级 |\n| 1.0 | 免费S级自选 | 补充队伍 |\n| 1.1上半 | 安魂曲（Lacrimosa）或跳过 | 看队伍需求 |\n| 1.1下半 | 卡厄斯（Chaos）或跳过 | 看队伍需求 |\n\n### 月卡值不值？\n\n| 月卡 | 价格 | 性价比 |\n|------|------|--------|\n| 小月卡 | $5/月 | 非常高，推荐 |\n| 大月卡 | $10-15/月 | 一般，看需求 |\n| 小月卡+大月卡 | $15-20/月 | 性价比最佳区间 |\n\n## 四、哪些地方会花钱？\n\n异环的付费点主要集中在：\n\n1. **角色祈愿**：最大的付费点，但保底透明\n2. **皮肤/外观**：纯装饰，不影响数值\n3. **通行证**：加速资源获取\n4. **体力补充**：加速Farm\n\n**不存在**的付费点：\n- 没有PVP\n- 没有排行榜\n- 没有限时逼氪关卡\n- 没有VIP系统\n\n## 五、竞品对比总结\n\n| 游戏 | P2W程度 | 说明 |\n|------|---------|------|\n| 异环（NTE） | 低 | 无50/50、免费S级、无PVP |\n| 原神 | 中 | 50/50机制、无免费5星 |\n| 鸣潮 | 中 | 类似原神 |\n| 幻塔 | 高 | PVP、排行榜、VIP |\n\n## FAQ\n\n**Q: 异环零氪能玩吗？**\nA: 完全可以。免费S级+无50/50+纯PVE意味着零氪可以体验所有内容。\n\n**Q: 异环比原神更友好吗？**\nA: 在抽卡方面是的。无50/50意味着同样的投入获取效率是原神的2倍。\n\n**Q: 月卡值得买吗？**\nA: 小月卡（$5/月）性价比极高，推荐每个零氪玩家都买。\n\n**Q: 不抽角色只玩免费角色能通关吗？**\nA: 可以。游戏难度不高，免费角色+合理配队可以通关所有PVE内容。\n\n---\n\n*想了解更详细的零氪资源规划？查看我们的[完整零氪资源指南](/blog/nte-f2p-complete-resource-guide)。使用[配装计算器](/calculator/build)优化你的免费角色Build。*",
+    "contentEn": "Is Neverness to Everness (NTE) pay to win? Can F2P players enjoy the full game? This is one of the most-searched questions since launch. We break down gacha costs, free resource income, pity mechanics, and compare NTE's monetization to Genshin Impact and Wuthering Waves.\n\n## TL;DR\n\n**NTE is NOT pay to win.** Here's why:\n\n1. **No 50/50 system**: Pity guarantees the featured character\n2. **Free S-rank character**: A free S-rank selector box is given to all players\n3. **Pure PvE content**: No ranked PvP, no leaderboards, no paywalls\n4. **90-pull hard pity**: Costs are predictable, no bottomless spending\n\nThat said, if you want to collect every character or max out every awakening, costs will add up.\n\n## Gacha Cost Breakdown\n\nNTE uses the unique Scarborough Fair board-game gacha system:\n\n- **Single pull cost**: ~160 Ring Stones (equivalent to Primogems)\n- **Hard pity**: 90 pulls guarantees the featured character\n- **No 50/50**: You never lose pity to off-banner\n- **Pity carries over**: Between same-type banners\n\n### Cost Estimates\n\n| Pulls | Approximate Cost | Notes |\n|-------|-----------------|-------|\n| 90 (pity) | ~$100 | Guaranteed featured character |\n| 180 pulls | ~$200 | 2 limited S-ranks |\n| 360 pulls | ~$400 | 4 limited S-ranks |\n\n### NTE vs Genshin Impact\n\n| Feature | NTE | Genshin Impact |\n|---------|-----|---------------|\n| Pity system | 90 pulls = guaranteed UP | 180 pulls for guaranteed UP (50/50) |\n| 50/50 loss | No | Yes |\n| Free S-rank | Yes (selector box) | No |\n| Pity inheritance | Yes | Yes |\n| Per-pull cost | Similar | Similar |\n\n**Bottom line**: For the same spending, NTE gives roughly 2x the character acquisition efficiency thanks to no 50/50.\n\n## Free Resource Income\n\n### Per-version free resources (estimated)\n\n| Source | Ring Stones | Notes |\n|--------|------------|-------|\n| Dailies/Weeklies | ~3,000 | ~10 min/day |\n| Version events | ~2,000 | Main story + events |\n| Exploration | ~1,500 | One-time rewards |\n| Achievements | ~500 | One-time rewards |\n| Redeem codes | ~500 | Follow social media |\n| **Per version total** | **~7,500** | **~47 pulls** |\n\n### How far does F2P go?\n\n- Pure F2P per version: ~47 pulls\n- With monthly pass: ~60-70 pulls\n- **Not quite a full pity (90)**, but with pity carry-over between versions, F2P can guarantee one character every 2 versions\n\n## F2P Survival Guide\n\n### Core Strategy: Focus Resources\n\n1. **Pick one main DPS**: Only pull for one limited character, don't spread thin\n2. **Use the free S-rank**: Selector box covers your weakest slot\n3. **Skip weapon banner**: 4-star weapons are perfectly viable\n4. **Do your dailies**: 10 min/day, don't waste free resources\n\n### F2P Character Roadmap\n\n| Phase | Target | Notes |\n|-------|--------|-------|\n| Launch | Free Zero | Free S-rank from launch |\n| 1.0 | Free S-rank selector | Fill team gap |\n| 1.1 Phase 1 | Lacrimosa or skip | Based on team needs |\n| 1.1 Phase 2 | Chaos or skip | Based on team needs |\n\n### Is the Monthly Pass Worth It?\n\n| Pass | Price | Value |\n|------|-------|-------|\n| Express Pass | $5/mo | Excellent value, recommended |\n| Premium Pass | $10-15/mo | Decent, depends on needs |\n| Both passes | $15-20/mo | Best value spending range |\n\n## Where Does Money Go?\n\nNTE's main spending points:\n\n1. **Character gacha**: The biggest spender, but pity is transparent\n2. **Skins/cosmetics**: Pure visual, no gameplay impact\n3. **Battle pass**: Accelerates resource gain\n4. **Stamina refills**: Speeds up farming\n\n**What's NOT monetized**:\n- No PvP\n- No leaderboards\n- No time-limited paywall content\n- No VIP system\n\n## Comparison with Other Games\n\n| Game | P2W Level | Notes |\n|------|-----------|-------|\n| NTE | Low | No 50/50, free S-rank, no PvP |\n| Genshin Impact | Medium | 50/50 system, no free 5-star |\n| Wuthering Waves | Medium | Similar to Genshin |\n| Tower of Fantasy | High | PvP, leaderboards, VIP |\n\n## FAQ\n\n**Q: Can I play NTE completely free?**\nA: Absolutely. Free S-rank + no 50/50 + pure PvE means F2P players can experience all content.\n\n**Q: Is NTE more F2P friendly than Genshin?**\nA: In terms of gacha, yes. No 50/50 means 2x the character acquisition efficiency for the same spending.\n\n**Q: Should I buy the monthly pass?**\nA: The $5/mo Express Pass has excellent value. Recommended for all F2P players.\n\n**Q: Can I clear all content with only free characters?**\nA: Yes. The game isn't overly difficult, and free characters with proper builds can clear all PvE content.\n\n---\n\n*Want a detailed F2P resource plan? Check our [Complete F2P Resource Guide](/blog/nte-f2p-complete-resource-guide). Use our [Build Calculator](/calculator/build) to optimize your free character builds.*"
+  },
+  {
+    "id": "nte-v11-dreamwalk-corridor-release-guide",
+    "title": "异环1.1版本「游梦洄廊」上线攻略：新角色安魂曲/卡厄斯、新活动、减负优化全解析",
+    "titleTw": "異環1.1版本「遊夢洄廊」上線攻略：新角色安魂曲/卡厄斯、新活動、減負優化全解析",
+    "titleEn": "NTE 1.1 Dreamwalk Corridor Update Guide — Lacrimosa & Chaos, Events, QoL Changes (May 2026)",
+    "category": "guide",
+    "categoryZh": "攻略指南",
+    "categoryEn": "Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "1.1",
+      "dreamwalk-corridor",
+      "lacrimosa",
+      "chaos",
+      "update",
+      "guide",
+      "patch-notes"
+    ],
+    "summary": "异环1.1版本「游梦洄廊」今日正式上线！本文详解安魂曲（Lacrimosa）与卡厄斯（Chaos）两位新S级角色、游梦洄廊新地图区域、减负优化内容、新活动一览及兑换码汇总。",
+    "summaryTw": "異環1.1版本「遊夢洄廊」今日正式上線！本文詳解安魂曲（Lacrimosa）與卡厄斯（Chaos）兩位新S級角色、遊夢洄廊新地圖區域、減負優化內容、新活動一覽及兌換碼彙總。",
+    "summaryEn": "NTE Version 1.1 Dreamwalk Corridor is live! Complete guide covering new S-rank characters Lacrimosa and Chaos, the new Dreamwalk Corridor map area, QoL improvements, event schedule, and active redeem codes.",
+    "internalLinks": [
+      {
+        "href": "/characters/lacrimosa",
+        "label": "安魂曲角色详情",
+        "labelEn": "Lacrimosa Character Page"
+      },
+      {
+        "href": "/characters/chaos",
+        "label": "卡厄斯角色详情",
+        "labelEn": "Chaos Character Page"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Character Tier List"
+      },
+      {
+        "href": "/redeem-codes",
+        "label": "最新兑换码",
+        "labelEn": "Redeem Codes"
+      },
+      {
+        "href": "/blog/nte-lacrimosa-build-guide",
+        "label": "安魂曲Build攻略",
+        "labelEn": "Lacrimosa Build Guide"
+      },
+      {
+        "href": "/calculator/build",
+        "label": "配装计算器",
+        "labelEn": "Build Calculator"
+      },
+      {
+        "href": "/team-builder",
+        "label": "配队工具",
+        "labelEn": "Team Builder"
+      }
+    ],
+    "content": "异环（Neverness to Everness）1.1版本「游梦洄廊」于2026年5月28日正式上线。这是公测后的首个大版本更新，带来了两位新S级角色、全新地图区域、多项减负优化和丰富的版本活动。\n\n## 一、新角色一览\n\n### 安魂曲（Lacrimosa）— 1.1上半限定\n\n安魂曲是游戏首位召唤流主C，通过操控多个异能构装体进行协同战斗。她的核心机制是「噩梦」效果——技能命中目标后附加噩梦状态，持续造成暗属性伤害。A5觉醒后噩梦还会削减目标生命上限，对付高血量Boss尤为有效。\n\n- **稀有度**：S级\n- **属性**：暗属性（Chaos）\n- **武器类型**：液体弧光（Liquid）\n- **定位**：召唤流 AoE 进攻\n- **专属弧光**：最后一朵玫瑰（The Last Rose）\n- **卡池时间**：5月28日 - 6月18日（国服）/ 6月3日 - 6月24日（全球服）\n- **CV**：宴宁（中）/ 長縄まりあ（日）/ Baraka May（英）\n\n**核心技能**：\n- **普通攻击「酸甜口味的制裁」**：5段连击，第5段可触发派生招式\n- **战技「起床气加载中」**：投掷异能造物造成范围伤害，恶魔的礼物可吸收怪物并拟态\n- **终结技「工作日的最终审判」**：操纵巨型异能造物，5次范围暗属性伤害\n- **A3觉醒「噩梦清算」**：第5段普攻一次性结算全部噩梦层数，爆发核心\n\n**Build推荐**：\n- **首选碟片**：裂空之牙（Skyrending Fang）4件套\n- **主属性**：ATK% / 暗属性伤害加成 / 暴击率\n- **首选武器**：最后一朵玫瑰（The Last Rose）\n- **替代武器**：桐丸（Kiroumaru）\n\n详细配装请参考[安魂曲Build攻略](/blog/nte-lacrimosa-build-guide)。\n\n### 卡厄斯（Chaos）— 1.1下半限定\n\n卡厄斯是异环首位S级限定男性角色，在1.1版本主线篇章「绯色研究报告」中登场。作为相属性进攻角色，他的技能组以异能构装体为核心。\n\n- **稀有度**：S级\n- **属性**：相属性（Lakshana）\n- **武器类型**：凝聚弧光（Condensate）\n- **定位**：进攻\n- **专属弧光**：What's Desired\n- **卡池时间**：6月24日 - 7月8日（全球服预估）\n- **登场剧情**：主线篇章「绯色研究报告」\n\n具体技能数据将在角色上线前更新，请关注我们的[卡厄斯角色页面](/characters/chaos)获取最新信息。\n\n## 二、新地图区域：游梦洄廊\n\n1.1版本新增探索区域「游梦洄廊」，这是梦游主题的异空间区域，包含：\n- 全新宝箱和收集品\n- 新的异象副本和挑战\n- 版本限定活动区域\n- 隐藏成就和彩蛋\n\n使用我们的[交互地图](/map)标记全部收集品位置，不错过任何资源。\n\n## 三、减负优化（重磅更新）\n\n1.1版本实施了大量玩家呼声最高的减负措施：\n\n- **每日任务**：从4个减少至2-3个\n- **日常耗时**：从15-20分钟压缩至10分钟以内\n- **周常任务**：精简\n- **粉色爪币活动**：难度下调\n\n完美世界官方承认游戏日常负担过重，1.1版本是首次大规模减负。日常控制在10分钟以内的目标对时间有限的玩家来说是重大利好。\n\n## 四、弧光类型合并（重要）\n\n5月19日热修复已将弧光类型的英文名称统一：\n- Condensate、Hybrid、Synthesis 统一为 Condensate\n- 中文客户端仍使用各自的名称\n- 仅影响英文显示，不影响实际游戏机制\n\n## 五、版本活动一览\n\n- **游梦洄廊探索活动**：1.1版本全期，奖励环石、材料、限定道具\n- **版本签到活动**：1.1版本全期，奖励芬斯、甲硬币、材料\n- **限定挑战副本**：轮换开放，奖励高级材料、碟片\n- **保时捷联动赛事**：持续中，奖励限定车辆、专属奖励\n\n## 六、1.1兑换码汇总\n\n以下为当前有效的兑换码：\n\n- **NTE429vtuber**：芬斯x30000、甲硬币x30000（有效期至5月31日）\n- **NTEFREE**：芬斯x30000\n- **NTEvtuber200**：芬斯x10000、甲硬币x10000\n- **NTEWINFONS**：芬斯x20000\n- **NTEFUNGAME**：芬斯x10000\n- **NTENENE**：芬斯x10000、动感零x10、脆脆薯条x10\n\n完整兑换码列表请查看[兑换码页面](/redeem-codes)。\n\n## 七、抽卡建议\n\n### 零氪/微氪玩家\n\n1. **安魂曲（Lacrimosa）**：缺暗属性主C或召唤流核心的玩家强烈推荐抽取，在群体战斗中表现S级\n2. **卡厄斯（Chaos）**：技能组尚未完全确认，建议观望\n3. **资源分配**：零氪玩家建议一个版本只追一个保底\n\n### Scarborough Fair 抽卡系统提醒\n\n- 无50/50机制，保底必得当期UP角色\n- 90抽硬保底\n- 保底在同类型池之间继承\n\n## 八、FAQ\n\n**Q: 1.1版本什么时候更新？**\nA: 国服5月28日已上线，全球服预计6月3日。\n\n**Q: 安魂曲和卡厄斯可以同时抽吗？**\nA: 不可以，两人分别在1.1上下半卡池。\n\n**Q: 1.1版本有什么免费福利？**\nA: 版本更新补偿、活动奖励、兑换码等。关注[兑换码页面](/redeem-codes)获取最新码。\n\n**Q: 日常减负具体改了什么？**\nA: 每日任务从4个减少到2-3个，日常完成时间压缩到10分钟以内。\n\n**Q: 弧光类型合并影响游戏吗？**\nA: 仅影响英文名称显示，中文客户端无变化，游戏机制完全不受影响。\n\n---\n\n*本文将持续更新1.1版本的最新信息。关注我们的[角色排行榜](/tier-list)获取最新角色评级。*",
+    "contentEn": "Neverness to Everness Version 1.1 \"Dreamwalk Corridor\" launched on May 28, 2026 (CN) / June 3, 2026 (Global). This is the first major update after launch, bringing two new S-rank characters, a new explorable area, significant QoL improvements, and a packed event schedule.\n\n## New Characters\n\n### Lacrimosa — Phase 1 Limited Banner\n\nLacrimosa is the game's first summoner main DPS. She controls multiple Esper Constructs for coordinated combat, and her core mechanic is the \"Nightmare\" debuff — skills apply Nightmare stacks that deal continuous Chaos damage. At A5, Nightmare also reduces the target's max HP, making her excellent against high-HP bosses.\n\n- **Rarity**: S-rank\n- **Attribute**: Chaos\n- **Arc Type**: Liquid\n- **Role**: Attack (Summoner AoE)\n- **Signature Arc**: The Last Rose\n- **Banner**: May 28 – June 18 (CN) / June 3 – June 24 (Global)\n- **VA**: Baraka May (EN) / 長縄まりあ (JP)\n\n**Key Skills**:\n- **Normal Attack \"Sweet and Sour Judgment\"**: 5-hit combo, 5th hit triggers follow-up moves\n- **Skill \"Loading Sleepyhead Mode\"**: Throws Esper Constructs for AoE damage; Devil's Gift can absorb and mimic enemies\n- **Ultimate \"Final Judgment of Workday\"**: Controls a massive construct for 5-hit AoE Chaos damage\n- **A3 \"Molten Ice Cream\"**: 5th normal attack procs all Nightmare stacks at once — core burst skill\n\n**Recommended Build**:\n- **Best Disc Set**: Skyrending Fang (4pc)\n- **Main Stats**: ATK% / Chaos DMG Bonus / CRIT Rate\n- **Best Weapon**: The Last Rose (signature)\n- **Alternative**: Kiroumaru\n\nFull details in our [Lacrimosa Build Guide](/blog/nte-lacrimosa-build-guide).\n\n### Chaos — Phase 2 Limited Banner\n\nChaos is the first limited S-rank male character in NTE, debuting in the 1.1 main story episode \"A Research in Scarlet.\" As a Lakshana Attack character, his kit revolves around Esper Constructs.\n\n- **Rarity**: S-rank\n- **Attribute**: Lakshana\n- **Arc Type**: Condensate\n- **Role**: Attack\n- **Signature Arc**: What's Desired\n- **Banner**: June 24 – July 8 (Global, estimated)\n- **Story**: Main episode \"A Research in Scarlet\"\n\nSkill details will be confirmed closer to his banner date — check the [Chaos character page](/characters/chaos) for updates.\n\n## New Area: Dreamwalk Corridor\n\nVersion 1.1 adds the Dreamwalk Corridor, a dream-themed anomaly zone featuring:\n- New treasure chests and collectibles\n- New Anomaly dungeons and challenges\n- Version-limited event zones\n- Hidden achievements and easter eggs\n\nUse our [Interactive Map](/map) to mark all collectible locations.\n\n## QoL Improvements (Major)\n\n1.1 implements heavily requested quality-of-life changes:\n\n- **Daily tasks**: Reduced from 4 to 2-3\n- **Daily time**: From 15-20 min down to ~10 min\n- **Weekly tasks**: Streamlined\n- **Pink Paw Coin event**: Difficulty reduced\n\nThe developers publicly acknowledged the daily grind was too heavy and committed to keeping dailies under 10 minutes.\n\n## Arc Type Rename\n\nThe May 19 hotfix unified arc type names in English:\n- Condensate, Hybrid, and Synthesis are all renamed to \"Condensate\"\n- This is an English display change only — gameplay mechanics are unaffected\n\n## Event Schedule\n\n- **Dreamwalk Corridor Exploration**: All of 1.1 — Ring Stones, materials, limited items\n- **Version Login Bonus**: All of 1.1 — Fons, Beetle Coins, materials\n- **Limited Challenge Dungeons**: Rotating — High-tier materials, Discs\n- **Porsche Collab Race**: Ongoing — Limited vehicle, exclusive rewards\n\n## Active Redeem Codes (May 2026)\n\n- **NTE429vtuber**: Fons x30,000, Beetle Coin x30,000 (expires May 31)\n- **NTEFREE**: Fons x30,000\n- **NTEvtuber200**: Fons x10,000, Beetle Coin x10,000\n- **NTEWINFONS**: Fons x20,000\n- **NTEFUNGAME**: Fons x10,000\n- **NTENENE**: Fons x10,000, DynamiK Zero x10, Clicky Fries x10\n\nFull list at our [Redeem Codes](/redeem-codes) page.\n\n## Pulling Advice\n\n### F2P / Low Spenders\n\n1. **Lacrimosa**: Highly recommended if you need a Chaos main DPS or summoner. She's S-tier in AoE content.\n2. **Chaos**: Kit not fully confirmed yet — wait for more info before committing.\n3. **Resource planning**: F2P players should target one guaranteed per version.\n\n### Scarborough Fair Gacha System\n- No 50/50 — pity guarantees the featured character\n- 90-pull hard pity\n- Pity carries over between same-type banners\n\n## FAQ\n\n**Q: When does 1.1 go live?**\nA: CN servers on May 28, Global servers on June 3.\n\n**Q: Can I pull both Lacrimosa and Chaos at the same time?**\nA: No. Lacrimosa is Phase 1 (May 28 – June 18), Chaos is Phase 2 (est. June 24 – July 8).\n\n**Q: What free rewards are in 1.1?**\nA: Version update compensation, event rewards, and redeem codes. Check our [Redeem Codes page](/redeem-codes) for the latest.\n\n**Q: How does the daily grind reduction work?**\nA: Dailies reduced from 4 to 2-3 tasks, completion time from 15-20 min to under 10 min.\n\n**Q: Does the arc type rename affect gameplay?**\nA: No. It's an English display change only.\n\n---\n\n*This guide will be updated as more 1.1 content is revealed. Check our [Tier List](/tier-list) for the latest character rankings.*"
+  },
+  {
     "id": "nte-lacrimosa-build-guide",
     "title": "异环拉克莉莫萨最佳Build攻略：碟片、武器、配队与召唤流全解",
     "titleTw": "異環拉克莉莫薩最佳Build攻略：碟片、武器、配隊與召喚流全解",
