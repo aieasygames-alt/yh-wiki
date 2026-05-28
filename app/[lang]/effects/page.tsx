@@ -4,7 +4,9 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { getAllWeapons, getAllDiskSets } from "../../../lib/queries";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
+import { getAttributeLabel } from "../../../lib/attributes";
 import { Breadcrumb } from "../../../components/Breadcrumb";
+import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 
 type EffectEntry = {
   id: string;
@@ -160,6 +162,123 @@ export default function EffectsPage({
         <p className="text-gray-400 mb-6">
           {t(locale, "effects.subtitle")}
         </p>
+
+        {/* Quick Answer — GEO optimized */}
+        <QuickAnswerCard
+          locale={locale}
+          items={[
+            {
+              label: isZh ? "元素反应：" : "Reactions:",
+              value: isZh
+                ? "6种元素属性（Cosmos宇宙、Anima生命、Incantation咒语、Chaos混沌、Psyche心灵、Lakshana相）可触发Blossom坼绽、Charge充能等多种反应。"
+                : "6 elements (Cosmos, Anima, Incantation, Chaos, Psyche, Lakshana) trigger reactions like Blossom, Charge, and more.",
+            },
+            {
+              label: isZh ? "最强反应：" : "Best Reaction:",
+              value: isZh
+                ? "Blossom（坼绽）由Cosmos触发，是当前版本输出最高的元素反应。"
+                : "Blossom, triggered by Cosmos element, is the highest DPS reaction in the current meta.",
+            },
+            {
+              label: isZh ? "效果总数：" : "Total Effects:",
+              value: `${allEffects.length} ${isZh ? "个" : ""} (${isZh ? "武器" : "weapons"}: ${weaponCount} / ${isZh ? "卡带" : "disks"}: ${diskSetCount})`,
+            },
+          ]}
+        />
+
+        {/* Elemental Reactions Section */}
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
+          <h2 className="text-xl font-bold mb-3">{t(locale, "effects.elementalReactions")}</h2>
+          <p className="text-sm text-gray-400 mb-4">{t(locale, "effects.elementalReactionsDesc")}</p>
+
+          {/* Reaction Table */}
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-gray-700">
+                  <th className="text-left py-2 px-3 text-gray-400 font-medium">{isZh ? "触发元素" : "Trigger"}</th>
+                  <th className="text-left py-2 px-3 text-gray-400 font-medium">{isZh ? "目标元素" : "Target"}</th>
+                  <th className="text-left py-2 px-3 text-gray-400 font-medium">{isZh ? "反应名称" : "Reaction"}</th>
+                  <th className="text-left py-2 px-3 text-gray-400 font-medium">{isZh ? "效果" : "Effect"}</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-300">
+                <tr className="border-b border-gray-800/50">
+                  <td className="py-2 px-3">{getAttributeLabel("cosmos", locale)}</td>
+                  <td className="py-2 px-3">{getAttributeLabel("anima", locale)}</td>
+                  <td className="py-2 px-3 font-medium text-primary-400">Blossom ({isZh ? "坼绽" : "Detonation"})</td>
+                  <td className="py-2 px-3">{isZh ? "范围伤害，当前版本最强输出反应" : "AoE damage, strongest DPS reaction"}</td>
+                </tr>
+                <tr className="border-b border-gray-800/50">
+                  <td className="py-2 px-3">{getAttributeLabel("cosmos", locale)}</td>
+                  <td className="py-2 px-3">{getAttributeLabel("incantation", locale)}</td>
+                  <td className="py-2 px-3 font-medium text-primary-400">Charge ({isZh ? "充能" : "Charge"})</td>
+                  <td className="py-2 px-3">{isZh ? "加速大招充能" : "Accelerates Ultimate energy gain"}</td>
+                </tr>
+                <tr className="border-b border-gray-800/50">
+                  <td className="py-2 px-3">{getAttributeLabel("cosmos", locale)}</td>
+                  <td className="py-2 px-3">{getAttributeLabel("psyche", locale)}</td>
+                  <td className="py-2 px-3 font-medium text-primary-400">Remora ({isZh ? "鮣鱼" : "Remora"})</td>
+                  <td className="py-2 px-3">{isZh ? "附着效果，持续触发伤害" : "Attaches to target, deals continuous damage"}</td>
+                </tr>
+                <tr className="border-b border-gray-800/50">
+                  <td className="py-2 px-3">{getAttributeLabel("chaos", locale)}</td>
+                  <td className="py-2 px-3">{getAttributeLabel("anima", locale)}</td>
+                  <td className="py-2 px-3 font-medium text-primary-400">{isZh ? "噩梦" : "Nightmare"}</td>
+                  <td className="py-2 px-3">{isZh ? "降低目标防御力" : "Reduces target DEF"}</td>
+                </tr>
+                <tr className="border-b border-gray-800/50">
+                  <td className="py-2 px-3">{getAttributeLabel("lakshana", locale)}</td>
+                  <td className="py-2 px-3">{getAttributeLabel("anima", locale)}</td>
+                  <td className="py-2 px-3 font-medium text-primary-400">{isZh ? "冻结" : "Freeze"}</td>
+                  <td className="py-2 px-3">{isZh ? "完全限制目标行动" : "Completely restricts target movement"}</td>
+                </tr>
+                <tr>
+                  <td className="py-2 px-3">{getAttributeLabel("incantation", locale)}</td>
+                  <td className="py-2 px-3">{getAttributeLabel("psyche", locale)}</td>
+                  <td className="py-2 px-3 font-medium text-primary-400">{isZh ? "共鸣" : "Resonance"}</td>
+                  <td className="py-2 px-3">{isZh ? "提升队伍对应属性伤害" : "Boosts team elemental damage"}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* Tips */}
+          <div className="rounded-lg bg-gray-800/50 p-4">
+            <h3 className="text-sm font-semibold mb-2">{t(locale, "effects.reactionTips")}</h3>
+            <ul className="text-xs text-gray-400 space-y-1.5">
+              <li>• {t(locale, "effects.reactionTip1")}</li>
+              <li>• {t(locale, "effects.reactionTip2")}</li>
+              <li>• {t(locale, "effects.reactionTip3")}</li>
+              <li>• {t(locale, "effects.reactionTip4")}</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Status Effects Section */}
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
+          <h2 className="text-xl font-bold mb-3">{t(locale, "effects.statusEffects")}</h2>
+          <p className="text-sm text-gray-400 mb-4">{t(locale, "effects.statusEffectsDesc")}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { icon: "🌙", key: "statusNightmare", color: "border-purple-500/30 bg-purple-500/5" },
+              { icon: "❄️", key: "statusFreeze", color: "border-blue-500/30 bg-blue-500/5" },
+              { icon: "⏳", key: "statusTimeStop", color: "border-yellow-500/30 bg-yellow-500/5" },
+              { icon: "⬆️", key: "statusBuff", color: "border-emerald-500/30 bg-emerald-500/5" },
+              { icon: "⬇️", key: "statusDebuff", color: "border-red-500/30 bg-red-500/5" },
+            ].map((effect) => (
+              <div
+                key={effect.key}
+                className={`rounded-lg border p-3 ${effect.color}`}
+              >
+                <p className="text-sm">
+                  <span className="mr-1.5">{effect.icon}</span>
+                  {t(locale, `effects.${effect.key}`)}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         {/* Filters */}
         <div className="flex items-center gap-3 mb-6 flex-wrap">

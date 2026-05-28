@@ -914,9 +914,24 @@
   "effects": {
     "title": "Effects Dictionary",
     "subtitle": "Browse all weapon effects and cartridge set bonuses in one place",
-    "seoTitle": "NTE Effects Dictionary - Weapon & Cartridge Set Effects",
-    "seoDescription": "Complete Neverness to Everness effects database. Browse all weapon passive effects and cartridge set bonuses with search and filters.",
-    "searchPlaceholder": "Search effects..."
+    "seoTitle": "NTE Effects & Elemental Reactions Guide (2026) — Complete Database",
+    "seoDescription": "Complete Neverness to Everness effects database: elemental reaction mechanics, weapon passive effects, and disk set bonuses. Searchable and filterable.",
+    "searchPlaceholder": "Search effects...",
+    "elementalReactions": "Elemental Reaction Mechanics",
+    "elementalReactionsDesc": "NTE's 6 elemental attributes have unique reaction relationships. Understanding reactions is key to building effective teams.",
+    "reactionTable": "Reaction Reference",
+    "reactionTips": "Key Reaction Tips",
+    "reactionTip1": "Blossom is the strongest DPS reaction in the current meta, triggered by Cosmos element",
+    "reactionTip2": "Charge accelerates Ultimate energy gain, ideal for Ultimate-dependent characters",
+    "reactionTip3": "Different reactions can stack, but same-type reactions have internal cooldowns",
+    "reactionTip4": "Consider elemental coverage in team building to ensure desired reactions trigger",
+    "statusEffects": "Status Effects Guide",
+    "statusEffectsDesc": "Common status effects in the game and how they work.",
+    "statusNightmare": "Nightmare: Reduces target DEF for a duration",
+    "statusFreeze": "Freeze: Completely restricts target movement",
+    "statusTimeStop": "Time Stop: Pauses all target actions and timers",
+    "statusBuff": "Buff: Increases team ATK, DEF, or other stats",
+    "statusDebuff": "Debuff: Reduces target stats or applies negative effects"
   },
   "cityTycoon": {
     "title": "City Tycoon Guide",

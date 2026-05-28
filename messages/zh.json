@@ -915,9 +915,24 @@
   "effects": {
     "title": "效果词典",
     "subtitle": "一站式浏览所有武器效果和卡带套装加成",
-    "seoTitle": "异环效果词典 - 武器与卡带套装效果大全",
-    "seoDescription": "异环完整效果数据库。浏览所有武器被动效果和卡带套装加成，支持搜索和筛选。",
-    "searchPlaceholder": "搜索效果..."
+    "seoTitle": "异环效果词典（2026）— 元素反应、武器效果、卡带套装大全",
+    "seoDescription": "异环(NTE)完整效果数据库：元素反应机制详解、武器被动效果、卡带套装加成一览。支持搜索和筛选。",
+    "searchPlaceholder": "搜索效果...",
+    "elementalReactions": "元素反应机制",
+    "elementalReactionsDesc": "异环的6种元素属性之间存在独特的反应关系。理解反应机制是构建高效队伍的关键。",
+    "reactionTable": "反应对照表",
+    "reactionTips": "反应机制要点",
+    "reactionTip1": "Blossom（坼绽）是当前版本最强输出反应，由Cosmos元素触发",
+    "reactionTip2": "Charge（充能）可以加速角色大招充能，适合依赖大招的角色",
+    "reactionTip3": "不同反应可以叠加触发，但同类型反应有冷却时间",
+    "reactionTip4": "队伍搭配时应考虑元素覆盖，确保能触发目标反应",
+    "statusEffects": "状态效果说明",
+    "statusEffectsDesc": "以下是游戏中常见的状态效果及其作用机制。",
+    "statusNightmare": "噩梦：降低目标防御力，持续一定时间",
+    "statusFreeze": "冰冻：完全限制目标行动",
+    "statusTimeStop": "时停：暂停目标所有行动和计时器",
+    "statusBuff": "增益：提升队伍攻击力、防御力等属性",
+    "statusDebuff": "减益：降低目标属性或施加负面效果"
   },
   "cityTycoon": {
     "title": "都市大亨攻略",

@@ -1,5 +1,244 @@
 [
   {
+    "id": "nte-cosmos-team-comps-guide",
+    "title": "异环宇宙属性配队攻略：Blossom坼绽反应队与最强Cosmos阵容推荐（2026）",
+    "titleTw": "異環宇宙屬性配隊攻略：Blossom坼綻反應隊與最強Cosmos陣容推薦（2026）",
+    "titleEn": "NTE Cosmos Element Team Comps Guide: Blossom Reaction Teams & Best Lineups (2026)",
+    "category": "guide",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "cosmos",
+      "team-comp",
+      "blossom",
+      "zero",
+      "hotori",
+      "xun"
+    ],
+    "summary": "宇宙(Cosmos)属性是异环当前版本最强元素，Blossom坼绽反应是核心输出手段。本文详解宇宙属性配队方案、反应机制和角色选择。",
+    "summaryTw": "宇宙(Cosmos)屬性是異環當前版本最強元素，Blossom坼綻反應是核心輸出手段。本文詳解宇宙屬性配隊方案、反應機制和角色選擇。",
+    "summaryEn": "Cosmos is the strongest element in NTE's current meta, with Blossom as the core DPS reaction. Complete guide to Cosmos team comps, reaction mechanics, and character picks.",
+    "internalLinks": [
+      {
+        "href": "/characters/zero-male",
+        "label": "零（男）攻略",
+        "labelEn": "Zero (Male) Guide"
+      },
+      {
+        "href": "/characters/hotori",
+        "label": "穗鸟攻略",
+        "labelEn": "Hotori Guide"
+      },
+      {
+        "href": "/characters/xun",
+        "label": "浔攻略",
+        "labelEn": "Xun Guide"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      }
+    ],
+    "content": "宇宙(Cosmos)属性是异环1.0-1.1版本的核心元素，拥有当前版本最强输出反应——Blossom（坼绽）。宇宙属性角色阵容豪华，包含SS级的浔、S+级的零和穗鸟，是当前meta的中心。\n\n## 宇宙属性角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 浔(Xun) | S | SS | 支援 | 液体 |\n| 零（男）(Zero) | S | S+ | 进攻 | 固体 |\n| 零（女）(Zero) | S | S+ | 进攻 | 固体 |\n| 穗鸟(Hotori) | S | S+ | 增益辅助 | 气体 |\n| 赤子(Chiz) | S | A | 进攻 | 气体 |\n| 埃德加(Edgar) | A | B | 支援 | 液体 |\n| 泰格多(Taygedo) | A | B | 支援 | 凝聚 |\n\n## 核心反应机制\n\n### Blossom（坼绽）— 最强输出反应\n\nBlossom是宇宙元素与生命(Anima)元素触发的高伤害范围反应：\n- **触发条件**：Cosmos攻击命中附着Anima的敌人\n- **伤害**：大范围AOE，与触发角色的攻击力挂钩\n- **最佳触发者**：零（男女均可），因为循环速度可瞬间充满100层\n\n### Charge（充能）— 加速大招\n\nCosmos与咒语(Incantation)触发的充能反应：\n- 加速全队大招能量获取\n- 适合依赖大招爆发的阵容\n\n### Remora（鮣鱼）— 持续伤害\n\nCosmos与心灵(Psyche)触发的附着反应：\n- 在目标身上附着，持续造成伤害\n- 适合持续输出型队伍\n\n## T0配队推荐\n\n### 光耀坼绽队（最强配队）\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 零（男/女） | 站场输出，触发Blossom |\n| 辅助 | 穗鸟 | 记录并复刻全队技能 |\n| 辅助 | 九原 | 聚怪+控制 |\n| 支援 | 浔 | 治疗+技能复刻 |\n\n**输出循环**：九原E聚怪 → 穗鸟E记录 → 零E+普攻循环触发Blossom → 久远E+Q → 穗鸟Q复刻 → 零切回站场\n\n### 零爆发队\n\n| 位置 | 角色 | 作用 |\n|------|------|--------|\n| 主C | 零（男） | 爆发输出 |\n| 增益 | 穗鸟 | 技能记录+复刻 |\n| 支援 | 埃德加 | 增益辅助 |\n| 支援 | 泰格多 | 元素反应触发 |\n\n## 免费角色配队建议\n\n零氪/微氪玩家可以使用以下阵容：\n- 零（男）作为主C（开服赠送）\n- 赤子(Chiz)作为副C（免费S级）\n- 搭配埃德加（A级支援）\n\n## FAQ\n\n**Q: 零（男）和零（女）哪个好？**\nA: 两者机制基本相同，选择你有的即可。如果有穗鸟，零（男）优先。\n\n**Q: 宇宙队必须要有穗鸟吗？**\nA: 不是必须，但穗鸟的记录机制可以将队伍输出提升50%+。建议优先抽取。\n\n**Q: Blossom伤害和什么有关？**\nA: 与触发角色的攻击力、元素精通和等级有关。零的循环速度使得Blossom触发频率最高。",
+    "contentEn": "Cosmos is the central element in NTE's 1.0-1.1 meta, featuring Blossom — the strongest DPS reaction in the game. With a stacked roster including SS-rank Xun, S+-rank Zero and Hotori, Cosmos teams dominate the current meta.\n\n## Cosmos Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Xun | S | SS | Support | Liquid |\n| Zero (Male) | S | S+ | Attack | Solid |\n| Zero (Female) | S | S+ | Attack | Solid |\n| Hotori | S | S+ | Buff | Gas |\n| Chiz | S | A | Attack | Gas |\n| Edgar | A | B | Support | Liquid |\n| Taygedo | A | B | Support | Condensate |\n\n## Core Reaction Mechanics\n\n### Blossom — The Strongest DPS Reaction\n\nBlossom is a high-damage AoE reaction between Cosmos and Anima elements:\n- **Trigger**: Cosmos attack hits an enemy with Anima applied\n- **Damage**: Large AoE, scales with triggering character's ATK\n- **Best trigger**: Zero (either gender) due to instant 100-stack cycle rate\n\n### Charge — Energy Acceleration\n\nTriggered by Cosmos + Incantation:\n- Accelerates team Ultimate energy gain\n- Ideal for Ultimate-dependent comps\n\n### Remora — Damage Over Time\n\nTriggered by Cosmos + Psyche:\n- Attaches to target for continuous damage\n- Good for sustained DPS teams\n\n## T0 Team Compositions\n\n### Cosmos Blossom Team (Best Comp)\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Zero (M/F) | On-field DPS, triggers Blossom |\n| Support | Hotori | Records and replays team skills |\n| Utility | Jiuyuan | Grouping + CC |\n| Support | Xun | Healing + skill replay |\n\n**Rotation**: Jiuyuan E group → Hotori E record → Zero E+NA loop for Blossom → Jiuyuan E+Q → Hotori Q replay → Zero back on field\n\n### Zero Burst Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Zero (Male) | Burst damage |\n| Buffer | Hotori | Skill recording + replay |\n| Support | Edgar | Buff utility |\n| Support | Taygedo | Reaction trigger |\n\n## F2P Team Options\n\nFor F2P/low-spend players:\n- Zero (Male) as main DPS (free from launch)\n- Chiz as sub DPS (free S-rank)\n- Edgar (A-rank support) as filler\n\n## FAQ\n\n**Q: Zero Male vs Zero Female — which is better?**\nA: Nearly identical kits. Use whichever you have. If you run Hotori, Zero (Male) has slightly better synergy.\n\n**Q: Do Cosmos teams need Hotori?**\nA: Not required, but Hotori's recording mechanic boosts team DPS by 50%+. Highly recommended to pull.\n\n**Q: What does Blossom damage scale with?**\nA: Triggering character's ATK, Elemental Mastery, and level. Zero's cycle rate gives the highest Blossom trigger frequency."
+  },
+  {
+    "id": "nte-anima-team-comps-guide",
+    "title": "异环生命属性配队攻略：Anima角色阵容推荐与治疗辅助搭配（2026）",
+    "titleTw": "異環生命屬性配隊攻略：Anima角色陣容推薦與治療輔助搭配（2026）",
+    "titleEn": "NTE Anima Element Team Comps Guide: Best Lineups & Support Synergies (2026)",
+    "category": "guide",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "anima",
+      "team-comp",
+      "nanally",
+      "jiuyuan",
+      "mint"
+    ],
+    "summary": "生命(Anima)属性拥有异环最强控制角色九原和最强爆发主C娜娜莉。本文详解Anima属性配队方案和反应搭配。",
+    "summaryTw": "生命(Anima)屬性擁有異環最強控制角色九原和最強爆發主C娜娜莉。本文詳解Anima屬性配隊方案和反應搭配。",
+    "summaryEn": "Anima features NTE's best controller (Jiuyuan) and top burst DPS (Nanally). Complete guide to Anima team comps and reaction synergies.",
+    "internalLinks": [
+      {
+        "href": "/characters/nanally",
+        "label": "娜娜莉攻略",
+        "labelEn": "Nanally Guide"
+      },
+      {
+        "href": "/characters/jiuyuan",
+        "label": "九原攻略",
+        "labelEn": "Jiuyuan Guide"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      }
+    ],
+    "content": "生命(Anima)属性是异环中功能性极强的元素，拥有SS级的九原（最强聚怪控制）和SS级的娜娜莉（顶级爆发主C）。Anima角色虽然不直接触发最强反应，但作为反应触发的「基底」至关重要。\n\n## Anima角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 娜娜莉(Nanally) | S | SS | 进攻 | 等离子 |\n| 九原(Jiuyuan) | S | SS | 辅助 | 固体 |\n| 小吱(Xiaozhi) | S | S+ | 进攻 | 气体 |\n| 薄荷(Mint) | A | A | 支援 | 液体 |\n| 明虎(Xiaozhen) | S | A | 进攻 | 固体 |\n\n## Anima在反应体系中的角色\n\nAnima是Blossom（坼绽）反应的必要元素：\n- **作为反应基底**：先附着Anima元素，再用Cosmos触发Blossom\n- **九原的聚怪**让Blossom的范围伤害效率最大化\n- **娜娜莉的爆发**可以在Blossom触发后收割残血\n\n## T0配队推荐\n\n### 娜娜莉爆发队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 娜娜莉 | 站场爆发输出 |\n| 聚怪 | 九原 | E聚怪+控制 |\n| 触发 | 零（男） | 循环触发Blossom |\n| 辅助 | 穗鸟 | 技能记录复刻 |\n\n### 小吱免费主C队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 小吱 | Grain机制持续输出 |\n| 治疗 | 薄荷 | 治疗保障+元素附着 |\n| 支援 | 埃德加 | 增益辅助 |\n\n## FAQ\n\n**Q: Anima队必须配Cosmos角色吗？**\nA: 推荐搭配。Anima + Cosmos触发Blossom是当前最强反应。\n\n**Q: 娜娜莉和九原哪个优先抽？**\nA: 九原是跨属性通用的最强辅助，如果只能选一个，九原优先。",
+    "contentEn": "Anima is a highly functional element in NTE, featuring SS-rank Jiuyuan (best grouping/CC) and SS-rank Nanally (top burst DPS). While Anima characters don't directly trigger the strongest reactions, they serve as essential reaction bases.\n\n## Anima Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Nanally | S | SS | Attack | Plasma |\n| Jiuyuan | S | SS | Utility | Solid |\n| Xiaozhi | S | S+ | Attack | Gas |\n| Mint | A | A | Support | Liquid |\n| Xiaozhen | S | A | Attack | Solid |\n\n## Anima's Role in Reactions\n\nAnima is essential for triggering Blossom:\n- **Reaction base**: Apply Anima first, then Cosmos triggers Blossom\n- **Jiuyuan's grouping** maximizes Blossom's AoE efficiency\n- **Nanally's burst** cleans up after Blossom triggers\n\n## T0 Team Compositions\n\n### Nanally Burst Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Nanally | On-field burst DPS |\n| Grouper | Jiuyuan | E grouping + CC |\n| Trigger | Zero (Male) | Cycle for Blossom |\n| Support | Hotori | Skill recording |\n\n### Xiaozhi F2P Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Xiaozhi | Grain mechanic sustained DPS |\n| Healer | Mint | Healing + elemental application |\n| Support | Edgar | Buff utility |\n\n## FAQ\n\n**Q: Do Anima teams need Cosmos characters?**\nA: Recommended. Anima + Cosmos Blossom is the strongest reaction.\n\n**Q: Nanally vs Jiuyuan — who to pull first?**\nA: Jiuyuan is the best cross-element support; if only one, prioritize Jiuyuan."
+  },
+  {
+    "id": "nte-chaos-team-comps-guide",
+    "title": "异环混沌属性配队攻略：Chaos输出阵容与噩梦减防机制详解（2026）",
+    "titleTw": "異環混沌屬性配隊攻略：Chaos輸出陣容與噩夢減防機制詳解（2026）",
+    "titleEn": "NTE Chaos Element Team Comps Guide: Nightmare Debuff & Best Lineups (2026)",
+    "category": "guide",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "chaos",
+      "team-comp",
+      "lacrimosa",
+      "daffodil",
+      "nightmare"
+    ],
+    "summary": "混沌(Chaos)属性以噩梦减防为核心机制，达芙迪尔和拉克莉莫萨是主要输出手。本文详解混沌配队方案。",
+    "summaryTw": "混沌(Chaos)屬性以噩夢減防為核心機制，達芙迪爾和拉克莉莫薩是主要輸出手。本文詳解混沌配隊方案。",
+    "summaryEn": "Chaos element revolves around the Nightmare DEF-shred mechanic, with Daffodil and Lacrimosa as primary DPS. Complete guide to Chaos team comps.",
+    "internalLinks": [
+      {
+        "href": "/characters/lacrimosa",
+        "label": "拉克莉莫萨攻略",
+        "labelEn": "Lacrimosa Guide"
+      },
+      {
+        "href": "/characters/daffodil",
+        "label": "达芙迪尔攻略",
+        "labelEn": "Daffodil Guide"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      }
+    ],
+    "content": "混沌(Chaos)属性是异环中独特的减防输出体系。混沌角色的技能可以施加「噩梦」效果降低敌人防御力，配合高输出角色打出成倍伤害。\n\n## Chaos角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 达芙迪尔(Daffodil) | S | A+ | 进攻 | 液体 |\n| 拉克莉莫萨(Lacrimosa) | S | A | 进攻 | 液体 |\n| 黑鸟(Black Bird) | S | A | 进攻 | 气体 |\n| 密斯莫(Mismo) | A | B | 支援 | 凝聚 |\n\n## 核心机制：噩梦(Nightmare)\n\n噩梦是混沌属性的独有减益效果：\n- **效果**：降低目标防御力\n- **叠加**：可多次叠加，显著提升全队输出\n- **触发**：混沌属性攻击命中附带Anima元素的敌人\n\n## T0配队推荐\n\n### 达芙迪尔混沌队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 达芙迪尔 | 混沌输出 |\n| 副C | 拉克莉莫萨 | 噩梦减防+输出 |\n| 支援 | 密斯莫 | 增益辅助 |\n| 治疗 | 薄荷 | 治疗保障 |\n\n### 拉克莉莫萨1.1新队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 拉克莉莫萨 | 召唤物输出 |\n| 输出 | 黑鸟 | 混沌协同输出 |\n| 支援 | 密斯莫 | 元素反应触发 |\n| 治疗 | 达芙迪尔 | 输出+治疗 |\n\n## FAQ\n\n**Q: 混沌队需要特定辅助吗？**\nA: 密斯莫是混沌属性唯一的专属支援，如果有建议搭配。\n\n**Q: 达芙迪尔和拉克莉莫萨哪个好？**\nA: 达芙迪尔评级更高(A+)，但拉克莉莫萨1.1新机制（恶魔礼物拟态）很有趣。看队伍需求选择。",
+    "contentEn": "Chaos is NTE's unique DEF-shred DPS system. Chaos characters apply Nightmare to reduce enemy DEF, enabling massive damage multipliers.\n\n## Chaos Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Daffodil | S | A+ | Attack | Liquid |\n| Lacrimosa | S | A | Attack | Liquid |\n| Black Bird | S | A | Attack | Gas |\n| Mismo | A | B | Support | Condensate |\n\n## Core Mechanic: Nightmare\n\nNightmare is Chaos's exclusive debuff:\n- **Effect**: Reduces target DEF\n- **Stacking**: Can stack multiple times, significantly boosting team damage\n- **Trigger**: Chaos attacks hitting enemies with Anima applied\n\n## T0 Team Compositions\n\n### Daffodil Chaos Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Daffodil | Chaos DPS |\n| Sub DPS | Lacrimosa | Nightmare shred + damage |\n| Support | Mismo | Buff support |\n| Healer | Mint | Healing + sustain |\n\n### Lacrimosa 1.1 Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Lacrimosa | Construct DPS |\n| DPS | Black Bird | Chaos coordinated damage |\n| Support | Mismo | Reaction trigger |\n| Healer/DPS | Daffodil | Damage + sustain |\n\n## FAQ\n\n**Q: Do Chaos teams need specific supports?**\nA: Mismo is the only Chaos-element support; use if available.\n\n**Q: Daffodil vs Lacrimosa — which is better?**\nA: Daffodil rates higher (A+), but Lacrimosa has a unique absorb-and-mimic mechanic. Choose based on team needs."
+  },
+  {
+    "id": "nte-incantation-team-comps-guide",
+    "title": "异环咒语属性配队攻略：Incantation阵容搭配与Charge充能反应机制（2026）",
+    "titleTw": "異環咒語屬性配隊攻略：Incantation陣容搭配與Charge充能反應機制（2026）",
+    "titleEn": "NTE Incantation Element Team Comps Guide: Charge Reaction & Best Lineups (2026)",
+    "category": "guide",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "incantation",
+      "team-comp",
+      "baicang",
+      "sakiri",
+      "charge"
+    ],
+    "summary": "咒语(Incantation)属性拥有防护型T0角色白藏和聚怪辅助咲里，Charge充能反应是核心机制。本文详解咒语配队方案。",
+    "summaryTw": "咒語(Incantation)屬性擁有防護型T0角色白藏和聚怪輔助咲里，Charge充能反應是核心機制。本文詳解咒語配隊方案。",
+    "summaryEn": "Incantation features top-tier shielder Baicang and grouper Sakiri, with Charge as the core reaction. Complete guide to Incantation team comps.",
+    "internalLinks": [
+      {
+        "href": "/characters/baicang",
+        "label": "白藏攻略",
+        "labelEn": "Baicang Guide"
+      },
+      {
+        "href": "/characters/sakiri",
+        "label": "咲里攻略",
+        "labelEn": "Sakiri Guide"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      }
+    ],
+    "content": "咒语(Incantation)属性以Charge充能反应为核心，拥有当前最强防护角色白藏(Baicang)。咒语角色的特点是提供强大的团队增益和控场能力。\n\n## Incantation角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 白藏(Baicang) | S | S+ | 防护 | 凝聚 |\n| 咲里(Sakiri) | S | A+ | 支援 | 气体 |\n| 阿德勒(Adler) | A | A+ | 进攻 | 凝聚 |\n| 赤音(Akane) | S | A | 进攻 | 等离子 |\n\n## 核心反应：Charge（充能）\n\nCharge是Incantation与Cosmos触发的充能反应：\n- **效果**：加速全队大招充能速度\n- **优势**：让依赖大招的角色更快进入爆发循环\n- **最佳搭配**：与零（快速循环）配合效果最佳\n\n## T0配队推荐\n\n### 白藏防护队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 防护 | 白藏 | 护盾+减伤 |\n| 主C | 零（男） | 站场输出 |\n| 辅助 | 咲里 | 聚怪+元素附着 |\n| 支援 | 浔 | 治疗保障 |\n\n### Charge充能队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 阿德勒 | 进攻输出 |\n| 充能 | 咲里 | Charge反应触发 |\n| 爆发 | 赤音 | 大招爆发 |\n| 支援 | 白藏 | 防护保障 |\n\n## FAQ\n\n**Q: 白藏值得抽吗？**\nA: 非常值得。白藏是当前唯一S+级防护角色。\n\n**Q: Charge反应有什么用？**\nA: 加速大招充能。对于依赖大招爆发的角色，可以显著提升输出循环速度。",
+    "contentEn": "Incantation revolves around the Charge reaction and features the game's best shielder, Baicang. Incantation characters excel at team utility and crowd control.\n\n## Incantation Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Baicang | S | S+ | Defense | Condensate |\n| Sakiri | S | A+ | Support | Gas |\n| Adler | A | A+ | Attack | Condensate |\n| Akane | S | A | Attack | Plasma |\n\n## Core Reaction: Charge\n\nCharge is triggered by Incantation + Cosmos:\n- **Effect**: Accelerates team Ultimate energy gain\n- **Advantage**: Gets Ultimate-dependent characters into burst rotations faster\n- **Best synergy**: Zero (fast cycle rate) maximizes Charge triggers\n\n## T0 Team Compositions\n\n### Baicang Shield Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Shield | Baicang | Shield + damage reduction |\n| Main DPS | Zero (Male) | On-field DPS |\n| Support | Sakiri | Grouping + elemental application |\n| Support | Xun | Healing + sustain |\n\n### Charge Energy Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Adler | Attack DPS |\n| Charger | Sakiri | Charge reaction trigger |\n| Burst | Akane | Ultimate burst |\n| Shield | Baicang | Defense + sustain |\n\n## FAQ\n\n**Q: Is Baicang worth pulling?**\nA: Absolutely. Baicang is the only S+ Defense character.\n\n**Q: What does Charge reaction do?**\nA: Accelerates Ultimate charging for faster damage rotations."
+  },
+  {
+    "id": "nte-psyche-team-comps-guide",
+    "title": "异环心灵属性配队攻略：Psyche角色阵容与Remora反应机制详解（2026）",
+    "titleTw": "異環心靈屬性配隊攻略：Psyche角色陣容與Remora反應機制詳解（2026）",
+    "titleEn": "NTE Psyche Element Team Comps Guide: Remora Reaction & Best Lineups (2026)",
+    "category": "guide",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "psyche",
+      "team-comp",
+      "fadia",
+      "haniel",
+      "remora"
+    ],
+    "summary": "心灵(Psyche)属性以法蒂亚为主要输出手，哈尼尔提供攻击力增益。Remora附着反应是核心机制。",
+    "summaryTw": "心靈(Psyche)屬性以法蒂亞為主要輸出手，哈尼爾提供攻擊力增益。Remora附著反應是核心機制。",
+    "summaryEn": "Psyche features Fadia as primary DPS and Haniel as ATK buffer. Remora attachment reaction is the core mechanic.",
+    "internalLinks": [
+      {
+        "href": "/characters/fadia",
+        "label": "法蒂亚攻略",
+        "labelEn": "Fadia Guide"
+      },
+      {
+        "href": "/characters/haniel",
+        "label": "哈尼尔攻略",
+        "labelEn": "Haniel Guide"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      }
+    ],
+    "content": "心灵(Psyche)属性是异环中均衡的输出元素，以法蒂亚(Fadia)为核心输出手，搭配哈尼尔(Haniel)的攻击力增益。\n\n## Psyche角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 法蒂亚(Fadia) | S | A | 进攻 | 凝聚 |\n| 哈尼尔(Haniel) | A | A+ | 支援 | 固体 |\n| 尼察(Nitsa) | A | B | 支援 | 固体 |\n| 詹森(Jenson) | A | B | 防护 | 固体 |\n| 奥蕾莉亚(Aurelia) | A | B | 支援 | 固体 |\n\n## 核心反应：Remora（鮣鱼）\n\nRemora是Psyche与Cosmos触发的附着反应：\n- **效果**：在目标身上附着，持续造成伤害\n- **特点**：不需要持续攻击也能造成伤害（锁面板机制）\n- **搭配**：与零的快速循环配合，可高频率触发\n\n## T0配队推荐\n\n### 法蒂亚输出队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 法蒂亚 | 凝聚弧爆发输出 |\n| 增益 | 哈尼尔 | 攻击力增益 |\n| 支援 | 尼察 | 减益辅助 |\n| 防护 | 詹森 | 护盾保障 |\n\n### 哈尼尔增益队\n\n哈尼尔是跨属性通用增益辅助，可以搭配任何主C使用。\n\n## FAQ\n\n**Q: Psyche队强度如何？**\nA: 中上水平。Remora反应的持续伤害在长战中优势明显。\n\n**Q: 哈尼尔必须配Psyche队吗？**\nA: 不必须。哈尼尔的攻击力增益是通用型。",
+    "contentEn": "Psyche is a balanced DPS element featuring Fadia as the primary damage dealer, paired with Haniel's ATK buffs.\n\n## Psyche Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Fadia | S | A | Attack | Condensate |\n| Haniel | A | A+ | Support | Solid |\n| Nitsa | A | B | Support | Solid |\n| Jenson | A | B | Defense | Solid |\n| Aurelia | A | B | Support | Solid |\n\n## Core Reaction: Remora\n\nRemora is triggered by Psyche + Cosmos:\n- **Effect**: Attaches to target, dealing continuous damage\n- **Trait**: Snapshot mechanic — continues dealing damage even after switching off\n- **Synergy**: Pairs with Zero's fast cycling for high trigger frequency\n\n## T0 Team Compositions\n\n### Fadia DPS Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Fadia | Condensate burst DPS |\n| Buffer | Haniel | ATK boost |\n| Support | Nitsa | Debuff utility |\n| Shield | Jenson | Shield + sustain |\n\n### Haniel Flex Team\n\nHaniel's ATK buff is universal and works with any main DPS.\n\n## FAQ\n\n**Q: How strong are Psyche teams?**\nA: Above average. Remora's sustained damage excels in longer fights.\n\n**Q: Does Haniel need to be in Psyche teams?**\nA: No — Haniel's ATK buff is universal."
+  },
+  {
+    "id": "nte-lakshana-team-comps-guide",
+    "title": "异环相属性配队攻略：Lakshana角色阵容与冻结控制机制详解（2026）",
+    "titleTw": "異環相屬性配隊攻略：Lakshana角色陣容與凍結控制機制詳解（2026）",
+    "titleEn": "NTE Lakshana Element Team Comps Guide: Freeze Control & Best Lineups (2026)",
+    "category": "guide",
+    "categoryZh": "配队攻略",
+    "categoryEn": "Team Guide",
+    "date": "2026-05-28",
+    "tags": [
+      "lakshana",
+      "team-comp",
+      "hathor",
+      "freeze"
+    ],
+    "summary": "相(Lakshana)属性以冻结控制为核心机制，哈索尔是主要输出手。本文详解相属性配队方案。",
+    "summaryTw": "相(Lakshana)屬性以凍結控制為核心機制，哈索爾是主要輸出手。本文詳解相屬性配隊方案。",
+    "summaryEn": "Lakshana features Freeze as its core mechanic, with Hathor as primary DPS. Complete guide to Lakshana team comps.",
+    "internalLinks": [
+      {
+        "href": "/characters/hathor",
+        "label": "哈索尔攻略",
+        "labelEn": "Hathor Guide"
+      },
+      {
+        "href": "/characters/chaos",
+        "label": "卡厄斯攻略",
+        "labelEn": "Chaos Guide"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      }
+    ],
+    "content": "相(Lakshana)属性以冻结(Freeze)控制为核心机制。哈索尔(Hathor)是主要的AOE输出手，卡厄斯(Chaos)是1.1版本新加入的进攻角色。\n\n## Lakshana角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 卡厄斯(Chaos) | S | TBD | 进攻 | 凝聚 |\n| 伊利卡(Illica) | S | A | 进攻 | 等离子 |\n| 哈索尔(Hathor) | S | B | 进攻 | 等离子 |\n| 翳(Skia) | A | B | 进攻 | 气体 |\n| 海斗(Kaito) | A | B | 输出 | 气体 |\n\n## 核心反应：冻结(Freeze)\n\nLakshana与Anima触发冻结反应：\n- **效果**：完全限制目标行动\n- **战略价值**：冻结期间可以安全输出\n- **注意**：Boss级敌人通常有冻结抗性\n\n## T0配队推荐\n\n### 哈索尔AOE队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 哈索尔 | 范围AOE输出 |\n| 控制 | 搭配Anima角色 | 触发冻结 |\n| 支援 | 搭配通用辅助 | 增益保障 |\n\n### 卡厄斯1.1新队\n\n卡厄斯是1.1版本新角色，具体配队方案会随玩家实践不断更新。\n\n## FAQ\n\n**Q: Lakshana队强吗？**\nA: 目前角色评级偏低，但冻结控制在对群时有独特价值。卡厄斯评级待定。\n\n**Q: 冻结对Boss有效吗？**\nA: 大多数Boss有冻结抗性。对普通精英怪效果很好。",
+    "contentEn": "Lakshana revolves around the Freeze control mechanic. Hathor is the primary AoE DPS, with Chaos joining in version 1.1.\n\n## Lakshana Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Chaos | S | TBD | Attack | Condensate |\n| Illica | S | A | Attack | Plasma |\n| Hathor | S | B | Attack | Plasma |\n| Skia | A | B | Attack | Gas |\n| Kaito | A | B | DPS | Gas |\n\n## Core Reaction: Freeze\n\nTriggered by Lakshana + Anima:\n- **Effect**: Completely restricts target movement\n- **Strategic value**: Safe DPS window without enemy counterattacks\n- **Note**: Boss enemies typically have Freeze resistance\n\n## T0 Team Compositions\n\n### Hathor AoE Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Hathor | AoE damage |\n| CC | Anima character | Freeze trigger |\n| Support | Generic support | Buffs + sustain |\n\n### Chaos 1.1 Team\n\nChaos is a 1.1 newcomer; optimal teams will be updated as the meta develops.\n\n## FAQ\n\n**Q: Are Lakshana teams strong?**\nA: Currently mid-tier, but Freeze CC has unique value against mob waves.\n\n**Q: Does Freeze work on bosses?**\nA: Most bosses have Freeze resistance. Works well on elite mobs."
+  },
+  {
     "id": "is-nte-pay-to-win",
     "title": "异环氪金吗？零氪能玩吗？完整P2W分析与零氪路线规划（2026）",
     "titleTw": "異環氪金嗎？零氪能玩嗎？完整P2W分析與零氪路線規劃（2026）",

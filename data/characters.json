@@ -885,7 +885,38 @@
     "cvEn": "Baraka May",
     "trait": "高难度梦游",
     "arcType": "liquid",
-    "signatureArc": "The Last Rose"
+    "signatureArc": "The Last Rose",
+    "rotation": {
+      "steps": [
+        {
+          "character": "mismo",
+          "action": "战技提供增益和元素反应触发",
+          "actionEn": "Skill to provide buffs and trigger elemental reactions"
+        },
+        {
+          "character": "black-bird",
+          "action": "切入战技触发混沌反应",
+          "actionEn": "Swap in, Skill to trigger Chaos reactions"
+        },
+        {
+          "character": "lacrimosa",
+          "action": "战技起手，释放异能造物攻击",
+          "actionEn": "Skill to deploy psychic constructs for AoE damage"
+        },
+        {
+          "character": "daffodil",
+          "action": "切入提供治疗和增益",
+          "actionEn": "Swap in for healing and buffs"
+        },
+        {
+          "character": "lacrimosa",
+          "action": "大招造成多段混沌伤害+附加噩梦",
+          "actionEn": "Ultimate for multi-hit Chaos damage + Nightmare debuff"
+        }
+      ],
+      "tips": "拉克莉莫萨是混沌属性进攻角色，大招可造成5段范围伤害并附加噩梦效果。战技的恶魔礼物可以吸收普通怪物并拟态其技能，灵活运用可大幅提升清场效率。建议先让辅助放完增益技能再切安魂曲站场输出。",
+      "tipsEn": "Lacrimosa is a Chaos-attribute Attack character whose Ultimate deals 5 hits of AoE damage and applies Nightmare debuff. The Skill's Demon's Gift absorbs normal enemies and mimics their abilities, greatly improving clear speed when used strategically. Best to have supports cast buffs first, then swap to Lacrimosa for sustained DPS."
+    }
   },
   {
     "id": "baicang",
@@ -1340,7 +1371,43 @@
     "cvJp": "内田雄马",
     "cvJpEn": "Yuma Uchida",
     "arcType": "solid",
-    "signatureArc": "day-off"
+    "signatureArc": "day-off",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "战技聚怪",
+          "actionEn": "Skill to group enemies"
+        },
+        {
+          "character": "hotori",
+          "action": "战技进入记录模式",
+          "actionEn": "Skill to enter recording mode"
+        },
+        {
+          "character": "zero-male",
+          "action": "切入战技+普攻循环输出，触发Blossom",
+          "actionEn": "Swap in, Skill + normal attack loop to trigger Blossom"
+        },
+        {
+          "character": "jiuyuan",
+          "action": "切入战技+大招，触发更多Blossom",
+          "actionEn": "Swap in, Skill + Ultimate for additional Blossom triggers"
+        },
+        {
+          "character": "hotori",
+          "action": "大招复刻全队技能",
+          "actionEn": "Ultimate to replay all recorded skills"
+        },
+        {
+          "character": "zero-male",
+          "action": "切回站场输出，循环充能",
+          "actionEn": "Swap back for sustained DPS and meter cycling"
+        }
+      ],
+      "tips": "零的核心输出循环是利用Blossom反应快速叠层。与穗鸟+久远组成的「光耀坼绽队」是当前最强配队之一。零的循环速度可以瞬间充满100层，配合穗鸟的记录效果实现爆发。先手让辅助放完技能，零切站场输出效率最高。",
+      "tipsEn": "Zero's core DPS loop leverages Blossom reaction stacking. The Cosmos Blossom team (Zero + Hotori + Jiuyuan) is one of the strongest comps. Zero's cycle rate instantly charges to 100 stacks. Combined with Hotori's recording, this creates massive burst windows. Have supports cast first, then Zero takes the field for maximum efficiency."
+    }
   },
   {
     "id": "zero-female",
@@ -1547,7 +1614,43 @@
     "cvJp": "内田真礼",
     "cvJpEn": "Maaya Uchida",
     "arcType": "solid",
-    "signatureArc": "day-off"
+    "signatureArc": "day-off",
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "战技聚怪",
+          "actionEn": "Skill to group enemies"
+        },
+        {
+          "character": "hotori",
+          "action": "战技进入记录模式",
+          "actionEn": "Skill to enter recording mode"
+        },
+        {
+          "character": "zero-female",
+          "action": "切入战技+普攻循环输出，触发Blossom",
+          "actionEn": "Swap in, Skill + normal attack loop to trigger Blossom"
+        },
+        {
+          "character": "jiuyuan",
+          "action": "切入战技+大招，触发更多Blossom",
+          "actionEn": "Swap in, Skill + Ultimate for additional Blossom triggers"
+        },
+        {
+          "character": "hotori",
+          "action": "大招复刻全队技能",
+          "actionEn": "Ultimate to replay all recorded skills"
+        },
+        {
+          "character": "zero-female",
+          "action": "切回站场输出，循环充能",
+          "actionEn": "Swap back for sustained DPS and meter cycling"
+        }
+      ],
+      "tips": "零（女）的输出手法与零（男）基本一致，核心也是Blossom反应速叠层。搭配穗鸟+久远效果最佳。站场时注意保持普攻连段以触发战技的追加攻击。",
+      "tipsEn": "Zero (Female) follows the same DPS rotation as Zero (Male), centered on Blossom stacking. Best paired with Hotori + Jiuyuan. While on-field, maintain normal attack combos to trigger skill follow-ups."
+    }
   },
   {
     "id": "hotori",
@@ -1760,7 +1863,38 @@
     "cvEn": "Lindsay Sheppard",
     "trait": "凝雪之仪",
     "arcType": "gas",
-    "signatureArc": "tears-beneath-the-mask"
+    "signatureArc": "tears-beneath-the-mask",
+    "rotation": {
+      "steps": [
+        {
+          "character": "hotori",
+          "action": "战技起手，进入记录模式",
+          "actionEn": "Open with Skill to enter recording mode"
+        },
+        {
+          "character": "jiuyuan",
+          "action": "切入释放战技+大招，触发协同攻击",
+          "actionEn": "Swap in, cast Skill + Ultimate for coordinated attacks"
+        },
+        {
+          "character": "zero-male",
+          "action": "切入释放战技+大招，触发Blossom反应",
+          "actionEn": "Swap in, cast Skill + Ultimate to trigger Blossom reaction"
+        },
+        {
+          "character": "nanally",
+          "action": "切入释放战技+大招，触发Remora反应",
+          "actionEn": "Swap in, cast Skill + Ultimate to trigger Remora reaction"
+        },
+        {
+          "character": "hotori",
+          "action": "立刻释放大招，记录并重现所有队友技能",
+          "actionEn": "Immediately cast Ultimate to record and replay all teammate skills"
+        }
+      ],
+      "tips": "穗鸟的核心是战技记录机制：先开E进入记录状态，然后全队快速切人放技能，最后穗鸟大招一次性复刻所有已记录的技能。注意大招必须在记录状态持续时间内释放。与零配合时Blossom触发次数×3，效果极佳。",
+      "tipsEn": "Hotori's core mechanic is the Skill recording system: open with E to enter recording mode, quick-swap through all teammates casting their skills, then immediately Ultimate to replay everything recorded. Must Ult before recording mode expires. Synergizes extremely well with Zero, tripling Blossom triggers."
+    }
   },
   {
     "id": "daffodil",
@@ -2323,7 +2457,38 @@
     "cvJpEn": "Manaka Iwami",
     "cvEn": "Alexis Tipton",
     "arcType": "solid",
-    "signatureArc": "blow-up-the-crowd"
+    "signatureArc": "blow-up-the-crowd",
+    "rotation": {
+      "steps": [
+        {
+          "character": "haniel",
+          "action": "战技投掷咕咕子，全队获得攻击力增益",
+          "actionEn": "Skill to deploy Gu Gu Zi, granting team ATK buff"
+        },
+        {
+          "character": "fadia",
+          "action": "切入战技+大招爆发输出",
+          "actionEn": "Swap in for Skill + Ultimate burst DPS"
+        },
+        {
+          "character": "nitsa",
+          "action": "切入提供额外增益和减益",
+          "actionEn": "Swap in for additional buffs and debuffs"
+        },
+        {
+          "character": "haniel",
+          "action": "大招展开强化领域，刷新增益",
+          "actionEn": "Ultimate to deploy enhanced field and refresh buffs"
+        },
+        {
+          "character": "fadia",
+          "action": "切回继续输出，享受强化领域加成",
+          "actionEn": "Swap back for continued DPS under enhanced field"
+        }
+      ],
+      "tips": "哈尼尔是攻击力增益型支援，战技的咕咕子持续8秒为全队加攻。核心手法是先放战技再切主C输出，8秒后用大招刷新增益。合奏效果需要场上角色连续攻击2秒触发。QTE还能汲取敌方攻击力进一步提升全队输出。",
+      "tipsEn": "Haniel is an ATK-buff support whose Skill deploys Gu Gu Zi for 8 seconds of team ATK boost. Core rotation: Skill first, then swap to main DPS. Refresh buffs with Ultimate after 8 seconds. The Ensemble effect triggers after 2 seconds of continuous attacks. QTE also drains enemy ATK to further boost team damage."
+    }
   },
   {
     "id": "adler",
@@ -7500,7 +7665,38 @@
     "status": "available",
     "nameTw": "浔",
     "arcType": "liquid",
-    "signatureArc": "clear-skies"
+    "signatureArc": "clear-skies",
+    "rotation": {
+      "steps": [
+        {
+          "character": "nanally",
+          "action": "战技先手聚怪+控制",
+          "actionEn": "Skill to group and CC enemies"
+        },
+        {
+          "character": "xun",
+          "action": "战技记录娜娜莉的协同技能",
+          "actionEn": "Skill to record Nanally's coordinated attacks"
+        },
+        {
+          "character": "zero-male",
+          "action": "切入战技+大招爆发输出",
+          "actionEn": "Swap in for Skill + Ultimate burst"
+        },
+        {
+          "character": "xun",
+          "action": "大招触发时停+重现记录的技能",
+          "actionEn": "Ultimate to trigger time-stop and replay recorded skills"
+        },
+        {
+          "character": "mint",
+          "action": "切入触发坼绽反应收尾",
+          "actionEn": "Swap in to trigger Blossom Detonation for cleanup"
+        }
+      ],
+      "tips": "浔是独特的记录型支援角色，核心机制是记录队友的协同技能后用大招重现。与娜娜莉配合可实现无限控制链：娜娜莉控场→浔记录→零爆发→浔大招复刻娜娜莉控制。注意大招的时停效果可以安全输出。浔的记录最多存储3个队友技能。",
+      "tipsEn": "Xun is a unique recording support whose core mechanic records teammate coordinated skills and replays them with Ultimate. With Nanally, enables infinite CC chains: Nanally CC → Xun records → Zero bursts → Xun Ult replays Nanally's CC. The time-stop effect on Ultimate provides a safe DPS window. Xun can store up to 3 teammate skills."
+    }
   },
   {
     "id": "chaos",
