@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
@@ -60,6 +61,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime: post.date,
+      ...(post.image ? { images: [{ url: `https://nteguide.com${post.image}`, width: 1920, height: 1080, alt: post.imageAlt || title }] } : {}),
     },
   };
 }
@@ -87,6 +89,7 @@ export default async function BlogDetailPage({
         url={`https://nteguide.com/${lang}/blog/${slug}`}
         datePublished={post.date}
         dateModified={post.date}
+        image={post.image ? `https://nteguide.com${post.image}` : undefined}
       />
       <Breadcrumb
         items={[
@@ -105,6 +108,18 @@ export default async function BlogDetailPage({
           </time>
         </div>
         <h1 className="text-2xl font-bold mb-6">{title}</h1>
+        {post.image && (
+          <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-gray-800">
+            <Image
+              src={post.image}
+              alt={post.imageAlt || title}
+              fill
+              sizes="(max-width: 768px) 100vw, 896px"
+              className="object-cover"
+              priority
+            />
+          </div>
+        )}
         <p className="text-gray-400 mb-6 text-sm border-l-2 border-primary-500 pl-3">
           {summary}
         </p>
@@ -178,15 +193,29 @@ export default async function BlogDetailPage({
                   <Link
                     key={rp.id}
                     href={`/${lang}/blog/${rp.id}`}
-                    className="group rounded-xl border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 transition-colors"
+                    className="group rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"
                   >
-                    <span className="text-xs text-gray-500">{rp.date}</span>
-                    <h3 className="text-sm font-medium mt-1 group-hover:text-primary-400 transition-colors">
-                      {isZhLocale(locale) ? rp.title : rp.titleEn}
-                    </h3>
-                    <p className="text-xs text-gray-500 mt-2 line-clamp-2">
-                      {isZhLocale(locale) ? rp.summary : rp.summaryEn}
-                    </p>
+                    {rp.image && (
+                      <div className="relative w-full h-28 bg-gray-800">
+                        <Image
+                          src={rp.image}
+                          alt={rp.imageAlt || (isZhLocale(locale) ? rp.title : rp.titleEn)}
+                          fill
+                          sizes="300px"
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                    <div className="p-4">
+                      <span className="text-xs text-gray-500">{rp.date}</span>
+                      <h3 className="text-sm font-medium mt-1 group-hover:text-primary-400 transition-colors">
+                        {isZhLocale(locale) ? rp.title : rp.titleEn}
+                      </h3>
+                      <p className="text-xs text-gray-500 mt-2 line-clamp-2">
+                        {isZhLocale(locale) ? rp.summary : rp.summaryEn}
+                      </p>
+                    </div>
                   </Link>
                 ))}
               </div>

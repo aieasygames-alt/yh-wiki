@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     openGraph: {
       title,
       description,
+      images: [{ url: "https://nteguide.com/images/blog/nte-promotional-welcome-key-art.webp", width: 1920, height: 1080, alt: "Neverness to Everness Blog" }],
     },
   };
 }
@@ -46,6 +47,8 @@ export default async function BlogListPage({ params }: { params: { lang: string 
               date={post.date}
               tags={post.tags}
               locale={locale}
+              image={post.image}
+              imageAlt={post.imageAlt}
             />
           ))}
         </div>

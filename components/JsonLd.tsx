@@ -127,7 +127,7 @@ export function BreadcrumbJsonLd({ items }: { items: { name: string; url?: strin
   );
 }
 
-export function ArticleJsonLd({ title, description, url, datePublished, dateModified }: { title: string; description: string; url: string; datePublished?: string; dateModified?: string }) {
+export function ArticleJsonLd({ title, description, url, datePublished, dateModified, image }: { title: string; description: string; url: string; datePublished?: string; dateModified?: string; image?: string }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -136,7 +136,7 @@ export function ArticleJsonLd({ title, description, url, datePublished, dateModi
     url,
     ...(datePublished ? { datePublished } : {}),
     ...(dateModified ? { dateModified } : {}),
-    image: "https://nteguide.com/og.png",
+    image: image || "https://nteguide.com/og.png",
     author: {
       "@type": "Organization",
       name: "NTE Guide",

@@ -79,6 +79,7 @@ export async function generateMetadata({
       title: meta.ogTitle,
       description: meta.ogDescription,
       type: "website",
+      images: [{ url: "https://nteguide.com/images/blog/nte-promotional-welcome-key-art.webp", width: 1920, height: 1080, alt: "Neverness to Everness" }],
     },
   };
 }

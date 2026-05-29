@@ -433,6 +433,8 @@ export interface BlogPost {
   categoryEn: string;
   date: string;
   tags: string[];
+  image?: string;
+  imageAlt?: string;
   internalLinks: { label: string; labelEn: string; href: string }[];
 }
 
