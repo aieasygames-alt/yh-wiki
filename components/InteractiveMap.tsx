@@ -28,8 +28,8 @@ interface InteractiveMapProps {
 }
 
 function clusterIconCreate(cluster: L.MarkerCluster): L.DivIcon {
-  var count = cluster.getChildCount();
-  var size = count < 10 ? 36 : count < 50 ? 44 : 52;
+  const count = cluster.getChildCount();
+  const size = count < 10 ? 36 : count < 50 ? 44 : 52;
   return L.divIcon({
     html: '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:rgba(99,102,241,0.8);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:13px;border:2px solid rgba(99,102,241,0.4)">' + count + '</div>',
     className: 'custom-cluster',
