@@ -7526,13 +7526,13 @@
         {
           "name": "鬼兰家纹",
           "nameEn": "Ghost Orchid Crest",
-          "description": "...",
+          "description": "释放「今景复映」或「浮世来潮」时，为全队额外回复浔最大生命值15%。",
           "descriptionEn": "..."
         },
         {
           "name": "天下万宝",
           "nameEn": "Treasures of the World",
-          "description": "...",
+          "description": "每场战斗中，第1次时停结束后，「非闭合时计」的能量立即积累最大值。",
           "descriptionEn": "..."
         }
       ],
@@ -7545,59 +7545,59 @@
       "qte": {
         "name": "店主威势",
         "nameEn": "Shopkeeper Authority",
-        "description": "切换入场时发动时停领域，对周围敌人造成Cosmos属性伤害并有概率冻结目标1秒。",
+        "description": "该给无礼的客人一点教训尝尝了。浔掷出伞，造成1次范围性的Cosmos属性伤害。",
         "descriptionEn": "..."
       },
       "resonance": [
         {
-          "name": "共鸣·时间裂缝",
-          "nameEn": "Resonance · Time Rift",
+          "name": "东零西碎的永恒",
+          "nameEn": "Eternity of Scattered Fragments",
           "awakenReq": 3,
-          "description": "时间停止效果结束时，对范围内敌人造成一次额外的Cosmos属性伤害。"
+          "description": "「胧月流」、「今景复映」、「浮世来潮」的技能等级提升1级。"
         },
         {
-          "name": "共鸣·永恒定格",
-          "nameEn": "Resonance · Eternal Freeze",
+          "name": "了然于中的至珍",
+          "nameEn": "The Treasured Understanding",
           "awakenReq": 6,
-          "description": "时停期间所有队伍成员的攻击获得Cosmos属性伤害加成。追击攻击暴击率提升。"
+          "description": "进入战斗时，若非「浮世来潮」所造成的时停期间，「非闭合时计」的能量立即积蓄到最大值。"
         }
       ],
       "awakening": [
         {
-          "name": "觉醒1·时停延长",
-          "nameEn": "Awakening 1 · Time Stop Extension",
+          "name": "欣欣渐行",
+          "nameEn": "Gradual Progress",
           "level": 1,
-          "description": "时间停止效果持续时间延长0.5秒。"
+          "description": "释放「今景复映」或「浮世来潮」时，为全队额外回复浔最大生命值15%。"
         },
         {
-          "name": "觉醒2·证据积累加速",
-          "nameEn": "Awakening 2 · Faster Evidence",
+          "name": "忆昔告远",
+          "nameEn": "Remembering the Distant Past",
           "level": 2,
-          "description": "普攻命中时额外叠加1层「罪证」标记。"
+          "description": "每场战斗中，第1次时停结束后，「非闭合时计」的能量立即积累最大值。"
         },
         {
-          "name": "觉醒3·追击强化",
-          "nameEn": "Awakening 3 · Enhanced Pursuit",
+          "name": "垂目须臾",
+          "nameEn": "Glimpse of the Moment",
           "level": 3,
-          "description": "追击攻击伤害大幅提升，并附带击退效果。关键战斗力里程碑。"
+          "description": "未回拨指针期间，全队每击败1个目标，「非闭合时计」额外10点能量，最多生效3次。释放「浮世来潮」重置计数。"
         },
         {
-          "name": "觉醒4·能量回复",
-          "nameEn": "Awakening 4 · Energy Recovery",
+          "name": "旧藏遗散",
+          "nameEn": "Scattered Old Collection",
           "level": 4,
-          "description": "触发追击时回复自身能量，加快终结技循环。"
+          "description": "提升浔的辅助能力，增强时停期间的团队增益效果。"
         },
         {
-          "name": "觉醒5·时停频率提升",
-          "nameEn": "Awakening 5 · More Time Stops",
+          "name": "独窥全相",
+          "nameEn": "Seeing the Whole Picture",
           "level": 5,
-          "description": "时间停止触发概率提升，更多机会冻结敌人。"
+          "description": "浔上阵时，如果场上仅有1个敌人，全队对该目标造成的伤害提升15%。浔力竭时，失去该效果。"
         },
         {
-          "name": "觉醒6·无限时停",
-          "nameEn": "Awakening 6 · Infinite Stasis",
+          "name": "时轮啮雪",
+          "nameEn": "Time Wheel Biting Snow",
           "level": 6,
-          "description": "终结技必定触发时间停止，且在时停期间浔的攻击不消耗能量。"
+          "description": "进入战斗时，若非「浮世来潮」所造成的时停期间，「非闭合时计」的能量立即积蓄到最大值。"
         }
       ]
     },
@@ -7708,7 +7708,8 @@
     "cvZh": "杜晴晴",
     "cvJp": "伊藤静",
     "cvJpEn": "Shizuka Ito",
-    "cvEn": "Lindsay Sheppard"
+    "cvEn": "Lindsay Sheppard",
+    "trait": "凝雪之仪"
   },
   {
     "id": "chaos",
