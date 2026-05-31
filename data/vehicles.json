@@ -10,7 +10,12 @@
     "description": "诺维斯出品的入门级轿车，性能均衡，是新手玩家的理想选择。",
     "descriptionEn": "An entry-level car from Novus with balanced performance. The ideal choice for new players starting their journey in Hethereau.",
     "topSpeed": 132,
-    "stats": { "acceleration": 4, "shift": 5, "brake": 4, "drift": 4 },
+    "stats": {
+      "acceleration": 4,
+      "shift": 5,
+      "brake": 4,
+      "drift": 4
+    },
     "source": "初始免费",
     "sourceEn": "Free (Starter Vehicle)",
     "price": null,
@@ -36,7 +41,12 @@
     "description": "诺维斯的经济型轿车，价格亲民，适合日常城市通勤。",
     "descriptionEn": "An affordable car from Novus, perfect for daily city commuting around Hethereau at a budget-friendly price.",
     "topSpeed": 130,
-    "stats": { "acceleration": 3, "shift": 4, "brake": 3, "drift": null },
+    "stats": {
+      "acceleration": 3,
+      "shift": 4,
+      "brake": 3,
+      "drift": null
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 50000,
@@ -68,7 +78,12 @@
     "description": "泰拉X制造的中型轿车，刹车性能优异，操控稳定可靠。",
     "descriptionEn": "A mid-size sedan from TerraX featuring excellent braking performance and stable, reliable handling on Hethereau's roads.",
     "topSpeed": 138,
-    "stats": { "acceleration": 4, "shift": 3, "brake": 5, "drift": null },
+    "stats": {
+      "acceleration": 4,
+      "shift": 3,
+      "brake": 5,
+      "drift": null
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 200000,
@@ -94,7 +109,12 @@
     "description": "诺维斯的高性能轿车，加速与变速均表现出色，中端玩家的进阶之选。",
     "descriptionEn": "A high-performance car from Novus with strong acceleration and shifting. An excellent upgrade for mid-game players.",
     "topSpeed": 146,
-    "stats": { "acceleration": 5, "shift": 5, "brake": 4, "drift": null },
+    "stats": {
+      "acceleration": 5,
+      "shift": 5,
+      "brake": 4,
+      "drift": null
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 350000,
@@ -120,7 +140,12 @@
     "description": "诺维斯的运动型轿车，极速表现突出，适合追求速度的驾驶者。",
     "descriptionEn": "A sporty car from Novus with impressive top speed, designed for drivers who crave velocity on Hethereau's highways.",
     "topSpeed": 155,
-    "stats": { "acceleration": null, "shift": null, "brake": null, "drift": null },
+    "stats": {
+      "acceleration": null,
+      "shift": null,
+      "brake": null,
+      "drift": null
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 450000,
@@ -146,7 +171,12 @@
     "description": "诺维斯的执法级轿车，全面均衡的高性能载具，漂移操控尤为出色。",
     "descriptionEn": "An enforcement-grade car from Novus with well-rounded high performance and particularly outstanding drift handling.",
     "topSpeed": 172,
-    "stats": { "acceleration": 6, "shift": 6, "brake": 6, "drift": 8 },
+    "stats": {
+      "acceleration": 6,
+      "shift": 6,
+      "brake": 6,
+      "drift": 8
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 1720000,
@@ -178,7 +208,12 @@
     "description": "瑞加利亞的旗舰级运动轿车，拥有极高的极速表现，是顶级驾驶者的梦想座驾。",
     "descriptionEn": "A flagship sports car from Regalia with incredible top speed. A dream ride for top-tier drivers in Hethereau.",
     "topSpeed": 180,
-    "stats": { "acceleration": null, "shift": null, "brake": null, "drift": null },
+    "stats": {
+      "acceleration": null,
+      "shift": null,
+      "brake": null,
+      "drift": null
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 4000000,
@@ -204,7 +239,12 @@
     "description": "瑞加利亞的超高端轿车，极速接近200km/h，加速与变速表现近乎完美。",
     "descriptionEn": "An ultra-premium car from Regalia approaching 200 km/h top speed with near-perfect acceleration and shifting performance.",
     "topSpeed": 191,
-    "stats": { "acceleration": 8, "shift": 9, "brake": null, "drift": null },
+    "stats": {
+      "acceleration": 8,
+      "shift": 9,
+      "brake": null,
+      "drift": null
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 10800000,
@@ -236,7 +276,12 @@
     "description": "瑞加利亞的究极旗舰轿车，全游戏极速最高的地面载具，全方位性能登峰造极。",
     "descriptionEn": "The ultimate flagship car from Regalia. The fastest ground vehicle in the game with peak performance across all categories.",
     "topSpeed": 202,
-    "stats": { "acceleration": 9, "shift": 8, "brake": 7, "drift": 8 },
+    "stats": {
+      "acceleration": 9,
+      "shift": 8,
+      "brake": 7,
+      "drift": 8
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 12000000,
@@ -268,7 +313,12 @@
     "description": "瑞加利亞的运动型摩托车，变速与漂移性能卓越，操控灵活精准。",
     "descriptionEn": "A sport motorcycle from Regalia with outstanding shifting and drift performance. Agile and precise handling for skilled riders.",
     "topSpeed": 140,
-    "stats": { "acceleration": 6, "shift": 8, "brake": 6, "drift": 8 },
+    "stats": {
+      "acceleration": 6,
+      "shift": 8,
+      "brake": 6,
+      "drift": 8
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 250000,
@@ -300,7 +350,12 @@
     "description": "瑞加利亞的顶级摩托车，极速媲美超级跑车，全面性能在摩托车中无可匹敌。",
     "descriptionEn": "A top-tier motorcycle from Regalia with supercar-level top speed. Unmatched all-around performance among motorcycles.",
     "topSpeed": 180,
-    "stats": { "acceleration": 7, "shift": 10, "brake": 7, "drift": 9 },
+    "stats": {
+      "acceleration": 7,
+      "shift": 10,
+      "brake": 7,
+      "drift": 9
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": 2450000,
@@ -332,7 +387,12 @@
     "description": "便捷的城市代步踏板车，可以在任意位置召唤，是探索赫瑟劳最灵活的交通方式。",
     "descriptionEn": "A convenient city scooter that can be summoned anywhere. The most flexible way to explore Hethereau without needing a roadside.",
     "topSpeed": 40,
-    "stats": { "acceleration": 2, "shift": 0, "brake": 5, "drift": 6 },
+    "stats": {
+      "acceleration": 2,
+      "shift": 0,
+      "brake": 5,
+      "drift": 6
+    },
     "source": "载具商店购买",
     "sourceEn": "Vehicle Shop",
     "price": null,
@@ -364,7 +424,12 @@
     "description": "独特的卡丁车造型载具，充满趣味性，通过特殊活动获取。",
     "descriptionEn": "A unique kart-style vehicle full of fun. Obtained through special in-game events rather than standard purchase.",
     "topSpeed": 50,
-    "stats": { "acceleration": 2, "shift": 0, "brake": 5, "drift": 7 },
+    "stats": {
+      "acceleration": 2,
+      "shift": 0,
+      "brake": 5,
+      "drift": 7
+    },
     "source": "特殊活动",
     "sourceEn": "Special Event",
     "price": null,
@@ -390,7 +455,12 @@
     "description": "1.1版本新增的船只载具，可在赫瑟劳的水域自由航行，探索全新游乐园区域。",
     "descriptionEn": "A new ship vehicle added in Version 1.1. Sail freely across Hethereau's waters and explore the new amusement park area.",
     "topSpeed": null,
-    "stats": { "acceleration": null, "shift": null, "brake": null, "drift": null },
+    "stats": {
+      "acceleration": null,
+      "shift": null,
+      "brake": null,
+      "drift": null
+    },
     "source": "1.1版本解锁",
     "sourceEn": "Unlocked in Version 1.1",
     "price": null,
@@ -410,5 +480,42 @@
       }
     ],
     "image": null
+  },
+  {
+    "id": "porsche-918-spyder",
+    "name": "保时捷918 Spyder",
+    "nameEn": "Porsche 918 Spyder",
+    "type": "轿车",
+    "typeEn": "Car",
+    "brand": "保时捷",
+    "brandEn": "Porsche",
+    "description": "保时捷与异环联动的限定载具，原型为传奇超跑918 Spyder。最高时速215，是游戏内性能最强的轿车之一。通过1.1版本联动盲盒「失速狂飙」获取，15抽保底。",
+    "descriptionEn": "A limited collaboration vehicle from the Porsche x NTE partnership, based on the legendary 918 Spyder supercar. With a top speed of 215, it's one of the highest-performance cars in the game. Available through the 1.1 version collaboration gacha 'Speeding Frenzy' with 15-pull pity.",
+    "topSpeed": 215,
+    "stats": {
+      "acceleration": 5,
+      "shift": 5,
+      "brake": 4,
+      "drift": 5
+    },
+    "source": "联动盲盒「失速狂飙」15抽保底",
+    "sourceEn": "Collaboration Gacha 'Speeding Frenzy' (15-pull pity)",
+    "price": null,
+    "currency": "fons",
+    "faq": [
+      {
+        "question": "How to get the Porsche 918 Spyder in NTE?",
+        "questionZh": "如何获得保时捷918 Spyder？",
+        "answer": "The Porsche 918 Spyder is available through the collaboration gacha 'Speeding Frenzy' during version 1.1. It has a 15-pull pity system using Fons or Annulith. F2P players can obtain enough currency through story missions, event shop, and login rewards (free 20 pulls given).",
+        "answerZh": "保时捷918 Spyder通过1.1版本联动盲盒「失速狂飙」获取，15抽保底，使用芬斯或环石抽取。零氪玩家可通过剧情任务、活动商店和登录奖励获得足够货币（免费赠送20抽）。"
+      },
+      {
+        "question": "Is the Porsche 918 Spyder F2P friendly?",
+        "questionZh": "保时捷918 Spyder零氪能拿到吗？",
+        "answer": "Yes! F2P players can accumulate approximately 10.28M Fons plus 20 free pulls, which is enough to hit the 15-pull pity. You can also obtain additional pulls through story missions and event rewards.",
+        "answerZh": "可以！零氪玩家可以积累约1028万芬斯加上20次免费抽取，足够触发15抽保底。还可以通过剧情任务和活动奖励获得额外抽取次数。"
+      }
+    ],
+    "image": "/images/vehicles/porsche-918-spyder.webp"
   }
 ]

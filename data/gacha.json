@@ -14,8 +14,19 @@
     "avgPity": 53.5,
     "pityCarryOver": true,
     "guaranteedFeatured": true,
-    "featured": ["lacrimosa"],
-    "featured4": ["adler", "mint", "skia", "edgar", "taygedo", "nelly", "merula", "alphard"]
+    "featured": [
+      "lacrimosa"
+    ],
+    "featured4": [
+      "adler",
+      "mint",
+      "skia",
+      "edgar",
+      "taygedo",
+      "nelly",
+      "merula",
+      "alphard"
+    ]
   },
   "beginner": {
     "id": "beginner",
@@ -28,7 +39,10 @@
     "rate3": 89.4,
     "pity5": 20,
     "hasSelector": true,
-    "selectorPool": ["mint", "sakiri"],
+    "selectorPool": [
+      "mint",
+      "sakiri"
+    ],
     "maxPulls": 20,
     "oneTimeOnly": true
   },
@@ -64,5 +78,34 @@
     "guaranteedFeatured": true,
     "featured": [],
     "featured4": []
+  },
+  "limited-phase2": {
+    "id": "limited-phase2",
+    "name": "限定祈愿·下半",
+    "nameEn": "Limited Wish · Phase 2",
+    "description": "卡厄斯概率提升，无50/50机制",
+    "descriptionEn": "Chaos rate boosted, no 50/50 system",
+    "rate5": 0.6,
+    "rate4": 10,
+    "rate3": 89.4,
+    "pity5": 90,
+    "softPityStart": 74,
+    "has5050": false,
+    "avgPity": 53.5,
+    "pityCarryOver": true,
+    "guaranteedFeatured": true,
+    "featured": [
+      "chaos"
+    ],
+    "featured4": [
+      "adler",
+      "mint",
+      "skia",
+      "edgar",
+      "taygedo",
+      "nelly",
+      "merula",
+      "alphard"
+    ]
   }
 }

@@ -7745,9 +7745,9 @@
     "relatedCharacters": [
       "lacrimosa"
     ],
-    "tierRank": "TBD",
-    "tierReason": "Upcoming character, pending evaluation",
-    "tierReasonZh": "即将上线角色，待评估",
+    "tierRank": "A",
+    "tierReason": "Versatile support DPS with teleport placement and strong Lakshana reactions. Solid pick for any Lakshana team but not a must-pull for existing roster.",
+    "tierReasonZh": "多功能的副C角色，拥有传送放置技能和强力的相属性反应。适合任何相属性配队，但对已有阵容来说非必须。",
     "skills": {
       "normalAttack": {
         "name": "待定",
@@ -7811,7 +7811,7 @@
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
     "descriptionEn": "The first S-rank limited male character in Neverness to Everness, debuting in Version 1.1's 'A Research in Scarlet' main episode.",
-    "status": "upcoming",
+    "status": "available",
     "nameTw": "卡厄斯",
     "cvZh": "待定",
     "cvJp": "待定",
