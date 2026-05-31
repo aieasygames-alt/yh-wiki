@@ -27,8 +27,7 @@ interface InteractiveMapProps {
   routeMarkerIds?: string[];
 }
 
-const CLUSTER_ICON_CREATE = `
-(function(cluster) {
+function clusterIconCreate(cluster: L.MarkerCluster): L.DivIcon {
   var count = cluster.getChildCount();
   var size = count < 10 ? 36 : count < 50 ? 44 : 52;
   return L.divIcon({
@@ -36,8 +35,7 @@ const CLUSTER_ICON_CREATE = `
     className: 'custom-cluster',
     iconSize: [size, size]
   });
-})
-`;
+}
 
 export default function InteractiveMap({
   map,
@@ -65,7 +63,7 @@ export default function InteractiveMap({
     const leafletMap = L.map(containerRef.current, {
       crs: L.CRS.Simple,
       minZoom: map.minZoom ?? 1,
-      maxZoom: map.maxZoom ?? 4,
+      maxZoom: map.maxZoom ?? 5,
       zoomSnap: 0.5,
       zoomDelta: 0.5,
       attributionControl: false,
@@ -76,10 +74,20 @@ export default function InteractiveMap({
 
     leafletMap.fitBounds(bounds);
 
-    // Use image overlay (tile upgrade can be swapped in later)
-    L.imageOverlay(map.image, bounds, {
-      interactive: false,
-    }).addTo(leafletMap);
+    // Tile layer with imageOverlay fallback
+    if (map.image.includes("{z}")) {
+      L.tileLayer(map.image, {
+        minZoom: map.minZoom ?? 1,
+        maxZoom: map.maxZoom ?? 5,
+        bounds: bounds,
+        noWrap: true,
+        tms: map.tms ?? false,
+      }).addTo(leafletMap);
+    } else {
+      L.imageOverlay(map.image, bounds, {
+        interactive: false,
+      }).addTo(leafletMap);
+    }
 
     // Create cluster group
     const clusterGroup = L.markerClusterGroup({
@@ -87,7 +95,7 @@ export default function InteractiveMap({
       spiderfyOnMaxZoom: true,
       showCoverageOnHover: false,
       zoomToBoundsOnClick: true,
-      iconCreateFunction: new Function("cluster", "return (" + CLUSTER_ICON_CREATE + ")(cluster)") as (cluster: L.MarkerCluster) => L.Icon | L.DivIcon,
+      iconCreateFunction: clusterIconCreate,
     });
 
     clusterGroup.addTo(leafletMap);

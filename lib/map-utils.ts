@@ -57,6 +57,7 @@ export interface MapInfo {
   minZoom: number;
   maxZoom: number;
   bounds: [[number, number], [number, number]];
+  tms?: boolean;
   markers: MapMarker[];
 }
 

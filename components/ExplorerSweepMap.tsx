@@ -38,7 +38,16 @@ export default function ExplorerSweepMap({
     });
 
     const bounds = getMapBounds(map);
-    L.imageOverlay(map.image, bounds as L.LatLngBoundsExpression).addTo(m);
+    if (map.image.includes("{z}")) {
+      L.tileLayer(map.image, {
+        minZoom: map.minZoom || 1,
+        maxZoom: map.maxZoom || 5,
+        bounds: bounds as L.LatLngBoundsExpression,
+        noWrap: true,
+      }).addTo(m);
+    } else {
+      L.imageOverlay(map.image, bounds as L.LatLngBoundsExpression).addTo(m);
+    }
     m.fitBounds(bounds as L.LatLngBoundsExpression);
 
     markersLayerRef.current = L.layerGroup().addTo(m);

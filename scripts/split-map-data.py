@@ -25,6 +25,7 @@ def main():
             "bounds": src_map["bounds"],
             "minZoom": src_map["minZoom"],
             "maxZoom": src_map["maxZoom"],
+            "tms": src_map.get("tms", False),
             "markers": [],  # loaded separately
         }],
         "markerTypes": d["markerTypes"],
