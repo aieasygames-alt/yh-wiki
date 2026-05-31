@@ -7545,51 +7545,59 @@
       "qte": {
         "name": "店主威势",
         "nameEn": "Shopkeeper Authority",
-        "description": "...",
+        "description": "切换入场时发动时停领域，对周围敌人造成Cosmos属性伤害并有概率冻结目标1秒。",
         "descriptionEn": "..."
       },
       "resonance": [
         {
-          "name": "东零西碎的永恒",
-          "nameEn": "Eternal Fragments",
-          "awakenReq": 3
+          "name": "共鸣·时间裂缝",
+          "nameEn": "Resonance · Time Rift",
+          "awakenReq": 3,
+          "description": "时间停止效果结束时，对范围内敌人造成一次额外的Cosmos属性伤害。"
         },
         {
-          "name": "了然于中的至珍",
-          "nameEn": "Clarity Within",
-          "awakenReq": 6
+          "name": "共鸣·永恒定格",
+          "nameEn": "Resonance · Eternal Freeze",
+          "awakenReq": 6,
+          "description": "时停期间所有队伍成员的攻击获得Cosmos属性伤害加成。追击攻击暴击率提升。"
         }
       ],
       "awakening": [
         {
-          "name": "欣欣渐行",
-          "nameEn": "Joyful Journey",
-          "level": 1
+          "name": "觉醒1·时停延长",
+          "nameEn": "Awakening 1 · Time Stop Extension",
+          "level": 1,
+          "description": "时间停止效果持续时间延长0.5秒。"
         },
         {
-          "name": "忆昔告远",
-          "nameEn": "Farewell to the Past",
-          "level": 2
+          "name": "觉醒2·证据积累加速",
+          "nameEn": "Awakening 2 · Faster Evidence",
+          "level": 2,
+          "description": "普攻命中时额外叠加1层「罪证」标记。"
         },
         {
-          "name": "垂目须臾",
-          "nameEn": "Brief Gaze",
-          "level": 3
+          "name": "觉醒3·追击强化",
+          "nameEn": "Awakening 3 · Enhanced Pursuit",
+          "level": 3,
+          "description": "追击攻击伤害大幅提升，并附带击退效果。关键战斗力里程碑。"
         },
         {
-          "name": "旧藏遗散",
-          "nameEn": "Lost Collection",
-          "level": 4
+          "name": "觉醒4·能量回复",
+          "nameEn": "Awakening 4 · Energy Recovery",
+          "level": 4,
+          "description": "触发追击时回复自身能量，加快终结技循环。"
         },
         {
-          "name": "独窥全相",
-          "nameEn": "Full Perspective",
-          "level": 5
+          "name": "觉醒5·时停频率提升",
+          "nameEn": "Awakening 5 · More Time Stops",
+          "level": 5,
+          "description": "时间停止触发概率提升，更多机会冻结敌人。"
         },
         {
-          "name": "时轮啮雪",
-          "nameEn": "Time Wheel Gnawing Snow",
-          "level": 6
+          "name": "觉醒6·无限时停",
+          "nameEn": "Awakening 6 · Infinite Stasis",
+          "level": 6,
+          "description": "终结技必定触发时间停止，且在时停期间浔的攻击不消耗能量。"
         }
       ]
     },
@@ -7696,7 +7704,11 @@
       ],
       "tips": "浔是独特的记录型支援角色，核心机制是记录队友的协同技能后用大招重现。与娜娜莉配合可实现无限控制链：娜娜莉控场→浔记录→零爆发→浔大招复刻娜娜莉控制。注意大招的时停效果可以安全输出。浔的记录最多存储3个队友技能。",
       "tipsEn": "Xun is a unique recording support whose core mechanic records teammate coordinated skills and replays them with Ultimate. With Nanally, enables infinite CC chains: Nanally CC → Xun records → Zero bursts → Xun Ult replays Nanally's CC. The time-stop effect on Ultimate provides a safe DPS window. Xun can store up to 3 teammate skills."
-    }
+    },
+    "cvZh": "杜晴晴",
+    "cvJp": "伊藤静",
+    "cvJpEn": "Shizuka Ito",
+    "cvEn": "Lindsay Sheppard"
   },
   {
     "id": "chaos",
@@ -7750,74 +7762,217 @@
     "tierReasonZh": "多功能的副C角色，拥有传送放置技能和强力的相属性反应。适合任何相属性配队，但对已有阵容来说非必须。",
     "skills": {
       "normalAttack": {
-        "name": "待定",
-        "nameEn": "Normal Attack",
-        "description": "使用构装体进行至多5段连续攻击，造成chaos属性伤害。",
-        "descriptionEn": "Perform up to 5 consecutive attacks with constructs, dealing chaos attribute damage."
+        "name": "高频枪击连段",
+        "nameEn": "High-Frequency Gun Combo",
+        "description": "使用可变形枪械进行多段连击攻击，每次命中可叠加「罪状」充能。攻击速度越高，叠加层数越快，破盾效率也越高。无施法前摇，适合游击战风格。"
       },
       "skill": {
-        "name": "战技",
-        "nameEn": "Skill",
-        "description": "卡厄斯发动chaos属性能力，操控异能构装体进行协同攻击。具体技能效果待1.1版本上线后确认。",
-        "descriptionEn": "Chaos activates chaos attribute ability, controlling Esper Constructs for coordinated attacks. Specific effects pending v1.1 launch confirmation."
+        "name": "变轨·搜查令",
+        "nameEn": "Redirect · Search Warrant",
+        "description": "用「搜查令」debuff标记目标，标记期间Chaos对其造成的所有伤害被放大。最多可连续使用3次。核心机制技能。",
+        "cooldown": 15,
+        "cost": 60
       },
       "ultimate": {
-        "name": "终结技",
-        "nameEn": "Ultimate",
-        "description": "卡厄斯释放终极技能，对大范围敌人造成毁灭性的chaos属性伤害。具体技能效果待1.1版本上线后确认。",
-        "descriptionEn": "Chaos unleashes his ultimate, dealing devastating chaos attribute damage across a wide area. Specific effects pending v1.1 launch confirmation."
+        "name": "报应·镰刃裁决",
+        "nameEn": "Retribution",
+        "description": "Chaos拔出镰刀（武器变形），命中时施加「搜查令」debuff并大幅增强后续攻击伤害。消耗累积的「罪状」充能，造成巨额爆发伤害。",
+        "cost": 120
       },
       "qte": {
-        "name": "待定",
-        "nameEn": "TBD",
-        "description": "技能详情待更新。",
-        "descriptionEn": "Skill details to be updated."
+        "name": "援护·追击",
+        "nameEn": "Support · Pursuit",
+        "description": "切换入场时发动追击，对目标造成相属性伤害并叠加1层「罪状」充能。"
       },
-      "passives": [],
-      "awakening": [],
-      "resonance": []
+      "passives": [
+        {
+          "name": "罪状积累",
+          "nameEn": "Charge Accumulation",
+          "description": "通过普通攻击和技能命中积累「罪状」充能，充能层数影响追击攻击和终结技的伤害倍率。"
+        },
+        {
+          "name": "搜查令增幅",
+          "nameEn": "Warrant Amplification",
+          "description": "被「搜查令」标记的敌人受到的伤害提升，Chaos对其造成的所有伤害获得额外增幅。"
+        },
+        {
+          "name": "追击本能",
+          "nameEn": "Pursuit Instinct",
+          "description": "消耗「罪状」充能可触发强力追击攻击，造成相属性范围伤害。"
+        }
+      ],
+      "awakening": [
+        {
+          "name": "觉醒1·速射",
+          "nameEn": "Awakening 1 · Rapid Fire",
+          "level": 1,
+          "description": "普通攻击命中时额外叠加1层「罪状」充能，提升充能效率。"
+        },
+        {
+          "name": "觉醒2·增幅延长",
+          "nameEn": "Awakening 2 · Extended Amplification",
+          "level": 2,
+          "description": "「搜查令」debuff持续时间延长，提升伤害窗口期。"
+        },
+        {
+          "name": "觉醒3·追击强化",
+          "nameEn": "Awakening 3 · Enhanced Pursuit",
+          "level": 3,
+          "description": "追击攻击伤害大幅提升，并额外叠加「搜查令」标记。关键战斗力里程碑。"
+        },
+        {
+          "name": "觉醒4·罪状上限提升",
+          "nameEn": "Awakening 4 · Charge Cap Increase",
+          "level": 4,
+          "description": "「罪状」充能上限提升，允许存储更多层数以获得更高终结技伤害。"
+        },
+        {
+          "name": "觉醒5·冷却缩减",
+          "nameEn": "Awakening 5 · Cooldown Reduction",
+          "level": 5,
+          "description": "变轨技冷却时间缩短，提升技能使用频率。"
+        },
+        {
+          "name": "觉醒6·终极具刑",
+          "nameEn": "Awakening 6 · Ultimate Judgment",
+          "level": 6,
+          "description": "终结技伤害获得极大提升，消耗全部「罪状」充能时获得额外伤害倍率。"
+        }
+      ],
+      "resonance": [
+        {
+          "name": "共鸣·协同追击",
+          "nameEn": "Resonance · Synergistic Pursuit",
+          "awakenReq": 3,
+          "description": "队伍中其他角色触发元素反应时，Chaos自动发动追击攻击，无需手动切换。"
+        },
+        {
+          "name": "共鸣·无间断搜查",
+          "nameEn": "Resonance · Relentless Pursuit",
+          "awakenReq": 6,
+          "description": "「搜查令」debuff效果增强且可叠加至2层。终结技命中时重置变轨技冷却时间。"
+        }
+      ]
     },
     "recommendedBuild": {
-      "bestWeapon": "待定",
-      "bestWeaponEn": "TBD",
-      "alternativeWeapons": [],
-      "bestDiskSet": "待定",
-      "bestDiskSetEn": "TBD",
+      "bestWeapon": "众人追寻之物",
+      "bestWeaponEn": "What All Seek",
+      "alternativeWeapons": [
+        {
+          "id": "generic-condensate-5star",
+          "name": "聚合型五星通用Arc",
+          "nameEn": "Generic 5★ Condensate Arc"
+        }
+      ],
+      "bestDiskSet": "恶魔之血",
+      "bestDiskSetEn": "Demon's Blood",
       "mainStats": {
         "沙漏": "攻击力%",
-        "杯子": "属性伤害加成",
-        "头冠": "暴击率"
+        "杯子": "相属性伤害加成",
+        "头冠": "暴击率%"
       },
       "mainStatsEn": {
         "Sands": "ATK%",
-        "Goblet": "Elemental DMG Bonus",
-        "Circlet": "CRIT Rate"
+        "Goblet": "Lakshana DMG Bonus",
+        "Circlet": "CR Rate%"
       },
       "subStatPriority": [
         "暴击率",
         "暴击伤害",
         "攻击力%",
-        "元素精通"
+        "相属性伤害"
       ],
       "subStatPriorityEn": [
-        "CRIT Rate",
-        "CRIT DMG",
+        "CR Rate",
+        "CR DMG",
         "ATK%",
-        "Elemental Mastery"
+        "Lakshana DMG"
       ]
     },
-    "teamComps": [],
+    "teamComps": [
+      {
+        "name": "开荒通用队",
+        "nameEn": "Starter General Team",
+        "members": [
+          "chaos",
+          "haniel",
+          "nanally",
+          "adler"
+        ],
+        "description": "Haniel提供全队攻击增益和速度增益，完美契合Chaos的攻击速度机制。Nanally提供护盾维持生存。",
+        "descriptionEn": "Haniel provides team ATK and speed buffs that synergize perfectly with Chaos's attack speed scaling. Nanally provides shields for sustain."
+      },
+      {
+        "name": "相属性反应队",
+        "nameEn": "Lakshana Reaction Team",
+        "members": [
+          "chaos",
+          "hathor",
+          "jiuyuan"
+        ],
+        "description": "Hathor作为相属性增益辅助是关键协同，配合Jiuyuan的元素反应触发，组成盈蓄反应队。",
+        "descriptionEn": "Hathor as Lakshana support is the key synergy, paired with Jiuyuan's elemental reaction triggers for the Charge reaction team."
+      },
+      {
+        "name": "混沌双C爆发队",
+        "nameEn": "Chaos Dual-DPS Burst Team",
+        "members": [
+          "chaos",
+          "lacrimosa",
+          "daffodil"
+        ],
+        "description": "Chaos与Lacrimosa组成跨属性双C，Daffodil提供Discord爆发支援。",
+        "descriptionEn": "Chaos and Lacrimosa form a cross-element dual DPS core with Daffodil providing Discord burst support."
+      }
+    ],
     "image": "/images/characters/chaos.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
     "descriptionEn": "The first S-rank limited male character in Neverness to Everness, debuting in Version 1.1's 'A Research in Scarlet' main episode.",
     "status": "available",
     "nameTw": "卡厄斯",
-    "cvZh": "待定",
-    "cvJp": "待定",
-    "cvEn": "TBD",
-    "trait": "待定",
+    "cvZh": "淦子齐",
+    "cvJp": "小西克幸",
+    "cvEn": "Rick Kumazawa",
+    "trait": "锚点传送",
     "arcType": "condensate",
-    "signatureArc": "What's Desired"
+    "signatureArc": "众人追寻之物",
+    "cvJpEn": "Katsuyuki Konishi",
+    "rotation": {
+      "steps": [
+        {
+          "character": "chaos",
+          "action": "普攻叠加「罪状」充能",
+          "actionEn": "Basic attack to stack Charge"
+        },
+        {
+          "character": "chaos",
+          "action": "使用变轨技施加「搜查令」标记（最多3次）",
+          "actionEn": "Use Redirect to apply Search Warrant (up to 3x)"
+        },
+        {
+          "character": "chaos",
+          "action": "在标记期间继续攻击，利用伤害增幅",
+          "actionEn": "Continue attacking during Warrant debuff window"
+        },
+        {
+          "character": "chaos",
+          "action": "消耗罪状触发追击攻击",
+          "actionEn": "Spend Charge to trigger Pursuit attacks"
+        },
+        {
+          "character": "chaos",
+          "action": "使用终结技·报应进行爆发",
+          "actionEn": "Use Ultimate - Retribution for burst"
+        },
+        {
+          "character": "chaos",
+          "action": "终结技buff期间再次消耗罪状",
+          "actionEn": "Spend remaining Charge during Ultimate buff"
+        }
+      ],
+      "tips": "核心循环：普攻叠层→变轨技上标记→标记期间爆发→终结技收割→重复。注意保持「搜查令」debuff不断。",
+      "tipsEn": "Core loop: Basic attack stack → Redirect apply Warrant → Burst during Warrant window → Ultimate finish → Repeat. Keep Search Warrant debuff active at all times."
+    }
   }
 ]
