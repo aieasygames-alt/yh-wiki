@@ -3932,5 +3932,101 @@
     "imageAlt": "NTE banner schedule 1.0 to 1.1",
     "titleTw": "異環卡池時間表與抽卡路线圖：1.0-1.1全卡池排期（2026年5月）",
     "summaryTw": "異環1.0-1.1版本完整卡池時間表：Hotori已上线，Lacrimosa和Chaos即将登場。本文提供詳細卡池排期、抽卡建议、保底規劃和零氪資源分配方案。"
+  },
+  {
+    "id": "nte-version-1-2-update-overview",
+    "title": "异环1.2版本更新总览：伊洛伊、真红双UP，游乐园地图开放",
+    "titleTw": "異環1.2版本更新總覽：伊洛伊、真紅雙UP，遊樂園地圖開放",
+    "titleEn": "NTE Version 1.2 Update Overview: Illica & Zhenhong Banners, Amusement Park Map",
+    "category": "guide",
+    "categoryZh": "版本更新",
+    "categoryEn": "Version Update",
+    "date": "2026-06-03",
+    "tags": [
+      "1.2",
+      "更新",
+      "伊洛伊",
+      "真红",
+      "游乐园",
+      "攻略"
+    ],
+    "summary": "异环1.2版本重磅更新：首位限定奶妈伊洛伊、光系龙娘主C真红双UP，全新游乐园地图区域开放，画面渲染全面升级，羁遇系统扩展。完整更新内容解读与抽卡建议。",
+    "summaryTw": "異環1.2版本重磅更新：首位限定奶媽伊洛伊、光系龍娘主C真紅雙UP，全新遊樂園地圖區域開放，畫面渲染全面升級，羈遇系統擴展。完整更新內容解讀與抽卡建議。",
+    "summaryEn": "NTE Version 1.2 brings the first limited healer Illica, Light DPS dragon Zhenhong, new amusement park map, graphics overhaul, and expanded Bond system. Full breakdown and pull recommendations.",
+    "internalLinks": [
+      "/characters/illica",
+      "/characters/zhenhong",
+      "/tier-list",
+      "/gacha",
+      "/changelog"
+    ],
+    "content": "异环1.2版本已于2026年6月上线，带来了大量全新内容。本文为你完整解读1.2版本的核心更新。\n\n## 一、新角色\n\n### 伊洛伊（Illica）— 上半限定\n\n异环**首位S级限定治疗增益辅助**，ETD-4成员。伊洛伊的上线填补了限定奶妈的空白，拥有强力的治疗与增伤能力，能大幅提升队伍的生存与输出。\n\n**核心价值**：\n- 首个限定治疗增益角色\n- 强力治疗+增伤双功能\n- 适合任何需要生存保障的配队\n\n### 真红（Zhenhong）— 下半限定\n\nS级限定光系主C，龙族格斗家。技能围绕「鬼爪」中距离起手与「暴怒值」机制构建，暴怒值满后进入暴走状态大幅提升输出。\n\n**核心机制**：\n- 鬼爪中距离攻击+机械尾部协同\n- 暴怒值→暴走状态爆发\n- 被动强化创生体系反应\n- 光属性快切特性\n\n## 二、新地图：游乐园\n\n1.2版本开放全新**游乐园地图区域**，包含：\n- 新的探索点和宝箱\n- 异象收集内容\n- 游乐园主题场景互动\n\n## 三、画面渲染升级\n\n角色光影表现与渲染效果全面升级：\n- 发丝细节更加精致\n- 服装材质质感提升\n- 光照效果优化\n\n## 四、抽卡建议\n\n| 玩家类型 | 建议 |\n|---------|------|\n| 缺奶妈 | 优先伊洛伊 |\n| 缺主C | 优先真红 |\n| 零氪 | 选最需要的那个，另一个靠自然积累 |\n| 已有成型队 | 可跳过存环石等1.3 |\n\n## 五、总结\n\n1.2版本内容丰富，两位新角色填补了治疗和光系主C两个关键位置。游乐园新地图提供了更多探索内容，画面升级让整体观感更上一层。",
+    "contentEn": "NTE Version 1.2 is live with massive new content. Here's your complete guide.\n\n## 1. New Characters\n\n### Illica — Phase 1 Limited\n\nThe **first S-rank limited Heal/Buffer** in NTE. An ETD-4 member who fills the long-awaited limited healer role with powerful healing and damage buffs.\n\n**Core Value:**\n- First limited heal/buffer character\n- Dual healing + damage buff functionality\n- Fits any team needing survivability\n\n### Zhenhong — Phase 2 Limited\n\nS-rank limited Light DPS, dragon-tribe fighter. Kit revolves around Demon Claw mid-range engagement and a Rage gauge that triggers devastating Berserk state.\n\n**Core Mechanics:**\n- Demon Claw + mechanical tail coordinated attacks\n- Rage gauge → Berserk burst state\n- Passive enhances Genesis reactions\n- Light fast-switch trait\n\n## 2. New Map: Amusement Park\n\nA brand-new amusement park area with:\n- Fresh exploration points and treasure chests\n- Anomaly collection content\n- Interactive theme park scenery\n\n## 3. Graphics Upgrade\n\nComprehensive rendering improvements:\n- Enhanced hair detail\n- Improved clothing textures\n- Better lighting effects\n\n## 4. Pull Recommendations\n\n| Player Type | Recommendation |\n|------------|---------------|\n| Need healer | Priority: Illica |\n| Need DPS | Priority: Zhenhong |\n| F2P | Pick the one you need most, save for the other |\n| Built team | Skip and save for 1.3 |\n\n## 5. Summary\n\nVersion 1.2 delivers on multiple fronts — two key roles filled (limited healer, Light DPS), new exploration content, and visual upgrades. A strong update for both new and veteran players.",
+    "image": "/images/blog/nte-1-2-update.webp",
+    "imageAlt": "NTE Version 1.2 Update"
+  },
+  {
+    "id": "nte-illica-character-guide",
+    "title": "异环伊洛伊角色攻略：首位限定奶妈配装、配队与强度分析",
+    "titleTw": "異環伊洛伊角色攻略：首位限定奶媽配裝、配隊與強度分析",
+    "titleEn": "NTE Illica Character Guide: First Limited Healer — Build, Teams & Tier Analysis",
+    "category": "guide",
+    "categoryZh": "角色攻略",
+    "categoryEn": "Character Guide",
+    "date": "2026-06-03",
+    "tags": [
+      "伊洛伊",
+      "Illica",
+      "奶妈",
+      "治疗",
+      "辅助",
+      "配装",
+      "配队"
+    ],
+    "summary": "异环首位S级限定治疗增益辅助伊洛伊的完整攻略：技能机制解析、最佳配装推荐、配队搭配建议、抽取价值分析。了解为什么她是任何队伍的核心辅助。",
+    "summaryTw": "異環首位S級限定治療增益輔助伊洛伊的完整攻略：技能機制解析、最佳配裝推薦、配隊搭配建議、抽取價值分析。",
+    "summaryEn": "Complete guide for Illica, NTE's first S-rank limited Heal/Buffer. Skill mechanics, best builds, team compositions, and pull value analysis.",
+    "internalLinks": [
+      "/characters/illica",
+      "/tier-list",
+      "/team-builder",
+      "/builds"
+    ],
+    "content": "伊洛伊是异环**首位S级限定治疗增益辅助**角色，1.2版本上半卡池 featured。本篇攻略从技能机制、配装、配队三个维度全面解析。\n\n## 一、角色定位\n\n- **稀有度**：S级\n- **属性**：相（Lakshana）\n- **武器类型**：等离子\n- **阵营**：ETD-4\n- **定位**：治疗 + 增伤辅助\n\n## 二、核心技能\n\n伊洛伊作为治疗增益辅助，拥有强力的治疗能力与队伍增伤效果。具体技能数值待上线后更新。\n\n## 三、配装推荐\n\n配装建议优先堆叠**治疗加成**和**生命值%**，兼顾元素精通和充能效率。\n\n具体弧盘和武器推荐待上线实测后更新。\n\n## 四、配队推荐\n\n伊洛伊作为通用辅助，可以加入任何需要治疗保障的队伍：\n\n1. **真红光属性队**：真红 + 零 + 伊洛伊 + 小吱\n2. **安魂曲暗属性队**：安魂曲 + 卡厄斯 + 伊洛伊 + 辅助\n3. **通用配队**：任意主C + 伊洛伊 + 副C + 辅助\n\n## 五、抽取建议\n\n- **必抽**：缺奶妈的玩家、追求高难内容的玩家\n- **推荐**：想提升队伍生存能力的玩家\n- **可跳过**：已有稳定治疗阵容的玩家\n\n作为首个限定治疗增益角色，伊洛伊的泛用性极高，推荐大部分玩家抽取。",
+    "contentEn": "Illica is NTE's **first S-rank limited Heal/Buffer**, featured in Version 1.2 Phase 1. This guide covers everything you need to know.\n\n## 1. Character Overview\n\n- **Rarity**: S-Rank\n- **Element**: Lakshana\n- **Weapon Type**: Plasma\n- **Faction**: ETD-4\n- **Role**: Heal + Buffer\n\n## 2. Core Skills\n\nAs a heal/buffer hybrid, Illica provides powerful healing and team-wide damage buffs. Exact numbers will be updated after release.\n\n## 3. Build Recommendations\n\nPrioritize **Healing Bonus** and **HP%**, with sub-stats in Elemental Mastery and Energy Recharge.\n\nSpecific Arc and weapon recommendations will be updated after release testing.\n\n## 4. Team Compositions\n\nAs a universal support, Illica fits any team needing sustain:\n\n1. **Zhenhong Light Team**: Zhenhong + Zero + Illica + Xiaozhi\n2. **Lacrimosa Dark Team**: Lacrimosa + Chaos + Illica + Support\n3. **Generic Team**: Any Main DPS + Illica + Sub DPS + Support\n\n## 5. Pull Recommendations\n\n- **Must Pull**: Players without a dedicated healer, endgame content seekers\n- **Recommended**: Players wanting better team survivability\n- **Can Skip**: Players with established healing options\n\nAs the first limited heal/buffer, Illica's versatility makes her a strong pull for most players.",
+    "image": "/images/blog/illica-guide.webp",
+    "imageAlt": "Illica Character Guide"
+  },
+  {
+    "id": "nte-zhenhong-character-guide",
+    "title": "异环真红角色攻略：光系龙娘主C配装、配队与强度分析",
+    "titleTw": "異環真紅角色攻略：光系龍娘主C配裝、配隊與強度分析",
+    "titleEn": "NTE Zhenhong Character Guide: Light Dragon DPS — Build, Teams & Tier Analysis",
+    "category": "guide",
+    "categoryZh": "角色攻略",
+    "categoryEn": "Character Guide",
+    "date": "2026-06-03",
+    "tags": [
+      "真红",
+      "Zhenhong",
+      "光系",
+      "主C",
+      "龙娘",
+      "配装",
+      "配队"
+    ],
+    "summary": "异环1.2下半限定S级角色真红完整攻略：鬼爪+暴怒值机制解析、暴走状态爆发分析、光属性配队推荐、最佳弧盘武器搭配。了解为什么她是光系配队必抽角色。",
+    "summaryTw": "異環1.2下半限定S級角色真紅完整攻略：鬼爪+暴怒值機制解析、暴走狀態爆發分析、光屬性配隊推薦、最佳弧盤武器搭配。",
+    "summaryEn": "Complete guide for Zhenhong, NTE's S-rank limited Light DPS dragon fighter. Rage/Berserk mechanics, build recommendations, team compositions, and pull analysis.",
+    "internalLinks": [
+      "/characters/zhenhong",
+      "/tier-list",
+      "/team-builder",
+      "/builds"
+    ],
+    "content": "真红是异环1.2版本下半的S级限定光系主C，龙族格斗家。本篇攻略全面解析她的技能机制与最佳配装配队。\n\n## 一、角色定位\n\n- **稀有度**：S级\n- **属性**：光（Light）\n- **武器类型**：合成\n- **阵营**：龙族\n- **定位**：主C（进攻）\n- **卡池**：1.2版本下半限定\n\n## 二、核心机制\n\n### 暴怒值系统\n\n真红的核心机制是**暴怒值（Rage Gauge）**：\n- 普攻和技能命中积攒暴怒值\n- 暴怒值满后进入**暴走状态**\n- 暴走状态大幅提升攻击力和暴击率\n- 机械尾部在暴走状态下协同攻击\n\n### 鬼爪系统\n\n- 中距离「鬼爪」起手攻击\n- 配合机械尾部的协同动作\n- 短距定向位移实现灵活走位\n\n### 创生体系强化\n\n被动技能强化创生体系反应效果，提升光属性队伍整体输出。\n\n## 三、配装推荐\n\n- **主属性**：攻击力% / 光属性伤害 / 暴击率或暴击伤害\n- **副属性优先级**：暴击率 > 暴击伤害 > 攻击力% > 元素精通\n- **最佳弧盘套装**：待实测确认\n- **专武**：待确认\n\n## 四、配队推荐\n\n1. **真红光属性配队**：真红 + 零（快切创生）+ 伊洛伊（治疗增伤）+ 小吱（副C）\n2. **真红双光配队**：真红 + 零 + 法蒂娅 + 穗鸟\n\n## 五、强度评估\n\n真红预计为**T0-T0.5级别**的光系主C：\n- 暴怒值/暴走机制提供极高爆发\n- 创生反应强化在光属性配队中价值极大\n- 1.2版本深渊/高难场景预计有专属环境\n\n## 六、抽取建议\n\n- **必抽**：缺光系主C的玩家、追求高爆发的玩家\n- **推荐**：需要补强光属性配队的玩家\n- **可跳过**：已有成型光属性配队的玩家\n\n真红作为光系主C，搭配零的快切和创生反应，将成为光属性配队的核心。",
+    "contentEn": "Zhenhong is NTE's S-rank limited Light DPS dragon fighter from Version 1.2 Phase 2. This guide covers her complete kit and optimal builds.\n\n## 1. Character Overview\n\n- **Rarity**: S-Rank\n- **Element**: Light\n- **Weapon Type**: Synthesis\n- **Faction**: Dragon Tribe\n- **Role**: Main DPS (Attack)\n- **Banner**: Version 1.2 Phase 2 Limited\n\n## 2. Core Mechanics\n\n### Rage Gauge System\n\nZhenhong's core mechanic is the **Rage Gauge**:\n- Basic attacks and skills build Rage on hit\n- At max Rage, enter **Berserk State** for massive ATK and CRIT boosts\n- Mechanical tail provides coordinated attacks in Berserk\n\n### Demon Claw System\n\n- Mid-range Demon Claw engagement\n- Mechanical tail coordinated actions\n- Short-distance directional movement\n\n### Genesis Enhancement\n\nPassive enhances Genesis reaction effects, boosting overall Light team output.\n\n## 3. Build Recommendations\n\n- **Main Stats**: ATK% / Light DMG / CRIT Rate or CRIT DMG\n- **Sub-stat Priority**: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery\n- **Best Arc Set**: TBD after release testing\n- **Signature Weapon**: TBD\n\n## 4. Team Compositions\n\n1. **Light Team**: Zhenhong + Zero (fast switch Genesis) + Illica (heal/buff) + Xiaozhi (sub-DPS)\n2. **Double Light**: Zhenhong + Zero + Fadia + Hotori\n\n## 5. Tier Assessment\n\nZhenhong is expected to be **T0-T0.5 tier** Light DPS:\n- Rage/Berserk mechanic provides exceptional burst\n- Genesis enhancement is extremely valuable for Light teams\n- Expected to have favorable abyss/endgame content in 1.2\n\n## 6. Pull Recommendations\n\n- **Must Pull**: Players without a Light DPS, burst damage seekers\n- **Recommended**: Players needing to strengthen Light teams\n- **Can Skip**: Players with established Light teams\n\nAs a Light DPS with Zero's fast-switch and Genesis synergy, Zhenhong will be the core of Light attribute teams.",
+    "image": "/images/blog/zhenhong-guide.webp",
+    "imageAlt": "Zhenhong Character Guide"
   }
 ]

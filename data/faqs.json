@@ -5265,5 +5265,112 @@
     "seoDescriptionEn": "Which S-rank should you pick from NTE's free selector? Best choice by player situation with role comparisons.",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "arc-banner-odds-explained",
+    "question": "异环弧盘（武器）池概率为什么争议很大？值得抽吗？",
+    "questionEn": "Why is the NTE weapon/Arc banner controversial? Is it worth pulling?",
+    "answer": "弧盘池的核心问题是「75%歪率」：虽然出S级弧盘的硬保底只有60抽，但抽出S级时只有25%概率是当期UP弧盘，75%会歪到非UP武器。UP弧盘的硬保底是80抽，累计120抽可直接兑换指定弧盘。相比之下，角色池90保底不歪，期望仅53.5抽。综合来看弧盘池的期望成本约为角色池的1.5-2倍。建议零氪/微氪玩家优先抽角色，弧盘可后期慢慢攒。",
+    "answerEn": "The core issue with the Arc banner is the 75% off-rate: while the hard pity for any S-rank Arc is only 60 pulls, only 25% of S-rank drops are the featured UP Arc — 75% will be off-banner weapons. The guaranteed UP pity is 80 pulls, and 120 pulls total lets you directly exchange for a specific weapon. In comparison, the character banner has 90-pull guaranteed pity with no 50/50, averaging just 53.5 pulls. The Arc banner's expected cost is roughly 1.5-2x the character banner. F2P/low-spend players should prioritize characters first.",
+    "tags": [
+      "弧盘",
+      "武器池",
+      "概率",
+      "抽卡"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "expected-pull-count-each-banner",
+    "question": "异环各卡池期望抽数是多少？平均多少抽出金？",
+    "questionEn": "What is the expected pull count for each NTE banner? How many pulls for a gold?",
+    "answer": "限定角色池：期望约53.5抽获得当期UP角色（90硬保底，74抽开始软保底，不歪机制），非常良心。弧盘/武器池：出任意S级期望约48抽（60硬保底），但拿到UP弧盘期望约74抽（因75%歪率），80抽硬保底UP。常驻池：期望约53.5抽。新手池：固定20抽必出S级+自选。总结：角色池是性价比最高的池子，期望53.5抽必得当期UP角色。",
+    "answerEn": "Limited Character Banner: ~53.5 pulls average for the featured character (90 hard pity, soft pity at 74, no 50/50) — very generous. Weapon/Arc Banner: ~48 pulls for any S-rank (60 hard pity), but ~74 pulls average for the featured UP Arc (75% off-rate), 80 hard pity for featured. Standard Banner: ~53.5 pulls average. Beginner Banner: fixed 20 pulls with S-rank selector. Summary: the character banner is the best value, averaging 53.5 pulls per featured character.",
+    "tags": [
+      "保底",
+      "期望抽数",
+      "抽卡成本"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "mobile-optimization-tips",
+    "question": "异环移动端卡顿发热怎么办？最佳画面设置推荐",
+    "questionEn": "How to fix NTE lag and overheating on mobile? Best graphics settings",
+    "answer": "异环基于虚幻引擎5开发，对移动端硬件要求较高。优化建议：1）降低画面质量至「流畅」或「均衡」；2）关闭抗锯齿和阴影；3）锁定30帧（设置→画面→帧率）；4）关闭后台应用释放内存；5）确保存储空间充足（建议预留15GB以上）。中端手机（骁龙778G/天玑8100以上）推荐「均衡+30帧」设置。高端手机（骁龙8 Gen2以上）可尝试「高清+60帧」。1.1版本已针对移动端做了专项优化，发热和帧率稳定性有所改善。",
+    "answerEn": "NTE runs on Unreal Engine 5, which demands significant mobile hardware. Optimization tips: 1) Lower graphics to Smooth or Balanced; 2) Disable anti-aliasing and shadows; 3) Lock to 30 FPS (Settings → Graphics → Frame Rate); 4) Close background apps to free memory; 5) Ensure sufficient storage (15GB+ recommended). Mid-range phones (Snapdragon 778G / Dimensity 8100+): use Balanced + 30 FPS. High-end (Snapdragon 8 Gen2+): try HD + 60 FPS. Version 1.1 included dedicated mobile optimizations with improved thermal management and frame rate stability.",
+    "tags": [
+      "移动端",
+      "优化",
+      "设置",
+      "卡顿",
+      "发热"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "技术支持",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "bug-exploit-ban-policy",
+    "question": "异环利用BUG会被封号吗？官方处罚规则是什么？",
+    "questionEn": "Will I get banned for using bugs in NTE? What is the official punishment policy?",
+    "answer": "官方明确表示将持续监控并处理所有破坏公平游戏环境的行为。利用游戏BUG获取不正当利益、传播BUG教程均可能被处罚。此前有玩家因发布BUG教学视频被处以超长封禁。建议：1）发现BUG后通过官方渠道反馈（客服、官方社群）；2）不要利用BUG获取不当利益；3）不要传播BUG教程。官方会定期发布违规账号处罚公示。如遇到BUG导致的损失，可通过客服申请补偿。",
+    "answerEn": "The dev team explicitly monitors and punishes all behavior that undermines fair gameplay. Exploiting bugs for unfair advantage and sharing bug exploit tutorials can both result in penalties, including lengthy account bans. Recommendations: 1) Report bugs through official channels (customer service, community); 2) Do not exploit bugs for unfair gain; 3) Do not share exploit tutorials. The team publishes regular ban notices. If you suffer losses due to bugs, contact customer service for compensation.",
+    "tags": [
+      "封号",
+      "BUG",
+      "处罚",
+      "规则"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "游戏Bug",
+    "categoryEn": "Game Bugs",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "gacha-pity-carry-over-details",
+    "question": "异环保底会继承到下一个卡池吗？具体规则是什么？",
+    "questionEn": "Does pity carry over between banners in NTE? What are the exact rules?",
+    "answer": "保底继承规则如下：1）限定角色池之间的保底计数会继承（如当前池抽了50次没出S级，下个限定池从50开始计数）；2）弧盘/武器池之间的保底计数也会继承；3）但不同类型卡池之间保底不互通（如角色池的保底不计入武器池）；4）新手池是独立的，不计入其他池。重要提示：角色池不设50/50机制，出S级必为当期UP角色；弧盘池出S级时仅25%概率为UP弧盘，需要额外注意。",
+    "answerEn": "Pity carry-over rules: 1) Pity count carries over between limited character banners (e.g., 50 pulls on one limited banner carries to the next); 2) Arc/weapon banner pity also carries over between Arc banners; 3) Pity does NOT transfer between different banner types (character pity ≠ weapon pity); 4) Beginner banner is independent. Important: the character banner has no 50/50 — any S-rank is guaranteed to be the featured character. The Arc banner only has a 25% chance for the featured Arc when you pull an S-rank.",
+    "tags": [
+      "保底",
+      "继承",
+      "抽卡规则"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "pricing-and-value-analysis",
+    "question": "异环氪金性价比怎么样？月卡值得买吗？",
+    "questionEn": "Is NTE monetization fair? Is the monthly pass worth buying?",
+    "answer": "异环的商业化模式属于二次元抽卡游戏的标准模式。角色池期望53.5抽获得UP角色（约53.5×160=8560方斯），相比同类游戏较为良心。公测前前瞻直播中的福利和定价策略曾引发争议，但后续版本持续增加福利。建议：1）零氪玩家可正常游玩，公测470+抽福利足够组建强力阵容；2）月卡（如有）通常性价比最高；3）优先抽角色，弧盘池期望成本约为角色池1.5-2倍；4）合理规划环石使用，避免冲动消费。",
+    "answerEn": "NTE's monetization follows standard gacha game conventions. The character banner averages 53.5 pulls per featured character (~8,560 Fons), which is quite generous compared to similar games. The pre-launch livestream's pricing and reward announcements were controversial, but subsequent versions have steadily increased rewards. Tips: 1) F2P players can fully enjoy the game — 470+ free launch pulls are enough for a strong roster; 2) Monthly passes (if available) typically offer the best value; 3) Prioritize character pulls — Arc banner expected cost is 1.5-2x the character banner; 4) Plan Ring Stone spending wisely.",
+    "tags": [
+      "氪金",
+      "定价",
+      "月卡",
+      "性价比"
+    ],
+    "category": "gacha",
+    "categoryZh": "充值与账号",
+    "categoryEn": "Monetization",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]

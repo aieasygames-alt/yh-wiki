@@ -109,6 +109,18 @@
       "questionZh": "公测能白嫖多少抽？",
       "answer": "At launch, F2P players can expect approximately 80-100+ free pulls from pre-registration rewards, launch events, story content, exploration, and daily commissions during the first few weeks. This is enough to guarantee at least one S-rank from the limited banner.",
       "answerZh": "公测期间，零氪玩家通过预注册奖励、上线活动、剧情内容、探索和每日委托，大约可以获得80-100+抽。这足够在限定池保底至少一个S级角色。"
+    },
+    {
+      "question": "What are the actual odds for the weapon/Arc banner? Why is it considered risky?",
+      "questionZh": "弧盘（武器）池的概率为什么争议很大？",
+      "answer": "The Arc (weapon) banner has a major trap: while the hard pity for any S-rank Arc is 60 pulls, the featured UP Arc only has a 25% drop rate when you pull an S-rank. This means 75% of the time you get a non-featured weapon. The guaranteed UP pity is 80 pulls, and you need 120 pulls total to directly exchange for a specific weapon. Average cost to get the featured weapon is significantly higher than the character banner. Recommendation: pull characters first, Arcs later.",
+      "answerZh": "弧盘（武器）池有一个大坑：虽然出S级弧盘的硬保底只有60抽，但抽出S级时只有25%概率是当期UP弧盘，75%会歪到非UP武器。UP弧盘的硬保底是80抽，累计120抽可直接兑换指定弧盘。综合期望成本远高于角色池。建议：优先抽角色，弧盘可后期慢慢攒。"
+    },
+    {
+      "question": "What is the expected pull count (average pity) for each banner?",
+      "questionZh": "各卡池期望抽数是多少？抽一个角色平均要多少抽？",
+      "answer": "Limited Character Banner: ~53.5 pulls average (90 hard pity, soft pity starts at 74, no 50/50). Weapon/Arc Banner: ~48 pulls for any S-rank Arc (60 hard pity), but ~74 pulls average for the featured UP Arc due to the 75% off-rate chance. Standard Banner: ~53.5 pulls average, same as limited. Beginner Banner: exactly 20 pulls max with selector. In summary: character banner is very generous at ~53.5 pulls per featured character.",
+      "answerZh": "限定角色池：期望约53.5抽（90硬保底，74软保底，不歪），非常良心。弧盘/武器池：出金期望约48抽（60硬保底），但拿到UP弧盘期望约74抽（因75%歪率），80抽硬保底UP。常驻池：期望约53.5抽，与限定池相同。新手池：固定20抽必出自选S。总结：角色池期望53.5抽必得当期UP，弧盘池期望成本约为角色池的1.5-2倍。"
     }
   ]
 }

@@ -49,8 +49,8 @@
       "nelly"
     ],
     "tierRank": "SS",
-    "tierReason": "Launch best limited S-rank DPS, unmatched numbers, won't be powercrept soon",
-    "tierReasonZh": "开服最强限S主C，数值独一档，短期不会退役",
+    "tierReason": "Best DPS in game; strongest single-target damage with follow-up attacks, universal synergy with any team",
+    "tierReasonZh": "最强DPS，极高单体伤害，跟随攻击机制，泛用性极强，适配任何队伍",
     "skills": {
       "normalAttack": {
         "name": "柯林斯秘传技法",
@@ -286,9 +286,9 @@
       "adler",
       "lingko"
     ],
-    "tierRank": "A+",
-    "tierReason": "Core buff support, pairs well with any DPS",
-    "tierReasonZh": "核心增益辅助，搭配任意输出角色均可",
+    "tierRank": "SS",
+    "tierReason": "Best support/CC unit; massive AoE crowd gathering, team ATK buffs, Hex reaction enabler",
+    "tierReasonZh": "最强辅助/控制，超大范围聚怪+全队攻击加成，Hex反应核心触发者",
     "skills": {
       "normalAttack": {
         "name": "咲里咒文打击",
@@ -481,9 +481,9 @@
       "nitsa",
       "jenson"
     ],
-    "tierRank": "A",
-    "tierReason": "Damage share prevents burst deaths, but no healing/shield",
-    "tierReasonZh": "分摊伤害防猝死，但缺回血/护盾",
+    "tierRank": "A+",
+    "tierReason": "Damage sharing passive + enhanced state post-Ult; absorb + heal mechanic, hybrid DPS/support",
+    "tierReasonZh": "伤害分摊被动+终结技后增伤形态，吸收+治疗机制，攻守兼备",
     "skills": {
       "normalAttack": {
         "name": "话语中断的否定",
@@ -715,9 +715,9 @@
       "mismo",
       "black-bird"
     ],
-    "tierRank": "A",
-    "tierReason": "Construct AoE is strong, good for group fights",
-    "tierReasonZh": "召唤物AoE优秀，适合群体战斗",
+    "tierRank": "SS",
+    "tierReason": "Version 1.1 character; sustained Chaos DoT + survivability, bat summons + demon transform mechanic",
+    "tierReasonZh": "1.1版本新角色，暗属性持续伤害+生存能力，蝙蝠召唤+恶魔变身机制",
     "skills": {
       "normalAttack": {
         "name": "酸甜口味的制裁",
@@ -967,9 +967,9 @@
       "adler",
       "lingko"
     ],
-    "tierRank": "S+",
-    "tierReason": "Top-tier damage but team locked to Daffodil",
-    "tierReasonZh": "伤害同层顶级，但配队刚需达芙蒂尔",
+    "tierRank": "S",
+    "tierReason": "DoT king with high mastery ceiling; excels against mobile bosses via DoT ticks",
+    "tierReasonZh": "持续伤害之王，掌握后上限极高，对移动Boss表现优秀",
     "skills": {
       "normalAttack": {
         "name": "言行合一",
@@ -1209,9 +1209,9 @@
       "edgar",
       "taygedo"
     ],
-    "tierRank": "S+",
-    "tierReason": "Protagonist with instant Ring Fusion, irreplaceable team enabler",
-    "tierReasonZh": "主角即瞬环合机制不可替代，队伍润滑剂",
+    "tierRank": "SS",
+    "tierReason": "Unique instant Esper Cycle mechanic; flexible Sub DPS + healing, fits nearly any team",
+    "tierReasonZh": "独特的异能快切机制，副C+治疗灵活切换，适配几乎所有队伍",
     "skills": {
       "normalAttack": {
         "name": "鉴痕",
@@ -1452,9 +1452,9 @@
       "edgar",
       "taygedo"
     ],
-    "tierRank": "S+",
-    "tierReason": "Protagonist with instant Ring Fusion, irreplaceable team enabler",
-    "tierReasonZh": "主角即瞬环合机制不可替代，队伍润滑剂",
+    "tierRank": "SS",
+    "tierReason": "Unique instant Esper Cycle mechanic; flexible Sub DPS + healing, fits nearly any team",
+    "tierReasonZh": "独特的异能快切机制，副C+治疗灵活切换，适配几乎所有队伍",
     "skills": {
       "normalAttack": {
         "name": "鉴痕",
@@ -1701,9 +1701,9 @@
       "edgar",
       "taygedo"
     ],
-    "tierRank": "S+",
-    "tierReason": "Only S-rank support, grouping + ATK buff, 1-awaken doubles buff power",
-    "tierReasonZh": "唯一S级辅助，聚怪+加攻，1觉质变拐力翻倍",
+    "tierRank": "SS",
+    "tierReason": "Time-stop Ultimate + records/recasts team skills and Esper Cycles; top-tier Sub DPS burst",
+    "tierReasonZh": "时停终结技+技能/异能循环记录复现，顶级副C爆发角色",
     "skills": {
       "normalAttack": {
         "name": "胧月流",
@@ -1945,9 +1945,9 @@
       "mismo",
       "black-bird"
     ],
-    "tierRank": "A+",
-    "tierReason": "High-frequency parry boss specialist, required for Baicang team",
-    "tierReasonZh": "高频振刀Boss特化输出，白藏队刚需",
+    "tierRank": "S",
+    "tierReason": "Only Chaos character with Nova + Scorch access; boss-break specialist; needs A5 dupe to shine",
+    "tierReasonZh": "唯一暗属性Nova+灼烧角色，Boss白条破防专家，A5觉后表现突出",
     "skills": {
       "normalAttack": {
         "name": "止水",
@@ -2127,9 +2127,9 @@
       "mint",
       "nelly"
     ],
-    "tierRank": "SS",
-    "tierReason": "Best standard S pick, huge AoE grouping + 1-awaken off-heal, top versatility",
-    "tierReasonZh": "常驻S首选自选，超大范围聚怪+1觉客串奶妈，泛用性顶级",
+    "tierRank": "S",
+    "tierReason": "Best mob-gathering ability; low field time Sub DPS with healing at 1 dupe, Charge team core",
+    "tierReasonZh": "最强聚怪能力，低驻场时间副C，1觉解锁治疗，Charge队核心",
     "skills": {
       "normalAttack": {
         "name": "秘密成型时",
@@ -2307,9 +2307,9 @@
       "nitsa",
       "jenson"
     ],
-    "tierRank": "A+",
-    "tierReason": "A-rank powerhouse, top ATK buffer, 12% crit DMG at max awaken",
-    "tierReasonZh": "A级战神，顶级加攻拐力，满觉12%暴伤加成",
+    "tierRank": "SS",
+    "tierReason": "Best F2P buffer; provides Stain for Lakshana DPS, fits Nova teams, universal ATK buffer",
+    "tierReasonZh": "最强免费增伤辅助，为相属性DPS提供Stain，Nova队核心，通用攻击加成",
     "skills": {
       "normalAttack": {
         "name": "盖罗塞克特术法",
@@ -2540,8 +2540,8 @@
       "lingko"
     ],
     "tierRank": "A+",
-    "tierReason": "Best 1.0 survival slot, shield + ATK reduction + elemental resist",
-    "tierReasonZh": "1.0最佳生存位，护盾+减攻+属性抗性",
+    "tierReason": "Best shielder (75% uptime); only source of Esper Res reduction + break efficiency debuffs",
+    "tierReasonZh": "最强护盾角色（75%覆盖率），唯一异能削减+破防效率debuff来源",
     "skills": {
       "normalAttack": {
         "name": "度恶",
@@ -2703,8 +2703,8 @@
       "hathor"
     ],
     "tierRank": "B",
-    "tierReason": "Underwhelming kit, used as reaction trigger in Xiaozhi team",
-    "tierReasonZh": "数值和机制均不亮眼，小吱队凑反应用",
+    "tierReason": "Punished by mobile boss design; small AoE ultimate centered on self",
+    "tierReasonZh": "受移动Boss设计惩罚，以自身为中心的小范围终结技",
     "skills": {
       "normalAttack": {
         "name": "拘管格斗术",
@@ -2861,8 +2861,8 @@
       "taygedo"
     ],
     "tierRank": "B",
-    "tierReason": "Pure healer with no utility, good for beginners",
-    "tierReasonZh": "纯治疗无其他功能，手残党可选",
+    "tierReason": "Pure healing only; stationary heal field interferes with Charge reaction teams",
+    "tierReasonZh": "纯治疗角色，固定治疗场影响Charge反应队伍配合",
     "skills": {
       "normalAttack": {
         "name": "体术实战",
@@ -3025,8 +3025,8 @@
       "nelly"
     ],
     "tierRank": "A",
-    "tierReason": "Starter character, Jiuyuan budget replacement",
-    "tierReasonZh": "御三家之一，九原下位替代",
+    "tierReason": "Reliable mid-tier DPS with decent reaction/ult gauge building; outclassed by higher options",
+    "tierReasonZh": "稳定的中档DPS，不错的反应/终结技充能，但被更高梯队DPS超越",
     "skills": {
       "normalAttack": {
         "name": "满分收容术",
@@ -3937,9 +3937,9 @@
       "merula",
       "alphard"
     ],
-    "tierRank": "B",
-    "tierReason": "Great for open-world clearing, but long E is interruptible",
-    "tierReasonZh": "大世界清杂优秀，但长E被打断",
+    "tierRank": "S",
+    "tierReason": "Strong burst Sub DPS; low field time needed, 10% Crit Rate buff for team, AoE feather stacks",
+    "tierReasonZh": "强力爆发副C，低驻场需求，提供10%暴击率加成，AoE羽毛叠加",
     "skills": {
       "normalAttack": {
         "name": "高频送达",
@@ -4181,9 +4181,9 @@
       "hotori",
       "edgar"
     ],
-    "tierRank": "A",
-    "tierReason": "Hammer has wide range, versatile for AoE and boss fights",
-    "tierReasonZh": "妖锤攻击范围广，群体和Boss战均可",
+    "tierRank": "S",
+    "tierReason": "Free character with S-tier ceiling but RNG-heavy Grain mechanic at A0; T0 at A3+ dupes",
+    "tierReasonZh": "免费角色天花板，韵律机制伤害极高但A0时依赖RNG，A3+后晋升T0",
     "skills": {
       "normalAttack": {
         "name": "赤子星辰斩",
@@ -5869,9 +5869,9 @@
       "merula",
       "alphard"
     ],
-    "tierRank": "A",
-    "tierReason": "Utility character, consistent team contribution",
-    "tierReasonZh": "功能型角色，团队贡献稳定",
+    "tierRank": "S",
+    "tierReason": "First limited heal/buffer with dual healing + damage buff; extremely versatile support",
+    "tierReasonZh": "首个限定治疗增益辅助，治疗+增伤双功能，泛用性极高",
     "skills": {
       "normalAttack": {
         "name": "伊利卡相态变换",
@@ -7224,9 +7224,9 @@
       }
     ],
     "relatedCharacters": [],
-    "tierRank": "B",
-    "tierReason": "Needs more exploration",
-    "tierReasonZh": "需要更多开发",
+    "tierRank": "A",
+    "tierReason": "Highest theoretical A-Rank ceiling with great AoE; struggles against aggressive boss AI",
+    "tierReasonZh": "A级理论天花板最高，优秀AoE能力，但对移动Boss AI表现较差",
     "skills": {
       "normalAttack": {
         "name": "待定",
@@ -7345,9 +7345,9 @@
       }
     ],
     "relatedCharacters": [],
-    "tierRank": "S+",
-    "tierReason": "Free 6+5 from City Tycoon, outperforms all DPS at max investment",
-    "tierReasonZh": "都市大亨免费6+5满配，满配后强度高于所有主C",
+    "tierRank": "A+",
+    "tierReason": "Free S-rank from City Tycoon mode; essential F2P sub-DPS",
+    "tierReasonZh": "城市大亨免费满配S级角色，零氪必练副C",
     "skills": {
       "normalAttack": {
         "name": "失乡剑术",
@@ -7663,9 +7663,9 @@
         "descriptionEn": "Nanally opens with CC → Xun records → Zero bursts → Xun Ultimate replays Nanally's CC for infinite lockdown."
       }
     ],
-    "tierRank": "SS",
-    "tierReason": "Top-tier support with unique skill replay mechanic, healing, CC, and energy regen. T0 team enabler.",
-    "tierReasonZh": "顶级辅助，独有技能复刻机制，兼具治疗、控制与充能，T0配队核心。",
+    "tierRank": "S",
+    "tierReason": "Time record/playback Sub DPS, time-stop Ultimate for massive burst, unique rhythm playstyle",
+    "tierReasonZh": "时间记录/复现机制副C，时停终结技提供极高爆发，操作节奏独特",
     "image": "/images/characters/xun.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "限定池(下半)",
@@ -7758,9 +7758,9 @@
     "relatedCharacters": [
       "lacrimosa"
     ],
-    "tierRank": "A",
-    "tierReason": "Versatile support DPS with teleport placement and strong Lakshana reactions. Solid pick for any Lakshana team but not a must-pull for existing roster.",
-    "tierReasonZh": "多功能的副C角色，拥有传送放置技能和强力的相属性反应。适合任何相属性配队，但对已有阵容来说非必须。",
+    "tierRank": "A+",
+    "tierReason": "Versatile support DPS with teleport placement and strong Lakshana reactions. Solid for Lakshana teams",
+    "tierReasonZh": "多功能的副C角色，传送放置技能和强力相属性反应，适合相属性配队",
     "skills": {
       "normalAttack": {
         "name": "高频枪击连段",
@@ -8022,10 +8022,14 @@
         "answerZh": "真红的专属合成型弧盘是最佳选择。替代方案可使用任何带暴击或攻击力副属性的五星合成型弧盘。"
       }
     ],
-    "relatedCharacters": ["zero-male", "zero-female", "illica"],
+    "relatedCharacters": [
+      "zero-male",
+      "zero-female",
+      "illica"
+    ],
     "tierRank": "SS",
-    "tierReason": "Top-tier Light DPS with Rage/Berserk mechanic providing massive burst. Genesis reaction enhancement makes her a must-pull for Light teams. Strong in all content including high-level anomalies.",
-    "tierReasonZh": "顶级光系主C，暴怒值/暴走机制提供极高爆发。创生反应强化使其成为光属性配队必抽角色。在所有内容中表现出色，包括高难度异象。",
+    "tierReason": "Top Light DPS with Rage/Berserk burst mechanic and Genesis reaction enhancement",
+    "tierReasonZh": "光系主C天花板，暴怒值/暴走机制提供极高爆发，创生反应强化",
     "skills": {
       "normalAttack": {
         "name": "鬼爪连击",
@@ -8080,14 +8084,29 @@
         "slot3": "CRIT Rate / CRIT DMG",
         "slot4": "ATK%"
       },
-      "subStatPriority": ["暴击率", "暴击伤害", "攻击力%", "元素精通"],
-      "subStatPriorityEn": ["CRIT Rate", "CRIT DMG", "ATK%", "Elemental Mastery"]
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
     },
     "teamComps": [
       {
         "name": "真红光属性配队",
         "nameEn": "Zhenhong Light Team",
-        "members": ["zhenhong", "zero-male", "illica", "xiaozhi"],
+        "members": [
+          "zhenhong",
+          "zero-male",
+          "illica",
+          "xiaozhi"
+        ],
         "description": "以真红为核心的光属性配队，零提供快切触发创生反应，伊洛伊提供治疗增伤，小吱副C。",
         "descriptionEn": "Light team built around Zhenhong. Zero provides fast switch for Genesis triggers, Illica provides healing and buffs, Xiaozhi as sub-DPS."
       }
@@ -8129,7 +8148,9 @@
         "answerZh": "残虹预计在1.3版本上线，时间在1.2版本真红卡池之后。"
       }
     ],
-    "relatedCharacters": ["lacrimosa"],
+    "relatedCharacters": [
+      "lacrimosa"
+    ],
     "tierRank": "TBD",
     "tierReason": "Upcoming character. Turbid Burn DOT mechanic with Curse + Dark synergy could enable entirely new team archetypes.",
     "tierReasonZh": "待上线角色。浊燃持续伤害机制配合咒+暗属性联动，可能开启全新的配队体系。",

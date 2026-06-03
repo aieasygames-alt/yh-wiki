@@ -144,7 +144,7 @@
 - [都市大亨完全攻略 — 建筑收益、免费S级角色与进阶技巧](/en/guides/city-tycoon-guide/) — Guide (updated 2026-05-04)
 - [异环「何处为家」任务攻略 — 完整流程与奖励](/en/guides/where-is-home-guide/) — Exploration (updated 2026-05-24)
 
-## FAQ (264)
+## FAQ (270)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
@@ -409,6 +409,12 @@
 - Will NTE reduce daily grind in version 1.1? Official QoL improvements explained
 - NTE 1.1 Banner Schedule — Who's Next? Pull Roadmap & Timeline
 - NTE Free S-Rank Selector Box — Which Character Should You Pick?
+- Why is the NTE weapon/Arc banner controversial? Is it worth pulling?
+- What is the expected pull count for each NTE banner? How many pulls for a gold?
+- How to fix NTE lag and overheating on mobile? Best graphics settings
+- Will I get banned for using bugs in NTE? What is the official punishment policy?
+- Does pity carry over between banners in NTE? What are the exact rules?
+- Is NTE monetization fair? Is the monthly pass worth buying?
 
 ## Active Redeem Codes (9)
 - YHBILIBILI0423: Bilibili Exclusive Gift Pack
