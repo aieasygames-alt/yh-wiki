@@ -4,14 +4,9 @@ import { getAllQuests, getQuestsByType } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
 
-const typeColors: Record<string, string> = {
-  "side-quest": "border-emerald-500/50 text-emerald-400",
-  "anomaly-commission": "border-purple-500/50 text-purple-400",
-};
-
 const typeBadgeBg: Record<string, string> = {
   "side-quest": "bg-emerald-500/10 border-emerald-500/30 text-emerald-400",
-  "anomaly-commission": "bg-purple-500/10 border-purple-500/30 text-purple-purple",
+  "anomaly-commission": "bg-purple-500/10 border-purple-500/30 text-purple-400",
 };
 
 const difficultyStars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
