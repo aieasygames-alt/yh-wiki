@@ -1836,5 +1836,78 @@
       }
     ],
     "date": "2026-05-24"
+  },
+  {
+    "id": "bond-system-guide",
+    "title": "异环羁遇系统完全攻略：角色好感度、同居与社交互动",
+    "titleEn": "NTE Bond System Guide: Character Affinity, Co-habitation & Social Interactions",
+    "category": "guide",
+    "categoryZh": "玩法系统",
+    "categoryEn": "Game Systems",
+    "date": "2026-06-04",
+    "tags": [
+      "羁遇",
+      "好感度",
+      "社交",
+      "同居",
+      "互动"
+    ],
+    "summary": "异环1.1版本新增的羁遇系统完全攻略：如何提升角色好感度、解锁同居互动、获取角色居家服装、好感度10级奖励一览。",
+    "summaryEn": "Complete guide to NTE's Bond system from Version 1.1: how to raise affinity, unlock co-habitation, get home outfits, and affinity level 10 rewards.",
+    "content": "异环1.1版本引入了全新的**羁遇系统**，允许玩家与角色建立更深层的社交关系。本篇攻略详细介绍羁遇系统的玩法。\n\n## 一、羁遇系统概述\n\n羁遇系统是异环的角色社交互动系统，通过提升角色好感度解锁各种互动内容和奖励。\n\n## 二、如何提升好感度\n\n1. **赠送礼物**：通过城市探索和商店购买获取礼物，赠送给角色提升好感度\n2. **完成角色任务**：每位角色有专属的羁遇任务线\n3. **日常互动**：在城市中与角色对话、共同完成任务\n4. **战斗配队**：将角色编入队伍出战可缓慢提升好感度\n\n## 三、好感度等级奖励\n\n| 等级 | 奖励 |\n|------|------|\n| 1-5级 | 角色语音、对话解锁 |\n| 6-9级 | 专属剧情、互动场景 |\n| **10级** | **居家服装（睡衣套装）** |\n\n## 四、角色居家服装\n\n好感度达到10级后可解锁角色的居家睡衣套装。已知可获取居家服装的角色包括真红等。\n\n**建议**：提前储备礼物，在角色上线后快速提升好感度。\n\n## 五、同居系统\n\n1.1版本新增了男角色同居社交玩法，可与特定角色进行更深入的互动。\n\n## 六、礼物获取途径\n\n- 城市探索宝箱\n- 商店购买\n- 活动奖励\n- 日常任务",
+    "contentEn": "NTE's Version 1.1 introduced the **Bond System**, allowing deeper social relationships with characters.\n\n## 1. Overview\n\nThe Bond system is NTE's character social interaction system. Raise affinity to unlock interactions and rewards.\n\n## 2. How to Raise Affinity\n\n1. **Gift Giving**: Obtain gifts from exploration and shops\n2. **Character Quests**: Each character has a unique Bond questline\n3. **Daily Interactions**: Talk to characters and complete tasks together\n4. **Combat Teams**: Adding characters to your party slowly raises affinity\n\n## 3. Affinity Level Rewards\n\n| Level | Reward |\n|-------|--------|\n| 1-5 | Voice lines, dialogue |\n| 6-9 | Exclusive stories, scenes |\n| **10** | **Home outfit (pajama set)** |\n\n## 4. Home Outfits\n\nReach affinity 10 to unlock a character's home/pajama outfit. Zhenhong and other characters have confirmed home outfits.\n\n## 5. Co-habitation\n\nVersion 1.1 added co-habitation social features with select characters.\n\n## 6. Gift Sources\n\n- City exploration chests\n- Shop purchases\n- Event rewards\n- Daily commissions",
+    "relatedCharacters": [
+      "zhenhong",
+      "illica",
+      "chaos"
+    ],
+    "relatedLocations": [],
+    "relatedLore": []
+  },
+  {
+    "id": "amusement-park-exploration-guide",
+    "title": "异环游乐园/向阳岛探索攻略：全收集、宝箱位置与隐藏内容",
+    "titleEn": "NTE Amusement Park & Xiangyang Island Exploration Guide: Full Collection, Chests & Secrets",
+    "category": "exploration",
+    "categoryZh": "探索",
+    "categoryEn": "Exploration",
+    "date": "2026-06-04",
+    "tags": [
+      "游乐园",
+      "向阳岛",
+      "探索",
+      "收集",
+      "宝箱"
+    ],
+    "summary": "异环1.1-1.2版本新增地图区域完整探索攻略：向阳岛和游乐园的全收集路线、宝箱位置、异象收集品、隐藏区域解锁条件。",
+    "summaryEn": "Complete exploration guide for NTE's new map areas in Versions 1.1-1.2: Xiangyang Island and Amusement Park full collection routes, chest locations, and hidden areas.",
+    "content": "异环1.1和1.2版本分别开放了**向阳岛**和**游乐园**两个全新地图区域。本篇攻略提供完整的探索指南。\n\n## 一、向阳岛（1.1版本）\n\n向阳岛是1.1版本新增的海岛区域，包含：\n- 全新探索点和宝箱\n- 异象收集内容\n- 沙滩和海域探索\n- 船只载具使用\n\n### 探索要点\n1. 优先完成主线解锁全部区域\n2. 使用船只探索周边小岛\n3. 注意水下隐藏宝箱\n\n## 二、游乐园（1.2版本）\n\n游乐园是1.2版本新增的主题区域，包含：\n- 游乐园主题探索点\n- 互动游乐设施\n- 异象委托任务\n- 新收集品和宝箱\n\n### 探索要点\n1. 游乐园入口有引导任务\n2. 各设施可互动获取奖励\n3. 注意夜间时段的隐藏内容\n\n## 三、探索效率建议\n\n- 优先解锁传送点\n- 标记未收集的资源\n- 配合探索进度追踪器使用\n- 使用互动地图（nteguide.com/map）标记进度\n\n## 四、奖励汇总\n\n完成两个区域的全部探索可获得大量环石、养成材料和限定奖励。",
+    "contentEn": "NTE Versions 1.1 and 1.2 added **Xiangyang Island** and **Amusement Park** map areas.\n\n## 1. Xiangyang Island (v1.1)\n\n- New exploration points and treasure chests\n- Anomaly collection content\n- Beach and ocean exploration\n- Ship vehicle usage\n\n### Tips\n1. Complete main story first to unlock all areas\n2. Use ships to explore surrounding islands\n3. Watch for underwater hidden chests\n\n## 2. Amusement Park (v1.2)\n\n- Theme park exploration points\n- Interactive rides and attractions\n- Anomaly commission quests\n- New collectibles and chests\n\n### Tips\n1. Follow the guide quest at the entrance\n2. Interact with attractions for rewards\n3. Check for night-time hidden content\n\n## 3. Efficiency Tips\n\n- Unlock teleport points first\n- Mark uncollected resources\n- Use the exploration tracker\n- Use our interactive map at nteguide.com/map\n\n## 4. Rewards\n\nFull exploration of both areas yields Ring Stones, upgrade materials, and exclusive rewards.",
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": []
+  },
+  {
+    "id": "porsche-collab-guide",
+    "title": "异环×保时捷联动完全攻略：限定车辆时装获取与活动奖励",
+    "titleEn": "NTE x Porsche Collaboration Guide: Limited Vehicle Skins & Event Rewards",
+    "category": "events",
+    "categoryZh": "活动",
+    "categoryEn": "Events",
+    "date": "2026-06-04",
+    "tags": [
+      "保时捷",
+      "Porsche",
+      "联动",
+      "时装",
+      "车辆"
+    ],
+    "summary": "异环与保时捷的联动活动完全攻略：限定车辆时装获取方式、联动活动任务流程、奖励一览。",
+    "summaryEn": "Complete guide to NTE's Porsche collaboration: how to get limited vehicle skins, event quest walkthrough, and reward overview.",
+    "content": "异环1.1版本推出了与**保时捷（Porsche）**的联动活动，带来限定车辆时装和专属活动奖励。\n\n## 一、联动内容\n\n### 限定车辆时装\n- 保时捷风格车辆外观改装\n- 可在城市中驾驶展示\n\n### 联动活动\n- 专属活动任务线\n- 完成任务获取联动奖励\n\n## 二、如何获取\n\n1. 完成1.1版本主线至解锁联动活动\n2. 参与限时活动任务\n3. 收集活动代币兑换奖励\n\n## 三、活动奖励\n\n- 保时捷联动车辆时装\n- 环石奖励\n- 养成材料\n- 限定装饰品\n\n## 四、注意事项\n\n- 联动活动为限时内容，建议在版本期间完成\n- 车辆时装可在载具系统中装备\n- 联动内容1.2版本期间仍可获取",
+    "contentEn": "NTE Version 1.1 features a **Porsche** collaboration with limited vehicle skins and event rewards.\n\n## 1. Collaboration Content\n\n### Limited Vehicle Skins\n- Porsche-styled vehicle appearance customization\n- Drive and display in the city\n\n### Collaboration Event\n- Exclusive event questline\n- Complete tasks for collaboration rewards\n\n## 2. How to Obtain\n\n1. Complete v1.1 main story to unlock the event\n2. Participate in limited-time event quests\n3. Collect event tokens to exchange for rewards\n\n## 3. Rewards\n\n- Porsche collaboration vehicle skin\n- Ring Stones\n- Upgrade materials\n- Limited decorations\n\n## 4. Notes\n\n- The event is time-limited — complete during the version period\n- Vehicle skins can be equipped in the vehicle system\n- Content remains available during v1.2",
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": []
   }
 ]

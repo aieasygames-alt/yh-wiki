@@ -93,7 +93,7 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (49)
+## Guides (52)
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -143,6 +143,9 @@
 - [商店兑换优先级攻略 — 各商店最优兑换顺序](/en/guides/shop-exchange-guide/) — Farming (updated 2026-04-29)
 - [都市大亨完全攻略 — 建筑收益、免费S级角色与进阶技巧](/en/guides/city-tycoon-guide/) — Guide (updated 2026-05-04)
 - [异环「何处为家」任务攻略 — 完整流程与奖励](/en/guides/where-is-home-guide/) — Exploration (updated 2026-05-24)
+- [异环羁遇系统完全攻略：角色好感度、同居与社交互动](/en/guides/bond-system-guide/) — Game Systems (updated 2026-06-04)
+- [异环游乐园/向阳岛探索攻略：全收集、宝箱位置与隐藏内容](/en/guides/amusement-park-exploration-guide/) — Exploration (updated 2026-06-04)
+- [异环×保时捷联动完全攻略：限定车辆时装获取与活动奖励](/en/guides/porsche-collab-guide/) — Events (updated 2026-06-04)
 
 ## FAQ (270)
 - How much does NTE cost on PS5? What's the download size? How does it perform?

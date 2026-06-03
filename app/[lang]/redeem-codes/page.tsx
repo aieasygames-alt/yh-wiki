@@ -16,11 +16,11 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const title = isZh
-    ? (locale === "tw" ? "異環兌換碼（2026年5月）— 1.1直播碼/國際服碼即時更新" : "异环兑换码（2026年5月）— 1.1直播码/国际服码实时更新")
-    : "NTE Redeem Codes (May 2026) — All Active Codes & 1.1 Livestream Codes";
+    ? (locale === "tw" ? "異環兌換碼（2026年6月）— 國服/國際服禮包碼大全、前瞻直播碼即時更新" : "异环兑换码（2026年6月）— 国服/国际服礼包码大全、前瞻直播码实时更新")
+    : "NTE Redeem Codes (June 2026) — All Active Codes, Livestream & Platform Codes";
   const description = isZh
-    ? (locale === "tw" ? "異環(NTE)最新兌換碼，包含1.1直播碼DREAMWALK0603等。國服和國際服即時更新，免費領取環石等獎勵。" : "异环(NTE)最新兑换码，包含1.1直播码DREAMWALK0603等。国服和国际服实时更新，免费领取环石等奖励。")
-    : "All working Neverness to Everness redeem codes (May 2026) including 1.1 livestream codes DREAMWALK0603, TOMATO100 & RACENOLIMIT. Updated daily for Global & CN servers.";
+    ? (locale === "tw" ? "異環(NTE)最新兌換碼與禮包碼即時更新（2026年6月）。國服和國際服所有有效碼，含B站/TapTap/抖音平台專屬碼，免費領取環石等獎勵。" : "异环(NTE)最新兑换码与礼包码实时更新（2026年6月）。国服和国际服所有有效码，含B站/TapTap/抖音平台专属码，免费领取环石等奖励。")
+    : "All working Neverness to Everness redeem codes (June 2026) including platform codes for Bilibili, TapTap, Douyin. Updated daily for Global & CN servers.";
 
   return {
     title,
@@ -44,7 +44,7 @@ export default async function RedeemCodesPage({
 
   const faqs = isZhLocale(locale)
     ? [
-        { question: "异环1.1直播兑换码有哪些？", questionZh: "异环1.1直播兑换码有哪些？", answer: "1.1前瞻直播公布了3个国际服兑换码：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至2026年5月25日。请尽快兑换。", answerZh: "1.1前瞻直播公布了3个国际服兑换码：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至2026年5月25日。请尽快兑换。" },
+        { question: "异环最新兑换码有哪些？", questionZh: "异环最新兑换码有哪些？", answer: "当前有效兑换码包括平台专属码（YHBILIBILI0423、YHTAPTAP0423、YHDOUYIN0423）和通用码（NTEFREE、RHWMKHRWQ等）。具体奖励和过期时间请查看上方列表。", answerZh: "当前有效兑换码包括平台专属码（YHBILIBILI0423、YHTAPTAP0423、YHDOUYIN0423）和通用码（NTEFREE、RHWMKHRWQ等）。具体奖励和过期时间请查看上方列表。" },
         { question: "异环兑换码在哪里输入？", questionZh: "异环兑换码在哪里输入？", answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效兑换码即可领取奖励。", answerZh: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效兑换码即可领取奖励。" },
       ]
     : [
