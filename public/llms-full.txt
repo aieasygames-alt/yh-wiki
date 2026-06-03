@@ -1,9 +1,9 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-05-28
+> Generated: 2026-06-03
 
-## Characters (42)
+## Characters (44)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
 - [咲里 / Sakiri](/en/characters/sakiri/) — S-rank incantation Support
 - [法蒂亚 / Fadia](/en/characters/fadia/) — S-rank psyche Attack
@@ -34,7 +34,7 @@
 - [明虎 / Xiaozhen](/en/characters/xiaozhen/) — S-rank anima Attack
 - [赤音 / Akane](/en/characters/akane/) — S-rank incantation Attack
 - [詹森 / Jenson](/en/characters/jenson/) — A-rank psyche Defense
-- [伊利卡 / Illica](/en/characters/illica/) — S-rank lakshana Attack
+- [伊洛伊 / Illica](/en/characters/illica/) — S-rank lakshana Support
 - [风花 / Fuuka](/en/characters/fuuka/) — A-rank anima Support
 - [克劳 / Crow](/en/characters/crow/) — S-rank chaos DPS
 - [蕾妮 / Renee](/en/characters/renee/) — A-rank psyche Support
@@ -46,6 +46,8 @@
 - [小吱 / Xiaozhi](/en/characters/xiaozhi/) — S-rank anima Attack
 - [浔 / Xun](/en/characters/xun/) — S-rank cosmos Support
 - [卡厄斯 / Chaos](/en/characters/chaos/) — S-rank lakshana Attack
+- [真红 / Zhenhong](/en/characters/zhenhong/) — S-rank light Attack
+- [残虹 / Canhong](/en/characters/canhong/) — S-rank curse Attack
 
 ## Weapons (42)
 - [引爆全场 / Blow up the Crowd](/en/weapons/blow-up-the-crowd/) — S-rank solid ATK 512
@@ -408,8 +410,11 @@
 - NTE 1.1 Banner Schedule — Who's Next? Pull Roadmap & Timeline
 - NTE Free S-Rank Selector Box — Which Character Should You Pick?
 
-## Active Redeem Codes (6)
-- NTE429vtuber: Fons x30,000, Beetle Coin x30,000
+## Active Redeem Codes (9)
+- YHBILIBILI0423: Bilibili Exclusive Gift Pack
+- YHTAPTAP0423: TapTap Exclusive Gift Pack
+- YHDOUYIN0423: Douyin Exclusive Gift Pack
+- RHWMKHRWQ: Paper Ticket x10, Orange Memory Selection Box x1, Time Gap x1, Barrel King Crab x1
 - NTEFREE: Fons x30,000
 - NTEvtuber200: Fons x10,000, Beetle Coin x10,000
 - NTEWINFONS: Fons x20,000

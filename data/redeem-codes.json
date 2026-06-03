@@ -1,9 +1,59 @@
 [
   {
+    "code": "YHBILIBILI0423",
+    "reward": "平台专属礼包",
+    "rewardEn": "Bilibili Exclusive Gift Pack",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "platform",
+    "region": "cn",
+    "revealedAt": "2026-04-23"
+  },
+  {
+    "code": "YHTAPTAP0423",
+    "reward": "平台专属礼包",
+    "rewardEn": "TapTap Exclusive Gift Pack",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "platform",
+    "region": "cn",
+    "revealedAt": "2026-04-23"
+  },
+  {
+    "code": "YHDOUYIN0423",
+    "reward": "平台专属礼包",
+    "rewardEn": "Douyin Exclusive Gift Pack",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "platform",
+    "region": "cn",
+    "revealedAt": "2026-04-23"
+  },
+  {
+    "code": "RHWMKHRWQ",
+    "reward": "纸间剧票x10、橙色回忆任选礼盒x1、时之间隙x1、酒桶帝王蟹x1",
+    "rewardEn": "Paper Ticket x10, Orange Memory Selection Box x1, Time Gap x1, Barrel King Crab x1",
+    "status": "active",
+    "expiresAt": "TBA",
+    "source": "official",
+    "region": "global",
+    "revealedAt": "2026-05-01"
+  },
+  {
+    "code": "HUILANG0528",
+    "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
+    "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000",
+    "status": "expired",
+    "expiresAt": "2026-06-03",
+    "source": "livestream",
+    "region": "cn",
+    "revealedAt": "2026-05-23"
+  },
+  {
     "code": "NTE429vtuber",
     "reward": "芬斯x30000、甲硬币x30000",
     "rewardEn": "Fons x30,000, Beetle Coin x30,000",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "2026-05-31",
     "source": "official",
     "region": "global",
@@ -58,16 +108,6 @@
     "source": "official",
     "region": "global",
     "revealedAt": "2026-04-29"
-  },
-  {
-    "code": "HUILANG0528",
-    "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
-    "rewardEn": "Ring Stones x100, Novice Hunter Guide x5, Light Dye x5, Beetle Coin x4000",
-    "status": "active",
-    "expiresAt": "TBA",
-    "source": "livestream",
-    "region": "cn",
-    "revealedAt": "2026-05-23"
   },
   {
     "code": "DREAMWALK0603",

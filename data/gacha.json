@@ -3,8 +3,8 @@
     "id": "limited",
     "name": "限定祈愿",
     "nameEn": "Limited Wish",
-    "description": "UP角色概率提升，无50/50机制",
-    "descriptionEn": "Featured character rate boosted, no 50/50 system",
+    "description": "伊洛伊概率提升，无50/50机制",
+    "descriptionEn": "Illica rate boosted, no 50/50 system",
     "rate5": 0.6,
     "rate4": 10,
     "rate3": 89.4,
@@ -15,7 +15,7 @@
     "pityCarryOver": true,
     "guaranteedFeatured": true,
     "featured": [
-      "lacrimosa"
+      "illica"
     ],
     "featured4": [
       "adler",
@@ -83,8 +83,8 @@
     "id": "limited-phase2",
     "name": "限定祈愿·下半",
     "nameEn": "Limited Wish · Phase 2",
-    "description": "卡厄斯概率提升，无50/50机制",
-    "descriptionEn": "Chaos rate boosted, no 50/50 system",
+    "description": "真红概率提升，无50/50机制",
+    "descriptionEn": "Zhenhong rate boosted, no 50/50 system",
     "rate5": 0.6,
     "rate4": 10,
     "rate3": 89.4,
@@ -95,7 +95,7 @@
     "pityCarryOver": true,
     "guaranteedFeatured": true,
     "featured": [
-      "chaos"
+      "zhenhong"
     ],
     "featured4": [
       "adler",

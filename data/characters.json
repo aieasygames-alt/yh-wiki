@@ -5821,17 +5821,17 @@
   },
   {
     "id": "illica",
-    "name": "伊利卡",
+    "name": "伊洛伊",
     "nameEn": "Illica",
     "attribute": "lakshana",
     "rank": "S",
     "weapon": "等离子",
     "weaponEn": "Plasma",
-    "role": "进攻",
-    "roleEn": "Attack",
+    "role": "增益",
+    "roleEn": "Support",
     "faction": "ETD-4",
-    "description": "ETD-4的相属性进攻手，输出稳定且兼具团队辅助价值，是任何队伍都想拥有的万金油选手。",
-    "descriptionEn": "A confirmed S-rank character and Lakshana-attribute Esper. Full details await the official launch.",
+    "description": "异环首位S级限定治疗增益辅助角色，1.2版本上半卡池 featured。拥有强力的治疗与增伤能力，是任何队伍的核心辅助。",
+    "descriptionEn": "The first S-rank limited Heal/Buffer in NTE, featured in Version 1.2 Phase 1 banner. Provides powerful healing and damage buffs, a core support for any team.",
     "faq": [
       {
         "question": "Is Illica good in Neverness to Everness?",
@@ -5982,9 +5982,9 @@
     ],
     "image": "/images/characters/illica.webp",
     "availableAtLaunch": false,
-    "acquisitionMethod": "future",
-    "status": "upcoming",
-    "nameTw": "伊利卡",
+    "acquisitionMethod": "limited-banner",
+    "status": "available",
+    "nameTw": "伊洛伊",
     "arcType": "plasma",
     "signatureArc": ""
   },
@@ -7975,5 +7975,201 @@
       "tips": "核心循环：普攻叠层→变轨技上标记→标记期间爆发→终结技收割→重复。注意保持「搜查令」debuff不断。",
       "tipsEn": "Core loop: Basic attack stack → Redirect apply Warrant → Burst during Warrant window → Ultimate finish → Repeat. Keep Search Warrant debuff active at all times."
     }
+  },
+  {
+    "id": "zhenhong",
+    "name": "真红",
+    "nameEn": "Zhenhong",
+    "nameTw": "真紅",
+    "attribute": "light",
+    "rank": "S",
+    "weapon": "合成",
+    "weaponEn": "Synthesis",
+    "role": "进攻",
+    "roleEn": "Attack",
+    "faction": "龙族",
+    "description": "S级限定光系主C，龙族格斗家。1.2版本下半卡池 featured。技能围绕「鬼爪」中距离起手与「暴怒值」机制构建，暴怒值满后进入暴走状态大幅提升输出。被动强化创生体系反应，机械尾部协同攻击，持续压制与爆发衔接流畅。",
+    "descriptionEn": "S-rank limited Light DPS, dragon-tribe fighter. Featured in Version 1.2 Phase 2 banner. Kit revolves around 'Demon Claw' mid-range engagement and 'Rage' gauge — entering Berserk state at max Rage for massive damage boost. Passive enhances Genesis reactions. Mechanical tail provides coordinated attacks.",
+    "faq": [
+      {
+        "question": "Is Zhenhong good in Neverness to Everness?",
+        "questionZh": "真红值得培养吗？",
+        "answer": "Zhenhong is a top-tier S-rank limited Light DPS in NTE. Her Rage gauge mechanic and Berserk state provide exceptional burst damage, and her passive enhancing Genesis reactions makes her a core pick for Light-based teams.",
+        "answerZh": "真红是异环中顶级的S级限定光系主C。暴怒值机制和暴走状态提供极高的爆发伤害，被动强化创生体系反应，是光属性配队的核心选择。"
+      },
+      {
+        "question": "What is the best build for Zhenhong?",
+        "questionZh": "真红最佳配装是什么？",
+        "answer": "Prioritize CRIT Rate/CRIT DMG and ATK% for Zhenhong. Her Berserk state scales well with CRIT stats. Use Light-enhancing disk sets and her signature weapon for maximum output.",
+        "answerZh": "真红优先堆叠暴击率/暴击伤害和攻击力百分比。暴走状态对暴击属性收益很高，使用光属性强化卡带套装和专武可最大化输出。"
+      },
+      {
+        "question": "How to get Zhenhong in Neverness to Everness?",
+        "questionZh": "如何获得真红？",
+        "answer": "Zhenhong is available through the Version 1.2 Phase 2 limited banner. She is a guaranteed featured character with no 50/50 system — your pity pull guarantees Zhenhong.",
+        "answerZh": "真红可通过1.2版本下半限定卡池获得。限定池不设50/50机制，保底必定获得当期UP角色。"
+      },
+      {
+        "question": "What is the best team for Zhenhong?",
+        "questionZh": "真红最佳配队是什么？",
+        "answer": "Zhenhong works best in Light-based teams with Genesis reaction support. Pair with Light enablers like Zero for fast switch and Genesis triggers.",
+        "answerZh": "真红最适合光属性配队搭配创生反应辅助。与零等光属性角色搭配，利用快切触发创生反应效果最佳。"
+      },
+      {
+        "question": "What is the best weapon for Zhenhong?",
+        "questionZh": "真红最佳武器是什么？",
+        "answer": "Zhenhong's signature Synthesis-type Arc is her best-in-slot. For alternatives, any 5-star Synthesis Arc with CRIT or ATK% substats works well.",
+        "answerZh": "真红的专属合成型弧盘是最佳选择。替代方案可使用任何带暴击或攻击力副属性的五星合成型弧盘。"
+      }
+    ],
+    "relatedCharacters": ["zero-male", "zero-female", "illica"],
+    "tierRank": "SS",
+    "tierReason": "Top-tier Light DPS with Rage/Berserk mechanic providing massive burst. Genesis reaction enhancement makes her a must-pull for Light teams. Strong in all content including high-level anomalies.",
+    "tierReasonZh": "顶级光系主C，暴怒值/暴走机制提供极高爆发。创生反应强化使其成为光属性配队必抽角色。在所有内容中表现出色，包括高难度异象。",
+    "skills": {
+      "normalAttack": {
+        "name": "鬼爪连击",
+        "nameEn": "Demon Claw Combo",
+        "description": "进行多段鬼爪连击，每次命中积攒暴怒值。",
+        "descriptionEn": "Perform multi-hit Demon Claw attacks. Each hit generates Rage."
+      },
+      "skill": {
+        "name": "变轨·暴鬼爪",
+        "nameEn": "Redirect · Demon Rage Claw",
+        "description": "中距离突进攻击，命中后大幅积攒暴怒值并施加压制效果。",
+        "descriptionEn": "Mid-range dash attack. On hit, generates large amount of Rage and applies Suppression effect."
+      },
+      "ultimate": {
+        "name": "终结·龙焰暴走",
+        "nameEn": "Finisher · Dragonflame Berserk",
+        "description": "消耗全部暴怒值进入暴走状态，大幅提升攻击力和暴击率，机械尾部协同攻击。",
+        "descriptionEn": "Consume all Rage to enter Berserk state, greatly boosting ATK and CRIT Rate. Mechanical tail provides coordinated attacks."
+      },
+      "qte": {
+        "name": "龙尾横扫",
+        "nameEn": "Tail Sweep",
+        "description": "切入场时使用机械尾部横扫攻击，对范围内敌人造成光属性伤害。",
+        "descriptionEn": "On swap-in, perform mechanical tail sweep attack dealing Light damage to enemies in range."
+      },
+      "passives": [
+        {
+          "name": "创生强化",
+          "nameEn": "Genesis Enhancement",
+          "description": "被动强化创生体系反应效果，提升光属性队伍的整体输出。",
+          "descriptionEn": "Passively enhances Genesis reaction effects, boosting overall Light team output."
+        }
+      ],
+      "awakening": [],
+      "resonance": []
+    },
+    "recommendedBuild": {
+      "bestWeapon": "TBD",
+      "bestWeaponEn": "TBD",
+      "alternativeWeapons": [],
+      "bestDiskSet": "TBD",
+      "bestDiskSetEn": "TBD",
+      "mainStats": {
+        "slot1": "ATK%",
+        "slot2": "Light DMG",
+        "slot3": "CRIT Rate / CRIT DMG",
+        "slot4": "ATK%"
+      },
+      "mainStatsEn": {
+        "slot1": "ATK%",
+        "slot2": "Light DMG",
+        "slot3": "CRIT Rate / CRIT DMG",
+        "slot4": "ATK%"
+      },
+      "subStatPriority": ["暴击率", "暴击伤害", "攻击力%", "元素精通"],
+      "subStatPriorityEn": ["CRIT Rate", "CRIT DMG", "ATK%", "Elemental Mastery"]
+    },
+    "teamComps": [
+      {
+        "name": "真红光属性配队",
+        "nameEn": "Zhenhong Light Team",
+        "members": ["zhenhong", "zero-male", "illica", "xiaozhi"],
+        "description": "以真红为核心的光属性配队，零提供快切触发创生反应，伊洛伊提供治疗增伤，小吱副C。",
+        "descriptionEn": "Light team built around Zhenhong. Zero provides fast switch for Genesis triggers, Illica provides healing and buffs, Xiaozhi as sub-DPS."
+      }
+    ],
+    "image": "/images/characters/zhenhong.webp",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "limited-banner",
+    "status": "upcoming",
+    "arcType": "synthesis",
+    "signatureArc": "TBD",
+    "cvZh": "TBD",
+    "cvJp": "TBD"
+  },
+  {
+    "id": "canhong",
+    "name": "残虹",
+    "nameEn": "Canhong",
+    "nameTw": "殘虹",
+    "attribute": "curse",
+    "rank": "S",
+    "weapon": "气体",
+    "weaponEn": "Gas",
+    "role": "进攻",
+    "roleEn": "Attack",
+    "faction": "待定",
+    "description": "S级限定角色，咒+暗属性。1.3版本上半卡池预计 featured。被动技能可叠加「浊燃」效果造成持续DOT伤害，浊燃反应涉及咒与暗属性联动。角色形象偏向悲剧色彩，名字寓意「破碎的虹光」。",
+    "descriptionEn": "S-rank limited character, Curse + Dark attribute. Expected featured in Version 1.3 Phase 1 banner. Passive skill stacks 'Turbid Burn' effect dealing continuous DOT damage. Turbid Burn reaction involves Curse and Dark attribute synergy. Character design evokes a tragic aesthetic, name meaning 'Shattered Rainbow'.",
+    "faq": [
+      {
+        "question": "Is Canhong good in Neverness to Everness?",
+        "questionZh": "残虹值得培养吗？",
+        "answer": "Canhong is an upcoming S-rank limited character with a unique Turbid Burn DOT mechanic. Her Curse + Dark dual-attribute kit is expected to enable new team compositions.",
+        "answerZh": "残虹是即将上线的S级限定角色，拥有独特的浊燃持续伤害机制。咒+暗双属性机制预计将开启新的配队思路。"
+      },
+      {
+        "question": "When will Canhong be released?",
+        "questionZh": "残虹什么时候上线？",
+        "answer": "Canhong is expected to be released in Version 1.3, following Zhenhong's banner in Version 1.2.",
+        "answerZh": "残虹预计在1.3版本上线，时间在1.2版本真红卡池之后。"
+      }
+    ],
+    "relatedCharacters": ["lacrimosa"],
+    "tierRank": "TBD",
+    "tierReason": "Upcoming character. Turbid Burn DOT mechanic with Curse + Dark synergy could enable entirely new team archetypes.",
+    "tierReasonZh": "待上线角色。浊燃持续伤害机制配合咒+暗属性联动，可能开启全新的配队体系。",
+    "skills": {
+      "normalAttack": {
+        "name": "TBD",
+        "nameEn": "TBD",
+        "description": "TBD",
+        "descriptionEn": "TBD"
+      },
+      "skill": {
+        "name": "TBD",
+        "nameEn": "TBD",
+        "description": "TBD",
+        "descriptionEn": "TBD"
+      },
+      "ultimate": {
+        "name": "TBD",
+        "nameEn": "TBD",
+        "description": "TBD",
+        "descriptionEn": "TBD"
+      }
+    },
+    "recommendedBuild": {
+      "bestWeapon": "TBD",
+      "bestWeaponEn": "TBD",
+      "alternativeWeapons": [],
+      "bestDiskSet": "TBD",
+      "bestDiskSetEn": "TBD",
+      "mainStats": {},
+      "mainStatsEn": {},
+      "subStatPriority": [],
+      "subStatPriorityEn": []
+    },
+    "teamComps": [],
+    "image": "/images/characters/canhong.webp",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "limited-banner",
+    "status": "upcoming",
+    "arcType": "gas",
+    "signatureArc": "TBD"
   }
 ]

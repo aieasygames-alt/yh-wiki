@@ -766,5 +766,124 @@
       "/redeem-codes",
       "/changelog"
     ]
+  },
+  {
+    "id": "version-1-2",
+    "version": "1.2",
+    "versionName": "真红与残虹",
+    "versionNameEn": "True Red & Afterglow",
+    "date": "2026-06-11",
+    "dateGlobal": "2026-06-11",
+    "type": "major",
+    "highlights": [
+      "新角色伊洛伊（Illica）— S级限定治疗增益辅助，首位限定奶妈",
+      "新角色真红（Zhenhong）— S级限定光系主C，龙族格斗家",
+      "卡厄斯（Chaos）限定卡池下半持续",
+      "游乐园新地图区域开启",
+      "羁遇系统优化与扩展",
+      "Porsche联动车辆时装持续",
+      "画面渲染升级 — 角色光影与材质优化"
+    ],
+    "highlightsEn": [
+      "New character Illica — S-rank limited Heal/Buffer, first limited healer",
+      "New character Zhenhong — S-rank limited Light DPS, dragon-tribe fighter",
+      "Chaos limited banner Phase 2 continues",
+      "New amusement park map area opens",
+      "Bond system optimizations and expansion",
+      "Porsche collaboration vehicle skins continue",
+      "Graphics upgrade — improved character lighting and materials"
+    ],
+    "sections": [
+      {
+        "title": "新角色",
+        "titleEn": "New Characters",
+        "items": [
+          {
+            "name": "伊洛伊",
+            "nameEn": "Illica",
+            "description": "S级限定治疗增益辅助，异环首位限定奶妈角色。拥有强力的治疗与增伤能力，能大幅提升队伍生存与输出。",
+            "descriptionEn": "S-rank limited Heal/Buffer, the first limited healer in NTE. Provides powerful healing and damage buffs, greatly improving team survivability and output.",
+            "type": "character",
+            "ref": "illica",
+            "tags": ["S级", "限定", "上半"]
+          },
+          {
+            "name": "真红",
+            "nameEn": "Zhenhong",
+            "description": "S级限定光系主C，龙族格斗家。技能围绕「鬼爪」中距离起手与「暴怒值」机制构建，暴怒值满后进入暴走状态大幅提升输出。被动强化创生体系反应，机械尾部协同攻击。",
+            "descriptionEn": "S-rank limited Light DPS, dragon-tribe fighter. Kit revolves around 'Demon Claw' mid-range engagement and 'Rage' gauge — entering Berserk state at max Rage. Passive enhances Genesis reactions. Mechanical tail coordinated attacks.",
+            "type": "character",
+            "ref": "zhenhong",
+            "tags": ["S级", "限定", "下半"]
+          }
+        ]
+      },
+      {
+        "title": "卡池安排",
+        "titleEn": "Banner Schedule",
+        "items": [
+          {
+            "name": "上半卡池（伊洛伊）",
+            "nameEn": "Phase 1 Banner (Illica)",
+            "description": "6月11日 ~ 6月25日。伊洛伊限定UP。",
+            "descriptionEn": "June 11 – June 25. Illica limited banner.",
+            "type": "system",
+            "ref": null,
+            "tags": ["卡池"]
+          },
+          {
+            "name": "下半卡池（真红）",
+            "nameEn": "Phase 2 Banner (Zhenhong)",
+            "description": "6月25日 ~ 7月15日。真红限定UP。",
+            "descriptionEn": "June 25 – July 15. Zhenhong limited banner.",
+            "type": "system",
+            "ref": null,
+            "tags": ["卡池"]
+          }
+        ]
+      },
+      {
+        "title": "系统优化",
+        "titleEn": "System Optimizations",
+        "items": [
+          {
+            "name": "游乐园地图区域",
+            "nameEn": "Amusement Park Map Area",
+            "description": "全新游乐园地图区域开放，包含新的探索点、宝箱和异象收集内容。",
+            "descriptionEn": "New amusement park map area with exploration points, treasure chests, and anomaly collection content.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["地图"]
+          },
+          {
+            "name": "角色渲染升级",
+            "nameEn": "Character Rendering Upgrade",
+            "description": "角色光影表现与渲染效果全面升级，发丝细节、服装质感更加精致。",
+            "descriptionEn": "Comprehensive upgrade to character lighting and rendering — improved hair detail and clothing textures.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["画面"]
+          },
+          {
+            "name": "羁遇系统扩展",
+            "nameEn": "Bond System Expansion",
+            "description": "羁遇系统新增互动内容与角色剧情。",
+            "descriptionEn": "Bond system adds new interactions and character stories.",
+            "type": "feature",
+            "ref": null,
+            "tags": ["社交"]
+          }
+        ]
+      }
+    ],
+    "compensation": null,
+    "internalLinks": [
+      "/characters/illica",
+      "/characters/zhenhong",
+      "/characters/chaos",
+      "/tier-list",
+      "/redeem-codes",
+      "/changelog"
+    ]
   }
 ]
