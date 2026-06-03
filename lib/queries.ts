@@ -663,7 +663,7 @@ export function getQuestsByRegion(region: string): Quest[] {
 }
 
 export function getQuestTypes(locale: Locale): { slug: string; name: string }[] {
-  const types = [...new Set(getAllQuests().map((q) => q.type))];
+  const types = Array.from(new Set(getAllQuests().map((q) => q.type)));
   return types.map((type) => {
     const sample = getAllQuests().find((q) => q.type === type);
     return {
