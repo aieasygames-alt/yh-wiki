@@ -1,0 +1,612 @@
+[
+  {
+    "id": "in-the-reflection",
+    "name": "在倒影里的",
+    "nameEn": "In the Reflection",
+    "type": "side-quest",
+    "typeZh": "支线任务",
+    "category": "story",
+    "categoryZh": "剧情",
+    "categoryEn": "Story",
+    "region": "bridge-crossings",
+    "regionZh": "桥间地",
+    "regionEn": "Bridge Crossings",
+    "difficulty": 1,
+    "description": "在桥间地的某个角落发现了一面奇怪的镜子，映照出不属于自己的身影。完成此任务可解锁主角性别切换功能。",
+    "descriptionEn": "A strange mirror found in Bridge Crossings reflects a figure that isn't you. Completing this quest unlocks gender switching for the protagonist.",
+    "rewards": [
+      "主角性别切换功能",
+      "环石×60",
+      "甲硬币×5000"
+    ],
+    "rewardsEn": [
+      "Protagonist gender switch feature",
+      "Ring Stones x60",
+      "Beetle Coins x5000"
+    ],
+    "steps": [
+      "前往桥间地商业区东北角找到神秘镜子",
+      "与镜子互动触发剧情对话",
+      "完成镜中世界的战斗挑战",
+      "返回与镜子对话完成任务"
+    ],
+    "stepsEn": [
+      "Find the mysterious mirror in the northeast corner of Bridge Crossings commercial area",
+      "Interact with the mirror to trigger a story dialogue",
+      "Complete the combat challenge in the mirror world",
+      "Return and talk to the mirror to complete the quest"
+    ],
+    "relatedCharacters": ["zero-male", "zero-female"],
+    "tags": ["剧情", "解锁", "性别切换"]
+  },
+  {
+    "id": "antique-shop-debt",
+    "name": "古董店的债务危机",
+    "nameEn": "The Antique Shop Debt Crisis",
+    "type": "side-quest",
+    "typeZh": "支线任务",
+    "category": "story",
+    "categoryZh": "剧情",
+    "categoryEn": "Story",
+    "region": "new-herland",
+    "regionZh": "新赫兰德",
+    "regionEn": "New Herland",
+    "difficulty": 2,
+    "description": "伊波恩古董店入不敷出，需要鉴定师帮忙接取异象委托来还清债务。本任务为城市大亨系统的引导任务。",
+    "descriptionEn": "Eibon Antique Shop is deep in debt. Help clear the debt by taking on anomaly commissions. This quest serves as the tutorial for the City Tycoon system.",
+    "rewards": [
+      "城市大亨系统解锁",
+      "环石×40",
+      "方斯×20000"
+    ],
+    "rewardsEn": [
+      "City Tycoon system unlock",
+      "Ring Stones x40",
+      "Fons x20,000"
+    ],
+    "steps": [
+      "前往伊波恩古董店与店主对话",
+      "接取3个异象委托任务",
+      "完成委托后回报店主",
+      "触发城市大亨系统教学"
+    ],
+    "stepsEn": [
+      "Go to Eibon Antique Shop and talk to the shopkeeper",
+      "Accept 3 anomaly commission tasks",
+      "Complete commissions and report back",
+      "Trigger the City Tycoon system tutorial"
+    ],
+    "relatedCharacters": ["xiaozhi"],
+    "tags": ["剧情", "城市大亨", "教学"]
+  },
+  {
+    "id": "lost-cat-hethereau",
+    "name": "海特洛市的走失猫咪",
+    "nameEn": "The Lost Cats of Hethereau",
+    "type": "side-quest",
+    "typeZh": "支线任务",
+    "category": "collection",
+    "categoryZh": "收集",
+    "categoryEn": "Collection",
+    "region": "new-herland",
+    "regionZh": "新赫兰德",
+    "regionEn": "New Herland",
+    "difficulty": 1,
+    "description": "海特洛市各处散落着走失的猫咪，帮助居民找回它们可获得好感度和奖励。共需找回10只猫咪。",
+    "descriptionEn": "Lost cats are scattered throughout Hethereau. Help residents find them for affinity and rewards. Find all 10 cats.",
+    "rewards": [
+      "好感度提升",
+      "环石×30",
+      "称号「猫咪收藏家」"
+    ],
+    "rewardsEn": [
+      "Affinity increase",
+      "Ring Stones x30",
+      "Title: Cat Collector"
+    ],
+    "steps": [
+      "在新赫兰德居民区接取任务",
+      "在城市各处寻找10只走失猫咪",
+      "每找到一只与居民对话确认",
+      "全部找回后领取最终奖励"
+    ],
+    "stepsEn": [
+      "Accept the quest at New Herland residential area",
+      "Find 10 lost cats around the city",
+      "Confirm each cat with the resident",
+      "Collect the final reward after finding all 10"
+    ],
+    "relatedCharacters": [],
+    "tags": ["收集", "猫咪", "探索"]
+  },
+  {
+    "id": "midnight-race",
+    "name": "午夜飙车族",
+    "nameEn": "Midnight Street Racers",
+    "type": "side-quest",
+    "typeZh": "支线任务",
+    "category": "challenge",
+    "categoryZh": "挑战",
+    "categoryEn": "Challenge",
+    "region": "miguel-district",
+    "regionZh": "米格尔区",
+    "regionEn": "Miguel District",
+    "difficulty": 3,
+    "description": "米格尔区的地下赛车组织向你发起挑战。击败所有对手成为午夜车神。",
+    "descriptionEn": "An underground racing group in Miguel District challenges you. Defeat all opponents to become the Midnight Racing Champion.",
+    "rewards": [
+      "限定载具涂装",
+      "环石×80",
+      "甲硬币×10000"
+    ],
+    "rewardsEn": [
+      "Limited vehicle paint",
+      "Ring Stones x80",
+      "Beetle Coins x10,000"
+    ],
+    "steps": [
+      "在米格尔区深夜找到赛车发起人",
+      "完成3场竞速比赛",
+      "击败最终BOSS对手",
+      "领取冠军奖励"
+    ],
+    "stepsEn": [
+      "Find the race organizer in Miguel District at night",
+      "Complete 3 racing events",
+      "Defeat the final boss opponent",
+      "Claim the champion reward"
+    ],
+    "relatedCharacters": [],
+    "tags": ["赛车", "载具", "挑战"]
+  },
+  {
+    "id": "anomaly-phantom-train",
+    "name": "异象委托：幽灵列车",
+    "nameEn": "Anomaly Commission: Phantom Train",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "combat",
+    "categoryZh": "战斗",
+    "categoryEn": "Combat",
+    "region": "bridge-crossings",
+    "regionZh": "桥间地",
+    "regionEn": "Bridge Crossings",
+    "difficulty": 2,
+    "description": "桥间地地铁站出现了幽灵列车异象，乘客被不明力量困在车厢中。前往调查并消除异象。",
+    "descriptionEn": "A phantom train anomaly has appeared at Bridge Crossings metro station. Passengers are trapped by unknown forces. Investigate and eliminate the anomaly.",
+    "rewards": [
+      "环石×20",
+      "养成材料×3",
+      "甲硬币×3000"
+    ],
+    "rewardsEn": [
+      "Ring Stones x20",
+      "Upgrade Materials x3",
+      "Beetle Coins x3,000"
+    ],
+    "steps": [
+      "前往桥间地地铁站B3入口",
+      "进入异象空间",
+      "清除3波异象怪物",
+      "解救被困乘客",
+      "击败幽灵列车长（Boss）"
+    ],
+    "stepsEn": [
+      "Go to Bridge Crossings metro station B3 entrance",
+      "Enter the anomaly space",
+      "Clear 3 waves of anomaly monsters",
+      "Rescue trapped passengers",
+      "Defeat the Phantom Conductor (Boss)"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "战斗", "Boss"]
+  },
+  {
+    "id": "anomaly-mirror-maze",
+    "name": "异象委托：镜中迷宫",
+    "nameEn": "Anomaly Commission: Mirror Maze",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "puzzle",
+    "categoryZh": "解谜",
+    "categoryEn": "Puzzle",
+    "region": "illusion-town",
+    "regionZh": "幻镇",
+    "regionEn": "Illusion Town",
+    "difficulty": 3,
+    "description": "幻镇的废弃游乐园中出现了镜中迷宫异象，进入者会被困在无限循环的镜面空间中。",
+    "descriptionEn": "A mirror maze anomaly has appeared in Illusion Town's abandoned amusement park. Entrants are trapped in an infinite loop of mirror spaces.",
+    "rewards": [
+      "环石×30",
+      "高级养成材料×2",
+      "甲硬币×5000"
+    ],
+    "rewardsEn": [
+      "Ring Stones x30",
+      "Advanced Upgrade Materials x2",
+      "Beetle Coins x5,000"
+    ],
+    "steps": [
+      "前往幻镇废弃游乐园入口",
+      "找到进入镜中迷宫的方法",
+      "解开3个镜面谜题",
+      "击败异象核心",
+      "收集异象残留物"
+    ],
+    "stepsEn": [
+      "Go to the abandoned amusement park entrance in Illusion Town",
+      "Find the way into the Mirror Maze",
+      "Solve 3 mirror puzzles",
+      "Defeat the anomaly core",
+      "Collect anomaly residue"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "解谜", "幻镇"]
+  },
+  {
+    "id": "anomaly-time-loop-cafe",
+    "name": "异象委托：时间循环咖啡厅",
+    "nameEn": "Anomaly Commission: Time Loop Cafe",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "puzzle",
+    "categoryZh": "解谜",
+    "categoryEn": "Puzzle",
+    "region": "new-herland",
+    "regionZh": "新赫兰德",
+    "regionEn": "New Herland",
+    "difficulty": 2,
+    "description": "新赫兰德一家咖啡厅陷入了时间循环异象，店内的顾客和员工不断重复同一天。找到打破循环的方法。",
+    "descriptionEn": "A cafe in New Herland is trapped in a time loop anomaly. Customers and staff repeat the same day endlessly. Find a way to break the loop.",
+    "rewards": [
+      "环石×20",
+      "养成材料×4",
+      "咖啡厅装饰品"
+    ],
+    "rewardsEn": [
+      "Ring Stones x20",
+      "Upgrade Materials x4",
+      "Cafe decoration item"
+    ],
+    "steps": [
+      "在新赫兰德商业街找到异常咖啡厅",
+      "与咖啡厅内的NPC对话收集线索",
+      "观察时间循环的触发条件",
+      "找到异象源头并消除"
+    ],
+    "stepsEn": [
+      "Find the anomaly cafe on New Herland commercial street",
+      "Talk to NPCs inside to gather clues",
+      "Observe the time loop trigger conditions",
+      "Find and eliminate the anomaly source"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "解谜", "时间循环"]
+  },
+  {
+    "id": "anomaly-singing-sewer",
+    "name": "异象委托：歌唱的下水道",
+    "nameEn": "Anomaly Commission: Singing Sewer",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "combat",
+    "categoryZh": "战斗",
+    "categoryEn": "Combat",
+    "region": "bridge-crossings",
+    "regionZh": "桥间地",
+    "regionEn": "Bridge Crossings",
+    "difficulty": 1,
+    "description": "桥间地地下传来诡异的歌声，居民报告有不明生物出没于下水道中。前往调查。",
+    "descriptionEn": "Eerie singing emanates from beneath Bridge Crossings. Residents report unknown creatures in the sewers. Investigate.",
+    "rewards": [
+      "环石×10",
+      "养成材料×2",
+      "甲硬币×2000"
+    ],
+    "rewardsEn": [
+      "Ring Stones x10",
+      "Upgrade Materials x2",
+      "Beetle Coins x2,000"
+    ],
+    "steps": [
+      "从桥间地地下水道入口进入",
+      "沿着歌声前进",
+      "击败异象生物",
+      "关闭异象通道"
+    ],
+    "stepsEn": [
+      "Enter through Bridge Crossings underground sewer entrance",
+      "Follow the singing",
+      "Defeat the anomaly creatures",
+      "Close the anomaly passage"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "战斗", "入门"]
+  },
+  {
+    "id": "anomaly-vanishing-paintings",
+    "name": "异象委托：消失的画作",
+    "nameEn": "Anomaly Commission: Vanishing Paintings",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "puzzle",
+    "categoryZh": "解谜",
+    "categoryEn": "Puzzle",
+    "region": "new-herland",
+    "regionZh": "新赫兰德",
+    "regionEn": "New Herland",
+    "difficulty": 2,
+    "description": "新赫兰德美术馆的画作接连消失，被某种异象吞噬。进入画中世界找回失窃的艺术品。",
+    "descriptionEn": "Paintings are vanishing from New Herland's art gallery, consumed by an anomaly. Enter the painting world to recover the stolen artworks.",
+    "rewards": [
+      "环石×20",
+      "养成材料×3",
+      "限定装饰画"
+    ],
+    "rewardsEn": [
+      "Ring Stones x20",
+      "Upgrade Materials x3",
+      "Limited decoration painting"
+    ],
+    "steps": [
+      "前往新赫兰德美术馆",
+      "调查消失的画作位置",
+      "进入画中异象空间",
+      "收集5幅失窃画作",
+      "击败异象守护者"
+    ],
+    "stepsEn": [
+      "Go to New Herland Art Gallery",
+      "Investigate the vanished painting locations",
+      "Enter the painting anomaly space",
+      "Collect 5 stolen paintings",
+      "Defeat the anomaly guardian"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "解谜", "收集"]
+  },
+  {
+    "id": "anomaly-rain-that-never-stops",
+    "name": "异象委托：不会停的雨",
+    "nameEn": "Anomaly Commission: The Rain That Never Stops",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "combat",
+    "categoryZh": "战斗",
+    "categoryEn": "Combat",
+    "region": "unheard-shores",
+    "regionZh": "未闻浦",
+    "regionEn": "Unheard Shores",
+    "difficulty": 3,
+    "description": "未闻浦某区域持续下着不会停的异象之雨，被淋到的物体会逐渐异化。找到雨的源头并制止异象。",
+    "descriptionEn": "An anomaly rain that never stops has engulfed part of Unheard Shores. Objects touched by the rain gradually mutate. Find the source and stop it.",
+    "rewards": [
+      "环石×40",
+      "高级养成材料×3",
+      "异象雨伞装饰"
+    ],
+    "rewardsEn": [
+      "Ring Stones x40",
+      "Advanced Upgrade Materials x3",
+      "Anomaly Umbrella decoration"
+    ],
+    "steps": [
+      "前往未闻浦异常降雨区域",
+      "使用异能护盾穿越异象雨区",
+      "击败被异化的生物群",
+      "找到雨云异象核心",
+      "消灭异象核心"
+    ],
+    "stepsEn": [
+      "Go to the anomalous rainfall area in Unheard Shores",
+      "Use Esper shields to traverse the anomaly rain zone",
+      "Defeat the mutated creature horde",
+      "Find the rain cloud anomaly core",
+      "Eliminate the anomaly core"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "战斗", "高难度"]
+  },
+  {
+    "id": "anomaly-elevator-to-nowhere",
+    "name": "异象委托：无处电梯",
+    "nameEn": "Anomaly Commission: Elevator to Nowhere",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "puzzle",
+    "categoryZh": "解谜",
+    "categoryEn": "Puzzle",
+    "region": "miguel-district",
+    "regionZh": "米格尔区",
+    "regionEn": "Miguel District",
+    "difficulty": 2,
+    "description": "米格尔区一栋公寓的电梯通向不存在的楼层，进入者会迷失在异象空间中。",
+    "descriptionEn": "An elevator in a Miguel District apartment building leads to non-existent floors. Those who enter become lost in anomaly space.",
+    "rewards": [
+      "环石×20",
+      "养成材料×3",
+      "甲硬币×4000"
+    ],
+    "rewardsEn": [
+      "Ring Stones x20",
+      "Upgrade Materials x3",
+      "Beetle Coins x4,000"
+    ],
+    "steps": [
+      "在米格尔区找到异常公寓楼",
+      "乘坐异象电梯进入异空间",
+      "在错乱楼层中找到正确的出口",
+      "关闭电梯异象通道"
+    ],
+    "stepsEn": [
+      "Find the anomaly apartment building in Miguel District",
+      "Take the anomaly elevator into the anomaly space",
+      "Find the correct exit among the distorted floors",
+      "Close the elevator anomaly passage"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "解谜"]
+  },
+  {
+    "id": "anomaly-duplicate-city",
+    "name": "异象委托：复制城市",
+    "nameEn": "Anomaly Commission: Duplicate City",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "combat",
+    "categoryZh": "战斗",
+    "categoryEn": "Combat",
+    "region": "new-herland",
+    "regionZh": "新赫兰德",
+    "regionEn": "New Herland",
+    "difficulty": 4,
+    "description": "新赫兰德出现了城市区域的完美复制体，异象分身正在侵蚀现实世界。必须在两个世界同时作战。",
+    "descriptionEn": "A perfect duplicate of a New Herland district has appeared. Anomaly copies are eroding into reality. Fight on both fronts simultaneously.",
+    "rewards": [
+      "环石×60",
+      "高级养成材料×5",
+      "S级角色试用券"
+    ],
+    "rewardsEn": [
+      "Ring Stones x60",
+      "Advanced Upgrade Materials x5",
+      "S-rank character trial ticket"
+    ],
+    "steps": [
+      "发现新赫兰德的复制区域入口",
+      "同时处理现实世界和复制世界的异象",
+      "击败异象分身Boss",
+      "关闭两个世界的连接通道"
+    ],
+    "stepsEn": [
+      "Find the entrance to the duplicate district",
+      "Handle anomalies in both real and duplicate worlds",
+      "Defeat the anomaly doppelganger boss",
+      "Close the connection between worlds"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "战斗", "高难度", "Boss"]
+  },
+  {
+    "id": "cooking-enthusiast",
+    "name": "美食鉴定师的挑战",
+    "nameEn": "The Gourmet Appraiser's Challenge",
+    "type": "side-quest",
+    "typeZh": "支线任务",
+    "category": "collection",
+    "categoryZh": "收集",
+    "categoryEn": "Collection",
+    "region": "new-herland",
+    "regionZh": "新赫兰德",
+    "regionEn": "New Herland",
+    "difficulty": 2,
+    "description": "一位自称美食鉴定师的NPC委托你收集海特洛市各地的特色食材，制作独一无二的料理。",
+    "descriptionEn": "A self-proclaimed gourmet appraiser tasks you with collecting specialty ingredients from across Hethereau to create unique dishes.",
+    "rewards": [
+      "料理系统解锁",
+      "环石×30",
+      "食谱×3"
+    ],
+    "rewardsEn": [
+      "Cooking system unlock",
+      "Ring Stones x30",
+      "Recipes x3"
+    ],
+    "steps": [
+      "在新赫兰德美食街接取任务",
+      "在5个不同区域收集特色食材",
+      "返回烹饪并提交料理",
+      "解锁料理系统"
+    ],
+    "stepsEn": [
+      "Accept the quest at New Herland food street",
+      "Collect specialty ingredients from 5 different regions",
+      "Return to cook and submit the dish",
+      "Unlock the cooking system"
+    ],
+    "relatedCharacters": [],
+    "tags": ["收集", "料理", "系统解锁"]
+  },
+  {
+    "id": "vehicle-repossession",
+    "name": "载具征用系统的秘密",
+    "nameEn": "Secrets of the Vehicle Requisition System",
+    "type": "side-quest",
+    "typeZh": "支线任务",
+    "category": "story",
+    "categoryZh": "剧情",
+    "categoryEn": "Story",
+    "region": "miguel-district",
+    "regionZh": "米格尔区",
+    "regionEn": "Miguel District",
+    "difficulty": 2,
+    "description": "米格尔区的地下车库里隐藏着载具征用系统的秘密。解锁更多载具类型和征用权限。",
+    "descriptionEn": "The underground garages of Miguel District hold secrets of the vehicle requisition system. Unlock more vehicle types and requisition privileges.",
+    "rewards": [
+      "高级载具解锁",
+      "环石×40",
+      "甲硬币×8000"
+    ],
+    "rewardsEn": [
+      "Advanced vehicles unlock",
+      "Ring Stones x40",
+      "Beetle Coins x8,000"
+    ],
+    "steps": [
+      "在米格尔区找到隐藏车库入口",
+      "完成载具驾驶测试",
+      "击败车库守卫",
+      "解锁高级载具征用权限"
+    ],
+    "stepsEn": [
+      "Find the hidden garage entrance in Miguel District",
+      "Complete the vehicle driving test",
+      "Defeat the garage guard",
+      "Unlock advanced vehicle requisition privileges"
+    ],
+    "relatedCharacters": [],
+    "tags": ["载具", "解锁"]
+  },
+  {
+    "id": "anomaly-rewinding-clock-tower",
+    "name": "异象委托：倒转的钟塔",
+    "nameEn": "Anomaly Commission: Rewinding Clock Tower",
+    "type": "anomaly-commission",
+    "typeZh": "异象委托",
+    "category": "puzzle",
+    "categoryZh": "解谜",
+    "categoryEn": "Puzzle",
+    "region": "illusion-town",
+    "regionZh": "幻镇",
+    "regionEn": "Illusion Town",
+    "difficulty": 3,
+    "description": "幻镇的钟塔出现了时间倒流异象，周围区域的居民记忆正在被侵蚀。必须在时间完全倒转前解决异象。",
+    "descriptionEn": "A time-reversal anomaly has struck Illusion Town's clock tower. Residents' memories are being eroded. Resolve the anomaly before time fully reverses.",
+    "rewards": [
+      "环石×40",
+      "高级养成材料×3",
+      "时钟装饰品"
+    ],
+    "rewardsEn": [
+      "Ring Stones x40",
+      "Advanced Upgrade Materials x3",
+      "Clock decoration item"
+    ],
+    "steps": [
+      "前往幻镇钟塔",
+      "在倒转时间中找到前进的方法",
+      "解开3个时间谜题",
+      "到达钟塔顶层",
+      "击败时间异象核心"
+    ],
+    "stepsEn": [
+      "Go to the Illusion Town clock tower",
+      "Find a way forward in reversed time",
+      "Solve 3 time puzzles",
+      "Reach the top of the clock tower",
+      "Defeat the time anomaly core"
+    ],
+    "relatedCharacters": [],
+    "tags": ["异象委托", "解谜", "时间", "高难度"]
+  }
+]

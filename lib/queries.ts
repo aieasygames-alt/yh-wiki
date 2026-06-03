@@ -12,6 +12,7 @@ import changelogsData from "../data/changelog.json";
 import vehiclesData from "../data/vehicles.json";
 import diskSetsData from "../data/disk-sets.json";
 import anomaliesData from "../data/anomalies.json";
+import questsData from "../data/quests.json";
 import { isZhLocale, Locale } from "./i18n";
 import { validateData, CharactersArraySchema, WeaponsArraySchema, MaterialsArraySchema, CharacterMaterialsArraySchema } from "./schemas";
 
@@ -620,4 +621,54 @@ export function getAnomaly(slug: string): Anomaly | undefined {
 
 export function getAnomaliesByType(type: string): Anomaly[] {
   return getAllAnomalies().filter((a) => a.type === type);
+}
+
+export interface Quest {
+  id: string;
+  name: string;
+  nameEn: string;
+  type: string;
+  typeZh: string;
+  category?: string;
+  categoryZh?: string;
+  categoryEn?: string;
+  region?: string;
+  regionZh?: string;
+  regionEn?: string;
+  difficulty?: number;
+  description?: string;
+  descriptionEn?: string;
+  rewards?: string[];
+  rewardsEn?: string[];
+  steps?: string[];
+  stepsEn?: string[];
+  relatedCharacters?: string[];
+  tags?: string[];
+}
+
+export function getAllQuests(): Quest[] {
+  return questsData as Quest[];
+}
+
+export function getQuest(slug: string): Quest | undefined {
+  return getAllQuests().find((q) => q.id === slug);
+}
+
+export function getQuestsByType(type: string): Quest[] {
+  return getAllQuests().filter((q) => q.type === type);
+}
+
+export function getQuestsByRegion(region: string): Quest[] {
+  return getAllQuests().filter((q) => q.region === region);
+}
+
+export function getQuestTypes(locale: Locale): { slug: string; name: string }[] {
+  const types = [...new Set(getAllQuests().map((q) => q.type))];
+  return types.map((type) => {
+    const sample = getAllQuests().find((q) => q.type === type);
+    return {
+      slug: type,
+      name: isZhLocale(locale) ? (sample?.typeZh || type) : type.replace(/-/g, " "),
+    };
+  });
 }
