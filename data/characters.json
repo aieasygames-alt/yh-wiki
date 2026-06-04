@@ -481,8 +481,8 @@
       "nitsa",
       "jenson"
     ],
-    "tierRank": "A+",
-    "tierReason": "Damage sharing passive + enhanced state post-Ult; absorb + heal mechanic, hybrid DPS/support",
+    "tierRank": "S",
+    "tierReason": "Damage share + reflection + enhanced state post-Ult; excellent boss-breaker with Daffodil synergy; Scorch break team core",
     "tierReasonZh": "伤害分摊被动+终结技后增伤形态，吸收+治疗机制，攻守兼备",
     "skills": {
       "normalAttack": {
@@ -2308,7 +2308,7 @@
       "jenson"
     ],
     "tierRank": "SS",
-    "tierReason": "Best F2P buffer; provides Stain for Lakshana DPS, fits Nova teams, universal ATK buffer",
+    "tierReason": "Best F2P ATK buffer; provides Stain for Lakshana DPS, fits Nova teams; universal support across all content",
     "tierReasonZh": "最强免费增伤辅助，为相属性DPS提供Stain，Nova队核心，通用攻击加成",
     "skills": {
       "normalAttack": {
@@ -2702,8 +2702,8 @@
       "alphard",
       "hathor"
     ],
-    "tierRank": "B",
-    "tierReason": "Punished by mobile boss design; small AoE ultimate centered on self",
+    "tierRank": "C",
+    "tierReason": "Weak DPS output; small self-centered AoE ultimate punishes by boss mobility; limited team synergy",
     "tierReasonZh": "受移动Boss设计惩罚，以自身为中心的小范围终结技",
     "skills": {
       "normalAttack": {
@@ -2860,8 +2860,8 @@
       "hotori",
       "taygedo"
     ],
-    "tierRank": "B",
-    "tierReason": "Pure healing only; stationary heal field interferes with Charge reaction teams",
+    "tierRank": "C",
+    "tierReason": "Pure healer only; stationary heal field interferes with Charge reaction teams; outclassed by Illica",
     "tierReasonZh": "纯治疗角色，固定治疗场影响Charge反应队伍配合",
     "skills": {
       "normalAttack": {
@@ -3024,8 +3024,8 @@
       "jiuyuan",
       "nelly"
     ],
-    "tierRank": "A",
-    "tierReason": "Reliable mid-tier DPS with decent reaction/ult gauge building; outclassed by higher options",
+    "tierRank": "B+",
+    "tierReason": "Reliable mid-tier DPS with decent parry potential and low cooldowns; outclassed by top DPS units",
     "tierReasonZh": "稳定的中档DPS，不错的反应/终结技充能，但被更高梯队DPS超越",
     "skills": {
       "normalAttack": {
@@ -5869,8 +5869,8 @@
       "merula",
       "alphard"
     ],
-    "tierRank": "S",
-    "tierReason": "First limited heal/buffer with dual healing + damage buff; extremely versatile support",
+    "tierRank": "SS",
+    "tierReason": "First limited heal/buffer with dual healing + ATK buff + CC; eliminates trade-off between survival and damage output; core support for v1.2 meta",
     "tierReasonZh": "首个限定治疗增益辅助，治疗+增伤双功能，泛用性极高",
     "skills": {
       "normalAttack": {
@@ -7224,8 +7224,8 @@
       }
     ],
     "relatedCharacters": [],
-    "tierRank": "A",
-    "tierReason": "Highest theoretical A-Rank ceiling with great AoE; struggles against aggressive boss AI",
+    "tierRank": "B+",
+    "tierReason": "High theoretical A-Rank DPS ceiling but struggles against mobile/aggressive boss AI; outclassed by S-rank options",
     "tierReasonZh": "A级理论天花板最高，优秀AoE能力，但对移动Boss AI表现较差",
     "skills": {
       "normalAttack": {
@@ -7345,8 +7345,8 @@
       }
     ],
     "relatedCharacters": [],
-    "tierRank": "A+",
-    "tierReason": "Free S-rank from City Tycoon mode; essential F2P sub-DPS",
+    "tierRank": "S",
+    "tierReason": "Free S-rank from City Tycoon; essential F2P sub-DPS with strong sustained output",
     "tierReasonZh": "城市大亨免费满配S级角色，零氪必练副C",
     "skills": {
       "normalAttack": {
@@ -7758,8 +7758,8 @@
     "relatedCharacters": [
       "lacrimosa"
     ],
-    "tierRank": "A+",
-    "tierReason": "Versatile support DPS with teleport placement and strong Lakshana reactions. Solid for Lakshana teams",
+    "tierRank": "S",
+    "tierReason": "Versatile support DPS with teleport placement and strong Lakshana reactions; S-tier in Mobalytics/GameWith v1.1 rankings",
     "tierReasonZh": "多功能的副C角色，传送放置技能和强力相属性反应，适合相属性配队",
     "skills": {
       "normalAttack": {

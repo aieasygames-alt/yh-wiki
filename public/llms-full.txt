@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-06-03
+> Generated: 2026-06-04
 
 ## Characters (44)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -147,7 +147,7 @@
 - [异环游乐园/向阳岛探索攻略：全收集、宝箱位置与隐藏内容](/en/guides/amusement-park-exploration-guide/) — Exploration (updated 2026-06-04)
 - [异环×保时捷联动完全攻略：限定车辆时装获取与活动奖励](/en/guides/porsche-collab-guide/) — Events (updated 2026-06-04)
 
-## FAQ (270)
+## FAQ (274)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
@@ -418,6 +418,10 @@
 - Will I get banned for using bugs in NTE? What is the official punishment policy?
 - Does pity carry over between banners in NTE? What are the exact rules?
 - Is NTE monetization fair? Is the monthly pass worth buying?
+- Best NTE mobile optimization settings? How to reduce lag and overheating?
+- What can get you banned in NTE? Ban rules and penalties explained
+- Why is the NTE Arc Disc banner controversial? Arc vs Character banner differences
+- Is NTE pay-to-win? Can you play without spending? Monetization analysis
 
 ## Active Redeem Codes (9)
 - YHBILIBILI0423: Bilibili Exclusive Gift Pack

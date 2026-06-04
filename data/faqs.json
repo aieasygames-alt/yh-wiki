@@ -5372,5 +5372,85 @@
     "categoryEn": "Monetization",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "mobile-optimization-guide",
+    "question": "异环手机端优化设置推荐？怎么减少卡顿发热？",
+    "questionEn": "Best NTE mobile optimization settings? How to reduce lag and overheating?",
+    "answer": "异环采用UE5引擎，对手机性能要求较高。以下是各档次设备的推荐设置：\n\n**最低配置（骁龙855/天玑1000+/A14）**：\n- 画质预设：低\n- 分辨率：720p\n- 帧率目标：30FPS\n- 关闭体积光、后处理特效\n- 战斗场景约20-25帧\n\n**推荐配置（骁龙8 Gen2/A15及以上）**：\n- 画质预设：均衡\n- 分辨率：1080p\n- 帧率目标：30-60FPS\n- 开启画面生成功能提升帧率\n\n**通用优化建议**：\n- 关闭后台应用，释放内存\n- 开启手机游戏加速/性能模式\n- 低配设备建议使用散热背夹\n- 确保存储空间充足（建议预留30GB以上）\n- 网络不稳定时使用加速器\n- 过场动画时可能出现黑屏，等待即可\n\n**如果仍然卡顿**：\n- 尝试云游戏方案（低配设备推荐）\n- 关注官方更新，1.0公测后已发布多次优化补丁\n- 官方已在4月28日致歉信中承诺持续优化移动端体验",
+    "answerEn": "NTE uses Unreal Engine 5, requiring significant mobile hardware. Recommended settings by device tier:\n\n**Minimum Spec (Snapdragon 855 / Dimensity 1000+ / A14)**:\n- Preset: Low\n- Resolution: 720p\n- Target: 30FPS\n- Disable volumetric lighting and post-processing\n- Combat runs at ~20-25FPS\n\n**Recommended Spec (Snapdragon 8 Gen2 / A15+)**:\n- Preset: Balanced\n- Resolution: 1080p\n- Target: 30-60FPS\n- Enable frame generation for smoother gameplay\n\n**General Tips**:\n- Close background apps to free memory\n- Enable phone's game boost/performance mode\n- Use a cooling fan clip for low-end devices\n- Keep 30GB+ free storage\n- Use a game booster if network is unstable\n- Cutscene black screens usually resolve by waiting\n\n**Still lagging?**\n- Try cloud gaming (recommended for low-spec devices)\n- Watch for official patches — multiple optimization updates released since launch\n- The devs issued an apology on April 28 and committed to ongoing mobile optimization",
+    "tags": [
+      "移动端",
+      "优化",
+      "卡顿",
+      "发热",
+      "设置",
+      "帧率"
+    ],
+    "category": "troubleshooting",
+    "categoryZh": "技术支持",
+    "categoryEn": "Troubleshooting",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "ban-rules-and-penalties",
+    "question": "异环什么行为会封号？封号规则和处罚力度是怎样的？",
+    "questionEn": "What can get you banned in NTE? Ban rules and penalties explained",
+    "answer": "异环的封号政策非常严格，以下行为会被处罚：\n\n**永久封禁**：\n- 使用外挂、加速器、作弊器\n- 恶意利用BUG复制资源（如礼物系统复制漏洞）\n- 账号交易/共享\n\n**长期封禁**：\n- 传播BUG利用教程（尤其是绑定创作激励活动的）\n- 使用MOD修改游戏文件（已有封禁36000天的案例）\n- 使用宏/脚本自动化操作\n\n**重要事件提醒**：\n- 公测初期礼物系统出现复制BUG，官方一次性封禁600余个账号\n- 有UP主因发布BUG教学视频且绑定创作激励，被通过活动系统锁定，封禁100年\n- 海外玩家因使用MOD被ban 36000天\n\n**关于MOD的风险提示**：\n- 官方明确禁止任何形式的MOD\n- 即使是纯外观MOD也有被封禁的风险\n- 部分玩家使用.pak文件修改后短期内未被封，但不代表安全\n- 建议：不要使用任何MOD，等待官方推出自定义功能\n\n**如何避免封号**：\n- 不要使用任何第三方工具\n- 遇到BUG及时向官方反馈，不要利用\n- 不要分享/出售账号\n- 不要传播BUG利用方法",
+    "answerEn": "NTE enforces a very strict ban policy. The following actions will be penalized:\n\n**Permanent Ban**:\n- Using hacks, speed hacks, or cheat tools\n- Exploiting bugs to duplicate resources (e.g., the gift system duplication exploit)\n- Account trading/sharing\n\n**Long-term Ban**:\n- Distributing bug exploit tutorials (especially tied to creator incentive programs)\n- Using mods to modify game files (documented case of 36,000-day ban)\n- Using macros/scripts for automation\n\n**Notable Incidents**:\n- Gift system duplication bug at launch: 600+ accounts permanently banned\n- A content creator who posted an exploit tutorial linked to the creator incentive program was banned for 100 years via the event system\n- An overseas player received a 36,000-day ban for using mods\n\n**Mod Risk Warning**:\n- All mods are officially prohibited\n- Even cosmetic mods carry ban risk\n- Some players using .pak mods weren't immediately caught — this doesn't mean it's safe\n- Recommendation: Do not use any mods; wait for official customization features\n\n**How to Stay Safe**:\n- Don't use third-party tools\n- Report bugs to official support instead of exploiting them\n- Don't share or sell your account\n- Don't distribute exploit methods",
+    "tags": [
+      "封号",
+      "外挂",
+      "BUG",
+      "MOD",
+      "规则",
+      "处罚"
+    ],
+    "category": "充值与账号",
+    "categoryZh": "充值与账号",
+    "categoryEn": "Account & Billing",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "arc-disc-gacha-controversy",
+    "question": "异环弧盘池概率为什么被吐槽？弧盘池和角色池有什么区别？",
+    "questionEn": "Why is the NTE Arc Disc banner controversial? Arc vs Character banner differences",
+    "answer": "这是异环社区最大的抽卡争议点。角色池「不歪」备受好评，但弧盘池（武器池）的75%歪率引发强烈不满。\n\n**角色池（限时UP池）**：\n- S级基础出率：0.99%\n- 70抽后触发软保底，S级出率提升至19.59%\n- 90抽硬保底必出S级\n- **关键优势：不歪** — 没有50/50，保底必出当期UP角色\n- 保底次数跨池继承\n- 期望约53.5抽出UP角色\n\n**弧盘池（武器池）**：\n- S级弧盘基础出率：3%（含保底4.19%）\n- 限定S级弧盘出率：1.68%\n- 使用「三重钥匙」货币，只允许十连抽\n- **核心争议**：第6次十连（60抽）出S级弧盘时，仅25%概率为当期UP，75%为常驻S级弧盘\n- 第8次十连（80抽）才保底出限定UP弧盘\n- 最坏情况需要140抽才能获得UP弧盘\n- 没有软保底机制\n\n**社区核心矛盾**：角色池以「不歪」为核心卖点，但弧盘池的75%歪率形成鲜明对比。许多玩家认为这是「把角色池的良心从武器池找回来」。\n\n**抽卡建议**：\n- 优先抽角色池，角色对体验提升更大\n- 弧盘池量力而行，不必强求限定\n- 充分利用武器不再绑定抽卡的设计——可通过世界BOSS、周本等免费获取",
+    "answerEn": "This is the biggest gacha controversy in the NTE community. The character banner's \"no off-rate\" system is widely praised, but the Arc Disc (weapon) banner's 75% off-rate has drawn heavy criticism.\n\n**Character Banner (Limited)**:\n- Base S-rank rate: 0.99%\n- Soft pity at 70 pulls: S-rank rate jumps to 19.59%\n- Hard pity: guaranteed S-rank at 90 pulls\n- **Key advantage: No 50/50** — pity guarantees the featured character\n- Pity carries over between banners\n- Average ~53.5 pulls for featured character\n\n**Arc Disc Banner (Weapon)**:\n- Base S-rate: 3% (4.19% with pity)\n- Featured S-rank rate: 1.68%\n- Uses Triple Key currency, 10-pull only\n- **Core controversy**: At the 6th 10-pull (60 pulls), only 25% chance for featured, 75% for standard S-rank\n- 8th 10-pull (80 pulls) guarantees featured\n- Worst case: 140 pulls total for featured Arc Disc\n- No soft pity\n\n**Community Debate**: The character banner's \"no off-rate\" is a core selling point, making the Arc banner's 75% off-rate feel like payback. Many players feel the generosity of the character banner is offset by the weapon banner.\n\n**Pulling Advice**:\n- Prioritize character banners — characters impact gameplay more\n- Pull Arc banners within your means, don't chase limited discs\n- Take advantage of free weapon acquisition: world bosses, weekly bosses, and events offer Arc Discs",
+    "tags": [
+      "弧盘",
+      "抽卡概率",
+      "保底",
+      "歪率",
+      "武器池",
+      "争议"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡系统",
+    "categoryEn": "Gacha System",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "is-nte-pay-to-win",
+    "question": "异环是氪金游戏吗？不充钱能玩吗？商业化模式分析",
+    "questionEn": "Is NTE pay-to-win? Can you play without spending? Monetization analysis",
+    "answer": "异环的商业化在二次元抽卡游戏中属于中等偏友好的水平，不是pay-to-win。\n\n**对免费玩家友好**：\n- 公测赠送470+抽，足够组建强力阵容\n- 角色池不歪，平均53.5抽出UP角色，远优于同类游戏的50/50机制\n- 武器不再绑定抽卡——可通过世界BOSS、周本、主线等活动免费获取\n- 彻底取消随机词条，装备养成无随机坑\n- 月卡党即可轻松全角色\n\n**氪金点**：\n- 角色抽卡（环石/方斯）\n- 弧盘池（三重钥匙，75%歪率是主要争议点）\n- 外观/时装\n- 月卡和通行证（性价比最高）\n\n**与同类游戏对比**：\n- 比原神更友好：角色池不歪、武器免费获取、无随机词条\n- 比鸣潮更友好：公测福利更丰厚\n- 商业化整体偏克制，甚至有行业分析者担忧「大R想花钱找不到地方」\n\n**总结**：异环不是pay-to-win。免费玩家可以正常体验全部内容，氪金主要加速角色收集和获取外观。推荐策略：月卡+免费福利即可获得优质体验。",
+    "answerEn": "NTE's monetization is moderate and player-friendly for a gacha game — it is NOT pay-to-win.\n\n**F2P-Friendly Features**:\n- 470+ free pulls at launch, enough to build a strong roster\n- Character banner has no 50/50 — averages 53.5 pulls per featured character, far better than similar games\n- Weapons are NOT gacha-locked — obtainable from world bosses, weekly bosses, and events for free\n- Random substats removed entirely — no RNG in equipment upgrading\n- Monthly pass players can easily collect all characters\n\n**Monetization Points**:\n- Character gacha (Ring Stones / Fons)\n- Arc Disc banner (Triple Keys, 75% off-rate is the main controversy)\n- Cosmetics/outfits\n- Monthly pass and battle pass (best value)\n\n**Compared to Similar Games**:\n- More generous than Genshin Impact: no 50/50 on characters, free weapons, no random substats\n- More generous than Wuthering Waves: better launch rewards\n- Overall restrained monetization — industry analysts even worry that \"whales can't find enough to spend on\"\n\n**Bottom Line**: NTE is not pay-to-win. F2P players can enjoy all content; spending mainly accelerates character collection and cosmetics. Recommended: monthly pass + free rewards provide an excellent experience.",
+    "tags": [
+      "氪金",
+      "免费",
+      "pay-to-win",
+      "商业化",
+      "定价",
+      "性价比"
+    ],
+    "category": "general",
+    "categoryZh": "综合",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
