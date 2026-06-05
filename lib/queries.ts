@@ -102,6 +102,12 @@ export interface Character {
   awakenReq?: string;
   rarity?: string;
   title?: string;
+  baseStats?: {
+    baseHp: number;
+    baseAtk: number;
+    baseDef: number;
+    level: number;
+  };
 }
 
 export interface Material {
