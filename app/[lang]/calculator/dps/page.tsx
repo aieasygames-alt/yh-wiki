@@ -105,7 +105,7 @@ export default function DPSCalculatorPage() {
   const char = allChars.find((c) => c.id === selectedChar);
   const weapon = allWeapons.find((w) => w.id === selectedWeapon);
 
-  const baseAtk = 200; // default character base
+  const baseAtk = char?.baseStats?.baseAtk || 200; // use character base ATK from data
   const weaponAtk = weapon?.baseAtk || 0;
 
   // Auto-select signature weapon
@@ -273,7 +273,7 @@ export default function DPSCalculatorPage() {
                       step={0.1}
                       value={s.value}
                       onChange={(e) => s.set(Number(e.target.value))}
-                      className="flex-1 h-1.5 bg-gray-700 rounded-full appearance-none cursor-pointer accent-primary-500"
+                      className="flex-1 h-2.5 bg-gray-700 rounded-full appearance-none cursor-pointer accent-primary-500"
                     />
                     <input
                       type="number"

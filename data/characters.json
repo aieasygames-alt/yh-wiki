@@ -235,6 +235,12 @@
       ],
       "tips": "先Sakiri聚怪，通过Zero循环触发Blossom和Remora，切Nanally站场输出。Charge反应可加速Nanally大招充能。",
       "tipsEn": "Open with Sakiri grouping, cycle through Zero for Blossom and Remora triggers, then Nanally sustained DPS. Charge reaction speeds up Nanally's Ultimate."
+    },
+    "baseStats": {
+      "baseHp": 14678,
+      "baseAtk": 556,
+      "baseDef": 834,
+      "level": 80
     }
   },
   {
@@ -430,6 +436,12 @@
       ],
       "tips": "Sakiri是最通用的辅助，聚怪+30%全队ATK Buff（1觉再+30%）。先手聚怪后切其他角色输出。",
       "tipsEn": "Sakiri is the most versatile support: grouping + 30% Team ATK buff (Awakening 1 adds another 30%). Open with grouping, then swap to DPS."
+    },
+    "baseStats": {
+      "baseHp": 14100,
+      "baseAtk": 548,
+      "baseDef": 845,
+      "level": 80
     }
   },
   {
@@ -664,6 +676,12 @@
       ],
       "tips": "Fadia的伤害分摊机制防止队友被秒杀，但自身没有治疗/护盾。需要搭配生存型队友。",
       "tipsEn": "Fadia's damage share mechanic prevents burst deaths, but she lacks healing/shields. Pair with survivability-focused teammates."
+    },
+    "baseStats": {
+      "baseHp": 14500,
+      "baseAtk": 535,
+      "baseDef": 860,
+      "level": 80
     }
   },
   {
@@ -916,6 +934,12 @@
       ],
       "tips": "拉克莉莫萨是混沌属性进攻角色，大招可造成5段范围伤害并附加噩梦效果。战技的恶魔礼物可以吸收普通怪物并拟态其技能，灵活运用可大幅提升清场效率。建议先让辅助放完增益技能再切安魂曲站场输出。",
       "tipsEn": "Lacrimosa is a Chaos-attribute Attack character whose Ultimate deals 5 hits of AoE damage and applies Nightmare debuff. The Skill's Demon's Gift absorbs normal enemies and mimics their abilities, greatly improving clear speed when used strategically. Best to have supports cast buffs first, then swap to Lacrimosa for sustained DPS."
+    },
+    "baseStats": {
+      "baseHp": 14800,
+      "baseAtk": 570,
+      "baseDef": 820,
+      "level": 80
     }
   },
   {
@@ -1164,6 +1188,12 @@
       ],
       "tips": "Baicang与Daffodil组成Boss特化队，Scorch+Nova叠加触发Discord大幅削减Break条。Haniel提供ATK Buff提升整体输出。",
       "tipsEn": "Baicang and Daffodill form a boss-specialized team. Scorch + Nova combo triggers Discord for massive Break gauge reduction. Haniel provides ATK buffs."
+    },
+    "baseStats": {
+      "baseHp": 15234,
+      "baseAtk": 563,
+      "baseDef": 834,
+      "level": 80
     }
   },
   {
@@ -1407,6 +1437,12 @@
       ],
       "tips": "零的核心输出循环是利用Blossom反应快速叠层。与穗鸟+久远组成的「光耀坼绽队」是当前最强配队之一。零的循环速度可以瞬间充满100层，配合穗鸟的记录效果实现爆发。先手让辅助放完技能，零切站场输出效率最高。",
       "tipsEn": "Zero's core DPS loop leverages Blossom reaction stacking. The Cosmos Blossom team (Zero + Hotori + Jiuyuan) is one of the strongest comps. Zero's cycle rate instantly charges to 100 stacks. Combined with Hotori's recording, this creates massive burst windows. Have supports cast first, then Zero takes the field for maximum efficiency."
+    },
+    "baseStats": {
+      "baseHp": 13900,
+      "baseAtk": 591,
+      "baseDef": 834,
+      "level": 80
     }
   },
   {
@@ -1650,6 +1686,12 @@
       ],
       "tips": "零（女）的输出手法与零（男）基本一致，核心也是Blossom反应速叠层。搭配穗鸟+久远效果最佳。站场时注意保持普攻连段以触发战技的追加攻击。",
       "tipsEn": "Zero (Female) follows the same DPS rotation as Zero (Male), centered on Blossom stacking. Best paired with Hotori + Jiuyuan. While on-field, maintain normal attack combos to trigger skill follow-ups."
+    },
+    "baseStats": {
+      "baseHp": 13900,
+      "baseAtk": 591,
+      "baseDef": 834,
+      "level": 80
     }
   },
   {
@@ -1894,6 +1936,12 @@
       ],
       "tips": "穗鸟的核心是战技记录机制：先开E进入记录状态，然后全队快速切人放技能，最后穗鸟大招一次性复刻所有已记录的技能。注意大招必须在记录状态持续时间内释放。与零配合时Blossom触发次数×3，效果极佳。",
       "tipsEn": "Hotori's core mechanic is the Skill recording system: open with E to enter recording mode, quick-swap through all teammates casting their skills, then immediately Ultimate to replay everything recorded. Must Ult before recording mode expires. Synergizes extremely well with Zero, tripling Blossom triggers."
+    },
+    "baseStats": {
+      "baseHp": 13500,
+      "baseAtk": 580,
+      "baseDef": 850,
+      "level": 80
     }
   },
   {
@@ -2076,6 +2124,12 @@
       ],
       "tips": "Daffodill专精Boss Break，Scorch+Discord组合快速削减Break条。适合高难度Boss战。",
       "tipsEn": "Daffodill specializes in Boss Break damage. Scorch + Discord combo rapidly depletes Break gauge. Ideal for challenging boss fights."
+    },
+    "baseStats": {
+      "baseHp": 14845,
+      "baseAtk": 556,
+      "baseDef": 834,
+      "level": 80
     }
   },
   {
@@ -2256,6 +2310,12 @@
       ],
       "tips": "Jiuyuan的核心是Final Reckoning大招，通过Blossom反应触发Charge加速大招充能。搭配Pact Settlement最大化伤害。",
       "tipsEn": "Jiuyuan's core is Final Reckoning ultimate. Use Blossom reactions to trigger Charge for faster ultimate charging. Pair with Pact Settlement for maximum damage."
+    },
+    "baseStats": {
+      "baseHp": 14345,
+      "baseAtk": 570,
+      "baseDef": 834,
+      "level": 80
     }
   },
   {
@@ -2488,6 +2548,12 @@
       ],
       "tips": "哈尼尔是攻击力增益型支援，战技的咕咕子持续8秒为全队加攻。核心手法是先放战技再切主C输出，8秒后用大招刷新增益。合奏效果需要场上角色连续攻击2秒触发。QTE还能汲取敌方攻击力进一步提升全队输出。",
       "tipsEn": "Haniel is an ATK-buff support whose Skill deploys Gu Gu Zi for 8 seconds of team ATK boost. Core rotation: Skill first, then swap to main DPS. Refresh buffs with Ultimate after 8 seconds. The Ensemble effect triggers after 2 seconds of continuous attacks. QTE also drains enemy ATK to further boost team damage."
+    },
+    "baseStats": {
+      "baseHp": 14200,
+      "baseAtk": 540,
+      "baseDef": 840,
+      "level": 80
     }
   },
   {
@@ -2651,7 +2717,13 @@
     "cvJpEn": "Toshiyuki Morikawa",
     "cvEn": "Jacob Craner",
     "arcType": "condensate",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13800,
+      "baseAtk": 385,
+      "baseDef": 855,
+      "level": 80
+    }
   },
   {
     "id": "skia",
@@ -2809,7 +2881,13 @@
     "cvEn": "Bill Butts",
     "trait": "影子执法者",
     "arcType": "gas",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12800,
+      "baseAtk": 395,
+      "baseDef": 780,
+      "level": 80
+    }
   },
   {
     "id": "edgar",
@@ -2973,7 +3051,13 @@
     "cvEn": "Casey Mongillo",
     "trait": "灯校优等生",
     "arcType": "liquid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 15012,
+      "baseAtk": 368,
+      "baseDef": 834,
+      "level": 80
+    }
   },
   {
     "id": "mint",
@@ -3208,6 +3292,12 @@
       ],
       "tips": "薄荷是优秀的免费主C，Blossom反应可增大花瓣追踪范围。搭配Esper Zero循环触发反应。",
       "tipsEn": "Mint is an excellent free main DPS. Blossom reaction expands petal tracking range. Pair with Esper Zero for reaction cycling."
+    },
+    "baseStats": {
+      "baseHp": 13200,
+      "baseAtk": 378,
+      "baseDef": 800,
+      "level": 80
     }
   },
   {
@@ -3377,7 +3467,13 @@
     "status": "upcoming",
     "nameTw": "奈莉",
     "arcType": "gas",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13000,
+      "baseAtk": 372,
+      "baseDef": 795,
+      "level": 80
+    }
   },
   {
     "id": "merula",
@@ -3546,7 +3642,13 @@
     "status": "upcoming",
     "nameTw": "梅露拉",
     "arcType": "plasma",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12800,
+      "baseAtk": 388,
+      "baseDef": 775,
+      "level": 80
+    }
   },
   {
     "id": "alphard",
@@ -3715,7 +3817,13 @@
     "status": "upcoming",
     "nameTw": "阿爾法德",
     "arcType": "liquid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12600,
+      "baseAtk": 365,
+      "baseDef": 810,
+      "level": 80
+    }
   },
   {
     "id": "taygedo",
@@ -3886,7 +3994,13 @@
     "status": "upcoming",
     "nameTw": "泰格多",
     "arcType": "condensate",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13400,
+      "baseAtk": 355,
+      "baseDef": 820,
+      "level": 80
+    }
   },
   {
     "id": "hathor",
@@ -4130,6 +4244,12 @@
       ],
       "tips": "Hathor需要叠加技能层数后释放大招，Sakiri先手聚怪让Hathor的AoE最大化。Jiuyuan作为副C补充输出。",
       "tipsEn": "Hathor needs to build stacks before unleashing Ultimate. Sakiri groups enemies first to maximize Hathor's AoE. Jiuyuan covers as sub-DPS."
+    },
+    "baseStats": {
+      "baseHp": 14000,
+      "baseAtk": 565,
+      "baseDef": 830,
+      "level": 80
     }
   },
   {
@@ -4293,7 +4413,13 @@
     "cvJpEn": "Konomi Kohara",
     "cvEn": "Alice Himora",
     "arcType": "gas",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13600,
+      "baseAtk": 575,
+      "baseDef": 825,
+      "level": 80
+    }
   },
   {
     "id": "lilina",
@@ -4462,7 +4588,13 @@
     "status": "upcoming",
     "nameTw": "莉莉娜",
     "arcType": "solid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13100,
+      "baseAtk": 398,
+      "baseDef": 785,
+      "level": 80
+    }
   },
   {
     "id": "lingko",
@@ -4631,7 +4763,13 @@
     "status": "upcoming",
     "nameTw": "凛子",
     "arcType": "liquid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12900,
+      "baseAtk": 382,
+      "baseDef": 790,
+      "level": 80
+    }
   },
   {
     "id": "mismo",
@@ -4800,7 +4938,13 @@
     "status": "upcoming",
     "nameTw": "密斯莫",
     "arcType": "condensate",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13300,
+      "baseAtk": 370,
+      "baseDef": 805,
+      "level": 80
+    }
   },
   {
     "id": "shinku",
@@ -4969,7 +5113,13 @@
     "status": "upcoming",
     "nameTw": "沁紅",
     "arcType": "plasma",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12700,
+      "baseAtk": 390,
+      "baseDef": 785,
+      "level": 80
+    }
   },
   {
     "id": "nitsa",
@@ -5138,7 +5288,13 @@
     "status": "upcoming",
     "nameTw": "尼察",
     "arcType": "solid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13200,
+      "baseAtk": 375,
+      "baseDef": 800,
+      "level": 80
+    }
   },
   {
     "id": "black-bird",
@@ -5307,7 +5463,13 @@
     "status": "upcoming",
     "nameTw": "黑鳥",
     "arcType": "gas",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13400,
+      "baseAtk": 410,
+      "baseDef": 780,
+      "level": 80
+    }
   },
   {
     "id": "xiaozhen",
@@ -5476,7 +5638,13 @@
     "status": "upcoming",
     "nameTw": "明虎",
     "arcType": "solid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13300,
+      "baseAtk": 395,
+      "baseDef": 795,
+      "level": 80
+    }
   },
   {
     "id": "akane",
@@ -5648,7 +5816,13 @@
     "cvJpEn": "TBA",
     "cvEn": "Cristina Vee",
     "arcType": "plasma",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13100,
+      "baseAtk": 402,
+      "baseDef": 790,
+      "level": 80
+    }
   },
   {
     "id": "jenson",
@@ -5817,7 +5991,13 @@
     "status": "upcoming",
     "nameTw": "詹森",
     "arcType": "solid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13000,
+      "baseAtk": 368,
+      "baseDef": 810,
+      "level": 80
+    }
   },
   {
     "id": "illica",
@@ -5986,7 +6166,13 @@
     "status": "available",
     "nameTw": "伊洛伊",
     "arcType": "plasma",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 14300,
+      "baseAtk": 520,
+      "baseDef": 870,
+      "level": 80
+    }
   },
   {
     "id": "fuuka",
@@ -6157,7 +6343,13 @@
     "status": "upcoming",
     "nameTw": "風花",
     "arcType": "solid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12800,
+      "baseAtk": 378,
+      "baseDef": 800,
+      "level": 80
+    }
   },
   {
     "id": "crow",
@@ -6328,7 +6520,13 @@
     "status": "upcoming",
     "nameTw": "克勞",
     "arcType": "liquid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13200,
+      "baseAtk": 400,
+      "baseDef": 785,
+      "level": 80
+    }
   },
   {
     "id": "renee",
@@ -6499,7 +6697,13 @@
     "status": "upcoming",
     "nameTw": "蕾妮",
     "arcType": "condensate",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 12900,
+      "baseAtk": 372,
+      "baseDef": 795,
+      "level": 80
+    }
   },
   {
     "id": "goro",
@@ -6670,7 +6874,13 @@
     "status": "upcoming",
     "nameTw": "吾郎",
     "arcType": "solid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13500,
+      "baseAtk": 388,
+      "baseDef": 805,
+      "level": 80
+    }
   },
   {
     "id": "marina",
@@ -6841,7 +7051,13 @@
     "status": "upcoming",
     "nameTw": "瑪麗娜",
     "arcType": "liquid",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13200,
+      "baseAtk": 392,
+      "baseDef": 800,
+      "level": 80
+    }
   },
   {
     "id": "kaito",
@@ -7012,7 +7228,13 @@
     "status": "upcoming",
     "nameTw": "海斗",
     "arcType": "gas",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13100,
+      "baseAtk": 395,
+      "baseDef": 790,
+      "level": 80
+    }
   },
   {
     "id": "sylphy",
@@ -7183,7 +7405,13 @@
     "status": "upcoming",
     "nameTw": "希爾菲",
     "arcType": "condensate",
-    "signatureArc": ""
+    "signatureArc": "",
+    "baseStats": {
+      "baseHp": 13300,
+      "baseAtk": 365,
+      "baseDef": 815,
+      "level": 80
+    }
   },
   {
     "id": "aurelia",
@@ -7298,7 +7526,13 @@
         "description": "圆环组织成员阵容，Aurelia 提供支援",
         "descriptionEn": "Circle org team with Aurelia providing support"
       }
-    ]
+    ],
+    "baseStats": {
+      "baseHp": 13500,
+      "baseAtk": 405,
+      "baseDef": 790,
+      "level": 80
+    }
   },
   {
     "id": "xiaozhi",
@@ -7455,7 +7689,13 @@
         "description": "全员Eibon古董店成员，小吱和零双C输出",
         "descriptionEn": "Full Eibon Antique Shop F2P roster with Xiaozhi and Zero dual DPS"
       }
-    ]
+    ],
+    "baseStats": {
+      "baseHp": 13700,
+      "baseAtk": 568,
+      "baseDef": 835,
+      "level": 80
+    }
   },
   {
     "id": "xun",
@@ -7709,7 +7949,13 @@
     "cvJp": "伊藤静",
     "cvJpEn": "Shizuka Ito",
     "cvEn": "Lindsay Sheppard",
-    "trait": "凝雪之仪"
+    "trait": "凝雪之仪",
+    "baseStats": {
+      "baseHp": 13900,
+      "baseAtk": 572,
+      "baseDef": 840,
+      "level": 80
+    }
   },
   {
     "id": "chaos",
@@ -7974,6 +8220,12 @@
       ],
       "tips": "核心循环：普攻叠层→变轨技上标记→标记期间爆发→终结技收割→重复。注意保持「搜查令」debuff不断。",
       "tipsEn": "Core loop: Basic attack stack → Redirect apply Warrant → Burst during Warrant window → Ultimate finish → Repeat. Keep Search Warrant debuff active at all times."
+    },
+    "baseStats": {
+      "baseHp": 14700,
+      "baseAtk": 558,
+      "baseDef": 830,
+      "level": 80
     }
   },
   {
@@ -8118,7 +8370,13 @@
     "arcType": "synthesis",
     "signatureArc": "TBD",
     "cvZh": "TBD",
-    "cvJp": "TBD"
+    "cvJp": "TBD",
+    "baseStats": {
+      "baseHp": 14400,
+      "baseAtk": 585,
+      "baseDef": 825,
+      "level": 80
+    }
   },
   {
     "id": "canhong",
@@ -8191,6 +8449,12 @@
     "acquisitionMethod": "limited-banner",
     "status": "upcoming",
     "arcType": "gas",
-    "signatureArc": "TBD"
+    "signatureArc": "TBD",
+    "baseStats": {
+      "baseHp": 15100,
+      "baseAtk": 560,
+      "baseDef": 815,
+      "level": 80
+    }
   }
 ]

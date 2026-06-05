@@ -422,10 +422,10 @@ function TeamBuilderInner({ lang }: { lang: string }) {
                   <button
                     key={rank}
                     onClick={() => setFilterRank(rank)}
-                    className={`text-xs px-3 py-1.5 rounded-lg transition-colors ${
+                    className={`text-xs px-3 py-2 rounded-lg transition-colors min-h-[36px] ${
                       filterRank === rank
                         ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
-                        : "bg-gray-800 text-gray-400 hover:text-gray-300"
+                        : "bg-gray-800 text-gray-400 hover:text-gray-300 active:bg-gray-700"
                     }`}
                   >
                     {rank === "all"
@@ -442,10 +442,10 @@ function TeamBuilderInner({ lang }: { lang: string }) {
                     <button
                       key={attr}
                       onClick={() => setFilterAttr(attr)}
-                      className={`text-xs px-2 py-1.5 rounded-lg transition-colors ${
+                      className={`text-xs px-2 py-2 rounded-lg transition-colors min-h-[36px] ${
                         filterAttr === attr
                           ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
-                          : "bg-gray-800 text-gray-400 hover:text-gray-300"
+                          : "bg-gray-800 text-gray-400 hover:text-gray-300 active:bg-gray-700"
                       }`}
                     >
                       {attr === "all"
