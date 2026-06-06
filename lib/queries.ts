@@ -108,6 +108,11 @@ export interface Character {
     baseDef: number;
     level: number;
   };
+  tierByScene?: {
+    abyss: string;
+    anomaly: string;
+    general: string;
+  };
 }
 
 export interface Material {
