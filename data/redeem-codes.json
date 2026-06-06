@@ -3,7 +3,7 @@
     "code": "YHBILIBILI0423",
     "reward": "平台专属礼包",
     "rewardEn": "Bilibili Exclusive Gift Pack",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "TBA",
     "source": "platform",
     "region": "cn",
@@ -13,7 +13,7 @@
     "code": "YHTAPTAP0423",
     "reward": "平台专属礼包",
     "rewardEn": "TapTap Exclusive Gift Pack",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "TBA",
     "source": "platform",
     "region": "cn",
@@ -23,7 +23,7 @@
     "code": "YHDOUYIN0423",
     "reward": "平台专属礼包",
     "rewardEn": "Douyin Exclusive Gift Pack",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "TBA",
     "source": "platform",
     "region": "cn",
@@ -33,7 +33,7 @@
     "code": "RHWMKHRWQ",
     "reward": "纸间剧票x10、橙色回忆任选礼盒x1、时之间隙x1、酒桶帝王蟹x1",
     "rewardEn": "Paper Ticket x10, Orange Memory Selection Box x1, Time Gap x1, Barrel King Crab x1",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
@@ -47,7 +47,8 @@
     "expiresAt": "2026-06-03",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-05-23"
+    "revealedAt": "2026-05-23",
+    "expires": "2026-05-25"
   },
   {
     "code": "NTE429vtuber",
@@ -57,7 +58,8 @@
     "expiresAt": "2026-05-31",
     "source": "official",
     "region": "global",
-    "revealedAt": "2026-04-29"
+    "revealedAt": "2026-04-29",
+    "expires": "2026-05-31"
   },
   {
     "code": "NTEFREE",
@@ -73,11 +75,12 @@
     "code": "NTEvtuber200",
     "reward": "芬斯x10000、甲硬币x10000",
     "rewardEn": "Fons x10,000, Beetle Coin x10,000",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
-    "revealedAt": "2026-05-01"
+    "revealedAt": "2026-05-01",
+    "expires": "2026-05-31"
   },
   {
     "code": "NTEWINFONS",
@@ -117,7 +120,8 @@
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-05-23"
+    "revealedAt": "2026-05-23",
+    "expires": "2026-05-25"
   },
   {
     "code": "TOMATO100",
@@ -127,7 +131,8 @@
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-05-23"
+    "revealedAt": "2026-05-23",
+    "expires": "2026-05-25"
   },
   {
     "code": "RACENOLIMIT",
@@ -137,7 +142,8 @@
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-05-23"
+    "revealedAt": "2026-05-23",
+    "expires": "2026-05-25"
   },
   {
     "code": "YHNOWTOENJOY",
@@ -147,7 +153,8 @@
     "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-04-18"
+    "revealedAt": "2026-04-18",
+    "expires": "2026-05-07"
   },
   {
     "code": "YHNANALLYGO",
@@ -157,7 +164,8 @@
     "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-04-18"
+    "revealedAt": "2026-04-18",
+    "expires": "2026-05-07"
   },
   {
     "code": "YHOB0423",
@@ -167,7 +175,8 @@
     "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-04-18"
+    "revealedAt": "2026-04-18",
+    "expires": "2026-05-07"
   },
   {
     "code": "NTENOWTOENJOY",
@@ -177,7 +186,8 @@
     "expiresAt": "2026-05-13",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-04-18"
+    "revealedAt": "2026-04-18",
+    "expires": "2026-05-13"
   },
   {
     "code": "NTENANALLYGO",
@@ -187,7 +197,8 @@
     "expiresAt": "2026-05-13",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-04-18"
+    "revealedAt": "2026-04-18",
+    "expires": "2026-05-13"
   },
   {
     "code": "NTE0429",
@@ -197,13 +208,14 @@
     "expiresAt": "2026-05-13",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-04-18"
+    "revealedAt": "2026-04-18",
+    "expires": "2026-05-13"
   },
   {
     "code": "NTEGIFT",
     "reward": "公测福利奖励",
     "rewardEn": "Launch Bonus Rewards",
-    "status": "expired",
+    "status": "active",
     "expiresAt": "2026-05-13",
     "source": "launch",
     "region": "global",
@@ -217,7 +229,8 @@
     "expiresAt": "2026-05-06",
     "source": "launch",
     "region": "global",
-    "revealedAt": "2026-04-29"
+    "revealedAt": "2026-04-29",
+    "expires": "2026-05-06"
   },
   {
     "code": "504980102FKGOVNS",
@@ -227,6 +240,15 @@
     "expiresAt": "2026-05-06",
     "source": "official",
     "region": "global",
-    "revealedAt": "2026-05-01"
+    "revealedAt": "2026-05-01",
+    "expires": "2026-05-13"
+  },
+  {
+    "code": "LACRIMOSA0603",
+    "status": "active",
+    "reward": "Annulith x30, Fons x20,000",
+    "rewardEn": "Annulith x30, Fons x20,000",
+    "region": "global",
+    "revealedAt": "2026-06-03"
   }
 ]

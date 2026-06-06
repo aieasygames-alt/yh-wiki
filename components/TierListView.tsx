@@ -43,6 +43,7 @@ export function TierListView({
   const isZh = isZhLocale(locale);
   const [filterAttr, setFilterAttr] = useState<string>("all");
   const [filterRole, setFilterRole] = useState<string>("all");
+  const [filterScene, setFilterScene] = useState<string>("overall");
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
@@ -63,12 +64,17 @@ export function TierListView({
     for (const tier of TIERS) groups.set(tier.key, []);
     groups.set("N", []);
     for (const c of filtered) {
-      const rank = c.tierRank || "N";
+      let rank: string;
+      if (filterScene === "overall" || !c.tierByScene) {
+        rank = c.tierRank || "N";
+      } else {
+        rank = (c.tierByScene as Record<string, string>)[filterScene] || c.tierRank || "N";
+      }
       if (!groups.has(rank)) groups.set(rank, []);
       groups.get(rank)!.push(c);
     }
     return groups;
-  }, [filtered]);
+  }, [filtered, filterScene]);
 
   const roleFilters = [
     { key: "all", label: t(locale, "common.all") },
@@ -77,11 +83,35 @@ export function TierListView({
     { key: "defense", label: isZh ? "防护" : "Defense" },
   ];
 
+  const sceneFilters = [
+    { key: "overall", label: isZh ? "综合" : "Overall" },
+    { key: "abyss", label: isZh ? "深渊" : "Abyss" },
+    { key: "anomaly", label: isZh ? "异象" : "Anomaly" },
+    { key: "general", label: isZh ? "大世界" : "Open World" },
+  ];
+
   const attrs = ["all", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana"];
 
   return (
     <>
       {/* Filters */}
+      <div className="flex items-center gap-2 mb-4 flex-wrap">
+        {/* Scene filter */}
+        <span className="text-xs text-gray-500 mr-1">{isZh ? "场景:" : "Scene:"}</span>
+        {sceneFilters.map((s) => (
+          <button
+            key={s.key}
+            onClick={() => setFilterScene(s.key)}
+            className={`text-xs px-3 py-2 rounded-lg transition-colors min-h-[32px] ${
+              filterScene === s.key
+                ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
+                : "bg-gray-800 text-gray-400 hover:text-gray-300 active:bg-gray-700"
+            }`}
+          >
+            {s.label}
+          </button>
+        ))}
+      </div>
       <div className="flex items-center gap-2 mb-6 flex-wrap">
         {roleFilters.map((r) => (
           <button

@@ -241,6 +241,11 @@
       "baseAtk": 556,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "SS"
     }
   },
   {
@@ -442,6 +447,11 @@
       "baseAtk": 548,
       "baseDef": 845,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "S+"
     }
   },
   {
@@ -682,6 +692,11 @@
       "baseAtk": 535,
       "baseDef": 860,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "SS",
+      "general": "A+"
     }
   },
   {
@@ -940,6 +955,11 @@
       "baseAtk": 570,
       "baseDef": 820,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "S+"
     }
   },
   {
@@ -1194,6 +1214,11 @@
       "baseAtk": 563,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "S+",
+      "general": "A+"
     }
   },
   {
@@ -1443,6 +1468,11 @@
       "baseAtk": 591,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "SS"
     }
   },
   {
@@ -1692,6 +1722,11 @@
       "baseAtk": 591,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "SS"
     }
   },
   {
@@ -1942,6 +1977,11 @@
       "baseAtk": 580,
       "baseDef": 850,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "S+"
     }
   },
   {
@@ -2130,6 +2170,11 @@
       "baseAtk": 556,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "SS",
+      "general": "A+"
     }
   },
   {
@@ -2316,6 +2361,11 @@
       "baseAtk": 570,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "S+",
+      "general": "SS"
     }
   },
   {
@@ -2554,6 +2604,11 @@
       "baseAtk": 540,
       "baseDef": 840,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "SS"
     }
   },
   {
@@ -2723,6 +2778,11 @@
       "baseAtk": 385,
       "baseDef": 855,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "A+",
+      "general": "A+"
     }
   },
   {
@@ -2887,6 +2947,11 @@
       "baseAtk": 395,
       "baseDef": 780,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "B",
+      "anomaly": "B",
+      "general": "B"
     }
   },
   {
@@ -3057,6 +3122,11 @@
       "baseAtk": 368,
       "baseDef": 834,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A",
+      "anomaly": "B",
+      "general": "A"
     }
   },
   {
@@ -3298,6 +3368,11 @@
       "baseAtk": 378,
       "baseDef": 800,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A+",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -4250,6 +4325,11 @@
       "baseAtk": 565,
       "baseDef": 830,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "A+",
+      "general": "S+"
     }
   },
   {
@@ -4419,6 +4499,11 @@
       "baseAtk": 575,
       "baseDef": 825,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "S+",
+      "general": "S+"
     }
   },
   {
@@ -4594,6 +4679,11 @@
       "baseAtk": 398,
       "baseDef": 785,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A+",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -5469,6 +5559,11 @@
       "baseAtk": 410,
       "baseDef": 780,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A+",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -5644,6 +5739,11 @@
       "baseAtk": 395,
       "baseDef": 795,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A+",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -5822,6 +5922,11 @@
       "baseAtk": 402,
       "baseDef": 790,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -6172,6 +6277,11 @@
       "baseAtk": 520,
       "baseDef": 870,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "SS"
     }
   },
   {
@@ -7057,6 +7167,11 @@
       "baseAtk": 392,
       "baseDef": 800,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -7411,6 +7526,11 @@
       "baseAtk": 365,
       "baseDef": 815,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A",
+      "anomaly": "A",
+      "general": "A+"
     }
   },
   {
@@ -7532,6 +7652,11 @@
       "baseAtk": 405,
       "baseDef": 790,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "A",
+      "anomaly": "B",
+      "general": "A+"
     }
   },
   {
@@ -7695,6 +7820,11 @@
       "baseAtk": 568,
       "baseDef": 835,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "A+",
+      "general": "SS"
     }
   },
   {
@@ -7955,6 +8085,11 @@
       "baseAtk": 572,
       "baseDef": 840,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "S+",
+      "general": "S+"
     }
   },
   {
@@ -8226,6 +8361,11 @@
       "baseAtk": 558,
       "baseDef": 830,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "S+",
+      "anomaly": "S+",
+      "general": "A+"
     }
   },
   {
@@ -8376,6 +8516,11 @@
       "baseAtk": 585,
       "baseDef": 825,
       "level": 80
+    },
+    "tierByScene": {
+      "abyss": "SS",
+      "anomaly": "SS",
+      "general": "S+"
     }
   },
   {

@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-06-05
+> Generated: 2026-06-06
 
 ## Characters (44)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -423,13 +423,10 @@
 - Why is the NTE Arc Disc banner controversial? Arc vs Character banner differences
 - Is NTE pay-to-win? Can you play without spending? Monetization analysis
 
-## Active Redeem Codes (9)
-- YHBILIBILI0423: Bilibili Exclusive Gift Pack
-- YHTAPTAP0423: TapTap Exclusive Gift Pack
-- YHDOUYIN0423: Douyin Exclusive Gift Pack
-- RHWMKHRWQ: Paper Ticket x10, Orange Memory Selection Box x1, Time Gap x1, Barrel King Crab x1
+## Active Redeem Codes (6)
 - NTEFREE: Fons x30,000
-- NTEvtuber200: Fons x10,000, Beetle Coin x10,000
 - NTEWINFONS: Fons x20,000
 - NTEFUNGAME: Fons x10,000
 - NTENENE: Fons x10,000, DynamiK Zero x10, Clicky Fries x10
+- NTEGIFT: Launch Bonus Rewards
+- LACRIMOSA0603: Annulith x30, Fons x20,000
