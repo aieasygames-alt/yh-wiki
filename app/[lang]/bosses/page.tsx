@@ -81,12 +81,34 @@ export default async function BossGuidePage({
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
-        <div className="mb-2">
-          <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
-            {isZh ? guide.categoryZh : guide.categoryEn}
-          </span>
+        {/* Hero */}
+        <div className="relative mb-8 rounded-2xl border border-red-500/20 bg-gradient-to-br from-red-900/20 via-gray-900/30 to-orange-900/10 p-8 overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-red-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
+          <div className="relative">
+            <div className="mb-3">
+              <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
+                {isZh ? guide.categoryZh : guide.categoryEn}
+              </span>
+            </div>
+            <h1 className="text-2xl md:text-3xl font-bold mb-3">{title}</h1>
+            <p className="text-gray-400 leading-relaxed">{summary}</p>
+            <div className="flex flex-wrap gap-3 mt-4">
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700/30">
+                <span className="text-lg font-bold text-red-400">{bosses.length}</span>
+                <span className="text-xs text-gray-400">{isZh ? "Boss" : "Bosses"}</span>
+              </div>
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700/30">
+                <span className="text-lg font-bold text-yellow-400">{elites.length}</span>
+                <span className="text-xs text-gray-400">{isZh ? "精英" : "Elite"}</span>
+              </div>
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700/30">
+                <span className="text-lg font-bold text-blue-400">{normals.length}</span>
+                <span className="text-xs text-gray-400">{isZh ? "普通" : "Normal"}</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <h1 className="text-2xl font-bold mb-6">{title}</h1>
+
         <ArticleContent content={content} />
 
         {guide.faq && guide.faq.length > 0 && (
