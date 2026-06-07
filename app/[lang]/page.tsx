@@ -20,16 +20,16 @@ export async function generateMetadata({
   // Locale-specific SEO titles and descriptions for better CTR
   const metaData: Record<string, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
     zh: {
-      title: "异环攻略站 - 角色排行 · 互动地图 · 配装工具",
-      description: "异环(NTE)玩家攻略站：角色强度排行、互动地图、配装计算器、兑换码。内容最全的非官方Wiki。",
-      ogTitle: "异环攻略站 - 角色排行 · 互动地图 · 配装工具",
-      ogDescription: "异环(NTE)攻略站，角色排行、互动地图、配装计算器、兑换码。",
+      title: "异环攻略_Wiki_下载_兑换码_角色排行_地图",
+      description: "异环(Neverness to Everness)攻略Wiki：角色强度排行(Tier List)、交互地图(含收集品)、配装计算器、最新兑换码、下载安装指南、全角色Build攻略。非官方最全攻略站。",
+      ogTitle: "异环攻略Wiki — 角色排行 · 互动地图 · 配装计算器 · 兑换码",
+      ogDescription: "异环(NTE)最全攻略Wiki：角色排行、互动地图、配装计算器、最新兑换码。",
     },
     tw: {
-      title: "異環攻略站 - 角色排行 · 互動地圖 · 配裝工具",
-      description: "異環(NTE)玩家攻略站：角色強度排行、互動地圖、配裝計算器、兌換碼。內容最全的非官方Wiki。",
-      ogTitle: "異環攻略站 - 角色排行 · 互動地圖 · 配裝工具",
-      ogDescription: "異環(NTE)攻略站，角色排行、互動地圖、配裝計算器、兌換碼。",
+      title: "異環攻略_Wiki_下載_兌換碼_角色排行_地圖",
+      description: "異環(Neverness to Everness)攻略Wiki：角色強度排行(Tier List)、互動地圖(含收集品)、配裝計算器、最新兌換碼、下載安裝指南、全角色Build攻略。非官方最全攻略站。",
+      ogTitle: "異環攻略Wiki — 角色排行 · 互動地圖 · 配裝計算器 · 兌換碼",
+      ogDescription: "異環(NTE)最全攻略Wiki：角色排行、互動地圖、配裝計算器、最新兌換碼。",
     },
     th: {
       title: "NTE Guide - Neverness to Everness Wiki ไทย | บิลด์ตัวละคร เทียร์ลิสต์ รหัสแลก",
@@ -62,10 +62,10 @@ export async function generateMetadata({
       ogDescription: "캐릭터 빌드, 티어 리스트, 계산기, 가이드 NTE 한국어.",
     },
     en: {
-      title: "NTE Wiki: Tier List, Map, Guides & Calculator",
-      description: "NTE (Neverness to Everness) wiki with tier list, interactive map, character builds, redeem codes, and guides. Everything you need in one place.",
-      ogTitle: "NTE Wiki - Tier List, Map, Guides & Calculator",
-      ogDescription: "Tier list, interactive map, character builds, redeem codes, and guides for NTE.",
+      title: "NTE Wiki — Tier List, Builds, Map, Codes & Guides | Neverness to Everness",
+      description: "Neverness to Everness (NTE) wiki: tier list, character builds, interactive map, redeem codes (June 2026), download guide, and DPS calculator. Updated daily.",
+      ogTitle: "NTE Wiki — Tier List, Builds, Map, Codes & Guides",
+      ogDescription: "Neverness to Everness wiki with tier list, builds, interactive map, redeem codes, and guides.",
     },
   };
 
@@ -109,15 +109,21 @@ export default async function HomePage({
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
           <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              {locale === "tw" ? "異環 Wiki 官網" : isZhLocale(locale) ? "异环 Wiki 官网" : "Neverness to Everness Wiki"}
+              {locale === "tw" ? "異環攻略 Wiki" : isZhLocale(locale) ? "异环攻略 Wiki" : "Neverness to Everness Wiki"}
             </h1>
-            <p className="mt-4 text-lg text-gray-400">{t(locale, "home.heroSubtitle")}</p>
+            <p className="mt-4 text-lg text-gray-400">
+              {locale === "tw"
+                ? "異環(NTE)最全攻略百科：角色排行、配裝、互動地圖、兌換碼、下載安裝"
+                : isZhLocale(locale)
+                  ? "异环(NTE)最全攻略百科：角色排行、配装、交互地图、兑换码、下载安装"
+                  : "Tier list, builds, interactive map, codes, guides & calculators"}
+            </p>
             <p className="mt-3 text-sm text-gray-500 max-w-2xl mx-auto">
               {locale === "tw"
-                ? "異環(NTE)百科攻略官網，收錄全角色圖鑑、配裝推薦、攻略指南、兌換碼、互動地圖與計算器工具。"
+                ? "異環(NTE)百科攻略站，收錄全角色圖鑑與Build推薦、強度排行、互動地圖(含收集品標記)、最新兌換碼、下載安裝教程、DPS計算器等工具。每日更新。"
                 : isZhLocale(locale)
-                  ? "异环(NTE)百科攻略官网，收录全角色图鉴、配装推荐、攻略指南、兑换码、交互地图与计算器工具。"
-                  : "The complete Neverness to Everness wiki with character builds, guides, tier lists, redeem codes, interactive map, and calculators."}
+                  ? "异环(NTE)百科攻略站，收录全角色图鉴与Build推荐、强度排行、交互地图(含收集品标记)、最新兑换码、下载安装教程、DPS计算器等工具。每日更新。"
+                  : "The complete Neverness to Everness wiki: character builds, tier list, interactive map with collectibles, redeem codes (June 2026), download guide, DPS calculator. Updated daily."}
             </p>
             <div className="mt-6 flex justify-center">
               <SearchDialog lang={lang} />
@@ -288,16 +294,16 @@ export default async function HomePage({
           <h2 className="text-2xl font-bold mb-6">{t(locale, "quickLinks.title")}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {[
-              { label: isZhLocale(locale) ? "强度排行" : "Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? "角色评级排名" : "Character rankings" },
-              { label: isZhLocale(locale) ? "Build攻略" : "Build Guide", href: `/${lang}/blog/nte-nanally-build-guide`, desc: isZhLocale(locale) ? "角色配装推荐" : "Best character builds" },
-              { label: isZhLocale(locale) ? "配队指南" : "Team Comps", href: `/${lang}/blog/nte-best-team-comps-1-0`, desc: isZhLocale(locale) ? "最佳队伍搭配" : "Best team builds" },
-              { label: isZhLocale(locale) ? "零Build" : "Zero Build", href: `/${lang}/blog/nte-zero-build-guide`, desc: isZhLocale(locale) ? "零爆发配装" : "Zero burst guide" },
-              { label: isZhLocale(locale) ? "九原Build" : "Jiuyuan Build", href: `/${lang}/blog/nte-jiuyuan-build-guide`, desc: isZhLocale(locale) ? "九原辅助配装" : "Jiuyuan support guide" },
-              { label: isZhLocale(locale) ? "交互地图" : "Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? "全地图标记" : "Interactive map" },
-              { label: isZhLocale(locale) ? "配置要求" : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? "PC/手机配置" : "PC & mobile specs" },
-              { label: isZhLocale(locale) ? "兑换码" : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? "最新兑换码" : "Latest codes" },
-              { label: isZhLocale(locale) ? "武器" : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? "武器图鉴" : "Weapon database" },
-              { label: isZhLocale(locale) ? "世界观" : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? "游戏设定" : "Story & lore" },
+              { label: isZhLocale(locale) ? "异环强度排行" : "NTE Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? "全角色评级排名" : "Character rankings" },
+              { label: isZhLocale(locale) ? "异环配队推荐" : "Best Teams", href: `/${lang}/teams`, desc: isZhLocale(locale) ? "最佳队伍搭配" : "Best team builds" },
+              { label: isZhLocale(locale) ? "异环交互地图" : "Interactive Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? "全地图收集品标记" : "All collectibles marked" },
+              { label: isZhLocale(locale) ? "异环兑换码" : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? "最新兑换码实时更新" : "Latest active codes" },
+              { label: isZhLocale(locale) ? "异环下载安装" : "Download NTE", href: `/${lang}/guides/download-install-guide`, desc: isZhLocale(locale) ? "PC/手机/PS5下载" : "PC, mobile & PS5" },
+              { label: isZhLocale(locale) ? "异环配置要求" : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? "PC/手机最低配置" : "PC & mobile specs" },
+              { label: isZhLocale(locale) ? "异环武器图鉴" : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? "全弧盘武器数据库" : "Weapon database" },
+              { label: isZhLocale(locale) ? "异环Boss攻略" : "Boss Guides", href: `/${lang}/bosses`, desc: isZhLocale(locale) ? "全Boss打法详解" : "All boss strategies" },
+              { label: isZhLocale(locale) ? "异环世界观" : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? "剧情设定百科" : "Story & lore" },
+              { label: isZhLocale(locale) ? "DPS计算器" : "DPS Calculator", href: `/${lang}/calculator/dps`, desc: isZhLocale(locale) ? "循环输出计算" : "Rotation DPS calc" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>

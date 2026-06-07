@@ -17,10 +17,10 @@ export async function generateMetadata({
   const isZh = isZhLocale(locale);
   const title = isZh
     ? (locale === "tw" ? "異環兌換碼（2026年6月）— 國服/國際服禮包碼大全、前瞻直播碼即時更新" : "异环兑换码（2026年6月）— 国服/国际服礼包码大全、前瞻直播码实时更新")
-    : "NTE Redeem Codes (June 2026) — All Active Codes, Livestream & Platform Codes";
+    : "NTE Redeem Codes (June 2026) — All Active NTE Codes, Livestream & Platform Gifts";
   const description = isZh
     ? (locale === "tw" ? "異環(NTE)最新兌換碼與禮包碼即時更新（2026年6月）。國服和國際服所有有效碼，含B站/TapTap/抖音平台專屬碼，免費領取環石等獎勵。" : "异环(NTE)最新兑换码与礼包码实时更新（2026年6月）。国服和国际服所有有效码，含B站/TapTap/抖音平台专属码，免费领取环石等奖励。")
-    : "All working Neverness to Everness redeem codes (June 2026) including platform codes for Bilibili, TapTap, Douyin. Updated daily for Global & CN servers.";
+    : "All working NTE redeem codes for June 2026. Neverness to Everness active codes including Bilibili, TapTap, Douyin platform codes. Free rings and rewards. Updated daily.";
 
   return {
     title,
