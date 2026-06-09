@@ -109,7 +109,7 @@ export default async function BossGuidePage({
           </div>
         </div>
 
-        <ArticleContent content={content} />
+        <ArticleContent content={content} lang={lang} />
 
         {guide.faq && guide.faq.length > 0 && (
           <FaqSection faqs={guide.faq} locale={locale} />

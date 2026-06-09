@@ -99,7 +99,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         )}
 
         {/* Content */}
-        <ArticleContent content={content} />
+        <ArticleContent content={content} lang={lang} />
 
         {/* Tags */}
         {article.tags.length > 0 && (

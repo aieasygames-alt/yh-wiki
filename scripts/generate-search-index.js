@@ -15,12 +15,21 @@ const locations = JSON.parse(fs.readFileSync(path.join(dataDir, "locations.json"
 const index = [];
 
 function addEntry(id, nameZh, nameEn, type, urlPath, tags) {
+  const pathWithSlash = urlPath.endsWith("/") ? urlPath : `${urlPath}/`;
   index.push({
     id,
     name: nameZh,
     nameEn,
     type,
-    url: `/zh${urlPath}`,
+    url: `/zh${pathWithSlash}`,
+    tags,
+  });
+  index.push({
+    id,
+    name: nameZh,
+    nameEn,
+    type,
+    url: `/tw${pathWithSlash}`,
     tags,
   });
   index.push({
@@ -28,7 +37,7 @@ function addEntry(id, nameZh, nameEn, type, urlPath, tags) {
     name: nameEn,
     nameEn,
     type,
-    url: `/en${urlPath}`,
+    url: `/en${pathWithSlash}`,
     tags,
   });
 }

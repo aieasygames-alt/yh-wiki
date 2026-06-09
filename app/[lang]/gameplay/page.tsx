@@ -176,7 +176,7 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
         />
 
         {/* Main Content */}
-        <ArticleContent content={gameplayContent} />
+        <ArticleContent content={gameplayContent} lang={lang} />
 
         {/* Key Features Grid */}
         <section className="mb-10 mt-10">

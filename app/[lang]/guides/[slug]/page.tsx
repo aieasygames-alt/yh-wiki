@@ -170,7 +170,7 @@ export default async function GuideDetailPage({
           </div>
         )}
 
-        <ArticleContent content={content} />
+        <ArticleContent content={content} lang={lang} />
 
         {/* FAQ Section */}
         {guide.faq && guide.faq.length > 0 && (

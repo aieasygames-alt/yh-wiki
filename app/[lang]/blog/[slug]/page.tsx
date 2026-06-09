@@ -140,7 +140,7 @@ export default async function BlogDetailPage({
         <div className="mb-6">
           <KardzPromoCard locale={locale} variant="compact" />
         </div>
-        <ArticleContent content={content} />
+        <ArticleContent content={content} lang={lang} />
 
         {/* Tags */}
         {post.tags.length > 0 && (

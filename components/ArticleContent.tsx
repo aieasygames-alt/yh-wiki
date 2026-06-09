@@ -1,13 +1,15 @@
 interface ArticleContentProps {
   content: string;
+  lang?: string;
 }
 
 /**
  * Parse markdown-like content and render with modern blog style.
  * Supports: ## h2, ### h3, numbered lists, bullet lists, bold text, tip boxes.
  */
-export function ArticleContent({ content }: ArticleContentProps) {
+export function ArticleContent({ content, lang }: ArticleContentProps) {
   const blocks = parseContent(content);
+  const fmt = (text: string) => renderInlineFormatting(text, lang);
 
   return (
     <div className="article-content">
@@ -43,7 +45,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
                     <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-primary-600/20 text-primary-400 text-xs font-bold flex items-center justify-center mt-0.5">
                       {j + 1}
                     </span>
-                    <span className="flex-1">{renderInlineFormatting(item)}</span>
+                    <span className="flex-1">{fmt(item)}</span>
                   </li>
                 ))}
               </ol>
@@ -57,7 +59,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
                     className="flex items-start gap-2.5 text-gray-300 leading-relaxed"
                   >
                     <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-primary-400 mt-2.5" />
-                    <span className="flex-1">{renderInlineFormatting(item)}</span>
+                    <span className="flex-1">{fmt(item)}</span>
                   </li>
                 ))}
               </ul>
@@ -98,7 +100,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
                     <tr className="border-b border-gray-700 bg-gray-800/50">
                       {block.headers.map((h, hi) => (
                         <th key={hi} className="px-4 py-2.5 text-left text-gray-300 font-semibold whitespace-nowrap">
-                          {renderInlineFormatting(h)}
+                          {fmt(h)}
                         </th>
                       ))}
                     </tr>
@@ -108,7 +110,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
                       <tr key={ri} className={ri % 2 === 0 ? "bg-gray-900/20" : "bg-gray-900/40"}>
                         {row.map((cell, ci) => (
                           <td key={ci} className="px-4 py-2.5 text-gray-400">
-                            {renderInlineFormatting(cell)}
+                            {fmt(cell)}
                           </td>
                         ))}
                       </tr>
@@ -127,7 +129,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
                   {block.items.map((item, ji) => (
                     <li key={ji} className="flex items-start gap-2 text-sm text-gray-300 leading-relaxed">
                       <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-primary-400 mt-2" />
-                      <span className="flex-1">{renderInlineFormatting(item)}</span>
+                      <span className="flex-1">{fmt(item)}</span>
                     </li>
                   ))}
                 </ul>
@@ -144,7 +146,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
                 key={i}
                 className="text-gray-300 leading-relaxed mb-4 text-[15px]"
               >
-                {renderInlineFormatting(block.text)}
+                {fmt(block.text)}
               </p>
             );
         }
@@ -154,7 +156,7 @@ export function ArticleContent({ content }: ArticleContentProps) {
 }
 
 /** Render inline formatting: **bold**, *italic*, [text](url) */
-function renderInlineFormatting(text: string): React.ReactNode {
+function renderInlineFormatting(text: string, lang?: string): React.ReactNode {
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\([^)]+\))/g);
   if (parts.length === 1) return text;
   return parts.map((part, i) => {
@@ -174,8 +176,11 @@ function renderInlineFormatting(text: string): React.ReactNode {
     }
     const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (linkMatch) {
+      const rawHref = linkMatch[2];
+      const isInternal = rawHref.startsWith("/") && !rawHref.startsWith("//");
+      const href = isInternal && lang ? `/${lang}${rawHref}` : rawHref;
       return (
-        <a key={i} href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-primary-400 hover:text-primary-300 underline underline-offset-2 transition-colors">
+        <a key={i} href={href} {...(isInternal ? {} : { target: "_blank", rel: "noopener noreferrer" })} className="text-primary-400 hover:text-primary-300 underline underline-offset-2 transition-colors">
           {linkMatch[1]}
         </a>
       );

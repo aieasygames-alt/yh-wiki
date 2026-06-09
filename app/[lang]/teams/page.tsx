@@ -274,6 +274,7 @@ export default async function TeamsPage({
               </h2>
               <ArticleContent
                 content={zh ? guide.content : guide.contentEn}
+                lang={lang}
               />
             </div>
 
