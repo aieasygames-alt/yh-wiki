@@ -1,15 +1,10 @@
 import { describe, it, expect } from "vitest";
 import en from "../../messages/en.json";
-import ja from "../../messages/ja.json";
-import ko from "../../messages/ko.json";
 import zh from "../../messages/zh.json";
 import tw from "../../messages/tw.json";
-import th from "../../messages/th.json";
-import vi from "../../messages/vi.json";
-import id from "../../messages/id.json";
 
 const allMessages: Record<string, Record<string, unknown>> = {
-  en, ja, ko, zh, tw, th, vi, id,
+  en, zh, tw,
 };
 
 /** Recursively collect all dot-separated key paths from a nested object */

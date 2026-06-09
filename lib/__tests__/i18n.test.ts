@@ -13,12 +13,12 @@ import {
 } from "../i18n";
 
 describe("LOCALES", () => {
-  it("contains exactly 8 locales", () => {
-    expect(LOCALES).toHaveLength(8);
+  it("contains exactly 3 locales", () => {
+    expect(LOCALES).toHaveLength(3);
   });
 
   it("includes all required locales", () => {
-    for (const loc of ["zh", "tw", "en", "th", "vi", "id", "ja", "ko"]) {
+    for (const loc of ["zh", "tw", "en"]) {
       expect(LOCALES).toContain(loc);
     }
   });
@@ -44,15 +44,19 @@ describe("isLocale", () => {
     expect(isLocale("es")).toBe(false);
     expect(isLocale("ru")).toBe(false);
     expect(isLocale("pt-br")).toBe(false);
+    expect(isLocale("ja")).toBe(false);
+    expect(isLocale("ko")).toBe(false);
+    expect(isLocale("th")).toBe(false);
+    expect(isLocale("vi")).toBe(false);
+    expect(isLocale("id")).toBe(false);
   });
 });
 
 describe("asLocale", () => {
   it("returns the locale for valid input", () => {
     expect(asLocale("en")).toBe("en");
-    expect(asLocale("ja")).toBe("ja");
-    expect(asLocale("ko")).toBe("ko");
-    expect(asLocale("th")).toBe("th");
+    expect(asLocale("zh")).toBe("zh");
+    expect(asLocale("tw")).toBe("tw");
   });
 
   it("falls back to en for invalid input", () => {
@@ -64,6 +68,8 @@ describe("asLocale", () => {
     expect(asLocale("de")).toBe("en");
     expect(asLocale("fr")).toBe("en");
     expect(asLocale("pt-br")).toBe("en");
+    expect(asLocale("ja")).toBe("en");
+    expect(asLocale("ko")).toBe("en");
   });
 });
 
@@ -80,7 +86,7 @@ describe("isZhLocale", () => {
     expect(isZhLocale("en")).toBe(false);
   });
 
-  it("returns false for ja and ko", () => {
+  it("returns false for removed locales", () => {
     expect(isZhLocale("ja")).toBe(false);
     expect(isZhLocale("ko")).toBe(false);
   });
@@ -91,12 +97,17 @@ describe("toHtmlLang", () => {
     expect(toHtmlLang("tw")).toBe("zh-Hant");
   });
 
-  it("maps locales correctly", () => {
+  it("maps zh to zh", () => {
+    expect(toHtmlLang("zh")).toBe("zh");
+  });
+
+  it("maps en to en", () => {
+    expect(toHtmlLang("en")).toBe("en");
+  });
+
+  it("passes through unknown locales as-is", () => {
     expect(toHtmlLang("ja")).toBe("ja");
     expect(toHtmlLang("ko")).toBe("ko");
-    expect(toHtmlLang("th")).toBe("th");
-    expect(toHtmlLang("vi")).toBe("vi");
-    expect(toHtmlLang("id")).toBe("id");
   });
 });
 
@@ -108,11 +119,9 @@ describe("LOCALE_NATIVE_NAME", () => {
   });
 
   it("has correct native names", () => {
-    expect(LOCALE_NATIVE_NAME.ja).toBe("日本語");
-    expect(LOCALE_NATIVE_NAME.ko).toBe("한국어");
-    expect(LOCALE_NATIVE_NAME.th).toBe("ภาษาไทย");
-    expect(LOCALE_NATIVE_NAME.vi).toBe("Tiếng Việt");
-    expect(LOCALE_NATIVE_NAME.id).toBe("Bahasa Indonesia");
+    expect(LOCALE_NATIVE_NAME.zh).toBe("中文");
+    expect(LOCALE_NATIVE_NAME.tw).toBe("繁體中文");
+    expect(LOCALE_NATIVE_NAME.en).toBe("English");
   });
 });
 
@@ -160,19 +169,17 @@ describe("hreflangAlternates", () => {
     expect(result.canonical).toBe("https://nteguide.com/zh/characters/test/");
   });
 
-  it("generates all 8 language alternates", () => {
+  it("generates 3 language alternates plus x-default", () => {
     const result = hreflangAlternates("characters/test", "zh");
     const langKeys = Object.keys(result.languages).filter((k) => k !== "x-default");
-    expect(langKeys).toHaveLength(8);
+    expect(langKeys).toHaveLength(3);
   });
 
-  it("includes all locales in languages map", () => {
+  it("includes all active locales in languages map", () => {
     const result = hreflangAlternates("guides", "en");
-    expect(result.languages.ja).toBe("https://nteguide.com/ja/guides/");
-    expect(result.languages.ko).toBe("https://nteguide.com/ko/guides/");
-    expect(result.languages.th).toBe("https://nteguide.com/th/guides/");
-    expect(result.languages.vi).toBe("https://nteguide.com/vi/guides/");
-    expect(result.languages.id).toBe("https://nteguide.com/id/guides/");
+    expect(result.languages.zh).toBe("https://nteguide.com/zh/guides/");
+    expect(result.languages["zh-Hant"]).toBe("https://nteguide.com/tw/guides/");
+    expect(result.languages.en).toBe("https://nteguide.com/en/guides/");
   });
 
   it("generates correct zh URL", () => {
@@ -207,8 +214,6 @@ describe("hreflangAlternatesIndex", () => {
     expect(result.languages.zh).toBe("https://nteguide.com/zh/");
     expect(result.languages["zh-Hant"]).toBe("https://nteguide.com/tw/");
     expect(result.languages.en).toBe("https://nteguide.com/en/");
-    expect(result.languages.ja).toBe("https://nteguide.com/ja/");
-    expect(result.languages.ko).toBe("https://nteguide.com/ko/");
   });
 });
 
