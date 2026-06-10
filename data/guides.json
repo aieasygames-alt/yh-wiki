@@ -2947,5 +2947,106 @@
     "relatedLore": [],
     "faq": [],
     "date": "2026-06-06"
+  },
+  {
+    "id": "prison-wanted-system-guide",
+    "title": "异环监狱与通缉系统完全攻略：消星、越狱与避免被抓技巧",
+    "titleEn": "NTE Prison & Wanted System Complete Guide: Clear Stars, Escape & Avoid Getting Caught",
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "summary": "详解异环通缉星级系统（1-3星）的触发条件、消除方法，以及入狱后5种越狱路线与监狱隐藏奖励。",
+    "summaryEn": "Complete guide to NTE wanted star system (1-3 stars), clearing methods, 5 prison escape routes, and hidden rewards.",
+    "content": "## 通缉系统概述\n\n在《异环》的开放世界中，玩家并非法外之徒——城市治安系统会追踪你的违法行为。通缉系统分为3个星级，星级越高追捕力度越大，最终可能导致入狱。\n\n## 通缉触发条件\n\n**一星通缉**：多次交通违规触发，包括连续闯红灯、持续超速行驶等轻微违法行为。一星追捕力度较弱，普通巡逻警察会尝试拦截。\n\n**二星通缉**：抢夺他人车辆、严重交通违规或在公共区域造成较大破坏时触发。追捕单位增强，会出现更多警车追击。\n\n**三星通缉**：在公共道路使用武器交火、暴力袭警或蓄意破坏重大公共设施时触发。三星通缉将面临15分钟的强力追捕，并可能触发特殊的BOSS对决机制。击败BOSS可获得丰厚奖励，失败则扣钱降声望。\n\n## 消除通缉的方法\n\n- **躲避消除**：一星通缉可躲入建筑物、逃离警戒区域等待自然消退；二星可返回家园、地下巷道或安全屋脱离视野\n- **缴纳罚金**：在任何星级都可以直接交罚款秒解通缉，是最快的方法\n- **异象管理局**：将抢来的车辆开进「异象管理局」可以消除通缉星级（注意车辆会消失）\n- **主动投案**：前往治安所自首，接受处罚后清除通缉\n\n## 入狱机制\n\n三星通缉被捕后会被押送至中央监狱。男女主角有各自专属的监狱区域，规则互通但场景独立。入狱后有以下三种基础出路：\n\n1. **缴纳罚金**直接出狱\n2. **挂机等待**7天刑满自动释放\n3. **主动越狱**——监狱玩法的核心乐趣\n\n## 五大越狱路线\n\n### 路线一：地道挖掘\n最适合新手的越狱方式。每日放风时在餐厅食堂趁管教不注意偷取金属勺子，返回牢房撕开海报露出砖墙，用勺子持续挖掘。勺子会断裂消耗，需每天补充。墙体挖通后进入地下暗道，需躲避探照灯巡查，紧贴墙角缓慢前进即可逃出。\n\n### 路线二：高空绳索\n偏向探索型的越狱玩法。需要收集一楼走廊2份、二楼牢房1份、三楼牢房1份布料物资合成逃生绳索。三楼物资需要和NPC对话引开注意力才能获取。还需偷走一楼管教身后密闭房间的钥匙。次日劳动时段选择打扫卫生，前往岗楼楼顶使用绳索翻越高墙。\n\n### 路线三：潜行逃脱\n氛围感十足的潜行逃脱路线。在篮球场找到混混头目「龙卷风」对话，解锁狱友支线。绿毛狱友「寄居蟹」会触发报恩剧情成为逃跑助力。进入门厅后打开水龙头制造噪音吸引管教注意，躲进柜子隐蔽身形，趁巡逻间隙拾取大门钥匙。庭院中有两处探照灯光阵需要分步规避，最终乘船离岸成功越狱。\n\n### 路线四：化学腐蚀\n高效率速通路线。以身体不适为由申请前往医务室，与卧床NPC配合装病吸引医生离开，趁机在柜台拾取浓缩消毒液。拿到后前往小操场找到下水道围栏投放消毒液腐蚀金属栏杆。次日栏杆破损后进入下水道，躲避探照灯顺地下通道逃出。\n\n### 路线五：假死伪装\n剧情创意最独特的逃脱方式。在一楼牢房找到NPC「活化石」，用从NPC「蜘蛛」处免费获取的玩偶交换专属药剂「静息灵」。再次以身体不适进入医务室，使用药剂触发假死状态，被当作遗体运出监狱，脱离管控区域后自动解除假死效果。\n\n## 监狱奖励\n\n- 成功越狱可获得免费的**纯狱风时装**（主角皮肤），材料每日刷新\n- 击败监狱中的**狱霸BOSS**可解锁四人匹配格斗对决玩法\n- 监狱中还隐藏着各种成就和交互要素等待发现\n\n## 实用技巧\n\n- 首次入狱建议尝试所有越狱路线获取完整奖励\n- 日常驾驶遵守交通规则可以完全避免通缉\n- 三星通缉的BOSS战胜利奖励非常丰厚，高等级玩家可以考虑故意触发\n- 假死伪装是最省事的越狱方式，只需2天即可完成",
+    "contentEn": "## Wanted System Overview\n\nIn the open world of Neverness to Everness, your criminal actions have consequences. The city's security system tracks your behavior through a 3-star wanted system — the higher your star level, the more intense the pursuit, and you may eventually end up in prison.\n\n## Wanted Level Triggers\n\n**1-Star Wanted**: Triggered by repeated traffic violations. Light pursuit — standard patrol officers attempt to intercept.\n\n**2-Star Wanted**: Triggered by stealing vehicles, serious traffic violations, or significant property damage. More police vehicles join the chase.\n\n**3-Star Wanted**: Triggered by using weapons in public, assaulting officers, or destroying major infrastructure. This activates a 15-minute intense manhunt and may trigger a special boss encounter. Defeating the boss yields generous rewards; losing costs money and reputation.\n\n## Clearing Wanted Levels\n\n- **Hide and Wait**: At 1 star, enter a building or flee the alert zone. At 2 stars, return home or use underground passages\n- **Pay the Fine**: Instantly clear any wanted level — the fastest method\n- **Anomaly Management Bureau**: Drive a stolen vehicle into the Bureau to clear stars (vehicle disappears)\n- **Turn Yourself In**: Go to the police station and surrender\n\n## Prison Mechanics\n\nAfter being caught at 3 stars, you're sent to Central Prison. Three exit options: pay fine, wait 7 days, or escape.\n\n## Five Escape Routes\n\n### Route 1: Tunnel Digging\nSteal metal spoons during outdoor time, tear down the poster in your cell, and dig through the brick wall. Navigate the underground tunnel while avoiding searchlights.\n\n### Route 2: High-Altitude Rope\nCollect 4 cloth materials to craft an escape rope. Steal the key from the guard's room. During labor period, use the rope from the watchtower roof.\n\n### Route 3: Stealth Escape\nFind the gang boss at the basketball court to unlock the inmate questline. A green-haired inmate helps you. Create noise with faucets, hide in cabinets, grab the front door key, navigate searchlight arrays, escape by boat.\n\n### Route 4: Chemical Corrosion\nFeign illness to access the medical room, grab concentrated disinfectant, use it on the sewer grate to corrode metal bars overnight.\n\n### Route 5: Fake Death\nTrade a doll for a special potion 'Still Breath'. Use it in the medical room to trigger fake death — you're shipped out as deceased and revive outside.\n\n## Prison Rewards\n\n- Free **Prison Style Outfit** for escaping\n- **Prison Boss** unlocks 4-player combat mode\n- Hidden achievements and interactions\n\n## Pro Tips\n\n- Try all escape routes on first imprisonment for complete rewards\n- Obey traffic rules to avoid wanted system entirely\n- 3-star boss fight has excellent rewards for high-level players\n- Fake Death is the most convenient escape",
+    "tags": [
+      "prison",
+      "wanted",
+      "jail",
+      "escape",
+      "gameplay"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "fishing-system-guide",
+    "title": "异环钓鱼系统完全攻略：解锁条件、钓鱼地点、鱼饵与全鱼种图鉴",
+    "titleEn": "NTE Fishing System Complete Guide: Unlock, Locations, Bait & Full Fish Catalog",
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "summary": "从解锁条件到高阶技巧，详解异环钓鱼系统的鱼竿升级、鱼饵选择、向阳岛专属鱼种与自动钓鱼方法。",
+    "summaryEn": "Complete guide to NTE fishing: rod upgrades, bait selection, Sunward Island exclusive fish, and auto-fishing.",
+    "content": "## 解锁钓鱼\n\n钓鱼（海钓达人/Sea Angler）通过「都市大亨」系统解锁。当都市大亨等级达到3级后，在菜单中选择 都市大亨 > 海瑟劳爱好 > 海钓达人 即可解锁钓鱼功能。解锁后获得初始绿色品质鱼竿和基础鱼饵。钓鱼也是消耗都市体力的好方法，同时可以赚取方斯。\n\n## 鱼竿系统\n\n鱼竿分为多个品质等级：\n\n| 品质 | 耐久度 | 获取方式 | 备注 |\n|------|--------|----------|------|\n| 绿色（初始） | 12 | 解锁赠送 | 只能钓普通鱼 |\n| 蓝色 | +6 | 1200鱼币购买 | 适合中期 |\n| 紫色 | 高 | 鱼币兑换 | 性价比最高，配合万用鱼饵可完成全部图鉴 |\n| 金色传说 | 最高 | 长期钓鱼解锁 | 终极目标 |\n\n鱼竿的耐久度直接影响能否成功钓起大鱼——耐久度不足时线会断裂。优先攒鱼币升级鱼竿是核心策略。\n\n## 鱼饵详解\n\n- **新手饵（Starter Bait）**：全水域通用，能钓到基础鱼种，价格便宜\n- **杂谷饵（Grain Bait）**：适合淡水区域，针对稀有淡水鱼种\n- **果渍饵/特殊饵（Fruit Bait）**：高阶稀有鱼专用\n\n每日必买：每天用芳丝购买的3次鱼饵务必买完并优先消耗。鱼币兑换的鱼饵要留存——鱼币优先攒起来换高级鱼竿。\n\n高阶技巧——**反向错饵垂钓**：钓海水鱼时刻意使用淡水鱼饵，反之亦然，反而能稳定出高品质鱼类。\n\n## 钓鱼操作技巧\n\n1. 抛竿后等待鱼咬钩提示（水面闪光、鱼竿抖动）\n2. 立即按F键收杆\n3. 出现进度条时，控制黄色指针稳定保持在绿色区域内\n4. 普通鱼绿色区域宽，容错率高；稀有鱼绿色区域窄，需精准操作\n5. 收杆不要延迟，绿条内平稳点按，保持节奏稳定\n\n懒人技巧：当黄色指针停在绿色区域瞬间，点击聊天界面可以自动固定指针，鱼会自动上钩。\n\n## 鱼类品质与收益\n\n- **绿色/蓝色鱼**：基础鱼币，耐久度低，容易钓获\n- **紫色鱼**：售价高，鱼币/芳丝奖励丰厚，是兑换高级鱼竿的核心资源\n- **金色鱼**：耐久度约12，稀有度高，奖励最顶级\n- **特殊道具**：耐久度约15，可钓到金色传说鱼竿、电池等贵重物品\n\n稀有鱼存活时间约8秒，普通鱼约12秒。普通鱼保鲜3分钟，稀有鱼5分钟。\n\n## 向阳岛专属钓鱼\n\n向阳岛（Sunward Island）是1.1版本新增区域，拥有专属鱼种和异闻任务。钓到向阳岛专属鱼可直接解锁异闻录获取额外奖励。建议在活动期间优先完成向阳岛钓鱼异闻。\n\n## 自动钓鱼\n\n当钓鱼等级提升到一定阶段后可解锁自动钓鱼功能。自动钓鱼3.0支持自动出售鱼类、自动购买鱼饵、可钓鱼王、一键清空日常都市体力。\n\n## 每日钓鱼规划\n\n1. 上线先查看当日最高收获的三种鱼类，针对性准备鱼饵\n2. 必买3次芳丝鱼饵并优先消耗\n3. 鱼币重点攒，后期换金色传说鱼竿\n4. 万用鱼饵+紫色鱼竿即可解锁全部图鉴，金色装备并非必需",
+    "contentEn": "## Unlocking Fishing\n\nFishing (Sea Angler) is unlocked through the City Tycoon system at **City Tycoon Level 3**. Navigate to Menu > City Tycoon > Hethereau Hobbies > Sea Angler. You receive a starter green-quality rod and basic bait.\n\n## Rod System\n\n| Quality | Durability | How to Get | Notes |\n|---------|-----------|-------------|-------|\n| Green (Starter) | 12 | Free on unlock | Common fish only |\n| Blue | +6 | 1,200 Fish Coins | Mid-game |\n| Purple | High | Fish Coins | Best value — completes catalog with Universal Bait |\n| Gold Legendary | Max | Long-term unlock | Endgame goal |\n\nRod durability determines whether you can land big fish. Prioritize saving Fish Coins for upgrades.\n\n## Bait Guide\n\n- **Starter Bait**: Universal, catches basic species, cheap\n- **Grain Bait**: Best for freshwater rare species\n- **Fruit Bait / Special Bait**: For high-end rare fish\n\nDaily must-buy: Purchase all 3 Fons-priced baits each day and use them first. Save Fish Coin baits — prioritize coins for rod upgrades.\n\nPro tip — **Cross-Baiting**: Use freshwater bait in saltwater and vice versa for consistently higher-quality catches.\n\n## Fishing Mechanics\n\n1. Cast and wait for bite indicator (water flash, rod vibration)\n2. Press F immediately to hook\n3. Keep yellow pointer steady in the green zone\n4. Common fish = wide green zone; rare fish = narrow zone requiring precision\n\nLazy trick: Click the chat interface when pointer stops in green zone to auto-freeze it.\n\n## Fish Quality & Rewards\n\n- **Green/Blue**: Basic Fish Coins, easy catches\n- **Purple**: High sell price — core resource for rod upgrades\n- **Gold**: ~12 durability, top-tier rewards\n- **Special Items**: ~15 durability, can yield Gold Legendary Rods\n\n## Sunward Island Exclusive Fishing\n\nSunward Island (Version 1.1) has exclusive fish species and rumor quests. Catching them unlocks rumor entries for bonus rewards.\n\n## Auto-Fishing\n\nUnlocks at higher fishing levels. Auto-Fishing 3.0 supports auto-selling, auto-bait buying, Fish King catching, and one-click daily Vitality clearing.\n\n## Daily Fishing Plan\n\n1. Check top 3 highest-yield fish species for the day\n2. Buy all 3 Fons baits daily\n3. Save Fish Coins for Gold Legendary Rod\n4. Purple Rod + Universal Bait completes the entire catalog",
+    "tags": [
+      "fishing",
+      "fish",
+      "sunward-island",
+      "hobby",
+      "sea-angler"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [
+      "sunward-island"
+    ],
+    "relatedLore": [],
+    "faq": [],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "fons-farming-guide",
+    "title": "异环快速赚钱攻略：方斯与环石最高效获取途径全汇总",
+    "titleEn": "NTE Fast Money Guide: Most Efficient Ways to Farm Fons & Ring Stones",
+    "category": "farming",
+    "categoryZh": "刷取",
+    "categoryEn": "Farming",
+    "summary": "系统梳理异环中获取方斯（Fons）的所有途径，包括每日/周常任务、粉爪大劫案、店长特供、开放世界收集及环石白嫖方法。",
+    "summaryEn": "Complete guide to all methods of earning Fons in NTE: daily/weekly tasks, Pink Paws Heist, Owner's Selection, open world collection, and free Ring Stones.",
+    "content": "## 方斯（Fons）概述\n\n方斯是《异环》中最基础也最重要的货币之一，用于购买车辆、房产、改装和各种道具。从入门级代步车（10万方斯）到保时捷918（保底约1988万方斯），都需要大量方斯。\n\n## 每日必做\n\n### 活跃度任务\n完成每日基础任务获取固定奖励，是日常资源的核心来源。务必每天清空活跃度目标。\n\n### 都市活力兑换\n- **普通兑换**：1活力 = 1,000方斯\n- **店长特供**：1活力 = **2,000方斯**（性价比翻倍，优先兑换！）\n\n店长特供是挂机也能刷的高效渠道，优先级最高。\n\n### 其他每日内容\n- 给角色送礼物增加好感度\n- 愿木坡祈福获取随机奖励\n- 魔女之家占卜\n\n## 每周必做\n\n### 粉爪大劫案（Pink Paws Heist）\n**最重要的周常方斯来源！**\n- 解锁条件：都市大亨等级达到10级\n- 每期（约两周）上限100万方斯，务必打满\n- 不消耗体力，是纯利润玩法\n- 可联机组队，效率更高难度更低\n- 速刷约5分钟可获得20万方斯\n- 潜入要点：避开红光警戒区，不打架、少战斗，专注收集\n- 前期可在粉爪总行附近的保险箱大量收集方斯\n\n### 异象巡礼（周本）\n每周挑战高难度副本获取稀有材料和方斯奖励。\n\n### 异象家具玛门\n每周收方斯的稳定来源，类似被动收入机制。\n\n## 都市大亨系统\n\n都市大亨等级直接影响方斯获取效率：\n- 6级解锁猎人交易所\n- 10级解锁粉爪大劫案\n- 16级解锁隐藏收益\n\n提升大亨等级的技巧：店铺经营（推荐古董店）提供长期被动收益；积极完成都市任务；店长特供优先兑换。\n\n## 开放世界方斯收集\n\n- **保险箱**：尤其在粉爪总行位置，跑完直接收益可观\n- **隐藏点位**：全地图约9个高效隐藏收集点，新手即可快速赚取74万方斯\n- **开放世界事件**：参与随机事件获取额外方斯\n\n## 环石（Ring Stones）白嫖\n\n- 公测兑换码共约300环石（14组兑换码，需关注有效期）\n- 预约奖励+登录福利\n- 活动奖励和版本更新福利\n- 零氪玩家累计可获得470抽以上的免费资源\n- 1.1版本可白嫖约9,200环石+1,200万方斯\n\n## 方斯花费优先级\n\n1. **店长特供兑换**（投资回报最高）\n2. **都市大亨等级提升**（长期收益最大化）\n3. **过渡车辆**（10万方斯入门车或免费AE86）\n4. **中期目标**：保时捷911（漂移性能优秀）\n5. **终极目标**：保时捷918（保底约1988万方斯，满改需额外1900万方斯）\n6. 房产（枫林别墅800万方斯性价比更高）",
+    "contentEn": "## Fons Overview\n\nFons is the most essential currency in NTE, used for purchasing vehicles, real estate, modifications, and various items.\n\n## Daily Must-Do Tasks\n\n### Activity/Daily Tasks\nComplete daily objectives for fixed rewards. Always clear your daily activity goals.\n\n### City Vitality Exchange\n- **Standard Exchange**: 1 Vitality = 1,000 Fons\n- **Owner's Selection**: 1 Vitality = **2,000 Fons** (double value — prioritize!)\n\n### Other Daily Activities\n- Gift characters for affinity\n- Wish Tree blessing\n- Witch's House fortune telling\n\n## Weekly Must-Do Tasks\n\n### Pink Paws Heist\n**The most important weekly Fons source!**\n- **Unlock**: City Tycoon Level 10\n- Each cycle (~2 weeks) has a cap of **1,000,000 Fons** — always max this out\n- **Zero stamina cost** — pure profit\n- Supports co-op multiplayer\n- Speed-running takes ~5 minutes for ~200K Fons\n- Tips: Avoid red light zones, minimize combat, focus on collection\n\n### Anomaly Pilgrimage (Weekly Boss)\nChallenge weekly dungeons for rare materials and Fons.\n\n### Anomaly Furniture Mammon\nWeekly passive Fons income source.\n\n## City Tycoon System\n\n- **Level 6**: Unlocks Hunter Exchange\n- **Level 10**: Unlocks Pink Paws Heist\n- **Level 16**: Unlocks hidden income benefits\n\nTips: Shop management (Antique Shop recommended) provides passive income. Prioritize Owner's Selection exchanges.\n\n## Open World Fons Collection\n\n- **Safes**: Especially near Pink Paws HQ — significant income per run\n- **Hidden Spots**: ~9 high-efficiency collection points across the map\n- **Open World Events**: Random events for bonus Fons\n\n## Free Ring Stones\n\n- Launch redeem codes (~300 Ring Stones total)\n- Pre-registration + login bonuses\n- Event rewards\n- F2P players can accumulate **470+ pulls** worth of free resources\n- Version 1.1 offers approximately **9,200 free Ring Stones**\n\n## Fons Spending Priority\n\n1. **Owner's Selection exchanges** (highest ROI)\n2. **City Tycoon level progression** (maximizes long-term income)\n3. **Starter vehicle** (100K Fons or free AE86)\n4. **Mid-game goal**: Porsche 911\n5. **Endgame goal**: Porsche 918 (~19.88M Fons floor price)",
+    "tags": [
+      "fons",
+      "currency",
+      "farming",
+      "money",
+      "ring-stones",
+      "beginner"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [],
+    "date": "2026-06-10"
+  },
+  {
+    "id": "vehicle-driving-guide",
+    "title": "异环车辆获取与驾驶完全攻略：买车、保时捷联动、改装与赛车技巧",
+    "titleEn": "NTE Vehicle & Driving Guide: Buying Cars, Porsche Collab, Modifications & Racing Tips",
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "summary": "详解异环中所有车辆的获取方式、免费车辆、保时捷联动、改装系统及漂移驾驶技巧。",
+    "summaryEn": "Complete guide to all vehicles in NTE: how to get them, free cars, Porsche collaboration, modification system, and drift driving techniques.",
+    "content": "## 车辆系统概述\n\n《异环》拥有丰富的载具系统，从免费代步工具到千万级超跑一应俱全。车辆不仅用于出行，还涉及竞速赛、漂移挑战等丰富玩法。游戏中甚至有真实的保时捷展厅。\n\n## 免费与低成本车辆\n\n### 电能代步车（小电驴）\n- 开局免费赠送，最大时速40码，无需维修费用\n\n### AE86\n- 主线推进到一定阶段免费赠送\n- 性价比极高的入门级运动车辆\n- 拥有幽灵AE86皮肤可通过活动获取\n- 漂移改装后驾驶手感极佳，被称为「秋名山神车」\n\n### 入门汽车\n- 电能代步车售价约10万方斯，门槛较低\n\n## 购车方式\n\n### 4S店/车辆展厅\n积累足够的方斯后，前往城市中的车辆展厅（如新越车行、中海车行等），与销售经理对话选择「浏览载具」进入全息车辆矩阵选购。\n\n### 租车\n路边可以租用临时车辆，需支付租金且无法改装。\n\n### 征用NPC车辆\n可以抢夺NPC的车辆使用，但会触发通缉系统（参考通缉攻略）。\n\n## 保时捷联动\n\n### 保时捷911 Carrera RS (1972)\n- 联动活动获取，漂移性能优秀\n- 社区公认必买车辆\n\n### 保时捷918 Spyder\n- 通过「Velocity Rush」扭蛋系统获取\n- 保底价格约1988万方斯（2026年4月降价后）\n- 满改总花费约1900万方斯\n- 不氪金获取可能需要约2600万方斯\n- 游戏中有真实的保时捷展厅\n\n### 保时捷Taycan Turbo GT\n- 联动活动车型，电动高性能轿车\n\n**注意**：联动车辆和租赁车辆不可改装，只有自有永久车辆才能改装。\n\n## 车辆改装系统\n\n前往城市4S店或改装店，与NPC对话进入改装界面。\n\n### 新手改装建议（稳定性优先）\n1. 首先强化刹车系统\n2. 提升轮胎抓地性能\n3. 减少过弯侧滑风险\n\n### 竞速/漂移改装\n高级改装推荐根据比赛需求调校不同模组。\n\n## 漂移驾驶技巧\n\n### 基础操作\n1. 按住手刹键\n2. 同时踩加速键\n3. 控制方向键调整漂移角度\n4. 保持FPS稳定\n\n### 驾驶学校\n游戏内置驾驶学校功能，可以自由练习各种车辆的漂移技巧。建议新手先在驾驶学校练好基本功。\n\n### 注意事项\n- 雪地和雨天路面抓地力降低，漂移更难控制\n- 不同车型漂移手感差异很大\n- AE86和保时捷911是公认的漂移好车\n\n## 1.1版本新功能\n\n新增车辆自动驾驶功能，支持自动巡航和路径规划。\n\n## 实用建议\n\n- 开服首日可免费领车，不要错过\n- 初期用AE86过渡，攒钱直奔保时捷911\n- 优先改装刹车和轮胎\n- 善用驾驶学校练习漂移\n- 遵守交通规则避免通缉",
+    "contentEn": "## Vehicle System Overview\n\nNTE features a rich vehicle system from free commuter rides to multi-million-Fons supercars. Cars serve for travel, racing, drifting, and more. There's even a real in-game Porsche dealership.\n\n## Free & Low-Cost Vehicles\n\n### Electric Scooter\n- Free at game start, max speed 40 km/h, no maintenance\n\n### AE86\n- Free after main story progression\n- Excellent value entry-level sports car\n- Ghost AE86 skin available through events\n- Fantastic drift feel after modifications — the 'Mount Akina Legend'\n\n### Entry-Level Car\n- ~100,000 Fons at dealerships\n\n## How to Buy Vehicles\n\n### Dealerships / Showrooms\nVisit city vehicle showrooms (Xinyue, Zhonghai dealerships), talk to the sales manager, select 'Browse Vehicles'.\n\n### Car Rental\nRent temporary vehicles roadside. Cannot be modified.\n\n### Requisitioning NPC Vehicles\nHijack NPC vehicles — triggers wanted system.\n\n## Porsche Collaboration\n\n### Porsche 911 Carrera RS (1972)\n- Available through collaboration events\n- Excellent drift performance — highly recommended\n\n### Porsche 918 Spyder\n- Via 'Velocity Rush' gacha system\n- Floor price ~19.88M Fons (after April 2026 price reduction)\n- Full modification ~19M Fons additional\n- F2P total cost may be ~26M Fons\n\n### Porsche Taycan Turbo GT\n- Collaboration event vehicle\n\n**Note**: Collaboration and rental vehicles **cannot be modified**.\n\n## Vehicle Modification System\n\nVisit 4S dealerships or tuning shops to access modifications.\n\n### Beginner Build (Stability First)\n1. Upgrade brakes\n2. Improve tire grip\n3. Reduce cornering slip\n\n## Drift Driving Techniques\n\n1. Hold handbrake + accelerate\n2. Control steering for drift angle\n3. Maintain stable FPS\n\n### Driving School\nPractice drifting freely at the in-game Driving School.\n\n### Notes\n- Snow/rain reduce grip\n- Different vehicles have different drift feel\n- AE86 and Porsche 911 are community favorites\n\n## Version 1.1 New Features\n\nAuto-drive with automatic cruising and route planning.\n\n## Practical Tips\n\n- Claim free car on launch day\n- Use AE86 early, save for Porsche 911\n- Prioritize brake and tire modifications\n- Practice at Driving School\n- Obey traffic rules to avoid wanted levels",
+    "tags": [
+      "vehicle",
+      "driving",
+      "porsche",
+      "ae86",
+      "modification",
+      "drift",
+      "racing"
+    ],
+    "relatedCharacters": [],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [],
+    "date": "2026-06-10"
   }
 ]

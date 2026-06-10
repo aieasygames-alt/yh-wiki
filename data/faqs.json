@@ -5452,5 +5452,247 @@
     "categoryEn": "General",
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "faq-prison-trigger",
+    "question": "异环通缉怎么触发？",
+    "questionEn": "How does the wanted system trigger in NTE?",
+    "answer": "交通违规（闯红灯、超速）触发一星通缉，抢车或破坏公共财产触发二星，在公共场合使用武器或袭警触发三星。日常驾驶遵守交通规则可以完全避免通缉。",
+    "answerEn": "Traffic violations (running red lights, speeding) trigger 1-star. Stealing vehicles or property damage triggers 2-star. Using weapons in public or assaulting officers triggers 3-star. Obeying traffic rules avoids wanted levels entirely.",
+    "tags": [
+      "prison",
+      "wanted",
+      "gameplay"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-prison-escape",
+    "question": "异环监狱怎么越狱？",
+    "questionEn": "How do I escape from prison in NTE?",
+    "answer": "监狱有5种越狱路线：地道挖掘（偷勺子挖墙）、高空绳索（收集布料合成绳索）、潜行逃脱（通过NPC狱友配合）、化学腐蚀（偷消毒液腐蚀栏杆）、假死伪装（用药剂假死被运出）。最简单的是地道挖掘，最省事的是假死伪装。",
+    "answerEn": "There are 5 escape routes: tunnel digging, high-altitude rope, stealth escape, chemical corrosion, and fake death. Tunnel digging is the easiest for beginners; fake death is the most convenient overall.",
+    "tags": [
+      "prison",
+      "escape",
+      "gameplay"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-prison-penalty",
+    "question": "异环入狱有什么惩罚？",
+    "questionEn": "What are the penalties for going to prison in NTE?",
+    "answer": "三星通缉被捕后会被押送至中央监狱。可以交罚金直接出狱，或者挂机等待7天刑满释放。越狱成功可获得免费纯狱风时装，击败狱霸BOSS可解锁四人格斗玩法。",
+    "answerEn": "Being caught at 3 stars sends you to Central Prison. You can pay a fine for immediate release or wait 7 days. Successfully escaping earns a free Prison Style Outfit. Defeating the Prison Boss unlocks a 4-player combat mode.",
+    "tags": [
+      "prison",
+      "penalty"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-pity-inherit",
+    "question": "异环保底不继承跨池怎么办？",
+    "questionEn": "Does NTE pity carry over between banners?",
+    "answer": "异环的保底计数在同一类型的卡池之间会继承。限定角色池之间的保底互相继承，常驻池保底独立计算。关注每个卡池的保底计数，合理规划抽卡资源。",
+    "answerEn": "Pity count carries over between the same type of banners. Limited character banners share pity, while the standard banner has independent pity. Plan your pulls accordingly.",
+    "tags": [
+      "gacha",
+      "pity",
+      "banner"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-f2p-viable",
+    "question": "异环零氪能玩吗？",
+    "questionEn": "Is NTE free-to-play friendly?",
+    "answer": "异环对零氪玩家非常友好。抽卡不歪（没有50/50机制），平均53.5抽出限定角色。武器不需要抽卡，通过游戏内获取。零氪玩家累计可获得470抽以上的免费资源，1.1版本可白嫖约9200环石。",
+    "answerEn": "NTE is very F2P friendly. There's no 50/50 system — average ~53.5 pulls for rate-up characters. Weapons are obtained through gameplay, not gacha. F2P players can accumulate 470+ free pulls, and Version 1.1 offers ~9,200 free Ring Stones.",
+    "tags": [
+      "f2p",
+      "beginner",
+      "gacha"
+    ],
+    "category": "beginner",
+    "categoryZh": "新手",
+    "categoryEn": "Beginner",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-platform-ps5",
+    "question": "异环PS5可以玩吗？",
+    "questionEn": "Is NTE available on PS5?",
+    "answer": "可以。《异环》于2026年4月23日全平台公测，支持PC、安卓、iOS、Mac、鸿蒙和PlayStation 5。PS5版本与PC和移动端数据互通，支持跨平台游玩。",
+    "answerEn": "Yes. NTE launched on April 23, 2026 across PC, Android, iOS, Mac, HarmonyOS, and PlayStation 5. Cross-platform play and cross-save are supported.",
+    "tags": [
+      "ps5",
+      "platform",
+      "cross-platform"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-cn-vs-global",
+    "question": "异环国服和国际服有什么区别？",
+    "questionEn": "What's the difference between CN and Global servers?",
+    "answer": "国服由完美世界运营，国际服由Hotta Studio直接运营。内容更新节奏基本同步，但兑换码可能不同（部分兑换码仅限特定区域）。数据不互通，国服和国际服账号独立。",
+    "answerEn": "CN server is operated by Perfect World, Global by Hotta Studio. Content updates are mostly synchronized. Redeem codes may differ by region. Account data does not transfer between CN and Global servers.",
+    "tags": [
+      "server",
+      "cn",
+      "global"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-cross-save",
+    "question": "异环数据互通吗？",
+    "questionEn": "Does NTE support cross-save?",
+    "answer": "是的。同一账号可在PC、安卓、iOS、鸿蒙四大平台登录并同步游戏进度。PS5也支持跨平台存档同步。但国服和国际服数据不互通。",
+    "answerEn": "Yes. One account syncs progress across PC, Android, iOS, and HarmonyOS. PS5 also supports cross-save. However, CN and Global server data do not transfer.",
+    "tags": [
+      "cross-save",
+      "platform"
+    ],
+    "category": "platform",
+    "categoryZh": "平台",
+    "categoryEn": "Platform",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-mute-taygedo",
+    "question": "异环怎么关闭Taygedo的声音？",
+    "questionEn": "How do I mute Taygedo in NTE?",
+    "answer": "2026年6月3日的更新中，官方新增了静音Taygedo的功能。在游戏设置中找到相关选项即可关闭这只水獭NPC的语音。这是社区呼声最高的功能之一。",
+    "answerEn": "The June 3, 2026 update added the ability to mute Taygedo. Find the option in game settings to disable the otter NPC's voice. This was one of the most requested community features.",
+    "tags": [
+      "taygedo",
+      "settings",
+      "npc"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [
+      "taygedo"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-lacrimosa-team",
+    "question": "异环安魂曲需要早雾吗？",
+    "questionEn": "Does Lacrimosa need Hayashikiri in NTE?",
+    "answer": "安魂曲的强度高度依赖配队。没有早雾时DPS可能损失30%以上，因为早雾提供的增益对安魂曲的暗属性持续伤害体系非常关键。如果有早雾，安魂曲是T0级输出；没有的话建议1命即可，不要强抽6命。",
+    "answerEn": "Lacrimosa's DPS can drop 30%+ without Hayashikiri, whose buffs are critical for her Chaos DoT playstyle. With Hayashikiri she's T0-tier. Without her, 1-name constellation is recommended over 6-name.",
+    "tags": [
+      "lacrimosa",
+      "team",
+      "hayashikiri"
+    ],
+    "category": "team-building",
+    "categoryZh": "配队",
+    "categoryEn": "Team Building",
+    "relatedCharacters": [
+      "lacrimosa"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-shinku-release",
+    "question": "异环真红什么时候出？",
+    "questionEn": "When does Shinku release in NTE?",
+    "answer": "真红（Shinku）是1.2版本的限定S级角色，预计于2026年7月2日上线。她是光属性主C，拥有独特的「盈蓄」机制，被认为是版本T0级角色。",
+    "answerEn": "Shinku is a limited S-rank character in Version 1.2, expected to release on July 2, 2026. She is a Light attribute burst DPS with the unique 'Yingxu' mechanic, considered T0-tier.",
+    "tags": [
+      "shinku",
+      "version-1.2",
+      "banner"
+    ],
+    "category": "characters",
+    "categoryZh": "角色",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "zhenhong"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-unlock-driving",
+    "question": "异环多少级解锁驾驶？",
+    "questionEn": "What level unlocks driving in NTE?",
+    "answer": "驾驶功能通过主线剧情自动解锁，不需要特定等级。推进主线到一定阶段后，系统会赠送AE86并开放驾驶功能。建议尽快推进主线以解锁更多玩法。",
+    "answerEn": "Driving unlocks automatically through the main story — no specific level required. You receive the free AE86 after progressing far enough in the story.",
+    "tags": [
+      "driving",
+      "vehicle",
+      "unlock"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-unlock-housing",
+    "question": "异环怎么买房？多少级解锁？",
+    "questionEn": "How do I buy a house in NTE?",
+    "answer": "房屋系统通过都市大亨等级解锁。达到对应等级后，可以前往房产中介选购不同价位的公寓和别墅。最便宜的房产约750万方斯起。买房后可以邀请室友同居，布置家具。",
+    "answerEn": "The housing system unlocks through City Tycoon levels. Visit real estate agents to purchase apartments and villas at various price points starting from ~7.5M Fons. You can invite roommates and decorate after purchasing.",
+    "tags": [
+      "housing",
+      "apartment",
+      "city-tycoon"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "faq-ai-controversy",
+    "question": "异环AI素材争议是怎么回事？",
+    "questionEn": "What is the NTE AI art controversy about?",
+    "answer": "2026年4月29日全球上线后，玩家发现部分背景美术素材疑似AI生成。VTuber Ironmouse公开批评后引发国际社区广泛关注。5月7日Hotta Studio官方承认使用了AI生成部分背景素材，并承诺重新制作这些内容。中文社区对此关注度较低，英文社区反应强烈。",
+    "answerEn": "After global launch on April 29, 2026, players discovered some background art appeared AI-generated. VTuber Ironmouse amplified the criticism. On May 7, Hotta Studio admitted AI was used on background assets and pledged to rework them. Western communities reacted strongly while Asian communities were largely indifferent.",
+    "tags": [
+      "ai",
+      "controversy",
+      "news"
+    ],
+    "category": "general",
+    "categoryZh": "综合",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]
