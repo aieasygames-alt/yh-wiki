@@ -701,7 +701,8 @@
   },
   {
     "id": "lacrimosa",
-    "name": "拉克莉莫萨",
+    "name": "安魂曲",
+    "nameZhAlias": "拉克莉莫萨",
     "nameEn": "Lacrimosa",
     "attribute": "chaos",
     "rank": "S",
@@ -714,33 +715,33 @@
     "faq": [
       {
         "question": "Is Lacrimosa good in Neverness to Everness?",
-        "questionZh": "拉克莉莫萨值得培养吗？",
+        "questionZh": "安魂曲值得培养吗？",
         "answer": "Lacrimosa is a S-rank Attack character in Neverness to Everness. As a chaos element Attack, Lacrimosa offers unique combat capabilities. Check our tier list for the latest ranking.",
-        "answerZh": "拉克莉莫萨是异环中的S级进攻角色。异常控制局 ETD-4 队员。性格随性慵懒，擅长操控多个异能构装体进行协同战斗。"
+        "answerZh": "安魂曲是异环中的S级进攻角色。异常控制局 ETD-4 队员。性格随性慵懒，擅长操控多个异能构装体进行协同战斗。"
       },
       {
         "question": "What is the best build for Lacrimosa?",
-        "questionZh": "拉克莉莫萨最佳配装是什么？",
+        "questionZh": "安魂曲最佳配装是什么？",
         "answer": "The best build for Lacrimosa in Neverness to Everness focuses on maximizing their Attack potential. As a S-rank chaos character, prioritize ATK% and CRIT stats. Use our Build Calculator for detailed recommendations.",
-        "answerZh": "拉克莉莫萨的最佳配装侧重于最大化其进攻潜力。作为S级chaos属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
+        "answerZh": "安魂曲的最佳配装侧重于最大化其进攻潜力。作为S级暗属性角色，优先堆叠攻击力和暴击属性。使用我们的配装计算器查看详细推荐。"
       },
       {
         "question": "How to get Lacrimosa in Neverness to Everness?",
-        "questionZh": "如何获得拉克莉莫萨？",
+        "questionZh": "如何获得安魂曲？",
         "answer": "Lacrimosa can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
-        "answerZh": "拉克莉莫萨可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+        "answerZh": "安魂曲可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
       },
       {
         "question": "What is the best team for Lacrimosa?",
-        "questionZh": "拉克莉莫萨最佳配队是什么？",
+        "questionZh": "安魂曲最佳配队是什么？",
         "answer": "The best team for Lacrimosa in Neverness to Everness depends on the content. As a chaos Attack, pair them with characters that can trigger elemental reactions and provide synergy. Check our team building guide for detailed recommendations.",
-        "answerZh": "拉克莉莫萨的最佳配队取决于具体内容。作为chaos属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
+        "answerZh": "安魂曲的最佳配队取决于具体内容。作为暗属性进攻，建议搭配能触发元素反应和提供协同效果的角色。查看我们的配队指南获取详细推荐。"
       },
       {
         "question": "What is the best weapon for Lacrimosa?",
-        "questionZh": "拉克莉莫萨最佳武器是什么？",
+        "questionZh": "安魂曲最佳武器是什么？",
         "answer": "The best weapon for Lacrimosa depends on your playstyle and available options. They use Esper Constructs type weapons. Check our weapon tier list for the best options for Lacrimosa.",
-        "answerZh": "拉克莉莫萨的最佳武器取决于你的玩法和可用选项。他们使用异能构装体类型武器。查看我们的武器排行榜了解拉克莉莫萨的最佳选择。"
+        "answerZh": "安魂曲的最佳武器取决于你的玩法和可用选项。他们使用异能构装体类型武器。查看我们的武器排行榜了解安魂曲的最佳选择。"
       }
     ],
     "relatedCharacters": [
@@ -911,7 +912,7 @@
     "acquisitionMethod": "limited-banner",
     "descriptionEn": "Lacrimosa is a Chaos-attribute S-rank Attack character in NTE version 1.1, wielding Liquid-type weapons. As a summoner DPS, she excels at AoE damage through her mechanical constructs. Featured on the 1.1 Phase 1 limited banner (May 28 – June 18, 2026), Lacrimosa is the first Chaos summoner in the game, making her a top pick for Chaos-element team compositions.",
     "status": "available",
-    "nameTw": "拉克莉莫薩",
+    "nameTw": "安魂曲",
     "cvZh": "宴宁",
     "cvJp": "長縄まりあ",
     "cvJpEn": "Maria Naganawa",

@@ -138,5 +138,19 @@
     "contentEn": "Silent Garden is located in a secluded area on the outskirts of Hethereau, a meticulously maintained garden landscape. First-time visitors are often captivated by its apparent tranquility — neatly trimmed hedges, ever-blooming flowers, gently flowing streams, and stone benches scattered throughout create a scene reminiscent of an earthly paradise. However, this uncanny perfection is itself a signal: Silent Garden is no ordinary garden.\nA peculiar sense of silence pervades the garden. Visitors often notice that its acoustic properties differ markedly from the outside world — the sound of wind, water, and birdsong all become unusually soft, as though the entire space is enveloped in an invisible barrier. Research indicates that Silent Garden occupies a site where ancient Espers once conducted important ceremonies, and residual forces connected to oaths and prophecies still linger here.\nFor the Appraiser, Silent Garden is an exploration site brimming with mysteries. Hidden deep within the garden are clues and relics tied to ancient oaths, and deciphering these messages may prove crucial to understanding the deeper origins of Hethereau's anomalous phenomena. When exploring the garden, players must observe environmental details carefully, as the arrangement of many features and the spatial layout carry specific meanings rather than being randomly placed.",
     "relatedCharacters": [],
     "relatedLore": ["oaths-and-prophecies"]
+  },
+  {
+    "id": "sunward-island",
+    "name": "向阳岛",
+    "nameEn": "Sunward Island",
+    "category": "exploration",
+    "categoryZh": "探索区",
+    "categoryEn": "Exploration Area",
+    "summary": "向阳岛是1.1版本「游梦洄廊」新增的海岛探索区域，包含度假村、游乐园等子区域，拥有丰富的收集品和异闻录。",
+    "summaryEn": "Sunward Island is a new island exploration area added in Version 1.1 'Dreamwalk Corridor', featuring a resort, amusement park sub-areas, and rich collectibles including Oracle Stones, Gifts from 21, and Strange Tales.",
+    "content": "向阳岛是海特洛外围的一座海岛，通过码头渡轮与主城相连。岛上设有度假村、渔村和游乐园等多种功能区，风景优美，氛围轻松。1.1版本中，向阳岛作为核心新地图开放探索，包含10个谕石、9个21的赠礼、4个打卡点和9个异闻录等丰富收集内容。\n岛上的游乐园主题区域「游梦洄廊」是1.1版本的主要游玩场景之一，提供了丰富的互动玩法和隐藏内容。此外，向阳岛还设有钓鱼点、赛车赛道等副玩法区域。探索向阳岛可获得大量探索度奖励，包括精英猎人指南、混沌染剂、芬斯和骰子等。",
+    "contentEn": "Sunward Island is an island located off the coast of Hethereau, connected to the main city via a cruise pier ferry. The island features a resort, fishing village, amusement park, and other functional areas with beautiful scenery and a relaxed atmosphere. In Version 1.1, Sunward Island opened as the core new exploration map, featuring 10 Oracle Stones, 9 Gifts from 21, 4 photo spots, and 9 Strange Tales.\nThe amusement park area 'Dreamwalk Corridor' is one of the main gameplay scenes in Version 1.1, offering rich interactive activities and hidden content. The island also includes fishing spots, racing tracks, and other side activities. Exploring Sunward Island yields generous exploration rewards including Elite Hunter Guides, Chaotic Dyes, Fons, and Fabricated Dice.",
+    "relatedCharacters": ["lacrimosa"],
+    "relatedLore": []
   }
 ]
