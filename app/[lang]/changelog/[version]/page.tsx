@@ -1,6 +1,7 @@
 import { getChangelogByVersion, getAllChangelogs } from "../../../../lib/queries";
 import { t, isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../../lib/i18n";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { ArticleJsonLd } from "../../../../components/JsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -59,6 +60,14 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
           { label: t(locale, "changelog.title"), href: `/${lang}/changelog` },
           { label: `v${cl.version}` },
         ]}
+      />
+      <ArticleJsonLd
+        title={isZhLocale(locale) ? `异环 ${versionName} 更新说明 v${cl.version}` : `Neverness to Everness ${versionName} Patch Notes v${cl.version}`}
+        description={isZhLocale(locale)
+          ? `${versionName} 版本（v${cl.version}，${cl.date}）更新内容与补偿说明`
+          : `${versionName} (v${cl.version}, ${cl.date}) patch notes and compensation details`}
+        url={`https://nteguide.com/${lang}/changelog/${version}`}
+        datePublished={cl.date}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Header */}

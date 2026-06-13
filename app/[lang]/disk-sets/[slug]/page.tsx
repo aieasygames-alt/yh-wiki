@@ -5,6 +5,7 @@ import { getDiskSet, getAllDiskSets, getAvailableCharacters } from "../../../../
 import { getAttributeLabel, getAttributeColor } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
@@ -45,6 +46,13 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
           { label: t(locale, "site.nav.cassettes"), href: `/${lang}/disk-sets` },
           { label: isZhLocale(locale) ? set.name : set.nameEn },
         ]}
+      />
+      <ArticleJsonLd
+        title={isZhLocale(locale) ? set.name : set.nameEn}
+        description={isZhLocale(locale)
+          ? `${set.name}（${set.pieces}件套）— ${set.category === "elemental" ? "元素套" : "通用套"} cassette 详细效果与适配角色`
+          : `${set.nameEn} (${set.pieces}-piece set) — ${set.category === "elemental" ? "elemental" : "general"} cassette set effects and best characters`}
+        url={`https://nteguide.com/${lang}/disk-sets/${slug}`}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Header */}

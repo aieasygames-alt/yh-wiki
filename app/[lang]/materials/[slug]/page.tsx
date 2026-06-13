@@ -4,6 +4,7 @@ import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../
 import { getMaterial, getCharactersUsingMaterial, getAllMaterials } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { GameImage } from "../../../../components/GameImage";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
@@ -76,6 +77,13 @@ export default async function MaterialDetailPage({
           { label: t(locale, "site.nav.materials"), href: `/${lang}/materials` },
           { label: material.name },
         ]}
+      />
+      <ArticleJsonLd
+        title={material.name}
+        description={isZhLocale(locale)
+          ? `${material.name} — ${typeLabels[material.type] || material.type}素材的获取位置、用途与所需角色`
+          : `${material.nameEn || material.name} — ${typeLabels[material.type] || material.type} material: locations, uses, and characters that need it`}
+        url={`https://nteguide.com/${lang}/materials/${slug}`}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Material Info Card */}

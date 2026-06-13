@@ -14,6 +14,7 @@ import {
 import { getAttributeColor, getAttributeLabel, ATTRIBUTE_LABELS } from "../../../../lib/attributes";
 import { ShareBuildButton } from "../../../../components/ShareBuildButton";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
+import { WebApplicationJsonLd } from "../../../../components/JsonLd";
 import buildsData from "../../../../data/builds.json";
 
 interface Build {
@@ -102,7 +103,12 @@ export default function BuildCalculatorPage() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <>
+      <WebApplicationJsonLd
+        name={isZhLocale(lang) ? "异环配装计算器" : "NTE Build Calculator"}
+        description={isZhLocale(lang) ? "异环角色配装查询工具，按角色查看推荐的弧盘、卡带与配队方案" : "NTE character build finder — recommended arcs, cassettes, and team comps per character"}
+      />
+      <div className="max-w-6xl mx-auto px-4 py-12">
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold">{t(lang, "buildCalculator.title")}</h1>
         <ShareBuildButton />
@@ -386,5 +392,6 @@ export default function BuildCalculatorPage() {
         <KardzPromoCard locale={lang} variant="banner" />
       </div>
     </div>
+    </>
   );
 }

@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { getAvailableCharacters, getAllWeapons } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { isZhLocale, Locale } from "../../../../lib/i18n";
+import { WebApplicationJsonLd } from "../../../../components/JsonLd";
 
 /* ── Damage calculation engine ── */
 interface DPSInput {
@@ -161,7 +162,12 @@ export default function DPSCalculatorPage() {
   );
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <>
+      <WebApplicationJsonLd
+        name={isZh ? "异环 DPS 伤害计算器" : "NTE DPS Damage Calculator"}
+        description={isZh ? "异环角色 DPS 伤害计算工具，输入攻击/暴击/元素加成等属性估算伤害输出" : "NTE DPS damage calculator — input ATK, crit, elemental bonus and skill multipliers to estimate damage output"}
+      />
+      <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-6">
         <h1 className="text-3xl font-bold">
           {isZh ? "DPS 伤害计算器" : "DPS Damage Calculator"}
@@ -426,6 +432,7 @@ export default function DPSCalculatorPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

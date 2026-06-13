@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 
 export function generateStaticParams() {
@@ -58,6 +59,13 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           { label: t(locale, "anomalies.title"), href: `/${lang}/anomalies` },
           { label: isZhLocale(locale) ? anomaly.name : anomaly.nameEn },
         ]}
+      />
+      <ArticleJsonLd
+        title={isZhLocale(locale) ? anomaly.name : anomaly.nameEn}
+        description={isZhLocale(locale)
+          ? `${anomaly.name}（${typeLabel}）— 出现位置、机制与应对策略`
+          : `${anomaly.nameEn} (${typeLabel}) — spawn locations, mechanics, and counter strategies`}
+        url={`https://nteguide.com/${lang}/anomalies/${slug}`}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Header */}

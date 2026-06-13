@@ -9,6 +9,7 @@ import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import gachaConfig from "../../../data/gacha.json";
 import { GameImage } from "../../../components/GameImage";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
+import { WebApplicationJsonLd } from "../../../components/JsonLd";
 
 interface BannerConfig {
   id: string;
@@ -195,7 +196,12 @@ export default function GachaPage() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <>
+      <WebApplicationJsonLd
+        name={isZhLocale(lang) ? "异环抽卡模拟器" : "NTE Gacha Simulator"}
+        description={isZhLocale(lang) ? "异环卡池抽卡模拟工具，支持限定池/常驻池，体验抽卡概率与保底机制" : "NTE gacha pull simulator — supports limited and standard banners, experience pull rates and the pity system"}
+      />
+      <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">{t(lang, "gacha.title")}</h1>
       <p className="text-sm text-gray-500 mb-8">{t(lang, "gacha.disclaimer")}</p>
 
@@ -458,5 +464,6 @@ export default function GachaPage() {
       )}
 
     </div>
+    </>
   );
 }
