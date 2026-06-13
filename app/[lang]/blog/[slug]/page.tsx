@@ -48,8 +48,8 @@ export async function generateMetadata({
   if (!post) return {};
   const locale = asLocale(lang);
   const isZh = isZhLocale(locale);
-  const baseTitle = isZh ? post.title : post.titleEn;
-  const description = isZh ? post.summary : post.summaryEn;
+  const baseTitle = locale === "tw" ? (post.titleTw || post.title) : isZh ? post.title : post.titleEn;
+  const description = locale === "tw" ? (post.summaryTw || post.summary) : isZh ? post.summary : post.summaryEn;
   // For non-zh/en locales, append locale name to avoid duplicate titles
   const title = baseTitle;
   return {
@@ -76,9 +76,13 @@ export default async function BlogDetailPage({
   const post = getBlogPost(slug);
   if (!post) notFound();
 
-  const title = isZhLocale(locale) ? post.title : post.titleEn;
+  const title = locale === "tw"
+    ? (post.titleTw || post.title)
+    : isZhLocale(locale) ? post.title : post.titleEn;
   const content = isZhLocale(locale) ? post.content : post.contentEn;
-  const summary = isZhLocale(locale) ? post.summary : post.summaryEn;
+  const summary = locale === "tw"
+    ? (post.summaryTw || post.summary)
+    : isZhLocale(locale) ? post.summary : post.summaryEn;
   const category = isZhLocale(locale) ? post.categoryZh : post.categoryEn;
 
   return (

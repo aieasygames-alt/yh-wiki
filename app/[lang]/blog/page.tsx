@@ -41,8 +41,8 @@ export default async function BlogListPage({ params }: { params: { lang: string 
             <BlogCard
               key={post.id}
               id={post.id}
-              title={isZhLocale(locale) ? post.title : post.titleEn}
-              summary={isZhLocale(locale) ? post.summary : post.summaryEn}
+              title={locale === "tw" ? (post.titleTw || post.title) : isZhLocale(locale) ? post.title : post.titleEn}
+              summary={locale === "tw" ? (post.summaryTw || post.summary) : isZhLocale(locale) ? post.summary : post.summaryEn}
               category={isZhLocale(locale) ? post.categoryZh : post.categoryEn}
               date={post.date}
               tags={post.tags}

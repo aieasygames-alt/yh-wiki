@@ -5132,8 +5132,8 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异环标准待定",
-      "bestWeaponEn": "Standard NTE TBD",
+      "bestWeapon": "预备备",
+      "bestWeaponEn": "Ready-Ready",
       "alternativeWeapons": [
         {
           "id": "construct",
@@ -5183,18 +5183,6 @@
         ],
         "description": "以沁红为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化沁红的伤害输出。",
         "descriptionEn": "A team built around Shinku as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
-      },
-      {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
-        "members": [
-          "shinku",
-          "jiuyuan",
-          "haniel",
-          "merula"
-        ],
-        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
-        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
       }
     ],
     "image": "/images/characters/shinku.webp",
@@ -5210,6 +5198,37 @@
       "baseAtk": 390,
       "baseDef": 785,
       "level": 80
+    },
+    "rotation": {
+      "steps": [
+        {
+          "character": "mint",
+          "action": "战技提供增益",
+          "actionEn": "Skill for team buff"
+        },
+        {
+          "character": "jiuyuan",
+          "action": "聚怪制造弱点",
+          "actionEn": "Group enemies and expose weakness"
+        },
+        {
+          "character": "shinku",
+          "action": "战技+普攻站场输出",
+          "actionEn": "Skill + normal attack sustained DPS"
+        },
+        {
+          "character": "nanally",
+          "action": "切出爆发收尾",
+          "actionEn": "Swap in for burst finish"
+        },
+        {
+          "character": "shinku",
+          "action": "终结技清场",
+          "actionEn": "Ultimate to clean up"
+        }
+      ],
+      "tips": "Mint 先手增益，Jiuyuan 聚怪后 Shinku 站场用战技触发 Anima 反应持续输出，Nanally 速切爆发收割，循环充能后 Shinku 终结技收尾。",
+      "tipsEn": "Open with Mint's buff, Jiuyuan groups enemies, then Shinku sustains with skill-triggered Anima reactions. Nanally quick-swaps for burst, and Shinku closes with Ultimate once meter is recharged."
     }
   },
   {
@@ -5307,8 +5326,8 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异环标准待定",
-      "bestWeaponEn": "Standard NTE TBD",
+      "bestWeapon": "永恒圆舞曲",
+      "bestWeaponEn": "Eternal Waltz",
       "alternativeWeapons": [
         {
           "id": "esper-constructs",
@@ -5358,18 +5377,6 @@
         ],
         "description": "尼察为核心的支援队伍，搭配高输出角色和防护角色，确保队伍的持续战斗能力。",
         "descriptionEn": "A support-focused team with Nitsa, paired with high-DPS and defense characters for sustained combat."
-      },
-      {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
-        "members": [
-          "nitsa",
-          "jiuyuan",
-          "haniel",
-          "merula"
-        ],
-        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
-        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
       }
     ],
     "image": "/images/characters/nitsa.webp",
@@ -5385,6 +5392,37 @@
       "baseAtk": 375,
       "baseDef": 800,
       "level": 80
+    },
+    "rotation": {
+      "steps": [
+        {
+          "character": "haniel",
+          "action": "战技提供护盾",
+          "actionEn": "Skill for team shield"
+        },
+        {
+          "character": "fadia",
+          "action": "切出触发反应",
+          "actionEn": "Swap in to trigger reaction"
+        },
+        {
+          "character": "nitsa",
+          "action": "战技减抗辅助",
+          "actionEn": "Skill to debuff enemies"
+        },
+        {
+          "character": "jenson",
+          "action": "站场爆发输出",
+          "actionEn": "On-field burst DPS"
+        },
+        {
+          "character": "nitsa",
+          "action": "终结技群体增益",
+          "actionEn": "Ultimate for team-wide buff"
+        }
+      ],
+      "tips": "Haniel 先手护盾保证生存，Fadia 触发 Psyche 反应，Nitsa 战技降低敌人抗性辅助主C Jenson 输出，终结技提供全队增益。",
+      "tipsEn": "Haniel opens with shield, Fadia triggers Psyche reaction, Nitsa's skill debuffs enemy resistance to amplify Jenson's DPS, and her Ultimate provides a team-wide buff."
     }
   },
   {
@@ -5482,8 +5520,8 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异环标准待定",
-      "bestWeaponEn": "Standard NTE TBD",
+      "bestWeapon": "青春的安可",
+      "bestWeaponEn": "Youthful Fantasy",
       "alternativeWeapons": [
         {
           "id": "fangs-and-claws",
@@ -5533,18 +5571,6 @@
         ],
         "description": "以黑鸟为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化黑鸟的伤害输出。",
         "descriptionEn": "A team built around Black Bird as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
-      },
-      {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
-        "members": [
-          "black-bird",
-          "jiuyuan",
-          "haniel",
-          "merula"
-        ],
-        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
-        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
       }
     ],
     "image": "/images/characters/black-bird.webp",
@@ -5565,6 +5591,37 @@
       "abyss": "A+",
       "anomaly": "A",
       "general": "A+"
+    },
+    "rotation": {
+      "steps": [
+        {
+          "character": "mismo",
+          "action": "战技聚怪控场",
+          "actionEn": "Skill to group and control"
+        },
+        {
+          "character": "daffodil",
+          "action": "副C触发反应",
+          "actionEn": "Sub-DPS reaction trigger"
+        },
+        {
+          "character": "black-bird",
+          "action": "战技撕裂站场输出",
+          "actionEn": "Void Tear sustained DPS"
+        },
+        {
+          "character": "lacrimosa",
+          "action": "速切爆发",
+          "actionEn": "Quick-swap burst"
+        },
+        {
+          "character": "black-bird",
+          "action": "终结技收尾",
+          "actionEn": "Ultimate to finish"
+        }
+      ],
+      "tips": "Mismo 先手聚怪，Daffodil 副 C 触发 Chaos 反应，Black Bird 用虚空撕裂站场输出，Lacrimosa 速切爆发，循环后 Black Bird 终结技收尾。",
+      "tipsEn": "Mismo groups enemies, Daffodil triggers Chaos reaction as sub-DPS, Black Bird sustains with Void Tear, Lacrimosa quick-swaps for burst, and Black Bird closes with Ultimate."
     }
   },
   {
@@ -5843,8 +5900,8 @@
       ]
     },
     "recommendedBuild": {
-      "bestWeapon": "异环标准待定",
-      "bestWeaponEn": "Standard NTE TBD",
+      "bestWeapon": "伞之下的守护",
+      "bestWeaponEn": "Umbrella",
       "alternativeWeapons": [
         {
           "id": "sword",
@@ -5894,18 +5951,6 @@
         ],
         "description": "以赤音为核心输出的队伍，搭配辅助角色提供增益和元素反应触发，最大化赤音的伤害输出。",
         "descriptionEn": "A team built around Akane as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
-      },
-      {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
-        "members": [
-          "akane",
-          "jiuyuan",
-          "haniel",
-          "merula"
-        ],
-        "description": "以未知成员为主的队伍，利用阵营加成和角色间的协同效果。",
-        "descriptionEn": "A team of 未知 members, leveraging faction bonuses and character synergies."
       }
     ],
     "image": "/images/characters/akane.webp",
@@ -5928,6 +5973,37 @@
       "abyss": "A",
       "anomaly": "A",
       "general": "A+"
+    },
+    "rotation": {
+      "steps": [
+        {
+          "character": "sakiri",
+          "action": "战技聚怪减抗",
+          "actionEn": "Skill to group and debuff"
+        },
+        {
+          "character": "baicang",
+          "action": "副C挂元素",
+          "actionEn": "Sub-DPS element application"
+        },
+        {
+          "character": "akane",
+          "action": "战技+普攻站场",
+          "actionEn": "Skill + normal attack sustain"
+        },
+        {
+          "character": "adler",
+          "action": "速切爆发",
+          "actionEn": "Quick-swap burst"
+        },
+        {
+          "character": "akane",
+          "action": "终结技清场",
+          "actionEn": "Ultimate to clean up"
+        }
+      ],
+      "tips": "Sakiri 先手聚怪减抗，Baicang 挂元素，Akane 用言灵之力触发 Incantation 反应站场输出，Adler 速切爆发，Akane 终结技收尾。",
+      "tipsEn": "Sakiri opens with grouping and debuff, Baicang applies elements, Akane sustains with Power of Words triggering Incantation reactions, Adler quick-swaps for burst, and Akane closes with Ultimate."
     }
   },
   {
@@ -6814,6 +6890,37 @@
       "baseAtk": 372,
       "baseDef": 795,
       "level": 80
+    },
+    "rotation": {
+      "steps": [
+        {
+          "character": "haniel",
+          "action": "战技护盾保命",
+          "actionEn": "Skill for shield"
+        },
+        {
+          "character": "fadia",
+          "action": "触发 Psyche 反应",
+          "actionEn": "Trigger Psyche reaction"
+        },
+        {
+          "character": "renee",
+          "action": "战技减抗辅助",
+          "actionEn": "Skill to debuff"
+        },
+        {
+          "character": "nitsa",
+          "action": "双辅叠加增益",
+          "actionEn": "Double-support stacking"
+        },
+        {
+          "character": "renee",
+          "action": "终结技全队增益",
+          "actionEn": "Ultimate team buff"
+        }
+      ],
+      "tips": "Haniel 先手护盾，Fadia 触发 Psyche 反应，Renee 战技减抗，与 Nitsa 组成双辅叠加增益，最终 Renee 终结技提供全队爆发窗口。",
+      "tipsEn": "Haniel opens with shield, Fadia triggers Psyche reaction, Renee's skill debuffs, and together with Nitsa forms a double-support core. Renee's Ultimate opens a team-wide burst window."
     }
   },
   {

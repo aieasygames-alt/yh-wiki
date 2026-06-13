@@ -39,6 +39,9 @@ export interface Skills {
   skill: Skill;
   ultimate: Skill;
   passives: Skill[];
+  qte?: Skill;
+  resonance?: Skill;
+  awakening?: Skill[];
 }
 
 export interface RecommendedBuild {
@@ -436,8 +439,10 @@ export interface BlogPost {
   id: string;
   title: string;
   titleEn: string;
+  titleTw?: string;
   summary: string;
   summaryEn: string;
+  summaryTw?: string;
   content: string;
   contentEn: string;
   category: string;

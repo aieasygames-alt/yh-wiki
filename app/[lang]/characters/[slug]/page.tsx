@@ -207,6 +207,14 @@ export default async function CharacterDetailPage({
           <KardzPromoCard locale={locale} variant="compact" />
         </div>
 
+        {/* Materials placeholder for upcoming characters */}
+        {character.status !== "available" && (
+          <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
+            <h2 className="text-xl font-bold mb-2">{t(locale, "characters.levelingMaterials")}</h2>
+            <p className="text-sm text-gray-500">{t(locale, "characters.materialsUpcoming")}</p>
+          </section>
+        )}
+
         {/* Leveling Materials - only for available characters */}
         {cm && character.status === "available" && (
           <section className="mb-8">

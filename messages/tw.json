@@ -39,8 +39,8 @@
       "dpsCalc": "DPS 計算器",
       "cityTycoon": "都市大亨",
       "voiceActors": "聲優一覽",
-      "multiplayer": "多人联机",
-      "gameplay": "游戏概览"
+      "multiplayer": "多人連線",
+      "gameplay": "遊戲概覽"
     }
   },
   "home": {
@@ -70,9 +70,13 @@
     "skill": "戰技",
     "ultimate": "終結技",
     "passives": "被動天賦",
+    "qte": "QTE 支援",
+    "resonance": "共鳴",
+    "awakening": "覺醒",
     "scaling": "倍率",
     "cooldown": "冷卻",
     "cost": "消耗",
+    "materialsUpcoming": "該角色尚未實裝，升級與技能材料將在正式上線後補充。",
     "recommendedBuild": "推薦配裝",
     "bestWeapon": "最佳武器",
     "alternativeWeapons": "替代武器",
@@ -205,6 +209,7 @@
     "seoTitle": "異環兌換碼（2026年5月）— 國服/國際服禮包碼序號大全、直播兌換碼即時更新 | NTE Guide",
     "description": "異環(NTE)兌換碼即時更新（2026年5月）。國服和國際服所有有效禮包碼/序號，含前瞻直播碼、開服碼，附兌換方法教學和獎勵一覽。",
     "lastUpdate": "最後更新",
+    "updatedDate": "2026-04-23",
     "total": "總計",
     "active": "有效",
     "expired": "已過期",

@@ -264,10 +264,10 @@ export default async function HomePage({
                   <time className="text-xs text-gray-500" dateTime={post.date}>{post.date}</time>
                 </div>
                 <h3 className="text-base font-medium line-clamp-2">
-                  {isZhLocale(locale) ? post.title : post.titleEn}
+                  {locale === "tw" ? (post.titleTw || post.title) : isZhLocale(locale) ? post.title : post.titleEn}
                 </h3>
                 <p className="text-sm text-gray-500 mt-1 line-clamp-2">
-                  {isZhLocale(locale) ? post.summary : post.summaryEn}
+                  {locale === "tw" ? (post.summaryTw || post.summary) : isZhLocale(locale) ? post.summary : post.summaryEn}
                 </p>
               </Link>
             ))}
@@ -284,7 +284,7 @@ export default async function HomePage({
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {sRankChars.map((c) => (
-              <CharacterCard key={c.id} id={c.id} name={c.name} nameEn={c.nameEn} attribute={c.attribute} rank={c.rank} locale={locale} />
+              <CharacterCard key={c.id} id={c.id} name={c.name} nameTw={c.nameTw} nameEn={c.nameEn} attribute={c.attribute} rank={c.rank} locale={locale} />
             ))}
           </div>
         </section>
@@ -294,16 +294,16 @@ export default async function HomePage({
           <h2 className="text-2xl font-bold mb-6">{t(locale, "quickLinks.title")}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {[
-              { label: isZhLocale(locale) ? "异环强度排行" : "NTE Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? "全角色评级排名" : "Character rankings" },
-              { label: isZhLocale(locale) ? "异环配队推荐" : "Best Teams", href: `/${lang}/teams`, desc: isZhLocale(locale) ? "最佳队伍搭配" : "Best team builds" },
-              { label: isZhLocale(locale) ? "异环交互地图" : "Interactive Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? "全地图收集品标记" : "All collectibles marked" },
-              { label: isZhLocale(locale) ? "异环兑换码" : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? "最新兑换码实时更新" : "Latest active codes" },
-              { label: isZhLocale(locale) ? "异环下载安装" : "Download NTE", href: `/${lang}/guides/download-install-guide`, desc: isZhLocale(locale) ? "PC/手机/PS5下载" : "PC, mobile & PS5" },
-              { label: isZhLocale(locale) ? "异环配置要求" : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? "PC/手机最低配置" : "PC & mobile specs" },
-              { label: isZhLocale(locale) ? "异环武器图鉴" : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? "全弧盘武器数据库" : "Weapon database" },
-              { label: isZhLocale(locale) ? "异环Boss攻略" : "Boss Guides", href: `/${lang}/bosses`, desc: isZhLocale(locale) ? "全Boss打法详解" : "All boss strategies" },
-              { label: isZhLocale(locale) ? "异环世界观" : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? "剧情设定百科" : "Story & lore" },
-              { label: isZhLocale(locale) ? "DPS计算器" : "DPS Calculator", href: `/${lang}/calculator/dps`, desc: isZhLocale(locale) ? "循环输出计算" : "Rotation DPS calc" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環強度排行" : "异环强度排行") : "NTE Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? (locale === "tw" ? "全角色評級排名" : "全角色评级排名") : "Character rankings" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環配隊推薦" : "异环配队推荐") : "Best Teams", href: `/${lang}/teams`, desc: isZhLocale(locale) ? (locale === "tw" ? "最佳隊伍搭配" : "最佳队伍搭配") : "Best team builds" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環互動地圖" : "异环交互地图") : "Interactive Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? (locale === "tw" ? "全地圖收集品標記" : "全地图收集品标记") : "All collectibles marked" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環兌換碼" : "异环兑换码") : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? (locale === "tw" ? "最新兌換碼即時更新" : "最新兑换码实时更新") : "Latest active codes" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環下載安裝" : "异环下载安装") : "Download NTE", href: `/${lang}/guides/download-install-guide`, desc: isZhLocale(locale) ? (locale === "tw" ? "PC/手機/PS5下載" : "PC/手机/PS5下载") : "PC, mobile & PS5" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環配置要求" : "异环配置要求") : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? (locale === "tw" ? "PC/手機最低配置" : "PC/手机最低配置") : "PC & mobile specs" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環武器圖鑑" : "异环武器图鉴") : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? (locale === "tw" ? "全弧盤武器資料庫" : "全弧盘武器数据库") : "Weapon database" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環Boss攻略" : "异环Boss攻略") : "Boss Guides", href: `/${lang}/bosses`, desc: isZhLocale(locale) ? (locale === "tw" ? "全Boss打法詳解" : "全Boss打法详解") : "All boss strategies" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環世界觀" : "异环世界观") : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? (locale === "tw" ? "劇情設定百科" : "剧情设定百科") : "Story & lore" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "DPS計算器" : "DPS计算器") : "DPS Calculator", href: `/${lang}/calculator/dps`, desc: isZhLocale(locale) ? (locale === "tw" ? "循環輸出計算" : "循环输出计算") : "Rotation DPS calc" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>

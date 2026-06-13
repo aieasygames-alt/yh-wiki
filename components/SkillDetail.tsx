@@ -112,6 +112,21 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
     },
   ];
 
+  if (skills.qte) {
+    sections.push({
+      skill: skills.qte,
+      label: t(locale, "characters.qte"),
+      icon: "⚡",
+    });
+  }
+  if (skills.resonance) {
+    sections.push({
+      skill: skills.resonance,
+      label: t(locale, "characters.resonance"),
+      icon: "◈",
+    });
+  }
+
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
@@ -140,10 +155,33 @@ export function SkillDetail({ skills, locale }: SkillDetailProps) {
                   skill={passive}
                   label={
                     isZhLocale(locale)
-                      ? `被动 ${i + 1}`
+                      ? (locale === "tw" ? `被動 ${i + 1}` : `被动 ${i + 1}`)
                       : `Passive ${i + 1}`
                   }
                   icon="◆"
+                  locale={locale}
+                  defaultOpen={false}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+        {skills.awakening && skills.awakening.length > 0 && (
+          <div className="mt-4">
+            <h3 className="text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wide">
+              {t(locale, "characters.awakening")}
+            </h3>
+            <div className="space-y-2">
+              {skills.awakening.map((awakening, i) => (
+                <SkillCard
+                  key={`awakening-${i}`}
+                  skill={awakening}
+                  label={
+                    isZhLocale(locale)
+                      ? (locale === "tw" ? `覺醒 ${i + 1}` : `觉醒 ${i + 1}`)
+                      : `Awakening ${i + 1}`
+                  }
+                  icon="☆"
                   locale={locale}
                   defaultOpen={false}
                 />
