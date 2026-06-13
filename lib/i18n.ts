@@ -83,7 +83,8 @@ function buildHreflangMap(pathFn: (locale: Locale) => string): Record<string, st
 
 /** Generate hreflang alternates for a given path (without leading /) */
 export function hreflangAlternates(pathWithoutLang: string, lang: string) {
-  const urlWithSlash = `${pathWithoutLang}/`;
+  const cleanPath = pathWithoutLang.replace(/^\/+|\/+$/g, "");
+  const urlWithSlash = cleanPath ? `${cleanPath}/` : "";
   const locale = asLocale(lang);
   return {
     canonical: `${BASE_URL}/${locale}/${urlWithSlash}`,
