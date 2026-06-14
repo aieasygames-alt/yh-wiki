@@ -71,7 +71,7 @@ export default async function WeaponDetailPage({
     <>
       <ReviewJsonLd
         itemName={weapon.nameEn}
-        itemType="Product"
+        itemType="CreativeWork"
         ratingValue={weapon.rank === "S" ? 4.5 : weapon.rank === "A" ? 3.5 : 2.5}
         reviewBody={`${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc (Base ATK ${weapon.baseAtk}). Editorial rating assigned by nteguide based on rarity tier and base stats — S-rank weapons are top-tier, A-rank solid options, B-rank niche or transitional.`}
         url={`https://nteguide.com/${lang}/weapons/${slug}`}
