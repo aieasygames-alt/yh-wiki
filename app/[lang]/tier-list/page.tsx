@@ -1,7 +1,7 @@
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { ArticleJsonLd, ReviewJsonLd } from "../../../components/JsonLd";
+import { ArticleJsonLd } from "../../../components/JsonLd";
 import { GiscusComments } from "../../../components/GiscusComments";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
 import { TierListView } from "../../../components/TierListView";
@@ -57,17 +57,6 @@ export default async function TierListPage({
         url={`https://nteguide.com/${lang}/tier-list`}
         datePublished="2026-05-23"
         dateModified="2026-06-04"
-      />
-      <ReviewJsonLd
-        itemName={isZh ? (locale === "tw" ? "異環角色強度排行" : "异环角色强度排行") : "Neverness to Everness Tier List"}
-        itemType="CreativeWork"
-        ratingValue={4}
-        reviewBody={isZh
-          ? (locale === "tw"
-            ? `nteguide 編輯團隊基於 ${characters.length} 位角色的技能倍率、隊伍適配度與泛用性綜合評估。版本 1.2 數據，隨版本更新調整。`
-            : `nteguide 编辑团队基于 ${characters.length} 位角色的技能倍率、队伍适配度与泛用性综合评估。版本 1.2 数据，随版本更新调整。`)
-          : `Editorial assessment by the nteguide team based on skill multipliers, team synergy, and versatility across ${characters.length} characters. Version 1.2 data, updated each patch.`}
-        url={`https://nteguide.com/${lang}/tier-list`}
       />
       <div className="max-w-5xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">

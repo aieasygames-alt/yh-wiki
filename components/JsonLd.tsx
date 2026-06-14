@@ -219,66 +219,6 @@ export function VideoGameJsonLd() {
   );
 }
 
-/**
- * Editorial review schema. Author is the nteguide editorial team, NOT an
- * aggregate of user ratings. This is compliant with Google's review-snippet
- * policy (self-serving review snippets must be genuine editorial reviews or
- * authentic user ratings — not fabricated aggregate counts).
- */
-export function ReviewJsonLd({
-  itemName,
-  itemType = "Thing",
-  ratingValue,
-  bestRating = "5",
-  worstRating = "1",
-  reviewBody,
-  url,
-  image,
-}: {
-  itemName: string;
-  itemType?: string;
-  ratingValue: number | string;
-  bestRating?: string;
-  worstRating?: string;
-  reviewBody?: string;
-  url?: string;
-  image?: string;
-}) {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    itemReviewed: {
-      "@type": itemType,
-      name: itemName,
-      ...(image ? { image } : {}),
-      ...(url ? { url } : {}),
-    },
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: String(ratingValue),
-      bestRating,
-      worstRating,
-    },
-    author: {
-      "@type": "Organization",
-      name: "nteguide Editorial Team",
-      url: "https://nteguide.com",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "nteguide",
-      url: "https://nteguide.com",
-    },
-    ...(reviewBody ? { reviewBody } : {}),
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-    />
-  );
-}
-
 export function ProductJsonLd({ name, description, url, image, ratingValue, reviewCount }: { name: string; description: string; url?: string; image?: string; ratingValue?: number; reviewCount?: number }) {
   const jsonLd = {
     "@context": "https://schema.org",
