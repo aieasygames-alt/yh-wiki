@@ -2,7 +2,7 @@ import Link from "next/link";
 import { t, isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../lib/i18n";
 import { getGuide, getCharacter, getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
+import { ArticleJsonLd, FaqPageJsonLd, ItemListJsonLd } from "../../../components/JsonLd";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
 import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
@@ -47,6 +47,119 @@ const COMP_TYPE_COLORS: Record<string, string> = {
   alternative: "bg-gray-500/20 text-gray-400 border-gray-500/30",
 };
 
+const FEATURED_TEAMS = [
+  {
+    id: "lacrimosa-chaos-dot",
+    rank: "SS",
+    scenario: "Meta DPS",
+    scenarioZh: "版本主C",
+    name: "Lacrimosa Chaos DoT Core",
+    nameZh: "安魂曲混沌持续输出队",
+    members: ["lacrimosa", "daffodil", "baicang", "haniel"],
+    note: "Best for players who pulled Lacrimosa and want a Chaos-focused carry team with defensive coverage and support buffs.",
+    noteZh: "适合已抽安魂曲、想围绕混沌持续输出组队的玩家，兼顾防护、增益和持续伤害。",
+  },
+  {
+    id: "chaos-lakshana-burst",
+    rank: "S+",
+    scenario: "Next Banner Prep",
+    scenarioZh: "下期卡池预备",
+    name: "Chaos Lakshana Burst Team",
+    nameZh: "卡厄斯相属性爆发队",
+    members: ["chaos", "hathor", "jiuyuan", "haniel"],
+    note: "A pull-plan team for Chaos, pairing Lakshana support with grouping and team-wide buffs.",
+    noteZh: "围绕卡厄斯的预备配队，用相属性支援、聚怪和全队增益提高爆发窗口质量。",
+  },
+  {
+    id: "nanally-general-meta",
+    rank: "SS",
+    scenario: "General Meta",
+    scenarioZh: "泛用强队",
+    name: "Nanally General Carry",
+    nameZh: "娜娜莉泛用主C队",
+    members: ["nanally", "jiuyuan", "hotori", "zero-male"],
+    note: "A stable all-purpose lineup with damage, grouping, buffs, and the protagonist's Ring Fusion utility.",
+    noteZh: "兼具输出、聚怪、增益和主角环合功能，适合多数主线、日常和探索战斗。",
+  },
+  {
+    id: "xiaozhi-f2p-core",
+    rank: "S+",
+    scenario: "F2P",
+    scenarioZh: "零氪平民",
+    name: "Xiaozhi F2P Core",
+    nameZh: "小吱零氪核心队",
+    members: ["xiaozhi", "sakiri", "mint", "zero-male"],
+    note: "Best low-spend route: Xiaozhi carries while Sakiri, Mint, and Zero cover buffs, healing, and reactions.",
+    noteZh: "低氪/零氪优先路线，小吱站场输出，咲里、薄荷、零补足增益、治疗与反应。",
+  },
+  {
+    id: "xun-cosmos-blossom",
+    rank: "S",
+    scenario: "Control",
+    scenarioZh: "控场清场",
+    name: "Xun Cosmos Blossom",
+    nameZh: "浔光耀坼绽队",
+    members: ["xun", "zero-male", "mint", "nanally"],
+    note: "Control-heavy team built around Xun utility, Zero damage, and repeated crowd-control windows.",
+    noteZh: "围绕浔的治疗、控制和技能复刻展开，适合需要稳定控场和清杂的内容。",
+  },
+  {
+    id: "illica-lakshana-safe",
+    rank: "S",
+    scenario: "Safe Clear",
+    scenarioZh: "稳健通关",
+    name: "Illica Lakshana Sustain",
+    nameZh: "伊洛伊相属性稳健队",
+    members: ["illica", "hathor", "jiuyuan", "adler"],
+    note: "A safer Lakshana setup for players who value sustain, grouping, and defensive room over pure burst.",
+    noteZh: "偏稳健的相属性组合，牺牲少量爆发换取聚怪、防护和容错。",
+  },
+  {
+    id: "daffodil-boss-break",
+    rank: "S",
+    scenario: "Boss",
+    scenarioZh: "Boss战",
+    name: "Daffodil Boss Break",
+    nameZh: "达芙迪尔Boss特化队",
+    members: ["daffodil", "lacrimosa", "baicang", "hotori"],
+    note: "Boss-focused composition for Chaos damage windows, defensive utility, and burst setup.",
+    noteZh: "面向Boss战的混沌窗口队，兼顾爆发准备、防护和持续压制。",
+  },
+  {
+    id: "hotori-exploration-speed",
+    rank: "S",
+    scenario: "Exploration",
+    scenarioZh: "探索跑图",
+    name: "Hotori Exploration Utility",
+    nameZh: "穗鸟探索功能队",
+    members: ["hotori", "jiuyuan", "zero-male", "mint"],
+    note: "Exploration-friendly team with utility, grouping, sustain, and easy reaction setup.",
+    noteZh: "适合跑图、清杂和日常探索，功能覆盖广，操作负担低。",
+  },
+  {
+    id: "haniel-hypercarry-shell",
+    rank: "S",
+    scenario: "Flexible",
+    scenarioZh: "万能外挂",
+    name: "Haniel Hypercarry Shell",
+    nameZh: "哈尼尔主C外挂壳",
+    members: ["haniel", "lacrimosa", "chaos", "jiuyuan"],
+    note: "Flexible support shell: swap the carry slot between Lacrimosa, Chaos, Nanally, or Xiaozhi as your roster changes.",
+    noteZh: "通用辅助壳，主C位可按BOX换成安魂曲、卡厄斯、娜娜莉或小吱。",
+  },
+  {
+    id: "starter-selector-team",
+    rank: "A+",
+    scenario: "Beginner",
+    scenarioZh: "新手开荒",
+    name: "Beginner Selector Team",
+    nameZh: "新手自选开荒队",
+    members: ["jiuyuan", "mint", "zero-male", "adler"],
+    note: "Beginner-friendly route that keeps healing, grouping, and defensive utility covered before limited banners.",
+    noteZh: "适合限定角色不齐的新手，用治疗、聚怪和防护先把开荒体验稳定住。",
+  },
+];
+
 export async function generateMetadata({
   params,
 }: {
@@ -61,11 +174,11 @@ export async function generateMetadata({
     ? "异环全角色配队推荐：每角色的最佳队伍组合、Esper Cycle反应链、平民替代方案，按强度排序。"
     : "Best team compositions for all NTE characters: optimal teams, Esper Cycle reaction chains, F2P alternatives, ranked by tier.";
   return {
-    title: `${title} | NTE Guide`,
+    title,
     description,
     alternates: hreflangAlternates("teams", lang),
     openGraph: {
-      title: `${title} | NTE Guide`,
+      title,
       description,
       type: "article",
     },
@@ -111,6 +224,12 @@ export default async function TeamsPage({
         description={summary}
         url={`https://nteguide.com/${lang}/teams`}
       />
+      <ItemListJsonLd
+        items={FEATURED_TEAMS.map((team) => ({
+          name: zh ? team.nameZh : team.name,
+          url: `https://nteguide.com/${lang}/teams#${team.id}`,
+        }))}
+      />
       {guide && guide.faq && guide.faq.length > 0 && (
         <FaqPageJsonLd faqs={guide.faq} lang={locale} />
       )}
@@ -140,6 +259,109 @@ export default async function TeamsPage({
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Ranked teams by scenario */}
+        <section className="mb-12">
+          <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between mb-5">
+            <div>
+              <h2 className="text-2xl font-bold">
+                {zh ? "按场景排名的最佳队伍" : "Best Teams Ranked by Scenario"}
+              </h2>
+              <p className="text-sm text-gray-500 mt-1">
+                {zh
+                  ? "优先覆盖版本主C、零氪开荒、Boss战、探索清场和通用辅助壳。"
+                  : "Covers meta carries, F2P progression, boss fights, exploration, and flexible support shells."}
+              </p>
+            </div>
+            <Link
+              href={`/${lang}/team-builder`}
+              className="text-sm text-primary-400 hover:text-primary-300"
+            >
+              {zh ? "打开配队模拟器" : "Open Team Builder"}
+            </Link>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            {FEATURED_TEAMS.map((team, index) => {
+              const members = team.members
+                .map((id) => getCharacter(id))
+                .filter(Boolean);
+
+              return (
+                <article
+                  id={team.id}
+                  key={team.id}
+                  className="rounded-xl border border-gray-800 bg-gray-900/40 p-5 hover:border-primary-500/30 transition-colors scroll-mt-20"
+                >
+                  <div className="flex items-start justify-between gap-3 mb-4">
+                    <div className="min-w-0">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className="text-xs font-mono text-gray-500">
+                          #{index + 1}
+                        </span>
+                        <span className="text-xs px-2 py-0.5 rounded-full border border-primary-500/30 bg-primary-500/10 text-primary-300">
+                          {zh ? team.scenarioZh : team.scenario}
+                        </span>
+                        <TierBadge rank={team.rank} locale={locale} />
+                      </div>
+                      <h3 className="text-lg font-bold">
+                        {zh ? team.nameZh : team.name}
+                      </h3>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
+                    {members.map((member) => (
+                      <Link
+                        key={member!.id}
+                        href={`/${lang}/characters/${member!.id}`}
+                        className="rounded-lg border border-gray-800 bg-gray-950/40 p-2 hover:border-primary-500/40 transition-colors"
+                      >
+                        <div className="flex items-center gap-2">
+                          {member!.image && (
+                            <GameImage
+                              type="character"
+                              id={member!.id}
+                              name={charName(member!, locale)}
+                              src={member!.image}
+                              alt={charName(member!, locale)}
+                              width={30}
+                              height={30}
+                              className="rounded-md shrink-0"
+                            />
+                          )}
+                          <div className="min-w-0">
+                            <p className="text-xs font-medium truncate">
+                              {charName(member!, locale)}
+                            </p>
+                            <p className="text-[10px] text-gray-500">
+                              {getAttributeLabel(member!.attribute, locale)}
+                            </p>
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    {zh ? team.noteZh : team.note}
+                  </p>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
+        <div className="mb-5">
+          <h2 className="text-2xl font-bold">
+            {zh ? "按角色查看配队" : "Teams by Character"}
+          </h2>
+          <p className="text-sm text-gray-500 mt-1">
+            {zh
+              ? "继续向下可查看每个角色的最佳、推荐和平民替代队伍。"
+              : "Scroll on for each character's best, alternative, and F2P team options."}
+          </p>
         </div>
 
         {/* Team Comps by Character */}
