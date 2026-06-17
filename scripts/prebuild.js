@@ -77,15 +77,29 @@ function generateSitemaps() {
     return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
-  function buildUrlEntries(urls) {
+  function existingLastmods(filename) {
+    const file = path.join(PUBLIC, filename);
+    if (!fs.existsSync(file)) return new Map();
+
+    const xml = fs.readFileSync(file, "utf-8");
+    const lastmods = new Map();
+    const entryRe = /<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g;
+    let match;
+    while ((match = entryRe.exec(xml))) {
+      lastmods.set(match[1], match[2]);
+    }
+    return lastmods;
+  }
+
+  function buildUrlEntries(urls, previousLastmods) {
     const now = new Date().toISOString();
     return urls.map(({ url, priority, changeFreq }) =>
-      `  <url>\n    <loc>${escapeXml(url)}</loc>\n    <lastmod>${now}</lastmod>\n    <changefreq>${changeFreq || "weekly"}</changefreq>\n    <priority>${priority || 0.5}</priority>\n  </url>`
+      `  <url>\n    <loc>${escapeXml(url)}</loc>\n    <lastmod>${previousLastmods.get(url) || now}</lastmod>\n    <changefreq>${changeFreq || "weekly"}</changefreq>\n    <priority>${priority || 0.5}</priority>\n  </url>`
     ).join("\n");
   }
 
   function writeSitemap(filename, urls) {
-    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${buildUrlEntries(urls)}\n</urlset>\n`;
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${buildUrlEntries(urls, existingLastmods(filename))}\n</urlset>\n`;
     fs.writeFileSync(path.join(PUBLIC, filename), xml, "utf-8");
     console.log(`[sitemap] ${filename}: ${urls.length} URLs`);
   }
@@ -153,7 +167,23 @@ function generateSitemaps() {
   // Sitemap index
   const subSitemaps = ["sitemap-pages.xml", "sitemap-characters.xml", "sitemap-weapons.xml", "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml"];
   const now = new Date().toISOString();
-  const indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${subSitemaps.map(s => `  <sitemap>\n    <loc>${BASE_URL}/${s}</loc>\n    <lastmod>${now}</lastmod>\n  </sitemap>`).join("\n")}\n</sitemapindex>\n`;
+  const existingIndexLastmods = (() => {
+    const file = path.join(PUBLIC, "sitemap.xml");
+    if (!fs.existsSync(file)) return new Map();
+
+    const xml = fs.readFileSync(file, "utf-8");
+    const lastmods = new Map();
+    const entryRe = /<sitemap>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g;
+    let match;
+    while ((match = entryRe.exec(xml))) {
+      lastmods.set(match[1], match[2]);
+    }
+    return lastmods;
+  })();
+  const indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${subSitemaps.map(s => {
+    const loc = `${BASE_URL}/${s}`;
+    return `  <sitemap>\n    <loc>${loc}</loc>\n    <lastmod>${existingIndexLastmods.get(loc) || now}</lastmod>\n  </sitemap>`;
+  }).join("\n")}\n</sitemapindex>\n`;
   fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), indexXml, "utf-8");
 
   const total = pageUrls.length + characterUrls.length + weaponUrls.length + vehicleUrls.length + guideUrls.length + otherUrls.length;

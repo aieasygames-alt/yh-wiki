@@ -1,13 +1,13 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-06-09
+> Generated: 2026-06-17
 
 ## Characters (44)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
 - [咲里 / Sakiri](/en/characters/sakiri/) — S-rank incantation Support
 - [法蒂亚 / Fadia](/en/characters/fadia/) — S-rank psyche Attack
-- [拉克莉莫萨 / Lacrimosa](/en/characters/lacrimosa/) — S-rank chaos Attack
+- [安魂曲 / Lacrimosa](/en/characters/lacrimosa/) — S-rank chaos Attack
 - [白藏 / Baicang](/en/characters/baicang/) — S-rank incantation Defense
 - [零（男） / Zero (Male)](/en/characters/zero-male/) — S-rank cosmos Attack
 - [零（女） / Zero (Female)](/en/characters/zero-female/) — S-rank cosmos Attack
@@ -93,7 +93,7 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (89)
+## Guides (93)
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -146,7 +146,7 @@
 - [异环羁遇系统完全攻略：角色好感度、同居与社交互动](/en/guides/bond-system-guide/) — Game Systems (updated 2026-06-04)
 - [异环游乐园/向阳岛探索攻略：全收集、宝箱位置与隐藏内容](/en/guides/amusement-park-exploration-guide/) — Exploration (updated 2026-06-04)
 - [异环×保时捷联动完全攻略：限定车辆时装获取与活动奖励](/en/guides/porsche-collab-guide/) — Events (updated 2026-06-04)
-- [拉克莉莫萨完全攻略 — T0混沌属性主C配队/弧盘/磁盘推荐](/en/guides/lacrimosa-build-guide/) — Character Guide (updated 2026-06-01)
+- [安魂曲完全攻略 — T0混沌属性主C配队/弧盘/磁盘推荐](/en/guides/lacrimosa-build-guide/) — Character Guide (updated 2026-06-01)
 - [卡厄斯完全攻略 — S级相属性爆发主C配队/弧盘/磁盘推荐](/en/guides/chaos-build-guide/) — Character Guide (updated 2026-06-01)
 - [达芙迪尔完全攻略 — S级混沌Boss杀手配队/弧盘/磁盘推荐](/en/guides/daffodil-build-guide/) — Character Guide (updated 2026-06-01)
 - [哈索尔完全攻略 — S级相属性爆发输出配队/弧盘/磁盘推荐](/en/guides/hathor-build-guide/) — Character Guide (updated 2026-06-01)
@@ -183,8 +183,12 @@
 - [Adler完全攻略 — A级副C/控制角色配队/弧盘/磁盘推荐](/en/guides/adler-build-guide/) — Character Guide (updated 2026-06-06)
 - [Haniel完全攻略 — A级支援角色配队/弧盘/磁盘推荐](/en/guides/haniel-build-guide/) — Character Guide (updated 2026-06-06)
 - [Edgar完全攻略 — A级进攻角色配队/弧盘/磁盘推荐](/en/guides/edgar-build-guide/) — Character Guide (updated 2026-06-06)
+- [异环监狱与通缉系统完全攻略：消星、越狱与避免被抓技巧](/en/guides/prison-wanted-system-guide/) — Gameplay (updated 2026-06-10)
+- [异环钓鱼系统完全攻略：解锁条件、钓鱼地点、鱼饵与全鱼种图鉴](/en/guides/fishing-system-guide/) — Gameplay (updated 2026-06-10)
+- [异环快速赚钱攻略：方斯与环石最高效获取途径全汇总](/en/guides/fons-farming-guide/) — Farming (updated 2026-06-10)
+- [异环车辆获取与驾驶完全攻略：买车、保时捷联动、改装与赛车技巧](/en/guides/vehicle-driving-guide/) — Gameplay (updated 2026-06-10)
 
-## FAQ (274)
+## FAQ (288)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
@@ -459,6 +463,20 @@
 - What can get you banned in NTE? Ban rules and penalties explained
 - Why is the NTE Arc Disc banner controversial? Arc vs Character banner differences
 - Is NTE pay-to-win? Can you play without spending? Monetization analysis
+- How does the wanted system trigger in NTE?
+- How do I escape from prison in NTE?
+- What are the penalties for going to prison in NTE?
+- Does NTE pity carry over between banners?
+- Is NTE free-to-play friendly?
+- Is NTE available on PS5?
+- What's the difference between CN and Global servers?
+- Does NTE support cross-save?
+- How do I mute Taygedo in NTE?
+- Does Lacrimosa need Hayashikiri in NTE?
+- When does Shinku release in NTE?
+- What level unlocks driving in NTE?
+- How do I buy a house in NTE?
+- What is the NTE AI art controversy about?
 
 ## Active Redeem Codes (6)
 - NTEFREE: Fons x30,000
