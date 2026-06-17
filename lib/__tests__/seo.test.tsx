@@ -157,6 +157,9 @@ describe("ProductJsonLd", () => {
     expect(data.name).toBe("NTE");
     expect(data.mainEntity["@type"]).toBe("Product");
     expect(data.mainEntity.name).toBe("NTE");
+    expect(data.mainEntity.offers["@type"]).toBe("Offer");
+    expect(data.mainEntity.offers.shippingDetails["@type"]).toBe("OfferShippingDetails");
+    expect(data.mainEntity.offers.hasMerchantReturnPolicy["@type"]).toBe("MerchantReturnPolicy");
   });
 });
 

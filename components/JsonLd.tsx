@@ -219,7 +219,47 @@ export function VideoGameJsonLd() {
   );
 }
 
-export function ProductJsonLd({ name, description, url, image, ratingValue, reviewCount }: { name: string; description: string; url?: string; image?: string; ratingValue?: number; reviewCount?: number }) {
+export function ProductJsonLd({ name, description, url, image, ratingValue, reviewCount, category }: { name: string; description: string; url?: string; image?: string; ratingValue?: number; reviewCount?: number; category?: string }) {
+  const offer = {
+    "@type": "Offer",
+    url: url || "https://nteguide.com",
+    price: "0",
+    priceCurrency: "USD",
+    availability: "https://schema.org/InStock",
+    itemCondition: "https://schema.org/NewCondition",
+    shippingDetails: {
+      "@type": "OfferShippingDetails",
+      shippingRate: {
+        "@type": "MonetaryAmount",
+        value: "0",
+        currency: "USD",
+      },
+      shippingDestination: {
+        "@type": "DefinedRegion",
+        addressCountry: "US",
+      },
+      deliveryTime: {
+        "@type": "ShippingDeliveryTime",
+        handlingTime: {
+          "@type": "QuantitativeValue",
+          minValue: 0,
+          maxValue: 0,
+          unitCode: "DAY",
+        },
+        transitTime: {
+          "@type": "QuantitativeValue",
+          minValue: 0,
+          maxValue: 0,
+          unitCode: "DAY",
+        },
+      },
+    },
+    hasMerchantReturnPolicy: {
+      "@type": "MerchantReturnPolicy",
+      applicableCountry: "US",
+      returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+    },
+  };
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemPage",
@@ -231,6 +271,9 @@ export function ProductJsonLd({ name, description, url, image, ratingValue, revi
       "@type": "Product",
       name,
       description,
+      ...(category ? { category } : {}),
+      image: image || "https://nteguide.com/og.png",
+      offers: offer,
       ...(ratingValue ? {
         aggregateRating: {
           "@type": "AggregateRating",
