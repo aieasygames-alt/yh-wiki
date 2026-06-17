@@ -37,7 +37,7 @@ export default async function TierListPage({
   const characters = getAvailableCharacters();
   const isZh = isZhLocale(locale);
   const zhTitle = locale === "tw" ? "異環角色強度排行 Tier List" : "异环角色强度排行 Tier List";
-  const zhUpdated = locale === "tw" ? "更新於 2026年6月" : "更新于 2026年6月";
+  const zhUpdated = locale === "tw" ? "更新於 2026年6月17日" : "更新于 2026年6月17日";
 
   return (
     <>
@@ -51,26 +51,26 @@ export default async function TierListPage({
         title={isZh ? zhTitle : "Neverness to Everness Tier List (2026)"}
         description={isZh
           ? (locale === "tw"
-            ? `全 ${characters.length} 位角色按綜合強度排名`
-            : `全 ${characters.length} 位角色按综合强度排名`)
-          : `All ${characters.length} characters ranked by overall strength`}
+            ? `全 ${characters.length} 位角色按綜合、深淵、異象與大世界場景排名`
+            : `全 ${characters.length} 位角色按综合、深渊、异象与大世界场景排名`)
+          : `All ${characters.length} characters ranked by overall, Abyss, Anomaly, and Open World scenarios`}
         url={`https://nteguide.com/${lang}/tier-list`}
         datePublished="2026-05-23"
-        dateModified="2026-06-04"
+        dateModified="2026-06-17"
       />
       <div className="max-w-5xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">
           {isZh ? zhTitle : "Neverness to Everness Tier List"}
         </h1>
-        <time className="text-xs text-gray-500 block mb-1" dateTime="2026-06-04">
+        <time className="text-xs text-gray-500 block mb-1" dateTime="2026-06-17">
           {isZh ? zhUpdated : "Updated June 2026"}
         </time>
         <p className="text-gray-400 mb-8">
           {isZh
             ? (locale === "tw"
-              ? `全 ${characters.length} 位角色按綜合強度排名，基於技能倍率、隊伍適配度和泛用性評估。`
-              : `全 ${characters.length} 位角色按综合强度排名，基于技能倍率、队伍适配度和泛用性评估。`)
-            : `All ${characters.length} characters ranked by overall strength, based on skill multipliers, team synergy, and versatility.`}
+              ? `全 ${characters.length} 位角色按綜合、深淵、異象與大世界表現排名，基於技能倍率、隊伍適配度、機制應對和泛用性評估。`
+              : `全 ${characters.length} 位角色按综合、深渊、异象与大世界表现排名，基于技能倍率、队伍适配度、机制应对和泛用性评估。`)
+            : `All ${characters.length} characters ranked by overall, Abyss, Anomaly, and Open World performance, based on skill multipliers, team synergy, mechanics coverage, and versatility.`}
         </p>
 
         <TierListView characters={characters} locale={locale} lang={lang} />
@@ -113,9 +113,9 @@ export default async function TierListPage({
         <p className="text-xs text-gray-600 mt-8">
           {isZh
             ? (locale === "tw"
-              ? "評級基於1.2版本最新數據，隨版本更新持續調整。評級綜合考慮角色在主流隊伍中的表現、技能倍率和泛用性。"
-              : "评级基于1.2版本最新数据，随版本更新持续调整。评级综合考虑角色在主流队伍中的表现、技能倍率和泛用性。")
-            : "Ratings are based on version 1.2 data and updated with each patch. Tier rankings consider overall performance in meta teams, skill multipliers, and versatility."}
+              ? "評級基於1.2版本最新數據，隨版本更新持續調整。綜合榜偏向全場景泛用性；深淵、異象與大世界榜會按對應玩法重新加權。"
+              : "评级基于1.2版本最新数据，随版本更新持续调整。综合榜偏向全场景泛用性；深渊、异象与大世界榜会按对应玩法重新加权。")
+            : "Ratings are based on version 1.2 data and updated with each patch. Overall ranking favors cross-mode versatility; Abyss, Anomaly, and Open World rankings are re-weighted for each scenario."}
         </p>
 
         <div className="mt-6">
