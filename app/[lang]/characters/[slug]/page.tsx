@@ -32,6 +32,33 @@ function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: 
   return c.nameEn;
 }
 
+function bannerCta(slug: string, locale: Locale) {
+  const isZh = isZhLocale(locale);
+  if (slug === "lacrimosa") {
+    return {
+      eyebrow: isZh ? "当前限定卡池" : "Current Limited Banner",
+      title: isZh ? "安魂曲UP：2026.06.03 - 2026.06.24" : "Lacrimosa Rate-Up: 2026-06-03 to 2026-06-24",
+      description: isZh
+        ? "适合缺混沌范围输出、想组安魂曲配队或需要1.1主C的玩家。抽前建议先确认专武和队伍资源。"
+        : "Best for players who need Chaos AoE DPS, a Lacrimosa team core, or a version 1.1 main DPS. Check weapon and team resources before pulling.",
+      primary: isZh ? "查看卡池时间表" : "View Banner Schedule",
+      secondary: isZh ? "抽卡机制" : "Gacha System",
+    };
+  }
+  if (slug === "chaos") {
+    return {
+      eyebrow: isZh ? "下期限定卡池" : "Next Limited Banner",
+      title: isZh ? "卡厄斯预热：2026.06.24 - 2026.07.08" : "Chaos Preview: 2026-06-24 to 2026-07-08",
+      description: isZh
+        ? "卡厄斯是1.1下半限定角色。技能、专属弧盘和陪跑阵容以上线后实测为准，当前适合先规划抽数与相属性配队。"
+        : "Chaos is the version 1.1 Phase 2 limited character. His kit, signature Arc, and A-rank lineup should be verified at launch; use this page to plan pulls and Lakshana teams now.",
+      primary: isZh ? "查看卡池时间表" : "View Banner Schedule",
+      secondary: isZh ? "配队工具" : "Team Builder",
+    };
+  }
+  return null;
+}
+
 export function generateStaticParams() {
   const characters = getAllCharacters();
   return characters.flatMap((c: { id: string }) => LOCALES.map((lang) => ({ lang, slug: c.id })));
@@ -52,10 +79,30 @@ export async function generateMetadata({
   const tierStr = character.tierRank ? ` [${character.tierRank} Tier]` : "";
   const roleStr = character.roleEn ? ` ${character.roleEn}` : "";
   const attrLabel = getAttributeLabel(character.attribute, lang as Locale);
-  const title = isZh
+  const bannerSeo =
+    slug === "lacrimosa"
+      ? {
+          titleZh: `${name}攻略：配队/材料/专武与1.1卡池抽取建议 | NTE`,
+          titleEn: "Lacrimosa Build, Team, Materials & 1.1 Banner Guide | NTE",
+          descZh: `${lang === "tw" ? "異環" : "异环"}安魂曲攻略：1.1当前卡池时间、最佳配队、专武最后一朵玫瑰、材料、技能机制与是否值得抽。`,
+          descEn: "NTE Lacrimosa guide for version 1.1: current banner dates, best build, teams, materials, The Last Rose Arc, kit notes, and pull advice.",
+        }
+      : slug === "chaos"
+        ? {
+            titleZh: `${name}预热攻略：技能/配队/CV与1.1下半卡池 | NTE`,
+            titleEn: "Chaos Preview Guide — Kit, Teams, Voice Actor & 1.1 Banner | NTE",
+            descZh: `${lang === "tw" ? "異環" : "异环"}卡厄斯预热攻略：1.1下半卡池时间、技能要点、相属性配队、CV与抽取规划。`,
+            descEn: "NTE Chaos preview guide: version 1.1 Phase 2 banner dates, kit notes, Lakshana teams, voice actor queries, and pull planning.",
+          }
+        : null;
+  const title = bannerSeo
+    ? (isZh ? bannerSeo.titleZh : bannerSeo.titleEn)
+    : isZh
     ? `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${attrLabel}${character.role ? character.role : ""}攻略：配装/技能/配队 | NTE`
     : `Best ${character.nameEn} Build${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"} Guide`;
-  const description = isZh
+  const description = bannerSeo
+    ? (isZh ? bannerSeo.descZh : bannerSeo.descEn)
+    : isZh
     ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
     : `${character.nameEn}${roleStr} build guide for NTE${tierStr}. Best weapons, disk sets, team comps, skill priority & leveling materials — updated for 2026.`;
   return {
@@ -82,6 +129,7 @@ export default async function CharacterDetailPage({
   if (!character) notFound();
 
   const cm = getCharacterMaterials(slug);
+  const banner = bannerCta(slug, locale);
 
   const relatedChars = (character.relatedCharacters || [])
     .map(id => getCharacter(id))
@@ -175,6 +223,28 @@ export default async function CharacterDetailPage({
             }] : []),
           ]}
         />
+
+        {banner && (
+          <section className="mb-8 rounded-xl border border-sky-500/30 bg-sky-500/10 p-5">
+            <p className="text-xs uppercase tracking-[0.16em] text-sky-300 mb-2">{banner.eyebrow}</p>
+            <h2 className="text-xl font-bold mb-2">{banner.title}</h2>
+            <p className="text-sm text-gray-400 leading-relaxed mb-4">{banner.description}</p>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href={`/${lang}/banners`}
+                className="px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-sm font-medium transition-colors"
+              >
+                {banner.primary}
+              </Link>
+              <Link
+                href={slug === "chaos" ? `/${lang}/team-builder` : `/${lang}/guides/gacha-system`}
+                className="px-4 py-2 rounded-lg border border-gray-700 hover:border-sky-500/50 text-sm text-gray-300 hover:text-sky-200 transition-colors"
+              >
+                {banner.secondary}
+              </Link>
+            </div>
+          </section>
+        )}
 
         {/* Skills Section */}
         {character.skills && (

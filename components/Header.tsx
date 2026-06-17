@@ -49,6 +49,7 @@ export function Header() {
       { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.levelingCalc") },
       { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
       { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
+      { href: `/${lang}/banners`, label: isZhLocale(lang) ? "卡池时间表" : "Banner Schedule" },
       { href: `/${lang}/gacha-analyzer`, label: t(lang, "site.nav.gachaAnalyzer") },
       { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
       { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },

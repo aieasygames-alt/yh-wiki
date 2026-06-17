@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { t, type Locale } from "../lib/i18n";
+import { t, isZhLocale, type Locale } from "../lib/i18n";
 
 const links = [
   { key: "redeemCodes", href: "/redeem-codes" },
   { key: "characters", href: "/characters" },
   { key: "gacha", href: "/gacha" },
+  { key: "banners", href: "/banners" },
   { key: "guides", href: "/guides" },
   { key: "explorer", href: "/explorer" },
   { key: "faq", href: "/faq" },
@@ -38,7 +39,9 @@ export function QuickLinks({ lang }: { lang: string }) {
                   : "text-gray-400 hover:text-primary-400 hover:bg-gray-800/50"
               }`}
             >
-              {t(locale, `site.nav.${link.key}` as `site.nav.${string}`)}
+              {link.key === "banners"
+                ? (isZhLocale(locale) ? "卡池" : "Banners")
+                : t(locale, `site.nav.${link.key}` as `site.nav.${string}`)}
             </Link>
           );
         })}

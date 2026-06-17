@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useMemo, useRef } from "react";
+import Link from "next/link";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { trackEvent } from "../../../lib/analytics";
@@ -208,6 +209,25 @@ export default function GachaPage() {
       <div className="mb-6">
         <KardzPromoCard locale={lang} variant="banner" />
       </div>
+
+      <Link
+        href={`/${lang}/banners`}
+        className="block rounded-xl border border-sky-500/30 bg-sky-500/10 p-4 mb-6 hover:border-sky-500/50 transition-colors"
+      >
+        <div className="flex items-center justify-between gap-4">
+          <div>
+            <h2 className="text-base font-bold text-sky-300">
+              {isZhLocale(lang) ? "查看当前卡池时间表" : "View Current Banner Schedule"}
+            </h2>
+            <p className="text-sm text-gray-400 mt-1">
+              {isZhLocale(lang)
+                ? "安魂曲当前UP，卡厄斯下一期；含保底规则、专武提醒和抽取建议。"
+                : "Lacrimosa is current, Chaos is next; includes pity rules, weapon notes, and pull advice."}
+            </p>
+          </div>
+          <span className="text-sky-300 shrink-0">→</span>
+        </div>
+      </Link>
 
       {/* Banner Select */}
       <div className="flex gap-2 mb-6">

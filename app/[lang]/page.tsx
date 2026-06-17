@@ -148,6 +148,30 @@ export default async function HomePage({
           </div>
         </section>
 
+        {/* Banner Schedule CTA — current 1.1 search demand */}
+        <section className="max-w-6xl mx-auto px-4 py-4">
+          <Link
+            href={`/${lang}/banners`}
+            className="block rounded-xl border border-sky-500/30 bg-gradient-to-r from-sky-500/10 to-emerald-500/10 p-4 hover:border-sky-500/50 hover:from-sky-500/15 hover:to-emerald-500/15 transition-all group"
+          >
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-bold text-sky-400 group-hover:text-sky-300 transition-colors">
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "1.1 卡池時間表：安魂曲 / 卡厄斯" : "1.1 卡池时间表：安魂曲 / 卡厄斯")
+                    : "NTE Banner Schedule: Lacrimosa / Chaos"}
+                </h2>
+                <p className="text-sm text-gray-400 mt-1">
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "查看當前UP、下期卡池、保底規則與抽取建議" : "查看当前UP、下期卡池、保底规则与抽取建议")
+                    : "Current and next banners, pity rules, weapon banner notes, and pull advice."}
+                </p>
+              </div>
+              <span className="text-sky-400/60 group-hover:text-sky-400 text-2xl">→</span>
+            </div>
+          </Link>
+        </section>
+
         {/* Redeem Codes CTA — boost internal linking for ranking */}
         <section className="max-w-6xl mx-auto px-4 py-4">
           <Link

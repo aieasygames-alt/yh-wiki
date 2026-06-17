@@ -910,7 +910,7 @@
     "image": "/images/characters/lacrimosa.webp",
     "availableAtLaunch": true,
     "acquisitionMethod": "limited-banner",
-    "descriptionEn": "Lacrimosa is a Chaos-attribute S-rank Attack character in NTE version 1.1, wielding Liquid-type weapons. As a summoner DPS, she excels at AoE damage through her mechanical constructs. Featured on the 1.1 Phase 1 limited banner (May 28 – June 18, 2026), Lacrimosa is the first Chaos summoner in the game, making her a top pick for Chaos-element team compositions.",
+    "descriptionEn": "Lacrimosa is a Chaos-attribute S-rank Attack character in NTE version 1.1, wielding Liquid-type weapons. As a summoner DPS, she excels at AoE damage through her mechanical constructs. Featured on the 1.1 Phase 1 limited banner (June 3 – June 24, 2026), Lacrimosa is the first Chaos summoner in the game, making her a top pick for Chaos-element team compositions.",
     "status": "available",
     "nameTw": "安魂曲",
     "cvZh": "宴宁",
@@ -8228,8 +8228,8 @@
       {
         "question": "How to get Chaos in Neverness to Everness?",
         "questionZh": "如何获得卡厄斯？",
-        "answer": "Chaos can be obtained through the limited banner gacha system in Neverness to Everness Version 1.1. As a limited S-rank character, they are only available during their featured banner period. Check our gacha simulator to test your luck!",
-        "answerZh": "卡厄斯可以通过异环1.1版本的限定祈愿获得。作为限定S级角色，仅在活动祈愿期间开放获取。使用我们的抽卡模拟器测试运气！"
+        "answer": "Chaos can be obtained through the limited banner gacha system in Neverness to Everness Version 1.1 Phase 2, scheduled for June 24 – July 8, 2026. As a limited S-rank character, they are only available during their featured banner period. Check our banner schedule before pulling.",
+        "answerZh": "卡厄斯可以通过异环1.1下半限定祈愿获得，预计时间为 2026年6月24日 至 7月8日。作为限定S级角色，仅在活动祈愿期间开放获取。抽取前建议先查看卡池时间表。"
       },
       {
         "question": "What is the best team for Chaos?",

@@ -31,6 +31,7 @@ const SECTIONS = [
       { href: "/{lang}/tier-list", zhLabel: "角色强度榜", enLabel: "Tier List" },
       { href: "/{lang}/calculator", zhLabel: "升级计算器", enLabel: "Leveling Calculator" },
       { href: "/{lang}/gacha", zhLabel: "抽卡模拟器", enLabel: "Gacha Simulator" },
+      { href: "/{lang}/banners", zhLabel: "卡池时间表", enLabel: "Banner Schedule" },
       { href: "/{lang}/gacha-analyzer", zhLabel: "抽卡记录分析", enLabel: "Gacha Analyzer" },
       { href: "/{lang}/teams", zhLabel: "配队推荐", enLabel: "Team Builder" },
       { href: "/{lang}/map", zhLabel: "互动地图", enLabel: "Interactive Map" },
