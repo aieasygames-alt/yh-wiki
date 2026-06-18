@@ -219,6 +219,13 @@ export function VideoGameJsonLd() {
   );
 }
 
+/**
+ * @deprecated DO NOT USE on weapon/character/game-item pages. This emits a
+ * fabricated e-commerce Product schema (price 0, free shipping, US-only)
+ * that Google flags as invalid ("Either offers/review/aggregateRating should
+ * be specified"). Game items are not real products. Use ArticleJsonLd for
+ * content pages instead. Retained only for the seo.test.tsx test stub.
+ */
 export function ProductJsonLd({ name, description, url, image, ratingValue, reviewCount, category }: { name: string; description: string; url?: string; image?: string; ratingValue?: number; reviewCount?: number; category?: string }) {
   const offer = {
     "@type": "Offer",

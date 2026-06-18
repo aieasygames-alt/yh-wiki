@@ -5,7 +5,7 @@ import { getWeapon, getAllWeapons, getCharactersUsingWeapon } from "../../../../
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { WeaponSummary } from "../../../../components/WeaponSummary";
 import { GameImage } from "../../../../components/GameImage";
-import { ProductJsonLd } from "../../../../components/JsonLd";
+import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS } from "../../../../lib/attributes";
 
 export function generateStaticParams() {
@@ -76,14 +76,13 @@ export default async function WeaponDetailPage({
           { label: displayName },
         ]}
       />
-      <ProductJsonLd
-        name={`${displayName} (${weapon.nameEn})`}
+      <ArticleJsonLd
+        title={`${displayName} | ${t(locale, "site.nav.weapons")}`}
         description={isZhLocale(locale)
           ? `异环弧盘「${displayName}」${rankLabel}${typeLabel}，基础攻击 ${weapon.baseAtk}，${substatLabel} ${weapon.substatValue}。${obtainDesc}`
           : `${weapon.nameEn} is a ${weapon.rank}-rank ${typeLabel} Arc in Neverness to Everness. Base ATK ${weapon.baseAtk}, ${substatLabel} ${weapon.substatValue}. ${obtainDesc}`}
         url={`https://nteguide.com/${lang}/weapons/${weapon.id}/`}
         image={weapon.image ? `https://nteguide.com${weapon.image}` : undefined}
-        category="Video game item"
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Weapon Info Card */}
