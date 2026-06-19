@@ -313,7 +313,9 @@
       "beginner": "新手指南",
       "beginnerDesc": "第一周必看的完整攻略",
       "teamBuilding": "配队攻略",
-      "teamBuildingDesc": "用现有角色组建最强队伍"
+      "teamBuildingDesc": "用现有角色组建最强队伍",
+      "cnVsGlobal": "国服 vs 国际服",
+      "cnVsGlobalDesc": "兑换码、卡池、上线时间差异全解析"
     },
     "topCharacters": {
       "title": "当前最强角色",
@@ -711,6 +713,8 @@
   },
   "footer": {
     "tierList": "强度排行",
+    "cnVsGlobal": "国服 vs 国际服",
+    "steam": "Steam 版",
     "contact": "联系我们",
     "about": "关于我们",
     "privacy": "隐私政策",

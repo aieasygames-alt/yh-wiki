@@ -461,13 +461,14 @@
   },
   {
     "id": "release-date",
-    "question": "异环什么时候公测/上线？",
-    "questionEn": "When does NTE officially launch?",
-    "answer": "异环目前仍在测试阶段，具体公测时间以官方公告为准。游戏已完成多次测试（包括共存测试），预注册人数已超过3000万。建议关注异环官方社交媒体（微博、B站、TapTap）或官网 yh.wanmei.com 获取最新的上线信息。测试期间的数据（角色属性、材料需求等）可能会在正式上线时有所调整。",
-    "answerEn": "NTE is currently in the testing phase. The exact official launch date will be announced by the developers. The game has completed multiple tests including the Coexistence Test, with pre-registrations exceeding 30 million. Follow NTE's official social media (Weibo, Bilibili, TapTap) or the official website for the latest launch information. Game data during testing may be adjusted before official release.",
+    "question": "异环什么时候公测/上线？现在能玩吗？",
+    "questionEn": "When did NTE launch? Is it playable now?",
+    "answer": "异环已正式公测上线。国服于 2026 年 4 月 23 日公测，国际服于 4 月 29 日上线，当前版本为 1.2「真红与残虹」（国服 6/11 上线）。Steam 版预计 2026 年 7 月 22 日发售。现在就可以在官网（国服 yh.wanmei.com）或 TapTap / Epic / PS Store 下载游玩。",
+    "answerEn": "NTE has officially launched. The CN server went live on April 23, 2026, and the global server on April 29. The current version is 1.2 'Zhenhong & Canhong' (CN launched June 11). The Steam version is scheduled for July 22, 2026. You can download and play now from the official site, TapTap, Epic, or PS Store.",
     "tags": [
       "release",
-      "timeline"
+      "timeline",
+      "launch"
     ],
     "category": "release",
     "categoryZh": "上线信息",
@@ -5692,6 +5693,157 @@
     "category": "general",
     "categoryZh": "综合",
     "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-wipe-data-launch",
+    "question": "异环公测会删档吗？付费测试的进度保留吗？",
+    "questionEn": "Does NTE wipe data at official launch? Is paid test progress kept?",
+    "answer": "不会删档。异环国服 4 月 23 日、国际服 4 月 29 日的公测即正式上线，账号数据永久保留。之前的付费测试/不计费测试数据按官方公告处理——通常测试期数据会在公测前清除，但公测后的所有进度、角色、充值都不会再被删除。简单说：公测之后玩，数据就是永久的。",
+    "answerEn": "No wipe at launch. NTE's CN launch (Apr 23) and global launch (Apr 29) are the official release — account data is permanent. Earlier paid/unpaid test data was wiped before launch per official notices, but everything after launch (progress, characters, purchases) is permanent. In short: play after launch and your data is forever.",
+    "tags": [
+      "wipe",
+      "launch",
+      "account",
+      "cbt"
+    ],
+    "category": "account",
+    "categoryZh": "账号与数据",
+    "categoryEn": "Account & Data",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-cross-platform-account",
+    "question": "异环是跨平台账号互通的吗？手机和 PC 能一起玩吗？",
+    "questionEn": "Is NTE cross-platform? Can I play on phone and PC with one account?",
+    "answer": "异环支持同一账号在不同设备登录（手机、PC、PS5），但要注意区分发行渠道。国服账号在国服各平台通用，国际服账号在国际服各平台通用。Steam 版（7 月 22 日发售）上线后预计接入国际服账号体系。注意：国服和国际服账号完全不互通，无法互转。",
+    "answerEn": "NTE supports logging into one account across devices (phone, PC, PS5), but you must stay within the same publishing track. CN accounts work across CN platforms; global accounts across global platforms. The Steam version (Jul 22) is expected to tie into the global account system. Note: CN and global accounts are completely separate and non-transferable.",
+    "tags": [
+      "cross-platform",
+      "account",
+      "steam",
+      "ps5"
+    ],
+    "category": "account",
+    "categoryZh": "账号与数据",
+    "categoryEn": "Account & Data",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-pity-carry-over",
+    "question": "异环限定卡池保底会继承到下一期吗？",
+    "questionEn": "Does NTE limited banner pity carry over to the next banner?",
+    "answer": "会继承。异环限定角色池的保底计数跨期继承——比如 1.2 上半伊洛伊卡池抽了 50 抽没出货，下半真红卡池继续抽时会从 50 抽开始累计，到 90 抽必得当期 UP。注意：限定池、常驻池、武器池、新手池的保底是分开计算的，互不影响。异环没有 50/50，抽到 S 级必为当期 UP 角色。",
+    "answerEn": "Yes, pity carries over. NTE limited character banner pity accumulates across phases — if you pull 50 times on Illica Phase 1 without an S-rank, Zhenhong Phase 2 continues from pull 50, hitting the 90-pull guaranteed featured. Note: limited, standard, weapon, and beginner banners all track pity separately. NTE has no 50/50 — any S-rank pulled is the featured character.",
+    "tags": [
+      "pity",
+      "gacha",
+      "carry-over",
+      "limited"
+    ],
+    "category": "gacha",
+    "categoryZh": "抽卡机制",
+    "categoryEn": "Gacha",
+    "relatedCharacters": [
+      "illica",
+      "zhenhong"
+    ],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-paid-test-refund",
+    "question": "异环付费测试充值的钱会返还吗？",
+    "questionEn": "Will NTE paid test purchases be refunded?",
+    "answer": "按官方公告，付费测试期间的充值通常会按一定比例转化为公测后的游戏内货币返还到同一账号。具体返还规则以官方公告为准。如果你参与过付费测试，建议登录原账号查看邮件或充值记录。公测后的充值则正常消费，不再涉及返还机制。",
+    "answerEn": "Per official notices, purchases made during paid tests are typically converted into in-game currency after launch at a set ratio and returned to the same account. Exact rules follow official announcements. If you participated in paid testing, check your in-game mail or purchase history on the original account. Post-launch purchases are normal spend with no refund mechanism.",
+    "tags": [
+      "paid-test",
+      "refund",
+      "cbt",
+      "account"
+    ],
+    "category": "account",
+    "categoryZh": "账号与数据",
+    "categoryEn": "Account & Data",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-region-lock",
+    "question": "异环国服和国际服能一起玩吗？数据能迁移吗？",
+    "questionEn": "Can NTE CN and global servers play together? Can data be migrated?",
+    "answer": "不能。国服和国际服是完全独立的服务器，账号、角色、抽卡记录、好友、充值都不互通，也无法互相迁移或跨服联机。如果和朋友一起玩，务必提前确认在同一个服务器。详细的国服 vs 国际服区别（上线时间差、卡池、评分等）可以参考我们的国服 vs 国际服对比页。",
+    "answerEn": "No. CN and global are completely separate servers — accounts, characters, gacha history, friends, and purchases do not transfer and you cannot cross-play. If you play with friends, confirm everyone is on the same server first. See our CN vs Global comparison page for the full breakdown of launch-date gaps, banners, ratings, and more.",
+    "tags": [
+      "region",
+      "cn",
+      "global",
+      "server",
+      "migration"
+    ],
+    "category": "account",
+    "categoryZh": "账号与数据",
+    "categoryEn": "Account & Data",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-rabbit-hole-bug-double-standard",
+    "question": "异环「兔子洞」BUG 双标事件是怎么回事？",
+    "questionEn": "What was NTE's 'Rabbit Hole' bug double-standard incident?",
+    "answer": "2026 年 5 月 9-11 日，国服爆发「兔子洞」BUG 争议：部分玩家利用游戏 BUG 获取不当收益后，官方被指在回收处理时存在选择性执法——对部分玩家回收、对另一些不回收，引发「双标」质疑。这是公测以来国服最大的公关危机之一，玩家最在意的核心是执法一致性。官方后续回应表示会统一处罚标准，但事件对 TapTap 国服评分（7.0）造成持续影响。客观来看，任何 BUG 利用都违反用户协议，玩家应避免尝试；同时官方也有责任保证处罚标准的透明与一致。",
+    "answerEn": "From May 9-11, 2026, the CN server saw the 'Rabbit Hole' bug controversy: after players exploited an in-game bug for improper gains, the publisher was accused of selective enforcement — rolling back some players but not others, raising 'double standard' concerns. This was one of the biggest CN-side PR crises since launch, with the core player concern being enforcement consistency. The official response later promised unified penalty standards, but the incident continues to weigh on the TapTap CN rating (7.0). Objectively: any bug exploitation violates the ToS and players should avoid it; the publisher also has a responsibility to keep penalty standards transparent and consistent.",
+    "tags": [
+      "controversy",
+      "bug",
+      "rabbit-hole",
+      "cn",
+      "enforcement"
+    ],
+    "category": "controversy",
+    "categoryZh": "争议与事件",
+    "categoryEn": "Controversies",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-ps5-player-100-year-ban",
+    "question": "异环 PS 玩家利用 BUG 被封 100 年是真的吗？",
+    "questionEn": "Was a PS player really banned for 100 years in NTE?",
+    "answer": "是的。2026 年 5 月 11 日前后，一名 PS 平台玩家因利用游戏内 BUG 被处以极长期封禁，封禁时长显示为约 100 年，引发「处罚过严」的广泛争议。事件背景是当时官方正在严厉打击 BUG 利用行为，但百年封禁的量级让很多玩家认为处罚力度与违规程度不匹配。此事与「兔子洞」BUG 双标事件叠加，共同推高了 5 月国服的舆论压力。客观提醒：BUG 利用不论时长都违反用户协议，可能触发封号；遇到 BUG 应通过官方渠道反馈，而非利用。",
+    "answerEn": "Yes. Around May 11, 2026, a PlayStation-platform player received an extremely long ban for exploiting an in-game bug — the displayed ban duration was approximately 100 years, sparking widespread 'excessive punishment' debate. The context was that the publisher was then cracking down hard on bug exploitation, but the century-scale ban led many players to feel the penalty didn't match the violation. Combined with the 'Rabbit Hole' double-standard incident, this amplified CN-side舆论 pressure in May. Objective reminder: any bug exploitation violates the ToS and can trigger bans; report bugs through official channels rather than exploiting them.",
+    "tags": [
+      "controversy",
+      "ban",
+      "ps5",
+      "bug",
+      "cn"
+    ],
+    "category": "controversy",
+    "categoryZh": "争议与事件",
+    "categoryEn": "Controversies",
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-ironmouse-collab-cancelled",
+    "question": "异环 Ironmouse 为什么取消合作？和 AI 争议有关吗？",
+    "questionEn": "Why did Ironmouse cancel her NTE collaboration? Is it related to the AI controversy?",
+    "answer": "有关。2026 年 4 月底至 5 月，异环爆出部分美术素材疑涉 AI 生成内容，引发国际服最大声誉危机。知名 VTuber Ironmouse 在争议期间宣布取消与异环的联动合作，成为国际舆论标志性事件之一。官方后续承认部分素材问题并承诺重做，一定程度上缓解了争议。这件事加上「反 AI」社群的扩散，是国际服声誉压力的主要来源。对于玩家而言，是否继续游玩属于个人选择，了解事件背景有助于理性判断。",
+    "answerEn": "Yes, related. From late April through May 2026, NTE faced allegations that some art assets involved AI-generated content, triggering the global server's biggest reputational crisis. Prominent VTuber Ironmouse canceled her NTE collaboration during the controversy, making it a标志性 moment in international discourse. The publisher later acknowledged some asset issues and committed to reworking them, partially缓解 the fallout. Combined with the spread of anti-AI communities, this was the main source of global-side reputational pressure. Whether to keep playing is a personal choice; understanding the background helps with informed judgment.",
+    "tags": [
+      "controversy",
+      "ai",
+      "ironmouse",
+      "vtuber",
+      "global"
+    ],
+    "category": "controversy",
+    "categoryZh": "争议与事件",
+    "categoryEn": "Controversies",
     "relatedCharacters": [],
     "relatedMaterials": []
   }

@@ -1674,4 +1674,40 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://nteguide.com/zh/guides/gacha-tracker-guide/</loc>
+    <lastmod>2026-06-19T14:28:13.186Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/guides/gacha-tracker-guide/</loc>
+    <lastmod>2026-06-19T14:28:13.186Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/guides/gacha-tracker-guide/</loc>
+    <lastmod>2026-06-19T14:28:13.186Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/guides/mobile-120fps-guide/</loc>
+    <lastmod>2026-06-19T14:28:13.186Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/guides/mobile-120fps-guide/</loc>
+    <lastmod>2026-06-19T14:28:13.186Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/guides/mobile-120fps-guide/</loc>
+    <lastmod>2026-06-19T14:28:13.186Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

@@ -37,7 +37,11 @@
             "descriptionEn": "S-rank character, featured banner character for version 1.0. The star Anomaly of Eibon Antique Shop, a cat-tribe close-combat fighter.",
             "type": "character",
             "ref": "nanally",
-            "tags": ["S级", "限定", "Featured"]
+            "tags": [
+              "S级",
+              "限定",
+              "Featured"
+            ]
           },
           {
             "name": "萨绮丽",
@@ -46,7 +50,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "sakiri",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "法迪娅",
@@ -55,7 +61,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "fadia",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "拉克丽摩萨",
@@ -64,7 +72,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "lacrimosa",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "白藏",
@@ -73,7 +83,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "baicang",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "零",
@@ -82,7 +94,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "zero",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "穗鸟",
@@ -91,7 +105,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "hotori",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "达芙迪尔",
@@ -100,7 +116,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "daffodil",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "九原",
@@ -109,7 +127,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "jiuyuan",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "哈尼尔",
@@ -118,7 +138,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "haniel",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "哈索尔",
@@ -127,7 +149,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "hathor",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "奇兹",
@@ -136,7 +160,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "chiz",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "莉莉娜",
@@ -145,7 +171,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "lilina",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "鉴定师",
@@ -154,7 +182,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "the-appraiser",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "明虎",
@@ -163,7 +193,9 @@
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
             "ref": "xiaozhen",
-            "tags": ["S级"]
+            "tags": [
+              "S级"
+            ]
           },
           {
             "name": "小吱",
@@ -172,7 +204,10 @@
             "descriptionEn": "S-rank character, obtainable for free via the City Tycoon mode.",
             "type": "character",
             "ref": "xiaozhi",
-            "tags": ["S级", "免费获取"]
+            "tags": [
+              "S级",
+              "免费获取"
+            ]
           },
           {
             "name": "阿德勒",
@@ -181,7 +216,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "adler",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "薄荷",
@@ -190,7 +227,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "mint",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "翳",
@@ -199,7 +238,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "skia",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "埃德加",
@@ -208,7 +249,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "edgar",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "塔杰多",
@@ -217,7 +260,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "taygedo",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "奈莉",
@@ -226,7 +271,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "nelly",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "梅露拉",
@@ -235,7 +282,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "merula",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "阿尔法德",
@@ -244,7 +293,9 @@
             "descriptionEn": "A-rank character available at launch.",
             "type": "character",
             "ref": "alphard",
-            "tags": ["A级"]
+            "tags": [
+              "A级"
+            ]
           },
           {
             "name": "奥蕾莉亚",
@@ -253,7 +304,10 @@
             "descriptionEn": "A-rank character, newly confirmed for launch.",
             "type": "character",
             "ref": "aurelia",
-            "tags": ["A级", "新增"]
+            "tags": [
+              "A级",
+              "新增"
+            ]
           }
         ]
       },
@@ -268,7 +322,9 @@
             "descriptionEn": "A brand-new city management simulation mode. Players can manage their own city and earn generous rewards. S-rank character Xiaozhi can be obtained through this mode.",
             "type": "feature",
             "ref": null,
-            "tags": ["玩法"]
+            "tags": [
+              "玩法"
+            ]
           },
           {
             "name": "房屋系统",
@@ -277,7 +333,9 @@
             "descriptionEn": "A new housing decoration and building system. Players can customize and decorate their own residence.",
             "type": "feature",
             "ref": null,
-            "tags": ["玩法"]
+            "tags": [
+              "玩法"
+            ]
           },
           {
             "name": "载具驾驶",
@@ -286,7 +344,9 @@
             "descriptionEn": "Drive various vehicles to freely explore the open world and experience immersive city traversal.",
             "type": "feature",
             "ref": null,
-            "tags": ["玩法"]
+            "tags": [
+              "玩法"
+            ]
           },
           {
             "name": "粉色爪爪合作模式",
@@ -295,7 +355,9 @@
             "descriptionEn": "A new multiplayer co-op mode. Team up with friends for cooperative challenges.",
             "type": "feature",
             "ref": null,
-            "tags": ["玩法"]
+            "tags": [
+              "玩法"
+            ]
           },
           {
             "name": "监狱系统",
@@ -304,7 +366,9 @@
             "descriptionEn": "A new game mechanic deeply integrated with the story and gameplay.",
             "type": "feature",
             "ref": null,
-            "tags": ["玩法"]
+            "tags": [
+              "玩法"
+            ]
           },
           {
             "name": "随身听功能",
@@ -313,7 +377,9 @@
             "descriptionEn": "New Walkman feature for exploring with music. Car stereo includes Persona 5 classic tracks.",
             "type": "feature",
             "ref": null,
-            "tags": ["联动"]
+            "tags": [
+              "联动"
+            ]
           },
           {
             "name": "P5联动",
@@ -322,7 +388,9 @@
             "descriptionEn": "Collaboration with Persona 5: Phantom X announced. P5 classic music in car stereo.",
             "type": "feature",
             "ref": null,
-            "tags": ["联动"]
+            "tags": [
+              "联动"
+            ]
           }
         ]
       },
@@ -337,7 +405,9 @@
             "descriptionEn": "Neverness to Everness has no 50/50 system. When pulling for a limited character, you are guaranteed to get the featured character — no risk of losing to off-banner characters.",
             "type": "system",
             "ref": null,
-            "tags": ["保底"]
+            "tags": [
+              "保底"
+            ]
           },
           {
             "name": "新手卡池",
@@ -346,7 +416,9 @@
             "descriptionEn": "Exclusive beginner banner with 20 pulls total. Players can select and obtain one S-rank character of their choice.",
             "type": "system",
             "ref": null,
-            "tags": ["新手"]
+            "tags": [
+              "新手"
+            ]
           },
           {
             "name": "常驻卡池自选",
@@ -355,7 +427,9 @@
             "descriptionEn": "After accumulating 50 pulls on the standard banner, players can select and obtain one S-rank character of their choice.",
             "type": "system",
             "ref": null,
-            "tags": ["常驻"]
+            "tags": [
+              "常驻"
+            ]
           }
         ]
       },
@@ -370,7 +444,9 @@
             "descriptionEn": "At launch, players can obtain over 470 free pulls through events, missions, and mail rewards. 120+ pulls available immediately.",
             "type": "reward",
             "ref": null,
-            "tags": ["免费抽"]
+            "tags": [
+              "免费抽"
+            ]
           },
           {
             "name": "预注册奖励",
@@ -379,7 +455,9 @@
             "descriptionEn": "All players will receive generous pre-registration milestone rewards.",
             "type": "reward",
             "ref": null,
-            "tags": ["预约"]
+            "tags": [
+              "预约"
+            ]
           },
           {
             "name": "直播兑换码",
@@ -388,7 +466,9 @@
             "descriptionEn": "Redeem codes revealed during the pre-launch livestream. Can be redeemed in-game for rewards.",
             "type": "reward",
             "ref": null,
-            "tags": ["兑换码"]
+            "tags": [
+              "兑换码"
+            ]
           },
           {
             "name": "预下载",
@@ -397,7 +477,9 @@
             "descriptionEn": "Pre-download begins April 21. Players can download the game client in advance.",
             "type": "info",
             "ref": null,
-            "tags": ["下载"]
+            "tags": [
+              "下载"
+            ]
           }
         ]
       },
@@ -412,7 +494,9 @@
             "descriptionEn": "Available on Windows PC at launch.",
             "type": "platform",
             "ref": null,
-            "tags": ["PC"]
+            "tags": [
+              "PC"
+            ]
           },
           {
             "name": "移动端",
@@ -421,7 +505,9 @@
             "descriptionEn": "Available on iOS and Android at launch.",
             "type": "platform",
             "ref": null,
-            "tags": ["移动端"]
+            "tags": [
+              "移动端"
+            ]
           },
           {
             "name": "PlayStation 5",
@@ -430,7 +516,9 @@
             "descriptionEn": "PS5 version launches alongside all other platforms with controller support.",
             "type": "platform",
             "ref": null,
-            "tags": ["主机"]
+            "tags": [
+              "主机"
+            ]
           },
           {
             "name": "Mac 客户端",
@@ -439,7 +527,9 @@
             "descriptionEn": "Available on macOS at launch.",
             "type": "platform",
             "ref": null,
-            "tags": ["Mac"]
+            "tags": [
+              "Mac"
+            ]
           },
           {
             "name": "鸿蒙 HarmonyOS",
@@ -448,7 +538,9 @@
             "descriptionEn": "Available on Huawei HarmonyOS at launch.",
             "type": "platform",
             "ref": null,
-            "tags": ["鸿蒙"]
+            "tags": [
+              "鸿蒙"
+            ]
           }
         ]
       }
@@ -499,7 +591,9 @@
             "descriptionEn": "Fixed an issue where some players could not log in under certain network conditions.",
             "type": "fix",
             "ref": null,
-            "tags": ["登录"]
+            "tags": [
+              "登录"
+            ]
           },
           {
             "name": "移动端帧率优化",
@@ -508,7 +602,9 @@
             "descriptionEn": "Optimized frame rate on mid-range phones, reducing drops during combat.",
             "type": "fix",
             "ref": null,
-            "tags": ["优化"]
+            "tags": [
+              "优化"
+            ]
           },
           {
             "name": "技能动画修复",
@@ -517,7 +613,9 @@
             "descriptionEn": "Fixed skill animation stuttering and abnormal interruptions for some characters.",
             "type": "fix",
             "ref": null,
-            "tags": ["战斗"]
+            "tags": [
+              "战斗"
+            ]
           },
           {
             "name": "任务进度修复",
@@ -526,7 +624,9 @@
             "descriptionEn": "Fixed some side quests that could not be completed under specific conditions.",
             "type": "fix",
             "ref": null,
-            "tags": ["任务"]
+            "tags": [
+              "任务"
+            ]
           },
           {
             "name": "双倍经验兔子洞Bug修复",
@@ -535,7 +635,9 @@
             "descriptionEn": "Fixed the Double EXP Rabbit Hole bug. 800 Ring Stones compensated to all players.",
             "type": "fix",
             "ref": null,
-            "tags": ["补偿"]
+            "tags": [
+              "补偿"
+            ]
           },
           {
             "name": "公测致歉补偿",
@@ -544,7 +646,9 @@
             "descriptionEn": "Dev team issued apology for stability and mobile performance issues. 1600 Ring Stones compensated.",
             "type": "compensation",
             "ref": null,
-            "tags": ["补偿"]
+            "tags": [
+              "补偿"
+            ]
           }
         ]
       }
@@ -597,7 +701,11 @@
             "descriptionEn": "Chaos-attribute S-rank limited Attack character. ETD-4 member who switches between 'frying pans' and 'red jelly' modes. Skills 'Morning Tomato' and 'Devilish Inspiration' control Esper Constructs for coordinated attacks. Core mechanic builds Nightmare Stacks then detonates for massive damage.",
             "type": "character",
             "ref": "lacrimosa",
-            "tags": ["S级", "限定", "上半"]
+            "tags": [
+              "S级",
+              "限定",
+              "上半"
+            ]
           },
           {
             "name": "卡厄斯",
@@ -606,7 +714,11 @@
             "descriptionEn": "The first limited S-rank male character in NTE. Lakshana element. Appears in the 'A Research in Scarlet' main story.",
             "type": "character",
             "ref": "chaos",
-            "tags": ["S级", "限定", "下半"]
+            "tags": [
+              "S级",
+              "限定",
+              "下半"
+            ]
           }
         ]
       },
@@ -621,7 +733,9 @@
             "descriptionEn": "May 28 – June 11. Lacrimosa limited banner.",
             "type": "system",
             "ref": null,
-            "tags": ["卡池"]
+            "tags": [
+              "卡池"
+            ]
           },
           {
             "name": "下半卡池（卡厄斯）",
@@ -630,7 +744,9 @@
             "descriptionEn": "June 11 – July 2. Chaos limited banner.",
             "type": "system",
             "ref": null,
-            "tags": ["卡池"]
+            "tags": [
+              "卡池"
+            ]
           },
           {
             "name": "保底不歪机制",
@@ -639,7 +755,9 @@
             "descriptionEn": "Version 1.1 introduces guarantee-no-lose for limited banners — your pity pull is guaranteed to be the featured character.",
             "type": "system",
             "ref": null,
-            "tags": ["保底"]
+            "tags": [
+              "保底"
+            ]
           }
         ]
       },
@@ -654,7 +772,9 @@
             "descriptionEn": "A brand-new amusement park area with fresh exploration points, treasure chests, and anomaly collection content.",
             "type": "feature",
             "ref": null,
-            "tags": ["地图"]
+            "tags": [
+              "地图"
+            ]
           }
         ]
       },
@@ -669,7 +789,9 @@
             "descriptionEn": "New ship vehicle system lets you sail across water areas.",
             "type": "feature",
             "ref": null,
-            "tags": ["载具"]
+            "tags": [
+              "载具"
+            ]
           },
           {
             "name": "车辆智能巡航",
@@ -678,7 +800,9 @@
             "descriptionEn": "Vehicles get a new smart cruise control feature.",
             "type": "feature",
             "ref": null,
-            "tags": ["载具"]
+            "tags": [
+              "载具"
+            ]
           },
           {
             "name": "男角色同居社交玩法",
@@ -687,7 +811,9 @@
             "descriptionEn": "A new co-habitation social system with male characters.",
             "type": "feature",
             "ref": null,
-            "tags": ["社交"]
+            "tags": [
+              "社交"
+            ]
           }
         ]
       },
@@ -702,7 +828,9 @@
             "descriptionEn": "Version 1.1 includes a collaboration with Porsche.",
             "type": "feature",
             "ref": null,
-            "tags": ["联动"]
+            "tags": [
+              "联动"
+            ]
           },
           {
             "name": "版本更新福利",
@@ -711,7 +839,9 @@
             "descriptionEn": "Version rewards: 17 pulls + 600 stamina + 300,000 Fons.",
             "type": "reward",
             "ref": null,
-            "tags": ["福利"]
+            "tags": [
+              "福利"
+            ]
           },
           {
             "name": "1.1前瞻兑换码",
@@ -720,7 +850,9 @@
             "descriptionEn": "3 livestream codes released: DREAMWALK0603, TOMATO100, RACENOLIMIT. Valid until May 25 23:59.",
             "type": "reward",
             "ref": null,
-            "tags": ["兑换码"]
+            "tags": [
+              "兑换码"
+            ]
           }
         ]
       },
@@ -735,7 +867,9 @@
             "descriptionEn": "Reduced overheating, improved frame rate stability, and lower memory usage.",
             "type": "fix",
             "ref": null,
-            "tags": ["优化"]
+            "tags": [
+              "优化"
+            ]
           },
           {
             "name": "剧情跳过功能",
@@ -744,7 +878,9 @@
             "descriptionEn": "New story skip feature added.",
             "type": "feature",
             "ref": null,
-            "tags": ["便利"]
+            "tags": [
+              "便利"
+            ]
           },
           {
             "name": "弧盘/武器平衡性调整",
@@ -753,7 +889,9 @@
             "descriptionEn": "Balance adjustments for some arc discs and weapons.",
             "type": "fix",
             "ref": null,
-            "tags": ["平衡"]
+            "tags": [
+              "平衡"
+            ]
           }
         ]
       }
@@ -805,7 +943,11 @@
             "descriptionEn": "S-rank limited Heal/Buffer, the first limited healer in NTE. Provides powerful healing and damage buffs, greatly improving team survivability and output.",
             "type": "character",
             "ref": "illica",
-            "tags": ["S级", "限定", "上半"]
+            "tags": [
+              "S级",
+              "限定",
+              "上半"
+            ]
           },
           {
             "name": "真红",
@@ -814,7 +956,11 @@
             "descriptionEn": "S-rank limited Light DPS, dragon-tribe fighter. Kit revolves around 'Demon Claw' mid-range engagement and 'Rage' gauge — entering Berserk state at max Rage. Passive enhances Genesis reactions. Mechanical tail coordinated attacks.",
             "type": "character",
             "ref": "zhenhong",
-            "tags": ["S级", "限定", "下半"]
+            "tags": [
+              "S级",
+              "限定",
+              "下半"
+            ]
           }
         ]
       },
@@ -829,7 +975,9 @@
             "descriptionEn": "June 11 – June 25. Illica limited banner.",
             "type": "system",
             "ref": null,
-            "tags": ["卡池"]
+            "tags": [
+              "卡池"
+            ]
           },
           {
             "name": "下半卡池（真红）",
@@ -838,7 +986,9 @@
             "descriptionEn": "June 25 – July 15. Zhenhong limited banner.",
             "type": "system",
             "ref": null,
-            "tags": ["卡池"]
+            "tags": [
+              "卡池"
+            ]
           }
         ]
       },
@@ -853,7 +1003,9 @@
             "descriptionEn": "New amusement park map area with exploration points, treasure chests, and anomaly collection content.",
             "type": "feature",
             "ref": null,
-            "tags": ["地图"]
+            "tags": [
+              "地图"
+            ]
           },
           {
             "name": "角色渲染升级",
@@ -862,7 +1014,9 @@
             "descriptionEn": "Comprehensive upgrade to character lighting and rendering — improved hair detail and clothing textures.",
             "type": "feature",
             "ref": null,
-            "tags": ["画面"]
+            "tags": [
+              "画面"
+            ]
           },
           {
             "name": "羁遇系统扩展",
@@ -871,7 +1025,9 @@
             "descriptionEn": "Bond system adds new interactions and character stories.",
             "type": "feature",
             "ref": null,
-            "tags": ["社交"]
+            "tags": [
+              "社交"
+            ]
           }
         ]
       }
@@ -884,6 +1040,84 @@
       "/tier-list",
       "/redeem-codes",
       "/changelog"
+    ]
+  },
+  {
+    "id": "version-1-3",
+    "version": "1.3",
+    "versionName": "（前瞻·预计）",
+    "versionNameEn": "(Upcoming · Estimated)",
+    "date": "2026-07-上旬（待定）",
+    "dateGlobal": "2026-07-中旬（待定）",
+    "type": "major",
+    "highlights": [
+      "⚠️ 本条目为前瞻占位，所有内容基于版本节奏推测，以官方前瞻直播为准",
+      "预计新角色：残虹（Canhong）— S级限定咒+暗属性，浊燃 DOT 机制",
+      "预计国服 7 月上旬、全球服 7 月中旬上线（按 1.0→1.1→1.2 约 6 周节奏推断）",
+      "具体卡池、新地图、新系统等待官方前瞻直播确认"
+    ],
+    "highlightsEn": [
+      "⚠️ This entry is a forward-looking placeholder; all content is inferred from version cadence and subject to the official preview livestream",
+      "Expected new character: Canhong — S-rank limited Curse + Dark, Turbid Burn DOT mechanic",
+      "Estimated CN launch early July, global mid-July (inferred from the ~6-week 1.0→1.1→1.2 cadence)",
+      "Specific banners, new map areas, and systems await official preview confirmation"
+    ],
+    "sections": [
+      {
+        "title": "新角色（预计）",
+        "titleEn": "New Characters (Expected)",
+        "items": [
+          {
+            "name": "残虹",
+            "nameEn": "Canhong",
+            "description": "S级限定角色，咒+暗双属性。被动技能叠加「浊燃」效果造成持续 DOT 伤害，浊燃反应涉及咒与暗属性联动。具体技能数值待官方公布。",
+            "descriptionEn": "S-rank limited character, Curse + Dark dual attribute. Passive skill stacks 'Turbid Burn' dealing continuous DOT; the Turbid Burn reaction involves Curse + Dark synergy. Exact numbers await official reveal.",
+            "type": "character",
+            "ref": "canhong",
+            "tags": [
+              "S级",
+              "限定",
+              "前瞻"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "上线时间（预计）",
+        "titleEn": "Launch Timing (Estimated)",
+        "items": [
+          {
+            "name": "国服预计上线",
+            "nameEn": "CN Estimated Launch",
+            "description": "2026 年 7 月上旬（按 1.0→1.1→1.2 的约 6 周版本节奏推断，以官方公告为准）",
+            "descriptionEn": "Early July 2026 (inferred from the ~6-week cadence of 1.0→1.1→1.2, subject to official notice)",
+            "type": "system",
+            "ref": null,
+            "tags": [
+              "前瞻",
+              "国服"
+            ]
+          },
+          {
+            "name": "全球服预计上线",
+            "nameEn": "Global Estimated Launch",
+            "description": "2026 年 7 月中旬（通常比国服早约 8 天，但 1.3 节奏可能有变）",
+            "descriptionEn": "Mid-July 2026 (typically ~8 days ahead of CN, though v1.3 cadence may vary)",
+            "type": "system",
+            "ref": null,
+            "tags": [
+              "前瞻",
+              "全球服"
+            ]
+          }
+        ]
+      }
+    ],
+    "compensation": null,
+    "internalLinks": [
+      "/characters/canhong",
+      "/banners",
+      "/changelog/1.2"
     ]
   }
 ]

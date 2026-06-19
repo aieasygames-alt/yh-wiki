@@ -2307,8 +2307,8 @@
         "descriptionEn": "A support-focused team with Jiuyuan, paired with high-DPS and defense characters for sustained combat."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "九原生命辅助队",
+        "nameEn": "Jiuyuan Anima Support Team",
         "members": [
           "jiuyuan",
           "haniel",
@@ -2545,8 +2545,8 @@
         "descriptionEn": "A support-focused team with Haniel, paired with high-DPS and defense characters for sustained combat."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "哈尼尔精神支援队",
+        "nameEn": "Haniel Psyche Support Team",
         "members": [
           "haniel",
           "jiuyuan",
@@ -3699,8 +3699,8 @@
         "descriptionEn": "A team built around Merula as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "梅露拉相属性队",
+        "nameEn": "Merula Lakshana Team",
         "members": [
           "merula",
           "jiuyuan",
@@ -3874,8 +3874,8 @@
         "descriptionEn": "A support-focused team with Alphard, paired with high-DPS and defense characters for sustained combat."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "阿尔法德相属性队",
+        "nameEn": "Alphard Lakshana Team",
         "members": [
           "alphard",
           "jiuyuan",
@@ -4266,8 +4266,8 @@
         "descriptionEn": "A team built around Hathor as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "哈索尔相属性爆发队",
+        "nameEn": "Hathor Lakshana Burst Team",
         "members": [
           "hathor",
           "jiuyuan",
@@ -4472,8 +4472,8 @@
         "descriptionEn": "A team built around Chiz as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "赤子宇宙输出队",
+        "nameEn": "Chiz Cosmos DPS Team",
         "members": [
           "chiz",
           "jiuyuan",
@@ -4835,8 +4835,8 @@
         "descriptionEn": "A team built around Lingko as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "凛子咒文输出队",
+        "nameEn": "Lingko Incantation DPS Team",
         "members": [
           "lingko",
           "jiuyuan",
@@ -5010,8 +5010,8 @@
         "descriptionEn": "A support-focused team with Mismo, paired with high-DPS and defense characters for sustained combat."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "密斯莫混沌支援队",
+        "nameEn": "Mismo Chaos Support Team",
         "members": [
           "mismo",
           "jiuyuan",
@@ -5772,8 +5772,8 @@
         "descriptionEn": "A team built around Xiaozhen as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "明虎生命爆发队",
+        "nameEn": "Xiaozhen Anima Burst Team",
         "members": [
           "xiaozhen",
           "jiuyuan",
@@ -6154,8 +6154,8 @@
         "descriptionEn": "A support-focused team with Jenson, paired with high-DPS and defense characters for sustained combat."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "詹森精神防护队",
+        "nameEn": "Jenson Psyche Defense Team",
         "members": [
           "jenson",
           "jiuyuan",
@@ -6330,8 +6330,8 @@
         "descriptionEn": "A team built around Illica as main DPS, with supports providing buffs and elemental reactions to maximize damage output."
       },
       {
-        "name": "未知阵容",
-        "nameEn": "未知 Squad",
+        "name": "伊洛伊相属性增益队",
+        "nameEn": "Illica Lakshana Buffer Team",
         "members": [
           "illica",
           "jiuyuan",
@@ -8520,6 +8520,18 @@
         "questionZh": "真红最佳武器是什么？",
         "answer": "Zhenhong's signature Synthesis-type Arc is her best-in-slot. For alternatives, any 5-star Synthesis Arc with CRIT or ATK% substats works well.",
         "answerZh": "真红的专属合成型弧盘是最佳选择。替代方案可使用任何带暴击或攻击力副属性的五星合成型弧盘。"
+      },
+      {
+        "question": "What is Zhenhong's 'Twin Butterflies' (双生蝶) mechanic?",
+        "questionZh": "真红的「双生蝶」是什么机制？",
+        "answer": "'Twin Butterflies' (双生蝶) is a community nickname circulating around Zhenhong's kit, commonly associated with her Rage/Berserk loop or a coordinated-attack passive. The exact in-game reference is pending official confirmation — treat it as community terminology until the official skill breakdown is published.",
+        "answerZh": "「双生蝶」是社区对真红技能包的别称，常被用来指代她的暴怒值/暴走循环或某个协同攻击被动。具体官方命名待游戏内技能详解公布后确认，目前建议视为玩家社区用语。"
+      },
+      {
+        "question": "Is Zhenhong's voice actor (CV) announced?",
+        "questionZh": "真红的 CV 声优是谁？",
+        "answer": "Zhenhong's CN/JP voice actors have not yet been officially confirmed as of the Version 1.2 launch. We will update this entry as soon as the official announcement is made.",
+        "answerZh": "截至1.2版本上线，真红的中日 CV 尚未官方确认。官方公布后我们会第一时间更新。"
       }
     ],
     "relatedCharacters": [
@@ -8528,8 +8540,8 @@
       "illica"
     ],
     "tierRank": "SS",
-    "tierReason": "Top Light DPS with Rage/Berserk burst mechanic and Genesis reaction enhancement",
-    "tierReasonZh": "光系主C天花板，暴怒值/暴走机制提供极高爆发，创生反应强化",
+    "tierReason": "Top Light DPS with Rage/Berserk burst mechanic and Genesis reaction enhancement (pre-launch rating — pending live-server validation when Phase 2 begins Jun 25)",
+    "tierReasonZh": "光系主C天花板，暴怒值/暴走机制提供极高爆发，创生反应强化（预评，待 6/25 下半上线后实测校准）",
     "skills": {
       "normalAttack": {
         "name": "鬼爪连击",
@@ -8609,6 +8621,18 @@
         ],
         "description": "以真红为核心的光属性配队，零提供快切触发创生反应，伊洛伊提供治疗增伤，小吱副C。",
         "descriptionEn": "Light team built around Zhenhong. Zero provides fast switch for Genesis triggers, Illica provides healing and buffs, Xiaozhi as sub-DPS."
+      },
+      {
+        "name": "真红暴走爆发队",
+        "nameEn": "Zhenhong Berserk Burst Team",
+        "members": [
+          "zhenhong",
+          "illica",
+          "haniel",
+          "baicang"
+        ],
+        "description": "伊洛伊+哈涅尔双重增益叠加，最大化真红暴走状态的爆发窗口。白藏提供生存与控场兜底，适合深渊与异象高强度内容。",
+        "descriptionEn": "Double-buff core (Illica + Haniel) stacks ATK buffs to maximize Zhenhong's Berserk burst window. Baicang provides survival and crowd-control insurance. Suited for Abyss and Anomaly high-difficulty content."
       }
     ],
     "image": "/images/characters/zhenhong.webp",

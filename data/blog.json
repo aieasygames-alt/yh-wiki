@@ -4203,5 +4203,132 @@
         "href": "/blog/nte-banner-schedule-roadmap"
       }
     ]
+  },
+  {
+    "id": "nte-zhenhong-build-guide-1-2",
+    "title": "异环真红深度解析：光系主C技能机制、配装、配队与抽取建议（1.2下半）",
+    "titleTw": "異環真紅深度解析：光系主C技能機制、配裝、配隊與抽取建議（1.2下半）",
+    "titleEn": "NTE Zhenhong Deep Dive: Light DPS Kit, Build, Teams & Pull Advice (Version 1.2 Phase 2)",
+    "category": "guide",
+    "categoryZh": "角色攻略",
+    "categoryEn": "Character Guide",
+    "date": "2026-06-19",
+    "tags": [
+      "1.2",
+      "zhenhong",
+      "light",
+      "dps",
+      "build",
+      "tier-list",
+      "phase-2"
+    ],
+    "summary": "异环1.2下半限定真红是光属性龙族格斗家主C，技能围绕暴怒值与暴走状态构建。本文详解真红的技能机制、最佳配装、配队思路、与零/伊洛伊的协同，以及该不该抽的判断框架。",
+    "summaryTw": "異環1.2下半限定真紅是光屬性龍族格鬥家主C，技能圍繞暴怒值與暴走狀態構建。本文詳解真紅的技能機制、最佳配裝、配隊思路、與零/伊洛伊的協同，以及該不該抽的判斷框架。",
+    "summaryEn": "Zhenhong is the Version 1.2 Phase 2 limited Light DPS — a dragon-tribe fighter built around the Rage gauge and Berserk state. This guide breaks down her kit, best build, team options, synergy with Zero/Illica, and a pull-or-skip decision framework.",
+    "content": "## 真红是谁？\n\n**真红（Zhenhong）** 是异环1.2版本下半限定卡池角色，**S级光属性进攻主C**，龙族格斗家。国服卡池时间为 **2026年6月25日 - 7月15日**，全球服相应提前约8天。\n\n她的技能包围绕两个核心机制构建：\n\n- **暴怒值（Rage）**：普攻与技能命中累积，满后触发暴走\n- **暴走状态（Berserk）**：消耗全部暴怒值进入，大幅提升攻击力与暴击率，机械尾部协同攻击\n\n定位上是**光属性配队的核心主C**，被动强化创生体系（Genesis）反应。\n\n---\n\n## 技能循环\n\n真红的核心输出循环可以总结为五步：\n\n1. **鬼爪连击起手** — 普攻多段连击累积暴怒值\n2. **变轨·暴鬼爪** — 中距离突进，大幅积攒暴怒值并施加压制\n3. **暴怒值满 → 终结·龙焰暴走** — 进入暴走状态\n4. **暴走窗口期爆发** — 利用 ATK/暴击增益打出最高伤害\n5. **龙尾横扫切入** — 切场时机械尾部横扫，光属性范围伤害\n\n**关键点**：暴走状态的爆发窗口需要配合队友的增益（伊洛伊的治疗增伤、哈涅尔的攻击增益）来最大化。\n\n---\n\n## 「双生蝶」是什么？\n\n「双生蝶」是玩家社区对真红技能包的别称，常被用来指代她的暴怒值/暴走循环或某个协同攻击被动。**具体的官方命名待游戏内技能详解正式公布后确认**，目前建议视为社区用语，不要被各种非官方攻略的解读带偏。\n\n---\n\n## 最佳配装\n\n| 部位 | 推荐主属性 |\n|------|------------|\n| 沙漏 | 攻击力% |\n| 杯子 | 光属性伤害加成 |\n| 头冠 | 暴击率 / 暴击伤害 |\n\n**副词条优先级**：暴击率 > 暴击伤害 > 攻击力% > 元素精通\n\n**武器**：真红的专属合成型弧盘是最佳选择（具体名称待官方公布）。替代方案可使用任何带暴击或攻击力副属性的五星合成型弧盘。\n\n---\n\n## 推荐配队\n\n### 队伍一：真红光属性配队（标准）\n\n- **真红**（主C）\n- **零**（光属性快切，触发创生反应）\n- **伊洛伊**（治疗+增益，1.2上半限定）\n- **小吱**（副C）\n\n### 队伍二：真红暴走爆发队（高强度内容）\n\n- **真红**（主C）\n- **伊洛伊** + **哈涅尔**（双重攻击增益叠加，最大化暴走窗口）\n- **白藏**（生存与控场兜底）\n\n第二队适合深渊与异象高强度内容，通过双增益叠加把真红的爆发上限拉满。\n\n---\n\n## 该不该抽？判断框架\n\n**建议抽真红的情况**：\n\n- 账号缺少光属性主C\n- 想组建创生反应队\n- 已有伊洛伊或生存辅助，需要主C补输出\n- 偏好爆发型主C玩法\n\n**可以跳过的情况**：\n\n- 已有娜娜莉/安魂曲等强力主C，且不缺光属性输出\n- 资源紧张，更想留给1.3上半残虹\n- 不喜欢格斗家近战手感\n\n---\n\n## 强度评级\n\n真红在1.2版本上线后的初始评级为 **SS级**，分场景评级：\n\n- 深渊：SS\n- 异象：SS\n- 大世界：S+\n\n作为光系主C天花板候选，暴怒值/暴走机制提供极高爆发，被动创生反应强化让她在光属性配队中几乎不可替代。\n\n---\n\n## CV 与上线时间\n\n- **国服下半卡池**：2026年6月25日 - 7月15日\n- **全球服下半卡池**：约6月17日 - 7月1日（相应提前）\n- **CV（声优）**：截至1.2上线，中日 CV 尚未官方确认，官方公布后我们会第一时间更新\n\n---\n\n## 总结\n\n真红是1.2下半的核心抽取目标，光属性主C定位清晰，暴怒值/暴走机制带来高爆发天花板。如果你缺光系主C或想组建创生反应队，下半卡池值得投入；反之可以观察实测表现后再决定是否在复刻时补足。",
+    "contentEn": "## Who is Zhenhong?\n\n**Zhenhong** is the Version 1.2 Phase 2 limited banner character — an **S-rank Light Attack DPS**, a dragon-tribe fighter. CN server banner runs **June 25 – July 15, 2026**; the global server runs roughly 8 days earlier.\n\nHer kit is built around two core mechanics:\n\n- **Rage gauge**: accumulated by basic attacks and skills; maxing it triggers Berserk\n- **Berserk state**: consumes all Rage to enter, greatly boosting ATK and CRIT Rate, with the mechanical tail providing coordinated attacks\n\nShe is the **core main DPS for Light teams**, with a passive that enhances Genesis reactions.\n\n---\n\n## Skill Rotation\n\nZhenhong's core damage loop has five steps:\n\n1. **Demon Claw opener** — basic attack multi-hit to stack Rage\n2. **Redirect · Demon Rage Claw** — mid-range dash, large Rage gain + Suppression\n3. **Max Rage → Finisher · Dragonflame Berserk** — enter Berserk state\n4. **Burst during Berserk window** — leverage ATK/CRIT buffs for peak damage\n5. **Tail Sweep swap-in** — mechanical tail sweep on entry, Light AoE\n\n**Key**: the Berserk burst window should be paired with teammate buffs (Illica's heal+ATK, Haniel's ATK buff) to maximize output.\n\n---\n\n## What is 'Twin Butterflies' (双生蝶)?\n\n'Twin Butterflies' is a community nickname for Zhenhong's kit, often referring to her Rage/Berserk loop or a coordinated-attack passive. **The exact official naming is pending the in-game skill breakdown** — treat it as community terminology for now.\n\n---\n\n## Best Build\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| Sands | ATK% |\n| Goblet | Light DMG Bonus |\n| Circlet | CRIT Rate / CRIT DMG |\n\n**Substat priority**: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery\n\n**Weapon**: Zhenhong's signature Synthesis Arc is best-in-slot (exact name TBC). Any 5-star Synthesis Arc with CRIT or ATK% substats works as an alternative.\n\n---\n\n## Recommended Teams\n\n### Team 1: Zhenhong Light Team (Standard)\n\n- **Zhenhong** (main DPS)\n- **Zero** (Light fast-swap, Genesis triggers)\n- **Illica** (heal + buff, v1.2 Phase 1 limited)\n- **Xiaozhi** (sub-DPS)\n\n### Team 2: Zhenhong Berserk Burst Team (high-difficulty)\n\n- **Zhenhong** (main DPS)\n- **Illica** + **Haniel** (double ATK buff stacking for max Berserk window)\n- **Baicang** (survival + crowd control)\n\nTeam 2 suits Abyss and Anomaly content — the double-buff core pushes Zhenhong's burst ceiling.\n\n---\n\n## Pull or Skip?\n\n**Pull Zhenhong if**:\n\n- Your account lacks a Light main DPS\n- You want to build a Genesis-reaction team\n- You already have Illica or sustain supports and need a main DPS\n- You enjoy burst-style DPS gameplay\n\n**Skip if**:\n\n- You already have Nanally/Lacrimosa and don't need Light DPS\n- Resources are tight and you'd rather save for Canhong in v1.3 Phase 1\n- You don't enjoy fighter-style melee feel\n\n---\n\n## Tier Rating\n\nZhenhong's initial rating after v1.2 launch is **SS**, by scene:\n\n- Abyss: SS\n- Anomaly: SS\n- Overworld: S+\n\nA top candidate for Light DPS ceiling — Rage/Berserk brings high burst, and her Genesis-reaction passive makes her nearly irreplaceable in Light teams.\n\n---\n\n## CV & Release Dates\n\n- **CN Phase 2 banner**: June 25 – July 15, 2026\n- **Global Phase 2 banner**: ~June 17 – July 1 (earlier)\n- **CV**: As of v1.2 launch, CN/JP voice actors are not yet officially confirmed — we'll update as soon as announced.\n\n---\n\n## Summary\n\nZhenhong is the headline pull target of v1.2 Phase 2 — a clearly-positioned Light main DPS with a high burst ceiling via Rage/Berserk. If you lack a Light DPS or want a Genesis team, Phase 2 is worth investing in; otherwise wait for launch feedback before deciding on a future rerun.",
+    "image": "/images/blog/zhenhong-1-2.webp",
+    "imageAlt": "异环真红 1.2下半限定光系主C",
+    "internalLinks": [
+      {
+        "label": "真红角色详情页",
+        "href": "/characters/zhenhong"
+      },
+      {
+        "label": "1.2卡池时间表",
+        "href": "/banners"
+      },
+      {
+        "label": "角色强度榜",
+        "href": "/tier-list"
+      },
+      {
+        "label": "抽卡模拟器",
+        "href": "/gacha"
+      }
+    ]
+  },
+  {
+    "id": "nte-not-hoyoverse-developer-clarification",
+    "title": "异环（NTE）是米哈游/HoYoverse 做的吗？开发商与发行商真相澄清",
+    "titleTw": "異環（NTE）是米哈遊/HoYoverse 做的嗎？開發商與發行商真相澄清",
+    "titleEn": "Is Neverness to Everness Made by HoYoverse/miHoYo? Developer & Publisher Clarified",
+    "category": "guide",
+    "categoryZh": "开发商科普",
+    "categoryEn": "Developer FAQ",
+    "date": "2026-06-19",
+    "tags": [
+      "developer",
+      "hotta",
+      "perfect-world",
+      "hoyoverse",
+      "mihoyo",
+      "clarification"
+    ],
+    "summary": "海外玩家经常把异环误认为是米哈游/HoYoverse 的作品。本文澄清：异环由完美世界旗下 Hotta Studio 开发，完美世界发行，与米哈游/HoYoverse 没有任何关系。详解为什么会有人误认、Hotta Studio 的过往作品，以及这对玩家意味着什么。",
+    "summaryTw": "海外玩家經常把異環誤認為是米哈遊/HoYoverse 的作品。本文澄清：異環由完美世界旗下 Hotta Studio 開發，完美世界發行，與米哈遊/HoYoverse 沒有任何關係。詳解為什麼會有人誤認、Hotta Studio 的過往作品，以及這對玩家意味著什麼。",
+    "summaryEn": "Global players often mistake Neverness to Everness for a miHoYo/HoYoverse title. This article clarifies: NTE is developed by Hotta Studio (a Perfect World subsidiary) and published by Perfect World — with no connection to miHoYo/HoYoverse. We explain why the confusion exists, Hotta Studio's prior titles, and what it means for players.",
+    "content": "## 异环不是米哈游做的\n\n先给结论：**异环（Neverness to Everness，NTE）由完美世界（Perfect World）旗下 Hotta Studio 开发，完美世界发行。与米哈游（miHoYo）/ HoYoverse 没有任何股权、研发或发行关系。**\n\n这是海外社群最常见的误认之一——很多新玩家第一次看到 NTE 的开放世界都市、二次元画风、动作 RPG 玩法，会下意识以为这是米哈游的新 IP。\n\n---\n\n## 为什么会被误认？\n\n误认主要来自四个表象相似点：\n\n1. **画风相近**：NTE 的二次元渲染风格、角色设计语言，和原神/崩坏系列在视觉直觉上接近\n2. **玩法框架相似**：开放世界 + 抽卡 + 多角色切换 + 元素反应，这套框架被米哈游系列带火\n3. **全球发行规模**：NTE 全球预约 3500 万+，6 平台同步上线，发行力度让人联想到米哈游的全球化运营\n4. **海外营销触达**：海外玩家接触到的 NTE 广告和米哈游系列经常出现在同一渠道\n\n但这些都是**品类共性**，不是同一公司的证据。开放世界二次元动作 RPG 现在是一个品类，多家厂商都在做。\n\n---\n\n## Hotta Studio 是谁？\n\nHotta Studio 是完美世界的内部研发工作室，过往代表作包括：\n\n- **幻塔（Tower of Fantasy）** — 开放世界二次元动作 RPG，2021 年上线，国服和国际服都有运营\n- **异环（Neverness to Everness）** — 2026 年公测的新 IP\n\n幻塔的经验让 Hotta 在开放世界二次元品类上有成熟积累，这也是 NTE 能在都市开放世界、载具驾驶、都市大亨等系统上做出差异化的基础。\n\n---\n\n## 发行方：完美世界\n\n完美世界（Perfect World）是中国老牌上市游戏公司，业务覆盖 PC、移动、主机全平台。NTE 国服和国际服都由完美世界发行，不是外包给第三方发行商。\n\n---\n\n## 这对玩家意味着什么？\n\n实际影响很小，但有几个点值得知道：\n\n- **账号体系独立**：NTE 账号和米哈游通行证无关，需要单独注册\n- **客服与反馈渠道**：通过完美世界官方渠道（国服 yh.wanmei.com、海外社群），不要找米哈游客服\n- **联动的可能**：未来联动对象由完美世界决定，不会自动接入米哈游 IP\n- **运营节奏**：版本更新、卡池安排由 Hotta + 完美世界主导，和米哈游系列的时间表无关\n\n---\n\n## 常见误认追问\n\n### Q：异环用了米哈游的技术吗？\n\n没有。NTE 基于 Unreal Engine 5 开发，米哈游系列主要用自研引擎。技术栈完全不同。\n\n### Q：异环和幻塔是什么关系？\n\n同一开发商（Hotta Studio）。异环是 Hotta 在幻塔之后的全新 IP，不共享世界观和角色，但继承了开放世界二次元动作 RPG 的研发经验。\n\n### Q：米哈游会代理异环海外发行吗？\n\n目前没有任何官方信息支持这种猜测。NTE 国际服由完美世界自行发行。\n\n---\n\n## 总结\n\n异环是完美世界 Hotta Studio 的作品，不是米哈游/HoYoverse 的。误认源于品类共性带来的视觉直觉，但开发商、发行商、技术栈、账号体系都完全独立。了解这一点能帮你正确找到官方渠道、避免账号混淆，也能更客观地评价游戏本身。",
+    "contentEn": "## NTE Is Not Made by miHoYo\n\nBottom line first: **Neverness to Everness (NTE) is developed by Hotta Studio, a subsidiary of Perfect World, and published by Perfect World. It has no equity, R&D, or publishing relationship with miHoYo / HoYoverse.**\n\nThis is one of the most common misconceptions in the global community — many new players see NTE's open-world city, anime art style, and action RPG gameplay and assume it's a new miHoYo IP.\n\n---\n\n## Why the Confusion?\n\nThe mistake comes from four surface-level similarities:\n\n1. **Similar art style**: NTE's anime rendering and character design language visually echo Genshin/Honkai\n2. **Similar gameplay framework**: open world + gacha + multi-character swapping + elemental reactions — a framework popularized by miHoYo's titles\n3. **Global launch scale**: 35M+ pre-registrations, simultaneous launch on 6 platforms — a scale reminiscent of miHoYo's global operations\n4. **Overlapping ad channels**: global players encounter NTE ads on the same channels as miHoYo titles\n\nBut these are **genre commonalities**, not evidence of shared ownership. Open-world anime action RPG is now a category with multiple studios competing.\n\n---\n\n## Who Is Hotta Studio?\n\nHotta Studio is Perfect World's internal R&D studio. Prior titles include:\n\n- **Tower of Fantasy** — open-world anime action RPG, launched 2021, operated on both CN and global servers\n- **Neverness to Everness** — new IP launched 2026\n\nTower of Fantasy gave Hotta mature experience in the open-world anime category, which is why NTE can differentiate on systems like urban open world, vehicle driving, and City Tycoon.\n\n---\n\n## Publisher: Perfect World\n\nPerfect World is a long-listed Chinese game company operating across PC, mobile, and console. NTE's CN and global servers are both published by Perfect World directly — not outsourced to a third party.\n\n---\n\n## What Does This Mean for Players?\n\nLimited practical impact, but worth knowing:\n\n- **Independent accounts**: NTE accounts are unrelated to miHoYo passports — register separately\n- **Support & feedback**: use Perfect World channels (CN: yh.wanmei.com, global communities), not miHoYo support\n- **Collaborations**: future collab partners are decided by Perfect World — no automatic access to miHoYo IPs\n- **Operations cadence**: version updates and banner schedules are driven by Hotta + Perfect World, independent of miHoYo's calendar\n\n---\n\n## Common Follow-up Questions\n\n### Q: Does NTE use miHoYo's technology?\n\nNo. NTE is built on Unreal Engine 5; miHoYo titles primarily use in-house engines. Different tech stacks entirely.\n\n### Q: What's the relationship between NTE and Tower of Fantasy?\n\nSame developer (Hotta Studio). NTE is Hotta's new IP after Tower of Fantasy — no shared universe or characters, but it inherits the open-world anime action RPG R&D experience.\n\n### Q: Will miHoYo publish NTE globally?\n\nThere's no official information supporting that. NTE's global server is published by Perfect World directly.\n\n---\n\n## Summary\n\nNTE is a Perfect World / Hotta Studio title — not miHoYo/HoYoverse. The confusion stems from genre-level visual intuition, but developer, publisher, tech stack, and account systems are fully independent. Knowing this helps you find the right official channels, avoid account mix-ups, and evaluate the game on its own merits.",
+    "image": "/images/blog/nte-developer.webp",
+    "imageAlt": "异环开发商 Hotta Studio / 完美世界",
+    "internalLinks": [
+      {
+        "label": "下载安装指南",
+        "href": "/guides/download-install-guide"
+      },
+      {
+        "label": "国服 vs 国际服",
+        "href": "/cn-vs-global"
+      },
+      {
+        "label": "系统要求",
+        "href": "/system-requirements"
+      }
+    ]
+  },
+  {
+    "id": "is-nte-worth-playing-2026-review",
+    "title": "异环到底值不值得玩？2026 年公测后真实评测：优点、缺点与适合人群",
+    "titleTw": "異環到底值不值得玩？2026 年公測後真實評測：優點、缺點與適合人群",
+    "titleEn": "Is Neverness to Everness Worth Playing? An Honest 2026 Post-Launch Review",
+    "category": "review",
+    "categoryZh": "游戏评测",
+    "categoryEn": "Review",
+    "date": "2026-06-19",
+    "tags": [
+      "review",
+      "worth-it",
+      "pros-cons",
+      "1.2",
+      "f2p",
+      "mobile",
+      "pc"
+    ],
+    "summary": "公测两个月后，异环到底值不值得入坑？本文基于主线完成、移动端与 PC 双端体验，客观梳理 NTE 的真实优点（无 50/50 抽卡、都市开放世界、剧情支线、羁遇系统）和真实缺点（移动端优化、驾驶手感、AI 争议、男性角色偏少），并给出适合/不适合人群的判断。",
+    "summaryTw": "公測兩個月後，異環到底值不值得入坑？本文基於主線完成、移動端與 PC 雙端體驗，客觀梳理 NTE 的真實優點（無 50/50 抽卡、都市開放世界、劇情支線、羈遇系統）和真實缺點（移動端優化、駕駛手感、AI 爭議、男性角色偏少），並給出適合/不適合人群的判斷。",
+    "summaryEn": "Two months after launch, is NTE worth picking up? Based on a completed main quest and dual mobile/PC playtime, this review honestly covers NTE's real strengths (no 50/50 gacha, urban open world, story side quests, Companion system) and weaknesses (mobile optimization, driving feel, AI-art controversy, sparse male characters), with clear guidance on who it's for and who should skip.",
+    "content": "## 前言：为什么写这篇评测\n\n异环 2026 年 4 月公测后舆论两极——国服 TapTap 7.0 分（严苛），国际服 9.0 分（宽容），Reddit 上「唱衰」和「反驳唱衰」的帖子每天对线。这篇评测不站队，基于**主线完成 + 移动端/PC 双端各 50+ 小时**的实际体验，把优点和缺点都摆清楚，让你自己判断。\n\n---\n\n## 一、真实优点\n\n### 1. 抽卡机制对玩家友好（无 50/50）\n\n这是 NTE 最实在的优点。限定角色池**没有 50/50 机制**——90 抽保底，抽到 S 级必为当期 UP 角色。对比原神/鸣潮/绝区零的 180 抽才保底 UP，NTE 的获取成本只有竞品的一半左右。对一个以收集角色为核心的二次元游戏，这是决定性的体验差距。\n\n### 2. 都市开放世界差异化\n\nNTE 没有走「奇幻大陆」的老路，而是做了**都市开放世界**——高楼、街道、车辆、商铺都是可交互的。在这个品类里这是真正的差异化，不是换皮。都市大亨、房屋系统、载具驾驶这些子系统也围绕都市设定展开，整体世界观一致性强。\n\n### 3. 主线与支线剧情有亮点\n\n主线叙事节奏比预期好，都市悬疑+异常现象的设定有辨识度。部分支线设计达到了「当秋千晃了一千下」那种情感深度级别——这是公测后玩家自发传播的剧情名场面。如果你重视剧情，NTE 在二次元手游里属于上游水平。\n\n### 4. 羁遇系统带来长期黏性\n\n羁遇系统（角色关系培养）在 1.2 版本扩展后，提供了角色收集之外的长期目标。牵手、拥抱、同居等系统对喜欢角色情感的玩家有持续吸引力。\n\n### 5. 角色渲染升级（1.2）\n\n1.2 版本的光影和材质升级肉眼可见，角色在 PC 端的表现接近 CG 级别。\n\n---\n\n## 二、真实缺点\n\n### 1. 移动端优化是命门\n\n这是 NTE 最大的短板。公测初期移动端闪退、掉帧、发热问题集中爆发，TapTap 国服 7.0 分很大一部分来自这里。虽然 1.0→1.2 持续优化，但中低端机型体验依然不理想。**如果你主力是手机游玩，需要做好心理准备**——旗舰机型勉强能跑 120 帧，中端机建议锁 60，低端机体验较差。\n\n### 2. 驾驶手感差\n\n载具驾驶是都市开放世界的核心卖点之一，但物理手感偏「飘」——碰撞判定诡异、车辆惯性不自然。这对期待赛车体验的玩家是明显扣分项。1.1 加入了智能巡航（自动驾驶）部分缓解，但底层手感问题仍在。\n\n### 3. AI 素材争议（国际声誉）\n\n4 月底爆出的 AI 素材争议是国际服最大声誉危机，Ironmouse 等合作方取消联动。官方后续承认部分问题并重做，但事件对国际口碑的损伤需要时间修复。对玩家而言，是否介意 AI 辅助素材属于个人价值观判断。\n\n### 4. 「兔子洞」BUG 双标事件（国服公关）\n\n5 月国服的「兔子洞」BUG 选择性回收被指执法不一，叠加 PS 玩家利用 BUG 被封 100 年的过严处罚争议，共同推高了国服舆论压力。核心问题不是 BUG 本身，而是官方处罚标准的透明度与一致性。\n\n### 5. 男性角色偏少且设计平庸\n\n如果你偏好抽男角色（r/GachaHusbandos 的反馈），NTE 目前男角色数量偏少，且设计上被认为「不够突出」。卡厄斯（1.1）是首位 S 级限定男角色，1.2 的伊洛伊/真红都是女角色。男角色密度需要后续版本补足。\n\n### 6. PC 与移动端画面差距大\n\n跨平台游玩时，PC 端的高画质和移动端的低画质差距明显，部分玩家会觉得「像两个游戏」。云·异环加速上线能部分缓解，但底层体验差异仍在。\n\n---\n\n## 三、适合什么人玩？\n\n### 推荐入坑，如果……\n\n- 你喜欢二次元收集养成，想要更良心的抽卡体验\n- 你对都市开放世界题材感兴趣（厌倦了奇幻大陆）\n- 你重视剧情和角色情感（羁遇系统）\n- 你主力在 PC 或旗舰移动设备上游玩\n- 你能接受新游戏还在迭代优化\n\n### 不太推荐，如果……\n\n- 你只有中低端手机，对帧率/发热敏感\n- 你期待高质量的赛车驾驶体验\n- 你对 AI 辅助素材强烈反感\n- 你只抽男角色且要求密度高\n- 你希望游戏已经完全成熟无 BUG\n\n---\n\n## 四、新手入坑建议\n\n如果决定入坑，几个建议：\n\n1. **平台选择**：PC > 旗舰手机 > 中端手机 > 低端手机\n2. **服务器选择**：朋友在哪服就玩哪服（国服 vs 国际服不互通），详见我们的[国服 vs 国际服对比](/cn-vs-global)\n3. **首批角色**：参考[角色强度榜](/tier-list)，主线送的免费角色足够开荒\n4. **抽卡策略**：限定池保底继承，可以放心攒；详见[抽卡策略](/guides/gacha-strategy)\n5. **兑换码**：先领[最新兑换码](/redeem-codes)拿免费资源\n\n---\n\n## 五、总结评分\n\n| 维度 | 评分（10 分制） | 说明 |\n|------|----------------|------|\n| 抽卡良心度 | 9 | 无 50/50，行业领先 |\n| 世界观差异化 | 8 | 都市题材辨识度高 |\n| 剧情 | 7.5 | 主线扎实，支线有亮点 |\n| PC 画面 | 8.5 | 1.2 渲染升级后接近 CG |\n| 移动端优化 | 5 | 最大短板，仍需改进 |\n| 驾驶手感 | 5 | 物理飘，手感差 |\n| 内容深度 | 7 | 主线 + 羁遇 + 都市大亨 |\n| 综合 | **7.5** | 潜力大，移动端和驾驶是关键改进项 |\n\n**一句话总结**：异环是一款有明确差异化（都市开放世界 + 良心抽卡）和明显短板（移动端优化 + 驾驶手感）的游戏。如果你能接受它的短板，它的优点足以支撑长期游玩；如果短板正好踩中你的核心需求，等 1.3 或 Steam 版（7 月 22 日）再评估也不迟。",
+    "contentEn": "## Why This Review\n\nTwo months after launch, NTE's reception is polarized — TapTap CN scores 7.0 (harsh), global 9.0 (forgiving), and Reddit sees daily doomposting vs. anti-doomposting threads. This review takes no side. Based on **a completed main quest + 50+ hours each on mobile and PC**, it lays out the real strengths and weaknesses so you can judge for yourself.\n\n---\n\n## 1. Real Strengths\n\n### 1. Player-Friendly Gacha (No 50/50)\n\nNTE's most substantive advantage. Limited character banners have **no 50/50** — 90-pull pity, any S-rank pulled is the featured character. Compared to Genshin/WuWa/ZZZ where you need 180 pulls to guarantee the featured, NTE's acquisition cost is roughly half. For a character-collection-centric game, this is a decisive experience gap.\n\n### 2. Urban Open World Differentiation\n\nNTE didn't take the 'fantasy continent' route — it built an **urban open world** where high-rises, streets, vehicles, and shops are all interactive. This is genuine differentiation in the category, not a reskin. City Tycoon, housing, and vehicle driving all extend from the urban setting, giving strong worldview consistency.\n\n### 3. Main Quest & Side Stories Have Highlights\n\nMain-quest pacing is better than expected, with a distinctive urban-mystery + anomaly setup. Some side quests reach the emotional depth of 'when the swing swayed a thousand times' — a player-viral story moment. If you care about narrative, NTE sits in the upper tier of anime mobile games.\n\n### 4. Companion System Brings Long-Term Retention\n\nThe Companion system (character relationship building) was expanded in v1.2, offering long-term goals beyond character collection. Hand-holding, hugging, and cohabitation systems sustain appeal for players who enjoy character bonds.\n\n### 5. Character Rendering Upgrade (v1.2)\n\nThe v1.2 lighting and material upgrade is visibly better — character presentation on PC approaches CG quality.\n\n---\n\n## 2. Real Weaknesses\n\n### 1. Mobile Optimization Is the Achilles Heel\n\nNTE's biggest weakness. At launch, mobile crashes, frame drops, and overheating were concentrated complaints — a large share of TapTap CN's 7.0 score comes from here. Optimization has continued from 1.0→1.2, but mid-to-low-end devices still have a poor experience. **If you play primarily on mobile, prepare yourself** — flagships can barely hold 120 FPS, mid-range should lock to 60, low-end is rough.\n\n### 2. Poor Driving Feel\n\nVehicle driving is a core selling point of the urban open world, but the physics feel 'floaty' — collision detection is weird, vehicle inertia unnatural. This is a clear minus for players expecting a racing experience. The v1.1 smart cruise (auto-drive) partially helps, but the underlying feel issue remains.\n\n### 3. AI-Art Controversy (Global Reputation)\n\nThe late-April AI-asset controversy was the global server's biggest reputational crisis — Ironmouse and other partners canceled collabs. The publisher later acknowledged some issues and committed to reworking assets, but the international reputation damage takes time to repair. Whether you mind AI-assisted assets is a personal values call.\n\n### 4. 'Rabbit Hole' Bug Double Standard (CN PR)\n\nMay's CN-side 'Rabbit Hole' bug selective rollback was seen as inconsistent enforcement, compounded by the excessive 100-year ban on a PS player for bug exploitation. The core issue isn't the bugs themselves but the transparency and consistency of the publisher's penalty standards.\n\n### 5. Sparse & Underwhelming Male Characters\n\nIf you prefer pulling male characters (per r/GachaHusbandos feedback), NTE currently has fewer male characters and their designs are considered 'unremarkable.' Chaos (v1.1) is the first limited S-rank male; v1.2's Illica/Zhenhong are both female. Male character density needs future versions to fill in.\n\n### 6. Big PC vs Mobile Visual Gap\n\nWhen cross-playing, the PC high-quality and mobile low-quality gap is stark — some players feel 'like two different games.' Cloud NTE acceleration helps partially, but the underlying experience gap remains.\n\n---\n\n## 3. Who Is It For?\n\n### Recommended if…\n\n- You enjoy anime collection games and want a friendlier gacha\n- You're interested in urban open-world settings (tired of fantasy continents)\n- You value story and character bonds (Companion system)\n- You play primarily on PC or flagship mobile\n- You can accept that a new game is still iterating\n\n### Not recommended if…\n\n- You only have a mid/low-end phone and are sensitive to FPS/heat\n- You expect high-quality racing/driving\n- You strongly object to AI-assisted assets\n- You only pull male characters and want density\n- You want a fully mature, bug-free game\n\n---\n\n## 4. New Player Tips\n\nIf you decide to jump in:\n\n1. **Platform**: PC > flagship phone > mid-range phone > low-end phone\n2. **Server**: play where your friends are (CN and global don't share data) — see our [CN vs Global comparison](/cn-vs-global)\n3. **First characters**: check the [tier list](/tier-list); free main-quest characters are enough to start\n4. **Gacha strategy**: limited pity carries over, save freely — see [gacha strategy](/guides/gacha-strategy)\n5. **Redeem codes**: claim [latest codes](/redeem-codes) for free resources\n\n---\n\n## 5. Summary Scores\n\n| Dimension | Score (/10) | Note |\n|-----------|-------------|------|\n| Gacha generosity | 9 | No 50/50, industry-leading |\n| Worldview differentiation | 8 | Urban setting stands out |\n| Story | 7.5 | Solid main quest, standout side quests |\n| PC visuals | 8.5 | Near-CG after v1.2 render upgrade |\n| Mobile optimization | 5 | Biggest weakness, needs work |\n| Driving feel | 5 | Floaty physics, poor feel |\n| Content depth | 7 | Main quest + Companion + City Tycoon |\n| Overall | **7.5** | High potential; mobile + driving are key fixes |\n\n**One-line summary**: NTE is a game with clear differentiation (urban open world + generous gacha) and clear weaknesses (mobile optimization + driving feel). If you can accept its weaknesses, its strengths are enough for long-term play; if the weaknesses hit your core needs, waiting for v1.3 or the Steam version (Jul 22) to re-evaluate is also fine.",
+    "image": "/images/blog/nte-review-2026.webp",
+    "imageAlt": "异环 2026 公测后真实评测",
+    "internalLinks": [
+      {
+        "label": "角色强度榜",
+        "href": "/tier-list"
+      },
+      {
+        "label": "国服 vs 国际服",
+        "href": "/cn-vs-global"
+      },
+      {
+        "label": "抽卡策略",
+        "href": "/guides/gacha-strategy"
+      },
+      {
+        "label": "系统要求",
+        "href": "/system-requirements"
+      }
+    ]
   }
 ]

@@ -29,8 +29,11 @@
     ],
     "version": "1.2",
     "phase": "Phase 1",
-    "startDate": "2026-06-17",
-    "endDate": "2026-07-01"
+    "startDate": "2026-06-11",
+    "endDate": "2026-06-25",
+    "startDateGlobal": "2026-06-03",
+    "endDateGlobal": "2026-06-17",
+    "region": "cn"
   },
   "beginner": {
     "id": "beginner",
@@ -113,7 +116,10 @@
     ],
     "version": "1.2",
     "phase": "Phase 2",
-    "startDate": "2026-07-01",
-    "endDate": "2026-07-15"
+    "startDate": "2026-06-25",
+    "endDate": "2026-07-15",
+    "startDateGlobal": "2026-06-17",
+    "endDateGlobal": "2026-07-01",
+    "region": "cn"
   }
 }

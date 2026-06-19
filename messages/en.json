@@ -232,7 +232,9 @@
       "beginner": "Beginner Guide",
       "beginnerDesc": "Everything you need for your first week",
       "teamBuilding": "Team Building",
-      "teamBuildingDesc": "Build the best team with what you have"
+      "teamBuildingDesc": "Build the best team with what you have",
+      "cnVsGlobal": "CN vs Global",
+      "cnVsGlobalDesc": "Codes, banners, launch date differences explained"
     },
     "topCharacters": {
       "title": "Top Characters Right Now",
@@ -692,6 +694,8 @@
   },
   "footer": {
     "tierList": "Tier List",
+    "cnVsGlobal": "CN vs Global",
+    "steam": "Steam Version",
     "contact": "Contact Us",
     "about": "About Us",
     "privacy": "Privacy Policy",

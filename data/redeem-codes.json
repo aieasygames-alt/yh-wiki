@@ -47,8 +47,7 @@
     "expiresAt": "2026-06-03",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-05-23",
-    "expires": "2026-05-25"
+    "revealedAt": "2026-05-23"
   },
   {
     "code": "NTE429vtuber",
@@ -58,8 +57,7 @@
     "expiresAt": "2026-05-31",
     "source": "official",
     "region": "global",
-    "revealedAt": "2026-04-29",
-    "expires": "2026-05-31"
+    "revealedAt": "2026-04-29"
   },
   {
     "code": "NTEFREE",
@@ -79,8 +77,7 @@
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
-    "revealedAt": "2026-05-01",
-    "expires": "2026-05-31"
+    "revealedAt": "2026-05-01"
   },
   {
     "code": "NTEWINFONS",
@@ -120,8 +117,7 @@
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-05-23",
-    "expires": "2026-05-25"
+    "revealedAt": "2026-05-23"
   },
   {
     "code": "TOMATO100",
@@ -131,8 +127,7 @@
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-05-23",
-    "expires": "2026-05-25"
+    "revealedAt": "2026-05-23"
   },
   {
     "code": "RACENOLIMIT",
@@ -142,8 +137,7 @@
     "expiresAt": "2026-05-25",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-05-23",
-    "expires": "2026-05-25"
+    "revealedAt": "2026-05-23"
   },
   {
     "code": "YHNOWTOENJOY",
@@ -153,8 +147,7 @@
     "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-04-18",
-    "expires": "2026-05-07"
+    "revealedAt": "2026-04-18"
   },
   {
     "code": "YHNANALLYGO",
@@ -164,8 +157,7 @@
     "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-04-18",
-    "expires": "2026-05-07"
+    "revealedAt": "2026-04-18"
   },
   {
     "code": "YHOB0423",
@@ -175,8 +167,7 @@
     "expiresAt": "2026-05-07",
     "source": "livestream",
     "region": "cn",
-    "revealedAt": "2026-04-18",
-    "expires": "2026-05-07"
+    "revealedAt": "2026-04-18"
   },
   {
     "code": "NTENOWTOENJOY",
@@ -186,8 +177,7 @@
     "expiresAt": "2026-05-13",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-04-18",
-    "expires": "2026-05-13"
+    "revealedAt": "2026-04-18"
   },
   {
     "code": "NTENANALLYGO",
@@ -197,8 +187,7 @@
     "expiresAt": "2026-05-13",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-04-18",
-    "expires": "2026-05-13"
+    "revealedAt": "2026-04-18"
   },
   {
     "code": "NTE0429",
@@ -208,14 +197,13 @@
     "expiresAt": "2026-05-13",
     "source": "livestream",
     "region": "global",
-    "revealedAt": "2026-04-18",
-    "expires": "2026-05-13"
+    "revealedAt": "2026-04-18"
   },
   {
     "code": "NTEGIFT",
     "reward": "公测福利奖励",
     "rewardEn": "Launch Bonus Rewards",
-    "status": "active",
+    "status": "expired",
     "expiresAt": "2026-05-13",
     "source": "launch",
     "region": "global",
@@ -229,8 +217,7 @@
     "expiresAt": "2026-05-06",
     "source": "launch",
     "region": "global",
-    "revealedAt": "2026-04-29",
-    "expires": "2026-05-06"
+    "revealedAt": "2026-04-29"
   },
   {
     "code": "504980102FKGOVNS",
@@ -240,14 +227,15 @@
     "expiresAt": "2026-05-06",
     "source": "official",
     "region": "global",
-    "revealedAt": "2026-05-01",
-    "expires": "2026-05-13"
+    "revealedAt": "2026-05-01"
   },
   {
     "code": "LACRIMOSA0603",
     "status": "active",
     "reward": "虚无石x30、芬斯x20000",
     "rewardEn": "Annulith x30, Fons x20,000",
+    "expiresAt": "TBA",
+    "source": "official",
     "region": "global",
     "revealedAt": "2026-06-03"
   }
