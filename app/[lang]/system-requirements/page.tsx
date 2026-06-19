@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqSection } from "../../../components/FaqSection";
@@ -211,6 +212,23 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
             {t(locale, "systemReqs.storageDisclaimer")}
           </p>
         </div>
+      </section>
+
+      <section className="mb-10 rounded-xl border border-primary-500/30 bg-primary-500/5 p-5">
+        <h2 className="text-lg font-bold mb-2">
+          {isZhLocale(locale) ? "Steam 版发售预告" : "Steam Version Coming Soon"}
+        </h2>
+        <p className="text-sm text-gray-400 mb-3 leading-relaxed">
+          {isZhLocale(locale)
+            ? "异环 Steam 版定于 2026 年 7 月 22 日发售。如果你偏好 Steam 生态（成就、好友、创意工坊），可以等 Steam 版；想现在就玩，独立启动器和 Epic 已开放。详见 Steam 版完整指南。"
+            : "NTE's Steam version launches July 22, 2026. If you prefer Steam (achievements, friends, workshop), wait for it; if you want to play now, the standalone launcher and Epic are already available. See our full Steam version guide."}
+        </p>
+        <Link
+          href={`/${lang}/steam`}
+          className="inline-block text-sm text-primary-300 hover:text-primary-200 font-medium"
+        >
+          {isZhLocale(locale) ? "→ 查看 Steam 版发售指南" : "→ Steam Version Release Guide"}
+        </Link>
       </section>
 
       {/* FAQ */}

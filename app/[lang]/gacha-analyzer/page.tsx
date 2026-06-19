@@ -28,6 +28,7 @@ interface BannerConf {
 const gachaData = gachaConfig as unknown as Record<string, BannerConf | { faq: unknown[] }>;
 const banners: { key: string; label: string; pity5: number }[] = [
   { key: "limited", label: "", pity5: 90 },
+  { key: "limited-phase2", label: "", pity5: 90 },
   { key: "beginner", label: "", pity5: 20 },
   { key: "standard", label: "", pity5: 90 },
   { key: "weapons", label: "", pity5: 60 },

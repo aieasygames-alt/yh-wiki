@@ -34,15 +34,65 @@ interface BannerEntry {
 
 const banners: BannerEntry[] = [
   {
+    id: "illica-1-2-phase-1",
+    characterId: "illica",
+    name: "伊洛伊",
+    nameEn: "Illica",
+    phase: "1.2 上半",
+    phaseEn: "Version 1.2 Phase 1",
+    startDate: "2026-06-11",
+    endDate: "2026-06-25",
+    status: "current",
+    attribute: "Lakshana",
+    attributeZh: "相",
+    role: "S-rank Heal/Buff Support",
+    roleZh: "S级治疗增益辅助",
+    arc: "Condensate",
+    arcZh: "凝聚",
+    weapon: "Signature Arc (TBD)",
+    weaponZh: "专属弧盘待确认",
+    boostedA: ["Adler", "Mint", "Skia", "Edgar", "Taygedo", "Nelly", "Merula", "Alphard"],
+    cosmetics: [],
+    summary:
+      "Illica is the current 1.2 Phase 1 limited banner — NTE's first limited S-rank healer/buffer and a member of ETD-4. Pull her if your account lacks a dedicated sustain/buff support; she slots into almost every team composition.",
+    summaryZh:
+      "伊洛伊是1.2上半限定卡池角色——异环首位S级限定治疗增益辅助，ETD-4成员。缺少专属治疗/增益辅助的账号建议优先抽取，她能融入绝大多数配队。",
+  },
+  {
+    id: "zhenhong-1-2-phase-2",
+    characterId: "zhenhong",
+    name: "真红",
+    nameEn: "Zhenhong",
+    phase: "1.2 下半",
+    phaseEn: "Version 1.2 Phase 2",
+    startDate: "2026-06-25",
+    endDate: "2026-07-15",
+    status: "next",
+    attribute: "Light",
+    attributeZh: "光",
+    role: "S-rank Attack DPS",
+    roleZh: "S级进攻主C",
+    arc: "Synthesis",
+    arcZh: "合成",
+    weapon: "Signature Arc (TBD)",
+    weaponZh: "专属弧盘待确认",
+    boostedA: ["Adler", "Mint", "Skia", "Edgar", "Taygedo", "Nelly", "Merula", "Alphard"],
+    cosmetics: [],
+    summary:
+      "Zhenhong is the next 1.2 Phase 2 limited banner — a Light-element dragon-tribe fighter main DPS built around her Rage gauge and Berserk state. Top pick if you need a flagship Light DPS or want to build Genesis-reaction teams.",
+    summaryZh:
+      "真红是1.2下半限定卡池角色——光属性龙族格斗家主C，技能围绕暴怒值与暴走状态构建。需要光系主C或想组建创生反应队的玩家重点关注。",
+  },
+  {
     id: "lacrimosa-1-1-phase-1",
     characterId: "lacrimosa",
     name: "安魂曲",
     nameEn: "Lacrimosa",
     phase: "1.1 上半",
     phaseEn: "Version 1.1 Phase 1",
-    startDate: "2026-06-03",
-    endDate: "2026-06-24",
-    status: "current",
+    startDate: "2026-05-28",
+    endDate: "2026-06-11",
+    status: "ended",
     attribute: "Chaos",
     attributeZh: "混沌",
     role: "S-rank Attack DPS",
@@ -52,15 +102,9 @@ const banners: BannerEntry[] = [
     weapon: "The Last Rose",
     weaponZh: "最后一朵玫瑰",
     boostedA: ["Mint", "Edgar", "Adler"],
-    cosmetics: [
-      { pulls: 50, name: "Tomato Duo glider", nameZh: "番茄双人滑翔翼" },
-      { pulls: 120, name: "Ketchup Cruise livery", nameZh: "番茄酱巡航涂装" },
-      { pulls: 200, name: "New Moon Lullaby outfit", nameZh: "新月摇篮曲时装" },
-    ],
-    summary:
-      "Lacrimosa is the current limited banner and the main Chaos DPS pickup for version 1.1. Pull her if you need sustained AoE damage, Chaos teams, or a new flagship DPS.",
-    summaryZh:
-      "安魂曲是当前限定卡池角色，也是1.1版本混沌输出核心。缺少范围持续输出、想组混沌队或需要新主C的玩家优先关注。",
+    cosmetics: [],
+    summary: "1.1 Phase 1 limited banner and the main Chaos DPS pickup. Now ended; may rerun in future versions.",
+    summaryZh: "1.1上半限定卡池，混沌输出核心。目前已结束，后续版本可能复刻。",
   },
   {
     id: "chaos-1-1-phase-2",
@@ -69,23 +113,21 @@ const banners: BannerEntry[] = [
     nameEn: "Chaos",
     phase: "1.1 下半",
     phaseEn: "Version 1.1 Phase 2",
-    startDate: "2026-06-24",
-    endDate: "2026-07-08",
-    status: "next",
+    startDate: "2026-06-11",
+    endDate: "2026-06-25",
+    status: "ended",
     attribute: "Lakshana",
     attributeZh: "相",
     role: "S-rank Attack DPS",
     roleZh: "S级进攻输出",
-    arc: "TBC",
-    arcZh: "待确认",
-    weapon: "Signature Arc TBC",
-    weaponZh: "专属弧盘待确认",
+    arc: "Condensate",
+    arcZh: "凝聚",
+    weapon: "What All Seek",
+    weaponZh: "众人追寻之物",
     boostedA: ["TBC"],
     cosmetics: [],
-    summary:
-      "Chaos is the next 1.1 limited banner. His full Arc details and rate-up A-rank lineup should be verified at launch, but he is already a high-intent search topic for teams, build, kit, and voice actor queries.",
-    summaryZh:
-      "卡厄斯是1.1下半限定角色。专属弧盘和陪跑A级阵容需以上线信息为准，但配队、技能、CV、抽取建议已经是当前高意图搜索话题。",
+    summary: "1.1 Phase 2 limited banner — the first limited S-rank male character. Now ended.",
+    summaryZh: "1.1下半限定卡池——首位S级限定男角色。目前已结束。",
   },
   {
     id: "nanally-1-0-phase-1",
@@ -137,16 +179,10 @@ const banners: BannerEntry[] = [
 
 const nextVersionTeasers = [
   {
-    name: "Shinku",
-    nameZh: "沁红",
-    detail: "S-rank Cosmos character expected for version 1.2 discussions.",
-    detailZh: "1.2版本前瞻讨论中的S级宇宙角色。",
-  },
-  {
-    name: "Iroi",
-    nameZh: "伊洛伊",
-    detail: "S-rank Anima character and likely support/healer search trend.",
-    detailZh: "1.2版本前瞻讨论中的S级生命角色，偏辅助/治疗搜索意图。",
+    name: "Canhong",
+    nameZh: "残虹",
+    detail: "S-rank Curse + Dark character expected for version 1.3 Phase 1.",
+    detailZh: "1.3版本上半预计登场的S级咒+暗属性角色。",
   },
 ];
 
@@ -185,11 +221,11 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const { lang } = await params;
   const locale = lang as Locale;
   const title = isZhLocale(locale)
-    ? "异环卡池时间表 2026 — 安魂曲、卡厄斯、1.1限定祈愿 | NTE Guide"
-    : "NTE Banner Schedule 2026 — Lacrimosa, Chaos & 1.1 Pity Guide";
+    ? "异环卡池时间表 2026 — 伊洛伊当前UP、真红下一期、1.2限定祈愿 | NTE Guide"
+    : "NTE Banner Schedule 2026 — Illica Current, Zhenhong Next, 1.2 Limited Banners";
   const description = isZhLocale(locale)
-    ? "异环(NTE)最新卡池时间表：安魂曲当前UP、卡厄斯下期UP、1.1限定祈愿日期、保底机制、无50/50、专武与抽取建议。"
-    : "Neverness to Everness banner schedule for 2026: current Lacrimosa banner, next Chaos banner, version 1.1 dates, no 50/50 pity, weapon banner and pull advice.";
+    ? "异环(NTE)最新卡池时间表：伊洛伊1.2上半当前UP、真红下半下一期、1.2限定祈愿日期、保底机制、无50/50、专武与抽取建议。"
+    : "Neverness to Everness banner schedule for 2026: current Illica banner (v1.2 Phase 1), next Zhenhong banner (v1.2 Phase 2), dates, no 50/50 pity, weapon banner and pull advice.";
 
   return {
     title,
@@ -213,14 +249,14 @@ export default async function BannersPage({ params }: { params: { lang: string }
     {
       question: "Who is the current NTE banner?",
       questionZh: "异环当前卡池是谁？",
-      answer: "The current Neverness to Everness limited banner is Lacrimosa, running from June 3 to June 24, 2026.",
-      answerZh: "异环当前限定卡池为安魂曲，时间为 2026-06-03 至 2026-06-24。",
+      answer: "The current Neverness to Everness limited banner is Illica (1.2 Phase 1), running from June 11 to June 25, 2026 (CN server). She is the first limited S-rank healer/buffer in NTE.",
+      answerZh: "异环当前限定卡池为伊洛伊（1.2上半），国服时间为 2026-06-11 至 2026-06-25。她是异环首位S级限定治疗增益辅助。",
     },
     {
       question: "Who is the next NTE banner?",
       questionZh: "异环下一期卡池是谁？",
-      answer: "Chaos is the next limited banner for version 1.1 Phase 2, scheduled from June 24 to July 8, 2026.",
-      answerZh: "卡厄斯是1.1下半限定卡池角色，预计时间为 2026-06-24 至 2026-07-08。",
+      answer: "Zhenhong is the next limited banner for version 1.2 Phase 2, scheduled from June 25 to July 15, 2026 (CN server). She is a Light-element dragon-tribe main DPS.",
+      answerZh: "真红是1.2下半限定卡池角色，国服时间为 2026-06-25 至 2026-07-15。她是光属性龙族格斗家主C。",
     },
     {
       question: "Does NTE have a 50/50 on character banners?",
@@ -229,10 +265,16 @@ export default async function BannersPage({ params }: { params: { lang: string }
       answerZh: "没有。限定角色池抽到S级时为当期UP角色，约70抽进入软保底，90抽硬保底。",
     },
     {
-      question: "Should I pull Lacrimosa or wait for Chaos?",
-      questionZh: "应该抽安魂曲还是等卡厄斯？",
-      answer: "Pull Lacrimosa if you need Chaos-element AoE DPS now. Wait for Chaos if you prefer Lakshana teams, male limited characters, or want to verify his launch kit before spending.",
-      answerZh: "缺混沌范围输出可优先安魂曲；想组相属性队、偏好限定男角色，或想等技能实测再决定的玩家可以留给卡厄斯。",
+      question: "Should I pull Illica or wait for Zhenhong?",
+      questionZh: "应该抽伊洛伊还是等真红？",
+      answer: "Pull Illica if your account lacks a dedicated healer/buffer — she is a universal support that fits almost any team. Wait for Zhenhong if you already have a sustain character and need a flagship Light DPS, or prefer main-DPS pulls over supports.",
+      answerZh: "账号缺专属治疗/增益辅助建议优先伊洛伊——她是几乎万能的辅助。已有生存角色、需要光系主C，或偏好抽主C的玩家可以留给真红。",
+    },
+    {
+      question: "Are CN and global server banner dates the same?",
+      questionZh: "异环国服和国际服卡池时间一样吗？",
+      answer: "No. Version 1.2 launched June 3 on the global server and June 11 on the CN server. Each phase's banner dates shift accordingly — always verify the dates for your own server before pulling. This page shows CN server dates as the default; global dates run roughly 8 days earlier per phase.",
+      answerZh: "不一样。1.2版本全球服6月3日上线，国服6月11日上线，每个阶段的卡池日期相应错开。抽取前请以自己所在服务器的官方公告为准。本页默认显示国服日期，全球服各阶段大约早8天。",
     },
   ];
 
@@ -248,15 +290,15 @@ export default async function BannersPage({ params }: { params: { lang: string }
       <main className="max-w-5xl mx-auto px-4 py-12">
         <section className="mb-10">
           <p className="text-xs uppercase tracking-[0.18em] text-primary-400 mb-3">
-            {isZh ? "2026-06-17 更新" : "Updated June 17, 2026"}
+            {isZh ? "2026-06-19 更新" : "Updated June 19, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环卡池时间表：安魂曲当前UP，卡厄斯下一期" : "NTE Banner Schedule: Current Lacrimosa, Next Chaos"}
+            {isZh ? "异环卡池时间表：伊洛伊当前UP，真红下一期" : "NTE Banner Schedule: Current Illica, Next Zhenhong"}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {isZh
-              ? "追踪 Neverness to Everness 最新限定祈愿、角色池保底、武器池风险和1.2前瞻角色。这个页面会作为当前卡池入口，帮助你快速判断要抽、跳过还是等下一期。"
-              : "Track the latest Neverness to Everness limited banners, character pity, weapon banner risks, and version 1.2 teaser characters. Use this page to decide whether to pull, skip, or wait for the next phase."}
+              ? "追踪 Neverness to Everness 最新限定祈愿、角色池保底、武器池风险和1.3前瞻角色（残虹）。这个页面会作为当前卡池入口，帮助你快速判断要抽、跳过还是等下一期。"
+              : "Track the latest Neverness to Everness limited banners, character pity, weapon banner risks, and version 1.3 teaser (Canhong). Use this page to decide whether to pull, skip, or wait for the next phase."}
           </p>
         </section>
 
@@ -371,7 +413,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
 
         <section className="mb-10 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "1.2 前瞻：Shinku / Iroi 搜索需求升温" : "Version 1.2 Watchlist: Shinku / Iroi"}
+            {isZh ? "1.3 前瞻：残虹搜索需求升温" : "Version 1.3 Watchlist: Canhong"}
           </h2>
           <div className="grid gap-3 md:grid-cols-2">
             {nextVersionTeasers.map((item) => (
@@ -383,11 +425,12 @@ export default async function BannersPage({ params }: { params: { lang: string }
           </div>
         </section>
 
-        <section className="mb-10 grid gap-3 sm:grid-cols-3">
+        <section className="mb-10 grid gap-3 sm:grid-cols-2 md:grid-cols-4">
           {[
             { href: `/${lang}/gacha`, label: isZh ? "抽卡模拟器" : "Gacha Simulator" },
             { href: `/${lang}/guides/gacha-system`, label: isZh ? "抽卡机制详解" : "Gacha System Guide" },
             { href: `/${lang}/tier-list`, label: isZh ? "最新强度榜" : "Latest Tier List" },
+            { href: `/${lang}/cn-vs-global`, label: isZh ? "国服 vs 国际服日期" : "CN vs Global Dates" },
           ].map((link) => (
             <Link
               key={link.href}

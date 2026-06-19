@@ -337,6 +337,7 @@ export function RedeemCodesClient({ lang }: { lang: string }) {
             { key: "reroll", href: `/${lang}/guides/reroll-guide-detailed` },
             { key: "beginner", href: `/${lang}/guides/beginner-guide` },
             { key: "teamBuilding", href: `/${lang}/guides/team-building` },
+            { key: "cnVsGlobal", href: `/${lang}/cn-vs-global` },
           ] as const).map((item) => (
             <Link
               key={item.key}

@@ -52,6 +52,8 @@ export function Footer() {
         { href: `/${lang}/tier-list`, label: t(lang, "footer.tierList") },
         { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
         { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
+        { href: `/${lang}/cn-vs-global`, label: t(lang, "footer.cnVsGlobal") },
+        { href: `/${lang}/steam`, label: t(lang, "footer.steam") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },
         { href: `/${lang}/contact`, label: t(lang, "footer.contact") },
         { href: `/${lang}/about`, label: t(lang, "footer.about") },

@@ -85,6 +85,22 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
             );
           })}
         </div>
+
+        <section className="mt-10 grid gap-3 sm:grid-cols-3">
+          {[
+            { href: `/${lang}/cn-vs-global`, label: isZhLocale(locale) ? "国服 vs 国际服" : "CN vs Global" },
+            { href: `/${lang}/steam`, label: isZhLocale(locale) ? "Steam 版发售" : "Steam Version" },
+            { href: `/${lang}/banners`, label: isZhLocale(locale) ? "卡池时间表" : "Banner Schedule" },
+          ].map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="rounded-lg border border-gray-800 bg-gray-900/40 px-4 py-3 text-sm text-gray-300 hover:border-primary-500/40 hover:text-primary-300 transition-colors"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </section>
       </div>
     </>
   );
