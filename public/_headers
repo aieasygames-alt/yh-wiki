@@ -37,3 +37,10 @@
   Cache-Control: public, max-age=3600
 /sitemap-other.xml
   Cache-Control: public, max-age=3600
+
+# 404 / not-found pages — never index. CF Pages SPA fallback returns 200 for
+# unmatched routes with the Next.js error body, so without this Google would
+# index empty error pages (e.g. /ja/* /de/* language variants). The X-Robots-Tag
+# header covers all error-page responses regardless of how the route was reached.
+/_not-found/*
+  X-Robots-Tag: noindex, follow

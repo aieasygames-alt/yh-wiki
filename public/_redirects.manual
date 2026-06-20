@@ -1,10 +1,21 @@
 # Root redirect - permanent
 / /zh/ 301
 
-# Note: Unsupported language prefixes (/ja/, /de/, /fr/, /es/, /ru/, /th/, /vi/, /id/, /ko/, /pt-br/)
-# are intentionally NOT redirected. They return 404 so search engines drop them
-# instead of accumulating "Page with redirect" counts in GSC.
-# Previously these 301'd to /en/ which caused 18k+ redirect flags.
+# Unsupported language prefixes return explicit 404 (via _not-found page).
+# Previously these 301'd to /en/ causing 18k+ "Page with redirect" GSC flags.
+# After dropping the redirects they returned 200 with empty error bodies
+# (CF Pages SPA fallback), which is worse — Google would index thin error
+# pages. Forcing 404 status drops them cleanly. noindex is added via _headers.
+/pt-br/* /_not-found/index.html 404
+/de/* /_not-found/index.html 404
+/fr/* /_not-found/index.html 404
+/es/* /_not-found/index.html 404
+/ru/* /_not-found/index.html 404
+/th/* /_not-found/index.html 404
+/vi/* /_not-found/index.html 404
+/id/* /_not-found/index.html 404
+/ja/* /_not-found/index.html 404
+/ko/* /_not-found/index.html 404
 
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301
