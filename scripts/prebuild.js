@@ -77,6 +77,14 @@ function generateSitemaps() {
     return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
+  // Safely convert a date string/field to ISO format; returns undefined if invalid.
+  // Used for per-URL sitemap lastmod so timestamps reflect real content changes.
+  function safeDate(value) {
+    if (!value) return undefined;
+    const d = new Date(value);
+    return isNaN(d.getTime()) ? undefined : d.toISOString();
+  }
+
   function existingLastmods(filename) {
     const file = path.join(PUBLIC, filename);
     if (!fs.existsSync(file)) return new Map();
@@ -93,9 +101,13 @@ function generateSitemaps() {
 
   function buildUrlEntries(urls, previousLastmods) {
     const now = new Date().toISOString();
-    return urls.map(({ url, priority, changeFreq }) =>
-      `  <url>\n    <loc>${escapeXml(url)}</loc>\n    <lastmod>${previousLastmods.get(url) || now}</lastmod>\n    <changefreq>${changeFreq || "weekly"}</changefreq>\n    <priority>${priority || 0.5}</priority>\n  </url>`
-    ).join("\n");
+    return urls.map(({ url, priority, changeFreq, lastmod }) => {
+      // Priority: explicit per-URL lastmod (from data item's date field)
+      //           > previous build's lastmod (preserve across builds)
+      //           > now (new URL, no other signal available)
+      const lm = lastmod || previousLastmods.get(url) || now;
+      return `  <url>\n    <loc>${escapeXml(url)}</loc>\n    <lastmod>${lm}</lastmod>\n    <changefreq>${changeFreq || "weekly"}</changefreq>\n    <priority>${priority || 0.5}</priority>\n  </url>`;
+    }).join("\n");
   }
 
   function writeSitemap(filename, urls) {
@@ -140,7 +152,38 @@ function generateSitemaps() {
   const vehicleUrls = dataUrls(load("vehicles.json"), (v, lang) => ({ url: `${BASE_URL}/${lang}/vehicles/${v.id}/`, priority: 0.7, changeFreq: "weekly" }));
 
   // Guide sitemap
-  const guideUrls = dataUrls(load("guides.json"), (g, lang) => ({ url: `${BASE_URL}/${lang}/guides/${g.id}/`, priority: 0.8, changeFreq: "weekly" }));
+  const guideUrls = dataUrls(load("guides.json"), (g, lang) => ({ url: `${BASE_URL}/${lang}/guides/${g.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(g.date) }));
+
+  // Collect tags dynamically from all tagged data sources, mirroring
+  // app/[lang]/tags/[tag]/page.tsx generateStaticParams. Only include tags
+  // with >= 4 matching items (others are noindex on the page itself, so
+  // listing them in sitemap would create a sitemap-vs-robots contradiction).
+  function collectIndexableTags() {
+    const sources = [
+      ...load("characters.json").map((c) => [c.attribute, c.rank?.toLowerCase(), c.role?.toLowerCase()]),
+      ...load("weapons.json").map((w) => [w.type?.toLowerCase()]),
+      ...load("materials.json").map((m) => [m.type?.toLowerCase()]),
+      ...load("faqs.json").map((f) => f.tags || []),
+      ...load("guides.json").map((g) => g.tags || []),
+      ...load("lore.json").map((l) => [l.category?.toLowerCase()]),
+      ...load("locations.json").map((l) => [l.category?.toLowerCase()]),
+    ];
+    const counts = new Map();
+    for (const tagArr of sources) {
+      for (const tag of tagArr) {
+        if (!tag) continue;
+        const t = String(tag).toLowerCase();
+        counts.set(t, (counts.get(t) || 0) + 1);
+      }
+    }
+    // Only indexable tags: >= 4 items (matches tag page's noindex threshold)
+    const indexable = [];
+    for (const [tag, count] of counts) {
+      if (count >= 4) indexable.push(tag);
+    }
+    console.log(`[sitemap] tags: ${counts.size} total, ${indexable.length} indexable (>=4 items)`);
+    return indexable;
+  }
 
   // Other sitemap
   const otherUrls = [
@@ -148,13 +191,14 @@ function generateSitemaps() {
     ...dataUrls(load("faqs.json"), (f, lang) => ({ url: `${BASE_URL}/${lang}/faq/${f.id}/`, priority: 0.6, changeFreq: "monthly" })),
     ...dataUrls(load("lore.json"), (l, lang) => ({ url: `${BASE_URL}/${lang}/lore/${l.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("locations.json"), (l, lang) => ({ url: `${BASE_URL}/${lang}/locations/${l.id}/`, priority: 0.7, changeFreq: "monthly" })),
-    ...dataUrls(load("blog.json"), (p, lang) => ({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly" })),
-    ...dataUrls(load("compares.json"), (c, lang) => ({ url: `${BASE_URL}/${lang}/compare/${c.id}/`, priority: 0.8, changeFreq: "monthly" })),
+    ...dataUrls(load("blog.json"), (p, lang) => ({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(p.date) })),
+    ...dataUrls(load("compares.json"), (c, lang) => ({ url: `${BASE_URL}/${lang}/compare/${c.id}/`, priority: 0.8, changeFreq: "monthly", lastmod: safeDate(c.updatedAt) || safeDate(c.date) })),
+    ...dataUrls(load("quests.json"), (q, lang) => ({ url: `${BASE_URL}/${lang}/quests/${q.id}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(q.date) })),
     ...locUrls(["changelog"], 0.7, "weekly"),
-    ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly" })),
+    ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(cl.date) })),
     ...dataUrls(load("anomalies.json"), (a, lang) => ({ url: `${BASE_URL}/${lang}/anomalies/${a.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("disk-sets.json"), (d, lang) => ({ url: `${BASE_URL}/${lang}/disk-sets/${d.id}/`, priority: 0.7, changeFreq: "monthly" })),
-    ...commonTags.flatMap(tag => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${tag}/`, priority: 0.5, changeFreq: "weekly" }))),
+    ...collectIndexableTags().flatMap(tag => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${encodeURIComponent(tag)}/`, priority: 0.5, changeFreq: "weekly" }))),
   ];
 
   writeSitemap("sitemap-pages.xml", pageUrls);

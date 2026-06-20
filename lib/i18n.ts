@@ -100,3 +100,23 @@ export function hreflangAlternatesIndex(lang: string) {
     languages: buildHreflangMap((l) => `${BASE_URL}/${l}/`),
   };
 }
+
+/**
+ * Pick a localized value by locale, with tw → zh → en fallback chain.
+ * Use this for SEO-critical fields (title, h1, question) sourced from data files,
+ * where tw must differ from zh to avoid Google duplicate-canonical flags.
+ *
+ * Pass the locale plus the three language variants (any may be undefined).
+ * Falls back through tw → zh → en → first defined value.
+ */
+export function pickByLocale<T>(
+  locale: string,
+  tw: T | undefined,
+  zh: T | undefined,
+  en: T | undefined
+): T | undefined {
+  const loc = asLocale(locale);
+  if (loc === "tw") return tw ?? zh ?? en;
+  if (loc === "zh") return zh ?? tw ?? en;
+  return en ?? zh ?? tw;
+}

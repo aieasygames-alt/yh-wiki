@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, pickByLocale } from "../../../../lib/i18n";
 import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
@@ -26,8 +26,8 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const guide = getGuide(slug);
   if (!guide) return {};
-  const title = isZhLocale(lang) ? guide.title : guide.titleEn;
-  const description = isZhLocale(lang) ? guide.summary : guide.summaryEn;
+  const title = pickByLocale(lang, guide.titleTw, guide.title, guide.titleEn);
+  const description = pickByLocale(lang, guide.summaryTw, guide.summary, guide.summaryEn);
   return {
     title,
     description,
@@ -51,9 +51,9 @@ export default async function GuideDetailPage({
   const guide = getGuide(slug);
   if (!guide) notFound();
 
-  const title = isZhLocale(locale) ? guide.title : guide.titleEn;
-  const content = isZhLocale(locale) ? guide.content : guide.contentEn;
-  const summary = isZhLocale(locale) ? guide.summary : guide.summaryEn;
+  const title = pickByLocale(locale, guide.titleTw, guide.title, guide.titleEn) || guide.title;
+  const content = pickByLocale(locale, guide.contentTw, guide.content, guide.contentEn) || guide.content;
+  const summary = pickByLocale(locale, guide.summaryTw, guide.summary, guide.summaryEn) || guide.summary;
 
   const relatedChars = guide.relatedCharacters
     .map((id) => getCharacter(id))

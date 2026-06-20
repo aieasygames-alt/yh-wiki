@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, pickByLocale } from "../../../../lib/i18n";
 import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqJsonLd } from "../../../../components/JsonLd";
@@ -21,17 +21,13 @@ export async function generateMetadata({
   const faq = getFaq(slug);
   if (!faq) return {};
   const locale = lang as Locale;
-  const isZh = isZhLocale(locale);
 
-  // Use custom SEO title/description if defined, otherwise fall back to question
-  const baseTitle = isZh
-    ? (faq.seoTitleZh || faq.question)
-    : (faq.seoTitleEn || faq.questionEn);
-  const description = isZh
-    ? (faq.seoDescriptionZh || faq.answer.slice(0, 160))
-    : (faq.seoDescriptionEn || faq.answerEn.slice(0, 160));
-  // For non-zh/en locales, append locale name to avoid duplicate titles
-  const title = baseTitle;
+  // Use custom SEO title/description if defined, otherwise fall back to question.
+  // tw locale reads tw fields first (auto-converted from zh via OpenCC) to avoid
+  // Google duplicate-canonical flags caused by zh/tw title parity.
+  const baseTitle = pickByLocale(locale, faq.seoTitleTw, faq.seoTitleZh || faq.question, faq.seoTitleEn || faq.questionEn);
+  const description = pickByLocale(locale, faq.seoDescriptionTw, faq.seoDescriptionZh || faq.answer.slice(0, 160), faq.seoDescriptionEn || faq.answerEn.slice(0, 160));
+  const title = baseTitle || faq.question;
 
   return {
     title,
@@ -55,8 +51,8 @@ export default async function FaqDetailPage({
   const faq = getFaq(slug);
   if (!faq) notFound();
 
-  const question = isZhLocale(locale) ? faq.question : faq.questionEn;
-  const answer = isZhLocale(locale) ? faq.answer : faq.answerEn;
+  const question = pickByLocale(locale, faq.questionTw, faq.question, faq.questionEn) || faq.question;
+  const answer = pickByLocale(locale, faq.answerTw, faq.answer, faq.answerEn) || faq.answer;
 
   const relatedChars = faq.relatedCharacters
     .map((id) => getCharacter(id))
