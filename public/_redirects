@@ -1,17 +1,10 @@
 # Root redirect - permanent
 / /zh/ 301
 
-# Removed language redirects → en
-/pt-br/* /en/:splat 301
-/de/* /en/:splat 301
-/fr/* /en/:splat 301
-/es/* /en/:splat 301
-/ru/* /en/:splat 301
-/th/* /en/:splat 301
-/vi/* /en/:splat 301
-/id/* /en/:splat 301
-/ja/* /en/:splat 301
-/ko/* /en/:splat 301
+# Note: Unsupported language prefixes (/ja/, /de/, /fr/, /es/, /ru/, /th/, /vi/, /id/, /ko/, /pt-br/)
+# are intentionally NOT redirected. They return 404 so search engines drop them
+# instead of accumulating "Page with redirect" counts in GSC.
+# Previously these 301'd to /en/ which caused 18k+ redirect flags.
 
 # FAQ -> dedicated pages (system-requirements)
 /en/faq/system-requirements /en/system-requirements/ 301

@@ -16,7 +16,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環PS5版價格多少？遊戲容量多大？效能表現如何？",
+    "answerTw": "異環PS5版詳細資訊：\n\n**價格**：\n- PS5版為免費下載（Free-to-Play），與PC和移動端一致\n- 遊戲內購與PC端互通，可跨平臺使用已購內容\n- PS Plus會員無額外折扣需求（遊戲本身免費）\n\n**下載容量**：\n- 初始安裝包約25-30GB\n- 完整安裝後約40-50GB（含高畫質資源包）\n- 建議預留至少60GB儲存空間以應對後續更新\n- 如果PS5儲存緊張，可以考慮外接SSD\n\n**效能表現**：\n- 畫面模式：4K解析度 + 30FPS\n- 效能模式：1440p-1800p + 60FPS（推薦）\n- 支援PS5 DualSense手柄觸覺反饋和自適應扳機\n- 載入速度顯著快於PS4/移動端\n- 光照效果和粒子特效有主機專屬最佳化\n\n**常見問題**：\n- 如果遇到下載中斷，參考我們的PS5下載問題FAQ\n- 支援跨平臺存檔同步（需繫結賬號）\n- 支援PS5手柄原生操控，無需額外設定",
+    "categoryTw": "平臺"
   },
   {
     "id": "steam-deck-compatibility",
@@ -35,7 +38,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環能在Steam Deck上玩嗎？相容性和最佳化設定",
+    "answerTw": "異環在Steam Deck上的執行狀態：\n\n**當前相容性**：\n- 異環目前通過Epic Games Store和官方客戶端發行，尚未登陸Steam\n- 因此Steam Deck無法直接執行（SteamOS預設不支援Epic）\n- 可通過以下替代方案嘗試執行\n\n**替代方案**：\n1. 安裝Windows雙系統：在Steam Deck上安裝Windows後執行官方客戶端或Epic版本\n2. 使用Heroic Games Launcher：Linux下的第三方Epic啟動器，可嘗試執行\n3. 等待Steam版上線：官方已確認計劃登陸Steam，屆時原生支援Steam Deck\n\n**預期效能（基於Steam Deck硬體）**：\n- Steam Deck OLED：中低畫質30-40FPS可預期\n- Steam Deck LCD：低畫質25-35FPS\n- 建議解析度設為720p以提升幀率\n\n**最佳化設定建議**：\n- 關閉體積光\n- 陰影質量：低\n- 粒子效果：低\n- 解析度：1280x720\n- 幀率目標：30FPS\n\n**手柄支援**：\n- 異環原生支援手柄操作\n- Steam Deck內建控制器應該可以正常使用\n- 觸控板可替代滑鼠操作選單\n\n一旦Steam版上線，Steam Deck相容性將大幅改善。建議關注官方公告瞭解Steam版釋出時間。",
+    "categoryTw": "平臺"
   },
   {
     "id": "redeem-code-how-to-enter",
@@ -54,7 +60,10 @@
     "categoryZh": "综合",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環兌換碼在哪裡輸入？怎麼兌換？最新兌換碼彙總",
+    "answerTw": "異環兌換碼使用方法：\n\n**兌換步驟**：\n1. 開啟遊戲，進入主介面\n2. 點選左上角/右上角的選單（設定圖示）\n3. 找到「兌換碼」或「禮包兌換」選項\n4. 輸入兌換碼（注意大小寫）\n5. 確認兌換，獎勵將傳送到遊戲內郵箱\n\n**注意事項**：\n- 每個兌換碼只能使用一次\n- 部分兌換碼有有效期限，過期無法使用\n- 國際服和國服的兌換碼可能不同\n- 兌換碼區分大小寫，建議直接複製貼上\n\n**2026年5月已知兌換碼**（持續更新）：\n- 公測預約獎勵兌換碼\n- 官方社媒關注獎勵碼\n- 直播間限定碼（前瞻直播時發放）\n- 合作方聯動碼\n\n最新兌換碼請檢視我們的兌換碼大全頁面，即時更新有效兌換碼。\n\n**找不到兌換入口？**\n- 確認遊戲版本為最新版\n- 部分功能需要通過新手教程後解鎖\n- 嘗試在設定選單中查詢\n- 如果實在找不到，可以在遊戲內聯絡客服",
+    "categoryTw": "綜合"
   },
   {
     "id": "how-to-level-up-fast",
@@ -74,7 +83,10 @@
       "rising-hunter-guide",
       "senior-hunter-guide",
       "elite-hunter-guide"
-    ]
+    ],
+    "questionTw": "異環怎麼升級角色快？",
+    "answerTw": "異環角色升級主要通過消耗獵手指南和信用點來完成。快速升級建議：1) 每天刷滿體力對應的材料副本；2) 優先使用基礎獵手指南，進階和精英指南留給高等級階段；3) 完成每日任務和活動獲取額外經驗；4) 合理規劃體力，優先刷當前等級階段需要的材料。",
+    "categoryTw": "角色升級"
   },
   {
     "id": "material-domains-location",
@@ -94,7 +106,10 @@
       "iron-appleseed",
       "silver-appleseed",
       "golden-appleseed"
-    ]
+    ],
+    "questionTw": "異環材料副本在哪裡？",
+    "answerTw": "異環的材料副本（領域）可以通過主介面右上角的「領域」入口進入。不同屬性的領域掉落不同型別的升級材料。建議每天刷滿體力對應的副本，尤其是高階副本掉落的精英獵手指南和許可證明較為稀缺。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "how-to-get-credits",
@@ -112,7 +127,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "fons"
-    ]
+    ],
+    "questionTw": "異環信用點怎麼獲取？",
+    "answerTw": "信用點是異環中的基礎貨幣，獲取途徑包括：1) 完成主線任務和支線任務；2) 每日委託任務獎勵；3) 探索開放世界中的寶箱；4) 完成成就；5) 參與限時活動。信用點主要用於角色升級、技能升級和購買基礎材料。",
+    "categoryTw": "貨幣系統"
   },
   {
     "id": "s-rank-characters",
@@ -142,7 +160,10 @@
       "alphard",
       "taygedo"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環S級角色有哪些？",
+    "answerTw": "異環目前的S級角色包括：娜娜莉（生命/格鬥）、咲裡（咒術/支援）、法蒂亞、安魂曲、白藏、愛德勒、斯奇亞、零、哈尼爾、哈索爾、彌安、阿爾法德、泰格多等。S級角色整體強度高於A級角色，但A級角色在合理培養後同樣可以在大部分內容中表現出色。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "attribute-weakness",
@@ -163,7 +184,10 @@
       "daffodil",
       "skia"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環屬性剋制關係是什麼？",
+    "answerTw": "異環中存在六種屬性：生命、咒術、混沌、靈魂、宇宙、相。不同屬性之間存在剋制關係，利用屬性剋制可以對敵人造成更多傷害。在戰鬥中，觀察敵人的屬性弱點，切換對應屬性的角色進行攻擊，可以大幅提高戰鬥效率。屬性剋制通常造成約1.5倍的額外傷害。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "stamina-management",
@@ -181,7 +205,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "stamina-potion"
-    ]
+    ],
+    "questionTw": "異環每日體力怎麼用最划算？",
+    "answerTw": "體力使用的優先順序建議：1) 優先刷當前最缺的材料副本（通常是角色升級材料）；2) 如果有正在培養的角色，刷對應的屬性材料；3) 每日委託和任務優先完成，通常也會消耗體力；4) 限時活動期間的體力優先用於活動副本。不建議將體力浪費在低等級材料上，後期可以通過其他途徑獲取。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "beginner-character-recommendation",
@@ -202,7 +229,10 @@
       "adler",
       "chiz"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新手推薦培養哪些角色？",
+    "answerTw": "新手推薦培養方向：1) 娜娜莉（S級/生命屬性）— 強力的近戰輸出角色，前期開荒體驗好；2) 咲裡（S級/咒術屬性）— 優秀的支援角色，能為全隊提供增益；3) 愛德勒（S級）— 輸出能力出色。A級角色中也有價效比很高的選擇，如智（A級）培養成本低但實用性高。建議集中資源培養2-3個核心角色，不要分散資源。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "how-to-get-exp-fast",
@@ -221,7 +251,10 @@
     "relatedMaterials": [
       "fons",
       "rising-hunter-guide"
-    ]
+    ],
+    "questionTw": "異環怎麼快速獲得經驗？",
+    "answerTw": "快速獲取角色經驗的途徑：1) 完成主線任務和支線任務，這是前期經驗的主要來源；2) 每日委託任務；3) 刷經驗副本（如果有的話）；4) 探索世界、開啟傳送點和寶箱也有經驗獎勵。角色升級需要消耗獵手指南和信用點，建議同步積累這些資源。",
+    "categoryTw": "角色升級"
   },
   {
     "id": "test-vs-official",
@@ -236,7 +269,10 @@
     "categoryZh": "站点数据",
     "categoryEn": "Meta",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環測試版和正式版資料有區別嗎？",
+    "answerTw": "異環在測試期間，遊戲資料（包括角色屬性、材料需求、副本掉落等）可能會在正式上線時進行調整。本站資料基於測試版本整理，正式版上線後我們會盡快更新。建議關注遊戲官方公告瞭解最新變動。",
+    "categoryTw": "站點資料"
   },
   {
     "id": "skill-upgrade-materials",
@@ -253,7 +289,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "fabricated-dice"
-    ]
+    ],
+    "questionTw": "異環技能升級材料怎麼獲取？",
+    "answerTw": "技能升級材料（教材類）主要通過以下方式獲取：1) 屬性對應的材料副本；2) 活動獎勵；3) 商店兌換。攻擊教材、防禦教材等不同型別的教材對應不同屬性的技能升級需求。建議根據要培養的角色屬性，有針對性地刷取對應屬性的教材。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "nanally-worth-building",
@@ -275,7 +314,10 @@
       "blurred-silhouette",
       "charging-knight-spark-plug"
     ],
-    "seoTitleEn": "Is Nanally Worth Building in NTE? Best DPS Guide & Build Tips (2026)"
+    "seoTitleEn": "Is Nanally Worth Building in NTE? Best DPS Guide & Build Tips (2026)",
+    "questionTw": "娜娜莉值得培養嗎？",
+    "answerTw": "娜娜莉是S級生命屬性格鬥角色，非常值得培養。她擁有強大的近戰輸出能力，反重力技能在戰鬥中非常實用。作為初始可用的高品質角色之一，娜娜莉在前期開荒和後期高難內容中都有出色的表現。推薦作為首個重點培養的角色。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "sakiri-worth-building",
@@ -292,7 +334,10 @@
     "relatedCharacters": [
       "sakiri"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "咲裡值得培養嗎？",
+    "answerTw": "咲裡是S級咒術屬性支援角色，強烈推薦培養。她能為隊友提供增益效果，是多種隊伍配置中的核心支援。咲裡的伴生體桐丸也會參與戰鬥，提供額外的輸出能力。如果你需要一個能提升全隊戰鬥效率的角色，咲裡是最佳選擇之一。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "permit-materials",
@@ -311,7 +356,10 @@
       "iron-appleseed",
       "silver-appleseed",
       "golden-appleseed"
-    ]
+    ],
+    "questionTw": "異環許可證明怎麼獲取？",
+    "answerTw": "許可證明是角色高等級階段升級的必需材料，分為先鋒許可、專家許可和大帥許可三個等級。獲取途徑：1) 高等級材料副本掉落；2) 活動商店兌換；3) 部分成就獎勵。許可證明是後期養成中比較稀缺的資源，建議合理規劃使用。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "fadia-worth-building",
@@ -328,7 +376,10 @@
     "relatedCharacters": [
       "fadia"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "法蒂亞值得培養嗎？",
+    "answerTw": "法蒂亞是S級角色，在隊伍中可以擔當重要輸出位。她的技能機制獨特，在合適的隊伍配置下能發揮很高的傷害。如果你喜歡她的戰鬥風格，或者需要一個強力的輸出角色來補充隊伍配置，法蒂亞是值得投入資源培養的。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "team-composition-tips",
@@ -346,7 +397,10 @@
       "nanally",
       "sakiri"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環隊伍怎麼搭配？",
+    "answerTw": "異環隊伍搭配的基本原則：1) 屬性覆蓋 — 儘量覆蓋多種屬性以應對不同弱點的敵人；2) 角色定位 — 通常需要1個輸出位、1個支援位、1個副輸出/防禦位；3) 屬性剋制 — 根據敵人弱點調整上陣角色；4) 綜合考慮 — 咲裡作為通用支援幾乎適用於任何隊伍。新手建議培養一個核心輸出（如娜娜莉）+ 一個支援（如咲裡）作為基礎隊伍。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "resin-stamina-system",
@@ -364,7 +418,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "stamina-potion"
-    ]
+    ],
+    "questionTw": "異環體力系統是怎麼運作的？",
+    "answerTw": "異環的體力（樹脂）系統與其他同類遊戲類似：1) 體力有上限，隨時間自然恢復（通常每8分鐘恢復1點）；2) 刷材料副本需要消耗體力；3) 體力溢位時會停止恢復，建議及時使用；4) 可以使用原晶等付費貨幣補充體力。合理規劃體力使用是高效養成的關鍵。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "chiz-worth-building",
@@ -381,7 +438,10 @@
     "relatedCharacters": [
       "chiz"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "智值得培養嗎？",
+    "answerTw": "智是A級角色，雖然稀有度低於S級角色，但培養成本更低，價效比很高。A級角色在合理培養和裝備搭配下，完全可以勝任大部分遊戲內容。如果你是新手玩家，資源有限，培養智是一個經濟實惠的選擇。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "boss-materials",
@@ -398,7 +458,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "charging-knight-spark-plug"
-    ]
+    ],
+    "questionTw": "異環首領材料怎麼獲取？",
+    "answerTw": "首領材料（如生命守護者等）是高等級角色升級的關鍵材料。獲取途徑：1) 挑戰對應屬性的首領副本，每週有次數限制；2) 限時活動期間可能開放首領副本的無限制挑戰；3) 部分特殊商店可以用其他材料兌換。首領材料是養成中的瓶頸資源，建議優先分配給你最核心的角色。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "adler-worth-building",
@@ -415,7 +478,10 @@
     "relatedCharacters": [
       "adler"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "愛德勒值得培養嗎？",
+    "answerTw": "愛德勒是S級角色，擁有出色的輸出能力。作為S級角色，他的基礎屬性和技能倍率都較高，在高難內容中表現突出。如果你獲得了愛德勒，推薦作為主力輸出角色進行培養。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "download-installation",
@@ -435,7 +501,11 @@
     "seoTitleEn": "How to Download & Install NTE — PC, Mobile & PS5 Step-by-Step Guide (2026)",
     "seoTitleZh": "异环下载安装教程 — PC/手机/PS5各平台下载步骤（2026）",
     "seoDescriptionEn": "Download Neverness to Everness on PC, Android, iOS, and PS5. Step-by-step installation guide, download links, pre-download schedule, and storage requirements.",
-    "seoDescriptionZh": "异环(NTE)各平台下载安装教程：PC/Android/iOS/PS5下载链接、安装步骤、预下载时间和存储空间要求。"
+    "seoDescriptionZh": "异环(NTE)各平台下载安装教程：PC/Android/iOS/PS5下载链接、安装步骤、预下载时间和存储空间要求。",
+    "questionTw": "異環怎麼下載？支援哪些平臺？",
+    "answerTw": "異環支援多平臺遊玩，下載方式如下：1) 手機端（Android/iOS）：通過各應用商店搜尋「異環」下載，或前往完美世界官網掃碼下載；2) PC端：前往異環官網 nte.perfectworld.com 下載PC客戶端啟動器，通過啟動器安裝遊戲；3) 模擬器：可以使用雷電模擬器、MuMu模擬器等在電腦上執行手遊版本。建議優先通過官方渠道下載，避免第三方來源的安全風險。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環下載安裝教程 — PC/手機/PS5各平臺下載步驟（2026）"
   },
   {
     "id": "system-requirements",
@@ -457,7 +527,11 @@
     "seoTitleEn": "NTE System Requirements — Can Your PC/Phone Run NTE? (Quick Check Guide)",
     "seoTitleZh": "异环配置要求 — 你的电脑/手机能运行吗？（快速查询）",
     "seoDescriptionEn": "Quick NTE compatibility check: minimum specs (i5-8400, GTX 1060, 8GB RAM) and recommended specs. Full detailed requirements at our system requirements page.",
-    "seoDescriptionZh": "异环最低配置i5-8400/GTX 1060/8GB内存，推荐i7-9700/RTX 2060/16GB内存。完整配置表、下载大小和SSD建议见系统要求专页。"
+    "seoDescriptionZh": "异环最低配置i5-8400/GTX 1060/8GB内存，推荐i7-9700/RTX 2060/16GB内存。完整配置表、下载大小和SSD建议见系统要求专页。",
+    "questionTw": "異環手機和PC配置要求是什麼？",
+    "answerTw": "異環（NTE，全稱Neverness to Everness）是一款由完美世界開發的跨平臺開放世界都市奇幻RPG，支援PC、Android、iOS及主機平臺。以下是各平臺的詳細配置要求（基於最新測試版本，最終配置以官方公告為準）。\n\n【PC最低配置要求】\n以下是PC端執行異環的最低配置，可在1080p低畫質下達到約30幀：\n- 作業系統：Windows 10 64-bit（建議Windows 11）\n- 處理器（CPU）：Intel Core i5-8400 / AMD Ryzen 5 2600 或同等級\n- 記憶體（RAM）：8GB DDR4\n- 顯示卡（GPU）：NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 4GB\n- 儲存空間：至少40GB可用空間\n- 硬碟要求：SSD強烈建議（HDD可執行但載入時間顯著增加，場景切換可能超過30秒）\n- DirectX版本：DirectX 11\n\nGTX 1060是目前全球使用率最高的顯示卡之一，大部分PC玩家無需升級即可滿足異環的最低配置要求。\n\n【PC推薦配置】\n推薦配置可在1080p中高畫質下穩定執行60幀：\n- 作業系統：Windows 10/11 64-bit\n- 處理器（CPU）：Intel Core i7-9700 / AMD Ryzen 7 3700X 或更高\n- 記憶體（RAM）：16GB DDR4或更高\n- 顯示卡（GPU）：NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700 XT 或更高\n- 儲存空間：50GB以上SSD可用空間\n- 硬碟要求：NVMe SSD（顯著提升場景載入和貼圖流式載入速度）\n- DirectX版本：DirectX 12\n\n如需4K解析度或144Hz高重新整理率體驗，建議使用RTX 3060 Ti及以上顯示卡。遊戲支援DLSS和FSR超取樣技術，可在支援的硬體上顯著提升幀率。\n\n【Android最低配置】\n- 處理器：高通驍龍855 / 天璣1000+ / 麒麟990 或同等級\n- 記憶體：6GB RAM\n- 儲存空間：15GB以上可用空間\n- 系統版本：Android 10.0及以上\n- GPU：Adreno 640或Mali-G76及以上\n\n【Android推薦配置】\n- 處理器：高通驍龍888 / 天璣1200 / 麒麟9000 或更高\n- 記憶體：8GB RAM或更高\n- 儲存空間：20GB以上可用空間\n- 系統版本：Android 12.0及以上\n\n推薦配置可在中高畫質下流暢執行30-60幀。旗艦機型（驍龍8 Gen2/Gen3）可開啟最高畫質和高幀率模式。\n\n【iOS最低配置】\n- 裝置：iPhone 12 / iPad Air 4（A14晶片）及以上\n- 記憶體：4GB以上\n- 儲存空間：15GB以上可用空間\n- 系統版本：iOS 15.0及以上\n\n【iOS推薦配置】\n- 裝置：iPhone 13 Pro及以上 / iPad Pro（M1晶片）及以上\n- 記憶體：6GB以上\n- 儲存空間：20GB以上可用空間\n- 系統版本：iOS 16.0及以上\n\niPhone 14 Pro/15 Pro系列支援高幀率模式和ProMotion 120Hz顯示，可獲得最佳的移動端異環體驗。\n\n【各平臺下載大小】\n安裝前請確保有足夠的儲存空間：\n- PC客戶端：約40GB（安裝後可能因更新和額外資源包擴充套件至50GB+）\n- Android：約15GB基礎安裝（高畫質資源包另需約5GB）\n- iOS：約15GB基礎安裝（高畫質資源包另需約5GB）\n\n建議使用WiFi下載遊戲。首次進入遊戲後可能需要下載額外的語音包和高畫質材質資源。\n\n【關於SSD的說明】\n異環採用虛幻引擎5（Unreal Engine 5）開發，場景規模大、貼圖精度高、光照效果複雜。SSD不是強制要求，但使用傳統HDD（機械硬碟）會導致場景切換載入時間明顯變長（可能超過30秒），且在快速移動時可能出現貼圖載入延遲。強烈建議PC玩家使用NVMe SSD，可將載入時間縮短至5秒以內，並完全消除貼圖流式載入問題。\n\n【裝置不滿足配置怎麼辦？】\n如果你的手機配置不足，可以考慮以下方案：\n1）使用PC客戶端獲得最佳畫面和效能體驗；\n2）使用雲遊戲服務（如官方支援的區域）；\n3）降低遊戲內的畫質設定。PC配置低於最低要求的玩家，可以嘗試調低解析度縮放比例，並關閉體積霧、光線追蹤等高階特效來獲得可玩的幀率。\n\n實際配置要求可能因版本更新有所調整，請關注異環官方公告（微博、B站、TapTap）或官網 yh.wanmei.com 獲取最新的配置要求資訊。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環配置要求 — 你的電腦/手機能執行嗎？（快速查詢）"
   },
   {
     "id": "release-date",
@@ -474,7 +548,10 @@
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環什麼時候公測/上線？現在能玩嗎？",
+    "answerTw": "異環已正式公測上線。國服於 2026 年 4 月 23 日公測，國際服於 4 月 29 日上線，當前版本為 1.2「真紅與殘虹」（國服 6/11 上線）。Steam 版預計 2026 年 7 月 22 日發售。現在就可以在官網（國服 yh.wanmei.com）或 TapTap / Epic / PS Store 下載遊玩。",
+    "categoryTw": "上線資訊"
   },
   {
     "id": "test-signup",
@@ -490,7 +567,10 @@
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼參加測試？",
+    "answerTw": "參加異環測試的方式：1) 前往官網 yh.wanmei.com 或 TapTap 頁面預約/報名測試資格；2) 關注官方社交媒體，測試開放時會發布招募公告；3) 部分測試會通過抽籤方式發放資格。獲得資格後，按照官方指引下載測試客戶端即可參與。注意測試資料通常不會保留到正式版。",
+    "categoryTw": "上線資訊"
   },
   {
     "id": "preregistration-rewards",
@@ -509,7 +589,10 @@
     "relatedMaterials": [
       "fons",
       "rising-hunter-guide"
-    ]
+    ],
+    "questionTw": "異環預註冊/預約獎勵有哪些？",
+    "answerTw": "異環的預註冊里程碑獎勵根據總預約人數解鎖，目前已解鎖的獎勵包括：原晶、信用點、獵手指南、抽卡券等珍貴資源。預註冊人數越多，解鎖的獎勵越豐富。建議儘早前往官網或TapTap完成預約，確保在公測時能領取全部獎勵。獎勵通常通過遊戲內郵件發放。",
+    "categoryTw": "上線資訊"
   },
   {
     "id": "pity-system",
@@ -527,7 +610,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "gacha-ticket"
-    ]
+    ],
+    "questionTw": "異環保底機制是怎樣的？",
+    "answerTw": "異環公測前瞻直播已確認：抽卡保底機制沒有50/50。限定角色池90抽硬保底，觸發保底時100%獲得當期UP的限定S級角色，不存在「歪」到常駐角色的情況。平均出貨約53.5抽，從第74抽開始觸發軟保底。新手池20抽必出S級且可自選，常駐池50抽可自選S級，武器池80抽保底UP武器。保底次數在同類型卡池之間會繼承。這是目前二次元遊戲中最為友好的抽卡系統之一。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "gacha-priority",
@@ -546,7 +632,10 @@
       "nanally",
       "adler"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新手應該優先抽什麼卡池？",
+    "answerTw": "新手抽卡優先順序建議：1) 優先抽取角色限定池，確保獲得一個強力的S級核心輸出（如娜娜莉、愛德勒等）；2) 如果新手池有折扣抽卡（如前10抽半價或免費），務必先用完新手池機會；3) 有了核心角色後再考慮常駐池補齊陣容；4) 武器池建議在有2-3個主力角色後再投入。注意保留一定的原晶用於未來限定角色。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "gacha-currency",
@@ -564,7 +653,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "fons"
-    ]
+    ],
+    "questionTw": "異環抽卡用什麼貨幣？怎麼獲取？",
+    "answerTw": "異環抽卡主要使用原晶（付費/免費）和抽卡券。原晶獲取途徑：1) 完成主線任務和支線任務；2) 探索開放世界、開啟寶箱；3) 每日委託任務獎勵；4) 深淵/高難挑戰獎勵；5) 活動獎勵；6) 直接充值購買。抽卡券可通過活動、成就和商店兌換獲得。免費原晶足夠支援每版本有限度抽卡，合理規劃很重要。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "perfect-dodge-counter",
@@ -584,7 +676,10 @@
       "daffodil",
       "xiaozhen"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環極限閃避怎麼觸發？有什麼效果？",
+    "answerTw": "極限閃避是異環戰鬥中的核心技巧。觸發方式：在敵人攻擊出現紅色閃光預警的瞬間按下閃避鍵，即可觸發極限閃避。觸發效果：1) 短暫無敵幀，規避所有傷害；2) 獲得增傷效果，提高後續攻擊的傷害；3) 快速積累傾陷值（破防條），加速敵人進入破防狀態。建議在實戰中多練習閃避節奏，善用極限閃避可以大幅提升戰鬥效率。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "chain-burst",
@@ -604,7 +699,10 @@
       "jiuyuan",
       "hotori"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環環合爆發怎麼用？",
+    "answerTw": "環合爆發是異環的核心戰鬥系統之一。使用方法：1) 通過普攻和技能攻擊積累環合值；2) 當環合值充滿後，切換到對應屬性的隊友即可觸發環合爆發；3) 環合爆發會對敵人造成大量範圍傷害。推薦的屬性搭配：光+靈（創生）屬性組合可以觸發自動範圍爆炸，適合清群怪。合理規劃隊伍的屬性搭配和切換順序，是掌握環合爆發的關鍵。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "combat-tips",
@@ -624,7 +722,10 @@
       "zero",
       "baicang"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環戰鬥有什麼技巧？",
+    "answerTw": "異環戰鬥的核心技巧：1) 善用極限閃避 — 敵人紅光預警時閃避觸發無敵+增傷+破防積累；2) 屬性剋制 — 觀察敵人屬性弱點，切換對應屬性角色可造成約1.5倍額外傷害；3) 環合爆發 — 普攻攢滿環合值後切隊友觸發強力範圍攻擊；4) 屬性搭配 — 光+靈（創生）組合適合清群怪；5) 連攜技能 — 合理利用角色切換時的連攜效果；6) 走位拉扯 — 不要站樁輸出，利用移動規避傷害。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "hethereau-exploration",
@@ -643,7 +744,10 @@
     "relatedMaterials": [
       "crow-jade"
     ],
-    "seoTitleEn": "NTE Interactive Map — Hethereau Exploration Guide, Hidden Locations & Collectibles"
+    "seoTitleEn": "NTE Interactive Map — Hethereau Exploration Guide, Hidden Locations & Collectibles",
+    "questionTw": "異環海特洛市怎麼探索？",
+    "answerTw": "海特洛市是異環的主要開放世界區域，探索要點：1) 區域解鎖 — 跟隨主線任務逐步解鎖新城區、橋間地、繪空町等區域；2) 收集品 — 注意收集烏鴉玉石等隱藏物品，它們通常在巷子深處、高處平臺或需要解謎才能到達的位置；3) 傳送點 — 優先啟用各區域的傳送點，方便後續快速移動；4) 互動元素 — 快遞櫃、隱藏寶箱等互動要素分佈在城市各處；5) 敵人清理 — 清理區域內的敵人可以獲得探索度和獎勵。",
+    "categoryTw": "地圖探索"
   },
   {
     "id": "crow-jade",
@@ -661,7 +765,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "crow-jade"
-    ]
+    ],
+    "questionTw": "異環烏鴉玉石怎麼獲取？有什麼用？",
+    "answerTw": "烏鴉玉石是海特洛市中散落的收集品，獲取方式：1) 在城市的巷子深處、高處平臺、隱藏角落等位置尋找；2) 部分烏鴉玉石需要完成特定解謎或挑戰才能獲取；3) 探索地圖時注意觀察發光提示。烏鴉玉石的用途：收集足夠數量的烏鴉玉石可以兌換稀有獎勵，包括原晶、抽卡券和特殊材料。建議在探索每個新區域時留意收集。",
+    "categoryTw": "地圖探索"
   },
   {
     "id": "hidden-areas",
@@ -679,7 +786,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "crow-jade"
-    ]
+    ],
+    "questionTw": "異環隱藏區域怎麼進入？",
+    "answerTw": "異環的隱藏區域有多種進入方式：1) 解謎 — 部分隱藏區域需要完成特定的機關解謎才能開啟入口；2) 爬牆翻越 — 利用角色的攀爬能力到達看似不可到達的區域；3) 特定任務 — 有些隱藏區域需要完成前置任務才會解鎖；4) 時間/天氣觸發 — 少數區域在特定時間或天氣條件下才會出現入口。探索時多觀察環境，留意可疑的牆壁、裂縫或發光標記。",
+    "categoryTw": "地圖探索"
   },
   {
     "id": "awakening-system",
@@ -699,7 +809,10 @@
       "jiuyuan",
       "nanally"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環覺醒系統是什麼？怎麼解鎖？",
+    "answerTw": "覺醒系統是異環中角色進階的重要機制。當角色達到一定等級後，可以消耗特定材料進行覺醒，大幅提升角色的基礎屬性和技能效果。覺醒通常分為多個階段，每個階段需要不同的材料組合。覺醒后角色的外觀可能會有變化，部分技能會獲得強化效果。建議優先為核心輸出角色進行覺醒，收益最大。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "anomaly-commission",
@@ -717,7 +830,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "fons"
-    ]
+    ],
+    "questionTw": "異環異象委託怎麼做？",
+    "answerTw": "異象委託是異環中的日常/周常任務系統。完成方法：1) 在主介面或地圖上檢視當前可接取的異象委託；2) 前往指定地點，按照任務指引完成戰鬥或探索目標；3) 部分委託需要特定的角色屬性才能高效完成；4) 完成後獲得信用點、材料和經驗等獎勵。建議每天優先完成高優先順序的委託，確保不遺漏稀有獎勵。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "esper-ability-types",
@@ -736,7 +852,10 @@
       "nanally",
       "sakiri"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環異能有哪些型別？",
+    "answerTw": "異環中的異能（角色屬性）分為六種型別：1) 生命（Anima）— 自然與生命之力，代表角色如娜娜莉；2) 咒術（Incantation）— 符咒與結界之力，代表角色如咲裡；3) 混沌（Chaos）— 混亂與破壞之力；4) 靈魂（Psyche）— 精神與心靈之力；5) 宇宙（Cosmos）— 星辰與空間之力；6) 相（Lakshana）— 特殊的屬性型別。不同屬性之間存在剋制關係，合理搭配屬性是戰鬥的關鍵。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "disk-system",
@@ -754,7 +873,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "disk-set"
-    ]
+    ],
+    "questionTw": "異環磁碟系統怎麼玩？",
+    "answerTw": "磁碟系統是異環的裝備系統，類似於其他遊戲中的聖遺物/遺器系統。玩法要點：1) 每個角色可以裝備多個磁碟，分為不同部位；2) 磁碟有主屬性和副屬性，稀有度越高屬性越好；3) 同一套裝的磁碟組合可以啟用套裝效果，提供額外加成；4) 磁碟通過挑戰特定副本獲取；5) 可以消耗材料強化磁碟，提升屬性值。建議前期先用高星散件過渡，後期再追求完美套裝。",
+    "categoryTw": "裝備系統"
   },
   {
     "id": "weapon-upgrade",
@@ -772,7 +894,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "weapon-material"
-    ]
+    ],
+    "questionTw": "異環武器怎麼強化？",
+    "answerTw": "異環武器強化系統：1) 武器可以通過消耗材料進行升級，提升基礎攻擊力；2) 每把武器有等級上限，達到上限後需要突破才能繼續升級；3) 武器突破需要特定的突破材料，通常通過材料副本獲取；4) 武器有被動技能，在特定等級節點解鎖或強化；5) 武器分為不同稀有度（如S級、A級），稀有度越高上限越高。建議優先強化主力角色的武器，資源有限時不要分散投入。",
+    "categoryTw": "裝備系統"
   },
   {
     "id": "redeem-codes",
@@ -794,7 +919,11 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "fons"
-    ]
+    ],
+    "questionTw": "異環兌換碼怎麼使用？有哪些兌換碼？",
+    "answerTw": "異環兌換碼使用方法：1) 在遊戲主介面找到設定或個人中心入口；2) 找到「兌換碼」或「禮包兌換」選項；3) 輸入有效的兌換碼即可領取獎勵。兌換碼通常通過以下渠道釋出：官方社交媒體（微博、B站）、直播活動、合作平臺（TapTap）、線下活動等。兌換碼有使用期限和次數限制，建議及時使用。我們網站的兌換碼頁面會持續更新最新的有效兌換碼。",
+    "categoryTw": "貨幣系統",
+    "seoTitleTw": "異環兌換碼怎麼用？最新禮包碼使用方法與兌換入口"
   },
   {
     "id": "beginner-guide-early-game",
@@ -816,7 +945,10 @@
     "relatedMaterials": [
       "rising-hunter-guide",
       "fons"
-    ]
+    ],
+    "questionTw": "異環新手開局怎麼玩？",
+    "answerTw": "異環新手開局攻略：1) 跟隨主線任務推進，優先了解遊戲基本操作和系統；2) 抽卡方面，優先用完新手池折扣機會，獲取第一個S級核心角色；3) 角色培養集中資源培養1個主力輸出+1個支援，推薦娜娜莉（輸出）+咲裡（支援）的組合；4) 體力優先刷角色升級材料，不要浪費在低階材料上；5) 每日必做：委託任務、體力清空、領取活動獎勵；6) 探索地圖時優先啟用傳送點，方便後續刷材料。記住前期不要貪多，集中資源是關鍵。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "launch-date-2026",
@@ -832,7 +964,10 @@
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環2026年什麼時候公測？具體上線日期是幾號？",
+    "answerTw": "異環國服（中國大陸）已確認於2026年4月23日正式公測上線，國際服（全球）於2026年4月29日上線，預下載4月21日開放。遊戲由完美世界旗下Hotta Studio開發，支援PC、Android、iOS、Mac、HarmonyOS和PlayStation 5多平臺遊玩，全平臺數據互通。公測前瞻特別節目已於4月18日19:30在B站、TapTap、YouTube等平臺播出，公佈了6個兌換碼、抽卡機制和16位上線角色等關鍵資訊。",
+    "categoryTw": "上線資訊"
   },
   {
     "id": "pre-download-time",
@@ -848,7 +983,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環預下載什麼時候開始？怎麼提前下載？",
+    "answerTw": "異環公測預下載已確認為2026年4月21日開放。PC端可通過官網（yh.wanmei.com）或Epic Games Store下載客戶端啟動器，移動端可在App Store和Google Play預約自動下載。PC端遊戲檔案約25-30GB，移動端約8-10GB。NVIDIA使用者建議更新至596.21 WHQL驅動以獲得最佳體驗。建議使用WiFi提前下載避免開服當天伺服器擁堵。預下載完成後，4月23日開服即可直接進入遊戲。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "global-server-launch",
@@ -868,7 +1006,11 @@
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環國際服什麼時候上線？和國服有什麼不同？",
+    "answerTw": "異環國服4月23日正式上線，國際服4月29日正式上線（前瞻直播確認）。預下載4月21日開放。兩個版本的主要區別：1) 進度：國服比國際服早6天開服；2) 兌換碼不同：直播共發放6組兌換碼，國服3組（YH開頭）和國際服3組（NTE開頭），各自僅能在對應伺服器使用；3) 語言：國服簡體中文，國際服英文/日文等多語言；4) 定價可能因地區而異。遊戲內容和角色資料在兩個伺服器之間是一致的，開服共有16位S級角色。",
+    "categoryTw": "上線資訊",
+    "seoTitleTw": "異環國際服什麼時候上線？全球伺服器開放時間詳解（2026）"
   },
   {
     "id": "cn-vs-global",
@@ -884,7 +1026,10 @@
     "categoryZh": "上线信息",
     "categoryEn": "Release",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環國服和國際服有什麼區別？選哪個好？",
+    "answerTw": "異環國服和國際服的主要區別：1) 上線時間 — 國服4月23日，國際服4月29日；2) 伺服器 — 資料不互通，角色和進度無法跨服遷移；3) 語言 — 國服以簡體中文為主，國際服支援英語、日語、韓語等多語言；4) 活動節奏 — 國際服比國服滯後1-2個版本；5) 付費 — 定價基礎一致，按當地貨幣換算；6) 社交 — 好友和公會僅限同一伺服器。建議選擇和你朋友相同的伺服器，以及地理位置最近的伺服器以獲得最佳網路延遲。",
+    "categoryTw": "上線資訊"
   },
   {
     "id": "launch-rewards-total",
@@ -903,7 +1048,10 @@
     "relatedCharacters": [
       "haniel"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環公測總共能白嫖多少抽？免費資源有多少？",
+    "answerTw": "根據4月18日前瞻直播確認，異環公測總共提供約418次免費祈願機會，具體來源分佈為：前瞻直播兌換碼約18抽（3個國服碼+3個國際服碼）、預註冊獎勵約40抽、新手池免費20抽（含S級自選）、常駐池50抽S級自選券、公測限時活動約80抽、主線+支線任務約100抽、開放世界探索約40抽（寶箱/成就等）、每日每週任務約20抽。此外還有S級小吱可通過都市大亨模式免費獲取，以及A級新角色奧蕾莉亞。這個數量遠超同類遊戲開服福利水平，零氪玩家也能組建強力隊伍。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "cross-platform-save",
@@ -923,7 +1071,11 @@
     "seoTitleEn": "NTE Cross-Platform Save — How to Transfer Progress Between PC, Mobile & Console",
     "seoTitleZh": "异环跨平台存档 — PC/手机/主机进度转移与同步方法",
     "seoDescriptionEn": "How to transfer your NTE save data between PC, PS5, iOS, and Android. Cross-platform progression, account linking, and data sync guide.",
-    "seoDescriptionZh": "异环跨平台存档转移教程：PC/PS5/iOS/Android之间如何同步进度？账号绑定与数据互通方法。"
+    "seoDescriptionZh": "异环跨平台存档转移教程：PC/PS5/iOS/Android之间如何同步进度？账号绑定与数据互通方法。",
+    "questionTw": "異環支援跨平臺嗎？資料互通嗎？",
+    "answerTw": "異環支援全平臺數據互通和跨平臺遊玩。你可以在PC、Android、iOS、Mac、HarmonyOS和PlayStation 5之間自由切換，遊戲進度、角色和物品資料完全同步。這意味著你可以在家用PC端高畫質體驗，出門用手機繼續同樣的進度。需要注意的是，不同區域的伺服器（如國服、亞洲服、美洲服、歐洲服）之間資料不互通。此外，部分付費貨幣可能因平臺政策限制而無法跨平臺使用（如iOS購買的貨幣在Android上可能不可用）。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環跨平臺存檔 — PC/手機/主機進度轉移與同步方法"
   },
   {
     "id": "download-size",
@@ -943,7 +1095,11 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環下載多大？需要多少儲存空間？",
+    "answerTw": "根據前瞻直播確認，異環預下載將於4月21日開放。預計PC版下載大小約30-40GB（含高畫質資源包），手機版（Android/iOS）約15-20GB。建議PC玩家預留至少60GB儲存空間（含後續更新），手機玩家預留30GB以上。預下載完成後，國服4月23日、國際服4月29日開服時只需下載小量更新包即可進入遊戲。建議提前預下載避免開服當天下載擁堵。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環下載大小：PC版35GB、手機版20GB — 各平臺安裝包+儲存空間彙總（2026年5月更新）"
   },
   {
     "id": "is-nte-free",
@@ -959,7 +1115,10 @@
     "categoryZh": "货币系统",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環是免費遊戲嗎？需要花錢嗎？",
+    "answerTw": "異環是一款完全免費下載和遊玩的遊戲，採用免費+內購的模式。所有核心玩法內容（主線劇情、開放世界探索、副本挑戰等）都可以免費體驗。內購專案主要包括：抽卡資源（獲取角色和武器）、月卡（每日領取資源）、通行證（任務獎勵）、外觀道具等。零氪玩家通過日常積累完全可以獲得充足的遊戲資源，每個版本約可積攢60-80抽。公測1.0版本零氪玩家預計可獲得約418次免費抽卡機會。遊戲不強制消費，付費主要是加速獲取角色和外觀。",
+    "categoryTw": "貨幣系統"
   },
   {
     "id": "no-50-50-system",
@@ -977,7 +1136,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "gacha-ticket"
-    ]
+    ],
+    "questionTw": "異環抽卡有50/50嗎？保底會歪嗎？",
+    "answerTw": "好訊息！異環公測確認沒有50/50機制。這是4月18日前瞻直播中官方正式宣佈的重磅訊息。在限定祈願池中，抽到S級角色時100%是當期UP角色，不會出現\"歪\"到常駐角色的情況。這意味著你每抽到一個S級，就一定是卡面上展示的角色，不需要擔心保底歪掉浪費資源。保底為90抽硬保底，74抽開始進入軟保底區間，平均約53.5抽出一個S級。這一機制使異環成為目前最友好的抽卡遊戲之一，大幅降低了獲取心儀角色的成本。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "reroll-guide",
@@ -998,7 +1160,10 @@
       "daffodil",
       "haniel"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼刷初始？刷初始值得嗎？",
+    "answerTw": "異環可以通過以下步驟刷初始：1) 完成新手教程；2) 使用新手池20抽獲取S級角色（可自選）；3) 使用常駐池50抽S級自選券；4) 領取預註冊和兌換碼獎勵繼續抽卡。不過考慮到以下因素，刷初始的必要性大大降低：首先，異環沒有50/50機制，限定池出S級100%是UP角色，你想要誰就能直接抽到誰；其次，約418次免費抽的資源量非常充足；最後，新手池和常駐池都提供S級自選，加上都市大亨模式免費送S級小吱，開服即可獲得多個S級角色。建議正常遊玩，利用豐富的免費資源直接獲取心儀角色。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "6-choose-1-guide",
@@ -1020,7 +1185,10 @@
       "lacrimosa",
       "zero"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環開服6選1選誰？免費S級角色推薦",
+    "answerTw": "異環公測提供多個S級角色獲取途徑（前瞻直播確認）：1) 新手池20抽後獲得S級自選券，可從常駐S級角色中選擇一位；2) 常駐池累計50抽獲得S級自選券；3) 都市大亨模式免費獲取S級小吱。開服共有16位S級角色，其中薄荷（Mint）和早霧（Sakiri）等是熱門選擇。推薦優先順序：如果你需要一個強力的通用進攻角色，選擇早霧；如果你需要一個可靠的近戰角色，選擇薄荷。由於沒有50/50機制，限定池角色獲取有保障，自選券建議優先選擇常駐池中沒有的S級角色來完善隊伍搭配。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "f2p-friendly",
@@ -1039,7 +1207,10 @@
       "xiaozhi",
       "haniel"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環零氪能玩嗎？不花錢體驗怎麼樣？",
+    "answerTw": "異環對零氪玩家非常友好。首先，公測1.0版本零氪可獲得約418次免費抽卡，足夠保底2個限定S級角色加專屬武器。其次，A級角色在合理培養後完全可以勝任大部分遊戲內容，與S級角色的差距並不懸殊。日常玩法中，每日委託、周常任務、探索獎勵和活動獎勵提供穩定的資源獲取渠道。月卡和通行證雖然能加速進度，但不是必需品。遊戲的核心內容（主線劇情、開放世界探索、副本挑戰）全部免費開放，不會設定付費牆。總體來說，零氪玩家可以獲得完整且優質的遊戲體驗。",
+    "categoryTw": "貨幣系統"
   },
   {
     "id": "multiplayer-coop",
@@ -1105,7 +1276,11 @@
         "answer": "有。异环内置实时语音聊天，还有表情系统和快捷聊天指令。",
         "answerEn": "Yes. NTE has built-in voice chat, plus emotes and quick-chat commands."
       }
-    ]
+    ],
+    "questionTw": "異環可以聯機嗎？多人模式怎麼玩？",
+    "answerTw": "是的！異環完全支援多人聯機，最多4人線上合作是遊戲的核心玩法之一。如果你在問異環能不能聯機，答案是可以的。異環是一款以單人劇情探索為主的開放世界RPG，同時擁有完善的多人聯機系統，可以和好友或匹配的玩家一起組隊體驗各種玩法。\n\n【核心結論——異環可以聯機嗎？】\n很多玩家會問\"異環可以聯機嗎\"\"異環有聯機模式嗎\"，答案是肯定的。異環的多人模式專注於PvE合作玩法，而非競技PvP。你可以單人通關大部分主線劇情，但聯機會為探索、戰鬥和終局內容帶來全新的體驗維度。\n\n那麼異環有合作模式嗎？當然有。聯機系統支援最多4名玩家即時線上，一起探索開放世界、挑戰強力Boss、完成協作任務。異環的聯機體驗非常流暢，內建匹配系統和好友邀請功能。\n\n【隊伍規模與組隊規則】\n異環聯機的最大隊伍規模為4人，包括房主和最多3名訪客。每個玩家操控自己的角色，使用自己的裝備、build和技能。組隊時，房主的世界作為聯機房間，訪客加入房主的地圖例項。戰利品獨立分配——每個玩家都有獨立的敵人掉落、寶箱獎勵和收集品，不用擔心搶裝備的問題。\n\n【聯機模式詳解】\n異環提供多種聯機模式，適合不同玩法偏好：\n\n1) 協作任務 — 專為多人隊伍設計的特殊任務，包含需要玩家配合的獨特機制，如同步開關解謎、共享血量Boss、分路推進等。協作任務的獎勵比單人模式豐厚得多，即使平時喜歡單人的玩家也值得一試。\n\n2) 世界Boss挑戰 — 異環開放世界中分佈著強力的世界Boss，它們對單人玩家來說極具挑戰性，許多機制需要團隊配合才能應對。組隊打世界Boss是異環最受歡迎的聯機活動之一。玩家可以在Boss重新整理點聚集，隨時加入隊伍一起戰鬥。世界Boss掉落角色突破和裝備升級所需的珍貴材料。\n\n3) 副本合作 — 異環中部分高難度副本和例項內容支援多人組隊。這些聯機副本通常包含多個階段、環境 hazards和複雜攻擊模式的Boss，擁有完整4人隊伍會輕鬆很多。副本聯機獎勵包括專屬材料、稀有裝備更高掉率和額外貨幣。\n\n4) 自由探索聯機 — 最輕鬆的異環聯機方式是邀請好友一起探索你的世界。可以一起在地圖上自由漫遊、發現秘密、解謎、打怪。這是幫助新人度過難關的好方法，也可以單純和朋友一起欣賞遊戲美麗的風景。\n\n【跨平臺聯機】\n異環支援PC、Android、iOS全平臺跨平臺聯機。這意味著PC玩家可以和手機端的好友一起組隊，完全沒有平臺限制。賬號和進度跨平臺同步——只需在不同裝置上登入同一賬號，所有角色、物品和進度都會保留。跨平臺聯機體驗非常流暢，各平臺在聯機時沒有明顯的體驗差異。\n\n【如何邀請好友組隊】\n異環有三種主要組隊方式：\n\n1) 好友列表邀請 — 通過UID或好友碼新增好友，然後直接從好友列表邀請。這是和認識的人一起玩最簡單的方法。房主傳送邀請，好友接受後即可立即進入你的世界。\n\n2) 匹配系統 — 如果沒有好友線上或想和隨機玩家組隊，異環內建智慧匹配系統，根據等級、進度和想要玩的內容進行匹配。匹配演算法會盡量組建均衡的隊伍，通常會匹配到和你進度相近的玩家。\n\n3) 遊戲內組隊NPC — 在主要城市和樞紐區域有專門的NPC可以建立或加入隊伍。可以瀏覽可用房間、按活動型別篩選、加入正在招人的隊伍。對於世界Boss和協作任務特別方便。\n\n【異環有PvP嗎？】\n目前異環沒有PvP（玩家對戰）模式。開發團隊將多人體驗完全圍繞合作PvE內容進行設計。遊戲中沒有競技場、排位賽或競技模式。以合作為主而非競爭，是有意的設計選擇，強調團隊協作和共同成長。\n\n【異環必須全程聯網嗎？】\n不是。異環並非全程聯網遊戲。大部分主線劇情、開放世界探索和角色培養都可以完全離線或單人進行。只有聯機功能、協作任務、世界Boss活動、限時活動需要網路連線。如果你喜歡單人體驗，異環提供了完整的單人RPG內容。想要聯機時，只需上線即可加入合作模式。\n\n【語音聊天與溝通】\n異環為聯機隊伍內建即時語音聊天功能，在Boss戰和副本中協調配合更加方便。遊戲還有豐富的表情系統和快捷聊天指令，方便不想語音的玩家使用。標記系統可以在地圖上為隊友標註位置、敵人和物品。\n\n【聯機實用建議】\n- 世界Boss一定要組隊——組隊獎勵明顯更好，協調配合也更有趣\n- 用協作任務刷稀有材料——聯機專屬獎勵表中常有單人無法獲得的物品\n- 幫低等級好友打高難內容——等級縮放系統確保有高等級玩家在場時內容依然有挑戰性\n- 副本聯機時多和隊友溝通——很多協作副本機制需要配合\n- 經常檢視匹配面板尋找正在做你需要的內容的隊伍——比手動找玩家更快\n\n無論你是問\"異環可以聯機嗎\"\"異環有合作模式嗎\"還是\"異環能和朋友一起玩嗎\"，答案都是肯定的——異環提供了完善的多人聯機合作體驗，讓遊戲的方方面面都更加豐富。4人聯機系統、跨平臺支援和多樣的多人模式，讓你隨時都能輕鬆組隊暢玩。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環聯機攻略：4人組隊、跨平臺聯機、世界Boss協作 — 多人合作完整指南（2026）"
   },
   {
     "id": "starter-s-rank",
@@ -1124,7 +1299,10 @@
       "nanally",
       "sakiri"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環第一個S級角色選誰？新手推薦培養順序",
+    "answerTw": "異環新手第一個S級角色推薦：首選娜娜莉（Anima屬性主C）— 輸出能力最強，操作簡單，前期開荒和後期高難內容都表現出色。如果你通過新手池或自選券已經獲得了娜娜莉，第二個推薦咲裡（Incantation屬性支援）— 幾乎適配任何隊伍的全能輔助。培養優先順序建議：1) 集中資源把主C升到當前最高等級；2) 其次提升武器等級；3) 最後考慮碟片屬性。技能方面優先點滿主C的核心輸出技能。不要同時培養太多角色，前期資源集中投入1個主C + 1個支援即可。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "ps5-support",
@@ -1140,7 +1318,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環支援PS5嗎？主機版什麼時候出？",
+    "answerTw": "異環確認支援PlayStation 5平臺，將在PC和移動端上線後推出PS5版本。PS5版將利用主機硬體優勢提供高品質的畫面表現和流暢的遊戲體驗，支援手柄操控和觸覺反饋。PS5版與PC和移動端資料互通，可以在不同平臺間無縫切換。具體的PS5版上線時間請關注官方公告。除了PS5，遊戲還支援PC、Android、iOS、Mac和HarmonyOS。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "mac-support",
@@ -1156,7 +1337,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環能在Mac上玩嗎？Mac版怎麼下載？",
+    "answerTw": "異環確認支援Mac平臺。Mac使用者可以通過官網下載Mac版客戶端進行遊玩。由於遊戲使用虛幻引擎5開發，建議使用搭載Apple Silicon（M1及以上晶片）的Mac以獲得最佳效能體驗。Intel晶片的Mac也可以執行，但效能可能不如Apple Silicon機型。Mac版與PC、移動端資料完全互通，遊戲進度同步。具體的Mac版下載方式和配置要求，請關注官網的下載頁面。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "gacha-currency-name",
@@ -1178,7 +1362,11 @@
     "seoTitleZh": "异环Fons（环石）是什么？抽卡货币获取与使用指南",
     "seoTitleEn": "What is Fons in NTE? Gacha Currency Guide — How to Get & Use Ring Stones",
     "seoDescriptionZh": "异环Fons（环石/原晶）是抽卡的核心货币。详解Fons获取途径、160环石一次抽卡、免费获取470抽的方法。",
-    "seoDescriptionEn": "Fons (Ring Stones) is the core gacha currency in NTE. Complete guide on how to get Fons, 160 per pull, and earn 470+ free pulls."
+    "seoDescriptionEn": "Fons (Ring Stones) is the core gacha currency in NTE. Complete guide on how to get Fons, 160 per pull, and earn 470+ free pulls.",
+    "questionTw": "異環抽卡用什麼貨幣？方斯是什麼？",
+    "answerTw": "異環抽卡主要使用兩種貨幣：原晶（付費/免費）和抽卡券。原晶是遊戲中的高階貨幣，分為免費原晶（通過遊戲內日常、任務、探索獲取）和付費原晶（充值獲得）兩種。免費和付費原晶在抽卡時等價使用，但部分限定商品可能只能用付費原晶購買。單抽消耗160原晶，十連消耗1600原晶。抽卡券可通過活動、成就和商店兌換獲得，每張抽卡券等同於一次單抽。星塵是抽卡副產物，積累後可在商店兌換指定角色或武器。公測約418次免費抽卡機會主要通過原晶、抽卡券和各類自選券發放。",
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環Fons（環石）是什麼？抽卡貨幣獲取與使用指南"
   },
   {
     "id": "collapse-mechanic",
@@ -1197,7 +1385,10 @@
       "adler",
       "daffodil"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環傾陷值是什麼？怎麼觸發破防？",
+    "answerTw": "傾陷值是異環戰鬥中的核心機制之一，類似於其他遊戲中的「破防條」或「韌性條」。每個敵人都有隱藏的傾陷值槽，通過攻擊可以不斷積累。觸發方式：1) 普通攻擊和技能攻擊會積累傾陷值；2) 極限閃避成功後獲得的增傷效果可以更快積累傾陷值；3) 屬性剋制的攻擊積累更多傾陷值。當傾陷值蓄滿後，敵人進入「破防」狀態，期間受到的傷害大幅增加且無法行動。合理利用傾陷機制，配合隊伍屬性剋制，是高效戰鬥的關鍵。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "ring-fusion-mechanic",
@@ -1217,7 +1408,10 @@
       "jiuyuan",
       "hotori"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環環合是什麼？怎麼觸發環合爆發？",
+    "answerTw": "環合是異環的核心戰鬥系統之一。使用方法：1) 通過普通攻擊和技能攻擊積累環合值；2) 當環合值充滿後，切換到對應屬性的隊友即可觸發環合爆發；3) 環合爆發會對敵人造成大量範圍傷害。推薦的屬性搭配：光屬性加靈屬性（創生組合）可以觸發自動範圍爆炸，非常適合清理群怪。合理規劃隊伍的屬性搭配和角色切換順序，是掌握環合系統的關鍵。不同屬性組合的環合效果各不相同，建議多嘗試找到最適合你的搭配。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "six-attributes",
@@ -1238,7 +1432,10 @@
       "skia",
       "daffodil"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有幾個屬性？屬性剋制關係是什麼？",
+    "answerTw": "異環中共有六種屬性，分為光（生命/Anima）、靈（靈魂/Psyche）、咒（咒術/Incantation）、暗（混沌/Chaos）、魂（宇宙/Cosmos）和相（Lakshana）。不同屬性之間存在剋制關係，利用屬性剋制可以對敵人造成約1.5倍的額外傷害。在戰鬥中觀察敵人的屬性弱點，切換對應屬性的角色進行攻擊，可以大幅提高戰鬥效率。組建隊伍時建議至少覆蓋2種以上屬性，避免被敵人剋制。光加靈的屬性組合還可以觸發創生效果，在環合系統中非常強力。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "a-rank-best",
@@ -1256,7 +1453,10 @@
       "chiz",
       "edgar"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環A級角色哪個最強？值得培養的A級角色",
+    "answerTw": "異環中A級角色雖然基礎面板低於S級，但培養成本更低，在特定配隊中表現出色。推薦培養的A級角色：1) 智 — 培養成本極低但實用性高，適合新手過渡；2) 埃德加 — 三測中唯一的奶媽角色，在需要治療的關卡中不可替代；3) 奈莉 — 特定配隊中輸出能力不俗；4) 凜子 — Incantation屬性進攻型角色，傷害可觀。A級角色在合理培養和裝備搭配下完全可以勝任大部分遊戲內容，建議零氪玩家優先培養A級角色來組建基礎隊伍。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "mint-character",
@@ -1275,7 +1475,10 @@
       "nanally"
     ],
     "relatedMaterials": [],
-    "seoTitleEn": "NTE Mint Build Guide — Is Mint Worth Building? Best Teams & Discs (2026)"
+    "seoTitleEn": "NTE Mint Build Guide — Is Mint Worth Building? Best Teams & Discs (2026)",
+    "questionTw": "異環薄荷怎麼樣？值得培養嗎？",
+    "answerTw": "薄荷（Mint）是Anima屬性的輸出型角色。在測試期間表現不錯，擁有穩定的傷害輸出能力。與同為Anima屬性的娜娜莉相比，薄荷的輸出略低但獲取難度更低。如果你沒有獲得娜娜莉，薄荷可以作為Anima屬性輸出的替代選擇。在合理培養下，薄荷完全可以應對日常推圖和中等難度的副本內容。如果你是零氪玩家或剛入坑的新手，薄荷是一個性價比不錯的培養選擇。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "housing-system",
@@ -1291,7 +1494,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有房屋系統嗎？怎麼買房裝修？",
+    "answerTw": "異環擁有完整的房屋系統。玩家可以在海特洛市中購買屬於自己的房產，並進行室內裝修和傢俱擺放。公測版本對房屋系統進行了全面擴充套件，改進了傢俱放置的互動體驗。房屋不僅是裝飾性質，還可能提供一些實用的功能加成。公測路線圖中確認將持續最佳化房屋系統，增加更多傢俱種類和互動玩法。邀請好友參觀你的住所也是遊戲社交的一部分。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "shop-auto-farm",
@@ -1309,7 +1515,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "fons"
-    ]
+    ],
+    "questionTw": "異環店長特供是什麼？怎麼自動刷錢？",
+    "answerTw": "店長特供是異環中一個獨特的經營系統。玩家可以管理自己的店鋪，設定商品後系統會自動運營產生收益。這個系統允許玩家在離線或忙於其他玩法時也能持續獲得遊戲內貨幣。設定方法：1) 在指定區域開設店鋪；2) 配置要出售的商品種類；3) 系統會自動模擬經營過程並定期結算收益。這個系統為零氪玩家提供了穩定的被動收入來源，建議儘早解鎖併合理配置商品以最大化收益。",
+    "categoryTw": "貨幣系統"
   },
   {
     "id": "city-tycoon",
@@ -1327,7 +1536,10 @@
     "relatedCharacters": [
       "xiaozhi"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環都市大亨怎麼玩？城市生活系統介紹",
+    "answerTw": "都市大亨是異環三測中新增的熱門玩法系統，整合了多種城市生活模擬元素。玩家可以體驗：1) 買房置業 — 在海特洛市購買不同地段的房產；2) 車輛駕駛 — 獲取和駕駛多種車型在城市中穿行；3) 社交約會 — 與角色建立更深層的互動關係；4) 迷你遊戲 — 包括麻將、賽車等多種休閒娛樂玩法（公測版新增AI對手）。這個系統讓異環不僅有戰鬥和探索，還提供了豐富的休閒玩法，是遊戲的一大特色。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "character-customization",
@@ -1342,7 +1554,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環能捏臉嗎？角色自定義程度高嗎？",
+    "answerTw": "異環的角色自定義系統提供了一定程度的個性化選項，但不是傳統的完全自由捏臉系統。玩家可以調整主角的外觀元素，包括髮型、髮色等基礎外觀設定。與完全自定義捏臉的遊戲相比，異環更注重預設角色形象的塑造，因為遊戲中的角色都有完整的劇情設定和人物性格。主角雖然有一定的自定義空間，但整體上更偏向於固定形象的角色扮演體驗。公測版本可能會增加更多外觀選項。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "auto-battle",
@@ -1358,7 +1573,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有自動戰鬥嗎？能掛機刷材料嗎？",
+    "answerTw": "異環目前沒有傳統意義上的自動戰鬥系統。遊戲強調手動操作的戰鬥樂趣，包括極限閃避、角色切換和環合爆發等機制都需要玩家主動操作。不過，遊戲提供了一些減少重複操作的功能：1) 材料副本在達到一定戰力後可以快速通關；2) 店長特供系統提供被動收入，不需要手動操作；3) 部分日常委託可以快速完成。目前不建議期待完整的自動戰鬥功能，遊戲的核心樂趣在於手動戰鬥的策略和操作。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "vehicle-driving",
@@ -1378,7 +1596,10 @@
     ],
     "relatedMaterials": [],
     "seoTitleEn": "How to Drive Cars in NTE — All Vehicles, Controls & Best Cars Guide",
-    "seoDescriptionEn": "Complete NTE driving guide: how to get cars, vehicle controls, all vehicle types (sports cars, motorcycles), and driving tips."
+    "seoDescriptionEn": "Complete NTE driving guide: how to get cars, vehicle controls, all vehicle types (sports cars, motorcycles), and driving tips.",
+    "questionTw": "異環怎麼開車？有哪些載具？",
+    "answerTw": "異環擁有完整的載具駕駛系統，玩家可以在海特洛市的開放世界中自由駕駛多種車輛。載具種類包括多種轎車和跑車等不同車型，公測版本還增加了更多車輛種類。駕駛操作支援觸屏虛擬方向盤和手柄操控，PC端支援鍵盤控制。公測版對全平臺的駕駛機制進行了最佳化，操控手感更加流暢。車輛不僅是交通工具，還可以在特定任務和活動中使用。部分稀有載具需要通過遊戲內活動或成就獲取。",
+    "categoryTw": "地圖探索"
   },
   {
     "id": "harmonyos-support",
@@ -1394,7 +1615,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環支援鴻蒙系統嗎？華為手機能玩嗎？",
+    "answerTw": "異環確認支援鴻蒙（HarmonyOS）系統。華為手機使用者可以直接在鴻蒙系統的應用市場中搜索並下載異環。遊戲對鴻蒙系統進行了專門適配，確保在華為裝置上能正常執行。需要注意的是，由於遊戲使用虛幻引擎5開發，對硬體配置有一定要求，建議使用較新的華為旗艦機型以獲得最佳體驗。如果裝置配置較低，可以在遊戲設定中降低畫質來提升流暢度。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "preregistration-rewards-how",
@@ -1417,7 +1641,11 @@
     "relatedMaterials": [
       "gacha-ticket",
       "stellar-jade"
-    ]
+    ],
+    "questionTw": "異環預抽卡活動怎麼參加？有什麼獎勵？",
+    "answerTw": "異環公測前正在舉辦預抽卡活動，參加方式：1) 前往官網或TapTap的異環預抽卡活動頁面；2) 定製你的「海特洛市民卡」；3) 完成指定任務獲取啟程道具抽取機會。活動獎勵包括：Fabrication Dice×20、A級Arc Disc、抽卡券等珍貴資源。活動截止時間為2026年4月22日23:59，請務必在此之前完成參與。此外，參與過此前「共存測試」的玩家在公測時可以獲得充值返還。實體獎品還包括PS5主機和官方周邊。",
+    "categoryTw": "上線資訊",
+    "seoTitleTw": "異環預約獎勵怎麼領？預抽卡活動完整領取攻略與截止時間"
   },
   {
     "id": "livestream-codes-2026",
@@ -1436,7 +1664,10 @@
     "relatedMaterials": [
       "gacha-ticket",
       "stellar-jade"
-    ]
+    ],
+    "questionTw": "異環前瞻直播兌換碼有哪些？怎麼領取？",
+    "answerTw": "異環公測前瞻直播（4月18日）公佈了6個兌換碼。國服兌換碼：YHNOWTOENJOY、YHNANALLYGO、YHOB0423，有效期至2026年5月7日23:59。國際服兌換碼：NTENOWTOENJOY、NTENANALLYGO、NTE0429，有效期至2026年5月13日23:59。兌換方式：進入遊戲後，點選右上角頭像 → 設定 → 兌換碼輸入框中輸入即可。注意兌換碼需在遊戲上線後才能使用，建議在開服後第一時間兌換，避免過期。",
+    "categoryTw": "貨幣系統"
   },
   {
     "id": "no-50-50-confirmed",
@@ -1454,7 +1685,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "gacha-ticket"
-    ]
+    ],
+    "questionTw": "異環抽卡真的沒有50/50嗎？公測前瞻直播確認了什麼？",
+    "answerTw": "公測前瞻直播已正式確認：異環的限定角色卡池沒有50/50機制。這意味著觸發保底時100%獲得當期UP的限定S級角色，不存在「歪」到常駐角色的情況。具體規則：限定池90抽硬保底，平均出貨約53.5抽；新手池20抽必出S級且可自選；常駐池50抽可自選S級；武器池80抽保底UP武器。與原神的180抽最差情況相比，異環只需90抽就能確保獲得想要的限定角色，資源效率翻倍。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "beginner-banner-selector",
@@ -1472,7 +1706,10 @@
     "relatedCharacters": [
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新手池20抽自選是什麼意思？能選什麼角色？",
+    "answerTw": "異環新手祈願池的核心機制是：20抽內必出S級角色，而且可以自選你想要的那個角色。目前確認的可選角色包括薄荷（Mint）和早霧兩位S級角色。薄荷是一名強力輸出型角色，技能組合適合新手上手，前期推圖效率高；早霧偏向輔助定位，能為隊伍提供穩定增益。新手池僅限一次使用，建議優先選擇薄荷來加速前期推圖，除非你計劃從限定池抽到其他輸出角色。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "standard-banner-selector",
@@ -1495,7 +1732,10 @@
     ],
     "relatedMaterials": [
       "gacha-ticket"
-    ]
+    ],
+    "questionTw": "異環常駐池50抽自選S級怎麼觸發？能選誰？",
+    "answerTw": "異環常駐祈願池提供50抽自選S級角色的機制。當你累計在常駐池抽滿50抽後，可以從常駐S級角色名單中任選一位獲得。常駐池的90抽硬保底也依然存在，但50抽自選讓你不需要等到硬保底就能定向獲取想要的角色。常駐S級角色包括娜娜莉、咲裡、法蒂亞、安魂曲、白藏、零、穗鳥、達芙迪爾、薄荷等。建議優先選擇你隊伍缺少的定位角色，如沒有好的支援就選咲裡，沒有坦克就選白藏。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "beta-refund",
@@ -1513,7 +1753,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "stellar-jade"
-    ]
+    ],
+    "questionTw": "異環測試服充值怎麼返還？返還比例是多少？",
+    "answerTw": "異環官方確認，參與過測試服（共存測試）並有充值的玩家將獲得充值返還，最高返還比例達150%。返還將在公測後通過遊戲內郵件發放，形式為等值的遊戲內貨幣。具體返還比例：首次充值部分150%返還，累計充值1000元以下部分120%返還，1000-5000元部分110%返還，5000元以上部分100%返還。此外，測試服購買的月卡和通行證也將在公測後免費贈送。這一返還比例在行業內屬於最高水平。",
+    "categoryTw": "貨幣系統"
   },
   {
     "id": "xiaozhi-free-s-rank",
@@ -1531,7 +1774,10 @@
     "relatedCharacters": [
       "xiaozhi"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環小志怎麼免費獲得？都市大亨玩法詳解",
+    "answerTw": "小志（Xiaozhi）是異環公測新增的S級角色，可以通過「都市大亨」系統免費獲得，且可以滿突破。都市大亨是異環中整合了城市生活模擬元素的熱門玩法，包括買房置業、車輛駕駛、社互動動、迷你遊戲（麻將、賽車等，公測新增AI對手）等內容。通過持續參與都市大亨玩法，玩家可以積累資源解鎖小志。這是遊戲中非常少見的免費S級角色獲取途徑，建議所有玩家優先參與。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "pre-download-details",
@@ -1547,7 +1793,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環預下載4月21日幾點開始？PC和手機怎麼預下載？",
+    "answerTw": "異環公測預下載確認於2026年4月21日開放。PC端可通過官網（yh.wanmei.com）或Epic Games Store下載客戶端啟動器；移動端可在App Store和Google Play預約後自動下載。PC端遊戲檔案約25-30GB，移動端約8-10GB。建議使用WiFi提前下載避免開服當天伺服器擁堵。預下載完成後，4月23日開服即可直接進入遊戲無需額外等待。關注官方社交媒體獲取預下載開啟的確切時間點。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "nvidia-driver-nte",
@@ -1567,7 +1816,11 @@
     "seoTitleEn": "NTE NVIDIA Driver Issues — Best Driver Version, Crashes & Black Screen Fixes",
     "seoTitleZh": "异环NVIDIA显卡驱动问题 — 最佳驱动版本、崩溃与黑屏修复",
     "seoDescriptionEn": "Fix NTE NVIDIA driver crashes, black screens, and low FPS. Recommended driver versions, clean install guide, and GPU optimization tips.",
-    "seoDescriptionZh": "异环NVIDIA显卡驱动问题修复：推荐驱动版本、崩溃黑屏解决方案、GPU优化设置。"
+    "seoDescriptionZh": "异环NVIDIA显卡驱动问题修复：推荐驱动版本、崩溃黑屏解决方案、GPU优化设置。",
+    "questionTw": "異環推薦用什麼NVIDIA驅動？RT光追怎麼開？",
+    "answerTw": "NVIDIA已為異環公測釋出了專屬最佳化的顯示卡驅動596.21版本WHQL。該驅動針對異環的虛幻引擎5渲染管線進行了專門最佳化，可提升約15-20%的幀率表現並降低視訊記憶體佔用。建議所有NVIDIA顯示卡使用者在公測前更新。RT光追開啟方式：遊戲設定 → 畫面設定 → 光線追蹤選項（需RTX系列顯示卡）。光追效果主要體現在都市夜景的建築反射、霓虹燈散射和水面倒影上，視覺效果提升顯著但會降低幀率，建議RTX 3060以上顯示卡開啟。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環NVIDIA顯示卡驅動問題 — 最佳驅動版本、崩潰與黑屏修復"
   },
   {
     "id": "launch-characters-full-list",
@@ -1588,7 +1841,10 @@
       "zero",
       "lacrimosa"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環公測上線有哪些角色？16位角色完整名單",
+    "answerTw": "異環公測1.0版本確認上線16位可操控角色。S級11位：娜娜莉（Anima/進攻）、咲裡（Incantation/支援）、達芙迪爾（Chaos/支援）、安魂曲（Chaos/進攻）、零（Cosmos/進攻）、白藏（Incantation/防護）、法蒂亞（Psyche/進攻）、哈索爾（Lakshana/進攻）、穗鳥（Cosmos/進攻）、赤子（Cosmos/進攻）、九原（Anima/輔助）。A級5位：薄荷（Anima/進攻）、埃德加（Cosmos/生存）、哈尼爾（Psyche，免費贈送）、翳（Lakshana/進攻）、愛德勒（Incantation/生存）。另有新增A級角色奧蕾莉亞和通過都市大亨免費獲得的S級角色小志。首發限定UP角色為娜娜莉。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "pink-paws-coop",
@@ -1608,7 +1864,11 @@
     "seoTitleEn": "NTE Pink Paws Co-op Guide — How to Unlock & Complete Multiplayer Missions",
     "seoTitleZh": "异环粉色爪子合作任务攻略 — 解锁条件与联机通关方法",
     "seoDescriptionEn": "Complete Pink Paws co-op guide for NTE: how to unlock, team up with friends, complete multiplayer missions, and earn exclusive rewards.",
-    "seoDescriptionZh": "异环粉色爪子合作任务完整攻略：解锁条件、组队方法、联机通关技巧和专属奖励一览。"
+    "seoDescriptionZh": "异环粉色爪子合作任务完整攻略：解锁条件、组队方法、联机通关技巧和专属奖励一览。",
+    "questionTw": "異環粉爪聯機是什麼？怎麼和朋友一起玩？",
+    "answerTw": "粉爪是異環公測新增的社交聯機系統。玩家可以建立或加入探索小隊，最多4人同時線上探索海特洛市的開放世界。粉爪系統支援即時語音通話、位置共享和協作任務觸發。聯機時寶箱和收集品是獨立的（每個人都能拾取），不會出現爭搶的情況。世界Boss可以多人協作挑戰，降低戰鬥難度。公測版還新增了Pink Paws Heist聯機關卡，提供更豐富的多人玩法。",
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環粉色爪子合作任務攻略 — 解鎖條件與聯機通關方法"
   },
   {
     "id": "prison-system",
@@ -1624,7 +1884,10 @@
     "categoryZh": "地图探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環監獄系統是什麼？怎麼玩？",
+    "answerTw": "異常監獄是異環公測新增的獨特探索區域。玩家需要潛入監獄調查異常事件，面對特殊的敵人型別和解謎關卡。監獄區域的氛圍營造融合了恐怖和懸疑元素，與主城的都市幻想風格形成鮮明對比。公測版對監獄玩法進行了擴充套件，增加了更多逃脫方法、任務和獎勵。建議攜帶戰鬥能力較強的隊伍前往，因為監獄內的敵人強度較高。",
+    "categoryTw": "地圖探索"
   },
   {
     "id": "aurelia-launch-character",
@@ -1642,7 +1905,10 @@
     "relatedCharacters": [
       "aurelia"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環奧蕾莉亞是誰？公測新A級角色介紹",
+    "answerTw": "奧蕾莉亞（Aurelia）是異環公測新增的A級角色。她在前瞻直播中首次亮相，此前未在任何測試版本中出現過。具體屬性、武器型別和技能詳情將在公測後確認。作為新增角色，奧蕾莉亞可能擁有獨特的技能機制來豐富隊伍搭配的多樣性。建議關注遊戲內的角色預覽和我們網站的角色詳情頁面獲取最新資訊。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "mobile-controller-support",
@@ -1659,7 +1925,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機版支援手柄嗎？",
+    "answerTw": "異環手機版（Android/iOS）支援藍牙手柄連線。北通、雷蛇等品牌手柄已確認相容。連線方式：設定→藍牙→配對手柄→進入遊戲自動識別。PS5 DualSense手柄也可在PC和PS5版使用，但移動端目前不支援DualSense。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "mobile-graphics-settings",
@@ -1676,7 +1945,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機版畫質怎麼調？發燙發熱怎麼辦？",
+    "answerTw": "異環手機版最佳化建議：1) 在設定→畫面中降低「渲染精度」至中或低；2) 關閉「動態模糊」和「體積光」；3) 幀率設為30幀可大幅減少發熱；4) 關閉後臺應用釋放記憶體；5) 避免邊充電邊遊玩。如裝置發熱嚴重，建議使用散熱背夾或切換到PC端。iPhone 12 Pro Max為iOS最低裝置，推薦iPhone 14及以上獲得流暢體驗。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "android-minimum-specs",
@@ -1693,7 +1965,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環安卓最低配置是什麼？哪些手機能玩？",
+    "answerTw": "異環安卓最低配置：處理器驍龍855/麒麟990及以上，記憶體6GB及以上，儲存空間預留約20GB。推薦配置：驍龍8 Gen1/天璣9000及以上，8GB+記憶體。可流暢執行的常見機型：小米12及以上、三星S22及以上、OPPO Find X5及以上、華為Mate 40及以上。低於最低配置的裝置可能無法安裝或執行卡頓。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "ios-minimum-specs",
@@ -1710,7 +1985,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環iOS最低支援哪些裝置？",
+    "answerTw": "異環iOS最低裝置要求：iPhone 12 Pro Max及以上，iPad Air 3及以上，系統iOS 15.0+。推薦裝置：iPhone 14及以上、iPad Pro M1及以上可獲得高畫質流暢體驗。iPad mini 5和iPad第8代也可以執行但畫質受限。注意：iPhone 12/12 mini/12 Pro（非Max）未列入官方支援列表。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "mobile-storage-management",
@@ -1727,7 +2005,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機版佔用空間太大怎麼辦？",
+    "answerTw": "異環手機版資源包約20GB，加上安裝包總計可能超過25GB。節省空間方法：1) 在遊戲設定→資源管理中解除安裝不需要的語音包；2) 只下載當前需要的地圖區域資源（如支援分割槽下載）；3) 定期清理遊戲快取：設定→其他→清除快取；4) 將遊戲安裝到SD卡（部分Android機型支援）；5) 使用雲遊戲版本免下載體驗。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "cross-platform-how-to",
@@ -1748,7 +2029,11 @@
     "seoTitleEn": "How to Play NTE Cross-Platform — PC, Mobile & Console Cross-Play Guide",
     "seoTitleZh": "异环跨平台联机方法 — PC/手机/主机跨平台游玩指南",
     "seoDescriptionEn": "Complete NTE cross-platform guide: how to play with friends on PC, PS5, iOS, and Android. Cross-save setup, account linking, and co-op matchmaking explained.",
-    "seoDescriptionZh": "异环跨平台联机完全指南：PC/PS5/iOS/Android如何一起玩？跨平台存档设置、账号绑定、联机匹配方法详解。"
+    "seoDescriptionZh": "异环跨平台联机完全指南：PC/PS5/iOS/Android如何一起玩？跨平台存档设置、账号绑定、联机匹配方法详解。",
+    "questionTw": "異環怎麼跨平臺同步資料？PC和手機怎麼互通？",
+    "answerTw": "異環全平臺數據互通操作方法：1) 確保所有裝置登入同一個完美世界賬號；2) PC端在登入介面選擇賬號登入；3) 移動端在登入介面選擇相同賬號方式；4) PS5端在首次啟動時繫結完美世界賬號。繫結后角色等級、裝備、任務進度、抽卡記錄全部即時同步。注意：每個賬號只能繫結一個PS5賬號，繫結後不可更改。6平臺互通包括PC、Android、iOS、Mac、鴻蒙、PS5。",
+    "categoryTw": "平臺相關",
+    "seoTitleTw": "異環跨平臺聯機方法 — PC/手機/主機跨平臺遊玩指南"
   },
   {
     "id": "harmonyos-details",
@@ -1765,7 +2050,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環鴻蒙版怎麼下載？支援哪些裝置？",
+    "answerTw": "異環鴻蒙版下載方式：開啟華為應用市場→搜尋「異環」→下載安裝。最低配置：麒麟990處理器及以上，6GB記憶體，預留約20GB空間。支援裝置：華為Mate 40及以上、P40及以上、MatePad Pro系列。鴻蒙版與Android版共享同一客戶端資料，通過華為賬號或完美世界賬號登入即可同步進度。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "mobile-battery-drain",
@@ -1782,7 +2070,10 @@
     "categoryZh": "平台相关",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機玩一會兒就沒電怎麼辦？",
+    "answerTw": "異環是高畫質開放世界遊戲，對手機效能要求較高，耗電快是正常現象。省電建議：1) 開啟手機省電模式（可能限制幀率）；2) 降低遊戲內畫質設定（關閉體積光、動態模糊，降低渲染精度）；3) 幀率鎖定30幀可省電30%以上；4) 螢幕亮度調低；5) 使用充電寶邊充邊玩（注意發熱）；6) 長時間遊玩建議切換到PC或PS5端。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "starter-s-rank-selector",
@@ -1804,7 +2095,10 @@
       "jiuyuan",
       "baicang"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環自選S角色選誰？新手自選S推薦",
+    "answerTw": "新手自選S角色推薦順序：1) 薄荷（Mint）— 開服最強免費奶媽，幾乎必選，創生隊/濁燃隊都適用；2) 早霧（Hotori）— 聚怪+增傷輔助，如果你打算抽娜娜莉，早霧是最佳搭檔；3) 九原（Jiuyuan）— 常駐池可歪，不建議用自選券選。常駐五星整體優先順序：薄荷 > 早霧 > 白藏 > 達芙迪爾。結論：90%的新手應該選薄荷，她是最通用的S級角色。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "free-pulls-total",
@@ -1824,7 +2118,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "gacha-ticket"
-    ]
+    ],
+    "questionTw": "異環公測免費可以抽多少次？470抽怎麼拿到？",
+    "answerTw": "公測版本全平臺可獲取約418-470抽（含預註冊獎勵、公測活動、主線獎勵、成就獎勵等）。注意：470抽需要完成大量遊戲進度才能全部拿到，實際首日可獲取約150-200抽。獲取途徑：1) 預註冊獎勵：約80抽；2) 公測登入活動：14天簽到約42抽；3) 主線任務推進：約100抽；4) 探索度/成就：約50抽；5) 異象收容/挑戰：約30抽；6) 新手福利/教程：約50抽。零氪玩家建議優先推進主線拿抽卡資源。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "stamina-planning",
@@ -1846,7 +2143,10 @@
       "stamina-potion",
       "rising-hunter-guide",
       "permit"
-    ]
+    ],
+    "questionTw": "異環體力怎麼分配？零氪開荒體力規劃",
+    "answerTw": "前期體力分配建議：1-30級：全部投入主線和角色升級材料副本；30-45級：70%角色升級材料 + 30%武器強化材料；45級後：優先弧盤副本 > 技能升級材料 > 武器材料。關鍵原則：1) 不要平均分配，集中培養2個主力角色；2) 每天先用完體力再下線；3) 優先刷當前卡關需要的材料；4) 弧盤副本收益最高，解鎖後優先投入。零氪玩家不要浪費體力在低階副本，直接打能打的最高難度。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "ring-fusion-mechanics",
@@ -1868,7 +2168,10 @@
       "jiuyuan",
       "hotori"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環環合反應怎麼觸發？屬性反應機制詳解",
+    "answerTw": "環合反應是異環的核心戰鬥系統，通過兩種不同屬性的角色配合觸發。遊戲共有6種屬性：光、靈、相、暗、魂、咒，可觸發8種環合反應：\n\n**永動迴圈線（光屬性核心）**：\n- 創生（光+靈）：召喚持續存在的召喚花，觸發盈蓄效果持續回覆大招能量\n- 延滯（光+相）：強力控怪效果，減速/限制敵人行動\n\n**破盾爆發線（暗屬性核心）**：\n- 濁燃（暗+咒）：給敵人掛上點燃狀態\n- 黯星（暗+魂）：觸發一次性高額爆發傷害\n- 失諧（點燃+爆發）：核心破盾反應\n\n**傷害提升線**：\n- 覆紋（靈+咒）：給敵人掛上易傷debuff\n- 浸染（相+魂）：持續類增傷效果\n\n此外還有2種三屬性反應需要三種不同屬性角色同時在場。建議新手優先掌握創生和濁燃兩條核心反應線。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "arc-disc-faq",
@@ -1891,7 +2194,10 @@
     ],
     "relatedMaterials": [
       "arc-disc"
-    ]
+    ],
+    "questionTw": "異環弧盤系統怎麼玩？弧盤獲取和強化攻略",
+    "answerTw": "弧盤是異環公測版本最重要的裝備系統，戰力提升幅度最大。弧盤分C/B/A/S四個品質，每個角色裝備一個。獲取途徑：1) 擊敗Boss異象掉落（海囚S級機率最高）；2) 弧盤副本（高塔）挑戰；3) 空幕裝置商店兌換；4) 異象收容任務獎勵；5) 公測活動贈送A級弧盤。強化建議：優先強化S級弧盤到滿級，A級作為過渡，C/B級僅做材料。輸出角色選暴擊率/暴擊傷害/攻擊力%副屬性，輔助角色選能量回復/效果命中/生命值%副屬性。",
+    "categoryTw": "裝備系統"
   },
   {
     "id": "f2p-beginner-route",
@@ -1911,7 +2217,10 @@
     "relatedCharacters": [
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環零氪新手怎麼開荒？第一天必做清單",
+    "answerTw": "零氪新手第一天開荒路線：1) 完成全部教程關卡（約30分鐘）；2) 推進主線到第三章（獲取大量抽卡資源）；3) 使用新手池抽卡，利用6選1自選S級角色（推薦薄荷）；4) 集中資源培養主力隊伍（1主C+1輔助+1生存）；5) 解鎖所有已探索區域的傳送點；6) 完成每日委託；7) 參與公測登入活動領14天簽到獎勵；8) 兌換3個公測兌換碼；9) 不要分散培養，先確定2個核心角色集中投入。零氪玩家約可獲得150-200抽，足夠組建一支強力隊伍。",
+    "categoryTw": "新手入門"
   },
   {
     "id": "ue5-7-engine-update",
@@ -1930,7 +2239,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "seoTitleEn": "NTE Latest Update — UE5.7 Engine Upgrade, Day 1 Patch Notes & Changes (2026)",
-    "seoDescriptionEn": "NTE latest update details: Unreal Engine 5.7 upgrade, Day 1 patch improvements, new features, bug fixes, and performance optimizations."
+    "seoDescriptionEn": "NTE latest update details: Unreal Engine 5.7 upgrade, Day 1 patch improvements, new features, bug fixes, and performance optimizations.",
+    "questionTw": "異環公測引擎升級到UE5.7了嗎？有什麼變化？",
+    "answerTw": "是的，異環公測版本從測試階段的UE5.5升級到了UE5.7。主要變化：1) 畫面表現力提升，光影和反射效果更精細；2) 移動端最佳化改進，但高畫質下發熱仍然明顯；3) 載入速度改善，尤其NVMe SSD使用者感受明顯；4) 面部表情系統全面改進（公測前後對比差異大）；5) 新增第一人稱模式（全球服確認）。UE5.7引擎對硬體要求與之前基本持平，不需要額外升級配置。",
+    "categoryTw": "平臺相關"
   },
   {
     "id": "character-build-priority",
@@ -1953,7 +2265,10 @@
       "jiuyuan",
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環角色培養優先順序是什麼？先升誰？",
+    "answerTw": "角色培養優先順序建議：第一優先順序（必練）：主力輸出角色等級+武器 → 等級拉滿到當前上限。第二優先順序（儘快升）：輔助角色的關鍵技能等級（影響增益數值）。第三優先順序（中期補齊）：生存位角色的防禦和生命屬性。具體角色優先順序：1) 娜娜莉/達芙迪爾（主C，全力投入）；2) 九原/薄荷（輔助核心，技能等級重要）；3) 白藏/阿德勒（生存位，40級夠用）；4) 其他A/B級角色按需培養。切記不要平均分配資源，集中投入2-3個核心角色。",
+    "categoryTw": "角色升級"
   },
   {
     "id": "genesis-team-guide",
@@ -1974,7 +2289,10 @@
       "jiuyuan",
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環創生隊怎麼配？最強配隊推薦",
+    "answerTw": "創生隊是公測最強隊伍之一，核心反應為創生（光+靈）。推薦配隊：娜娜莉（主C）+ 早霧（聚怪增傷）+ 九原（副C/聚怪）+ 主角（觸發環合）。替代方案：薄荷替換九原提供治療。操作要點：早霧先手聚怪增傷 → 娜娜莉輸出觸發創生 → 主角即瞬環合 → 迴圈。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "turbid-burn-team-guide",
@@ -1995,7 +2313,10 @@
       "lilina",
       "baicang"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環濁燃隊怎麼配？暗屬性破盾隊推薦",
+    "answerTw": "濁燃隊利用濁燃（暗+咒）+失諧反應快速破盾。推薦配隊：翳（暗屬性掛點燃）+ 阿德勒（觸發失諧破盾）+ 莉莉娜（暗屬性輸出）+ 白藏（護盾生存）。翳先手掛濁燃點燃 → 莉莉娜暗屬性輸出 → 阿德勒觸發失諧破盾 → 白藏保證生存。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "f2p-team-guide",
@@ -2015,7 +2336,10 @@
       "xiaozhi",
       "edgar"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環平民配隊推薦？零氪最強隊伍",
+    "answerTw": "零氪最強配隊：薄荷（自選S治療核心）+ 小吱（都市大亨免費6+5）+ 埃德加（A級聚怪）+ 主角（免費環合觸發）。全部免費。中期目標：抽娜娜莉替換小吱組建創生隊。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "blaze-team-guide",
@@ -2036,7 +2360,10 @@
       "haniel",
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環灼燒隊怎麼配？白藏火系配隊",
+    "answerTw": "灼燒隊以白藏為核心坦克。推薦配隊：白藏（主坦）+ 赤音（火屬性主C）+ 哈尼爾（增傷）+ 薄荷（治療）。白藏護盾基於防禦力，使用堅巖之心4件套。適合高難度Boss戰。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "best-launch-teams",
@@ -2057,7 +2384,10 @@
       "baicang",
       "xun"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環公測最強配隊排名？T0隊伍推薦",
+    "answerTw": "公測T0：①創生隊（娜娜莉+早霧+九原+主角）；②濁燃破盾隊（翳+阿德勒+莉莉娜+白藏）；③光耀坼綻爆發隊（零+薄荷+潯），潯1.0下半UP角色，提供治療+技能復刻，綜合清場效率極高。T1：④控場爆發隊（娜娜莉+零+潯），潯記錄並復刻娜娜莉控制技能實現無限控制鏈；⑤灼燒隊（赤音+白藏+哈尼爾+薄荷）；⑥速切隊（黑鳥+零+咲裡+支援）。零氪隊：薄荷+小吱+埃德加+主角。配隊核心：2同屬性觸發環合+1不同屬性+1生存位。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "disk-upgrade-faq",
@@ -2076,7 +2406,10 @@
     "relatedMaterials": [
       "disk-set",
       "disk-exp"
-    ]
+    ],
+    "questionTw": "異環磁碟怎麼強化？強化材料獲取",
+    "answerTw": "磁碟強化：角色介面→磁碟欄位→強化→消耗低品質磁碟當材料。同套裝材料有額外經驗加成。建議：只強化A級和S級磁碟，C/B級當材料。輸出磁碟優先暴擊率/暴擊傷害，輔助優先能量回復。",
+    "categoryTw": "裝備系統"
   },
   {
     "id": "weapon-upgrade-faq",
@@ -2094,7 +2427,10 @@
     "relatedCharacters": [],
     "relatedMaterials": [
       "weapon-material"
-    ]
+    ],
+    "questionTw": "異環武器怎麼升級？武器強化材料哪裡刷？",
+    "answerTw": "武器材料來源：1) 胡迪尼的魔術舞臺副本（固定掉落）；2) 異象挑戰掉落；3) 商店兌換。建議：優先升S級角色武器到上限；A級只過渡；不浪費在B/C級。主C武器等級=角色等級，輔助可低10-20級。",
+    "categoryTw": "裝備系統"
   },
   {
     "id": "best-disk-set-per-role",
@@ -2117,7 +2453,10 @@
     ],
     "relatedMaterials": [
       "disk-set"
-    ]
+    ],
+    "questionTw": "異環磁碟套裝怎麼選？各定位最佳套裝",
+    "answerTw": "主C暴擊流：狂戰士之怒4件套。主C反應流：裂空之牙4件套。治療：繁星之誓4件套。增傷輔助：永珍歸一4件套。坦克：堅巖之心4件套。高爆發主C：熾焰之心4件套。充能輔助：迴響之潮4件套。",
+    "categoryTw": "裝備系統"
   },
   {
     "id": "nte-vs-zzz-which",
@@ -2134,7 +2473,10 @@
     "categoryZh": "站点数据",
     "categoryEn": "Meta",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環和絕區零哪個好玩？",
+    "answerTw": "異環和絕區零各有特色，適合不同玩家。異環是開放世界動作RPG，擁有無縫大地圖探索、買房系統、開車等玩法，沉浸感更強；絕區零是箱庭副本制，節奏更快更聚焦戰鬥。異環抽卡沒有50/50機制，獲得限定角色更穩定；絕區零有50/50則需要一定運氣。喜歡自由探索和開放世界選異環，喜歡快節奏動作和影視化敘事選絕區零。",
+    "categoryTw": "站點資料"
   },
   {
     "id": "how-awakening-works",
@@ -2154,7 +2496,10 @@
     "relatedMaterials": [
       "awakening-material",
       "sigil-fragment"
-    ]
+    ],
+    "questionTw": "異環覺醒系統怎麼玩？",
+    "answerTw": "異環的覺醒系統是對角色的進一步強化機制，每個角色有6個覺醒等級。覺醒需要消耗對應角色的信物碎片和專用覺醒材料。在覺醒3級和6級時會解鎖核心共鳴效果，大幅提升角色能力。覺醒材料主要來源於高難副本、周常挑戰和活動兌換。建議優先覺醒主C角色，收益最為明顯。",
+    "categoryTw": "戰鬥機制"
   },
   {
     "id": "best-team-beginner",
@@ -2175,7 +2520,10 @@
       "sakiri",
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新手配隊推薦？",
+    "answerTw": "新手推薦使用免費獲得的S級角色組成過渡陣容。前排推薦娜娜莉（生命/格鬥）作為主C，搭配咲裡或薄荷（咒術/支援）提供增益。後排選擇一個副C和一個治療或護盾角色。開局送的A級角色也完全可以通關前期所有內容。重點是保證陣容中有主屬性覆蓋齊全的角色，避免遇到屬性剋制的敵人時無法應對。",
+    "categoryTw": "陣容搭配"
   },
   {
     "id": "how-to-buy-house",
@@ -2192,7 +2540,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼買房？",
+    "answerTw": "異環的買房系統需要先完成主線劇情推進到一定章節後解鎖。解鎖後前往指定區域的房產中介NPC處可以選擇購買的房型。不同位置的房產價格不同，部分稀有地段需要特殊貨幣購買。買房後可以自定義裝修，放置傢俱和裝飾品，同時部分房產會提供屬性加成或資源產出等實用收益。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "how-to-join-collab-event",
@@ -2209,7 +2560,10 @@
     "categoryZh": "活动",
     "categoryEn": "Events",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環P5R聯動怎麼參加？",
+    "answerTw": "異環與女神異聞錄5皇家版（P5R）的聯動是以音樂合作為主的活動。玩家需要在遊戲內完成特定聯動任務即可參與，活動期間登入即可獲得聯動限定獎勵。聯動內容包括限定音樂曲目和主題裝飾道具等。建議關注遊戲內公告獲取最新的活動參與條件和時間安排，確保不會錯過限時獎勵。",
+    "categoryTw": "活動"
   },
   {
     "id": "global-server-download",
@@ -2231,7 +2585,11 @@
     "seoTitleZh": "异环国际服下载教程 — PC/手机/PS5下载链接与安装步骤",
     "seoTitleEn": "NTE Global Server Download Guide — PC, Mobile & PS5 Download Links",
     "seoDescriptionZh": "异环国际服下载安装教程：PC/Android/iOS/PS5各平台下载链接、安装步骤、预下载时间和存储空间要求。",
-    "seoDescriptionEn": "Download NTE Global server on PC, Android, iOS, and PS5. Direct download links, installation steps, pre-download schedule, and storage requirements."
+    "seoDescriptionEn": "Download NTE Global server on PC, Android, iOS, and PS5. Direct download links, installation steps, pre-download schedule, and storage requirements.",
+    "questionTw": "異環國際服怎麼下載？",
+    "answerTw": "異環國際服於2026年4月29日正式上線。PC端可通過官網下載客戶端或通過Steam商店搜尋異環下載。iOS使用者在App Store搜尋異環即可下載，Android使用者可通過Google Play或官網下載APK安裝包。下載前請確認裝置滿足最低配置要求，建議預留足夠的儲存空間以保證流暢執行。",
+    "categoryTw": "平臺",
+    "seoTitleTw": "異環國際服下載教程 — PC/手機/PS5下載連結與安裝步驟"
   },
   {
     "id": "free-s-rank-characters",
@@ -2253,7 +2611,10 @@
       "mint",
       "sakiri"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環免費S級角色有哪些？",
+    "answerTw": "異環中可以通過免費途徑獲得多個S級角色。首先是通過城市經營玩法可以獲得小智（S級）。新手階段會提供S級角色自選券，可從薄荷和咲裡中選擇一個。此外在標準池累計抽取50次後還可以獲得一張S級自選券。這些免費S級角色培養價值很高，建議根據自己陣容需求合理選擇。",
+    "categoryTw": "角色相關"
   },
   {
     "id": "driving-vehicle-guide",
@@ -2271,7 +2632,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼開車？",
+    "answerTw": "異環中的載具系統在完成主線一定進度後自動解鎖。解鎖後可以在開放世界中召喚載具，使用方向鍵控制移動，支援加速和漂移操作。遊戲內有多種載具型別，包括轎車、摩托車等，部分可以通過活動或商店獲取。載具能大幅提升大地圖探索效率，是快速移動和趕路的重要工具。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "photo-mode-guide",
@@ -2289,7 +2653,10 @@
     "categoryZh": "游戏系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環拍照模式怎麼用？",
+    "answerTw": "異環的拍照模式可以在遊戲內通過快捷鍵或選單進入。進入拍照模式後可以自由調整相機角度、焦距和構圖。系統提供多種濾鏡和特效供選擇，還可以調整角色表情和動作姿勢。拍攝的照片可以儲存到本地相簿，也可以直接分享到社交平臺。拍照模式不會暫停部分線上功能，使用時請注意周圍環境安全。",
+    "categoryTw": "遊戲系統"
   },
   {
     "id": "launch-free-pulls-total",
@@ -2307,7 +2674,10 @@
     "categoryZh": "抽卡",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環公測能白嫖多少抽？",
+    "answerTw": "異環公測期間玩家總共可以獲得約418次免費抽卡機會。這些抽卡資源來源包括：新手福利和七日簽到約80抽、主線和支線任務通關獎勵約100抽、探索進度和成就獎勵約60抽、預約里程碑和公測活動約100抽、以及各類兌換碼和補償約78抽。數量會隨版本活動和運營策略有所浮動，建議關注官方公告獲取最新資訊。",
+    "categoryTw": "抽卡"
   },
   {
     "id": "awakening-priority",
@@ -2329,7 +2699,10 @@
       "baicang",
       "jiuyuan"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環覺醒優先升誰？哪些角色先開覺醒？",
+    "answerTw": "覺醒（命座）優先給主C角色升到S2（2命），這是關鍵質變節點。推薦優先覺醒：娜娜莉（S2質變）> 白藏（S1即可）> 九原。輔助角色S1就夠用，無需全員滿命。覺醒點數來自重複抽卡，每次重複+1點。",
+    "categoryTw": "角色培養"
   },
   {
     "id": "awakening-vs-new-character",
@@ -2349,7 +2722,10 @@
     "relatedCharacters": [
       "xiaozhi"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環覺醒和抽新角色哪個更值？",
+    "answerTw": "優先抽新角色。NTE無50/50，90抽保底必得當期限定，價效比極高。覺醒是後期提升，新手建議先拓寬角色池，至少有2-3隊完整陣容後再考慮覺醒。例外：小志通過都市大亨可免費滿命，優先完成。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "beginner-first-day-checklist",
@@ -2369,7 +2745,10 @@
     "relatedCharacters": [
       "xiaozhi"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環公測第一天必做什麼？新手開服清單",
+    "answerTw": "Day 1必做：1)兌換所有兌換碼 2)完成新手池20抽拿S級 3)推主線到解鎖常駐池 4)常駐池50抽拿自選S級 5)開始都市大亨拿小志 6)領取預註冊獎勵 7)完成首日限時活動。優先推主線，主線是解鎖玩法和獲取經驗的主要來源。",
+    "categoryTw": "新手指南"
   },
   {
     "id": "gacha-dice-board",
@@ -2387,7 +2766,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環抽卡骰子棋盤是什麼？怎麼玩？",
+    "answerTw": "NTE的抽卡系統採用獨特的骰子棋盤機制，每次抽卡相當於擲骰子在棋盤上前進。棋盤走滿一定步數即觸發保底。這種視覺化設計讓抽卡過程更有趣，也更容易追蹤保底進度。機制與結果不影響機率，僅是視覺呈現方式不同。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "120-pull-exchange",
@@ -2405,7 +2787,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環120抽兌換是什麼？怎麼用120抽換角色？",
+    "answerTw": "累計抽卡120次後可兌換任意S級角色。這是NTE的兜底機制，即使運氣不好也能通過積累獲得想要的角色。建議用這個機制兌換常駐S級中沒抽到的角色，限定角色還是走限定池更划算。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "best-weapon-to-pull",
@@ -2423,7 +2808,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環武器池值得抽嗎？優先抽什麼武器？",
+    "answerTw": "武器池60抽保底，S級武器出率約22.8%，每十連贈送A級武器。建議：優先抽角色，角色陣容成型後再考慮武器。S級角色專屬武器提升明顯，但不是必須的。零氪玩家可以跳過武器池，用A級武器過渡。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "stamina-buy-guide",
@@ -2441,7 +2829,10 @@
     "categoryZh": "日常玩法",
     "categoryEn": "Daily Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環每天買幾次體力？體力購買價效比",
+    "answerTw": "零氪/微氪建議每天買滿前3次體力（消耗遞增但價效比高）。體力是刷經驗、裝備、材料的基礎，開服期等級領先=資源領先。中氪可以買5次，重氪可買滿。優先用體力刷角色培養材料。",
+    "categoryTw": "日常玩法"
   },
   {
     "id": "game-crash-fix",
@@ -2460,7 +2851,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環閃退/卡頓/掉幀怎麼解決？",
+    "answerTw": "PC端：1)關閉MSI Afterburner和RivaTuner 2)更新顯示卡驅動 3)降低畫質設定 4)安裝到SSD。移動端：1)確認滿足最低配置 2)降低畫質 3)關閉後臺應用 4)發燙時暫停散熱後繼續。網路問題：使用遊戲加速器（迅遊/biubiu等）。NVIDIA驅動595.79版本已知有相容問題，建議降級。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "pc-crash-launcher",
@@ -2478,7 +2872,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環PC端啟動器點Play沒反應怎麼辦？",
+    "answerTw": "1)以管理員身份執行啟動器 2)檢查防毒軟體是否攔截 3)重啟電腦後重試 4)解除安裝後重新安裝啟動器 5)確保遊戲安裝在SSD 6)關閉VPN（Astrill VPN已知衝突）。如仍無法解決，檢視官方FAQ：nte.perfectworld.com",
+    "categoryTw": "技術支援"
   },
   {
     "id": "ssd-requirement",
@@ -2497,7 +2894,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環必須裝SSD嗎？機械硬碟能玩嗎？",
+    "answerTw": "官方建議安裝到SSD獲得最佳體驗。機械硬碟可以執行但載入時間會明顯變長，且可能出現卡頓。如果只有機械硬碟，建議降低畫質設定來彌補。PC版約30-40GB，確保有足夠空間。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "account-link-cross-save",
@@ -2519,7 +2919,11 @@
     "seoTitleEn": "NTE Cross-Platform Save — How to Link Account & Sync Progress (PC, Mobile, PS5)",
     "seoTitleZh": "异环跨平台存档同步 — 账号绑定方法与进度互通教程（PC/手机/PS5）",
     "seoDescriptionEn": "How to link your NTE account for cross-platform save between PC, PS5, iOS, and Android. Step-by-step binding guide, sync troubleshooting, and progress transfer.",
-    "seoDescriptionZh": "异环跨平台存档同步教程：PC/PS5/iOS/Android账号绑定方法、进度互通设置、同步问题解决。同一账号全平台数据互通。"
+    "seoDescriptionZh": "异环跨平台存档同步教程：PC/PS5/iOS/Android账号绑定方法、进度互通设置、同步问题解决。同一账号全平台数据互通。",
+    "questionTw": "異環怎麼繫結賬號跨平臺同步？",
+    "answerTw": "使用同一個賬號在PC/PS5/iOS/Android上登入即可自動同步進度。繫結步驟：設定→賬號管理→繫結郵箱/手機。跨平臺資料完全互通，包括角色、抽卡記錄、進度等。Mac版同樣支援。",
+    "categoryTw": "新手指南",
+    "seoTitleTw": "異環跨平臺存檔同步 — 賬號繫結方法與進度互通教程（PC/手機/PS5）"
   },
   {
     "id": "nanally-team-comp",
@@ -2544,7 +2948,10 @@
       "adler"
     ],
     "relatedMaterials": [],
-    "seoTitleEn": "NTE Nanally Best Team Comp — Anima DPS Team Building Guide (2026)"
+    "seoTitleEn": "NTE Nanally Best Team Comp — Anima DPS Team Building Guide (2026)",
+    "questionTw": "異環娜娜莉最佳配隊是什麼？",
+    "answerTw": "娜娜莉作為開服最強主C，推薦配隊：娜娜莉+九原/薄荷+白藏/阿德勒+輔助。核心思路是利用娜娜莉的高爆發配合副C和聚怪角色。九原提供控制和副C輸出，白藏提供護盾。開服可用：娜娜莉+主角+九原+阿德勒過渡。",
+    "categoryTw": "角色培養"
   },
   {
     "id": "jiuyuan-worth-building",
@@ -2565,7 +2972,10 @@
       "jiuyuan",
       "nanally"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環九原值得培養嗎？",
+    "answerTw": "九原是常駐S級中優先順序最高的角色，常駐自選首推九原。提供優秀的控制和副C能力，泛用性極高。與娜娜莉配合效果出色。如果新手池沒抽到九原，建議用常駐50抽自選拿九原。",
+    "categoryTw": "角色培養"
   },
   {
     "id": "baicang-worth-building",
@@ -2586,7 +2996,10 @@
     "relatedCharacters": [
       "baicang"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環白藏值得培養嗎？",
+    "answerTw": "白藏是常駐S級輸出/機制雙優角色，開荒首選之一。灼燒隊核心，S1即可滿足大部分需求。如果抽到白藏，建議優先培養，可作為主C或副C使用。灼燒隊配隊：白藏+輔助+副C+治療。",
+    "categoryTw": "角色培養"
   },
   {
     "id": "daily-routine",
@@ -2605,7 +3018,10 @@
     "categoryZh": "日常玩法",
     "categoryEn": "Daily Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環每天做什麼？日常任務優先順序",
+    "answerTw": "每日必做清單：1)完成4個每日委託（經驗+材料） 2)消耗體力刷培養材料 3)購買前3次體力 4)完成異象委託 5)都市大亨日常任務 6)檢查限時活動。每週：周本boss、周常任務。體力優先刷當前培養角色的突破材料。",
+    "categoryTw": "日常玩法"
   },
   {
     "id": "wrong-server-transfer",
@@ -2623,7 +3039,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環選錯了伺服器可以轉服嗎？",
+    "answerTw": "目前異環不支援跨服轉服功能。角色資料繫結在建立時的伺服器上，無法遷移到其他伺服器。建議在開始遊戲前確認好要進入的伺服器，和朋友提前溝通好選擇同一伺服器。如果不小心選錯了，只能在新伺服器重新建立角色。關注官方公告，未來可能開放轉服功能。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "login-verification-code-not-received",
@@ -2641,7 +3060,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環登入收不到手機驗證碼怎麼辦？",
+    "answerTw": "1)檢查手機號是否輸入正確 2)檢視簡訊是否被攔截/歸入垃圾簡訊 3)等待60秒後重新獲取 4)切換網路（WiFi/4G/5G）重試 5)聯絡運營商確認沒有遮蔽簡訊號碼 6)如果仍無法收到，嘗試使用郵箱登入方式 7)聯絡官方客服提供手機號和註冊資訊協助處理。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "login-white-screen",
@@ -2660,7 +3082,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環PC端登入白屏/黑屏怎麼解決？",
+    "answerTw": "1)更新顯示卡驅動至最新版本 2)刪除遊戲目錄下的ShaderCache資料夾後重新啟動 3)在啟動器設定中切換DX11/DX12 4)關閉全屏最佳化：右鍵遊戲exe→屬性→相容性→停用全屏最佳化 5)以管理員身份執行 6)檢查是否安裝了最新的Visual C++執行庫 7)嘗試視窗化模式啟動。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "server-queue-long",
@@ -2678,7 +3103,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環伺服器排隊時間太長怎麼辦？",
+    "answerTw": "高峰期（晚上7-11點、週末）排隊人數較多屬於正常現象。建議：1)避開高峰時段登入 2)選擇人數較少的伺服器 3)保持排隊不要反覆取消重排，否則會重新排隊 4)關注官方維護公告，維護後登入人數激增 5)提前在非高峰時段保持線上。排隊期間不要關閉遊戲視窗。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "high-latency-lag",
@@ -2696,7 +3124,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環遊戲延遲高/網路卡頓怎麼解決？",
+    "answerTw": "1)使用有線網路代替WiFi 2)關閉後臺下載和流媒體應用 3)使用遊戲加速器（迅遊/biubiu/雷神等） 4)更換加速節點 5)重啟路由器 6)檢查DNS設定，嘗試使用公共DNS（114.114.114.114或8.8.8.8） 7)海外玩家建議選擇對應區域的加速線路。如果持續高延遲，可能是伺服器維護，檢視官方公告。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "dx12-error",
@@ -2715,7 +3146,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環DX12報錯/啟動失敗怎麼辦？",
+    "answerTw": "1)確認顯示卡支援DX12（GTX 700系列以下不支援） 2)在啟動器設定中切換為DX11模式 3)更新Windows系統至最新版本 4)更新顯示卡驅動 5)執行DirectX修復工具 6)檢查遊戲檔案完整性（啟動器→設定→修復）。如果顯示卡不支援DX12，只能使用DX11模式，部分畫面效果會有差異。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "memory-leak-crash",
@@ -2734,7 +3168,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環玩久了越來越卡/記憶體佔用高怎麼辦？",
+    "answerTw": "這是已知的記憶體洩漏問題。解決方案：1)每玩1-2小時重啟一次遊戲 2)關閉遊戲內不必要的後臺功能（錄屏、直播等） 3)降低畫質設定減少視訊記憶體佔用 4)確保系統有足夠可用記憶體（建議16GB以上） 5)關閉其他佔用記憶體的程式（瀏覽器、Discord等） 6)等待官方補丁修復。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "gpu-overheating",
@@ -2754,7 +3191,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環GPU/CPU溫度過高怎麼降溫？",
+    "answerTw": "PC端：1)降低畫質設定（尤其陰影和特效質量） 2)限制幀率上限（60fps） 3)清理電腦內部灰塵 4)確保機箱散熱良好 5)筆記本使用者使用散熱墊 6)更新顯示卡驅動。移動端：1)降低畫質和幀率 2)摘掉手機殼散熱 3)避免邊充電邊玩 4)在空調環境下游戲 5)使用手機散熱風扇。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "alt-tab-black-screen",
@@ -2773,7 +3213,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環Alt+Tab切換後黑屏怎麼辦？",
+    "answerTw": "1)在遊戲設定中切換為視窗化或無邊框視窗模式 2)按Alt+Enter切換全屏模式 3)按Ctrl+Shift+Esc開啟工作管理員再切迴游戲 4)停用全屏最佳化（右鍵遊戲exe→屬性→相容性） 5)更新顯示卡驅動。最有效的解決方案是使用無邊框視窗模式，雖然略微影響效能但可以避免切屏黑屏問題。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "mobile-overheating",
@@ -2792,7 +3235,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機發燙嚴重/幀率驟降怎麼辦？",
+    "answerTw": "1)在遊戲設定中將畫質調至「均衡」或「流暢」 2)關閉高幀率模式（60fps即可） 3)摘掉手機殼幫助散熱 4)避免邊充電邊玩 5)關閉後臺應用 6)在空調或風扇環境下游戲 7)使用半導體散熱背夾效果最佳 8)發燙後暫停遊戲5-10分鐘讓手機降溫。iPhone使用者注意低電量模式會自動降頻。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "mobile-storage-space",
@@ -2811,7 +3257,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機儲存空間不夠安裝不了怎麼辦？",
+    "answerTw": "異環移動端完整安裝約需20-25GB空間。解決方法：1)清理手機不常用的應用和快取 2)刪除照片和影片到雲端釋放空間 3)解除安裝其他大型遊戲騰出空間 4)如果空間實在不夠，可以使用PC版（約30-40GB）或雲遊戲版本 5)安裝時確保留出額外5GB以上的緩衝空間用於解壓。安卓使用者可以將遊戲安裝到SD卡（部分機型支援）。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "android-low-memory-crash",
@@ -2830,7 +3279,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環安卓手機頻繁閃退怎麼辦？",
+    "answerTw": "1)確認手機滿足最低配置（驍龍845/天璣1000+同等或以上，6GB記憶體以上） 2)在開發者選項中限制後臺程序數為4個 3)關閉記憶體擴充套件/虛擬記憶體功能（部分品牌此功能反而導致閃退） 4)降低遊戲畫質設定 5)清理後臺應用釋放記憶體 6)重啟手機後進入遊戲 7)更新遊戲到最新版本 8)如仍閃退，可能是機型相容問題，等待官方適配更新。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "ios-graphics-blurry",
@@ -2849,7 +3301,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環iPhone畫面模糊/畫質低怎麼調？",
+    "answerTw": "1)進入遊戲設定→畫面，手動調高渲染解析度和畫質等級 2)部分iPhone機型預設低畫質以保幀率，關閉「自動畫質」後手動設定 3)iPhone 13以下機型建議開到「均衡」畫質，強行開高畫質會導致發熱和掉幀 4)確保iOS系統為最新版本 5)關閉低電量模式（設定→電池→低電量模式），該模式會限制GPU效能導致畫質下降。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "ps5-download-interrupted",
@@ -2867,7 +3322,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環PS5下載中斷/安裝失敗怎麼辦？",
+    "answerTw": "1)暫停下載後重新繼續 2)檢查PS5系統儲存空間（至少留出50GB） 3)重啟PS5後重新下載 4)檢查網路連線，建議使用有線網路 5)進入PS5設定→下載/上傳→暫停所有其他下載 6)如果反覆中斷，嘗試刪除已下載的部分檔案重新下載 7)更改PS5DNS設定（使用8.8.8.8或1.1.1.1） 8)在PSN狀態頁面確認服務正常。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "character-stuck-in-map",
@@ -2885,7 +3343,10 @@
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環角色卡在地圖裡/牆壁裡怎麼辦？",
+    "answerTw": "1)開啟地圖傳送到最近的傳送點 2)使用快速旅行功能（如可用） 3)重新登入遊戲 4)如果戰鬥中卡住，等待被怪物擊敗後自動復活在安全區域 5)使用角色的位移技能嘗試脫離 6)以上方法都不行時，聯絡客服說明卡住的位置。建議遇到容易卡住的地形時截圖反饋給官方，幫助修復地圖碰撞問題。",
+    "categoryTw": "遊戲Bug"
   },
   {
     "id": "quest-npc-not-spawning",
@@ -2903,7 +3364,10 @@
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環任務NPC不出現/任務物品無法拾取怎麼辦？",
+    "answerTw": "1)離開當前區域後返回，NPC可能會重新整理 2)傳送至其他區域再傳送回來 3)重新登入遊戲 4)檢查是否缺少前置任務條件 5)確認背包是否已滿（部分任務物品無法拾取是因為背包滿了） 6)檢視任務日誌確認當前步驟 7)如果是已知Bug，檢視官方公告是否有修復時間表 8)向客服反饋，提供角色名、伺服器、任務名稱和問題描述。",
+    "categoryTw": "遊戲Bug"
   },
   {
     "id": "gacha-animation-stuck",
@@ -2922,7 +3386,10 @@
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環抽卡動畫卡住/結果不顯示怎麼辦？",
+    "answerTw": "1)等待30秒，有時是網路延遲導致結果載入慢 2)重啟遊戲後檢視抽卡歷史記錄確認是否抽卡成功 3)檢查網路連線 4)清除遊戲快取後重試 5)抽卡記錄在「祈願記錄」中可檢視，確認是否實際消耗了抽卡資源。如果資源被消耗但未獲得結果，截圖聯絡客服補償。",
+    "categoryTw": "遊戲Bug"
   },
   {
     "id": "sound-lost",
@@ -2940,7 +3407,10 @@
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環遊戲突然沒有聲音了怎麼解決？",
+    "answerTw": "1)檢查遊戲內音量設定是否被調到最低 2)檢查系統音量設定 3)檢查耳機/揚聲器連線 4)重啟遊戲 5)在遊戲設定中切換音訊輸出裝置 6)PC端：檢查音訊驅動是否正常，右鍵音量圖示→播放裝置確認預設裝置正確 7)如果只有部分音效丟失（如戰鬥音效），可能是遊戲Bug，等待更新修復。",
+    "categoryTw": "遊戲Bug"
   },
   {
     "id": "touch-not-responding",
@@ -2959,7 +3429,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機戰鬥中觸控失靈怎麼辦？",
+    "answerTw": "1)清理手機螢幕（油汙和水分影響觸控） 2)取下手機膜試試（部分防窺膜/鋼化膜影響觸控靈敏度） 3)重啟遊戲 4)在遊戲設定中重置按鍵佈局 5)關閉防誤觸模式 6)如果是特定技能按鈕失靈，嘗試調整按鈕位置和大小 7)更新遊戲到最新版本。部分安卓機型存在觸控取樣率過低的問題，建議使用遊戲模式。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "recharge-not-received",
@@ -2977,7 +3450,10 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環充值成功了但沒到賬怎麼辦？",
+    "answerTw": "1)等待最多24小時，部分支付渠道到賬有延遲 2)檢查支付訂單號確認扣款成功 3)退出遊戲重新登入檢視 4)檢查是否充到了正確的伺服器和賬號 5)如果24小時後仍未到賬，聯絡官方客服並提供：遊戲UID、充值時間、金額、訂單號、支付截圖。iOS使用者如申請退款可能導致賬號封禁，請謹慎操作。",
+    "categoryTw": "充值與賬號"
   },
   {
     "id": "double-recharge-reset",
@@ -2996,7 +3472,10 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環換裝置/重灌後首充雙倍消失了怎麼辦？",
+    "answerTw": "首充雙倍重置是已知的顯示Bug，實際充值記錄儲存在伺服器端。1)退出遊戲重新登入 2)檢查充值歷史記錄確認雙倍狀態 3)如果確實顯示異常，截圖反饋給客服 4)不要重複充值嘗試觸發雙倍，可能造成浪費。官方通常會在後續更新中修復首充顯示問題。",
+    "categoryTw": "充值與賬號"
   },
   {
     "id": "monthly-card-not-rewarded",
@@ -3014,7 +3493,10 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環月卡購買了但每日獎勵沒發放怎麼辦？",
+    "answerTw": "1)確認月卡是否啟用成功：進入商城→月卡頁面檢視狀態 2)每日獎勵需要在當天手動領取，不會自動發放到郵箱 3)檢查是否在正確的伺服器上 4)如果顯示已購買但無法領取，重新登入後重試 5)聯絡客服提供購買記錄和UID。注意月卡有效期為30天，過期後需要重新購買。",
+    "categoryTw": "充值與賬號"
   },
   {
     "id": "co-op-matchmaking-failed",
@@ -3032,7 +3514,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環聯機組隊匹配不到人怎麼辦？",
+    "answerTw": "1)確認已解鎖聯機功能（需要完成一定主線進度） 2)檢查世界等級設定，過高的世界等級匹配範圍較小 3)嘗試降低匹配條件 4)在聊天頻道主動發起組隊邀請 5)讓好友直接通過UID邀請你 6)避開凌晨等低活躍時段 7)檢查網路連線是否正常。部分副本需要先解鎖才能聯機。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "account-progress-lost",
@@ -3051,7 +3536,10 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環換裝置/換手機後賬號進度沒了怎麼辦？",
+    "answerTw": "1)確認使用的是同一個賬號登入（不是遊客賬號） 2)確認登入的是同一個伺服器 3)如果是第三方登入（微信/QQ/Apple），確保使用相同的第三方賬號 4)遊客賬號資料只儲存在本地，換裝置無法恢復 5)在登入介面選擇「已有賬號」而不是「註冊新賬號」 6)如確認賬號和伺服器正確但進度丟失，聯絡客服提供UID、伺服器、註冊資訊協助查詢。",
+    "categoryTw": "充值與賬號"
   },
   {
     "id": "auto-battle-not-working",
@@ -3070,7 +3558,10 @@
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環自動戰鬥AI不動/不放技能怎麼辦？",
+    "answerTw": "1)確認已開啟自動戰鬥模式 2)檢查角色的技能是否有足夠的能量/資源釋放 3)部分角色的自動AI行為邏輯有限，可能需要手動釋放關鍵技能 4)重新進入戰鬥觸發AI重置 5)在設定中檢查自動戰鬥相關選項 6)如果AI完全不動，退出戰鬥重新進入 7)這是已知問題，官方正在最佳化自動戰鬥AI，關注版本更新日誌。",
+    "categoryTw": "遊戲Bug"
   },
   {
     "id": "low-fps-town-area",
@@ -3089,7 +3580,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環城鎮場景幀率很低/卡頓怎麼最佳化？",
+    "answerTw": "城鎮場景由於NPC和建築較多，對GPU和CPU要求較高。最佳化建議：1)降低「場景複雜度」和「陰影質量」設定 2)關閉「體積霧」和「螢幕空間反射」 3)降低渲染解析度（90%或更低） 4)限制幀率上限 5)安裝到SSD減少載入卡頓 6)關閉後臺程式釋放CPU資源 7)GTX 1060等中低端顯示卡建議整體畫質設為「低」或「中」。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "nte-ai-art-controversy",
@@ -3110,7 +3604,11 @@
     "categoryZh": "游戏资讯",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環用了AI美術嗎？製作人是怎麼回應的？",
+    "answerTw": "異環在公測前後確實引發了AI美術爭議，部分玩家質疑角色立繪和場景美術使用了AI生成。製作人楊磊在公測前的專訪中公開承諾：後續核心資產和角色立繪堅決不用AI。相關話題曾登上熱搜，討論量接近百萬。這一承諾反映了玩家對遊戲美術原創性的高度關注。目前異環的美術主要由人工創作，玩家可以放心。",
+    "categoryTw": "遊戲資訊",
+    "seoTitleTw": "異環用了AI嗎？製作人承諾不用AI美術（2026最新回應）"
   },
   {
     "id": "how-to-get-modules",
@@ -3131,7 +3629,11 @@
     "categoryZh": "装备系统",
     "categoryEn": "Equipment",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環模組（Modules）怎麼獲取？模組系統是什麼？",
+    "answerTw": "模組（Modules）是異環中提升角色戰鬥力的重要裝備系統。模組主要通過以下途徑獲取：1）模組副本（異域）：消耗體力挑戰不同難度的模組副本，高難度掉落高品質模組；2）城市探索：在海瑟勞各區域探索時可以發現隱藏的模組寶箱；3）商店兌換：使用特定貨幣在商店中兌換模組；4）活動和任務獎勵：完成限時活動和主線任務可獲得高品質模組。模組有不同星級和主屬性，建議優先獲取與角色屬性匹配的模組套裝，以啟用套裝效果獲得額外加成。",
+    "categoryTw": "裝備系統",
+    "seoTitleTw": "異環模組怎麼獲取？模組副本、獲取途徑與強化攻略"
   },
   {
     "id": "hospital-location-guide",
@@ -3152,7 +3654,11 @@
     "categoryZh": "探索攻略",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環醫院在哪裡？醫院任務怎麼做？",
+    "answerTw": "異環中的醫院（維特海姆中央醫院）是海瑟勞城的重要地點之一，位於主城區北部。醫院是一個多層的室內探索區域，包含多個異象事件和隱藏任務。進入醫院需要先完成主線劇情第三章的相關任務解鎖。醫院內的主要內容包括：1）異象清理任務——清除醫院內各樓層的異常現象；2）隱藏檔案收集——在各個房間尋找散落的病歷檔案；3）Boss戰——地下層有一個強力異象Boss需要擊敗。建議角色等級達到30級以上再挑戰醫院高難度內容。",
+    "categoryTw": "探索攻略",
+    "seoTitleTw": "異環醫院在哪裡？維特海姆中央醫院任務攻略"
   },
   {
     "id": "headless-rider-guide",
@@ -3173,7 +3679,11 @@
     "categoryZh": "首领攻略",
     "categoryEn": "Boss Guides",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環無頭騎士是什麼？怎麼觸發和擊敗無頭騎士？",
+    "answerTw": "無頭騎士（Headless Rider）是異環中一個神秘的世界Boss/特殊事件，出現在海瑟勞城的特定區域。無頭騎士通常在夜間（遊戲內時間）出現在城市東部的舊城區附近。觸發條件：需要先完成主線第二章，然後在夜間探索舊城區時有機率遇到。無頭騎士的戰鬥特點：1）高機動性，會快速衝鋒和範圍攻擊；2）弱點是背部核心，需要利用閃避繞後輸出；3）推薦使用Anima屬性角色剋制。擊敗後掉落稀有模組和專屬成就。建議組隊挑戰，單人難度較高。",
+    "categoryTw": "首領攻略",
+    "seoTitleTw": "異環無頭騎士怎麼打？觸發條件、位置與打法攻略"
   },
   {
     "id": "day-off-arc-guide",
@@ -3194,7 +3704,11 @@
     "categoryZh": "玩法攻略",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環休息日（Day Off）是什麼？休息日事件怎麼做？",
+    "answerTw": "休息日（Day Off Arc）是異環中一個特色的角色互動系統。當角色的好感度達到一定等級後，可以觸發該角色的專屬休息日事件。在休息日中，你可以和角色一起在城市中自由活動，包括逛街、吃飯、拍照等互動。完成休息日事件可以獲得大量好感度經驗、專屬對話和限定獎勵。觸發條件：角色好感度達到3級以上，在角色介面檢視是否有可觸發的休息日事件。每個角色有獨特的休息日劇情，是深入瞭解角色背景故事的重要方式。",
+    "categoryTw": "玩法攻略",
+    "seoTitleTw": "異環休息日（Day Off）怎麼觸發？角色約會事件攻略"
   },
   {
     "id": "pink-paws-heist-guide",
@@ -3216,7 +3730,11 @@
     "categoryZh": "活动攻略",
     "categoryEn": "Events",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環粉爪劫案（Pink Paws Heist）怎麼做？攻略流程是什麼？",
+    "answerTw": "粉爪劫案（Pink Paws Heist）是異環中一個精彩的限時聯機活動任務。這個任務需要玩家組隊（2-4人）參與，在限定時間內完成一系列劫案挑戰。攻略流程：1）在活動面板中接取粉爪劫案任務；2）組隊進入專屬副本區域；3）按照提示完成潛入、破解和逃脫三個階段；4）每個階段有時間限制，需要在倒計時結束前完成目標。獎勵包括大量環石、限定頭像框和稀有模組。建議與好友組隊，溝通配合可以大幅提高通關效率。單人也可以匹配隨機玩家組隊。",
+    "categoryTw": "活動攻略",
+    "seoTitleTw": "異環粉爪劫案攻略：組隊流程、通關技巧與獎勵"
   },
   {
     "id": "lonely-player-guide",
@@ -3237,7 +3755,11 @@
     "categoryZh": "探索攻略",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環孤獨玩家（Lonely Player）是什麼？怎麼觸發？",
+    "answerTw": "孤獨玩家（Lonely Player）是異環中的一個隱藏NPC事件/彩蛋。在海瑟勞城的某些特定位置（如公園長椅、天台、地鐵站等），你會遇到一個獨處的NPC角色。與這個NPC多次對話後，會觸發一系列隱藏任務鏈，講述一個關於孤獨與陪伴的感人小故事。完成全部對話和任務後，可以獲得環石獎勵和隱藏成就。這個彩蛋致敬了都市生活中孤獨的人群，與異環的都市超自然主題相呼應。探索城市時多留意角落裡的NPC，可能會發現更多類似的隱藏故事。",
+    "categoryTw": "探索攻略",
+    "seoTitleTw": "異環孤獨玩家NPC事件攻略：觸發位置與隱藏任務鏈"
   },
   {
     "id": "ride-assault-guide",
@@ -3258,7 +3780,11 @@
     "categoryZh": "玩法攻略",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環突襲駕駛（Ride Assault）怎麼玩？攻略技巧",
+    "answerTw": "突襲駕駛（Ride Assault）是異環中結合載具駕駛和戰鬥的特色玩法。在這個模式中，玩家駕駛載具在高速行駛的同時與敵人戰鬥。攻略要點：1）選擇操控性好的載具（推薦跑車類），速度適中更容易操作；2）利用漂移和加速進行閃避和衝鋒攻擊；3）優先擊破路邊出現的弱點目標，可以獲得額外積分；4）注意載具耐久度，受損過重需要找維修點修復。Ride Assault的排名越高獎勵越好，高排名可以獲得稀有模組和大量環石。",
+    "categoryTw": "玩法攻略",
+    "seoTitleTw": "異環突襲駕駛（Ride Assault）攻略：載具選擇與高分技巧"
   },
   {
     "id": "reality-refuge-guide",
@@ -3279,7 +3805,11 @@
     "categoryZh": "玩法攻略",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環現實避難所（Reality Refuge）是什麼？怎麼解鎖？",
+    "answerTw": "現實避難所（Reality Refuge）是異環中的高難度挑戰副本。這是一個類似Roguelike的玩法模式，玩家需要在隨機生成的多層異象空間中不斷深入探索。每層會遇到不同型別的敵人和隨機事件，擊敗敵人可以獲得臨時增益。核心機制：1）進入需要消耗入場券（通過日常任務獲取）；2）層數越深難度越高但獎勵越好；3）角色在副本中陣亡會失去部分臨時增益但不影響正常養成進度；4）每5層有一個Boss關卡。推薦使用綜合戰力最強的隊伍，帶上治療和護盾角色保證續航。",
+    "categoryTw": "玩法攻略",
+    "seoTitleTw": "異環現實避難所攻略：解鎖條件、通關技巧與獎勵"
   },
   {
     "id": "raging-flames-guide",
@@ -3300,7 +3830,11 @@
     "categoryZh": "首领攻略",
     "categoryEn": "Boss Guides",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環烈焰（Raging Flames）怎麼打？烈焰副本攻略",
+    "answerTw": "烈焰（Raging Flames）是異環中的一個高難度火屬性挑戰副本。這個副本的特點是大量火屬性敵人，需要合理的屬性剋制配隊來應對。攻略要點：1）推薦使用水屬性或冰屬性角色進行剋制；2）Boss會週期性釋放全屏火焰AOE，需要在預警時閃避到安全區域；3）場地周圍有可以互動的滅火裝置，使用後可以短暫降低Boss的防禦；4）推薦帶一個護盾角色（如白藏或達芙迪爾）來提高生存率。掉落獎勵包括火屬性模組和高品質升級材料。",
+    "categoryTw": "首領攻略",
+    "seoTitleTw": "異環烈焰副本攻略：推薦配隊、Boss機制與掉落獎勵"
   },
   {
     "id": "who-made-nte",
@@ -3320,7 +3854,11 @@
     "categoryZh": "游戏资讯",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環是誰開發的？製作團隊是什麼來頭？",
+    "answerTw": "異環（Neverness to Everness）由完美世界（Perfect World Games）旗下的Hotta Studio開發。Hotta Studio也是熱門遊戲《幻塔》（Tower of Fantasy）的開發團隊。異環是他們繼幻塔之後的第二款大型專案，採用虛幻引擎5.7開發。製作人楊磊在公測前專訪中表示團隊以00後為主，保持邊想邊做的開發模式。從首曝到公測僅用了約20個月，開發節奏非常緊湊。異環的全球發行由完美世界負責。",
+    "categoryTw": "遊戲資訊",
+    "seoTitleTw": "異環是誰開發的？Hotta Studio與完美世界製作團隊介紹"
   },
   {
     "id": "next-banner-schedule",
@@ -3341,7 +3879,11 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環下一個卡池是什麼？未來限定角色預告",
+    "answerTw": "異環公測1.0版本的首個限定卡池角色是娜娜莉（Nanally）。根據官方公佈的資訊和版本節奏（每6周更新一個大版本），後續版本的限定角色尚未正式公佈。根據測試服資料推測，v1.1版本可能會推出新角色潯和保時捷聯動相關內容。建議關注官方社交媒體（Twitter/X @NTE_GL、Discord）獲取最新卡池預告。通常新版本前瞻直播會提前2周公佈下個卡池資訊。我們也會在nteguide.com第一時間更新卡池資訊。",
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環下個卡池是誰？v1.1版本限定角色預告與卡池時間表"
   },
   {
     "id": "hathor-team-comp",
@@ -3366,7 +3908,11 @@
       "nanally",
       "jiuyuan"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環哈索爾最佳配隊是什麼？哈索爾配隊推薦",
+    "answerTw": "哈索爾（Hathor）是異環中的S級輔助角色，擁有強力的團隊增益技能。最佳配隊推薦：配隊一（哈索爾核心隊）：哈索爾 + 娜娜莉 + 九原 + 早霧，哈索爾提供全隊增傷，娜娜莉主C輸出，九原聚怪控制，早霧增傷疊加。配隊二（雙輔助隊）：哈索爾 + 達芙迪爾 + 娜娜莉 + 主角，雙輔助提供高額增傷和護盾，適合高難副本。配隊三（通用輔助）：哈索爾可以加入任何需要增傷的隊伍，她的技能機制使她成為最泛用的輔助之一。碟片推薦選擇能量回復和增傷類套裝。",
+    "categoryTw": "配隊攻略",
+    "seoTitleTw": "異環哈索爾配隊推薦：最佳隊伍組合與碟片選擇"
   },
   {
     "id": "daffodil-team-comp",
@@ -3391,7 +3937,11 @@
       "nanally",
       "baicang"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環達芙迪爾配隊怎麼搭配？最佳隊伍推薦",
+    "answerTw": "達芙迪爾（Daffodil）是異環中的S級支援型角色，擅長提供護盾和增傷效果。最佳配隊推薦：配隊一（達芙迪爾保核隊）：達芙迪爾 + 娜娜莉 + 九原 + 早霧，達芙迪爾提供護盾保證娜娜莉的生存，九原聚怪，早霧增傷。配隊二（達芙迪爾+白藏雙盾隊）：達芙迪爾 + 白藏 + 安魂曲 + 主角，雙護盾極度穩定的生存流，適合高難度挑戰。配隊三（達芙迪爾開荒隊）：達芙迪爾 + 任意主C + A級輔助 + 主角，利用護盾和減傷效果讓開荒更安全。達芙迪爾幾乎百搭，適合任何需要提高容錯率的場合。",
+    "categoryTw": "配隊攻略",
+    "seoTitleTw": "異環達芙迪爾配隊推薦：護盾輔助最佳隊伍組合"
   },
   {
     "id": "upcoming-characters",
@@ -3412,7 +3962,11 @@
     "categoryZh": "游戏资讯",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環未來會出哪些新角色？v1.1版本新角色預告",
+    "answerTw": "異環公測1.0版本共有41位可玩角色（含16位S級角色）。\n\n未來版本計劃推出的新角色方面：\n1）潯——已在公測版本中有所鋪墊的神秘角色，預計v1.1版本正式上線；\n2）14位尚未公佈完整立繪的角色可能會在後續版本中逐步揭曉；\n3）保時捷聯動可能會帶來聯動專屬角色或皮膚。\n\n官方計劃每6周更新一個大版本，每個新版本預計會推出1-2位新角色。關注官方公告和nteguide.com獲取最新角色情報。",
+    "categoryTw": "遊戲資訊",
+    "seoTitleTw": "異環未來新角色預告：v1.1版本潯、聯動角色與更新計劃"
   },
   {
     "id": "safe-locations-guide",
@@ -3433,7 +3987,11 @@
     "categoryZh": "探索攻略",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環安全屋（Safe Locations）在哪裡？怎麼解鎖？",
+    "answerTw": "安全屋（Safe Locations）是異環中散佈在海瑟勞城各處的安全據點。解鎖安全屋後可以快速傳送、回覆隊伍狀態和儲存物品。解鎖方式：到達安全屋位置後與門前的終端互動即可解鎖。目前已知的固定安全屋位置包括：維特海姆塔一樓、火車站大廳、商業區中心廣場、舊城區入口、港口碼頭辦公室。探索時注意地圖上的安全屋圖示（盾牌標記），靠近後自動顯示解鎖提示。",
+    "categoryTw": "探索攻略",
+    "seoTitleTw": "異環安全屋位置大全：所有安全地點快速傳送點"
   },
   {
     "id": "camellia-society-guide",
@@ -3454,7 +4012,11 @@
     "categoryZh": "世界观",
     "categoryEn": "Lore",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環山茶花會（Camellia Society）是什麼？怎麼加入？",
+    "answerTw": "山茶花會（Camellia Society）是異環中的一個神秘NPC組織，在主線劇情中佔有重要地位。這是一個由都市中的異能者組成的秘密結社，與伊本古董店有著複雜的關係。玩家在推進主線至第四章後，會正式接觸山茶花會的相關劇情。加入山茶花會需要完成特定的主線任務和支線任務鏈，加入後可以解鎖專屬任務線和限定商店。",
+    "categoryTw": "世界觀",
+    "seoTitleTw": "異環山茶花會是什麼？加入條件與專屬任務攻略"
   },
   {
     "id": "lost-tales-guide",
@@ -3475,7 +4037,11 @@
     "categoryZh": "探索攻略",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環失落傳說（Lost Tales）怎麼觸發？隱藏故事攻略",
+    "answerTw": "失落傳說（Lost Tales）是異環中的隱藏故事任務系統。這些任務不會出現在常規任務列表中，需要玩家在探索時通過特定條件觸發。目前已知的失落傳說觸發方式：1）在特定地點使用拍照功能拍下隱藏的壁畫或雕像；2）與特定NPC進行多輪對話（同一個NPC對話3次以上）；3）在夜間前往特定區域探索；4）收集特定物品組合後帶到指定位置。完成失落傳說可以獲得環石、隱藏成就和獨特的劇情碎片，深入瞭解海瑟勞的隱藏曆史。",
+    "categoryTw": "探索攻略",
+    "seoTitleTw": "異環失落傳說觸發條件大全：隱藏故事任務攻略"
   },
   {
     "id": "nte-mods-guide",
@@ -3495,7 +4061,11 @@
     "categoryZh": "游戏资讯",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環支援MOD嗎？怎麼安裝MOD？",
+    "answerTw": "異環目前官方不支援MOD，安裝第三方MOD可能導致賬號封禁或遊戲無法正常執行。官方服務條款明確禁止修改遊戲檔案。不過社群中有一些UI美化工具和截圖輔助工具（不影響遊戲檔案），這些通常是安全的。建議玩家不要使用任何影響遊戲平衡或修改核心檔案的MOD。如果未來官方開放MOD支援，我們會在nteguide.com第一時間公佈。",
+    "categoryTw": "遊戲資訊",
+    "seoTitleTw": "異環能用MOD嗎？MOD安裝風險與官方態度說明"
   },
   {
     "id": "character-pixels-guide",
@@ -3516,7 +4086,11 @@
     "categoryZh": "玩法攻略",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環角色畫素畫（Character Pixels）怎麼獲取？",
+    "answerTw": "角色畫素畫（Character Pixels）是異環中的收藏品系統。每個角色都有對應的畫素風格頭像/立繪，可以通過以下方式獲取：1）角色好感度達到特定等級後解鎖；2）完成角色的專屬休息日（Day Off）事件；3）在扭蛋機中隨機獲得；4）特定活動和成就獎勵。收集角色畫素畫可以解鎖專屬展示櫃功能，在你的個人房屋中展示已收集的畫素角色。部分稀有畫素畫有收集進度獎勵。",
+    "categoryTw": "玩法攻略",
+    "seoTitleTw": "異環角色畫素畫獲取攻略：全形色Pixels收集指南"
   },
   {
     "id": "how-to-uninstall-nte",
@@ -3537,7 +4111,11 @@
     "categoryZh": "游戏资讯",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼解除安裝？PC和手機解除安裝方法",
+    "answerTw": "異環解除安裝方法：PC端：開啟控制面板→程式和功能→找到「Neverness to Everness」→右鍵解除安裝。或直接刪除遊戲安裝目錄（預設在C:\\Program Files\\NTE）。解除安裝後建議手動刪除殘留的配置檔案（位於C:\\Users\\使用者名稱\\AppData\\Local\\NTE）。手機端：Android — 設定→應用管理→找到NTE→解除安裝；iOS — 長按應用圖示→刪除App。PS5 — 設定→儲存→遊戲→選擇NTE→刪除。解除安裝不會影響賬號資料，重新安裝後可以恢復進度。",
+    "categoryTw": "遊戲資訊",
+    "seoTitleTw": "異環怎麼解除安裝？PC/手機/PS5完整解除安裝教程"
   },
   {
     "id": "song-of-the-whale-guide",
@@ -3559,7 +4137,11 @@
     "categoryZh": "探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環鯨歌（Song of the Whale）是什麼？怎麼完成？",
+    "answerTw": "鯨歌（Song of the Whale）是異環中一個重要的世界探索事件/活動。完成方法：1) 前往指定海域/湖泊區域，尋找鯨歌標記點；2) 靠近後觸發劇情動畫；3) 根據指引完成對應的探索任務，包括解謎和收集；4) 完成後獲得豐厚獎勵，包含星泉和信用點。建議等級達到30級以上再嘗試，部分割槽域需要解鎖對應主線進度。",
+    "categoryTw": "探索",
+    "seoTitleTw": "異環鯨歌活動攻略 — Song of the Whale完成方法與獎勵"
   },
   {
     "id": "oracle-stone-guide",
@@ -3581,7 +4163,11 @@
     "categoryZh": "材料获取",
     "categoryEn": "Materials",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環神諭石（Oracle Stone）是什麼？怎麼獲取和使用？",
+    "answerTw": "神諭石（Oracle Stone）是異環中的重要進階道具，主要用於角色覺醒和高階裝備強化。獲取途徑：1) 高難度副本/領域掉落；2) 世界BOSS擊殺獎勵；3) 活動限定兌換；4) 商店用高階貨幣購買。建議優先用於核心輸出角色的覺醒突破，因為覺醒帶來的屬性提升非常顯著。每週限量兌換的神諭石一定要買滿。",
+    "categoryTw": "材料獲取",
+    "seoTitleTw": "異環神諭石獲取攻略 — Oracle Stone用途與快速收集方法"
   },
   {
     "id": "nte-top-up-guide",
@@ -3603,7 +4189,11 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Top-up & Account",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼充值？國際服充值方法和氪金指南",
+    "answerTw": "異環國際服充值方法：1) PC端通過遊戲內商城直接購買，支援信用卡、PayPal等；2) 移動端通過App Store/Google Play內購；3) 第三方充值平臺（如CodaShop、SEAGM等）提供更多支付方式。充值建議：① 月卡（30天星泉合約）價效比最高，約2倍價值；② 戰鬥通行證適合活躍玩家；③ 首充雙倍一定要利用好，優先用在最需要的卡池。注意使用官方渠道充值，避免賬號風險。",
+    "categoryTw": "充值與賬號",
+    "seoTitleTw": "異環充值攻略 — 國際服氪金方法、首充獎勵與價效比分析"
   },
   {
     "id": "nte-witch-house-guide",
@@ -3625,7 +4215,11 @@
     "categoryZh": "探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環魔女之屋（Witch House）在哪裡？怎麼解鎖？",
+    "answerTw": "魔女之屋（Witch House）是異環中的一個隱藏探索地點，位於赫瑟雷區域外圍的隱蔽山谷中。解鎖條件：1) 完成主線劇情第3章；2) 在赫瑟雷探索時找到並閱讀「古老日記」道具；3) 前往標記位置與NPC對話觸發。魔女之屋內包含：多個寶箱、隱藏BOSS戰、獨特傢俱圖紙以及一段重要的世界觀劇情。建議帶上戰鬥角色進入，屋內隱藏BOSS難度較高。",
+    "categoryTw": "探索",
+    "seoTitleTw": "異環魔女之屋攻略 — Witch House位置、解鎖條件與隱藏內容"
   },
   {
     "id": "miles-apart-guide",
@@ -3647,7 +4241,11 @@
     "categoryZh": "剧情",
     "categoryEn": "Lore",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環千里之遙（Miles Apart）是什麼？怎麼完成？",
+    "answerTw": "千里之遙（Miles Apart）是異環中的一條支線任務線，講述兩個角色跨越距離的故事。觸發方式：在主城區域的公告板上接取，需要先完成第2章主線。任務流程分為3個階段：1) 收集3封信件散落在不同區域；2) 護送NPC穿越危險區域；3) 在指定地點完成最終對話。任務中選擇會影響結局和獎勵，推薦選擇「等待」獲得額外隱藏獎勵。完成後解鎖一個獨特的傢俱和成就。",
+    "categoryTw": "劇情",
+    "seoTitleTw": "異環千里之遙任務攻略 — Miles Apart完成方法與劇情解析"
   },
   {
     "id": "nte-berapa-gb",
@@ -3670,7 +4268,11 @@
     "categoryZh": "系统要求",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環遊戲多大？需要多少儲存空間？",
+    "answerTw": "異環（Neverness to Everness）各平臺儲存空間需求如下：PC端：安裝包約35GB，建議預留45GB以上空間（含後續更新）；手機端：Android/iOS安裝包約18-22GB，建議預留30GB空間；PS5端：約38GB。配置建議：PC最低配置需要GTX 1060 6GB + 16GB記憶體；推薦RTX 3060及以上。遊戲後續更新會持續增加體積，建議使用SSD獲得最佳載入體驗。手機端可以在設定中選擇「精簡資源包」減少佔用。",
+    "categoryTw": "系統要求",
+    "seoTitleTw": "異環遊戲大小 — PC/手機/PS各平臺儲存空間需求（2026最新）"
   },
   {
     "id": "nte-steam-platform",
@@ -3692,7 +4294,11 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環在Steam上可以玩嗎？Steam版和客戶端有什麼區別？",
+    "answerTw": "異環目前主要通過官方網站客戶端、Epic Games Store以及移動端應用商店發行。關於Steam版：1) 開發團隊Hotta Studio已確認計劃登陸Steam平臺，但具體日期尚未公佈；2) Steam版預期與現有版本賬號互通，資料可跨平臺同步；3) 不同平臺客戶端的遊戲內容完全一致，區別主要在更新速度和社群功能（Steam創意工坊可能支援Mod）。建議關注官方社交媒體獲取Steam版最新訊息。",
+    "categoryTw": "平臺",
+    "seoTitleTw": "異環Steam版上線了嗎？Steam與獨立客戶端區別對比"
   },
   {
     "id": "nte-collect-furniture-guide",
@@ -3714,7 +4320,11 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼收集傢俱？傢俱獲取途徑大全",
+    "answerTw": "異環中傢俱獲取途徑豐富：1) 探索寶箱：在開放世界各處寶箱中隨機獲得傢俱；2) 任務獎勵：完成支線任務和隱藏任務獲得獨特傢俱；3) 活動限定：參與限時活動兌換限定傢俱；4) NPC購買：部分NPC商店出售傢俱圖紙；5) 製作系統：使用收集的材料在家園系統中製作傢俱；6) 魔女之屋等隱藏地點有特殊傢俱圖紙。建議優先收集增加好感度加成的傢俱，部分傢俱組合可以啟用套裝效果。",
+    "categoryTw": "玩法",
+    "seoTitleTw": "異環傢俱收集攻略 — 全傢俱獲取途徑與家園裝飾指南"
   },
   {
     "id": "nte-deep-blue-sorrow-guide",
@@ -3736,7 +4346,11 @@
     "categoryZh": "探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環深藍哀傷（Deep Blue Sorrow）是什麼？怎麼完成？",
+    "answerTw": "深藍哀傷（Deep Blue Sorrow）是異環中一個重要的世界探索事件，與深海/水下區域相關。\n\n觸發條件：\n1) 完成主線劇情第4章後解鎖對應海域；\n2) 在深海區域探索時發現「深藍水晶」道具；\n3) 前往指定水下洞穴入口觸發劇情。\n\n完成流程：\n1) 進入水下洞穴，沿路線收集3個深藍碎片；\n2) 解開水紋機關謎題開啟通道；\n3) 擊敗守護BOSS「深淵守望者」（推薦等級35+，冰屬性角色有效）；\n4) 完成最終劇情對話獲得獎勵。\n\n獎勵包含：星泉×200、稀有碟片圖紙、深藍稱號和成就。",
+    "categoryTw": "探索",
+    "seoTitleTw": "異環深藍哀傷攻略 — Deep Blue Sorrow完成方法與獎勵"
   },
   {
     "id": "nte-patch-notes-guide",
@@ -3758,7 +4372,11 @@
     "categoryZh": "游戏资讯",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環最新更新公告在哪看？版本補丁說明",
+    "answerTw": "異環版本更新公告檢視方式：\n\n1) 官方渠道：\n- 遊戲內公告欄（登入後在主介面檢視）\n- 官方Twitter/X賬號 @NTE_EN\n- 官方Discord伺服器 #announcements 頻道\n- 官網 nteguide.com 每次更新後同步整理\n\n2) 版本更新節奏：\n- 大版本更新：每6週一次，包含新角色、新地圖區域、新活動\n- 小版本熱修復：隨時可能釋出，修復Bug和平衡調整\n- 活動版本：伴隨限時活動的小更新\n\n3) v1.0公測版本主要內容：\n- 41位可玩角色（16位S級）\n- 開放世界地圖首章\n- 抽卡系統、碟片系統、家園系統\n- 多個限時活動\n\n建議關注官方社交媒體第一時間獲取更新資訊。",
+    "categoryTw": "遊戲資訊",
+    "seoTitleTw": "異環版本更新公告彙總 — 最新補丁說明與版本歷史"
   },
   {
     "id": "nte-anomaly-school-guide",
@@ -3780,7 +4398,11 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環異象學園（Anomaly School）是什麼？怎麼解鎖？",
+    "answerTw": "異象學園（Anomaly School）是異環中的一個特殊挑戰副本/玩法區域。\n\n解鎖條件：\n1) 完成主線劇情第2章；\n2) 角色等級達到20級以上；\n3) 在赫瑟雷城找到異象學園入口NPC對話觸發\n\n玩法機制：\n- 異象學園內會定期重新整理不同型別的異象挑戰\n- 每個挑戰有獨特的機制和規則限制（如限時、屬性剋制等）\n- 完成挑戰獲得異象積分，積分可兌換稀有道具\n- 周挑戰重新整理，每週有最高積分排行榜\n\n獎勵：\n- 星泉、信用點等基礎貨幣\n- 稀有碟片和強化材料\n- 限定稱號和裝飾道具\n- 積分商店專屬兌換物品\n\n建議組隊挑戰高難度關卡，部分關卡需要特定屬性角色才能高效通關。",
+    "categoryTw": "玩法",
+    "seoTitleTw": "異環異象學園攻略 — Anomaly School解鎖條件與玩法詳解"
   },
   {
     "id": "nte-fons-farming-guide",
@@ -3802,7 +4424,11 @@
     "categoryZh": "货币",
     "categoryEn": "Currency",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環星泉（Fons）怎麼快速刷？最佳刷取攻略",
+    "answerTw": "星泉（Fons）是異環中的高階抽卡貨幣，快速刷取方法：\n\n每日收益（約160-200星泉）：\n1) 完成每日委託任務 — 約60星泉/天\n2) 刷滿每日體力對應副本 — 材料可省下購買星泉的資源\n3) 每日簽到獎勵 — 按週期累計\n4) 探索寶箱（每天可開3-5個新發現的寶箱）\n\n每週收益（約400-600星泉）：\n1) 周常任務全部完成 — 約200星泉/周\n2) 深淵/高難副本首通獎勵 — 一次性大量星泉\n3) 異象學園周挑戰積分兌換\n\n一次性收益：\n1) 主線劇情推進獎勵 — 每章約100-200星泉\n2) 成就係統 — 全成就約2000+星泉\n3) 角色好感度等級獎勵\n4) 地圖探索度獎勵\n\n效率排名：每日委託 > 周常任務 > 主線推進 > 探索寶箱 > 成就",
+    "categoryTw": "貨幣",
+    "seoTitleTw": "異環星泉刷取攻略 — Fons快速獲取方法與效率對比"
   },
   {
     "id": "nte-console-platforms",
@@ -3827,7 +4453,11 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環支援PS4/PS5/Xbox/Switch嗎？主機平臺一覽",
+    "answerTw": "異環（NTE）目前支援的平臺及未來計劃：\n\n已上線平臺：\n- PC（Windows）— 官方客戶端 + Epic Games Store\n- iOS — App Store\n- Android — Google Play / 各應用商店\n\n已確認即將上線：\n- PS5 — 已確認開發中，預計2026年內上線\n- PS4 — 尚未明確確認，但PS5版上線後大機率相容\n\n計劃中但未確認：\n- Xbox Series X|S — 官方表示正在評估\n- Nintendo Switch — 硬體效能限制，可能性較低\n- Steam — 已確認計劃登陸，日期待定\n- Linux — 官方暫無明確計劃，可通過Proton相容層嘗試執行PC版\n\n跨平臺互通：\n- PC和移動端已實現賬號互通和資料同步\n- 主機版預期也支援跨平臺存檔同步\n- 所有平臺遊戲內容完全一致\n\n手柄支援：PC版已支援Xbox和PS手柄，移動端支援藍牙手柄連線。",
+    "categoryTw": "平臺",
+    "seoTitleTw": "異環主機平臺支援 — PS4/PS5/Xbox/Switch上架時間與跨平臺互通"
   },
   {
     "id": "nte-doomscroll-anomaly-guide",
@@ -3849,7 +4479,11 @@
     "categoryZh": "探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環末日刷屏（Doomscroll）異象是什麼？怎麼觸發？",
+    "answerTw": "末日刷屏（Doomscroll）是異環中的一種特殊異象事件，屬於隱藏探索內容。\n\n觸發條件：\n1) 在城市區域的特定地點（通常在電子螢幕/廣告牌附近）觸發；\n2) 需要先完成主線第3章；\n3) 在夜晚時段（遊戲內時間）更容易觸發\n\n異象特點：\n- 周圍的電子螢幕會顯示異常的滾動資訊\n- 需要在限定時間內找到3個被影響的螢幕並互動\n- 每個螢幕互動後會解鎖一段隱藏資訊\n- 收集全部資訊後觸發BOSS戰或解謎\n\n獎勵：\n- 星泉×100\n- 獨特稱號「資訊過載」\n- 隱藏成就\n- 稀有傢俱圖紙\n\n建議在探索城市區域時多留意電子螢幕的變化，夜晚時段定期巡查可能觸發的地點。",
+    "categoryTw": "探索",
+    "seoTitleTw": "異環末日刷屏異象攻略 — Doomscroll Anomaly觸發與完成方法"
   },
   {
     "id": "nte-vehicles-cars-guide",
@@ -3871,7 +4505,11 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼獲得車輛？所有載具獲取方法",
+    "answerTw": "異環中載具（車輛）獲取途徑豐富：\n\n免費獲取：\n1) 主線劇情第1章自動獲得初始車輛\n2) 完成特定支線任務解鎖特殊載具\n3) 探索隱藏車庫發現免費車輛\n\n商店購買：\n1) 使用信用點在車輛商店購買基礎款\n2) 使用星泉購買高階載具（外觀更炫酷，速度更快）\n3) 城市各區域有不同車輛經銷商\n\n活動限定：\n1) 限時活動排名獎勵\n2) 聯動活動專屬車輛（如保時捷聯動）\n3) 賽季通行證獎勵載具\n\n特殊獲取：\n1) 收集散落零件組裝車輛\n2) 完成駕駛挑戰解鎖\n3) NPC好感度獎勵\n\n車輛分類：\n- 轎車：速度快，適合長途旅行\n- SUV：越野效能好，適合山區探索\n- 摩托車：靈活性高，適合城市穿梭\n- 特殊載具：聯動限定、活動限定等",
+    "categoryTw": "玩法",
+    "seoTitleTw": "異環載具獲取攻略 — 全車輛解鎖條件與收集指南"
   },
   {
     "id": "material-farming-priority",
@@ -3892,7 +4530,10 @@
       "lost-whispers",
       "confessional-flower-seed",
       "iron-appleseed"
-    ]
+    ],
+    "questionTw": "異環材料刷取優先順序是什麼？先刷什麼材料？",
+    "answerTw": "材料刷取優先順序：①主C角色突破材料（異常體掉落的4系材料）> ②Boss掉落材料（每週限次，優先刷主C所需Boss）> ③弧光突破材料（氣泡罐工廠）> ④經驗材料（Houdinii的魔術舞臺）。新手前期集中資源養一個主C到滿級，不要分散投資。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "cosmos-blossom-team-guide",
@@ -3913,7 +4554,10 @@
       "zero-male",
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環光耀坼綻隊怎麼玩？潯配隊攻略",
+    "answerTw": "光耀坼綻爆發隊是1.0下半最強隊伍之一：零（主C）+ 薄荷（觸發坼綻反應）+ 潯（治療+技能復刻）。核心玩法：零持續輸出光屬性傷害，薄荷觸發坼綻反應，潯提供治療並復刻隊友技能增加輸出視窗。潯推薦弧盤：失落光芒4件套，主詞條攻擊力%/光傷/暴擊率。",
+    "categoryTw": "配隊推薦"
   },
   {
     "id": "best-free-characters",
@@ -3935,7 +4579,10 @@
       "zero-male",
       "edgar"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環免費角色有哪些？哪些免費角色值得培養？",
+    "answerTw": "必練免費角色：①小吱（S級靈屬性主C，Eibon古董店免費滿命6+5，S+強度）②薄荷（S級治療，新手自選）③零（主角，環合反應觸發器）。可選：④埃德加（A級聚怪）。小吱是零氪最強主C，強度不輸抽卡S角，優先培養。",
+    "categoryTw": "角色培養"
   },
   {
     "id": "bubble-can-factory-guide",
@@ -3958,7 +4605,10 @@
       "liquid-dream-trial-kit",
       "flavorless-cold-dessert",
       "beginner-drama-core"
-    ]
+    ],
+    "questionTw": "異環氣泡罐工廠怎麼打？弧光突破材料獲取",
+    "answerTw": "氣泡罐工廠是獲取弧光突破材料的主要途徑，每天可挑戰2-3次。產出5個系列的材料：蘋果籽（Iron/Silver/Golden Appleseed）、Beaty/Versey/Harmony、液態夢（Trial/Travel/Can）、冷甜點（Flavorless/Plain/Special）、戲劇核心（Beginner/Master/Collector）。建議先刷主C弧光所需系列的低階材料，再通過合成升級為高階。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "anomaly-pilgrimage-guide",
@@ -3978,7 +4628,10 @@
     "relatedMaterials": [
       "good-boy-stamp",
       "dress-sleeves-of-vanity"
-    ]
+    ],
+    "questionTw": "異環異常體朝聖怎麼打？異能材料獲取攻略",
+    "answerTw": "異常體朝聖是獲取異能材料（Esper Materials）的途徑，目前有2個Boss：①Morphix（掉落 Good Boy Stamp / The Good Boy Fluff / Dandelion Pass）②The Never-ending Arachne（掉落 Dress Sleeves of Vanity / Crown Called Nobility / Scepter Called Prestige）。這些材料用於提升角色的異能技能等級，建議優先刷取主C所需的Boss材料。3個稀有度等級分別對應3/4/5星。",
+    "categoryTw": "材料獲取"
   },
   {
     "id": "hotori-character-guide",
@@ -4000,7 +4653,11 @@
     "categoryZh": "角色",
     "categoryEn": "Characters",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環星鳥（Hotori）是誰？角色介紹與技能詳解",
+    "answerTw": "星鳥（Hotori）是異環公測版本中備受關注的一位角色，以其獨特的戰鬥風格和精美的角色設計受到玩家喜愛。\n\n角色定位：\n- 稀有度：S級\n- 屬性：待確認（預計為咒術屬性）\n- 武器型別：待確認\n- 定位：輸出型角色，具備較強的單體和群體傷害能力\n\n技能特點：\n- 普通攻擊：多段連擊，最後一段附帶屬性效果\n- 核心技能：釋放後進入強化狀態，攻擊力和攻速大幅提升\n- 終結技：大範圍屬性爆發，對周圍敵人造成高額傷害\n- 被動：隊友觸發特定條件時獲得額外增益\n\n獲取方式：\n可通過限定卡池抽取獲得。建議關注官方公告瞭解卡池開放時間。\n\n推薦碟片搭配：根據屬性選擇對應4件套，暴擊率和暴擊傷害優先。\n\n推薦配隊：與增傷輔助（如早霧）和治療（如九原/埃德嘉）搭配效果最佳。",
+    "categoryTw": "角色",
+    "seoTitleTw": "異環星鳥Hotori角色攻略 — 技能、配裝與配隊推薦"
   },
   {
     "id": "nte-mammon-guide",
@@ -4022,7 +4679,11 @@
     "categoryZh": "Boss",
     "categoryEn": "Boss",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環瑪門（Mammon）是什麼？Boss攻略與獎勵",
+    "answerTw": "瑪門（Mammon）是異環中的一個強力世界Boss，以貪婪之神的形象出現，是獲取高階材料的重要來源。\n\nBoss位置：\n在開放世界的商業區/金融區域附近重新整理，屬於週期性世界Boss。\n\n技能機制：\n1) 金幣風暴 — 向周圍釋放大量金幣彈幕，造成範圍傷害\n2) 貪婪之手 — 抓取最近的角色並造成持續傷害，需要隊友攻擊打破\n3) 金庫屏障 — 生成護盾吸收傷害，需要使用特定屬性攻擊快速破盾\n4) 貪慾爆發（低血量觸發）— 全屏大招，傷害極高，建議在觸發前集火擊殺\n\n推薦配隊：\n- 主C選擇高爆發角色（娜娜莉/零）\n- 搭配破盾工具人（對應剋制屬性角色）\n- 帶上治療/護盾角色保生存\n\n掉落獎勵：\n- 神諭石（Oracle Stone）\n- 大量信用點\n- 稀有碟片\n- 限定稱號「貪婪征服者」\n\n建議等級40+挑戰，每日可挑戰1次獲取獎勵。",
+    "categoryTw": "Boss",
+    "seoTitleTw": "異環瑪門Boss攻略 — Mammon打法技巧與掉落獎勵"
   },
   {
     "id": "nte-akane-character-guide",
@@ -4043,7 +4704,11 @@
     "categoryZh": "角色",
     "categoryEn": "Characters",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環赤音（Akane）是誰？角色介紹與獲取方式",
+    "answerTw": "赤音（Akane）是異環中的一位可玩角色，以其獨特的戰鬥風格和角色設計受到玩家關注。\n\n角色資訊：\n- 定位：輸出/副C\n- 屬性：待確認\n- 特點：高機動性，擅長快速切換和連招輸出\n\n技能概述：\n- 普通攻擊具有多段連擊效果\n- 核心技能可以快速位移並對路徑上的敵人造成傷害\n- 終結技為高傷害單體爆發\n- 被動技能在切換角色時提供額外增益\n\n獲取方式：\n通過常駐卡池或限定卡池抽取獲得。關注官方公告瞭解具體卡池安排。\n\n推薦碟片：\n根據屬性選擇對應4件套，副詞條優先暴擊率和攻擊力%。\n\n推薦配隊：\n適合作為快切隊伍中的副C，配合主C（如娜娜莉）和增傷輔助使用。",
+    "categoryTw": "角色",
+    "seoTitleTw": "異環赤音Akane角色攻略 — 技能、定位與獲取方法"
   },
   {
     "id": "nte-city-stamina-guide",
@@ -4065,7 +4730,11 @@
     "categoryZh": "系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環體力（City Stamina）怎麼恢復？體力系統詳解",
+    "answerTw": "異環的體力系統（City Stamina）是限制每日遊戲進度的核心機制，合理規劃體力使用非常重要。\n\n體力恢復方式：\n1) 自然恢復：每8分鐘恢復1點體力，每天自然恢復約180點\n2) 體力藥水：使用體力恢復藥劑，可通過活動、任務、商店獲取\n3) 每日簽到：部分簽到獎勵包含體力藥水\n4) 每日固定時間恢復：通常在12:00和18:00各贈送60體力\n5) 升級回覆：角色等級提升時恢復部分體力\n\n體力使用優先順序：\n1) 每日材料副本（優先刷當前最缺的材料）\n2) 經驗副本（角色升級材料）\n3) 碟片副本（裝備強化材料）\n4) 信用點副本（缺錢時再刷）\n\n省錢技巧：\n- 體力藥水儘量留到高等級副本再用，收益更大\n- 不要讓體力溢位浪費，溢位的體力不會繼續累積\n- 週末雙倍掉落活動優先投入體力\n\n體力上限隨冒險等級提升而增加，初始約120點，滿級約180點。",
+    "categoryTw": "系統",
+    "seoTitleTw": "異環體力系統攻略 — City Stamina恢復方法與最佳使用規劃"
   },
   {
     "id": "nte-elements-attributes-guide",
@@ -4088,7 +4757,11 @@
     "categoryZh": "战斗",
     "categoryEn": "Combat",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有哪些屬性/元素？屬性剋制系統詳解",
+    "answerTw": "異環中存在多種屬性/元素系統，屬性剋制和搭配是戰鬥的核心機制之一。\n\n主要屬性型別：\n1) 創生（Anima）— 生命與創造之力，剋制虛無屬性\n2) 咒術（Incantation）— 神秘魔法力量，剋制物理屬性\n3) 燃灼（Burn）— 火焰屬性，剋制冰霜屬性\n4) 冰霜（Frost）— 冰凍屬性，剋制燃灼\n5) 物理（Physical）— 純物理傷害，剋制咒術\n6) 虛無（Void）— 暗影力量，剋制創生\n\n屬性剋制效果：\n- 剋制屬性對被剋制屬性造成額外30%傷害\n- 被剋制屬性對剋制方減少20%傷害\n- 同屬性角色在同一隊伍中可觸發屬性共鳴\n\n屬性共鳴效果：\n- 2名同屬性角色：屬性傷害+15%\n- 3名同屬性角色：額外獲得團隊增益效果\n\n組隊建議：\n- 隊伍中至少包含2名同屬性角色觸發共鳴\n- 根據敵人屬性靈活調整剋制角色\n- 不要全隊同一屬性，保持靈活性應對不同敵人",
+    "categoryTw": "戰鬥",
+    "seoTitleTw": "異環屬性元素系統攻略 — 全屬性剋制關係與機制詳解"
   },
   {
     "id": "nte-mahjong-guide",
@@ -4110,7 +4783,11 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環麻將怎麼玩？麻將小遊戲規則與技巧",
+    "answerTw": "異環中內建了麻將小遊戲，是探索休閒內容的一部分。\n\n解鎖條件：\n完成主線第2章後，在赫瑟雷城的娛樂區域找到麻將桌NPC即可解鎖。\n\n玩法規則：\n- 採用簡化版日式麻將規則\n- 每局4人對戰（1名玩家 + 3名NPC）\n- 支援多種胡牌方式：立直、自摸、榮和等\n- 遊戲內有簡化提示系統，新手也能輕鬆上手\n\n技巧建議：\n1) 優先整理手牌，留好搭子\n2) 注意觀察對手的棄牌判斷安全牌\n3) 善用提示功能學習胡牌牌型\n4) 多練習積累經驗，NPC難度隨等級遞增\n\n獎勵：\n- 勝利獲得信用點和好感度道具\n- 連勝有額外獎勵\n- 特殊胡牌方式解鎖隱藏成就\n- 麻將排名榜有賽季獎勵",
+    "categoryTw": "玩法",
+    "seoTitleTw": "異環麻將小遊戲攻略 — 玩法規則、技巧與獎勵"
   },
   {
     "id": "nte-puppet-piano-guide",
@@ -4132,7 +4809,11 @@
     "categoryZh": "探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環鋼琴人偶（Puppet Piano）事件怎麼觸發和完成？",
+    "answerTw": "鋼琴人偶（Puppet Piano）是異環中一個隱藏的解謎事件，位於城市的廢棄劇院區域。\n\n觸發條件：\n1) 完成主線第3章\n2) 在夜晚時段（遊戲內時間）前往廢棄劇院\n3) 在劇院舞臺中央找到鋼琴人偶並互動\n\n解謎流程：\n1) 鋼琴人偶會演奏一段旋律，記住音符順序\n2) 在旁邊的鋼琴上按照相同順序彈奏復現旋律\n3) 旋律共3輪，每輪音符數量遞增（3→5→7個音符）\n4) 成功復現所有旋律後觸發劇情\n\n技巧：\n- 可以使用手機錄屏記錄旋律，方便回放\n- 遊戲內有音符提示標記，注意觀察\n- 失敗後可以重新嘗試，沒有次數限制\n\n獎勵：\n- 稀有傢俱「人偶鋼琴」\n- 成就「靈魂之音」\n- 信用點×5000\n- 隱藏劇情線索",
+    "categoryTw": "探索",
+    "seoTitleTw": "異環鋼琴人偶事件攻略 — Puppet Piano觸發與完成方法"
   },
   {
     "id": "nte-whose-leak-guide",
@@ -4154,7 +4835,11 @@
     "categoryZh": "探索",
     "categoryEn": "Exploration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環Whose Leak Is This任務怎麼完成？攻略詳解",
+    "answerTw": "Whose Leak Is This（誰的洩露）是異環中一個有趣的隱藏支線任務。\n\n觸發位置：\n在赫瑟雷城的地下水道區域，找到一個正在漏水的管道NPC，與其對話觸發任務。\n\n任務流程：\n1) 接受任務後獲得「破損管道地圖」\n2) 根據地圖提示前往3個漏水點：\n   - 城市東區排水口\n   - 商業區地下通道\n   - 住宅區水塔底部\n3) 在每個漏水點完成小型解謎（修復管道）\n4) 收集3個「密封零件」\n5) 返回NPC處提交零件完成任務\n\n解謎技巧：\n- 每個漏水點是一個旋轉管道的小遊戲\n- 將管道旋轉連線使水流通過即可\n- 限時3分鐘完成每個謎題\n\n獎勵：\n- 星泉×100\n- 信用點×3000\n- 稀有稱號「水管工」\n- 隱藏成就\n- 解鎖後續相關任務線",
+    "categoryTw": "探索",
+    "seoTitleTw": "異環Whose Leak Is This任務攻略 — 觸發、流程與獎勵"
   },
   {
     "id": "nte-change-gender-guide",
@@ -4176,7 +4861,11 @@
     "categoryZh": "系统",
     "categoryEn": "System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環可以換性別嗎？主角性別切換方法",
+    "answerTw": "異環支援主角性別切換功能，可以隨時在男性和女性主角之間切換。\n\n切換方法：\n1) 開啟遊戲主選單\n2) 進入「角色」或「個人資訊」頁面\n3) 找到「外觀設定」或「切換主角」選項\n4) 選擇想要切換的性別並確認\n\n注意事項：\n- 性別切換是免費的，沒有次數限制\n- 切換後主角的外觀和部分語音會改變\n- 不影響任何遊戲進度、等級、裝備和背包物品\n- 部分劇情動畫中主角形象會自動更新\n- 切換有短暫的載入時間\n\n常見問題：\nQ：切換性別會丟失進度嗎？\nA：不會，所有進度和物品完全保留。\n\nQ：可以給主角自定義外觀嗎？\nA：目前主角外觀由性別決定，暫不支援更深度的自定義。\n\nQ：劇情會因性別不同而變化嗎？\nA：主線劇情基本一致，部分NPC對話可能有細微差異。",
+    "categoryTw": "系統",
+    "seoTitleTw": "異環主角性別切換方法 — 換性別操作步驟與注意事項"
   },
   {
     "id": "nte-voice-actors-guide",
@@ -4198,7 +4887,11 @@
     "categoryZh": "角色",
     "categoryEn": "Characters",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環全形色CV聲優列表 — 日配/中配/英配一覽",
+    "answerTw": "異環（Neverness to Everness）支援多語言配音，以下是部分角色的聲優資訊：\n\n中文配音（中配）：\n- 娜娜莉：待官方確認\n- 零：待官方確認\n- 哈索爾：待官方確認\n- 達芙迪爾：待官方確認\n- 咲裡：待官方確認\n\n日文配音（日配）：\n- 部分角色已確認日配聲優\n- 國際服版本包含完整日配支援\n\n英文配音（英配）：\n- 國際服提供完整英配\n- Brianna Knickerbocker 參與了部分角色配音\n\n如何切換配音：\n1) 進入遊戲設定（Settings）\n2) 找到「語音」（Voice/Audio）選項\n3) 在語言選項中切換中/日/英配音\n4) 切換後立即生效，無需重啟遊戲\n\n配音語言可在設定中隨時免費切換，不受伺服器或地區限制。關注官方社交媒體獲取最新聲優公佈資訊。",
+    "categoryTw": "角色",
+    "seoTitleTw": "異環全形色聲優CV列表 — 日文/中文/英文配音演員一覽"
   },
   {
     "id": "character-tier-list",
@@ -4225,7 +4918,10 @@
       "daffodil",
       "chiz"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環角色強度榜怎麼排？誰是最強角色？",
+    "answerTw": "基於1.0版本初期資料，異環角色強度榜如下：\n\n**SS級（版本答案）**：娜娜莉（Nanally）— 開服最強限S主C，數值獨一檔；九原（Jiuyuan）— 常駐S首選自選，超大範圍聚怪+客串奶媽。\n\n**S+級（極力推薦）**：零/主角（Esper Zero）— 瞬環合機制不可替代，免費滿配；白藏（Baicang）— 攻防一體，但繫結達芙迪爾；穗鳥（Hotori）— 唯一S級輔助，聚怪+加攻；小吱（Xiaozhi）— 都市大亨免費6+5滿配。\n\n**A級（強力角色）**：咲裡、達芙迪爾、赤子、哈尼爾、阿德勒、黑鳥、明虎、赤音、伊利卡等。\n\n**B級（可用但非首選）**：法蒂亞、薄荷、哈索爾、翳、奧蕾莉亞、埃德加。\n\n新手最關鍵的建議：常駐自選選九原，免費肝小吱滿配，有娜娜莉卡必抽。詳細配隊建議和每個角色的分析請檢視我們的完整Tier List攻略。",
+    "categoryTw": "角色"
   },
   {
     "id": "gacha-rates-explained",
@@ -4243,7 +4939,10 @@
     "categoryZh": "抽卡",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環抽卡機率是多少？S級出貨率多高？",
+    "answerTw": "異環的抽卡機率如下：\n\n**基礎機率**：\n- S級角色：基礎機率0.6%，含保底綜合機率約2.2%\n- A級角色：基礎機率5.1%\n- B級角色：基礎機率94.3%\n\n**保底機制**：\n- 限定池/常駐池：90抽硬保底出S級\n- 平均約53.5抽出S級（社群統計資料）\n- **無50/50機制**：抽到S級必定是當期限定角色，不存在歪到常駐的情況\n- 武器池：60抽/80抽雙保底\n- 新手池：20抽自選S級（折扣抽數）\n\n**關鍵優勢**：異環最大的抽卡優勢是沒有50/50機制。不像其他遊戲中抽到SSR有一半機率是常駐角色，異環每次出金都是你想要的限定角色，這讓抽卡體驗遠好於同類遊戲。",
+    "categoryTw": "抽卡"
   },
   {
     "id": "romance-system-guide",
@@ -4261,7 +4960,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有戀愛/浪漫系統嗎？可以和角色談戀愛嗎？",
+    "answerTw": "是的，異環1.0版本中**確認存在浪漫（Romance）系統**。根據Game8等權威遊戲媒體的確認，玩家可以與遊戲中的某些角色發展更深層次的關係。\n\n**浪漫系統可能包含的內容**：\n- 角色好感度/親密度提升\n- 專屬劇情場景解鎖\n- 特殊互動事件\n- 限定獎勵獲取\n\n目前浪漫系統的具體細節（如可攻略角色名單、好感度提升方式、結局數量等）還在持續探索中。建議多與NPC對話、完成角色相關支線任務來觸發浪漫事件。\n\n需要注意的是，浪漫系統是遊戲的輔助玩法，不會影響核心戰鬥體驗，但能為遊戲增添更多沉浸感和長期遊玩動力。",
+    "categoryTw": "玩法"
   },
   {
     "id": "blue-flame-bike-guide",
@@ -4279,7 +4981,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環藍色火焰摩托車怎麼獲得？",
+    "answerTw": "藍色火焰摩托車是異環中的一款特殊載具，外觀炫酷，帶有藍色火焰特效。\n\n**獲取方式**：\n- 通過都市大亨（City Tycoon）系統積累資金後購買\n- 部分特殊載具可能通過限時活動獲取\n\n**載具系統說明**：\n異環擁有完整的載具駕駛系統，目前遊戲中有16款可獲取的載具。載具分為轎車/SUV、跑車/運動型、摩托車和特殊載具四大類。\n\n**載具獲取途徑**：\n1. 都市大亨系統 — 經營賺取資金購買\n2. 活動獎勵 — 限時活動贈送限定載具\n3. 商店購買 — 使用遊戲內貨幣\n4. 任務獲取 — 完成特定任務解鎖\n\n藍色火焰摩托車因為其獨特的火焰特效和酷炫外觀，是很多玩家的目標載具。持續參與都市大亨系統是獲取它的主要方式。",
+    "categoryTw": "玩法"
   },
   {
     "id": "auction-house-guide",
@@ -4297,7 +5002,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有拍賣行嗎？玩家之間可以交易嗎？",
+    "answerTw": "異環目前的版本中**沒有傳統的玩家間交易或拍賣行系統**。遊戲的主要經濟系統圍繞以下內容展開：\n\n**現有經濟系統**：\n1. **商店系統** — 使用遊戲內貨幣（甲硬幣、環石等）購買物品\n2. **都市大亨系統** — 經營商鋪獲取收益，這是最接近\"市場經濟\"的玩法\n3. **兌換系統** — 使用特定道具兌換角色、武器、材料等\n4. **活動商店** — 限時活動專屬兌換商店\n\n**玩家間互動**：\n- 支援多人聯機合作（粉爪小隊）\n- 可以組隊挑戰異常區\n- 但不支援直接物品交易\n\n如果未來版本新增拍賣行或交易系統，我們會第一時間更新。目前獲取稀有物品主要通過抽卡、探索、任務和都市大亨系統。",
+    "categoryTw": "玩法"
   },
   {
     "id": "nte-game-review",
@@ -4315,7 +5023,10 @@
     "categoryZh": "综合",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環這個遊戲怎麼樣？值得玩嗎？評價如何？",
+    "answerTw": "異環（Neverness to Everness）作為一款全新的都市超自然開放世界遊戲，首發獲得了不錯的評價。\n\n**Game8評測：86/100**\n\n國際知名遊戲攻略網站Game8給出了86分的評價，主要亮點：\n- **畫面表現**：虛幻引擎5打造的都市畫面令人印象深刻，海特洛市細節豐富\n- **戰鬥系統**：動作流暢，3人小隊切換戰鬥策略深度適中\n- **開放世界**：城市探索內容豐富，載具駕駛體驗遠超同類遊戲\n- **抽卡體驗**：無50/50機制獲得高度評價，大大降低了玩家的沉沒成本\n- **休閒玩法**：都市大亨、傢俱系統、浪漫系統等增加了遊戲的深度\n\n**玩家評價主要優點**：\n1. 無50/50的抽卡機制極大改善了抽卡體驗\n2. 載具駕駛系統是同類遊戲中最出色的\n3. 都市超自然題材新穎獨特\n4. 免費角色（小吱6+5滿配）對零氪玩家非常友好\n\n**需要改進的方面**：\n1. 部分角色平衡性還需調整\n2. 移動端最佳化仍在進行中\n3. 內容量還需要持續更新\n\n**總結**：如果你喜歡都市題材+抽卡+開放世界的組合，異環絕對值得一試。無50/50的抽卡機制和免費滿配的小吱讓零氪玩家也能有很好的體驗。",
+    "categoryTw": "綜合"
   },
   {
     "id": "nte-hidden-easter-eggs",
@@ -4333,7 +5044,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有哪些隱藏彩蛋？",
+    "answerTw": "異環作為一款都市超自然題材的開放世界遊戲，隱藏了大量有趣的彩蛋和秘密：\n\n**已知的重要彩蛋**：\n\n1. **孤獨玩家（Lonely Player）**：在海特洛市的公園長椅、屋頂、地鐵站等角落，你會遇到一個獨自一人的NPC。多次對話後觸發隱藏任務鏈，講述關於孤獨和陪伴的感人故事，完成後獲得環石和隱藏成就。\n\n2. **女巫之家（Witch House）**：隱藏在海特洛郊區山谷中的秘密地點，需要完成主線第3章並找到「古代日記」道具才能解鎖。內部有寶箱、隱藏Boss、獨特傢俱圖紙和重要劇情。\n\n3. **末日刷屏（Doomscroll）**：在城市區域的電子螢幕/廣告牌附近觸發。夜間（遊戲內時間）更容易出現，附近螢幕會顯示異常滾動的訊息。\n\n4. **深藍之哀（Deep Blue Sorrow）**：與深海/水下區域相關的重要探索事件，需要完成主線第4章後解鎖。\n\n5. **無頭騎士（Headless Rider）**：夜間在海特洛老城區出現的神秘世界Boss，擊敗後掉落稀有模組和專屬成就。\n\n**探索技巧**：\n- 多在夜間探索城市\n- 與每個NPC都對話\n- 注意環境中的異常現象\n- 檢視偏僻角落的物品\n\n更多彩蛋還在持續發現中，我們會不斷更新。",
+    "categoryTw": "玩法"
   },
   {
     "id": "best-starting-team",
@@ -4358,7 +5072,10 @@
       "haniel",
       "adler"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新手最強開荒隊伍怎麼配？",
+    "answerTw": "異環新手最強開荒隊伍推薦：\n\n**萬能開荒隊**：零（主角）+ 九原 + 任意S級輸出\n\n這是最適合新手的配隊，原因如下：\n- **零（主角）**：免費獲得，瞬環合機制適配所有隊伍\n- **九原**：常駐池50抽自選，聚怪+回覆，泛用性頂級\n- 第三個位置根據你擁有的S級角色靈活調整\n\n**如果你抽到了娜娜莉**：\n零 + 九原 + 娜娜莉（最強開荒組合）\n\n**如果你有白藏+達芙迪爾**：\n白藏 + 達芙迪爾 + 零/九原（Boss戰特化）\n\n**純免費開荒隊（零氪推薦）**：\n零（主角）+ 薄荷 + 阿德勒\n前期可以用這套隊伍過渡，等獲取九原和小吱後替換。\n\n**小吱平民戰神隊**：\n小吱 + 哈尼爾 + 阿德勒\n都市大亨肝出小吱後，這套隊伍可以讓平民玩家輕鬆通過大部分內容。\n\n**新手配隊原則**：\n1. 主角必帶（免費+不可替代）\n2. 至少一個聚怪/輔助角色\n3. 注意屬性搭配，覆蓋多種屬性剋制\n4. 生存位在高難內容中很重要",
+    "categoryTw": "玩法"
   },
   {
     "id": "city-tycoon-earnings-guide",
@@ -4378,7 +5095,10 @@
     "relatedCharacters": [
       "xiaozhi"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環都市大亨怎麼賺錢最快？",
+    "answerTw": "都市大亨（City Tycoon）是異環的核心休閒玩法，也是獲取免費S級角色小吱的途徑。以下是最快賺錢攻略：\n\n**核心收入來源**：\n1. **商鋪經營** — 購買和管理商鋪，持續產生被動收入\n2. **區域投資** — 投資不同區域獲取回報，優先投資高回報區域\n3. **城市活動** — 參與限時城市活動獲取額外獎勵\n4. **愛好系統** — 發展個人愛好提升屬性，間接增加收入\n\n**賺錢技巧**：\n- 每天登入收取被動收入（最重要！）\n- 優先升級高收益商鋪\n- 不要忽視愛好系統，它能提升整體收益\n- 參與所有限時城市活動\n- 隨著等級提升解鎖更多區域\n\n**最關鍵的目標**：\n- **免費獲取小吱（S級）**：通過都市大亨系統可以免費獲得S級角色小吱\n- **免費滿配6+5**：小吱可以完全免費滿覺，滿配後DPS超越所有限定主C\n- 這是對零氪玩家最重要的系統，優先順序非常高",
+    "categoryTw": "玩法"
   },
   {
     "id": "six-attributes-explained",
@@ -4397,7 +5117,10 @@
     "categoryZh": "战斗",
     "categoryEn": "Combat",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環六屬性剋制關係是什麼？",
+    "answerTw": "異環共有6種元素屬性，每種屬性之間存在剋制和反應關係：\n\n**六大屬性**：\n1. **靈魂（Anima）** — 精神能量屬性\n2. **辟邪（Incantation）** — 符咒/法術屬性\n3. **精神（Psyche）** — 心靈力量屬性\n4. **混沌（Chaos）** — 混沌能量屬性\n5. **宇宙（Cosmos）** — 宇宙力量屬性\n6. **拉克沙那（Lakshana）** — 特殊屬性\n\n**屬性剋制關係**：\n不同屬性之間存在剋制關係，使用剋制屬性攻擊可以造成額外傷害。具體剋制關係：\n- Anima → Incantation → Psyche → Chaos → Cosmos → Anima（迴圈剋制）\n- Lakshana 作為特殊屬性，與多個屬性都能觸發反應\n\n**實戰建議**：\n1. 隊伍中儘量覆蓋多種屬性\n2. 針對Boss屬性選擇剋制角色\n3. 零（主角）的宇宙屬性可以觸發環合反應\n4. 注意異常區Boss的屬性，提前準備對應角色\n\n**屬性反應機制**：\n不同屬性組合可以觸發特殊的屬性反應（環合反應），造成額外傷害或產生特殊效果。瞭解屬性剋制是高難內容的關鍵。",
+    "categoryTw": "戰鬥"
   },
   {
     "id": "romance-system-explained",
@@ -4414,7 +5137,10 @@
     "categoryZh": "游戏玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有浪漫系統嗎？可以和角色談戀愛嗎？",
+    "answerTw": "根據Game8等權威遊戲媒體確認，異環1.0版本中確實存在浪漫（Romance）系統。玩家可以與某些角色發展更深層次的關係，包括角色好感度提升、專屬劇情解鎖、特殊互動場景和限定獎勵。具體可攻略角色名單和觸發條件還在持續探索中，建議關注遊戲內的好感度系統和角色個人劇情。",
+    "categoryTw": "遊戲玩法"
   },
   {
     "id": "easter-eggs-guide",
@@ -4431,7 +5157,10 @@
     "categoryZh": "彩蛋",
     "categoryEn": "Easter Eggs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有哪些彩蛋？隱藏彩蛋大全",
+    "answerTw": "異環作為一款都市開放世界遊戲，藏了大量有趣的彩蛋和隱藏內容。目前已發現的彩蛋包括：1) 海特洛市各處的街頭塗鴉和隱藏互動點；2) 特定時間出現的隱藏NPC和對話；3) 異常區中的隱藏房間和寶箱；4) 與載具有關的特殊事件；5) 參考其他遊戲或流行文化的梗和致敬。隨著玩家探索深入，相信還會有更多彩蛋被發現。建議多探索城市各個角落，嘗試不同的互動方式。",
+    "categoryTw": "彩蛋"
   },
   {
     "id": "nte-review-score",
@@ -4448,7 +5177,10 @@
     "categoryZh": "综合信息",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環評分多少？媒體評價怎麼樣？",
+    "answerTw": "國際知名遊戲攻略網站Game8為異環給出了86/100的評分。主要評價亮點：畫面表現優秀（虛幻引擎5打造）、戰鬥系統流暢且策略深度適中、開放世界探索內容豐富、抽卡無50/50機制獲高度評價、載具駕駛體驗遠超同類遊戲。作為一款新IP的首發作品，86分是相當有競爭力的成績，說明異環已經站穩了腳跟。",
+    "categoryTw": "綜合資訊"
   },
   {
     "id": "no-5050-explained",
@@ -4466,7 +5198,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環沒有50/50是什麼意思？保底機制詳解",
+    "answerTw": "異環最大的良心之一就是沒有50/50機制。在原神等遊戲中，抽到S級時有50%機率是常駐角色而非UP角色，需要再抽一輪保底才能獲得UP角色。而異環中，當你觸發保底獲得S級角色時，必定是當期UP角色，不存在歪到常駐的可能。這意味著：1) 最差情況90抽必得當期UP角色；2) 平均花費比有50/50的遊戲少很多；3) 抽卡體驗更加可預期和友好。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "cosmos-blossom-guide",
@@ -4483,7 +5218,10 @@
     "categoryZh": "游戏玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環宇宙綻放是什麼？怎麼玩？",
+    "answerTw": "宇宙綻放（Cosmos Blossom）是異環中的一種遊戲模式/活動玩法。玩家需要組建特定屬性的隊伍來挑戰不同難度的關卡，獲取豐厚獎勵。建議根據關卡屬性要求選擇對應屬性的角色，合理搭配隊伍的輸出和生存能力。具體機制和獎勵會隨版本更新而調整。",
+    "categoryTw": "遊戲玩法"
   },
   {
     "id": "cross-platform-account-linking",
@@ -4505,7 +5243,11 @@
     "seoTitleEn": "How to Link NTE Accounts Across PS5, PC & Mobile — Cross-Platform Progress Sync Guide (2026)",
     "seoTitleZh": "异环跨平台账号绑定教程 — PS5/PC/手机进度同步方法（2026）",
     "seoDescriptionEn": "Link your NTE accounts across PS5, PC, and mobile to sync game progress. Step-by-step guide to binding login methods and fixing separate account issues.",
-    "seoDescriptionZh": "异环(NTE)跨平台账号绑定教程：如何在PS5、PC和手机之间同步游戏进度，绑定登录方式，解决创建了两个账号的合并问题。"
+    "seoDescriptionZh": "异环(NTE)跨平台账号绑定教程：如何在PS5、PC和手机之间同步游戏进度，绑定登录方式，解决创建了两个账号的合并问题。",
+    "questionTw": "如何繫結PS5/PC/手機賬號同步進度？",
+    "answerTw": "跨平臺賬號繫結步驟：1) 進入遊戲設定 > 賬號中心 > 繫結賬號；2) 將所有登入方式（Google、郵箱、PSN）繫結到同一個賬號；3) 繫結完成後，在任何平臺使用已繫結的登入方式即可同步進度。如果你已經分別在兩個平臺建立了不同的賬號，請聯絡官方客服 nte.contactus@perfectworld.com，提供兩個UID請求合併賬號。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環跨平臺賬號繫結教程 — PS5/PC/手機進度同步方法（2026）"
   },
   {
     "id": "pre-registration-rewards-missing",
@@ -4526,7 +5268,11 @@
     "seoTitleEn": "NTE Pre-Registration Rewards Missing — How to Fix & Claim (2026)",
     "seoTitleZh": "异环预注册奖励没收到 — 解决方法与领取指南（2026）",
     "seoDescriptionEn": "Did not receive your NTE pre-registration rewards? Follow this troubleshooting guide to check your mailbox, verify your account, and contact support.",
-    "seoDescriptionZh": "异环(NTE)预注册奖励未到账的完整解决方案：检查邮箱、确认账号、重启游戏，以及联系客服的方法。"
+    "seoDescriptionZh": "异环(NTE)预注册奖励未到账的完整解决方案：检查邮箱、确认账号、重启游戏，以及联系客服的方法。",
+    "questionTw": "預註冊獎勵沒收到怎麼辦？",
+    "answerTw": "預註冊獎勵未到賬的解決方法：1) 檢查遊戲內郵箱，獎勵通常通過郵件發放；2) 確認你登入的賬號/郵箱與預註冊時使用的一致；3) 完全退出遊戲後重新登入。如果以上步驟後仍未收到，請聯絡客服 nte.contactus@perfectworld.com，附上你的UID和預註冊時使用的郵箱地址。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環預註冊獎勵沒收到 — 解決方法與領取指南（2026）"
   },
   {
     "id": "wrong-character-selection",
@@ -4547,7 +5293,11 @@
     "seoTitleEn": "NTE Wrong Free S-Rank Character Selected — Can You Swap? (2026)",
     "seoTitleZh": "异环免费S级角色选错了怎么办 — 能否更换？（2026）",
     "seoDescriptionEn": "Accidentally picked the wrong free S-rank character in NTE? Learn how to contact support for a possible character swap and what steps to take immediately.",
-    "seoDescriptionZh": "异环(NTE)免费S级角色选错了的解决方法：联系客服更换的具体步骤、注意事项和成功案例说明。"
+    "seoDescriptionZh": "异环(NTE)免费S级角色选错了的解决方法：联系客服更换的具体步骤、注意事项和成功案例说明。",
+    "questionTw": "免費S級角色選錯了能換嗎？",
+    "answerTw": "如果你在選擇免費S級角色時選錯了：1) 儘快聯絡官方客服 nte.contactus@perfectworld.com；2) 提供你的UID、收到的角色名和你想要的角色名；3) 不要使用或升級選錯的角色。客服團隊會根據具體情況協助處理，已有成功更換的案例，但並非保證，建議儘早聯絡。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環免費S級角色選錯了怎麼辦 — 能否更換？（2026）"
   },
   {
     "id": "monthly-pass-not-received",
@@ -4568,7 +5318,11 @@
     "seoTitleEn": "NTE Monthly Pass Not Received After Purchase — Fix Guide (2026)",
     "seoTitleZh": "异环月卡购买了没到账 — 解决方法与客服联系方式（2026）",
     "seoDescriptionEn": "Purchased the NTE monthly pass or battle pass but it did not appear? Troubleshooting steps including restart, mailbox check, and how to contact support with proof of purchase.",
-    "seoDescriptionZh": "异环(NTE)月卡/通行证购买后未到账的完整排查步骤：重启游戏、检查邮箱、确认支付状态以及联系客服的方法。"
+    "seoDescriptionZh": "异环(NTE)月卡/通行证购买后未到账的完整排查步骤：重启游戏、检查邮箱、确认支付状态以及联系客服的方法。",
+    "questionTw": "月卡/通行證購買了但沒到賬？",
+    "answerTw": "月卡或通行證購買後未到賬的解決方法：1) 完全退出遊戲後重新登入；2) 檢查遊戲內郵箱，部分獎勵通過郵件發放；3) 確認支付是否已完成扣款（檢視銀行或支付平臺記錄）。如確認扣款但未到賬，請聯絡客服 nte.contactus@perfectworld.com，附上UID、購買平臺和支付憑證截圖。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環月卡購買了沒到賬 — 解決方法與客服聯絡方式（2026）"
   },
   {
     "id": "game-crashing-fix",
@@ -4589,7 +5343,11 @@
     "seoTitleEn": "NTE Crashing or Closing Unexpectedly — Complete Fix Guide (2026)",
     "seoTitleZh": "异环游戏崩溃闪退解决方案 — 完整排查教程（2026）",
     "seoDescriptionEn": "NTE keeps crashing? Step-by-step guide to fix game crashes: update drivers, verify files, switch renderer (DX11/DX12/Vulkan), close overlays, and check system requirements.",
-    "seoDescriptionZh": "异环(NTE)游戏崩溃或闪退的完整解决方案：更新显卡驱动、验证文件完整性、切换渲染器、关闭后台程序等排查步骤。"
+    "seoDescriptionZh": "异环(NTE)游戏崩溃或闪退的完整解决方案：更新显卡驱动、验证文件完整性、切换渲染器、关闭后台程序等排查步骤。",
+    "questionTw": "遊戲崩潰/閃退怎麼解決？",
+    "answerTw": "遊戲崩潰或閃退的排查步驟：1) 更新顯示卡驅動到最新版本；2) 在啟動器中驗證遊戲檔案完整性；3) 嘗試切換渲染器（DX11/DX12/Vulkan）；4) 關閉後臺佔用的程式（尤其是覆蓋層軟體如Discord覆蓋、GeForce Experience等）；5) 確認電腦配置滿足最低要求。如問題持續，請聯絡 nte.contactus@perfectworld.com。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環遊戲崩潰閃退解決方案 — 完整排查教程（2026）"
   },
   {
     "id": "fps-stuttering-fix",
@@ -4611,7 +5369,11 @@
     "seoTitleEn": "NTE Low FPS & Stuttering Fix — Best Settings & Optimization Guide (2026)",
     "seoTitleZh": "异环卡顿FPS低优化方法 — 最佳画面设置与性能调优（2026）",
     "seoDescriptionEn": "Fix NTE low FPS and stuttering with this optimization guide. Switch renderers, lower shadow settings, update drivers, move to SSD, and clear shader cache for smoother gameplay.",
-    "seoDescriptionZh": "异环(NTE)游戏卡顿和FPS低的优化教程：切换渲染器、调整画面设置、更新驱动、将游戏移至系统盘、清理着色器缓存等有效方法。"
+    "seoDescriptionZh": "异环(NTE)游戏卡顿和FPS低的优化教程：切换渲染器、调整画面设置、更新驱动、将游戏移至系统盘、清理着色器缓存等有效方法。",
+    "questionTw": "遊戲卡頓/FPS低怎麼最佳化？",
+    "answerTw": "遊戲卡頓和FPS低的最佳化方法：1) 在設定 > 畫面中切換渲染器（DX11/DX12/Vulkan），不同硬體適配不同渲染器；2) 降低陰影質量和抗鋸齒設定；3) 更新顯示卡驅動至最新版；4) 如果遊戲安裝在非系統盤（如D盤），嘗試移動到C盤；5) 清理著色器快取。以上方法通常能顯著改善幀率。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環卡頓FPS低最佳化方法 — 最佳畫面設定與效能調優（2026）"
   },
   {
     "id": "installed-on-d-drive-stutter",
@@ -4634,7 +5396,11 @@
     "seoTitleEn": "NTE Stuttering on D: Drive — Move to C: Drive Fix (2026)",
     "seoTitleZh": "异环装在D盘卡顿严重 — 移动到C盘解决方法（2026）",
     "seoDescriptionEn": "NTE stutters badly when installed on a secondary drive? Move the game to your C: drive to fix FPS drops. Confirmed fix by multiple players going from under 30 FPS to smooth.",
-    "seoDescriptionZh": "异环(NTE)安装在D盘或非系统盘严重卡顿的解决方案：将游戏移动到C盘可大幅改善帧率，多位玩家验证有效。"
+    "seoDescriptionZh": "异环(NTE)安装在D盘或非系统盘严重卡顿的解决方案：将游戏移动到C盘可大幅改善帧率，多位玩家验证有效。",
+    "questionTw": "遊戲裝在D盤嚴重卡頓？",
+    "answerTw": "多位玩家反饋異環安裝在非系統盤時出現嚴重卡頓。解決方法：將遊戲移動到C盤（與作業系統同一塊硬碟）。具體操作：1) 在啟動器中找到遊戲安裝路徑設定；2) 將遊戲檔案剪下或重新下載到C盤目錄；3) 重新啟動遊戲驗證檔案。此方法已幫助多位玩家從低於30FPS恢復到流暢執行。如果C盤空間不足，建議清理空間後再嘗試。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環裝在D盤卡頓嚴重 — 移動到C盤解決方法（2026）"
   },
   {
     "id": "hunter-level-stuck",
@@ -4655,7 +5421,11 @@
     "seoTitleEn": "NTE Hunter Level Stuck — How to Unlock Level Cap & Promotion Quest (2026)",
     "seoTitleZh": "异环猎人等级卡住不升级 — 等级上限解锁与晋升任务指南（2026）",
     "seoDescriptionEn": "Hunter level stuck in NTE? You likely hit a soft cap. Complete the Hunter Promotion quest in your quest log to unlock the next level tier. Full explanation here.",
-    "seoDescriptionZh": "异环(NTE)猎人等级卡住的原因：达到软上限后需完成猎人晋升任务才能解锁下一等级段，详细介绍与解决方法。"
+    "seoDescriptionZh": "异环(NTE)猎人等级卡住的原因：达到软上限后需完成猎人晋升任务才能解锁下一等级段，详细介绍与解决方法。",
+    "questionTw": "獵人等級卡住不動了？",
+    "answerTw": "獵人等級在特定等級（如20級、30級等）會有軟上限。解決方法：1) 開啟任務列表，檢視是否有主線任務需要完成；2) 尋找「獵人晉升」相關的任務，完成該任務即可解鎖下一等級段；3) 經驗值會繼續累積，但在晉升任務完成前不會提升等級上限。這是正常的遊戲機制，不是Bug。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環獵人等級卡住不升級 — 等級上限解鎖與晉升任務指南（2026）"
   },
   {
     "id": "character-stuck-bug",
@@ -4677,7 +5447,11 @@
     "seoTitleEn": "NTE Character Stuck or Quest Not Progressing — How to Fix (2026)",
     "seoTitleZh": "异环角色卡住任务无法推进 — 解决方法与脱离卡死教程（2026）",
     "seoDescriptionEn": "Character stuck or quest bugged in NTE? Try teleporting away, restarting the game, using the unstuck feature, or contacting support with your UID and quest details.",
-    "seoDescriptionZh": "异环(NTE)角色卡住或任务无法推进的解决方法：传送脱离、重启游戏、使用脱离卡死功能，以及联系客服的详细信息。"
+    "seoDescriptionZh": "异环(NTE)角色卡住或任务无法推进的解决方法：传送脱离、重启游戏、使用脱离卡死功能，以及联系客服的详细信息。",
+    "questionTw": "角色卡住/任務無法推進怎麼辦？",
+    "answerTw": "角色卡住或任務無法推進的解決方法：1) 嘗試傳送到其他位置再傳送回來；2) 完全退出遊戲後重新登入；3) 如果遊戲內有「脫離卡死」功能，使用該功能；4) 如果在異常區域中，嘗試離開後重新進入；5) 如問題持續，聯絡客服 nte.contactus@perfectworld.com，附上UID、所在位置和任務名稱。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環角色卡住任務無法推進 — 解決方法與脫離卡死教程（2026）"
   },
   {
     "id": "double-charge-refund",
@@ -4699,7 +5473,11 @@
     "seoTitleEn": "NTE Double Charged or Refund Issues — How to Get Your Money Back (2026)",
     "seoTitleZh": "异环充值重复扣款退款异常 — 处理方法与客服联系指南（2026）",
     "seoDescriptionEn": "Double charged in NTE or having refund problems? Contact support with transaction IDs, request platform refunds, and resolve negative balance issues with this guide.",
-    "seoDescriptionZh": "异环(NTE)充值重复扣款和退款异常的完整处理流程：联系客服、通过平台申请退款、解决负余额问题的详细步骤。"
+    "seoDescriptionZh": "异环(NTE)充值重复扣款和退款异常的完整处理流程：联系客服、通过平台申请退款、解决负余额问题的详细步骤。",
+    "questionTw": "充值被重複扣款/退款異常怎麼辦？",
+    "answerTw": "充值重複扣款或退款異常的處理方法：1) 如遇重複扣款，聯絡客服 nte.contactus@perfectworld.com，提供UID、購買平臺、兩筆交易的訂單號和扣款截圖；2) 同時也可以通過購買平臺（Epic/Google Play/App Store/PlayStation）申請退款；3) 如果因退款異常導致賬戶出現負餘額，向客服說明情況並提供相關交易記錄，客服會協助處理。",
+    "categoryTw": "故障排查",
+    "seoTitleTw": "異環充值重複扣款退款異常 — 處理方法與客服聯絡指南（2026）"
   },
   {
     "id": "pity-inheritance-explained",
@@ -4716,7 +5494,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環保底能不能繼承到下一個卡池？保底繼承規則詳解",
+    "answerTw": "異環的保底機制**在同類型卡池之間可以繼承**。具體規則：1) 限定角色卡池的保底進度會繼承到下一個限定角色卡池；2) 武器卡池的保底進度會繼承到下一個武器卡池；3) 常駐卡池的保底進度在常駐卡池內繼承；4) 不同型別卡池之間的保底**不互通**（如限定卡池的保底不會繼承到常駐卡池）。這意味著如果你在當前限定卡池抽了70抽沒出S級，下一個限定角色卡池開啟時你的保底計數從70開始，只需20抽就能觸發硬保底。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "porsche-price-cost",
@@ -4734,7 +5515,10 @@
     "categoryZh": "联动",
     "categoryEn": "Collaboration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環保時捷聯動車要多少錢？多少方斯？保時捷918怎麼獲得？",
+    "answerTw": "保時捷聯動是異環1.0版本的重磅跨界合作，目前官方尚未公佈具體價格和獲取方式的全部細節。已知資訊：1) 保時捷聯動將推出限定載具，包括保時捷918等車型；2) 獲取方式預計為遊戲內活動或方斯（Fons）購買；3) 聯動車輛在海特洛市內有專屬保時捷門店；4) 具體上線時間待官方公佈，預計在1.0版本中期或1.1版本實裝。建議關注官方社交媒體和我們網站獲取最新訊息。",
+    "categoryTw": "聯動"
   },
   {
     "id": "fps-drift-bug-fix",
@@ -4753,7 +5537,10 @@
     "categoryZh": "问题修复",
     "categoryEn": "Troubleshooting",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環FPS設定高導致車輛無法漂移？幀率漂移Bug怎麼解決？",
+    "answerTw": "這是一個已確認的Bug：**FPS設定越高，車輛越難漂移**。原因是幀率影響了漂移判定的物理計算。多位玩家在Reddit和社群反饋並確認了此問題。解決方法：1) 將FPS上限設定為60幀或30幀，幀率越低漂移越容易觸發；2) 在設定→畫面→幀率限制中調整；3) 等待官方修復補丁，此Bug已在CN服被確認為已知問題。如果你發現駕駛時完全無法漂移，大機率是FPS設定過高導致的。",
+    "categoryTw": "問題修復"
   },
   {
     "id": "co-op-unlock-level",
@@ -4771,7 +5558,10 @@
     "categoryZh": "联机",
     "categoryEn": "Multiplayer",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環聯機幾級解鎖？多人模式多少級能玩？最多幾人聯機？",
+    "answerTw": "異環聯機/多人模式解鎖條件：1) 需要完成主線劇情一定進度後才能解鎖聯機功能，通常在完成新手教程章節後；2) 聯機模式支援最多**4人**同時線上協作；3) 聯機內容主要包括：合作挑戰異常區BOSS、自由探索海特洛市、拍照互動等；4) 部分劇情任務和單人內容在聯機模式下無法進行。建議先推進主線劇情解鎖聯機功能，再和好友一起探索。",
+    "categoryTw": "聯機"
   },
   {
     "id": "nte-optimization-tips",
@@ -4790,7 +5580,10 @@
     "categoryZh": "优化设置",
     "categoryEn": "Optimization",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環最佳化差/卡頓/掉幀怎麼解決？最佳畫面設定推薦",
+    "answerTw": "異環最佳化問題綜合解決方案：**PC端**：1) 將遊戲安裝到C盤/SSD，D盤安裝會導致嚴重卡頓；2) 更新顯示卡驅動到最新版；3) 切換渲染器（設定→畫面→DX11/DX12/Vulkan），不同硬體適配不同；4) 關閉體積霧、螢幕空間反射等高負載選項；5) 渲染解析度降至90%；6) 清理ShaderCache資料夾。**手機端**：1) 渲染精度降至中或低；2) 關閉動態模糊和體積光；3) 幀率設為30幀減少發熱；4) 關閉後臺應用。**通用**：確保至少20GB儲存空間，使用有線網路降低延遲。",
+    "categoryTw": "最佳化設定"
   },
   {
     "id": "xun-character-faq",
@@ -4810,7 +5603,10 @@
     "relatedCharacters": [
       "xun"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新角色潯（Xun）什麼時候出？潯是什麼屬性？怎麼獲得？",
+    "answerTw": "潯（Xun）是異環中備受期待的新角色：1) **屬性**：宇宙（Cosmos）；2) **定位**：支援型輔助；3) **獲取方式**：預計在v1.1版本作為限定角色上線，通過限定卡池抽取獲得；4) **特點**：技能可以復刻隊友技能，提供治療和增益效果，在光耀坼綻隊中表現優秀；5) **推薦配隊**：零（主C）+ 薄荷（觸發反應）+ 潯（治療+技能復刻）。潯在1.0版本中已有鋪墊和暗示，具體上線時間請關注官方1.1版本前瞻直播。",
+    "categoryTw": "角色"
   },
   {
     "id": "cn-compensation-selector",
@@ -4828,7 +5624,10 @@
     "categoryZh": "综合信息",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環國服額外補償S級自選是怎麼回事？國際服有嗎？",
+    "answerTw": "異環國服（CN）因公測初期的bug和問題，向玩家額外補償了一個**S級角色自選箱**。這是繼正常公測福利之外的額外補償。關於國際服：1) 目前國際服尚未宣佈相同的額外補償；2) 社群經理\"Mr CEO Adler\"曾表示公測獎勵會分天發放；3) 國際服玩家在Reddit等社群討論較多，希望獲得同等補償；4) 建議關注官方社交媒體獲取最新補償公告。國際服已有的公測福利包括：120+抽、S級自選箱、1600 Anulith等。",
+    "categoryTw": "綜合資訊"
   },
   {
     "id": "nte-fons-farming-guide-faq",
@@ -4846,7 +5645,10 @@
     "categoryZh": "经济系统",
     "categoryEn": "Economy",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環方斯（Fons）怎麼快速獲取？方斯速刷攻略",
+    "answerTw": "方斯（Fons）是異環中的重要遊戲內貨幣，用於購買載具、傢俱等物品。快速獲取方斯的方法：1) **都市大亨系統**：最主要的方斯來源，經營商鋪產生被動收入，每天記得收取；2) **異常區挑戰**：完成異常區副本獲得大量方斯獎勵；3) **每日任務和周常任務**：穩定的方斯收入來源；4) **活動獎勵**：限時活動通常提供豐厚方斯獎勵；5) **主線劇情**：首次通關主線關卡獲得方斯；6) **都市大亨保險箱**：別忘了定期檢視保險箱中的方斯收益。建議優先升級都市大亨系統，這是最高效的方斯獲取方式。",
+    "categoryTw": "經濟系統"
   },
   {
     "id": "nte-cloud-gaming",
@@ -4863,7 +5665,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環可以雲遊戲嗎？怎麼用雲遊玩異環？",
+    "answerTw": "異環目前可以通過部分雲遊戲平臺進行遊玩：1) 完美世界官方可能會提供雲遊戲版本（完美世界旗下游戲通常支援）；2) 第三方雲遊戲平臺如網易雲遊戲、騰訊START等可能支援異環；3) 雲遊戲的優勢是無需下載完整客戶端，對裝置配置要求低；4) 注意雲遊戲需要穩定的網路連線，建議使用WiFi或5G網路。如果你的裝置配置不夠或儲存空間不足，雲遊戲是一個不錯的替代方案。",
+    "categoryTw": "平臺"
   },
   {
     "id": "nte-vs-other-games",
@@ -4881,7 +5686,10 @@
     "categoryZh": "综合信息",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環和無限大/望月/絕區零哪個好玩？有什麼區別？",
+    "answerTw": "異環與同類遊戲的對比：**vs 絕區零（ZZZ）**：異環有開放世界+載具駕駛+房屋系統，絕區零是箱庭動作；異環無50/50機制更良心；絕區零戰鬥深度更高。**vs 無限大/望月**：這兩款遊戲目前尚未上線，異環是已公測的成品；玩法定位不同，異環偏向都市動作RPG。**異環獨特優勢**：1) 虛幻引擎5打造的都市畫面；2) 完整的載具駕駛系統（保時捷聯動）；3) 無50/50的良心抽卡；4) 豐富的都市生活模擬（房屋、都市大亨）。如果你喜歡都市開放世界+動作戰鬥+抽卡，異環是目前最好的選擇。",
+    "categoryTw": "綜合資訊"
   },
   {
     "id": "mygo-collab-faq",
@@ -4899,7 +5707,10 @@
     "categoryZh": "联动",
     "categoryEn": "Collaboration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環聯動MyGO是什麼？有哪些內容？",
+    "answerTw": "\"異環聯動MyGO\"是百度搜索高頻聯想詞，MyGO!!!!!是日本動漫《BanG Dream! It's MyGO!!!!!》中的樂隊。目前該聯動尚未被官方正式公佈，但百度聯想詞和社群討論中出現頻率較高。如果確認聯動，可能包含：1) 聯動音樂/BGM加入遊戲；2) 聯動角色外觀或皮膚；3) 聯動限定活動和獎勵；4) 特殊傢俱或裝飾物品。建議關注官方社交媒體和1.1版本前瞻直播獲取確認訊息。",
+    "categoryTw": "聯動"
   },
   {
     "id": "lawson-collab-faq",
@@ -4917,7 +5728,10 @@
     "categoryZh": "联动",
     "categoryEn": "Collaboration",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環聯動羅森（Lawson）是什麼？怎麼參加？",
+    "answerTw": "\"異環聯動羅森\"出現在百度搜索聯想詞中。羅森（Lawson）是日本連鎖便利店，在中國也有大量門店。該聯動目前尚未被官方正式公佈。如果確認聯動，參考其他遊戲的便利店聯動模式，可能包含：1) 線下門店購買聯動商品獲取遊戲內兌換碼；2) 聯動限定傢俱或裝飾物品；3) 聯動專屬活動任務和獎勵；4) 聯動主題包裝的商品。建議關注官方公告和羅森門店活動資訊。",
+    "categoryTw": "聯動"
   },
   {
     "id": "nte-marketing-highlights",
@@ -4939,7 +5753,10 @@
       "nanally",
       "mint"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環有哪些線下廣告和營銷活動？倫敦皮卡迪利廣場廣告",
+    "answerTw": "異環在公測期間進行了一系列線下營銷活動，最受關注的是：1) **倫敦皮卡迪利廣場廣告**：有玩家在倫敦著名的Piccadilly Circus看到薄荷（Mint）和娜娜莉（Nanally）的巨幅廣告牌，照片在Reddit獲得452贊，引發社群熱議；2) 這些線下廣告說明完美世界對異環的全球推廣投入相當大；3) 除倫敦外，可能在其他國際城市也有線下廣告投放。這類線下營銷活動不僅提升了遊戲知名度，也成為了社群討論的熱門話題。",
+    "categoryTw": "綜合資訊"
   },
   {
     "id": "xun-banned-reason",
@@ -4959,7 +5776,10 @@
     "relatedCharacters": [
       "xun"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新角色潯為什麼被禁播？被禁播原因是什麼？",
+    "answerTw": "\"異環新角色被禁播原因\"是百度搜索的高頻聯想詞。潯（Xun）的角色設計可能涉及某些敏感內容或版權問題，導致在部分中國直播平臺和影片平臺被限制展示。具體情況和原因官方尚未公開說明。需要強調的是：1) 這不影響遊戲內正常使用潯角色；2) 禁播可能只針對部分平臺的直播/影片內容；3) 遊戲內體驗完全不受影響。具體原因可能涉及角色外觀設計、技能特效等方面的稽核問題，等待官方進一步說明。",
+    "categoryTw": "角色"
   },
   {
     "id": "v11-release-date",
@@ -4979,7 +5799,10 @@
     "relatedCharacters": [
       "xun"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環1.1版本什麼時候上線？前瞻直播什麼時候？",
+    "answerTw": "異環1.1版本的上線時間官方尚未正式公佈。基於以下資訊進行推測：1) 1.0版本於2026年4月29日上線；2) 參考同類抽卡遊戲的更新節奏，每個大版本通常持續6-8周；3) 因此1.1版本預計在**2026年6月上旬**上線；4) 前瞻直播通常在版本上線前1-2周舉行，預計在**5月下旬**。新角色潯（Xun）大機率在1.1版本上線，保時捷聯動載具也可能在同期實裝。建議關注官方社交媒體獲取前瞻直播的具體時間公告。",
+    "categoryTw": "版本更新"
   },
   {
     "id": "nte-vs-once-human",
@@ -5000,7 +5823,11 @@
     "categoryZh": "游戏对比",
     "categoryEn": "Comparison",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環和七日世界(Once Human)是同一個遊戲嗎？有什麼區別？",
+    "answerTw": "異環（Neverness to Everness，簡稱NTE）和七日世界（Once Human）是兩款完全不同的遊戲，經常被搜尋混淆：\n\n【核心區別】\n- **異環/NTE**：完美世界 Hotta Studio 開發，UE5引擎，超自然都市開放世界動作RPG，2026年4月29日全球公測，免費+抽卡模式\n- **七日世界/Once Human**：網易 Starry Studio 開發，NeoX引擎，多人線上生存建造射擊遊戲，2024年7月全球上線，免費+內購模式\n\n【玩法差異】\n異環的核心玩法是：都市探索、角色養成、抽卡獲取角色、劇情驅動的RPG體驗、4人聯機合作。\n七日世界的核心玩法是：基地建設、資源採集、生存對抗、射擊戰鬥、PvEvP模式。\n\n【共同點】\n兩款遊戲都有超自然/異常題材元素，都支援多人線上，但玩法型別、開發商、商業模式完全不同。",
+    "categoryTw": "遊戲對比",
+    "seoTitleTw": "異環 vs 七日世界(Once Human)：兩款遊戲完全不同，別再搞混了！"
   },
   {
     "id": "nte-beginner-mistakes",
@@ -5022,7 +5849,11 @@
     "categoryZh": "新手攻略",
     "categoryEn": "Beginner Guide",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環新手容易犯哪些錯誤？公測開荒避坑指南",
+    "answerTw": "異環公測以來，很多新手玩家踩了不少坑。以下是10個最常見的錯誤：\n\n1. **不知道免費470抽** — 公測期間有大量免費抽數來源，包括預註冊獎勵、直播兌換碼、活動獎勵、都市大亨商店等。不要一上來就充錢抽卡。\n\n2. **選錯自選S角色** — 6選1自選S角色要認真考慮。推薦優先選擇咲裡（通用主C）或薄荷（治療輔助），不建議選純輔助角色當第一個S。\n\n3. **體力亂花** — 前期體力很寶貴，建議優先刷角色突破材料和弧盤強化材料，不要浪費在低階素材上。\n\n4. **忽略都市大亨** — 都市大亨是異環獨特的被動收入系統，越早投資回報越高。可以每天產出方斯和材料。\n\n5. **弧盤不升級** — 弧盤對角色戰力提升巨大，不要等到「完美弧盤」才升級。先用A/B級弧盤過渡，後期再換S級。\n\n6. **不配隊只練單角色** — 異環的戰鬥強調屬性反應和隊伍配合。只練一個角色會導致很多高難內容打不過。\n\n7. **忽略主線任務** — 很多功能和系統需要主線進度解鎖（如聯機、房屋、都市大亨等）。優先推進主線。\n\n8. **手機發燙不管** — 手機玩家一定要調整畫質設定。降低陰影質量、關閉動態模糊可以顯著減少發熱。\n\n9. **忘記領兌換碼** — 兌換碼有有效期！第一時間去兌換碼頁面把所有有效碼領了。\n\n10. **不看環合機制** — 環合反應是戰鬥核心系統。瞭解屬性剋制和環合觸發條件可以讓傷害翻倍。",
+    "categoryTw": "新手攻略",
+    "seoTitleTw": "異環新手10大常見錯誤 — 公測開荒避坑清單（2026年5月更新）"
   },
   {
     "id": "how-to-completely-delete-nte",
@@ -5044,7 +5875,11 @@
     "seoDescriptionZh": "详细教你如何在PC、Android、iOS、PS5上完全卸载异环(NTE)，包含残留文件清理方法。",
     "seoDescriptionEn": "Complete guide to uninstall Neverness to Everness from PC, Android, iOS, and PS5, including leftover file cleanup.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼解除安裝？如何完全刪除？",
+    "answerTw": "**PC解除安裝方法：**\n1. 開啟「設定」→「應用」→ 找到「異環」→ 點選解除安裝\n2. 手動刪除殘留資料夾：`C:\\Users\\你的使用者名稱\\AppData\\Local\\NTE` 和 `C:\\Users\\你的使用者名稱\\AppData\\Roaming\\NTE`\n3. 清空回收站\n\n**手機解除安裝方法：**\n- **Android：** 長按應用圖示 → 應用資訊 → 解除安裝\n- **iOS：** 長按應用圖示 → 移除App → 刪除App\n\n**PS5解除安裝方法：**\n設定 → 儲存 → 遊戲和應用 → 找到異環 → 刪除",
+    "categoryTw": "通用",
+    "seoTitleTw": "異環怎麼解除安裝？完全刪除教程(PC/手機/PS5)"
   },
   {
     "id": "how-to-reinstall-nte",
@@ -5065,7 +5900,11 @@
     "seoDescriptionZh": "异环(NTE)重新安装完整教程，告诉你卸载后账号数据是否会丢失，以及如何在各平台重新下载。",
     "seoDescriptionEn": "Complete guide to reinstalling Neverness to Everness. Find out if your progress is saved and how to redownload on all platforms.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼重新安裝？",
+    "answerTw": "如果你之前解除安裝了異環，可以按以下步驟重新安裝：\n\n**PC：** 前往官方網站或啟動器重新下載安裝包\n**手機：** 前往 App Store (iOS) 或 Google Play / 官網 (Android) 重新下載\n**PS5：** 在 PlayStation Store 搜尋「Neverness to Everness」重新下載\n\n重新安裝後，你的賬號資料（角色、進度）會自動同步，因為資料儲存在伺服器端。但本地設定和快取會被清除。",
+    "categoryTw": "通用",
+    "seoTitleTw": "異環重新安裝教程 — 賬號資料還在嗎？"
   },
   {
     "id": "nte-download-size-storage",
@@ -5087,7 +5926,11 @@
     "seoDescriptionZh": "异环(NTE)各平台下载大小和安装空间需求详解：PC 55GB、Android 25GB、iOS 22GB、PS5 50GB。",
     "seoDescriptionEn": "Complete NTE download size and storage requirements: PC 55GB, Android 25GB, iOS 22GB, PS5 50GB. Tips to reduce storage usage.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環下載需要多少空間？安裝包多大？",
+    "answerTw": "**各平臺安裝大小：**\n\n| 平臺 | 下載包大小 | 安裝後大小 | 推薦預留空間 |\n|------|-----------|-----------|------------|\n| PC | ~40 GB | ~55 GB | 70 GB |\n| PS5 | ~35 GB | ~50 GB | 65 GB |\n| Android | ~20 GB | ~25 GB | 30 GB |\n| iOS | ~18 GB | ~22 GB | 28 GB |\n\n安裝後會額外下載資源包（語音、高畫質材質等），建議預留更多空間。如果空間不足，可以在設定中選擇「低畫質資源包」減小佔用。",
+    "categoryTw": "通用",
+    "seoTitleTw": "異環下載大小 — PC/手機/PS5各平臺儲存需求"
   },
   {
     "id": "nte-wont-launch-after-install",
@@ -5109,7 +5952,11 @@
     "seoDescriptionZh": "异环安装后无法启动或闪退的完整解决方案：驱动更新、文件验证、管理员运行等方法。",
     "seoDescriptionEn": "Complete troubleshooting guide for NTE launch failures and crashes: driver updates, file verification, admin mode, and more.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環安裝後打不開/閃退怎麼辦？",
+    "answerTw": "**常見解決方法：**\n\n1. **檢查配置要求** — 確保裝置滿足最低配置\n2. **更新顯示卡驅動** — NVIDIA/AMD 最新驅動\n3. **驗證檔案完整性** — 啟動器內點選「修復」\n4. **關閉防毒軟體** — 部分防毒可能誤殺遊戲檔案\n5. **以管理員身份執行** — 右鍵→以管理員身份執行\n6. **清理臨時檔案** — 刪除 `AppData\\Local\\Temp` 下的 NTE 臨時檔案\n\n如果以上方法都無效，建議完全解除安裝後重新安裝。詳見[解除安裝教程](/faq/how-to-uninstall-nte)。",
+    "categoryTw": "通用",
+    "seoTitleTw": "異環打不開/閃退的解決方法"
   },
   {
     "id": "ios-release-date",
@@ -5129,7 +5976,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環iOS版什麼時候上線？iPhone/iPad能玩嗎？",
+    "answerTw": "異環iOS版上線資訊：\n\n**當前狀態**：\n- 異環目前已在PC（Epic/官方客戶端）、Android和PS5平臺上線\n- iOS版（iPhone/iPad）官方已確認在開發中\n- 預計將在後續版本更新中推出\n\n**iOS最低配置要求（已公佈）**：\n- iPhone 12 Pro Max 或更高\n- iPad Air (第3代) 或更高\n- iOS 15.0 或更高\n- 儲存空間：至少20GB\n\n**推薦配置**：\n- iPhone 14 或更高（最佳體驗）\n- iPad Pro M1 或更高\n- iOS 16.0+\n- 儲存空間：30GB+\n\n**iOS版預期特性**：\n- 支援跨平臺存檔同步\n- 觸控最佳化操作介面\n- 支援手柄操作\n- 支援Metal API渲染\n\n建議關注官方社交媒體獲取iOS版最新訊息。同時你也可以先在PC或Android上開始遊戲，iOS版上線後可跨平臺同步進度。",
+    "categoryTw": "平臺"
   },
   {
     "id": "hotori-worth-pulling-building",
@@ -5149,7 +5999,10 @@
     "categoryZh": "角色",
     "categoryEn": "Characters",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環Hototi（穗乃果）值得抽嗎？值得培養嗎？優先順序如何？",
+    "answerTw": "穗乃果（Hotori）是異環中人氣極高的S級角色，以下是抽卡和培養建議：\n\n**角色定位**：\n- 屬性：Anima（生命）\n- 定位：主C / 爆發輸出\n- Tier評級：T0.5-T1（根據版本變化）\n\n**是否值得抽？**\n- 如果你缺少Anima屬性主C：值得抽\n- 如果你已有強力的Anima角色：可以跳過\n- 人氣角色，設計精美，使用體驗很好\n\n**培養優先順序**：\n1. 弧盤主詞條對即可使用，不必強求完美副詞條\n2. 優先升級核心輸出技能\n3. 武器選擇簽名武器最佳，免費替代也夠用\n4. A2覺醒是第一個關鍵提升節點\n\n**配隊建議**：\n- 作為Anima主C，搭配同屬性輔助角色效果最佳\n- 需要聚怪角色配合AOE輸出\n- 生存位建議帶一個治療或護盾\n\n**零氪建議**：\n- 如果你已經有小吱(Chiz)作為主C，Hotori不是剛需\n- 但如果喜歡角色設計或缺少Anima主C，值得投入\n- 建議攢夠保底再抽，避免資源浪費",
+    "categoryTw": "角色"
   },
   {
     "id": "nte-ai-generated-content",
@@ -5167,7 +6020,10 @@
     "categoryZh": "综合",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環遊戲中是否有AI生成的內容？AI素材爭議說明",
+    "answerTw": "關於異環中AI生成內容的爭議說明：\n\n**Ironmouse事件（2026年5月）**：\n知名VTuber Ironmouse受邀為異環做推廣，但在直播後發現遊戲內部分素材使用了AI生成技術。Ironmouse公開表示開發團隊在合作前聲稱未使用AI，隨後取消了合作並公開批評。\n\n**爭議經過**：\n1. Ironmouse接受異環贊助推廣\n2. 玩家發現遊戲內素材疑似AI生成\n3. Ironmouse公開表示被誤導，取消合作\n4. Hotta Studio隨後承認使用了AI輔助生成部分素材\n5. 社群對AI使用的透明度問題展開激烈討論\n6. Dexerto、Kotaku等多家媒體進行了報道\n\n**官方回應**：\n- Hotta Studio確認部分素材使用了AI輔助\n- 表示AI主要用於輔助而非替代人工創作\n- 承諾未來會提高AI使用的透明度\n\n**社群分歧**：\n- 一部分玩家認為AI輔助不影響遊戲體驗\n- 一部分玩家認為應該提前告知\n- 還有觀點認為關鍵在於最終品質而非創作工具\n\n**對玩家的實際影響**：\n- 遊戲核心玩法（戰鬥、探索、抽卡）不受影響\n- 角色設計和場景美術總體仍處於較高水平\n- 不影響角色平衡和遊戲機制\n\n**建議**：\n親自體驗遊戲後做出自己的判斷。NTE的玩法品質在同類遊戲中仍然具有競爭力。",
+    "categoryTw": "綜合"
   },
   {
     "id": "lacrimosa-character-preview",
@@ -5192,7 +6048,11 @@
     "seoDescriptionZh": "Lacrimosa是异环1.1版本新S级混沌角色，独特的武器切换机制与Bything协同效果详解。抽卡建议与配队分析。",
     "seoDescriptionEn": "Lacrimosa is NTE's new S-rank Chaos character in v1.1 with unique weapon switching and Bything synergy. Pull guide, team analysis and build preview.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環Lacrimosa（拉克里莫莎）是誰？值得抽嗎？武器切換機制詳解",
+    "answerTw": "Lacrimosa（拉克里莫莎）是異環1.1版本新增的S級角色：\n\n**基本資訊**：\n- 稀有度：S級\n- 屬性：Chaos（混沌）\n- 核心機制：武器切換\n- 上線版本：1.1前半\n\n**武器切換機制**：\nLacrimosa的最大亮點是獨特的武器切換系統：\n1. 可以在戰鬥中切換不同武器形態\n2. 每種武器形態擁有獨立的技能組和攻擊模式\n3. 切換武器時觸發特殊效果\n4. 操作上限極高，適合喜歡操作感的玩家\n\n**與Bything的協同**：\n- Lacrimosa與Bything存在特殊聯動機制\n- 兩人同隊時可觸發額外戰鬥效果\n- 具體倍率需等正式上線後確認\n\n**是否值得抽？**：\n- 如果你缺少混沌屬性主C：強烈推薦\n- 武器切換機制在二次元手遊中極為獨特\n- 與Bything的協同意味著配隊有額外收益\n- 操作型玩家會特別喜歡這個角色\n\n**零氪建議**：\n- 零氪玩家建議攢夠一個保底（90抽）再下池\n- 異環無50/50，保底必得Lacrimosa\n- 如果資源不夠，可以等後續復刻",
+    "categoryTw": "角色",
+    "seoTitleTw": "異環Lacrimosa值得抽嗎？武器切換機制、配隊與Build前瞻"
   },
   {
     "id": "v11-qol-grind-reduction",
@@ -5217,7 +6077,11 @@
     "seoDescriptionZh": "完美世界官方承认异环过于肝爆，1.1版本将大幅减少日常任务量、降低粉色爪币难度。减负详情与影响分析。",
     "seoDescriptionEn": "Perfect World admits NTE is too grindy. Version 1.1 reduces daily tasks, lowers Pink Paw Coin difficulty. Full QoL improvement breakdown.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環1.1版本會減少日常任務嗎？官方承認太肝的減負詳情",
+    "answerTw": "完美世界已正式確認將在1.1版本中減少日常負擔：\n\n**背景**：\n社群大量反饋日常任務過於繁重後，完美世界公開承認遊戲過於肝爆（grindy），並承諾在1.1版本中實施減負措施。這在遊戲行業中非常罕見。\n\n**確認的減負內容**：\n\n1. **每日任務減量**\n   - 從4個日常任務減少至2-3個\n   - 目標：日常控制在10分鐘以內\n\n2. **周常任務精簡**\n   - 減少重複性周常任務\n   - 保留核心獎勵不變\n\n3. **粉色爪幣活動調整**\n   - 粉色爪幣（Pink Paw Coin）活動難度過高\n   - 將在1.1中下調難度\n   - 讓更多玩家能夠完成\n\n4. **日常完成效率**\n   - 最佳化掃蕩流程\n   - 減少不必要的載入和等待\n\n**對玩家的影響**：\n- 日常時間從15-20分鐘降至約10分鐘\n- 每週可節省約1小時遊戲時間\n- 核心獎勵不會減少，只是獲取方式更高效\n\n**開發者態度**：\n完美世界表示這是「傾聽社群聲音的直接結果」，並承諾會持續監控玩家的日常負擔。如果1.1版本的減負不夠，將進一步調整。",
+    "categoryTw": "系統",
+    "seoTitleTw": "異環1.1版本減負詳情：官方承認太肝，日常任務減少、粉色爪幣下調"
   },
   {
     "id": "banner-schedule-roadmap-1-1",
@@ -5241,7 +6105,11 @@
     "seoDescriptionZh": "异环1.0-1.1版本完整卡池路线图：Hotori已上线，Lacrimosa和Chaos即将登场。零氪抽卡建议与保底规划。",
     "seoDescriptionEn": "Complete NTE banner roadmap v1.0-1.1: Hotori live, Lacrimosa & Chaos coming. F2P pull advice and pity planning guide.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環1.1版本卡池時間表：下一個限定角色是誰？抽卡路線圖",
+    "answerTw": "異環1.0-1.1版本卡池時間表（2026年5月更新）：\n\n**當前卡池（1.0末期）**：\n- Hotori（穗乃果）— S級·Anima — 5月13日已上線\n\n**1.1版本預估卡池**：\n\n| 卡池 | 角色 | 屬性 | 預估時間 |\n|------|------|------|----------|\n| 1.1前半 | Lacrimosa | Chaos（混沌） | 版本更新後 |\n| 1.1後半 | Chaos | 待確認 | 約後半段 |\n\n**抽卡建議（按玩家型別）**：\n\n| 玩家型別 | 建議 |\n|---------|------|\n| 零氪 | 每版本只抽一個保底，優先缺的屬性 |\n| 微氪 | 最多追2個限定角色 |\n| 收集黨 | 全都要（但準備好錢包） |\n\n**保底機制提醒**：\n- 90抽硬保底，必得當期UP（無50/50）\n- 保底在角色池之間繼承\n- 不用擔心版本末期抽卡浪費\n\n** Scarborough Fair系統**：\n異環使用獨特的棋盤式抽卡系統（Scarborough Fair），取代了傳統的祈願介面。每個格子都有獎勵，增加抽卡過程的趣味性。\n\n**資源規劃**：\n- 零氪每版本約可獲得80-90抽\n- 一個保底需要90抽\n- 合理規劃可以在每個版本抽到1個限定角色",
+    "categoryTw": "抽卡",
+    "seoTitleTw": "異環1.1卡池時間表 — Lacrimosa/Chaos上線順序與抽卡建議"
   },
   {
     "id": "free-s-rank-selector-box-guide",
@@ -5265,7 +6133,11 @@
     "seoDescriptionZh": "异环免费S级自选箱怎么选？按新手/有Chiz/配队方向给出最佳选择建议，附角色定位对比。",
     "seoDescriptionEn": "Which S-rank should you pick from NTE's free selector? Best choice by player situation with role comparisons.",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環免費S級自選箱怎麼選？哪個角色最值得選？",
+    "answerTw": "異環免費S級自選箱選擇指南：\n\n**獲取方式**：\n- 版本更新補償/活動獎勵\n- 完成特定條件後獲得\n\n**可選角色（預估）**：\n\n| 角色 | 定位 | 推薦指數 |\n|------|------|----------|\n| 娜娜莉(Nanally) | 主C/爆發 | ★★★★★ |\n| 零(Zero) | 主C/直傷 | ★★★★★ |\n| 哈尼爾(Haniel) | 增傷輔助 | ★★★★☆ |\n| 其他S級常駐 | 各定位 | ★★★☆☆ |\n\n**選擇建議**：\n\n### 純新手（無任何S級）\n選**娜娜莉**或**零**作為主C。有一個強力主C是新手最重要的。\n\n### 有小吱(Chiz)的玩家\n小吱已經是T0主C，可以考慮選**哈尼爾**作為通用增傷輔助，配隊更靈活。\n\n### 有特定配隊方向的玩家\n- 想玩濁燃隊 → 看是否有白藏/達芙迪爾\n- 想玩AOE隊 → 看是否有哈索爾\n- 缺生存 → 看是否有阿德勒\n\n**注意事項**：\n- 自選箱通常不包含當期限定角色\n- Lacrimosa等1.1新角色可能不在自選箱中\n- 選擇後不可更改，請謹慎考慮\n\n**小吱不算在自選箱內**：\n小吱通過都市大亨免費獲取，不佔自選箱名額。所以你可以同時擁有小吱+自選角色。",
+    "categoryTw": "抽卡",
+    "seoTitleTw": "異環免費S級自選箱選擇攻略 — 娜娜莉、零、哈尼爾誰最值得選？"
   },
   {
     "id": "arc-banner-odds-explained",
@@ -5283,7 +6155,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環弧盤（武器）池機率為什麼爭議很大？值得抽嗎？",
+    "answerTw": "弧盤池的核心問題是「75%歪率」：雖然出S級弧盤的硬保底只有60抽，但抽出S級時只有25%機率是當期UP弧盤，75%會歪到非UP武器。UP弧盤的硬保底是80抽，累計120抽可直接兌換指定弧盤。相比之下，角色池90保底不歪，期望僅53.5抽。綜合來看弧盤池的期望成本約為角色池的1.5-2倍。建議零氪/微氪玩家優先抽角色，弧盤可後期慢慢攢。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "expected-pull-count-each-banner",
@@ -5300,7 +6175,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環各卡池期望抽數是多少？平均多少抽出金？",
+    "answerTw": "限定角色池：期望約53.5抽獲得當期UP角色（90硬保底，74抽開始軟保底，不歪機制），非常良心。弧盤/武器池：出任意S級期望約48抽（60硬保底），但拿到UP弧盤期望約74抽（因75%歪率），80抽硬保底UP。常駐池：期望約53.5抽。新手池：固定20抽必出S級+自選。總結：角色池是價效比最高的池子，期望53.5抽必得當期UP角色。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "mobile-optimization-tips",
@@ -5319,7 +6197,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Troubleshooting",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環移動端卡頓發熱怎麼辦？最佳畫面設定推薦",
+    "answerTw": "異環基於虛幻引擎5開發，對移動端硬體要求較高。最佳化建議：1）降低畫面質量至「流暢」或「均衡」；2）關閉抗鋸齒和陰影；3）鎖定30幀（設定→畫面→幀率）；4）關閉後臺應用釋放記憶體；5）確保儲存空間充足（建議預留15GB以上）。中端手機（驍龍778G/天璣8100以上）推薦「均衡+30幀」設定。高階手機（驍龍8 Gen2以上）可嘗試「高畫質+60幀」。1.1版本已針對移動端做了專項最佳化，發熱和幀率穩定性有所改善。",
+    "categoryTw": "技術支援"
   },
   {
     "id": "bug-exploit-ban-policy",
@@ -5337,7 +6218,10 @@
     "categoryZh": "游戏Bug",
     "categoryEn": "Game Bugs",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環利用BUG會被封號嗎？官方處罰規則是什麼？",
+    "answerTw": "官方明確表示將持續監控並處理所有破壞公平遊戲環境的行為。利用遊戲BUG獲取不正當利益、傳播BUG教程均可能被處罰。此前有玩家因釋出BUG教學影片被處以超長封禁。建議：1）發現BUG後通過官方渠道反饋（客服、官方社群）；2）不要利用BUG獲取不當利益；3）不要傳播BUG教程。官方會定期釋出違規賬號處罰公示。如遇到BUG導致的損失，可通過客服申請補償。",
+    "categoryTw": "遊戲Bug"
   },
   {
     "id": "gacha-pity-carry-over-details",
@@ -5354,7 +6238,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環保底會繼承到下一個卡池嗎？具體規則是什麼？",
+    "answerTw": "保底繼承規則如下：1）限定角色池之間的保底計數會繼承（如當前池抽了50次沒出S級，下個限定池從50開始計數）；2）弧盤/武器池之間的保底計數也會繼承；3）但不同型別卡池之間保底不互通（如角色池的保底不計入武器池）；4）新手池是獨立的，不計入其他池。重要提示：角色池不設50/50機制，出S級必為當期UP角色；弧盤池出S級時僅25%機率為UP弧盤，需要額外注意。",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "pricing-and-value-analysis",
@@ -5372,7 +6259,10 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Monetization",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環氪金價效比怎麼樣？月卡值得買嗎？",
+    "answerTw": "異環的商業化模式屬於二次元抽卡遊戲的標準模式。角色池期望53.5抽獲得UP角色（約53.5×160=8560方斯），相比同類遊戲較為良心。公測前前瞻直播中的福利和定價策略曾引發爭議，但後續版本持續增加福利。建議：1）零氪玩家可正常遊玩，公測470+抽福利足夠組建強力陣容；2）月卡（如有）通常價效比最高；3）優先抽角色，弧盤池期望成本約為角色池1.5-2倍；4）合理規劃環石使用，避免衝動消費。",
+    "categoryTw": "充值與賬號"
   },
   {
     "id": "mobile-optimization-guide",
@@ -5392,7 +6282,10 @@
     "categoryZh": "技术支持",
     "categoryEn": "Troubleshooting",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環手機端最佳化設定推薦？怎麼減少卡頓發熱？",
+    "answerTw": "異環採用UE5引擎，對手機效能要求較高。以下是各檔次裝置的推薦設定：\n\n**最低配置（驍龍855/天璣1000+/A14）**：\n- 畫質預設：低\n- 解析度：720p\n- 幀率目標：30FPS\n- 關閉體積光、後處理特效\n- 戰鬥場景約20-25幀\n\n**推薦配置（驍龍8 Gen2/A15及以上）**：\n- 畫質預設：均衡\n- 解析度：1080p\n- 幀率目標：30-60FPS\n- 開啟畫面生成功能提升幀率\n\n**通用最佳化建議**：\n- 關閉後臺應用，釋放記憶體\n- 開啟手機遊戲加速/效能模式\n- 低配裝置建議使用散熱背夾\n- 確保儲存空間充足（建議預留30GB以上）\n- 網路不穩定時使用加速器\n- 過場動畫時可能出現黑屏，等待即可\n\n**如果仍然卡頓**：\n- 嘗試雲遊戲方案（低配裝置推薦）\n- 關注官方更新，1.0公測後已釋出多次最佳化補丁\n- 官方已在4月28日致歉信中承諾持續最佳化移動端體驗",
+    "categoryTw": "技術支援"
   },
   {
     "id": "ban-rules-and-penalties",
@@ -5412,7 +6305,10 @@
     "categoryZh": "充值与账号",
     "categoryEn": "Account & Billing",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環什麼行為會封號？封號規則和處罰力度是怎樣的？",
+    "answerTw": "異環的封號政策非常嚴格，以下行為會被處罰：\n\n**永久封禁**：\n- 使用外掛、加速器、作弊器\n- 惡意利用BUG複製資源（如禮物系統複製漏洞）\n- 賬號交易/共享\n\n**長期封禁**：\n- 傳播BUG利用教程（尤其是繫結創作激勵活動的）\n- 使用MOD修改遊戲檔案（已有封禁36000天的案例）\n- 使用宏/指令碼自動化操作\n\n**重要事件提醒**：\n- 公測初期禮物系統出現複製BUG，官方一次性封禁600餘個賬號\n- 有UP主因釋出BUG教學影片且繫結創作激勵，被通過活動系統鎖定，封禁100年\n- 海外玩家因使用MOD被ban 36000天\n\n**關於MOD的風險提示**：\n- 官方明確禁止任何形式的MOD\n- 即使是純外觀MOD也有被封禁的風險\n- 部分玩家使用.pak檔案修改後短期內未被封，但不代表安全\n- 建議：不要使用任何MOD，等待官方推出自定義功能\n\n**如何避免封號**：\n- 不要使用任何第三方工具\n- 遇到BUG及時向官方反饋，不要利用\n- 不要分享/出售賬號\n- 不要傳播BUG利用方法",
+    "categoryTw": "充值與賬號"
   },
   {
     "id": "arc-disc-gacha-controversy",
@@ -5432,7 +6328,10 @@
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環弧盤池機率為什麼被吐槽？弧盤池和角色池有什麼區別？",
+    "answerTw": "這是異環社群最大的抽卡爭議點。角色池「不歪」備受好評，但弧盤池（武器池）的75%歪率引發強烈不滿。\n\n**角色池（限時UP池）**：\n- S級基礎出率：0.99%\n- 70抽後觸發軟保底，S級出率提升至19.59%\n- 90抽硬保底必出S級\n- **關鍵優勢：不歪** — 沒有50/50，保底必出當期UP角色\n- 保底次數跨池繼承\n- 期望約53.5抽出UP角色\n\n**弧盤池（武器池）**：\n- S級弧盤基礎出率：3%（含保底4.19%）\n- 限定S級弧盤出率：1.68%\n- 使用「三重鑰匙」貨幣，只允許十連抽\n- **核心爭議**：第6次十連（60抽）出S級弧盤時，僅25%機率為當期UP，75%為常駐S級弧盤\n- 第8次十連（80抽）才保底出限定UP弧盤\n- 最壞情況需要140抽才能獲得UP弧盤\n- 沒有軟保底機制\n\n**社群核心矛盾**：角色池以「不歪」為核心賣點，但弧盤池的75%歪率形成鮮明對比。許多玩家認為這是「把角色池的良心從武器池找回來」。\n\n**抽卡建議**：\n- 優先抽角色池，角色對體驗提升更大\n- 弧盤池量力而行，不必強求限定\n- 充分利用武器不再繫結抽卡的設計——可通過世界BOSS、周本等免費獲取",
+    "categoryTw": "抽卡系統"
   },
   {
     "id": "is-nte-pay-to-win",
@@ -5452,7 +6351,10 @@
     "categoryZh": "综合",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環是氪金遊戲嗎？不充錢能玩嗎？商業化模式分析",
+    "answerTw": "異環的商業化在二次元抽卡遊戲中屬於中等偏友好的水平，不是pay-to-win。\n\n**對免費玩家友好**：\n- 公測贈送470+抽，足夠組建強力陣容\n- 角色池不歪，平均53.5抽出UP角色，遠優於同類遊戲的50/50機制\n- 武器不再繫結抽卡——可通過世界BOSS、周本、主線等活動免費獲取\n- 徹底取消隨機詞條，裝備養成無隨機坑\n- 月卡黨即可輕鬆全形色\n\n**氪金點**：\n- 角色抽卡（環石/方斯）\n- 弧盤池（三重鑰匙，75%歪率是主要爭議點）\n- 外觀/時裝\n- 月卡和通行證（價效比最高）\n\n**與同類遊戲對比**：\n- 比原神更友好：角色池不歪、武器免費獲取、無隨機詞條\n- 比鳴潮更友好：公測福利更豐厚\n- 商業化整體偏剋制，甚至有行業分析者擔憂「大R想花錢找不到地方」\n\n**總結**：異環不是pay-to-win。免費玩家可以正常體驗全部內容，氪金主要加速角色收集和獲取外觀。推薦策略：月卡+免費福利即可獲得優質體驗。",
+    "categoryTw": "綜合"
   },
   {
     "id": "faq-prison-trigger",
@@ -5469,7 +6371,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環通緝怎麼觸發？",
+    "answerTw": "交通違規（闖紅燈、超速）觸發一星通緝，搶車或破壞公共財產觸發二星，在公共場合使用武器或襲警觸發三星。日常駕駛遵守交通規則可以完全避免通緝。",
+    "categoryTw": "玩法"
   },
   {
     "id": "faq-prison-escape",
@@ -5486,7 +6391,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環監獄怎麼越獄？",
+    "answerTw": "監獄有5種越獄路線：地道挖掘（偷勺子挖牆）、高空繩索（收集布料合成繩索）、潛行逃脫（通過NPC獄友配合）、化學腐蝕（偷消毒液腐蝕欄杆）、假死偽裝（用藥劑假死被運出）。最簡單的是地道挖掘，最省事的是假死偽裝。",
+    "categoryTw": "玩法"
   },
   {
     "id": "faq-prison-penalty",
@@ -5502,7 +6410,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環入獄有什麼懲罰？",
+    "answerTw": "三星通緝被捕後會被押送至中央監獄。可以交罰金直接出獄，或者掛機等待7天刑滿釋放。越獄成功可獲得免費純獄風時裝，擊敗獄霸BOSS可解鎖四人格鬥玩法。",
+    "categoryTw": "玩法"
   },
   {
     "id": "faq-pity-inherit",
@@ -5519,7 +6430,10 @@
     "categoryZh": "抽卡",
     "categoryEn": "Gacha",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環保底不繼承跨池怎麼辦？",
+    "answerTw": "異環的保底計數在同一型別的卡池之間會繼承。限定角色池之間的保底互相繼承，常駐池保底獨立計算。關注每個卡池的保底計數，合理規劃抽卡資源。",
+    "categoryTw": "抽卡"
   },
   {
     "id": "faq-f2p-viable",
@@ -5536,7 +6450,10 @@
     "categoryZh": "新手",
     "categoryEn": "Beginner",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環零氪能玩嗎？",
+    "answerTw": "異環對零氪玩家非常友好。抽卡不歪（沒有50/50機制），平均53.5抽出限定角色。武器不需要抽卡，通過遊戲內獲取。零氪玩家累計可獲得470抽以上的免費資源，1.1版本可白嫖約9200環石。",
+    "categoryTw": "新手"
   },
   {
     "id": "faq-platform-ps5",
@@ -5553,7 +6470,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環PS5可以玩嗎？",
+    "answerTw": "可以。《異環》於2026年4月23日全平臺公測，支援PC、安卓、iOS、Mac、鴻蒙和PlayStation 5。PS5版本與PC和移動端資料互通，支援跨平臺遊玩。",
+    "categoryTw": "平臺"
   },
   {
     "id": "faq-cn-vs-global",
@@ -5570,7 +6490,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環國服和國際服有什麼區別？",
+    "answerTw": "國服由完美世界運營，國際服由Hotta Studio直接運營。內容更新節奏基本同步，但兌換碼可能不同（部分兌換碼僅限特定區域）。資料不互通，國服和國際服賬號獨立。",
+    "categoryTw": "平臺"
   },
   {
     "id": "faq-cross-save",
@@ -5586,7 +6509,10 @@
     "categoryZh": "平台",
     "categoryEn": "Platform",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環資料互通嗎？",
+    "answerTw": "是的。同一賬號可在PC、安卓、iOS、鴻蒙四大平臺登入並同步遊戲進度。PS5也支援跨平臺存檔同步。但國服和國際服資料不互通。",
+    "categoryTw": "平臺"
   },
   {
     "id": "faq-mute-taygedo",
@@ -5605,7 +6531,10 @@
     "relatedCharacters": [
       "taygedo"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼關閉Taygedo的聲音？",
+    "answerTw": "2026年6月3日的更新中，官方新增了靜音Taygedo的功能。在遊戲設定中找到相關選項即可關閉這隻水獺NPC的語音。這是社群呼聲最高的功能之一。",
+    "categoryTw": "玩法"
   },
   {
     "id": "faq-lacrimosa-team",
@@ -5624,7 +6553,10 @@
     "relatedCharacters": [
       "lacrimosa"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環安魂曲需要早霧嗎？",
+    "answerTw": "安魂曲的強度高度依賴配隊。沒有早霧時DPS可能損失30%以上，因為早霧提供的增益對安魂曲的暗屬性持續傷害體系非常關鍵。如果有早霧，安魂曲是T0級輸出；沒有的話建議1命即可，不要強抽6命。",
+    "categoryTw": "配隊"
   },
   {
     "id": "faq-shinku-release",
@@ -5643,7 +6575,10 @@
     "relatedCharacters": [
       "zhenhong"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環真紅什麼時候出？",
+    "answerTw": "真紅（Shinku）是1.2版本的限定S級角色，預計於2026年7月2日上線。她是光屬性主C，擁有獨特的「盈蓄」機制，被認為是版本T0級角色。",
+    "categoryTw": "角色"
   },
   {
     "id": "faq-unlock-driving",
@@ -5660,7 +6595,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環多少級解鎖駕駛？",
+    "answerTw": "駕駛功能通過主線劇情自動解鎖，不需要特定等級。推進主線到一定階段後，系統會贈送AE86並開放駕駛功能。建議儘快推進主線以解鎖更多玩法。",
+    "categoryTw": "玩法"
   },
   {
     "id": "faq-unlock-housing",
@@ -5677,7 +6615,10 @@
     "categoryZh": "玩法",
     "categoryEn": "Gameplay",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環怎麼買房？多少級解鎖？",
+    "answerTw": "房屋系統通過都市大亨等級解鎖。達到對應等級後，可以前往房產中介選購不同價位的公寓和別墅。最便宜的房產約750萬方斯起。買房後可以邀請室友同居，佈置傢俱。",
+    "categoryTw": "玩法"
   },
   {
     "id": "faq-ai-controversy",
@@ -5694,7 +6635,10 @@
     "categoryZh": "综合",
     "categoryEn": "General",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環AI素材爭議是怎麼回事？",
+    "answerTw": "2026年4月29日全球上線後，玩家發現部分背景美術素材疑似AI生成。VTuber Ironmouse公開批評後引發國際社群廣泛關注。5月7日Hotta Studio官方承認使用了AI生成部分背景素材，並承諾重新制作這些內容。中文社群對此關注度較低，英文社群反應強烈。",
+    "categoryTw": "綜合"
   },
   {
     "id": "nte-wipe-data-launch",
@@ -5712,7 +6656,10 @@
     "categoryZh": "账号与数据",
     "categoryEn": "Account & Data",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環公測會刪檔嗎？付費測試的進度保留嗎？",
+    "answerTw": "不會刪檔。異環國服 4 月 23 日、國際服 4 月 29 日的公測即正式上線，賬號資料永久保留。之前的付費測試/不計費測試資料按官方公告處理——通常測試期資料會在公測前清除，但公測後的所有進度、角色、充值都不會再被刪除。簡單說：公測之後玩，資料就是永久的。",
+    "categoryTw": "賬號與資料"
   },
   {
     "id": "nte-cross-platform-account",
@@ -5730,7 +6677,10 @@
     "categoryZh": "账号与数据",
     "categoryEn": "Account & Data",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環是跨平臺賬號互通的嗎？手機和 PC 能一起玩嗎？",
+    "answerTw": "異環支援同一賬號在不同裝置登入（手機、PC、PS5），但要注意區分發行渠道。國服賬號在國服各平臺通用，國際服賬號在國際服各平臺通用。Steam 版（7 月 22 日發售）上線後預計接入國際服賬號體系。注意：國服和國際服賬號完全不互通，無法互轉。",
+    "categoryTw": "賬號與資料"
   },
   {
     "id": "nte-pity-carry-over",
@@ -5751,7 +6701,10 @@
       "illica",
       "zhenhong"
     ],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環限定卡池保底會繼承到下一期嗎？",
+    "answerTw": "會繼承。異環限定角色池的保底計數跨期繼承——比如 1.2 上半伊洛伊卡池抽了 50 抽沒出貨，下半真紅卡池繼續抽時會從 50 抽開始累計，到 90 抽必得當期 UP。注意：限定池、常駐池、武器池、新手池的保底是分開計算的，互不影響。異環沒有 50/50，抽到 S 級必為當期 UP 角色。",
+    "categoryTw": "抽卡機制"
   },
   {
     "id": "nte-paid-test-refund",
@@ -5769,7 +6722,10 @@
     "categoryZh": "账号与数据",
     "categoryEn": "Account & Data",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環付費測試充值的錢會返還嗎？",
+    "answerTw": "按官方公告，付費測試期間的充值通常會按一定比例轉化為公測後的遊戲內貨幣返還到同一賬號。具體返還規則以官方公告為準。如果你參與過付費測試，建議登入原賬號檢視郵件或充值記錄。公測後的充值則正常消費，不再涉及返還機制。",
+    "categoryTw": "賬號與資料"
   },
   {
     "id": "nte-region-lock",
@@ -5788,7 +6744,10 @@
     "categoryZh": "账号与数据",
     "categoryEn": "Account & Data",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環國服和國際服能一起玩嗎？資料能遷移嗎？",
+    "answerTw": "不能。國服和國際服是完全獨立的伺服器，賬號、角色、抽卡記錄、好友、充值都不互通，也無法互相遷移或跨服聯機。如果和朋友一起玩，務必提前確認在同一個伺服器。詳細的國服 vs 國際服區別（上線時間差、卡池、評分等）可以參考我們的國服 vs 國際服對比頁。",
+    "categoryTw": "賬號與資料"
   },
   {
     "id": "nte-rabbit-hole-bug-double-standard",
@@ -5807,7 +6766,10 @@
     "categoryZh": "争议与事件",
     "categoryEn": "Controversies",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環「兔子洞」BUG 雙標事件是怎麼回事？",
+    "answerTw": "2026 年 5 月 9-11 日，國服爆發「兔子洞」BUG 爭議：部分玩家利用遊戲 BUG 獲取不當收益後，官方被指在回收處理時存在選擇性執法——對部分玩家回收、對另一些不回收，引發「雙標」質疑。這是公測以來國服最大的公關危機之一，玩家最在意的核心是執法一致性。官方後續回應表示會統一處罰標準，但事件對 TapTap 國服評分（7.0）造成持續影響。客觀來看，任何 BUG 利用都違反使用者協議，玩家應避免嘗試；同時官方也有責任保證處罰標準的透明與一致。",
+    "categoryTw": "爭議與事件"
   },
   {
     "id": "nte-ps5-player-100-year-ban",
@@ -5826,7 +6788,10 @@
     "categoryZh": "争议与事件",
     "categoryEn": "Controversies",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環 PS 玩家利用 BUG 被封 100 年是真的嗎？",
+    "answerTw": "是的。2026 年 5 月 11 日前後，一名 PS 平臺玩家因利用遊戲內 BUG 被處以極長期封禁，封禁時長顯示為約 100 年，引發「處罰過嚴」的廣泛爭議。事件背景是當時官方正在嚴厲打擊 BUG 利用行為，但百年封禁的量級讓很多玩家認為處罰力度與違規程度不匹配。此事與「兔子洞」BUG 雙標事件疊加，共同推高了 5 月國服的輿論壓力。客觀提醒：BUG 利用不論時長都違反使用者協議，可能觸發封號；遇到 BUG 應通過官方渠道反饋，而非利用。",
+    "categoryTw": "爭議與事件"
   },
   {
     "id": "nte-ironmouse-collab-cancelled",
@@ -5845,6 +6810,9 @@
     "categoryZh": "争议与事件",
     "categoryEn": "Controversies",
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "questionTw": "異環 Ironmouse 為什麼取消合作？和 AI 爭議有關嗎？",
+    "answerTw": "有關。2026 年 4 月底至 5 月，異環爆出部分美術素材疑涉 AI 生成內容，引發國際服最大聲譽危機。知名 VTuber Ironmouse 在爭議期間宣佈取消與異環的聯動合作，成為國際輿論標誌性事件之一。官方後續承認部分素材問題並承諾重做，一定程度上緩解了爭議。這件事加上「反 AI」社群的擴散，是國際服聲譽壓力的主要來源。對於玩家而言，是否繼續遊玩屬於個人選擇，瞭解事件背景有助於理性判斷。",
+    "categoryTw": "爭議與事件"
   }
 ]
