@@ -690,7 +690,8 @@
   "kardz": {
     "title": "NTE Global Recharge",
     "subtitle": "Safe & Fast Top-up",
-    "badge": "Recommended"
+    "badge": "Recommended",
+    "disclosure": "Sponsored · we may earn a commission"
   },
   "footer": {
     "tierList": "Tier List",
@@ -704,7 +705,14 @@
   },
   "header": {
     "joinDiscord": "Join Discord",
-    "joinReddit": "Join Reddit"
+    "joinReddit": "Join Reddit",
+    "toggleMenu": "Toggle navigation menu",
+    "openGuidesTools": "Open guides and tools menu",
+    "OpenDatabase": "Open database menu",
+    "openWikiMenu": "Open wiki menu",
+    "changeLanguage": "Change language",
+    "openSearch": "Open search",
+    "closeSearch": "Close search"
   },
   "quickLinks": {
     "title": "Quick Links:"

@@ -113,6 +113,9 @@ export function Header() {
                   onMouseLeave={() => scheduleClose(item.key!)}
                 >
                   <button
+                    aria-expanded={openDropdown === item.key}
+                    aria-haspopup="menu"
+                    aria-label={t(lang, `header.${item.key === "guides-tools" ? "openGuidesTools" : item.key === "database" ? "OpenDatabase" : item.key === "wiki" ? "openWikiMenu" : "toggleMenu"}`)}
                     className={`text-sm whitespace-nowrap transition-colors hover:text-primary-400 flex items-center gap-1 px-2 py-1 ${
                       isDropdownActive(item)
                         ? "text-primary-400 font-medium"
@@ -191,6 +194,9 @@ export function Header() {
               <button
                 onClick={() => setLangMenuOpen(!langMenuOpen)}
                 onBlur={() => setTimeout(() => setLangMenuOpen(false), 200)}
+                aria-expanded={langMenuOpen}
+                aria-haspopup="menu"
+                aria-label={t(lang, "header.changeLanguage")}
                 className="text-sm text-gray-500 hover:text-primary-400 border border-gray-700 rounded px-2 py-0.5 flex items-center gap-1 max-w-[120px]"
               >
                 <span className="truncate">{LOCALE_NATIVE_NAME[lang]}</span>
@@ -224,7 +230,8 @@ export function Header() {
         <button
           className="lg:hidden p-2 text-gray-400 hover:text-white"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+          aria-label={t(lang, "header.toggleMenu")}
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             {menuOpen ? (

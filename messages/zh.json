@@ -709,7 +709,8 @@
   "kardz": {
     "title": "异环国际服代充",
     "subtitle": "安全便捷 · 即刻到账",
-    "badge": "推荐"
+    "badge": "推荐",
+    "disclosure": "广告 · 我们可能获得佣金"
   },
   "footer": {
     "tierList": "强度排行",
@@ -723,7 +724,14 @@
   },
   "header": {
     "joinDiscord": "加入 Discord 社区",
-    "joinReddit": "加入 Reddit 社区"
+    "joinReddit": "加入 Reddit 社区",
+    "toggleMenu": "切换导航菜单",
+    "openGuidesTools": "打开攻略与工具菜单",
+    "OpenDatabase": "打开数据库菜单",
+    "openWikiMenu": "打开 Wiki 菜单",
+    "changeLanguage": "切换语言",
+    "openSearch": "打开搜索",
+    "closeSearch": "关闭搜索"
   },
   "quickLinks": {
     "title": "快速导航："

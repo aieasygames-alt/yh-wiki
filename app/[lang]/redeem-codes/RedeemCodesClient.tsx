@@ -54,7 +54,9 @@ export function RedeemCodesClient({ lang }: { lang: string }) {
   const locale = lang as Locale;
 
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
-  const [filter, setFilter] = useState<"all" | "active" | "expired">("all");
+  // Default to "active" so users landing on the page see usable codes first
+  // rather than the 19 expired ones. They can switch to "all" / "expired".
+  const [filter, setFilter] = useState<"all" | "active" | "expired">("active");
   const [region, setRegion] = useState<"all" | "cn" | "global">("all");
   const [now, setNow] = useState<Date | null>(null);
 

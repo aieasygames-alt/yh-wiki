@@ -75,7 +75,7 @@ export function Footer() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="text-sm text-gray-500 hover:text-primary-400 transition-colors break-words"
+                      className="text-sm text-gray-400 hover:text-primary-400 transition-colors break-words"
                     >
                       {link.label}
                     </Link>
@@ -85,7 +85,7 @@ export function Footer() {
             </div>
           ))}
         </div>
-        <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
+        <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-400">
           <div className="flex items-center justify-center gap-2 mb-2">
             <Logo size={20} />
             <span className="text-primary-400 font-semibold">{t(lang, "site.title")}</span>
@@ -115,7 +115,7 @@ export function Footer() {
             </a>
           </div>
           <p>&copy; {new Date().getFullYear()} {t(lang, "site.title")}</p>
-          <p className="mt-1 text-gray-600">
+          <p className="mt-1 text-gray-500">
             {t(lang, "footer.disclaimer")}
           </p>
         </div>

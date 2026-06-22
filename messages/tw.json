@@ -691,7 +691,8 @@
   "kardz": {
     "title": "異環國際服代儲",
     "subtitle": "安全便捷 · 即刻到帳",
-    "badge": "推薦"
+    "badge": "推薦",
+    "disclosure": "廣告 · 我們可能獲得分潤"
   },
   "footer": {
     "tierList": "強度排行",
@@ -705,7 +706,14 @@
   },
   "header": {
     "joinDiscord": "加入 Discord 社群",
-    "joinReddit": "加入 Reddit 社群"
+    "joinReddit": "加入 Reddit 社群",
+    "toggleMenu": "切換導航選單",
+    "openGuidesTools": "開啟攻略與工具選單",
+    "OpenDatabase": "開啟資料庫選單",
+    "openWikiMenu": "開啟 Wiki 選單",
+    "changeLanguage": "切換語言",
+    "openSearch": "開啟搜尋",
+    "closeSearch": "關閉搜尋"
   },
   "quickLinks": {
     "title": "快速導航："

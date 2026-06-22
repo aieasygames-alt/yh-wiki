@@ -88,7 +88,7 @@ export default async function HomePage({
                   ? "异环(NTE)最全攻略百科：角色排行、配装、交互地图、兑换码、下载安装"
                   : "Tier list, builds, interactive map, codes, guides & calculators"}
             </p>
-            <p className="mt-3 text-sm text-gray-500 max-w-2xl mx-auto">
+            <p className="mt-3 text-sm text-gray-400 max-w-2xl mx-auto">
               {locale === "tw"
                 ? "異環(NTE)百科攻略站，收錄全角色圖鑑與Build推薦、強度排行、互動地圖(含收集品標記)、最新兌換碼、下載安裝教程、DPS計算器等工具。每日更新。"
                 : isZhLocale(locale)
@@ -112,7 +112,7 @@ export default async function HomePage({
             ].map((stat) => (
               <Link key={stat.label} href={stat.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center hover:border-primary-500/30 transition-colors">
                 <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
-                <p className="text-xs text-gray-500 mt-1">{stat.label}</p>
+                <p className="text-xs text-gray-400 mt-1">{stat.label}</p>
               </Link>
             ))}
           </div>
@@ -208,7 +208,7 @@ export default async function HomePage({
               <Link key={tool.href} href={tool.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group">
                 <span className="text-2xl">{tool.icon}</span>
                 <h3 className="text-base font-bold mt-3 group-hover:text-primary-400 transition-colors">{tool.title}</h3>
-                <p className="text-sm text-gray-500 mt-1">{tool.desc}</p>
+                <p className="text-sm text-gray-400 mt-1">{tool.desc}</p>
               </Link>
             ))}
             <KardzPromoCard locale={locale} variant="card" />
@@ -232,7 +232,7 @@ export default async function HomePage({
                 <h3 className="text-base font-medium mt-2">
                   {isZhLocale(locale) ? g.title : g.titleEn}
                 </h3>
-                <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                <p className="text-sm text-gray-400 mt-1 line-clamp-2">
                   {isZhLocale(locale) ? g.summary : g.summaryEn}
                 </p>
               </Link>
@@ -255,12 +255,12 @@ export default async function HomePage({
                   <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
                     {isZhLocale(locale) ? post.categoryZh : post.categoryEn}
                   </span>
-                  <time className="text-xs text-gray-500" dateTime={post.date}>{post.date}</time>
+                  <time className="text-xs text-gray-400" dateTime={post.date}>{post.date}</time>
                 </div>
                 <h3 className="text-base font-medium line-clamp-2">
                   {locale === "tw" ? (post.titleTw || post.title) : isZhLocale(locale) ? post.title : post.titleEn}
                 </h3>
-                <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                <p className="text-sm text-gray-400 mt-1 line-clamp-2">
                   {locale === "tw" ? (post.summaryTw || post.summary) : isZhLocale(locale) ? post.summary : post.summaryEn}
                 </p>
               </Link>
@@ -301,7 +301,7 @@ export default async function HomePage({
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>
-                <p className="text-xs text-gray-500 mt-0.5">{link.desc}</p>
+                <p className="text-xs text-gray-400 mt-0.5">{link.desc}</p>
               </Link>
             ))}
           </div>

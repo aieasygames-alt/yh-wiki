@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-const GA_ID = "G-KLVBV8S58R";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-KLVBV8S58R";
 
 export interface TrackEventParams {
   event: string;
