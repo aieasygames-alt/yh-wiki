@@ -201,8 +201,11 @@ describe("FaqSchema", () => {
   });
 
   it("defaults tags, relatedCharacters, relatedMaterials to empty arrays when missing", () => {
-    const { tags, relatedCharacters, relatedMaterials, ...rest } = validFaq;
-    const parsed = FaqSchema.parse(rest);
+    // Build a copy of validFaq with the three array fields removed, to verify
+    // they fall back to their .default([]).
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { tags, relatedCharacters, relatedMaterials, ...stripped } = validFaq;
+    const parsed = FaqSchema.parse(stripped);
     expect(parsed.tags).toEqual([]);
     expect(parsed.relatedCharacters).toEqual([]);
     expect(parsed.relatedMaterials).toEqual([]);
