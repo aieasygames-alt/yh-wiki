@@ -105,6 +105,35 @@ export const WeaponsArraySchema = z.array(WeaponSchema);
 export const MaterialsArraySchema = z.array(MaterialSchema);
 export const CharacterMaterialsArraySchema = z.array(CharacterMaterialSchema);
 
+export const FaqSchema = z.object({
+  id: z.string(),
+  question: z.string(),
+  questionEn: z.string(),
+  questionTw: z.string().optional(),
+  answer: z.string(),
+  answerEn: z.string(),
+  answerTw: z.string().optional(),
+  category: z.string(),
+  categoryZh: z.string().optional(),
+  categoryEn: z.string().optional(),
+  categoryTw: z.string().optional(),
+  tags: z.array(z.string()).default([]),
+  relatedCharacters: z.array(z.string()).default([]),
+  relatedMaterials: z.array(z.string()).default([]),
+  // Optional SEO overrides (not all FAQs have these)
+  seoTitleZh: z.string().optional(),
+  seoTitleEn: z.string().optional(),
+  seoTitleTw: z.string().optional(),
+  seoDescriptionZh: z.string().optional(),
+  seoDescriptionEn: z.string().optional(),
+  seoDescriptionTw: z.string().optional(),
+  quickAnswer: z.string().optional(),
+  quickAnswerEn: z.string().optional(),
+  extraFaqSchema: z.array(z.any()).optional(),
+});
+
+export const FaqsArraySchema = z.array(FaqSchema);
+
 /**
  * Validate data at load time. Throws on failure so data errors surface
  * during the build rather than rendering as `undefined` in production.

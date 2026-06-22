@@ -10,6 +10,8 @@ import {
   LevelRangeSchema,
   CharacterMaterialSchema,
   CharacterMaterialsArraySchema,
+  FaqSchema,
+  FaqsArraySchema,
 } from "../schemas";
 
 describe("AttributeEnum", () => {
@@ -149,5 +151,70 @@ describe("Array schemas", () => {
       { characterId: "adler", levelingMaterials: [], skillMaterials: [] },
     ];
     expect(CharacterMaterialsArraySchema.parse(arr)).toHaveLength(1);
+  });
+});
+
+describe("FaqSchema", () => {
+  const validFaq = {
+    id: "ps5-price",
+    question: "PS5 多少钱？",
+    questionEn: "How much is PS5?",
+    answer: "...",
+    answerEn: "...",
+    category: "platform",
+    tags: ["ps5"],
+    relatedCharacters: [],
+    relatedMaterials: [],
+  };
+
+  it("validates a minimal FAQ with required fields only", () => {
+    expect(FaqSchema.parse(validFaq)).toEqual(expect.objectContaining({
+      id: "ps5-price",
+      category: "platform",
+    }));
+  });
+
+  it("rejects FAQ without question", () => {
+    expect(() => FaqSchema.parse({ ...validFaq, question: undefined })).toThrow();
+  });
+
+  it("rejects FAQ without answerEn", () => {
+    expect(() => FaqSchema.parse({ ...validFaq, answerEn: undefined })).toThrow();
+  });
+
+  it("accepts optional tw fields and SEO overrides", () => {
+    const full = {
+      ...validFaq,
+      questionTw: "PS5 多少錢？",
+      answerTw: "...",
+      categoryZh: "平台",
+      categoryEn: "Platform",
+      categoryTw: "平臺",
+      seoTitleZh: "PS5 价格",
+      seoTitleEn: "PS5 Price",
+      seoDescriptionZh: "...",
+      seoDescriptionEn: "...",
+      quickAnswer: "免费",
+      quickAnswerEn: "Free",
+    };
+    expect(() => FaqSchema.parse(full)).not.toThrow();
+  });
+
+  it("defaults tags, relatedCharacters, relatedMaterials to empty arrays when missing", () => {
+    const { tags, relatedCharacters, relatedMaterials, ...rest } = validFaq;
+    const parsed = FaqSchema.parse(rest);
+    expect(parsed.tags).toEqual([]);
+    expect(parsed.relatedCharacters).toEqual([]);
+    expect(parsed.relatedMaterials).toEqual([]);
+  });
+});
+
+describe("FaqsArraySchema", () => {
+  it("validates an array of FAQs", () => {
+    const arr = [
+      { id: "f1", question: "q1", questionEn: "q1en", answer: "a1", answerEn: "a1en", category: "general" },
+      { id: "f2", question: "q2", questionEn: "q2en", answer: "a2", answerEn: "a2en", category: "general" },
+    ];
+    expect(FaqsArraySchema.parse(arr)).toHaveLength(2);
   });
 });

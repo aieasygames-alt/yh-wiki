@@ -14,7 +14,7 @@ import diskSetsData from "../data/disk-sets.json";
 import anomaliesData from "../data/anomalies.json";
 import questsData from "../data/quests.json";
 import { isZhLocale, Locale } from "./i18n";
-import { validateData, CharactersArraySchema, WeaponsArraySchema, MaterialsArraySchema, CharacterMaterialsArraySchema } from "./schemas";
+import { validateData, CharactersArraySchema, WeaponsArraySchema, MaterialsArraySchema, CharacterMaterialsArraySchema, FaqsArraySchema } from "./schemas";
 
 export interface FaqItem {
   question: string;
@@ -250,8 +250,10 @@ export interface Faq {
   relatedMaterials: string[];
 }
 
+const validatedFaqs = validateData("faqs", faqsData, FaqsArraySchema);
+
 export function getAllFaqs(): Faq[] {
-  return faqsData as Faq[];
+  return validatedFaqs as Faq[];
 }
 
 export function getFaq(slug: string): Faq | undefined {
