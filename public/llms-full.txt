@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-06-20
+> Generated: 2026-06-22
 
 ## Characters (44)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack

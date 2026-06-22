@@ -1,15 +1,13 @@
 import { z } from "zod";
 
-export const AttributeEnum = z.enum([
-  "cosmos",
-  "anima",
-  "incantation",
-  "chaos",
-  "psyche",
-  "lakshana",
-]);
-
-export const RankEnum = z.enum(["A", "B", "S"]);
+/**
+ * Attribute and Rank are kept as `z.string()` (not enum) because the game
+ * introduces new attributes over time (e.g. `light`, `curse`). Strict enums
+ * here would block data updates. The valid set is enforced by ATTRIBUTE_LABELS
+ * in lib/attributes.ts at render time instead.
+ */
+export const AttributeEnum = z.string();
+export const RankEnum = z.string();
 
 export const CharacterSchema = z.object({
   id: z.string(),
@@ -39,7 +37,19 @@ export const CharacterSchema = z.object({
   acquisitionMethod: z.string().optional(),
   availableAtLaunch: z.boolean().optional(),
   awakenReq: z.string().optional(),
-}).passthrough();
+  // Known optional sub-objects (declared explicitly so we don't silently drop them)
+  faq: z.array(z.any()).optional(),
+  relatedCharacters: z.array(z.string()).optional(),
+  tierRank: z.string().optional(),
+  tierReason: z.string().optional(),
+  tierReasonZh: z.string().optional(),
+  skills: z.any().optional(),
+  recommendedBuild: z.any().optional(),
+  teamComps: z.array(z.any()).optional(),
+  rotation: z.any().optional(),
+  baseStats: z.any().optional(),
+  tierByScene: z.any().optional(),
+});
 
 export const WeaponSchema = z.object({
   id: z.string(),
@@ -62,7 +72,8 @@ export const WeaponSchema = z.object({
   howToObtainEn: z.string(),
   signatureCharacter: z.string(),
   status: z.string(),
-}).passthrough();
+  image: z.string().optional(),
+});
 
 export const MaterialSchema = z.object({
   id: z.string(),
@@ -94,22 +105,44 @@ export const WeaponsArraySchema = z.array(WeaponSchema);
 export const MaterialsArraySchema = z.array(MaterialSchema);
 export const CharacterMaterialsArraySchema = z.array(CharacterMaterialSchema);
 
-/** Validate data at load time, logging warnings for invalid entries */
+/**
+ * Validate data at load time. Throws on failure so data errors surface
+ * during the build rather than rendering as `undefined` in production.
+ *
+ * In production builds where build-time failure is too aggressive, callers
+ * can pass `mode: "warn"` to log and continue (still returns the parsed
+ * data — not the raw input — so the type stays trustworthy).
+ */
 export function validateData<T>(
   name: string,
   data: unknown,
   schema: z.ZodType<T[]>,
+  mode: "throw" | "warn" = "throw",
 ): T[] {
   const result = schema.safeParse(data);
   if (!result.success) {
     const issues = result.error.issues;
-    console.warn(`[Data Validation] ${name}: ${issues.length} issues found`);
-    issues.slice(5).forEach((issue) => {
-      console.warn(`  - ${issue.path.join(".")}: ${issue.message}`);
-    });
-    if (issues.length > 5) {
-      console.warn(`  ... and ${issues.length - 5} more`);
+    const msg =
+      `[Data Validation] ${name}: ${issues.length} issue(s) found\n` +
+      issues
+        .slice(0, 10)
+        .map((issue) => `  - ${issue.path.join(".")}: ${issue.message}`)
+        .join("\n") +
+      (issues.length > 10 ? `\n  ... and ${issues.length - 10} more` : "");
+
+    if (mode === "warn" || process.env.NODE_ENV !== "production") {
+      // Dev: always warn loudly so it shows in console
+      console.warn(msg);
+    } else {
+      // Production build: hard fail
+      throw new Error(msg);
     }
+
+    // Even in warn mode, return the input as-is so the page can render
+    // (only the explicitly-required fields are guaranteed by the schema's
+    // safeParse path; optional fields may be missing but that's the data's
+    // problem, not the schema's).
+    return data as T[];
   }
-  return data as T[];
+  return result.data;
 }

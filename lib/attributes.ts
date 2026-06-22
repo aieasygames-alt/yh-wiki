@@ -1,8 +1,12 @@
 import type { Locale } from "./i18n";
 
-// Helper to create locale records that fall back to English for new locales
+/**
+ * Build a localised string record for the 3 supported locales (zh / tw / en).
+ * If you add a new locale to lib/i18n.ts LOCALES, TypeScript will flag every
+ * `locales(...)` call site that needs updating.
+ */
 function locales(zh: string, tw: string, en: string): Record<Locale, string> {
-  return { zh, tw, en, th: en, vi: en, id: en } as Record<Locale, string>;
+  return { zh, tw, en };
 }
 
 export const ATTRIBUTE_COLORS: Record<string, string> = {
@@ -12,6 +16,8 @@ export const ATTRIBUTE_COLORS: Record<string, string> = {
   chaos: "bg-orange-500/20 text-orange-400 border-orange-500/30",
   psyche: "bg-sky-500/20 text-sky-400 border-sky-500/30",
   lakshana: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
+  light: "bg-amber-300/20 text-amber-200 border-amber-300/40",
+  curse: "bg-fuchsia-600/20 text-fuchsia-400 border-fuchsia-600/40",
 };
 
 export const ATTRIBUTE_LABELS: Record<string, Record<Locale, string>> = {
@@ -21,6 +27,8 @@ export const ATTRIBUTE_LABELS: Record<string, Record<Locale, string>> = {
   chaos: locales("混沌", "混沌", "Chaos"),
   psyche: locales("灵魂", "靈魂", "Psyche"),
   lakshana: locales("相", "相", "Lakshana"),
+  light: locales("光", "光", "Light"),
+  curse: locales("诅咒", "詛咒", "Curse"),
 };
 
 export function getAttributeColor(attr: string): string {

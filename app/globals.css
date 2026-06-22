@@ -20,23 +20,16 @@ body {
   }
 }
 
-/* CJK & Thai & Vietnamese line-breaking — prevent awkward breaks */
-html[lang="th"] body,
-html[lang="vi"] body {
+/* CJK line-breaking — prevent awkward breaks in Chinese content */
+html[lang="zh"] body,
+html[lang="zh-Hant"] body {
   word-break: break-word;
   overflow-wrap: break-word;
 }
 
-/* Thai text doesn't use spaces — allow line breaks anywhere in nav/buttons */
-html[lang="th"] nav,
-html[lang="th"] button,
-html[lang="th"] .text-sm {
-  line-break: anywhere;
-}
-
-/* Vietnamese & Portuguese: allow long words to break in tight spaces */
-html[lang="vi"] footer a,
-html[lang="pt-BR"] footer a {
+/* CJK: allow long words to break in tight spaces like footer */
+html[lang="zh"] footer a,
+html[lang="zh-Hant"] footer a {
   overflow-wrap: break-word;
   word-break: break-word;
 }

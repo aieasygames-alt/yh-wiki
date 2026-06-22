@@ -9,6 +9,29 @@ import { KardzPromoCard } from "../../components/KardzPromoCard";
 const SearchDialog = dynamic(() => import("../../components/SearchDialog").then((m) => ({ default: m.SearchDialog })), { ssr: false });
 const GiscusComments = dynamic(() => import("../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
+// Locale-specific SEO titles and descriptions for better CTR.
+// Keep this in sync with LOCALES in lib/i18n.ts (currently zh / tw / en).
+const HOME_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
+  zh: {
+    title: "异环攻略_Wiki_下载_兑换码_角色排行_地图",
+    description: "异环(Neverness to Everness)攻略Wiki：角色强度排行(Tier List)、交互地图(含收集品)、配装计算器、最新兑换码、下载安装指南、全角色Build攻略。非官方最全攻略站。",
+    ogTitle: "异环攻略Wiki — 角色排行 · 互动地图 · 配装计算器 · 兑换码",
+    ogDescription: "异环(NTE)最全攻略Wiki：角色排行、互动地图、配装计算器、最新兑换码。",
+  },
+  tw: {
+    title: "異環攻略_Wiki_下載_兌換碼_角色排行_地圖",
+    description: "異環(Neverness to Everness)攻略Wiki：角色強度排行(Tier List)、互動地圖(含收集品)、配裝計算器、最新兌換碼、下載安裝指南、全角色Build攻略。非官方最全攻略站。",
+    ogTitle: "異環攻略Wiki — 角色排行 · 互動地圖 · 配裝計算器 · 兌換碼",
+    ogDescription: "異環(NTE)最全攻略Wiki：角色排行、互動地圖、配裝計算器、最新兌換碼。",
+  },
+  en: {
+    title: "NTE Wiki — Tier List, Builds, Map, Codes & Guides | Neverness to Everness",
+    description: "Neverness to Everness (NTE) wiki: tier list, character builds, interactive map, redeem codes (June 2026), download guide, and DPS calculator. Updated daily.",
+    ogTitle: "NTE Wiki — Tier List, Builds, Map, Codes & Guides",
+    ogDescription: "Neverness to Everness wiki with tier list, builds, interactive map, redeem codes, and guides.",
+  },
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -16,60 +39,7 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = asLocale(lang);
-
-  // Locale-specific SEO titles and descriptions for better CTR
-  const metaData: Record<string, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
-    zh: {
-      title: "异环攻略_Wiki_下载_兑换码_角色排行_地图",
-      description: "异环(Neverness to Everness)攻略Wiki：角色强度排行(Tier List)、交互地图(含收集品)、配装计算器、最新兑换码、下载安装指南、全角色Build攻略。非官方最全攻略站。",
-      ogTitle: "异环攻略Wiki — 角色排行 · 互动地图 · 配装计算器 · 兑换码",
-      ogDescription: "异环(NTE)最全攻略Wiki：角色排行、互动地图、配装计算器、最新兑换码。",
-    },
-    tw: {
-      title: "異環攻略_Wiki_下載_兌換碼_角色排行_地圖",
-      description: "異環(Neverness to Everness)攻略Wiki：角色強度排行(Tier List)、互動地圖(含收集品)、配裝計算器、最新兌換碼、下載安裝指南、全角色Build攻略。非官方最全攻略站。",
-      ogTitle: "異環攻略Wiki — 角色排行 · 互動地圖 · 配裝計算器 · 兌換碼",
-      ogDescription: "異環(NTE)最全攻略Wiki：角色排行、互動地圖、配裝計算器、最新兌換碼。",
-    },
-    th: {
-      title: "NTE Guide - Neverness to Everness Wiki ไทย | บิลด์ตัวละคร เทียร์ลิสต์ รหัสแลก",
-      description: "Wiki & เครื่องมือ Neverness to Everness ภาษาไทย บิลด์ตัวละคร, Tier List, เครื่องคำนวณ, คู่มือและรหัสแลก อัปเดตล่าสุด",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki ไทย",
-      ogDescription: "บิลด์ตัวละคร, Tier List, เครื่องคำนวณ, คู่มือและรหัสแลก NTE ภาษาไทย",
-    },
-    vi: {
-      title: "NTE Guide - Neverness to Everness Wiki Tiếng Việt | Build, Tier List, Mã Đổi",
-      description: "Wiki & công cụ Neverness to Everness Tiếng Việt. Build nhân vật, Bảng Xếp Hạng, công cụ tính toán, hướng dẫn và mã đổi quà.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki Tiếng Việt",
-      ogDescription: "Build nhân vật, Bảng Xếp Hạng, công cụ tính toán, hướng dẫn NTE Tiếng Việt.",
-    },
-    id: {
-      title: "NTE Guide - Neverness to Everness Wiki Indonesia | Build, Tier List, Kode",
-      description: "Wiki & tools Neverness to Everness Bahasa Indonesia. Build karakter, tier list, kalkulator, panduan, dan kode redeem terbaru.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki Indonesia",
-      ogDescription: "Build karakter, tier list, kalkulator, panduan NTE Bahasa Indonesia.",
-    },
-    ja: {
-      title: "NTE Guide - Neverness to Everness Wiki 日本語 | ビルド, ティアリスト, コード",
-      description: "Neverness to Everness Wiki & ツール日本語版。キャラクタービルド、ティアリスト、計算機、ガイド、交換コード最新情報。",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki 日本語",
-      ogDescription: "キャラクタービルド、ティアリスト、計算機、ガイド NTE 日本語。",
-    },
-    ko: {
-      title: "NTE Guide - Neverness to Everness Wiki 한국어 | 빌드, 티어 리스트, 코드",
-      description: "Neverness to Everness Wiki & 도구 한국어. 캐릭터 빌드, 티어 리스트, 계산기, 가이드, 교환 코드 최신 정보.",
-      ogTitle: "NTE Guide - Neverness to Everness Wiki 한국어",
-      ogDescription: "캐릭터 빌드, 티어 리스트, 계산기, 가이드 NTE 한국어.",
-    },
-    en: {
-      title: "NTE Wiki — Tier List, Builds, Map, Codes & Guides | Neverness to Everness",
-      description: "Neverness to Everness (NTE) wiki: tier list, character builds, interactive map, redeem codes (June 2026), download guide, and DPS calculator. Updated daily.",
-      ogTitle: "NTE Wiki — Tier List, Builds, Map, Codes & Guides",
-      ogDescription: "Neverness to Everness wiki with tier list, builds, interactive map, redeem codes, and guides.",
-    },
-  };
-
-  const meta = metaData[locale] || metaData.en;
+  const meta = HOME_META[locale] ?? HOME_META.en;
 
   return {
     title: meta.title,

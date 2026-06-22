@@ -2691,7 +2691,7 @@
       "priority",
       "character-building"
     ],
-    "category": "角色培养",
+    "category": "leveling",
     "categoryZh": "角色培养",
     "categoryEn": "Character Building",
     "relatedCharacters": [
@@ -2716,7 +2716,7 @@
       "priority",
       "f2p"
     ],
-    "category": "抽卡系统",
+    "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [
@@ -2739,7 +2739,7 @@
       "day-one",
       "opening"
     ],
-    "category": "新手指南",
+    "category": "beginner",
     "categoryZh": "新手指南",
     "categoryEn": "Beginner Guide",
     "relatedCharacters": [
@@ -2762,7 +2762,7 @@
       "mechanic",
       "pity"
     ],
-    "category": "抽卡系统",
+    "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
@@ -2783,7 +2783,7 @@
       "120-pull",
       "safety-net"
     ],
-    "category": "抽卡系统",
+    "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
@@ -2804,7 +2804,7 @@
       "banner",
       "priority"
     ],
-    "category": "抽卡系统",
+    "category": "gacha",
     "categoryZh": "抽卡系统",
     "categoryEn": "Gacha System",
     "relatedCharacters": [],
@@ -2825,7 +2825,7 @@
       "resource-management",
       "f2p"
     ],
-    "category": "日常玩法",
+    "category": "gameplay",
     "categoryZh": "日常玩法",
     "categoryEn": "Daily Gameplay",
     "relatedCharacters": [],
@@ -2847,7 +2847,7 @@
       "troubleshooting",
       "performance"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -2868,7 +2868,7 @@
       "pc",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -2890,7 +2890,7 @@
       "performance",
       "pc"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -2911,7 +2911,7 @@
       "sync",
       "cross-save"
     ],
-    "category": "新手指南",
+    "category": "beginner",
     "categoryZh": "新手指南",
     "categoryEn": "Beginner Guide",
     "relatedCharacters": [],
@@ -2937,7 +2937,7 @@
       "best-team",
       "beginner"
     ],
-    "category": "角色培养",
+    "category": "leveling",
     "categoryZh": "角色培养",
     "categoryEn": "Character Building",
     "relatedCharacters": [
@@ -2965,7 +2965,7 @@
       "s-rank",
       "recommendation"
     ],
-    "category": "角色培养",
+    "category": "leveling",
     "categoryZh": "角色培养",
     "categoryEn": "Character Building",
     "relatedCharacters": [
@@ -2990,7 +2990,7 @@
       "burn-team",
       "recommendation"
     ],
-    "category": "角色培养",
+    "category": "leveling",
     "categoryZh": "角色培养",
     "categoryEn": "Character Building",
     "relatedCharacters": [
@@ -3014,7 +3014,7 @@
       "stamina",
       "commissions"
     ],
-    "category": "日常玩法",
+    "category": "gameplay",
     "categoryZh": "日常玩法",
     "categoryEn": "Daily Gameplay",
     "relatedCharacters": [],
@@ -3035,7 +3035,7 @@
       "account",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3056,7 +3056,7 @@
       "sms",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3078,7 +3078,7 @@
       "pc",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3099,7 +3099,7 @@
       "wait",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3120,7 +3120,7 @@
       "lag",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3142,7 +3142,7 @@
       "pc",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3164,7 +3164,7 @@
       "performance",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3187,7 +3187,7 @@
       "performance",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3209,7 +3209,7 @@
       "pc",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3231,7 +3231,7 @@
       "phone",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3253,7 +3253,7 @@
       "space",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3275,7 +3275,7 @@
       "mobile",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3297,7 +3297,7 @@
       "quality",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3318,7 +3318,7 @@
       "install",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3339,7 +3339,7 @@
       "bug",
       "troubleshooting"
     ],
-    "category": "游戏Bug",
+    "category": "troubleshooting",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
@@ -3360,7 +3360,7 @@
       "bug",
       "troubleshooting"
     ],
-    "category": "游戏Bug",
+    "category": "troubleshooting",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
@@ -3382,7 +3382,7 @@
       "bug",
       "troubleshooting"
     ],
-    "category": "游戏Bug",
+    "category": "troubleshooting",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
@@ -3403,7 +3403,7 @@
       "bug",
       "troubleshooting"
     ],
-    "category": "游戏Bug",
+    "category": "troubleshooting",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
@@ -3425,7 +3425,7 @@
       "combat",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3446,7 +3446,7 @@
       "currency",
       "troubleshooting"
     ],
-    "category": "充值与账号",
+    "category": "account",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
@@ -3468,7 +3468,7 @@
       "account",
       "troubleshooting"
     ],
-    "category": "充值与账号",
+    "category": "account",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
@@ -3489,7 +3489,7 @@
       "payment",
       "troubleshooting"
     ],
-    "category": "充值与账号",
+    "category": "account",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
@@ -3510,7 +3510,7 @@
       "matchmaking",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3532,7 +3532,7 @@
       "recovery",
       "troubleshooting"
     ],
-    "category": "充值与账号",
+    "category": "account",
     "categoryZh": "充值与账号",
     "categoryEn": "Payment & Account",
     "relatedCharacters": [],
@@ -3554,7 +3554,7 @@
       "combat",
       "troubleshooting"
     ],
-    "category": "游戏Bug",
+    "category": "troubleshooting",
     "categoryZh": "游戏Bug",
     "categoryEn": "In-Game Bugs",
     "relatedCharacters": [],
@@ -3576,7 +3576,7 @@
       "optimization",
       "troubleshooting"
     ],
-    "category": "技术支持",
+    "category": "troubleshooting",
     "categoryZh": "技术支持",
     "categoryEn": "Technical Support",
     "relatedCharacters": [],
@@ -3726,7 +3726,7 @@
       "co-op",
       "event"
     ],
-    "category": "event",
+    "category": "events",
     "categoryZh": "活动攻略",
     "categoryEn": "Events",
     "relatedCharacters": [],
@@ -3900,7 +3900,7 @@
       "team",
       "support"
     ],
-    "category": "team",
+    "category": "team-building",
     "categoryZh": "配队攻略",
     "categoryEn": "Team Building",
     "relatedCharacters": [
@@ -3929,7 +3929,7 @@
       "team",
       "support"
     ],
-    "category": "team",
+    "category": "team-building",
     "categoryZh": "配队攻略",
     "categoryEn": "Team Building",
     "relatedCharacters": [
@@ -4185,7 +4185,7 @@
       "payment",
       "guide"
     ],
-    "category": "充值与账号",
+    "category": "account",
     "categoryZh": "充值与账号",
     "categoryEn": "Top-up & Account",
     "relatedCharacters": [],
@@ -6301,7 +6301,7 @@
       "规则",
       "处罚"
     ],
-    "category": "充值与账号",
+    "category": "account",
     "categoryZh": "充值与账号",
     "categoryEn": "Account & Billing",
     "relatedCharacters": [],
