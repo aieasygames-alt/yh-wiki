@@ -55,15 +55,15 @@ export default async function GuideDetailPage({
   const content = pickByLocale(locale, guide.contentTw, guide.content, guide.contentEn) || guide.content;
   const summary = pickByLocale(locale, guide.summaryTw, guide.summary, guide.summaryEn) || guide.summary;
 
-  const relatedChars = guide.relatedCharacters
+  const relatedChars = (guide.relatedCharacters || [])
     .map((id) => getCharacter(id))
     .filter(Boolean);
 
-  const relatedLocs = guide.relatedLocations
+  const relatedLocs = (guide.relatedLocations || [])
     .map((id) => getLocation(id))
     .filter(Boolean);
 
-  const relatedLoreItems = guide.relatedLore
+  const relatedLoreItems = (guide.relatedLore || [])
     .map((id) => getLoreItem(id))
     .filter(Boolean);
 
