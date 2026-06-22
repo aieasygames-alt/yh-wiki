@@ -10,8 +10,13 @@
   Cache-Control: public, max-age=31536000, immutable
 
 # Images
+# Note: s-maxage kept at 1 day (not the usual 7-day immutable) so that if
+# Cloudflare Pages' SPA fallback serves an HTML 404 for a not-yet-deployed
+# image path (e.g. a new file that the CDN hasn't seen), the bad response
+# only pollutes the cache for at most 24h instead of 7d. Real images benefit
+# from browser caching via max-age; the CDN layer is intentionally shorter.
 /images/*
-  Cache-Control: public, max-age=86400, s-maxage=604800
+  Cache-Control: public, max-age=86400, s-maxage=86400
 
 # Sitemap
 /sitemap.xml
