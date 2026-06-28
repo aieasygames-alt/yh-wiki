@@ -1046,19 +1046,19 @@
   </url>
   <url>
     <loc>https://nteguide.com/zh/guides/zhenhong-build-guide/</loc>
-    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/guides/zhenhong-build-guide/</loc>
-    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/guides/zhenhong-build-guide/</loc>
-    <lastmod>2026-06-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1707,6 +1707,42 @@
   <url>
     <loc>https://nteguide.com/en/guides/mobile-120fps-guide/</loc>
     <lastmod>2026-06-19T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/guides/illica-support-guide/</loc>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/guides/illica-support-guide/</loc>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/guides/illica-support-guide/</loc>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/guides/anomaly-endgame-guide/</loc>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/guides/anomaly-endgame-guide/</loc>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/guides/anomaly-endgame-guide/</loc>
+    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

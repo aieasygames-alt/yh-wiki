@@ -1,0 +1,86 @@
+[
+  {
+    "id": "rr",
+    "name": "RR",
+    "type": "Reroll Resource",
+    "bestFor": "Changing unit traits",
+    "advice": "Save most RR for units that remain useful in boss fights, story clears, and late-game content."
+  },
+  {
+    "id": "divine",
+    "name": "Divine",
+    "type": "Trait",
+    "bestFor": "High-end DPS units and top Secret or Mythic carries",
+    "advice": "Keep this on main damage carries and avoid replacing it casually."
+  },
+  {
+    "id": "stellar",
+    "name": "Stellar",
+    "type": "Trait",
+    "bestFor": "DoT and shield-breaking Mythic units",
+    "advice": "Keep it as a strong DPS option when the unit benefits from damage-over-time pressure."
+  },
+  {
+    "id": "sniper",
+    "name": "Sniper",
+    "type": "Trait",
+    "bestFor": "Crit-focused and single-target damage units",
+    "advice": "Use it on units built for boss damage or crit-based single-target output."
+  },
+  {
+    "id": "tycoon",
+    "name": "Tycoon",
+    "type": "Trait",
+    "bestFor": "Farm and support units",
+    "advice": "Keep it on economy or support units instead of forcing pure DPS traits onto them."
+  },
+  {
+    "id": "jack-of-all",
+    "name": "Jack of All",
+    "type": "Trait",
+    "bestFor": "Beginner Legendary units",
+    "advice": "Accept it as an early useful roll, but do not spend heavy RR chasing perfect traits on temporary units."
+  },
+  {
+    "id": "cubes",
+    "name": "Cubes",
+    "type": "Progression Resource",
+    "bestFor": "Upgrade resource bundles",
+    "advice": "Collect from code rewards and farming routes, then spend through the relevant in-game upgrade systems."
+  },
+  {
+    "id": "malice",
+    "name": "Malice",
+    "type": "Reward Resource",
+    "bestFor": "Launch code reward bundles",
+    "advice": "Claim from the SorryForDelay code and keep it for the in-game system that requires it."
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja",
+    "type": "Trait",
+    "bestFor": "Fast-attacking DPS and bleed units",
+    "advice": "Strong A-tier trait for units that rely on attack speed, like Crimson Knight. Boosts attack speed by 20%."
+  },
+  {
+    "id": "starlight",
+    "name": "Starlight",
+    "type": "Trait",
+    "bestFor": "AOE and hybrid damage units",
+    "advice": "Solid B-tier trait for units that deal hybrid or full AOE damage, like Founding Titan. Adds 15% AOE damage."
+  },
+  {
+    "id": "elemental",
+    "name": "Elemental",
+    "type": "Trait",
+    "bestFor": "Units with elemental effects (frost, poison, fire)",
+    "advice": "Decent C-tier trait for utility units like Frozen Moon or Insect Slayer. Enhances elemental effect duration by 25%."
+  },
+  {
+    "id": "godspeed",
+    "name": "Godspeed",
+    "type": "Trait",
+    "bestFor": "Units that benefit from repositioning and dodge",
+    "advice": "C-tier trait for endless mode survivability. Grants 10% dodge chance and 15% movement speed. Situational but fun."
+  }
+]

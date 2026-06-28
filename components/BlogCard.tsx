@@ -1,5 +1,7 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { t, type Locale, isZhLocale } from "../lib/i18n";
 
 interface BlogCardProps {
@@ -23,20 +25,21 @@ function getTagLabel(tag: string, locale: Locale): string {
 }
 
 export function BlogCard({ id, title, summary, category, date, tags, locale, image, imageAlt }: BlogCardProps) {
+  const [imgError, setImgError] = useState(false);
   return (
     <Link
       href={`/${locale}/blog/${id}`}
       className="group block rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"
     >
-      {image && (
-        <div className="relative w-full h-40 overflow-hidden bg-gray-800">
-          <Image
+      {image && !imgError && (
+        <div className="relative w-full h-40 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={image}
             alt={imageAlt || title}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
+            onError={() => setImgError(true)}
           />
         </div>
       )}

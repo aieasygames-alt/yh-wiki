@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
@@ -8,6 +7,7 @@ import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { ArticleContent } from "../../../../components/ArticleContent";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
+import { BlogImage } from "../../../../components/BlogImage";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -113,16 +113,7 @@ export default async function BlogDetailPage({
         </div>
         <h1 className="text-2xl font-bold mb-6">{title}</h1>
         {post.image && (
-          <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-gray-800">
-            <Image
-              src={post.image}
-              alt={post.imageAlt || title}
-              fill
-              sizes="(max-width: 768px) 100vw, 896px"
-              className="object-cover"
-              priority
-            />
-          </div>
+          <BlogImage src={post.image} alt={post.imageAlt || title} />
         )}
         <p className="text-gray-400 mb-6 text-sm border-l-2 border-primary-500 pl-3">
           {summary}
@@ -200,13 +191,12 @@ export default async function BlogDetailPage({
                     className="group rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"
                   >
                     {rp.image && (
-                      <div className="relative w-full h-28 bg-gray-800">
-                        <Image
+                      <div className="w-full h-28 bg-gray-800 overflow-hidden">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
                           src={rp.image}
                           alt={rp.imageAlt || (isZhLocale(locale) ? rp.title : rp.titleEn)}
-                          fill
-                          sizes="300px"
-                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                           loading="lazy"
                         />
                       </div>

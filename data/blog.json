@@ -4330,5 +4330,150 @@
         "href": "/system-requirements"
       }
     ]
+  },
+  {
+    "id": "nte-v1-2-pull-priority-guide",
+    "title": "异环1.2版本抽卡优先级：伊洛伊、真红、卡厄斯值不值得抽？零氪/微氪资源规划",
+    "titleTw": "異環1.2版本抽卡優先級：伊洛伊、真紅、卡厄斯值不值得抽？零氪/微氪資源規劃",
+    "titleEn": "NTE 1.2 Pull Priority: Should You Pull Illica, Zhenhong or Chaos? F2P & Low-Spender Resource Guide",
+    "category": "guide",
+    "categoryZh": "抽卡攻略",
+    "categoryEn": "Gacha Guide",
+    "date": "2026-06-28",
+    "tags": [
+      "1.2",
+      "pull-priority",
+      "illica",
+      "zhenhong",
+      "chaos",
+      "gacha",
+      "f2p",
+      "banner"
+    ],
+    "summary": "1.2版本三限定角色抽卡优先级分析：伊洛伊（首位限定奶妈）、真红（光系龙族主C）、卡厄斯（相属性副C延续）。按玩家类型给出零氪/微氪/中氪的抽取建议与资源规划。",
+    "summaryTw": "1.2版本三限定角色抽卡優先級分析：伊洛伊（首位限定奶媽）、真紅（光系龍族主C）、卡厄斯（相屬性副C延續）。按玩家類型給出零氪/微氪/中氪的抽取建議與資源規劃。",
+    "summaryEn": "Version 1.2 pull priority analysis for three limited characters: Illica (first limited healer), Zhenhong (Light dragon DPS), and Chaos (Lakshana sub-DPS continuation). Tailored recommendations for F2P, low-spender, and mid-spender players.",
+    "internalLinks": [
+      {
+        "href": "/characters/illica",
+        "label": "伊洛伊角色详情",
+        "labelEn": "Illica Character Page"
+      },
+      {
+        "href": "/characters/zhenhong",
+        "label": "真红角色详情",
+        "labelEn": "Zhenhong Character Page"
+      },
+      {
+        "href": "/characters/chaos",
+        "label": "卡厄斯角色详情",
+        "labelEn": "Chaos Character Page"
+      },
+      {
+        "href": "/tier-list",
+        "label": "角色强度排行",
+        "labelEn": "Tier List"
+      },
+      {
+        "href": "/gacha",
+        "label": "抽卡系统说明",
+        "labelEn": "Gacha System"
+      }
+    ],
+    "content": "异环1.2版本「真红与残虹」同时有三位限定S级角色登场：伊洛伊、真红、以及延续的卡厄斯。对于大多数玩家来说资源有限，本文按角色强度、不可替代性和队伍需求给出抽卡优先级。\n\n## 三位角色速览\n\n| 角色 | 属性 | 定位 | 卡池时间 | Tier |\n|------|------|------|----------|------|\n| 伊洛伊 | 魂（Psyche） | 治疗增益辅助 | 6/11~6/25（上半） | SS |\n| 真红 | 光（Cosmos） | 主C / 龙族格斗家 | 6/25~7/15（下半） | SS |\n| 卡厄斯 | 相（Lakshana） | 副C / 减防标记 | 6/11~7/2（延续） | S |\n\n---\n\n## 伊洛伊：首位限定奶妈，改变游戏体验\n\n### 为什么强\n\n伊洛伊是异环**首个限定治疗增益辅助**。公测以来治疗位只有A级薄荷和S级九原（兼奶），伊洛伊的加入彻底改变了生存环境：\n\n- 强力单体+群体治疗\n- 增伤buff大幅提升全队输出\n- 被动提供减伤护盾\n\n### 谁应该抽\n\n- **零氪玩家**：**强烈推荐**。限定奶妈的不可替代性极高\n- **微氪玩家**：**必抽**。0命即可使用，不需要高命座\n- **中氪玩家**：考虑抽1命提升治疗量，但不急\n\n### 抽取建议\n\n0命完全够用。不建议投入额外命座，把资源留给真红。\n\n---\n\n## 真红：光系龙族主C，暴怒机制爆发\n\n### 为什么强\n\n真红是1.2下半限定主C，核心机制围绕「鬼爪」中距离起手和「暴怒值」：\n\n- 暴怒值满后进入暴走状态，大幅提升输出\n- 被动强化创生体系反应（光属性反应）\n- 机械尾部协同攻击，多段命中\n- 龙族格斗家设定，战斗手感爽快\n\n### 谁应该抽\n\n- **零氪玩家**：如果你已有娜娜莉，真红不是必需品。但缺主C或想组建光属性队，**推荐抽取**\n- **微氪玩家**：**推荐**。光属性主C目前稀缺\n- **中氪玩家**：目标0+1（0命+专武），性价比最高\n\n---\n\n## 卡厄斯：相属性副C，1.1延续卡池\n\n### 角色评价\n\n卡厄斯是1.1下半限定角色，1.2版本前半延续。相属性副C，核心机制是「搜查令」debuff标记+「罪状」充能爆发。\n\n### 谁应该抽\n\n- **零氪玩家**：**跳过**。1.2有伊洛伊和真红两个更高优先级角色\n- **微氪玩家**：如果1.1没抽且缺相属性角色，可以考虑；否则**跳过**\n- **中氪玩家**：如果已经有了安魂曲，卡厄斯可以组建暗+相双属性反应队，但优先级仍低于伊洛伊和真红\n\n---\n\n## 资源规划建议\n\n### 零氪玩家（0氪）\n\n| 目标 | 所需环石 | 说明 |\n|------|----------|------|\n| 伊洛伊保底 | ~9600 | 必抽 |\n| 真红保底 | ~9600 | 第二优先 |\n| 1.2版本可获取 | 约12000+ | 版本福利+日常+活动 |\n\n**策略**：攒够伊洛伊+真红两个保底（约19200环石）。\n\n### 微氪玩家（月卡+通行证）\n\n| 目标 | 预算 | 说明 |\n|------|------|------|\n| 伊洛伊 0命 | 免费 | 必抽 |\n| 真红 0+1 | 约200元 | 0命+专武 |\n| 卡厄斯 | 跳过 | 留资源给1.3 |\n\n---\n\n## 总结：抽卡优先级排行\n\n1. **伊洛伊**（SS — 不可替代的限定奶妈，零氪必抽）\n2. **真红**（SS — 光系主C，强度在线，推荐抽取）\n3. **卡厄斯**（S — 延续池，非必需，1.1已抽过可跳过）\n\n> **核心原则**：辅助优先于主C。限定奶妈的不可替代性永远高于主C，因为主C可以用常驻角色替代（如娜娜莉），但限定奶妈只有伊洛伊。",
+    "contentEn": "Version 1.2 brings three limited S-rank characters: Illica, Zhenhong, and the continued Chaos banner.\n\n## Quick Overview\n\n| Character | Element | Role | Banner | Tier |\n|-----------|---------|------|--------|------|\n| Illica | Psyche | Heal/Buffer | 6/11-6/25 (Phase 1) | SS |\n| Zhenhong | Cosmos | Main DPS | 6/25-7/15 (Phase 2) | SS |\n| Chaos | Lakshana | Sub-DPS | 6/11-7/2 (continued) | S |\n\n## Illica: First Limited Healer — Game-Changing\n\nNTE's first limited heal/buffer. E0 is fully functional. F2P must-pull due to irreplaceability.\n\n## Zhenhong: Light Dragon DPS — Rage Mechanic\n\nLight DPS with Berserk state at max Rage. E0 + signature weapon is the sweet spot for mid-spenders.\n\n## Chaos: Continued Banner — Skip for Most\n\nLakshana sub-DPS. Lower priority than Illica and Zhenhong in 1.2.\n\n## Priority Ranking\n\n1. Illica (SS - Irreplaceable limited healer)\n2. Zhenhong (SS - Light DPS, strong pick)\n3. Chaos (S - Skip if pulled in 1.1)\n\nCore principle: Supports > Main DPS. Limited healers have higher irreplaceability than main DPS.",
+    "image": "/images/blog/nte-snow-cherry-blossom-tree-landscape.webp",
+    "imageAlt": "NTE 1.2 pull priority guide for Illica, Zhenhong, and Chaos"
+  },
+  {
+    "id": "nte-mobile-optimization-complete-guide",
+    "title": "异环移动端优化完全指南：闪退、掉帧、发热问题解决方案（2026年6月更新）",
+    "titleTw": "異環移動端優化完全指南：閃退、掉幀、發熱問題解決方案（2026年6月更新）",
+    "titleEn": "NTE Mobile Optimization Complete Guide: Fix Crashes, FPS Drops & Overheating (June 2026)",
+    "category": "guide",
+    "categoryZh": "优化指南",
+    "categoryEn": "Optimization Guide",
+    "date": "2026-06-28",
+    "tags": [
+      "mobile",
+      "optimization",
+      "crash",
+      "fps",
+      "overheating",
+      "android",
+      "ios",
+      "performance",
+      "troubleshooting"
+    ],
+    "summary": "异环移动端（安卓/iOS）闪退、卡顿、发热、掉帧问题的完整解决方案。包含最佳画质设置、机型适配建议、1.1版本移动端优化内容分析，以及官方已知的45个BUG修复进度。",
+    "summaryTw": "異環移動端（安卓/iOS）閃退、卡頓、發熱、掉幀問題的完整解決方案。包含最佳畫質設定、機型適配建議、1.1版本移動端優化內容分析，以及官方已知的45個BUG修復進度。",
+    "summaryEn": "Complete troubleshooting guide for NTE mobile (Android/iOS) crashes, stuttering, overheating, and FPS drops. Includes optimal graphics settings, device-specific recommendations, 1.1 mobile patch analysis, and the 45 known bug fix tracker.",
+    "internalLinks": [
+      {
+        "href": "/troubleshooting",
+        "label": "常见问题排查",
+        "labelEn": "Troubleshooting Guide"
+      },
+      {
+        "href": "/system-requirements",
+        "label": "系统要求",
+        "labelEn": "System Requirements"
+      },
+      {
+        "href": "/faq/mobile-optimization-tips",
+        "label": "移动端优化FAQ",
+        "labelEn": "Mobile Optimization FAQ"
+      },
+      {
+        "href": "/guides/performance-guide",
+        "label": "性能优化指南",
+        "labelEn": "Performance Guide"
+      }
+    ],
+    "content": "异环采用虚幻引擎5开发，对移动端硬件要求极高。公测以来移动端闪退、掉帧、发热是社区最大槽点（抖音相关话题量超15亿）。本文整理所有已知解决方案。\n\n## 移动端问题根源\n\n异环的UE5引擎在移动端面临三大挑战：\n1. **内存压力**：开放世界+高精度材质导致内存占用极高\n2. **GPU负载**：实时光照和粒子特效超出多数手机GPU能力\n3. **散热瓶颈**：持续高负载导致SoC降频，形成恶性循环\n\n---\n\n## 最佳画质设置推荐\n\n### 旗舰机型（骁龙8 Gen3 / 天玑9300 / A17 Pro+）\n\n| 设置项 | 推荐值 | 说明 |\n|--------|--------|------|\n| 画质等级 | 高 | 平衡画面与帧率 |\n| 分辨率 | 原生 | 旗舰机可承受 |\n| 帧率目标 | 60FPS | 开启高帧率模式 |\n| 阴影质量 | 中 | 阴影是GPU大户 |\n| 体积光 | 关 | 移动端最大的性能杀手 |\n| 粒子效果 | 中 | 战斗特效够用 |\n| 视距 | 中 | 减少渲染距离 |\n| 抗锯齿 | TAA | 性能开销最低 |\n| 动态模糊 | 关 | 减少视觉干扰+省资源 |\n\n### 中端机型（骁龙8+ / 天玑8200 / A15）\n\n| 设置项 | 推荐值 |\n|--------|--------|\n| 画质等级 | 中 |\n| 分辨率 | 降采样75% |\n| 帧率目标 | 30-45FPS |\n| 阴影质量 | 低 |\n| 体积光 | 关 |\n| 粒子效果 | 低 |\n| 视距 | 低 |\n| 抗锯齿 | FSR2 |\n| 动态模糊 | 关 |\n\n### 低端机型\n\n| 设置项 | 推荐值 |\n|--------|--------|\n| 画质等级 | 低 |\n| 分辨率 | 降采样50% |\n| 帧率目标 | 30FPS |\n| 所有特效 | 最低/关 |\n\n> **建议**：低端机型体验较差，强烈建议使用PC端或PS5端游玩（支持跨平台存档）。\n\n---\n\n## 闪退问题解决方案\n\n### 安卓闪退\n\n**原因1：内存不足（最常见）**\n- 6GB内存设备：几乎必定闪退，建议关闭所有后台应用\n- 8GB内存设备：中等概率闪退，关闭后台可缓解\n- 12GB+内存设备：极少闪退\n\n**解决方案**：\n1. 游戏前清理后台应用\n2. 关闭系统动画（开发者选项中设置）\n3. 开启「内存扩展」功能（如有）\n4. 降低游戏画质设置\n5. 如仍闪退：卸载重装\n\n**原因2：GPU驱动崩溃**\n- 多见于Adreno 730及以下GPU\n- 更新系统到最新版本可能修复\n\n### iOS闪退\n\n**原因1：内存压力（iPhone 12/13系列）**\n- iPhone 12标准版（4GB RAM）几乎无法稳定运行\n\n**解决方案**：\n1. 重启iPhone后再启动游戏\n2. 降低画质设置\n3. 关闭「后台App刷新」\n4. 确保iOS版本为最新\n\n---\n\n## 发热问题解决方案\n\n### 物理降温\n1. **摘掉手机壳**：散热效率提升30%+\n2. **使用散热背夹**：半导体散热器效果最佳\n3. **空调环境游玩**：室温每降低5度，SoC降频阈值延后约2分钟\n\n### 软件优化\n1. 降低帧率目标到30FPS（最有效）\n2. 关闭体积光和动态模糊\n3. 降低阴影和粒子质量\n4. 开启省电模式\n5. 避免充电时游玩\n\n---\n\n## 掉帧/卡顿解决方案\n\n### 城镇场景卡顿\n城镇场景因NPC数量多、建筑复杂导致严重掉帧。\n\n**缓解方法**：\n- 降低视距到最低\n- 关闭NPC名字显示\n- 避免快速转动视角\n\n### 战斗场景掉帧\n- 降低粒子效果\n- 降低抗锯齿等级\n\n### 加载卡顿/材质弹出\n- 确保游戏安装在UFS存储上\n- 定期清理游戏缓存\n\n---\n\n## 1.1版本移动端优化内容\n\n| 优化项 | 效果 |\n|--------|------|\n| 内存占用降低 | 减少约15-20% |\n| 帧率稳定性提升 | 城镇场景平均提升5-10FPS |\n| 发热控制改善 | SoC温度峰值降低3-5度 |\n| 加载速度优化 | 场景切换速度提升20% |\n\n社区反馈认为优化幅度仍不够，尤其是中低端设备体验改善有限。\n\n---\n\n## 官方已知BUG修复进度\n\n公测首5天官方发布致歉信，列出45条BUG修复清单。截至1.1版本，关键移动端BUG修复状态：\n\n| BUG | 状态 |\n|-----|------|\n| 安卓频繁闪退 | 部分修复（中端机仍有问题） |\n| iPhone 12系列黑屏 | 已修复 |\n| 城镇场景卡顿 | 部分修复 |\n| 战斗中模型丢失 | 已修复 |\n| 充电时发热异常 | 已修复 |\n| 载具驾驶掉帧 | 部分修复 |\n\n---\n\n## 什么时候该换平台？\n\n如果你遇到以下情况，强烈建议切换到PC或PS5端：\n\n- 每次游玩超过15分钟必闪退\n- 城镇场景帧率低于20FPS\n- 手机温度超过45度\n\n异环支持全平台数据互通，PC端免费下载。如果你有PS5，体验最佳。",
+    "contentEn": "NTE uses Unreal Engine 5, which demands significant mobile hardware. Since launch, mobile crashes, FPS drops, and overheating have been the biggest community complaints.\n\n## Root Causes\n\n1. Memory pressure: Open world + high-quality assets = extreme RAM usage\n2. GPU load: Real-time lighting and particle effects exceed most mobile GPUs\n3. Thermal bottleneck: Sustained load causes SoC throttling\n\n## Optimal Graphics Settings\n\n### Flagship (Snapdragon 8 Gen3 / Dimensity 9300 / A17 Pro+)\n- Quality: High | Resolution: Native | FPS: 60 | Shadows: Medium\n- Volumetric Light: OFF (biggest performance killer) | Motion Blur: OFF\n\n### Mid-Range (Snapdragon 8+ / Dimensity 8200 / A15)\n- Quality: Medium | Resolution: 75% | FPS: 30-45 | All effects: Low\n\n### Low-End\nNot recommended. Use PC or PS5 instead (cross-save supported).\n\n## Crash Fixes\n\n### Android: Memory (most common)\n- 6GB RAM: Will crash — close ALL background apps\n- 8GB RAM: Moderate risk\n- 12GB+ RAM: Rarely crashes\n\n### iOS: Memory pressure (iPhone 12/13)\n- Restart before playing, disable Background App Refresh\n\n## Overheating Solutions\n- Remove case (+30% cooling)\n- Use semiconductor cooler\n- Lower FPS to 30, disable volumetric light\n- Avoid playing while charging\n\n## Version 1.1 Mobile Optimizations\n\n| Area | Improvement |\n|------|-------------|\n| Memory usage | -15-20% |\n| FPS stability | +5-10 FPS in cities |\n| Thermal control | -3-5C peak temp |\n| Loading speed | +20% |\n\n## When to Switch Platforms\nSwitch to PC or PS5 if: crashes every 15+ minutes, city FPS below 20, phone temp exceeds 45C. Cross-save is fully supported.",
+    "image": "/images/blog/nte-cinema-scene-turquoise-girl.webp",
+    "imageAlt": "NTE mobile optimization guide - crash, FPS, and overheating fixes"
+  },
+  {
+    "id": "nte-revenue-data-analysis-2026",
+    "title": "异环2026年收入数据深度分析：首日破亿、两周三亿，UE5开放世界有多赚钱？",
+    "titleTw": "異環2026年收入數據深度分析：首日破億、兩週三億，UE5開放世界有多賺錢？",
+    "titleEn": "NTE 2026 Revenue Analysis: 100M Day One, 300M in Two Weeks — How Profitable is UE5 Open World?",
+    "category": "analysis",
+    "categoryZh": "收入分析",
+    "categoryEn": "Revenue Analysis",
+    "date": "2026-06-28",
+    "tags": [
+      "revenue",
+      "analysis",
+      "2026",
+      "market",
+      "data"
+    ],
+    "summary": "异环公测首日收入突破1亿元人民币，两周累计超3亿。日本市场登顶App Store畅销榜，PC端占比65%。本文深度分析异环的收入构成、地区分布、平台数据及盈利能力。",
+    "summaryTw": "異環公測首日收入突破1億元人民幣，兩週累計超3億。日本市場登頂App Store暢銷榜，PC端佔比65%。本文深度分析異環的收入構成、地區分佈、平台數據及盈利能力。",
+    "summaryEn": "NTE surpassed 100M RMB revenue on day one and 300M+ in two weeks. Topped Japan App Store charts. PC accounts for 65% of revenue. Deep dive into revenue composition, regional breakdown, and profitability.",
+    "content": "## 异环收入概览\n\n异环（Neverness to Everness）自2026年4月23日国服公测以来，收入表现远超市场预期。作为完美世界旗下Hotta Studio开发的UE5开放世界游戏，异环在商业上取得了令人瞩目的成绩。\n\n---\n\n## 核心收入数据\n\n| 时间节点 | 累计收入（人民币） | 备注 |\n|----------|-------------------|------|\n| 公测首日 | 1亿+ | 含PC+移动端 |\n| 公测首周 | 1.8亿 | 移动端占比约30% |\n| 公测两周 | 3亿+ | 日本市场贡献显著 |\n| 1.1版本首日 | 5000万+ | 安魂曲卡池驱动 |\n\n---\n\n## 平台收入分布\n\n| 平台 | 收入占比 | 特点 |\n|------|----------|------|\n| PC客户端 | 65% | 付费ARPU最高 |\n| 移动端(iOS+Android) | 25% | 用户量最大 |\n| PS5 | 8% | 主机玩家付费意愿强 |\n| Mac/鸿蒙 | 2% | 长尾平台 |\n\n**关键发现**：尽管移动端用户量占绝对多数，但PC端贡献了超过六成的收入。这一趋势与原神早期类似——核心付费玩家集中在PC平台。\n\n---\n\n## 地区收入排名\n\n| 排名 | 市场 | 收入占比 | 表现亮点 |\n|------|------|----------|----------|\n| 1 | 中国大陆 | 55% | 核心市场，公测首日登顶 |\n| 2 | 日本 | 18% | App Store畅销榜 #1 |\n| 3 | 韩国 | 8% | 预约量超500万 |\n| 4 | 美国 | 6% | 全球服增长最快 |\n| 5 | 东南亚 | 5% | 印尼/泰国/越南 |\n| 6 | 其他 | 8% | 欧洲/中东/南美 |\n\n### 日本市场表现\n\n异环在日本市场的表现尤为突出：\n- 公测首日登顶日本App Store畅销榜\n- 超越当期原神和崩坏：星穹铁道的日收入\n- 角色设计（猫族、龙族等异能者设定）深受日本玩家喜爱\n- 保时捷联动在日服反响热烈\n\n---\n\n## 与竞品对比（首月预估）\n\n| 游戏 | 首月收入 | 开发商 | 引擎 |\n|------|----------|--------|------|\n| 异环(NTE) | 4-5亿(预估) | Hotta/完美世界 | UE5 |\n| 原神(同期对比) | ~8亿(2020年9月) | 米哈游 | Unity |\n| 崩坏：星穹铁道 | ~12亿(2023年4月) | 米哈游 | Unity |\n| 鸣潮 | ~3亿(2024年5月) | 库洛 | UE5 |\n| 蔚蓝档案 | ~2亿 | Yostar | Unity |\n\n**分析**：异环首月收入预估在4-5亿区间，显著超过同引擎的鸣潮，但低于米哈游系产品。考虑到异环多平台同步上线的策略（6平台首发），收入分散度高，单一平台依赖度低。\n\n---\n\n## 收入驱动因素分析\n\n### 1. 角色卡池（核心收入源，约占70%）\n- 无50/50机制降低了玩家抽卡心理门槛\n- 娜娜莉、安魂曲、真红等限定角色吸引力强\n- 保底不歪机制提升了付费转化率\n\n### 2. 保时捷联动（约占10%）\n- 联动载具时装售价较高\n- 品牌溢价效应带动了氪金氛围\n\n### 3. 都市大亨系统（间接驱动，约占5%）\n- 小吱免费6+5满配降低了零氪门槛\n- 但养成资源消耗推动了体力/资源付费\n\n### 4. 月卡/通行证（约占15%）\n- 环石月卡（30元/月）性价比高，渗透率大\n- 战令系统提供持续付费锚点\n\n---\n\n## 盈利能力评估\n\n### 开发成本回收\n- 异环开发周期约4年，预估开发成本8-12亿元\n- 公测两周3亿收入，按此速度约1-2个月即可覆盖开发成本\n- 考虑运营成本（服务器、人力、营销），预计3个月内实现盈亏平衡\n\n### ARPU与付费率\n| 指标 | 数据 | 行业对比 |\n|------|------|----------|\n| 付费率 | ~8% | 高于行业平均5% |\n| ARPPU | ~450元 | 与原神早期持平 |\n| 月ARPU | ~36元 | 中上水平 |\n\n---\n\n## 收入趋势预测\n\n| 时间段 | 预估收入 | 驱动事件 |\n|--------|----------|----------|\n| 1.0版本周期(4-5月) | 4-5亿 | 公测热度+娜娜莉 |\n| 1.1版本周期(5-7月) | 3-4亿 | 安魂曲+卡厄斯+保时捷 |\n| 1.2版本周期(7-8月) | 3-4亿 | 伊洛伊+真红 |\n| 2026全年(预估) | 15-20亿 | 多版本+联动 |\n\n---\n\n## 结论\n\n异环的商业表现证明了：\n1. **UE5技术壁垒带来差异化**，画面品质直接转化为付费意愿\n2. **无50/50机制是正确的商业决策**，降低了玩家抵触心理\n3. **多平台首发策略有效分散风险**，PC/主机贡献了稳定高ARPU\n4. **日本市场的突破是意外之喜**，角色设计与美学风格成功出海\n\n异环有望在2026年成为完美世界旗下收入最高的单产品，年化收入预估15-20亿元人民币。\n\n> 数据来源：Sensor Tower / data.ai / 游戏葡萄 / 业内估算，仅供参考。",
+    "contentEn": "## NTE Revenue Overview\n\nSince its CN launch on April 23, 2026, Neverness to Everness has exceeded market expectations. Developed by Hotta Studio (Perfect World) on UE5, NTE has delivered remarkable commercial results.\n\n---\n\n## Core Revenue Data\n\n| Milestone | Cumulative Revenue (RMB) | Notes |\n|-----------|--------------------------|-------|\n| Day 1 | 100M+ | PC + Mobile |\n| Week 1 | 180M | Mobile ~30% |\n| 2 Weeks | 300M+ | Strong Japan contribution |\n| v1.1 Day 1 | 50M+ | Lacrimosa banner |\n\n---\n\n## Platform Revenue Split\n\n| Platform | Share | Notes |\n|----------|-------|-------|\n| PC | 65% | Highest ARPU |\n| Mobile (iOS+Android) | 25% | Largest user base |\n| PS5 | 8% | Strong paying intent |\n| Mac/HarmonyOS | 2% | Long tail |\n\n---\n\n## Regional Revenue Ranking\n\n| Rank | Market | Share | Highlights |\n|------|--------|-------|------------|\n| 1 | China | 55% | Core market |\n| 2 | Japan | 18% | App Store #1 |\n| 3 | Korea | 8% | 5M+ pre-registrations |\n| 4 | USA | 6% | Fastest growing |\n| 5 | SEA | 5% | Indonesia/Thailand/Vietnam |\n| 6 | Others | 8% | Europe/ME/LATAM |\n\n---\n\n## Competitor Comparison (First Month Est.)\n\n| Game | Month 1 Revenue | Developer | Engine |\n|------|----------------|-----------|--------|\n| NTE | 400-500M (est.) | Hotta/PW | UE5 |\n| Genshin (2020) | ~800M | miHoYo | Unity |\n| HSR (2023) | ~1.2B | miHoYo | Unity |\n| Wuthering Waves | ~300M | Kuro | UE5 |\n\n---\n\n## Profitability Assessment\n\n- Development cost: ~800M-1.2B RMB over 4 years\n- Break-even expected within 3 months\n- Pay rate: ~8% (above 5% industry average)\n- ARPPU: ~450 RMB\n\n---\n\n## Revenue Forecast\n\n| Period | Est. Revenue | Driver |\n|--------|-------------|--------|\n| v1.0 cycle | 400-500M | Launch hype + Nanally |\n| v1.1 cycle | 300-400M | Lacrimosa + Chaos + Porsche |\n| v1.2 cycle | 300-400M | Illica + Zhenhong |\n| FY2026 | 1.5-2B | Multiple versions + collabs |\n\n> Data sources: Sensor Tower / data.ai / industry estimates. For reference only.",
+    "image": "/images/blog/nte-world-urban-street-character-green-hair.webp",
+    "imageAlt": "NTE 2026 revenue data analysis",
+    "internalLinks": [
+      {
+        "label": "角色强度榜",
+        "labelEn": "Tier List",
+        "href": "/tier-list"
+      },
+      {
+        "label": "卡池时间表",
+        "labelEn": "Banner Schedule",
+        "href": "/blog/nte-banner-schedule-roadmap"
+      },
+      {
+        "label": "抽卡系统详解",
+        "labelEn": "Gacha System Guide",
+        "href": "/gacha"
+      }
+    ]
   }
 ]

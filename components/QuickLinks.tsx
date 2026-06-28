@@ -19,6 +19,7 @@ const links = [
 export function QuickLinks({ lang }: { lang: string }) {
   const locale = lang as Locale;
   const pathname = usePathname();
+  if (pathname.includes("/anime-destiny")) return null;
 
   return (
     <nav className="border-t border-gray-800 bg-gray-900/50 backdrop-blur-sm">

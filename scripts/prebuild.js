@@ -8,6 +8,7 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(ROOT, "data");
+const AD_DATA = path.join(DATA, "anime-destiny");
 const PUBLIC = path.join(ROOT, "public");
 const BASE_URL = "https://nteguide.com";
 
@@ -23,6 +24,13 @@ function load(name) {
     cache[name] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf-8")) : [];
   }
   return cache[name];
+}
+function loadAD(name) {
+  if (!cache["ad:" + name]) {
+    const p = path.join(AD_DATA, name);
+    cache["ad:" + name] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf-8")) : [];
+  }
+  return cache["ad:" + name];
 }
 
 // ── 1. Search Index ────────────────────────────────────
@@ -201,15 +209,30 @@ function generateSitemaps() {
     ...collectIndexableTags().flatMap(tag => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${encodeURIComponent(tag)}/`, priority: 0.5, changeFreq: "weekly" }))),
   ];
 
+  // Anime Destiny sitemap (English only)
+  const adBase = `${BASE_URL}/en/anime-destiny`;
+  const adUrls = [
+    { url: `${adBase}/`, priority: 0.9, changeFreq: "daily" },
+    { url: `${adBase}/codes/`, priority: 0.9, changeFreq: "daily" },
+    { url: `${adBase}/tier-list/`, priority: 0.8, changeFreq: "weekly" },
+    { url: `${adBase}/units/`, priority: 0.8, changeFreq: "weekly" },
+    { url: `${adBase}/traits/`, priority: 0.7, changeFreq: "weekly" },
+    { url: `${adBase}/artifacts/`, priority: 0.7, changeFreq: "weekly" },
+    { url: `${adBase}/guides/`, priority: 0.8, changeFreq: "weekly" },
+    ...loadAD("units.json").map(u => ({ url: `${adBase}/units/${u.id}/`, priority: 0.7, changeFreq: "weekly" })),
+    ...loadAD("guides.json").map(g => ({ url: `${adBase}/guides/${g.id}/`, priority: 0.8, changeFreq: "weekly" })),
+  ];
+
   writeSitemap("sitemap-pages.xml", pageUrls);
   writeSitemap("sitemap-characters.xml", characterUrls);
   writeSitemap("sitemap-weapons.xml", weaponUrls);
   writeSitemap("sitemap-vehicles.xml", vehicleUrls);
   writeSitemap("sitemap-guides.xml", guideUrls);
   writeSitemap("sitemap-other.xml", otherUrls);
+  writeSitemap("sitemap-anime-destiny.xml", adUrls);
 
   // Sitemap index
-  const subSitemaps = ["sitemap-pages.xml", "sitemap-characters.xml", "sitemap-weapons.xml", "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml"];
+  const subSitemaps = ["sitemap-pages.xml", "sitemap-characters.xml", "sitemap-weapons.xml", "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml", "sitemap-anime-destiny.xml"];
   const now = new Date().toISOString();
   const existingIndexLastmods = (() => {
     const file = path.join(PUBLIC, "sitemap.xml");
@@ -230,7 +253,7 @@ function generateSitemaps() {
   }).join("\n")}\n</sitemapindex>\n`;
   fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), indexXml, "utf-8");
 
-  const total = pageUrls.length + characterUrls.length + weaponUrls.length + vehicleUrls.length + guideUrls.length + otherUrls.length;
+  const total = pageUrls.length + characterUrls.length + weaponUrls.length + vehicleUrls.length + guideUrls.length + otherUrls.length + adUrls.length;
   console.log(`[sitemap] sitemap.xml: index (${subSitemaps.length} sub-sitemaps, ${total} total URLs)`);
 }
 

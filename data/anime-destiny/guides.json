@@ -1,0 +1,372 @@
+[
+  {
+    "id": "beginner-guide",
+    "title": "Anime Destiny Beginner Guide",
+    "description": "First-day path from codes to story stages.",
+    "category": "Beginner",
+    "steps": [
+      {
+        "title": "Launch the Official Game",
+        "content": "Start from the official Roblox page and join the Anime Destiny group for update and reward access. The game supports mobile, tablet, PC, and console, and Auto Roll is free.",
+        "tip": "Open Anime Destiny on Roblox, join the group, and check the in-game lobby before spending currency."
+      },
+      {
+        "title": "Redeem Codes First",
+        "content": "Redeem Release! and SorryForDelay before your first serious summon session. These codes give Gems for summons and RR for trait rerolls.",
+        "tip": "Use the Codes button on the right side of the screen, then claim rewards before rolling."
+      },
+      {
+        "title": "Summon a Starter Squad",
+        "content": "Use Gems to summon units and build a balanced early squad instead of chasing only one rare pull. Story progress matters more than a perfect first banner roll.",
+        "tip": "Equip your strongest available units and keep enough Gems for future banners."
+      },
+      {
+        "title": "Upgrade During Battles",
+        "content": "Place units where they cover enemy paths, then upgrade your best damage units first. Bosses and harder waves punish weak placement.",
+        "tip": "Focus upgrades on units that clear waves, break shields, or help stop bosses."
+      },
+      {
+        "title": "Clear Story Stages",
+        "content": "Story stages unlock progression, harder content, and farming routes. Finish story before judging the full strength of late-game units.",
+        "tip": "Push story stages steadily and return to earlier content when you need resources."
+      },
+      {
+        "title": "Save Trait Rerolls",
+        "content": "Do not spend most RR on early Rare, Epic, or temporary Legendary units. Rerolls have better long-term value on Mythic and Secret units.",
+        "tip": "Use only light rerolling early, then save the bulk of RR for stronger units."
+      },
+      {
+        "title": "Farm Repeatable Rewards",
+        "content": "Daily, weekly, 15-minute, and 30-minute challenges, Index rewards, Milestone rewards, Namak Planet Hard, and the Igris Boss Event are important resource routes.",
+        "tip": "Use repeatable content to collect Gems, BattlePass XP, Stat Cubes, and RR."
+      }
+    ]
+  },
+  {
+    "id": "summon-gems-guide",
+    "title": "Anime Destiny Summon and Gems Guide",
+    "description": "Summon system, gems, and Auto Roll usage.",
+    "category": "Intermediate",
+    "steps": [
+      {
+        "title": "Summon Units",
+        "content": "Summon powerful anime units to expand your roster and create a squad that can handle Story stages, bosses, and Endless Trials.",
+        "tip": "Fill a usable squad first, then chase stronger or rarer units after your basic team can clear early content."
+      },
+      {
+        "title": "Gems Budgeting",
+        "content": "Use Gems as your summon budget and decide what your squad actually needs before spending.",
+        "tip": "Save for meaningful summon sessions instead of spending every small amount immediately."
+      },
+      {
+        "title": "Free Auto Roll",
+        "content": "The Roblox game page lists Auto Roll as free, making repeated rolling easier during long summon sessions.",
+        "tip": "Use Auto Roll when you are ready to commit resources to a banner and review the results afterward."
+      },
+      {
+        "title": "Squad Building After Summons",
+        "content": "Every summon can change your roster plan because new units may improve damage, coverage, or consistency.",
+        "tip": "Upgrade the units you actively use before spreading resources across every new pull."
+      }
+    ],
+    "tips": [
+      "Redeem Anime Destiny codes for free Gems before your first summon session.",
+      "Keep a Gem reserve so new Mythic or Secret banners do not catch you empty-handed.",
+      "Use Auto Roll while farming, but check results before investing upgrade resources.",
+      "Prioritize banners that fill a missing role like boss damage, wave clear, or shield breaking."
+    ]
+  },
+  {
+    "id": "evolution-materials-guide",
+    "title": "Anime Destiny Evolution and Upgrade Materials",
+    "description": "Upgrade and evolution paths plus farm priority.",
+    "category": "Intermediate",
+    "materials": [
+      {
+        "name": "Unit Upgrades",
+        "usedFor": "Increasing the power of units already placed in your active squad.",
+        "whereToCheck": "In-game unit upgrade panel and Anime Destiny Trello resource sections.",
+        "priority": "High",
+        "bestUse": "Focus on units that help clear Story stages and boss fights."
+      },
+      {
+        "name": "Evolution Materials",
+        "usedFor": "Evolving eligible units and opening stronger ability paths for core units.",
+        "whereToCheck": "Each unit evolution recipe in-game and organized Trello unit entries.",
+        "priority": "High",
+        "bestUse": "Farm materials for units you plan to keep instead of every new summon."
+      },
+      {
+        "name": "Ability Unlocks",
+        "usedFor": "Unlocking stronger attacks or effects after upgrade and evolution progress.",
+        "whereToCheck": "Unit detail panels and Trello system notes.",
+        "priority": "Medium",
+        "bestUse": "Prioritize abilities that improve wave clear, boss damage, or team consistency."
+      },
+      {
+        "name": "Update and Group Rewards",
+        "usedFor": "Extra resources tied to updates, group activity, and reward announcements.",
+        "whereToCheck": "Discord announcements, Roblox group posts, and Trello update notes.",
+        "priority": "Medium",
+        "bestUse": "Claim timed rewards before spending farmed materials."
+      }
+    ],
+    "tips": [
+      "Check each unit's page for its specific evolution materials and upgrade path — every Mythic unit has a unique evolution recipe.",
+      "Secret units (Frozen Moon, Shadow Monarch, etc.) have no evolution path — they're obtained at full power from limited banners.",
+      "Ashura Swordsman requires Sword Saint Crest from the Sword Saint trial — farm this early if it's your main DPS.",
+      "Red Emperor evolution unlocks via Conqueror's Trial quest — complete this before investing in upgrade materials.",
+      "Eternal Night needs Blood Moon ritual materials — check the event schedule on Discord for the next Blood Moon."
+    ]
+  },
+  {
+    "id": "story-mode-guide",
+    "title": "Anime Destiny Story Mode Guide",
+    "description": "Complete walkthrough of story stages, progression tips, and stage-by-stage strategy.",
+    "category": "Advanced",
+    "steps": [
+      {
+        "title": "Understanding Story Stages",
+        "content": "Story stages are the core PvE progression path. Each act introduces tougher enemies, new mechanics, and better rewards. Clear stages to unlock the next act, farm routes, and harder content like Boss Events and Raids.",
+        "tip": "Don't skip stages — each act builds your resource income and unlocks essential game modes."
+      },
+      {
+        "title": "Act 1–3: Early Game",
+        "content": "Acts 1–3 are forgiving. Focus on building a balanced squad with one DPS, one shield breaker, and one AOE unit. Use Legendary units like Yellow Flash or Hawkeye until you pull Mythics. Upgrade your carry to max level before pushing harder acts.",
+        "tip": "Redeem codes before starting to stock up on Gems for early summons. Don't waste RR on Rare or Legendary units."
+      },
+      {
+        "title": "Act 4–6: Mid Game",
+        "content": "Enemies gain more HP and shields starting Act 4. You'll need at least one Mythic DPS unit (Red Emperor or Ashura Swordsman) to keep up. Shield-breaking units like Magicbane or Crow Prodigy become essential. Start equipping artifacts on your main carry.",
+        "tip": "Farm Namak Planet Hard for upgrade materials. Equip B-tier artifacts (Iron Shield, Apprentice Mark) on filler units."
+      },
+      {
+        "title": "Act 7–8: Late Game",
+        "content": "Late acts demand evolved Mythic units or Secret units. Bosses have multiple phases with enrage timers. Single-target DPS units like Eternal Night or Future Warrior shine here. Bring a freeze or slow unit (Frozen Moon) for crowd control.",
+        "tip": "Upgrade your main DPS to level 5 before attempting Act 7+. Equip A-tier artifacts like Shadow Essence or Sage Scroll."
+      },
+      {
+        "title": "Hard Mode and Stars",
+        "content": "After clearing an act on Normal, Hard Mode unlocks with star ratings. Earning 3 stars requires clearing under time limits, without losing units, or with restrictions. Stars reward Gems, Stat Cubes, and exclusive cosmetics.",
+        "tip": "Use Secret units for easy 3-star clears. Save Hard Mode for after your squad is fully upgraded."
+      }
+    ],
+    "tips": [
+      "Story progress unlocks Raid Mode, Boss Events, and Endless Trials — prioritize clearing acts first.",
+      "If stuck on a stage, farm earlier acts for upgrade materials instead of summoning randomly.",
+      "Daily and weekly challenges scale with story progress — push acts to increase reward quality.",
+      "Some stages have elemental resistances — keep a diverse roster of different damage types."
+    ]
+  },
+  {
+    "id": "boss-guide",
+    "title": "Anime Destiny Boss Guide — Strategies & Counters",
+    "description": "Boss mechanics, recommended units, and strategies for every major boss fight.",
+    "category": "Advanced",
+    "steps": [
+      {
+        "title": "Boss Fundamentals",
+        "content": "Boss fights are the ultimate test of squad composition. Bosses have high HP, shields, enrage timers, and unique mechanics. Unlike story mobs, bosses require focused single-target damage, shield breaking, and survival utility.",
+        "tip": "Always bring at least one shield breaker and one single-target DPS to every boss fight."
+      },
+      {
+        "title": "Shield Breaking Strategy",
+        "content": "Many bosses cycle through shield phases where direct damage is heavily reduced. Shield-breaking units like Magicbane (x2 shield break), Crow Prodigy (x1.5), and Frozen Moon deal bonus damage to shields. Time your shield-breaker abilities to match the boss's shield cycle.",
+        "tip": "Watch for the shield icon above the boss HP bar — switch aggro to shield-breaking units during shield phases."
+      },
+      {
+        "title": "Igris Boss Event",
+        "content": "Igris is a recurring limited-time boss event with extremely high HP and a 5-minute timer. Recommended setup: 2 Mythic+ DPS units (Red Emperor, Eternal Night), 1 shield breaker (Magicbane), 1 freeze utility (Frozen Moon). Place units in a triangle formation around the boss path.",
+        "tip": "Igris drops exclusive evolution materials. Farm this event whenever available to stockpile materials for Mythic evolutions."
+      },
+      {
+        "title": "Titan Boss Event",
+        "content": "The Titan boss summons adds that deal heavy AOE damage. Bring AOE units like Founding Titan or Destruction God to clear adds while maintaining boss damage. The Titan Core artifact is a guaranteed exchange from this event.",
+        "tip": "Kill adds within 10 seconds of spawn to prevent them from overwhelming your units."
+      },
+      {
+        "title": "Enrage Timers",
+        "content": "Most bosses enrage at 30% HP, gaining +50% attack speed and new attack patterns. Burst damage is critical here — use your highest DPS units' cooldowns during the enrage phase to finish the boss before it overwhelms your squad.",
+        "tip": "Save your strongest artifact-boosted upgrades for the enrage phase. Berserker Emblem is excellent here."
+      }
+    ],
+    "tips": [
+      "Equip Demon Shard on your main boss DPS for +40% damage and +15% crit damage.",
+      "Shadow Essence artifact gives +30% boss damage — perfect for dedicated boss-killer units.",
+      "Synergy pairs like Shadow Monarch + Crimson Knight provide +30% damage boost during boss fights.",
+      "If struggling with a boss, upgrade your DPS to level 5 and equip an A-tier artifact before retrying."
+    ]
+  },
+  {
+    "id": "endless-mode-guide",
+    "title": "Anime Destiny Endless Mode Guide",
+    "description": "Wave-by-wave strategy, survival tips, and optimal team compositions for Endless Trials.",
+    "category": "Advanced",
+    "steps": [
+      {
+        "title": "What is Endless Mode?",
+        "content": "Endless Trials are a survival game mode with escalating wave difficulty. There's no victory condition — you survive as long as possible. Leaderboards track top scores, and milestone rewards give Gems, Stat Cubes, and exclusive cosmetics every 10 waves.",
+        "tip": "Endless Mode is the best source of Stat Cubes. Aim for wave 50+ for meaningful rewards."
+      },
+      {
+        "title": "Team Composition for Endless",
+        "content": "You need sustained damage, crowd control, and survivability. Recommended setup: 1 AOE DPS (Founding Titan for add clearing), 1 single-target DPS (Red Emperor for tanky enemies), 1 freeze/slow unit (Frozen Moon), 1 utility unit with Godspeed trait for dodge chance.",
+        "tip": "Hybrid attack-type units perform best in Endless because they can hit both ground and air enemies."
+      },
+      {
+        "title": "Wave 1–30: Early Game",
+        "content": "Waves 1–30 are manageable with a solid Mythic squad. Focus on efficient placement and don't over-upgrade. Save your economy for later waves. Place units at chokepoints near the spawn.",
+        "tip": "Use Jack of All trait on filler units for balanced stats during early waves."
+      },
+      {
+        "title": "Wave 30–60: Mid Game",
+        "content": "Enemy HP and damage scale significantly past wave 30. You'll need max-upgraded Mythic units with A-tier artifacts. Freeze and slow effects become critical for crowd control. Watch for elite enemies that spawn with shields.",
+        "tip": "Reposition units between waves if the enemy path changes. Godspeed trait helps with repositioning."
+      },
+      {
+        "title": "Wave 60+: Late Game",
+        "content": "Past wave 60, enemies have massive HP pools and damage. Only fully evolved Secret units with S-tier artifacts can keep up. Iron Shield artifact's +25% survivability becomes valuable. Every wave past 60 gives milestone rewards.",
+        "tip": "At this point, unit synergy matters most — Shadow Monarch + Crimson Knight combo provides sustained dark synergy damage."
+      }
+    ],
+    "tips": [
+      "Equip Iron Shield artifact for survivability — the +25% survival boost is unique to Endless Mode.",
+      "Godspeed trait's 10% dodge chance stacks with Iron Shield for significant survival improvement.",
+      "Place AOE units near bends in the path to maximize damage coverage.",
+      "Use Frozen Moon's freeze ability to cluster enemies for AOE burst windows."
+    ]
+  },
+  {
+    "id": "raid-mode-guide",
+    "title": "Anime Destiny Raid Mode Guide",
+    "description": "Raid mechanics, team setup, artifact farming, and boss strategies for all raid tiers.",
+    "category": "Advanced",
+    "steps": [
+      {
+        "title": "What is Raid Mode?",
+        "content": "Raids are cooperative boss encounters that require coordinated teams. Unlike story bosses, raid bosses have phase transitions, mechanics that require multiple unit types, and rare artifact drops. Raids reset weekly with rotating bosses.",
+        "tip": "Raids are the primary source of S-tier artifacts like Demon Shard and Titan Core."
+      },
+      {
+        "title": "Demon Raid",
+        "content": "The Demon Raid features a multi-phase boss with fire AOE attacks. Phase 1: standard DPS check with shield phases. Phase 2: summons fire adds that must be cleared within 15 seconds. Phase 3: enrage with full-map AOE every 10 seconds. Drops Demon Shard (0.5% rate).",
+        "tip": "Bring Frozen Moon for freeze on fire adds. Equip Frost Crystal artifact for +25% slow effect on adds."
+      },
+      {
+        "title": "Shadow Dungeon",
+        "content": "The Shadow Dungeon is a wave-based raid with dark-element enemies resistant to physical damage. Bring magic-based DPS units and anti-magic units like Magicbane. Shadow Essence drops here at 5% rate. Clear all 10 waves for maximum rewards.",
+        "tip": "Anti-magic units deal 2x damage to dark-element enemies. Magicbane is the MVP here."
+      },
+      {
+        "title": "Poison Marsh",
+        "content": "Poison Marsh features enemies that apply stacking poison DoT to your units. Poison Vial artifact (+50% DoT damage) drops here at 8% rate. Bring DoT-focused units like Insect Slayer or Ashura Swordsman to out-sustain enemy poison.",
+        "tip": "Equip Poison Vial on your DoT units for massive damage boost. This is the only raid where DoT units outperform burst DPS."
+      },
+      {
+        "title": "Raid Team Setup",
+        "content": "Optimal raid composition: 2 DPS units (one single-target, one AOE), 1 shield breaker, 1 crowd control. For cooperative raids, coordinate with teammates to cover different roles. Voice chat or Discord coordination significantly improves clear rates.",
+        "tip": "Join the official Discord to find raid groups. Coordinated teams clear 2x faster than solo players."
+      }
+    ],
+    "tips": [
+      "Raids reset every Monday — plan your week around which raid boss is active.",
+      "Demon Shard drop rate is only 0.5%, so expect 20+ clears on average. Be patient.",
+      "Use Sage Scroll artifact to boost upgrade effectiveness — raids reward max-upgraded units.",
+      "Weekly raid milestones give Gems and Stat Cubes even if you don't get artifact drops."
+    ]
+  },
+  {
+    "id": "team-composition-guide",
+    "title": "Anime Destiny Team Composition Guide",
+    "description": "Optimal team builds for story, bosses, endless, and raids — including budget and whale setups.",
+    "category": "Advanced",
+    "steps": [
+      {
+        "title": "Team Building Fundamentals",
+        "content": "A well-rounded Anime Destiny squad needs 4 roles: Primary DPS (highest damage output), Shield Breaker (breaks boss shields), Crowd Control (freeze/slow/stun), and Flex (AOE clear, support, or secondary DPS). Most game modes allow 4 unit placements, so every slot matters.",
+        "tip": "Don't stack 4 DPS units — without shield breaking and crowd control, bosses will overwhelm you."
+      },
+      {
+        "title": "Budget Team (Free-to-Play)",
+        "content": "For players without Secret units: Red Emperor (Mythic DPS, evolved) + Magicbane (shield breaker) + Insect Slayer (DoT DPS) + Crow Prodigy (early shield breaker, cheap placement). This team can clear Story Acts 1–6 and reach Endless wave 30 with proper upgrades.",
+        "tip": "Invest all RR into Red Emperor — it's the best accessible Mythic carry. Equip Warrior Banner artifact for balanced stats."
+      },
+      {
+        "title": "Mid-Game Team (Mythic Focused)",
+        "content": "Once you have 2+ evolved Mythics: Red Emperor (primary DPS) + Ashura Swordsman (DoT + shield break) + Eternal Night (boss killer) + Frozen Moon (freeze CC, if available from banner) or Magicbane (shield break). Equip A-tier artifacts on your two main DPS units.",
+        "tip": "Prioritize evolving Red Emperor and Ashura Swordsman first — they have the highest damage-per-RR ratio."
+      },
+      {
+        "title": "Late-Game Team (Secret Units)",
+        "content": "With Secret units available: Shadow Monarch (summon DPS) + Crimson Knight (Dark synergy +30%) + Frozen Moon (freeze utility) + Founding Titan (AOE + boss killer). This is the strongest general-purpose team. The Shadow Monarch + Crimson Knight synergy pair provides sustained Dark damage that scales into Endless wave 60+.",
+        "tip": "Equip Demon Shard on Shadow Monarch and Titan Core on Founding Titan for maximum output."
+      },
+      {
+        "title": "Boss-Specific Team",
+        "content": "For Igris and Titan boss events: Eternal Night (crit-scaling boss DPS) + Red Emperor (consistent burst) + Magicbane (x2 shield break) + Frozen Moon (freeze during enrage). Swap Eternal Night's artifact to Shadow Essence for +30% boss damage. Place units in triangle formation around the boss path.",
+        "tip": "Berserker Emblem on Eternal Night triggers +28% damage during enrage phase — perfect for sub-30% HP burn."
+      },
+      {
+        "title": "Raid Team",
+        "content": "For cooperative raids, coordinate roles with teammates: Player 1 brings AOE (Founding Titan), Player 2 brings single-target DPS (Red Emperor), Player 3 brings shield breaker (Magicbane), Player 4 brings CC (Frozen Moon). For Demon Raid specifically, swap one DPS for Insect Slayer (Poison ignores 30% DEF).",
+        "tip": "Use the official Discord's raid-LFG channel to find players with complementary team compositions."
+      },
+      {
+        "title": "Synergy Pairs",
+        "content": "Synergy units provide passive bonuses when deployed together. Shadow Monarch + Crimson Knight is the strongest pair (+30% Dark damage). Other notable pairs include units that share elemental themes. Always check the Synergy section on each unit's page before finalizing your team.",
+        "tip": "Synergy bonuses stack with artifact bonuses — a synergy pair with S-tier artifacts can outperform a team of individually stronger units without synergy."
+      }
+    ],
+    "tips": [
+      "Use Jack of All trait on your flex unit — it provides balanced stats that adapt to any situation.",
+      "For Endless Mode, prioritize survivability: Iron Shield artifact + Godspeed trait on at least one unit.",
+      "Reposition units between waves — the best Story formation isn't always optimal for Endless.",
+      "If your team is stuck, check whether the stage has elemental resistances before swapping units."
+    ]
+  },
+  {
+    "id": "summon-rates-guide",
+    "title": "Anime Destiny Summon Rates & Banner Guide",
+    "description": "Summon probabilities, pity system, banner strategy, and gem budgeting for optimal pulls.",
+    "category": "Intermediate",
+    "steps": [
+      {
+        "title": "Summon System Overview",
+        "content": "Summons are the primary way to obtain new units. Each summon costs Gems, and the result is determined by rarity-based probability rates. Banners rotate periodically, featuring different rate-up units. Auto Roll is free and allows batch summoning.",
+        "tip": "Always check the current banner before spending Gems — rate-up units have significantly higher pull rates."
+      },
+      {
+        "title": "Base Summon Rates",
+        "content": "Standard summon rates: Secret 0.5%, Mythic 5%, Mythic BattlePass 2%, Legendary 20%, Rare 72.5%. Rate-up banners increase the featured unit's share within its rarity tier. For example, a rate-up Secret unit might account for 50% of all Secret pulls (0.25% effective rate).",
+        "tip": "The jump from Mythic (5%) to Secret (0.5%) is 10x harder. Don't expect Secrets from small Gem amounts."
+      },
+      {
+        "title": "Pity System",
+        "content": "Anime Destiny features a pity counter: after 100 summons without a Secret unit, the next summon is guaranteed Secret. Pity carries over between banners of the same type but resets after pulling a Secret. Track your pity count manually or via the in-game counter.",
+        "tip": "Save at least 100 summons worth of Gems (roughly 10,000 Gems) before committing to a Secret banner to guarantee the pity pull."
+      },
+      {
+        "title": "Gem Economy",
+        "content": "Gems are earned from: Story stage clears (first-time reward), Daily challenges (100–300 Gems), Weekly challenges (500–1,000 Gems), Boss Events (200–500 per clear), Endless milestone rewards (every 10 waves), and Codes (one-time, 500–2,000 Gems each). Active players earn approximately 3,000–5,000 Gems per week.",
+        "tip": "Daily and Weekly challenges are your most reliable Gem source. Never skip them, even on busy days."
+      },
+      {
+        "title": "Banner Strategy",
+        "content": "When a new Secret banner drops, evaluate whether the unit fits your team before spending. Check the unit's page for stats, tier, and synergy info. If the Secret unit synergizes with your existing squad (e.g., Shadow Monarch + Crimson Knight), prioritize it. If not, save for the next banner.",
+        "tip": "Don't pull on every banner — save Gems for Secret units that directly upgrade your team composition."
+      },
+      {
+        "title": "Auto Roll and Bulk Summoning",
+        "content": "Auto Roll is free and lets you summon in batches (x10 or x100). Always use x10 pulls to benefit from any bonus Gems per multi-pull (if active). For pity tracking, x10 pulls make it easier to count — 10 pulls = 1/10th of pity progress.",
+        "tip": "Review results after every x10 batch — stop early if you get the rate-up unit to save remaining Gems."
+      }
+    ],
+    "tips": [
+      "Pity counter carries over between same-type banners — don't reset your progress by switching banner types carelessly.",
+      "Redeem codes immediately when they release — expired codes give nothing.",
+      "Save at least 10,000 Gems before a Secret banner for a guaranteed pity pull.",
+      "Mythic units at 5% rate are reliable — you'll average 1 Mythic per 20 summons, so budget accordingly.",
+      "Don't spend Gems on anything except summons — there are no other worthwhile Gem sinks."
+    ]
+  }
+]

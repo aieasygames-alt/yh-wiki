@@ -7,6 +7,7 @@ import Logo from "./Logo";
 
 export function Footer() {
   const pathname = usePathname();
+  if (pathname.includes("/anime-destiny")) return null;
   const lang = (pathname.split("/")[1] || "en") as Locale;
 
   const columns = [
@@ -59,6 +60,12 @@ export function Footer() {
         { href: `/${lang}/about`, label: t(lang, "footer.about") },
         { href: `/${lang}/privacy-policy`, label: t(lang, "footer.privacy") },
         { href: `/${lang}/terms`, label: t(lang, "footer.terms") },
+      ],
+    },
+    {
+      title: "More Games",
+      links: [
+        { href: "/en/anime-destiny", label: "Anime Destiny Wiki" },
       ],
     },
   ];

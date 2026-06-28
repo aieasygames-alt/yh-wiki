@@ -1,0 +1,47 @@
+{
+  "active": [
+    {
+      "code": "Release!",
+      "status": "Active",
+      "rewards": "1,500 Gems + 15 RR",
+      "description": "Best first code to redeem before summoning units."
+    },
+    {
+      "code": "SorryForDelay",
+      "status": "Active",
+      "rewards": "500 Gems + 5 RR + 5 Cubes + 5 Malice",
+      "description": "Strong starter bundle for summons and early reroll resources."
+    }
+  ],
+  "expired": [
+    { "code": "PATCH!", "note": "Bug patch" },
+    { "code": "BugPatch!", "note": "Bug fix" },
+    { "code": "BugHOTFIX!", "note": "Hotfix" },
+    { "code": "SorryForDelay!", "note": "Expired version" },
+    { "code": "ReleaseEA!", "note": "Early access" },
+    { "code": "UPDATE 1", "note": "Update 1" },
+    { "code": "6K Favorites", "note": "Milestone" },
+    { "code": "6K Likes", "note": "Milestone" },
+    { "code": "FixedBugSrySrySry", "note": "Bug apology" },
+    { "code": "Thx for 1M Visits!", "note": "1M visits milestone" },
+    { "code": "Warped Ninja!!!", "note": "Event code" },
+    { "code": "SryForShutdown", "note": "Shutdown apology" },
+    { "code": "ShutdownIssue", "note": "Shutdown issue" },
+    { "code": "ANIME DESTINY", "note": "Launch code" },
+    { "code": "1K Favorites", "note": "Milestone" },
+    { "code": "RELEASE!", "note": "Launch" },
+    { "code": "Early Access!", "note": "Early access" }
+  ],
+  "rewardTypes": [
+    { "name": "Gems", "description": "Main currency for summoning units across banners." },
+    { "name": "RR", "description": "Trait reroll resource used to change unit traits." },
+    { "name": "Cubes", "description": "Upgrade resource spent through in-game upgrade systems." },
+    { "name": "Malice", "description": "Launch reward resource kept for the system that requires it." }
+  ],
+  "howToRedeem": [
+    "Open Anime Destiny from the official Roblox experience page.",
+    "Click the Codes button on the right side of the screen.",
+    "Paste the code exactly as written, including capital letters and punctuation.",
+    "Press Redeem and check your Gems, RR, Cubes, or Malice balance."
+  ]
+}

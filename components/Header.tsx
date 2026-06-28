@@ -41,6 +41,9 @@ export function Header() {
     }
   }, []);
 
+  // Anime Destiny section has its own header/footer
+  if (pathname.includes("/anime-destiny")) return null;
+
   const navItems: NavItem[] = [
     { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
     { type: "dropdown", key: "guides-tools", label: t(lang, "site.nav.guidesAndTools"), items: [
@@ -82,6 +85,7 @@ export function Header() {
       { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
       { href: `/${lang}/changelog`, label: t(lang, "changelog.title") },
     ]},
+    { href: "/en/anime-destiny", label: "Anime Destiny" },
   ];
 
   const isActive = (href: string) =>

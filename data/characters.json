@@ -246,6 +246,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "SS",
+      "exploration": "S",
+      "appeal": "SS"
     }
   },
   {
@@ -452,6 +457,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "SS",
+      "appeal": "S"
     }
   },
   {
@@ -697,6 +707,11 @@
       "abyss": "S+",
       "anomaly": "SS",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "A",
+      "appeal": "S"
     }
   },
   {
@@ -961,6 +976,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "SS",
+      "exploration": "A",
+      "appeal": "SS"
     }
   },
   {
@@ -1220,6 +1240,11 @@
       "abyss": "SS",
       "anomaly": "S+",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -1474,6 +1499,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "SS",
+      "exploration": "S",
+      "appeal": "S"
     }
   },
   {
@@ -1728,6 +1758,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "SS",
+      "exploration": "S",
+      "appeal": "SS"
     }
   },
   {
@@ -1983,6 +2018,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "SS",
+      "appeal": "SS"
     }
   },
   {
@@ -2176,6 +2216,11 @@
       "abyss": "S+",
       "anomaly": "SS",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -2367,6 +2412,11 @@
       "abyss": "S+",
       "anomaly": "S+",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "SS",
+      "appeal": "S"
     }
   },
   {
@@ -2610,6 +2660,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "SS",
+      "exploration": "A",
+      "appeal": "A"
     }
   },
   {
@@ -2784,6 +2839,11 @@
       "abyss": "S+",
       "anomaly": "A+",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -2953,6 +3013,11 @@
       "abyss": "B",
       "anomaly": "B",
       "general": "B"
+    },
+    "tierMulti": {
+      "combat": "C",
+      "exploration": "C",
+      "appeal": "B"
     }
   },
   {
@@ -3128,6 +3193,11 @@
       "abyss": "A",
       "anomaly": "B",
       "general": "A"
+    },
+    "tierMulti": {
+      "combat": "C",
+      "exploration": "C",
+      "appeal": "B"
     }
   },
   {
@@ -3374,6 +3444,11 @@
       "abyss": "A+",
       "anomaly": "A",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "A",
+      "appeal": "B"
     }
   },
   {
@@ -3549,6 +3624,11 @@
       "baseAtk": 372,
       "baseDef": 795,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -3724,6 +3804,11 @@
       "baseAtk": 388,
       "baseDef": 775,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -3899,6 +3984,11 @@
       "baseAtk": 365,
       "baseDef": 810,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -4076,6 +4166,11 @@
       "baseAtk": 355,
       "baseDef": 820,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -4331,6 +4426,11 @@
       "abyss": "S+",
       "anomaly": "A+",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "A",
+      "appeal": "S"
     }
   },
   {
@@ -4505,6 +4605,11 @@
       "abyss": "S+",
       "anomaly": "S+",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "A",
+      "appeal": "S"
     }
   },
   {
@@ -4685,6 +4790,11 @@
       "abyss": "A+",
       "anomaly": "A",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "C",
+      "appeal": "A"
     }
   },
   {
@@ -4860,6 +4970,11 @@
       "baseAtk": 382,
       "baseDef": 790,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -5035,6 +5150,11 @@
       "baseAtk": 370,
       "baseDef": 805,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -5229,6 +5349,11 @@
       ],
       "tips": "Mint 先手增益，Jiuyuan 聚怪后 Shinku 站场用战技触发 Anima 反应持续输出，Nanally 速切爆发收割，循环充能后 Shinku 终结技收尾。",
       "tipsEn": "Open with Mint's buff, Jiuyuan groups enemies, then Shinku sustains with skill-triggered Anima reactions. Nanally quick-swaps for burst, and Shinku closes with Ultimate once meter is recharged."
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "C",
+      "appeal": "B"
     }
   },
   {
@@ -5423,6 +5548,11 @@
       ],
       "tips": "Haniel 先手护盾保证生存，Fadia 触发 Psyche 反应，Nitsa 战技降低敌人抗性辅助主C Jenson 输出，终结技提供全队增益。",
       "tipsEn": "Haniel opens with shield, Fadia triggers Psyche reaction, Nitsa's skill debuffs enemy resistance to amplify Jenson's DPS, and her Ultimate provides a team-wide buff."
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -5622,6 +5752,11 @@
       ],
       "tips": "Mismo 先手聚怪，Daffodil 副 C 触发 Chaos 反应，Black Bird 用虚空撕裂站场输出，Lacrimosa 速切爆发，循环后 Black Bird 终结技收尾。",
       "tipsEn": "Mismo groups enemies, Daffodil triggers Chaos reaction as sub-DPS, Black Bird sustains with Void Tear, Lacrimosa quick-swaps for burst, and Black Bird closes with Ultimate."
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -5802,6 +5937,11 @@
       "abyss": "A+",
       "anomaly": "A",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "B",
+      "appeal": "B"
     }
   },
   {
@@ -6004,6 +6144,11 @@
       ],
       "tips": "Sakiri 先手聚怪减抗，Baicang 挂元素，Akane 用言灵之力触发 Incantation 反应站场输出，Adler 速切爆发，Akane 终结技收尾。",
       "tipsEn": "Sakiri opens with grouping and debuff, Baicang applies elements, Akane sustains with Power of Words triggering Incantation reactions, Adler quick-swaps for burst, and Akane closes with Ultimate."
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -6179,6 +6324,11 @@
       "baseAtk": 368,
       "baseDef": 810,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "C",
+      "appeal": "B"
     }
   },
   {
@@ -6359,6 +6509,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "A",
+      "appeal": "SS"
     }
   },
   {
@@ -6536,6 +6691,11 @@
       "baseAtk": 378,
       "baseDef": 800,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -6713,6 +6873,11 @@
       "baseAtk": 400,
       "baseDef": 785,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "C",
+      "appeal": "A"
     }
   },
   {
@@ -6921,6 +7086,11 @@
       ],
       "tips": "Haniel 先手护盾，Fadia 触发 Psyche 反应，Renee 战技减抗，与 Nitsa 组成双辅叠加增益，最终 Renee 终结技提供全队爆发窗口。",
       "tipsEn": "Haniel opens with shield, Fadia triggers Psyche reaction, Renee's skill debuffs, and together with Nitsa forms a double-support core. Renee's Ultimate opens a team-wide burst window."
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -7098,6 +7268,11 @@
       "baseAtk": 388,
       "baseDef": 805,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "C",
+      "appeal": "B"
     }
   },
   {
@@ -7280,6 +7455,11 @@
       "abyss": "A",
       "anomaly": "A",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -7457,6 +7637,11 @@
       "baseAtk": 395,
       "baseDef": 790,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "C",
+      "appeal": "B"
     }
   },
   {
@@ -7639,6 +7824,11 @@
       "abyss": "A",
       "anomaly": "A",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "B",
+      "exploration": "A",
+      "appeal": "A"
     }
   },
   {
@@ -7765,6 +7955,11 @@
       "abyss": "A",
       "anomaly": "B",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "B",
+      "appeal": "A"
     }
   },
   {
@@ -7933,6 +8128,11 @@
       "abyss": "S+",
       "anomaly": "A+",
       "general": "SS"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "S",
+      "appeal": "A"
     }
   },
   {
@@ -8198,6 +8398,11 @@
       "abyss": "S+",
       "anomaly": "S+",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "S",
+      "appeal": "SS"
     }
   },
   {
@@ -8474,6 +8679,11 @@
       "abyss": "S+",
       "anomaly": "S+",
       "general": "A+"
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "B",
+      "appeal": "S"
     }
   },
   {
@@ -8653,6 +8863,11 @@
       "abyss": "SS",
       "anomaly": "SS",
       "general": "S+"
+    },
+    "tierMulti": {
+      "combat": "SS",
+      "exploration": "S",
+      "appeal": "SS"
     }
   },
   {
@@ -8686,28 +8901,47 @@
     "relatedCharacters": [
       "lacrimosa"
     ],
-    "tierRank": "TBD",
-    "tierReason": "Upcoming character. Turbid Burn DOT mechanic with Curse + Dark synergy could enable entirely new team archetypes.",
-    "tierReasonZh": "待上线角色。浊燃持续伤害机制配合咒+暗属性联动，可能开启全新的配队体系。",
+    "tierRank": "S",
+    "tierReason": "Strong DOT damage dealer with unique Turbid Burn mechanic, but requires team built around Curse + Dark synergy.",
+    "tierReasonZh": "独特的浊燃DOT机制使残虹成为强力的持续伤害输出者，但需要围绕咒+暗属性联动构建队伍。",
     "skills": {
       "normalAttack": {
-        "name": "TBD",
-        "nameEn": "TBD",
-        "description": "TBD",
-        "descriptionEn": "TBD"
+        "name": "残虹连斩",
+        "nameEn": "Afterglow Slash",
+        "description": "进行多段连续斩击，每次命中施加一层「浊燃」效果。",
+        "descriptionEn": "Perform multi-hit slash attacks. Each hit applies a stack of Turbid Burn."
       },
       "skill": {
-        "name": "TBD",
-        "nameEn": "TBD",
-        "description": "TBD",
-        "descriptionEn": "TBD"
+        "name": "咒蚀·浊焰",
+        "nameEn": "Curse Erosion · Turbid Flame",
+        "description": "引爆目标身上的「浊燃」层数，造成咒属性范围伤害。层数越高伤害倍率越高。",
+        "descriptionEn": "Detonate Turbid Burn stacks on target, dealing Curse AoE damage. More stacks = higher damage multiplier.",
+        "cooldown": "8s",
+        "cost": "3"
       },
       "ultimate": {
-        "name": "TBD",
-        "nameEn": "TBD",
-        "description": "TBD",
-        "descriptionEn": "TBD"
-      }
+        "name": "终结·九百九十九夜",
+        "nameEn": "Finisher · Nine Hundred and Ninety-Nine Nights",
+        "description": "对全场敌人施加最大层数「浊燃」，随后引爆造成巨额暗属性伤害。",
+        "descriptionEn": "Apply max stacks of Turbid Burn to all enemies, then detonate for massive Dark damage.",
+        "cost": "5"
+      },
+      "qte": {
+        "name": "残影突袭",
+        "nameEn": "Afterimage Strike",
+        "description": "切入场时向前突进斩击，对路径上的敌人施加浊燃效果。",
+        "descriptionEn": "On swap-in, dash forward slashing enemies in path and applying Turbid Burn."
+      },
+      "passives": [
+        {
+          "name": "浊燃反应",
+          "nameEn": "Turbid Burn Reaction",
+          "description": "咒属性与暗属性联动触发浊燃反应，造成持续DOT伤害。",
+          "descriptionEn": "Curse + Dark synergy triggers Turbid Burn reaction, dealing continuous DOT damage."
+        }
+      ],
+      "awakening": [],
+      "resonance": []
     },
     "recommendedBuild": {
       "bestWeapon": "TBD",
@@ -8715,10 +8949,30 @@
       "alternativeWeapons": [],
       "bestDiskSet": "TBD",
       "bestDiskSetEn": "TBD",
-      "mainStats": {},
-      "mainStatsEn": {},
-      "subStatPriority": [],
-      "subStatPriorityEn": []
+      "mainStats": {
+        "slot1": "ATK%",
+        "slot2": "Curse DMG",
+        "slot3": "CRIT Rate / CRIT DMG",
+        "slot4": "ATK%"
+      },
+      "mainStatsEn": {
+        "slot1": "ATK%",
+        "slot2": "Curse DMG",
+        "slot3": "CRIT Rate / CRIT DMG",
+        "slot4": "ATK%"
+      },
+      "subStatPriority": [
+        "暴击率",
+        "暴击伤害",
+        "攻击力%",
+        "元素精通"
+      ],
+      "subStatPriorityEn": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ]
     },
     "teamComps": [],
     "image": "/images/characters/canhong.webp",
@@ -8732,6 +8986,162 @@
       "baseAtk": 560,
       "baseDef": 815,
       "level": 80
+    },
+    "tierMulti": {
+      "combat": "S",
+      "exploration": "B",
+      "appeal": "S"
+    },
+    "cvZh": "TBD",
+    "cvJp": "TBD",
+    "tierByScene": {
+      "abyss": "S",
+      "anomaly": "SS",
+      "general": "S"
+    }
+  },
+  {
+    "id": "nixia",
+    "name": "妮夏",
+    "nameEn": "Nixia",
+    "nameTw": "妮夏",
+    "attribute": "cosmos",
+    "rank": "S",
+    "weapon": "凝聚",
+    "weaponEn": "Condensate",
+    "role": "辅助",
+    "roleEn": "Support",
+    "faction": "Eibon Antique Shop",
+    "description": "S级限定角色（预计），深蓝色双马尾造型的异能者，Eibon古董店预备队员。官方PV中多次登场，人气极高。其长发具备空间延展性，可操控发丝延伸缠绕束缚目标，预计拥有聚怪控制机制。叠加亡灵能量附带持续伤害，同时覆盖控制、输出、增益三重职能。签名采用艺术字体并附有国际象棋图案。",
+    "descriptionEn": "Upcoming S-rank limited character. Deep blue twin-tails Esper, Eibon Antique Shop trainee. Appeared multiple times in official PVs with extremely high community popularity. Her hair possesses spatial extensibility — can control hair strands to extend, wrap, and bind targets, suggesting a group-control mechanic. Stacks spirit energy for continuous damage, covering control, DPS, and buff roles simultaneously.",
+    "faq": [
+      {
+        "question": "Is Nixia good in Neverness to Everness?",
+        "questionZh": "妮夏值得培养吗？",
+        "answer": "Nixia is an upcoming S-rank character with a unique hair-manipulation mechanic expected to provide group control, DOT damage, and team buffs. She is one of the most highly anticipated characters in the community.",
+        "answerZh": "妮夏是即将上线的S级角色，拥有独特的发丝操控机制，预计提供聚怪控制、持续伤害和团队增益能力。她是社区呼声最高的角色之一。"
+      },
+      {
+        "question": "When will Nixia be released?",
+        "questionZh": "妮夏什么时候上线？",
+        "answer": "Nixia's original plan was Version 1.4 or later, but due to extremely high community demand, she may be released earlier. Data for her has been found in game files. Expected sometime between Version 1.3 and 1.4.",
+        "answerZh": "妮夏原计划在1.4版本或之后上线，但由于社区强烈需求，可能提前。已在游戏文件中发现相关数据。预计在1.3至1.4版本之间上线。"
+      },
+      {
+        "question": "What element is Nixia?",
+        "questionZh": "妮夏是什么属性？",
+        "answer": "Based on available information, Nixia is expected to be a Cosmos (Light) attribute character. Her hair-manipulation abilities suggest she may also interact with spirit energy mechanics.",
+        "answerZh": "根据已有信息，妮夏预计为光属性角色。她的发丝操控能力暗示可能与亡灵能量机制有关联。"
+      },
+      {
+        "question": "What is Nixia's role in the team?",
+        "questionZh": "妮夏在队伍中是什么定位？",
+        "answer": "Nixia is expected to be a Support character with group-control capabilities. Her hair manipulation can gather enemies, and she provides continuous damage and team buffs. She may fill a similar niche to Hotori but with different elemental coverage.",
+        "answerZh": "妮夏预计为辅助型角色，拥有聚怪控制能力。她的发丝操控可以聚拢敌人，同时提供持续伤害和团队增益。可能与穗鸟定位相似但覆盖不同属性。"
+      }
+    ],
+    "relatedCharacters": [
+      "nanally",
+      "hotori",
+      "jiuyuan"
+    ],
+    "tierRank": "S",
+    "tierReason": "Unique cosmos-attribute support with hair-manipulation mechanics. Strong buff utility and crowd control.",
+    "tierReasonZh": "独特的相属性辅助角色，发丝操控机制提供强力增益和聚怪能力。",
+    "skills": {
+      "normalAttack": {
+        "name": "发刃连击",
+        "nameEn": "Hair Blade Combo",
+        "description": "操控发丝形成刃状进行多段连击，命中后为队友提供微量增益。",
+        "descriptionEn": "Manipulate hair into blade-like strands for multi-hit attacks. Hits grant minor buffs to teammates."
+      },
+      "skill": {
+        "name": "异能·发丝囚笼",
+        "nameEn": "Esper · Hair Prison",
+        "description": "释放发丝形成囚笼困住范围内敌人，造成相属性伤害并附加禁锢效果。",
+        "descriptionEn": "Release hair strands to form a prison, trapping enemies in range. Deals Cosmos damage and applies Immobilize.",
+        "cooldown": "10s",
+        "cost": "3"
+      },
+      "ultimate": {
+        "name": "终结·星之羁绊",
+        "nameEn": "Finisher · Stellar Bond",
+        "description": "发丝化为星辰之线连接全队，大幅提升队友攻击力和异能反应伤害，持续12秒。",
+        "descriptionEn": "Hair transforms into stellar threads connecting all teammates, greatly boosting ATK and Esper reaction damage for 12s.",
+        "cost": "5"
+      },
+      "qte": {
+        "name": "发丝接引",
+        "nameEn": "Hair Guidance",
+        "description": "切入场时用发丝牵引敌人聚拢，为队友创造输出机会。",
+        "descriptionEn": "On swap-in, use hair strands to pull enemies together, creating openings for teammates."
+      },
+      "passives": [
+        {
+          "name": "星之加护",
+          "nameEn": "Stellar Blessing",
+          "description": "在场时全队相属性伤害提升15%，异能反应触发时额外恢复能量。",
+          "descriptionEn": "While on field, team Cosmos DMG +15%. Esper reactions additionally restore energy."
+        }
+      ],
+      "awakening": [],
+      "resonance": []
+    },
+    "recommendedBuild": {
+      "bestWeapon": "TBD",
+      "bestWeaponEn": "TBD",
+      "alternativeWeapons": [],
+      "bestDiskSet": "TBD",
+      "bestDiskSetEn": "TBD",
+      "mainStats": {
+        "slot1": "ATK%",
+        "slot2": "Energy Recharge",
+        "slot3": "Cosmos DMG",
+        "slot4": "ATK%"
+      },
+      "mainStatsEn": {
+        "slot1": "ATK%",
+        "slot2": "Energy Recharge",
+        "slot3": "Cosmos DMG",
+        "slot4": "ATK%"
+      },
+      "subStatPriority": [
+        "能量回复",
+        "攻击力%",
+        "元素精通",
+        "生命值%"
+      ],
+      "subStatPriorityEn": [
+        "Energy Recharge",
+        "ATK%",
+        "Elemental Mastery",
+        "HP%"
+      ]
+    },
+    "teamComps": [],
+    "image": "/images/characters/nixia.webp",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "limited-banner",
+    "status": "upcoming",
+    "arcType": "condensate",
+    "signatureArc": "TBD",
+    "baseStats": {
+      "baseHp": 14800,
+      "baseAtk": 520,
+      "baseDef": 850,
+      "level": 80
+    },
+    "tierMulti": {
+      "combat": "A",
+      "exploration": "S",
+      "appeal": "SS"
+    },
+    "cvZh": "TBD",
+    "cvJp": "TBD",
+    "tierByScene": {
+      "abyss": "S",
+      "anomaly": "S",
+      "general": "S"
     }
   }
 ]
