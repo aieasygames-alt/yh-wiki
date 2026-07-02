@@ -40,8 +40,8 @@ const banners: BannerEntry[] = [
     nameEn: "Illica",
     phase: "1.2 上半",
     phaseEn: "Version 1.2 Phase 1",
-    startDate: "2026-06-11",
-    endDate: "2026-06-25",
+    startDate: "2026-07-02",
+    endDate: "2026-07-23",
     status: "current",
     attribute: "Lakshana",
     attributeZh: "相",
@@ -65,8 +65,8 @@ const banners: BannerEntry[] = [
     nameEn: "Zhenhong",
     phase: "1.2 下半",
     phaseEn: "Version 1.2 Phase 2",
-    startDate: "2026-06-25",
-    endDate: "2026-07-15",
+    startDate: "2026-07-23",
+    endDate: "2026-08-13",
     status: "next",
     attribute: "Light",
     attributeZh: "光",
@@ -249,14 +249,14 @@ export default async function BannersPage({ params }: { params: { lang: string }
     {
       question: "Who is the current NTE banner?",
       questionZh: "异环当前卡池是谁？",
-      answer: "The current Neverness to Everness limited banner is Illica (1.2 Phase 1), running from June 11 to June 25, 2026 (CN server). She is the first limited S-rank healer/buffer in NTE.",
-      answerZh: "异环当前限定卡池为伊洛伊（1.2上半），国服时间为 2026-06-11 至 2026-06-25。她是异环首位S级限定治疗增益辅助。",
+      answer: "The current Neverness to Everness limited banner is Illica (1.2 Phase 1), running from July 2 to July 23, 2026 (CN server). She is the first limited S-rank healer/buffer in NTE.",
+      answerZh: "异环当前限定卡池为伊洛伊（1.2上半），国服时间为 2026-07-02 至 2026-07-23。她是异环首位S级限定治疗增益辅助。",
     },
     {
       question: "Who is the next NTE banner?",
       questionZh: "异环下一期卡池是谁？",
-      answer: "Zhenhong is the next limited banner for version 1.2 Phase 2, scheduled from June 25 to July 15, 2026 (CN server). She is a Light-element dragon-tribe main DPS.",
-      answerZh: "真红是1.2下半限定卡池角色，国服时间为 2026-06-25 至 2026-07-15。她是光属性龙族格斗家主C。",
+      answer: "Zhenhong is the next limited banner for version 1.2 Phase 2, scheduled from July 23 to August 13, 2026 (CN server). She is a Light-element dragon-tribe main DPS.",
+      answerZh: "真红是1.2下半限定卡池角色，国服时间为 2026-07-23 至 2026-08-13。她是光属性龙族格斗家主C。",
     },
     {
       question: "Does NTE have a 50/50 on character banners?",
@@ -273,8 +273,8 @@ export default async function BannersPage({ params }: { params: { lang: string }
     {
       question: "Are CN and global server banner dates the same?",
       questionZh: "异环国服和国际服卡池时间一样吗？",
-      answer: "No. Version 1.2 launched June 3 on the global server and June 11 on the CN server. Each phase's banner dates shift accordingly — always verify the dates for your own server before pulling. This page shows CN server dates as the default; global dates run roughly 8 days earlier per phase.",
-      answerZh: "不一样。1.2版本全球服6月3日上线，国服6月11日上线，每个阶段的卡池日期相应错开。抽取前请以自己所在服务器的官方公告为准。本页默认显示国服日期，全球服各阶段大约早8天。",
+      answer: "No. NTE is a CN-first game: version 1.2 launched July 2 on the CN server, with the global server following roughly a week later (around July 9). Each phase's banner dates shift accordingly — always verify the dates for your own server before pulling. This page shows CN server dates as the default; global dates run roughly a week later per phase.",
+      answerZh: "不一样。异环是国服优先：1.2版本国服7月2日上线，全球服晚约一周（7月9日前后）。每个阶段的卡池日期相应错开。抽取前请以自己所在服务器的官方公告为准。本页默认显示国服日期，全球服各阶段大约晚一周。",
     },
   ];
 

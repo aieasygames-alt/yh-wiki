@@ -6814,5 +6814,48 @@
     "questionTw": "異環 Ironmouse 為什麼取消合作？和 AI 爭議有關嗎？",
     "answerTw": "有關。2026 年 4 月底至 5 月，異環爆出部分美術素材疑涉 AI 生成內容，引發國際服最大聲譽危機。知名 VTuber Ironmouse 在爭議期間宣佈取消與異環的聯動合作，成為國際輿論標誌性事件之一。官方後續承認部分素材問題並承諾重做，一定程度上緩解了爭議。這件事加上「反 AI」社群的擴散，是國際服聲譽壓力的主要來源。對於玩家而言，是否繼續遊玩屬於個人選擇，瞭解事件背景有助於理性判斷。",
     "categoryTw": "爭議與事件"
+  },
+  {
+    "id": "nte-999-nights-mode",
+    "question": "异环 1.2「九百九十九夜」是什么玩法？",
+    "questionEn": "What is the 'Nine Hundred and Ninety-Nine Nights' mode in NTE 1.2?",
+    "questionTw": "異環 1.2「九百九十九夜」是什麼玩法？",
+    "answer": "「九百九十九夜」是异环 1.2 版本上线的常驻大型玩法，以桌游（TRPG）为灵感，场景为奇幻异世界「沃伦大陆」，核心是挑战不同难度的巨龙、推进桌游式章节。它长期开放、可反复周回，产出环石与养成材料。注意它与游乐园地图不是一回事——游乐园是海特洛市郊的现实区域，沃伦大陆是独立的奇幻世界。",
+    "answerEn": "'Nine Hundred and Ninety-Nine Nights' is a permanent large-scale mode added in NTE 1.2. Inspired by tabletop RPGs, it's set in a fantasy world called the Warren Continent, where you challenge dragons across difficulties and progress through tabletop-style chapters. It stays open permanently, is fully repeatable, and drops Ringstones and growth materials. Note it is not the same as the Amusement Park map — the park is a real area in the Hethereau suburbs, while the Warren Continent is a separate fantasy world.",
+    "answerTw": "「九百九十九夜」是異環 1.2 版本上線的常駐大型玩法，以桌遊（TRPG）為靈感，場景為奇幻異世界「沃倫大陸」，核心是挑戰不同難度的巨龍、推進桌遊式章節。它長期開放、可反覆周迴，產出環石與養成材料。注意它與遊樂園地圖不是一回事——遊樂園是海特洛市郊的現實區域，沃倫大陸是獨立的奇幻世界。",
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "categoryTw": "玩法",
+    "tags": [
+      "九百九十九夜",
+      "沃伦大陆",
+      "常驻玩法",
+      "1.2"
+    ],
+    "relatedCharacters": [],
+    "relatedMaterials": []
+  },
+  {
+    "id": "nte-gs25-collab-1-2",
+    "question": "异环 1.2 的 GS25 便利店联动有什么内容？",
+    "questionEn": "What does the GS25 convenience-store collab in NTE 1.2 include?",
+    "questionTw": "異環 1.2 的 GS25 便利店聯動有什麼內容？",
+    "answer": "1.2 版本与 GS25 便利店进行跨界联动。游乐园地图内设有 GS25 联动商店，玩家消耗活动代币可兑换限定家具、头像框、载具涂装等外观道具；配套的累计签到还能领取联动限定配饰、10 连抽与环石礼包。具体代币获取与兑换清单以游戏内活动页面为准。",
+    "answerEn": "NTE 1.2 runs a crossover collaboration with the GS25 convenience-store chain. An in-map GS25 collab shop in the Amusement Park lets you spend event tokens on cosmetics such as limited furniture, avatar frames and vehicle skins; an accompanying check-in track grants collab accessories, a 10-pull and Ringstone packs. Exact token sources and the redemption list follow the in-game event page.",
+    "answerTw": "1.2 版本與 GS25 便利店進行跨界聯動。遊樂園地圖內設有 GS25 聯動商店，玩家消耗活動代幣可兌換限定家具、頭像框、載具塗裝等外觀道具；配套的累計簽到還能領取聯動限定配飾、10 連抽與環石禮包。具體代幣獲取與兌換清單以遊戲內活動頁面為準。",
+    "category": "events",
+    "categoryZh": "活动",
+    "categoryEn": "Events",
+    "categoryTw": "活動",
+    "tags": [
+      "GS25",
+      "联动",
+      "游乐园",
+      "1.2",
+      "活动"
+    ],
+    "relatedCharacters": [],
+    "relatedMaterials": []
   }
 ]

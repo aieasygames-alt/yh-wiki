@@ -910,26 +910,28 @@
     "version": "1.2",
     "versionName": "九百九十九夜",
     "versionNameEn": "Nine Hundred and Ninety-Nine Nights",
-    "date": "2026-07-02（预计）",
+    "date": "2026-07-02",
     "dateGlobal": "2026-07-09（预计）",
     "type": "major",
     "highlights": [
-      "新角色伊洛伊（Illica）— S级限定治疗增益辅助，首位限定奶妈",
-      "新角色真红（Zhenhong）— S级限定光系主C，龙族格斗家",
-      "卡厄斯（Chaos）限定卡池下半持续",
-      "游乐园新地图区域开启",
-      "羁遇系统优化与扩展",
-      "Porsche联动车辆时装持续",
-      "画面渲染升级 — 角色光影与材质优化"
+      "「九百九十九夜」常驻桌游 RPG 奇幻模式上线 — 沃伦大陆挑战巨龙，可重复周回",
+      "新角色伊洛伊（Illica）— 首位限定 S 级治疗增益辅助（相属性），全队治疗+攻击增幅+护盾",
+      "新角色真红（Zhenhong）— S 级限定光系爆发主 C，龙娘，大范围 AOE 输出",
+      "游乐园新地图区域开放（海特洛市郊）+ GS25 便利店跨界联动",
+      "19 套新时装 + 时装染色（recolor）系统",
+      "新增卡丁车竞速小游戏、麻将新模式；深渊新增咒属性专属层",
+      "抽卡棋盘调整为 70 抽概率递增、90 抽保底 UP；免费常驻 S 级角色自选",
+      "前瞻直播福利：300 环石兑换码 + 限定滑翔翼涂装"
     ],
     "highlightsEn": [
-      "New character Illica — S-rank limited Heal/Buffer, first limited healer",
-      "New character Zhenhong — S-rank limited Light DPS, dragon-tribe fighter",
-      "Chaos limited banner Phase 2 continues",
-      "New amusement park map area opens",
-      "Bond system optimizations and expansion",
-      "Porsche collaboration vehicle skins continue",
-      "Graphics upgrade — improved character lighting and materials"
+      "'Nine Hundred and Ninety-Nine Nights' permanent tabletop-RPG fantasy mode launches — challenge dragons on the Warren Continent, fully repeatable",
+      "New character Illica — first limited S-rank Heal/Buffer (Lakshana attribute): team-wide healing + ATK buff + shields",
+      "New character Zhenhong — S-rank limited Light burst DPS, dragon girl with large-area AOE output",
+      "New Amusement Park map area opens (Heitro suburbs) + GS25 convenience-store crossover collaboration",
+      "19 new outfits + outfit recolor system",
+      "New kart-racing minigame and mahjong mode; Abyss adds a Curse-attribute exclusive floor",
+      "Gacha board reworked to escalating rate from pull 70, hard pity at 90; free permanent S-rank character selector",
+      "Preview livestream rewards: 300 Ringstone redemption code + limited glider skin"
     ],
     "sections": [
       {
@@ -939,40 +941,42 @@
           {
             "name": "伊洛伊",
             "nameEn": "Illica",
-            "description": "S级限定治疗增益辅助，异环首位限定奶妈角色。拥有强力的治疗与增伤能力，能大幅提升队伍生存与输出。",
-            "descriptionEn": "S-rank limited Heal/Buffer, the first limited healer in NTE. Provides powerful healing and damage buffs, greatly improving team survivability and output.",
+            "description": "S 级限定治疗增益辅助（相属性），异环首位限定奶辅。提供全队高额治疗、攻击增幅与护盾，适配暗队、浊燃体系。上半卡池 UP。",
+            "descriptionEn": "S-rank limited Heal/Buffer (Lakshana), the first limited healer in NTE. Team-wide healing, ATK buffs and shields; fits Dark and Turbid-Burn teams. Phase 1 banner.",
             "type": "character",
             "ref": "illica",
             "tags": [
               "S级",
               "限定",
-              "上半"
+              "上半",
+              "相属性"
             ]
           },
           {
             "name": "真红",
             "nameEn": "Zhenhong",
-            "description": "S级限定光系主C，龙族格斗家。技能围绕「鬼爪」中距离起手与「暴怒值」机制构建，暴怒值满后进入暴走状态大幅提升输出。被动强化创生体系反应，机械尾部协同攻击。",
-            "descriptionEn": "S-rank limited Light DPS, dragon-tribe fighter. Kit revolves around 'Demon Claw' mid-range engagement and 'Rage' gauge — entering Berserk state at max Rage. Passive enhances Genesis reactions. Mechanical tail coordinated attacks.",
+            "description": "S 级限定光系爆发主 C，龙娘。大范围 AOE 输出，深渊强势角色。可通过游乐园活动免费兑换专属夏日皮肤。下半卡池 UP。",
+            "descriptionEn": "S-rank limited Light burst DPS, dragon girl. Large-area AOE, top-tier in Abyss. Free summer skin obtainable via the amusement-park event. Phase 2 banner.",
             "type": "character",
             "ref": "zhenhong",
             "tags": [
               "S级",
               "限定",
-              "下半"
+              "下半",
+              "光属性"
             ]
           }
         ]
       },
       {
-        "title": "卡池安排",
-        "titleEn": "Banner Schedule",
+        "title": "卡池安排（国服）",
+        "titleEn": "Banner Schedule (CN)",
         "items": [
           {
             "name": "上半卡池（伊洛伊）",
             "nameEn": "Phase 1 Banner (Illica)",
-            "description": "6月11日 ~ 6月25日。伊洛伊限定UP。",
-            "descriptionEn": "June 11 – June 25. Illica limited banner.",
+            "description": "7月2日 ~ 7月23日。伊洛伊限定 UP，配套专属弧盘同步 UP。",
+            "descriptionEn": "July 2 – July 23. Illica limited banner, with her signature disc featured.",
             "type": "system",
             "ref": null,
             "tags": [
@@ -982,8 +986,8 @@
           {
             "name": "下半卡池（真红）",
             "nameEn": "Phase 2 Banner (Zhenhong)",
-            "description": "6月25日 ~ 7月15日。真红限定UP。",
-            "descriptionEn": "June 25 – July 15. Zhenhong limited banner.",
+            "description": "7月23日 ~ 8月13日。真红限定 UP，配套专属弧盘同步 UP。",
+            "descriptionEn": "July 23 – August 13. Zhenhong limited banner, with her signature disc featured.",
             "type": "system",
             "ref": null,
             "tags": [
@@ -993,14 +997,26 @@
         ]
       },
       {
-        "title": "系统优化",
-        "titleEn": "System Optimizations",
+        "title": "新玩法与地图",
+        "titleEn": "New Modes & Map",
         "items": [
+          {
+            "name": "九百九十九夜",
+            "nameEn": "Nine Hundred and Ninety-Nine Nights",
+            "description": "全新常驻桌游 RPG 风奇幻模式，场景为沃伦大陆，可挑战巨龙、重复周回，是本版本的核心大型内容。",
+            "descriptionEn": "New permanent tabletop-RPG-style fantasy mode set on the Warren Continent — challenge dragons, fully repeatable; the marquee content of this version.",
+            "type": "feature",
+            "ref": null,
+            "tags": [
+              "玩法",
+              "常驻"
+            ]
+          },
           {
             "name": "游乐园地图区域",
             "nameEn": "Amusement Park Map Area",
-            "description": "全新游乐园地图区域开放，包含新的探索点、宝箱和异象收集内容。",
-            "descriptionEn": "New amusement park map area with exploration points, treasure chests, and anomaly collection content.",
+            "description": "海特洛市郊全新游乐园区域开放（弗拉郎戈大道电话亭直达），含过山车、迷宫、昼夜天气切换，及游乐园专属异象委托与宝箱点位。",
+            "descriptionEn": "New amusement-park area in the Heitro suburbs (reachable from the Frango Avenue phone booth): roller coaster, maze, day/night weather, and park-exclusive anomaly commissions and chests.",
             "type": "feature",
             "ref": null,
             "tags": [
@@ -1008,25 +1024,76 @@
             ]
           },
           {
+            "name": "GS25 便利店联动",
+            "nameEn": "GS25 Convenience Store Collab",
+            "description": "地图内置 GS25 联动商店，消耗活动代币兑换限定家具、头像框、载具涂装；累计签到领配饰、10 连抽与环石礼包。",
+            "descriptionEn": "In-map GS25 collab shop trades event tokens for limited furniture, avatar frames and vehicle skins; daily check-ins grant accessories, a 10-pull and Ringstone packs.",
+            "type": "feature",
+            "ref": null,
+            "tags": [
+              "联动"
+            ]
+          },
+          {
+            "name": "卡丁车竞速 & 麻将新模式",
+            "nameEn": "Kart Racing & New Mahjong Mode",
+            "description": "游乐园新增四人联机卡丁车竞速小游戏（排名奖励环石与养成材料）；麻将新增玩法模式。",
+            "descriptionEn": "New four-player kart-racing minigame in the park (ranked rewards of Ringstones and growth mats); mahjong gains a new mode.",
+            "type": "feature",
+            "ref": null,
+            "tags": [
+              "玩法"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "系统与数值调整",
+        "titleEn": "System & Balance Changes",
+        "items": [
+          {
+            "name": "抽卡机制微调",
+            "nameEn": "Gacha Tuning",
+            "description": "限定棋盘 70 抽起概率递增、90 抽保底 UP 角色，武器池保底同步下调。",
+            "descriptionEn": "Limited board: escalating rate from pull 70, guaranteed featured character by pull 90; weapon-pool pity lowered accordingly.",
+            "type": "system",
+            "ref": null,
+            "tags": [
+              "抽卡"
+            ]
+          },
+          {
+            "name": "深渊咒属性专属层",
+            "nameEn": "Abyss Curse Floor",
+            "description": "深渊副本新增咒属性专属层数，真红、伊洛伊组队有通关加成，掉落新版武器突破素材。",
+            "descriptionEn": "Abyss adds a Curse-attribute exclusive floor; Zhenhong + Illica teams get clear bonuses and drop new weapon-ascension materials.",
+            "type": "system",
+            "ref": null,
+            "tags": [
+              "深渊"
+            ]
+          },
+          {
+            "name": "免费常驻 S 自选 & 老角色优化",
+            "nameEn": "Free Permanent S Selector & Legacy Buffs",
+            "description": "版本发放免费常驻 S 级角色自选；娜娜莉、哈索尔攻击前摇与技能动作优化，修复多角色技能判定 BUG。",
+            "descriptionEn": "A free permanent S-rank selector is granted; Nanali and Hathor get startup/animation improvements, plus multiple skill-hit-detection bug fixes.",
+            "type": "system",
+            "ref": null,
+            "tags": [
+              "福利",
+              "优化"
+            ]
+          },
+          {
             "name": "角色渲染升级",
             "nameEn": "Character Rendering Upgrade",
-            "description": "角色光影表现与渲染效果全面升级，发丝细节、服装质感更加精致。",
-            "descriptionEn": "Comprehensive upgrade to character lighting and rendering — improved hair detail and clothing textures.",
+            "description": "角色光影表现与渲染效果升级，发丝细节、服装质感更加精致；优化雨天、黄昏动态环境渲染。",
+            "descriptionEn": "Improved character lighting and rendering (hair detail, cloth texture); better rain and dusk dynamic environment rendering.",
             "type": "feature",
             "ref": null,
             "tags": [
               "画面"
-            ]
-          },
-          {
-            "name": "羁遇系统扩展",
-            "nameEn": "Bond System Expansion",
-            "description": "羁遇系统新增互动内容与角色剧情。",
-            "descriptionEn": "Bond system adds new interactions and character stories.",
-            "type": "feature",
-            "ref": null,
-            "tags": [
-              "社交"
             ]
           }
         ]
@@ -1036,9 +1103,9 @@
     "internalLinks": [
       "/characters/illica",
       "/characters/zhenhong",
-      "/characters/chaos",
       "/tier-list",
       "/redeem-codes",
+      "/map",
       "/changelog"
     ]
   },
@@ -1051,16 +1118,18 @@
     "dateGlobal": "2026-07-中旬（待定）",
     "type": "major",
     "highlights": [
-      "⚠️ 本条目为前瞻占位，所有内容基于版本节奏推测，以官方前瞻直播为准",
-      "预计新角色：残虹（Canhong）— S级限定咒+暗属性，浊燃 DOT 机制",
-      "预计国服 7 月上旬、全球服 7 月中旬上线（按 1.0→1.1→1.2 约 6 周节奏推断）",
-      "具体卡池、新地图、新系统等待官方前瞻直播确认"
+      "⚠️ 本条目为前瞻信息，卡池顺序与日期以官方公告为准",
+      "残虹（Canhong）已由官方前瞻公布建模重做，确认将于 1.3 上半登场 — S 级限定，咒/暗属性",
+      "残虹机制：暗星·浊燃体系，对处于「混浊」状态的敌人造成伤害并施加浊燃（DOT）",
+      "剧情已为魂系主 C 妮夏（Nixia）埋下线索，预计后续版本登场",
+      "具体上线日期、新地图与新系统待官方前瞻直播确认"
     ],
     "highlightsEn": [
-      "⚠️ This entry is a forward-looking placeholder; all content is inferred from version cadence and subject to the official preview livestream",
-      "Expected new character: Canhong — S-rank limited Curse + Dark, Turbid Burn DOT mechanic",
-      "Estimated CN launch early July, global mid-July (inferred from the ~6-week 1.0→1.1→1.2 cadence)",
-      "Specific banners, new map areas, and systems await official preview confirmation"
+      "⚠️ Forward-looking entry; banner order and dates are subject to official announcement",
+      "Canhong's reworked model has been revealed in the official preview — confirmed for the 1.3 first-half banner (S-rank limited, Curse/Dark)",
+      "Canhong's kit: Dark-Star / Turbid-Burn system — damages enemies in the 'Turbid' state and applies Turbid Burn (DOT)",
+      "Story has seeded hints for Soul-type main DPS Nixia, expected in a later version",
+      "Exact launch date, new map areas and systems await the official preview livestream"
     ],
     "sections": [
       {

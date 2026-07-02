@@ -29,10 +29,10 @@
     ],
     "version": "1.2",
     "phase": "Phase 1",
-    "startDate": "2026-06-11",
-    "endDate": "2026-06-25",
-    "startDateGlobal": "2026-06-03",
-    "endDateGlobal": "2026-06-17",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-23",
+    "startDateGlobal": "2026-07-09",
+    "endDateGlobal": "2026-07-30",
     "region": "cn"
   },
   "beginner": {
@@ -116,10 +116,38 @@
     ],
     "version": "1.2",
     "phase": "Phase 2",
-    "startDate": "2026-06-25",
-    "endDate": "2026-07-15",
-    "startDateGlobal": "2026-06-17",
-    "endDateGlobal": "2026-07-01",
+    "startDate": "2026-07-23",
+    "endDate": "2026-08-13",
+    "startDateGlobal": "2026-07-30",
+    "endDateGlobal": "2026-08-20",
+    "region": "cn"
+  },
+  "limited-1-3-phase1": {
+    "id": "limited-1-3-phase1",
+    "name": "限定祈愿·1.3上半（前瞻）",
+    "nameEn": "Limited Wish · v1.3 Phase 1 (Upcoming)",
+    "description": "残虹概率提升（1.3上半，前瞻预计），无50/50机制。日期与卡池顺序以官方公告为准。",
+    "descriptionEn": "Canhong rate boosted (v1.3 Phase 1, forward-looking estimate), no 50/50 system. Dates and banner order subject to official announcement.",
+    "rate5": 0.6,
+    "rate4": 10,
+    "rate3": 89.4,
+    "pity5": 90,
+    "softPityStart": 74,
+    "has5050": false,
+    "avgPity": 53.5,
+    "pityCarryOver": true,
+    "guaranteedFeatured": true,
+    "featured": [
+      "canhong"
+    ],
+    "featured4": [],
+    "version": "1.3",
+    "phase": "Phase 1",
+    "status": "upcoming",
+    "startDate": "TBD",
+    "endDate": "TBD",
+    "startDateGlobal": "TBD",
+    "endDateGlobal": "TBD",
     "region": "cn"
   }
 }

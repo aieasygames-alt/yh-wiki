@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-06-28
+> Generated: 2026-07-02
 
 ## Characters (45)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -94,7 +94,7 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (97)
+## Guides (98)
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -192,8 +192,9 @@
 - [异环移动端 120 帧开启教程：安卓/iPhone 机型适配、画质设置与闪退掉帧排查](/en/guides/mobile-120fps-guide/) — Mobile Optimization (updated 2026-06-19)
 - [伊洛伊深度攻略 — 异环首位限定奶妈治疗增益配队](/en/guides/illica-support-guide/) — Character Guide (updated 2026-06-23)
 - [异象玩法完全攻略 — 异环 endgame 副本机制、推荐角色与奖励一览](/en/guides/anomaly-endgame-guide/) — Endgame (updated 2026-06-23)
+- [「九百九十九夜」常驻玩法攻略 — 沃伦大陆挑战巨龙入门](/en/guides/nine-hundred-ninety-nine-nights-mode/) — Gameplay (updated 2026-07-02)
 
-## FAQ (296)
+## FAQ (298)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
@@ -490,10 +491,15 @@
 - What was NTE's 'Rabbit Hole' bug double-standard incident?
 - Was a PS player really banned for 100 years in NTE?
 - Why did Ironmouse cancel her NTE collaboration? Is it related to the AI controversy?
+- What is the 'Nine Hundred and Ninety-Nine Nights' mode in NTE 1.2?
+- What does the GS25 convenience-store collab in NTE 1.2 include?
 
-## Active Redeem Codes (5)
+## Active Redeem Codes (8)
 - NTEFREE: Fons x30,000
 - NTEWINFONS: Fons x20,000
 - NTEFUNGAME: Fons x10,000
 - NTENENE: Fons x10,000, DynamiK Zero x10, Clicky Fries x10
 - LACRIMOSA0603: Annulith x30, Fons x20,000
+- 999NIGHTS: Annulith x100, Senior Hunter Guide x5, Colorless Dye x5, Beetle Coin x6,000
+- IROI0729: Annulith x100, Elite Hunter Guide x2, Chaotic Dye x2, Beetle Coin x12,000
+- SHINKU0708: Annulith x100, Rising Hunter Guide x5, Light Dye x5, Beetle Coin x4,000

@@ -124,8 +124,8 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
               </thead>
               <tbody className="divide-y divide-gray-800">
                 <tr><td className="p-3">1.0 公测</td><td className="p-3">2026-04-23</td><td className="p-3">2026-04-29</td><td className="p-3 text-amber-400">{isZh ? "国服早6天" : "CN 6d earlier"}</td></tr>
-                <tr><td className="p-3">1.1 游梦洄廊</td><td className="p-3">2026-05-28</td><td className="p-3">2026-05-28</td><td className="p-3 text-emerald-400">{isZh ? "同步" : "Synced"}</td></tr>
-                <tr><td className="p-3">1.2 真红与残虹</td><td className="p-3">2026-06-11</td><td className="p-3">2026-06-03</td><td className="p-3 text-sky-400">{isZh ? "全球服早8天" : "Global 8d earlier"}</td></tr>
+                <tr><td className="p-3">1.1 游梦洄廊</td><td className="p-3">2026-05-28</td><td className="p-3">2026-06-03</td><td className="p-3 text-amber-400">{isZh ? "国服早6天" : "CN 6d earlier"}</td></tr>
+                <tr><td className="p-3">1.2 九百九十九夜</td><td className="p-3">2026-07-02</td><td className="p-3">2026-07-09</td><td className="p-3 text-amber-400">{isZh ? "国服早约1周" : "CN ~1wk earlier"}</td></tr>
                 <tr><td className="p-3">1.3（预计）</td><td className="p-3">2026-07 上旬</td><td className="p-3">2026-07 中旬</td><td className="p-3 text-gray-500">{isZh ? "待定" : "TBD"}</td></tr>
               </tbody>
             </table>

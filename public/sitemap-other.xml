@@ -6355,6 +6355,42 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://nteguide.com/zh/faq/nte-999-nights-mode/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/faq/nte-999-nights-mode/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/faq/nte-999-nights-mode/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/faq/nte-gs25-collab-1-2/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/faq/nte-gs25-collab-1-2/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/faq/nte-gs25-collab-1-2/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://nteguide.com/zh/lore/espers/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -6729,6 +6765,24 @@
   <url>
     <loc>https://nteguide.com/en/locations/sunward-island/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/locations/warren-continent/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/locations/warren-continent/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/locations/warren-continent/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -9038,19 +9092,19 @@
   </url>
   <url>
     <loc>https://nteguide.com/zh/changelog/1.2/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
+    <lastmod>2026-07-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/changelog/1.2/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
+    <lastmod>2026-07-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/changelog/1.2/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
+    <lastmod>2026-07-02T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -11247,6 +11301,24 @@
   <url>
     <loc>https://nteguide.com/en/tags/cn/</loc>
     <lastmod>2026-06-28T02:43:19.733Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/tags/1.2/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/tags/1.2/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/tags/1.2/</loc>
+    <lastmod>2026-07-02T13:11:18.791Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
