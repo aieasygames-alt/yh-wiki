@@ -27,6 +27,18 @@ describeIfBuilt("Build output verification", () => {
     expect(fs.existsSync(path.join(OUT_DIR, "_headers"))).toBe(true);
   });
 
+  it("generates robots.txt that blocks unsupported language prefixes", () => {
+    const content = fs.readFileSync(path.join(OUT_DIR, "robots.txt"), "utf-8");
+    for (const prefix of ["/ja/", "/de/", "/fr/", "/es/", "/ru/", "/th/", "/vi/", "/id/", "/ko/", "/pt-br/"]) {
+      expect(content).toContain(`Disallow: ${prefix}`);
+    }
+  });
+
+  it("generates a concrete not-found target for unsupported language redirects", () => {
+    expect(fs.existsSync(path.join(OUT_DIR, "_not-found/index.html"))).toBe(true);
+    expect(fs.existsSync(path.join(OUT_DIR, "404.html"))).toBe(true);
+  });
+
   it("generates zh index page", () => {
     expect(fs.existsSync(path.join(OUT_DIR, "zh/index.html"))).toBe(true);
   });
@@ -76,6 +88,13 @@ describeIfBuilt("Build output verification", () => {
   it("_redirects contains root redirect", () => {
     const content = fs.readFileSync(path.join(OUT_DIR, "_redirects"), "utf-8");
     expect(content).toMatch(/\//); // has root redirect
+  });
+
+  it("_redirects returns unsupported language prefixes as 404", () => {
+    const content = fs.readFileSync(path.join(OUT_DIR, "_redirects"), "utf-8");
+    expect(content).toContain("/ja/* /_not-found/index.html 404");
+    expect(content).toContain("/de/* /_not-found/index.html 404");
+    expect(content).toContain("/pt-br/* /_not-found/index.html 404");
   });
 
   it("generates at least 500 HTML files", () => {

@@ -1,53 +1,68 @@
 import { MetadataRoute } from "next";
 
+const UNSUPPORTED_LANGUAGE_PREFIXES = [
+  "/es/",
+  "/de/",
+  "/fr/",
+  "/ko/",
+  "/ja/",
+  "/ru/",
+  "/th/",
+  "/vi/",
+  "/id/",
+  "/pt-br/",
+];
+
 export default function robots(): MetadataRoute.Robots {
+  const disallow = ["/api/", ...UNSUPPORTED_LANGUAGE_PREFIXES];
+
   return {
     rules: [
       {
         userAgent: "*",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       // AI crawlers — explicit allow for GEO discoverability
       {
         userAgent: "GPTBot",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "ChatGPT-User",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "CCBot",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "ClaudeBot",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "Google-Extended",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "Applebot-Extended",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "PerplexityBot",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
       {
         userAgent: "Bytespider",
         allow: "/",
-        disallow: "/api/",
+        disallow,
       },
     ],
     sitemap: "https://nteguide.com/sitemap.xml",
