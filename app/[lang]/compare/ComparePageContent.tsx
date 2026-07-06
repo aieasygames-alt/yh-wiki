@@ -152,7 +152,7 @@ function getCompareTable(slug: string, locale: Locale) {
           { name: "世界观", values: ["现代都市奇幻", "奇幻冒险"] },
           { name: "画面风格", values: ["写实渲染", "卡通渲染"] },
           { name: "平台", values: ["PC", "PC / 手机 / PS"] },
-          { name: "抽卡保底", values: ["测试中", "90 抽大保底"] },
+          { name: "抽卡机制", values: ["90 抽必出 UP（无 50/50）", "90 抽小保底 / 180 抽大保底"] },
           { name: "多人模式", values: ["组队挑战", "4 人联机"] },
         ],
       };
@@ -164,7 +164,7 @@ function getCompareTable(slug: string, locale: Locale) {
         { name: "Setting", values: ["Modern Urban Fantasy", "Fantasy Adventure"] },
         { name: "Graphics", values: ["Realistic", "Cel-shaded"] },
         { name: "Platforms", values: ["PC", "PC / Mobile / PS"] },
-        { name: "Gacha Pity", values: ["TBD", "90 pulls"] },
+        { name: "Gacha", values: ["90 pulls, no 50/50", "90 / 180 pulls with 50/50"] },
         { name: "Multiplayer", values: ["Co-op Challenges", "4-player Co-op"] },
       ],
     };

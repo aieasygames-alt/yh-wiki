@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
@@ -59,6 +59,8 @@ export default function InteractiveMap({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
+    const renderedMarkers = renderedRef.current;
+    const prevMarkerIds = prevMarkerIdsRef.current;
     const bounds = getMapBounds(map);
     const leafletMap = L.map(containerRef.current, {
       crs: L.CRS.Simple,
@@ -106,13 +108,13 @@ export default function InteractiveMap({
       leafletMap.remove();
       mapRef.current = null;
       clusterRef.current = null;
-      renderedRef.current.clear();
-      prevMarkerIdsRef.current.clear();
+      renderedMarkers.clear();
+      prevMarkerIds.clear();
     };
-  }, [map.id]); // Re-init only when map changes
+  }, [map]); // Re-init only when map changes
 
   // Create or update a single Leaflet marker
-  const createLeafletMarker = (marker: MapMarker, isSelected: boolean, isCollected: boolean) => {
+  const createLeafletMarker = useCallback((marker: MapMarker, isSelected: boolean, isCollected: boolean) => {
     const typeInfo = markerTypes[marker.type];
     if (!typeInfo) return null;
 
@@ -133,7 +135,7 @@ export default function InteractiveMap({
       .on("click", () => {
         onSelectMarker(isSelected ? null : marker);
       });
-  };
+  }, [lang, markerTypes, onSelectMarker]);
 
   // Update markers — incremental add/remove when only filter changes,
   // full rebuild when the marker set composition changes
@@ -178,7 +180,7 @@ export default function InteractiveMap({
 
       prevMarkerIdsRef.current = currentIds;
     }
-  }, [markers, selectedMarker, markerTypes, progress, lang, onSelectMarker]);
+  }, [markers, selectedMarker, markerTypes, progress, createLeafletMarker]);
 
   // Draw route polyline
   useEffect(() => {

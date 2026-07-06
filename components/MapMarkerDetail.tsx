@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { MapMarker, MarkerTypeInfo, ProgressMap } from "../lib/map-utils";
 import { t, isZhLocale, Locale } from "../lib/i18n";
 import { getMaterialById } from "../lib/queries";
+import Image from "next/image";
 
 interface MapMarkerDetailProps {
   marker: MapMarker;
@@ -88,10 +89,13 @@ export default function MapMarkerDetail({
       {/* Marker image */}
       {marker.image && (
         <div className="mb-3 rounded-lg overflow-hidden border border-gray-800">
-          <img
+          <Image
             src={marker.image}
             alt={isZhLocale(lang) ? marker.name : marker.nameEn}
+            width={640}
+            height={320}
             className="w-full h-32 object-cover"
+            unoptimized
           />
         </div>
       )}

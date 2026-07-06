@@ -148,6 +148,7 @@ export default function ExplorerShareCard({
 
                 {/* Brand */}
                 <div className="flex items-center gap-2 mb-2">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/logo-80.png" alt="" className="w-6 h-6 rounded-full" />
                   <span className="text-xs font-bold text-primary-400">NTE Guide</span>
                 </div>
@@ -218,6 +219,7 @@ export default function ExplorerShareCard({
 
             {/* Brand */}
             <div className="flex items-center gap-3 mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo-192.png" alt="" className="w-14 h-14 rounded-full" />
               <span className="text-2xl font-bold text-primary-400">NTE Guide</span>
             </div>

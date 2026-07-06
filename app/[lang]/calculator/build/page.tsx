@@ -45,13 +45,13 @@ const RANK_COLORS: Record<string, string> = {
   B: "border-gray-600 bg-gray-800/50 hover:border-gray-500",
 };
 
+const characters = getAllCharacters();
+const weapons = getAllWeapons();
+const builds = buildsData as CharacterBuild[];
+
 export default function BuildCalculatorPage() {
   const { lang: langParam } = useParams();
   const lang = (langParam || "zh") as Locale;
-
-  const characters = getAllCharacters();
-  const weapons = getAllWeapons();
-  const builds = buildsData as CharacterBuild[];
 
   const [selectedCharacter, setSelectedCharacter] = useState("");
   const [activeBuildIdx, setActiveBuildIdx] = useState(0);
@@ -86,7 +86,7 @@ export default function BuildCalculatorPage() {
   const charactersWithBuilds = useMemo(() => {
     const buildCharIds = new Set(builds.map((b) => b.characterId));
     return characters.filter((c) => buildCharIds.has(c.id));
-  }, [characters, builds]);
+  }, []);
 
   const filteredCharacters = useMemo(() => {
     let list = charactersWithBuilds;

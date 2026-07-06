@@ -1,7 +1,7 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { t, hreflangAlternatesIndex, isZhLocale, asLocale, type Locale } from "../../lib/i18n";
-import { getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
+import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
@@ -62,11 +62,16 @@ export default async function HomePage({
   const { lang } = await params;
   const locale = lang as Locale;
   const characters = getAvailableCharacters();
+  const allCharacters = getAllCharacters();
   const guides = getAllGuides();
   const weapons = getAllWeapons();
   const blogPosts = getLatestBlogPosts(3);
 
   const sRankChars = characters.filter((c) => c.rank === "S" && c.status === "available");
+  const priorityCharacterIds = ["shinku", "black-bird", "akane", "lingko", "illica", "renee", "nitsa"];
+  const priorityCharacters = priorityCharacterIds
+    .map((id) => allCharacters.find((c) => c.id === id))
+    .filter(Boolean);
 
   return (
     <>
@@ -239,6 +244,38 @@ export default async function HomePage({
             ))}
           </div>
         </section>
+
+        {/* Trending Characters */}
+        {priorityCharacters.length > 0 && (
+          <section className="max-w-6xl mx-auto px-4 py-12">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-2xl font-bold">
+                {isZhLocale(locale) ? (locale === "tw" ? "熱門角色攻略" : "热门角色攻略") : "Trending NTE Character Guides"}
+              </h2>
+              <Link href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
+                {t(locale, "home.viewAll")} →
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4">
+              {priorityCharacters.map((character) => (
+                <Link
+                  key={character!.id}
+                  href={`/${lang}/characters/${character!.id}`}
+                  className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 hover:bg-gray-900/70 transition-colors"
+                >
+                  <p className="text-sm font-semibold">
+                    {locale === "tw" ? (character!.nameTw || character!.name) : isZhLocale(locale) ? character!.name : `${character!.nameEn} NTE`}
+                  </p>
+                  <p className="mt-1 text-xs text-gray-500">
+                    {isZhLocale(locale)
+                      ? `${character!.rank}级${character!.role}`
+                      : `${character!.rank}-rank ${character!.roleEn} guide`}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Latest Blog */}
         <section className="max-w-6xl mx-auto px-4 py-12">

@@ -59,6 +59,44 @@ function bannerCta(slug: string, locale: Locale) {
   return null;
 }
 
+const EN_CHARACTER_SEO: Record<string, { title: string; description: string; h1: string }> = {
+  "black-bird": {
+    title: "Black Bird NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
+    description: "Black Bird NTE character guide for Neverness to Everness: Chaos S-rank role, best build, weapons, disk sets, team comps, skills, tier ranking, and material links.",
+    h1: "Black Bird NTE Guide: Build, Skills & Tier Ranking",
+  },
+  akane: {
+    title: "Akane NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
+    description: "Akane NTE character guide for Neverness to Everness: best build, weapons, disk sets, team comps, skill priority, tier ranking, and leveling material links.",
+    h1: "Akane NTE Guide: Build, Skills & Tier Ranking",
+  },
+  shinku: {
+    title: "Shinku NTE Guide - Build, Element, Skills & Teams | Neverness to Everness",
+    description: "Shinku NTE guide for Neverness to Everness: Anima attacker overview, best build, weapon and disk set picks, team comps, skill notes, tier ranking, and release status.",
+    h1: "Shinku NTE Guide: Build, Element & Skills",
+  },
+  lingko: {
+    title: "Lingko NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
+    description: "Lingko NTE character guide for Neverness to Everness: Incantation attacker build, weapon and disk set picks, teams, skills, tier ranking, and release status.",
+    h1: "Lingko NTE Guide: Build, Skills & Tier Ranking",
+  },
+  illica: {
+    title: "Illica NTE Guide - Build, Banner, Skills & Teams | Neverness to Everness",
+    description: "Illica NTE guide for Neverness to Everness: S-rank limited support build, banner notes, healing and buff role, best teams, weapons, disk sets, and tier ranking.",
+    h1: "Illica NTE Guide: Build, Banner & Teams",
+  },
+  renee: {
+    title: "Renee NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
+    description: "Renee NTE character guide for Neverness to Everness: Psyche support build, best weapons, disk sets, team comps, skills, tier ranking, and release status.",
+    h1: "Renee NTE Guide: Build, Skills & Tier Ranking",
+  },
+  nitsa: {
+    title: "Nitsa NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
+    description: "Nitsa NTE character guide for Neverness to Everness: Psyche support overview, best build, weapons, disk sets, team comps, skills, tier ranking, and release status.",
+    h1: "Nitsa NTE Guide: Build, Skills & Tier Ranking",
+  },
+};
+
 export function generateStaticParams() {
   const characters = getAllCharacters();
   return characters.flatMap((c: { id: string }) => LOCALES.map((lang) => ({ lang, slug: c.id })));
@@ -95,12 +133,17 @@ export async function generateMetadata({
             descEn: "NTE Chaos preview guide: version 1.1 Phase 2 banner dates, kit notes, Lakshana teams, voice actor queries, and pull planning.",
           }
         : null;
-  const title = bannerSeo
+  const enSeo = !isZh ? EN_CHARACTER_SEO[slug] : undefined;
+  const title = enSeo
+    ? enSeo.title
+    : bannerSeo
     ? (isZh ? bannerSeo.titleZh : bannerSeo.titleEn)
     : isZh
     ? `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${attrLabel}${character.role ? character.role : ""}攻略：配装/技能/配队 | NTE`
     : `Best ${character.nameEn} Build${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"} Guide`;
-  const description = bannerSeo
+  const description = enSeo
+    ? enSeo.description
+    : bannerSeo
     ? (isZh ? bannerSeo.descZh : bannerSeo.descEn)
     : isZh
     ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
@@ -130,6 +173,7 @@ export default async function CharacterDetailPage({
 
   const cm = getCharacterMaterials(slug);
   const banner = bannerCta(slug, locale);
+  const enSeo = locale === "en" ? EN_CHARACTER_SEO[slug] : undefined;
 
   const relatedChars = (character.relatedCharacters || [])
     .map(id => getCharacter(id))
@@ -155,7 +199,7 @@ export default async function CharacterDetailPage({
           <div className="flex gap-6">
             <GameImage type="character" id={character.id} name={character.name} src={character.image} className="w-24 h-24 rounded-lg shrink-0" priority />
             <div className="flex-1 min-w-0">
-              <h1 className="text-2xl font-bold">{locale === "en" ? `${character.nameEn} Build Guide & Tier Ranking` : charName(character, locale)}</h1>
+              <h1 className="text-2xl font-bold">{locale === "en" ? (enSeo?.h1 || `${character.nameEn} NTE Build Guide & Tier Ranking`) : charName(character, locale)}</h1>
               <p className="text-gray-500">{locale === "en" ? character.name : character.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span

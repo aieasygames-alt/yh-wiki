@@ -6,6 +6,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { BreadcrumbJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { FaqSection } from "../../../../components/FaqSection";
+import { GameImage } from "../../../../components/GameImage";
 
 export function generateStaticParams() {
   const vehicles = getAllVehicles();
@@ -110,10 +111,15 @@ export default async function VehicleDetailPage({
         {/* Vehicle Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <img
+            <GameImage
+              type="vehicle"
+              id={vehicle.id}
+              name={vehicle.name}
               src={vehicle.image || "/images/vehicles/placeholder.webp"}
               alt={`${vehicle.name} - ${vehicle.nameEn}`}
-              className="w-32 h-24 rounded-lg object-cover shrink-0"
+              width={128}
+              height={96}
+              className="w-32 h-24 rounded-lg shrink-0"
             />
             <div className="flex-1">
               <h1 className="text-2xl font-bold">

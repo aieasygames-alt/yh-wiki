@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { getPlaceholderImage } from "../lib/placeholder";
 
@@ -36,17 +37,18 @@ export function GameImage({ type, id, name, className = "", alt, width, height, 
   const imgHeight = height ?? 200;
 
   return (
-    <div className={`overflow-hidden ${useContain ? "bg-gray-800/50" : ""} ${className}`}>
-      <img
+    <div className={`relative overflow-hidden ${useContain ? "bg-gray-800/50" : ""} ${className}`}>
+      <Image
         src={error ? getPlaceholderImage(type, name) : src}
         alt={altText}
         width={imgWidth}
         height={imgHeight}
         className={`w-full h-full ${useContain ? "object-contain p-1" : "object-cover"}`}
-        loading={priority ? "eager" : "lazy"}
-        fetchPriority={priority ? "high" : undefined}
+        loading={priority ? undefined : "lazy"}
+        priority={priority}
         draggable={false}
         onError={() => setError(true)}
+        unoptimized
       />
     </div>
   );

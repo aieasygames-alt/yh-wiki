@@ -9,6 +9,7 @@ import charactersData from "../../../data/characters.json";
 import blogData from "../../../data/blog.json";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
+import { GameImage } from "../../../components/GameImage";
 import Link from "next/link";
 
 interface RedeemCode {
@@ -410,10 +411,13 @@ export function RedeemCodesClient({ lang }: { lang: string }) {
                 className="group flex items-center gap-3 rounded-xl border border-gray-800 bg-gray-900/50 p-3 hover:border-primary-500/40 transition-colors"
               >
                 {c.image && (
-                  <img
+                  <GameImage
+                    type="character"
+                    id={c.id}
+                    name={c.name}
                     src={c.image}
                     alt={isZhLocale(locale) ? c.name : c.nameEn}
-                    className="w-10 h-10 rounded-lg object-cover bg-gray-800 shrink-0"
+                    className="w-10 h-10 rounded-lg bg-gray-800 shrink-0"
                   />
                 )}
                 <div className="min-w-0">

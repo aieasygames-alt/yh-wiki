@@ -12,10 +12,12 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const article = getCompare("nte-vs-genshin");
   if (!article) return {};
   const locale = lang as Locale;
-  const baseTitle = isZhLocale(locale) ? article.title : article.titleEn;
-  const description = isZhLocale(locale) ? article.summary : article.summaryEn;
-  const rawTitle = baseTitle;
-  const title = `${rawTitle} (2026)`;
+  const title = isZhLocale(locale)
+    ? "异环 vs 原神：抽卡、开放世界、战斗系统完整对比 (2026)"
+    : "NTE vs Genshin Impact: Gacha, Combat & Open World Differences (2026)";
+  const description = isZhLocale(locale)
+    ? "异环和原神完整对比：无50/50抽卡机制、现代都市开放世界、动作战斗、角色养成、平台与新手福利差异。"
+    : "NTE vs Genshin Impact comparison covering no-50/50 gacha, modern urban open world, action combat, character progression, platforms, and beginner rewards.";
   return {
     title,
     description,
