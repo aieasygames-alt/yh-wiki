@@ -43,34 +43,9 @@
 /sitemap-other.xml
   Cache-Control: public, max-age=3600
 
-# 404 / not-found pages — never index. CF Pages SPA fallback returns 200 for
-# unmatched routes with the Next.js error body, so without this Google would
-# index empty error pages (e.g. /ja/* /de/* language variants). The X-Robots-Tag
-# header covers all error-page responses regardless of how the route was reached.
+# 404 / not-found pages — never index if the not-found asset is requested
+# directly. Unsupported language prefixes are handled by _redirects with a 404
+# status instead of an X-Robots-Tag so GSC classifies them as removed URLs, not
+# "Excluded by noindex".
 /_not-found/*
-  X-Robots-Tag: noindex, follow
-
-# Unsupported language prefixes (/ja /de /fr /es /ru /th /vi /id /ko /pt-br)
-# CF Pages SPA fallback serves these as 200 with __next_error__ body and the
-# root layout's robots=index,follow — Google would index 18k+ empty pages.
-# _redirects 404 rules don't trigger (SPA fallback wins), so force noindex here.
-/ja/*
-  X-Robots-Tag: noindex, follow
-/de/*
-  X-Robots-Tag: noindex, follow
-/fr/*
-  X-Robots-Tag: noindex, follow
-/es/*
-  X-Robots-Tag: noindex, follow
-/ru/*
-  X-Robots-Tag: noindex, follow
-/th/*
-  X-Robots-Tag: noindex, follow
-/vi/*
-  X-Robots-Tag: noindex, follow
-/id/*
-  X-Robots-Tag: noindex, follow
-/ko/*
-  X-Robots-Tag: noindex, follow
-/pt-br/*
   X-Robots-Tag: noindex, follow

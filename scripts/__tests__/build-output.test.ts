@@ -39,6 +39,13 @@ describeIfBuilt("Build output verification", () => {
     expect(fs.existsSync(path.join(OUT_DIR, "404.html"))).toBe(true);
   });
 
+  it("does not mark unsupported language prefixes as noindex headers", () => {
+    const content = fs.readFileSync(path.join(OUT_DIR, "_headers"), "utf-8");
+    for (const prefix of ["/ja/*", "/de/*", "/fr/*", "/es/*", "/ru/*", "/th/*", "/vi/*", "/id/*", "/ko/*", "/pt-br/*"]) {
+      expect(content).not.toContain(prefix);
+    }
+  });
+
   it("exports internal HTML links as canonical trailing-slash URLs", () => {
     function scanHtmlFiles(dir: string, failures: string[] = []): string[] {
       for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
