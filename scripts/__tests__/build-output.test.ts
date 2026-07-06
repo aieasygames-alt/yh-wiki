@@ -39,6 +39,39 @@ describeIfBuilt("Build output verification", () => {
     expect(fs.existsSync(path.join(OUT_DIR, "404.html"))).toBe(true);
   });
 
+  it("exports internal HTML links as canonical trailing-slash URLs", () => {
+    function scanHtmlFiles(dir: string, failures: string[] = []): string[] {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          scanHtmlFiles(full, failures);
+        } else if (entry.isFile() && entry.name.endsWith(".html")) {
+          const content = fs.readFileSync(full, "utf-8");
+          const matches = content.matchAll(/\bhref=["'](\/[^"']*)["']/g);
+          for (const match of matches) {
+            const href = match[1];
+            const pathname = href.split(/[?#]/)[0];
+            const lastSegment = pathname.split("/").pop() || "";
+            const isFile = /\.[a-zA-Z0-9]{2,8}$/.test(lastSegment);
+            const ignored =
+              href.startsWith("/_next/") ||
+              href.startsWith("/api/") ||
+              href === "/" ||
+              pathname.endsWith("/") ||
+              isFile;
+
+            if (!ignored) {
+              failures.push(`${path.relative(OUT_DIR, full)} -> ${href}`);
+            }
+          }
+        }
+      }
+      return failures;
+    }
+
+    expect(scanHtmlFiles(OUT_DIR)).toEqual([]);
+  });
+
   it("generates zh index page", () => {
     expect(fs.existsSync(path.join(OUT_DIR, "zh/index.html"))).toBe(true);
   });
