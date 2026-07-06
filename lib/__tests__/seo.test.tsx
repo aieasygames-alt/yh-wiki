@@ -34,11 +34,10 @@ describe("WebSiteJsonLd", () => {
     expect(data.url).toBe("https://nteguide.com");
   });
 
-  it("includes SearchAction", () => {
+  it("does not advertise unsupported search result URLs", () => {
     const { container } = render(<WebSiteJsonLd />);
     const data = extractJsonLd(container);
-    expect(data.potentialAction["@type"]).toBe("SearchAction");
-    expect(data.potentialAction["query-input"]).toContain("search_term_string");
+    expect(data.potentialAction).toBeUndefined();
   });
 });
 

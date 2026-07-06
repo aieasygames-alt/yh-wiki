@@ -8,11 +8,6 @@ export function WebSiteJsonLd() {
     alternateName: "Neverness to Everness Wiki",
     url: "https://nteguide.com",
     description: "Neverness to Everness Wiki & tools. Character builds, tier lists, calculator, guides and codes.",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://nteguide.com/en/characters?q={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
   };
 
   return (

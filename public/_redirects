@@ -4,6 +4,9 @@
 
 # Root redirect - permanent
 / /zh/ 301
+/zh// /zh/ 301
+/tw// /tw/ 301
+/en// /en/ 301
 
 # Unsupported language prefixes return explicit 404 (via _not-found page).
 # Previously these 301'd to /en/ causing 18k+ "Page with redirect" GSC flags.
