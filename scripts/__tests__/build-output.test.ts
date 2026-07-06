@@ -137,6 +137,13 @@ describeIfBuilt("Build output verification", () => {
     expect(content).toContain("/pt-br/* /_not-found/index.html 404");
   });
 
+  it("_redirects covers trailing-slash variants of manual legacy rules", () => {
+    const content = fs.readFileSync(path.join(OUT_DIR, "_redirects"), "utf-8");
+    expect(content).toContain("/tw/blog/nte-system-requirements-can-you-run-it/ /tw/system-requirements/ 301");
+    expect(content).toContain("/en/weapons/whip-sword/ /en/weapons/clear-skies/ 301");
+    expect(content).toContain("/en/weapons/blade-wings/ /en/weapons/raging-flames/ 301");
+  });
+
   it("generates at least 500 HTML files", () => {
     function countHtmlFiles(dir: string): number {
       let count = 0;
