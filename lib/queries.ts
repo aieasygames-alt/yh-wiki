@@ -454,6 +454,7 @@ export interface BlogPost {
   summaryTw?: string;
   content: string;
   contentEn: string;
+  contentTw?: string;
   category: string;
   categoryZh: string;
   categoryEn: string;

@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, pickByLocale } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../lib/queries";
+import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
@@ -22,16 +23,23 @@ export async function generateMetadata({
   if (!faq) return {};
   const locale = lang as Locale;
 
-  // Use custom SEO title/description if defined, otherwise fall back to question.
-  // tw locale reads tw fields first (auto-converted from zh via OpenCC) to avoid
-  // Google duplicate-canonical flags caused by zh/tw title parity.
-  const baseTitle = pickByLocale(locale, faq.seoTitleTw, faq.seoTitleZh || faq.question, faq.seoTitleEn || faq.questionEn);
-  const description = pickByLocale(locale, faq.seoDescriptionTw, faq.seoDescriptionZh || faq.answer.slice(0, 160), faq.seoDescriptionEn || faq.answerEn.slice(0, 160));
-  const title = baseTitle || faq.question;
+  const title = pickLocalizedText(
+    locale,
+    faq.seoTitleZh || faq.question,
+    faq.seoTitleEn || faq.questionEn,
+    faq.seoTitleTw || faq.questionTw
+  );
+  const description = pickLocalizedText(
+    locale,
+    faq.seoDescriptionZh || faq.answer.slice(0, 160),
+    faq.seoDescriptionEn || faq.answerEn.slice(0, 160),
+    faq.seoDescriptionTw || faq.answerTw?.slice(0, 160)
+  );
 
   return {
     title,
     description,
+    keywords: localizedSeoKeywords(locale),
     alternates: hreflangAlternates(`faq/${slug}`, lang),
     openGraph: {
       title,
@@ -51,8 +59,8 @@ export default async function FaqDetailPage({
   const faq = getFaq(slug);
   if (!faq) notFound();
 
-  const question = pickByLocale(locale, faq.questionTw, faq.question, faq.questionEn) || faq.question;
-  const answer = pickByLocale(locale, faq.answerTw, faq.answer, faq.answerEn) || faq.answer;
+  const question = pickLocalizedText(locale, faq.question, faq.questionEn, faq.questionTw);
+  const answer = pickLocalizedText(locale, faq.answer, faq.answerEn, faq.answerTw);
 
   const relatedChars = faq.relatedCharacters
     .map((id) => getCharacter(id))
@@ -64,7 +72,14 @@ export default async function FaqDetailPage({
 
   return (
     <>
-      <FaqJsonLd faq={faq} lang={locale} />
+      <FaqJsonLd
+        faq={{
+          ...faq,
+          question,
+          answer,
+        }}
+        lang={locale}
+      />
       <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[

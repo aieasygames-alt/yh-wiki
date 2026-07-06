@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
+import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
@@ -47,14 +48,12 @@ export async function generateMetadata({
   const post = getBlogPost(slug);
   if (!post) return {};
   const locale = asLocale(lang);
-  const isZh = isZhLocale(locale);
-  const baseTitle = locale === "tw" ? (post.titleTw || post.title) : isZh ? post.title : post.titleEn;
-  const description = locale === "tw" ? (post.summaryTw || post.summary) : isZh ? post.summary : post.summaryEn;
-  // For non-zh/en locales, append locale name to avoid duplicate titles
-  const title = baseTitle;
+  const title = pickLocalizedText(locale, post.title, post.titleEn, post.titleTw);
+  const description = pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw);
   return {
     title,
     description,
+    keywords: localizedSeoKeywords(locale),
     alternates: hreflangAlternates(`blog/${slug}`, lang),
     openGraph: {
       title,
@@ -76,13 +75,9 @@ export default async function BlogDetailPage({
   const post = getBlogPost(slug);
   if (!post) notFound();
 
-  const title = locale === "tw"
-    ? (post.titleTw || post.title)
-    : isZhLocale(locale) ? post.title : post.titleEn;
-  const content = isZhLocale(locale) ? post.content : post.contentEn;
-  const summary = locale === "tw"
-    ? (post.summaryTw || post.summary)
-    : isZhLocale(locale) ? post.summary : post.summaryEn;
+  const title = pickLocalizedText(locale, post.title, post.titleEn, post.titleTw);
+  const content = pickLocalizedText(locale, post.content, post.contentEn, post.contentTw);
+  const summary = pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw);
   const category = isZhLocale(locale) ? post.categoryZh : post.categoryEn;
 
   return (
@@ -90,7 +85,7 @@ export default async function BlogDetailPage({
       <ArticleJsonLd
         title={title}
         description={summary}
-        url={`https://nteguide.com/${lang}/blog/${slug}`}
+        url={`https://nteguide.com/${lang}/blog/${slug}/`}
         datePublished={post.date}
         dateModified={post.date}
         image={post.image ? `https://nteguide.com${post.image}` : undefined}
@@ -195,7 +190,7 @@ export default async function BlogDetailPage({
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={rp.image}
-                          alt={rp.imageAlt || (isZhLocale(locale) ? rp.title : rp.titleEn)}
+                          alt={rp.imageAlt || pickLocalizedText(locale, rp.title, rp.titleEn, rp.titleTw)}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                           loading="lazy"
                         />
@@ -204,10 +199,10 @@ export default async function BlogDetailPage({
                     <div className="p-4">
                       <span className="text-xs text-gray-500">{rp.date}</span>
                       <h3 className="text-sm font-medium mt-1 group-hover:text-primary-400 transition-colors">
-                        {isZhLocale(locale) ? rp.title : rp.titleEn}
+                        {pickLocalizedText(locale, rp.title, rp.titleEn, rp.titleTw)}
                       </h3>
                       <p className="text-xs text-gray-500 mt-2 line-clamp-2">
-                        {isZhLocale(locale) ? rp.summary : rp.summaryEn}
+                        {pickLocalizedText(locale, rp.summary, rp.summaryEn, rp.summaryTw)}
                       </p>
                     </div>
                   </Link>
