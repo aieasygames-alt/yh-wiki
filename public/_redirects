@@ -6,6 +6,21 @@
 # Root redirect - permanent
 / /zh/ 301
 
+# High-priority legacy URLs seen in GSC crawl reports. Keep near the top:
+# Cloudflare Pages applies early _redirects rules more reliably than late ones.
+/zh/weapons/blade-wings /zh/weapons/raging-flames/ 301
+/zh/weapons/blade-wings/ /zh/weapons/raging-flames/ 301
+/tw/weapons/blade-wings /tw/weapons/raging-flames/ 301
+/tw/weapons/blade-wings/ /tw/weapons/raging-flames/ 301
+/en/weapons/blade-wings /en/weapons/raging-flames/ 301
+/en/weapons/blade-wings/ /en/weapons/raging-flames/ 301
+/zh/weapons/whip-sword /zh/weapons/clear-skies/ 301
+/zh/weapons/whip-sword/ /zh/weapons/clear-skies/ 301
+/tw/weapons/whip-sword /tw/weapons/clear-skies/ 301
+/tw/weapons/whip-sword/ /tw/weapons/clear-skies/ 301
+/en/weapons/whip-sword /en/weapons/clear-skies/ 301
+/en/weapons/whip-sword/ /en/weapons/clear-skies/ 301
+
 # Unsupported language prefixes return explicit 404 (via _not-found page).
 # Previously these 301'd to /en/ causing 18k+ "Page with redirect" GSC flags.
 # After dropping the redirects they returned 200 with empty error bodies
@@ -138,12 +153,6 @@
 /tw/weapons/vehicle/ /tw/weapons/reality-refuge/ 301
 /en/weapons/vehicle /en/weapons/reality-refuge/ 301
 /en/weapons/vehicle/ /en/weapons/reality-refuge/ 301
-/zh/weapons/blade-wings /zh/weapons/raging-flames/ 301
-/zh/weapons/blade-wings/ /zh/weapons/raging-flames/ 301
-/tw/weapons/blade-wings /tw/weapons/raging-flames/ 301
-/tw/weapons/blade-wings/ /tw/weapons/raging-flames/ 301
-/en/weapons/blade-wings /en/weapons/raging-flames/ 301
-/en/weapons/blade-wings/ /en/weapons/raging-flames/ 301
 /zh/weapons/yokai-hammer /zh/weapons/contemplative-cat/ 301
 /zh/weapons/yokai-hammer/ /zh/weapons/contemplative-cat/ 301
 /tw/weapons/yokai-hammer /tw/weapons/contemplative-cat/ 301
@@ -180,12 +189,6 @@
 /tw/weapons/appraisal-ability/ /tw/weapons/day-off/ 301
 /en/weapons/appraisal-ability /en/weapons/day-off/ 301
 /en/weapons/appraisal-ability/ /en/weapons/day-off/ 301
-/zh/weapons/whip-sword /zh/weapons/clear-skies/ 301
-/zh/weapons/whip-sword/ /zh/weapons/clear-skies/ 301
-/tw/weapons/whip-sword /tw/weapons/clear-skies/ 301
-/tw/weapons/whip-sword/ /tw/weapons/clear-skies/ 301
-/en/weapons/whip-sword /en/weapons/clear-skies/ 301
-/en/weapons/whip-sword/ /en/weapons/clear-skies/ 301
 /zh/weapons/chaos-orbs /zh/weapons/a-time-will-come/ 301
 /zh/weapons/chaos-orbs/ /zh/weapons/a-time-will-come/ 301
 /tw/weapons/chaos-orbs /tw/weapons/a-time-will-come/ 301
