@@ -34,6 +34,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string; tag: string } }) {
   const { lang, tag: rawTag } = await params;
   const tag = decodeURIComponent(rawTag);
+  const encodedTag = encodeURIComponent(tag);
   const locale = lang as Locale;
   const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环游戏 Wiki` : `#${tag} - NTE Guide`;
   const description = isZhLocale(locale)
@@ -48,7 +49,7 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
   return {
     title: `${title} | NTE Guide`,
     description,
-    alternates: hreflangAlternates(`tags/${tag}`, lang),
+    alternates: hreflangAlternates(`tags/${encodedTag}`, lang),
     // Thin tag pages (< 4 items) waste crawl budget — noindex them
     ...(matched.length < 4 ? { robots: { index: false, follow: true } } : {}),
   };
