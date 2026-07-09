@@ -7,6 +7,7 @@ import { DataStatusBanner } from "../../../components/DataStatusBanner";
 import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
 import { BossCardClient } from "../../../components/BossCardClient";
+import { localizedText } from "../../../lib/seo-copy";
 
 const BOSS_GUIDE_ID = "boss-guide-comprehensive";
 
@@ -29,14 +30,16 @@ export async function generateMetadata({
   const guide = getGuide(BOSS_GUIDE_ID);
   if (!guide) return {};
 
-  const title = isZhLocale(lang) ? guide.title : guide.titleEn;
-  const description = isZhLocale(lang) ? guide.summary : guide.summaryEn;
+  const locale = lang as Locale;
+  const title = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
+  const description = localizedText(locale, guide.summary, guide.summaryEn, guide.summaryTw);
+  const suffix = localizedText(locale, "异环攻略", "Neverness to Everness Guide");
   return {
-    title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
+    title: `${title} - ${suffix} | NTE Guide`,
     description,
     alternates: hreflangAlternates("bosses", lang),
     openGraph: {
-      title: `${title} - ${isZhLocale(lang) ? "异环攻略" : "Neverness to Everness Guide"} | NTE Guide`,
+      title: `${title} - ${suffix} | NTE Guide`,
       description,
       type: "article",
     },
@@ -54,9 +57,9 @@ export default async function BossGuidePage({
   const guide = getGuide(BOSS_GUIDE_ID);
   if (!guide) notFound();
 
-  const title = isZh ? guide.title : guide.titleEn;
+  const title = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
   const content = isZh ? guide.content : guide.contentEn;
-  const summary = isZh ? guide.summary : guide.summaryEn;
+  const summary = localizedText(locale, guide.summary, guide.summaryEn, guide.summaryTw);
 
   const anomalies = getAllAnomalies();
   const bosses = anomalies.filter((a) => a.type === "boss");

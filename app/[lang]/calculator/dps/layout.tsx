@@ -1,4 +1,5 @@
-import { hreflangAlternates, isZhLocale, Locale } from "../../../../lib/i18n";
+import { hreflangAlternates, Locale } from "../../../../lib/i18n";
+import { localizedText } from "../../../../lib/seo-copy";
 
 export async function generateMetadata({
   params,
@@ -7,10 +8,12 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale) ? "异环DPS计算器 — 完整循环伤害模拟" : "NTE DPS Calculator — Full Rotation Damage Simulation";
-  const description = isZhLocale(locale)
-    ? "异环DPS计算器：完整技能循环伤害计算，含角色/武器选择、Build预设、敌人设置和伤害倍率可视化。"
-    : "NTE DPS calculator: full rotation damage simulation with character/weapon selection, build presets, and multiplier visualization.";
+  const title = localizedText(locale, "异环DPS计算器 — 完整循环伤害模拟", "NTE DPS Calculator — Full Rotation Damage Simulation");
+  const description = localizedText(
+    locale,
+    "异环DPS计算器：完整技能循环伤害计算，包含角色、武器、Build预设、敌人防御设置、暴击期望和伤害倍率可视化。",
+    "NTE DPS calculator for full rotation damage simulation with character and weapon selection, build presets, enemy defense settings, crit expectations, and multiplier visualization."
+  );
   return {
     title,
     description,

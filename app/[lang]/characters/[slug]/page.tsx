@@ -21,6 +21,7 @@ import { RotationGuide } from "../../../../components/RotationGuide";
 import { TierBadge } from "../../../../components/TierBadge";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
+import { localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -28,7 +29,7 @@ const GiscusComments = dynamic(() => import("../../../../components/GiscusCommen
 /** Get character display name for a given locale */
 function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {
   if (locale === "zh") return c.name;
-  if (locale === "tw") return c.nameTw || c.name;
+  if (locale === "tw") return localizedText("tw", c.name, c.nameEn, c.nameTw);
   return c.nameEn;
 }
 
@@ -117,6 +118,7 @@ export async function generateMetadata({
   const tierStr = character.tierRank ? ` [${character.tierRank} Tier]` : "";
   const roleStr = character.roleEn ? ` ${character.roleEn}` : "";
   const attrLabel = getAttributeLabel(character.attribute, lang as Locale);
+  const roleLabel = isZh ? localizedText(lang as Locale, character.role || "", character.roleEn || "") : character.roleEn;
   const bannerSeo =
     slug === "lacrimosa"
       ? {
@@ -137,14 +139,14 @@ export async function generateMetadata({
   const title = enSeo
     ? enSeo.title
     : bannerSeo
-    ? (isZh ? bannerSeo.titleZh : bannerSeo.titleEn)
+    ? (isZh ? localizedText(lang as Locale, bannerSeo.titleZh, bannerSeo.titleEn) : bannerSeo.titleEn)
     : isZh
-    ? `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${attrLabel}${character.role ? character.role : ""}攻略：配装/技能/配队 | NTE`
+    ? localizedText(lang as Locale, `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${attrLabel}${roleLabel || ""}攻略：配装/技能/配队 | NTE`, "", `${name}${character.tierRank ? ` (${character.tierRank}級)` : ""} - ${attrLabel}${roleLabel || ""}攻略：配裝/技能/配隊 | NTE`)
     : `Best ${character.nameEn} Build${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"} Guide`;
   const description = enSeo
     ? enSeo.description
     : bannerSeo
-    ? (isZh ? bannerSeo.descZh : bannerSeo.descEn)
+    ? (isZh ? localizedText(lang as Locale, bannerSeo.descZh, bannerSeo.descEn) : bannerSeo.descEn)
     : isZh
     ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
     : `${character.nameEn}${roleStr} build guide for NTE${tierStr}. Best weapons, disk sets, team comps, skill priority & leveling materials — updated for 2026.`;

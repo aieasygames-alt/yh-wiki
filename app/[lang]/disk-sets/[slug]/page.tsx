@@ -7,6 +7,7 @@ import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { diskSetSeoCopy, localizedName, localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const sets = getAllDiskSets();
@@ -17,14 +18,27 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
   const { lang, slug } = await params;
   const set = getDiskSet(slug);
   if (!set) return {};
+  const locale = lang as Locale;
+  const categoryLabel = set.category === "elemental"
+    ? localizedText(locale, "元素套", "elemental")
+    : localizedText(locale, "通用套", "general");
+  const elementLabel = set.element ? getAttributeLabel(set.element, locale) : undefined;
+  const copy = diskSetSeoCopy({
+    locale,
+    name: set.name,
+    nameTw: set.nameTw,
+    nameEn: set.nameEn,
+    categoryLabel,
+    elementLabel,
+    pieces: set.pieces,
+    bonus2pc: locale === "en" ? set.setDescription2pcEn : set.setDescription2pc,
+    bonus4pc: locale === "en" ? set.setDescription4pcEn : set.setDescription4pc,
+    characterCount: set.characters.length,
+  });
 
   return {
-    title: isZhLocale(lang)
-      ? `${set.name}套装效果 & 适用角色 | 异环游戏 Wiki`
-      : `${set.nameEn} Set Bonus & Best Characters - NTE Guide`,
-    description: isZhLocale(lang)
-      ? `异环卡带「${set.name}」2件套和4件套效果详解，适用角色推荐。`
-      : `${set.nameEn} cartridge set guide: 2-piece and 4-piece bonuses, best characters, and how to use it in Neverness to Everness.`,
+    title: copy.title,
+    description: copy.description,
     alternates: hreflangAlternates(`disk-sets/${slug}`, lang),
   };
 }
@@ -36,6 +50,9 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
   if (!set) notFound();
 
   const characters = getAvailableCharacters();
+  const setName = localizedName(locale, set.name, set.nameEn, set.nameTw);
+  const bonus2pc = localizedText(locale, set.setDescription2pc, set.setDescription2pcEn);
+  const bonus4pc = localizedText(locale, set.setDescription4pc, set.setDescription4pcEn);
 
   return (
     <>
@@ -44,13 +61,13 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         items={[
           { label: t(locale, "common.home"), href: `/${lang}` },
           { label: t(locale, "site.nav.cassettes"), href: `/${lang}/disk-sets` },
-          { label: isZhLocale(locale) ? set.name : set.nameEn },
+          { label: setName },
         ]}
       />
       <ArticleJsonLd
-        title={isZhLocale(locale) ? set.name : set.nameEn}
+        title={setName}
         description={isZhLocale(locale)
-          ? `${set.name}（${set.pieces}件套）— ${set.category === "elemental" ? "元素套" : "通用套"} cassette 详细效果与适配角色`
+          ? `${setName}（${set.pieces}件套）— ${set.category === "elemental" ? t(locale, "diskSets.elementalLabel") : t(locale, "diskSets.generalLabel")} cassette 详细效果与适配角色`
           : `${set.nameEn} (${set.pieces}-piece set) — ${set.category === "elemental" ? "elemental" : "general"} cassette set effects and best characters`}
         url={`https://nteguide.com/${lang}/disk-sets/${slug}`}
       />
@@ -61,13 +78,13 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
             <GameImage
               type="cassette"
               id={set.id}
-              name={isZhLocale(locale) ? set.name : set.nameEn}
+              name={setName}
               className="w-20 h-20 rounded-lg shrink-0"
               contain
             />
             <div>
               <h1 className="text-2xl font-bold">
-                {isZhLocale(locale) ? set.name : set.nameEn}
+                {setName}
               </h1>
               <p className="text-gray-500">{locale === "en" ? set.name : set.nameEn}</p>
               <div className="flex items-center gap-2 mt-2">
@@ -97,11 +114,11 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
           <div className="space-y-4">
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
               <h3 className="text-primary-400 font-semibold mb-2">2{t(locale, "diskSetDetail.setDescription")}</h3>
-              <p className="text-gray-300">{isZhLocale(locale) ? set.setDescription2pc : set.setDescription2pcEn}</p>
+              <p className="text-gray-300">{bonus2pc}</p>
             </div>
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
               <h3 className="text-primary-400 font-semibold mb-2">4{t(locale, "diskSetDetail.setDescription")}</h3>
-              <p className="text-gray-300">{isZhLocale(locale) ? set.setDescription4pc : set.setDescription4pcEn}</p>
+              <p className="text-gray-300">{bonus4pc}</p>
             </div>
           </div>
         </section>

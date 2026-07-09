@@ -4,6 +4,7 @@ import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { anomalySeoCopy, localizedName, localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const anomalies = getAllAnomalies();
@@ -14,14 +15,28 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
   const { lang, slug } = await params;
   const anomaly = getAnomaly(slug);
   if (!anomaly) return {};
+  const locale = lang as Locale;
+  const typeLabel = anomaly.type === "boss"
+    ? "Boss"
+    : anomaly.type === "elite"
+    ? localizedText(locale, "精英", "Elite")
+    : localizedText(locale, "普通", "Normal");
+  const copy = anomalySeoCopy({
+    locale,
+    name: anomaly.name,
+    nameEn: anomaly.nameEn,
+    typeLabel,
+    location: anomaly.location,
+    locationEn: anomaly.locationEn,
+    weakness: anomaly.weakness,
+    weaknessEn: anomaly.weaknessEn,
+    drops: anomaly.drops,
+    dropsEn: anomaly.dropsEn,
+  });
 
   return {
-    title: isZhLocale(lang)
-      ? `${anomaly.name}打法攻略 — 弱点机制掉落 | 异环游戏 Wiki`
-      : `${anomaly.nameEn} Guide — Weakness, Mechanics & Drops | NTE Wiki`,
-    description: isZhLocale(lang)
-      ? `异环异象「${anomaly.name}」详细攻略，包含弱点分析、战斗机制、掉落物和推荐打法。`
-      : `Complete guide for ${anomaly.nameEn} in Neverness to Everness. Weakness, mechanics, drops, and recommended strategies.`,
+    title: copy.title,
+    description: copy.description,
     alternates: hreflangAlternates(`anomalies/${slug}`, lang),
   };
 }
@@ -48,7 +63,15 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
   const anomaly = getAnomaly(slug);
   if (!anomaly) notFound();
 
-  const typeLabel = anomaly.type === "boss" ? "Boss" : anomaly.type === "elite" ? (isZhLocale(locale) ? "精英" : "Elite") : (isZhLocale(locale) ? "普通" : "Normal");
+  const anomalyName = localizedName(locale, anomaly.name, anomaly.nameEn);
+  const typeLabel = anomaly.type === "boss" ? "Boss" : anomaly.type === "elite" ? localizedText(locale, "精英", "Elite") : localizedText(locale, "普通", "Normal");
+  const category = localizedText(locale, anomaly.categoryZh || anomaly.category || "", anomaly.category || "");
+  const attribute = localizedText(locale, anomaly.attribute || "", anomaly.attributeEn || anomaly.attribute || "");
+  const location = localizedText(locale, anomaly.location || "", anomaly.locationEn || anomaly.location || "");
+  const weakness = localizedText(locale, anomaly.weakness || "", anomaly.weaknessEn || anomaly.weakness || "");
+  const mechanics = localizedText(locale, anomaly.mechanics || "", anomaly.mechanicsEn || anomaly.mechanics || "");
+  const strategy = localizedText(locale, anomaly.strategy || "", anomaly.strategyEn || anomaly.strategy || "");
+  const drops = locale === "en" ? anomaly.dropsEn || anomaly.drops : anomaly.drops?.map((drop) => localizedText(locale, drop, drop));
 
   return (
     <>
@@ -57,13 +80,13 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         items={[
           { label: t(locale, "common.home"), href: `/${lang}` },
           { label: t(locale, "anomalies.title"), href: `/${lang}/anomalies` },
-          { label: isZhLocale(locale) ? anomaly.name : anomaly.nameEn },
+          { label: anomalyName },
         ]}
       />
       <ArticleJsonLd
-        title={isZhLocale(locale) ? anomaly.name : anomaly.nameEn}
+        title={anomalyName}
         description={isZhLocale(locale)
-          ? `${anomaly.name}（${typeLabel}）— 出现位置、机制与应对策略`
+          ? `${anomalyName}（${typeLabel}）— 出现位置、机制与应对策略`
           : `${anomaly.nameEn} (${typeLabel}) — spawn locations, mechanics, and counter strategies`}
         url={`https://nteguide.com/${lang}/anomalies/${slug}`}
       />
@@ -73,7 +96,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           <div className="flex items-start justify-between">
             <div>
               <h1 className="text-2xl font-bold">
-                {isZhLocale(locale) ? anomaly.name : anomaly.nameEn}
+                {anomalyName}
               </h1>
               <p className="text-gray-500">{locale === "en" ? anomaly.name : anomaly.nameEn}</p>
             </div>
@@ -92,10 +115,10 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           <table className="w-full text-sm">
             <tbody>
               <InfoRow label={t(locale, "common.type")} value={typeLabel} />
-              <InfoRow label={t(locale, "anomalies.category")} value={isZhLocale(locale) ? anomaly.categoryZh : anomaly.category} />
-              <InfoRow label={t(locale, "common.element")} value={isZhLocale(locale) ? anomaly.attribute : anomaly.attributeEn} />
+              <InfoRow label={t(locale, "anomalies.category")} value={category} />
+              <InfoRow label={t(locale, "common.element")} value={attribute} />
               {anomaly.hp && <InfoRow label="HP" value={anomaly.hp} />}
-              <InfoRow label={t(locale, "anomalies.location")} value={isZhLocale(locale) ? anomaly.location : anomaly.locationEn} />
+              <InfoRow label={t(locale, "anomalies.location")} value={location} />
             </tbody>
           </table>
         </aside>
@@ -105,7 +128,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.weakness")}</h2>
             <div className="rounded-lg border border-yellow-500/20 bg-yellow-500/5 p-5">
-              <p className="text-gray-300">{isZhLocale(locale) ? anomaly.weakness : anomaly.weaknessEn}</p>
+              <p className="text-gray-300">{weakness}</p>
             </div>
           </section>
         )}
@@ -115,7 +138,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.mechanics")}</h2>
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
-              <p className="text-gray-300">{isZhLocale(locale) ? anomaly.mechanics : anomaly.mechanicsEn}</p>
+              <p className="text-gray-300">{mechanics}</p>
             </div>
           </section>
         )}
@@ -125,17 +148,17 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.strategy")}</h2>
             <div className="rounded-lg border border-primary-500/20 bg-primary-500/5 p-5">
-              <p className="text-gray-300">{isZhLocale(locale) ? anomaly.strategy : anomaly.strategyEn}</p>
+              <p className="text-gray-300">{strategy}</p>
             </div>
           </section>
         )}
 
         {/* Drops */}
-        {anomaly.drops && anomaly.drops.length > 0 && (
+        {drops && drops.length > 0 && (
           <section>
             <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.drops")}</h2>
             <div className="flex flex-wrap gap-2">
-              {(isZhLocale(locale) ? anomaly.drops : anomaly.dropsEn || anomaly.drops).map((drop, i) => (
+              {drops.map((drop, i) => (
                 <span key={i} className="text-sm px-3 py-1 rounded-full border border-gray-700 bg-gray-800/50 text-gray-300">
                   {drop}
                 </span>

@@ -7,6 +7,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { GameImage } from "../../../../components/GameImage";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
+import { localizedName, localizedText, materialSeoCopy } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const materials = getAllMaterials();
@@ -21,25 +22,34 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const material = getMaterial(slug);
   if (!material) return {};
+  const locale = lang as Locale;
+  const typeLabels: Record<string, string> = {
+    guide: localizedText(locale, "猎手指南", "Hunter guide"),
+    ascension: localizedText(locale, "突破素材", "Ascension material"),
+    boss: localizedText(locale, "Boss 掉落", "Boss drop"),
+    esper: localizedText(locale, "灵能素材", "Esper material"),
+    arc: localizedText(locale, "弧盘突破素材", "Arc ascension material"),
+    "arc-exp": localizedText(locale, "弧盘经验素材", "Arc EXP material"),
+    "module-exp": localizedText(locale, "模组经验素材", "Module EXP material"),
+    currency: localizedText(locale, "货币", "Currency"),
+  };
+  const usedByCount = getCharactersUsingMaterial(slug).length;
+  const copy = materialSeoCopy({
+    locale,
+    name: material.name,
+    nameEn: material.nameEn,
+    typeLabel: typeLabels[material.type] || material.type,
+    rarity: material.rarity,
+    source: material.source,
+    usedByCount,
+  });
   return {
-    title:
-      isZhLocale(lang)
-        ? `${material.name} 获取方式 & 用途 | 异环游戏 Wiki`
-        : `${material.nameEn} (${material.name}) Source & Usage - NTE Guide`,
-    description:
-      isZhLocale(lang)
-        ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
-        : `Find how to get ${material.nameEn} in Neverness to Everness. Drop locations, farming routes, and all characters that need this material.`,
+    title: copy.title,
+    description: copy.description,
     alternates: hreflangAlternates(`materials/${slug}`, lang),
     openGraph: {
-      title:
-        isZhLocale(lang)
-          ? `${material.name} 获取方式 & 用途 | 异环游戏 Wiki`
-          : `${material.nameEn} Source & Usage | NTE Guide`,
-      description:
-        isZhLocale(lang)
-          ? `异环 ${material.name} 获取方法、掉落地点和使用该材料的全部角色列表。`
-          : `Find how to get ${material.nameEn} in Neverness to Everness.`,
+      title: copy.title,
+      description: copy.ogDescription,
       type: "article",
     },
   };
@@ -56,6 +66,8 @@ export default async function MaterialDetailPage({
   if (!material) notFound();
 
   const usedByCharacters = getCharactersUsingMaterial(slug);
+  const materialName = localizedName(locale, material.name, material.nameEn);
+  const materialSource = localizedText(locale, material.source, material.source);
 
   const typeLabels: Record<string, string> = {
     guide: t(locale, "materialsDetail.hunterGuide"),
@@ -75,13 +87,13 @@ export default async function MaterialDetailPage({
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           { label: t(locale, "site.nav.materials"), href: `/${lang}/materials` },
-          { label: material.name },
+          { label: materialName },
         ]}
       />
       <ArticleJsonLd
-        title={material.name}
+        title={materialName}
         description={isZhLocale(locale)
-          ? `${material.name} — ${typeLabels[material.type] || material.type}素材的获取位置、用途与所需角色`
+          ? `${materialName} — ${typeLabels[material.type] || material.type}素材的获取位置、用途与所需角色`
           : `${material.nameEn || material.name} — ${typeLabels[material.type] || material.type} material: locations, uses, and characters that need it`}
         url={`https://nteguide.com/${lang}/materials/${slug}`}
       />
@@ -89,9 +101,9 @@ export default async function MaterialDetailPage({
         {/* Material Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <GameImage type="material" id={material.id} name={material.name} className="w-20 h-20 rounded-lg shrink-0" />
+            <GameImage type="material" id={material.id} name={materialName} className="w-20 h-20 rounded-lg shrink-0" />
             <div>
-              <h1 className="text-2xl font-bold">{material.name}</h1>
+              <h1 className="text-2xl font-bold">{materialName}</h1>
               <p className="text-gray-500">{material.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span className="text-xs px-2 py-0.5 rounded bg-gray-800 text-gray-400">
@@ -109,7 +121,7 @@ export default async function MaterialDetailPage({
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">{t(locale, "materials.source")}</h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
-            <p className="text-gray-300">{material.source}</p>
+            <p className="text-gray-300">{materialSource}</p>
           </div>
         </section>
 

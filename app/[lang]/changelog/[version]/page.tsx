@@ -4,6 +4,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { localizedText } from "../../../../lib/seo-copy";
 
 export async function generateStaticParams() {
   const changelogs = getAllChangelogs();
@@ -15,13 +16,21 @@ export async function generateMetadata({ params }: { params: { lang: string; ver
   const cl = getChangelogByVersion(version);
   if (!cl) return { title: "Not Found" };
 
-  const versionName = isZhLocale(lang) ? cl.versionName : cl.versionNameEn;
-  const title = isZhLocale(lang)
-    ? `异环 ${cl.version} ${versionName} 更新日志`
-    : `NTE ${cl.version} Patch Notes — ${versionName}`;
-  const description = isZhLocale(lang)
-    ? `异环 ${cl.version} 版本更新内容：${(cl.highlights || []).slice(0, 3).join("、")}`
-    : `Neverness to Everness v${cl.version} patch notes and update details: ${(cl.highlightsEn || []).slice(0, 3).join(", ")}`;
+  const locale = lang as Locale;
+  const versionName = localizedText(locale, cl.versionName, cl.versionNameEn);
+  const highlights = locale === "en"
+    ? (cl.highlightsEn || []).slice(0, 3).join(", ")
+    : (cl.highlights || []).slice(0, 3).map((item) => localizedText(locale, item, item)).join("、");
+  const title = localizedText(
+    locale,
+    `异环 ${cl.version} ${versionName} 更新日志`,
+    `NTE ${cl.version} Patch Notes — ${versionName}`
+  );
+  const description = localizedText(
+    locale,
+    `异环 ${cl.version} 版本更新内容：${highlights}`,
+    `Neverness to Everness v${cl.version} patch notes and update details: ${highlights}`
+  );
 
   return {
     title,
@@ -37,8 +46,10 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
   const cl = getChangelogByVersion(version);
   if (!cl) notFound();
 
-  const versionName = isZhLocale(locale) ? cl.versionName : cl.versionNameEn;
-  const highlights = isZhLocale(locale) ? cl.highlights : cl.highlightsEn;
+  const versionName = localizedText(locale, cl.versionName, cl.versionNameEn);
+  const highlights = isZhLocale(locale)
+    ? cl.highlights?.map((item) => localizedText(locale, item, item))
+    : cl.highlightsEn;
 
   const typeColors: Record<string, string> = {
     major: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
@@ -62,9 +73,9 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         ]}
       />
       <ArticleJsonLd
-        title={isZhLocale(locale) ? `异环 ${versionName} 更新说明 v${cl.version}` : `Neverness to Everness ${versionName} Patch Notes v${cl.version}`}
+        title={localizedText(locale, `异环 ${versionName} 更新说明 v${cl.version}`, `Neverness to Everness ${versionName} Patch Notes v${cl.version}`)}
         description={isZhLocale(locale)
-          ? `${versionName} 版本（v${cl.version}，${cl.date}）更新内容与补偿说明`
+          ? localizedText(locale, `${versionName} 版本（v${cl.version}，${cl.date}）更新内容与补偿说明`, "")
           : `${versionName} (v${cl.version}, ${cl.date}) patch notes and compensation details`}
         url={`https://nteguide.com/${lang}/changelog/${version}`}
         datePublished={cl.date}
@@ -105,14 +116,14 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
 
         {/* Sections */}
         {cl.sections && cl.sections.map((section, si) => {
-          const sectionTitle = isZhLocale(locale) ? section.title : section.titleEn;
+          const sectionTitle = isZhLocale(locale) ? localizedText(locale, section.title, section.titleEn || section.title) : section.titleEn;
           return (
             <div key={si} className="mb-8">
               <h2 className="text-xl font-bold mb-4 pb-2 border-b border-gray-800">{sectionTitle}</h2>
               <div className="space-y-3">
                 {section.items && section.items.map((item, ii) => {
-                  const itemName = isZhLocale(locale) ? item.name : item.nameEn;
-                  const itemDesc = isZhLocale(locale) ? item.description : item.descriptionEn;
+                  const itemName = isZhLocale(locale) ? localizedText(locale, item.name, item.nameEn || item.name) : item.nameEn;
+                  const itemDesc = isZhLocale(locale) ? localizedText(locale, item.description || "", item.descriptionEn || item.description || "") : item.descriptionEn;
                   return (
                     <div key={ii} className="rounded-lg border border-gray-800 bg-gray-900/50 p-3">
                       <div className="flex items-center gap-2 mb-1">

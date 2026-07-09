@@ -1,4 +1,5 @@
-import { hreflangAlternates, isZhLocale, Locale } from "../../../../lib/i18n";
+import { hreflangAlternates, Locale } from "../../../../lib/i18n";
+import { localizedText } from "../../../../lib/seo-copy";
 
 export async function generateMetadata({
   params,
@@ -7,10 +8,12 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale) ? "异环盘条评分计算器 — 副词条效率评级" : "NTE Disk Score Calculator — Substat Roll Efficiency Rating";
-  const description = isZhLocale(locale)
-    ? "异环盘条（驱动盘）副词条评分工具：输入副词条数值，计算词条效率评分，支持DPS/辅助/均衡权重。"
-    : "NTE disk substat score calculator: input substats to calculate roll efficiency with DPS/Support/Balanced weight presets.";
+  const title = localizedText(locale, "异环盘条评分计算器 — 副词条效率评级", "NTE Disk Score Calculator — Substat Roll Efficiency Rating");
+  const description = localizedText(
+    locale,
+    "异环盘条（驱动盘）副词条评分工具：输入副词条数值，计算词条效率评分，支持DPS、辅助、均衡权重预设和配装筛选。",
+    "NTE disk substat score calculator: input substats to calculate roll efficiency with DPS, Support, and Balanced weight presets for build comparison."
+  );
   return {
     title,
     description,

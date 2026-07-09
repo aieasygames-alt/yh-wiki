@@ -3,6 +3,7 @@ import { getAvailableCharacters, calculateMaterials, getMaterialById } from "../
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { WebApplicationJsonLd } from "../../../../components/JsonLd";
 import { LevelingCalcClient } from "./LevelingCalcClient";
+import { localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -14,9 +15,11 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const title = isZhLocale(locale)
     ? (locale === "tw" ? "異環角色升級計算器" : "异环角色升级计算器")
     : "NTE Leveling Calculator — Plan Character Upgrade Materials";
-  const description = isZhLocale(locale)
-    ? "计算异环角色升级所需材料数量，支持全角色查询。"
-    : "Calculate exact materials needed to level up any NTE character. Plan your farming route efficiently.";
+  const description = localizedText(
+    locale,
+    "计算异环角色升级所需材料数量，支持全角色查询、当前/目标等级设置、素材汇总和刷取规划，帮助你提前安排养成路线。",
+    "Calculate exact materials needed to level up any NTE character. Supports current and target levels, material totals, farming route planning, and efficient upgrade preparation."
+  );
   return {
     title,
     description,

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { t, isZhLocale, type Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
+import { localizedText } from "../../../lib/seo-copy";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqPageJsonLd } from "../../../components/JsonLd";
 import { FaqSection } from "../../../components/FaqSection";
@@ -220,12 +221,16 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale)
-    ? "异环卡池时间表 2026 — 伊洛伊当前UP、真红下一期、1.2限定祈愿 | NTE Guide"
-    : "NTE Banner Schedule 2026 — Illica Current, Zhenhong Next, 1.2 Limited Banners";
-  const description = isZhLocale(locale)
-    ? "异环(NTE)最新卡池时间表：伊洛伊1.2上半当前UP、真红下半下一期、1.2限定祈愿日期、保底机制、无50/50、专武与抽取建议。"
-    : "Neverness to Everness banner schedule for 2026: current Illica banner (v1.2 Phase 1), next Zhenhong banner (v1.2 Phase 2), dates, no 50/50 pity, weapon banner and pull advice.";
+  const title = localizedText(
+    locale,
+    "异环卡池时间表 2026 — 伊洛伊当前UP、真红下一期、1.2限定祈愿 | NTE Guide",
+    "NTE Banner Schedule 2026 — Illica Current, Zhenhong Next, 1.2 Limited Banners"
+  );
+  const description = localizedText(
+    locale,
+    "异环(NTE)最新卡池时间表：伊洛伊1.2上半当前UP、真红下半下一期、1.2限定祈愿日期、保底机制、无50/50、专武与抽取建议。",
+    "Neverness to Everness banner schedule for 2026: current Illica banner (v1.2 Phase 1), next Zhenhong banner (v1.2 Phase 2), dates, no 50/50 pity, weapon banner and pull advice."
+  );
 
   return {
     title,

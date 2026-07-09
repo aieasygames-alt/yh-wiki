@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { isZhLocale, Locale, hreflangAlternates, t, LOCALES } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
+import { localizedText } from "../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -10,13 +11,15 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const { lang } = await params;
   const locale = lang as Locale;
 
-  const title = isZhLocale(locale) ? "API 文档" : "API Documentation";
+  const title = localizedText(locale, "API 文档", "API Documentation");
 
   return {
     title,
-    description: isZhLocale(locale)
-      ? "NTE Guide 公开 API — 获取角色、武器、兑换码等游戏数据。"
-      : "NTE Guide public API — access character, weapon, redeem code and other game data.",
+    description: localizedText(
+      locale,
+      "NTE Guide 公开 API 文档，提供角色、武器、材料、兑换码、搜索索引和站点地图等 JSON 数据接口，适合社区工具、攻略站与第三方应用接入。",
+      "NTE Guide public API documentation for JSON data endpoints covering characters, weapons, materials, redeem codes, search index, and sitemaps for community tools and third-party apps."
+    ),
     alternates: hreflangAlternates("api", lang),
   };
 }
