@@ -11,6 +11,7 @@ import {
 } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../../components/JsonLd";
+import { localizedText } from "../../../../lib/seo-copy";
 
 function collectSources() {
   return [
@@ -36,15 +37,16 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
   const tag = decodeURIComponent(rawTag);
   const encodedTag = encodeURIComponent(tag);
   const locale = lang as Locale;
-  const title = isZhLocale(locale) ? `#${tag} 相关内容 - 异环游戏 Wiki` : `#${tag} - NTE Guide`;
-  const description = isZhLocale(locale)
-    ? `异环(NTE)Wiki中与"${tag}"相关的全部内容，包括角色、武器、攻略、FAQ等。`
-    : `Browse all Neverness to Everness content tagged with "${tag}" — characters, weapons, guides, and more.`;
-
   // Count items to decide noindex for thin tag pages
   const sources = collectSources();
   const tagLower = tag.toLowerCase();
   const matched = sources.filter((s) => s.tags.some((t) => t.toLowerCase() === tagLower));
+  const title = localizedText(locale, `#${tag} 相关内容 - 异环游戏 Wiki`, `#${tag} - NTE Guide`);
+  const description = localizedText(
+    locale,
+    `异环(NTE)Wiki中与「${tag}」相关的${matched.length}项内容，包括角色、武器、材料、攻略、FAQ、地点和世界观条目，适合快速查找同一主题下的资料与内链入口。`,
+    `Browse ${matched.length} Neverness to Everness resources tagged with "${tag}", including characters, weapons, materials, guides, FAQs, locations, and lore entries for quick topical navigation.`
+  );
 
   return {
     title: `${title} | NTE Guide`,
@@ -79,6 +81,19 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
   }, {});
 
   const labels = TYPE_LABELS[locale] || TYPE_LABELS["en"];
+  const groupSummary = Object.entries(grouped)
+    .map(([type, items]) => `${labels[type] || type} ${items.length}`)
+    .join(locale === "en" ? ", " : "、");
+  const intro = localizedText(
+    locale,
+    `「${tag}」标签聚合了 ${groupSummary}。这些内容覆盖异环数据库、攻略、FAQ和世界观页面，方便从同一主题继续浏览角色养成、地图探索、材料刷取或系统说明。`,
+    `The "${tag}" tag groups ${groupSummary}. Use this page to move between related NTE database entries, guides, FAQs, lore pages, and location resources without relying on site search.`
+  );
+  const usageNote = localizedText(
+    locale,
+    `建议优先查看角色、材料和攻略条目：角色页通常包含配装、技能和养成材料，材料页提供来源与用途，攻略页会补充实战路线。若某个标签只覆盖少量内容，页面会自动设置 noindex，以减少低价值索引页；内容达到索引门槛时则保留为主题入口页。`,
+    `Start with character, material, and guide entries first: character pages usually include builds, skills, and upgrade materials; material pages explain sources and uses; guide pages add route or strategy context. Very small tag groups are automatically marked noindex to reduce low-value index pages; broader groups remain indexable as topic hubs.`
+  );
 
   return (
     <>
@@ -99,6 +114,13 @@ export default async function TagPage({ params }: { params: { lang: string; tag:
         <p className="text-gray-500 mb-8">
           {matched.length} {t(locale, "common.items")}
         </p>
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-lg font-bold mb-3">
+            {localizedText(locale, "标签概览", "Tag Overview")}
+          </h2>
+          <p className="text-sm text-gray-300 leading-relaxed">{intro}</p>
+          <p className="mt-3 text-sm text-gray-400 leading-relaxed">{usageNote}</p>
+        </section>
 
         {Object.entries(grouped).map(([type, items]) => (
           <section key={type} className="mb-8">

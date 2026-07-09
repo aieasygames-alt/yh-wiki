@@ -109,6 +109,19 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           )}
         </div>
 
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-xl font-bold mb-3">
+            {localizedText(locale, "攻略概览", "Guide Overview")}
+          </h2>
+          <p className="text-sm text-gray-300 leading-relaxed">
+            {localizedText(
+              locale,
+              `「${anomalyName}」属于${typeLabel}级异象。本页汇总它的出现位置、属性信息、弱点提示、战斗机制、掉落物和应对思路，适合在挑战前快速确认规避点与输出窗口。若页面中的位置或掉落仍显示为预发布资料，请以正式服更新后的数据状态提示为准。`,
+              `${anomalyName} is a ${typeLabel} anomaly. This guide summarizes its spawn location, attribute information, weakness cues, combat mechanics, drops, and counter strategy so you can review dodge timing and damage windows before the fight. If any field is marked as pre-release data, treat the live game update as the final source.`
+            )}
+          </p>
+        </section>
+
         {/* Quick Stats */}
         <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8">
           <h2 className="text-lg font-bold mb-3">{t(locale, "anomalies.quickStats")}</h2>

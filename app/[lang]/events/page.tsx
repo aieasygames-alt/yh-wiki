@@ -3,6 +3,7 @@ import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../components/JsonLd";
 import Link from "next/link";
 import redeemCodesData from "../../../data/redeem-codes.json";
+import { localizedText } from "../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -15,18 +16,15 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const isZh = isZhLocale(locale);
+  const title = localizedText(locale, "异环活动日历与兑换码 — NTE Guide", "NTE Events & Redeem Codes — NTE Guide");
+  const description = localizedText(locale, "异环(NTE)当前活动一览、限时活动日程、最新兑换码汇总。每日更新。", "Neverness to Everness current events schedule, limited-time events, and latest redeem codes. Updated daily.");
   return {
-    title: isZh ? "异环活动日历与兑换码 — NTE Guide" : "NTE Events & Redeem Codes — NTE Guide",
-    description: isZh
-      ? "异环(NTE)当前活动一览、限时活动日程、最新兑换码汇总。每日更新。"
-      : "Neverness to Everness current events schedule, limited-time events, and latest redeem codes. Updated daily.",
+    title,
+    description,
     alternates: hreflangAlternates("events", lang),
     openGraph: {
-      title: isZh ? "异环活动日历与兑换码" : "NTE Events & Redeem Codes",
-      description: isZh
-        ? "异环当前活动一览、限时活动日程、最新兑换码汇总。"
-        : "NTE current events schedule and latest redeem codes.",
+      title,
+      description,
       type: "website",
     },
   };

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { type Locale, LOCALES, isZhLocale, hreflangAlternates } from "../../../../../lib/i18n";
 import RegionGuideClient from "./RegionGuideClient";
 import mapData from "../../../../../data/map-markers.json";
+import { localizedText } from "../../../../../lib/seo-copy";
 
 export const dynamic = "force-static";
 
@@ -27,7 +28,8 @@ export async function generateMetadata({
 
   const regionInfo = (mapData as { regions: Record<string, { zh: string; en: string }> }).regions[regionId];
   const isZh = isZhLocale(lang);
-  const regionName = isZh ? regionInfo.zh : regionInfo.en;
+  const locale = lang as Locale;
+  const regionName = localizedText(locale, regionInfo.zh, regionInfo.en);
 
   const descriptions: Record<string, Record<string, string>> = {
     "new-herland": {
@@ -61,13 +63,13 @@ export async function generateMetadata({
 
   return {
     title: isZh
-      ? `${regionName}探索攻略 - 全资源标记地图 | NTE Guide`
+      ? localizedText(locale, `${regionName}探索攻略 - 全资源标记地图 | NTE Guide`, "")
       : `${regionName} Exploration Guide - All Resource Map | Neverness to Everness`,
     description: desc,
     alternates: hreflangAlternates(`map/region/${regionId}`, lang),
     openGraph: {
       title: isZh
-        ? `${regionName}探索攻略 - 全标记地图`
+        ? localizedText(locale, `${regionName}探索攻略 - 全标记地图`, "")
         : `${regionName} Exploration Guide - All Marker Map`,
       description: desc,
       type: "article",

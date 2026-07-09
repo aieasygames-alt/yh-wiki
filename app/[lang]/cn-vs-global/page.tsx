@@ -5,6 +5,7 @@ import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 import { FaqSection } from "../../../components/FaqSection";
+import { localizedText } from "../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -13,12 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale)
-    ? "异环国服 vs 国际服区别对比：上线时间、卡池顺序、定价、评分全解析（2026）"
-    : "NTE CN vs Global Server: Launch Dates, Banner Order, Pricing & Ratings Compared (2026)";
-  const description = isZhLocale(locale)
-    ? "异环国服和国际服（全球服）有什么区别？本文对比两个服务器的上线时间差、卡池顺序、定价、TapTap评分（7.0 vs 9.0）、内容差异，帮你决定玩哪个服。"
-    : "What's the difference between NTE's CN server and global server? This guide compares launch dates, banner order, pricing, TapTap ratings (7.0 vs 9.0), and content differences to help you pick a server.";
+  const title = localizedText(locale, "异环国服 vs 国际服区别对比：上线时间、卡池顺序、定价、评分全解析（2026）", "NTE CN vs Global Server: Launch Dates, Banner Order, Pricing & Ratings Compared (2026)");
+  const description = localizedText(locale, "异环国服和国际服（全球服）有什么区别？本文对比两个服务器的上线时间差、卡池顺序、定价、TapTap评分（7.0 vs 9.0）、内容差异，帮你决定玩哪个服。", "What's the difference between NTE's CN server and global server? This guide compares launch dates, banner order, pricing, TapTap ratings (7.0 vs 9.0), and content differences to help you pick a server.");
   return {
     title,
     description,

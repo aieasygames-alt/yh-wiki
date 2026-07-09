@@ -1,6 +1,5 @@
-import { ComparePageContent } from "../ComparePageContent";
-import { LOCALES, isZhLocale, Locale, hreflangAlternates } from "../../../../lib/i18n";
-import { getCompare } from "../../../../lib/queries";
+import { ComparePageContent, generateCompareMetadataForSlug } from "../ComparePageContent";
+import { LOCALES } from "../../../../lib/i18n";
 import { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -9,19 +8,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
-  const article = getCompare("nte-vs-honkai-star-rail");
-  if (!article) return {};
-  const locale = lang as Locale;
-  const baseTitle = isZhLocale(locale) ? article.title : article.titleEn;
-  const description = isZhLocale(locale) ? article.summary : article.summaryEn;
-  const rawTitle = baseTitle;
-  const title = `${rawTitle} (2026)`;
-  return {
-    title,
-    description,
-    alternates: hreflangAlternates("compare/nte-vs-honkai-star-rail", lang),
-    openGraph: { title: `${title} | NTE Guide`, description, type: "article" },
-  };
+  return generateCompareMetadataForSlug(lang, "nte-vs-honkai-star-rail");
 }
 
 export default async function CompareNteVsHsrPage({

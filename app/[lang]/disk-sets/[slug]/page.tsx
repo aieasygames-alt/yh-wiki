@@ -106,6 +106,19 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
           </div>
         </div>
 
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-xl font-bold mb-3">
+            {localizedText(locale, "套装概览", "Set Overview")}
+          </h2>
+          <p className="text-sm text-gray-300 leading-relaxed">
+            {localizedText(
+              locale,
+              `「${setName}」是异环中的${set.pieces}件卡带套装，定位为${set.category === "elemental" ? t(locale, "diskSets.elementalLabel") : t(locale, "diskSets.generalLabel")}配装。页面汇总2件套与4件套效果、适合角色、属性倾向和实战用法，方便在角色Build、DPS计算和配队规划前判断是否值得刷取。`,
+              `${setName} is a ${set.pieces}-piece cassette set in Neverness to Everness. This page summarizes its 2-piece and 4-piece bonuses, recommended characters, stat direction, and practical build use cases so you can decide whether to farm it before planning teams or DPS rotations.`
+            )}
+          </p>
+        </section>
+
         {/* Set Bonuses */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">

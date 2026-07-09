@@ -5,6 +5,7 @@ import { getQuest, getAllQuests, getCharacter } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
+import { localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -19,16 +20,17 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
   const quest = getQuest(slug);
   if (!quest) return {};
 
+  const locale = lang as Locale;
   const isZh = isZhLocale(lang);
-  const name = isZh ? quest.name : quest.nameEn;
+  const name = localizedText(locale, quest.name, quest.nameEn);
   const typeName = quest.type === "side-quest"
-    ? (isZh ? "支线任务攻略" : "Side Quest Guide")
-    : (isZh ? "异象委托攻略" : "Anomaly Commission Guide");
+    ? localizedText(locale, "支线任务攻略", "Side Quest Guide")
+    : localizedText(locale, "异象委托攻略", "Anomaly Commission Guide");
 
   return {
     title: isZh ? `${name} — ${typeName} | 异环 Wiki` : `${name} — ${typeName} | NTE Wiki`,
     description: isZh
-      ? `异环${quest.typeZh}「${quest.name}」详细攻略，包含完成步骤、奖励和攻略提示。`
+      ? localizedText(locale, `异环${quest.typeZh}「${quest.name}」详细攻略，包含完成步骤、奖励和攻略提示。`, "")
       : `Complete guide for ${quest.nameEn} in Neverness to Everness. Step-by-step walkthrough, rewards, and tips.`,
     alternates: hreflangAlternates(`quests/${slug}`, lang),
   };
@@ -48,11 +50,12 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
   const quest = getQuest(slug);
   if (!quest) notFound();
 
-  const name = isZh ? quest.name : quest.nameEn;
-  const description = isZh ? quest.description : quest.descriptionEn;
-  const steps = isZh ? quest.steps : quest.stepsEn;
-  const rewards = isZh ? quest.rewards : quest.rewardsEn;
-  const regionName = isZh ? quest.regionZh : quest.regionEn;
+  const name = localizedText(locale, quest.name, quest.nameEn);
+  const description = localizedText(locale, quest.description || "", quest.descriptionEn || "");
+  const steps = isZh ? quest.steps?.map((step) => localizedText(locale, step, step)) : quest.stepsEn;
+  const rewards = isZh ? quest.rewards?.map((reward) => localizedText(locale, reward, reward)) : quest.rewardsEn;
+  const regionName = localizedText(locale, quest.regionZh || "", quest.regionEn || "");
+  const typeLabel = localizedText(locale, quest.typeZh, quest.type);
 
   const relatedChars = (quest.relatedCharacters || [])
     .map((id) => getCharacter(id))
@@ -61,7 +64,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
   return (
     <>
       <ArticleJsonLd
-        title={`${name} — ${isZh ? quest.typeZh : quest.type}`}
+        title={`${name} — ${isZh ? typeLabel : quest.type}`}
         description={description || ""}
         url={`https://nteguide.com/${lang}/quests/${slug}`}
         datePublished="2026-06-04"
@@ -85,7 +88,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
             </div>
             <div className="flex items-center gap-2">
               <span className={`text-xs px-3 py-1 rounded-full border ${typeBadgeBg[quest.type] || ""}`}>
-                {quest.typeZh}
+                {typeLabel}
               </span>
               {quest.difficulty && (
                 <span className="text-xs text-yellow-400">{difficultyStars(quest.difficulty)}</span>

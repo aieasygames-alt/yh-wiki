@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, pickByLocale } from "../../../../lib/i18n";
+import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
@@ -9,6 +9,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
 import { TableOfContents, TableOfContentsDesktop, extractHeadings } from "../../../../components/TableOfContents";
+import { localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -26,8 +27,11 @@ export async function generateMetadata({
   const { lang, slug } = await params;
   const guide = getGuide(slug);
   if (!guide) return {};
-  const title = pickByLocale(lang, guide.titleTw, guide.title, guide.titleEn);
-  const description = pickByLocale(lang, guide.summaryTw, guide.summary, guide.summaryEn);
+  const locale = lang as Locale;
+  const localizedTitle = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
+  const title = locale === "tw" && localizedTitle === guide.title ? `${localizedTitle}（繁中）` : localizedTitle;
+  const localizedDescription = localizedText(locale, guide.summary, guide.summaryEn, guide.summaryTw);
+  const description = locale === "tw" && localizedDescription === guide.summary ? `${localizedDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : localizedDescription;
   return {
     title,
     description,
@@ -51,9 +55,10 @@ export default async function GuideDetailPage({
   const guide = getGuide(slug);
   if (!guide) notFound();
 
-  const title = pickByLocale(locale, guide.titleTw, guide.title, guide.titleEn) || guide.title;
-  const content = pickByLocale(locale, guide.contentTw, guide.content, guide.contentEn) || guide.content;
-  const summary = pickByLocale(locale, guide.summaryTw, guide.summary, guide.summaryEn) || guide.summary;
+  const localizedTitle = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
+  const title = locale === "tw" && localizedTitle === guide.title ? `${localizedTitle}（繁中）` : localizedTitle;
+  const content = localizedText(locale, guide.content, guide.contentEn, guide.contentTw);
+  const summary = localizedText(locale, guide.summary, guide.summaryEn, guide.summaryTw);
 
   const relatedChars = (guide.relatedCharacters || [])
     .map((id) => getCharacter(id))

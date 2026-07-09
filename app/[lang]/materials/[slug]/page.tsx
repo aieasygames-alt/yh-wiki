@@ -117,6 +117,26 @@ export default async function MaterialDetailPage({
           </div>
         </div>
 
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-xl font-bold mb-3">
+            {localizedText(locale, "材料概览", "Material Overview")}
+          </h2>
+          <p className="text-sm text-gray-300 leading-relaxed">
+            {localizedText(
+              locale,
+              `「${materialName}」是异环中的${typeLabels[material.type] || material.type}素材，稀有度为${material.rarity}星。页面整理了该素材的主要来源、刷取入口、用途和关联角色，适合在角色升级、技能培养或弧盘养成前确认所需资源。当前数据库显示共有${usedByCharacters.length}名角色会直接使用该素材。`,
+              `${material.nameEn} is a ${material.rarity}-star ${typeLabels[material.type] || material.type} material in Neverness to Everness. This page summarizes where to get it, how it is used, and which characters require it for upgrades, skill progression, or Arc-related progression. The current database links it to ${usedByCharacters.length} character${usedByCharacters.length === 1 ? "" : "s"}.`
+            )}
+          </p>
+          <p className="mt-3 text-sm text-gray-400 leading-relaxed">
+            {localizedText(
+              locale,
+              `如果你正在规划多个角色的养成，建议先记录该素材的来源，再结合升级计算器汇总总需求量。对于尚未实装或资料仍在校对的素材，页面会保留当前已知来源，后续可随版本数据更新继续修正，并同步到站点地图与搜索索引。`,
+              `When planning several characters at once, record this material source first and then use the leveling calculator to aggregate total demand. For unreleased or still-verifying materials, the page keeps the best known source and can be updated as new version data lands, then reflected in the sitemap and search index.`
+            )}
+          </p>
+        </section>
+
         {/* Source */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">{t(locale, "materials.source")}</h2>

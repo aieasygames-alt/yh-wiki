@@ -6,6 +6,7 @@ import { getCompare } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { CompareTable } from "../../../components/CompareTable";
+import { localizedText } from "../../../lib/seo-copy";
 
 interface ComparePageProps {
   params: { lang: string; slug: string };
@@ -13,12 +14,15 @@ interface ComparePageProps {
 
 export async function generateCompareMetadata({ params }: ComparePageProps) {
   const { lang, slug } = await params;
+  return generateCompareMetadataForSlug(lang, slug);
+}
+
+export function generateCompareMetadataForSlug(lang: string, slug: string) {
   const article = getCompare(slug);
   if (!article) return {};
   const locale = lang as Locale;
-  const rawTitle = isZhLocale(locale) ? article.title : article.titleEn;
-  const description = isZhLocale(locale) ? article.summary : article.summaryEn;
-  const title = `${rawTitle} (2026)`;
+  const title = `${localizedText(locale, article.title, article.titleEn)} (2026)`;
+  const description = localizedText(locale, article.summary, article.summaryEn);
   return {
     title,
     description,
@@ -43,10 +47,10 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
   const article = getCompare(slug);
   if (!article) notFound();
 
-  const title = isZhLocale(locale) ? article.title : article.titleEn;
-  const content = isZhLocale(locale) ? article.content : article.contentEn;
-  const summary = isZhLocale(locale) ? article.summary : article.summaryEn;
-  const category = isZhLocale(locale) ? article.categoryZh : article.categoryEn;
+  const title = localizedText(locale, article.title, article.titleEn);
+  const content = localizedText(locale, article.content, article.contentEn);
+  const summary = localizedText(locale, article.summary, article.summaryEn);
+  const category = localizedText(locale, article.categoryZh, article.categoryEn);
   const url = `https://nteguide.com/${lang}/compare/${slug}`;
 
   // Determine comparison table based on slug
@@ -130,7 +134,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
                   className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
                   <span className="text-sm">
-                    {isZhLocale(locale) ? link.label : link.labelEn}
+                    {localizedText(locale, link.label, link.labelEn)}
                   </span>
                 </Link>
               ))}
