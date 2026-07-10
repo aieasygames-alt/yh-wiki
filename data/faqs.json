@@ -427,8 +427,8 @@
     "id": "chiz-worth-building",
     "question": "智值得培养吗？",
     "questionEn": "Is Chiz worth building in NTE?",
-    "answer": "智是A级角色，虽然稀有度低于S级角色，但培养成本更低，性价比很高。A级角色在合理培养和装备搭配下，完全可以胜任大部分游戏内容。如果你是新手玩家，资源有限，培养智是一个经济实惠的选择。",
-    "answerEn": "Chiz is an A-rank character. While her rarity is lower than S-rank characters, she costs less to build and offers great value. A-rank characters can handle most game content with proper builds and equipment. If you're a new player with limited resources, building Chiz is an economical choice.",
+    "answer": "智值不值得培养，现在更适合从**你的账号是不是缺一个低成本、能稳定上场的过渡角色**来判断，而不是继续把她直接写成所有新手都该练的固定答案。对当前玩家来说，更重要的是看：你手里有没有更高优先级主力、她能不能补到你现有阵容的功能缺口，以及你愿不愿意接受她更偏过渡位的成长上限。\n\n更稳妥的理解方式是：\n1. 如果你前期资源紧、主力角色还没成型，低成本 A 级角色往往更容易立刻上场\n2. 如果你的主队功能已经完整，她的价值就更取决于是否能补循环、生存或某个特定机制缺口\n3. 与其把她简单写成“性价比一定高”，不如先判断她在你当前阵容里是否真的有位置\n\n所以这页现在保留的是**智的培养门槛与适配判断逻辑**，而不是继续把她写成对所有新手都统一成立的经济型推荐。",
+    "answerEn": "Whether Chiz is worth building is better judged by **whether your account needs a low-cost, reliable transitional unit** rather than by treating her as an automatic recommendation for every beginner. For current players, the more useful question is whether you already have higher-priority mains, whether she fills a real functional gap, and whether you are comfortable with a role that may be more transitional than long-term central.\n\nA safer way to judge Chiz is:\n1. If your resources are tight and your core units are still incomplete, a lower-cost A-rank can reach the field much faster\n2. If your main team is already functionally complete, her value depends more on whether she adds rotation help, survivability, or some other missing utility\n3. Instead of assuming her value is always efficient, first ask whether she actually has a job in your current roster\n\nSo this page now focuses on Chiz's build cost and fit logic rather than preserving her as a universal budget recommendation.",
     "tags": [
       "characters"
     ],
@@ -440,7 +440,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "智值得培養嗎？",
-    "answerTw": "智是A級角色，雖然稀有度低於S級角色，但培養成本更低，價效比很高。A級角色在合理培養和裝備搭配下，完全可以勝任大部分遊戲內容。如果你是新手玩家，資源有限，培養智是一個經濟實惠的選擇。",
+    "answerTw": "智值不值得培養，現在更適合從**你的帳號是不是缺一個低成本、能穩定上場的過渡角色**來判斷，而不是繼續把她直接寫成所有新手都該練的固定答案。對目前玩家來說，更重要的是看：你手裡有沒有更高優先級主力、她能不能補到你現有陣容的功能缺口，以及你願不願意接受她更偏過渡位的成長上限。\n\n更穩妥的理解方式是：\n1. 如果你前期資源緊、主力角色還沒成型，低成本 A 級角色往往更容易立刻上場\n2. 如果你的主隊功能已經完整，她的價值就更取決於是否能補循環、生存或某個特定機制缺口\n3. 與其把她簡單寫成「性價比一定高」，不如先判斷她在你目前陣容裡是否真的有位置\n\n所以這頁現在保留的是**智的培養門檻與適配判斷邏輯**，而不是繼續把她寫成對所有新手都統一成立的經濟型推薦。",
     "categoryTw": "角色相關"
   },
   {
@@ -467,8 +467,8 @@
     "id": "adler-worth-building",
     "question": "爱德勒值得培养吗？",
     "questionEn": "Is Adler worth building in NTE?",
-    "answer": "爱德勒是S级角色，拥有出色的输出能力。作为S级角色，他的基础属性和技能倍率都较高，在高难内容中表现突出。如果你获得了爱德勒，推荐作为主力输出角色进行培养。",
-    "answerEn": "Adler is an S-rank character with excellent damage output. As an S-rank character, his base stats and skill multipliers are high, making him stand out in challenging content. If you've obtained Adler, he's recommended as a main DPS character to invest in.",
+    "answer": "爱德勒值不值得培养，现在更适合从**他是否真的能成为你账号里的主输出核心**来判断，而不是继续把“拿到就练”写成固定结论。对当前玩家来说，更关键的是看：你是否已经有成熟主 C、他需要的队友和资源你是否跟得上，以及他进队后究竟是补强主力体系，还是只是和现有角色重叠。\n\n更稳妥的理解方式是：\n1. 如果你的账号缺强势主输出，且资源足够把他推到能稳定上场的水平，他的培养价值会更高\n2. 如果你已经有成熟主力，就要比较他是带来真实升级，还是只是换一种输出方式\n3. 与其因为 S 级身份直接默认优先，不如先看他在你当前配队和版本目标里有没有明确位置\n\n所以这页现在保留的是**爱德勒的主力价值与投入判断逻辑**，而不是继续把他写成所有账号拿到后都应无条件培养的角色。",
+    "answerEn": "Whether Adler is worth building is better judged by **whether he can truly become a main damage core for your account** rather than by treating 'pull him and build him' as an automatic rule. For current players, the more important questions are whether you already have an established DPS, whether you can support the teammates and resources he wants, and whether he strengthens your main setup or simply overlaps with what you already own.\n\nA safer way to judge Adler is:\n1. If your account lacks a strong main DPS and you can invest enough to make him field-ready, his value rises a lot\n2. If you already have a mature carry, compare whether he creates a real upgrade or just offers a different damage profile\n3. Instead of defaulting to priority because he is S-rank, ask whether he has a clear role in your current team plan and version goals\n\nSo this page now focuses on Adler's carry value and investment logic instead of preserving him as an unconditional build recommendation for every account.",
     "tags": [
       "characters"
     ],
@@ -480,7 +480,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "愛德勒值得培養嗎？",
-    "answerTw": "愛德勒是S級角色，擁有出色的輸出能力。作為S級角色，他的基礎屬性和技能倍率都較高，在高難內容中表現突出。如果你獲得了愛德勒，推薦作為主力輸出角色進行培養。",
+    "answerTw": "愛德勒值不值得培養，現在更適合從**他是否真的能成為你帳號裡的主輸出核心**來判斷，而不是繼續把「拿到就練」寫成固定結論。對目前玩家來說，更關鍵的是看：你是否已經有成熟主 C、他需要的隊友和資源你是否跟得上，以及他進隊後究竟是補強主力體系，還是只是和現有角色重疊。\n\n更穩妥的理解方式是：\n1. 如果你的帳號缺強勢主輸出，且資源足夠把他推到能穩定上場的水準，他的培養價值會更高\n2. 如果你已經有成熟主力，就要比較他是帶來真實升級，還是只是換一種輸出方式\n3. 與其因為 S 級身分直接默認優先，不如先看他在你目前配隊和版本目標裡有沒有明確位置\n\n所以這頁現在保留的是**愛德勒的主力價值與投入判斷邏輯**，而不是繼續把他寫成所有帳號拿到後都應無條件培養的角色。",
     "categoryTw": "角色相關"
   },
   {
@@ -818,8 +818,8 @@
     "id": "anomaly-commission",
     "question": "异环异象委托怎么做？",
     "questionEn": "How to complete Anomaly Commissions in NTE?",
-    "answer": "异象委托是异环中的日常/周常任务系统。完成方法：1) 在主界面或地图上查看当前可接取的异象委托；2) 前往指定地点，按照任务指引完成战斗或探索目标；3) 部分委托需要特定的角色属性才能高效完成；4) 完成后获得信用点、材料和经验等奖励。建议每天优先完成高优先级的委托，确保不遗漏稀有奖励。",
-    "answerEn": "Anomaly Commissions are daily/weekly tasks in NTE. How to complete: 1) Check available commissions from the main screen or map; 2) Go to the designated location and complete combat or exploration objectives; 3) Some commissions benefit from specific character attributes; 4) Turn in for Credits, materials, and EXP rewards. Prioritize high-value commissions daily to avoid missing rare rewards.",
+    "answer": "异象委托这页现在更适合回答**哪些委托值得你每天稳定清，哪些可以根据时间和账号阶段取舍**，而不是继续只写成“全做完就对了”的流程说明。对当前玩家来说，更实际的问题通常是：你缺的是经验、货币、材料，还是单纯想把每日负担压低，这会影响委托的优先顺序。\n\n更稳妥的理解方式是：\n1. 先清那些能补你当前最缺资源、或者会影响周进度积累的委托\n2. 如果时间有限，就优先做回报更稳定、路径更短的任务，而不是机械清空全部列表\n3. 某些委托需要特定属性或更高练度时，也可以把它们视为阶段性内容，不必强行当天硬打\n\n所以这页现在保留的是**异象委托的完成方式与优先级判断逻辑**，而不是继续把“每日全清”写成所有玩家都该遵循的唯一标准。",
+    "answerEn": "This Anomaly Commissions page is more useful when it explains **which commissions are worth clearing daily and which ones can be skipped based on time and account stage** instead of presenting 'do everything every day' as the only workflow. For current players, the practical question is whether you are short on EXP, currency, materials, or simply trying to keep your daily workload manageable, because that changes commission priority.\n\nA safer way to approach commissions is:\n1. Clear the ones that solve your current resource shortage or contribute meaningfully to weekly progress first\n2. If time is limited, prioritize the missions with more stable value and shorter routing instead of mechanically emptying the whole list\n3. If some commissions assume specific attributes or higher investment, it is fine to treat them as stage-gated content rather than forcing them immediately\n\nSo this page now focuses on how commissions work and how to judge their priority instead of preserving 'clear everything daily' as a universal rule.",
     "tags": [
       "system",
       "quests"
@@ -832,7 +832,7 @@
       "fons"
     ],
     "questionTw": "異環異象委託怎麼做？",
-    "answerTw": "異象委託是異環中的日常/周常任務系統。完成方法：1) 在主介面或地圖上檢視當前可接取的異象委託；2) 前往指定地點，按照任務指引完成戰鬥或探索目標；3) 部分委託需要特定的角色屬性才能高效完成；4) 完成後獲得信用點、材料和經驗等獎勵。建議每天優先完成高優先順序的委託，確保不遺漏稀有獎勵。",
+    "answerTw": "異象委託這頁現在更適合回答**哪些委託值得你每天穩定清，哪些可以根據時間和帳號階段取捨**，而不是繼續只寫成「全做完就對了」的流程說明。對目前玩家來說，更實際的問題通常是：你缺的是經驗、貨幣、材料，還是單純想把每日負擔壓低，這會影響委託的優先順序。\n\n更穩妥的理解方式是：\n1. 先清那些能補你目前最缺資源、或者會影響週進度累積的委託\n2. 如果時間有限，就優先做回報更穩定、路徑更短的任務，而不是機械清空全部列表\n3. 某些委託需要特定屬性或更高練度時，也可以把它們視為階段性內容，不必強行當天硬打\n\n所以這頁現在保留的是**異象委託的完成方式與優先級判斷邏輯**，而不是繼續把「每日全清」寫成所有玩家都該遵循的唯一標準。",
     "categoryTw": "遊戲系統"
   },
   {
@@ -861,8 +861,8 @@
     "id": "disk-system",
     "question": "异环磁盘系统怎么玩？",
     "questionEn": "How does the Disk system work in NTE?",
-    "answer": "磁盘系统是异环的装备系统，类似于其他游戏中的圣遗物/遗器系统。玩法要点：1) 每个角色可以装备多个磁盘，分为不同部位；2) 磁盘有主属性和副属性，稀有度越高属性越好；3) 同一套装的磁盘组合可以激活套装效果，提供额外加成；4) 磁盘通过挑战特定副本获取；5) 可以消耗材料强化磁盘，提升属性值。建议前期先用高星散件过渡，后期再追求完美套装。",
-    "answerEn": "The Disk system is NTE's equipment system, similar to artifacts in other games. Key points: 1) Each character can equip multiple disks in different slots; 2) Disks have main stats and sub-stats, with higher rarity offering better stats; 3) Matching set bonuses activate when equipping disks from the same set; 4) Disks are obtained from specific domain challenges; 5) Disks can be enhanced with materials to increase stats. Use high-star individual pieces early on, then aim for complete sets later.",
+    "answer": "磁盘系统这页现在更适合回答**前期该先凑能用，还是后期再追完整词条和套装毕业**，而不是继续把“先散件、后套装”写成一句过于省略的结论。对当前玩家来说，更实际的难点通常是：你很少会一次拿到理想盘，真正影响体验的是如何在有限资源下先拼出一套能打的配置。\n\n更稳妥的理解方式是：\n1. 先看主属性和角色最关键的需求是否对路，再看副属性和套装效果\n2. 如果某个散件能明显改善输出或生存，短期内不一定要为了整齐套装硬换掉它\n3. 强化资源也要分阶段投入，先把会长期挂在主力身上的盘子拉起来，再慢慢筛掉过渡件\n\n所以这页现在保留的是**磁盘系统的构成、筛选顺序和过渡到毕业的思路**，而不是继续用一句简化口号概括所有养成阶段。",
+    "answerEn": "This Disk-system page is more useful when it explains **whether you should first assemble something playable or chase ideal stats and full sets later** instead of compressing everything into a short 'use off-pieces early, full sets later' rule. For current players, the real challenge is that you rarely get perfect pieces at once; what matters is how to assemble a workable setup with limited resources.\n\nA safer way to think about Disks is:\n1. Check main stats and your character's most important needs first, then evaluate sub-stats and set bonuses\n2. If one off-piece gives a clear gain in damage or survivability, you do not need to replace it immediately just for cleaner set alignment\n3. Enhancement materials should also be staged: invest first in pieces likely to stay on long-term main units, then filter out transitional gear over time\n\nSo this page now focuses on Disk structure, selection order, and the path from temporary gear to endgame setups instead of reducing every stage to one slogan.",
     "tags": [
       "equipment",
       "disks"
@@ -875,7 +875,7 @@
       "disk-set"
     ],
     "questionTw": "異環磁碟系統怎麼玩？",
-    "answerTw": "磁碟系統是異環的裝備系統，類似於其他遊戲中的聖遺物/遺器系統。玩法要點：1) 每個角色可以裝備多個磁碟，分為不同部位；2) 磁碟有主屬性和副屬性，稀有度越高屬性越好；3) 同一套裝的磁碟組合可以啟用套裝效果，提供額外加成；4) 磁碟通過挑戰特定副本獲取；5) 可以消耗材料強化磁碟，提升屬性值。建議前期先用高星散件過渡，後期再追求完美套裝。",
+    "answerTw": "磁碟系統這頁現在更適合回答**前期該先湊能用，還是後期再追完整詞條和套裝畢業**，而不是繼續把「先散件、後套裝」寫成一句過於省略的結論。對目前玩家來說，更實際的難點通常是：你很少會一次拿到理想盤，真正影響體驗的是如何在有限資源下先拼出一套能打的配置。\n\n更穩妥的理解方式是：\n1. 先看主屬性和角色最關鍵的需求是否對路，再看副屬性和套裝效果\n2. 如果某個散件能明顯改善輸出或生存，短期內不一定要為了整齊套裝硬換掉它\n3. 強化資源也要分階段投入，先把會長期掛在主力身上的盤子拉起來，再慢慢篩掉過渡件\n\n所以這頁現在保留的是**磁碟系統的構成、篩選順序和過渡到畢業的思路**，而不是繼續用一句簡化口號概括所有養成階段。",
     "categoryTw": "裝備系統"
   },
   {
@@ -2129,8 +2129,8 @@
     "id": "stamina-planning",
     "question": "异环体力怎么分配？零氪开荒体力规划",
     "questionEn": "How to spend stamina in NTE? F2P stamina planning guide",
-    "answer": "前期体力分配建议：1-30级：全部投入主线和角色升级材料副本；30-45级：70%角色升级材料 + 30%武器强化材料；45级后：优先弧盘副本 > 技能升级材料 > 武器材料。关键原则：1) 不要平均分配，集中培养2个主力角色；2) 每天先用完体力再下线；3) 优先刷当前卡关需要的材料；4) 弧盘副本收益最高，解锁后优先投入。零氪玩家不要浪费体力在低级副本，直接打能打的最高难度。",
-    "answerEn": "Early stamina planning: Lv1-30: All on story + character leveling materials; Lv30-45: 70% character materials + 30% weapon materials; Lv45+: Arc Disc dungeons > Skill materials > Weapon materials. Key tips: 1) Focus on 2 main characters; 2) Use all daily stamina; 3) Prioritize bottleneck materials; 4) Arc Disc dungeons have highest ROI.",
+    "answer": "体力规划这页现在更适合回答**你当下最缺的是解锁进度、角色强度，还是装备成型**，而不是继续把等级区间和刷本比例写成每个账号都必须照搬的固定公式。对当前玩家来说，更实际的重点通常是：你现在卡在主线、卡在角色突破，还是卡在整队输出不够，这会直接决定体力该先投去哪里。\n\n更稳妥的理解方式是：\n1. 如果很多功能还没解锁，主线推进通常比精细刷材料更优先\n2. 如果你已经明确卡在某个角色或武器突破点，就先把体力用在能立刻解卡的材料上\n3. 装备类副本的长期收益确实高，但前提是你的基础队伍已经能稳定吃到这些收益，而不是过早为了“高 ROI”拖慢整体推进\n\n所以这页现在保留的是**体力分配的判断顺序与阶段逻辑**，而不是继续输出一张对所有零氪账号都完全通用的刷本配比表。",
+    "answerEn": "This stamina-planning page is more useful when it explains **whether your current priority is account progression, character power, or gear stabilization** instead of freezing level brackets and farming ratios into a formula every account must copy. For current players, the practical question is whether you are blocked by story unlocks, breakthrough materials, or overall team output, because that should determine where stamina goes first.\n\nA safer way to plan stamina is:\n1. If major systems are still locked, story progress usually matters more than fine-tuned material farming\n2. If you are clearly stuck on one character or weapon breakpoint, spend stamina where it immediately solves that wall\n3. Gear dungeons may have strong long-term value, but only if your baseline team is already stable enough to benefit from them instead of slowing overall progress too early\n\nSo this page now focuses on the order of stamina decisions and stage-based planning logic instead of preserving one universal farming ratio for every F2P account.",
     "tags": [
       "beginner",
       "stamina",
@@ -2147,7 +2147,7 @@
       "permit"
     ],
     "questionTw": "異環體力怎麼分配？零氪開荒體力規劃",
-    "answerTw": "前期體力分配建議：1-30級：全部投入主線和角色升級材料副本；30-45級：70%角色升級材料 + 30%武器強化材料；45級後：優先弧盤副本 > 技能升級材料 > 武器材料。關鍵原則：1) 不要平均分配，集中培養2個主力角色；2) 每天先用完體力再下線；3) 優先刷當前卡關需要的材料；4) 弧盤副本收益最高，解鎖後優先投入。零氪玩家不要浪費體力在低階副本，直接打能打的最高難度。",
+    "answerTw": "體力規劃這頁現在更適合回答**你當下最缺的是解鎖進度、角色強度，還是裝備成型**，而不是繼續把等級區間和刷本比例寫成每個帳號都必須照搬的固定公式。對目前玩家來說，更實際的重點通常是：你現在卡在主線、卡在角色突破，還是卡在整隊輸出不夠，這會直接決定體力該先投去哪裡。\n\n更穩妥的理解方式是：\n1. 如果很多功能還沒解鎖，主線推進通常比精細刷材料更優先\n2. 如果你已經明確卡在某個角色或武器突破點，就先把體力用在能立刻解卡的材料上\n3. 裝備類副本的長期收益確實高，但前提是你的基礎隊伍已經能穩定吃到這些收益，而不是過早為了「高 ROI」拖慢整體推進\n\n所以這頁現在保留的是**體力分配的判斷順序與階段邏輯**，而不是繼續輸出一張對所有零氪帳號都完全通用的刷本配比表。",
     "categoryTw": "新手入門"
   },
   {
