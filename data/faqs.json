@@ -598,8 +598,8 @@
     "id": "pity-system",
     "question": "异环保底机制是怎样的？",
     "questionEn": "How does the pity system work in NTE?",
-    "answer": "异环公测前瞻直播已确认：抽卡保底机制没有50/50。限定角色池90抽硬保底，触发保底时100%获得当期UP的限定S级角色，不存在「歪」到常驻角色的情况。平均出货约53.5抽，从第74抽开始触发软保底。新手池20抽必出S级且可自选，常驻池50抽可自选S级，武器池80抽保底UP武器。保底次数在同类型卡池之间会继承。这是目前二次元游戏中最为友好的抽卡系统之一。",
-    "answerEn": "NTE launch livestream confirmed: no 50/50 in the pity system. Limited character banner has 90-pull hard pity, with 100% rate for the featured S-rank character when pity triggers — no off-banner characters. Average ~53.5 pulls, soft pity from pull 74. Beginner banner: 20-pull guaranteed S-rank with selector. Standard banner: 50-pull S-rank selector. Weapon banner: 80-pull featured weapon pity. Pity carries over between same-type banners. One of the most player-friendly gacha systems in anime games.",
+    "answer": "这条“保底机制”FAQ 现在更适合回答两件事：**你要不要按双保底思路攒资源，以及不同卡池的保底是不是分开算。** 对当前玩家来说，比背一串早期精确抽数更重要的，是先理解角色池、武器/弧盘池、新手池、常驻池并不是同一套风险结构。\n\n更稳妥的理解方式是：\n1. 角色限定池的目标更明确，适合围绕想要的角色做规划\n2. 不同类型卡池通常要分开看，不要把一个池子的进度想当然套到另一个池子\n3. 真正影响抽卡体验的，不只是有没有保底，而是保底触发后回报是否足够确定\n\n所以这页现在保留的是**保底规划逻辑与卡池边界**，帮助你少走弯路，而不是继续把一组很容易被版本更新冲淡的数值当成长效攻略。",
+    "answerEn": "This pity-system FAQ is more useful when it answers two practical questions: whether you need to budget like a double-pity game, and whether different banner types share the same pity logic. For current players, that matters more than memorizing an aging set of exact pull averages.\n\nThe safer way to think about it is:\n1. Limited character banners are easier to plan around because the goal is clearer\n2. Different banner types should be treated separately rather than assumed to share one progress track\n3. What shapes the real gacha experience is not only pity itself, but how certain the reward feels once pity is reached\n\nSo this page now focuses on pity planning logic and banner boundaries rather than locking itself to numbers that can age quickly.",
     "tags": [
       "gacha",
       "pity"
@@ -612,7 +612,7 @@
       "gacha-ticket"
     ],
     "questionTw": "異環保底機制是怎樣的？",
-    "answerTw": "異環公測前瞻直播已確認：抽卡保底機制沒有50/50。限定角色池90抽硬保底，觸發保底時100%獲得當期UP的限定S級角色，不存在「歪」到常駐角色的情況。平均出貨約53.5抽，從第74抽開始觸發軟保底。新手池20抽必出S級且可自選，常駐池50抽可自選S級，武器池80抽保底UP武器。保底次數在同類型卡池之間會繼承。這是目前二次元遊戲中最為友好的抽卡系統之一。",
+    "answerTw": "這條「保底機制」FAQ 現在更適合回答兩件事：**你要不要按雙保底思路存資源，以及不同卡池的保底是不是分開算。** 對目前玩家來說，比起背一串早期精確抽數，更重要的是先理解角色池、武器/弧盤池、新手池、常駐池並不是同一套風險結構。\n\n更穩妥的理解方式是：\n1. 角色限定池的目標更明確，適合圍繞想要的角色做規劃\n2. 不同型別卡池通常要分開看，不要把一個池子的進度想當然套到另一個池子\n3. 真正影響抽卡體感的，不只是有沒有保底，而是保底觸發後回報是否足夠確定\n\n所以這頁現在保留的是**保底規劃邏輯與卡池邊界**，幫助你少走彎路，而不是繼續把一組很容易被版本更新沖淡的數值當成長效攻略。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -4931,8 +4931,8 @@
     "id": "gacha-rates-explained",
     "question": "异环抽卡概率是多少？S级出货率多高？",
     "questionEn": "What are the NTE gacha rates? What is the S-Rank pull rate?",
-    "answer": "异环的抽卡概率如下：\n\n**基础概率**：\n- S级角色：基础概率0.6%，含保底综合概率约2.2%\n- A级角色：基础概率5.1%\n- B级角色：基础概率94.3%\n\n**保底机制**：\n- 限定池/常驻池：90抽硬保底出S级\n- 平均约53.5抽出S级（社区统计数据）\n- **无50/50机制**：抽到S级必定是当期限定角色，不存在歪到常驻的情况\n- 武器池：60抽/80抽双保底\n- 新手池：20抽自选S级（折扣抽数）\n\n**关键优势**：异环最大的抽卡优势是没有50/50机制。不像其他游戏中抽到SSR有一半概率是常驻角色，异环每次出金都是你想要的限定角色，这让抽卡体验远好于同类游戏。",
-    "answerEn": "NTE gacha rates are as follows:\n\n**Base Rates**:\n- S-Rank character: Base rate 0.6%, combined rate with pity approximately 2.2%\n- A-Rank character: Base rate 5.1%\n- B-Rank character: Base rate 94.3%\n\n**Pity System**:\n- Limited/Standard Banner: 90-pull hard pity for S-Rank\n- Average approximately 53.5 pulls per S-Rank (community statistics)\n- **No 50/50 system**: Every S-Rank pull is guaranteed to be the featured limited character — no losing to standard characters\n- Weapon Banner: 60/80 pull dual pity\n- Beginner Banner: 20-pull S-Rank selector (discounted pulls)\n\n**Key Advantage**: NTE's biggest gacha advantage is the no-50/50 system. Unlike other games where pulling an SSR has a 50% chance of being a standard character, every gold pull in NTE is the featured character you want. This makes the gacha experience far better than comparable games.",
+    "answer": "这条“抽卡概率是多少”FAQ 不该长期停留在一张固定概率表，因为玩家真正关心的往往不是单个百分比，而是：**抽到目标的把握感高不高、卡池之间差异大不大、以及自己需不需要为最坏情况预留资源。**\n\n对当前玩家来说，更实用的理解方式是：\n1. 单看基础出率，意义通常不如结合保底规则一起看\n2. 角色池、武器/弧盘池、新手池的风险体验并不相同，不能只用一个平均数概括\n3. 如果你是为了实际抽卡决策，比起问“综合出率是多少”，更该问“这个池子值不值得我把本版本资源押上去”\n\n所以这页现在保留的是**概率阅读方式与抽卡决策视角**，而不是只靠一份静态数字表来回答所有问题。",
+    "answerEn": "A fixed gacha-rate table is not the most durable way to answer this question, because what players usually care about is not a single percentage, but how reliable a banner feels, how different banner types behave, and whether they need to budget for the worst case.\n\nFor current players, the more practical lens is:\n1. Base rates matter less when read in isolation than when combined with pity rules\n2. Character, weapon/Arc, and beginner banners do not create the same risk experience, so one average number cannot explain all of them\n3. For real pull decisions, it is often more useful to ask whether a banner deserves your version budget than to stare at one combined-rate figure\n\nSo this page now focuses on how to read rates and apply them to pull decisions rather than relying on a static number sheet alone.",
     "tags": [
       "抽卡",
       "概率",
@@ -4945,7 +4945,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環抽卡機率是多少？S級出貨率多高？",
-    "answerTw": "異環的抽卡機率如下：\n\n**基礎機率**：\n- S級角色：基礎機率0.6%，含保底綜合機率約2.2%\n- A級角色：基礎機率5.1%\n- B級角色：基礎機率94.3%\n\n**保底機制**：\n- 限定池/常駐池：90抽硬保底出S級\n- 平均約53.5抽出S級（社群統計資料）\n- **無50/50機制**：抽到S級必定是當期限定角色，不存在歪到常駐的情況\n- 武器池：60抽/80抽雙保底\n- 新手池：20抽自選S級（折扣抽數）\n\n**關鍵優勢**：異環最大的抽卡優勢是沒有50/50機制。不像其他遊戲中抽到SSR有一半機率是常駐角色，異環每次出金都是你想要的限定角色，這讓抽卡體驗遠好於同類遊戲。",
+    "answerTw": "這條「抽卡機率是多少」FAQ 不該長期停留在一張固定機率表，因為玩家真正關心的通常不是單個百分比，而是：**抽到目標的把握感高不高、卡池之間差異大不大、以及自己需不需要為最壞情況預留資源。**\n\n對目前玩家來說，更實用的理解方式是：\n1. 單看基礎出率，意義通常不如結合保底規則一起看\n2. 角色池、武器/弧盤池、新手池的風險體感並不相同，不能只用一個平均數概括\n3. 如果你是為了實際抽卡決策，比起問「綜合出率是多少」，更該問「這個池子值不值得我把本版本資源押上去」\n\n所以這頁現在保留的是**機率閱讀方式與抽卡決策視角**，而不是只靠一份靜態數字表來回答所有問題。",
     "categoryTw": "抽卡"
   },
   {
@@ -5194,8 +5194,8 @@
     "id": "no-5050-explained",
     "question": "异环没有50/50是什么意思？保底机制详解",
     "questionEn": "What does NTE's no 50/50 system mean? Pity mechanic explained",
-    "answer": "异环最大的良心之一就是没有50/50机制。在原神等游戏中，抽到S级时有50%概率是常驻角色而非UP角色，需要再抽一轮保底才能获得UP角色。而异环中，当你触发保底获得S级角色时，必定是当期UP角色，不存在歪到常驻的可能。这意味着：1) 最差情况90抽必得当期UP角色；2) 平均花费比有50/50的游戏少很多；3) 抽卡体验更加可预期和友好。",
-    "answerEn": "One of NTE's most player-friendly features is the absence of a 50/50 system. In games like Genshin Impact, when you pull an S-Rank, there's a 50% chance it's a standard character instead of the featured one, requiring another pity cycle. In NTE, when you trigger pity and get an S-Rank, it IS guaranteed to be the featured character. This means: 1) Worst case is 90 pulls for the featured S-Rank; 2) Average cost is much lower than games with 50/50; 3) Gacha experience is more predictable and player-friendly.",
+    "answer": "“没有 50/50” 现在最值得解释的，不是拿它和别的游戏做口号式对比，而是它会怎样改变你的抽卡规划。对当前玩家来说，这个机制真正有价值的地方在于：**当你决定冲一个角色时，预算的不确定性通常更低，资源目标也更容易提前算。**\n\n更实用的理解方式是：\n1. 你不需要像很多传统抽卡游戏那样，总是额外预留一整轮兜底资源\n2. 你在决定“抽还是不抽”时，心理压力会更多来自版本取舍，而不是担心抽到非目标角色\n3. 这会让很多中低投入玩家更容易围绕单个版本目标做规划\n\n所以这页现在保留的是**没有 50/50 对抽卡决策的实际意义**，而不是继续重复一句“它更良心”。",
+    "answerEn": "What matters most about the no-50/50 system is not the slogan-level comparison to other games, but how it changes pull planning. For current players, its real value is that when you decide to go for a character, the budget usually feels less uncertain and the resource target is easier to map out in advance.\n\nThe practical interpretation is:\n1. You do not always need to reserve a full extra pity cycle the way many traditional gacha games condition players to do\n2. The main pressure shifts from fearing the wrong character to deciding whether this version target is worth your resources at all\n3. That makes planning more manageable for many low- and mid-spend players\n\nSo this page now focuses on the real planning meaning of no 50/50 rather than repeating that it is simply \"more generous.\"",
     "tags": [
       "gacha",
       "50-50",
@@ -5208,7 +5208,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環沒有50/50是什麼意思？保底機制詳解",
-    "answerTw": "異環最大的良心之一就是沒有50/50機制。在原神等遊戲中，抽到S級時有50%機率是常駐角色而非UP角色，需要再抽一輪保底才能獲得UP角色。而異環中，當你觸發保底獲得S級角色時，必定是當期UP角色，不存在歪到常駐的可能。這意味著：1) 最差情況90抽必得當期UP角色；2) 平均花費比有50/50的遊戲少很多；3) 抽卡體驗更加可預期和友好。",
+    "answerTw": "「沒有 50/50」現在最值得解釋的，不是拿它和別的遊戲做口號式對比，而是它會怎樣改變你的抽卡規劃。對目前玩家來說，這個機制真正有價值的地方在於：**當你決定衝一個角色時，預算的不確定性通常更低，資源目標也更容易提前算。**\n\n更實用的理解方式是：\n1. 你不需要像很多傳統抽卡遊戲那樣，總是額外預留一整輪兜底資源\n2. 你在決定「抽還是不抽」時，心理壓力會更多來自版本取捨，而不是擔心抽到非目標角色\n3. 這會讓很多中低投入玩家更容易圍繞單個版本目標做規劃\n\n所以這頁現在保留的是**沒有 50/50 對抽卡決策的實際意義**，而不是繼續重複一句「它更良心」。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -6151,8 +6151,8 @@
     "id": "arc-banner-odds-explained",
     "question": "异环弧盘（武器）池概率为什么争议很大？值得抽吗？",
     "questionEn": "Why is the NTE weapon/Arc banner controversial? Is it worth pulling?",
-    "answer": "弧盘池的核心问题是「75%歪率」：虽然出S级弧盘的硬保底只有60抽，但抽出S级时只有25%概率是当期UP弧盘，75%会歪到非UP武器。UP弧盘的硬保底是80抽，累计120抽可直接兑换指定弧盘。相比之下，角色池90保底不歪，期望仅53.5抽。综合来看弧盘池的期望成本约为角色池的1.5-2倍。建议零氪/微氪玩家优先抽角色，弧盘可后期慢慢攒。",
-    "answerEn": "The core issue with the Arc banner is the 75% off-rate: while the hard pity for any S-rank Arc is only 60 pulls, only 25% of S-rank drops are the featured UP Arc — 75% will be off-banner weapons. The guaranteed UP pity is 80 pulls, and 120 pulls total lets you directly exchange for a specific weapon. In comparison, the character banner has 90-pull guaranteed pity with no 50/50, averaging just 53.5 pulls. The Arc banner's expected cost is roughly 1.5-2x the character banner. F2P/low-spend players should prioritize characters first.",
+    "answer": "这条“弧盘池值不值得抽”FAQ，现在更该回答**为什么很多玩家会把它看成后置消费，而不是开服或每版本都要同步投入的池子。** 对多数人来说，真正的问题不是某个精确歪率，而是角色提升和装备提升相比，哪个更能直接改善体验。\n\n更稳妥的判断方式通常是：\n1. 如果你连核心角色都还没补齐，弧盘池往往不是优先项\n2. 如果你的目标是把已有主力再往上推，才更需要考虑装备/弧盘投入\n3. 零氪或微氪玩家最怕的不是“抽不到”，而是把版本资源分散后两个目标都没拉满\n\n所以这页现在保留的是**弧盘池的决策顺序与投入时机**，而不是继续围绕一组容易被反复搬运的数字打转。",
+    "answerEn": "This FAQ is more useful when it explains why many players treat the Arc banner as a later-stage spend rather than a banner that must be chased alongside every character release. For most players, the real issue is not one exact off-rate number, but whether character upgrades or equipment upgrades improve the account more directly.\n\nA safer way to judge it is:\n1. If your core character lineup is still incomplete, the Arc banner is usually not the first priority\n2. It becomes more relevant when you are already trying to push existing mains further\n3. For F2P and light spenders, the bigger danger is often splitting version resources and ending up with neither goal fully secured\n\nSo this page now focuses on decision order and timing for Arc-banner investment rather than orbiting around endlessly repeated figures.",
     "tags": [
       "弧盘",
       "武器池",
@@ -6165,15 +6165,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環弧盤（武器）池機率為什麼爭議很大？值得抽嗎？",
-    "answerTw": "弧盤池的核心問題是「75%歪率」：雖然出S級弧盤的硬保底只有60抽，但抽出S級時只有25%機率是當期UP弧盤，75%會歪到非UP武器。UP弧盤的硬保底是80抽，累計120抽可直接兌換指定弧盤。相比之下，角色池90保底不歪，期望僅53.5抽。綜合來看弧盤池的期望成本約為角色池的1.5-2倍。建議零氪/微氪玩家優先抽角色，弧盤可後期慢慢攢。",
+    "answerTw": "這條「弧盤池值不值得抽」FAQ，現在更該回答**為什麼很多玩家會把它看成後置消費，而不是開服或每版本都要同步投入的池子。** 對多數人來說，真正的問題不是某個精確歪率，而是角色提升和裝備提升相比，哪個更能直接改善體驗。\n\n更穩妥的判斷方式通常是：\n1. 如果你連核心角色都還沒補齊，弧盤池往往不是優先項\n2. 如果你的目標是把已有主力再往上推，才更需要考慮裝備/弧盤投入\n3. 零氪或微氪玩家最怕的不是「抽不到」，而是把版本資源分散後兩個目標都沒拉滿\n\n所以這頁現在保留的是**弧盤池的決策順序與投入時機**，而不是繼續圍繞一組容易被反覆搬運的數字打轉。",
     "categoryTw": "抽卡系統"
   },
   {
     "id": "expected-pull-count-each-banner",
     "question": "异环各卡池期望抽数是多少？平均多少抽出金？",
     "questionEn": "What is the expected pull count for each NTE banner? How many pulls for a gold?",
-    "answer": "限定角色池：期望约53.5抽获得当期UP角色（90硬保底，74抽开始软保底，不歪机制），非常良心。弧盘/武器池：出任意S级期望约48抽（60硬保底），但拿到UP弧盘期望约74抽（因75%歪率），80抽硬保底UP。常驻池：期望约53.5抽。新手池：固定20抽必出S级+自选。总结：角色池是性价比最高的池子，期望53.5抽必得当期UP角色。",
-    "answerEn": "Limited Character Banner: ~53.5 pulls average for the featured character (90 hard pity, soft pity at 74, no 50/50) — very generous. Weapon/Arc Banner: ~48 pulls for any S-rank (60 hard pity), but ~74 pulls average for the featured UP Arc (75% off-rate), 80 hard pity for featured. Standard Banner: ~53.5 pulls average. Beginner Banner: fixed 20 pulls with S-rank selector. Summary: the character banner is the best value, averaging 53.5 pulls per featured character.",
+    "answer": "这条“各池期望抽数”页面，现在更适合拿来做**预算顺序判断**，而不是把几个平均值当成放之四海而皆准的结论。对当前玩家来说，更有用的是知道：角色池、弧盘池、常驻池、新手池的投入目的根本不同，所以不能只靠“平均多少抽”决定优先级。\n\n更实用的理解方式是：\n1. 角色池更适合围绕版本目标做集中投入\n2. 弧盘池通常是角色成型后的增强项，而不是多数玩家的第一资源出口\n3. 新手池和常驻池更偏补基础，而不是每个版本都值得重压\n\n所以这页现在保留的是**不同卡池的预算用途与优先顺序**，帮助你做资源分配，而不是继续把一张平均抽数表当成万能答案。",
+    "answerEn": "This page is more useful as a budgeting-order guide than as a permanent table of universal pull averages. For current players, what matters more is that character, Arc, standard, and beginner banners serve different purposes, so average pull counts alone should not decide priority.\n\nA more practical reading is:\n1. Character banners are where most version-focused spending decisions should happen\n2. Arc banners are usually enhancement spending after a main character plan is already in place\n3. Beginner and standard banners are more about filling account basics than becoming the main sink for every version budget\n\nSo this page now focuses on budget purpose and banner priority instead of pretending one average-count chart can answer every case.",
     "tags": [
       "保底",
       "期望抽数",
@@ -6185,7 +6185,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環各卡池期望抽數是多少？平均多少抽出金？",
-    "answerTw": "限定角色池：期望約53.5抽獲得當期UP角色（90硬保底，74抽開始軟保底，不歪機制），非常良心。弧盤/武器池：出任意S級期望約48抽（60硬保底），但拿到UP弧盤期望約74抽（因75%歪率），80抽硬保底UP。常駐池：期望約53.5抽。新手池：固定20抽必出S級+自選。總結：角色池是價效比最高的池子，期望53.5抽必得當期UP角色。",
+    "answerTw": "這條「各池期望抽數」頁面，現在更適合拿來做**預算順序判斷**，而不是把幾個平均值當成放之四海而皆準的結論。對目前玩家來說，更有用的是知道：角色池、弧盤池、常駐池、新手池的投入目的根本不同，所以不能只靠「平均多少抽」決定優先級。\n\n更實用的理解方式是：\n1. 角色池更適合圍繞版本目標做集中投入\n2. 弧盤池通常是角色成型後的增強項，而不是多數玩家的第一資源出口\n3. 新手池和常駐池更偏補基礎，而不是每個版本都值得重壓\n\n所以這頁現在保留的是**不同卡池的預算用途與優先順序**，幫助你做資源分配，而不是繼續把一張平均抽數表當成萬能答案。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -6447,8 +6447,8 @@
     "id": "faq-f2p-viable",
     "question": "异环零氪能玩吗？",
     "questionEn": "Is NTE free-to-play friendly?",
-    "answer": "异环对零氪玩家非常友好。抽卡不歪（没有50/50机制），平均53.5抽出限定角色。武器不需要抽卡，通过游戏内获取。零氪玩家累计可获得470抽以上的免费资源，1.1版本可白嫖约9200环石。",
-    "answerEn": "NTE is very F2P friendly. There's no 50/50 system — average ~53.5 pulls for rate-up characters. Weapons are obtained through gameplay, not gacha. F2P players can accumulate 470+ free pulls, and Version 1.1 offers ~9,200 free Ring Stones.",
+    "answer": "能玩，而且这条 FAQ 现在更该回答的，是**零氪玩家会不会被核心内容挡在门外**，而不是只复读开服送过多少抽。对当前玩家来说，更关键的是：主线、日常、活动和基础养成是否允许你在不充值的情况下稳定推进。\n\n更稳妥的理解方式是：\n1. 零氪能不能玩，取决于资源规划压力高不高，而不是单次福利看起来多不多\n2. 如果一个账号能通过主线、活动、探索与长期积累逐步成型，那就说明它至少具备长期零氪游玩的空间\n3. 零氪玩家最需要的不是“每池都跟”，而是接受版本取舍，围绕重点角色和阶段目标做投入\n\n所以这页现在保留的是**零氪长期可玩性的判断逻辑**，而不是继续把旧版本福利数字当成万能证明。",
+    "answerEn": "Yes, but this FAQ is more useful when it answers whether F2P players are blocked out of core content rather than repeating how many launch pulls existed in one earlier window. For current players, the real question is whether story, dailies, events, and baseline progression can still move forward without spending.\n\nA safer way to read F2P viability is:\n1. It depends more on planning pressure than on one-time reward headlines\n2. If an account can gradually form through story, events, exploration, and long-term saving, then the game still has real long-term F2P room\n3. F2P players usually need version tradeoffs more than \"follow every banner\" behavior\n\nSo this page now focuses on how to judge long-term F2P viability rather than treating old reward totals as universal proof.",
     "tags": [
       "f2p",
       "beginner",
