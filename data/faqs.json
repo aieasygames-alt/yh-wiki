@@ -1895,7 +1895,7 @@
     "id": "aurelia-launch-character",
     "question": "异环奥蕾莉亚是谁？公测新A级角色介绍",
     "questionEn": "Who is Aurelia in NTE? New A-rank launch character",
-    "answer": "奥蕾莉亚（Aurelia）是异环公测新增的A级角色。她在前瞻直播中首次亮相，此前未在任何测试版本中出现过。具体属性、武器类型和技能详情将在公测后确认。作为新增角色，奥蕾莉亚可能拥有独特的技能机制来丰富队伍搭配的多样性。建议关注游戏内的角色预览和我们网站的角色详情页面获取最新信息。",
+    "answer": "奥蕾莉亚（Aurelia）这条 FAQ 原来典型地停留在“公测后确认”的预告口吻，现在应该按**角色页的当前用途**来理解。对今天的搜索用户来说，更重要的不是她当年是不是首发新 A 级，而是她在现有账号里能不能承担过渡位、功能位，或者某种低成本补位价值。\n\n如果你是为了判断她值不值得养，建议先看三件事：\n1. 她能不能补你当前阵容缺的定位，而不是只看稀有度\n2. 你是否需要一个投入成本更低、上手更快的过渡角色\n3. 她在你现有资源下，能不能比同定位角色更快成型\n\n所以这页现在保留的是**角色培养判断逻辑**，而不是继续用“即将确认技能详情”的旧预热文案。",
     "answerEn": "Aurelia is a new A-rank character added for NTE launch. She debuted during the livestream preview and did not appear in any previous beta test. Specific attribute, weapon type, and skill details will be confirmed after launch. As a new character, Aurelia likely features unique skill mechanics to expand team composition variety. Check in-game character previews and our character detail pages for the latest information.",
     "tags": [
       "characters",
@@ -1909,7 +1909,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環奧蕾莉亞是誰？公測新A級角色介紹",
-    "answerTw": "奧蕾莉亞（Aurelia）是異環公測新增的A級角色。她在前瞻直播中首次亮相，此前未在任何測試版本中出現過。具體屬性、武器型別和技能詳情將在公測後確認。作為新增角色，奧蕾莉亞可能擁有獨特的技能機制來豐富隊伍搭配的多樣性。建議關注遊戲內的角色預覽和我們網站的角色詳情頁面獲取最新資訊。",
+    "answerTw": "奧蕾莉亞（Aurelia）這條 FAQ 原來典型地停留在「公測後確認」的預告口吻，現在應該按**角色頁的當前用途**來理解。對今天的搜尋使用者來說，更重要的不是她當年是不是首發新 A 級，而是她在現有帳號裡能不能承擔過渡位、功能位，或者某種低成本補位價值。\n\n如果你是為了判斷她值不值得養，建議先看三件事：\n1. 她能不能補你當前陣容缺的定位，而不是只看稀有度\n2. 你是否需要一個投入成本更低、上手更快的過渡角色\n3. 她在你現有資源下，能不能比同定位角色更快成型\n\n所以這頁現在保留的是**角色培養判斷邏輯**，而不是繼續用「即將確認技能詳情」的舊預熱文案。",
     "categoryTw": "角色相關"
   },
   {
@@ -4695,7 +4695,7 @@
     "questionEn": "Who is Akane in NTE? Character overview and how to get",
     "seoTitleZh": "异环赤音Akane角色攻略 — 技能、定位与获取方法",
     "seoTitleEn": "NTE Akane Character Guide — Skills, Role & How to Get",
-    "seoDescriptionZh": "异环赤音（Akane）角色详细介绍，包含技能机制、属性定位、获取方式和推荐配队。",
+    "seoDescriptionZh": "异环赤音（Akane）角色页更新为当前视角：不再停留在待确认设定，而是围绕她偏机动、副C/快切价值与是否值得培养来判断实际用途。",
     "seoDescriptionEn": "Complete Akane character guide: skills, attribute, role, how to obtain, and recommended team comps.",
     "answer": "赤音（Akane）这类角色页，最大的老问题是一直停留在“属性待确认”的阶段。现在更实用的理解方式是：把她当作一名**偏机动型、适合快切节奏的输出/副C角色**来看。\n\n她的价值通常体现在三点：\n- 有较强的位移和切入感，操作反馈更灵活\n- 在需要补伤害、补节奏或做轮转衔接的队伍里更容易找到位置\n- 对喜欢快切玩法的玩家，比纯站场角色更有吸引力\n\n如果你在考虑要不要练赤音，核心不是“她理论属性是什么”，而是：\n1. 你的队伍是否缺副C或轮转补位\n2. 你是否愿意投入到更强调手感和切换节奏的角色上\n3. 她能否和你现有主C、辅助形成稳定循环\n\n因此这条 FAQ 现在更偏向培养判断，而不是继续保留测试期的空白设定。",
     "answerEn": "Akane is a playable character in NTE known for her unique combat style and character design.\n\nCharacter Info:\n- Role: DPS / Sub-DPS\n- Attribute: TBA\n- Specialty: High mobility, excels at quick-swap combos\n\nSkill Overview:\n- Normal attack features multi-hit combos\n- Core skill enables quick dashes dealing damage along the path\n- Finisher is a high-damage single-target burst\n- Passive provides bonus buffs on character switch\n\nHow to Obtain:\nAvailable through standard or limited banners. Check official announcements for banner schedules.\n\nRecommended Discs:\nCorresponding attribute 4-piece set, sub-stats prioritize Crit Rate and ATK%.\n\nRecommended Teams:\nIdeal as sub-DPS in quick-swap teams, paired with main DPS (like Nanally) and damage buffers.",
@@ -4710,7 +4710,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環赤音（Akane）是誰？角色介紹與獲取方式",
-    "answerTw": "赤音（Akane）是異環中的一位可玩角色，以其獨特的戰鬥風格和角色設計受到玩家關注。\n\n角色資訊：\n- 定位：輸出/副C\n- 屬性：待確認\n- 特點：高機動性，擅長快速切換和連招輸出\n\n技能概述：\n- 普通攻擊具有多段連擊效果\n- 核心技能可以快速位移並對路徑上的敵人造成傷害\n- 終結技為高傷害單體爆發\n- 被動技能在切換角色時提供額外增益\n\n獲取方式：\n通過常駐卡池或限定卡池抽取獲得。關注官方公告瞭解具體卡池安排。\n\n推薦碟片：\n根據屬性選擇對應4件套，副詞條優先暴擊率和攻擊力%。\n\n推薦配隊：\n適合作為快切隊伍中的副C，配合主C（如娜娜莉）和增傷輔助使用。",
+    "answerTw": "赤音（Akane）這類角色頁，最大的老問題就是一直停留在「屬性待確認」的階段。現在更實用的理解方式是：把她當作一名**偏機動型、適合快切節奏的輸出／副 C 角色**來看。\n\n她的價值通常體現在三點：\n- 有較強的位移和切入感，操作反饋更靈活\n- 在需要補傷害、補節奏或做輪轉銜接的隊伍裡更容易找到位置\n- 對喜歡快切玩法的玩家，比純站場角色更有吸引力\n\n如果你在考慮要不要練赤音，核心不是「她理論屬性是什麼」，而是：\n1. 你的隊伍是否缺副 C 或輪轉補位\n2. 你是否願意投入到更強調手感和切換節奏的角色上\n3. 她能否和你現有主 C、輔助形成穩定循環\n\n因此這條 FAQ 現在更偏向培養判斷，而不是繼續保留測試期的空白設定。",
     "categoryTw": "角色",
     "seoTitleTw": "異環赤音Akane角色攻略 — 技能、定位與獲取方法"
   },
@@ -4877,9 +4877,9 @@
     "questionEn": "NTE voice actors list — All character JP/CN/EN voice cast",
     "seoTitleZh": "异环全角色声优CV列表 — 日文/中文/英文配音演员一览",
     "seoTitleEn": "NTE Voice Actors — Complete JP/CN/EN Voice Cast for All Characters",
-    "seoDescriptionZh": "异环全角色声优CV列表，包含娜娜莉、零、哈索尔、达芙迪尔等角色的日文、中文、英文配音演员信息。",
+    "seoDescriptionZh": "异环CV声优页改为当前可用信息视角：优先说明多语言配音、切换方法与官方名单更新方式，避免继续堆叠大量未确认角色配音名录。",
     "seoDescriptionEn": "Complete NTE voice actor cast list: Japanese, Chinese, and English VA for Nanally, Zero, Hathor, Daffodil, and all characters.",
-    "answer": "异环（Neverness to Everness）支持多语言配音，以下是部分角色的声优信息：\n\n中文配音（中配）：\n- 娜娜莉：待官方确认\n- 零：待官方确认\n- 哈索尔：待官方确认\n- 达芙迪尔：待官方确认\n- 咲里：待官方确认\n\n日文配音（日配）：\n- 部分角色已确认日配声优\n- 国际服版本包含完整日配支持\n\n英文配音（英配）：\n- 国际服提供完整英配\n- Brianna Knickerbocker 参与了部分角色配音\n\n如何切换配音：\n1) 进入游戏设置（Settings）\n2) 找到「语音」（Voice/Audio）选项\n3) 在语言选项中切换中/日/英配音\n4) 切换后立即生效，无需重启游戏\n\n配音语言可在设置中随时免费切换，不受服务器或地区限制。关注官方社交媒体获取最新声优公布信息。",
+    "answer": "这条 CV 声优页最明显的问题，是它长期挂着一串“待官方确认”的名字，却又被写成完整名录。对现在的用户来说，更有用的其实是三件事：**异环是否支持多语言配音、配音怎么切换、以及声优名单应该去哪里看最新官方版本。**\n\n更稳妥的理解方式是：\n1. 异环作为多语言产品，配音选择本身是有效需求，但**未持续更新的名单不该被当成完整资料库**\n2. 如果你只是想切换中配、日配或英配，重点应放在设置入口和语音包支持情况\n3. 如果你在找某个角色的具体 CV，最可靠的仍然是角色页、游戏内资料、正式公告或后续官方发布，而不是一张长期不刷新的总表\n\n所以这页现在保留的是**配音支持与查找路径说明**，而不是继续伪装成一份已经完善更新的全角色声优库。",
     "answerEn": "NTE supports multiple language voiceovers. Here's the voice cast information:\n\nChinese VA:\n- Cast details to be officially confirmed\n- Full CN voiceover included in all versions\n\nJapanese VA:\n- Some character JP VAs confirmed\n- Global version includes full JP voiceover support\n\nEnglish VA:\n- Full EN voiceover for global server\n- Brianna Knickerbocker voices a character in the EN cast\n\nHow to Switch Voice Language:\n1) Open Settings\n2) Go to Voice/Audio settings\n3) Select language: CN/JP/EN\n4) Changes apply immediately, no restart needed\n\nVoice language can be switched freely at any time. Not restricted by server or region. Follow official social media for the latest VA announcements.",
     "tags": [
       "voice-actors",
@@ -4893,7 +4893,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環全形色CV聲優列表 — 日配/中配/英配一覽",
-    "answerTw": "異環（Neverness to Everness）支援多語言配音，以下是部分角色的聲優資訊：\n\n中文配音（中配）：\n- 娜娜莉：待官方確認\n- 零：待官方確認\n- 哈索爾：待官方確認\n- 達芙迪爾：待官方確認\n- 咲裡：待官方確認\n\n日文配音（日配）：\n- 部分角色已確認日配聲優\n- 國際服版本包含完整日配支援\n\n英文配音（英配）：\n- 國際服提供完整英配\n- Brianna Knickerbocker 參與了部分角色配音\n\n如何切換配音：\n1) 進入遊戲設定（Settings）\n2) 找到「語音」（Voice/Audio）選項\n3) 在語言選項中切換中/日/英配音\n4) 切換後立即生效，無需重啟遊戲\n\n配音語言可在設定中隨時免費切換，不受伺服器或地區限制。關注官方社交媒體獲取最新聲優公佈資訊。",
+    "answerTw": "這條 CV 聲優頁最明顯的問題，就是它長期掛著一串「待官方確認」的名字，卻又被寫成完整名錄。對現在的使用者來說，更有用的其實是三件事：**異環是否支援多語言配音、配音怎麼切換、以及聲優名單應該去哪裡看最新官方版本。**\n\n更穩妥的理解方式是：\n1. 異環作為多語言產品，配音選擇本身是有效需求，但**未持續更新的名單不該被當成完整資料庫**\n2. 如果你只是想切換中配、日配或英配，重點應放在設定入口和語音包支援情況\n3. 如果你在找某個角色的具體 CV，最可靠的仍然是角色頁、遊戲內資料、正式公告或後續官方發佈，而不是一張長期不刷新的總表\n\n所以這頁現在保留的是**配音支援與查找路徑說明**，而不是繼續偽裝成一份已經完善更新的全角色聲優庫。",
     "categoryTw": "角色",
     "seoTitleTw": "異環全形色聲優CV列表 — 日文/中文/英文配音演員一覽"
   },
@@ -6381,7 +6381,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環通緝怎麼觸發？",
-    "answerTw": "交通違規（闖紅燈、超速）觸發一星通緝，搶車或破壞公共財產觸發二星，在公共場合使用武器或襲警觸發三星。日常駕駛遵守交通規則可以完全避免通緝。",
+    "answerTw": "這條「通緝怎麼觸發」頁面最大的風險，是把很多玩家對都市開放世界玩法的想像，寫成了像 GTA 一樣的明確星級規則。對當前使用者來說，更穩妥的答案是：**不要把這類星級通緝描述直接當成已被完整驗證的正式系統。**\n\n如果你是因為搜尋聯想詞點進來，現階段更應該這樣理解：\n1. 社群確實會討論交通、警察、城市秩序相關玩法\n2. 但沒有持續更新和官方明確說明的前提下，不適合把闖紅燈、搶車、襲警之類條件寫成固定觸發表\n3. 真正可靠的內容仍應以遊戲內當前版本體驗和官方後續說明為準\n\n所以這頁現在更偏向**澄清玩法狀態**，而不是繼續擴寫一套看似完整、實際上容易誤導的通緝規則。",
     "categoryTw": "玩法"
   },
   {
@@ -6401,7 +6401,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環監獄怎麼越獄？",
-    "answerTw": "監獄有5種越獄路線：地道挖掘（偷勺子挖牆）、高空繩索（收集布料合成繩索）、潛行逃脫（通過NPC獄友配合）、化學腐蝕（偷消毒液腐蝕欄杆）、假死偽裝（用藥劑假死被運出）。最簡單的是地道挖掘，最省事的是假死偽裝。",
+    "answerTw": "這條「監獄怎麼越獄」內容現在最明顯的問題，就是把一整套極具戲劇性的流程寫得像已驗證攻略。對當前使用者來說，更重要的其實是先知道：**沒有足夠可靠的官方與實機依據時，不應把越獄路線、材料步驟或獎勵寫成已存在的正式玩法。**\n\n如果你搜到這條，現階段更穩妥的結論是：\n1. 這類內容更像社群延伸想像或傳播過程中的二次加工\n2. 不能直接把它當成遊戲內可穩定複現的功能攻略\n3. 真有相關玩法時，也應以後續版本更新與實機驗證為準\n\n所以這頁現在保留的是**辨別真實性**的作用，而不是繼續提供一份像任務 walkthrough 的假定攻略。",
     "categoryTw": "玩法"
   },
   {
@@ -6420,7 +6420,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環入獄有什麼懲罰？",
-    "answerTw": "三星通緝被捕後會被押送至中央監獄。可以交罰金直接出獄，或者掛機等待7天刑滿釋放。越獄成功可獲得免費純獄風時裝，擊敗獄霸BOSS可解鎖四人格鬥玩法。",
+    "answerTw": "這條「入獄有什麼懲罰」同樣不適合再寫成一套已確定的懲罰數值與獎勵規則。對目前玩家來說，更需要的是一個提醒：**不要把社群傳播中的監獄、罰金、時裝獎勵、越獄玩法，直接理解成當前版本已正式存在的固定機制。**\n\n更穩妥的理解方式是：\n1. 這類內容目前缺少足夠可靠的持續驗證來源\n2. 即便遊戲有城市秩序或特殊處理機制，也不代表已經存在完整的「被捕 - 入獄 - 越獄 - 領獎勵」閉環\n3. 如果官方後續真的把這部分做成正式系統，再根據當時規則補全攻略才比較準確\n\n所以這頁現在的作用是**避免誤導使用者**，而不是把高戲劇性的傳播內容包裝成已實裝懲罰系統。",
     "categoryTw": "玩法"
   },
   {
