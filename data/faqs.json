@@ -214,8 +214,8 @@
     "id": "beginner-character-recommendation",
     "question": "异环新手推荐培养哪些角色？",
     "questionEn": "Which characters should beginners build in NTE?",
-    "answer": "新手推荐培养方向：1) 娜娜莉（S级/生命属性）— 强力的近战输出角色，前期开荒体验好；2) 咲里（S级/咒术属性）— 优秀的支援角色，能为全队提供增益；3) 爱德勒（S级）— 输出能力出色。A级角色中也有性价比很高的选择，如智（A级）培养成本低但实用性高。建议集中资源培养2-3个核心角色，不要分散资源。",
-    "answerEn": "Recommended characters for beginners: 1) Nanally (S-rank/Anima) - Strong melee DPS, great for early game; 2) Sakiri (S-rank/Incantation) - Excellent support character with team-wide buffs; 3) Adler (S-rank) - Outstanding damage output. Among A-rank characters, Chiz offers great value with low investment. Focus resources on 2-3 core characters rather than spreading thin.",
+    "answer": "这条“新手推荐培养哪些角色”FAQ 现在更适合回答**新号该先补哪类功能位**，而不是继续给出一张像固定榜单一样的角色名单。对当前玩家来说，更重要的通常不是死记某几个名字，而是先判断：你缺不缺稳定输出、缺不缺泛用辅助、以及有没有足够的生存位把队伍撑起来。\n\n更稳妥的理解方式是：\n1. 如果你推进慢，优先补能直接改善清怪和 Boss 节奏的主输出位\n2. 如果你已经有可用主力，就更适合补支援、治疗或聚怪这类功能角色\n3. A 级角色的价值也要放到资源压力和阵容缺口里看，而不是只按稀有度高低排顺序\n\n所以这页现在保留的是**新手培养方向与功能位判断逻辑**，而不是继续把一组角色名字写成所有账号都通用的固定推荐名单。",
+    "answerEn": "This beginner-character page is more useful when it explains **which functional roles a new account should fill first** instead of preserving a static list of names as if it were a universal ranking. For current players, the more important question is whether your roster lacks stable damage, broad support value, or enough survivability to keep the team functioning.\n\nA safer way to think about beginner builds is:\n1. If your progress is slow, prioritize a core damage role that directly improves clear speed and boss pacing\n2. If you already have a usable main unit, support, healing, or grouping value may matter more\n3. A-rank value should also be judged through resource pressure and roster gaps rather than rarity label alone\n\nSo this page now focuses on beginner investment direction and role-based judgment instead of preserving one fixed recommended name list for every account.",
     "tags": [
       "beginner",
       "characters"
@@ -231,7 +231,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環新手推薦培養哪些角色？",
-    "answerTw": "新手推薦培養方向：1) 娜娜莉（S級/生命屬性）— 強力的近戰輸出角色，前期開荒體驗好；2) 咲裡（S級/咒術屬性）— 優秀的支援角色，能為全隊提供增益；3) 愛德勒（S級）— 輸出能力出色。A級角色中也有價效比很高的選擇，如智（A級）培養成本低但實用性高。建議集中資源培養2-3個核心角色，不要分散資源。",
+    "answerTw": "這條「新手推薦培養哪些角色」FAQ 現在更適合回答**新號該先補哪類功能位**，而不是繼續給出一張像固定榜單一樣的角色名單。對目前玩家來說，更重要的通常不是死記某幾個名字，而是先判斷：你缺不缺穩定輸出、缺不缺泛用輔助、以及有沒有足夠的生存位把隊伍撐起來。\n\n更穩妥的理解方式是：\n1. 如果你推進慢，優先補能直接改善清怪和 Boss 節奏的主輸出位\n2. 如果你已經有可用主力，就更適合補支援、治療或聚怪這類功能角色\n3. A 級角色的價值也要放到資源壓力和陣容缺口裡看，而不是只按稀有度高低排順序\n\n所以這頁現在保留的是**新手培養方向與功能位判斷邏輯**，而不是繼續把一組角色名字寫成所有帳號都通用的固定推薦名單。",
     "categoryTw": "新手入門"
   },
   {
@@ -2687,8 +2687,8 @@
     "id": "awakening-priority",
     "question": "异环觉醒优先升谁？哪些角色先开觉醒？",
     "questionEn": "Who should I prioritize for Awakening in NTE? Which characters to awaken first?",
-    "answer": "觉醒（命座）优先给主C角色升到S2（2命），这是关键质变节点。推荐优先觉醒：娜娜莉（S2质变）> 白藏（S1即可）> 九原。辅助角色S1就够用，无需全员满命。觉醒点数来自重复抽卡，每次重复+1点。",
-    "answerEn": "Prioritize Awakening (constellation) for your main DPS to S2 (2 copies), which is the key power spike. Recommended priority: Nanally (S2 breakpoint) > Baicang (S1 is enough) > Jiuyuan. Support characters only need S1; there is no need to fully awaken everyone. Awakening points come from duplicate pulls, +1 point per duplicate.",
+    "answer": "觉醒优先级这页现在更适合回答**你该先补关键命座节点，还是先把资源留给扩充角色池**，而不是继续把“S2 质变 > 某角色 > 某角色”写成所有账号都通用的硬顺序。对当前玩家来说，更重要的通常是：你的主力是否已经稳定成型、这个觉醒节点能不能解决真实卡点，以及它会不会挤掉你更需要的新角色或功能位。\n\n更稳妥的理解方式是：\n1. 先看某个觉醒是否真的带来可见的循环、伤害或生存改善，而不是只看社区标签\n2. 如果你的角色池还很浅，过早追命座未必比补新角色更值\n3. 辅助和主输出的觉醒价值也应按你当前常用队伍来判断，而不是机械套一张固定优先表\n\n所以这页现在保留的是**觉醒投入时机与关键节点的判断逻辑**，而不是继续把一条旧版命座榜单写成长期标准答案。",
+    "answerEn": "This Awakening-priority page is more useful when it explains **whether you should chase a key duplicate breakpoint or keep resources for roster expansion** instead of preserving an old 'S2 first, then this character, then that one' order as a universal truth. For current players, the more practical question is whether your core team is already stable, whether the duplicate solves a real bottleneck, and whether it crowds out a more important new character or missing role.\n\nA safer way to judge Awakening priority is:\n1. Check whether the breakpoint creates a visible gain in rotation, damage, or survivability rather than relying on community shorthand alone\n2. If your roster is still shallow, chasing duplicates too early may return less value than broadening team options\n3. Support and carry awakenings should both be judged against your actual active teams rather than one fixed priority chart\n\nSo this page now focuses on timing and breakpoint judgment for Awakening investment instead of preserving one aging constellation order as the standard answer.",
     "tags": [
       "awakening",
       "constellation",
@@ -2705,7 +2705,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環覺醒優先升誰？哪些角色先開覺醒？",
-    "answerTw": "覺醒（命座）優先給主C角色升到S2（2命），這是關鍵質變節點。推薦優先覺醒：娜娜莉（S2質變）> 白藏（S1即可）> 九原。輔助角色S1就夠用，無需全員滿命。覺醒點數來自重複抽卡，每次重複+1點。",
+    "answerTw": "覺醒優先級這頁現在更適合回答**你該先補關鍵命座節點，還是先把資源留給擴充角色池**，而不是繼續把「S2 質變 > 某角色 > 某角色」寫成所有帳號都通用的硬順序。對目前玩家來說，更重要的通常是：你的主力是否已經穩定成型、這個覺醒節點能不能解決真實卡點，以及它會不會擠掉你更需要的新角色或功能位。\n\n更穩妥的理解方式是：\n1. 先看某個覺醒是否真的帶來可見的循環、傷害或生存改善，而不是只看社群標籤\n2. 如果你的角色池還很淺，過早追命座未必比補新角色更值\n3. 輔助和主輸出的覺醒價值也應按你目前常用隊伍來判斷，而不是機械套一張固定優先表\n\n所以這頁現在保留的是**覺醒投入時機與關鍵節點的判斷邏輯**，而不是繼續把一條舊版命座榜單寫成長期標準答案。",
     "categoryTw": "角色培養"
   },
   {
@@ -4181,8 +4181,8 @@
     "seoTitleEn": "NTE Top Up Guide — How to Recharge on Global Server, Best Value Packs",
     "seoDescriptionZh": "异环国际服充值完全攻略：支持哪些支付方式、月卡和通行证性价比对比、首充双倍技巧、安全充值注意事项。",
     "seoDescriptionEn": "Complete NTE top up guide: supported payment methods, monthly pass vs battle pass value comparison, first-time bonus tips, and safe recharge practices.",
-    "answer": "异环国际服充值方法：1) PC端通过游戏内商城直接购买，支持信用卡、PayPal等；2) 移动端通过App Store/Google Play内购；3) 第三方充值平台（如CodaShop、SEAGM等）提供更多支付方式。充值建议：① 月卡（30天星泉合约）性价比最高，约2倍价值；② 战斗通行证适合活跃玩家；③ 首充双倍一定要利用好，优先用在最需要的卡池。注意使用官方渠道充值，避免账号风险。",
-    "answerEn": "NTE Global Server top-up methods: 1) PC: In-game shop with credit card, PayPal, etc.; 2) Mobile: App Store/Google Play in-app purchases; 3) Third-party platforms (CodaShop, SEAGM, etc.) for more payment options. Recharge tips: ① Monthly pass (30-day Fons Contract) offers best value at ~2x worth; ② Battle Pass is great for active players; ③ Use first-time double bonus wisely on the banner you need most. Always use official channels to avoid account risks.",
+    "answer": "充值这页现在更适合回答**你该优先考虑支付安全、平台一致性，还是再去比较月卡、通行证和首充价值**，而不是继续把“哪一个一定最值”写成一条所有玩家都通用的氪金口令。对当前玩家来说，更实际的重点通常是：你准备长期玩多久、消费目标是补抽卡还是补资源、以及是否真的需要引入第三方渠道。\n\n更稳妥的理解方式是：\n1. 优先以游戏内官方商城或平台内购为基准，再判断是否需要额外支付渠道\n2. 月卡、通行证、首充双倍各自适合的玩家阶段不同，不必默认每个人都该按同一顺序买\n3. 如果你只是轻度投入，先明确你想解决的是资源缺口、抽卡压力还是外观需求，再决定是否消费\n\n所以这页现在保留的是**充值路径与消费决策逻辑**，而不是继续把某一种付费组合写成所有玩家都该照搬的最优方案。",
+    "answerEn": "This top-up page is more useful when it explains **whether you should prioritize payment safety and platform consistency before comparing monthly pass, battle pass, and first-purchase value** instead of locking one spending order in as if it suits every player. For current users, the practical question is how long you expect to play, whether you are spending for pulls or resources, and whether third-party payment routes are even worth considering.\n\nA safer way to think about top-up is:\n1. Start with official in-game or platform billing paths first, then judge whether you need anything else\n2. Monthly pass, battle pass, and first-purchase bonuses suit different spending patterns and should not be assumed to have one universal order\n3. If your spending is light, first clarify whether you are solving a resource gap, pull pressure, or cosmetic demand before buying anything\n\nSo this page now focuses on recharge paths and spending-decision logic instead of preserving one fixed 'best value' script for every player.",
     "tags": [
       "top-up",
       "recharge",
@@ -4195,7 +4195,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環怎麼充值？國際服充值方法和氪金指南",
-    "answerTw": "異環國際服充值方法：1) PC端通過遊戲內商城直接購買，支援信用卡、PayPal等；2) 移動端通過App Store/Google Play內購；3) 第三方充值平臺（如CodaShop、SEAGM等）提供更多支付方式。充值建議：① 月卡（30天星泉合約）價效比最高，約2倍價值；② 戰鬥通行證適合活躍玩家；③ 首充雙倍一定要利用好，優先用在最需要的卡池。注意使用官方渠道充值，避免賬號風險。",
+    "answerTw": "充值這頁現在更適合回答**你該優先考慮支付安全、平臺一致性，還是再去比較月卡、通行證和首充價值**，而不是繼續把「哪一個一定最值」寫成一條所有玩家都通用的氪金口令。對目前玩家來說，更實際的重點通常是：你準備長期玩多久、消費目標是補抽卡還是補資源、以及是否真的需要引入第三方渠道。\n\n更穩妥的理解方式是：\n1. 優先以遊戲內官方商城或平臺內購為基準，再判斷是否需要額外支付渠道\n2. 月卡、通行證、首充雙倍各自適合的玩家階段不同，不必默認每個人都該按同一順序買\n3. 如果你只是輕度投入，先明確你想解決的是資源缺口、抽卡壓力還是外觀需求，再決定是否消費\n\n所以這頁現在保留的是**充值路徑與消費決策邏輯**，而不是繼續把某一種付費組合寫成所有玩家都該照搬的最優方案。",
     "categoryTw": "充值與賬號",
     "seoTitleTw": "異環充值攻略 — 國際服氪金方法、首充獎勵與價效比分析"
   },
@@ -5286,8 +5286,8 @@
     "id": "wrong-character-selection",
     "question": "免费S级角色选错了能换吗？",
     "questionEn": "Selected wrong free S-rank character, can I change?",
-    "answer": "如果你在选择免费S级角色时选错了：1) 尽快联系官方客服 nte.contactus@perfectworld.com；2) 提供你的UID、收到的角色名和你想要的角色名；3) 不要使用或升级选错的角色。客服团队会根据具体情况协助处理，已有成功更换的案例，但并非保证，建议尽早联系。",
-    "answerEn": "If you selected the wrong free S-rank character: 1) Contact official support ASAP at nte.contactus@perfectworld.com; 2) Provide your UID, the character you received, and the one you intended to select; 3) Do NOT use or level up the wrong character. The support team has helped players swap characters on a case-by-case basis, but it is not guaranteed, so contact them as early as possible.",
+    "answer": "这条“免费 S 级角色选错了能换吗”FAQ 现在更适合回答**遇到这类账号问题时，什么做法最有机会补救，什么说法不能被当成官方保证**，而不是继续把“已有成功案例”写成像默认可换一样的承诺。对当前玩家来说，更重要的通常是：尽快保留信息、停止进一步操作、然后通过官方支持渠道提交说明。\n\n更稳妥的理解方式是：\n1. 先保留 UID、选择时间、角色信息和相关截图，方便后续说明问题\n2. 在得到官方回复前，尽量不要继续消耗、升级或深度使用错误选择的角色\n3. 是否能更换应始终以官方客服最终答复为准，不应把社区个案或旧处理经历直接当成保证结果\n\n所以这页现在保留的是**错误选择后的补救路径与预期管理**，而不是继续把个案处理经验写成默认一定可替换的结论。",
+    "answerEn": "This 'selected the wrong free S-rank character' FAQ is more useful when it explains **which actions improve your chance of recovery and which claims should not be treated as official guarantees** instead of letting past swap anecdotes read like a default promise. For current players, the more important steps are to preserve account information, stop further interaction with the mistaken choice, and then submit a clear request through official support channels.\n\nA safer way to handle it is:\n1. Save your UID, selection timing, character details, and relevant screenshots first\n2. Before support answers, avoid spending on, leveling, or heavily using the mistaken character where possible\n3. Whether a swap is approved should always be treated as an official case-by-case decision rather than a guaranteed result based on older community stories\n\nSo this page now focuses on recovery steps and expectation-setting instead of presenting anecdotal swaps as if they were default policy.",
     "tags": [
       "account",
       "character",
