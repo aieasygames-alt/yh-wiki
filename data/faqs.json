@@ -1916,8 +1916,8 @@
     "id": "mobile-controller-support",
     "question": "异环手机版支持手柄吗？",
     "questionEn": "Does NTE mobile support controllers?",
-    "answer": "异环手机版（Android/iOS）支持蓝牙手柄连接。北通、雷蛇等品牌手柄已确认兼容。连接方式：设置→蓝牙→配对手柄→进入游戏自动识别。PS5 DualSense手柄也可在PC和PS5版使用，但移动端目前不支持DualSense。",
-    "answerEn": "NTE mobile (Android/iOS) supports Bluetooth controllers. Beon, Razer, and other brands are confirmed compatible. Connect via Settings → Bluetooth → Pair controller → Auto-detected in-game. PS5 DualSense works on PC and PS5 but not mobile.",
+    "answer": "异环手机版手柄支持这类问题，不适合长期依赖一份很快过时的品牌白名单。对现在的玩家来说，更实用的判断方式是：先确认手机系统是否支持标准蓝牙手柄输入，再看游戏内能否正确识别按键提示、摇杆和菜单操作。如果某款手柄在社区里有人反馈可用，也不代表所有机型、系统版本和映射模式都一样稳定。最稳妥的做法，是把这页当成“如何判断自己设备能不能顺利用手柄玩”的排查入口，而不是把零散兼容案例当成官方永久支持列表。",
+    "answerEn": "Controller support on NTE mobile is better treated as a compatibility check process than a permanent brand whitelist. The practical way to judge it is: first confirm your phone supports standard Bluetooth controller input, then test whether the game properly detects prompts, sticks, and menu navigation. A controller that works for some players does not guarantee the same experience across every phone model, OS version, or button-mapping mode. This page is more useful as a guide to evaluating real-world controller usability on your device than as a fixed compatibility list.",
     "tags": [
       "mobile",
       "controller",
@@ -1956,8 +1956,8 @@
     "id": "android-minimum-specs",
     "question": "异环安卓最低配置是什么？哪些手机能玩？",
     "questionEn": "What are NTE Android minimum specs? Which phones are supported?",
-    "answer": "异环安卓最低配置：处理器骁龙855/麒麟990及以上，内存6GB及以上，存储空间预留约20GB。推荐配置：骁龙8 Gen1/天玑9000及以上，8GB+内存。可流畅运行的常见机型：小米12及以上、三星S22及以上、OPPO Find X5及以上、华为Mate 40及以上。低于最低配置的设备可能无法安装或运行卡顿。",
-    "answerEn": "NTE Android minimum specs: Snapdragon 855 / Kirin 990+, 6GB RAM, ~20GB storage. Recommended: Snapdragon 8 Gen 1 / Dimensity 9000+, 8GB+ RAM. Smooth on: Xiaomi 12+, Samsung S22+, OPPO Find X5+, Huawei Mate 40+. Devices below minimum specs may not install or run poorly.",
+    "answer": "这类“安卓最低配置”页面最怕把某一批芯片和机型名单写成长期标准，因为版本更新、散热条件和系统调度都会改变实际体验。对当前玩家来说，更可靠的判断方法是看三件事：1）设备是否属于近几代中高端 SoC 水平；2）内存和可用存储是否充足；3）你更在意能启动进入游戏，还是希望在较稳定画质和帧率下长期游玩。换句话说，这页现在更适合帮助你判断“自己的安卓机大概处于能运行、勉强可玩、还是相对稳定”哪个区间，而不是继续维护一份很快老化的手机型号表。",
+    "answerEn": "A fixed Android minimum-spec list ages quickly because real performance shifts with game updates, thermal behavior, and OS scheduling. For current players, the safer way to judge support is to look at three things: whether the device is in the recent mid-to-high-end SoC range, whether RAM and free storage are sufficient, and whether your goal is simply launching the game or maintaining stable long sessions at acceptable settings. In practice, this page is more useful for helping you estimate whether your phone falls into the \"can launch,\" \"barely playable,\" or \"reasonably stable\" tier than for preserving a rigid model-by-model support list.",
     "tags": [
       "mobile",
       "android",
@@ -1976,8 +1976,8 @@
     "id": "ios-minimum-specs",
     "question": "异环iOS最低支持哪些设备？",
     "questionEn": "What iOS devices does NTE support?",
-    "answer": "异环iOS最低设备要求：iPhone 12 Pro Max及以上，iPad Air 3及以上，系统iOS 15.0+。推荐设备：iPhone 14及以上、iPad Pro M1及以上可获得高画质流畅体验。iPad mini 5和iPad第8代也可以运行但画质受限。注意：iPhone 12/12 mini/12 Pro（非Max）未列入官方支持列表。",
-    "answerEn": "NTE iOS minimum: iPhone 12 Pro Max and later, iPad Air 3+, iOS 15.0+. Recommended: iPhone 14+, iPad Pro M1+ for high-quality smooth gameplay. iPad mini 5 and iPad 8th gen work but with limited graphics. Note: iPhone 12/12 mini/12 Pro (non-Max) are not on the official support list.",
+    "answer": "iOS 设备支持情况也不适合长期绑死在一张固定名单上，因为苹果芯片代际、内存差异、系统版本和散热环境都会影响表现。对现在的用户来说，更实用的理解方式是：如果你的设备属于近几代 iPhone 或 iPad，并且系统版本足够新、可用存储充足，那么更需要关注的是实际发热、帧率稳定度和长时间游玩的掉帧情况，而不是只盯着某一款设备有没有被写进旧列表。这页现在保留的是“如何判断你的 iPhone/iPad 更接近最低可运行还是更适合长期游玩”的思路。",
+    "answerEn": "iOS support also should not be frozen into a permanent device list. Apple chip generations, memory differences, OS versions, and thermals all affect the real gameplay experience. For most players today, the more practical lens is this: if your iPhone or iPad is from the more recent generations and has enough free storage on a current iOS version, the real question becomes how stable it stays under heat, frame drops, and longer sessions rather than whether it appears on an old support chart. This page now works better as guidance for judging whether your device is closer to the minimum playable tier or the more comfortable long-session tier.",
     "tags": [
       "mobile",
       "ios",
@@ -6632,8 +6632,8 @@
     "id": "faq-ai-controversy",
     "question": "异环AI素材争议是怎么回事？",
     "questionEn": "What is the NTE AI art controversy about?",
-    "answer": "2026年4月29日全球上线后，玩家发现部分背景美术素材疑似AI生成。VTuber Ironmouse公开批评后引发国际社区广泛关注。5月7日Hotta Studio官方承认使用了AI生成部分背景素材，并承诺重新制作这些内容。中文社区对此关注度较低，英文社区反应强烈。",
-    "answerEn": "After global launch on April 29, 2026, players discovered some background art appeared AI-generated. VTuber Ironmouse amplified the criticism. On May 7, Hotta Studio admitted AI was used on background assets and pledged to rework them. Western communities reacted strongly while Asian communities were largely indifferent.",
+    "answer": "这场 AI 素材争议的核心，不只是“有没有用到 AI”，而是玩家是否觉得官方在素材来源、制作流程和质量把关上说清楚了。对搜索用户来说，更重要的不是复述一次事件时间线，而是理解争议为什么会扩大：一方面，玩家会担心背景素材是否影响作品质感与原创性；另一方面，开发方如果在说明和后续处理上不够及时，就容易让讨论从单一素材问题扩展成对内容态度和制作标准的质疑。所以这页现在保留的是**AI 素材争议的成因与玩家关注点**，而不是只停留在一段新闻摘要。",
+    "answerEn": "The AI asset controversy is not only about whether AI was used, but whether players felt the studio was transparent enough about sourcing, workflow, and quality control. For search users, the more useful takeaway is why the issue grew: players may worry that background assets affect originality and overall production quality, and if the developer's explanation or follow-up response feels slow or incomplete, the discussion can expand from one asset question into a broader trust and standards problem. This page now focuses on the causes of the controversy and the main player concerns rather than remaining a short event recap.",
     "tags": [
       "ai",
       "controversy",
@@ -6645,7 +6645,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環AI素材爭議是怎麼回事？",
-    "answerTw": "2026年4月29日全球上線後，玩家發現部分背景美術素材疑似AI生成。VTuber Ironmouse公開批評後引發國際社群廣泛關注。5月7日Hotta Studio官方承認使用了AI生成部分背景素材，並承諾重新制作這些內容。中文社群對此關注度較低，英文社群反應強烈。",
+    "answerTw": "這場 AI 素材爭議的核心，不只是「有沒有用到 AI」，而是玩家是否覺得官方在素材來源、製作流程和品質把關上說清楚了。對搜尋使用者來說，更重要的不是重複一次事件時間線，而是理解爭議為什麼會擴大：一方面，玩家會擔心背景素材是否影響作品質感與原創性；另一方面，開發方如果在說明和後續處理上不夠及時，就很容易讓討論從單一素材問題擴大成對內容態度和製作標準的質疑。所以這頁現在保留的是 **AI 素材爭議的成因與玩家關注點**，而不是只停留在一段新聞摘要。",
     "categoryTw": "綜合"
   },
   {
