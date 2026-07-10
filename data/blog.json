@@ -4206,13 +4206,13 @@
   },
   {
     "id": "nte-zhenhong-build-guide-1-2",
-    "title": "异环真红深度解析：光系主C技能机制、配装、配队与抽取建议（1.2下半）",
-    "titleTw": "異環真紅深度解析：光系主C技能機制、配裝、配隊與抽取建議（1.2下半）",
-    "titleEn": "NTE Zhenhong Deep Dive: Light DPS Kit, Build, Teams & Pull Advice (Version 1.2 Phase 2)",
+    "title": "NTE Shinku Build Guide：真红配装、队伍、Rotation 与 999 Nights 抽取建议",
+    "titleTw": "NTE Shinku Build Guide：真紅配裝、隊伍、Rotation 與 999 Nights 抽取建議",
+    "titleEn": "NTE Shinku Build Guide: Best Build, Teams, Rotation & 999 Nights Pull Advice",
     "category": "guide",
     "categoryZh": "角色攻略",
     "categoryEn": "Character Guide",
-    "date": "2026-06-19",
+    "date": "2026-07-10",
     "tags": [
       "1.2",
       "zhenhong",
@@ -4220,11 +4220,16 @@
       "dps",
       "build",
       "tier-list",
-      "phase-2"
+      "phase-2",
+      "shinku-build",
+      "999-nights",
+      "rotation",
+      "teams",
+      "arc"
     ],
-    "summary": "面向1.2下半卡池的真红抽取前瞻：快速梳理光属性主C定位、暴怒值与暴走爆发、双生蝶社区说法、配队方向和资源规划，适合抽卡前快速判断。",
-    "summaryTw": "面向1.2下半卡池的真紅抽取前瞻：快速整理光屬性主C定位、暴怒值與暴走爆發、雙生蝶社群說法、配隊方向與資源規劃，適合抽卡前快速判斷。",
-    "summaryEn": "Zhenhong is the Version 1.2 Phase 2 limited Light DPS — a dragon-tribe fighter built around the Rage gauge and Berserk state. This guide breaks down her kit, best build, team options, synergy with Zero/Illica, and a pull-or-skip decision framework.",
+    "summary": "NTE Shinku/真红当前版本配装攻略：整理 999 Nights 版本卡池时间、Blushing Mirage 专属 Arc、主副词条优先级、Zero/Illica 队伍、Rage/Berserk rotation，以及 A0 是否值得抽。",
+    "summaryTw": "NTE Shinku/真紅當前版本配裝攻略：整理 999 Nights 版本卡池時間、Blushing Mirage 專屬 Arc、主副詞條優先順序、Zero/Illica 隊伍、Rage/Berserk rotation，以及 A0 是否值得抽。",
+    "summaryEn": "Current NTE Shinku build guide for the 999 Nights update: banner timing, Blushing Mirage signature Arc, main/sub stat priority, Zero/Illica teams, Rage/Berserk rotation, and whether A0 is worth pulling.",
     "content": "## 真红是谁？\n\n**真红（Zhenhong）** 是异环1.2版本下半限定卡池角色，**S级光属性进攻主C**，龙族格斗家。国服卡池时间为 **2026年6月25日 - 7月15日**，全球服相应提前约8天。\n\n她的技能包围绕两个核心机制构建：\n\n- **暴怒值（Rage）**：普攻与技能命中累积，满后触发暴走\n- **暴走状态（Berserk）**：消耗全部暴怒值进入，大幅提升攻击力与暴击率，机械尾部协同攻击\n\n定位上是**光属性配队的核心主C**，被动强化创生体系（Genesis）反应。\n\n---\n\n## 技能循环\n\n真红的核心输出循环可以总结为五步：\n\n1. **鬼爪连击起手** — 普攻多段连击累积暴怒值\n2. **变轨·暴鬼爪** — 中距离突进，大幅积攒暴怒值并施加压制\n3. **暴怒值满 → 终结·龙焰暴走** — 进入暴走状态\n4. **暴走窗口期爆发** — 利用 ATK/暴击增益打出最高伤害\n5. **龙尾横扫切入** — 切场时机械尾部横扫，光属性范围伤害\n\n**关键点**：暴走状态的爆发窗口需要配合队友的增益（伊洛伊的治疗增伤、哈涅尔的攻击增益）来最大化。\n\n---\n\n## 「双生蝶」是什么？\n\n「双生蝶」是玩家社区对真红技能包的别称，常被用来指代她的暴怒值/暴走循环或某个协同攻击被动。**具体的官方命名待游戏内技能详解正式公布后确认**，目前建议视为社区用语，不要被各种非官方攻略的解读带偏。\n\n---\n\n## 最佳配装\n\n| 部位 | 推荐主属性 |\n|------|------------|\n| 沙漏 | 攻击力% |\n| 杯子 | 光属性伤害加成 |\n| 头冠 | 暴击率 / 暴击伤害 |\n\n**副词条优先级**：暴击率 > 暴击伤害 > 攻击力% > 元素精通\n\n**武器**：真红的专属合成型弧盘是最佳选择（具体名称待官方公布）。替代方案可使用任何带暴击或攻击力副属性的五星合成型弧盘。\n\n---\n\n## 推荐配队\n\n### 队伍一：真红光属性配队（标准）\n\n- **真红**（主C）\n- **零**（光属性快切，触发创生反应）\n- **伊洛伊**（治疗+增益，1.2上半限定）\n- **小吱**（副C）\n\n### 队伍二：真红暴走爆发队（高强度内容）\n\n- **真红**（主C）\n- **伊洛伊** + **哈涅尔**（双重攻击增益叠加，最大化暴走窗口）\n- **白藏**（生存与控场兜底）\n\n第二队适合深渊与异象高强度内容，通过双增益叠加把真红的爆发上限拉满。\n\n---\n\n## 该不该抽？判断框架\n\n**建议抽真红的情况**：\n\n- 账号缺少光属性主C\n- 想组建创生反应队\n- 已有伊洛伊或生存辅助，需要主C补输出\n- 偏好爆发型主C玩法\n\n**可以跳过的情况**：\n\n- 已有娜娜莉/安魂曲等强力主C，且不缺光属性输出\n- 资源紧张，更想留给1.3上半残虹\n- 不喜欢格斗家近战手感\n\n---\n\n## 强度评级\n\n真红在1.2版本上线后的初始评级为 **SS级**，分场景评级：\n\n- 深渊：SS\n- 异象：SS\n- 大世界：S+\n\n作为光系主C天花板候选，暴怒值/暴走机制提供极高爆发，被动创生反应强化让她在光属性配队中几乎不可替代。\n\n---\n\n## CV 与上线时间\n\n- **国服下半卡池**：2026年6月25日 - 7月15日\n- **全球服下半卡池**：约6月17日 - 7月1日（相应提前）\n- **CV（声优）**：截至1.2上线，中日 CV 尚未官方确认，官方公布后我们会第一时间更新\n\n---\n\n## 总结\n\n真红是1.2下半的核心抽取目标，光属性主C定位清晰，暴怒值/暴走机制带来高爆发天花板。如果你缺光系主C或想组建创生反应队，下半卡池值得投入；反之可以观察实测表现后再决定是否在复刻时补足。",
     "contentEn": "## Who is Zhenhong?\n\n**Zhenhong** is the Version 1.2 Phase 2 limited banner character — an **S-rank Light Attack DPS**, a dragon-tribe fighter. CN server banner runs **June 25 – July 15, 2026**; the global server runs roughly 8 days earlier.\n\nHer kit is built around two core mechanics:\n\n- **Rage gauge**: accumulated by basic attacks and skills; maxing it triggers Berserk\n- **Berserk state**: consumes all Rage to enter, greatly boosting ATK and CRIT Rate, with the mechanical tail providing coordinated attacks\n\nShe is the **core main DPS for Light teams**, with a passive that enhances Genesis reactions.\n\n---\n\n## Skill Rotation\n\nZhenhong's core damage loop has five steps:\n\n1. **Demon Claw opener** — basic attack multi-hit to stack Rage\n2. **Redirect · Demon Rage Claw** — mid-range dash, large Rage gain + Suppression\n3. **Max Rage → Finisher · Dragonflame Berserk** — enter Berserk state\n4. **Burst during Berserk window** — leverage ATK/CRIT buffs for peak damage\n5. **Tail Sweep swap-in** — mechanical tail sweep on entry, Light AoE\n\n**Key**: the Berserk burst window should be paired with teammate buffs (Illica's heal+ATK, Haniel's ATK buff) to maximize output.\n\n---\n\n## What is 'Twin Butterflies' (双生蝶)?\n\n'Twin Butterflies' is a community nickname for Zhenhong's kit, often referring to her Rage/Berserk loop or a coordinated-attack passive. **The exact official naming is pending the in-game skill breakdown** — treat it as community terminology for now.\n\n---\n\n## Best Build\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| Sands | ATK% |\n| Goblet | Light DMG Bonus |\n| Circlet | CRIT Rate / CRIT DMG |\n\n**Substat priority**: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery\n\n**Weapon**: Zhenhong's signature Synthesis Arc is best-in-slot (exact name TBC). Any 5-star Synthesis Arc with CRIT or ATK% substats works as an alternative.\n\n---\n\n## Recommended Teams\n\n### Team 1: Zhenhong Light Team (Standard)\n\n- **Zhenhong** (main DPS)\n- **Zero** (Light fast-swap, Genesis triggers)\n- **Illica** (heal + buff, v1.2 Phase 1 limited)\n- **Xiaozhi** (sub-DPS)\n\n### Team 2: Zhenhong Berserk Burst Team (high-difficulty)\n\n- **Zhenhong** (main DPS)\n- **Illica** + **Haniel** (double ATK buff stacking for max Berserk window)\n- **Baicang** (survival + crowd control)\n\nTeam 2 suits Abyss and Anomaly content — the double-buff core pushes Zhenhong's burst ceiling.\n\n---\n\n## Pull or Skip?\n\n**Pull Zhenhong if**:\n\n- Your account lacks a Light main DPS\n- You want to build a Genesis-reaction team\n- You already have Illica or sustain supports and need a main DPS\n- You enjoy burst-style DPS gameplay\n\n**Skip if**:\n\n- You already have Nanally/Lacrimosa and don't need Light DPS\n- Resources are tight and you'd rather save for Canhong in v1.3 Phase 1\n- You don't enjoy fighter-style melee feel\n\n---\n\n## Tier Rating\n\nZhenhong's initial rating after v1.2 launch is **SS**, by scene:\n\n- Abyss: SS\n- Anomaly: SS\n- Overworld: S+\n\nA top candidate for Light DPS ceiling — Rage/Berserk brings high burst, and her Genesis-reaction passive makes her nearly irreplaceable in Light teams.\n\n---\n\n## CV & Release Dates\n\n- **CN Phase 2 banner**: June 25 – July 15, 2026\n- **Global Phase 2 banner**: ~June 17 – July 1 (earlier)\n- **CV**: As of v1.2 launch, CN/JP voice actors are not yet officially confirmed — we'll update as soon as announced.\n\n---\n\n## Summary\n\nZhenhong is the headline pull target of v1.2 Phase 2 — a clearly-positioned Light main DPS with a high burst ceiling via Rage/Berserk. If you lack a Light DPS or want a Genesis team, Phase 2 is worth investing in; otherwise wait for launch feedback before deciding on a future rerun.",
     "image": "/images/blog/zhenhong-1-2.webp",
@@ -4245,6 +4250,128 @@
       {
         "label": "抽卡模拟器",
         "href": "/gacha"
+      }
+    ]
+  },
+  {
+    "id": "nte-999-nights-complete-guide",
+    "title": "NTE 999 Nights 完整攻略：Lv.100、Mystery Button、奖励与沃伦大陆玩法路线",
+    "titleTw": "NTE 999 Nights 完整攻略：Lv.100、Mystery Button、獎勵與沃倫大陸玩法路線",
+    "titleEn": "NTE 999 Nights Complete Guide: Lv.100 Route, Mystery Button, Rewards & Warren Continent",
+    "category": "guide",
+    "categoryZh": "活动攻略",
+    "categoryEn": "Event Guide",
+    "date": "2026-07-10",
+    "tags": [
+      "999-nights",
+      "1.2",
+      "warren-continent",
+      "mystery-button",
+      "lv100",
+      "shinku",
+      "rewards"
+    ],
+    "summary": "异环 1.2「999 Nights」玩法完整攻略：解释沃伦大陆、TRPG 章节推进、Lv.100 快速路线、Mystery Button 用途、奖励优先级，以及新手和回流玩家该先做什么。",
+    "summaryTw": "異環 1.2「999 Nights」玩法完整攻略：解釋沃倫大陸、TRPG 章節推進、Lv.100 快速路線、Mystery Button 用途、獎勵優先順序，以及新手和回流玩家該先做什麼。",
+    "summaryEn": "Complete guide to NTE 1.2 999 Nights: Warren Continent mode, TRPG chapter flow, fast Lv.100 route, Mystery Button usage, reward priority, and what new or returning players should do first.",
+    "content": "## 999 Nights 是什么？\n\n999 Nights 是 NTE 1.2 版本的核心新内容，舞台从海特洛市切到奇幻异世界 **Warren Continent**。它更像一个长期开放的 TRPG 章节玩法：你推进剧情节点、挑战巨龙和高血量敌人、收集奖励，并通过重复周回把角色养成资源补齐。\n\n这篇攻略适合三类玩家：刚进 1.2 的新手、想快速冲 Lv.100 的玩家、以及只想拿完关键奖励的回流玩家。\n\n---\n\n## 快速路线\n\n1. 先完成 1.2 主线解锁 Warren Continent。\n2. 做完 999 Nights 教学，不要跳过系统说明。\n3. 优先清主线节点，解锁更多章节和奖励池。\n4. 每天先做高收益挑战，再刷低难周回。\n5. Mystery Button、限时兑换和 Annulith 奖励优先拿。\n\n---\n\n## Lv.100 冲级思路\n\n| 阶段 | 目标 | 做法 |\n|------|------|------|\n| Lv.1-30 | 解锁基础功能 | 主线节点优先 |\n| Lv.30-60 | 提高收益倍率 | 打能稳定通关的最高难度 |\n| Lv.60-80 | 补资源 | 刷取缺口材料和活动货币 |\n| Lv.80-100 | 冲奖励 | 固定刷高收益路线，避免低效挑战 |\n\n不要只看单场经验。更重要的是单位时间收益：如果最高难度翻车，一档低难稳定速刷往往更快。\n\n---\n\n## Mystery Button 怎么用？\n\nMystery Button 是 999 Nights 里最容易被问到的道具之一。建议先保留到关键节点，不要一拿到就随手消耗。优先用于：\n\n- 解锁高价值奖励格\n- 推进卡住的章节节点\n- 换取限时资源或外观相关奖励\n\n如果你还没确认本周兑换商店内容，先不要一次性用光。\n\n---\n\n## 奖励优先级\n\n1. Annulith / 抽卡资源\n2. Solid Dice / 版本抽卡相关资源\n3. 限定外观、家具、头像框\n4. 角色养成材料\n5. Fons、Beetle Coin 等通用货币\n\n零氪玩家优先拿抽卡资源；收集党优先确认限定外观是否会复刻。\n\n---\n\n## 常见问题\n\n### 999 Nights 是限时活动吗？\n\n它是 1.2 的核心大型玩法，部分奖励和兑换可能限时。建议优先拿限时奖励，再慢慢补常驻内容。\n\n### Shinku 适合打 999 Nights 吗？\n\n适合。999 Nights 有阶段推进和高血量目标，Shinku 的 Rage/Berserk 爆发窗口很好用。\n\n### 新手能直接打吗？\n\n可以，但不要硬冲最高难。先完成教学和主线节点，用稳定通关路线累积等级和资源。\n\n---\n\n## 总结\n\n999 Nights 的核心不是无脑刷，而是按节点推进、按收益刷取、按优先级兑换。先拿抽卡资源和限时奖励，再补材料和收藏项，是最稳的路线。",
+    "contentEn": "## What is 999 Nights?\n\n999 Nights is the flagship mode of NTE version 1.2. It moves the story into the fantasy-style **Warren Continent** and plays like a long-form TRPG chapter mode: clear story nodes, fight dragons and high-HP enemies, earn event currency, and repeat efficient routes for rewards.\n\n## Fast Route\n\n1. Finish the v1.2 unlock quest for Warren Continent.\n2. Complete the tutorial instead of skipping it.\n3. Prioritize main chapter nodes first.\n4. Farm the highest difficulty you can clear consistently.\n5. Claim Mystery Button, Annulith, Solid Dice, and limited cosmetics early.\n\n## Lv.100 Plan\n\n| Stage | Goal | Action |\n|-------|------|--------|\n| Lv.1-30 | Unlock systems | Push chapter nodes |\n| Lv.30-60 | Raise reward efficiency | Farm stable high difficulty |\n| Lv.60-80 | Fill resource gaps | Repeat best currency route |\n| Lv.80-100 | Finish rewards | Avoid slow failed clears |\n\nConsistency matters more than peak difficulty. A lower tier you can clear quickly often beats a higher tier that fails.\n\n## Mystery Button Priority\n\nSave Mystery Buttons until you know the reward board. Use them for high-value reward tiles, blocked progression nodes, or limited-time shop items.\n\n## Reward Priority\n\n1. Annulith and pull currency\n2. Solid Dice and banner resources\n3. Limited cosmetics, furniture, avatar frames\n4. Character growth materials\n5. Fons and Beetle Coin\n\n## FAQ\n\n### Is 999 Nights limited-time?\n\nThe mode is a major v1.2 feature, but some rewards and shop items may be time-limited. Claim limited rewards first.\n\n### Is Shinku good for 999 Nights?\n\nYes. Her Rage/Berserk burst window is useful for high-HP targets and dragon fights.\n\n## Summary\n\nThe best 999 Nights route is simple: unlock chapters, farm stable high-yield nodes, spend Mystery Buttons carefully, and claim pull currency before generic materials.",
+    "image": "/images/blog/nte-world-island-exploration-three-characters.webp",
+    "imageAlt": "NTE 999 Nights Warren Continent guide",
+    "internalLinks": [
+      {
+        "label": "Shinku Build Guide",
+        "labelEn": "Shinku Build Guide",
+        "href": "/blog/nte-zhenhong-build-guide-1-2"
+      },
+      {
+        "label": "兑换码",
+        "labelEn": "Redeem Codes",
+        "href": "/redeem-codes"
+      },
+      {
+        "label": "卡池时间表",
+        "labelEn": "Banner Schedule",
+        "href": "/banners"
+      }
+    ]
+  },
+  {
+    "id": "nte-codes-july-2026",
+    "title": "NTE Codes July 2026：999NIGHTS、SHINKU0708、IROI0729 与全部可用兑换码",
+    "titleTw": "NTE Codes July 2026：999NIGHTS、SHINKU0708、IROI0729 與全部可用兌換碼",
+    "titleEn": "NTE Codes July 2026: 999NIGHTS, SHINKU0708, IROI0729 & All Active Redeem Codes",
+    "category": "guide",
+    "categoryZh": "兑换码",
+    "categoryEn": "Redeem Codes",
+    "date": "2026-07-10",
+    "tags": [
+      "codes",
+      "redeem-codes",
+      "july-2026",
+      "999-nights",
+      "shinku",
+      "free-rewards"
+    ],
+    "summary": "2026年7月 NTE/异环兑换码汇总：999NIGHTS、SHINKU0708、IROI0729、LACRIMOSA0603、NTEFREE 等可用码，包含奖励内容、服务器范围、兑换步骤和过期提醒。",
+    "summaryTw": "2026年7月 NTE/異環兌換碼彙總：999NIGHTS、SHINKU0708、IROI0729、LACRIMOSA0603、NTEFREE 等可用碼，包含獎勵內容、伺服器範圍、兌換步驟和過期提醒。",
+    "summaryEn": "All active NTE redeem codes for July 2026: 999NIGHTS, SHINKU0708, IROI0729, LACRIMOSA0603, NTEFREE, rewards, regions, redemption steps, and expiration notes.",
+    "content": "## 7月优先兑换码\n\n先兑换活动码，再兑换常驻码。活动码经常没有明确过期时间，可能随版本结束失效。\n\n| 兑换码 | 奖励 | 状态 |\n|--------|------|------|\n| 999NIGHTS | Annulith x100、材料、Beetle Coin | 可用 |\n| SHINKU0708 | Annulith x100、材料、Beetle Coin | 可用 |\n| IROI0729 | Annulith x100、材料、Beetle Coin | 可用 |\n| LACRIMOSA0603 | Annulith x30、Fons x20,000 | 可用 |\n| NTEFREE | Fons x30,000 | 可用 |\n| NTEWINFONS | Fons x20,000 | 可用 |\n| NTEFUNGAME | Fons x10,000 | 可用 |\n| NTENENE | Fons、食物材料 | 可用 |\n\n完整列表请查看我们的兑换码工具页：/redeem-codes。\n\n---\n\n## 怎么兑换？\n\n1. 进入游戏。\n2. 点击头像或菜单。\n3. 进入 Settings / 设置。\n4. 找到 Redeem Code / 兑换码。\n5. 输入兑换码并确认。\n6. 到邮箱或奖励入口领取。\n\n---\n\n## 兑换顺序建议\n\n1. 999NIGHTS、SHINKU0708、IROI0729\n2. LACRIMOSA0603\n3. NTEFREE、NTEWINFONS、NTEFUNGAME、NTENENE\n4. 旧直播码和平台码\n\n如果提示过期，不要重复尝试太多次，直接换下一个码。\n\n---\n\n## 常见问题\n\n### 兑换码区分服务器吗？\n\n部分区分。平台码、国服码、国际服码可能不同。国际服玩家优先试英文活动码，国服玩家优先看官方中文社区。\n\n### 为什么显示无效？\n\n常见原因是已过期、服务器不匹配、大小写错误、已经兑换过，或角色等级/教程进度未达到兑换入口要求。\n\n---\n\n## 总结\n\n7月最重要的是 999 Nights 和 Shinku 相关兑换码。建议上线后先兑换 999NIGHTS、SHINKU0708、IROI0729，再领常驻 Fons 码，避免版本码过期。",
+    "contentEn": "## Priority Codes for July 2026\n\nRedeem event codes before permanent codes. Event codes often expire without a clear timer.\n\n| Code | Reward | Status |\n|------|--------|--------|\n| 999NIGHTS | Annulith x100, materials, Beetle Coin | Active |\n| SHINKU0708 | Annulith x100, materials, Beetle Coin | Active |\n| IROI0729 | Annulith x100, materials, Beetle Coin | Active |\n| LACRIMOSA0603 | Annulith x30, Fons x20,000 | Active |\n| NTEFREE | Fons x30,000 | Active |\n| NTEWINFONS | Fons x20,000 | Active |\n| NTEFUNGAME | Fons x10,000 | Active |\n| NTENENE | Fons and food items | Active |\n\nSee the full live list on /redeem-codes.\n\n## How to Redeem\n\nOpen the game, go to profile/menu, open Settings, find Redeem Code, enter the code, then claim the reward from mail or the reward screen.\n\n## Best Order\n\n1. 999NIGHTS, SHINKU0708, IROI0729\n2. LACRIMOSA0603\n3. NTEFREE, NTEWINFONS, NTEFUNGAME, NTENENE\n4. Older livestream or platform codes\n\n## FAQ\n\n### Are codes region locked?\n\nSome are. Global, CN, and platform codes can differ. Try current event codes first.\n\n### Why does a code fail?\n\nCommon reasons: expired code, wrong server, typo, already redeemed, or the redeem menu is not unlocked yet.\n\n## Summary\n\nFor July 2026, redeem 999 Nights and Shinku codes first, then permanent Fons codes.",
+    "image": "/images/blog/nte-gacha-analysis.webp",
+    "imageAlt": "NTE July 2026 redeem codes",
+    "internalLinks": [
+      {
+        "label": "兑换码工具页",
+        "labelEn": "Redeem Codes Tool",
+        "href": "/redeem-codes"
+      },
+      {
+        "label": "999 Nights 攻略",
+        "labelEn": "999 Nights Guide",
+        "href": "/blog/nte-999-nights-complete-guide"
+      }
+    ]
+  },
+  {
+    "id": "nte-1-2-free-rewards-guide",
+    "title": "NTE 1.2 免费奖励汇总：S级自选箱、Annulith、Solid Dice 与 999 Nights 奖励",
+    "titleTw": "NTE 1.2 免費獎勵彙總：S級自選箱、Annulith、Solid Dice 與 999 Nights 獎勵",
+    "titleEn": "NTE 1.2 Free Rewards Guide: S-Rank Selector, Annulith, Solid Dice & 999 Nights Rewards",
+    "category": "guide",
+    "categoryZh": "福利汇总",
+    "categoryEn": "Rewards Guide",
+    "date": "2026-07-10",
+    "tags": [
+      "free-rewards",
+      "1.2",
+      "annulith",
+      "solid-dice",
+      "s-rank-selector",
+      "999-nights"
+    ],
+    "summary": "NTE 1.2 免费奖励整理：版本维护补偿、Bug 修复补偿、Annulith、Solid Dice、7日登录、S级常驻角色自选箱、999 Nights 活动奖励与兑换优先级。",
+    "summaryTw": "NTE 1.2 免費獎勵整理：版本維護補償、Bug 修復補償、Annulith、Solid Dice、7日登入、S級常駐角色自選箱、999 Nights 活動獎勵與兌換優先順序。",
+    "summaryEn": "NTE 1.2 free rewards checklist: maintenance compensation, bug-fix compensation, Annulith, Solid Dice, 7-day login, S-rank standard selector, 999 Nights rewards, and claim priority.",
+    "content": "## 1.2 免费奖励速览\n\n1.2「999 Nights」版本的免费奖励主要来自维护补偿、Bug 修复补偿、登录活动、999 Nights 活动、兑换码和常驻自选福利。新手和回流玩家最容易漏掉的是登录奖励和活动兑换商店。\n\n| 奖励类型 | 重点内容 | 优先级 |\n|----------|----------|--------|\n| 维护补偿 | Annulith 等 | 高 |\n| Bug 修复补偿 | Annulith 等 | 高 |\n| 7日登录 | Solid Dice x10 等 | 高 |\n| S级常驻角色自选箱 | 补队伍短板 | 最高 |\n| 999 Nights 奖励 | 活动货币、材料、外观 | 高 |\n| 兑换码 | 999NIGHTS、SHINKU0708 等 | 高 |\n\n---\n\n## S级自选箱选谁？\n\n| 账号情况 | 推荐方向 |\n|----------|----------|\n| 缺主 C | 选能立刻带队开荒的输出 |\n| 缺治疗/生存 | 选辅助或治疗相关角色 |\n| 已抽 Shinku | 优先补能配合她的辅助 |\n| 新手不确定 | 先不要急着开，等 1-2 天熟悉队伍再决定 |\n\n自选箱不要为了图鉴随便开。它最适合补账号短板，而不是补收藏。\n\n---\n\n## 999 Nights 奖励优先级\n\n1. 抽卡资源：Annulith、Solid Dice\n2. 限定外观：服装、家具、头像框\n3. 角色养成材料：经验、突破、技能材料\n4. 通用货币：Fons、Beetle Coin\n\n如果兑换商店有每日/每周刷新项目，先买限时项目，再买常驻材料。\n\n---\n\n## 每日领取清单\n\n- 登录奖励\n- 邮箱补偿\n- 999 Nights 每日/阶段奖励\n- 活动商店限购物品\n- 兑换码更新\n- 日常任务与周常任务\n\n---\n\n## 常见问题\n\n### 免费奖励能抽到 Shinku 吗？\n\n取决于你的保底和已有资源。1.2 给的奖励能明显降低抽卡压力，但不要假设免费资源一定够完整保底。\n\n### 自选箱会过期吗？\n\n请以游戏内道具说明为准。建议拿到后先确认有效期，不确定时不要拖到版本末。\n\n---\n\n## 总结\n\n1.2 的免费奖励对新手和回流玩家都很友好。最重要的顺序是：先领邮件和兑换码，再做 999 Nights，最后决定 S 级自选箱。不要先乱开自选箱，也不要把限时兑换拖到版本结束。",
+    "contentEn": "## Quick Reward Checklist\n\nNTE 1.2 free rewards come from maintenance compensation, bug-fix compensation, login events, 999 Nights, redeem codes, and the S-rank standard selector.\n\n| Reward Type | Highlight | Priority |\n|-------------|-----------|----------|\n| Maintenance | Annulith and materials | High |\n| Bug-fix compensation | Annulith and materials | High |\n| 7-day login | Solid Dice x10 | High |\n| S-rank selector | Fix account weakness | Highest |\n| 999 Nights | Currency, materials, cosmetics | High |\n| Codes | 999NIGHTS, SHINKU0708 | High |\n\n## S-Rank Selector Advice\n\nPick based on account need, not collection value. If you lack a main DPS, pick a carry. If you pulled Shinku, consider supports that improve her teams. If you are new, wait a day or two before opening the selector.\n\n## 999 Nights Reward Priority\n\n1. Annulith and Solid Dice\n2. Limited cosmetics, furniture, avatar frames\n3. Character growth materials\n4. Fons and Beetle Coin\n\n## Daily Claim List\n\nLogin reward, mailbox compensation, 999 Nights stage rewards, limited shop items, new redeem codes, daily and weekly tasks.\n\n## Summary\n\nClaim mail and codes first, push 999 Nights next, then decide your S-rank selector after you understand your roster.",
+    "image": "/images/blog/nte-world-urban-street-character-green-hair.webp",
+    "imageAlt": "NTE 1.2 free rewards guide",
+    "internalLinks": [
+      {
+        "label": "兑换码",
+        "labelEn": "Redeem Codes",
+        "href": "/redeem-codes"
+      },
+      {
+        "label": "999 Nights 攻略",
+        "labelEn": "999 Nights Guide",
+        "href": "/blog/nte-999-nights-complete-guide"
+      },
+      {
+        "label": "角色强度榜",
+        "labelEn": "Tier List",
+        "href": "/tier-list"
       }
     ]
   },
