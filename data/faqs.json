@@ -956,8 +956,8 @@
     "id": "launch-date-2026",
     "question": "异环2026年什么时候公测？具体上线日期是几号？",
     "questionEn": "When does NTE launch in 2026? What is the exact release date?",
-    "answer": "异环国服（中国大陆）已确认于2026年4月23日正式公测上线，国际服（全球）于2026年4月29日上线，预下载4月21日开放。游戏由完美世界旗下Hotta Studio开发，支持PC、Android、iOS、Mac、HarmonyOS和PlayStation 5多平台游玩，全平台数据互通。公测前瞻特别节目已于4月18日19:30在B站、TapTap、YouTube等平台播出，公布了6个兑换码、抽卡机制和16位上线角色等关键信息。",
-    "answerEn": "NTE Chinese server launches April 23, 2026 (confirmed). Global server launches April 29. Pre-download opens April 21. Developed by Hotta Studio (Perfect World), supporting PC, Android, iOS, Mac, HarmonyOS, and PS5 with full cross-platform data sharing. The launch preview livestream aired April 18 at 19:30 Beijing Time on Bilibili, TapTap, and YouTube, revealing 6 redeem codes, gacha mechanics, and the 16-character launch roster.",
+    "answer": "异环 2026 年的公测时间已经确定并且属于**历史已发生事件**：国服于 **2026 年 4 月 23 日** 上线，国际服于 **2026 年 4 月 29 日** 上线，预下载于 **2026 年 4 月 21 日** 开放。这条 FAQ 现在主要用于核对开服时间线，而不是提醒“即将上线”。如果你现在想入坑，重点不再是等开服，而是直接选择服务器、确认设备配置，并查看当前版本内容和有效兑换码。",
+    "answerEn": "NTE's 2026 launch dates are now part of the game's **historical launch timeline**: the CN server went live on **April 23, 2026**, the global server on **April 29, 2026**, and pre-download opened on **April 21, 2026**. This FAQ is now mainly useful for verifying the launch timeline rather than announcing an upcoming release. If you are starting now, the real priorities are choosing a server, checking device compatibility, and reviewing current-version content and active redeem codes.",
     "tags": [
       "release",
       "launch"
@@ -975,8 +975,8 @@
     "id": "pre-download-time",
     "question": "异环预下载什么时候开始？怎么提前下载？",
     "questionEn": "When does NTE pre-download start? How to download early?",
-    "answer": "异环公测预下载已确认为2026年4月21日开放。PC端可通过官网（yh.wanmei.com）或Epic Games Store下载客户端启动器，移动端可在App Store和Google Play预约自动下载。PC端游戏文件约25-30GB，移动端约8-10GB。NVIDIA用户建议更新至596.21 WHQL驱动以获得最佳体验。建议使用WiFi提前下载避免开服当天服务器拥堵。预下载完成后，4月23日开服即可直接进入游戏。",
-    "answerEn": "NTE pre-download confirmed for April 21, 2026. PC: download via official website (yh.wanmei.com) or Epic Games Store. Mobile: pre-order on App Store/Google Play. PC file size ~25-30GB, mobile ~8-10GB. NVIDIA users should update to driver 596.21 WHQL for optimal performance. Download early via WiFi to avoid launch-day congestion. Once downloaded, enter the game immediately when servers open on April 23.",
+    "answer": "异环的开服预下载已在 **2026 年 4 月 21 日** 开放过，现在这条更多是**历史下载时间记录**。如果你现在要安装游戏，已经不需要再等预下载阶段，直接通过官网、商店或对应平台客户端下载安装即可。对当前玩家更有用的信息是：确保预留足够存储空间、优先安装到 SSD 或较快存储设备、并在更新后重新确认客户端完整性，而不是继续参考开服前的排队下载建议。",
+    "answerEn": "NTE's launch pre-download period already took place on **April 21, 2026**, so this entry now functions mainly as a **historical download-timeline reference**. If you are installing the game today, there is no need to wait for a pre-download window: just use the official launcher or your platform storefront directly. For current players, the more relevant advice is to reserve enough storage, prefer SSD or fast local storage, and verify the client after updates rather than relying on launch-day pre-download tips.",
     "tags": [
       "system",
       "download"
@@ -996,10 +996,10 @@
     "questionEn": "When does NTE global server launch? How is it different from CN?",
     "seoTitleZh": "异环国际服什么时候上线？全球服务器开放时间详解（2026）",
     "seoTitleEn": "NTE Global Server Launch Date & How It Differs from CN (2026)",
-    "seoDescriptionZh": "异环国际服4月29日正式上线！详解国服与国际服区别、开服时间、预下载安排、兑换码差异及服务器选择建议。",
-    "seoDescriptionEn": "NTE global server launches April 29. Complete comparison of CN vs Global servers: launch schedule, pre-download, redeem codes, language support, and pricing differences.",
-    "answer": "异环国服4月23日正式上线，国际服4月29日正式上线（前瞻直播确认）。预下载4月21日开放。两个版本的主要区别：1) 进度：国服比国际服早6天开服；2) 兑换码不同：直播共发放6组兑换码，国服3组（YH开头）和国际服3组（NTE开头），各自仅能在对应服务器使用；3) 语言：国服简体中文，国际服英文/日文等多语言；4) 定价可能因地区而异。游戏内容和角色数据在两个服务器之间是一致的，开服共有16位S级角色。",
-    "answerEn": "NTE CN server launches April 23, Global server launches April 29 (confirmed by livestream). Pre-download starts April 21. Key differences: 1) Schedule: CN server is 6 days ahead; 2) Different redeem codes: 6 livestream codes total — 3 for CN (YH-prefix) and 3 for Global (NTE-prefix), each only usable on its respective server; 3) Languages: CN is Simplified Chinese, Global supports English, Japanese, and more; 4) Pricing may vary by region. Game content and character data are identical across servers, with 16 S-rank characters available at launch.",
+    "seoDescriptionZh": "异环国际服上线时间归档与国服区别说明：回顾 2026 年 4 月 29 日开服节点，并总结语言、服务器与进度差异。",
+    "seoDescriptionEn": "Archived overview of the NTE global launch date and how it differs from CN, covering the April 29, 2026 release plus language, server, and progression differences.",
+    "answer": "异环国际服已经在 **2026 年 4 月 29 日** 正式上线，因此这条 FAQ 现在主要回答的是“国际服和国服当初怎么分开、现在选哪个更合适”。最关键的区别仍然是：1) **服务器独立**，数据不互通；2) **语言支持不同**，国际服更适合多语言玩家；3) **活动和版本节奏可能存在时间差**；4) **历史兑换码也分服使用**。如果你现在选服，优先按语言需求、朋友所在服务器和网络延迟来决定，而不是只看当年的开服先后顺序。",
+    "answerEn": "The NTE global server is already live and has been available since **April 29, 2026**, so this FAQ now mainly answers how global and CN differ and which one makes more sense today. The most important differences remain: 1) **separate servers** with no shared progress, 2) **different language support**, 3) **possible patch or event timing differences**, and 4) **historically separate redeem-code pools**. If you are choosing now, prioritize language preference, where your friends play, and latency rather than the original launch order.",
     "tags": [
       "release",
       "global"
@@ -1037,8 +1037,8 @@
     "id": "launch-rewards-total",
     "question": "异环公测总共能白嫖多少抽？免费资源有多少？",
     "questionEn": "How many free pulls can I get at NTE launch? Total free resources?",
-    "answer": "根据4月18日前瞻直播确认，异环公测总共提供约418次免费祈愿机会，具体来源分布为：前瞻直播兑换码约18抽（3个国服码+3个国际服码）、预注册奖励约40抽、新手池免费20抽（含S级自选）、常驻池50抽S级自选券、公测限时活动约80抽、主线+支线任务约100抽、开放世界探索约40抽（宝箱/成就等）、每日每周任务约20抽。此外还有S级小吱可通过都市大亨模式免费获取，以及A级新角色奥蕾莉亚。这个数量远超同类游戏开服福利水平，零氪玩家也能组建强力队伍。",
-    "answerEn": "According to the April 18 livestream, NTE launch provides approximately 418 free pulls total, with the following breakdown: livestream redeem codes (~18 pulls from 3 CN + 3 Global codes), pre-registration milestone rewards (~40 pulls), beginner banner 20 free pulls (with S-rank selector), standard banner 50-pull S-rank selector ticket, launch limited-time events (~80 pulls), main + side story quests (~100 pulls), open world exploration (~40 pulls from chests/achievements), and daily/weekly tasks (~20 pulls). Additionally, S-rank Xiaozhi is free from City Tycoon mode, and A-rank Aurelia is a new launch character. This far exceeds typical gacha game launch rewards — F2P players can easily build a strong team.",
+    "answer": "“约 418 抽”说的是**开服阶段累计福利口径**，现在更适合把它理解成历史参考，而不是当前账号登录后还能立即领取的固定数字。里面包含了直播兑换码、预注册奖励、开服活动、新手池、自选券、探索与任务资源等多种来源，其中有些属于**时效福利**，现在已经过期。\n\n如果你现在关心的是“还能白嫖多少”，更准确的看法是：\n1. 开服期那批一次性活动资源不能完整重现\n2. 新手阶段、探索、常规活动与版本更新资源仍然是零氪的主要来源\n3. 判断账号资源时，应该看**当前版本周期**和你的开荒进度，而不是只看开服总抽数\n\n这条 FAQ 会继续保留开服福利的历史体量概念，但不再把 418 抽写成现时承诺值。",
+    "answerEn": "The often-cited **~418 free pulls** figure refers to a **launch-period cumulative reward estimate**, not a guaranteed amount that a new player can still claim in full today. It originally included livestream codes, pre-registration rewards, launch events, beginner-banner benefits, selector tickets, exploration income, and early progression resources. Some of those were **time-limited launch rewards** and are no longer available.\n\nFor current players, the better way to think about F2P income is:\n1. The full launch bundle cannot be recreated exactly now\n2. Early progression, exploration, live events, and patch-cycle rewards are still the main F2P sources\n3. Your real budget depends more on the **current patch** and your account progress than on the old launch total\n\nThis FAQ keeps the 418 number as historical context, not as a present-day promise.",
     "tags": [
       "gacha",
       "beginner",
@@ -1107,8 +1107,8 @@
     "id": "is-nte-free",
     "question": "异环是免费游戏吗？需要花钱吗？",
     "questionEn": "Is NTE free to play? Do I need to spend money?",
-    "answer": "异环是一款完全免费下载和游玩的游戏，采用免费+内购的模式。所有核心玩法内容（主线剧情、开放世界探索、副本挑战等）都可以免费体验。内购项目主要包括：抽卡资源（获取角色和武器）、月卡（每日领取资源）、通行证（任务奖励）、外观道具等。零氪玩家通过日常积累完全可以获得充足的游戏资源，每个版本约可积攒60-80抽。公测1.0版本零氪玩家预计可获得约418次免费抽卡机会。游戏不强制消费，付费主要是加速获取角色和外观。",
-    "answerEn": "NTE is completely free to download and play, using a free-to-play with optional in-app purchases model. All core content — main story, open world exploration, dungeon challenges — is accessible without spending money. In-app purchases include gacha resources (for characters and weapons), monthly pass (daily resources), battle pass (task rewards), and cosmetics. F2P players can accumulate sufficient resources through regular play, earning approximately 60-80 pulls per version. Version 1.0 offers roughly 418 free pulls for F2P players. The game never forces spending — payments mainly accelerate character acquisition and cosmetics.",
+    "answer": "异环本体是**免费下载、免费游玩**的，商业模式是常见的免费游戏 + 内购。也就是说，不花钱也能体验主线、探索、日常副本和大多数版本活动；花钱主要是加速抽卡、补资源和购买外观。\n\n对现在的玩家来说，真正重要的不是“开服 418 抽”这种旧数字，而是两点：\n1. 游戏没有强制付费墙，零氪可以正常推进核心内容\n2. 零氪和月卡玩家的差距主要体现在角色获取速度、阵容完整度和养成节奏，而不是能不能玩\n\n所以结论很直接：异环仍然属于可以正常零氪游玩的作品，只是如果你追求每期限定都拿、或者想更快成型，多半还是要投入时间或消费。",
+    "answerEn": "NTE is still **free to download and free to play**, using a standard free-to-play model with optional purchases. That means you can access the main story, exploration, routine PvE content, and most patch activities without spending. Purchases mainly speed up character acquisition, resource gain, and cosmetic collection.\n\nFor current players, the important point is not old launch totals like 418 pulls, but rather this:\n1. There is no hard paywall blocking core progression\n2. The gap between F2P and spenders is mostly about roster speed, lineup flexibility, and build pace rather than access to the game itself\n\nSo the short answer is yes: NTE remains playable as a real F2P game, though chasing every limited release will naturally require more time or money.",
     "tags": [
       "beginner",
       "currency"
@@ -1126,8 +1126,8 @@
     "id": "no-50-50-system",
     "question": "异环抽卡有50/50吗？保底会歪吗？",
     "questionEn": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
-    "answer": "好消息！异环公测确认没有50/50机制。这是4月18日前瞻直播中官方正式宣布的重磅消息。在限定祈愿池中，抽到S级角色时100%是当期UP角色，不会出现\"歪\"到常驻角色的情况。这意味着你每抽到一个S级，就一定是卡面上展示的角色，不需要担心保底歪掉浪费资源。保底为90抽硬保底，74抽开始进入软保底区间，平均约53.5抽出一个S级。这一机制使异环成为目前最友好的抽卡游戏之一，大幅降低了获取心仪角色的成本。",
-    "answerEn": "Great news! NTE has officially confirmed there is NO 50/50 system — this was a major announcement from the April 18 livestream. In the limited character banner, every S-rank pull is 100% guaranteed to be the featured character. You will never lose your pity to a standard pool character. This means every S-rank you pull is exactly the one shown on the banner. Hard pity is 90 pulls, soft pity starts at 74, and the average cost is about 53.5 pulls per S-rank. This makes NTE one of the most generous and player-friendly gacha systems available, significantly lowering the cost of getting the characters you want.",
+    "answer": "没有。异环的限定角色池**不采用传统 50/50 机制**，这一点在开服阶段就已经被确认，并且仍然是它抽卡系统里最关键的卖点之一。对玩家来说，核心意思就是：只要触发限定角色池的 S 级保底，拿到的就是当期 UP，而不是常驻角色。\n\n目前这条 FAQ 比起“直播确认了什么”，更重要的是说明它对现在抽卡规划的意义：\n1. 你不用按很多二游那样预留“双保底”\n2. 90 抽硬保底的资源目标更好规划\n3. 想抽单个限定角色时，预算和心理压力都更可控\n\n所以无论是开服玩家还是现在入坑的玩家，这个结论都没有过时：异环最友好的抽卡点，依然是**限定池不歪**。",
+    "answerEn": "No. NTE's limited character banner **does not use a traditional 50/50 system**, and that remains one of the most important selling points of its gacha model. In practical terms, once you hit pity on a limited character banner, the S-rank you get is the featured unit rather than a standard-pool miss.\n\nWhat matters today is less the original livestream announcement and more what it means for planning:\n1. You do not need to budget around a typical double-pity worst case\n2. A 90-pull hard pity is easier to plan around\n3. Pulling for a single featured unit is more predictable and less stressful\n\nSo this part has not gone out of date: one of NTE's most player-friendly traits is still that **limited-banner pity does not miss**.",
     "tags": [
       "gacha",
       "pity"
@@ -1171,8 +1171,8 @@
     "id": "6-choose-1-guide",
     "question": "异环开服6选1选谁？免费S级角色推荐",
     "questionEn": "NTE launch 6-choose-1: Which free S-rank character should I pick?",
-    "answer": "异环公测提供多个S级角色获取途径（前瞻直播确认）：1) 新手池20抽后获得S级自选券，可从常驻S级角色中选择一位；2) 常驻池累计50抽获得S级自选券；3) 都市大亨模式免费获取S级小吱。开服共有16位S级角色，其中薄荷（Mint）和早雾（Sakiri）等是热门选择。推荐优先级：如果你需要一个强力的通用进攻角色，选择早雾；如果你需要一个可靠的近战角色，选择薄荷。由于没有50/50机制，限定池角色获取有保障，自选券建议优先选择常驻池中没有的S级角色来完善队伍搭配。",
-    "answerEn": "NTE launch offers multiple S-rank acquisition paths (confirmed by livestream): 1) Beginner banner selector after 20 pulls — choose from standard S-rank characters; 2) Standard banner S-rank selector ticket at 50 pulls; 3) Free S-rank Xiaozhi via City Tycoon mode. There are 16 S-rank characters at launch, with Mint and Sakiri being popular choices. Priority recommendation: Choose Sakiri for a strong versatile attacker, or Mint for a reliable melee character. Since there is no 50/50 system, limited banner characters are guaranteed — use your selector tickets on standard S-ranks you do not have yet to round out your team composition.",
+    "answer": "这类“开服 6 选 1”问题现在更适合按**账号缺什么**来回答，而不是继续沿用开服冲榜时的固定答案。自选的核心思路依然没变：\n\n1. **先补主力输出**，如果你的账号开荒还慢，优先选能直接提升推图效率的角色\n2. **再补泛用辅助或生存位**，让后续抽到的限定角色更容易组队\n3. **尽量避免和你已经抽到的常驻角色重复定位**\n\n如果你已经有稳定主C，自选就应该偏向补队伍短板；如果你还是新号，优先拿一个能立刻上场的核心角色通常更划算。这条 FAQ 现在保留的是选择逻辑，而不是把某个开服答案写死成“永远最优”。",
+    "answerEn": "Questions like this are better answered by **what your account is missing** rather than by repeating a fixed launch-era pick order. The core selector logic is still the same:\n\n1. **Fix your main damage slot first** if your early progression feels slow\n2. **Then add a flexible support or survival unit** to make future teams easier to build\n3. **Avoid overlapping too heavily** with standard characters you already own\n\nIf you already have a stable carry, use the selector to cover a roster weakness. If your account is still fresh, taking a unit that can immediately improve progression is usually the better value. This FAQ now keeps the selection logic, not a rigid old launch ranking.",
     "tags": [
       "beginner",
       "characters"
@@ -1196,8 +1196,8 @@
     "id": "f2p-friendly",
     "question": "异环零氪能玩吗？不花钱体验怎么样？",
     "questionEn": "Is NTE F2P friendly? Can I enjoy it without spending money?",
-    "answer": "异环对零氪玩家非常友好。首先，公测1.0版本零氪可获得约418次免费抽卡，足够保底2个限定S级角色加专属武器。其次，A级角色在合理培养后完全可以胜任大部分游戏内容，与S级角色的差距并不悬殊。日常玩法中，每日委托、周常任务、探索奖励和活动奖励提供稳定的资源获取渠道。月卡和通行证虽然能加速进度，但不是必需品。游戏的核心内容（主线剧情、开放世界探索、副本挑战）全部免费开放，不会设置付费墙。总体来说，零氪玩家可以获得完整且优质的游戏体验。",
-    "answerEn": "NTE is very F2P-friendly. Version 1.0 provides approximately 418 free pulls — enough to guarantee 2 limited S-rank characters plus their signature weapons. A-rank characters perform well in most content when properly built, with a manageable gap compared to S-ranks. Daily commissions, weekly tasks, exploration rewards, and events provide steady resource income. Monthly pass and battle pass accelerate progress but aren't necessary. All core content — main story, open world exploration, dungeon challenges — is fully accessible without spending. F2P players can enjoy a complete and high-quality experience.",
+    "answer": "能玩，而且整体上仍然算比较友好的零氪体验，但要把“零氪友好”理解成**能稳定玩、能慢慢攒、能完成大多数内容**，而不是“每期角色都能轻松全拿”。\n\n对零氪玩家最关键的现实判断是：\n1. 主线、探索和大多数日常内容不会因为不充值而被卡死\n2. A 级和常驻角色在合理培养后依然能承担不少内容\n3. 抽卡节奏上需要更克制，优先锁定真正想要的版本目标\n\n所以结论依然是正面的：异环适合零氪长期玩，但更适合“有规划地攒资源”，不适合见池就抽。",
+    "answerEn": "Yes, NTE is still playable as a F2P game, but that should be understood as **steady progression, gradual saving, and access to most content**, not as effortlessly getting every new release.\n\nFor F2P players, the practical takeaways are:\n1. Main story, exploration, and most regular content are not blocked by spending\n2. A-rank and standard characters can still carry a meaningful amount of content when built well\n3. Pull planning matters more, so you should commit to real patch priorities instead of chasing every banner\n\nSo the answer remains positive: NTE works as a long-term F2P game, especially for players willing to save and plan rather than pull impulsively.",
     "tags": [
       "beginner",
       "currency"
@@ -1675,8 +1675,8 @@
     "id": "no-50-50-confirmed",
     "question": "异环抽卡真的没有50/50吗？公测前瞻直播确认了什么？",
     "questionEn": "Does NTE really have no 50/50? What did the livestream confirm?",
-    "answer": "公测前瞻直播已正式确认：异环的限定角色卡池没有50/50机制。这意味着触发保底时100%获得当期UP的限定S级角色，不存在「歪」到常驻角色的情况。具体规则：限定池90抽硬保底，平均出货约53.5抽；新手池20抽必出S级且可自选；常驻池50抽可自选S级；武器池80抽保底UP武器。与原神的180抽最差情况相比，异环只需90抽就能确保获得想要的限定角色，资源效率翻倍。",
-    "answerEn": "The launch livestream officially confirmed: NTE limited character banner has NO 50/50 system. When pity triggers, you are 100% guaranteed the featured limited S-rank character — no losing to standard pool characters. Specific rules: Limited banner 90-pull hard pity, average ~53.5 pulls; Beginner banner 20-pull guaranteed S-rank with selector; Standard banner 50-pull S-rank selector; Weapon banner 80-pull featured weapon pity. Compared to Genshin worst case of 180 pulls, NTE only needs 90 pulls to guarantee your desired limited character — double the resource efficiency.",
+    "answer": "是的，这一点现在也仍然成立：异环的限定角色池**没有 50/50**。这意味着当你在限定池触发 S 级保底时，拿到的就是当期 UP 角色，而不是常驻池角色。\n\n对实际抽卡规划来说，它的意义在于：\n- 角色预算更容易算\n- 不用为“歪一次再补一次”预留双倍压力\n- 对零氪和微氪玩家更友好\n\n就算这条 FAQ 最早来自开服直播确认，现在它依然是有效结论，不属于只在开服期成立的旧信息。",
+    "answerEn": "Yes, and this is still true today: NTE's limited character banner **does not have a 50/50 system**. When you hit S-rank pity on a limited banner, you get the featured character rather than a standard-pool miss.\n\nFor real pull planning, that means:\n- your budget is easier to calculate\n- you do not need to reserve resources for a common double-pity scenario\n- the system is especially friendly to F2P and low-spend players\n\nEven though this FAQ originally came from launch-livestream confirmation, the conclusion is still current and not just old launch-only information.",
     "tags": [
       "gacha",
       "pity"
@@ -5511,8 +5511,8 @@
     "id": "porsche-price-cost",
     "question": "异环保时捷联动车要多少钱？多少方斯？保时捷918怎么获得？",
     "questionEn": "How much does the NTE Porsche collab car cost? How to get the Porsche 918?",
-    "answer": "保时捷联动是异环1.0版本的重磅跨界合作，目前官方尚未公布具体价格和获取方式的全部细节。已知信息：1) 保时捷联动将推出限定载具，包括保时捷918等车型；2) 获取方式预计为游戏内活动或方斯（Fons）购买；3) 联动车辆在海特洛市内有专属保时捷门店；4) 具体上线时间待官方公布，预计在1.0版本中期或1.1版本实装。建议关注官方社交媒体和我们网站获取最新消息。",
-    "answerEn": "The Porsche collaboration is a major crossover event in NTE Version 1.0. Official pricing and full acquisition details have not yet been announced. Known info: 1) Limited vehicles including the Porsche 918 will be available; 2) Expected to be obtainable via in-game events or Fons purchase; 3) There is a dedicated Porsche showroom in Haitelot City; 4) Exact release date is pending official announcement, expected mid-1.0 or in Version 1.1. Follow official social media and nteguide.com for updates.",
+    "answer": "保时捷 918 联动已经不是“尚未公布”的阶段，而是异环早期已经落地过的**限时联动载具活动**。如果你现在问“多少钱、怎么拿”，更准确的答案是：当时它按联动活动规则获取，但活动结束后就不能再按原始方式直接入手。\n\n这条 FAQ 现在的参考价值主要在于：\n1. 它确认过 918 属于限时联动载具\n2. 它不是常驻商店里的普通车辆\n3. 是否复刻、是否会有类似新联动，要看官方后续安排\n\n所以如果你的问题是“现在还能不能买”，答案更接近**当前没有常驻获取方式，应按复刻或新活动处理**。",
+    "answerEn": "The Porsche 918 collaboration is no longer in a 'details not yet announced' state. It was an actual **limited-time collaboration vehicle event** during NTE's earlier lifecycle. So if you are asking today how much it costs or how to get it, the more accurate answer is that it was obtained through event-specific rules at the time, and once the event ended, the original acquisition path stopped being available.\n\nWhat this FAQ is still useful for is confirming that:\n1. the 918 was a limited collaboration vehicle\n2. it was not part of the normal permanent vehicle pool\n3. any rerun or similar future collab depends on official follow-up plans\n\nSo if your real question is 'Can I still buy it now?', the answer is closer to **not through a permanent standard method unless it reruns**.",
     "tags": [
       "porsche",
       "vehicle",
