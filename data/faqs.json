@@ -501,7 +501,7 @@
     "seoTitleEn": "How to Download & Install NTE — PC, Mobile & PS5 Step-by-Step Guide (2026)",
     "seoTitleZh": "异环下载安装教程 — PC/手机/PS5各平台下载步骤（2026）",
     "seoDescriptionEn": "Download Neverness to Everness on PC, Android, iOS, and PS5. Step-by-step installation guide, download links, pre-download schedule, and storage requirements.",
-    "seoDescriptionZh": "异环(NTE)各平台下载安装教程：PC/Android/iOS/PS5下载链接、安装步骤、预下载时间和存储空间要求。",
+    "seoDescriptionZh": "异环(NTE)各平台下载安装教程：PC/Android/iOS/PS5下载入口、安装步骤、账号区服选择、当前可玩状态与存储空间准备建议。",
     "questionTw": "異環怎麼下載？支援哪些平臺？",
     "answerTw": "異環支援多平臺遊玩，下載方式如下：1) 手機端（Android/iOS）：通過各應用商店搜尋「異環」下載，或前往完美世界官網掃碼下載；2) PC端：前往異環官網 nte.perfectworld.com 下載PC客戶端啟動器，通過啟動器安裝遊戲；3) 模擬器：可以使用雷電模擬器、MuMu模擬器等在電腦上執行手遊版本。建議優先通過官方渠道下載，避免第三方來源的安全風險。",
     "categoryTw": "遊戲系統",
@@ -1087,7 +1087,7 @@
     "seoTitleEn": "NTE Download Size: PC 35GB, Mobile 20GB — Full Storage & Install Guide (May 2026)",
     "seoDescriptionZh": "异环下载大小实测：PC端35GB（建议预留45GB）、手机端约20GB（建议预留30GB）。包含各平台下载入口、存储空间建议、SSD安装说明与更新后的空间预留建议。",
     "seoDescriptionEn": "NTE actual download sizes: PC ~35GB (reserve 45GB+), Mobile ~20GB (reserve 30GB+). Download links, SSD recommendations, and how to reduce install size.",
-    "answer": "根据前瞻直播确认，异环预下载将于4月21日开放。预计PC版下载大小约30-40GB（含高清资源包），手机版（Android/iOS）约15-20GB。建议PC玩家预留至少60GB存储空间（含后续更新），手机玩家预留30GB以上。预下载完成后，国服4月23日、国际服4月29日开服时只需下载小量更新包即可进入游戏。建议提前预下载避免开服当天下载拥堵。",
+    "answer": "这条“异环下载多大”FAQ 现在更适合回答**当前安装和更新要预留多少空间**，而不是继续停留在开服预下载提醒。对现在的玩家来说，更实用的结论是：PC 端应按完整客户端、后续补丁和缓存空间一起预留；移动端则要额外考虑系统剩余空间和资源包下载。\n\n更稳妥的安装思路是：\n1. **PC 端留足冗余**，不要只按安装包数字卡空间，避免更新时失败\n2. **手机端按基础包 + 后续资源** 来看，实际占用往往会高于商店展示数字\n3. 如果你更在意加载和稳定性，优先把游戏放在 SSD 或读写更快的存储设备上\n\n所以这页现在保留的是**当前下载体量与存储规划建议**，而不是开服前那种“预下载什么时候开”的时效说明。",
     "answerEn": "Pre-download starts April 21 (confirmed by livestream). Expected download size is approximately 30-40GB for PC (including HD assets) and 15-20GB for mobile (Android/iOS). We recommend reserving at least 60GB for PC (including future updates) and 30GB+ for mobile. After pre-downloading, you will only need a small update patch on launch day — April 23 for CN server, April 29 for Global server. Pre-downloading early is recommended to avoid server congestion on launch day.",
     "tags": [
       "system",
@@ -1099,7 +1099,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環下載多大？需要多少儲存空間？",
-    "answerTw": "根據前瞻直播確認，異環預下載將於4月21日開放。預計PC版下載大小約30-40GB（含高畫質資源包），手機版（Android/iOS）約15-20GB。建議PC玩家預留至少60GB儲存空間（含後續更新），手機玩家預留30GB以上。預下載完成後，國服4月23日、國際服4月29日開服時只需下載小量更新包即可進入遊戲。建議提前預下載避免開服當天下載擁堵。",
+    "answerTw": "這條「異環下載多大」FAQ 現在更適合回答**當前安裝和更新要預留多少空間**，而不是繼續停留在開服預下載提醒。對現在的玩家來說，更實用的結論是：PC 端應按完整客戶端、後續補丁和快取空間一起預留；移動端則要額外考慮系統剩餘空間和資源包下載。\n\n更穩妥的安裝思路是：\n1. **PC 端留足冗餘**，不要只按安裝包數字卡空間，避免更新時失敗\n2. **手機端按基礎包 + 後續資源** 來看，實際佔用往往會高於商店展示數字\n3. 如果你更在意載入和穩定性，優先把遊戲放在 SSD 或讀寫更快的儲存裝置上\n\n所以這頁現在保留的是**當前下載體量與儲存規劃建議**，而不是開服前那種「預下載什麼時候開」的時效說明。",
     "categoryTw": "遊戲系統",
     "seoTitleTw": "異環下載大小：PC版35GB、手機版20GB — 各平臺安裝包+儲存空間彙總（2026年5月更新）"
   },
@@ -1645,7 +1645,7 @@
       "stellar-jade"
     ],
     "questionTw": "異環預抽卡活動怎麼參加？有什麼獎勵？",
-    "answerTw": "異環公測前正在舉辦預抽卡活動，參加方式：1) 前往官網或TapTap的異環預抽卡活動頁面；2) 定製你的「海特洛市民卡」；3) 完成指定任務獲取啟程道具抽取機會。活動獎勵包括：Fabrication Dice×20、A級Arc Disc、抽卡券等珍貴資源。活動截止時間為2026年4月22日23:59，請務必在此之前完成參與。此外，參與過此前「共存測試」的玩家在公測時可以獲得充值返還。實體獎品還包括PS5主機和官方周邊。",
+    "answerTw": "異環預抽卡活動是**公測前的限時預約活動**，截止時間為 **2026 年 4 月 22 日 23:59**，現在已經結束。如果你想確認當時的參與方式，流程是：前往官網或 TapTap 活動頁、定製海特洛市民卡、完成任務獲取抽取機會。活動獎勵曾包括 Fabrication Dice、A 級 Arc Disc、抽卡券以及部分實體獎品。對現在的玩家來說，這個頁面的主要作用是核對歷史福利內容；如果你錯過了活動，就只能關注後續新服活動、簽到獎勵和當前兌換碼，無法再補領這一批預約資源。",
     "categoryTw": "上線資訊",
     "seoTitleTw": "異環預約獎勵怎麼領？預抽卡活動完整領取攻略與截止時間"
   },
@@ -1668,7 +1668,7 @@
       "stellar-jade"
     ],
     "questionTw": "異環前瞻直播兌換碼有哪些？怎麼領取？",
-    "answerTw": "異環公測前瞻直播（4月18日）公佈了6個兌換碼。國服兌換碼：YHNOWTOENJOY、YHNANALLYGO、YHOB0423，有效期至2026年5月7日23:59。國際服兌換碼：NTENOWTOENJOY、NTENANALLYGO、NTE0429，有效期至2026年5月13日23:59。兌換方式：進入遊戲後，點選右上角頭像 → 設定 → 兌換碼輸入框中輸入即可。注意兌換碼需在遊戲上線後才能使用，建議在開服後第一時間兌換，避免過期。",
+    "answerTw": "異環 2026 年 4 月 18 日前瞻直播確實發放過 6 個兌換碼，但它們都屬於**開服階段時效福利**，現在已經過期。歷史上，國服碼包括 YHNOWTOENJOY、YHNANALLYGO、YHOB0423；國際服碼包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429。它們分別在 **2026 年 5 月 7 日** 和 **2026 年 5 月 13 日** 後失效。對現在的玩家來說，這頁更適合用來核對早期開服福利時間線；如果你需要的是可用兌換碼，請優先查看網站上的最新兌換碼頁面，而不要繼續嘗試輸入這些歷史代碼。",
     "categoryTw": "貨幣系統"
   },
   {
@@ -2588,10 +2588,10 @@
     "relatedMaterials": [],
     "seoTitleZh": "异环国际服下载教程 — PC/手机/PS5下载链接与安装步骤",
     "seoTitleEn": "NTE Global Server Download Guide — PC, Mobile & PS5 Download Links",
-    "seoDescriptionZh": "异环国际服下载安装教程：PC/Android/iOS/PS5各平台下载入口、安装步骤、账号区域注意事项，以及当前所需的存储空间与设备准备建议。",
+    "seoDescriptionZh": "异环国际服下载安装教程：PC/Android/iOS/PS5各平台下载入口、安装步骤、账号区域注意事项、当前可用平台判断，以及存储空间与设备准备建议。",
     "seoDescriptionEn": "Download NTE Global server on PC, Android, iOS, and PS5. Direct download links, installation steps, pre-download schedule, and storage requirements.",
     "questionTw": "異環國際服怎麼下載？",
-    "answerTw": "異環國際服於2026年4月29日正式上線。PC端可通過官網下載客戶端或通過Steam商店搜尋異環下載。iOS使用者在App Store搜尋異環即可下載，Android使用者可通過Google Play或官網下載APK安裝包。下載前請確認裝置滿足最低配置要求，建議預留足夠的儲存空間以保證流暢執行。",
+    "answerTw": "異環國際服現在已經屬於**正常可直接下載安裝**的狀態，不再是「剛上線時怎麼搶先下載」的問題。對當前玩家來說，更實用的步驟是：PC 走官網或對應平臺啟動器，iOS 走 App Store，Android 走 Google Play 或官網提供的正規安裝入口，然後重點確認帳號區域、裝置配置和剩餘儲存空間。\n\n如果你現在問「怎麼下」，核心其實有三點：\n1. 先確認你要的是國際服而不是國服客戶端\n2. 下載前留夠空間，避免安裝後更新失敗\n3. 裝好後優先綁定帳號，避免後面跨平臺同步時出現雙帳號問題\n\n所以這頁現在回答的是**當前國際服下載與安裝注意事項**，而不是開服當天的時效下載提醒。",
     "categoryTw": "平臺",
     "seoTitleTw": "異環國際服下載教程 — PC/手機/PS5下載連結與安裝步驟"
   },
@@ -4284,7 +4284,7 @@
     "questionEn": "Is NTE on Steam? Difference between Steam and standalone client",
     "seoTitleZh": "异环Steam版上线了吗？Steam与独立客户端区别对比",
     "seoTitleEn": "Is NTE on Steam? Steam vs Standalone Client Comparison",
-    "seoDescriptionZh": "异环Steam版最新动态、上线时间、与独立客户端和Epic版的区别对比、账号互通说明。",
+    "seoDescriptionZh": "异环Steam版与独立客户端怎么选：整理当前平台入口、下载与登录差异、账号互通注意事项，以及和 Epic / 官网客户端的体验区别。",
     "seoDescriptionEn": "Latest on NTE Steam version: release date, differences vs standalone and Epic client, account cross-play details.",
     "answer": "异环这条 Steam FAQ 不应再停留在“已确认计划登陆，但日期未定”的旧口径。对现在的用户来说，更实际的重点是：**Steam 版是否已经成为可选下载入口、和官网客户端或 Epic 版相比有什么体验差异。**\n\n如果你是在比较平台，核心可以看三点：\n1. **登录与下载习惯**：Steam 更适合想用平台库管理、成就和更新的玩家；官网客户端则更直接\n2. **内容本体**：不同 PC 入口的游戏内容本身不应该被理解成两套版本，差别主要在发行平台体验\n3. **账号与同步**：是否互通、是否需要重新绑定，应以当前官方说明为准，而不是沿用最早期的预期描述\n\n所以这页现在更像是**Steam 与独立客户端的选择说明**，而不是一则过期的上线倒数消息。",
     "answerEn": "NTE is currently available through the official website client, Epic Games Store, and mobile app stores. About the Steam version: 1) Hotta Studio has confirmed plans to release on Steam, but the exact date is not yet announced; 2) The Steam version is expected to support cross-play with existing platforms and data syncing; 3) Game content is identical across all platforms, with differences mainly in update speed and community features (Steam Workshop mod support is possible). Follow official social media for the latest Steam release news.",
@@ -4440,7 +4440,7 @@
     "questionEn": "Is NTE on PS4, PS5, Xbox, or Switch? Console platform guide",
     "seoTitleZh": "异环主机平台支持 — PS4/PS5/Xbox/Switch上架时间与跨平台互通",
     "seoTitleEn": "NTE Console Platforms — PS4, PS5, Xbox, Switch Availability & Cross-Play",
-    "seoDescriptionZh": "异环是否支持PS4/PS5/Xbox/Switch？各主机平台上线计划、跨平台存档互通、手柄支持等详情。",
+    "seoDescriptionZh": "异环主机平台支持情况说明：如何区分已可玩、已明确和仍未确认的平台，并了解跨平台存档、手柄支持与选平台时该看哪些实际条件。",
     "seoDescriptionEn": "Is NTE available on PS4, PS5, Xbox, or Switch? Console release plans, cross-play support, and controller compatibility.",
     "answer": "这条主机平台 FAQ 现在不该继续把“预计会上、可能会有”混在一起写成半预测清单。对当前用户来说，更有用的是把它拆成**已能玩、已明确、仍未确认**三层来看。\n\n更稳妥的理解方式是：\n1. **当前已可玩的平台**，优先看官网客户端、移动端和已经实际开放的入口\n2. **已经被明确提到的平台**，也不等于立刻可下载，仍要区分“开发中”“已上架”“已开服”\n3. **Xbox、Switch、Linux 这类讨论度高的平台**，在没有正式公告前，不适合写成默认会上的既定事实\n\n如果你真正关心的是怎么选平台，重点还是回到三个现实问题：你的设备性能够不够、你是否需要跨平台同步、以及你希望用哪种商店或客户端生态。也就是说，这页现在保留的是**平台状态判断方法**，而不是一份会随着传闻很快过期的许愿清单。",
     "answerEn": "NTE current platform support and future plans:\n\nAvailable Now:\n- PC (Windows) — Official client + Epic Games Store\n- iOS — App Store\n- Android — Google Play / various app stores\n\nConfirmed Coming Soon:\n- PS5 — Confirmed in development, expected 2026\n- PS4 — Not explicitly confirmed, likely compatible after PS5 launch\n\nPlanned but Unconfirmed:\n- Xbox Series X|S — Official says under evaluation\n- Nintendo Switch — Hardware limitations make it unlikely\n- Steam — Confirmed plans, date TBD\n- Linux — No official plans; try running PC version via Proton compatibility layer\n\nCross-Platform:\n- PC and mobile already support cross-play and data syncing\n- Console versions expected to support cross-save\n- All platforms have identical game content\n\nController Support: PC supports Xbox and PlayStation controllers; mobile supports Bluetooth controllers.",
@@ -4643,7 +4643,7 @@
     "questionEn": "Who is Hotori in NTE? Character guide and skills overview",
     "seoTitleZh": "异环星鸟Hotori角色攻略 — 技能、配装与配队推荐",
     "seoTitleEn": "NTE Hotori Character Guide — Skills, Best Build & Team Comps",
-    "seoDescriptionZh": "异环星鸟（Hotori）角色详细介绍，包含技能机制、属性定位、最佳碟片搭配和推荐配队。",
+    "seoDescriptionZh": "异环星鸟（Hotori）角色解析：围绕当前定位、培养价值、配装思路与队伍适配性，帮助你判断她是否值得投入资源长期培养。",
     "seoDescriptionEn": "Complete Hotori character guide for NTE: skills, attributes, best disc builds, and recommended team compositions.",
     "answer": "星鸟（Hotori）不应该再用“属性待确认、武器待确认”的旧测试口吻来介绍。对现在的搜索用户来说，更有价值的是把她当作一个**已经有明确定位的可用角色**来理解：她通常被放进输出或功能型主力讨论里，核心价值在于战斗节奏流畅、上手反馈好，并且能在合适队伍中稳定贡献伤害或功能收益。\n\n如果你关心她值不值得练，可以按这三个问题判断：\n1. 你的账号是否缺一个能稳定上场的主力或副核心\n2. 你是否偏好连段、快节奏输出或较强操作反馈\n3. 你现有辅助位能不能把她的输出窗口稳定撑起来\n\n配装思路上，仍然优先考虑暴击、攻击与适配她输出节奏的套装；配队上，则更适合和能提供增伤、治疗或循环支持的角色搭配。也就是说，这页现在保留的是**培养判断逻辑**，而不是继续传播测试期的未确认细节。",
     "answerEn": "Hotori is one of the most popular characters in NTE, known for her unique combat style and stunning character design.\n\nCharacter Profile:\n- Rarity: S-Rank\n- Attribute: TBA (expected Incantation)\n- Weapon Type: TBA\n- Role: DPS with strong single-target and AoE damage capabilities\n\nSkill Highlights:\n- Normal Attack: Multi-hit combo, final hit applies attribute effect\n- Core Skill: Enters enhanced state with大幅 ATK and attack speed boost\n- Finisher: Large-range attribute burst dealing massive AoE damage\n- Passive: Grants bonus buffs when teammates trigger specific conditions\n\nHow to Obtain:\nAvailable through limited character banners. Check official announcements for banner schedules.\n\nRecommended Discs: Corresponding attribute 4-piece set, prioritize Crit Rate and Crit DMG.\n\nRecommended Teams: Pairs best with damage buffers (like Hayate) and healers (like Jiuyuan/Edgar).",
@@ -6082,7 +6082,7 @@
     "categoryEn": "System",
     "seoTitleZh": "异环1.1版本减负详情：官方承认太肝，日常任务减少、粉色爪币下调",
     "seoTitleEn": "NTE 1.1 Grind Reduction: Devs Admit Too Grindy, Daily Tasks Cut, Pink Paw Coins Nerfed",
-    "seoDescriptionZh": "完美世界官方承认异环过于肝爆，1.1版本将大幅减少日常任务量、降低粉色爪币难度。减负详情与影响分析。",
+    "seoDescriptionZh": "异环 1.1 减负内容归档：回顾当时的日常精简、活动难度调整与开发者表态，并区分哪些属于历史版本改动、哪些仍影响当前体验判断。",
     "seoDescriptionEn": "Perfect World admits NTE is too grindy. Version 1.1 reduces daily tasks, lowers Pink Paw Coin difficulty. Full QoL improvement breakdown.",
     "relatedCharacters": [],
     "relatedMaterials": [],
