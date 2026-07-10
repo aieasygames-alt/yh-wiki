@@ -37,13 +37,13 @@ const banners: BannerEntry[] = [
   {
     id: "illica-1-2-phase-1",
     characterId: "illica",
-    name: "伊洛伊",
+    name: "Iroi",
     nameEn: "Illica",
     phase: "1.2 上半",
     phaseEn: "Version 1.2 Phase 1",
     startDate: "2026-07-02",
     endDate: "2026-07-23",
-    status: "current",
+    status: "ended",
     attribute: "Lakshana",
     attributeZh: "相",
     role: "S-rank Heal/Buff Support",
@@ -66,23 +66,48 @@ const banners: BannerEntry[] = [
     nameEn: "Zhenhong",
     phase: "1.2 下半",
     phaseEn: "Version 1.2 Phase 2",
-    startDate: "2026-07-23",
-    endDate: "2026-08-13",
-    status: "next",
-    attribute: "Light",
-    attributeZh: "光",
+    startDate: "2026-07-08",
+    endDate: "2026-07-29",
+    status: "current",
+    attribute: "Cosmos",
+    attributeZh: "宇宙",
     role: "S-rank Attack DPS",
     roleZh: "S级进攻主C",
-    arc: "Synthesis",
-    arcZh: "合成",
-    weapon: "Signature Arc (TBD)",
-    weaponZh: "专属弧盘待确认",
+    arc: "Condensate",
+    arcZh: "凝聚",
+    weapon: "Blushing Mirage",
+    weaponZh: "绯红幻影",
     boostedA: ["Adler", "Mint", "Skia", "Edgar", "Taygedo", "Nelly", "Merula", "Alphard"],
     cosmetics: [],
     summary:
-      "Zhenhong is the next 1.2 Phase 2 limited banner — a Light-element dragon-tribe fighter main DPS built around her Rage gauge and Berserk state. Top pick if you need a flagship Light DPS or want to build Genesis-reaction teams.",
+      "Shinku/Zhenhong is the current 1.2 Phase 1 limited banner — a Cosmos dragon-tribe fighter DPS built around her Rage gauge and Berserk state. Top pick if you need a burst DPS for 999 Nights or boss content.",
     summaryZh:
-      "真红是1.2下半限定卡池角色——光属性龙族格斗家主C，技能围绕暴怒值与暴走状态构建。需要光系主C或想组建创生反应队的玩家重点关注。",
+      "Shinku/真红是当前1.2限定卡池角色——宇宙属性龙族格斗家主C，技能围绕Rage与Berserk爆发窗口构建。需要999 Nights或Boss爆发输出的玩家重点关注。",
+  },
+  {
+    id: "iroi-1-2-phase-2",
+    characterId: "iroi",
+    name: "伊洛伊",
+    nameEn: "Iroi",
+    phase: "1.2 下半",
+    phaseEn: "Version 1.2 Phase 2",
+    startDate: "2026-07-29",
+    endDate: "2026-08-19",
+    status: "next",
+    attribute: "Anima",
+    attributeZh: "生命",
+    role: "S-rank Buff/Heal Support",
+    roleZh: "S级增益/治疗辅助",
+    arc: "Liquid",
+    arcZh: "液体",
+    weapon: "The Wrong Gate",
+    weaponZh: "错误之门",
+    boostedA: ["Haniel", "Skia", "Aurelia"],
+    cosmetics: [],
+    summary:
+      "Iroi is the next 1.2 Phase 2 limited banner — an Anima support/healer using Liquid Arcs. Watch her if you need a second sustain/buffer or want safer 999 Nights teams.",
+    summaryZh:
+      "Iroi 是1.2下半下一期限定卡池角色——生命属性增益/治疗辅助，使用液体弧盘。需要第二个生存增益位或想提高999 Nights容错率的玩家可以提前规划。",
   },
   {
     id: "lacrimosa-1-1-phase-1",
@@ -180,10 +205,10 @@ const banners: BannerEntry[] = [
 
 const nextVersionTeasers = [
   {
-    name: "Canhong",
-    nameZh: "残虹",
-    detail: "S-rank Curse + Dark character expected for version 1.3 Phase 1.",
-    detailZh: "1.3版本上半预计登场的S级咒+暗属性角色。",
+    name: "Zankou",
+    nameZh: "Zankou",
+    detail: "S-rank Incantation character expected for version 1.3 Phase 1. Exact kit and signature Arc are still pending official detail.",
+    detailZh: "1.3版本上半预热的S级咒术属性角色，具体技能与专属弧盘仍待官方进一步公布。",
   },
 ];
 
@@ -223,13 +248,13 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环卡池时间表 2026 — 伊洛伊当前UP、真红下一期、1.2限定祈愿 | NTE Guide",
-    "NTE Banner Schedule 2026 — Illica Current, Zhenhong Next, 1.2 Limited Banners"
+    "异环卡池时间表 2026 — Shinku当前UP、Iroi下一期、Zankou 1.3预热 | NTE Guide",
+    "NTE Banner Schedule 2026 — Shinku Current, Iroi Next, Zankou 1.3 Teaser"
   );
   const description = localizedText(
     locale,
-    "异环(NTE)最新卡池时间表：伊洛伊1.2上半当前UP、真红下半下一期、1.2限定祈愿日期、保底机制、无50/50、专武与抽取建议。",
-    "Neverness to Everness banner schedule for 2026: current Illica banner (v1.2 Phase 1), next Zhenhong banner (v1.2 Phase 2), dates, no 50/50 pity, weapon banner and pull advice."
+    "异环(NTE)最新卡池时间表：Shinku/真红当前UP、Iroi下一期、Zankou 1.3预热、1.2限定祈愿日期、无50/50保底、专属Arc与抽取建议。",
+    "Neverness to Everness banner schedule for 2026: current Shinku banner, next Iroi banner, Zankou 1.3 teaser, dates, no 50/50 pity, signature Arc notes and pull advice."
   );
 
   return {
@@ -254,14 +279,14 @@ export default async function BannersPage({ params }: { params: { lang: string }
     {
       question: "Who is the current NTE banner?",
       questionZh: "异环当前卡池是谁？",
-      answer: "The current Neverness to Everness limited banner is Illica (1.2 Phase 1), running from July 2 to July 23, 2026 (CN server). She is the first limited S-rank healer/buffer in NTE.",
-      answerZh: "异环当前限定卡池为伊洛伊（1.2上半），国服时间为 2026-07-02 至 2026-07-23。她是异环首位S级限定治疗增益辅助。",
+      answer: "The current Neverness to Everness limited banner is Shinku/Zhenhong, running from July 8 to July 29, 2026. She is a Cosmos S-rank burst DPS with the Blushing Mirage signature Arc.",
+      answerZh: "异环当前限定卡池为 Shinku/真红，时间为 2026-07-08 至 2026-07-29。她是宇宙属性S级爆发主C，同期专属Arc为 Blushing Mirage。",
     },
     {
       question: "Who is the next NTE banner?",
       questionZh: "异环下一期卡池是谁？",
-      answer: "Zhenhong is the next limited banner for version 1.2 Phase 2, scheduled from July 23 to August 13, 2026 (CN server). She is a Light-element dragon-tribe main DPS.",
-      answerZh: "真红是1.2下半限定卡池角色，国服时间为 2026-07-23 至 2026-08-13。她是光属性龙族格斗家主C。",
+      answer: "Iroi is the next limited banner for version 1.2 Phase 2, scheduled from July 29 to August 19, 2026. She is an Anima support/healer using Liquid Arcs.",
+      answerZh: "Iroi 是1.2下半下一期限定卡池角色，时间为 2026-07-29 至 2026-08-19。她是生命属性增益/治疗辅助，使用液体弧盘。",
     },
     {
       question: "Does NTE have a 50/50 on character banners?",
@@ -270,16 +295,16 @@ export default async function BannersPage({ params }: { params: { lang: string }
       answerZh: "没有。限定角色池抽到S级时为当期UP角色，约70抽进入软保底，90抽硬保底。",
     },
     {
-      question: "Should I pull Illica or wait for Zhenhong?",
-      questionZh: "应该抽伊洛伊还是等真红？",
-      answer: "Pull Illica if your account lacks a dedicated healer/buffer — she is a universal support that fits almost any team. Wait for Zhenhong if you already have a sustain character and need a flagship Light DPS, or prefer main-DPS pulls over supports.",
-      answerZh: "账号缺专属治疗/增益辅助建议优先伊洛伊——她是几乎万能的辅助。已有生存角色、需要光系主C，或偏好抽主C的玩家可以留给真红。",
+      question: "Should I pull Shinku or wait for Iroi?",
+      questionZh: "应该抽Shinku/真红还是等Iroi？",
+      answer: "Pull Shinku if you need a burst DPS for 999 Nights or boss fights. Wait for Iroi if your account already has damage but lacks a second sustain/buffer for safer teams.",
+      answerZh: "缺999 Nights或Boss爆发输出就抽Shinku/真红；已经有主C、但缺第二个生存增益位，就等Iroi。",
     },
     {
       question: "Are CN and global server banner dates the same?",
       questionZh: "异环国服和国际服卡池时间一样吗？",
-      answer: "No. NTE is a CN-first game: version 1.2 launched July 2 on the CN server, with the global server following roughly a week later (around July 9). Each phase's banner dates shift accordingly — always verify the dates for your own server before pulling. This page shows CN server dates as the default; global dates run roughly a week later per phase.",
-      answerZh: "不一样。异环是国服优先：1.2版本国服7月2日上线，全球服晚约一周（7月9日前后）。每个阶段的卡池日期相应错开。抽取前请以自己所在服务器的官方公告为准。本页默认显示国服日期，全球服各阶段大约晚一周。",
+      answer: "Banner dates can differ slightly by server and publisher region. Always verify the date inside your own game client before spending Solid Dice. This page tracks the current public schedule and updates when official dates shift.",
+      answerZh: "不同服务器和发行地区的日期可能略有差异。消耗Solid Dice前请以游戏内卡池倒计时为准。本页跟踪当前公开排期，并在官方日期变化后更新。",
     },
   ];
 
@@ -295,15 +320,15 @@ export default async function BannersPage({ params }: { params: { lang: string }
       <main className="max-w-5xl mx-auto px-4 py-12">
         <section className="mb-10">
           <p className="text-xs uppercase tracking-[0.18em] text-primary-400 mb-3">
-            {isZh ? "2026-06-19 更新" : "Updated June 19, 2026"}
+            {isZh ? "2026-07-10 更新" : "Updated July 10, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环卡池时间表：伊洛伊当前UP，真红下一期" : "NTE Banner Schedule: Current Illica, Next Zhenhong"}
+            {isZh ? "异环卡池时间表：Shinku当前UP，Iroi下一期" : "NTE Banner Schedule: Current Shinku, Next Iroi"}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {isZh
-              ? "追踪 Neverness to Everness 最新限定祈愿、角色池保底、武器池风险和1.3前瞻角色（残虹）。这个页面会作为当前卡池入口，帮助你快速判断要抽、跳过还是等下一期。"
-              : "Track the latest Neverness to Everness limited banners, character pity, weapon banner risks, and version 1.3 teaser (Canhong). Use this page to decide whether to pull, skip, or wait for the next phase."}
+              ? "追踪 Neverness to Everness 最新限定祈愿、角色池保底、Arc池风险和1.3前瞻角色（Zankou）。这个页面会作为当前卡池入口，帮助你快速判断要抽、跳过还是等下一期。"
+              : "Track the latest Neverness to Everness limited banners, character pity, Arc banner risks, and version 1.3 teaser (Zankou). Use this page to decide whether to pull, skip, or wait for the next phase."}
           </p>
         </section>
 

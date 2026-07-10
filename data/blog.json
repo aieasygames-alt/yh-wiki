@@ -4376,6 +4376,92 @@
     ]
   },
   {
+    "id": "nte-iroi-banner-guide",
+    "title": "NTE Iroi 卡池前瞻：技能定位、抽取建议、Shinku 后是否该存资源",
+    "titleTw": "NTE Iroi 卡池前瞻：技能定位、抽取建議、Shinku 後是否該存資源",
+    "titleEn": "NTE Iroi Banner Guide: Role Preview, Pull Advice & Whether to Save After Shinku",
+    "category": "guide",
+    "categoryZh": "卡池攻略",
+    "categoryEn": "Banner Guide",
+    "date": "2026-07-10",
+    "tags": [
+      "iroi",
+      "banner",
+      "1.2",
+      "next-banner",
+      "pull-advice",
+      "support",
+      "999-nights"
+    ],
+    "summary": "NTE Iroi 下一期卡池前瞻：整理 2026-07-29 至 2026-08-19 排期、生命属性辅助定位、Liquid Arc、适合账号、Shinku 后是否继续抽，以及零氪/月卡玩家的资源规划。",
+    "summaryTw": "NTE Iroi 下一期卡池前瞻：整理 2026-07-29 至 2026-08-19 排期、生命屬性輔助定位、Liquid Arc、適合帳號、Shinku 後是否繼續抽，以及無課/月卡玩家的資源規劃。",
+    "summaryEn": "NTE Iroi next banner preview: July 29-August 19 schedule, Anima support role, Liquid Arc, who should pull, whether to save after Shinku, and F2P/low-spender resource planning.",
+    "content": "## 快速结论\n\nIroi 是 Shinku/真红之后的下一期 1.2 限定卡池，公开排期为 **2026-07-29 至 2026-08-19**。她更偏辅助/治疗与队伍容错，而不是抢 Shinku 主 C 位置。如果你已经抽了 Shinku，是否继续抽 Iroi，取决于账号是否缺第二个稳定生存增益位。\n\n---\n\n## Iroi 卡池信息\n\n| 项目 | 内容 |\n|------|------|\n| 角色 | Iroi |\n| 版本 | 1.2 Phase 2 |\n| 预计时间 | 2026-07-29 至 2026-08-19 |\n| 属性 | Anima / 生命 |\n| Arc 类型 | Liquid |\n| 定位 | Buff / Heal Support |\n| 适合内容 | 999 Nights、Boss、高压长线战斗 |\n\n---\n\n## 谁应该抽 Iroi？\n\n### 建议抽\n\n- 已经有主 C，但缺第二个治疗/增益位\n- 打 999 Nights 时经常因为生存压力翻车\n- 想给 Shinku 或其他主 C 配更稳定的队伍\n- 月卡/微氪玩家，想提升全队容错率\n\n### 可以跳过\n\n- 资源已经被 Shinku 用光\n- 账号已有 Illica、Mint、Baicang 等稳定生存组件\n- 只追输出角色，不缺辅助\n- 想为 1.3 Zankou 预留保底\n\n---\n\n## Shinku 后还要抽 Iroi 吗？\n\n如果你抽了 Shinku 但没有 Illica，Iroi 的优先级会明显上升。Shinku 需要稳定的爆发窗口，辅助能提供治疗、增益或容错，就能减少她被打断或暴毙的风险。\n\n如果你已经有 Illica，并且队伍能稳定通关 999 Nights，那么 Iroi 不是必须补。此时更建议保留资源，等 1.3 前瞻确认 Zankou 的机制后再决定。\n\n---\n\n## 零氪/月卡资源规划\n\n| 玩家类型 | 建议 |\n|----------|------|\n| 零氪 | Shinku 和 Iroi 二选一，不建议硬追两个 |\n| 月卡 | Shinku A0 后，看剩余保底再决定 Iroi |\n| 微氪 | 可以考虑 Shinku A0 + Iroi A0，Arc 先跳过 |\n| 中氪 | 角色优先，Arc 根据最终技能实测决定 |\n\n---\n\n## 常见问题\n\n### Iroi 是输出吗？\n\n目前公开信息更偏 Buff/Heal Support。她的价值预计来自队伍稳定性，而不是取代主 C。\n\n### Iroi 和 Illica 冲突吗？\n\n可能有定位重叠，但不一定完全冲突。一个账号有两个稳定生存/增益位，对多队内容和高难挑战很有价值。\n\n### 该留给 Zankou 吗？\n\n如果你资源只够一个保底，并且已经有足够辅助，建议等 1.3 前瞻再动。Zankou 是当前社区搜索热词之一，可能会带来下一轮抽卡焦点。\n\n---\n\n## 总结\n\nIroi 不是“必须抽”的泛用答案，而是看账号短板。如果缺生存增益，她能提高 999 Nights 和 Boss 战容错；如果主队已经稳定，她更像是 1.3 前的可选补强。",
+    "contentEn": "## Quick Verdict\n\nIroi is the next limited banner after Shinku, scheduled for **July 29-August 19, 2026**. She appears to be an Anima support/healer using Liquid Arcs, making her more about team safety and buff uptime than replacing a main DPS.\n\n## Banner Info\n\n| Item | Detail |\n|------|--------|\n| Character | Iroi |\n| Version | 1.2 Phase 2 |\n| Dates | July 29-August 19, 2026 |\n| Attribute | Anima |\n| Arc Type | Liquid |\n| Role | Buff / Heal Support |\n| Best Content | 999 Nights, bosses, long fights |\n\n## Who Should Pull?\n\nPull Iroi if your account has enough damage but lacks a second sustain/buffer, if you often fail 999 Nights from survival pressure, or if you want safer Shinku teams.\n\nSkip if Shinku drained your resources, you already have strong sustain options, or you want to save for the version 1.3 Zankou banner.\n\n## F2P Planning\n\nF2P players should usually choose between Shinku and Iroi. Low spenders can consider Shinku A0 plus Iroi A0, but should skip Arcs until full kit testing confirms value.\n\n## Summary\n\nIroi is a roster-gap pull. She is valuable if you need safety and buffs, optional if your current teams already clear 999 Nights comfortably.",
+    "image": "/images/blog/nte-snow-cherry-blossom-tree-landscape.webp",
+    "imageAlt": "NTE Iroi banner guide",
+    "internalLinks": [
+      {
+        "label": "卡池时间表",
+        "labelEn": "Banner Schedule",
+        "href": "/banners"
+      },
+      {
+        "label": "Shinku Build Guide",
+        "labelEn": "Shinku Build Guide",
+        "href": "/blog/nte-zhenhong-build-guide-1-2"
+      },
+      {
+        "label": "999 Nights 攻略",
+        "labelEn": "999 Nights Guide",
+        "href": "/blog/nte-999-nights-complete-guide"
+      }
+    ]
+  },
+  {
+    "id": "nte-zankou-1-3-save-guide",
+    "title": "NTE Zankou 1.3 预热：该不该跳过 Iroi 存资源？零氪抽卡规划",
+    "titleTw": "NTE Zankou 1.3 預熱：該不該跳過 Iroi 存資源？無課抽卡規劃",
+    "titleEn": "NTE Zankou 1.3 Save Guide: Should You Skip Iroi and Save Pulls?",
+    "category": "guide",
+    "categoryZh": "抽卡规划",
+    "categoryEn": "Pull Planning",
+    "date": "2026-07-10",
+    "tags": [
+      "zankou",
+      "1.3",
+      "save-pulls",
+      "f2p",
+      "pull-planning",
+      "iroi",
+      "shinku"
+    ],
+    "summary": "NTE Zankou 1.3 抽卡资源规划：整理当前公开预热信息、Shinku/Iroi/Zankou 三期取舍、零氪和月卡玩家保底路线，以及什么时候该跳过 Iroi 存到 1.3。",
+    "summaryTw": "NTE Zankou 1.3 抽卡資源規劃：整理當前公開預熱資訊、Shinku/Iroi/Zankou 三期取捨、無課和月卡玩家保底路線，以及什麼時候該跳過 Iroi 存到 1.3。",
+    "summaryEn": "NTE Zankou 1.3 pull planning guide: current teaser info, Shinku vs Iroi vs Zankou priorities, F2P/low-spender pity routes, and when to skip Iroi to save for 1.3.",
+    "content": "## 快速结论\n\nZankou 是当前 1.3 版本最值得关注的预热角色之一。因为 Shinku 和 Iroi 连续消耗资源，零氪/月卡玩家现在最重要的问题不是“谁最强”，而是“我的保底够不够”。\n\n如果你已经抽了 Shinku，且账号生存位足够，可以考虑跳过 Iroi，把资源留给 Zankou。反之，如果你没有稳定辅助，Iroi 对实际通关体验可能比未知的 1.3 角色更稳。\n\n---\n\n## 当前三期卡池取舍\n\n| 卡池 | 定位 | 推荐人群 |\n|------|------|----------|\n| Shinku | 爆发主 C | 缺输出、想打 999 Nights/Boss |\n| Iroi | 生存/增益辅助 | 缺第二个治疗或辅助位 |\n| Zankou | 1.3 预热角色 | 想保留下一版本核心抽卡资源 |\n\n---\n\n## 什么时候跳过 Iroi？\n\n建议跳过 Iroi 的情况：\n\n- 已有 Illica、Mint、Baicang 等稳定生存组件\n- Shinku 已经抽到，剩余资源不足一个保底\n- 你更在意 1.3 新机制和新角色\n- 你是零氪，无法连续保底两个限定角色\n\n建议抽 Iroi 的情况：\n\n- 999 Nights 高难经常翻车\n- 第二队缺治疗/增益位\n- 不准备抽 Zankou 或只等复刻\n- 月卡资源足够，且距离保底不远\n\n---\n\n## 保底规划\n\n| 玩家类型 | 路线 |\n|----------|------|\n| 零氪 | Shinku 或 Iroi 二选一，然后存 Zankou |\n| 月卡 | Shinku A0 后，判断 Iroi 是否接近保底 |\n| 微氪 | 可尝试 Shinku + Iroi 双 A0，但 1.3 前别追 Arc |\n| 收藏党 | 提前准备两个保底，不要临时补资源 |\n\n---\n\n## 风险提醒\n\nZankou 的完整技能、数值、专属 Arc 和队伍定位仍需等官方进一步说明。当前阶段更适合做资源规划，不适合把所有结论写死。等 1.3 前瞻后，再决定是否跳过复刻或补 Arc。\n\n---\n\n## 总结\n\n如果你的账号已经能稳定通关，存 Zankou 是更稳的长期路线；如果你现在连 999 Nights 都不稳定，Iroi 的即时收益可能更高。抽卡规划的核心是补短板，而不是追每一个热词。",
+    "contentEn": "## Quick Verdict\n\nZankou is one of the most important version 1.3 teaser characters to watch. After Shinku and Iroi back-to-back, F2P and low-spender players should focus on pity planning, not hype.\n\nIf you already pulled Shinku and have enough sustain, skipping Iroi to save for Zankou is reasonable. If your teams still fail 999 Nights from survival pressure, Iroi may improve your account more immediately.\n\n## Priority Table\n\n| Banner | Role | Best For |\n|--------|------|----------|\n| Shinku | Burst DPS | Need damage for 999 Nights/bosses |\n| Iroi | Sustain/buff support | Need safer teams |\n| Zankou | v1.3 teaser | Saving for next-version core pull |\n\n## When to Skip Iroi\n\nSkip Iroi if you already have strong sustain, Shinku drained your resources, or you want a full pity ready for version 1.3.\n\nPull Iroi if your second team lacks sustain or you frequently fail 999 Nights.\n\n## Summary\n\nSave for Zankou if your current teams are stable. Pull Iroi if your account needs immediate survivability. The best pull is the one that fixes your roster, not the one with the loudest hype.",
+    "image": "/images/blog/nte-character-gothic-fashion-customization.webp",
+    "imageAlt": "NTE Zankou 1.3 pull planning guide",
+    "internalLinks": [
+      {
+        "label": "Iroi 卡池前瞻",
+        "labelEn": "Iroi Banner Guide",
+        "href": "/blog/nte-iroi-banner-guide"
+      },
+      {
+        "label": "卡池时间表",
+        "labelEn": "Banner Schedule",
+        "href": "/banners"
+      },
+      {
+        "label": "免费奖励汇总",
+        "labelEn": "Free Rewards Guide",
+        "href": "/blog/nte-1-2-free-rewards-guide"
+      }
+    ]
+  },
+  {
     "id": "nte-not-hoyoverse-developer-clarification",
     "title": "异环（NTE）是米哈游/HoYoverse 做的吗？开发商与发行商真相澄清",
     "titleTw": "異環（NTE）是米哈遊/HoYoverse 做的嗎？開發商與發行商真相澄清",
