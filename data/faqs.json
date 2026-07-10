@@ -1310,7 +1310,7 @@
     "id": "ps5-support",
     "question": "异环支持PS5吗？主机版什么时候出？",
     "questionEn": "Is NTE available on PS5? When is the console version coming?",
-    "answer": "异环确认支持PlayStation 5平台，将在PC和移动端上线后推出PS5版本。PS5版将利用主机硬件优势提供高品质的画面表现和流畅的游戏体验，支持手柄操控和触觉反馈。PS5版与PC和移动端数据互通，可以在不同平台间无缝切换。具体的PS5版上线时间请关注官方公告。除了PS5，游戏还支持PC、Android、iOS、Mac和HarmonyOS。",
+    "answer": "这条 PS5 FAQ 现在更适合回答**PS5 目前是不是一个实际可选的平台入口，以及你在选主机端时该重点核对什么**，而不是继续停留在早期的“已提到、会推出”式口径。对当前玩家来说，更重要的是先确认：现在是否已经有稳定下载入口、账号同步规则是否清楚、以及手柄体验和画面表现是否符合你的预期。\n\n更稳妥的理解方式是：\n1. 把 PS5 支持看成一个当前状态问题，而不是一次公告后永远不变的结论\n2. 重点核对当前官方说明里是否明确了下载、互通和版本更新节奏\n3. 如果你是在 PC、手机和主机之间做选择，真正该比较的是体验路径，而不是只看“有没有被确认提到”\n\n所以这页现在保留的是**PS5 平台状态判断逻辑**，而不是继续把旧阶段的平台承诺当成完整答案。",
     "answerEn": "For pages like this, the useful question is no longer just \"was PS5 mentioned at some point,\" but **whether PS5 is a practical, currently supported entry point and what players should verify before committing to that platform.**\n\nThe safer way to read it is:\n1. Treat platform support as a live-status question, not a one-time announcement frozen forever\n2. Check whether download availability, cross-save behavior, and controller experience are described in the current official channels\n3. Avoid turning older platform plans into a hard release promise if the exact timing is still not being actively updated\n\nSo this page now works as a PS5 platform-status guide rather than a permanent launch-date confirmation page.",
     "tags": [
       "system",
@@ -1322,14 +1322,14 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環支援PS5嗎？主機版什麼時候出？",
-    "answerTw": "異環確認支援PlayStation 5平臺，將在PC和移動端上線後推出PS5版本。PS5版將利用主機硬體優勢提供高品質的畫面表現和流暢的遊戲體驗，支援手柄操控和觸覺反饋。PS5版與PC和移動端資料互通，可以在不同平臺間無縫切換。具體的PS5版上線時間請關注官方公告。除了PS5，遊戲還支援PC、Android、iOS、Mac和HarmonyOS。",
+    "answerTw": "這條 PS5 FAQ 現在更適合回答**PS5 目前是不是一個實際可選的平臺入口，以及你在選主機端時該重點核對什麼**，而不是繼續停留在早期的「已提到、會推出」式口徑。對目前玩家來說，更重要的是先確認：現在是否已經有穩定下載入口、帳號同步規則是否清楚、以及手柄體驗和畫面表現是否符合你的預期。\n\n更穩妥的理解方式是：\n1. 把 PS5 支援看成一個當前狀態問題，而不是一次公告後永遠不變的結論\n2. 重點核對目前官方說明裡是否明確了下載、互通和版本更新節奏\n3. 如果你是在 PC、手機和主機之間做選擇，真正該比較的是體驗路徑，而不是只看「有沒有被確認提到」\n\n所以這頁現在保留的是**PS5 平臺狀態判斷邏輯**，而不是繼續把舊階段的平臺承諾當成完整答案。",
     "categoryTw": "遊戲系統"
   },
   {
     "id": "mac-support",
     "question": "异环能在Mac上玩吗？Mac版怎么下载？",
     "questionEn": "Can I play NTE on Mac? How to download the Mac version?",
-    "answer": "异环确认支持Mac平台。Mac用户可以通过官网下载Mac版客户端进行游玩。由于游戏使用虚幻引擎5开发，建议使用搭载Apple Silicon（M1及以上芯片）的Mac以获得最佳性能体验。Intel芯片的Mac也可以运行，但性能可能不如Apple Silicon机型。Mac版与PC、移动端数据完全互通，游戏进度同步。具体的Mac版下载方式和配置要求，请关注官网的下载页面。",
+    "answer": "这条 Mac FAQ 现在更适合回答**Mac 当前是不是一个稳定可玩的入口，以及你该如何判断自己的机器值不值得用来跑异环**，而不是继续保留一句“确认支持”的旧口径。对当前用户来说，更实际的重点通常是：下载入口是否还在、Apple Silicon 和 Intel 机型体验差距有多大、以及和其他平台相比是否真的是你的最佳选择。\n\n更稳妥的理解方式是：\n1. 先以当前官网下载页和实际客户端可用状态为准，而不是把早期支持说明直接当成长期结论\n2. 把芯片架构、发热、帧率和兼容性视为实际体验判断项，而不是默认所有 Mac 都一样能玩\n3. 如果你是在 Mac 和其他平台之间做选择，重点应放在真实可玩性、同步便利性和性能稳定性上\n\n所以这页现在保留的是**Mac 平台判断与设备适配逻辑**，而不是继续重复一段早期支持说明。",
     "answerEn": "The better way to use this Mac page now is to ask **whether Mac is a current supported play option, and what kind of hardware or client limitations matter in practice**, rather than treating one early support statement as the whole answer.\n\nA safer reading is:\n1. Verify current download availability and login flow through the official download page before assuming Mac is an active route for every user\n2. Treat Apple Silicon, performance expectations, and controller support as practical checks rather than universal guarantees\n3. If you are choosing between Mac and another platform, focus on real playability, sync behavior, and current client support instead of older promotional wording\n\nSo this page now functions as a Mac platform-check guide rather than repeating an evergreen confirmation claim.",
     "tags": [
       "system",
@@ -1341,7 +1341,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環能在Mac上玩嗎？Mac版怎麼下載？",
-    "answerTw": "異環確認支援Mac平臺。Mac使用者可以通過官網下載Mac版客戶端進行遊玩。由於遊戲使用虛幻引擎5開發，建議使用搭載Apple Silicon（M1及以上晶片）的Mac以獲得最佳效能體驗。Intel晶片的Mac也可以執行，但效能可能不如Apple Silicon機型。Mac版與PC、移動端資料完全互通，遊戲進度同步。具體的Mac版下載方式和配置要求，請關注官網的下載頁面。",
+    "answerTw": "這條 Mac FAQ 現在更適合回答**Mac 目前是不是一個穩定可玩的入口，以及你該如何判斷自己的機器值不值得用來跑異環**，而不是繼續保留一句「確認支援」的舊口徑。對目前使用者來說，更實際的重點通常是：下載入口是否還在、Apple Silicon 和 Intel 機型體驗差距有多大、以及和其他平臺相比是否真的是你的最佳選擇。\n\n更穩妥的理解方式是：\n1. 先以當前官網下載頁和實際客戶端可用狀態為準，而不是把早期支援說明直接當成長期結論\n2. 把晶片架構、發熱、幀率和相容性視為實際體驗判斷項，而不是默認所有 Mac 都一樣能玩\n3. 如果你是在 Mac 和其他平臺之間做選擇，重點應放在真實可玩性、同步便利性和效能穩定性上\n\n所以這頁現在保留的是**Mac 平臺判斷與裝置適配邏輯**，而不是繼續重複一段早期支援說明。",
     "categoryTw": "遊戲系統"
   },
   {
@@ -1743,7 +1743,7 @@
     "id": "beta-refund",
     "question": "异环测试服充值怎么返还？返还比例是多少？",
     "questionEn": "How does NTE beta refund work? What is the refund rate?",
-    "answer": "异环官方确认，参与过测试服（共存测试）并有充值的玩家将获得充值返还，最高返还比例达150%。返还将在公测后通过游戏内邮件发放，形式为等值的游戏内货币。具体返还比例：首次充值部分150%返还，累计充值1000元以下部分120%返还，1000-5000元部分110%返还，5000元以上部分100%返还。此外，测试服购买的月卡和通行证也将在公测后免费赠送。这一返还比例在行业内属于最高水平。",
+    "answer": "这条测试服返还 FAQ 现在更适合作为**开服阶段福利规则归档**来看，而不是继续写成一个会影响当前玩家决策的实时权益页。对现在的大多数用户来说，更实际的问题通常是：这批返还当时面向哪些测试玩家、规则是什么、以及现在还能不能补领。\n\n更稳妥的理解方式是：\n1. 这类返还规则属于特定测试阶段和开服窗口，不应再被理解成当前持续可申请的通用福利\n2. 如果你当时参与过测试，它的参考价值在于回看历史发放逻辑，而不是重新触发一次返还流程\n3. 对现在的新玩家来说，这页更多是福利时间线记录，应把注意力放在当前活动、签到和兑换码上\n\n所以这页现在保留的是**测试服返还规则的历史归档意义**，而不是继续把它写成一个面向当前用户的实时福利说明。",
     "answerEn": "NTE officially confirmed beta tester recharge refunds at up to 150%. Refunds will be delivered via in-game mail after launch as equivalent in-game currency. Refund rates: first purchase at 150%, cumulative spending under 1,000 CNY at 120%, 1,000-5,000 CNY at 110%, above 5,000 CNY at 100%. Monthly passes and battle passes purchased during beta will also be given free at launch. This refund rate is among the highest in the industry.",
     "tags": [
       "currency",
@@ -1757,7 +1757,7 @@
       "stellar-jade"
     ],
     "questionTw": "異環測試服充值怎麼返還？返還比例是多少？",
-    "answerTw": "異環官方確認，參與過測試服（共存測試）並有充值的玩家將獲得充值返還，最高返還比例達150%。返還將在公測後通過遊戲內郵件發放，形式為等值的遊戲內貨幣。具體返還比例：首次充值部分150%返還，累計充值1000元以下部分120%返還，1000-5000元部分110%返還，5000元以上部分100%返還。此外，測試服購買的月卡和通行證也將在公測後免費贈送。這一返還比例在行業內屬於最高水平。",
+    "answerTw": "這條測試服返還 FAQ 現在更適合作為**開服階段福利規則歸檔**來看，而不是繼續寫成一個會影響目前玩家決策的即時權益頁。對現在的大多數使用者來說，更實際的問題通常是：這批返還當時面向哪些測試玩家、規則是什麼、以及現在還能不能補領。\n\n更穩妥的理解方式是：\n1. 這類返還規則屬於特定測試階段和開服視窗，不應再被理解成目前持續可申請的通用福利\n2. 如果你當時參與過測試，它的參考價值在於回看歷史發放邏輯，而不是重新觸發一次返還流程\n3. 對現在的新玩家來說，這頁更多是福利時間線記錄，應把注意力放在當前活動、簽到和兌換碼上\n\n所以這頁現在保留的是**測試服返還規則的歷史歸檔意義**，而不是繼續把它寫成一個面向當前使用者的即時福利說明。",
     "categoryTw": "貨幣系統"
   },
   {
@@ -2985,8 +2985,8 @@
     "id": "baicang-worth-building",
     "question": "异环白藏值得培养吗？",
     "questionEn": "Is Baicang worth building in NTE?",
-    "answer": "白藏是常驻S级输出/机制双优角色，开荒首选之一。灼烧队核心，S1即可满足大部分需求。如果抽到白藏，建议优先培养，可作为主C或副C使用。灼烧队配队：白藏+辅助+副C+治疗。",
-    "answerEn": "Baicang is a standard S-rank character excelling in both damage and mechanics, making them a top pick for progression. Core of the Burn team, and S1 is sufficient for most content. If you pull Baicang, prioritize building them — they can serve as either main DPS or sub-DPS. Burn team comp: Baicang + Support + Sub-DPS + Healer.",
+    "answer": "白藏值不值得培养，现在更适合从**你的账号是否缺少一个能兼顾输出与功能性的角色**来判断，而不是继续沿用“开荒首选之一”的固定口径。对当前玩家来说，更实用的问题通常是：她能不能真正进入你的主队、你现在缺不缺她擅长承担的位置，以及你的资源是否足够支持她的体系。\n\n更稳妥的理解方式是：\n1) 如果你的阵容缺少既能承担站场压力、又能补足机制价值的角色，白藏会更容易体现价值\n2) 如果你已经有成熟主力，就要看她是补短板还是和现有角色功能重叠\n3) 与其把她直接写成人人优先的首选，不如先判断她是否真的适合你现在的常用体系\n\n所以这页现在保留的是**白藏的功能价值与适配判断逻辑**，而不是继续给出一个固定优先级。",
+    "answerEn": "Baicang is better judged by **whether your roster needs a character who can combine damage pressure with useful role coverage**, not by treating them as an automatic progression pick for everyone. For current players, the practical questions are whether Baicang really enters your main teams, whether you are missing the kind of slot they fill well, and whether your account can support that team structure.\n\nA safer way to judge the value is:\n1. Baicang becomes easier to justify if your roster lacks a unit who can both contribute damage and carry meaningful mechanical utility\n2. If your account already has stable cores, the real question is whether Baicang fills a gap or just overlaps with what you already do well\n3. Instead of assigning a universal priority, judge whether Baicang actually improves your current team plans\n\nSo this page now focuses on Baicang's role value and account fit rather than preserving a fixed early-priority recommendation.",
     "tags": [
       "baicang",
       "character-building",
@@ -3794,7 +3794,7 @@
     "id": "reality-refuge-guide",
     "question": "异环现实避难所（Reality Refuge）是什么？怎么解锁？",
     "questionEn": "What is Reality Refuge in NTE? How to unlock it?",
-    "answer": "现实避难所（Reality Refuge）是异环中的高难度挑战副本。这是一个类似Roguelike的玩法模式，玩家需要在随机生成的多层异象空间中不断深入探索。每层会遇到不同类型的敌人和随机事件，击败敌人可以获得临时增益。核心机制：1）进入需要消耗入场券（通过日常任务获取）；2）层数越深难度越高但奖励越好；3）角色在副本中阵亡会失去部分临时增益但不影响正常养成进度；4）每5层有一个Boss关卡。推荐使用综合战力最强的队伍，带上治疗和护盾角色保证续航。",
+    "answer": "现实避难所（Reality Refuge）这页现在更适合回答**这个高难玩法需要你准备什么样的队伍结构**，而不是继续把“综合战力最强的队伍”当成唯一建议。对当前玩家来说，更实际的是先看：你的队伍有没有稳定输出、有没有足够容错、以及能不能应对随机层数里的变化。\n\n更稳妥的理解方式是：\n1. 优先带一套你最熟悉、循环最稳定的主队，而不是只看面板最高的一组角色\n2. 如果玩法里存在持续消耗和随机事件，治疗、护盾或高容错辅助通常会比纯堆伤害更稳\n3. 这类模式更考验适应性和续航，而不是单纯复制别人的一套“最强阵容”\n\n所以这页现在保留的是**Reality Refuge 的组队准备逻辑**，而不是继续给出过于绝对的队伍建议。",
     "answerEn": "Reality Refuge is a high-difficulty challenge dungeon in NTE with Roguelike elements. Players explore randomly generated multi-layer anomaly spaces, encountering different enemies and random events on each floor. Key mechanics: 1) Requires entry tickets (from daily quests); 2) Deeper floors = harder difficulty but better rewards; 3) Character death in the dungeon loses some temporary buffs but doesn't affect normal progression; 4) Boss every 5 floors. Recommended: Use your strongest team with healing and shield characters for sustainability.",
     "seoTitleZh": "异环现实避难所攻略：解锁条件、通关技巧与奖励",
     "seoTitleEn": "NTE Reality Refuge Guide — Unlock, Strategy & Rewards",
