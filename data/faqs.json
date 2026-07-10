@@ -537,8 +537,8 @@
     "id": "release-date",
     "question": "异环什么时候公测/上线？现在能玩吗？",
     "questionEn": "When did NTE launch? Is it playable now?",
-    "answer": "异环已正式公测上线。国服于 2026 年 4 月 23 日公测，国际服于 4 月 29 日上线，当前版本为 1.2「真红与残虹」（国服 6/11 上线）。Steam 版预计 2026 年 7 月 22 日发售。现在就可以在官网（国服 yh.wanmei.com）或 TapTap / Epic / PS Store 下载游玩。",
-    "answerEn": "NTE has officially launched. The CN server went live on April 23, 2026, and the global server on April 29. The current version is 1.2 'Zhenhong & Canhong' (CN launched June 11). The Steam version is scheduled for July 22, 2026. You can download and play now from the official site, TapTap, Epic, or PS Store.",
+    "answer": "这条上线时间 FAQ 现在更适合作为**异环开服时间线与当前可玩状态的归档说明**，而不是继续写成一条会不断被版本推进冲淡的实时新闻。对现在的玩家来说，更实用的重点通常是：国服和国际服分别是什么时候开的、你现在是否已经能直接下载，以及当前应该关注区服选择和版本状态，而不是单纯记住一个开服日期。\n\n更稳妥的理解方式是：\n1. 把 2026 年 4 月 23 日与 4 月 29 日视为国服/国际服的历史上线节点\n2. 把“现在能不能玩”理解成当前官方入口是否可用、区服是否开放，而不是继续围绕开服倒计时思考\n3. 如果你是现在入坑，真正更重要的是选服、设备适配和当前版本内容，而不是开服当周的节奏信息\n\n所以这页现在保留的是**上线时间线与当前入坑判断路径**，而不是继续把历史开服消息写成即时提醒。",
+    "answerEn": "This launch-date page is more useful now as an **archive of NTE's release timeline and current playable status** rather than as a rolling news post that gets diluted by every later patch. For current players, the practical questions are when CN and global originally opened, whether the game is now directly downloadable, and which server and version state matter today rather than simply memorizing a launch date.\n\nA safer way to read it is:\n1. Treat April 23, 2026 and April 29, 2026 as the historical CN and global launch milestones\n2. Interpret 'can I play now' through current official availability and server access instead of launch countdown logic\n3. If you are joining now, server choice, device fit, and current-version content matter more than the opening-week timeline itself\n\nSo this page now focuses on release chronology and current onboarding judgment instead of preserving old launch headlines as live reminders.",
     "tags": [
       "release",
       "timeline",
@@ -550,15 +550,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環什麼時候公測/上線？現在能玩嗎？",
-    "answerTw": "異環已正式公測上線。國服於 2026 年 4 月 23 日公測，國際服於 4 月 29 日上線，當前版本為 1.2「真紅與殘虹」（國服 6/11 上線）。Steam 版預計 2026 年 7 月 22 日發售。現在就可以在官網（國服 yh.wanmei.com）或 TapTap / Epic / PS Store 下載遊玩。",
+    "answerTw": "這條上線時間 FAQ 現在更適合作為**異環開服時間線與目前可玩狀態的歸檔說明**，而不是繼續寫成一條會不斷被版本推進沖淡的即時新聞。對現在的玩家來說，更實用的重點通常是：國服和國際服分別是什麼時候開的、你現在是否已經能直接下載，以及目前應該關注區服選擇和版本狀態，而不是單純記住一個開服日期。\n\n更穩妥的理解方式是：\n1. 把 2026 年 4 月 23 日與 4 月 29 日視為國服／國際服的歷史上線節點\n2. 把「現在能不能玩」理解成目前官方入口是否可用、區服是否開放，而不是繼續圍繞開服倒數思考\n3. 如果你是現在入坑，真正更重要的是選服、裝置適配和當前版本內容，而不是開服當週的節奏資訊\n\n所以這頁現在保留的是**上線時間線與目前入坑判斷路徑**，而不是繼續把歷史開服消息寫成即時提醒。",
     "categoryTw": "上線資訊"
   },
   {
     "id": "test-signup",
     "question": "异环怎么参加测试？",
     "questionEn": "How to participate in NTE beta tests?",
-    "answer": "参加异环测试的方式：1) 前往官网 yh.wanmei.com 或 TapTap 页面预约/报名测试资格；2) 关注官方社交媒体，测试开放时会发布招募公告；3) 部分测试会通过抽签方式发放资格。获得资格后，按照官方指引下载测试客户端即可参与。注意测试数据通常不会保留到正式版。",
-    "answerEn": "To participate in NTE beta tests: 1) Register on the official website or TapTap page; 2) Follow official social media for test recruitment announcements; 3) Some tests distribute access through lottery. Once selected, download the test client following official instructions. Note that test data usually does not carry over to the official release.",
+    "answer": "这条“怎么参加测试”FAQ 现在更适合作为**异环早期测试参与方式的历史归档**来看，而不是继续默认当前还有长期开放的测试报名入口。对现在的玩家来说，更实际的问题通常是：过去测试是怎么发资格的、官方一般通过哪些渠道通知、以及如果未来再有封测/前瞻体验，该去哪里留意。\n\n更稳妥的理解方式是：\n1. 把官网、TapTap 和官方社交媒体视为历史上最常见的资格通知入口\n2. 把抽签、报名和定向发放理解成过去测试阶段的常见分发方式，而不是当前持续开放状态\n3. 如果后续再有新一轮测试，最有效的动作仍然是盯紧官方公告，而不是依赖旧报名页是否还挂着\n\n所以这页现在保留的是**测试资格获取路径的历史模式**，而不是继续把测试报名写成当前常驻功能。",
+    "answerEn": "This 'how to join testing' FAQ is more useful now as an **archive of how NTE handled earlier test access** rather than as if there were a continuously open sign-up funnel today. For current players, the practical value is understanding how access used to be distributed, which official channels were used, and where to watch if future closed tests or preview rounds ever return.\n\nA safer way to read it is:\n1. Treat the official site, TapTap, and official social channels as the historically common notice points for access\n2. Treat lottery, sign-up, and directed distribution as past-stage access models rather than current standing availability\n3. If a future test happens, the most reliable move will still be following fresh official notices rather than assuming old sign-up pages remain active\n\nSo this page now preserves the historical pattern of test access instead of presenting beta registration as a current evergreen function.",
     "tags": [
       "release",
       "testing"
@@ -569,15 +569,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環怎麼參加測試？",
-    "answerTw": "參加異環測試的方式：1) 前往官網 yh.wanmei.com 或 TapTap 頁面預約/報名測試資格；2) 關注官方社交媒體，測試開放時會發布招募公告；3) 部分測試會通過抽籤方式發放資格。獲得資格後，按照官方指引下載測試客戶端即可參與。注意測試資料通常不會保留到正式版。",
+    "answerTw": "這條「怎麼參加測試」FAQ 現在更適合作為**異環早期測試參與方式的歷史歸檔**來看，而不是繼續默認目前還有長期開放的測試報名入口。對現在的玩家來說，更實際的問題通常是：過去測試是怎麼發資格的、官方一般透過哪些渠道通知、以及如果未來再有封測／前瞻體驗，該去哪裡留意。\n\n更穩妥的理解方式是：\n1. 把官網、TapTap 和官方社交媒體視為歷史上最常見的資格通知入口\n2. 把抽籤、報名和定向發放理解成過去測試階段的常見分發方式，而不是目前持續開放狀態\n3. 如果後續再有新一輪測試，最有效的動作仍然是盯緊官方公告，而不是依賴舊報名頁是否還掛著\n\n所以這頁現在保留的是**測試資格獲取路徑的歷史模式**，而不是繼續把測試報名寫成目前常駐功能。",
     "categoryTw": "上線資訊"
   },
   {
     "id": "preregistration-rewards",
     "question": "异环预注册/预约奖励有哪些？",
     "questionEn": "What are the NTE pre-registration rewards?",
-    "answer": "异环的预注册里程碑奖励根据总预约人数解锁，目前已解锁的奖励包括：原晶、信用点、猎手指南、抽卡券等珍贵资源。预注册人数越多，解锁的奖励越丰富。建议尽早前往官网或TapTap完成预约，确保在公测时能领取全部奖励。奖励通常通过游戏内邮件发放。",
-    "answerEn": "NTE's pre-registration milestone rewards unlock based on total registration count. Currently unlocked rewards include: Original Crystals, Credits, Hunter Guides, gacha tickets, and other valuable resources. The more pre-registrations, the richer the rewards. Register early on the official website or TapTap to ensure you receive all rewards at launch. Rewards are typically distributed via in-game mail.",
+    "answer": "预注册奖励这页现在更适合作为**开服前预约活动与历史福利结构的归档**来看，而不是继续默认玩家现在还能去补做预约并在公测时领取。对当前玩家来说，更实际的重点通常是：当年的预约奖励属于什么类型、哪些是一次性开服福利、以及这些旧奖励不该再被直接当成现时可领取资源。\n\n更稳妥的理解方式是：\n1. 把预注册奖励理解成开服前累计预约带来的历史节点福利\n2. 把原晶、信用点、抽卡券这类内容视为当时的活动构成，而不是当前账号还能重新触发的入口\n3. 如果你现在想看还能拿什么资源，重点应转向当前活动、常驻奖励和版本更新发放，而不是继续围绕预约页判断\n\n所以这页现在保留的是**预注册奖励的历史构成与活动背景**，而不是继续把预约奖励写成当前可补领内容。",
+    "answerEn": "This pre-registration rewards page is more useful now as an **archive of launch-era reservation campaigns and their reward structure** rather than as if players can still meaningfully complete pre-registration and collect those benefits today. For current players, the practical value is understanding what kinds of rewards existed, which of them were one-time launch incentives, and why those old benefits should not be read as currently claimable resources.\n\nA safer way to read it is:\n1. Treat pre-registration rewards as historical milestone bonuses tied to launch preparation\n2. Treat items like crystals, credits, and tickets as the composition of that past campaign rather than a trigger current accounts can restart\n3. If you want to know what resources are still available now, focus on current events, permanent rewards, and patch-cycle distributions instead of old reservation pages\n\nSo this page now preserves the historical makeup and context of pre-registration rewards instead of presenting them as currently recoverable benefits.",
     "tags": [
       "release",
       "rewards"
@@ -591,7 +591,7 @@
       "rising-hunter-guide"
     ],
     "questionTw": "異環預註冊/預約獎勵有哪些？",
-    "answerTw": "異環的預註冊里程碑獎勵根據總預約人數解鎖，目前已解鎖的獎勵包括：原晶、信用點、獵手指南、抽卡券等珍貴資源。預註冊人數越多，解鎖的獎勵越豐富。建議儘早前往官網或TapTap完成預約，確保在公測時能領取全部獎勵。獎勵通常通過遊戲內郵件發放。",
+    "answerTw": "預註冊獎勵這頁現在更適合作為**開服前預約活動與歷史福利結構的歸檔**來看，而不是繼續默認玩家現在還能去補做預約並在公測時領取。對目前玩家來說，更實際的重點通常是：當年的預約獎勵屬於什麼類型、哪些是一次性開服福利、以及這些舊獎勵不該再被直接當成現時可領資源。\n\n更穩妥的理解方式是：\n1. 把預註冊獎勵理解成開服前累計預約帶來的歷史節點福利\n2. 把原晶、信用點、抽卡券這類內容視為當時的活動構成，而不是目前帳號還能重新觸發的入口\n3. 如果你現在想看還能拿什麼資源，重點應轉向目前活動、常駐獎勵和版本更新發放，而不是繼續圍繞預約頁判斷\n\n所以這頁現在保留的是**預註冊獎勵的歷史構成與活動背景**，而不是繼續把預約獎勵寫成目前可補領內容。",
     "categoryTw": "上線資訊"
   },
   {
@@ -987,7 +987,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環預下載什麼時候開始？怎麼提前下載？",
-    "answerTw": "異環公測預下載已確認為2026年4月21日開放。PC端可通過官網（yh.wanmei.com）或Epic Games Store下載客戶端啟動器，移動端可在App Store和Google Play預約自動下載。PC端遊戲檔案約25-30GB，移動端約8-10GB。NVIDIA使用者建議更新至596.21 WHQL驅動以獲得最佳體驗。建議使用WiFi提前下載避免開服當天伺服器擁堵。預下載完成後，4月23日開服即可直接進入遊戲。",
+    "answerTw": "異環的開服預下載已在 **2026 年 4 月 21 日** 開放過，現在這條更多是**歷史下載時間記錄**。如果你現在要安裝遊戲，已經不需要再等預下載階段，直接透過官網、商店或對應平臺客戶端下載安裝即可。對目前玩家更有用的資訊是：確保預留足夠儲存空間、優先安裝到 SSD 或較快儲存裝置、並在更新後重新確認客戶端完整性，而不是繼續參考開服前的排隊下載建議。",
     "categoryTw": "遊戲系統"
   },
   {
@@ -2179,8 +2179,8 @@
     "id": "arc-disc-faq",
     "question": "异环弧盘系统怎么玩？弧盘获取和强化攻略",
     "questionEn": "How does the Arc Disc system work in NTE? Disc acquisition and upgrade guide",
-    "answer": "弧盘是异环公测版本最重要的装备系统，战力提升幅度最大。弧盘分C/B/A/S四个品质，每个角色装备一个。获取途径：1) 击败Boss异象掉落（海囚S级概率最高）；2) 弧盘副本（高塔）挑战；3) 空幕装置商店兑换；4) 异象收容任务奖励；5) 公测活动赠送A级弧盘。强化建议：优先强化S级弧盘到满级，A级作为过渡，C/B级仅做材料。输出角色选暴击率/暴击伤害/攻击力%副属性，辅助角色选能量回复/效果命中/生命值%副属性。",
-    "answerEn": "Arc Discs are NTE's most important equipment system. Ranked C/B/A/S, each character equips one. Sources: 1) Boss anomaly drops (Sea Prisoner best for S-rank); 2) Tower dungeon; 3) Shop exchange; 4) Anomaly containment rewards; 5) Event rewards. Upgrade S-rank discs first, A-rank as transition. DPS: Crit/CritDMG/ATK% subs; Support: EnergyRegen/EffectHit/HP% subs.",
+    "answer": "弧盘这页现在更适合回答**你该把弧盘当成长期毕业位来慢慢筛，还是先拿能用的过渡件撑起当前队伍**，而不是继续把“最重要装备系统”直接写成一套固定养成口令。对当前玩家来说，更实际的重点通常是：你先要有能打的盘，再谈高品质、完美副属性和最终毕业件。\n\n更稳妥的理解方式是：\n1. 先把能稳定上场的主力角色配到基本可用的弧盘，再考虑更细的词条优化\n2. 高品质和高上限当然重要，但不代表前期一定要为了某个理想掉落停住整体推进\n3. 获取来源、强化顺序和角色词条需求都应结合你当前常用队伍来看，而不是照搬一条统一路线\n\n所以这页现在保留的是**弧盘获取、过渡与筛选逻辑**，而不是继续把早期版本的固定优先级写成长期标准答案。",
+    "answerEn": "This Arc Disc page is more useful when it explains **whether you should treat discs as a long-term endgame filter or first use workable transitional pieces to stabilize your current team** instead of compressing everything into one rigid growth script. For current players, the practical priority is usually to get usable discs online first, then worry about rarity ceilings, perfect substats, and final endgame pieces.\n\nA safer way to think about Arc Discs is:\n1. Give your regular main units functional discs first, then refine stat quality later\n2. High rarity and high ceiling matter, but that does not mean early progression should stall for one ideal drop\n3. Farming sources, upgrade order, and stat preferences should all be read through the lens of your actual active team rather than copied from one universal route\n\nSo this page now focuses on Arc Disc acquisition, transition use, and filtering logic instead of preserving one early-version priority order as the long-term answer.",
     "tags": [
       "equipment",
       "arc-disc",
@@ -2198,15 +2198,15 @@
       "arc-disc"
     ],
     "questionTw": "異環弧盤系統怎麼玩？弧盤獲取和強化攻略",
-    "answerTw": "弧盤是異環公測版本最重要的裝備系統，戰力提升幅度最大。弧盤分C/B/A/S四個品質，每個角色裝備一個。獲取途徑：1) 擊敗Boss異象掉落（海囚S級機率最高）；2) 弧盤副本（高塔）挑戰；3) 空幕裝置商店兌換；4) 異象收容任務獎勵；5) 公測活動贈送A級弧盤。強化建議：優先強化S級弧盤到滿級，A級作為過渡，C/B級僅做材料。輸出角色選暴擊率/暴擊傷害/攻擊力%副屬性，輔助角色選能量回復/效果命中/生命值%副屬性。",
+    "answerTw": "弧盤這頁現在更適合回答**你該把弧盤當成長期畢業位來慢慢篩，還是先拿能用的過渡件撐起目前隊伍**，而不是繼續把「最重要裝備系統」直接寫成一套固定養成口令。對目前玩家來說，更實際的重點通常是：你先要有能打的盤，再談高品質、完美副屬性和最終畢業件。\n\n更穩妥的理解方式是：\n1. 先把能穩定上場的主力角色配到基本可用的弧盤，再考慮更細的詞條最佳化\n2. 高品質和高上限當然重要，但不代表前期一定要為了某個理想掉落停住整體推進\n3. 獲取來源、強化順序和角色詞條需求都應結合你目前常用隊伍來看，而不是照搬一條統一路線\n\n所以這頁現在保留的是**弧盤獲取、過渡與篩選邏輯**，而不是繼續把早期版本的固定優先級寫成長期標準答案。",
     "categoryTw": "裝備系統"
   },
   {
     "id": "f2p-beginner-route",
     "question": "异环零氪新手怎么开荒？第一天必做清单",
     "questionEn": "NTE F2P beginner guide: Day 1 must-do checklist",
-    "answer": "零氪新手第一天开荒路线：1) 完成全部教程关卡（约30分钟）；2) 推进主线到第三章（获取大量抽卡资源）；3) 使用新手池抽卡，利用6选1自选S级角色（推荐薄荷）；4) 集中资源培养主力队伍（1主C+1辅助+1生存）；5) 解锁所有已探索区域的传送点；6) 完成每日委托；7) 参与公测登录活动领14天签到奖励；8) 兑换3个公测兑换码；9) 不要分散培养，先确定2个核心角色集中投入。零氪玩家约可获得150-200抽，足够组建一支强力队伍。",
-    "answerEn": "F2P Day 1 checklist: 1) Complete all tutorials (~30min); 2) Progress story to Chapter 3 (lots of gacha currency); 3) Use beginner banner 6-choose-1 (pick Mint); 4) Focus resources on 1 DPS + 1 Support + 1 Survival; 5) Unlock all discovered teleport points; 6) Complete daily commissions; 7) Claim 14-day login event rewards; 8) Redeem 3 launch codes; 9) Don't spread resources — focus on 2 core characters. F2P can get ~150-200 pulls for a strong team.",
+    "answer": "这条“零氪新手第一天清单”FAQ 现在更适合回答**现在入坑时，第一天最应该先解决哪几类事情**，而不是继续把开服当周的活动、兑换码和福利节奏写成每个新账号都还能完整复制的路线。对当前玩家来说，更实用的重点通常是：先解锁关键系统、先把主线推到能展开日常循环、再决定资源往哪支过渡队投。\n\n更稳妥的理解方式是：\n1. 第一优先级通常仍然是教程、主线推进和基础系统解锁\n2. 抽卡、自选和资源投入都应结合你当前账号拿到的角色与版本目标来判断，而不是继续照搬开服周推荐名单\n3. 旧兑换码、开服签到和一次性福利不应再被默认算进所有新玩家的第一天资源预算\n\n所以这页现在保留的是**零氪新号第一天的任务排序逻辑**，而不是继续把开服期专属活动流程写成当前通用清单。",
+    "answerEn": "This F2P beginner day-one page is more useful now when it explains **which categories of work matter most on your first day today** rather than preserving the launch-week rhythm of events, codes, and timed rewards as if every new account can still reproduce it. For current players, the practical priority is usually to unlock key systems, push story far enough to open the daily loop, and then decide where your first real resource investment should land.\n\nA safer way to think about day one is:\n1. Tutorial completion, main-story progress, and basic system unlocks still come first\n2. Pull choices, selectors, and resource spending should be judged against your actual starting roster and version goals rather than copied from launch-week recommendations\n3. Old redemption codes, launch sign-ins, and one-time opening rewards should no longer be assumed inside every new player's first-day budget\n\nSo this page now focuses on the ordering logic for a new F2P account's first day instead of preserving a launch-specific activity script as a universal checklist.",
     "tags": [
       "beginner",
       "f2p",
@@ -2221,7 +2221,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環零氪新手怎麼開荒？第一天必做清單",
-    "answerTw": "零氪新手第一天開荒路線：1) 完成全部教程關卡（約30分鐘）；2) 推進主線到第三章（獲取大量抽卡資源）；3) 使用新手池抽卡，利用6選1自選S級角色（推薦薄荷）；4) 集中資源培養主力隊伍（1主C+1輔助+1生存）；5) 解鎖所有已探索區域的傳送點；6) 完成每日委託；7) 參與公測登入活動領14天簽到獎勵；8) 兌換3個公測兌換碼；9) 不要分散培養，先確定2個核心角色集中投入。零氪玩家約可獲得150-200抽，足夠組建一支強力隊伍。",
+    "answerTw": "這條「零氪新手第一天清單」FAQ 現在更適合回答**現在入坑時，第一天最應該先解決哪幾類事情**，而不是繼續把開服當週的活動、兌換碼和福利節奏寫成每個新帳號都還能完整複製的路線。對目前玩家來說，更實用的重點通常是：先解鎖關鍵系統、先把主線推到能展開日常循環、再決定資源往哪支過渡隊投。\n\n更穩妥的理解方式是：\n1. 第一優先級通常仍然是教程、主線推進和基礎系統解鎖\n2. 抽卡、自選和資源投入都應結合你目前帳號拿到的角色與版本目標來判斷，而不是繼續照搬開服週推薦名單\n3. 舊兌換碼、開服簽到和一次性福利不應再被默認算進所有新玩家的第一天資源預算\n\n所以這頁現在保留的是**零氪新號第一天的任務排序邏輯**，而不是繼續把開服期專屬活動流程寫成目前通用清單。",
     "categoryTw": "新手入門"
   },
   {
