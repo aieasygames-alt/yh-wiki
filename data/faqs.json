@@ -26,7 +26,7 @@
     "question": "异环能在Steam Deck上玩吗？兼容性和优化设置",
     "questionEn": "Can you play NTE on Steam Deck? Compatibility and optimization settings",
     "answer": "Steam Deck 这条 FAQ 现在更适合回答“值不值得折腾”，而不是继续停留在早期的发行状态说明。对当前玩家来说，更务实的结论是：**Steam Deck 不是异环最省心的平台，但对愿意自己调兼容和画质的人来说，仍然可以尝试。**\n\n你可以按两种路径理解：\n1. **省事路线**：如果你只想开箱即玩，Steam Deck 目前不算首选，因为启动器、兼容层和性能调试都会增加成本\n2. **折腾路线**：如果你愿意使用 Windows、第三方启动器或兼容工具，那么重点就变成把分辨率、阴影、粒子和帧率目标压到更稳的区间\n\n所以这页现在保留的核心建议是：Steam Deck 更适合愿意自己做平台兼容和性能优化的玩家，不适合作为零门槛推荐平台。",
-    "answerEn": "NTE on Steam Deck:\n\n**Current Compatibility**:\n- NTE is currently on Epic Games Store and official client, not yet on Steam\n- Steam Deck cannot run it natively (SteamOS doesn't support Epic by default)\n- Workaround options available\n\n**Workarounds**:\n1. Windows dual-boot: Install Windows on Steam Deck, then run official/Epic client\n2. Heroic Games Launcher: Third-party Epic launcher for Linux\n3. Wait for Steam release: Officially confirmed Steam launch planned\n\n**Expected Performance (based on Steam Deck hardware)**:\n- Steam Deck OLED: Medium-low settings, 30-40FPS expected\n- Steam Deck LCD: Low settings, 25-35FPS\n- Recommend 720p resolution for better framerate\n\n**Optimization Settings**:\n- Volumetric lighting: Off\n- Shadow quality: Low\n- Particle effects: Low\n- Resolution: 1280x720\n- Target framerate: 30FPS\n\n**Controller Support**:\n- NTE has native controller support\n- Steam Deck built-in controls should work\n- Touchpad can substitute for mouse in menus\n\nSteam Deck compatibility will improve significantly once the Steam version launches. Watch for official announcements.",
+    "answerEn": "This Steam Deck page is most useful when it answers **whether the game is worth the setup hassle on a handheld device like this**, not when it repeats one old platform expectation. For current players, the practical conclusion is that Steam Deck is usually a tinkering platform rather than a frictionless default choice.\n\nA safer way to evaluate it is:\n1. If you want a simple install-and-play path, Steam Deck is rarely the easiest option because launcher setup, compatibility layers, and performance tuning may all matter\n2. If you are comfortable experimenting, the real task becomes reducing settings, resolution, and frame-rate targets until the experience is stable enough for you\n3. Treat future Steam availability as something to verify through current official channels rather than as an automatic promise that solves every compatibility issue\n\nSo this page now focuses on Steam Deck decision logic and expectation-setting instead of preserving an old confirmation-style platform answer.",
     "tags": [
       "steam-deck",
       "platform",
@@ -1607,8 +1607,8 @@
     "id": "harmonyos-support",
     "question": "异环支持鸿蒙系统吗？华为手机能玩吗？",
     "questionEn": "Is NTE available on HarmonyOS? Can I play on Huawei phones?",
-    "answer": "异环确认支持鸿蒙（HarmonyOS）系统。华为手机用户可以直接在鸿蒙系统的应用市场中搜索并下载异环。游戏对鸿蒙系统进行了专门适配，确保在华为设备上能正常运行。需要注意的是，由于游戏使用虚幻引擎5开发，对硬件配置有一定要求，建议使用较新的华为旗舰机型以获得最佳体验。如果设备配置较低，可以在游戏设置中降低画质来提升流畅度。",
-    "answerEn": "NTE is confirmed to support HarmonyOS. Huawei phone users can search for and download NTE directly from the HarmonyOS app market. The game has been specifically optimized for HarmonyOS to ensure proper functionality on Huawei devices. Note that since NTE uses Unreal Engine 5, it has hardware requirements — newer Huawei flagship models are recommended for the best experience. If your device has lower specs, you can reduce graphics settings in-game for better performance.",
+    "answer": "鸿蒙（HarmonyOS）这页现在更适合回答**华为设备当前是不是有效入口、以及不同机型的实际可玩性差异**，而不是只保留一句“已支持”的旧口径。对当前用户来说，更重要的是先判断应用市场里是否确实可下载、自己的设备性能是否足够，以及账号同步是否方便。\n\n更稳妥的理解方式是：\n1. 先以当前应用市场和官方说明为准，确认你这台设备是否真的在可下载和可运行范围内\n2. 不把“已适配”直接理解成所有鸿蒙机型体验都一致，老机型和中低端设备仍可能需要明显降画质\n3. 如果你是在华为手机和其他平台之间做选择，重点应放在实际稳定性、发热和同步便利性上\n\n所以这页现在保留的是**HarmonyOS 平台判断逻辑**，而不是一句长期不变的兼容结论。",
+    "answerEn": "This HarmonyOS page works better when it helps Huawei users judge **whether their device is a practical current entry point** rather than treating one support statement as the whole answer.\n\nA safer way to read it is:\n1. Verify current store availability and device compatibility through the live download channel before assuming every HarmonyOS phone is covered\n2. Treat optimization claims as device-dependent, especially on lower-end or older hardware\n3. If you are deciding between Huawei and another platform, focus on real download availability, performance stability, and account-sync convenience rather than old support wording alone\n\nSo this page now functions as a HarmonyOS platform-check guide instead of repeating a permanent confirmation claim.",
     "tags": [
       "system",
       "platform"
@@ -1619,7 +1619,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環支援鴻蒙系統嗎？華為手機能玩嗎？",
-    "answerTw": "異環確認支援鴻蒙（HarmonyOS）系統。華為手機使用者可以直接在鴻蒙系統的應用市場中搜索並下載異環。遊戲對鴻蒙系統進行了專門適配，確保在華為裝置上能正常執行。需要注意的是，由於遊戲使用虛幻引擎5開發，對硬體配置有一定要求，建議使用較新的華為旗艦機型以獲得最佳體驗。如果裝置配置較低，可以在遊戲設定中降低畫質來提升流暢度。",
+    "answerTw": "鴻蒙（HarmonyOS）這頁現在更適合回答**華為裝置目前是不是有效入口、以及不同機型的實際可玩性差異**，而不是只保留一句「已支援」的舊口徑。對目前使用者來說，更重要的是先判斷應用市場裡是否確實可下載、自己的裝置效能是否足夠，以及帳號同步是否方便。\n\n更穩妥的理解方式是：\n1. 先以當前應用市場和官方說明為準，確認你這台裝置是否真的在可下載和可執行範圍內\n2. 不把「已適配」直接理解成所有鴻蒙機型體驗都一致，老機型和中低階裝置仍可能需要明顯降畫質\n3. 如果你是在華為手機和其他平臺之間做選擇，重點應放在實際穩定性、發熱和同步便利性上\n\n所以這頁現在保留的是**HarmonyOS 平臺判斷邏輯**，而不是一句長期不變的相容結論。",
     "categoryTw": "遊戲系統"
   },
   {
@@ -4287,7 +4287,7 @@
     "seoDescriptionZh": "异环Steam版与独立客户端怎么选：整理当前平台入口、下载与登录差异、账号互通注意事项，以及和 Epic / 官网客户端的体验区别。",
     "seoDescriptionEn": "Latest on NTE Steam version: release date, differences vs standalone and Epic client, account cross-play details.",
     "answer": "异环这条 Steam FAQ 不应再停留在“已确认计划登陆，但日期未定”的旧口径。对现在的用户来说，更实际的重点是：**Steam 版是否已经成为可选下载入口、和官网客户端或 Epic 版相比有什么体验差异。**\n\n如果你是在比较平台，核心可以看三点：\n1. **登录与下载习惯**：Steam 更适合想用平台库管理、成就和更新的玩家；官网客户端则更直接\n2. **内容本体**：不同 PC 入口的游戏内容本身不应该被理解成两套版本，差别主要在发行平台体验\n3. **账号与同步**：是否互通、是否需要重新绑定，应以当前官方说明为准，而不是沿用最早期的预期描述\n\n所以这页现在更像是**Steam 与独立客户端的选择说明**，而不是一则过期的上线倒数消息。",
-    "answerEn": "NTE is currently available through the official website client, Epic Games Store, and mobile app stores. About the Steam version: 1) Hotta Studio has confirmed plans to release on Steam, but the exact date is not yet announced; 2) The Steam version is expected to support cross-play with existing platforms and data syncing; 3) Game content is identical across all platforms, with differences mainly in update speed and community features (Steam Workshop mod support is possible). Follow official social media for the latest Steam release news.",
+    "answerEn": "This Steam page is more helpful when it explains **how to compare a possible Steam entry with the existing PC clients**, not when it preserves one old planned-release statement as the main answer.\n\nA safer way to read it is:\n1. First verify whether Steam is currently an active download route or still just a future platform expectation\n2. If you are choosing between PC options, compare convenience factors such as launcher preference, update flow, and account-linking behavior rather than assuming the game itself is a different version\n3. Treat cross-save and platform features as things to confirm through live official instructions, not as assumptions carried forward from earlier promotional wording\n\nSo this page now functions as a Steam-versus-standalone choice guide rather than a soft countdown to an unspecified release.",
     "tags": [
       "steam",
       "platform",
@@ -4443,7 +4443,7 @@
     "seoDescriptionZh": "异环主机平台支持情况说明：如何区分已可玩、已明确和仍未确认的平台，并了解跨平台存档、手柄支持与选平台时该看哪些实际条件。",
     "seoDescriptionEn": "Is NTE available on PS4, PS5, Xbox, or Switch? Console release plans, cross-play support, and controller compatibility.",
     "answer": "这条主机平台 FAQ 现在不该继续把“预计会上、可能会有”混在一起写成半预测清单。对当前用户来说，更有用的是把它拆成**已能玩、已明确、仍未确认**三层来看。\n\n更稳妥的理解方式是：\n1. **当前已可玩的平台**，优先看官网客户端、移动端和已经实际开放的入口\n2. **已经被明确提到的平台**，也不等于立刻可下载，仍要区分“开发中”“已上架”“已开服”\n3. **Xbox、Switch、Linux 这类讨论度高的平台**，在没有正式公告前，不适合写成默认会上的既定事实\n\n如果你真正关心的是怎么选平台，重点还是回到三个现实问题：你的设备性能够不够、你是否需要跨平台同步、以及你希望用哪种商店或客户端生态。也就是说，这页现在保留的是**平台状态判断方法**，而不是一份会随着传闻很快过期的许愿清单。",
-    "answerEn": "NTE current platform support and future plans:\n\nAvailable Now:\n- PC (Windows) — Official client + Epic Games Store\n- iOS — App Store\n- Android — Google Play / various app stores\n\nConfirmed Coming Soon:\n- PS5 — Confirmed in development, expected 2026\n- PS4 — Not explicitly confirmed, likely compatible after PS5 launch\n\nPlanned but Unconfirmed:\n- Xbox Series X|S — Official says under evaluation\n- Nintendo Switch — Hardware limitations make it unlikely\n- Steam — Confirmed plans, date TBD\n- Linux — No official plans; try running PC version via Proton compatibility layer\n\nCross-Platform:\n- PC and mobile already support cross-play and data syncing\n- Console versions expected to support cross-save\n- All platforms have identical game content\n\nController Support: PC supports Xbox and PlayStation controllers; mobile supports Bluetooth controllers.",
+    "answerEn": "A console-platform page is safest when it separates **currently playable platforms, officially referenced platforms, and still-unconfirmed wish-list platforms** instead of blending them into one speculative chart.\n\nA safer way to use this page is:\n1. Start with the platforms that actually have a live download or working client path today\n2. Treat \"in development,\" \"planned,\" and \"under evaluation\" as very different states rather than as near-equivalents\n3. If you are choosing where to play, focus on practical questions like device performance, cross-save needs, controller comfort, and storefront preference rather than rumor-driven platform lists\n\nSo this page now works as a platform-status interpretation guide instead of a half-prediction console roadmap.",
     "tags": [
       "ps4",
       "ps5",
@@ -5532,8 +5532,8 @@
     "id": "fps-drift-bug-fix",
     "question": "异环FPS设置高导致车辆无法漂移？帧率漂移Bug怎么解决？",
     "questionEn": "NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround",
-    "answer": "这是一个已确认的Bug：**FPS设置越高，车辆越难漂移**。原因是帧率影响了漂移判定的物理计算。多位玩家在Reddit和社区反馈并确认了此问题。解决方法：1) 将FPS上限设置为60帧或30帧，帧率越低漂移越容易触发；2) 在设置→画面→帧率限制中调整；3) 等待官方修复补丁，此Bug已在CN服被确认为已知问题。如果你发现驾驶时完全无法漂移，大概率是FPS设置过高导致的。",
-    "answerEn": "This is a confirmed bug: **the higher your FPS cap, the harder it is to drift**. Frame rate affects the physics calculations for drift detection. Multiple players have confirmed this on Reddit and community forums. Workaround: 1) Set your FPS cap to 60 or 30 — lower FPS makes drifting easier; 2) Go to Settings → Graphics → Frame Rate Limit to adjust; 3) Wait for an official fix — this is a known issue on the CN server. If you can't drift at all while driving, high FPS settings are likely the cause.",
+    "answer": "这类“高帧率更难漂移”的问题，当前更适合按**社区高频反馈下的实用排查项**来理解，而不是直接写成已经被永久坐实的官方结论。对遇到问题的玩家来说，更重要的是先验证：降低帧率上限后，漂移手感是否明显恢复正常。\n\n更实用的处理方式是：\n1) 先把 FPS 上限降到 60 或 30，观察漂移触发是否稳定\n2) 如果问题缓解，再把它视为当前版本下值得保留的临时规避方案\n3) 后续仍应以正式补丁说明和当前版本表现为准，而不是把旧社区经验永远当成固定物理规则\n\n所以这页现在保留的是**高帧率与漂移异常的排查逻辑和临时 workaround**，而不是继续把它写成完全盖棺定论的 Bug 公告。",
+    "answerEn": "This drift issue is safer to frame as a **widely reported troubleshooting pattern** than as a permanently settled official truth. For affected players, the practical question is simple: does lowering the FPS cap noticeably restore drift consistency in the version you are playing right now?\n\nA safer way to handle it is:\n1. Lower the FPS cap to 60 or 30 and test whether drift triggering becomes more reliable\n2. If that helps, treat it as a useful live-version workaround rather than a universal law of the driving system\n3. Keep checking current patch notes and in-game behavior instead of assuming older community findings remain permanently exact\n\nSo this page now focuses on drift-troubleshooting logic and temporary mitigation rather than presenting the issue as a closed-form official bug notice.",
     "tags": [
       "bug",
       "fps",
@@ -5547,7 +5547,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環FPS設定高導致車輛無法漂移？幀率漂移Bug怎麼解決？",
-    "answerTw": "這是一個已確認的Bug：**FPS設定越高，車輛越難漂移**。原因是幀率影響了漂移判定的物理計算。多位玩家在Reddit和社群反饋並確認了此問題。解決方法：1) 將FPS上限設定為60幀或30幀，幀率越低漂移越容易觸發；2) 在設定→畫面→幀率限制中調整；3) 等待官方修復補丁，此Bug已在CN服被確認為已知問題。如果你發現駕駛時完全無法漂移，大機率是FPS設定過高導致的。",
+    "answerTw": "這類「高幀率更難漂移」的問題，目前更適合按**社群高頻反饋下的實用排查項**來理解，而不是直接寫成已經被永久坐實的官方結論。對遇到問題的玩家來說，更重要的是先驗證：降低幀率上限後，漂移手感是否明顯恢復正常。\n\n更實用的處理方式是：\n1) 先把 FPS 上限降到 60 或 30，觀察漂移觸發是否穩定\n2) 如果問題緩解，再把它視為目前版本下值得保留的臨時規避方案\n3) 後續仍應以正式補丁說明和當前版本表現為準，而不是把舊社群經驗永遠當成固定物理規則\n\n所以這頁現在保留的是**高幀率與漂移異常的排查邏輯和臨時 workaround**，而不是繼續把它寫成完全蓋棺定論的 Bug 公告。",
     "categoryTw": "問題修復"
   },
   {
@@ -6548,8 +6548,8 @@
     "id": "faq-lacrimosa-team",
     "question": "异环安魂曲需要早雾吗？",
     "questionEn": "Does Lacrimosa need Hayashikiri in NTE?",
-    "answer": "安魂曲的强度高度依赖配队。没有早雾时DPS可能损失30%以上，因为早雾提供的增益对安魂曲的暗属性持续伤害体系非常关键。如果有早雾，安魂曲是T0级输出；没有的话建议1命即可，不要强抽6命。",
-    "answerEn": "Lacrimosa's DPS can drop 30%+ without Hayashikiri, whose buffs are critical for her Chaos DoT playstyle. With Hayashikiri she's T0-tier. Without her, 1-name constellation is recommended over 6-name.",
+    "answer": "安魂曲的表现确实很看配队，但这页现在更适合回答**她对关键队友和资源投入的依赖度有多高**，而不是继续给出一个像固定倍率表一样的旧结论。对当前玩家来说，更重要的是判断：你的账号有没有能让她顺利运转的辅助、以及你愿不愿意为她承担更高的配队门槛。\n\n更稳妥的理解方式是：\n1) 如果你的队伍已经有能稳定补增益、维持循环或放大持续伤害价值的角色，她会更容易打出应有上限\n2) 如果关键搭档缺失，她往往仍能玩，但投入回报可能没有看上去那么夸张\n3) 与其把她简单写成某种固定 T0 结论，不如先判断她是否真的能进入你的主力体系\n\n所以这页现在保留的是**安魂曲的配队依赖与投入判断逻辑**，而不是继续把旧版本数字和档位当成当前定论。",
+    "answerEn": "Lacrimosa is still a character whose performance depends heavily on **team support and roster context**, but this page is more useful when it explains that dependency than when it freezes old percentage claims into permanent truth. For current players, the real question is whether your account has the support structure that lets her sustained-damage pattern actually shine.\n\nA safer way to judge her is:\n1. She tends to look much better when your team can consistently provide the buffs, setup, and rotation stability her damage profile wants\n2. Without those pieces, she may still be playable, but the return on heavy investment can feel much less impressive\n3. Instead of reducing her to a fixed T0 label, first ask whether she genuinely upgrades your main team structure\n\nSo this page now focuses on Lacrimosa's team dependence and investment logic rather than preserving old percentage-based certainty.",
     "tags": [
       "lacrimosa",
       "team",
