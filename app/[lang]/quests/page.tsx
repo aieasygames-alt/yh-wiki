@@ -3,6 +3,7 @@ import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllQuests, getQuestsByType } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
+import { localizedText } from "../../../lib/seo-copy";
 
 const typeBadgeBg: Record<string, string> = {
   "side-quest": "bg-emerald-500/10 border-emerald-500/30 text-emerald-400",
@@ -14,12 +15,11 @@ const difficultyStars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const isZh = isZhLocale(locale);
+  const title = localizedText(locale, "异环任务攻略 — 支线任务与异象委托全攻略", "NTE Quest Guide — Side Quests & Anomaly Commissions");
+  const description = localizedText(locale, "异环(NTE)全任务攻略，包含支线任务和异象委托的详细步骤、奖励、区域位置、难度与攻略提示。", "Complete quest guide for Neverness to Everness. Side quests and anomaly commissions with step-by-step walkthroughs, rewards, region locations, difficulty, and tips.");
   return {
-    title: isZh ? "异环任务攻略 — 支线任务与异象委托全攻略" : "NTE Quest Guide — Side Quests & Anomaly Commissions",
-    description: isZh
-      ? "异环(NTE)全任务攻略，包含支线任务和异象委托的详细步骤、奖励和攻略指南。"
-      : "Complete quest guide for Neverness to Everness. Side quests and anomaly commissions with step-by-step walkthroughs and rewards.",
+    title,
+    description,
     alternates: hreflangAlternates("quests", lang),
   };
 }
@@ -53,6 +53,19 @@ export default async function QuestsPage({ params }: { params: { lang: string } 
               : `${quests.length} quests with step-by-step walkthroughs, rewards, and guides for side quests and anomaly commissions.`}
           </p>
         </div>
+
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-lg font-bold mb-3">
+            {localizedText(locale, "任务数据库说明", "Quest Database Overview")}
+          </h2>
+          <p className="text-sm text-gray-300 leading-relaxed">
+            {localizedText(
+              locale,
+              `任务列表按支线任务和异象委托分类，覆盖触发区域、难度、奖励、完成步骤与关联角色。建议先查看区域和难度，再进入详情页确认路线、战斗提示和奖励是否符合当前养成目标。`,
+              `The quest list is grouped into side quests and anomaly commissions, covering trigger regions, difficulty, rewards, walkthrough steps, and related characters. Check region and difficulty first, then open a detail page to confirm route, combat tips, and whether the rewards match your current progression goals.`
+            )}
+          </p>
+        </section>
 
         {/* Side Quests */}
         {sideQuests.length > 0 && (

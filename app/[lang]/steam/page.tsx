@@ -5,6 +5,7 @@ import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 import { FaqSection } from "../../../components/FaqSection";
+import { localizedText } from "../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -13,12 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale)
-    ? "异环 Steam 版：2026年7月22日发售、PC配置要求、与移动端区别全解析"
-    : "NTE on Steam: July 22 2026 Release, PC Specs & Mobile vs PC Differences";
-  const description = isZhLocale(locale)
-    ? "异环 Steam 版 2026 年 7 月 22 日发售。本文覆盖 Steam 版发售时间、PC 最低/推荐配置、与移动端的画面与操作差异、跨平台账号互通、以及 Steam 版值不值得等要点。"
-    : "Neverness to Everness launches on Steam July 22, 2026. This guide covers the Steam release date, PC minimum/recommended specs, visual and control differences vs mobile, cross-platform account sharing, and whether the Steam version is worth it.";
+  const title = localizedText(locale, "异环 Steam 版：2026年7月22日发售、PC配置要求、与移动端区别全解析", "NTE on Steam: July 22 2026 Release, PC Specs & Mobile vs PC Differences");
+  const description = localizedText(locale, "异环 Steam 版 2026 年 7 月 22 日发售。本文覆盖 Steam 版发售时间、PC 最低/推荐配置、与移动端的画面与操作差异、跨平台账号互通、以及 Steam 版值不值得等要点。", "Neverness to Everness launches on Steam July 22, 2026. This guide covers the Steam release date, PC minimum/recommended specs, visual and control differences vs mobile, cross-platform account sharing, and whether the Steam version is worth it.");
   return {
     title,
     description,

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { isZhLocale, Locale, hreflangAlternates, t, LOCALES } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
+import { localizedText } from "../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -17,9 +18,12 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
   return {
     title,
-    description: isZhLocale(locale)
-      ? "NTE Guide 网站地图 — 快速找到你需要的攻略、工具和资源。"
-      : "NTE Guide sitemap — quickly find the guides, tools, and resources you need.",
+    description: localizedText(
+      locale,
+      "NTE Guide 网站地图 — 汇总异环攻略、工具、数据库、比较页和资源入口，快速找到你需要的内容。",
+      "NTE Guide sitemap — quickly find every guide, tool, database page, comparison hub, FAQ, and resource for Neverness to Everness.",
+      "NTE Guide 繁中網站地圖 — 整理異環攻略、工具、資料庫、比較頁與常見問題入口，方便快速定位內容。"
+    ),
     alternates: hreflangAlternates("sitemap", lang),
   };
 }

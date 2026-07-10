@@ -882,6 +882,8 @@
     "id": "weapon-upgrade",
     "question": "异环武器怎么强化？",
     "questionEn": "How to upgrade weapons in NTE?",
+    "seoTitleEn": "NTE Weapon Upgrade System — Ascension, Passive Skills & Priority Guide",
+    "seoDescriptionEn": "Learn how NTE weapon upgrades work: level caps, ascension materials, passive skill unlocks, rarity differences, and which main DPS weapons to upgrade first.",
     "answer": "异环武器强化系统：1) 武器可以通过消耗材料进行升级，提升基础攻击力；2) 每把武器有等级上限，达到上限后需要突破才能继续升级；3) 武器突破需要特定的突破材料，通常通过材料副本获取；4) 武器有被动技能，在特定等级节点解锁或强化；5) 武器分为不同稀有度（如S级、A级），稀有度越高上限越高。建议优先强化主力角色的武器，资源有限时不要分散投入。",
     "answerEn": "NTE weapon upgrade system: 1) Weapons are upgraded by consuming materials to increase base attack; 2) Each weapon has a level cap that requires ascension to exceed; 3) Ascension requires specific materials from material domains; 4) Weapons have passive skills that unlock or improve at certain level thresholds; 5) Weapons come in different rarities (S-rank, A-rank), with higher rarity having higher caps. Prioritize upgrading weapons for your main characters — don't spread resources thin.",
     "tags": [
@@ -2415,6 +2417,8 @@
     "id": "weapon-upgrade-faq",
     "question": "异环武器怎么升级？武器强化材料哪里刷？",
     "questionEn": "How to upgrade weapons in NTE?",
+    "seoTitleEn": "Where to Farm NTE Weapon Upgrade Materials — Dungeon & Shop Guide",
+    "seoDescriptionEn": "Find NTE weapon enhancement materials from Houdini's Magic Stage, anomaly drops, and shops, with upgrade priority tips for S-rank, A-rank, main DPS, and support weapons.",
     "answer": "武器材料来源：1) 胡迪尼的魔术舞台副本（固定掉落）；2) 异象挑战掉落；3) 商店兑换。建议：优先升S级角色武器到上限；A级只过渡；不浪费在B/C级。主C武器等级=角色等级，辅助可低10-20级。",
     "answerEn": "Materials: Houdini dungeon, anomaly drops, shop. Prioritize S-rank weapons. Main DPS weapon = char level, support 10-20 lower.",
     "tags": [
@@ -4948,6 +4952,8 @@
     "id": "romance-system-guide",
     "question": "异环有恋爱/浪漫系统吗？可以和角色谈恋爱吗？",
     "questionEn": "Does NTE have a romance system? Can you date characters?",
+    "seoTitleEn": "NTE Romance System Guide — Affinity, Character Stories & Dating Features",
+    "seoDescriptionEn": "Complete guide to the confirmed NTE romance system: affinity growth, character story scenes, special interactions, possible rewards, and how to trigger relationship content.",
     "answer": "是的，异环1.0版本中**确认存在浪漫（Romance）系统**。根据Game8等权威游戏媒体的确认，玩家可以与游戏中的某些角色发展更深层次的关系。\n\n**浪漫系统可能包含的内容**：\n- 角色好感度/亲密度提升\n- 专属剧情场景解锁\n- 特殊互动事件\n- 限定奖励获取\n\n目前浪漫系统的具体细节（如可攻略角色名单、好感度提升方式、结局数量等）还在持续探索中。建议多与NPC对话、完成角色相关支线任务来触发浪漫事件。\n\n需要注意的是，浪漫系统是游戏的辅助玩法，不会影响核心战斗体验，但能为游戏增添更多沉浸感和长期游玩动力。",
     "answerEn": "Yes, a **Romance system is confirmed** in NTE Version 1.0. According to authoritative gaming outlets like Game8, players can develop deeper relationships with certain characters in the game.\n\n**The Romance system likely includes**:\n- Character affinity/affection increases\n- Exclusive story scenes\n- Special interaction events\n- Limited rewards\n\nSpecific details (romanceable character list, how to increase affinity, number of endings, etc.) are still being discovered. We recommend talking to NPCs frequently and completing character-related side quests to trigger romance events.\n\nNote that the romance system is a supplementary feature that doesn't affect core gameplay, but adds immersion and long-term engagement to the game.",
     "tags": [
@@ -5126,6 +5132,8 @@
     "id": "romance-system-explained",
     "question": "异环有浪漫系统吗？可以和角色谈恋爱吗？",
     "questionEn": "Does NTE have a romance system? Can you date characters?",
+    "seoTitleEn": "Is Romance Confirmed in NTE? Short Answer, Dating Limits & Update Notes",
+    "seoDescriptionEn": "Quick answer on whether NTE has romance: what is confirmed in version 1.0, what dating details are still unknown, and where to check affinity and character story updates.",
     "answer": "根据Game8等权威游戏媒体确认，异环1.0版本中确实存在浪漫（Romance）系统。玩家可以与某些角色发展更深层次的关系，包括角色好感度提升、专属剧情解锁、特殊互动场景和限定奖励。具体可攻略角色名单和触发条件还在持续探索中，建议关注游戏内的好感度系统和角色个人剧情。",
     "answerEn": "According to authoritative gaming outlets like Game8, a Romance system does exist in NTE Version 1.0. Players can develop deeper relationships with certain characters, including affinity/affection increases, exclusive story scenes, special interaction events, and limited rewards. The specific dateable characters and trigger conditions are still being explored. Check the in-game affinity system and character stories for details.",
     "tags": [

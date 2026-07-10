@@ -32,7 +32,12 @@ export async function generateMetadata({
 
   const locale = lang as Locale;
   const title = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
-  const description = localizedText(locale, guide.summary, guide.summaryEn, guide.summaryTw);
+  const description = localizedText(
+    locale,
+    "异环 Boss 图鉴入口：汇总世界 Boss、精英异象与普通异象数量，按类型查看弱点、掉落、机制说明和对应打法攻略。",
+    "NTE boss index: browse world bosses, elite anomalies, and normal anomalies by type, with weakness notes, drop rewards, mechanics, and strategy links.",
+    "異環 Boss 圖鑑入口：整理世界 Boss、精英異象與普通異象數量，依類型查看弱點、掉落、機制說明與打法攻略。"
+  );
   const suffix = localizedText(locale, "异环攻略", "Neverness to Everness Guide");
   return {
     title: `${title} - ${suffix} | NTE Guide`,

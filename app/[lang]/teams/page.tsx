@@ -9,6 +9,7 @@ import { ArticleContent } from "../../../components/ArticleContent";
 import { TierBadge } from "../../../components/TierBadge";
 import { GameImage } from "../../../components/GameImage";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
+import { localizedText } from "../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -167,12 +168,8 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = isZhLocale(locale)
-    ? "异环最佳配队推荐 — 全角色队伍组合与Esper Cycle反应链"
-    : "NTE Best Team Compositions — All Character Teams & Esper Cycle Reactions";
-  const description = isZhLocale(locale)
-    ? "异环全角色配队推荐：每角色的最佳队伍组合、Esper Cycle反应链、平民替代方案，按强度排序。"
-    : "Best team compositions for all NTE characters: optimal teams, Esper Cycle reaction chains, F2P alternatives, ranked by tier.";
+  const title = localizedText(locale, "异环最佳配队推荐 — 全角色队伍组合与Esper Cycle反应链", "NTE Best Team Compositions — All Character Teams & Esper Cycle Reactions");
+  const description = localizedText(locale, "异环全角色配队推荐：每角色的最佳队伍组合、Esper Cycle反应链、平民替代方案，按强度排序。", "Best team compositions for all NTE characters: optimal teams, Esper Cycle reaction chains, F2P alternatives, ranked by tier.");
   return {
     title,
     description,

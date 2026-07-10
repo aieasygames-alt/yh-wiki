@@ -4,6 +4,7 @@ import gachaSystemData from "../../../../data/gacha-system.json";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqSection } from "../../../../components/FaqSection";
 import { FaqPageJsonLd } from "../../../../components/JsonLd";
+import { localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -16,14 +17,18 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title =
-    isZhLocale(locale)
-      ? "异环抽卡系统详解 — 保底机制、概率分析与抽卡策略 | NTE Guide"
-      : "NTE Gacha System — Rates, Pity & Best Pull Strategy | NTE Guide";
-  const description =
-    isZhLocale(locale)
-      ? "全面解析异环(NTE)抽卡系统：无50/50机制、90抽保底、新手20抽自选、概率分析与零氪最优抽卡策略。"
-      : "Complete guide to Neverness to Everness gacha system: no 50/50, 90-pull pity, beginner 20-pull selector, rates analysis and F2P strategy.";
+  const title = localizedText(
+    locale,
+    "异环抽卡系统详解 — 保底机制、概率分析与抽卡策略 | NTE Guide",
+    "NTE Gacha System — Rates, Pity & Best Pull Strategy | NTE Guide",
+    "異環抽卡系統完整解析 — 保底、機率與抽取規劃 | NTE Guide"
+  );
+  const description = localizedText(
+    locale,
+    "全面解析异环(NTE)抽卡系统：无50/50机制、90抽保底、新手20抽自选、概率分析与零氪最优抽卡策略。",
+    "Complete guide to Neverness to Everness gacha system: no 50/50, 90-pull pity, beginner 20-pull selector, rates analysis and F2P strategy.",
+    "繁中玩家適用的異環(NTE)抽卡指南：整理無50/50、90抽保底、新手20抽自選、卡池機率與無課抽取優先順序。"
+  );
   return {
     title,
     description,
