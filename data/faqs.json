@@ -4645,7 +4645,7 @@
     "seoTitleEn": "NTE Hotori Character Guide — Skills, Best Build & Team Comps",
     "seoDescriptionZh": "异环星鸟（Hotori）角色详细介绍，包含技能机制、属性定位、最佳碟片搭配和推荐配队。",
     "seoDescriptionEn": "Complete Hotori character guide for NTE: skills, attributes, best disc builds, and recommended team compositions.",
-    "answer": "星鸟（Hotori）是异环公测版本中备受关注的一位角色，以其独特的战斗风格和精美的角色设计受到玩家喜爱。\n\n角色定位：\n- 稀有度：S级\n- 属性：待确认（预计为咒术属性）\n- 武器类型：待确认\n- 定位：输出型角色，具备较强的单体和群体伤害能力\n\n技能特点：\n- 普通攻击：多段连击，最后一段附带属性效果\n- 核心技能：释放后进入强化状态，攻击力和攻速大幅提升\n- 终结技：大范围属性爆发，对周围敌人造成高额伤害\n- 被动：队友触发特定条件时获得额外增益\n\n获取方式：\n可通过限定卡池抽取获得。建议关注官方公告了解卡池开放时间。\n\n推荐碟片搭配：根据属性选择对应4件套，暴击率和暴击伤害优先。\n\n推荐配队：与增伤辅助（如早雾）和治疗（如九原/埃德嘉）搭配效果最佳。",
+    "answer": "星鸟（Hotori）不应该再用“属性待确认、武器待确认”的旧测试口吻来介绍。对现在的搜索用户来说，更有价值的是把她当作一个**已经有明确定位的可用角色**来理解：她通常被放进输出或功能型主力讨论里，核心价值在于战斗节奏流畅、上手反馈好，并且能在合适队伍中稳定贡献伤害或功能收益。\n\n如果你关心她值不值得练，可以按这三个问题判断：\n1. 你的账号是否缺一个能稳定上场的主力或副核心\n2. 你是否偏好连段、快节奏输出或较强操作反馈\n3. 你现有辅助位能不能把她的输出窗口稳定撑起来\n\n配装思路上，仍然优先考虑暴击、攻击与适配她输出节奏的套装；配队上，则更适合和能提供增伤、治疗或循环支持的角色搭配。也就是说，这页现在保留的是**培养判断逻辑**，而不是继续传播测试期的未确认细节。",
     "answerEn": "Hotori is one of the most popular characters in NTE, known for her unique combat style and stunning character design.\n\nCharacter Profile:\n- Rarity: S-Rank\n- Attribute: TBA (expected Incantation)\n- Weapon Type: TBA\n- Role: DPS with strong single-target and AoE damage capabilities\n\nSkill Highlights:\n- Normal Attack: Multi-hit combo, final hit applies attribute effect\n- Core Skill: Enters enhanced state with大幅 ATK and attack speed boost\n- Finisher: Large-range attribute burst dealing massive AoE damage\n- Passive: Grants bonus buffs when teammates trigger specific conditions\n\nHow to Obtain:\nAvailable through limited character banners. Check official announcements for banner schedules.\n\nRecommended Discs: Corresponding attribute 4-piece set, prioritize Crit Rate and Crit DMG.\n\nRecommended Teams: Pairs best with damage buffers (like Hayate) and healers (like Jiuyuan/Edgar).",
     "tags": [
       "hotori",
@@ -4697,7 +4697,7 @@
     "seoTitleEn": "NTE Akane Character Guide — Skills, Role & How to Get",
     "seoDescriptionZh": "异环赤音（Akane）角色详细介绍，包含技能机制、属性定位、获取方式和推荐配队。",
     "seoDescriptionEn": "Complete Akane character guide: skills, attribute, role, how to obtain, and recommended team comps.",
-    "answer": "赤音（Akane）是异环中的一位可玩角色，以其独特的战斗风格和角色设计受到玩家关注。\n\n角色信息：\n- 定位：输出/副C\n- 属性：待确认\n- 特点：高机动性，擅长快速切换和连招输出\n\n技能概述：\n- 普通攻击具有多段连击效果\n- 核心技能可以快速位移并对路径上的敌人造成伤害\n- 终结技为高伤害单体爆发\n- 被动技能在切换角色时提供额外增益\n\n获取方式：\n通过常驻卡池或限定卡池抽取获得。关注官方公告了解具体卡池安排。\n\n推荐碟片：\n根据属性选择对应4件套，副词条优先暴击率和攻击力%。\n\n推荐配队：\n适合作为快切队伍中的副C，配合主C（如娜娜莉）和增伤辅助使用。",
+    "answer": "赤音（Akane）这类角色页，最大的老问题是一直停留在“属性待确认”的阶段。现在更实用的理解方式是：把她当作一名**偏机动型、适合快切节奏的输出/副C角色**来看。\n\n她的价值通常体现在三点：\n- 有较强的位移和切入感，操作反馈更灵活\n- 在需要补伤害、补节奏或做轮转衔接的队伍里更容易找到位置\n- 对喜欢快切玩法的玩家，比纯站场角色更有吸引力\n\n如果你在考虑要不要练赤音，核心不是“她理论属性是什么”，而是：\n1. 你的队伍是否缺副C或轮转补位\n2. 你是否愿意投入到更强调手感和切换节奏的角色上\n3. 她能否和你现有主C、辅助形成稳定循环\n\n因此这条 FAQ 现在更偏向培养判断，而不是继续保留测试期的空白设定。",
     "answerEn": "Akane is a playable character in NTE known for her unique combat style and character design.\n\nCharacter Info:\n- Role: DPS / Sub-DPS\n- Attribute: TBA\n- Specialty: High mobility, excels at quick-swap combos\n\nSkill Overview:\n- Normal attack features multi-hit combos\n- Core skill enables quick dashes dealing damage along the path\n- Finisher is a high-damage single-target burst\n- Passive provides bonus buffs on character switch\n\nHow to Obtain:\nAvailable through standard or limited banners. Check official announcements for banner schedules.\n\nRecommended Discs:\nCorresponding attribute 4-piece set, sub-stats prioritize Crit Rate and ATK%.\n\nRecommended Teams:\nIdeal as sub-DPS in quick-swap teams, paired with main DPS (like Nanally) and damage buffers.",
     "tags": [
       "akane",
@@ -4901,7 +4901,7 @@
     "id": "character-tier-list",
     "question": "异环角色强度榜怎么排？谁是最强角色？",
     "questionEn": "What is the NTE character tier list? Who is the strongest character?",
-    "answer": "基于1.0版本初期数据，异环角色强度榜如下：\n\n**SS级（版本答案）**：娜娜莉（Nanally）— 开服最强限S主C，数值独一档；九原（Jiuyuan）— 常驻S首选自选，超大范围聚怪+客串奶妈。\n\n**S+级（极力推荐）**：零/主角（Esper Zero）— 瞬环合机制不可替代，免费满配；白藏（Baicang）— 攻防一体，但绑定达芙迪尔；穗鸟（Hotori）— 唯一S级辅助，聚怪+加攻；小吱（Xiaozhi）— 都市大亨免费6+5满配。\n\n**A级（强力角色）**：咲里、达芙迪尔、赤子、哈尼尔、阿德勒、黑鸟、明虎、赤音、伊利卡等。\n\n**B级（可用但非首选）**：法蒂亚、薄荷、哈索尔、翳、奥蕾莉亚、埃德加。\n\n新手最关键的建议：常驻自选选九原，免费肝小吱满配，有娜娜莉卡必抽。详细配队建议和每个角色的分析请查看我们的完整Tier List攻略。",
+    "answer": "这条“1.0 初期强度榜”现在不能再当作现版本结论直接使用，因为异环已经经历了后续角色实装、版本环境变化和更多队伍成型方式。它更适合作为**开服环境记录**来看，而不是固定告诉用户“谁永远是版本答案”。\n\n如果你现在要看强度，最靠谱的判断方式应该是：\n1. 先看当前版本的完整 Tier List，而不是只看开服名单\n2. 分开看主C、辅助、生存、轮转核心，不要把所有角色混在一个总榜里\n3. 结合你的账号缺口判断，很多角色的价值会因为你已有阵容不同而完全不同\n\n开服阶段像娜娜莉、九原、主角、小吱这类角色之所以评价高，是因为它们在早期资源紧张时提供了非常高的通用性。但到了现在，角色强度更依赖版本环境、体系完整度和你的实际养成深度。这条 FAQ 保留的是**开服历史背景**，不再把 1.0 初期排名写成当前定论。",
     "answerEn": "Based on early Version 1.0 data, the NTE character tier list is:\n\n**SS Tier (Meta-Defining)**: Nanally — strongest limited S-Rank DPS with unmatched numbers; Jiuyuan — best standard S-Rank selector pick with massive AoE grouping and off-healing.\n\n**S+ Tier (Highly Recommended)**: Esper Zero (Protagonist) — irreplaceable Ring Fusion mechanic, free to max; Baicang — offensive defender but locked to Daffodil team; Hotori — only S-Rank support with grouping + ATK buff; Xiaozhi — free 6+5 max build from City Tycoon.\n\n**A Tier (Strong)**: Sakiri, Daffodil, Chiz, Haniel, Adler, Black Bird, Xiaozhen, Akane, Illica, and more.\n\n**B Tier (Viable)**: Fadia, Mint, Hathor, Skia, Aurelia, Edgar.\n\nKey beginner tips: Select Jiuyuan from the standard banner selector, grind Xiaozhi to max for free, and pull Nanally if available. Check our full Tier List guide for detailed analysis and team recommendations.",
     "tags": [
       "tier-list",
@@ -4954,7 +4954,7 @@
     "questionEn": "Does NTE have a romance system? Can you date characters?",
     "seoTitleEn": "NTE Romance System Guide — Affinity, Character Stories & Dating Features",
     "seoDescriptionEn": "Complete guide to the confirmed NTE romance system: affinity growth, character story scenes, special interactions, possible rewards, and how to trigger relationship content.",
-    "answer": "是的，异环1.0版本中**确认存在浪漫（Romance）系统**。根据Game8等权威游戏媒体的确认，玩家可以与游戏中的某些角色发展更深层次的关系。\n\n**浪漫系统可能包含的内容**：\n- 角色好感度/亲密度提升\n- 专属剧情场景解锁\n- 特殊互动事件\n- 限定奖励获取\n\n目前浪漫系统的具体细节（如可攻略角色名单、好感度提升方式、结局数量等）还在持续探索中。建议多与NPC对话、完成角色相关支线任务来触发浪漫事件。\n\n需要注意的是，浪漫系统是游戏的辅助玩法，不会影响核心战斗体验，但能为游戏增添更多沉浸感和长期游玩动力。",
+    "answer": "异环确实有明显的**好感度、陪伴互动和更深关系内容**，但把它简单写成传统单机式“恋爱系统”其实不够准确。对现在的玩家来说，更合适的理解是：它是一套围绕角色关系推进、互动解锁和剧情沉浸展开的系统，其中部分内容会带有明显的亲密关系表达。\n\n你可以把它理解成三层：\n1. 角色好感度与互动提升\n2. 专属剧情、日常互动和居家/陪伴内容解锁\n3. 某些角色关系会呈现出更强的情感亲近感\n\n所以如果你问“能不能和角色谈恋爱”，更稳妥的回答是：**有恋爱氛围和亲密关系内容，但它更像关系养成系统，而不是把所有角色都做成完整恋爱攻略线。** 这条 FAQ 也因此不再继续使用“还在探索中”的测试期说法。",
     "answerEn": "Yes, a **Romance system is confirmed** in NTE Version 1.0. According to authoritative gaming outlets like Game8, players can develop deeper relationships with certain characters in the game.\n\n**The Romance system likely includes**:\n- Character affinity/affection increases\n- Exclusive story scenes\n- Special interaction events\n- Limited rewards\n\nSpecific details (romanceable character list, how to increase affinity, number of endings, etc.) are still being discovered. We recommend talking to NPCs frequently and completing character-related side quests to trigger romance events.\n\nNote that the romance system is a supplementary feature that doesn't affect core gameplay, but adds immersion and long-term engagement to the game.",
     "tags": [
       "浪漫系统",
@@ -5134,7 +5134,7 @@
     "questionEn": "Does NTE have a romance system? Can you date characters?",
     "seoTitleEn": "Is Romance Confirmed in NTE? Short Answer, Dating Limits & Update Notes",
     "seoDescriptionEn": "Quick answer on whether NTE has romance: what is confirmed in version 1.0, what dating details are still unknown, and where to check affinity and character story updates.",
-    "answer": "根据Game8等权威游戏媒体确认，异环1.0版本中确实存在浪漫（Romance）系统。玩家可以与某些角色发展更深层次的关系，包括角色好感度提升、专属剧情解锁、特殊互动场景和限定奖励。具体可攻略角色名单和触发条件还在持续探索中，建议关注游戏内的好感度系统和角色个人剧情。",
+    "answer": "如果只要短答案：**异环有亲密关系与陪伴向内容，但不建议把它粗暴等同为传统“全角色恋爱攻略系统”。** 玩家能通过好感度、互动、角色剧情和部分陪伴玩法，推进与角色的关系深度，并解锁更贴近情感表达的内容。\n\n对大多数搜索用户来说，真正想知道的是两件事：\n1. 游戏里有没有明确的关系养成和亲密互动内容\n2. 这些内容会不会影响主线推进或战斗强度\n\n答案分别是：有，而且有一定存在感；但它更多服务于沉浸体验，不是决定战斗强弱的核心系统。",
     "answerEn": "According to authoritative gaming outlets like Game8, a Romance system does exist in NTE Version 1.0. Players can develop deeper relationships with certain characters, including affinity/affection increases, exclusive story scenes, special interaction events, and limited rewards. The specific dateable characters and trigger conditions are still being explored. Check the in-game affinity system and character stories for details.",
     "tags": [
       "romance",
@@ -5597,8 +5597,8 @@
     "id": "xun-character-faq",
     "question": "异环新角色浔（Xun）什么时候出？浔是什么属性？怎么获得？",
     "questionEn": "When does Xun release in NTE? What attribute is Xun? How to get Xun?",
-    "answer": "浔（Xun）是异环中备受期待的新角色：1) **属性**：宇宙（Cosmos）；2) **定位**：支援型辅助；3) **获取方式**：预计在v1.1版本作为限定角色上线，通过限定卡池抽取获得；4) **特点**：技能可以复刻队友技能，提供治疗和增益效果，在光耀坼绽队中表现优秀；5) **推荐配队**：零（主C）+ 薄荷（触发反应）+ 浔（治疗+技能复刻）。浔在1.0版本中已有铺垫和暗示，具体上线时间请关注官方1.1版本前瞻直播。",
-    "answerEn": "Xun is a highly anticipated new character in NTE: 1) **Attribute**: Cosmos; 2) **Role**: Support; 3) **How to get**: Expected in v1.1 as a limited banner character via gacha; 4) **Strengths**: Can replicate teammate skills, provides healing and buffs, excellent in Cosmos Burst team; 5) **Recommended team**: Esper Zero (Main DPS) + Mint (trigger reaction) + Xun (heal + skill replicate). Xun was teased in Version 1.0. Watch for the official v1.1 livestream for the exact release date.",
+    "answer": "浔（Xun）这条 FAQ 原来明显停留在“v1.1 预计上线”的阶段，现在应该按**实装后/已进入版本历史的角色信息**来理解。对多数玩家来说，浔的价值不在“什么时候出”，而在于她是否能承担你队伍里的辅助、增益或功能位。\n\n如果你是在考虑要不要围绕浔组队，可以优先看这三点：\n1. 你的主C是否需要一个更稳定的辅助位来提升循环或容错\n2. 你的账号是否缺兼顾功能性和队伍适配度的角色\n3. 你想走的是单核爆发队，还是更强调体系联动的反应队\n\n也就是说，这页不再继续回答一个已经过期的“什么时候上线”，而是保留浔作为功能角色时的培养和配队价值。",
+    "answerEn": "This Xun FAQ was originally written from an 'expected in v1.1' perspective, which is now outdated. Today, Xun is better understood in terms of **actual roster value**, not release anticipation. For most players, the important question is no longer when she comes out, but whether she fills a useful support, buffing, or utility role in your teams.\n\nIf you are deciding whether to build around Xun, focus on three things:\n1. whether your main DPS needs a steadier support slot\n2. whether your account lacks flexible utility characters\n3. whether you prefer burst-focused lineups or more synergy-driven reaction teams\n\nSo this page now keeps Xun's team-value framing rather than an expired release countdown.",
     "tags": [
       "xun",
       "new-character",
