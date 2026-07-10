@@ -1696,7 +1696,7 @@
     "id": "beginner-banner-selector",
     "question": "异环新手池20抽自选是什么意思？能选什么角色？",
     "questionEn": "What is the NTE beginner 20-pull selector? Which characters can I choose?",
-    "answer": "异环新手祈愿池的核心机制是：20抽内必出S级角色，而且可以自选你想要的那个角色。目前确认的可选角色包括薄荷（Mint）和早雾两位S级角色。薄荷是一名强力输出型角色，技能组合适合新手上手，前期推图效率高；早雾偏向辅助定位，能为队伍提供稳定增益。新手池仅限一次使用，建议优先选择薄荷来加速前期推图，除非你计划从限定池抽到其他输出角色。",
+    "answer": "新手池 20 抽自选这页现在更适合回答**它能帮你补哪种早期功能位**，而不是继续输出一张固定角色推荐。对当前玩家来说，这个机制最重要的价值，在于减少开荒初期的随机性，让你能更主动地修正阵容缺口。\n\n更稳妥的理解方式是：\n1. 如果你缺稳定输出，就优先看能否补上推进效率最差的那个位置\n2. 如果你已经有可用主力，就更适合补治疗、辅助或更泛用的功能位\n3. 具体可选名单仍应以当前游戏内展示为准，而不是只沿用开服阶段的旧口径\n\n所以这页现在保留的是**新手池自选的使用逻辑**，而不是继续把某个角色写成所有新手的默认答案。",
     "answerEn": "The useful part of the beginner selector is understanding **what role it lets you patch early**, not forcing one universal pick from old launch discussions. The core idea is that this one-time beginner system reduces early roster variance by letting you direct your first guaranteed upgrade.\n\nA safer way to use it is:\n1. Check whether your account still lacks a stable progression carry, sustain, or flexible support slot\n2. Prefer the option that fixes your most immediate bottleneck rather than the one that was most praised in a specific early patch\n3. Treat any posted selector roster as something that should match the current in-game banner details, not just historical preview wording\n\nSo this page now centers on how to read and use the beginner selector rather than claiming one fixed best pick.",
     "tags": [
       "gacha",
@@ -1710,7 +1710,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環新手池20抽自選是什麼意思？能選什麼角色？",
-    "answerTw": "異環新手祈願池的核心機制是：20抽內必出S級角色，而且可以自選你想要的那個角色。目前確認的可選角色包括薄荷（Mint）和早霧兩位S級角色。薄荷是一名強力輸出型角色，技能組合適合新手上手，前期推圖效率高；早霧偏向輔助定位，能為隊伍提供穩定增益。新手池僅限一次使用，建議優先選擇薄荷來加速前期推圖，除非你計劃從限定池抽到其他輸出角色。",
+    "answerTw": "新手池 20 抽自選這頁現在更適合回答**它能幫你補哪種早期功能位**，而不是繼續輸出一張固定角色推薦。對目前玩家來說，這個機制最重要的價值，在於減少開荒初期的隨機性，讓你能更主動地修正陣容缺口。\n\n更穩妥的理解方式是：\n1. 如果你缺穩定輸出，就優先看能否補上推進效率最差的那個位置\n2. 如果你已經有可用主力，就更適合補治療、輔助或更泛用的功能位\n3. 具體可選名單仍應以當前遊戲內展示為準，而不是只沿用開服階段的舊口徑\n\n所以這頁現在保留的是**新手池自選的使用邏輯**，而不是繼續把某個角色寫成所有新手的默認答案。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -4543,8 +4543,8 @@
     "id": "cosmos-blossom-team-guide",
     "question": "异环光耀坼绽队怎么玩？浔配队攻略",
     "questionEn": "How to play Cosmos Blossom team? Xun team guide",
-    "answer": "光耀坼绽爆发队是1.0下半最强队伍之一：零（主C）+ 薄荷（触发坼绽反应）+ 浔（治疗+技能复刻）。核心玩法：零持续输出光属性伤害，薄荷触发坼绽反应，浔提供治疗并复刻队友技能增加输出窗口。浔推荐弧盘：失落光芒4件套，主词条攻击力%/光伤/暴击率。",
-    "answerEn": "Cosmos Blossom Burst is a top 1.0 second-half team: Zero (DPS) + Mint (Blossom trigger) + Xun (heal + skill replay). Zero deals continuous Cosmos DMG, Mint triggers Blossom Detonation, Xun heals and replays skills. Xun best disk set: Lost Radiance 4pc with ATK%/Cosmos DMG/CRIT Rate.",
+    "answer": "光耀坼绽队这页现在更适合作为**一种围绕坼绽反应展开的组队思路**，而不是继续把 1.0 某一阶段流行阵容写成长期固定答案。对当前玩家来说，更重要的是先理解：这类队伍通常需要一个稳定输出核心、一个能帮助触发或放大反应的队友，以及一个保证循环不断档的辅助或生存位。\n\n更实用的理解方式是：\n1) 先确认你的主力角色是否真的能从这条反应线里获得稳定收益\n2) 再补能提高触发频率、技能衔接或生存容错的功能位\n3) 如果你缺关键角色，就优先找功能接近的替代位，而不是死抄某个旧版本名单\n\n所以这页现在保留的是**光耀坼绽队的构成逻辑与替换思路**，而不是继续把一套早期配队写成唯一推荐。",
+    "answerEn": "This Cosmos Blossom page is more useful as a **team-building framework around the Blossom reaction** than as a permanent copy-paste lineup from one early patch. For current players, the more important thing is understanding that these teams usually want a real damage core, a unit that helps trigger or amplify the reaction, and enough support or sustain to keep the rotation stable.\n\nA more practical way to build it is:\n1. Start by checking whether your main carry actually gains reliable value from this reaction line\n2. Then add the pieces that improve trigger consistency, skill flow, or survivability\n3. If you are missing a named partner, look for role-equivalent substitutes instead of forcing an old template literally\n\nSo this page now focuses on Cosmos Blossom structure and substitution logic rather than preserving one early-team recommendation as a timeless answer.",
     "tags": [
       "team",
       "xun",
@@ -4560,14 +4560,14 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環光耀坼綻隊怎麼玩？潯配隊攻略",
-    "answerTw": "光耀坼綻爆發隊是1.0下半最強隊伍之一：零（主C）+ 薄荷（觸發坼綻反應）+ 潯（治療+技能復刻）。核心玩法：零持續輸出光屬性傷害，薄荷觸發坼綻反應，潯提供治療並復刻隊友技能增加輸出視窗。潯推薦弧盤：失落光芒4件套，主詞條攻擊力%/光傷/暴擊率。",
+    "answerTw": "光耀坼綻隊這頁現在更適合作為**一種圍繞坼綻反應展開的組隊思路**，而不是繼續把 1.0 某一階段流行陣容寫成長期固定答案。對目前玩家來說，更重要的是先理解：這類隊伍通常需要一個穩定輸出核心、一個能幫助觸發或放大反應的隊友，以及一個保證循環不斷檔的輔助或生存位。\n\n更實用的理解方式是：\n1) 先確認你的主力角色是否真的能從這條反應線裡獲得穩定收益\n2) 再補能提高觸發頻率、技能銜接或生存容錯的功能位\n3) 如果你缺關鍵角色，就優先找功能接近的替代位，而不是死抄某個舊版本名單\n\n所以這頁現在保留的是**光耀坼綻隊的構成邏輯與替換思路**，而不是繼續把一套早期配隊寫成唯一推薦。",
     "categoryTw": "配隊推薦"
   },
   {
     "id": "best-free-characters",
     "question": "异环免费角色有哪些？哪些免费角色值得培养？",
     "questionEn": "What are the best free characters in NTE? Who should I build?",
-    "answer": "必练免费角色：①小吱（S级灵属性主C，Eibon古董店免费满命6+5，S+强度）②薄荷（S级治疗，新手自选）③零（主角，环合反应触发器）。可选：④埃德加（A级聚怪）。小吱是零氪最强主C，强度不输抽卡S角，优先培养。",
+    "answer": "免费角色值不值得培养，现在更适合从**它们能不能以低成本补上你账号的关键功能位**来判断，而不是继续沿用一张“必练名单”。对当前玩家来说，更实用的角度通常是：哪些免费角色能稳定推进主线、哪些能补治疗或功能、哪些能在资源紧张时先顶上一个可用位置。\n\n更稳妥的理解方式是：\n1) 优先培养那些能立刻改善推进效率或队伍完整度的免费角色\n2) 不要只因为“免费且早期评价高”就默认所有账号都该按同一顺序投入\n3) 真正有价值的免费角色，往往是因为投入门槛低、补位效率高，而不是因为它们永远等同于抽卡主力\n\n所以这页现在保留的是**免费角色的功能价值与培养判断逻辑**，而不是继续输出一份固定的必练顺序。",
     "answerEn": "Questions about which free characters are \"must-build\" are better answered by account function than by a fixed launch-era hierarchy. For current players, the more useful lens is: which free units give you reliable progression value with low investment, and which ones solve core roles you have not filled yet.\n\nA safer way to judge free-character value is:\n1. Prioritize units that immediately stabilize your team structure, such as sustain, utility, or a dependable early carry\n2. Value characters more for how efficiently they help your actual account progress than for old blanket tier labels\n3. Treat free characters as roster anchors and gap-fillers first, not as proof that every account should build the exact same list\n\nSo this page now focuses on how to evaluate free-character investment rather than declaring one universal must-build order.",
     "tags": [
       "characters",
@@ -4585,7 +4585,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環免費角色有哪些？哪些免費角色值得培養？",
-    "answerTw": "必練免費角色：①小吱（S級靈屬性主C，Eibon古董店免費滿命6+5，S+強度）②薄荷（S級治療，新手自選）③零（主角，環合反應觸發器）。可選：④埃德加（A級聚怪）。小吱是零氪最強主C，強度不輸抽卡S角，優先培養。",
+    "answerTw": "免費角色值不值得培養，現在更適合從**它們能不能以低成本補上你帳號的關鍵功能位**來判斷，而不是繼續沿用一張「必練名單」。對目前玩家來說，更實用的角度通常是：哪些免費角色能穩定推進主線、哪些能補治療或功能、哪些能在資源緊張時先頂上一個可用位置。\n\n更穩妥的理解方式是：\n1) 優先培養那些能立刻改善推進效率或隊伍完整度的免費角色\n2) 不要只因為「免費且早期評價高」就默認所有帳號都該按同一順序投入\n3) 真正有價值的免費角色，往往是因為投入門檻低、補位效率高，而不是因為它們永遠等同於抽卡主力\n\n所以這頁現在保留的是**免費角色的功能價值與培養判斷邏輯**，而不是繼續輸出一份固定的必練順序。",
     "categoryTw": "角色培養"
   },
   {
@@ -4924,7 +4924,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環角色強度榜怎麼排？誰是最強角色？",
-    "answerTw": "基於1.0版本初期資料，異環角色強度榜如下：\n\n**SS級（版本答案）**：娜娜莉（Nanally）— 開服最強限S主C，數值獨一檔；九原（Jiuyuan）— 常駐S首選自選，超大範圍聚怪+客串奶媽。\n\n**S+級（極力推薦）**：零/主角（Esper Zero）— 瞬環合機制不可替代，免費滿配；白藏（Baicang）— 攻防一體，但繫結達芙迪爾；穗鳥（Hotori）— 唯一S級輔助，聚怪+加攻；小吱（Xiaozhi）— 都市大亨免費6+5滿配。\n\n**A級（強力角色）**：咲裡、達芙迪爾、赤子、哈尼爾、阿德勒、黑鳥、明虎、赤音、伊利卡等。\n\n**B級（可用但非首選）**：法蒂亞、薄荷、哈索爾、翳、奧蕾莉亞、埃德加。\n\n新手最關鍵的建議：常駐自選選九原，免費肝小吱滿配，有娜娜莉卡必抽。詳細配隊建議和每個角色的分析請檢視我們的完整Tier List攻略。",
+    "answerTw": "這條「1.0 初期強度榜」現在不能再當作現版本結論直接使用，因為異環已經經歷了後續角色實裝、版本環境變化和更多隊伍成型方式。它更適合作為**開服環境記錄**來看，而不是固定告訴使用者「誰永遠是版本答案」。\n\n如果你現在要看強度，更可靠的判斷方式應該是：\n1. 先看當前版本的完整 Tier List，而不是只看開服名單\n2. 分開看主 C、輔助、生存、輪轉核心，不要把所有角色混成一張總榜\n3. 結合你的帳號缺口判斷，很多角色的價值會因為你已有陣容不同而完全不同\n\n開服階段像娜娜莉、九原、主角、小吱這類角色之所以評價高，是因為它們在早期資源緊張時提供了很高的通用性。但到了現在，角色強度更依賴版本環境、體系完整度和你的實際養成深度。這條 FAQ 保留的是**開服歷史背景**，不再把 1.0 初期排名寫成當前定論。",
     "categoryTw": "角色"
   },
   {
