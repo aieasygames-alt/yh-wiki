@@ -2347,8 +2347,8 @@
     "id": "blaze-team-guide",
     "question": "异环灼烧队怎么配？白藏火系配队",
     "questionEn": "How to build Blaze team in NTE?",
-    "answer": "灼烧队以白藏为核心坦克。推荐配队：白藏（主坦）+ 赤音（火属性主C）+ 哈尼尔（增伤）+ 薄荷（治疗）。白藏护盾基于防御力，使用坚岩之心4件套。适合高难度Boss战。",
-    "answerEn": "Blaze team: Baicang (tank) + Akane (fire DPS) + Haniel (ATK buff) + Mint (healing). Baicang shield scales with DEF, use Heart of Stone 4pc.",
+    "answer": "灼烧队这页现在更适合回答**一支火系持续伤害队需要哪些功能位**，而不是继续把某 4 个名字写成唯一标准阵容。对当前玩家来说，更关键的通常是：你有没有稳定挂灼烧或维持火系节奏的核心、队伍里有没有补增益或补循环的角色，以及高压环境下是否需要治疗或护盾来保证站场。\n\n更实用的理解方式是：\n1. 先确定一个真正承担主要输出或持续点燃职责的核心位\n2. 再补能放大持续伤害、改善循环或补控制/聚怪的辅助位\n3. 最后根据实战压力决定是上治疗、护盾，还是更进攻的副输出，而不是硬套固定 4 人名单\n\n所以这页现在保留的是**灼烧队的组队结构与替换逻辑**，而不是继续把一套早期配法写成长期唯一答案。",
+    "answerEn": "This Blaze-team page is more useful when it explains **which functional slots a burn-oriented fire team needs** instead of freezing one four-character lineup as the only correct answer. For current players, the bigger questions are whether you have a reliable burn enabler or damage core, whether the team has enough support to sustain rotation and amplification, and whether harder fights require healing or shielding to keep the team stable.\n\nA more practical way to build it is:\n1. Start with a real core that handles primary damage or consistent burn application\n2. Add support that improves sustained damage, rotation flow, or control/grouping\n3. Then choose between sustain and a more aggressive flex slot based on actual fight pressure rather than forcing one fixed quartet\n\nSo this page now focuses on Blaze-team structure and substitution logic instead of preserving one early lineup as the permanent answer.",
     "tags": [
       "team",
       "blaze"
@@ -2364,7 +2364,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環灼燒隊怎麼配？白藏火系配隊",
-    "answerTw": "灼燒隊以白藏為核心坦克。推薦配隊：白藏（主坦）+ 赤音（火屬性主C）+ 哈尼爾（增傷）+ 薄荷（治療）。白藏護盾基於防禦力，使用堅巖之心4件套。適合高難度Boss戰。",
+    "answerTw": "灼燒隊這頁現在更適合回答**一支火系持續傷害隊需要哪些功能位**，而不是繼續把某 4 個名字寫成唯一標準陣容。對目前玩家來說，更關鍵的通常是：你有沒有穩定掛灼燒或維持火系節奏的核心、隊伍裡有沒有補增益或補循環的角色，以及高壓環境下是否需要治療或護盾來保證站場。\n\n更實用的理解方式是：\n1. 先確定一個真正承擔主要輸出或持續點燃職責的核心位\n2. 再補能放大持續傷害、改善循環或補控制/聚怪的輔助位\n3. 最後根據實戰壓力決定是上治療、護盾，還是更進攻的副輸出，而不是硬套固定 4 人名單\n\n所以這頁現在保留的是**灼燒隊的組隊結構與替換邏輯**，而不是繼續把一套早期配法寫成長期唯一答案。",
     "categoryTw": "配隊推薦"
   },
   {
@@ -4901,7 +4901,7 @@
     "id": "character-tier-list",
     "question": "异环角色强度榜怎么排？谁是最强角色？",
     "questionEn": "What is the NTE character tier list? Who is the strongest character?",
-    "answer": "这条“1.0 初期强度榜”现在不能再当作现版本结论直接使用，因为异环已经经历了后续角色实装、版本环境变化和更多队伍成型方式。它更适合作为**开服环境记录**来看，而不是固定告诉用户“谁永远是版本答案”。\n\n如果你现在要看强度，最靠谱的判断方式应该是：\n1. 先看当前版本的完整 Tier List，而不是只看开服名单\n2. 分开看主C、辅助、生存、轮转核心，不要把所有角色混在一个总榜里\n3. 结合你的账号缺口判断，很多角色的价值会因为你已有阵容不同而完全不同\n\n开服阶段像娜娜莉、九原、主角、小吱这类角色之所以评价高，是因为它们在早期资源紧张时提供了非常高的通用性。但到了现在，角色强度更依赖版本环境、体系完整度和你的实际养成深度。这条 FAQ 保留的是**开服历史背景**，不再把 1.0 初期排名写成当前定论。",
+    "answer": "这条“角色强度榜怎么排”FAQ 现在更适合回答**你该怎么读强度榜，而不是继续追问一个脱离版本和账号背景的“最强角色”**。对当前玩家来说，更有参考价值的通常不是谁被排在榜首，而是某个角色在你的现有阵容、资源深度和目标玩法里到底能不能稳定发挥价值。\n\n更稳妥的理解方式是：\n1. 强度榜要分开看主C、辅助、生存和体系核心，不适合把所有角色混成一个绝对总榜\n2. 一个角色的理论上限很高，不代表它对你的账号就是当前最优投入\n3. 版本环境、敌人设计、队伍开发和新角色加入，都会持续改变所谓“最强”的答案\n\n所以这页现在保留的是**强度榜的阅读方式与角色价值判断逻辑**，而不是继续把某个阶段的排行写成长期固定结论。",
     "answerEn": "A character tier list is best treated as a snapshot of one environment, not as a timeless ranking that overrides account context. For current players, the more useful question is not only who is \"strongest,\" but which characters keep value across different team shells, patch goals, and roster states.\n\nA safer way to read a tier list is:\n1. Separate raw ceiling from practical value: a character can be powerful on paper and still be awkward for your current roster\n2. Give extra weight to units with flexible team fit, stable utility, or low setup cost if your account is still growing\n3. Expect rankings to move with patch conditions, newly discovered synergies, and optimization changes rather than staying frozen forever\n\nSo this page now focuses on how to interpret strength rankings instead of locking players into an early-version absolute order.",
     "tags": [
       "tier-list",
@@ -4924,7 +4924,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環角色強度榜怎麼排？誰是最強角色？",
-    "answerTw": "這條「1.0 初期強度榜」現在不能再當作現版本結論直接使用，因為異環已經經歷了後續角色實裝、版本環境變化和更多隊伍成型方式。它更適合作為**開服環境記錄**來看，而不是固定告訴使用者「誰永遠是版本答案」。\n\n如果你現在要看強度，更可靠的判斷方式應該是：\n1. 先看當前版本的完整 Tier List，而不是只看開服名單\n2. 分開看主 C、輔助、生存、輪轉核心，不要把所有角色混成一張總榜\n3. 結合你的帳號缺口判斷，很多角色的價值會因為你已有陣容不同而完全不同\n\n開服階段像娜娜莉、九原、主角、小吱這類角色之所以評價高，是因為它們在早期資源緊張時提供了很高的通用性。但到了現在，角色強度更依賴版本環境、體系完整度和你的實際養成深度。這條 FAQ 保留的是**開服歷史背景**，不再把 1.0 初期排名寫成當前定論。",
+    "answerTw": "這條「角色強度榜怎麼排」FAQ 現在更適合回答**你該怎麼讀強度榜，而不是繼續追問一個脫離版本和帳號背景的「最強角色」**。對目前玩家來說，更有參考價值的通常不是誰被排在榜首，而是某個角色在你的現有陣容、資源深度和目標玩法裡到底能不能穩定發揮價值。\n\n更穩妥的理解方式是：\n1. 強度榜要分開看主 C、輔助、生存和體系核心，不適合把所有角色混成一張絕對總榜\n2. 一個角色的理論上限很高，不代表它對你的帳號就是目前最優投入\n3. 版本環境、敵人設計、隊伍開發和新角色加入，都會持續改變所謂「最強」的答案\n\n所以這頁現在保留的是**強度榜的閱讀方式與角色價值判斷邏輯**，而不是繼續把某個階段的排行寫成長期固定結論。",
     "categoryTw": "角色"
   },
   {
@@ -6673,8 +6673,8 @@
     "id": "nte-cross-platform-account",
     "question": "异环是跨平台账号互通的吗？手机和 PC 能一起玩吗？",
     "questionEn": "Is NTE cross-platform? Can I play on phone and PC with one account?",
-    "answer": "异环支持同一账号在不同设备登录（手机、PC、PS5），但要注意区分发行渠道。国服账号在国服各平台通用，国际服账号在国际服各平台通用。Steam 版（7 月 22 日发售）上线后预计接入国际服账号体系。注意：国服和国际服账号完全不互通，无法互转。",
-    "answerEn": "NTE supports logging into one account across devices (phone, PC, PS5), but you must stay within the same publishing track. CN accounts work across CN platforms; global accounts across global platforms. The Steam version (Jul 22) is expected to tie into the global account system. Note: CN and global accounts are completely separate and non-transferable.",
+    "answer": "异环支持同一账号在不同设备登录，但这条 FAQ 现在更应该回答**跨平台时最容易出错的是区服、渠道和账号体系**，而不是继续保留某个具体平台日期或“预计接入”的旧口径。对多数玩家来说，真正需要确认的不是抽象上的“能不能互通”，而是你现在登录的入口是否属于同一套账号体系，以及后续切设备时会不会把数据拆成两个账号。\n\n更稳妥的理解方式是：\n1. 先区分国服和国际服，它们通常不能直接混用或互转\n2. 同一套账号体系下的多设备登录，才有实际意义上的数据同步价值\n3. 如果你准备切到新的商店入口、主机或 PC 平台，应该先核对当前官方对绑定、继承和同步规则的说明\n\n所以这页现在保留的是**跨平台登录与数据同步的判断方法**，帮助玩家避免错区服、错渠道和数据分裂问题。",
+    "answerEn": "NTE supports multi-device login, but this FAQ is more useful when it explains **where cross-platform expectations usually break: server region, publishing channel, and account-system boundaries** rather than preserving one dated platform note or an older 'expected to connect later' claim. For most players, the real issue is not the abstract idea of cross-play, but whether the entry points they use belong to the same account framework and whether switching devices could split progress across separate accounts.\n\nA safer way to read it is:\n1. Separate CN and global publishing tracks first, because they typically should not be assumed to merge or transfer freely\n2. Multi-device sync only has practical value when those devices are tied to the same underlying account system\n3. Before moving to a new store, console, or PC launcher, verify the current official rules for linking, inheritance, and progress sync\n\nSo this page now focuses on how to judge cross-platform login and data-sync compatibility rather than preserving older rollout expectations as permanent fact.",
     "tags": [
       "cross-platform",
       "account",
