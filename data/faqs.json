@@ -2228,7 +2228,7 @@
     "id": "ue5-7-engine-update",
     "question": "异环公测引擎升级到UE5.7了吗？有什么变化？",
     "questionEn": "Did NTE upgrade to UE5.7 at launch? What changed?",
-    "answer": "是的，异环公测版本从测试阶段的UE5.5升级到了UE5.7。主要变化：1) 画面表现力提升，光影和反射效果更精细；2) 移动端优化改进，但高画质下发热仍然明显；3) 加载速度改善，尤其NVMe SSD用户感受明显；4) 面部表情系统全面改进（公测前后对比差异大）；5) 新增第一人称模式（全球服确认）。UE5.7引擎对硬件要求与之前基本持平，不需要额外升级配置。",
+    "answer": "这条“公测是不是升级到 UE5.7、有啥变化”FAQ 现在更适合回答**引擎版本该被当成什么背景信息，以及哪些变化属于当时的升级观察、哪些仍需要结合当前版本实际体验来看**，而不是继续把一版公测初期结论写成长期固定事实。对当前用户来说，更重要的通常是：你关心的是画面表现、加载、移动端发热，还是某些功能体验是否在后续补丁里继续调整。\n\n更稳妥的理解方式是：\n1) 先把 UE 版本理解成**构建背景和技术上下文**，而不是单独就能解释全部性能与体验差异的唯一答案\n2) 当时围绕画面、加载、移动端优化和功能表现的观察，仍可能随着后续补丁、平台和设备不同而变化\n3) 如果你是在排查实际体验问题，当前版本表现通常比开服当天的升级解读更重要\n\n所以这页现在保留的是**UE5.7 升级的背景与阅读方式**，而不是继续把一份开服期观察清单写成永久确认页。",
     "answerEn": "Engine-upgrade pages age quickly when they present one launch build as if every detail stays fixed forever. For current users, the more practical question is **what changes were associated with that upgrade, and which of those observations still need to be validated against the live build you are actually playing.**\n\nA safer reading is:\n1. Treat UE version mentions as build context, not as the whole performance story by themselves\n2. Visual, loading, and feature differences can still vary by later patches, platform, and device class\n3. If you are troubleshooting performance, current patch behavior matters more than preserving every launch-day expectation\n\nSo this page now works as upgrade context rather than an evergreen feature-confirmation list.",
     "tags": [
       "technical",
@@ -2240,10 +2240,10 @@
     "categoryEn": "Platform",
     "relatedCharacters": [],
     "relatedMaterials": [],
-    "seoTitleEn": "NTE Latest Update — UE5.7 Engine Upgrade, Day 1 Patch Notes & Changes (2026)",
-    "seoDescriptionEn": "NTE latest update details: Unreal Engine 5.7 upgrade, Day 1 patch improvements, new features, bug fixes, and performance optimizations.",
+    "seoTitleEn": "NTE UE5.7 Upgrade Guide — Engine Context, Changes & What Still Matters",
+    "seoDescriptionEn": "A practical guide to the NTE UE5.7 engine-upgrade context, observed changes, and how to interpret launch-era performance notes today.",
     "questionTw": "異環公測引擎升級到UE5.7了嗎？有什麼變化？",
-    "answerTw": "是的，異環公測版本從測試階段的UE5.5升級到了UE5.7。主要變化：1) 畫面表現力提升，光影和反射效果更精細；2) 移動端最佳化改進，但高畫質下發熱仍然明顯；3) 載入速度改善，尤其NVMe SSD使用者感受明顯；4) 面部表情系統全面改進（公測前後對比差異大）；5) 新增第一人稱模式（全球服確認）。UE5.7引擎對硬體要求與之前基本持平，不需要額外升級配置。",
+    "answerTw": "這條「公測是不是升級到 UE5.7、有什麼變化」FAQ 現在更適合回答**引擎版本該被當成什麼背景資訊，以及哪些變化屬於當時的升級觀察、哪些仍需要結合目前版本實際體驗來看**，而不是繼續把一版公測初期結論寫成長期固定事實。對目前使用者來說，更重要的通常是：你關心的是畫面表現、載入、移動端發熱，還是某些功能體驗是否在後續補丁裡繼續調整。\n\n更穩妥的理解方式是：\n1) 先把 UE 版本理解成**構建背景和技術上下文**，而不是單獨就能解釋全部效能與體驗差異的唯一答案\n2) 當時圍繞畫面、載入、移動端最佳化和功能表現的觀察，仍可能隨著後續補丁、平臺和裝置不同而變化\n3) 如果你是在排查實際體驗問題，目前版本表現通常比開服當天的升級解讀更重要\n\n所以這頁現在保留的是**UE5.7 升級的背景與閱讀方式**，而不是繼續把一份開服期觀察清單寫成永久確認頁。",
     "categoryTw": "平臺相關"
   },
   {
@@ -2667,7 +2667,7 @@
     "question": "异环公测能白嫖多少抽？",
     "questionEn": "How many free pulls at NTE launch?",
     "answer": "这条“公测能白嫖多少抽”说的依然是**开服阶段的历史总量口径**，核心数字大约是 418 抽，但不应该再理解成现在任何新账号都能原样拿满的即时奖励。\n\n更准确的看法是：\n- 这 418 抽包含预约奖励、开服活动、直播码、探索资源和新手阶段的一次性收益\n- 其中一部分已经属于时效福利，今天入坑无法完整复现\n- 对现在的玩家更有参考价值的是：异环开服曾给出很高的一次性福利体量，而当前零氪资源主要还是来自版本活动、探索、日常与阶段性补偿\n\n所以这条 FAQ 现在保留的是**开服福利规模的历史参考**，不再把 418 抽写成当前可直接领取的固定值。",
-    "answerEn": "Players can earn approximately 418 free pulls during the NTE global launch period. These gacha resources come from multiple sources: beginner福利 and 7-day login bonuses (~80 pulls), main story and side quest completion rewards (~100 pulls), exploration progress and achievement rewards (~60 pulls), pre-registration milestones and launch events (~100 pulls), plus redemption codes and compensations (~78 pulls). The exact number may vary with version updates and events, so check official announcements for the latest information.",
+    "answerEn": "This 'how many free pulls at launch' page now works best as a **historical reference to the scale of NTE's opening-period rewards**, not as a promise that every new account today can still reproduce the same total. The headline figure was roughly **418 pulls** during the launch window, but that total combined pre-registration rewards, launch events, codes, exploration, and other one-time early-account sources that do not all remain equally available later.\n\nA safer way to read it is:\n1. Treat the 418 figure as a launch-era aggregate, not as a current guaranteed payout for every new player\n2. Some parts of that total were clearly time-limited, while today's F2P income depends more on current events, exploration, routine play, and version-stage compensation\n3. The real value of this page is understanding how generous the launch period was, not assuming the same reward stack is still claimable unchanged now\n\nSo this page now preserves the historical scale of launch rewards instead of presenting 418 pulls as a live, fully reproducible total for current accounts.",
     "tags": [
       "gacha",
       "free-pulls",
@@ -2758,8 +2758,8 @@
     "id": "gacha-dice-board",
     "question": "异环抽卡骰子棋盘是什么？怎么玩？",
     "questionEn": "What is the gacha dice board in NTE? How does it work?",
-    "answer": "NTE的抽卡系统采用独特的骰子棋盘机制，每次抽卡相当于掷骰子在棋盘上前进。棋盘走满一定步数即触发保底。这种可视化设计让抽卡过程更有趣，也更容易追踪保底进度。机制与结果不影响概率，仅是视觉呈现方式不同。",
-    "answerEn": "NTE uses a unique dice board mechanic for its gacha system. Each pull acts like rolling dice and moving forward on a board. When you fill a certain number of steps, the pity is triggered. This visual design makes pulling more engaging and makes it easier to track pity progress. The mechanic does not affect probabilities — it is purely a visual presentation difference.",
+    "answer": "这条“抽卡骰子棋盘是什么”FAQ 现在更适合回答**它应该被理解成保底进度的视觉化呈现，还是会真正改变抽卡规则**，而不是继续把“走满多少步触发什么”写成一份像固定玩法说明的卡片。对当前玩家来说，更重要的通常是：这套棋盘是不是只是帮助你理解保底节奏、它会不会影响实际概率，以及你该把注意力放在视觉进度还是底层抽卡规则上。\n\n更稳妥的理解方式是：\n1) 先把骰子棋盘理解成**抽卡进度和保底感知的展示层**，而不是一套独立于抽卡规则之外的新概率系统\n2) 它真正的价值通常在于让用户更容易读懂自己距离关键节点还有多远，而不是改变结果本身\n3) 如果你在判断值不值得抽，重点仍应放在保底、兑换、角色需求和资源规划，而不是被视觉包装带偏\n\n所以这页现在保留的是**骰子棋盘的阅读方式与规则边界**，而不是继续把一段展示逻辑写成像独立玩法一样的固定说明。",
+    "answerEn": "This dice-board FAQ is more useful when it explains **whether the board should be understood as a visual pity-progress layer or as something that actually changes the underlying gacha rules** instead of preserving a small instruction card about fixed board steps. For current players, the practical questions are whether the board is only there to make pity progress easier to read, whether it changes real probabilities, and whether attention should stay on the visual tracker or on the underlying pull rules.\n\nA safer way to read it is:\n1. Treat the dice board as **a presentation layer for pull progress and pity awareness**, not as a separate probability system that overrides the base gacha logic\n2. Its real value is usually making it easier to understand how far you are from meaningful milestones rather than changing outcomes themselves\n3. If you are deciding whether to pull, your main focus should still be pity structure, exchange options, character needs, and resource planning rather than the visual wrapper alone\n\nSo this page now focuses on how to interpret the dice board and where its rule boundaries stop instead of preserving one display mechanic as if it were a standalone game system.",
     "tags": [
       "gacha",
       "dice-board",
@@ -2772,7 +2772,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環抽卡骰子棋盤是什麼？怎麼玩？",
-    "answerTw": "NTE的抽卡系統採用獨特的骰子棋盤機制，每次抽卡相當於擲骰子在棋盤上前進。棋盤走滿一定步數即觸發保底。這種視覺化設計讓抽卡過程更有趣，也更容易追蹤保底進度。機制與結果不影響機率，僅是視覺呈現方式不同。",
+    "answerTw": "這條「抽卡骰子棋盤是什麼」FAQ 現在更適合回答**它應該被理解成保底進度的視覺化呈現，還是會真正改變抽卡規則**，而不是繼續把「走滿多少步觸發什麼」寫成一份像固定玩法說明的卡片。對目前玩家來說，更重要的通常是：這套棋盤是不是只是幫助你理解保底節奏、它會不會影響實際機率，以及你該把注意力放在視覺進度還是底層抽卡規則上。\n\n更穩妥的理解方式是：\n1) 先把骰子棋盤理解成**抽卡進度和保底感知的展示層**，而不是一套獨立於抽卡規則之外的新機率系統\n2) 它真正的價值通常在於讓使用者更容易讀懂自己距離關鍵節點還有多遠，而不是改變結果本身\n3) 如果你在判斷值不值得抽，重點仍應放在保底、兌換、角色需求和資源規劃，而不是被視覺包裝帶偏\n\n所以這頁現在保留的是**骰子棋盤的閱讀方式與規則邊界**，而不是繼續把一段展示邏輯寫成像獨立玩法一樣的固定說明。",
     "categoryTw": "抽卡系統"
   },
   {
