@@ -2779,8 +2779,8 @@
     "id": "120-pull-exchange",
     "question": "异环120抽兑换是什么？怎么用120抽换角色？",
     "questionEn": "What is the 120-pull exchange in NTE? How to exchange 120 pulls for a character?",
-    "answer": "累计抽卡120次后可兑换任意S级角色。这是NTE的兜底机制，即使运气不好也能通过积累获得想要的角色。建议用这个机制兑换常驻S级中没抽到的角色，限定角色还是走限定池更划算。",
-    "answerEn": "After accumulating 120 total pulls, you can exchange for any S-rank character. This is NTE safety net mechanic — even with bad luck, you can still get the character you want through accumulation. It is recommended to use this to exchange for standard S-rank characters you did not pull. For limited characters, pulling on the limited banner is more efficient.",
+    "answer": "这条“120 抽兑换是什么”FAQ 现在更适合回答**它应该被当成补常驻缺口的安全网，还是当成你抽卡规划里的核心目标**，而不是继续把“抽满 120 就换任意 S 级”写成一条不需要思考的固定结论。对当前玩家来说，更重要的通常是：这个兑换到底能不能解决你当前最缺的角色位、它是不是会影响你追限定角色的预算，以及你该把它看成兜底补位还是主动冲刺目标。\n\n更稳妥的理解方式是：\n1) 先把 120 抽兑换理解成**资源积累后的补位安全网**，而不是每个版本都必须优先达成的硬指标\n2) 如果你的常驻角色池有明显缺口，这类兑换更适合拿来补齐功能位，而不是替代限定池规划\n3) 真正值不值得冲 120，取决于它会不会挤掉你更看重的限定目标和当前版本资源安排\n\n所以这页现在保留的是**120 抽兑换的定位与使用判断逻辑**，而不是继续把一条固定兑换规则写成唯一答案。",
+    "answerEn": "This 120-pull-exchange page is more useful when it explains **whether the exchange should be treated as a standard-roster safety net or as a primary pull-planning target** instead of preserving one flat conclusion like 'reach 120 and trade for any S-rank.' For current players, the practical questions are whether the exchange actually fills the account's most meaningful missing role, whether chasing it distorts limited-character budgeting, and whether it should be viewed as emergency compensation or as something worth actively planning around.\n\nA safer way to read it is:\n1. Treat the 120-pull exchange as **a long-horizon roster backfill tool**, not as a mandatory milestone every version must force first\n2. If your standard roster still has real gaps, the exchange is most valuable when it patches those missing functions instead of replacing limited-banner planning\n3. Whether it is worth pushing toward 120 depends on what limited goals and current-version resources it would crowd out\n\nSo this page now focuses on the role and decision logic of the 120-pull exchange instead of preserving one fixed exchange rule as the only answer.",
     "tags": [
       "gacha",
       "exchange",
@@ -2793,15 +2793,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環120抽兌換是什麼？怎麼用120抽換角色？",
-    "answerTw": "累計抽卡120次後可兌換任意S級角色。這是NTE的兜底機制，即使運氣不好也能通過積累獲得想要的角色。建議用這個機制兌換常駐S級中沒抽到的角色，限定角色還是走限定池更划算。",
+    "answerTw": "這條「120 抽兌換是什麼」FAQ 現在更適合回答**它應該被當成補常駐缺口的安全網，還是當成你抽卡規劃裡的核心目標**，而不是繼續把「抽滿 120 就換任意 S 級」寫成一條不需要思考的固定結論。對目前玩家來說，更重要的通常是：這個兌換到底能不能解決你目前最缺的角色位、它是不是會影響你追限定角色的預算，以及你該把它看成兜底補位還是主動衝刺目標。\n\n更穩妥的理解方式是：\n1) 先把 120 抽兌換理解成**資源積累後的補位安全網**，而不是每個版本都必須優先達成的硬指標\n2) 如果你的常駐角色池有明顯缺口，這類兌換更適合拿來補齊功能位，而不是替代限定池規劃\n3) 真正值不值得衝 120，取決於它會不會擠掉你更看重的限定目標和目前版本資源安排\n\n所以這頁現在保留的是**120 抽兌換的定位與使用判斷邏輯**，而不是繼續把一條固定兌換規則寫成唯一答案。",
     "categoryTw": "抽卡系統"
   },
   {
     "id": "best-weapon-to-pull",
     "question": "异环武器池值得抽吗？优先抽什么武器？",
     "questionEn": "Is the weapon banner worth pulling in NTE? Which weapons to prioritize?",
-    "answer": "武器池60抽保底，S级武器出率约22.8%，每十连赠送A级武器。建议：优先抽角色，角色阵容成型后再考虑武器。S级角色专属武器提升明显，但不是必须的。零氪玩家可以跳过武器池，用A级武器过渡。",
-    "answerEn": "The weapon banner has a 60-pull pity with approximately 22.8% S-rank weapon rate, and each 10-pull grants an A-rank weapon. Recommendation: Prioritize pulling characters first, then consider weapons once your roster is established. S-rank signature weapons provide noticeable upgrades but are not mandatory. F2P players can skip the weapon banner and use A-rank weapons as placeholders.",
+    "answer": "这条“武器池值不值得抽”FAQ 现在更适合回答**你当前更缺角色广度，还是更缺主力上限，以及武器池投入会不会真正改善你的实际体验**，而不是继续把一串保底和出率写成一份固定建议。对当前玩家来说，更重要的通常是：你的主队是否已经稳定、某把专属武器能不能解决真实短板，以及为武器投入会不会挤掉下一个更关键的角色目标。\n\n更稳妥的理解方式是：\n1) 如果角色池还不完整，角色通常仍然比武器更容易直接改善账号可玩面\n2) 当主队已经稳定、某把武器能明显提升循环、输出或容错时，武器池的价值才会更清晰\n3) 对零氪和低投入玩家来说，重点通常不是“武器强不强”，而是它值不值得让你放弃一个角色版本目标\n\n所以这页现在保留的是**武器池投入时机与优先级判断逻辑**，而不是继续把一套固定出率说明写成唯一答案。",
+    "answerEn": "This weapon-banner page is more useful when it explains **whether your account currently needs more roster breadth or more ceiling on an existing core, and whether weapon investment would actually improve real play** instead of preserving one static package of pity numbers and generic advice. For current players, the practical questions are whether the main team is already stable, whether one signature weapon fixes a real bottleneck, and whether pulling weapons crowds out a more important upcoming character target.\n\nA safer way to judge the weapon banner is:\n1. If your roster is still incomplete, characters usually improve account flexibility more directly than weapons do\n2. Once your main team is already stable and one weapon clearly upgrades rotation, damage, or survivability, the weapon banner becomes easier to justify\n3. For F2P and lower-spend players, the real question is less 'is the weapon strong' and more 'is it worth giving up a character-version goal'\n\nSo this page now focuses on timing and priority logic for weapon-banner investment instead of preserving one fixed rate-and-pity card as the only answer.",
     "tags": [
       "gacha",
       "weapon",
@@ -2814,15 +2814,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環武器池值得抽嗎？優先抽什麼武器？",
-    "answerTw": "武器池60抽保底，S級武器出率約22.8%，每十連贈送A級武器。建議：優先抽角色，角色陣容成型後再考慮武器。S級角色專屬武器提升明顯，但不是必須的。零氪玩家可以跳過武器池，用A級武器過渡。",
+    "answerTw": "這條「武器池值不值得抽」FAQ 現在更適合回答**你目前更缺角色廣度，還是更缺主力上限，以及武器池投入會不會真正改善你的實際體驗**，而不是繼續把一串保底和出率寫成一份固定建議。對目前玩家來說，更重要的通常是：你的主隊是否已經穩定、某把專屬武器能不能解決真實短板，以及為武器投入會不會擠掉下一個更關鍵的角色目標。\n\n更穩妥的理解方式是：\n1) 如果角色池還不完整，角色通常仍然比武器更容易直接改善帳號可玩面\n2) 當主隊已經穩定、某把武器能明顯提升循環、輸出或容錯時，武器池的價值才會更清晰\n3) 對零氪和低投入玩家來說，重點通常不是「武器強不強」，而是它值不值得讓你放棄一個角色版本目標\n\n所以這頁現在保留的是**武器池投入時機與優先級判斷邏輯**，而不是繼續把一套固定出率說明寫成唯一答案。",
     "categoryTw": "抽卡系統"
   },
   {
     "id": "stamina-buy-guide",
     "question": "异环每天买几次体力？体力购买性价比",
     "questionEn": "How many times should I buy stamina daily in NTE? Stamina purchase cost-effectiveness",
-    "answer": "零氪/微氪建议每天买满前3次体力（消耗递增但性价比高）。体力是刷经验、装备、材料的基础，开服期等级领先=资源领先。中氪可以买5次，重氪可买满。优先用体力刷角色培养材料。",
-    "answerEn": "F2P and light spenders should buy the first 3 stamina refills daily (cost increases but remains cost-effective). Stamina is the foundation for farming EXP, gear, and materials. Being ahead in level during launch means being ahead in resources. Medium spenders can buy 5 times, and heavy spenders can buy all. Prioritize using stamina on character building materials.",
+    "answer": "这条“每天买几次体力”FAQ 现在更适合回答**你该把体力购买当成追进度工具，还是高消耗习惯，以及不同投入档位到底该不该长期买满**，而不是继续把“前几次最划算”写成所有时期都通用的固定答案。对当前玩家来说，更重要的通常是：你是否真的存在进度压力、购买体力会不会挤掉更重要的抽卡或养成资源，以及版本节奏值不值得你用额外货币换时间。\n\n更稳妥的理解方式是：\n1) 先确认你买体力是为了追主线、补关键养成节点，还是只是习惯性消耗资源\n2) 如果当前版本没有明确进度压力，长期机械买满未必比保留货币更优\n3) 对低投入玩家来说，判断重点通常不是“能不能买”，而是“这次购买换来的推进值不值”\n\n所以这页现在保留的是**体力购买的时机与性价比判断逻辑**，而不是继续把一条固定购买次数写成唯一答案。",
+    "answerEn": "This stamina-purchase page is more useful when it explains **whether stamina buying should be treated as a progress-chasing tool or as a recurring spend habit, and when different spend levels should actually keep doing it** instead of preserving one fixed rule about the 'first few refills always being best.' For current players, the practical questions are whether there is a real progression push underway, whether stamina buying crowds out more important pulls or growth resources, and whether the current version pace is worth converting extra currency into time.\n\nA safer way to judge stamina purchases is:\n1. First ask whether you are buying stamina to break a real story or progression wall or merely spending out of routine\n2. If the current version does not create meaningful pressure, mechanically buying to the same cap every day may return less value than keeping currency flexible\n3. For lower-spend players, the key question is usually not 'can I buy it' but 'is the progress gained from this refill actually worth the trade'\n\nSo this page now focuses on timing and value judgment for stamina purchases instead of preserving one fixed refill count as the only answer.",
     "tags": [
       "stamina",
       "daily",
@@ -2835,7 +2835,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環每天買幾次體力？體力購買價效比",
-    "answerTw": "零氪/微氪建議每天買滿前3次體力（消耗遞增但價效比高）。體力是刷經驗、裝備、材料的基礎，開服期等級領先=資源領先。中氪可以買5次，重氪可買滿。優先用體力刷角色培養材料。",
+    "answerTw": "這條「每天買幾次體力」FAQ 現在更適合回答**你該把體力購買當成追進度工具，還是高消耗習慣，以及不同投入檔位到底該不該長期買滿**，而不是繼續把「前幾次最划算」寫成所有時期都通用的固定答案。對目前玩家來說，更重要的通常是：你是否真的存在進度壓力、購買體力會不會擠掉更重要的抽卡或養成資源，以及版本節奏值不值得你用額外貨幣換時間。\n\n更穩妥的理解方式是：\n1) 先確認你買體力是為了追主線、補關鍵養成節點，還是只是習慣性消耗資源\n2) 如果目前版本沒有明確進度壓力，長期機械買滿未必比保留貨幣更優\n3) 對低投入玩家來說，判斷重點通常不是「能不能買」，而是「這次購買換來的推進值不值」\n\n所以這頁現在保留的是**體力購買的時機與價效比判斷邏輯**，而不是繼續把一條固定購買次數寫成唯一答案。",
     "categoryTw": "日常玩法"
   },
   {
