@@ -1764,8 +1764,8 @@
     "id": "xiaozhi-free-s-rank",
     "question": "异环小志怎么免费获得？都市大亨玩法详解",
     "questionEn": "How to get Xiaozhi for free in NTE? City Tycoon guide",
-    "answer": "小志（Xiaozhi）是异环公测新增的S级角色，可以通过「都市大亨」系统免费获得，且可以满突破。都市大亨是异环中整合了城市生活模拟元素的热门玩法，包括买房置业、车辆驾驶、社交互动、迷你游戏（麻将、赛车等，公测新增AI对手）等内容。通过持续参与都市大亨玩法，玩家可以积累资源解锁小志。这是游戏中非常少见的免费S级角色获取途径，建议所有玩家优先参与。",
-    "answerEn": "Xiaozhi is a new S-rank character added for launch, available for free through the City Tycoon system with full breakthrough potential. City Tycoon is a popular gameplay mode integrating city life simulation elements including real estate, vehicle driving, social interactions, and mini-games (mahjong, racing with new AI opponents). By consistently participating in City Tycoon activities, players can accumulate resources to unlock Xiaozhi. This is a rare free S-rank acquisition path — all players should prioritize participating.",
+    "answer": "这条“小志怎么免费获得”FAQ 现在更适合回答**都市大亨这条功能线值不值得优先投入，以及小志对账号来说更像福利角色、补位角色还是长期主力候选**，而不是继续把“免费可满突破”写成一条不需要判断的固定奖励说明。对当前玩家来说，更重要的通常是：你当前是否已经开始稳定接触都市大亨玩法、小志能不能补你的真实阵容缺口，以及为这条线投入时间会不会挤掉更急迫的主线或主队养成。\n\n更稳妥的理解方式是：\n1. 先把小志理解成**和城市玩法深度绑定的免费角色奖励**，而不是所有账号第一时间都必须无条件冲满的目标\n2. 如果他正好能补你缺的功能位，这条线的投入价值会明显更高；如果短期上不了场，就不必因为“免费 S 级”而急着压全部时间\n3. 都市大亨这类系统真正值不值得优先推，仍要看你当前版本节奏、账号目标和其他关键成长线有没有更急迫的需求\n\n所以这页现在保留的是**小志获取路径与投入优先级的判断逻辑**，而不是继续把一条福利说明写成唯一答案。",
+    "answerEn": "This Xiaozhi page is more useful when it explains **whether the City Tycoon line deserves early priority and whether Xiaozhi functions more as a reward unit, a roster patch, or a long-term candidate for your account** instead of preserving 'free and fully breakthrough-capable' as a flat reward statement. For current players, the more practical questions are whether they are far enough into City Tycoon to engage it consistently, whether Xiaozhi fills a real team gap, and whether investing time there crowds out more urgent story or core-team progress.\n\nA safer way to read it is:\n1. Treat Xiaozhi as **a free character reward tied closely to the city-systems layer**, not as an unconditional first-priority sprint target for every account\n2. If Xiaozhi fills a role your account actually needs, the value of pushing that line rises sharply; if not, there is no need to overcommit time merely because the label says 'free S-rank'\n3. Whether City Tycoon should be prioritized still depends on current version pace, account goals, and whether other growth lines are more urgent right now\n\nSo this page now focuses on acquisition-path value and priority judgment for Xiaozhi instead of preserving one reward description as the only answer.",
     "tags": [
       "characters",
       "system"
@@ -1778,7 +1778,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環小志怎麼免費獲得？都市大亨玩法詳解",
-    "answerTw": "小志（Xiaozhi）是異環公測新增的S級角色，可以通過「都市大亨」系統免費獲得，且可以滿突破。都市大亨是異環中整合了城市生活模擬元素的熱門玩法，包括買房置業、車輛駕駛、社互動動、迷你遊戲（麻將、賽車等，公測新增AI對手）等內容。通過持續參與都市大亨玩法，玩家可以積累資源解鎖小志。這是遊戲中非常少見的免費S級角色獲取途徑，建議所有玩家優先參與。",
+    "answerTw": "這條「小志怎麼免費獲得」FAQ 現在更適合回答**都市大亨這條功能線值不值得優先投入，以及小志對帳號來說更像福利角色、補位角色還是長期主力候選**，而不是繼續把「免費可滿突破」寫成一條不需要判斷的固定獎勵說明。對目前玩家來說，更重要的通常是：你目前是否已經開始穩定接觸都市大亨玩法、小志能不能補你的真實陣容缺口，以及為這條線投入時間會不會擠掉更急迫的主線或主隊養成。\n\n更穩妥的理解方式是：\n1. 先把小志理解成**和城市玩法深度綁定的免費角色獎勵**，而不是所有帳號第一時間都必須無條件衝滿的目標\n2. 如果他正好能補你缺的功能位，這條線的投入價值會明顯更高；如果短期上不了場，就不必因為「免費 S 級」而急著壓全部時間\n3. 都市大亨這類系統真正值不值得優先推，仍要看你目前版本節奏、帳號目標和其他關鍵成長線有沒有更急迫的需求\n\n所以這頁現在保留的是**小志獲取路徑與投入優先級的判斷邏輯**，而不是繼續把一條福利說明寫成唯一答案。",
     "categoryTw": "角色相關"
   },
   {
@@ -2842,8 +2842,8 @@
     "id": "game-crash-fix",
     "question": "异环闪退/卡顿/掉帧怎么解决？",
     "questionEn": "How to fix NTE crashing, stuttering, and frame drops?",
-    "answer": "PC端：1)关闭MSI Afterburner和RivaTuner 2)更新显卡驱动 3)降低画质设置 4)安装到SSD。移动端：1)确认满足最低配置 2)降低画质 3)关闭后台应用 4)发烫时暂停散热后继续。网络问题：使用游戏加速器（迅游/biubiu等）。NVIDIA驱动595.79版本已知有兼容问题，建议降级。",
-    "answerEn": "PC: 1) Close MSI Afterburner and RivaTuner 2) Update GPU drivers 3) Lower graphics settings 4) Install on SSD. Mobile: 1) Confirm your device meets minimum specs 2) Lower graphics settings 3) Close background apps 4) Pause and let device cool when overheating. Network issues: Use a game accelerator (Xunyou/Biubiu etc.). NVIDIA driver version 595.79 has known compatibility issues; consider downgrading.",
+    "answer": "这条“闪退/卡顿/掉帧怎么解决”FAQ 现在更适合回答**你该按什么顺序排查：是设备性能、图形设置、后台冲突，还是网络与驱动问题**，而不是继续把某几个工具名、某个驱动版本和一串固定操作写成长期标准答案。对当前玩家来说，更重要的通常是：问题发生在启动、加载、长时间游玩还是联网场景，以及它更像本地性能瓶颈还是环境冲突。\n\n更稳妥的理解方式是：\n1. 先分清问题发生在 PC 还是移动端，发生在启动、战斗、城市场景还是网络同步阶段\n2. 优先排查最常见的本地因素，例如图形设置过高、后台程序冲突、存储速度不足、设备过热或长期占用过高\n3. 驱动、加速器和第三方工具名单都可能随版本变化，真正有效的做法应是按当前环境逐项排查，而不是死记某一版案例\n\n所以这页现在保留的是**闪退、卡顿与掉帧问题的排查顺序与判断逻辑**，而不是继续把一组很快会过期的具体案例写成唯一答案。",
+    "answerEn": "This crash-and-stutter page is more useful when it explains **the order in which you should diagnose the problem: device limits, graphics settings, background conflicts, or network and driver issues** instead of preserving a fixed list of tool names, one driver version, and a static checklist as permanent advice. For current players, the more practical question is whether the issue happens at launch, during loading, after long sessions, or mainly in networked situations, and whether it looks like local performance stress or environmental conflict.\n\nA safer way to troubleshoot it is:\n1. First separate whether the problem is on PC or mobile and whether it happens at startup, in combat, in city scenes, or during network synchronization\n2. Prioritize the most common local causes such as overly high settings, background-app conflicts, slow storage, overheating, or prolonged resource pressure\n3. Driver caveats, accelerators, and third-party-tool conflicts can all change over time, so the durable method is structured diagnosis against your current environment rather than memorizing one version's examples\n\nSo this page now focuses on troubleshooting order and judgment for crashes, stutter, and frame drops instead of preserving a rapidly aging list of specific cases as the only answer.",
     "tags": [
       "crash",
       "stutter",
@@ -2857,7 +2857,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環閃退/卡頓/掉幀怎麼解決？",
-    "answerTw": "PC端：1)關閉MSI Afterburner和RivaTuner 2)更新顯示卡驅動 3)降低畫質設定 4)安裝到SSD。移動端：1)確認滿足最低配置 2)降低畫質 3)關閉後臺應用 4)發燙時暫停散熱後繼續。網路問題：使用遊戲加速器（迅遊/biubiu等）。NVIDIA驅動595.79版本已知有相容問題，建議降級。",
+    "answerTw": "這條「閃退/卡頓/掉幀怎麼解決」FAQ 現在更適合回答**你該按什麼順序排查：是裝置效能、圖形設定、後臺衝突，還是網路與驅動問題**，而不是繼續把某幾個工具名、某個驅動版本和一串固定操作寫成長期標準答案。對目前玩家來說，更重要的通常是：問題發生在啟動、載入、長時間遊玩還是聯網場景，以及它更像本地效能瓶頸還是環境衝突。\n\n更穩妥的理解方式是：\n1. 先分清問題發生在 PC 還是移動端，發生在啟動、戰鬥、城市場景還是網路同步階段\n2. 優先排查最常見的本地因素，例如圖形設定過高、後臺程式衝突、儲存速度不足、裝置過熱或長期佔用過高\n3. 驅動、加速器和第三方工具名單都可能隨版本變化，真正有效的做法應是按目前環境逐項排查，而不是死記某一版案例\n\n所以這頁現在保留的是**閃退、卡頓與掉幀問題的排查順序與判斷邏輯**，而不是繼續把一組很快會過期的具體案例寫成唯一答案。",
     "categoryTw": "技術支援"
   },
   {
@@ -5300,10 +5300,10 @@
     "relatedMaterials": [],
     "seoTitleEn": "NTE Wrong Free S-Rank Character Selected — Can You Swap? (2026)",
     "seoTitleZh": "异环免费S级角色选错了怎么办 — 能否更换？（2026）",
-    "seoDescriptionEn": "Accidentally picked the wrong free S-rank character in NTE? Learn how to contact support for a possible character swap and what steps to take immediately.",
-    "seoDescriptionZh": "异环(NTE)免费S级角色选错了的解决方法：联系客服更换的具体步骤、注意事项和成功案例说明。",
+    "seoDescriptionEn": "What to do after selecting the wrong free S-rank character in NTE, including support-contact steps, preserved details, and realistic expectations.",
+    "seoDescriptionZh": "异环免费S级角色选错后该怎么补救：保留信息、暂停进一步操作、联系官方支持，以及合理预期说明。",
     "questionTw": "免費S級角色選錯了能換嗎？",
-    "answerTw": "如果你在選擇免費S級角色時選錯了：1) 儘快聯絡官方客服 nte.contactus@perfectworld.com；2) 提供你的UID、收到的角色名和你想要的角色名；3) 不要使用或升級選錯的角色。客服團隊會根據具體情況協助處理，已有成功更換的案例，但並非保證，建議儘早聯絡。",
+    "answerTw": "這條「免費 S 級角色選錯了能換嗎」FAQ 現在更適合回答**遇到這類帳號問題時，什麼做法最有機會補救，什麼說法不能被當成官方保證**，而不是繼續把「已有成功案例」寫成像默認可換一樣的承諾。對目前玩家來說，更重要的通常是：儘快保留資訊、停止進一步操作、然後透過官方支援管道提交說明。\n\n更穩妥的理解方式是：\n1. 先保留 UID、選擇時間、角色資訊和相關截圖，方便後續說明問題\n2. 在得到官方回覆前，盡量不要繼續消耗、升級或深度使用錯誤選擇的角色\n3. 是否能更換應始終以官方客服最終答覆為準，不應把社群個案或舊處理經歷直接當成保證結果\n\n所以這頁現在保留的是**錯誤選擇後的補救路徑與預期管理**，而不是繼續把個案處理經驗寫成默認一定可替換的結論。",
     "categoryTw": "故障排查",
     "seoTitleTw": "異環免費S級角色選錯了怎麼辦 — 能否更換？（2026）"
   },
