@@ -14,8 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环 Steam 版：2026年7月22日发售、PC配置要求、与移动端区别全解析", "NTE on Steam: July 22 2026 Release, PC Specs & Mobile vs PC Differences");
-  const description = localizedText(locale, "异环 Steam 版 2026 年 7 月 22 日发售。本文覆盖 Steam 版发售时间、PC 最低/推荐配置、与移动端的画面与操作差异、跨平台账号互通、以及 Steam 版值不值得等要点。", "Neverness to Everness launches on Steam July 22, 2026. This guide covers the Steam release date, PC minimum/recommended specs, visual and control differences vs mobile, cross-platform account sharing, and whether the Steam version is worth it.");
+  const title = localizedText(locale, "异环 Steam 版现状：已上线、PC配置要求、与移动端区别全解析", "NTE on Steam: Live Status, PC Specs & Mobile vs PC Differences");
+  const description = localizedText(locale, "异环 Steam 版已在当前商店周期内上线。本文覆盖 Steam 当前状态、PC 最低/推荐配置、与移动端的画面与操作差异、以及账号与平台选择要点。", "NTE is already live on Steam in the current store cycle. This guide covers its current Steam status, PC minimum/recommended specs, visual and control differences vs mobile, and practical account/platform choices.");
   return {
     title,
     description,
@@ -33,14 +33,14 @@ export default async function SteamPage({ params }: { params: { lang: string } }
     {
       question: "When does NTE release on Steam?",
       questionZh: "异环 Steam 版什么时候发售？",
-      answer: "NTE's Steam version is scheduled to release on July 22, 2026. This is a key node for PC players who prefer the Steam ecosystem over the standalone launcher or Epic.",
-      "answerZh": "异环 Steam 版预计 2026 年 7 月 22 日发售。这是偏好 Steam 平台的 PC 玩家的关键节点，相比独立启动器或 Epic 更方便。"
+      answer: "As of July 11, 2026, NTE is already live on Steam in the current release cycle. If you mainly care about PC platform choice now, the question is no longer whether to wait for Steam, but whether you prefer Steam, the standalone launcher, Epic, or Cloud PC.",
+      "answerZh": "截至 2026 年 7 月 11 日，异环 Steam 版已经在当前商店周期内上线。对现在的 PC 玩家来说，重点已经不是“要不要等 Steam”，而是更适合 Steam、独立启动器、Epic，还是云异环 PC。"
     },
     {
       question: "Will my NTE account work on Steam?",
       questionZh: "异环 Steam 版能用现有账号吗？",
-      answer: "The Steam version is expected to integrate with the global server account system. You should be able to log in with your existing global account and keep your progress. CN server accounts will not transfer to Steam. Wait for official confirmation closer to launch.",
-      "answerZh": "Steam 版预计接入国际服账号体系，可以用现有的国际服账号登录并保留进度。国服账号无法转移到 Steam。具体以临近发售时的官方确认为准。"
+      answer: "The current Steam release works with the existing NTE account flow used by the global publishing track. In practical terms, players should treat Steam as another global-side PC entry point rather than as a separate progression server. CN-server migration still should not be assumed without explicit official support.",
+      "answerZh": "当前 Steam 版已经进入现有的异环账号流程，更像是国际服 PC 侧的又一个入口，而不是一套独立进度服务器。国服账号迁移仍然不应默认视为已支持，具体边界仍以官方说明为准。"
     },
     {
       question: "What are the PC requirements for NTE on Steam?",
@@ -51,8 +51,8 @@ export default async function SteamPage({ params }: { params: { lang: string } }
     {
       question: "Is the Steam version worth waiting for?",
       questionZh: "异环 Steam 版值得等吗？",
-      "answer": "If you play primarily on PC and prefer Steam's ecosystem (achievements, friend list, workshop potential), waiting is reasonable. If you want to play now, the standalone launcher and Epic versions are already available with the same content. Steam is a platform preference, not a content gate.",
-      "answerZh": "如果你主要在 PC 上玩、且偏好 Steam 生态（成就、好友、创意工坊潜力），等 Steam 版是合理的。如果想现在就玩，独立启动器和 Epic 版本已经上线，内容完全一致。Steam 是平台偏好，不是内容门槛。"
+      "answer": "As of July 11, 2026, this is no longer a waiting question for most players because Steam is already live. The real choice is whether you value Steam's ecosystem enough to prefer it over the launcher, Epic, or Cloud PC.",
+      "answerZh": "截至 2026 年 7 月 11 日，对多数玩家来说这已经不是“值不值得等”的问题，因为 Steam 版已经上线。现在真正要比较的是：你是否更看重 Steam 生态，而不是独立启动器、Epic 或云异环 PC。"
     },
   ];
 
@@ -73,15 +73,15 @@ export default async function SteamPage({ params }: { params: { lang: string } }
       <main className="max-w-4xl mx-auto px-4 py-12">
         <section className="mb-8">
           <p className="text-xs uppercase tracking-[0.18em] text-primary-400 mb-3">
-            {isZh ? "2026-06-19 更新" : "Updated June 19, 2026"}
+            {isZh ? "2026-07-11 更新" : "Updated July 11, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环 Steam 版：7 月 22 日发售完整指南" : "NTE on Steam: Complete July 22 Release Guide"}
+            {isZh ? "异环 Steam 版：当前状态与 PC 入口完整指南" : "NTE on Steam: Current Status and PC Access Guide"}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {isZh
-              ? "异环（Neverness to Everness）Steam 版定于 2026 年 7 月 22 日发售，是 PC 玩家的下一个关键节点。本文覆盖发售时间、PC 配置要求、与移动端差异、跨平台账号互通，以及 Steam 版值不值得等。"
-              : "Neverness to Everness lands on Steam July 22, 2026 — the next key milestone for PC players. This guide covers the release date, PC spec requirements, differences vs mobile, cross-platform account sharing, and whether the Steam version is worth waiting for."}
+              ? "截至 2026 年 7 月 11 日，异环（Neverness to Everness）Steam 版已经进入当前商店周期。本文不再按“预售等待页”来写，而是直接回答现在 Steam、独立启动器、Epic 与云异环 PC 该怎么选。"
+              : "As of July 11, 2026, Neverness to Everness is already in the current Steam store cycle. This page no longer treats Steam as a future waitlist topic and instead focuses on how to choose between Steam, the standalone launcher, Epic, and Cloud PC right now."}
           </p>
         </section>
 
@@ -89,8 +89,8 @@ export default async function SteamPage({ params }: { params: { lang: string } }
           locale={locale}
           items={[
             {
-              label: isZh ? "发售日期：" : "Release:",
-              value: isZh ? "2026 年 7 月 22 日" : "July 22, 2026"
+              label: isZh ? "当前状态：" : "Status:",
+              value: isZh ? "Steam 已上线" : "Steam live"
             },
             {
               label: isZh ? "最低 GPU：" : "Min GPU:",
@@ -102,17 +102,17 @@ export default async function SteamPage({ params }: { params: { lang: string } }
             },
             {
               label: isZh ? "账号互通：" : "Account:",
-              value: isZh ? "预计接入国际服账号" : "Expected: global account"
+              value: isZh ? "国际服入口已接通" : "Global entry active"
             },
           ]}
         />
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "一、发售时间" : "1. Release Date"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "一、当前 Steam 状态" : "1. Current Steam Status"}</h2>
           <p className="text-gray-400 leading-relaxed">
             {isZh
-              ? "异环 Steam 版定于 2026 年 7 月 22 日发售。这个时间点落在 1.2 版本（6/11-7/15）和 1.3 版本（预计 7 月中旬）之间，意味着 Steam 版上线时很可能直接是 1.3 或 1.2 末期内容。国服 Steam 上线安排需以官方后续公告为准。"
-              : "NTE's Steam version is set for July 22, 2026. This falls between v1.2 (Jun 11 – Jul 15) and v1.3 (expected mid-July), meaning Steam players will likely land in v1.3 or late v1.2 content. CN server Steam availability will be confirmed by official notices."}
+              ? "截至 2026 年 7 月 11 日，这页更适合按“已经能上 Steam”来理解，而不是继续保留 7 月 22 日的旧等待口径。对玩家更有价值的问题是：你现在要不要直接从 Steam 进入、是否更适合用独立启动器或 Epic，以及你所在区服对应的账号体系怎么选。"
+              : "As of July 11, 2026, this page is more useful when read as an already-live Steam entry rather than a July 22 waiting page. The practical question now is whether Steam is your best PC route versus the launcher or Epic, and how that fits your server/account setup."}
           </p>
         </section>
 
@@ -175,27 +175,60 @@ export default async function SteamPage({ params }: { params: { lang: string } }
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "四、跨平台账号" : "4. Cross-Platform Account"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "四、现在就能在 PC 上怎么玩？" : "4. How Can You Play on PC Right Now?"}</h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            <div className="rounded-lg border border-gray-800 bg-gray-900/40 p-4">
+              <h3 className="font-semibold text-gray-200 mb-2">{isZh ? "官网客户端 / Epic" : "Launcher / Epic"}</h3>
+              <p className="text-sm text-gray-400">
+                {isZh
+                  ? "适合本地设备够用、想现在就稳定玩的人。重点是原生体验、低延迟和完整本地安装。"
+                  : "Best if your local hardware is good enough and you want native play right now with low latency."}
+              </p>
+            </div>
+            <div className="rounded-lg border border-sky-500/20 bg-sky-500/5 p-4">
+              <h3 className="font-semibold text-sky-300 mb-2">{isZh ? "云异环 PC" : "Cloud Yihuan PC"}</h3>
+              <p className="text-sm text-gray-400">
+                {isZh
+                  ? "适合低配置设备、短时上线、或不想安装完整客户端的人。代价是要接受网络和排队。"
+                  : "Best for weaker PCs, short login sessions, or players who do not want a full local install. The tradeoff is queue and network dependence."}
+              </p>
+              <Link href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300">
+                {isZh ? "→ 看云异环 PC 说明" : "→ Cloud PC guide"}
+              </Link>
+            </div>
+            <div className="rounded-lg border border-emerald-500/20 bg-emerald-500/5 p-4">
+              <h3 className="font-semibold text-emerald-300 mb-2">{isZh ? "Steam" : "Steam"}</h3>
+              <p className="text-sm text-gray-400">
+                {isZh
+                  ? "更适合长期 PC 主力玩家，重视成就、好友列表和平台生态。它是平台偏好，不是内容门槛。"
+                  : "Best for long-term PC mains who care about achievements, friends, and the Steam ecosystem. It is a platform preference, not a content gate."}
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "五、跨平台账号" : "5. Cross-Platform Account"}</h2>
           <p className="text-gray-400 leading-relaxed">
             {isZh
-              ? "Steam 版预计接入国际服账号体系——你现有的国际服账号（手机/Epic/PS5 上注册的）应该可以直接登录 Steam 版并保留所有进度、角色和抽卡记录。国服账号无法迁移到 Steam。具体登录方式以临近发售时的官方公告为准。详细的服务器区别参考国服 vs 国际服对比页。"
-              : "The Steam version is expected to integrate with the global server account system — your existing global account (registered on mobile/Epic/PS5) should log into Steam directly, keeping all progress, characters, and gacha history. CN server accounts cannot migrate to Steam. Exact login flow will be confirmed closer to launch. See the CN vs Global page for server differences."}
+              ? "Steam 版现在更应视作国际服 PC 入口的一部分。也就是说，如果你本来就在国际服体系内玩手机、Epic 或其他 PC 入口，Steam 更像是换了一个平台容器，而不是重开一条独立进度线。国服账号迁移到 Steam 仍不应默认视为已支持；详细服务器区别参考国服 vs 国际服对比页。"
+              : "Steam should now be treated as part of the global-side PC entry flow. In practice, if you already play on the global publishing track through mobile, Epic, or another PC route, Steam behaves more like a new platform container than a separate progression line. CN account migration still should not be assumed supported. See the CN vs Global page for server differences."}
           </p>
         </section>
 
         <section className="mb-10 rounded-xl border border-gray-800 bg-gray-900/40 p-5">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "Steam 版值得等吗？" : "Is the Steam Version Worth Waiting For?"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "六、现在更适合选 Steam 吗？" : "6. Should You Choose Steam Now?"}</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg bg-emerald-500/5 border border-emerald-500/20 p-4">
-              <h3 className="font-semibold text-emerald-300 mb-2">{isZh ? "值得等，如果……" : "Worth waiting if…"}</h3>
+              <h3 className="font-semibold text-emerald-300 mb-2">{isZh ? "更适合选 Steam，如果……" : "Choose Steam if…"}</h3>
               <ul className="text-sm text-gray-400 space-y-1">
                 <li>{isZh ? "你主力 PC 且偏好 Steam 生态" : "You're a PC main who prefers Steam"}</li>
                 <li>{isZh ? "在意 Steam 成就、好友列表、创意工坊" : "You value achievements, friends, workshop"}</li>
-                <li>{isZh ? "现在没急着想玩，等正式版更稳" : "You're not in a rush and want stability"}</li>
+                <li>{isZh ? "想把 PC 游戏库统一放在 Steam" : "You want your PC library consolidated in Steam"}</li>
               </ul>
             </div>
             <div className="rounded-lg bg-sky-500/5 border border-sky-500/20 p-4">
-              <h3 className="font-semibold text-sky-300 mb-2">{isZh ? "不用等，如果……" : "No need to wait if…"}</h3>
+              <h3 className="font-semibold text-sky-300 mb-2">{isZh ? "未必非 Steam 不可，如果……" : "Steam is optional if…"}</h3>
               <ul className="text-sm text-gray-400 space-y-1">
                 <li>{isZh ? "你现在就想玩，独立启动器/Epic 已开放" : "You want to play now — launcher/Epic are live"}</li>
                 <li>{isZh ? "你主力移动端" : "You play mainly on mobile"}</li>
@@ -209,7 +242,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
           {[
             { href: `/${lang}/system-requirements`, label: isZh ? "完整系统要求" : "Full System Requirements" },
             { href: `/${lang}/cn-vs-global`, label: isZh ? "国服 vs 国际服" : "CN vs Global" },
-            { href: `/${lang}/changelog`, label: isZh ? "版本更新日志" : "Version Changelog" },
+            { href: `/${lang}/blog/cloud-yihuan-pc-guide`, label: isZh ? "云异环 PC 说明" : "Cloud PC Guide" },
           ].map((link) => (
             <Link
               key={link.href}

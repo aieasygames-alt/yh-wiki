@@ -503,6 +503,12 @@ export function getCompare(slug: string): CompareArticle | undefined {
   return getAllCompares().find((c) => c.id === slug);
 }
 
+export interface InternalLink {
+  label: string;
+  labelEn: string;
+  href: string;
+}
+
 // Vehicle types and queries
 
 export interface VehicleStats {
@@ -575,7 +581,7 @@ interface Changelog {
   sections?: ChangelogSection[];
   compensation?: string;
   compensationEn?: string;
-  internalLinks?: string[];
+  internalLinks?: Array<string | InternalLink>;
 }
 
 export function getAllChangelogs(): Changelog[] {

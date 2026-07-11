@@ -6,6 +6,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { localizedText } from "../../../../lib/seo-copy";
 
+function fallbackLinkLabel(path: string, isZh: boolean) {
+  const normalized = path.replace(/^\/+/, "");
+
+  const staticLabels: Record<string, { zh: string; en: string }> = {
+    characters: { zh: "角色图鉴", en: "Characters" },
+    "tier-list": { zh: "强度榜", en: "Tier List" },
+    gacha: { zh: "抽卡机制", en: "Gacha Guide" },
+    guides: { zh: "攻略合集", en: "Guides" },
+    "redeem-codes": { zh: "兑换码", en: "Redeem Codes" },
+    vehicles: { zh: "载具图鉴", en: "Vehicles" },
+    changelog: { zh: "更新日志", en: "Patch Notes" },
+    map: { zh: "地图探索", en: "Interactive Map" },
+  };
+
+  if (staticLabels[normalized]) {
+    return isZh ? staticLabels[normalized].zh : staticLabels[normalized].en;
+  }
+
+  const segments = normalized.split("/").filter(Boolean);
+  const last = segments[segments.length - 1] || normalized;
+  return last
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
 export async function generateStaticParams() {
   const changelogs = getAllChangelogs();
   return changelogs.flatMap((cl) => LOCALES.map((lang) => ({ lang, version: cl.version })));
@@ -50,6 +77,19 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
   const highlights = isZhLocale(locale)
     ? cl.highlights?.map((item) => localizedText(locale, item, item))
     : cl.highlightsEn;
+  const resolvedLinks = cl.internalLinks?.map((link) => {
+    if (typeof link === "string") {
+      return {
+        href: link,
+        label: fallbackLinkLabel(link, isZhLocale(locale)),
+      };
+    }
+
+    return {
+      href: link.href,
+      label: localizedText(locale, link.label, link.labelEn),
+    };
+  });
 
   const typeColors: Record<string, string> = {
     major: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
@@ -158,19 +198,19 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         )}
 
         {/* Internal Links */}
-        {cl.internalLinks && cl.internalLinks.length > 0 && (
+        {resolvedLinks && resolvedLinks.length > 0 && (
           <div className="mt-8 pt-4 border-t border-gray-800">
             <h3 className="text-sm font-bold text-gray-400 mb-2">
               {t(locale, "changelogDetails.relatedLinks")}
             </h3>
             <div className="flex flex-wrap gap-2">
-              {cl.internalLinks.map((link) => (
+              {resolvedLinks.map((link) => (
                 <Link
-                  key={link}
-                  href={`/${lang}${link}`}
+                  key={link.href}
+                  href={`/${lang}${link.href}`}
                   className="text-xs px-3 py-1.5 rounded-lg bg-gray-800 text-gray-400 hover:text-primary-400 transition-colors"
                 >
-                  {link}
+                  {link.label}
                 </Link>
               ))}
             </div>

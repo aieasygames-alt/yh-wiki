@@ -1046,19 +1046,19 @@
   </url>
   <url>
     <loc>https://nteguide.com/zh/guides/zhenhong-build-guide/</loc>
-    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <lastmod>2026-07-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/tw/guides/zhenhong-build-guide/</loc>
-    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <lastmod>2026-07-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nteguide.com/en/guides/zhenhong-build-guide/</loc>
-    <lastmod>2026-06-23T00:00:00.000Z</lastmod>
+    <lastmod>2026-07-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1761,6 +1761,24 @@
   <url>
     <loc>https://nteguide.com/en/guides/nine-hundred-ninety-nine-nights-mode/</loc>
     <lastmod>2026-07-02T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/guides/warren-continent-collectibles-guide/</loc>
+    <lastmod>2026-07-11T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/guides/warren-continent-collectibles-guide/</loc>
+    <lastmod>2026-07-11T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/guides/warren-continent-collectibles-guide/</loc>
+    <lastmod>2026-07-11T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

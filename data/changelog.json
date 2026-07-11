@@ -910,13 +910,13 @@
     "version": "1.2",
     "versionName": "九百九十九夜",
     "versionNameEn": "Nine Hundred and Ninety-Nine Nights",
-    "date": "2026-07-02",
-    "dateGlobal": "2026-07-09（预计）",
+    "date": "2026-07-08",
+    "dateGlobal": "2026-07-08",
     "type": "major",
     "highlights": [
-      "「九百九十九夜」常驻桌游 RPG 奇幻模式上线 — 沃伦大陆挑战巨龙，可重复周回",
-      "新角色伊洛伊（Illica）— 首位限定 S 级治疗增益辅助（相属性），全队治疗+攻击增幅+护盾",
-      "新角色真红（Zhenhong）— S 级限定光系爆发主 C，龙娘，大范围 AOE 输出",
+      "「九百九十九夜 / 999夜」常驻桌游 RPG 奇幻模式上线 — 沃伦大陆挑战巨龙，可重复周回，也是 1.2 当前最核心的玩法入口",
+      "新角色真红（Zhenhong / Shinku）— S 级限定光系爆发主 C，龙娘，大范围 AOE 输出，是 1.2 当前最受关注的抽卡目标",
+      "新角色伊洛伊（Illica / Iroi）— 限定 S 级治疗增益辅助，全队治疗+攻击增幅+护盾，是 1.2 下一阶段高关注角色",
       "游乐园新地图区域开放（海特洛市郊）+ GS25 便利店跨界联动",
       "19 套新时装 + 时装染色（recolor）系统",
       "新增卡丁车竞速小游戏、麻将新模式；深渊新增咒属性专属层",
@@ -925,8 +925,8 @@
     ],
     "highlightsEn": [
       "'Nine Hundred and Ninety-Nine Nights' permanent tabletop-RPG fantasy mode launches — challenge dragons on the Warren Continent, fully repeatable",
-      "New character Illica — first limited S-rank Heal/Buffer (Lakshana attribute): team-wide healing + ATK buff + shields",
-      "New character Zhenhong — S-rank limited Light burst DPS, dragon girl with large-area AOE output",
+      "New character Zhenhong / Shinku — S-rank limited Light burst DPS, dragon girl with large-area AOE output",
+      "New character Illica / Iroi — limited S-rank Heal/Buffer with team-wide healing, ATK buffs and shields",
       "New Amusement Park map area opens (Heitro suburbs) + GS25 convenience-store crossover collaboration",
       "19 new outfits + outfit recolor system",
       "New kart-racing minigame and mahjong mode; Abyss adds a Curse-attribute exclusive floor",
@@ -941,28 +941,28 @@
           {
             "name": "伊洛伊",
             "nameEn": "Illica",
-            "description": "S 级限定治疗增益辅助（相属性），异环首位限定奶辅。提供全队高额治疗、攻击增幅与护盾，适配暗队、浊燃体系。上半卡池 UP。",
-            "descriptionEn": "S-rank limited Heal/Buffer (Lakshana), the first limited healer in NTE. Team-wide healing, ATK buffs and shields; fits Dark and Turbid-Burn teams. Phase 1 banner.",
+            "description": "S 级限定治疗增益辅助（相属性），异环当前版本的关键奶辅候选。提供全队高额治疗、攻击增幅与护盾，适配暗队、浊燃体系。下一阶段卡池重点角色。",
+            "descriptionEn": "S-rank limited Heal/Buffer (Lakshana), one of the key sustain picks in Version 1.2. Team-wide healing, ATK buffs and shields; a major focus unit for the later phase.",
             "type": "character",
             "ref": "illica",
             "tags": [
               "S级",
               "限定",
-              "上半",
+              "下阶段",
               "相属性"
             ]
           },
           {
             "name": "真红",
             "nameEn": "Zhenhong",
-            "description": "S 级限定光系爆发主 C，龙娘。大范围 AOE 输出，深渊强势角色。可通过游乐园活动免费兑换专属夏日皮肤。下半卡池 UP。",
-            "descriptionEn": "S-rank limited Light burst DPS, dragon girl. Large-area AOE, top-tier in Abyss. Free summer skin obtainable via the amusement-park event. Phase 2 banner.",
+            "description": "S 级限定光系爆发主 C，龙娘。大范围 AOE 输出，深渊强势角色。可通过游乐园活动免费兑换专属夏日皮肤。当前卡池 UP。",
+            "descriptionEn": "S-rank limited Light burst DPS, dragon girl. Large-area AOE, top-tier in Abyss. Free summer skin obtainable via the amusement-park event. Current featured banner.",
             "type": "character",
             "ref": "zhenhong",
             "tags": [
               "S级",
               "限定",
-              "下半",
+              "当前",
               "光属性"
             ]
           }
@@ -973,10 +973,10 @@
         "titleEn": "Banner Schedule (CN)",
         "items": [
           {
-            "name": "上半卡池（伊洛伊）",
-            "nameEn": "Phase 1 Banner (Illica)",
-            "description": "7月2日 ~ 7月23日。伊洛伊限定 UP，配套专属弧盘同步 UP。",
-            "descriptionEn": "July 2 – July 23. Illica limited banner, with her signature disc featured.",
+            "name": "当前卡池（真红）",
+            "nameEn": "Current Banner (Shinku)",
+            "description": "7月8日维护后 ~ 7月29日 05:59（UTC+8）。真红限定 UP，配套专属 Arc「Blushing Mirage」同步开放。",
+            "descriptionEn": "July 8 after maintenance – July 29, 05:59 (UTC+8). Shinku is featured, alongside her signature Arc 'Blushing Mirage'.",
             "type": "system",
             "ref": null,
             "tags": [
@@ -984,14 +984,14 @@
             ]
           },
           {
-            "name": "下半卡池（真红）",
-            "nameEn": "Phase 2 Banner (Zhenhong)",
-            "description": "7月23日 ~ 8月13日。真红限定 UP，配套专属弧盘同步 UP。",
-            "descriptionEn": "July 23 – August 13. Zhenhong limited banner, with her signature disc featured.",
+            "name": "下一阶段关注（伊洛伊）",
+            "nameEn": "Next Banner Watch (Iroi)",
+            "description": "按照当前版本节奏，真红结束后伊洛伊是下一位高关注限定角色。具体开放时间以游戏内公告与后续官方日历为准。",
+            "descriptionEn": "Based on the current patch flow, Iroi is the next high-interest limited unit after Shinku. Confirm the exact opening time through in-game notices and later official calendars.",
             "type": "system",
             "ref": null,
             "tags": [
-              "卡池"
+              "下阶段"
             ]
           }
         ]
@@ -1101,12 +1101,66 @@
     ],
     "compensation": null,
     "internalLinks": [
-      "/characters/illica",
-      "/characters/zhenhong",
-      "/tier-list",
-      "/redeem-codes",
-      "/map",
-      "/changelog"
+      {
+        "label": "999夜攻略",
+        "labelEn": "999 Nights Guide",
+        "href": "/guides/nine-hundred-ninety-nine-nights-mode"
+      },
+      {
+        "label": "沃伦大陆收集攻略",
+        "labelEn": "Warren Continent Collectibles Guide",
+        "href": "/guides/warren-continent-collectibles-guide"
+      },
+      {
+        "label": "真红攻略与抽取建议",
+        "labelEn": "Zhenhong Build & Pull Guide",
+        "href": "/guides/zhenhong-build-guide"
+      },
+      {
+        "label": "999夜怎么解锁",
+        "labelEn": "How to Unlock 999 Nights",
+        "href": "/faq/nte-999-nights-unlock"
+      },
+      {
+        "label": "沃伦大陆怎么进",
+        "labelEn": "How to Unlock the Warren Continent",
+        "href": "/faq/warren-continent-how-to-unlock"
+      },
+      {
+        "label": "1.2兑换码汇总",
+        "labelEn": "Version 1.2 Redeem Codes",
+        "href": "/faq/nte-1-2-redeem-codes"
+      },
+      {
+        "label": "伊洛伊角色资料",
+        "labelEn": "Illica Character Guide",
+        "href": "/characters/illica"
+      },
+      {
+        "label": "真红角色资料",
+        "labelEn": "Zhenhong Character Guide",
+        "href": "/characters/zhenhong"
+      },
+      {
+        "label": "1.2强度榜参考",
+        "labelEn": "Version 1.2 Tier List",
+        "href": "/tier-list"
+      },
+      {
+        "label": "异环兑换码大全",
+        "labelEn": "All Redeem Codes",
+        "href": "/redeem-codes"
+      },
+      {
+        "label": "异环地图探索",
+        "labelEn": "Interactive Map",
+        "href": "/map"
+      },
+      {
+        "label": "更多版本更新",
+        "labelEn": "More Patch Notes",
+        "href": "/changelog"
+      }
     ]
   },
   {

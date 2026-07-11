@@ -2271,25 +2271,25 @@
   },
   {
     "id": "zhenhong-build-guide",
-    "title": "真红深度攻略 — 光系主C技能机制、配装、配队与抽取建议（1.2下半）",
-    "titleEn": "Zhenhong Build Guide — Light DPS Kit, Build, Teams & Pull Advice (v1.2 Phase 2)",
-    "titleTw": "真紅深度攻略 — 光系主C技能機制、配裝、配隊與抽取建議（1.2下半）",
+    "title": "异环真红攻略 — 配队、材料、配装与值不值得抽（1.2下半）",
+    "titleEn": "Zhenhong Build Guide — Teams, Materials, Build & Pull Value",
+    "titleTw": "異環真紅攻略 — 配隊、材料、配裝與值不值得抽（1.2下半）",
     "category": "character-guide",
     "categoryZh": "角色攻略",
     "categoryEn": "Character Guide",
-    "summary": "异环1.2下半限定真红是光属性龙族格斗家主C，技能围绕暴怒值与暴走状态构建。本文详解真红的技能机制、最佳配装、配队思路、与零/伊洛伊的协同，以及该不该抽的判断框架。",
-    "summaryEn": "Zhenhong (v1.2 Phase 2 limited) is a Light-attribute dragon-tribe fighter main DPS whose kit revolves around the Rage gauge and Berserk state. Complete breakdown of her kit, best builds, team comps, synergy with Zero/Illica, and a pull-or-skip framework.",
-    "summaryTw": "異環1.2下半限定真紅是光屬性龍族格鬥家主C，技能圍繞暴怒值與暴走狀態構建。本文詳解真紅的技能機制、最佳配裝、配隊思路、與零/伊洛伊的協同，以及該不該抽的判斷框架。",
-    "date": "2026-06-23",
+    "summary": "异环真红是 1.2 下半最受关注的限定主 C 之一。这篇整合攻略覆盖真红什么时候出、值不值得抽、配队推荐、养成材料、最佳配装，以及她和 999 夜、沃伦大陆版本环境的关系。",
+    "summaryEn": "Zhenhong is one of the headline limited main DPS characters of NTE v1.2 Phase 2. This guide covers release timing, pull value, team comps, material planning, build priority, and why she matters in the 999 Nights version meta.",
+    "summaryTw": "異環真紅是 1.2 下半最受關注的限定主 C 之一。這篇整合攻略覆蓋真紅什麼時候出、值不值得抽、配隊推薦、養成材料、最佳配裝，以及她和 999 夜、沃倫大陸版本環境的關係。",
+    "date": "2026-07-11",
     "tags": [
-      "zhenhong",
-      "light",
-      "1-2",
-      "phase-2",
-      "dps",
-      "limited",
-      "character-guide",
-      "build"
+      "真红",
+      "异环真红",
+      "真红攻略",
+      "真红配队",
+      "真红材料",
+      "真红值得抽吗",
+      "1.2",
+      "角色攻略"
     ],
     "relatedCharacters": [
       "zhenhong",
@@ -2299,39 +2299,33 @@
       "haniel",
       "xiaozhi"
     ],
-    "content": "# 真红深度攻略 — 1.2 下半限定光系主C\n\n真红（Zhenhong）是异环 1.2 版本下半限定卡池角色，**S 级光属性进攻主 C**，龙族格斗家定位。国服卡池时间为 **2026 年 6 月 25 日 – 7 月 15 日**，全球服相应提前约 8 天（6 月 17 日左右开放）。本文基于 1.2 前瞻直播与测试服数据，给你一套完整的配装、配队、抽取判断框架，并标注上线后需要重点验证的数值。\n\n## 一、角色定位与核心机制\n\n真红的核心输出循环围绕**两个互锁机制**构建：\n\n- **暴怒值（Rage）**：普攻与技能命中累积；满值（100 点）后解锁终结技\n- **暴走状态（Berserk）**：消耗全部暴怒值进入，持续约 12 秒；期间 ATK +30%、CRIT Rate +20%，机械尾部提供协同范围攻击\n\n这套机制让她呈现出**\"蓄能 — 爆发\"的节奏型主 C**定位，类似其他二游里的\"开大爆发主 C\"，但暴怒值机制比能量条更主动 — 你需要在爆发前用普攻 + 技能铺垫足够的暴怒值。\n\n被动层面，**真红强化创生体系（Genesis）反应** — 这是光属性独有的反应链。当她与零（男 / 女）等光属性角色配合时，反应伤害会得到额外加成，这是她作为\"光队核心\"的核心身份。\n\n## 二、技能循环（5 步爆发）\n\n实战中真红的标准输出循环：\n\n1. **鬼爪连击起手** — 普攻 3-5 段命中，每段提供 8-10 点暴怒值\n2. **变轨·暴鬼爪** — 中距离突进技能，一次提供 25-30 点暴怒值并施加压制状态（敌人减抗）\n3. **暴怒值满 → 终结·龙焰暴走** — 进入暴走状态，刷新普攻动作\n4. **暴走窗口爆发** — 12 秒内优先打终结技 → 普攻循环，利用 ATK/CRIT 增益打出峰值伤害\n5. **切场（龙尾横扫）** — 暴走结束前切人，机械尾部会自动横扫一次造成光属性范围伤害\n\n**关键技巧**：第 4 步的爆发窗口要和队友增益对齐。**伊洛伊的大招增伤**（+25% 全队 ATK，持续 10 秒）和**哈涅尔的攻击增益**都能在暴走窗口叠出 1.5x-1.8x 的伤害提升。\n\n## 三、最佳配装\n\n| 部位 | 推荐主属性 | 说明 |\n|------|-----------|------|\n| 沙漏 | 攻击力 % | 暴怒值不依赖充能效率，纯堆攻击 |\n| 杯子 | 光属性伤害加成 | 创生反应链伤害也吃这个加成 |\n| 头冠 | 暴击率 / 暴击伤害 | 暴走自带 +20% CRIT，搭配 60%+ 基础即可 |\n\n**副词条优先级**：暴击率 > 暴击伤害 > 攻击力 % > 元素精通\n\n**武器推荐**：\n\n- **首选**：真红专属合成型弧盘（具体名称待 6/25 上线确认） — 提供暴怒值获取效率 + 暴走期间伤害加成\n- **替代**：任何 5 星合成型弧盘（攻击力 % 副词条），或 4 星临时方案\n- **过渡**：常驻池里的高攻击力弧盘\n\n**弧盘套装**：\n\n- **狂战士之怒 4 件套** — 暴击触发后 ATK +10%（每 12 秒一次），完美契合暴走窗口\n- **创生者 2 件套 + 攻击 2 件套** — 如果你的光属性队伍成型，2+2 提供更高的创生反应伤害\n\n## 四、推荐配队\n\n### 队伍一：真红光属性标准队（推荐）\n\n| 位置 | 角色 | 功能 |\n|------|------|------|\n| 主 C | 真红 | 光属性主输出 |\n| 反应触发 | 零（男或女）| 光属性快速切换，触发创生反应 |\n| 增伤 | 伊洛伊 | 治疗 + 全队 ATK 增益 |\n| 生存 | 小吱 | 副输出 + 元素反应辅助 |\n\n### 队伍二：真红暴走爆发队（高难度内容）\n\n| 位置 | 角色 | 功能 |\n|------|------|------|\n| 主 C | 真红 | 暴走窗口爆发 |\n| 双增伤 | 伊洛伊 + 哈尼尔 | 双 ATK 增益叠加 |\n| 生存 | 白藏 | 护盾 + 减伤保真红站场 |\n\n**队伍二**适合深渊、异象副本等高难度内容。双增伤叠满可以让真红暴走窗口的伤害翻倍。\n\n### 队伍三：F2P 光队（无伊洛伊）\n\n| 位置 | 角色 |\n|------|------|\n| 主 C | 真红 |\n| 反应触发 | 零（免费）|\n| 增伤 | 哈尼尔（常驻池）|\n| 生存 | 白藏（常驻池）|\n\n## 五、抽取建议\n\n### 该抽的情况\n\n- 你的账号**缺少光属性主 C**（零的输出更多是反应型而非爆发型）\n- 想组建光属性配队 — 真红是光队核心\n- 已有伊洛伊或哈尼尔等增伤辅助\n- 喜欢节奏型爆发主 C 的操作感\n\n### 该跳过的情况\n\n- 已有娜娜莉 + 安魂曲（光 / 暗双体系已建立）\n- 资源紧张，更想留给 1.3 上半的残虹（咒 + 暗双属性）\n- 不喜欢近战格斗操作\n\n### 抽数规划\n\n异环**无 50/50 机制**，90 抽保底必得当期 featured。考虑：\n\n- **0+0（0 命专武）**：**90 抽**起步 — 多数玩家的合理配置\n- **0+1（专武）**：**约 130 抽** — 武器池 80 抽保底\n- **6+5**：仅限氪佬，约 800 抽\n\n## 六、强度评级（预评）\n\n> 注意：以下评级基于前瞻直播与测试服数据，待 6/25 上线后用实测校准。\n\n| 场景 | 评级 | 说明 |\n|------|------|------|\n| 深渊 | SS | 暴走窗口爆发完美适配限时击杀 |\n| 异象 | SS | 创生反应对群体敌人效率高 |\n| 大世界 | S+ | 普攻连击流畅，操作体验好 |\n\n综合：**T0 级光系主 C，光队天花板**。\n\n## 七、CV 与上线信息\n\n- **国服卡池**：2026 年 6 月 25 日 – 7 月 15 日\n- **全球服卡池**：约 6 月 17 日 – 7 月 1 日（更早）\n- **CV**：截至 1.2 上线前未官方确认，待公布\n\n## 八、常见问题\n\n**Q: 真红和娜娜莉哪个强？**\nA: 不在同一属性赛道。真红是光属性主 C，娜娜莉是生命属性主 C；真红爆发更强，娜娜莉持续输出更稳。**已有娜娜莉且不玩光队** → 可跳过；**想玩光队** → 必抽。\n\n**Q: 「双生蝶」是什么？**\nA: 玩家社区对真红技能包的别称，常指暴怒/暴走循环或协同攻击被动。**非官方术语**，游戏内不会出现这个词。\n\n**Q: 没有伊洛伊能玩真红吗？**\nA: 能，但爆发上限会下降 20-30%。可用哈尼尔 + 白藏作为增伤 + 生存替代组合。\n\n**Q: 真红 0 命够用吗？**\nA: 够用。0 命真红在深渊 / 异象都可以稳定通关；1 命主要是优化暴怒值获取速度，6 命是数值天花板，非必需。\n\n---\n\n*最后更新：2026-06-23。1.2 下半上线（6/25）后我们会用实测数据校准本文的数值与评级。*",
-    "contentEn": "# Zhenhong Build Guide — v1.2 Phase 2 Light DPS\n\nZhenhong is the Version 1.2 Phase 2 limited banner character — an **S-rank Light Attack DPS**, a dragon-tribe fighter. CN server banner runs **July 23 – August 13, 2026**; the global server follows roughly a week later (around July 30). This guide is based on the v1.2 preview livestream and beta data; specific numbers will be validated against live-server data when Phase 2 launches.\n\n## 1. Identity & Core Mechanics\n\nZhenhong's output loop is built around **two interlocking systems**:\n\n- **Rage gauge**: accumulated by basic attacks and skill hits; capping it (100 points) unlocks her finisher\n- **Berserk state**: consumes all Rage to enter for ~12 seconds; grants +30% ATK and +20% CRIT Rate, with her mechanical tail providing coordinated AoE attacks\n\nThis makes her a **rhythm-based burst DPS** — similar to \"burst-window carries\" in other gachas, but more active than energy-gauge designs because you deliberately build Rage with normals and skills before detonating.\n\nHer passive **enhances Genesis (创生) reactions** — the unique Light-attribute reaction chain. When paired with other Light characters like Zero (Male/Female), her reaction damage gets bonus scaling. This is what cements her as the \"core of Light teams\".\n\n## 2. Skill Rotation (5-Step Burst)\n\nThe standard combat loop:\n\n1. **Demon Claw opener** — 3-5 basic-attack hits, each granting 8-10 Rage\n2. **Redirect · Demon Rage Claw** — mid-range dash skill, grants 25-30 Rage and applies Suppression (enemy RES shred)\n3. **Max Rage → Finisher · Dragonflame Berserk** — enter Berserk state, refresh basic-attack animation\n4. **Berserk window burst** — 12s window, prioritize Finisher → basic-attack loops, riding the ATK/CRIT buffs\n5. **Swap-out (Tail Sweep)** — mechanical tail auto-sweeps for Light AoE when you swap characters\n\n**Key tip**: align step 4's burst window with teammate buffs. **Illica's ultimate** (+25% team ATK for 10s) and **Haniel's ATK buff** can multiply Zhenhong's Berserk damage by 1.5x–1.8x.\n\n## 3. Best Build\n\n| Slot | Recommended Main Stat | Notes |\n|------|----------------------|-------|\n| Sands | ATK% | Rage doesn't scale with energy recharge — pure ATK |\n| Goblet | Light DMG Bonus | Also buffs Genesis reaction damage |\n| Circlet | CRIT Rate / CRIT DMG | Berserk grants +20% CRIT, so 60%+ base is enough |\n\n**Substat priority**: CRIT Rate > CRIT DMG > ATK% > Elemental Mastery\n\n**Weapons**:\n\n- **BiS**: Zhenhong's signature Synthesis Arc (exact name TBC at launch) — Rage generation efficiency + Berserk damage boost\n- **Alternative**: any 5-star Synthesis Arc with ATK% substat\n- **Transition**: high-ATK standard banner Arcs\n\n**Disk Sets**:\n\n- **Berserker's Fury 4-piece** — crits grant +10% ATK (every 12s), perfect for Berserk window\n- **Genesis 2-piece + ATK 2-piece** — if you have a Light team established, 2+2 boosts Genesis reactions further\n\n## 4. Recommended Teams\n\n### Team 1: Standard Light Team (recommended)\n\n| Slot | Character | Function |\n|------|-----------|----------|\n| Main DPS | Zhenhong | Light main carry |\n| Reaction trigger | Zero (M or F) | Fast swaps to trigger Genesis |\n| Buffer | Illica | Heal + team-wide ATK buff |\n| Flex | Xiaozhi | Sub-DPS + reaction support |\n\n### Team 2: Berserk Burst Team (high-difficulty content)\n\n| Slot | Character | Function |\n|------|-----------|----------|\n| Main DPS | Zhenhong | Berserk window burst |\n| Double buff | Illica + Haniel | Stacked ATK buffs |\n| Survival | Baicang | Shield + damage reduction |\n\nTeam 2 suits Abyss and Anomaly endgame — double buffs push Zhenhong's burst ceiling.\n\n### Team 3: F2P Light Team (no Illica)\n\n| Slot | Character |\n|------|-----------|\n| Main DPS | Zhenhong |\n| Reaction trigger | Zero (free) |\n| Buffer | Haniel (standard banner) |\n| Survival | Baicang (standard banner) |\n\n## 5. Pull or Skip?\n\n### Pull if\n\n- Your account lacks a Light main DPS (Zero is more reaction-oriented than burst)\n- You want to build a Light team — Zhenhong is the core\n- You already have Illica or Haniel for buffs\n- You enjoy rhythm-based burst DPS gameplay\n\n### Skip if\n\n- You already have Nanally + Lacrimosa and don't need Light DPS\n- Resources are tight and you'd rather save for Canhong in v1.3 Phase 1\n- You don't enjoy fighter-style melee\n\n### Pull budget\n\nNTE has **no 50/50** — 90-pull hard pity guarantees the featured character.\n\n- **0+0 (C0, no signature weapon)**: 90 pulls minimum — reasonable for most players\n- **0+1 (signature weapon)**: ~130 pulls (weapon banner is 80-pull pity)\n- **6+5**: ~800 pulls, whales only\n\n## 6. Tier Rating (Preliminary)\n\n> Note: based on livestream + beta data. Will be validated against live-server numbers after the Phase 2 launch on July 23.\n\n| Scene | Rating | Notes |\n|-------|--------|-------|\n| Abyss | SS | Berserk window fits timed-kill design |\n| Anomaly | SS | Genesis reactions AoE efficiently |\n| Overworld | S+ | Smooth basic-attack feel |\n\nOverall: **T0 Light main DPS, Light team ceiling**.\n\n## 7. CV & Release Dates\n\n- **CN Phase 2 banner**: July 23 – August 13, 2026\n- **Global Phase 2 banner**: ~July 30 – August 20 (about a week later)\n- **CV**: Not officially confirmed as of v1.2 launch — to be announced\n\n## 8. FAQ\n\n**Q: Zhenhong vs Nanally — who's stronger?**\nA: Different attribute lanes. Zhenhong is Light, Nanally is Anima. Zhenhong bursts harder, Nanally has more sustained output. If you already have Nanally and don't play Light teams, you can skip; if you want a Light team, Zhenhong is mandatory.\n\n**Q: What is 'Twin Butterflies' (双生蝶)?**\nA: Community nickname for Zhenhong's kit — usually refers to her Rage/Berserk loop or a coordinated-attack passive. **Not an official term** and won't appear in-game.\n\n**Q: Can I play Zhenhong without Illica?**\nA: Yes, but her burst ceiling drops 20-30%. Use Haniel + Baicang as buff + survival substitutes.\n\n**Q: Is C0 Zhenhong enough?**\nA: Yes. C0 Zhenhong clears Abyss and Anomaly comfortably. C1 optimizes Rage generation; C6 is the numerical ceiling and not required.\n\n---\n\n*Last updated: 2026-07-02. We'll calibrate numbers against live-server data after Phase 2 launches on July 23.*",
-    "contentTw": "# 真紅深度攻略 — 1.2 下半限定光系主C\n\n真紅（Zhenhong）是異環 1.2 版本下半限定卡池角色，**S 級光屬性進攻主 C**，龍族格鬥家定位。國服卡池時間為 **2026 年 6 月 25 日 – 7 月 15 日**，全球服相應提前約 8 天。本文基於 1.2 前瞻直播與測試服資料，提供完整的配裝、配隊、抽取判斷框架。\n\n## 一、角色定位與核心機制\n\n真紅的核心輸出循環圍繞**兩個互鎖機制**構建：\n\n- **暴怒值（Rage）**：普攻與技能命中累積；滿值（100 點）後解鎖終結技\n- **暴走狀態（Berserk）**：消耗全部暴怒值進入，持續約 12 秒；期間 ATK +30%、CRIT Rate +20%，機械尾部提供協同範圍攻擊\n\n被動**強化創生體系（Genesis）反應** — 與零等光屬性角色配合時，反應傷害額外加成。\n\n## 二、技能循環（5 步爆發）\n\n1. **鬼爪連擊起手** — 普攻 3-5 段，每段 8-10 暴怒值\n2. **變軌·暴鬼爪** — 中距離突進，25-30 暴怒值 + 壓制狀態\n3. **暴怒值滿 → 終結·龍焰暴走** — 進入暴走狀態\n4. **暴走窗口爆發** — 12 秒內打終結技 + 普攻循環\n5. **切場（龍尾橫掃）** — 機械尾部自動橫掃光屬性範圍傷害\n\n**關鍵技巧**：第 4 步爆發要和隊友增益對齊。**伊洛伊的大招增傷**和**哈尼爾的攻擊增益**能讓暴走窗口傷害提升 1.5x-1.8x。\n\n## 三、最佳配裝\n\n| 部位 | 推薦主屬性 | 說明 |\n|------|-----------|------|\n| 沙漏 | 攻擊力 % | 暴怒值不依賴充能效率 |\n| 杯子 | 光屬性傷害加成 | 創生反應鏈也吃此加成 |\n| 頭冠 | 暴擊率 / 暴擊傷害 | 暴走自帶 +20% CRIT |\n\n**副詞條優先級**：暴擊率 > 暴擊傷害 > 攻擊力 % > 元素精通\n\n**武器**：真紅專屬合成型弧盤（具體名稱待上線確認）\n\n**弧盤套裝**：狂戰士之怒 4 件套，或創生者 2 + 攻擊 2 混搭\n\n## 四、推薦配隊\n\n詳見中文版。光隊標準陣容為：真紅 + 零 + 伊洛伊 + 小吱。\n\n## 五、抽取建議\n\n異環**無 50/50**，90 抽保底必得。\n\n- **0+0**：90 抽起步\n- **0+1**：約 130 抽\n- **已有娜娜莉且不玩光隊** → 可跳過\n\n## 六、常見問題\n\n**Q: 真紅和娜娜莉哪個強？**\nA: 不同屬性賽道。真紅光屬性爆發主 C，娜娜莉生命屬性持續主 C。\n\n---\n\n*最後更新：2026-06-23。1.2 下半上線（6/25）後我們會用實測資料校準本文的數值與評級。*",
+    "content": "# 异环真红攻略 — 配队、材料、配装与值不值得抽\n\n真红（Zhenhong）是异环 1.2 版本下半最受关注的限定主 C 之一，定位为**光属性龙族格斗家**。如果你最近在搜“真红什么时候出”“真红值不值得抽”“真红配队”“真红材料”，这篇就是为这些问题整合的入口页。\n\n## 一、真红什么时候出？现在能抽吗？\n\n真红属于 **1.2 版本下半卡池角色**。按照当前站内版本排期，她的国服卡池时间为 **2026 年 7 月 23 日 - 2026 年 8 月 13 日**。如果你正在攒抽，最重要的是把她当作 **1.2 版本的核心主 C** 来评估，而不是只看单体面板。\n\n## 二、真红值不值得抽？\n\n### 推荐抽的情况\n\n- 你的账号**缺少稳定的光属性主 C**\n- 想补一支 1.2 之后仍然能长期使用的爆发队\n- 你已经有伊洛伊、哈尼尔、白藏这类能提供增伤或生存的辅助\n- 你会刷 `999夜`、深渊或异象这类需要短窗口爆发的内容\n\n### 可以跳过的情况\n\n- 你已经有成熟的主 C 体系，当前缺的是辅助或生存位\n- 你更关心 `1.3` 或之后版本的资源规划\n- 你不喜欢近战格斗型主 C 的节奏\n\n一句话判断：**缺光系主 C 就优先抽；不缺主 C 但资源紧，可以观望。**\n\n## 三、真红核心机制\n\n真红的输出循环围绕两件事：\n\n- **暴怒值**：通过普攻和技能逐步积累\n- **暴走窗口**：暴怒值满后进入爆发期，在短时间内打出高额伤害\n\n这意味着她不是持续站场磨血型角色，而是典型的**蓄能后集中爆发**。在 1.2 版本环境里，这种角色很适合处理 `999夜` 的高压战斗节点、深渊限时击杀，以及需要快速压血线的首领战。\n\n## 四、真红最佳配队\n\n### 配队一：真红标准爆发队\n\n- 真红\n- 伊洛伊\n- 零（男 / 女）\n- 白藏 / 小吱\n\n这套最稳，逻辑也最清晰：\n\n- 真红负责主输出\n- 伊洛伊提供治疗和攻击增益\n- 零负责光属性联动与反应触发\n- 白藏提高容错，小吱则补一点副输出和轮转体验\n\n### 配队二：真红双增伤爆发队\n\n- 真红\n- 伊洛伊\n- 哈尼尔\n- 白藏\n\n这套更偏高难本与高爆发窗口。双增伤叠起来以后，真红在暴走阶段的伤害会非常集中，但操作和节奏要求也更高。\n\n### 配队三：没有伊洛伊时怎么组\n\n- 真红\n- 零\n- 哈尼尔\n- 白藏\n\n没有伊洛伊也能玩，只是上限会低一些。对于想先抽真红、再慢慢补辅助的账号来说，这套已经够过渡。\n\n## 五、真红材料怎么准备？\n\n如果你准备抽真红，建议提前做好两类材料规划：\n\n### 1. 角色升级材料\n\n优先准备：\n\n- 经验类材料\n- 金币 / 方斯\n- 角色突破素材\n- 版本新增掉落中的光系相关成长材料\n\n### 2. 技能与专属成长材料\n\n重点是把资源优先留给：\n\n- 核心输出技能\n- 爆发相关天赋\n- 专属武器 / 弧盘升级素材\n\n更实用的思路不是死记某个数字表，而是：**先保证她能稳定进入完整输出循环，再追求毕业细节。**\n\n## 六、真红最佳配装\n\n### 主词条优先级\n\n- 沙漏：攻击力%\n- 杯子：光属性伤害加成\n- 头冠：暴击率 / 暴击伤害\n\n### 副词条优先级\n\n- 暴击率\n- 暴击伤害\n- 攻击力%\n- 其他补强词条\n\n### 套装思路\n\n- 优先选择能强化爆发窗口的套装\n- 如果你走光队联动，也可以考虑兼顾创生反应收益的混搭方案\n\n### 武器思路\n\n- 最优先当然是专武\n- 其次是高攻击、高爆发向的上位替代\n- 过渡期可以先用常驻弧盘顶上，不用因为没有专武就放弃抽角色\n\n## 七、真红和 999 夜、沃伦大陆的关系\n\n真红之所以值得在 1.2 版本重点关注，不只是因为她是新角色，还因为她和当前版本的热点内容天然绑定：\n\n- `999夜` 需要高效率爆发队时，真红很好用\n- `沃伦大陆` 的探索和战斗节点会让强势主 C 更有存在感\n- 如果你本轮主要在刷 1.2 内容，真红的投入回报会更直观\n\n也就是说，她不是“单卡强”，而是**正好踩在 1.2 版本主环境里的角色**。\n\n## 八、抽前最后判断\n\n如果你还在犹豫，可以用这个简单判断：\n\n- 想补主 C：抽\n- 想打 1.2 核心内容更舒服：抽\n- 主 C 已经够多、资源不够：可跳\n- 更看重后续版本而不是当前 1.2：可观望\n\n## 九、相关内容推荐\n\n- 先看 `九百九十九夜攻略`，确认 1.2 核心玩法值不值得刷\n- 再看 `沃伦大陆全收集`，判断你当前版本的探索投入方向\n- 如果你在规划抽卡，顺手看 `下个卡池` 和 `兑换码` 相关 FAQ\n\n---\n\n*最后更新：2026-07-11。后续如果真红正式实装后的材料表、技能倍率或最佳配队出现变化，会继续按正式服数据更新。*",
+    "contentEn": "# Zhenhong Guide — Teams, Materials, Build & Pull Value\n\nZhenhong is one of the most important limited main DPS releases in NTE Version 1.2 Phase 2. If you're checking her release timing, whether she is worth pulling, what teams she wants, and how to prepare materials, this page is meant to answer those questions in one place.\n\n## Release Window\n\nZhenhong is treated as the headline Phase 2 banner character for Version 1.2. In current site planning, the CN schedule is July 23 to August 13, 2026.\n\n## Is Zhenhong Worth Pulling?\n\nPull her if you need a Light main DPS, want a burst carry for 999 Nights or endgame modes, or already own support pieces like Illica, Haniel, or Baicang. You can skip if your account already has enough established carries and your real bottleneck is support depth or future-version savings.\n\n## Core Identity\n\nHer gameplay is about building Rage, entering a burst window, and cashing out damage quickly. That makes her especially relevant in Version 1.2 content where short, powerful combat windows matter.\n\n## Best Team Direction\n\nA stable shell is:\n\n- Zhenhong\n- Illica\n- Zero (male or female)\n- Baicang or Xiaozhi\n\nA more aggressive version swaps into a double-buff shell with Haniel.\n\n## Material Planning\n\nPrepare general leveling materials, currency, breakthrough resources, and new Version 1.2 Light growth resources first. The practical goal is to get her full damage loop online before chasing full optimization.\n\n## Build Priority\n\nMain stats:\n\n- ATK% sands\n- Light DMG bonus goblet\n- CRIT Rate or CRIT DMG circlet\n\nSubstats:\n\n- CRIT Rate\n- CRIT DMG\n- ATK%\n\n## Why She Matters in Version 1.2\n\nZhenhong is not just a strong standalone card. She lines up naturally with the current 999 Nights and Warren Continent version environment, which raises her real value during this patch cycle.\n\n---\n\n*Last updated: 2026-07-11. This page will be updated again as live-server material tables and final best-team conclusions settle.*",
+    "contentTw": "# 異環真紅攻略 — 配隊、材料、配裝與值不值得抽\n\n真紅（Zhenhong）是異環 1.2 版本下半最受關注的限定主 C 之一，定位為**光屬性龍族格鬥家**。如果你最近在搜「真紅什麼時候出」「真紅值不值得抽」「真紅配隊」「真紅材料」，這篇就是為這些問題整合的入口頁。\n\n## 一、真紅什麼時候出？現在能抽嗎？\n\n真紅屬於 **1.2 版本下半卡池角色**。按照目前站內版本排期，她的國服卡池時間為 **2026 年 7 月 23 日 - 2026 年 8 月 13 日**。\n\n## 二、真紅值不值得抽？\n\n### 推薦抽的情況\n\n- 你的帳號**缺少穩定的光屬性主 C**\n- 想補一支 1.2 之後仍然能長期使用的爆發隊\n- 你已經有伊洛伊、哈尼爾、白藏這類能提供增傷或生存的輔助\n\n### 可以跳過的情況\n\n- 你已經有成熟的主 C 體系，現在缺的是輔助或生存位\n- 你更關心 `1.3` 或之後版本的資源規劃\n\n## 三、真紅最佳配隊\n\n- 真紅\n- 伊洛伊\n- 零（男 / 女）\n- 白藏 / 小吱\n\n這套最穩，也最適合作為目前版本的通用答案。\n\n## 四、真紅材料怎麼準備？\n\n優先準備通用升級材料、方斯、突破素材，以及 1.2 版本新增的光系成長材料。先保證她能完整進入輸出循環，再去追畢業細節。\n\n---\n\n*最後更新：2026-07-11。後續若真紅正式實裝後的材料表與最佳配隊出現變化，會再按正式服資料更新。*",
     "faq": [
       {
         "question": "Is Zhenhong worth pulling in NTE 1.2?",
         "questionZh": "异环真红值得抽吗？",
-        "answer": "Yes if you need a Light main DPS or want to build a Light/Genesis team. Skip if you already have Nanally/Lacrimosa covering DPS and don't care about Light specifically. C0 is sufficient for Abyss/Anomaly.",
-        "answerZh": "如果你缺光属性主 C 或想组建光队，必抽。已有娜娜莉 + 安魂曲且不玩光队的可以跳过。0 命即可打通深渊 / 异象。"
-      },
-      {
-        "question": "What is the best build for Zhenhong?",
-        "questionZh": "真红最佳配装是什么？",
-        "answer": "ATK% sands, Light DMG Bonus goblet, CRIT Rate/DMG circlet. Substats: CRIT Rate > CRIT DMG > ATK%. Berserker's Fury 4-piece for the Berserk window synergy. Weapon: her signature Synthesis Arc is BiS.",
-        "answerZh": "攻击力%沙漏、光属性伤害加成杯子、暴击率/暴击伤害头冠。副词条优先暴击。套装选狂战士之怒 4 件套完美契合暴走窗口。武器首选专武。"
+        "answer": "Yes if you need a Light main DPS or want to build a burst-focused 1.2 team. If your account already has enough carries and you are short on resources, skipping is reasonable.",
+        "answerZh": "如果你缺光属性主 C，或者想补一支适合 1.2 版本环境的爆发队，值得抽。要是你主 C 已经够用、资源又紧，也可以跳过。"
       },
       {
         "question": "Which characters pair best with Zhenhong?",
         "questionZh": "真红和谁配队最好？",
-        "answer": "Illica (heal + ATK buff), Zero Male/Female (Light resonance + Genesis trigger), and Haniel (additional ATK buff) form the core. Baicang provides survival in high-difficulty content.",
-        "answerZh": "伊洛伊（治疗+增伤）、零（光共鸣+创生触发）、哈尼尔（额外攻击增益）是核心。白藏提供高难度内容的生存。"
+        "answer": "Illica, Zero, Haniel, Baicang, and Xiaozhi are the most natural support or reaction partners depending on whether you want safety or burst ceiling.",
+        "answerZh": "伊洛伊、零、哈尼尔、白藏、小吱都是真红当前版本里最自然的搭档，区别主要在你更要生存还是更要爆发上限。"
       },
       {
-        "question": "When does Zhenhong's banner start?",
-        "questionZh": "真红卡池什么时候开？",
-        "answer": "CN server: July 23 – August 13, 2026. Global server: around July 30 – August 20 (roughly a week later than CN).",
-        "answerZh": "国服 2026 年 6 月 25 日 – 7 月 15 日。全球服约 6 月 17 日 – 7 月 1 日（比国服早 8 天左右）。"
+        "question": "What materials should I prepare for Zhenhong?",
+        "questionZh": "真红材料要提前准备什么？",
+        "answer": "Focus on leveling materials, currency, breakthrough resources, and Version 1.2 Light growth materials first. Get her basic rotation online before chasing max optimization.",
+        "answerZh": "优先准备升级材料、方斯、突破资源和 1.2 的光系成长材料。先保证她能完整打出核心循环，再去追求毕业细节。"
       },
       {
-        "question": "What is 'Twin Butterflies' (双生蝶)?",
-        "questionZh": "什么是「双生蝶」？",
-        "answer": "Community nickname for Zhenhong's kit (Rage/Berserk loop or coordinated passive). Not an official in-game term.",
-        "answerZh": "玩家社区对真红技能包的别称，非官方术语，游戏内不会出现这个词。"
+        "question": "Why is Zhenhong important in Version 1.2?",
+        "questionZh": "为什么说真红很适合 1.2 版本？",
+        "answer": "Because her burst profile lines up well with current Version 1.2 combat pressure, especially in modes like Nine Hundred and Ninety-Nine Nights and other short-window damage checks.",
+        "answerZh": "因为她的爆发节奏和 1.2 当前版本的战斗压力很契合，尤其适合九百九十九夜这类需要短窗口高伤害的内容。"
       }
     ]
   },
@@ -3572,18 +3566,20 @@
   },
   {
     "id": "nine-hundred-ninety-nine-nights-mode",
-    "title": "「九百九十九夜」常驻玩法攻略 — 沃伦大陆挑战巨龙入门",
+    "title": "异环九百九十九夜攻略 — 999夜怎么玩、怎么刷、沃伦大陆怎么解锁",
     "titleEn": "'Nine Hundred and Ninety-Nine Nights' Mode Guide — Warren Continent & Dragon Challenge",
     "titleTw": "「九百九十九夜」常駐玩法攻略 — 沃倫大陸挑戰巨龍入門",
     "category": "gameplay",
     "categoryZh": "玩法攻略",
     "categoryEn": "Gameplay",
-    "summary": "异环 1.2 常驻新玩法「九百九十九夜」全解析：桌游 RPG 风格的沃伦大陆、挑战巨龙、开启方式、上手与周回建议，以及与游乐园的区别。",
+    "summary": "异环 1.2 常驻新玩法「九百九十九夜」全解析：999夜是什么、怎么解锁、怎么刷、奖励值不值得拿，以及它和沃伦大陆、游乐园的区别。这篇就是 999 夜中文主入口。",
     "summaryEn": "Full breakdown of NTE 1.2's permanent mode 'Nine Hundred and Ninety-Nine Nights': the tabletop-RPG Warren Continent, dragon challenges, how to unlock, farming tips, and how it differs from the Amusement Park.",
     "summaryTw": "異環 1.2 常駐新玩法「九百九十九夜」全解析：桌遊 RPG 風格的沃倫大陸、挑戰巨龍、開啟方式、上手與周迴建議，以及與遊樂園的區別。",
     "date": "2026-07-02",
     "tags": [
       "九百九十九夜",
+      "999夜",
+      "异环999夜",
       "沃伦大陆",
       "常驻玩法",
       "1.2",
@@ -3594,7 +3590,7 @@
       "illica",
       "zhenhong"
     ],
-    "content": "「九百九十九夜」是《异环》1.2 版本上线的**常驻大型玩法**，以桌游（TRPG）为灵感，把玩家带入名为**沃伦大陆**的奇幻异世界，在剑与魔法的舞台上挑战巨龙。与限时活动不同，本玩法长期开放，可反复周回。\n\n## 玩法定位\n\n- **类型**：常驻剧情 + 战斗玩法（游戏中的游戏）\n- **场景**：沃伦大陆（中世纪奇幻风）\n- **核心目标**：推进桌游式章节、挑战不同难度的龙类首领\n- **奖励**：环石、养成材料、隐藏要素，可长期产出\n\n## 开启方式\n\n完成 1.2 版本主线相关引导后解锁入口。建议先把角色练度提升到能稳定通关当前深渊的水平，再进入高难度龙类挑战。\n\n## 上手建议\n\n1. **先过一遍基础章节**：熟悉桌游式的战斗与事件机制，拿到首轮奖励。\n2. **按属性组队**：龙类首领通常有属性弱点，参考本站角色页的属性克制搭配。\n3. **周回优先级**：把每日/每周可领取的奖励节点清空，再挑战更高难度。\n4. **善用增益辅助**：伊洛伊等治疗增益角色能显著提升高难度容错。\n\n## 常见误区\n\n- **不是限时活动**：不必赶进度，内容常驻，可以慢慢肝。\n- **不等于游乐园**：游乐园是海特洛市郊的现实地图区域，沃伦大陆是独立奇幻世界，两者是 1.2 的不同内容。\n\n更多角色配队与属性克制，请参考本站角色数据库与配队工具。",
+    "content": "「九百九十九夜」是《异环》1.2 版本上线的**常驻大型玩法**，很多玩家也直接叫它 **999夜**。如果你最近在搜“999夜怎么玩”“999夜怎么刷”“沃伦大陆怎么解锁”，这篇就是当前版本最该先看的入口页。\n\n## 一、999夜是什么？\n\n`九百九十九夜` 是一个带有桌游 / TRPG 气质的常驻玩法，玩家会进入名为 **沃伦大陆** 的奇幻世界，在那里推进章节、处理事件、挑战巨龙，并反复周回拿奖励。\n\n它的重点不是一次性看完剧情，而是：\n\n- 有长期可刷的内容\n- 有适合版本主 C 发挥的战斗节点\n- 和 1.2 版本整体节奏绑定得很深\n\n## 二、999夜怎么解锁？\n\n完成 1.2 版本主线相关引导后即可开启。更直接地说，**先把 1.2 主线推进到对应入口，再回头刷 999 夜**，体验会顺很多。\n\n如果你现在还没看到入口，先检查两件事：\n\n1. 当前主线是否推进到 1.2 相关阶段\n2. 是否已经进入 `沃伦大陆` 相关内容\n\n## 三、沃伦大陆和 999夜是什么关系？\n\n很多人会把两个词混在一起搜，但它们不是完全同义：\n\n- `九百九十九夜 / 999夜`：玩法本身\n- `沃伦大陆`：这个玩法所使用的奇幻世界场景\n\n也就是说，**沃伦大陆是 999 夜的核心舞台**。你后续找全收集、隐藏点、路线攻略时，通常会落到沃伦大陆相关页面。\n\n## 四、999夜怎么刷最划算？\n\n如果你的目标是效率，不要一上来就盲目冲最高难度。更实用的顺序是：\n\n1. **先拿首轮解锁奖励**\n2. **优先清掉每天 / 每周能稳定拿的奖励节点**\n3. **确认当前主 C 配队成型后，再冲高难度龙类战斗**\n4. **缺探索资源时，转去配合沃伦大陆收集路线推进**\n\n## 五、999夜奖励值不值得刷？\n\n值得，尤其是你还在集中打 1.2 版本内容的时候。\n\n这玩法的价值主要在：\n\n- 环石\n- 角色成长资源\n- 长期周回收益\n- 和当前版本主流配队的实战验证空间\n\n如果你本周资源很紧，建议优先把 `999夜` 当成**稳定收益入口**，而不是纯娱乐玩法。\n\n## 六、推荐怎么组队\n\n999 夜不是固定答案玩法，但有几个判断很稳定：\n\n- 有爆发主 C 会更舒服\n- 有治疗 / 护盾角色，容错高很多\n- 有增伤辅助时，高难节点效率提升明显\n\n以当前版本来看，像 `真红`、`伊洛伊` 这种 1.2 强关联角色，在 999 夜里的存在感会很高。\n\n## 七、上手时最容易踩的坑\n\n### 1. 把 999夜当限时活动去赶进度\n\n它是常驻内容，不是错过就没了，所以更适合长期周回。\n\n### 2. 把沃伦大陆和游乐园搞混\n\n- 游乐园：海特洛市郊的现实地图区域\n- 沃伦大陆：999夜中的独立奇幻世界\n\n### 3. 一开始就硬冲高难度\n\n更合理的做法是：**先跑通机制，再谈速刷。**\n\n## 八、这篇之后建议接着看什么\n\n如果你是按版本节奏推进，建议下一步看：\n\n- `沃伦大陆全收集攻略`\n- `真红攻略`\n- `1.2 更新日志`\n\n这样你能把 999 夜、角色培养和探索路线三件事串起来看。\n\n---\n\n*最后更新：2026-07-11。后续如果 999 夜的奖励节奏、推荐路线或高难度节点有更明确的正式服结论，会继续补充到这篇主入口里。*",
     "contentEn": "'Nine Hundred and Ninety-Nine Nights' is a **permanent large-scale mode** added in NTE version 1.2. Inspired by tabletop RPGs (TRPG), it drops players into a fantasy world called the **Warren Continent** to challenge dragons in a sword-and-sorcery setting. Unlike limited-time events, this mode stays open permanently and is fully repeatable.\n\n## What It Is\n\n- **Type**: Permanent story + combat mode (a game within the game)\n- **Setting**: Warren Continent (medieval fantasy)\n- **Core goal**: Progress through tabletop-style chapters and challenge dragon bosses across difficulties\n- **Rewards**: Ringstones, growth materials, hidden elements — a long-term income source\n\n## How to Unlock\n\nUnlocked after clearing the related v1.2 main-story guidance. Build your characters to comfortably clear the current Abyss before attempting higher-difficulty dragon fights.\n\n## Getting Started\n\n1. **Clear the base chapters first** to learn the tabletop-style combat and event mechanics and grab first-clear rewards.\n2. **Team by attribute** — dragon bosses usually have elemental weaknesses; use this site's character pages for matchups.\n3. **Farm priority**: clear claimable daily/weekly reward nodes before pushing higher difficulty.\n4. **Bring a buffer/healer** — supports like Illica greatly improve survivability on higher difficulties.\n\n## Common Misconceptions\n\n- **Not a limited event** — no rush; the content is permanent, farm at your own pace.\n- **Not the Amusement Park** — the Amusement Park is a real map area in the Hethereau suburbs; the Warren Continent is a separate fantasy world. Both are distinct v1.2 content.\n\nFor team comps and elemental matchups, see this site's character database and team-builder tools.",
     "contentTw": "「九百九十九夜」是《異環》1.2 版本上線的**常駐大型玩法**，以桌遊（TRPG）為靈感，把玩家帶入名為**沃倫大陸**的奇幻異世界，在劍與魔法的舞台上挑戰巨龍。與限時活動不同，本玩法長期開放，可反覆周迴。\n\n## 玩法定位\n\n- **類型**：常駐劇情 + 戰鬥玩法（遊戲中的遊戲）\n- **場景**：沃倫大陸（中世紀奇幻風）\n- **核心目標**：推進桌遊式章節、挑戰不同難度的龍類首領\n- **獎勵**：環石、養成材料、隱藏要素，可長期產出\n\n## 開啟方式\n\n完成 1.2 版本主線相關引導後解鎖入口。建議先把角色練度提升到能穩定通關當前深淵的水平，再進入高難度龍類挑戰。\n\n## 上手建議\n\n1. **先過一遍基礎章節**：熟悉桌遊式的戰鬥與事件機制，拿到首輪獎勵。\n2. **按屬性組隊**：龍類首領通常有屬性弱點，參考本站角色頁的屬性剋制搭配。\n3. **周迴優先級**：把每日/每週可領取的獎勵節點清空，再挑戰更高難度。\n4. **善用增益輔助**：伊洛伊等治療增益角色能顯著提升高難度容錯。\n\n## 常見誤區\n\n- **不是限時活動**：不必趕進度，內容常駐，可以慢慢肝。\n- **不等於遊樂園**：遊樂園是海特洛市郊的現實地圖區域，沃倫大陸是獨立奇幻世界，兩者是 1.2 的不同內容。\n\n更多角色配隊與屬性剋制，請參考本站角色資料庫與配隊工具。",
     "faq": [
@@ -3609,7 +3605,64 @@
         "questionZh": "沃伦大陆和游乐园是同一个地方吗？",
         "answer": "No. The Amusement Park is a real map area in the Hethereau suburbs; the Warren Continent is a separate fantasy world used by the Nine Hundred and Ninety-Nine Nights mode. Both are distinct v1.2 content.",
         "answerZh": "不是。游乐园是海特洛市郊的现实地图区域；沃伦大陆是「九百九十九夜」玩法所在的独立奇幻世界。两者是 1.2 版本的不同内容。"
+      },
+      {
+        "question": "How should I farm Nine Hundred and Ninety-Nine Nights efficiently?",
+        "questionZh": "999夜怎么刷比较划算？",
+        "answer": "Clear the base rewards first, then prioritize daily and weekly nodes before pushing the hardest dragon fights. Treat it as long-term repeatable content, not as a one-day sprint.",
+        "answerZh": "先拿首轮解锁奖励，再优先清每日 / 每周稳定收益节点，最后再去打高难度龙类战斗。把它当长期周回内容，而不是一天肝完的冲刺活动。"
+      },
+      {
+        "question": "Do I need to rush Nine Hundred and Ninety-Nine Nights immediately?",
+        "questionZh": "999夜需要立刻打完吗？",
+        "answer": "No. It is permanent v1.2 content, so rushing everything on day one is unnecessary. Progress it steadily alongside your character building and Warren Continent exploration.",
+        "answerZh": "不需要。它是 1.2 的常驻内容，不必开版本第一天就全部打完。更合理的方式是和角色养成、沃伦大陆探索一起稳步推进。"
       }
     ]
+  },
+  {
+    "id": "warren-continent-collectibles-guide",
+    "title": "异环沃伦大陆全收集攻略：宝箱、隐藏点、任务与探索顺序",
+    "titleEn": "Warren Continent Collectibles Guide — Chests, Hidden Spots, Quests & Route",
+    "titleTw": "異環沃倫大陸全收集攻略：寶箱、隱藏點、任務與探索順序",
+    "category": "exploration",
+    "categoryZh": "探索攻略",
+    "categoryEn": "Exploration",
+    "summary": "沃伦大陆是异环 1.2「九百九十九夜」的核心舞台。这篇总览页用来承接“沃伦大陆全收集”“沃伦大陆宝箱”“沃伦大陆隐藏点”等搜索，先帮你理清怎么去、先收什么、怎么和地图页配合。",
+    "summaryEn": "The Warren Continent is the core setting of NTE 1.2's Nine Hundred and Ninety-Nine Nights mode. This overview guide covers how to reach it, what to collect first, and how to pair your run with the interactive map.",
+    "summaryTw": "沃倫大陸是異環 1.2「九百九十九夜」的核心舞台。這篇總覽頁用來承接「沃倫大陸全收集」「沃倫大陸寶箱」「沃倫大陸隱藏點」等搜尋，先幫你理清怎麼去、先收什麼、怎麼和地圖頁配合。",
+    "content": "# 异环沃伦大陆全收集攻略\n\n沃伦大陆是 `九百九十九夜 / 999夜` 的主要舞台，也是 1.2 版本最容易延伸出探索需求的区域。如果你最近在找“沃伦大陆宝箱”“沃伦大陆隐藏点”“沃伦大陆全收集路线”，先用这篇总览页把思路理清最省时间。\n\n## 一、沃伦大陆怎么去？\n\n沃伦大陆并不是海特洛市里的普通现实区域，而是 1.2 玩法内容中的奇幻舞台。通常你需要：\n\n1. 推进 1.2 相关主线\n2. 解锁 `九百九十九夜` 入口\n3. 进入玩法后再展开沃伦大陆探索\n\n所以如果你搜的是“沃伦大陆怎么去”，本质上是在问 **999夜入口有没有开**。\n\n## 二、沃伦大陆有哪些东西值得收？\n\n从当前版本热词来看，玩家最关心的通常是：\n\n- 宝箱\n- 隐藏点 / 漏点\n- 支线或事件节点\n- 和养成有关的探索奖励\n- 版本活动顺手可拿的资源\n\n如果你目标是效率，建议不要一上来就做无差别地毯式搜图，而是先按“收益最高的一圈”来跑。\n\n## 三、推荐探索顺序\n\n### 第一轮：主线顺手收\n\n先把你主线经过、最明显的可拿点位顺手拿掉。这样不会因为强行绕路打乱推进节奏。\n\n### 第二轮：补宝箱和显性点位\n\n等你对区域结构熟一点后，再按路线补最容易漏的显性收集物。\n\n### 第三轮：回头查隐藏点\n\n真正容易卡住进度的，通常不是大路边的宝箱，而是：\n\n- 需要条件触发的点位\n- 需要回头补的事件\n- 地图视觉不明显的隐藏角落\n\n## 四、如何和地图页配合\n\n这个项目本身最强的能力是交互地图，所以沃伦大陆内容最适合和地图一起看。\n\n建议用法：\n\n- 先用这篇页做区域总览\n- 再跳去地图页按分类筛选\n- 最后回到具体 guide 看漏点说明或任务条件\n\n如果某些点位还没完全补齐，也可以先把这篇当成文字版总路线。\n\n## 五、最常见的漏点类型\n\n- 只推进主线，不回头补探索\n- 把沃伦大陆和游乐园等现实区域混淆\n- 只找宝箱，不看任务触发或事件前置\n- 队伍练度不够，导致高压战斗点位暂时拿不下\n\n## 六、什么时候值得专门做全收集？\n\n最值得专门清沃伦大陆的时候通常有三种：\n\n- 你正在集中打 1.2 版本内容\n- 你需要补环石或成长资源\n- 你已经开始刷 999 夜，想把玩法效率和探索收益一起吃满\n\n## 七、下一步建议\n\n如果你是第一次进沃伦大陆，建议按这个顺序继续看：\n\n1. `九百九十九夜攻略`\n2. 地图页\n3. 版本 1.2 更新日志\n4. 真红 / 伊洛伊等版本角色攻略\n\n这样你就不会把探索、玩法和角色养成拆开看。\n\n---\n\n*最后更新：2026-07-11。后续如果沃伦大陆地图点位、宝箱分类或隐藏事件路线补齐，会继续在这篇总览页往下拆分成更细的子页。*",
+    "contentEn": "# Warren Continent Collectibles Guide\n\nThe Warren Continent is the main stage of Nine Hundred and Ninety-Nine Nights. If you are searching for Warren Continent chests, hidden spots, and full-clear routes, start with this overview before diving into detailed map checks.\n\n## How to Reach the Warren Continent\n\nYou do not enter it as a normal city zone. In practice, you need to progress the Version 1.2 story, unlock the Nine Hundred and Ninety-Nine Nights entry point, and then move into Warren Continent exploration from there.\n\n## What to Collect First\n\nMost players care about:\n\n- chests\n- hidden spots\n- side-event nodes\n- growth-resource pickups\n- version-tied exploration rewards\n\n## Suggested Exploration Order\n\n1. Pick up obvious rewards while pushing the main route\n2. Return for visible chest and route cleanup\n3. Revisit for hidden triggers and conditional nodes\n\n## Use It Together With the Map\n\nThis site's interactive map is the best companion for Warren Continent cleanup. Use this page for route logic first, then switch to the map for category filtering.\n\n## Common Misses\n\n- pushing story without backtracking for exploration\n- confusing Warren Continent with other 1.2 areas\n- focusing only on chests while ignoring trigger conditions\n- entering high-pressure combat nodes with underbuilt teams\n\n---\n\n*Last updated: 2026-07-11. This overview will expand into more detailed sub-guides as more Warren Continent route data is finalized.*",
+    "contentTw": "# 異環沃倫大陸全收集攻略\n\n沃倫大陸是 `九百九十九夜 / 999夜` 的主要舞台，也是 1.2 版本最容易延伸出探索需求的區域。如果你最近在找「沃倫大陸寶箱」「沃倫大陸隱藏點」「沃倫大陸全收集路線」，先用這篇總覽頁把思路理清最省時間。\n\n## 一、沃倫大陸怎麼去？\n\n沃倫大陸不是海特洛市裡的普通現實區域，而是 1.2 玩法內容中的奇幻舞台。通常你需要先推進 1.2 相關主線，再解鎖 `九百九十九夜` 入口，之後才能展開沃倫大陸探索。\n\n## 二、沃倫大陸有哪些東西值得收？\n\n從目前版本熱詞來看，玩家最關心的通常是寶箱、隱藏點、支線或事件節點，以及和養成有關的探索獎勵。\n\n## 三、推薦探索順序\n\n1. 主線順手收\n2. 補顯性寶箱與明顯點位\n3. 回頭查隱藏事件與漏點\n\n## 四、如何和地圖頁配合\n\n建議先用這篇頁做區域總覽，再跳去地圖頁按分類篩選，最後回來看具體漏點說明。\n\n---\n\n*最後更新：2026-07-11。後續如果沃倫大陸地圖點位與隱藏事件路線補齊，會再拆成更細的子頁。*",
+    "tags": [
+      "沃伦大陆",
+      "沃伦大陆全收集",
+      "沃伦大陆宝箱",
+      "沃伦大陆隐藏点",
+      "999夜",
+      "1.2",
+      "探索"
+    ],
+    "relatedCharacters": [
+      "zhenhong",
+      "illica"
+    ],
+    "relatedLocations": [],
+    "relatedLore": [],
+    "faq": [
+      {
+        "question": "How do I access the Warren Continent?",
+        "questionZh": "沃伦大陆怎么去？",
+        "answer": "Progress the Version 1.2 story and unlock the Nine Hundred and Ninety-Nine Nights entry point first. Warren Continent access is tied to that mode rather than to a normal city route.",
+        "answerZh": "先推进 1.2 主线并解锁九百九十九夜入口。沃伦大陆和普通城市路线不同，它和这个玩法入口绑定。"
+      },
+      {
+        "question": "What should I collect first on the Warren Continent?",
+        "questionZh": "沃伦大陆先收什么最划算？",
+        "answer": "Start with obvious route-side rewards and visible chest nodes, then return for hidden or condition-based collectibles after you understand the area layout.",
+        "answerZh": "优先拿主线路上的显性奖励和容易看到的宝箱，熟悉区域结构后再回头补隐藏点和条件触发收集物。"
+      }
+    ],
+    "date": "2026-07-11"
   }
 ]

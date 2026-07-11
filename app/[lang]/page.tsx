@@ -123,23 +123,23 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* Banner Schedule CTA — current 1.1 search demand */}
+        {/* Version 1.2 CTA — current hot-topic demand */}
         <section className="max-w-6xl mx-auto px-4 py-4">
           <Link
-            href={`/${lang}/banners`}
-            className="block rounded-xl border border-sky-500/30 bg-gradient-to-r from-sky-500/10 to-emerald-500/10 p-4 hover:border-sky-500/50 hover:from-sky-500/15 hover:to-emerald-500/15 transition-all group"
+            href={`/${lang}/changelog/1.2`}
+            className="block rounded-xl border border-sky-500/30 bg-gradient-to-r from-sky-500/10 to-cyan-500/10 p-4 hover:border-sky-500/50 hover:from-sky-500/15 hover:to-cyan-500/15 transition-all group"
           >
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="text-lg font-bold text-sky-400 group-hover:text-sky-300 transition-colors">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "1.1 卡池時間表：安魂曲 / 卡厄斯" : "1.1 卡池时间表：安魂曲 / 卡厄斯")
-                    : "NTE Banner Schedule: Lacrimosa / Chaos"}
+                    ? (locale === "tw" ? "1.2 版本熱點：999夜 / 伊洛伊 / 真紅" : "1.2 版本热点：999夜 / 伊洛伊 / 真红")
+                    : "Version 1.2 Hot Topics: 999 Nights / Illica / Zhenhong"}
                 </h2>
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "查看當前UP、下期卡池、保底規則與抽取建議" : "查看当前UP、下期卡池、保底规则与抽取建议")
-                    : "Current and next banners, pity rules, weapon banner notes, and pull advice."}
+                    ? (locale === "tw" ? "版本更新、999夜玩法、沃倫大陸與當前真紅抽取建議一站查看" : "版本更新、999夜玩法、沃伦大陆与当前真红抽取建议一站查看")
+                    : "Patch notes, 999 Nights mode, Warren Continent unlocks, and Zhenhong pull advice in one place."}
                 </p>
               </div>
               <span className="text-sky-400/60 group-hover:text-sky-400 text-2xl">→</span>
@@ -193,6 +193,54 @@ export default async function HomePage({
               <span className="text-emerald-400/60 group-hover:text-emerald-400 text-2xl">→</span>
             </div>
           </Link>
+        </section>
+
+        {/* Hot Topic Shortcuts */}
+        <section className="max-w-6xl mx-auto px-4 py-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              {
+                href: `/${lang}/guides/nine-hundred-ninety-nine-nights-mode`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "999夜怎麼玩？" : "999夜怎么玩？") : "How Does 999 Nights Work?",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "模式解鎖、周回收益、沃倫大陸核心機制快速看懂" : "模式解锁、周回收益、沃伦大陆核心机制快速看懂")
+                  : "Unlock steps, repeat farming value, and the Warren Continent core loop.",
+                accent: "border-amber-500/30 bg-amber-500/10 text-amber-300",
+              },
+              {
+                href: `/${lang}/guides/zhenhong-build-guide`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "真紅值不值得抽？" : "真红值不值得抽？") : "Is Zhenhong Worth Pulling?",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "下半卡池熱詞：抽取建議、配隊、材料與養成優先級" : "下半卡池热词：抽取建议、配队、材料与养成优先级")
+                  : "Phase 2 banner advice, teams, mats, and build priorities.",
+                accent: "border-rose-500/30 bg-rose-500/10 text-rose-300",
+              },
+              {
+                href: `/${lang}/blog/cloud-yihuan-pc-guide`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "雲異環 PC 能玩嗎？" : "云异环 PC 能玩吗？") : "Can You Play NTE on PC Now?",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "官網、Epic、雲異環 PC、Steam 入口差異一次講清" : "官网、Epic、云异环 PC、Steam 入口差异一次讲清")
+                  : "Official client, Epic, Cloud PC, and Steam availability compared.",
+                accent: "border-cyan-500/30 bg-cyan-500/10 text-cyan-300",
+              },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
+              >
+                <span className={`inline-flex rounded-full px-2.5 py-1 text-xs font-medium ${item.accent}`}>
+                  {isZhLocale(locale) ? (locale === "tw" ? "近期熱門" : "近期热门") : "Trending Now"}
+                </span>
+                <h2 className="mt-3 text-lg font-bold group-hover:text-primary-400 transition-colors">
+                  {item.title}
+                </h2>
+                <p className="mt-2 text-sm text-gray-400">
+                  {item.desc}
+                </p>
+              </Link>
+            ))}
+          </div>
         </section>
 
         {/* Tools Section */}

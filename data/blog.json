@@ -3935,9 +3935,9 @@
   },
   {
     "id": "nte-version-1-2-update-overview",
-    "title": "异环1.2「999 Nights」更新总览：真红上线、Warren Continent开放、活动福利汇总",
-    "titleTw": "異環1.2「999 Nights」更新總覽：真紅上線、Warren Continent 開放、活動福利匯總",
-    "titleEn": "NTE Version 1.2 '999 Nights' Overview: Shinku Live, Warren Continent Open, Rewards Recap",
+    "title": "异环1.2更新总览：九百九十九夜、真红、沃伦大陆与活动福利汇总",
+    "titleTw": "異環1.2更新總覽：九百九十九夜、真紅、沃倫大陸與活動福利匯總",
+    "titleEn": "NTE Version 1.2 Overview: 999 Nights, Zhenhong, Warren Continent & Rewards",
     "category": "guide",
     "categoryZh": "版本更新",
     "categoryEn": "Version Update",
@@ -3946,19 +3946,35 @@
       "1.2",
       "更新",
       "真红",
-      "999 Nights",
-      "Warren Continent",
+      "九百九十九夜",
+      "999夜",
+      "沃伦大陆",
       "攻略"
     ],
-    "summary": "异环 1.2「999 Nights」已于 2026-07-08 上线：真红 Shinku 登场、Warren Continent 新主线开放、登录与补偿福利发放、限时活动和 Shinku 羁遇同步更新。",
-    "summaryTw": "異環 1.2「999 Nights」已於 2026-07-08 上線：真紅 Shinku 登場、Warren Continent 新主線開放、登入與補償福利發放、限時活動和 Shinku 羈遇同步更新。",
-    "summaryEn": "NTE Version 1.2 '999 Nights' launched on July 8, 2026 with Shinku, the Warren Continent story update, compensation rewards, limited-time events, and new Shinku bond content.",
+    "summary": "异环 1.2 已正式上线，这一版最值得关注的不是单一卡池，而是整套版本环境：九百九十九夜、真红、沃伦大陆、新活动福利与一批系统优化全部同时落地。",
+    "summaryTw": "異環 1.2 已正式上線，這一版最值得關注的不是單一卡池，而是整套版本環境：九百九十九夜、真紅、沃倫大陸、新活動福利與一批系統最佳化全部同時落地。",
+    "summaryEn": "NTE Version 1.2 is now live, and the real story is the full patch environment: 999 Nights, Zhenhong, Warren Continent, event rewards, and a wave of system updates all landing together.",
     "internalLinks": [
-      "/characters/illica",
-      "/characters/zhenhong",
-      "/tier-list",
-      "/gacha",
-      "/changelog"
+      {
+        "label": "九百九十九夜攻略",
+        "labelEn": "999 Nights Guide",
+        "href": "/guides/nine-hundred-ninety-nine-nights-mode"
+      },
+      {
+        "label": "沃伦大陆全收集",
+        "labelEn": "Warren Continent Collectibles",
+        "href": "/guides/warren-continent-collectibles-guide"
+      },
+      {
+        "label": "真红攻略",
+        "labelEn": "Zhenhong Guide",
+        "href": "/guides/zhenhong-build-guide"
+      },
+      {
+        "label": "1.2 更新日志",
+        "labelEn": "Version 1.2 Patch Notes",
+        "href": "/changelog/1.2"
+      }
     ],
     "content": "异环 1.2「999 Nights」已于 2026-07-08 正式上线。和之前很多“版本前瞻文”不同，现在这篇应该按正式实装内容来看：**真红卡池、Warren Continent、新主线、活动福利和一批系统优化都已经落地。**\n\n## 1. 当前版本核心信息\n\n| 项目 | 内容 |\n|------|------|\n| 版本名称 | 1.2「999 Nights」 |\n| 上线时间 | 2026-07-08 维护后 |\n| 版本结束 | 2026-08-19 05:59（UTC+8） |\n| 当前限定角色 | **Shinku / 真红** |\n| 当前限定 Arc | **Blushing Mirage** |\n\n## 2. 真红已正式上线\n\n1.2 上半限定角色是真红 Shinku，开放时间为 **2026-07-08 至 2026-07-29 05:59（UTC+8）**。她的定位是高爆发站场输出，适合需要快速清怪或补 Boss 爆发窗口的账号。\n\n如果你是回坑玩家，这一条最重要：**真红不是“即将登场”，而是当前就能抽。**\n\n## 3. 新主线与新区域\n\n本次版本新增主线章节 **Fighting with a Dragon**，并开放新地区 **Warren Continent**。这意味着 1.2 的价值不只是抽卡，还包括：\n\n- 新主线推进\n- 新地图探索与收集\n- 新区域相关活动和奖励\n- 围绕真红展开的羁遇、邀约与短信内容\n\n## 4. 这次福利值得先拿完\n\n官方 1.2 公告里比较值得优先清掉的福利包括：\n\n- **感谢礼**：Annulith x1600\n- **维护补偿**：Annulith x300\n- **Bug 修复补偿**：Annulith x300\n- **7日登录活动**：Solid Dice x10\n- **版本限时活动**：继续补抽卡资源、方斯与养成材料\n\n如果你在攒 Iroi 或 1.3，这一轮福利一定别漏。\n\n## 5. 版本活动节奏\n\n1.2 不是只靠一个卡池撑内容，当前阶段还有一整套限时活动一起跑：\n\n- 999 Nights 版本活动\n- Shadow-n-Seek 限时活动\n- Stamina Recharge / Gold Clash 资源活动\n- Circle Bounty 指南与等级奖励\n- Neon Rift 神秘箱活动\n\n对轻度玩家来说，至少优先把能拿抽卡资源的活动做完；对主玩真红的人，则可以同步刷她的配装和养成材料。\n\n## 6. 系统和体验层面的变化\n\n这次版本还补了不少容易被忽略但对留存有帮助的内容：\n\n- Shinku 的 City Hangouts、Home Time、Bond 任务\n- Outfit Recoloring\n- 鱼类展示、家园蓝图分享等生活化功能\n- 一批战斗、界面、便利性优化\n\n## 7. 现阶段抽卡建议\n\n| 账号情况 | 建议 |\n|---------|------|\n| 缺主C | 可以优先抽真红 |\n| 主C够用但缺生存 | 资源留给下一阶段更稳 |\n| 回坑资源少 | 先吃福利，接近保底再决定 |\n| 已打算囤 1.3 | 当前阶段可少量观望 |\n\n## 总结\n\n1.2「999 Nights」已经从“预告版本”变成了“正式运营版本”。现在最该做的不是再看老预测，而是围绕**真红是否要抽、活动福利是否拿满、Warren Continent 内容是否清完**来规划账号节奏。",
     "contentEn": "NTE Version 1.2 '999 Nights' launched on July 8, 2026. Unlike older preview articles, this page should now be read as a live-update summary: **Shinku's banner, Warren Continent, the new main story, event rewards, and multiple system improvements are all active.**\n\n## 1. Core Version Info\n\n| Item | Details |\n|------|---------|\n| Version | 1.2 '999 Nights' |\n| Launch | After maintenance on Jul 8, 2026 |\n| End Date | Aug 19, 2026 at 05:59 (UTC+8) |\n| Current Limited Character | **Shinku** |\n| Current Limited Arc | **Blushing Mirage** |\n\n## 2. Shinku Is Live Now\n\nShinku is the Phase 1 limited character for Version 1.2, available from **July 8 to July 29, 2026 at 05:59 (UTC+8)**. She fills a burst-DPS role and is especially attractive for players who want faster clears or stronger boss damage windows.\n\nMost important takeaway for returning players: **Shinku is not upcoming anymore — she is live right now.**\n\n## 3. New Story and Region\n\nVersion 1.2 adds the new story chapter **Fighting with a Dragon** and opens **Warren Continent**. So the patch value is not only about pulling characters. It also includes:\n\n- Main story progression\n- New exploration and collection content\n- Region-linked event rewards\n- Shinku bond, invitation, and message content\n\n## 4. Rewards You Should Claim First\n\nThe official Version 1.2 notes include several high-priority rewards:\n\n- **Appreciation Gift**: Annulith x1600\n- **Maintenance Compensation**: Annulith x300\n- **Bug Fix Compensation**: Annulith x300\n- **7-day Login**: Solid Dice x10\n- **Limited-time events**: more pull currency, Fons, and upgrade materials\n\nIf you're saving for Iroi or later patches, don't miss this reward window.\n\n## 5. Active Event Cycle\n\nVersion 1.2 is not only one banner. The patch also rotates through a broader event stack:\n\n- 999 Nights event\n- Shadow-n-Seek\n- Stamina Recharge / Gold Clash resource events\n- Circle Bounty progression rewards\n- Neon Rift mystery box event\n\n## 6. Quality-of-Life and System Updates\n\nNotable live additions also include:\n\n- Shinku City Hangouts, Home Time, and Bond quests\n- Outfit recoloring\n- Fish display and home blueprint sharing\n- Multiple combat and interface improvements\n\n## Summary\n\nVersion 1.2 '999 Nights' is no longer a future patch — it is the active live version. The practical focus now is simple: decide whether Shinku fits your account, clear the reward-heavy event cycle, and finish the new Warren Continent content while the patch is live.",
@@ -4687,5 +4703,89 @@
         "href": "/gacha"
       }
     ]
+  },
+  {
+    "id": "nte-ibone-partner-return-event-guide",
+    "title": "异环伊波恩合伙人活动攻略：回归条件、邀请码填写与940环石奖励",
+    "titleTw": "異環伊波恩合夥人活動攻略：回歸條件、邀請碼填寫與940環石獎勵",
+    "titleEn": "NTE Ibone Partner Event Guide: Return Conditions, Invite Code & 940 Ringstone Rewards",
+    "category": "events",
+    "categoryZh": "活动攻略",
+    "categoryEn": "Event Guide",
+    "date": "2026-07-11",
+    "tags": [
+      "伊波恩合伙人",
+      "回归活动",
+      "邀请码",
+      "940环石",
+      "1.2",
+      "活动"
+    ],
+    "summary": "异环 1.2 版本内的伊波恩合伙人行动，核心就是拉回归、填邀请码、拿阶段奖励。如果你想知道回归条件怎么算、邀请码怎么用、940 环石怎么拿，这篇直接整理成一页。",
+    "summaryTw": "異環 1.2 版本內的伊波恩合夥人行動，核心就是拉回歸、填邀請碼、拿階段獎勵。如果你想知道回歸條件怎麼算、邀請碼怎麼用、940 環石怎麼拿，這篇直接整理成一頁。",
+    "summaryEn": "The Ibone Partner event in NTE Version 1.2 is all about bringing players back, using invite codes, and claiming milestone rewards. This guide covers return-player conditions, code usage, and how the 940 Ringstone rewards work.",
+    "internalLinks": [
+      {
+        "label": "1.2 更新日志",
+        "labelEn": "Version 1.2 Patch Notes",
+        "href": "/changelog/1.2"
+      },
+      {
+        "label": "九百九十九夜攻略",
+        "labelEn": "999 Nights Guide",
+        "href": "/guides/nine-hundred-ninety-nine-nights-mode"
+      },
+      {
+        "label": "兑换码页面",
+        "labelEn": "Redeem Codes Page",
+        "href": "/redeem-codes"
+      }
+    ],
+    "content": "异环 1.2 版本里的 **伊波恩合伙人行动**，本质上是一轮回流活动：你去邀请满足条件的老玩家回归，双方完成对应任务后都能拿奖励。对于大多数玩家来说，最关心的通常是三件事：**我能不能算回归？邀请码怎么填？940 环石到底怎么拿满？**\n\n## 一、活动时间\n\n这轮活动和 1.2 版本同步开启，官方给出的结束时间是：\n\n- **开始**：1.2 版本更新后\n- **结束**：**2026-08-13 05:59:59（UTC+8）**\n\n如果你准备拉朋友回坑，最好别拖到最后几天，因为回归状态和任务完成都需要时间。\n\n## 二、谁算“回归玩家”？\n\n按照当前官方口径，回归玩家通常需要同时满足：\n\n1. 连续离线天数达到要求\n2. 猎人等级达到要求\n3. 完成指定主线进度\n\n站内调研里最关键的一点是：**不要把“好久没玩”直接等于“符合回归”。** 最保险的判断方式，还是让对方登录活动页或游戏内入口，看系统有没有直接识别成回归状态。\n\n## 三、邀请码怎么用？\n\n活动期内，每个玩家会拿到自己的专属邀请码或邀请链接。更实用的操作顺序是：\n\n1. 先确认被邀请人是否满足回归条件\n2. 再让对方通过你的专属链接或邀请码进入活动\n3. 登录后完成活动指定任务\n4. 任务进度刷新后，双方再去活动页领取对应奖励\n\n如果你发现“明明回来了但没算”，先别急着重复操作，通常要先检查：\n\n- 回归条件是否真的满足\n- 是否通过正确活动入口进入\n- 任务是否已经完成但页面还没刷新\n\n## 四、940 环石怎么拿？\n\n这类活动的奖励一般不是一次性直接发满，而是分阶段领取。你可以把它理解成：\n\n- 先拿基础邀请奖励\n- 再随着回归玩家完成任务，逐步解锁更多奖励\n- 最后把高价值部分拼到接近 **940 环石** 的上限\n\n所以更现实的目标不是“一开活动就拿满”，而是**先找一个符合条件的回归玩家，把基础奖励和第一阶段奖励稳定拿到。**\n\n## 五、最常见的问题\n\n### 1. 为什么对方回来了还是不算？\n\n最常见原因有三个：\n\n- 离线时间不够\n- 账号进度不够\n- 活动入口或邀请码使用顺序不对\n\n### 2. 这个活动值得折腾吗？\n\n如果你本来就有可拉回的朋友，值得。因为它属于 1.2 版本里少数**额外加一层环石收益**的活动。对攒抽的人来说，价值不低。\n\n### 3. 没有回归好友怎么办？\n\n那就把这页当作活动说明和奖励归档。你至少能知道版本内还有这一块资源口，不会错过信息。\n\n## 六、这页之后建议接着看什么\n\n- `1.2 更新日志`：确认这轮版本环境\n- `九百九十九夜攻略`：看回坑后最值得玩的核心玩法\n- `兑换码页面`：顺手把当前能领的码都补掉\n\n---\n\n*最后更新：2026-07-11。后续如果官方对回归判定、邀请码规则或奖励分段有更具体说明，会继续补充。*",
+    "contentEn": "The **Ibone Partner Event** in NTE Version 1.2 is basically a return-player campaign. You invite eligible inactive players back, they complete event tasks, and both sides can claim rewards. In practice, most players care about three questions: **who counts as a returning player, how invite codes work, and how the 940 Ringstone reward total is reached.**\n\n## Event Duration\n\n- Starts with the Version 1.2 update\n- Ends on **August 13, 2026 at 05:59:59 (UTC+8)**\n\n## Who Counts as Returning?\n\nIn general, the system checks things like:\n\n1. enough consecutive offline days\n2. enough Hunter level progress\n3. enough main-story completion\n\nThe practical advice is simple: do not assume “hasn't played in a while” automatically means “eligible.” The safest check is whether the game or event page marks that account as a valid return target.\n\n## How Invite Codes Work\n\nA practical order is:\n\n1. confirm the invited player is eligible\n2. have them enter through the correct invite link or code\n3. let them finish the required tasks\n4. refresh and claim milestone rewards from the event page\n\n## About the 940 Ringstone Total\n\nTreat the 940 total as a staged reward ceiling, not as a single instant payout. Usually you claim a base reward first, then unlock more as the returning player progresses through tasks.\n\n## Why This Matters\n\nIf you are already saving for later banners, this event is one of the cleaner extra Ringstone sources inside the Version 1.2 cycle.\n\n---\n\n*Last updated: 2026-07-11. This guide will be updated again if the live rules or reward structure become more explicit.*",
+    "image": "/images/blog/nte-world-urban-night-street.webp",
+    "imageAlt": "NTE Ibone Partner return event guide"
+  },
+  {
+    "id": "cloud-yihuan-pc-guide",
+    "title": "云异环PC怎么下载？入口、收费、排队与免费时长说明",
+    "titleTw": "雲異環PC怎麼下載？入口、收費、排隊與免費時長說明",
+    "titleEn": "How to Download Cloud Yihuan on PC: Access, Pricing, Queue & Free Time Guide",
+    "category": "platform",
+    "categoryZh": "平台指南",
+    "categoryEn": "Platform Guide",
+    "date": "2026-07-11",
+    "tags": [
+      "云异环",
+      "云异环PC",
+      "云游戏",
+      "排队",
+      "免费时长",
+      "平台"
+    ],
+    "summary": "云异环 PC 这条线现在值得单独讲清楚，因为很多玩家不是在问“能不能玩”，而是在问“值不值得排”“怎么收费”“和 Steam / 官网客户端有什么区别”。这篇就把入口、免费时长、畅玩卡和排队逻辑拆开说。",
+    "summaryTw": "雲異環 PC 這條線現在值得單獨講清楚，因為很多玩家不是在問「能不能玩」，而是在問「值不值得排」「怎麼收費」「和 Steam / 官網客戶端有什麼區別」。這篇就把入口、免費時長、暢玩卡和排隊邏輯拆開說。",
+    "summaryEn": "Cloud Yihuan on PC deserves its own guide because players are no longer just asking whether it exists. They want to know whether it is worth queueing for, how pricing works, and how it differs from Steam or the standalone PC client.",
+    "internalLinks": [
+      {
+        "label": "Steam 版发售指南",
+        "labelEn": "Steam Release Guide",
+        "href": "/steam"
+      },
+      {
+        "label": "系统要求页面",
+        "labelEn": "System Requirements",
+        "href": "/system-requirements"
+      },
+      {
+        "label": "国服 vs 国际服",
+        "labelEn": "CN vs Global",
+        "href": "/cn-vs-global"
+      }
+    ],
+    "content": "云异环 PC 最容易让人误解的地方，是很多玩家会把它和“普通 PC 客户端”混为一谈。其实它更像一种**免本地高配置、但要接受网络与排队成本**的游玩方式。\n\n## 一、云异环 PC 是什么？\n\n简单说，它是《异环》的云游戏版本。你不需要像本地客户端那样把全部性能压力放在自己电脑上，而是通过云端运行游戏，再把画面传回来。\n\n所以它最适合两类人：\n\n- 电脑配置不够稳，但又想在 PC 屏幕上玩\n- 临时上号清日常、领奖励，不想装完整客户端\n\n## 二、云异环 PC 在哪下？\n\n按照当前官方版本信息，`云·异环 PC 端` 已经在 1.2 版本里作为一个明确入口出现。更稳妥的做法不是到处找第三方包，而是：\n\n1. 先看官方入口\n2. 再确认自己要玩的是国服还是国际服路线\n3. 最后再决定用云端还是本地客户端\n\n## 三、免费时长怎么算？\n\n云游戏最关键的不是“能不能进”，而是**免费时长够不够你日常使用**。\n\n从已公开的云端规则看，玩家通常可以拿到：\n\n- 首次登录赠送时长\n- 每日首次登录的免费时长\n- 累积上限限制\n\n所以如果你只是：\n\n- 上线领奖励\n- 清一两个活动\n- 简单做日常\n\n那免费时长通常是有机会够用的。\n\n## 四、畅玩卡和计时付费有什么区别？\n\n云异环的消费理解成两类就够了：\n\n### 1. 畅玩卡\n\n适合：\n\n- 你会连续几天高频玩\n- 你不想一直算剩余分钟\n- 你更在意优先通道和稳定体验\n\n### 2. 计时付费\n\n适合：\n\n- 你只是偶尔上线\n- 你每天只玩很短时间\n- 你想先试试值不值得长期用\n\n一句话判断：**高频玩选畅玩卡，偶尔上号选计时。**\n\n## 五、排队值不值得？\n\n这才是很多人最实际的问题。\n\n如果你当前目标只是：\n\n- 临时清体力\n- 领奖励\n- 轻度活动推进\n\n那么排队过长时，云异环的性价比会下降很明显。反过来，如果你没有合适设备、也不想装完整客户端，哪怕排队，它依然可能是你最方便的入口。\n\n## 六、云异环 PC 和 Steam / 官网客户端有什么区别？\n\n最核心差别不是内容，而是体验路径：\n\n- **Steam**：更适合长期 PC 主力玩家，重平台生态\n- **官网客户端 / Epic**：更适合想现在就本地玩、且设备够用的人\n- **云异环 PC**：更适合低配置设备、临时上号、或不想安装完整客户端的人\n\n所以它们不是互相替代的“版本差异”，而是三种不同的使用场景。\n\n## 七、什么时候优先考虑云异环 PC？\n\n优先考虑它的情况：\n\n- 你的电脑带不动本地版\n- 你现在只想短时上线处理账号事项\n- 你愿意接受网络和排队换取免安装体验\n\n不太适合它的情况：\n\n- 你每天高强度长时间玩\n- 你对输入延迟非常敏感\n- 你本地设备本来就能稳定跑客户端\n\n## 八、这页之后建议接着看什么\n\n- `Steam 版发售指南`\n- `系统要求页面`\n- `国服 vs 国际服`\n\n这样你就能把“平台怎么选”这件事一次看明白。\n\n---\n\n*最后更新：2026-07-11。后续如果云异环 PC 的官方入口、收费方案或排队策略发生变化，会继续更新这篇。*",
+    "contentEn": "Cloud Yihuan on PC is best understood as a **play-without-local-hardware-pressure** route that trades hardware requirements for network dependence and queue friction.\n\n## What It Is\n\nIt is the cloud version of NTE. Instead of running the full game locally, you stream it from a remote environment. That makes it useful for weaker PCs or for short login sessions.\n\n## Who It Fits Best\n\n- players whose PC cannot run the normal client well\n- players who want quick logins without full installation\n- players who accept queue or network tradeoffs in exchange for convenience\n\n## Free Time and Paid Time\n\nThe real question is usually not whether Cloud Yihuan exists, but whether the free-time structure is enough for your daily habits.\n\nA practical mental model:\n\n- use free time for light daily sessions\n- use metered time if you log in only occasionally\n- use an unlimited or pass-style option if you play heavily for multiple days\n\n## Cloud PC vs Steam vs Standalone\n\n- **Steam**: best for long-term PC mains who prefer platform ecosystem features\n- **Standalone / Epic**: best if your device can run the local client and you want native play now\n- **Cloud Yihuan PC**: best if your local hardware is weak or you only need short sessions\n\n---\n\n*Last updated: 2026-07-11. This guide will be updated if official PC cloud access, queue rules, or pricing details change.*",
+    "image": "/images/blog/nte-world-urban-street-character-green-hair.webp",
+    "imageAlt": "Cloud Yihuan PC guide"
   }
 ]

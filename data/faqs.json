@@ -6589,6 +6589,54 @@
     "categoryTw": "角色"
   },
   {
+    "id": "zhenhong-worth-pulling",
+    "question": "异环真红值得抽吗？",
+    "questionEn": "Is Zhenhong worth pulling in NTE?",
+    "answer": "如果你缺一个能打 1.2 核心内容的主 C，真红值得抽。她最大的价值不是“单卡多离谱”，而是她刚好踩在 1.2 版本的主环境里：999夜、高压战斗节点、短窗口爆发需求都很契合。反过来，如果你主 C 体系已经够完整，当前更缺的是辅助、生存或后续版本资源，那么跳过也完全合理。",
+    "answerEn": "Zhenhong is worth pulling if your account still needs a main DPS for Version 1.2's core content. Her value comes from fitting the current patch environment very well, especially burst windows and 999 Nights pressure checks. If your account already has enough carries and your real gap is support depth or future savings, skipping is also reasonable.",
+    "tags": [
+      "真红",
+      "zhenhong",
+      "pull-value",
+      "1.2",
+      "banner"
+    ],
+    "category": "characters",
+    "categoryZh": "角色",
+    "categoryEn": "Characters",
+    "relatedCharacters": [
+      "zhenhong"
+    ],
+    "relatedMaterials": [],
+    "questionTw": "異環真紅值得抽嗎？",
+    "answerTw": "如果你缺一個能打 1.2 核心內容的主 C，真紅值得抽。她最大的價值不是「單卡有多離譜」，而是她剛好踩在 1.2 版本的主環境裡：999夜、高壓戰鬥節點、短窗口爆發需求都很契合。反過來，如果你主 C 體系已經夠完整，現在更缺的是輔助、生存或後續版本資源，那麼跳過也完全合理。",
+    "categoryTw": "角色"
+  },
+  {
+    "id": "zhenhong-materials",
+    "question": "异环真红材料要提前准备什么？",
+    "questionEn": "What materials should I prepare early for Zhenhong?",
+    "answer": "准备真红时，最实用的顺序不是先追一张完美材料表，而是先保证三个层次：一是通用经验和方斯，二是角色突破素材，三是 1.2 版本里和光系成长、技能升级有关的新资源。对大多数玩家来说，先把她练到能稳定打出完整循环，比一开始就追毕业词条更重要。",
+    "answerEn": "The most practical way to prepare for Zhenhong is to secure three layers first: general EXP and currency, character breakthrough materials, and Version 1.2 Light-growth or skill-upgrade resources. For most players, getting her combat loop online matters more than rushing for full min-maxing on day one.",
+    "tags": [
+      "真红",
+      "zhenhong",
+      "materials",
+      "1.2",
+      "character"
+    ],
+    "category": "materials",
+    "categoryZh": "材料获取",
+    "categoryEn": "Materials",
+    "relatedCharacters": [
+      "zhenhong"
+    ],
+    "relatedMaterials": [],
+    "questionTw": "異環真紅材料要提前準備什麼？",
+    "answerTw": "準備真紅時，最實用的順序不是先追一張完美材料表，而是先保證三個層次：一是通用經驗和方斯，二是角色突破素材，三是 1.2 版本裡和光系成長、技能升級有關的新資源。對大多數玩家來說，先把她練到能穩定打出完整循環，比一開始就追畢業詞條更重要。",
+    "categoryTw": "材料獲取"
+  },
+  {
     "id": "faq-unlock-driving",
     "question": "异环多少级解锁驾驶？",
     "questionEn": "What level unlocks driving in NTE?",
@@ -6843,6 +6891,72 @@
     ],
     "relatedCharacters": [],
     "relatedMaterials": []
+  },
+  {
+    "id": "nte-999-nights-unlock",
+    "question": "异环999夜怎么解锁？",
+    "questionEn": "How do I unlock 999 Nights in NTE?",
+    "answer": "999夜不是靠单纯等级硬开，而是和 1.2 相关主线推进绑定。更稳妥的理解方式是：先把 1.2 主线推进到对应阶段，再回头看玩法入口有没有出现。如果你现在搜的是“999夜怎么解锁”，本质上要优先检查当前剧情进度，而不是只盯账号等级。",
+    "answerEn": "999 Nights is not best understood as a simple account-level unlock. In practice, it is tied to Version 1.2 story progression. If you're trying to unlock it, check your current story stage first rather than focusing only on raw account level.",
+    "tags": [
+      "999夜",
+      "九百九十九夜",
+      "1.2",
+      "unlock",
+      "gameplay"
+    ],
+    "category": "gameplay",
+    "categoryZh": "玩法",
+    "categoryEn": "Gameplay",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "questionTw": "異環999夜怎麼解鎖？",
+    "answerTw": "999夜不是靠單純等級硬開，而是和 1.2 相關主線推進綁定。更穩妥的理解方式是：先把 1.2 主線推進到對應階段，再回頭看玩法入口有沒有出現。如果你現在搜的是「999夜怎麼解鎖」，本質上要優先檢查目前劇情進度，而不是只盯帳號等級。",
+    "categoryTw": "玩法"
+  },
+  {
+    "id": "warren-continent-how-to-unlock",
+    "question": "异环沃伦大陆怎么去？",
+    "questionEn": "How do I reach the Warren Continent in NTE?",
+    "answer": "沃伦大陆不是海特洛市里的普通现实区域，它是 999夜玩法里的奇幻舞台。所以“沃伦大陆怎么去”其实和“999夜入口开了没有”是同一个问题。更实际的做法是先推进 1.2 主线，再确认九百九十九夜入口是否已经出现。",
+    "answerEn": "The Warren Continent is not a normal city zone. It is the fantasy setting used by 999 Nights. In practice, asking how to reach the Warren Continent is almost the same as asking whether your 999 Nights entry point has been unlocked yet.",
+    "tags": [
+      "沃伦大陆",
+      "999夜",
+      "九百九十九夜",
+      "1.2",
+      "exploration"
+    ],
+    "category": "exploration",
+    "categoryZh": "探索",
+    "categoryEn": "Exploration",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "questionTw": "異環沃倫大陸怎麼去？",
+    "answerTw": "沃倫大陸不是海特洛市裡的普通現實區域，它是 999夜玩法裡的奇幻舞台。所以「沃倫大陸怎麼去」其實和「999夜入口開了沒有」是同一個問題。更實際的做法是先推進 1.2 主線，再確認九百九十九夜入口是否已經出現。",
+    "categoryTw": "探索"
+  },
+  {
+    "id": "nte-1-2-redeem-codes",
+    "question": "异环1.2前瞻兑换码和最新兑换码在哪看？",
+    "questionEn": "Where can I find NTE 1.2 preview codes and latest redeem codes?",
+    "answer": "如果你找的是 1.2 前瞻兑换码或版本最新兑换码，最稳妥的入口还是站内兑换码页和 1.2 更新日志页。前瞻码通常是短时效内容，过期很快；而版本活动码、补偿码和持续有效码更适合统一在兑换码页里追。简单说：想看“当前还能不能用”，先查兑换码页；想看“1.2 当时发了什么”，再查 1.2 更新日志。",
+    "answerEn": "If you are searching for Version 1.2 preview codes or the latest redeem codes, the safest place to check is the site's redeem-code page alongside the 1.2 patch-notes page. Preview codes tend to expire quickly, while broader version and compensation codes are better tracked from a maintained code hub.",
+    "tags": [
+      "兑换码",
+      "1.2",
+      "preview-code",
+      "redeem-code",
+      "update"
+    ],
+    "category": "general",
+    "categoryZh": "游戏资讯",
+    "categoryEn": "General",
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "questionTw": "異環1.2前瞻兌換碼和最新兌換碼在哪看？",
+    "answerTw": "如果你找的是 1.2 前瞻兌換碼或版本最新兌換碼，最穩妥的入口還是站內兌換碼頁和 1.2 更新日誌頁。前瞻碼通常是短時效內容，過期很快；而版本活動碼、補償碼和持續有效碼更適合統一在兌換碼頁裡追。簡單說：想看「目前還能不能用」，先查兌換碼頁；想看「1.2 當時發了什麼」，再查 1.2 更新日誌。",
+    "categoryTw": "遊戲資訊"
   },
   {
     "id": "nte-gs25-collab-1-2",

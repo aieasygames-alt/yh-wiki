@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-07-06
+> Generated: 2026-07-11
 
 ## Characters (45)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -94,7 +94,7 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (98)
+## Guides (99)
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -153,7 +153,7 @@
 - [哈索尔完全攻略 — S级相属性爆发输出配队/弧盘/磁盘推荐](/en/guides/hathor-build-guide/) — Character Guide (updated 2026-06-01)
 - [穗鸟完全攻略 — S级光系增伤辅助配队/弧盘/磁盘推荐](/en/guides/hotori-build-guide/) — Character Guide (updated 2026-06-01)
 - [伊洛伊完全攻略 — S级相属性增益支援配队/弧盘/磁盘推荐](/en/guides/illica-build-guide/) — Character Guide (updated 2026-06-01)
-- [真红深度攻略 — 光系主C技能机制、配装、配队与抽取建议（1.2下半）](/en/guides/zhenhong-build-guide/) — Character Guide (updated 2026-06-23)
+- [异环真红攻略 — 配队、材料、配装与值不值得抽（1.2下半）](/en/guides/zhenhong-build-guide/) — Character Guide (updated 2026-07-11)
 - [咲里完全攻略 — S级咒语属性支援角色配队/弧盘/磁盘推荐](/en/guides/sakiri-build-guide/) — Character Guide (updated 2026-06-01)
 - [法蒂亚完全攻略 — S级魂属性进攻角色配队/弧盘/磁盘推荐](/en/guides/fadia-build-guide/) — Character Guide (updated 2026-06-01)
 - [赤子完全攻略 — S级光系进攻角色配队/弧盘/磁盘推荐](/en/guides/chiz-build-guide/) — Character Guide (updated 2026-06-01)
@@ -192,9 +192,10 @@
 - [异环移动端 120 帧开启教程：安卓/iPhone 机型适配、画质设置与闪退掉帧排查](/en/guides/mobile-120fps-guide/) — Mobile Optimization (updated 2026-06-19)
 - [伊洛伊深度攻略 — 异环首位限定奶妈治疗增益配队](/en/guides/illica-support-guide/) — Character Guide (updated 2026-06-23)
 - [异象玩法完全攻略 — 异环 endgame 副本机制、推荐角色与奖励一览](/en/guides/anomaly-endgame-guide/) — Endgame (updated 2026-06-23)
-- [「九百九十九夜」常驻玩法攻略 — 沃伦大陆挑战巨龙入门](/en/guides/nine-hundred-ninety-nine-nights-mode/) — Gameplay (updated 2026-07-02)
+- [异环九百九十九夜攻略 — 999夜怎么玩、怎么刷、沃伦大陆怎么解锁](/en/guides/nine-hundred-ninety-nine-nights-mode/) — Gameplay (updated 2026-07-02)
+- [异环沃伦大陆全收集攻略：宝箱、隐藏点、任务与探索顺序](/en/guides/warren-continent-collectibles-guide/) — Exploration (updated 2026-07-11)
 
-## FAQ (298)
+## FAQ (303)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
@@ -480,6 +481,8 @@
 - How do I mute Taygedo in NTE?
 - Does Lacrimosa need Hayashikiri in NTE?
 - When does Shinku release in NTE?
+- Is Zhenhong worth pulling in NTE?
+- What materials should I prepare early for Zhenhong?
 - What level unlocks driving in NTE?
 - How do I buy a house in NTE?
 - What is the NTE AI art controversy about?
@@ -492,6 +495,9 @@
 - Was a PS player really banned for 100 years in NTE?
 - Why did Ironmouse cancel her NTE collaboration? Is it related to the AI controversy?
 - What is the 'Nine Hundred and Ninety-Nine Nights' mode in NTE 1.2?
+- How do I unlock 999 Nights in NTE?
+- How do I reach the Warren Continent in NTE?
+- Where can I find NTE 1.2 preview codes and latest redeem codes?
 - What does the GS25 convenience-store collab in NTE 1.2 include?
 
 ## Active Redeem Codes (8)
