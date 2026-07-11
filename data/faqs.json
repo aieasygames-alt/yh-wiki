@@ -2395,8 +2395,8 @@
     "id": "disk-upgrade-faq",
     "question": "异环磁盘怎么强化？强化材料获取",
     "questionEn": "How to upgrade disks in NTE?",
-    "answer": "磁盘强化：角色界面→磁盘栏位→强化→消耗低品质磁盘当材料。同套装材料有额外经验加成。建议：只强化A级和S级磁盘，C/B级当材料。输出磁盘优先暴击率/暴击伤害，辅助优先能量回复。",
-    "answerEn": "Character screen → Disk slot → Enhance → Use lower-quality disks as fodder. Only upgrade A/S-rank. DPS: Crit; Support: Energy Regen.",
+    "answer": "这条“磁盘怎么强化”FAQ 现在更适合回答**你该先投入哪些磁盘、强化到什么阶段就该停手观察**，而不是继续把“只强化 A/S 级”和一组固定词条直接写成长期标准。对当前玩家来说，更重要的通常是：这件磁盘是不是会长期留用、它现在是不是正好补到关键属性，以及继续砸资源会不会只是为了追一个边际很小的提升。\n\n更稳妥的理解方式是：\n1) 先把强化资源给到**当前主力真正会上场且有明显成长空间的磁盘**，而不是见到高稀有度就一路拉满\n2) 输出、辅助和生存位看重的词条方向并不完全一样，关键还是是否匹配这名角色的真实职责\n3) 如果一件磁盘只是过渡件，强化到能用的阶段通常就够了，没必要在早期把资源压得太死\n\n所以这页现在保留的是**磁盘强化的投入顺序与停手判断逻辑**，而不是继续把一张固定强化口诀写成唯一答案。",
+    "answerEn": "This disk-upgrade page is more useful when it explains **which disks deserve early investment and when upgrading should pause for reevaluation** instead of preserving rules like 'only enhance A/S rank' and one fixed substat list as permanent doctrine. For current players, the practical questions are whether a disk is likely to stay on an active character, whether it fills a meaningful stat gap right now, and whether further resources are chasing only marginal gains.\n\nA safer way to judge disk upgrades is:\n1. Give enhancement resources first to **disks that are both actively equipped and still have real growth value** instead of maxing anything rare on sight\n2. Damage, support, and sustain roles care about different stat patterns, so matching the role matters more than repeating one generic priority line\n3. If a disk is only transitional gear, upgrading it to the 'usable now' stage is often enough before heavier investment\n\nSo this page now focuses on investment order and stop-point judgment for disk upgrades instead of preserving one fixed enhancement slogan as the only answer.",
     "tags": [
       "equipment",
       "disk"
@@ -2410,17 +2410,17 @@
       "disk-exp"
     ],
     "questionTw": "異環磁碟怎麼強化？強化材料獲取",
-    "answerTw": "磁碟強化：角色介面→磁碟欄位→強化→消耗低品質磁碟當材料。同套裝材料有額外經驗加成。建議：只強化A級和S級磁碟，C/B級當材料。輸出磁碟優先暴擊率/暴擊傷害，輔助優先能量回復。",
+    "answerTw": "這條「磁碟怎麼強化」FAQ 現在更適合回答**你該先投入哪些磁碟、強化到什麼階段就該停手觀察**，而不是繼續把「只強化 A/S 級」和一組固定詞條直接寫成長期標準。對目前玩家來說，更重要的通常是：這件磁碟是不是會長期留用、它現在是不是正好補到關鍵屬性，以及繼續砸資源會不會只是為了追一個邊際很小的提升。\n\n更穩妥的理解方式是：\n1) 先把強化資源給到**目前主力真正會上場且有明顯成長空間的磁碟**，而不是見到高稀有度就一路拉滿\n2) 輸出、輔助和生存位看重的詞條方向並不完全一樣，關鍵還是是否匹配這名角色的真實職責\n3) 如果一件磁碟只是過渡件，強化到能用的階段通常就夠了，沒必要在早期把資源壓得太死\n\n所以這頁現在保留的是**磁碟強化的投入順序與停手判斷邏輯**，而不是繼續把一張固定強化口訣寫成唯一答案。",
     "categoryTw": "裝備系統"
   },
   {
     "id": "weapon-upgrade-faq",
     "question": "异环武器怎么升级？武器强化材料哪里刷？",
     "questionEn": "How to upgrade weapons in NTE?",
-    "seoTitleEn": "Where to Farm NTE Weapon Upgrade Materials — Dungeon & Shop Guide",
-    "seoDescriptionEn": "Find NTE weapon enhancement materials from Houdini's Magic Stage, anomaly drops, and shops, with upgrade priority tips for S-rank, A-rank, main DPS, and support weapons.",
-    "answer": "武器材料来源：1) 胡迪尼的魔术舞台副本（固定掉落）；2) 异象挑战掉落；3) 商店兑换。建议：优先升S级角色武器到上限；A级只过渡；不浪费在B/C级。主C武器等级=角色等级，辅助可低10-20级。",
-    "answerEn": "Materials: Houdini dungeon, anomaly drops, shop. Prioritize S-rank weapons. Main DPS weapon = char level, support 10-20 lower.",
+    "seoTitleEn": "NTE Weapon Upgrade Guide — Material Sources & Investment Judgment",
+    "seoDescriptionEn": "A practical guide to NTE weapon-upgrade material sources, main-carry priority, and how to judge whether a weapon deserves more investment.",
+    "answer": "这条“武器怎么升级、材料哪里刷”FAQ 现在更适合回答**你该优先把资源给主力武器、过渡武器，还是先保整队平均线**，而不是继续把“某副本固定掉落 + S 级直接拉满”写成长期不变的标准。对当前玩家来说，更重要的通常是：这把武器会不会长期留在主力身上、它的等级是否已经成为伤害或功能短板，以及继续投入会不会挤掉更急迫的角色成长资源。\n\n更稳妥的理解方式是：\n1) 先保证当前主力武器不会明显拖输出或循环后腿，再考虑给边缘角色补齐\n2) 稀有度会影响长期价值，但是否值得大投入，仍要看这把武器和当前常用角色的绑定程度\n3) 对过渡武器来说，拉到够用通常比一口气冲满更合理，尤其是在角色池和资源都还没稳定时\n\n所以这页现在保留的是**武器升级的材料来源与投入判断逻辑**，而不是继续把一条固定强化口径写成唯一答案。",
+    "answerEn": "This weapon-upgrade page is more useful when it explains **whether resources should go first to a core weapon, a transitional weapon, or to keeping the whole team above a minimum line** instead of preserving one rigid rule set like 'farm this dungeon and max S-rank first' as a timeless standard. For current players, the more practical questions are whether the weapon will stay on an active core, whether its level is already a real damage or utility bottleneck, and whether further investment crowds out more urgent character growth.\n\nA safer way to judge weapon upgrades is:\n1. First make sure the current core weapon is not clearly holding back damage or rotation before filling in lower-priority pieces\n2. Rarity matters for long-term value, but real investment priority still depends on how tightly the weapon is bound to an active character or team\n3. For transitional weapons, bringing them to a 'good enough' level is often more efficient than forcing a full max too early while roster and resources are still unstable\n\nSo this page now focuses on material sources and investment judgment for weapon upgrades instead of preserving one fixed enhancement rule as the only answer.",
     "tags": [
       "equipment",
       "weapon"
@@ -2433,15 +2433,15 @@
       "weapon-material"
     ],
     "questionTw": "異環武器怎麼升級？武器強化材料哪裡刷？",
-    "answerTw": "武器材料來源：1) 胡迪尼的魔術舞臺副本（固定掉落）；2) 異象挑戰掉落；3) 商店兌換。建議：優先升S級角色武器到上限；A級只過渡；不浪費在B/C級。主C武器等級=角色等級，輔助可低10-20級。",
+    "answerTw": "這條「武器怎麼升級、材料哪裡刷」FAQ 現在更適合回答**你該優先把資源給主力武器、過渡武器，還是先保整隊平均線**，而不是繼續把「某副本固定掉落 + S 級直接拉滿」寫成長期不變的標準。對目前玩家來說，更重要的通常是：這把武器會不會長期留在主力身上、它的等級是否已經成為傷害或功能短板，以及繼續投入會不會擠掉更急迫的角色成長資源。\n\n更穩妥的理解方式是：\n1) 先保證目前主力武器不會明顯拖輸出或循環後腿，再考慮給邊緣角色補齊\n2) 稀有度會影響長期價值，但是否值得大投入，仍要看這把武器和目前常用角色的綁定程度\n3) 對過渡武器來說，拉到夠用通常比一口氣衝滿更合理，尤其是在角色池和資源都還沒穩定時\n\n所以這頁現在保留的是**武器升級的材料來源與投入判斷邏輯**，而不是繼續把一條固定強化口徑寫成唯一答案。",
     "categoryTw": "裝備系統"
   },
   {
     "id": "best-disk-set-per-role",
     "question": "异环磁盘套装怎么选？各定位最佳套装",
     "questionEn": "Which disk set to use per role in NTE?",
-    "answer": "主C暴击流：狂战士之怒4件套。主C反应流：裂空之牙4件套。治疗：繁星之誓4件套。增伤辅助：万象归一4件套。坦克：坚岩之心4件套。高爆发主C：炽焰之心4件套。充能辅助：回响之潮4件套。",
-    "answerEn": "DPS Crit: Berserker Fury. DPS Reaction: Skyrending Fang. Healer: Stellar Vow. Buffer: Unity of All. Tank: Heart of Stone. Burst DPS: Blazing Heart. Energy Support: Resonance Tide.",
+    "answer": "这条“各定位最佳磁盘套装”FAQ 现在更适合回答**你该按角色职责、输出方式和循环需求选套装**，而不是继续把每个定位硬绑定成一套固定答案。对当前玩家来说，更实际的重点通常是：这名角色是靠站场输出、反应收益、辅助覆盖还是生存稳定吃饭，以及你现有库存能不能先凑出一套真正能上场的方案。\n\n更稳妥的理解方式是：\n1) 先按角色的主要职责分流，再看她更依赖爆发、持续输出、反应收益还是团队功能\n2) 同一个定位下，不同角色也可能因为循环和倍率结构不同而更适合不同套装思路\n3) 如果毕业套装还没齐，先用词条更顺手的过渡组合保持可用性，通常比死等一套完美 4 件更实际\n\n所以这页现在保留的是**磁盘套装选择的判断框架**，而不是继续把一张固定职业对照表写成唯一标准答案。",
+    "answerEn": "This disk-set page is more useful when it explains **how to choose sets by role, damage pattern, and rotation needs** instead of permanently binding every archetype to one fixed answer. For current players, the practical questions are whether a character depends on field time, reaction value, team utility, or survival stability, and whether current inventory can already form a set that is actually ready for play.\n\nA safer way to judge disk sets is:\n1. Start from the character's real job, then ask whether the kit leans more on burst, sustained damage, reaction value, or team support\n2. Even within one broad role, different characters may prefer different set logic because their rotations and scaling behave differently\n3. If the ideal endgame set is incomplete, a smoother transitional combination with better live stats is often more useful than waiting for one perfect four-piece immediately\n\nSo this page now focuses on the decision framework behind disk-set choice instead of preserving one fixed role-to-set table as the only standard answer.",
     "tags": [
       "equipment",
       "disk-set"
@@ -2459,7 +2459,7 @@
       "disk-set"
     ],
     "questionTw": "異環磁碟套裝怎麼選？各定位最佳套裝",
-    "answerTw": "主C暴擊流：狂戰士之怒4件套。主C反應流：裂空之牙4件套。治療：繁星之誓4件套。增傷輔助：永珍歸一4件套。坦克：堅巖之心4件套。高爆發主C：熾焰之心4件套。充能輔助：迴響之潮4件套。",
+    "answerTw": "這條「各定位最佳磁碟套裝」FAQ 現在更適合回答**你該按角色職責、輸出方式和循環需求選套裝**，而不是繼續把每個定位硬綁定成一套固定答案。對目前玩家來說，更實際的重點通常是：這名角色是靠站場輸出、反應收益、輔助覆蓋還是生存穩定吃飯，以及你現有庫存能不能先湊出一套真正能上場的方案。\n\n更穩妥的理解方式是：\n1) 先按角色的主要職責分流，再看她更依賴爆發、持續輸出、反應收益還是團隊功能\n2) 同一個定位下，不同角色也可能因為循環和倍率結構不同而更適合不同套裝思路\n3) 如果畢業套裝還沒齊，先用詞條更順手的過渡組合保持可用性，通常比死等一套完美 4 件更實際\n\n所以這頁現在保留的是**磁碟套裝選擇的判斷框架**，而不是繼續把一張固定職業對照表寫成唯一標準答案。",
     "categoryTw": "裝備系統"
   },
   {
@@ -2509,8 +2509,8 @@
     "id": "best-team-beginner",
     "question": "异环新手配队推荐？",
     "questionEn": "Best beginner team in NTE?",
-    "answer": "新手推荐使用免费获得的S级角色组成过渡阵容。前排推荐娜娜莉（生命/格斗）作为主C，搭配咲里或薄荷（咒术/支援）提供增益。后排选择一个副C和一个治疗或护盾角色。开局送的A级角色也完全可以通关前期所有内容。重点是保证阵容中有主属性覆盖齐全的角色，避免遇到属性克制的敌人时无法应对。",
-    "answerEn": "For beginners, build a team using free S-rank characters as a starting lineup. Use Nanally (Anima/Fangs and Claws) as main DPS in the front, paired with Sakiri or Mint (Incantation/Support) for buffs. Place a sub-DPS and a healer or shield character in the back row. The free A-rank characters can clear all early-game content. Focus on covering multiple attributes in your team so you can handle enemies with various elemental weaknesses.",
+    "answer": "这条“新手配队推荐”FAQ 现在更适合回答**开荒期应该先补齐哪些功能位**，而不是继续把几名角色写成所有账号都必须照搬的标准开局阵容。对当前玩家来说，更重要的通常是：你有没有一个能稳定推进主线的输出位、有没有能让循环更顺的辅助，以及队伍里是否具备基本的治疗或护盾容错。\n\n更稳妥的理解方式是：\n1) 先围绕你当前最稳定、最省资源的主力搭一个能持续上场的核心框架\n2) 再补能提供增益、聚怪、回能或节奏衔接的辅助位，而不是只看稀有度高低\n3) 如果前期经常暴毙或卡精英战，就优先给队伍补生存，而不是急着追第二个输出\n\n所以这页现在保留的是**新手配队的功能结构与过渡思路**，而不是继续把一套早期角色名单写成唯一答案。",
+    "answerEn": "This beginner-team page is more useful when it explains **which functional roles a new account should secure first** instead of freezing a few named characters into one mandatory starter lineup for everyone. For current players, the more practical questions are whether the account has one unit that can push story reliably, whether support pieces can stabilize rotations, and whether the team has basic healing or shielding tolerance.\n\nA safer way to build a beginner team is:\n1. Start from the most stable and resource-efficient core your account already has\n2. Then add support that improves buffs, grouping, energy flow, or rotation stability instead of judging only by rarity labels\n3. If elite fights or early bosses keep causing wipes, patch survivability before chasing a second damage dealer\n\nSo this page now focuses on functional structure and transition logic for beginner teams instead of preserving one early roster as the only answer.",
     "tags": [
       "beginner",
       "team-building",
@@ -2526,7 +2526,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環新手配隊推薦？",
-    "answerTw": "新手推薦使用免費獲得的S級角色組成過渡陣容。前排推薦娜娜莉（生命/格鬥）作為主C，搭配咲裡或薄荷（咒術/支援）提供增益。後排選擇一個副C和一個治療或護盾角色。開局送的A級角色也完全可以通關前期所有內容。重點是保證陣容中有主屬性覆蓋齊全的角色，避免遇到屬性剋制的敵人時無法應對。",
+    "answerTw": "這條「新手配隊推薦」FAQ 現在更適合回答**開荒期應該先補齊哪些功能位**，而不是繼續把幾名角色寫成所有帳號都必須照搬的標準開局陣容。對目前玩家來說，更重要的通常是：你有沒有一個能穩定推進主線的輸出位、有沒有能讓循環更順的輔助，以及隊伍裡是否具備基本的治療或護盾容錯。\n\n更穩妥的理解方式是：\n1) 先圍繞你目前最穩定、最省資源的主力搭一個能持續上場的核心框架\n2) 再補能提供增益、聚怪、回能或節奏銜接的輔助位，而不是只看稀有度高低\n3) 如果前期經常暴斃或卡精英戰，就優先給隊伍補生存，而不是急著追第二個輸出\n\n所以這頁現在保留的是**新手配隊的功能結構與過渡思路**，而不是繼續把一套早期角色名單寫成唯一答案。",
     "categoryTw": "陣容搭配"
   },
   {
@@ -2599,8 +2599,8 @@
     "id": "free-s-rank-characters",
     "question": "异环免费S级角色有哪些？",
     "questionEn": "Which S-rank characters are free in NTE?",
-    "answer": "异环中可以通过免费途径获得多个S级角色。首先是通过城市经营玩法可以获得小智（S级）。新手阶段会提供S级角色自选券，可从薄荷和咲里中选择一个。此外在标准池累计抽取50次后还可以获得一张S级自选券。这些免费S级角色培养价值很高，建议根据自己阵容需求合理选择。",
-    "answerEn": "You can obtain several S-rank characters for free in NTE. Xiaozhi (S-rank) is available through the City Tycoon gameplay mode. During the beginner phase, you receive an S-rank selector ticket to choose between Mint and Sakiri. Additionally, after accumulating 50 pulls on the standard banner, you earn another S-rank selector ticket. These free S-rank characters are well worth investing in, so choose based on your team composition needs.",
+    "answer": "这条“免费 S 级角色有哪些”FAQ 现在更适合回答**哪些免费高稀有角色对账号补位价值最高**，而不是继续把一串获取节点写成任何时期都完全不变的福利清单。对当前玩家来说，更重要的通常是：这些免费角色分别补的是主力输出、功能辅助还是过渡生存位，以及你当前账号缺的到底是哪一块。\n\n更稳妥的理解方式是：\n1) 不要只因为“免费且是 S 级”就默认都值得同等投入，关键还是它能不能补你的真实队伍短板\n2) 如果你缺稳定主力，就优先看谁能直接承担推进职责；如果主力已成型，就看谁能补功能和容错\n3) 某些早期可拿到的奖励或选择权，仍要以你当前版本、活动状态和账号进度为准，不适合写成永远原样可复现的名单\n\n所以这页现在保留的是**免费 S 级角色的功能价值与选择逻辑**，而不是继续把一份早期福利表写成长期固定答案。",
+    "answerEn": "This free-S-rank page is more useful when it explains **which freely obtainable high-rarity characters actually fill the most important gaps on an account** instead of preserving one acquisition checklist as if every timing and reward state always stays unchanged. For current players, the more practical question is whether each free character solves primary damage, utility support, or survivability, and which of those roles your roster is currently missing.\n\nA safer way to judge free S-rank value is:\n1. Do not treat 'free' plus 'S-rank' as automatic equal investment value; what matters is whether the unit fills a real team weakness\n2. If you lack a stable carry, prioritize characters who can immediately shoulder progression work; if your core is already stable, prioritize utility and tolerance gains instead\n3. Some early reward paths and selectors still depend on current version state, active events, and account progress, so they should not be framed as permanently reproducible in identical form\n\nSo this page now focuses on the functional value and selection logic of free S-rank characters instead of preserving one early reward sheet as the long-term answer.",
     "tags": [
       "characters",
       "free",
@@ -2617,7 +2617,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環免費S級角色有哪些？",
-    "answerTw": "異環中可以通過免費途徑獲得多個S級角色。首先是通過城市經營玩法可以獲得小智（S級）。新手階段會提供S級角色自選券，可從薄荷和咲裡中選擇一個。此外在標準池累計抽取50次後還可以獲得一張S級自選券。這些免費S級角色培養價值很高，建議根據自己陣容需求合理選擇。",
+    "answerTw": "這條「免費 S 級角色有哪些」FAQ 現在更適合回答**哪些免費高稀有角色對帳號補位價值最高**，而不是繼續把一串獲取節點寫成任何時期都完全不變的福利清單。對目前玩家來說，更重要的通常是：這些免費角色分別補的是主力輸出、功能輔助還是過渡生存位，以及你目前帳號缺的到底是哪一塊。\n\n更穩妥的理解方式是：\n1) 不要只因為「免費且是 S 級」就默認都值得同等投入，關鍵還是它能不能補你的真實隊伍短板\n2) 如果你缺穩定主力，就優先看誰能直接承擔推進職責；如果主力已成型，就看誰能補功能和容錯\n3) 某些早期可拿到的獎勵或選擇權，仍要以你目前版本、活動狀態和帳號進度為準，不適合寫成永遠原樣可復現的名單\n\n所以這頁現在保留的是**免費 S 級角色的功能價值與選擇邏輯**，而不是繼續把一份早期福利表寫成長期固定答案。",
     "categoryTw": "角色相關"
   },
   {
@@ -4519,8 +4519,8 @@
     "id": "material-farming-priority",
     "question": "异环材料刷取优先级是什么？先刷什么材料？",
     "questionEn": "What is the material farming priority in NTE? What to farm first?",
-    "answer": "材料刷取优先级：①主C角色突破材料（异常体掉落的4系材料）> ②Boss掉落材料（每周限次，优先刷主C所需Boss）> ③弧光突破材料（气泡罐工厂）> ④经验材料（Houdinii的魔术舞台）。新手前期集中资源养一个主C到满级，不要分散投资。",
-    "answerEn": "Material farming priority: Main DPS ascension materials (Anomaly Drops) > Boss materials (weekly limits) > Arc ascension (Bubble Can Factory) > EXP materials (Houdinii Magic Stage). Focus on one main DPS to max level first.",
+    "answer": "这条“先刷什么材料”FAQ 现在更适合回答**你该先补角色卡点、武器卡点，还是体系通用资源**，而不是继续把一条固定优先级链写成所有账号都一样的长期答案。对当前玩家来说，更重要的通常是：你现在到底卡在角色突破、技能成长、装备强化，还是主线/高难门槛上。\n\n更稳妥的理解方式是：\n1) 先把体力和周常投入到**当前最影响推进效率的短板**，而不是机械照抄别人先刷哪一类\n2) 如果你的主力队伍还没成型，优先补能立刻提升实战表现的核心角色材料，通常比囤边角资源更值\n3) 当主力已经能稳定推进后，再把多余投入慢慢转向通用养成、替补位和后续体系储备\n\n所以这页现在保留的是**材料刷取顺序的判断逻辑**，而不是继续把一张早期优先表写成唯一标准答案。",
+    "answerEn": "This material-priority page is more useful when it explains **whether your next farming focus should solve a character gate, a weapon gate, or a broader account bottleneck** instead of preserving one fixed priority chain as a universal long-term answer. For current players, the real question is whether the account is stuck on ascension, skill growth, gear progress, or plain story and difficulty thresholds.\n\nA safer way to judge farming order is:\n1. Spend stamina and limited weekly opportunities on **the bottleneck that most directly affects actual progress** rather than copying someone else's static order\n2. If your main team is still incomplete, core character materials that immediately improve live combat usually return more value than side stockpiles\n3. Once the main lineup can clear content reliably, excess farming can shift toward flexible account resources, backup roles, and future team options\n\nSo this page now focuses on how to judge material-farming order instead of preserving one early priority list as the only standard answer.",
     "tags": [
       "materials",
       "farming",
@@ -4536,7 +4536,7 @@
       "iron-appleseed"
     ],
     "questionTw": "異環材料刷取優先順序是什麼？先刷什麼材料？",
-    "answerTw": "材料刷取優先順序：①主C角色突破材料（異常體掉落的4系材料）> ②Boss掉落材料（每週限次，優先刷主C所需Boss）> ③弧光突破材料（氣泡罐工廠）> ④經驗材料（Houdinii的魔術舞臺）。新手前期集中資源養一個主C到滿級，不要分散投資。",
+    "answerTw": "這條「先刷什麼材料」FAQ 現在更適合回答**你該先補角色卡點、武器卡點，還是體系通用資源**，而不是繼續把一條固定優先順序鏈寫成所有帳號都一樣的長期答案。對目前玩家來說，更重要的通常是：你現在到底卡在角色突破、技能成長、裝備強化，還是主線/高難門檻上。\n\n更穩妥的理解方式是：\n1) 先把體力和週常投入到**目前最影響推進效率的短板**，而不是機械照抄別人先刷哪一類\n2) 如果你的主力隊伍還沒成型，優先補能立刻提升實戰表現的核心角色材料，通常比囤邊角資源更值\n3) 當主力已經能穩定推進後，再把多餘投入慢慢轉向通用養成、替補位和後續體系儲備\n\n所以這頁現在保留的是**材料刷取順序的判斷邏輯**，而不是繼續把一張早期優先表寫成唯一標準答案。",
     "categoryTw": "材料獲取"
   },
   {
@@ -4592,8 +4592,8 @@
     "id": "bubble-can-factory-guide",
     "question": "异环气泡罐工厂怎么打？弧光突破材料获取",
     "questionEn": "How to clear Bubble Can Factory? Arc ascension material guide",
-    "answer": "气泡罐工厂是获取弧光突破材料的主要途径，每天可挑战2-3次。产出5个系列的材料：苹果籽（Iron/Silver/Golden Appleseed）、Beaty/Versey/Harmony、液态梦（Trial/Travel/Can）、冷甜点（Flavorless/Plain/Special）、戏剧核心（Beginner/Master/Collector）。建议先刷主C弧光所需系列的低级材料，再通过合成升级为高级。",
-    "answerEn": "Bubble Can Factory is the main source of Arc ascension materials, available 2-3 runs daily. Produces 5 material families: Appleseed, Beaty/Versey/Harmony, Liquid Dream, Cold Dessert, Drama Core. Farm low-tier for your main DPS Arc first, then craft up to high-tier.",
+    "answer": "这条“气泡罐工厂怎么打、刷什么”FAQ 现在更适合回答**你该把它当成哪类养成副本，以及什么时候值得专门投入体力来补弧光材料**，而不是继续把每日次数和材料家族表写成一份固定清单。对当前玩家来说，更实际的重点通常是：你是否已经卡在弧光成长、当前主力到底缺哪一条材料线，以及刷这里会不会挤掉更急迫的角色或装备需求。\n\n更稳妥的理解方式是：\n1) 先把气泡罐工厂理解成**弧光成长的定向补给点**，而不是任何阶段都应该优先清空的日常固定项\n2) 如果你只是短期缺一个关键突破节点，定向补当前主力所需系列通常比平均分散更划算\n3) 当版本活动、合成库存或其他成长线更紧急时，这里的投入优先级也应该随之调整\n\n所以这页现在保留的是**气泡罐工厂的投入时机与材料判断逻辑**，而不是继续把一张固定掉落表写成长期标准答案。",
+    "answerEn": "This Bubble Can Factory page is more useful when it explains **what kind of progression dungeon it really is and when it is worth spending stamina there for Arc growth** instead of preserving one static chart of daily runs and material families. For current players, the practical questions are whether Arc progress is the real bottleneck, which line the current core team actually needs, and whether farming here crowds out more urgent character or gear requirements.\n\nA safer way to judge it is:\n1. Treat Bubble Can Factory as **a directed Arc-growth supply point**, not as a daily task that always deserves the same priority at every stage\n2. If you only need one near-term breakthrough, targeting the current main team's required line usually returns more value than spreading runs evenly\n3. When event value, crafting stock, or another growth lane becomes more urgent, the priority of this dungeon should adapt with that shift\n\nSo this page now focuses on timing and material judgment for Bubble Can Factory instead of preserving one fixed drop sheet as the long-term answer.",
     "tags": [
       "materials",
       "arc",
@@ -4611,15 +4611,15 @@
       "beginner-drama-core"
     ],
     "questionTw": "異環氣泡罐工廠怎麼打？弧光突破材料獲取",
-    "answerTw": "氣泡罐工廠是獲取弧光突破材料的主要途徑，每天可挑戰2-3次。產出5個系列的材料：蘋果籽（Iron/Silver/Golden Appleseed）、Beaty/Versey/Harmony、液態夢（Trial/Travel/Can）、冷甜點（Flavorless/Plain/Special）、戲劇核心（Beginner/Master/Collector）。建議先刷主C弧光所需系列的低階材料，再通過合成升級為高階。",
+    "answerTw": "這條「氣泡罐工廠怎麼打、刷什麼」FAQ 現在更適合回答**你該把它當成哪類養成副本，以及什麼時候值得專門投入體力來補弧光材料**，而不是繼續把每日次數和材料家族表寫成一份固定清單。對目前玩家來說，更實際的重點通常是：你是否已經卡在弧光成長、目前主力到底缺哪一條材料線，以及刷這裡會不會擠掉更急迫的角色或裝備需求。\n\n更穩妥的理解方式是：\n1) 先把氣泡罐工廠理解成**弧光成長的定向補給點**，而不是任何階段都應該優先清空的日常固定項\n2) 如果你只是短期缺一個關鍵突破節點，定向補目前主力所需系列通常比平均分散更划算\n3) 當版本活動、合成庫存或其他成長線更緊急時，這裡的投入優先級也應該隨之調整\n\n所以這頁現在保留的是**氣泡罐工廠的投入時機與材料判斷邏輯**，而不是繼續把一張固定掉落表寫成長期標準答案。",
     "categoryTw": "材料獲取"
   },
   {
     "id": "anomaly-pilgrimage-guide",
     "question": "异环异常体朝圣怎么打？异能材料获取攻略",
     "questionEn": "How to clear Anomaly Pilgrimage? Esper material guide",
-    "answer": "异常体朝圣是获取异能材料（Esper Materials）的途径，目前有2个Boss：①Morphix（掉落 Good Boy Stamp / The Good Boy Fluff / Dandelion Pass）②The Never-ending Arachne（掉落 Dress Sleeves of Vanity / Crown Called Nobility / Scepter Called Prestige）。这些材料用于提升角色的异能技能等级，建议优先刷取主C所需的Boss材料。3个稀有度等级分别对应3/4/5星。",
-    "answerEn": "Anomaly Pilgrimage provides Esper Materials from 2 bosses: Morphix (Good Boy Stamp / Fluff / Dandelion Pass) and The Never-ending Arachne (Dress Sleeves / Crown / Scepter). Used for Esper Ability upgrades. Prioritize your main DPS boss. 3 tiers correspond to 3/4/5 star rarity.",
+    "answer": "这条“异常体朝圣刷什么”FAQ 现在更适合回答**你该如何判断哪条异能材料线值得先打**，而不是继续把 Boss 名单和掉落词条堆成一份静态表格。对当前玩家来说，更关键的通常是：你常用角色的异能升级收益高不高、某个材料线是否正卡着关键节点，以及你有没有必要为暂时不上场的角色提前囤一整套资源。\n\n更稳妥的理解方式是：\n1) 先围绕当前常用主力和高频上场角色来决定朝圣投入，而不是平均分配到所有 Boss 线\n2) 如果某个异能节点能明显改善循环、输出或功能，那条材料线的优先级通常就会更高\n3) 对暂时不用的角色，除非活动或库存特别划算，否则没必要过早把有限次数摊薄\n\n所以这页现在保留的是**异常体朝圣的投入方向与节点判断逻辑**，而不是继续把一张固定掉落表写成唯一答案。",
+    "answerEn": "This Anomaly Pilgrimage page is more useful when it explains **how to judge which Esper-material line deserves priority first** instead of stacking boss names and drop labels into a static table. For current players, the more important questions are whether a frequently used character gains real value from the next Esper upgrade, whether a material line blocks a key breakpoint, and whether it makes sense to pre-farm full sets for characters who are not entering active teams yet.\n\nA safer way to judge it is:\n1. Let your current core and commonly fielded characters decide Pilgrimage priority instead of spreading runs evenly across every boss line\n2. If one Esper breakpoint clearly improves rotation, damage, or utility, that material line usually deserves higher priority\n3. For inactive characters, there is usually no need to dilute limited attempts too early unless event value or stock efficiency becomes unusually favorable\n\nSo this page now focuses on investment direction and breakpoint judgment for Anomaly Pilgrimage instead of preserving one fixed drop table as the only answer.",
     "tags": [
       "materials",
       "esper",
@@ -4634,7 +4634,7 @@
       "dress-sleeves-of-vanity"
     ],
     "questionTw": "異環異常體朝聖怎麼打？異能材料獲取攻略",
-    "answerTw": "異常體朝聖是獲取異能材料（Esper Materials）的途徑，目前有2個Boss：①Morphix（掉落 Good Boy Stamp / The Good Boy Fluff / Dandelion Pass）②The Never-ending Arachne（掉落 Dress Sleeves of Vanity / Crown Called Nobility / Scepter Called Prestige）。這些材料用於提升角色的異能技能等級，建議優先刷取主C所需的Boss材料。3個稀有度等級分別對應3/4/5星。",
+    "answerTw": "這條「異常體朝聖刷什麼」FAQ 現在更適合回答**你該如何判斷哪條異能材料線值得先打**，而不是繼續把 Boss 名單和掉落詞條堆成一份靜態表格。對目前玩家來說，更關鍵的通常是：你常用角色的異能升級收益高不高、某個材料線是否正卡著關鍵節點，以及你有沒有必要為暫時不上場的角色提前囤一整套資源。\n\n更穩妥的理解方式是：\n1) 先圍繞目前常用主力和高頻上場角色來決定朝聖投入，而不是平均分配到所有 Boss 線\n2) 如果某個異能節點能明顯改善循環、輸出或功能，那條材料線的優先級通常就會更高\n3) 對暫時不用的角色，除非活動或庫存特別划算，否則沒必要過早把有限次數攤薄\n\n所以這頁現在保留的是**異常體朝聖的投入方向與節點判斷邏輯**，而不是繼續把一張固定掉落表寫成唯一答案。",
     "categoryTw": "材料獲取"
   },
   {
