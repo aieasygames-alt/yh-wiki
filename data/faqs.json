@@ -2300,8 +2300,8 @@
     "id": "turbid-burn-team-guide",
     "question": "异环浊燃队怎么配？暗属性破盾队推荐",
     "questionEn": "How to build Turbid Burn team in NTE?",
-    "answer": "浊燃队利用浊燃（暗+咒）+失谐反应快速破盾。推荐配队：翳（暗属性挂点燃）+ 阿德勒（触发失谐破盾）+ 莉莉娜（暗属性输出）+ 白藏（护盾生存）。翳先手挂浊燃点燃 → 莉莉娜暗属性输出 → 阿德勒触发失谐破盾 → 白藏保证生存。",
-    "answerEn": "Turbid Burn team: Skia (Dark Ignite) + Adler (Disharmony break) + Lilina (Dark DPS) + Baicang (shield/survival).",
+    "answer": "浊燃队这页现在更适合作为**围绕浊燃与失谐反应展开的破盾思路**，而不是继续把 4 个名字写成长期固定答案。对当前玩家来说，更重要的是先确认：你有没有稳定挂上相关状态的核心位、有没有能把破盾节奏接上的副输出或功能位，以及队伍在高压环境下是否还保有足够生存容错。\n\n更实用的理解方式是：\n1) 先围绕能稳定触发浊燃或失谐收益的主力来搭骨架，而不是直接照抄一套旧名单\n2) 再补能提升破盾效率、连段衔接或输出窗口稳定度的角色\n3) 如果实际作战容易断节奏或暴毙，就优先把一个进攻位换成护盾、治疗或更稳的辅助\n\n所以这页现在保留的是**浊燃队的反应结构与替换逻辑**，而不是继续把一套早期配法写成唯一推荐。",
+    "answerEn": "This Turbid Burn page is more useful as a **shield-break framework built around the Turbid Burn and Disharmony reactions** rather than as a permanent four-name lineup. For current players, the more practical questions are whether the team has a reliable state-applying core, whether a follow-up damage or utility slot can keep the break rhythm going, and whether survivability stays stable under pressure.\n\nA safer way to build it is:\n1. Start from the character who can most reliably create Turbid Burn or related reaction value instead of copying an old roster literally\n2. Then add pieces that improve shield-break tempo, combo flow, or damage-window stability\n3. If the team keeps collapsing or losing rotation control, trade one offensive slot for shielding, healing, or a steadier support option\n\nSo this page now focuses on Turbid Burn structure and substitution logic rather than preserving one early lineup as the only recommendation.",
     "tags": [
       "team",
       "turbid-burn"
@@ -2317,7 +2317,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環濁燃隊怎麼配？暗屬性破盾隊推薦",
-    "answerTw": "濁燃隊利用濁燃（暗+咒）+失諧反應快速破盾。推薦配隊：翳（暗屬性掛點燃）+ 阿德勒（觸發失諧破盾）+ 莉莉娜（暗屬性輸出）+ 白藏（護盾生存）。翳先手掛濁燃點燃 → 莉莉娜暗屬性輸出 → 阿德勒觸發失諧破盾 → 白藏保證生存。",
+    "answerTw": "濁燃隊這頁現在更適合作為**圍繞濁燃與失諧反應展開的破盾思路**，而不是繼續把 4 個名字寫成長期固定答案。對目前玩家來說，更重要的是先確認：你有沒有穩定掛上相關狀態的核心位、有沒有能把破盾節奏接上的副輸出或功能位，以及隊伍在高壓環境下是否還保有足夠生存容錯。\n\n更實用的理解方式是：\n1) 先圍繞能穩定觸發濁燃或失諧收益的主力來搭骨架，而不是直接照抄一套舊名單\n2) 再補能提升破盾效率、連段銜接或輸出窗口穩定度的角色\n3) 如果實際作戰容易斷節奏或暴斃，就優先把一個進攻位換成護盾、治療或更穩的輔助\n\n所以這頁現在保留的是**濁燃隊的反應結構與替換邏輯**，而不是繼續把一套早期配法寫成唯一推薦。",
     "categoryTw": "配隊推薦"
   },
   {
@@ -3669,11 +3669,11 @@
     "question": "异环无头骑士是什么？怎么触发和击败无头骑士？",
     "questionEn": "What is the Headless Rider in NTE? How to trigger and defeat it?",
     "answer": "这条“无头骑士怎么触发和击败”FAQ 现在更适合回答**它属于什么类型的特殊遭遇，以及你该如何判断自己是不是已经进入了可寻找、可应对的阶段**，而不是继续把具体章节、旧城区点位和固定克制写成长期不变的硬攻略。对当前玩家来说，更实际的重点通常是：它是不是偏夜间或特定条件下的事件型遭遇、你是否已经具备处理高机动敌人的队伍，以及实战里真正重要的是观察节奏和生存容错，而不只是背一条固定路线。\n\n更稳妥的理解方式是：\n1. 把无头骑士理解成**需要特定探索条件或进度背景的特殊 Boss/事件**，而不是随时稳定站桩刷新的普通目标\n2. 真正影响胜负的通常是你能不能处理高速冲锋、转身追击和输出窗口，而不是只记某个属性标签\n3. 如果你当前队伍容错较低，先把它当成阶段性挑战内容，而不是因为旧攻略写了触发点就硬去打\n\n所以这页现在保留的是**无头骑士遭遇的判断逻辑与实战准备思路**，而不是继续把早期触发条件和固定配法写成唯一答案。",
-    "answerEn": "The Headless Rider is a mysterious world boss/special event in NTE that appears in specific areas of Hethereau. It typically spawns at night (in-game time) near the Old Town district in eastern Hethereau. Trigger: Complete Main Story Chapter 2, then explore Old Town at night for a chance encounter. Combat tips: 1) High mobility with fast charges and AoE attacks; 2) Weak point is the core on its back — dodge behind it to deal damage; 3) Anima-attribute characters have advantage. Drops rare Modules and an exclusive achievement. Team recommended for this challenging fight.",
+    "answerEn": "This Headless Rider FAQ is more useful when it explains **what kind of special encounter it is and how players should judge whether they have actually reached the stage where searching for or fighting it makes sense** instead of preserving one rigid route of chapter gate, district marker, and attribute counter. For current players, the practical questions are whether this is a night- or condition-based encounter, whether their team can handle a highly mobile enemy, and whether real success depends more on pacing and survivability than on memorizing a single route.\n\nA safer way to read it is:\n1. Treat the Headless Rider as **a special boss or encounter tied to exploration state and progress context**, not as a permanently parked target that always behaves the same way\n2. The bigger success factors are usually whether you can answer fast charges, repositioning pressure, and brief damage windows rather than whether one attribute label looks favorable\n3. If your current team has low tolerance for mistakes, it is better to view this as a stage-based challenge than to force it early because an older guide listed a trigger point\n\nSo this page now focuses on encounter judgment and fight preparation for the Headless Rider instead of preserving one early trigger-and-reward script as permanent guidance.",
     "seoTitleZh": "异环无头骑士怎么打？触发条件、位置与打法攻略",
     "seoTitleEn": "NTE Headless Rider Boss Guide — Spawn Location, How to Trigger & Beat It",
-    "seoDescriptionZh": "异环无头骑士出现位置、触发条件、战斗机制详解、推荐配队与掉落奖励。",
-    "seoDescriptionEn": "NTE Headless Rider spawn location, trigger conditions, combat mechanics, recommended teams, and drop rewards.",
+    "seoDescriptionZh": "围绕无头骑士的触发判断、遭遇条件与实战准备思路，帮助你理解什么时候该找、该怎么打会更稳。",
+    "seoDescriptionEn": "A practical guide to Headless Rider trigger judgment, encounter conditions, and fight preparation in NTE.",
     "tags": [
       "boss",
       "headless-rider",
@@ -3796,10 +3796,10 @@
     "questionEn": "What is Reality Refuge in NTE? How to unlock it?",
     "answer": "现实避难所（Reality Refuge）这页现在更适合回答**这个高难玩法需要你准备什么样的队伍结构**，而不是继续把“综合战力最强的队伍”当成唯一建议。对当前玩家来说，更实际的是先看：你的队伍有没有稳定输出、有没有足够容错、以及能不能应对随机层数里的变化。\n\n更稳妥的理解方式是：\n1. 优先带一套你最熟悉、循环最稳定的主队，而不是只看面板最高的一组角色\n2. 如果玩法里存在持续消耗和随机事件，治疗、护盾或高容错辅助通常会比纯堆伤害更稳\n3. 这类模式更考验适应性和续航，而不是单纯复制别人的一套“最强阵容”\n\n所以这页现在保留的是**Reality Refuge 的组队准备逻辑**，而不是继续给出过于绝对的队伍建议。",
     "answerEn": "This Reality Refuge page is more useful when it explains **what kind of team preparation this high-difficulty mode actually rewards** rather than defaulting to a vague 'bring your strongest team' instruction. For current players, the practical question is whether your lineup has enough damage, stability, and recovery to survive changing layers and random events.\n\nA safer way to prepare is:\n1. Start with the team whose rotation you know best, not just the one with the highest paper strength\n2. If the mode includes attrition and random pressure, healing, shielding, or high-consistency support often matters more than chasing pure damage\n3. Think of the mode as a test of adaptability and endurance, not just raw roster power copied from someone else's lineup\n\nSo this page now focuses on Reality Refuge preparation logic rather than treating one generic strongest-team idea as the answer.",
-    "seoTitleZh": "异环现实避难所攻略：解锁条件、通关技巧与奖励",
-    "seoTitleEn": "NTE Reality Refuge Guide — Unlock, Strategy & Rewards",
-    "seoDescriptionZh": "异环现实避难所玩法详解：入场条件、每层攻略、Boss打法、推荐配队与奖励一览。",
-    "seoDescriptionEn": "NTE Reality Refuge complete guide: entry requirements, floor strategies, boss tactics, team recommendations and rewards.",
+    "seoTitleZh": "异环现实避难所指南：队伍准备与通关思路",
+    "seoTitleEn": "NTE Reality Refuge Guide — Team Prep & Run Logic",
+    "seoDescriptionZh": "围绕 Reality Refuge 的队伍准备、容错需求与层数应对思路，帮助你判断进入前该补什么、怎么打更稳。",
+    "seoDescriptionEn": "A practical guide to Reality Refuge team preparation, survivability needs, and floor-to-floor decision making in NTE.",
     "tags": [
       "reality-refuge",
       "dungeon",
@@ -3811,9 +3811,9 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環現實避難所（Reality Refuge）是什麼？怎麼解鎖？",
-    "answerTw": "現實避難所（Reality Refuge）是異環中的高難度挑戰副本。這是一個類似Roguelike的玩法模式，玩家需要在隨機生成的多層異象空間中不斷深入探索。每層會遇到不同型別的敵人和隨機事件，擊敗敵人可以獲得臨時增益。核心機制：1）進入需要消耗入場券（通過日常任務獲取）；2）層數越深難度越高但獎勵越好；3）角色在副本中陣亡會失去部分臨時增益但不影響正常養成進度；4）每5層有一個Boss關卡。推薦使用綜合戰力最強的隊伍，帶上治療和護盾角色保證續航。",
+    "answerTw": "現實避難所（Reality Refuge）這頁現在更適合回答**這個高難玩法需要你準備什麼樣的隊伍結構**，而不是繼續把「綜合戰力最強的隊伍」當成唯一建議。對目前玩家來說，更實際的是先看：你的隊伍有沒有穩定輸出、有沒有足夠容錯，以及能不能應對隨機層數裡的變化。\n\n更穩妥的理解方式是：\n1. 優先帶一套你最熟悉、循環最穩定的主隊，而不是只看面板最高的一組角色\n2. 如果玩法裡存在持續消耗和隨機事件，治療、護盾或高容錯輔助通常會比純堆傷害更穩\n3. 這類模式更考驗適應性和續航，而不是單純複製別人的一套「最強陣容」\n\n所以這頁現在保留的是**Reality Refuge 的組隊準備邏輯**，而不是繼續給出過於絕對的隊伍建議。",
     "categoryTw": "玩法攻略",
-    "seoTitleTw": "異環現實避難所攻略：解鎖條件、通關技巧與獎勵"
+    "seoTitleTw": "異環現實避難所指南：隊伍準備與通關思路"
   },
   {
     "id": "raging-flames-guide",
@@ -3821,10 +3821,10 @@
     "questionEn": "How to beat Raging Flames in NTE? Domain guide",
     "answer": "这条“烈焰副本怎么打”FAQ 现在更适合回答**你该把它理解成什么类型的属性压力副本，以及进场前应该优先补哪类应对能力**，而不是继续给出一套固定克制角色和掉落清单。对当前玩家来说，更实用的重点通常是：你有没有能稳定处理持续火压和范围伤害的队伍、是否具备足够的生存或减伤手段，以及场地机制会不会影响你的输出节奏。\n\n更稳妥的理解方式是：\n1. 先把烈焰理解成**强调持续压制、生存容错和场地应对**的挑战副本，而不是只靠属性标签就能轻松通关\n2. 如果你的队伍缺减伤、护盾、治疗或更稳定的输出窗口，往往比单纯追求克制属性更容易出问题\n3. 与其背固定掉落和固定配队，不如先确认你当前最需要的是通关、稳定周回，还是顺带补某类资源\n\n所以这页现在保留的是**烈焰副本的应对思路与进场准备逻辑**，而不是继续把一版早期配法和奖励表写成长期固定答案。",
     "answerEn": "This Raging Flames FAQ is more useful when it explains **what kind of pressure the domain creates and which types of readiness matter most before entering** instead of preserving a fixed counter roster and drop list. For current players, the more practical questions are whether your team can handle sustained fire pressure and area damage, whether you have enough sustain or mitigation, and whether arena mechanics disrupt your real damage windows.\n\nA safer way to read it is:\n1. Treat Raging Flames as a challenge built around **ongoing pressure, survivability, and arena response**, not as something solved only by memorizing one elemental counter\n2. A team missing sustain, shielding, mitigation, or stable output windows often struggles more than a team that merely lacks the ideal attribute label\n3. Instead of memorizing one drop sheet and one lineup, first decide whether your current goal is first clear, stable farming, or opportunistic resource pickup\n\nSo this page now focuses on response logic and entry preparation for Raging Flames instead of preserving one early team-and-drop answer as permanent guidance.",
-    "seoTitleZh": "异环烈焰副本攻略：推荐配队、Boss机制与掉落奖励",
-    "seoTitleEn": "NTE Raging Flames Domain Guide — Best Teams, Boss Mechanics & Drops",
-    "seoDescriptionZh": "异环烈焰副本完整攻略：属性克制配队、Boss技能机制、安全区域位置与掉落一览。",
-    "seoDescriptionEn": "NTE Raging Flames complete guide: elemental counter teams, boss mechanics, safe zones and drop list.",
+    "seoTitleZh": "异环烈焰副本指南：进场准备与应对思路",
+    "seoTitleEn": "NTE Raging Flames Guide — Entry Prep & Response Logic",
+    "seoDescriptionZh": "围绕烈焰副本的生存压力、场地应对与队伍准备逻辑，帮助你判断当前该补什么再进场。",
+    "seoDescriptionEn": "A practical guide to Raging Flames survivability pressure, arena response, and entry preparation in NTE.",
     "tags": [
       "raging-flames",
       "domain",
@@ -3838,7 +3838,7 @@
     "questionTw": "異環烈焰（Raging Flames）怎麼打？烈焰副本攻略",
     "answerTw": "這條「烈焰副本怎麼打」FAQ 現在更適合回答**你該把它理解成什麼類型的屬性壓力副本，以及進場前應該優先補哪類應對能力**，而不是繼續給出一套固定剋制角色和掉落清單。對目前玩家來說，更實用的重點通常是：你有沒有能穩定處理持續火壓和範圍傷害的隊伍、是否具備足夠的生存或減傷手段，以及場地機制會不會影響你的輸出節奏。\n\n更穩妥的理解方式是：\n1. 先把烈焰理解成**強調持續壓制、生存容錯和場地應對**的挑戰副本，而不是只靠屬性標籤就能輕鬆通關\n2. 如果你的隊伍缺減傷、護盾、治療或更穩定的輸出窗口，往往比單純追求剋制屬性更容易出問題\n3. 與其背固定掉落和固定配隊，不如先確認你目前最需要的是通關、穩定週回，還是順帶補某類資源\n\n所以這頁現在保留的是**烈焰副本的應對思路與進場準備邏輯**，而不是繼續把一版早期配法和獎勵表寫成長期固定答案。",
     "categoryTw": "首領攻略",
-    "seoTitleTw": "異環烈焰副本攻略：推薦配隊、Boss機制與掉落獎勵"
+    "seoTitleTw": "異環烈焰副本指南：進場準備與應對思路"
   },
   {
     "id": "who-made-nte",
@@ -4467,12 +4467,12 @@
     "id": "nte-doomscroll-anomaly-guide",
     "question": "异环末日刷屏（Doomscroll）异象是什么？怎么触发？",
     "questionEn": "What is Doomscroll Anomaly in NTE? How to trigger it?",
-    "seoTitleZh": "异环末日刷屏异象攻略 — Doomscroll Anomaly触发与完成方法",
-    "seoTitleEn": "NTE Doomscroll Anomaly Guide — How to Trigger & Complete",
-    "seoDescriptionZh": "异环末日刷屏（Doomscroll）异象完整攻略，包含触发条件、完成技巧和奖励内容。",
-    "seoDescriptionEn": "Complete NTE Doomscroll Anomaly guide: trigger conditions, completion tips, and rewards.",
-    "answer": "末日刷屏（Doomscroll）是异环中的一种特殊异象事件，属于隐藏探索内容。\n\n触发条件：\n1) 在城市区域的特定地点（通常在电子屏幕/广告牌附近）触发；\n2) 需要先完成主线第3章；\n3) 在夜晚时段（游戏内时间）更容易触发\n\n异象特点：\n- 周围的电子屏幕会显示异常的滚动信息\n- 需要在限定时间内找到3个被影响的屏幕并交互\n- 每个屏幕交互后会解锁一段隐藏信息\n- 收集全部信息后触发BOSS战或解谜\n\n奖励：\n- 星泉×100\n- 独特称号「信息过载」\n- 隐藏成就\n- 稀有家具图纸\n\n建议在探索城市区域时多留意电子屏幕的变化，夜晚时段定期巡查可能触发的地点。",
-    "answerEn": "Doomscroll is a special Anomaly event in NTE, classified as hidden exploration content.\n\nTrigger Conditions:\n1) Triggered near specific electronic screens/billboards in the city area;\n2) Requires completing Main Story Chapter 3;\n3) More likely to trigger during nighttime (in-game time)\n\nAnomaly Features:\n- Nearby screens display abnormal scrolling messages\n- Find and interact with 3 affected screens within the time limit\n- Each screen interaction reveals hidden information\n- Collect all info to trigger a boss fight or puzzle\n\nRewards:\n- Fons x100\n- Unique title \"Information Overload\"\n- Hidden achievement\n- Rare furniture blueprint\n\nExplore city areas and watch for screen changes. Check possible trigger locations regularly during nighttime.",
+    "seoTitleZh": "异环末日刷屏异象指南 — 触发判断与探索思路",
+    "seoTitleEn": "NTE Doomscroll Anomaly Guide — Trigger Clues & Exploration Logic",
+    "seoDescriptionZh": "围绕末日刷屏（Doomscroll）异象的触发线索、探索预期与完成判断，帮助你理解这类隐藏事件该怎么找、怎么读。",
+    "seoDescriptionEn": "A practical guide to Doomscroll Anomaly trigger clues, exploration expectations, and completion judgment in NTE.",
+    "answer": "这条“末日刷屏异象是什么、怎么触发”FAQ 现在更适合回答**它属于什么类型的城市异象事件，以及你该如何判断自己是否已经接近触发线索**，而不是继续把一套固定地点、固定章节和固定奖励写成万能攻略。对当前玩家来说，更实际的重点通常是：这类异象是不是偏观察型探索、是否需要留意城市里的媒介变化，以及自己当前进度有没有让相关区域和事件状态真正可见。\n\n更稳妥的理解方式是：\n1. 先把末日刷屏理解成**依赖环境异常、信息提示和城市观察的隐藏事件**，而不是照抄一条路线就能稳定复现的日常委托\n2. 如果迟迟没有触发，优先检查你是否已经进入对应探索阶段、是否错过了场景中的屏幕变化或互动提示，而不是只盯着一个旧版章节门槛\n3. 真正重要的不是记住一张固定奖励单，而是学会识别这类异象通常会通过哪些视觉或互动异常提醒你靠近线索\n\n所以这页现在保留的是**末日刷屏异象的触发判断与探索思路**，而不是继续把一版早期流程卡写成长期标准答案。",
+    "answerEn": "This Doomscroll FAQ is more useful when it explains **what kind of city anomaly event it is and how players should judge whether they are actually close to the right trigger clues** instead of preserving one fixed route of locations, chapter gates, and reward bullets as universal strategy. For current players, the practical questions are whether this anomaly behaves more like observation-heavy exploration, whether media objects and city-state changes need attention, and whether current progress truly makes the related event state visible.\n\nA safer way to read it is:\n1. Treat Doomscroll as **a hidden anomaly built around environmental irregularities, information cues, and city observation**, not as a daily task reproduced by copying one route\n2. If it never appears, first check whether you are in the right exploration phase and whether screen changes or interaction prompts were missed instead of relying on one old chapter threshold\n3. The durable value of this page is not a fixed reward list but learning what kinds of visual or interactive disturbances usually signal that the anomaly is nearby\n\nSo this page now focuses on trigger judgment and exploration logic for Doomscroll instead of preserving one early trigger-and-reward sheet as permanent guidance.",
     "tags": [
       "doomscroll",
       "anomaly",
@@ -4485,9 +4485,9 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環末日刷屏（Doomscroll）異象是什麼？怎麼觸發？",
-    "answerTw": "末日刷屏（Doomscroll）是異環中的一種特殊異象事件，屬於隱藏探索內容。\n\n觸發條件：\n1) 在城市區域的特定地點（通常在電子螢幕/廣告牌附近）觸發；\n2) 需要先完成主線第3章；\n3) 在夜晚時段（遊戲內時間）更容易觸發\n\n異象特點：\n- 周圍的電子螢幕會顯示異常的滾動資訊\n- 需要在限定時間內找到3個被影響的螢幕並互動\n- 每個螢幕互動後會解鎖一段隱藏資訊\n- 收集全部資訊後觸發BOSS戰或解謎\n\n獎勵：\n- 星泉×100\n- 獨特稱號「資訊過載」\n- 隱藏成就\n- 稀有傢俱圖紙\n\n建議在探索城市區域時多留意電子螢幕的變化，夜晚時段定期巡查可能觸發的地點。",
+    "answerTw": "這條「末日刷屏異象是什麼、怎麼觸發」FAQ 現在更適合回答**它屬於什麼類型的城市異象事件，以及你該如何判斷自己是否已經接近觸發線索**，而不是繼續把一套固定地點、固定章節和固定獎勵寫成萬用攻略。對目前玩家來說，更實際的重點通常是：這類異象是不是偏觀察型探索、是否需要留意城市裡的媒介變化，以及自己目前進度有沒有讓相關區域和事件狀態真正可見。\n\n更穩妥的理解方式是：\n1. 先把末日刷屏理解成**依賴環境異常、資訊提示和城市觀察的隱藏事件**，而不是照抄一條路線就能穩定復現的日常委託\n2. 如果遲遲沒有觸發，優先檢查你是否已經進入對應探索階段、是否錯過了場景中的螢幕變化或互動提示，而不是只盯著一個舊版章節門檻\n3. 真正重要的不是記住一張固定獎勵單，而是學會辨識這類異象通常會透過哪些視覺或互動異常提醒你靠近線索\n\n所以這頁現在保留的是**末日刷屏異象的觸發判斷與探索思路**，而不是繼續把一版早期流程卡寫成長期標準答案。",
     "categoryTw": "探索",
-    "seoTitleTw": "異環末日刷屏異象攻略 — Doomscroll Anomaly觸發與完成方法"
+    "seoTitleTw": "異環末日刷屏異象指南 — 觸發判斷與探索思路"
   },
   {
     "id": "nte-vehicles-cars-guide",
@@ -4667,12 +4667,12 @@
     "id": "nte-mammon-guide",
     "question": "异环玛门（Mammon）是什么？Boss攻略与奖励",
     "questionEn": "What is Mammon in NTE? Boss guide and rewards",
-    "seoTitleZh": "异环玛门Boss攻略 — Mammon打法技巧与掉落奖励",
-    "seoTitleEn": "NTE Mammon Boss Guide — Strategy, Tips & Drop Rewards",
-    "seoDescriptionZh": "异环玛门（Mammon）Boss完整攻略：出现位置、技能机制、推荐配队、掉落物品和成就解锁。",
-    "seoDescriptionEn": "Complete NTE Mammon boss guide: location, mechanics, recommended teams, drop items, and achievement unlock.",
-    "answer": "玛门（Mammon）是异环中的一个强力世界Boss，以贪婪之神的形象出现，是获取高级材料的重要来源。\n\nBoss位置：\n在开放世界的商业区/金融区域附近刷新，属于周期性世界Boss。\n\n技能机制：\n1) 金币风暴 — 向周围释放大量金币弹幕，造成范围伤害\n2) 贪婪之手 — 抓取最近的角色并造成持续伤害，需要队友攻击打破\n3) 金库屏障 — 生成护盾吸收伤害，需要使用特定属性攻击快速破盾\n4) 贪欲爆发（低血量触发）— 全屏大招，伤害极高，建议在触发前集火击杀\n\n推荐配队：\n- 主C选择高爆发角色（娜娜莉/零）\n- 搭配破盾工具人（对应克制属性角色）\n- 带上治疗/护盾角色保生存\n\n掉落奖励：\n- 神谕石（Oracle Stone）\n- 大量信用点\n- 稀有碟片\n- 限定称号「贪婪征服者」\n\n建议等级40+挑战，每日可挑战1次获取奖励。",
-    "answerEn": "Mammon is a powerful World Boss in NTE, appearing as the God of Greed, and is an important source of high-level materials.\n\nBoss Location:\nSpawns near the Commercial/Financial District in the open world. Periodic world boss.\n\nMechanics:\n1) Coin Storm — Releases coin barrage dealing AoE damage\n2) Greedy Hand — Grabs nearest character for持续 damage; teammates must attack to break free\n3) Vault Shield — Generates shield; requires specific attribute attacks to break quickly\n4) Greed Burst (low HP trigger) — Screen-wide ultimate with extreme damage; focus fire to kill before trigger\n\nRecommended Team:\n- Main DPS with high burst (Nanally/Zero)\n- Shield-breaker with counter attribute\n- Healer/Shielder for sustain\n\nDrop Rewards:\n- Oracle Stones\n- Large amount of Credits\n- Rare Discs\n- Exclusive title \"Greed Conqueror\"\n\nRecommended level 40+. Can challenge once daily for rewards.",
+    "seoTitleZh": "异环玛门 Boss 指南 — 机制压力与备战思路",
+    "seoTitleEn": "NTE Mammon Guide — Pressure Profile & Fight Preparation",
+    "seoDescriptionZh": "围绕玛门（Mammon）的战斗压力、队伍准备与应对重点，帮助你判断开打前该补输出、破盾还是生存。",
+    "seoDescriptionEn": "A practical guide to Mammon's combat pressure, team preparation, and response priorities in NTE.",
+    "answer": "这条“玛门是什么、怎么打”FAQ 现在更适合回答**玛门属于什么类型的世界 Boss，以及进场前你该优先补爆发、破盾还是生存能力**，而不是继续把固定刷新点、固定掉落和固定每日次数写成一张旧版攻略卡。对当前玩家来说，更实际的重点通常是：你的队伍能不能处理高压范围伤害、是否有足够稳定的破盾和脱险手段，以及自己的目标到底是首次击破、稳定周回还是顺带补某类资源。\n\n更稳妥的理解方式是：\n1. 先把玛门理解成**强调场面压迫、阶段处理和资源交换节奏**的世界 Boss，而不是只看面板够不够就能轻松解决\n2. 如果队伍缺少稳定爆发、护盾、治疗或对护盾阶段的处理能力，实际翻车点往往比“是否带了某个指定角色”更关键\n3. 与其执着背一套固定掉落和固定站位，不如先确认你当前是要追求首杀体验、稳定击破效率，还是观察自己在哪个机制段最容易失误\n\n所以这页现在保留的是**玛门战的压力判断与备战逻辑**，而不是继续把一版早期掉落表和配队写成长期标准答案。",
+    "answerEn": "This Mammon FAQ is more useful when it explains **what kind of world-boss fight Mammon represents and whether you should prioritize burst, shield handling, or survivability before entering** instead of preserving one older card of fixed spawn area, fixed rewards, and fixed daily limits. For current players, the practical questions are whether the team can survive heavy area pressure, whether shield and recovery tools are consistent enough, and whether the real goal is a first clear, stable repeat clears, or opportunistic resource pickup.\n\nA safer way to read it is:\n1. Treat Mammon as **a world boss built around pressure management, phase handling, and resource-trade timing**, not as something solved by checking one stat line alone\n2. If the team lacks stable burst, shielding, healing, or a reliable answer to shield phases, those weaknesses usually matter more than whether one named character is present\n3. Instead of memorizing one drop table and one positioning script, first decide whether you are pushing for first-clear success, stable farming rhythm, or diagnosis of which mechanic phase causes failures most often\n\nSo this page now focuses on Mammon's pressure profile and fight-preparation logic instead of preserving one early team-and-drop sheet as permanent guidance.",
     "tags": [
       "mammon",
       "boss",
@@ -4685,9 +4685,9 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環瑪門（Mammon）是什麼？Boss攻略與獎勵",
-    "answerTw": "瑪門（Mammon）是異環中的一個強力世界Boss，以貪婪之神的形象出現，是獲取高階材料的重要來源。\n\nBoss位置：\n在開放世界的商業區/金融區域附近重新整理，屬於週期性世界Boss。\n\n技能機制：\n1) 金幣風暴 — 向周圍釋放大量金幣彈幕，造成範圍傷害\n2) 貪婪之手 — 抓取最近的角色並造成持續傷害，需要隊友攻擊打破\n3) 金庫屏障 — 生成護盾吸收傷害，需要使用特定屬性攻擊快速破盾\n4) 貪慾爆發（低血量觸發）— 全屏大招，傷害極高，建議在觸發前集火擊殺\n\n推薦配隊：\n- 主C選擇高爆發角色（娜娜莉/零）\n- 搭配破盾工具人（對應剋制屬性角色）\n- 帶上治療/護盾角色保生存\n\n掉落獎勵：\n- 神諭石（Oracle Stone）\n- 大量信用點\n- 稀有碟片\n- 限定稱號「貪婪征服者」\n\n建議等級40+挑戰，每日可挑戰1次獲取獎勵。",
+    "answerTw": "這條「瑪門是什麼、怎麼打」FAQ 現在更適合回答**瑪門屬於什麼類型的世界 Boss，以及進場前你該優先補爆發、破盾還是生存能力**，而不是繼續把固定重新整理點、固定掉落和固定每日次數寫成一張舊版攻略卡。對目前玩家來說，更實際的重點通常是：你的隊伍能不能處理高壓範圍傷害、是否有足夠穩定的破盾和脫險手段，以及自己的目標到底是首次擊破、穩定週回還是順帶補某類資源。\n\n更穩妥的理解方式是：\n1. 先把瑪門理解成**強調場面壓迫、階段處理和資源交換節奏**的世界 Boss，而不是只看面板夠不夠就能輕鬆解決\n2. 如果隊伍缺少穩定爆發、護盾、治療或對護盾階段的處理能力，實際翻車點往往比「是否帶了某個指定角色」更關鍵\n3. 與其執著背一套固定掉落和固定站位，不如先確認你目前是要追求首殺體驗、穩定擊破效率，還是觀察自己在哪個機制段最容易失誤\n\n所以這頁現在保留的是**瑪門戰的壓力判斷與備戰邏輯**，而不是繼續把一版早期掉落表和配隊寫成長期標準答案。",
     "categoryTw": "Boss",
-    "seoTitleTw": "異環瑪門Boss攻略 — Mammon打法技巧與掉落獎勵"
+    "seoTitleTw": "異環瑪門 Boss 指南 — 機制壓力與備戰思路"
   },
   {
     "id": "nte-akane-character-guide",
@@ -4718,10 +4718,10 @@
     "id": "nte-city-stamina-guide",
     "question": "异环体力（City Stamina）怎么恢复？体力系统详解",
     "questionEn": "How does stamina work in NTE? City Stamina recovery guide",
-    "seoTitleZh": "异环体力系统攻略 — City Stamina恢复方法与最佳使用规划",
-    "seoTitleEn": "NTE Stamina System Guide — Recovery Methods & Optimal Usage Plan",
-    "seoDescriptionZh": "异环体力（City Stamina）完全攻略：恢复方法、自然恢复速度、体力药水获取、每日最佳体力使用规划。",
-    "seoDescriptionEn": "Complete NTE stamina guide: recovery methods, natural regen rate, stamina potions, and optimal daily usage planning.",
+    "seoTitleZh": "异环体力系统指南 — 恢复判断与投入规划",
+    "seoTitleEn": "NTE Stamina Guide — Recovery Judgment & Spending Priorities",
+    "seoDescriptionZh": "围绕 City Stamina 的恢复节奏、药水使用与资源投入顺序，帮助你判断当前体力该怎么花更合适。",
+    "seoDescriptionEn": "A practical guide to City Stamina recovery habits, potion usage, and spending priorities in NTE.",
     "answer": "这条“体力怎么恢复、怎么规划”FAQ 现在更适合回答**你该把体力看成日常节奏约束，还是一次性冲资源的开关，以及恢复与投入要怎么分优先级**，而不是继续把一串早期恢复数字和固定时段写成长期不变的表格。对当前玩家来说，更实用的重点通常是：你是经常溢出体力、经常缺某类资源，还是总把药水用在回报不高的阶段。\n\n更稳妥的理解方式是：\n1. 优先建立“不要浪费自然恢复、不要把药水随手乱交”的节奏意识，比死记具体分钟数更重要\n2. 体力投入应按你当前最缺的角色养成、装备强化或周进度目标来排，而不是长期照搬一张统一优先表\n3. 如果版本活动、双倍收益或新养成线临时出现，体力策略也应该跟着调整，而不是默认每天都做同一件事\n\n所以这页现在保留的是**体力恢复与投入规划的判断逻辑**，而不是继续把一版固定恢复表写成长期标准答案。",
     "answerEn": "This stamina FAQ is more useful when it explains **whether stamina should be treated as a daily pacing constraint or as a resource-spike lever, and how recovery and spending priorities should be judged** instead of preserving one older table of regen numbers and timed grants as permanent fact. For current players, the practical questions are whether stamina often overcaps, whether one resource category is constantly missing, and whether recovery items are being spent at poor-value moments.\n\nA safer way to read it is:\n1. Build the habit of not wasting natural recovery and not spending potions carelessly before worrying about memorizing exact minute-by-minute figures\n2. Stamina spending should follow your current character growth, gear needs, and weekly progression targets rather than one frozen priority chart\n3. If an event, double-drop window, or new progression line appears, your stamina plan should adapt with it instead of repeating the same route every day\n\nSo this page now focuses on recovery and spending judgment for stamina rather than preserving one fixed recovery schedule as a long-term standard answer.",
     "tags": [
@@ -4738,7 +4738,7 @@
     "questionTw": "異環體力（City Stamina）怎麼恢復？體力系統詳解",
     "answerTw": "這條「體力怎麼恢復、怎麼規劃」FAQ 現在更適合回答**你該把體力看成日常節奏約束，還是一次性衝資源的開關，以及恢復與投入要怎麼分優先級**，而不是繼續把一串早期恢復數字和固定時段寫成長期不變的表格。對目前玩家來說，更實用的重點通常是：你是經常溢出體力、經常缺某類資源，還是總把藥水用在回報不高的階段。\n\n更穩妥的理解方式是：\n1. 優先建立「不要浪費自然恢復、不要把藥水隨手亂交」的節奏意識，比死記具體分鐘數更重要\n2. 體力投入應按你目前最缺的角色養成、裝備強化或週進度目標來排，而不是長期照搬一張統一優先表\n3. 如果版本活動、雙倍收益或新養成線臨時出現，體力策略也應該跟著調整，而不是默認每天都做同一件事\n\n所以這頁現在保留的是**體力恢復與投入規劃的判斷邏輯**，而不是繼續把一版固定恢復表寫成長期標準答案。",
     "categoryTw": "系統",
-    "seoTitleTw": "異環體力系統攻略 — City Stamina恢復方法與最佳使用規劃"
+    "seoTitleTw": "異環體力系統指南 — 恢復判斷與投入規劃"
   },
   {
     "id": "nte-elements-attributes-guide",
@@ -4771,10 +4771,10 @@
     "id": "nte-mahjong-guide",
     "question": "异环麻将怎么玩？麻将小游戏规则与技巧",
     "questionEn": "How to play Mahjong in NTE? Minigame rules and tips",
-    "seoTitleZh": "异环麻将小游戏攻略 — 玩法规则、技巧与奖励",
-    "seoTitleEn": "NTE Mahjong Minigame Guide — Rules, Tips & Rewards",
-    "seoDescriptionZh": "异环麻将小游戏完整攻略：解锁条件、规则说明、获胜技巧和奖励内容。",
-    "seoDescriptionEn": "Complete NTE Mahjong minigame guide: unlock requirements, rules, winning strategies, and rewards.",
+    "seoTitleZh": "异环麻将小游戏指南 — 玩法定位与上手预期",
+    "seoTitleEn": "NTE Mahjong Guide — Leisure Role & Onboarding Expectations",
+    "seoDescriptionZh": "围绕麻将小游戏的休闲定位、提示体验与参与动机，帮助你判断它更适合放松体验还是顺手拿收益。",
+    "seoDescriptionEn": "A practical guide to NTE Mahjong's leisure role, hinting experience, and participation expectations.",
     "answer": "这条“麻将怎么玩”FAQ 现在更适合回答**麻将小游戏是偏休闲消遣、规则体验，还是一条必须精确冲奖励的玩法线**，而不是继续把解锁章节、固定规则条目和奖励表写成早期攻略卡。对当前玩家来说，更实际的重点通常是：你是否已经进入能接触这类休闲内容的阶段、自己熟不熟麻将规则，以及你更在意的是轻松体验、学习玩法还是顺手拿一点附带收益。\n\n更稳妥的理解方式是：\n1. 先把麻将理解成**城市休闲内容的一部分**，而不是必须高强度投入的主线成长系统\n2. 如果你不会麻将，重点应放在当前版本是否提供足够提示和上手引导，而不是先背一整套术语清单\n3. 奖励可以看作附带激励，但这类玩法的核心价值通常还是在于放松、互动和丰富城市生活感\n\n所以这页现在保留的是**麻将玩法的定位、上手预期与参与动机**，而不是继续把一份静态规则与奖励表写成唯一答案。",
     "answerEn": "This Mahjong FAQ is more useful when it explains **whether the minigame is mainly leisure content, a rules-learning experience, or a serious reward-driven progression lane** instead of preserving an older chapter gate, fixed rules list, and reward table as if they were the whole answer. For current players, the practical questions are whether they are far enough into the game to access this kind of side activity, whether they already understand Mahjong basics, and whether they mainly care about relaxed play, learning, or incidental rewards.\n\nA safer way to read it is:\n1. Treat Mahjong as **part of the city's leisure layer**, not as a mandatory high-pressure growth system\n2. If you do not know the game well, focus first on whether the current version provides enough hints and onboarding rather than memorizing a full terminology sheet\n3. Rewards are useful, but the main value of this feature is usually relaxation, interaction, and deepening the city-life atmosphere\n\nSo this page now focuses on Mahjong's role, onboarding expectations, and participation motivation instead of preserving one static rules-and-rewards sheet as the only answer.",
     "tags": [
@@ -4791,16 +4791,16 @@
     "questionTw": "異環麻將怎麼玩？麻將小遊戲規則與技巧",
     "answerTw": "這條「麻將怎麼玩」FAQ 現在更適合回答**麻將小遊戲是偏休閒消遣、規則體驗，還是一條必須精確衝獎勵的玩法線**，而不是繼續把解鎖章節、固定規則條目和獎勵表寫成早期攻略卡。對目前玩家來說，更實際的重點通常是：你是否已經進入能接觸這類休閒內容的階段、自己熟不熟麻將規則，以及你更在意的是輕鬆體驗、學習玩法還是順手拿一點附帶收益。\n\n更穩妥的理解方式是：\n1. 先把麻將理解成**城市休閒內容的一部分**，而不是必須高強度投入的主線成長系統\n2. 如果你不會麻將，重點應放在目前版本是否提供足夠提示和上手引導，而不是先背一整套術語清單\n3. 獎勵可以看作附帶激勵，但這類玩法的核心價值通常還是在於放鬆、互動和豐富城市生活感\n\n所以這頁現在保留的是**麻將玩法的定位、上手預期與參與動機**，而不是繼續把一份靜態規則與獎勵表寫成唯一答案。",
     "categoryTw": "玩法",
-    "seoTitleTw": "異環麻將小遊戲攻略 — 玩法規則、技巧與獎勵"
+    "seoTitleTw": "異環麻將小遊戲指南 — 玩法定位與上手預期"
   },
   {
     "id": "nte-puppet-piano-guide",
     "question": "异环钢琴人偶（Puppet Piano）事件怎么触发和完成？",
     "questionEn": "How to trigger and complete Puppet Piano event in NTE?",
-    "seoTitleZh": "异环钢琴人偶事件攻略 — Puppet Piano触发与完成方法",
-    "seoTitleEn": "NTE Puppet Piano Event Guide — How to Trigger & Complete",
-    "seoDescriptionZh": "异环钢琴人偶（Puppet Piano）事件完整攻略：触发条件、解谜方法、隐藏奖励。",
-    "seoDescriptionEn": "Complete NTE Puppet Piano event guide: trigger conditions, puzzle solution, and hidden rewards.",
+    "seoTitleZh": "异环钢琴人偶事件指南 — 触发判断与解谜体验",
+    "seoTitleEn": "NTE Puppet Piano Guide — Trigger Judgment & Puzzle Experience",
+    "seoDescriptionZh": "围绕 Puppet Piano 的触发线索、观察重点与解谜节奏，帮助你判断什么时候该去找、怎么读提示。",
+    "seoDescriptionEn": "A practical guide to Puppet Piano trigger clues, observation points, and puzzle pacing in NTE.",
     "answer": "这条“钢琴人偶事件怎么触发和完成”FAQ 现在更适合回答**它属于什么类型的隐藏解谜内容，以及你该如何判断自己是不是已经具备进入和完成它的条件**，而不是继续把章节、夜晚条件和奖励表写成一份机械流程单。对当前玩家来说，更实际的重点通常是：它是不是偏氛围型、记忆型或观察型解谜，当前进度是否已经让该事件可见，以及自己是否需要先准备更稳定的探索节奏。\n\n更稳妥的理解方式是：\n1. 先把钢琴人偶理解成**带有明显演出感和观察要求的隐藏解谜事件**，而不是单纯照抄步骤就能一次性完成的普通支线\n2. 如果当前还没看到相关触发点，优先检查区域开放状态、探索时段与前置进度，而不是只背旧版章节门槛\n3. 真正决定完成体验的通常是你对旋律、提示和互动节奏的把握，而不是奖励本身有多具体\n\n所以这页现在保留的是**钢琴人偶事件的触发判断与解谜体验逻辑**，而不是继续把固定流程和奖励表写成长期标准答案。",
     "answerEn": "This Puppet Piano FAQ is more useful when it explains **what kind of hidden puzzle content it is and how players should judge whether they are actually ready to enter and complete it** instead of preserving one mechanical checklist of chapter gate, nighttime condition, and reward table. For current players, the practical questions are whether the event is more about atmosphere, memory, or observation, whether their current progress makes it visible at all, and whether they need a steadier exploration rhythm before attempting it.\n\nA safer way to read it is:\n1. Treat Puppet Piano as **a hidden puzzle event built around presentation, observation, and timing** rather than as a simple side quest solved by copying one route\n2. If the trigger point has not appeared yet, check area access, exploration timing, and prerequisite progress before relying on one old chapter threshold\n3. What usually determines the experience is how well you read melody cues, hints, and interaction flow, not the exact reward list alone\n\nSo this page now focuses on trigger judgment and puzzle-experience logic for Puppet Piano instead of preserving one fixed walkthrough sheet as the long-term answer.",
     "tags": [
@@ -4817,7 +4817,7 @@
     "questionTw": "異環鋼琴人偶（Puppet Piano）事件怎麼觸發和完成？",
     "answerTw": "這條「鋼琴人偶事件怎麼觸發和完成」FAQ 現在更適合回答**它屬於什麼類型的隱藏解謎內容，以及你該如何判斷自己是不是已經具備進入和完成它的條件**，而不是繼續把章節、夜晚條件和獎勵表寫成一份機械流程單。對目前玩家來說，更實際的重點通常是：它是不是偏氛圍型、記憶型或觀察型解謎，目前進度是否已經讓該事件可見，以及自己是否需要先準備更穩定的探索節奏。\n\n更穩妥的理解方式是：\n1. 先把鋼琴人偶理解成**帶有明顯演出感和觀察要求的隱藏解謎事件**，而不是單純照抄步驟就能一次性完成的普通支線\n2. 如果目前還沒看到相關觸發點，優先檢查區域開放狀態、探索時段與前置進度，而不是只背舊版章節門檻\n3. 真正決定完成體驗的通常是你對旋律、提示和互動節奏的把握，而不是獎勵本身有多具體\n\n所以這頁現在保留的是**鋼琴人偶事件的觸發判斷與解謎體驗邏輯**，而不是繼續把固定流程和獎勵表寫成長期標準答案。",
     "categoryTw": "探索",
-    "seoTitleTw": "異環鋼琴人偶事件攻略 — Puppet Piano觸發與完成方法"
+    "seoTitleTw": "異環鋼琴人偶事件指南 — 觸發判斷與解謎體驗"
   },
   {
     "id": "nte-whose-leak-guide",
