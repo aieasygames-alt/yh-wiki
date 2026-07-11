@@ -1786,7 +1786,7 @@
     "question": "异环预下载4月21日几点开始？PC和手机怎么预下载？",
     "questionEn": "When exactly does NTE pre-download start on April 21? How to pre-download?",
     "answer": "这条预下载 FAQ 现在更适合作为**开服阶段下载安排的时间归档**来看，而不是继续写成当前仍在生效的实时提示页。对现在的用户来说，更实际的问题通常是：那次预下载当时是什么时间开放、有哪些平台入口、以及这条信息现在更多是历史参考还是仍有现实操作价值。\n\n更稳妥的理解方式是：\n1. 这类“4 月 21 日几点开预下载”的信息，本质上属于特定开服窗口的历史安排\n2. 如果你现在在查下载方式，更应该优先看当前官网、商店入口和现版本安装说明\n3. 这页的价值更多是回看开服准备流程，而不是继续把旧时间表当成当前通知\n\n所以这页现在保留的是**预下载时间线与历史入口说明**，而不是继续把开服当天的下载提示当作实时公告。",
-    "answerEn": "NTE pre-download is confirmed to open on April 21, 2026. PC players can download through the official website (yh.wanmei.com) or Epic Games Store. Mobile users can pre-order on App Store and Google Play for automatic download. PC file size: approximately 25-30GB. Mobile: approximately 8-10GB. Download early via WiFi to avoid launch-day server congestion. Once pre-downloaded, you can enter the game immediately when servers open on April 23. Follow official social media for the exact pre-download start time.",
+    "answerEn": "This pre-download page now works better as **an archive of launch-window download timing and access points** rather than as if it were still a live real-time notice. For current users, the more practical questions are what that launch-period schedule looked like at the time, which platform entry points existed, and whether the information still helps with present installation decisions or is mainly historical reference.\n\nA safer way to read it is:\n1. A question like \"what time did pre-download open on April 21\" belongs to a specific launch window and should be treated as historical scheduling information\n2. If you are trying to install the game now, the better sources are the current official site, store listings, and current-version install instructions\n3. The ongoing value of this page is mostly in documenting launch preparation flow, not in pretending an old timetable is still a current notice\n\nSo this page now preserves the timeline and historical entry-path context for pre-download rather than presenting launch-day instructions as if they were still live operational guidance.",
     "tags": [
       "system",
       "download"
@@ -3009,8 +3009,8 @@
     "id": "daily-routine",
     "question": "异环每天做什么？日常任务优先级",
     "questionEn": "What to do daily in NTE? Daily task priority guide",
-    "answer": "每日必做清单：1)完成4个每日委托（经验+材料） 2)消耗体力刷培养材料 3)购买前3次体力 4)完成异象委托 5)都市大亨日常任务 6)检查限时活动。每周：周本boss、周常任务。体力优先刷当前培养角色的突破材料。",
-    "answerEn": "Daily must-do checklist: 1) Complete 4 daily commissions (EXP + materials) 2) Spend stamina on building materials 3) Buy first 3 stamina refills 4) Complete Anomaly Commissions 5) City Tycoon daily tasks 6) Check limited-time events. Weekly: Weekly boss and weekly quests. Prioritize stamina on ascension materials for characters you are currently building.",
+    "answer": "这条“每天做什么”FAQ 现在更适合回答**你的日常时间和体力应该先保什么，再决定哪些项目要额外投入**，而不是继续把一张固定清单和“前 3 次体力必买”写成对所有玩家都成立的标准动作。对当前玩家来说，更实际的问题通常是：你是刚开荒、正在补主队，还是已经进入稳定周回阶段；你每天能投入多久，以及当前版本有哪些活动会临时改变优先级。\n\n更稳妥的理解方式是：\n1. 先保证能稳定拿到的日常活跃、委托和周常奖励，不要漏掉低成本高回报的基础项目\n2. 体力优先给当前最影响推进效率的角色、材料或功能线，而不是机械照抄同一套刷法\n3. 额外买不买体力，本质上取决于你的资源预算、养成压力和当前活动收益，不该被写成所有账号默认都必须执行的动作\n\n所以这页现在保留的是**日常优先级与体力分配逻辑**，帮助你按账号阶段做取舍，而不是继续输出一份很快僵化的固定清单。",
+    "answerEn": "This daily-routine page is more useful when it explains **which daily rewards and stamina uses you should protect first, and which tasks deserve extra investment only after that** instead of preserving one rigid checklist and treating the first three stamina refills as mandatory for every account. For current players, the practical questions are whether they are still in early progression, stabilizing a core team, or already in a repeatable weekly loop, how much time they can spend each day, and whether current events temporarily shift priority.\n\nA safer way to read it is:\n1. Secure the low-cost, high-return daily and weekly rewards first so your baseline progression does not leak value\n2. Spend stamina where it most improves your current push speed, team stability, or important system progress rather than copying one universal farm order\n3. Whether to buy extra stamina should depend on your resource budget, growth pressure, and event value, not be written as a default action for every player\n\nSo this page now focuses on daily-priority judgment and stamina-allocation logic instead of preserving one fixed checklist that quickly hardens into outdated advice.",
     "tags": [
       "daily",
       "routine",
@@ -3024,7 +3024,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環每天做什麼？日常任務優先順序",
-    "answerTw": "每日必做清單：1)完成4個每日委託（經驗+材料） 2)消耗體力刷培養材料 3)購買前3次體力 4)完成異象委託 5)都市大亨日常任務 6)檢查限時活動。每週：周本boss、周常任務。體力優先刷當前培養角色的突破材料。",
+    "answerTw": "這條「每天做什麼」FAQ 現在更適合回答**你的日常時間和體力應該先保什麼，再決定哪些項目要額外投入**，而不是繼續把一張固定清單和「前 3 次體力必買」寫成對所有玩家都成立的標準動作。對目前玩家來說，更實際的問題通常是：你是剛開荒、正在補主隊，還是已經進入穩定周回階段；你每天能投入多久，以及目前版本有哪些活動會臨時改變優先順序。\n\n更穩妥的理解方式是：\n1. 先確保能穩定拿到的日常活躍、委託和周常獎勵，不要漏掉低成本高回報的基礎項目\n2. 體力優先給目前最影響推進效率的角色、材料或功能線，而不是機械照抄同一套刷法\n3. 額外買不買體力，本質上取決於你的資源預算、養成壓力和目前活動收益，不該被寫成所有帳號預設都必須執行的動作\n\n所以這頁現在保留的是**日常優先順序與體力分配邏輯**，幫助你按帳號階段做取捨，而不是繼續輸出一份很快僵化的固定清單。",
     "categoryTw": "日常玩法"
   },
   {
@@ -3073,8 +3073,8 @@
     "id": "login-white-screen",
     "question": "异环PC端登录白屏/黑屏怎么解决？",
     "questionEn": "NTE PC login white screen or black screen fix",
-    "answer": "1)更新显卡驱动至最新版本 2)删除游戏目录下的ShaderCache文件夹后重新启动 3)在启动器设置中切换DX11/DX12 4)关闭全屏优化：右键游戏exe→属性→兼容性→禁用全屏优化 5)以管理员身份运行 6)检查是否安装了最新的Visual C++运行库 7)尝试窗口化模式启动。",
-    "answerEn": "1) Update GPU drivers to the latest version 2) Delete the ShaderCache folder in the game directory and restart 3) Switch between DX11/DX12 in launcher settings 4) Disable fullscreen optimization: right-click game exe → Properties → Compatibility → Disable fullscreen optimization 5) Run as administrator 6) Check that the latest Visual C++ runtime is installed 7) Try launching in windowed mode.",
+    "answer": "这条“登录白屏/黑屏”FAQ 现在更适合回答**问题更像是渲染初始化失败、显示模式冲突，还是运行环境缺失**，而不是继续把一串固定操作步骤写成长期万能解法。对当前玩家来说，更重要的通常是：黑屏发生在启动器后、进入登录界面前，还是已经进游戏渲染阶段；因为不同阶段对应的排查方向并不一样。\n\n更稳妥的理解方式是：\n1. 先区分问题属于图形驱动与渲染接口、显示模式兼容性，还是运行库/权限/文件完整性层面\n2. 与其死记某一个文件夹名或单一设置项，不如按“驱动与渲染器 -> 显示模式 -> 运行环境与文件状态”的顺序逐层排查\n3. 某一版系统设置、某一张显卡或某个缓存目录的经验只能当作案例参考，不该被长期写成唯一答案\n\n所以这页现在保留的是**白屏/黑屏问题的分类判断与排查顺序**，而不是继续保留一版很容易随版本和系统环境过时的固定 checklist。",
+    "answerEn": "This white-screen or black-screen page is more useful when it explains **whether the problem behaves more like a render-initialization failure, a display-mode conflict, or a missing runtime/environment issue** instead of preserving one long static checklist as a timeless fix. For current players, the practical question is whether the screen failure happens right after the launcher, before the login scene loads, or later during in-game rendering, because each stage points to a different troubleshooting path.\n\nA safer way to read it is:\n1. First separate graphics-driver and renderer issues from display-mode compatibility and from runtime, permission, or file-integrity problems\n2. Instead of memorizing one folder name or one setting toggle, troubleshoot in layers: driver and renderer -> display mode -> runtime environment and file state\n3. Any advice tied to one GPU generation, one Windows setting, or one cache folder should be treated as a case example rather than a permanent single answer\n\nSo this page now focuses on classification logic and troubleshooting order for white-screen and black-screen failures instead of preserving one environment-specific checklist that ages quickly.",
     "tags": [
       "white-screen",
       "black-screen",
@@ -3088,7 +3088,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環PC端登入白屏/黑屏怎麼解決？",
-    "answerTw": "1)更新顯示卡驅動至最新版本 2)刪除遊戲目錄下的ShaderCache資料夾後重新啟動 3)在啟動器設定中切換DX11/DX12 4)關閉全屏最佳化：右鍵遊戲exe→屬性→相容性→停用全屏最佳化 5)以管理員身份執行 6)檢查是否安裝了最新的Visual C++執行庫 7)嘗試視窗化模式啟動。",
+    "answerTw": "這條「登入白屏／黑屏」FAQ 現在更適合回答**問題更像是渲染初始化失敗、顯示模式衝突，還是執行環境缺失**，而不是繼續把一串固定操作步驟寫成長期萬用解法。對目前玩家來說，更重要的通常是：黑屏發生在啟動器後、進入登入畫面前，還是已經進遊戲渲染階段；因為不同階段對應的排查方向並不一樣。\n\n更穩妥的理解方式是：\n1. 先區分問題屬於圖形驅動與渲染介面、顯示模式相容性，還是執行庫／權限／檔案完整性層面\n2. 與其死記某一個資料夾名稱或單一設定項，不如按「驅動與渲染器 -> 顯示模式 -> 執行環境與檔案狀態」的順序逐層排查\n3. 某一版系統設定、某一張顯示卡或某個快取目錄的經驗只能當作案例參考，不該被長期寫成唯一答案\n\n所以這頁現在保留的是**白屏／黑屏問題的分類判斷與排查順序**，而不是繼續保留一版很容易隨版本和系統環境過時的固定 checklist。",
     "categoryTw": "技術支援"
   },
   {
@@ -5311,8 +5311,8 @@
     "id": "monthly-pass-not-received",
     "question": "月卡/通行证购买了但没到账？",
     "questionEn": "Monthly pass purchased but not received?",
-    "answer": "月卡或通行证购买后未到账的解决方法：1) 完全退出游戏后重新登录；2) 检查游戏内邮箱，部分奖励通过邮件发放；3) 确认支付是否已完成扣款（查看银行或支付平台记录）。如确认扣款但未到账，请联系客服 nte.contactus@perfectworld.com，附上UID、购买平台和支付凭证截图。",
-    "answerEn": "If your monthly pass or battle pass purchase did not go through: 1) Fully restart the game and log back in; 2) Check your in-game mailbox, as some rewards are delivered via mail; 3) Verify the payment was actually charged (check your bank or payment platform). If the charge went through but the pass is still missing, contact support at nte.contactus@perfectworld.com with your UID, platform, and a screenshot of the purchase receipt.",
+    "answer": "这条“月卡/通行证没到账”FAQ 现在更适合回答**问题是在发放延迟、显示不同步，还是支付成功但权益没有入账**，而不是继续把几步固定操作写成像所有情况都一样的答案。对当前玩家来说，更重要的通常是：订单到底有没有真实扣款、奖励是立即生效还是通过邮件补发，以及当前账号、平台和支付渠道是否能帮助客服快速定位问题。\n\n更稳妥的理解方式是：\n1. 先区分“未扣款”“已扣款但暂未显示”“权益部分到账但奖励缺失”这几种情况，因为处理路径并不完全相同\n2. 本地能先做的动作通常只有重登、检查邮箱和确认支付状态，核心价值在于尽快判断问题属于显示延迟还是订单异常\n3. 如果已经确认扣款且长时间未恢复，最重要的不是重复尝试购买，而是整理 UID、平台、时间和支付凭证后走官方支持渠道\n\n所以这页现在保留的是**购买未到账问题的分类判断与申诉准备逻辑**，而不是继续把一组基础步骤写成所有场景的完整答案。",
+    "answerEn": "This monthly-pass page is more useful when it explains **whether the issue is reward-delivery delay, display desync, or a successful payment whose entitlement never attached properly** instead of flattening every case into the same short checklist. For current players, the practical questions are whether the order truly charged, whether the reward should appear instantly or via mail, and whether their account, platform, and payment channel details are ready for support to verify the purchase.\n\nA safer way to read it is:\n1. Separate \"not charged,\" \"charged but not yet displayed,\" and \"partially delivered but missing some benefits,\" because those paths do not behave the same way\n2. The local actions that help most are usually limited to relogging, checking the mailbox, and confirming payment state so you can tell delay apart from a true billing mismatch\n3. If the charge is confirmed and the entitlement still does not recover after a reasonable wait, the priority is to preserve UID, platform, time, and payment proof and move through the official support channel rather than retrying purchases repeatedly\n\nSo this page now focuses on case classification and support-preparation logic for missing purchase rewards instead of treating a few basic steps as a complete answer for every billing scenario.",
     "tags": [
       "billing",
       "pass",
@@ -5328,7 +5328,7 @@
     "seoDescriptionEn": "Purchased the NTE monthly pass or battle pass but it did not appear? Troubleshooting steps including restart, mailbox check, and how to contact support with proof of purchase.",
     "seoDescriptionZh": "异环(NTE)月卡/通行证购买后未到账的完整排查步骤：重启游戏、检查邮箱、确认支付状态以及联系客服的方法。",
     "questionTw": "月卡/通行證購買了但沒到賬？",
-    "answerTw": "月卡或通行證購買後未到賬的解決方法：1) 完全退出遊戲後重新登入；2) 檢查遊戲內郵箱，部分獎勵通過郵件發放；3) 確認支付是否已完成扣款（檢視銀行或支付平臺記錄）。如確認扣款但未到賬，請聯絡客服 nte.contactus@perfectworld.com，附上UID、購買平臺和支付憑證截圖。",
+    "answerTw": "這條「月卡／通行證沒到賬」FAQ 現在更適合回答**問題是在發放延遲、顯示不同步，還是支付成功但權益沒有入帳**，而不是繼續把幾步固定操作寫成像所有情況都一樣的答案。對目前玩家來說，更重要的通常是：訂單到底有沒有真實扣款、獎勵是立即生效還是透過郵件補發，以及目前帳號、平臺和支付渠道是否能幫助客服快速定位問題。\n\n更穩妥的理解方式是：\n1. 先區分「未扣款」「已扣款但暫未顯示」「權益部分到帳但獎勵缺失」這幾種情況，因為處理路徑並不完全相同\n2. 本地能先做的動作通常只有重登、檢查郵箱和確認支付狀態，核心價值在於盡快判斷問題屬於顯示延遲還是訂單異常\n3. 如果已經確認扣款且長時間未恢復，最重要的不是重複嘗試購買，而是整理 UID、平臺、時間和支付憑證後走官方支援管道\n\n所以這頁現在保留的是**購買未到帳問題的分類判斷與申訴準備邏輯**，而不是繼續把一組基礎步驟寫成所有場景的完整答案。",
     "categoryTw": "故障排查",
     "seoTitleTw": "異環月卡購買了沒到賬 — 解決方法與客服聯絡方式（2026）"
   },
