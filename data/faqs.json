@@ -1996,8 +1996,8 @@
     "id": "mobile-storage-management",
     "question": "异环手机版占用空间太大怎么办？",
     "questionEn": "NTE mobile takes too much storage, what to do?",
-    "answer": "异环手机版资源包约20GB，加上安装包总计可能超过25GB。节省空间方法：1) 在游戏设置→资源管理中卸载不需要的语音包；2) 只下载当前需要的地图区域资源（如支持分区下载）；3) 定期清理游戏缓存：设置→其他→清除缓存；4) 将游戏安装到SD卡（部分Android机型支持）；5) 使用云游戏版本免下载体验。",
-    "answerEn": "NTE mobile resource pack is ~20GB, total with installer may exceed 25GB. Save space by: 1) Remove unused voice packs in Settings → Resource Management; 2) Download only needed map region resources; 3) Clear cache periodically: Settings → Other → Clear Cache; 4) Install to SD card (some Android devices); 5) Use cloud gaming version for download-free play.",
+    "answer": "这条“手机版占用空间太大怎么办”FAQ 现在更适合回答**你该把存储问题理解成一次性安装空间不够，还是长期资源包管理压力**，而不是继续把一组旧容量数字写成固定答案。对当前玩家来说，更实际的重点通常是：你当前卡在安装、更新还是长期占用过高，以及游戏内是否提供语音包、缓存或分资源管理这类减重手段。\n\n更稳妥的理解方式是：\n1. 先区分你遇到的是**安装时空间不足**，还是装完后长期占用过大，这两种处理方式不完全一样\n2. 优先检查当前版本是否支持卸载语音包、清理缓存或按需保留部分资源，而不是只靠外部清理手机空间\n3. 如果你的设备长期空间紧张，再去比较本地安装、PC 端或云端替代方案哪种更适合，而不是默认所有机型都适合同一种处理办法\n\n所以这页现在保留的是**移动端存储压力的判断逻辑与减重思路**，而不是继续把一组早期容量数字当成长期不变的标准说明。",
+    "answerEn": "This mobile-storage FAQ is more useful when it explains **whether your problem is not enough one-time install space or long-term resource-pack pressure** instead of freezing one older size estimate as the permanent answer. For current players, the practical question is whether they are blocked during install, during updates, or by ongoing storage growth, and whether the game currently offers options like voice-pack removal, cache cleanup, or selective resource management.\n\nA safer way to read it is:\n1. First separate **install-time storage failure** from long-term post-install bloat, because those are not solved in exactly the same way\n2. Check whether the current version supports removable voice packs, cache cleanup, or partial-resource retention before treating external phone cleanup as the only answer\n3. If your device stays storage-constrained, then compare local install, PC play, or cloud-style alternatives rather than assuming one method fits every device\n\nSo this page now focuses on how to judge mobile-storage pressure and reduce it instead of preserving one older storage number as a timeless specification.",
     "tags": [
       "mobile",
       "storage",
@@ -2009,15 +2009,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環手機版佔用空間太大怎麼辦？",
-    "answerTw": "異環手機版資源包約20GB，加上安裝包總計可能超過25GB。節省空間方法：1) 在遊戲設定→資源管理中解除安裝不需要的語音包；2) 只下載當前需要的地圖區域資源（如支援分割槽下載）；3) 定期清理遊戲快取：設定→其他→清除快取；4) 將遊戲安裝到SD卡（部分Android機型支援）；5) 使用雲遊戲版本免下載體驗。",
+    "answerTw": "這條「手機版佔用空間太大怎麼辦」FAQ 現在更適合回答**你該把儲存問題理解成一次性安裝空間不夠，還是長期資源包管理壓力**，而不是繼續把一組舊容量數字寫成固定答案。對目前玩家來說，更實際的重點通常是：你目前卡在安裝、更新還是長期佔用過高，以及遊戲內是否提供語音包、快取或分資源管理這類減重手段。\n\n更穩妥的理解方式是：\n1. 先區分你遇到的是**安裝時空間不足**，還是裝完後長期佔用過大，這兩種處理方式不完全一樣\n2. 優先檢查目前版本是否支援解除安裝語音包、清理快取或按需保留部分資源，而不是只靠外部清理手機空間\n3. 如果你的裝置長期空間緊張，再去比較本地安裝、PC 端或雲端替代方案哪種更適合，而不是默認所有機型都適合同一種處理辦法\n\n所以這頁現在保留的是**移動端儲存壓力的判斷邏輯與減重思路**，而不是繼續把一組早期容量數字當成長期不變的標準說明。",
     "categoryTw": "平臺相關"
   },
   {
     "id": "cross-platform-how-to",
     "question": "异环怎么跨平台同步数据？PC和手机怎么互通？",
     "questionEn": "How to sync NTE data across platforms? PC-mobile cross-save",
-    "answer": "异环全平台数据互通操作方法：1) 确保所有设备登录同一个完美世界账号；2) PC端在登录界面选择账号登录；3) 移动端在登录界面选择相同账号方式；4) PS5端在首次启动时绑定完美世界账号。绑定后角色等级、装备、任务进度、抽卡记录全部实时同步。注意：每个账号只能绑定一个PS5账号，绑定后不可更改。6平台互通包括PC、Android、iOS、Mac、鸿蒙、PS5。",
-    "answerEn": "Cross-platform sync setup: 1) Log in with the same Perfect World account on all devices; 2) PC: select account login; 3) Mobile: use the same login method; 4) PS5: bind your Perfect World account on first launch. After binding, character level, equipment, quest progress, and gacha history sync in real-time. Note: Each account can only bind one PSN account, non-changeable. All 6 platforms supported: PC, Android, iOS, Mac, HarmonyOS, PS5.",
+    "answer": "这条“怎么跨平台同步数据”FAQ 现在更适合回答**跨设备互通最关键的是同一账号体系和同一发行轨道**，而不是继续把一串平台列表和单次绑定规则写成像永远不变的操作手册。对当前玩家来说，更实际的重点通常是：你登录的入口是不是同一套账号系统、是否在同一区服/同一渠道下，以及切设备前有没有先确认当前绑定规则。\n\n更稳妥的理解方式是：\n1. 数据同步的前提通常不是“设备种类”，而是**是否属于同一账号体系与同一发行轨道**\n2. 真正开始切换设备前，应先核对当前登录方式、绑定状态和区服归属，而不是默认所有入口天然互通\n3. 具体支持范围和绑定细则更适合以当前官方说明和游戏内提示为准，而不是只依赖一份早期平台总表\n\n所以这页现在保留的是**跨平台同步的判断条件与操作前检查逻辑**，而不是继续把旧版平台列表写成固定说明书。",
+    "answerEn": "This cross-platform sync FAQ is more useful when it explains **that the real requirement is the same account framework and the same publishing track** instead of preserving one platform list and one-time binding rule as if they were a timeless manual. For current players, the practical question is whether the entry points they use belong to the same account system, whether they are on the same server and distribution path, and whether current binding rules have been checked before switching devices.\n\nA safer way to read it is:\n1. Cross-device sync usually depends less on device category and more on **whether the logins belong to the same account ecosystem and publishing track**\n2. Before switching devices, verify the current login method, binding state, and server-region alignment rather than assuming every entry point is naturally interoperable\n3. Exact support scope and binding details are better taken from live official instructions and in-game prompts than from one older platform summary\n\nSo this page now focuses on the conditions for cross-platform sync and the pre-switch checklist instead of preserving an older platform list as a fixed operating guide.",
     "tags": [
       "mobile",
       "cross-platform",
@@ -3248,8 +3248,8 @@
     "id": "mobile-storage-space",
     "question": "异环手机存储空间不够安装不了怎么办？",
     "questionEn": "NTE mobile not enough storage space to install? Solutions",
-    "answer": "异环移动端完整安装约需20-25GB空间。解决方法：1)清理手机不常用的应用和缓存 2)删除照片和视频到云端释放空间 3)卸载其他大型游戏腾出空间 4)如果空间实在不够，可以使用PC版（约30-40GB）或云游戏版本 5)安装时确保留出额外5GB以上的缓冲空间用于解压。安卓用户可以将游戏安装到SD卡（部分机型支持）。",
-    "answerEn": "NTE mobile requires approximately 20-25GB of storage. Solutions: 1) Clean up unused apps and cache 2) Move photos and videos to cloud storage 3) Uninstall other large games 4) If storage is still insufficient, consider the PC version (~30-40GB) or cloud gaming 5) Keep at least 5GB extra free space for decompression during install. Android users may be able to install to SD card (device dependent).",
+    "answer": "这条“手机存储空间不够安装不了怎么办”FAQ 现在更适合回答**你是卡在安装包展开阶段，还是设备长期剩余空间本来就不够**，而不是继续把一组旧安装容量写成唯一答案。对当前玩家来说，更实际的重点通常是：是否还差临时解压空间、当前设备是否支持更灵活的安装位置管理，以及本地安装是不是已经不再适合你的设备条件。\n\n更稳妥的理解方式是：\n1. 安装失败不一定代表游戏本体永久占这么多空间，也可能是临时解压阶段需要更大的空余余量\n2. 先清理可回收空间、缓存和不常用大文件，再判断问题是短期安装门槛还是长期容量压力\n3. 如果设备长期储存紧张，就要同时评估 PC、云端或更大容量设备，而不是只在同一台手机上硬挤空间\n\n所以这页现在保留的是**安装空间不足时的排查顺序与替代路径逻辑**，而不是继续把一组早期容量数字写成长期固定说明。",
+    "answerEn": "This 'not enough mobile storage to install' FAQ is more useful when it explains **whether you are blocked by the temporary unpacking stage or by permanently insufficient device space** instead of preserving one older install-size figure as the only answer. For current players, the practical questions are whether extra decompression room is the real blocker, whether the device supports more flexible install-location management, and whether local installation is simply no longer a good fit for that hardware.\n\nA safer way to read it is:\n1. Install failure does not always mean the game permanently occupies that exact amount; temporary unpacking can require additional headroom\n2. Clear reclaimable space, cache, and infrequently used large files first, then decide whether the problem is a short install hurdle or a lasting storage limitation\n3. If the device stays storage-constrained, compare PC, cloud, or higher-capacity-device options rather than forcing everything onto the same phone\n\nSo this page now focuses on the troubleshooting order and alternative paths for install-space failure instead of preserving one older storage estimate as a fixed instruction.",
     "tags": [
       "storage",
       "install",
@@ -3263,7 +3263,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環手機儲存空間不夠安裝不了怎麼辦？",
-    "answerTw": "異環移動端完整安裝約需20-25GB空間。解決方法：1)清理手機不常用的應用和快取 2)刪除照片和影片到雲端釋放空間 3)解除安裝其他大型遊戲騰出空間 4)如果空間實在不夠，可以使用PC版（約30-40GB）或雲遊戲版本 5)安裝時確保留出額外5GB以上的緩衝空間用於解壓。安卓使用者可以將遊戲安裝到SD卡（部分機型支援）。",
+    "answerTw": "這條「手機儲存空間不夠安裝不了怎麼辦」FAQ 現在更適合回答**你是卡在安裝包展開階段，還是裝置長期剩餘空間本來就不夠**，而不是繼續把一組舊安裝容量寫成唯一答案。對目前玩家來說，更實際的重點通常是：是否還差臨時解壓空間、目前裝置是否支援更靈活的安裝位置管理，以及本地安裝是不是已經不再適合你的裝置條件。\n\n更穩妥的理解方式是：\n1. 安裝失敗不一定代表遊戲本體永久佔這麼多空間，也可能是臨時解壓階段需要更大的空餘餘量\n2. 先清理可回收空間、快取和不常用大檔案，再判斷問題是短期安裝門檻還是長期容量壓力\n3. 如果裝置長期儲存緊張，就要同時評估 PC、雲端或更大容量裝置，而不是只在同一台手機上硬擠空間\n\n所以這頁現在保留的是**安裝空間不足時的排查順序與替代路徑邏輯**，而不是繼續把一組早期容量數字寫成長期固定說明。",
     "categoryTw": "技術支援"
   },
   {
@@ -5554,8 +5554,8 @@
     "id": "co-op-unlock-level",
     "question": "异环联机几级解锁？多人模式多少级能玩？最多几人联机？",
     "questionEn": "What level unlocks co-op in NTE? How many players can play together?",
-    "answer": "异环联机/多人模式解锁条件：1) 需要完成主线剧情一定进度后才能解锁联机功能，通常在完成新手教程章节后；2) 联机模式支持最多**4人**同时在线协作；3) 联机内容主要包括：合作挑战异常区BOSS、自由探索海特洛市、拍照互动等；4) 部分剧情任务和单人内容在联机模式下无法进行。建议先推进主线剧情解锁联机功能，再和好友一起探索。",
-    "answerEn": "NTE co-op/multiplayer unlock requirements: 1) You need to progress through the main story to a certain point, typically after completing the tutorial chapter; 2) Co-op supports up to **4 players** simultaneously; 3) Co-op activities include: challenging Anomaly Zone bosses together, free exploration of Haitelot City, photo interactions, etc.; 4) Some story quests and solo content cannot be done in co-op mode. Progress the main story first to unlock co-op, then explore with friends.",
+    "answer": "这条“联机几级解锁、最多几人”FAQ 现在更适合回答**多人模式是不是按主线进度开放，以及联机更像主线补充玩法还是全程替代模式**，而不是继续写成一段固定条件清单。对当前玩家来说，更实际的重点通常是：如果还没开多人，不一定是等级不够；如果已经开放，也不代表所有内容都会自动变成可联机状态。\n\n更稳妥的理解方式是：\n1. 先把联机理解成**随主线或系统进度逐步开放的功能层**，而不是单纯的等级门槛\n2. 支持多人协作不等于所有剧情、任务和系统都天然共享，很多内容仍要区分单人和合作边界\n3. 与其死记一串可玩内容，不如先确认当前版本下你最关心的玩法是否真的支持联机\n\n所以这页现在保留的是**多人模式解锁判断与合作边界理解**，而不是继续把早期条件列表写成固定说明。",
+    "answerEn": "This 'what level unlocks co-op' FAQ is more useful when it explains **whether multiplayer opens through progression and whether co-op is a layered supplement rather than a full replacement for the solo structure** instead of preserving one fixed condition list. For current players, the practical point is that if co-op is still locked, the blocker may be progression rather than raw level, and if it is unlocked, that still does not mean every activity automatically becomes shared multiplayer content.\n\nA safer way to read it is:\n1. Treat co-op as a **feature layer that opens through story or system progress**, not just a simple level gate\n2. Multiplayer support does not imply that every quest, story segment, or system is naturally shared; solo and co-op boundaries still matter\n3. Instead of memorizing one list of activities, first verify whether the specific mode you care about is actually multiplayer-enabled in the current version\n\nSo this page now focuses on co-op unlock judgment and cooperation-boundary understanding instead of preserving an early checklist as a fixed answer.",
     "tags": [
       "co-op",
       "multiplayer",
@@ -5568,7 +5568,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環聯機幾級解鎖？多人模式多少級能玩？最多幾人聯機？",
-    "answerTw": "異環聯機/多人模式解鎖條件：1) 需要完成主線劇情一定進度後才能解鎖聯機功能，通常在完成新手教程章節後；2) 聯機模式支援最多**4人**同時線上協作；3) 聯機內容主要包括：合作挑戰異常區BOSS、自由探索海特洛市、拍照互動等；4) 部分劇情任務和單人內容在聯機模式下無法進行。建議先推進主線劇情解鎖聯機功能，再和好友一起探索。",
+    "answerTw": "這條「聯機幾級解鎖、最多幾人」FAQ 現在更適合回答**多人模式是不是按主線進度開放，以及聯機更像主線補充玩法還是全程替代模式**，而不是繼續寫成一段固定條件清單。對目前玩家來說，更實際的重點通常是：如果還沒開多人，不一定是等級不夠；如果已經開放，也不代表所有內容都會自動變成可聯機狀態。\n\n更穩妥的理解方式是：\n1. 先把聯機理解成**隨主線或系統進度逐步開放的功能層**，而不是單純的等級門檻\n2. 支援多人協作不等於所有劇情、任務和系統都天然共享，很多內容仍要區分單人和合作邊界\n3. 與其死記一串可玩內容，不如先確認目前版本下你最關心的玩法是否真的支援聯機\n\n所以這頁現在保留的是**多人模式解鎖判斷與合作邊界理解**，而不是繼續把早期條件列表寫成固定說明。",
     "categoryTw": "聯機"
   },
   {
