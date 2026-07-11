@@ -619,8 +619,8 @@
     "id": "gacha-priority",
     "question": "异环新手应该优先抽什么卡池？",
     "questionEn": "Which banner should beginners pull first in NTE?",
-    "answer": "新手抽卡优先级建议：1) 优先抽取角色限定池，确保获得一个强力的S级核心输出（如娜娜莉、爱德勒等）；2) 如果新手池有折扣抽卡（如前10抽半价或免费），务必先用完新手池机会；3) 有了核心角色后再考虑常驻池补齐阵容；4) 武器池建议在有2-3个主力角色后再投入。注意保留一定的原晶用于未来限定角色。",
-    "answerEn": "Recommended pull priority for beginners: 1) Pull the limited character banner first to secure a strong S-rank DPS (like Nanally or Adler); 2) If there's a discounted beginner banner, use it first; 3) After getting a core character, consider the standard banner to round out your roster; 4) Weapon banners should wait until you have 2-3 main characters built. Save some Original Crystals for future limited characters.",
+    "answer": "这条“新手应该先抽什么卡池”FAQ 现在更适合回答**你该先补核心角色、先吃新手福利，还是先把资源留给后续版本目标**，而不是继续给出一套固定角色名单。对当前玩家来说，更实际的判断通常是：你的账号现在是不是缺一个能稳定推进内容的主力位、当前新手池或折扣池是否还有效，以及你有没有足够资源兼顾眼前和后续目标。\n\n更稳妥的理解方式是：\n1. 如果你缺能稳定推进主线或日常的核心位，角色池通常会比其他池子更值得优先考虑\n2. 如果新手池、折扣池或一次性福利仍然有效，先把这些低风险资源入口看清楚再决定后续投入\n3. 武器/弧盘这类更偏深化的池子，通常要等主力框架成型后再评估，而不是和角色池抢早期预算\n\n所以这页现在保留的是**新手抽卡优先级的判断逻辑**，而不是继续把某几个开服阶段热门角色写成长期固定答案。",
+    "answerEn": "This beginner banner-priority FAQ is more useful when it explains **whether you should secure a core unit first, spend the low-risk beginner benefits first, or hold resources for later version goals** instead of preserving one fixed character list. For current players, the practical question is whether your account still lacks a stable progression core, whether beginner or discounted banners are still relevant, and whether your budget can cover both immediate needs and future targets.\n\nA safer way to think about it is:\n1. If your roster still lacks a unit that can reliably carry story and routine progress, character banners usually deserve earlier attention than other pools\n2. If beginner discounts, one-time selectors, or low-risk entry benefits still apply, read those carefully before committing the rest of your pulls\n3. Weapon or Arc-style deepening pools are usually better judged after your main roster frame exists rather than competing for your earliest budget\n\nSo this page now focuses on banner-priority logic for beginners instead of preserving a fixed launch-era answer built around a few early favorites.",
     "tags": [
       "gacha",
       "beginner"
@@ -634,7 +634,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環新手應該優先抽什麼卡池？",
-    "answerTw": "新手抽卡優先順序建議：1) 優先抽取角色限定池，確保獲得一個強力的S級核心輸出（如娜娜莉、愛德勒等）；2) 如果新手池有折扣抽卡（如前10抽半價或免費），務必先用完新手池機會；3) 有了核心角色後再考慮常駐池補齊陣容；4) 武器池建議在有2-3個主力角色後再投入。注意保留一定的原晶用於未來限定角色。",
+    "answerTw": "這條「新手應該先抽什麼卡池」FAQ 現在更適合回答**你該先補核心角色、先吃新手福利，還是先把資源留給後續版本目標**，而不是繼續給出一套固定角色名單。對目前玩家來說，更實際的判斷通常是：你的帳號現在是不是缺一個能穩定推進內容的主力位、目前新手池或折扣池是否還有效，以及你有沒有足夠資源兼顧眼前和後續目標。\n\n更穩妥的理解方式是：\n1. 如果你缺能穩定推進主線或日常的核心位，角色池通常會比其他池子更值得優先考慮\n2. 如果新手池、折扣池或一次性福利仍然有效，先把這些低風險資源入口看清楚再決定後續投入\n3. 武器／弧盤這類更偏深化的池子，通常要等主力框架成型後再評估，而不是和角色池搶早期預算\n\n所以這頁現在保留的是**新手抽卡優先級的判斷邏輯**，而不是繼續把某幾個開服階段熱門角色寫成長期固定答案。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -1147,8 +1147,8 @@
     "id": "reroll-guide",
     "question": "异环怎么刷初始？刷初始值得吗？",
     "questionEn": "How to reroll in NTE? Is rerolling worth it?",
-    "answer": "异环可以通过以下步骤刷初始：1) 完成新手教程；2) 使用新手池20抽获取S级角色（可自选）；3) 使用常驻池50抽S级自选券；4) 领取预注册和兑换码奖励继续抽卡。不过考虑到以下因素，刷初始的必要性大大降低：首先，异环没有50/50机制，限定池出S级100%是UP角色，你想要谁就能直接抽到谁；其次，约418次免费抽的资源量非常充足；最后，新手池和常驻池都提供S级自选，加上都市大亨模式免费送S级小吱，开服即可获得多个S级角色。建议正常游玩，利用丰富的免费资源直接获取心仪角色。",
-    "answerEn": "You can reroll in NTE by: 1) Completing the tutorial; 2) Using the 20 beginner banner pulls with S-rank selector; 3) Using the standard banner 50-pull S-rank selector ticket; 4) Claiming pre-registration and redeem code rewards for more pulls. However, rerolling is much less necessary because: 1) NTE has no 50/50 system — every S-rank in the limited banner is 100% the featured character, so you get exactly who you want; 2) ~418 free pulls at launch is extremely generous; 3) Both beginner and standard banners offer S-rank selectors, plus S-rank Xiaozhi is free from City Tycoon mode. We recommend playing normally and using the abundant free resources to get your desired characters directly.",
+    "answer": "这条“怎么刷初始、值不值得刷”FAQ 现在更适合回答**你的账号到底缺不缺为了一个开局结果反复重开**，而不是继续绑定开服时期的大量免费抽和历史福利数字。对当前玩家来说，更实际的判断通常是：你现在还能不能低成本重开号、当前新手福利是否足以修正早期阵容，以及刷初始带来的时间成本会不会比它节省的资源还大。\n\n更稳妥的理解方式是：\n1. 如果当前新手池、自选或其他早期福利已经能明显降低随机性，刷初始的必要性通常会下降\n2. 如果你只是想追一个特定开局角色，要先比较重开号和直接正常推进哪个更省时间\n3. 与其背开服阶段的免费抽总量，不如先判断当前版本下你能否通过正常游玩稳步修正阵容缺口\n\n所以这页现在保留的是**刷初始的必要性判断与时间成本逻辑**，而不是继续把一组开服资源数字写成长期有效的建议。",
+    "answerEn": "This reroll FAQ is more useful when it explains **whether your account actually benefits enough from restarting repeatedly for one opening outcome** instead of staying tied to launch-era free-pull totals and historical reward bundles. For current players, the practical questions are whether rerolling is still low-friction now, whether beginner systems already reduce early randomness enough, and whether the time cost of restarting is larger than the value it saves.\n\nA safer way to judge rerolling is:\n1. If current beginner selectors, early guarantees, or low-risk opening benefits already reduce variance, rerolling usually becomes less necessary\n2. If you only care about one ideal opening unit, compare the time cost of restarting against simply progressing and correcting your roster through normal play\n3. Instead of memorizing a launch-period free-pull total, first ask whether the current version still lets you fix early roster gaps steadily without restarting\n\nSo this page now focuses on reroll necessity and time-cost logic rather than preserving one launch-resource argument as a permanent recommendation.",
     "tags": [
       "beginner",
       "gacha"
@@ -1164,7 +1164,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環怎麼刷初始？刷初始值得嗎？",
-    "answerTw": "異環可以通過以下步驟刷初始：1) 完成新手教程；2) 使用新手池20抽獲取S級角色（可自選）；3) 使用常駐池50抽S級自選券；4) 領取預註冊和兌換碼獎勵繼續抽卡。不過考慮到以下因素，刷初始的必要性大大降低：首先，異環沒有50/50機制，限定池出S級100%是UP角色，你想要誰就能直接抽到誰；其次，約418次免費抽的資源量非常充足；最後，新手池和常駐池都提供S級自選，加上都市大亨模式免費送S級小吱，開服即可獲得多個S級角色。建議正常遊玩，利用豐富的免費資源直接獲取心儀角色。",
+    "answerTw": "這條「怎麼刷初始、值不值得刷」FAQ 現在更適合回答**你的帳號到底缺不缺為了一個開局結果反覆重開**，而不是繼續綁定開服時期的大量免費抽和歷史福利數字。對目前玩家來說，更實際的判斷通常是：你現在還能不能低成本重開號、目前新手福利是否足以修正早期陣容，以及刷初始帶來的時間成本會不會比它節省的資源還大。\n\n更穩妥的理解方式是：\n1. 如果目前新手池、自選或其他早期福利已經能明顯降低隨機性，刷初始的必要性通常會下降\n2. 如果你只是想追一個特定開局角色，要先比較重開號和直接正常推進哪個更省時間\n3. 與其背開服階段的免費抽總量，不如先判斷當前版本下你能否透過正常遊玩穩步修正陣容缺口\n\n所以這頁現在保留的是**刷初始的必要性判斷與時間成本邏輯**，而不是繼續把一組開服資源數字寫成長期有效的建議。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -3693,8 +3693,8 @@
     "id": "day-off-arc-guide",
     "question": "异环休息日（Day Off）是什么？休息日事件怎么做？",
     "questionEn": "What is Day Off in NTE? How to complete Day Off Arc events?",
-    "answer": "休息日（Day Off Arc）是异环中一个特色的角色互动系统。当角色的好感度达到一定等级后，可以触发该角色的专属休息日事件。在休息日中，你可以和角色一起在城市中自由活动，包括逛街、吃饭、拍照等互动。完成休息日事件可以获得大量好感度经验、专属对话和限定奖励。触发条件：角色好感度达到3级以上，在角色界面查看是否有可触发的休息日事件。每个角色有独特的休息日剧情，是深入了解角色背景故事的重要方式。",
-    "answerEn": "Day Off Arc is a unique character interaction system in NTE. When a character's affinity reaches a certain level, you can trigger their exclusive Day Off event. During Day Off, you can freely explore the city with the character — shopping, dining, taking photos, and more. Completing Day Off events grants affinity experience, exclusive dialogue, and limited rewards. Trigger: Character affinity level 3+. Check the character screen for available Day Off events. Each character has unique Day Off storylines — a great way to learn their backstories.",
+    "answer": "这条“休息日是什么”FAQ 现在更适合回答**它是不是偏关系养成与角色互动内容，以及你该如何判断自己能不能触发**，而不是继续写成一段固定玩法清单。对当前玩家来说，更实际的重点通常是：休息日是不是与角色关系深度绑定、它更偏剧情沉浸还是资源回报，以及你当前角色是否已经满足触发条件。\n\n更稳妥的理解方式是：\n1. 把休息日理解成**角色互动与关系推进内容**，而不是单纯的日常任务分支\n2. 是否能触发，通常更该先看当前角色关系进度与界面提示，而不是只背一个静态门槛数字\n3. 它的价值更多在于补充角色故事、互动体验和陪伴感，而不只是把奖励本身当成唯一目标\n\n所以这页现在保留的是**休息日系统的定位、触发判断与体验预期**，而不是继续把早期说明式流程写成唯一答案。",
+    "answerEn": "This Day Off FAQ is more useful when it explains **whether the feature is mainly relationship-building and character interaction content, and how players should judge whether they can trigger it** instead of preserving one fixed checklist. For current players, the practical questions are whether Day Off is tied to relationship depth, whether it serves immersion more than raw rewards, and whether their current character progress actually meets the trigger conditions.\n\nA safer way to read it is:\n1. Treat Day Off as **relationship and character-interaction content** rather than just another daily task branch\n2. To judge availability, check current relationship progress and the interface signals first instead of relying only on one memorized static threshold\n3. Its main value is usually character-story depth, companion feel, and interaction texture rather than rewards alone\n\nSo this page now focuses on the Day Off system's role, trigger judgment, and expectation-setting instead of preserving one early explanatory flow as the only answer.",
     "seoTitleZh": "异环休息日（Day Off）怎么触发？角色约会事件攻略",
     "seoTitleEn": "NTE Day Off Arc Guide — How to Trigger Character Date Events & Rewards",
     "seoDescriptionZh": "异环休息日事件触发条件、各角色休息日攻略、好感度要求与专属奖励一览。",
@@ -3710,7 +3710,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環休息日（Day Off）是什麼？休息日事件怎麼做？",
-    "answerTw": "休息日（Day Off Arc）是異環中一個特色的角色互動系統。當角色的好感度達到一定等級後，可以觸發該角色的專屬休息日事件。在休息日中，你可以和角色一起在城市中自由活動，包括逛街、吃飯、拍照等互動。完成休息日事件可以獲得大量好感度經驗、專屬對話和限定獎勵。觸發條件：角色好感度達到3級以上，在角色介面檢視是否有可觸發的休息日事件。每個角色有獨特的休息日劇情，是深入瞭解角色背景故事的重要方式。",
+    "answerTw": "這條「休息日是什麼」FAQ 現在更適合回答**它是不是偏關係養成與角色互動內容，以及你該如何判斷自己能不能觸發**，而不是繼續寫成一段固定玩法清單。對目前玩家來說，更實際的重點通常是：休息日是不是與角色關係深度綁定、它更偏劇情沉浸還是資源回報，以及你目前角色是否已經滿足觸發條件。\n\n更穩妥的理解方式是：\n1. 把休息日理解成**角色互動與關係推進內容**，而不是單純的日常任務分支\n2. 是否能觸發，通常更該先看目前角色關係進度與介面提示，而不是只背一個靜態門檻數字\n3. 它的價值更多在於補充角色故事、互動體驗和陪伴感，而不只是把獎勵本身當成唯一目標\n\n所以這頁現在保留的是**休息日系統的定位、觸發判斷與體驗預期**，而不是繼續把早期說明式流程寫成唯一答案。",
     "categoryTw": "玩法攻略",
     "seoTitleTw": "異環休息日（Day Off）怎麼觸發？角色約會事件攻略"
   },
@@ -6592,8 +6592,8 @@
     "id": "faq-unlock-driving",
     "question": "异环多少级解锁驾驶？",
     "questionEn": "What level unlocks driving in NTE?",
-    "answer": "驾驶功能通过主线剧情自动解锁，不需要特定等级。推进主线到一定阶段后，系统会赠送AE86并开放驾驶功能。建议尽快推进主线以解锁更多玩法。",
-    "answerEn": "Driving unlocks automatically through the main story — no specific level required. You receive the free AE86 after progressing far enough in the story.",
+    "answer": "这条“多少级解锁驾驶”FAQ 现在更适合回答**驾驶是按主线进度开放，还是按角色等级硬门槛开放**，而不是继续把某个具体送车节点写成长期固定说明。对当前玩家来说，更重要的通常是知道：如果你还没开车，不一定是等级不够，更可能是主线推进还没到对应阶段。\n\n更稳妥的理解方式是：\n1. 优先把它理解成**主线进度解锁功能**，而不是纯等级条件\n2. 如果你迟迟没看到驾驶入口，先回头检查当前剧情阶段和系统提示，而不是只盯角色等级\n3. 具体开放细节和赠送内容仍更适合以当前游戏内流程为准，而不是只沿用早期版本口径\n\n所以这页现在保留的是**驾驶功能的解锁判断逻辑**，而不是继续把某个历史节点写成固定规格说明。",
+    "answerEn": "This driving-unlock FAQ is more useful when it explains **whether driving opens through story progression or through a hard character-level gate** instead of preserving one older milestone note about a specific free vehicle. For current players, the important point is that if driving has not appeared yet, the blocker is often main-story progress rather than raw account level.\n\nA safer way to read it is:\n1. Treat driving primarily as a **story-progress unlock** rather than a pure level requirement\n2. If the feature has not appeared, check your current quest stage and system prompts before assuming your level is the issue\n3. Specific unlock details or gifts are better confirmed through the current in-game flow than through older version wording alone\n\nSo this page now focuses on how to judge the driving unlock condition instead of preserving one historical milestone as a permanent specification.",
     "tags": [
       "driving",
       "vehicle",
@@ -6605,7 +6605,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環多少級解鎖駕駛？",
-    "answerTw": "駕駛功能通過主線劇情自動解鎖，不需要特定等級。推進主線到一定階段後，系統會贈送AE86並開放駕駛功能。建議儘快推進主線以解鎖更多玩法。",
+    "answerTw": "這條「多少級解鎖駕駛」FAQ 現在更適合回答**駕駛是按主線進度開放，還是按角色等級硬門檻開放**，而不是繼續把某個具體送車節點寫成長期固定說明。對目前玩家來說，更重要的通常是知道：如果你還沒開車，不一定是等級不夠，更可能是主線推進還沒到對應階段。\n\n更穩妥的理解方式是：\n1. 優先把它理解成**主線進度解鎖功能**，而不是純等級條件\n2. 如果你遲遲沒看到駕駛入口，先回頭檢查目前劇情階段和系統提示，而不是只盯角色等級\n3. 具體開放細節和贈送內容仍更適合以當前遊戲內流程為準，而不是只沿用早期版本口徑\n\n所以這頁現在保留的是**駕駛功能的解鎖判斷邏輯**，而不是繼續把某個歷史節點寫成固定規格說明。",
     "categoryTw": "玩法"
   },
   {
