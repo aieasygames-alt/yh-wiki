@@ -2486,8 +2486,8 @@
     "id": "how-awakening-works",
     "question": "异环觉醒系统怎么玩？",
     "questionEn": "How does NTE's awakening system work?",
-    "answer": "异环的觉醒系统是对角色的进一步强化机制，每个角色有6个觉醒等级。觉醒需要消耗对应角色的信物碎片和专用觉醒材料。在觉醒3级和6级时会解锁核心共鸣效果，大幅提升角色能力。觉醒材料主要来源于高难副本、周常挑战和活动兑换。建议优先觉醒主C角色，收益最为明显。",
-    "answerEn": "NTE's awakening system provides further character enhancement with 6 awakening levels per character. Awakening requires character-specific sigil fragments and dedicated awakening materials. At awakening levels 3 and 6, you unlock core resonance effects that significantly boost character power. Awakening materials come mainly from high-difficulty domains, weekly challenges, and event exchanges. Prioritize awakening your main DPS for the most noticeable improvement.",
+    "answer": "这条“觉醒系统怎么玩”FAQ 现在更适合回答**觉醒应该被当成哪种长期养成投入，以及什么时候开始认真追关键节点**，而不是继续把等级数、材料来源和固定建议写成一份静态说明书。对当前玩家来说，更重要的通常是：你的主队是否已经成型、某个觉醒节点能不能解决真实卡点，以及它会不会挤占更急迫的角色、武器或资源投入。\n\n更稳妥的理解方式是：\n1) 先把觉醒理解成**主力深化与关键节点强化**，而不是前期见谁都平均点的通用系统\n2) 真正值得优先追的，通常是能明显改善循环、伤害、容错或功能覆盖的节点，而不是单纯因为数值更高\n3) 如果账号广度还不够，过早把大量资源压进觉醒，未必比补角色池和基础养成更划算\n\n所以这页现在保留的是**觉醒系统的投入定位与节点判断逻辑**，而不是继续把一套固定说明写成长期标准答案。",
+    "answerEn": "This Awakening-system page is more useful when it explains **what kind of long-term investment Awakening really is and when key breakpoints deserve serious attention** instead of preserving level counts, material sources, and fixed advice as a static instruction sheet. For current players, the practical questions are whether the main team is already formed, whether a breakpoint solves a real bottleneck, and whether it crowds out more urgent character, weapon, or account spending.\n\nA safer way to read Awakening is:\n1. Treat it as **core-team deepening and breakpoint reinforcement**, not as a system that deserves equal investment across every character early on\n2. The best early priorities are usually breakpoints that clearly improve rotation, damage, survivability, or utility coverage rather than breakpoints that are merely bigger on paper\n3. If roster breadth is still thin, pushing too much into Awakening too early may return less value than broader account development\n\nSo this page now focuses on Awakening's investment role and breakpoint judgment instead of preserving one fixed instruction sheet as the long-term answer.",
     "tags": [
       "combat",
       "awakening",
@@ -2502,7 +2502,7 @@
       "sigil-fragment"
     ],
     "questionTw": "異環覺醒系統怎麼玩？",
-    "answerTw": "異環的覺醒系統是對角色的進一步強化機制，每個角色有6個覺醒等級。覺醒需要消耗對應角色的信物碎片和專用覺醒材料。在覺醒3級和6級時會解鎖核心共鳴效果，大幅提升角色能力。覺醒材料主要來源於高難副本、周常挑戰和活動兌換。建議優先覺醒主C角色，收益最為明顯。",
+    "answerTw": "這條「覺醒系統怎麼玩」FAQ 現在更適合回答**覺醒應該被當成哪種長期養成投入，以及什麼時候開始認真追關鍵節點**，而不是繼續把等級數、材料來源和固定建議寫成一份靜態說明書。對目前玩家來說，更重要的通常是：你的主隊是否已經成型、某個覺醒節點能不能解決真實卡點，以及它會不會擠佔更急迫的角色、武器或資源投入。\n\n更穩妥的理解方式是：\n1) 先把覺醒理解成**主力深化與關鍵節點強化**，而不是前期見誰都平均點的通用系統\n2) 真正值得優先追的，通常是能明顯改善循環、傷害、容錯或功能覆蓋的節點，而不是單純因為數值更高\n3) 如果帳號廣度還不夠，過早把大量資源壓進覺醒，未必比補角色池和基礎養成更划算\n\n所以這頁現在保留的是**覺醒系統的投入定位與節點判斷邏輯**，而不是繼續把一套固定說明寫成長期標準答案。",
     "categoryTw": "戰鬥機制"
   },
   {
@@ -2533,8 +2533,8 @@
     "id": "how-to-buy-house",
     "question": "异环怎么买房？",
     "questionEn": "How to buy a house in NTE?",
-    "answer": "异环的买房系统需要先完成主线剧情推进到一定章节后解锁。解锁后前往指定区域的房产中介NPC处可以选择购买的房型。不同位置的房产价格不同，部分稀有地段需要特殊货币购买。买房后可以自定义装修，放置家具和装饰品，同时部分房产会提供属性加成或资源产出等实用收益。",
-    "answerEn": "NTE's housing system unlocks after progressing the main story to a certain chapter. Once unlocked, visit the real estate NPC in designated areas to browse and purchase houses. Prices vary by location, and some premium spots require special currency. After purchasing, you can customize the interior with furniture and decorations. Certain properties also provide stat bonuses or passive resource generation as practical benefits.",
+    "answer": "这条“怎么买房”FAQ 现在更适合回答**买房系统在账号里属于偏体验向、收集向，还是确实值得尽早投入的功能线**，而不是继续把解锁章节、购房地点和房型选择写成一张固定流程卡。对当前玩家来说，更重要的通常是：你现在是否已经推进到能稳定接触房产系统、自己更在意的是城市生活体验还是实际收益，以及买房会不会挤掉更急迫的主力养成资源。\n\n更稳妥的理解方式是：\n1) 先把买房理解成**城市生活与个性化体验的重要组成**，而不是所有阶段都必须优先完成的刚需系统\n2) 如果当前主线、主队或基础资源还很紧，住房投入通常应晚于关键推进需求\n3) 真正决定是否值得买的，往往不是“哪套最贵”，而是它对你当前玩法偏好、装饰兴趣和功能收益是否匹配\n\n所以这页现在保留的是**买房系统的投入时机与选择逻辑**，而不是继续把一份固定购房流程写成唯一答案。",
+    "answerEn": "This housing page is more useful when it explains **whether the house-buying system is mainly experiential, collection-driven, or something worth prioritizing early on an account** instead of preserving one fixed route of unlock chapter, broker location, and purchase steps. For current players, the practical questions are whether they have progressed far enough to engage with housing consistently, whether they care more about city-life expression or hard utility, and whether buying property crowds out more urgent core progression.\n\nA safer way to read it is:\n1. Treat housing as **an important part of city-life identity and personalization**, not as a universal must-do progression line at every stage\n2. If story progress, core-team growth, or basic resources are still tight, housing investment usually comes after more urgent progression needs\n3. What makes a property worthwhile is rarely just price or rarity alone, but whether it fits your current play priorities, decoration interest, and practical value\n\nSo this page now focuses on timing and selection logic for housing instead of preserving one fixed purchase flow as the only answer.",
     "tags": [
       "housing",
       "system",
@@ -2546,15 +2546,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環怎麼買房？",
-    "answerTw": "異環的買房系統需要先完成主線劇情推進到一定章節後解鎖。解鎖後前往指定區域的房產中介NPC處可以選擇購買的房型。不同位置的房產價格不同，部分稀有地段需要特殊貨幣購買。買房後可以自定義裝修，放置傢俱和裝飾品，同時部分房產會提供屬性加成或資源產出等實用收益。",
+    "answerTw": "這條「怎麼買房」FAQ 現在更適合回答**買房系統在帳號裡屬於偏體驗向、收集向，還是確實值得儘早投入的功能線**，而不是繼續把解鎖章節、購房地點和房型選擇寫成一張固定流程卡。對目前玩家來說，更重要的通常是：你現在是否已經推進到能穩定接觸房產系統、自己更在意的是城市生活體驗還是實際收益，以及買房會不會擠掉更急迫的主力養成資源。\n\n更穩妥的理解方式是：\n1) 先把買房理解成**城市生活與個性化體驗的重要組成**，而不是所有階段都必須優先完成的剛需系統\n2) 如果當前主線、主隊或基礎資源還很緊，住房投入通常應晚於關鍵推進需求\n3) 真正決定是否值得買的，往往不是「哪套最貴」，而是它對你目前玩法偏好、裝飾興趣和功能收益是否匹配\n\n所以這頁現在保留的是**買房系統的投入時機與選擇邏輯**，而不是繼續把一份固定購房流程寫成唯一答案。",
     "categoryTw": "遊戲系統"
   },
   {
     "id": "how-to-join-collab-event",
     "question": "异环P5R联动怎么参加？",
     "questionEn": "How to join NTE P5R collaboration?",
-    "answer": "异环与女神异闻录5皇家版（P5R）的联动是以音乐合作为主的活动。玩家需要在游戏内完成特定联动任务即可参与，活动期间登录即可获得联动限定奖励。联动内容包括限定音乐曲目和主题装饰道具等。建议关注游戏内公告获取最新的活动参与条件和时间安排，确保不会错过限时奖励。",
-    "answerEn": "The NTE x Persona 5 Royal collaboration is primarily a music-focused crossover event. Players can participate by completing specific collaboration quests in-game, and simply logging in during the event period grants limited-time rewards. The collab content includes exclusive music tracks and themed decorative items. Check in-game announcements for the latest participation requirements and schedule to ensure you don't miss the limited-time rewards.",
+    "answer": "这条“P5R 联动怎么参加”FAQ 现在更适合回答**你该如何判断联动当前是否仍开放、参与门槛是什么，以及奖励是否还在有效期内**，而不是继续把一次活动的任务和登录奖励写成长期不变的说明。对当前玩家来说，更重要的通常是：联动是不是已经结束、当前账号进度能不能进入活动入口，以及哪些奖励属于时效内容、哪些只是留在历史页面里的活动记录。\n\n更稳妥的理解方式是：\n1) 先确认联动当前是否真的处于开放状态，而不是把过去的活动页直接当成现在可参与\n2) 如果活动仍有效，优先看入口条件、账号进度要求和奖励领取时限\n3) 对这类联动页，更有价值的是帮助用户判断“现在还能不能参与”，而不是继续抄一份过期任务表\n\n所以这页现在保留的是**联动活动状态与参与判断逻辑**，而不是继续把一版早期活动说明写成长期标准答案。",
+    "answerEn": "This P5R-collaboration page is more useful when it explains **how to judge whether the crossover is still active, what the entry requirements are, and whether rewards are still within their claim window** instead of preserving one event's tasks and login rewards as timeless instructions. For current players, the practical questions are whether the collaboration has already ended, whether the account has progressed far enough to access it, and which rewards were time-limited versus merely preserved in historical event coverage.\n\nA safer way to read it is:\n1. First confirm whether the collaboration is actually live right now instead of assuming an older event page still describes an active window\n2. If it is still available, prioritize the current entry conditions, account-progress requirements, and reward deadlines\n3. The most useful value of a collaboration page is helping users judge whether participation is still possible now, not preserving an expired task sheet\n\nSo this page now focuses on event-state and participation judgment for the P5R crossover instead of preserving one early event description as the long-term answer.",
     "tags": [
       "event",
       "collaboration",
@@ -2566,7 +2566,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環P5R聯動怎麼參加？",
-    "answerTw": "異環與女神異聞錄5皇家版（P5R）的聯動是以音樂合作為主的活動。玩家需要在遊戲內完成特定聯動任務即可參與，活動期間登入即可獲得聯動限定獎勵。聯動內容包括限定音樂曲目和主題裝飾道具等。建議關注遊戲內公告獲取最新的活動參與條件和時間安排，確保不會錯過限時獎勵。",
+    "answerTw": "這條「P5R 聯動怎麼參加」FAQ 現在更適合回答**你該如何判斷聯動目前是否仍開放、參與門檻是什麼，以及獎勵是否還在有效期內**，而不是繼續把一次活動的任務和登入獎勵寫成長期不變的說明。對目前玩家來說，更重要的通常是：聯動是不是已經結束、目前帳號進度能不能進入活動入口，以及哪些獎勵屬於時效內容、哪些只是留在歷史頁面裡的活動記錄。\n\n更穩妥的理解方式是：\n1) 先確認聯動目前是否真的處於開放狀態，而不是把過去的活動頁直接當成現在可參與\n2) 如果活動仍有效，優先看入口條件、帳號進度要求和獎勵領取時限\n3) 對這類聯動頁，更有價值的是幫助使用者判斷「現在還能不能參與」，而不是繼續抄一份過期任務表\n\n所以這頁現在保留的是**聯動活動狀態與參與判斷邏輯**，而不是繼續把一版早期活動說明寫成長期標準答案。",
     "categoryTw": "活動"
   },
   {
@@ -2574,7 +2574,7 @@
     "question": "异环国际服怎么下载？",
     "questionEn": "How to download NTE global server?",
     "answer": "异环国际服现在已经属于**正常可直接下载安装**的状态，不再是“刚上线时怎么抢先下载”的问题。对当前玩家来说，更实用的步骤是：PC 走官网或对应平台启动器，iOS 走 App Store，Android 走 Google Play 或官网提供的正规安装入口，然后重点确认账号区域、设备配置和剩余存储空间。\n\n如果你现在问“怎么下”，核心其实有三点：\n1. 先确认你要的是国际服而不是国服客户端\n2. 下载前留够空间，避免安装后更新失败\n3. 装好后优先绑定账号，避免后面跨平台同步时出现双账号问题\n\n所以这页现在回答的是**当前国际服下载与安装注意事项**，而不是开服当天的时效下载提醒。",
-    "answerEn": "The NTE global server officially launches on April 29, 2026. PC players can download the client from the official website or find NTE on Steam. iOS users can search for NTE on the App Store, while Android users can download via Google Play or the official APK from the website. Make sure your device meets the minimum system requirements and has sufficient storage space for a smooth experience.",
+    "answerEn": "This global-download page is more useful now when it explains **which official entry point fits your platform today and what to verify before installing** instead of preserving a launch-day download announcement as if the same timing still matters. For current players, the practical questions are whether they need the global client specifically, which official storefront or launcher is correct for their platform, and whether storage, account region, and sign-in method are already prepared.\n\nA safer way to handle global download is:\n1. Confirm first that you want the global client rather than another regional version\n2. Use the official website, platform launcher, or storefront that matches your device instead of relying on old launch-window distribution notes\n3. Before installing, check storage headroom, account binding plans, and any platform-specific sign-in differences so setup does not create avoidable problems later\n\nSo this page now focuses on current entry points and install-readiness judgment for the global server instead of preserving a launch-specific download announcement as the answer.",
     "tags": [
       "download",
       "global",
@@ -2589,7 +2589,7 @@
     "seoTitleZh": "异环国际服下载教程 — PC/手机/PS5下载链接与安装步骤",
     "seoTitleEn": "NTE Global Server Download Guide — PC, Mobile & PS5 Download Links",
     "seoDescriptionZh": "异环国际服下载安装教程：PC/Android/iOS/PS5各平台下载入口、安装步骤、账号区域注意事项、当前可用平台判断，以及存储空间与设备准备建议。",
-    "seoDescriptionEn": "Download NTE Global server on PC, Android, iOS, and PS5. Direct download links, installation steps, pre-download schedule, and storage requirements.",
+    "seoDescriptionEn": "A practical guide to current NTE global download entry points, install steps, account-region checks, and storage readiness across PC, mobile, and PS5.",
     "questionTw": "異環國際服怎麼下載？",
     "answerTw": "異環國際服現在已經屬於**正常可直接下載安裝**的狀態，不再是「剛上線時怎麼搶先下載」的問題。對當前玩家來說，更實用的步驟是：PC 走官網或對應平臺啟動器，iOS 走 App Store，Android 走 Google Play 或官網提供的正規安裝入口，然後重點確認帳號區域、裝置配置和剩餘儲存空間。\n\n如果你現在問「怎麼下」，核心其實有三點：\n1. 先確認你要的是國際服而不是國服客戶端\n2. 下載前留夠空間，避免安裝後更新失敗\n3. 裝好後優先綁定帳號，避免後面跨平臺同步時出現雙帳號問題\n\n所以這頁現在回答的是**當前國際服下載與安裝注意事項**，而不是開服當天的時效下載提醒。",
     "categoryTw": "平臺",
@@ -2624,8 +2624,8 @@
     "id": "driving-vehicle-guide",
     "question": "异环怎么开车？",
     "questionEn": "How to drive in NTE?",
-    "answer": "异环中的载具系统在完成主线一定进度后自动解锁。解锁后可以在开放世界中召唤载具，使用方向键控制移动，支持加速和漂移操作。游戏内有多种载具类型，包括轿车、摩托车等，部分可以通过活动或商店获取。载具能大幅提升大地图探索效率，是快速移动和赶路的重要工具。",
-    "answerEn": "NTE's vehicle system unlocks automatically after reaching a certain point in the main story. Once unlocked, you can summon vehicles in the open world and control them with directional inputs, including acceleration and drifting. The game features multiple vehicle types including cars and motorcycles, with some available through events or shops. Vehicles significantly improve open-world exploration efficiency and are essential for quick travel across the map.",
+    "answer": "这条“怎么开车”FAQ 现在更适合回答**载具系统在探索里到底有多重要，以及你该如何判断自己是否已经进入了会频繁用车的阶段**，而不是继续把解锁条件和基础按键说明写成一份固定教程。对当前玩家来说，更重要的通常是：你当前是否已经推进到需要高频移动、自己更常用的是赶路还是探索，以及车辆系统会不会真正改善你的城市行动节奏。\n\n更稳妥的理解方式是：\n1) 先把开车理解成**城市探索与移动效率工具**，而不是所有阶段都同样关键的刚需功能\n2) 如果你还在系统解锁初期，重点应放在何时开始真正频繁使用载具，而不是死记一个最早触发点\n3) 真正值得关心的通常是载具如何改变赶路、探索和活动效率，而不只是它能不能漂移或加速\n\n所以这页现在保留的是**载具系统的使用场景与节奏判断逻辑**，而不是继续把一版基础操作说明写成唯一答案。",
+    "answerEn": "This driving page is more useful when it explains **how important vehicles actually become for exploration and how to judge whether your account has reached the stage where driving matters often** instead of preserving unlock conditions and button basics as a static tutorial. For current players, the practical questions are whether they are already in a high-mobility stage of the game, whether vehicles are mainly for routing or for broader exploration, and whether the system will genuinely improve movement rhythm across the city.\n\nA safer way to read it is:\n1. Treat driving as **a mobility and city-exploration efficiency tool**, not as an equally urgent must-learn system at every stage\n2. If you are still early in progression, focus more on when vehicles start changing daily movement patterns than on memorizing the earliest unlock point\n3. What matters most is usually how vehicles improve travel, exploration loops, and event efficiency rather than whether one specific maneuver exists\n\nSo this page now focuses on vehicle-use scenarios and pacing judgment instead of preserving one basic control sheet as the only answer.",
     "tags": [
       "vehicle",
       "exploration",
@@ -2638,15 +2638,15 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環怎麼開車？",
-    "answerTw": "異環中的載具系統在完成主線一定進度後自動解鎖。解鎖後可以在開放世界中召喚載具，使用方向鍵控制移動，支援加速和漂移操作。遊戲內有多種載具型別，包括轎車、摩托車等，部分可以通過活動或商店獲取。載具能大幅提升大地圖探索效率，是快速移動和趕路的重要工具。",
+    "answerTw": "這條「怎麼開車」FAQ 現在更適合回答**載具系統在探索裡到底有多重要，以及你該如何判斷自己是否已經進入了會高頻用車的階段**，而不是繼續把解鎖條件和基礎按鍵說明寫成一份固定教學。對目前玩家來說，更重要的通常是：你目前是否已經推進到需要高頻移動、自己更常用的是趕路還是探索，以及車輛系統會不會真正改善你的城市行動節奏。\n\n更穩妥的理解方式是：\n1) 先把開車理解成**城市探索與移動效率工具**，而不是所有階段都同樣關鍵的剛需功能\n2) 如果你還在系統解鎖初期，重點應放在何時開始真正高頻使用載具，而不是死記一個最早觸發點\n3) 真正值得關心的通常是載具如何改變趕路、探索和活動效率，而不只是它能不能漂移或加速\n\n所以這頁現在保留的是**載具系統的使用場景與節奏判斷邏輯**，而不是繼續把一版基礎操作說明寫成唯一答案。",
     "categoryTw": "遊戲系統"
   },
   {
     "id": "photo-mode-guide",
     "question": "异环拍照模式怎么用？",
     "questionEn": "How to use photo mode in NTE?",
-    "answer": "异环的拍照模式可以在游戏内通过快捷键或菜单进入。进入拍照模式后可以自由调整相机角度、焦距和构图。系统提供多种滤镜和特效供选择，还可以调整角色表情和动作姿势。拍摄的照片可以保存到本地相册，也可以直接分享到社交平台。拍照模式不会暂停部分在线功能，使用时请注意周围环境安全。",
-    "answerEn": "NTE's photo mode can be accessed via a hotkey or the in-game menu. Once active, you can freely adjust the camera angle, focal length, and composition. The system offers various filters and effects, and you can change character expressions and pose animations. Photos can be saved locally or shared directly to social media platforms. Note that photo mode does not pause all online functions, so be mindful of your surroundings while using it.",
+    "answer": "这条“拍照模式怎么用”FAQ 现在更适合回答**拍照模式更偏创作工具、社交分享，还是单纯截图入口，以及你该怎么判断哪些功能最值得优先摸熟**，而不是继续把一串基础按钮和滤镜功能写成说明书。对当前玩家来说，更重要的通常是：你是否更在意角色表现、构图自由度、滤镜氛围，还是只是想快速记录城市、车辆或收藏内容。\n\n更稳妥的理解方式是：\n1) 先把拍照模式理解成**城市生活感和角色表达的重要延伸工具**，而不只是顺手截图的附属菜单\n2) 如果你主要是为了分享内容，优先熟悉镜头、构图、动作和光线相关功能，比死记全部选项更有用\n3) 真正的使用价值通常取决于你拍的是角色展示、场景氛围还是活动纪念，而不是滤镜数量本身\n\n所以这页现在保留的是**拍照模式的使用场景与创作判断逻辑**，而不是继续把一份静态功能表写成唯一答案。",
+    "answerEn": "This photo-mode page is more useful when it explains **whether photo mode is mainly a creative tool, a social-sharing feature, or just a quick capture option, and which functions are worth learning first** instead of preserving a button-by-button feature list as a manual. For current players, the practical questions are whether they care most about character presentation, composition freedom, atmosphere filters, or simply recording city scenes, vehicles, and collection moments.\n\nA safer way to read it is:\n1. Treat photo mode as **an important extension of city-life expression and character presentation**, not merely as a side-menu screenshot shortcut\n2. If your goal is sharing or presentation, learning camera framing, pose timing, and lighting feel is usually more valuable than memorizing every option equally\n3. The real value of the mode depends on whether you are capturing character showcases, environmental mood, or event memories rather than on the sheer number of filters alone\n\nSo this page now focuses on use cases and creative judgment for photo mode instead of preserving one static feature list as the only answer.",
     "tags": [
       "photo-mode",
       "system",
@@ -2659,7 +2659,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環拍照模式怎麼用？",
-    "answerTw": "異環的拍照模式可以在遊戲內通過快捷鍵或選單進入。進入拍照模式後可以自由調整相機角度、焦距和構圖。系統提供多種濾鏡和特效供選擇，還可以調整角色表情和動作姿勢。拍攝的照片可以儲存到本地相簿，也可以直接分享到社交平臺。拍照模式不會暫停部分線上功能，使用時請注意周圍環境安全。",
+    "answerTw": "這條「拍照模式怎麼用」FAQ 現在更適合回答**拍照模式更偏創作工具、社交分享，還是單純截圖入口，以及你該怎麼判斷哪些功能最值得優先摸熟**，而不是繼續把一串基礎按鈕和濾鏡功能寫成說明書。對目前玩家來說，更重要的通常是：你是否更在意角色表現、構圖自由度、濾鏡氛圍，還是只是想快速記錄城市、車輛或收藏內容。\n\n更穩妥的理解方式是：\n1) 先把拍照模式理解成**城市生活感和角色表達的重要延伸工具**，而不只是順手截圖的附屬選單\n2) 如果你主要是為了分享內容，優先熟悉鏡頭、構圖、動作和光線相關功能，比死記全部選項更有用\n3) 真正的使用價值通常取決於你拍的是角色展示、場景氛圍還是活動紀念，而不是濾鏡數量本身\n\n所以這頁現在保留的是**拍照模式的使用場景與創作判斷邏輯**，而不是繼續把一份靜態功能表寫成唯一答案。",
     "categoryTw": "遊戲系統"
   },
   {
