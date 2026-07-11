@@ -1464,8 +1464,8 @@
     "id": "mint-character",
     "question": "异环薄荷怎么样？值得培养吗？",
     "questionEn": "Is Mint (Bohuo) worth building in NTE?",
-    "answer": "薄荷（Mint）是Anima属性的输出型角色。在测试期间表现不错，拥有稳定的伤害输出能力。与同为Anima属性的娜娜莉相比，薄荷的输出略低但获取难度更低。如果你没有获得娜娜莉，薄荷可以作为Anima属性输出的替代选择。在合理培养下，薄荷完全可以应对日常推图和中等难度的副本内容。如果你是零氪玩家或刚入坑的新手，薄荷是一个性价比不错的培养选择。",
-    "answerEn": "Mint is an Anima attribute DPS character. During testing, Mint showed solid performance with stable damage output. Compared to the fellow Anima character Nanally, Mint deals slightly less damage but is easier to obtain. If you don't have Nanally, Mint serves as a solid Anima DPS alternative. With proper investment, Mint can handle daily content and mid-difficulty dungeons comfortably. For F2P players or beginners, Mint offers good value as a build target.",
+    "answer": "薄荷值不值得培养，现在更适合从**她是不是刚好能补上你账号里一个低成本、可稳定上场的输出或功能位**来判断，而不是继续沿用“测试期表现不错”的旧口径。对当前玩家来说，更实际的问题通常是：她能不能进你的常用队伍、你是否缺一个投入门槛相对可控的过渡角色，以及她和你现有主力之间是互补还是重叠。\n\n更稳妥的理解方式是：\n1. 如果你的账号缺一个容易成型、能承担日常推进压力的角色，薄荷的培养价值会更高\n2. 如果你已经有成熟同属性主力，就要比较她带来的是补位价值，还是只是重复同类功能\n3. 与其把她简单当成某个热门角色的“下位替代”，不如先看她在你现有资源和配队里能不能稳定发挥\n\n所以这页现在保留的是**薄荷的培养价值与补位判断逻辑**，而不是继续把测试阶段的角色对比写成长期结论。",
+    "answerEn": "Mint is better judged by **whether she gives your account a low-cost, stable damage or utility slot** rather than by preserving old testing-era impressions. For current players, the more practical questions are whether she actually enters your regular teams, whether you need an easier investment bridge character, and whether she complements or overlaps with the core units you already use.\n\nA safer way to evaluate her is:\n1. If your roster still lacks an easy-to-build unit that can carry routine progression, Mint's value rises\n2. If you already have a mature unit filling the same attribute or role, compare real team utility rather than assuming she is automatically worth raising\n3. Instead of reducing her to a lesser substitute for a more popular character, judge whether she can perform consistently inside your current resource and team context\n\nSo this page now focuses on Mint's build value and roster-fit logic rather than preserving testing-phase comparisons as a long-term answer.",
     "tags": [
       "characters"
     ],
@@ -1547,8 +1547,8 @@
     "id": "character-customization",
     "question": "异环能捏脸吗？角色自定义程度高吗？",
     "questionEn": "Does NTE have character customization? How detailed is it?",
-    "answer": "异环的角色自定义系统提供了一定程度的个性化选项，但不是传统的完全自由捏脸系统。玩家可以调整主角的外观元素，包括发型、发色等基础外观设定。与完全自定义捏脸的游戏相比，异环更注重预设角色形象的塑造，因为游戏中的角色都有完整的剧情设定和人物性格。主角虽然有一定的自定义空间，但整体上更偏向于固定形象的角色扮演体验。公测版本可能会增加更多外观选项。",
-    "answerEn": "NTE offers some character customization but isn't a traditional full character creator. Players can adjust the protagonist's appearance elements including hairstyle, hair color, and other basic visual settings. Compared to games with full freeform character creation, NTE focuses more on established character designs since characters have complete story backgrounds and personalities. The protagonist has some customization options but leans toward a fixed-identity RPG experience. The launch version may add more appearance options.",
+    "answer": "这条“能不能捏脸”FAQ 现在更适合回答**异环的自定义到底偏向完整角色创建，还是偏向有限外观调整**，而不是继续保留“公测可能增加更多选项”的早期预热口径。对当前玩家来说，更重要的通常是先判断：你能不能自由塑造一个全新形象，还是主要在既定主角框架内做外观微调。\n\n更稳妥的理解方式是：\n1. 把它理解成**有限自定义**会更准确，而不是传统意义上的高度自由捏脸系统\n2. 重点通常在主角外观的局部调整，而不是把所有角色都变成自由创建对象\n3. 如果你在意的是沉浸感，真正该关注的是当前版本提供了哪些可见调整项，而不是沿用早期对未来扩展的预期\n\n所以这页现在保留的是**角色自定义边界与体验预期**，而不是继续把未落实的外观扩展写成默认会发生的更新方向。",
+    "answerEn": "This customization FAQ is more useful when it explains **whether NTE leans toward full character creation or limited appearance adjustment** instead of preserving older pre-launch wording about possible future options. For current players, the practical question is whether you can build a brand-new identity freely or whether customization mainly stays inside an established protagonist framework.\n\nA safer way to read it is:\n1. Treat it as **limited customization** rather than a fully open face-sculpting system\n2. The focus is usually on selected protagonist appearance adjustments, not turning every character into a free-creation canvas\n3. If immersion is what you care about, the real issue is which visible adjustment options exist now rather than older expectations about expansion later\n\nSo this page now focuses on the boundaries and expectations of character customization instead of implying that unrealized future options are part of the default answer.",
     "tags": [
       "system"
     ],
@@ -1565,8 +1565,8 @@
     "id": "auto-battle",
     "question": "异环有自动战斗吗？能挂机刷材料吗？",
     "questionEn": "Does NTE have auto-battle? Can I AFK farm materials?",
-    "answer": "异环目前没有传统意义上的自动战斗系统。游戏强调手动操作的战斗乐趣，包括极限闪避、角色切换和环合爆发等机制都需要玩家主动操作。不过，游戏提供了一些减少重复操作的功能：1) 材料副本在达到一定战力后可以快速通关；2) 店长特供系统提供被动收入，不需要手动操作；3) 部分日常委托可以快速完成。目前不建议期待完整的自动战斗功能，游戏的核心乐趣在于手动战斗的策略和操作。",
-    "answerEn": "NTE currently doesn't have a traditional auto-battle system. The game emphasizes manual combat enjoyment — Perfect Dodge, character switching, and Ring Fusion all require active player input. However, some features reduce repetitive grinding: 1) Material domains can be quick-cleared once you exceed the power threshold; 2) The Shop Manager system provides passive income without manual play; 3) Some daily commissions can be quick-completed. Don't expect full auto-battle — NTE's core appeal is strategic and manual combat.",
+    "answer": "这条“有自动战斗吗”FAQ 现在更适合回答**异环是偏手动战斗，还是偏放置刷本，以及哪些环节可以减轻重复劳动**。对当前玩家来说，更关键的不是一句“有没有自动”，而是要知道：核心战斗是否仍要求自己操作，日常资源环节有没有快进或减负手段，以及你能不能把它当成一款挂机型游戏来玩。\n\n更稳妥的理解方式是：\n1. 把异环理解成**以手动战斗为主**会更接近真实体验，而不是自动刷本型结构\n2. 某些日常、经营或资源回收环节可以减负，但这不等于核心战斗已经被完整自动化\n3. 如果你主要想找一款能长时间后台挂机的游戏，这页更应该帮助你建立预期，而不是只给一个是或否\n\n所以这页现在保留的是**自动化边界与日常减负判断逻辑**，而不是继续把几个功能点堆成一段固定说明书。",
+    "answerEn": "This auto-battle FAQ works better when it explains **whether NTE is primarily manual combat or passive farming, and which parts of the loop actually reduce repetition**. For current players, the real question is not a binary yes-or-no, but whether core combat still expects active play, whether daily resource routines have shortcuts, and whether the game should be treated like an idle grinder at all.\n\nA safer way to read it is:\n1. Treat NTE as a **manual-combat-first** game rather than an auto-farm structure\n2. Some daily, management, or resource loops may reduce friction, but that is not the same as full automation of the combat core\n3. If you mainly want a background-farming game, this page should help set expectation rather than just listing a few convenience features\n\nSo this page now focuses on automation boundaries and routine-friction judgment instead of preserving one static feature description.",
     "tags": [
       "system",
       "beginner"
@@ -1584,8 +1584,8 @@
     "id": "vehicle-driving",
     "question": "异环怎么开车？有哪些载具？",
     "questionEn": "How to drive vehicles in NTE? What vehicles are available?",
-    "answer": "异环拥有完整的载具驾驶系统，玩家可以在海特洛市的开放世界中自由驾驶多种车辆。载具种类包括多种轿车和跑车等不同车型，公测版本还增加了更多车辆种类。驾驶操作支持触屏虚拟方向盘和手柄操控，PC端支持键盘控制。公测版对全平台的驾驶机制进行了优化，操控手感更加流畅。车辆不仅是交通工具，还可以在特定任务和活动中使用。部分稀有载具需要通过游戏内活动或成就获取。",
-    "answerEn": "NTE features a complete vehicle driving system. Players can freely drive various vehicles through Hethereau City's open world. Vehicle types include multiple sedans and sports cars, with more varieties added in the launch version. Controls support touch-screen virtual steering, gamepad, and keyboard. The launch version optimizes driving mechanics across all platforms for smoother handling. Vehicles serve as transportation and are used in specific missions and events. Some rare vehicles are earned through in-game events and achievements.",
+    "answer": "这条“怎么开车、有哪些载具”FAQ 现在更适合回答**载具到底是深度玩法核心，还是探索与移动体验的一部分**，而不是继续把它写成一份公测阶段的功能规格单。对当前玩家来说，更实用的问题通常是：车能不能真正参与探索节奏、不同设备操控体验如何、以及你是否需要为了载具专门投入精力。\n\n更稳妥的理解方式是：\n1. 把载具先理解成开放世界移动与氛围体验的重要组成部分，而不是默认每辆车都有同等玩法深度\n2. 真正影响体验的通常是当前版本的操控手感、场景适配和使用场景，而不只是车型数量\n3. 如果你在意收集或驾驶乐趣，重点应放在当前可获得载具、操控入口和实际用途，而不是沿用早期“系统很完整”的泛化表述\n\n所以这页现在保留的是**载具系统的使用预期与体验判断逻辑**，而不是继续把早期宣传式描述当成全部答案。",
+    "answerEn": "This driving FAQ is more useful when it explains **whether vehicles are a deep gameplay pillar or mainly part of exploration and movement feel** instead of preserving a launch-era feature sheet. For current players, the practical questions are whether vehicles meaningfully shape exploration flow, how controls feel across devices, and whether the system deserves focused investment from the player.\n\nA safer way to read it is:\n1. Treat vehicles first as a meaningful part of open-world movement and atmosphere rather than assuming every vehicle carries equal mechanical depth\n2. The real experience usually depends more on handling feel, environment fit, and actual use cases than on raw vehicle count\n3. If collecting or driving matters to you, focus on what is obtainable now, how control input works, and where vehicles are actually useful rather than broad older claims about system completeness\n\nSo this page now focuses on vehicle-system expectations and experience judgment instead of preserving early promotional description as the whole answer.",
     "tags": [
       "exploration",
       "system"
@@ -6694,8 +6694,8 @@
     "id": "nte-pity-carry-over",
     "question": "异环限定卡池保底会继承到下一期吗？",
     "questionEn": "Does NTE limited banner pity carry over to the next banner?",
-    "answer": "会继承。异环限定角色池的保底计数跨期继承——比如 1.2 上半伊洛伊卡池抽了 50 抽没出货，下半真红卡池继续抽时会从 50 抽开始累计，到 90 抽必得当期 UP。注意：限定池、常驻池、武器池、新手池的保底是分开计算的，互不影响。异环没有 50/50，抽到 S 级必为当期 UP 角色。",
-    "answerEn": "Yes, pity carries over. NTE limited character banner pity accumulates across phases — if you pull 50 times on Illica Phase 1 without an S-rank, Zhenhong Phase 2 continues from pull 50, hitting the 90-pull guaranteed featured. Note: limited, standard, weapon, and beginner banners all track pity separately. NTE has no 50/50 — any S-rank pulled is the featured character.",
+    "answer": "会继承。这条 FAQ 现在更适合回答**限定池保底是不是按同类卡池连续累计，以及哪些池子之间不会互相共享**，而不是继续用某个具体版本角色举例来解释规则。对当前玩家来说，更重要的是知道：如果你这一期限定角色池没抽满，后续同类限定池通常会沿着原来的计数继续走；但常驻池、新手池、其他不同类型卡池，通常还是各算各的。\n\n更稳妥的理解方式是：\n1. 把“保底继承”理解成**同类型限定池之间的连续计数**，而不是所有卡池共用一个数字\n2. 做抽卡规划时，重点要确认你抽的是哪一类池子，而不是只记住某个版本的角色顺序\n3. 与其背具体历史例子，不如先掌握“同类继承、异类分开”的规则框架\n\n所以这页现在保留的是**保底继承的判断逻辑与预算意义**，而不是继续绑定某一版角色卡池举例。",
+    "answerEn": "Yes, pity carries over. This page is more useful when it explains **whether pity continues across banners of the same type and where that continuity stops** rather than relying on one version-specific character example. For current players, the important point is that if you do not finish a limited-character pity cycle, the next banner of that same type will usually continue the count, while standard, beginner, and other banner categories are typically tracked separately.\n\nA safer way to read it is:\n1. Treat pity carry-over as **continuous counting within the same banner class**, not one universal counter shared by every pool\n2. For pull planning, verify what kind of banner you are spending on rather than memorizing an older phase-by-phase example\n3. The useful long-term rule is 'same type carries, different types separate' rather than any specific historical banner order\n\nSo this page now focuses on pity-carry logic and budgeting meaning instead of anchoring the explanation to one outdated banner example.",
     "tags": [
       "pity",
       "gacha",
@@ -6711,7 +6711,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環限定卡池保底會繼承到下一期嗎？",
-    "answerTw": "會繼承。異環限定角色池的保底計數跨期繼承——比如 1.2 上半伊洛伊卡池抽了 50 抽沒出貨，下半真紅卡池繼續抽時會從 50 抽開始累計，到 90 抽必得當期 UP。注意：限定池、常駐池、武器池、新手池的保底是分開計算的，互不影響。異環沒有 50/50，抽到 S 級必為當期 UP 角色。",
+    "answerTw": "會繼承。這條 FAQ 現在更適合回答**限定池保底是不是按同類卡池連續累計，以及哪些池子之間不會互相共享**，而不是繼續用某個具體版本角色舉例來解釋規則。對目前玩家來說，更重要的是知道：如果你這一期限定角色池沒抽滿，後續同類限定池通常會沿著原來的計數繼續走；但常駐池、新手池、其他不同類型卡池，通常還是各算各的。\n\n更穩妥的理解方式是：\n1. 把「保底繼承」理解成**同類型限定池之間的連續計數**，而不是所有卡池共用一個數字\n2. 做抽卡規劃時，重點要確認你抽的是哪一類池子，而不是只記住某個版本的角色順序\n3. 與其背具體歷史例子，不如先掌握「同類繼承、異類分開」的規則框架\n\n所以這頁現在保留的是**保底繼承的判斷邏輯與預算意義**，而不是繼續綁定某一版角色卡池舉例。",
     "categoryTw": "抽卡機制"
   },
   {
