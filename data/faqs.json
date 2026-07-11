@@ -1689,7 +1689,7 @@
       "gacha-ticket"
     ],
     "questionTw": "異環抽卡真的沒有50/50嗎？公測前瞻直播確認了什麼？",
-    "answerTw": "公測前瞻直播已正式確認：異環的限定角色卡池沒有50/50機制。這意味著觸發保底時100%獲得當期UP的限定S級角色，不存在「歪」到常駐角色的情況。具體規則：限定池90抽硬保底，平均出貨約53.5抽；新手池20抽必出S級且可自選；常駐池50抽可自選S級；武器池80抽保底UP武器。與原神的180抽最差情況相比，異環只需90抽就能確保獲得想要的限定角色，資源效率翻倍。",
+    "answerTw": "是的，這一點現在也仍然成立：異環的限定角色池**沒有 50/50**。這意味著當你在限定池觸發 S 級保底時，拿到的就是當期 UP 角色，而不是常駐池角色。\n\n對實際抽卡規劃來說，它的意義在於：\n- 角色預算更容易算\n- 不用為「歪一次再補一次」預留雙倍壓力\n- 對零氪和微氪玩家更友好\n\n就算這條 FAQ 最早來自開服直播確認，現在它依然是有效結論，不屬於只在開服期成立的舊資訊。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -5682,8 +5682,8 @@
     "id": "nte-vs-other-games",
     "question": "异环和无限大/望月/绝区零哪个好玩？有什么区别？",
     "questionEn": "NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?",
-    "answer": "异环与同类游戏的对比：**vs 绝区零（ZZZ）**：异环有开放世界+载具驾驶+房屋系统，绝区零是箱庭动作；异环无50/50机制更良心；绝区零战斗深度更高。**vs 无限大/望月**：这两款游戏目前尚未上线，异环是已公测的成品；玩法定位不同，异环偏向都市动作RPG。**异环独特优势**：1) 虚幻引擎5打造的都市画面；2) 完整的载具驾驶系统（保时捷联动）；3) 无50/50的良心抽卡；4) 丰富的都市生活模拟（房屋、都市大亨）。如果你喜欢都市开放世界+动作战斗+抽卡，异环是目前最好的选择。",
-    "answerEn": "NTE vs similar games: **vs ZZZ**: NTE has open world + vehicles + housing; ZZZ is instance-based action. NTE's no-50/50 gacha is more generous; ZZZ has deeper combat. **vs Infinity Nikki/others**: These games aren't released yet — NTE is available now with different gameplay focus. **NTE's unique strengths**: 1) UE5-powered city visuals; 2) Full vehicle driving system (Porsche collab); 3) No-50/50 gacha; 4) Rich urban life simulation (housing, City Tycoon). If you enjoy urban open-world + action RPG + gacha, NTE is currently the best choice.",
+    "answer": "这条“异环和其他游戏哪个好玩”FAQ 现在更适合回答**它和其他竞品的体验重心差在哪，而不是直接给出一个所有人都通用的胜负结论**。对当前用户来说，更有参考价值的通常不是哪款游戏被一句话判成“更好”，而是你更在意开放世界移动、战斗手感、都市生活感，还是更纯粹的动作关卡节奏。\n\n更稳妥的理解方式是：\n1. 和绝区零这类作品相比，异环更强调都市开放空间、载具与生活化场景，而不是同一种箱庭动作结构\n2. 和仍在不同阶段的同类新作相比，真正该比较的是你现在能玩到的内容、题材偏好与长期投入意愿\n3. 像无 50/50、房屋系统、都市经营这类差异点，更适合被理解成产品定位区别，而不是一句“谁更良心、谁一定更好玩”\n\n所以这页现在保留的是**异环与同类游戏的体验差异和选择逻辑**，而不是继续把主观推荐写成绝对结论。",
+    "answerEn": "This comparison FAQ is more useful when it explains **where NTE's experience focus differs from nearby competitors** instead of forcing one winner for every player. For current users, the more valuable question is not which game is declared universally better, but whether you care more about open-world movement, combat feel, urban-life atmosphere, or a tighter action-instance structure.\n\nA safer way to read the comparison is:\n1. Against games like ZZZ, NTE leans more into urban open-space traversal, vehicles, and lifestyle framing rather than the same enclosed action format\n2. Against other adjacent titles in different release stages, the more important comparison is what you can actually play now, what setting you prefer, and how much long-term investment you want\n3. Differences such as no 50/50, housing, or city-management loops are better understood as product-positioning distinctions rather than proof that one game is automatically more generous or more fun\n\nSo this page now focuses on experience differences and selection logic instead of preserving a one-line absolute recommendation.",
     "tags": [
       "comparison",
       "zzz",
@@ -5696,7 +5696,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環和無限大/望月/絕區零哪個好玩？有什麼區別？",
-    "answerTw": "異環與同類遊戲的對比：**vs 絕區零（ZZZ）**：異環有開放世界+載具駕駛+房屋系統，絕區零是箱庭動作；異環無50/50機制更良心；絕區零戰鬥深度更高。**vs 無限大/望月**：這兩款遊戲目前尚未上線，異環是已公測的成品；玩法定位不同，異環偏向都市動作RPG。**異環獨特優勢**：1) 虛幻引擎5打造的都市畫面；2) 完整的載具駕駛系統（保時捷聯動）；3) 無50/50的良心抽卡；4) 豐富的都市生活模擬（房屋、都市大亨）。如果你喜歡都市開放世界+動作戰鬥+抽卡，異環是目前最好的選擇。",
+    "answerTw": "這條「異環和其他遊戲哪個好玩」FAQ 現在更適合回答**它和其他競品的體驗重心差在哪，而不是直接給出一個所有人都通用的勝負結論**。對目前使用者來說，更有參考價值的通常不是哪款遊戲被一句話判成「更好」，而是你更在意開放世界移動、戰鬥手感、都市生活感，還是更純粹的動作關卡節奏。\n\n更穩妥的理解方式是：\n1. 和絕區零這類作品相比，異環更強調都市開放空間、載具與生活化場景，而不是同一種箱庭動作結構\n2. 和仍在不同階段的同類新作相比，真正該比較的是你現在能玩到的內容、題材偏好與長期投入意願\n3. 像無 50/50、房屋系統、都市經營這類差異點，更適合被理解成產品定位區別，而不是一句「誰更良心、誰一定更好玩」\n\n所以這頁現在保留的是**異環與同類遊戲的體驗差異和選擇邏輯**，而不是繼續把主觀推薦寫成絕對結論。",
     "categoryTw": "綜合資訊"
   },
   {
