@@ -61,6 +61,8 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
 
   // Determine comparison table based on slug
   const compareTable = getCompareTable(slug, locale);
+  const decisionGuide = getCompareDecisionGuide(slug, locale);
+  const bestFor = getCompareBestFor(slug, locale);
 
   return (
     <>
@@ -94,6 +96,22 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
           {summary}
         </p>
 
+        {decisionGuide && (
+          <section className="mb-8 rounded-xl border border-primary-500/30 bg-primary-500/5 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {isZhLocale(locale) ? "先看结论" : "Quick Take"}
+            </h2>
+            <ul className="space-y-2 text-sm leading-6 text-gray-300">
+              {decisionGuide.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="text-primary-400">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {/* Compare Table */}
         {compareTable && (
           <section className="mb-8">
@@ -110,6 +128,22 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
 
         {/* Content */}
         <ArticleContent content={content} lang={lang} />
+
+        {bestFor && (
+          <section className="mt-10 rounded-xl border border-gray-800 bg-gray-900/40 p-5">
+            <h2 className="text-lg font-bold mb-4">
+              {isZhLocale(locale) ? "更适合谁" : "Who Each Game Fits"}
+            </h2>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {bestFor.map((card) => (
+                <div key={card.title} className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
+                  <h3 className="text-sm font-semibold text-white">{card.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-gray-400">{card.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Tags */}
         {article.tags.length > 0 && (
@@ -274,6 +308,128 @@ function getCompareTable(slug: string, locale: Locale) {
   }
 
   return null;
+}
+
+function getCompareDecisionGuide(slug: string, locale: Locale) {
+  if (slug === "nte-vs-genshin") {
+    return isZhLocale(locale)
+      ? [
+          "如果你最在意抽卡成本、无 50/50 和现代都市题材，异环更有吸引力。",
+          "如果你更喜欢成熟长线内容、元素反应体系和更完整的历史版本积累，原神仍然更稳。",
+          "这组对比的核心不是谁绝对更强，而是你更偏动作操作还是偏奇幻探索。 ",
+        ]
+      : [
+          "Pick NTE if banner efficiency, no 50/50, and an urban-fantasy setting matter most to you.",
+          "Pick Genshin if you value mature long-tail content, elemental systems, and a more established live-service history.",
+          "The real split here is action-heavy urban play versus fantasy exploration depth.",
+        ];
+  }
+
+  if (slug === "nte-vs-wuthering-waves") {
+    return isZhLocale(locale)
+      ? [
+          "异环更偏现代都市开放世界与生活化玩法，鸣潮更偏后末日动作与声骸养成。",
+          "如果你重视载具、买房和无 50/50，异环的差异化会更明显。",
+          "如果你更想要高压战斗手感和既有动作框架，鸣潮的方向会更直接。",
+        ]
+      : [
+          "NTE leans into urban open-world systems, while WuWa leans into post-apocalyptic action and Echo progression.",
+          "Choose NTE for driving, housing, and no-50/50 banner value.",
+          "Choose WuWa if you mainly want combat intensity inside an already-established action framework.",
+        ];
+  }
+
+  if (slug === "nte-vs-zzz") {
+    return isZhLocale(locale)
+      ? [
+          "异环和绝区零都走都市题材，但异环是开放世界，绝区零更偏关卡制与战斗编排。",
+          "如果你想要自由探索、开车和房屋系统，异环更贴近你要的体验。",
+          "如果你更喜欢更紧凑的关卡战斗循环和米系表现风格，绝区零会更合口味。",
+        ]
+      : [
+          "Both games are urban-themed, but NTE is open-world while ZZZ is much more stage-driven.",
+          "Choose NTE for free exploration, driving, and housing-style systems.",
+          "Choose ZZZ for tighter combat loops and a more instance-focused structure.",
+        ];
+  }
+
+  if (slug === "nte-vs-ananta") {
+    return isZhLocale(locale)
+      ? [
+          "如果你现在就想玩都市二次元开放世界，异环已经上线而且版本内容在持续更新。",
+          "如果你更想等网易方案、接受更传统的 50/50 抽卡结构，可以继续观察无限大。",
+          "这页最重要的判断点其实不是题材，而是上线状态、抽卡友好度和特色系统差异。",
+        ]
+      : [
+          "If you want to play an urban anime open-world game now, NTE is already live and updating.",
+          "If you want to wait for NetEase's take and are comfortable with a more traditional 50/50 banner structure, Ananta may still be worth watching.",
+          "The main decision here is live status, banner friendliness, and feature priorities rather than theme alone.",
+        ];
+  }
+
+  if (slug === "nte-vs-honkai-star-rail") {
+    return isZhLocale(locale)
+      ? [
+          "这两款游戏最根本的差异是动作开放世界 vs 回合制策略，不是同一种游玩节奏。",
+          "如果你更享受亲自操作、弹反和自由跑图，异环会更适合你。",
+          "如果你更喜欢阵容规划、弱点击破和低操作负担，星穹铁道的匹配度更高。",
+        ]
+      : [
+          "The biggest split here is open-world action versus turn-based strategy, not just theme.",
+          "Choose NTE for direct control, parries, and free exploration.",
+          "Choose HSR for roster planning, weakness-break strategy, and lower execution demand.",
+        ];
+  }
+
+  if (slug === "games-like-nte") {
+    return isZhLocale(locale)
+      ? [
+          "如果你只是想找都市二次元开放世界的近似体验，优先看题材、战斗和抽卡机制是否接近。",
+          "多数“像异环”的游戏只会在其中一两个维度相似，很少能同时覆盖都市、动作、载具和生活系统。",
+          "适合先用这页筛方向，再去看单独的对比页做更细判断。",
+        ]
+      : [
+          "If you're looking for games like NTE, compare theme, combat, and banner structure before anything else.",
+          "Most alternatives only overlap in one or two dimensions, not all of NTE's urban, action, driving, and lifestyle systems at once.",
+          "Use this page to narrow the field, then move to individual comparison pages for the final call.",
+        ];
+  }
+
+  return null;
+}
+
+function getCompareBestFor(slug: string, locale: Locale) {
+  const zh = isZhLocale(locale);
+
+  const build = (leftTitle: string, leftDescription: string, rightTitle: string, rightDescription: string) => [
+    { title: leftTitle, description: leftDescription },
+    { title: rightTitle, description: rightDescription },
+  ];
+
+  switch (slug) {
+    case "nte-vs-genshin":
+      return zh
+        ? build("更适合选异环的人", "想要更友好的抽卡结构、更强的动作反馈，以及现代都市题材下的新鲜感。", "更适合选原神的人", "更看重成熟内容池、稳定更新节奏、奇幻世界观和元素反应体系。")
+        : build("Choose NTE if...", "You want a friendlier banner structure, stronger action feedback, and a fresher modern-urban setting.", "Choose Genshin if...", "You value mature content depth, stable cadence, fantasy worldbuilding, and elemental systems.");
+    case "nte-vs-wuthering-waves":
+      return zh
+        ? build("更适合选异环的人", "希望把动作战斗和都市生活化内容放在一起体验，比如开车、买房和城市探索。", "更适合选鸣潮的人", "更喜欢围绕声骸、末日氛围和高压动作手感来构建长期养成。")
+        : build("Choose NTE if...", "You want action combat mixed with urban systems like driving, housing, and city exploration.", "Choose WuWa if...", "You prefer an Echo-focused progression loop and a heavier post-apocalyptic combat atmosphere.");
+    case "nte-vs-zzz":
+      return zh
+        ? build("更适合选异环的人", "想要开放世界自由度，而不是主要在关卡和战斗房间里循环推进。", "更适合选绝区零的人", "偏爱更集中、更短回合的战斗与演出节奏，不一定需要开放世界。")
+        : build("Choose NTE if...", "You want open-world freedom rather than a mostly stage-based loop.", "Choose ZZZ if...", "You prefer tighter, shorter combat cycles and stylish staged progression over open-world scale.");
+    case "nte-vs-ananta":
+      return zh
+        ? build("更适合选异环的人", "现在就要开玩，并且更在意无 50/50、载具和房屋系统这些已落地功能。", "更适合继续等无限大的人", "愿意等待网易方案正式成型，并把题材相似度放在比上线时间更高的位置。")
+        : build("Choose NTE if...", "You want a live game right now and care about no-50/50, driving, and housing systems that already exist.", "Keep watching Ananta if...", "You're happy to wait for NetEase's version and care more about theme overlap than immediate availability.");
+    case "nte-vs-honkai-star-rail":
+      return zh
+        ? build("更适合选异环的人", "偏动作、偏探索、愿意自己操作角色并享受开放地图带来的节奏变化。", "更适合选星穹铁道的人", "偏策略、偏剧情、喜欢回合制队伍规划和更轻的操作负担。")
+        : build("Choose NTE if...", "You want action, exploration, and direct control inside a freer map structure.", "Choose HSR if...", "You prefer strategy, story cadence, and lower mechanical execution with turn-based teams.");
+    default:
+      return null;
+  }
 }
 
 function getCompareFaqs(slug: string) {
