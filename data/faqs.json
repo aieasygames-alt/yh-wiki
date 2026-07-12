@@ -326,6 +326,10 @@
     "id": "test-vs-official",
     "question": "异环测试版和正式版数据有区别吗？",
     "questionEn": "Is there a difference between NTE test version and official version data?",
+    "seoTitleZh": "异环测试版和正式版数据有区别吗？站点数据口径说明",
+    "seoTitleEn": "NTE Test vs Official Data — What Changed and How to Read Site Data",
+    "seoDescriptionZh": "异环测试版和正式版数据会不会不一样？这篇说明站点数据来源、版本差异和更新口径。",
+    "seoDescriptionEn": "Learn how NTE test data may differ from the official release and how to interpret site data sources, revisions, and version updates.",
     "answer": "异环在测试期间，游戏数据（包括角色属性、材料需求、副本掉落等）可能会在正式上线时进行调整。本站数据基于测试版本整理，正式版上线后我们会尽快更新。建议关注游戏官方公告了解最新变动。",
     "answerEn": "During the testing period, game data (including character stats, material requirements, domain drops, etc.) may be adjusted before official launch. Our data is based on the test version and will be updated as quickly as possible after official release. Follow official announcements for the latest changes.",
     "tags": [
@@ -337,6 +341,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環測試版和正式版資料有區別嗎？",
+    "seoTitleTw": "異環測試版和正式版資料有區別嗎？站點數據口徑說明",
+    "seoDescriptionTw": "異環測試版和正式版數據會不會不一樣？這篇說明站點資料來源、版本差異和更新口徑。",
     "answerTw": "異環在測試期間，遊戲資料（包括角色屬性、材料需求、副本掉落等）可能會在正式上線時進行調整。本站資料基於測試版本整理，正式版上線後我們會盡快更新。建議關注遊戲官方公告瞭解最新變動。",
     "categoryTw": "站點資料"
   },
@@ -426,6 +432,10 @@
     "id": "permit-materials",
     "question": "异环许可证明怎么获取？",
     "questionEn": "How to get Permit materials in NTE?",
+    "seoTitleZh": "异环许可证明怎么获取？高阶材料来源与使用规划",
+    "seoTitleEn": "How to Get Permit Materials in NTE — High-Tier Sources & Planning",
+    "seoDescriptionZh": "异环许可证明从哪里刷？这篇整理高阶材料来源、稀缺程度和后期培养时的使用规划。",
+    "seoDescriptionEn": "Learn where Permit materials come from in NTE, why they are scarce, and how to plan their use for higher-level upgrades.",
     "answer": "许可证明是角色高等级阶段升级的必需材料，分为先锋许可、专家许可和大帅许可三个等级。获取途径：1) 高等级材料副本掉落；2) 活动商店兑换；3) 部分成就奖励。许可证明是后期养成中比较稀缺的资源，建议合理规划使用。",
     "answerEn": "Permits are essential materials for high-level character upgrades, available in three tiers: Pioneer, Expert, and Master Permits. Obtained through: 1) High-level material domain drops; 2) Event shop exchange; 3) Some achievement rewards. Permits are relatively scarce resources in late-game progression, so plan their usage carefully.",
     "tags": [
@@ -441,6 +451,8 @@
       "golden-appleseed"
     ],
     "questionTw": "異環許可證明怎麼獲取？",
+    "seoTitleTw": "異環許可證明怎麼獲取？高階材料來源與使用規劃",
+    "seoDescriptionTw": "異環許可證明從哪裡刷？這篇整理高階材料來源、稀缺程度和後期培養時的使用規劃。",
     "answerTw": "許可證明是角色高等級階段升級的必需材料，分為先鋒許可、專家許可和大帥許可三個等級。獲取途徑：1) 高等級材料副本掉落；2) 活動商店兌換；3) 部分成就獎勵。許可證明是後期養成中比較稀缺的資源，建議合理規劃使用。",
     "categoryTw": "材料獲取"
   },
@@ -684,6 +696,10 @@
     "id": "test-signup",
     "question": "异环怎么参加测试？",
     "questionEn": "How to participate in NTE beta tests?",
+    "seoTitleZh": "异环怎么参加测试？历史资格获取方式与报名渠道归档",
+    "seoTitleEn": "How to Join NTE Tests — Historical Sign-Up Channels & Access Archive",
+    "seoDescriptionZh": "异环过去测试资格怎么发？这篇整理官网、TapTap 和社媒等历史报名与通知渠道。",
+    "seoDescriptionEn": "An archive of how NTE test access was historically distributed, including the official site, TapTap, and social announcement channels.",
     "answer": "这条“怎么参加测试”FAQ 现在更适合作为**异环早期测试参与方式的历史归档**来看，而不是继续默认当前还有长期开放的测试报名入口。对现在的玩家来说，更实际的问题通常是：过去测试是怎么发资格的、官方一般通过哪些渠道通知、以及如果未来再有封测/前瞻体验，该去哪里留意。\n\n更稳妥的理解方式是：\n1. 把官网、TapTap 和官方社交媒体视为历史上最常见的资格通知入口\n2. 把抽签、报名和定向发放理解成过去测试阶段的常见分发方式，而不是当前持续开放状态\n3. 如果后续再有新一轮测试，最有效的动作仍然是盯紧官方公告，而不是依赖旧报名页是否还挂着\n\n所以这页现在保留的是**测试资格获取路径的历史模式**，而不是继续把测试报名写成当前常驻功能。",
     "answerEn": "This 'how to join testing' FAQ is more useful now as an **archive of how NTE handled earlier test access** rather than as if there were a continuously open sign-up funnel today. For current players, the practical value is understanding how access used to be distributed, which official channels were used, and where to watch if future closed tests or preview rounds ever return.\n\nA safer way to read it is:\n1. Treat the official site, TapTap, and official social channels as the historically common notice points for access\n2. Treat lottery, sign-up, and directed distribution as past-stage access models rather than current standing availability\n3. If a future test happens, the most reliable move will still be following fresh official notices rather than assuming old sign-up pages remain active\n\nSo this page now preserves the historical pattern of test access instead of presenting beta registration as a current evergreen function.",
     "tags": [
@@ -696,6 +712,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環怎麼參加測試？",
+    "seoTitleTw": "異環怎麼參加測試？歷史資格獲取方式與報名渠道歸檔",
+    "seoDescriptionTw": "異環過去測試資格怎麼發？這篇整理官網、TapTap 和社媒等歷史報名與通知渠道。",
     "answerTw": "這條「怎麼參加測試」FAQ 現在更適合作為**異環早期測試參與方式的歷史歸檔**來看，而不是繼續默認目前還有長期開放的測試報名入口。對現在的玩家來說，更實際的問題通常是：過去測試是怎麼發資格的、官方一般透過哪些渠道通知、以及如果未來再有封測／前瞻體驗，該去哪裡留意。\n\n更穩妥的理解方式是：\n1. 把官網、TapTap 和官方社交媒體視為歷史上最常見的資格通知入口\n2. 把抽籤、報名和定向發放理解成過去測試階段的常見分發方式，而不是目前持續開放狀態\n3. 如果後續再有新一輪測試，最有效的動作仍然是盯緊官方公告，而不是依賴舊報名頁是否還掛著\n\n所以這頁現在保留的是**測試資格獲取路徑的歷史模式**，而不是繼續把測試報名寫成目前常駐功能。",
     "categoryTw": "上線資訊"
   },
@@ -703,6 +721,10 @@
     "id": "preregistration-rewards",
     "question": "异环预注册/预约奖励有哪些？",
     "questionEn": "What are the NTE pre-registration rewards?",
+    "seoTitleZh": "异环预约奖励有哪些？开服前预注册福利历史归档",
+    "seoTitleEn": "NTE Pre-Registration Rewards — Launch-Era Reward Archive",
+    "seoDescriptionZh": "异环预约奖励当年包含什么？这篇整理开服前预注册福利结构，以及为什么现在不能再补领。",
+    "seoDescriptionEn": "An archive of NTE's launch-era pre-registration rewards, what they included, and why those benefits should be treated as historical now.",
     "answer": "预注册奖励这页现在更适合作为**开服前预约活动与历史福利结构的归档**来看，而不是继续默认玩家现在还能去补做预约并在公测时领取。对当前玩家来说，更实际的重点通常是：当年的预约奖励属于什么类型、哪些是一次性开服福利、以及这些旧奖励不该再被直接当成现时可领取资源。\n\n更稳妥的理解方式是：\n1. 把预注册奖励理解成开服前累计预约带来的历史节点福利\n2. 把原晶、信用点、抽卡券这类内容视为当时的活动构成，而不是当前账号还能重新触发的入口\n3. 如果你现在想看还能拿什么资源，重点应转向当前活动、常驻奖励和版本更新发放，而不是继续围绕预约页判断\n\n所以这页现在保留的是**预注册奖励的历史构成与活动背景**，而不是继续把预约奖励写成当前可补领内容。",
     "answerEn": "This pre-registration rewards page is more useful now as an **archive of launch-era reservation campaigns and their reward structure** rather than as if players can still meaningfully complete pre-registration and collect those benefits today. For current players, the practical value is understanding what kinds of rewards existed, which of them were one-time launch incentives, and why those old benefits should not be read as currently claimable resources.\n\nA safer way to read it is:\n1. Treat pre-registration rewards as historical milestone bonuses tied to launch preparation\n2. Treat items like crystals, credits, and tickets as the composition of that past campaign rather than a trigger current accounts can restart\n3. If you want to know what resources are still available now, focus on current events, permanent rewards, and patch-cycle distributions instead of old reservation pages\n\nSo this page now preserves the historical makeup and context of pre-registration rewards instead of presenting them as currently recoverable benefits.",
     "tags": [
@@ -718,6 +740,8 @@
       "rising-hunter-guide"
     ],
     "questionTw": "異環預註冊/預約獎勵有哪些？",
+    "seoTitleTw": "異環預約獎勵有哪些？開服前預註冊福利歷史歸檔",
+    "seoDescriptionTw": "異環預約獎勵當年包含什麼？這篇整理開服前預註冊福利結構，以及為什麼現在不能再補領。",
     "answerTw": "預註冊獎勵這頁現在更適合作為**開服前預約活動與歷史福利結構的歸檔**來看，而不是繼續默認玩家現在還能去補做預約並在公測時領取。對目前玩家來說，更實際的重點通常是：當年的預約獎勵屬於什麼類型、哪些是一次性開服福利、以及這些舊獎勵不該再被直接當成現時可領資源。\n\n更穩妥的理解方式是：\n1. 把預註冊獎勵理解成開服前累計預約帶來的歷史節點福利\n2. 把原晶、信用點、抽卡券這類內容視為當時的活動構成，而不是目前帳號還能重新觸發的入口\n3. 如果你現在想看還能拿什麼資源，重點應轉向目前活動、常駐獎勵和版本更新發放，而不是繼續圍繞預約頁判斷\n\n所以這頁現在保留的是**預註冊獎勵的歷史構成與活動背景**，而不是繼續把預約獎勵寫成目前可補領內容。",
     "categoryTw": "上線資訊"
   },
@@ -2130,6 +2154,10 @@
     "id": "beta-refund",
     "question": "异环测试服充值怎么返还？返还比例是多少？",
     "questionEn": "How does NTE beta refund work? What is the refund rate?",
+    "seoTitleZh": "异环测试服充值返还怎么计算？历史返还规则与比例归档",
+    "seoTitleEn": "NTE Beta Refund Rules — Historical Recharge Return Rates & Terms",
+    "seoDescriptionZh": "异环测试服返还比例当年怎么算？这篇整理历史返还规则、适用范围和现在的参考意义。",
+    "seoDescriptionEn": "An archive of NTE beta recharge refund rules, covering historical return rates, eligibility scope, and how players should read them now.",
     "answer": "这条测试服返还 FAQ 现在更适合作为**开服阶段福利规则归档**来看，而不是继续写成一个会影响当前玩家决策的实时权益页。对现在的大多数用户来说，更实际的问题通常是：这批返还当时面向哪些测试玩家、规则是什么、以及现在还能不能补领。\n\n更稳妥的理解方式是：\n1. 这类返还规则属于特定测试阶段和开服窗口，不应再被理解成当前持续可申请的通用福利\n2. 如果你当时参与过测试，它的参考价值在于回看历史发放逻辑，而不是重新触发一次返还流程\n3. 对现在的新玩家来说，这页更多是福利时间线记录，应把注意力放在当前活动、签到和兑换码上\n\n所以这页现在保留的是**测试服返还规则的历史归档意义**，而不是继续把它写成一个面向当前用户的实时福利说明。",
     "answerEn": "NTE officially confirmed beta tester recharge refunds at up to 150%. Refunds will be delivered via in-game mail after launch as equivalent in-game currency. Refund rates: first purchase at 150%, cumulative spending under 1,000 CNY at 120%, 1,000-5,000 CNY at 110%, above 5,000 CNY at 100%. Monthly passes and battle passes purchased during beta will also be given free at launch. This refund rate is among the highest in the industry.",
     "tags": [
@@ -2144,6 +2172,8 @@
       "stellar-jade"
     ],
     "questionTw": "異環測試服充值怎麼返還？返還比例是多少？",
+    "seoTitleTw": "異環測試服充值返還怎麼算？歷史返還規則與比例歸檔",
+    "seoDescriptionTw": "異環測試服返還比例當年怎麼算？這篇整理歷史返還規則、適用範圍和現在的參考意義。",
     "answerTw": "這條測試服返還 FAQ 現在更適合作為**開服階段福利規則歸檔**來看，而不是繼續寫成一個會影響目前玩家決策的即時權益頁。對現在的大多數使用者來說，更實際的問題通常是：這批返還當時面向哪些測試玩家、規則是什麼、以及現在還能不能補領。\n\n更穩妥的理解方式是：\n1. 這類返還規則屬於特定測試階段和開服視窗，不應再被理解成目前持續可申請的通用福利\n2. 如果你當時參與過測試，它的參考價值在於回看歷史發放邏輯，而不是重新觸發一次返還流程\n3. 對現在的新玩家來說，這頁更多是福利時間線記錄，應把注意力放在當前活動、簽到和兌換碼上\n\n所以這頁現在保留的是**測試服返還規則的歷史歸檔意義**，而不是繼續把它寫成一個面向當前使用者的即時福利說明。",
     "categoryTw": "貨幣系統"
   },
@@ -2151,6 +2181,10 @@
     "id": "xiaozhi-free-s-rank",
     "question": "异环小志怎么免费获得？都市大亨玩法详解",
     "questionEn": "How to get Xiaozhi for free in NTE? City Tycoon guide",
+    "seoTitleZh": "异环小志怎么免费获得？获取路径与投入优先级判断",
+    "seoTitleEn": "How to Get Xiaozhi for Free in NTE — Acquisition Path & Priority Logic",
+    "seoDescriptionZh": "异环小志值不值得为了免费获取去投入时间？这篇整理获取路径、城市玩法绑定和培养优先级。",
+    "seoDescriptionEn": "Learn how Xiaozhi is obtained for free in NTE, how the city-system path works, and when pushing for the reward makes sense.",
     "answer": "这条“小志怎么免费获得”FAQ 现在更适合回答**都市大亨这条功能线值不值得优先投入，以及小志对账号来说更像福利角色、补位角色还是长期主力候选**，而不是继续把“免费可满突破”写成一条不需要判断的固定奖励说明。对当前玩家来说，更重要的通常是：你当前是否已经开始稳定接触都市大亨玩法、小志能不能补你的真实阵容缺口，以及为这条线投入时间会不会挤掉更急迫的主线或主队养成。\n\n更稳妥的理解方式是：\n1. 先把小志理解成**和城市玩法深度绑定的免费角色奖励**，而不是所有账号第一时间都必须无条件冲满的目标\n2. 如果他正好能补你缺的功能位，这条线的投入价值会明显更高；如果短期上不了场，就不必因为“免费 S 级”而急着压全部时间\n3. 都市大亨这类系统真正值不值得优先推，仍要看你当前版本节奏、账号目标和其他关键成长线有没有更急迫的需求\n\n所以这页现在保留的是**小志获取路径与投入优先级的判断逻辑**，而不是继续把一条福利说明写成唯一答案。",
     "answerEn": "This Xiaozhi page is more useful when it explains **whether the City Tycoon line deserves early priority and whether Xiaozhi functions more as a reward unit, a roster patch, or a long-term candidate for your account** instead of preserving 'free and fully breakthrough-capable' as a flat reward statement. For current players, the more practical questions are whether they are far enough into City Tycoon to engage it consistently, whether Xiaozhi fills a real team gap, and whether investing time there crowds out more urgent story or core-team progress.\n\nA safer way to read it is:\n1. Treat Xiaozhi as **a free character reward tied closely to the city-systems layer**, not as an unconditional first-priority sprint target for every account\n2. If Xiaozhi fills a role your account actually needs, the value of pushing that line rises sharply; if not, there is no need to overcommit time merely because the label says 'free S-rank'\n3. Whether City Tycoon should be prioritized still depends on current version pace, account goals, and whether other growth lines are more urgent right now\n\nSo this page now focuses on acquisition-path value and priority judgment for Xiaozhi instead of preserving one reward description as the only answer.",
     "tags": [
@@ -2165,6 +2199,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環小志怎麼免費獲得？都市大亨玩法詳解",
+    "seoTitleTw": "異環小志怎麼免費獲得？獲取路徑與投入優先順序判斷",
+    "seoDescriptionTw": "異環小志值不值得為了免費獲取去投入時間？這篇整理獲取路徑、城市玩法綁定和培養優先順序。",
     "answerTw": "這條「小志怎麼免費獲得」FAQ 現在更適合回答**都市大亨這條功能線值不值得優先投入，以及小志對帳號來說更像福利角色、補位角色還是長期主力候選**，而不是繼續把「免費可滿突破」寫成一條不需要判斷的固定獎勵說明。對目前玩家來說，更重要的通常是：你目前是否已經開始穩定接觸都市大亨玩法、小志能不能補你的真實陣容缺口，以及為這條線投入時間會不會擠掉更急迫的主線或主隊養成。\n\n更穩妥的理解方式是：\n1. 先把小志理解成**和城市玩法深度綁定的免費角色獎勵**，而不是所有帳號第一時間都必須無條件衝滿的目標\n2. 如果他正好能補你缺的功能位，這條線的投入價值會明顯更高；如果短期上不了場，就不必因為「免費 S 級」而急著壓全部時間\n3. 都市大亨這類系統真正值不值得優先推，仍要看你目前版本節奏、帳號目標和其他關鍵成長線有沒有更急迫的需求\n\n所以這頁現在保留的是**小志獲取路徑與投入優先級的判斷邏輯**，而不是繼續把一條福利說明寫成唯一答案。",
     "categoryTw": "角色相關"
   },
@@ -2172,6 +2208,10 @@
     "id": "pre-download-details",
     "question": "异环预下载4月21日几点开始？PC和手机怎么预下载？",
     "questionEn": "When exactly does NTE pre-download start on April 21? How to pre-download?",
+    "seoTitleZh": "异环4月21日预下载几点开？历史时间表与入口归档",
+    "seoTitleEn": "NTE April 21 Pre-Download Time — Historical Schedule & Access Archive",
+    "seoDescriptionZh": "异环 2026 年 4 月 21 日预下载当时几点开始？这篇整理历史时间表和平台入口说明。",
+    "seoDescriptionEn": "An archive of NTE's April 21, 2026 pre-download timing, covering the historical schedule and platform access context.",
     "answer": "这条预下载 FAQ 现在更适合作为**开服阶段下载安排的时间归档**来看，而不是继续写成当前仍在生效的实时提示页。对现在的用户来说，更实际的问题通常是：那次预下载当时是什么时间开放、有哪些平台入口、以及这条信息现在更多是历史参考还是仍有现实操作价值。\n\n更稳妥的理解方式是：\n1. 这类“4 月 21 日几点开预下载”的信息，本质上属于特定开服窗口的历史安排\n2. 如果你现在在查下载方式，更应该优先看当前官网、商店入口和现版本安装说明\n3. 这页的价值更多是回看开服准备流程，而不是继续把旧时间表当成当前通知\n\n所以这页现在保留的是**预下载时间线与历史入口说明**，而不是继续把开服当天的下载提示当作实时公告。",
     "answerEn": "This pre-download page now works better as **an archive of launch-window download timing and access points** rather than as if it were still a live real-time notice. For current users, the more practical questions are what that launch-period schedule looked like at the time, which platform entry points existed, and whether the information still helps with present installation decisions or is mainly historical reference.\n\nA safer way to read it is:\n1. A question like \"what time did pre-download open on April 21\" belongs to a specific launch window and should be treated as historical scheduling information\n2. If you are trying to install the game now, the better sources are the current official site, store listings, and current-version install instructions\n3. The ongoing value of this page is mostly in documenting launch preparation flow, not in pretending an old timetable is still a current notice\n\nSo this page now preserves the timeline and historical entry-path context for pre-download rather than presenting launch-day instructions as if they were still live operational guidance.",
     "tags": [
@@ -2184,6 +2224,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環預下載4月21日幾點開始？PC和手機怎麼預下載？",
+    "seoTitleTw": "異環4月21日預下載幾點開？歷史時間表與入口歸檔",
+    "seoDescriptionTw": "異環 2026 年 4 月 21 日預下載當時幾點開始？這篇整理歷史時間表和平臺入口說明。",
     "answerTw": "這條預下載 FAQ 現在更適合作為**開服階段下載安排的時間歸檔**來看，而不是繼續寫成目前仍在生效的即時提示頁。對現在的使用者來說，更實際的問題通常是：那次預下載當時是什麼時間開放、有哪些平臺入口、以及這條資訊現在更多是歷史參考還是仍有現實操作價值。\n\n更穩妥的理解方式是：\n1. 這類「4 月 21 日幾點開預下載」的資訊，本質上屬於特定開服視窗的歷史安排\n2. 如果你現在在查下載方式，更應該優先看目前官網、商店入口和現版本安裝說明\n3. 這頁的價值更多是回看開服準備流程，而不是繼續把舊時間表當成當前通知\n\n所以這頁現在保留的是**預下載時間線與歷史入口說明**，而不是繼續把開服當天的下載提示當作即時公告。",
     "categoryTw": "遊戲系統"
   },
@@ -2209,12 +2251,17 @@
     "questionTw": "異環推薦用什麼NVIDIA驅動？RT光追怎麼開？",
     "answerTw": "這條 NVIDIA FAQ 現在不該再只寫成「公測前更新某一版驅動」的單點建議。對當前玩家來說，更有用的是把問題拆成幾類：**能不能進遊戲、進去後會不會黑屏／崩潰、以及開光追後值不值得。**\n\n更實用的排查順序是：\n1. **先看相容性**：如果更新後反而更不穩，優先考慮回退到較穩定的 WHQL 驅動，而不是盲目追最新版本\n2. **再看畫面功能**：光追、幀生成或其他高負載選項應按你自己的顯示卡等級來開，不要把它們當成預設必開項\n3. **最後看效能瓶頸**：如果你遇到黑屏、掉幀或顯示異常，問題未必只在驅動本身，也可能和遊戲設定、背景程式或顯示卡控制面板配置有關\n\n所以這頁現在保留的是**NVIDIA 顯示卡的排查思路與功能取捨**，而不是繼續把某個開服時期的驅動版本寫成長期通用答案。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環NVIDIA顯示卡驅動問題 — 最佳驅動版本、崩潰與黑屏修復"
+    "seoTitleTw": "異環NVIDIA顯示卡驅動問題 — 最佳驅動版本、崩潰與黑屏修復",
+    "seoDescriptionTw": "異環NVIDIA顯示卡驅動問題排查：推薦從驅動相容、崩潰黑屏、效能異常和光追設定幾個方向判斷，而不是繼續沿用開服階段的單一版本建議。"
   },
   {
     "id": "launch-characters-full-list",
     "question": "异环公测上线有哪些角色？16位角色完整名单",
     "questionEn": "What characters are available at NTE launch? Complete 16-character roster",
+    "seoTitleZh": "异环公测上线有哪些角色？1.0首发角色名单历史归档",
+    "seoTitleEn": "NTE Launch Characters List — Version 1.0 Roster Archive",
+    "seoDescriptionZh": "异环 1.0 首发上线有哪些角色？这篇整理公测初期角色名单及其历史参考价值。",
+    "seoDescriptionEn": "An archive of the NTE version 1.0 launch roster, useful for understanding the early character lineup and launch-era context.",
     "answer": "异环公测1.0版本确认上线16位可操控角色。S级11位：娜娜莉（Anima/进攻）、咲里（Incantation/支援）、达芙迪尔（Chaos/支援）、安魂曲（Chaos/进攻）、零（Cosmos/进攻）、白藏（Incantation/防护）、法蒂亚（Psyche/进攻）、哈索尔（Lakshana/进攻）、穗鸟（Cosmos/进攻）、赤子（Cosmos/进攻）、九原（Anima/辅助）。A级5位：薄荷（Anima/进攻）、埃德加（Cosmos/生存）、哈尼尔（Psyche，免费赠送）、翳（Lakshana/进攻）、爱德勒（Incantation/生存）。另有新增A级角色奥蕾莉亚和通过都市大亨免费获得的S级角色小志。首发限定UP角色为娜娜莉。",
     "answerEn": "Pages like this are most useful as a **historical launch roster snapshot**, not as a substitute for the current live character list. If you landed here to understand version 1.0, the key point is simply which units were positioned as part of the opening roster and which ones were tied to launch-era acquisition paths.\n\nFor current players, the safer takeaway is:\n1. Use this page to understand launch composition and early roster context\n2. Do not assume the launch list still reflects the full current playable pool\n3. Cross-check any pull planning or team-building decision against the present in-game roster and active banners\n\nSo this page now reads as version-1.0 archive context instead of a timeless current-state roster page.",
     "tags": [
@@ -2232,6 +2279,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環公測上線有哪些角色？16位角色完整名單",
+    "seoTitleTw": "異環公測上線有哪些角色？1.0首發角色名單歷史歸檔",
+    "seoDescriptionTw": "異環 1.0 首發上線有哪些角色？這篇整理公測初期角色名單及其歷史參考價值。",
     "answerTw": "這條「公測上線有哪些角色」FAQ 現在更適合作為**首發版本角色名單歸檔**來看，而不是當前完整角色池入口。對現在的玩家來說，它的主要價值是回顧異環開服時的基礎陣容構成，以及哪些角色屬於最早一批常見培養對象。\n\n如果你現在查這條，通常有兩種需求：\n1. 想回顧首發版本有哪些角色、哪些屬於早期核心隊伍成員\n2. 想確認某個角色是不是開服就有，而不是後續版本新增\n\n所以這頁更合適的理解方式是：它保留的是**1.0 首發角色名單的歷史參考價值**。如果你要看當前全部可用角色、最新限定或版本新增，應優先查看角色庫或最新卡池頁，而不是把這份首發名單當成今天的完整 roster。",
     "categoryTw": "角色相關"
   },
@@ -2257,12 +2306,17 @@
     "questionTw": "異環粉爪聯機是什麼？怎麼和朋友一起玩？",
     "answerTw": "粉爪是異環公測新增的社交聯機系統。玩家可以建立或加入探索小隊，最多4人同時線上探索海特洛市的開放世界。粉爪系統支援即時語音通話、位置共享和協作任務觸發。聯機時寶箱和收集品是獨立的（每個人都能拾取），不會出現爭搶的情況。世界Boss可以多人協作挑戰，降低戰鬥難度。公測版還新增了Pink Paws Heist聯機關卡，提供更豐富的多人玩法。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環粉色爪子合作任務攻略 — 解鎖條件與聯機通關方法"
+    "seoTitleTw": "異環粉色爪子合作任務攻略 — 解鎖條件與聯機通關方法",
+    "seoDescriptionTw": "異環粉色爪子合作任務完整攻略：解鎖條件、組隊方法、聯機通關技巧和專屬獎勵一覽。"
   },
   {
     "id": "prison-system",
     "question": "异环监狱系统是什么？怎么玩？",
     "questionEn": "What is the Anomaly Prison system in NTE? How does it work?",
+    "seoTitleZh": "异环监狱系统是什么？异常监狱玩法与探索定位说明",
+    "seoTitleEn": "NTE Anomaly Prison Guide — Mechanics, Atmosphere & Exploration Role",
+    "seoDescriptionZh": "异环异常监狱怎么玩？这篇整理区域定位、解谜战斗特点和探索时该如何准备。",
+    "seoDescriptionEn": "Learn what the Anomaly Prison area is in NTE, how its exploration and combat differ, and how players should prepare for it.",
     "answer": "异常监狱是异环公测新增的独特探索区域。玩家需要潜入监狱调查异常事件，面对特殊的敌人类型和解谜关卡。监狱区域的氛围营造融合了恐怖和悬疑元素，与主城的都市幻想风格形成鲜明对比。公测版对监狱玩法进行了扩展，增加了更多逃脱方法、任务和奖励。建议携带战斗能力较强的队伍前往，因为监狱内的敌人强度较高。",
     "answerEn": "Anomaly Prison is a unique new exploration zone in NTE. Players must infiltrate the prison to investigate anomalous events, facing special enemy types and puzzle encounters. The atmosphere blends horror and mystery elements, contrasting with the main city urban fantasy style. The launch version expands prison gameplay with more escape methods, quests, and rewards. Bring a strong combat team — enemies inside are challenging.",
     "tags": [
@@ -2275,6 +2329,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環監獄系統是什麼？怎麼玩？",
+    "seoTitleTw": "異環監獄系統是什麼？異常監獄玩法與探索定位說明",
+    "seoDescriptionTw": "異環異常監獄怎麼玩？這篇整理區域定位、解謎戰鬥特點和探索時該如何準備。",
     "answerTw": "異常監獄是異環公測新增的獨特探索區域。玩家需要潛入監獄調查異常事件，面對特殊的敵人型別和解謎關卡。監獄區域的氛圍營造融合了恐怖和懸疑元素，與主城的都市幻想風格形成鮮明對比。公測版對監獄玩法進行了擴充套件，增加了更多逃脫方法、任務和獎勵。建議攜帶戰鬥能力較強的隊伍前往，因為監獄內的敵人強度較高。",
     "categoryTw": "地圖探索"
   },
@@ -2282,6 +2338,10 @@
     "id": "aurelia-launch-character",
     "question": "异环奥蕾莉亚是谁？公测新A级角色介绍",
     "questionEn": "Who is Aurelia in NTE? New A-rank launch character",
+    "seoTitleZh": "异环奥蕾莉亚是谁？A级角色定位与培养价值判断",
+    "seoTitleEn": "Who Is Aurelia in NTE? A-Rank Role, Build Value & Launch Context",
+    "seoDescriptionZh": "异环奥蕾莉亚值不值得关注？这篇整理她作为 A 级角色的定位、补位价值和培养判断思路。",
+    "seoDescriptionEn": "Learn who Aurelia is in NTE, how to think about her A-rank role, and whether she offers real roster value for your account.",
     "answer": "奥蕾莉亚（Aurelia）这条 FAQ 原来典型地停留在“公测后确认”的预告口吻，现在应该按**角色页的当前用途**来理解。对今天的搜索用户来说，更重要的不是她当年是不是首发新 A 级，而是她在现有账号里能不能承担过渡位、功能位，或者某种低成本补位价值。\n\n如果你是为了判断她值不值得养，建议先看三件事：\n1. 她能不能补你当前阵容缺的定位，而不是只看稀有度\n2. 你是否需要一个投入成本更低、上手更快的过渡角色\n3. 她在你现有资源下，能不能比同定位角色更快成型\n\n所以这页现在保留的是**角色培养判断逻辑**，而不是继续用“即将确认技能详情”的旧预热文案。",
     "answerEn": "Aurelia is a new A-rank character added for NTE launch. She debuted during the livestream preview and did not appear in any previous beta test. Specific attribute, weapon type, and skill details will be confirmed after launch. As a new character, Aurelia likely features unique skill mechanics to expand team composition variety. Check in-game character previews and our character detail pages for the latest information.",
     "tags": [
@@ -2296,6 +2356,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環奧蕾莉亞是誰？公測新A級角色介紹",
+    "seoTitleTw": "異環奧蕾莉亞是誰？A級角色定位與培養價值判斷",
+    "seoDescriptionTw": "異環奧蕾莉亞值不值得關注？這篇整理她作為 A 級角色的定位、補位價值和培養判斷思路。",
     "answerTw": "奧蕾莉亞（Aurelia）這條 FAQ 原來典型地停留在「公測後確認」的預告口吻，現在應該按**角色頁的當前用途**來理解。對今天的搜尋使用者來說，更重要的不是她當年是不是首發新 A 級，而是她在現有帳號裡能不能承擔過渡位、功能位，或者某種低成本補位價值。\n\n如果你是為了判斷她值不值得養，建議先看三件事：\n1. 她能不能補你當前陣容缺的定位，而不是只看稀有度\n2. 你是否需要一個投入成本更低、上手更快的過渡角色\n3. 她在你現有資源下，能不能比同定位角色更快成型\n\n所以這頁現在保留的是**角色培養判斷邏輯**，而不是繼續用「即將確認技能詳情」的舊預熱文案。",
     "categoryTw": "角色相關"
   },
