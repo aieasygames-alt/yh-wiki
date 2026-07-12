@@ -301,6 +301,17 @@ export default function ExplorerPage() {
         </p>
       </div>
 
+      <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-base font-semibold text-white">
+          {isZh ? "探索伴侣最适合什么时候开？" : "When is the explorer companion most useful?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZh
+            ? "当你已经知道大概想刷哪一类资源，但不想在大地图里自己手动拼路线时，这个页面最有价值。它适合做区域清扫、每日补漏和阶段性全收集，尤其适合版本中后期回头补齐遗漏资源。"
+            : "This page is most valuable when you already know what kind of resources you want, but do not want to hand-build the route inside the map. It works best for regional sweeps, daily cleanup, and late-patch collection catch-up when you are filling the gaps left behind earlier."}
+        </p>
+      </section>
+
       {/* Tab navigation */}
       <div className="flex gap-2 mb-6">
         {tabs.map((tab) => (
@@ -686,6 +697,29 @@ export default function ExplorerPage() {
         regionName={currentRegionName}
         lang={lang}
       />
+
+      <section className="mt-8 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZh ? "扫图前先确认" : "Check this before a sweep"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZh ? "先限定区域或类型，不然路线会又长又杂。" : "Limit the region or marker type first, or the route becomes too long and noisy."}</li>
+            <li>{isZh ? "确认你的进度记录是新的，这会直接影响路径质量。" : "Make sure your progress data is current, because route quality depends on it."}</li>
+            <li>{isZh ? "把每日、每周与一次性收集拆开处理，效率更稳定。" : "Treat daily, weekly, and one-time pickups separately for steadier efficiency."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZh ? "这页特别适合解决的事" : "What this page solves especially well"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZh ? "帮你把零散补漏变成一条能执行的路线。" : "Turning scattered cleanup into an executable route."}</li>
+            <li>{isZh ? "帮助多人账号或多设备玩家保持统一进度认知。" : "Helping multi-device or shared-account players keep progress aligned."}</li>
+            <li>{isZh ? "减少因为漏点、回头路和重复检查带来的时间浪费。" : "Reducing wasted time from missed markers, backtracking, and duplicate checks."}</li>
+          </ul>
+        </div>
+      </section>
 
       {/* SEO text block */}
       <div className="mt-8 text-xs text-gray-600 max-w-3xl space-y-2">

@@ -268,6 +268,19 @@ export default function MapPage() {
         </div>
       </div>
 
+      {!isFullscreen && (
+        <section className="mb-4 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "这张地图最适合怎么用？" : "What is the best way to use this map?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(lang)
+              ? "最有效的方式不是一次把所有标点都打开，而是先按区域和材料类型缩小范围，再配合隐藏已收集功能把当前版本最急需的路线刷完。这个页面更适合做实战探索和补漏，而不是只当作静态坐标表浏览。"
+              : "The best workflow is not turning on every marker at once. Narrow the map by region and marker type first, then use Hide Collected to finish the routes that matter most for your current patch goals. This page is meant for active exploration and cleanup, not just passive coordinate browsing."}
+          </p>
+        </section>
+      )}
+
       {/* Map selector — flat scrolling buttons */}
       {maps.length > 1 && (
         <div className={`mb-4 ${isFullscreen ? "hidden" : ""}`}>
@@ -495,6 +508,31 @@ export default function MapPage() {
       )}
 
       {/* SEO text block — hidden in fullscreen */}
+      {!isFullscreen && (
+        <section className="mt-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(lang) ? "高效跑图建议" : "Efficient route habits"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(lang) ? "先按材料或任务目标筛一遍，再决定是否切换区域。" : "Filter by material or objective first, then decide whether a region switch is worth it."}</li>
+              <li>{isZhLocale(lang) ? "把高价值标点和顺路收集分开看，路线会更清楚。" : "Separate high-value pickups from optional detours so the route stays clean."}</li>
+              <li>{isZhLocale(lang) ? "补漏时优先隐藏已收集点，避免重复来回。" : "Hide collected markers during cleanup to avoid redundant backtracking."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(lang) ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(lang) ? "一次加载过多标记，结果反而看不出真正要跑的路线。" : "Showing too many marker types at once until the useful route disappears."}</li>
+              <li>{isZhLocale(lang) ? "只记坐标，不记区域层级和附近传送点。" : "Remembering coordinates but forgetting region layers or nearby teleports."}</li>
+              <li>{isZhLocale(lang) ? "不记录进度，导致每次回图都像重新开始。" : "Skipping progress tracking so every revisit feels like starting over."}</li>
+            </ul>
+          </div>
+        </section>
+      )}
+
       {!isFullscreen && (
         <div className="mt-8 text-xs text-gray-600 max-w-3xl space-y-2">
           <p>
