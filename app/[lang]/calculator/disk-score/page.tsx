@@ -149,6 +149,29 @@ export default function DiskScorePage() {
           </p>
         </section>
 
+        <section className="mb-6 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "评分前先看什么" : "What should you check before scoring?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "先选对角色定位预设，输出、辅助和均衡的权重判断完全不同。" : "Pick the correct role preset first, because DPS, support, and balanced priorities weight the same substats very differently."}</li>
+              <li>{isZh ? "确认这件装备的主词条和套装方向没有跑偏，再去看副词条效率。" : "Make sure the main stat and set direction are already correct before worrying about substat efficiency."}</li>
+              <li>{isZh ? "把它当成筛选工具，而不是最终定生死的唯一分数。" : "Use it as a filtering tool rather than the only final verdict on a piece."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "只因为分数高就保留，忽略它可能根本不适合你正在养的角色。" : "Keeping a piece only because the score is high even though it may not fit the character you are building."}</li>
+              <li>{isZh ? "把不同定位的装备直接横向比较，导致判断失真。" : "Comparing pieces across different roles as if the same score meant the same value."}</li>
+              <li>{isZh ? "看见低分就立刻分解，没有结合当前账号资源和过渡需求。" : "Scrapping lower-scoring pieces immediately without considering account stage and temporary needs."}</li>
+            </ul>
+          </div>
+        </section>
+
         {/* Preset weights */}
         <div className="flex gap-2 mb-4">
           {Object.entries(PRESET_WEIGHTS).map(([key, pw]) => (

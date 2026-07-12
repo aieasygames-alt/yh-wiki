@@ -131,6 +131,29 @@ export default function StatsCalculatorPage({
           </p>
         </section>
 
+        <section className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "看面板时先抓什么" : "What should you look at first?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "先确认角色更吃暴击、攻击还是属性伤，不同角色的最优平衡点并不一样。" : "Identify whether the character benefits most from crit, ATK, or elemental scaling first, because the balance point is not universal."}</li>
+              <li>{isZh ? "把武器基础攻击和角色定位一起考虑，不要单独看某一个百分比数值。" : "Read the percentages together with weapon base ATK and role instead of judging one stat in isolation."}</li>
+              <li>{isZh ? "如果你准备继续深入比较，再把这套面板带去 DPS 计算器看实际循环收益。" : "If the build survives this first pass, move it into the DPS calculator to compare actual rotation value."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "只追单项面板极高，却忽略整体乘区已经失衡。" : "Chasing one extremely high stat while the overall multiplier balance collapses."}</li>
+              <li>{isZh ? "把不同武器下的面板直接硬比，忽略基础攻击差异。" : "Comparing stat sheets across different weapons without accounting for base ATK differences."}</li>
+              <li>{isZh ? "看到平均伤害提升，就默认实战循环一定同步提升。" : "Assuming a better average hit always translates into a better real rotation."}</li>
+            </ul>
+          </div>
+        </section>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Input Panel */}
           <div className="space-y-4">

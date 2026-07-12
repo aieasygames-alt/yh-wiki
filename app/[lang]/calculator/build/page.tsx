@@ -125,6 +125,29 @@ export default function BuildCalculatorPage() {
         </p>
       </section>
 
+      <section className="mb-8 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "看配装时先确认什么" : "What should you confirm first?"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(lang) ? "先分清角色当前是主输出、副输出，还是功能位，不同定位优先词条完全不同。" : "Decide whether the character is your main DPS, sub-DPS, or utility slot first, because the stat priorities change with the role."}</li>
+            <li>{isZhLocale(lang) ? "把你现有武器、队伍和资源进度一起带进来，不要只看理想毕业模板。" : "Compare the build against your actual weapons, team context, and resource state instead of a perfect theoretical template only."}</li>
+            <li>{isZhLocale(lang) ? "如果你只是刚入坑，先确保主词条和队伍方向正确，再追求细化副词条。" : "If you are still early-game, lock in the right main stat and team direction before chasing perfect substats."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "常见误区" : "Common mistakes"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(lang) ? "把推荐配装当成唯一答案，忽略了不同武器和队友会改变词条收益。" : "Treating the listed build as the only valid answer and ignoring how weapons and teammates shift stat value."}</li>
+            <li>{isZhLocale(lang) ? "只盯副词条强度，却没先把主词条、套装方向和配队逻辑理顺。" : "Over-focusing on substats before fixing the main stat, set direction, and team logic."}</li>
+            <li>{isZhLocale(lang) ? "为了追毕业强度把所有资源压给一个角色，反而拖慢整队成型。" : "Dumping every resource into one character for a dream build and slowing down the full team's progress."}</li>
+          </ul>
+        </div>
+      </section>
+
       {/* Filters */}
       <div className="flex flex-wrap gap-2 mb-6">
         <button
