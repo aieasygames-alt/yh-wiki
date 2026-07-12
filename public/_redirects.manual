@@ -1,7 +1,3 @@
-# Anime Destiny — English-only, redirect bare /anime-destiny/* to /en/anime-destiny/*
-/anime-destiny /en/anime-destiny/ 301
-/anime-destiny/* /en/anime-destiny/:1 301
-
 # Root redirect - permanent
 / /zh/ 301
 

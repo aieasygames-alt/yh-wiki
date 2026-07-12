@@ -214,15 +214,6 @@ with open("public/sitemap-pages.xml", "w", encoding="utf-8") as f:
     f.write(make_urlset(urls))
 print(f"sitemap-pages.xml: {len(urls)} URLs")
 
-# === sitemap-anime-destiny.xml (update lastmod only) ===
-with open("public/sitemap-anime-destiny.xml", encoding="utf-8") as f:
-    ad_content = f.read()
-ad_content = re.sub(r"<lastmod>[^<]+</lastmod>", f"<lastmod>{NOW}</lastmod>", ad_content)
-with open("public/sitemap-anime-destiny.xml", "w", encoding="utf-8") as f:
-    f.write(ad_content)
-ad_count = ad_content.count("<url>")
-print(f"sitemap-anime-destiny.xml: {ad_count} URLs (updated lastmod)")
-
 # === sitemap.xml (index) ===
 sub_sitemaps = [
     make_sub_sitemap("pages"),
@@ -231,7 +222,6 @@ sub_sitemaps = [
     make_sub_sitemap("vehicles"),
     make_sub_sitemap("guides"),
     make_sub_sitemap("other"),
-    make_sub_sitemap("anime-destiny"),
 ]
 with open("public/sitemap.xml", "w", encoding="utf-8") as f:
     f.write(make_sitemapindex(sub_sitemaps))
@@ -240,8 +230,7 @@ print(f"sitemap.xml: index with {len(sub_sitemaps)} sub-sitemaps")
 # Total count
 total = 0
 for fn in ["sitemap-pages.xml", "sitemap-characters.xml", "sitemap-weapons.xml",
-           "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml",
-           "sitemap-anime-destiny.xml"]:
+           "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml"]:
     with open(f"public/{fn}", encoding="utf-8") as f:
         total += f.read().count("<url>")
 print(f"\nTotal URLs across all sitemaps: {total}")

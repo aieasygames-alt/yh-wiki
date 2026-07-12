@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     title,
     description,
     alternates: hreflangAlternates("changelog", lang),
-    openGraph: { title, description },
+    openGraph: { title, description, type: "website" },
   };
 }
 

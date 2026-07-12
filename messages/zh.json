@@ -157,7 +157,7 @@
   },
   "materials": {
     "title": "材料列表",
-    "description": "异环全部材料获取方式和使用角色",
+    "description": "异环全部材料获取方式、掉落来源、用途说明与对应角色养成需求汇总。",
     "source": "获取方式",
     "usedBy": "使用角色",
     "rarity": "稀有度",
@@ -165,7 +165,9 @@
   },
   "calculator": {
     "title": "异环升级计算器",
-    "description": "计算异环角色升级所需材料数量",
+    "description": "计算异环角色升级、突破与技能养成所需材料数量，方便规划每日体力。",
+    "seoTitle": "异环升级计算器（2026）— 角色养成材料、等级消耗一键计算",
+    "seoDescription": "异环升级计算器：输入角色当前等级与目标等级，快速计算突破、升级与技能养成材料消耗，适合规划每日体力与刷本路线。",
     "selectCharacter": "选择角色",
     "currentLevel": "当前等级",
     "targetLevel": "目标等级",
@@ -182,7 +184,9 @@
   },
   "buildCalculator": {
     "title": "Build 计算器",
-    "description": "查看异环角色推荐Build、主副词条、武器和队友搭配",
+    "description": "查看异环角色推荐 Build、主副词条优先级、武器选择和队友搭配方案。",
+    "seoTitle": "异环 Build 计算器（2026）— 角色配装、词条、武器与配队推荐",
+    "seoDescription": "查看异环角色 Build 推荐：主副词条优先级、武器选择、卡带搭配与队友组合，快速找到适合当前版本的养成方向。",
     "selectCharacter": "选择角色",
     "selectHint": "请选择一个角色查看推荐 Build",
     "filterHint": "使用上方筛选器按属性或稀有度过滤",
@@ -202,6 +206,8 @@
   "gacha": {
     "title": "异环抽卡模拟器 — 保底机制、抽卡概率在线模拟",
     "description": "异环抽卡模拟器，模拟限定/常驻/武器池抽卡。查看异环保底机制、软保底概率和抽卡概率统计。角色池90保底不歪，期望53.5抽！",
+    "seoTitle": "异环抽卡模拟器（2026）— 保底机制、概率统计、限定池在线模拟",
+    "seoDescription": "异环抽卡模拟器：在线模拟限定池、常驻池、武器池抽卡，查看90抽保底、无50/50机制、软保底区间与出金统计，提前规划抽卡资源。",
     "disclaimer": "非官方概率，仅供娱乐。实际游戏概率以官方公告为准。",
     "pull1": "单抽 x1",
     "pull10": "十连 x10",
@@ -457,14 +463,14 @@
     "faq": "常见问题"
   },
   "lore": {
-    "title": "世界观",
-    "description": "异环世界观设定集，了解异能者、奇物、异象等核心设定",
+    "title": "异环世界观设定集（2026）— 异能者、奇物、异象与海特洛城背景整理",
+    "description": "异环世界观设定集：系统整理异能者、奇物、异象、组织势力与海特洛城背景，适合补剧情、查术语和梳理角色关系。",
     "relatedCharacters": "相关角色",
     "relatedLocations": "相关地点"
   },
   "locations": {
     "title": "地点",
-    "description": "异环全地图地点介绍，探索海特洛各区域",
+    "description": "异环全地图地点、区域与探索内容索引，方便快速查找海特洛城各区域信息。",
     "relatedCharacters": "相关角色",
     "relatedLore": "相关世界观"
   },
@@ -626,7 +632,7 @@
   "blog": {
     "title": "博客",
     "seoTitle": "异环游戏攻略博客 - 最新资讯与深度攻略",
-    "description": "异环（Neverness to Everness）最新攻略博客，涵盖游戏评测、版本更新、角色攻略和玩法技巧。",
+    "description": "异环（Neverness to Everness）最新攻略博客，涵盖版本更新、角色攻略、活动前瞻、玩法技巧与资讯整理。",
     "tags": {
       "comparison": "游戏对比",
       "genshin": "原神",
@@ -675,8 +681,8 @@
   },
   "changelog": {
     "title": "版本日志",
-    "seoTitle": "版本更新日志 - 异环游戏",
-    "description": "异环（Neverness to Everness）版本更新日志，包含新角色、新功能、系统优化等完整更新内容。"
+    "seoTitle": "异环版本更新日志（2026）— 新角色、卡池、系统优化与活动改动汇总",
+    "description": "异环版本更新日志汇总：查看每个版本的新角色、卡池变动、活动安排、系统优化与修复内容，快速了解版本更新重点。"
   },
   "changelogDetails": {
     "major": "大版本",
@@ -691,7 +697,7 @@
   },
   "compare": {
     "title": "游戏对比",
-    "description": "异环与原神、鸣潮等热门游戏对比评测",
+    "description": "异环与原神、鸣潮等热门游戏在玩法、抽卡、开放世界和养成上的差异对比。",
     "nteVsGenshin": "异环 vs 原神",
     "nteVsWuwa": "异环 vs 鸣潮",
     "nteVsAnanta": "NTE vs 无限大",
@@ -865,7 +871,9 @@
   },
   "explorer": {
     "title": "探索伴侣",
-    "description": "优化收集路线，追踪探索进度",
+    "description": "优化收集路线、追踪探索进度，并整理地图扫图和资源补漏顺序。",
+    "seoTitle": "异环探索伴侣（2026）— 扫图路线规划、收集进度追踪、每日点位整理",
+    "seoDescription": "异环探索伴侣帮助你规划扫图路线、追踪区域收集进度、整理每日与每周刷新点位，适合高效补图和资源清理。",
     "tabDashboard": "总览",
     "tabSweep": "扫图模式",
     "tabDaily": "每日/每周",
@@ -914,7 +922,7 @@
     "title": "配队构建器",
     "subtitle": "构建你的队伍，分析协同效果，找到最佳阵容",
     "seoTitle": "异环配队构建器 - 最佳阵容搭配与协同分析",
-    "seoDescription": "构建和优化异环队伍阵容。分析角色协同效果，查看推荐配装，分享你的队伍。",
+    "seoDescription": "构建和优化异环队伍阵容，分析角色协同效果、功能补位与推荐配装，快速找到适合当前版本的队伍方案。",
     "yourTeam": "你的队伍",
     "slot": "位置",
     "remove": "移除",
@@ -932,7 +940,7 @@
     "title": "效果词典",
     "subtitle": "一站式浏览所有武器效果和卡带套装加成",
     "seoTitle": "异环效果词典（2026）— 元素反应、武器效果、卡带套装大全",
-    "seoDescription": "异环(NTE)完整效果数据库：元素反应机制详解、武器被动效果、卡带套装加成一览。支持搜索和筛选。",
+    "seoDescription": "异环(NTE)完整效果数据库：元素反应机制详解、武器被动效果、卡带套装加成与常见状态效果一览，支持搜索和筛选。",
     "searchPlaceholder": "搜索效果...",
     "elementalReactions": "元素反应机制",
     "elementalReactionsDesc": "异环的6种元素属性之间存在独特的反应关系。理解反应机制是构建高效队伍的关键。",
@@ -954,7 +962,7 @@
     "title": "都市大亨攻略",
     "subtitle": "都市大亨经营系统完整攻略 - 免费S级角色和武器奖励",
     "seoTitle": "异环都市大亨攻略 - 免费S级赤子(小智)与等级奖励",
-    "seoDescription": "都市大亨完整攻略。Lv.30获得免费S级赤子(小智)6+5满配。全等级奖励、技巧和策略。",
+    "seoDescription": "都市大亨完整攻略：Lv.30 获得免费 S 级赤子(小智)6+5满配，整理全等级奖励、经营技巧与收益策略。",
     "overviewTitle": "系统简介",
     "keyReward": "核心奖励：免费S级角色",
     "exclusiveWeapon": "专属武器奖励",

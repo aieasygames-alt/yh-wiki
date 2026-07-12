@@ -91,7 +91,7 @@
   },
   "materials": {
     "title": "NTE Materials",
-    "description": "All Neverness to Everness material sources and usage",
+    "description": "All Neverness to Everness material sources, farming uses, and character upgrade requirements in one place.",
     "source": "Source",
     "usedBy": "Used By",
     "rarity": "Rarity",
@@ -99,7 +99,9 @@
   },
   "calculator": {
     "title": "NTE Leveling Calculator",
-    "description": "Calculate Neverness to Everness character leveling material requirements",
+    "description": "Calculate NTE character leveling, ascension, and upgrade material requirements for your farming plan.",
+    "seoTitle": "NTE Leveling Calculator (2026) - Character EXP, Ascension & Upgrade Materials",
+    "seoDescription": "Use the NTE leveling calculator to estimate character EXP, ascension, and upgrade material costs from your current level to your target build plan.",
     "selectCharacter": "Select Character",
     "currentLevel": "Current Level",
     "targetLevel": "Target Level",
@@ -116,7 +118,9 @@
   },
   "buildCalculator": {
     "title": "NTE Build Calculator",
-    "description": "View NTE character builds, main stats, sub stats, weapons and team comps",
+    "description": "View NTE character builds, main stats, substats, weapon options, and team comps for each unit.",
+    "seoTitle": "NTE Build Calculator (2026) - Best Builds, Stats, Weapons & Team Comps",
+    "seoDescription": "Browse recommended NTE builds with main-stat priority, substats, weapon choices, and team comps so you can plan the best setup for each character.",
     "selectCharacter": "Select Character",
     "selectHint": "Select a character to view recommended builds",
     "filterHint": "Use the filters above to sort by attribute or rarity",
@@ -135,7 +139,9 @@
   },
   "gacha": {
     "title": "NTE Gacha Simulator",
-    "description": "Simulate Neverness to Everness wishes and test your luck!",
+    "description": "Simulate NTE limited, standard, beginner, and weapon banners to test pity, rates, and pull outcomes.",
+    "seoTitle": "NTE Gacha Simulator (2026) - Pity System, Pull Rates & Banner Planner",
+    "seoDescription": "Simulate NTE limited, standard, beginner, and weapon banners. Check pity behavior, no-50/50 character pulls, rate expectations, and banner planning before spending resources.",
     "disclaimer": "Unofficial rates for entertainment only. Actual rates may vary.",
     "pull1": "Wish x1",
     "pull10": "Wish x10",
@@ -335,8 +341,8 @@
     "tableOfContents": "Table of Contents"
   },
   "lore": {
-    "title": "NTE Lore",
-    "description": "Neverness to Everness lore - Espers, Oddities, Anomalies and the world",
+    "title": "NTE Lore (2026) - Espers, Oddities, Anomalies & Hethereau World Guide",
+    "description": "Explore Neverness to Everness lore with explainers on Espers, Oddities, Anomalies, factions, and the wider Hethereau setting.",
     "relatedCharacters": "Related Characters",
     "relatedLocations": "Related Locations"
   },
@@ -405,8 +411,8 @@
   },
   "changelog": {
     "title": "Changelog",
-    "seoTitle": "Version Changelog - NTE",
-    "description": "Neverness to Everness version changelog with new characters, features, system optimizations and more."
+    "seoTitle": "NTE Changelog (2026) - New Characters, Banners, Events & Patch Updates",
+    "description": "Track Neverness to Everness patch notes with new characters, banner changes, events, system updates, balance notes, and version-by-version highlights."
   },
   "compare": {
     "title": "Compare",
@@ -865,7 +871,9 @@
   },
   "explorer": {
     "title": "Exploration Companion",
-    "description": "Optimize collection routes and track exploration progress",
+    "description": "Optimize collection routes, track exploration progress, and organize map cleanup goals across the city.",
+    "seoTitle": "NTE Exploration Companion (2026) - Route Planner, Map Cleanup & Progress Tracker",
+    "seoDescription": "Plan efficient NTE collection routes, track map cleanup progress, and organize daily or weekly marker farming with the Exploration Companion tool.",
     "tabDashboard": "Dashboard",
     "tabSweep": "Sweep Mode",
     "tabDaily": "Daily / Weekly",

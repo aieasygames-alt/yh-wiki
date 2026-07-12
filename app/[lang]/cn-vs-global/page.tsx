@@ -14,8 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环国服 vs 国际服区别对比：上线时间、卡池顺序、定价、评分全解析（2026）", "NTE CN vs Global Server: Launch Dates, Banner Order, Pricing & Ratings Compared (2026)");
-  const description = localizedText(locale, "异环国服和国际服（全球服）有什么区别？本文对比两个服务器的上线时间差、卡池顺序、定价、TapTap评分（7.0 vs 9.0）、内容差异，帮你决定玩哪个服。", "What's the difference between NTE's CN server and global server? This guide compares launch dates, banner order, pricing, TapTap ratings (7.0 vs 9.0), and content differences to help you pick a server.");
+  const title = localizedText(locale, "异环国服 vs 国际服区别对比：语言、账号、版本节奏、定价与评分全解析（2026）", "NTE CN vs Global Server: Language, Accounts, Patch Timing, Pricing & Ratings (2026)", "異環國服 vs 國際服差異對比：語言、帳號、版本節奏、定價與評分解析（2026）");
+  const description = localizedText(locale, "异环国服和国际服（全球服）有什么区别？本文对比语言支持、账号互通、版本节奏、定价、TapTap评分与内容差异，帮你决定该玩哪个服。", "What's the difference between NTE's CN server and global server? This guide compares language support, account separation, patch timing, pricing, ratings, and content differences to help you pick a server.", "異環國服和國際服（全球服）有什麼差別？本文比較語言支援、帳號互通、版本節奏、定價、評分與內容差異，幫你決定該玩哪個服。");
   return {
     title,
     description,
@@ -60,7 +60,7 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
     <>
       <ArticleJsonLd
         title={isZh ? "异环国服 vs 国际服区别对比" : "NTE CN vs Global Server Comparison"}
-        description={isZh ? "上线时间、卡池、定价、评分差异" : "Launch dates, banners, pricing, ratings"}
+        description={localizedText(locale, "语言、账号、版本节奏、定价与评分差异", "Language support, account rules, patch timing, pricing, and ratings", "語言、帳號、版本節奏、定價與評分差異")}
         url={`https://nteguide.com/${lang}/cn-vs-global`}
       />
       <FaqPageJsonLd faqs={faqs} lang={locale} />
@@ -76,12 +76,15 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
             {isZh ? "2026-06-19 更新" : "Updated June 19, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环国服 vs 国际服：到底有什么区别？" : "NTE CN vs Global Server: What's the Difference?"}
+            {localizedText(locale, "异环国服 vs 国际服：到底有什么区别？", "NTE CN vs Global Server: What's the Difference?", "異環國服 vs 國際服：到底差在哪？")}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
-            {isZh
-              ? "异环同时运营国服（完美世界发行）和国际服两个独立服务器。新玩家最常问的就是该选哪个服。本文从上线时间、卡池顺序、定价、评分、内容差异五个维度完整对比，帮你做出选择。"
-              : "Neverness to Everness runs two separate servers — CN (published by Perfect World) and global. New players' most common question is which server to pick. This guide compares them across launch dates, banner order, pricing, ratings, and content differences so you can decide."}
+            {localizedText(
+              locale,
+              "异环同时运营国服（完美世界发行）和国际服两个独立服务器。新玩家最常问的是该选哪个服。比起死记某个版本差几天，这页更重要的是帮你判断语言、账号独立、版本节奏和朋友分布哪个更影响你的长期体验。",
+              "Neverness to Everness runs separate CN and global servers. For most new players, the more important question is not memorizing which patch was a few days earlier, but deciding which server better fits your language needs, account expectations, patch timing, and friend group.",
+              "異環同時營運國服（完美世界發行）和國際服兩個獨立伺服器。新玩家最常問的是該選哪個服。比起死背某個版本差幾天，這頁更重要的是幫你判斷語言、帳號獨立、版本節奏和朋友分布哪個更影響長期體驗。"
+            )}
           </p>
         </section>
 
@@ -90,11 +93,11 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
           items={[
             {
               label: isZh ? "1.0 公测：" : "1.0 Launch:",
-              value: isZh ? "国服 4/23，全球服 4/29（国服先开）" : "CN Apr 23, Global Apr 29 (CN first)",
+              value: localizedText(locale, "国服 2026-04-23，全球服 2026-04-29", "CN Apr 23, 2026; Global Apr 29, 2026", "國服 2026-04-23，全球服 2026-04-29"),
             },
             {
-              label: isZh ? "1.1+ 时差：" : "1.1+ Gap:",
-              value: isZh ? "全球服比国服早约 8 天" : "Global ~8 days ahead of CN",
+              label: isZh ? "后续版本：" : "Later Patches:",
+              value: localizedText(locale, "两个发行线常出现约一周级别时间差，具体以当期公告为准", "The two publishing tracks often drift by about a week; always verify the current patch notice", "兩條發行線常出現約一週級別的時間差，具體仍以當期公告為準"),
             },
             {
               label: isZh ? "TapTap 评分：" : "TapTap Rating:",
@@ -109,6 +112,14 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">{isZh ? "一、上线时间对比" : "1. Launch Dates"}</h2>
+          <p className="text-gray-400 mb-3 leading-relaxed">
+            {localizedText(
+              locale,
+              "最稳定、最不容易误导新玩家的结论是：1.0 公测日期已经确定，但后续版本节奏可能因为发行、审核和活动排期产生浮动。因此选服时不要只看某一版快几天，而要看你更在意语言、朋友、充值环境还是更新速度。",
+              "The most stable takeaway is that 1.0 launch dates are fixed, but later patch timing can drift because of publishing, review, and event scheduling. When choosing a server, it is safer to care more about language, friends, payment region, and long-term cadence than one isolated patch gap.",
+              "最穩定、也最不容易誤導新玩家的結論是：1.0 公測日期已經確定，但後續版本節奏可能因發行、審核與活動排期而浮動。所以選服時不要只看某一版快幾天，而要看你更在意語言、朋友、支付環境還是更新速度。"
+            )}
+          </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-800 rounded-lg overflow-hidden">
               <thead className="bg-gray-800/60">
@@ -120,26 +131,20 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-800">
-                <tr><td className="p-3">1.0 公测</td><td className="p-3">2026-04-23</td><td className="p-3">2026-04-29</td><td className="p-3 text-amber-400">{isZh ? "国服早6天" : "CN 6d earlier"}</td></tr>
-                <tr><td className="p-3">1.1 游梦洄廊</td><td className="p-3">2026-05-28</td><td className="p-3">2026-06-03</td><td className="p-3 text-amber-400">{isZh ? "国服早6天" : "CN 6d earlier"}</td></tr>
-                <tr><td className="p-3">1.2 九百九十九夜</td><td className="p-3">2026-07-02</td><td className="p-3">2026-07-09</td><td className="p-3 text-amber-400">{isZh ? "国服早约1周" : "CN ~1wk earlier"}</td></tr>
-                <tr><td className="p-3">1.3（预计）</td><td className="p-3">2026-07 上旬</td><td className="p-3">2026-07 中旬</td><td className="p-3 text-gray-500">{isZh ? "待定" : "TBD"}</td></tr>
+                <tr><td className="p-3">1.0</td><td className="p-3">2026-04-23</td><td className="p-3">2026-04-29</td><td className="p-3 text-amber-400">{localizedText(locale, "国服早 6 天", "CN 6 days earlier", "國服早 6 天")}</td></tr>
+                <tr><td className="p-3">{isZh ? "后续版本节奏" : "Later patch cadence"}</td><td className="p-3">{localizedText(locale, "通常与全球服错开约一周", "Often offset by around one week", "通常與全球服錯開約一週")}</td><td className="p-3">{localizedText(locale, "通常与国服错开约一周", "Often offset by around one week", "通常與國服錯開約一週")}</td><td className="p-3 text-gray-500">{localizedText(locale, "以官方公告为准", "Varies by patch", "以官方公告為準")}</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-500 mt-3">
-            {isZh
-              ? "注意：1.0 时国服先开，但从 1.2 开始全球服反超先开。推测是两个发行线的审核节奏差异。"
-              : "Note: CN launched first for 1.0, but from 1.2 onward global leads. Likely due to different review cadences between the two publishing tracks."}
+            {localizedText(locale, "如果你关心某个具体版本的先后顺序，建议进入当前卡池页或版本日志页再看当期日期，不要把旧版本时间线当作长期固定规律。", "If you care about one specific patch, verify that version on the live banner schedule or changelog instead of treating an older release gap as a permanent rule.", "如果你關心某個具體版本的先後順序，建議再到當前卡池頁或版本日誌頁查看當期日期，不要把舊版本時間線當成長期固定規律。")}
           </p>
         </section>
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">{isZh ? "二、卡池顺序与日期" : "2. Banner Schedule"}</h2>
           <p className="text-gray-400 mb-3 leading-relaxed">
-            {isZh
-              ? "两个服务器的卡池角色顺序基本一致，但因为版本上线时间错开，具体日期会相差约 8 天。以 1.2 为例："
-              : "Both servers run the same banner character order, but dates shift ~8 days due to staggered version launches. Version 1.2 example:"}
+            {localizedText(locale, "两个服务器的角色顺序通常保持一致，但具体日期可能因版本上线时间错开而不同。真正该看的不是旧版本固定差值，而是你当前想抽的那一期是否已经在目标服务器开启。", "Both servers usually preserve the same banner character order, but exact dates can drift with patch timing. What matters most is whether the banner you want is already live on your target server right now.", "兩個伺服器的角色順序通常保持一致，但具體日期可能因版本上線時間錯開而不同。真正該看的不是舊版本固定差值，而是你現在想抽的那一期是否已在目標伺服器開啟。")}
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-800 rounded-lg overflow-hidden">

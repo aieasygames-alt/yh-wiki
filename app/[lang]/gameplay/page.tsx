@@ -124,7 +124,11 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
     <>
       <ArticleJsonLd
         title={isZhLocale(locale) ? "异环游戏玩法概览" : "Neverness to Everness Gameplay Overview"}
-        description={isZhLocale(locale) ? "开放世界、战斗、抽卡、载具等核心玩法介绍" : "Complete gameplay overview: open world, combat, gacha, vehicles and more"}
+        description={isZhLocale(locale)
+          ? (locale === "tw"
+            ? "異環核心玩法總覽：開放世界探索、戰鬥、抽卡、載具、房屋與多人聯機介紹"
+            : "异环核心玩法总览：开放世界探索、战斗、抽卡、载具、房屋与多人联机介绍")
+          : "Complete gameplay overview: open world, combat, gacha, vehicles, housing, and more"}
         url={`https://nteguide.com/${lang}/gameplay`}
       />
       {faqs.length > 0 && <FaqPageJsonLd faqs={faqs} lang={locale} />}
@@ -144,7 +148,9 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
         </h1>
         <p className="text-sm text-gray-500 mb-6">
           {isZhLocale(locale)
-            ? "异环（NTE）核心玩法系统全面介绍：开放世界探索、元素战斗、抽卡、载具、房屋建造和多人联机。"
+            ? (locale === "tw"
+              ? "異環（NTE）核心玩法系統全面介紹：開放世界探索、元素戰鬥、抽卡、載具、房屋建造與多人聯機。"
+              : "异环（NTE）核心玩法系统全面介绍：开放世界探索、元素战斗、抽卡、载具、房屋建造和多人联机。")
             : "Complete guide to all NTE gameplay systems: open-world, combat, gacha, vehicles, housing, and multiplayer."}
         </p>
 

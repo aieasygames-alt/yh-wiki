@@ -1157,6 +1157,11 @@
         "href": "/map"
       },
       {
+        "label": "999夜规划器",
+        "labelEn": "999 Nights Planner",
+        "href": "/999-nights-planner"
+      },
+      {
         "label": "更多版本更新",
         "labelEn": "More Patch Notes",
         "href": "/changelog"

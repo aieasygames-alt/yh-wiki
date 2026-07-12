@@ -8,9 +8,14 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
   return {
-    title: t(locale, "gacha.title"),
-    description: t(locale, "gacha.description"),
+    title: t(locale, "gacha.seoTitle"),
+    description: t(locale, "gacha.seoDescription"),
     alternates: hreflangAlternates("gacha", lang),
+    openGraph: {
+      title: t(locale, "gacha.seoTitle"),
+      description: t(locale, "gacha.seoDescription"),
+      type: "website",
+    },
   };
 }
 

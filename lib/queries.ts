@@ -352,12 +352,18 @@ export interface Guide {
   title: string;
   titleEn: string;
   titleTw?: string;
+  seoTitleZh?: string;
+  seoTitleEn?: string;
+  seoTitleTw?: string;
   category: string;
   categoryZh: string;
   categoryEn: string;
   summary: string;
   summaryEn: string;
   summaryTw?: string;
+  seoDescriptionZh?: string;
+  seoDescriptionEn?: string;
+  seoDescriptionTw?: string;
   content: string;
   contentEn: string;
   contentTw?: string;
@@ -483,8 +489,10 @@ export interface CompareArticle {
   id: string;
   title: string;
   titleEn: string;
+  titleTw?: string;
   summary: string;
   summaryEn: string;
+  summaryTw?: string;
   category: string;
   categoryZh: string;
   categoryEn: string;
@@ -492,6 +500,7 @@ export interface CompareArticle {
   tags: string[];
   content: string;
   contentEn: string;
+  contentTw?: string;
   internalLinks: { label: string; labelEn: string; href: string }[];
 }
 

@@ -21,8 +21,9 @@ export function generateCompareMetadataForSlug(lang: string, slug: string) {
   const article = getCompare(slug);
   if (!article) return {};
   const locale = lang as Locale;
-  const title = `${localizedText(locale, article.title, article.titleEn)} (2026)`;
-  const description = localizedText(locale, article.summary, article.summaryEn);
+  const rawTitle = localizedText(locale, article.title, article.titleEn, article.titleTw);
+  const title = /20\d{2}/.test(rawTitle) ? rawTitle : `${rawTitle} (2026)`;
+  const description = localizedText(locale, article.summary, article.summaryEn, article.summaryTw);
   return {
     title,
     description,
@@ -47,9 +48,9 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
   const article = getCompare(slug);
   if (!article) notFound();
 
-  const title = localizedText(locale, article.title, article.titleEn);
-  const content = localizedText(locale, article.content, article.contentEn);
-  const summary = localizedText(locale, article.summary, article.summaryEn);
+  const title = localizedText(locale, article.title, article.titleEn, article.titleTw);
+  const content = localizedText(locale, article.content, article.contentEn, article.contentTw);
+  const summary = localizedText(locale, article.summary, article.summaryEn, article.summaryTw);
   const category = localizedText(locale, article.categoryZh, article.categoryEn);
   const url = `https://nteguide.com/${lang}/compare/${slug}`;
 

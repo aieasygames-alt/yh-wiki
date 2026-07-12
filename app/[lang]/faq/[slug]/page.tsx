@@ -8,6 +8,17 @@ import { FaqJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 
+function buildFaqMetaDescription(text?: string): string | undefined {
+  if (!text) return undefined;
+  const cleaned = text
+    .replace(/\*\*/g, "")
+    .replace(/[#>*`]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!cleaned) return undefined;
+  return cleaned.length > 160 ? `${cleaned.slice(0, 157).trim()}...` : cleaned;
+}
+
 export function generateStaticParams() {
   const faqs = getAllFaqs();
   return faqs.flatMap((f) => LOCALES.map((lang) => ({ lang, slug: f.id })));
@@ -29,11 +40,21 @@ export async function generateMetadata({
     faq.seoTitleEn || faq.questionEn,
     faq.seoTitleTw || faq.questionTw
   );
+  const localizedQuickAnswer = locale === "en"
+    ? faq.quickAnswerEn || faq.quickAnswer
+    : locale === "tw"
+      ? faq.quickAnswer || faq.quickAnswerEn
+      : faq.quickAnswer || faq.quickAnswerEn;
+  const localizedFallbackAnswer = locale === "en"
+    ? faq.answerEn
+    : locale === "tw"
+      ? faq.answerTw || faq.answer
+      : faq.answer;
   const description = pickLocalizedText(
     locale,
-    faq.seoDescriptionZh || faq.answer.slice(0, 160),
-    faq.seoDescriptionEn || faq.answerEn.slice(0, 160),
-    faq.seoDescriptionTw || faq.answerTw?.slice(0, 160)
+    faq.seoDescriptionZh || buildFaqMetaDescription(localizedQuickAnswer) || buildFaqMetaDescription(localizedFallbackAnswer),
+    faq.seoDescriptionEn || buildFaqMetaDescription(localizedQuickAnswer) || buildFaqMetaDescription(localizedFallbackAnswer),
+    faq.seoDescriptionTw || buildFaqMetaDescription(localizedQuickAnswer) || buildFaqMetaDescription(localizedFallbackAnswer)
   );
 
   return {

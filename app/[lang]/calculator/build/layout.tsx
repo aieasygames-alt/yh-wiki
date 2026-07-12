@@ -8,9 +8,14 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
   return {
-    title: t(locale, "buildCalculator.title"),
-    description: t(locale, "buildCalculator.description"),
+    title: t(locale, "buildCalculator.seoTitle"),
+    description: t(locale, "buildCalculator.seoDescription"),
     alternates: hreflangAlternates("calculator/build", lang),
+    openGraph: {
+      title: t(locale, "buildCalculator.seoTitle"),
+      description: t(locale, "buildCalculator.seoDescription"),
+      type: "website",
+    },
   };
 }
 

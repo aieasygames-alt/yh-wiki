@@ -17,9 +17,15 @@
     "categoryEn": "Platform",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环PS5版多少钱？容量多大？PS5性能表现一览（2026）",
+    "seoTitleEn": "NTE on PS5: Price, Download Size & Performance Guide (2026)",
+    "seoDescriptionZh": "异环PS5版是否免费、安装包多大、要预留多少存储，以及4K/60FPS表现、DualSense支持和跨平台存档说明。",
+    "seoDescriptionEn": "See whether NTE is free on PS5, how large the install is, how much storage to reserve, and what to expect from performance, DualSense, and cross-save.",
     "questionTw": "異環PS5版價格多少？遊戲容量多大？效能表現如何？",
     "answerTw": "異環PS5版詳細資訊：\n\n**價格**：\n- PS5版為免費下載（Free-to-Play），與PC和移動端一致\n- 遊戲內購與PC端互通，可跨平臺使用已購內容\n- PS Plus會員無額外折扣需求（遊戲本身免費）\n\n**下載容量**：\n- 初始安裝包約25-30GB\n- 完整安裝後約40-50GB（含高畫質資源包）\n- 建議預留至少60GB儲存空間以應對後續更新\n- 如果PS5儲存緊張，可以考慮外接SSD\n\n**效能表現**：\n- 畫面模式：4K解析度 + 30FPS\n- 效能模式：1440p-1800p + 60FPS（推薦）\n- 支援PS5 DualSense手柄觸覺反饋和自適應扳機\n- 載入速度顯著快於PS4/移動端\n- 光照效果和粒子特效有主機專屬最佳化\n\n**常見問題**：\n- 如果遇到下載中斷，參考我們的PS5下載問題FAQ\n- 支援跨平臺存檔同步（需繫結賬號）\n- 支援PS5手柄原生操控，無需額外設定",
-    "categoryTw": "平臺"
+    "categoryTw": "平臺",
+    "seoTitleTw": "異環PS5版多少錢？容量多大？PS5效能表現一覽（2026）",
+    "seoDescriptionTw": "異環PS5版是否免費、安裝包多大、要預留多少儲存，以及4K/60FPS表現、DualSense支援和跨平臺存檔說明。"
   },
   {
     "id": "steam-deck-compatibility",
@@ -61,9 +67,15 @@
     "categoryEn": "General",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环兑换码在哪里输入？最新兑换码使用方法与入口",
+    "seoTitleEn": "How to Redeem Codes in NTE — Code Entry Location & Claim Guide",
+    "seoDescriptionZh": "异环兑换码输入位置、兑换步骤、找不到兑换入口怎么办，以及国服和国际服兑换码是否通用的说明。",
+    "seoDescriptionEn": "Find where to enter redeem codes in NTE, how to claim rewards, what to do if the redeem menu is missing, and whether CN and global codes differ.",
     "questionTw": "異環兌換碼在哪裡輸入？怎麼兌換？最新兌換碼彙總",
     "answerTw": "異環兌換碼使用方法：\n\n**兌換步驟**：\n1. 開啟遊戲，進入主介面\n2. 點選左上角/右上角的選單（設定圖示）\n3. 找到「兌換碼」或「禮包兌換」選項\n4. 輸入兌換碼（注意大小寫）\n5. 確認兌換，獎勵將傳送到遊戲內郵箱\n\n**注意事項**：\n- 每個兌換碼只能使用一次\n- 部分兌換碼有有效期限，過期無法使用\n- 國際服和國服的兌換碼可能不同\n- 兌換碼區分大小寫，建議直接複製貼上\n\n**2026年5月已知兌換碼**（持續更新）：\n- 公測預約獎勵兌換碼\n- 官方社媒關注獎勵碼\n- 直播間限定碼（前瞻直播時發放）\n- 合作方聯動碼\n\n最新兌換碼請檢視我們的兌換碼大全頁面，即時更新有效兌換碼。\n\n**找不到兌換入口？**\n- 確認遊戲版本為最新版\n- 部分功能需要通過新手教程後解鎖\n- 嘗試在設定選單中查詢\n- 如果實在找不到，可以在遊戲內聯絡客服",
-    "categoryTw": "綜合"
+    "categoryTw": "綜合",
+    "seoTitleTw": "異環兌換碼在哪裡輸入？最新兌換碼使用方法與入口",
+    "seoDescriptionTw": "異環兌換碼輸入位置、兌換步驟、找不到兌換入口怎麼辦，以及國服和國際服兌換碼是否通用的說明。"
   },
   {
     "id": "how-to-level-up-fast",
@@ -230,9 +242,15 @@
       "chiz"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环新手培养谁？开荒角色推荐与阵容补位思路",
+    "seoTitleEn": "Best Beginner Characters in NTE — Early Build Priority Guide",
+    "seoDescriptionZh": "异环新手先练谁：主C、辅助、治疗怎么选，前期开荒优先补哪些功能位，以及A级角色值不值得投入。",
+    "seoDescriptionEn": "See which roles beginners should build first in NTE, how to balance DPS, support, and survivability, and when A-rank units are still worth investing in.",
     "questionTw": "異環新手推薦培養哪些角色？",
     "answerTw": "這條「新手推薦培養哪些角色」FAQ 現在更適合回答**新號該先補哪類功能位**，而不是繼續給出一張像固定榜單一樣的角色名單。對目前玩家來說，更重要的通常不是死記某幾個名字，而是先判斷：你缺不缺穩定輸出、缺不缺泛用輔助、以及有沒有足夠的生存位把隊伍撐起來。\n\n更穩妥的理解方式是：\n1. 如果你推進慢，優先補能直接改善清怪和 Boss 節奏的主輸出位\n2. 如果你已經有可用主力，就更適合補支援、治療或聚怪這類功能角色\n3. A 級角色的價值也要放到資源壓力和陣容缺口裡看，而不是只按稀有度高低排順序\n\n所以這頁現在保留的是**新手培養方向與功能位判斷邏輯**，而不是繼續把一組角色名字寫成所有帳號都通用的固定推薦名單。",
-    "categoryTw": "新手入門"
+    "categoryTw": "新手入門",
+    "seoTitleTw": "異環新手培養誰？開荒角色推薦與陣容補位思路",
+    "seoDescriptionTw": "異環新手先練誰：主C、輔助、治療怎麼選，前期開荒優先補哪些功能位，以及A級角色值不值得投入。"
   },
   {
     "id": "how-to-get-exp-fast",
@@ -505,7 +523,8 @@
     "questionTw": "異環怎麼下載？支援哪些平臺？",
     "answerTw": "下載這頁現在更適合回答**你該從哪個官方入口裝、該選哪個平臺，以及哪些舊入口說明已經不值得繼續照搬**，而不是繼續停留在一份只列渠道名稱的早期開服說明。對目前玩家來說，更實用的重點通常是：優先確認你要玩的區服與平臺，再從對應官網、商店或官方啟動器進入，而不是在第三方分發頁之間來回找包。\n\n更穩妥的理解方式是：\n1. 先按平臺決定入口，PC 用官方啟動器或對應商店，手機端優先走官方商店頁\n2. 如果你在意資料同步、支付或更新穩定性，最好避免混用來源不明的第三方安裝包\n3. 模擬器、歷史預約頁和開服期下載提示都更像補充資訊，真正長期有效的是目前官方入口和平臺狀態\n\n所以這頁現在保留的是**各平臺下載入口的判斷方式與安裝路徑**，而不是繼續把開服階段的渠道說明原樣當成長期下載指南。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環下載安裝教程 — PC/手機/PS5各平臺下載步驟（2026）"
+    "seoTitleTw": "異環下載安裝教程 — PC/手機/PS5各平臺下載步驟（2026）",
+    "seoDescriptionTw": "異環(NTE)各平臺下載安裝教程：PC/Android/iOS/PS5下載入口、安裝步驟、帳號區服選擇、目前可玩狀態與儲存空間準備建議。"
   },
   {
     "id": "system-requirements",
@@ -549,9 +568,15 @@
     "categoryEn": "Release",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环什么时候上线？国服国际服开服时间与当前状态",
+    "seoTitleEn": "When Did NTE Launch? CN & Global Release Timeline Guide",
+    "seoDescriptionZh": "异环国服与国际服上线时间回顾，整理 2026 年 4 月 23 日和 4 月 29 日两个开服节点，以及现在是否能直接游玩。",
+    "seoDescriptionEn": "Review the CN and global NTE launch dates, the April 23 and April 29, 2026 milestones, and what current players should know about availability now.",
     "questionTw": "異環什麼時候公測/上線？現在能玩嗎？",
     "answerTw": "這條上線時間 FAQ 現在更適合作為**異環開服時間線與目前可玩狀態的歸檔說明**，而不是繼續寫成一條會不斷被版本推進沖淡的即時新聞。對現在的玩家來說，更實用的重點通常是：國服和國際服分別是什麼時候開的、你現在是否已經能直接下載，以及目前應該關注區服選擇和版本狀態，而不是單純記住一個開服日期。\n\n更穩妥的理解方式是：\n1. 把 2026 年 4 月 23 日與 4 月 29 日視為國服／國際服的歷史上線節點\n2. 把「現在能不能玩」理解成目前官方入口是否可用、區服是否開放，而不是繼續圍繞開服倒數思考\n3. 如果你是現在入坑，真正更重要的是選服、裝置適配和當前版本內容，而不是開服當週的節奏資訊\n\n所以這頁現在保留的是**上線時間線與目前入坑判斷路徑**，而不是繼續把歷史開服消息寫成即時提醒。",
-    "categoryTw": "上線資訊"
+    "categoryTw": "上線資訊",
+    "seoTitleTw": "異環什麼時候上線？國服國際服開服時間與目前狀態",
+    "seoDescriptionTw": "異環國服與國際服上線時間回顧，整理 2026 年 4 月 23 日和 4 月 29 日兩個開服節點，以及現在是否能直接遊玩。"
   },
   {
     "id": "test-signup",
@@ -611,9 +636,15 @@
     "relatedMaterials": [
       "gacha-ticket"
     ],
+    "seoTitleZh": "异环保底机制详解：多少抽保底？卡池是否分开计算",
+    "seoTitleEn": "NTE Pity System Explained — Pull Count, Banner Rules & Planning",
+    "seoDescriptionZh": "异环限定池是否双保底、不同卡池保底是否继承，以及抽卡规划时该怎么理解角色池、武器池和常驻池差异。",
+    "seoDescriptionEn": "Learn how NTE pity works, whether banners share progress, and how to plan pulls across limited, weapon-style, beginner, and standard pools.",
     "questionTw": "異環保底機制是怎樣的？",
     "answerTw": "這條「保底機制」FAQ 現在更適合回答兩件事：**你要不要按雙保底思路存資源，以及不同卡池的保底是不是分開算。** 對目前玩家來說，比起背一串早期精確抽數，更重要的是先理解角色池、武器/弧盤池、新手池、常駐池並不是同一套風險結構。\n\n更穩妥的理解方式是：\n1. 角色限定池的目標更明確，適合圍繞想要的角色做規劃\n2. 不同型別卡池通常要分開看，不要把一個池子的進度想當然套到另一個池子\n3. 真正影響抽卡體感的，不只是有沒有保底，而是保底觸發後回報是否足夠確定\n\n所以這頁現在保留的是**保底規劃邏輯與卡池邊界**，幫助你少走彎路，而不是繼續把一組很容易被版本更新沖淡的數值當成長效攻略。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環保底機制詳解：多少抽保底？卡池是否分開計算",
+    "seoDescriptionTw": "異環限定池是否雙保底、不同卡池保底是否繼承，以及抽卡規劃時該怎麼理解角色池、武器池和常駐池差異。"
   },
   {
     "id": "gacha-priority",
@@ -1012,7 +1043,8 @@
     "questionTw": "異環國際服什麼時候上線？和國服有什麼不同？",
     "answerTw": "異環國際服已經在 **2026 年 4 月 29 日** 正式上線，因此這條 FAQ 現在主要回答的是「國際服和國服當初怎麼分開、現在選哪個更合適」。最關鍵的區別仍然是：1) **伺服器獨立**，資料不互通；2) **語言支援不同**，國際服更適合多語言玩家；3) **活動和版本節奏可能存在時間差**；4) **歷史兌換碼也分服使用**。如果你現在選服，優先按語言需求、朋友所在伺服器和網路延遲來決定，而不是只看當年的開服先後順序。",
     "categoryTw": "上線資訊",
-    "seoTitleTw": "異環國際服什麼時候上線？全球伺服器開放時間詳解（2026）"
+    "seoTitleTw": "異環國際服什麼時候上線？全球伺服器開放時間詳解（2026）",
+    "seoDescriptionTw": "異環國際服上線時間歸檔與國服區別說明：回顧 2026 年 4 月 29 日開服節點，並總結語言支援、伺服器獨立性、版本進度差異與目前選服建議。"
   },
   {
     "id": "cn-vs-global",
@@ -1029,9 +1061,15 @@
     "categoryEn": "Release",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环国服和国际服区别：选哪个服务器更适合你？",
+    "seoTitleEn": "NTE CN vs Global — Key Differences and Which Server to Choose",
+    "seoDescriptionZh": "异环国服与国际服在语言、服务器互通、活动节奏、支付和好友系统上的差异，以及当前玩家该如何选服。",
+    "seoDescriptionEn": "Compare NTE CN and global servers by language support, data separation, patch cadence, payments, and social systems to choose the right server.",
     "questionTw": "異環國服和國際服有什麼區別？選哪個好？",
     "answerTw": "異環國服和國際服的主要區別：1) 上線時間 — 國服4月23日，國際服4月29日；2) 伺服器 — 資料不互通，角色和進度無法跨服遷移；3) 語言 — 國服以簡體中文為主，國際服支援英語、日語、韓語等多語言；4) 活動節奏 — 國際服比國服滯後1-2個版本；5) 付費 — 定價基礎一致，按當地貨幣換算；6) 社交 — 好友和公會僅限同一伺服器。建議選擇和你朋友相同的伺服器，以及地理位置最近的伺服器以獲得最佳網路延遲。",
-    "categoryTw": "上線資訊"
+    "categoryTw": "上線資訊",
+    "seoTitleTw": "異環國服和國際服區別：選哪個伺服器更適合你？",
+    "seoDescriptionTw": "異環國服與國際服在語言、伺服器互通、活動節奏、支付和好友系統上的差異，以及目前玩家該如何選服。"
   },
   {
     "id": "launch-rewards-total",
@@ -1077,7 +1115,8 @@
     "questionTw": "異環支援跨平臺嗎？資料互通嗎？",
     "answerTw": "異環支援全平臺數據互通和跨平臺遊玩。你可以在PC、Android、iOS、Mac、HarmonyOS和PlayStation 5之間自由切換，遊戲進度、角色和物品資料完全同步。這意味著你可以在家用PC端高畫質體驗，出門用手機繼續同樣的進度。需要注意的是，不同區域的伺服器（如國服、亞洲服、美洲服、歐洲服）之間資料不互通。此外，部分付費貨幣可能因平臺政策限制而無法跨平臺使用（如iOS購買的貨幣在Android上可能不可用）。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環跨平臺存檔 — PC/手機/主機進度轉移與同步方法"
+    "seoTitleTw": "異環跨平臺存檔 — PC/手機/主機進度轉移與同步方法",
+    "seoDescriptionTw": "異環跨平臺存檔轉移教程：PC/PS5/iOS/Android之間如何同步進度、綁定同一帳號、避免雙帳號分裂，以及常見資料互通問題的解決方法。"
   },
   {
     "id": "download-size",
@@ -1101,7 +1140,8 @@
     "questionTw": "異環下載多大？需要多少儲存空間？",
     "answerTw": "這條「異環下載多大」FAQ 現在更適合回答**當前安裝和更新要預留多少空間**，而不是繼續停留在開服預下載提醒。對現在的玩家來說，更實用的結論是：PC 端應按完整客戶端、後續補丁和快取空間一起預留；移動端則要額外考慮系統剩餘空間和資源包下載。\n\n更穩妥的安裝思路是：\n1. **PC 端留足冗餘**，不要只按安裝包數字卡空間，避免更新時失敗\n2. **手機端按基礎包 + 後續資源** 來看，實際佔用往往會高於商店展示數字\n3. 如果你更在意載入和穩定性，優先把遊戲放在 SSD 或讀寫更快的儲存裝置上\n\n所以這頁現在保留的是**當前下載體量與儲存規劃建議**，而不是開服前那種「預下載什麼時候開」的時效說明。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環下載大小：PC版35GB、手機版20GB — 各平臺安裝包+儲存空間彙總（2026年5月更新）"
+    "seoTitleTw": "異環下載大小：PC版35GB、手機版20GB — 各平臺安裝包+儲存空間彙總（2026年5月更新）",
+    "seoDescriptionTw": "異環下載大小實測：PC端35GB（建議預留45GB）、手機端約20GB（建議預留30GB）。包含各平臺下載入口、儲存空間建議、SSD安裝說明與更新後的空間預留建議。"
   },
   {
     "id": "is-nte-free",
@@ -1118,9 +1158,15 @@
     "categoryEn": "Currency",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环是免费游戏吗？零氪能玩吗？付费影响多大",
+    "seoTitleEn": "Is NTE Free to Play? F2P Experience and Spending Impact",
+    "seoDescriptionZh": "异环是否免费、零氪能不能正常玩、月卡和氪金玩家差距主要体现在哪，以及内购会影响哪些体验。",
+    "seoDescriptionEn": "See whether NTE is truly free to play, what F2P players can access, and how spending mainly affects roster speed, resources, and cosmetics.",
     "questionTw": "異環是免費遊戲嗎？需要花錢嗎？",
     "answerTw": "異環本體是**免費下載、免費遊玩**的，商業模式是常見的免費遊戲 + 內購。也就是說，不花錢也能體驗主線、探索、日常副本和大多數版本活動；花錢主要是加速抽卡、補資源和購買外觀。\n\n對現在的玩家來說，真正重要的不是「開服 418 抽」這種舊數字，而是兩點：\n1. 遊戲沒有強制付費牆，零氪可以正常推進核心內容\n2. 零氪和月卡玩家的差距主要體現在角色獲取速度、陣容完整度和養成節奏，而不是能不能玩\n\n所以結論很直接：異環仍然屬於可以正常零氪遊玩的作品，只是如果你追求每期限定都拿、或者想更快成型，多半還是要投入時間或消費。",
-    "categoryTw": "貨幣系統"
+    "categoryTw": "貨幣系統",
+    "seoTitleTw": "異環是免費遊戲嗎？零氪能玩嗎？付費影響多大",
+    "seoDescriptionTw": "異環是否免費、零氪能不能正常玩、月卡和課金玩家差距主要體現在哪，以及內購會影響哪些體驗。"
   },
   {
     "id": "no-50-50-system",
@@ -1139,9 +1185,15 @@
     "relatedMaterials": [
       "gacha-ticket"
     ],
+    "seoTitleZh": "异环有50/50吗？限定池会不会歪？保底规则说明",
+    "seoTitleEn": "Does NTE Have 50/50? Limited Banner Pity Rules Explained",
+    "seoDescriptionZh": "异环限定角色池有没有 50/50、90 抽保底是否必中当期 UP，以及这套机制对抽卡规划意味着什么。",
+    "seoDescriptionEn": "Find out whether NTE uses a 50/50 system, whether limited pity guarantees the featured unit, and how that changes your pull budgeting.",
     "questionTw": "異環抽卡有50/50嗎？保底會歪嗎？",
     "answerTw": "沒有。異環的限定角色池**不採用傳統 50/50 機制**，這一點在開服階段就已經被確認，而且仍然是它抽卡系統裡最關鍵的賣點之一。對玩家來說，核心意思就是：只要觸發限定角色池的 S 級保底，拿到的就是當期 UP，而不是常駐角色。\n\n目前這條 FAQ 比起「直播確認了什麼」，更重要的是說明它對現在抽卡規劃的意義：\n1. 你不用像很多二遊那樣預留「雙保底」\n2. 90 抽硬保底的資源目標更好規劃\n3. 想抽單個限定角色時，預算和心理壓力都更可控\n\n所以無論是開服玩家還是現在入坑的玩家，這個結論都沒有過時：異環最友好的抽卡點，依然是**限定池不歪**。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環有50/50嗎？限定池會不會歪？保底規則說明",
+    "seoDescriptionTw": "異環限定角色池有沒有 50/50、90 抽保底是否必中當期 UP，以及這套機制對抽卡規劃意味著什麼。"
   },
   {
     "id": "reroll-guide",
@@ -1163,9 +1215,15 @@
       "haniel"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环刷初始值得吗？重开号流程、成本与必要性分析",
+    "seoTitleEn": "NTE Reroll Guide — Is Rerolling Worth It and How Should You Judge It?",
+    "seoDescriptionZh": "异环刷初始还有没有必要：重开号成本、新手福利是否够用、哪些情况下值得刷，以及晚入坑账号怎么判断。",
+    "seoDescriptionEn": "Learn whether rerolling in NTE is still worth it, how current beginner systems affect reroll value, and when restarting is a waste of time.",
     "questionTw": "異環怎麼刷初始？刷初始值得嗎？",
     "answerTw": "這條「怎麼刷初始、值不值得刷」FAQ 現在更適合回答**你的帳號到底缺不缺為了一個開局結果反覆重開**，而不是繼續綁定開服時期的大量免費抽和歷史福利數字。對目前玩家來說，更實際的判斷通常是：你現在還能不能低成本重開號、目前新手福利是否足以修正早期陣容，以及刷初始帶來的時間成本會不會比它節省的資源還大。\n\n更穩妥的理解方式是：\n1. 如果目前新手池、自選或其他早期福利已經能明顯降低隨機性，刷初始的必要性通常會下降\n2. 如果你只是想追一個特定開局角色，要先比較重開號和直接正常推進哪個更省時間\n3. 與其背開服階段的免費抽總量，不如先判斷當前版本下你能否透過正常遊玩穩步修正陣容缺口\n\n所以這頁現在保留的是**刷初始的必要性判斷與時間成本邏輯**，而不是繼續把一組開服資源數字寫成長期有效的建議。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環刷初始值得嗎？重開號流程、成本與必要性分析",
+    "seoDescriptionTw": "異環刷初始還有沒有必要：重開號成本、新手福利是否夠用、哪些情況下值得刷，以及晚入坑帳號怎麼判斷。"
   },
   {
     "id": "6-choose-1-guide",
@@ -2121,9 +2179,15 @@
     "relatedMaterials": [
       "gacha-ticket"
     ],
+    "seoTitleZh": "异环公测免费多少抽？470抽来源与当前还能拿多少",
+    "seoTitleEn": "NTE Free Pulls at Launch — 470 Pull Breakdown and What Still Applies",
+    "seoDescriptionZh": "异环 470 抽和开服免费资源的来源拆解：哪些来自预约和限时活动、哪些现在已过期，以及当前版本还能拿到什么。",
+    "seoDescriptionEn": "See where the NTE 470 free-pull headline came from, which parts were tied to launch events, and what rewards current players can still expect now.",
     "questionTw": "異環公測免費可以抽多少次？470抽怎麼拿到？",
     "answerTw": "這條「公測免費多少抽」FAQ 現在更適合作為**開服福利規模的歷史歸檔**來看，而不是繼續把「470 抽」當成所有新帳號都還能照搬的即時承諾。對目前玩家來說，更實際的問題通常是：這組數字原本涵蓋了哪些活動、哪些部分屬於首發視窗限定，以及現在還有多少內容仍然可重現。\n\n更穩妥的理解方式是：\n1. 這類總抽數往往把預註冊、開服簽到、階段活動、主線推進和成就獎勵一起計算，時間視窗很強\n2. 越接近開服的活動數字，越不適合直接外推到後續版本或晚入坑帳號\n3. 如果你現在更關心還能拿到多少抽，應該優先查看當前版本仍在進行的活動、常駐獎勵和帳號推進節奏\n\n所以這頁現在保留的是**開服免費抽數的構成與歷史背景**，而不是繼續把 470 抽寫成對現階段所有玩家都同樣生效的固定結論。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環公測免費多少抽？470抽來源與目前還能拿多少",
+    "seoDescriptionTw": "異環 470 抽和開服免費資源的來源拆解：哪些來自預約和限時活動、哪些現在已過期，以及目前版本還能拿到什麼。"
   },
   {
     "id": "stamina-planning",
@@ -4302,7 +4366,8 @@
     "questionTw": "異環在Steam上可以玩嗎？Steam版和客戶端有什麼區別？",
     "answerTw": "異環這條 Steam FAQ 不應再停留在「已確認計劃登陸，但日期未定」的舊口徑。對現在的使用者來說，更實際的重點是：**Steam 版是否已經成為可選下載入口、和官網客戶端或 Epic 版相比有什麼體驗差異。**\n\n如果你是在比較平臺，核心可以看三點：\n1. **登入與下載習慣**：Steam 更適合想用平臺庫管理、成就和更新的玩家；官網客戶端則更直接\n2. **內容本體**：不同 PC 入口的遊戲內容本身不應該被理解成兩套版本，差別主要在發行平臺體驗\n3. **帳號與同步**：是否互通、是否需要重新綁定，應以當前官方說明為準，而不是沿用最早期的預期描述\n\n所以這頁現在更像是**Steam 與獨立客戶端的選擇說明**，而不是一則過期的上線倒數消息。",
     "categoryTw": "平臺",
-    "seoTitleTw": "異環Steam版上線了嗎？Steam與獨立客戶端區別對比"
+    "seoTitleTw": "異環Steam版上線了嗎？Steam與獨立客戶端區別對比",
+    "seoDescriptionTw": "異環Steam版與獨立客戶端怎麼選：整理目前平臺入口、下載與登入差異、帳號互通注意事項，以及和 Epic／官網客戶端的體驗區別。"
   },
   {
     "id": "nte-collect-furniture-guide",

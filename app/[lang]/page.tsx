@@ -13,22 +13,22 @@ const GiscusComments = dynamic(() => import("../../components/GiscusComments").t
 // Keep this in sync with LOCALES in lib/i18n.ts (currently zh / tw / en).
 const HOME_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
   zh: {
-    title: "异环攻略_Wiki_下载_兑换码_角色排行_地图",
-    description: "异环(Neverness to Everness)攻略Wiki：角色强度排行(Tier List)、交互地图(含收集品)、配装计算器、最新兑换码、下载安装指南、全角色Build攻略。非官方最全攻略站。",
-    ogTitle: "异环攻略Wiki — 角色排行 · 互动地图 · 配装计算器 · 兑换码",
-    ogDescription: "异环(NTE)最全攻略Wiki：角色排行、互动地图、配装计算器、最新兑换码。",
+    title: "异环官网入口在哪？异环 Wiki / 下载 / 地图 / 角色攻略站",
+    description: "异环(NTE / Neverness to Everness)非官方 Wiki：整理异环官网入口、PC/手机下载安装、Steam/国际服选择、交互地图、角色图鉴、配队、配置要求与最新兑换码。",
+    ogTitle: "异环 Wiki / 下载 / 地图 / 角色图鉴攻略站",
+    ogDescription: "查异环官网入口、下载安装、国际服、地图、角色图鉴、配队和配置要求。",
   },
   tw: {
-    title: "異環攻略_Wiki_下載_兌換碼_角色排行_地圖",
-    description: "異環(Neverness to Everness)攻略Wiki：角色強度排行(Tier List)、互動地圖(含收集品)、配裝計算器、最新兌換碼、下載安裝指南、全角色Build攻略。非官方最全攻略站。",
-    ogTitle: "異環攻略Wiki — 角色排行 · 互動地圖 · 配裝計算器 · 兌換碼",
-    ogDescription: "異環(NTE)最全攻略Wiki：角色排行、互動地圖、配裝計算器、最新兌換碼。",
+    title: "異環官網入口在哪？異環 Wiki / 下載 / 地圖 / 角色攻略站",
+    description: "異環(NTE / Neverness to Everness)非官方 Wiki：整理異環官網入口、PC/手機下載安裝、Steam/國際服選擇、互動地圖、角色圖鑑、配隊、配置要求與最新兌換碼。",
+    ogTitle: "異環 Wiki / 下載 / 地圖 / 角色圖鑑攻略站",
+    ogDescription: "查異環官網入口、下載安裝、國際服、地圖、角色圖鑑、配隊和配置要求。",
   },
   en: {
-    title: "NTE Wiki — Tier List, Builds, Map, Codes & Guides | Neverness to Everness",
-    description: "Neverness to Everness (NTE) wiki: tier list, character builds, interactive map, redeem codes (June 2026), download guide, and DPS calculator. Updated daily.",
-    ogTitle: "NTE Wiki — Tier List, Builds, Map, Codes & Guides",
-    ogDescription: "Neverness to Everness wiki with tier list, builds, interactive map, redeem codes, and guides.",
+    title: "NTE Wiki, Download, Map & Character Guides | Neverness to Everness",
+    description: "Neverness to Everness (NTE) wiki with official-site entry help, PC/mobile download guide, Steam vs global server tips, interactive map, character builds, tier list, system requirements, and redeem codes.",
+    ogTitle: "NTE Wiki, Download, Map & Character Guides",
+    ogDescription: "Find the NTE download path, Steam/global tips, map, character guides, builds, and system requirements.",
   },
 };
 
@@ -84,25 +84,72 @@ export default async function HomePage({
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
           <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              {locale === "tw" ? "異環攻略 Wiki" : isZhLocale(locale) ? "异环攻略 Wiki" : "Neverness to Everness Wiki"}
+              {locale === "tw" ? "異環 Wiki / 下載 / 攻略站" : isZhLocale(locale) ? "异环 Wiki / 下载 / 攻略站" : "NTE Wiki, Download & Guide Hub"}
             </h1>
             <p className="mt-4 text-lg text-gray-400">
               {locale === "tw"
-                ? "異環(NTE)最全攻略百科：角色排行、配裝、互動地圖、兌換碼、下載安裝"
+                ? "異環官網入口、下載安裝、Steam / 國際服、角色排行、互動地圖"
                 : isZhLocale(locale)
-                  ? "异环(NTE)最全攻略百科：角色排行、配装、交互地图、兑换码、下载安装"
-                  : "Tier list, builds, interactive map, codes, guides & calculators"}
+                  ? "异环官网入口、下载安装、Steam / 国际服、角色排行、交互地图"
+                  : "Official-site entry help, download, Steam/global tips, map, builds & calculators"}
             </p>
             <p className="mt-3 text-sm text-gray-400 max-w-2xl mx-auto">
               {locale === "tw"
-                ? "異環(NTE)百科攻略站，收錄全角色圖鑑與Build推薦、強度排行、互動地圖(含收集品標記)、最新兌換碼、下載安裝教程、DPS計算器等工具。每日更新。"
+                ? "先找異環官網、Steam、PC 啟動器、國際服或角色攻略，都可以從這裡進。站內整理下載安裝路徑、角色圖鑑、配隊、配置要求、互動地圖與最新兌換碼。"
                 : isZhLocale(locale)
-                  ? "异环(NTE)百科攻略站，收录全角色图鉴与Build推荐、强度排行、交互地图(含收集品标记)、最新兑换码、下载安装教程、DPS计算器等工具。每日更新。"
-                  : "The complete Neverness to Everness wiki: character builds, tier list, interactive map with collectibles, redeem codes (June 2026), download guide, DPS calculator. Updated daily."}
+                  ? "先找异环官网、Steam、PC 启动器、国际服或角色攻略，都可以从这里进。站内整理下载安装路径、角色图鉴、配队、配置要求、交互地图与最新兑换码。"
+                  : "Start here if you need the official-site path, Steam, PC launcher, global-server guidance, character guides, map, or redeem codes."}
             </p>
             <div className="mt-6 flex justify-center">
               <SearchDialog lang={lang} />
             </div>
+          </div>
+        </section>
+
+        <section className="max-w-6xl mx-auto px-4 py-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              {
+                href: `/${lang}/guides/download-install-guide`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "異環官網 / 下載安裝" : "异环官网 / 下载安装") : "Official Site & Download Guide",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "PC 啟動器、Android、iOS、PS5 下載入口與安裝步驟" : "PC 启动器、Android、iOS、PS5 下载入口与安装步骤")
+                  : "Official launcher, Android, iOS, and PS5 entry points with install steps.",
+                accent: "border-primary-500/30 bg-primary-500/10 text-primary-300",
+              },
+              {
+                href: `/${lang}/cn-vs-global`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "異環國服 vs 國際服" : "异环国服 vs 国际服") : "CN vs Global Server",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "看懂國服、國際服、賬號不互通與平台入口差異" : "看懂国服、国际服、账号不互通与平台入口差异")
+                  : "Choose between CN and global, including account separation and platform flow.",
+                accent: "border-sky-500/30 bg-sky-500/10 text-sky-300",
+              },
+              {
+                href: `/${lang}/steam`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "異環 Steam / PC 指南" : "异环 Steam / PC 指南") : "Steam / PC Guide",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "Steam、Epic、官網啟動器、雲異環 PC 該怎麼選" : "Steam、Epic、官网启动器、云异环 PC 该怎么选")
+                  : "Pick between Steam, Epic, the official launcher, and Cloud PC.",
+                accent: "border-cyan-500/30 bg-cyan-500/10 text-cyan-300",
+              },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
+              >
+                <span className={`inline-flex rounded-full px-2.5 py-1 text-xs font-medium ${item.accent}`}>
+                  {isZhLocale(locale) ? (locale === "tw" ? "高需求入口" : "高需求入口") : "High-Intent Entry"}
+                </span>
+                <h2 className="mt-3 text-lg font-bold group-hover:text-primary-400 transition-colors">
+                  {item.title}
+                </h2>
+                <p className="mt-2 text-sm text-gray-400">
+                  {item.desc}
+                </p>
+              </Link>
+            ))}
           </div>
         </section>
 
@@ -253,6 +300,7 @@ export default async function HomePage({
               { title: t(locale, "teamBuilder.title"), desc: isZhLocale(locale) ? "构建最佳阵容" : "Build best teams", href: `/${lang}/team-builder`, icon: "👥" },
               { title: t(locale, "gacha.title"), desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
               { title: t(locale, "site.nav.redeemCodes"), desc: isZhLocale(locale) ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
+              { title: isZhLocale(locale) ? (locale === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner", desc: isZhLocale(locale) ? (locale === "tw" ? "神秘鈕扣缺口與每日目標" : "神秘纽扣缺口与每日目标") : "Plan Mystery Button targets", href: `/${lang}/999-nights-planner`, icon: "🧮" },
               { title: t(locale, "explorer.title"), desc: isZhLocale(locale) ? "智能扫图路线规划" : "Smart sweep route planner", href: `/${lang}/explorer`, icon: "🗺️" },
               { title: t(locale, "cityTycoon.title"), desc: isZhLocale(locale) ? "免费S级角色攻略" : "Free S-rank character guide", href: `/${lang}/city-tycoon`, icon: "🏙️" },
               { title: t(locale, "statsCalc.title"), desc: isZhLocale(locale) ? "伤害计算与属性分析" : "Damage & stats analysis", href: `/${lang}/calculator/stats`, icon: "💥" },

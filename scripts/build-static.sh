@@ -55,7 +55,7 @@ done
 node scripts/normalize-static-links.js
 
 # 5. Verify sitemaps were copied from public/
-for sm in sitemap.xml sitemap-pages.xml sitemap-characters.xml sitemap-weapons.xml sitemap-guides.xml sitemap-other.xml sitemap-anime-destiny.xml; do
+for sm in sitemap.xml sitemap-pages.xml sitemap-characters.xml sitemap-weapons.xml sitemap-guides.xml sitemap-other.xml; do
   if [ -f "$ROOT/out/$sm" ]; then
     echo "Found ${sm}"
   else

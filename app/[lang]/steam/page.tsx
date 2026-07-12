@@ -60,7 +60,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
     <>
       <ArticleJsonLd
         title={isZh ? "异环 Steam 版发售指南" : "NTE on Steam — Release Guide"}
-        description={isZh ? "Steam 版发售时间、PC配置、跨平台账号" : "Steam release date, PC specs, cross-platform account"}
+        description={localizedText(locale, "Steam 版当前状态、PC 配置要求、账号互通与平台选择建议", "Steam live status, PC requirements, account behavior, and platform choice advice")}
         url={`https://nteguide.com/${lang}/steam`}
       />
       <FaqPageJsonLd faqs={faqs} lang={locale} />
@@ -76,12 +76,15 @@ export default async function SteamPage({ params }: { params: { lang: string } }
             {isZh ? "2026-07-11 更新" : "Updated July 11, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环 Steam 版：当前状态与 PC 入口完整指南" : "NTE on Steam: Current Status and PC Access Guide"}
+            {localizedText(locale, "异环 Steam 版：当前状态与 PC 入口完整指南", "NTE on Steam: Current Status and PC Access Guide", "異環 Steam 版：目前狀態與 PC 入口完整指南")}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
-            {isZh
-              ? "截至 2026 年 7 月 11 日，异环（Neverness to Everness）Steam 版已经进入当前商店周期。本文不再按“预售等待页”来写，而是直接回答现在 Steam、独立启动器、Epic 与云异环 PC 该怎么选。"
-              : "As of July 11, 2026, Neverness to Everness is already in the current Steam store cycle. This page no longer treats Steam as a future waitlist topic and instead focuses on how to choose between Steam, the standalone launcher, Epic, and Cloud PC right now."}
+            {localizedText(
+              locale,
+              "截至 2026 年 7 月 11 日，异环（Neverness to Everness）Steam 版已经进入当前商店周期。本文不再按“预售等待页”来写，而是直接回答现在 Steam、独立启动器、Epic 与云异环 PC 该怎么选。",
+              "As of July 11, 2026, Neverness to Everness is already in the current Steam store cycle. This page no longer treats Steam as a future waitlist topic and instead focuses on how to choose between Steam, the standalone launcher, Epic, and Cloud PC right now.",
+              "截至 2026 年 7 月 11 日，異環（Neverness to Everness）Steam 版已進入目前商店週期。本文不再把它寫成等待頁，而是直接回答現在該如何在 Steam、獨立啟動器、Epic 與雲異環 PC 之間做選擇。"
+            )}
           </p>
         </section>
 

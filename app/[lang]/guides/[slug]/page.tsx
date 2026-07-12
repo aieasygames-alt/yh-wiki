@@ -28,10 +28,10 @@ export async function generateMetadata({
   const guide = getGuide(slug);
   if (!guide) return {};
   const locale = lang as Locale;
-  const localizedTitle = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
-  const title = locale === "tw" && localizedTitle === guide.title ? `${localizedTitle}（繁中）` : localizedTitle;
-  const localizedDescription = localizedText(locale, guide.summary, guide.summaryEn, guide.summaryTw);
-  const description = locale === "tw" && localizedDescription === guide.summary ? `${localizedDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : localizedDescription;
+  const seoTitle = localizedText(locale, guide.seoTitleZh || guide.title, guide.seoTitleEn || guide.titleEn, guide.seoTitleTw || guide.titleTw);
+  const title = locale === "tw" && seoTitle === guide.title ? `${seoTitle}（繁中）` : seoTitle;
+  const seoDescription = localizedText(locale, guide.seoDescriptionZh || guide.summary, guide.seoDescriptionEn || guide.summaryEn, guide.seoDescriptionTw || guide.summaryTw);
+  const description = locale === "tw" && seoDescription === guide.summary ? `${seoDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : seoDescription;
   return {
     title,
     description,

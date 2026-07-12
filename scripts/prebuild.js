@@ -8,7 +8,6 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(ROOT, "data");
-const AD_DATA = path.join(DATA, "anime-destiny");
 const PUBLIC = path.join(ROOT, "public");
 const BASE_URL = "https://nteguide.com";
 
@@ -25,14 +24,6 @@ function load(name) {
   }
   return cache[name];
 }
-function loadAD(name) {
-  if (!cache["ad:" + name]) {
-    const p = path.join(AD_DATA, name);
-    cache["ad:" + name] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, "utf-8")) : [];
-  }
-  return cache["ad:" + name];
-}
-
 // ── 1. Search Index ────────────────────────────────────
 function generateSearchIndex() {
   const outFile = path.join(PUBLIC, "search-index.json");
@@ -74,6 +65,8 @@ function generateSearchIndex() {
   index.push({ id: "gameplay", name: "Gameplay Overview", nameEn: "Gameplay Overview", type: "page", url: "/en/gameplay", tags: ["gameplay", "review", "overview"] });
   index.push({ id: "porsche-collab", name: "保时捷联动", nameEn: "Porsche Collab", type: "page", url: "/zh/porsche-collab", tags: ["porsche", "collab", "vehicle", "918"] });
   index.push({ id: "porsche-collab", name: "Porsche Collab", nameEn: "Porsche Collab", type: "page", url: "/en/porsche-collab", tags: ["porsche", "collab", "vehicle", "918"] });
+  index.push({ id: "999-nights-planner", name: "999夜规划器", nameEn: "999 Nights Planner", type: "page", url: "/zh/999-nights-planner", tags: ["999夜", "九百九十九夜", "神秘纽扣", "planner", "mystery buttons"] });
+  index.push({ id: "999-nights-planner", name: "999 Nights Planner", nameEn: "999 Nights Planner", type: "page", url: "/en/999-nights-planner", tags: ["999 nights", "planner", "mystery buttons"] });
 
   fs.writeFileSync(outFile, JSON.stringify(index), "utf-8");
   console.log(`[search-index] ${index.length} entries`);
@@ -125,7 +118,7 @@ function generateSitemaps() {
   }
 
   const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets"];
-  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab"];
+  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab", "999-nights-planner"];
   const guideSubPages = ["guides/gacha-system"];
   const staticInfoPages = ["about", "contact", "terms", "privacy-policy"];
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];
@@ -209,30 +202,17 @@ function generateSitemaps() {
     ...collectIndexableTags().flatMap(tag => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${encodeURIComponent(tag)}/`, priority: 0.5, changeFreq: "weekly" }))),
   ];
 
-  // Anime Destiny sitemap (English only)
-  const adBase = `${BASE_URL}/en/anime-destiny`;
-  const adUrls = [
-    { url: `${adBase}/`, priority: 0.9, changeFreq: "daily" },
-    { url: `${adBase}/codes/`, priority: 0.9, changeFreq: "daily" },
-    { url: `${adBase}/tier-list/`, priority: 0.8, changeFreq: "weekly" },
-    { url: `${adBase}/units/`, priority: 0.8, changeFreq: "weekly" },
-    { url: `${adBase}/traits/`, priority: 0.7, changeFreq: "weekly" },
-    { url: `${adBase}/artifacts/`, priority: 0.7, changeFreq: "weekly" },
-    { url: `${adBase}/guides/`, priority: 0.8, changeFreq: "weekly" },
-    ...loadAD("units.json").map(u => ({ url: `${adBase}/units/${u.id}/`, priority: 0.7, changeFreq: "weekly" })),
-    ...loadAD("guides.json").map(g => ({ url: `${adBase}/guides/${g.id}/`, priority: 0.8, changeFreq: "weekly" })),
-  ];
-
   writeSitemap("sitemap-pages.xml", pageUrls);
   writeSitemap("sitemap-characters.xml", characterUrls);
   writeSitemap("sitemap-weapons.xml", weaponUrls);
   writeSitemap("sitemap-vehicles.xml", vehicleUrls);
   writeSitemap("sitemap-guides.xml", guideUrls);
   writeSitemap("sitemap-other.xml", otherUrls);
-  writeSitemap("sitemap-anime-destiny.xml", adUrls);
+  const adSitemap = path.join(PUBLIC, "sitemap-anime-destiny.xml");
+  if (fs.existsSync(adSitemap)) fs.unlinkSync(adSitemap);
 
   // Sitemap index
-  const subSitemaps = ["sitemap-pages.xml", "sitemap-characters.xml", "sitemap-weapons.xml", "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml", "sitemap-anime-destiny.xml"];
+  const subSitemaps = ["sitemap-pages.xml", "sitemap-characters.xml", "sitemap-weapons.xml", "sitemap-vehicles.xml", "sitemap-guides.xml", "sitemap-other.xml"];
   const now = new Date().toISOString();
   const existingIndexLastmods = (() => {
     const file = path.join(PUBLIC, "sitemap.xml");
@@ -253,7 +233,7 @@ function generateSitemaps() {
   }).join("\n")}\n</sitemapindex>\n`;
   fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), indexXml, "utf-8");
 
-  const total = pageUrls.length + characterUrls.length + weaponUrls.length + vehicleUrls.length + guideUrls.length + otherUrls.length + adUrls.length;
+  const total = pageUrls.length + characterUrls.length + weaponUrls.length + vehicleUrls.length + guideUrls.length + otherUrls.length;
   console.log(`[sitemap] sitemap.xml: index (${subSitemaps.length} sub-sitemaps, ${total} total URLs)`);
 }
 

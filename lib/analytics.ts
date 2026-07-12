@@ -67,6 +67,8 @@ export function getPageType(pathname: string): string {
       return "tool_redeem_codes";
     case "map":
       return "tool_map";
+    case "999-nights-planner":
+      return "tool_999_nights_planner";
     case "lore":
       return segments[2] ? "lore_detail" : "lore_list";
     case "locations":

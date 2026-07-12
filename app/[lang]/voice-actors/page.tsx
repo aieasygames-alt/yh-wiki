@@ -54,7 +54,11 @@ export default async function VoiceActorsPage({
     <>
       <ArticleJsonLd
         title={isZhLocale(locale) ? "异环声优一览" : "NTE Voice Actors — Full Voice Cast"}
-        description={isZhLocale(locale) ? `全${count}位角色的日配/中配/英配声优名单` : `Complete voice actor list for all ${count} NTE characters`}
+        description={isZhLocale(locale)
+          ? (locale === "tw"
+            ? `整理全${count}位異環角色的日配、中文與英文聲優名單`
+            : `整理全${count}位异环角色的日配、中文与英文声优名单`)
+          : `Complete voice actor list for all ${count} NTE characters`}
         url={`https://nteguide.com/${lang}/voice-actors`}
       />
       {vaFaq && (
@@ -77,7 +81,9 @@ export default async function VoiceActorsPage({
         </h1>
         <p className="text-sm text-gray-500 mb-6">
           {isZhLocale(locale)
-            ? "以下列出异环（Neverness to Everness）全部角色的日文配音、中文配音和英文配音演员信息。"
+            ? (locale === "tw"
+              ? "以下整理異環（Neverness to Everness）全部角色的日文配音、中文配音與英文配音演員資訊。"
+              : "以下列出异环（Neverness to Everness）全部角色的日文配音、中文配音和英文配音演员信息。")
             : "Full voice cast for all Neverness to Everness characters — Japanese (JP), Chinese (CN), and English (EN) voice actors."}
         </p>
 

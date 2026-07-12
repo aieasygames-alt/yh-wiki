@@ -91,7 +91,7 @@
   },
   "materials": {
     "title": "材料列表",
-    "description": "異環全部材料獲取方式和使用角色",
+    "description": "異環全部材料獲取方式、掉落來源、用途說明與對應角色養成需求彙總。",
     "source": "獲取方式",
     "usedBy": "使用角色",
     "rarity": "稀有度",
@@ -99,7 +99,9 @@
   },
   "calculator": {
     "title": "異環升級計算器",
-    "description": "計算異環角色升級所需材料數量",
+    "description": "計算異環角色升級、突破與技能養成所需材料數量，方便規劃每日體力。",
+    "seoTitle": "異環升級計算器（2026）— 角色養成材料、等級消耗一鍵試算",
+    "seoDescription": "異環升級計算器：輸入角色目前等級與目標等級，快速試算突破、升級與技能養成材料消耗，方便安排每日體力與刷本節奏。",
     "selectCharacter": "選擇角色",
     "currentLevel": "當前等級",
     "targetLevel": "目標等級",
@@ -116,7 +118,9 @@
   },
   "buildCalculator": {
     "title": "Build 計算器",
-    "description": "查看異環角色推薦Build、主副詞條、武器和隊友搭配",
+    "description": "查看異環角色推薦 Build、主副詞條優先級、武器選擇和隊友搭配方案。",
+    "seoTitle": "異環 Build 計算器（2026）— 角色配裝、詞條、武器與配隊推薦",
+    "seoDescription": "查看異環角色 Build 推薦：主副詞條優先級、武器選擇、卡帶搭配與隊友組合，快速找到適合當前版本的養成方向。",
     "selectCharacter": "選擇角色",
     "selectHint": "請選擇一個角色查看推薦 Build",
     "filterHint": "使用上方篩選器按屬性或稀有度過濾",
@@ -135,7 +139,9 @@
   },
   "gacha": {
     "title": "異環抽卡模擬器",
-    "description": "模擬異環祈願抽卡，測試你的運氣！",
+    "description": "模擬異環限定池、常駐池與武器池抽卡，查看保底機制、機率統計與出金表現。",
+    "seoTitle": "異環抽卡模擬器（2026）— 保底機制、機率統計、限定池線上模擬",
+    "seoDescription": "異環抽卡模擬器：線上模擬限定池、常駐池與武器池抽卡，查看 90 抽保底、無 50/50 機制、軟保底區間與出金統計，提前規劃抽卡資源。",
     "disclaimer": "非官方機率，僅供娛樂。實際遊戲機率以官方公告為準。",
     "pull1": "單抽 x1",
     "pull10": "十連 x10",
@@ -326,7 +332,7 @@
   },
   "guides": {
     "title": "異環攻略指南（2026）— 新手入門、配裝推薦、版本攻略全收錄",
-    "description": "異環完整攻略指南，涵蓋新手入門、元素反應、體力管理、抽卡策略、配隊推薦等深度攻略",
+    "description": "異環完整攻略指南，涵蓋新手開荒、元素反應、體力管理、抽卡策略、配隊推薦等深度攻略。",
     "readMore": "閱讀全文",
     "relatedGuides": "相關攻略",
     "relatedCharacters": "相關角色",
@@ -335,14 +341,14 @@
     "tableOfContents": "目錄"
   },
   "lore": {
-    "title": "世界觀",
-    "description": "異環世界觀設定集，了解異能者、奇物、異象等核心設定",
+    "title": "異環世界觀設定集（2026）— 異能者、奇物、異象與海特洛城背景整理",
+    "description": "異環世界觀設定集：系統整理異能者、奇物、異象、組織勢力與海特洛城背景，適合補劇情、查術語與梳理角色關係。",
     "relatedCharacters": "相關角色",
     "relatedLocations": "相關地點"
   },
   "locations": {
     "title": "地點",
-    "description": "異環全地圖地點介紹，探索海特洛各區域",
+    "description": "異環全地圖地點、區域與探索內容索引，方便快速查找海特洛城各區域資訊。",
     "relatedCharacters": "相關角色",
     "relatedLore": "相關世界觀"
   },
@@ -360,7 +366,7 @@
   "blog": {
     "title": "部落格",
     "seoTitle": "異環遊戲攻略部落格 - 最新資訊與深度攻略",
-    "description": "異環（Neverness to Everness）最新攻略部落格，涵蓋遊戲評測、版本更新、角色攻略和玩法技巧。",
+    "description": "異環（Neverness to Everness）最新攻略部落格，涵蓋版本更新、角色攻略、活動前瞻、玩法技巧與資訊整理。",
     "tags": {
       "comparison": "遊戲對比",
       "genshin": "原神",
@@ -405,12 +411,12 @@
   },
   "changelog": {
     "title": "版本日誌",
-    "seoTitle": "版本更新日誌 - 異環遊戲",
-    "description": "異環（Neverness to Everness）版本更新日誌，包含新角色、新功能、系統優化等完整更新內容。"
+    "seoTitle": "異環版本更新日誌（2026）— 新角色、卡池、系統優化與活動改動整理",
+    "description": "異環版本更新日誌整理：查看每個版本的新角色、卡池變動、活動安排、系統優化與修復內容，快速掌握版本重點。"
   },
   "compare": {
     "title": "遊戲對比",
-    "description": "異環與原神、鳴潮等熱門遊戲對比評測",
+    "description": "異環與原神、鳴潮等熱門遊戲在玩法、抽卡、開放世界和養成上的差異對比。",
     "nteVsGenshin": "異環 vs 原神",
     "nteVsWuwa": "異環 vs 鳴潮",
     "nteVsAnanta": "NTE vs 無限大",
@@ -865,7 +871,9 @@
   },
   "explorer": {
     "title": "探索伴侶",
-    "description": "優化收集路線，追蹤探索進度",
+    "description": "優化收集路線、追蹤探索進度，並整理地圖掃圖和資源補漏順序。",
+    "seoTitle": "異環探索伴侶（2026）— 掃圖路線規劃、收集進度追蹤、每日點位整理",
+    "seoDescription": "異環探索伴侶可協助你規劃掃圖路線、追蹤區域收集進度、整理每日與每週刷新點位，適合高效率補圖與清資源。",
     "tabDashboard": "總覽",
     "tabSweep": "掃圖模式",
     "tabDaily": "每日/每週",
@@ -914,14 +922,14 @@
     "title": "配隊構建器",
     "subtitle": "構建你的隊伍，分析協同效果，找到最佳陣容",
     "seoTitle": "異環配隊構建器 - 最佳陣容搭配與協同分析",
-    "seoDescription": "構建和優化異環隊伍陣容。分析角色協同效果，查看推薦配裝，分享你的隊伍。",
+    "seoDescription": "構建和優化異環隊伍陣容，分析角色協同效果、功能補位與推薦配裝，快速找到適合當前版本的隊伍方案。",
     "yourTeam": "你的隊伍",
     "slot": "位置",
     "remove": "移除",
     "synergy": "協同分析",
     "shareTeam": "分享隊伍",
     "clear": "清空",
-    "recommendedBuilds": "推荐配装",
+    "recommendedBuilds": "推薦配裝",
     "searchPlaceholder": "搜尋角色...",
     "presetTeams": "預設陣容"
   },
@@ -932,7 +940,7 @@
     "title": "效果詞典",
     "subtitle": "一站式瀏覽所有武器效果和卡帶套裝加成",
     "seoTitle": "異環效果詞典（2026）— 元素反應、武器效果、卡帶套裝大全",
-    "seoDescription": "異環(NTE)完整效果資料庫：元素反應機制詳解、武器被動效果、卡帶套裝加成一覽。支援搜尋和篩選。",
+    "seoDescription": "異環(NTE)完整效果資料庫：元素反應機制詳解、武器被動效果、卡帶套裝加成與常見狀態效果一覽，支援搜尋和篩選。",
     "searchPlaceholder": "搜尋效果...",
     "elementalReactions": "元素反應機制",
     "elementalReactionsDesc": "異環的6種元素屬性之間存在獨特的反應關係。理解反應機制是構建高效隊伍的關鍵。",
@@ -954,12 +962,12 @@
     "title": "都市大亨攻略",
     "subtitle": "都市大亨經營系統完整攻略 - 免費S級角色和武器獎勵",
     "seoTitle": "異環都市大亨攻略 - 免費S級赤子(小智)與等級獎勵",
-    "seoDescription": "都市大亨完整攻略。Lv.30获得免费S级赤子(小智)6+5满配。全等级奖励、技巧和策略。",
-    "overviewTitle": "系统简介",
-    "keyReward": "核心奖励：免费S级角色",
-    "exclusiveWeapon": "专属武器奖励",
-    "levelRewards": "等级奖励",
-    "tipsTitle": "经营技巧",
+    "seoDescription": "都市大亨完整攻略。Lv.30 可獲得免費 S 級赤子（小智）6+5 滿配，整理全等級獎勵、經營技巧與效率策略。",
+    "overviewTitle": "系統簡介",
+    "keyReward": "核心獎勵：免費 S 級角色",
+    "exclusiveWeapon": "專屬武器獎勵",
+    "levelRewards": "等級獎勵",
+    "tipsTitle": "經營技巧",
     "linkExplorer": "探索伴侶",
     "linkXiaozhi": "赤子(小智)詳情",
     "linkTierList": "角色排行"
@@ -969,14 +977,14 @@
     "dpsTitle": "DPS 傷害計算器",
     "subtitle": "根據屬性和武器估算角色傷害輸出",
     "seoTitle": "異環屬性與傷害計算器",
-    "seoDescription": "计算异环角色伤害输出。根据不同武器、属性和技能倍率估算DPS。",
+    "seoDescription": "計算異環角色傷害輸出，根據不同武器、屬性與技能倍率估算 DPS，幫助你比較配裝與詞條收益。",
     "selectCharacter": "選擇角色",
     "selectWeapon": "選擇武器",
-    "substats": "副词条",
+    "substats": "副詞條",
     "skillMultiplier": "技能倍率",
-    "results": "属性总览",
-    "damageOutput": "伤害输出",
-    "breakdown": "伤害倍率分解"
+    "results": "屬性總覽",
+    "damageOutput": "傷害輸出",
+    "breakdown": "傷害倍率分解"
   },
   "materialPlanner": {
     "title": "材料規劃器"

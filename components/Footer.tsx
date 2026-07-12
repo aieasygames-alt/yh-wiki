@@ -7,7 +7,6 @@ import Logo from "./Logo";
 
 export function Footer() {
   const pathname = usePathname();
-  if (pathname.includes("/anime-destiny")) return null;
   const lang = (pathname.split("/")[1] || "en") as Locale;
 
   const columns = [
@@ -26,6 +25,7 @@ export function Footer() {
         { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.levelingCalc") },
         { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
         { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
+        { href: `/${lang}/999-nights-planner`, label: isZhLocale(lang) ? (lang === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner" },
         { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
         { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
         { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
@@ -60,12 +60,6 @@ export function Footer() {
         { href: `/${lang}/about`, label: t(lang, "footer.about") },
         { href: `/${lang}/privacy-policy`, label: t(lang, "footer.privacy") },
         { href: `/${lang}/terms`, label: t(lang, "footer.terms") },
-      ],
-    },
-    {
-      title: "More Games",
-      links: [
-        { href: "/en/anime-destiny", label: "Anime Destiny Wiki" },
       ],
     },
   ];
