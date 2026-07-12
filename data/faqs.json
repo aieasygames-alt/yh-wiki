@@ -31,6 +31,10 @@
     "id": "steam-deck-compatibility",
     "question": "异环能在Steam Deck上玩吗？兼容性和优化设置",
     "questionEn": "Can you play NTE on Steam Deck? Compatibility and optimization settings",
+    "seoTitleZh": "异环能在 Steam Deck 上玩吗？兼容性与画质优化建议",
+    "seoTitleEn": "Can You Play NTE on Steam Deck? Compatibility & Performance Tips",
+    "seoDescriptionZh": "异环在 Steam Deck 上能不能玩？这篇整理兼容性预期、是否值得折腾，以及分辨率和画质优化思路。",
+    "seoDescriptionEn": "A practical NTE Steam Deck guide covering compatibility expectations, setup tradeoffs, and handheld performance-tuning priorities.",
     "answer": "Steam Deck 这条 FAQ 现在更适合回答“值不值得折腾”，而不是继续停留在早期的发行状态说明。对当前玩家来说，更务实的结论是：**Steam Deck 不是异环最省心的平台，但对愿意自己调兼容和画质的人来说，仍然可以尝试。**\n\n你可以按两种路径理解：\n1. **省事路线**：如果你只想开箱即玩，Steam Deck 目前不算首选，因为启动器、兼容层和性能调试都会增加成本\n2. **折腾路线**：如果你愿意使用 Windows、第三方启动器或兼容工具，那么重点就变成把分辨率、阴影、粒子和帧率目标压到更稳的区间\n\n所以这页现在保留的核心建议是：Steam Deck 更适合愿意自己做平台兼容和性能优化的玩家，不适合作为零门槛推荐平台。",
     "answerEn": "This Steam Deck page is most useful when it answers **whether the game is worth the setup hassle on a handheld device like this**, not when it repeats one old platform expectation. For current players, the practical conclusion is that Steam Deck is usually a tinkering platform rather than a frictionless default choice.\n\nA safer way to evaluate it is:\n1. If you want a simple install-and-play path, Steam Deck is rarely the easiest option because launcher setup, compatibility layers, and performance tuning may all matter\n2. If you are comfortable experimenting, the real task becomes reducing settings, resolution, and frame-rate targets until the experience is stable enough for you\n3. Treat future Steam availability as something to verify through current official channels rather than as an automatic promise that solves every compatibility issue\n\nSo this page now focuses on Steam Deck decision logic and expectation-setting instead of preserving an old confirmation-style platform answer.",
     "tags": [
@@ -46,6 +50,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環能在Steam Deck上玩嗎？相容性和最佳化設定",
+    "seoTitleTw": "異環能在 Steam Deck 上玩嗎？相容性與畫質最佳化建議",
+    "seoDescriptionTw": "異環在 Steam Deck 上能不能玩？這篇整理相容性預期、是否值得折騰，以及解析度和畫質最佳化思路。",
     "answerTw": "Steam Deck 這條 FAQ 現在更適合回答「值不值得折騰」，而不是繼續停留在早期的發行狀態說明。對當前玩家來說，更務實的結論是：**Steam Deck 不是異環最省心的平臺，但對願意自己調相容和畫質的人來說，仍然可以嘗試。**\n\n你可以按兩種路徑理解：\n1. **省事路線**：如果你只想開箱即玩，Steam Deck 目前不算首選，因為啟動器、相容層和效能調整都會增加成本\n2. **折騰路線**：如果你願意使用 Windows、第三方啟動器或相容工具，那麼重點就變成把解析度、陰影、粒子和幀率目標壓到更穩的區間\n\n所以這頁現在保留的核心建議是：Steam Deck 更適合願意自己做平臺相容和效能最佳化的玩家，不適合作為零門檻推薦平臺。",
     "categoryTw": "平臺"
   },
@@ -81,6 +87,10 @@
     "id": "how-to-level-up-fast",
     "question": "异环怎么升级角色快？",
     "questionEn": "How to level up characters fast in NTE?",
+    "seoTitleZh": "异环角色怎么快速升级？经验材料与体力分配攻略",
+    "seoTitleEn": "How to Level Up Characters Fast in NTE — EXP Materials & Stamina Guide",
+    "seoDescriptionZh": "异环角色怎么升得快？整理猎手指南、信用点、体力投入和前中期更实用的升级路线。",
+    "seoDescriptionEn": "A practical NTE leveling guide covering EXP materials, Credits, stamina use, and how to speed up character progression efficiently.",
     "answer": "异环角色升级主要通过消耗猎手指南和信用点来完成。快速升级建议：1) 每天刷满体力对应的材料副本；2) 优先使用基础猎手指南，进阶和精英指南留给高等级阶段；3) 完成每日任务和活动获取额外经验；4) 合理规划体力，优先刷当前等级阶段需要的材料。",
     "answerEn": "To level up characters quickly in NTE: 1) Use all daily stamina on material domains; 2) Save Advanced and Elite Hunter Guides for higher levels; 3) Complete daily quests and events for bonus EXP; 4) Plan your stamina usage to farm materials for your current level range.",
     "tags": [
@@ -97,6 +107,8 @@
       "elite-hunter-guide"
     ],
     "questionTw": "異環怎麼升級角色快？",
+    "seoTitleTw": "異環角色怎麼快速升級？經驗材料與體力分配攻略",
+    "seoDescriptionTw": "異環角色怎麼升得快？整理獵手指南、信用點、體力投入和前中期更實用的升級路線。",
     "answerTw": "異環角色升級主要通過消耗獵手指南和信用點來完成。快速升級建議：1) 每天刷滿體力對應的材料副本；2) 優先使用基礎獵手指南，進階和精英指南留給高等級階段；3) 完成每日任務和活動獲取額外經驗；4) 合理規劃體力，優先刷當前等級階段需要的材料。",
     "categoryTw": "角色升級"
   },
@@ -104,6 +116,10 @@
     "id": "material-domains-location",
     "question": "异环材料副本在哪里？",
     "questionEn": "Where are material domains in NTE?",
+    "seoTitleZh": "异环材料副本在哪里进？领域入口与掉落材料说明",
+    "seoTitleEn": "Where Are Material Domains in NTE? Entry Points & Farming Drops",
+    "seoDescriptionZh": "异环材料副本从哪里进？这篇整理领域入口位置、常见掉落，以及日常刷材料时该怎么分配体力。",
+    "seoDescriptionEn": "Find where NTE material domains are located, what they drop, and how to prioritize stamina when farming upgrade resources.",
     "answer": "异环的材料副本（领域）可以通过主界面右上角的「领域」入口进入。不同属性的领域掉落不同类型的升级材料。建议每天刷满体力对应的副本，尤其是高级副本掉落的精英猎手指南和许可证明较为稀缺。",
     "answerEn": "Material domains in NTE can be accessed through the \"Domain\" entry on the top-right of the main screen. Different attribute domains drop different types of leveling materials. It's recommended to use all daily stamina on domains, especially higher-level ones that drop rare Elite Hunter Guides and Permits.",
     "tags": [
@@ -120,6 +136,8 @@
       "golden-appleseed"
     ],
     "questionTw": "異環材料副本在哪裡？",
+    "seoTitleTw": "異環材料副本在哪裡進？領域入口與掉落材料說明",
+    "seoDescriptionTw": "異環材料副本從哪裡進？這篇整理領域入口位置、常見掉落，以及日常刷材料時該怎麼分配體力。",
     "answerTw": "異環的材料副本（領域）可以通過主介面右上角的「領域」入口進入。不同屬性的領域掉落不同型別的升級材料。建議每天刷滿體力對應的副本，尤其是高階副本掉落的精英獵手指南和許可證明較為稀缺。",
     "categoryTw": "材料獲取"
   },
@@ -127,6 +145,10 @@
     "id": "how-to-get-credits",
     "question": "异环信用点怎么获取？",
     "questionEn": "How to get Credits in NTE?",
+    "seoTitleZh": "异环信用点怎么刷？获取途径与前期使用优先级",
+    "seoTitleEn": "How to Get Credits in NTE — Farming Sources & Early Priorities",
+    "seoDescriptionZh": "异环信用点不够怎么办？整理主线、委托、探索和活动等获取方式，以及前期最值得花在哪些地方。",
+    "seoDescriptionEn": "A practical NTE Credits guide covering main farming sources, daily income routes, and what early-game upgrades deserve spending first.",
     "answer": "信用点是异环中的基础货币，获取途径包括：1) 完成主线任务和支线任务；2) 每日委托任务奖励；3) 探索开放世界中的宝箱；4) 完成成就；5) 参与限时活动。信用点主要用于角色升级、技能升级和购买基础材料。",
     "answerEn": "Credits are the basic currency in NTE. You can earn them through: 1) Main story and side quests; 2) Daily commission rewards; 3) Exploring treasure chests in the open world; 4) Completing achievements; 5) Participating in limited-time events. Credits are used for character leveling, skill upgrades, and purchasing basic materials.",
     "tags": [
@@ -141,6 +163,8 @@
       "fons"
     ],
     "questionTw": "異環信用點怎麼獲取？",
+    "seoTitleTw": "異環信用點怎麼刷？獲取途徑與前期使用優先順序",
+    "seoDescriptionTw": "異環信用點不夠怎麼辦？整理主線、委託、探索和活動等獲取方式，以及前期最值得花在哪些地方。",
     "answerTw": "信用點是異環中的基礎貨幣，獲取途徑包括：1) 完成主線任務和支線任務；2) 每日委託任務獎勵；3) 探索開放世界中的寶箱；4) 完成成就；5) 參與限時活動。信用點主要用於角色升級、技能升級和購買基礎材料。",
     "categoryTw": "貨幣系統"
   },
@@ -205,6 +229,10 @@
     "id": "stamina-management",
     "question": "异环每日体力怎么用最划算？",
     "questionEn": "How to use daily stamina most efficiently in NTE?",
+    "seoTitleZh": "异环每日体力怎么用？前期体力分配与刷本优先级",
+    "seoTitleEn": "How to Use Daily Stamina in NTE — Early Farming Priority Guide",
+    "seoDescriptionZh": "异环体力该先刷角色材料、活动副本还是其他资源？这篇整理每天更稳的体力分配顺序。",
+    "seoDescriptionEn": "A practical NTE stamina guide covering whether to prioritize character materials, event farming, or other daily resources first.",
     "answer": "体力使用的优先级建议：1) 优先刷当前最缺的材料副本（通常是角色升级材料）；2) 如果有正在培养的角色，刷对应的属性材料；3) 每日委托和任务优先完成，通常也会消耗体力；4) 限时活动期间的体力优先用于活动副本。不建议将体力浪费在低等级材料上，后期可以通过其他途径获取。",
     "answerEn": "Recommended stamina priority: 1) Farm the materials you need most (usually character leveling materials); 2) If you're building a character, farm their attribute-specific materials; 3) Complete daily commissions first (they also consume stamina); 4) During limited events, prioritize event domains. Don't waste stamina on low-level materials that can be obtained through other means later.",
     "tags": [
@@ -219,6 +247,8 @@
       "stamina-potion"
     ],
     "questionTw": "異環每日體力怎麼用最划算？",
+    "seoTitleTw": "異環每日體力怎麼用？前期體力分配與刷本優先順序",
+    "seoDescriptionTw": "異環體力該先刷角色材料、活動副本還是其他資源？這篇整理每天更穩的體力分配順序。",
     "answerTw": "體力使用的優先順序建議：1) 優先刷當前最缺的材料副本（通常是角色升級材料）；2) 如果有正在培養的角色，刷對應的屬性材料；3) 每日委託和任務優先完成，通常也會消耗體力；4) 限時活動期間的體力優先用於活動副本。不建議將體力浪費在低等級材料上，後期可以通過其他途徑獲取。",
     "categoryTw": "新手入門"
   },
@@ -256,6 +286,10 @@
     "id": "how-to-get-exp-fast",
     "question": "异环怎么快速获得经验？",
     "questionEn": "How to get experience quickly in NTE?",
+    "seoTitleZh": "异环经验怎么刷最快？角色经验来源与前期冲级路线",
+    "seoTitleEn": "How to Get EXP Fast in NTE — Character EXP Sources & Leveling Route",
+    "seoDescriptionZh": "异环经验不够怎么补？整理角色经验材料、日常任务、活动和前期更高效的冲级方式。",
+    "seoDescriptionEn": "A practical NTE EXP guide covering character EXP materials, daily missions, event rewards, and efficient early leveling routes.",
     "answer": "快速获取角色经验的途径：1) 完成主线任务和支线任务，这是前期经验的主要来源；2) 每日委托任务；3) 刷经验副本（如果有的话）；4) 探索世界、开启传送点和宝箱也有经验奖励。角色升级需要消耗猎手指南和信用点，建议同步积累这些资源。",
     "answerEn": "Ways to get character EXP quickly: 1) Main story and side quests are the primary EXP source early on; 2) Daily commissions; 3) EXP domains (if available); 4) Exploring the world, unlocking waypoints, and opening chests also grants EXP. Character leveling requires Hunter Guides and Credits, so accumulate these resources alongside EXP.",
     "tags": [
@@ -271,6 +305,8 @@
       "rising-hunter-guide"
     ],
     "questionTw": "異環怎麼快速獲得經驗？",
+    "seoTitleTw": "異環經驗怎麼刷最快？角色經驗來源與前期衝級路線",
+    "seoDescriptionTw": "異環經驗不夠怎麼補？整理角色經驗材料、日常任務、活動和前期更高效的衝級方式。",
     "answerTw": "快速獲取角色經驗的途徑：1) 完成主線任務和支線任務，這是前期經驗的主要來源；2) 每日委託任務；3) 刷經驗副本（如果有的話）；4) 探索世界、開啟傳送點和寶箱也有經驗獎勵。角色升級需要消耗獵手指南和信用點，建議同步積累這些資源。",
     "categoryTw": "角色升級"
   },
@@ -296,6 +332,10 @@
     "id": "skill-upgrade-materials",
     "question": "异环技能升级材料怎么获取？",
     "questionEn": "How to get skill upgrade materials in NTE?",
+    "seoTitleZh": "异环技能升级材料怎么刷？来源、副本与养成优先级",
+    "seoTitleEn": "How to Get Skill Upgrade Materials in NTE — Sources & Farming Priority",
+    "seoDescriptionZh": "异环技能升级材料从哪里来？这篇整理材料副本、日常获取方式，以及技能升级更该优先给谁。",
+    "seoDescriptionEn": "A practical NTE skill-material guide covering where to farm upgrade resources, how to get them daily, and which units deserve priority.",
     "answer": "技能升级材料（教材类）主要通过以下方式获取：1) 属性对应的材料副本；2) 活动奖励；3) 商店兑换。攻击教材、防御教材等不同类型的教材对应不同属性的技能升级需求。建议根据要培养的角色属性，有针对性地刷取对应属性的教材。",
     "answerEn": "Skill upgrade materials (Manuals) can be obtained through: 1) Attribute-specific material domains; 2) Event rewards; 3) Shop exchange. Attack Manuals, Defense Manuals, and other types correspond to different attribute skill upgrade needs. Focus on farming manuals that match your characters' attributes.",
     "tags": [
@@ -309,6 +349,8 @@
       "fabricated-dice"
     ],
     "questionTw": "異環技能升級材料怎麼獲取？",
+    "seoTitleTw": "異環技能升級材料怎麼刷？來源、副本與養成優先順序",
+    "seoDescriptionTw": "異環技能升級材料從哪裡來？這篇整理材料副本、日常獲取方式，以及技能升級更該優先給誰。",
     "answerTw": "技能升級材料（教材類）主要通過以下方式獲取：1) 屬性對應的材料副本；2) 活動獎勵；3) 商店兌換。攻擊教材、防禦教材等不同型別的教材對應不同屬性的技能升級需求。建議根據要培養的角色屬性，有針對性地刷取對應屬性的教材。",
     "categoryTw": "材料獲取"
   },
@@ -403,6 +445,10 @@
     "id": "team-composition-tips",
     "question": "异环队伍怎么搭配？",
     "questionEn": "How to build a team composition in NTE?",
+    "seoTitleZh": "异环队伍怎么搭配？新手配队思路与阵容结构攻略",
+    "seoTitleEn": "How to Build a Team in NTE — Beginner Composition & Role Guide",
+    "seoDescriptionZh": "异环配队要先看输出、辅助还是生存？这篇整理新手更实用的阵容结构和组队思路。",
+    "seoDescriptionEn": "A practical NTE team-building guide covering DPS, support, sustain roles, and how beginners should structure stable lineups.",
     "answer": "异环队伍搭配的基本原则：1) 属性覆盖 — 尽量覆盖多种属性以应对不同弱点的敌人；2) 角色定位 — 通常需要1个输出位、1个支援位、1个副输出/防御位；3) 属性克制 — 根据敌人弱点调整上阵角色；4) 综合考虑 — 咲里作为通用支援几乎适用于任何队伍。新手建议培养一个核心输出（如娜娜莉）+ 一个支援（如咲里）作为基础队伍。",
     "answerEn": "Basic team composition principles in NTE: 1) Attribute coverage - cover multiple attributes to handle different enemy weaknesses; 2) Role balance - typically 1 main DPS, 1 support, and 1 sub-DPS/defender; 3) Exploit weaknesses - adjust your lineup based on enemy weaknesses; 4) Sakiri works as a universal support in almost any team. Beginners should build a core DPS (like Nanally) + support (like Sakiri) as a foundation.",
     "tags": [
@@ -417,6 +463,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環隊伍怎麼搭配？",
+    "seoTitleTw": "異環隊伍怎麼搭配？新手配隊思路與陣容結構攻略",
+    "seoDescriptionTw": "異環配隊要先看輸出、輔助還是生存？這篇整理新手更實用的陣容結構和組隊思路。",
     "answerTw": "異環隊伍搭配的基本原則：1) 屬性覆蓋 — 儘量覆蓋多種屬性以應對不同弱點的敵人；2) 角色定位 — 通常需要1個輸出位、1個支援位、1個副輸出/防禦位；3) 屬性剋制 — 根據敵人弱點調整上陣角色；4) 綜合考慮 — 咲裡作為通用支援幾乎適用於任何隊伍。新手建議培養一個核心輸出（如娜娜莉）+ 一個支援（如咲裡）作為基礎隊伍。",
     "categoryTw": "配隊推薦"
   },
@@ -424,6 +472,10 @@
     "id": "resin-stamina-system",
     "question": "异环体力系统是怎么运作的？",
     "questionEn": "How does the stamina system work in NTE?",
+    "seoTitleZh": "异环体力系统怎么玩？恢复机制、消耗场景与规划思路",
+    "seoTitleEn": "How Does the Stamina System Work in NTE? Recovery & Planning Guide",
+    "seoDescriptionZh": "异环体力系统怎么恢复、主要消耗在哪里、前期该不该买体力，这篇一次讲清楚。",
+    "seoDescriptionEn": "Understand how NTE stamina recovers, where it gets spent, and how beginners should plan daily usage and refill decisions.",
     "answer": "异环的体力（树脂）系统与其他同类游戏类似：1) 体力有上限，随时间自然恢复（通常每8分钟恢复1点）；2) 刷材料副本需要消耗体力；3) 体力溢出时会停止恢复，建议及时使用；4) 可以使用原晶等付费货币补充体力。合理规划体力使用是高效养成的关键。",
     "answerEn": "NTE's stamina system works similarly to other games in the genre: 1) Stamina has a cap and regenerates over time (usually 1 point per 8 minutes); 2) Running material domains consumes stamina; 3) Excess stamina stops regenerating, so use it promptly; 4) Premium currency can be used to refill stamina. Planning stamina usage wisely is key to efficient progression.",
     "tags": [
@@ -438,6 +490,8 @@
       "stamina-potion"
     ],
     "questionTw": "異環體力系統是怎麼運作的？",
+    "seoTitleTw": "異環體力系統怎麼玩？恢復機制、消耗場景與規劃思路",
+    "seoDescriptionTw": "異環體力系統怎麼恢復、主要消耗在哪裡、前期該不該買體力，這篇一次講清楚。",
     "answerTw": "異環的體力（樹脂）系統與其他同類遊戲類似：1) 體力有上限，隨時間自然恢復（通常每8分鐘恢復1點）；2) 刷材料副本需要消耗體力；3) 體力溢位時會停止恢復，建議及時使用；4) 可以使用原晶等付費貨幣補充體力。合理規劃體力使用是高效養成的關鍵。",
     "categoryTw": "新手入門"
   },
@@ -550,7 +604,8 @@
     "questionTw": "異環手機和PC配置要求是什麼？",
     "answerTw": "配置要求這頁現在更適合回答**你該把這裡的參數當成「硬門檻」、還是當成「裝置大致分層參考」**，而不是繼續把一大串舊測試口徑直接當作現版本長期不變結論。對目前玩家來說，更實用的重點通常是三件事：能不能啟動、能跑到什麼畫質／幀率區間、以及儲存和 SSD 會不會成為實際瓶頸。\n\n更穩妥的理解方式是：\n1. 把最低配置看成「是否有機會執行」的下限，而不是體驗一定穩定的保證\n2. 把推薦配置看成「更容易獲得流暢體驗」的參考，而不是所有裝置都必須嚴格對標的線\n3. 真正影響體驗的往往不只是一顆 CPU 或 GPU 名字，還包括散熱、儲存速度、驅動狀態與後續版本最佳化\n\n所以這頁現在保留的是**配置判斷的使用方式與平臺差異認知**，幫助你先判斷裝置大致可玩性，再去看具體參數表，而不是繼續把舊測試構建口徑直接當成唯一答案。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環配置要求 — 你的電腦/手機能執行嗎？（快速查詢）"
+    "seoTitleTw": "異環配置要求 — 你的電腦/手機能執行嗎？（快速查詢）",
+    "seoDescriptionTw": "異環最低配置i5-8400/GTX 1060/8GB記憶體，推薦i7-9700/RTX 2060/16GB記憶體。完整配置表、下載大小和SSD建議見系統要求專頁。"
   },
   {
     "id": "release-date",
