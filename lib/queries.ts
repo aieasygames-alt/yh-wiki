@@ -246,6 +246,7 @@ export interface Faq {
   category: string;
   categoryZh: string;
   categoryEn: string;
+  categoryTw?: string;
   relatedCharacters: string[];
   relatedMaterials: string[];
 }
