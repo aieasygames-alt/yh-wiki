@@ -4,6 +4,7 @@ import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
 import { CharacterFilter } from "../../../components/CharacterFilter";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
+import { localizedText } from "../../../lib/seo-copy";
 import Link from "next/link";
 
 export async function generateMetadata({
@@ -13,13 +14,24 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const availableCount = getAvailableCharacters().length;
+  const title = localizedText(
+    locale,
+    `异环全角色图鉴 - ${availableCount} 名角色强度、Build 与配队入口 | NTE Guide`,
+    `NTE Characters - ${availableCount} Character Builds, Teams, and Tier Guide`
+  );
+  const description = localizedText(
+    locale,
+    `异环 ${availableCount} 名可玩角色总表，整理角色定位、Build、配队、强度参考与培养方向，方便你按属性、定位和版本需求快速筛选。`,
+    `Browse ${availableCount} playable NTE characters with role filters, build links, team guides, and tier reference so you can compare units by attribute, role, and account needs.`
+  );
   return {
-    title: t(locale, "characters.title"),
-    description: t(locale, "characters.description"),
+    title,
+    description,
     alternates: hreflangAlternates("characters", lang),
     openGraph: {
-      title: t(locale, "characters.title"),
-      description: t(locale, "characters.description"),
+      title,
+      description,
       type: "website",
     },
   };
