@@ -26,7 +26,6 @@ export async function generateMetadata({
   const substatLabel = SUBSTAT_LABELS[weapon.substat]?.[locale] || weapon.substat;
   const typeLabel = ARC_TYPE_LABELS[weapon.type]?.[locale] || weapon.type;
   const mappedObtainLabel = OBTAIN_METHOD_LABELS[weapon.howToObtain]?.[locale];
-  const obtainLabel = mappedObtainLabel || weapon.howToObtain;
   const obtainDesc = locale === "tw"
     ? (weapon.howToObtainTw || mappedObtainLabel || "詳見頁內獲取方式、委託條件與適配角色整理")
     : isZhLocale(locale)

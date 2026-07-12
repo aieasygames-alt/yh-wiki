@@ -10,6 +10,27 @@ import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
+function buildQuestMetaDescription(args: {
+  locale: Locale;
+  name: string;
+  typeLabel: string;
+  regionName?: string;
+  rewardsCount: number;
+  stepsCount: number;
+}) {
+  const { locale, name, typeLabel, regionName, rewardsCount, stepsCount } = args;
+
+  if (locale === "en") {
+    return `Complete ${typeLabel.toLowerCase()} for ${name} in Neverness to Everness${regionName ? `, set in ${regionName}` : ""}. Includes ${stepsCount} walkthrough step${stepsCount === 1 ? "" : "s"}, reward overview, and practical completion tips.`;
+  }
+
+  if (locale === "tw") {
+    return `異環${typeLabel}「${name}」完整攻略${regionName ? `，發生於${regionName}` : ""}，整理 ${stepsCount} 個流程步驟、${rewardsCount} 項任務獎勵與通關提示。`;
+  }
+
+  return `异环${typeLabel}「${name}」完整攻略${regionName ? `，发生于${regionName}` : ""}，整理 ${stepsCount} 个流程步骤、${rewardsCount} 项任务奖励与通关提示。`;
+}
+
 export function generateStaticParams() {
   const quests = getAllQuests();
   return quests.flatMap((q) => LOCALES.map((lang) => ({ lang, slug: q.id })));
@@ -29,9 +50,14 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
 
   return {
     title: isZh ? `${name} — ${typeName} | 异环 Wiki` : `${name} — ${typeName} | NTE Wiki`,
-    description: isZh
-      ? localizedText(locale, `异环${quest.typeZh}「${quest.name}」详细攻略，包含完成步骤、奖励和攻略提示。`, "")
-      : `Complete guide for ${quest.nameEn} in Neverness to Everness. Step-by-step walkthrough, rewards, and tips.`,
+    description: buildQuestMetaDescription({
+      locale,
+      name,
+      typeLabel: localizedText(locale, quest.typeZh, quest.typeZh, quest.typeZh),
+      regionName: localizedText(locale, quest.regionZh || "", quest.regionEn || "", quest.regionZh || ""),
+      rewardsCount: (isZh ? quest.rewards : quest.rewardsEn)?.length || 0,
+      stepsCount: (isZh ? quest.steps : quest.stepsEn)?.length || 0,
+    }),
     alternates: hreflangAlternates(`quests/${slug}`, lang),
   };
 }

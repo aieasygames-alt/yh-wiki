@@ -14,6 +14,52 @@ import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
+function buildGuideMetaDescription(args: {
+  locale: Locale;
+  summary?: string;
+  category?: string;
+  relatedCharacters?: string[];
+  relatedLocations?: string[];
+  relatedLore?: string[];
+}) {
+  const { locale, summary = "", category, relatedCharacters = [], relatedLocations = [], relatedLore = [] } = args;
+  const cleaned = summary.replace(/\s+/g, " ").trim();
+  const segments = [cleaned];
+
+  if (category) {
+    segments.push(
+      locale === "en"
+        ? `Topic: ${category}.`
+        : locale === "tw"
+          ? `主題聚焦：${category}。`
+          : `主题聚焦：${category}。`
+    );
+  }
+
+  if (relatedCharacters.length > 0) {
+    segments.push(
+      locale === "en"
+        ? `Covers ${relatedCharacters.length} related character${relatedCharacters.length === 1 ? "" : "s"}.`
+        : locale === "tw"
+          ? `並串連 ${relatedCharacters.length} 名相關角色。`
+          : `并串联 ${relatedCharacters.length} 名相关角色。`
+    );
+  }
+
+  if (relatedLocations.length > 0 || relatedLore.length > 0) {
+    const relatedCount = relatedLocations.length + relatedLore.length;
+    segments.push(
+      locale === "en"
+        ? `Includes ${relatedCount} linked location or lore reference${relatedCount === 1 ? "" : "s"}.`
+        : locale === "tw"
+          ? `同時整理 ${relatedCount} 個相關地點或世界觀線索。`
+          : `同时整理 ${relatedCount} 个相关地点或世界观线索。`
+    );
+  }
+
+  return segments.join(" ").trim();
+}
+
 export function generateStaticParams() {
   const guides = getAllGuides();
   return guides.flatMap((g) => LOCALES.map((lang) => ({ lang, slug: g.id })));
@@ -31,7 +77,15 @@ export async function generateMetadata({
   const seoTitle = localizedText(locale, guide.seoTitleZh || guide.title, guide.seoTitleEn || guide.titleEn, guide.seoTitleTw || guide.titleTw);
   const title = locale === "tw" && seoTitle === guide.title ? `${seoTitle}（繁中）` : seoTitle;
   const seoDescription = localizedText(locale, guide.seoDescriptionZh || guide.summary, guide.seoDescriptionEn || guide.summaryEn, guide.seoDescriptionTw || guide.summaryTw);
-  const description = locale === "tw" && seoDescription === guide.summary ? `${seoDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : seoDescription;
+  const baseDescription = locale === "tw" && seoDescription === guide.summary ? `${seoDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : seoDescription;
+  const description = buildGuideMetaDescription({
+    locale,
+    summary: baseDescription,
+    category: localizedText(locale, guide.categoryZh, guide.categoryEn, guide.categoryTw || guide.categoryZh),
+    relatedCharacters: guide.relatedCharacters,
+    relatedLocations: guide.relatedLocations,
+    relatedLore: guide.relatedLore,
+  });
   return {
     title,
     description,

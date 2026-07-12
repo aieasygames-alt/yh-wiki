@@ -7,6 +7,50 @@ import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { localizedText } from "../../../../lib/seo-copy";
 
+function buildLoreMetaDescription(args: {
+  locale: Locale;
+  summary?: string;
+  category?: string;
+  relatedCharacters?: number;
+  relatedLocations?: number;
+}) {
+  const { locale, summary = "", category, relatedCharacters = 0, relatedLocations = 0 } = args;
+  const cleaned = summary.replace(/\s+/g, " ").trim();
+  const segments = [cleaned];
+
+  if (category) {
+    segments.push(
+      locale === "en"
+        ? `Lore category: ${category}.`
+        : locale === "tw"
+          ? `此條目屬於${category}。`
+          : `该条目属于${category}。`
+    );
+  }
+
+  if (relatedCharacters > 0) {
+    segments.push(
+      locale === "en"
+        ? `Connected to ${relatedCharacters} character${relatedCharacters === 1 ? "" : "s"}.`
+        : locale === "tw"
+          ? `並關聯 ${relatedCharacters} 名角色。`
+          : `并关联 ${relatedCharacters} 名角色。`
+    );
+  }
+
+  if (relatedLocations > 0) {
+    segments.push(
+      locale === "en"
+        ? `Also links ${relatedLocations} location${relatedLocations === 1 ? "" : "s"}.`
+        : locale === "tw"
+          ? `同時連到 ${relatedLocations} 個相關地點。`
+          : `同时连到 ${relatedLocations} 个相关地点。`
+    );
+  }
+
+  return segments.join(" ").trim();
+}
+
 export function generateStaticParams() {
   const loreItems = getAllLore();
   return loreItems.flatMap((l) => LOCALES.map((lang) => ({ lang, slug: l.id })));
@@ -22,7 +66,13 @@ export async function generateMetadata({
   if (!lore) return {};
   const locale = lang as Locale;
   const name = localizedText(locale, lore.name, lore.nameEn);
-  const description = localizedText(locale, lore.summary, lore.summaryEn);
+  const description = buildLoreMetaDescription({
+    locale,
+    summary: localizedText(locale, lore.summary, lore.summaryEn),
+    category: localizedText(locale, lore.categoryZh, lore.categoryEn),
+    relatedCharacters: lore.relatedCharacters.length,
+    relatedLocations: lore.relatedLocations.length,
+  });
   const suffix = localizedText(locale, "异环世界观", "NTE Lore | Neverness to Everness");
   return {
     title: `${name} - ${suffix} | NTE Guide`,

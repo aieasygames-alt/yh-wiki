@@ -19,6 +19,52 @@ function buildFaqMetaDescription(text?: string): string | undefined {
   return cleaned.length > 160 ? `${cleaned.slice(0, 157).trim()}...` : cleaned;
 }
 
+function enrichFaqMetaDescription(args: {
+  locale: Locale;
+  description: string;
+  category?: string;
+  tags?: string[];
+  relatedCharacters?: number;
+  relatedMaterials?: number;
+}) {
+  const { locale, description, category, tags = [], relatedCharacters = 0, relatedMaterials = 0 } = args;
+  const cleaned = description.replace(/\s+/g, " ").trim();
+  const segments = [cleaned];
+
+  if (category) {
+    segments.push(
+      locale === "en"
+        ? `Category: ${category}.`
+        : locale === "tw"
+          ? `主題分類：${category}。`
+          : `主题分类：${category}。`
+    );
+  }
+
+  if (tags.length > 0) {
+    segments.push(
+      locale === "en"
+        ? `Focuses on ${tags.slice(0, 3).join(", ")}${tags.length > 3 ? ", and more" : ""}.`
+        : locale === "tw"
+          ? `重點涵蓋 ${tags.slice(0, 3).join("、")}${tags.length > 3 ? " 等主題" : ""}。`
+          : `重点涵盖 ${tags.slice(0, 3).join("、")}${tags.length > 3 ? " 等主题" : ""}。`
+    );
+  }
+
+  if (relatedCharacters > 0 || relatedMaterials > 0) {
+    const relatedCount = relatedCharacters + relatedMaterials;
+    segments.push(
+      locale === "en"
+        ? `Also links ${relatedCount} related character or material reference${relatedCount === 1 ? "" : "s"}.`
+        : locale === "tw"
+          ? `並補充 ${relatedCount} 個相關角色或材料線索。`
+          : `并补充 ${relatedCount} 个相关角色或材料线索。`
+    );
+  }
+
+  return segments.join(" ").trim();
+}
+
 export function generateStaticParams() {
   const faqs = getAllFaqs();
   return faqs.flatMap((f) => LOCALES.map((lang) => ({ lang, slug: f.id })));
@@ -60,15 +106,23 @@ export async function generateMetadata({
     faq.seoDescriptionEn || fallbackDescription,
     faq.seoDescriptionTw || fallbackDescription
   );
+  const enrichedDescription = enrichFaqMetaDescription({
+    locale,
+    description,
+    category: pickLocalizedText(locale, faq.categoryZh, faq.categoryEn, faq.categoryTw),
+    tags: faq.tags,
+    relatedCharacters: faq.relatedCharacters.length,
+    relatedMaterials: faq.relatedMaterials.length,
+  });
 
   return {
     title,
-    description,
+    description: enrichedDescription,
     keywords: localizedSeoKeywords(locale),
     alternates: hreflangAlternates(`faq/${slug}`, lang),
     openGraph: {
       title,
-      description,
+      description: enrichedDescription,
       type: "article",
     },
   };
