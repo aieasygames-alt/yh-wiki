@@ -10,17 +10,23 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-
   const title = localizedText(locale, "API 文档", "API Documentation");
+  const endpointCount = ENDPOINTS.length;
+  const description = localizedText(
+    locale,
+    `NTE Guide 公开 API 文档，当前提供 ${endpointCount} 个 JSON 数据入口，覆盖角色、兑换码、搜索索引与站点地图，适合社区工具、攻略站和第三方应用接入。`,
+    `NTE Guide public API docs with ${endpointCount} JSON endpoints covering characters, redeem codes, search index, and sitemap resources for community tools and third-party apps.`
+  );
 
   return {
     title,
-    description: localizedText(
-      locale,
-      "NTE Guide 公开 API 文档，提供角色、武器、材料、兑换码、搜索索引和站点地图等 JSON 数据接口，适合社区工具、攻略站与第三方应用接入。",
-      "NTE Guide public API documentation for JSON data endpoints covering characters, weapons, materials, redeem codes, search index, and sitemaps for community tools and third-party apps."
-    ),
+    description,
     alternates: hreflangAlternates("api", lang),
+    openGraph: {
+      title,
+      description,
+      type: "website",
+    },
   };
 }
 
@@ -54,6 +60,7 @@ const ENDPOINTS = [
 export default async function ApiDocsPage({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const endpointCount = ENDPOINTS.length;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
@@ -69,8 +76,8 @@ export default async function ApiDocsPage({ params }: { params: { lang: string }
       </h1>
       <p className="text-gray-500 mb-2 text-sm">
         {isZhLocale(locale)
-          ? "NTE Guide 提供公开的 JSON 数据接口，供社区工具和第三方应用使用。"
-          : "NTE Guide provides public JSON data endpoints for community tools and third-party applications."}
+          ? `NTE Guide 提供 ${endpointCount} 个公开 JSON 数据接口，供社区工具和第三方应用使用。`
+          : `NTE Guide provides ${endpointCount} public JSON data endpoints for community tools and third-party applications.`}
       </p>
       <p className="text-gray-600 mb-8 text-xs">
         Base URL: <code className="text-primary-400">https://nteguide.com</code>

@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       ? "联系我们 — NTE Guide"
       : "Contact Us — NTE Guide";
   const description = isTw
-    ? "聯絡 NTE Guide 團隊。如有建議、合作或問題，歡迎通過郵箱 contact@nteguide.com 聯繫我們。"
+    ? "聯絡 NTE Guide 團隊：提交內容更正、合作需求、工具回饋或網站問題，並透過 contact@nteguide.com 取得回覆。"
     : isZhLocale(locale)
-      ? "联系 NTE Guide 团队。如有建议、合作或问题，欢迎通过邮箱 contact@nteguide.com 联系我们。"
-      : "Contact the NTE Guide team. For suggestions, collaborations, or questions, reach us at contact@nteguide.com.";
+      ? "联系 NTE Guide 团队：提交内容更正、合作需求、工具反馈或网站问题，并通过 contact@nteguide.com 获取回复。"
+      : "Contact the NTE Guide team for content corrections, partnership requests, tool feedback, or site issues through contact@nteguide.com.";
 
   return {
     title,

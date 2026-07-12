@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       ? "关于我们 — NTE Guide"
       : "About Us — NTE Guide";
   const description = isTw
-    ? "關於 NTE Guide — 異環玩家社群工具站，提供角色資料、強度排行、養成計算器等實用工具。"
+    ? "關於 NTE Guide：一個專注異環的玩家社群工具站，整理角色資料、配隊與強度榜、互動工具、版本攻略與常用查詢入口。"
     : isZhLocale(locale)
-      ? "关于 NTE Guide — 异环玩家社群工具站，提供角色资料、强度排行、养成计算器等实用工具。"
-      : "About NTE Guide — A community-driven resource for Neverness to Everness players.";
+      ? "关于 NTE Guide：一个专注异环的玩家社群工具站，整理角色资料、配队与强度榜、互动工具、版本攻略和常用查询入口。"
+      : "About NTE Guide, a community-driven Neverness to Everness hub covering character data, team and tier resources, interactive tools, update guides, and practical lookup pages.";
 
   return {
     title,

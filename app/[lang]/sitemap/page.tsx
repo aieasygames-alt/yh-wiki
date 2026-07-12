@@ -11,20 +11,27 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
+  const totalPages = SECTIONS.reduce((acc, section) => acc + section.items.length, 0);
 
   const title = isZhLocale(locale)
     ? (locale === "tw" ? "網站地圖" : "网站地图")
     : "Sitemap";
+  const description = localizedText(
+    locale,
+    `NTE Guide 网站地图，整理 ${totalPages} 个主要入口，涵盖异环攻略、工具、数据库、比较页、FAQ 与站内信息页，方便快速定位内容。`,
+    `NTE Guide sitemap with ${totalPages} primary links covering guides, tools, databases, comparison pages, FAQs, and key information hubs for Neverness to Everness.`,
+    `NTE Guide 網站地圖，整理 ${totalPages} 個主要入口，涵蓋異環攻略、工具、資料庫、比較頁、FAQ 與站內資訊頁。`
+  );
 
   return {
     title,
-    description: localizedText(
-      locale,
-      "NTE Guide 网站地图 — 汇总异环攻略、工具、数据库、比较页和资源入口，快速找到你需要的内容。",
-      "NTE Guide sitemap — quickly find every guide, tool, database page, comparison hub, FAQ, and resource for Neverness to Everness.",
-      "NTE Guide 繁中網站地圖 — 整理異環攻略、工具、資料庫、比較頁與常見問題入口，方便快速定位內容。"
-    ),
+    description,
     alternates: hreflangAlternates("sitemap", lang),
+    openGraph: {
+      title,
+      description,
+      type: "website",
+    },
   };
 }
 
