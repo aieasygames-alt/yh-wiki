@@ -3666,6 +3666,10 @@
     "id": "jiuyuan-worth-building",
     "question": "异环九原值得培养吗？",
     "questionEn": "Is Jiuyuan worth building in NTE?",
+    "seoTitleZh": "异环九原值得培养吗？功能价值与账号适配判断",
+    "seoTitleEn": "Is Jiuyuan Worth Building in NTE? Role Value & Account Fit",
+    "seoDescriptionZh": "异环九原适合什么账号？这篇整理控制、副输出和过渡核心价值的判断思路。",
+    "seoDescriptionEn": "Learn whether Jiuyuan is worth building in NTE by comparing crowd control, sub-DPS value, and how well the role fits your roster.",
     "answer": "九原值不值得培养，现在更适合从**你的账号是否缺少泛用控制、补位副输出或过渡核心**来判断，而不是继续把他写成所有常驻自选里的固定首推。对很多账号来说，他的价值确实可能很高，但前提仍然是这些功能正好是你当前最缺的。\n\n更稳妥的判断方式是：\n1) 如果你的阵容经常缺聚怪、控制或副输出衔接，九原这类多功能角色通常更容易上场\n2) 如果你的账号已经有完整主队，是否培养就要看他能不能真正进入常用阵容，而不是只看早期口碑\n3) 常驻自选最怕选到和现有体系高度重叠、短期内上不了场的角色\n\n所以这页现在保留的是**九原的功能价值与账号适配逻辑**，而不是继续输出“常驻必选”的单一答案。",
     "answerEn": "The standard-banner selector is most useful when it fills the most painful gap in your roster, not when it blindly follows one old priority order. A unit with crowd control and broad versatility can absolutely be high value, but the real question is whether your account currently lacks stability, utility, or a bridge piece for the teams you are actually building.\n\nA safer way to choose is:\n1. Prioritize flexibility if your roster is still shallow and you need one unit to solve many problems\n2. Prioritize role coverage if your current teams are missing grouping, sustain, or a usable secondary damage slot\n3. Avoid duplicating a function you already cover well unless you are intentionally building around that synergy\n\nSo this page now keeps the selector logic tied to account needs rather than treating one standard unit as the permanent automatic pick.",
     "tags": [
@@ -3683,6 +3687,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環九原值得培養嗎？",
+    "seoTitleTw": "異環九原值得培養嗎？功能價值與帳號適配判斷",
+    "seoDescriptionTw": "異環九原適合什麼帳號？這篇整理控制、副輸出和過渡核心價值的判斷思路。",
     "answerTw": "九原值不值得培養，現在更適合從**你的帳號是否缺少泛用控制、補位副輸出或過渡核心**來判斷，而不是繼續把他寫成所有常駐自選裡的固定首推。對很多帳號來說，他的價值確實可能很高，但前提仍然是這些功能正好是你目前最缺的。\n\n更穩妥的判斷方式是：\n1) 如果你的陣容經常缺聚怪、控制或副輸出銜接，九原這類多功能角色通常更容易上場\n2) 如果你的帳號已經有完整主隊，是否培養就要看他能不能真正進入常用陣容，而不是只看早期口碑\n3) 常駐自選最怕選到和現有體系高度重疊、短期內上不了場的角色\n\n所以這頁現在保留的是**九原的功能價值與帳號適配邏輯**，而不是繼續輸出「常駐必選」的單一答案。",
     "categoryTw": "角色培養"
   },
@@ -3690,6 +3696,10 @@
     "id": "baicang-worth-building",
     "question": "异环白藏值得培养吗？",
     "questionEn": "Is Baicang worth building in NTE?",
+    "seoTitleZh": "异环白藏值得培养吗？定位价值与主队适配判断",
+    "seoTitleEn": "Is Baicang Worth Building in NTE? Role Value & Team Fit",
+    "seoDescriptionZh": "异环白藏值不值得养？这篇整理输出与功能兼顾的价值，以及她是否适合你的主队。",
+    "seoDescriptionEn": "Learn whether Baicang is worth building in NTE by judging damage pressure, utility coverage, and how well the role fits your teams.",
     "answer": "白藏值不值得培养，现在更适合从**你的账号是否缺少一个能兼顾输出与功能性的角色**来判断，而不是继续沿用“开荒首选之一”的固定口径。对当前玩家来说，更实用的问题通常是：她能不能真正进入你的主队、你现在缺不缺她擅长承担的位置，以及你的资源是否足够支持她的体系。\n\n更稳妥的理解方式是：\n1) 如果你的阵容缺少既能承担站场压力、又能补足机制价值的角色，白藏会更容易体现价值\n2) 如果你已经有成熟主力，就要看她是补短板还是和现有角色功能重叠\n3) 与其把她直接写成人人优先的首选，不如先判断她是否真的适合你现在的常用体系\n\n所以这页现在保留的是**白藏的功能价值与适配判断逻辑**，而不是继续给出一个固定优先级。",
     "answerEn": "Baicang is better judged by **whether your roster needs a character who can combine damage pressure with useful role coverage**, not by treating them as an automatic progression pick for everyone. For current players, the practical questions are whether Baicang really enters your main teams, whether you are missing the kind of slot they fill well, and whether your account can support that team structure.\n\nA safer way to judge the value is:\n1. Baicang becomes easier to justify if your roster lacks a unit who can both contribute damage and carry meaningful mechanical utility\n2. If your account already has stable cores, the real question is whether Baicang fills a gap or just overlaps with what you already do well\n3. Instead of assigning a universal priority, judge whether Baicang actually improves your current team plans\n\nSo this page now focuses on Baicang's role value and account fit rather than preserving a fixed early-priority recommendation.",
     "tags": [
@@ -3707,6 +3717,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環白藏值得培養嗎？",
+    "seoTitleTw": "異環白藏值得培養嗎？定位價值與主隊適配判斷",
+    "seoDescriptionTw": "異環白藏值不值得養？這篇整理輸出與功能兼顧的價值，以及她是否適合你的主隊。",
     "answerTw": "白藏值不值得培養，現在更適合從**你的帳號是否缺少一個能兼顧輸出與功能性的角色**來判斷，而不是繼續沿用「開荒首選之一」的固定口徑。對目前玩家來說，更實用的問題通常是：她能不能真正進入你的主隊、你現在缺不缺她擅長承擔的位置，以及你的資源是否足夠支撐她的體系。\n\n更穩妥的理解方式是：\n1) 如果你的陣容缺少既能承擔站場壓力、又能補足機制價值的角色，白藏會更容易體現價值\n2) 如果你已經有成熟主力，就要看她是補短板還是和現有角色功能重疊\n3) 與其把她直接寫成人人優先的首選，不如先判斷她是否真的適合你現在的常用體系\n\n所以這頁現在保留的是**白藏的功能價值與適配判斷邏輯**，而不是繼續給出一個固定優先級。",
     "categoryTw": "角色培養"
   },
@@ -3714,6 +3726,10 @@
     "id": "daily-routine",
     "question": "异环每天做什么？日常任务优先级",
     "questionEn": "What to do daily in NTE? Daily task priority guide",
+    "seoTitleZh": "异环每天做什么？日常优先级与体力分配思路",
+    "seoTitleEn": "What to Do Daily in NTE — Routine Priorities & Stamina Logic",
+    "seoDescriptionZh": "异环日常先做什么更划算？这篇整理每日任务、周常奖励和体力分配优先级。",
+    "seoDescriptionEn": "A practical NTE daily-routine guide covering task priorities, weekly value, and where stamina should go first.",
     "answer": "这条“每天做什么”FAQ 现在更适合回答**你的日常时间和体力应该先保什么，再决定哪些项目要额外投入**，而不是继续把一张固定清单和“前 3 次体力必买”写成对所有玩家都成立的标准动作。对当前玩家来说，更实际的问题通常是：你是刚开荒、正在补主队，还是已经进入稳定周回阶段；你每天能投入多久，以及当前版本有哪些活动会临时改变优先级。\n\n更稳妥的理解方式是：\n1. 先保证能稳定拿到的日常活跃、委托和周常奖励，不要漏掉低成本高回报的基础项目\n2. 体力优先给当前最影响推进效率的角色、材料或功能线，而不是机械照抄同一套刷法\n3. 额外买不买体力，本质上取决于你的资源预算、养成压力和当前活动收益，不该被写成所有账号默认都必须执行的动作\n\n所以这页现在保留的是**日常优先级与体力分配逻辑**，帮助你按账号阶段做取舍，而不是继续输出一份很快僵化的固定清单。",
     "answerEn": "This daily-routine page is more useful when it explains **which daily rewards and stamina uses you should protect first, and which tasks deserve extra investment only after that** instead of preserving one rigid checklist and treating the first three stamina refills as mandatory for every account. For current players, the practical questions are whether they are still in early progression, stabilizing a core team, or already in a repeatable weekly loop, how much time they can spend each day, and whether current events temporarily shift priority.\n\nA safer way to read it is:\n1. Secure the low-cost, high-return daily and weekly rewards first so your baseline progression does not leak value\n2. Spend stamina where it most improves your current push speed, team stability, or important system progress rather than copying one universal farm order\n3. Whether to buy extra stamina should depend on your resource budget, growth pressure, and event value, not be written as a default action for every player\n\nSo this page now focuses on daily-priority judgment and stamina-allocation logic instead of preserving one fixed checklist that quickly hardens into outdated advice.",
     "tags": [
@@ -3729,6 +3745,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環每天做什麼？日常任務優先順序",
+    "seoTitleTw": "異環每天做什麼？日常優先順序與體力分配思路",
+    "seoDescriptionTw": "異環日常先做什麼更划算？這篇整理每日任務、週常獎勵和體力分配優先順序。",
     "answerTw": "這條「每天做什麼」FAQ 現在更適合回答**你的日常時間和體力應該先保什麼，再決定哪些項目要額外投入**，而不是繼續把一張固定清單和「前 3 次體力必買」寫成對所有玩家都成立的標準動作。對目前玩家來說，更實際的問題通常是：你是剛開荒、正在補主隊，還是已經進入穩定周回階段；你每天能投入多久，以及目前版本有哪些活動會臨時改變優先順序。\n\n更穩妥的理解方式是：\n1. 先確保能穩定拿到的日常活躍、委託和周常獎勵，不要漏掉低成本高回報的基礎項目\n2. 體力優先給目前最影響推進效率的角色、材料或功能線，而不是機械照抄同一套刷法\n3. 額外買不買體力，本質上取決於你的資源預算、養成壓力和目前活動收益，不該被寫成所有帳號預設都必須執行的動作\n\n所以這頁現在保留的是**日常優先順序與體力分配邏輯**，幫助你按帳號階段做取捨，而不是繼續輸出一份很快僵化的固定清單。",
     "categoryTw": "日常玩法"
   },
@@ -3736,6 +3754,10 @@
     "id": "wrong-server-transfer",
     "question": "异环选错了服务器可以转服吗？",
     "questionEn": "Can I transfer servers if I picked the wrong one in NTE?",
+    "seoTitleZh": "异环选错服务器可以转服吗？账号与服务器处理说明",
+    "seoTitleEn": "Can You Transfer Servers in NTE? Wrong-Server Handling Guide",
+    "seoDescriptionZh": "异环选错服务器后怎么办？这篇整理能否转服、重建角色成本和事前避免方法。",
+    "seoDescriptionEn": "Learn what happens if you pick the wrong server in NTE, whether transfers are possible, and how to avoid account-region mistakes early.",
     "answer": "目前异环不支持跨服转服功能。角色数据绑定在创建时的服务器上，无法迁移到其他服务器。建议在开始游戏前确认好要进入的服务器，和朋友提前沟通好选择同一服务器。如果不小心选错了，只能在新服务器重新创建角色。关注官方公告，未来可能开放转服功能。",
     "answerEn": "NTE currently does not support server transfers. Character data is bound to the server where it was created and cannot be migrated. Make sure to confirm your server choice before starting, and coordinate with friends to join the same server. If you picked the wrong one, you'll need to create a new character on the correct server. Watch for official announcements — server transfer may be added in the future.",
     "tags": [
@@ -3750,6 +3772,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環選錯了伺服器可以轉服嗎？",
+    "seoTitleTw": "異環選錯伺服器可以轉服嗎？帳號與伺服器處理說明",
+    "seoDescriptionTw": "異環選錯伺服器後怎麼辦？這篇整理能否轉服、重建角色成本和事前避免方法。",
     "answerTw": "目前異環不支援跨服轉服功能。角色資料繫結在建立時的伺服器上，無法遷移到其他伺服器。建議在開始遊戲前確認好要進入的伺服器，和朋友提前溝通好選擇同一伺服器。如果不小心選錯了，只能在新伺服器重新建立角色。關注官方公告，未來可能開放轉服功能。",
     "categoryTw": "技術支援"
   },
@@ -3757,6 +3781,10 @@
     "id": "login-verification-code-not-received",
     "question": "异环登录收不到手机验证码怎么办？",
     "questionEn": "NTE login verification code not received? How to fix",
+    "seoTitleZh": "异环登录收不到手机验证码怎么办？短信验证排查顺序",
+    "seoTitleEn": "NTE Login Code Not Received — SMS Verification Troubleshooting",
+    "seoDescriptionZh": "异环登录收不到验证码先查什么？这篇整理手机号、短信拦截、运营商和替代登录排查顺序。",
+    "seoDescriptionEn": "A practical NTE SMS-code troubleshooting guide covering phone number checks, spam filtering, carrier blocking, and fallback login options.",
     "answer": "1)检查手机号是否输入正确 2)查看短信是否被拦截/归入垃圾短信 3)等待60秒后重新获取 4)切换网络（WiFi/4G/5G）重试 5)联系运营商确认没有屏蔽短信号码 6)如果仍无法收到，尝试使用邮箱登录方式 7)联系官方客服提供手机号和注册信息协助处理。",
     "answerEn": "1) Check that your phone number is entered correctly 2) Check if the SMS was blocked or filtered as spam 3) Wait 60 seconds and request again 4) Switch networks (WiFi/4G/5G) and retry 5) Contact your carrier to confirm the short code isn't blocked 6) If still not received, try logging in with email instead 7) Contact official customer support with your phone number and registration info for assistance.",
     "tags": [
@@ -3771,6 +3799,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環登入收不到手機驗證碼怎麼辦？",
+    "seoTitleTw": "異環登入收不到手機驗證碼怎麼辦？簡訊驗證排查順序",
+    "seoDescriptionTw": "異環登入收不到驗證碼先查什麼？這篇整理手機號、簡訊攔截、運營商和替代登入排查順序。",
     "answerTw": "1)檢查手機號是否輸入正確 2)檢視簡訊是否被攔截/歸入垃圾簡訊 3)等待60秒後重新獲取 4)切換網路（WiFi/4G/5G）重試 5)聯絡運營商確認沒有遮蔽簡訊號碼 6)如果仍無法收到，嘗試使用郵箱登入方式 7)聯絡官方客服提供手機號和註冊資訊協助處理。",
     "categoryTw": "技術支援"
   },
@@ -3778,6 +3808,10 @@
     "id": "login-white-screen",
     "question": "异环PC端登录白屏/黑屏怎么解决？",
     "questionEn": "NTE PC login white screen or black screen fix",
+    "seoTitleZh": "异环PC登录白屏黑屏怎么解决？渲染与显示排查指南",
+    "seoTitleEn": "NTE PC Login White/Black Screen — Render & Display Troubleshooting",
+    "seoDescriptionZh": "异环 PC 登录白屏黑屏先查什么？这篇整理渲染初始化、显示模式和运行环境排查顺序。",
+    "seoDescriptionEn": "Learn how to troubleshoot NTE PC login white-screen or black-screen issues by checking renderer setup, display mode, and runtime environment in order.",
     "answer": "这条“登录白屏/黑屏”FAQ 现在更适合回答**问题更像是渲染初始化失败、显示模式冲突，还是运行环境缺失**，而不是继续把一串固定操作步骤写成长期万能解法。对当前玩家来说，更重要的通常是：黑屏发生在启动器后、进入登录界面前，还是已经进游戏渲染阶段；因为不同阶段对应的排查方向并不一样。\n\n更稳妥的理解方式是：\n1. 先区分问题属于图形驱动与渲染接口、显示模式兼容性，还是运行库/权限/文件完整性层面\n2. 与其死记某一个文件夹名或单一设置项，不如按“驱动与渲染器 -> 显示模式 -> 运行环境与文件状态”的顺序逐层排查\n3. 某一版系统设置、某一张显卡或某个缓存目录的经验只能当作案例参考，不该被长期写成唯一答案\n\n所以这页现在保留的是**白屏/黑屏问题的分类判断与排查顺序**，而不是继续保留一版很容易随版本和系统环境过时的固定 checklist。",
     "answerEn": "This white-screen or black-screen page is more useful when it explains **whether the problem behaves more like a render-initialization failure, a display-mode conflict, or a missing runtime/environment issue** instead of preserving one long static checklist as a timeless fix. For current players, the practical question is whether the screen failure happens right after the launcher, before the login scene loads, or later during in-game rendering, because each stage points to a different troubleshooting path.\n\nA safer way to read it is:\n1. First separate graphics-driver and renderer issues from display-mode compatibility and from runtime, permission, or file-integrity problems\n2. Instead of memorizing one folder name or one setting toggle, troubleshoot in layers: driver and renderer -> display mode -> runtime environment and file state\n3. Any advice tied to one GPU generation, one Windows setting, or one cache folder should be treated as a case example rather than a permanent single answer\n\nSo this page now focuses on classification logic and troubleshooting order for white-screen and black-screen failures instead of preserving one environment-specific checklist that ages quickly.",
     "tags": [
@@ -3793,6 +3827,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環PC端登入白屏/黑屏怎麼解決？",
+    "seoTitleTw": "異環PC登入白屏黑屏怎麼解決？渲染與顯示排查指南",
+    "seoDescriptionTw": "異環 PC 登入白屏黑屏先查什麼？這篇整理渲染初始化、顯示模式和執行環境排查順序。",
     "answerTw": "這條「登入白屏／黑屏」FAQ 現在更適合回答**問題更像是渲染初始化失敗、顯示模式衝突，還是執行環境缺失**，而不是繼續把一串固定操作步驟寫成長期萬用解法。對目前玩家來說，更重要的通常是：黑屏發生在啟動器後、進入登入畫面前，還是已經進遊戲渲染階段；因為不同階段對應的排查方向並不一樣。\n\n更穩妥的理解方式是：\n1. 先區分問題屬於圖形驅動與渲染介面、顯示模式相容性，還是執行庫／權限／檔案完整性層面\n2. 與其死記某一個資料夾名稱或單一設定項，不如按「驅動與渲染器 -> 顯示模式 -> 執行環境與檔案狀態」的順序逐層排查\n3. 某一版系統設定、某一張顯示卡或某個快取目錄的經驗只能當作案例參考，不該被長期寫成唯一答案\n\n所以這頁現在保留的是**白屏／黑屏問題的分類判斷與排查順序**，而不是繼續保留一版很容易隨版本和系統環境過時的固定 checklist。",
     "categoryTw": "技術支援"
   },
@@ -3800,6 +3836,10 @@
     "id": "server-queue-long",
     "question": "异环服务器排队时间太长怎么办？",
     "questionEn": "NTE server queue too long? How to reduce wait time",
+    "seoTitleZh": "异环服务器排队太长怎么办？高峰期等待与避堵思路",
+    "seoTitleEn": "NTE Server Queue Too Long — Peak-Time Wait & Queue Strategy",
+    "seoDescriptionZh": "异环排队太久先怎么办？这篇整理高峰期登录、重排风险和减少等待的实用思路。",
+    "seoDescriptionEn": "A practical NTE queue guide covering peak-time login behavior, requeue risk, and simple ways to reduce long server waits.",
     "answer": "高峰期（晚上7-11点、周末）排队人数较多属于正常现象。建议：1)避开高峰时段登录 2)选择人数较少的服务器 3)保持排队不要反复取消重排，否则会重新排队 4)关注官方维护公告，维护后登录人数激增 5)提前在非高峰时段保持在线。排队期间不要关闭游戏窗口。",
     "answerEn": "Long queues during peak hours (7-11 PM, weekends) are normal. Tips: 1) Avoid peak hours 2) Choose a less populated server 3) Stay in queue — don't cancel and re-queue or you'll restart 4) Watch for maintenance announcements — login surges after maintenance 5) Log in during off-peak hours and stay online. Don't close the game window while queuing.",
     "tags": [
@@ -3814,6 +3854,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環伺服器排隊時間太長怎麼辦？",
+    "seoTitleTw": "異環伺服器排隊太長怎麼辦？高峰期等待與避堵思路",
+    "seoDescriptionTw": "異環排隊太久先怎麼辦？這篇整理高峰期登入、重排風險和減少等待的實用思路。",
     "answerTw": "高峰期（晚上7-11點、週末）排隊人數較多屬於正常現象。建議：1)避開高峰時段登入 2)選擇人數較少的伺服器 3)保持排隊不要反覆取消重排，否則會重新排隊 4)關注官方維護公告，維護後登入人數激增 5)提前在非高峰時段保持線上。排隊期間不要關閉遊戲視窗。",
     "categoryTw": "技術支援"
   },
@@ -3821,6 +3863,10 @@
     "id": "high-latency-lag",
     "question": "异环游戏延迟高/网络卡顿怎么解决？",
     "questionEn": "How to fix high latency and network lag in NTE?",
+    "seoTitleZh": "异环延迟高网络卡顿怎么解决？网络链路排查顺序",
+    "seoTitleEn": "How to Fix NTE High Ping & Network Lag — Connection Troubleshooting",
+    "seoDescriptionZh": "异环高延迟先查什么？这篇整理本地网络、加速线路、DNS 和服务器状态排查顺序。",
+    "seoDescriptionEn": "Learn how to troubleshoot NTE high ping and network lag by checking local network quality, route choice, DNS, and server-side factors in order.",
     "answer": "1)使用有线网络代替WiFi 2)关闭后台下载和流媒体应用 3)使用游戏加速器（迅游/biubiu/雷神等） 4)更换加速节点 5)重启路由器 6)检查DNS设置，尝试使用公共DNS（114.114.114.114或8.8.8.8） 7)海外玩家建议选择对应区域的加速线路。如果持续高延迟，可能是服务器维护，查看官方公告。",
     "answerEn": "1) Use a wired connection instead of WiFi 2) Close background downloads and streaming apps 3) Use a game VPN/accelerator (Xunyou/Biubiu/Leishen etc.) 4) Switch accelerator nodes 5) Restart your router 6) Check DNS settings — try public DNS (8.8.8.8 or 1.1.1.1) 7) Overseas players should select the appropriate regional acceleration route. If latency persists, check official announcements for server maintenance.",
     "tags": [
@@ -3835,6 +3881,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環遊戲延遲高/網路卡頓怎麼解決？",
+    "seoTitleTw": "異環延遲高網路卡頓怎麼解決？網路鏈路排查順序",
+    "seoDescriptionTw": "異環高延遲先查什麼？這篇整理本地網路、加速線路、DNS 和伺服器狀態排查順序。",
     "answerTw": "1)使用有線網路代替WiFi 2)關閉後臺下載和流媒體應用 3)使用遊戲加速器（迅遊/biubiu/雷神等） 4)更換加速節點 5)重啟路由器 6)檢查DNS設定，嘗試使用公共DNS（114.114.114.114或8.8.8.8） 7)海外玩家建議選擇對應區域的加速線路。如果持續高延遲，可能是伺服器維護，檢視官方公告。",
     "categoryTw": "技術支援"
   },
@@ -3842,6 +3890,10 @@
     "id": "dx12-error",
     "question": "异环DX12报错/启动失败怎么办？",
     "questionEn": "NTE DX12 error or failed to launch? How to fix",
+    "seoTitleZh": "异环DX12报错启动失败怎么办？接口兼容排查指南",
+    "seoTitleEn": "NTE DX12 Error or Launch Failure — API Compatibility Troubleshooting",
+    "seoDescriptionZh": "异环 DX12 报错先查什么？这篇整理显卡支持、DX11 切换、系统更新和文件修复思路。",
+    "seoDescriptionEn": "A practical NTE DX12 troubleshooting guide covering GPU support, DX11 fallback, Windows updates, and file-integrity checks.",
     "answer": "1)确认显卡支持DX12（GTX 700系列以下不支持） 2)在启动器设置中切换为DX11模式 3)更新Windows系统至最新版本 4)更新显卡驱动 5)运行DirectX修复工具 6)检查游戏文件完整性（启动器→设置→修复）。如果显卡不支持DX12，只能使用DX11模式，部分画面效果会有差异。",
     "answerEn": "1) Confirm your GPU supports DX12 (GTX 700 series and below do not) 2) Switch to DX11 mode in launcher settings 3) Update Windows to the latest version 4) Update GPU drivers 5) Run DirectX repair tool 6) Verify game file integrity (Launcher → Settings → Repair). If your GPU doesn't support DX12, you can only use DX11 mode — some visual effects may differ.",
     "tags": [
@@ -3857,6 +3909,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環DX12報錯/啟動失敗怎麼辦？",
+    "seoTitleTw": "異環DX12報錯啟動失敗怎麼辦？介面相容排查指南",
+    "seoDescriptionTw": "異環 DX12 報錯先查什麼？這篇整理顯示卡支援、DX11 切換、系統更新和檔案修復思路。",
     "answerTw": "1)確認顯示卡支援DX12（GTX 700系列以下不支援） 2)在啟動器設定中切換為DX11模式 3)更新Windows系統至最新版本 4)更新顯示卡驅動 5)執行DirectX修復工具 6)檢查遊戲檔案完整性（啟動器→設定→修復）。如果顯示卡不支援DX12，只能使用DX11模式，部分畫面效果會有差異。",
     "categoryTw": "技術支援"
   },
@@ -3864,6 +3918,10 @@
     "id": "memory-leak-crash",
     "question": "异环玩久了越来越卡/内存占用高怎么办？",
     "questionEn": "NTE getting laggier over time? Memory leak fix",
+    "seoTitleZh": "异环玩久了越来越卡怎么办？内存泄漏与占用排查",
+    "seoTitleEn": "NTE Gets Worse Over Time? Memory Leak & RAM Troubleshooting",
+    "seoDescriptionZh": "异环玩久了变卡先查什么？这篇整理内存泄漏表现、后台占用和临时缓解方法。",
+    "seoDescriptionEn": "Learn how to recognize NTE memory-leak behavior, reduce RAM pressure, and apply temporary workarounds when long sessions get progressively worse.",
     "answer": "这是已知的内存泄漏问题。解决方案：1)每玩1-2小时重启一次游戏 2)关闭游戏内不必要的后台功能（录屏、直播等） 3)降低画质设置减少显存占用 4)确保系统有足够可用内存（建议16GB以上） 5)关闭其他占用内存的程序（浏览器、Discord等） 6)等待官方补丁修复。",
     "answerEn": "This is a known memory leak issue. Workarounds: 1) Restart the game every 1-2 hours 2) Disable unnecessary in-game background features (recording, streaming) 3) Lower graphics settings to reduce VRAM usage 4) Ensure sufficient system RAM (16GB+ recommended) 5) Close other memory-intensive programs (browsers, Discord, etc.) 6) Wait for an official patch.",
     "tags": [
@@ -3879,6 +3937,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環玩久了越來越卡/記憶體佔用高怎麼辦？",
+    "seoTitleTw": "異環玩久了越來越卡怎麼辦？記憶體洩漏與佔用排查",
+    "seoDescriptionTw": "異環玩久了變卡先查什麼？這篇整理記憶體洩漏表現、後臺佔用和臨時緩解方法。",
     "answerTw": "這是已知的記憶體洩漏問題。解決方案：1)每玩1-2小時重啟一次遊戲 2)關閉遊戲內不必要的後臺功能（錄屏、直播等） 3)降低畫質設定減少視訊記憶體佔用 4)確保系統有足夠可用記憶體（建議16GB以上） 5)關閉其他佔用記憶體的程式（瀏覽器、Discord等） 6)等待官方補丁修復。",
     "categoryTw": "技術支援"
   },
@@ -3886,6 +3946,10 @@
     "id": "gpu-overheating",
     "question": "异环GPU/CPU温度过高怎么降温？",
     "questionEn": "NTE causing GPU/CPU overheating? How to cool down",
+    "seoTitleZh": "异环GPUCPU温度过高怎么降温？散热与负载控制指南",
+    "seoTitleEn": "NTE GPU/CPU Overheating — Cooling & Load-Control Guide",
+    "seoDescriptionZh": "异环把 GPU 或 CPU 拉太热怎么办？这篇整理画质负载、散热条件和降温顺序。",
+    "seoDescriptionEn": "A practical NTE overheating guide covering heat sources, graphics load, airflow, and the most useful ways to lower GPU and CPU temperature.",
     "answer": "PC端：1)降低画质设置（尤其阴影和特效质量） 2)限制帧率上限（60fps） 3)清理电脑内部灰尘 4)确保机箱散热良好 5)笔记本用户使用散热垫 6)更新显卡驱动。移动端：1)降低画质和帧率 2)摘掉手机壳散热 3)避免边充电边玩 4)在空调环境下游戏 5)使用手机散热风扇。",
     "answerEn": "PC: 1) Lower graphics settings (especially shadows and effects) 2) Cap frame rate at 60fps 3) Clean dust inside your PC 4) Ensure good case airflow 5) Laptop users should use a cooling pad 6) Update GPU drivers. Mobile: 1) Lower graphics and frame rate 2) Remove phone case for better heat dissipation 3) Avoid playing while charging 4) Play in an air-conditioned environment 5) Use a phone cooling fan.",
     "tags": [
@@ -3902,6 +3966,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環GPU/CPU溫度過高怎麼降溫？",
+    "seoTitleTw": "異環GPUCPU溫度過高怎麼降溫？散熱與負載控制指南",
+    "seoDescriptionTw": "異環把 GPU 或 CPU 拉太熱怎麼辦？這篇整理畫質負載、散熱條件和降溫順序。",
     "answerTw": "PC端：1)降低畫質設定（尤其陰影和特效質量） 2)限制幀率上限（60fps） 3)清理電腦內部灰塵 4)確保機箱散熱良好 5)筆記本使用者使用散熱墊 6)更新顯示卡驅動。移動端：1)降低畫質和幀率 2)摘掉手機殼散熱 3)避免邊充電邊玩 4)在空調環境下游戲 5)使用手機散熱風扇。",
     "categoryTw": "技術支援"
   },
@@ -3909,6 +3975,10 @@
     "id": "alt-tab-black-screen",
     "question": "异环Alt+Tab切换后黑屏怎么办？",
     "questionEn": "NTE black screen after Alt+Tab? How to fix",
+    "seoTitleZh": "异环AltTab切换后黑屏怎么办？全屏模式排查思路",
+    "seoTitleEn": "NTE Black Screen After Alt+Tab — Fullscreen Mode Troubleshooting",
+    "seoDescriptionZh": "异环切屏后黑屏先查什么？这篇整理全屏模式、无边框窗口和驱动兼容排查思路。",
+    "seoDescriptionEn": "Learn how to fix NTE black-screen issues after Alt+Tab by checking fullscreen mode, borderless settings, and GPU compatibility.",
     "answer": "1)在游戏设置中切换为窗口化或无边框窗口模式 2)按Alt+Enter切换全屏模式 3)按Ctrl+Shift+Esc打开任务管理器再切回游戏 4)禁用全屏优化（右键游戏exe→属性→兼容性） 5)更新显卡驱动。最有效的解决方案是使用无边框窗口模式，虽然略微影响性能但可以避免切屏黑屏问题。",
     "answerEn": "1) Switch to windowed or borderless windowed mode in game settings 2) Press Alt+Enter to toggle fullscreen 3) Press Ctrl+Shift+Esc to open Task Manager, then switch back to the game 4) Disable fullscreen optimization (right-click game exe → Properties → Compatibility) 5) Update GPU drivers. The most effective solution is using borderless windowed mode — slight performance trade-off but avoids the black screen issue.",
     "tags": [
@@ -3924,6 +3994,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環Alt+Tab切換後黑屏怎麼辦？",
+    "seoTitleTw": "異環AltTab切換後黑屏怎麼辦？全屏模式排查思路",
+    "seoDescriptionTw": "異環切屏後黑屏先查什麼？這篇整理全屏模式、無邊框視窗和驅動相容排查思路。",
     "answerTw": "1)在遊戲設定中切換為視窗化或無邊框視窗模式 2)按Alt+Enter切換全屏模式 3)按Ctrl+Shift+Esc開啟工作管理員再切迴游戲 4)停用全屏最佳化（右鍵遊戲exe→屬性→相容性） 5)更新顯示卡驅動。最有效的解決方案是使用無邊框視窗模式，雖然略微影響效能但可以避免切屏黑屏問題。",
     "categoryTw": "技術支援"
   },
@@ -3931,6 +4003,10 @@
     "id": "mobile-overheating",
     "question": "异环手机发烫严重/帧率骤降怎么办？",
     "questionEn": "NTE mobile overheating and frame rate drops? How to fix",
+    "seoTitleZh": "异环手机发烫严重帧率骤降怎么办？移动端降温指南",
+    "seoTitleEn": "NTE Mobile Overheating & FPS Drops — Phone Cooling Guide",
+    "seoDescriptionZh": "异环手机过热掉帧先查什么？这篇整理画质、充电、散热和暂停降温顺序。",
+    "seoDescriptionEn": "A practical NTE mobile overheating guide covering graphics settings, charging habits, cooling accessories, and when to pause to recover performance.",
     "answer": "1)在游戏设置中将画质调至「均衡」或「流畅」 2)关闭高帧率模式（60fps即可） 3)摘掉手机壳帮助散热 4)避免边充电边玩 5)关闭后台应用 6)在空调或风扇环境下游戏 7)使用半导体散热背夹效果最佳 8)发烫后暂停游戏5-10分钟让手机降温。iPhone用户注意低电量模式会自动降频。",
     "answerEn": "1) Set graphics to 'Balanced' or 'Smooth' in game settings 2) Disable high frame rate mode (60fps is fine) 3) Remove phone case for heat dissipation 4) Avoid playing while charging 5) Close background apps 6) Play in an air-conditioned or fanned environment 7) A semiconductor cooling clip works best 8) Pause for 5-10 minutes when the device gets hot. iPhone users note that Low Power Mode will throttle performance.",
     "tags": [
@@ -3946,6 +4022,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環手機發燙嚴重/幀率驟降怎麼辦？",
+    "seoTitleTw": "異環手機發燙嚴重幀率驟降怎麼辦？移動端降溫指南",
+    "seoDescriptionTw": "異環手機過熱掉幀先查什麼？這篇整理畫質、充電、散熱和暫停降溫順序。",
     "answerTw": "1)在遊戲設定中將畫質調至「均衡」或「流暢」 2)關閉高幀率模式（60fps即可） 3)摘掉手機殼幫助散熱 4)避免邊充電邊玩 5)關閉後臺應用 6)在空調或風扇環境下游戲 7)使用半導體散熱背夾效果最佳 8)發燙後暫停遊戲5-10分鐘讓手機降溫。iPhone使用者注意低電量模式會自動降頻。",
     "categoryTw": "技術支援"
   },
@@ -3953,6 +4031,10 @@
     "id": "mobile-storage-space",
     "question": "异环手机存储空间不够安装不了怎么办？",
     "questionEn": "NTE mobile not enough storage space to install? Solutions",
+    "seoTitleZh": "异环手机存储空间不够装不了？安装空间排查与替代方案",
+    "seoTitleEn": "NTE Mobile Not Enough Storage — Install Space Troubleshooting",
+    "seoDescriptionZh": "异环手机装不了先查什么？这篇整理临时解压空间、长期容量压力和替代安装方案。",
+    "seoDescriptionEn": "Learn how to troubleshoot NTE mobile install-space failures, including temporary unpacking space, long-term storage pressure, and alternative install options.",
     "answer": "这条“手机存储空间不够安装不了怎么办”FAQ 现在更适合回答**你是卡在安装包展开阶段，还是设备长期剩余空间本来就不够**，而不是继续把一组旧安装容量写成唯一答案。对当前玩家来说，更实际的重点通常是：是否还差临时解压空间、当前设备是否支持更灵活的安装位置管理，以及本地安装是不是已经不再适合你的设备条件。\n\n更稳妥的理解方式是：\n1. 安装失败不一定代表游戏本体永久占这么多空间，也可能是临时解压阶段需要更大的空余余量\n2. 先清理可回收空间、缓存和不常用大文件，再判断问题是短期安装门槛还是长期容量压力\n3. 如果设备长期储存紧张，就要同时评估 PC、云端或更大容量设备，而不是只在同一台手机上硬挤空间\n\n所以这页现在保留的是**安装空间不足时的排查顺序与替代路径逻辑**，而不是继续把一组早期容量数字写成长期固定说明。",
     "answerEn": "This 'not enough mobile storage to install' FAQ is more useful when it explains **whether you are blocked by the temporary unpacking stage or by permanently insufficient device space** instead of preserving one older install-size figure as the only answer. For current players, the practical questions are whether extra decompression room is the real blocker, whether the device supports more flexible install-location management, and whether local installation is simply no longer a good fit for that hardware.\n\nA safer way to read it is:\n1. Install failure does not always mean the game permanently occupies that exact amount; temporary unpacking can require additional headroom\n2. Clear reclaimable space, cache, and infrequently used large files first, then decide whether the problem is a short install hurdle or a lasting storage limitation\n3. If the device stays storage-constrained, compare PC, cloud, or higher-capacity-device options rather than forcing everything onto the same phone\n\nSo this page now focuses on the troubleshooting order and alternative paths for install-space failure instead of preserving one older storage estimate as a fixed instruction.",
     "tags": [
@@ -3968,6 +4050,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環手機儲存空間不夠安裝不了怎麼辦？",
+    "seoTitleTw": "異環手機儲存空間不夠裝不了？安裝空間排查與替代方案",
+    "seoDescriptionTw": "異環手機裝不了先查什麼？這篇整理臨時解壓空間、長期容量壓力和替代安裝方案。",
     "answerTw": "這條「手機儲存空間不夠安裝不了怎麼辦」FAQ 現在更適合回答**你是卡在安裝包展開階段，還是裝置長期剩餘空間本來就不夠**，而不是繼續把一組舊安裝容量寫成唯一答案。對目前玩家來說，更實際的重點通常是：是否還差臨時解壓空間、目前裝置是否支援更靈活的安裝位置管理，以及本地安裝是不是已經不再適合你的裝置條件。\n\n更穩妥的理解方式是：\n1. 安裝失敗不一定代表遊戲本體永久佔這麼多空間，也可能是臨時解壓階段需要更大的空餘餘量\n2. 先清理可回收空間、快取和不常用大檔案，再判斷問題是短期安裝門檻還是長期容量壓力\n3. 如果裝置長期儲存緊張，就要同時評估 PC、雲端或更大容量裝置，而不是只在同一台手機上硬擠空間\n\n所以這頁現在保留的是**安裝空間不足時的排查順序與替代路徑邏輯**，而不是繼續把一組早期容量數字寫成長期固定說明。",
     "categoryTw": "技術支援"
   },
@@ -3975,6 +4059,10 @@
     "id": "android-low-memory-crash",
     "question": "异环安卓手机频繁闪退怎么办？",
     "questionEn": "NTE Android crashing frequently? How to fix",
+    "seoTitleZh": "异环安卓频繁闪退怎么办？内存不足与兼容排查",
+    "seoTitleEn": "NTE Android Keeps Crashing — Memory & Compatibility Troubleshooting",
+    "seoDescriptionZh": "异环安卓频繁闪退先查什么？这篇整理内存占用、后台进程和机型兼容排查思路。",
+    "seoDescriptionEn": "A practical NTE Android crash guide covering RAM pressure, background-process limits, graphics reduction, and device compatibility checks.",
     "answer": "1)确认手机满足最低配置（骁龙845/天玑1000+同等或以上，6GB内存以上） 2)在开发者选项中限制后台进程数为4个 3)关闭内存扩展/虚拟内存功能（部分品牌此功能反而导致闪退） 4)降低游戏画质设置 5)清理后台应用释放内存 6)重启手机后进入游戏 7)更新游戏到最新版本 8)如仍闪退，可能是机型兼容问题，等待官方适配更新。",
     "answerEn": "1) Confirm your device meets minimum specs (Snapdragon 845 / Dimensity 1000+ equivalent or better, 6GB+ RAM) 2) Limit background processes to 4 in Developer Options 3) Disable virtual memory / RAM expansion (causes crashes on some brands) 4) Lower in-game graphics settings 5) Close background apps to free memory 6) Restart your phone before launching the game 7) Update the game to the latest version 8) If crashing persists, it may be a device compatibility issue — wait for an official compatibility update.",
     "tags": [
@@ -3990,6 +4078,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環安卓手機頻繁閃退怎麼辦？",
+    "seoTitleTw": "異環安卓頻繁閃退怎麼辦？記憶體不足與相容排查",
+    "seoDescriptionTw": "異環安卓頻繁閃退先查什麼？這篇整理記憶體佔用、後臺程序和機型相容排查思路。",
     "answerTw": "1)確認手機滿足最低配置（驍龍845/天璣1000+同等或以上，6GB記憶體以上） 2)在開發者選項中限制後臺程序數為4個 3)關閉記憶體擴充套件/虛擬記憶體功能（部分品牌此功能反而導致閃退） 4)降低遊戲畫質設定 5)清理後臺應用釋放記憶體 6)重啟手機後進入遊戲 7)更新遊戲到最新版本 8)如仍閃退，可能是機型相容問題，等待官方適配更新。",
     "categoryTw": "技術支援"
   },
@@ -3997,6 +4087,10 @@
     "id": "ios-graphics-blurry",
     "question": "异环iPhone画面模糊/画质低怎么调？",
     "questionEn": "NTE iPhone graphics blurry or low quality? How to improve",
+    "seoTitleZh": "异环iPhone画面模糊画质低怎么调？清晰度设置指南",
+    "seoTitleEn": "NTE iPhone Graphics Blurry? Quality & Clarity Settings Guide",
+    "seoDescriptionZh": "异环 iPhone 画面模糊先查什么？这篇整理分辨率、自动画质和低电量模式影响。",
+    "seoDescriptionEn": "Learn how to improve blurry NTE graphics on iPhone by checking render resolution, auto-quality behavior, and low-power performance limits.",
     "answer": "1)进入游戏设置→画面，手动调高渲染分辨率和画质等级 2)部分iPhone机型默认低画质以保帧率，关闭「自动画质」后手动设置 3)iPhone 13以下机型建议开到「均衡」画质，强行开高画质会导致发热和掉帧 4)确保iOS系统为最新版本 5)关闭低电量模式（设置→电池→低电量模式），该模式会限制GPU性能导致画质下降。",
     "answerEn": "1) Go to game Settings → Graphics and manually increase render resolution and quality level 2) Some iPhone models default to low quality to maintain frame rate — disable 'Auto Quality' and set manually 3) iPhone 13 and below should use 'Balanced' quality — forcing higher settings causes overheating and frame drops 4) Ensure iOS is updated to the latest version 5) Disable Low Power Mode (Settings → Battery → Low Power Mode) as it limits GPU performance and reduces quality.",
     "tags": [
@@ -4012,6 +4106,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環iPhone畫面模糊/畫質低怎麼調？",
+    "seoTitleTw": "異環iPhone畫面模糊畫質低怎麼調？清晰度設定指南",
+    "seoDescriptionTw": "異環 iPhone 畫面模糊先查什麼？這篇整理解析度、自動畫質和低電量模式影響。",
     "answerTw": "1)進入遊戲設定→畫面，手動調高渲染解析度和畫質等級 2)部分iPhone機型預設低畫質以保幀率，關閉「自動畫質」後手動設定 3)iPhone 13以下機型建議開到「均衡」畫質，強行開高畫質會導致發熱和掉幀 4)確保iOS系統為最新版本 5)關閉低電量模式（設定→電池→低電量模式），該模式會限制GPU效能導致畫質下降。",
     "categoryTw": "技術支援"
   },
@@ -4019,6 +4115,10 @@
     "id": "ps5-download-interrupted",
     "question": "异环PS5下载中断/安装失败怎么办？",
     "questionEn": "NTE PS5 download interrupted or install failed? Fix",
+    "seoTitleZh": "异环PS5下载中断安装失败怎么办？主机下载排查指南",
+    "seoTitleEn": "NTE PS5 Download Interrupted — Console Install Troubleshooting",
+    "seoDescriptionZh": "异环 PS5 下载失败先查什么？这篇整理存储空间、网络稳定和 PSN 状态排查顺序。",
+    "seoDescriptionEn": "A practical NTE PS5 download guide covering storage headroom, network stability, partial-download cleanup, and PSN service checks.",
     "answer": "1)暂停下载后重新继续 2)检查PS5系统存储空间（至少留出50GB） 3)重启PS5后重新下载 4)检查网络连接，建议使用有线网络 5)进入PS5设置→下载/上传→暂停所有其他下载 6)如果反复中断，尝试删除已下载的部分文件重新下载 7)更改PS5DNS设置（使用8.8.8.8或1.1.1.1） 8)在PSN状态页面确认服务正常。",
     "answerEn": "1) Pause and resume the download 2) Check PS5 system storage (keep at least 50GB free) 3) Restart PS5 and retry the download 4) Check network connection — use a wired connection 5) Go to PS5 Settings → Downloads/Uploads → Pause all other downloads 6) If it keeps interrupting, delete the partial download and start fresh 7) Change PS5 DNS settings (use 8.8.8.8 or 1.1.1.1) 8) Check the PSN status page to confirm services are running.",
     "tags": [
@@ -4033,6 +4133,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環PS5下載中斷/安裝失敗怎麼辦？",
+    "seoTitleTw": "異環PS5下載中斷安裝失敗怎麼辦？主機下載排查指南",
+    "seoDescriptionTw": "異環 PS5 下載失敗先查什麼？這篇整理儲存空間、網路穩定和 PSN 狀態排查順序。",
     "answerTw": "1)暫停下載後重新繼續 2)檢查PS5系統儲存空間（至少留出50GB） 3)重啟PS5後重新下載 4)檢查網路連線，建議使用有線網路 5)進入PS5設定→下載/上傳→暫停所有其他下載 6)如果反覆中斷，嘗試刪除已下載的部分檔案重新下載 7)更改PS5DNS設定（使用8.8.8.8或1.1.1.1） 8)在PSN狀態頁面確認服務正常。",
     "categoryTw": "技術支援"
   },
@@ -4040,6 +4142,10 @@
     "id": "character-stuck-in-map",
     "question": "异环角色卡在地图里/墙壁里怎么办？",
     "questionEn": "NTE character stuck in map or wall? How to get unstuck",
+    "seoTitleZh": "异环角色卡进地图墙里怎么办？脱困与碰撞Bug处理",
+    "seoTitleEn": "NTE Character Stuck in Map or Wall — Unstuck & Collision Bug Guide",
+    "seoDescriptionZh": "异环角色卡地图里先做什么？这篇整理传送、自救手段和碰撞 Bug 反馈方式。",
+    "seoDescriptionEn": "Learn how to get unstuck in NTE when your character clips into terrain, including teleport recovery, self-rescue options, and bug reporting steps.",
     "answer": "1)打开地图传送到最近的传送点 2)使用快速旅行功能（如可用） 3)重新登录游戏 4)如果战斗中卡住，等待被怪物击败后自动复活在安全区域 5)使用角色的位移技能尝试脱离 6)以上方法都不行时，联系客服说明卡住的位置。建议遇到容易卡住的地形时截图反馈给官方，帮助修复地图碰撞问题。",
     "answerEn": "1) Open the map and teleport to the nearest waypoint 2) Use fast travel if available 3) Re-login to the game 4) If stuck during combat, wait to be defeated — you'll auto-respawn at a safe location 5) Try using a character's dash/dodge skill to escape 6) If nothing works, contact customer support with your stuck location. Screenshot and report terrain that causes stuck issues to help the developers fix collision bugs.",
     "tags": [
@@ -4054,6 +4160,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環角色卡在地圖裡/牆壁裡怎麼辦？",
+    "seoTitleTw": "異環角色卡進地圖牆裡怎麼辦？脫困與碰撞Bug處理",
+    "seoDescriptionTw": "異環角色卡地圖裡先做什麼？這篇整理傳送、自救手段和碰撞 Bug 反饋方式。",
     "answerTw": "1)開啟地圖傳送到最近的傳送點 2)使用快速旅行功能（如可用） 3)重新登入遊戲 4)如果戰鬥中卡住，等待被怪物擊敗後自動復活在安全區域 5)使用角色的位移技能嘗試脫離 6)以上方法都不行時，聯絡客服說明卡住的位置。建議遇到容易卡住的地形時截圖反饋給官方，幫助修復地圖碰撞問題。",
     "categoryTw": "遊戲Bug"
   },
@@ -4061,6 +4169,10 @@
     "id": "quest-npc-not-spawning",
     "question": "异环任务NPC不出现/任务物品无法拾取怎么办？",
     "questionEn": "NTE quest NPC not spawning or can't pick up quest items? Fix",
+    "seoTitleZh": "异环任务NPC不出现怎么办？任务刷新与前置条件排查",
+    "seoTitleEn": "NTE Quest NPC Not Spawning — Refresh & Prerequisite Troubleshooting",
+    "seoDescriptionZh": "异环任务 NPC 不出现或物品捡不了先查什么？这篇整理区域刷新、前置任务和背包状态排查。",
+    "seoDescriptionEn": "A practical NTE quest-bug guide covering NPC refresh, prerequisite checks, inventory issues, and when to escalate to support.",
     "answer": "1)离开当前区域后返回，NPC可能会刷新 2)传送至其他区域再传送回来 3)重新登录游戏 4)检查是否缺少前置任务条件 5)确认背包是否已满（部分任务物品无法拾取是因为背包满了） 6)查看任务日志确认当前步骤 7)如果是已知Bug，查看官方公告是否有修复时间表 8)向客服反馈，提供角色名、服务器、任务名称和问题描述。",
     "answerEn": "1) Leave the area and return — the NPC may respawn 2) Teleport to another area and teleport back 3) Re-login to the game 4) Check if you're missing prerequisite quest conditions 5) Check if your inventory is full (some quest items can't be picked up with full inventory) 6) Check your quest log for the current step 7) If it's a known bug, check official announcements for a fix timeline 8) Report to customer support with your character name, server, quest name, and issue description.",
     "tags": [
@@ -4075,6 +4187,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環任務NPC不出現/任務物品無法拾取怎麼辦？",
+    "seoTitleTw": "異環任務NPC不出現怎麼辦？任務刷新與前置條件排查",
+    "seoDescriptionTw": "異環任務 NPC 不出現或物品撿不了先查什麼？這篇整理區域刷新、前置任務和背包狀態排查。",
     "answerTw": "1)離開當前區域後返回，NPC可能會重新整理 2)傳送至其他區域再傳送回來 3)重新登入遊戲 4)檢查是否缺少前置任務條件 5)確認背包是否已滿（部分任務物品無法拾取是因為背包滿了） 6)檢視任務日誌確認當前步驟 7)如果是已知Bug，檢視官方公告是否有修復時間表 8)向客服反饋，提供角色名、伺服器、任務名稱和問題描述。",
     "categoryTw": "遊戲Bug"
   },
@@ -4082,6 +4196,10 @@
     "id": "gacha-animation-stuck",
     "question": "异环抽卡动画卡住/结果不显示怎么办？",
     "questionEn": "NTE gacha/wish animation stuck or results not showing? Fix",
+    "seoTitleZh": "异环抽卡动画卡住结果不显示怎么办？抽卡记录排查",
+    "seoTitleEn": "NTE Gacha Animation Stuck — Result Check & Pull History Troubleshooting",
+    "seoDescriptionZh": "异环抽卡动画卡住先查什么？这篇整理网络延迟、抽卡记录确认和客服补偿判断。",
+    "seoDescriptionEn": "Learn how to troubleshoot stuck NTE gacha animations by checking network delay, verifying pull history, and confirming whether currency was consumed.",
     "answer": "1)等待30秒，有时是网络延迟导致结果加载慢 2)重启游戏后查看抽卡历史记录确认是否抽卡成功 3)检查网络连接 4)清除游戏缓存后重试 5)抽卡记录在「祈愿记录」中可查看，确认是否实际消耗了抽卡资源。如果资源被消耗但未获得结果，截图联系客服补偿。",
     "answerEn": "1) Wait 30 seconds — sometimes network delay causes slow result loading 2) Restart the game and check gacha history to confirm if the pull went through 3) Check your network connection 4) Clear game cache and retry 5) Pull records can be viewed in 'Wish History' — confirm if pull currency was actually consumed. If currency was spent but no results given, screenshot and contact support for compensation.",
     "tags": [
@@ -4097,6 +4215,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環抽卡動畫卡住/結果不顯示怎麼辦？",
+    "seoTitleTw": "異環抽卡動畫卡住結果不顯示怎麼辦？抽卡記錄排查",
+    "seoDescriptionTw": "異環抽卡動畫卡住先查什麼？這篇整理網路延遲、抽卡記錄確認和客服補償判斷。",
     "answerTw": "1)等待30秒，有時是網路延遲導致結果載入慢 2)重啟遊戲後檢視抽卡歷史記錄確認是否抽卡成功 3)檢查網路連線 4)清除遊戲快取後重試 5)抽卡記錄在「祈願記錄」中可檢視，確認是否實際消耗了抽卡資源。如果資源被消耗但未獲得結果，截圖聯絡客服補償。",
     "categoryTw": "遊戲Bug"
   },
