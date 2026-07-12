@@ -23,8 +23,8 @@ export async function generateMetadata({
   const sRankCount = characters.filter((character) => character.rank === "S").length;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? `異環聲優一覽 — 全${count}位角色日配/中配/英配聲優名單 | NTE Guide`
-      : `异环声优一览 — 全${count}位角色日配/中配/英配声优名单 | NTE Guide`)
+      ? `異環聲優一覽 — 全${count}位角色日配/中配/英配聲優名單`
+      : `异环声优一览 — 全${count}位角色日配/中配/英配声优名单`)
     : `NTE Voice Actors — Full JP/CN/EN Voice Cast for All ${count} Characters`;
   const description = isZhLocale(locale)
     ? (locale === "tw"

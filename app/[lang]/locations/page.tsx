@@ -19,8 +19,8 @@ export async function generateMetadata({
     : `Browse ${locations.length} NTE locations across ${categoryCount} categories, with quick links for region info, exploration routes, and related world details.`;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-        ? `異環地點索引 — ${locations.length} 個區域、設施與探索地圖入口 | NTE Guide`
-        : `异环地点索引 — ${locations.length} 个区域、设施与探索地图入口 | NTE Guide`)
+        ? `異環地點索引 — ${locations.length} 個區域、設施與探索地圖入口`
+        : `异环地点索引 — ${locations.length} 个区域、设施与探索地图入口`)
     : `NTE Locations - ${locations.length} Regions, Facilities, and Exploration Hubs`;
   return {
     title,
