@@ -358,6 +358,29 @@ export default async function BannersPage({ params }: { params: { lang: string }
           ]}
         />
 
+        <section className="mt-6 mb-10 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "看卡池时先判断什么" : "What should you check first on a banner page?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "先看你缺的是主C、辅助还是生存位，再决定追当前还是等下一期。" : "Decide whether your account needs a carry, support, or sustain slot before choosing current or next banner."}</li>
+              <li>{isZh ? "把角色池和专武池拆开预算，不要把两边保底混在一起算。" : "Separate your character and weapon budgets instead of blending both pity plans together."}</li>
+              <li>{isZh ? "如果你主要打 999 Nights 或 Boss，优先看爆发覆盖和容错，不只是人气。" : "If you mainly care about 999 Nights or bosses, prioritize burst coverage and survivability over hype alone."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "只看社群讨论热度，不看自己的现有配队缺口。" : "Following social hype without checking your own roster gaps."}</li>
+              <li>{isZh ? "把不同服务器的上线时间和活动码节奏当成完全同步。" : "Assuming every server gets the exact same timing and event cadence."}</li>
+              <li>{isZh ? "为了抽专武透支下期角色预算，结果主力队伍反而更慢成型。" : "Overspending on signature weapons and delaying the next role your account actually needs."}</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="grid gap-4 mb-10">
           {banners.map((banner) => (
             <article
