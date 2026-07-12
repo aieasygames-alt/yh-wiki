@@ -68,6 +68,40 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
           </p>
         </div>
 
+        <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZhLocale(locale) ? "这页卡带总表最适合怎么用？" : "How should you use this disk-set hub?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(locale)
+              ? "先按元素专属或通用套装判断方向，再看 2 件套和 4 件套究竟是补面板、补循环，还是只适合特定角色。总表适合横向比较，不建议只看推荐角色标签就直接开刷。"
+              : "Start by separating elemental sets from general-purpose sets, then check whether the 2-piece and 4-piece effects improve stats, rotation uptime, or only a narrow character archetype. This hub is best for comparison, not blind farming based only on recommended tags."}
+          </p>
+        </section>
+
+        <section className="mb-12 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale) ? "刷卡带前先判断什么" : "What should you check before farming sets?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? "先确认角色更需要 2+2 过渡，还是必须凑齐 4 件套核心效果。" : "Decide whether your unit only needs a 2+2 transition setup or truly depends on a full 4-piece effect."}</li>
+              <li>{isZhLocale(locale) ? "别只看属性名字，要看触发条件和覆盖率能不能在实战里稳定吃满。" : "Do not stop at the element label; check whether the trigger condition and uptime are realistic in combat."}</li>
+              <li>{isZhLocale(locale) ? "优先刷能被多个主力共享的副本，通常比为单角色单套件硬冲更划算。" : "Prioritize dungeons whose drops can be shared across several core units before hard-targeting one niche set."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale) ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? "看到推荐角色就默认毕业，不核对自己当前队伍和词条需求。" : "Assuming a recommended set is automatically best-in-slot without checking your own team and stat needs."}</li>
+              <li>{isZhLocale(locale) ? "为了 4 件套效果放弃更好的主词条和副词条，导致整体输出反而变差。" : "Forcing a 4-piece bonus while sacrificing much stronger main stats or substats."}</li>
+              <li>{isZhLocale(locale) ? "把元素专属套装当成同属性角色通用答案，忽略角色机制差异。" : "Treating elemental sets as universal answers for every unit of the same attribute."}</li>
+            </ul>
+          </div>
+        </section>
+
         {sections.map((section) => (
           <section key={section.title} className="mb-12">
             <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
