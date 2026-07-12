@@ -168,8 +168,16 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环最佳配队推荐 — 全角色队伍组合与Esper Cycle反应链", "NTE Best Team Compositions — All Character Teams & Esper Cycle Reactions");
-  const description = localizedText(locale, "异环全角色配队推荐：每角色的最佳队伍组合、Esper Cycle反应链、平民替代方案，按强度排序。", "Best team compositions for all NTE characters: optimal teams, Esper Cycle reaction chains, F2P alternatives, ranked by tier.");
+  const title = localizedText(
+    locale,
+    "异环最佳配队推荐 — 全角色队伍组合、Boss队与零氪阵容",
+    "NTE Best Team Compositions — Boss Teams, F2P Setups, and Meta Cores"
+  );
+  const description = localizedText(
+    locale,
+    "异环全角色配队推荐：整理版本主C、Boss队、探索队、零氪开荒队与 Esper Cycle 反应链，帮助你按角色定位和副本需求快速选队。",
+    "Best NTE team compositions for meta carries, boss fights, exploration, and F2P progression, with Esper Cycle reactions and role-based lineup guidance."
+  );
   return {
     title,
     description,
@@ -257,6 +265,40 @@ export default async function TeamsPage({
             </div>
           </div>
         </div>
+
+        <section className="mb-10 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {zh ? "这页配队表最适合怎么用？" : "How should you use this team guide?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {zh
+              ? "先看上面的场景榜，快速判断你当前是缺 Boss 队、开荒队、探索队还是泛用主力；再往下按角色查看每个人最适合塞进哪些阵容。这样能先解决账号缺口，再回到单角色页补 Build、抽取和养成细节。"
+              : "Start with the scenario ranking to decide whether your account needs a boss team, starter team, exploration shell, or general-purpose core. Then scroll down into the character-specific section to see where each unit fits best before checking builds and investment details."}
+          </p>
+        </section>
+
+        <section className="mb-12 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {zh ? "配队前先判断什么" : "What should you judge before building a team?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{zh ? "先看副本目标，是打 Boss、清杂、探索还是 999 Nights，不同场景对站场时间和生存位需求完全不同。" : "Start from the content target: bosses, mob clears, exploration, or 999 Nights all value different uptime and sustain patterns."}</li>
+              <li>{zh ? "确定你要围绕谁当主C，再补齐增益、破韧、聚怪或治疗，而不是先把三个高强度角色硬塞进同一队。" : "Decide your main carry first, then fill buffs, break, grouping, or sustain instead of forcing three strong units into the same shell."}</li>
+              <li>{zh ? "如果资源有限，先做一支稳定通关队，再考虑第二支功能特化队。" : "If resources are tight, finish one reliable all-purpose team before building niche specialists."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {zh ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{zh ? "只看强度榜名次，不看角色之间有没有真正的循环和触发关系。" : "Copying tier-list names without checking whether the rotation and trigger logic actually works together."}</li>
+              <li>{zh ? "过度追求纯色队，结果牺牲了治疗、功能位或更顺手的轮转。" : "Overcommitting to mono-element teams and losing sustain, utility, or smoother rotations."}</li>
+              <li>{zh ? "把高配毕业阵容直接照搬到开荒期，导致资源分散、谁都没成型。" : "Copying late-game optimized teams too early and spreading resources too thin."}</li>
+            </ul>
+          </div>
+        </section>
 
         {/* Ranked teams by scenario */}
         <section className="mb-12">
