@@ -25,6 +25,14 @@ export interface PlannerState {
   includeCustomTarget: boolean;
 }
 
+type PlannerStateInput = {
+  selectedIds?: string[];
+  ownedButtons?: number | string | null;
+  targetDays?: number | string | null;
+  customTarget?: number | string | null;
+  includeCustomTarget?: boolean;
+};
+
 export const PLANNER_STORAGE_KEY = "nte-999-nights-planner";
 
 export function ceilDiv(a: number, b: number): number {
@@ -32,7 +40,7 @@ export function ceilDiv(a: number, b: number): number {
   return Math.ceil(a / b);
 }
 
-export function sanitizePlannerState(input: Partial<PlannerState>): PlannerState {
+export function sanitizePlannerState(input: PlannerStateInput): PlannerState {
   return {
     selectedIds: Array.isArray(input.selectedIds) ? Array.from(new Set(input.selectedIds.filter(Boolean))) : [],
     ownedButtons: Math.max(0, Number(input.ownedButtons) || 0),
