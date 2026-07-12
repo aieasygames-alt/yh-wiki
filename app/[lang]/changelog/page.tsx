@@ -6,8 +6,12 @@ import Link from "next/link";
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const changelogs = getAllChangelogs();
+  const latest = changelogs[0];
   const title = t(locale, "changelog.seoTitle");
-  const description = t(locale, "changelog.description");
+  const description = isZhLocale(locale)
+    ? `异环版本更新日志汇总，当前整理 ${changelogs.length} 次版本记录，涵盖新角色、卡池、活动、平衡调整与修复内容。最新版本为 ${latest?.version ?? "1.x"}。`
+    : `Neverness to Everness patch notes hub with ${changelogs.length} tracked updates covering characters, banners, events, balance changes, and fixes. Latest version: ${latest?.version ?? "1.x"}.`;
   return {
     title,
     description,

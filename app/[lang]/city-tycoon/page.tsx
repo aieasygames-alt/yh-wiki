@@ -18,6 +18,10 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const allChars = getAllCharacters();
+  const allWeapons = getAllWeapons();
+  const xiaozhi = allChars.find((character) => character.id === "xiaozhi");
+  const catWeapon = allWeapons.find((weapon) => weapon.id === "contemplative-cat");
   const title = localizedText(
     locale,
     t(locale, "cityTycoon.seoTitle"),
@@ -26,8 +30,8 @@ export async function generateMetadata({
   );
   const description = localizedText(
     locale,
-    t(locale, "cityTycoon.seoDescription"),
-    t(locale, "cityTycoon.seoDescription"),
+    `异环都市大亨攻略：整理经营升级、等级奖励、资源投入顺序与每日收益技巧，并说明 Lv.30 免费获取 ${xiaozhi?.name ?? "赤子（小智）"} 与 Lv.21 奖励 ${catWeapon?.name ?? "沉思之猫"} 的领取路线。`,
+    `NTE City Tycoon guide covering management progression, level rewards, upgrade priorities, and daily profit tips, including how to claim ${xiaozhi?.nameEn ?? "Xiaozhi"} at Lv.30 and ${catWeapon?.nameEn ?? "Contemplative Cat"} at Lv.21.`,
     "異環都市大亨繁中攻略：Lv.30 免費取得S級小吱與專屬武器，整理經營升級、全等級獎勵、資源投入順序與每日收益技巧。"
   );
   return {
