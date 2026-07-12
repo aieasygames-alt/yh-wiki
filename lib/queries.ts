@@ -295,6 +295,7 @@ export interface Weapon {
   effectDescriptionTw: string;
   effectDescriptionEn: string;
   howToObtain: string;
+  howToObtainTw?: string;
   howToObtainZh: string;
   howToObtainEn: string;
   signatureCharacter: string;
