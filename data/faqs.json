@@ -894,6 +894,7 @@
     "id": "hethereau-exploration",
     "question": "异环海特洛市怎么探索？",
     "questionEn": "How to explore Hethereau City in NTE?",
+    "seoTitleZh": "异环海特洛市探索攻略 — 区域解锁、收集品与传送点路线",
     "answer": "海特洛市是异环的主要开放世界区域，探索要点：1) 区域解锁 — 跟随主线任务逐步解锁新城区、桥间地、绘空町等区域；2) 收集品 — 注意收集乌鸦玉石等隐藏物品，它们通常在巷子深处、高处平台或需要解谜才能到达的位置；3) 传送点 — 优先激活各区域的传送点，方便后续快速移动；4) 互动元素 — 快递柜、隐藏宝箱等互动要素分布在城市各处；5) 敌人清理 — 清理区域内的敌人可以获得探索度和奖励。",
     "answerEn": "Hethereau City is NTE's main open world area. Exploration tips: 1) Area unlocking — Follow the main story to unlock New District, Hashikama, and other areas; 2) Collectibles — Look for Crow Jade and hidden items in alleys, high platforms, and puzzle-locked areas; 3) Waypoints — Activate waypoints first for quick travel; 4) Interactive elements — Check lockers, hidden chests, and other interactable objects throughout the city; 5) Enemy encounters — Clear enemies in each area for exploration progress and rewards.",
     "tags": [
@@ -908,7 +909,11 @@
       "crow-jade"
     ],
     "seoTitleEn": "NTE Interactive Map — Hethereau Exploration Guide, Hidden Locations & Collectibles",
+    "seoDescriptionZh": "异环海特洛市怎么探索更高效？这篇整理区域解锁、乌鸦玉石、互动点位和前期跑图思路。",
+    "seoDescriptionEn": "A practical Hethereau exploration guide covering area unlocks, Crow Jade, hidden interactions, and efficient movement routes in NTE.",
     "questionTw": "異環海特洛市怎麼探索？",
+    "seoTitleTw": "異環海特洛市探索攻略 — 區域解鎖、收集品與傳送點路線",
+    "seoDescriptionTw": "異環海特洛市怎麼探索更有效率？這篇整理區域解鎖、烏鴉玉石、互動點位和前期跑圖思路。",
     "answerTw": "海特洛市是異環的主要開放世界區域，探索要點：1) 區域解鎖 — 跟隨主線任務逐步解鎖新城區、橋間地、繪空町等區域；2) 收集品 — 注意收集烏鴉玉石等隱藏物品，它們通常在巷子深處、高處平臺或需要解謎才能到達的位置；3) 傳送點 — 優先啟用各區域的傳送點，方便後續快速移動；4) 互動元素 — 快遞櫃、隱藏寶箱等互動要素分佈在城市各處；5) 敵人清理 — 清理區域內的敵人可以獲得探索度和獎勵。",
     "categoryTw": "地圖探索"
   },
@@ -916,6 +921,10 @@
     "id": "crow-jade",
     "question": "异环乌鸦玉石怎么获取？有什么用？",
     "questionEn": "How to get Crow Jade in NTE? What is it used for?",
+    "seoTitleZh": "异环乌鸦玉石怎么拿？位置思路、用途与兑换奖励",
+    "seoTitleEn": "NTE Crow Jade Guide — Where to Find It, Uses & Rewards",
+    "seoDescriptionZh": "异环乌鸦玉石在哪里找？这篇整理常见位置思路、收集方法，以及能兑换哪些奖励。",
+    "seoDescriptionEn": "Learn where to find Crow Jade in NTE, how to collect it efficiently, and what rewards it can be exchanged for.",
     "answer": "乌鸦玉石是海特洛市中散落的收集品，获取方式：1) 在城市的巷子深处、高处平台、隐藏角落等位置寻找；2) 部分乌鸦玉石需要完成特定解谜或挑战才能获取；3) 探索地图时注意观察发光提示。乌鸦玉石的用途：收集足够数量的乌鸦玉石可以兑换稀有奖励，包括原晶、抽卡券和特殊材料。建议在探索每个新区域时留意收集。",
     "answerEn": "Crow Jade is a collectible scattered throughout Hethereau City. How to find: 1) Look in deep alleys, high platforms, and hidden corners; 2) Some require solving puzzles or completing challenges; 3) Watch for glowing hints while exploring. Uses: Collecting enough Crow Jade can be exchanged for rare rewards including Original Crystals, gacha tickets, and special materials. Make sure to collect them as you explore each new area.",
     "tags": [
@@ -930,6 +939,8 @@
       "crow-jade"
     ],
     "questionTw": "異環烏鴉玉石怎麼獲取？有什麼用？",
+    "seoTitleTw": "異環烏鴉玉石怎麼拿？位置思路、用途與兌換獎勵",
+    "seoDescriptionTw": "異環烏鴉玉石在哪裡找？這篇整理常見位置思路、收集方法，以及能兌換哪些獎勵。",
     "answerTw": "烏鴉玉石是海特洛市中散落的收集品，獲取方式：1) 在城市的巷子深處、高處平臺、隱藏角落等位置尋找；2) 部分烏鴉玉石需要完成特定解謎或挑戰才能獲取；3) 探索地圖時注意觀察發光提示。烏鴉玉石的用途：收集足夠數量的烏鴉玉石可以兌換稀有獎勵，包括原晶、抽卡券和特殊材料。建議在探索每個新區域時留意收集。",
     "categoryTw": "地圖探索"
   },
@@ -937,6 +948,10 @@
     "id": "hidden-areas",
     "question": "异环隐藏区域怎么进入？",
     "questionEn": "How to access hidden areas in NTE?",
+    "seoTitleZh": "异环隐藏区域怎么进？解谜、任务与探索入口整理",
+    "seoTitleEn": "How to Access Hidden Areas in NTE — Puzzles, Quests & Exploration Paths",
+    "seoDescriptionZh": "异环隐藏区域从哪里进？这篇整理常见入口类型、解谜条件和探索时更容易漏掉的提示。",
+    "seoDescriptionEn": "A practical NTE hidden-areas guide covering puzzle entrances, quest gates, and the clues players most often miss while exploring.",
     "answer": "异环的隐藏区域有多种进入方式：1) 解谜 — 部分隐藏区域需要完成特定的机关解谜才能开启入口；2) 爬墙翻越 — 利用角色的攀爬能力到达看似不可到达的区域；3) 特定任务 — 有些隐藏区域需要完成前置任务才会解锁；4) 时间/天气触发 — 少数区域在特定时间或天气条件下才会出现入口。探索时多观察环境，留意可疑的墙壁、裂缝或发光标记。",
     "answerEn": "NTE's hidden areas can be accessed through various methods: 1) Puzzles — Some areas require completing specific mechanisms to open; 2) Climbing — Use character climbing abilities to reach seemingly inaccessible areas; 3) Quest requirements — Certain areas unlock only after completing prerequisite quests; 4) Time/weather triggers — A few areas only appear under specific conditions. Look for suspicious walls, cracks, or glowing markers while exploring.",
     "tags": [
@@ -951,6 +966,8 @@
       "crow-jade"
     ],
     "questionTw": "異環隱藏區域怎麼進入？",
+    "seoTitleTw": "異環隱藏區域怎麼進？解謎、任務與探索入口整理",
+    "seoDescriptionTw": "異環隱藏區域從哪裡進？這篇整理常見入口類型、解謎條件和探索時更容易漏掉的提示。",
     "answerTw": "異環的隱藏區域有多種進入方式：1) 解謎 — 部分隱藏區域需要完成特定的機關解謎才能開啟入口；2) 爬牆翻越 — 利用角色的攀爬能力到達看似不可到達的區域；3) 特定任務 — 有些隱藏區域需要完成前置任務才會解鎖；4) 時間/天氣觸發 — 少數區域在特定時間或天氣條件下才會出現入口。探索時多觀察環境，留意可疑的牆壁、裂縫或發光標記。",
     "categoryTw": "地圖探索"
   },
@@ -958,6 +975,10 @@
     "id": "awakening-system",
     "question": "异环觉醒系统是什么？怎么解锁？",
     "questionEn": "What is the Awakening system in NTE? How to unlock it?",
+    "seoTitleZh": "异环觉醒系统是什么？解锁条件与投入优先级判断",
+    "seoTitleEn": "NTE Awakening Guide — Unlock Conditions & Investment Priority",
+    "seoDescriptionZh": "异环觉醒系统什么时候该投入？这篇整理解锁思路、材料取舍，以及谁更适合先觉醒。",
+    "seoDescriptionEn": "Learn what Awakening does in NTE, when it should be unlocked and invested in, and how to judge priority across your roster.",
     "answer": "觉醒系统这页现在更适合回答**觉醒到底该当成“立刻推进战力”的投入，还是“中后期再补”的养成节点**，而不是继续默认所有账号都先觉醒主 C。对当前玩家来说，更重要的是判断：你的主力角色是否已经稳定上场、觉醒材料会不会挤占其他关键养成、以及这次觉醒能不能换来真实可见的提升。\n\n更稳妥的理解方式是：\n1. 如果某个角色已经是你的长期主力，且觉醒后能明显改善伤害、循环或生存，那优先级自然更高\n2. 如果账号还在频繁换队，过早把大量资源压进高成本觉醒，回报未必比补齐整队更高\n3. 觉醒不是只看“谁是输出”，还要看谁吃到觉醒后能真正改变你当前卡关点\n\n所以这页现在保留的是**觉醒系统的作用与投入判断逻辑**，而不是继续把“先觉醒主 C”写成所有阶段都通用的标准答案。",
     "answerEn": "This Awakening page is more useful when it explains **whether Awakening should be treated as an immediate power spike or a mid-to-late progression investment** rather than assuming every account should awaken its DPS first. For current players, the bigger question is whether that character is already a long-term mainstay, whether Awakening would crowd out other upgrades, and whether the result actually solves a real bottleneck.\n\nA safer way to judge Awakening priority is:\n1. If a character is already central to your long-term team and Awakening clearly improves damage, rotation, or survivability, the priority naturally rises\n2. If your account is still rotating through temporary teams, pushing expensive Awakening too early may return less value than stabilizing the full lineup first\n3. Awakening priority is not only about 'who is the DPS' but about who gains a meaningful upgrade against your current progression wall\n\nSo this page now focuses on what Awakening does and how to judge its investment timing instead of preserving 'awaken the DPS first' as a universal answer.",
     "tags": [
@@ -974,6 +995,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環覺醒系統是什麼？怎麼解鎖？",
+    "seoTitleTw": "異環覺醒系統是什麼？解鎖條件與投入優先順序判斷",
+    "seoDescriptionTw": "異環覺醒系統什麼時候該投入？這篇整理解鎖思路、材料取捨，以及誰更適合先覺醒。",
     "answerTw": "覺醒系統這頁現在更適合回答**覺醒到底該當成「立刻推進戰力」的投入，還是「中後期再補」的養成節點**，而不是繼續默認所有帳號都先覺醒主 C。對目前玩家來說，更重要的是判斷：你的主力角色是否已經穩定上場、覺醒材料會不會擠壓其他關鍵養成、以及這次覺醒能不能換來真實可見的提升。\n\n更穩妥的理解方式是：\n1. 如果某個角色已經是你的長期主力，且覺醒後能明顯改善傷害、迴圈或生存，那優先級自然更高\n2. 如果帳號還在頻繁換隊，過早把大量資源壓進高成本覺醒，回報未必比補齊整隊更高\n3. 覺醒不是只看「誰是輸出」，還要看誰吃到覺醒後能真正改變你目前卡關點\n\n所以這頁現在保留的是**覺醒系統的作用與投入判斷邏輯**，而不是繼續把「先覺醒主 C」寫成所有階段都通用的標準答案。",
     "categoryTw": "角色相關"
   },
@@ -981,6 +1004,10 @@
     "id": "anomaly-commission",
     "question": "异环异象委托怎么做？",
     "questionEn": "How to complete Anomaly Commissions in NTE?",
+    "seoTitleZh": "异环异象委托怎么做？每日完成顺序与取舍建议",
+    "seoTitleEn": "NTE Anomaly Commission Guide — Daily Priority & Completion Tips",
+    "seoDescriptionZh": "异环异象委托要不要全清？这篇整理每日优先级、资源回报和时间有限时的取舍方式。",
+    "seoDescriptionEn": "A practical NTE Anomaly Commission guide covering daily priority, reward value, and what to skip when time is limited.",
     "answer": "异象委托这页现在更适合回答**哪些委托值得你每天稳定清，哪些可以根据时间和账号阶段取舍**，而不是继续只写成“全做完就对了”的流程说明。对当前玩家来说，更实际的问题通常是：你缺的是经验、货币、材料，还是单纯想把每日负担压低，这会影响委托的优先顺序。\n\n更稳妥的理解方式是：\n1. 先清那些能补你当前最缺资源、或者会影响周进度积累的委托\n2. 如果时间有限，就优先做回报更稳定、路径更短的任务，而不是机械清空全部列表\n3. 某些委托需要特定属性或更高练度时，也可以把它们视为阶段性内容，不必强行当天硬打\n\n所以这页现在保留的是**异象委托的完成方式与优先级判断逻辑**，而不是继续把“每日全清”写成所有玩家都该遵循的唯一标准。",
     "answerEn": "This Anomaly Commissions page is more useful when it explains **which commissions are worth clearing daily and which ones can be skipped based on time and account stage** instead of presenting 'do everything every day' as the only workflow. For current players, the practical question is whether you are short on EXP, currency, materials, or simply trying to keep your daily workload manageable, because that changes commission priority.\n\nA safer way to approach commissions is:\n1. Clear the ones that solve your current resource shortage or contribute meaningfully to weekly progress first\n2. If time is limited, prioritize the missions with more stable value and shorter routing instead of mechanically emptying the whole list\n3. If some commissions assume specific attributes or higher investment, it is fine to treat them as stage-gated content rather than forcing them immediately\n\nSo this page now focuses on how commissions work and how to judge their priority instead of preserving 'clear everything daily' as a universal rule.",
     "tags": [
@@ -995,6 +1022,8 @@
       "fons"
     ],
     "questionTw": "異環異象委託怎麼做？",
+    "seoTitleTw": "異環異象委託怎麼做？每日完成順序與取捨建議",
+    "seoDescriptionTw": "異環異象委託要不要全清？這篇整理每日優先順序、資源回報和時間有限時的取捨方式。",
     "answerTw": "異象委託這頁現在更適合回答**哪些委託值得你每天穩定清，哪些可以根據時間和帳號階段取捨**，而不是繼續只寫成「全做完就對了」的流程說明。對目前玩家來說，更實際的問題通常是：你缺的是經驗、貨幣、材料，還是單純想把每日負擔壓低，這會影響委託的優先順序。\n\n更穩妥的理解方式是：\n1. 先清那些能補你目前最缺資源、或者會影響週進度累積的委託\n2. 如果時間有限，就優先做回報更穩定、路徑更短的任務，而不是機械清空全部列表\n3. 某些委託需要特定屬性或更高練度時，也可以把它們視為階段性內容，不必強行當天硬打\n\n所以這頁現在保留的是**異象委託的完成方式與優先級判斷邏輯**，而不是繼續把「每日全清」寫成所有玩家都該遵循的唯一標準。",
     "categoryTw": "遊戲系統"
   },
@@ -1002,6 +1031,10 @@
     "id": "esper-ability-types",
     "question": "异环异能有哪些类型？",
     "questionEn": "What types of Esper abilities are there in NTE?",
+    "seoTitleZh": "异环异能有哪些类型？六大属性与战斗定位整理",
+    "seoTitleEn": "NTE Esper Ability Types — Six Attributes & Combat Roles",
+    "seoDescriptionZh": "异环异能和属性怎么理解？这篇整理六种类型、代表角色，以及战斗里该怎么搭配。",
+    "seoDescriptionEn": "Learn the six Esper ability types in NTE, what they broadly represent, and how they matter for team building and combat decisions.",
     "answer": "异环中的异能（角色属性）分为六种类型：1) 生命（Anima）— 自然与生命之力，代表角色如娜娜莉；2) 咒术（Incantation）— 符咒与结界之力，代表角色如咲里；3) 混沌（Chaos）— 混乱与破坏之力；4) 灵魂（Psyche）— 精神与心灵之力；5) 宇宙（Cosmos）— 星辰与空间之力；6) 相（Lakshana）— 特殊的属性类型。不同属性之间存在克制关系，合理搭配属性是战斗的关键。",
     "answerEn": "NTE has six attribute types (Esper abilities): 1) Anima — Life force, represented by characters like Nanally; 2) Incantation — Seals and barriers, represented by Sakiri; 3) Chaos — Destruction power; 4) Psyche — Mental and spiritual power; 5) Cosmos — Stellar and spatial power; 6) Lakshana — A special attribute type. Different attributes have weakness relationships, and proper attribute combinations are key to combat success.",
     "tags": [
@@ -1017,6 +1050,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環異能有哪些型別？",
+    "seoTitleTw": "異環異能有哪些類型？六大屬性與戰鬥定位整理",
+    "seoDescriptionTw": "異環異能和屬性怎麼理解？這篇整理六種類型、代表角色，以及戰鬥裡該怎麼搭配。",
     "answerTw": "異環中的異能（角色屬性）分為六種型別：1) 生命（Anima）— 自然與生命之力，代表角色如娜娜莉；2) 咒術（Incantation）— 符咒與結界之力，代表角色如咲裡；3) 混沌（Chaos）— 混亂與破壞之力；4) 靈魂（Psyche）— 精神與心靈之力；5) 宇宙（Cosmos）— 星辰與空間之力；6) 相（Lakshana）— 特殊的屬性型別。不同屬性之間存在剋制關係，合理搭配屬性是戰鬥的關鍵。",
     "categoryTw": "戰鬥機制"
   },
@@ -1024,6 +1059,10 @@
     "id": "disk-system",
     "question": "异环磁盘系统怎么玩？",
     "questionEn": "How does the Disk system work in NTE?",
+    "seoTitleZh": "异环磁盘系统怎么玩？主属性、套装与过渡思路指南",
+    "seoTitleEn": "NTE Disk System Guide — Main Stats, Sets & Transitional Builds",
+    "seoDescriptionZh": "异环磁盘系统怎么理解？这篇整理主属性、套装效果、过渡散件和强化投入顺序。",
+    "seoDescriptionEn": "A practical NTE Disk guide covering main stats, set logic, off-piece transitions, and how to invest enhancement resources.",
     "answer": "磁盘系统这页现在更适合回答**前期该先凑能用，还是后期再追完整词条和套装毕业**，而不是继续把“先散件、后套装”写成一句过于省略的结论。对当前玩家来说，更实际的难点通常是：你很少会一次拿到理想盘，真正影响体验的是如何在有限资源下先拼出一套能打的配置。\n\n更稳妥的理解方式是：\n1. 先看主属性和角色最关键的需求是否对路，再看副属性和套装效果\n2. 如果某个散件能明显改善输出或生存，短期内不一定要为了整齐套装硬换掉它\n3. 强化资源也要分阶段投入，先把会长期挂在主力身上的盘子拉起来，再慢慢筛掉过渡件\n\n所以这页现在保留的是**磁盘系统的构成、筛选顺序和过渡到毕业的思路**，而不是继续用一句简化口号概括所有养成阶段。",
     "answerEn": "This Disk-system page is more useful when it explains **whether you should first assemble something playable or chase ideal stats and full sets later** instead of compressing everything into a short 'use off-pieces early, full sets later' rule. For current players, the real challenge is that you rarely get perfect pieces at once; what matters is how to assemble a workable setup with limited resources.\n\nA safer way to think about Disks is:\n1. Check main stats and your character's most important needs first, then evaluate sub-stats and set bonuses\n2. If one off-piece gives a clear gain in damage or survivability, you do not need to replace it immediately just for cleaner set alignment\n3. Enhancement materials should also be staged: invest first in pieces likely to stay on long-term main units, then filter out transitional gear over time\n\nSo this page now focuses on Disk structure, selection order, and the path from temporary gear to endgame setups instead of reducing every stage to one slogan.",
     "tags": [
@@ -1038,6 +1077,8 @@
       "disk-set"
     ],
     "questionTw": "異環磁碟系統怎麼玩？",
+    "seoTitleTw": "異環磁碟系統怎麼玩？主屬性、套裝與過渡思路指南",
+    "seoDescriptionTw": "異環磁碟系統怎麼理解？這篇整理主屬性、套裝效果、過渡散件和強化投入順序。",
     "answerTw": "磁碟系統這頁現在更適合回答**前期該先湊能用，還是後期再追完整詞條和套裝畢業**，而不是繼續把「先散件、後套裝」寫成一句過於省略的結論。對目前玩家來說，更實際的難點通常是：你很少會一次拿到理想盤，真正影響體驗的是如何在有限資源下先拼出一套能打的配置。\n\n更穩妥的理解方式是：\n1. 先看主屬性和角色最關鍵的需求是否對路，再看副屬性和套裝效果\n2. 如果某個散件能明顯改善輸出或生存，短期內不一定要為了整齊套裝硬換掉它\n3. 強化資源也要分階段投入，先把會長期掛在主力身上的盤子拉起來，再慢慢篩掉過渡件\n\n所以這頁現在保留的是**磁碟系統的構成、篩選順序和過渡到畢業的思路**，而不是繼續用一句簡化口號概括所有養成階段。",
     "categoryTw": "裝備系統"
   },
@@ -1130,6 +1171,10 @@
     "id": "launch-date-2026",
     "question": "异环2026年什么时候公测？具体上线日期是几号？",
     "questionEn": "When does NTE launch in 2026? What is the exact release date?",
+    "seoTitleZh": "异环2026年什么时候公测？国服国际服上线时间归档",
+    "seoTitleEn": "NTE 2026 Launch Dates — CN & Global Release Timeline Archive",
+    "seoDescriptionZh": "异环国服、国际服和预下载分别是什么时候开放？这篇整理 2026 年上线时间线与当前入坑判断。",
+    "seoDescriptionEn": "An archive of NTE's 2026 launch timeline covering CN release, global release, pre-download, and what current players should focus on instead.",
     "answer": "异环 2026 年的公测时间已经确定并且属于**历史已发生事件**：国服于 **2026 年 4 月 23 日** 上线，国际服于 **2026 年 4 月 29 日** 上线，预下载于 **2026 年 4 月 21 日** 开放。这条 FAQ 现在主要用于核对开服时间线，而不是提醒“即将上线”。如果你现在想入坑，重点不再是等开服，而是直接选择服务器、确认设备配置，并查看当前版本内容和有效兑换码。",
     "answerEn": "NTE's 2026 launch dates are now part of the game's **historical launch timeline**: the CN server went live on **April 23, 2026**, the global server on **April 29, 2026**, and pre-download opened on **April 21, 2026**. This FAQ is now mainly useful for verifying the launch timeline rather than announcing an upcoming release. If you are starting now, the real priorities are choosing a server, checking device compatibility, and reviewing current-version content and active redeem codes.",
     "tags": [
@@ -1142,6 +1187,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環2026年什麼時候公測？具體上線日期是幾號？",
+    "seoTitleTw": "異環2026年什麼時候公測？國服國際服上線時間歸檔",
+    "seoDescriptionTw": "異環國服、國際服和預下載分別是什麼時候開放？這篇整理 2026 年上線時間線與目前入坑判斷。",
     "answerTw": "異環國服（中國大陸）已確認於2026年4月23日正式公測上線，國際服（全球）於2026年4月29日上線，預下載4月21日開放。遊戲由完美世界旗下Hotta Studio開發，支援PC、Android、iOS、Mac、HarmonyOS和PlayStation 5多平臺遊玩，全平臺數據互通。公測前瞻特別節目已於4月18日19:30在B站、TapTap、YouTube等平臺播出，公佈了6個兌換碼、抽卡機制和16位上線角色等關鍵資訊。",
     "categoryTw": "上線資訊"
   },
@@ -1149,6 +1196,10 @@
     "id": "pre-download-time",
     "question": "异环预下载什么时候开始？怎么提前下载？",
     "questionEn": "When does NTE pre-download start? How to download early?",
+    "seoTitleZh": "异环预下载什么时候开始？2026 预下载时间与现阶段安装说明",
+    "seoTitleEn": "NTE Pre-Download Time — 2026 Archive & Current Install Guidance",
+    "seoDescriptionZh": "异环 2026 年预下载是什么时候？这篇整理历史时间点，并说明现在安装游戏该看哪些信息。",
+    "seoDescriptionEn": "An archive of NTE's 2026 pre-download timing plus practical guidance for players installing the game now.",
     "answer": "异环的开服预下载已在 **2026 年 4 月 21 日** 开放过，现在这条更多是**历史下载时间记录**。如果你现在要安装游戏，已经不需要再等预下载阶段，直接通过官网、商店或对应平台客户端下载安装即可。对当前玩家更有用的信息是：确保预留足够存储空间、优先安装到 SSD 或较快存储设备、并在更新后重新确认客户端完整性，而不是继续参考开服前的排队下载建议。",
     "answerEn": "NTE's launch pre-download period already took place on **April 21, 2026**, so this entry now functions mainly as a **historical download-timeline reference**. If you are installing the game today, there is no need to wait for a pre-download window: just use the official launcher or your platform storefront directly. For current players, the more relevant advice is to reserve enough storage, prefer SSD or fast local storage, and verify the client after updates rather than relying on launch-day pre-download tips.",
     "tags": [
@@ -1161,6 +1212,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環預下載什麼時候開始？怎麼提前下載？",
+    "seoTitleTw": "異環預下載什麼時候開始？2026 預下載時間與現階段安裝說明",
+    "seoDescriptionTw": "異環 2026 年預下載是什麼時候？這篇整理歷史時間點，並說明現在安裝遊戲該看哪些資訊。",
     "answerTw": "異環的開服預下載已在 **2026 年 4 月 21 日** 開放過，現在這條更多是**歷史下載時間記錄**。如果你現在要安裝遊戲，已經不需要再等預下載階段，直接透過官網、商店或對應平臺客戶端下載安裝即可。對目前玩家更有用的資訊是：確保預留足夠儲存空間、優先安裝到 SSD 或較快儲存裝置、並在更新後重新確認客戶端完整性，而不是繼續參考開服前的排隊下載建議。",
     "categoryTw": "遊戲系統"
   },
@@ -1613,6 +1666,10 @@
     "id": "collapse-mechanic",
     "question": "异环倾陷值是什么？怎么触发破防？",
     "questionEn": "What is Collapse (Qingxian) in NTE? How to trigger Break?",
+    "seoTitleZh": "异环倾陷值是什么？破防机制、积累方式与输出窗口",
+    "seoTitleEn": "NTE Collapse Guide — Break Gauge, Build-Up & Damage Window",
+    "seoDescriptionZh": "异环倾陷值和破防怎么理解？这篇整理积累方式、破防效果，以及战斗里怎么打出更高收益。",
+    "seoDescriptionEn": "Learn how Collapse works in NTE, how to build the Break gauge faster, and how to use the damage window after enemies are broken.",
     "answer": "倾陷值是异环战斗中的核心机制之一，类似于其他游戏中的「破防条」或「韧性条」。每个敌人都有隐藏的倾陷值槽，通过攻击可以不断积累。触发方式：1) 普通攻击和技能攻击会积累倾陷值；2) 极限闪避成功后获得的增伤效果可以更快积累倾陷值；3) 属性克制的攻击积累更多倾陷值。当倾陷值蓄满后，敌人进入「破防」状态，期间受到的伤害大幅增加且无法行动。合理利用倾陷机制，配合队伍属性克制，是高效战斗的关键。",
     "answerEn": "Collapse (Qingxian) is a core combat mechanic in NTE, similar to a \"break gauge\" or \"stagger meter\" in other games. Every enemy has a hidden Collapse gauge that fills as you attack. How to build: 1) Normal attacks and skills fill the gauge; 2) Perfect Dodge boosts accelerate gauge filling; 3) Attribute-counter attacks fill the gauge faster. When fully charged, enemies enter a \"Break\" state — taking significantly increased damage and unable to act. Exploiting the Collapse mechanic combined with attribute counters is key to efficient combat.",
     "tags": [
@@ -1628,6 +1685,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環傾陷值是什麼？怎麼觸發破防？",
+    "seoTitleTw": "異環傾陷值是什麼？破防機制、累積方式與輸出窗口",
+    "seoDescriptionTw": "異環傾陷值和破防怎麼理解？這篇整理累積方式、破防效果，以及戰鬥裡怎麼打出更高收益。",
     "answerTw": "傾陷值是異環戰鬥中的核心機制之一，類似於其他遊戲中的「破防條」或「韌性條」。每個敵人都有隱藏的傾陷值槽，通過攻擊可以不斷積累。觸發方式：1) 普通攻擊和技能攻擊會積累傾陷值；2) 極限閃避成功後獲得的增傷效果可以更快積累傾陷值；3) 屬性剋制的攻擊積累更多傾陷值。當傾陷值蓄滿後，敵人進入「破防」狀態，期間受到的傷害大幅增加且無法行動。合理利用傾陷機制，配合隊伍屬性剋制，是高效戰鬥的關鍵。",
     "categoryTw": "戰鬥機制"
   },
@@ -1635,6 +1694,10 @@
     "id": "ring-fusion-mechanic",
     "question": "异环环合是什么？怎么触发环合爆发？",
     "questionEn": "What is Ring Fusion (Huanhe) in NTE? How to trigger it?",
+    "seoTitleZh": "异环环合是什么？触发条件、属性组合与爆发思路",
+    "seoTitleEn": "NTE Ring Fusion Guide — Trigger Conditions, Combos & Burst Logic",
+    "seoDescriptionZh": "异环环合和环合爆发怎么触发？这篇整理积累方式、属性组合和战斗里的常见理解路径。",
+    "seoDescriptionEn": "Learn how Ring Fusion works in NTE, how to trigger Fusion Bursts, and how attribute combinations shape the system in combat.",
     "answer": "环合是异环的核心战斗系统之一。使用方法：1) 通过普通攻击和技能攻击积累环合值；2) 当环合值充满后，切换到对应属性的队友即可触发环合爆发；3) 环合爆发会对敌人造成大量范围伤害。推荐的属性搭配：光属性加灵属性（创生组合）可以触发自动范围爆炸，非常适合清理群怪。合理规划队伍的属性搭配和角色切换顺序，是掌握环合系统的关键。不同属性组合的环合效果各不相同，建议多尝试找到最适合你的搭配。",
     "answerEn": "Ring Fusion (Huanhe) is a core combat system in NTE. How to use: 1) Build up the Fusion gauge through normal attacks and skills; 2) When full, switch to a teammate with the matching attribute to trigger a Ring Fusion Burst; 3) The burst deals massive AoE damage. Recommended combo: Light + Spirit attribute combination triggers automatic AoE explosions, ideal for clearing groups. Planning your team's attribute composition and switch order is key to mastering Ring Fusion. Different attribute combinations produce different effects — experiment to find your best setup.",
     "tags": [
@@ -1651,6 +1714,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環環合是什麼？怎麼觸發環合爆發？",
+    "seoTitleTw": "異環環合是什麼？觸發條件、屬性組合與爆發思路",
+    "seoDescriptionTw": "異環環合和環合爆發怎麼觸發？這篇整理累積方式、屬性組合和戰鬥裡的常見理解路徑。",
     "answerTw": "環合是異環的核心戰鬥系統之一。使用方法：1) 通過普通攻擊和技能攻擊積累環合值；2) 當環合值充滿後，切換到對應屬性的隊友即可觸發環合爆發；3) 環合爆發會對敵人造成大量範圍傷害。推薦的屬性搭配：光屬性加靈屬性（創生組合）可以觸發自動範圍爆炸，非常適合清理群怪。合理規劃隊伍的屬性搭配和角色切換順序，是掌握環合系統的關鍵。不同屬性組合的環合效果各不相同，建議多嘗試找到最適合你的搭配。",
     "categoryTw": "戰鬥機制"
   },
@@ -1658,6 +1723,10 @@
     "id": "six-attributes",
     "question": "异环有几个属性？属性克制关系是什么？",
     "questionEn": "How many elements does NTE have? What is the weakness chart?",
+    "seoTitleZh": "异环有几个属性？六属性关系、克制与配队思路",
+    "seoTitleEn": "NTE Six Attributes Guide — Weakness Chart, Counters & Team Logic",
+    "seoDescriptionZh": "异环六属性怎么分？这篇整理属性关系、克制思路，以及组队时为什么要覆盖多种属性。",
+    "seoDescriptionEn": "A practical guide to NTE's six attributes covering counters, weakness logic, and why multi-attribute team coverage matters.",
     "answer": "异环中共有六种属性，分为光（生命/Anima）、灵（灵魂/Psyche）、咒（咒术/Incantation）、暗（混沌/Chaos）、魂（宇宙/Cosmos）和相（Lakshana）。不同属性之间存在克制关系，利用属性克制可以对敌人造成约1.5倍的额外伤害。在战斗中观察敌人的属性弱点，切换对应属性的角色进行攻击，可以大幅提高战斗效率。组建队伍时建议至少覆盖2种以上属性，避免被敌人克制。光加灵的属性组合还可以触发创生效果，在环合系统中非常强力。",
     "answerEn": "NTE features six attributes: Light (Anima), Spirit (Psyche), Incantation, Dark (Chaos), Soul (Cosmos), and Lakshana. Different attributes have weakness relationships — exploiting them deals approximately 1.5x bonus damage. Observe enemy weaknesses in combat and switch to matching attribute characters for maximum efficiency. Build teams covering at least 2 attributes to avoid being countered. The Light + Spirit combination triggers a Creation effect that's particularly powerful in the Ring Fusion system.",
     "tags": [
@@ -1675,6 +1744,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環有幾個屬性？屬性剋制關係是什麼？",
+    "seoTitleTw": "異環有幾個屬性？六屬性關係、剋制與配隊思路",
+    "seoDescriptionTw": "異環六屬性怎麼分？這篇整理屬性關係、剋制思路，以及組隊時為什麼要覆蓋多種屬性。",
     "answerTw": "異環中共有六種屬性，分為光（生命/Anima）、靈（靈魂/Psyche）、咒（咒術/Incantation）、暗（混沌/Chaos）、魂（宇宙/Cosmos）和相（Lakshana）。不同屬性之間存在剋制關係，利用屬性剋制可以對敵人造成約1.5倍的額外傷害。在戰鬥中觀察敵人的屬性弱點，切換對應屬性的角色進行攻擊，可以大幅提高戰鬥效率。組建隊伍時建議至少覆蓋2種以上屬性，避免被敵人剋制。光加靈的屬性組合還可以觸發創生效果，在環合系統中非常強力。",
     "categoryTw": "戰鬥機制"
   },
@@ -1725,6 +1796,10 @@
     "id": "housing-system",
     "question": "异环有房屋系统吗？怎么买房装修？",
     "questionEn": "Does NTE have a housing system? How to buy and decorate a home?",
+    "seoTitleZh": "异环有房屋系统吗？买房、装修与家园玩法说明",
+    "seoTitleEn": "NTE Housing System Guide — Buying Homes, Decoration & Features",
+    "seoDescriptionZh": "异环房屋系统怎么玩？这篇整理买房、装修、家具摆放和家园玩法的大致使用方式。",
+    "seoDescriptionEn": "Learn how NTE's housing system works, including buying property, decorating interiors, furniture placement, and broader home features.",
     "answer": "异环拥有完整的房屋系统。玩家可以在海特洛市中购买属于自己的房产，并进行室内装修和家具摆放。公测版本对房屋系统进行了全面扩展，改进了家具放置的交互体验。房屋不仅是装饰性质，还可能提供一些实用的功能加成。公测路线图中确认将持续优化房屋系统，增加更多家具种类和互动玩法。邀请好友参观你的住所也是游戏社交的一部分。",
     "answerEn": "NTE features a complete housing system. Players can purchase property in Hethereau City, decorate interiors, and place furniture. The launch version significantly expands the housing system with improved furniture placement interactions. Housing isn't purely decorative — it may provide practical functional bonuses. The official roadmap confirms continued housing system improvements with more furniture types and interactive features. Inviting friends to visit your home is also part of the game's social features.",
     "tags": [
@@ -1737,6 +1812,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環有房屋系統嗎？怎麼買房裝修？",
+    "seoTitleTw": "異環有房屋系統嗎？買房、裝修與家園玩法說明",
+    "seoDescriptionTw": "異環房屋系統怎麼玩？這篇整理買房、裝修、家具擺放和家園玩法的大致使用方式。",
     "answerTw": "異環擁有完整的房屋系統。玩家可以在海特洛市中購買屬於自己的房產，並進行室內裝修和傢俱擺放。公測版本對房屋系統進行了全面擴充套件，改進了傢俱放置的互動體驗。房屋不僅是裝飾性質，還可能提供一些實用的功能加成。公測路線圖中確認將持續最佳化房屋系統，增加更多傢俱種類和互動玩法。邀請好友參觀你的住所也是遊戲社交的一部分。",
     "categoryTw": "遊戲系統"
   },
@@ -1744,6 +1821,10 @@
     "id": "shop-auto-farm",
     "question": "异环店长特供是什么？怎么自动刷钱？",
     "questionEn": "What is the Shop Manager system in NTE? How to auto-farm currency?",
+    "seoTitleZh": "异环店长特供是什么？自动刷钱系统与经营回报判断",
+    "seoTitleEn": "NTE Shop Manager Guide — Auto Income, Setup Cost & Return Logic",
+    "seoDescriptionZh": "异环店长特供值不值得做？这篇整理自动刷钱机制、前期投入与长期经营回报判断。",
+    "seoDescriptionEn": "A practical NTE Shop Manager guide covering passive income expectations, setup cost, and how to judge whether the system is worth prioritizing.",
     "answer": "店长特供这页现在更适合回答**它到底是长期被动收益系统，还是一个需要你前期投入换后期回报的经营模块**，而不是继续把“尽早解锁并最大化收益”写成所有账号都该无条件执行的口号。对当前玩家来说，更实际的重点通常是：这个系统会不会占用你当前更急需的资源、它带来的收益是补贴型还是主收入型，以及你是不是已经进入适合经营的阶段。\n\n更稳妥的理解方式是：\n1. 把它看成长期资源循环的一部分，而不是开局立刻压过主线和主力养成的绝对优先项\n2. 如果前期资源特别紧，就要比较经营投入和当前战力推进之间的取舍\n3. 商品配置和收益优化也应根据你现在最缺的是货币、材料还是节奏稳定性来判断，而不是盲目追求“最大化”\n\n所以这页现在保留的是**店长特供的经营定位与投入回报判断逻辑**，而不是继续把它写成所有玩家都该第一时间拉满的固定策略。",
     "answerEn": "This Shop Manager page is more useful when it explains **whether the system is mainly long-term passive income or an investment loop that trades early setup for later returns** instead of preserving 'unlock early and maximize everything' as a blanket instruction. For current players, the practical question is whether it competes with more urgent needs, whether the income is supplementary or central, and whether your account is already at a stage where business setup makes sense.\n\nA safer way to judge it is:\n1. Treat it as part of a long-term resource cycle rather than an absolute opening priority above story and core unit growth\n2. If early resources are very tight, compare business setup cost against immediate combat progression needs\n3. Product choice and profit optimization should be guided by whether you currently lack currency, materials, or pacing stability rather than chasing abstract maximum yield\n\nSo this page now focuses on the Shop Manager system's economic role and return-on-investment logic instead of preserving one fixed 'rush it early' strategy for everyone.",
     "tags": [
@@ -1758,6 +1839,8 @@
       "fons"
     ],
     "questionTw": "異環店長特供是什麼？怎麼自動刷錢？",
+    "seoTitleTw": "異環店長特供是什麼？自動刷錢系統與經營回報判斷",
+    "seoDescriptionTw": "異環店長特供值不值得做？這篇整理自動刷錢機制、前期投入與長期經營回報判斷。",
     "answerTw": "店長特供這頁現在更適合回答**它到底是長期被動收益系統，還是一個需要你前期投入換後期回報的經營模組**，而不是繼續把「盡早解鎖並最大化收益」寫成所有帳號都該無條件執行的口號。對目前玩家來說，更實際的重點通常是：這個系統會不會佔用你目前更急需的資源、它帶來的收益是補貼型還是主收入型，以及你是不是已經進入適合經營的階段。\n\n更穩妥的理解方式是：\n1. 把它看成長期資源循環的一部分，而不是開局立刻壓過主線和主力養成的絕對優先項\n2. 如果前期資源特別緊，就要比較經營投入和目前戰力推進之間的取捨\n3. 商品配置和收益最佳化也應根據你現在最缺的是貨幣、材料還是節奏穩定性來判斷，而不是盲目追求「最大化」\n\n所以這頁現在保留的是**店長特供的經營定位與投入回報判斷邏輯**，而不是繼續把它寫成所有玩家都該第一時間拉滿的固定策略。",
     "categoryTw": "貨幣系統"
   },
