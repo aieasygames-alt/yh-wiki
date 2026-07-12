@@ -359,6 +359,7 @@ export interface Guide {
   category: string;
   categoryZh: string;
   categoryEn: string;
+  categoryTw?: string;
   summary: string;
   summaryEn: string;
   summaryTw?: string;
