@@ -11,10 +11,22 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const vehicles = getAllVehicles();
+  const freeVehicles = vehicles.filter((vehicle) => vehicle.price === null).length;
+  const fastest = vehicles.reduce((a, b) => a.topSpeed > b.topSpeed ? a : b);
+  const description = isZhLocale(locale)
+    ? `异环载具图鉴，当前收录 ${vehicles.length} 台载具，包含 ${freeVehicles} 台可免费获取车型，并可快速查看极速、价格、品牌与获取方式。当前最高时速 ${fastest.topSpeed} km/h。`
+    : `Neverness to Everness vehicle database with ${vehicles.length} vehicles, including ${freeVehicles} free options, plus top speed, price, brand, and acquisition info. Current fastest speed: ${fastest.topSpeed} km/h.`;
+
   return {
     title: t(locale, "vehicles.seoTitle"),
-    description: t(locale, "vehicles.seoDescription"),
+    description,
     alternates: hreflangAlternates("vehicles", lang),
+    openGraph: {
+      title: t(locale, "vehicles.seoTitle"),
+      description,
+      type: "website",
+    },
   };
 }
 

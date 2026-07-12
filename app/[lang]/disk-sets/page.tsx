@@ -9,10 +9,22 @@ import { DataStatusBanner } from "../../../components/DataStatusBanner";
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const diskSets = getAllDiskSets();
+  const elementalCount = diskSets.filter((set) => set.category === "elemental").length;
+  const generalCount = diskSets.filter((set) => set.category === "general").length;
+  const description = isZhLocale(locale)
+    ? `异环卡带套装大全，整理 ${diskSets.length} 套卡带效果，包含 ${elementalCount} 套元素专属与 ${generalCount} 套通用套装，汇总 2 件套、4 件套与推荐角色。`
+    : `Complete Neverness to Everness disk set database with ${diskSets.length} sets, including ${elementalCount} elemental sets and ${generalCount} general sets with 2-piece, 4-piece, and recommended character references.`;
+
   return {
     title: t(locale, "diskSets.seoTitle"),
-    description: t(locale, "diskSets.seoDescription"),
+    description,
     alternates: hreflangAlternates("disk-sets", lang),
+    openGraph: {
+      title: t(locale, "diskSets.seoTitle"),
+      description,
+      type: "website",
+    },
   };
 }
 

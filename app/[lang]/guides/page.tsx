@@ -33,13 +33,19 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const guides = getAllGuides();
+  const categories = getGuideCategories(locale);
+  const description = isZhLocale(locale)
+    ? `异环攻略合集，收录 ${guides.length} 篇攻略与 ${categories.length} 个分类，覆盖新手开荒、配队养成、探索解谜、Boss 机制与版本重点内容。`
+    : `Browse ${guides.length} Neverness to Everness guides across ${categories.length} categories, covering beginner progression, team building, exploration, boss mechanics, and current version priorities.`;
+
   return {
     title: t(locale, "guides.title"),
-    description: t(locale, "guides.description"),
+    description,
     alternates: hreflangAlternates("guides", lang),
     openGraph: {
       title: t(locale, "guides.title"),
-      description: t(locale, "guides.description"),
+      description,
       type: "website",
     },
   };

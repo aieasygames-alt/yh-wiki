@@ -12,13 +12,19 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const weapons = getAllWeapons();
+  const typeCount = new Set(weapons.map((weapon) => weapon.type)).size;
+  const description = isZhLocale(locale)
+    ? `异环武器图鉴，汇总 ${weapons.length} 把武器，覆盖 ${typeCount} 种弧盘类型与 S/A/B 全稀有度，并附基础攻击、词条与适用方向，方便配装查询。`
+    : `Browse ${weapons.length} Neverness to Everness weapons across ${typeCount} arc types and S/A/B rarities, with base attack, substats, and build-oriented lookup support.`;
+
   return {
     title: t(locale, "weapons.title"),
-    description: t(locale, "weapons.description"),
+    description,
     alternates: hreflangAlternates("weapons", lang),
     openGraph: {
       title: t(locale, "weapons.title"),
-      description: t(locale, "weapons.description"),
+      description,
       type: "website",
     },
   };
