@@ -4224,6 +4224,10 @@
     "id": "sound-lost",
     "question": "异环游戏突然没有声音了怎么解决？",
     "questionEn": "NTE suddenly lost all sound? How to fix audio issues",
+    "seoTitleZh": "异环突然没有声音怎么办？音频输出与音效排查指南",
+    "seoTitleEn": "NTE Suddenly Has No Sound — Audio Output Troubleshooting Guide",
+    "seoDescriptionZh": "异环突然没声音先查什么？这篇整理游戏音量、系统输出设备和部分音效丢失的排查顺序。",
+    "seoDescriptionEn": "A practical NTE audio troubleshooting guide covering game volume, system output devices, drivers, and partial sound-loss issues.",
     "answer": "1)检查游戏内音量设置是否被调到最低 2)检查系统音量设置 3)检查耳机/扬声器连接 4)重启游戏 5)在游戏设置中切换音频输出设备 6)PC端：检查音频驱动是否正常，右键音量图标→播放设备确认默认设备正确 7)如果只有部分音效丢失（如战斗音效），可能是游戏Bug，等待更新修复。",
     "answerEn": "1) Check if in-game volume settings were turned down 2) Check system volume settings 3) Check headphone/speaker connections 4) Restart the game 5) Switch audio output device in game settings 6) PC: Check audio drivers — right-click volume icon → Playback devices and confirm the default device is correct 7) If only specific sounds are missing (e.g., combat SFX), it may be a game bug — wait for an update.",
     "tags": [
@@ -4238,6 +4242,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環遊戲突然沒有聲音了怎麼解決？",
+    "seoTitleTw": "異環突然沒有聲音怎麼辦？音訊輸出與音效排查指南",
+    "seoDescriptionTw": "異環突然沒聲音先查什麼？這篇整理遊戲音量、系統輸出裝置和部分音效丟失的排查順序。",
     "answerTw": "1)檢查遊戲內音量設定是否被調到最低 2)檢查系統音量設定 3)檢查耳機/揚聲器連線 4)重啟遊戲 5)在遊戲設定中切換音訊輸出裝置 6)PC端：檢查音訊驅動是否正常，右鍵音量圖示→播放裝置確認預設裝置正確 7)如果只有部分音效丟失（如戰鬥音效），可能是遊戲Bug，等待更新修復。",
     "categoryTw": "遊戲Bug"
   },
@@ -4245,6 +4251,10 @@
     "id": "touch-not-responding",
     "question": "异环手机战斗中触控失灵怎么办？",
     "questionEn": "NTE touch controls not responding during combat? Fix",
+    "seoTitleZh": "异环手机战斗中触控失灵怎么办？触控与按键排查",
+    "seoTitleEn": "NTE Touch Controls Not Responding — Mobile Input Troubleshooting",
+    "seoDescriptionZh": "异环手机触控失灵先查什么？这篇整理屏幕灵敏度、按键布局和安卓触控采样问题。",
+    "seoDescriptionEn": "Learn how to troubleshoot unresponsive touch controls in NTE by checking screen sensitivity, button layout, accidental-touch settings, and Android input behavior.",
     "answer": "1)清理手机屏幕（油污和水分影响触控） 2)取下手机膜试试（部分防窥膜/钢化膜影响触控灵敏度） 3)重启游戏 4)在游戏设置中重置按键布局 5)关闭防误触模式 6)如果是特定技能按钮失灵，尝试调整按钮位置和大小 7)更新游戏到最新版本。部分安卓机型存在触控采样率过低的问题，建议使用游戏模式。",
     "answerEn": "1) Clean your phone screen (oil and moisture affect touch sensitivity) 2) Try removing your screen protector (some privacy/glass protectors affect touch sensitivity) 3) Restart the game 4) Reset button layout in game settings 5) Disable accidental touch protection 6) If specific skill buttons are unresponsive, try adjusting button position and size 7) Update to the latest game version. Some Android devices have low touch sampling rates — try enabling Game Mode.",
     "tags": [
@@ -4260,6 +4270,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環手機戰鬥中觸控失靈怎麼辦？",
+    "seoTitleTw": "異環手機戰鬥中觸控失靈怎麼辦？觸控與按鍵排查",
+    "seoDescriptionTw": "異環手機觸控失靈先查什麼？這篇整理螢幕靈敏度、按鍵佈局和安卓觸控取樣問題。",
     "answerTw": "1)清理手機螢幕（油汙和水分影響觸控） 2)取下手機膜試試（部分防窺膜/鋼化膜影響觸控靈敏度） 3)重啟遊戲 4)在遊戲設定中重置按鍵佈局 5)關閉防誤觸模式 6)如果是特定技能按鈕失靈，嘗試調整按鈕位置和大小 7)更新遊戲到最新版本。部分安卓機型存在觸控取樣率過低的問題，建議使用遊戲模式。",
     "categoryTw": "技術支援"
   },
@@ -4267,6 +4279,10 @@
     "id": "recharge-not-received",
     "question": "异环充值成功了但没到账怎么办？",
     "questionEn": "NTE payment successful but in-game currency not received? Fix",
+    "seoTitleZh": "异环充值成功没到账怎么办？到账延迟与补单处理",
+    "seoTitleEn": "NTE Payment Successful but Not Received — Recharge Delay Troubleshooting",
+    "seoDescriptionZh": "异环充值扣款成功但没到账先查什么？这篇整理订单确认、服务器账号核对和客服补单材料。",
+    "seoDescriptionEn": "A practical NTE payment troubleshooting guide covering order confirmation, server/account checks, delay windows, and support evidence for missing top-ups.",
     "answer": "1)等待最多24小时，部分支付渠道到账有延迟 2)检查支付订单号确认扣款成功 3)退出游戏重新登录查看 4)检查是否充到了正确的服务器和账号 5)如果24小时后仍未到账，联系官方客服并提供：游戏UID、充值时间、金额、订单号、支付截图。iOS用户如申请退款可能导致账号封禁，请谨慎操作。",
     "answerEn": "1) Wait up to 24 hours — some payment channels have processing delays 2) Check your payment order number to confirm the charge went through 3) Log out and back in to check 4) Verify you topped up on the correct server and account 5) If not received after 24 hours, contact customer support with: game UID, recharge time, amount, order number, and payment screenshot. iOS users: requesting refunds may result in account bans — proceed with caution.",
     "tags": [
@@ -4281,6 +4297,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環充值成功了但沒到賬怎麼辦？",
+    "seoTitleTw": "異環充值成功沒到賬怎麼辦？到賬延遲與補單處理",
+    "seoDescriptionTw": "異環充值扣款成功但沒到賬先查什麼？這篇整理訂單確認、伺服器帳號核對和客服補單材料。",
     "answerTw": "1)等待最多24小時，部分支付渠道到賬有延遲 2)檢查支付訂單號確認扣款成功 3)退出遊戲重新登入檢視 4)檢查是否充到了正確的伺服器和賬號 5)如果24小時後仍未到賬，聯絡官方客服並提供：遊戲UID、充值時間、金額、訂單號、支付截圖。iOS使用者如申請退款可能導致賬號封禁，請謹慎操作。",
     "categoryTw": "充值與賬號"
   },
@@ -4288,6 +4306,10 @@
     "id": "double-recharge-reset",
     "question": "异环换设备/重装后首充双倍消失了怎么办？",
     "questionEn": "NTE first recharge double bonus disappeared after reinstall? Fix",
+    "seoTitleZh": "异环首充双倍消失怎么办？显示异常与充值记录核对",
+    "seoTitleEn": "NTE First Recharge Bonus Disappeared — Display Bug & Purchase Check",
+    "seoDescriptionZh": "异环重装后首充双倍不见了先查什么？这篇整理显示 Bug、充值记录核对和避免重复充值的方法。",
+    "seoDescriptionEn": "Learn how to troubleshoot a missing NTE first-recharge bonus by checking purchase history, display-state bugs, and avoiding accidental duplicate spending.",
     "answer": "首充双倍重置是已知的显示Bug，实际充值记录保存在服务器端。1)退出游戏重新登录 2)检查充值历史记录确认双倍状态 3)如果确实显示异常，截图反馈给客服 4)不要重复充值尝试触发双倍，可能造成浪费。官方通常会在后续更新中修复首充显示问题。",
     "answerEn": "The first-recharge double bonus reset is a known display bug — actual purchase records are saved server-side. 1) Log out and back in 2) Check purchase history to confirm double bonus status 3) If the display is clearly wrong, screenshot and report to customer support 4) Don't try re-purchasing to trigger the double bonus — it may waste money. The developers usually fix first-recharge display issues in a subsequent update.",
     "tags": [
@@ -4303,6 +4325,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環換裝置/重灌後首充雙倍消失了怎麼辦？",
+    "seoTitleTw": "異環首充雙倍消失怎麼辦？顯示異常與充值記錄核對",
+    "seoDescriptionTw": "異環重裝後首充雙倍不見了先查什麼？這篇整理顯示 Bug、充值記錄核對和避免重複充值的方法。",
     "answerTw": "首充雙倍重置是已知的顯示Bug，實際充值記錄儲存在伺服器端。1)退出遊戲重新登入 2)檢查充值歷史記錄確認雙倍狀態 3)如果確實顯示異常，截圖反饋給客服 4)不要重複充值嘗試觸發雙倍，可能造成浪費。官方通常會在後續更新中修復首充顯示問題。",
     "categoryTw": "充值與賬號"
   },
@@ -4310,6 +4334,10 @@
     "id": "monthly-card-not-rewarded",
     "question": "异环月卡购买了但每日奖励没发放怎么办？",
     "questionEn": "NTE monthly pass purchased but daily rewards not received? Fix",
+    "seoTitleZh": "异环月卡奖励没发怎么办？月卡状态与每日领取排查",
+    "seoTitleEn": "NTE Monthly Pass Not Rewarded — Status & Daily Claim Troubleshooting",
+    "seoDescriptionZh": "异环月卡买了没发奖励先查什么？这篇整理激活状态、手动领取和过期判断。",
+    "seoDescriptionEn": "A practical NTE monthly-pass troubleshooting guide covering activation status, daily manual claim behavior, server checks, and expiration handling.",
     "answer": "1)确认月卡是否激活成功：进入商城→月卡页面查看状态 2)每日奖励需要在当天手动领取，不会自动发放到邮箱 3)检查是否在正确的服务器上 4)如果显示已购买但无法领取，重新登录后重试 5)联系客服提供购买记录和UID。注意月卡有效期为30天，过期后需要重新购买。",
     "answerEn": "1) Confirm the monthly pass is active: go to Shop → Monthly Pass page and check status 2) Daily rewards must be manually claimed each day — they are not auto-sent to mail 3) Check if you're on the correct server 4) If it shows purchased but can't claim, re-login and try again 5) Contact support with purchase records and UID. Note: the monthly pass lasts 30 days and must be repurchased after expiration.",
     "tags": [
@@ -4324,6 +4352,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環月卡購買了但每日獎勵沒發放怎麼辦？",
+    "seoTitleTw": "異環月卡獎勵沒發怎麼辦？月卡狀態與每日領取排查",
+    "seoDescriptionTw": "異環月卡買了沒發獎勵先查什麼？這篇整理啟用狀態、手動領取和過期判斷。",
     "answerTw": "1)確認月卡是否啟用成功：進入商城→月卡頁面檢視狀態 2)每日獎勵需要在當天手動領取，不會自動發放到郵箱 3)檢查是否在正確的伺服器上 4)如果顯示已購買但無法領取，重新登入後重試 5)聯絡客服提供購買記錄和UID。注意月卡有效期為30天，過期後需要重新購買。",
     "categoryTw": "充值與賬號"
   },
@@ -4331,6 +4361,10 @@
     "id": "co-op-matchmaking-failed",
     "question": "异环联机组队匹配不到人怎么办？",
     "questionEn": "NTE co-op matchmaking not finding teammates? Fix",
+    "seoTitleZh": "异环联机匹配不到人怎么办？组队条件与活跃时段判断",
+    "seoTitleEn": "NTE Co-op Matchmaking Not Finding Players — Queue & Activity Checks",
+    "seoDescriptionZh": "异环联机匹配不到人先查什么？这篇整理联机解锁条件、世界等级和活跃时段判断。",
+    "seoDescriptionEn": "Learn how to troubleshoot NTE co-op matchmaking by checking unlock requirements, world level, activity windows, and direct-invite options.",
     "answer": "1)确认已解锁联机功能（需要完成一定主线进度） 2)检查世界等级设置，过高的世界等级匹配范围较小 3)尝试降低匹配条件 4)在聊天频道主动发起组队邀请 5)让好友直接通过UID邀请你 6)避开凌晨等低活跃时段 7)检查网络连接是否正常。部分副本需要先解锁才能联机。",
     "answerEn": "1) Confirm you've unlocked co-op (requires certain main story progress) 2) Check your World Level — higher levels have smaller matchmaking pools 3) Try lowering matchmaking requirements 4) Post in chat channels to invite teammates directly 5) Have friends invite you via UID 6) Avoid low-activity hours like late night 7) Check your network connection. Some dungeons need to be unlocked before co-op is available.",
     "tags": [
@@ -4345,6 +4379,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環聯機組隊匹配不到人怎麼辦？",
+    "seoTitleTw": "異環聯機匹配不到人怎麼辦？組隊條件與活躍時段判斷",
+    "seoDescriptionTw": "異環聯機匹配不到人先查什麼？這篇整理聯機解鎖條件、世界等級和活躍時段判斷。",
     "answerTw": "1)確認已解鎖聯機功能（需要完成一定主線進度） 2)檢查世界等級設定，過高的世界等級匹配範圍較小 3)嘗試降低匹配條件 4)在聊天頻道主動發起組隊邀請 5)讓好友直接通過UID邀請你 6)避開凌晨等低活躍時段 7)檢查網路連線是否正常。部分副本需要先解鎖才能聯機。",
     "categoryTw": "技術支援"
   },
@@ -4352,6 +4388,10 @@
     "id": "account-progress-lost",
     "question": "异环换设备/换手机后账号进度没了怎么办？",
     "questionEn": "NTE account progress lost after switching devices? How to recover",
+    "seoTitleZh": "异环换设备后进度没了怎么办？账号恢复与服务器核对",
+    "seoTitleEn": "NTE Progress Lost After Switching Devices — Account Recovery Guide",
+    "seoDescriptionZh": "异环换手机后进度不见了先查什么？这篇整理账号类型、服务器一致性和找回资料准备。",
+    "seoDescriptionEn": "A practical NTE account-recovery guide covering guest vs bound accounts, server mismatches, third-party login checks, and support recovery details.",
     "answer": "1)确认使用的是同一个账号登录（不是游客账号） 2)确认登录的是同一个服务器 3)如果是第三方登录（微信/QQ/Apple），确保使用相同的第三方账号 4)游客账号数据只保存在本地，换设备无法恢复 5)在登录界面选择「已有账号」而不是「注册新账号」 6)如确认账号和服务器正确但进度丢失，联系客服提供UID、服务器、注册信息协助查找。",
     "answerEn": "1) Confirm you're logging in with the same account (not a guest account) 2) Confirm you're on the same server 3) For third-party login (WeChat/QQ/Apple), make sure you use the same third-party account 4) Guest account data is only saved locally and cannot be recovered on a new device 5) On the login screen, select 'Existing Account' instead of 'Register New Account' 6) If account and server are correct but progress is missing, contact support with your UID, server, and registration info.",
     "tags": [
@@ -4367,6 +4407,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環換裝置/換手機後賬號進度沒了怎麼辦？",
+    "seoTitleTw": "異環換裝置後進度沒了怎麼辦？帳號恢復與伺服器核對",
+    "seoDescriptionTw": "異環換手機後進度不見了先查什麼？這篇整理帳號類型、伺服器一致性和找回資料準備。",
     "answerTw": "1)確認使用的是同一個賬號登入（不是遊客賬號） 2)確認登入的是同一個伺服器 3)如果是第三方登入（微信/QQ/Apple），確保使用相同的第三方賬號 4)遊客賬號資料只儲存在本地，換裝置無法恢復 5)在登入介面選擇「已有賬號」而不是「註冊新賬號」 6)如確認賬號和伺服器正確但進度丟失，聯絡客服提供UID、伺服器、註冊資訊協助查詢。",
     "categoryTw": "充值與賬號"
   },
@@ -4374,6 +4416,10 @@
     "id": "auto-battle-not-working",
     "question": "异环自动战斗AI不动/不放技能怎么办？",
     "questionEn": "NTE auto-battle AI not moving or using skills? Fix",
+    "seoTitleZh": "异环自动战斗AI不动怎么办？自动战斗逻辑排查",
+    "seoTitleEn": "NTE Auto-Battle AI Not Working — Combat Logic Troubleshooting",
+    "seoDescriptionZh": "异环自动战斗不动不放技能先查什么？这篇整理能量限制、设置项和已知 AI 问题。",
+    "seoDescriptionEn": "Learn how to troubleshoot NTE auto-battle when the AI stops moving or casting by checking mode settings, skill resources, and known behavior limits.",
     "answer": "1)确认已开启自动战斗模式 2)检查角色的技能是否有足够的能量/资源释放 3)部分角色的自动AI行为逻辑有限，可能需要手动释放关键技能 4)重新进入战斗触发AI重置 5)在设置中检查自动战斗相关选项 6)如果AI完全不动，退出战斗重新进入 7)这是已知问题，官方正在优化自动战斗AI，关注版本更新日志。",
     "answerEn": "1) Confirm auto-battle mode is enabled 2) Check if the character has enough energy/resources to use skills 3) Some characters have limited auto-battle AI logic — you may need to manually use key skills 4) Re-enter combat to reset the AI 5) Check auto-battle options in settings 6) If AI completely stops, exit and re-enter combat 7) This is a known issue — the developers are optimizing auto-battle AI. Check patch notes for updates.",
     "tags": [
@@ -4389,6 +4435,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環自動戰鬥AI不動/不放技能怎麼辦？",
+    "seoTitleTw": "異環自動戰鬥AI不動怎麼辦？自動戰鬥邏輯排查",
+    "seoDescriptionTw": "異環自動戰鬥不動不放技能先查什麼？這篇整理能量限制、設定項和已知 AI 問題。",
     "answerTw": "1)確認已開啟自動戰鬥模式 2)檢查角色的技能是否有足夠的能量/資源釋放 3)部分角色的自動AI行為邏輯有限，可能需要手動釋放關鍵技能 4)重新進入戰鬥觸發AI重置 5)在設定中檢查自動戰鬥相關選項 6)如果AI完全不動，退出戰鬥重新進入 7)這是已知問題，官方正在最佳化自動戰鬥AI，關注版本更新日誌。",
     "categoryTw": "遊戲Bug"
   },
@@ -4396,6 +4444,10 @@
     "id": "low-fps-town-area",
     "question": "异环城镇场景帧率很低/卡顿怎么优化？",
     "questionEn": "NTE low FPS in town/city areas? Performance optimization",
+    "seoTitleZh": "异环城镇场景帧率低怎么办？城市区域性能优化指南",
+    "seoTitleEn": "NTE Low FPS in Town Areas — City Performance Optimization Guide",
+    "seoDescriptionZh": "异环城市区域掉帧先查什么？这篇整理场景复杂度、阴影、渲染分辨率和 SSD 优化思路。",
+    "seoDescriptionEn": "A practical NTE city-performance guide covering scene complexity, shadow load, render resolution, SSD use, and CPU pressure in town areas.",
     "answer": "城镇场景由于NPC和建筑较多，对GPU和CPU要求较高。优化建议：1)降低「场景复杂度」和「阴影质量」设置 2)关闭「体积雾」和「屏幕空间反射」 3)降低渲染分辨率（90%或更低） 4)限制帧率上限 5)安装到SSD减少加载卡顿 6)关闭后台程序释放CPU资源 7)GTX 1060等中低端显卡建议整体画质设为「低」或「中」。",
     "answerEn": "Town areas have many NPCs and buildings, demanding more from GPU and CPU. Optimization tips: 1) Lower 'Scene Complexity' and 'Shadow Quality' settings 2) Disable 'Volumetric Fog' and 'Screen Space Reflections' 3) Lower render resolution (90% or below) 4) Cap the frame rate 5) Install on SSD to reduce loading stutter 6) Close background programs to free CPU resources 7) Mid-range GPUs like GTX 1060 should use 'Low' or 'Medium' overall quality.",
     "tags": [
@@ -4411,6 +4463,8 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環城鎮場景幀率很低/卡頓怎麼最佳化？",
+    "seoTitleTw": "異環城鎮場景幀率低怎麼辦？城市區域效能最佳化指南",
+    "seoDescriptionTw": "異環城市區域掉幀先查什麼？這篇整理場景複雜度、陰影、渲染解析度和 SSD 最佳化思路。",
     "answerTw": "城鎮場景由於NPC和建築較多，對GPU和CPU要求較高。最佳化建議：1)降低「場景複雜度」和「陰影質量」設定 2)關閉「體積霧」和「螢幕空間反射」 3)降低渲染解析度（90%或更低） 4)限制幀率上限 5)安裝到SSD減少載入卡頓 6)關閉後臺程式釋放CPU資源 7)GTX 1060等中低端顯示卡建議整體畫質設為「低」或「中」。",
     "categoryTw": "技術支援"
   },
@@ -4437,7 +4491,8 @@
     "questionTw": "異環用了AI美術嗎？製作人是怎麼回應的？",
     "answerTw": "異環在公測前後確實引發過 AI 美術爭議，但這條 FAQ 現在更適合回答**爭議的焦點是什麼、官方後來如何回應，以及玩家今天該怎麼看待這件事**，而不是繼續用一句「玩家可以放心」替使用者下結論。對目前搜尋使用者來說，更重要的通常是：當時爭議為何擴散、官方承諾覆蓋到哪些內容，以及後續是否把這件事從單一素材問題升級成了對製作流程和透明度的討論。\n\n更穩妥的理解方式是：\n1. 這類爭議的核心不只是「有沒有 AI」，還包括素材來源說明、品質把關和後續修正是否足夠清楚\n2. 官方公開承諾與後續處理會影響玩家信任，但是否完全消除顧慮，仍取決於個人判斷\n3. 對今天的使用者來說，這頁的價值更在於理解事件背景和回應邏輯，而不是代替你做最終態度判斷\n\n所以這頁現在保留的是**AI 美術爭議的背景、回應與判斷框架**，而不是繼續給出過度確定的安撫式結論。",
     "categoryTw": "遊戲資訊",
-    "seoTitleTw": "異環用了AI嗎？製作人承諾不用AI美術（2026最新回應）"
+    "seoTitleTw": "異環用了AI嗎？製作人承諾不用AI美術（2026最新回應）",
+    "seoDescriptionTw": "異環 AI 美術爭議說明：回顧當時的社群質疑、製作組回應與後續承諾，並幫助使用者區分哪些屬於事件背景，哪些仍影響今天對內容品質的判斷。"
   },
   {
     "id": "how-to-get-modules",
@@ -4462,7 +4517,8 @@
     "questionTw": "異環模組（Modules）怎麼獲取？模組系統是什麼？",
     "answerTw": "模組這頁現在更適合回答**模組該先看主屬性、套裝，還是先求能用的過渡件**，而不是繼續把「先湊屬性匹配套裝」寫成一條過於整齊的固定答案。對目前玩家來說，更實際的情況通常是：你手裡的模組品質參差不齊，真正決定體驗的往往不是完美畢業套，而是能不能先拼出一套穩定可用的組合。\n\n更穩妥的理解方式是：\n1. 前中期先確保主屬性和可用詞條大致對路，再考慮是否強行追完整套裝\n2. 如果一件散件明顯更強，短期內未必需要為了套裝效果硬換成更差的部件\n3. 副本、商店、探索和活動來源可以並行看，重點是補目前最缺的部位，而不是只按單一刷取路線推進\n\n所以這頁現在保留的是**模組系統的來源、篩選順序與過渡思路**，而不是繼續把畢業向答案提前套在所有養成階段上。",
     "categoryTw": "裝備系統",
-    "seoTitleTw": "異環模組怎麼獲取？模組副本、獲取途徑與強化攻略"
+    "seoTitleTw": "異環模組怎麼獲取？模組副本、獲取途徑與強化攻略",
+    "seoDescriptionTw": "異環模組系統詳解：模組副本位置、最佳刷取路線、模組強化攻略，幫你快速提升角色戰鬥力。"
   },
   {
     "id": "hospital-location-guide",
@@ -4487,7 +4543,8 @@
     "questionTw": "異環醫院在哪裡？醫院任務怎麼做？",
     "answerTw": "這條「醫院在哪裡、任務怎麼做」FAQ 現在更適合回答**醫院是怎樣一種探索區域，以及你該先確認入口是否開放、再決定是做主線推進還是深度蒐集**，而不是繼續把具體章節和等級門檻寫成長期固定攻略。對目前玩家來說，更實際的重點通常是：醫院是不是已經對你的帳號開放、它更偏劇情場景還是多層探索區域，以及你是否準備好應對裡面的解謎、戰鬥和蒐集內容。\n\n更穩妥的理解方式是：\n1. 先把醫院理解成**需要一定進度後才會自然進入的重點探索區域**，而不是隨時都能無門檻前往的普通地標\n2. 進入後優先區分目前目標是推進任務、清理事件，還是補完隱藏收集，而不是一次性按舊路線清空所有內容\n3. 是否現在就深入探索，應按你目前隊伍穩定性和任務開放狀態來判斷，而不是只看一個早期推薦等級\n\n所以這頁現在保留的是**醫院區域的定位、進入判斷與探索思路**，而不是繼續把舊版章節節點和等級建議寫成固定答案。",
     "categoryTw": "探索攻略",
-    "seoTitleTw": "異環醫院在哪裡？維特海姆中央醫院任務攻略"
+    "seoTitleTw": "異環醫院在哪裡？維特海姆中央醫院任務攻略",
+    "seoDescriptionTw": "異環醫院位置、進入條件、各樓層異象任務攻略、隱藏檔案收集、Boss 戰打法詳解。"
   },
   {
     "id": "headless-rider-guide",
@@ -4512,7 +4569,8 @@
     "questionTw": "異環無頭騎士是什麼？怎麼觸發和擊敗無頭騎士？",
     "answerTw": "這條「無頭騎士怎麼觸發和擊敗」FAQ 現在更適合回答**它屬於什麼類型的特殊遭遇，以及你該如何判斷自己是不是已經進入了可尋找、可應對的階段**，而不是繼續把具體章節、舊城區點位和固定剋制寫成長期不變的硬攻略。對目前玩家來說，更實際的重點通常是：它是不是偏夜間或特定條件下的事件型遭遇、你是否已經具備處理高機動敵人的隊伍，以及實戰裡真正重要的是觀察節奏和生存容錯，而不只是背一條固定路線。\n\n更穩妥的理解方式是：\n1. 把無頭騎士理解成**需要特定探索條件或進度背景的特殊 Boss/事件**，而不是隨時穩定站樁刷新的普通目標\n2. 真正影響勝負的通常是你能不能處理高速衝鋒、轉身追擊和輸出窗口，而不是只記某個屬性標籤\n3. 如果你目前隊伍容錯較低，先把它當成階段性挑戰內容，而不是因為舊攻略寫了觸發點就硬去打\n\n所以這頁現在保留的是**無頭騎士遭遇的判斷邏輯與實戰準備思路**，而不是繼續把早期觸發條件和固定配法寫成唯一答案。",
     "categoryTw": "首領攻略",
-    "seoTitleTw": "異環無頭騎士怎麼打？觸發條件、位置與打法攻略"
+    "seoTitleTw": "異環無頭騎士怎麼打？觸發條件、位置與打法攻略",
+    "seoDescriptionTw": "圍繞無頭騎士的觸發判斷、遭遇條件與實戰準備思路，幫助你理解什麼時候該找、該怎麼打會更穩。"
   },
   {
     "id": "day-off-arc-guide",
@@ -4537,7 +4595,8 @@
     "questionTw": "異環休息日（Day Off）是什麼？休息日事件怎麼做？",
     "answerTw": "這條「休息日是什麼」FAQ 現在更適合回答**它是不是偏關係養成與角色互動內容，以及你該如何判斷自己能不能觸發**，而不是繼續寫成一段固定玩法清單。對目前玩家來說，更實際的重點通常是：休息日是不是與角色關係深度綁定、它更偏劇情沉浸還是資源回報，以及你目前角色是否已經滿足觸發條件。\n\n更穩妥的理解方式是：\n1. 把休息日理解成**角色互動與關係推進內容**，而不是單純的日常任務分支\n2. 是否能觸發，通常更該先看目前角色關係進度與介面提示，而不是只背一個靜態門檻數字\n3. 它的價值更多在於補充角色故事、互動體驗和陪伴感，而不只是把獎勵本身當成唯一目標\n\n所以這頁現在保留的是**休息日系統的定位、觸發判斷與體驗預期**，而不是繼續把早期說明式流程寫成唯一答案。",
     "categoryTw": "玩法攻略",
-    "seoTitleTw": "異環休息日（Day Off）怎麼觸發？角色約會事件攻略"
+    "seoTitleTw": "異環休息日（Day Off）怎麼觸發？角色約會事件攻略",
+    "seoDescriptionTw": "異環休息日事件觸發條件、各角色休息日攻略、好感度要求與專屬獎勵一覽。"
   },
   {
     "id": "pink-paws-heist-guide",
@@ -4563,7 +4622,8 @@
     "questionTw": "異環粉爪劫案（Pink Paws Heist）怎麼做？攻略流程是什麼？",
     "answerTw": "粉爪劫案（Pink Paws Heist）是異環中一個精彩的限時聯機活動任務。這個任務需要玩家組隊（2-4人）參與，在限定時間內完成一系列劫案挑戰。攻略流程：1）在活動面板中接取粉爪劫案任務；2）組隊進入專屬副本區域；3）按照提示完成潛入、破解和逃脫三個階段；4）每個階段有時間限制，需要在倒計時結束前完成目標。獎勵包括大量環石、限定頭像框和稀有模組。建議與好友組隊，溝通配合可以大幅提高通關效率。單人也可以匹配隨機玩家組隊。",
     "categoryTw": "活動攻略",
-    "seoTitleTw": "異環粉爪劫案攻略：組隊流程、通關技巧與獎勵"
+    "seoTitleTw": "異環粉爪劫案攻略：組隊流程、通關技巧與獎勵",
+    "seoDescriptionTw": "異環粉爪劫案活動完整攻略：組隊要求、三階段通關流程、時間限制技巧、獎勵一覽。"
   },
   {
     "id": "lonely-player-guide",
@@ -4588,7 +4648,8 @@
     "questionTw": "異環孤獨玩家（Lonely Player）是什麼？怎麼觸發？",
     "answerTw": "孤獨玩家（Lonely Player）是異環中的一個隱藏NPC事件/彩蛋。在海瑟勞城的某些特定位置（如公園長椅、天台、地鐵站等），你會遇到一個獨處的NPC角色。與這個NPC多次對話後，會觸發一系列隱藏任務鏈，講述一個關於孤獨與陪伴的感人小故事。完成全部對話和任務後，可以獲得環石獎勵和隱藏成就。這個彩蛋致敬了都市生活中孤獨的人群，與異環的都市超自然主題相呼應。探索城市時多留意角落裡的NPC，可能會發現更多類似的隱藏故事。",
     "categoryTw": "探索攻略",
-    "seoTitleTw": "異環孤獨玩家NPC事件攻略：觸發位置與隱藏任務鏈"
+    "seoTitleTw": "異環孤獨玩家NPC事件攻略：觸發位置與隱藏任務鏈",
+    "seoDescriptionTw": "異環孤獨玩家隱藏事件觸發條件、NPC 位置、對話流程、隱藏任務鏈與獎勵。"
   },
   {
     "id": "ride-assault-guide",
@@ -4613,7 +4674,8 @@
     "questionTw": "異環突襲駕駛（Ride Assault）怎麼玩？攻略技巧",
     "answerTw": "突襲駕駛（Ride Assault）是異環中結合載具駕駛和戰鬥的特色玩法。在這個模式中，玩家駕駛載具在高速行駛的同時與敵人戰鬥。攻略要點：1）選擇操控性好的載具（推薦跑車類），速度適中更容易操作；2）利用漂移和加速進行閃避和衝鋒攻擊；3）優先擊破路邊出現的弱點目標，可以獲得額外積分；4）注意載具耐久度，受損過重需要找維修點修復。Ride Assault的排名越高獎勵越好，高排名可以獲得稀有模組和大量環石。",
     "categoryTw": "玩法攻略",
-    "seoTitleTw": "異環突襲駕駛（Ride Assault）攻略：載具選擇與高分技巧"
+    "seoTitleTw": "異環突襲駕駛（Ride Assault）攻略：載具選擇與高分技巧",
+    "seoDescriptionTw": "異環突襲駕駛玩法詳解：載具推薦、戰鬥技巧、排名獎勵獲取攻略。"
   },
   {
     "id": "reality-refuge-guide",
@@ -4638,7 +4700,8 @@
     "questionTw": "異環現實避難所（Reality Refuge）是什麼？怎麼解鎖？",
     "answerTw": "現實避難所（Reality Refuge）這頁現在更適合回答**這個高難玩法需要你準備什麼樣的隊伍結構**，而不是繼續把「綜合戰力最強的隊伍」當成唯一建議。對目前玩家來說，更實際的是先看：你的隊伍有沒有穩定輸出、有沒有足夠容錯，以及能不能應對隨機層數裡的變化。\n\n更穩妥的理解方式是：\n1. 優先帶一套你最熟悉、循環最穩定的主隊，而不是只看面板最高的一組角色\n2. 如果玩法裡存在持續消耗和隨機事件，治療、護盾或高容錯輔助通常會比純堆傷害更穩\n3. 這類模式更考驗適應性和續航，而不是單純複製別人的一套「最強陣容」\n\n所以這頁現在保留的是**Reality Refuge 的組隊準備邏輯**，而不是繼續給出過於絕對的隊伍建議。",
     "categoryTw": "玩法攻略",
-    "seoTitleTw": "異環現實避難所指南：隊伍準備與通關思路"
+    "seoTitleTw": "異環現實避難所指南：隊伍準備與通關思路",
+    "seoDescriptionTw": "圍繞 Reality Refuge 的隊伍準備、容錯需求與層數應對思路，幫助你判斷進入前該補什麼、怎麼打更穩。"
   },
   {
     "id": "raging-flames-guide",
@@ -4663,7 +4726,8 @@
     "questionTw": "異環烈焰（Raging Flames）怎麼打？烈焰副本攻略",
     "answerTw": "這條「烈焰副本怎麼打」FAQ 現在更適合回答**你該把它理解成什麼類型的屬性壓力副本，以及進場前應該優先補哪類應對能力**，而不是繼續給出一套固定剋制角色和掉落清單。對目前玩家來說，更實用的重點通常是：你有沒有能穩定處理持續火壓和範圍傷害的隊伍、是否具備足夠的生存或減傷手段，以及場地機制會不會影響你的輸出節奏。\n\n更穩妥的理解方式是：\n1. 先把烈焰理解成**強調持續壓制、生存容錯和場地應對**的挑戰副本，而不是只靠屬性標籤就能輕鬆通關\n2. 如果你的隊伍缺減傷、護盾、治療或更穩定的輸出窗口，往往比單純追求剋制屬性更容易出問題\n3. 與其背固定掉落和固定配隊，不如先確認你目前最需要的是通關、穩定週回，還是順帶補某類資源\n\n所以這頁現在保留的是**烈焰副本的應對思路與進場準備邏輯**，而不是繼續把一版早期配法和獎勵表寫成長期固定答案。",
     "categoryTw": "首領攻略",
-    "seoTitleTw": "異環烈焰副本指南：進場準備與應對思路"
+    "seoTitleTw": "異環烈焰副本指南：進場準備與應對思路",
+    "seoDescriptionTw": "圍繞烈焰副本的生存壓力、場地應對與隊伍準備邏輯，幫助你判斷目前該補什麼再進場。"
   },
   {
     "id": "who-made-nte",
@@ -4687,7 +4751,8 @@
     "questionTw": "異環是誰開發的？製作團隊是什麼來頭？",
     "answerTw": "異環（Neverness to Everness）由完美世界（Perfect World Games）旗下的Hotta Studio開發。Hotta Studio也是熱門遊戲《幻塔》（Tower of Fantasy）的開發團隊。異環是他們繼幻塔之後的第二款大型專案，採用虛幻引擎5.7開發。製作人楊磊在公測前專訪中表示團隊以00後為主，保持邊想邊做的開發模式。從首曝到公測僅用了約20個月，開發節奏非常緊湊。異環的全球發行由完美世界負責。",
     "categoryTw": "遊戲資訊",
-    "seoTitleTw": "異環是誰開發的？Hotta Studio與完美世界製作團隊介紹"
+    "seoTitleTw": "異環是誰開發的？Hotta Studio與完美世界製作團隊介紹",
+    "seoDescriptionTw": "異環開發商與團隊背景介紹：梳理 Hotta Studio、完美世界發行關係、製作組經歷與項目發展脈絡，幫助讀者理解這款作品的研發出身。"
   },
   {
     "id": "next-banner-schedule",
