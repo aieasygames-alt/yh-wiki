@@ -17,12 +17,17 @@ export async function generateMetadata({
         ? `異環全地圖地點、區域與探索內容索引，彙整 ${locations.length} 個地點與 ${categoryCount} 種分類，方便快速查找海特洛城各區域資訊、探索方向與關聯內容。`
         : `异环全地图地点、区域与探索内容索引，汇总 ${locations.length} 个地点与 ${categoryCount} 种分类，方便快速查找海特洛城各区域信息、探索方向与关联内容。`)
     : `Browse ${locations.length} NTE locations across ${categoryCount} categories, with quick links for region info, exploration routes, and related world details.`;
+  const title = isZhLocale(locale)
+    ? (locale === "tw"
+        ? `異環地點索引 — ${locations.length} 個區域、設施與探索地圖入口 | NTE Guide`
+        : `异环地点索引 — ${locations.length} 个区域、设施与探索地图入口 | NTE Guide`)
+    : `NTE Locations - ${locations.length} Regions, Facilities, and Exploration Hubs`;
   return {
-    title: t(locale, "locations.title"),
+    title,
     description,
     alternates: hreflangAlternates("locations", lang),
     openGraph: {
-      title: t(locale, "locations.title"),
+      title,
       description,
       type: "website",
     },

@@ -88,6 +88,21 @@ export default async function VoiceActorsPage({
             : "Full voice cast for all Neverness to Everness characters — Japanese (JP), Chinese (CN), and English (EN) voice actors."}
         </p>
 
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "這頁聲優表最適合怎麼看？" : "这页声优表最适合怎么用？")
+              : "How should you use this voice-actor list?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(locale)
+              ? (locale === "tw"
+                  ? "先用這頁快速確認角色的日配、英配與稀有度，再進角色單頁查看技能、Build 與配隊。這份名單最適合查配音陣容與對照角色，不適合單靠聲優資訊判斷角色培養價值。"
+                  : "先用这页快速确认角色的日配、英配与稀有度，再进角色单页查看技能、Build 与配队。这份名单最适合查配音阵容与对照角色，不适合单靠声优信息判断角色培养价值。")
+              : "Use this page to quickly confirm JP and EN cast credits alongside rarity, then jump to the character guide for kits, builds, and teams. This list is best for cast lookup and comparison, not for deciding account investment based on voice actors alone."}
+          </p>
+        </section>
+
         {/* Quick Answer for Featured Snippet */}
         <QuickAnswerCard
           locale={locale}
@@ -102,6 +117,33 @@ export default async function VoiceActorsPage({
             },
           ]}
         />
+
+        <section className="my-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "查聲優前先看什麼" : "查声优前先看什么")
+                : "What should you check before using this cast list?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "先確認你要找的是角色配音、語言版本，還是想反查某位聲優參與了哪些角色。" : "先确认你要找的是角色配音、语言版本，还是想反查某位声优参与了哪些角色。") : "Know whether you are looking up a specific character, a language track, or trying to reverse-search a cast member across characters."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "標記 TBA 的角色代表資訊仍待補完，最好不要把空白欄位當成正式缺失。" : "标记 TBA 的角色代表信息仍待补完，最好不要把空白栏位当成正式缺失。") : "Treat TBA entries as pending data rather than confirmed missing cast information."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你是從角色喜好切入，配合角色圖鑑頁一起看會更完整。" : "如果你是从角色喜好切入，配合角色图鉴页一起看会更完整。") : "If you are exploring from character preference, combine this page with the character index for better context."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "常見誤區" : "常见误区")
+                : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把聲優表當成角色強度或抽卡建議頁。" : "把声优表当成角色强度或抽卡建议页。") : "Using the cast list as if it were a tier list or pull-priority guide."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "只看單一語言欄位，忽略角色在其他語言版本的配音資訊。" : "只看单一语言栏位，忽略角色在其他语言版本的配音信息。") : "Checking only one language column and missing the rest of the voice cast context."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "看到 TBA 就以為資料錯誤，沒有留意這類資訊本來就可能延後公開。" : "看到 TBA 就以为数据错误，没有留意这类信息本来就可能延后公开。") : "Assuming TBA means an error instead of recognizing that cast details can be announced later."}</li>
+            </ul>
+          </div>
+        </section>
 
         {/* Voice Actor Table */}
         <section className="mb-10">
