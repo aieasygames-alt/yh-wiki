@@ -120,6 +120,17 @@ export default function StatsCalculatorPage({
             : "Damage formula is estimated for reference only. Actual game data may differ."}
         </p>
 
+        <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZh ? "这个面板计算器能帮你判断什么？" : "What can this stats calculator help you decide?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZh
+              ? "它更适合快速判断某套词条分配会把角色推向什么方向，比如更偏暴击、更偏攻击，还是属性伤收益更明显。和完整 DPS 计算器相比，这个页面更轻量，适合在配装初期先看面板结构是否合理。"
+              : "This page is best for quickly checking what direction a stat spread pushes a character toward: more crit-heavy, more ATK-focused, or better elemental scaling. Compared with the full DPS calculator, it is lighter and better suited to early build checks when you want to validate the shape of the stats first."}
+          </p>
+        </section>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Input Panel */}
           <div className="space-y-4">
@@ -318,6 +329,29 @@ export default function StatsCalculatorPage({
             </div>
           </div>
         </div>
+
+        <section className="mt-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "读结果时别漏掉" : "Do not miss these checks"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "暴击率和暴伤需要一起看，单边过高常常不划算。" : "Crit rate and crit damage should be evaluated together, because overloading one side is inefficient."}</li>
+              <li>{isZh ? "选武器后再看面板，避免把同一词条算重了。" : "Choose the weapon first so you do not mentally double-count the same stat source."}</li>
+              <li>{isZh ? "如果角色吃的是特殊机制，通用面板也要结合角色说明来看。" : "If a character scales with unusual mechanics, read the stats together with the character kit."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "常见误判" : "Common misreads"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "面板更好看，不一定代表循环里总伤更高。" : "Cleaner-looking stats do not always mean higher rotation damage."}</li>
+              <li>{isZh ? "属性伤和攻击力的收益会互相影响，不能孤立理解。" : "Elemental bonus and ATK interact, so neither should be judged in isolation."}</li>
+              <li>{isZh ? "工具给的是方向感，不是替代实战测试的最终裁决。" : "The tool gives directional guidance, not a final replacement for in-game testing."}</li>
+            </ul>
+          </div>
+        </section>
       </div>
     </>
   );

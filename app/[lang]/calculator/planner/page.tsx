@@ -202,6 +202,17 @@ export default function MaterialPlannerPage() {
             : "Add multiple characters, auto-aggregate materials needed, track collection progress."}
         </p>
 
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZh ? "这个规划器什么时候最有用？" : "When is this planner most useful?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZh
+              ? "当你准备同时养两到三个角色，或者刚经历一个新版本抽卡后要重新分配体力时，这个页面会特别有用。它能把升级和技能材料合在一起看，避免你今天刷角色突破、明天又发现技能书完全不够。"
+              : "This planner becomes especially useful when you are building multiple characters at once or redistributing stamina after a new patch or pull session. It combines leveling and skill materials so you do not farm ascension today and discover tomorrow that you are still missing the core skill books."}
+          </p>
+        </section>
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left: Character Plan */}
           <div className="lg:col-span-1 space-y-4">
@@ -342,6 +353,29 @@ export default function MaterialPlannerPage() {
             )}
           </div>
         </div>
+
+        <section className="mt-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "规划顺序建议" : "A good planning order"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "先定主队优先级，再把资源分给副队和备用位。" : "Prioritize the main team first, then spend leftovers on side teams and backups."}</li>
+              <li>{isZh ? "先补最卡进度的材料，而不是平均摊体力。" : "Fix the biggest material bottleneck first instead of spreading stamina evenly."}</li>
+              <li>{isZh ? "确认是否真的需要把技能也一起拉满，很多角色前期并不用。" : "Check whether maxing skills immediately is necessary, because many units do not need it early."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "常见资源浪费" : "Common resource waste"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "同时开太多角色，结果谁都没法快速成型。" : "Opening too many projects at once so nobody reaches a usable state quickly."}</li>
+              <li>{isZh ? "把过渡角色投入到和主力同级别的材料预算。" : "Spending main-carry level resources on short-term transitional characters."}</li>
+              <li>{isZh ? "只看总数，不看哪类素材掉落最慢。" : "Watching totals without identifying which material type is actually the slowest to farm."}</li>
+            </ul>
+          </div>
+        </section>
       </div>
     </>
   );

@@ -114,6 +114,17 @@ export default function BuildCalculatorPage() {
         <ShareBuildButton />
       </div>
 
+      <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {isZhLocale(lang) ? "这个配装页最适合怎么用？" : "What is the best way to use this build page?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZhLocale(lang)
+            ? "最实用的用法不是把推荐配装当成唯一答案，而是先选你正在养的角色，再快速确认主词条、副词条、推荐武器和配队方向有没有明显跑偏。它特别适合在你刚抽到角色、准备刷材料，或者要判断一把新武器能不能直接上岗的时候使用。"
+            : "The most useful approach is not treating the listed build as a single final answer. Select the character you are building, then quickly validate main stats, substats, weapon choices, and team direction. It is especially helpful right after a pull, before farming materials, or when judging whether a newly acquired weapon is ready to use."}
+        </p>
+      </section>
+
       {/* Filters */}
       <div className="flex flex-wrap gap-2 mb-6">
         <button
@@ -391,6 +402,29 @@ export default function BuildCalculatorPage() {
       <div className="mt-8">
         <KardzPromoCard locale={lang} variant="banner" />
       </div>
+
+      <section className="mt-10 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "先核对这几项" : "Check these first"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(lang) ? "主词条方向有没有错，通常比副词条细节更重要。" : "Main stat direction matters more than small substat differences."}</li>
+            <li>{isZhLocale(lang) ? "推荐武器是否真在你仓库里，以及替代方案差多少。" : "Confirm whether the recommended weapon is actually on your account and how strong the fallback is."}</li>
+            <li>{isZhLocale(lang) ? "配队是否能支撑这套 build，而不是角色单卡看起来很漂亮。" : "Make sure the suggested team can support the build instead of judging the unit in isolation."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "常见配装误区" : "Common build mistakes"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(lang) ? "只抄榜单，不看自己账号资源和队伍需求。" : "Copying a ranking build without checking your own roster and resources."}</li>
+            <li>{isZhLocale(lang) ? "为了追理论上限，牺牲太多成型速度。" : "Chasing theoretical ceiling while delaying a usable build for too long."}</li>
+            <li>{isZhLocale(lang) ? "忽略技能循环或能量压力，导致纸面强度落不到实战。" : "Ignoring rotation or energy pressure so paper strength never translates in real play."}</li>
+          </ul>
+        </div>
+      </section>
     </div>
     </>
   );

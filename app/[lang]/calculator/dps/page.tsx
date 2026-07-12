@@ -184,6 +184,17 @@ export default function DPSCalculatorPage() {
         </p>
       </div>
 
+      <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {isZh ? "DPS 计算器最适合解决什么问题？" : "What problems is this DPS calculator best at solving?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZh
+            ? "它最适合拿来比较两套配装、两把武器或者两种循环设定之间的输出差异。比起追求一个绝对准确的面板答案，这个工具更擅长帮你看“改暴击值更赚，还是补攻击和属性伤更赚”，以及“缩短循环后实际 DPS 会不会更高”。"
+            : "This calculator is best for comparing two builds, two weapons, or two rotation assumptions. Instead of chasing one perfectly exact number, it is more useful for seeing whether extra crit, more ATK, elemental bonus, or a shorter rotation creates the bigger gain."}
+        </p>
+      </section>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* ── Left Column: Inputs ── */}
         <div className="lg:col-span-2 space-y-4">
@@ -431,6 +442,29 @@ export default function DPSCalculatorPage() {
           </div>
         </div>
       </div>
+
+      <section className="mt-8 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZh ? "比较输出时先看什么" : "How to compare outputs well"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZh ? "先固定技能倍率和循环时间，不然两次结果没有可比性。" : "Keep skill multipliers and rotation time consistent or the comparison loses meaning."}</li>
+            <li>{isZh ? "再看暴击、属性伤和队伍增益是谁在拉高总乘区。" : "Then see whether crit, elemental bonus, or team buffs are driving the gain."}</li>
+            <li>{isZh ? "如果提升只体现在理想站桩环境，实战价值可能没那么高。" : "If the gain only exists in an ideal stationary setup, real value may be much lower."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZh ? "这类结果的边界" : "Limits of this result"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZh ? "它不能完整覆盖实战中的位移、停手、怪物机制和失误。" : "It does not fully capture movement, downtime, enemy mechanics, or execution errors."}</li>
+            <li>{isZh ? "版本更新、倍率调整或隐藏机制变化都会影响结论。" : "Patch changes to multipliers or hidden mechanics can change the conclusion."}</li>
+            <li>{isZh ? "高 DPS 不一定等于更好通关体验，生存和循环顺手度也很关键。" : "Higher DPS does not always mean smoother clears if survivability or rotation comfort suffers."}</li>
+          </ul>
+        </div>
+      </section>
     </div>
     </>
   );

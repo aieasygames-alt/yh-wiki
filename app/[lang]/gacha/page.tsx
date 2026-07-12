@@ -206,6 +206,17 @@ export default function GachaPage() {
       <h1 className="text-3xl font-bold mb-2">{t(lang, "gacha.title")}</h1>
       <p className="text-sm text-gray-500 mb-8">{t(lang, "gacha.disclaimer")}</p>
 
+      <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {isZhLocale(lang) ? "这个抽卡模拟器适合拿来做什么？" : "What should you use this simulator for?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZhLocale(lang)
+            ? "它更适合帮你理解异环卡池的保底节奏、提前感受不同卡池的出货波动，以及在正式抽卡前做一点心理预期管理。你可以把限定池、常驻池和专武池分开试，看看自己最在意的是出金速度、是否歪池，还是连续十连下的整体体验。"
+            : "This simulator is best for understanding NTE pity pacing, feeling how different banners swing over time, and setting expectations before real pulls. Try limited, standard, and weapon banners separately to see whether you care most about S-rank timing, featured hit rate, or overall multi-pull flow."}
+        </p>
+      </section>
+
       <div className="mb-6">
         <KardzPromoCard locale={lang} variant="banner" />
       </div>
@@ -482,6 +493,29 @@ export default function GachaPage() {
           <p>{t(lang, "gacha.hint")}</p>
         </div>
       )}
+
+      <section className="mt-8 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "看模拟结果时先关注什么" : "What to focus on first"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(lang) ? "先看平均出 S 抽数，而不是只盯着某一次欧皇截图。" : "Start with average S-rank timing rather than one lucky screenshot."}</li>
+            <li>{isZhLocale(lang) ? "再看不同卡池的保底和 UP 规则差异，别把它们混成同一套判断。" : "Then compare pity and featured rules across banners instead of treating them as identical."}</li>
+            <li>{isZhLocale(lang) ? "最后再结合当前版本卡池安排，判断你真正要存还是要抽。" : "Finish by matching the simulation to the current live banner plan before deciding to save or pull."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(lang) ? "这个页面不会替你回答的事" : "What this page does not answer for you"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(lang) ? "模拟运气不等于你的真实账号结果。" : "Simulated luck is not a forecast of your real account."}</li>
+            <li>{isZhLocale(lang) ? "卡池值不值得抽，还要看角色强度、队伍缺口和资源储备。" : "Pull value still depends on roster needs, strength, and saved resources."}</li>
+            <li>{isZhLocale(lang) ? "版本更新后概率或规则如果调整，旧模拟结论也要跟着重看。" : "If banner rules change in a later patch, older simulation conclusions should be revisited."}</li>
+          </ul>
+        </div>
+      </section>
 
     </div>
     </>
