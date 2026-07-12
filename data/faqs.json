@@ -172,6 +172,10 @@
     "id": "s-rank-characters",
     "question": "异环S级角色有哪些？",
     "questionEn": "What are the S-rank characters in NTE?",
+    "seoTitleZh": "异环S级角色有哪些？当前 S 级名单与培养方向整理",
+    "seoTitleEn": "NTE S-Rank Characters List — Current Top Units & Build Direction",
+    "seoDescriptionZh": "异环目前有哪些 S 级角色？这篇整理当前 S 级名单、定位差异，以及新手该怎么判断培养优先级。",
+    "seoDescriptionEn": "See the current NTE S-rank character roster, their broad roles, and how beginners should judge which top-rarity units deserve priority.",
     "answer": "异环目前的S级角色包括：娜娜莉（生命/格斗）、咲里（咒术/支援）、法蒂亚、安魂曲、白藏、爱德勒、斯奇亚、零、哈尼尔、哈索尔、弥安、阿尔法德、泰格多等。S级角色整体强度高于A级角色，但A级角色在合理培养后同样可以在大部分内容中表现出色。",
     "answerEn": "Current S-rank characters in NTE include: Nanally (Anima/Fangs and Claws), Sakiri (Incantation/Support), Fadia, Lacrimosa, Baicang, Adler, Skia, Zero, Haniel, Hathor, Mint, Alphard, Taygedo, and more. While S-rank characters generally have higher stats, well-built A-rank characters can also perform well in most content.",
     "tags": [
@@ -198,6 +202,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環S級角色有哪些？",
+    "seoTitleTw": "異環S級角色有哪些？目前 S 級名單與培養方向整理",
+    "seoDescriptionTw": "異環目前有哪些 S 級角色？這篇整理目前 S 級名單、定位差異，以及新手該怎麼判斷培養優先順序。",
     "answerTw": "異環目前的S級角色包括：娜娜莉（生命/格鬥）、咲裡（咒術/支援）、法蒂亞、安魂曲、白藏、愛德勒、斯奇亞、零、哈尼爾、哈索爾、彌安、阿爾法德、泰格多等。S級角色整體強度高於A級角色，但A級角色在合理培養後同樣可以在大部分內容中表現出色。",
     "categoryTw": "角色相關"
   },
@@ -205,6 +211,10 @@
     "id": "attribute-weakness",
     "question": "异环属性克制关系是什么？",
     "questionEn": "What is the attribute weakness system in NTE?",
+    "seoTitleZh": "异环属性克制关系是什么？六属性弱点与实战应对",
+    "seoTitleEn": "NTE Attribute Weakness Guide — Six Attributes, Counters & Combat Use",
+    "seoDescriptionZh": "异环六属性怎么克制？这篇整理属性弱点、额外伤害思路，以及战斗里怎么按敌人弱点切角色。",
+    "seoDescriptionEn": "Learn how NTE's six attributes interact, how weakness damage works, and how to switch units around enemy counters in real combat.",
     "answer": "异环中存在六种属性：生命、咒术、混沌、灵魂、宇宙、相。不同属性之间存在克制关系，利用属性克制可以对敌人造成更多伤害。在战斗中，观察敌人的属性弱点，切换对应属性的角色进行攻击，可以大幅提高战斗效率。属性克制通常造成约1.5倍的额外伤害。",
     "answerEn": "NTE has six attributes: Anima, Incantation, Chaos, Psyche, Cosmos, and Lakshana. Different attributes have weakness relationships, and exploiting them deals bonus damage. In combat, observe enemy weaknesses and switch to characters with the corresponding attribute for significantly better efficiency. Attribute weakness typically deals around 1.5x bonus damage.",
     "tags": [
@@ -222,6 +232,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環屬性剋制關係是什麼？",
+    "seoTitleTw": "異環屬性剋制關係是什麼？六屬性弱點與實戰應對",
+    "seoDescriptionTw": "異環六屬性怎麼剋制？這篇整理屬性弱點、額外傷害思路，以及戰鬥裡怎麼按敵人弱點切角色。",
     "answerTw": "異環中存在六種屬性：生命、咒術、混沌、靈魂、宇宙、相。不同屬性之間存在剋制關係，利用屬性剋制可以對敵人造成更多傷害。在戰鬥中，觀察敵人的屬性弱點，切換對應屬性的角色進行攻擊，可以大幅提高戰鬥效率。屬性剋制通常造成約1.5倍的額外傷害。",
     "categoryTw": "戰鬥機制"
   },
@@ -358,6 +370,7 @@
     "id": "nanally-worth-building",
     "question": "娜娜莉值得培养吗？",
     "questionEn": "Is Nanally worth building in NTE?",
+    "seoTitleZh": "娜娜莉值得培养吗？异环娜娜莉强度与开荒价值分析",
     "answer": "娜娜莉是S级生命属性格斗角色，非常值得培养。她拥有强大的近战输出能力，反重力技能在战斗中非常实用。作为初始可用的高品质角色之一，娜娜莉在前期开荒和后期高难内容中都有出色的表现。推荐作为首个重点培养的角色。",
     "answerEn": "Nanally is an S-rank Anima Fangs and Claws character, very worth building. She has powerful melee damage output and her anti-gravity skills are very practical in combat. As one of the first available high-quality characters, Nanally performs excellently in both early exploration and late-game challenges. Recommended as your first priority build.",
     "tags": [
@@ -375,7 +388,11 @@
       "charging-knight-spark-plug"
     ],
     "seoTitleEn": "Is Nanally Worth Building in NTE? Best DPS Guide & Build Tips (2026)",
+    "seoDescriptionZh": "娜娜莉值不值得练？这篇整理她在前期开荒、主力输出和长期培养上的实际价值与适用场景。",
+    "seoDescriptionEn": "Learn whether Nanally is worth building in NTE, how strong she is as an early DPS, and where she fits in longer-term team plans.",
     "questionTw": "娜娜莉值得培養嗎？",
+    "seoTitleTw": "娜娜莉值得培養嗎？異環娜娜莉強度與開荒價值分析",
+    "seoDescriptionTw": "娜娜莉值不值得練？這篇整理她在前期開荒、主力輸出和長期培養上的實際價值與適用場景。",
     "answerTw": "娜娜莉是S級生命屬性格鬥角色，非常值得培養。她擁有強大的近戰輸出能力，反重力技能在戰鬥中非常實用。作為初始可用的高品質角色之一，娜娜莉在前期開荒和後期高難內容中都有出色的表現。推薦作為首個重點培養的角色。",
     "categoryTw": "角色相關"
   },
@@ -383,6 +400,10 @@
     "id": "sakiri-worth-building",
     "question": "咲里值得培养吗？",
     "questionEn": "Is Sakiri worth building in NTE?",
+    "seoTitleZh": "咲里值得培养吗？异环咲里辅助价值与配队定位",
+    "seoTitleEn": "Is Sakiri Worth Building in NTE? Support Value & Team Role Guide",
+    "seoDescriptionZh": "咲里值不值得练？这篇整理她的支援能力、泛用性，以及在不同队伍里的培养优先级。",
+    "seoDescriptionEn": "See whether Sakiri is worth building in NTE, how strong her support value is, and where she fits across different teams.",
     "answer": "咲里是S级咒术属性支援角色，强烈推荐培养。她能为队友提供增益效果，是多种队伍配置中的核心支援。咲里的伴生体桐丸也会参与战斗，提供额外的输出能力。如果你需要一个能提升全队战斗效率的角色，咲里是最佳选择之一。",
     "answerEn": "Sakiri is an S-rank Incantation support character, highly recommended. She provides buffs to teammates and is a core support in many team compositions. Her companion Kiroumaru also participates in combat, adding extra damage. If you need a character that boosts overall team efficiency, Sakiri is one of the best choices.",
     "tags": [
@@ -396,6 +417,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "咲裡值得培養嗎？",
+    "seoTitleTw": "咲裡值得培養嗎？異環咲裡輔助價值與配隊定位",
+    "seoDescriptionTw": "咲裡值不值得練？這篇整理她的支援能力、泛用性，以及在不同隊伍裡的培養優先順序。",
     "answerTw": "咲裡是S級咒術屬性支援角色，強烈推薦培養。她能為隊友提供增益效果，是多種隊伍配置中的核心支援。咲裡的伴生體桐丸也會參與戰鬥，提供額外的輸出能力。如果你需要一個能提升全隊戰鬥效率的角色，咲裡是最佳選擇之一。",
     "categoryTw": "角色相關"
   },
@@ -425,6 +448,10 @@
     "id": "fadia-worth-building",
     "question": "法蒂亚值得培养吗？",
     "questionEn": "Is Fadia worth building in NTE?",
+    "seoTitleZh": "法蒂亚值得培养吗？异环法蒂亚输出价值与适配分析",
+    "seoTitleEn": "Is Fadia Worth Building in NTE? DPS Value & Team Fit Guide",
+    "seoDescriptionZh": "法蒂亚值不值得练？这篇整理她的输出定位、队伍适配，以及什么样的账号更适合投入资源。",
+    "seoDescriptionEn": "Learn whether Fadia is worth building in NTE, how her damage role fits teams, and which accounts benefit most from investing in her.",
     "answer": "法蒂亚是S级角色，在队伍中可以担当重要输出位。她的技能机制独特，在合适的队伍配置下能发挥很高的伤害。如果你喜欢她的战斗风格，或者需要一个强力的输出角色来补充队伍配置，法蒂亚是值得投入资源培养的。",
     "answerEn": "Fadia is an S-rank character who can serve as a key DPS in your team. Her skill mechanics are unique and can deal high damage with proper team composition. If you enjoy her playstyle or need a strong damage dealer to round out your team, Fadia is worth investing resources into.",
     "tags": [
@@ -438,6 +465,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "法蒂亞值得培養嗎？",
+    "seoTitleTw": "法蒂亞值得培養嗎？異環法蒂亞輸出價值與適配分析",
+    "seoDescriptionTw": "法蒂亞值不值得練？這篇整理她的輸出定位、隊伍適配，以及什麼樣的帳號更適合投入資源。",
     "answerTw": "法蒂亞是S級角色，在隊伍中可以擔當重要輸出位。她的技能機制獨特，在合適的隊伍配置下能發揮很高的傷害。如果你喜歡她的戰鬥風格，或者需要一個強力的輸出角色來補充隊伍配置，法蒂亞是值得投入資源培養的。",
     "categoryTw": "角色相關"
   },
@@ -499,6 +528,10 @@
     "id": "chiz-worth-building",
     "question": "智值得培养吗？",
     "questionEn": "Is Chiz worth building in NTE?",
+    "seoTitleZh": "智值得培养吗？异环低成本过渡角色价值判断",
+    "seoTitleEn": "Is Chiz Worth Building in NTE? Budget Build & Transitional Value",
+    "seoDescriptionZh": "智值不值得练？这篇更关注她作为低成本过渡角色时的价值、功能补位和资源投入回报。",
+    "seoDescriptionEn": "See whether Chiz is worth building in NTE, especially as a low-cost transitional unit for early accounts with limited resources.",
     "answer": "智值不值得培养，现在更适合从**你的账号是不是缺一个低成本、能稳定上场的过渡角色**来判断，而不是继续把她直接写成所有新手都该练的固定答案。对当前玩家来说，更重要的是看：你手里有没有更高优先级主力、她能不能补到你现有阵容的功能缺口，以及你愿不愿意接受她更偏过渡位的成长上限。\n\n更稳妥的理解方式是：\n1. 如果你前期资源紧、主力角色还没成型，低成本 A 级角色往往更容易立刻上场\n2. 如果你的主队功能已经完整，她的价值就更取决于是否能补循环、生存或某个特定机制缺口\n3. 与其把她简单写成“性价比一定高”，不如先判断她在你当前阵容里是否真的有位置\n\n所以这页现在保留的是**智的培养门槛与适配判断逻辑**，而不是继续把她写成对所有新手都统一成立的经济型推荐。",
     "answerEn": "Whether Chiz is worth building is better judged by **whether your account needs a low-cost, reliable transitional unit** rather than by treating her as an automatic recommendation for every beginner. For current players, the more useful question is whether you already have higher-priority mains, whether she fills a real functional gap, and whether you are comfortable with a role that may be more transitional than long-term central.\n\nA safer way to judge Chiz is:\n1. If your resources are tight and your core units are still incomplete, a lower-cost A-rank can reach the field much faster\n2. If your main team is already functionally complete, her value depends more on whether she adds rotation help, survivability, or some other missing utility\n3. Instead of assuming her value is always efficient, first ask whether she actually has a job in your current roster\n\nSo this page now focuses on Chiz's build cost and fit logic rather than preserving her as a universal budget recommendation.",
     "tags": [
@@ -512,6 +545,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "智值得培養嗎？",
+    "seoTitleTw": "智值得培養嗎？異環低成本過渡角色價值判斷",
+    "seoDescriptionTw": "智值不值得練？這篇更關注她作為低成本過渡角色時的價值、功能補位和資源投入回報。",
     "answerTw": "智值不值得培養，現在更適合從**你的帳號是不是缺一個低成本、能穩定上場的過渡角色**來判斷，而不是繼續把她直接寫成所有新手都該練的固定答案。對目前玩家來說，更重要的是看：你手裡有沒有更高優先級主力、她能不能補到你現有陣容的功能缺口，以及你願不願意接受她更偏過渡位的成長上限。\n\n更穩妥的理解方式是：\n1. 如果你前期資源緊、主力角色還沒成型，低成本 A 級角色往往更容易立刻上場\n2. 如果你的主隊功能已經完整，她的價值就更取決於是否能補循環、生存或某個特定機制缺口\n3. 與其把她簡單寫成「性價比一定高」，不如先判斷她在你目前陣容裡是否真的有位置\n\n所以這頁現在保留的是**智的培養門檻與適配判斷邏輯**，而不是繼續把她寫成對所有新手都統一成立的經濟型推薦。",
     "categoryTw": "角色相關"
   },
@@ -519,6 +554,10 @@
     "id": "boss-materials",
     "question": "异环首领材料怎么获取？",
     "questionEn": "How to get boss materials in NTE?",
+    "seoTitleZh": "异环首领材料怎么获取？来源、副本与分配优先级",
+    "seoTitleEn": "How to Get Boss Materials in NTE — Sources & Upgrade Priority",
+    "seoDescriptionZh": "异环首领材料从哪里刷？这篇整理来源、周常投入思路，以及该优先给哪些角色吃材料。",
+    "seoDescriptionEn": "A practical NTE boss-material guide covering where to farm them, how to spend weekly resources, and which characters should get priority.",
     "answer": "首领材料这页现在更适合回答**你该怎么判断哪些角色值得先吃掉这类稀缺资源**，而不是只给一句“优先喂核心角色”的固定口号。对当前玩家来说，更实际的问题通常是：你的主队里谁真的卡在突破节点、谁上场频率最高、以及谁吃到这批材料后能立刻改善推进效率。\n\n更稳妥的理解方式是：\n1. 先把首领材料投给你当前确实在主队、而且升完能马上上场的角色\n2. 如果两个角色都重要，优先看谁更接近关键突破点，而不是平均分配\n3. 活动、商店和副本来源都应结合你当周的体力和资源压力来算，不一定每次都要按同一顺序刷\n\n所以这页现在保留的是**首领材料的来源与分配判断逻辑**，而不是继续把单一优先级写成适用于所有账号的固定答案。",
     "answerEn": "This boss-materials page is more useful when it explains **how to judge which character should receive this scarce resource first** instead of stopping at a generic 'prioritize your core units' line. For current players, the practical question is usually which character is actually blocking your progression, appears in your main team most often, and gains immediate value from the next breakthrough.\n\nA safer way to handle boss materials is:\n1. Feed them first to characters who are already active in your main team and can use the upgrade right away\n2. If two characters both matter, check who is closer to a meaningful breakpoint instead of splitting the resource evenly\n3. Event, shop, and domain sources should be evaluated against your weekly stamina and account pressure rather than farmed in one fixed order every time\n\nSo this page now focuses on boss-material sources and allocation logic instead of treating one universal priority rule as the answer.",
     "tags": [
@@ -532,6 +571,8 @@
       "charging-knight-spark-plug"
     ],
     "questionTw": "異環首領材料怎麼獲取？",
+    "seoTitleTw": "異環首領材料怎麼獲取？來源、副本與分配優先順序",
+    "seoDescriptionTw": "異環首領材料從哪裡刷？這篇整理來源、週常投入思路，以及該優先給哪些角色吃材料。",
     "answerTw": "首領材料這頁現在更適合回答**你該怎麼判斷哪些角色值得先吃掉這類稀缺資源**，而不是只給一句「優先餵核心角色」的固定口號。對目前玩家來說，更實際的問題通常是：你的主隊裡誰真的卡在突破節點、誰上場頻率最高、以及誰吃到這批材料後能立刻改善推進效率。\n\n更穩妥的理解方式是：\n1. 先把首領材料投給你目前確實在主隊、而且升完能馬上上場的角色\n2. 如果兩個角色都重要，優先看誰更接近關鍵突破點，而不是平均分配\n3. 活動、商店和副本來源都應結合你當週的體力和資源壓力來算，不一定每次都要按同一順序刷\n\n所以這頁現在保留的是**首領材料的來源與分配判斷邏輯**，而不是繼續把單一優先級寫成適用於所有帳號的固定答案。",
     "categoryTw": "材料獲取"
   },
@@ -539,6 +580,10 @@
     "id": "adler-worth-building",
     "question": "爱德勒值得培养吗？",
     "questionEn": "Is Adler worth building in NTE?",
+    "seoTitleZh": "爱德勒值得培养吗？异环爱德勒主C潜力与投入判断",
+    "seoTitleEn": "Is Adler Worth Building in NTE? Main DPS Potential & Investment Guide",
+    "seoDescriptionZh": "爱德勒值不值得练？这篇整理他作为主力输出的潜力、队伍适配，以及什么时候投入更划算。",
+    "seoDescriptionEn": "Learn whether Adler is worth building in NTE, how strong his main-carry potential is, and when the investment makes sense for your account.",
     "answer": "爱德勒值不值得培养，现在更适合从**他是否真的能成为你账号里的主输出核心**来判断，而不是继续把“拿到就练”写成固定结论。对当前玩家来说，更关键的是看：你是否已经有成熟主 C、他需要的队友和资源你是否跟得上，以及他进队后究竟是补强主力体系，还是只是和现有角色重叠。\n\n更稳妥的理解方式是：\n1. 如果你的账号缺强势主输出，且资源足够把他推到能稳定上场的水平，他的培养价值会更高\n2. 如果你已经有成熟主力，就要比较他是带来真实升级，还是只是换一种输出方式\n3. 与其因为 S 级身份直接默认优先，不如先看他在你当前配队和版本目标里有没有明确位置\n\n所以这页现在保留的是**爱德勒的主力价值与投入判断逻辑**，而不是继续把他写成所有账号拿到后都应无条件培养的角色。",
     "answerEn": "Whether Adler is worth building is better judged by **whether he can truly become a main damage core for your account** rather than by treating 'pull him and build him' as an automatic rule. For current players, the more important questions are whether you already have an established DPS, whether you can support the teammates and resources he wants, and whether he strengthens your main setup or simply overlaps with what you already own.\n\nA safer way to judge Adler is:\n1. If your account lacks a strong main DPS and you can invest enough to make him field-ready, his value rises a lot\n2. If you already have a mature carry, compare whether he creates a real upgrade or just offers a different damage profile\n3. Instead of defaulting to priority because he is S-rank, ask whether he has a clear role in your current team plan and version goals\n\nSo this page now focuses on Adler's carry value and investment logic instead of preserving him as an unconditional build recommendation for every account.",
     "tags": [
@@ -552,6 +597,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "愛德勒值得培養嗎？",
+    "seoTitleTw": "愛德勒值得培養嗎？異環愛德勒主C潛力與投入判斷",
+    "seoDescriptionTw": "愛德勒值不值得練？這篇整理他作為主力輸出的潛力、隊伍適配，以及什麼時候投入更划算。",
     "answerTw": "愛德勒值不值得培養，現在更適合從**他是否真的能成為你帳號裡的主輸出核心**來判斷，而不是繼續把「拿到就練」寫成固定結論。對目前玩家來說，更關鍵的是看：你是否已經有成熟主 C、他需要的隊友和資源你是否跟得上，以及他進隊後究竟是補強主力體系，還是只是和現有角色重疊。\n\n更穩妥的理解方式是：\n1. 如果你的帳號缺強勢主輸出，且資源足夠把他推到能穩定上場的水準，他的培養價值會更高\n2. 如果你已經有成熟主力，就要比較他是帶來真實升級，還是只是換一種輸出方式\n3. 與其因為 S 級身分直接默認優先，不如先看他在你目前配隊和版本目標裡有沒有明確位置\n\n所以這頁現在保留的是**愛德勒的主力價值與投入判斷邏輯**，而不是繼續把他寫成所有帳號拿到後都應無條件培養的角色。",
     "categoryTw": "角色相關"
   },
@@ -733,6 +780,10 @@
     "id": "gacha-currency",
     "question": "异环抽卡用什么货币？怎么获取？",
     "questionEn": "What currency is used for gacha in NTE and how to get it?",
+    "seoTitleZh": "异环抽卡用什么货币？原晶、抽卡券与获取方式整理",
+    "seoTitleEn": "NTE Gacha Currency Guide — Original Crystals, Tickets & Sources",
+    "seoDescriptionZh": "异环抽卡货币有哪些？这篇整理原晶、抽卡券的主要来源，以及零氪低氪玩家该怎么规划使用。",
+    "seoDescriptionEn": "Learn which currencies NTE uses for gacha, where to get Original Crystals and tickets, and how F2P players should budget pulls.",
     "answer": "异环抽卡主要使用原晶（付费/免费）和抽卡券。原晶获取途径：1) 完成主线任务和支线任务；2) 探索开放世界、开启宝箱；3) 每日委托任务奖励；4) 深渊/高难挑战奖励；5) 活动奖励；6) 直接充值购买。抽卡券可通过活动、成就和商店兑换获得。免费原晶足够支持每版本有限度抽卡，合理规划很重要。",
     "answerEn": "NTE gacha primarily uses Original Crystals (paid/free) and gacha tickets. Ways to get Original Crystals: 1) Main/side quest completion; 2) Open world exploration and treasure chests; 3) Daily commission rewards; 4) Endgame/challenge rewards; 5) Event rewards; 6) Direct purchase. Gacha tickets can be obtained from events, achievements, and shop exchanges. Free crystals support limited pulls each version, so plan wisely.",
     "tags": [
@@ -747,6 +798,8 @@
       "fons"
     ],
     "questionTw": "異環抽卡用什麼貨幣？怎麼獲取？",
+    "seoTitleTw": "異環抽卡用什麼貨幣？原晶、抽卡券與獲取方式整理",
+    "seoDescriptionTw": "異環抽卡貨幣有哪些？這篇整理原晶、抽卡券的主要來源，以及零氪低氪玩家該怎麼規劃使用。",
     "answerTw": "異環抽卡主要使用原晶（付費/免費）和抽卡券。原晶獲取途徑：1) 完成主線任務和支線任務；2) 探索開放世界、開啟寶箱；3) 每日委託任務獎勵；4) 深淵/高難挑戰獎勵；5) 活動獎勵；6) 直接充值購買。抽卡券可通過活動、成就和商店兌換獲得。免費原晶足夠支援每版本有限度抽卡，合理規劃很重要。",
     "categoryTw": "抽卡系統"
   },
@@ -754,6 +807,10 @@
     "id": "perfect-dodge-counter",
     "question": "异环极限闪避怎么触发？有什么效果？",
     "questionEn": "How to trigger Perfect Dodge in NTE? What are the effects?",
+    "seoTitleZh": "异环极限闪避怎么触发？时机、效果与实战用法",
+    "seoTitleEn": "NTE Perfect Dodge Guide — Timing, Effects & Combat Usage",
+    "seoDescriptionZh": "异环极限闪避怎么按？这篇整理触发时机、无敌与增伤效果，以及实战里怎么练闪避节奏。",
+    "seoDescriptionEn": "Learn when to trigger Perfect Dodge in NTE, what benefits it gives, and how to use it consistently in real combat.",
     "answer": "极限闪避是异环战斗中的核心技巧。触发方式：在敌人攻击出现红色闪光预警的瞬间按下闪避键，即可触发极限闪避。触发效果：1) 短暂无敌帧，规避所有伤害；2) 获得增伤效果，提高后续攻击的伤害；3) 快速积累倾陷值（破防条），加速敌人进入破防状态。建议在实战中多练习闪避节奏，善用极限闪避可以大幅提升战斗效率。",
     "answerEn": "Perfect Dodge is a core combat mechanic in NTE. How to trigger: Press dodge the moment an enemy attack shows a red flash warning. Effects: 1) Brief invincibility frames to avoid all damage; 2) Damage boost for subsequent attacks; 3) Rapidly builds Break gauge to stun enemies faster. Practice the dodge timing in combat — mastering Perfect Dodge significantly improves combat efficiency.",
     "tags": [
@@ -770,6 +827,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環極限閃避怎麼觸發？有什麼效果？",
+    "seoTitleTw": "異環極限閃避怎麼觸發？時機、效果與實戰用法",
+    "seoDescriptionTw": "異環極限閃避怎麼按？這篇整理觸發時機、無敵與增傷效果，以及實戰裡怎麼練閃避節奏。",
     "answerTw": "極限閃避是異環戰鬥中的核心技巧。觸發方式：在敵人攻擊出現紅色閃光預警的瞬間按下閃避鍵，即可觸發極限閃避。觸發效果：1) 短暫無敵幀，規避所有傷害；2) 獲得增傷效果，提高後續攻擊的傷害；3) 快速積累傾陷值（破防條），加速敵人進入破防狀態。建議在實戰中多練習閃避節奏，善用極限閃避可以大幅提升戰鬥效率。",
     "categoryTw": "戰鬥機制"
   },
@@ -777,6 +836,10 @@
     "id": "chain-burst",
     "question": "异环环合爆发怎么用？",
     "questionEn": "How to use Chain Burst in NTE?",
+    "seoTitleZh": "异环环合爆发怎么用？触发条件、属性搭配与连招思路",
+    "seoTitleEn": "NTE Chain Burst Guide — Trigger Conditions, Attribute Combos & Rotation",
+    "seoDescriptionZh": "异环环合爆发怎么触发？这篇整理环合值积累、属性搭配，以及战斗里更常见的连招思路。",
+    "seoDescriptionEn": "Learn how Chain Burst works in NTE, how to build the gauge, which attribute combos matter, and how to fit it into combat rotations.",
     "answer": "环合爆发是异环的核心战斗系统之一。使用方法：1) 通过普攻和技能攻击积累环合值；2) 当环合值充满后，切换到对应属性的队友即可触发环合爆发；3) 环合爆发会对敌人造成大量范围伤害。推荐的属性搭配：光+灵（创生）属性组合可以触发自动范围爆炸，适合清群怪。合理规划队伍的属性搭配和切换顺序，是掌握环合爆发的关键。",
     "answerEn": "Chain Burst is a core combat system in NTE. How to use: 1) Build up Chain gauge through normal attacks and skills; 2) When the gauge is full, switch to a teammate with the matching attribute to trigger Chain Burst; 3) Chain Burst deals massive AoE damage. Recommended combo: Light + Spirit attribute combination triggers automatic AoE explosions, ideal for clearing groups. Planning your team's attribute composition and switch order is key to mastering Chain Bursts.",
     "tags": [
@@ -793,6 +856,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環環合爆發怎麼用？",
+    "seoTitleTw": "異環環合爆發怎麼用？觸發條件、屬性搭配與連招思路",
+    "seoDescriptionTw": "異環環合爆發怎麼觸發？這篇整理環合值累積、屬性搭配，以及戰鬥裡更常見的連招思路。",
     "answerTw": "環合爆發是異環的核心戰鬥系統之一。使用方法：1) 通過普攻和技能攻擊積累環合值；2) 當環合值充滿後，切換到對應屬性的隊友即可觸發環合爆發；3) 環合爆發會對敵人造成大量範圍傷害。推薦的屬性搭配：光+靈（創生）屬性組合可以觸發自動範圍爆炸，適合清群怪。合理規劃隊伍的屬性搭配和切換順序，是掌握環合爆發的關鍵。",
     "categoryTw": "戰鬥機制"
   },
@@ -800,6 +865,10 @@
     "id": "combat-tips",
     "question": "异环战斗有什么技巧？",
     "questionEn": "What are some combat tips for NTE?",
+    "seoTitleZh": "异环战斗有什么技巧？闪避、克制与连携实战要点",
+    "seoTitleEn": "NTE Combat Tips — Dodge, Weakness, Chain Burst & Core Basics",
+    "seoDescriptionZh": "异环战斗怎么打更顺？这篇整理极限闪避、属性克制、环合爆发和走位等实战基础技巧。",
+    "seoDescriptionEn": "A practical NTE combat-tips guide covering Perfect Dodge, attribute counters, Chain Burst usage, and movement basics in fights.",
     "answer": "异环战斗的核心技巧：1) 善用极限闪避 — 敌人红光预警时闪避触发无敌+增伤+破防积累；2) 属性克制 — 观察敌人属性弱点，切换对应属性角色可造成约1.5倍额外伤害；3) 环合爆发 — 普攻攒满环合值后切队友触发强力范围攻击；4) 属性搭配 — 光+灵（创生）组合适合清群怪；5) 连携技能 — 合理利用角色切换时的连携效果；6) 走位拉扯 — 不要站桩输出，利用移动规避伤害。",
     "answerEn": "Core combat tips for NTE: 1) Master Perfect Dodge — dodge during red flash warnings for invincibility + damage boost; 2) Exploit attribute weaknesses — switch to matching attribute characters for ~1.5x bonus damage; 3) Chain Bursts — build gauge and switch teammates for powerful AoE attacks; 4) Attribute combos — Light + Spirit combination excels at clearing groups; 5) Chain skills — utilize character switch combo effects; 6) Keep moving — don't stand still, use movement to avoid damage.",
     "tags": [
@@ -816,6 +885,8 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環戰鬥有什麼技巧？",
+    "seoTitleTw": "異環戰鬥有什麼技巧？閃避、剋制與連攜實戰要點",
+    "seoDescriptionTw": "異環戰鬥怎麼打更順？這篇整理極限閃避、屬性剋制、環合爆發和走位等實戰基礎技巧。",
     "answerTw": "異環戰鬥的核心技巧：1) 善用極限閃避 — 敵人紅光預警時閃避觸發無敵+增傷+破防積累；2) 屬性剋制 — 觀察敵人屬性弱點，切換對應屬性角色可造成約1.5倍額外傷害；3) 環合爆發 — 普攻攢滿環合值後切隊友觸發強力範圍攻擊；4) 屬性搭配 — 光+靈（創生）組合適合清群怪；5) 連攜技能 — 合理利用角色切換時的連攜效果；6) 走位拉扯 — 不要站樁輸出，利用移動規避傷害。",
     "categoryTw": "戰鬥機制"
   },
