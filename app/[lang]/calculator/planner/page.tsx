@@ -213,6 +213,29 @@ export default function MaterialPlannerPage() {
           </p>
         </section>
 
+        <section className="mb-6 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "开始规划前先看什么" : "What should you check before planning?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "先决定这周真正优先养哪一到两个角色，不要把所有想养的人一次全塞进来。" : "Choose the one or two characters that truly matter this week instead of throwing every future target into the planner at once."}</li>
+              <li>{isZh ? "确认目标等级是否真的需要拉满，有些角色先卡在关键突破点就够用了。" : "Check whether the target level really needs to be maxed, because some characters are already fine at an important breakpoint."}</li>
+              <li>{isZh ? "把技能材料和升级材料一起看，避免只看一半资源缺口。" : "Review skill materials and leveling materials together so you do not solve only half of the resource problem."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "常见误区" : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "一次规划太多角色，结果谁都养不成型。" : "Planning too many characters at once and ending up with none of them actually finished."}</li>
+              <li>{isZh ? "只盯等级，不算技能书、金币或稀有材料的同步压力。" : "Tracking levels only while ignoring books, currency, and rarer shared bottlenecks."}</li>
+              <li>{isZh ? "把计划写得太满，没有给新版本卡池或临时养成需求留空间。" : "Packing the plan so tightly that there is no room for a new patch banner or a sudden priority shift."}</li>
+            </ul>
+          </div>
+        </section>
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left: Character Plan */}
           <div className="lg:col-span-1 space-y-4">

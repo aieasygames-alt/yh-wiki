@@ -195,6 +195,29 @@ export default function DPSCalculatorPage() {
         </p>
       </section>
 
+      <section className="mb-6 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZh ? "算 DPS 前先确认什么" : "What should you confirm before calculating DPS?"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZh ? "先确定你想比较的是武器差距、词条差距，还是循环手法差距，不同问题要锁定不同变量。" : "Decide whether you are comparing weapons, stat spreads, or rotation shape first, because each question needs different variables held constant."}</li>
+            <li>{isZh ? "尽量用接近实战的循环段数和时间，不要只拿理想单段倍率做判断。" : "Use a rotation length and hit count that resemble real gameplay instead of judging from a perfect single-hit multiplier alone."}</li>
+            <li>{isZh ? "敌人抗性、防御和队伍增益最好也按常见实战场景去设，而不是全部填满理想值。" : "Set resistance, defense, and team buffs to something close to normal combat instead of maxing every ideal assumption."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZh ? "常见误区" : "Common mistakes"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZh ? "只看理论暴击大数字，却忽略平均伤害和循环时间。" : "Focusing on one huge crit number while ignoring average damage and rotation time."}</li>
+            <li>{isZh ? "为了让数字更好看，把所有敌人参数和团队增益都设成最理想状态。" : "Setting every enemy parameter and team buff to the most favorable case just to inflate the result."}</li>
+            <li>{isZh ? "把估算器结果当成绝对真值，不再回头看实战手感与容错。" : "Treating the estimate like absolute truth and forgetting to test comfort, consistency, and real execution."}</li>
+          </ul>
+        </div>
+      </section>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* ── Left Column: Inputs ── */}
         <div className="lg:col-span-2 space-y-4">
