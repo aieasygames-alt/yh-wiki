@@ -6488,7 +6488,8 @@
     "questionTw": "獵人等級卡住不動了？",
     "answerTw": "獵人等級在特定等級（如20級、30級等）會有軟上限。解決方法：1) 開啟任務列表，檢視是否有主線任務需要完成；2) 尋找「獵人晉升」相關的任務，完成該任務即可解鎖下一等級段；3) 經驗值會繼續累積，但在晉升任務完成前不會提升等級上限。這是正常的遊戲機制，不是Bug。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環獵人等級卡住不升級 — 等級上限解鎖與晉升任務指南（2026）"
+    "seoTitleTw": "異環獵人等級卡住不升級 — 等級上限解鎖與晉升任務指南（2026）",
+    "seoDescriptionTw": "異環（NTE）獵人等級卡住的原因：達到軟上限後需完成獵人晉升任務才能解鎖下一等級段，詳細介紹與解決方法。"
   },
   {
     "id": "character-stuck-bug",
@@ -6514,7 +6515,8 @@
     "questionTw": "角色卡住/任務無法推進怎麼辦？",
     "answerTw": "角色卡住或任務無法推進的解決方法：1) 嘗試傳送到其他位置再傳送回來；2) 完全退出遊戲後重新登入；3) 如果遊戲內有「脫離卡死」功能，使用該功能；4) 如果在異常區域中，嘗試離開後重新進入；5) 如問題持續，聯絡客服 nte.contactus@perfectworld.com，附上UID、所在位置和任務名稱。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環角色卡住任務無法推進 — 解決方法與脫離卡死教程（2026）"
+    "seoTitleTw": "異環角色卡住任務無法推進 — 解決方法與脫離卡死教程（2026）",
+    "seoDescriptionTw": "異環（NTE）角色卡住或任務無法推進的解決方法：傳送脫離、重啟遊戲、使用脫離卡死功能，以及聯絡客服的詳細資訊。"
   },
   {
     "id": "double-charge-refund",
@@ -6540,12 +6542,17 @@
     "questionTw": "充值被重複扣款/退款異常怎麼辦？",
     "answerTw": "充值重複扣款或退款異常的處理方法：1) 如遇重複扣款，聯絡客服 nte.contactus@perfectworld.com，提供UID、購買平臺、兩筆交易的訂單號和扣款截圖；2) 同時也可以通過購買平臺（Epic/Google Play/App Store/PlayStation）申請退款；3) 如果因退款異常導致賬戶出現負餘額，向客服說明情況並提供相關交易記錄，客服會協助處理。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環充值重複扣款退款異常 — 處理方法與客服聯絡指南（2026）"
+    "seoTitleTw": "異環充值重複扣款退款異常 — 處理方法與客服聯絡指南（2026）",
+    "seoDescriptionTw": "異環（NTE）充值重複扣款和退款異常的完整處理流程：聯絡客服、透過平台申請退款、解決負餘額問題的詳細步驟。"
   },
   {
     "id": "pity-inheritance-explained",
     "question": "异环保底能不能继承到下一个卡池？保底继承规则详解",
     "questionEn": "Does NTE pity carry over between banners? Pity inheritance rules explained",
+    "seoTitleZh": "异环保底会继承吗？下个卡池保底规则详解",
+    "seoTitleEn": "Does NTE Pity Carry Over? Banner Inheritance Rules Explained",
+    "seoDescriptionZh": "异环保底能不能继承到下一个卡池？这篇整理限定池、武器池、常驻池之间的保底继承规则与不互通边界。",
+    "seoDescriptionEn": "Does pity carry over in NTE? Limited, weapon, and standard banner inheritance rules explained, including what does not transfer.",
     "answer": "异环的保底机制**在同类型卡池之间可以继承**。具体规则：1) 限定角色卡池的保底进度会继承到下一个限定角色卡池；2) 武器卡池的保底进度会继承到下一个武器卡池；3) 常驻卡池的保底进度在常驻卡池内继承；4) 不同类型卡池之间的保底**不互通**（如限定卡池的保底不会继承到常驻卡池）。这意味着如果你在当前限定卡池抽了70抽没出S级，下一个限定角色卡池开启时你的保底计数从70开始，只需20抽就能触发硬保底。",
     "answerEn": "NTE pity **carries over between banners of the same type**. Rules: 1) Limited character banner pity carries to the next limited character banner; 2) Weapon banner pity carries to the next weapon banner; 3) Standard banner pity carries within standard banners; 4) Pity does NOT transfer between different banner types. If you pulled 70 times on the current limited banner without an S-Rank, your pity counter starts at 70 when the next limited banner begins — only 20 more pulls to reach hard pity.",
     "tags": [
@@ -6560,12 +6567,18 @@
     "relatedMaterials": [],
     "questionTw": "異環保底能不能繼承到下一個卡池？保底繼承規則詳解",
     "answerTw": "異環的保底機制**在同類型卡池之間可以繼承**。具體規則：1) 限定角色卡池的保底進度會繼承到下一個限定角色卡池；2) 武器卡池的保底進度會繼承到下一個武器卡池；3) 常駐卡池的保底進度在常駐卡池內繼承；4) 不同型別卡池之間的保底**不互通**（如限定卡池的保底不會繼承到常駐卡池）。這意味著如果你在當前限定卡池抽了70抽沒出S級，下一個限定角色卡池開啟時你的保底計數從70開始，只需20抽就能觸發硬保底。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環保底會繼承嗎？下個卡池保底規則詳解",
+    "seoDescriptionTw": "異環保底能不能繼承到下一個卡池？這篇整理限定池、武器池、常駐池之間的保底繼承規則與不互通邊界。"
   },
   {
     "id": "porsche-price-cost",
     "question": "异环保时捷联动车要多少钱？多少方斯？保时捷918怎么获得？",
     "questionEn": "How much does the NTE Porsche collab car cost? How to get the Porsche 918?",
+    "seoTitleZh": "异环保时捷918怎么获得？联动车价格与复刻判断",
+    "seoTitleEn": "NTE Porsche 918 Collab Car — Cost, Availability & Rerun Logic",
+    "seoDescriptionZh": "异环保时捷918联动车现在还能买吗？这篇说明它属于限时联动载具，以及价格、获取方式与是否复刻该怎么判断。",
+    "seoDescriptionEn": "Can you still get the NTE Porsche 918 collab car? Limited vehicle status, event-based acquisition, cost context, and rerun expectations.",
     "answer": "保时捷 918 联动已经不是“尚未公布”的阶段，而是异环早期已经落地过的**限时联动载具活动**。如果你现在问“多少钱、怎么拿”，更准确的答案是：当时它按联动活动规则获取，但活动结束后就不能再按原始方式直接入手。\n\n这条 FAQ 现在的参考价值主要在于：\n1. 它确认过 918 属于限时联动载具\n2. 它不是常驻商店里的普通车辆\n3. 是否复刻、是否会有类似新联动，要看官方后续安排\n\n所以如果你的问题是“现在还能不能买”，答案更接近**当前没有常驻获取方式，应按复刻或新活动处理**。",
     "answerEn": "The Porsche 918 collaboration is no longer in a 'details not yet announced' state. It was an actual **limited-time collaboration vehicle event** during NTE's earlier lifecycle. So if you are asking today how much it costs or how to get it, the more accurate answer is that it was obtained through event-specific rules at the time, and once the event ended, the original acquisition path stopped being available.\n\nWhat this FAQ is still useful for is confirming that:\n1. the 918 was a limited collaboration vehicle\n2. it was not part of the normal permanent vehicle pool\n3. any rerun or similar future collab depends on official follow-up plans\n\nSo if your real question is 'Can I still buy it now?', the answer is closer to **not through a permanent standard method unless it reruns**.",
     "tags": [
@@ -6581,12 +6594,18 @@
     "relatedMaterials": [],
     "questionTw": "異環保時捷聯動車要多少錢？多少方斯？保時捷918怎麼獲得？",
     "answerTw": "保時捷 918 聯動已經不是「尚未公佈」的階段，而是異環早期已經落地過的**限時聯動載具活動**。如果你現在問「多少錢、怎麼拿」，更準確的答案是：當時它按聯動活動規則獲取，但活動結束後就不能再按原始方式直接入手。\n\n這條 FAQ 現在的參考價值主要在於：\n1. 它確認過 918 屬於限時聯動載具\n2. 它不是常駐商店裡的普通車輛\n3. 是否復刻、是否會有類似新聯動，要看官方後續安排\n\n所以如果你的問題是「現在還能不能買」，答案更接近**當前沒有常駐獲取方式，應按復刻或新活動處理**。",
-    "categoryTw": "聯動"
+    "categoryTw": "聯動",
+    "seoTitleTw": "異環保時捷918怎麼獲得？聯動車價格與復刻判斷",
+    "seoDescriptionTw": "異環保時捷918聯動車現在還能買嗎？這篇說明它屬於限時聯動載具，以及價格、獲取方式與是否復刻該怎麼判斷。"
   },
   {
     "id": "fps-drift-bug-fix",
     "question": "异环FPS设置高导致车辆无法漂移？帧率漂移Bug怎么解决？",
     "questionEn": "NTE FPS cap drift bug: Can't drift at high FPS? Fix and workaround",
+    "seoTitleZh": "异环高FPS无法漂移怎么办？帧率漂移Bug排查",
+    "seoTitleEn": "NTE High-FPS Drift Bug — Fixes, Workarounds & Diagnosis",
+    "seoDescriptionZh": "异环高 FPS 影响车辆漂移怎么办？这篇整理降帧率上限、验证漂移手感与临时 workaround 的排查思路。",
+    "seoDescriptionEn": "Can't drift properly at high FPS in NTE? Troubleshooting steps, FPS-cap workaround, and how to test whether the issue is version-specific.",
     "answer": "这类“高帧率更难漂移”的问题，当前更适合按**社区高频反馈下的实用排查项**来理解，而不是直接写成已经被永久坐实的官方结论。对遇到问题的玩家来说，更重要的是先验证：降低帧率上限后，漂移手感是否明显恢复正常。\n\n更实用的处理方式是：\n1) 先把 FPS 上限降到 60 或 30，观察漂移触发是否稳定\n2) 如果问题缓解，再把它视为当前版本下值得保留的临时规避方案\n3) 后续仍应以正式补丁说明和当前版本表现为准，而不是把旧社区经验永远当成固定物理规则\n\n所以这页现在保留的是**高帧率与漂移异常的排查逻辑和临时 workaround**，而不是继续把它写成完全盖棺定论的 Bug 公告。",
     "answerEn": "This drift issue is safer to frame as a **widely reported troubleshooting pattern** than as a permanently settled official truth. For affected players, the practical question is simple: does lowering the FPS cap noticeably restore drift consistency in the version you are playing right now?\n\nA safer way to handle it is:\n1. Lower the FPS cap to 60 or 30 and test whether drift triggering becomes more reliable\n2. If that helps, treat it as a useful live-version workaround rather than a universal law of the driving system\n3. Keep checking current patch notes and in-game behavior instead of assuming older community findings remain permanently exact\n\nSo this page now focuses on drift-troubleshooting logic and temporary mitigation rather than presenting the issue as a closed-form official bug notice.",
     "tags": [
@@ -6603,12 +6622,18 @@
     "relatedMaterials": [],
     "questionTw": "異環FPS設定高導致車輛無法漂移？幀率漂移Bug怎麼解決？",
     "answerTw": "這類「高幀率更難漂移」的問題，目前更適合按**社群高頻反饋下的實用排查項**來理解，而不是直接寫成已經被永久坐實的官方結論。對遇到問題的玩家來說，更重要的是先驗證：降低幀率上限後，漂移手感是否明顯恢復正常。\n\n更實用的處理方式是：\n1) 先把 FPS 上限降到 60 或 30，觀察漂移觸發是否穩定\n2) 如果問題緩解，再把它視為目前版本下值得保留的臨時規避方案\n3) 後續仍應以正式補丁說明和當前版本表現為準，而不是把舊社群經驗永遠當成固定物理規則\n\n所以這頁現在保留的是**高幀率與漂移異常的排查邏輯和臨時 workaround**，而不是繼續把它寫成完全蓋棺定論的 Bug 公告。",
-    "categoryTw": "問題修復"
+    "categoryTw": "問題修復",
+    "seoTitleTw": "異環高FPS無法漂移怎麼辦？幀率漂移Bug排查",
+    "seoDescriptionTw": "異環高 FPS 影響車輛漂移怎麼辦？這篇整理降幀率上限、驗證漂移手感與臨時 workaround 的排查思路。"
   },
   {
     "id": "co-op-unlock-level",
     "question": "异环联机几级解锁？多人模式多少级能玩？最多几人联机？",
     "questionEn": "What level unlocks co-op in NTE? How many players can play together?",
+    "seoTitleZh": "异环联机几级解锁？多人模式开放与合作边界",
+    "seoTitleEn": "When Does Co-Op Unlock in NTE? Multiplayer Access & Limits",
+    "seoDescriptionZh": "异环联机是不是只看等级？这篇整理多人模式随主线/系统进度开放的判断方式，以及合作玩法的边界。",
+    "seoDescriptionEn": "How co-op unlocks in NTE: progression vs level, multiplayer boundaries, and what shared play actually means in the current version.",
     "answer": "这条“联机几级解锁、最多几人”FAQ 现在更适合回答**多人模式是不是按主线进度开放，以及联机更像主线补充玩法还是全程替代模式**，而不是继续写成一段固定条件清单。对当前玩家来说，更实际的重点通常是：如果还没开多人，不一定是等级不够；如果已经开放，也不代表所有内容都会自动变成可联机状态。\n\n更稳妥的理解方式是：\n1. 先把联机理解成**随主线或系统进度逐步开放的功能层**，而不是单纯的等级门槛\n2. 支持多人协作不等于所有剧情、任务和系统都天然共享，很多内容仍要区分单人和合作边界\n3. 与其死记一串可玩内容，不如先确认当前版本下你最关心的玩法是否真的支持联机\n\n所以这页现在保留的是**多人模式解锁判断与合作边界理解**，而不是继续把早期条件列表写成固定说明。",
     "answerEn": "This 'what level unlocks co-op' FAQ is more useful when it explains **whether multiplayer opens through progression and whether co-op is a layered supplement rather than a full replacement for the solo structure** instead of preserving one fixed condition list. For current players, the practical point is that if co-op is still locked, the blocker may be progression rather than raw level, and if it is unlocked, that still does not mean every activity automatically becomes shared multiplayer content.\n\nA safer way to read it is:\n1. Treat co-op as a **feature layer that opens through story or system progress**, not just a simple level gate\n2. Multiplayer support does not imply that every quest, story segment, or system is naturally shared; solo and co-op boundaries still matter\n3. Instead of memorizing one list of activities, first verify whether the specific mode you care about is actually multiplayer-enabled in the current version\n\nSo this page now focuses on co-op unlock judgment and cooperation-boundary understanding instead of preserving an early checklist as a fixed answer.",
     "tags": [
@@ -6624,12 +6649,18 @@
     "relatedMaterials": [],
     "questionTw": "異環聯機幾級解鎖？多人模式多少級能玩？最多幾人聯機？",
     "answerTw": "這條「聯機幾級解鎖、最多幾人」FAQ 現在更適合回答**多人模式是不是按主線進度開放，以及聯機更像主線補充玩法還是全程替代模式**，而不是繼續寫成一段固定條件清單。對目前玩家來說，更實際的重點通常是：如果還沒開多人，不一定是等級不夠；如果已經開放，也不代表所有內容都會自動變成可聯機狀態。\n\n更穩妥的理解方式是：\n1. 先把聯機理解成**隨主線或系統進度逐步開放的功能層**，而不是單純的等級門檻\n2. 支援多人協作不等於所有劇情、任務和系統都天然共享，很多內容仍要區分單人和合作邊界\n3. 與其死記一串可玩內容，不如先確認目前版本下你最關心的玩法是否真的支援聯機\n\n所以這頁現在保留的是**多人模式解鎖判斷與合作邊界理解**，而不是繼續把早期條件列表寫成固定說明。",
-    "categoryTw": "聯機"
+    "categoryTw": "聯機",
+    "seoTitleTw": "異環聯機幾級解鎖？多人模式開放與合作邊界",
+    "seoDescriptionTw": "異環聯機是不是只看等級？這篇整理多人模式隨主線/系統進度開放的判斷方式，以及合作玩法的邊界。"
   },
   {
     "id": "nte-optimization-tips",
     "question": "异环优化差/卡顿/掉帧怎么解决？最佳画面设置推荐",
     "questionEn": "NTE optimization guide: How to fix lag, stuttering, and low FPS",
+    "seoTitleZh": "异环优化差怎么调？卡顿掉帧与画面设置思路",
+    "seoTitleEn": "NTE Optimization Guide — Lag, Stutter, FPS & Graphics Settings",
+    "seoDescriptionZh": "异环优化差、卡顿、掉帧怎么排查？这篇整理安装盘、驱动、渲染器、画质和移动端发热等关键优化顺序。",
+    "seoDescriptionEn": "How to optimize NTE for stutter and low FPS: install drive, drivers, renderers, graphics settings, and mobile heat-management priorities.",
     "answer": "这条优化 FAQ 现在更适合回答**你该按什么顺序排查卡顿、掉帧和发热**，而不是继续把某些做法写成对所有设备都绝对成立的固定答案。对当前玩家来说，更实际的重点通常是先区分：你遇到的是安装盘问题、驱动/渲染问题、还是移动端发热和后台占用问题。\n\n更稳妥的处理方式是：\n1. 先从最容易验证的项目开始，比如画质、渲染比例、后台程序和存储空间\n2. 再看驱动、渲染器切换和不同硬件之间的兼容差异，不要默认某一套设置对所有机器都最优\n3. 手机端和 PC 端的优化重点本来就不同，最好按设备类型分别判断，而不是套用同一份万能配置\n\n所以这页现在保留的是**性能问题的排查顺序与设置取舍逻辑**，而不是继续输出一套看起来放之四海皆准的固定参数表。",
     "answerEn": "NTE optimization guide: **PC**: 1) Install on C drive/SSD — D drive causes severe stuttering; 2) Update GPU drivers; 3) Switch renderer (DX11/DX12/Vulkan) in settings; 4) Disable volumetric fog, screen space reflections; 5) Lower render resolution to 90%; 6) Clear ShaderCache folder. **Mobile**: 1) Lower render quality to Medium or Low; 2) Disable motion blur and volumetric lighting; 3) Set frame rate to 30 FPS to reduce heat; 4) Close background apps. **General**: Ensure 20GB+ free storage, use wired network for lower latency.",
     "tags": [
@@ -6646,12 +6677,18 @@
     "relatedMaterials": [],
     "questionTw": "異環最佳化差/卡頓/掉幀怎麼解決？最佳畫面設定推薦",
     "answerTw": "這條最佳化 FAQ 現在更適合回答**你該按什麼順序排查卡頓、掉幀和發熱**，而不是繼續把某些做法寫成對所有裝置都絕對成立的固定答案。對目前玩家來說，更實際的重點通常是先區分：你遇到的是安裝碟問題、驅動／渲染問題、還是手機端發熱和後臺佔用問題。\n\n更穩妥的處理方式是：\n1. 先從最容易驗證的項目開始，比如畫質、渲染比例、後臺程式和儲存空間\n2. 再看驅動、渲染器切換和不同硬體之間的相容差異，不要默認某一套設定對所有機器都最優\n3. 手機端和 PC 端的最佳化重點本來就不同，最好按裝置型別分別判斷，而不是套用同一份萬能配置\n\n所以這頁現在保留的是**效能問題的排查順序與設定取捨邏輯**，而不是繼續輸出一套看起來放之四海皆準的固定參數表。",
-    "categoryTw": "最佳化設定"
+    "categoryTw": "最佳化設定",
+    "seoTitleTw": "異環最佳化差怎麼調？卡頓掉幀與畫面設定思路",
+    "seoDescriptionTw": "異環最佳化差、卡頓、掉幀怎麼排查？這篇整理安裝盤、驅動、渲染器、畫質和手機端發熱等關鍵最佳化順序。"
   },
   {
     "id": "xun-character-faq",
     "question": "异环新角色浔（Xun）什么时候出？浔是什么属性？怎么获得？",
     "questionEn": "When does Xun release in NTE? What attribute is Xun? How to get Xun?",
+    "seoTitleZh": "异环浔（Xun）值得培养吗？角色定位与配队价值",
+    "seoTitleEn": "NTE Xun FAQ — Role, Team Value & Build-Around Decision",
+    "seoDescriptionZh": "异环浔（Xun）这名角色现在该怎么看？这篇整理她的辅助/功能定位、适配队伍与值不值得围绕她组队的判断思路。",
+    "seoDescriptionEn": "How to think about Xun in NTE now: support and utility role, team fit, and whether your roster should build around her.",
     "answer": "浔（Xun）这条 FAQ 原来明显停留在“v1.1 预计上线”的阶段，现在应该按**实装后/已进入版本历史的角色信息**来理解。对多数玩家来说，浔的价值不在“什么时候出”，而在于她是否能承担你队伍里的辅助、增益或功能位。\n\n如果你是在考虑要不要围绕浔组队，可以优先看这三点：\n1. 你的主C是否需要一个更稳定的辅助位来提升循环或容错\n2. 你的账号是否缺兼顾功能性和队伍适配度的角色\n3. 你想走的是单核爆发队，还是更强调体系联动的反应队\n\n也就是说，这页不再继续回答一个已经过期的“什么时候上线”，而是保留浔作为功能角色时的培养和配队价值。",
     "answerEn": "This Xun FAQ was originally written from an 'expected in v1.1' perspective, which is now outdated. Today, Xun is better understood in terms of **actual roster value**, not release anticipation. For most players, the important question is no longer when she comes out, but whether she fills a useful support, buffing, or utility role in your teams.\n\nIf you are deciding whether to build around Xun, focus on three things:\n1. whether your main DPS needs a steadier support slot\n2. whether your account lacks flexible utility characters\n3. whether you prefer burst-focused lineups or more synergy-driven reaction teams\n\nSo this page now keeps Xun's team-value framing rather than an expired release countdown.",
     "tags": [
@@ -6669,12 +6706,18 @@
     "relatedMaterials": [],
     "questionTw": "異環新角色潯（Xun）什麼時候出？潯是什麼屬性？怎麼獲得？",
     "answerTw": "潯（Xun）這條 FAQ 原來明顯停留在「v1.1 預計上線」的階段，現在應該按**實裝後／已進入版本歷史的角色資訊**來理解。對多數玩家來說，潯的價值不在「什麼時候出」，而在於她是否能承擔你隊伍裡的輔助、增益或功能位。\n\n如果你是在考慮要不要圍繞潯組隊，可以優先看這三點：\n1. 你的主 C 是否需要一個更穩定的輔助位來提升循環或容錯\n2. 你的帳號是否缺兼顧功能性和隊伍適配度的角色\n3. 你想走的是單核爆發隊，還是更強調體系聯動的反應隊\n\n也就是說，這頁不再繼續回答一個已經過期的「什麼時候上線」，而是保留潯作為功能角色時的培養和配隊價值。",
-    "categoryTw": "角色"
+    "categoryTw": "角色",
+    "seoTitleTw": "異環潯（Xun）值得培養嗎？角色定位與配隊價值",
+    "seoDescriptionTw": "異環潯（Xun）這名角色現在該怎麼看？這篇整理她的輔助/功能定位、適配隊伍與值不值得圍繞她組隊的判斷思路。"
   },
   {
     "id": "cn-compensation-selector",
     "question": "异环国服额外补偿S级自选是怎么回事？国际服有吗？",
     "questionEn": "NTE CN server extra S-Rank selector compensation — does global get it?",
+    "seoTitleZh": "异环国服额外S级自选补偿是什么？国际服有没有",
+    "seoTitleEn": "NTE CN Extra S-Rank Selector Compensation — Does Global Get It?",
+    "seoDescriptionZh": "异环国服额外补偿 S 级自选是怎么回事？这篇整理国服补偿背景、国际服现状与玩家该关注哪些正式公告。",
+    "seoDescriptionEn": "Why CN received an extra S-Rank selector in NTE, whether global has an equivalent, and what official compensation signals players should watch.",
     "answer": "异环国服（CN）因公测初期的bug和问题，向玩家额外补偿了一个**S级角色自选箱**。这是继正常公测福利之外的额外补偿。关于国际服：1) 目前国际服尚未宣布相同的额外补偿；2) 社区经理\"Mr CEO Adler\"曾表示公测奖励会分天发放；3) 国际服玩家在Reddit等社区讨论较多，希望获得同等补偿；4) 建议关注官方社交媒体获取最新补偿公告。国际服已有的公测福利包括：120+抽、S级自选箱、1600 Anulith等。",
     "answerEn": "The CN server issued an additional **S-Rank character selector** as compensation for launch bugs and issues, on top of normal launch rewards. Regarding the global server: 1) No additional compensation has been announced for global yet; 2) Community manager 'Mr CEO Adler' stated launch rewards would be distributed day by day; 3) Global players are actively discussing this on Reddit, hoping for equal treatment; 4) Follow official social media for compensation announcements. Global launch rewards already include: 120+ pulls, S-Rank selector, 1,600 Anulith, etc.",
     "tags": [
@@ -6690,12 +6733,18 @@
     "relatedMaterials": [],
     "questionTw": "異環國服額外補償S級自選是怎麼回事？國際服有嗎？",
     "answerTw": "異環國服（CN）因公測初期的bug和問題，向玩家額外補償了一個**S級角色自選箱**。這是繼正常公測福利之外的額外補償。關於國際服：1) 目前國際服尚未宣佈相同的額外補償；2) 社群經理\"Mr CEO Adler\"曾表示公測獎勵會分天發放；3) 國際服玩家在Reddit等社群討論較多，希望獲得同等補償；4) 建議關注官方社交媒體獲取最新補償公告。國際服已有的公測福利包括：120+抽、S級自選箱、1600 Anulith等。",
-    "categoryTw": "綜合資訊"
+    "categoryTw": "綜合資訊",
+    "seoTitleTw": "異環國服額外S級自選補償是什麼？國際服有沒有",
+    "seoDescriptionTw": "異環國服額外補償 S 級自選是怎麼回事？這篇整理國服補償背景、國際服現狀與玩家該關注哪些正式公告。"
   },
   {
     "id": "nte-fons-farming-guide-faq",
     "question": "异环方斯（Fons）怎么快速获取？方斯速刷攻略",
     "questionEn": "How to farm Fons fast in NTE? Best Fons farming methods",
+    "seoTitleZh": "异环方斯怎么快速获取？速刷思路与来源优先级",
+    "seoTitleEn": "How to Farm Fons Fast in NTE — Best Sources & Priority Order",
+    "seoDescriptionZh": "异环方斯（Fons）怎么刷更有效？这篇整理每日、每周、一次性来源和速刷优先级，帮助你更快攒抽卡资源。",
+    "seoDescriptionEn": "Best ways to farm Fons in NTE: daily, weekly, one-time sources, and which methods deserve priority for faster pull currency gains.",
     "answer": "方斯速刷这页现在更适合回答**你到底是缺一次性的补款，还是缺长期稳定现金流**，而不是继续把“都市大亨一定最优先”写成不分阶段的统一答案。对当前玩家来说，更实际的差别通常是：有的人缺的是短期购置资金，有的人缺的是长期经营循环，这两种情况下最该做的事并不完全一样。\n\n更稳妥的理解方式是：\n1. 如果你眼下就要买车、家具或推进某个系统，先看哪些内容能提供一次性较大的方斯回报\n2. 如果你是在做长期资源规划，都市大亨、日常和周常这类稳定来源的重要性会更高\n3. 刷方斯不该只看单一效率，还要看你是否顺便拿到了别的急需资源，避免为了货币单刷而牺牲整体进度\n\n所以这页现在保留的是**方斯来源的类型差异与使用场景判断**，而不是继续把某一个渠道写成所有玩家、所有阶段都绝对最优的唯一答案。",
     "answerEn": "This Fons-farming page is more useful when it explains **whether you need a short-term cash injection or a long-term income loop** instead of repeating 'City Tycoon is always the top priority' across every account stage. For current players, the practical difference is that some people need immediate funds for purchases or unlocks, while others need a steady economy plan; those are not solved in exactly the same way.\n\nA safer way to think about Fons farming is:\n1. If you need money right now for vehicles, furniture, or a system unlock, prioritize sources that provide larger one-time payouts\n2. If you are planning for long-term resource stability, City Tycoon plus daily and weekly sources become more important\n3. Do not evaluate Fons routes by currency efficiency alone; check whether they also give you other resources you urgently need so you do not slow total account progress for one currency tunnel\n\nSo this page now focuses on the different types of Fons sources and when each is most useful instead of preserving one channel as the universal best answer for every player.",
     "tags": [
@@ -6711,12 +6760,18 @@
     "relatedMaterials": [],
     "questionTw": "異環方斯（Fons）怎麼快速獲取？方斯速刷攻略",
     "answerTw": "方斯速刷這頁現在更適合回答**你到底是缺一次性的補款，還是缺長期穩定現金流**，而不是繼續把「都市大亨一定最優先」寫成不分階段的統一答案。對目前玩家來說，更實際的差別通常是：有的人缺的是短期購置資金，有的人缺的是長期經營循環，這兩種情況下最該做的事並不完全一樣。\n\n更穩妥的理解方式是：\n1. 如果你眼下就要買車、傢俱或推進某個系統，先看哪些內容能提供一次性較大的方斯回報\n2. 如果你是在做長期資源規劃，都市大亨、日常和週常這類穩定來源的重要性會更高\n3. 刷方斯不該只看單一效率，還要看你是否順便拿到了別的急需資源，避免為了貨幣單刷而犧牲整體進度\n\n所以這頁現在保留的是**方斯來源的型別差異與使用場景判斷**，而不是繼續把某一個渠道寫成所有玩家、所有階段都絕對最優的唯一答案。",
-    "categoryTw": "經濟系統"
+    "categoryTw": "經濟系統",
+    "seoTitleTw": "異環方斯怎麼快速獲取？速刷思路與來源優先級",
+    "seoDescriptionTw": "異環方斯（Fons）怎麼刷更有效？這篇整理每日、每週、一次性來源和速刷優先級，幫助你更快存抽卡資源。"
   },
   {
     "id": "nte-cloud-gaming",
     "question": "异环可以云游戏吗？怎么用云游玩异环？",
     "questionEn": "Can you play NTE via cloud gaming? How to use cloud gaming for NTE",
+    "seoTitleZh": "异环可以云游戏吗？云游可用性与适用场景",
+    "seoTitleEn": "Can You Play NTE via Cloud Gaming? Availability & Use Cases",
+    "seoDescriptionZh": "异环能不能云游戏？这篇整理云游戏平台入口是否真实可用、网络条件要求，以及哪些设备更适合走云游方案。",
+    "seoDescriptionEn": "Can you play NTE through cloud gaming? Platform availability checks, network requirements, and when cloud play makes sense over local install.",
     "answer": "这条“可以云游戏吗”FAQ 现在更适合回答**你该把云游戏当成当前可验证的替代入口，还是当成仍需确认的平台选项**，而不是继续把一串“可能支持”的平台名单写成半预测页。对当前玩家来说，更实际的重点通常是：现在有没有真实可用入口、网络条件能不能支撑、以及云游戏是不是比本地安装更适合你的设备情况。\n\n更稳妥的理解方式是：\n1. 先确认你当前能接触到的云游戏平台里，是否真的已经提供异环入口，而不是根据厂商惯例去推测\n2. 云游戏更适合设备性能不足、存储空间紧张，或只想临时体验的玩家，但它会更依赖网络稳定性和时延表现\n3. 如果你追求长期稳定体验，仍要比较云端画质、排队、付费规则和本地客户端之间的取舍\n\n所以这页现在保留的是**云游戏可用性与适用场景的判断逻辑**，而不是继续扩写一份会很快过期的支持平台猜测清单。",
     "answerEn": "NTE can be played via some cloud gaming platforms: 1) Perfect World may offer an official cloud gaming version; 2) Third-party platforms like NetEase Cloud Gaming or Tencent START may support NTE; 3) Cloud gaming requires no full download and has low device requirements; 4) Stable internet is required — WiFi or 5G recommended. If your device doesn't meet specs or lacks storage, cloud gaming is a good alternative.",
     "tags": [
@@ -6731,12 +6786,18 @@
     "relatedMaterials": [],
     "questionTw": "異環可以雲遊戲嗎？怎麼用雲遊玩異環？",
     "answerTw": "這條「可以雲遊戲嗎」FAQ 現在更適合回答**你該把雲遊戲當成目前可驗證的替代入口，還是當成仍需確認的平臺選項**，而不是繼續把一串「可能支援」的平臺名單寫成半預測頁。對目前玩家來說，更實際的重點通常是：現在有沒有真實可用入口、網路條件能不能支撐，以及雲遊戲是不是比本地安裝更適合你的裝置情況。\n\n更穩妥的理解方式是：\n1. 先確認你目前能接觸到的雲遊戲平臺裡，是否真的已經提供異環入口，而不是根據廠商慣例去推測\n2. 雲遊戲更適合裝置效能不足、儲存空間緊張，或只想臨時體驗的玩家，但它會更依賴網路穩定性和時延表現\n3. 如果你追求長期穩定體驗，仍要比較雲端畫質、排隊、付費規則和本地客戶端之間的取捨\n\n所以這頁現在保留的是**雲遊戲可用性與適用場景的判斷邏輯**，而不是繼續擴寫一份會很快過期的支援平臺猜測清單。",
-    "categoryTw": "平臺"
+    "categoryTw": "平臺",
+    "seoTitleTw": "異環可以雲遊戲嗎？雲遊可用性與適用場景",
+    "seoDescriptionTw": "異環能不能雲遊戲？這篇整理雲遊戲平台入口是否真實可用、網路條件要求，以及哪些裝置更適合走雲遊方案。"
   },
   {
     "id": "nte-vs-other-games",
     "question": "异环和无限大/望月/绝区零哪个好玩？有什么区别？",
     "questionEn": "NTE vs competitors: How does it compare to Infinity Nikki, ZZZ, and others?",
+    "seoTitleZh": "异环和其他游戏哪个好玩？体验差异与选择逻辑",
+    "seoTitleEn": "NTE vs Other Games — Experience Differences & How to Choose",
+    "seoDescriptionZh": "异环和无限大、望月、绝区零这类作品怎么比？这篇整理都市开放世界、战斗手感、生活玩法与产品定位差异。",
+    "seoDescriptionEn": "How NTE compares with other games like ZZZ and similar titles: urban open-world feel, combat rhythm, lifestyle systems, and product positioning.",
     "answer": "这条“异环和其他游戏哪个好玩”FAQ 现在更适合回答**它和其他竞品的体验重心差在哪，而不是直接给出一个所有人都通用的胜负结论**。对当前用户来说，更有参考价值的通常不是哪款游戏被一句话判成“更好”，而是你更在意开放世界移动、战斗手感、都市生活感，还是更纯粹的动作关卡节奏。\n\n更稳妥的理解方式是：\n1. 和绝区零这类作品相比，异环更强调都市开放空间、载具与生活化场景，而不是同一种箱庭动作结构\n2. 和仍在不同阶段的同类新作相比，真正该比较的是你现在能玩到的内容、题材偏好与长期投入意愿\n3. 像无 50/50、房屋系统、都市经营这类差异点，更适合被理解成产品定位区别，而不是一句“谁更良心、谁一定更好玩”\n\n所以这页现在保留的是**异环与同类游戏的体验差异和选择逻辑**，而不是继续把主观推荐写成绝对结论。",
     "answerEn": "This comparison FAQ is more useful when it explains **where NTE's experience focus differs from nearby competitors** instead of forcing one winner for every player. For current users, the more valuable question is not which game is declared universally better, but whether you care more about open-world movement, combat feel, urban-life atmosphere, or a tighter action-instance structure.\n\nA safer way to read the comparison is:\n1. Against games like ZZZ, NTE leans more into urban open-space traversal, vehicles, and lifestyle framing rather than the same enclosed action format\n2. Against other adjacent titles in different release stages, the more important comparison is what you can actually play now, what setting you prefer, and how much long-term investment you want\n3. Differences such as no 50/50, housing, or city-management loops are better understood as product-positioning distinctions rather than proof that one game is automatically more generous or more fun\n\nSo this page now focuses on experience differences and selection logic instead of preserving a one-line absolute recommendation.",
     "tags": [
@@ -6752,12 +6813,18 @@
     "relatedMaterials": [],
     "questionTw": "異環和無限大/望月/絕區零哪個好玩？有什麼區別？",
     "answerTw": "這條「異環和其他遊戲哪個好玩」FAQ 現在更適合回答**它和其他競品的體驗重心差在哪，而不是直接給出一個所有人都通用的勝負結論**。對目前使用者來說，更有參考價值的通常不是哪款遊戲被一句話判成「更好」，而是你更在意開放世界移動、戰鬥手感、都市生活感，還是更純粹的動作關卡節奏。\n\n更穩妥的理解方式是：\n1. 和絕區零這類作品相比，異環更強調都市開放空間、載具與生活化場景，而不是同一種箱庭動作結構\n2. 和仍在不同階段的同類新作相比，真正該比較的是你現在能玩到的內容、題材偏好與長期投入意願\n3. 像無 50/50、房屋系統、都市經營這類差異點，更適合被理解成產品定位區別，而不是一句「誰更良心、誰一定更好玩」\n\n所以這頁現在保留的是**異環與同類遊戲的體驗差異和選擇邏輯**，而不是繼續把主觀推薦寫成絕對結論。",
-    "categoryTw": "綜合資訊"
+    "categoryTw": "綜合資訊",
+    "seoTitleTw": "異環和其他遊戲哪個好玩？體驗差異與選擇邏輯",
+    "seoDescriptionTw": "異環和無限大、望月、絕區零這類作品怎麼比？這篇整理都市開放世界、戰鬥手感、生活玩法與產品定位差異。"
   },
   {
     "id": "mygo-collab-faq",
     "question": "异环联动MyGO是什么？有哪些内容？",
     "questionEn": "What is the NTE x MyGO collaboration? What content does it include?",
+    "seoTitleZh": "异环联动MyGO是真的吗？传闻状态与确认边界",
+    "seoTitleEn": "NTE x MyGO Collab — Rumor Status, Confirmation & What to Watch",
+    "seoDescriptionZh": "异环联动 MyGO 是否已官宣？这篇整理目前只能确认到哪一步，以及为什么搜索热度不等于正式联动。",
+    "seoDescriptionEn": "Is the NTE x MyGO collaboration real? Current rumor status, confirmation boundaries, and why search interest is not official proof.",
     "answer": "目前**没有可靠的官方信息**表明异环已经确认与 MyGO!!!!! 展开联动。这类搜索词更多说明玩家在主动检索潜在合作对象，并不等于联动已经存在。\n\n如果你搜这条是想判断真假，现阶段更稳妥的结论是：\n1. 还不能把它当成已官宣内容\n2. 也不应该根据搜索联想词去推演联动奖励、皮肤或活动形式\n3. 真正值得关注的只有官方账号、游戏内公告和正式前瞻节目\n\n所以这条 FAQ 现在的作用是**澄清传闻状态**，而不是继续扩写未经证实的联动细节。",
     "answerEn": "At the moment, there is **no reliable official confirmation** that NTE has an announced collaboration with MyGO!!!!!. Search interest only shows that players are looking into the possibility; it does not mean the collab exists.\n\nIf you are checking whether this is real, the safer conclusion is:\n1. it should not be treated as an officially announced event\n2. search suggestions alone are not enough to infer rewards, skins, or event format\n3. only official social channels, in-game notices, and formal preview programs should be treated as confirmation\n\nThis FAQ now serves mainly to **clarify the rumor status** rather than expand speculative collab details.",
     "tags": [
@@ -6773,12 +6840,18 @@
     "relatedMaterials": [],
     "questionTw": "異環聯動MyGO是什麼？有哪些內容？",
     "answerTw": "目前**沒有可靠的官方資訊**表明異環已經確認與 MyGO!!!!! 展開聯動。這類搜尋詞更多說明玩家在主動檢索潛在合作對象，並不等於聯動已經存在。\n\n如果你搜這條是想判斷真假，現階段更穩妥的結論是：\n1. 還不能把它當成已官宣內容\n2. 也不應該根據搜尋聯想詞去推演聯動獎勵、皮膚或活動形式\n3. 真正值得關注的只有官方帳號、遊戲內公告和正式前瞻節目\n\n所以這條 FAQ 現在的作用是**澄清傳聞狀態**，而不是繼續擴寫未經證實的聯動細節。",
-    "categoryTw": "聯動"
+    "categoryTw": "聯動",
+    "seoTitleTw": "異環聯動MyGO是真的嗎？傳聞狀態與確認邊界",
+    "seoDescriptionTw": "異環聯動 MyGO 是否已官宣？這篇整理目前只能確認到哪一步，以及為什麼搜尋熱度不等於正式聯動。"
   },
   {
     "id": "lawson-collab-faq",
     "question": "异环联动罗森（Lawson）是什么？怎么参加？",
     "questionEn": "What is the NTE x Lawson collaboration? How to participate?",
+    "seoTitleZh": "异环联动罗森是真的吗？参与方式与状态说明",
+    "seoTitleEn": "NTE x Lawson Collab — Is It Real? Participation Status Explained",
+    "seoDescriptionZh": "异环罗森联动目前能确认到什么程度？这篇整理参与方式是否存在、门店活动边界，以及为什么不能把传闻当成已上线活动。",
+    "seoDescriptionEn": "Is the NTE x Lawson collaboration confirmed? Participation status, offline-event boundaries, and why rumor should not be treated as a live campaign.",
     "answer": "截至目前，没有可确认的官方信息显示异环已经官宣与罗森（Lawson）开展联动。这类问题常见于搜索联想或社区猜测，但**搜索热度不等于活动已落地**。\n\n如果你是想知道“怎么参加”，当前更准确的答案其实是：\n- 还没有可执行的官方参与方式\n- 也不应把兑换码、线下门店活动或联动商品当成既定事实\n- 只有当官方公告明确给出时间、门店范围、兑换规则后，这类页面才会变成真正的参与指南\n\n所以现在这条 FAQ 更像是一个**辟谣与状态说明页**：它告诉你目前没有足够证据把 Lawson 联动当作已发生活动。",
     "answerEn": "As of now, there is no confirmed official information showing that NTE has announced a collaboration with Lawson. Questions like this often come from search suggestions or community speculation, but **search interest is not the same as a real event**.\n\nIf what you want to know is 'How do I participate?', the more accurate answer right now is:\n- there is no official participation flow yet\n- in-store codes, merchandise campaigns, or offline collab rewards should not be treated as confirmed facts\n- only once official notices specify dates, stores, and redemption rules would this become a real participation guide\n\nSo for now, this FAQ is better understood as a **rumor-status clarification page** rather than a live event guide.",
     "tags": [
@@ -6793,13 +6866,19 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環聯動羅森（Lawson）是什麼？怎麼參加？",
-    "answerTw": "\"異環聯動羅森\"出現在百度搜索聯想詞中。羅森（Lawson）是日本連鎖便利店，在中國也有大量門店。該聯動目前尚未被官方正式公佈。如果確認聯動，參考其他遊戲的便利店聯動模式，可能包含：1) 線下門店購買聯動商品獲取遊戲內兌換碼；2) 聯動限定傢俱或裝飾物品；3) 聯動專屬活動任務和獎勵；4) 聯動主題包裝的商品。建議關注官方公告和羅森門店活動資訊。",
-    "categoryTw": "聯動"
+    "answerTw": "截至目前，沒有可確認的官方資訊顯示異環已經官宣與羅森（Lawson）展開聯動。這類問題常見於搜尋聯想或社群猜測，但**搜尋熱度不等於活動已落地**。\n\n如果你是想知道「怎麼參加」，目前更準確的答案其實是：\n- 還沒有可執行的官方參與方式\n- 也不應把兌換碼、線下門店活動或聯動商品當成既定事實\n- 只有當官方公告明確給出時間、門店範圍、兌換規則後，這類頁面才會變成真正的參與指南\n\n所以現在這條 FAQ 更像是一個**闢謠與狀態說明頁**：它告訴你目前沒有足夠證據把 Lawson 聯動當作已發生活動。",
+    "categoryTw": "聯動",
+    "seoTitleTw": "異環聯動羅森是真的嗎？參與方式與狀態說明",
+    "seoDescriptionTw": "異環羅森聯動目前能確認到什麼程度？這篇整理參與方式是否存在、門店活動邊界，以及為什麼不能把傳聞當成已上線活動。"
   },
   {
     "id": "nte-marketing-highlights",
     "question": "异环有哪些线下广告和营销活动？伦敦皮卡迪利广场广告",
     "questionEn": "What offline marketing has NTE done? London Piccadilly Circus ad and more",
+    "seoTitleZh": "异环有哪些线下广告？皮卡迪利广场与营销亮点",
+    "seoTitleEn": "NTE Marketing Highlights — Piccadilly Circus Ad & Offline Campaigns",
+    "seoDescriptionZh": "异环做过哪些线下广告和营销活动？这篇整理伦敦皮卡迪利广场广告与社区关注度较高的线下传播亮点。",
+    "seoDescriptionEn": "What offline marketing has NTE done? Piccadilly Circus ad, community-visible campaigns, and what they signal about promotion scale.",
     "answer": "异环在公测期间进行了一系列线下营销活动，最受关注的是：1) **伦敦皮卡迪利广场广告**：有玩家在伦敦著名的Piccadilly Circus看到薄荷（Mint）和娜娜莉（Nanally）的巨幅广告牌，照片在Reddit获得452赞，引发社区热议；2) 这些线下广告说明完美世界对异环的全球推广投入相当大；3) 除伦敦外，可能在其他国际城市也有线下广告投放。这类线下营销活动不仅提升了游戏知名度，也成为了社区讨论的热门话题。",
     "answerEn": "NTE conducted several offline marketing campaigns during launch: 1) **London Piccadilly Circus Ad**: A player spotted Mint and Nanally on a massive billboard at London's famous Piccadilly Circus. The photo got 452 upvotes on Reddit and sparked community discussion; 2) These offline ads indicate Perfect World's significant investment in global NTE promotion; 3) Ads may also appear in other international cities. These campaigns not only boost game awareness but also become popular community discussion topics.",
     "tags": [
@@ -6819,12 +6898,18 @@
     "relatedMaterials": [],
     "questionTw": "異環有哪些線下廣告和營銷活動？倫敦皮卡迪利廣場廣告",
     "answerTw": "異環在公測期間進行了一系列線下營銷活動，最受關注的是：1) **倫敦皮卡迪利廣場廣告**：有玩家在倫敦著名的Piccadilly Circus看到薄荷（Mint）和娜娜莉（Nanally）的巨幅廣告牌，照片在Reddit獲得452贊，引發社群熱議；2) 這些線下廣告說明完美世界對異環的全球推廣投入相當大；3) 除倫敦外，可能在其他國際城市也有線下廣告投放。這類線下營銷活動不僅提升了遊戲知名度，也成為了社群討論的熱門話題。",
-    "categoryTw": "綜合資訊"
+    "categoryTw": "綜合資訊",
+    "seoTitleTw": "異環有哪些線下廣告？皮卡迪利廣場與營銷亮點",
+    "seoDescriptionTw": "異環做過哪些線下廣告和營銷活動？這篇整理倫敦皮卡迪利廣場廣告與社群關注度較高的線下傳播亮點。"
   },
   {
     "id": "xun-banned-reason",
     "question": "异环新角色浔为什么被禁播？被禁播原因是什么？",
     "questionEn": "Why was NTE character Xun banned from streaming? What's the reason?",
+    "seoTitleZh": "异环浔为什么被传禁播？传闻、误读与影响判断",
+    "seoTitleEn": "Why Was Xun Said to Be Banned? Rumor Status & Impact Check",
+    "seoDescriptionZh": "异环浔被禁播是真的吗？这篇整理传闻状态、平台限制与社区误读之间的区别，以及为什么不能直接下结论。",
+    "seoDescriptionEn": "Was Xun really banned from streaming in NTE? Rumor status, platform moderation possibilities, and why the claim should be treated cautiously.",
     "answer": "目前没有足够公开证据证明“浔被禁播”这件事已经被官方明确确认，也没有可靠来源能支持具体原因。把搜索联想词直接写成“因为敏感内容或版权问题”会让页面变成未经证实的猜测，这是我们现在要避免的。\n\n如果你只是想知道这件事会不会影响玩家：\n1. 在没有正式公告前，不应把“被禁播”当成既定事实\n2. 即便某些平台出现内容限制，也应先区分是平台审核、直播规则还是社区误传\n3. 没有证据表明这类传闻会直接改变角色在游戏内的正常使用\n\n这条 FAQ 现在保留的核心结论只有一个：**现阶段更像传闻或搜索误读，不能据此下定论。**",
     "answerEn": "There is currently not enough public evidence to say that 'Xun was banned from streaming' has been officially confirmed, and there is no reliable source supporting a specific cause. Turning a search suggestion into a firm explanation such as 'sensitive content' or 'copyright issues' would make this page speculative in a way we should avoid.\n\nIf you mainly want to know whether this affects players:\n1. without a formal announcement, it should not be treated as established fact\n2. even if some platforms restrict related content, that could reflect platform moderation, streaming rules, or community misinterpretation rather than a universal ban\n3. there is no clear evidence that such rumors directly change normal in-game access to the character\n\nSo the key conclusion preserved by this FAQ is simple: **at this stage, it looks more like rumor or search misreading than a confirmed event.**",
     "tags": [
@@ -6841,13 +6926,19 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環新角色潯為什麼被禁播？被禁播原因是什麼？",
-    "answerTw": "\"異環新角色被禁播原因\"是百度搜索的高頻聯想詞。潯（Xun）的角色設計可能涉及某些敏感內容或版權問題，導致在部分中國直播平臺和影片平臺被限制展示。具體情況和原因官方尚未公開說明。需要強調的是：1) 這不影響遊戲內正常使用潯角色；2) 禁播可能只針對部分平臺的直播/影片內容；3) 遊戲內體驗完全不受影響。具體原因可能涉及角色外觀設計、技能特效等方面的稽核問題，等待官方進一步說明。",
-    "categoryTw": "角色"
+    "answerTw": "目前沒有足夠公開證據證明「潯被禁播」這件事已經被官方明確確認，也沒有可靠來源能支撐具體原因。把搜尋聯想詞直接寫成「因為敏感內容或版權問題」會讓頁面變成未經證實的猜測，這是我們現在要避免的。\n\n如果你只是想知道這件事會不會影響玩家：\n1. 在沒有正式公告前，不應把「被禁播」當成既定事實\n2. 即便某些平台出現內容限制，也應先區分是平台審核、直播規則還是社群誤傳\n3. 沒有證據表明這類傳聞會直接改變角色在遊戲內的正常使用\n\n這條 FAQ 現在保留的核心結論只有一個：**現階段更像傳聞或搜尋誤讀，不能據此下定論。**",
+    "categoryTw": "角色",
+    "seoTitleTw": "異環潯為什麼被傳禁播？傳聞、誤讀與影響判斷",
+    "seoDescriptionTw": "異環潯被禁播是真的嗎？這篇整理傳聞狀態、平台限制與社群誤讀之間的差別，以及為什麼不能直接下結論。"
   },
   {
     "id": "v11-release-date",
     "question": "异环1.1版本什么时候上线？前瞻直播什么时候？",
     "questionEn": "When does NTE Version 1.1 release? When is the livestream?",
+    "seoTitleZh": "异环1.1版本什么时候上线？历史版本节奏回顾",
+    "seoTitleEn": "NTE Version 1.1 Release Date — Historical Update Timing Review",
+    "seoDescriptionZh": "异环 1.1 版本现在该怎么看？这篇整理它作为早期历史版本的更新时间意义，而不是继续使用过期的倒计时口径。",
+    "seoDescriptionEn": "How to read NTE Version 1.1 now: historical update timing, old livestream context, and why it should no longer be treated as an upcoming patch.",
     "answer": "这条 1.1 版本 FAQ 现在应该按**版本历史节点**来看，而不是继续保留“预计 6 月上旬上线”的旧预测。对当前用户来说，更重要的是把它理解成一个回顾页：1.1 已经属于早期版本阶段，原先那种“什么时候开前瞻、什么时候上线”的倒计时口径已经失效。\n\n如果你现在搜这条，通常真正想知道的是两件事：\n1. 1.1 当时处在什么更新节奏里，方便对照后续版本安排\n2. 早期关于角色、联动和减负的讨论，哪些已经落地，哪些只是当时的社区预期\n\n所以这页现在保留的价值，是帮助用户区分**历史版本信息**和**当前版本实时信息**，而不是继续把 1.1 当成尚未到来的更新来写。",
     "answerEn": "NTE v1.1 release date has not been officially announced. Predictions based on: 1) v1.0 launched April 29, 2026; 2) Similar gacha games update every 6-8 weeks; 3) v1.1 expected in **early June 2026**; 4) Preview livestream typically 1-2 weeks before launch, expected in **late May**. New character Xun will likely debut in v1.1, and Porsche collab vehicles may launch around the same time. Follow official social media for the livestream announcement.",
     "tags": [
@@ -6865,7 +6956,9 @@
     "relatedMaterials": [],
     "questionTw": "異環1.1版本什麼時候上線？前瞻直播什麼時候？",
     "answerTw": "這條 1.1 版本 FAQ 現在應該按**版本歷史節點**來看，而不是繼續保留「預計 6 月上旬上線」的舊預測。對當前使用者來說，更重要的是把它理解成一個回顧頁：1.1 已經屬於早期版本階段，原先那種「什麼時候開前瞻、什麼時候上線」的倒數口徑已經失效。\n\n如果你現在搜這條，通常真正想知道的是兩件事：\n1. 1.1 當時處在什麼更新節奏裡，方便對照後續版本安排\n2. 早期關於角色、聯動和減負的討論，哪些已經落地，哪些只是當時的社群預期\n\n所以這頁現在保留的價值，是幫助使用者區分**歷史版本資訊**和**當前版本即時資訊**，而不是繼續把 1.1 當成尚未到來的更新來寫。",
-    "categoryTw": "版本更新"
+    "categoryTw": "版本更新",
+    "seoTitleTw": "異環1.1版本什麼時候上線？歷史版本節奏回顧",
+    "seoDescriptionTw": "異環 1.1 版本現在該怎麼看？這篇整理它作為早期歷史版本的更新節奏意義，而不是繼續使用過期的倒數口徑。"
   },
   {
     "id": "nte-vs-once-human",
@@ -6890,7 +6983,8 @@
     "questionTw": "異環和七日世界(Once Human)是同一個遊戲嗎？有什麼區別？",
     "answerTw": "異環（Neverness to Everness，簡稱NTE）和七日世界（Once Human）是兩款完全不同的遊戲，經常被搜尋混淆：\n\n【核心區別】\n- **異環/NTE**：完美世界 Hotta Studio 開發，UE5引擎，超自然都市開放世界動作RPG，2026年4月29日全球公測，免費+抽卡模式\n- **七日世界/Once Human**：網易 Starry Studio 開發，NeoX引擎，多人線上生存建造射擊遊戲，2024年7月全球上線，免費+內購模式\n\n【玩法差異】\n異環的核心玩法是：都市探索、角色養成、抽卡獲取角色、劇情驅動的RPG體驗、4人聯機合作。\n七日世界的核心玩法是：基地建設、資源採集、生存對抗、射擊戰鬥、PvEvP模式。\n\n【共同點】\n兩款遊戲都有超自然/異常題材元素，都支援多人線上，但玩法型別、開發商、商業模式完全不同。",
     "categoryTw": "遊戲對比",
-    "seoTitleTw": "異環 vs 七日世界(Once Human)：兩款遊戲完全不同，別再搞混了！"
+    "seoTitleTw": "異環 vs 七日世界(Once Human)：兩款遊戲完全不同，別再搞混了！",
+    "seoDescriptionTw": "異環（Neverness to Everness）是完美世界開發的都市開放世界 ARPG，七日世界（Once Human）是網易開發的生存射擊遊戲。兩款遊戲完全不同。"
   },
   {
     "id": "nte-beginner-mistakes",
@@ -6916,7 +7010,8 @@
     "questionTw": "異環新手容易犯哪些錯誤？公測開荒避坑指南",
     "answerTw": "這條新手避坑 FAQ 現在不該繼續把重點壓在「開服 470 抽」這類早期福利數字上，而是更應該回答**現在入坑最容易把資源浪費在哪裡**。對新玩家來說，真正常見的錯誤通常是：角色和體力規劃太急、主線推進太慢、功能解鎖順序搞反，以及把所有資源都砸在短期戰力上。\n\n如果要濃縮成最實用的避坑方向，可以先抓這幾件事：\n1. **先推主線再談細刷**，因為很多高價值系統本來就鎖在進度後面\n2. **先做能立刻上場的過渡養成**，不要過早為了「完美裝備」或「完美角色」卡住\n3. **抽卡與資源要按版本目標規劃**，不要因為看到歷史福利數字就誤判現在帳號也能輕鬆複製\n4. **手機端要先保穩定體驗**，發熱、掉幀和空間不足都會直接拖慢開荒效率\n\n所以這頁現在保留的是**長期適用的新手避坑邏輯**，而不是只服務開服當週玩家的一次性提醒清單。",
     "categoryTw": "新手攻略",
-    "seoTitleTw": "異環新手10大常見錯誤 — 公測開荒避坑清單（2026年5月更新）"
+    "seoTitleTw": "異環新手10大常見錯誤 — 公測開荒避坑清單（2026年5月更新）",
+    "seoDescriptionTw": "異環新手常見錯誤整理：圍繞體力分配、角色選擇、資源規劃、主線推進與功能解鎖等高頻失誤，幫助新號少走彎路而不是只看開服福利數字。"
   },
   {
     "id": "how-to-completely-delete-nte",
