@@ -50,11 +50,15 @@ export async function generateMetadata({
     : locale === "tw"
       ? faq.answerTw || faq.answer
       : faq.answer;
+  const fallbackDescription =
+    buildFaqMetaDescription(localizedQuickAnswer) ||
+    buildFaqMetaDescription(localizedFallbackAnswer) ||
+    "";
   const description = pickLocalizedText(
     locale,
-    faq.seoDescriptionZh || buildFaqMetaDescription(localizedQuickAnswer) || buildFaqMetaDescription(localizedFallbackAnswer),
-    faq.seoDescriptionEn || buildFaqMetaDescription(localizedQuickAnswer) || buildFaqMetaDescription(localizedFallbackAnswer),
-    faq.seoDescriptionTw || buildFaqMetaDescription(localizedQuickAnswer) || buildFaqMetaDescription(localizedFallbackAnswer)
+    faq.seoDescriptionZh || fallbackDescription,
+    faq.seoDescriptionEn || fallbackDescription,
+    faq.seoDescriptionTw || fallbackDescription
   );
 
   return {
