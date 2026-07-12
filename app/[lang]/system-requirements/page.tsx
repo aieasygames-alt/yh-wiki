@@ -21,13 +21,13 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環電腦配置要求（2026）— PC/i5-8400/GTX1060、手機 Android/iOS 詳細規格"
-      : "异环电脑配置要求（2026）— PC/i5-8400/GTX1060、手机 Android/iOS 详细规格")
+      ? "異環電腦配置要求（2026）— PC/i5-8400/GTX 1060、手機 Android/iOS 詳細規格"
+      : "异环电脑配置要求（2026）— PC/i5-8400/GTX 1060、手机 Android/iOS 详细规格")
     : "NTE System Requirements (2026) — PC, Mobile & Download Size";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? `異環(NTE)完整配置要求：PC 最低 i7-10700 + GTX 1660、推薦 i7-12700 + RTX 3060，並整理 Android / iOS 規格、下載大小與 ${faqCount} 個效能常見問題。`
-      : `异环(NTE)完整配置要求：PC 最低 i7-10700 + GTX 1660、推荐 i7-12700 + RTX 3060，并整理 Android / iOS 规格、下载大小与 ${faqCount} 个性能常见问题。`)
+      ? `異環(NTE)完整配置要求：PC 最低 i5-8400 + GTX 1060、推薦 i7-9700 + RTX 2060，並整理 Android / iOS 規格、下載大小與 ${faqCount} 個效能常見問題。`
+      : `异环(NTE)完整配置要求：PC 最低 i5-8400 + GTX 1060、推荐 i7-9700 + RTX 2060，并整理 Android / iOS 规格、下载大小与 ${faqCount} 个性能常见问题。`)
     : `Neverness to Everness system requirements for PC, Android, and iOS, including minimum and recommended specs, download size, and ${faqCount} performance FAQs.`;
 
   return {
@@ -179,11 +179,11 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
         items={[
           {
             label: "PC Minimum:",
-            value: isZhLocale(locale) ? "Windows 10, i7-10700, GTX 1660 / RX 5600, 60GB SSD" : "Windows 10, Intel i7-10700, GTX 1660 / RX 5600, 60GB SSD",
+            value: isZhLocale(locale) ? "Windows 10, i5-8400, GTX 1060 6GB / RX 580, 90GB SSD" : "Windows 10, Intel i5-8400, GTX 1060 6GB / RX 580, 90GB SSD",
           },
           {
             label: "PC Recommended:",
-            value: isZhLocale(locale) ? "i7-12700, RTX 3060 / RX 6700, 60GB SSD" : "Intel i7-12700, RTX 3060 / RX 6700, 60GB SSD",
+            value: isZhLocale(locale) ? "i7-9700, RTX 2060 / RX 5700 XT, 90GB SSD" : "Intel i7-9700, RTX 2060 / RX 5700 XT, 90GB SSD",
           },
           {
             label: "Android:",

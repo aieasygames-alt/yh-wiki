@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useMemo, useCallback, useRef } from "react";
-import Fuse from "fuse.js";
+import { useState, useMemo, useCallback, useRef, useEffect } from "react";
+import type Fuse from "fuse.js";
 import type { MapMarker } from "../lib/map-utils";
 import { t, isZhLocale, Locale } from "../lib/i18n";
 
@@ -18,31 +18,42 @@ export default function MapSearch({
 }: MapSearchProps) {
   const [query, setQuery] = useState("");
   const [showResults, setShowResults] = useState(false);
+  const [fuse, setFuse] = useState<Fuse<MapMarker> | null>(null);
 
-  // Cache Fuse instance — only rebuild when markers reference changes
-  const fuseRef = useRef<Fuse<MapMarker> | null>(null);
   const markersRef = useRef<MapMarker[]>([]);
+  const shouldLoadSearch = showResults || query.trim().length > 0;
 
-  if (markers !== markersRef.current) {
-    markersRef.current = markers;
-    fuseRef.current = new Fuse(markers, {
-      keys: [
-        { name: "name", weight: 2 },
-        { name: "nameEn", weight: 2 },
-        { name: "noteTitle", weight: 1.5 },
-        { name: "noteTitleEn", weight: 1.5 },
-        { name: "description", weight: 1 },
-        { name: "descriptionEn", weight: 1 },
-      ],
-      threshold: 0.4,
-      includeScore: true,
+  useEffect(() => {
+    let cancelled = false;
+    if (!shouldLoadSearch) return;
+    if (markers === markersRef.current && fuse) return;
+
+    import("fuse.js").then(({ default: FuseConstructor }) => {
+      if (cancelled) return;
+      markersRef.current = markers;
+      setFuse(
+        new FuseConstructor(markers, {
+          keys: [
+            { name: "name", weight: 2 },
+            { name: "nameEn", weight: 2 },
+            { name: "noteTitle", weight: 1.5 },
+            { name: "noteTitleEn", weight: 1.5 },
+            { name: "description", weight: 1 },
+            { name: "descriptionEn", weight: 1 },
+          ],
+          threshold: 0.4,
+          includeScore: true,
+        })
+      );
     });
-  }
 
-  const fuse = fuseRef.current!;
+    return () => {
+      cancelled = true;
+    };
+  }, [markers, shouldLoadSearch, fuse]);
 
   const results = useMemo(() => {
-    if (!query.trim()) return [];
+    if (!query.trim() || !fuse) return [];
     return fuse.search(query.trim()).slice(0, 10);
   }, [fuse, query]);
 

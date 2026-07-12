@@ -4,22 +4,90 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { t, isZhLocale, Locale } from "../../../../lib/i18n";
-import {
-  getAvailableCharacters,
-  getCharacterMaterials,
-  getMaterialById,
-  calculateMaterials,
-} from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 
-export function LevelingCalcClient() {
+type CalculatorCharacter = {
+  id: string;
+  name: string;
+  nameEn: string;
+  rank: string;
+  attribute: string;
+  weapon: string;
+  weaponEn: string;
+  image?: string;
+};
+
+type CalculatorMaterial = {
+  id: string;
+  name: string;
+  nameEn: string;
+  rarity: number;
+};
+
+type MaterialEntry = {
+  id: string;
+  quantity: number;
+};
+
+type LevelRange = {
+  levelRange: string;
+  materials: MaterialEntry[];
+};
+
+type CharacterMaterials = {
+  levelingMaterials: LevelRange[];
+  skillMaterials: MaterialEntry[];
+};
+
+interface LevelingCalcClientProps {
+  characters: CalculatorCharacter[];
+  materialsById: Record<string, CalculatorMaterial>;
+  characterMaterialsById: Record<string, CharacterMaterials>;
+}
+
+function calculateMaterialsForRange(
+  characterMaterials: CharacterMaterials | undefined,
+  materialsById: Record<string, CalculatorMaterial>,
+  currentLevel: number,
+  targetLevel: number
+) {
+  if (!characterMaterials) return [];
+
+  const aggregated: Record<string, number> = {};
+
+  characterMaterials.levelingMaterials.forEach((levelRange) => {
+    const [start, end] = levelRange.levelRange.split("-").map(Number);
+    if (end <= currentLevel || start > targetLevel) return;
+
+    const overlapStart = Math.max(start, currentLevel + 1);
+    const overlapEnd = Math.min(end, targetLevel);
+    if (overlapStart > overlapEnd) return;
+
+    levelRange.materials.forEach((material) => {
+      aggregated[material.id] = (aggregated[material.id] || 0) + material.quantity;
+    });
+  });
+
+  return Object.entries(aggregated)
+    .map(([materialId, quantity]) => ({ materialId, quantity }))
+    .sort((a, b) => {
+      const materialA = materialsById[a.materialId];
+      const materialB = materialsById[b.materialId];
+      return (materialA?.rarity || 0) - (materialB?.rarity || 0);
+    });
+}
+
+export function LevelingCalcClient({
+  characters,
+  materialsById,
+  characterMaterialsById,
+}: LevelingCalcClientProps) {
   const { lang: langParam } = useParams();
   const lang = (langParam || "zh") as Locale;
   const zh = isZhLocale(lang);
 
-  const characters = getAvailableCharacters();
   const [selectedCharacter, setSelectedCharacter] = useState("");
   const [currentLevel, setCurrentLevel] = useState(1);
   const [targetLevel, setTargetLevel] = useState(60);
@@ -28,18 +96,23 @@ export function LevelingCalcClient() {
 
   const result = useMemo(() => {
     if (!selectedCharacter) return null;
-    return calculateMaterials(selectedCharacter, currentLevel, targetLevel);
-  }, [selectedCharacter, currentLevel, targetLevel]);
+    return calculateMaterialsForRange(
+      characterMaterialsById[selectedCharacter],
+      materialsById,
+      currentLevel,
+      targetLevel
+    );
+  }, [selectedCharacter, currentLevel, targetLevel, characterMaterialsById, materialsById]);
 
   const skillMaterials = useMemo(() => {
     if (!selectedCharacter) return null;
-    return getCharacterMaterials(selectedCharacter)?.skillMaterials || null;
-  }, [selectedCharacter]);
+    return characterMaterialsById[selectedCharacter]?.skillMaterials || null;
+  }, [selectedCharacter, characterMaterialsById]);
 
   const selectedChar = useMemo(() => {
     if (!selectedCharacter) return null;
-    return getAvailableCharacters().find((c) => c.id === selectedCharacter) || null;
-  }, [selectedCharacter]);
+    return characters.find((c) => c.id === selectedCharacter) || null;
+  }, [selectedCharacter, characters]);
 
   const filteredCharacters = useMemo(() => {
     return characters.filter((c) => {
@@ -196,7 +269,7 @@ export function LevelingCalcClient() {
                   </thead>
                   <tbody>
                     {result.map((r) => {
-                      const material = getMaterialById(r.materialId);
+                      const material = materialsById[r.materialId];
                       if (!material) return null;
                       return (
                         <tr
@@ -243,7 +316,7 @@ export function LevelingCalcClient() {
                   </thead>
                   <tbody>
                     {skillMaterials.map((m) => {
-                      const material = getMaterialById(m.id);
+                      const material = materialsById[m.id];
                       if (!material) return null;
                       return (
                         <tr

@@ -29,11 +29,38 @@ const InteractiveMap = dynamic(
   }
 );
 
+const MapSearch = dynamic(
+  () => import("../../../components/MapSearch"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-10 rounded-lg border border-gray-800 bg-gray-900/50 animate-pulse" />
+    ),
+  }
+);
+
+const MapRoutePlanner = dynamic(
+  () => import("../../../components/MapRoutePlanner"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-24 rounded-xl border border-gray-800 bg-gray-900/50 animate-pulse" />
+    ),
+  }
+);
+
+const MapMarkerDetail = dynamic(
+  () => import("../../../components/MapMarkerDetail"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-72 rounded-xl border border-gray-800 bg-gray-900/50 animate-pulse" />
+    ),
+  }
+);
+
 import MapSidebar from "../../../components/MapSidebar";
-import MapMarkerDetail from "../../../components/MapMarkerDetail";
-import MapSearch from "../../../components/MapSearch";
 import MapProgressBar from "../../../components/MapProgressBar";
-import MapRoutePlanner from "../../../components/MapRoutePlanner";
 
 /** Find markers within radius of a given marker */
 function findNearby(

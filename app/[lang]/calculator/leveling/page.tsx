@@ -1,5 +1,11 @@
 import { isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../../lib/i18n";
-import { getAvailableCharacters, calculateMaterials, getMaterialById } from "../../../../lib/queries";
+import {
+  getAvailableCharacters,
+  calculateMaterials,
+  getMaterialById,
+  getAllMaterials,
+  getCharacterMaterials,
+} from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { WebApplicationJsonLd } from "../../../../components/JsonLd";
 import { LevelingCalcClient } from "./LevelingCalcClient";
@@ -31,9 +37,39 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 export default async function LevelingCalcPage({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const availableCharacters = getAvailableCharacters();
+  const calculatorCharacters = availableCharacters.map((character) => ({
+    id: character.id,
+    name: character.name,
+    nameEn: character.nameEn,
+    rank: character.rank,
+    attribute: character.attribute,
+    weapon: character.weapon,
+    weaponEn: character.weaponEn,
+    image: character.image,
+  }));
+  const materialsById = Object.fromEntries(
+    getAllMaterials().map((material) => [
+      material.id,
+      {
+        id: material.id,
+        name: material.name,
+        nameEn: material.nameEn,
+        rarity: material.rarity,
+      },
+    ])
+  );
+  const characterMaterialsById = Object.fromEntries(
+    availableCharacters
+      .map((character) => {
+        const materials = getCharacterMaterials(character.id);
+        return materials ? [character.id, materials] : null;
+      })
+      .filter(Boolean) as Array<[string, NonNullable<ReturnType<typeof getCharacterMaterials>>]>
+  );
 
   // Pre-compute a static example table for SEO / AI crawlers
-  const sRankChars = getAvailableCharacters().filter((c) => c.rank === "S").slice(0, 5);
+  const sRankChars = availableCharacters.filter((c) => c.rank === "S").slice(0, 5);
   const exampleRows = sRankChars.map((c) => {
     const mats = calculateMaterials(c.id, 1, 60);
     const matNames = mats.slice(0, 4).map((m) => {
@@ -90,7 +126,11 @@ export default async function LevelingCalcPage({ params }: { params: { lang: str
         </table>
       </div>
 
-      <LevelingCalcClient />
+      <LevelingCalcClient
+        characters={calculatorCharacters}
+        materialsById={materialsById}
+        characterMaterialsById={characterMaterialsById}
+      />
 
       <section className="mx-auto max-w-5xl px-4 pb-12 pt-6">
         <div className="grid gap-4 md:grid-cols-2">

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "full-shop",
+    "name": "搬空 999 夜商店",
+    "nameTw": "搬空 999 夜商店",
+    "nameEn": "Buy Out the Full 999 Nights Shop",
+    "category": "completion",
+    "buttonCost": 131960,
+    "sourceTier": "secondary",
+    "sourceLabel": "GameWith total shop estimate (2026-07-09)",
+    "sourceUrl": "https://gamewith.net/nte/76683",
+    "exclusiveGroup": "full-shop",
+    "note": "适合想估算“全清商店”总目标的玩家。这个目标会覆盖其他单项奖励，请不要与全商店目标重复计算。",
+    "noteTw": "適合想估算「全清商店」總目標的玩家。這個目標會覆蓋其他單項獎勵，請不要與全商店目標重複計算。",
+    "noteEn": "Best for players planning around the complete shop total. This target already includes individual rewards, so do not double count it with the full-shop preset."
+  },
+  {
+    "id": "shinku-normie-heroine",
+    "name": "真红时装「平凡女主角」",
+    "nameTw": "真紅時裝「平凡女主角」",
+    "nameEn": "Shinku Outfit: Normie Heroine",
+    "category": "cosmetic",
+    "buttonCost": 8000,
+    "sourceTier": "secondary",
+    "sourceLabel": "allthings.how outfit guide (2026-07-09)",
+    "sourceUrl": "https://allthings.how/shinku-skins-in-neverness-to-everness-all-5-outfits-and-how-to-unlock-them/",
+    "note": "官方已确认该时装来自 999 夜商店；当前成本采用公开二级资料，后续可继续复核。",
+    "noteTw": "官方已確認該時裝來自 999 夜商店；目前成本採用公開二級資料，後續可持續複核。",
+    "noteEn": "The official patch notes confirm this outfit comes from the 999 Nights Button Shop. The current cost is based on a public secondary-source guide and can be re-verified later."
+  },
+  {
+    "id": "zero-unassuming-warrior",
+    "name": "零时装「初行武者」",
+    "nameTw": "零時裝「初行武者」",
+    "nameEn": "Esper Zero Outfit: Unassuming Warrior",
+    "category": "cosmetic",
+    "buttonCost": 3000,
+    "sourceTier": "secondary",
+    "sourceLabel": "Kaiden.gg cosmetic entry (2026-07-08)",
+    "sourceUrl": "https://kaiden.gg/neverness-to-everness/cosmetics/zero-unassuming-warrior",
+    "note": "适合作为低门槛的外观目标，用来规划第一批神秘纽扣的去向。",
+    "noteTw": "適合作為低門檻的外觀目標，用來規劃第一批神秘鈕扣的去向。",
+    "noteEn": "A low-cost cosmetic target that works well for planning your first batch of Mystery Buttons."
+  },
+  {
+    "id": "all-outfits",
+    "name": "以收齐 999 夜外观为主",
+    "nameTw": "以收齊 999 夜外觀為主",
+    "nameEn": "Prioritize Collecting 999 Nights Outfits",
+    "category": "cosmetic",
+    "buttonCost": 0,
+    "sourceTier": "official",
+    "sourceLabel": "Official / public guides confirm 19 outfits tied to the mode",
+    "sourceUrl": "https://allthings.how/999-nights-in-neverness-to-everness-how-the-tabletop-game-mode-works/",
+    "note": "这个目标本身不计算固定成本，而是把你当前规划的重点切到外观路线。适合只想先看 999 夜时装相关目标和资料的玩家。",
+    "noteTw": "這個目標本身不計算固定成本，而是把你目前規劃的重點切到外觀路線。適合只想先看 999 夜時裝相關目標和資料的玩家。",
+    "noteEn": "This target does not add a fixed button cost. It acts as a cosmetic-planning mode for players who mainly care about 999 Nights outfit goals and references."
+  }
+]
