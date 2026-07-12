@@ -131,6 +131,48 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
         {t(locale, "systemReqs.pageDescription")}
       </p>
 
+      <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "這頁配置表最適合怎麼看？" : "这页配置表最适合怎么用？")
+            : "How should you use this requirements page?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZhLocale(locale)
+            ? (locale === "tw"
+                ? "先用這頁判斷你的設備屬於最低可玩、推薦流暢，還是需要調低畫質的區間，再決定要不要下載 PC、手機或換到雲端方案。這頁最適合做安裝前判斷，不適合替代實際的效能測試。"
+                : "先用这页判断你的设备属于最低可玩、推荐流畅，还是需要调低画质的区间，再决定要不要下载 PC、手机或换到云端方案。这页最适合做安装前判断，不适合替代实际的性能测试。")
+            : "Use this page to decide whether your hardware sits at minimum playable, recommended smooth play, or a lower-settings tier before you install on PC or mobile or switch to a cloud option. It is best for pre-install planning, not for replacing real performance testing."}
+        </p>
+      </section>
+
+      <section className="mb-10 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "安裝前先看什麼" : "安装前先看什么")
+              : "What should you check before installing?"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(locale) ? (locale === "tw" ? "先確認你的 CPU、顯卡與可用 SSD 空間是否同時達標。" : "先确认你的 CPU、显卡与可用 SSD 空间是否同时达标。") : "Verify CPU, GPU, and available SSD space together rather than checking one spec in isolation."}</li>
+            <li>{isZhLocale(locale) ? (locale === "tw" ? "手機端除了晶片，也要看散熱、儲存與長時間穩定性。" : "手机端除了芯片，也要看散热、存储与长时间稳定性。") : "On mobile, judge thermals, storage, and sustained stability in addition to chipset tier."}</li>
+            <li>{isZhLocale(locale) ? (locale === "tw" ? "如果設備卡在線上邊緣，先考慮雲端或較低畫質方案。" : "如果设备卡在线上边缘，先考虑云端或较低画质方案。") : "If your hardware is borderline, consider cloud play or lower visual targets before downloading."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "常見誤區" : "常见误区")
+              : "Common mistakes"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{isZhLocale(locale) ? (locale === "tw" ? "只看記憶體，不看顯卡、磁碟和暫存空間。" : "只看内存，不看显卡、磁盘和临时空间。") : "Looking at RAM alone while ignoring GPU, storage speed, and temporary install space."}</li>
+            <li>{isZhLocale(locale) ? (locale === "tw" ? "把最低配置當成穩定高畫質配置。" : "把最低配置当成稳定高画质配置。") : "Treating minimum requirements as if they guarantee consistently smooth high settings."}</li>
+            <li>{isZhLocale(locale) ? (locale === "tw" ? "看到旗艦機型名稱相近，就預設所有版本表現一致。" : "看到旗舰机型名称相近，就预设所有版本表现一致。") : "Assuming similarly named flagship devices will perform identically across every version."}</li>
+          </ul>
+        </div>
+      </section>
+
       {/* Quick Answer — helps Featured Snippet / CTR */}
       <QuickAnswerCard
         locale={locale}

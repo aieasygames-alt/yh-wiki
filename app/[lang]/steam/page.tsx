@@ -88,6 +88,21 @@ export default async function SteamPage({ params }: { params: { lang: string } }
           </p>
         </section>
 
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZh
+              ? (locale === "tw" ? "這頁 Steam 指南最適合怎麼用？" : "这页 Steam 指南最适合怎么用？")
+              : "How should you use this Steam guide?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZh
+              ? (locale === "tw"
+                  ? "先用這頁判斷你現在是不是更適合 Steam、獨立啟動器、Epic 或雲端 PC，再回到配置、下載與帳號頁面確認細節。這頁最適合做平台選擇，不適合替代完整的安裝與故障排查文檔。"
+                  : "先用这页判断你现在是不是更适合 Steam、独立启动器、Epic 或云端 PC，再回到配置、下载与账号页面确认细节。这页最适合做平台选择，不适合替代完整的安装与故障排查文档。")
+              : "Use this page to decide whether Steam, the standalone launcher, Epic, or cloud PC is the best fit for you right now, then verify details on requirements, download, and account pages. It is best for platform choice, not for replacing full install or troubleshooting docs."}
+          </p>
+        </section>
+
         <QuickAnswerCard
           locale={locale}
           items={[
@@ -109,6 +124,33 @@ export default async function SteamPage({ params }: { params: { lang: string } }
             },
           ]}
         />
+
+        <section className="my-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh
+                ? (locale === "tw" ? "入 Steam 前先看什麼" : "入 Steam 前先看什么")
+                : "What should you check before choosing Steam?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? (locale === "tw" ? "先確認你的 PC 配置是否更適合本地安裝，而不是雲端方案。" : "先确认你的 PC 配置是否更适合本地安装，而不是云端方案。") : "Confirm that your PC is better suited for native install than a cloud alternative."}</li>
+              <li>{isZh ? (locale === "tw" ? "如果你很在意成就、好友列表與平台管理，Steam 會更順手。" : "如果你很在意成就、好友列表与平台管理，Steam 会更顺手。") : "If achievements, friends, and platform management matter to you, Steam is usually the cleaner fit."}</li>
+              <li>{isZh ? (locale === "tw" ? "先想清楚你更重視平台生態，還是最快開玩與最少中轉。" : "先想清楚你更重视平台生态，还是最快开玩与最少中转。") : "Decide whether you value platform ecosystem more than the fastest path to launch and patching."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh
+                ? (locale === "tw" ? "常見誤區" : "常见误区")
+                : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? (locale === "tw" ? "把 Steam 版誤解成一套完全獨立的新伺服器進度。" : "把 Steam 版误解成一套完全独立的新服务器进度。") : "Assuming the Steam version is a totally separate progression ecosystem by default."}</li>
+              <li>{isZh ? (locale === "tw" ? "只因為看到 Steam 上線，就忽略了配置與下載成本。" : "只因为看到 Steam 上线，就忽略了配置与下载成本。") : "Seeing Steam availability and ignoring the local hardware and storage cost."}</li>
+              <li>{isZh ? (locale === "tw" ? "把平台入口問題和區服、帳號體系問題混在一起。" : "把平台入口问题和区服、账号体系问题混在一起。") : "Mixing up platform-entry decisions with server-region or account-system decisions."}</li>
+            </ul>
+          </div>
+        </section>
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">{isZh ? "一、当前 Steam 状态" : "1. Current Steam Status"}</h2>

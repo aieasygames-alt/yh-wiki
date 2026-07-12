@@ -91,6 +91,21 @@ export default async function MultiplayerPage({
             : "NTE supports full cross-platform play and cross-save. Here's everything you need to know about co-op, squads, and syncing your progress."}
         </p>
 
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "這頁多人指南最適合怎麼看？" : "这页多人指南最适合怎么用？")
+              : "How should you use this multiplayer guide?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(locale)
+              ? (locale === "tw"
+                  ? "先用這頁確認異環是否支援多人、跨平台存檔與解鎖條件，再按你的問題去看匹配、組隊或帳號同步細節。這頁最適合快速排查能不能一起玩，不適合替代完整的新手流程或設備設定教學。"
+                  : "先用这页确认异环是否支持多人、跨平台存档与解锁条件，再按你的问题去看匹配、组队或账号同步细节。这页最适合快速排查能不能一起玩，不适合替代完整的新手流程或设备设置教学。")
+              : "Use this page to confirm whether NTE supports co-op, cross-save, and your unlock requirements first, then jump into matchmaking, squads, or account sync details. It is best for quickly answering whether you can play together, not for replacing full onboarding or device setup guides."}
+          </p>
+        </section>
+
         {/* Quick Answer for Featured Snippet */}
         <QuickAnswerCard
           locale={locale}
@@ -113,6 +128,33 @@ export default async function MultiplayerPage({
             },
           ]}
         />
+
+        <section className="my-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "聯機前先看什麼" : "联机前先看什么")
+                : "What should you check before co-op?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "先確認雙方是否都已完成新手主線並解鎖聯機入口。" : "先确认双方是否都已完成新手主线并解锁联机入口。") : "Confirm that everyone has cleared the tutorial path and unlocked co-op first."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "檢查是不是在同一帳號體系與同一區服節點下遊玩。" : "检查是不是在同一账号体系与同一区服节点下游玩。") : "Check that you are playing within the same account ecosystem and server track."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你是跨平台登入，先把帳號綁定與存檔同步確認好。" : "如果你是跨平台登录，先把账号绑定与存档同步确认好。") : "If you move across platforms, verify account linking and save sync before troubleshooting matchmaking."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "常見誤區" : "常见误区")
+                : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把跨平台存檔理解成任何伺服器都能直接互通。" : "把跨平台存档理解成任何服务器都能直接互通。") : "Assuming cross-save means every server environment is automatically interchangeable."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "沒先過完解鎖流程就直接排查連線問題。" : "没先过完解锁流程就直接排查连线问题。") : "Troubleshooting connection issues before checking the co-op unlock requirement."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "只看平台支援，不核對帳號與好友組隊條件。" : "只看平台支持，不核对账号与好友组队条件。") : "Checking platform support alone without confirming account and squad prerequisites."}</li>
+            </ul>
+          </div>
+        </section>
 
         {/* Core Features */}
         <section className="mb-10">
