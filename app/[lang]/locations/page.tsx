@@ -10,13 +10,20 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const locations = getAllLocations();
+  const categoryCount = new Set(locations.map((location) => location.category)).size;
+  const description = isZhLocale(locale)
+    ? (locale === "tw"
+        ? `異環全地圖地點、區域與探索內容索引，彙整 ${locations.length} 個地點與 ${categoryCount} 種分類，方便快速查找海特洛城各區域資訊、探索方向與關聯內容。`
+        : `异环全地图地点、区域与探索内容索引，汇总 ${locations.length} 个地点与 ${categoryCount} 种分类，方便快速查找海特洛城各区域信息、探索方向与关联内容。`)
+    : `Browse ${locations.length} NTE locations across ${categoryCount} categories, with quick links for region info, exploration routes, and related world details.`;
   return {
     title: t(locale, "locations.title"),
-    description: t(locale, "locations.description"),
+    description,
     alternates: hreflangAlternates("locations", lang),
     openGraph: {
       title: t(locale, "locations.title"),
-      description: t(locale, "locations.description"),
+      description,
       type: "website",
     },
   };

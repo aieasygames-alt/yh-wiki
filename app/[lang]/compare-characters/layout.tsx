@@ -9,7 +9,11 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
   const title = localizedText(locale, "异环角色对比 — 属性技能Build横向比较", "NTE Character Compare — Side-by-Side Stats & Builds");
-  const description = localizedText(locale, "横向对比异环角色属性、技能、推荐Build和队伍搭配，最多同时对比3个角色。", "Compare NTE characters side by side: stats, skills, builds, and team comps. Up to 3 characters at once.");
+  const description = localizedText(
+    locale,
+    "横向对比异环角色属性、技能、推荐 Build 和队伍搭配，最多同时对比 3 个角色，适合抽卡前后判断谁更适合当前账号与阵容缺口。",
+    "Compare up to 3 NTE characters side by side across stats, skills, builds, and team comps so you can decide who fits your account and roster gaps better."
+  );
   return {
     title,
     description,

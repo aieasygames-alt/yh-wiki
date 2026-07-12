@@ -33,10 +33,20 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
     drops: anomaly.drops,
     dropsEn: anomaly.dropsEn,
   });
+  const extraContext = locale === "en"
+    ? `${anomaly.locationEn ? ` Found around ${anomaly.locationEn}.` : ""}${anomaly.dropsEn?.length ? ` Common drops include ${anomaly.dropsEn.slice(0, 2).join(", ")}.` : ""}`
+    : locale === "tw"
+      ? `${anomaly.location ? ` 出現區域：${anomaly.location}。` : ""}${anomaly.drops?.length ? ` 常見掉落包含 ${anomaly.drops.slice(0, 2).join("、")}。` : ""}`
+      : `${anomaly.location ? ` 出现区域：${anomaly.location}。` : ""}${anomaly.drops?.length ? ` 常见掉落包含 ${anomaly.drops.slice(0, 2).join("、")}。` : ""}`;
+  const fallbackContext = locale === "en"
+    ? ` This page helps you check weakness cues, combat mechanics, and preparation priorities before fighting.`
+    : locale === "tw"
+      ? ` 本頁也會幫你快速確認弱點提示、戰鬥機制與開打前的準備重點。`
+      : ` 本页也会帮你快速确认弱点提示、战斗机制与开打前的准备重点。`;
 
   return {
     title: copy.title,
-    description: copy.description,
+    description: `${copy.description}${extraContext}${fallbackContext}`.trim(),
     alternates: hreflangAlternates(`anomalies/${slug}`, lang),
   };
 }

@@ -17,7 +17,11 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
   const title = localizedText(locale, "异环活动日历与兑换码 — NTE Guide", "NTE Events & Redeem Codes — NTE Guide");
-  const description = localizedText(locale, "异环(NTE)当前活动一览、限时活动日程、最新兑换码汇总。每日更新。", "Neverness to Everness current events schedule, limited-time events, and latest redeem codes. Updated daily.");
+  const description = localizedText(
+    locale,
+    "异环(NTE)当前活动一览、限时活动日程、最新兑换码汇总，并整理登录奖励、常驻玩法和近期值得优先处理的活动内容。每日更新。",
+    "Track Neverness to Everness events, limited-time schedules, active redeem codes, login rewards, and permanent event priorities in one updated calendar."
+  );
   return {
     title,
     description,
