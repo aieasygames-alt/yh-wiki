@@ -664,9 +664,15 @@
       "adler"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环新手先抽哪个卡池？角色池、武器池与新手池优先级",
+    "seoTitleEn": "Best Banner for Beginners in NTE — Character, Weapon & Starter Priority",
+    "seoDescriptionZh": "异环新手抽卡优先级建议：先抽角色池还是新手池、什么时候该碰武器池，以及资源有限时该怎么分配。",
+    "seoDescriptionEn": "Learn which NTE banner beginners should prioritize first, when starter benefits matter, and why weapon banners usually come later for new accounts.",
     "questionTw": "異環新手應該優先抽什麼卡池？",
     "answerTw": "這條「新手應該先抽什麼卡池」FAQ 現在更適合回答**你該先補核心角色、先吃新手福利，還是先把資源留給後續版本目標**，而不是繼續給出一套固定角色名單。對目前玩家來說，更實際的判斷通常是：你的帳號現在是不是缺一個能穩定推進內容的主力位、目前新手池或折扣池是否還有效，以及你有沒有足夠資源兼顧眼前和後續目標。\n\n更穩妥的理解方式是：\n1. 如果你缺能穩定推進主線或日常的核心位，角色池通常會比其他池子更值得優先考慮\n2. 如果新手池、折扣池或一次性福利仍然有效，先把這些低風險資源入口看清楚再決定後續投入\n3. 武器／弧盤這類更偏深化的池子，通常要等主力框架成型後再評估，而不是和角色池搶早期預算\n\n所以這頁現在保留的是**新手抽卡優先級的判斷邏輯**，而不是繼續把某幾個開服階段熱門角色寫成長期固定答案。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環新手先抽哪個卡池？角色池、武器池與新手池優先級",
+    "seoDescriptionTw": "異環新手抽卡優先級建議：先抽角色池還是新手池、什麼時候該碰武器池，以及資源有限時該怎麼分配。"
   },
   {
     "id": "gacha-currency",
@@ -1340,7 +1346,8 @@
     "questionTw": "異環可以聯機嗎？多人模式怎麼玩？",
     "answerTw": "這條聯機 FAQ 現在更適合回答**異環是不是支援多人合作，以及你現在該把哪些功能視為穩定可期待、哪些細節仍應以目前遊戲內和官方說明為準**，而不是繼續把一整頁早期功能清單寫成像永久不變的規格說明。對目前玩家來說，更實用的重點通常是：能不能和朋友一起玩、人數上限是多少、聯機更偏合作 PvE 還是競技，以及單人玩家會不會被強制綁進多人流程。\n\n更穩妥的理解方式是：\n1. 把異環的多人部分理解成**以合作 PvE 為主的補充體驗**，而不是取代單人主線的唯一玩法\n2. 把 4 人組隊、好友邀請、匹配協作這類內容視為聯機核心方向，但具體開放範圍和體驗細節仍應以目前版本為準\n3. 如果你主要關心「能不能單人玩」，重點應放在主線和大部分常規內容並不要求全程多人，而聯機更像擴展玩法層\n\n所以這頁現在保留的是**聯機定位、合作邊界與目前判斷邏輯**，而不是繼續把一份超長功能描述寫成長期固定規格書。",
     "categoryTw": "遊戲系統",
-    "seoTitleTw": "異環聯機攻略：4人組隊、跨平臺聯機、世界Boss協作 — 多人合作完整指南（2026）"
+    "seoTitleTw": "異環聯機攻略：4人組隊、跨平臺聯機、世界Boss協作 — 多人合作完整指南（2026）",
+    "seoDescriptionTw": "異環支援最多4人聯機！PC、手機、主機跨平臺組隊、世界Boss協作打法、副本聯機攻略與匹配系統使用方式整理。"
   },
   {
     "id": "starter-s-rank",
@@ -1360,9 +1367,15 @@
       "sakiri"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环第一个S级角色选谁？新手首个S角色培养建议",
+    "seoTitleEn": "Which First S-Rank Should You Pick in NTE? Beginner Build Order Guide",
+    "seoDescriptionZh": "异环新手第一个S级角色怎么选：主C、辅助和生存位谁更优先，以及早期资源该怎么集中培养。",
+    "seoDescriptionEn": "See how beginners should choose their first S-rank in NTE, when DPS matters most, and how to keep early investment focused.",
     "questionTw": "異環第一個S級角色選誰？新手推薦培養順序",
     "answerTw": "新手第一個S級角色更適合按**帳號目前最缺的功能位**來選，而不是把某個開服熱門角色當成所有人的固定答案。對大多數帳號來說，判斷順序通常是：先看你是否缺一個能穩定推進主線的主輸出，再看是否缺泛用輔助或生存位。\n\n更穩妥的思路是：\n1) 如果你前期推圖效率低，優先選能明顯改善清怪和Boss節奏的輸出位\n2) 如果你已經有可用主C，就更適合補支援、聚怪或治療，讓隊伍結構更完整\n3) 早期資源不要分散，先集中養成1個主力位，再補1個能穩定輔助它的角色\n\n所以這頁現在保留的是**首個S級角色的選擇邏輯和培養順序**，而不是繼續輸出「所有新手都該選同一個角色」的舊結論。",
-    "categoryTw": "新手入門"
+    "categoryTw": "新手入門",
+    "seoTitleTw": "異環第一個S級角色選誰？新手首個S角色培養建議",
+    "seoDescriptionTw": "異環新手第一個S級角色怎麼選：主C、輔助和生存位誰更優先，以及早期資源該怎麼集中培養。"
   },
   {
     "id": "ps5-support",
@@ -1379,9 +1392,15 @@
     "categoryEn": "System",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环支持PS5吗？PS5版现状、下载入口与主机选择建议",
+    "seoTitleEn": "Is NTE on PS5? PS5 Availability, Download Path & Console Guide",
+    "seoDescriptionZh": "异环PS5版能不能玩、是否已有稳定入口、账号互通规则怎么看，以及主机玩家选平台时该核对什么。",
+    "seoDescriptionEn": "Check whether NTE is currently available on PS5, what to verify before playing there, and how PS5 compares with other platforms.",
     "questionTw": "異環支援PS5嗎？主機版什麼時候出？",
     "answerTw": "這條 PS5 FAQ 現在更適合回答**PS5 目前是不是一個實際可選的平臺入口，以及你在選主機端時該重點核對什麼**，而不是繼續停留在早期的「已提到、會推出」式口徑。對目前玩家來說，更重要的是先確認：現在是否已經有穩定下載入口、帳號同步規則是否清楚、以及手柄體驗和畫面表現是否符合你的預期。\n\n更穩妥的理解方式是：\n1. 把 PS5 支援看成一個當前狀態問題，而不是一次公告後永遠不變的結論\n2. 重點核對目前官方說明裡是否明確了下載、互通和版本更新節奏\n3. 如果你是在 PC、手機和主機之間做選擇，真正該比較的是體驗路徑，而不是只看「有沒有被確認提到」\n\n所以這頁現在保留的是**PS5 平臺狀態判斷邏輯**，而不是繼續把舊階段的平臺承諾當成完整答案。",
-    "categoryTw": "遊戲系統"
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環支援PS5嗎？PS5版現況、下載入口與主機選擇建議",
+    "seoDescriptionTw": "異環PS5版能不能玩、是否已有穩定入口、帳號互通規則怎麼看，以及主機玩家選平臺時該核對什麼。"
   },
   {
     "id": "mac-support",
@@ -1398,9 +1417,15 @@
     "categoryEn": "System",
     "relatedCharacters": [],
     "relatedMaterials": [],
+    "seoTitleZh": "异环能在Mac上玩吗？Mac版下载、配置与可玩性判断",
+    "seoTitleEn": "Can You Play NTE on Mac? Download, Performance & Support Guide",
+    "seoDescriptionZh": "异环Mac版怎么下载、Apple Silicon 和 Intel 体验差多少，以及现在该不该把 Mac 当成主力游玩平台。",
+    "seoDescriptionEn": "Learn whether NTE is a practical Mac option, how to judge Apple Silicon and Intel performance, and what to verify before downloading.",
     "questionTw": "異環能在Mac上玩嗎？Mac版怎麼下載？",
     "answerTw": "這條 Mac FAQ 現在更適合回答**Mac 目前是不是一個穩定可玩的入口，以及你該如何判斷自己的機器值不值得用來跑異環**，而不是繼續保留一句「確認支援」的舊口徑。對目前使用者來說，更實際的重點通常是：下載入口是否還在、Apple Silicon 和 Intel 機型體驗差距有多大、以及和其他平臺相比是否真的是你的最佳選擇。\n\n更穩妥的理解方式是：\n1. 先以當前官網下載頁和實際客戶端可用狀態為準，而不是把早期支援說明直接當成長期結論\n2. 把晶片架構、發熱、幀率和相容性視為實際體驗判斷項，而不是默認所有 Mac 都一樣能玩\n3. 如果你是在 Mac 和其他平臺之間做選擇，重點應放在真實可玩性、同步便利性和效能穩定性上\n\n所以這頁現在保留的是**Mac 平臺判斷與裝置適配邏輯**，而不是繼續重複一段早期支援說明。",
-    "categoryTw": "遊戲系統"
+    "categoryTw": "遊戲系統",
+    "seoTitleTw": "異環能在Mac上玩嗎？Mac版下載、配置與可玩性判斷",
+    "seoDescriptionTw": "異環Mac版怎麼下載、Apple Silicon 和 Intel 體驗差多少，以及現在該不該把 Mac 當成主力遊玩平臺。"
   },
   {
     "id": "gacha-currency-name",
@@ -1426,7 +1451,8 @@
     "questionTw": "異環抽卡用什麼貨幣？方斯是什麼？",
     "answerTw": "異環抽卡這頁現在更適合回答**貨幣怎麼分、現在該怎麼看抽卡成本**，而不是繼續停留在開服「總共送多少抽」的舊口徑。對目前玩家來說，核心仍然是：原晶／環石這類高級貨幣用來換抽數，抽卡券則是更直接的一次性抽卡資源，而免費與付費貨幣的差別主要體現在取得方式和部分商店用途。\n\n你可以這樣理解：\n1. **單抽與十連的換算規則固定**，所以抽卡預算本質上就是看你現在能攢到多少等值貨幣\n2. **免費資源主要來自日常、活動、探索和版本更新**，而不是再去套用開服那種一次性大福利總數\n3. 如果你要規劃卡池，重點應該放在當前版本可穩定獲得多少抽，而不是只看歷史高峰數字\n\n所以這頁現在保留的是**抽卡貨幣結構與預算理解方式**，幫你判斷現在的帳號資源，而不是繼續強調開服時的一次性福利。",
     "categoryTw": "抽卡系統",
-    "seoTitleTw": "異環Fons（環石）是什麼？抽卡貨幣獲取與使用指南"
+    "seoTitleTw": "異環Fons（環石）是什麼？抽卡貨幣獲取與使用指南",
+    "seoDescriptionTw": "異環Fons（環石／原晶）抽卡貨幣說明：整理目前獲取途徑、單抽消耗、免費與付費資源差別，以及規劃版本抽卡預算時該怎麼理解這些數字。"
   },
   {
     "id": "collapse-mechanic",
@@ -2091,9 +2117,10 @@
     "seoDescriptionEn": "Complete NTE cross-platform guide: how to play with friends on PC, PS5, iOS, and Android. Cross-save setup, account linking, and co-op matchmaking explained.",
     "seoDescriptionZh": "异环跨平台联机完全指南：PC/PS5/iOS/Android如何一起玩？跨平台存档设置、账号绑定、联机匹配方法详解。",
     "questionTw": "異環怎麼跨平臺同步資料？PC和手機怎麼互通？",
-    "answerTw": "異環全平臺數據互通操作方法：1) 確保所有裝置登入同一個完美世界賬號；2) PC端在登入介面選擇賬號登入；3) 移動端在登入介面選擇相同賬號方式；4) PS5端在首次啟動時繫結完美世界賬號。繫結后角色等級、裝備、任務進度、抽卡記錄全部即時同步。注意：每個賬號只能繫結一個PS5賬號，繫結後不可更改。6平臺互通包括PC、Android、iOS、Mac、鴻蒙、PS5。",
+    "answerTw": "這條「怎麼跨平臺同步資料」FAQ 現在更適合回答**跨裝置互通最關鍵的是同一帳號體系和同一發行軌道**，而不是繼續把一串平臺列表和單次綁定規則寫成像永遠不變的操作手冊。對目前玩家來說，更實際的重點通常是：你登入的入口是不是同一套帳號系統、是否在同一區服／同一渠道下，以及切裝置前有沒有先確認當前綁定規則。\n\n更穩妥的理解方式是：\n1. 資料同步的前提通常不是「裝置種類」，而是**是否屬於同一帳號體系與同一發行軌道**\n2. 真正開始切換裝置前，應先核對目前登入方式、綁定狀態和區服歸屬，而不是默認所有入口天然互通\n3. 具體支援範圍和綁定細則更適合以目前官方說明和遊戲內提示為準，而不是只依賴一份早期平臺總表\n\n所以這頁現在保留的是**跨平臺同步的判斷條件與操作前檢查邏輯**，而不是繼續把舊版平臺列表寫成固定說明書。",
     "categoryTw": "平臺相關",
-    "seoTitleTw": "異環跨平臺聯機方法 — PC/手機/主機跨平臺遊玩指南"
+    "seoTitleTw": "異環跨平臺聯機方法 — PC/手機/主機跨平臺遊玩指南",
+    "seoDescriptionTw": "異環跨平臺聯機完全指南：PC/PS5/iOS/Android如何一起玩？跨平臺存檔設定、帳號綁定、聯機匹配方式與切裝置前檢查重點整理。"
   },
   {
     "id": "harmonyos-details",
