@@ -919,7 +919,9 @@
     "id": "weapon-upgrade",
     "question": "异环武器怎么强化？",
     "questionEn": "How to upgrade weapons in NTE?",
+    "seoTitleZh": "异环武器怎么强化？升级材料、突破与投入优先级指南",
     "seoTitleEn": "NTE Weapon Upgrade System — Ascension, Passive Skills & Priority Guide",
+    "seoDescriptionZh": "异环武器强化和突破怎么做：先拉主力武器还是过渡武器、材料从哪来，以及什么时候该停手保资源。",
     "seoDescriptionEn": "Learn how NTE weapon upgrades work: level caps, ascension materials, passive skill unlocks, rarity differences, and which main DPS weapons to upgrade first.",
     "answer": "武器强化这页现在更适合回答**什么时候该继续拉高一把武器，什么时候该停手把资源留给整队**，而不是继续只给“主力武器先拉满”的口号。对当前玩家来说，更关键的判断通常是：这把武器是否真的挂在常驻主力身上、突破后能不能换来稳定提升、以及你是不是正在为一把过渡武器投入过多材料。\n\n更稳妥的理解方式是：\n1. 先强化那些已经确定长期会用、而且提升后能立刻改善手感或输出节点的武器\n2. 如果角色本身还在替换期，就要避免把大量资源压进可能很快退役的过渡武器\n3. 稀有度高不等于一定先拉，关键还是看它是否真正属于你的当前主队体系\n\n所以这页现在保留的是**武器强化与突破的运作方式，以及投入节奏判断**，而不是继续把单一路线写成所有账号都该照搬的标准流程。",
     "answerEn": "This weapon-upgrade page is more useful when it explains **when to keep pushing one weapon higher and when to stop and protect resources for the rest of the team** instead of repeating 'max your main weapon first' as a blanket rule. For current players, the more useful judgment is whether the weapon is truly attached to a long-term main unit, whether the next ascension gives a real breakpoint, and whether you are over-investing in a temporary weapon.\n\nA safer way to think about weapon upgrades is:\n1. Upgrade the weapons that are already locked into long-term use and give immediate gains in damage, rotation feel, or consistency\n2. If the character is still in a temporary slot, avoid sinking too many materials into a weapon that may soon be replaced\n3. Higher rarity alone does not automatically make a weapon first priority; what matters is whether it actually belongs to your current core team plan\n\nSo this page now focuses on how weapon upgrades and ascensions work, plus how to judge investment timing, instead of preserving one universal upgrade order.",
@@ -936,7 +938,9 @@
     ],
     "questionTw": "異環武器怎麼強化？",
     "answerTw": "武器強化這頁現在更適合回答**什麼時候該繼續拉高一把武器，什麼時候該停手把資源留給整隊**，而不是繼續只給「主力武器先拉滿」的口號。對目前玩家來說，更關鍵的判斷通常是：這把武器是否真的掛在常駐主力身上、突破後能不能換來穩定提升、以及你是不是正在為一把過渡武器投入過多材料。\n\n更穩妥的理解方式是：\n1. 先強化那些已經確定長期會用、而且提升後能立刻改善手感或輸出節點的武器\n2. 如果角色本身還在替換期，就要避免把大量資源壓進可能很快退役的過渡武器\n3. 稀有度高不等於一定先拉，關鍵還是看它是否真正屬於你的目前主隊體系\n\n所以這頁現在保留的是**武器強化與突破的運作方式，以及投入節奏判斷**，而不是繼續把單一路線寫成所有帳號都該照搬的標準流程。",
-    "categoryTw": "裝備系統"
+    "categoryTw": "裝備系統",
+    "seoTitleTw": "異環武器怎麼強化？升級材料、突破與投入優先級指南",
+    "seoDescriptionTw": "異環武器強化和突破怎麼做：先拉主力武器還是過渡武器、材料從哪來，以及什麼時候該停手保留資源。"
   },
   {
     "id": "redeem-codes",
@@ -962,7 +966,8 @@
     "questionTw": "異環兌換碼怎麼使用？有哪些兌換碼？",
     "answerTw": "異環兌換碼使用方法：1) 在遊戲主介面找到設定或個人中心入口；2) 找到「兌換碼」或「禮包兌換」選項；3) 輸入有效的兌換碼即可領取獎勵。兌換碼通常通過以下渠道釋出：官方社交媒體（微博、B站）、直播活動、合作平臺（TapTap）、線下活動等。兌換碼有使用期限和次數限制，建議及時使用。我們網站的兌換碼頁面會持續更新最新的有效兌換碼。",
     "categoryTw": "貨幣系統",
-    "seoTitleTw": "異環兌換碼怎麼用？最新禮包碼使用方法與兌換入口"
+    "seoTitleTw": "異環兌換碼怎麼用？最新禮包碼使用方法與兌換入口",
+    "seoDescriptionTw": "異環(NTE)兌換碼使用教學：遊戲內兌換入口位置、目前有效禮包碼與歷史直播碼差別、兌換失敗排查方式，以及官方和合作渠道的獲取路徑。"
   },
   {
     "id": "beginner-guide-early-game",
@@ -985,9 +990,15 @@
       "rising-hunter-guide",
       "fons"
     ],
+    "seoTitleZh": "异环新手开局怎么玩？前期开荒顺序与资源分配指南",
+    "seoTitleEn": "How Should Beginners Start NTE? Early Progression and Resource Guide",
+    "seoDescriptionZh": "异环新手前期先做什么、主线和抽卡怎么安排、体力和养成资源该怎么分配，避免开局资源乱花。",
+    "seoDescriptionEn": "A practical NTE beginner-start guide covering early story progress, banner use, stamina planning, and how to avoid wasting resources.",
     "questionTw": "異環新手開局怎麼玩？",
     "answerTw": "異環新手開局攻略：1) 跟隨主線任務推進，優先了解遊戲基本操作和系統；2) 抽卡方面，優先用完新手池折扣機會，獲取第一個S級核心角色；3) 角色培養集中資源培養1個主力輸出+1個支援，推薦娜娜莉（輸出）+咲裡（支援）的組合；4) 體力優先刷角色升級材料，不要浪費在低階材料上；5) 每日必做：委託任務、體力清空、領取活動獎勵；6) 探索地圖時優先啟用傳送點，方便後續刷材料。記住前期不要貪多，集中資源是關鍵。",
-    "categoryTw": "新手入門"
+    "categoryTw": "新手入門",
+    "seoTitleTw": "異環新手開局怎麼玩？前期開荒順序與資源分配指南",
+    "seoDescriptionTw": "異環新手前期先做什麼、主線和抽卡怎麼安排、體力和養成資源該怎麼分配，避免開局資源亂花。"
   },
   {
     "id": "launch-date-2026",
@@ -1095,9 +1106,15 @@
       "haniel"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环公测送多少抽？418抽来源与当前免费资源怎么拿",
+    "seoTitleEn": "NTE Launch Free Pulls — 418 Pull Breakdown and Current F2P Sources",
+    "seoDescriptionZh": "异环开服约418抽是怎么组成的、哪些已经过期，以及现在入坑还能从探索、活动和版本更新里拿到多少免费资源。",
+    "seoDescriptionEn": "Learn where the NTE 418 launch-pull estimate came from, which rewards were time-limited, and what F2P sources still matter now.",
     "questionTw": "異環公測總共能白嫖多少抽？免費資源有多少？",
     "answerTw": "「約 418 抽」說的是**開服階段累計福利口徑**，現在更適合把它理解成歷史參考，而不是當前帳號登入後還能立即領完的固定數字。裡面包含了直播兌換碼、預註冊獎勵、開服活動、新手池、自選券、探索與任務資源等多種來源，其中有些屬於**時效福利**，現在已經過期。\n\n如果你現在關心的是「還能白嫖多少」，更準確的看法是：\n1. 開服期那批一次性活動資源不能完整重現\n2. 新手階段、探索、常規活動與版本更新資源仍然是零氪的主要來源\n3. 判斷帳號資源時，應該看**當前版本週期**和你的開荒進度，而不是只看開服總抽數\n\n這條 FAQ 會繼續保留開服福利的歷史體量概念，但不再把 418 抽寫成現時承諾值。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleTw": "異環公測送多少抽？418抽來源與目前免費資源怎麼拿",
+    "seoDescriptionTw": "異環開服約418抽是怎麼組成的、哪些已經過期，以及現在入坑還能從探索、活動和版本更新裡拿到多少免費資源。"
   },
   {
     "id": "cross-platform-save",
@@ -1252,9 +1269,15 @@
       "zero"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环开服6选1选谁？免费S级角色选择与补位思路",
+    "seoTitleEn": "NTE 6-Choose-1 Guide — Best Free S-Rank Pick for Your Account",
+    "seoDescriptionZh": "异环免费S级自选怎么选：先补主C还是辅助、生存位，以及不同账号在6选1时该怎么判断最划算。",
+    "seoDescriptionEn": "See how to choose the best free S-rank in NTE's 6-select bonus based on your account's missing role and early progression needs.",
     "questionTw": "異環開服6選1選誰？免費S級角色推薦",
     "answerTw": "這類「開服 6 選 1」問題現在更適合按**帳號缺什麼**來回答，而不是繼續沿用開服衝榜時的固定答案。自選的核心思路依然沒變：\n\n1. **先補主力輸出**，如果你的帳號開荒還慢，優先選能直接提升推圖效率的角色\n2. **再補泛用輔助或生存位**，讓後續抽到的限定角色更容易組隊\n3. **盡量避免和你已經抽到的常駐角色重複定位**\n\n如果你已經有穩定主 C，自選就應該偏向補隊伍短板；如果你還是新號，優先拿一個能立刻上場的核心角色通常更划算。這條 FAQ 現在保留的是選擇邏輯，而不是把某個開服答案寫死成「永遠最優」。",
-    "categoryTw": "新手入門"
+    "categoryTw": "新手入門",
+    "seoTitleTw": "異環開服6選1選誰？免費S級角色選擇與補位思路",
+    "seoDescriptionTw": "異環免費S級自選怎麼選：先補主C還是輔助、生存位，以及不同帳號在6選1時該怎麼判斷最划算。"
   },
   {
     "id": "f2p-friendly",
@@ -1274,9 +1297,15 @@
       "haniel"
     ],
     "relatedMaterials": [],
+    "seoTitleZh": "异环零氪能玩吗？F2P体验、攒抽节奏与付费差距",
+    "seoTitleEn": "Is NTE F2P Friendly? Zero-Spend Experience and Pull Planning",
+    "seoDescriptionZh": "异环零氪能不能长期玩、主线和日常会不会被卡，以及F2P玩家该怎么规划抽卡和资源节奏。",
+    "seoDescriptionEn": "Find out whether NTE is friendly to F2P players, what zero-spend accounts can realistically clear, and how to plan pulls without overspending.",
     "questionTw": "異環零氪能玩嗎？不花錢體驗怎麼樣？",
     "answerTw": "能玩，而且整體上仍然算比較友好的零氪體驗，但要把「零氪友好」理解成**能穩定玩、能慢慢攢、能完成大多數內容**，而不是「每期角色都能輕鬆全拿」。\n\n對零氪玩家最關鍵的現實判斷是：\n1. 主線、探索和大多數日常內容不會因為不充值而被卡死\n2. A 級和常駐角色在合理培養後依然能承擔不少內容\n3. 抽卡節奏上需要更克制，優先鎖定真正想要的版本目標\n\n所以結論依然是正面的：異環適合零氪長期玩，但更適合「有規劃地攢資源」，不適合見池就抽。",
-    "categoryTw": "貨幣系統"
+    "categoryTw": "貨幣系統",
+    "seoTitleTw": "異環零氪能玩嗎？F2P體驗、攢抽節奏與付費差距",
+    "seoDescriptionTw": "異環零氪能不能長期玩、主線和日常會不會被卡，以及F2P玩家該怎麼規劃抽卡和資源節奏。"
   },
   {
     "id": "multiplayer-coop",
