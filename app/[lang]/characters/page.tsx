@@ -60,6 +60,18 @@ export default async function CharactersPage({
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-8">{t(locale, "characters.title")}</h1>
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZhLocale(locale) ? (locale === "tw" ? "這頁角色圖鑑最適合怎麼看？" : "这页角色图鉴最适合怎么用？") : "How should you use this character index?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(locale)
+              ? (locale === "tw"
+                  ? "先用這裡篩出你要找的屬性、定位或版本熱門角色，再進入單角色頁看 Build、配隊、抽取建議與養成優先級。角色總表適合快速比較，不適合只看名稱就直接決定投入。"
+                  : "先用这里筛出你要找的属性、定位或版本热门角色，再进入单角色页看 Build、配队、抽取建议与养成优先级。角色总表适合快速比较，不适合只看名字就直接决定投入。")
+              : "Use this page to filter by attribute, role, or current meta interest first, then open the character guide for builds, teams, pull value, and upgrade priority. The index is best for comparison, not final investment decisions by name alone."}
+          </p>
+        </section>
         <div className="mb-6">
           <KardzPromoCard locale={locale} variant="banner" />
         </div>
@@ -82,6 +94,29 @@ export default async function CharactersPage({
           </nav>
         )}
         <CharacterFilter characters={characters} locale={locale} lang={lang} />
+
+        <section className="mt-10 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale) ? (locale === "tw" ? "選角前先確認" : "选角色前先确认") : "Check this before choosing a character"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "你的隊伍缺的是主C、破韌、輔助還是治療。" : "你的队伍缺的是主C、破韧、辅助还是治疗。") : "Know whether your roster needs a carry, break unit, support, or healer."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "看角色時別只看單卡強度，也要看是否吃專武、專屬隊友或高練度。" : "看角色时别只看单卡强度，也要看是否吃专武、专属队友或高练度。") : "Do not judge by solo power alone; check whether the unit depends on signature gear, specific teammates, or high investment."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你主要打 999 Nights、Boss 或探索，優先級會明顯不同。" : "如果你主要打 999 Nights、Boss 或探索，优先级会明显不同。") : "Your priorities change a lot depending on whether you focus on 999 Nights, bosses, or exploration."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale) ? (locale === "tw" ? "常見誤區" : "常见误区") : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "只跟著強度榜抽，結果補不到帳號真正缺的功能位。" : "只跟着强度榜抽，结果补不到账号真正缺的功能位。") : "Pulling strictly by tier list and missing the role your account actually needs."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把前期開荒體驗和後期高配畢業表現混在一起看。" : "把前期开荒体验和后期高配毕业表现混在一起看。") : "Mixing early-game comfort with late-game ceiling when evaluating a unit."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "忽略角色頁裡的 Build 與配隊條件，只看立繪或話題度。" : "忽略角色页里的 Build 与配队条件，只看立绘或话题度。") : "Ignoring build and team conditions in the guide and choosing only by visual appeal or hype."}</li>
+            </ul>
+          </div>
+        </section>
       </div>
     </>
   );
