@@ -110,6 +110,43 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
           ]}
         />
 
+        <section className="my-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {localizedText(locale, "这页选服对比最适合怎么用？", "How should you use this server comparison?", "這頁選服對比最適合怎麼用？")}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {localizedText(
+              locale,
+              "先用这页排除最容易踩坑的部分：语言、账号是否互通、朋友在哪个服、以及你是否在意版本先后。确认这些以后，再去看卡池时间表、兑换码或 Steam/平台入口页补细节。这页最适合做选服判断，不适合替代具体版本公告。",
+              "Use this page to rule out the biggest server-choice mistakes first: language, account separation, where your friends play, and whether patch timing actually matters to you. After that, jump to banner schedules, redeem codes, or platform pages for the exact details. This page is best for choosing a server, not for replacing live patch notices.",
+              "先用這頁排除最容易踩坑的部分：語言、帳號是否互通、朋友在哪個服，以及你是否真的在意版本先後。確認這些以後，再去看卡池時間表、兌換碼或 Steam/平台入口頁補細節。這頁最適合做選服判斷，不適合替代具體版本公告。"
+            )}
+          </p>
+        </section>
+
+        <section className="mb-10 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {localizedText(locale, "选服前先看什么", "What should you check before picking a server?", "選服前先看什麼")}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{localizedText(locale, "先确认你和固定队朋友准备在哪个服长期玩。", "Confirm which server you and your friends actually plan to stay on long term.", "先確認你和固定隊朋友準備在哪個服長期玩。")}</li>
+              <li>{localizedText(locale, "如果你需要英文界面、国际支付环境或海外社区，国际服通常更顺手。", "If you need English UI, international billing, or overseas communities, global is usually the easier fit.", "如果你需要英文介面、國際支付環境或海外社群，國際服通常更順手。")}</li>
+              <li>{localizedText(locale, "如果你更重视最早接触版本内容，再去核当期公告里的具体时间差。", "If getting content earliest matters most, verify the current patch gap in that patch's live notice.", "如果你更重視最早接觸版本內容，再去核當期公告裡的具體時間差。")}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {localizedText(locale, "常见误区", "Common mistakes", "常見誤區")}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{localizedText(locale, "以为国服和国际服只是语言不同，后面可以随时转服。", "Assuming CN and global differ only by language and can be swapped later.", "以為國服和國際服只是語言不同，後面可以隨時轉服。")}</li>
+              <li>{localizedText(locale, "只看某一版快几天，就忽略朋友分布和账号独立问题。", "Focusing on one patch being earlier and ignoring friend distribution and account separation.", "只看某一版快幾天，就忽略朋友分布和帳號獨立問題。")}</li>
+              <li>{localizedText(locale, "把旧版本时间差当成之后每个版本都会固定复制的规律。", "Treating an older patch gap as if every future version will repeat it exactly.", "把舊版本時間差當成之後每個版本都會固定複製的規律。")}</li>
+            </ul>
+          </div>
+        </section>
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">{isZh ? "一、上线时间对比" : "1. Launch Dates"}</h2>
           <p className="text-gray-400 mb-3 leading-relaxed">

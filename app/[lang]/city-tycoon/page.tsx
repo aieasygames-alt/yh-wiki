@@ -92,6 +92,43 @@ export default async function CityTycoonPage({
           {t(locale, "cityTycoon.subtitle")}
         </p>
 
+        <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {localizedText(locale, "这页都市大亨最适合怎么用？", "How should you use this City Tycoon guide?", "這頁都市大亨最適合怎麼看？")}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {localizedText(
+              locale,
+              "先用这页确认都市大亨最关键的奖励门槛、升级顺序和值不值得投入，再结合角色页、武器页和探索工具补细节。这页最适合做经营系统路线规划，不适合替代单独的角色养成或地图收集页。",
+              "Use this page to confirm the most important reward breakpoints, upgrade order, and whether City Tycoon is worth your time before you branch into character, weapon, or exploration pages. It is best for planning the management route, not for replacing dedicated build or map guides.",
+              "先用這頁確認都市大亨最關鍵的獎勵門檻、升級順序和值不值得投入，再結合角色頁、武器頁和探索工具補細節。這頁最適合做經營系統路線規劃，不適合替代單獨的角色養成或地圖收集頁。"
+            )}
+          </p>
+        </section>
+
+        <section className="mb-10 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {localizedText(locale, "开始前先看什么", "What should you check before starting?", "開始前先看什麼")}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{localizedText(locale, "先确认你最想拿的是 Lv.30 免费小吱，还是 Lv.21 专武等奖励。", "Decide whether your main target is the free Lv.30 Xiaozhi or earlier milestones like the Lv.21 weapon.", "先確認你最想拿的是 Lv.30 免費小吱，還是 Lv.21 專武等獎勵。")}</li>
+              <li>{localizedText(locale, "把每日任务、建筑收益和资源回流速度一起看，不要只盯单次奖励。", "Look at daily tasks, building yield, and resource return speed together instead of staring at one reward checkpoint.", "把每日任務、建築收益和資源回流速度一起看，不要只盯單次獎勵。")}</li>
+              <li>{localizedText(locale, "如果你时间有限，优先规划最短拿到关键奖励的升级路径。", "If your time is limited, plan the shortest route to the reward breakpoint that matters most.", "如果你時間有限，優先規劃最短拿到關鍵獎勵的升級路徑。")}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {localizedText(locale, "常见误区", "Common mistakes", "常見誤區")}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{localizedText(locale, "只因为奖励强，就忽略了每日投入和资源节奏是否适合自己。", "Chasing the headline reward without checking whether the daily time and resource pace fit you.", "只因為獎勵強，就忽略了每日投入和資源節奏是否適合自己。")}</li>
+              <li>{localizedText(locale, "平均升级所有建筑，导致关键收益点来得太慢。", "Leveling every building evenly and delaying the most important profit spikes.", "平均升級所有建築，導致關鍵收益點來得太慢。")}</li>
+              <li>{localizedText(locale, "把都市大亨当成孤立系统，不和角色、武器、探索节奏一起规划。", "Treating City Tycoon as isolated instead of syncing it with character, weapon, and exploration goals.", "把都市大亨當成孤立系統，不和角色、武器、探索節奏一起規劃。")}</li>
+            </ul>
+          </div>
+        </section>
+
         {/* Overview */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">

@@ -34,7 +34,7 @@ export function generateCompareMetadataForSlug(lang: string, slug: string) {
     description,
     alternates: hreflangAlternates(`compare/${slug}`, lang),
     openGraph: {
-      title: `${title} | NTE Guide`,
+      title,
       description,
       type: "article",
     },
@@ -63,6 +63,7 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
   const compareTable = getCompareTable(slug, locale);
   const decisionGuide = getCompareDecisionGuide(slug, locale);
   const bestFor = getCompareBestFor(slug, locale);
+  const supportCopy = getCompareSupportCopy(slug, locale);
 
   return (
     <>
@@ -95,6 +96,34 @@ async function ComparePageInner({ params }: { params: { lang: string; slug: stri
         <p className="text-gray-400 mb-6 text-sm border-l-2 border-primary-500 pl-3">
           {summary}
         </p>
+
+        {supportCopy && (
+          <>
+            <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/40 p-5">
+              <h2 className="text-lg font-bold mb-3">{supportCopy.introTitle}</h2>
+              <p className="text-sm leading-7 text-gray-300">{supportCopy.introBody}</p>
+            </section>
+
+            <section className="mb-8 grid gap-4 md:grid-cols-2">
+              <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+                <h2 className="text-base font-semibold text-white">{supportCopy.checkFirstTitle}</h2>
+                <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+                  {supportCopy.checkFirst.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+                <h2 className="text-base font-semibold text-white">{supportCopy.mistakesTitle}</h2>
+                <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+                  {supportCopy.mistakes.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          </>
+        )}
 
         {decisionGuide && (
           <section className="mb-8 rounded-xl border border-primary-500/30 bg-primary-500/5 p-5">
@@ -430,6 +459,74 @@ function getCompareBestFor(slug: string, locale: Locale) {
     default:
       return null;
   }
+}
+
+function getCompareSupportCopy(slug: string, locale: Locale) {
+  const zh = isZhLocale(locale);
+  const tw = locale === "tw";
+
+  const generic = {
+    introTitle: zh ? (tw ? "這頁對比最適合怎麼看？" : "这页对比最适合怎么用？") : "How should you use this comparison?",
+    introBody: zh
+      ? (tw
+          ? "先用這頁判斷兩款遊戲在戰鬥節奏、抽卡成本、世界結構與目前上線狀態上的核心差異，再跳去角色、卡池或入坑指南確認細節。這頁最適合做選遊戲判斷，不適合替代單獨的配隊、配置或版本頁。"
+          : "先用这页判断两款游戏在战斗节奏、抽卡成本、世界结构与当前上线状态上的核心差异，再跳去角色、卡池或入坑指南确认细节。这页最适合做选游戏判断，不适合替代单独的配队、配置或版本页。")
+      : "Use this page to judge the biggest differences in combat rhythm, banner cost, world structure, and current live status before jumping into character, banner, or onboarding pages. It is best for choosing between games, not for replacing build, system, or patch guides.",
+    checkFirstTitle: zh ? (tw ? "先看什麼" : "先看什么") : "What should you compare first?",
+    mistakesTitle: zh ? (tw ? "常見誤區" : "常见误区") : "Common mistakes",
+    checkFirst: zh
+      ? [
+          tw ? "先確認你更在意的是戰鬥手感、抽卡友好度，還是世界題材與生活化玩法。" : "先确认你更在意的是战斗手感、抽卡友好度，还是世界题材与生活化玩法。",
+          tw ? "把“現在能不能玩、更新成熟度如何”放進判斷，而不是只看宣傳概念。" : "把“现在能不能玩、更新成熟度如何”放进判断，而不是只看宣传概念。",
+          tw ? "如果你和朋友要一起入坑，順手確認平台、區服與多人邊界。" : "如果你和朋友要一起入坑，顺手确认平台、区服与多人边界。",
+        ]
+      : [
+          "Decide whether combat feel, banner value, or world theme matters most to you first.",
+          "Include live status and update maturity in the comparison instead of judging from trailers alone.",
+          "If you're starting with friends, verify platforms, server tracks, and co-op boundaries too.",
+        ],
+    mistakes: zh
+      ? [
+          tw ? "只看題材相近，就預設兩款遊戲的戰鬥節奏與養成壓力也一樣。" : "只看题材相近，就预设两款游戏的战斗节奏与养成压力也一样。",
+          tw ? "把早期測試資訊或舊版本印象當成現在依然有效的結論。" : "把早期测试信息或旧版本印象当成现在依然有效的结论。",
+          tw ? "只比較抽卡，不比較長線內容成熟度與你真正會玩的日常循環。" : "只比较抽卡，不比较长线内容成熟度与自己真正会玩的日常循环。",
+        ]
+      : [
+          "Assuming a similar theme means the same combat pace and progression pressure.",
+          "Treating older beta or early-version impressions as if they still define the current game.",
+          "Comparing banner rules only and ignoring long-term content maturity and your actual play loop.",
+        ],
+  };
+
+  if (slug === "nte-vs-honkai-star-rail") {
+    return {
+      ...generic,
+      checkFirst: zh
+        ? [
+            tw ? "先確認你要的是親自操作的動作開放世界，還是回合制隊伍策略。" : "先确认你要的是亲自操作的动作开放世界，还是回合制队伍策略。",
+            tw ? "如果你遊戲時間零碎，順手比較日常耗時與自動化負擔。" : "如果你游戏时间零碎，顺手比较日常耗时与自动化负担。",
+            tw ? "把地圖探索需求和劇情演出偏好一起算進去。" : "把地图探索需求和剧情演出偏好一起算进去。",
+          ]
+        : [
+            "Decide whether you want direct-control open-world action or turn-based team strategy first.",
+            "If your play sessions are short, compare daily-time demand and automation comfort too.",
+            "Weigh exploration needs alongside story-presentation preference.",
+          ],
+      mistakes: zh
+        ? [
+            tw ? "只因為都是二次元抽卡，就把它們當成同一類主玩法。" : "只因为都是二次元抽卡，就把它们当成同一类主玩法。",
+            tw ? "拿單一角色強度直接替代整體玩法匹配度判斷。" : "拿单一角色强度直接替代整体玩法匹配度判断。",
+            tw ? "忽略回合制與動作遊戲在操作負擔上的根本差異。" : "忽略回合制与动作游戏在操作负担上的根本差异。",
+          ]
+        : [
+            "Treating them as the same genre just because both are anime gacha games.",
+            "Using one character's strength to replace the broader fit of the whole game loop.",
+            "Ignoring the basic execution-gap between turn-based and action-heavy play.",
+          ],
+    };
+  }
+
+  return generic;
 }
 
 function getCompareFaqs(slug: string) {

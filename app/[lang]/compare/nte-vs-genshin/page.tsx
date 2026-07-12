@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     title,
     description,
     alternates: hreflangAlternates("compare/nte-vs-genshin", lang),
-    openGraph: { title: `${title} | NTE Guide`, description, type: "article" },
+    openGraph: { title, description, type: "article" },
   };
 }
 
