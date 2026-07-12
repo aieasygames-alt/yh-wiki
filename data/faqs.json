@@ -7037,7 +7037,8 @@
     "questionTw": "異環怎麼解除安裝？如何完全刪除？",
     "answerTw": "**PC解除安裝方法：**\n1. 開啟「設定」→「應用」→ 找到「異環」→ 點選解除安裝\n2. 手動刪除殘留資料夾：`C:\\Users\\你的使用者名稱\\AppData\\Local\\NTE` 和 `C:\\Users\\你的使用者名稱\\AppData\\Roaming\\NTE`\n3. 清空回收站\n\n**手機解除安裝方法：**\n- **Android：** 長按應用圖示 → 應用資訊 → 解除安裝\n- **iOS：** 長按應用圖示 → 移除App → 刪除App\n\n**PS5解除安裝方法：**\n設定 → 儲存 → 遊戲和應用 → 找到異環 → 刪除",
     "categoryTw": "通用",
-    "seoTitleTw": "異環怎麼解除安裝？完全刪除教程(PC/手機/PS5)"
+    "seoTitleTw": "異環怎麼解除安裝？完全刪除教程(PC/手機/PS5)",
+    "seoDescriptionTw": "完整整理異環在 PC、Android、iPhone 與 PS5 的解除安裝步驟，也包含殘留檔案清理方式，方便你徹底刪除遊戲與快取資料。"
   },
   {
     "id": "how-to-reinstall-nte",
@@ -7062,7 +7063,8 @@
     "questionTw": "異環怎麼重新安裝？",
     "answerTw": "如果你之前解除安裝了異環，可以按以下步驟重新安裝：\n\n**PC：** 前往官方網站或啟動器重新下載安裝包\n**手機：** 前往 App Store (iOS) 或 Google Play / 官網 (Android) 重新下載\n**PS5：** 在 PlayStation Store 搜尋「Neverness to Everness」重新下載\n\n重新安裝後，你的賬號資料（角色、進度）會自動同步，因為資料儲存在伺服器端。但本地設定和快取會被清除。",
     "categoryTw": "通用",
-    "seoTitleTw": "異環重新安裝教程 — 賬號資料還在嗎？"
+    "seoTitleTw": "異環重新安裝教程 — 賬號資料還在嗎？",
+    "seoDescriptionTw": "說明異環重新安裝後角色進度會不會保留，並整理 PC、手機與 PS5 的重新下載入口，幫你判斷是否需要先完整移除舊檔。"
   },
   {
     "id": "nte-download-size-storage",
@@ -7088,7 +7090,8 @@
     "questionTw": "異環下載需要多少空間？安裝包多大？",
     "answerTw": "**各平臺安裝大小：**\n\n| 平臺 | 下載包大小 | 安裝後大小 | 推薦預留空間 |\n|------|-----------|-----------|------------|\n| PC | ~40 GB | ~55 GB | 70 GB |\n| PS5 | ~35 GB | ~50 GB | 65 GB |\n| Android | ~20 GB | ~25 GB | 30 GB |\n| iOS | ~18 GB | ~22 GB | 28 GB |\n\n安裝後會額外下載資源包（語音、高畫質材質等），建議預留更多空間。如果空間不足，可以在設定中選擇「低畫質資源包」減小佔用。",
     "categoryTw": "通用",
-    "seoTitleTw": "異環下載大小 — PC/手機/PS5各平臺儲存需求"
+    "seoTitleTw": "異環下載大小 — PC/手機/PS5各平臺儲存需求",
+    "seoDescriptionTw": "整理異環在 PC、PS5、Android 與 iPhone 的下載大小、安裝後容量與建議預留空間，也說明語音包與高畫質資源會額外佔用多少。"
   },
   {
     "id": "nte-wont-launch-after-install",
@@ -7114,7 +7117,8 @@
     "questionTw": "異環安裝後打不開/閃退怎麼辦？",
     "answerTw": "**常見解決方法：**\n\n1. **檢查配置要求** — 確保裝置滿足最低配置\n2. **更新顯示卡驅動** — NVIDIA/AMD 最新驅動\n3. **驗證檔案完整性** — 啟動器內點選「修復」\n4. **關閉防毒軟體** — 部分防毒可能誤殺遊戲檔案\n5. **以管理員身份執行** — 右鍵→以管理員身份執行\n6. **清理臨時檔案** — 刪除 `AppData\\Local\\Temp` 下的 NTE 臨時檔案\n\n如果以上方法都無效，建議完全解除安裝後重新安裝。詳見[解除安裝教程](/faq/how-to-uninstall-nte)。",
     "categoryTw": "通用",
-    "seoTitleTw": "異環打不開/閃退的解決方法"
+    "seoTitleTw": "異環打不開/閃退的解決方法",
+    "seoDescriptionTw": "整理異環安裝後無法啟動、黑畫面或閃退時的排查方向，包括驅動、檔案修復、權限、防毒誤攔與重裝判斷。"
   },
   {
     "id": "ios-release-date",
@@ -7137,7 +7141,13 @@
     "relatedMaterials": [],
     "questionTw": "異環iOS版什麼時候上線？iPhone/iPad能玩嗎？",
     "answerTw": "這條 iOS FAQ 現在不該繼續寫成「官方已確認開發中、預計後續推出」的等待頁。對當前搜尋使用者來說，更有用的是先判斷：**iPhone / iPad 現在是不是有效入口、如果能玩應該關注什麼、如果還不能玩該看哪裡。**\n\n更穩妥的回答方式是：\n1. 不把未經持續更新的舊配置表直接當成當前最終標準\n2. 不把「預計上線」當成已經落定的時間承諾\n3. 如果你現在是為了選裝置，重點應放在帳號互通、觸控體驗、手柄支援和實際可下載狀態\n\n也就是說，這頁現在保留的是**iOS 平臺判斷邏輯**，幫助使用者識別自己是在查歷史預熱資訊，還是在查當前可玩狀態，而不是繼續沿用早期的上線預測文案。",
-    "categoryTw": "平臺"
+    "categoryTw": "平臺",
+    "seoTitleZh": "异环 iOS 版能玩吗？iPhone / iPad 入口与状态判断",
+    "seoDescriptionZh": "这页主要帮你判断异环在 iPhone 和 iPad 上现在是否属于有效入口，以及查看 App Store、账号互通、手柄支持时该优先确认什么。",
+    "seoTitleEn": "Can You Play NTE on iPhone or iPad? iOS Access Check Guide",
+    "seoDescriptionEn": "Use this page to judge whether NTE is a real iOS option for your region right now, including App Store availability, account sync, controller support, and live access status.",
+    "seoTitleTw": "異環 iOS 版能玩嗎？iPhone / iPad 入口與狀態判斷",
+    "seoDescriptionTw": "這頁主要幫你判斷異環在 iPhone 和 iPad 上現在是不是有效入口，以及查看 App Store、帳號互通和手柄支援時該先確認什麼。"
   },
   {
     "id": "hotori-worth-pulling-building",
@@ -7160,7 +7170,13 @@
     "relatedMaterials": [],
     "questionTw": "異環Hototi（穗乃果）值得抽嗎？值得培養嗎？優先順序如何？",
     "answerTw": "穗乃果（Hotori）值不值得抽和培養，現在更適合看**她能不能補上你帳號真正缺的輸出位或玩法偏好**，而不是繼續沿用某個階段的 Tier 標籤。對目前玩家來說，更實用的判斷點通常是：她能不能進入你的主隊、她的手感是否適合你，以及她和後續卡池相比的機會成本大不大。\n\n更穩妥的判斷方式是：\n1) 如果你缺少她所在定位或屬性區間裡的穩定輸出，她的投入價值會更高\n2) 如果你本來就喜歡這類站場、爆發或操作節奏，她的長期使用率通常也會更高\n3) 如果你已經有成熟主力且資源緊張，就應該先比較她和後續角色誰更能提升你的常用陣容\n\n所以這頁現在保留的是**Hotori 的抽取價值與培養適配邏輯**，而不是繼續把舊版本區間評級當成當前結論。",
-    "categoryTw": "角色"
+    "categoryTw": "角色",
+    "seoTitleZh": "异环 Hotori（穗乃果）值得抽吗？培养优先级分析",
+    "seoDescriptionZh": "从主队适配、输出补位、操作手感和后续卡池机会成本几个方向，判断 Hotori 是否值得抽取与长期培养。",
+    "seoTitleEn": "Is Hotori Worth Pulling in NTE? Build Priority and Pull Value",
+    "seoDescriptionEn": "Evaluate Hotori by roster fit, damage-role coverage, playstyle comfort, and banner opportunity cost instead of relying on one outdated tier label.",
+    "seoTitleTw": "異環 Hotori（穗乃果）值得抽嗎？培養優先順序分析",
+    "seoDescriptionTw": "從主隊適配、輸出補位、操作手感與後續卡池機會成本幾個方向，判斷 Hotori 是否值得抽取與長期培養。"
   },
   {
     "id": "nte-ai-generated-content",
@@ -7181,7 +7197,13 @@
     "relatedMaterials": [],
     "questionTw": "異環遊戲中是否有AI生成的內容？AI素材爭議說明",
     "answerTw": "關於異環中AI生成內容的爭議說明：\n\n**Ironmouse事件（2026年5月）**：\n知名VTuber Ironmouse受邀為異環做推廣，但在直播後發現遊戲內部分素材使用了AI生成技術。Ironmouse公開表示開發團隊在合作前聲稱未使用AI，隨後取消了合作並公開批評。\n\n**爭議經過**：\n1. Ironmouse接受異環贊助推廣\n2. 玩家發現遊戲內素材疑似AI生成\n3. Ironmouse公開表示被誤導，取消合作\n4. Hotta Studio隨後承認使用了AI輔助生成部分素材\n5. 社群對AI使用的透明度問題展開激烈討論\n6. Dexerto、Kotaku等多家媒體進行了報道\n\n**官方回應**：\n- Hotta Studio確認部分素材使用了AI輔助\n- 表示AI主要用於輔助而非替代人工創作\n- 承諾未來會提高AI使用的透明度\n\n**社群分歧**：\n- 一部分玩家認為AI輔助不影響遊戲體驗\n- 一部分玩家認為應該提前告知\n- 還有觀點認為關鍵在於最終品質而非創作工具\n\n**對玩家的實際影響**：\n- 遊戲核心玩法（戰鬥、探索、抽卡）不受影響\n- 角色設計和場景美術總體仍處於較高水平\n- 不影響角色平衡和遊戲機制\n\n**建議**：\n親自體驗遊戲後做出自己的判斷。NTE的玩法品質在同類遊戲中仍然具有競爭力。",
-    "categoryTw": "綜合"
+    "categoryTw": "綜合",
+    "seoTitleZh": "异环 AI 生成内容争议说明 — 素材、回应与玩家关注点",
+    "seoDescriptionZh": "整理异环 AI 素材争议的来龙去脉，重点解释玩家为什么在意透明度、素材来源和官方后续回应，而不是只复述事件时间线。",
+    "seoTitleEn": "NTE AI Asset Controversy Explained: What Players Actually Care About",
+    "seoDescriptionEn": "Understand the NTE AI-content controversy through transparency, sourcing, and trust concerns rather than a simple event recap.",
+    "seoTitleTw": "異環 AI 生成內容爭議說明 — 素材、回應與玩家關注點",
+    "seoDescriptionTw": "整理異環 AI 素材爭議的來龍去脈，重點說明玩家為什麼在意透明度、素材來源和官方後續回應，而不是只重複事件時間線。"
   },
   {
     "id": "lacrimosa-character-preview",
@@ -7210,7 +7232,8 @@
     "questionTw": "異環Lacrimosa（拉克里莫莎）是誰？值得抽嗎？武器切換機制詳解",
     "answerTw": "Lacrimosa（拉克里莫莎）已經不是「1.1 新角預告」，而是可以按**實裝後定位**來判斷的角色。她的核心賣點依舊是武器切換機制：不同形態對應不同攻擊節奏和技能覆蓋，操作上限高，適合願意練手法的玩家。\n\n**現在怎麼看她值不值得抽／培養：**\n- 如果你缺少一個有明顯個人輸出能力的混沌體系主 C，她依然有培養價值\n- 如果你更偏好手感、連段和切形態玩法，她比很多站場角色更有操作樂趣\n- 如果你的帳號已經有成熟主 C、資源又緊張，就要看她是否真的能進你的主隊，而不是只因為「早期討論熱度高」就補票\n\n**實用判斷方式：**\n1. 看你是否缺混沌核心輸出位\n2. 看你能不能接受更高操作要求\n3. 看你是否還有資源兼顧後續版本角色\n\n簡而言之，Lacrimosa 不是那種所有帳號都必須補的泛用人權卡，但對想玩高操作主 C、或正好缺混沌輸出的玩家，仍然是有明確價值的選擇。",
     "categoryTw": "角色",
-    "seoTitleTw": "異環Lacrimosa值得抽嗎？武器切換機制、配隊與Build前瞻"
+    "seoTitleTw": "異環Lacrimosa值得抽嗎？武器切換機制、配隊與Build前瞻",
+    "seoDescriptionTw": "快速認識異環 Lacrimosa 的定位、武器切換機制與抽取價值，適合想先判斷她是否符合自己主隊需求的玩家。"
   },
   {
     "id": "v11-qol-grind-reduction",
@@ -7239,7 +7262,8 @@
     "questionTw": "異環1.1版本會減少日常任務嗎？官方承認太肝的減負詳情",
     "answerTw": "完美世界已正式確認將在1.1版本中減少日常負擔：\n\n**背景**：\n社群大量反饋日常任務過於繁重後，完美世界公開承認遊戲過於肝爆（grindy），並承諾在1.1版本中實施減負措施。這在遊戲行業中非常罕見。\n\n**確認的減負內容**：\n\n1. **每日任務減量**\n   - 從4個日常任務減少至2-3個\n   - 目標：日常控制在10分鐘以內\n\n2. **周常任務精簡**\n   - 減少重複性周常任務\n   - 保留核心獎勵不變\n\n3. **粉色爪幣活動調整**\n   - 粉色爪幣（Pink Paw Coin）活動難度過高\n   - 將在1.1中下調難度\n   - 讓更多玩家能夠完成\n\n4. **日常完成效率**\n   - 最佳化掃蕩流程\n   - 減少不必要的載入和等待\n\n**對玩家的影響**：\n- 日常時間從15-20分鐘降至約10分鐘\n- 每週可節省約1小時遊戲時間\n- 核心獎勵不會減少，只是獲取方式更高效\n\n**開發者態度**：\n完美世界表示這是「傾聽社群聲音的直接結果」，並承諾會持續監控玩家的日常負擔。如果1.1版本的減負不夠，將進一步調整。",
     "categoryTw": "系統",
-    "seoTitleTw": "異環1.1版本減負詳情：官方承認太肝，日常任務減少、粉色爪幣下調"
+    "seoTitleTw": "異環1.1版本減負詳情：官方承認太肝，日常任務減少、粉色爪幣下調",
+    "seoDescriptionTw": "回顧異環 1.1 在日常、周常與活動負擔上的調整內容，幫你區分哪些屬於歷史版本改動、哪些仍影響當前體驗判斷。"
   },
   {
     "id": "banner-schedule-roadmap-1-1",
@@ -7267,7 +7291,8 @@
     "questionTw": "異環1.1版本卡池時間表：下一個限定角色是誰？抽卡路線圖",
     "answerTw": "這條 FAQ 現在更適合作為**1.1 版本歷史卡池記錄**來看，而不是當前抽卡日曆。它最初記錄的是 1.0 末期到 1.1 週期的角色安排，用來回答「當時 Lacrimosa 之後是誰、玩家怎麼規劃保底」。\n\n如果你是為了查現在的下一個限定角色，這裡已經不是最準的入口，因為卡池資訊會隨著版本繼續推進而過期。當前仍然有效的部分主要有兩點：\n\n1. **保底邏輯**：限定角色池 90 抽硬保底、無 50/50、保底繼承，這些抽卡規劃原則依舊重要\n2. **資源思路**：零氪和微氪最好按「每個版本至少保一個核心目標」的方式做預算，不要同時追太多限定\n\n如果你要做即時抽卡規劃，請優先查看網站上的最新卡池時間表；如果你要回顧 1.1 版本歷史，這條 FAQ 仍然保留參考價值。",
     "categoryTw": "抽卡",
-    "seoTitleTw": "異環1.1卡池時間表 — Lacrimosa/Chaos上線順序與抽卡建議"
+    "seoTitleTw": "異環1.1卡池時間表 — Lacrimosa/Chaos上線順序與抽卡建議",
+    "seoDescriptionTw": "把異環 1.1 當時的卡池順序與抽卡思路整理成歷史歸檔，同時保留現在仍適用的保底與版本預算規劃原則。"
   },
   {
     "id": "free-s-rank-selector-box-guide",
@@ -7295,7 +7320,8 @@
     "questionTw": "異環免費S級自選箱怎麼選？哪個角色最值得選？",
     "answerTw": "這條「免費 S 級自選箱怎麼選」頁面，現在更適合回答**你的帳號最缺什麼功能位**，而不是繼續沿用某個早期版本裡的固定排名。對目前玩家來說，更穩妥的思路通常是：先看你缺不缺主輸出，再看缺不缺泛用輔助、生存或補短板角色，而不是只追「所有人都選同一個」。\n\n更實用的理解方式是：\n1. 如果你的開荒進度慢，優先補能直接改善推進效率的核心位\n2. 如果你已經有穩定主力，就更應該用自選箱修正陣容缺口，而不是重複堆同類角色\n3. 自選箱最怕的不是「沒選到版本答案」，而是選了一個和現有帳號重疊度太高、短期內用不上的角色\n\n所以這頁現在保留的是**自選箱的決策邏輯**，幫助你按帳號現狀做選擇，而不是繼續輸出一張很快會過時的固定推薦榜。",
     "categoryTw": "抽卡",
-    "seoTitleTw": "異環免費S級自選箱選擇攻略 — 娜娜莉、零、哈尼爾誰最值得選？"
+    "seoTitleTw": "異環免費S級自選箱選擇攻略 — 娜娜莉、零、哈尼爾誰最值得選？",
+    "seoDescriptionTw": "整理異環免費 S 級自選箱的選角思路，從開荒補位、主隊需求與長期保值性三個角度判斷誰最值得優先拿。"
   },
   {
     "id": "arc-banner-odds-explained",
@@ -7316,7 +7342,13 @@
     "relatedMaterials": [],
     "questionTw": "異環弧盤（武器）池機率為什麼爭議很大？值得抽嗎？",
     "answerTw": "這條「弧盤池值不值得抽」FAQ，現在更該回答**為什麼很多玩家會把它看成後置消費，而不是開服或每版本都要同步投入的池子。** 對多數人來說，真正的問題不是某個精確歪率，而是角色提升和裝備提升相比，哪個更能直接改善體驗。\n\n更穩妥的判斷方式通常是：\n1. 如果你連核心角色都還沒補齊，弧盤池往往不是優先項\n2. 如果你的目標是把已有主力再往上推，才更需要考慮裝備/弧盤投入\n3. 零氪或微氪玩家最怕的不是「抽不到」，而是把版本資源分散後兩個目標都沒拉滿\n\n所以這頁現在保留的是**弧盤池的決策順序與投入時機**，而不是繼續圍繞一組容易被反覆搬運的數字打轉。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleZh": "异环弧盘池为什么争议大？武器池值不值得抽",
+    "seoDescriptionZh": "从回报预期、角色优先级与资源容错率分析异环弧盘池的争议点，帮助你判断武器池是否值得投入。",
+    "seoTitleEn": "Why Is the NTE Arc Banner So Controversial? Is It Worth Pulling?",
+    "seoDescriptionEn": "Break down the Arc banner debate through expected value, roster priorities, and resource risk so you can judge whether the weapon pool is worth your pulls.",
+    "seoTitleTw": "異環弧盤池為什麼爭議大？武器池值不值得抽",
+    "seoDescriptionTw": "從回報預期、角色優先順序與資源容錯率分析異環弧盤池的爭議點，幫你判斷武器池是否值得投入。"
   },
   {
     "id": "expected-pull-count-each-banner",
@@ -7336,7 +7368,13 @@
     "relatedMaterials": [],
     "questionTw": "異環各卡池期望抽數是多少？平均多少抽出金？",
     "answerTw": "這條「各池期望抽數」頁面，現在更適合拿來做**預算順序判斷**，而不是把幾個平均值當成放之四海而皆準的結論。對目前玩家來說，更有用的是知道：角色池、弧盤池、常駐池、新手池的投入目的根本不同，所以不能只靠「平均多少抽」決定優先級。\n\n更實用的理解方式是：\n1. 角色池更適合圍繞版本目標做集中投入\n2. 弧盤池通常是角色成型後的增強項，而不是多數玩家的第一資源出口\n3. 新手池和常駐池更偏補基礎，而不是每個版本都值得重壓\n\n所以這頁現在保留的是**不同卡池的預算用途與優先順序**，幫助你做資源分配，而不是繼續把一張平均抽數表當成萬能答案。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleZh": "异环各卡池期望抽数整理 — 平均多少抽出金？",
+    "seoDescriptionZh": "按角色池、弧盘池和保底逻辑理解异环各类卡池的期望抽数，帮助你做预算而不是只看单次欧非结果。",
+    "seoTitleEn": "NTE Expected Pull Counts by Banner: How Many Pulls on Average?",
+    "seoDescriptionEn": "Estimate NTE pull budgets by banner type, pity logic, and average gold timing so you can plan resources with realistic expectations.",
+    "seoTitleTw": "異環各卡池期望抽數整理 — 平均多少抽出金？",
+    "seoDescriptionTw": "依照角色池、弧盤池和保底邏輯理解異環各類卡池的期望抽數，幫你做預算而不是只看單次歐非結果。"
   },
   {
     "id": "mobile-optimization-tips",
@@ -7358,7 +7396,13 @@
     "relatedMaterials": [],
     "questionTw": "異環移動端卡頓發熱怎麼辦？最佳畫面設定推薦",
     "answerTw": "異環基於虛幻引擎5開發，對移動端硬體要求較高。最佳化建議：1）降低畫面質量至「流暢」或「均衡」；2）關閉抗鋸齒和陰影；3）鎖定30幀（設定→畫面→幀率）；4）關閉後臺應用釋放記憶體；5）確保儲存空間充足（建議預留15GB以上）。中端手機（驍龍778G/天璣8100以上）推薦「均衡+30幀」設定。高階手機（驍龍8 Gen2以上）可嘗試「高畫質+60幀」。1.1版本已針對移動端做了專項最佳化，發熱和幀率穩定性有所改善。",
-    "categoryTw": "技術支援"
+    "categoryTw": "技術支援",
+    "seoTitleZh": "异环手机发热卡顿怎么办？移动端优化设置建议",
+    "seoDescriptionZh": "整理异环移动端掉帧、发热和耗电问题的排查思路，包含画质、帧率、电池与后台设置的实用调整建议。",
+    "seoTitleEn": "How to Reduce NTE Lag and Overheating on Mobile",
+    "seoDescriptionEn": "Use these NTE mobile optimization tips to reduce stutter, heat, and battery drain through graphics, frame-rate, and device-setting adjustments.",
+    "seoTitleTw": "異環手機發熱卡頓怎麼辦？移動端最佳化設定建議",
+    "seoDescriptionTw": "整理異環移動端掉幀、發熱與耗電問題的排查方向，包含畫質、幀率、電池與背景程式設定的實用調整建議。"
   },
   {
     "id": "bug-exploit-ban-policy",
@@ -7379,7 +7423,13 @@
     "relatedMaterials": [],
     "questionTw": "異環利用BUG會被封號嗎？官方處罰規則是什麼？",
     "answerTw": "對目前玩家來說，這條 BUG 處罰 FAQ 更重要的不是記住某個傳播中的個案時長，而是知道：**利用 BUG 牟利、擴散教程、或明知有問題還持續操作，都可能被官方視為違規。**\n\n更實用的做法是：\n1. 發現 BUG 先保留截圖或錄影，再走客服或官方反饋渠道\n2. 不要因為覺得「只是試一下」就反覆利用，很多處罰判斷看的是是否造成不當收益或擴散影響\n3. 如果 BUG 已經影響到你的資源、充值或任務進度，優先申請人工處理，而不是自行補救到更複雜\n\n所以這頁現在保留的是**BUG 風險判斷與自保方式**，而不是繼續放大某些社群個案數字。",
-    "categoryTw": "遊戲Bug"
+    "categoryTw": "遊戲Bug",
+    "seoTitleZh": "异环利用 BUG 会封号吗？处罚规则与风险判断",
+    "seoDescriptionZh": "这页重点解释异环 BUG 利用的封号风险、灰区判断与自保思路，帮助你避开高风险行为而不是追逐失真案例。",
+    "seoTitleEn": "Can You Get Banned for Using Bugs in NTE? Risk and Penalty Guide",
+    "seoDescriptionEn": "Understand NTE bug-exploit risk through enforcement logic, gray-area behavior, and safer player responses instead of rumor-driven punishment stories.",
+    "seoTitleTw": "異環利用 BUG 會封號嗎？處罰規則與風險判斷",
+    "seoDescriptionTw": "這頁重點說明異環 BUG 利用的封號風險、灰區判斷與自保思路，幫你避開高風險行為而不是追逐失真案例。"
   },
   {
     "id": "gacha-pity-carry-over-details",
@@ -7399,7 +7449,13 @@
     "relatedMaterials": [],
     "questionTw": "異環保底會繼承到下一個卡池嗎？具體規則是什麼？",
     "answerTw": "保底繼承規則如下：1）限定角色池之間的保底計數會繼承（如當前池抽了50次沒出S級，下個限定池從50開始計數）；2）弧盤/武器池之間的保底計數也會繼承；3）但不同型別卡池之間保底不互通（如角色池的保底不計入武器池）；4）新手池是獨立的，不計入其他池。重要提示：角色池不設50/50機制，出S級必為當期UP角色；弧盤池出S級時僅25%機率為UP弧盤，需要額外注意。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleZh": "异环保底会继承吗？跨池规则与抽卡预算说明",
+    "seoDescriptionZh": "解释异环保底在同类型卡池之间如何继承、哪些池子分开计算，以及这条规则对抽卡预算有什么实际意义。",
+    "seoTitleEn": "Does NTE Pity Carry Over? Banner Rule and Budget Guide",
+    "seoDescriptionEn": "Learn how NTE pity carries between banner types, which pools are counted separately, and why that matters for real pull planning.",
+    "seoTitleTw": "異環保底會繼承嗎？跨池規則與抽卡預算說明",
+    "seoDescriptionTw": "說明異環保底在同類型卡池之間如何繼承、哪些池子分開計算，以及這條規則對抽卡預算有什麼實際意義。"
   },
   {
     "id": "pricing-and-value-analysis",
@@ -7420,7 +7476,13 @@
     "relatedMaterials": [],
     "questionTw": "異環氪金價效比怎麼樣？月卡值得買嗎？",
     "answerTw": "這條「氪金價效比」FAQ 現在不適合再把一堆精確期望值和單次福利數字當成長期答案。對當前玩家來說，更有用的是判斷：**異環的付費點主要加速什麼、哪些內容不花錢也能正常玩、以及月卡/通行證這類低額付費值不值得。**\n\n更穩妥的理解方式是：\n1. 商業化核心仍然在角色獲取、外觀與資源加速，而不是把主線或基礎玩法直接鎖進付費牆\n2. 月卡、通行證這類持續型低額付費，通常比一次性衝動抽卡更容易拉高長期價值\n3. 真正影響體驗的不是你有沒有一次課很多，而是你是否知道自己的版本目標和資源節奏\n\n所以這頁現在保留的是**付費價值判斷邏輯**，幫助你區分「想加速」和「非花不可」之間的差別，而不是把早期版本的福利口徑當成固定收益表。",
-    "categoryTw": "充值與賬號"
+    "categoryTw": "充值與賬號",
+    "seoTitleZh": "异环氪金性价比怎么样？月卡和值得买的项目分析",
+    "seoDescriptionZh": "从月卡、通行证、抽卡资源与长期回报几个方向，判断异环付费内容的性价比，而不是只看开服福利印象。",
+    "seoTitleEn": "Is NTE Spending Worth It? Monthly Pass and Value Analysis",
+    "seoDescriptionEn": "Judge NTE monetization through monthly-pass value, spending efficiency, and long-term return instead of relying on launch-era generosity headlines.",
+    "seoTitleTw": "異環氪金價效比怎麼樣？月卡和值得買的項目分析",
+    "seoDescriptionTw": "從月卡、通行證、抽卡資源與長期回報幾個方向，判斷異環付費內容的價效比，而不是只看開服福利印象。"
   },
   {
     "id": "mobile-optimization-guide",
@@ -7443,7 +7505,13 @@
     "relatedMaterials": [],
     "questionTw": "異環手機端最佳化設定推薦？怎麼減少卡頓發熱？",
     "answerTw": "這條「手機端最佳化設定」現在不該再長期綁死在某幾代晶片和固定幀數表上。對目前玩家來說，更有用的是一套**先求穩、再求清晰、最後再追更高幀率**的調整順序。\n\n更實用的思路通常是：\n1. **先把最吃資源的項目往下調**，例如陰影、體積光、後處理、解析度或渲染精度\n2. **先鎖穩定幀率再慢慢往上加**，不要一開始就追高畫質高幀，結果戰鬥時溫度和掉幀一起失控\n3. **同時處理系統層問題**，像後臺應用、儲存空間、充電發熱、性能模式這些，對實際體驗往往和畫面設定一樣重要\n4. 如果你怎麼調都還是卡，問題可能已經不是單個選項，而是設備本身和當前版本負載不太匹配\n\n所以這頁現在保留的是**移動端最佳化的排查順序與取捨原則**，而不是一份很快就會過期的手機晶片對照表。",
-    "categoryTw": "技術支援"
+    "categoryTw": "技術支援",
+    "seoTitleZh": "异环手机端优化指南 — 画质、发热与卡顿怎么调",
+    "seoDescriptionZh": "这份异环手机优化指南整理画质、帧率、后台占用和散热设置，帮助你在移动端兼顾稳定体验和续航。",
+    "seoTitleEn": "Best NTE Mobile Optimization Guide: Graphics, Heat, and Lag",
+    "seoDescriptionEn": "Tune NTE on mobile with practical settings for graphics, frame rate, heat control, and background load to improve stability without blind guesswork.",
+    "seoTitleTw": "異環手機端最佳化指南 — 畫質、發熱與卡頓怎麼調",
+    "seoDescriptionTw": "這份異環手機最佳化指南整理畫質、幀率、背景程式與散熱設定，幫你在移動端兼顧穩定體驗和續航。"
   },
   {
     "id": "ban-rules-and-penalties",
@@ -7466,7 +7534,13 @@
     "relatedMaterials": [],
     "questionTw": "異環什麼行為會封號？封號規則和處罰力度是怎樣的？",
     "answerTw": "這條封號 FAQ 最該避免的，就是把社群流傳的個案時長、極端數字和單次事件直接寫成穩定規則。對目前玩家來說，更有價值的結論其實很簡單：**外掛、腳本、自動化、惡意利用 BUG、賬號交易、以及修改遊戲檔案，都是高風險行為。**\n\n如果你想安全遊玩，實用原則通常只有幾條：\n1. 不要使用第三方工具去影響遊戲邏輯、輸入流程或檔案內容\n2. 不要把「只改外觀」「只做測試」當成天然安全區，因為玩家很難準確知道官方怎麼界定\n3. 遇到 BUG 或異常收益時，先停手、保留記錄、走官方反饋渠道\n4. 不要分享、買賣或借用賬號，這類行為一旦出問題通常很難申訴\n\n所以這頁現在保留的是**高風險行為識別與避坑原則**，而不是繼續強調那些容易失真或被二次傳播放大的處罰案例。",
-    "categoryTw": "充值與賬號"
+    "categoryTw": "充值與賬號",
+    "seoTitleZh": "异环什么行为会封号？规则、处罚与避坑指南",
+    "seoDescriptionZh": "整理异环常见封号风险，包括 BUG 利用、账号共享、异常收益与灰区行为，帮助你判断哪些操作最容易踩线。",
+    "seoTitleEn": "What Gets You Banned in NTE? Rules, Penalties, and Risk Guide",
+    "seoDescriptionEn": "Review the main NTE ban triggers, penalty logic, and player-risk scenarios so you can avoid behavior that commonly crosses the line.",
+    "seoTitleTw": "異環什麼行為會封號？規則、處罰與避坑指南",
+    "seoDescriptionTw": "整理異環常見封號風險，包括 BUG 利用、帳號共享、異常收益與灰區行為，幫你判斷哪些操作最容易踩線。"
   },
   {
     "id": "arc-disc-gacha-controversy",
@@ -7489,7 +7563,13 @@
     "relatedMaterials": [],
     "questionTw": "異環弧盤池機率為什麼被吐槽？弧盤池和角色池有什麼區別？",
     "answerTw": "弧盤池這條 FAQ 現在更應該回答的是：**為什麼很多玩家會覺得角色池和弧盤池的體感差很多。** 對大多數人來說，真正的爭議點不在背某個小數點後的機率，而在於兩者的預期回報和心理落差並不一致。\n\n更穩妥的理解方式是：\n1. 角色池因為目標更明確、抽到核心角色後對體驗提升更直接，所以玩家更容易接受投入\n2. 弧盤池則常被認為成本感更重、回報更慢，尤其對零氪或微氪玩家來說，容錯空間更小\n3. 也正因為如此，很多玩家的實際策略都是**先保角色，再看要不要補裝備/弧盤**，而不是一開始就把兩者當成同等優先級\n\n所以這頁現在保留的是**角色池與弧盤池的體感差異和抽卡取捨邏輯**，而不是繼續把容易過時的具體概率表當成唯一重點。",
-    "categoryTw": "抽卡系統"
+    "categoryTw": "抽卡系統",
+    "seoTitleZh": "异环弧盘池为什么被吐槽？和角色池差别在哪",
+    "seoDescriptionZh": "从角色池与弧盘池的回报节奏、资源优先级和玩家体感差异，解释异环弧盘池争议为什么会持续放大。",
+    "seoTitleEn": "Why Do Players Criticize the NTE Arc Disc Banner?",
+    "seoDescriptionEn": "Compare Arc Disc and character banners through expected returns, roster impact, and pull priority to understand why the Arc banner feels worse to many players.",
+    "seoTitleTw": "異環弧盤池為什麼被吐槽？和角色池差別在哪",
+    "seoDescriptionTw": "從角色池與弧盤池的回報節奏、資源優先順序和玩家體感差異，解釋異環弧盤池爭議為什麼會持續放大。"
   },
   {
     "id": "is-nte-pay-to-win",
@@ -7512,7 +7592,13 @@
     "relatedMaterials": [],
     "questionTw": "異環是氪金遊戲嗎？不充錢能玩嗎？商業化模式分析",
     "answerTw": "這條「異環是不是 pay-to-win」FAQ，現在更適合回答**不充錢會不會被內容卡死，以及花錢主要買到的是什麼。** 對目前玩家來說，比起背開服送了多少抽，更重要的是分清：付費是在加速角色收集、縮短養成時間、補外觀，還是直接決定你能不能玩核心內容。\n\n更穩妥的理解方式是：\n1. 如果一款遊戲的主線、基礎玩法和大部分活動，不充值也能正常參與，那它就不應被簡單歸類成純 pay-to-win\n2. 付費玩家和零氪玩家的差距，更常體現在角色完整度、養成速度和版本追卡能力，而不是能否進入遊戲主要內容\n3. 你的體感好不好，往往取決於你是否願意做資源規劃，而不是單純取決於花不花錢\n\n所以這頁現在保留的是**商業化體驗判斷邏輯**：異環更像一款可以零氪長期玩、但付費能明顯加速節奏的作品，而不是把不付費玩家直接排除在核心內容之外。",
-    "categoryTw": "綜合"
+    "categoryTw": "綜合",
+    "seoTitleZh": "异环是 pay to win 吗？零氪能不能长期玩",
+    "seoDescriptionZh": "判断异环是不是 pay to win，重点看不充值能否稳定推进核心内容、付费主要加速什么，以及零氪玩家该怎么规划资源。",
+    "seoTitleEn": "Is NTE Pay to Win? Can F2P Players Stay Competitive?",
+    "seoDescriptionEn": "Judge whether NTE is pay to win by looking at core-content access, spending impact, and how sustainable long-term F2P play really is.",
+    "seoTitleTw": "異環是 pay to win 嗎？零氪能不能長期玩",
+    "seoDescriptionTw": "判斷異環是不是 pay to win，重點看不充值能否穩定推進核心內容、付費主要加速什麼，以及零氪玩家該怎麼規劃資源。"
   },
   {
     "id": "faq-prison-trigger",
@@ -7532,7 +7618,13 @@
     "relatedMaterials": [],
     "questionTw": "異環通緝怎麼觸發？",
     "answerTw": "這條「通緝怎麼觸發」頁面最大的風險，是把很多玩家對都市開放世界玩法的想像，寫成了像 GTA 一樣的明確星級規則。對當前使用者來說，更穩妥的答案是：**不要把這類星級通緝描述直接當成已被完整驗證的正式系統。**\n\n如果你是因為搜尋聯想詞點進來，現階段更應該這樣理解：\n1. 社群確實會討論交通、警察、城市秩序相關玩法\n2. 但沒有持續更新和官方明確說明的前提下，不適合把闖紅燈、搶車、襲警之類條件寫成固定觸發表\n3. 真正可靠的內容仍應以遊戲內當前版本體驗和官方後續說明為準\n\n所以這頁現在更偏向**澄清玩法狀態**，而不是繼續擴寫一套看似完整、實際上容易誤導的通緝規則。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环通缉怎么触发？先看这套玩法是否已被证实",
+    "seoDescriptionZh": "这页主要澄清异环通缉系统的真实性与当前验证状态，避免把社区想象中的规则误当成已经正式实装的固定机制。",
+    "seoTitleEn": "How Does the Wanted System Trigger in NTE? Verification First",
+    "seoDescriptionEn": "This page clarifies what is and is not actually verified about NTE's wanted-system rumors so players do not mistake speculation for confirmed mechanics.",
+    "seoTitleTw": "異環通緝怎麼觸發？先看這套玩法是否已被證實",
+    "seoDescriptionTw": "這頁主要澄清異環通緝系統的真實性與目前驗證狀態，避免把社群想像中的規則誤當成已經正式實裝的固定機制。"
   },
   {
     "id": "faq-prison-escape",
@@ -7552,7 +7644,13 @@
     "relatedMaterials": [],
     "questionTw": "異環監獄怎麼越獄？",
     "answerTw": "這條「監獄怎麼越獄」內容現在最明顯的問題，就是把一整套極具戲劇性的流程寫得像已驗證攻略。對當前使用者來說，更重要的其實是先知道：**沒有足夠可靠的官方與實機依據時，不應把越獄路線、材料步驟或獎勵寫成已存在的正式玩法。**\n\n如果你搜到這條，現階段更穩妥的結論是：\n1. 這類內容更像社群延伸想像或傳播過程中的二次加工\n2. 不能直接把它當成遊戲內可穩定複現的功能攻略\n3. 真有相關玩法時，也應以後續版本更新與實機驗證為準\n\n所以這頁現在保留的是**辨別真實性**的作用，而不是繼續提供一份像任務 walkthrough 的假定攻略。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环监狱怎么越狱？先判断这是不是已实装玩法",
+    "seoDescriptionZh": "说明异环“越狱”相关内容目前更像社区传播和想象延伸，帮助你分辨哪些说法缺少可靠实机与官方依据。",
+    "seoTitleEn": "Can You Escape Prison in NTE? What Is Actually Verified",
+    "seoDescriptionEn": "Use this page to separate rumor-shaped prison-break content from live, verifiable NTE gameplay before treating it like a real walkthrough.",
+    "seoTitleTw": "異環監獄怎麼越獄？先判斷這是不是已實裝玩法",
+    "seoDescriptionTw": "說明異環「越獄」相關內容目前更像社群傳播和想像延伸，幫助你分辨哪些說法缺少可靠實機與官方依據。"
   },
   {
     "id": "faq-prison-penalty",
@@ -7571,7 +7669,13 @@
     "relatedMaterials": [],
     "questionTw": "異環入獄有什麼懲罰？",
     "answerTw": "這條「入獄有什麼懲罰」同樣不適合再寫成一套已確定的懲罰數值與獎勵規則。對目前玩家來說，更需要的是一個提醒：**不要把社群傳播中的監獄、罰金、時裝獎勵、越獄玩法，直接理解成當前版本已正式存在的固定機制。**\n\n更穩妥的理解方式是：\n1. 這類內容目前缺少足夠可靠的持續驗證來源\n2. 即便遊戲有城市秩序或特殊處理機制，也不代表已經存在完整的「被捕 - 入獄 - 越獄 - 領獎勵」閉環\n3. 如果官方後續真的把這部分做成正式系統，再根據當時規則補全攻略才比較準確\n\n所以這頁現在的作用是**避免誤導使用者**，而不是把高戲劇性的傳播內容包裝成已實裝懲罰系統。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环入狱有什么惩罚？别把传闻当正式机制",
+    "seoDescriptionZh": "这页重点提醒你如何看待异环监狱、罚金和越狱奖励等传闻内容，避免把未证实传播说法当成当前版本规则。",
+    "seoTitleEn": "What Are the Prison Penalties in NTE? Rumor vs Reality",
+    "seoDescriptionEn": "Understand why prison-penalty claims in NTE should be treated cautiously unless they are backed by durable official or live-version evidence.",
+    "seoTitleTw": "異環入獄有什麼懲罰？別把傳聞當正式機制",
+    "seoDescriptionTw": "這頁重點提醒你如何看待異環監獄、罰金和越獄獎勵等傳聞內容，避免把未證實的傳播說法當成當前版本規則。"
   },
   {
     "id": "faq-pity-inherit",
@@ -7591,7 +7695,13 @@
     "relatedMaterials": [],
     "questionTw": "異環保底不繼承跨池怎麼辦？",
     "answerTw": "異環的保底計數在同一型別的卡池之間會繼承。限定角色池之間的保底互相繼承，常駐池保底獨立計算。關注每個卡池的保底計數，合理規劃抽卡資源。",
-    "categoryTw": "抽卡"
+    "categoryTw": "抽卡",
+    "seoTitleZh": "异环保底继承吗？同类卡池跨池规则说明",
+    "seoDescriptionZh": "快速说明异环保底在同类型卡池之间是否继承，以及常驻池、新手池和限定池为什么不能混算。",
+    "seoTitleEn": "Does NTE Pity Carry Over Between Banners?",
+    "seoDescriptionEn": "A quick explanation of how pity works across the same banner type in NTE, and why standard, beginner, and limited banners should be counted separately.",
+    "seoTitleTw": "異環保底會繼承嗎？同類卡池跨池規則說明",
+    "seoDescriptionTw": "快速說明異環保底在同類型卡池之間是否繼承，以及常駐池、新手池和限定池為什麼不能混算。"
   },
   {
     "id": "faq-f2p-viable",
@@ -7611,7 +7721,13 @@
     "relatedMaterials": [],
     "questionTw": "異環零氪能玩嗎？",
     "answerTw": "能玩，而且判斷零氪能不能玩，現在更應該看**日常資源節奏和版本目標能不能跟上**，而不是只看開服時曾經送過多少抽。異環對零氪仍然算友好，原因主要在於限定角色池規則相對清晰、主線與大部分玩法內容不需要強制付費、而且角色獲取規劃比很多傳統 50/50 抽卡遊戲更可控。\n\n對現在的零氪玩家來說，真正重要的是：\n1. **能正常體驗核心內容**，不充值也不會直接被卡死\n2. **要學會攢版本目標**，不要看到池子就抽\n3. **帳號強度更依賴規劃而不是衝動消費**，包括主線、活動、探索和養成節奏\n\n所以結論依然是正面的：異環可以零氪長期玩，但更適合願意做資源規劃的玩家，而不是期待靠單次福利就把後面所有版本都吃滿。",
-    "categoryTw": "新手"
+    "categoryTw": "新手",
+    "seoTitleZh": "异环零氪能玩吗？F2P 长期可玩性判断",
+    "seoDescriptionZh": "从主线推进、活动参与、资源规划和版本取舍几个方向，判断异环对零氪玩家到底友不友好。",
+    "seoTitleEn": "Is NTE F2P Friendly? Long-Term Free-to-Play Outlook",
+    "seoDescriptionEn": "See how viable NTE is for F2P players by looking at story access, event progress, saving pressure, and long-term roster planning.",
+    "seoTitleTw": "異環零氪能玩嗎？F2P 長期可玩性判斷",
+    "seoDescriptionTw": "從主線推進、活動參與、資源規劃和版本取捨幾個方向，判斷異環對零氪玩家到底友不友好。"
   },
   {
     "id": "faq-platform-ps5",
@@ -7631,7 +7747,13 @@
     "relatedMaterials": [],
     "questionTw": "異環PS5可以玩嗎？",
     "answerTw": "如果你現在搜「異環 PS5 可以玩嗎」，更實際的重點不是重複開服日期，而是確認 **PS5 是否屬於當前可選入口、以及它和 PC／手機相比值不值得選**。對主機玩家來說，通常最關心的是手柄體驗、畫面穩定度、下載入口，以及是否能和既有帳號做資料同步。\n\n所以更有用的理解方式是：\n1. 先看你目前所在區服是否對應到可正常登入的 PS5 入口\n2. 再看你是否需要和 PC／手機共用同一套帳號進度\n3. 如果你更重視大螢幕與原生手柄操作，PS5 通常比移動端更省心；如果你更在意隨時切平台，就要把帳號綁定和區服選擇放在前面\n\n也就是說，這頁現在保留的是**PS5 平台是否值得選與怎麼判斷入口狀態**，而不是只重複一條早期的上線時間資訊。",
-    "categoryTw": "平臺"
+    "categoryTw": "平臺",
+    "seoTitleZh": "异环 PS5 可以玩吗？主机端入口与账号互通说明",
+    "seoDescriptionZh": "判断异环在 PS5 上是否值得作为主入口，重点看下载渠道、手柄体验、画面稳定度和与 PC/手机的数据同步。",
+    "seoTitleEn": "Can You Play NTE on PS5? Console Access and Cross-Save Guide",
+    "seoDescriptionEn": "Check whether PS5 is the right NTE entry point by comparing console access, controller feel, visual stability, and account sync with PC and mobile.",
+    "seoTitleTw": "異環 PS5 可以玩嗎？主機端入口與賬號互通說明",
+    "seoDescriptionTw": "判斷異環在 PS5 上是否值得當成主入口，重點看下載渠道、手柄體驗、畫面穩定度以及和 PC、手機的資料同步。"
   },
   {
     "id": "faq-cn-vs-global",
@@ -7651,7 +7773,13 @@
     "relatedMaterials": [],
     "questionTw": "異環國服和國際服有什麼區別？",
     "answerTw": "國服由完美世界運營，國際服由Hotta Studio直接運營。內容更新節奏基本同步，但兌換碼可能不同（部分兌換碼僅限特定區域）。資料不互通，國服和國際服賬號獨立。",
-    "categoryTw": "平臺"
+    "categoryTw": "平臺",
+    "seoTitleZh": "异环国服和国际服有什么区别？区服、账号与兑换码对比",
+    "seoDescriptionZh": "快速分清异环国服和国际服在运营、账号体系、兑换码与数据互通上的差异，避免和朋友选错区服。",
+    "seoTitleEn": "NTE CN vs Global: Server, Account, and Code Differences",
+    "seoDescriptionEn": "Compare NTE CN and global servers through publishing, account separation, redeem-code differences, and data-transfer limits before choosing where to play.",
+    "seoTitleTw": "異環國服和國際服有什麼區別？區服、賬號與兌換碼對比",
+    "seoDescriptionTw": "快速分清異環國服和國際服在營運、賬號體系、兌換碼與資料互通上的差異，避免和朋友選錯區服。"
   },
   {
     "id": "faq-cross-save",
@@ -7670,7 +7798,13 @@
     "relatedMaterials": [],
     "questionTw": "異環資料互通嗎？",
     "answerTw": "是的。同一賬號可在PC、安卓、iOS、鴻蒙四大平臺登入並同步遊戲進度。PS5也支援跨平臺存檔同步。但國服和國際服資料不互通。",
-    "categoryTw": "平臺"
+    "categoryTw": "平臺",
+    "seoTitleZh": "异环数据互通吗？跨平台存档与区服限制说明",
+    "seoDescriptionZh": "说明异环在 PC、手机与 PS5 之间的数据同步规则，也提醒你国服和国际服为什么不能直接互通。",
+    "seoTitleEn": "Does NTE Support Cross-Save? Platform and Server Rules",
+    "seoDescriptionEn": "Learn how NTE cross-save works across PC, mobile, and PS5, plus why CN and global server data should still be treated as separate.",
+    "seoTitleTw": "異環資料互通嗎？跨平臺存檔與區服限制說明",
+    "seoDescriptionTw": "說明異環在 PC、手機與 PS5 之間的資料同步規則，也提醒你國服和國際服為什麼不能直接互通。"
   },
   {
     "id": "faq-mute-taygedo",
@@ -7692,7 +7826,13 @@
     "relatedMaterials": [],
     "questionTw": "異環怎麼關閉Taygedo的聲音？",
     "answerTw": "如果你是想關掉 Taygedo 的聲音，這條 FAQ 更實用的重點其實不是死記某一次更新日期，而是：**這類 NPC 語音開關通常會出現在遊戲設定裡的語音、音效或角色互動相關選項。**\n\n對現在的玩家來說，更穩妥的做法是：\n1. 先到設定裡查看語音或音訊分類是否有單獨的角色/NPC 音量控制\n2. 如果沒有獨立選項，再看是否只能透過降低語音總音量或互動音效來處理\n3. 具體開關位置可能會隨版本調整，所以比起記更新日期，更重要的是知道要往哪個設定區塊找\n\n所以這頁現在保留的是**功能查找思路**，而不是只靠一條很快就會過時的版本時間點來回答。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环怎么关闭 Taygedo 声音？设置位置与处理思路",
+    "seoDescriptionZh": "这页告诉你该去哪里找 Taygedo 的语音开关，以及当没有独立选项时还能从哪些音效设置下手。",
+    "seoTitleEn": "How to Mute Taygedo in NTE: Settings Guide",
+    "seoDescriptionEn": "Find where Taygedo's voice mute option is most likely located in NTE settings and what to adjust if there is no dedicated toggle.",
+    "seoTitleTw": "異環怎麼關閉 Taygedo 聲音？設定位置與處理思路",
+    "seoDescriptionTw": "這頁告訴你該去哪裡找 Taygedo 的語音開關，以及當沒有獨立選項時還能從哪些音效設定下手。"
   },
   {
     "id": "faq-lacrimosa-team",
@@ -7714,7 +7854,13 @@
     "relatedMaterials": [],
     "questionTw": "異環安魂曲需要早霧嗎？",
     "answerTw": "這條「安魂曲需不需要早霧」FAQ，現在不適合再把某個百分比損失或固定梯度結論寫死。對目前玩家來說，更有用的判斷方式是：**早霧這類角色是否剛好補上安魂曲最需要的循環、增益或輸出窗口。**\n\n如果你是在考慮是否一定要綁定早霧，建議優先看三件事：\n1. 你的安魂曲隊伍是不是缺一個能讓輸出節奏更順的支援位\n2. 你現在的替代角色，能不能提供相近的增益、覆蓋或輪轉穩定性\n3. 你的抽卡資源是否值得為了追求更完整體系，再去補另一個角色\n\n所以這頁現在保留的是**配隊依賴度的判斷思路**，而不是繼續把單一社群流派結論寫成所有帳號都適用的硬性答案。",
-    "categoryTw": "配隊"
+    "categoryTw": "配隊",
+    "seoTitleZh": "异环安魂曲需要早雾吗？配队依赖与替代思路",
+    "seoDescriptionZh": "分析安魂曲对早雾这类关键队友的依赖度，并判断你的现有辅助是否足以支撑她的输出节奏与投入价值。",
+    "seoTitleEn": "Does Lacrimosa Need Hayashikiri in NTE? Team Dependency Guide",
+    "seoDescriptionEn": "See how dependent Lacrimosa is on Hayashikiri-style support and whether your current roster can cover her rotation and damage needs.",
+    "seoTitleTw": "異環安魂曲需要早霧嗎？配隊依賴與替代思路",
+    "seoDescriptionTw": "分析安魂曲對早霧這類關鍵隊友的依賴度，並判斷你現有的輔助是否足以支撐她的輸出節奏與投入價值。"
   },
   {
     "id": "faq-shinku-release",
@@ -7736,7 +7882,13 @@
     "relatedMaterials": [],
     "questionTw": "異環真紅什麼時候出？",
     "answerTw": "真紅（Shinku）已於 2026 年 7 月 8 日隨異環 1.2「999 Nights」版本上線，目前限定卡池開放至 2026-07-29 05:59（UTC+8）。她定位為 Cosmos 爆發輸出角色，同期專屬 Arc 為 Blushing Mirage。如果你是想確認現在能不能抽，答案是可以，她目前就在 1.2 上半卡池。",
-    "categoryTw": "角色"
+    "categoryTw": "角色",
+    "seoTitleZh": "异环真红什么时候出？1.2 卡池上线时间与当前状态",
+    "seoDescriptionZh": "确认真红在异环 1.2 里的上线时间、卡池阶段与定位，适合想判断现在还能不能抽到她的玩家。",
+    "seoTitleEn": "When Does Shinku Release in NTE? Banner Timing and Status",
+    "seoDescriptionEn": "Check Shinku's release timing, banner window, and current Version 1.2 status in NTE if you want to know whether she is available now.",
+    "seoTitleTw": "異環真紅什麼時候出？1.2 卡池上線時間與目前狀態",
+    "seoDescriptionTw": "確認真紅在異環 1.2 裡的上線時間、卡池階段與定位，適合想判斷現在還能不能抽到她的玩家。"
   },
   {
     "id": "zhenhong-worth-pulling",
@@ -7760,7 +7912,13 @@
     "relatedMaterials": [],
     "questionTw": "異環真紅值得抽嗎？",
     "answerTw": "如果你缺一個能打 1.2 核心內容的主 C，真紅值得抽。她最大的價值不是「單卡有多離譜」，而是她剛好踩在 1.2 版本的主環境裡：999夜、高壓戰鬥節點、短窗口爆發需求都很契合。反過來，如果你主 C 體系已經夠完整，現在更缺的是輔助、生存或後續版本資源，那麼跳過也完全合理。",
-    "categoryTw": "角色"
+    "categoryTw": "角色",
+    "seoTitleZh": "异环真红值得抽吗？1.2 主 C 价值与抽卡优先级",
+    "seoDescriptionZh": "从 1.2 环境适配、主队缺口和资源机会成本几个方向，判断真红是否值得抽以及该不该为她投入版本预算。",
+    "seoTitleEn": "Is Zhenhong Worth Pulling in NTE? Version 1.2 DPS Value",
+    "seoDescriptionEn": "Judge whether Zhenhong deserves your pulls through Version 1.2 relevance, roster gaps, and the opportunity cost of future banners.",
+    "seoTitleTw": "異環真紅值得抽嗎？1.2 主 C 價值與抽卡優先順序",
+    "seoDescriptionTw": "從 1.2 環境適配、主隊缺口和資源機會成本幾個方向，判斷真紅是否值得抽以及該不該為她投入版本預算。"
   },
   {
     "id": "zhenhong-materials",
@@ -7784,7 +7942,13 @@
     "relatedMaterials": [],
     "questionTw": "異環真紅材料要提前準備什麼？",
     "answerTw": "準備真紅時，最實用的順序不是先追一張完美材料表，而是先保證三個層次：一是通用經驗和方斯，二是角色突破素材，三是 1.2 版本裡和光系成長、技能升級有關的新資源。對大多數玩家來說，先把她練到能穩定打出完整循環，比一開始就追畢業詞條更重要。",
-    "categoryTw": "材料獲取"
+    "categoryTw": "材料獲取",
+    "seoTitleZh": "异环真红材料要准备什么？提前囤货顺序整理",
+    "seoDescriptionZh": "整理真红前期最值得先准备的经验、突破与 1.2 新资源，帮助你按优先级囤材料而不是盲目刷满。",
+    "seoTitleEn": "What Materials Should You Prefarm for Zhenhong in NTE?",
+    "seoDescriptionEn": "Plan your Zhenhong prefarm by prioritizing EXP, breakthrough needs, and Version 1.2-specific growth resources instead of overfarming blindly.",
+    "seoTitleTw": "異環真紅材料要準備什麼？提前囤貨順序整理",
+    "seoDescriptionTw": "整理真紅前期最值得先準備的經驗、突破與 1.2 新資源，幫助你按優先順序囤材料而不是盲目刷滿。"
   },
   {
     "id": "faq-unlock-driving",
@@ -7804,7 +7968,13 @@
     "relatedMaterials": [],
     "questionTw": "異環多少級解鎖駕駛？",
     "answerTw": "這條「多少級解鎖駕駛」FAQ 現在更適合回答**駕駛是按主線進度開放，還是按角色等級硬門檻開放**，而不是繼續把某個具體送車節點寫成長期固定說明。對目前玩家來說，更重要的通常是知道：如果你還沒開車，不一定是等級不夠，更可能是主線推進還沒到對應階段。\n\n更穩妥的理解方式是：\n1. 優先把它理解成**主線進度解鎖功能**，而不是純等級條件\n2. 如果你遲遲沒看到駕駛入口，先回頭檢查目前劇情階段和系統提示，而不是只盯角色等級\n3. 具體開放細節和贈送內容仍更適合以當前遊戲內流程為準，而不是只沿用早期版本口徑\n\n所以這頁現在保留的是**駕駛功能的解鎖判斷邏輯**，而不是繼續把某個歷史節點寫成固定規格說明。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环多少级解锁驾驶？主线进度才是关键",
+    "seoDescriptionZh": "说明异环驾驶功能更像主线进度解锁而非纯等级门槛，帮助你判断为什么账号还没出现开车入口。",
+    "seoTitleEn": "What Unlocks Driving in NTE? Story Progress vs Level",
+    "seoDescriptionEn": "Learn why driving in NTE is better understood as a story-progress feature than a simple level gate, and how to check your unlock condition.",
+    "seoTitleTw": "異環多少級解鎖駕駛？主線進度才是關鍵",
+    "seoDescriptionTw": "說明異環駕駛功能更像主線進度解鎖而不是純等級門檻，幫助你判斷為什麼帳號還沒出現開車入口。"
   },
   {
     "id": "faq-unlock-housing",
@@ -7824,7 +7994,13 @@
     "relatedMaterials": [],
     "questionTw": "異環怎麼買房？多少級解鎖？",
     "answerTw": "這條「怎麼買房、多少級解鎖」FAQ 現在更適合回答**房屋系統是不是跟某條長期經營線或玩法進度綁定，以及你該把買房當成功能解鎖還是資源目標**，而不是繼續把固定價格和早期解鎖條件寫成長期不變的說明。對目前玩家來說，更實際的重點通常是：住房內容是否已經開放、你是否已經進入適合買房的資源階段，以及買房後的價值更偏裝飾、互動還是長期生活化體驗。\n\n更穩妥的理解方式是：\n1. 先把房屋理解成**與特定玩法進度或經營體系掛鉤的中後段功能**，而不是開局立刻完成的小任務\n2. 具體解鎖條件、房型和價格區間更適合以當前遊戲內展示為準，不宜只沿用早期版本數字\n3. 是否現在就買，取決於你目前更缺的是推進資源還是生活化內容體驗，而不是默認一解鎖就該立刻投入\n\n所以這頁現在保留的是**房屋系統的解鎖判斷與投入時機邏輯**，而不是繼續把舊版價格表和條件寫成固定答案。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环怎么买房？住房系统解锁与投入时机",
+    "seoDescriptionZh": "这页帮你判断异环房屋系统何时开放、买房更像功能解锁还是资源目标，以及什么阶段投入最合适。",
+    "seoTitleEn": "How Do You Buy a House in NTE? Housing Unlock Guide",
+    "seoDescriptionEn": "See when NTE housing becomes relevant, how its unlocks tie to progression, and whether buying in now makes sense for your account stage.",
+    "seoTitleTw": "異環怎麼買房？住房系統解鎖與投入時機",
+    "seoDescriptionTw": "這頁幫你判斷異環房屋系統何時開放、買房更像功能解鎖還是資源目標，以及什麼階段投入最合適。"
   },
   {
     "id": "faq-ai-controversy",
@@ -7844,7 +8020,13 @@
     "relatedMaterials": [],
     "questionTw": "異環AI素材爭議是怎麼回事？",
     "answerTw": "這場 AI 素材爭議的核心，不只是「有沒有用到 AI」，而是玩家是否覺得官方在素材來源、製作流程和品質把關上說清楚了。對搜尋使用者來說，更重要的不是重複一次事件時間線，而是理解爭議為什麼會擴大：一方面，玩家會擔心背景素材是否影響作品質感與原創性；另一方面，開發方如果在說明和後續處理上不夠及時，就很容易讓討論從單一素材問題擴大成對內容態度和製作標準的質疑。所以這頁現在保留的是 **AI 素材爭議的成因與玩家關注點**，而不是只停留在一段新聞摘要。",
-    "categoryTw": "綜合"
+    "categoryTw": "綜合",
+    "seoTitleZh": "异环 AI 素材争议是怎么回事？成因与影响梳理",
+    "seoDescriptionZh": "聚焦异环 AI 素材争议为什么会扩大，以及玩家真正关心的透明度、品质与信任问题。",
+    "seoTitleEn": "What Is the NTE AI Art Controversy About?",
+    "seoDescriptionEn": "Understand the roots of the NTE AI-art controversy through player concerns about transparency, quality standards, and trust.",
+    "seoTitleTw": "異環 AI 素材爭議是怎麼回事？成因與影響整理",
+    "seoDescriptionTw": "聚焦異環 AI 素材爭議為什麼會擴大，以及玩家真正關心的透明度、品質與信任問題。"
   },
   {
     "id": "nte-wipe-data-launch",
@@ -7865,7 +8047,13 @@
     "relatedMaterials": [],
     "questionTw": "異環公測會刪檔嗎？付費測試的進度保留嗎？",
     "answerTw": "不會刪檔。異環國服 4 月 23 日、國際服 4 月 29 日的公測即正式上線，賬號資料永久保留。之前的付費測試/不計費測試資料按官方公告處理——通常測試期資料會在公測前清除，但公測後的所有進度、角色、充值都不會再被刪除。簡單說：公測之後玩，資料就是永久的。",
-    "categoryTw": "賬號與資料"
+    "categoryTw": "賬號與資料",
+    "seoTitleZh": "异环公测会删档吗？测试数据和正式服保留规则",
+    "seoDescriptionZh": "快速弄清异环公测后是否删档、测试期数据怎样处理，以及正式上线后的角色进度和充值是否永久保留。",
+    "seoTitleEn": "Does NTE Wipe Data at Launch? Test and Live Data Rules",
+    "seoDescriptionEn": "Clarify how NTE handled test data, whether launch progress is permanent, and what players should expect from paid-test carryover rules.",
+    "seoTitleTw": "異環公測會刪檔嗎？測試資料和正式服保留規則",
+    "seoDescriptionTw": "快速弄清異環公測後是否刪檔、測試期資料怎樣處理，以及正式上線後的角色進度和充值是否永久保留。"
   },
   {
     "id": "nte-cross-platform-account",
@@ -7886,7 +8074,13 @@
     "relatedMaterials": [],
     "questionTw": "異環是跨平臺賬號互通的嗎？手機和 PC 能一起玩嗎？",
     "answerTw": "異環支援同一賬號在不同裝置登入，但這條 FAQ 現在更應該回答**資料互通時最容易搞錯的是什麼**。對多數玩家來說，真正要注意的不是概念上能不能跨平臺，而是你登入的是哪個區服、哪個發行渠道，以及是否在一開始就把主要帳號綁定正確。\n\n更穩妥的理解方式是：\n1. **同區服內的多裝置登入** 才有意義，國服和國際服仍要分開看\n2. **跨平臺同步的前提是同一套帳號體系**，不要把不同入口誤當成天然互通\n3. 如果你之後還要切到其他裝置或商店入口，應先確認官方當前對帳號綁定和資料同步的說明，而不是沿用早期的預期口徑\n\n所以這頁現在保留的是**跨平臺登入與資料同步的判斷方法**，幫助你避免雙帳號、錯區服和資料分裂問題。",
-    "categoryTw": "賬號與資料"
+    "categoryTw": "賬號與資料",
+    "seoTitleZh": "异环跨平台账号互通吗？手机和 PC 能否共用进度",
+    "seoDescriptionZh": "说明异环跨平台登录时最容易踩到的区服、渠道和绑定问题，帮助你避免切设备后数据分裂。",
+    "seoTitleEn": "Is NTE Cross-Platform? Phone and PC Account Sync Guide",
+    "seoDescriptionEn": "Check how NTE account sync works across phone and PC, and avoid the region, launcher, and binding mistakes that can split progress.",
+    "seoTitleTw": "異環跨平臺賬號互通嗎？手機和 PC 能否共用進度",
+    "seoDescriptionTw": "說明異環跨平臺登入時最容易踩到的區服、渠道和綁定問題，幫助你避免切裝置後資料分裂。"
   },
   {
     "id": "nte-pity-carry-over",
@@ -7910,7 +8104,13 @@
     "relatedMaterials": [],
     "questionTw": "異環限定卡池保底會繼承到下一期嗎？",
     "answerTw": "會繼承。這條 FAQ 現在更適合回答**限定池保底是不是按同類卡池連續累計，以及哪些池子之間不會互相共享**，而不是繼續用某個具體版本角色舉例來解釋規則。對目前玩家來說，更重要的是知道：如果你這一期限定角色池沒抽滿，後續同類限定池通常會沿著原來的計數繼續走；但常駐池、新手池、其他不同類型卡池，通常還是各算各的。\n\n更穩妥的理解方式是：\n1. 把「保底繼承」理解成**同類型限定池之間的連續計數**，而不是所有卡池共用一個數字\n2. 做抽卡規劃時，重點要確認你抽的是哪一類池子，而不是只記住某個版本的角色順序\n3. 與其背具體歷史例子，不如先掌握「同類繼承、異類分開」的規則框架\n\n所以這頁現在保留的是**保底繼承的判斷邏輯與預算意義**，而不是繼續綁定某一版角色卡池舉例。",
-    "categoryTw": "抽卡機制"
+    "categoryTw": "抽卡機制",
+    "seoTitleZh": "异环限定卡池保底会继承吗？同类卡池规则说明",
+    "seoDescriptionZh": "解释异环限定池保底如何跨期继承、哪些卡池独立计算，以及这条规则对存抽和版本预算有什么帮助。",
+    "seoTitleEn": "Does NTE Limited Banner Pity Carry Over?",
+    "seoDescriptionEn": "Learn how limited-banner pity carries across future banners in NTE, which pools stay separate, and why that matters for saving plans.",
+    "seoTitleTw": "異環限定卡池保底會繼承嗎？同類卡池規則說明",
+    "seoDescriptionTw": "解釋異環限定池保底如何跨期繼承、哪些卡池獨立計算，以及這條規則對存抽和版本預算有什麼幫助。"
   },
   {
     "id": "nte-paid-test-refund",
@@ -7931,7 +8131,13 @@
     "relatedMaterials": [],
     "questionTw": "異環付費測試充值的錢會返還嗎？",
     "answerTw": "按官方公告，付費測試期間的充值通常會按一定比例轉化為公測後的遊戲內貨幣返還到同一賬號。具體返還規則以官方公告為準。如果你參與過付費測試，建議登入原賬號檢視郵件或充值記錄。公測後的充值則正常消費，不再涉及返還機制。",
-    "categoryTw": "賬號與資料"
+    "categoryTw": "賬號與資料",
+    "seoTitleZh": "异环付费测试充值会返还吗？返还规则与查询方式",
+    "seoDescriptionZh": "说明异环付费测试充值通常如何返还到正式服，以及你该去哪里核对原账号邮件、记录和返还比例。",
+    "seoTitleEn": "Will NTE Paid Test Purchases Be Refunded or Returned?",
+    "seoDescriptionEn": "See how NTE handled paid-test purchase returns, what usually comes back to the same account, and where to verify your records.",
+    "seoTitleTw": "異環付費測試充值會返還嗎？返還規則與查詢方式",
+    "seoDescriptionTw": "說明異環付費測試充值通常如何返還到正式服，以及你該去哪裡核對原賬號郵件、記錄和返還比例。"
   },
   {
     "id": "nte-region-lock",
@@ -7953,7 +8159,13 @@
     "relatedMaterials": [],
     "questionTw": "異環國服和國際服能一起玩嗎？資料能遷移嗎？",
     "answerTw": "不能。國服和國際服是完全獨立的伺服器，賬號、角色、抽卡記錄、好友、充值都不互通，也無法互相遷移或跨服聯機。如果和朋友一起玩，務必提前確認在同一個伺服器。詳細的國服 vs 國際服區別（上線時間差、卡池、評分等）可以參考我們的國服 vs 國際服對比頁。",
-    "categoryTw": "賬號與資料"
+    "categoryTw": "賬號與資料",
+    "seoTitleZh": "异环国服和国际服能一起玩吗？迁移与联机限制说明",
+    "seoDescriptionZh": "这页专门说明异环国服与国际服为什么不能互通、不能迁移，以及和朋友开局前最该先确认什么。",
+    "seoTitleEn": "Can NTE CN and Global Play Together? Migration Limits Explained",
+    "seoDescriptionEn": "Understand why CN and global NTE accounts cannot merge, migrate, or cross-play freely before you pick a server with friends.",
+    "seoTitleTw": "異環國服和國際服能一起玩嗎？遷移與聯機限制說明",
+    "seoDescriptionTw": "這頁專門說明異環國服與國際服為什麼不能互通、不能遷移，以及和朋友開局前最該先確認什麼。"
   },
   {
     "id": "nte-rabbit-hole-bug-double-standard",
@@ -7975,7 +8187,13 @@
     "relatedMaterials": [],
     "questionTw": "異環「兔子洞」BUG 雙標事件是怎麼回事？",
     "answerTw": "2026 年 5 月 9-11 日，國服爆發「兔子洞」BUG 爭議：部分玩家利用遊戲 BUG 獲取不當收益後，官方被指在回收處理時存在選擇性執法——對部分玩家回收、對另一些不回收，引發「雙標」質疑。這是公測以來國服最大的公關危機之一，玩家最在意的核心是執法一致性。官方後續回應表示會統一處罰標準，但事件對 TapTap 國服評分（7.0）造成持續影響。客觀來看，任何 BUG 利用都違反使用者協議，玩家應避免嘗試；同時官方也有責任保證處罰標準的透明與一致。",
-    "categoryTw": "爭議與事件"
+    "categoryTw": "爭議與事件",
+    "seoTitleZh": "异环“兔子洞”BUG 双标事件是什么？争议重点梳理",
+    "seoDescriptionZh": "回顾异环“兔子洞”BUG 事件的双标争议，重点解释玩家为什么质疑处罚与回收标准的一致性。",
+    "seoTitleEn": "What Was the NTE Rabbit Hole Bug Double-Standard Controversy?",
+    "seoDescriptionEn": "Review the Rabbit Hole bug incident in NTE and why players focused so heavily on inconsistent rollback and enforcement standards.",
+    "seoTitleTw": "異環「兔子洞」BUG 雙標事件是什麼？爭議重點整理",
+    "seoDescriptionTw": "回顧異環「兔子洞」BUG 事件的雙標爭議，重點說明玩家為什麼質疑處罰與回收標準的一致性。"
   },
   {
     "id": "nte-ps5-player-100-year-ban",
@@ -7997,7 +8215,13 @@
     "relatedMaterials": [],
     "questionTw": "異環 PS 玩家利用 BUG 被封 100 年是真的嗎？",
     "answerTw": "是的。2026 年 5 月 11 日前後，一名 PS 平臺玩家因利用遊戲內 BUG 被處以極長期封禁，封禁時長顯示為約 100 年，引發「處罰過嚴」的廣泛爭議。事件背景是當時官方正在嚴厲打擊 BUG 利用行為，但百年封禁的量級讓很多玩家認為處罰力度與違規程度不匹配。此事與「兔子洞」BUG 雙標事件疊加，共同推高了 5 月國服的輿論壓力。客觀提醒：BUG 利用不論時長都違反使用者協議，可能觸發封號；遇到 BUG 應通過官方渠道反饋，而非利用。",
-    "categoryTw": "爭議與事件"
+    "categoryTw": "爭議與事件",
+    "seoTitleZh": "异环 PS 玩家被封 100 年是真的吗？事件来龙去脉",
+    "seoDescriptionZh": "整理异环 PS 平台百年封禁事件的背景、争议焦点与玩家该如何看待 BUG 利用处罚尺度。",
+    "seoTitleEn": "Was an NTE PS Player Really Banned for 100 Years?",
+    "seoDescriptionEn": "Understand the background, scale, and debate around the NTE PlayStation '100-year ban' incident and what it says about exploit enforcement.",
+    "seoTitleTw": "異環 PS 玩家被封 100 年是真的嗎？事件來龍去脈",
+    "seoDescriptionTw": "整理異環 PS 平臺百年封禁事件的背景、爭議焦點與玩家該如何看待 BUG 利用處罰尺度。"
   },
   {
     "id": "nte-ironmouse-collab-cancelled",
@@ -8019,7 +8243,13 @@
     "relatedMaterials": [],
     "questionTw": "異環 Ironmouse 為什麼取消合作？和 AI 爭議有關嗎？",
     "answerTw": "有關。2026 年 4 月底至 5 月，異環爆出部分美術素材疑涉 AI 生成內容，引發國際服最大聲譽危機。知名 VTuber Ironmouse 在爭議期間宣佈取消與異環的聯動合作，成為國際輿論標誌性事件之一。官方後續承認部分素材問題並承諾重做，一定程度上緩解了爭議。這件事加上「反 AI」社群的擴散，是國際服聲譽壓力的主要來源。對於玩家而言，是否繼續遊玩屬於個人選擇，瞭解事件背景有助於理性判斷。",
-    "categoryTw": "爭議與事件"
+    "categoryTw": "爭議與事件",
+    "seoTitleZh": "异环 Ironmouse 为什么取消合作？AI 争议关联说明",
+    "seoDescriptionZh": "说明 Ironmouse 取消异环合作与 AI 素材争议之间的关系，以及这件事为何会放大国际服的声誉压力。",
+    "seoTitleEn": "Why Did Ironmouse Cancel the NTE Collaboration?",
+    "seoDescriptionEn": "See how Ironmouse's canceled NTE collaboration connected to the AI-asset controversy and why it became a major global reputational flashpoint.",
+    "seoTitleTw": "異環 Ironmouse 為什麼取消合作？AI 爭議關聯說明",
+    "seoDescriptionTw": "說明 Ironmouse 取消異環合作和 AI 素材爭議之間的關係，以及這件事為什麼會放大國際服的聲譽壓力。"
   },
   {
     "id": "nte-999-nights-mode",
@@ -8040,7 +8270,13 @@
       "1.2"
     ],
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "seoTitleZh": "异环 1.2「九百九十九夜」是什么？玩法结构与奖励整理",
+    "seoDescriptionZh": "快速了解异环 1.2 常驻玩法“九百九十九夜”的核心机制、沃伦大陆背景和为什么它不等于游乐园地图。",
+    "seoTitleEn": "What Is NTE 1.2's 999 Nights Mode?",
+    "seoDescriptionEn": "Learn how NTE 1.2's permanent 999 Nights mode works, how it connects to the Warren Continent, and what rewards players can expect.",
+    "seoTitleTw": "異環 1.2「九百九十九夜」是什麼？玩法結構與獎勵整理",
+    "seoDescriptionTw": "快速了解異環 1.2 常駐玩法「九百九十九夜」的核心機制、沃倫大陸背景，以及它為什麼不等於遊樂園地圖。"
   },
   {
     "id": "nte-999-nights-unlock",
@@ -8062,7 +8298,13 @@
     "relatedMaterials": [],
     "questionTw": "異環999夜怎麼解鎖？",
     "answerTw": "999夜不是靠單純等級硬開，而是和 1.2 相關主線推進綁定。更穩妥的理解方式是：先把 1.2 主線推進到對應階段，再回頭看玩法入口有沒有出現。如果你現在搜的是「999夜怎麼解鎖」，本質上要優先檢查目前劇情進度，而不是只盯帳號等級。",
-    "categoryTw": "玩法"
+    "categoryTw": "玩法",
+    "seoTitleZh": "异环 999 夜怎么解锁？先看 1.2 主线进度",
+    "seoDescriptionZh": "解释异环 999 夜入口为什么更像剧情推进解锁，而不是单纯账号等级条件，帮助你判断卡在哪一步。",
+    "seoTitleEn": "How Do You Unlock 999 Nights in NTE?",
+    "seoDescriptionEn": "Find out why unlocking 999 Nights in NTE depends more on Version 1.2 story progress than raw account level.",
+    "seoTitleTw": "異環 999 夜怎麼解鎖？先看 1.2 主線進度",
+    "seoDescriptionTw": "解釋異環 999 夜入口為什麼更像劇情推進解鎖，而不是單純帳號等級條件，幫助你判斷卡在哪一步。"
   },
   {
     "id": "warren-continent-how-to-unlock",
@@ -8084,7 +8326,13 @@
     "relatedMaterials": [],
     "questionTw": "異環沃倫大陸怎麼去？",
     "answerTw": "沃倫大陸不是海特洛市裡的普通現實區域，它是 999夜玩法裡的奇幻舞台。所以「沃倫大陸怎麼去」其實和「999夜入口開了沒有」是同一個問題。更實際的做法是先推進 1.2 主線，再確認九百九十九夜入口是否已經出現。",
-    "categoryTw": "探索"
+    "categoryTw": "探索",
+    "seoTitleZh": "异环沃伦大陆怎么去？其实先看 999 夜入口",
+    "seoDescriptionZh": "说明沃伦大陆为什么属于 999 夜玩法场景，以及你该先检查哪段 1.2 主线和玩法入口是否已经开启。",
+    "seoTitleEn": "How Do You Reach the Warren Continent in NTE?",
+    "seoDescriptionEn": "Understand why the Warren Continent is tied to 999 Nights progression and what unlock path to check before searching for a separate map entrance.",
+    "seoTitleTw": "異環沃倫大陸怎麼去？其實先看 999 夜入口",
+    "seoDescriptionTw": "說明沃倫大陸為什麼屬於 999 夜玩法場景，以及你該先檢查哪段 1.2 主線和玩法入口是否已經開啟。"
   },
   {
     "id": "nte-1-2-redeem-codes",
@@ -8106,7 +8354,13 @@
     "relatedMaterials": [],
     "questionTw": "異環1.2前瞻兌換碼和最新兌換碼在哪看？",
     "answerTw": "如果你找的是 1.2 前瞻兌換碼或版本最新兌換碼，最穩妥的入口還是站內兌換碼頁和 1.2 更新日誌頁。前瞻碼通常是短時效內容，過期很快；而版本活動碼、補償碼和持續有效碼更適合統一在兌換碼頁裡追。簡單說：想看「目前還能不能用」，先查兌換碼頁；想看「1.2 當時發了什麼」，再查 1.2 更新日誌。",
-    "categoryTw": "遊戲資訊"
+    "categoryTw": "遊戲資訊",
+    "seoTitleZh": "异环 1.2 前瞻兑换码在哪看？最新可用码入口整理",
+    "seoDescriptionZh": "告诉你该去哪里查异环 1.2 前瞻码、补偿码和当前仍可用的兑换码，也提醒你前瞻码通常很快过期。",
+    "seoTitleEn": "Where Can You Find NTE 1.2 Redeem Codes?",
+    "seoDescriptionEn": "Find the safest place to track NTE 1.2 preview codes, compensation codes, and still-active redeem codes before they expire.",
+    "seoTitleTw": "異環 1.2 前瞻兌換碼在哪看？最新可用碼入口整理",
+    "seoDescriptionTw": "告訴你該去哪裡查異環 1.2 前瞻碼、補償碼和目前仍可用的兌換碼，也提醒你前瞻碼通常很快過期。"
   },
   {
     "id": "nte-gs25-collab-1-2",
@@ -8128,6 +8382,12 @@
       "活动"
     ],
     "relatedCharacters": [],
-    "relatedMaterials": []
+    "relatedMaterials": [],
+    "seoTitleZh": "异环 1.2 GS25 联动有什么？商店奖励与签到内容整理",
+    "seoDescriptionZh": "整理异环 1.2 GS25 联动的商店兑换、签到奖励和游乐园活动内容，方便你快速判断值不值得肝。",
+    "seoTitleEn": "What Is Included in the NTE 1.2 GS25 Collaboration?",
+    "seoDescriptionEn": "See what the NTE 1.2 GS25 collaboration includes, from event-shop cosmetics to check-in rewards and Amusement Park tie-ins.",
+    "seoTitleTw": "異環 1.2 GS25 聯動有什麼？商店獎勵與簽到內容整理",
+    "seoDescriptionTw": "整理異環 1.2 GS25 聯動的商店兌換、簽到獎勵和遊樂園活動內容，方便你快速判斷值不值得肝。"
   }
 ]
