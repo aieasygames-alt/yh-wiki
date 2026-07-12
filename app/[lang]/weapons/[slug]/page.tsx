@@ -23,6 +23,46 @@ export async function generateMetadata({
   if (!weapon) return {};
   const locale = lang as Locale;
   const displayName = locale === "zh" ? weapon.name : (locale === "tw" ? (weapon.nameTw || weapon.name) : weapon.nameEn);
+  const substatLabel = SUBSTAT_LABELS[weapon.substat]?.[locale] || weapon.substat;
+  const typeLabel = ARC_TYPE_LABELS[weapon.type]?.[locale] || weapon.type;
+  const mappedObtainLabel = OBTAIN_METHOD_LABELS[weapon.howToObtain]?.[locale];
+  const obtainLabel = mappedObtainLabel || weapon.howToObtain;
+  const obtainDesc = locale === "tw"
+    ? (weapon.howToObtainTw || mappedObtainLabel || "詳見頁內獲取方式、委託條件與適配角色整理")
+    : isZhLocale(locale)
+    ? weapon.howToObtainZh
+    : weapon.howToObtainEn;
+  const relatedCharacters = getCharactersUsingWeapon(slug);
+  const topCharacters = relatedCharacters
+    .slice(0, 3)
+    .map((character) =>
+      locale === "zh"
+        ? character.name
+        : locale === "tw"
+        ? (character.nameTw || character.name)
+        : character.nameEn
+    );
+  const characterText = topCharacters.length
+    ? (
+        locale === "tw"
+          ? `適合 ${topCharacters.join("、")} 等角色配置`
+          : isZhLocale(locale)
+          ? `适合 ${topCharacters.join("、")} 等角色配置`
+          : `Recommended for ${topCharacters.join(", ")} and similar builds`
+      )
+    : (
+        locale === "tw"
+          ? "可用來對照不同角色的弧盤搭配方向"
+          : isZhLocale(locale)
+          ? "可用于对照不同角色的弧盘搭配方向"
+          : "Useful for comparing Arc choices across different characters"
+      );
+  const description =
+    locale === "tw"
+      ? `異環弧盤「${displayName}」${weapon.rank}級${typeLabel}屬性，基礎 ATK ${weapon.baseAtk}、副詞條 ${substatLabel} ${weapon.substatValue}，${characterText}，並整理被動效果與獲取方式：${obtainDesc}`
+      : isZhLocale(locale)
+      ? `异环弧盘「${displayName}」${weapon.rank}级${typeLabel}属性，基础 ATK ${weapon.baseAtk}、副词条 ${substatLabel} ${weapon.substatValue}，${characterText}，并整理被动效果与获取方式：${obtainDesc}`
+      : `${weapon.nameEn} is a ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE with base ATK ${weapon.baseAtk} and ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. ${characterText}. Includes passive effect details and how to obtain it: ${obtainDesc}`;
   return {
     title:
       locale === "tw"
@@ -30,16 +70,11 @@ export async function generateMetadata({
         : isZhLocale(locale)
         ? `${displayName} 属性、精炼与获取方式 | 异环弧盘 Wiki`
         : `${weapon.nameEn} (${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}) — Stats, Best Characters & How to Get | NTE Guide`,
-    description:
-      locale === "tw"
-        ? `異環弧盤「${displayName}」${weapon.rank}級${ARC_TYPE_LABELS[weapon.type]?.tw || weapon.type}屬性、被動效果與獲取方式。`
-        : isZhLocale(locale)
-        ? `异环弧盘「${displayName}」${weapon.rank}级${ARC_TYPE_LABELS[weapon.type]?.zh || weapon.type}属性、被动效果及获取方式详解。`
-        : `${weapon.nameEn} is a ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE. Base ATK ${weapon.baseAtk}, ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. Best characters, full stats, and how to get it.`,
+    description,
     alternates: hreflangAlternates(`weapons/${slug}`, lang),
     openGraph: {
       title: isZhLocale(locale) ? `${displayName} | 异环弧盘 Wiki` : `${weapon.nameEn} Stats & Best Characters | NTE Guide`,
-      description: isZhLocale(locale) ? `异环弧盘「${displayName}」详细属性与获取方式。` : `${weapon.nameEn} ${weapon.rank}-rank Arc stats, best characters, and how to get it in NTE.`,
+      description,
       type: "article",
       images: weapon.image ? [`https://nteguide.com${weapon.image}`] : undefined,
     },
@@ -62,10 +97,10 @@ export default async function WeaponDetailPage({
   const typeLabel = ARC_TYPE_LABELS[weapon.type]?.[locale] || weapon.type;
   const rankLabel = ARC_RANK_LABELS[weapon.rank]?.[locale] || weapon.rank;
   const substatLabel = SUBSTAT_LABELS[weapon.substat]?.[locale] || weapon.substat;
+  const obtainLabel = OBTAIN_METHOD_LABELS[weapon.howToObtain]?.[locale] || weapon.howToObtain;
   const effectName = locale === "zh" ? weapon.effectName : (locale === "tw" ? (weapon.effectNameTw || weapon.effectName) : weapon.effectNameEn);
   const effectDesc = locale === "zh" ? weapon.effectDescription : (locale === "tw" ? (weapon.effectDescriptionTw || weapon.effectDescription) : weapon.effectDescriptionEn);
-  const obtainDesc = isZhLocale(locale) ? weapon.howToObtainZh : weapon.howToObtainEn;
-  const obtainLabel = OBTAIN_METHOD_LABELS[weapon.howToObtain]?.[locale] || weapon.howToObtain;
+  const obtainPageDesc = isZhLocale(locale) ? weapon.howToObtainZh : weapon.howToObtainEn;
 
   return (
     <>
@@ -79,8 +114,8 @@ export default async function WeaponDetailPage({
       <ArticleJsonLd
         title={`${displayName} | ${t(locale, "site.nav.weapons")}`}
         description={isZhLocale(locale)
-          ? `异环弧盘「${displayName}」${rankLabel}${typeLabel}，基础攻击 ${weapon.baseAtk}，${substatLabel} ${weapon.substatValue}。${obtainDesc}`
-          : `${weapon.nameEn} is a ${weapon.rank}-rank ${typeLabel} Arc in Neverness to Everness. Base ATK ${weapon.baseAtk}, ${substatLabel} ${weapon.substatValue}. ${obtainDesc}`}
+          ? `异环弧盘「${displayName}」${rankLabel}${typeLabel}，基础攻击 ${weapon.baseAtk}，${substatLabel} ${weapon.substatValue}。${obtainPageDesc}`
+          : `${weapon.nameEn} is a ${weapon.rank}-rank ${typeLabel} Arc in Neverness to Everness. Base ATK ${weapon.baseAtk}, ${substatLabel} ${weapon.substatValue}. ${obtainPageDesc}`}
         url={`https://nteguide.com/${lang}/weapons/${weapon.id}/`}
         image={weapon.image ? `https://nteguide.com${weapon.image}` : undefined}
       />
@@ -160,7 +195,7 @@ export default async function WeaponDetailPage({
             <span className="text-xs px-2 py-1 rounded border bg-primary-500/20 text-primary-400 border-primary-500/30 whitespace-nowrap">
               {obtainLabel}
             </span>
-            <p className="text-sm text-gray-300">{obtainDesc}</p>
+            <p className="text-sm text-gray-300">{obtainPageDesc}</p>
           </div>
         </section>
 
