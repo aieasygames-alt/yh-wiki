@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       ? "隐私政策 — NTE Guide"
       : "Privacy Policy — NTE Guide";
   const description = isTw
-    ? "NTE Guide 隱私政策 — 了解我們如何收集、使用和保護您的個人資料。"
+    ? "NTE Guide 隱私政策，說明本站如何處理分析、廣告、Cookie 與聯絡資訊，以及您可如何管理個人資料與追蹤偏好。"
     : isZhLocale(locale)
-      ? "NTE Guide 隐私政策 — 了解我们如何收集、使用和保护您的个人资料。"
-      : "NTE Guide Privacy Policy — Learn how we collect, use, and protect your personal data.";
+      ? "NTE Guide 隐私政策，说明本站如何处理分析、广告、Cookie 与联系信息，以及你可以如何管理个人资料与追踪偏好。"
+      : "NTE Guide privacy policy covering analytics, ads, cookies, contact data, and the ways you can manage your personal data and tracking preferences.";
 
   return {
     title,

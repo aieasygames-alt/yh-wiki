@@ -23,7 +23,12 @@ export function generateCompareMetadataForSlug(lang: string, slug: string) {
   const locale = lang as Locale;
   const rawTitle = localizedText(locale, article.title, article.titleEn, article.titleTw);
   const title = /20\d{2}/.test(rawTitle) ? rawTitle : `${rawTitle} (2026)`;
-  const description = localizedText(locale, article.summary, article.summaryEn, article.summaryTw);
+  const summary = localizedText(locale, article.summary, article.summaryEn, article.summaryTw);
+  const category = localizedText(locale, article.categoryZh, article.categoryEn);
+  const relatedCount = article.internalLinks.length;
+  const description = isZhLocale(locale)
+    ? `${summary} 本页同时整理 ${category} 对比重点、核心差异与 ${relatedCount} 个相关延伸入口，适合在抽卡、入坑或换游前快速判断。`
+    : `${summary} This comparison also highlights key differences, ${category.toLowerCase()} takeaways, and ${relatedCount} related paths to help you evaluate the best fit before you start or switch games.`;
   return {
     title,
     description,

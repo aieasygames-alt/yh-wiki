@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       ? "服务条款 — NTE Guide"
       : "Terms of Service — NTE Guide";
   const description = isTw
-    ? "NTE Guide 服務條款 — 使用本網站前請閱讀以下條款和條件。"
+    ? "NTE Guide 服務條款，說明本站內容使用規則、免責聲明、第三方連結與責任限制，方便在使用前快速確認權利與義務。"
     : isZhLocale(locale)
-      ? "NTE Guide 服务条款 — 使用本网站前请阅读以下条款和条件。"
-      : "NTE Guide Terms of Service — Please read the following terms and conditions before using our website.";
+      ? "NTE Guide 服务条款，说明本站内容使用规则、免责声明、第三方链接与责任限制，方便在使用前快速确认权利与义务。"
+      : "NTE Guide terms of service covering site usage rules, disclaimers, third-party links, and liability limits so you can review key rights and responsibilities before using the site.";
 
   return {
     title,
