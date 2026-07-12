@@ -28,6 +28,7 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const faqCount = MULTIPLAYER_FAQ_IDS.length;
   const title = isZhLocale(locale)
     ? (locale === "tw"
       ? "異環多人聯機 & 跨平台存檔 — 4人組隊、跨平台連線教學（2026）"
@@ -35,9 +36,9 @@ export async function generateMetadata({
     : "Is NTE Multiplayer? Co-op & Online Features Explained (2026)";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環（NTE）多人聯機完整教學：4人組隊合作、跨平台存檔同步、Pink Paws 社交系統、聯機解鎖條件、匹配問題排查。"
-      : "异环（NTE）多人联机完整教学：4人组队合作、跨平台存档同步、Pink Paws 社交系统、联机解锁条件、匹配问题排查。")
-    : "Complete guide to Neverness to Everness multiplayer: 4-player co-op, cross-platform save & cross-play, Pink Paws squads, unlock requirements, and matchmaking fixes.";
+      ? `異環（NTE）多人聯機完整教學：4人組隊合作、跨平台存檔同步、Pink Paws 社交系統、聯機解鎖條件與匹配排查，並整理 ${faqCount} 個常見問題。`
+      : `异环（NTE）多人联机完整教学：4人组队合作、跨平台存档同步、Pink Paws 社交系统、联机解锁条件与匹配排查，并整理 ${faqCount} 个常见问题。`)
+    : `Complete Neverness to Everness multiplayer guide covering 4-player co-op, cross-save, Pink Paws squads, unlock requirements, matchmaking fixes, and ${faqCount} common FAQs.`;
   return {
     title,
     description,

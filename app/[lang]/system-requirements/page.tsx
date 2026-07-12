@@ -17,6 +17,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
+  const faqCount = specsData.faq.length;
 
   const title = isZhLocale(locale)
     ? (locale === "tw"
@@ -25,9 +26,9 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     : "NTE System Requirements (2026) — PC, Mobile & Download Size";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環(NTE)完整配置要求：PC最低i7-10700+GTX1660+60GB，推薦i7-12700+RTX3060。手機Android 8GB/iOS iPhone 12起。含下載大小與效能建議。"
-      : "异环(NTE)完整配置要求：PC最低i7-10700+GTX1660+60GB，推荐i7-12700+RTX3060。手机Android 8GB/iOS iPhone 12起。含下载大小与性能建议。")
-    : "NTE (Neverness to Everness) system requirements: PC min i7-10700 + GTX 1660, recommended i7-12700 + RTX 3060. Android & iOS specs, download size (~60GB), and performance tips.";
+      ? `異環(NTE)完整配置要求：PC 最低 i7-10700 + GTX 1660、推薦 i7-12700 + RTX 3060，並整理 Android / iOS 規格、下載大小與 ${faqCount} 個效能常見問題。`
+      : `异环(NTE)完整配置要求：PC 最低 i7-10700 + GTX 1660、推荐 i7-12700 + RTX 3060，并整理 Android / iOS 规格、下载大小与 ${faqCount} 个性能常见问题。`)
+    : `Neverness to Everness system requirements for PC, Android, and iOS, including minimum and recommended specs, download size, and ${faqCount} performance FAQs.`;
 
   return {
     title,

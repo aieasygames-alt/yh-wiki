@@ -22,9 +22,9 @@ export async function generateMetadata({
     : "NTE Porsche Collab — 918 Spyder: How to Get, Price & Showroom Location";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環（NTE）× 保時捷聯動完整攻略：918 Spyder 售價、獲取方式、展廳位置、專屬塗裝一覽。"
-      : "异环（NTE）× 保时捷联动完整攻略：918 Spyder 售价、获取方式、展厅位置、专属涂装一览。")
-    : "Complete guide to the Neverness to Everness x Porsche collaboration: 918 Spyder price, how to get it, showroom location, and exclusive liveries.";
+      ? "異環（NTE）× 保時捷聯動完整攻略：整理 918 Spyder 的獲取條件、展廳位置、聯動版本時間、平台支援與專屬塗裝內容。"
+      : "异环（NTE）× 保时捷联动完整攻略：整理 918 Spyder 的获取条件、展厅位置、联动版本时间、平台支持与专属涂装内容。")
+    : "Complete Neverness to Everness x Porsche guide covering the 918 Spyder unlock path, showroom location, collab timing, supported platforms, and exclusive liveries.";
   return {
     title,
     description,

@@ -20,6 +20,7 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const characters = getAvailableCharacters();
   const count = characters.length;
+  const sRankCount = characters.filter((character) => character.rank === "S").length;
   const title = isZhLocale(locale)
     ? (locale === "tw"
       ? `異環聲優一覽 — 全${count}位角色日配/中配/英配聲優名單 | NTE Guide`
@@ -27,9 +28,9 @@ export async function generateMetadata({
     : `NTE Voice Actors — Full JP/CN/EN Voice Cast for All ${count} Characters`;
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? `異環（NTE）全角色聲優名單：包含日文配音、中文配音、英文配音演員資訊。涵蓋安魂曲、娜娜莉、九原、哈索爾等全部角色。`
-      : `异环（NTE）全角色声优名单：包含日文配音、中文配音、英文配音演员信息。涵盖安魂曲、娜娜莉、九原、哈索尔等全部角色。`)
-    : `Complete Neverness to Everness voice actor list for all ${count} characters. Japanese, Chinese, and English voice cast including Lacrimosa, Nanally, Jiuyuan, Hathor and more.`;
+      ? `異環（NTE）全角色聲優名單：整理 ${count} 位角色的日配、中文與英文配音資訊，包含 ${sRankCount} 位 S 級角色與主要可玩角色的配音陣容。`
+      : `异环（NTE）全角色声优名单：整理 ${count} 位角色的日配、中文与英文配音信息，包含 ${sRankCount} 位 S 级角色与主要可玩角色的配音阵容。`)
+    : `Complete Neverness to Everness voice actor list for ${count} characters, including ${sRankCount} S-rank units with Japanese, Chinese, and English cast references.`;
   return {
     title,
     description,
