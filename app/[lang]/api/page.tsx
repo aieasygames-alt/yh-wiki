@@ -83,6 +83,42 @@ export default async function ApiDocsPage({ params }: { params: { lang: string }
         Base URL: <code className="text-primary-400">https://nteguide.com</code>
       </p>
 
+      <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {localizedText(locale, "这页 API 文档最适合怎么用？", "How should you use this API docs page?")}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {localizedText(
+            locale,
+            "先确认你要接入的是角色、兑换码、搜索还是站点结构数据，再按接口用途选择缓存策略。这个页面最适合快速确认公开字段入口和使用范围，不适合把它当成完整的 SDK 或实时服务说明。",
+            "Start by deciding whether you need character, redeem-code, search, or sitemap data, then choose a caching strategy per endpoint. This page is best for confirming public data entry points and usage scope, not for treating as a full SDK or real-time service spec."
+          )}
+        </p>
+      </section>
+
+      <section className="mb-10 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {localizedText(locale, "接入前先看什么", "What should you check before integrating?")}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{localizedText(locale, "先确认你的工具需要静态快照数据还是需要高频刷新的状态数据。", "Confirm whether your tool needs snapshot-style static data or frequently refreshed state data.")}</li>
+            <li>{localizedText(locale, "公开接口更适合内容站、索引工具和轻量查询，不适合高并发实时依赖。", "Public endpoints are better for content sites, indexes, and lightweight lookup than for high-concurrency real-time dependencies.")}</li>
+            <li>{localizedText(locale, "上线前建议先做本地缓存与降级兜底，避免源站更新节奏影响你的产品。", "Add local caching and fallback handling before launch so upstream refresh cycles do not break your product.")}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {localizedText(locale, "常见误区", "Common mistakes")}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{localizedText(locale, "把公开 JSON 文档页当成稳定版本化 API，而不自己做字段兼容处理。", "Treating public JSON feeds like a versioned enterprise API without your own compatibility layer.")}</li>
+            <li>{localizedText(locale, "不缓存搜索索引和角色数据，结果重复请求过多。", "Skipping caching for search or character data and sending unnecessary repeated requests.")}</li>
+            <li>{localizedText(locale, "只看接口路径，不核对内容用途与更新频率。", "Checking endpoint paths without validating content purpose or refresh expectations.")}</li>
+          </ul>
+        </div>
+      </section>
+
       <div className="space-y-4">
         {ENDPOINTS.map((ep) => (
           <div

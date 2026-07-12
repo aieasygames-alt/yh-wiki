@@ -27,8 +27,8 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環遊戲玩法概覽 — 開放世界、戰鬥、抽卡、載具全介紹 | NTE Guide"
-      : "异环游戏玩法概览 — 开放世界、战斗、抽卡、载具全介绍 | NTE Guide")
+      ? "異環遊戲玩法概覽 — 開放世界、戰鬥、抽卡、載具全介紹"
+      : "异环游戏玩法概览 — 开放世界、战斗、抽卡、载具全介绍")
     : "Neverness to Everness Gameplay — Open World, Combat, Gacha & Vehicles";
   const description = isZhLocale(locale)
     ? (locale === "tw"
@@ -154,6 +154,21 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
             : "Complete guide to all NTE gameplay systems: open-world, combat, gacha, vehicles, housing, and multiplayer."}
         </p>
 
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "這頁玩法總覽最適合怎麼看？" : "这页玩法总览最适合怎么用？")
+              : "How should you use this gameplay overview?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(locale)
+              ? (locale === "tw"
+                  ? "先用這頁建立對異環核心系統的整體認知，再依需求跳轉到抽卡、載具、多人或新手指南等專題頁。這份總覽最適合快速判斷遊戲結構，不適合直接替代詳細機制攻略。"
+                  : "先用这页建立对异环核心系统的整体认知，再按需求跳转到抽卡、载具、多人或新手指南等专题页。这份总览最适合快速判断游戏结构，不适合直接替代详细机制攻略。")
+              : "Use this page to build a top-level understanding of NTE's systems first, then jump into gacha, vehicles, multiplayer, or beginner guides as needed. This overview is best for grasping the game structure, not replacing deep mechanic breakdowns."}
+          </p>
+        </section>
+
         {/* Quick Answer for Featured Snippet */}
         <QuickAnswerCard
           locale={locale}
@@ -180,6 +195,33 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
             },
           ]}
         />
+
+        <section className="my-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "入坑前先看什麼" : "入坑前先看什么")
+                : "What should you check before starting?"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "先確認你更在意的是戰鬥、探索、抽卡養成，還是載具與生活玩法。" : "先确认你更在意的是战斗、探索、抽卡养成，还是载具与生活玩法。") : "Decide whether you care most about combat, exploration, gacha progression, or vehicle and lifestyle systems."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你是新手，最好先配合下載、抽卡與新手指南一起看。" : "如果你是新手，最好先配合下载、抽卡与新手指南一起看。") : "If you are new, pair this page with download, gacha, and beginner guides for practical setup."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "不同版本會擴充玩法細節，總覽頁適合看框架，細節仍以專題頁為準。" : "不同版本会扩充玩法细节，总览页适合看框架，细节仍以专题页为准。") : "Version updates can expand system details, so treat this as a framework page and use dedicated guides for specifics."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "常見誤區" : "常见误区")
+                : "Common mistakes"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把玩法總覽頁當成新手完整教學，忽略了專門攻略。" : "把玩法总览页当成新手完整教学，忽略了专门攻略。") : "Using the overview as a full beginner walkthrough instead of opening the dedicated guides."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "只看抽卡或強度，不理解探索、載具與經營系統的長期價值。" : "只看抽卡或强度，不理解探索、载具与经营系统的长期价值。") : "Focusing only on banners or power and missing the long-term value of exploration, vehicles, and management systems."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "看到某個玩法有趣就直接下結論，沒有結合整體節奏判斷自己是否適合。" : "看到某个玩法有趣就直接下结论，没有结合整体节奏判断自己是否适合。") : "Judging the game from one feature alone without considering the overall progression loop."}</li>
+            </ul>
+          </div>
+        </section>
 
         {/* Main Content */}
         <ArticleContent content={gameplayContent} lang={lang} />
