@@ -303,6 +303,17 @@ export default function GachaAnalyzerPage() {
       <h1 className="text-3xl font-bold mb-2">{t(lang, `${ga}.title`)}</h1>
       <p className="text-sm text-gray-500 mb-6">{t(lang, `${ga}.subtitle`)}</p>
 
+      <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {zh ? "这个抽卡分析器最适合什么时候用？" : "When is this analyzer most useful?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {zh
+            ? "如果你想判断自己离下一个保底还有多远、最近几个版本到底欧不欧，或者想把限定池、武器池和新手池的记录分开看清楚，这个工具会比手动记在备忘录里更直观。它特别适合长期追踪真实抽卡表现，而不是只看某一次单抽出货。"
+            : "If you want to see how far you are from the next pity, whether your recent versions were actually lucky, or how different banner types perform over time, this tool is much more useful than a plain note. It is built for tracking long-term pull behavior, not just one lucky screenshot."}
+        </p>
+      </section>
+
       {/* Pity Progress Cards (always visible) */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         {bannerOptions.map((b) => {
@@ -822,6 +833,29 @@ export default function GachaAnalyzerPage() {
           {toast}
         </div>
       )}
+
+      <section className="mt-8 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {zh ? "看结果时先关注什么" : "What to check first"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{zh ? "先看各卡池当前保底层数，而不是只看总抽数。" : "Check pity by banner before looking at raw total pulls."}</li>
+            <li>{zh ? "再看平均出金抽数，确认自己是经常提前出还是频繁吃满保底。" : "Then review average S-rank timing to see whether you usually high-roll or hit deep pity."}</li>
+            <li>{zh ? "最后再看历史记录，避免把不同卡池的结果混在一起误判。" : "Finally, review history so different banner types do not get mixed into one wrong conclusion."}</li>
+          </ul>
+        </div>
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-base font-semibold text-white">
+            {zh ? "常见误区" : "Common mistakes"}
+          </h2>
+          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+            <li>{zh ? "不同卡池的保底不应该合并计算。" : "Do not combine pity across unrelated banner pools."}</li>
+            <li>{zh ? "一两次欧皇记录不代表长期运气走势。" : "One or two lucky pulls do not define long-term luck."}</li>
+            <li>{zh ? "导入覆盖数据前先导出备份，避免把旧记录直接冲掉。" : "Always export a backup before replacing your saved data."}</li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }

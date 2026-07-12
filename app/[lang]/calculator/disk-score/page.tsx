@@ -138,6 +138,17 @@ export default function DiskScorePage() {
             : "Enter disk substat values to calculate roll efficiency. Select up to 4 substats."}
         </p>
 
+        <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZh ? "这个评分到底在看什么？" : "What is this score actually measuring?"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZh
+              ? "它看的是副词条效率，而不是单纯把面板数值加总。每条副词条会先和理论上限比较，再结合当前预设权重折算成总分。所以这个工具更适合帮你判断“这件值不值得留”，而不是代替最终配装判断。"
+              : "This tool measures substat efficiency rather than just summing visible numbers. Each selected substat is compared against its theoretical ceiling, then weighted by the current preset. It is best used to answer whether a piece is worth keeping, not to replace full build judgment."}
+          </p>
+        </section>
+
         {/* Preset weights */}
         <div className="flex gap-2 mb-4">
           {Object.entries(PRESET_WEIGHTS).map(([key, pw]) => (
@@ -235,6 +246,29 @@ export default function DiskScorePage() {
             <p className="text-sm">{isZh ? "选择副词条开始评分" : "Select substats to start scoring"}</p>
           </div>
         )}
+
+        <section className="mt-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "怎么读这个结果" : "How to read the result"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "S / A 分通常代表词条效率高，适合优先保留或强化。" : "S and A grades usually mean the piece is efficient enough to keep or upgrade."}</li>
+              <li>{isZh ? "B 分更多是过渡件，资源紧时可以先用。" : "B grades are often transitional pieces when resources are tight."}</li>
+              <li>{isZh ? "C / D 分不一定完全没用，但通常不值得继续投入高额强化资源。" : "C and D grades are not always useless, but they rarely justify heavy investment."}</li>
+            </ul>
+          </div>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-base font-semibold text-white">
+              {isZh ? "别忽略这些前提" : "Do not ignore these constraints"}
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
+              <li>{isZh ? "主词条对不对，往往比副词条评分更重要。" : "The correct main stat often matters more than the substat score."}</li>
+              <li>{isZh ? "不同角色的需求差很多，评分前先切到合适预设。" : "Different characters value stats differently, so always use the right preset first."}</li>
+              <li>{isZh ? "高分散件不一定赢过成套方案，套装效果要一起判断。" : "A high-score off-piece does not always beat a lower-score piece that completes a useful set."}</li>
+            </ul>
+          </div>
+        </section>
 
         <p className="text-xs text-gray-600 mt-6 text-center">
           {isZh
