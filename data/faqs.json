@@ -5343,7 +5343,8 @@
     "questionTw": "異環星泉（Fons）怎麼快速刷？最佳刷取攻略",
     "answerTw": "星泉（Fons）是異環中的高階抽卡貨幣，快速刷取方法：\n\n每日收益（約160-200星泉）：\n1) 完成每日委託任務 — 約60星泉/天\n2) 刷滿每日體力對應副本 — 材料可省下購買星泉的資源\n3) 每日簽到獎勵 — 按週期累計\n4) 探索寶箱（每天可開3-5個新發現的寶箱）\n\n每週收益（約400-600星泉）：\n1) 周常任務全部完成 — 約200星泉/周\n2) 深淵/高難副本首通獎勵 — 一次性大量星泉\n3) 異象學園周挑戰積分兌換\n\n一次性收益：\n1) 主線劇情推進獎勵 — 每章約100-200星泉\n2) 成就係統 — 全成就約2000+星泉\n3) 角色好感度等級獎勵\n4) 地圖探索度獎勵\n\n效率排名：每日委託 > 周常任務 > 主線推進 > 探索寶箱 > 成就",
     "categoryTw": "貨幣",
-    "seoTitleTw": "異環星泉刷取攻略 — Fons快速獲取方法與效率對比"
+    "seoTitleTw": "異環星泉刷取攻略 — Fons快速獲取方法與效率對比",
+    "seoDescriptionTw": "異環星泉（Fons）最佳刷取方法，包含每日/每週任務、副本掉落、活動兌換等所有獲取途徑和效率排名。"
   },
   {
     "id": "nte-console-platforms",
@@ -5372,7 +5373,8 @@
     "questionTw": "異環支援PS4/PS5/Xbox/Switch嗎？主機平臺一覽",
     "answerTw": "這條主機平臺 FAQ 現在不該繼續把「預計會上、可能會有」混在一起寫成半預測清單。對當前使用者來說，更有用的是把它拆成**已能玩、已明確、仍未確認**三層來看。\n\n更穩妥的理解方式是：\n1. **當前已可玩的平臺**，優先看官網客戶端、移動端和已經實際開放的入口\n2. **已經被明確提到的平臺**，也不等於立刻可下載，仍要區分「開發中」「已上架」「已開服」\n3. **Xbox、Switch、Linux 這類討論度高的平臺**，在沒有正式公告前，不適合寫成默認會上的既定事實\n\n如果你真正關心的是怎麼選平臺，重點還是回到三個現實問題：你的裝置效能夠不夠、你是否需要跨平臺同步、以及你希望用哪種商店或客戶端生態。也就是說，這頁現在保留的是**平臺狀態判斷方法**，而不是一份會隨著傳聞很快過期的許願清單。",
     "categoryTw": "平臺",
-    "seoTitleTw": "異環主機平臺支援 — PS4/PS5/Xbox/Switch上架時間與跨平臺互通"
+    "seoTitleTw": "異環主機平臺支援 — PS4/PS5/Xbox/Switch上架時間與跨平臺互通",
+    "seoDescriptionTw": "異環主機平台支援情況說明：如何區分已可玩、已明確和仍未確認的平台，並了解跨平台存檔、手把支援與選平台時該看哪些實際條件。"
   },
   {
     "id": "nte-doomscroll-anomaly-guide",
@@ -5398,7 +5400,8 @@
     "questionTw": "異環末日刷屏（Doomscroll）異象是什麼？怎麼觸發？",
     "answerTw": "這條「末日刷屏異象是什麼、怎麼觸發」FAQ 現在更適合回答**它屬於什麼類型的城市異象事件，以及你該如何判斷自己是否已經接近觸發線索**，而不是繼續把一套固定地點、固定章節和固定獎勵寫成萬用攻略。對目前玩家來說，更實際的重點通常是：這類異象是不是偏觀察型探索、是否需要留意城市裡的媒介變化，以及自己目前進度有沒有讓相關區域和事件狀態真正可見。\n\n更穩妥的理解方式是：\n1. 先把末日刷屏理解成**依賴環境異常、資訊提示和城市觀察的隱藏事件**，而不是照抄一條路線就能穩定復現的日常委託\n2. 如果遲遲沒有觸發，優先檢查你是否已經進入對應探索階段、是否錯過了場景中的螢幕變化或互動提示，而不是只盯著一個舊版章節門檻\n3. 真正重要的不是記住一張固定獎勵單，而是學會辨識這類異象通常會透過哪些視覺或互動異常提醒你靠近線索\n\n所以這頁現在保留的是**末日刷屏異象的觸發判斷與探索思路**，而不是繼續把一版早期流程卡寫成長期標準答案。",
     "categoryTw": "探索",
-    "seoTitleTw": "異環末日刷屏異象指南 — 觸發判斷與探索思路"
+    "seoTitleTw": "異環末日刷屏異象指南 — 觸發判斷與探索思路",
+    "seoDescriptionTw": "圍繞末日刷屏（Doomscroll）異象的觸發線索、探索預期與完成判斷，幫助你理解這類隱藏事件該怎麼找、怎麼讀。"
   },
   {
     "id": "nte-vehicles-cars-guide",
@@ -5424,7 +5427,8 @@
     "questionTw": "異環怎麼獲得車輛？所有載具獲取方法",
     "answerTw": "異環中載具（車輛）獲取途徑豐富：\n\n免費獲取：\n1) 主線劇情第1章自動獲得初始車輛\n2) 完成特定支線任務解鎖特殊載具\n3) 探索隱藏車庫發現免費車輛\n\n商店購買：\n1) 使用信用點在車輛商店購買基礎款\n2) 使用星泉購買高階載具（外觀更炫酷，速度更快）\n3) 城市各區域有不同車輛經銷商\n\n活動限定：\n1) 限時活動排名獎勵\n2) 聯動活動專屬車輛（如保時捷聯動）\n3) 賽季通行證獎勵載具\n\n特殊獲取：\n1) 收集散落零件組裝車輛\n2) 完成駕駛挑戰解鎖\n3) NPC好感度獎勵\n\n車輛分類：\n- 轎車：速度快，適合長途旅行\n- SUV：越野效能好，適合山區探索\n- 摩托車：靈活性高，適合城市穿梭\n- 特殊載具：聯動限定、活動限定等",
     "categoryTw": "玩法",
-    "seoTitleTw": "異環載具獲取攻略 — 全車輛解鎖條件與收集指南"
+    "seoTitleTw": "異環載具獲取攻略 — 全車輛解鎖條件與收集指南",
+    "seoDescriptionTw": "異環全載具獲取方法，包含免費車輛、商店購買、活動限定車輛的解鎖條件和收集路線。"
   },
   {
     "id": "material-farming-priority",
@@ -5460,6 +5464,10 @@
     "id": "cosmos-blossom-team-guide",
     "question": "异环光耀坼绽队怎么玩？浔配队攻略",
     "questionEn": "How to play Cosmos Blossom team? Xun team guide",
+    "seoTitleZh": "异环光耀坼绽队攻略 — 浔配队思路与替代位推荐",
+    "seoTitleEn": "NTE Cosmos Blossom Team Guide — Xun Build Logic & Substitutes",
+    "seoDescriptionZh": "异环光耀坼绽队构成逻辑详解：围绕坼绽反应的主C、触发位、辅助位搭配思路，以及缺角色时的替代方案。",
+    "seoDescriptionEn": "How to build a Cosmos Blossom team in NTE: Xun team structure, reaction enablers, support choices, and substitute options.",
     "answer": "光耀坼绽队这页现在更适合作为**一种围绕坼绽反应展开的组队思路**，而不是继续把 1.0 某一阶段流行阵容写成长期固定答案。对当前玩家来说，更重要的是先理解：这类队伍通常需要一个稳定输出核心、一个能帮助触发或放大反应的队友，以及一个保证循环不断档的辅助或生存位。\n\n更实用的理解方式是：\n1) 先确认你的主力角色是否真的能从这条反应线里获得稳定收益\n2) 再补能提高触发频率、技能衔接或生存容错的功能位\n3) 如果你缺关键角色，就优先找功能接近的替代位，而不是死抄某个旧版本名单\n\n所以这页现在保留的是**光耀坼绽队的构成逻辑与替换思路**，而不是继续把一套早期配队写成唯一推荐。",
     "answerEn": "This Cosmos Blossom page is more useful as a **team-building framework around the Blossom reaction** than as a permanent copy-paste lineup from one early patch. For current players, the more important thing is understanding that these teams usually want a real damage core, a unit that helps trigger or amplify the reaction, and enough support or sustain to keep the rotation stable.\n\nA more practical way to build it is:\n1. Start by checking whether your main carry actually gains reliable value from this reaction line\n2. Then add the pieces that improve trigger consistency, skill flow, or survivability\n3. If you are missing a named partner, look for role-equivalent substitutes instead of forcing an old template literally\n\nSo this page now focuses on Cosmos Blossom structure and substitution logic rather than preserving one early-team recommendation as a timeless answer.",
     "tags": [
@@ -5478,12 +5486,18 @@
     "relatedMaterials": [],
     "questionTw": "異環光耀坼綻隊怎麼玩？潯配隊攻略",
     "answerTw": "光耀坼綻隊這頁現在更適合作為**一種圍繞坼綻反應展開的組隊思路**，而不是繼續把 1.0 某一階段流行陣容寫成長期固定答案。對目前玩家來說，更重要的是先理解：這類隊伍通常需要一個穩定輸出核心、一個能幫助觸發或放大反應的隊友，以及一個保證循環不斷檔的輔助或生存位。\n\n更實用的理解方式是：\n1) 先確認你的主力角色是否真的能從這條反應線裡獲得穩定收益\n2) 再補能提高觸發頻率、技能銜接或生存容錯的功能位\n3) 如果你缺關鍵角色，就優先找功能接近的替代位，而不是死抄某個舊版本名單\n\n所以這頁現在保留的是**光耀坼綻隊的構成邏輯與替換思路**，而不是繼續把一套早期配隊寫成唯一推薦。",
-    "categoryTw": "配隊推薦"
+    "categoryTw": "配隊推薦",
+    "seoTitleTw": "異環光耀坼綻隊攻略 — 潯配隊思路與替代位推薦",
+    "seoDescriptionTw": "異環光耀坼綻隊構成邏輯詳解：圍繞坼綻反應的主 C、觸發位、輔助位搭配思路，以及缺角色時的替代方案。"
   },
   {
     "id": "best-free-characters",
     "question": "异环免费角色有哪些？哪些免费角色值得培养？",
     "questionEn": "What are the best free characters in NTE? Who should I build?",
+    "seoTitleZh": "异环免费角色推荐 — 哪些0氪角色值得优先培养",
+    "seoTitleEn": "Best Free Characters in NTE — Which F2P Units to Build First",
+    "seoDescriptionZh": "异环免费角色培养建议：哪些0氪角色适合推主线、补治疗和功能位，以及资源紧张时该优先练谁。",
+    "seoDescriptionEn": "Best free characters in NTE for F2P players: who to build first for progression, sustain, utility, and low-cost team stability.",
     "answer": "免费角色值不值得培养，现在更适合从**它们能不能以低成本补上你账号的关键功能位**来判断，而不是继续沿用一张“必练名单”。对当前玩家来说，更实用的角度通常是：哪些免费角色能稳定推进主线、哪些能补治疗或功能、哪些能在资源紧张时先顶上一个可用位置。\n\n更稳妥的理解方式是：\n1) 优先培养那些能立刻改善推进效率或队伍完整度的免费角色\n2) 不要只因为“免费且早期评价高”就默认所有账号都该按同一顺序投入\n3) 真正有价值的免费角色，往往是因为投入门槛低、补位效率高，而不是因为它们永远等同于抽卡主力\n\n所以这页现在保留的是**免费角色的功能价值与培养判断逻辑**，而不是继续输出一份固定的必练顺序。",
     "answerEn": "Questions about which free characters are \"must-build\" are better answered by account function than by a fixed launch-era hierarchy. For current players, the more useful lens is: which free units give you reliable progression value with low investment, and which ones solve core roles you have not filled yet.\n\nA safer way to judge free-character value is:\n1. Prioritize units that immediately stabilize your team structure, such as sustain, utility, or a dependable early carry\n2. Value characters more for how efficiently they help your actual account progress than for old blanket tier labels\n3. Treat free characters as roster anchors and gap-fillers first, not as proof that every account should build the exact same list\n\nSo this page now focuses on how to evaluate free-character investment rather than declaring one universal must-build order.",
     "tags": [
@@ -5503,12 +5517,18 @@
     "relatedMaterials": [],
     "questionTw": "異環免費角色有哪些？哪些免費角色值得培養？",
     "answerTw": "免費角色值不值得培養，現在更適合從**它們能不能以低成本補上你帳號的關鍵功能位**來判斷，而不是繼續沿用一張「必練名單」。對目前玩家來說，更實用的角度通常是：哪些免費角色能穩定推進主線、哪些能補治療或功能、哪些能在資源緊張時先頂上一個可用位置。\n\n更穩妥的理解方式是：\n1) 優先培養那些能立刻改善推進效率或隊伍完整度的免費角色\n2) 不要只因為「免費且早期評價高」就默認所有帳號都該按同一順序投入\n3) 真正有價值的免費角色，往往是因為投入門檻低、補位效率高，而不是因為它們永遠等同於抽卡主力\n\n所以這頁現在保留的是**免費角色的功能價值與培養判斷邏輯**，而不是繼續輸出一份固定的必練順序。",
-    "categoryTw": "角色培養"
+    "categoryTw": "角色培養",
+    "seoTitleTw": "異環免費角色推薦 — 哪些0氪角色值得優先培養",
+    "seoDescriptionTw": "異環免費角色培養建議：哪些 0 氪角色適合推主線、補治療和功能位，以及資源緊張時該優先練誰。"
   },
   {
     "id": "bubble-can-factory-guide",
     "question": "异环气泡罐工厂怎么打？弧光突破材料获取",
     "questionEn": "How to clear Bubble Can Factory? Arc ascension material guide",
+    "seoTitleZh": "异环气泡罐工厂攻略 — 弧光材料刷取时机与优先级",
+    "seoTitleEn": "NTE Bubble Can Factory Guide — Arc Material Timing & Priorities",
+    "seoDescriptionZh": "异环气泡罐工厂值不值得刷？整理弧光材料副本的投入时机、当前主力材料线判断和体力分配思路。",
+    "seoDescriptionEn": "When to farm Bubble Can Factory in NTE: Arc material priorities, stamina timing, and how to judge whether your core team needs it now.",
     "answer": "这条“气泡罐工厂怎么打、刷什么”FAQ 现在更适合回答**你该把它当成哪类养成副本，以及什么时候值得专门投入体力来补弧光材料**，而不是继续把每日次数和材料家族表写成一份固定清单。对当前玩家来说，更实际的重点通常是：你是否已经卡在弧光成长、当前主力到底缺哪一条材料线，以及刷这里会不会挤掉更急迫的角色或装备需求。\n\n更稳妥的理解方式是：\n1) 先把气泡罐工厂理解成**弧光成长的定向补给点**，而不是任何阶段都应该优先清空的日常固定项\n2) 如果你只是短期缺一个关键突破节点，定向补当前主力所需系列通常比平均分散更划算\n3) 当版本活动、合成库存或其他成长线更紧急时，这里的投入优先级也应该随之调整\n\n所以这页现在保留的是**气泡罐工厂的投入时机与材料判断逻辑**，而不是继续把一张固定掉落表写成长期标准答案。",
     "answerEn": "This Bubble Can Factory page is more useful when it explains **what kind of progression dungeon it really is and when it is worth spending stamina there for Arc growth** instead of preserving one static chart of daily runs and material families. For current players, the practical questions are whether Arc progress is the real bottleneck, which line the current core team actually needs, and whether farming here crowds out more urgent character or gear requirements.\n\nA safer way to judge it is:\n1. Treat Bubble Can Factory as **a directed Arc-growth supply point**, not as a daily task that always deserves the same priority at every stage\n2. If you only need one near-term breakthrough, targeting the current main team's required line usually returns more value than spreading runs evenly\n3. When event value, crafting stock, or another growth lane becomes more urgent, the priority of this dungeon should adapt with that shift\n\nSo this page now focuses on timing and material judgment for Bubble Can Factory instead of preserving one fixed drop sheet as the long-term answer.",
     "tags": [
@@ -5529,12 +5549,18 @@
     ],
     "questionTw": "異環氣泡罐工廠怎麼打？弧光突破材料獲取",
     "answerTw": "這條「氣泡罐工廠怎麼打、刷什麼」FAQ 現在更適合回答**你該把它當成哪類養成副本，以及什麼時候值得專門投入體力來補弧光材料**，而不是繼續把每日次數和材料家族表寫成一份固定清單。對目前玩家來說，更實際的重點通常是：你是否已經卡在弧光成長、目前主力到底缺哪一條材料線，以及刷這裡會不會擠掉更急迫的角色或裝備需求。\n\n更穩妥的理解方式是：\n1) 先把氣泡罐工廠理解成**弧光成長的定向補給點**，而不是任何階段都應該優先清空的日常固定項\n2) 如果你只是短期缺一個關鍵突破節點，定向補目前主力所需系列通常比平均分散更划算\n3) 當版本活動、合成庫存或其他成長線更緊急時，這裡的投入優先級也應該隨之調整\n\n所以這頁現在保留的是**氣泡罐工廠的投入時機與材料判斷邏輯**，而不是繼續把一張固定掉落表寫成長期標準答案。",
-    "categoryTw": "材料獲取"
+    "categoryTw": "材料獲取",
+    "seoTitleTw": "異環氣泡罐工廠攻略 — 弧光材料刷取時機與優先級",
+    "seoDescriptionTw": "異環氣泡罐工廠值不值得刷？整理弧光材料副本的投入時機、目前主力材料線判斷和體力分配思路。"
   },
   {
     "id": "anomaly-pilgrimage-guide",
     "question": "异环异常体朝圣怎么打？异能材料获取攻略",
     "questionEn": "How to clear Anomaly Pilgrimage? Esper material guide",
+    "seoTitleZh": "异环异常体朝圣攻略 — 异能材料路线与投入判断",
+    "seoTitleEn": "NTE Anomaly Pilgrimage Guide — Esper Material Priorities",
+    "seoDescriptionZh": "异环异常体朝圣怎么刷更值：围绕常用角色异能升级、关键节点收益和材料线优先级来判断投入方向。",
+    "seoDescriptionEn": "How to prioritize Anomaly Pilgrimage in NTE: Esper upgrade breakpoints, core roster needs, and material-line investment logic.",
     "answer": "这条“异常体朝圣刷什么”FAQ 现在更适合回答**你该如何判断哪条异能材料线值得先打**，而不是继续把 Boss 名单和掉落词条堆成一份静态表格。对当前玩家来说，更关键的通常是：你常用角色的异能升级收益高不高、某个材料线是否正卡着关键节点，以及你有没有必要为暂时不上场的角色提前囤一整套资源。\n\n更稳妥的理解方式是：\n1) 先围绕当前常用主力和高频上场角色来决定朝圣投入，而不是平均分配到所有 Boss 线\n2) 如果某个异能节点能明显改善循环、输出或功能，那条材料线的优先级通常就会更高\n3) 对暂时不用的角色，除非活动或库存特别划算，否则没必要过早把有限次数摊薄\n\n所以这页现在保留的是**异常体朝圣的投入方向与节点判断逻辑**，而不是继续把一张固定掉落表写成唯一答案。",
     "answerEn": "This Anomaly Pilgrimage page is more useful when it explains **how to judge which Esper-material line deserves priority first** instead of stacking boss names and drop labels into a static table. For current players, the more important questions are whether a frequently used character gains real value from the next Esper upgrade, whether a material line blocks a key breakpoint, and whether it makes sense to pre-farm full sets for characters who are not entering active teams yet.\n\nA safer way to judge it is:\n1. Let your current core and commonly fielded characters decide Pilgrimage priority instead of spreading runs evenly across every boss line\n2. If one Esper breakpoint clearly improves rotation, damage, or utility, that material line usually deserves higher priority\n3. For inactive characters, there is usually no need to dilute limited attempts too early unless event value or stock efficiency becomes unusually favorable\n\nSo this page now focuses on investment direction and breakpoint judgment for Anomaly Pilgrimage instead of preserving one fixed drop table as the only answer.",
     "tags": [
@@ -5552,7 +5578,9 @@
     ],
     "questionTw": "異環異常體朝聖怎麼打？異能材料獲取攻略",
     "answerTw": "這條「異常體朝聖刷什麼」FAQ 現在更適合回答**你該如何判斷哪條異能材料線值得先打**，而不是繼續把 Boss 名單和掉落詞條堆成一份靜態表格。對目前玩家來說，更關鍵的通常是：你常用角色的異能升級收益高不高、某個材料線是否正卡著關鍵節點，以及你有沒有必要為暫時不上場的角色提前囤一整套資源。\n\n更穩妥的理解方式是：\n1) 先圍繞目前常用主力和高頻上場角色來決定朝聖投入，而不是平均分配到所有 Boss 線\n2) 如果某個異能節點能明顯改善循環、輸出或功能，那條材料線的優先級通常就會更高\n3) 對暫時不用的角色，除非活動或庫存特別划算，否則沒必要過早把有限次數攤薄\n\n所以這頁現在保留的是**異常體朝聖的投入方向與節點判斷邏輯**，而不是繼續把一張固定掉落表寫成唯一答案。",
-    "categoryTw": "材料獲取"
+    "categoryTw": "材料獲取",
+    "seoTitleTw": "異環異常體朝聖攻略 — 異能材料路線與投入判斷",
+    "seoDescriptionTw": "異環異常體朝聖怎麼刷更值：圍繞常用角色異能升級、關鍵節點收益和材料線優先級來判斷投入方向。"
   },
   {
     "id": "hotori-character-guide",
@@ -5578,7 +5606,8 @@
     "questionTw": "異環星鳥（Hotori）是誰？角色介紹與技能詳解",
     "answerTw": "星鳥（Hotori）不應再用「屬性待確認、武器待確認」的舊測試口吻來介紹。對現在的搜尋使用者來說，更有價值的是把她當作一個**已經有明確定位的可用角色**來理解：她通常被放進輸出或功能型主力討論裡，核心價值在於戰鬥節奏流暢、上手反饋好，並且能在合適隊伍中穩定貢獻傷害或功能收益。\n\n如果你關心她值不值得練，可以按這三個問題判斷：\n1. 你的帳號是否缺一個能穩定上場的主力或副核心\n2. 你是否偏好連段、快節奏輸出或較強操作反饋\n3. 你現有輔助位能不能把她的輸出窗口穩定撐起來\n\n配裝思路上，仍然優先考慮暴擊、攻擊與適配她輸出節奏的套裝；配隊上，則更適合和能提供增傷、治療或循環支援的角色搭配。也就是說，這頁現在保留的是**培養判斷邏輯**，而不是繼續傳播測試期的未確認細節。",
     "categoryTw": "角色",
-    "seoTitleTw": "異環星鳥Hotori角色攻略 — 技能、配裝與配隊推薦"
+    "seoTitleTw": "異環星鳥Hotori角色攻略 — 技能、配裝與配隊推薦",
+    "seoDescriptionTw": "異環星鳥（Hotori）角色解析：圍繞目前定位、培養價值、配裝思路與隊伍適配性，幫助你判斷她是否值得投入資源長期培養。"
   },
   {
     "id": "nte-mammon-guide",
@@ -5604,7 +5633,8 @@
     "questionTw": "異環瑪門（Mammon）是什麼？Boss攻略與獎勵",
     "answerTw": "這條「瑪門是什麼、怎麼打」FAQ 現在更適合回答**瑪門屬於什麼類型的世界 Boss，以及進場前你該優先補爆發、破盾還是生存能力**，而不是繼續把固定重新整理點、固定掉落和固定每日次數寫成一張舊版攻略卡。對目前玩家來說，更實際的重點通常是：你的隊伍能不能處理高壓範圍傷害、是否有足夠穩定的破盾和脫險手段，以及自己的目標到底是首次擊破、穩定週回還是順帶補某類資源。\n\n更穩妥的理解方式是：\n1. 先把瑪門理解成**強調場面壓迫、階段處理和資源交換節奏**的世界 Boss，而不是只看面板夠不夠就能輕鬆解決\n2. 如果隊伍缺少穩定爆發、護盾、治療或對護盾階段的處理能力，實際翻車點往往比「是否帶了某個指定角色」更關鍵\n3. 與其執著背一套固定掉落和固定站位，不如先確認你目前是要追求首殺體驗、穩定擊破效率，還是觀察自己在哪個機制段最容易失誤\n\n所以這頁現在保留的是**瑪門戰的壓力判斷與備戰邏輯**，而不是繼續把一版早期掉落表和配隊寫成長期標準答案。",
     "categoryTw": "Boss",
-    "seoTitleTw": "異環瑪門 Boss 指南 — 機制壓力與備戰思路"
+    "seoTitleTw": "異環瑪門 Boss 指南 — 機制壓力與備戰思路",
+    "seoDescriptionTw": "圍繞瑪門（Mammon）的戰鬥壓力、隊伍準備與應對重點，幫助你判斷開打前該補輸出、破盾還是生存。"
   },
   {
     "id": "nte-akane-character-guide",
@@ -5629,7 +5659,8 @@
     "questionTw": "異環赤音（Akane）是誰？角色介紹與獲取方式",
     "answerTw": "赤音（Akane）這類角色頁，最大的老問題就是一直停留在「屬性待確認」的階段。現在更實用的理解方式是：把她當作一名**偏機動型、適合快切節奏的輸出／副 C 角色**來看。\n\n她的價值通常體現在三點：\n- 有較強的位移和切入感，操作反饋更靈活\n- 在需要補傷害、補節奏或做輪轉銜接的隊伍裡更容易找到位置\n- 對喜歡快切玩法的玩家，比純站場角色更有吸引力\n\n如果你在考慮要不要練赤音，核心不是「她理論屬性是什麼」，而是：\n1. 你的隊伍是否缺副 C 或輪轉補位\n2. 你是否願意投入到更強調手感和切換節奏的角色上\n3. 她能否和你現有主 C、輔助形成穩定循環\n\n因此這條 FAQ 現在更偏向培養判斷，而不是繼續保留測試期的空白設定。",
     "categoryTw": "角色",
-    "seoTitleTw": "異環赤音Akane角色攻略 — 技能、定位與獲取方法"
+    "seoTitleTw": "異環赤音Akane角色攻略 — 技能、定位與獲取方法",
+    "seoDescriptionTw": "異環赤音（Akane）角色頁更新為目前視角：不再停留在待確認設定，而是圍繞她偏機動、副 C／快切價值與是否值得培養來判斷實際用途。"
   },
   {
     "id": "nte-city-stamina-guide",
@@ -5655,7 +5686,8 @@
     "questionTw": "異環體力（City Stamina）怎麼恢復？體力系統詳解",
     "answerTw": "這條「體力怎麼恢復、怎麼規劃」FAQ 現在更適合回答**你該把體力看成日常節奏約束，還是一次性衝資源的開關，以及恢復與投入要怎麼分優先級**，而不是繼續把一串早期恢復數字和固定時段寫成長期不變的表格。對目前玩家來說，更實用的重點通常是：你是經常溢出體力、經常缺某類資源，還是總把藥水用在回報不高的階段。\n\n更穩妥的理解方式是：\n1. 優先建立「不要浪費自然恢復、不要把藥水隨手亂交」的節奏意識，比死記具體分鐘數更重要\n2. 體力投入應按你目前最缺的角色養成、裝備強化或週進度目標來排，而不是長期照搬一張統一優先表\n3. 如果版本活動、雙倍收益或新養成線臨時出現，體力策略也應該跟著調整，而不是默認每天都做同一件事\n\n所以這頁現在保留的是**體力恢復與投入規劃的判斷邏輯**，而不是繼續把一版固定恢復表寫成長期標準答案。",
     "categoryTw": "系統",
-    "seoTitleTw": "異環體力系統指南 — 恢復判斷與投入規劃"
+    "seoTitleTw": "異環體力系統指南 — 恢復判斷與投入規劃",
+    "seoDescriptionTw": "圍繞 City Stamina 的恢復節奏、藥水使用與資源投入順序，幫助你判斷目前體力該怎麼花更合適。"
   },
   {
     "id": "nte-elements-attributes-guide",
@@ -5682,7 +5714,8 @@
     "questionTw": "異環有哪些屬性/元素？屬性剋制系統詳解",
     "answerTw": "異環中存在多種屬性/元素系統，屬性剋制和搭配是戰鬥的核心機制之一。\n\n主要屬性型別：\n1) 創生（Anima）— 生命與創造之力，剋制虛無屬性\n2) 咒術（Incantation）— 神秘魔法力量，剋制物理屬性\n3) 燃灼（Burn）— 火焰屬性，剋制冰霜屬性\n4) 冰霜（Frost）— 冰凍屬性，剋制燃灼\n5) 物理（Physical）— 純物理傷害，剋制咒術\n6) 虛無（Void）— 暗影力量，剋制創生\n\n屬性剋制效果：\n- 剋制屬性對被剋制屬性造成額外30%傷害\n- 被剋制屬性對剋制方減少20%傷害\n- 同屬性角色在同一隊伍中可觸發屬性共鳴\n\n屬性共鳴效果：\n- 2名同屬性角色：屬性傷害+15%\n- 3名同屬性角色：額外獲得團隊增益效果\n\n組隊建議：\n- 隊伍中至少包含2名同屬性角色觸發共鳴\n- 根據敵人屬性靈活調整剋制角色\n- 不要全隊同一屬性，保持靈活性應對不同敵人",
     "categoryTw": "戰鬥",
-    "seoTitleTw": "異環屬性元素系統攻略 — 全屬性剋制關係與機制詳解"
+    "seoTitleTw": "異環屬性元素系統攻略 — 全屬性剋制關係與機制詳解",
+    "seoDescriptionTw": "異環全屬性元素系統詳解：創生、咒術、燃灼等屬性剋制關係、反應機制、組隊屬性搭配建議。"
   },
   {
     "id": "nte-mahjong-guide",
@@ -5708,7 +5741,8 @@
     "questionTw": "異環麻將怎麼玩？麻將小遊戲規則與技巧",
     "answerTw": "這條「麻將怎麼玩」FAQ 現在更適合回答**麻將小遊戲是偏休閒消遣、規則體驗，還是一條必須精確衝獎勵的玩法線**，而不是繼續把解鎖章節、固定規則條目和獎勵表寫成早期攻略卡。對目前玩家來說，更實際的重點通常是：你是否已經進入能接觸這類休閒內容的階段、自己熟不熟麻將規則，以及你更在意的是輕鬆體驗、學習玩法還是順手拿一點附帶收益。\n\n更穩妥的理解方式是：\n1. 先把麻將理解成**城市休閒內容的一部分**，而不是必須高強度投入的主線成長系統\n2. 如果你不會麻將，重點應放在目前版本是否提供足夠提示和上手引導，而不是先背一整套術語清單\n3. 獎勵可以看作附帶激勵，但這類玩法的核心價值通常還是在於放鬆、互動和豐富城市生活感\n\n所以這頁現在保留的是**麻將玩法的定位、上手預期與參與動機**，而不是繼續把一份靜態規則與獎勵表寫成唯一答案。",
     "categoryTw": "玩法",
-    "seoTitleTw": "異環麻將小遊戲指南 — 玩法定位與上手預期"
+    "seoTitleTw": "異環麻將小遊戲指南 — 玩法定位與上手預期",
+    "seoDescriptionTw": "圍繞麻將小遊戲的休閒定位、提示體驗與參與動機，幫助你判斷它更適合放鬆體驗還是順手拿收益。"
   },
   {
     "id": "nte-puppet-piano-guide",
@@ -5734,7 +5768,8 @@
     "questionTw": "異環鋼琴人偶（Puppet Piano）事件怎麼觸發和完成？",
     "answerTw": "這條「鋼琴人偶事件怎麼觸發和完成」FAQ 現在更適合回答**它屬於什麼類型的隱藏解謎內容，以及你該如何判斷自己是不是已經具備進入和完成它的條件**，而不是繼續把章節、夜晚條件和獎勵表寫成一份機械流程單。對目前玩家來說，更實際的重點通常是：它是不是偏氛圍型、記憶型或觀察型解謎，目前進度是否已經讓該事件可見，以及自己是否需要先準備更穩定的探索節奏。\n\n更穩妥的理解方式是：\n1. 先把鋼琴人偶理解成**帶有明顯演出感和觀察要求的隱藏解謎事件**，而不是單純照抄步驟就能一次性完成的普通支線\n2. 如果目前還沒看到相關觸發點，優先檢查區域開放狀態、探索時段與前置進度，而不是只背舊版章節門檻\n3. 真正決定完成體驗的通常是你對旋律、提示和互動節奏的把握，而不是獎勵本身有多具體\n\n所以這頁現在保留的是**鋼琴人偶事件的觸發判斷與解謎體驗邏輯**，而不是繼續把固定流程和獎勵表寫成長期標準答案。",
     "categoryTw": "探索",
-    "seoTitleTw": "異環鋼琴人偶事件指南 — 觸發判斷與解謎體驗"
+    "seoTitleTw": "異環鋼琴人偶事件指南 — 觸發判斷與解謎體驗",
+    "seoDescriptionTw": "圍繞 Puppet Piano 的觸發線索、觀察重點與解謎節奏，幫助你判斷什麼時候該去找、怎麼讀提示。"
   },
   {
     "id": "nte-whose-leak-guide",
@@ -5760,7 +5795,8 @@
     "questionTw": "異環Whose Leak Is This任務怎麼完成？攻略詳解",
     "answerTw": "Whose Leak Is This（誰的洩露）是異環中一個有趣的隱藏支線任務。\n\n觸發位置：\n在赫瑟雷城的地下水道區域，找到一個正在漏水的管道NPC，與其對話觸發任務。\n\n任務流程：\n1) 接受任務後獲得「破損管道地圖」\n2) 根據地圖提示前往3個漏水點：\n   - 城市東區排水口\n   - 商業區地下通道\n   - 住宅區水塔底部\n3) 在每個漏水點完成小型解謎（修復管道）\n4) 收集3個「密封零件」\n5) 返回NPC處提交零件完成任務\n\n解謎技巧：\n- 每個漏水點是一個旋轉管道的小遊戲\n- 將管道旋轉連線使水流通過即可\n- 限時3分鐘完成每個謎題\n\n獎勵：\n- 星泉×100\n- 信用點×3000\n- 稀有稱號「水管工」\n- 隱藏成就\n- 解鎖後續相關任務線",
     "categoryTw": "探索",
-    "seoTitleTw": "異環Whose Leak Is This任務攻略 — 觸發、流程與獎勵"
+    "seoTitleTw": "異環Whose Leak Is This任務攻略 — 觸發、流程與獎勵",
+    "seoDescriptionTw": "異環 Whose Leak Is This 任務完整攻略：觸發位置、任務流程、解謎方法和獎勵內容。"
   },
   {
     "id": "nte-change-gender-guide",
@@ -5786,7 +5822,8 @@
     "questionTw": "異環可以換性別嗎？主角性別切換方法",
     "answerTw": "異環支援主角性別切換功能，可以隨時在男性和女性主角之間切換。\n\n切換方法：\n1) 開啟遊戲主選單\n2) 進入「角色」或「個人資訊」頁面\n3) 找到「外觀設定」或「切換主角」選項\n4) 選擇想要切換的性別並確認\n\n注意事項：\n- 性別切換是免費的，沒有次數限制\n- 切換後主角的外觀和部分語音會改變\n- 不影響任何遊戲進度、等級、裝備和背包物品\n- 部分劇情動畫中主角形象會自動更新\n- 切換有短暫的載入時間\n\n常見問題：\nQ：切換性別會丟失進度嗎？\nA：不會，所有進度和物品完全保留。\n\nQ：可以給主角自定義外觀嗎？\nA：目前主角外觀由性別決定，暫不支援更深度的自定義。\n\nQ：劇情會因性別不同而變化嗎？\nA：主線劇情基本一致，部分NPC對話可能有細微差異。",
     "categoryTw": "系統",
-    "seoTitleTw": "異環主角性別切換方法 — 換性別操作步驟與注意事項"
+    "seoTitleTw": "異環主角性別切換方法 — 換性別操作步驟與注意事項",
+    "seoDescriptionTw": "異環主角性別切換方法詳解：在哪裡換性別、操作步驟、是否影響進度和外觀變化。"
   },
   {
     "id": "nte-voice-actors-guide",
@@ -5809,15 +5846,20 @@
     "categoryEn": "Characters",
     "relatedCharacters": [],
     "relatedMaterials": [],
-    "questionTw": "異環全形色CV聲優列表 — 日配/中配/英配一覽",
+    "questionTw": "異環全角色CV聲優列表 — 日配/中配/英配一覽",
     "answerTw": "這條 CV 聲優頁最明顯的問題，就是它長期掛著一串「待官方確認」的名字，卻又被寫成完整名錄。對現在的使用者來說，更有用的其實是三件事：**異環是否支援多語言配音、配音怎麼切換、以及聲優名單應該去哪裡看最新官方版本。**\n\n更穩妥的理解方式是：\n1. 異環作為多語言產品，配音選擇本身是有效需求，但**未持續更新的名單不該被當成完整資料庫**\n2. 如果你只是想切換中配、日配或英配，重點應放在設定入口和語音包支援情況\n3. 如果你在找某個角色的具體 CV，最可靠的仍然是角色頁、遊戲內資料、正式公告或後續官方發佈，而不是一張長期不刷新的總表\n\n所以這頁現在保留的是**配音支援與查找路徑說明**，而不是繼續偽裝成一份已經完善更新的全角色聲優庫。",
     "categoryTw": "角色",
-    "seoTitleTw": "異環全形色聲優CV列表 — 日文/中文/英文配音演員一覽"
+    "seoTitleTw": "異環全角色聲優CV列表 — 日文/中文/英文配音演員一覽",
+    "seoDescriptionTw": "異環 CV 聲優頁改為目前可用資訊視角：優先說明多語言配音、切換方法與官方名單更新方式，避免繼續堆疊大量未確認角色配音名錄。"
   },
   {
     "id": "character-tier-list",
     "question": "异环角色强度榜怎么排？谁是最强角色？",
     "questionEn": "What is the NTE character tier list? Who is the strongest character?",
+    "seoTitleZh": "异环角色强度榜怎么读？版本强度排行与配队判断",
+    "seoTitleEn": "NTE Character Tier List — How to Read Rankings by Role",
+    "seoDescriptionZh": "异环角色强度榜不只看谁最强：整理主C、辅助、生存和体系核心的阅读方式，帮助你按版本与账号判断角色价值。",
+    "seoDescriptionEn": "How to read the NTE character tier list by role: main DPS, support, sustain, and team-core value across patch and roster context.",
     "answer": "这条“角色强度榜怎么排”FAQ 现在更适合回答**你该怎么读强度榜，而不是继续追问一个脱离版本和账号背景的“最强角色”**。对当前玩家来说，更有参考价值的通常不是谁被排在榜首，而是某个角色在你的现有阵容、资源深度和目标玩法里到底能不能稳定发挥价值。\n\n更稳妥的理解方式是：\n1. 强度榜要分开看主C、辅助、生存和体系核心，不适合把所有角色混成一个绝对总榜\n2. 一个角色的理论上限很高，不代表它对你的账号就是当前最优投入\n3. 版本环境、敌人设计、队伍开发和新角色加入，都会持续改变所谓“最强”的答案\n\n所以这页现在保留的是**强度榜的阅读方式与角色价值判断逻辑**，而不是继续把某个阶段的排行写成长期固定结论。",
     "answerEn": "A character tier list is best treated as a snapshot of one environment, not as a timeless ranking that overrides account context. For current players, the more useful question is not only who is \"strongest,\" but which characters keep value across different team shells, patch goals, and roster states.\n\nA safer way to read a tier list is:\n1. Separate raw ceiling from practical value: a character can be powerful on paper and still be awkward for your current roster\n2. Give extra weight to units with flexible team fit, stable utility, or low setup cost if your account is still growing\n3. Expect rankings to move with patch conditions, newly discovered synergies, and optimization changes rather than staying frozen forever\n\nSo this page now focuses on how to interpret strength rankings instead of locking players into an early-version absolute order.",
     "tags": [
@@ -5842,12 +5884,18 @@
     "relatedMaterials": [],
     "questionTw": "異環角色強度榜怎麼排？誰是最強角色？",
     "answerTw": "這條「角色強度榜怎麼排」FAQ 現在更適合回答**你該怎麼讀強度榜，而不是繼續追問一個脫離版本和帳號背景的「最強角色」**。對目前玩家來說，更有參考價值的通常不是誰被排在榜首，而是某個角色在你的現有陣容、資源深度和目標玩法裡到底能不能穩定發揮價值。\n\n更穩妥的理解方式是：\n1. 強度榜要分開看主 C、輔助、生存和體系核心，不適合把所有角色混成一張絕對總榜\n2. 一個角色的理論上限很高，不代表它對你的帳號就是目前最優投入\n3. 版本環境、敵人設計、隊伍開發和新角色加入，都會持續改變所謂「最強」的答案\n\n所以這頁現在保留的是**強度榜的閱讀方式與角色價值判斷邏輯**，而不是繼續把某個階段的排行寫成長期固定結論。",
-    "categoryTw": "角色"
+    "categoryTw": "角色",
+    "seoTitleTw": "異環角色強度榜怎麼讀？版本強度排行與配隊判斷",
+    "seoDescriptionTw": "異環角色強度榜不只看誰最強：整理主 C、輔助、生存和體系核心的閱讀方式，幫助你按版本與帳號判斷角色價值。"
   },
   {
     "id": "gacha-rates-explained",
     "question": "异环抽卡概率是多少？S级出货率多高？",
     "questionEn": "What are the NTE gacha rates? What is the S-Rank pull rate?",
+    "seoTitleZh": "异环抽卡概率解析 — S级出率、保底规则与抽卡决策",
+    "seoTitleEn": "NTE Gacha Rates Explained — S-Rank Rates, Pity & Banner Risk",
+    "seoDescriptionZh": "异环抽卡概率怎么看更有用：整理 S 级出率、保底逻辑、角色池与武器池差异，帮助你判断这个卡池值不值得抽。",
+    "seoDescriptionEn": "NTE gacha rates explained: S-Rank chance, pity rules, banner-type differences, and how to judge banner risk before spending pulls.",
     "answer": "这条“抽卡概率是多少”FAQ 不该长期停留在一张固定概率表，因为玩家真正关心的往往不是单个百分比，而是：**抽到目标的把握感高不高、卡池之间差异大不大、以及自己需不需要为最坏情况预留资源。**\n\n对当前玩家来说，更实用的理解方式是：\n1. 单看基础出率，意义通常不如结合保底规则一起看\n2. 角色池、武器/弧盘池、新手池的风险体验并不相同，不能只用一个平均数概括\n3. 如果你是为了实际抽卡决策，比起问“综合出率是多少”，更该问“这个池子值不值得我把本版本资源押上去”\n\n所以这页现在保留的是**概率阅读方式与抽卡决策视角**，而不是只靠一份静态数字表来回答所有问题。",
     "answerEn": "A fixed gacha-rate table is not the most durable way to answer this question, because what players usually care about is not a single percentage, but how reliable a banner feels, how different banner types behave, and whether they need to budget for the worst case.\n\nFor current players, the more practical lens is:\n1. Base rates matter less when read in isolation than when combined with pity rules\n2. Character, weapon/Arc, and beginner banners do not create the same risk experience, so one average number cannot explain all of them\n3. For real pull decisions, it is often more useful to ask whether a banner deserves your version budget than to stare at one combined-rate figure\n\nSo this page now focuses on how to read rates and apply them to pull decisions rather than relying on a static number sheet alone.",
     "tags": [
@@ -5863,7 +5911,9 @@
     "relatedMaterials": [],
     "questionTw": "異環抽卡機率是多少？S級出貨率多高？",
     "answerTw": "這條「抽卡機率是多少」FAQ 不該長期停留在一張固定機率表，因為玩家真正關心的通常不是單個百分比，而是：**抽到目標的把握感高不高、卡池之間差異大不大、以及自己需不需要為最壞情況預留資源。**\n\n對目前玩家來說，更實用的理解方式是：\n1. 單看基礎出率，意義通常不如結合保底規則一起看\n2. 角色池、武器/弧盤池、新手池的風險體感並不相同，不能只用一個平均數概括\n3. 如果你是為了實際抽卡決策，比起問「綜合出率是多少」，更該問「這個池子值不值得我把本版本資源押上去」\n\n所以這頁現在保留的是**機率閱讀方式與抽卡決策視角**，而不是只靠一份靜態數字表來回答所有問題。",
-    "categoryTw": "抽卡"
+    "categoryTw": "抽卡",
+    "seoTitleTw": "異環抽卡機率解析 — S級出率、保底規則與抽卡決策",
+    "seoDescriptionTw": "異環抽卡機率怎麼看更有用：整理 S 級出率、保底邏輯、角色池與武器池差異，幫助你判斷這個卡池值不值得抽。"
   },
   {
     "id": "romance-system-guide",
