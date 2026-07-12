@@ -40,11 +40,11 @@ export async function generateMetadata({
   );
   const suffix = localizedText(locale, "异环攻略", "Neverness to Everness Guide");
   return {
-    title: `${title} - ${suffix} | NTE Guide`,
+    title: `${title} - ${suffix}`,
     description,
     alternates: hreflangAlternates("bosses", lang),
     openGraph: {
-      title: `${title} - ${suffix} | NTE Guide`,
+      title: `${title} - ${suffix}`,
       description,
       type: "article",
     },

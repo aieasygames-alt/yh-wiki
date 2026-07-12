@@ -29,7 +29,7 @@ export async function generateMetadata({
   const title = localizedText(
     locale,
     `${name} 属性、极速与获取方式 | 异环载具 Wiki`,
-    `${vehicle.nameEn} Stats, Top Speed & How to Get | NTE Guide`
+    `${vehicle.nameEn} Stats, Top Speed & How to Get`
   );
   const description = localizedText(
     locale,

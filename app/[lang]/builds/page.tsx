@@ -29,7 +29,7 @@ export async function generateMetadata({
   const characters = getAvailableCharacters().filter((c) => c.recommendedBuild);
   const title = localizedText(
     locale,
-    "异环全角色 Build 推荐 - 武器、卡带与词条优先级 | NTE Guide",
+    "异环全角色 Build 推荐 - 武器、卡带与词条优先级",
     "NTE Best Builds - Weapons, Disks, and Stat Priorities"
   );
   const description = localizedText(

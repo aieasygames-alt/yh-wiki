@@ -68,11 +68,11 @@ export async function generateMetadata({
         ? `${displayName} 屬性與獲取方式 | 異環弧盤 Wiki`
         : isZhLocale(locale)
         ? `${displayName} 属性、精炼与获取方式 | 异环弧盘 Wiki`
-        : `${weapon.nameEn} (${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}) — Stats, Best Characters & How to Get | NTE Guide`,
+        : `${weapon.nameEn} (${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}) — Stats, Best Characters & How to Get`,
     description,
     alternates: hreflangAlternates(`weapons/${slug}`, lang),
     openGraph: {
-      title: isZhLocale(locale) ? `${displayName} | 异环弧盘 Wiki` : `${weapon.nameEn} Stats & Best Characters | NTE Guide`,
+      title: isZhLocale(locale) ? `${displayName} | 异环弧盘 Wiki` : `${weapon.nameEn} Stats & Best Characters`,
       description,
       type: "article",
       images: weapon.image ? [`https://nteguide.com${weapon.image}`] : undefined,

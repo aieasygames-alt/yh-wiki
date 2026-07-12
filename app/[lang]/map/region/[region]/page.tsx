@@ -63,7 +63,7 @@ export async function generateMetadata({
 
   return {
     title: isZh
-      ? localizedText(locale, `${regionName}探索攻略 - 全资源标记地图 | NTE Guide`, "")
+      ? localizedText(locale, `${regionName}探索攻略 - 全资源标记地图`, "")
       : `${regionName} Exploration Guide - All Resource Map | Neverness to Everness`,
     description: desc,
     alternates: hreflangAlternates(`map/region/${regionId}`, lang),

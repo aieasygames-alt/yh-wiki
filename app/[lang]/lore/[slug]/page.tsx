@@ -73,13 +73,13 @@ export async function generateMetadata({
     relatedCharacters: lore.relatedCharacters.length,
     relatedLocations: lore.relatedLocations.length,
   });
-  const suffix = localizedText(locale, "异环世界观", "NTE Lore | Neverness to Everness");
+  const suffix = localizedText(locale, "异环世界观", "NTE Lore");
   return {
-    title: `${name} - ${suffix} | NTE Guide`,
+    title: `${name} - ${suffix}`,
     description,
     alternates: hreflangAlternates(`lore/${slug}`, lang),
     openGraph: {
-      title: `${name} - ${suffix} | NTE Guide`,
+      title: `${name} - ${suffix}`,
       description,
       type: "article",
     },

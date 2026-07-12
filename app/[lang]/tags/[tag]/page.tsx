@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
   );
 
   return {
-    title: `${title} | NTE Guide`,
+    title,
     description,
     alternates: hreflangAlternates(`tags/${encodedTag}`, lang),
     // Thin tag pages (< 4 items) waste crawl budget — noindex them

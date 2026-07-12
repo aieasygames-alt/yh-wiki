@@ -19,9 +19,9 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环抽卡系统详解 — 保底机制、概率分析与抽卡策略 | NTE Guide",
-    "NTE Gacha System — Rates, Pity & Best Pull Strategy | NTE Guide",
-    "異環抽卡系統完整解析 — 保底、機率與抽取規劃 | NTE Guide"
+    "异环抽卡系统详解 — 保底机制、概率分析与抽卡策略",
+    "NTE Gacha System — Rates, Pity & Best Pull Strategy",
+    "異環抽卡系統完整解析 — 保底、機率與抽取規劃"
   );
   const description = localizedText(
     locale,

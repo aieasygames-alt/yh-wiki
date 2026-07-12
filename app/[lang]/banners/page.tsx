@@ -248,7 +248,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环卡池时间表 2026 — Shinku当前UP、Iroi下一期、Zankou 1.3预热 | NTE Guide",
+    "异环卡池时间表 2026 — Shinku当前UP、Iroi下一期、Zankou 1.3预热",
     "NTE Banner Schedule 2026 — Shinku Current, Iroi Next, Zankou 1.3 Teaser"
   );
   const description = localizedText(

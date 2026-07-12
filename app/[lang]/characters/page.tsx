@@ -17,7 +17,7 @@ export async function generateMetadata({
   const availableCount = getAvailableCharacters().length;
   const title = localizedText(
     locale,
-    `异环全角色图鉴 - ${availableCount} 名角色强度、Build 与配队入口 | NTE Guide`,
+    `异环全角色图鉴 - ${availableCount} 名角色强度、Build 与配队入口`,
     `NTE Characters - ${availableCount} Character Builds, Teams, and Tier Guide`
   );
   const description = localizedText(

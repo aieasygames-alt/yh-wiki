@@ -23,13 +23,13 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const name = localizedText(locale, loc.name, loc.nameEn);
   const description = localizedText(locale, loc.summary, loc.summaryEn);
-  const suffix = localizedText(locale, "异环地图", "NTE Location Guide | Neverness to Everness");
+  const suffix = localizedText(locale, "异环地图", "NTE Location Guide");
   return {
-    title: `${name} - ${suffix} | NTE Guide`,
+    title: `${name} - ${suffix}`,
     description,
     alternates: hreflangAlternates(`locations/${slug}`, lang),
     openGraph: {
-      title: `${name} - ${suffix} | NTE Guide`,
+      title: `${name} - ${suffix}`,
       description,
       type: "article",
     },
