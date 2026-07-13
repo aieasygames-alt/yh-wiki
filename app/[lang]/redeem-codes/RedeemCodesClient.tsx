@@ -1,16 +1,13 @@
 "use client";
 
-import { useState, useCallback, useEffect, useMemo } from "react";
+import { useState, useCallback, useEffect } from "react";
+import Link from "next/link";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { trackEvent } from "../../../lib/analytics";
 import { getAttributeColor } from "../../../lib/attributes";
-import redeemCodesData from "../../../data/redeem-codes.json";
-import charactersData from "../../../data/characters.json";
-import blogData from "../../../data/blog.json";
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 import { GameImage } from "../../../components/GameImage";
-import Link from "next/link";
 
 interface RedeemCode {
   code: string;
@@ -23,7 +20,25 @@ interface RedeemCode {
   revealedAt?: string;
 }
 
-const codes = redeemCodesData as RedeemCode[];
+type TopCharacter = {
+  id: string;
+  name: string;
+  nameEn: string;
+  attribute: string;
+  tierRank?: string;
+  image?: string;
+};
+
+type LatestPost = {
+  id: string;
+  title: string;
+  titleEn: string;
+  summary: string;
+  summaryEn: string;
+  category: string;
+  categoryEn: string;
+  date: string;
+};
 
 const STATUS_CONFIG = {
   active: {
@@ -51,7 +66,14 @@ const REGION_LABEL_KEYS = {
   global: "redeemCodesStatus.globalServer",
 };
 
-export function RedeemCodesClient({ lang }: { lang: string }) {
+interface RedeemCodesClientProps {
+  lang: string;
+  codes: RedeemCode[];
+  topChars: TopCharacter[];
+  latestPosts: LatestPost[];
+}
+
+export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: RedeemCodesClientProps) {
   const locale = lang as Locale;
 
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
@@ -79,22 +101,6 @@ export function RedeemCodesClient({ lang }: { lang: string }) {
       trackEvent({ event: "copy_redeem_code", label: code });
     });
   }, []);
-
-  const topChars = useMemo(
-    () =>
-      (charactersData as Array<{ id: string; name: string; nameEn: string; attribute: string; tierRank?: string; image?: string }>)
-        .filter((c) => c.tierRank === "SS" || c.tierRank === "S+")
-        .slice(0, 8),
-    []
-  );
-
-  const latestPosts = useMemo(
-    () =>
-      [...(blogData as Array<{ id: string; title: string; titleEn: string; summary: string; summaryEn: string; category: string; categoryEn: string; date: string; tags: string[] }>)]
-        .sort((a, b) => b.date.localeCompare(a.date))
-        .slice(0, 3),
-    []
-  );
 
   const filteredCodes = codes.filter((c) => {
     if (filter !== "all" && c.status !== filter) return false;

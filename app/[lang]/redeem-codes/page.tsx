@@ -1,6 +1,9 @@
 import { t, isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
+import redeemCodesData from "../../../data/redeem-codes.json";
+import charactersData from "../../../data/characters.json";
+import blogData from "../../../data/blog.json";
 import { RedeemCodesClient } from "./RedeemCodesClient";
 
 export function generateStaticParams() {
@@ -41,6 +44,36 @@ export default async function RedeemCodesPage({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
+  const codes = redeemCodesData as Array<{
+    code: string;
+    reward: string;
+    rewardEn: string;
+    status: "active" | "expired" | "unknown";
+    expiresAt: string;
+    source: string;
+    region: "cn" | "global";
+    revealedAt?: string;
+  }>;
+  const topChars = (charactersData as Array<{
+    id: string;
+    name: string;
+    nameEn: string;
+    attribute: string;
+    tierRank?: string;
+    image?: string;
+  }>).filter((character) => character.tierRank === "SS" || character.tierRank === "S+").slice(0, 8);
+  const latestPosts = [...(blogData as Array<{
+    id: string;
+    title: string;
+    titleEn: string;
+    summary: string;
+    summaryEn: string;
+    category: string;
+    categoryEn: string;
+    date: string;
+  }>)]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 3);
 
   const faqs = isZhLocale(locale)
     ? [
@@ -89,7 +122,7 @@ export default async function RedeemCodesPage({
           </p>
         </div>
       </section>
-      <RedeemCodesClient lang={lang} />
+      <RedeemCodesClient lang={lang} codes={codes} topChars={topChars} latestPosts={latestPosts} />
       <section className="max-w-4xl mx-auto px-4 pb-12 pt-6">
         <div className="grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">

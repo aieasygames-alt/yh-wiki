@@ -1,21 +1,12 @@
-"use client";
-
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { useParams } from "next/navigation";
-import { t, isZhLocale, Locale } from "../../../../lib/i18n";
+import { Locale } from "../../../../lib/i18n";
 import {
   getAllCharacters,
-  getCharacterMaterials,
-  getMaterialById,
-  calculateMaterials,
   getAllWeapons,
+  getAllMaterials,
+  getCharacterMaterials,
 } from "../../../../lib/queries";
-import { getAttributeColor, getAttributeLabel, ATTRIBUTE_LABELS } from "../../../../lib/attributes";
-import { ShareBuildButton } from "../../../../components/ShareBuildButton";
-import { KardzPromoCard } from "../../../../components/KardzPromoCard";
-import { WebApplicationJsonLd } from "../../../../components/JsonLd";
 import buildsData from "../../../../data/builds.json";
+import { BuildCalculatorClient } from "./BuildCalculatorClient";
 
 interface Build {
   id: string;
@@ -38,417 +29,53 @@ interface CharacterBuild {
   builds: Build[];
 }
 
-const RANK_ORDER = ["S", "A", "B"];
-const RANK_COLORS: Record<string, string> = {
-  S: "border-yellow-500/40 bg-yellow-500/10 hover:border-yellow-400/60",
-  A: "border-blue-500/40 bg-blue-500/10 hover:border-blue-400/60",
-  B: "border-gray-600 bg-gray-800/50 hover:border-gray-500",
-};
+export default async function BuildCalculatorPage({
+  params,
+}: {
+  params: { lang: string };
+}) {
+  const { lang } = await params;
 
-const characters = getAllCharacters();
-const weapons = getAllWeapons();
-const builds = buildsData as CharacterBuild[];
+  const characters = getAllCharacters().map((character) => ({
+    id: character.id,
+    name: character.name,
+    nameEn: character.nameEn,
+    attribute: character.attribute,
+    rank: character.rank,
+    status: character.status,
+    role: character.role,
+    roleEn: character.roleEn,
+  }));
 
-export default function BuildCalculatorPage() {
-  const { lang: langParam } = useParams();
-  const lang = (langParam || "zh") as Locale;
+  const weapons = getAllWeapons().map((weapon) => ({
+    id: weapon.id,
+    name: weapon.name,
+    nameEn: weapon.nameEn,
+    type: weapon.type,
+  }));
 
-  const [selectedCharacter, setSelectedCharacter] = useState("");
-  const [activeBuildIdx, setActiveBuildIdx] = useState(0);
-  const [filterAttribute, setFilterAttribute] = useState("");
-  const [filterRank, setFilterRank] = useState("");
+  const materialsById = Object.fromEntries(
+    getAllMaterials().map((material) => [
+      material.id,
+      { id: material.id, name: material.name, nameEn: material.nameEn },
+    ])
+  );
 
-  const selectedBuilds = useMemo(() => {
-    if (!selectedCharacter) return null;
-    return builds.find((b) => b.characterId === selectedCharacter)?.builds || null;
-  }, [selectedCharacter]);
-
-  const selectedChar = useMemo(() => {
-    if (!selectedCharacter) return null;
-    return characters.find((c) => c.id === selectedCharacter) || null;
-  }, [selectedCharacter]);
-
-  const activeBuild = useMemo(() => {
-    if (!selectedBuilds) return null;
-    return selectedBuilds[Math.min(activeBuildIdx, selectedBuilds.length - 1)];
-  }, [selectedBuilds, activeBuildIdx]);
-
-  const levelingMaterials = useMemo(() => {
-    if (!selectedCharacter) return null;
-    return calculateMaterials(selectedCharacter, 1, 60);
-  }, [selectedCharacter]);
-
-  const skillMaterials = useMemo(() => {
-    if (!selectedCharacter) return null;
-    return getCharacterMaterials(selectedCharacter)?.skillMaterials || null;
-  }, [selectedCharacter]);
-
-  const charactersWithBuilds = useMemo(() => {
-    const buildCharIds = new Set(builds.map((b) => b.characterId));
-    return characters.filter((c) => buildCharIds.has(c.id));
-  }, []);
-
-  const filteredCharacters = useMemo(() => {
-    let list = charactersWithBuilds;
-    if (filterAttribute) list = list.filter((c) => c.attribute === filterAttribute);
-    if (filterRank) list = list.filter((c) => c.rank === filterRank);
-    return list;
-  }, [charactersWithBuilds, filterAttribute, filterRank]);
-
-  const attributes = Object.keys(ATTRIBUTE_LABELS);
-
-  const handleSelectCharacter = (charId: string) => {
-    setSelectedCharacter(charId);
-    setActiveBuildIdx(0);
-  };
+  const characterMaterialsById = Object.fromEntries(
+    getAllCharacters()
+      .map((character) => getCharacterMaterials(character.id))
+      .filter(Boolean)
+      .map((entry) => [entry!.characterId, entry!])
+  );
 
   return (
-    <>
-      <WebApplicationJsonLd
-        name={isZhLocale(lang) ? "异环配装计算器" : "NTE Build Calculator"}
-        description={isZhLocale(lang) ? "异环角色配装查询工具，按角色查看推荐的弧盘、卡带与配队方案" : "NTE character build finder — recommended arcs, cassettes, and team comps per character"}
-      />
-      <div className="max-w-6xl mx-auto px-4 py-12">
-      <div className="flex items-center justify-between mb-8">
-        <h1 className="text-3xl font-bold">{t(lang, "buildCalculator.title")}</h1>
-        <ShareBuildButton />
-      </div>
-
-      <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
-        <h2 className="text-lg font-semibold text-white">
-          {isZhLocale(lang) ? "这个配装页最适合怎么用？" : "What is the best way to use this build page?"}
-        </h2>
-        <p className="mt-3 text-sm leading-7 text-gray-300">
-          {isZhLocale(lang)
-            ? "最实用的用法不是把推荐配装当成唯一答案，而是先选你正在养的角色，再快速确认主词条、副词条、推荐武器和配队方向有没有明显跑偏。它特别适合在你刚抽到角色、准备刷材料，或者要判断一把新武器能不能直接上岗的时候使用。"
-            : "The most useful approach is not treating the listed build as a single final answer. Select the character you are building, then quickly validate main stats, substats, weapon choices, and team direction. It is especially helpful right after a pull, before farming materials, or when judging whether a newly acquired weapon is ready to use."}
-        </p>
-      </section>
-
-      <section className="mb-8 grid gap-4 md:grid-cols-2">
-        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
-          <h2 className="text-base font-semibold text-white">
-            {isZhLocale(lang) ? "看配装时先确认什么" : "What should you confirm first?"}
-          </h2>
-          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{isZhLocale(lang) ? "先分清角色当前是主输出、副输出，还是功能位，不同定位优先词条完全不同。" : "Decide whether the character is your main DPS, sub-DPS, or utility slot first, because the stat priorities change with the role."}</li>
-            <li>{isZhLocale(lang) ? "把你现有武器、队伍和资源进度一起带进来，不要只看理想毕业模板。" : "Compare the build against your actual weapons, team context, and resource state instead of a perfect theoretical template only."}</li>
-            <li>{isZhLocale(lang) ? "如果你只是刚入坑，先确保主词条和队伍方向正确，再追求细化副词条。" : "If you are still early-game, lock in the right main stat and team direction before chasing perfect substats."}</li>
-          </ul>
-        </div>
-        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
-          <h2 className="text-base font-semibold text-white">
-            {isZhLocale(lang) ? "常见误区" : "Common mistakes"}
-          </h2>
-          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{isZhLocale(lang) ? "把推荐配装当成唯一答案，忽略了不同武器和队友会改变词条收益。" : "Treating the listed build as the only valid answer and ignoring how weapons and teammates shift stat value."}</li>
-            <li>{isZhLocale(lang) ? "只盯副词条强度，却没先把主词条、套装方向和配队逻辑理顺。" : "Over-focusing on substats before fixing the main stat, set direction, and team logic."}</li>
-            <li>{isZhLocale(lang) ? "为了追毕业强度把所有资源压给一个角色，反而拖慢整队成型。" : "Dumping every resource into one character for a dream build and slowing down the full team's progress."}</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Filters */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        <button
-          onClick={() => setFilterAttribute("")}
-          className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
-            !filterAttribute ? "bg-primary-500/20 text-primary-400 border-primary-500/30" : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
-          }`}
-        >
-          {t(lang, "buildCalculator.allAttributes")}
-        </button>
-        {attributes.map((attr) => (
-          <button
-            key={attr}
-            onClick={() => setFilterAttribute(filterAttribute === attr ? "" : attr)}
-            className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${getAttributeColor(attr)} ${
-              filterAttribute === attr ? "ring-1 ring-white/20" : ""
-            }`}
-          >
-            {getAttributeLabel(attr, lang)}
-          </button>
-        ))}
-        <span className="text-gray-600 mx-1">|</span>
-        {RANK_ORDER.map((rank) => (
-          <button
-            key={rank}
-            onClick={() => setFilterRank(filterRank === rank ? "" : rank)}
-            className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
-              filterRank === rank
-                ? rank === "S"
-                  ? "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
-                  : "bg-blue-500/20 text-blue-400 border-blue-500/30"
-                : "bg-gray-800 text-gray-400 border-gray-700 hover:border-gray-600"
-            }`}
-          >
-            {rank}
-          </button>
-        ))}
-      </div>
-
-      {/* Character Grid */}
-      <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2 mb-8">
-        {filteredCharacters.map((c) => (
-          <button
-            key={c.id}
-            onClick={() => handleSelectCharacter(c.id)}
-            className={`relative rounded-lg border p-1 transition-all ${RANK_COLORS[c.rank] || RANK_COLORS.B} ${
-              selectedCharacter === c.id ? "ring-2 ring-primary-400 scale-105" : ""
-            }`}
-          >
-            <div className="aspect-square rounded overflow-hidden bg-gray-900">
-              <div className="w-full h-full flex items-center justify-center">
-                <span className="text-2xl">{c.name[0]}</span>
-              </div>
-            </div>
-            <p className="text-[10px] truncate mt-1">{c.name}</p>
-            {c.rank === "S" && (
-              <span className="absolute top-0.5 right-0.5 text-[8px] text-yellow-400 font-bold">S</span>
-            )}
-            {c.status === "upcoming" && (
-              <span className="absolute bottom-0.5 right-0.5 text-[7px] text-orange-400/80">UP</span>
-            )}
-          </button>
-        ))}
-      </div>
-
-      {/* Build Display */}
-      {selectedBuilds && selectedBuilds.length > 0 && activeBuild ? (
-        <div className="space-y-6">
-          {/* Build Tabs */}
-          {selectedBuilds.length > 1 && (
-            <div className="flex gap-2">
-              {selectedBuilds.map((b, i) => (
-                <button
-                  key={b.id}
-                  onClick={() => setActiveBuildIdx(i)}
-                  className={`px-4 py-2 text-sm rounded-lg transition-colors ${
-                    i === activeBuildIdx
-                      ? "bg-primary-500/20 text-primary-400 border border-primary-500/30"
-                      : "bg-gray-800 text-gray-400 border border-gray-700 hover:border-gray-600"
-                  }`}
-                >
-                  {isZhLocale(lang) ? b.name : b.nameEn}
-                </button>
-              ))}
-            </div>
-          )}
-
-          {/* Character Info Bar */}
-          {selectedChar && (
-            <div className="flex items-center gap-3 rounded-xl border border-gray-800 bg-gray-900/50 p-4">
-              <div className="w-14 h-14 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center text-2xl">
-                {selectedChar.name[0]}
-              </div>
-              <div>
-                <h2 className="text-lg font-bold">{selectedChar.name} <span className="text-gray-500 text-sm">{selectedChar.nameEn}</span></h2>
-                <div className="flex items-center gap-2 mt-1">
-                  <span className={`text-xs px-2 py-0.5 rounded border ${getAttributeColor(selectedChar.attribute)}`}>
-                    {getAttributeLabel(selectedChar.attribute, lang)}
-                  </span>
-                  <span className={`text-xs font-bold ${selectedChar.rank === "S" ? "text-yellow-400" : "text-blue-400"}`}>
-                    {selectedChar.rank}-Rank
-                  </span>
-                  <span className="text-xs text-gray-500">
-                    {isZhLocale(lang) ? selectedChar.role : selectedChar.roleEn}
-                  </span>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Build Details */}
-          <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6">
-            <h3 className="text-xl font-bold mb-2">
-              {isZhLocale(lang) ? activeBuild.name : activeBuild.nameEn}
-            </h3>
-            <p className="text-gray-400 text-sm mb-6">
-              {isZhLocale(lang) ? activeBuild.description : activeBuild.descriptionEn}
-            </p>
-
-            {/* Stats Panel */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Main Stat */}
-              <div>
-                <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.mainStat")}</h4>
-                <div className="rounded-lg bg-primary-500/10 border border-primary-500/20 px-4 py-3">
-                  <p className="text-primary-400 font-bold text-lg">{isZhLocale(lang) ? activeBuild.mainStat : activeBuild.mainStatEn}</p>
-                </div>
-              </div>
-
-              {/* Sub Stats */}
-              <div>
-                <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.subStats")}</h4>
-                <div className="space-y-1.5">
-                  {(isZhLocale(lang) ? activeBuild.subStats : activeBuild.subStatsEn).map((stat, i) => {
-                    const colors = [
-                      "bg-yellow-500/10 border-yellow-500/20 text-yellow-400",
-                      "bg-blue-500/10 border-blue-500/20 text-blue-400",
-                      "bg-gray-700/30 border-gray-600/20 text-gray-400",
-                      "bg-gray-700/30 border-gray-600/20 text-gray-500",
-                    ];
-                    const labels = [t(lang, "buildCalculator.priority1"), t(lang, "buildCalculator.priority2"), t(lang, "buildCalculator.priority3"), t(lang, "buildCalculator.priority4")];
-                    return (
-                      <div key={stat} className={`flex items-center justify-between rounded-lg border px-3 py-2 ${colors[i] || colors[3]}`}>
-                        <span className="text-sm">{stat}</span>
-                        <span className="text-xs opacity-60">{labels[i]}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/* Recommended Weapons */}
-              <div>
-                <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.recommendedWeapons")}</h4>
-                <div className="space-y-2">
-                  {activeBuild.recommendedWeapons.map((wId) => {
-                    const weapon = weapons.find((w) => w.id === wId);
-                    return weapon ? (
-                      <Link
-                        key={wId}
-                        href={`/${lang}/weapons/${wId}`}
-                        className="flex items-center gap-3 rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2.5 hover:border-primary-500/50 hover:bg-gray-800 transition-colors"
-                      >
-                        <span className="text-lg">{weapon.name[0]}</span>
-                        <div className="min-w-0">
-                          <p className="text-sm font-medium truncate">{isZhLocale(lang) ? weapon.name : weapon.nameEn}</p>
-                          <p className="text-xs text-gray-500">{weapon.type}</p>
-                        </div>
-                      </Link>
-                    ) : null;
-                  })}
-                </div>
-              </div>
-
-              {/* Team Comp */}
-              <div>
-                <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.teamComp")}</h4>
-                <div className="space-y-2">
-                  {activeBuild.teamComp.map((cId) => {
-                    const char = characters.find((c) => c.id === cId);
-                    return char ? (
-                      <Link
-                        key={cId}
-                        href={`/${lang}/characters/${cId}`}
-                        className="flex items-center gap-3 rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2.5 hover:border-primary-500/50 hover:bg-gray-800 transition-colors"
-                      >
-                        <span className="text-lg">{char.name[0]}</span>
-                        <div className="min-w-0">
-                          <p className="text-sm font-medium truncate">{char.name} <span className="text-gray-500">{char.nameEn}</span></p>
-                          <span className={`text-xs px-1.5 py-0.5 rounded border ${getAttributeColor(char.attribute)}`}>
-                            {getAttributeLabel(char.attribute, lang)}
-                          </span>
-                        </div>
-                      </Link>
-                    ) : null;
-                  })}
-                </div>
-              </div>
-            </div>
-
-            {/* Notes */}
-            <div className="mt-6 pt-4 border-t border-gray-800">
-              <p className="text-sm text-gray-500">
-                {isZhLocale(lang) ? activeBuild.notes : activeBuild.notesEn}
-              </p>
-            </div>
-          </div>
-
-          {/* Material Summary */}
-          {(levelingMaterials || skillMaterials) && (
-            <div>
-              <h2 className="text-xl font-bold mb-4">{t(lang, "buildCalculator.materialSummary")}</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {levelingMaterials && levelingMaterials.length > 0 && (
-                  <div className="rounded-xl border border-gray-800 bg-gray-900/50 overflow-hidden">
-                    <div className="px-4 py-3 border-b border-gray-800 bg-gray-900">
-                      <h3 className="text-sm font-medium text-gray-300">{t(lang, "calculator.levelingNote")}</h3>
-                    </div>
-                    <div className="divide-y divide-gray-800/50">
-                      {levelingMaterials.map((r) => {
-                        const material = getMaterialById(r.materialId);
-                        if (!material) return null;
-                        return (
-                          <div key={r.materialId} className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-800/30">
-                            <Link href={`/${lang}/materials/${r.materialId}`} className="text-sm hover:text-primary-400 transition-colors">
-                              {isZhLocale(lang) ? material.name : material.nameEn}
-                            </Link>
-                            <span className="font-mono text-primary-400 text-sm">x{r.quantity}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-                {skillMaterials && skillMaterials.length > 0 && (
-                  <div className="rounded-xl border border-gray-800 bg-gray-900/50 overflow-hidden">
-                    <div className="px-4 py-3 border-b border-gray-800 bg-gray-900">
-                      <h3 className="text-sm font-medium text-gray-300">{t(lang, "calculator.skillMaterialsNote")}</h3>
-                    </div>
-                    <div className="divide-y divide-gray-800/50">
-                      {skillMaterials.map((m) => {
-                        const material = getMaterialById(m.id);
-                        if (!material) return null;
-                        return (
-                          <div key={m.id} className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-800/30">
-                            <Link href={`/${lang}/materials/${m.id}`} className="text-sm hover:text-primary-400 transition-colors">
-                              {isZhLocale(lang) ? material.name : material.nameEn}
-                            </Link>
-                            <span className="font-mono text-primary-400 text-sm">x{m.quantity}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-              </div>
-              <Link
-                href={`/${lang}/calculator/leveling`}
-                className="inline-block mt-4 text-sm text-primary-400 hover:text-primary-300 transition-colors"
-              >
-                {t(lang, "buildCalculator.openLevelingCalc")}
-              </Link>
-            </div>
-          )}
-        </div>
-      ) : selectedCharacter ? (
-        <p className="text-gray-500 text-center py-8">{t(lang, "buildCalculator.noBuild")}</p>
-      ) : (
-        <div className="text-center py-16 text-gray-500">
-          <p className="text-lg mb-2">{t(lang, "buildCalculator.selectHint")}</p>
-          <p className="text-sm">{t(lang, "buildCalculator.filterHint")}</p>
-        </div>
-      )}
-
-      <div className="mt-8">
-        <KardzPromoCard locale={lang} variant="banner" />
-      </div>
-
-      <section className="mt-10 grid gap-4 md:grid-cols-2">
-        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
-          <h2 className="text-base font-semibold text-white">
-            {isZhLocale(lang) ? "先核对这几项" : "Check these first"}
-          </h2>
-          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{isZhLocale(lang) ? "主词条方向有没有错，通常比副词条细节更重要。" : "Main stat direction matters more than small substat differences."}</li>
-            <li>{isZhLocale(lang) ? "推荐武器是否真在你仓库里，以及替代方案差多少。" : "Confirm whether the recommended weapon is actually on your account and how strong the fallback is."}</li>
-            <li>{isZhLocale(lang) ? "配队是否能支撑这套 build，而不是角色单卡看起来很漂亮。" : "Make sure the suggested team can support the build instead of judging the unit in isolation."}</li>
-          </ul>
-        </div>
-        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
-          <h2 className="text-base font-semibold text-white">
-            {isZhLocale(lang) ? "常见配装误区" : "Common build mistakes"}
-          </h2>
-          <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{isZhLocale(lang) ? "只抄榜单，不看自己账号资源和队伍需求。" : "Copying a ranking build without checking your own roster and resources."}</li>
-            <li>{isZhLocale(lang) ? "为了追理论上限，牺牲太多成型速度。" : "Chasing theoretical ceiling while delaying a usable build for too long."}</li>
-            <li>{isZhLocale(lang) ? "忽略技能循环或能量压力，导致纸面强度落不到实战。" : "Ignoring rotation or energy pressure so paper strength never translates in real play."}</li>
-          </ul>
-        </div>
-      </section>
-    </div>
-    </>
+    <BuildCalculatorClient
+      lang={lang as Locale}
+      characters={characters}
+      weapons={weapons}
+      builds={buildsData as CharacterBuild[]}
+      materialsById={materialsById}
+      characterMaterialsById={characterMaterialsById}
+    />
   );
 }
