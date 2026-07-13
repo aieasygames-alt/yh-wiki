@@ -3,9 +3,7 @@
 import { useState, useMemo, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { getAvailableCharacters } from "../../../lib/queries";
 import buildsData from "../../../data/builds.json";
-import type { Character } from "../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { t, isZhLocale, Locale } from "../../../lib/i18n";
 import { GameImage } from "../../../components/GameImage";
@@ -33,6 +31,16 @@ const builds = buildsData as BuildEntry[];
 
 const TEAM_SIZE = 3;
 
+type TeamBuilderCharacter = {
+  id: string;
+  name: string;
+  nameEn: string;
+  attribute: string;
+  rank: string;
+  role: string;
+  roleEn: string;
+};
+
 type SynergyTag = {
   key: string;
   label: string;
@@ -40,7 +48,7 @@ type SynergyTag = {
   type: "positive" | "neutral" | "negative";
 };
 
-function analyzeSynergy(team: Character[], isZh: boolean): SynergyTag[] {
+function analyzeSynergy(team: TeamBuilderCharacter[], isZh: boolean): SynergyTag[] {
   if (team.length < 2) return [];
   const tags: SynergyTag[] = [];
   const attrs = team.map((c) => c.attribute);
@@ -128,20 +136,32 @@ function getRecommendedBuilds(teamIds: string[]): {
   });
 }
 
-export function TeamBuilderClient({ lang }: { lang: string }) {
+export function TeamBuilderClient({
+  lang,
+  characters,
+}: {
+  lang: string;
+  characters: TeamBuilderCharacter[];
+}) {
   return (
     <Suspense fallback={<div className="max-w-6xl mx-auto px-4 py-8"><div className="animate-pulse h-8 bg-gray-800 rounded w-48 mb-4" /><div className="animate-pulse h-64 bg-gray-800/50 rounded" /></div>}>
-      <TeamBuilderInner lang={lang} />
+      <TeamBuilderInner lang={lang} characters={characters} />
     </Suspense>
   );
 }
 
-function TeamBuilderInner({ lang }: { lang: string }) {
+function TeamBuilderInner({
+  lang,
+  characters,
+}: {
+  lang: string;
+  characters: TeamBuilderCharacter[];
+}) {
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const searchParams = useSearchParams();
 
-  const allCharacters = useMemo(() => getAvailableCharacters(), []);
+  const allCharacters = useMemo(() => characters, [characters]);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [filterRank, setFilterRank] = useState<string>("all");
   const [filterAttr, setFilterAttr] = useState<string>("all");

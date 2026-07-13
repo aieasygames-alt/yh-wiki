@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
-import { getGuide, getAllAnomalies } from "../../../lib/queries";
+import { getGuide, getAllAnomalies, getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
@@ -8,6 +8,7 @@ import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
 import { BossCardClient } from "../../../components/BossCardClient";
 import { localizedText } from "../../../lib/seo-copy";
+import buildsData from "../../../data/builds.json";
 
 const BOSS_GUIDE_ID = "boss-guide-comprehensive";
 
@@ -16,6 +17,15 @@ const TYPE_COLORS: Record<string, string> = {
   elite: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
   normal: "bg-blue-500/20 text-blue-400 border-blue-500/30",
 };
+
+interface BuildEntry {
+  characterId: string;
+  builds: {
+    teamComp: string[];
+  }[];
+}
+
+const builds = buildsData as BuildEntry[];
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -70,6 +80,28 @@ export default async function BossGuidePage({
   const bosses = anomalies.filter((a) => a.type === "boss");
   const elites = anomalies.filter((a) => a.type === "elite");
   const normals = anomalies.filter((a) => a.type === "normal");
+  const characters = getAvailableCharacters();
+  const characterMap = new Map(
+    characters.map((character) => [
+      character.id,
+      {
+        id: character.id,
+        name: character.name,
+        nameEn: character.nameEn,
+      },
+    ])
+  );
+  const recommendedTeams = builds
+    .filter((entry) => entry.builds.length > 0 && entry.builds[0].teamComp.length > 0)
+    .slice(0, 3)
+    .map((entry) => ({
+      characterId: entry.characterId,
+      team: [entry.characterId, ...entry.builds[0].teamComp]
+        .slice(0, 3)
+        .map((id) => characterMap.get(id))
+        .filter((character): character is NonNullable<typeof character> => Boolean(character)),
+    }))
+    .filter((entry) => entry.team.length > 0);
 
   return (
     <>
@@ -141,7 +173,7 @@ export default async function BossGuidePage({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {bosses.map((boss) => (
-                <BossCardClient key={boss.id} id={boss.id} name={isZh ? boss.name : boss.nameEn} type={boss.type} attribute={isZh ? boss.attribute : boss.attributeEn} hp={boss.hp} weakness={isZh ? boss.weakness : boss.weaknessEn} location={isZh ? boss.location : boss.locationEn} strategy={isZh ? boss.strategy : boss.strategyEn} drops={isZh ? boss.drops : boss.dropsEn} mechanics={isZh ? boss.mechanics : boss.mechanicsEn} lang={lang} isZh={isZh} />
+                <BossCardClient key={boss.id} id={boss.id} name={isZh ? boss.name : boss.nameEn} type={boss.type} attribute={isZh ? boss.attribute : boss.attributeEn} hp={boss.hp} weakness={isZh ? boss.weakness : boss.weaknessEn} location={isZh ? boss.location : boss.locationEn} strategy={isZh ? boss.strategy : boss.strategyEn} drops={isZh ? boss.drops : boss.dropsEn} mechanics={isZh ? boss.mechanics : boss.mechanicsEn} lang={lang} isZh={isZh} recommendedTeams={recommendedTeams} />
               ))}
             </div>
           </div>
@@ -158,7 +190,7 @@ export default async function BossGuidePage({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {elites.map((elite) => (
-                <BossCardClient key={elite.id} id={elite.id} name={isZh ? elite.name : elite.nameEn} type={elite.type} attribute={isZh ? elite.attribute : elite.attributeEn} hp={elite.hp} weakness={isZh ? elite.weakness : elite.weaknessEn} location={isZh ? elite.location : elite.locationEn} strategy={isZh ? elite.strategy : elite.strategyEn} drops={isZh ? elite.drops : elite.dropsEn} mechanics={isZh ? elite.mechanics : elite.mechanicsEn} lang={lang} isZh={isZh} />
+                <BossCardClient key={elite.id} id={elite.id} name={isZh ? elite.name : elite.nameEn} type={elite.type} attribute={isZh ? elite.attribute : elite.attributeEn} hp={elite.hp} weakness={isZh ? elite.weakness : elite.weaknessEn} location={isZh ? elite.location : elite.locationEn} strategy={isZh ? elite.strategy : elite.strategyEn} drops={isZh ? elite.drops : elite.dropsEn} mechanics={isZh ? elite.mechanics : elite.mechanicsEn} lang={lang} isZh={isZh} recommendedTeams={recommendedTeams} />
               ))}
             </div>
           </div>
@@ -175,7 +207,7 @@ export default async function BossGuidePage({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {normals.map((normal) => (
-                <BossCardClient key={normal.id} id={normal.id} name={isZh ? normal.name : normal.nameEn} type={normal.type} attribute={isZh ? normal.attribute : normal.attributeEn} hp={normal.hp} weakness={isZh ? normal.weakness : normal.weaknessEn} location={isZh ? normal.location : normal.locationEn} strategy={isZh ? normal.strategy : normal.strategyEn} drops={isZh ? normal.drops : normal.dropsEn} mechanics={isZh ? normal.mechanics : normal.mechanicsEn} lang={lang} isZh={isZh} />
+                <BossCardClient key={normal.id} id={normal.id} name={isZh ? normal.name : normal.nameEn} type={normal.type} attribute={isZh ? normal.attribute : normal.attributeEn} hp={normal.hp} weakness={isZh ? normal.weakness : normal.weaknessEn} location={isZh ? normal.location : normal.locationEn} strategy={isZh ? normal.strategy : normal.strategyEn} drops={isZh ? normal.drops : normal.dropsEn} mechanics={isZh ? normal.mechanics : normal.mechanicsEn} lang={lang} isZh={isZh} recommendedTeams={recommendedTeams} />
               ))}
             </div>
           </div>

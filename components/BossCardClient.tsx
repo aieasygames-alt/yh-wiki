@@ -3,20 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { GameImage } from "./GameImage";
-import { getAvailableCharacters } from "../lib/queries";
-import buildsData from "../data/builds.json";
-
-interface BuildEntry {
-  characterId: string;
-  builds: {
-    id: string;
-    name: string;
-    nameEn: string;
-    teamComp: string[];
-  }[];
-}
-
-const builds = buildsData as BuildEntry[];
 
 const TYPE_COLORS: Record<string, string> = {
   boss: "bg-red-500/20 text-red-400 border-red-500/30",
@@ -44,6 +30,7 @@ export function BossCardClient({
   mechanics,
   lang,
   isZh,
+  recommendedTeams,
 }: {
   id: string;
   name: string;
@@ -57,18 +44,16 @@ export function BossCardClient({
   mechanics?: string;
   lang: string;
   isZh: boolean;
+  recommendedTeams: Array<{
+    characterId: string;
+    team: Array<{
+      id: string;
+      name: string;
+      nameEn: string;
+    }>;
+  }>;
 }) {
   const [expanded, setExpanded] = useState(false);
-
-  // Find recommended teams from builds where this boss is mentioned or by matching attribute
-  const allCharacters = getAvailableCharacters();
-  const recommendedTeams = builds
-    .filter((b) => b.builds.length > 0 && b.builds[0].teamComp.length > 0)
-    .slice(0, 4)
-    .map((b) => ({
-      characterId: b.characterId,
-      teamIds: [b.characterId, ...b.builds[0].teamComp].slice(0, 3),
-    }));
 
   const difficulty = DIFFICULTY_STARS[id];
 
@@ -172,13 +157,11 @@ export function BossCardClient({
             <div className="space-y-2">
               {recommendedTeams.slice(0, 3).map((team) => (
                 <div key={team.characterId} className="flex items-center gap-2">
-                  {team.teamIds.map((cid) => {
-                    const char = allCharacters.find((c) => c.id === cid);
-                    if (!char) return null;
+                  {team.team.map((char) => {
                     return (
                       <Link
-                        key={cid}
-                        href={`/${lang}/characters/${cid}`}
+                        key={char.id}
+                        href={`/${lang}/characters/${char.id}`}
                         className="flex flex-col items-center gap-0.5 group/char"
                       >
                         <GameImage

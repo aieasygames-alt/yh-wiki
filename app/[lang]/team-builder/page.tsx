@@ -2,6 +2,7 @@ import { t, isZhLocale, Locale, LOCALES, hreflangAlternates } from "../../../lib
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { WebApplicationJsonLd } from "../../../components/JsonLd";
 import { TeamBuilderClient } from "./TeamBuilderClient";
+import { getAvailableCharacters } from "../../../lib/queries";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -78,6 +79,15 @@ export default async function TeamBuilderPage({
     { href: `/${lang}/faq/faq-lacrimosa-team`, label: isZh ? (locale === "tw" ? "安魂曲需要早霧嗎" : "安魂曲需要早雾吗") : "Does Lacrimosa need Hayashikiri?" },
     { href: `/${lang}/faq/zhenhong-worth-pulling`, label: isZh ? (locale === "tw" ? "真紅值得抽嗎" : "真红值得抽吗") : "Is Zhenhong worth pulling?" },
   ];
+  const characters = getAvailableCharacters().map((character) => ({
+    id: character.id,
+    name: character.name,
+    nameEn: character.nameEn,
+    attribute: character.attribute,
+    rank: character.rank,
+    role: character.role,
+    roleEn: character.roleEn,
+  }));
 
   return (
     <>
@@ -95,7 +105,7 @@ export default async function TeamBuilderPage({
         <h2 className="text-xl font-semibold text-white">{introTitle}</h2>
         <p className="mt-3 leading-7">{introBody}</p>
       </section>
-      <TeamBuilderClient lang={lang} />
+      <TeamBuilderClient lang={lang} characters={characters} />
       <section className="mx-auto max-w-6xl px-4 pb-12">
         <div className="grid gap-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5 md:grid-cols-2">
           <div>
