@@ -79,8 +79,8 @@ describe("Breadcrumb", () => {
     const script = screen.getByTestId("breadcrumb-jsonld");
     const data = JSON.parse(script.textContent || "[]");
     expect(data).toEqual([
-      { name: "首页", url: "https://nteguide.com/zh" },
-      { name: "当前页", url: undefined },
+      { name: "首页", url: "https://nteguide.com/zh/" },
+      { name: "当前页" },
     ]);
   });
 });

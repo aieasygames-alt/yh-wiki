@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, isZhLocale, type Locale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 
 const links = [
   { key: "redeemCodes", href: "/redeem-codes" },
@@ -27,7 +28,7 @@ export function QuickLinks({ lang }: { lang: string }) {
           {t(locale, "quickLinks.title")}
         </span>
         {links.map((link) => {
-          const fullHref = `/${lang}${link.href}`;
+          const fullHref = localizedPath(lang, link.href);
           const isActive = pathname === fullHref || pathname === fullHref + "/";
           return (
             <Link

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import { trackEvent } from "../lib/analytics";
 import { t, type Locale } from "../lib/i18n";
+import { canonicalPath } from "../lib/url";
 
 interface SearchItem {
   id: string;
@@ -104,7 +105,7 @@ export function SearchDialog({ lang }: { lang: string }) {
   const handleSelect = useCallback(
     (item: SearchItem) => {
       trackEvent({ event: "search_select", label: item.name, category: "search" });
-      const url = item.url.replace("{lang}", lang);
+      const url = canonicalPath(item.url.replace("{lang}", lang));
       router.push(url);
       setOpen(false);
       setQuery("");

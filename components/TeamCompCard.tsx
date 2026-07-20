@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { TeamComp } from "../lib/queries";
 import { t, isZhLocale, type Locale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 
 interface TeamCompCardProps {
   teams: TeamComp[];
@@ -33,7 +34,7 @@ export function TeamCompCard({ teams, locale }: TeamCompCardProps) {
                 {team.members.map((memberId) => (
                   <Link
                     key={memberId}
-                    href={`/${locale}/characters/${memberId}`}
+                    href={localizedPath(locale, `characters/${memberId}`)}
                     className="rounded-md bg-gray-800 px-3 py-1 text-sm text-primary-400 hover:text-primary-300 hover:bg-gray-800/80 transition-colors"
                   >
                     {memberId}

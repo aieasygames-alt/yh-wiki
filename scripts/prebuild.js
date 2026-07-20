@@ -15,6 +15,20 @@ const BASE_URL = "https://nteguide.com";
 // All locales the app supports via generateStaticParams (see lib/i18n.ts LOCALES)
 const LOCALES = ["zh", "tw", "en"];
 
+function canonicalPath(href) {
+  if (!href.startsWith("/") || href.startsWith("//")) return href;
+  if (href === "/" || href.startsWith("/_next/") || href.startsWith("/api/")) return href;
+  const match = href.match(/^([^?#]*)([?#].*)?$/);
+  if (!match) return href;
+  const pathname = match[1];
+  const suffix = match[2] || "";
+  const lastSegment = pathname.split("/").pop() || "";
+  if (!pathname || pathname === "/" || pathname.endsWith("/") || /\.[a-zA-Z0-9]{2,8}$/.test(lastSegment)) {
+    return href;
+  }
+  return `${pathname}/${suffix}`;
+}
+
 // ── Shared data loader (reads each JSON file once) ─────
 const cache = {};
 function load(name) {
@@ -30,8 +44,8 @@ function generateSearchIndex() {
   const index = [];
 
   function addEntry(id, nameZh, nameEn, type, urlPath, tags) {
-    index.push({ id, name: nameZh, nameEn, type, url: `/zh${urlPath}`, tags });
-    index.push({ id, name: nameEn, nameEn, type, url: `/en${urlPath}`, tags });
+    index.push({ id, name: nameZh, nameEn, type, url: canonicalPath(`/zh${urlPath}`), tags });
+    index.push({ id, name: nameEn, nameEn, type, url: canonicalPath(`/en${urlPath}`), tags });
   }
 
   for (const c of load("characters.json")) {
@@ -57,16 +71,16 @@ function generateSearchIndex() {
   }
 
   // Static standalone pages
-  index.push({ id: "voice-actors", name: "声优一览", nameEn: "Voice Actors", type: "page", url: "/zh/voice-actors", tags: ["characters", "voice"] });
-  index.push({ id: "voice-actors", name: "Voice Actors", nameEn: "Voice Actors", type: "page", url: "/en/voice-actors", tags: ["characters", "voice"] });
-  index.push({ id: "multiplayer", name: "多人联机", nameEn: "Multiplayer & Co-op", type: "page", url: "/zh/multiplayer", tags: ["multiplayer", "co-op", "crossplay"] });
-  index.push({ id: "multiplayer", name: "Multiplayer & Co-op", nameEn: "Multiplayer & Co-op", type: "page", url: "/en/multiplayer", tags: ["multiplayer", "co-op", "crossplay"] });
-  index.push({ id: "gameplay", name: "游戏概览", nameEn: "Gameplay Overview", type: "page", url: "/zh/gameplay", tags: ["gameplay", "review", "overview"] });
-  index.push({ id: "gameplay", name: "Gameplay Overview", nameEn: "Gameplay Overview", type: "page", url: "/en/gameplay", tags: ["gameplay", "review", "overview"] });
-  index.push({ id: "porsche-collab", name: "保时捷联动", nameEn: "Porsche Collab", type: "page", url: "/zh/porsche-collab", tags: ["porsche", "collab", "vehicle", "918"] });
-  index.push({ id: "porsche-collab", name: "Porsche Collab", nameEn: "Porsche Collab", type: "page", url: "/en/porsche-collab", tags: ["porsche", "collab", "vehicle", "918"] });
-  index.push({ id: "999-nights-planner", name: "999夜规划器", nameEn: "999 Nights Planner", type: "page", url: "/zh/999-nights-planner", tags: ["999夜", "九百九十九夜", "神秘纽扣", "planner", "mystery buttons"] });
-  index.push({ id: "999-nights-planner", name: "999 Nights Planner", nameEn: "999 Nights Planner", type: "page", url: "/en/999-nights-planner", tags: ["999 nights", "planner", "mystery buttons"] });
+  index.push({ id: "voice-actors", name: "声优一览", nameEn: "Voice Actors", type: "page", url: canonicalPath("/zh/voice-actors"), tags: ["characters", "voice"] });
+  index.push({ id: "voice-actors", name: "Voice Actors", nameEn: "Voice Actors", type: "page", url: canonicalPath("/en/voice-actors"), tags: ["characters", "voice"] });
+  index.push({ id: "multiplayer", name: "多人联机", nameEn: "Multiplayer & Co-op", type: "page", url: canonicalPath("/zh/multiplayer"), tags: ["multiplayer", "co-op", "crossplay"] });
+  index.push({ id: "multiplayer", name: "Multiplayer & Co-op", nameEn: "Multiplayer & Co-op", type: "page", url: canonicalPath("/en/multiplayer"), tags: ["multiplayer", "co-op", "crossplay"] });
+  index.push({ id: "gameplay", name: "游戏概览", nameEn: "Gameplay Overview", type: "page", url: canonicalPath("/zh/gameplay"), tags: ["gameplay", "review", "overview"] });
+  index.push({ id: "gameplay", name: "Gameplay Overview", nameEn: "Gameplay Overview", type: "page", url: canonicalPath("/en/gameplay"), tags: ["gameplay", "review", "overview"] });
+  index.push({ id: "porsche-collab", name: "保时捷联动", nameEn: "Porsche Collab", type: "page", url: canonicalPath("/zh/porsche-collab"), tags: ["porsche", "collab", "vehicle", "918"] });
+  index.push({ id: "porsche-collab", name: "Porsche Collab", nameEn: "Porsche Collab", type: "page", url: canonicalPath("/en/porsche-collab"), tags: ["porsche", "collab", "vehicle", "918"] });
+  index.push({ id: "999-nights-planner", name: "999夜规划器", nameEn: "999 Nights Planner", type: "page", url: canonicalPath("/zh/999-nights-planner"), tags: ["999夜", "九百九十九夜", "神秘纽扣", "planner", "mystery buttons"] });
+  index.push({ id: "999-nights-planner", name: "999 Nights Planner", nameEn: "999 Nights Planner", type: "page", url: canonicalPath("/en/999-nights-planner"), tags: ["999 nights", "planner", "mystery buttons"] });
 
   fs.writeFileSync(outFile, JSON.stringify(index), "utf-8");
   console.log(`[search-index] ${index.length} entries`);

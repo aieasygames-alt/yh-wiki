@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { t, type Locale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 
 const TYPE_I18N_KEYS: Record<string, string> = {
   resonance: "types.resonance",
@@ -33,7 +34,7 @@ export function MaterialCard({
 }: MaterialCardProps) {
   return (
     <Link
-      href={`/${locale}/materials/${id}`}
+      href={localizedPath(locale, `materials/${id}`)}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >
       <GameImage

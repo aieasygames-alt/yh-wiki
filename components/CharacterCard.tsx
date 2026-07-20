@@ -2,6 +2,7 @@ import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { getAttributeColor, getAttributeLabel } from "../lib/attributes";
 import { t, type Locale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 
 interface CharacterCardProps {
   id: string;
@@ -42,7 +43,7 @@ export function CharacterCard({
 
   return (
     <Link
-      href={`/${locale}/characters/${id}`}
+      href={localizedPath(locale, `characters/${id}`)}
       className={`group block rounded-xl border bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5 relative ${
         isUnavailable
           ? "border-gray-700/50 opacity-60"

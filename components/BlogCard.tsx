@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { t, type Locale, isZhLocale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 
 interface BlogCardProps {
   id: string;
@@ -28,7 +29,7 @@ export function BlogCard({ id, title, summary, category, date, tags, locale, ima
   const [imgError, setImgError] = useState(false);
   return (
     <Link
-      href={`/${locale}/blog/${id}`}
+      href={localizedPath(locale, `blog/${id}`)}
       className="group block rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"
     >
       {image && !imgError && (

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { isZhLocale, type Locale } from "../lib/i18n";
 import { ARC_TYPE_LABELS, SUBSTAT_LABELS } from "../lib/attributes";
+import { localizedPath } from "../lib/url";
 
 const TYPE_COLORS: Record<string, string> = {
   gas: "bg-teal-500/20 text-teal-400 border-teal-500/30",
@@ -38,7 +39,7 @@ export function WeaponCard({ id, name, nameTw, nameEn, rank, type, baseAtk, subs
 
   return (
     <Link
-      href={`/${locale}/weapons/${id}`}
+      href={localizedPath(locale, `weapons/${id}`)}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >
       <div className="relative">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { GameImage } from "./GameImage";
 import { t, isZhLocale, type Locale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 
 const TYPE_I18N_KEYS: Record<string, string> = {
   "轿车": "vehicleTypes.car",
@@ -53,7 +54,7 @@ export function VehicleCard({ id, name, nameEn, type, typeEn, topSpeed, price, b
 
   return (
     <Link
-      href={`/${locale}/vehicles/${id}`}
+      href={localizedPath(locale, `vehicles/${id}`)}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >
       <GameImage

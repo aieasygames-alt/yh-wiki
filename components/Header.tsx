@@ -4,6 +4,7 @@ import { useState, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, isZhLocale, LOCALES, LOCALE_NATIVE_NAME, type Locale } from "../lib/i18n";
+import { canonicalPath, localizedPath } from "../lib/url";
 import { SearchDialog } from "./SearchDialog";
 import Logo from "./Logo";
 
@@ -42,51 +43,51 @@ export function Header() {
   }, []);
 
   const navItems: NavItem[] = [
-    { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
+    { href: localizedPath(lang, "characters"), label: t(lang, "site.nav.characters") },
     { type: "dropdown", key: "guides-tools", label: t(lang, "site.nav.guidesAndTools"), items: [
-      { href: `/${lang}/guides`, label: t(lang, "site.nav.allGuides") },
-      { href: `/${lang}/tier-list`, label: t(lang, "footer.tierList") },
-      { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.levelingCalc") },
-      { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
-      { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
-      { href: `/${lang}/banners`, label: isZhLocale(lang) ? "卡池时间表" : "Banner Schedule" },
-      { href: `/${lang}/gacha-analyzer`, label: t(lang, "site.nav.gachaAnalyzer") },
-      { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
-      { href: `/${lang}/999-nights-planner`, label: isZhLocale(lang) ? (lang === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner" },
-      { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
-      { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
-      { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
-      { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
-      { href: `/${lang}/calculator/dps`, label: isZhLocale(lang) ? "DPS 计算器" : "DPS Calculator" },
-      { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
-      { href: `/${lang}/calculator/disk-score`, label: t(lang, "diskScore.title") },
-      { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },
-      { href: `/${lang}/events`, label: t(lang, "eventsCalendar.title") },
+      { href: localizedPath(lang, "guides"), label: t(lang, "site.nav.allGuides") },
+      { href: localizedPath(lang, "tier-list"), label: t(lang, "footer.tierList") },
+      { href: localizedPath(lang, "calculator/leveling"), label: t(lang, "site.nav.levelingCalc") },
+      { href: localizedPath(lang, "calculator/build"), label: t(lang, "site.nav.buildCalc") },
+      { href: localizedPath(lang, "gacha"), label: t(lang, "site.nav.gachaSim") },
+      { href: localizedPath(lang, "banners"), label: isZhLocale(lang) ? "卡池时间表" : "Banner Schedule" },
+      { href: localizedPath(lang, "gacha-analyzer"), label: t(lang, "site.nav.gachaAnalyzer") },
+      { href: localizedPath(lang, "redeem-codes"), label: t(lang, "site.nav.redeemCodes") },
+      { href: localizedPath(lang, "999-nights-planner"), label: isZhLocale(lang) ? (lang === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner" },
+      { href: localizedPath(lang, "explorer"), label: t(lang, "site.nav.explorer") },
+      { href: localizedPath(lang, "team-builder"), label: t(lang, "teamBuilder.title") },
+      { href: localizedPath(lang, "city-tycoon"), label: t(lang, "cityTycoon.title") },
+      { href: localizedPath(lang, "calculator/stats"), label: t(lang, "statsCalc.title") },
+      { href: localizedPath(lang, "calculator/dps"), label: isZhLocale(lang) ? "DPS 计算器" : "DPS Calculator" },
+      { href: localizedPath(lang, "calculator/planner"), label: t(lang, "materialPlanner.title") },
+      { href: localizedPath(lang, "calculator/disk-score"), label: t(lang, "diskScore.title") },
+      { href: localizedPath(lang, "compare-characters"), label: t(lang, "compareCharacters.title") },
+      { href: localizedPath(lang, "events"), label: t(lang, "eventsCalendar.title") },
     ]},
     { type: "dropdown", key: "database", label: t(lang, "site.nav.database"), items: [
-      { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
-      { href: `/${lang}/vehicles`, label: t(lang, "site.nav.vehicles") },
-      { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
-      { href: `/${lang}/disk-sets`, label: t(lang, "site.nav.cassettes") },
-      { href: `/${lang}/effects`, label: t(lang, "effects.title") },
-      { href: `/${lang}/bosses`, label: t(lang, "bossGuide.title") },
-      { href: `/${lang}/compare/nte-vs-genshin`, label: t(lang, "compare.nteVsGenshin") },
-      { href: `/${lang}/compare/nte-vs-wuthering-waves`, label: t(lang, "compare.nteVsWuwa") },
-      { href: `/${lang}/compare/nte-vs-honkai-star-rail`, label: "NTE vs Star Rail" },
-      { href: `/${lang}/compare/games-like-nte`, label: t(lang, "compare.gamesLikeNte") },
+      { href: localizedPath(lang, "weapons"), label: t(lang, "site.nav.weapons") },
+      { href: localizedPath(lang, "vehicles"), label: t(lang, "site.nav.vehicles") },
+      { href: localizedPath(lang, "materials"), label: t(lang, "site.nav.materials") },
+      { href: localizedPath(lang, "disk-sets"), label: t(lang, "site.nav.cassettes") },
+      { href: localizedPath(lang, "effects"), label: t(lang, "effects.title") },
+      { href: localizedPath(lang, "bosses"), label: t(lang, "bossGuide.title") },
+      { href: localizedPath(lang, "compare/nte-vs-genshin"), label: t(lang, "compare.nteVsGenshin") },
+      { href: localizedPath(lang, "compare/nte-vs-wuthering-waves"), label: t(lang, "compare.nteVsWuwa") },
+      { href: localizedPath(lang, "compare/nte-vs-honkai-star-rail"), label: "NTE vs Star Rail" },
+      { href: localizedPath(lang, "compare/games-like-nte"), label: t(lang, "compare.gamesLikeNte") },
     ]},
-    { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },
+    { href: localizedPath(lang, "blog"), label: t(lang, "site.nav.blog") },
     { type: "dropdown", key: "wiki", label: t(lang, "site.nav.wiki"), items: [
-      { href: `/${lang}/lore`, label: t(lang, "site.nav.lore") },
-      { href: `/${lang}/locations`, label: t(lang, "site.nav.locations") },
-      { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
-      { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
-      { href: `/${lang}/changelog`, label: t(lang, "changelog.title") },
+      { href: localizedPath(lang, "lore"), label: t(lang, "site.nav.lore") },
+      { href: localizedPath(lang, "locations"), label: t(lang, "site.nav.locations") },
+      { href: localizedPath(lang, "map"), label: t(lang, "site.nav.map") },
+      { href: localizedPath(lang, "faq"), label: t(lang, "site.nav.faq") },
+      { href: localizedPath(lang, "changelog"), label: t(lang, "changelog.title") },
     ]},
   ];
 
   const isActive = (href: string) =>
-    pathname === href || (href !== `/${lang}` && pathname.startsWith(href));
+    canonicalPath(pathname) === href || (href !== localizedPath(lang) && canonicalPath(pathname).startsWith(href));
 
   const isDropdownActive = (item: NavItem) =>
     item.items?.some((sub) => isActive(sub.href)) ?? false;
@@ -94,7 +95,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-800 bg-[var(--background)]/80 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link href={`/${lang}`} className="flex items-center gap-2 font-bold text-lg text-primary-400">
+        <Link href={localizedPath(lang)} className="flex items-center gap-2 font-bold text-lg text-primary-400">
           <Logo size={28} />
           {t(lang, "site.title")}
         </Link>
@@ -210,7 +211,7 @@ export function Header() {
                   {LOCALES.map((loc) => (
                     <Link
                       key={loc}
-                      href={pathname.replace(`/${lang}`, `/${loc}`)}
+                      href={canonicalPath(pathname.replace(`/${lang}`, `/${loc}`))}
                       className={`block px-3 py-1.5 text-sm whitespace-nowrap ${
                         loc === lang
                           ? "text-primary-400 font-medium"
@@ -310,7 +311,7 @@ export function Header() {
                 {LOCALES.map((loc) => (
                   <Link
                     key={loc}
-                    href={pathname.replace(`/${lang}`, `/${loc}`)}
+                    href={canonicalPath(pathname.replace(`/${lang}`, `/${loc}`))}
                     onClick={() => setMenuOpen(false)}
                     className={`text-sm py-1.5 px-1 rounded ${
                       loc === lang

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, isZhLocale, type Locale } from "../lib/i18n";
+import { localizedPath } from "../lib/url";
 import Logo from "./Logo";
 
 export function Footer() {
@@ -13,53 +14,53 @@ export function Footer() {
     {
       title: t(lang, "site.nav.footer.gameData"),
       links: [
-        { href: `/${lang}/characters`, label: t(lang, "site.nav.characters") },
-        { href: `/${lang}/weapons`, label: t(lang, "site.nav.weapons") },
-        { href: `/${lang}/materials`, label: t(lang, "site.nav.materials") },
-        { href: `/${lang}/locations`, label: t(lang, "site.nav.locations") },
+        { href: localizedPath(lang, "characters"), label: t(lang, "site.nav.characters") },
+        { href: localizedPath(lang, "weapons"), label: t(lang, "site.nav.weapons") },
+        { href: localizedPath(lang, "materials"), label: t(lang, "site.nav.materials") },
+        { href: localizedPath(lang, "locations"), label: t(lang, "site.nav.locations") },
       ],
     },
     {
       title: t(lang, "site.nav.footer.tools"),
       links: [
-        { href: `/${lang}/calculator/leveling`, label: t(lang, "site.nav.levelingCalc") },
-        { href: `/${lang}/calculator/build`, label: t(lang, "site.nav.buildCalc") },
-        { href: `/${lang}/gacha`, label: t(lang, "site.nav.gachaSim") },
-        { href: `/${lang}/999-nights-planner`, label: isZhLocale(lang) ? (lang === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner" },
-        { href: `/${lang}/map`, label: t(lang, "site.nav.map") },
-        { href: `/${lang}/explorer`, label: t(lang, "site.nav.explorer") },
-        { href: `/${lang}/team-builder`, label: t(lang, "teamBuilder.title") },
-        { href: `/${lang}/calculator/stats`, label: t(lang, "statsCalc.title") },
-        { href: `/${lang}/calculator/dps`, label: isZhLocale(lang) ? "DPS 计算器" : "DPS Calculator" },
-        { href: `/${lang}/calculator/planner`, label: t(lang, "materialPlanner.title") },
-        { href: `/${lang}/calculator/disk-score`, label: t(lang, "diskScore.title") },
-        { href: `/${lang}/compare-characters`, label: t(lang, "compareCharacters.title") },
+        { href: localizedPath(lang, "calculator/leveling"), label: t(lang, "site.nav.levelingCalc") },
+        { href: localizedPath(lang, "calculator/build"), label: t(lang, "site.nav.buildCalc") },
+        { href: localizedPath(lang, "gacha"), label: t(lang, "site.nav.gachaSim") },
+        { href: localizedPath(lang, "999-nights-planner"), label: isZhLocale(lang) ? (lang === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner" },
+        { href: localizedPath(lang, "map"), label: t(lang, "site.nav.map") },
+        { href: localizedPath(lang, "explorer"), label: t(lang, "site.nav.explorer") },
+        { href: localizedPath(lang, "team-builder"), label: t(lang, "teamBuilder.title") },
+        { href: localizedPath(lang, "calculator/stats"), label: t(lang, "statsCalc.title") },
+        { href: localizedPath(lang, "calculator/dps"), label: isZhLocale(lang) ? "DPS 计算器" : "DPS Calculator" },
+        { href: localizedPath(lang, "calculator/planner"), label: t(lang, "materialPlanner.title") },
+        { href: localizedPath(lang, "calculator/disk-score"), label: t(lang, "diskScore.title") },
+        { href: localizedPath(lang, "compare-characters"), label: t(lang, "compareCharacters.title") },
       ],
     },
     {
       title: t(lang, "site.nav.footer.content"),
       links: [
-        { href: `/${lang}/guides`, label: t(lang, "site.nav.guides") },
-        { href: `/${lang}/events`, label: t(lang, "eventsCalendar.title") },
-        { href: `/${lang}/city-tycoon`, label: t(lang, "cityTycoon.title") },
-        { href: `/${lang}/effects`, label: t(lang, "effects.title") },
-        { href: `/${lang}/blog`, label: t(lang, "site.nav.blog") },
-        { href: `/${lang}/lore`, label: t(lang, "site.nav.lore") },
+        { href: localizedPath(lang, "guides"), label: t(lang, "site.nav.guides") },
+        { href: localizedPath(lang, "events"), label: t(lang, "eventsCalendar.title") },
+        { href: localizedPath(lang, "city-tycoon"), label: t(lang, "cityTycoon.title") },
+        { href: localizedPath(lang, "effects"), label: t(lang, "effects.title") },
+        { href: localizedPath(lang, "blog"), label: t(lang, "site.nav.blog") },
+        { href: localizedPath(lang, "lore"), label: t(lang, "site.nav.lore") },
       ],
     },
     {
       title: t(lang, "site.nav.footer.resources"),
       links: [
-        { href: `/${lang}/tier-list`, label: t(lang, "footer.tierList") },
-        { href: `/${lang}/faq`, label: t(lang, "site.nav.faq") },
-        { href: `/${lang}/redeem-codes`, label: t(lang, "site.nav.redeemCodes") },
-        { href: `/${lang}/cn-vs-global`, label: t(lang, "footer.cnVsGlobal") },
-        { href: `/${lang}/steam`, label: t(lang, "footer.steam") },
+        { href: localizedPath(lang, "tier-list"), label: t(lang, "footer.tierList") },
+        { href: localizedPath(lang, "faq"), label: t(lang, "site.nav.faq") },
+        { href: localizedPath(lang, "redeem-codes"), label: t(lang, "site.nav.redeemCodes") },
+        { href: localizedPath(lang, "cn-vs-global"), label: t(lang, "footer.cnVsGlobal") },
+        { href: localizedPath(lang, "steam"), label: t(lang, "footer.steam") },
         { href: `/${lang}/sitemap.xml`, label: "Sitemap" },
-        { href: `/${lang}/contact`, label: t(lang, "footer.contact") },
-        { href: `/${lang}/about`, label: t(lang, "footer.about") },
-        { href: `/${lang}/privacy-policy`, label: t(lang, "footer.privacy") },
-        { href: `/${lang}/terms`, label: t(lang, "footer.terms") },
+        { href: localizedPath(lang, "contact"), label: t(lang, "footer.contact") },
+        { href: localizedPath(lang, "about"), label: t(lang, "footer.about") },
+        { href: localizedPath(lang, "privacy-policy"), label: t(lang, "footer.privacy") },
+        { href: localizedPath(lang, "terms"), label: t(lang, "footer.terms") },
       ],
     },
   ];

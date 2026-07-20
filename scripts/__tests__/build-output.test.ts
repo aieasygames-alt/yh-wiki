@@ -117,6 +117,21 @@ describeIfBuilt("Build output verification", () => {
     expect(data.length).toBeGreaterThan(100);
   });
 
+  it("search-index.json uses canonical trailing-slash page URLs", () => {
+    const content = fs.readFileSync(path.join(OUT_DIR, "search-index.json"), "utf-8");
+    const data = JSON.parse(content) as Array<{ url: string }>;
+    const failures = data
+      .map((item) => item.url)
+      .filter((url) => {
+        const pathname = url.split(/[?#]/)[0];
+        const lastSegment = pathname.split("/").pop() || "";
+        const isFile = /\.[a-zA-Z0-9]{2,8}$/.test(lastSegment);
+        return url.startsWith("/") && !url.startsWith("/api/") && pathname !== "/" && !pathname.endsWith("/") && !isFile;
+      });
+
+    expect(failures).toEqual([]);
+  });
+
   it("sitemap.xml is valid XML", () => {
     const content = fs.readFileSync(path.join(OUT_DIR, "sitemap.xml"), "utf-8");
     expect(content).toContain("<?xml");
