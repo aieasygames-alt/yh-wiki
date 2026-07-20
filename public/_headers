@@ -9,6 +9,11 @@
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Public JSON endpoints are for tools and integrations, not search results.
+/api/*
+  X-Robots-Tag: noindex, follow
+  Cache-Control: public, max-age=3600
+
 # Images
 # Note: s-maxage kept at 1 day (not the usual 7-day immutable) so that if
 # Cloudflare Pages' SPA fallback serves an HTML 404 for a not-yet-deployed

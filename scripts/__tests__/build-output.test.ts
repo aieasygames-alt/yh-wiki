@@ -27,11 +27,12 @@ describeIfBuilt("Build output verification", () => {
     expect(fs.existsSync(path.join(OUT_DIR, "_headers"))).toBe(true);
   });
 
-  it("generates robots.txt that blocks unsupported language prefixes", () => {
+  it("generates permissive robots.txt so crawlers can see removal signals", () => {
     const content = fs.readFileSync(path.join(OUT_DIR, "robots.txt"), "utf-8");
     for (const prefix of ["/ja/", "/de/", "/fr/", "/es/", "/ru/", "/th/", "/vi/", "/id/", "/ko/", "/pt-br/"]) {
-      expect(content).toContain(`Disallow: ${prefix}`);
+      expect(content).not.toContain(`Disallow: ${prefix}`);
     }
+    expect(content).not.toContain("Disallow: /api/");
   });
 
   it("generates a concrete not-found target for unsupported language redirects", () => {
@@ -44,6 +45,12 @@ describeIfBuilt("Build output verification", () => {
     for (const prefix of ["/ja/*", "/de/*", "/fr/*", "/es/*", "/ru/*", "/th/*", "/vi/*", "/id/*", "/ko/*", "/pt-br/*"]) {
       expect(content).not.toContain(prefix);
     }
+  });
+
+  it("marks public API JSON endpoints as noindex headers", () => {
+    const content = fs.readFileSync(path.join(OUT_DIR, "_headers"), "utf-8");
+    expect(content).toContain("/api/*");
+    expect(content).toContain("X-Robots-Tag: noindex, follow");
   });
 
   it("exports internal HTML links as canonical trailing-slash URLs", () => {
