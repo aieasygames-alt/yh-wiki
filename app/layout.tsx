@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://nteguide.com"),
   title: {
     default: "Neverness to Everness Wiki & Calculator - Characters, Guides, Tools",
-    template: "%s | NTE Guide",
+    template: "%s",
   },
   description:
     "Neverness to Everness (NTE) Wiki & tools. Character builds, tier lists, arc disc guide, gacha simulator, leveling calculator, redeem codes (May 2026), and beginner guides.",

@@ -52,8 +52,9 @@ export async function generateMetadata({ params }: { params: { lang: string; tag
     title,
     description,
     alternates: hreflangAlternates(`tags/${encodedTag}`, lang),
-    // Thin tag pages (< 4 items) waste crawl budget — noindex them
-    ...(matched.length < 4 ? { robots: { index: false, follow: true } } : {}),
+    // Tag archive pages are useful for users and internal links, but they are
+    // too thin and numerous to compete as standalone search landing pages.
+    robots: { index: false, follow: true },
   };
 }
 

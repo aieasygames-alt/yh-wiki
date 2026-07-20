@@ -29,7 +29,9 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const bossCount = anomalies.filter((a) => a.type === "boss").length;
   const eliteCount = anomalies.filter((a) => a.type === "elite").length;
   const normalCount = anomalies.filter((a) => a.type === "normal").length;
-  const description = isZhLocale(locale)
+  const description = locale === "tw"
+    ? `異環異象資料庫目前整理 ${anomalies.length} 個目標，包含 ${bossCount} 個 Boss、${eliteCount} 個精英與 ${normalCount} 個普通異象，可快速查詢弱點、機制、掉落與攻略入口。`
+    : locale === "zh"
     ? `异环异象图鉴，当前整理 ${anomalies.length} 个异象，覆盖 ${bossCount} 个 Boss、${eliteCount} 个精英与 ${normalCount} 个普通目标，便于快速查弱点、机制和掉落。`
     : `Neverness to Everness anomaly database with ${anomalies.length} entries, including ${bossCount} bosses, ${eliteCount} elites, and ${normalCount} normal anomalies for weakness, mechanic, and drop lookups.`;
 

@@ -7,7 +7,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { GameImage } from "../../../../components/GameImage";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
-import { localizedName, localizedText, materialSeoCopy } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedName, localizedText, materialSeoCopy } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const materials = getAllMaterials();
@@ -45,7 +45,7 @@ export async function generateMetadata({
   });
   return {
     title: copy.title,
-    description: copy.description,
+    description: completeMetaDescription(locale, copy.description),
     alternates: hreflangAlternates(`materials/${slug}`, lang),
     openGraph: {
       title: copy.title,

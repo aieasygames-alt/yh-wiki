@@ -9,7 +9,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
 import { TableOfContents, TableOfContentsDesktop, extractHeadings } from "../../../../components/TableOfContents";
-import { localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -57,7 +57,7 @@ function buildGuideMetaDescription(args: {
     );
   }
 
-  return segments.join(" ").trim();
+  return completeMetaDescription(locale, segments.join(" ").trim());
 }
 
 export function generateStaticParams() {

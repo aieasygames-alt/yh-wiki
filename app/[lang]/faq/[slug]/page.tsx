@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../lib/queries";
 import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
+import { completeMetaDescription } from "../../../../lib/seo-copy";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
@@ -62,7 +63,7 @@ function enrichFaqMetaDescription(args: {
     );
   }
 
-  return segments.join(" ").trim();
+  return completeMetaDescription(locale, segments.join(" ").trim());
 }
 
 export function generateStaticParams() {

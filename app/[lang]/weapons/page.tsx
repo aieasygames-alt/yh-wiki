@@ -15,7 +15,9 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const weapons = getAllWeapons();
   const typeCount = new Set(weapons.map((weapon) => weapon.type)).size;
-  const description = isZhLocale(locale)
+  const description = locale === "tw"
+    ? `異環武器圖鑑彙整 ${weapons.length} 把武器，涵蓋 ${typeCount} 種弧盤類型與 S/A/B 稀有度，整理基礎攻擊、詞條、適用角色與配裝查詢入口。`
+    : locale === "zh"
     ? `异环武器图鉴，汇总 ${weapons.length} 把武器，覆盖 ${typeCount} 种弧盘类型与 S/A/B 全稀有度，并附基础攻击、词条与适用方向，方便配装查询。`
     : `Browse ${weapons.length} Neverness to Everness weapons across ${typeCount} arc types and S/A/B rarities, with base attack, substats, and build-oriented lookup support.`;
 

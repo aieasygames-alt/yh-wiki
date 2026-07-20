@@ -132,6 +132,52 @@ describeIfBuilt("Build output verification", () => {
     expect(failures).toEqual([]);
   });
 
+  it("does not export duplicated NTE Guide title suffixes", () => {
+    function scanHtmlFiles(dir: string, failures: string[] = []): string[] {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          scanHtmlFiles(full, failures);
+        } else if (entry.isFile() && entry.name.endsWith(".html")) {
+          const content = fs.readFileSync(full, "utf-8");
+          const title = content.match(/<title>(.*?)<\/title>/s)?.[1] || "";
+          if ((title.match(/NTE Guide/g) || []).length > 1) {
+            failures.push(`${path.relative(OUT_DIR, full)} -> ${title}`);
+          }
+        }
+      }
+      return failures;
+    }
+
+    expect(scanHtmlFiles(OUT_DIR)).toEqual([]);
+  });
+
+  it("exports indexable localized pages with useful meta descriptions", () => {
+    function scanHtmlFiles(dir: string, failures: string[] = []): string[] {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          scanHtmlFiles(full, failures);
+        } else if (entry.isFile() && entry.name.endsWith(".html")) {
+          const rel = path.relative(OUT_DIR, full);
+          if (!/^(zh|tw|en)\//.test(rel)) continue;
+
+          const content = fs.readFileSync(full, "utf-8");
+          const robots = content.match(/<meta name="robots" content="([^"]*)"/)?.[1] || "";
+          if (robots.includes("noindex")) continue;
+
+          const description = content.match(/<meta name="description" content="([^"]*)"/)?.[1] || "";
+          if (description.length < 80) {
+            failures.push(`${rel} -> ${description}`);
+          }
+        }
+      }
+      return failures;
+    }
+
+    expect(scanHtmlFiles(OUT_DIR)).toEqual([]);
+  });
+
   it("sitemap.xml is valid XML", () => {
     const content = fs.readFileSync(path.join(OUT_DIR, "sitemap.xml"), "utf-8");
     expect(content).toContain("<?xml");

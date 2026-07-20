@@ -169,37 +169,6 @@ function generateSitemaps() {
   // Guide sitemap
   const guideUrls = dataUrls(load("guides.json"), (g, lang) => ({ url: `${BASE_URL}/${lang}/guides/${g.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(g.date) }));
 
-  // Collect tags dynamically from all tagged data sources, mirroring
-  // app/[lang]/tags/[tag]/page.tsx generateStaticParams. Only include tags
-  // with >= 4 matching items (others are noindex on the page itself, so
-  // listing them in sitemap would create a sitemap-vs-robots contradiction).
-  function collectIndexableTags() {
-    const sources = [
-      ...load("characters.json").map((c) => [c.attribute, c.rank?.toLowerCase(), c.role?.toLowerCase()]),
-      ...load("weapons.json").map((w) => [w.type?.toLowerCase()]),
-      ...load("materials.json").map((m) => [m.type?.toLowerCase()]),
-      ...load("faqs.json").map((f) => f.tags || []),
-      ...load("guides.json").map((g) => g.tags || []),
-      ...load("lore.json").map((l) => [l.category?.toLowerCase()]),
-      ...load("locations.json").map((l) => [l.category?.toLowerCase()]),
-    ];
-    const counts = new Map();
-    for (const tagArr of sources) {
-      for (const tag of tagArr) {
-        if (!tag) continue;
-        const t = String(tag).toLowerCase();
-        counts.set(t, (counts.get(t) || 0) + 1);
-      }
-    }
-    // Only indexable tags: >= 4 items (matches tag page's noindex threshold)
-    const indexable = [];
-    for (const [tag, count] of counts) {
-      if (count >= 4) indexable.push(tag);
-    }
-    console.log(`[sitemap] tags: ${counts.size} total, ${indexable.length} indexable (>=4 items)`);
-    return indexable;
-  }
-
   // Other sitemap
   const otherUrls = [
     ...dataUrls(load("materials.json"), (m, lang) => ({ url: `${BASE_URL}/${lang}/materials/${m.id}/`, priority: 0.6, changeFreq: "monthly" })),
@@ -213,7 +182,6 @@ function generateSitemaps() {
     ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(cl.date) })),
     ...dataUrls(load("anomalies.json"), (a, lang) => ({ url: `${BASE_URL}/${lang}/anomalies/${a.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("disk-sets.json"), (d, lang) => ({ url: `${BASE_URL}/${lang}/disk-sets/${d.id}/`, priority: 0.7, changeFreq: "monthly" })),
-    ...collectIndexableTags().flatMap(tag => LOCALES.map(lang => ({ url: `${BASE_URL}/${lang}/tags/${encodeURIComponent(tag)}/`, priority: 0.5, changeFreq: "weekly" }))),
   ];
 
   writeSitemap("sitemap-pages.xml", pageUrls);

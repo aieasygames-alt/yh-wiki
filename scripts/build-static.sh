@@ -54,6 +54,9 @@ done
 # 4b. Ensure exported HTML discovers canonical trailing-slash URLs.
 node scripts/normalize-static-links.js
 
+# 4c. Ensure indexable exported pages do not ship short meta descriptions.
+node scripts/normalize-meta-descriptions.js
+
 # 5. Verify sitemaps were copied from public/
 for sm in sitemap.xml sitemap-pages.xml sitemap-characters.xml sitemap-weapons.xml sitemap-guides.xml sitemap-other.xml; do
   if [ -f "$ROOT/out/$sm" ]; then

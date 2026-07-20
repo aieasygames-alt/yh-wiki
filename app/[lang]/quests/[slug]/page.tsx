@@ -5,7 +5,7 @@ import { getQuest, getAllQuests, getCharacter } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
-import { localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -21,14 +21,14 @@ function buildQuestMetaDescription(args: {
   const { locale, name, typeLabel, regionName, rewardsCount, stepsCount } = args;
 
   if (locale === "en") {
-    return `Complete ${typeLabel.toLowerCase()} for ${name} in Neverness to Everness${regionName ? `, set in ${regionName}` : ""}. Includes ${stepsCount} walkthrough step${stepsCount === 1 ? "" : "s"}, reward overview, and practical completion tips.`;
+    return completeMetaDescription(locale, `Complete ${typeLabel.toLowerCase()} for ${name} in Neverness to Everness${regionName ? `, set in ${regionName}` : ""}. Includes ${stepsCount} walkthrough step${stepsCount === 1 ? "" : "s"}, reward overview, and practical completion tips.`);
   }
 
   if (locale === "tw") {
-    return `異環${typeLabel}「${name}」完整攻略${regionName ? `，發生於${regionName}` : ""}，整理 ${stepsCount} 個流程步驟、${rewardsCount} 項任務獎勵與通關提示。`;
+    return completeMetaDescription(locale, `異環${typeLabel}「${name}」完整攻略${regionName ? `，發生於${regionName}` : ""}，整理 ${stepsCount} 個流程步驟、${rewardsCount} 項任務獎勵與通關提示。`);
   }
 
-  return `异环${typeLabel}「${name}」完整攻略${regionName ? `，发生于${regionName}` : ""}，整理 ${stepsCount} 个流程步骤、${rewardsCount} 项任务奖励与通关提示。`;
+  return completeMetaDescription(locale, `异环${typeLabel}「${name}」完整攻略${regionName ? `，发生于${regionName}` : ""}，整理 ${stepsCount} 个流程步骤、${rewardsCount} 项任务奖励与通关提示。`);
 }
 
 export function generateStaticParams() {

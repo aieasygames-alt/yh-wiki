@@ -7,6 +7,7 @@ import { WeaponSummary } from "../../../../components/WeaponSummary";
 import { GameImage } from "../../../../components/GameImage";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { ARC_TYPE_LABELS, ARC_RANK_LABELS, SUBSTAT_LABELS, OBTAIN_METHOD_LABELS } from "../../../../lib/attributes";
+import { completeMetaDescription } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const weapons = getAllWeapons();
@@ -56,12 +57,12 @@ export async function generateMetadata({
           ? "可用于对照不同角色的弧盘搭配方向"
           : "Useful for comparing Arc choices across different characters"
       );
-  const description =
+  const description = completeMetaDescription(locale,
     locale === "tw"
       ? `異環弧盤「${displayName}」${weapon.rank}級${typeLabel}屬性，基礎 ATK ${weapon.baseAtk}、副詞條 ${substatLabel} ${weapon.substatValue}，${characterText}，並整理被動效果與獲取方式：${obtainDesc}`
       : isZhLocale(locale)
       ? `异环弧盘「${displayName}」${weapon.rank}级${typeLabel}属性，基础 ATK ${weapon.baseAtk}、副词条 ${substatLabel} ${weapon.substatValue}，${characterText}，并整理被动效果与获取方式：${obtainDesc}`
-      : `${weapon.nameEn} is a ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE with base ATK ${weapon.baseAtk} and ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. ${characterText}. Includes passive effect details and how to obtain it: ${obtainDesc}`;
+      : `${weapon.nameEn} is a ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE with base ATK ${weapon.baseAtk} and ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. ${characterText}. Includes passive effect details and how to obtain it: ${obtainDesc}`);
   return {
     title:
       locale === "tw"

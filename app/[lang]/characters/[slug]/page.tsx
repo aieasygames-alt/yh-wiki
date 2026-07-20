@@ -21,7 +21,7 @@ import { RotationGuide } from "../../../../components/RotationGuide";
 import { TierBadge } from "../../../../components/TierBadge";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
-import { localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
@@ -143,13 +143,13 @@ export async function generateMetadata({
     : isZh
     ? localizedText(lang as Locale, `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${attrLabel}${roleLabel || ""}攻略：配装/技能/配队 | NTE`, "", `${name}${character.tierRank ? ` (${character.tierRank}級)` : ""} - ${attrLabel}${roleLabel || ""}攻略：配裝/技能/配隊 | NTE`)
     : `Best ${character.nameEn} Build${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"} Guide`;
-  const description = enSeo
+  const description = completeMetaDescription(lang as Locale, enSeo
     ? enSeo.description
     : bannerSeo
     ? (isZh ? localizedText(lang as Locale, bannerSeo.descZh, bannerSeo.descEn) : bannerSeo.descEn)
     : isZh
     ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
-    : `${character.nameEn}${roleStr} build guide for NTE${tierStr}. Best weapons, disk sets, team comps, skill priority & leveling materials — updated for 2026.`;
+    : `${character.nameEn}${roleStr} build guide for NTE${tierStr}. Best weapons, disk sets, team comps, skill priority & leveling materials — updated for 2026.`);
   return {
     title,
     description,

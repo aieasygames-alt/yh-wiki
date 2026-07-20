@@ -5,7 +5,7 @@ import { getLocation, getAllLocations, getCharacter, getLoreItem } from "../../.
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
-import { localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const locations = getAllLocations();
@@ -22,7 +22,7 @@ export async function generateMetadata({
   if (!loc) return {};
   const locale = lang as Locale;
   const name = localizedText(locale, loc.name, loc.nameEn);
-  const description = localizedText(locale, loc.summary, loc.summaryEn);
+  const description = completeMetaDescription(locale, localizedText(locale, loc.summary, loc.summaryEn));
   const suffix = localizedText(locale, "异环地图", "NTE Location Guide");
   return {
     title: `${name} - ${suffix}`,

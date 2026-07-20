@@ -12,7 +12,9 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const diskSets = getAllDiskSets();
   const elementalCount = diskSets.filter((set) => set.category === "elemental").length;
   const generalCount = diskSets.filter((set) => set.category === "general").length;
-  const description = isZhLocale(locale)
+  const description = locale === "tw"
+    ? `異環卡帶套裝資料庫整理 ${diskSets.length} 套效果，包含 ${elementalCount} 套元素專屬與 ${generalCount} 套通用套裝，彙整 2 件套、4 件套、適用角色與配裝方向。`
+    : locale === "zh"
     ? `异环卡带套装大全，整理 ${diskSets.length} 套卡带效果，包含 ${elementalCount} 套元素专属与 ${generalCount} 套通用套装，汇总 2 件套、4 件套与推荐角色。`
     : `Complete Neverness to Everness disk set database with ${diskSets.length} sets, including ${elementalCount} elemental sets and ${generalCount} general sets with 2-piece, 4-piece, and recommended character references.`;
 

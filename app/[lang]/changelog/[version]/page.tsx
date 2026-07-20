@@ -4,7 +4,7 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 
 function fallbackLinkLabel(path: string, isZh: boolean) {
   const normalized = path.replace(/^\/+/, "");
@@ -53,11 +53,11 @@ export async function generateMetadata({ params }: { params: { lang: string; ver
     `异环 ${cl.version} ${versionName} 更新日志`,
     `NTE ${cl.version} Patch Notes — ${versionName}`
   );
-  const description = localizedText(
+  const description = completeMetaDescription(locale, localizedText(
     locale,
     `异环 ${cl.version} 版本更新内容：${highlights}`,
     `Neverness to Everness v${cl.version} patch notes and update details: ${highlights}`
-  );
+  ));
 
   return {
     title,

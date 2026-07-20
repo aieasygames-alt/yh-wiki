@@ -5,7 +5,7 @@ import { getLoreItem, getAllLore, getCharacter, getLocation } from "../../../../
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
-import { localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 
 function buildLoreMetaDescription(args: {
   locale: Locale;
@@ -48,7 +48,7 @@ function buildLoreMetaDescription(args: {
     );
   }
 
-  return segments.join(" ").trim();
+  return completeMetaDescription(locale, segments.join(" ").trim());
 }
 
 export function generateStaticParams() {

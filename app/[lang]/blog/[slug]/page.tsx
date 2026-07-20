@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "../../../../lib/i18n";
 import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
+import { completeMetaDescription } from "../../../../lib/seo-copy";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
@@ -49,7 +50,7 @@ export async function generateMetadata({
   if (!post) return {};
   const locale = asLocale(lang);
   const title = pickLocalizedText(locale, post.title, post.titleEn, post.titleTw);
-  const description = pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw);
+  const description = completeMetaDescription(locale, pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw));
   return {
     title,
     description,

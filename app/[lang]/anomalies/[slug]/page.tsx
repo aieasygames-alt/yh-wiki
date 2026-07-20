@@ -4,7 +4,7 @@ import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
-import { anomalySeoCopy, localizedName, localizedText } from "../../../../lib/seo-copy";
+import { anomalySeoCopy, completeMetaDescription, localizedName, localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const anomalies = getAllAnomalies();
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
 
   return {
     title: copy.title,
-    description: `${copy.description}${extraContext}${fallbackContext}`.trim(),
+    description: completeMetaDescription(locale, `${copy.description}${extraContext}${fallbackContext}`),
     alternates: hreflangAlternates(`anomalies/${slug}`, lang),
   };
 }

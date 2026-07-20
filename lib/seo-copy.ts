@@ -13,6 +13,22 @@ export function localizedText(locale: Locale, zh: string, en: string, tw?: strin
   return zh;
 }
 
+export function completeMetaDescription(locale: Locale, description: string): string {
+  const cleaned = description.replace(/\s+/g, " ").trim();
+  if (cleaned.length >= 85) return cleaned;
+
+  const suffix =
+    locale === "en"
+      ? " Includes practical steps, related pages, current-version notes, and NTE Guide links for deeper planning."
+      : locale === "tw"
+        ? " 本頁補充實用步驟、相關入口、版本重點與延伸閱讀，方便快速判斷下一步養成、配隊或探索安排。"
+        : " 本页补充实用步骤、相关入口、版本重点与延伸阅读，方便快速判断下一步养成、配队或探索安排。";
+
+  if (!cleaned) return suffix.trim();
+  const needsPeriod = locale === "en" && !/[.!?]$/.test(cleaned);
+  return `${cleaned}${needsPeriod ? "." : ""}${suffix}`;
+}
+
 export function materialSeoCopy(args: {
   locale: Locale;
   name: string;

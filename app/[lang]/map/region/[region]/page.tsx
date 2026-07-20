@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { type Locale, LOCALES, isZhLocale, hreflangAlternates } from "../../../../../lib/i18n";
 import RegionGuideClient from "./RegionGuideClient";
 import mapData from "../../../../../data/map-markers.json";
-import { localizedText } from "../../../../../lib/seo-copy";
+import { completeMetaDescription, localizedText } from "../../../../../lib/seo-copy";
 
 export const dynamic = "force-static";
 
@@ -59,7 +59,7 @@ export async function generateMetadata({
     },
   };
 
-  const desc = descriptions[regionId]?.[lang] || descriptions[regionId]?.[isZh ? "zh" : "en"] || "";
+  const desc = completeMetaDescription(locale, descriptions[regionId]?.[lang] || descriptions[regionId]?.[isZh ? "zh" : "en"] || "");
 
   return {
     title: isZh

@@ -7,7 +7,7 @@ import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { BreadcrumbJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { FaqSection } from "../../../../components/FaqSection";
 import { GameImage } from "../../../../components/GameImage";
-import { localizedName, localizedText } from "../../../../lib/seo-copy";
+import { completeMetaDescription, localizedName, localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
   const vehicles = getAllVehicles();
@@ -31,11 +31,11 @@ export async function generateMetadata({
     `${name} 属性、极速与获取方式 | 异环载具 Wiki`,
     `${vehicle.nameEn} Stats, Top Speed & How to Get`
   );
-  const description = localizedText(
+  const description = completeMetaDescription(locale, localizedText(
     locale,
     `异环载具「${name}」完整数据：${typeLabel}，极速 ${vehicle.topSpeed} km/h，来源为${sourceLabel}。查看加速、换挡、刹车、漂移评分、价格和获取建议。`,
     `${vehicle.nameEn} vehicle guide for Neverness to Everness: ${vehicle.typeEn}, top speed ${vehicle.topSpeed} km/h, source ${vehicle.sourceEn}. Check acceleration, shift, brake, drift, price, and acquisition notes.`
-  );
+  ));
 
   return {
     title,

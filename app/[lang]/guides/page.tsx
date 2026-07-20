@@ -35,7 +35,9 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const guides = getAllGuides();
   const categories = getGuideCategories(locale);
-  const description = isZhLocale(locale)
+  const description = locale === "tw"
+    ? `異環攻略合集收錄 ${guides.length} 篇文章與 ${categories.length} 個分類，涵蓋新手開荒、配隊養成、探索解謎、Boss 機制、版本活動與資源規劃。`
+    : locale === "zh"
     ? `异环攻略合集，收录 ${guides.length} 篇攻略与 ${categories.length} 个分类，覆盖新手开荒、配队养成、探索解谜、Boss 机制与版本重点内容。`
     : `Browse ${guides.length} Neverness to Everness guides across ${categories.length} categories, covering beginner progression, team building, exploration, boss mechanics, and current version priorities.`;
 
