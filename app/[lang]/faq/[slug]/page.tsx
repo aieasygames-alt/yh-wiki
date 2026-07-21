@@ -330,6 +330,49 @@ export default async function FaqDetailPage({
           ) : null;
         })()}
 
+        <section className="mt-10 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {isZhLocale(locale) ? "这个问答怎么用" : "How to use this answer"}
+            </h2>
+            <p className="text-sm leading-6 text-gray-300">
+              {isZhLocale(locale)
+                ? "把这里当作决策入口，而不是终点。先看快速回答确认结论，再结合正文、标签和关联角色或素材判断这条信息是否适合当前版本。对于仍在补录的 FAQ，优先把它当作路线参考，等版本更新后再复核一次。"
+                : "Treat this page as a decision entry point, not the end of the trail. Use the quick answer to confirm the conclusion, then check the body, tags, and related characters or materials to see whether the information still fits the current patch. For FAQs still being filled in, treat them as planning references and recheck after version updates."}
+            </p>
+            <p className="mt-3 text-sm leading-6 text-gray-400">
+              {isZhLocale(locale)
+                ? "如果这个问题会影响抽卡、养成或开荒节奏，建议把相关角色页、素材页和配队页一起打开，避免只看单条问答而误判资源优先级。"
+                : "If the question affects pulls, progression, or early-game pacing, open the related character, material, and team pages together so you do not misjudge resource priority from one answer alone."}
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {isZhLocale(locale) ? "下一步去哪里" : "Where to go next"}
+            </h2>
+            <div className="flex flex-wrap gap-3 text-sm">
+              <Link href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
+                {isZhLocale(locale) ? "角色列表" : "Character list"}
+              </Link>
+              <Link href={`/${lang}/materials/`} className="text-primary-300 hover:text-primary-200">
+                {isZhLocale(locale) ? "素材列表" : "Material list"}
+              </Link>
+              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+                {isZhLocale(locale) ? "配队模拟器" : "Team builder"}
+              </Link>
+              <Link href={`/${lang}/guides/`} className="text-primary-300 hover:text-primary-200">
+                {isZhLocale(locale) ? "攻略集合" : "Guide hub"}
+              </Link>
+            </div>
+            <p className="mt-3 text-sm leading-6 text-gray-400">
+              {isZhLocale(locale)
+                ? "FAQ 的价值不只是回答能不能，也在于把接下来怎么做接到站内其他页面上。这样搜索引擎更容易理解页面之间的主题关系，用户也更容易继续向下浏览。"
+                : "The value of an FAQ page is not just answering yes or no. It also connects the next action to other pages on the site, making the topic graph clearer for search engines and easier for users to keep moving through."}
+            </p>
+          </div>
+        </section>
+
         {/* Calculator CTA */}
         <div className="text-center py-8 mt-8">
           <Link

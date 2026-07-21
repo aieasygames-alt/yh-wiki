@@ -173,6 +173,55 @@ export default async function MaterialDetailPage({
           </section>
         )}
 
+        <section className="mb-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "刷取建议", "Farming notes", "刷取建議")}
+            </h2>
+            <p className="text-sm leading-6 text-gray-300">
+              {localizedText(
+                locale,
+                `如果「${materialName}」同时被多个角色使用，建议优先把它纳入周常或体力固定清单，而不是临时缺什么补什么。这样更容易把单次刷本转化成长期养成进度。`,
+                `If ${materialName} is used by multiple characters, put it on a weekly or stamina checklist instead of farming it only when you run short. That turns each farming session into longer-term progression.`,
+                `如果「${materialName}」同時被多個角色使用，建議優先把它納入週常或體力固定清單，而不是臨時缺什麼補什麼。這樣更容易把單次刷本轉化成長期養成進度。`
+              )}
+            </p>
+            <p className="mt-3 text-sm leading-6 text-gray-400">
+              {localizedText(
+                locale,
+                "对于来源较分散的素材，先确认掉落点、商店兑换、活动奖励和周常限制，再决定是否值得提前囤货。",
+                "For materials with scattered sources, confirm drop locations, shop exchanges, event rewards, and weekly limits before deciding whether to stockpile early.",
+                "對於來源較分散的素材，先確認掉落點、商店兌換、活動獎勵和週常限制，再決定是否值得提前囤貨。"
+              )}
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "后续规划", "Next step planning", "後續規劃")}
+            </h2>
+            <div className="flex flex-wrap gap-3 text-sm">
+              <Link href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "养成计算器", "Leveling calculator", "養成計算器")}
+              </Link>
+              <Link href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "角色列表", "Character list", "角色列表")}
+              </Link>
+              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "配队模拟器", "Team builder", "配隊模擬器")}
+              </Link>
+            </div>
+            <p className="mt-3 text-sm leading-6 text-gray-400">
+              {localizedText(
+                locale,
+                "素材页的作用不只是告诉你哪里掉，还要告诉你掉下来后该怎么分配。把用途和需求角色一起看，会比单独看素材名更接近真实养成决策。",
+                "A material page should do more than tell you where it drops. It should also help you decide how to allocate it after it lands. Reading the uses and target characters together leads to better progression choices than looking at the item name alone.",
+                "素材頁的作用不只是告訴你哪裡掉，還要告訴你掉下來後該怎麼分配。把用途和需求角色一起看，會比單獨看素材名更接近真實養成決策。"
+              )}
+            </p>
+          </div>
+        </section>
+
         {/* Calculator CTA */}
         <div className="text-center py-8">
           <Link
