@@ -178,7 +178,6 @@ function generateSitemaps() {
     ...dataUrls(load("blog.json"), (p, lang) => ({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(p.date) })),
     ...dataUrls(load("compares.json"), (c, lang) => ({ url: `${BASE_URL}/${lang}/compare/${c.id}/`, priority: 0.8, changeFreq: "monthly", lastmod: safeDate(c.updatedAt) || safeDate(c.date) })),
     ...dataUrls(load("quests.json"), (q, lang) => ({ url: `${BASE_URL}/${lang}/quests/${q.id}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(q.date) })),
-    ...locUrls(["changelog"], 0.7, "weekly"),
     ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(cl.date) })),
     ...dataUrls(load("anomalies.json"), (a, lang) => ({ url: `${BASE_URL}/${lang}/anomalies/${a.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("disk-sets.json"), (d, lang) => ({ url: `${BASE_URL}/${lang}/disk-sets/${d.id}/`, priority: 0.7, changeFreq: "monthly" })),

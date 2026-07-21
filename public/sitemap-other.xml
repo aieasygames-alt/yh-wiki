@@ -9235,24 +9235,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/zh/changelog/</loc>
-    <lastmod>2026-06-28T02:43:19.733Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/changelog/</loc>
-    <lastmod>2026-06-28T02:43:19.733Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/changelog/</loc>
-    <lastmod>2026-06-28T02:43:19.733Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://nteguide.com/zh/changelog/1.0/</loc>
     <lastmod>2026-04-23T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
