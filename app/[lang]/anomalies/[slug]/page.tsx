@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getAnomaly, getAllAnomalies } from "../../../../lib/queries";
@@ -178,7 +179,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
 
         {/* Drops */}
         {drops && drops.length > 0 && (
-          <section>
+          <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.drops")}</h2>
             <div className="flex flex-wrap gap-2">
               {drops.map((drop, i) => (
@@ -189,6 +190,65 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
             </div>
           </section>
         )}
+
+        <section className="grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "挑战前准备", "Preparation Checklist", "挑戰前準備")}
+            </h2>
+            <ul className="space-y-2 text-sm leading-6 text-gray-300">
+              <li>
+                {localizedText(
+                  locale,
+                  weakness ? `优先带能利用「${weakness}」弱点的输出或破盾角色，避免用被克制属性硬打。` : "如果弱点资料仍未公布，先带泛用输出、治疗和护盾位，观察正式服机制后再调整。",
+                  weakness ? `Prioritize damage or shield-break options that can exploit ${weakness}; avoid forcing resisted attributes.` : "If weakness data is not confirmed yet, start with universal damage, healing, and shielding, then adjust after live mechanics are verified.",
+                  weakness ? `優先帶能利用「${weakness}」弱點的輸出或破盾角色，避免用被克制屬性硬打。` : "如果弱點資料仍未公布，先帶泛用輸出、治療和護盾位，觀察正式服機制後再調整。"
+                )}
+              </li>
+              <li>
+                {localizedText(
+                  locale,
+                  location ? `前往「${location}」前先开附近传送点，并把同区域材料、任务和收集物一起清掉。` : "如果位置还在校对，建议通过任务追踪或地图标点确认入口，避免误把预发布坐标当成正式路线。",
+                  location ? `Before heading to ${location}, unlock the nearby teleport and bundle same-region materials, quests, and collectibles into the route.` : "If the location is still being checked, verify the entrance through quest tracking or map markers instead of trusting pre-release coordinates.",
+                  location ? `前往「${location}」前先開附近傳送點，並把同區域素材、任務和收集物一起清掉。` : "如果位置還在校對，建議透過任務追蹤或地圖標點確認入口，避免誤把預發布座標當成正式路線。"
+                )}
+              </li>
+              <li>
+                {localizedText(
+                  locale,
+                  drops && drops.length > 0 ? "如果目标是刷掉落，先确认掉落是否有每日、周常或体力限制，再决定是否重复挑战。" : "如果掉落列表还未完整，先把首通奖励和可重复奖励分开记录，方便后续补齐。",
+                  drops && drops.length > 0 ? "If you are farming drops, check whether the reward is gated by daily, weekly, or stamina limits before repeating the fight." : "If the drop list is incomplete, separate first-clear rewards from repeatable rewards so later updates are easier to reconcile.",
+                  drops && drops.length > 0 ? "如果目標是刷掉落，先確認掉落是否有每日、週常或體力限制，再決定是否重複挑戰。" : "如果掉落列表還未完整，先把首通獎勵和可重複獎勵分開記錄，方便後續補齊。"
+                )}
+              </li>
+            </ul>
+          </div>
+
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "推荐后续页面", "Recommended Next Pages", "推薦後續頁面")}
+            </h2>
+            <p className="text-sm leading-6 text-gray-300">
+              {localizedText(
+                locale,
+                `如果「${anomalyName}」会影响你的养成路线，建议把打法、掉落和队伍配置一起看。先确认地图位置，再用配队工具补齐输出、生存和破盾位，最后回到素材页核对是否值得持续刷。`,
+                `If ${anomalyName} affects your progression plan, review the fight, drops, and team setup together. Confirm the map location, use the team builder to cover damage, sustain, and shield break, then check material pages before farming repeatedly.`,
+                `如果「${anomalyName}」會影響你的養成路線，建議把打法、掉落和隊伍配置一起看。先確認地圖位置，再用配隊工具補齊輸出、生存和破盾位，最後回到素材頁核對是否值得持續刷。`
+              )}
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "配队模拟器", "Team builder", "配隊模擬器")}
+              </Link>
+              <Link href={`/${lang}/materials/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "素材列表", "Material list", "素材列表")}
+              </Link>
+              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "互动地图", "Interactive map", "互動地圖")}
+              </Link>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

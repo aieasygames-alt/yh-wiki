@@ -192,6 +192,65 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
           </section>
         )}
 
+        <section className="mb-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "开任务前先确认", "Before You Start", "開任務前先確認")}
+            </h2>
+            <ul className="space-y-2 text-sm leading-6 text-gray-300">
+              <li>
+                {localizedText(
+                  locale,
+                  regionName ? `先在地图中确认「${regionName}」的传送点和任务入口，避免流程中反复绕路。` : "先确认任务入口和最近传送点，尤其是需要多次往返的支线任务。",
+                  regionName ? `Check the nearest teleport and quest entrance in ${regionName} before starting so the route does not waste time.` : "Check the quest entrance and nearest teleport first, especially for side quests that send you back and forth.",
+                  regionName ? `先在地圖中確認「${regionName}」的傳送點和任務入口，避免流程中反覆繞路。` : "先確認任務入口和最近傳送點，尤其是需要多次往返的支線任務。"
+                )}
+              </li>
+              <li>
+                {localizedText(
+                  locale,
+                  quest.difficulty && quest.difficulty >= 4 ? "难度偏高的任务建议带上治疗或护盾角色，先保证容错再追求速度。" : "低到中等难度任务更适合顺路完成，可以和材料收集、地图补漏一起安排。",
+                  quest.difficulty && quest.difficulty >= 4 ? "For higher-difficulty quests, bring healing or shielding first and optimize speed only after the route feels stable." : "Low and mid-difficulty quests are best bundled with material farming, map cleanup, or nearby exploration.",
+                  quest.difficulty && quest.difficulty >= 4 ? "難度偏高的任務建議帶上治療或護盾角色，先保證容錯再追求速度。" : "低到中等難度任務更適合順路完成，可以和素材收集、地圖補漏一起安排。"
+                )}
+              </li>
+              <li>
+                {localizedText(
+                  locale,
+                  rewards && rewards.length > 0 ? "如果奖励包含养成素材，建议完成后立刻回到角色或弧盘规划页检查下一步消耗。" : "如果奖励信息仍在补充，以正式服任务结算界面为准，并优先记录可重复获取的资源。",
+                  rewards && rewards.length > 0 ? "If rewards include progression materials, return to character or Arc planning after clearing to check the next spend." : "If reward data is still being verified, rely on the live quest result screen and record any repeatable resources first.",
+                  rewards && rewards.length > 0 ? "如果獎勵包含養成素材，建議完成後立刻回到角色或弧盤規劃頁檢查下一步消耗。" : "如果獎勵資訊仍在補充，以正式服任務結算畫面為準，並優先記錄可重複取得的資源。"
+                )}
+              </li>
+            </ul>
+          </div>
+
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "完成后的下一步", "What To Do After Clearing", "完成後的下一步")}
+            </h2>
+            <p className="text-sm leading-6 text-gray-300">
+              {localizedText(
+                locale,
+                `完成「${name}」后，建议把任务获得的资源和当前位置一起记录下来。如果这条任务解锁了新的区域、异象或收集点，可以继续用地图和探索伴侣补齐同区域内容，减少后续跑图成本。`,
+                `After clearing ${name}, record both the rewards and the location you ended in. If the quest unlocks a new area, anomaly, or collectible cluster, use the map and explorer companion to clean up the same region while you are already there.`,
+                `完成「${name}」後，建議把任務取得的資源和目前位置一起記錄下來。如果這條任務解鎖了新的區域、異象或收集點，可以繼續用地圖和探索伴侶補齊同區域內容，減少後續跑圖成本。`
+              )}
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "查看互动地图", "Open interactive map", "查看互動地圖")}
+              </Link>
+              <Link href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "使用探索伴侣", "Use explorer companion", "使用探索伴侶")}
+              </Link>
+              <Link href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "计算养成素材", "Calculate upgrade materials", "計算養成素材")}
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <div className="mt-8">
           <GiscusComments locale={locale} term={`quest-${slug}`} />
         </div>

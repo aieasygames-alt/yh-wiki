@@ -193,6 +193,31 @@ describeIfBuilt("Build output verification", () => {
     expect(hasUrlset || hasSitemapIndex).toBe(true);
   });
 
+  it("does not generate duplicate sitemap URLs", () => {
+    const sitemapFiles = fs
+      .readdirSync(OUT_DIR)
+      .filter((file) => /^sitemap.*\.xml$/.test(file));
+    const urls: string[] = [];
+
+    for (const file of sitemapFiles) {
+      const content = fs.readFileSync(path.join(OUT_DIR, file), "utf-8");
+      for (const match of content.matchAll(/<loc>(.*?)<\/loc>/g)) {
+        const url = match[1];
+        if (url.endsWith(".xml")) continue;
+        urls.push(url);
+      }
+    }
+
+    const seen = new Set<string>();
+    const duplicates = urls.filter((url) => {
+      if (seen.has(url)) return true;
+      seen.add(url);
+      return false;
+    });
+
+    expect(duplicates).toEqual([]);
+  });
+
   it("_redirects contains root redirect", () => {
     const content = fs.readFileSync(path.join(OUT_DIR, "_redirects"), "utf-8");
     expect(content).toMatch(/\//); // has root redirect
