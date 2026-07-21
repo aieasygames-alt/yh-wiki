@@ -143,6 +143,32 @@ export default async function NineNightsPlannerPage({
             </div>
           </div>
         </div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          <section className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-semibold text-white">
+              {isZh ? (locale === "tw" ? "規劃結果怎麼判斷" : "规划结果怎么判断") : "How to read the result"}
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-gray-300">
+              {isZh
+                ? (locale === "tw"
+                    ? "如果每日缺口高於你平常能刷的數量，先降低商店兌換目標，把限定外觀、角色養成素材和可重複資源分開看。不要為了追滿全部獎勵而打亂主線、角色突破和版本活動節奏。"
+                    : "如果每日缺口高于你平常能刷的数量，先降低商店兑换目标，把限定外观、角色养成素材和可重复资源分开看。不要为了追满全部奖励而打乱主线、角色突破和版本活动节奏。")
+                : "If the daily gap is higher than your normal farming pace, lower the shop target first and separate limited cosmetics, character progression materials, and repeatable resources. Do not let full-shop completion disrupt story progress, ascension planning, or version events."}
+            </p>
+          </section>
+          <section className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-semibold text-white">
+              {isZh ? (locale === "tw" ? "和其他工具一起用" : "和其他工具一起用") : "Use it with other tools"}
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-gray-300">
+              {isZh
+                ? (locale === "tw"
+                    ? "999 夜規劃只回答神秘鈕扣缺口，養成是否划算還要結合角色頁、素材頁和升級計算器。先算活動缺口，再回頭確認真紅或其他 1.2 角色需要哪些素材，會比單獨刷活動更穩。"
+                    : "999 夜规划只回答神秘纽扣缺口，养成是否划算还要结合角色页、素材页和升级计算器。先算活动缺口，再回头确认真红或其他 1.2 角色需要哪些素材，会比单独刷活动更稳。")
+                : "The 999 Nights planner only answers the Mystery Button gap. Whether the farm is worth it still depends on character pages, material pages, and the leveling calculator. Estimate the event gap first, then confirm what Zhenhong or other 1.2 characters need before spending the whole week on event farming."}
+            </p>
+          </section>
+        </div>
       </section>
     </>
   );

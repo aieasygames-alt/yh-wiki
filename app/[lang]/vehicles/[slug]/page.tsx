@@ -204,6 +204,55 @@ export default async function VehicleDetailPage({
           <FaqSection faqs={vehicle.faq} locale={locale} />
         )}
 
+        <section className="mb-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "适合什么场景", "Best use cases", "適合什麼場景")}
+            </h2>
+            <p className="text-sm leading-6 text-gray-300">
+              {localizedText(
+                locale,
+                `判断「${vehicleName}」时，先看你需要的是极速、起步、漂移还是稳定刹车。极速 ${vehicle.topSpeed} km/h 更适合长距离直线移动；如果加速和换挡评分更高，则更适合城市短程、频繁转向和任务追踪路线。`,
+                `When judging ${vehicle.nameEn}, start with the driving problem you need to solve: top speed, launch, drift, or stable braking. Its ${vehicle.topSpeed} km/h top speed matters most on long straight routes, while stronger acceleration and shift scores are better for city traversal, frequent turns, and quest tracking.`,
+                `判斷「${vehicleName}」時，先看你需要的是極速、起步、漂移還是穩定煞車。極速 ${vehicle.topSpeed} km/h 更適合長距離直線移動；如果加速和換檔評分更高，則更適合城市短程、頻繁轉向和任務追蹤路線。`
+              )}
+            </p>
+            <p className="mt-3 text-sm leading-6 text-gray-400">
+              {localizedText(
+                locale,
+                `如果来源是「${sourceLabel}」，建议先确认是否需要主线进度、商店解锁或货币储备，再决定是否优先入手。`,
+                `Because the source is ${sourceLabel}, check story progress, shop unlocks, or currency reserves before prioritizing it.`,
+                `如果來源是「${sourceLabel}」，建議先確認是否需要主線進度、商店解鎖或貨幣儲備，再決定是否優先入手。`
+              )}
+            </p>
+          </div>
+
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+            <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "对比建议", "Comparison notes", "對比建議")}
+            </h2>
+            <p className="text-sm leading-6 text-gray-300">
+              {localizedText(
+                locale,
+                `不要只按价格或外观选择载具。对比同类车辆时，把「${vehicleName}」的极速、漂移和刹车放在同一张表里看：探索路线更看重稳定和操控，竞速路线才更看重速度上限。`,
+                `Do not choose a vehicle by price or appearance alone. When comparing vehicles in the same class, read ${vehicle.nameEn}'s top speed, drift, and brake scores together: exploration routes value stability and handling, while racing routes care more about speed ceiling.`,
+                `不要只按價格或外觀選擇載具。對比同類車輛時，把「${vehicleName}」的極速、漂移和煞車放在同一張表裡看：探索路線更看重穩定和操控，競速路線才更看重速度上限。`
+              )}
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <Link href={`/${lang}/vehicles/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "载具列表", "Vehicle list", "載具列表")}
+              </Link>
+              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "互动地图", "Interactive map", "互動地圖")}
+              </Link>
+              <Link href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
+                {localizedText(locale, "探索伴侣", "Explorer companion", "探索伴侶")}
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Back to Vehicles */}
         <div className="text-center py-8">
           <Link

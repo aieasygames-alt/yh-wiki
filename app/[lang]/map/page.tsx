@@ -221,7 +221,16 @@ export default function MapPage() {
   if (dataLoading) {
     return (
       <div className="max-w-[1600px] mx-auto px-2 sm:px-4 py-4 sm:py-6">
-        <div className="w-48 h-8 bg-gray-800 rounded-lg animate-pulse mb-4" />
+        <div className="mb-4">
+          <h1 className="text-xl sm:text-2xl font-bold">
+            {isZhLocale(lang) ? "异环互动地图" : "NTE Interactive Map"}
+          </h1>
+          <p className="mt-2 max-w-3xl text-sm leading-6 text-gray-400">
+            {isZhLocale(lang)
+              ? "异环互动地图用于查看区域、标点、收集物和路线规划。建议先按区域和标点类型缩小范围，再结合隐藏已收集与路线规划功能处理每日探索、材料路线和版本补漏。"
+              : "The NTE interactive map helps you review regions, markers, collectibles, and route plans. Start by narrowing the map by region and marker type, then use hide-collected and route planning for daily exploration, material routes, and patch cleanup."}
+          </p>
+        </div>
         <div className="w-full rounded-xl bg-gray-800 animate-pulse" style={{ height: "calc(100vh - 200px)", minHeight: "400px" }} />
       </div>
     );

@@ -276,7 +276,21 @@ export default function ExplorerPage() {
   };
 
   if (!mounted || dataLoading) {
-    return <div className="max-w-6xl mx-auto px-4 py-12"><div className="animate-pulse h-96 bg-gray-900 rounded-xl" /></div>;
+    return (
+      <div className="max-w-6xl mx-auto px-4 py-12">
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-white mb-2">
+            {t(lang, "explorer.title")}
+          </h1>
+          <p className="text-sm leading-6 text-gray-400">
+            {isZh
+              ? "异环探索伴侣用于规划区域清扫、每日补漏和收集进度追踪。你可以按区域与标点类型筛选路线，记录已收集内容，并把长期探索目标拆成更容易完成的每日路线。"
+              : "The NTE explorer companion helps plan regional sweeps, daily cleanup, and collection progress. Filter by region and marker type, record collected items, and turn long exploration goals into easier daily routes."}
+          </p>
+        </div>
+        <div className="animate-pulse h-96 bg-gray-900 rounded-xl" />
+      </div>
+    );
   }
 
   const tabs: { key: TabKey; label: string }[] = [

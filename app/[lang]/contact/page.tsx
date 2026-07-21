@@ -104,6 +104,44 @@ export default async function ContactPage({ params }: { params: { lang: string }
           {t(locale, "contact.feedbackNote")}
         </p>
       </div>
+
+      <section className="mt-8 grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-lg font-semibold text-white mb-3">
+            {isZhLocale(locale) ? (locale === "tw" ? "什麼情況適合聯絡" : "什么情况适合联系") : "When to contact us"}
+          </h2>
+          <ul className="space-y-2 text-sm leading-6 text-gray-300">
+            <li>
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "角色、素材、載具、任務或地圖資料和正式服不一致。" : "角色、素材、载具、任务或地图数据和正式服不一致。")
+                : "Character, material, vehicle, quest, or map data differs from the live game."}
+            </li>
+            <li>
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "工具計算結果、搜尋、語言切換或頁面連結出現問題。" : "工具计算结果、搜索、语言切换或页面链接出现问题。")
+                : "A calculator result, search behavior, language switch, or page link is not working correctly."}
+            </li>
+            <li>
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "你希望補充攻略、FAQ、版本更新或合作內容。" : "你希望补充攻略、FAQ、版本更新或合作内容。")
+                : "You want to suggest guides, FAQs, version updates, or partnership content."}
+            </li>
+          </ul>
+        </div>
+
+        <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-lg font-semibold text-white mb-3">
+            {isZhLocale(locale) ? (locale === "tw" ? "提供哪些資訊更快處理" : "提供哪些信息更快处理") : "What helps us respond faster"}
+          </h2>
+          <p className="text-sm leading-6 text-gray-300">
+            {isZhLocale(locale)
+              ? (locale === "tw"
+                  ? "請盡量附上頁面 URL、問題截圖、你看到的正式服資料，以及希望修正的具體欄位。若是工具問題，請補充語言版本、瀏覽器和重現步驟。"
+                  : "请尽量附上页面 URL、问题截图、你看到的正式服数据，以及希望修正的具体字段。如果是工具问题，请补充语言版本、浏览器和复现步骤。")
+              : "Please include the page URL, screenshots, live-game data you are comparing against, and the exact field that should be corrected. For tool issues, include language, browser, and reproduction steps."}
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
