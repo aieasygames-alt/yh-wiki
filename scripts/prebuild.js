@@ -81,6 +81,8 @@ function generateSearchIndex() {
   index.push({ id: "porsche-collab", name: "Porsche Collab", nameEn: "Porsche Collab", type: "page", url: canonicalPath("/en/porsche-collab"), tags: ["porsche", "collab", "vehicle", "918"] });
   index.push({ id: "999-nights-planner", name: "999夜规划器", nameEn: "999 Nights Planner", type: "page", url: canonicalPath("/zh/999-nights-planner"), tags: ["999夜", "九百九十九夜", "神秘纽扣", "planner", "mystery buttons"] });
   index.push({ id: "999-nights-planner", name: "999 Nights Planner", nameEn: "999 Nights Planner", type: "page", url: canonicalPath("/en/999-nights-planner"), tags: ["999 nights", "planner", "mystery buttons"] });
+  index.push({ id: "version-center", name: "版本中心", nameEn: "Version Center", type: "page", url: canonicalPath("/zh/version-center"), tags: ["版本更新", "1.2", "1.3", "patch", "hub"] });
+  index.push({ id: "version-center", name: "Version Center", nameEn: "Version Center", type: "page", url: canonicalPath("/en/version-center"), tags: ["patch notes", "version", "1.2", "1.3", "hub"] });
 
   fs.writeFileSync(outFile, JSON.stringify(index), "utf-8");
   console.log(`[search-index] ${index.length} entries`);
@@ -132,7 +134,7 @@ function generateSitemaps() {
   }
 
   const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets"];
-  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab", "999-nights-planner"];
+  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab", "999-nights-planner", "version-center"];
   const guideSubPages = ["guides/gacha-system"];
   const staticInfoPages = ["about", "contact", "terms", "privacy-policy"];
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];

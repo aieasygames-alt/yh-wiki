@@ -1,7 +1,7 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { t, hreflangAlternatesIndex, isZhLocale, asLocale, type Locale } from "../../lib/i18n";
-import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts } from "../../lib/queries";
+import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts, getLatestLiveChangelog, getRecentContentUpdates } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
@@ -66,6 +66,8 @@ export default async function HomePage({
   const guides = getAllGuides();
   const weapons = getAllWeapons();
   const blogPosts = getLatestBlogPosts(3);
+  const recentUpdates = getRecentContentUpdates(6);
+  const liveVersion = getLatestLiveChangelog();
 
   const sRankChars = characters.filter((c) => c.rank === "S" && c.status === "available");
   const priorityCharacterIds = ["shinku", "black-bird", "akane", "lingko", "illica", "renee", "nitsa"];
@@ -170,28 +172,83 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* Version 1.2 CTA — current hot-topic demand */}
+        {/* Version center CTA */}
         <section className="max-w-6xl mx-auto px-4 py-4">
           <Link
-            href={`/${lang}/changelog/1.2`}
+            href={`/${lang}/version-center`}
             className="block rounded-xl border border-sky-500/30 bg-gradient-to-r from-sky-500/10 to-cyan-500/10 p-4 hover:border-sky-500/50 hover:from-sky-500/15 hover:to-cyan-500/15 transition-all group"
           >
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="text-lg font-bold text-sky-400 group-hover:text-sky-300 transition-colors">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "1.2 版本熱點：999夜 / 伊洛伊 / 真紅" : "1.2 版本热点：999夜 / 伊洛伊 / 真红")
-                    : "Version 1.2 Hot Topics: 999 Nights / Illica / Zhenhong"}
+                    ? (locale === "tw" ? `版本中心：${liveVersion?.version ?? "1.x"} 現行重點` : `版本中心：${liveVersion?.version ?? "1.x"} 当前重点`)
+                    : `Version Center: v${liveVersion?.version ?? "1.x"} Live Patch`}
                 </h2>
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "版本更新、999夜玩法、沃倫大陸與當前真紅抽取建議一站查看" : "版本更新、999夜玩法、沃伦大陆与当前真红抽取建议一站查看")
-                    : "Patch notes, 999 Nights mode, Warren Continent unlocks, and Zhenhong pull advice in one place."}
+                    ? (locale === "tw" ? "把現行版本更新、熱門攻略、角色抽取與下一版本觀察點集中到一頁查看" : "把当前版本更新、热门攻略、角色抽取与下一版本观察点集中到一页查看")
+                    : "See the live patch, hot guides, banner decisions, and next-version watchpoints in one place."}
                 </p>
               </div>
               <span className="text-sky-400/60 group-hover:text-sky-400 text-2xl">→</span>
             </div>
           </Link>
+        </section>
+
+        {/* Recent updates */}
+        <section className="max-w-6xl mx-auto px-4 py-8">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-bold">
+                {isZhLocale(locale) ? (locale === "tw" ? "最近更新" : "最近更新") : "Recent Updates"}
+              </h2>
+              <p className="mt-1 text-sm text-gray-400">
+                {isZhLocale(locale)
+                  ? (locale === "tw" ? "按日期聚合版本日誌、攻略與文章，回站時先看這裡最快。" : "按日期聚合版本日志、攻略与文章，回站时先看这里最快。")
+                  : "A chronological mix of patch notes, guides, and posts for fast re-entry."}
+              </p>
+            </div>
+            <Link href={`/${lang}/version-center`} className="text-sm text-primary-400 hover:text-primary-300">
+              {isZhLocale(locale) ? (locale === "tw" ? "打開版本中心" : "打开版本中心") : "Open Version Center"} →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {recentUpdates.map((item) => {
+              const kindLabel = isZhLocale(locale)
+                ? item.kind === "changelog"
+                  ? (locale === "tw" ? "更新日誌" : "更新日志")
+                  : item.kind === "guide"
+                    ? "攻略"
+                    : "文章"
+                : item.kind === "changelog"
+                  ? "Patch Notes"
+                  : item.kind === "guide"
+                    ? "Guide"
+                    : "Post";
+
+              return (
+                <Link
+                  key={`${item.kind}-${item.id}`}
+                  href={`/${lang}${item.href}`}
+                  className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className="rounded-full bg-primary-500/15 px-2.5 py-1 text-xs text-primary-300">
+                      {kindLabel}
+                    </span>
+                    <time className="text-xs text-gray-500" dateTime={item.date}>{item.date}</time>
+                  </div>
+                  <h3 className="mt-3 text-base font-semibold line-clamp-2">
+                    {locale === "tw" ? (item.titleTw || item.title) : isZhLocale(locale) ? item.title : item.titleEn}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-400 line-clamp-3">
+                    {locale === "tw" ? (item.summaryTw || item.summary) : isZhLocale(locale) ? item.summary : item.summaryEn}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
         </section>
 
         {/* Redeem Codes CTA — boost internal linking for ranking */}
@@ -431,6 +488,7 @@ export default async function HomePage({
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環Boss攻略" : "异环Boss攻略") : "Boss Guides", href: `/${lang}/bosses`, desc: isZhLocale(locale) ? (locale === "tw" ? "全Boss打法詳解" : "全Boss打法详解") : "All boss strategies" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環世界觀" : "异环世界观") : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? (locale === "tw" ? "劇情設定百科" : "剧情设定百科") : "Story & lore" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "DPS計算器" : "DPS计算器") : "DPS Calculator", href: `/${lang}/calculator/dps`, desc: isZhLocale(locale) ? (locale === "tw" ? "循環輸出計算" : "循环输出计算") : "Rotation DPS calc" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "版本中心" : "版本中心") : "Version Center", href: `/${lang}/version-center`, desc: isZhLocale(locale) ? (locale === "tw" ? "現行版本與近期更新入口" : "现行版本与近期更新入口") : "Live patch and recent updates" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>

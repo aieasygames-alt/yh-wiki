@@ -486,6 +486,20 @@ export function getLatestBlogPosts(count: number): BlogPost[] {
   return getAllBlogPosts().slice(0, count);
 }
 
+export interface RecentContentUpdate {
+  id: string;
+  kind: "changelog" | "guide" | "blog";
+  href: string;
+  title: string;
+  titleEn: string;
+  titleTw?: string;
+  summary: string;
+  summaryEn: string;
+  summaryTw?: string;
+  date: string;
+  tags: string[];
+}
+
 // Compare types and queries
 
 export interface CompareArticle {
@@ -580,7 +594,7 @@ interface ChangelogSection {
   items?: ChangelogItem[];
 }
 
-interface Changelog {
+export interface Changelog {
   id: string;
   version: string;
   versionName: string;
@@ -602,6 +616,91 @@ export function getAllChangelogs(): Changelog[] {
 
 export function getChangelogByVersion(version: string): Changelog | undefined {
   return (changelogsData as unknown as Changelog[]).find((cl) => cl.version === version);
+}
+
+function parseStableDate(value?: string): Date | null {
+  if (!value) return null;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+export function getLatestLiveChangelog(): Changelog | undefined {
+  const now = new Date();
+  return getAllChangelogs()
+    .filter((cl) => {
+      const parsed = parseStableDate(cl.date);
+      return parsed && parsed <= now;
+    })
+    .sort((a, b) => parseStableDate(b.date)!.getTime() - parseStableDate(a.date)!.getTime())[0];
+}
+
+export function getUpcomingChangelogs(): Changelog[] {
+  const now = new Date();
+  return getAllChangelogs()
+    .filter((cl) => {
+      const parsed = parseStableDate(cl.date);
+      return !parsed || parsed > now;
+    });
+}
+
+export function getRecentContentUpdates(count: number): RecentContentUpdate[] {
+  const changelogUpdates = getAllChangelogs()
+    .filter((cl) => parseStableDate(cl.date))
+    .map((cl) => ({
+      id: cl.id,
+      kind: "changelog" as const,
+      href: `/changelog/${cl.version}`,
+      title: `异环 ${cl.version} 更新日志`,
+      titleEn: `NTE ${cl.version} Patch Notes`,
+      titleTw: `異環 ${cl.version} 更新日誌`,
+      summary: cl.highlights?.slice(0, 2).join(" / ") || cl.versionName,
+      summaryEn: cl.highlightsEn?.slice(0, 2).join(" / ") || cl.versionNameEn,
+      summaryTw: cl.highlights?.slice(0, 2).join(" / ") || cl.versionName,
+      date: cl.date,
+      tags: [cl.version, "patch-notes", cl.type],
+    }));
+
+  const guideUpdates = getAllGuides()
+    .filter((guide) => parseStableDate(guide.date))
+    .map((guide) => ({
+      id: guide.id,
+      kind: "guide" as const,
+      href: `/guides/${guide.id}`,
+      title: guide.title,
+      titleEn: guide.titleEn,
+      titleTw: guide.titleTw,
+      summary: guide.summary,
+      summaryEn: guide.summaryEn,
+      summaryTw: guide.summaryTw,
+      date: guide.date!,
+      tags: guide.tags || [],
+    }));
+
+  const blogUpdates = getAllBlogPosts()
+    .filter((post) => parseStableDate(post.date))
+    .map((post) => ({
+      id: post.id,
+      kind: "blog" as const,
+      href: `/blog/${post.id}`,
+      title: post.title,
+      titleEn: post.titleEn,
+      titleTw: post.titleTw,
+      summary: post.summary,
+      summaryEn: post.summaryEn,
+      summaryTw: post.summaryTw,
+      date: post.date,
+      tags: post.tags || [],
+    }));
+
+  return [...changelogUpdates, ...guideUpdates, ...blogUpdates]
+    .sort((a, b) => parseStableDate(b.date)!.getTime() - parseStableDate(a.date)!.getTime())
+    .slice(0, count);
+}
+
+export function getVersionSpotlightContent(version: string, count: number): RecentContentUpdate[] {
+  return getRecentContentUpdates(100)
+    .filter((item) => item.kind !== "changelog" && item.tags.some((tag) => tag === version))
+    .slice(0, count);
 }
 
 // Disk Sets (Cartridges)
