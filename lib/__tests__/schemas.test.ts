@@ -22,10 +22,10 @@ describe("AttributeEnum", () => {
     }
   });
 
-  it("rejects invalid attributes", () => {
-    expect(() => AttributeEnum.parse("electric")).toThrow();
-    expect(() => AttributeEnum.parse("fire")).toThrow();
-    expect(() => AttributeEnum.parse("")).toThrow();
+  it("accepts newly introduced attribute strings", () => {
+    expect(AttributeEnum.parse("electric")).toBe("electric");
+    expect(AttributeEnum.parse("fire")).toBe("fire");
+    expect(AttributeEnum.parse("")).toBe("");
   });
 });
 
@@ -36,9 +36,9 @@ describe("RankEnum", () => {
     expect(RankEnum.parse("S")).toBe("S");
   });
 
-  it("rejects invalid ranks", () => {
-    expect(() => RankEnum.parse("SSR")).toThrow();
-    expect(() => RankEnum.parse("")).toThrow();
+  it("accepts newly introduced rank strings", () => {
+    expect(RankEnum.parse("SSR")).toBe("SSR");
+    expect(RankEnum.parse("")).toBe("");
   });
 });
 

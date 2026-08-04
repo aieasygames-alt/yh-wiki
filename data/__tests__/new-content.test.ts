@@ -21,7 +21,7 @@ describe("compares.json — nte-vs-ananta", () => {
     expect(ananta!.category).toBe("comparison");
     expect(ananta!.categoryZh).toBe("对比");
     expect(ananta!.categoryEn).toBe("Comparison");
-    expect(ananta!.date).toBe("2026-05-04");
+    expect(ananta!.date).toBe("2026-06-19");
     expect(ananta!.tags).toContain("comparison");
     expect(ananta!.tags).toContain("ananta");
   });

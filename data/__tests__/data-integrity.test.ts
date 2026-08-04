@@ -4,7 +4,7 @@ import materialsData from "../../data/materials.json";
 import characterMaterialsData from "../../data/character-materials.json";
 import { CharactersArraySchema, MaterialsArraySchema, CharacterMaterialsArraySchema } from "../../lib/schemas";
 
-const VALID_ATTRIBUTES = ["cosmos", "anima", "incantation", "chaos", "psyche", "lakshana"];
+const VALID_ATTRIBUTES = ["cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "light", "curse"];
 
 describe("characters.json data integrity", () => {
   it("passes Zod validation", () => {

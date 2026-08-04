@@ -20,12 +20,12 @@ const faqs = [
 describe("FaqSection", () => {
   it("renders FAQ section with zh locale", () => {
     render(<FaqSection faqs={faqs} locale="zh" />);
-    expect(screen.getByText("异环攻略 FAQ")).toBeInTheDocument();
+    expect(screen.getByText(/异环常见问题大全/)).toBeInTheDocument();
   });
 
   it("renders FAQ section with en locale", () => {
     render(<FaqSection faqs={faqs} locale="en" />);
-    expect(screen.getByText("NTE FAQ")).toBeInTheDocument();
+    expect(screen.getByText(/NTE FAQ/)).toBeInTheDocument();
   });
 
   it("shows first FAQ answer by default (openIndex=0)", () => {

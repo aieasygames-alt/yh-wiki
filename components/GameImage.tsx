@@ -44,7 +44,8 @@ export function GameImage({ type, id, name, className = "", alt, width, height, 
         width={imgWidth}
         height={imgHeight}
         className={`w-full h-full ${useContain ? "object-contain p-1" : "object-cover"}`}
-        loading={priority ? undefined : "lazy"}
+        // Keep the eager-loading contract explicit for priority images.
+        loading={priority ? "eager" : "lazy"}
         priority={priority}
         draggable={false}
         onError={() => setError(true)}

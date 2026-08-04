@@ -53,13 +53,13 @@ describe("Header", () => {
 
   it("renders mobile menu toggle button", () => {
     render(<Header />);
-    const menuButton = screen.getByLabelText("Toggle menu");
+    const menuButton = screen.getByLabelText("切换导航菜单");
     expect(menuButton).toBeInTheDocument();
   });
 
   it("opens mobile menu on button click", () => {
     render(<Header />);
-    const menuButton = screen.getByLabelText("Toggle menu");
+    const menuButton = screen.getByLabelText("切换导航菜单");
     fireEvent.click(menuButton);
     // Mobile menu should now show nav items
     expect(screen.getByText("加入 Discord 社区")).toBeInTheDocument();
