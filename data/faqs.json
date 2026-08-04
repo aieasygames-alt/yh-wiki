@@ -8389,5 +8389,27 @@
     "seoDescriptionEn": "See what the NTE 1.2 GS25 collaboration includes, from event-shop cosmetics to check-in rewards and Amusement Park tie-ins.",
     "seoTitleTw": "異環 1.2 GS25 聯動有什麼？商店獎勵與簽到內容整理",
     "seoDescriptionTw": "整理異環 1.2 GS25 聯動的商店兌換、簽到獎勵和遊樂園活動內容，方便你快速判斷值不值得肝。"
+  },
+  {
+    "id": "steam-pc-performance-entry-points",
+    "question": "异环Steam、官网客户端和云异环PC怎么选？卡顿掉帧怎么办？",
+    "questionEn": "Should you use NTE on Steam, the official PC client, or Cloud PC? How do you fix stutter?",
+    "questionTw": "異環 Steam、官網客戶端和雲異環 PC 怎麼選？卡頓掉幀怎麼辦？",
+    "answer": "先按游玩方式选择入口：\n\n- **官网客户端或其他本地PC入口**：适合设备能稳定运行、需要长时间游玩的玩家\n- **Steam**：适合偏好平台生态的PC玩家，但具体可用性和版本状态要以当前官方页面与商店页面为准\n- **云异环PC**：适合本地配置不足、只想短时间上线，或不想安装完整客户端的玩家，但要接受网络延迟和排队成本\n\n如果遇到卡顿、掉帧或画面短暂停顿，建议按这个顺序排查：\n\n1. 把游戏装在SSD上，并确认磁盘有足够余量\n2. 先降低阴影、特效、体积光和渲染比例，再观察城市场景是否改善\n3. 锁定一个设备能稳定维持的帧率，不要只追求瞬时峰值\n4. 关闭占用显存和内存的后台程序，检查设备是否过热降频\n5. 更新显卡驱动和游戏客户端；如果只在联网时卡，再单独检查网络路由和服务器状态\n\n不同平台的入口、收费、排队和补丁节奏可能变化，因此不要把社区旧帖里的“必定支持”或固定帧率当成永久承诺。",
+    "answerEn": "Choose the entry point based on how you play:\n\n- **Official or other local PC client**: best for long sessions when your hardware can run the game steadily\n- **Steam**: useful for players who prefer the platform ecosystem, but verify current availability and version status through live official and store pages\n- **Cloud PC**: useful for weaker hardware or short sessions, in exchange for queue and network latency\n\nFor stutter and frame drops, check in this order:\n\n1. Install on an SSD and keep enough free space\n2. Lower shadows, effects, volumetric lighting, and render scale first\n3. Set a frame-rate target your device can sustain rather than chasing peak FPS\n4. Close background apps and check for thermal throttling\n5. Update drivers and the client; if the issue appears only online, check routing and server status separately\n\nPlatform entry points, pricing, queues, and patch cadence can change. Do not treat an old community post or a fixed FPS claim as a permanent promise.",
+    "category": "platform",
+    "categoryZh": "平台与性能",
+    "categoryEn": "Platform & Performance",
+    "categoryTw": "平台與效能",
+    "tags": ["Steam", "PC", "云异环", "卡顿", "掉帧", "性能"],
+    "relatedCharacters": [],
+    "relatedMaterials": [],
+    "seoTitleZh": "异环Steam还是官网客户端？云异环PC与卡顿掉帧排查",
+    "seoTitleEn": "NTE Steam vs Official PC vs Cloud PC — Stutter and Performance FAQ",
+    "seoDescriptionZh": "整理异环Steam、官网客户端、云异环PC的选择逻辑，并给出卡顿、掉帧、SSD和画质设置的排查顺序。",
+    "seoDescriptionEn": "Compare NTE Steam, local PC, and Cloud PC entry points, then follow a practical order for troubleshooting stutter and frame drops.",
+    "seoTitleTw": "異環 Steam 還是官網客戶端？雲異環 PC 與卡頓掉幀排查",
+    "seoDescriptionTw": "整理異環 Steam、官網客戶端、雲異環 PC 的選擇邏輯，以及卡頓、掉幀、SSD 和畫質設定的排查順序。",
+    "answerTw": "先按遊玩方式選擇入口：本地PC適合長時間遊玩，Steam適合偏好平台生態的玩家，雲異環PC適合低配置或短時間上線，但要接受網路延遲與排隊成本。遇到卡頓掉幀時，先確認SSD與磁碟空間，再降低陰影、特效、體積光和渲染比例，鎖定穩定幀率，關閉背景程式並檢查過熱降頻，最後再分別排查驅動、客戶端和網路路由。"
   }
 ]

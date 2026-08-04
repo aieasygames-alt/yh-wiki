@@ -6481,6 +6481,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://nteguide.com/zh/faq/steam-pc-performance-entry-points/</loc>
+    <lastmod>2026-08-04T01:44:19.355Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/faq/steam-pc-performance-entry-points/</loc>
+    <lastmod>2026-08-04T01:44:19.355Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/faq/steam-pc-performance-entry-points/</loc>
+    <lastmod>2026-08-04T01:44:19.355Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://nteguide.com/zh/lore/espers/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -8835,6 +8853,24 @@
   <url>
     <loc>https://nteguide.com/en/blog/cloud-yihuan-pc-guide/</loc>
     <lastmod>2026-07-11T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/blog/shinku-vs-iroi-pull-guide/</loc>
+    <lastmod>2026-08-04T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/blog/shinku-vs-iroi-pull-guide/</loc>
+    <lastmod>2026-08-04T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/blog/shinku-vs-iroi-pull-guide/</loc>
+    <lastmod>2026-08-04T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-07-20
+> Generated: 2026-08-04
 
 ## Characters (45)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -94,7 +94,7 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (99)
+## Guides (100)
 - [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -194,8 +194,9 @@
 - [异象玩法完全攻略 — 异环 endgame 副本机制、推荐角色与奖励一览](/en/guides/anomaly-endgame-guide/) — Endgame (updated 2026-06-23)
 - [异环九百九十九夜攻略 — 999夜怎么玩、怎么刷、沃伦大陆怎么解锁](/en/guides/nine-hundred-ninety-nine-nights-mode/) — Gameplay (updated 2026-07-02)
 - [异环沃伦大陆全收集攻略：宝箱、隐藏点、任务与探索顺序](/en/guides/warren-continent-collectibles-guide/) — Exploration (updated 2026-07-11)
+- [异环999夜速刷攻略：神秘纽扣怎么刷、周回路线与队伍选择](/en/guides/nine-hundred-ninety-nine-nights-farming-guide/) — Farming (updated 2026-08-04)
 
-## FAQ (303)
+## FAQ (304)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
@@ -499,6 +500,7 @@
 - How do I reach the Warren Continent in NTE?
 - Where can I find NTE 1.2 preview codes and latest redeem codes?
 - What does the GS25 convenience-store collab in NTE 1.2 include?
+- Should you use NTE on Steam, the official PC client, or Cloud PC? How do you fix stutter?
 
 ## Active Redeem Codes (8)
 - NTEFREE: Fons x30,000
