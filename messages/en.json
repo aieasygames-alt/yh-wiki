@@ -527,8 +527,8 @@
   },
   "tierList": {
     "title": "Tier List",
-    "seoTitle": "NTE Tier List (2026) — Best Characters by Scenario",
-    "seoDescription": "Updated 2026 NTE tier list ranking all Neverness to Everness characters by Overall, Abyss, Anomaly, and Open World performance. See the best DPS, supports, and healers with build recommendations.",
+    "seoTitle": "NTE Tier List (August 2026) — Best Characters, Builds & Teams",
+    "seoDescription": "Updated August 2026 NTE tier list ranking all Neverness to Everness characters by Overall, Abyss, Anomaly, and Open World performance. See the best DPS, supports, healers, builds, and team recommendations.",
     "ssTier": "SS Tier (Best)",
     "sPlusTier": "S+ Tier (Excellent)",
     "sTier": "S Tier (Great)",
@@ -732,8 +732,8 @@
   },
   "mapPage": {
     "title": "NTE Interactive Map",
-    "seoTitle": "NTE Interactive Map - All Resource Locations | Neverness to Everness",
-    "seoDescription": "Explore the complete Neverness to Everness interactive map with all chest locations, resource nodes, boss positions, waypoints, and more. Filter by category and track collection progress.",
+    "seoTitle": "NTE Map — Interactive Neverness to Everness Map, Chests & Resources",
+    "seoDescription": "Explore the NTE interactive map for Neverness to Everness with chest locations, resource nodes, bosses, waypoints, region filters, route planning, and collection progress tracking.",
     "description": "NTE interactive map with full resource markers...",
     "interactiveMap": "NTE Interactive Map",
     "allRegions": "All Regions",

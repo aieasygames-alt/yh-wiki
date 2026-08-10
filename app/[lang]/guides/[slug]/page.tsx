@@ -236,6 +236,25 @@ export default async function GuideDetailPage({
           <FaqSection faqs={guide.faq} locale={locale} />
         )}
 
+        {guide.internalLinks && guide.internalLinks.length > 0 && (
+          <section className="mt-10 mb-8 border-t border-gray-800 pt-6">
+            <h2 className="text-lg font-bold mb-4">
+              {isZhLocale(locale) ? (locale === "tw" ? "接著看這些" : "接着看这些") : "Related Guides"}
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {guide.internalLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={`/${lang}${link.href}`}
+                  className="rounded-lg border border-gray-800 bg-gray-900/30 p-3 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors"
+                >
+                  {isZhLocale(locale) ? link.label : link.labelEn}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Related Characters */}
         {relatedChars.length > 0 && (
           <section className="mt-10">

@@ -98,6 +98,27 @@ const EN_CHARACTER_SEO: Record<string, { title: string; description: string; h1:
   },
 };
 
+const ZH_CHARACTER_SEO: Record<string, { title: string; description: string; titleTw: string; descriptionTw: string }> = {
+  canhong: {
+    title: "残虹攻略：材料、技能、配队与上线前培养规划 | 异环 NTE",
+    description: "异环残虹角色攻略，整理残虹材料、技能机制、属性定位、配队思路、上线前养成规划和抽取注意事项，适合提前准备资源。",
+    titleTw: "殘虹攻略：材料、技能、配隊與上線前培養規劃 | 異環 NTE",
+    descriptionTw: "異環殘虹角色攻略，整理殘虹材料、技能機制、屬性定位、配隊思路、上線前養成規劃和抽取注意事項，適合提前準備資源。",
+  },
+  zhenhong: {
+    title: "真红攻略：材料、Build、配队与强度评级 | 异环 NTE",
+    description: "异环真红角色攻略，包含真红材料、最佳 Build、武器弧盘、配队推荐、技能循环、强度评级和养成优先级。",
+    titleTw: "真紅攻略：材料、Build、配隊與強度評級 | 異環 NTE",
+    descriptionTw: "異環真紅角色攻略，包含真紅材料、最佳 Build、武器弧盤、配隊推薦、技能循環、強度評級和養成優先級。",
+  },
+  illica: {
+    title: "伊洛伊攻略：材料、Build、配队与辅助强度 | 异环 NTE",
+    description: "异环伊洛伊角色攻略，整理伊洛伊材料、辅助 Build、武器弧盘、治疗增益机制、最佳配队和抽取培养建议。",
+    titleTw: "伊洛伊攻略：材料、Build、配隊與輔助強度 | 異環 NTE",
+    descriptionTw: "異環伊洛伊角色攻略，整理伊洛伊材料、輔助 Build、武器弧盤、治療增益機制、最佳配隊和抽取培養建議。",
+  },
+};
+
 export function generateStaticParams() {
   const characters = getAllCharacters();
   return characters.flatMap((c: { id: string }) => LOCALES.map((lang) => ({ lang, slug: c.id })));
@@ -119,6 +140,7 @@ export async function generateMetadata({
   const roleStr = character.roleEn ? ` ${character.roleEn}` : "";
   const attrLabel = getAttributeLabel(character.attribute, lang as Locale);
   const roleLabel = isZh ? localizedText(lang as Locale, character.role || "", character.roleEn || "") : character.roleEn;
+  const zhSeo = isZh ? ZH_CHARACTER_SEO[slug] : undefined;
   const bannerSeo =
     slug === "lacrimosa"
       ? {
@@ -138,6 +160,8 @@ export async function generateMetadata({
   const enSeo = !isZh ? EN_CHARACTER_SEO[slug] : undefined;
   const title = enSeo
     ? enSeo.title
+    : zhSeo
+    ? (lang === "tw" ? zhSeo.titleTw : zhSeo.title)
     : bannerSeo
     ? (isZh ? localizedText(lang as Locale, bannerSeo.titleZh, bannerSeo.titleEn) : bannerSeo.titleEn)
     : isZh
@@ -145,6 +169,8 @@ export async function generateMetadata({
     : `Best ${character.nameEn} Build${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"} Guide`;
   const description = completeMetaDescription(lang as Locale, enSeo
     ? enSeo.description
+    : zhSeo
+    ? (lang === "tw" ? zhSeo.descriptionTw : zhSeo.description)
     : bannerSeo
     ? (isZh ? localizedText(lang as Locale, bannerSeo.descZh, bannerSeo.descEn) : bannerSeo.descEn)
     : isZh
@@ -317,6 +343,42 @@ export default async function CharacterDetailPage({
         {character.teamComps && character.teamComps.length > 0 && (
           <TeamCompCard teams={character.teamComps} locale={locale} />
         )}
+
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-lg font-semibold text-white">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? `${charName(character, locale)}相關工具` : `${charName(character, locale)}相关工具`)
+              : `${character.nameEn} Planning Links`}
+          </h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-3">
+            {[
+              {
+                href: `/${lang}/calculator/leveling`,
+                label: isZhLocale(locale) ? (locale === "tw" ? "材料計算器" : "材料计算器") : "Material Calculator",
+                desc: isZhLocale(locale) ? (locale === "tw" ? "估算升級與突破材料" : "估算升级与突破材料") : "Estimate upgrade costs",
+              },
+              {
+                href: `/${lang}/teams`,
+                label: isZhLocale(locale) ? "配队推荐" : "Best Teams",
+                desc: isZhLocale(locale) ? (locale === "tw" ? "查看可用隊伍和替代位" : "查看可用队伍和替代位") : "Find team shells",
+              },
+              {
+                href: `/${lang}/tier-list`,
+                label: isZhLocale(locale) ? (locale === "tw" ? "強度排行" : "强度排行") : "Tier List",
+                desc: isZhLocale(locale) ? (locale === "tw" ? "對比同定位角色" : "对比同定位角色") : "Compare similar units",
+              },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-lg border border-gray-800 bg-gray-950/40 p-4 hover:border-primary-500/40 transition-colors"
+              >
+                <p className="text-sm font-medium text-primary-300">{item.label}</p>
+                <p className="mt-1 text-xs text-gray-500">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         {/* Kardz Promo */}
         <div className="mb-8">

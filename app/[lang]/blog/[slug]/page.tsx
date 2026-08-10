@@ -5,9 +5,10 @@ import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
 import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
 import { completeMetaDescription } from "../../../../lib/seo-copy";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { ArticleJsonLd } from "../../../../components/JsonLd";
+import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { ArticleContent } from "../../../../components/ArticleContent";
+import { FaqSection } from "../../../../components/FaqSection";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import { BlogImage } from "../../../../components/BlogImage";
 import dynamic from "next/dynamic";
@@ -91,6 +92,9 @@ export default async function BlogDetailPage({
         dateModified={post.date}
         image={post.image ? `https://nteguide.com${post.image}` : undefined}
       />
+      {post.faq && post.faq.length > 0 && (
+        <FaqPageJsonLd faqs={post.faq} lang={locale} />
+      )}
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
@@ -132,6 +136,10 @@ export default async function BlogDetailPage({
           <KardzPromoCard locale={locale} variant="compact" />
         </div>
         <ArticleContent content={content} lang={lang} />
+
+        {post.faq && post.faq.length > 0 && (
+          <FaqSection faqs={post.faq} locale={locale} />
+        )}
 
         {/* Tags */}
         {post.tags.length > 0 && (

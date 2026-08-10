@@ -173,6 +173,29 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
         </div>
       </section>
 
+      <section className="mb-10 rounded-xl border border-primary-500/20 bg-primary-500/10 p-5">
+        <h2 className="text-base font-semibold text-white">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "配置不夠時怎麼選入口？" : "配置不够时怎么选入口？")
+            : "What if your device is below the recommended specs?"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZhLocale(locale)
+            ? (locale === "tw"
+              ? "如果你的 PC 只勉強達到最低配置，先看下載安裝頁確認本地客戶端空間，再比較雲異環 PC 是否更適合短時登入。手機端發熱或掉幀嚴重時，也可以先降低畫質與幀率，不必急著重裝。"
+              : "如果你的 PC 只勉强达到最低配置，先看下载安装页确认本地客户端空间，再比较云异环 PC 是否更适合短时登录。手机端发热或掉帧严重时，也可以先降低画质与帧率，不必急着重装。")
+            : "If your PC only barely meets minimum specs, check the download guide for local-client storage first, then compare whether Cloud PC fits short login sessions better. On mobile, try lower graphics and frame-rate targets before reinstalling."}
+        </p>
+        <div className="mt-4 flex flex-wrap gap-3">
+          <Link href={`/${lang}/guides/download-install-guide`} className="text-sm text-primary-300 hover:text-primary-200">
+            {isZhLocale(locale) ? (locale === "tw" ? "下載安裝指南" : "下载安装指南") : "Download Guide"}
+          </Link>
+          <Link href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="text-sm text-primary-300 hover:text-primary-200">
+            {isZhLocale(locale) ? (locale === "tw" ? "雲異環 PC 說明" : "云异环 PC 说明") : "Cloud PC Guide"}
+          </Link>
+        </div>
+      </section>
+
       {/* Quick Answer — helps Featured Snippet / CTR */}
       <QuickAnswerCard
         locale={locale}

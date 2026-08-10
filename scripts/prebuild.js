@@ -45,6 +45,7 @@ function generateSearchIndex() {
 
   function addEntry(id, nameZh, nameEn, type, urlPath, tags) {
     index.push({ id, name: nameZh, nameEn, type, url: canonicalPath(`/zh${urlPath}`), tags });
+    index.push({ id, name: nameZh, nameEn, type, url: canonicalPath(`/tw${urlPath}`), tags });
     index.push({ id, name: nameEn, nameEn, type, url: canonicalPath(`/en${urlPath}`), tags });
   }
 
@@ -83,6 +84,12 @@ function generateSearchIndex() {
   index.push({ id: "999-nights-planner", name: "999 Nights Planner", nameEn: "999 Nights Planner", type: "page", url: canonicalPath("/en/999-nights-planner"), tags: ["999 nights", "planner", "mystery buttons"] });
   index.push({ id: "version-center", name: "版本中心", nameEn: "Version Center", type: "page", url: canonicalPath("/zh/version-center"), tags: ["版本更新", "1.2", "1.3", "patch", "hub"] });
   index.push({ id: "version-center", name: "Version Center", nameEn: "Version Center", type: "page", url: canonicalPath("/en/version-center"), tags: ["patch notes", "version", "1.2", "1.3", "hub"] });
+  index.push({ id: "download-install-guide", name: "异环官网入口 / 下载安装", nameEn: "NTE Official Site & Download", type: "page", url: canonicalPath("/zh/guides/download-install-guide"), tags: ["异环官网", "异环下载", "云异环", "steam", "download"] });
+  index.push({ id: "download-install-guide", name: "異環官網入口 / 下載安裝", nameEn: "NTE Official Site & Download", type: "page", url: canonicalPath("/tw/guides/download-install-guide"), tags: ["異環官網", "異環下載", "雲異環", "steam", "download"] });
+  index.push({ id: "download-install-guide", name: "NTE Official Site & Download", nameEn: "NTE Official Site & Download", type: "page", url: canonicalPath("/en/guides/download-install-guide"), tags: ["nte official site", "nte download", "cloud pc", "steam", "download"] });
+  index.push({ id: "cloud-yihuan-pc-guide", name: "云异环 PC 入口", nameEn: "Cloud Yihuan PC Guide", type: "page", url: canonicalPath("/zh/blog/cloud-yihuan-pc-guide"), tags: ["云异环", "异环云游戏", "云异环官网", "云异环下载"] });
+  index.push({ id: "cloud-yihuan-pc-guide", name: "雲異環 PC 入口", nameEn: "Cloud Yihuan PC Guide", type: "page", url: canonicalPath("/tw/blog/cloud-yihuan-pc-guide"), tags: ["雲異環", "異環雲遊戲", "雲異環官網", "雲異環下載"] });
+  index.push({ id: "cloud-yihuan-pc-guide", name: "Cloud Yihuan PC Guide", nameEn: "Cloud Yihuan PC Guide", type: "page", url: canonicalPath("/en/blog/cloud-yihuan-pc-guide"), tags: ["cloud yihuan", "nte cloud game", "cloud pc", "download"] });
 
   fs.writeFileSync(outFile, JSON.stringify(index), "utf-8");
   console.log(`[search-index] ${index.length} entries`);

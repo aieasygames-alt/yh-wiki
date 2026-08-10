@@ -47,6 +47,8 @@ export default async function CharactersPage({
   const characters = getAvailableCharacters();
   const allCharacters = getAllCharacters();
   const priorityLinks = [
+    { id: "canhong", en: "Canhong NTE guide", zh: "残虹材料攻略", tw: "殘虹材料攻略" },
+    { id: "zhenhong", en: "Zhenhong NTE guide", zh: "真红攻略", tw: "真紅攻略" },
     { id: "shinku", en: "Shinku NTE guide", zh: "沁红攻略", tw: "沁紅攻略" },
     { id: "black-bird", en: "Black Bird NTE guide", zh: "黑鸟攻略", tw: "黑鳥攻略" },
     { id: "akane", en: "Akane NTE guide", zh: "Akane 攻略", tw: "Akane 攻略" },

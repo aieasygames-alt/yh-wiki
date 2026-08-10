@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-08-04
+> Generated: 2026-08-10
 
 ## Characters (45)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -95,7 +95,7 @@
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
 ## Guides (100)
-- [异环下载安装 - PC/手机/PS5 全平台下载地址](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
+- [异环官网入口与下载安装 - PC/手机/PS5/云游戏下载指南](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
 - [异能循环（Esper Cycle）机制详解](/en/guides/elemental-reactions/) — Combat (updated 2026-05-25)

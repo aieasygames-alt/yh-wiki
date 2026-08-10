@@ -2,7 +2,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { t, hreflangAlternatesIndex, isZhLocale, asLocale, type Locale } from "../../lib/i18n";
 import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts, getLatestLiveChangelog, getRecentContentUpdates } from "../../lib/queries";
-import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd } from "../../components/JsonLd";
+import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd, FaqPageJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
 
@@ -68,6 +68,29 @@ export default async function HomePage({
   const blogPosts = getLatestBlogPosts(3);
   const recentUpdates = getRecentContentUpdates(6);
   const liveVersion = getLatestLiveChangelog();
+  const homeFaqs = isZhLocale(locale)
+    ? [
+        {
+          question: "异环官网入口在哪里？",
+          questionZh: "异环官网入口在哪里？",
+          answer: "如果你要找异环官网入口，建议先从首页进入下载指南，再按 PC 官网启动器、Steam/Epic、手机、PS5 或云异环选择对应入口。不要优先使用第三方网盘包。",
+          answerZh: "如果你要找异环官网入口，建议先从首页进入下载指南，再按 PC 官网启动器、Steam/Epic、手机、PS5 或云异环选择对应入口。不要优先使用第三方网盘包。",
+        },
+        {
+          question: "异环新手最该先看哪些页面？",
+          questionZh: "异环新手最该先看哪些页面？",
+          answer: "优先看下载安装、配置要求、兑换码、角色图鉴、配队推荐和互动地图。这样能先解决能不能玩、从哪里下载、领什么奖励、养谁和怎么探索。",
+          answerZh: "优先看下载安装、配置要求、兑换码、角色图鉴、配队推荐和互动地图。这样能先解决能不能玩、从哪里下载、领什么奖励、养谁和怎么探索。",
+        },
+      ]
+    : [
+        {
+          question: "Where should I start on NTE Guide?",
+          questionZh: "Where should I start on NTE Guide?",
+          answer: "Start with the download guide, system requirements, redeem codes, character index, best teams, tier list, and interactive map. Those pages cover whether you can play, where to download, what rewards to claim, and which units to build.",
+          answerZh: "Start with the download guide, system requirements, redeem codes, character index, best teams, tier list, and interactive map. Those pages cover whether you can play, where to download, what rewards to claim, and which units to build.",
+        },
+      ];
 
   const sRankChars = characters.filter((c) => c.rank === "S" && c.status === "available");
   const priorityCharacterIds = ["shinku", "black-bird", "akane", "lingko", "illica", "renee", "nitsa"];
@@ -80,6 +103,7 @@ export default async function HomePage({
       <WebSiteJsonLd />
       <OrganizationJsonLd />
       <VideoGameJsonLd />
+      <FaqPageJsonLd faqs={homeFaqs} lang={locale} />
       <div>
         {/* Hero */}
         <section className="relative overflow-hidden">
@@ -109,7 +133,7 @@ export default async function HomePage({
         </section>
 
         <section className="max-w-6xl mx-auto px-4 py-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
               {
                 href: `/${lang}/guides/download-install-guide`,
@@ -134,6 +158,22 @@ export default async function HomePage({
                   ? (locale === "tw" ? "Steam、Epic、官網啟動器、雲異環 PC 該怎麼選" : "Steam、Epic、官网启动器、云异环 PC 该怎么选")
                   : "Pick between Steam, Epic, the official launcher, and Cloud PC.",
                 accent: "border-cyan-500/30 bg-cyan-500/10 text-cyan-300",
+              },
+              {
+                href: `/${lang}/blog/cloud-yihuan-pc-guide`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "雲異環 PC 入口" : "云异环 PC 入口") : "Cloud Yihuan PC",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "免費時長、排隊、收費和普通客戶端差異" : "免费时长、排队、收费和普通客户端区别")
+                  : "Free time, queues, pricing, and launcher differences.",
+                accent: "border-emerald-500/30 bg-emerald-500/10 text-emerald-300",
+              },
+              {
+                href: `/${lang}/redeem-codes`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "1.3 前瞻兌換碼" : "1.3 前瞻兑换码") : "1.3 Redeem Codes",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "最新禮包碼、直播碼、國服/國際服兌換入口" : "最新礼包码、直播码、国服/国际服兑换入口")
+                  : "Latest codes, livestream drops, and redeem steps.",
+                accent: "border-amber-500/30 bg-amber-500/10 text-amber-300",
               },
             ].map((item) => (
               <Link
