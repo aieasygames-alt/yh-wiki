@@ -376,6 +376,7 @@ export interface Guide {
   relatedLore: string[];
   date?: string;
   faq?: FaqItem[];
+  internalLinks?: { label: string; labelEn: string; href: string }[];
 }
 
 export function getAllGuides(): Guide[] {
@@ -472,6 +473,7 @@ export interface BlogPost {
   image?: string;
   imageAlt?: string;
   internalLinks: { label: string; labelEn: string; href: string }[];
+  faq?: FaqItem[];
 }
 
 export function getAllBlogPosts(): BlogPost[] {
