@@ -236,6 +236,66 @@ export default async function HomePage({
           </Link>
         </section>
 
+        <section className="max-w-6xl mx-auto px-4 py-4">
+          <div className="grid gap-4 lg:grid-cols-3">
+            <div className="rounded-xl border border-gray-800 bg-gray-900/40 p-5">
+              <h2 className="text-base font-semibold text-white">
+                {isZhLocale(locale) ? "热门对比" : "Popular Comparisons"}
+              </h2>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {[
+                  { href: `/${lang}/compare/nte-gacha-vs-competitors`, label: isZhLocale(locale) ? "抽卡系统对比" : "Gacha Comparison" },
+                  { href: `/${lang}/compare/nte-vs-genshin`, label: "NTE vs Genshin" },
+                  { href: `/${lang}/compare/nte-vs-wuthering-waves`, label: "NTE vs WuWa" },
+                  { href: `/${lang}/compare/nte-vs-zzz`, label: "NTE vs ZZZ" },
+                  { href: `/${lang}/compare/nte-vs-ananta`, label: "NTE vs Ananta" },
+                  { href: `/${lang}/compare/nte-vs-honkai-star-rail`, label: "NTE vs Star Rail" },
+                  { href: `/${lang}/compare/games-like-nte`, label: isZhLocale(locale) ? "类似异环的游戏" : "Games Like NTE" },
+                ].map((item) => (
+                  <Link key={item.href} href={item.href} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="rounded-xl border border-gray-800 bg-gray-900/40 p-5">
+              <h2 className="text-base font-semibold text-white">
+                {isZhLocale(locale) ? "地图区域攻略" : "Map Region Guides"}
+              </h2>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {[
+                  { id: "new-herland", zh: "新赫兰德", tw: "新赫蘭德", en: "New Herland" },
+                  { id: "bridge-crossings", zh: "桥间地", tw: "橋間地", en: "Bridge Crossings" },
+                  { id: "unheard-shores", zh: "未闻浦", tw: "未聞浦", en: "Unheard Shores" },
+                  { id: "miguel-district", zh: "米格尔区", tw: "米格爾區", en: "Miguel District" },
+                  { id: "illusion-town", zh: "绘空町", tw: "繪空町", en: "Illusion Town" },
+                ].map((region) => (
+                  <Link key={region.id} href={`/${lang}/map/region/${region.id}`} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
+                    {locale === "tw" ? region.tw : isZhLocale(locale) ? region.zh : region.en}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div className="rounded-xl border border-gray-800 bg-gray-900/40 p-5">
+              <h2 className="text-base font-semibold text-white">
+                {isZhLocale(locale) ? "快速索引" : "Quick Index"}
+              </h2>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {[
+                  { href: `/${lang}/builds`, label: isZhLocale(locale) ? "全角色 Build" : "Best Builds" },
+                  { href: `/${lang}/sitemap`, label: isZhLocale(locale) ? "网站地图" : "Sitemap Page" },
+                  { href: `/${lang}/api`, label: "API" },
+                  { href: `/${lang}/voice-actors`, label: isZhLocale(locale) ? "声优一览" : "Voice Actors" },
+                ].map((item) => (
+                  <Link key={item.href} href={item.href} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Recent updates */}
         <section className="max-w-6xl mx-auto px-4 py-8">
           <div className="flex items-center justify-between mb-6">

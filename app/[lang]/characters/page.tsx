@@ -56,6 +56,7 @@ export default async function CharactersPage({
     { id: "illica", en: "Illica NTE guide", zh: "伊洛伊攻略", tw: "伊洛伊攻略" },
     { id: "renee", en: "Renee NTE guide", zh: "蕾妮攻略", tw: "蕾妮攻略" },
     { id: "nitsa", en: "Nitsa NTE guide", zh: "尼察攻略", tw: "尼察攻略" },
+    { id: "nixia", en: "Nixia NTE guide", zh: "尼夏攻略", tw: "尼夏攻略" },
   ].filter((link) => allCharacters.some((character) => character.id === link.id));
 
   return (

@@ -387,6 +387,17 @@ export default function MapPage() {
               );
             })}
           </div>
+          <div className="mt-2 flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
+            {Object.entries(regions).map(([rid, info]) => (
+              <a
+                key={rid}
+                href={`/${lang}/map/region/${rid}/`}
+                className="flex-shrink-0 rounded-lg border border-gray-800 bg-gray-900/40 px-3 py-1.5 text-xs text-gray-400 transition-colors hover:border-primary-500/40 hover:text-primary-400"
+              >
+                {isZhLocale(lang) ? `${info.zh}攻略` : `${info.en} Guide`}
+              </a>
+            ))}
+          </div>
         </div>
       )}
 
