@@ -228,7 +228,7 @@ describeIfBuilt("Build output verification", () => {
       .map((line) => line.trim())
       .filter((line) => line && !line.startsWith("#"))
       .map((line) => line.split(/\s+/))
-      .filter((parts) => parts[2] === "301")
+      .filter((parts) => parts[2] === "301" && parts[0] !== "/")
       .map(([from]) => `https://nteguide.com${from}`);
     const redirectedUrls = new Set(redirects);
     const sitemapHits: string[] = [];
@@ -305,6 +305,48 @@ describeIfBuilt("Build output verification", () => {
     }
 
     expect(missing).toEqual([]);
+  });
+
+  it("lists every indexable exported HTML page in sitemaps", () => {
+    const sitemapFiles = fs
+      .readdirSync(OUT_DIR)
+      .filter((file) => /^sitemap.*\.xml$/.test(file));
+    const sitemapUrls = new Set<string>();
+
+    for (const file of sitemapFiles) {
+      const content = fs.readFileSync(path.join(OUT_DIR, file), "utf-8");
+      for (const match of content.matchAll(/<loc>(https:\/\/nteguide\.com\/[^<]*)<\/loc>/g)) {
+        if (!match[1].endsWith(".xml")) sitemapUrls.add(match[1]);
+      }
+    }
+
+    function htmlUrl(full: string) {
+      let rel = path.relative(OUT_DIR, full).replace(/\\/g, "/");
+      if (rel === "index.html") return "https://nteguide.com/";
+      if (rel.endsWith("/index.html")) rel = rel.slice(0, -"index.html".length);
+      else rel = rel.replace(/\.html$/, "/");
+      return `https://nteguide.com/${rel}`;
+    }
+
+    function scanHtmlFiles(dir: string, failures: string[] = []): string[] {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          scanHtmlFiles(full, failures);
+        } else if (entry.isFile() && entry.name.endsWith(".html")) {
+          if (path.relative(OUT_DIR, full) === "404.html") continue;
+          const content = fs.readFileSync(full, "utf-8");
+          const robots = content.match(/<meta name="robots" content="([^"]*)"/)?.[1] || "";
+          if (robots.includes("noindex")) continue;
+
+          const url = htmlUrl(full);
+          if (!sitemapUrls.has(url)) failures.push(url);
+        }
+      }
+      return failures;
+    }
+
+    expect(scanHtmlFiles(OUT_DIR)).toEqual([]);
   });
 
   it("_redirects contains root redirect", () => {

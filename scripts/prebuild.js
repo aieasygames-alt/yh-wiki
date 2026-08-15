@@ -150,10 +150,11 @@ function generateSitemaps() {
     console.log(`[sitemap] ${filename}: ${urls.length} URLs`);
   }
 
-  const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets"];
-  const toolPages = ["calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab", "999-nights-planner", "version-center"];
+  const categoryPages = ["characters", "weapons", "vehicles", "materials", "guides", "faq", "lore", "locations", "blog", "changelog", "tier-list", "bosses", "teams", "anomalies", "disk-sets", "quests"];
+  const toolPages = ["builds", "calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "gacha-analyzer", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab", "999-nights-planner", "version-center", "steam", "cn-vs-global", "troubleshooting"];
   const guideSubPages = ["guides/gacha-system"];
-  const staticInfoPages = ["about", "contact", "terms", "privacy-policy"];
+  const staticInfoPages = ["about", "contact", "terms", "privacy-policy", "api", "sitemap"];
+  const mapRegionPages = ["new-herland", "bridge-crossings", "unheard-shores", "miguel-district", "illusion-town"];
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];
 
   function locUrls(paths, priority, changeFreq) {
@@ -169,6 +170,7 @@ function generateSitemaps() {
 
   // Pages sitemap
   const pageUrls = [
+    { url: `${BASE_URL}/`, priority: 1, changeFreq: "daily" },
     ...locUrls([""], 1, "daily"),
     ...locUrls(categoryPages, 0.8, "weekly"),
     ...locUrls(toolPages, 0.9, "weekly"),
@@ -196,6 +198,7 @@ function generateSitemaps() {
     ...dataUrls(load("locations.json"), (l, lang) => ({ url: `${BASE_URL}/${lang}/locations/${l.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("blog.json").filter(p => !REDIRECTED_BLOG_IDS.has(p.id)), (p, lang) => ({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(p.date) })),
     ...dataUrls(load("compares.json"), (c, lang) => ({ url: `${BASE_URL}/${lang}/compare/${c.id}/`, priority: 0.8, changeFreq: "monthly", lastmod: safeDate(c.updatedAt) || safeDate(c.date) })),
+    ...dataUrls(mapRegionPages, (region, lang) => ({ url: `${BASE_URL}/${lang}/map/region/${region}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("quests.json"), (q, lang) => ({ url: `${BASE_URL}/${lang}/quests/${q.id}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(q.date) })),
     ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(cl.date) })),
     ...dataUrls(load("anomalies.json"), (a, lang) => ({ url: `${BASE_URL}/${lang}/anomalies/${a.id}/`, priority: 0.7, changeFreq: "monthly" })),

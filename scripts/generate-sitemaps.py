@@ -70,6 +70,14 @@ lore = load("lore.json")
 quests = load("quests.json")
 changelog = load("changelog.json")
 faqs = load("faqs.json")
+compares = load("compares.json")
+map_regions = [
+    "new-herland",
+    "bridge-crossings",
+    "unheard-shores",
+    "miguel-district",
+    "illusion-town",
+]
 
 # === sitemap-characters.xml ===
 urls = []
@@ -151,13 +159,13 @@ for faq in faqs:
         for loc in LOCALES:
             urls.append(make_url(loc, f"faq/{faq['id']}/", priority="0.5", changefreq="monthly"))
 
-compare_pages = [
-    "nte-vs-genshin", "nte-vs-ananta", "nte-vs-wuthering-waves",
-    "nte-vs-zzz", "nte-vs-honkai-star-rail", "games-like-nte",
-]
-for cp in compare_pages:
+for cp in compares:
     for loc in LOCALES:
-        urls.append(make_url(loc, f"compare/{cp}/", priority="0.7"))
+        urls.append(make_url(loc, f"compare/{cp['id']}/", priority="0.7"))
+
+for region in map_regions:
+    for loc in LOCALES:
+        urls.append(make_url(loc, f"map/region/{region}/", priority="0.7", changefreq="monthly"))
 
 all_tags = set()
 for p in blog:
@@ -172,6 +180,14 @@ print(f"sitemap-other.xml: {len(urls)} URLs")
 
 # === sitemap-pages.xml ===
 urls = []
+urls.append(
+    "  <url>\n"
+    f"    <loc>{BASE}/</loc>\n"
+    f"    <lastmod>{NOW}</lastmod>\n"
+    "    <changefreq>daily</changefreq>\n"
+    "    <priority>1</priority>\n"
+    "  </url>"
+)
 page_paths = [
     ("", "daily", "1"),
     ("characters/", "weekly", "0.8"),
@@ -189,6 +205,7 @@ page_paths = [
     ("teams/", "weekly", "0.8"),
     ("anomalies/", "weekly", "0.8"),
     ("disk-sets/", "weekly", "0.8"),
+    ("quests/", "weekly", "0.8"),
     ("builds/", "weekly", "0.8"),
     ("calculator/leveling/", "weekly", "0.9"),
     ("calculator/build/", "weekly", "0.9"),
@@ -212,10 +229,14 @@ page_paths = [
     ("multiplayer/", "weekly", "0.9"),
     ("gameplay/", "weekly", "0.9"),
     ("porsche-collab/", "weekly", "0.9"),
+    ("999-nights-planner/", "weekly", "0.9"),
+    ("version-center/", "weekly", "0.9"),
     ("steam/", "monthly", "0.7"),
     ("cn-vs-global/", "monthly", "0.7"),
     ("troubleshooting/", "monthly", "0.7"),
     ("guides/gacha-system/", "weekly", "0.9"),
+    ("api/", "monthly", "0.5"),
+    ("sitemap/", "monthly", "0.5"),
     ("about/", "monthly", "0.5"),
     ("contact/", "monthly", "0.5"),
     ("terms/", "monthly", "0.5"),
