@@ -28,7 +28,10 @@ describeIfBuilt("Build output verification", () => {
   });
 
   it("generates permissive robots.txt so crawlers can see removal signals", () => {
-    const content = fs.readFileSync(path.join(OUT_DIR, "robots.txt"), "utf-8");
+    const content = [
+      fs.readFileSync(path.join(OUT_DIR, "robots.txt"), "utf-8"),
+      fs.readFileSync(path.resolve(__dirname, "../../public/robots.txt"), "utf-8"),
+    ].join("\n");
     for (const prefix of ["/ja/", "/de/", "/fr/", "/es/", "/ru/", "/th/", "/vi/", "/id/", "/ko/", "/pt-br/"]) {
       expect(content).not.toContain(`Disallow: ${prefix}`);
     }
@@ -216,6 +219,92 @@ describeIfBuilt("Build output verification", () => {
     });
 
     expect(duplicates).toEqual([]);
+  });
+
+  it("does not list redirected URLs in sitemaps", () => {
+    const redirects = fs
+      .readFileSync(path.join(OUT_DIR, "_redirects"), "utf-8")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith("#"))
+      .map((line) => line.split(/\s+/))
+      .filter((parts) => parts[2] === "301")
+      .map(([from]) => `https://nteguide.com${from}`);
+    const redirectedUrls = new Set(redirects);
+    const sitemapHits: string[] = [];
+
+    for (const file of fs.readdirSync(OUT_DIR).filter((name) => /^sitemap.*\.xml$/.test(name))) {
+      const content = fs.readFileSync(path.join(OUT_DIR, file), "utf-8");
+      for (const match of content.matchAll(/<loc>(.*?)<\/loc>/g)) {
+        if (redirectedUrls.has(match[1])) {
+          sitemapHits.push(`${file}: ${match[1]}`);
+        }
+      }
+    }
+
+    expect(sitemapHits).toEqual([]);
+  });
+
+  it("does not link to non-root redirected URLs from exported content", () => {
+    const redirects = fs
+      .readFileSync(path.join(OUT_DIR, "_redirects"), "utf-8")
+      .split("\n")
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith("#"))
+      .map((line) => line.split(/\s+/))
+      .filter((parts) => parts[2] === "301" && parts[0] !== "/")
+      .map(([from]) => from);
+    const hits: string[] = [];
+
+    function scan(dir: string) {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          scan(full);
+        } else if (entry.isFile() && /\.(html|json|txt|xml)$/.test(entry.name)) {
+          if (entry.name === "_redirects") continue;
+          const content = fs.readFileSync(full, "utf-8");
+          const linkedPaths = new Set<string>();
+          for (const match of content.matchAll(/href=["']([^"']+)["']/g)) {
+            linkedPaths.add(match[1]);
+          }
+          for (const match of content.matchAll(/https:\/\/nteguide\.com([^"<]+)(?=["<])/g)) {
+            linkedPaths.add(match[1]);
+          }
+          for (const from of redirects) {
+            if (linkedPaths.has(from)) hits.push(`${path.relative(OUT_DIR, full)}: ${from}`);
+          }
+        }
+      }
+    }
+
+    scan(OUT_DIR);
+
+    expect(hits).toEqual([]);
+  }, 20_000);
+
+  it("exports every sitemap HTML URL", () => {
+    const sitemapFiles = fs
+      .readdirSync(OUT_DIR)
+      .filter((file) => /^sitemap.*\.xml$/.test(file));
+    const missing: string[] = [];
+
+    for (const file of sitemapFiles) {
+      const content = fs.readFileSync(path.join(OUT_DIR, file), "utf-8");
+      for (const match of content.matchAll(/<loc>https:\/\/nteguide\.com([^<]+)<\/loc>/g)) {
+        const pathname = match[1];
+        if (pathname.endsWith(".xml")) continue;
+        const localPath = pathname.endsWith("/")
+          ? path.join(OUT_DIR, pathname.slice(1), "index.html")
+          : path.join(OUT_DIR, pathname.slice(1));
+
+        if (!fs.existsSync(localPath)) {
+          missing.push(`${file}: ${pathname}`);
+        }
+      }
+    }
+
+    expect(missing).toEqual([]);
   });
 
   it("_redirects contains root redirect", () => {

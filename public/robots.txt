@@ -1,15 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /es/
-Disallow: /de/
-Disallow: /fr/
-Disallow: /ko/
-Disallow: /ja/
-Disallow: /ru/
-Disallow: /th/
-Disallow: /vi/
-Disallow: /id/
-Disallow: /pt-br/
 
 Sitemap: https://nteguide.com/sitemap.xml
 

@@ -1423,42 +1423,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/zh/faq/download-installation/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/download-installation/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/download-installation/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/faq/system-requirements/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/system-requirements/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/system-requirements/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://nteguide.com/zh/faq/release-date/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -1904,24 +1868,6 @@
   </url>
   <url>
     <loc>https://nteguide.com/en/faq/cross-platform-save/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/faq/download-size/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/download-size/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/download-size/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2588,42 +2534,6 @@
   </url>
   <url>
     <loc>https://nteguide.com/en/faq/mobile-graphics-settings/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/faq/android-minimum-specs/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/android-minimum-specs/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/android-minimum-specs/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/faq/ios-minimum-specs/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/ios-minimum-specs/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/ios-minimum-specs/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -3326,24 +3236,6 @@
   </url>
   <url>
     <loc>https://nteguide.com/en/faq/pc-crash-launcher/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/faq/ssd-requirement/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/ssd-requirement/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/ssd-requirement/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -5612,24 +5504,6 @@
   </url>
   <url>
     <loc>https://nteguide.com/en/faq/how-to-reinstall-nte/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/faq/nte-download-size-storage/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/faq/nte-download-size-storage/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/faq/nte-download-size-storage/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -8420,24 +8294,6 @@
   </url>
   <url>
     <loc>https://nteguide.com/en/blog/nte-beginner-week-one-checklist/</loc>
-    <lastmod>2026-05-16T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/zh/blog/nte-system-requirements-can-you-run-it/</loc>
-    <lastmod>2026-05-16T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/blog/nte-system-requirements-can-you-run-it/</loc>
-    <lastmod>2026-05-16T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/blog/nte-system-requirements-can-you-run-it/</loc>
     <lastmod>2026-05-16T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

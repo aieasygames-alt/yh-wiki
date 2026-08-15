@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { canonicalPath, localizedPath } from "../url";
+import { canonicalPath, localizedPath, resolveRedirectedPath } from "../url";
 
 describe("canonicalPath", () => {
   it("adds trailing slash to internal page paths", () => {
@@ -19,6 +19,17 @@ describe("canonicalPath", () => {
     expect(canonicalPath("/_next/static/app.js")).toBe("/_next/static/app.js");
     expect(canonicalPath("https://nteguide.com/en/characters")).toBe("https://nteguide.com/en/characters");
     expect(canonicalPath("/")).toBe("/");
+  });
+});
+
+describe("resolveRedirectedPath", () => {
+  it("maps merged legacy content URLs to their canonical targets", () => {
+    expect(resolveRedirectedPath("/en/faq/system-requirements")).toBe("/en/system-requirements/");
+    expect(resolveRedirectedPath("/zh/faq/download-installation/")).toBe("/zh/guides/download-install-guide/");
+    expect(resolveRedirectedPath("/tw/blog/nte-system-requirements-can-you-run-it?ref=faq")).toBe(
+      "/tw/system-requirements/?ref=faq"
+    );
+    expect(resolveRedirectedPath("/en/characters/the-appraiser/")).toBe("/en/characters/zero/");
   });
 });
 

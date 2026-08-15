@@ -14,6 +14,16 @@ const BASE_URL = "https://nteguide.com";
 // ── Config ──────────────────────────────────────────────
 // All locales the app supports via generateStaticParams (see lib/i18n.ts LOCALES)
 const LOCALES = ["zh", "tw", "en"];
+const REDIRECTED_FAQ_IDS = new Set([
+  "android-minimum-specs",
+  "download-installation",
+  "download-size",
+  "ios-minimum-specs",
+  "nte-download-size-storage",
+  "ssd-requirement",
+  "system-requirements",
+]);
+const REDIRECTED_BLOG_IDS = new Set(["nte-system-requirements-can-you-run-it"]);
 
 function canonicalPath(href) {
   if (!href.startsWith("/") || href.startsWith("//")) return href;
@@ -181,10 +191,10 @@ function generateSitemaps() {
   // Other sitemap
   const otherUrls = [
     ...dataUrls(load("materials.json"), (m, lang) => ({ url: `${BASE_URL}/${lang}/materials/${m.id}/`, priority: 0.6, changeFreq: "monthly" })),
-    ...dataUrls(load("faqs.json"), (f, lang) => ({ url: `${BASE_URL}/${lang}/faq/${f.id}/`, priority: 0.6, changeFreq: "monthly" })),
+    ...dataUrls(load("faqs.json").filter(f => !REDIRECTED_FAQ_IDS.has(f.id)), (f, lang) => ({ url: `${BASE_URL}/${lang}/faq/${f.id}/`, priority: 0.6, changeFreq: "monthly" })),
     ...dataUrls(load("lore.json"), (l, lang) => ({ url: `${BASE_URL}/${lang}/lore/${l.id}/`, priority: 0.7, changeFreq: "monthly" })),
     ...dataUrls(load("locations.json"), (l, lang) => ({ url: `${BASE_URL}/${lang}/locations/${l.id}/`, priority: 0.7, changeFreq: "monthly" })),
-    ...dataUrls(load("blog.json"), (p, lang) => ({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(p.date) })),
+    ...dataUrls(load("blog.json").filter(p => !REDIRECTED_BLOG_IDS.has(p.id)), (p, lang) => ({ url: `${BASE_URL}/${lang}/blog/${p.id}/`, priority: 0.8, changeFreq: "weekly", lastmod: safeDate(p.date) })),
     ...dataUrls(load("compares.json"), (c, lang) => ({ url: `${BASE_URL}/${lang}/compare/${c.id}/`, priority: 0.8, changeFreq: "monthly", lastmod: safeDate(c.updatedAt) || safeDate(c.date) })),
     ...dataUrls(load("quests.json"), (q, lang) => ({ url: `${BASE_URL}/${lang}/quests/${q.id}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(q.date) })),
     ...dataUrls(load("changelog.json"), (cl, lang) => ({ url: `${BASE_URL}/${lang}/changelog/${cl.version}/`, priority: 0.7, changeFreq: "monthly", lastmod: safeDate(cl.date) })),

@@ -1,5 +1,6 @@
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAllFaqs, getFaqCategories } from "../../../lib/queries";
+import { canonicalPath } from "../../../lib/url";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd, FaqPageJsonLd } from "../../../components/JsonLd";
 
@@ -58,7 +59,7 @@ export default async function FaqListPage({
       <ItemListJsonLd
         items={faqs.map((f) => ({
           name: isZhLocale(locale) ? f.question : f.questionEn,
-          url: `https://nteguide.com/${lang}/faq/${f.id}`,
+          url: `https://nteguide.com${canonicalPath(`/${lang}/faq/${f.id}`)}`,
         }))}
       />
       <FaqPageJsonLd
@@ -123,7 +124,7 @@ export default async function FaqListPage({
               {cat.faqs.map((faq, index) => (
                 <a
                   key={faq.id}
-                  href={`/${lang}/faq/${faq.id}`}
+                  href={canonicalPath(`/${lang}/faq/${faq.id}`)}
                   className="faq-item group block rounded-xl border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-all duration-200 hover:shadow-lg hover:shadow-primary-500/5"
                 >
                   <div className="flex items-start gap-3">

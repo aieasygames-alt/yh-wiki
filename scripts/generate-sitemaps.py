@@ -6,6 +6,16 @@ from datetime import datetime, timezone
 
 BASE = "https://nteguide.com"
 LOCALES = ["zh", "tw", "en"]
+REDIRECTED_FAQ_IDS = {
+    "android-minimum-specs",
+    "download-installation",
+    "download-size",
+    "ios-minimum-specs",
+    "nte-download-size-storage",
+    "ssd-requirement",
+    "system-requirements",
+}
+REDIRECTED_BLOG_IDS = {"nte-system-requirements-can-you-run-it"}
 NOW = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 def make_url(loc, path, lastmod=NOW, changefreq="weekly", priority="0.8"):
@@ -101,6 +111,8 @@ print(f"sitemap-guides.xml: {len(urls)} URLs ({len(guides)} guides x 3)")
 urls = []
 
 for p in blog:
+    if p.get("id") in REDIRECTED_BLOG_IDS:
+        continue
     for loc in LOCALES:
         urls.append(make_url(loc, f"blog/{p['id']}/", priority="0.6", changefreq="monthly"))
 
@@ -133,6 +145,8 @@ for c in changelog:
         urls.append(make_url(loc, f"changelog/{c['version']}/", priority="0.7"))
 
 for faq in faqs:
+    if faq.get("id") in REDIRECTED_FAQ_IDS:
+        continue
     if "id" in faq:
         for loc in LOCALES:
             urls.append(make_url(loc, f"faq/{faq['id']}/", priority="0.5", changefreq="monthly"))

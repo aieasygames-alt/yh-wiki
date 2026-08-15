@@ -191,6 +191,50 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
           </section>
         )}
 
+        <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-xl font-bold mb-3">
+            {localizedText(locale, "战斗路线", "Fight Route", "戰鬥路線")}
+          </h2>
+          <div className="space-y-3 text-sm leading-7 text-gray-300">
+            <p>
+              {localizedText(
+                locale,
+                `挑战「${anomalyName}」时，先把它当作${typeLabel}级${category || "异象"}处理：开场观察攻击前摇和场地边界，不急着交爆发；等弱点、护盾或僵直窗口出现后，再集中使用高倍率技能。这样可以避免因为资料未完整公开而把资源浪费在错误节奏上。`,
+                `When fighting ${anomalyName}, treat it as a ${typeLabel} ${category || "anomaly"} first: watch the opening windups and arena boundaries before committing burst skills. Once a weakness, shield-break, or stagger window appears, spend high-value cooldowns together instead of forcing damage into an unsafe pattern.`,
+                `挑戰「${anomalyName}」時，先把它當作${typeLabel}級${category || "異象"}處理：開場觀察攻擊前搖和場地邊界，不急著交爆發；等弱點、護盾或硬直窗口出現後，再集中使用高倍率技能。這樣可以避免因資料未完整公開而把資源浪費在錯誤節奏上。`
+              )}
+            </p>
+            <p>
+              {localizedText(
+                locale,
+                mechanics
+                  ? `当前记录的核心机制是：${mechanics}。实战中建议把这条机制拆成“能否打断”“是否需要换位”“是否会影响治疗或护盾”三个判断，再决定队伍里要不要带控制、远程输出或额外生存位。`
+                  : "如果机制仍待确认，建议先用泛用队伍测试：一名稳定主C、一名能提供生存的角色、一名可处理移动或破盾压力的角色。记录首轮攻击顺序后，再调整输出窗口。",
+                mechanics
+                  ? `The currently recorded core mechanic is: ${mechanics}. In practice, break this into three questions: can it be interrupted, does it force repositioning, and does it pressure healing or shielding. Use those answers to decide whether you need control, ranged damage, or extra sustain.`
+                  : "If the mechanics are still unconfirmed, test with a flexible team first: one stable damage dealer, one sustain option, and one slot that can handle mobility or shield pressure. Record the first attack cycle before optimizing damage windows.",
+                mechanics
+                  ? `目前記錄的核心機制是：${mechanics}。實戰中建議把這條機制拆成「能否打斷」「是否需要換位」「是否會影響治療或護盾」三個判斷，再決定隊伍裡要不要帶控制、遠程輸出或額外生存位。`
+                  : "如果機制仍待確認，建議先用泛用隊伍測試：一名穩定主C、一名能提供生存的角色、一名可處理移動或破盾壓力的角色。記錄首輪攻擊順序後，再調整輸出窗口。"
+              )}
+            </p>
+            <p>
+              {localizedText(
+                locale,
+                strategy
+                  ? `推荐打法可以先按「${strategy}」执行；如果你发现战斗时间过长，优先检查属性是否对路、是否错过弱点窗口，以及是否把爆发技能交在了移动或无敌阶段。`
+                  : "如果暂无固定打法，优先目标不是速杀，而是稳定识别危险动作。等你能稳定规避两轮机制后，再把队伍从生存配置切换到更高输出配置。",
+                strategy
+                  ? `Start with this strategy: ${strategy}. If the fight takes too long, check whether your attribute choice is appropriate, whether you are missing weakness windows, and whether burst skills are landing during movement or invulnerability phases.`
+                  : "If no fixed strategy is available yet, the first goal is not a speed kill; it is recognizing danger patterns reliably. After you can survive two mechanic cycles, move from a defensive setup toward a higher-damage composition.",
+                strategy
+                  ? `推薦打法可以先按「${strategy}」執行；如果你發現戰鬥時間過長，優先檢查屬性是否對路、是否錯過弱點窗口，以及是否把爆發技能交在了移動或無敵階段。`
+                  : "如果暫無固定打法，優先目標不是速殺，而是穩定識別危險動作。等你能穩定規避兩輪機制後，再把隊伍從生存配置切換到更高輸出配置。"
+              )}
+            </p>
+          </div>
+        </section>
+
         <section className="grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
@@ -248,6 +292,20 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
               </Link>
             </div>
           </div>
+        </section>
+
+        <section className="mt-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
+          <h2 className="text-lg font-bold mb-3">
+            {localizedText(locale, "刷取与数据校验", "Farming And Data Checks", "刷取與資料校驗")}
+          </h2>
+          <p className="text-sm leading-7 text-gray-300">
+            {localizedText(
+              locale,
+              `如果你是为了材料或装备来刷「${anomalyName}」，先确认掉落是否真的绑定该异象，再看刷新周期和体力成本。标记为“待确认”“隐藏Boss”或预发布描述的字段，适合先作为路线参考，不适合直接当作最终掉落表。正式服更新后，优先复核位置、掉落和机制三项，因为这三项最容易影响是否值得反复挑战。`,
+              `If you are farming ${anomalyName} for materials or equipment, first confirm whether the drop is actually tied to this anomaly, then check refresh timing and stamina cost. Fields marked as TBC, hidden boss, or pre-release notes should be treated as route hints rather than final drop tables. After live updates, verify location, drops, and mechanics first because those three fields most directly affect whether repeated farming is worthwhile.`,
+              `如果你是為了素材或裝備來刷「${anomalyName}」，先確認掉落是否真的綁定該異象，再看刷新週期和體力成本。標記為「待確認」「隱藏Boss」或預發布描述的欄位，適合先作為路線參考，不適合直接當作最終掉落表。正式服更新後，優先複核位置、掉落和機制三項，因為這三項最容易影響是否值得反覆挑戰。`
+            )}
+          </p>
         </section>
       </div>
     </>

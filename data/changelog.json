@@ -181,7 +181,7 @@
             "description": "S级角色，公测首发角色。",
             "descriptionEn": "S-rank character available at launch.",
             "type": "character",
-            "ref": "the-appraiser",
+            "ref": "zero",
             "tags": [
               "S级"
             ]

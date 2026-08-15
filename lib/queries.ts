@@ -16,6 +16,17 @@ import questsData from "../data/quests.json";
 import { isZhLocale, Locale } from "./i18n";
 import { validateData, CharactersArraySchema, WeaponsArraySchema, MaterialsArraySchema, CharacterMaterialsArraySchema, FaqsArraySchema } from "./schemas";
 
+const REDIRECTED_FAQ_IDS = new Set([
+  "android-minimum-specs",
+  "download-installation",
+  "download-size",
+  "ios-minimum-specs",
+  "nte-download-size-storage",
+  "ssd-requirement",
+  "system-requirements",
+]);
+const REDIRECTED_BLOG_IDS = new Set(["nte-system-requirements-can-you-run-it"]);
+
 export interface FaqItem {
   question: string;
   questionZh: string;
@@ -254,7 +265,7 @@ export interface Faq {
 const validatedFaqs = validateData("faqs", faqsData, FaqsArraySchema);
 
 export function getAllFaqs(): Faq[] {
-  return validatedFaqs as Faq[];
+  return (validatedFaqs as Faq[]).filter((f) => !REDIRECTED_FAQ_IDS.has(f.id));
 }
 
 export function getFaq(slug: string): Faq | undefined {
@@ -477,7 +488,7 @@ export interface BlogPost {
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-  return blogData as BlogPost[];
+  return (blogData as BlogPost[]).filter((p) => !REDIRECTED_BLOG_IDS.has(p.id));
 }
 
 export function getBlogPost(slug: string): BlogPost | undefined {

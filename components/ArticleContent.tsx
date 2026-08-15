@@ -1,3 +1,5 @@
+import { canonicalPath } from "../lib/url";
+
 interface ArticleContentProps {
   content: string;
   lang?: string;
@@ -178,7 +180,7 @@ function renderInlineFormatting(text: string, lang?: string): React.ReactNode {
     if (linkMatch) {
       const rawHref = linkMatch[2];
       const isInternal = rawHref.startsWith("/") && !rawHref.startsWith("//");
-      const href = isInternal && lang ? `/${lang}${rawHref}` : rawHref;
+      const href = isInternal && lang ? canonicalPath(`/${lang}${rawHref}`) : canonicalPath(rawHref);
       return (
         <a key={i} href={href} {...(isInternal ? {} : { target: "_blank", rel: "noopener noreferrer" })} className="text-primary-400 hover:text-primary-300 underline underline-offset-2 transition-colors">
           {linkMatch[1]}
