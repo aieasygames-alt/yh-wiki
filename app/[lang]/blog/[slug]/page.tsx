@@ -145,13 +145,12 @@ export default async function BlogDetailPage({
         {post.tags.length > 0 && (
           <div className="mt-8 flex flex-wrap gap-2">
             {post.tags.map((tag) => (
-              <Link
+              <span
                 key={tag}
-                href={`/${lang}/tags/${tag}`}
-                className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-400 hover:text-primary-400 transition-colors"
+                className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-400"
               >
                 #{isZhLocale(locale) ? (() => { const zh = t(locale, `blog.tags.${tag}`); return zh !== `blog.tags.${tag}` ? zh : tag; })() : tag}
-              </Link>
+              </span>
             ))}
           </div>
         )}
