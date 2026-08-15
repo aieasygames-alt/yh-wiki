@@ -29,6 +29,8 @@ describe("resolveRedirectedPath", () => {
     expect(resolveRedirectedPath("/tw/blog/nte-system-requirements-can-you-run-it?ref=faq")).toBe(
       "/tw/system-requirements/?ref=faq"
     );
+    expect(resolveRedirectedPath("/en/faq/weapon-upgrade-faq")).toBe("/en/faq/weapon-upgrade/");
+    expect(resolveRedirectedPath("/zh/faq/romance-system-explained/")).toBe("/zh/faq/romance-system-guide/");
     expect(resolveRedirectedPath("/en/characters/the-appraiser/")).toBe("/en/characters/zero/");
   });
 });

@@ -7,6 +7,8 @@ const REDIRECT_TARGETS: Record<string, string> = {
   "/faq/nte-download-size-storage": "/system-requirements/",
   "/faq/ssd-requirement": "/system-requirements/",
   "/faq/system-requirements": "/system-requirements/",
+  "/faq/weapon-upgrade-faq": "/faq/weapon-upgrade/",
+  "/faq/romance-system-explained": "/faq/romance-system-guide/",
   "/blog/nte-system-requirements-can-you-run-it": "/system-requirements/",
   "/characters/the-appraiser": "/characters/zero/",
 };

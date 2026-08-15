@@ -14,6 +14,8 @@ REDIRECTED_FAQ_IDS = {
     "nte-download-size-storage",
     "ssd-requirement",
     "system-requirements",
+    "weapon-upgrade-faq",
+    "romance-system-explained",
 }
 REDIRECTED_BLOG_IDS = {"nte-system-requirements-can-you-run-it"}
 NOW = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")

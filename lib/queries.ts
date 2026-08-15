@@ -24,6 +24,8 @@ const REDIRECTED_FAQ_IDS = new Set([
   "nte-download-size-storage",
   "ssd-requirement",
   "system-requirements",
+  "weapon-upgrade-faq",
+  "romance-system-explained",
 ]);
 const REDIRECTED_BLOG_IDS = new Set(["nte-system-requirements-can-you-run-it"]);
 

@@ -77,6 +77,21 @@
 /zh/faq/download-installation/ /zh/guides/download-install-guide/ 301
 /tw/faq/download-installation /tw/guides/download-install-guide/ 301
 /tw/faq/download-installation/ /tw/guides/download-install-guide/ 301
+
+# Duplicate FAQ intent consolidation
+/en/faq/weapon-upgrade-faq /en/faq/weapon-upgrade/ 301
+/en/faq/weapon-upgrade-faq/ /en/faq/weapon-upgrade/ 301
+/zh/faq/weapon-upgrade-faq /zh/faq/weapon-upgrade/ 301
+/zh/faq/weapon-upgrade-faq/ /zh/faq/weapon-upgrade/ 301
+/tw/faq/weapon-upgrade-faq /tw/faq/weapon-upgrade/ 301
+/tw/faq/weapon-upgrade-faq/ /tw/faq/weapon-upgrade/ 301
+/en/faq/romance-system-explained /en/faq/romance-system-guide/ 301
+/en/faq/romance-system-explained/ /en/faq/romance-system-guide/ 301
+/zh/faq/romance-system-explained /zh/faq/romance-system-guide/ 301
+/zh/faq/romance-system-explained/ /zh/faq/romance-system-guide/ 301
+/tw/faq/romance-system-explained /tw/faq/romance-system-guide/ 301
+/tw/faq/romance-system-explained/ /tw/faq/romance-system-guide/ 301
+
 # Blog post competing with dedicated page → consolidate
 /en/blog/nte-system-requirements-can-you-run-it /en/system-requirements/ 301
 /en/blog/nte-system-requirements-can-you-run-it/ /en/system-requirements/ 301
