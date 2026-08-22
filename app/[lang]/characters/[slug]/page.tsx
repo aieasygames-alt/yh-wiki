@@ -98,6 +98,15 @@ const EN_CHARACTER_SEO: Record<string, { title: string; description: string; h1:
   },
 };
 
+const EN_CHARACTER_SEARCH_ALIASES: Record<string, string[]> = {
+  "black-bird": ["blackbird nte", "nte blackbird", "black bird nte"],
+  akane: ["nte akane", "akane nte", "akane neverness to everness"],
+  nitsa: ["nitsa nte", "nte nitsa"],
+  lingko: ["nte lingko", "lingko nte"],
+  renee: ["renee nte", "nte renee"],
+  nelly: ["nelly nte", "nte nelly"],
+};
+
 const ZH_CHARACTER_SEO: Record<string, { title: string; description: string; titleTw: string; descriptionTw: string }> = {
   canhong: {
     title: "残虹攻略：材料、技能、配队与上线前培养规划 | 异环 NTE",
@@ -202,6 +211,7 @@ export default async function CharacterDetailPage({
   const cm = getCharacterMaterials(slug);
   const banner = bannerCta(slug, locale);
   const enSeo = locale === "en" ? EN_CHARACTER_SEO[slug] : undefined;
+  const searchAliases = locale === "en" ? EN_CHARACTER_SEARCH_ALIASES[slug] : undefined;
 
   const relatedChars = (character.relatedCharacters || [])
     .map(id => getCharacter(id))
@@ -256,6 +266,11 @@ export default async function CharacterDetailPage({
               </div>
               {character.description && (
                 <p className="mt-3 text-sm text-gray-400">{isZhLocale(locale) ? character.description : character.descriptionEn || character.description}</p>
+              )}
+              {searchAliases && searchAliases.length > 0 && (
+                <p className="mt-2 text-xs text-gray-500">
+                  Also searched as: {searchAliases.join(", ")}.
+                </p>
               )}
             </div>
           </div>

@@ -7,6 +7,19 @@ import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 
+const EN_LOCATION_SEO: Record<string, { title: string; description: string; h1: string }> = {
+  "groth-island": {
+    title: "Groth Island NTE Guide - Map, Exploration & Appraiser Lore | Neverness to Everness",
+    description: "Groth Island NTE location guide for Neverness to Everness: map context, exploration notes, anomaly activity, Appraiser investigations, related lore, and follow-up routes.",
+    h1: "Groth Island NTE Guide: Map, Exploration & Lore",
+  },
+  "new-helios": {
+    title: "New Helios NTE Guide - District Map, Lore & Exploration | Neverness to Everness",
+    description: "New Helios NTE district guide for Neverness to Everness: Hethereau map context, city lore, exploration notes, related pages, and urban route planning.",
+    h1: "New Helios NTE Guide: District Map & Lore",
+  },
+};
+
 export function generateStaticParams() {
   const locations = getAllLocations();
   return locations.flatMap((l) => LOCALES.map((lang) => ({ lang, slug: l.id })));
@@ -22,14 +35,16 @@ export async function generateMetadata({
   if (!loc) return {};
   const locale = lang as Locale;
   const name = localizedText(locale, loc.name, loc.nameEn);
-  const description = completeMetaDescription(locale, localizedText(locale, loc.summary, loc.summaryEn));
+  const enSeo = locale === "en" ? EN_LOCATION_SEO[slug] : undefined;
+  const description = completeMetaDescription(locale, enSeo?.description || localizedText(locale, loc.summary, loc.summaryEn));
   const suffix = localizedText(locale, "异环地图", "NTE Location Guide");
+  const title = enSeo?.title || `${name} - ${suffix}`;
   return {
-    title: `${name} - ${suffix}`,
+    title,
     description,
     alternates: hreflangAlternates(`locations/${slug}`, lang),
     openGraph: {
-      title: `${name} - ${suffix}`,
+      title,
       description,
       type: "article",
     },
@@ -49,6 +64,7 @@ export default async function LocationDetailPage({
   const name = localizedText(locale, loc.name, loc.nameEn);
   const content = localizedText(locale, loc.content, loc.contentEn);
   const summary = localizedText(locale, loc.summary, loc.summaryEn);
+  const enSeo = locale === "en" ? EN_LOCATION_SEO[slug] : undefined;
 
   const relatedChars = loc.relatedCharacters
     .map((id) => getCharacter(id))
@@ -79,7 +95,7 @@ export default async function LocationDetailPage({
             {localizedText(locale, loc.categoryZh, loc.categoryEn)}
           </span>
         </div>
-        <h1 className="text-2xl font-bold mb-6">{name}</h1>
+        <h1 className="text-2xl font-bold mb-6">{enSeo?.h1 || name}</h1>
         <div className="prose prose-invert max-w-none">
           {content.split("\n").map((paragraph, i) => (
             <p key={i} className="text-gray-300 mb-4 leading-relaxed">

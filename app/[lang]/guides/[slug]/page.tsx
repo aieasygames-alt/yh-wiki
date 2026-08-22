@@ -163,8 +163,33 @@ export default async function GuideDetailPage({
           </time>
         )}
 
-        {/* Quick Answer — GEO optimized */}
-        {summary && (
+        {slug === "download-install-guide" ? (
+          <QuickAnswerCard
+            locale={locale}
+            items={[
+              {
+                label: isZhLocale(locale) ? (locale === "tw" ? "先選入口：" : "先选入口：") : "Pick entry:",
+                value: isZhLocale(locale)
+                  ? (locale === "tw"
+                    ? "高頻 PC 遊玩選本地啟動器或 Steam/Epic；手機用 App Store / Android 商店；低配或短時上線看雲異環。"
+                    : "高频 PC 游玩选本地启动器或 Steam/Epic；手机用 App Store / Android 商店；低配或短时上线看云异环。")
+                  : "Use local launcher or Steam/Epic for frequent PC play, mobile stores for phones, and Cloud PC for low-spec or short sessions.",
+              },
+              {
+                label: isZhLocale(locale) ? (locale === "tw" ? "安裝空間：" : "安装空间：") : "Install size:",
+                value: isZhLocale(locale)
+                  ? (locale === "tw" ? "PC 建議在 SSD / NVMe 預留約 90GB，手機預留約 20-25GB，並給後續補丁留空間。" : "PC 建议在 SSD / NVMe 预留约 90GB，手机预留约 20-25GB，并给后续补丁留空间。")
+                  : "Reserve around 90GB on SSD/NVMe for PC and around 20-25GB on mobile, with extra room for patches.",
+              },
+              {
+                label: isZhLocale(locale) ? (locale === "tw" ? "安全提醒：" : "安全提醒：") : "Safety:",
+                value: isZhLocale(locale)
+                  ? (locale === "tw" ? "不要從第三方網盤隨便下載 EXE；先確認國服/國際服，再走官網、商店或平台入口。" : "不要从第三方网盘随便下载 EXE；先确认国服/国际服，再走官网、商店或平台入口。")
+                  : "Avoid random EXE mirrors. Confirm CN/global route first, then use official, store, or platform entries.",
+              },
+            ]}
+          />
+        ) : summary && (
           <QuickAnswerCard
             locale={locale}
             items={[
@@ -180,19 +205,28 @@ export default async function GuideDetailPage({
         {slug === "download-install-guide" && (
           <div className="mb-8 rounded-xl border border-primary-500/30 bg-gradient-to-br from-primary-900/40 to-gray-900/60 p-6">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
-              <div className="text-3xl">⬇️</div>
               <div>
                 <h2 className="text-lg font-bold text-white">
-                  {isZhLocale(locale) ? "立即下载异环" : "Download NTE Now — Free to Play"}
+                  {isZhLocale(locale)
+                    ? (locale === "tw" ? "異環官網入口與下載路徑導航" : "异环官网入口与下载路径导航")
+                    : "NTE official-site and download path guide"}
                 </h2>
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
-                    ? "PC 约90GB · 手机约15GB · 全平台免费"
-                    : "PC ~90GB · Mobile ~15GB · Free on all platforms"}
+                    ? (locale === "tw"
+                      ? "本頁為非官方整理：先按 PC 啟動器、手機、PS5、Steam/Epic 或雲異環選入口，再核對配置與伺服器。"
+                      : "本页为非官方整理：先按 PC 启动器、手机、PS5、Steam/Epic 或云异环选入口，再核对配置与服务器。")
+                    : "Unofficial guide: choose the PC launcher, mobile, PS5, Steam/Epic, or Cloud PC path, then check requirements and server fit."}
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+              <Link
+                href={`/${lang}/official-site`}
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-amber-700 hover:bg-amber-600 text-white font-medium text-sm transition-colors"
+              >
+                {isZhLocale(locale) ? (locale === "tw" ? "入口導航" : "入口导航") : "Entry Guide"}
+              </Link>
               <a
                 href="https://nte.perfectworld.com"
                 target="_blank"
@@ -207,7 +241,7 @@ export default async function GuideDetailPage({
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-green-700 hover:bg-green-600 text-white font-medium text-sm transition-colors"
               >
-                🤖 Android
+                Android
               </a>
               <a
                 href="https://apps.apple.com/app/neverness-to-everness/id6741713522"
@@ -215,7 +249,7 @@ export default async function GuideDetailPage({
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-colors"
               >
-                🍎 iOS
+                iOS
               </a>
               <a
                 href="https://store.playstation.com/concept/10008264"
@@ -223,8 +257,14 @@ export default async function GuideDetailPage({
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white font-medium text-sm transition-colors"
               >
-                🎮 PS5
+                PS5
               </a>
+              <Link
+                href={`/${lang}/blog/cloud-yihuan-pc-guide`}
+                className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white font-medium text-sm transition-colors"
+              >
+                {isZhLocale(locale) ? (locale === "tw" ? "雲異環" : "云异环") : "Cloud PC"}
+              </Link>
             </div>
           </div>
         )}

@@ -15,6 +15,19 @@ import dynamic from "next/dynamic";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
+const EN_BLOG_SEO: Record<string, { title: string; description: string; h1: string }> = {
+  "nte-vs-genshin-vs-wuthering-waves": {
+    title: "NTE vs Genshin vs Wuthering Waves - Which Open-World Anime RPG Fits You?",
+    description: "NTE vs Genshin Impact vs Wuthering Waves comparison for 2026: gacha value, world design, combat feel, content depth, mobile performance, and which game to start.",
+    h1: "NTE vs Genshin vs Wuthering Waves: Which Game Should You Play?",
+  },
+  "nte-common-issues-fixes-guide": {
+    title: "NTE Bug Fixes & Troubleshooting - Crashes, FPS, Login and Stuck Issues",
+    description: "NTE troubleshooting guide for common bugs: crashes, FPS stutter, login and account sync, stuck characters, missing rewards, purchase issues, and support steps.",
+    h1: "NTE Bug Fixes & Troubleshooting Guide",
+  },
+};
+
 function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
   const allPosts = getAllBlogPosts();
   const scored = allPosts
@@ -50,8 +63,9 @@ export async function generateMetadata({
   const post = getBlogPost(slug);
   if (!post) return {};
   const locale = asLocale(lang);
-  const title = pickLocalizedText(locale, post.title, post.titleEn, post.titleTw);
-  const description = completeMetaDescription(locale, pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw));
+  const enSeo = locale === "en" ? EN_BLOG_SEO[slug] : undefined;
+  const title = enSeo?.title || pickLocalizedText(locale, post.title, post.titleEn, post.titleTw);
+  const description = completeMetaDescription(locale, enSeo?.description || pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw));
   return {
     title,
     description,
@@ -78,6 +92,7 @@ export default async function BlogDetailPage({
   if (!post) notFound();
 
   const title = pickLocalizedText(locale, post.title, post.titleEn, post.titleTw);
+  const enSeo = locale === "en" ? EN_BLOG_SEO[slug] : undefined;
   const content = pickLocalizedText(locale, post.content, post.contentEn, post.contentTw);
   const summary = pickLocalizedText(locale, post.summary, post.summaryEn, post.summaryTw);
   const category = isZhLocale(locale) ? post.categoryZh : post.categoryEn;
@@ -85,7 +100,7 @@ export default async function BlogDetailPage({
   return (
     <>
       <ArticleJsonLd
-        title={title}
+        title={enSeo?.title || title}
         description={summary}
         url={`https://nteguide.com/${lang}/blog/${slug}/`}
         datePublished={post.date}
@@ -111,7 +126,7 @@ export default async function BlogDetailPage({
             {post.date}
           </time>
         </div>
-        <h1 className="text-2xl font-bold mb-6">{title}</h1>
+        <h1 className="text-2xl font-bold mb-6">{enSeo?.h1 || title}</h1>
         {post.image && (
           <BlogImage src={post.image} alt={post.imageAlt || title} />
         )}

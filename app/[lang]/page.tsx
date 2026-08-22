@@ -13,16 +13,16 @@ const GiscusComments = dynamic(() => import("../../components/GiscusComments").t
 // Keep this in sync with LOCALES in lib/i18n.ts (currently zh / tw / en).
 const HOME_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
   zh: {
-    title: "异环官网入口在哪？异环 Wiki / 下载 / 地图 / 角色攻略站",
-    description: "异环(NTE / Neverness to Everness)非官方 Wiki：整理异环官网入口、PC/手机下载安装、Steam/国际服选择、交互地图、角色图鉴、配队、配置要求与最新兑换码。",
-    ogTitle: "异环 Wiki / 下载 / 地图 / 角色图鉴攻略站",
-    ogDescription: "查异环官网入口、下载安装、国际服、地图、角色图鉴、配队和配置要求。",
+    title: "异环官网入口导航 - 非官方 Wiki / 下载 / 地图 / 角色攻略",
+    description: "异环(NTE / Neverness to Everness)非官方 Wiki 与官网入口导航：整理 PC/手机下载安装、Steam/国际服、云异环、交互地图、角色图鉴、配队、配置要求与兑换码。",
+    ogTitle: "异环官网入口导航 / 下载 / 地图 / 角色图鉴",
+    ogDescription: "非官方异环 Wiki，帮你找到官网入口、下载安装、国际服、地图、角色图鉴、配队和配置要求。",
   },
   tw: {
-    title: "異環官網入口在哪？異環 Wiki / 下載 / 地圖 / 角色攻略站",
-    description: "異環(NTE / Neverness to Everness)非官方 Wiki：整理異環官網入口、PC/手機下載安裝、Steam/國際服選擇、互動地圖、角色圖鑑、配隊、配置要求與最新兌換碼。",
-    ogTitle: "異環 Wiki / 下載 / 地圖 / 角色圖鑑攻略站",
-    ogDescription: "查異環官網入口、下載安裝、國際服、地圖、角色圖鑑、配隊和配置要求。",
+    title: "異環官網入口導航 - 非官方 Wiki / 下載 / 地圖 / 角色攻略",
+    description: "異環(NTE / Neverness to Everness)非官方 Wiki 與官網入口導航：整理 PC/手機下載安裝、Steam/國際服、雲異環、互動地圖、角色圖鑑、配隊、配置要求與兌換碼。",
+    ogTitle: "異環官網入口導航 / 下載 / 地圖 / 角色圖鑑",
+    ogDescription: "非官方異環 Wiki，幫你找到官網入口、下載安裝、國際服、地圖、角色圖鑑、配隊和配置要求。",
   },
   en: {
     title: "NTE Wiki, Download, Map & Character Guides | Neverness to Everness",
@@ -136,11 +136,11 @@ export default async function HomePage({
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
               {
-                href: `/${lang}/guides/download-install-guide`,
-                title: isZhLocale(locale) ? (locale === "tw" ? "異環官網 / 下載安裝" : "异环官网 / 下载安装") : "Official Site & Download Guide",
+                href: `/${lang}/official-site`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "異環官網入口導航" : "异环官网入口导航") : "Official Site & Download Guide",
                 desc: isZhLocale(locale)
-                  ? (locale === "tw" ? "PC 啟動器、Android、iOS、PS5 下載入口與安裝步驟" : "PC 启动器、Android、iOS、PS5 下载入口与安装步骤")
-                  : "Official launcher, Android, iOS, and PS5 entry points with install steps.",
+                  ? (locale === "tw" ? "先分清國服、國際服、Steam、手機、PS5 與雲異環入口" : "先分清国服、国际服、Steam、手机、PS5 与云异环入口")
+                  : "Choose between CN/global, PC launcher, Steam, mobile, PS5, and Cloud PC.",
                 accent: "border-primary-500/30 bg-primary-500/10 text-primary-300",
               },
               {

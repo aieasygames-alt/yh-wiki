@@ -13,8 +13,12 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = t(locale, "tierList.seoTitle");
-  const description = t(locale, "tierList.seoDescription");
+  const title = locale === "en"
+    ? "NTE Tier List (August 2026) - Best Characters, Builds & Teams"
+    : t(locale, "tierList.seoTitle");
+  const description = locale === "en"
+    ? "Updated NTE tier list for Neverness to Everness: best characters by overall, Abyss, Anomaly, and Open World performance, with build and team links."
+    : t(locale, "tierList.seoDescription");
   return {
     title,
     description,
@@ -60,7 +64,7 @@ export default async function TierListPage({
       />
       <div className="max-w-5xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-2">
-          {isZh ? zhTitle : "Neverness to Everness Tier List"}
+          {isZh ? zhTitle : "NTE Tier List: Best Characters, Builds & Teams"}
         </h1>
         <time className="text-xs text-gray-500 block mb-1" dateTime="2026-06-17">
           {isZh ? zhUpdated : "Updated June 2026"}

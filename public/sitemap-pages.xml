@@ -799,6 +799,24 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://nteguide.com/zh/official-site/</loc>
+    <lastmod>2026-08-22T13:21:04.092Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/official-site/</loc>
+    <lastmod>2026-08-22T13:21:04.092Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/official-site/</loc>
+    <lastmod>2026-08-22T13:21:04.092Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://nteguide.com/zh/troubleshooting/</loc>
     <lastmod>2026-08-15T01:24:42.806Z</lastmod>
     <changefreq>weekly</changefreq>
