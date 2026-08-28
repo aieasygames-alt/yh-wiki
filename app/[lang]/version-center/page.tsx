@@ -34,6 +34,7 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
   const { lang } = await params;
   const locale = lang as Locale;
   const current = getLatestLiveChangelog();
+  const currentVersion = current?.version ?? "1.x";
   const upcoming = getUpcomingChangelogs()[0];
   const spotlight = current ? getVersionSpotlightContent(current.version, 6) : [];
 
@@ -75,15 +76,15 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
           <h1 className="mt-4 text-3xl md:text-4xl font-bold">
             {isZhLocale(locale)
               ? locale === "tw"
-                ? "異環版本中心"
-                : "异环版本中心"
-              : "Neverness to Everness Version Center"}
+                ? `異環版本中心：${currentVersion}（1.3 追蹤中）`
+                : `异环版本中心：${currentVersion}（1.3 追踪中）`
+              : `Neverness to Everness Version Center: v${currentVersion} (1.3 Tracking)`}
           </h1>
           <p className="mt-3 text-gray-400">
             {isZhLocale(locale)
               ? locale === "tw"
-                ? "把現行版本、熱門攻略、抽卡話題與下一版本觀察點集中到同一頁，方便你每次回站都能快速找到現在最值得看的內容。"
-                : "把当前版本、热门攻略、抽卡话题与下一版本观察点集中到同一页，方便你每次回站都能快速找到现在最值得看的内容。"
+                ? "把 1.3 現行版本、熱門攻略、抽卡話題與下一版本觀察點集中到同一頁，方便你每次回站都能快速找到現在最值得看的內容。"
+                : "把 1.3 当前版本、热门攻略、抽卡话题与下一版本观察点集中到同一页，方便你每次回站都能快速找到现在最值得看的内容。"
               : "A single hub for the live patch, hot guides, banner decisions, and the next version watchlist so returning players can reorient quickly."}
           </p>
         </div>
