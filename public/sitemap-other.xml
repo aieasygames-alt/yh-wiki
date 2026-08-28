@@ -9253,24 +9253,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nteguide.com/zh/changelog/1.3/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/tw/changelog/1.3/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nteguide.com/en/changelog/1.3/</loc>
-    <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://nteguide.com/zh/anomalies/headless-iron-rider/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>

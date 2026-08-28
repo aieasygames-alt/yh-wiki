@@ -14,9 +14,9 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const currentVersion = current?.version ?? "1.x";
   const title = isZhLocale(locale)
     ? locale === "tw"
-      ? `異環版本中心：${currentVersion} 現行版本、攻略與更新重點`
-      : `异环版本中心：${currentVersion} 当前版本、攻略与更新重点`
-    : `NTE Version Center: v${currentVersion}, Patch Notes, and Current Guides`;
+      ? `異環版本中心：1.3 ${currentVersion} 追蹤中心`
+      : `异环版本中心：1.3 ${currentVersion} 追踪中心`
+    : `NTE Version Center: v${currentVersion} (1.3 Tracking Hub)`;
   const description = isZhLocale(locale)
     ? locale === "tw"
       ? `集中查看異環現行版本、更新日誌、版本攻略、熱門角色與後續版本動向。當前追蹤版本為 ${currentVersion}。`
@@ -76,9 +76,9 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
           <h1 className="mt-4 text-3xl md:text-4xl font-bold">
             {isZhLocale(locale)
               ? locale === "tw"
-                ? `異環版本中心：${currentVersion}（1.3 追蹤中）`
-                : `异环版本中心：${currentVersion}（1.3 追踪中）`
-              : `Neverness to Everness Version Center: v${currentVersion} (1.3 Tracking)`}
+                ? `異環版本中心：1.3 ${currentVersion} 追蹤中`
+                : `异环版本中心：1.3 ${currentVersion} 追踪中`
+              : `Neverness to Everness Version Center: v${currentVersion} (1.3 Tracking Hub)`}
           </h1>
           <p className="mt-3 text-gray-400">
             {isZhLocale(locale)
