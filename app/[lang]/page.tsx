@@ -114,17 +114,17 @@ export default async function HomePage({
             </h1>
             <p className="mt-4 text-lg text-gray-400">
               {locale === "tw"
-                ? "異環官網入口、下載安裝、Steam / 國際服、角色排行、互動地圖"
+                ? "異環官網入口、下載安裝、配隊、角色排行、互動地圖"
                 : isZhLocale(locale)
-                  ? "异环官网入口、下载安装、Steam / 国际服、角色排行、交互地图"
-                  : "Official-site entry help, download, Steam/global tips, map, builds & calculators"}
+                  ? "异环官网入口、下载安装、配队、角色排行、交互地图"
+                  : "Official-site entry help, download, team comps, builds, map, and calculators"}
             </p>
             <p className="mt-3 text-sm text-gray-400 max-w-2xl mx-auto">
               {locale === "tw"
-                ? "先找異環官網、Steam、PC 啟動器、國際服或角色攻略，都可以從這裡進。站內整理下載安裝路徑、角色圖鑑、配隊、配置要求、互動地圖與最新兌換碼。"
+                ? "先找異環官網、Steam、PC 啟動器、配隊或角色攻略，都可以從這裡進。站內整理下載安裝路徑、角色圖鑑、配隊、配置要求、互動地圖與最新兌換碼。"
                 : isZhLocale(locale)
-                  ? "先找异环官网、Steam、PC 启动器、国际服或角色攻略，都可以从这里进。站内整理下载安装路径、角色图鉴、配队、配置要求、交互地图与最新兑换码。"
-                  : "Start here if you need the official-site path, Steam, PC launcher, global-server guidance, character guides, map, or redeem codes."}
+                  ? "先找异环官网、Steam、PC 启动器、配队或角色攻略，都可以从这里进。站内整理下载安装路径、角色图鉴、配队、配置要求、交互地图与最新兑换码。"
+                  : "Start here if you need the official-site path, Steam, PC launcher, team comps, character guides, map, or redeem codes."}
             </p>
             <div className="mt-6 flex justify-center">
               <SearchDialog lang={lang} />

@@ -14,8 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环国服 vs 国际服区别对比：语言、账号、版本节奏、定价与评分全解析（2026）", "NTE CN vs Global Server: Language, Accounts, Patch Timing, Pricing & Ratings (2026)", "異環國服 vs 國際服差異對比：語言、帳號、版本節奏、定價與評分解析（2026）");
-  const description = localizedText(locale, "异环国服和国际服（全球服）有什么区别？本文对比语言支持、账号互通、版本节奏、定价、TapTap评分与内容差异，帮你决定该玩哪个服。", "What's the difference between NTE's CN server and global server? This guide compares language support, account separation, patch timing, pricing, ratings, and content differences to help you pick a server.", "異環國服和國際服（全球服）有什麼差別？本文比較語言支援、帳號互通、版本節奏、定價、評分與內容差異，幫你決定該玩哪個服。");
+  const title = localizedText(locale, "异环国服 vs 国际服区别对比（2026）— 语言、账号、版本节奏与定价", "NTE CN vs Global Server: Language, Accounts, Patch Timing, Pricing & Ratings (2026)", "異環國服 vs 國際服差異對比：語言、帳號、版本節奏、定價與評分解析（2026）");
+  const description = localizedText(locale, "异环国服和国际服（全球服）有什么区别？本文对比语言支持、账号互通、版本节奏、定价与内容差异，帮你决定该玩哪个服。", "What's the difference between NTE's CN server and global server? This guide compares language support, account separation, patch timing, pricing, ratings, and content differences to help you pick a server.", "異環國服和國際服（全球服）有什麼差別？本文比較語言支援、帳號互通、版本節奏、定價、評分與內容差異，幫你決定該玩哪個服。");
   return {
     title,
     description,
@@ -76,7 +76,7 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
             {isZh ? "2026-06-19 更新" : "Updated June 19, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {localizedText(locale, "异环国服 vs 国际服：到底有什么区别？", "NTE CN vs Global Server: What's the Difference?", "異環國服 vs 國際服：到底差在哪？")}
+            {localizedText(locale, "异环国服 vs 国际服：该选哪个服？", "NTE CN vs Global Server: What's the Difference?", "異環國服 vs 國際服：到底差在哪？")}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {localizedText(
@@ -117,7 +117,7 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {localizedText(
               locale,
-              "先用这页排除最容易踩坑的部分：语言、账号是否互通、朋友在哪个服、以及你是否在意版本先后。确认这些以后，再去看卡池时间表、兑换码或 Steam/平台入口页补细节。这页最适合做选服判断，不适合替代具体版本公告。",
+              "先用这页排除最容易踩坑的部分：语言、账号是否互通、朋友在哪个服，以及你是否真的在意版本先后。确认这些以后，再去看卡池时间表、兑换码或 Steam/平台入口页补细节。这页最适合做选服判断，不适合替代具体版本公告。",
               "Use this page to rule out the biggest server-choice mistakes first: language, account separation, where your friends play, and whether patch timing actually matters to you. After that, jump to banner schedules, redeem codes, or platform pages for the exact details. This page is best for choosing a server, not for replacing live patch notices.",
               "先用這頁排除最容易踩坑的部分：語言、帳號是否互通、朋友在哪個服，以及你是否真的在意版本先後。確認這些以後，再去看卡池時間表、兌換碼或 Steam/平台入口頁補細節。這頁最適合做選服判斷，不適合替代具體版本公告。"
             )}

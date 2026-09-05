@@ -638,7 +638,7 @@
     "id": "nte-v11-dreamwalk-corridor-release-guide",
     "title": "异环1.1版本「游梦洄廊」上线攻略：新角色安魂曲/卡厄斯、新活动、减负优化全解析",
     "titleTw": "異環1.1版本「遊夢洄廊」上線攻略：新角色安魂曲/卡厄斯、新活動、減負優化全解析",
-    "titleEn": "NTE 1.1 Dreamwalk Corridor Update Guide — Lacrimosa & Chaos, Events, QoL Changes (May 2026)",
+    "titleEn": "NTE 1.1 Dreamwalk Corridor Guide: Lacrimosa, Chaos & Events",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -654,7 +654,7 @@
     ],
     "summary": "异环1.1版本「游梦洄廊」今日正式上线！本文详解安魂曲（Lacrimosa）与卡厄斯（Chaos）两位新S级角色、游梦洄廊新地图区域、减负优化内容、新活动一览及兑换码汇总。",
     "summaryTw": "異環1.1版本「遊夢洄廊」今日正式上線！本文詳解安魂曲（Lacrimosa）與卡厄斯（Chaos）兩位新S級角色、遊夢洄廊新地圖區域、減負優化內容、新活動一覽及兌換碼彙總。",
-    "summaryEn": "NTE Version 1.1 Dreamwalk Corridor is live! Complete guide covering new S-rank characters Lacrimosa and Chaos, the new Dreamwalk Corridor map area, QoL improvements, event schedule, and active redeem codes.",
+    "summaryEn": "A live-version guide for NTE 1.1 covering Lacrimosa, Chaos, Dreamwalk Corridor content, QoL changes, and event timing.",
     "internalLinks": [
       {
         "href": "/characters/lacrimosa",
@@ -1239,7 +1239,7 @@
   {
     "id": "nte-v11-preview-may-2026",
     "title": "异环1.1版本前瞻汇总：新角色浔（Xun）上线预测 + 保时捷联动实装 + 新卡池时间线",
-    "titleEn": "NTE v1.1 Preview: New Character Xun Release Predictions + Porsche Collab Launch + Banner Timeline",
+    "titleEn": "NTE v1.1 Preview: Xun, Porsche Collab & Banner Timeline",
     "category": "guide",
     "categoryZh": "攻略",
     "categoryEn": "Guide",
@@ -1254,7 +1254,7 @@
       "update"
     ],
     "summary": "异环1.0版本已上线近两周，玩家最关心的1.1版本前瞻信息汇总：新角色浔（Xun）预计上线、保时捷联动载具实装、Opera GX/Beard Papa联动回顾、卡池时间线预测、以及官方前瞻直播时间推测。基于百度/Google搜索热度整理。",
-    "summaryEn": "NTE v1.0 has been live for nearly two weeks. Here's everything we know about Version 1.1: new character Xun release predictions, Porsche collab vehicle launch, Opera GX/Beard Papa collab recap, banner timeline forecast, and livestream schedule speculation. Based on Baidu/Google search trend analysis.",
+    "summaryEn": "A preview archive covering NTE v1.1 character speculation, Porsche collaboration notes, and the banner timeline as it was being discussed.",
     "internalLinks": [
       {
         "label": "角色节奏榜",
@@ -1728,7 +1728,7 @@
   {
     "id": "nte-week-one-recap",
     "title": "异环公测首周全面回顾：流水过亿、5月1日首补、最新Meta排行、深渊玩法前瞻",
-    "titleEn": "NTE Week One Complete Recap: $100M+ Revenue, May 1 Hotfix, Latest Meta Tier List & Abyss Preview",
+    "titleEn": "NTE Week One Recap: Revenue, Hotfixes, Tier List & Event Calendar",
     "category": "guide",
     "categoryZh": "攻略",
     "categoryEn": "Guide",
@@ -1742,7 +1742,7 @@
       "Tier榜"
     ],
     "summary": "异环公测首周数据亮眼，全球首日流水过亿。5月1日发布首个热修复补丁，修复任务BUG、崩溃、PS5摄像头抖动等问题。公测福利已确认达470+免费抽。本文汇总首周实测Meta排行、最强配队、深渊玩法前瞻及5月重点活动日历。",
-    "summaryEn": "NTE's first week was a massive success with over $100M in day-one revenue. The first hotfix deployed May 1 fixing quest bugs, crashes, and PS5 camera jitter. Launch rewards confirmed at 470+ free pulls. Complete week-one recap with live meta tier list, best team comps, abyss preview, and May event calendar.",
+    "summaryEn": "A week-one recap of NTE covering early revenue, hotfixes, free pulls, live meta, best teams, and event timing.",
     "internalLinks": [
       {
         "label": "国际服公测记录",
@@ -2611,7 +2611,7 @@
   {
     "id": "nte-livestream-summary",
     "title": "异环4.18前瞻直播全内容汇总：6个兑换码、无50/50抽卡确认、16位上线角色",
-    "titleEn": "NTE April 18 Livestream Summary: 6 Redeem Codes, No 50/50 Confirmed, 16 Launch Characters",
+    "titleEn": "NTE April 18 Livestream Summary: Codes, 50/50, Launch Characters",
     "category": "news",
     "categoryZh": "版本更新",
     "categoryEn": "Version Update",
@@ -2624,7 +2624,7 @@
       "characters"
     ],
     "summary": "异环公测前瞻特别节目4月18日完整汇总：6个兑换码、抽卡无50/50机制确认、16位上线角色名单、418免费抽、预下载4月21日、测试服150%返还等全部信息。",
-    "summaryEn": "Complete recap of NTE launch preview livestream on April 18: 6 redeem codes, no 50/50 gacha confirmed, 16 launch characters, 418 free pulls, pre-download April 21, 150% beta refund, and more.",
+    "summaryEn": "The launch livestream recap covering redeem codes, the no-50/50 confirmation, launch characters, free pulls, and pre-download timing.",
     "internalLinks": [
       {
         "label": "兑换码大全",
@@ -3238,7 +3238,7 @@
   {
     "id": "nte-v11-preview",
     "title": "异环1.1版本前瞻 — 新角色翳/呗果/哈尼娅 + Opera GX联动",
-    "titleEn": "NTE v1.1 Preview — Skia/Beiguo/Haniya + Opera GX Collab",
+    "titleEn": "NTE v1.1 Preview: Skia, Beiguo, Haniya & Opera GX Collab",
     "category": "上线资讯",
     "categoryZh": "上线资讯",
     "categoryEn": "Launch News",
@@ -3251,7 +3251,7 @@
       "联动"
     ],
     "summary": "异环1.1版本前瞻：新角色翳（近战主C）、呗果、哈尼娅（免费送），Opera GX和Beard Papa联动详情。",
-    "summaryEn": "NTE version 1.1 preview: upcoming characters Skia (melee DPS), Beiguo, and Haniya (free), plus Opera GX and Beard Papa brand collaboration details.",
+    "summaryEn": "A v1.1 preview archive for the Skia, Beiguo, and Haniya speculation cycle plus the Opera GX collaboration discussion.",
     "internalLinks": [
       {
         "label": "角色图鉴",
@@ -3839,7 +3839,7 @@
   {
     "id": "nte-version-1-1-update-overview",
     "title": "异环1.1版本更新总览：新角色Lacrimosa与Chaos、减负优化、活动预告全解析（2026年5月）",
-    "titleEn": "NTE Version 1.1 Update Overview — New Characters Lacrimosa & Chaos, QoL Improvements & Events (May 2026)",
+    "titleEn": "NTE Version 1.1 Update Overview: Lacrimosa, Chaos, QoL & Events",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -3855,7 +3855,7 @@
       "qol"
     ],
     "summary": "异环1.1版本即将到来！本文汇总所有已确认信息：两位新S级角色Lacrimosa（混沌属性/武器切换机制）和Chaos、Hotori卡池上线、日常减负优化、粉色爪币活动调整、保时捷联动详情等。",
-    "summaryEn": "NTE version 1.1 is coming! Complete overview: two new S-rank characters Lacrimosa (Chaos/weapon switch) and Chaos, Hotori banner, daily quest reduction, Pink Paw Coin adjustments, Porsche collab, and more.",
+    "summaryEn": "A concise overview of NTE version 1.1 covering Lacrimosa, Chaos, QoL improvements, event timing, and the changes that still matter now.",
     "internalLinks": [
       {
         "label": "抽卡保底机制",
@@ -4121,7 +4121,7 @@
     "id": "nte-version-1-2-preview-shinku-illica",
     "title": "异环1.2版本前瞻汇总：真红、伊洛伊卡池安排与新内容全解析",
     "titleTw": "異環1.2版本前瞻彙總：真紅、伊洛伊卡池安排與新內容全解析",
-    "titleEn": "NTE Version 1.2 Preview: Shinku & Illica Banners, New Content & Full Breakdown",
+    "titleEn": "NTE Version 1.2 Preview: Shinku, Illica & New Content",
     "category": "update",
     "categoryZh": "更新",
     "categoryEn": "Update",
@@ -4135,7 +4135,7 @@
     ],
     "summary": "异环1.2版本即将于7月2日上线，带来两位全新S级角色：光系主C真红（上半卡池）和灵属性治疗辅助伊洛伊（下半卡池）。新地图游乐园扩展、邀约系统扩容、深渊副本改版等重磅内容一览。",
     "summaryTw": "異環1.2版本即將於7月2日上線，帶來兩位全新S級角色：光系主C真紅（上半卡池）和靈屬性治療輔助伊洛伊（下半卡池）。新地圖遊樂園擴展、邀約系統擴容、深淵副本改版等重磅內容一覽。",
-    "summaryEn": "NTE Version 1.2 launches July 2, 2026 with two new S-Rank characters: Light DPS Shinku (Phase 1) and Spirit support healer Illica (Phase 2). Plus new amusement park map content, expanded Bond system, Abyss updates, and more.",
+    "summaryEn": "A preview of NTE version 1.2 covering Shinku, Illica, the amusement-park expansion, Bond updates, and the expected patch shape.",
     "content": "## 版本概览\n\n异环1.2版本预计于**2026年7月2日**正式上线，版本周期42天，分为两个卡池阶段各21天。本版本引入两位全新S级角色——光系爆发主C**真红**和灵属性治疗增益辅助**伊洛伊**，同时还有游乐园新地图扩展、邀约系统扩容、深渊副本改版等丰富内容。\n\n---\n\n## 卡池时间安排\n\n| 阶段 | 时间 | 角色 | 稀有度 | 属性 | 定位 |\n|------|------|------|--------|------|------|\n| 上半 | 7月2日 - 7月23日 | **真红** | S级 | 光（创生） | 爆发主C |\n| 下半 | 7月23日 - 8月13日 | **伊洛伊** | S级 | 灵 | 治疗增益辅助 |\n\n> 注：此前社区猜测妮夏可能进1.2卡池，但最新爆料确认妮夏延期，1.2确定为真红+伊洛伊。\n\n---\n\n## 真红（Shinku）深度解析\n\n### 角色定位\n\n- **属性**：光\n- **稀有度**：S级\n- **定位**：爆发型主C输出\n- **绰号**：龙娘（因角色形象为龙娘设定）\n- **所属**：CSU-2 异象管理局收容二组\n\n### 技能机制\n\n真红的核心机制围绕**盈蓄**体系展开：\n\n- **普攻特性**：与主角类似的快速切换斩击风格\n- **被动技能**：能强化创生体系反应，但与现有创生队（娜娜莉、浔、九原、光主）的成员定位冲突，因此需要组建全新的**盈蓄直伤流**队伍\n- **大招**：大范围多段伤害接高额单体终结一击，典型的爆发型输出循环\n- **盈蓄充能**：依赖光-灵-相三属性环合快速充能，释放大招打出巨额伤害\n\n### 推荐配队\n\n**核心队伍：真红 + 伊洛伊 + 卡厄斯/哈索尔 + 小吱**\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 真红 | 盈蓄大招爆发输出 |\n| 治疗/增益 | 伊洛伊 | 暴伤加成 + 环合增幅 + 治疗 |\n| 副C | 卡厄斯/哈索尔 | 相属性环合延滞 + 爆发副C |\n| 功能位 | 小吱 | 加速大招循环 + 补伤害 |\n\n**备选**：没有创生队冲突的玩家可选用主角（光主），光主被动为盈蓄强化，且拥有即瞬环合机制。\n\n### 好感度奖励\n\n真红拥有专属居家睡衣时装，好感度达到**10级**即可免费获得。建议提前囤积礼物。\n\n---\n\n## 伊洛伊（Illica）全面前瞻\n\n### 角色定位\n\n- **属性**：灵\n- **稀有度**：S级\n- **定位**：治疗增益辅助（人称\"人权辅\"）\n- **所属**：CSU-2 异象管理局收容二组\n- **外观**：超软萌甜妹，胸口十字挂牌 + 手臂听诊器，明确指向治疗定位\n\n### 三只小羊机制\n\n伊洛伊身边有三只小羊召唤物，分别对应不同功能：\n\n| 小羊 | 特征 | 推测功能 |\n|------|------|----------|\n| 可爱小羊 | 被抚摸，头顶治疗十字光环 | 队伍治疗/回血 |\n| 阴暗小羊 | 表情微妙，光环对应暴击伤害图标 | 暴伤加成（直伤主C受益） |\n| 呆萌小羊 | 趴手臂上，光环暂无明确对应 | 环合增益（额外环合值获取） |\n\n如果第三只羊确实负责环合增益，将解决真红与娜娜莉争抢光主/环合资源的问题，使创生队和盈蓄队能和平分家。\n\n### 核心价值\n\n- 暴伤加成直接利好真红等直伤主C\n- 环合增幅解决盈蓄体系的充能需求\n- 兼具治疗量，增强队伍生存能力\n- 被社区誉为**异环首个人权辅**\n\n---\n\n## 新内容一览\n\n### 1. 游乐园新地图\n\n- 1.2版本新增游乐园区域快捷传送节点\n- 优化雨天、黄昏等动态环境渲染效果\n- 配合暑假档期推出，旨在吸引大量新玩家\n\n### 2. 邀约系统扩容\n\n- 伊洛伊、真红新增单人约会支线任务\n- 解锁专属语音和立绘彩蛋\n\n### 3. 深渊副本改版\n\n- 新增咒属性专属深渊层数\n- 适配新版本角色和机制\n\n### 4. 抽卡机制微调\n\n- 限定池70抽起概率递增\n- 90抽保底UP角色\n- 武器池保底同步下调\n\n---\n\n## 抽取建议\n\n| 玩家类型 | 推荐 |\n|----------|------|\n| 缺主C的新玩家 | 优先真红，主C能显著改善前期体验 |\n| 有成熟队伍的玩家 | 关注伊洛伊，辅助角色适配性更广，长期价值更高 |\n| 光队玩家 | 真红为必抽，有望成为光系核心输出 |\n| 资源有限 | 等前瞻直播确认技能后再决定，伊洛伊在下半有时间攒抽 |\n\n### 资源预估\n\n| 类型 | 1.2前可攒抽数 |\n|------|--------------|\n| 零氪玩家 | ~26抽 |\n| 月卡玩家 | ~41抽 |\n\n> 7月1日月度商店刷新后还可兑换：5抽限定 + 5抽常驻 + 20抽武器。兑换材料需提前留好。",
     "contentEn": "## Version Overview\n\nNTE Version 1.2 is expected to launch on **July 2, 2026**, running for 42 days across two banner phases of 21 days each. This major update introduces two brand-new S-Rank characters -- Light burst DPS **Shinku** and Spirit support healer **Illica** -- along with new amusement park map content, an expanded Bond system, Abyss updates, and more.\n\n---\n\n## Banner Schedule\n\n| Phase | Dates | Character | Rarity | Attribute | Role |\n|-------|-------|-----------|--------|-----------|------|\n| Phase 1 | July 2 - July 23 | **Shinku** | S-Rank | Light (Creation) | Burst Main DPS |\n| Phase 2 | July 23 - Aug 13 | **Illica** | S-Rank | Spirit | Support/Healer |\n\n> Note: Community speculation previously suggested Nixia might appear in 1.2, but leaks confirmed she has been delayed. 1.2 is confirmed as Shinku + Illica.\n\n---\n\n## Shinku Deep Dive\n\n### Character Profile\n\n- **Attribute**: Light\n- **Rarity**: S-Rank\n- **Role**: Burst Main DPS\n- **Nickname**: Dragon Lady (based on her dragon-girl character design)\n- **Affiliation**: CSU-2, Anomaly Containment Division Group 2\n\n### Kit Mechanics\n\nShinku's core mechanic revolves around the **Yingxu** system:\n\n- **Normal Attack**: Fast-switching slash style similar to the protagonist\n- **Passive**: Enhances Creation system reactions, but conflicts with the existing Creation team (Nanali, Xun, Jiuyuan, Light MC), requiring a new **Yingxu Direct Damage** team\n- **Ultimate**: AoE multi-hit damage followed by a massive single-target finishing blow -- a classic burst rotation\n- **Yingxu Charging**: Relies on Light-Spirit-Phase tri-attribute Resonance for rapid energy charging\n\n### Recommended Teams\n\n**Core Team: Shinku + Illica + Chaos/Hathor + Xiaozhi**\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Shinku | Yingxu Ultimate burst damage |\n| Healer/Buffer | Illica | Crit DMG bonus + Resonance amplification + Healing |\n| Sub DPS | Chaos/Hathor | Phase attribute Resonance extension + Burst sub DPS |\n| Flex | Xiaozhi | Accelerates Ultimate rotation + Supplemental damage |\n\n**Alternative**: Players without a committed Creation team can use the Light MC, whose passive enhances Yingxu and provides instant Resonance.\n\n### Bond Reward\n\nShinku has an exclusive loungewear outfit obtainable for free at **Bond Level 10**. Start hoarding gifts early.\n\n---\n\n## Illica Full Preview\n\n### Character Profile\n\n- **Attribute**: Spirit\n- **Rarity**: S-Rank\n- **Role**: Support/Healer (dubbed must-pull support)\n- **Affiliation**: CSU-2, Anomaly Containment Division Group 2\n- **Design**: Ultra-cute sweet girl with a cross pendant and stethoscope, clearly signaling a healer role\n\n### Three Lambs Mechanic\n\nIllica is accompanied by three lamb summons, each corresponding to a different function:\n\n| Lamb | Feature | Suspected Function |\n|------|---------|-------------------|\n| Cute Lamb | Being petted, healing cross halo | Team healing/HP restore |\n| Dark Lamb | Mischievous expression, crit DMG icon halo | Crit DMG bonus (benefits direct DPS units) |\n| Sleepy Lamb | Resting on arm, unclear halo icon | Resonance boost (extra Resonance value) |\n\nIf the third lamb provides Resonance amplification, it would solve the competition between Shinku and Nanali over Light MC / Resonance resources, allowing Creation and Yingxu teams to coexist.\n\n### Core Value\n\n- Crit DMG bonus directly benefits direct-damage DPS like Shinku\n- Resonance amplification supports the Yingxu system's energy needs\n- Healing provides team survivability\n- Hailed by the community as **NTE's first must-pull support**\n\n---\n\n## New Content\n\n### 1. Amusement Park Map Expansion\n\n- New amusement park area fast-travel nodes added in 1.2\n- Improved dynamic environmental rendering for rain and dusk\n- Timed for summer break to attract new players\n\n### 2. Expanded Bond System\n\n- Illica and Shinku receive individual date side-story quests\n- Unlocks exclusive voice lines and illustration easter eggs\n\n### 3. Abyss Dungeon Updates\n\n- New Curse-attribute exclusive Abyss floors\n- Adapted for new version characters and mechanics\n\n### 4. Gacha Adjustments\n\n- Limited banner: Soft pity starts at 70 pulls\n- Hard pity: 90 pulls for guaranteed featured character\n- Weapon banner pity lowered accordingly\n\n---\n\n## Pull Recommendations\n\n| Player Type | Recommendation |\n|-------------|---------------|\n| New players needing a main DPS | Prioritize Shinku for faster early-game progression |\n| Players with mature teams | Watch Illica -- supports have broader compatibility and longer meta relevance |\n| Light team enthusiasts | Shinku is a must-pull as the potential Light DPS core |\n| Resource-limited players | Wait for the official preview livestream to confirm kits; Illica's Phase 2 timing gives extra saving time |\n\n### Resource Estimates\n\n| Type | Pulls Available Before 1.2 |\n|------|---------------------------|\n| F2P Players | ~26 pulls |\n| Monthly Pass Players | ~41 pulls |\n\n> The monthly shop refreshes on July 1, allowing exchange for 5 limited pulls + 5 standard pulls + 20 weapon pulls. Save exchange materials in advance.",
     "image": "/images/blog/nte-1-2-preview.webp",

@@ -17,11 +17,11 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const title = isZh
-    ? (locale === "tw" ? "異環配隊模擬器 — 最佳隊伍組建工具" : "异环配队模拟器 — 最佳队伍组建工具")
-    : "NTE Team Builder — Best Team Composition Tool";
+    ? (locale === "tw" ? "異環配隊模擬器 — 最佳隊伍組建與分析工具" : "异环配队模拟器 — 最佳队伍组建与分析工具")
+    : "NTE Team Builder — Best Team Composition & Synergy Tool";
   const description = isZh
-    ? (locale === "tw" ? "異環配隊模擬器：選擇角色，分析共鳴效果，生成最佳隊伍搭配。支持屬性共鳴、角色協同分析。" : "异环配队模拟器：选择角色，分析共鸣效果，生成最佳队伍搭配。支持属性共鸣、角色协同分析。")
-    : "Build the best Neverness to Everness teams. Analyze synergy, resonance effects, and role coverage for optimal team compositions.";
+    ? (locale === "tw" ? "異環配隊模擬器：選擇角色，分析共鳴效果、定位重疊與生存覆蓋，快速找到更適合當前副本的隊伍。支持屬性共鳴與角色協同分析。" : "异环配队模拟器：选择角色，分析共鸣效果、定位重叠与生存覆盖，快速找到更适合当前副本的队伍。支持属性共鸣与角色协同分析。")
+    : "Build Neverness to Everness teams by checking synergy, resonance effects, role coverage, and sustain so you can choose the right lineup for the content you're facing.";
 
   return {
     title,

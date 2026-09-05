@@ -45,8 +45,8 @@
   },
   "home": {
     "heroTitle": "NTE Guide",
-    "heroSubtitle": "Neverness to Everness Wiki & Tools",
-    "heroDescription": "Find the best builds, calculate farming costs, and explore Neverness to Everness.",
+    "heroSubtitle": "Neverness to Everness Wiki, team builder, and calculators",
+    "heroDescription": "Find the best builds, compare team comps, calculate farming costs, and track the latest Neverness to Everness guides.",
     "ctaCalculator": "Use Calculator",
     "charactersSection": "All Characters",
     "materialsSection": "All Materials",
@@ -136,6 +136,10 @@
     "teamComp": "Team Comp",
     "materialSummary": "Max Level Material Summary",
     "openLevelingCalc": "Open Leveling Calculator →"
+  },
+  "teamPage": {
+    "title": "NTE Best Team Compositions",
+    "description": "Find the best NTE team compositions for meta carries, boss fights, exploration, and F2P lineups, with role-based guidance and sample cores."
   },
   "gacha": {
     "title": "NTE Gacha Simulator",

@@ -248,13 +248,13 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环卡池时间表 2026 — Shinku当前UP、Iroi下一期、Zankou 1.3预热",
-    "NTE Banner Schedule 2026 — Shinku Current, Iroi Next, Zankou 1.3 Teaser"
+    "异环卡池时间表（2026）— Shinku当前UP、Iroi下一期、1.3预热",
+    "NTE Banner Schedule (2026) - Current Shinku, Next Iroi, and Pull Planning"
   );
   const description = localizedText(
     locale,
-    "异环(NTE)最新卡池时间表：Shinku/真红当前UP、Iroi下一期、Zankou 1.3预热、1.2限定祈愿日期、无50/50保底、专属Arc与抽取建议。",
-    "Neverness to Everness banner schedule for 2026: current Shinku banner, next Iroi banner, Zankou 1.3 teaser, dates, no 50/50 pity, signature Arc notes and pull advice."
+    "异环(NTE)卡池时间表与抽取建议：Shinku/真红当前UP、Iroi下一期、1.3预热、历史卡池顺序、保底规则与抽卡规划。",
+    "Neverness to Everness banner schedule and pull planning for 2026: current Shinku, next Iroi, Version 1.3 teaser, historical banner order, pity rules, and resource planning."
   );
 
   return {

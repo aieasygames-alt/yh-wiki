@@ -629,9 +629,9 @@
     "categoryEn": "System",
     "relatedCharacters": [],
     "relatedMaterials": [],
-    "seoTitleEn": "How to Download & Install NTE — PC, Mobile & PS5 Step-by-Step Guide (2026)",
+    "seoTitleEn": "How to Download NTE: PC, Mobile & PS5 Install Guide",
     "seoTitleZh": "异环下载安装教程 — PC/手机/PS5各平台下载步骤（2026）",
-    "seoDescriptionEn": "Download Neverness to Everness on PC, Android, iOS, and PS5. Step-by-step installation guide, download links, pre-download schedule, and storage requirements.",
+    "seoDescriptionEn": "Download Neverness to Everness on PC, Android, iOS, and PS5. Step-by-step installation guide, official entry paths, and storage requirements.",
     "seoDescriptionZh": "异环(NTE)各平台下载安装教程：PC/Android/iOS/PS5下载入口、安装步骤、账号区服选择、当前可玩状态与存储空间准备建议。",
     "questionTw": "異環怎麼下載？支援哪些平臺？",
     "answerTw": "下載這頁現在更適合回答**你該從哪個官方入口裝、該選哪個平臺，以及哪些舊入口說明已經不值得繼續照搬**，而不是繼續停留在一份只列渠道名稱的早期開服說明。對目前玩家來說，更實用的重點通常是：優先確認你要玩的區服與平臺，再從對應官網、商店或官方啟動器進入，而不是在第三方分發頁之間來回找包。\n\n更穩妥的理解方式是：\n1. 先按平臺決定入口，PC 用官方啟動器或對應商店，手機端優先走官方商店頁\n2. 如果你在意資料同步、支付或更新穩定性，最好避免混用來源不明的第三方安裝包\n3. 模擬器、歷史預約頁和開服期下載提示都更像補充資訊，真正長期有效的是目前官方入口和平臺狀態\n\n所以這頁現在保留的是**各平臺下載入口的判斷方式與安裝路徑**，而不是繼續把開服階段的渠道說明原樣當成長期下載指南。",
@@ -656,9 +656,9 @@
     "relatedMaterials": [],
     "quickAnswer": "异环最低配置：PC需i5-8400+GTX 1060+8GB内存+90GB SSD，手机需骁龙855+/6GB RAM。推荐配置：i7-9700+RTX 2060+16GB内存。完整配置表见→ /system-requirements/",
     "quickAnswerEn": "NTE minimum specs: PC (i5-8400, GTX 1060, 8GB RAM, 90GB SSD), Mobile (Snapdragon 855+, 6GB RAM). Recommended: i7-9700, RTX 2060, 16GB RAM. See full specs → /system-requirements/",
-    "seoTitleEn": "NTE System Requirements — Can Your PC/Phone Run NTE? (Quick Check Guide)",
+    "seoTitleEn": "NTE System Requirements: Can Your PC/Phone Run It?",
     "seoTitleZh": "异环配置要求 — 你的电脑/手机能运行吗？（快速查询）",
-    "seoDescriptionEn": "Quick NTE compatibility check: minimum specs (i5-8400, GTX 1060, 8GB RAM) and recommended specs. Full detailed requirements at our system requirements page.",
+    "seoDescriptionEn": "Quick NTE compatibility check: minimum specs and recommended specs for PC and mobile. Use this page to confirm whether your device can run NTE.",
     "seoDescriptionZh": "异环最低配置i5-8400/GTX 1060/8GB内存，推荐i7-9700/RTX 2060/16GB内存。完整配置表、下载大小和SSD建议见系统要求专页。",
     "questionTw": "異環手機和PC配置要求是什麼？",
     "answerTw": "配置要求這頁現在更適合回答**你該把這裡的參數當成「硬門檻」、還是當成「裝置大致分層參考」**，而不是繼續把一大串舊測試口徑直接當作現版本長期不變結論。對目前玩家來說，更實用的重點通常是三件事：能不能啟動、能跑到什麼畫質／幀率區間、以及儲存和 SSD 會不會成為實際瓶頸。\n\n更穩妥的理解方式是：\n1. 把最低配置看成「是否有機會執行」的下限，而不是體驗一定穩定的保證\n2. 把推薦配置看成「更容易獲得流暢體驗」的參考，而不是所有裝置都必須嚴格對標的線\n3. 真正影響體驗的往往不只是一顆 CPU 或 GPU 名字，還包括散熱、儲存速度、驅動狀態與後續版本最佳化\n\n所以這頁現在保留的是**配置判斷的使用方式與平臺差異認知**，幫助你先判斷裝置大致可玩性，再去看具體參數表，而不是繼續把舊測試構建口徑直接當成唯一答案。",
@@ -1282,7 +1282,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "seoTitleZh": "异环国服和国际服区别：选哪个服务器更适合你？",
-    "seoTitleEn": "NTE CN vs Global — Key Differences and Which Server to Choose",
+    "seoTitleEn": "NTE CN vs Global: Which Server Should You Play?",
     "seoDescriptionZh": "异环国服与国际服在语言、服务器互通、活动节奏、支付和好友系统上的差异，以及当前玩家该如何选服。",
     "seoDescriptionEn": "Compare NTE CN and global servers by language support, data separation, patch cadence, payments, and social systems to choose the right server.",
     "questionTw": "異環國服和國際服有什麼區別？選哪個好？",
@@ -1334,9 +1334,9 @@
     "categoryEn": "System",
     "relatedCharacters": [],
     "relatedMaterials": [],
-    "seoTitleEn": "NTE Cross-Platform Save — How to Transfer Progress Between PC, Mobile & Console",
+    "seoTitleEn": "NTE Cross-Platform Save: Link Progress Across Devices",
     "seoTitleZh": "异环跨平台存档 — PC/手机/主机进度转移与同步方法",
-    "seoDescriptionEn": "How to transfer your NTE save data between PC, PS5, iOS, and Android. Cross-platform progression, account linking, and data sync guide.",
+    "seoDescriptionEn": "How to link your NTE account for cross-platform save between PC, PS5, iOS, and Android. Step-by-step binding guide, sync troubleshooting, and progress transfer.",
     "seoDescriptionZh": "异环跨平台存档转移教程：PC/PS5/iOS/Android之间如何同步进度、绑定同一账号、避免双账号分裂，以及常见数据互通问题的解决方法。",
     "questionTw": "異環支援跨平臺嗎？資料互通嗎？",
     "answerTw": "異環支援全平臺數據互通和跨平臺遊玩。你可以在PC、Android、iOS、Mac、HarmonyOS和PlayStation 5之間自由切換，遊戲進度、角色和物品資料完全同步。這意味著你可以在家用PC端高畫質體驗，出門用手機繼續同樣的進度。需要注意的是，不同區域的伺服器（如國服、亞洲服、美洲服、歐洲服）之間資料不互通。此外，部分付費貨幣可能因平臺政策限制而無法跨平臺使用（如iOS購買的貨幣在Android上可能不可用）。",
@@ -2146,7 +2146,6 @@
     "questionTw": "異環常駐池50抽自選S級怎麼觸發？能選誰？",
     "seoTitleTw": "異環常駐池50抽自選怎麼用？S級選擇與帳號補短板思路",
     "seoDescriptionTw": "異環常駐 50 抽自選 S 級該怎麼選？這篇整理輸出、輔助、生存等不同帳號的補短板思路。",
-    "questionTw": "異環常駐池50抽自選S級怎麼觸發？能選誰？",
     "answerTw": "常駐池 50 抽自選這頁現在更適合回答**這個機制該怎麼用來修正你的陣容缺口**，而不是繼續把它寫成一張固定推薦名單。對目前玩家來說，更重要的不是背一串名字，而是先看：你的帳號究竟缺輸出、缺支援、缺生存，還是缺能把現有隊伍串起來的過渡位。\n\n更穩妥的理解方式是：\n1. 先確認你最常用隊伍裡到底缺什麼功能位，而不是直接照搬別人的自選順序\n2. 如果你已經有穩定主力，就更應該用這次自選補短板，而不是重複堆同類角色\n3. 常駐可選名單和價值判斷都應結合當前遊戲內展示與帳號現狀來看，而不是只沿用開服階段的舊口徑\n\n所以這頁現在保留的是**常駐 50 抽自選的使用邏輯**，而不是繼續輸出一張很快過時的固定推薦榜。",
     "categoryTw": "抽卡系統"
   },
@@ -4761,9 +4760,9 @@
     "answer": "截至 2026 年 7 月 10 日，异环当前限定卡池是 Shinku/真红，活动时间为 2026-07-08 至 2026-07-29。按照 1.2 版本当前排期，下一期大概率会在真红卡池结束后切换为 Iroi。也就是说，如果你现在不抽真红，通常可以把环石留到 7 月下旬的下一阶段卡池。1.2 版本整体将持续到 2026-08-19，后续正式安排仍以游戏内公告和官方前瞻为准。",
     "answerEn": "As of July 10, 2026, NTE's current limited banner is Shinku, running from July 8 to July 29, 2026. Based on the active Version 1.2 schedule, the next banner is expected to switch to Iroi right after Shinku ends. If you're skipping Shinku, saving for late July is the usual plan. Version 1.2 runs through August 19, 2026, but final banner details should still be confirmed through in-game notices and official announcements.",
     "seoTitleZh": "异环下个卡池是谁？2026年7月当前真红、下一期Iroi排期",
-    "seoTitleEn": "NTE Next Banner Schedule — Current Shinku, Next Iroi in July 2026",
+    "seoTitleEn": "NTE Next Banner Schedule: Current Shinku, Next Iroi",
     "seoDescriptionZh": "异环 2026 年 7 月卡池时间表：当前真红 Shinku、下一期 Iroi、1.2 版本阶段排期与攒抽建议。",
-    "seoDescriptionEn": "NTE July 2026 banner schedule: current Shinku banner, next Iroi phase, Version 1.2 timing, and pull-saving advice.",
+    "seoDescriptionEn": "Current Shinku, next Iroi, Version 1.2 timing, and pull planning advice for NTE.",
     "tags": [
       "banner",
       "gacha",
@@ -6296,8 +6295,7 @@
     "questionTw": "如何繫結PS5/PC/手機賬號同步進度？",
     "answerTw": "跨平臺賬號繫結步驟：1) 進入遊戲設定 > 賬號中心 > 繫結賬號；2) 將所有登入方式（Google、郵箱、PSN）繫結到同一個賬號；3) 繫結完成後，在任何平臺使用已繫結的登入方式即可同步進度。如果你已經分別在兩個平臺建立了不同的賬號，請聯絡官方客服 nte.contactus@perfectworld.com，提供兩個UID請求合併賬號。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環跨平臺賬號繫結教程 — PS5/PC/手機進度同步方法（2026）"
-    ,
+    "seoTitleTw": "異環跨平臺賬號繫結教程 — PS5/PC/手機進度同步方法（2026）",
     "seoDescriptionTw": "異環（NTE）跨平台帳號綁定教學：如何在 PS5、PC 和手機之間同步遊戲進度、綁定登入方式，解決建立了兩個帳號的合併問題。"
   },
   {
@@ -6323,8 +6321,7 @@
     "questionTw": "預註冊獎勵沒收到怎麼辦？",
     "answerTw": "預註冊獎勵未到賬的解決方法：1) 檢查遊戲內郵箱，獎勵通常通過郵件發放；2) 確認你登入的賬號/郵箱與預註冊時使用的一致；3) 完全退出遊戲後重新登入。如果以上步驟後仍未收到，請聯絡客服 nte.contactus@perfectworld.com，附上你的UID和預註冊時使用的郵箱地址。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環預註冊獎勵沒收到 — 解決方法與領取指南（2026）"
-    ,
+    "seoTitleTw": "異環預註冊獎勵沒收到 — 解決方法與領取指南（2026）",
     "seoDescriptionTw": "異環（NTE）預註冊獎勵未到帳的完整解決方案：檢查郵箱、確認帳號、重啟遊戲，以及聯絡客服的方法。"
   },
   {
@@ -6350,8 +6347,7 @@
     "questionTw": "免費S級角色選錯了能換嗎？",
     "answerTw": "這條「免費 S 級角色選錯了能換嗎」FAQ 現在更適合回答**遇到這類帳號問題時，什麼做法最有機會補救，什麼說法不能被當成官方保證**，而不是繼續把「已有成功案例」寫成像默認可換一樣的承諾。對目前玩家來說，更重要的通常是：儘快保留資訊、停止進一步操作、然後透過官方支援管道提交說明。\n\n更穩妥的理解方式是：\n1. 先保留 UID、選擇時間、角色資訊和相關截圖，方便後續說明問題\n2. 在得到官方回覆前，盡量不要繼續消耗、升級或深度使用錯誤選擇的角色\n3. 是否能更換應始終以官方客服最終答覆為準，不應把社群個案或舊處理經歷直接當成保證結果\n\n所以這頁現在保留的是**錯誤選擇後的補救路徑與預期管理**，而不是繼續把個案處理經驗寫成默認一定可替換的結論。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環免費S級角色選錯了怎麼辦 — 能否更換？（2026）"
-    ,
+    "seoTitleTw": "異環免費S級角色選錯了怎麼辦 — 能否更換？（2026）",
     "seoDescriptionTw": "異環免費 S 級角色選錯後該怎麼補救：保留資訊、暫停進一步操作、聯絡官方支援，以及合理預期說明。"
   },
   {
@@ -6377,8 +6373,7 @@
     "questionTw": "月卡/通行證購買了但沒到賬？",
     "answerTw": "這條「月卡／通行證沒到賬」FAQ 現在更適合回答**問題是在發放延遲、顯示不同步，還是支付成功但權益沒有入帳**，而不是繼續把幾步固定操作寫成像所有情況都一樣的答案。對目前玩家來說，更重要的通常是：訂單到底有沒有真實扣款、獎勵是立即生效還是透過郵件補發，以及目前帳號、平臺和支付渠道是否能幫助客服快速定位問題。\n\n更穩妥的理解方式是：\n1. 先區分「未扣款」「已扣款但暫未顯示」「權益部分到帳但獎勵缺失」這幾種情況，因為處理路徑並不完全相同\n2. 本地能先做的動作通常只有重登、檢查郵箱和確認支付狀態，核心價值在於盡快判斷問題屬於顯示延遲還是訂單異常\n3. 如果已經確認扣款且長時間未恢復，最重要的不是重複嘗試購買，而是整理 UID、平臺、時間和支付憑證後走官方支援管道\n\n所以這頁現在保留的是**購買未到帳問題的分類判斷與申訴準備邏輯**，而不是繼續把一組基礎步驟寫成所有場景的完整答案。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環月卡購買了沒到賬 — 解決方法與客服聯絡方式（2026）"
-    ,
+    "seoTitleTw": "異環月卡購買了沒到賬 — 解決方法與客服聯絡方式（2026）",
     "seoDescriptionTw": "異環（NTE）月卡/通行證購買後未到帳的完整排查步驟：重啟遊戲、檢查郵箱、確認支付狀態以及聯絡客服的方法。"
   },
   {
@@ -6404,8 +6399,7 @@
     "questionTw": "遊戲崩潰/閃退怎麼解決？",
     "answerTw": "這條「遊戲崩潰／閃退怎麼解決」FAQ 現在更適合回答**崩潰更像是渲染層、檔案層、後臺衝突，還是整機配置與環境穩定性問題**，而不是繼續把幾條固定操作寫成所有閃退場景的統一答案。對目前玩家來說，更重要的通常是：崩潰發生在啟動階段、載入地圖時，還是進入戰鬥與城市場景之後；不同觸發階段往往對應不同的排查方向。\n\n更穩妥的理解方式是：\n1. 先確認問題更偏向檔案完整性與更新異常、圖形介面與驅動衝突，還是後臺覆蓋層與系統環境干擾\n2. 某些常見動作例如驗證檔案、更新驅動、減少後臺佔用，價值在於幫助你快速縮小問題範圍，而不是保證一次就能解決所有閃退\n3. 如果問題持續，最有用的不是重複同一套操作，而是記錄觸發場景、裝置配置和崩潰日誌，便於後續官方支援定位\n\n所以這頁現在保留的是**閃退問題的分類判斷與排查邏輯**，而不是繼續把一組通用動作寫成長期唯一答案。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環遊戲崩潰閃退解決方案 — 完整排查教程（2026）"
-    ,
+    "seoTitleTw": "異環遊戲崩潰閃退解決方案 — 完整排查教程（2026）",
     "seoDescriptionTw": "異環（NTE）遊戲崩潰或閃退的完整解決方案：更新顯示卡驅動、驗證檔案完整性、切換渲染器、關閉後臺程式等排查步驟。"
   },
   {
@@ -6432,8 +6426,7 @@
     "questionTw": "遊戲卡頓/FPS低怎麼最佳化？",
     "answerTw": "遊戲卡頓和FPS低的最佳化方法：1) 在設定 > 畫面中切換渲染器（DX11/DX12/Vulkan），不同硬體適配不同渲染器；2) 降低陰影質量和抗鋸齒設定；3) 更新顯示卡驅動至最新版；4) 如果遊戲安裝在非系統盤（如D盤），嘗試移動到C盤；5) 清理著色器快取。以上方法通常能顯著改善幀率。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環卡頓FPS低最佳化方法 — 最佳畫面設定與效能調優（2026）"
-    ,
+    "seoTitleTw": "異環卡頓FPS低最佳化方法 — 最佳畫面設定與效能調優（2026）",
     "seoDescriptionTw": "異環（NTE）遊戲卡頓和 FPS 低的最佳化教學：切換渲染器、調整畫面設定、更新驅動、將遊戲移至系統盤、清理著色器快取等有效方法。"
   },
   {
@@ -6461,8 +6454,7 @@
     "questionTw": "遊戲裝在D盤嚴重卡頓？",
     "answerTw": "多位玩家反饋異環安裝在非系統盤時出現嚴重卡頓。解決方法：將遊戲移動到C盤（與作業系統同一塊硬碟）。具體操作：1) 在啟動器中找到遊戲安裝路徑設定；2) 將遊戲檔案剪下或重新下載到C盤目錄；3) 重新啟動遊戲驗證檔案。此方法已幫助多位玩家從低於30FPS恢復到流暢執行。如果C盤空間不足，建議清理空間後再嘗試。",
     "categoryTw": "故障排查",
-    "seoTitleTw": "異環裝在D盤卡頓嚴重 — 移動到C盤解決方法（2026）"
-    ,
+    "seoTitleTw": "異環裝在D盤卡頓嚴重 — 移動到C盤解決方法（2026）",
     "seoDescriptionTw": "異環（NTE）安裝在 D 盤或非系統盤嚴重卡頓的解決方案：將遊戲移動到 C 盤可大幅改善幀率，多位玩家驗證有效。"
   },
   {
@@ -7724,8 +7716,8 @@
     "categoryTw": "新手",
     "seoTitleZh": "异环零氪能玩吗？F2P 长期可玩性判断",
     "seoDescriptionZh": "从主线推进、活动参与、资源规划和版本取舍几个方向，判断异环对零氪玩家到底友不友好。",
-    "seoTitleEn": "Is NTE F2P Friendly? Long-Term Free-to-Play Outlook",
-    "seoDescriptionEn": "See how viable NTE is for F2P players by looking at story access, event progress, saving pressure, and long-term roster planning.",
+    "seoTitleEn": "Is NTE F2P Friendly? Free-to-Play Viability & Long-Term Outlook",
+    "seoDescriptionEn": "See how viable NTE is for F2P players by checking story access, event progress, saving pressure, and roster planning.",
     "seoTitleTw": "異環零氪能玩嗎？F2P 長期可玩性判斷",
     "seoDescriptionTw": "從主線推進、活動參與、資源規劃和版本取捨幾個方向，判斷異環對零氪玩家到底友不友好。"
   },
@@ -7857,8 +7849,8 @@
     "categoryTw": "配隊",
     "seoTitleZh": "异环安魂曲需要早雾吗？配队依赖与替代思路",
     "seoDescriptionZh": "分析安魂曲对早雾这类关键队友的依赖度，并判断你的现有辅助是否足以支撑她的输出节奏与投入价值。",
-    "seoTitleEn": "Does Lacrimosa Need Hayashikiri in NTE? Team Dependency Guide",
-    "seoDescriptionEn": "See how dependent Lacrimosa is on Hayashikiri-style support and whether your current roster can cover her rotation and damage needs.",
+    "seoTitleEn": "Does Lacrimosa Need Hayashikiri? Team Dependency Guide",
+    "seoDescriptionEn": "See how dependent Lacrimosa is on Hayashikiri-style support and whether your roster can cover her rotation and damage needs.",
     "seoTitleTw": "異環安魂曲需要早霧嗎？配隊依賴與替代思路",
     "seoDescriptionTw": "分析安魂曲對早霧這類關鍵隊友的依賴度，並判斷你現有的輔助是否足以支撐她的輸出節奏與投入價值。"
   },
@@ -7915,8 +7907,8 @@
     "categoryTw": "角色",
     "seoTitleZh": "异环真红值得抽吗？1.2 主 C 价值与抽卡优先级",
     "seoDescriptionZh": "从 1.2 环境适配、主队缺口和资源机会成本几个方向，判断真红是否值得抽以及该不该为她投入版本预算。",
-    "seoTitleEn": "Is Zhenhong Worth Pulling in NTE? Version 1.2 DPS Value",
-    "seoDescriptionEn": "Judge whether Zhenhong deserves your pulls through Version 1.2 relevance, roster gaps, and the opportunity cost of future banners.",
+    "seoTitleEn": "Is Zhenhong Worth Pulling? Version 1.2 DPS Value",
+    "seoDescriptionEn": "Judge whether Zhenhong deserves your pulls through Version 1.2 relevance, roster gaps, and future banner opportunity cost.",
     "seoTitleTw": "異環真紅值得抽嗎？1.2 主 C 價值與抽卡優先順序",
     "seoDescriptionTw": "從 1.2 環境適配、主隊缺口和資源機會成本幾個方向，判斷真紅是否值得抽以及該不該為她投入版本預算。"
   },
@@ -8401,7 +8393,14 @@
     "categoryZh": "平台与性能",
     "categoryEn": "Platform & Performance",
     "categoryTw": "平台與效能",
-    "tags": ["Steam", "PC", "云异环", "卡顿", "掉帧", "性能"],
+    "tags": [
+      "Steam",
+      "PC",
+      "云异环",
+      "卡顿",
+      "掉帧",
+      "性能"
+    ],
     "relatedCharacters": [],
     "relatedMaterials": [],
     "seoTitleZh": "异环Steam还是官网客户端？云异环PC与卡顿掉帧排查",

@@ -40,10 +40,10 @@ function bannerCta(slug: string, locale: Locale) {
       eyebrow: isZh ? "当前限定卡池" : "Current Limited Banner",
       title: isZh ? "安魂曲UP：2026.06.03 - 2026.06.24" : "Lacrimosa Rate-Up: 2026-06-03 to 2026-06-24",
       description: isZh
-        ? "适合缺混沌范围输出、想组安魂曲配队或需要1.1主C的玩家。抽前建议先确认专武和队伍资源。"
-        : "Best for players who need Chaos AoE DPS, a Lacrimosa team core, or a version 1.1 main DPS. Check weapon and team resources before pulling.",
-      primary: isZh ? "查看卡池时间表" : "View Banner Schedule",
-      secondary: isZh ? "抽卡机制" : "Gacha System",
+        ? "适合缺混沌范围输出、想组安魂曲配队或需要1.1主C的玩家。先看卡池时间、专武与配队再决定是否抽。"
+        : "Best for players who need Chaos AoE DPS, a Lacrimosa team core, or a version 1.1 main DPS. Check the schedule, weapon, and team fit before pulling.",
+      primary: isZh ? "看卡池时间表" : "Check Banner Schedule",
+      secondary: isZh ? "看抽卡机制" : "Open Gacha Guide",
     };
   }
   if (slug === "chaos") {
@@ -51,10 +51,10 @@ function bannerCta(slug: string, locale: Locale) {
       eyebrow: isZh ? "下期限定卡池" : "Next Limited Banner",
       title: isZh ? "卡厄斯预热：2026.06.24 - 2026.07.08" : "Chaos Preview: 2026-06-24 to 2026-07-08",
       description: isZh
-        ? "卡厄斯是1.1下半限定角色。技能、专属弧盘和陪跑阵容以上线后实测为准，当前适合先规划抽数与相属性配队。"
-        : "Chaos is the version 1.1 Phase 2 limited character. His kit, signature Arc, and A-rank lineup should be verified at launch; use this page to plan pulls and Lakshana teams now.",
-      primary: isZh ? "查看卡池时间表" : "View Banner Schedule",
-      secondary: isZh ? "配队工具" : "Team Builder",
+        ? "卡厄斯是1.1下半限定角色。先看卡池时间、技能方向、专属弧盘和配队需求，再规划抽数。"
+        : "Chaos is the version 1.1 Phase 2 limited character. Use this page to check the schedule, kit direction, signature Arc, and team fit before planning pulls.",
+      primary: isZh ? "看卡池时间表" : "Check Banner Schedule",
+      secondary: isZh ? "打开配队工具" : "Open Team Builder",
     };
   }
   return null;
@@ -294,7 +294,7 @@ export default async function CharacterDetailPage({
           items={[
             {
               label: isZhLocale(locale) ? "角色定位：" : "Role:",
-              value: isZhLocale(locale) ? `${charName(character, locale)} — ${character.rank}级${character.attribute}属性${isZhLocale(locale) ? character.role : character.roleEn}。` : `${character.nameEn} — ${character.rank}-rank ${character.attribute} ${character.roleEn}.`,
+              value: isZhLocale(locale) ? `${charName(character, locale)} — ${character.rank}级${character.attribute}属性${isZhLocale(locale) ? character.role : character.roleEn}，优先看配队与养成方向。` : `${character.nameEn} — ${character.rank}-rank ${character.attribute} ${character.roleEn}; check build and team fit first.`,
             },
             ...(character.tierRank ? [{
               label: isZhLocale(locale) ? "强度评级：" : "Tier Rank:",

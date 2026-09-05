@@ -95,8 +95,8 @@
   },
   "home": {
     "heroTitle": "异环 Wiki",
-    "heroSubtitle": "Neverness to Everness 攻略 · 配装 · 工具",
-    "heroDescription": "快速查询角色升级材料，计算养成成本，助力你的异环之旅。",
+    "heroSubtitle": "Neverness to Everness 攻略、配队和计算工具",
+    "heroDescription": "快速查询角色配装、对比队伍组合、计算养成成本，并跟进最新异环攻略。",
     "ctaCalculator": "使用计算器",
     "charactersSection": "全部角色",
     "materialsSection": "全部材料",
@@ -202,6 +202,10 @@
     "teamComp": "推荐队友",
     "materialSummary": "满级养成材料汇总",
     "openLevelingCalc": "打开升级材料计算器 →"
+  },
+  "teamPage": {
+    "title": "异环最佳配队推荐",
+    "description": "整理异环版本主C、Boss队、探索队与零氪阵容，按角色定位和副本需求快速选队。"
   },
   "gacha": {
     "title": "异环抽卡模拟器 — 保底机制、抽卡概率在线模拟",

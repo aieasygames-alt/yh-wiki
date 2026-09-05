@@ -173,11 +173,7 @@ export async function generateMetadata({
     "异环最佳配队推荐 — 全角色队伍组合、Boss队与零氪阵容",
     "NTE Best Team Compositions — Boss Teams, F2P Setups, and Meta Cores"
   );
-  const description = localizedText(
-    locale,
-    "异环全角色配队推荐：整理版本主C、Boss队、探索队、零氪开荒队与 Esper Cycle 反应链，帮助你按角色定位和副本需求快速选队。",
-    "Best NTE team compositions for meta carries, boss fights, exploration, and F2P progression, with Esper Cycle reactions and role-based lineup guidance."
-  );
+  const description = t(locale, "teamPage.description");
   return {
     title,
     description,
@@ -215,9 +211,7 @@ export default async function TeamsPage({
     (sum, c) => sum + (c.teamComps?.length ?? 0), 0
   );
 
-  const title = zh
-    ? "异环最佳配队推荐"
-    : "Best Team Compositions";
+  const title = t(locale, "teamPage.title");
   const summary = zh
     ? "所有异环角色的推荐配队组合，包含 Esper Cycle 反应链和输出循环说明。"
     : "Recommended team compositions for all NTE characters, including Esper Cycle reaction chains and rotation tips.";

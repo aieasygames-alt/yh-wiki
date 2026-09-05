@@ -14,10 +14,10 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
   const title = locale === "en"
-    ? "NTE Tier List (August 2026) - Best Characters, Builds & Teams"
+    ? "NTE Tier List (2026) - Best Characters, Builds & Teams"
     : t(locale, "tierList.seoTitle");
   const description = locale === "en"
-    ? "Updated NTE tier list for Neverness to Everness: best characters by overall, Abyss, Anomaly, and Open World performance, with build and team links."
+    ? "Updated NTE tier list for Neverness to Everness: best characters by overall, Abyss, Anomaly, and Open World performance, with build, team, and pull links."
     : t(locale, "tierList.seoDescription");
   return {
     title,
@@ -40,7 +40,7 @@ export default async function TierListPage({
   const locale = lang as Locale;
   const characters = getAvailableCharacters();
   const isZh = isZhLocale(locale);
-  const zhTitle = locale === "tw" ? "異環角色強度排行 Tier List" : "异环角色强度排行 Tier List";
+  const zhTitle = locale === "tw" ? "異環角色強度排行 Tier List（2026）" : "异环角色强度排行 Tier List（2026）";
   const zhUpdated = locale === "tw" ? "更新於 2026年6月17日" : "更新于 2026年6月17日";
 
   return (

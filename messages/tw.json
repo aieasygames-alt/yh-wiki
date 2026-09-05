@@ -137,6 +137,10 @@
     "materialSummary": "滿級養成材料彙總",
     "openLevelingCalc": "打開升級材料計算器 →"
   },
+  "teamPage": {
+    "title": "異環最佳配隊推薦",
+    "description": "整理異環版本主 C、Boss 隊、探索隊與零氪陣容，按角色定位和副本需求快速選隊。"
+  },
   "gacha": {
     "title": "異環抽卡模擬器",
     "description": "模擬異環限定池、常駐池與武器池抽卡，查看保底機制、機率統計與出金表現。",
