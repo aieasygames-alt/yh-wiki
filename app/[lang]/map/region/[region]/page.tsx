@@ -12,6 +12,8 @@ const VALID_REGIONS = [
   "unheard-shores",
   "miguel-district",
   "illusion-town",
+  "fogden",
+  "duskmoor",
 ];
 
 export function generateStaticParams() {
@@ -56,6 +58,16 @@ export async function generateMetadata({
       zh: "绘空町完整探索攻略：全谕石位置、收集品分布、BOSS挑战、商家一览，附详细标记地图。",
       tw: "繪空町完整探索攻略：全諭石位置、收集品分佈、BOSS挑戰、商家一覽，附詳細標記地圖。",
       en: "Complete Illusion Town exploration guide: all Oracle Stone locations, collectibles, bosses, shops, with detailed marker map.",
+    },
+    fogden: {
+      zh: "Fogden完整探索攻略：1.3主线区域、异象、活动与收集路线。",
+      tw: "Fogden完整探索攻略：1.3主線區域、異象、活動與收集路線。",
+      en: "Complete Fogden exploration guide for NTE 1.3: story access, anomalies, activities, and collectibles.",
+    },
+    duskmoor: {
+      zh: "Duskmoor完整探索攻略：1.3新区域、载具路线、活动与收集地图。",
+      tw: "Duskmoor完整探索攻略：1.3新區域、載具路線、活動與收集地圖。",
+      en: "Complete Duskmoor exploration guide for NTE 1.3: vehicle routes, activities, and collectibles.",
     },
   };
 
