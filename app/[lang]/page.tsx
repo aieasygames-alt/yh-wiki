@@ -169,7 +169,7 @@ export default async function HomePage({
               },
               {
                 href: `/${lang}/redeem-codes`,
-                title: isZhLocale(locale) ? (locale === "tw" ? "1.3 前瞻兌換碼" : "1.3 前瞻兑换码") : "1.3 Redeem Codes",
+                title: isZhLocale(locale) ? (locale === "tw" ? "1.3 活動兌換碼" : "1.3 活动兑换码") : "1.3 Event Redeem Codes",
                 desc: isZhLocale(locale)
                   ? (locale === "tw" ? "最新禮包碼、直播碼、國服/國際服兌換入口" : "最新礼包码、直播码、国服/国际服兑换入口")
                   : "Latest codes, livestream drops, and redeem steps.",

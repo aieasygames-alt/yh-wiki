@@ -119,7 +119,7 @@ export default async function TierListPage({
             ? (locale === "tw"
               ? "評級基於1.2版本最新數據，隨版本更新持續調整。綜合榜偏向全場景泛用性；深淵、異象與大世界榜會按對應玩法重新加權。"
               : "评级基于1.2版本最新数据，随版本更新持续调整。综合榜偏向全场景泛用性；深渊、异象与大世界榜会按对应玩法重新加权。")
-            : "Ratings are based on version 1.2 data and updated with each patch. Overall ranking favors cross-mode versatility; Abyss, Anomaly, and Open World rankings are re-weighted for each scenario."}
+            : "Ratings are being refreshed for Version 1.3. Overall ranking favors cross-mode versatility; Abyss, Anomaly, and Open World rankings are re-weighted for each scenario."}
         </p>
 
         <div className="mt-6">

@@ -8,7 +8,7 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = asLocale(lang);
   const title = locale === "en"
-    ? "NTE Tier List (August 2026) - Best Characters, Builds & Teams"
+    ? "NTE Tier List (September 2026) - Best Characters, Builds & Teams"
     : t(locale, "tierList.seoTitle");
   const description = locale === "en"
     ? "Updated NTE tier list for Neverness to Everness: best characters by overall, Abyss, Anomaly, and Open World performance, with build and team links."
