@@ -212,7 +212,7 @@ export default async function CharacterDetailPage({
   if (!character) notFound();
   const displayName = slug === "zankou" ? (locale === "en" ? "Zankou" : "赞空") : slug === "linko" ? (locale === "en" ? "Linko" : "链子") : charName(character, locale);
 
-  const cm = getCharacterMaterials(slug);
+  const cm = getCharacterMaterials(canonicalSlug);
   const banner = bannerCta(slug, locale);
   const enSeo = locale === "en" ? EN_CHARACTER_SEO[slug] : undefined;
   const searchAliases = locale === "en" ? EN_CHARACTER_SEARCH_ALIASES[slug] : undefined;
@@ -407,7 +407,7 @@ export default async function CharacterDetailPage({
         </div>
 
         {/* Materials placeholder for upcoming characters */}
-        {character.status !== "available" && (
+        {character.status !== "available" && slug !== "zankou" && slug !== "linko" && (
           <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
             <h2 className="text-xl font-bold mb-2">{t(locale, "characters.levelingMaterials")}</h2>
             <p className="text-sm text-gray-500">{t(locale, "characters.materialsUpcoming")}</p>
@@ -415,7 +415,7 @@ export default async function CharacterDetailPage({
         )}
 
         {/* Leveling Materials - only for available characters */}
-        {cm && character.status === "available" && (
+        {cm && (character.status === "available" || slug === "zankou" || slug === "linko") && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "characters.levelingMaterials")}</h2>
             <div className="space-y-4">
@@ -456,7 +456,7 @@ export default async function CharacterDetailPage({
         )}
 
         {/* Skill Materials - only for available characters */}
-        {cm && character.status === "available" && (
+        {cm && (character.status === "available" || slug === "zankou" || slug === "linko") && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">{t(locale, "characters.skillMaterials")}</h2>
             <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
