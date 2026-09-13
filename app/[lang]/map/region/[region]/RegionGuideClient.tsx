@@ -205,6 +205,22 @@ const REGION_GUIDES: Record<string, RegionGuideData> = {
       },
     ],
   },
+  fogden: {
+    intro: { zh: "Fogden是1.3「雾月夜归星」主线篇章的核心场景。当前站内已建立区域入口与探索规划，但精确点位仍等待地图数据完成校验。", tw: "Fogden是1.3「霧月夜歸星」主線篇章的核心場景。站內已建立區域入口與探索規劃，精確點位仍待地圖資料校驗。", en: "Fogden is the story hub for Version 1.3 Rising from the Moonlit Fog. The region entry and route planning are live, while exact marker data is still being verified." },
+    highlights: [
+      { zh: "先推进1.3主线，再处理区域异象和活动目标。", tw: "先推進1.3主線，再處理區域異象與活動目標。", en: "Advance the Version 1.3 story first, then clear anomalies and event objectives." },
+      { zh: "点位数据补齐后，建议按主线、异象、宝箱顺序清理。", tw: "點位資料補齊後，建議按主線、異象、寶箱順序清理。", en: "Once markers are available, clear the area in story, anomaly, then chest order." }
+    ],
+    tips: [{ zh: "限时活动优先级高于普通探索，先领取活动奖励。", tw: "限時活動優先級高於普通探索，先領取活動獎勵。", en: "Prioritize limited events and claim their rewards before routine cleanup." }]
+  },
+  duskmoor: {
+    intro: { zh: "Duskmoor是1.3新增的大型探索区域，重点在载具路线、赛道和开放区域移动。当前区域元数据已上线，精确标记会随地图资产核验补充。", tw: "Duskmoor是1.3新增的大型探索區域，重點在載具路線、賽道與開放區域移動。精確標記將隨地圖資產核驗補充。", en: "Duskmoor is the larger Version 1.3 exploration zone, focused on vehicle routes, race courses, and open traversal. Region metadata is live; exact markers will follow asset verification." },
+    highlights: [
+      { zh: "先解锁传送点，再规划载具路线，能减少重复跑图。", tw: "先解鎖傳送點，再規劃載具路線，可減少重複跑圖。", en: "Unlock travel points before planning vehicle routes to reduce backtracking." },
+      { zh: "把赛车和团队挑战与区域探索一起安排，避免错过活动窗口。", tw: "把賽車與團隊挑戰和區域探索一起安排，避免錯過活動窗口。", en: "Bundle races and team challenges with exploration so you do not miss event windows." }
+    ],
+    tips: [{ zh: "当前没有可确认的点位坐标，不要依赖第三方未验证地图。", tw: "目前沒有可確認的點位座標，不要依賴第三方未驗證地圖。", en: "Exact coordinates are not yet verified here; avoid treating unverified third-party maps as authoritative." }]
+  },
 };
 
 // ─── Marker type display order ──────────────────────────────────
@@ -329,6 +345,11 @@ export default function RegionGuideClient({
           ? `${markers.length} 个标记点 · ${displayTypes.length} 种类型`
           : `${markers.length} markers · ${displayTypes.length} types`}
       </p>
+      {markers.length === 0 && (regionId === "fogden" || regionId === "duskmoor") && (
+        <div className="mb-8 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-200">
+          {isZh ? "该区域点位数据正在校验中；当前页面先提供版本探索路线与活动规划。" : "Marker data for this region is being verified. This page currently provides route and activity planning."}
+        </div>
+      )}
 
       {/* Static map image */}
       <div className="mb-8 rounded-xl overflow-hidden border border-gray-800">
