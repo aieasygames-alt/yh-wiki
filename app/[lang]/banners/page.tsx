@@ -35,6 +35,52 @@ interface BannerEntry {
 
 const banners: BannerEntry[] = [
   {
+    id: "zankou-1-3-phase-1",
+    characterId: "canhong",
+    name: "赞空",
+    nameEn: "Zankou",
+    phase: "1.3 上半",
+    phaseEn: "Version 1.3 Phase 1",
+    startDate: "2026-08-19",
+    endDate: "2026-09-09",
+    status: "ended",
+    attribute: "Incantation",
+    attributeZh: "咒术",
+    role: "S-rank Gas DPS",
+    roleZh: "S级气体输出",
+    arc: "Gas",
+    arcZh: "气体",
+    weapon: "Tiger Special",
+    weaponZh: "Tiger Special",
+    boostedA: [],
+    cosmetics: [],
+    summary: "Version 1.3 Phase 1 limited S-rank character with Incantation/Gas affinity.",
+    summaryZh: "1.3上半限定S级角色，咒术/气体属性。",
+  },
+  {
+    id: "linko-1-3-phase-2",
+    characterId: "canhong",
+    name: "链子",
+    nameEn: "Linko",
+    phase: "1.3 下半",
+    phaseEn: "Version 1.3 Phase 2",
+    startDate: "2026-09-09",
+    endDate: "2026-09-30",
+    status: "current",
+    attribute: "Anima",
+    attributeZh: "生命",
+    role: "S-rank Plasma Burst DPS",
+    roleZh: "S级等离子爆发输出",
+    arc: "Plasma",
+    arcZh: "等离子",
+    weapon: "Bright Moon Special",
+    weaponZh: "Bright Moon Special",
+    boostedA: [],
+    cosmetics: [],
+    summary: "Version 1.3 Phase 2 limited S-rank character focused on burst damage and synchronized team attacks.",
+    summaryZh: "1.3下半限定S级角色，偏爆发输出与团队协同攻击。",
+  },
+  {
     id: "illica-1-2-phase-1",
     characterId: "illica",
     name: "Iroi",
@@ -274,7 +320,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const current = banners.find((b) => b.status === "current")!;
-  const next = banners.find((b) => b.status === "next")!;
+  const next = banners.find((b) => b.status === "next");
   const faqs = [
     {
       question: "Who is the current NTE banner?",
