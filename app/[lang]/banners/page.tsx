@@ -512,7 +512,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
 
         <section className="mb-10 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "1.3 前瞻：残虹搜索需求升温" : "Version 1.3 Watchlist: Canhong"}
+            {isZh ? "1.4 观察：Pukaland 后续内容" : "Version 1.4 Watchlist: Pukaland"}
           </h2>
           <div className="grid gap-3 md:grid-cols-2">
             {nextVersionTeasers.map((item) => (

@@ -19,11 +19,11 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const title = isZh
-    ? (locale === "tw" ? "異環兌換碼（2026年8月）— 1.3前瞻碼、999 Nights與國際服禮包碼" : "异环兑换码（2026年8月）— 1.3前瞻码、999 Nights与国际服礼包码")
-    : "NTE Redeem Codes (August 2026) — 1.3 Livestream, 999 Nights & Active Codes";
+    ? (locale === "tw" ? "異環兌換碼（2026年9月）— 1.3活動碼、999 Nights與國際服禮包碼" : "异环兑换码（2026年9月）— 1.3活动码、999 Nights与国际服礼包码")
+    : "NTE Redeem Codes (September 2026) — Version 1.3, 999 Nights & Active Codes";
   const description = isZh
-    ? (locale === "tw" ? "異環(NTE) 2026年8月可用兌換碼彙總，覆蓋1.3前瞻兌換碼、直播碼、999NIGHTS等活動碼與常駐碼，整理獎勵、伺服器與兌換入口。" : "异环(NTE) 2026年8月可用兑换码汇总，覆盖1.3前瞻兑换码、直播码、999NIGHTS等活动码与常驻码，整理奖励、服务器与兑换入口。")
-    : "All working NTE redeem codes for August 2026, including 1.3 livestream codes, 999NIGHTS, event codes, permanent codes, rewards, regions, and redemption steps.";
+    ? (locale === "tw" ? "異環(NTE) 2026年9月兌換碼彙總，覆蓋1.3活動碼、直播碼、999NIGHTS等活動碼與常駐碼，整理獎勵、伺服器與兌換入口。" : "异环(NTE) 2026年9月兑换码汇总，覆盖1.3活动码、直播码、999NIGHTS等活动码与常驻码，整理奖励、服务器与兑换入口。")
+    : "NTE redeem code tracker for September 2026, including Version 1.3 event codes, 999NIGHTS, permanent codes, rewards, regions, and redemption steps.";
 
   return {
     title,
@@ -110,8 +110,8 @@ export default async function RedeemCodesPage({
         <div className="rounded-2xl border border-amber-500/25 bg-amber-500/10 p-5">
           <h2 className="text-lg font-semibold text-white">
             {isZhLocale(locale)
-              ? (locale === "tw" ? "1.3前瞻兌換碼先看這裡" : "1.3前瞻兑换码先看这里")
-              : "Looking for 1.3 livestream codes?"}
+              ? (locale === "tw" ? "1.3活動兌換碼先看這裡" : "1.3活动兑换码先看这里")
+              : "Looking for Version 1.3 event codes?"}
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
