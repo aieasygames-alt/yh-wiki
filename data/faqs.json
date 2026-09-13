@@ -8411,4 +8411,46 @@
     "seoDescriptionTw": "整理異環 Steam、官網客戶端、雲異環 PC 的選擇邏輯，以及卡頓、掉幀、SSD 和畫質設定的排查順序。",
     "answerTw": "先按遊玩方式選擇入口：本地PC適合長時間遊玩，Steam適合偏好平台生態的玩家，雲異環PC適合低配置或短時間上線，但要接受網路延遲與排隊成本。遇到卡頓掉幀時，先確認SSD與磁碟空間，再降低陰影、特效、體積光和渲染比例，鎖定穩定幀率，關閉背景程式並檢查過熱降頻，最後再分別排查驅動、客戶端和網路路由。"
   }
+  ,{
+    "id": "nte-1-3-zankou-linko-banner",
+    "question": "异环1.3赞空和链子卡池什么时候开？",
+    "questionEn": "When are the Zankou and Linko banners in NTE 1.3?",
+    "questionTw": "異環1.3贊空和鏈子卡池什麼時候開？",
+    "answer": "赞空卡池为 2026-08-19 至 2026-09-09，链子卡池为 2026-09-09 至 2026-09-30。不同区服可能显示不同维护时区，抽卡前请以游戏内倒计时为准。",
+    "answerEn": "Zankou runs from August 19 to September 9, 2026, and Linko runs from September 9 to September 30. Server time zones can differ, so verify the in-game countdown before pulling.",
+    "answerTw": "贊空卡池為2026-08-19至2026-09-09，鏈子卡池為2026-09-09至2026-09-30。請以遊戲內倒計時為準。",
+    "category": "version", "categoryZh": "版本", "categoryEn": "Version", "categoryTw": "版本",
+    "tags": ["1.3", "zankou", "linko", "卡池"], "relatedCharacters": ["canhong"], "relatedMaterials": [],
+    "seoTitleZh": "异环1.3赞空链子卡池时间：什么时候开？", "seoTitleEn": "NTE 1.3 Zankou and Linko Banner Dates",
+    "seoDescriptionZh": "异环1.3赞空与链子卡池开放时间、上下半安排和区服倒计时说明。", "seoDescriptionEn": "NTE 1.3 Zankou and Linko banner dates, phases, and server-time guidance.",
+    "seoTitleTw": "異環1.3贊空鏈子卡池時間", "seoDescriptionTw": "異環1.3贊空與鏈子卡池開放時間與上下半安排。"
+  },
+  {
+    "id": "nte-1-3-fogden-duskmoor-unlock",
+    "question": "异环1.3 Fogden和Duskmoor怎么解锁？",
+    "questionEn": "How do you unlock Fogden and Duskmoor in NTE 1.3?",
+    "questionTw": "異環1.3 Fogden和Duskmoor怎麼解鎖？",
+    "answer": "先推进 1.3「雾月夜归星」新篇章，Fogden 会随主线开放；Duskmoor 属于新区域探索内容，进入后先解锁传送点，再处理载具路线和活动目标。具体任务名称以当前语言客户端为准。",
+    "answerEn": "Advance the Version 1.3 Rising from the Moonlit Fog episode to open Fogden. Duskmoor is the new exploration area; unlock travel points first, then route vehicle objectives and activities. Quest names may vary by client language.",
+    "answerTw": "先推進1.3「霧月夜歸星」新篇章，Fogden會隨主線開放；Duskmoor則先解鎖傳送點，再處理載具路線與活動目標。",
+    "category": "exploration", "categoryZh": "探索", "categoryEn": "Exploration", "categoryTw": "探索",
+    "tags": ["1.3", "fogden", "duskmoor", "地图"], "relatedCharacters": [], "relatedMaterials": [],
+    "seoTitleZh": "异环1.3 Fogden、Duskmoor怎么去？解锁条件", "seoTitleEn": "NTE 1.3 Fogden and Duskmoor Unlock Guide",
+    "seoDescriptionZh": "异环1.3 Fogden与Duskmoor新地图解锁条件、主线入口和探索顺序。", "seoDescriptionEn": "How to unlock Fogden and Duskmoor in NTE 1.3 and plan exploration.",
+    "seoTitleTw": "異環1.3 Fogden、Duskmoor怎麼去？", "seoDescriptionTw": "異環1.3 Fogden與Duskmoor解鎖條件、主線入口與探索順序。"
+  },
+  {
+    "id": "nte-1-3-stillmeadow-house",
+    "question": "异环1.3 Stillmeadow House有什么用？",
+    "questionEn": "What is Stillmeadow House used for in NTE 1.3?",
+    "questionTw": "異環1.3 Stillmeadow House有什麼用？",
+    "answer": "Stillmeadow House 是1.3新增房产，可在庭院种植作物，再消耗城市体力出售作物换取 Fons。它适合纳入城市体力和金币规划，不建议为了种田影响限时活动或角色养成。",
+    "answerEn": "Stillmeadow House is a new Version 1.3 property. Grow crops in the yard and spend City Stamina to sell them for Fons. Treat it as part of a City Stamina and currency plan rather than a replacement for limited events or character progression.",
+    "answerTw": "Stillmeadow House是1.3新增房產，可在庭院種植作物，再消耗城市體力出售換取Fons。",
+    "category": "gameplay", "categoryZh": "玩法", "categoryEn": "Gameplay", "categoryTw": "玩法",
+    "tags": ["1.3", "stillmeadow", "房产", "fons"], "relatedCharacters": [], "relatedMaterials": [],
+    "seoTitleZh": "异环1.3 Stillmeadow House房产怎么用？种田换Fons", "seoTitleEn": "NTE 1.3 Stillmeadow House Farming Guide",
+    "seoDescriptionZh": "异环1.3 Stillmeadow House购买、种植、城市体力和Fons收益说明。", "seoDescriptionEn": "Stillmeadow House purchase, farming, City Stamina, and Fons guide for NTE 1.3.",
+    "seoTitleTw": "異環1.3 Stillmeadow House房產怎麼用？", "seoDescriptionTw": "異環1.3 Stillmeadow House購買、種植與Fons收益說明。"
+  }
 ]
