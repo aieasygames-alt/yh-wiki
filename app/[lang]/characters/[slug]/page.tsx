@@ -130,7 +130,8 @@ const ZH_CHARACTER_SEO: Record<string, { title: string; description: string; tit
 
 export function generateStaticParams() {
   const characters = getAllCharacters();
-  return characters.flatMap((c: { id: string }) => LOCALES.map((lang) => ({ lang, slug: c.id })));
+  const slugs = [...characters.map((c: { id: string }) => c.id), "zankou", "linko"];
+  return slugs.flatMap((slug) => LOCALES.map((lang) => ({ lang, slug })));
 }
 
 export async function generateMetadata({
@@ -139,9 +140,10 @@ export async function generateMetadata({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
-  const character = getCharacter(slug);
+  const canonicalSlug = slug === "zankou" || slug === "linko" ? "canhong" : slug;
+  const character = getCharacter(canonicalSlug);
   if (!character) return {};
-  const name = charName(character, lang);
+  const name = slug === "zankou" ? (lang === "en" ? "Zankou" : lang === "tw" ? "赞空" : "赞空") : slug === "linko" ? (lang === "en" ? "Linko" : lang === "tw" ? "链子" : "链子") : charName(character, lang);
   const isZh = isZhLocale(lang);
 
   // Build title with tier rank and role for better CTR
@@ -205,7 +207,8 @@ export default async function CharacterDetailPage({
 }) {
   const { lang, slug } = await params;
   const locale = lang as Locale;
-  const character = getCharacter(slug);
+  const canonicalSlug = slug === "zankou" || slug === "linko" ? "canhong" : slug;
+  const character = getCharacter(canonicalSlug);
   if (!character) notFound();
 
   const cm = getCharacterMaterials(slug);

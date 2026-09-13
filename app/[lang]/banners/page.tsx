@@ -36,7 +36,7 @@ interface BannerEntry {
 const banners: BannerEntry[] = [
   {
     id: "zankou-1-3-phase-1",
-    characterId: "canhong",
+    characterId: "zankou",
     name: "赞空",
     nameEn: "Zankou",
     phase: "1.3 上半",
@@ -59,7 +59,7 @@ const banners: BannerEntry[] = [
   },
   {
     id: "linko-1-3-phase-2",
-    characterId: "canhong",
+    characterId: "linko",
     name: "链子",
     nameEn: "Linko",
     phase: "1.3 下半",
