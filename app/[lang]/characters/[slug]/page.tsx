@@ -210,6 +210,7 @@ export default async function CharacterDetailPage({
   const canonicalSlug = slug === "zankou" || slug === "linko" ? "canhong" : slug;
   const character = getCharacter(canonicalSlug);
   if (!character) notFound();
+  const displayName = slug === "zankou" ? (locale === "en" ? "Zankou" : "赞空") : slug === "linko" ? (locale === "en" ? "Linko" : "链子") : charName(character, locale);
 
   const cm = getCharacterMaterials(slug);
   const banner = bannerCta(slug, locale);
@@ -222,26 +223,26 @@ export default async function CharacterDetailPage({
 
   return (
     <>
-      <CharacterJsonLd character={character} locale={locale} />
+      <CharacterJsonLd character={{ ...character, name: displayName, nameEn: slug === "zankou" ? "Zankou" : slug === "linko" ? "Linko" : character.nameEn }} locale={locale} />
       {character.faq && character.faq.length > 0 && (
         <FaqPageJsonLd faqs={character.faq} lang={locale} />
       )}
-      <DataStatusBanner locale={locale} status={character.status} />
+      <DataStatusBanner locale={locale} status={slug === "zankou" || slug === "linko" ? "available" : character.status} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
           { label: t(locale, "site.nav.characters"), href: `/${lang}/characters` },
-          { label: charName(character, locale) },
+          { label: displayName },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Character Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
-            <GameImage type="character" id={character.id} name={character.name} src={character.image} className="w-24 h-24 rounded-lg shrink-0" priority />
+            <GameImage type="character" id={character.id} name={displayName} src={character.image} className="w-24 h-24 rounded-lg shrink-0" priority />
             <div className="flex-1 min-w-0">
-              <h1 className="text-2xl font-bold">{locale === "en" ? (enSeo?.h1 || `${character.nameEn} NTE Build Guide & Tier Ranking`) : charName(character, locale)}</h1>
-              <p className="text-gray-500">{locale === "en" ? character.name : character.nameEn}</p>
+              <h1 className="text-2xl font-bold">{locale === "en" ? (enSeo?.h1 || `${displayName} NTE Build Guide & Tier Ranking`) : displayName}</h1>
+              <p className="text-gray-500">{locale === "en" ? (slug === "zankou" ? "赞空" : slug === "linko" ? "链子" : character.name) : (slug === "zankou" ? "Zankou" : slug === "linko" ? "Linko" : character.nameEn)}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span
                   className={`px-3 py-1 rounded-full text-xs border ${getAttributeColor(character.attribute)}`}
@@ -268,7 +269,9 @@ export default async function CharacterDetailPage({
                 )}
               </div>
               {character.description && (
-                <p className="mt-3 text-sm text-gray-400">{isZhLocale(locale) ? character.description : character.descriptionEn || character.description}</p>
+                <p className="mt-3 text-sm text-gray-400">{slug === "zankou" || slug === "linko"
+                  ? (isZhLocale(locale) ? `${displayName} 已在1.3版本上线；当前页面沿用已验证的基础定位，技能与材料细节会随数据确认补充。` : `${displayName} is live in Version 1.3. This entry currently uses verified role data and will be expanded as kit and material details are confirmed.`)
+                  : (isZhLocale(locale) ? character.description : character.descriptionEn || character.description)}</p>
               )}
               {searchAliases && searchAliases.length > 0 && (
                 <p className="mt-2 text-xs text-gray-500">
