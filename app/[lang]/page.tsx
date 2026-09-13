@@ -136,6 +136,14 @@ export default async function HomePage({
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             {[
               {
+                href: `/${lang}/version-center`,
+                title: isZhLocale(locale) ? (locale === "tw" ? "1.3版本中心" : "1.3版本中心") : "Version 1.3 Hub",
+                desc: isZhLocale(locale)
+                  ? (locale === "tw" ? "贊空、鏈子、Fogden、Duskmoor與版本活動入口" : "赞空、链子、Fogden、Duskmoor与版本活动入口")
+                  : "Zankou, Linko, Fogden, Duskmoor, and live patch activities.",
+                accent: "border-violet-500/30 bg-violet-500/10 text-violet-300",
+              },
+              {
                 href: `/${lang}/official-site`,
                 title: isZhLocale(locale) ? (locale === "tw" ? "異環官網入口導航" : "异环官网入口导航") : "Official Site & Download Guide",
                 desc: isZhLocale(locale)
