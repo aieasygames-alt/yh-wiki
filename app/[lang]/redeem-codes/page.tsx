@@ -102,7 +102,7 @@ export default async function RedeemCodesPage({
       <div className="max-w-4xl mx-auto px-4 pt-2 pb-1">
         <p className="text-xs text-gray-500">
           {isZhLocale(locale)
-            ? (locale === "tw" ? "最後檢查：2026年8月10日" : "最后检查：2026年8月10日")
+            ? (locale === "tw" ? "最後檢查：2026年9月13日" : "最后检查：2026年9月13日")
             : "Last checked: August 10, 2026"}
         </p>
       </div>

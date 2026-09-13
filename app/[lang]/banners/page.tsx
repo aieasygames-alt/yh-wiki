@@ -101,7 +101,7 @@ const banners: BannerEntry[] = [
     boostedA: ["Adler", "Mint", "Skia", "Edgar", "Taygedo", "Nelly", "Merula", "Alphard"],
     cosmetics: [],
     summary:
-      "Illica is the current 1.2 Phase 1 limited banner — NTE's first limited S-rank healer/buffer and a member of ETD-4. Pull her if your account lacks a dedicated sustain/buff support; she slots into almost every team composition.",
+      "Illica was the Version 1.2 Phase 1 limited banner — NTE's first limited S-rank healer/buffer and a member of ETD-4. Use her as a historical roster reference when planning current Version 1.3 teams.",
     summaryZh:
       "伊洛伊是1.2上半限定卡池角色——异环首位S级限定治疗增益辅助，ETD-4成员。缺少专属治疗/增益辅助的账号建议优先抽取，她能融入绝大多数配队。",
   },
@@ -126,7 +126,7 @@ const banners: BannerEntry[] = [
     boostedA: ["Adler", "Mint", "Skia", "Edgar", "Taygedo", "Nelly", "Merula", "Alphard"],
     cosmetics: [],
     summary:
-      "Shinku/Zhenhong is the current 1.2 Phase 1 limited banner — a Cosmos dragon-tribe fighter DPS built around her Rage gauge and Berserk state. Top pick if you need a burst DPS for 999 Nights or boss content.",
+      "Shinku/Zhenhong was a Version 1.2 limited banner — a Cosmos dragon-tribe fighter DPS built around her Rage gauge and Berserk state. She remains a useful 999 Nights and boss-content reference.",
     summaryZh:
       "Shinku/真红是当前1.2限定卡池角色——宇宙属性龙族格斗家主C，技能围绕Rage与Berserk爆发窗口构建。需要999 Nights或Boss爆发输出的玩家重点关注。",
   },
