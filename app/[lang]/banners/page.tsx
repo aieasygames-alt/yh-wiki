@@ -205,10 +205,10 @@ const banners: BannerEntry[] = [
 
 const nextVersionTeasers = [
   {
-    name: "Zankou",
-    nameZh: "Zankou",
-    detail: "S-rank Incantation character expected for version 1.3 Phase 1. Exact kit and signature Arc are still pending official detail.",
-    detailZh: "1.3版本上半预热的S级咒术属性角色，具体技能与专属弧盘仍待官方进一步公布。",
+    name: "Version 1.4",
+    nameZh: "1.4版本",
+    detail: "Pukaland is the next officially announced area. Treat further details as a watchlist until patch notes are published.",
+    detailZh: "官方已预告1.4将开放Pukaland；更多角色、玩法与日期仍应等待正式公告。",
   },
 ];
 
@@ -248,13 +248,13 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环卡池时间表（2026）— Shinku当前UP、Iroi下一期、1.3预热",
-    "NTE Banner Schedule (2026) - Current Shinku, Next Iroi, and Pull Planning"
+    "异环卡池时间表（2026）— 1.3赞空与链子、抽卡规划",
+    "NTE Banner Schedule (2026) - Version 1.3 Zankou, Linko & Pull Planning"
   );
   const description = localizedText(
     locale,
-    "异环(NTE)卡池时间表与抽取建议：Shinku/真红当前UP、Iroi下一期、1.3预热、历史卡池顺序、保底规则与抽卡规划。",
-    "Neverness to Everness banner schedule and pull planning for 2026: current Shinku, next Iroi, Version 1.3 teaser, historical banner order, pity rules, and resource planning."
+    "异环(NTE)卡池时间表与抽取建议：1.3赞空与链子卡池、历史卡池顺序、保底规则与资源规划。",
+    "Neverness to Everness banner schedule and pull planning for 2026, including Version 1.3 Zankou and Linko, banner history, pity rules, and resource planning."
   );
 
   return {
@@ -285,8 +285,8 @@ export default async function BannersPage({ params }: { params: { lang: string }
     {
       question: "Who is the next NTE banner?",
       questionZh: "异环下一期卡池是谁？",
-      answer: "Iroi is the next limited banner for version 1.2 Phase 2, scheduled from July 29 to August 19, 2026. She is an Anima support/healer using Liquid Arcs.",
-      answerZh: "Iroi 是1.2下半下一期限定卡池角色，时间为 2026-07-29 至 2026-08-19。她是生命属性增益/治疗辅助，使用液体弧盘。",
+      answer: "Iroi was the Version 1.2 Phase 2 limited banner. For the live Version 1.3 schedule, check the Zankou and Linko phases above and verify the in-game countdown.",
+      answerZh: "Iroi 是1.2下半限定角色。当前已进入1.3版本，请以上方赞空/链子卡池与游戏内倒计时为准。",
     },
     {
       question: "Does NTE have a 50/50 on character banners?",
@@ -320,15 +320,15 @@ export default async function BannersPage({ params }: { params: { lang: string }
       <main className="max-w-5xl mx-auto px-4 py-12">
         <section className="mb-10">
           <p className="text-xs uppercase tracking-[0.18em] text-primary-400 mb-3">
-            {isZh ? "2026-07-10 更新" : "Updated July 10, 2026"}
+            {isZh ? "2026-09-13 更新" : "Updated September 13, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环卡池时间表：Shinku当前UP，Iroi下一期" : "NTE Banner Schedule: Current Shinku, Next Iroi"}
+            {isZh ? "异环卡池时间表：1.3赞空与链子" : "NTE Banner Schedule: Version 1.3 Zankou & Linko"}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {isZh
-              ? "追踪 Neverness to Everness 最新限定祈愿、角色池保底、Arc池风险和1.3前瞻角色（Zankou）。这个页面会作为当前卡池入口，帮助你快速判断要抽、跳过还是等下一期。"
-              : "Track the latest Neverness to Everness limited banners, character pity, Arc banner risks, and version 1.3 teaser (Zankou). Use this page to decide whether to pull, skip, or wait for the next phase."}
+              ? "追踪 Neverness to Everness 1.3赞空与链子卡池、角色池保底、Arc池风险和后续版本预告，帮助你快速判断要抽、跳过还是等下一期。"
+              : "Track the live Version 1.3 Zankou and Linko banners, pity rules, Arc-pool risks, and the next-version watchlist so you can decide whether to pull, skip, or wait."}
           </p>
         </section>
 
