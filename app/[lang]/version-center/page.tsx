@@ -53,7 +53,7 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
     }
   };
 
-  const itemKindLabel = (kind: "changelog" | "guide" | "blog") => {
+  const itemKindLabel = (kind: string) => {
     if (isZhLocale(locale)) {
       if (kind === "changelog") return locale === "tw" ? "更新日誌" : "更新日志";
       if (kind === "guide") return locale === "tw" ? "攻略" : "攻略";
@@ -62,6 +62,13 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
     if (kind === "changelog") return "Patch Notes";
     if (kind === "guide") return "Guide";
     return "Post";
+  };
+
+  const priorityLabel = (priority: string) => {
+    if (isZhLocale(locale)) {
+      return ({ high: "高风险", medium: "中风险", low: "低风险" } as Record<string, string>)[priority] || "待评估";
+    }
+    return ({ high: "High risk", medium: "Medium risk", low: "Low risk" } as Record<string, string>)[priority] || "Needs assessment";
   };
 
   return (
@@ -204,13 +211,18 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
           </div>
           <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
             {weeklyQueue.map((item) => (
-              <div key={`${item.type}-${item.id}`} className="rounded-lg border border-gray-800 bg-gray-950/35 p-4">
+              <Link
+                key={`${item.type}-${item.id}`}
+                href={`/${lang}${item.href}`}
+                className="rounded-lg border border-gray-800 bg-gray-950/35 p-4 transition-colors hover:border-rose-400/50 hover:bg-gray-900/70"
+              >
                 <div className="flex items-center justify-between gap-2 text-xs">
-                  <span className="rounded-full bg-rose-500/15 px-2 py-1 text-rose-200">{item.type}</span>
+                  <span className="rounded-full bg-rose-500/15 px-2 py-1 text-rose-200">{itemKindLabel(item.type)}</span>
                   <span className="text-gray-500">{isZhLocale(locale) ? `${item.ageDays} 天未复核` : `${item.ageDays} days old`}</span>
                 </div>
                 <p className="mt-3 text-sm font-medium">{isZhLocale(locale) ? item.title : item.titleEn}</p>
-              </div>
+                <p className="mt-2 text-xs text-rose-200/80">{priorityLabel(item.priority)}</p>
+              </Link>
             ))}
           </div>
         </section>

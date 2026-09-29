@@ -101,6 +101,8 @@ describe("late Version 1.3 player-decision content", () => {
     expect(freshnessReport.weeklyQueue.length).toBeGreaterThan(0);
     expect(freshnessReport.totals.byPriority.high).toBeGreaterThan(0);
     expect(freshnessReport.weeklyQueue[0].priority).toBe("high");
+    expect(freshnessReport.weeklyQueue[0].href).toMatch(/^\/(guides|blog|changelog)\//);
+    expect(freshnessReport.weeklyQueue[0].priorityReason).toBeTruthy();
   });
 });
 

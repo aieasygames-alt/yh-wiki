@@ -277,6 +277,15 @@ function generateContentFreshnessReport() {
     if (mediumRisk.test(text)) return "medium";
     return "low";
   }
+  function contentPath(entry) {
+    if (entry.type === "changelog") return `/changelog/${entry.id}`;
+    return `/${entry.type === "blog" ? "blog" : "guides"}/${entry.id}`;
+  }
+  function priorityReason(priority) {
+    if (priority === "high") return "Can affect current player decisions or version facts.";
+    if (priority === "medium") return "Can affect progression, exploration, or activity planning.";
+    return "General reference content that should be kept accurate.";
+  }
   const entries = [
     ...load("guides.json").map((item) => ({ id: item.id, type: "guide", date: item.date, title: item.title, titleEn: item.titleEn })),
     ...load("blog.json").map((item) => ({ id: item.id, type: "blog", date: item.date, title: item.title, titleEn: item.titleEn })),
@@ -285,7 +294,14 @@ function generateContentFreshnessReport() {
     const timestamp = entry.date ? new Date(entry.date).getTime() : NaN;
     const ageDays = Number.isFinite(timestamp) ? Math.floor((now.getTime() - timestamp) / dayMs) : null;
     const priority = reviewPriority(entry);
-    return { ...entry, ageDays, priority, needsReview: ageDays === null || ageDays > 45 };
+    return {
+      ...entry,
+      href: contentPath(entry),
+      priority,
+      priorityReason: priorityReason(priority),
+      ageDays,
+      needsReview: ageDays === null || ageDays > 45,
+    };
   });
   const needsReview = entries
     .filter((entry) => entry.needsReview)
