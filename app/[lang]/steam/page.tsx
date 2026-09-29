@@ -133,9 +133,9 @@ export default async function SteamPage({ params }: { params: { lang: string } }
                 : "What should you check before choosing Steam?"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZh ? (locale === "tw" ? "先確認你的 PC 配置是否更適合本地安裝，而不是雲端方案。" : "先确认你的 PC 配置是否更适合本地安装，而不是云端方案。") : "Confirm that your PC is better suited for native install than a cloud alternative."}</li>
-              <li>{isZh ? (locale === "tw" ? "如果你很在意成就、好友列表與平台管理，Steam 會更順手。" : "如果你很在意成就、好友列表与平台管理，Steam 会更顺手。") : "If achievements, friends, and platform management matter to you, Steam is usually the cleaner fit."}</li>
-              <li>{isZh ? (locale === "tw" ? "先想清楚你更重視平台生態，還是最快開玩與最少中轉。" : "先想清楚你更重视平台生态，还是最快开玩与最少中转。") : "Decide whether you value platform ecosystem more than the fastest path to launch and patching."}</li>
+              <li>{isZh ? (locale === "tw" ? "在商店頁和啟動器核對你的 PC 是否支援本地安裝，以及所需空間與下載大小。" : "在商店页和启动器核对你的 PC 是否支持本地安装，以及所需空间与下载大小。") : "Verify on the store page and launcher whether your PC supports a local install, including required storage and download size."}</li>
+              <li>{isZh ? (locale === "tw" ? "核對目前 Steam 頁實際提供的功能、語言、好友與成就整合，不以歷史平台功能推斷。" : "核对当前 Steam 页实际提供的功能、语言、好友与成就整合，不以历史平台功能推断。") : "Verify the current Steam page for actual features, language, friends, and achievement integration instead of inferring from historical platform behavior."}</li>
+              <li>{isZh ? (locale === "tw" ? "分別確認 Steam、啟動器、Epic 與雲端 PC 的地區、帳號、價格和可用性。" : "分别确认 Steam、启动器、Epic 与云端 PC 的地区、账号、价格和可用性。") : "Check region, account, pricing, and availability separately for Steam, the launcher, Epic, and Cloud PC."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -145,7 +145,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
                 : "Common mistakes"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZh ? (locale === "tw" ? "把 Steam 版誤解成一套完全獨立的新伺服器進度。" : "把 Steam 版误解成一套完全独立的新服务器进度。") : "Assuming the Steam version is a totally separate progression ecosystem by default."}</li>
+              <li>{isZh ? (locale === "tw" ? "假定 Steam 與其他入口一定共用或一定不共用進度。" : "假定 Steam 與其他入口一定共用或一定不共用進度。") : "Assuming Steam must either share or not share progression with other entry points."}</li>
               <li>{isZh ? (locale === "tw" ? "只因為看到 Steam 上線，就忽略了配置與下載成本。" : "只因为看到 Steam 上线，就忽略了配置与下载成本。") : "Seeing Steam availability and ignoring the local hardware and storage cost."}</li>
               <li>{isZh ? (locale === "tw" ? "把平台入口問題和區服、帳號體系問題混在一起。" : "把平台入口问题和区服、账号体系问题混在一起。") : "Mixing up platform-entry decisions with server-region or account-system decisions."}</li>
             </ul>
@@ -195,7 +195,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "三、Steam 版 vs 移动端差异" : "3. Steam vs Mobile Differences"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "三、Steam 与移动端的历史对照字段" : "3. Historical Steam vs Mobile Comparison Fields"}</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-800 rounded-lg overflow-hidden">
               <thead className="bg-gray-800/60">
@@ -206,38 +206,38 @@ export default async function SteamPage({ params }: { params: { lang: string } }
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-800">
-                <tr><td className="p-3">{isZh ? "画面" : "Visuals"}</td><td className="p-3 text-emerald-400">{isZh ? "通常有更多图形选项" : "Usually more graphics options"}</td><td className="p-3 text-amber-400">{isZh ? "受设备与散热限制" : "Limited by device and thermals"}</td></tr>
-                <tr><td className="p-3">{isZh ? "帧率" : "Frame Rate"}</td><td className="p-3 text-emerald-400">{isZh ? "取决于硬件和版本设置" : "Depends on hardware and version settings"}</td><td className="p-3 text-amber-400">{isZh ? "取决于机型和画质设置" : "Depends on device and graphics settings"}</td></tr>
-                <tr><td className="p-3">{isZh ? "操作" : "Controls"}</td><td className="p-3 text-emerald-400">{isZh ? "键鼠/手柄精准" : "KBM/gamepad precise"}</td><td className="p-3 text-amber-400">{isZh ? "触屏" : "Touch"}</td></tr>
-                <tr><td className="p-3">{isZh ? "加载速度" : "Loading"}</td><td className="p-3 text-emerald-400">{isZh ? "NVMe 极快" : "NVMe very fast"}</td><td className="p-3 text-amber-400">{isZh ? "依赖闪存速度" : "Depends on flash"}</td></tr>
-                <tr><td className="p-3">{isZh ? "便携性" : "Portability"}</td><td className="p-3 text-gray-500">{isZh ? "低" : "Low"}</td><td className="p-3 text-emerald-400">{isZh ? "高" : "High"}</td></tr>
+                <tr><td className="p-3">{isZh ? "画面" : "Visuals"}</td><td className="p-3 text-gray-400">{isZh ? "核对当前图形选项与硬件要求" : "Verify current graphics options and hardware requirements"}</td><td className="p-3 text-gray-400">{isZh ? "核对当前设备支持与散热表现" : "Verify current device support and thermal behavior"}</td></tr>
+                <tr><td className="p-3">{isZh ? "帧率" : "Frame Rate"}</td><td className="p-3 text-gray-400">{isZh ? "以本机与当前版本设置实测为准" : "Test on your hardware and current version settings"}</td><td className="p-3 text-gray-400">{isZh ? "以机型、设置与客户端实测为准" : "Test on your device, settings, and client"}</td></tr>
+                <tr><td className="p-3">{isZh ? "操作" : "Controls"}</td><td className="p-3 text-gray-400">{isZh ? "核对当前键鼠与手柄支持" : "Verify current keyboard, mouse, and controller support"}</td><td className="p-3 text-gray-400">{isZh ? "核对触控与外设支持" : "Verify touch and peripheral support"}</td></tr>
+                <tr><td className="p-3">{isZh ? "下载与加载" : "Download and loading"}</td><td className="p-3 text-gray-400">{isZh ? "核对商店下载大小与本地存储" : "Verify store download size and local storage"}</td><td className="p-3 text-gray-400">{isZh ? "核对商店下载大小与可用空间" : "Verify store download size and free space"}</td></tr>
+                <tr><td className="p-3">{isZh ? "便携性" : "Portability"}</td><td className="p-3 text-gray-400">{isZh ? "取决于你的设备与使用场景" : "Depends on your device and use case"}</td><td className="p-3 text-gray-400">{isZh ? "取决于你的设备与使用场景" : "Depends on your device and use case"}</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-500 mt-3">
             {isZh
-              ? "本地 PC 通常更适合追求键鼠/手柄与图形选项的玩家，移动端更适合便携场景。跨平台进度是否继承必须按当前账号、区服和绑定规则在客户端或公告中确认。"
-              : "Local PC usually suits players who value keyboard, controller, and graphics options, while mobile suits portability. Confirm cross-platform progression in the current client or official notice for your exact account, server, and binding route."}
+              ? "本表只列出应逐项核对的历史对照字段，并不判断哪一端更适合你。跨平台进度、输入方式、图形选项、下载要求与性能都必须按当前账号、区服、设备和客户端详情确认。"
+              : "This table lists historical comparison fields to verify and does not decide which platform suits you. Confirm progression, input, graphics options, download requirements, and performance for your exact account, server, device, and client."}
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "四、现在就能在 PC 上怎么玩？" : "4. How Can You Play on PC Right Now?"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "四、PC 入口核验清单" : "4. PC Entry Verification Checklist"}</h2>
           <div className="grid gap-4 md:grid-cols-3">
             <div className="rounded-lg border border-gray-800 bg-gray-900/40 p-4">
               <h3 className="font-semibold text-gray-200 mb-2">{isZh ? "官网客户端 / Epic" : "Launcher / Epic"}</h3>
               <p className="text-sm text-gray-400">
                 {isZh
-                  ? "适合本地设备够用、想现在就稳定玩的人。重点是原生体验、低延迟和完整本地安装。"
-                  : "Best if your local hardware is good enough and you want native play right now with low latency."}
+                  ? "核对目标地区是否可用、客户端下载来源、下载大小、系统要求与账号绑定提示。"
+                  : "Verify target-region availability, client source, download size, requirements, and account-binding prompts."}
               </p>
             </div>
             <div className="rounded-lg border border-sky-500/20 bg-sky-500/5 p-4">
               <h3 className="font-semibold text-sky-300 mb-2">{isZh ? "云异环 PC" : "Cloud Yihuan PC"}</h3>
               <p className="text-sm text-gray-400">
                 {isZh
-                  ? "适合低配置设备、短时上线、或不想安装完整客户端的人。代价是要接受网络和排队。"
-                  : "Best for weaker PCs, short login sessions, or players who do not want a full local install. The tradeoff is queue and network dependence."}
+                  ? "核对目标地区、服务入口、价格、排队、网络要求、账号规则和当前客户端提示。"
+                  : "Verify target region, service entry, pricing, queues, network requirements, account rules, and current client prompts."}
               </p>
               <Link href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300">
                 {isZh ? "→ 看云异环 PC 说明" : "→ Cloud PC guide"}
@@ -247,39 +247,39 @@ export default async function SteamPage({ params }: { params: { lang: string } }
               <h3 className="font-semibold text-emerald-300 mb-2">{isZh ? "Steam" : "Steam"}</h3>
               <p className="text-sm text-gray-400">
                 {isZh
-                  ? "更适合长期 PC 主力玩家，重视成就、好友列表和平台生态。它是平台偏好，不是内容门槛。"
-                  : "Best for long-term PC mains who care about achievements, friends, and the Steam ecosystem. It is a platform preference, not a content gate."}
+                  ? "核对目标地区商店页、发行方、语言、功能、配置、下载要求和账号绑定规则。"
+                  : "Verify the target-region store page, publisher, language, features, requirements, download details, and account-binding rules."}
               </p>
             </div>
           </div>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "五、跨平台账号" : "5. Cross-Platform Account"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "五、跨平台账号核验" : "5. Cross-Platform Account Verification"}</h2>
           <p className="text-gray-400 leading-relaxed">
             {isZh
-              ? "Steam 版现在更应视作国际服 PC 入口的一部分。也就是说，如果你本来就在国际服体系内玩手机、Epic 或其他 PC 入口，Steam 更像是换了一个平台容器，而不是重开一条独立进度线。国服账号迁移到 Steam 仍不应默认视为已支持；详细服务器区别参考国服 vs 国际服对比页。"
-              : "Steam should now be treated as part of the global-side PC entry flow. In practice, if you already play on the global publishing track through mobile, Epic, or another PC route, Steam behaves more like a new platform container than a separate progression line. CN account migration still should not be assumed supported. See the CN vs Global page for server differences."}
+              ? "不要根据历史入口关系推断 Steam、启动器、Epic、国服或国际服之间的账号继承。创建、绑定、迁移、充值或购买前，请在目标客户端和官方公告中确认区服、登录方式、绑定限制、进度、支付与迁移文案；国服与国际服规则须分别核验。"
+              : "Do not infer account inheritance among Steam, the launcher, Epic, CN, or global routes from historical entry relationships. Before creating, linking, migrating, spending, or purchasing, confirm server, login method, binding limits, progression, payments, and migration wording in the target client and official notices; verify CN and global rules separately."}
           </p>
         </section>
 
         <section className="mb-10 rounded-xl border border-gray-800 bg-gray-900/40 p-5">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "六、现在更适合选 Steam 吗？" : "6. Should You Choose Steam Now?"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "六、选择前的最后核验" : "6. Final Checks Before Choosing"}</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-lg bg-emerald-500/5 border border-emerald-500/20 p-4">
-              <h3 className="font-semibold text-emerald-300 mb-2">{isZh ? "更适合选 Steam，如果……" : "Choose Steam if…"}</h3>
+              <h3 className="font-semibold text-emerald-300 mb-2">{isZh ? "Steam 入口核验通过后" : "After Steam Checks Pass"}</h3>
               <ul className="text-sm text-gray-400 space-y-1">
-                <li>{isZh ? "你主力 PC 且偏好 Steam 生态" : "You're a PC main who prefers Steam"}</li>
-                <li>{isZh ? "在意 Steam 成就、好友列表、创意工坊" : "You value achievements, friends, workshop"}</li>
-                <li>{isZh ? "想把 PC 游戏库统一放在 Steam" : "You want your PC library consolidated in Steam"}</li>
+                <li>{isZh ? "目标地区商店页可用，且发行方、语言和下载信息已确认" : "The target-region store page is available and publisher, language, and download details are confirmed"}</li>
+                <li>{isZh ? "当前配置、价格和付款条件适合你的设备与预算" : "Current requirements, pricing, and payment terms fit your device and budget"}</li>
+                <li>{isZh ? "账号绑定、区服和进度规则已在客户端或公告中确认" : "Account binding, server, and progression rules are confirmed in-client or officially"}</li>
               </ul>
             </div>
             <div className="rounded-lg bg-sky-500/5 border border-sky-500/20 p-4">
-              <h3 className="font-semibold text-sky-300 mb-2">{isZh ? "未必非 Steam 不可，如果……" : "Steam is optional if…"}</h3>
+              <h3 className="font-semibold text-sky-300 mb-2">{isZh ? "其他入口也应分别核验" : "Verify Other Entry Points Separately"}</h3>
               <ul className="text-sm text-gray-400 space-y-1">
-                <li>{isZh ? "你现在就想玩，独立启动器/Epic 已开放" : "You want to play now — launcher/Epic are live"}</li>
-                <li>{isZh ? "你主力移动端" : "You play mainly on mobile"}</li>
-                <li>{isZh ? "对 Steam 生态没有强偏好" : "You don't care about Steam features"}</li>
+                <li>{isZh ? "启动器、Epic、移动端或云端的地区与可用性不能由 Steam 状态推断" : "Launcher, Epic, mobile, or cloud region availability cannot be inferred from Steam status"}</li>
+                <li>{isZh ? "每个入口的下载、账号、支付和配置要求都可能不同" : "Download, account, payment, and requirement rules may differ for every entry point"}</li>
+                <li>{isZh ? "只在目标客户端和官方公告同时核验后再做选择" : "Choose only after checking both the target client and official notices"}</li>
               </ul>
             </div>
           </div>
