@@ -124,6 +124,13 @@ describe("late Version 1.3 player-decision content", () => {
     expect(faqAnswer("canhong")).toContain("does not confirm");
   });
 
+  it("archives stale banner FAQ claims instead of presenting them as live schedules", () => {
+    const byId = (id: string) => faqsData.find((faq) => faq.id === id)!;
+    expect(byId("next-banner-schedule").answer).toContain("历史排期");
+    expect(byId("faq-shinku-release").answer).toContain("历史记录");
+    expect(byId("nte-1-3-zankou-linko-banner").answerEn).toContain("historical schedules");
+  });
+
   it("publishes a risk-ranked content review queue", () => {
     expect(freshnessReport.reviewAfterDays).toBe(45);
     expect(freshnessReport.weeklyQueue.length).toBeGreaterThan(0);
