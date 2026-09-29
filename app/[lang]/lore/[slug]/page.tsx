@@ -4,7 +4,6 @@ import { t, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getLoreItem, getAllLore, getCharacter, getLocation } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
-import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 
 function buildLoreMetaDescription(args: {
@@ -73,7 +72,7 @@ export async function generateMetadata({
     relatedCharacters: lore.relatedCharacters.length,
     relatedLocations: lore.relatedLocations.length,
   });
-  const suffix = localizedText(locale, "异环世界观", "NTE Lore");
+  const suffix = localizedText(locale, "异环世界观历史资料", "NTE Lore History", "異環世界觀歷史資料");
   return {
     title: `${name} - ${suffix}`,
     description,
@@ -122,7 +121,6 @@ export default async function LoreDetailPage({
         description={summary}
         url={`https://nteguide.com/${lang}/lore/${slug}`}
       />
-      <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
@@ -131,6 +129,19 @@ export default async function LoreDetailPage({
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/40 bg-amber-950/20 p-5">
+          <h2 className="text-lg font-semibold text-amber-100">
+            {localizedText(locale, "历史世界观资料，须以当前内容复核", "Historical lore reference - verify against current content", "歷史世界觀資料，須以目前內容覆核")}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-amber-50/80">
+            {localizedText(
+              locale,
+              `本页的名称、设定、角色、地点和剧情关联均为历史叙事记录，不证明「${name}」当前仍在主线中出现、可访问或关联相同任务。请在目标客户端剧情、地图和官方公告中确认。`,
+              `This page records historical names, setting notes, character links, locations, and story relationships. It does not prove that ${name} still appears in the live story, is accessible, or connects to the same quests. Confirm it in the target client story, map, and official notices.`,
+              `本頁的名稱、設定、角色、地點和劇情關聯均為歷史敘事記錄，不證明「${name}」目前仍在主線中出現、可訪問或關聯相同任務。請在目標客戶端劇情、地圖和官方公告中確認。`
+            )}
+          </p>
+        </section>
         <div className="mb-2">
           <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
             {category}
@@ -139,15 +150,15 @@ export default async function LoreDetailPage({
         <h1 className="text-2xl font-bold mb-6">{name}</h1>
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/40 p-5">
           <h2 className="text-lg font-bold mb-3">
-            {localizedText(locale, "条目概览", "Lore Overview", "條目概覽")}
+              {localizedText(locale, "历史条目概览", "Historical lore overview", "歷史條目概覽")}
           </h2>
           <p className="text-sm leading-7 text-gray-300">{summary}</p>
           <p className="mt-3 text-sm leading-7 text-gray-400">
             {localizedText(
               locale,
-              `「${name}」属于${category}类世界观条目。阅读这个页面时，建议同时关注它在主线叙事、角色关系和地图探索中的作用：有些名词会解释异象来源，有些组织或地点则会影响任务入口、角色背景与后续版本剧情理解。`,
-              `${name} belongs to the ${category} lore category. When reading this entry, consider how it connects to the main story, character relationships, and map exploration: some terms explain anomaly origins, while organizations or places can affect quest context, character backgrounds, and later version story interpretation.`,
-              `「${name}」屬於${category}類世界觀條目。閱讀這個頁面時，建議同時關注它在主線敘事、角色關係和地圖探索中的作用：有些名詞會解釋異象來源，有些組織或地點則會影響任務入口、角色背景與後續版本劇情理解。`
+              `「${name}」在历史资料中被归类为${category}。本页保留其与角色、地点和叙事概念的关联线索，适合用于交叉检索旧资料；它不确认当前主线、任务入口、角色背景或后续版本剧情。`,
+              `${name} was categorized as ${category} in historical material. This page preserves leads linking it to characters, locations, and narrative concepts for cross-referencing older material; it does not confirm the current main story, quest access, character background, or later-version plot.`,
+              `「${name}」在歷史資料中被歸類為${category}。本頁保留其與角色、地點和敘事概念的關聯線索，適合用於交叉檢索舊資料；它不確認目前主線、任務入口、角色背景或後續版本劇情。`
             )}
           </p>
         </section>
@@ -162,43 +173,43 @@ export default async function LoreDetailPage({
         <section className="mt-10 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "阅读重点", "What To Watch For", "閱讀重點")}
+              {localizedText(locale, "如何使用历史叙事线索", "How to use historical narrative leads", "如何使用歷史敘事線索")}
             </h2>
             <ul className="space-y-2 text-sm leading-6 text-gray-300">
               <li>
                 {localizedText(
                   locale,
-                  `先确认「${name}」是设定名词、组织、地点还是角色相关概念，这会决定它更适合从剧情、探索还是角色养成角度继续阅读。`,
-                  `First identify whether ${name} is a setting term, organization, location, or character-related concept; that tells you whether to continue through story, exploration, or character progression pages.`,
-                  `先確認「${name}」是設定名詞、組織、地點還是角色相關概念，這會決定它更適合從劇情、探索還是角色養成角度繼續閱讀。`
+                  `先确认「${name}」在历史资料中被描述为设定名词、组织、地点还是角色相关概念，再用这一分类检索当前官方剧情、地图或角色资料。`,
+                  `First identify whether older material described ${name} as a setting term, organization, location, or character-related concept, then use that classification to search current official story, map, or character material.`,
+                  `先確認「${name}」在歷史資料中被描述為設定名詞、組織、地點還是角色相關概念，再用這一分類檢索目前官方劇情、地圖或角色資料。`
                 )}
               </li>
               <li>
                 {localizedText(
                   locale,
                   relatedCharacterNames.length > 0
-                    ? `如果你正在查角色背景，可以继续看 ${relatedCharacterNames.join("、")} 等相关角色页，把能力、阵营和剧情线索串起来。`
-                    : "如果该条目暂时没有直接关联角色，优先把它当作背景设定理解，再通过主线、地点或组织条目补上下文。",
+                    ? `相关角色「${relatedCharacterNames.join("、")}」可作为当前资料的检索词；历史关联不代表现行角色状态、能力、阵营或剧情仍然一致。`
+                    : "若该条目没有直接关联角色，可将其视为背景设定的历史线索，并从当前官方剧情、地点或组织资料补充上下文。",
                   relatedCharacterNames.length > 0
-                    ? `If you are checking character background, continue with ${relatedCharacterNames.join(", ")} and related character pages to connect abilities, factions, and story clues.`
-                    : "If this entry has no direct character links yet, treat it as setting context first, then use story, location, or organization entries to fill in the picture.",
+                    ? `Related characters such as ${relatedCharacterNames.join(", ")} are search terms for current references; a historical link does not establish that live character status, abilities, factions, or plot remain the same.`
+                    : "If this entry has no direct character links, treat it as a historical setting lead and fill in context from current official story, location, or organization references.",
                   relatedCharacterNames.length > 0
-                    ? `如果你正在查角色背景，可以繼續看 ${relatedCharacterNames.join("、")} 等相關角色頁，把能力、陣營和劇情線索串起來。`
-                    : "如果該條目暫時沒有直接關聯角色，優先把它當作背景設定理解，再透過主線、地點或組織條目補上下文。"
+                    ? `相關角色「${relatedCharacterNames.join("、")}」可作為目前資料的檢索詞；歷史關聯不代表現行角色狀態、能力、陣營或劇情仍然一致。`
+                    : "若該條目沒有直接關聯角色，可將其視為背景設定的歷史線索，並從目前官方劇情、地點或組織資料補充上下文。"
                 )}
               </li>
               <li>
                 {localizedText(
                   locale,
                   relatedLocationNames.length > 0
-                    ? `如果你在做地图探索，可以把 ${relatedLocationNames.join("、")} 等地点加入路线，避免只看设定而漏掉实际入口。`
-                    : "如果没有明确地点关联，建议先回到世界观索引，寻找同分类下更接近任务或地图入口的条目。",
+                    ? `相关地点「${relatedLocationNames.join("、")}」只能作为当前地图的检索词；完成坐标与可用性复核前，不要据此安排跑图或任务路线。`
+                    : "如果没有明确地点关联，可回到世界观索引寻找同分类的历史条目，再从当前官方资料核对地图和任务上下文。",
                   relatedLocationNames.length > 0
-                    ? `If you are exploring the map, add ${relatedLocationNames.join(", ")} to your route so the lore entry does not stay disconnected from practical entry points.`
-                    : "If no location is linked yet, return to the lore index and look for same-category entries that connect more directly to quests or map routes.",
+                    ? `Related locations such as ${relatedLocationNames.join(", ")} are only search terms for the current map; do not plan routes or quests from them before coordinates and availability are verified.`
+                    : "If no location is linked, return to the lore index for same-category historical entries, then verify map and quest context in current official material.",
                   relatedLocationNames.length > 0
-                    ? `如果你在做地圖探索，可以把 ${relatedLocationNames.join("、")} 等地點加入路線，避免只看設定而漏掉實際入口。`
-                    : "如果沒有明確地點關聯，建議先回到世界觀索引，尋找同分類下更接近任務或地圖入口的條目。"
+                    ? `相關地點「${relatedLocationNames.join("、")}」只能作為目前地圖的檢索詞；完成座標與可用性覆核前，不要據此安排跑圖或任務路線。`
+                    : "如果沒有明確地點關聯，可回到世界觀索引尋找同分類的歷史條目，再從目前官方資料核對地圖和任務上下文。"
                 )}
               </li>
             </ul>
@@ -206,14 +217,14 @@ export default async function LoreDetailPage({
 
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "后续怎么查", "Where To Go Next", "後續怎麼查")}
+              {localizedText(locale, "继续核验相关资料", "Continue verifying related references", "繼續覆核相關資料")}
             </h2>
             <p className="text-sm leading-7 text-gray-300">
               {localizedText(
                 locale,
-                `如果「${name}」影响你理解当前版本剧情，可以先回到世界观索引查同类条目；如果它关联角色或地点，再分别进入角色页、地点页和互动地图。这样能把设定、任务和实际探索连成一条线，而不是只停留在单个名词解释。`,
-                `If ${name} affects how you read the current story, return to the lore index for same-category entries first. If it connects to characters or locations, continue through character pages, location pages, and the interactive map so the setting, quests, and exploration path stay connected.`,
-                `如果「${name}」影響你理解目前版本劇情，可以先回到世界觀索引查同類條目；如果它關聯角色或地點，再分別進入角色頁、地點頁和互動地圖。這樣能把設定、任務和實際探索連成一條線，而不是只停留在單個名詞解釋。`
+                `可先回到世界观索引查同类历史条目，并将关联角色或地点名称用于检索当前客户端和官方资料。只有在确认当前剧情、任务和地图状态后，才将它们用于实际游玩判断。`,
+                `Return to the lore index for same-category historical entries, and use linked character or location names to search the current client and official material. Use them for live gameplay decisions only after current story, quest, and map status are confirmed.`,
+                `可先回到世界觀索引查同類歷史條目，並將關聯角色或地點名稱用於檢索目前客戶端和官方資料。只有在確認目前劇情、任務和地圖狀態後，才將它們用於實際遊玩判斷。`
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
