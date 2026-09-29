@@ -98,7 +98,7 @@ export default async function BuildsPage({
             locale={locale}
             items={[
               { label: zh ? "角色数量" : "Characters", value: `${characters.filter(c => c.recommendedBuild).length}` },
-              { label: zh ? "查看详情" : "Details", value: zh ? "点击角色卡片查看完整Build" : description },
+              { label: zh ? "查看详情" : "Details", value: zh ? "点击角色卡片查看历史构筑字段" : description },
             ]}
           />
         </div>
@@ -181,7 +181,7 @@ export default async function BuildsPage({
         <section className="mt-10 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-base font-semibold text-white">
-              {zh ? "抄作业前先看什么" : "Check these before copying a build"}
+              {zh ? "参考历史构筑前先核对什么" : "Verify these before using a historical build"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
               <li>{zh ? "先在客户端核对角色在你队里的当前职责，再区分站场输出、速切输出或功能位。" : "Verify the character's current role in your team in-client before treating it as an on-field, quick-swap, or utility build."}</li>
@@ -194,9 +194,9 @@ export default async function BuildsPage({
               {zh ? "常见误区" : "Common mistakes"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{zh ? "只看评分最高的套装，不看自己当前副本与资源成本。" : "Picking only the highest-rated set without considering your current farm efficiency and account budget."}</li>
-              <li>{zh ? "把输出角色和功能角色都按同一套暴击思路来堆。" : "Forcing every character into the same crit-focused template, including utility units."}</li>
-              <li>{zh ? "忽略配队触发条件，导致纸面强度高、实战覆盖率低。" : "Ignoring team triggers and ending up with a build that looks strong on paper but has poor uptime in real combat."}</li>
+              <li>{zh ? "把历史字段中的套装、词条或武器直接视为当前最优解。" : "Treating historical sets, stats, or weapons as a current best-in-slot answer."}</li>
+              <li>{zh ? "没有核对当前角色定位、技能效果和装备触发条件，就开始刷取或强化。" : "Farming or upgrading before verifying the character's current role, kit effects, and gear triggers."}</li>
+              <li>{zh ? "忽略当前队伍条件、库存与资源成本，只按站内旧字段投入。" : "Ignoring current team conditions, inventory, and resource cost while investing from older site fields."}</li>
             </ul>
           </div>
         </section>

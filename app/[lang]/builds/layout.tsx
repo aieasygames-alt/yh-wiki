@@ -10,13 +10,13 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环全角色最佳Build推荐 — 武器卡带词条汇总",
-    "NTE Best Builds for All Characters — Weapons, Disks & Stats"
+    "异环角色构筑档案｜历史装备与词条方向",
+    "NTE Character Build Archive | Historical Gear & Stat Directions"
   );
   const description = localizedText(
     locale,
-    "异环全角色Build推荐：最佳武器（弧盘）、卡带套装、主词条与副词条优先级，一页查看所有角色装备方案。",
-    "Complete build guide for all NTE characters: best Arcs (weapons), Cartridge sets, main stats, and sub-stat priorities in one page."
+    "异环角色构筑历史资料：记录弧盘、卡带、主词条与副词条方向。当前装备效果、可用性与投入价值请以目标区服客户端为准。",
+    "Historical NTE build references for recorded Arcs, disks, main stats, and substats. Verify current gear effects, availability, and investment value in your target client."
   );
   return {
     title,
