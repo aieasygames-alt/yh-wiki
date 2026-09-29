@@ -19,15 +19,15 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环抽卡系统详解 — 保底机制、概率分析与抽卡策略",
-    "NTE Gacha System — Rates, Pity & Best Pull Strategy",
-    "異環抽卡系統完整解析 — 保底、機率與抽取規劃"
+    "异环抽卡规则核验指南 — 保底、概率与预算前检查",
+    "NTE Gacha Rule Check Guide — Pity, Rates & Budget Checks",
+    "異環抽卡規則核驗指南 — 保底、機率與預算前檢查"
   );
   const description = localizedText(
     locale,
-    "全面解析异环(NTE)抽卡系统：无50/50机制、90抽保底、新手20抽自选、概率分析与零氪最优抽卡策略。",
-    "Complete guide to Neverness to Everness gacha system: no 50/50, 90-pull pity, beginner 20-pull selector, rates analysis and F2P strategy.",
-    "繁中玩家適用的異環(NTE)抽卡指南：整理無50/50、90抽保底、新手20抽自選、卡池機率與無課抽取優先順序。"
+    "异环(NTE)抽卡前核对指南：查看目标区服当前卡池详情、概率、保底、继承、定轨与付费规则；历史数字仅供理解。",
+    "NTE pre-pull check guide: verify the target server's current banner details, rates, pity, carry-over, path, and payment rules; historical figures are for context only.",
+    "異環(NTE)抽卡前核對指南：查看目標伺服器目前卡池詳情、機率、保底、繼承、定軌與付費規則；歷史數字僅供理解。"
   );
   return {
     title,
@@ -85,6 +85,20 @@ export default async function GachaSystemPage({
         <p className="text-gray-400 mb-8 text-sm leading-relaxed">
           {t(locale, "guideDetails.gachaSystemIntro")}
         </p>
+        <section className="mb-8 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-5">
+          <h2 className="text-lg font-semibold text-amber-100">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "抽卡或儲值前先核對目前規則" : "抽卡或充值前先核对当前规则")
+              : "Verify current rules before pulling or spending"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-gray-300">
+            {isZhLocale(locale)
+              ? (locale === "tw"
+                ? "本頁的卡池類型與數字屬於歷史理解參考，不保證適用於你的伺服器或目前版本。請在目標區服的遊戲內卡池詳情與官方公告中確認機率、保底、繼承、定軌、角色範圍與付費條款，再決定是否投入資源。"
+                : "本页的卡池类型与数字属于历史理解参考，不保证适用于你的服务器或当前版本。请在目标区服的游戏内卡池详情与官方公告中确认概率、保底、继承、定轨、角色范围与付费条款，再决定是否投入资源。")
+              : "Banner types and figures on this page are historical learning references and may not apply to your server or current version. Before committing resources, confirm rates, pity, carry-over, path rules, character pool, and payment terms in the target server's in-game banner details and official notices."}
+          </p>
+        </section>
 
         {/* Banner Types */}
         <section className="mb-10">
@@ -103,7 +117,7 @@ export default async function GachaSystemPage({
                   </h3>
                   {b.no5050 && (
                     <span className="text-xs px-2 py-1 rounded bg-green-900/30 text-green-400">
-                      {t(locale, "gachaSystem.no5050")}
+                      {isZhLocale(locale) ? (locale === "tw" ? `歷史參考：${t(locale, "gachaSystem.no5050")}` : `历史参考：${t(locale, "gachaSystem.no5050")}`) : `Historical reference: ${t(locale, "gachaSystem.no5050")}`}
                     </span>
                   )}
                 </div>
@@ -132,12 +146,12 @@ export default async function GachaSystemPage({
                 </div>
                 <div className="flex flex-wrap gap-3 text-xs text-gray-400">
                   <span>
-                    {t(locale, "gachaSystem.hardPity")}:{" "}
+                    {isZhLocale(locale) ? "历史" : "Historical"} {t(locale, "gachaSystem.hardPity")}:{" "}
                     <strong className="text-white">{b.hardPity}</strong>
                   </span>
                   {b.softPity && (
                     <span>
-                      {t(locale, "gachaSystem.softPity")}:{" "}
+                      {isZhLocale(locale) ? "历史" : "Historical"} {t(locale, "gachaSystem.softPity")}:{" "}
                       <strong className="text-white">{b.softPity}</strong>
                     </span>
                   )}

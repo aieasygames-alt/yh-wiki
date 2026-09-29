@@ -209,7 +209,7 @@ export function GachaClient({
     <>
       <WebApplicationJsonLd
         name={isZhLocale(lang) ? "异环抽卡模拟器" : "NTE Gacha Simulator"}
-        description={isZhLocale(lang) ? "异环卡池抽卡模拟工具，支持限定池/常驻池，体验抽卡概率与保底机制" : "NTE gacha pull simulator — supports limited and standard banners, experience pull rates and the pity system"}
+        description={isZhLocale(lang) ? "异环抽卡体验模拟工具，使用示例参数展示随机波动；不代表当前卡池、概率或保底规则" : "NTE pull-experience simulator using example parameters to show random variance; it does not represent current banners, rates, or pity rules"}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-2">{t(lang, "gacha.title")}</h1>
@@ -221,8 +221,8 @@ export function GachaClient({
         </h2>
         <p className="mt-3 text-sm leading-7 text-gray-300">
           {isZhLocale(lang)
-            ? "它更适合帮你理解异环卡池的保底节奏、提前感受不同卡池的出货波动，以及在正式抽卡前做一点心理预期管理。你可以把限定池、常驻池和专武池分开试，看看自己最在意的是出金速度、是否歪池，还是连续十连下的整体体验。"
-            : "This simulator is best for understanding NTE pity pacing, feeling how different banners swing over time, and setting expectations before real pulls. Try limited, standard, and weapon banners separately to see whether you care most about S-rank timing, featured hit rate, or overall multi-pull flow."}
+            ? "它只适合体验随机波动和理解模拟器的保底概念，不应作为真实抽卡、充值或资源预算依据。当前卡池、概率、保底、继承与定轨规则必须以目标区服客户端的详情页和官方公告为准。"
+            : "Use it only to experience random variance and a simulated pity concept. Do not use it for real pulls, spending, or resource budgeting. Current banners, rates, guarantees, carry-over, and path rules must be verified from the target server's in-client details and official notices."}
         </p>
       </section>
 
@@ -237,12 +237,12 @@ export function GachaClient({
         <div className="flex items-center justify-between gap-4">
           <div>
             <h2 className="text-base font-bold text-sky-300">
-              {isZhLocale(lang) ? "查看当前卡池时间表" : "View Current Banner Schedule"}
+              {isZhLocale(lang) ? "核验卡池状态与规则" : "Verify Banner Status & Rules"}
             </h2>
             <p className="text-sm text-gray-400 mt-1">
               {isZhLocale(lang)
-                ? "安魂曲当前UP，卡厄斯下一期；含保底规则、专武提醒和抽取建议。"
-                : "Lacrimosa is current, Chaos is next; includes pity rules, weapon notes, and pull advice."}
+                ? "查看目标区服的卡池状态、来源和游戏内倒计时；不要把模拟器参数当作当前规则。"
+                : "Check the target server's banner status, sources, and in-game countdown; do not treat simulator parameters as current rules."}
             </p>
           </div>
           <span className="text-sky-300 shrink-0">→</span>
@@ -273,11 +273,13 @@ export function GachaClient({
       {/* Banner Info */}
       <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 mb-6">
         <p className="text-sm text-gray-400">
-          {isZhLocale(lang) ? bannerConfig.description : bannerConfig.descriptionEn}
+          {isZhLocale(lang)
+            ? `${bannerConfig.description}（示例参数，仅用于模拟）`
+            : `${bannerConfig.descriptionEn} (Example parameters for simulation only.)`}
         </p>
         {bannerConfig.featured.length > 0 && (
           <div className="flex items-center gap-2 mt-2">
-            <span className="text-xs text-yellow-400">UP:</span>
+            <span className="text-xs text-yellow-400">{isZhLocale(lang) ? "示例角色：" : "Example units:"}</span>
             {bannerConfig.featured.map((cId) => {
               const char = characters.find((c) => c.id === cId);
               return char ? (
@@ -290,8 +292,8 @@ export function GachaClient({
         )}
         <p className="text-xs text-gray-600 mt-2">
           {isZhLocale(lang)
-            ? `五星基础概率 ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | ${bannerConfig.softPityStart} 抽开始软保底` : ""} | ${bannerConfig.pity5} 抽硬保底`
-            : `Base 5★ rate ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | Soft pity at ${bannerConfig.softPityStart}` : ""} | Hard pity at ${bannerConfig.pity5}`}
+            ? `模拟参数：五星基础概率 ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | ${bannerConfig.softPityStart} 抽开始模拟软保底` : ""} | ${bannerConfig.pity5} 抽模拟硬保底。请以游戏内详情为准。`
+            : `Simulation parameters: base 5★ rate ${bannerConfig.rate5}%${bannerConfig.softPityStart ? ` | simulated soft pity at ${bannerConfig.softPityStart}` : ""} | simulated hard pity at ${bannerConfig.pity5}. Verify in-game details.`}
         </p>
       </div>
 
