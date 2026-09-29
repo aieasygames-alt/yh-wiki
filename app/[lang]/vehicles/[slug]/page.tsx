@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getVehicle, getAllVehicles } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { BreadcrumbJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { FaqSection } from "../../../../components/FaqSection";
 import { GameImage } from "../../../../components/GameImage";
@@ -28,13 +27,13 @@ export async function generateMetadata({
   const sourceLabel = localizedText(locale, vehicle.source, vehicle.sourceEn);
   const title = localizedText(
     locale,
-    `${name} 属性、极速与获取方式 | 异环载具 Wiki`,
-    `${vehicle.nameEn} Stats, Top Speed & How to Get`
+    `${name} 历史性能与来源记录 | 异环载具资料`,
+    `${vehicle.nameEn} Historical Stats & Acquisition Record`
   );
   const description = completeMetaDescription(locale, localizedText(
     locale,
-    `异环载具「${name}」完整数据：${typeLabel}，极速 ${vehicle.topSpeed} km/h，来源为${sourceLabel}。查看加速、换挡、刹车、漂移评分、价格和获取建议。`,
-    `${vehicle.nameEn} vehicle guide for Neverness to Everness: ${vehicle.typeEn}, top speed ${vehicle.topSpeed} km/h, source ${vehicle.sourceEn}. Check acceleration, shift, brake, drift, price, and acquisition notes.`
+    `异环载具「${name}」的历史字段记录：${typeLabel}，记录极速 ${vehicle.topSpeed} km/h，记录来源为${sourceLabel}。性能、价格和获取信息须以目标客户端与官方公告复核。`,
+    `Historical NTE record for ${vehicle.nameEn}: ${vehicle.typeEn}, recorded top speed ${vehicle.topSpeed} km/h, recorded source ${vehicle.sourceEn}. Verify performance, price, and acquisition details in your target client and official notices.`
   ));
 
   return {
@@ -103,7 +102,6 @@ export default async function VehicleDetailPage({
       {vehicle.faq && vehicle.faq.length > 0 && (
         <FaqPageJsonLd faqs={vehicle.faq} lang={locale} />
       )}
-      <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
@@ -112,6 +110,20 @@ export default async function VehicleDetailPage({
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-8 rounded-xl border border-amber-500/40 bg-amber-950/20 p-5">
+          <h2 className="text-lg font-semibold text-amber-100">
+            {localizedText(locale, "历史载具资料，须以当前客户端复核", "Historical vehicle reference - verify in the current client", "歷史載具資料，須以目前客戶端覆核")}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-amber-50/80">
+            {localizedText(
+              locale,
+              `本页的极速、评分、价格、来源和前置条件均为历史记录字段，不证明「${vehicleName}」当前仍存在、可取得或保持相同性能。购买、兑换或投入资源前，请在目标客户端和官方公告中确认。`,
+              `This page records historical top speed, ratings, price, source, and prerequisites. It does not prove that ${vehicle.nameEn} still exists, is obtainable, or performs the same way today. Confirm it in your target client and official notices before purchasing, redeeming, or spending resources.`,
+              `本頁的極速、評分、價格、來源和前置條件均為歷史記錄字段，不證明「${vehicleName}」目前仍存在、可取得或保持相同性能。購買、兌換或投入資源前，請在目標客戶端和官方公告中確認。`
+            )}
+          </p>
+        </section>
+
         {/* Vehicle Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
@@ -127,7 +139,7 @@ export default async function VehicleDetailPage({
             />
             <div className="flex-1">
               <h1 className="text-2xl font-bold">
-                {isZhLocale(locale) ? vehicleName : `${vehicle.nameEn} Stats & Acquisition`}
+                {isZhLocale(locale) ? `${vehicleName} 历史记录` : `${vehicle.nameEn} Historical Record`}
               </h1>
               <p className="text-gray-500">{locale === "en" ? vehicle.name : vehicle.nameEn}</p>
               <div className="flex items-center gap-3 mt-2">
@@ -149,13 +161,14 @@ export default async function VehicleDetailPage({
 
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
           <h2 className="text-xl font-bold mb-3">
-            {localizedText(locale, "载具概览", "Vehicle Overview")}
+            {localizedText(locale, "历史字段概览", "Historical field overview", "歷史字段概覽")}
           </h2>
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              `「${vehicleName}」是异环中的${typeLabel}载具，品牌为${brandLabel || "未知"}，极速 ${vehicle.topSpeed} km/h。该页面汇总基础性能、获取来源、价格和常见问题，适合在购买、收藏或对比驾驶手感前快速确认车辆定位。加速、换挡、刹车与漂移评分越高，越适合竞速、城市通勤或复杂路况探索。`,
-              `${vehicle.nameEn} is a ${vehicle.typeEn} vehicle in Neverness to Everness from ${vehicle.brandEn || "an unknown brand"}, with a top speed of ${vehicle.topSpeed} km/h. This page summarizes performance, source, price, and FAQs so you can compare its driving role before buying, collecting, or using it for city traversal. Higher acceleration, shift, brake, and drift scores make it stronger for racing, commuting, or complex routes.`
+              `本页归档「${vehicleName}」曾被记录为${typeLabel}、品牌为${brandLabel || "未知"}，并带有 ${vehicle.topSpeed} km/h 的极速字段。性能、来源、价格和问答仅用于保留资料线索，不构成当前版本的驾驶表现、可用性或投入建议。`,
+              `This page archives a record that ${vehicle.nameEn} was listed as a ${vehicle.typeEn} from ${vehicle.brandEn || "an unknown brand"}, with a ${vehicle.topSpeed} km/h top-speed field. Performance, source, price, and FAQs preserve research leads only; they are not current-version driving, availability, or spending advice.`,
+              `本頁歸檔「${vehicleName}」曾被記錄為${typeLabel}、品牌為${brandLabel || "未知"}，並帶有 ${vehicle.topSpeed} km/h 的極速字段。性能、來源、價格和問答僅用於保留資料線索，不構成目前版本的駕駛表現、可用性或投入建議。`
             )}
           </p>
         </section>
@@ -163,7 +176,7 @@ export default async function VehicleDetailPage({
         {/* Performance Stats */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "vehicles.performanceStats")}
+            {localizedText(locale, "历史性能字段", "Historical performance fields", "歷史性能字段")}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4 space-y-3">
             <div className="flex items-center gap-3">
@@ -183,16 +196,16 @@ export default async function VehicleDetailPage({
         {/* Acquisition */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "vehicles.howToGet")}
+            {localizedText(locale, "历史来源与价格字段", "Historical source and price fields", "歷史來源與價格字段")}
           </h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-400">{t(locale, "common.source")}</p>
+                <p className="text-sm text-gray-400">{localizedText(locale, "记录来源", "Recorded source", "記錄來源")}</p>
                 <p className="font-medium">{sourceLabel}</p>
               </div>
               <div className="text-right">
-                <p className="text-sm text-gray-400">{t(locale, "common.price")}</p>
+                <p className="text-sm text-gray-400">{localizedText(locale, "记录价格", "Recorded price", "記錄價格")}</p>
                 <p className="font-medium text-primary-400">{priceLabel}</p>
               </div>
             </div>
@@ -207,36 +220,36 @@ export default async function VehicleDetailPage({
         <section className="mb-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "适合什么场景", "Best use cases", "適合什麼場景")}
+              {localizedText(locale, "如何阅读这些历史字段", "How to read these historical fields", "如何閱讀這些歷史字段")}
             </h2>
             <p className="text-sm leading-6 text-gray-300">
               {localizedText(
                 locale,
-                `判断「${vehicleName}」时，先看你需要的是极速、起步、漂移还是稳定刹车。极速 ${vehicle.topSpeed} km/h 更适合长距离直线移动；如果加速和换挡评分更高，则更适合城市短程、频繁转向和任务追踪路线。`,
-                `When judging ${vehicle.nameEn}, start with the driving problem you need to solve: top speed, launch, drift, or stable braking. Its ${vehicle.topSpeed} km/h top speed matters most on long straight routes, while stronger acceleration and shift scores are better for city traversal, frequent turns, and quest tracking.`,
-                `判斷「${vehicleName}」時，先看你需要的是極速、起步、漂移還是穩定煞車。極速 ${vehicle.topSpeed} km/h 更適合長距離直線移動；如果加速和換檔評分更高，則更適合城市短程、頻繁轉向和任務追蹤路線。`
+                `极速 ${vehicle.topSpeed} km/h 与加速、换挡、刹车、漂移评分反映的是资料曾记录的字段组合。它们可用于定位旧资料中的差异，但不能推导当前版本的路线效率、竞速表现或驾驶手感。`,
+                `The ${vehicle.topSpeed} km/h top-speed field and the acceleration, shift, brake, and drift ratings describe a previously recorded field set. They can help locate differences in old material, but cannot establish current route efficiency, racing performance, or handling.`,
+                `極速 ${vehicle.topSpeed} km/h 與加速、換檔、煞車、漂移評分反映的是資料曾記錄的字段組合。它們可用於定位舊資料中的差異，但不能推導目前版本的路線效率、競速表現或駕駛手感。`
               )}
             </p>
             <p className="mt-3 text-sm leading-6 text-gray-400">
               {localizedText(
                 locale,
-                `如果来源是「${sourceLabel}」，建议先确认是否需要主线进度、商店解锁或货币储备，再决定是否优先入手。`,
-                `Because the source is ${sourceLabel}, check story progress, shop unlocks, or currency reserves before prioritizing it.`,
-                `如果來源是「${sourceLabel}」，建議先確認是否需要主線進度、商店解鎖或貨幣儲備，再決定是否優先入手。`
+                `来源字段「${sourceLabel}」和记录价格「${priceLabel}」也可能失效或对应不同环境。请把它们视为复核关键词，而非当前解锁、兑换或购买依据。`,
+                `The recorded source ${sourceLabel} and price ${priceLabel} may be obsolete or refer to a different environment. Treat them as verification keywords, not as a basis for current unlocks, redemption, or purchases.`,
+                `來源字段「${sourceLabel}」和記錄價格「${priceLabel}」也可能失效或對應不同環境。請把它們視為覆核關鍵詞，而非目前解鎖、兌換或購買依據。`
               )}
             </p>
           </div>
 
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "对比建议", "Comparison notes", "對比建議")}
+              {localizedText(locale, "核验与对比边界", "Verification and comparison limits", "覆核與對比邊界")}
             </h2>
             <p className="text-sm leading-6 text-gray-300">
               {localizedText(
                 locale,
-                `不要只按价格或外观选择载具。对比同类车辆时，把「${vehicleName}」的极速、漂移和刹车放在同一张表里看：探索路线更看重稳定和操控，竞速路线才更看重速度上限。`,
-                `Do not choose a vehicle by price or appearance alone. When comparing vehicles in the same class, read ${vehicle.nameEn}'s top speed, drift, and brake scores together: exploration routes value stability and handling, while racing routes care more about speed ceiling.`,
-                `不要只按價格或外觀選擇載具。對比同類車輛時，把「${vehicleName}」的極速、漂移和煞車放在同一張表裡看：探索路線更看重穩定和操控，競速路線才更看重速度上限。`
+                `与同类条目对照时，只能比较记录内的字段差异。版本平衡、货币、驾驶规则、地区和活动条件都可能使旧数据不再可比；任何当前性能或价值判断都应回到同一目标客户端完成。`,
+                `When comparing this entry with others, compare only differences within the archived fields. Version balance, currencies, driving rules, regions, and event conditions can make old data non-comparable; make any current performance or value judgment in the same target client.`,
+                `與同類條目對照時，只能比較記錄內的字段差異。版本平衡、貨幣、駕駛規則、地區和活動條件都可能使舊數據不再可比；任何目前性能或價值判斷都應回到同一目標客戶端完成。`
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
