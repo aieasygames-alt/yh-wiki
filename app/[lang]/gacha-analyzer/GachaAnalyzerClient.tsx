@@ -26,11 +26,11 @@ interface BannerConf {
 
 const gachaData = gachaConfig as unknown as Record<string, BannerConf | { faq: unknown[] }>;
 const banners: { key: string; label: string; pity5: number }[] = [
-  { key: "limited", label: "", pity5: 90 },
-  { key: "limited-phase2", label: "", pity5: 90 },
-  { key: "beginner", label: "", pity5: 20 },
-  { key: "standard", label: "", pity5: 90 },
-  { key: "weapons", label: "", pity5: 60 },
+  { key: "limited", label: "", pity5: 0 },
+  { key: "limited-phase2", label: "", pity5: 0 },
+  { key: "beginner", label: "", pity5: 0 },
+  { key: "standard", label: "", pity5: 0 },
+  { key: "weapons", label: "", pity5: 0 },
 ];
 
 function getBannerConf(key: string): BannerConf | null {
@@ -69,7 +69,7 @@ export function GachaAnalyzerClient({
         return {
           key: b.key,
           label: conf ? (zh ? conf.name : conf.nameEn) : b.key,
-          pity5: conf?.pity5 ?? b.pity5,
+          pity5: b.pity5,
         };
       }),
     [zh]
@@ -261,32 +261,8 @@ export function GachaAnalyzerClient({
       ? Math.round(pityIntervals.reduce((a, b) => a + b, 0) / pityIntervals.length)
       : 0;
 
-    // Luck index: compare actual S rate to expected (0.6%)
-    const expectedRate = 0.6;
-    const luckIndex = sRate > 0 ? Math.round((sRate / expectedRate) * 100) : 0;
-
-    return { total, sCount, sRate, avgPity, pityIntervals, luckIndex };
+    return { total, sCount, sRate, avgPity, pityIntervals };
   }, [data]);
-
-  const luckLabel = useMemo(() => {
-    const idx = stats.luckIndex;
-    if (idx >= 200) return t(lang, `${ga}.luckGreat`);
-    if (idx >= 130) return t(lang, `${ga}.luckGood`);
-    if (idx >= 80) return t(lang, `${ga}.luckNormal`);
-    if (idx >= 40) return t(lang, `${ga}.luckBad`);
-    if (idx > 0) return t(lang, `${ga}.luckTerrible`);
-    return "-";
-  }, [stats.luckIndex, lang]);
-
-  const luckColor = useMemo(() => {
-    const idx = stats.luckIndex;
-    if (idx >= 200) return "text-green-400";
-    if (idx >= 130) return "text-blue-400";
-    if (idx >= 80) return "text-gray-300";
-    if (idx >= 40) return "text-orange-400";
-    if (idx > 0) return "text-red-400";
-    return "text-gray-500";
-  }, [stats.luckIndex]);
 
   const tabs: { key: TabKey; label: string }[] = [
     { key: "log", label: t(lang, `${ga}.tabLog`) },
@@ -314,19 +290,25 @@ export function GachaAnalyzerClient({
         </h2>
         <p className="mt-3 text-sm leading-7 text-gray-300">
           {zh
-            ? "如果你想判断自己离下一个保底还有多远、最近几个版本到底欧不欧，或者想把限定池、武器池和新手池的记录分开看清楚，这个工具会比手动记在备忘录里更直观。它特别适合长期追踪真实抽卡表现，而不是只看某一次单抽出货。"
-            : "If you want to see how far you are from the next pity, whether your recent versions were actually lucky, or how different banner types perform over time, this tool is much more useful than a plain note. It is built for tracking long-term pull behavior, not just one lucky screenshot."}
+            ? "它适合整理你自己的抽卡记录、回顾每个池子的结果和保存本地数据。它不验证当前保底、概率、继承或角色池，也不能据此判断离真实保底还有多远；这些规则必须以目标区服客户端详情和官方公告为准。"
+            : "Use it to organize your own pull records, review results by banner, and save local data. It does not verify current pity, rates, carry-over, or character pools, and cannot tell you how close you are to a real guarantee; verify those rules in the target server's in-client details and official notices."}
         </p>
       </section>
 
-      {/* Pity Progress Cards (always visible) */}
+      <p className="mb-4 text-xs text-amber-300/90">
+        {zh
+          ? "记录与统计复核：2026-09-29。保底进度、概率和卡池类型请手动以游戏内详情核对。"
+          : "Record and statistic review: September 29, 2026. Manually verify pity progress, rates, and banner type from in-game details."}
+      </p>
+
+      {/* Pull count cards; targets must be verified in-game. */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         {bannerOptions.map((b) => {
           const state = data.banners[b.key];
           const pity = state?.pityCount ?? 0;
-          const pct = Math.min(100, Math.round((pity / b.pity5) * 100));
-          const isDanger = pct >= 80;
-          const isWarn = pct >= 60;
+          const pct = 0;
+          const isDanger = false;
+          const isWarn = false;
           return (
             <div
               key={b.key}
@@ -336,7 +318,7 @@ export function GachaAnalyzerClient({
             >
               <p className="text-xs text-gray-400 truncate">{b.label}</p>
               <p className={`text-lg font-bold ${isDanger ? "text-red-400" : isWarn ? "text-orange-400" : "text-primary-400"}`}>
-                {pity}/{b.pity5}
+                {pity}
               </p>
               <div className="w-full h-1.5 bg-gray-800 rounded mt-1.5">
                 <div
@@ -344,6 +326,7 @@ export function GachaAnalyzerClient({
                   style={{ width: `${pct}%` }}
                 />
               </div>
+              <p className="mt-1 text-[10px] text-gray-600">{zh ? "真实保底以游戏内为准" : "Verify real pity in-game"}</p>
             </div>
           );
         })}
@@ -609,15 +592,14 @@ export function GachaAnalyzerClient({
             </div>
           </div>
 
-          {/* Luck index */}
+          {/* Recorded frequency; this is not a comparison with live odds. */}
           <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 text-center">
-            <p className="text-xs text-gray-500 mb-1">{t(lang, `${ga}.luckIndex`)}</p>
-            <p className={`text-3xl font-bold ${luckColor}`}>
-              {stats.luckIndex > 0 ? `${stats.luckIndex}%` : "-"}
+            <p className="text-xs text-gray-500 mb-1">{zh ? "已记录 S 级频率" : "Recorded S-rank frequency"}</p>
+            <p className="text-3xl font-bold text-primary-400">
+              {stats.total > 0 ? `${stats.sRate.toFixed(2)}%` : "-"}
             </p>
-            <p className={`text-sm mt-1 ${luckColor}`}>{luckLabel}</p>
             <p className="text-xs text-gray-600 mt-2">
-              {zh ? "对比理论 S 级概率 0.6%" : "Compared to theoretical 0.6% S-rank rate"}
+              {zh ? "仅基于本地记录，不代表当前游戏概率或运气结论。" : "Based only on local records; it does not represent current game odds or a luck conclusion."}
             </p>
           </div>
 
@@ -625,7 +607,7 @@ export function GachaAnalyzerClient({
           {stats.pityIntervals.length > 0 && (
             <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-5">
               <p className="text-sm font-medium text-gray-300 mb-3">
-                {zh ? "出金抽数分布" : "S-Rank Pity Distribution"}
+                {zh ? "本地记录中的 S 级间隔" : "S-rank intervals in local records"}
               </p>
               <div className="flex items-end gap-1 h-32">
                 {stats.pityIntervals.map((v, i) => {
@@ -824,7 +806,7 @@ export function GachaAnalyzerClient({
               {Object.entries(data.banners).map(([key, state]) => (
                 <Fragment key={key}>
                   <span className="text-gray-400">{bannerLabelMap[key] || key}</span>
-                  <span className="text-gray-200 font-medium">{state.totalPulls} ({zh ? "保底" : "pity"}: {state.pityCount})</span>
+                  <span className="text-gray-200 font-medium">{state.totalPulls} ({zh ? "本地计数" : "local count"}: {state.pityCount})</span>
                 </Fragment>
               ))}
             </div>
@@ -845,9 +827,9 @@ export function GachaAnalyzerClient({
             {zh ? "看结果时先关注什么" : "What to check first"}
           </h2>
           <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{zh ? "先看各卡池当前保底层数，而不是只看总抽数。" : "Check pity by banner before looking at raw total pulls."}</li>
-            <li>{zh ? "再看平均出金抽数，确认自己是经常提前出还是频繁吃满保底。" : "Then review average S-rank timing to see whether you usually high-roll or hit deep pity."}</li>
-            <li>{zh ? "最后再看历史记录，避免把不同卡池的结果混在一起误判。" : "Finally, review history so different banner types do not get mixed into one wrong conclusion."}</li>
+            <li>{zh ? "先按卡池分开整理本地记录，避免把不同记录混在一起。" : "First separate local records by banner so unrelated entries do not get mixed."}</li>
+            <li>{zh ? "再看已记录的 S 级间隔，用于回顾，不用它推算真实保底。" : "Then review recorded S-rank intervals for hindsight, not to infer real pity."}</li>
+            <li>{zh ? "准备抽卡或充值时，重新在游戏内核对当前规则。" : "Before pulling or spending, verify current rules in-game again."}</li>
           </ul>
         </div>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -855,8 +837,8 @@ export function GachaAnalyzerClient({
             {zh ? "常见误区" : "Common mistakes"}
           </h2>
           <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{zh ? "不同卡池的保底不应该合并计算。" : "Do not combine pity across unrelated banner pools."}</li>
-            <li>{zh ? "一两次欧皇记录不代表长期运气走势。" : "One or two lucky pulls do not define long-term luck."}</li>
+            <li>{zh ? "本地计数不等同于游戏内的真实保底进度。" : "Local counts are not the real in-game pity progress."}</li>
+            <li>{zh ? "少量记录不代表当前概率或长期结果。" : "A small sample does not represent current odds or long-term results."}</li>
             <li>{zh ? "导入覆盖数据前先导出备份，避免把旧记录直接冲掉。" : "Always export a backup before replacing your saved data."}</li>
           </ul>
         </div>

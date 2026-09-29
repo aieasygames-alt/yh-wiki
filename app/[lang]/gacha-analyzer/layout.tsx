@@ -8,10 +8,10 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
   const description = locale === "en"
-    ? "Record NTE pulls, track pity across banner types, review 4-star and 5-star history, and export your gacha data to plan future pulls with less guesswork."
+    ? "Record your own NTE pull results and export local data. This tool does not verify current pity, rates, carry-over, or banner pools; use the target server's in-game details and official notices."
     : locale === "tw"
-      ? "記錄異環抽卡結果、追蹤各卡池保底進度、回看四星與五星出貨歷史，並匯出資料輔助你規劃後續抽卡。"
-      : "记录异环抽卡结果、追踪各卡池保底进度、回看四星与五星出货历史，并导出数据辅助你规划后续抽卡。";
+      ? "記錄自己的異環抽卡結果並匯出本地資料；本工具不驗證目前保底、機率、繼承或卡池，請以目標區服遊戲內詳情和官方公告為準。"
+      : "记录自己的异环抽卡结果并导出本地数据；本工具不验证当前保底、概率、继承或卡池，请以目标区服游戏内详情和官方公告为准。";
   return {
     title: t(locale, "gachaAnalyzer.seoTitle"),
     description,
