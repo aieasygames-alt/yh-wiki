@@ -268,6 +268,15 @@ function generateApiJson() {
 function generateContentFreshnessReport() {
   const now = new Date();
   const dayMs = 24 * 60 * 60 * 1000;
+  function reviewPriority(entry) {
+    const text = `${entry.id} ${entry.title || ""} ${entry.titleEn || ""}`.toLowerCase();
+    const highRisk = /(gacha|banner|tier|redeem|code|pull|character|setting|performance|download|platform|system-requirement)/;
+    const mediumRisk = /(team|build|material|explor|map|boss|quest|event|vehicle)/;
+    if (entry.type === "changelog") return "high";
+    if (highRisk.test(text)) return "high";
+    if (mediumRisk.test(text)) return "medium";
+    return "low";
+  }
   const entries = [
     ...load("guides.json").map((item) => ({ id: item.id, type: "guide", date: item.date, title: item.title, titleEn: item.titleEn })),
     ...load("blog.json").map((item) => ({ id: item.id, type: "blog", date: item.date, title: item.title, titleEn: item.titleEn })),
@@ -275,13 +284,22 @@ function generateContentFreshnessReport() {
   ].map((entry) => {
     const timestamp = entry.date ? new Date(entry.date).getTime() : NaN;
     const ageDays = Number.isFinite(timestamp) ? Math.floor((now.getTime() - timestamp) / dayMs) : null;
-    return { ...entry, ageDays, needsReview: ageDays === null || ageDays > 45 };
+    const priority = reviewPriority(entry);
+    return { ...entry, ageDays, priority, needsReview: ageDays === null || ageDays > 45 };
   });
+  const needsReview = entries
+    .filter((entry) => entry.needsReview)
+    .sort((a, b) => {
+      const weight = { high: 3, medium: 2, low: 1 };
+      return weight[b.priority] - weight[a.priority] || (b.ageDays || 0) - (a.ageDays || 0);
+    });
+  const byPriority = Object.fromEntries(["high", "medium", "low"].map((priority) => [priority, needsReview.filter((entry) => entry.priority === priority).length]));
   const report = {
     generatedAt: now.toISOString(),
     reviewAfterDays: 45,
-    totals: { tracked: entries.length, needsReview: entries.filter((entry) => entry.needsReview).length },
-    needsReview: entries.filter((entry) => entry.needsReview).sort((a, b) => (b.ageDays || 0) - (a.ageDays || 0)),
+    totals: { tracked: entries.length, needsReview: needsReview.length, byPriority },
+    weeklyQueue: needsReview.slice(0, 12),
+    needsReview,
   };
   fs.writeFileSync(path.join(PUBLIC, "content-freshness.json"), JSON.stringify(report, null, 2), "utf-8");
   console.log(`[content-freshness] ${report.totals.needsReview}/${report.totals.tracked} items need review`);

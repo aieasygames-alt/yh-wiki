@@ -4,6 +4,7 @@ import { LOCALES, hreflangAlternates, isZhLocale, type Locale } from "../../../l
 import { getLatestLiveChangelog, getUpcomingChangelogs, getVersionSpotlightContent } from "../../../lib/queries";
 import operations from "../../../data/version-operations.json";
 import { ContentStatus, type VerificationStatus } from "../../../components/ContentStatus";
+import freshnessReport from "../../../public/content-freshness.json";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ lang: locale }));
@@ -39,6 +40,7 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
   const currentVersion = current?.version ?? "1.x";
   const upcoming = getUpcomingChangelogs()[0];
   const spotlight = current ? getVersionSpotlightContent(current.version, 6) : [];
+  const weeklyQueue = freshnessReport.weeklyQueue.slice(0, 6);
 
   const typeClass = (type?: string) => {
     switch (type) {
@@ -183,6 +185,31 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
                 <ContentStatus locale={locale} status={item.status as VerificationStatus} reviewedAt={operations.reviewedAt} />
                 <h3 className="mt-3 font-medium">{isZhLocale(locale) ? item.titleZh : item.title}</h3>
                 <p className="mt-1 text-sm text-gray-400">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-6 rounded-xl border border-rose-500/20 bg-rose-500/5 p-6">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h2 className="text-xl font-bold">{isZhLocale(locale) ? (locale === "tw" ? "本週內容復核重點" : "本周内容复核重点") : "This Week's Content Review Queue"}</h2>
+              <p className="mt-1 text-sm text-gray-400">
+                {isZhLocale(locale)
+                  ? "优先检查会影响卡池、资源、角色、平台或性能决策的陈旧内容。"
+                  : "Prioritize aged content that can affect banners, resources, character, platform, or performance decisions."}
+              </p>
+            </div>
+            <span className="text-xs text-gray-500">{isZhLocale(locale) ? `${freshnessReport.totals.needsReview} 项待复核` : `${freshnessReport.totals.needsReview} items need review`}</span>
+          </div>
+          <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            {weeklyQueue.map((item) => (
+              <div key={`${item.type}-${item.id}`} className="rounded-lg border border-gray-800 bg-gray-950/35 p-4">
+                <div className="flex items-center justify-between gap-2 text-xs">
+                  <span className="rounded-full bg-rose-500/15 px-2 py-1 text-rose-200">{item.type}</span>
+                  <span className="text-gray-500">{isZhLocale(locale) ? `${item.ageDays} 天未复核` : `${item.ageDays} days old`}</span>
+                </div>
+                <p className="mt-3 text-sm font-medium">{isZhLocale(locale) ? item.title : item.titleEn}</p>
               </div>
             ))}
           </div>

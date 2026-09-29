@@ -6,6 +6,7 @@ import faqsData from "../../data/faqs.json";
 import mapData from "../../data/map-markers.json";
 import operations from "../../data/version-operations.json";
 import changelogsData from "../../data/changelog.json";
+import freshnessReport from "../../public/content-freshness.json";
 
 describe("compares.json — nte-vs-ananta", () => {
   const ananta = comparesData.find((c) => c.id === "nte-vs-ananta");
@@ -93,6 +94,13 @@ describe("late Version 1.3 player-decision content", () => {
       expect(changelog.reviewedAt).toMatch(/^2026-\d{2}-\d{2}$/);
       expect(["confirmed", "live", "watch", "historical"]).toContain(changelog.verificationStatus);
     }
+  });
+
+  it("publishes a risk-ranked content review queue", () => {
+    expect(freshnessReport.reviewAfterDays).toBe(45);
+    expect(freshnessReport.weeklyQueue.length).toBeGreaterThan(0);
+    expect(freshnessReport.totals.byPriority.high).toBeGreaterThan(0);
+    expect(freshnessReport.weeklyQueue[0].priority).toBe("high");
   });
 });
 
