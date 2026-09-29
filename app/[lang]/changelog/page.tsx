@@ -8,13 +8,13 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const { lang } = await params;
   const locale = lang as Locale;
   const changelogs = getAllChangelogs();
-  const latest = changelogs[0];
+  const latestRecorded = changelogs[0];
   const title = t(locale, "changelog.seoTitle");
   const description = locale === "tw"
-    ? `異環版本更新日誌彙整，目前追蹤 ${changelogs.length} 次版本紀錄，涵蓋新角色、卡池、活動、平衡調整與修復內容；最新版本為 ${latest?.version ?? "1.x"}。`
+    ? `異環歷史版本記錄彙整，收錄 ${changelogs.length} 次站內版本資料，涵蓋角色、卡池、活動、平衡與修復欄位；最後記錄為 ${latestRecorded?.version ?? "1.x"}，目前狀態請以客戶端為準。`
     : locale === "zh"
-    ? `异环版本更新日志汇总，当前整理 ${changelogs.length} 次版本记录，涵盖新角色、卡池、活动、平衡调整与修复内容。最新版本为 ${latest?.version ?? "1.x"}。`
-    : `Neverness to Everness patch notes hub with ${changelogs.length} tracked updates covering characters, banners, events, balance changes, and fixes. Latest version: ${latest?.version ?? "1.x"}.`;
+    ? `异环历史版本记录汇总，收录 ${changelogs.length} 次站内版本资料，涵盖角色、卡池、活动、平衡与修复字段；最后记录为 ${latestRecorded?.version ?? "1.x"}，当前状态请以客户端为准。`
+    : `Historical NTE version-record hub with ${changelogs.length} site entries covering character, banner, event, balance, and fix fields. Last recorded version: ${latestRecorded?.version ?? "1.x"}; verify current status in the client.`;
   return {
     title,
     description,
@@ -45,6 +45,11 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-2xl font-bold mb-2">{t(locale, "changelog.title")}</h1>
         <p className="text-gray-400 mb-8">{t(locale, "changelog.description")}</p>
+        <p className="mb-8 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-amber-100">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "歷史版本資料復核：2026-09-29。所有日期、角色、卡池、活動、平衡、修復與補償條目都不驗證目前版本；請以目標區服客戶端和官方公告確認現況。" : "历史版本资料复核：2026-09-29。所有日期、角色、卡池、活动、平衡、修复与补偿条目都不验证当前版本；请以目标区服客户端和官方公告确认现况。")
+            : "Historical version records reviewed September 29, 2026. Dates, characters, banners, events, balance changes, fixes, and compensation entries do not verify the current version; confirm the current state in the target server’s client and official notices."}
+        </p>
 
         <div className="space-y-6">
           {changelogs.map((cl) => {

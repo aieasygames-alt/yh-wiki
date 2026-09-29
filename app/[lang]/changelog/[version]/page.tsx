@@ -51,13 +51,13 @@ export async function generateMetadata({ params }: { params: { lang: string; ver
     : (cl.highlights || []).slice(0, 3).map((item) => localizedText(locale, item, item)).join("、");
   const title = localizedText(
     locale,
-    `异环 ${cl.version} ${versionName} 更新日志`,
-    `NTE ${cl.version} Patch Notes — ${versionName}`
+    `异环 ${cl.version} ${versionName} 历史更新记录`,
+    `NTE ${cl.version} Historical Patch Record — ${versionName}`
   );
   const description = completeMetaDescription(locale, localizedText(
     locale,
-    `异环 ${cl.version} 版本更新内容：${highlights}`,
-    `Neverness to Everness v${cl.version} patch notes and update details: ${highlights}`
+    `异环 ${cl.version} 历史更新记录：${highlights}。当前状态请以客户端和官方公告为准。`,
+    `Historical NTE v${cl.version} record: ${highlights}. Verify current status in the client and official notices.`
   ));
 
   return {
@@ -114,14 +114,19 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
         ]}
       />
       <ArticleJsonLd
-        title={localizedText(locale, `异环 ${versionName} 更新说明 v${cl.version}`, `Neverness to Everness ${versionName} Patch Notes v${cl.version}`)}
+        title={localizedText(locale, `异环 ${versionName} 历史更新记录 v${cl.version}`, `Neverness to Everness ${versionName} Historical Patch Record v${cl.version}`)}
         description={isZhLocale(locale)
-          ? localizedText(locale, `${versionName} 版本（v${cl.version}，${cl.date}）更新内容与补偿说明`, "")
-          : `${versionName} (v${cl.version}, ${cl.date}) patch notes and compensation details`}
+          ? localizedText(locale, `${versionName} 版本（v${cl.version}，${cl.date}）的历史更新与补偿记录`, "")
+          : `Historical ${versionName} record (v${cl.version}, ${cl.date}) with update and compensation fields`}
         url={`https://nteguide.com/${lang}/changelog/${version}`}
         datePublished={cl.date}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <p className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm leading-6 text-amber-100">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "歷史條目：本頁不驗證目前角色、卡池、活動、平衡、修復、獎勵或補償資格。請以目標區服客戶端和官方公告確認目前版本。" : "历史条目：本页不验证当前角色、卡池、活动、平衡、修复、奖励或补偿资格。请以目标区服客户端和官方公告确认当前版本。")
+            : "Historical entry: this page does not verify current characters, banners, events, balance, fixes, rewards, or compensation eligibility. Confirm the current version in the target server’s client and official notices."}
+        </p>
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">

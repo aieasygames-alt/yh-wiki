@@ -21,8 +21,8 @@ export async function generateMetadata({
   const title = localizedText(locale, "异环活动日历与兑换码 — NTE Guide", "NTE Events & Redeem Codes — NTE Guide");
   const description = localizedText(
     locale,
-    "异环(NTE)活动与兑换码参考页，区分已确认的当前限时内容、常驻玩法与历史活动，避免将开服福利误作当前资源。",
-    "Neverness to Everness events and redeem-code reference, separating confirmed limited content from permanent modes and historical launch rewards."
+    "异环(NTE)活动与兑换码历史参考页，记录旧活动、模式和兑换码字段；当前开放状态、奖励与资格请以目标区服客户端和官方公告为准。",
+    "Historical NTE events and redeem-code reference for recorded activities, modes, and code fields. Verify current availability, rewards, and eligibility in the target server's client and official notices."
   );
   return {
     title,
@@ -56,8 +56,8 @@ const REFERENCE_EVENTS = [
     titleEn: "City Tycoon Season 1",
     typeZh: "常驻玩法",
     typeEn: "Permanent Mode",
-    descZh: "经营你的城市，提升都市大亨等级至30级可免费获得满配赤子（小智）。",
-    descEn: "Manage your city. Reach Lv.30 to get a free maxed Chiz (Xiaozhi).",
+    descZh: "都市大亨第一赛季的历史模式与奖励记录；当前模式、条件和奖励请以客户端显示为准。",
+    descEn: "Historical record of City Tycoon Season 1 mode and rewards; verify current mode, requirements, and rewards in the client.",
     rewardZh: ["满配赤子 6+5", "专属弧盘「沉思之猫」", "异环币 x20000"],
     rewardEn: ["Maxed Chiz 6+5", 'Exclusive Arc "Contemplative Cat"', "Hethereau Coin x20000"],
     color: "border-emerald-500/30 bg-emerald-500/5",
@@ -95,7 +95,7 @@ export default async function EventsPage({
     <>
       <ArticleJsonLd
         title={isZh ? "异环活动日历与兑换码" : "NTE Events & Redeem Codes"}
-        description={isZh ? "异环活动、常驻玩法、历史奖励和可用兑换码的状态参考。" : "NTE event, permanent-mode, historical-reward, and active-code status reference."}
+        description={isZh ? "异环历史活动、模式、奖励和兑换码字段参考；当前状态必须以客户端核对。" : "Historical NTE event, mode, reward, and redeem-code fields; verify current status in the client."}
         url={`https://nteguide.com/${lang}/events`}
       />
       <Breadcrumb
@@ -106,12 +106,12 @@ export default async function EventsPage({
       />
       <div className="max-w-4xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-2">
-          {isZh ? "活动日历" : "Events & Calendar"}
+          {isZh ? "活动与奖励历史资料" : "Historical Events & Rewards"}
         </h1>
         <p className="text-gray-400 mb-8 text-sm">
           {isZh
-            ? "已确认活动、常驻玩法、历史奖励与可用兑换码参考。限时内容以客户端倒计时和官方公告为准。"
-            : "Confirmed event references, permanent modes, historical rewards, and active codes. Verify limited content against the in-game countdown and official notices."}
+            ? "本站记录的活动、模式、奖励与兑换码仅供历史查阅，不验证当前开放、资格、奖励或兑换状态。请以目标区服客户端和官方公告为准。"
+            : "The site’s recorded events, modes, rewards, and codes are for historical reference only and do not verify current availability, eligibility, rewards, or redemption status. Use the target server’s client and official notices as the source of truth."}
         </p>
         <div className="mb-8">
           <ContentStatus locale={locale} status="watch" reviewedAt={reviewedAt} />
@@ -120,7 +120,7 @@ export default async function EventsPage({
         {/* Current limited events */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "当前活动" : "Current Events"}
+            {isZh ? "当前活动：未在本站验证" : "Current Events: Not Verified Here"}
           </h2>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
             <p className="text-sm text-gray-500">
@@ -173,12 +173,12 @@ export default async function EventsPage({
         {/* Active Redeem Codes */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "可用兑换码" : "Active Redeem Codes"}
+            {isZh ? "历史兑换码候选" : "Historical Redeem-Code Candidates"}
           </h2>
           {activeCodes.length === 0 ? (
             <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
               <p className="text-sm text-gray-500">
-                {isZh ? "暂无可用兑换码" : "No active codes right now"}
+                {isZh ? "本站未验证当前可用兑换码；请在官方来源和客户端兑换界面确认。" : "The site has not verified a currently redeemable code; confirm it in official sources and the client redemption screen."}
               </p>
             </div>
           ) : (
@@ -195,7 +195,7 @@ export default async function EventsPage({
                     {isZh ? code.reward : code.rewardEn}
                   </span>
                   <span className="text-[10px] text-gray-600 shrink-0">
-                    {code.region === "cn" ? (isZh ? "国服" : "CN") : "Global"}
+                    {code.region === "cn" ? (isZh ? "国服历史字段" : "CN historical field") : (isZh ? "国际服历史字段" : "Global historical field")}
                   </span>
                 </div>
               ))}
@@ -212,7 +212,7 @@ export default async function EventsPage({
         {/* Upcoming Events placeholder */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "即将到来" : "Coming Soon"}
+            {isZh ? "后续活动：未验证" : "Future Events: Unverified"}
           </h2>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
             <svg className="w-10 h-10 mx-auto mb-3 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -223,8 +223,8 @@ export default async function EventsPage({
             </svg>
             <p className="text-sm text-gray-500">
               {isZh
-                ? "新版本活动和限定内容将在官方公告后第一时间更新。"
-                : "New version events and limited content will be updated as soon as officially announced."}
+                ? "本站不承诺实时更新。请直接查看目标区服的游戏内活动页和官方公告，以确认后续活动与限定内容。"
+                : "This site does not promise real-time updates. Check the target server’s in-game events page and official notices directly for future events and limited content."}
             </p>
           </div>
         </section>

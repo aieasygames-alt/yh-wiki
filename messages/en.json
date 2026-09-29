@@ -414,9 +414,9 @@
     }
   },
   "changelog": {
-    "title": "Changelog",
-    "seoTitle": "NTE Changelog (2026) - New Characters, Banners, Events & Patch Updates",
-    "description": "Track Neverness to Everness patch notes with new characters, banner changes, events, system updates, balance notes, and version-by-version highlights."
+    "title": "Historical Version Records",
+    "seoTitle": "NTE Historical Version Records (2026) - Character, Banner, Event & Fix Fields",
+    "description": "Browse recorded NTE version entries with character, banner, event, system, balance, and fix fields. Verify current status in the target server's client and official notices."
   },
   "compare": {
     "title": "Compare",
