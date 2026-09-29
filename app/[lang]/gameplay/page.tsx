@@ -1,18 +1,9 @@
 import Link from "next/link";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../lib/i18n";
-import { getAllFaqs } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
-import { FaqPageJsonLd, ArticleJsonLd } from "../../../components/JsonLd";
-import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
+import { ArticleJsonLd } from "../../../components/JsonLd";
 import { ArticleContent } from "../../../components/ArticleContent";
 import { TableOfContents, TableOfContentsDesktop, extractHeadings } from "../../../components/TableOfContents";
-import { FaqSection } from "../../../components/FaqSection";
-
-const GAMEPLAY_FAQ_IDS = [
-  "multiplayer-coop",
-  "nte-vehicles-cars-guide",
-  "ride-assault-guide",
-];
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -27,14 +18,14 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環遊戲玩法概覽 — 開放世界、戰鬥、抽卡、載具全介紹"
-      : "异环游戏玩法概览 — 开放世界、战斗、抽卡、载具全介绍")
-    : "Neverness to Everness Gameplay — Open World, Combat, Gacha & Vehicles";
+      ? "異環玩法歷史資料｜系統線索與版本覆核"
+      : "异环玩法历史资料｜系统线索与版本复核")
+    : "NTE Gameplay History | System Records & Version Verification";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環（NTE）完整玩法介紹：開放世界探索、元素反應戰鬥、抽卡系統（無50/50）、載具駕駛、房屋建造、多人聯機等核心系統一覽。"
-      : "异环（NTE）完整玩法介绍：开放世界探索、元素反应战斗、抽卡系统（无50/50）、载具驾驶、房屋建造、多人联机等核心系统一览。")
-    : "Complete gameplay overview for Neverness to Everness: open-world exploration, elemental combat, gacha (no 50/50), vehicles, housing, co-op and more.";
+      ? "異環（NTE）玩法歷史資料，整理曾被提及的探索、戰鬥、角色取得、載具、房屋與聯機系統。規則、平台與獎勵須以目標客戶端及官方公告覆核。"
+      : "异环（NTE）玩法历史资料，整理曾被提及的探索、战斗、角色获取、载具、房屋与联机系统。规则、平台与奖励须以目标客户端及官方公告复核。")
+    : "Historical NTE gameplay records covering previously mentioned exploration, combat, character acquisition, vehicle, housing, and multiplayer systems. Verify rules, platforms, and rewards in your target client and official notices.";
   return {
     title,
     description,
@@ -50,92 +41,80 @@ export default async function GameplayPage({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const allFaqs = getAllFaqs();
-  const faqs = GAMEPLAY_FAQ_IDS
-    .map((id) => allFaqs.find((f) => f.id === id))
-    .filter(Boolean)
-    .map((f) => ({
-      question: f!.question,
-      questionZh: f!.question,
-      answer: f!.answer,
-      answerZh: f!.answer,
-    }));
-
-  // Build gameplay overview content
+  // Historical system mentions are retained as research leads, not current mechanics.
   const gameplayContent = isZhLocale(locale)
-    ? `## 异环（NTE）游戏玩法概览
+    ? `## 异环（NTE）玩法历史资料
 
-异环（Neverness to Everness）是由完美世界 Hotta Studio 开发的都市奇幻开放世界动作 RPG。游戏融合了开放世界探索、元素反应战斗、抽卡角色收集、载具驾驶和多人联机等多种玩法系统。
+本页汇总公开资料中曾出现过的玩法系统线索，包括探索、战斗、角色获取、载具、房屋和联机。它不证明这些系统已在当前客户端上线，也不确认具体规则、奖励、人数、平台或跨平台能力。
 
-## 开放世界探索
+## 历史探索系统线索
 
-异环的世界设定在一个超自然的都市环境中，玩家可以自由探索城市街道、异空间和其他神秘区域。游戏支持完整的昼夜循环和天气系统，为探索增添沉浸感。世界散布着宝箱、隐藏任务、收集品和世界 Boss 等丰富内容。
+过去资料曾描述都市街道、异空间与神秘区域等探索场景，也曾提及昼夜、天气、宝箱、任务、收集品和首领等元素。具体地图范围、刷新、开放条件和奖励结构需要在目标版本中逐项确认。
 
-## 元素反应战斗系统
+## 历史战斗系统线索
 
-战斗是异环的核心亮点。游戏采用元素反应机制，鼓励玩家根据敌人属性搭配队伍。每个角色拥有独特的技能组合，闪避机制在精准时机触发完美闪避奖励。连锁攻击和爆发技能创造高伤害窗口，战斗节奏紧凑且富有策略性。
+历史描述中出现过元素反应、角色技能、精准闪避、连锁攻击和爆发窗口等概念。它们只能作为查找官方演示、公告或当前教学的关键词，不能用来推断现行数值、配队、伤害机制或操作收益。
 
-## 抽卡系统（无 50/50）
+## 历史角色获取线索
 
-异环的抽卡系统相比同类游戏更加友好：没有 50/50 机制，90 抽保底必定获得当期限定角色。新手还有 20 抽自选 S 级角色的福利。这使得零氪和微氪玩家的角色收集更加可预期。
+过去内容曾讨论角色获取、限定角色、保底和新手奖励等机制。概率、保底次数、歪池规则、兑换条件、免费奖励和适用服务器均可能随版本改变；在抽取或消费前，应以游戏内详情和官方公告为唯一依据。
 
-## 载具系统
+## 历史载具系统线索
 
-异环是少数拥有完整载具驾驶系统的二次元游戏。玩家可以在开放世界中驾驶各种载具自由行驶，包括与保时捷联名的限定车辆。载具拥有加速、漂移等真实物理手感，并支持跨平台驾驶操作。
+公开材料曾展示载具驾驶、加速、漂移和联名车辆等内容。车辆清单、驾驶规则、获取方式、合作内容和可操作平台均需在当前客户端复核，不应依据旧资料安排货币或路线。
 
-## 房屋建造（City Tycoon）
+## 历史房屋与经营线索
 
-游戏内置房屋建造和经营系统（City Tycoon 模式）。玩家可以购买房产、装修布置，并通过经营获得收入，最终可以免费获得 S 级角色。这是异环独有的长期养成系统。
+历史内容曾提到房产、装修、经营和 City Tycoon 等名称。模式是否开放、投入成本、产出、奖励和角色获得条件都可能变化，不能将历史描述作为当前长期养成计划。
 
-## 多人联机
+## 历史联机线索
 
-支持最多 4 人在线合作，包括 Pink Paws 社交小队系统。全平台（PC、手机、PS5）数据互通，可跨平台联机游戏。`
-    : `## Neverness to Everness Gameplay Overview
+过往资料出现过合作、社交小队和跨平台等表述，但联机人数、模式、存档互通、跨平台范围和服务地区必须以当前客户端与官方服务说明确认。`
+    : `## NTE Gameplay History
 
-Neverness to Everness (NTE) is an urban-fantasy open-world action RPG developed by Hotta Studio (Perfect World). The game combines open-world exploration, elemental combat, gacha character collection, vehicle driving, housing, and multiplayer co-op into a single cohesive experience.
+This page gathers gameplay-system leads that have appeared in public material, including exploration, combat, character acquisition, vehicles, housing, and multiplayer. It does not establish that a system is live in the current client or confirm its rules, rewards, player count, platform support, or cross-platform capabilities.
 
-## Open World Exploration
+## Historical exploration leads
 
-NTE is set in a supernatural urban environment where players freely explore city streets, otherworldly dimensions, and mysterious areas. The game features a full day-night cycle and weather system for immersive exploration. The open world is packed with chests, hidden quests, collectibles, and world bosses.
+Earlier material described urban streets, otherworldly spaces, and mysterious areas, along with day-night cycles, weather, chests, quests, collectibles, and bosses. Confirm map scope, refresh behavior, access conditions, and reward structures in the target version.
 
-## Elemental Combat System
+## Historical combat leads
 
-Combat is NTE's standout feature. The elemental reaction system encourages strategic team building based on enemy attributes. Each character has a unique skill kit, with dodge mechanics that reward precise timing through perfect dodge bonuses. Chain attacks and burst skills create exciting damage windows.
+Historical descriptions mentioned elemental reactions, character skills, precise dodges, chain attacks, and burst windows. Use these only as terms for finding current official demonstrations, notices, or tutorials; they cannot establish live values, team builds, damage rules, or input rewards.
 
-## Gacha System (No 50/50)
+## Historical character-acquisition leads
 
-NTE's gacha system is notably player-friendly: there is NO 50/50 mechanic, meaning your 90-pull pity guarantees the featured character. New players also get a 20-pull S-rank selector, making character collection more predictable for F2P and low-spend players.
+Earlier coverage discussed character acquisition, limited characters, pity, and newcomer rewards. Rates, pity counts, guarantee rules, exchange conditions, free rewards, and eligible servers can change by version; use in-game details and official notices as the only basis for pulls or spending.
 
-## Vehicle System
+## Historical vehicle-system leads
 
-NTE is one of the few anime games with a full vehicle driving system. Players can drive various vehicles in the open world, including a Porsche collaboration car. Vehicles feature realistic physics with acceleration, drifting, and cross-platform controls.
+Public material previously showed vehicle driving, acceleration, drifting, and collaboration vehicles. Verify the roster, driving rules, acquisition methods, collaboration content, and supported platforms in the current client before planning currency use or routes.
 
-## Housing & City Tycoon
+## Historical housing and management leads
 
-The built-in housing and management system (City Tycoon mode) lets players buy property, decorate homes, and earn income through management — eventually earning a free S-rank character. This is NTE's unique long-term progression system.
+Historical material mentioned property, decoration, management, and the name City Tycoon. Mode availability, costs, outputs, rewards, and character conditions can all change, so this is not a current long-term progression plan.
 
-## Multiplayer Co-op
+## Historical multiplayer leads
 
-Supports up to 4-player online co-op including the Pink Paws social squad system. Full cross-platform save and cross-play across PC, mobile, and PS5.`;
+Earlier coverage referred to co-op, social squads, and cross-platform play. Confirm player limits, modes, save sharing, cross-play scope, and service regions in the current client and official service information.`;
 
   const headings = extractHeadings(gameplayContent);
 
   return (
     <>
       <ArticleJsonLd
-        title={isZhLocale(locale) ? "异环游戏玩法概览" : "Neverness to Everness Gameplay Overview"}
+        title={isZhLocale(locale) ? "异环玩法历史资料" : "NTE Gameplay History"}
         description={isZhLocale(locale)
           ? (locale === "tw"
-            ? "異環核心玩法總覽：開放世界探索、戰鬥、抽卡、載具、房屋與多人聯機介紹"
-            : "异环核心玩法总览：开放世界探索、战斗、抽卡、载具、房屋与多人联机介绍")
-          : "Complete gameplay overview: open world, combat, gacha, vehicles, housing, and more"}
+            ? "異環玩法歷史資料：探索、戰鬥、角色取得、載具、房屋與聯機線索"
+            : "异环玩法历史资料：探索、战斗、角色获取、载具、房屋与联机线索")
+          : "Historical gameplay records: exploration, combat, character acquisition, vehicles, housing, and multiplayer leads"}
         url={`https://nteguide.com/${lang}/gameplay`}
       />
-      {faqs.length > 0 && <FaqPageJsonLd faqs={faqs} lang={locale} />}
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: isZhLocale(locale) ? (locale === "tw" ? "遊戲概覽" : "游戏概览") : "Gameplay" },
+          { label: isZhLocale(locale) ? (locale === "tw" ? "玩法歷史資料" : "玩法历史资料") : "Gameplay history" },
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
@@ -143,70 +122,54 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
         <TableOfContentsDesktop headings={headings} />
         <h1 className="text-2xl font-bold mb-2">
           {isZhLocale(locale)
-            ? (locale === "tw" ? "異環遊戲玩法概覽" : "异环游戏玩法概览")
-            : "Neverness to Everness Gameplay Overview"}
+            ? (locale === "tw" ? "異環玩法歷史資料" : "异环玩法历史资料")
+            : "NTE Gameplay History"}
         </h1>
         <p className="text-sm text-gray-500 mb-6">
           {isZhLocale(locale)
             ? (locale === "tw"
-              ? "異環（NTE）核心玩法系統全面介紹：開放世界探索、元素戰鬥、抽卡、載具、房屋建造與多人聯機。"
-              : "异环（NTE）核心玩法系统全面介绍：开放世界探索、元素战斗、抽卡、载具、房屋建造和多人联机。")
-            : "Complete guide to all NTE gameplay systems: open-world, combat, gacha, vehicles, housing, and multiplayer."}
+              ? "曾被公開資料提及的玩法系統線索；規則、獎勵、平台與可用性都須以目前客戶端和官方公告覆核。"
+              : "曾被公开资料提及的玩法系统线索；规则、奖励、平台与可用性都须以当前客户端和官方公告复核。")
+            : "Gameplay-system leads from earlier public material; verify rules, rewards, platforms, and availability in the current client and official notices."}
         </p>
+
+        <section className="mb-6 rounded-xl border border-amber-500/40 bg-amber-950/20 p-5">
+          <h2 className="text-lg font-semibold text-amber-100">
+            {isZhLocale(locale) ? (locale === "tw" ? "歷史玩法線索，不能替代目前規則" : "历史玩法线索，不能替代当前规则") : "Historical gameplay leads do not replace current rules"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-amber-50/80">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "抽卡機率與保底、免費獎勵、聯機人數、跨平台、可用平台、系統開放條件與活動內容都有可能變動。在下載、抽取、消費或安排遊玩前，請以目標客戶端內說明與官方公告為準。" : "抽卡概率与保底、免费奖励、联机人数、跨平台、可用平台、系统开放条件与活动内容都有可能变动。在下载、抽取、消费或安排游玩前，请以目标客户端内说明与官方公告为准。")
+              : "Rates and pity, free rewards, player limits, cross-play, supported platforms, unlock conditions, and event content can change. Before downloading, pulling, spending, or planning play, rely on in-client information and official notices for your target version."}
+          </p>
+        </section>
 
         <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
           <h2 className="text-lg font-semibold text-white">
             {isZhLocale(locale)
-              ? (locale === "tw" ? "這頁玩法總覽最適合怎麼看？" : "这页玩法总览最适合怎么用？")
-              : "How should you use this gameplay overview?"}
+              ? (locale === "tw" ? "這頁歷史資料最適合怎麼看？" : "这页历史资料最适合怎么用？")
+              : "How should you use this historical reference?"}
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
               ? (locale === "tw"
-                  ? "先用這頁建立對異環核心系統的整體認知，再依需求跳轉到抽卡、載具、多人或新手指南等專題頁。這份總覽最適合快速判斷遊戲結構，不適合直接替代詳細機制攻略。"
-                  : "先用这页建立对异环核心系统的整体认知，再按需求跳转到抽卡、载具、多人或新手指南等专题页。这份总览最适合快速判断游戏结构，不适合直接替代详细机制攻略。")
-              : "Use this page to build a top-level understanding of NTE's systems first, then jump into gacha, vehicles, multiplayer, or beginner guides as needed. This overview is best for grasping the game structure, not replacing deep mechanic breakdowns."}
+                  ? "把這頁當作查找舊資料與官方關鍵詞的索引，再到目標客戶端、官方公告或可驗證的專題頁確認細節。它不適合替代目前版本的機制、抽卡、平台或聯機說明。"
+                  : "把这页当作查找旧资料与官方关键词的索引，再到目标客户端、官方公告或可验证的专题页确认细节。它不适合替代当前版本的机制、抽卡、平台或联机说明。")
+              : "Use this as an index for old material and official search terms, then confirm details in the target client, official notices, or verifiable dedicated pages. It cannot replace current mechanic, gacha, platform, or multiplayer information."}
           </p>
         </section>
-
-        {/* Quick Answer for Featured Snippet */}
-        <QuickAnswerCard
-          locale={locale}
-          items={[
-            {
-              label: isZhLocale(locale) ? "游戏类型：" : "Genre:",
-              value: isZhLocale(locale) ? "开放世界动作 RPG" : "Open-world action RPG",
-            },
-            {
-              label: isZhLocale(locale) ? "开发商：" : "Developer:",
-              value: "Hotta Studio (Perfect World)",
-            },
-            {
-              label: isZhLocale(locale) ? "平台：" : "Platforms:",
-              value: "PC, Android, iOS, PS5",
-            },
-            {
-              label: isZhLocale(locale) ? "付费模式：" : "Monetization:",
-              value: isZhLocale(locale) ? "免费游玩 + 抽卡（无50/50）" : "Free to play + gacha (no 50/50)",
-            },
-            {
-              label: isZhLocale(locale) ? "联机：" : "Multiplayer:",
-              value: isZhLocale(locale) ? "最多 4 人合作" : "Up to 4-player co-op",
-            },
-          ]}
-        />
 
         <section className="my-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-base font-semibold text-white">
               {isZhLocale(locale)
-                ? (locale === "tw" ? "入坑前先看什麼" : "入坑前先看什么")
-                : "What should you check before starting?"}
+                ? (locale === "tw" ? "確認目前版本時先看什麼" : "确认当前版本时先看什么")
+                : "What to check in the current version"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "先確認你更在意的是戰鬥、探索、抽卡養成，還是載具與生活玩法。" : "先确认你更在意的是战斗、探索、抽卡养成，还是载具与生活玩法。") : "Decide whether you care most about combat, exploration, gacha progression, or vehicle and lifestyle systems."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你是新手，最好先配合下載、抽卡與新手指南一起看。" : "如果你是新手，最好先配合下载、抽卡与新手指南一起看。") : "If you are new, pair this page with download, gacha, and beginner guides for practical setup."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "不同版本會擴充玩法細節，總覽頁適合看框架，細節仍以專題頁為準。" : "不同版本会扩充玩法细节，总览页适合看框架，细节仍以专题页为准。") : "Version updates can expand system details, so treat this as a framework page and use dedicated guides for specifics."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "目標伺服器是否可下載、是否已開服，以及目前支援的平台與地區。" : "目标服务器是否可下载、是否已开服，以及当前支持的平台与地区。") : "Whether the target server is downloadable and live, and which platforms and regions it currently supports."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "遊戲內的抽卡詳情、保底、機率、兌換、免費獎勵和角色取得條件。" : "游戏内的抽卡详情、保底、概率、兑换、免费奖励和角色获取条件。") : "In-client pull details, pity, rates, exchanges, free rewards, and character-acquisition conditions."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "目前已開放的玩法、聯機模式、人數限制、跨平台與存檔規則。" : "当前已开放的玩法、联机模式、人数限制、跨平台与存档规则。") : "Currently available systems, multiplayer modes, player limits, cross-play, and save rules."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -216,9 +179,9 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
                 : "Common mistakes"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "把玩法總覽頁當成新手完整教學，忽略了專門攻略。" : "把玩法总览页当成新手完整教学，忽略了专门攻略。") : "Using the overview as a full beginner walkthrough instead of opening the dedicated guides."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "只看抽卡或強度，不理解探索、載具與經營系統的長期價值。" : "只看抽卡或强度，不理解探索、载具与经营系统的长期价值。") : "Focusing only on banners or power and missing the long-term value of exploration, vehicles, and management systems."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "看到某個玩法有趣就直接下結論，沒有結合整體節奏判斷自己是否適合。" : "看到某个玩法有趣就直接下结论，没有结合整体节奏判断自己是否适合。") : "Judging the game from one feature alone without considering the overall progression loop."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把舊宣傳、測試內容或歷史資料視為已上線且適用於所有伺服器。" : "把旧宣传、测试内容或历史资料视为已上线且适用于所有服务器。") : "Assuming old marketing, test material, or historical records are live and apply to every server."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "依據過往保底、獎勵或免費角色說法直接安排抽取與消費。" : "依据过往保底、奖励或免费角色说法直接安排抽取与消费。") : "Planning pulls or spending from past claims about pity, rewards, or free characters."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "沒有先確認平台、地區、聯機與存檔規則就決定下載或邀請朋友。" : "没有先确认平台、地区、联机与存档规则就决定下载或邀请朋友。") : "Deciding to download or invite friends before checking current platform, region, multiplayer, and save rules."}</li>
             </ul>
           </div>
         </section>
@@ -229,7 +192,7 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
         {/* Key Features Grid */}
         <section className="mb-10 mt-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZhLocale(locale) ? "核心玩法系统一览" : "Key Gameplay Systems"}
+            {isZhLocale(locale) ? "历史系统资料入口" : "Historical system reference links"}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {[
@@ -254,16 +217,6 @@ Supports up to 4-player online co-op including the Pink Paws social squad system
             ))}
           </div>
         </section>
-
-        {/* FAQ */}
-        {faqs.length > 0 && (
-          <section className="mb-10">
-            <h2 className="text-xl font-bold mb-4">
-              {isZhLocale(locale) ? "常见问题" : "FAQ"}
-            </h2>
-            <FaqSection faqs={faqs} locale={locale} />
-          </section>
-        )}
 
         {/* Related Links */}
         <section className="mt-10 border-t border-gray-800 pt-6">
