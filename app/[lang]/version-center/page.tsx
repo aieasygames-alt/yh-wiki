@@ -13,18 +13,18 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const current = getLatestLiveChangelog();
-  const currentVersion = current?.version ?? "1.x";
+  const latestRecorded = getLatestLiveChangelog();
+  const latestRecordedVersion = latestRecorded?.version ?? "1.x";
   const title = isZhLocale(locale)
     ? locale === "tw"
-      ? `異環版本中心：1.3 ${currentVersion} 追蹤中心`
-      : `异环版本中心：1.3 ${currentVersion} 追踪中心`
-    : `NTE Version Center: v${currentVersion} (1.3 Tracking Hub)`;
+      ? `異環版本資料中心：最後記錄 v${latestRecordedVersion}`
+      : `异环版本资料中心：最后记录 v${latestRecordedVersion}`
+    : `NTE Version Archive: Last Recorded v${latestRecordedVersion}`;
   const description = isZhLocale(locale)
     ? locale === "tw"
-      ? `集中查看異環現行版本、更新日誌、版本攻略、熱門角色與後續版本動向。當前追蹤版本為 ${currentVersion}。`
-      : `集中查看异环当前版本、更新日志、版本攻略、热门角色与后续版本动向。当前追踪版本为 ${currentVersion}。`
-    : `Track the current Neverness to Everness version, patch notes, version-specific guides, hot banner topics, and upcoming update watchpoints in one place.`;
+      ? `瀏覽異環歷史版本記錄、更新日誌與關聯資料。本站最後記錄版本為 ${latestRecordedVersion}；目前狀態請以目標區服客戶端與官方公告為準。`
+      : `浏览异环历史版本记录、更新日志与关联资料。本站最后记录版本为 ${latestRecordedVersion}；当前状态请以目标区服客户端与官方公告为准。`
+    : `Browse historical NTE version records, patch notes, and related references. The last recorded version is ${latestRecordedVersion}; verify the current state in the target server's client and official notices.`;
   return {
     title,
     description,
@@ -36,10 +36,9 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 export default async function VersionCenterPage({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const current = getLatestLiveChangelog();
-  const currentVersion = current?.version ?? "1.x";
+  const latestRecorded = getLatestLiveChangelog();
   const upcoming = getUpcomingChangelogs()[0];
-  const spotlight = current ? getVersionSpotlightContent(current.version, 6) : [];
+  const spotlight = latestRecorded ? getVersionSpotlightContent(latestRecorded.version, 6) : [];
   const weeklyQueue = freshnessReport.weeklyQueue.slice(0, 6);
 
   const typeClass = (type?: string) => {
@@ -82,46 +81,46 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="max-w-3xl">
           <span className="inline-flex rounded-full border border-primary-500/30 bg-primary-500/10 px-3 py-1 text-xs font-medium text-primary-300">
-            {isZhLocale(locale) ? (locale === "tw" ? "版本追蹤中樞" : "版本追踪中枢") : "Patch Tracking Hub"}
+            {isZhLocale(locale) ? (locale === "tw" ? "歷史版本資料中心" : "历史版本资料中心") : "Historical Version Archive"}
           </span>
           <h1 className="mt-4 text-3xl md:text-4xl font-bold">
             {isZhLocale(locale)
               ? locale === "tw"
-                ? `異環版本中心：1.3 ${currentVersion} 追蹤中`
-                : `异环版本中心：1.3 ${currentVersion} 追踪中`
-              : `Neverness to Everness Version Center: v${currentVersion} (1.3 Tracking Hub)`}
+                ? `異環版本資料中心：最後記錄 v${latestRecorded?.version ?? "1.x"}`
+                : `异环版本资料中心：最后记录 v${latestRecorded?.version ?? "1.x"}`
+              : `Neverness to Everness Version Archive: Last Recorded v${latestRecorded?.version ?? "1.x"}`}
           </h1>
           <p className="mt-3 text-gray-400">
             {isZhLocale(locale)
               ? locale === "tw"
-                ? "把 1.3 現行版本、熱門攻略、抽卡話題與下一版本觀察點集中到同一頁，方便你每次回站都能快速找到現在最值得看的內容。"
-                : "把 1.3 当前版本、热门攻略、抽卡话题与下一版本观察点集中到同一页，方便你每次回站都能快速找到现在最值得看的内容。"
-              : "A single hub for the live patch, hot guides, banner decisions, and the next version watchlist so returning players can reorient quickly."}
+                ? "此頁整理站內最後記錄的版本條目、關聯文章與復核工作；它不是即時版本面板，也不能用來確認當前卡池、活動或角色可用性。"
+                : "此页整理站内最后记录的版本条目、关联文章与复核工作；它不是实时版本面板，也不能用来确认当前卡池、活动或角色可用性。"
+              : "This page organizes the site's last recorded version entries, related articles, and review work. It is not a live patch dashboard and cannot confirm current banners, events, or character availability."}
           </p>
           <p className="mt-3 text-sm text-amber-200/80">
             {isZhLocale(locale)
               ? locale === "tw"
-                ? "確認規則：只有官方前瞻、維護公告或遊戲內已實裝內容會列為版本事實；社群討論、截圖與推測只作觀察，不會用來改寫卡池或資源建議。"
-                : "确认规则：只有官方前瞻、维护公告或游戏内已实装内容会列为版本事实；社区讨论、截图与推测只作观察，不会用来改写卡池或资源建议。"
-              : "Confirmation policy: only official previews, maintenance notices, or live in-game content are treated as patch facts. Community posts, screenshots, and predictions remain watchpoints and do not change pull advice."}
+                ? "復核規則：僅以目標區服的官方公告與遊戲內內容確認目前版本。本站歷史條目、社群討論、截圖與推測均不能用來改寫當前卡池或資源決策。"
+                : "复核规则：仅以目标区服的官方公告与游戏内内容确认当前版本。本站历史条目、社区讨论、截图与推测均不能用来改写当前卡池或资源决策。"
+              : "Verification policy: confirm the current version only with the target server's official notices and in-game content. Historical site entries, community posts, screenshots, and predictions cannot update current banner or resource decisions."}
           </p>
         </div>
 
-        {current && (
+        {latestRecorded && (
           <section className="mt-8 rounded-2xl border border-sky-500/30 bg-gradient-to-br from-sky-500/10 to-cyan-500/10 p-6">
             <div className="flex flex-wrap items-center gap-3">
-              <span className={`inline-flex rounded-full border px-3 py-1 text-xs font-medium ${typeClass(current.type)}`}>
-                {isZhLocale(locale) ? (locale === "tw" ? "現行正式版本" : "当前正式版本") : "Current Live Version"}
+              <span className={`inline-flex rounded-full border px-3 py-1 text-xs font-medium ${typeClass(latestRecorded.type)}`}>
+                {isZhLocale(locale) ? (locale === "tw" ? "站內最後記錄版本" : "站内最后记录版本") : "Last Recorded Site Version"}
               </span>
-              <span className="text-sm text-gray-400">{current.date}</span>
+              <span className="text-sm text-gray-400">{latestRecorded.date}</span>
             </div>
             <h2 className="mt-4 text-2xl font-bold">
               {isZhLocale(locale)
-                ? `${current.version} · ${locale === "tw" ? current.versionName : current.versionName}`
-                : `v${current.version} · ${current.versionNameEn}`}
+                ? `${latestRecorded.version} · ${locale === "tw" ? latestRecorded.versionName : latestRecorded.versionName}`
+                : `v${latestRecorded.version} · ${latestRecorded.versionNameEn}`}
             </h2>
             <div className="mt-4 grid gap-3 md:grid-cols-2">
-              {(isZhLocale(locale) ? current.highlights : current.highlightsEn)?.slice(0, 6).map((item) => (
+              {(isZhLocale(locale) ? latestRecorded.highlights : latestRecorded.highlightsEn)?.slice(0, 6).map((item) => (
                 <div key={item} className="rounded-xl border border-gray-800/80 bg-gray-950/40 p-3 text-sm text-gray-300">
                   {item}
                 </div>
@@ -129,16 +128,16 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
             </div>
             <div className="mt-5 flex flex-wrap gap-3">
               <Link
-                href={`/${lang}/changelog/${current.version}`}
+                href={`/${lang}/changelog/${latestRecorded.version}`}
                 className="rounded-lg bg-sky-400 px-4 py-2 text-sm font-medium text-slate-950 hover:bg-sky-300 transition-colors"
               >
-                {isZhLocale(locale) ? (locale === "tw" ? "查看完整更新日誌" : "查看完整更新日志") : "Read Full Patch Notes"}
+                {isZhLocale(locale) ? (locale === "tw" ? "查看歷史更新條目" : "查看历史更新条目") : "Read Historical Patch Entry"}
               </Link>
               <Link
                 href={`/${lang}/banners`}
                 className="rounded-lg border border-gray-700 px-4 py-2 text-sm text-gray-300 hover:border-sky-400/40 hover:text-sky-300 transition-colors"
               >
-                {isZhLocale(locale) ? (locale === "tw" ? "卡池與角色時間表" : "卡池与角色时间表") : "Banner & Character Schedule"}
+                {isZhLocale(locale) ? (locale === "tw" ? "卡池歷史資料" : "卡池历史资料") : "Banner Archive"}
               </Link>
             </div>
           </section>
@@ -148,7 +147,7 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
           <section className="mt-6 rounded-2xl border border-amber-500/20 bg-amber-500/5 p-6">
             <div className="flex flex-wrap items-center gap-3">
               <span className={`inline-flex rounded-full border px-3 py-1 text-xs font-medium ${typeClass(upcoming.type)}`}>
-                {isZhLocale(locale) ? (locale === "tw" ? "下一版本觀察" : "下一版本观察") : "Next Version Watch"}
+                {isZhLocale(locale) ? (locale === "tw" ? "未驗證後續條目" : "未验证后续条目") : "Unverified Future Entry"}
               </span>
               <span className="text-sm text-gray-400">{upcoming.date}</span>
             </div>
@@ -160,9 +159,9 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
             <p className="mt-2 text-sm text-gray-400">
               {isZhLocale(locale)
                 ? locale === "tw"
-                  ? "這裡優先追蹤測試服、前瞻、卡池輪替與可能影響資源規劃的變動。若日期仍是待定，代表站內目前把它視為預告而非已落地正式內容。"
-                  : "这里优先追踪测试服、前瞻、卡池轮替与可能影响资源规划的变动。若日期仍是待定，代表站内目前把它视为预告而非已落地正式内容。"
-                : "Use this block to track preview signals, banner rotations, and resource-planning risks before the next version is actually live."}
+                  ? "此區只保留站內未完成復核的後續資料，日期與內容不代表已公布或已實裝。請在決定抽卡、升級或儲值前，以目標區服官方公告和客戶端為準。"
+                  : "此区只保留站内未完成复核的后续资料，日期与内容不代表已公布或已实装。请在决定抽卡、升级或充值前，以目标区服官方公告和客户端为准。"
+                : "This block contains only site entries that have not completed verification. Its dates and content do not establish that anything was announced or released; use target-server official notices and the client before pulling, upgrading, or spending."}
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {(isZhLocale(locale) ? upcoming.highlights : upcoming.highlightsEn)?.slice(0, 4).map((item) => (
@@ -231,12 +230,12 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
           <div className="flex items-center justify-between gap-4">
             <div>
               <h2 className="text-2xl font-bold">
-                {isZhLocale(locale) ? (locale === "tw" ? "當前版本重點內容" : "当前版本重点内容") : "Current Patch Reading List"}
+                {isZhLocale(locale) ? (locale === "tw" ? "最後記錄版本的關聯資料" : "最后记录版本的关联资料") : "Last Recorded Version References"}
               </h2>
               <p className="mt-1 text-sm text-gray-400">
                 {isZhLocale(locale)
-                  ? (locale === "tw" ? "自動聚合帶有當前版本標記的攻略與文章，方便快速補課。" : "自动聚合带有当前版本标记的攻略与文章，方便快速补课。")
-                  : "Auto-collected guides and posts tagged for the current live patch."}
+                  ? (locale === "tw" ? "自動聚合帶有該歷史版本標記的攻略與文章，僅供回顧和術語查找。" : "自动聚合带有该历史版本标记的攻略与文章，仅供回顾和术语查找。")
+                  : "Auto-collected guides and posts tagged to this historical version, for archive review and terminology lookup only."}
               </p>
             </div>
             <Link href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
@@ -273,8 +272,8 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
               href: `/${lang}/changelog`,
               title: isZhLocale(locale) ? (locale === "tw" ? "全部版本日誌" : "全部版本日志") : "All Patch Notes",
               desc: isZhLocale(locale)
-                ? (locale === "tw" ? "回看 1.0 到現在的更新節奏、活動與平衡調整。" : "回看 1.0 到现在的更新节奏、活动与平衡调整。")
-                : "Review the release cadence, events, and balance changes from v1.0 onward.",
+                ? (locale === "tw" ? "回看已收錄版本的更新節奏、活動與平衡調整。" : "回看已收录版本的更新节奏、活动与平衡调整。")
+                : "Review the release cadence, events, and balance changes in recorded versions.",
             },
             {
               href: `/${lang}/guides`,
@@ -285,10 +284,10 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
             },
             {
               href: `/${lang}/version-center`,
-              title: isZhLocale(locale) ? (locale === "tw" ? "把這頁當首頁回站點" : "把这页当首页回站点") : "Use This as Your Return Hub",
+              title: isZhLocale(locale) ? (locale === "tw" ? "目前版本請先查官方來源" : "当前版本请先查官方来源") : "Check Official Sources for Current Status",
               desc: isZhLocale(locale)
-                ? (locale === "tw" ? "每次回站先看版本中心，再決定去抽卡、開荒還是查配置問題。" : "每次回站先看版本中心，再决定去抽卡、开荒还是查配置问题。")
-                : "Start here on return visits before deciding whether you need banner advice, progression help, or troubleshooting.",
+                ? (locale === "tw" ? "本站版本資料適合回顧；卡池、活動、角色與資源決策必須先回到目標區服的公告與客戶端核對。" : "本站版本资料适合回顾；卡池、活动、角色与资源决策必须先回到目标区服的公告与客户端核对。")
+                : "This archive is useful for review; verify banners, events, characters, and resource decisions in the target server's notices and client first.",
             },
           ].map((item) => (
             <Link
