@@ -301,7 +301,7 @@ export default function RegionGuideClient({
           href={`/${lang}/map`}
           className="hover:text-gray-300 transition-colors"
         >
-          {isZh ? "互动地图" : "Interactive Map"}
+          {isZh ? "互动地图历史资料" : "Historical Interactive Map"}
         </Link>
         <span>/</span>
         <span className="text-gray-400">{regionName}</span>
@@ -352,7 +352,7 @@ export default function RegionGuideClient({
       </div>
       {markers.length === 0 && (regionId === "fogden" || regionId === "duskmoor") && (
         <div className="mb-8 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-200">
-          {isZh ? "该区域点位数据正在校验中；当前页面先提供版本探索路线与活动规划。" : "Marker data for this region is being verified. This page currently provides route and activity planning."}
+          {isZh ? "该区域点位数据正在校验中；本站没有可用于行动的坐标、路线或活动结论。请直接在客户端确认。" : "Marker data for this region is being verified. The site has no coordinates, routes, or activity conclusions suitable for action; confirm directly in the client."}
         </div>
       )}
 
@@ -448,14 +448,14 @@ export default function RegionGuideClient({
       <div className="bg-gray-800/30 rounded-xl p-5 border border-gray-700/50 text-center">
         <p className="text-gray-400 mb-3 text-sm">
           {isZh
-            ? "想要查看每个标记的精确位置？使用互动地图精确定位"
-            : "Want to see exact locations of every marker? Use the interactive map"}
+            ? "互动地图仅用于查看站内历史标记和本地路线草稿；坐标与可用性请在客户端确认。"
+            : "The interactive map is for site-recorded markers and local route drafts only; verify coordinates and availability in the client."}
         </p>
         <Link
           href={`/${lang}/map?region=${regionId}`}
           className="inline-block px-6 py-2.5 rounded-lg bg-primary-500/20 text-primary-400 border border-primary-500/30 hover:bg-primary-500/30 transition-colors text-sm font-medium"
         >
-          {isZh ? "打开互动地图" : "Open Interactive Map"} →
+          {isZh ? "查看互动地图历史资料" : "Open Historical Interactive Map"} →
         </Link>
       </div>
 
@@ -463,8 +463,8 @@ export default function RegionGuideClient({
       <div className="mt-8 text-xs text-gray-600 space-y-2">
         <p>
           {isZh
-            ? `${regionName}是异环(Neverness to Everness)游戏中的五大区域之一，位于海瑟劳世界的${regionName.includes("北") ? "北部" : regionName.includes("南") ? "南部" : ""}地区。本攻略提供${regionName}全区域资源标记地图，包含谕石、收集品、BOSS位置、传送锚点、商家、景点等${markers.length}个标记点的位置信息。`
-            : `${regionName} is one of the five major regions in Neverness to Everness (NTE), located in the world of Hethereau. This guide provides a complete resource marker map for ${regionName}, covering ${markers.length} markers including Oracle Stones, collectibles, world boss locations, waypoints, shops, viewpoints, and more.`}
+            ? `${regionName}是本站收录的异环(Neverness to Everness)历史区域资料之一。本页保存${markers.length}条涉及谕石、收集品、Boss、传送点、商家和景点的历史标记字段；它们不证明当前坐标、数量、入口、刷新或可用性。`
+            : `${regionName} is one of this site's recorded historical NTE region references. This page preserves ${markers.length} historical marker fields involving Oracle Stones, collectibles, bosses, waypoints, shops, and viewpoints; they do not prove current coordinates, counts, access, refreshes, or availability.`}
         </p>
       </div>
     </div>

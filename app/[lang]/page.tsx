@@ -465,7 +465,7 @@ export default async function HomePage({
               { title: t(locale, "gacha.title"), desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
               { title: t(locale, "site.nav.redeemCodes"), desc: isZhLocale(locale) ? (locale === "tw" ? "按狀態與區服核對兌換碼" : "按状态与区服核对兑换码") : "Check code status by server", href: `/${lang}/redeem-codes`, icon: "🎁" },
               { title: isZhLocale(locale) ? (locale === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner", desc: isZhLocale(locale) ? (locale === "tw" ? "神秘鈕扣缺口與每日目標" : "神秘纽扣缺口与每日目标") : "Plan Mystery Button targets", href: `/${lang}/999-nights-planner`, icon: "🧮" },
-              { title: t(locale, "explorer.title"), desc: isZhLocale(locale) ? "智能扫图路线规划" : "Smart sweep route planner", href: `/${lang}/explorer`, icon: "🗺️" },
+              { title: t(locale, "explorer.title"), desc: isZhLocale(locale) ? "基于历史标记的本地路线草稿" : "Local route drafts from historical markers", href: `/${lang}/explorer`, icon: "🗺️" },
               { title: t(locale, "cityTycoon.title"), desc: isZhLocale(locale) ? "免费S级角色攻略" : "Free S-rank character guide", href: `/${lang}/city-tycoon`, icon: "🏙️" },
               { title: t(locale, "statsCalc.title"), desc: isZhLocale(locale) ? "伤害计算与属性分析" : "Damage & stats analysis", href: `/${lang}/calculator/stats`, icon: "💥" },
               { title: "DPS " + (isZhLocale(locale) ? "计算器" : "Calculator"), desc: isZhLocale(locale) ? "计算循环DPS输出" : "Calculate rotation DPS", href: `/${lang}/calculator/dps`, icon: "🔥" },

@@ -45,7 +45,7 @@ const SECTIONS = [
       { href: "/{lang}/banners", zhLabel: "卡池历史资料", enLabel: "Banner History" },
       { href: "/{lang}/gacha-analyzer", zhLabel: "抽卡记录分析", enLabel: "Gacha Analyzer" },
       { href: "/{lang}/teams", zhLabel: "配队推荐", enLabel: "Team Builder" },
-      { href: "/{lang}/map", zhLabel: "互动地图", enLabel: "Interactive Map" },
+      { href: "/{lang}/map", zhLabel: "互动地图历史资料", enLabel: "Historical Interactive Map" },
     ],
   },
   {
