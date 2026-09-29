@@ -14,14 +14,14 @@ export async function generateMetadata({
   const categoryCount = new Set(locations.map((location) => location.category)).size;
   const description = isZhLocale(locale)
     ? (locale === "tw"
-        ? `異環全地圖地點、區域與探索內容索引，彙整 ${locations.length} 個地點與 ${categoryCount} 種分類，方便快速查找海特洛城各區域資訊、探索方向與關聯內容。`
-        : `异环全地图地点、区域与探索内容索引，汇总 ${locations.length} 个地点与 ${categoryCount} 种分类，方便快速查找海特洛城各区域信息、探索方向与关联内容。`)
-    : `Browse ${locations.length} NTE locations across ${categoryCount} categories, with quick links for region info, exploration routes, and related world details.`;
+        ? `異環地點與世界觀歷史資料索引，彙整 ${locations.length} 個地點與 ${categoryCount} 種分類。名稱、坐標、入口、任務與收集內容須以目標客戶端及官方資料覆核。`
+        : `异环地点与世界观历史资料索引，汇总 ${locations.length} 个地点与 ${categoryCount} 种分类。名称、坐标、入口、任务与收集内容须以目标客户端及官方资料复核。`)
+    : `Historical NTE location and lore index with ${locations.length} entries across ${categoryCount} categories. Verify names, coordinates, access, quests, and collectibles in your target client and official sources.`;
   const title = isZhLocale(locale)
     ? (locale === "tw"
-        ? `異環地點索引 — ${locations.length} 個區域、設施與探索地圖入口`
-        : `异环地点索引 — ${locations.length} 个区域、设施与探索地图入口`)
-    : `NTE Locations - ${locations.length} Regions, Facilities, and Exploration Hubs`;
+        ? `異環地點歷史資料 — ${locations.length} 個區域與世界觀記錄`
+        : `异环地点历史资料 — ${locations.length} 个区域与世界观记录`)
+    : `NTE Location History - ${locations.length} Region and Lore Records`;
   return {
     title,
     description,
@@ -70,20 +70,31 @@ export default async function LocationsListPage({
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold mb-8">{t(locale, "locations.title")}</h1>
+        <h1 className="text-3xl font-bold mb-8">{isZhLocale(locale) ? "异环地点历史资料" : "NTE Location History"}</h1>
+
+        <section className="mb-8 rounded-xl border border-amber-500/40 bg-amber-950/20 p-5">
+          <h2 className="text-lg font-semibold text-amber-100">
+            {isZhLocale(locale) ? "历史地点资料，使用前须复核" : "Historical location references require verification"}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-amber-50/80">
+            {isZhLocale(locale)
+              ? "地点名称、坐标、入口、开放条件、任务、收集物和关联角色都可能因版本、服务器或活动而变化。请在目标客户端地图与官方公告中确认，再进行跑图或任务规划。"
+              : "Location names, coordinates, entrances, access conditions, quests, collectibles, and related characters can change by version, server, or event. Confirm them in the target client map and official notices before planning routes or tasks."}
+          </p>
+        </section>
 
         <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
           <h2 className="text-lg font-semibold text-white">
             {isZhLocale(locale)
-              ? (locale === "tw" ? "這頁地點索引最適合怎麼用？" : "这页地点索引最适合怎么用？")
-              : "How should you use this location index?"}
+              ? (locale === "tw" ? "這頁歷史資料最適合怎麼看？" : "这页历史资料最适合怎么用？")
+              : "How should you use this historical location index?"}
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
               ? (locale === "tw"
-                  ? "先按區域分類縮小範圍，再進入單地點頁查看用途、探索方向與關聯內容。這個索引最適合快速定位你要找的城市區塊、功能建築或世界觀地點，不適合只看名稱就判斷是否有探索價值。"
-                  : "先按区域分类缩小范围，再进入单地点页查看用途、探索方向与关联内容。这个索引最适合快速定位你要找的城市区块、功能建筑或世界观地点，不适合只看名字就判断是否有探索价值。")
-              : "Start by narrowing down the region or category, then open the location page for purpose, exploration context, and related content. This hub is best for quickly finding districts, buildings, and lore-relevant spots, not judging exploration value from the name alone."}
+                  ? "先按區域或分類查找曾出現過的名稱，再進入單地點頁查看摘要與世界觀關聯。這個索引用於保留和交叉核對舊資料，不提供目前版本的坐標、開放條件或跑圖結論。"
+                  : "先按区域或分类查找曾出现过的名称，再进入单地点页查看摘要与世界观关联。这个索引用于保留和交叉核对旧资料，不提供当前版本的坐标、开放条件或跑图结论。")
+              : "Start by finding names that appeared in older material, then open a detail page for its summary and lore links. This index preserves and cross-checks old references; it does not provide current coordinates, access conditions, or route conclusions."}
           </p>
         </section>
 
@@ -91,13 +102,13 @@ export default async function LocationsListPage({
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-base font-semibold text-white">
               {isZhLocale(locale)
-                ? (locale === "tw" ? "查地點前先看什麼" : "查地点前先看什么")
-                : "What should you check before using this location list?"}
+                ? (locale === "tw" ? "核對目前地圖時先看什麼" : "核对当前地图时先看什么")
+                : "What to check in the current map"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "先確認你是在找主線區域、探索收集點，還是功能型建築。" : "先确认你是在找主线区域、探索收集点，还是功能型建筑。") : "Know whether you are looking for a story region, exploration target, or utility building."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "同一分類下的地點用途可能差很多，最好進單頁確認摘要和關聯內容。" : "同一分类下的地点用途可能差很多，最好进单页确认摘要和关联内容。") : "Locations within the same category can serve very different purposes, so open the detail page before deciding."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你是為了跑圖或收集，配合互動地圖與探索工具一起看會更快。" : "如果你是为了跑图或收集，配合互动地图与探索工具一起看会更快。") : "For route planning or collectibles, this page works best alongside the interactive map and exploration tools."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "地點是否仍存在，且名稱、區域與分類是否和目標客戶端一致。" : "地点是否仍存在，且名称、区域与分类是否和目标客户端一致。") : "Whether the location still exists and whether its name, region, and category match the target client."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "目前坐標、入口、開放條件和關聯任務是否已變動。" : "当前坐标、入口、开放条件和关联任务是否已变动。") : "Whether current coordinates, entrances, access conditions, and linked quests have changed."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "收集物、首領或功能設施是否確實存在於目前版本與伺服器。" : "收集物、首领或功能设施是否确实存在于当前版本与服务器。") : "Whether collectibles, bosses, or utility facilities actually exist in the current version and server."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -107,9 +118,9 @@ export default async function LocationsListPage({
                 : "Common mistakes"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "只看區域名，不看地點摘要，結果點進錯的內容頁。" : "只看区域名，不看地点摘要，结果点进错的内容页。") : "Clicking based on region names alone and missing the actual place you need."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "把世界觀地點和實用建築混在一起找，降低搜尋效率。" : "把世界观地点和实用建筑混在一起找，降低搜索效率。") : "Mixing lore locations with practical buildings and slowing down discovery."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "把索引頁當成完整探索指南，忽略了地點詳情與地圖工具。" : "把索引页当成完整探索指南，忽略了地点详情与地图工具。") : "Treating the index like a full exploration guide and ignoring detail pages or map tools."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把歷史地點名稱或描述直接當成目前地圖坐標。" : "把历史地点名称或描述直接当成当前地图坐标。") : "Treating historical location names or descriptions as current map coordinates."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "根據舊入口、任務或收集物安排目前跑圖。" : "根据旧入口、任务或收集物安排当前跑图。") : "Planning a current route from old entrances, quests, or collectibles."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把世界觀關聯誤讀為目前可訪問或可互動的功能。" : "把世界观关联误读为当前可访问或可互动的功能。") : "Mistaking a lore association for a currently accessible or interactive feature."}</li>
             </ul>
           </div>
         </section>

@@ -4,19 +4,18 @@ import { t, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
 import { getLocation, getAllLocations, getCharacter, getLoreItem } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
-import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 
 const EN_LOCATION_SEO: Record<string, { title: string; description: string; h1: string }> = {
   "groth-island": {
-    title: "Groth Island NTE Guide - Map, Exploration & Appraiser Lore | Neverness to Everness",
-    description: "Groth Island NTE location guide for Neverness to Everness: map context, exploration notes, anomaly activity, Appraiser investigations, related lore, and follow-up routes.",
-    h1: "Groth Island NTE Guide: Map, Exploration & Lore",
+    title: "Groth Island NTE Historical Location Record | Neverness to Everness",
+    description: "Historical Groth Island NTE reference: recorded map and lore context, anomaly and Appraiser mentions, and related material. Verify current access and map details in the target client.",
+    h1: "Groth Island NTE Historical Location Record",
   },
   "new-helios": {
-    title: "New Helios NTE Guide - District Map, Lore & Exploration | Neverness to Everness",
-    description: "New Helios NTE district guide for Neverness to Everness: Hethereau map context, city lore, exploration notes, related pages, and urban route planning.",
-    h1: "New Helios NTE Guide: District Map & Lore",
+    title: "New Helios NTE Historical District Record | Neverness to Everness",
+    description: "Historical New Helios NTE reference: recorded Hethereau map context, city lore, and related material. Verify current access, map details, and routes in the target client.",
+    h1: "New Helios NTE Historical District Record",
   },
 };
 
@@ -37,7 +36,7 @@ export async function generateMetadata({
   const name = localizedText(locale, loc.name, loc.nameEn);
   const enSeo = locale === "en" ? EN_LOCATION_SEO[slug] : undefined;
   const description = completeMetaDescription(locale, enSeo?.description || localizedText(locale, loc.summary, loc.summaryEn));
-  const suffix = localizedText(locale, "异环地图", "NTE Location Guide");
+  const suffix = localizedText(locale, "异环地点历史资料", "NTE Historical Location Record", "異環地點歷史資料");
   const title = enSeo?.title || `${name} - ${suffix}`;
   return {
     title,
@@ -81,7 +80,6 @@ export default async function LocationDetailPage({
         description={summary}
         url={`https://nteguide.com/${lang}/locations/${slug}`}
       />
-      <DataStatusBanner locale={locale} />
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
@@ -90,6 +88,19 @@ export default async function LocationDetailPage({
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/40 bg-amber-950/20 p-5">
+          <h2 className="text-lg font-semibold text-amber-100">
+            {localizedText(locale, "历史地点资料，须以当前地图复核", "Historical location reference - verify in the current map", "歷史地點資料，須以目前地圖覆核")}
+          </h2>
+          <p className="mt-3 text-sm leading-7 text-amber-50/80">
+            {localizedText(
+              locale,
+              `本页的名称、摘要、地图描述、关联内容和入口线索均为历史记录，不证明「${name}」当前仍存在、可到达或关联相同任务与收集物。跑图、任务或收集前，请在目标客户端地图和官方公告中确认。`,
+              `This page records historical names, summaries, map descriptions, related content, and access leads. It does not prove that ${name} still exists, is reachable, or has the same linked quests and collectibles today. Confirm it in the target client map and official notices before routing, questing, or collecting.`,
+              `本頁的名稱、摘要、地圖描述、關聯內容和入口線索均為歷史記錄，不證明「${name}」目前仍存在、可到達或關聯相同任務與收集物。跑圖、任務或收集前，請在目標客戶端地圖和官方公告中確認。`
+            )}
+          </p>
+        </section>
         <div className="mb-2">
           <span className="text-xs px-2 py-1 rounded bg-primary-600/20 text-primary-400">
             {localizedText(locale, loc.categoryZh, loc.categoryEn)}
@@ -153,21 +164,21 @@ export default async function LocationDetailPage({
         <section className="mt-10 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "地点阅读方式", "How to read this location", "地點閱讀方式")}
+              {localizedText(locale, "如何阅读这些历史地点字段", "How to read these historical location fields", "如何閱讀這些歷史地點字段")}
             </h2>
             <p className="text-sm leading-6 text-gray-300">
               {localizedText(
                 locale,
-                `「${name}」这类地点页最适合用来确认它属于哪个区域、和哪些角色或世界观条目有关、以及是否值得纳入跑图或收集路线。地点本身可能不是长篇攻略，但它承担的是坐标、叙事和入口提示的枢纽作用。`,
-                `A location page like ${name} is best used to confirm which region it belongs to, which characters or lore entries connect to it, and whether it should be part of your route or collection plan. Even if the page is not long, it acts as the hub for coordinates, narrative context, and access hints.`,
-                `「${name}」這類地點頁最適合用來確認它屬於哪個區域、和哪些角色或世界觀條目有關、以及是否值得納入跑圖或收集路線。地點本身可能不是長篇攻略，但它承擔的是座標、敘事和入口提示的樞紐作用。`
+                `「${name}」这类页面保留曾出现过的区域归类、角色与世界观关联，以及地图描述线索。它们可帮助检索旧资料，但不能确认当前坐标、入口、开放条件或跑图价值。`,
+                `A page like ${name} preserves previously recorded region classification, character and lore links, and map-description leads. They can help search older material, but cannot confirm current coordinates, access, availability, or route value.`,
+                `「${name}」這類頁面保留曾出現過的區域歸類、角色與世界觀關聯，以及地圖描述線索。它們可幫助檢索舊資料，但不能確認目前座標、入口、開放條件或跑圖價值。`
               )}
             </p>
           </div>
 
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "建议搭配查看", "Recommended follow-up", "建議搭配查看")}
+              {localizedText(locale, "核验相关资料", "Verify related references", "覆核相關資料")}
             </h2>
             <div className="flex flex-wrap gap-3 text-sm">
               <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
@@ -187,9 +198,9 @@ export default async function LocationDetailPage({
             <p className="mt-3 text-sm leading-6 text-gray-400">
               {localizedText(
                 locale,
-                "如果这个地点和任务、世界观或收集品同时相关，先把它记入当前探索路线，再去补周边内容。这样更容易把单点信息转成可执行的跑图计划。",
-                "If the location links to quests, lore, or collectibles at the same time, add it to your current exploration route first and then sweep the surrounding content. That turns one location into an actionable route plan.",
-                "如果這個地點和任務、世界觀或收集品同時相關，先把它記入目前探索路線，再去補周邊內容。這樣更容易把單點資訊轉成可執行的跑圖計劃。"
+                "若历史资料同时提及任务、世界观或收集物，可将这些名称作为当前客户端和官方资料的检索词。完成地图与可用性复核前，不要据此安排探索路线。",
+                "When historical material mentions quests, lore, or collectibles together, use those names as search terms in the current client and official sources. Do not plan an exploration route until map and availability checks are complete.",
+                "若歷史資料同時提及任務、世界觀或收集物，可將這些名稱作為目前客戶端和官方資料的檢索詞。完成地圖與可用性覆核前，不要據此安排探索路線。"
               )}
             </p>
           </div>
