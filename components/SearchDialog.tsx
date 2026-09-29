@@ -24,6 +24,13 @@ const TYPE_I18N_KEYS: Record<string, string> = {
   guide: "site.nav.guides",
   lore: "site.nav.lore",
   location: "site.nav.locations",
+  blog: "Content",
+  changelog: "Patch Notes",
+  quest: "Quests",
+  anomaly: "Anomalies",
+  disk: "Disk Sets",
+  vehicle: "Vehicles",
+  compare: "Comparisons",
 };
 
 const TYPE_COLORS: Record<string, string> = {
@@ -34,6 +41,13 @@ const TYPE_COLORS: Record<string, string> = {
   guide: "text-purple-400 bg-purple-500/10",
   lore: "text-pink-400 bg-pink-500/10",
   location: "text-cyan-400 bg-cyan-500/10",
+  blog: "text-orange-300 bg-orange-500/10",
+  changelog: "text-sky-300 bg-sky-500/10",
+  quest: "text-lime-300 bg-lime-500/10",
+  anomaly: "text-rose-300 bg-rose-500/10",
+  disk: "text-violet-300 bg-violet-500/10",
+  vehicle: "text-amber-300 bg-amber-500/10",
+  compare: "text-teal-300 bg-teal-500/10",
 };
 
 export function SearchDialog({ lang }: { lang: string }) {
@@ -137,7 +151,7 @@ export function SearchDialog({ lang }: { lang: string }) {
     return acc;
   }, {});
 
-  const typeOrder = ["character", "weapon", "guide", "lore", "location", "material", "faq"];
+  const typeOrder = ["character", "weapon", "guide", "blog", "changelog", "quest", "anomaly", "disk", "vehicle", "compare", "lore", "location", "material", "faq"];
   const locale = (lang === "zh" ? "zh" : (lang === "tw" ? "tw" : "en")) as Locale;
 
   if (!open) {

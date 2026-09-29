@@ -104,6 +104,20 @@ describe("late Version 1.3 player-decision content", () => {
     expect(freshnessReport.weeklyQueue[0].href).toMatch(/^\/(guides|blog|changelog)\//);
     expect(freshnessReport.weeklyQueue[0].priorityReason).toBeTruthy();
   });
+
+  it("indexes current decision content in every supported locale", () => {
+    const searchIndex = require("../../public/search-index.json");
+    const settings = searchIndex.filter((item: { id: string }) => item.id === "nte-best-settings-guide");
+    const livePatch = searchIndex.filter((item: { id: string }) => item.id === "1.3");
+    expect(settings).toHaveLength(3);
+    expect(settings.map((item: { url: string }) => item.url)).toEqual(expect.arrayContaining([
+      "/zh/blog/nte-best-settings-guide/",
+      "/tw/blog/nte-best-settings-guide/",
+      "/en/blog/nte-best-settings-guide/",
+    ]));
+    expect(livePatch).toHaveLength(3);
+    expect(livePatch.map((item: { type: string }) => item.type)).toEqual(["changelog", "changelog", "changelog"]);
+  });
 });
 
 describe("guides.json — city-tycoon-guide", () => {

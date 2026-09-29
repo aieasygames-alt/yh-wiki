@@ -82,6 +82,27 @@ function generateSearchIndex() {
   for (const loc of load("locations.json")) {
     addEntry(loc.id, loc.name, loc.nameEn, "location", `/locations/${loc.id}`, [loc.category?.toLowerCase()]);
   }
+  for (const post of load("blog.json")) {
+    addEntry(post.id, post.title, post.titleEn, "blog", `/blog/${post.id}`, post.tags || []);
+  }
+  for (const changelog of load("changelog.json")) {
+    addEntry(changelog.version, changelog.versionName, changelog.versionNameEn, "changelog", `/changelog/${changelog.version}`, ["patch", "version", changelog.version]);
+  }
+  for (const quest of load("quests.json")) {
+    addEntry(quest.id, quest.name, quest.nameEn, "quest", `/quests/${quest.id}`, [quest.category?.toLowerCase()]);
+  }
+  for (const anomaly of load("anomalies.json")) {
+    addEntry(anomaly.id, anomaly.name, anomaly.nameEn, "anomaly", `/anomalies/${anomaly.id}`, anomaly.tags || []);
+  }
+  for (const diskSet of load("disk-sets.json")) {
+    addEntry(diskSet.id, diskSet.name, diskSet.nameEn, "disk", `/disk-sets/${diskSet.id}`, diskSet.tags || []);
+  }
+  for (const vehicle of load("vehicles.json")) {
+    addEntry(vehicle.id, vehicle.name, vehicle.nameEn, "vehicle", `/vehicles/${vehicle.id}`, [vehicle.type?.toLowerCase()]);
+  }
+  for (const compare of load("compares.json")) {
+    addEntry(compare.id, compare.title, compare.titleEn, "compare", `/compare/${compare.id}`, compare.tags || []);
+  }
 
   // Static standalone pages
   index.push({ id: "voice-actors", name: "声优一览", nameEn: "Voice Actors", type: "page", url: canonicalPath("/zh/voice-actors"), tags: ["characters", "voice"] });
