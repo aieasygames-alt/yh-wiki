@@ -1,7 +1,7 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { t, hreflangAlternatesIndex, isZhLocale, asLocale, type Locale } from "../../lib/i18n";
-import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts, getLatestLiveChangelog, getRecentContentUpdates } from "../../lib/queries";
+import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, getLatestBlogPosts, getRecentContentUpdates } from "../../lib/queries";
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd, FaqPageJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
@@ -13,22 +13,22 @@ const GiscusComments = dynamic(() => import("../../components/GiscusComments").t
 // Keep this in sync with LOCALES in lib/i18n.ts (currently zh / tw / en).
 const HOME_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
   zh: {
-    title: "异环官网入口导航 - 非官方 Wiki / 下载 / 地图 / 角色攻略",
-    description: "异环(NTE / Neverness to Everness)非官方 Wiki 与官网入口导航：整理 PC/手机下载安装、Steam/国际服、云异环、交互地图、角色图鉴、配队、配置要求与兑换码。",
-    ogTitle: "异环官网入口导航 / 下载 / 地图 / 角色图鉴",
-    ogDescription: "非官方异环 Wiki，帮你找到官网入口、下载安装、国际服、地图、角色图鉴、配队和配置要求。",
+    title: "异环官网入口与历史资料导航 - 下载 / 配置 / Wiki",
+    description: "异环(NTE / Neverness to Everness)非官方导航站：提供官网与客户端下载核对路径，并收录角色、地图、队伍、机制与版本历史资料。当前状态请以目标区服客户端和官方公告为准。",
+    ogTitle: "异环官网入口与历史资料导航",
+    ogDescription: "核对异环官网、客户端下载、区服与配置；查阅角色、地图、队伍和版本历史资料。",
   },
   tw: {
-    title: "異環官網入口導航 - 非官方 Wiki / 下載 / 地圖 / 角色攻略",
-    description: "異環(NTE / Neverness to Everness)非官方 Wiki 與官網入口導航：整理 PC/手機下載安裝、Steam/國際服、雲異環、互動地圖、角色圖鑑、配隊、配置要求與兌換碼。",
-    ogTitle: "異環官網入口導航 / 下載 / 地圖 / 角色圖鑑",
-    ogDescription: "非官方異環 Wiki，幫你找到官網入口、下載安裝、國際服、地圖、角色圖鑑、配隊和配置要求。",
+    title: "異環官網入口與歷史資料導航 - 下載 / 配置 / Wiki",
+    description: "異環(NTE / Neverness to Everness)非官方導航站：提供官網與客戶端下載核對路徑，並收錄角色、地圖、隊伍、機制與版本歷史資料。當前狀態請以目標區服客戶端和官方公告為準。",
+    ogTitle: "異環官網入口與歷史資料導航",
+    ogDescription: "核對異環官網、客戶端下載、區服與配置；查閱角色、地圖、隊伍和版本歷史資料。",
   },
   en: {
-    title: "NTE Wiki, Download, Map & Character Guides | Neverness to Everness",
-    description: "Neverness to Everness (NTE) wiki with official-site entry help, PC/mobile download guide, Steam vs global server tips, interactive map, character builds, tier list, system requirements, and redeem codes.",
-    ogTitle: "NTE Wiki, Download, Map & Character Guides",
-    ogDescription: "Find the NTE download path, Steam/global tips, map, character guides, builds, and system requirements.",
+    title: "NTE Official Entry & Historical Reference Hub | Neverness to Everness",
+    description: "An unofficial NTE navigation hub for verifying official entry, client downloads, servers, and requirements, with historical character, map, team, mechanics, and version references. Check current status in your client and official notices.",
+    ogTitle: "NTE Official Entry & Historical References",
+    ogDescription: "Verify NTE official entry, downloads, server and requirements; browse historical character, map, team, and version references.",
   },
 };
 
@@ -67,7 +67,6 @@ export default async function HomePage({
   const weapons = getAllWeapons();
   const blogPosts = getLatestBlogPosts(3);
   const recentUpdates = getRecentContentUpdates(6);
-  const liveVersion = getLatestLiveChangelog();
   const homeFaqs = isZhLocale(locale)
     ? [
         {
@@ -79,16 +78,16 @@ export default async function HomePage({
         {
           question: "异环新手最该先看哪些页面？",
           questionZh: "异环新手最该先看哪些页面？",
-          answer: "优先看下载安装、配置要求、兑换码、角色图鉴、配队推荐和互动地图。这样能先解决能不能玩、从哪里下载、领什么奖励、养谁和怎么探索。",
-          answerZh: "优先看下载安装、配置要求、兑换码、角色图鉴、配队推荐和互动地图。这样能先解决能不能玩、从哪里下载、领什么奖励、养谁和怎么探索。",
+          answer: "先看官网与下载入口、区服说明和配置要求，并在目标区服客户端核对可用状态。角色、配队、地图和版本页用于查阅历史资料；兑换码也应以游戏内领取结果和官方公告为准。",
+          answerZh: "先看官网与下载入口、区服说明和配置要求，并在目标区服客户端核对可用状态。角色、配队、地图和版本页用于查阅历史资料；兑换码也应以游戏内领取结果和官方公告为准。",
         },
       ]
     : [
         {
           question: "Where should I start on NTE Guide?",
           questionZh: "Where should I start on NTE Guide?",
-          answer: "Start with the download guide, system requirements, redeem codes, character index, best teams, tier list, and interactive map. Those pages cover whether you can play, where to download, what rewards to claim, and which units to build.",
-          answerZh: "Start with the download guide, system requirements, redeem codes, character index, best teams, tier list, and interactive map. Those pages cover whether you can play, where to download, what rewards to claim, and which units to build.",
+          answer: "Start with official entry, download, server, and system requirement guidance, then verify availability in your target client. Character, team, map, and version pages are historical references; confirm redeem codes through the in-game result and official notices.",
+          answerZh: "Start with official entry, download, server, and system requirement guidance, then verify availability in your target client. Character, team, map, and version pages are historical references; confirm redeem codes through the in-game result and official notices.",
         },
       ];
 
@@ -110,21 +109,21 @@ export default async function HomePage({
           <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-transparent to-purple-900/20" />
           <div className="relative max-w-6xl mx-auto px-4 py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
-              {locale === "tw" ? "異環 Wiki / 下載 / 攻略站" : isZhLocale(locale) ? "异环 Wiki / 下载 / 攻略站" : "NTE Wiki, Download & Guide Hub"}
+              {locale === "tw" ? "異環官方入口與歷史資料" : isZhLocale(locale) ? "异环官方入口与历史资料" : "NTE Official Entry & Historical References"}
             </h1>
             <p className="mt-4 text-lg text-gray-400">
               {locale === "tw"
-                ? "異環官網入口、下載安裝、配隊、角色排行、互動地圖"
+                ? "核對官網、下載、區服與配置；查閱角色、地圖、隊伍與版本歷史資料"
                 : isZhLocale(locale)
-                  ? "异环官网入口、下载安装、配队、角色排行、交互地图"
-                  : "Official-site entry help, download, team comps, builds, map, and calculators"}
+                  ? "核对官网、下载、区服与配置；查阅角色、地图、队伍与版本历史资料"
+                  : "Verify official entry, downloads, servers, and requirements; browse historical character, map, team, and version references"}
             </p>
             <p className="mt-3 text-sm text-gray-400 max-w-2xl mx-auto">
               {locale === "tw"
-                ? "先找異環官網、Steam、PC 啟動器、配隊或角色攻略，都可以從這裡進。站內整理下載安裝路徑、角色圖鑑、配隊、配置要求、互動地圖與最新兌換碼。"
+                ? "下載、區服與配置請按目標區服的客戶端和官方公告核對。角色、配隊、地圖、卡池與版本頁保存的是歷史資料，兌換碼也請以遊戲內領取結果為準。"
                 : isZhLocale(locale)
-                  ? "先找异环官网、Steam、PC 启动器、配队或角色攻略，都可以从这里进。站内整理下载安装路径、角色图鉴、配队、配置要求、交互地图与最新兑换码。"
-                  : "Start here if you need the official-site path, Steam, PC launcher, team comps, character guides, map, or redeem codes."}
+                  ? "下载、区服与配置请按目标区服的客户端和官方公告核对。角色、配队、地图、卡池与版本页保存的是历史资料，兑换码也请以游戏内领取结果为准。"
+                  : "Verify downloads, servers, and requirements in your target client and official notices. Character, team, map, banner, and version pages preserve historical references; redeem codes also require in-game confirmation."}
             </p>
             <div className="mt-6 flex justify-center">
               <SearchDialog lang={lang} />
@@ -137,10 +136,10 @@ export default async function HomePage({
             {[
               {
                 href: `/${lang}/version-center`,
-                title: isZhLocale(locale) ? (locale === "tw" ? "1.3版本中心" : "1.3版本中心") : "Version 1.3 Hub",
+                title: isZhLocale(locale) ? (locale === "tw" ? "版本歷史資料" : "版本历史资料") : "Version History Archive",
                 desc: isZhLocale(locale)
-                  ? (locale === "tw" ? "贊空、鏈子、Fogden、Duskmoor與已確認版本內容" : "赞空、链子、Fogden、Duskmoor与已确认版本内容")
-                  : "Zankou, Linko, Fogden, Duskmoor, and confirmed version content.",
+                  ? (locale === "tw" ? "按版本查閱已收錄的更新、角色與活動記錄；當前狀態請以官方公告為準" : "按版本查阅已收录的更新、角色与活动记录；当前状态请以官方公告为准")
+                  : "Browse recorded updates, characters, and events by version; verify current status in official notices.",
                 accent: "border-violet-500/30 bg-violet-500/10 text-violet-300",
               },
               {
@@ -230,13 +229,13 @@ export default async function HomePage({
               <div>
                 <h2 className="text-lg font-bold text-sky-400 group-hover:text-sky-300 transition-colors">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? `版本中心：${liveVersion?.version ?? "1.x"} 已確認內容` : `版本中心：${liveVersion?.version ?? "1.x"} 已确认内容`)
-                    : `Version Center: v${liveVersion?.version ?? "1.x"} Confirmed Content`}
+                    ? (locale === "tw" ? "版本中心：歷史資料庫" : "版本中心：历史资料库")
+                    : "Version Center: Historical Archive"}
                 </h2>
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "把已確認版本內容、熱門攻略、角色資訊與下一版本觀察點集中到一頁查看" : "把已确认版本内容、热门攻略、角色信息与下一版本观察点集中到一页查看")
-                    : "See confirmed version content, hot guides, character references, and next-version watchpoints in one place."}
+                    ? (locale === "tw" ? "按版本集中查看已收錄的更新、角色、活動與攻略記錄；現行內容請以官方公告和客戶端為準" : "按版本集中查看已收录的更新、角色、活动与攻略记录；现行内容请以官方公告和客户端为准")
+                    : "Browse recorded updates, characters, events, and guides by version. Confirm live content through official notices and your client."}
                 </p>
               </div>
               <span className="text-sky-400/60 group-hover:text-sky-400 text-2xl">→</span>
@@ -268,7 +267,7 @@ export default async function HomePage({
             </div>
             <div className="rounded-xl border border-gray-800 bg-gray-900/40 p-5">
               <h2 className="text-base font-semibold text-white">
-                {isZhLocale(locale) ? "地图区域攻略" : "Map Region Guides"}
+                {isZhLocale(locale) ? "地图区域历史资料" : "Historical Map Regions"}
               </h2>
               <div className="mt-3 flex flex-wrap gap-2">
                 {[
@@ -290,7 +289,7 @@ export default async function HomePage({
               </h2>
               <div className="mt-3 flex flex-wrap gap-2">
                 {[
-                  { href: `/${lang}/builds`, label: isZhLocale(locale) ? "全角色 Build" : "Best Builds" },
+                  { href: `/${lang}/builds`, label: isZhLocale(locale) ? "角色搭配历史资料" : "Historical Build References" },
                   { href: `/${lang}/sitemap`, label: isZhLocale(locale) ? "网站地图" : "Sitemap Page" },
                   { href: `/${lang}/api`, label: "API" },
                   { href: `/${lang}/voice-actors`, label: isZhLocale(locale) ? "声优一览" : "Voice Actors" },
@@ -313,12 +312,12 @@ export default async function HomePage({
               </h2>
               <p className="mt-1 text-sm text-gray-400">
                 {isZhLocale(locale)
-                  ? (locale === "tw" ? "按日期聚合版本日誌、攻略與文章，回站時先看這裡最快。" : "按日期聚合版本日志、攻略与文章，回站时先看这里最快。")
-                  : "A chronological mix of patch notes, guides, and posts for fast re-entry."}
+                  ? (locale === "tw" ? "按日期聚合已收錄的版本日誌、攻略與文章；請勿將日期視為現行內容狀態。" : "按日期聚合已收录的版本日志、攻略与文章；请勿将日期视为现行内容状态。")
+                  : "A dated index of recorded patch notes, guides, and posts, not a statement of live availability."}
               </p>
             </div>
             <Link href={`/${lang}/version-center`} className="text-sm text-primary-400 hover:text-primary-300">
-              {isZhLocale(locale) ? (locale === "tw" ? "打開版本中心" : "打开版本中心") : "Open Version Center"} →
+              {isZhLocale(locale) ? (locale === "tw" ? "開啟版本歷史資料" : "打开版本历史资料") : "Open Version History"} →
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
@@ -461,8 +460,8 @@ export default async function HomePage({
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-8 gap-4">
             {[
               { title: t(locale, "calculator.leveling"), desc: isZhLocale(locale) ? "计算角色升级所需材料" : "Calculate leveling materials", href: `/${lang}/calculator/leveling`, icon: "📊" },
-              { title: t(locale, "calculator.build"), desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
-              { title: t(locale, "teamBuilder.title"), desc: isZhLocale(locale) ? "构建最佳阵容" : "Build best teams", href: `/${lang}/team-builder`, icon: "👥" },
+              { title: t(locale, "calculator.build"), desc: isZhLocale(locale) ? "按本地资料查看搭配假设" : "Review local build assumptions", href: `/${lang}/calculator/build`, icon: "⚙️" },
+              { title: t(locale, "teamBuilder.title"), desc: isZhLocale(locale) ? "按本地资料模拟队伍" : "Simulate teams from local data", href: `/${lang}/team-builder`, icon: "👥" },
               { title: t(locale, "gacha.title"), desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
               { title: t(locale, "site.nav.redeemCodes"), desc: isZhLocale(locale) ? (locale === "tw" ? "按狀態與區服核對兌換碼" : "按状态与区服核对兑换码") : "Check code status by server", href: `/${lang}/redeem-codes`, icon: "🎁" },
               { title: isZhLocale(locale) ? (locale === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner", desc: isZhLocale(locale) ? (locale === "tw" ? "神秘鈕扣缺口與每日目標" : "神秘纽扣缺口与每日目标") : "Plan Mystery Button targets", href: `/${lang}/999-nights-planner`, icon: "🧮" },
@@ -586,17 +585,17 @@ export default async function HomePage({
           <h2 className="text-2xl font-bold mb-6">{t(locale, "quickLinks.title")}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
             {[
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環強度排行" : "异环强度排行") : "NTE Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? (locale === "tw" ? "全角色評級排名" : "全角色评级排名") : "Character rankings" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環配隊推薦" : "异环配队推荐") : "Best Teams", href: `/${lang}/teams`, desc: isZhLocale(locale) ? (locale === "tw" ? "最佳隊伍搭配" : "最佳队伍搭配") : "Best team builds" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環互動地圖" : "异环交互地图") : "Interactive Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? (locale === "tw" ? "全地圖收集品標記" : "全地图收集品标记") : "All collectibles marked" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環角色評級歷史資料" : "异环角色评级历史资料") : "Historical Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? (locale === "tw" ? "已收錄角色評級記錄" : "已收录角色评级记录") : "Recorded character ratings" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環配隊歷史資料" : "异环配队历史资料") : "Historical Teams", href: `/${lang}/teams`, desc: isZhLocale(locale) ? (locale === "tw" ? "已收錄隊伍搭配記錄" : "已收录队伍搭配记录") : "Recorded team references" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環互動地圖歷史資料" : "异环交互地图历史资料") : "Historical Interactive Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? (locale === "tw" ? "已收錄地圖與收集品標記" : "已收录地图与收集品标记") : "Recorded map and collectible markers" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環兌換碼" : "异环兑换码") : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? (locale === "tw" ? "按狀態、來源與區服核對" : "按状态、来源与区服核对") : "Verify status, source & server" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環下載安裝" : "异环下载安装") : "Download NTE", href: `/${lang}/guides/download-install-guide`, desc: isZhLocale(locale) ? (locale === "tw" ? "PC/手機/PS5下載" : "PC/手机/PS5下载") : "PC, mobile & PS5" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環配置要求" : "异环配置要求") : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? (locale === "tw" ? "PC/手機最低配置" : "PC/手机最低配置") : "PC & mobile specs" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環武器圖鑑" : "异环武器图鉴") : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? (locale === "tw" ? "全弧盤武器資料庫" : "全弧盘武器数据库") : "Weapon database" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環下載安裝核對" : "异环下载安装核对") : "Verify NTE Download", href: `/${lang}/guides/download-install-guide`, desc: isZhLocale(locale) ? (locale === "tw" ? "按區服核對 PC/手機/PS5 入口" : "按区服核对 PC/手机/PS5 入口") : "Verify PC, mobile, and PS5 entry by server" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環配置要求核對" : "异环配置要求核对") : "Verify System Requirements", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? (locale === "tw" ? "以目標客戶端要求為準" : "以目标客户端要求为准") : "Confirm against your target client" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環武器歷史圖鑑" : "异环武器历史图鉴") : "Historical Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? (locale === "tw" ? "已收錄弧盤武器資料" : "已收录弧盘武器资料") : "Recorded weapon references" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環Boss攻略" : "异环Boss攻略") : "Boss Guides", href: `/${lang}/bosses`, desc: isZhLocale(locale) ? (locale === "tw" ? "全Boss打法詳解" : "全Boss打法详解") : "All boss strategies" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環世界觀" : "异环世界观") : "Lore", href: `/${lang}/lore`, desc: isZhLocale(locale) ? (locale === "tw" ? "劇情設定百科" : "剧情设定百科") : "Story & lore" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "DPS計算器" : "DPS计算器") : "DPS Calculator", href: `/${lang}/calculator/dps`, desc: isZhLocale(locale) ? (locale === "tw" ? "循環輸出計算" : "循环输出计算") : "Rotation DPS calc" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "版本中心" : "版本中心") : "Version Center", href: `/${lang}/version-center`, desc: isZhLocale(locale) ? (locale === "tw" ? "現行版本與近期更新入口" : "现行版本与近期更新入口") : "Live patch and recent updates" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "版本歷史資料" : "版本历史资料") : "Version History", href: `/${lang}/version-center`, desc: isZhLocale(locale) ? (locale === "tw" ? "已收錄版本與近期更新記錄" : "已收录版本与近期更新记录") : "Recorded version and update references" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>
