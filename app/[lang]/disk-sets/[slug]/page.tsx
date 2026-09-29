@@ -68,10 +68,18 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         title={setName}
         description={isZhLocale(locale)
           ? `${setName}（${set.pieces}件套）— ${set.category === "elemental" ? t(locale, "diskSets.elementalLabel") : t(locale, "diskSets.generalLabel")} cassette 详细效果与适配角色`
-          : `${set.nameEn} (${set.pieces}-piece set) — ${set.category === "elemental" ? "elemental" : "general"} cassette set effects and best characters`}
+          : `Historical ${set.nameEn} (${set.pieces}-piece) cassette reference — recorded set fields and character associations`}
         url={`https://nteguide.com/${lang}/disk-sets/${slug}`}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {localizedText(
+            locale,
+            "历史卡带资料复核：2026-09-29。本页不验证当前2件套与4件套效果、触发条件、数值、掉落地点、角色适配或刷取优先级；开始刷取、装配或升级前，请以目标区服客户端和官方公告为准。",
+            "Historical cassette reference reviewed September 29, 2026. This page does not verify current 2-piece or 4-piece effects, triggers, values, drop locations, character fit, or farming priority. Before farming, equipping, or upgrading, use the target server's client and official notices as the source of truth.",
+            "歷史卡帶資料復核：2026-09-29。本頁不驗證目前2件套與4件套效果、觸發條件、數值、掉落地點、角色適配或刷取優先級；開始刷取、裝配或升級前，請以目標區服客戶端和官方公告為準。"
+          )}
+        </section>
         {/* Header */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex items-center gap-4">
@@ -113,16 +121,16 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              `「${setName}」是异环中的${set.pieces}件卡带套装，定位为${set.category === "elemental" ? t(locale, "diskSets.elementalLabel") : t(locale, "diskSets.generalLabel")}配装。页面汇总2件套与4件套效果、适合角色、属性倾向和实战用法，方便在角色Build、DPS计算和配队规划前判断是否值得刷取。`,
-              `${setName} is a ${set.pieces}-piece cassette set in Neverness to Everness. This page summarizes its 2-piece and 4-piece bonuses, recommended characters, stat direction, and practical build use cases so you can decide whether to farm it before planning teams or DPS rotations.`
+              `「${setName}」是站内记录的${set.pieces}件卡带资料，包含历史2件套与4件套字段、关联角色和属性倾向。它不验证当前效果、触发条件、掉落地点或角色适配，不能作为刷取或养成决定。`,
+              `${setName} is a recorded ${set.pieces}-piece cassette reference with historical 2-piece and 4-piece fields, character associations, and stat direction. It does not verify current effects, triggers, drop locations, or character fit and cannot determine farming or upgrade decisions.`
             )}
           </p>
           <p className="mt-3 text-sm text-gray-400 leading-relaxed">
             {localizedText(
               locale,
-              `判断这套卡带时，建议把2件套当作过渡收益，把4件套当作最终配装目标来比较。如果角色目前缺少的是面板属性，2件套可能已经够用；如果角色依赖特定循环、元素窗口或队伍增益，才更值得追完整4件套。`,
-              `When judging this cassette set, compare the 2-piece bonus as a transitional gain and the 4-piece bonus as the final build target. If the character only needs raw stats, the 2-piece bonus may be enough. If the kit depends on a specific rotation, element window, or team buff, the full 4-piece set is more likely to matter.`,
-              `判斷這套卡帶時，建議把2件套當作過渡收益，把4件套當作最終配裝目標來比較。如果角色目前缺少的是面板屬性，2件套可能已經夠用；如果角色依賴特定循環、元素窗口或隊伍增益，才更值得追完整4件套。`
+              `开始刷取、装配或升级前，请在目标区服客户端核对2件套与4件套的当前文字、触发条件、覆盖时间、可获取状态和角色机制。`,
+              `Before farming, equipping, or upgrading, verify the current 2-piece and 4-piece text, trigger conditions, uptime, availability, and character mechanics in the target server's client.`,
+              `開始刷取、裝配或升級前，請在目標區服客戶端核對2件套與4件套的目前文字、觸發條件、覆蓋時間、可獲取狀態和角色機制。`
             )}
           </p>
         </section>
@@ -130,7 +138,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         {/* Set Bonuses */}
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "diskSets.setBonuses")}
+            {localizedText(locale, "历史套装字段", "Historical Set Fields", "歷史套裝欄位")}
           </h2>
           <div className="space-y-4">
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
@@ -147,7 +155,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         {/* Recommended Characters */}
         <section>
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "diskSets.recommendedCharacters")}
+            {localizedText(locale, "历史关联角色", "Historical Character Associations", "歷史關聯角色")}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {set.characters.map((cid) => {
@@ -175,23 +183,23 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
         <section className="mt-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "刷取优先级", "Farming Priority", "刷取優先級")}
+              {localizedText(locale, "客户端核对步骤", "Client Verification Steps", "客戶端核對步驟")}
             </h2>
             <ul className="space-y-2 text-sm leading-6 text-gray-300">
               <li>
                 {localizedText(
                   locale,
-                  set.characters.length > 0 ? `如果你的主力队包含推荐角色中的核心输出或辅助，可以把「${setName}」列入中高优先级。` : `如果当前没有明确推荐角色，「${setName}」更适合作为备用套装，不建议优先消耗大量体力。`,
-                  set.characters.length > 0 ? `If your main team uses one of the recommended damage or support characters, ${setName} can sit in a medium to high farming priority.` : `If no recommended character is listed yet, treat ${setName} as a backup set rather than a heavy stamina priority.`,
-                  set.characters.length > 0 ? `如果你的主力隊包含推薦角色中的核心輸出或輔助，可以把「${setName}」列入中高優先級。` : `如果目前沒有明確推薦角色，「${setName}」更適合作為備用套裝，不建議優先消耗大量體力。`
+                  set.characters.length > 0 ? "本站历史资料关联了若干角色；这不等于当前适配或刷取优先级，请先核对目标角色和套装的当前效果。" : "暂无历史关联角色不代表当前无法使用，也不能据此判断体力投入。",
+                  set.characters.length > 0 ? "The site has historical character associations; these do not establish current fit or farming priority. Confirm the target character and set's current effects first." : "No historical association does not establish current incompatibility or stamina priority.",
+                  set.characters.length > 0 ? "本站歷史資料關聯了若干角色；這不等於目前適配或刷取優先級，請先核對目標角色和套裝的目前效果。" : "暫無歷史關聯角色不代表目前無法使用，也不能據此判斷體力投入。"
                 )}
               </li>
               <li>
                 {localizedText(
                   locale,
-                  set.element ? `元素套装要优先确认角色是否稳定打出${getAttributeLabel(set.element, locale)}相关伤害，否则套装加成会被浪费。` : "通用套装更看重副词条质量，主词条正确但副词条过差时仍然不建议长期使用。",
-                  set.element ? `For elemental sets, confirm the character can consistently deal ${getAttributeLabel(set.element, locale)}-related damage or the bonus may be wasted.` : "For general sets, substat quality matters more; correct main stats with weak substats are still poor long-term pieces.",
-                  set.element ? `元素套裝要優先確認角色是否穩定打出${getAttributeLabel(set.element, locale)}相關傷害，否則套裝加成會被浪費。` : "通用套裝更看重副詞條品質，主詞條正確但副詞條過差時仍然不建議長期使用。"
+                  set.element ? `核对当前角色是否仍能稳定触发记录中的${getAttributeLabel(set.element, locale)}相关条件，以及当前套装是否仍有相同加成。` : "核对当前套装的主词条、副词条、触发条件和数值，不要用历史字段推断长期价值。",
+                  set.element ? `Verify whether the current character can still trigger the recorded ${getAttributeLabel(set.element, locale)}-related condition and whether the current set retains that bonus.` : "Verify current main stats, substats, triggers, and values; do not infer long-term value from historical fields.",
+                  set.element ? `核對目前角色是否仍能穩定觸發記錄中的${getAttributeLabel(set.element, locale)}相關條件，以及目前套裝是否仍有相同加成。` : "核對目前套裝的主詞條、副詞條、觸發條件和數值，不要用歷史欄位推斷長期價值。"
                 )}
               </li>
             </ul>
@@ -204,9 +212,9 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
             <p className="text-sm leading-6 text-gray-300">
               {localizedText(
                 locale,
-                `刷到可用部件后，建议先去角色页确认技能机制，再用弧盘页和配队工具检查是否需要补暴击、攻击、能量或生存。这样能把「${setName}」放进完整Build，而不是只追套装名。`,
-                `After finding usable pieces, check the character kit first, then use Arc pages and the team builder to see whether the build still needs crit, attack, energy, or sustain. This places ${setName} inside a complete build instead of chasing the set name alone.`,
-                `刷到可用部件後，建議先去角色頁確認技能機制，再用弧盤頁和配隊工具檢查是否需要補暴擊、攻擊、能量或生存。這樣能把「${setName}」放進完整Build，而不是只追套裝名。`
+                "本站角色页、弧盘页和配队工具均为历史参考。开始刷取或升级前，请把它们与客户端中的当前技能、装备效果和资源成本逐项对照。",
+                "Character pages, Arc pages, and the team tool are historical references too. Before farming or upgrading, compare them item by item with the client’s current skills, equipment effects, and resource costs.",
+                "本站角色頁、弧盤頁和配隊工具均為歷史參考。開始刷取或升級前，請把它們與客戶端中的目前技能、裝備效果和資源成本逐項對照。"
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">

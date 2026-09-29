@@ -34,7 +34,7 @@ export function WeaponSummary({ name, nameTw, nameEn, rank, type, baseAtk, subst
 
   if (relatedCharacters.length > 0) {
     const charNames = relatedCharacters.map(c => locale === "zh" ? c.name : (locale === "tw" ? (c.nameTw || c.name) : c.nameEn)).join(", ");
-    rows.push({ key: t(locale, "weaponSummary.bestFor"), val: charNames });
+    rows.push({ key: isZhLocale(locale) ? "历史关联角色" : "Historical character associations", val: charNames });
   }
 
   return (

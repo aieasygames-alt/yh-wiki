@@ -16,10 +16,10 @@ export async function generateMetadata({
   const weapons = getAllWeapons();
   const typeCount = new Set(weapons.map((weapon) => weapon.type)).size;
   const description = locale === "tw"
-    ? `異環武器圖鑑彙整 ${weapons.length} 把武器，涵蓋 ${typeCount} 種弧盤類型與 S/A/B 稀有度，整理基礎攻擊、詞條、適用角色與配裝查詢入口。`
+    ? `異環歷史弧盤索引彙整 ${weapons.length} 筆資料，涵蓋 ${typeCount} 種類型與 S/A/B 記錄欄位；目前數值、被動、可用性與適配請以客戶端為準。`
     : locale === "zh"
-    ? `异环武器图鉴，汇总 ${weapons.length} 把武器，覆盖 ${typeCount} 种弧盘类型与 S/A/B 全稀有度，并附基础攻击、词条与适用方向，方便配装查询。`
-    : `Browse ${weapons.length} Neverness to Everness weapons across ${typeCount} arc types and S/A/B rarities, with base attack, substats, and build-oriented lookup support.`;
+    ? `异环历史弧盘索引，汇总 ${weapons.length} 条资料，覆盖 ${typeCount} 种类型与 S/A/B 记录字段；当前数值、被动、可用性与适配请以客户端为准。`
+    : `Browse ${weapons.length} historical NTE Arc records across ${typeCount} types and S/A/B fields. Verify current values, passives, availability, and fit in the client.`;
 
   return {
     title: t(locale, "weapons.title"),
@@ -80,8 +80,8 @@ export default async function WeaponsPage({
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
-              ? "它适合你在抽到新弧盘、切换角色 Build 或比较同类型武器时快速确认面板和适配方向。真正决定要不要投入培养时，最好再回到对应角色攻略和 Build 页交叉判断。"
-              : "Use this index when you pull a new Arc, swap a character build, or compare same-type options side by side. Before committing upgrades, cross-check the matching character guide and build page for role context."}
+              ? "它适合查找历史面板字段和关联标签。当前弧盘、角色机制、被动触发、来源与投入价值必须以目标区服客户端和官方公告复核；站内角色与 Build 页同样只是历史参考。"
+              : "Use this index to find historical stat fields and association tags. Verify current Arcs, character mechanics, passive triggers, sources, and investment value with the target server’s client and official notices; character and build pages here are historical references too."}
           </p>
         </section>
 
@@ -91,8 +91,8 @@ export default async function WeaponsPage({
             items={[
               { label: isZhLocale(locale) ? "武器总数" : "Weapons", value: `${weapons.length}` },
               { label: isZhLocale(locale) ? "弧盘类型" : "Arc types", value: `${typeCount}` },
-              { label: isZhLocale(locale) ? "优先判断" : "First check", value: isZhLocale(locale) ? "先看词条和触发条件，再看稀有度。" : "Check substat and trigger condition before rarity." },
-              { label: isZhLocale(locale) ? "搭配方式" : "Best use", value: isZhLocale(locale) ? "配合角色 Build 页一起看。" : "Use together with the build index." },
+              { label: isZhLocale(locale) ? "当前状态" : "Current status", value: isZhLocale(locale) ? "客户端逐项核对。" : "Verify each field in-client." },
+              { label: isZhLocale(locale) ? "页面定位" : "Page scope", value: isZhLocale(locale) ? "历史字段与关联标签。" : "Historical fields and association tags." },
             ]}
           />
         </div>
@@ -131,9 +131,9 @@ export default async function WeaponsPage({
               {isZhLocale(locale) ? "培养前先看什么" : "Check this before investing"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? "角色是否真的能稳定触发该弧盘被动。" : "Whether your character can trigger the Arc passive consistently."}</li>
-              <li>{isZhLocale(locale) ? "这把弧盘是不是会和下期卡池、替补角色共用。" : "Whether the Arc can be shared across future carries or backup units."}</li>
-              <li>{isZhLocale(locale) ? "当前副本、Boss 或 999 Nights 更需要面板还是功能。" : "Whether your current target values raw stats or utility more."}</li>
+              <li>{isZhLocale(locale) ? "客户端中该弧盘是否仍存在，以及当前被动文字与触发条件。" : "Whether the Arc still exists in the client and its current passive text and trigger condition."}</li>
+              <li>{isZhLocale(locale) ? "当前来源是否开放、限时，以及真实的卡池或兑换成本。" : "Whether its current source is open or limited, and its actual banner or exchange cost."}</li>
+              <li>{isZhLocale(locale) ? "目标角色当前技能与装备是否仍允许该历史搭配。" : "Whether the target character’s current skills and equipment still permit the historical pairing."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -143,7 +143,7 @@ export default async function WeaponsPage({
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
               <li>{isZhLocale(locale) ? "只按 S/A/B 稀有度排序，不看词条和角色适性。" : "Ranking Arcs by rarity alone without checking substats and character fit."}</li>
               <li>{isZhLocale(locale) ? "把同类型弧盘当成完全互换，忽略触发门槛。" : "Treating same-type Arcs as interchangeable and ignoring activation requirements."}</li>
-              <li>{isZhLocale(locale) ? "为了追求毕业专武，拖慢多个主力角色的整体成型。" : "Over-chasing signature weapons and slowing down the rest of the roster."}</li>
+              <li>{isZhLocale(locale) ? "把历史关联标签当成当前最优或抽取建议。" : "Treating historical association tags as current best-in-slot or pull advice."}</li>
             </ul>
           </div>
         </section>

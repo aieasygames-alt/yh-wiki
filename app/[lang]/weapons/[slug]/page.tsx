@@ -47,8 +47,8 @@ export async function generateMetadata({
         locale === "tw"
           ? `適合 ${topCharacters.join("、")} 等角色配置`
           : isZhLocale(locale)
-          ? `适合 ${topCharacters.join("、")} 等角色配置`
-          : `Recommended for ${topCharacters.join(", ")} and similar builds`
+          ? `历史资料关联 ${topCharacters.join("、")} 等角色`
+          : `Historically associated with ${topCharacters.join(", ")} and similar builds`
       )
     : (
         locale === "tw"
@@ -62,14 +62,14 @@ export async function generateMetadata({
       ? `異環弧盤「${displayName}」${weapon.rank}級${typeLabel}屬性，基礎 ATK ${weapon.baseAtk}、副詞條 ${substatLabel} ${weapon.substatValue}，${characterText}，並整理被動效果與獲取方式：${obtainDesc}`
       : isZhLocale(locale)
       ? `异环弧盘「${displayName}」${weapon.rank}级${typeLabel}属性，基础 ATK ${weapon.baseAtk}、副词条 ${substatLabel} ${weapon.substatValue}，${characterText}，并整理被动效果与获取方式：${obtainDesc}`
-      : `${weapon.nameEn} is a ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type} Arc in NTE with base ATK ${weapon.baseAtk} and ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. ${characterText}. Includes passive effect details and how to obtain it: ${obtainDesc}`);
+      : `Historical NTE Arc reference for ${weapon.nameEn}: recorded ${weapon.rank}-rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}, base ATK ${weapon.baseAtk}, and ${SUBSTAT_LABELS[weapon.substat]?.en || weapon.substat} ${weapon.substatValue}. ${characterText}. Verify current passive details and availability in the target server's client.`);
   return {
     title:
       locale === "tw"
         ? `${displayName} 屬性與獲取方式 | 異環弧盤 Wiki`
         : isZhLocale(locale)
         ? `${displayName} 属性、精炼与获取方式 | 异环弧盘 Wiki`
-        : `${weapon.nameEn} (${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}) — Stats, Best Characters & How to Get`,
+        : `${weapon.nameEn} (${weapon.rank}-Rank ${ARC_TYPE_LABELS[weapon.type]?.en || weapon.type}) — Historical Stats & References`,
     description,
     alternates: hreflangAlternates(`weapons/${slug}`, lang),
     openGraph: {
@@ -120,6 +120,14 @@ export default async function WeaponDetailPage({
         image={weapon.image ? `https://nteguide.com${weapon.image}` : undefined}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {localizedText(
+            locale,
+            "历史弧盘资料复核：2026-09-29。本页记录的等级、属性、副词条、被动、来源和关联角色均不验证当前版本；升级、抽取、兑换或调整队伍前，请以目标区服客户端和官方公告逐项核对。",
+            "Historical Arc reference reviewed September 29, 2026. This page does not verify current rank, type, substat, passive, source, or character association. Before upgrading, pulling, exchanging, or changing a team, confirm each item in the target server's client and official notices.",
+            "歷史弧盤資料復核：2026-09-29。本頁記錄的等級、屬性、副詞條、被動、來源和關聯角色均不驗證目前版本；升級、抽取、兌換或調整隊伍前，請以目標區服客戶端和官方公告逐項核對。"
+          )}
+        </section>
         {/* Weapon Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
@@ -177,9 +185,9 @@ export default async function WeaponDetailPage({
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              `「${displayName}」适合优先检查三个维度：${typeLabel}属性是否契合角色机制，副词条 ${substatLabel} ${weapon.substatValue} 是否补到Build短板，以及获取方式是否适合当前版本投入。不要只看基础 ATK，弧盘被动、角色技能循环和队伍增益覆盖通常会决定最终收益。`,
-              `${displayName} should be evaluated across three points: whether its ${typeLabel} type fits the character kit, whether ${substatLabel} ${weapon.substatValue} solves a build gap, and whether its acquisition method is worth the current patch investment. Do not judge by base ATK alone; passive uptime, rotation flow, and team buffs usually decide the final value.`,
-              `「${displayName}」適合優先檢查三個維度：${typeLabel}屬性是否契合角色機制，副詞條 ${substatLabel} ${weapon.substatValue} 是否補到Build短板，以及獲取方式是否適合目前版本投入。不要只看基礎 ATK，弧盤被動、角色技能循環和隊伍增益覆蓋通常會決定最終收益。`
+              `「${displayName}」的历史字段可用于列出核对项：${typeLabel}属性、${substatLabel} ${weapon.substatValue} 与记录中的获取方式。当前是否契合角色、被动能否触发和投入价值，必须在客户端确认后再判断。`,
+              `The historical fields for ${displayName} can help form a checklist: ${typeLabel} type, ${substatLabel} ${weapon.substatValue}, and the recorded source. Confirm current character fit, passive triggers, and investment value in-client before deciding.`,
+              `「${displayName}」的歷史欄位可用於列出核對項：${typeLabel}屬性、${substatLabel} ${weapon.substatValue} 與記錄中的獲取方式。目前是否契合角色、被動能否觸發和投入價值，必須在客戶端確認後再判斷。`
             )}
           </p>
         </section>
@@ -187,7 +195,7 @@ export default async function WeaponDetailPage({
         {/* Passive Effect */}
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
           <h2 className="text-xl font-bold mb-3">
-            {isZhLocale(locale) ? (locale === "tw" ? "弧盤效果" : "弧盘效果") : "Arc Effect"}
+            {isZhLocale(locale) ? (locale === "tw" ? "歷史弧盤效果欄位" : "历史弧盘效果字段") : "Historical Arc Effect Field"}
             {effectName !== weapon.effectNameEn && effectName !== weapon.effectName && (
               <span className="text-gray-500 font-normal text-sm ml-2">
                 {locale === "en" ? weapon.effectName : weapon.effectNameEn}
@@ -203,7 +211,7 @@ export default async function WeaponDetailPage({
         {/* How to Obtain */}
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
           <h2 className="text-xl font-bold mb-3">
-            {isZhLocale(locale) ? (locale === "tw" ? "獲取方式" : "获取方式") : "How to Obtain"}
+            {isZhLocale(locale) ? (locale === "tw" ? "記錄中的獲取方式" : "记录中的获取方式") : "Recorded Acquisition Method"}
           </h2>
           <div className="flex items-start gap-3">
             <span className="text-xs px-2 py-1 rounded border bg-primary-500/20 text-primary-400 border-primary-500/30 whitespace-nowrap">
@@ -215,7 +223,7 @@ export default async function WeaponDetailPage({
 
         {/* Related Characters */}
         <section className="mb-8">
-          <h2 className="text-xl font-bold mb-4">{t(locale, "weapons.relatedCharacters")}</h2>
+          <h2 className="text-xl font-bold mb-4">{localizedText(locale, "历史关联角色", "Historical Character Associations", "歷史關聯角色")}</h2>
           {characters.length > 0 ? (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {characters.map((c) => {

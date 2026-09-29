@@ -10,13 +10,11 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const { lang } = await params;
   const locale = lang as Locale;
   const diskSets = getAllDiskSets();
-  const elementalCount = diskSets.filter((set) => set.category === "elemental").length;
-  const generalCount = diskSets.filter((set) => set.category === "general").length;
   const description = locale === "tw"
-    ? `異環卡帶套裝資料庫整理 ${diskSets.length} 套效果，包含 ${elementalCount} 套元素專屬與 ${generalCount} 套通用套裝，彙整 2 件套、4 件套、適用角色與配裝方向。`
+    ? `異環歷史卡帶索引整理 ${diskSets.length} 套資料，包含元素與通用套裝的 2 件套、4 件套和關聯角色欄位；目前效果與可獲取狀態請以客戶端為準。`
     : locale === "zh"
-    ? `异环卡带套装大全，整理 ${diskSets.length} 套卡带效果，包含 ${elementalCount} 套元素专属与 ${generalCount} 套通用套装，汇总 2 件套、4 件套与推荐角色。`
-    : `Complete Neverness to Everness disk set database with ${diskSets.length} sets, including ${elementalCount} elemental sets and ${generalCount} general sets with 2-piece, 4-piece, and recommended character references.`;
+    ? `异环历史卡带索引，整理 ${diskSets.length} 套资料，包含元素与通用套装的 2 件套、4 件套和关联角色字段；当前效果与可获取状态请以客户端为准。`
+    : `Historical NTE cassette index with ${diskSets.length} recorded sets, including elemental and general 2-piece, 4-piece, and character-association fields. Verify current effects and availability in the client.`;
 
   return {
     title: t(locale, "diskSets.seoTitle"),
@@ -65,8 +63,8 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
             {isZhLocale(locale)
-              ? "异环全卡带套装效果一览，包含6种元素专属和6种通用卡带的2件套和4件套加成、适用角色推荐。"
-              : "All 12 cartridge sets in Neverness to Everness, including 2-piece and 4-piece set bonuses and recommended characters."}
+              ? "异环历史卡带套装资料索引，包含记录中的2件套、4件套字段与角色关联。当前套装文字、数值、掉落和适配请以目标区服客户端和官方公告为准。"
+              : "Historical NTE cassette-set reference index with recorded 2-piece, 4-piece, and character-association fields. Verify current set text, values, drops, and fit in the target server’s client and official notices."}
           </p>
         </div>
 
@@ -76,8 +74,8 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
-              ? "先按元素专属或通用套装判断方向，再看 2 件套和 4 件套究竟是补面板、补循环，还是只适合特定角色。总表适合横向比较，不建议只看推荐角色标签就直接开刷。"
-              : "Start by separating elemental sets from general-purpose sets, then check whether the 2-piece and 4-piece effects improve stats, rotation uptime, or only a narrow character archetype. This hub is best for comparison, not blind farming based only on recommended tags."}
+              ? "本页只适合查找和横向比较历史字段。不要依据套装名称、2件套、4件套或关联角色标签直接刷取；先在客户端核对当前效果、触发条件、掉落和角色机制。"
+              : "Use this page only to find and compare historical fields. Do not farm from a set name, 2-piece, 4-piece, or association tag alone; verify current effects, triggers, drops, and character mechanics in the client first."}
           </p>
         </section>
 
@@ -87,9 +85,9 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
               {isZhLocale(locale) ? "刷卡带前先判断什么" : "What should you check before farming sets?"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? "先确认角色更需要 2+2 过渡，还是必须凑齐 4 件套核心效果。" : "Decide whether your unit only needs a 2+2 transition setup or truly depends on a full 4-piece effect."}</li>
-              <li>{isZhLocale(locale) ? "别只看属性名字，要看触发条件和覆盖率能不能在实战里稳定吃满。" : "Do not stop at the element label; check whether the trigger condition and uptime are realistic in combat."}</li>
-              <li>{isZhLocale(locale) ? "优先刷能被多个主力共享的副本，通常比为单角色单套件硬冲更划算。" : "Prioritize dungeons whose drops can be shared across several core units before hard-targeting one niche set."}</li>
+              <li>{isZhLocale(locale) ? "客户端中的2件套、4件套文字、数值和触发条件是否仍与记录一致。" : "Whether the client’s 2-piece and 4-piece text, values, and triggers still match the record."}</li>
+              <li>{isZhLocale(locale) ? "当前掉落地点、开放条件、体力成本和活动加成。" : "Current drop location, unlock requirements, stamina cost, and event modifiers."}</li>
+              <li>{isZhLocale(locale) ? "目标角色当前技能与元素互动是否仍满足套装条件。" : "Whether the target character’s current kit and element interactions still meet the set condition."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -98,8 +96,8 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
               <li>{isZhLocale(locale) ? "看到推荐角色就默认毕业，不核对自己当前队伍和词条需求。" : "Assuming a recommended set is automatically best-in-slot without checking your own team and stat needs."}</li>
-              <li>{isZhLocale(locale) ? "为了 4 件套效果放弃更好的主词条和副词条，导致整体输出反而变差。" : "Forcing a 4-piece bonus while sacrificing much stronger main stats or substats."}</li>
-              <li>{isZhLocale(locale) ? "把元素专属套装当成同属性角色通用答案，忽略角色机制差异。" : "Treating elemental sets as universal answers for every unit of the same attribute."}</li>
+              <li>{isZhLocale(locale) ? "把记录中的4件套当作当前固定毕业答案。" : "Treating the recorded 4-piece effect as a current fixed best-in-slot answer."}</li>
+              <li>{isZhLocale(locale) ? "把元素或关联角色标签当成当前适配结论。" : "Treating element or character-association tags as a current fit verdict."}</li>
             </ul>
           </div>
         </section>
