@@ -623,6 +623,9 @@ export interface Changelog {
   compensation?: string;
   compensationEn?: string;
   internalLinks?: Array<string | InternalLink>;
+  reviewedAt?: string;
+  verificationStatus?: "confirmed" | "live" | "watch" | "historical";
+  sourceUrl?: string;
 }
 
 export function getAllChangelogs(): Changelog[] {

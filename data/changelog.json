@@ -553,7 +553,9 @@
       "/guides",
       "/redeem-codes",
       "/vehicles"
-    ]
+    ],
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "hotfix-1-0-1",
@@ -657,7 +659,9 @@
     "internalLinks": [
       "/guides",
       "/characters"
-    ]
+    ],
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "version-1-1",
@@ -903,7 +907,9 @@
       "/tier-list",
       "/redeem-codes",
       "/changelog"
-    ]
+    ],
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "version-1-2",
@@ -1166,7 +1172,9 @@
         "labelEn": "More Patch Notes",
         "href": "/changelog"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "version-1-3",
@@ -1314,6 +1322,8 @@
         "labelEn": "More Patch Notes",
         "href": "/changelog"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "live"
   }
 ]

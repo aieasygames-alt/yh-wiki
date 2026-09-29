@@ -5,6 +5,7 @@ import { ArticleJsonLd } from "../../../../components/JsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
+import { ContentStatus, type VerificationStatus } from "../../../../components/ContentStatus";
 
 function fallbackLinkLabel(path: string, isZh: boolean) {
   const normalized = path.replace(/^\/+/, "");
@@ -134,6 +135,9 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
           <div className="flex items-center gap-4 text-sm text-gray-500">
             <span>{t(locale, "changelogDetails.cn")}: {cl.date}</span>
             {cl.dateGlobal && <span>{t(locale, "changelogDetails.global")}: {cl.dateGlobal}</span>}
+          </div>
+          <div className="mt-4">
+            <ContentStatus locale={locale} status={(cl.verificationStatus || "historical") as VerificationStatus} reviewedAt={cl.reviewedAt} sourceUrl={cl.sourceUrl} />
           </div>
         </div>
 

@@ -264,6 +264,29 @@ function generateApiJson() {
   console.log(`[api] redeem-codes.json: ${codes.length} items`);
 }
 
+// ── 3b. Content freshness report ──────────────────────
+function generateContentFreshnessReport() {
+  const now = new Date();
+  const dayMs = 24 * 60 * 60 * 1000;
+  const entries = [
+    ...load("guides.json").map((item) => ({ id: item.id, type: "guide", date: item.date, title: item.title, titleEn: item.titleEn })),
+    ...load("blog.json").map((item) => ({ id: item.id, type: "blog", date: item.date, title: item.title, titleEn: item.titleEn })),
+    ...load("changelog.json").map((item) => ({ id: item.id, type: "changelog", date: item.reviewedAt || item.date, title: item.versionName, titleEn: item.versionNameEn })),
+  ].map((entry) => {
+    const timestamp = entry.date ? new Date(entry.date).getTime() : NaN;
+    const ageDays = Number.isFinite(timestamp) ? Math.floor((now.getTime() - timestamp) / dayMs) : null;
+    return { ...entry, ageDays, needsReview: ageDays === null || ageDays > 45 };
+  });
+  const report = {
+    generatedAt: now.toISOString(),
+    reviewAfterDays: 45,
+    totals: { tracked: entries.length, needsReview: entries.filter((entry) => entry.needsReview).length },
+    needsReview: entries.filter((entry) => entry.needsReview).sort((a, b) => (b.ageDays || 0) - (a.ageDays || 0)),
+  };
+  fs.writeFileSync(path.join(PUBLIC, "content-freshness.json"), JSON.stringify(report, null, 2), "utf-8");
+  console.log(`[content-freshness] ${report.totals.needsReview}/${report.totals.tracked} items need review`);
+}
+
 // ── 4. llms-full.txt ────────────────────────────────────
 function generateLlmsFull() {
   const lines = [];
@@ -322,5 +345,6 @@ console.log("=== Pre-build (merged) ===");
 generateSearchIndex();
 generateSitemaps();
 generateApiJson();
+generateContentFreshnessReport();
 generateLlmsFull();
 console.log("=== Pre-build done ===");

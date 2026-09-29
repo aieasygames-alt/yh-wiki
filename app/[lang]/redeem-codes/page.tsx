@@ -75,21 +75,23 @@ export default async function RedeemCodesPage({
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, 3);
 
+  const activeCodes = codes.filter((code) => code.status === "active").map((code) => code.code);
+  const activeCodesLabel = activeCodes.join(", ");
   const faqs = isZhLocale(locale)
     ? [
-        { question: "异环7月最新兑换码有哪些？", questionZh: "异环7月最新兑换码有哪些？", answer: "当前重点可用码包括999NIGHTS、SHINKU0708、IROI0729、LACRIMOSA0603、NTEFREE、NTEWINFONS、NTEFUNGAME和NTENENE。部分旧平台码已过期，建议优先兑换7月活动码。", answerZh: "当前重点可用码包括999NIGHTS、SHINKU0708、IROI0729、LACRIMOSA0603、NTEFREE、NTEWINFONS、NTEFUNGAME和NTENENE。部分旧平台码已过期，建议优先兑换7月活动码。" },
-        { question: "异环兑换码在哪里输入？", questionZh: "异环兑换码在哪里输入？", answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效兑换码即可领取奖励。", answerZh: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效兑换码即可领取奖励。" },
+        { question: "异环现在有哪些标记为有效的兑换码？", questionZh: "异环现在有哪些标记为有效的兑换码？", answer: `本站当前标记为有效的代码：${activeCodesLabel || "暂无已验证代码"}。兑换前请在本页核对区服、状态和游戏内结果；TBA 不代表永久有效。`, answerZh: `本站当前标记为有效的代码：${activeCodesLabel || "暂无已验证代码"}。兑换前请在本页核对区服、状态和游戏内结果；TBA 不代表永久有效。` },
+        { question: "异环兑换码在哪里输入？", questionZh: "异环兑换码在哪里输入？", answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入本页标记为有效的代码。奖励到账前不要把代码收益计入抽卡预算。", answerZh: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入本页标记为有效的代码。奖励到账前不要把代码收益计入抽卡预算。" },
       ]
     : [
-        { question: "What are the active NTE codes for July 2026?", questionZh: "What are the active NTE codes for July 2026?", answer: "Priority July codes include 999NIGHTS, SHINKU0708, IROI0729, LACRIMOSA0603, plus permanent codes such as NTEFREE, NTEWINFONS, NTEFUNGAME, and NTENENE. Redeem event codes first in case they expire without notice.", answerZh: "Priority July codes include 999NIGHTS, SHINKU0708, IROI0729, LACRIMOSA0603, plus permanent codes such as NTEFREE, NTEWINFONS, NTEFUNGAME, and NTENENE. Redeem event codes first in case they expire without notice." },
-        { question: "How to redeem codes in Neverness to Everness?", questionZh: "How to redeem codes in Neverness to Everness?", answer: "Launch the game, tap your profile icon → Settings → enter the code in the Redeem Code field. Redeem immediately to avoid expiration.", answerZh: "Launch the game, tap your profile icon → Settings → enter the code in the Redeem Code field. Redeem immediately to avoid expiration." },
+        { question: "Which NTE redeem codes are currently marked active?", questionZh: "Which NTE redeem codes are currently marked active?", answer: `This page currently marks these codes active: ${activeCodesLabel || "no verified codes"}. Verify server, status, and the in-game result before treating a code as pull income; TBA does not mean permanent.`, answerZh: `This page currently marks these codes active: ${activeCodesLabel || "no verified codes"}. Verify server, status, and the in-game result before treating a code as pull income; TBA does not mean permanent.` },
+        { question: "How do I redeem NTE codes?", questionZh: "How do I redeem NTE codes?", answer: "Launch the game, tap your profile icon, open Settings, and enter a code marked active on this page. Confirm the reward in mail before changing your resource plan.", answerZh: "Launch the game, tap your profile icon, open Settings, and enter a code marked active on this page. Confirm the reward in mail before changing your resource plan." },
       ];
 
   return (
     <>
       <ArticleJsonLd
         title={isZhLocale(locale) ? "异环兑换码" : "NTE Redeem Codes — All Active Codes Updated Daily"}
-        description={isZhLocale(locale) ? "异环最新兑换码实时更新" : "All working Neverness to Everness redeem codes, updated daily"}
+        description={isZhLocale(locale) ? "异环兑换码状态追踪：核对区服、有效状态、来源和领取结果" : "NTE redeem-code status tracker with server, verification, source, and claim checks"}
         url={`https://nteguide.com/${lang}/redeem-codes`}
       />
       <FaqPageJsonLd faqs={faqs} lang={locale} />

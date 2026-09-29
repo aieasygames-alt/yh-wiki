@@ -140,8 +140,8 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
           },
         ]}
         footer={isZhLocale(locale)
-          ? (locale === "tw" ? `共 ${activeCount} 個有效碼 · ${codes.length} 個總碼數 · 頁面即時更新` : `共 ${activeCount} 个有效码 · ${codes.length} 个总码数 · 页面实时更新`)
-          : `${activeCount} active codes · ${codes.length} total · Updated in real-time`}
+          ? (locale === "tw" ? `共 ${activeCount} 個標記為有效的代碼 · ${codes.length} 個總碼數 · 請以遊戲內結果為準` : `共 ${activeCount} 个标记为有效的代码 · ${codes.length} 个总码数 · 请以游戏内结果为准`)
+          : `${activeCount} codes marked active · ${codes.length} total · Verify the in-game result`}
       />
 
       <div className="mb-6">
@@ -307,21 +307,21 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
             ? (locale === "tw"
               ? [
                   { q: "異環兌換碼怎麼用？在哪裡輸入？", a: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入有效的兌換碼即可領取獎勵。建議開服後第一時間兌換，避免過期。" },
-                  { q: "異環國際服兌換碼有哪些？", a: "目前國際服有效兌換碼包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429 等，有效期至2026年5月。請以本頁面最新資訊為準。" },
-                  { q: "異環兌換碼過期了怎麼辦？", a: "兌換碼有使用期限，過期後無法使用。請關注官方直播和社群活動獲取新兌換碼，本頁面也會即時更新。" },
-                  { q: "異環前瞻直播兌換碼有哪些？", a: "公測前瞻直播（4月18日）公布了國服3個和國際服3個兌換碼。國服碼有效期至5月7日，國際服碼有效期至5月29日。" },
+                  { q: "異環國際服兌換碼有哪些？", a: "請以頁面篩選為「有效」和「全球服」後的列表為準。歷史直播碼與截圖轉發不代表仍可兌換。" },
+                  { q: "異環兌換碼過期了怎麼辦？", a: "過期碼無法恢復。請只使用有來源與有效狀態的代碼，並在遊戲內郵件確認獎勵後再調整資源規劃。" },
+                  { q: "異環前瞻直播兌換碼有哪些？", a: "前瞻直播碼通常有效期很短。本頁保留歷史碼作識別用途，但不會把過期碼標示為有效。" },
                 ]
               : [
                   { q: "异环兑换码在哪里输入？怎么用？", a: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效的兑换码即可领取奖励。建议开服后第一时间兑换，避免过期。" },
-                  { q: "异环国际服兑换码有哪些？", a: "目前国际服有效兑换码包括 NTENOWTOENJOY、NTENANALLYGO、NTE0429 等，有效期至2026年5月。请以本页面最新信息为准。" },
-                  { q: "异环开服兑换码有哪些？公测码是多少？", a: "异环公测兑换码分为国服和国际服两组。国服：YHNOWTOENJOY、YHNANALLYGO、YHOB0423（有效期至5月7日）。国际服：NTENOWTOENJOY、NTENANALLYGO、NTE0429（有效期至5月29日）。" },
-                  { q: "异环前瞻直播兑换码有哪些？", a: "公测前瞻直播（4月18日）公布了国服3个和国际服3个兑换码。国服码有效期至5月7日，国际服码有效期至5月29日。后续直播活动可能发布更多兑换码。" },
+                  { q: "异环国际服兑换码有哪些？", a: "请以页面筛选为“有效”和“国际服”后的列表为准。历史直播码与社区截图不代表仍可兑换。" },
+                  { q: "异环开服兑换码有哪些？公测码是多少？", a: "开服码属于历史资料。它们保留在过期列表中用于识别，但不能计入当前资源或抽卡预算。" },
+                  { q: "异环前瞻直播兑换码有哪些？", a: "前瞻直播码通常有效期很短。本页只把状态为有效且来源明确的代码作为可尝试兑换项。" },
                 ])
             : [
                 { q: "How to redeem codes in Neverness to Everness?", a: "Launch the game, tap your profile icon (top-right) → Settings → enter the code in the Redeem Code field. Redeem immediately after launch to avoid expiration." },
-                { q: "What are the active NTE redeem codes for Global server?", a: "Active Global codes include NTENOWTOENJOY, NTENANALLYGO, and NTE0429, valid through May 2026. Check this page for the latest updates." },
-                { q: "Do NTE redeem codes expire?", a: "Yes, all redeem codes have expiration dates and some have usage limits. Redeem them as soon as possible after the game launches." },
-                { q: "Where do I find new NTE redeem codes?", a: "New codes are announced during official livestreams, social media events, and partner promotions. This page is updated in real-time with all available codes." },
+                { q: "What are the active Global NTE codes?", a: "Filter this page to Active and Global for the current list. Historic livestream codes and reposted screenshots are not evidence that a code still works." },
+                { q: "Do NTE redeem codes expire?", a: "Yes. Treat a code as usable only when it is marked active with a source, then confirm the reward in-game before planning around it." },
+                { q: "Where do I find new NTE redeem codes?", a: "Check official notices and in-game mail first. This page records code status and source, but it does not promise real-time availability." },
               ]
           ).map((item, i) => (
             <details key={i} className="group rounded-xl border border-gray-800 bg-gray-900/50">
