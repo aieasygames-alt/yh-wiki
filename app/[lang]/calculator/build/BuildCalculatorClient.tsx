@@ -166,7 +166,7 @@ export function BuildCalculatorClient({
     <>
       <WebApplicationJsonLd
         name={isZhLocale(lang) ? "异环配装计算器" : "NTE Build Calculator"}
-        description={isZhLocale(lang) ? "异环角色配装查询工具，按角色查看推荐的弧盘、卡带与配队方案" : "NTE character build finder — recommended arcs, cassettes, and team comps per character"}
+        description={isZhLocale(lang) ? "异环角色构筑历史资料对照与本地材料汇总工具；当前数据请以客户端为准" : "NTE historical build reference and local material-summary tool; verify current data in-client"}
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
       <div className="flex items-center justify-between mb-8">
@@ -182,6 +182,17 @@ export function BuildCalculatorClient({
           {isZhLocale(lang)
             ? "最实用的用法不是把推荐配装当成唯一答案，而是先选你正在养的角色，再快速确认主词条、副词条、推荐武器和配队方向有没有明显跑偏。它特别适合在你刚抽到角色、准备刷材料，或者要判断一把新武器能不能直接上岗的时候使用。"
             : "The most useful approach is not treating the listed build as a single final answer. Select the character you are building, then quickly validate main stats, substats, weapon choices, and team direction. It is especially helpful right after a pull, before farming materials, or when judging whether a newly acquired weapon is ready to use."}
+        </p>
+      </section>
+
+      <section className="mb-8 rounded-xl border border-amber-500/25 bg-amber-500/10 p-5">
+        <h2 className="text-lg font-semibold text-white">
+          {isZhLocale(lang) ? "构筑与材料数据复核" : "Build and material data check"}
+        </h2>
+        <p className="mt-3 text-sm leading-7 text-gray-300">
+          {isZhLocale(lang)
+            ? "本工具使用站内历史构筑和固定材料表生成对照结果，不验证当前版本技能、装备效果、等级上限、材料数量或获取状态。开始刷取、升级或消费前，请在目标区服客户端和官方公告中逐项核对。"
+            : "This tool compares site-held historical builds and fixed material tables. It does not verify current skills, gear effects, level caps, material quantities, or availability. Check every item in the target server's client and official notices before farming, upgrading, or spending."}
         </p>
       </section>
 
@@ -361,7 +372,7 @@ export function BuildCalculatorClient({
 
               {/* Recommended Weapons */}
               <div>
-                <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.recommendedWeapons")}</h4>
+                <h4 className="text-sm font-medium text-gray-300 mb-3">{isZhLocale(lang) ? "历史武器方向" : "Historical Weapon Direction"}</h4>
                 <div className="space-y-2">
                   {activeBuild.recommendedWeapons.map((wId) => {
                     const weapon = weapons.find((w) => w.id === wId);
@@ -384,7 +395,7 @@ export function BuildCalculatorClient({
 
               {/* Team Comp */}
               <div>
-                <h4 className="text-sm font-medium text-gray-300 mb-3">{t(lang, "buildCalculator.teamComp")}</h4>
+                <h4 className="text-sm font-medium text-gray-300 mb-3">{isZhLocale(lang) ? "历史队伍功能示例" : "Historical Team-Role Example"}</h4>
                 <div className="space-y-2">
                   {activeBuild.teamComp.map((cId) => {
                     const char = characters.find((c) => c.id === cId);
@@ -419,7 +430,10 @@ export function BuildCalculatorClient({
           {/* Material Summary */}
           {(levelingMaterials || skillMaterials) && (
             <div>
-              <h2 className="text-xl font-bold mb-4">{t(lang, "buildCalculator.materialSummary")}</h2>
+              <h2 className="text-xl font-bold mb-1">{t(lang, "buildCalculator.materialSummary")}</h2>
+              <p className="mb-4 text-sm text-gray-500">
+                {isZhLocale(lang) ? "本地固定材料表估算，不等同于当前客户端材料清单。" : "Estimate from a fixed local material table, not a current in-game material list."}
+              </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {levelingMaterials && levelingMaterials.length > 0 && (
                   <div className="rounded-xl border border-gray-800 bg-gray-900/50 overflow-hidden">

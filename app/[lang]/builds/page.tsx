@@ -10,7 +10,6 @@ import {
 import { getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ItemListJsonLd } from "../../../components/JsonLd";
-import { TierBadge } from "../../../components/TierBadge";
 import { GameImage } from "../../../components/GameImage";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
 import { localizedText } from "../../../lib/seo-copy";
@@ -29,13 +28,13 @@ export async function generateMetadata({
   const characters = getAvailableCharacters().filter((c) => c.recommendedBuild);
   const title = localizedText(
     locale,
-    "异环全角色 Build 推荐 - 武器、卡带与词条优先级",
-    "NTE Best Builds - Weapons, Disks, and Stat Priorities"
+    "异环角色构筑档案｜历史装备与词条方向",
+    "NTE Character Build Archive | Historical Gear & Stat Directions"
   );
   const description = localizedText(
     locale,
-    `异环全角色 Build 总表，覆盖 ${characters.length} 名已有配装建议的角色，整理最佳弧盘、卡带套装、主词条与副词条优先级，方便快速抄作业和横向比较。`,
-    `Best build list for ${characters.length} NTE characters, covering recommended Arcs, disk sets, main stats, and substat priorities for faster comparison and account planning.`
+    `异环角色构筑历史资料，覆盖 ${characters.length} 名角色的弧盘、卡带、主词条与副词条方向。投入前请以目标区服客户端为准。`,
+    `Historical build context for ${characters.length} NTE characters, including Arc, disk, main-stat, and substat directions. Verify the target server's client before investing.`
   );
 
   return {
@@ -62,11 +61,11 @@ export default async function BuildsPage({
   const zh = isZhLocale(locale);
 
   const title = zh
-    ? "异环全角色最佳Build推荐"
-    : "Best Builds for All NTE Characters";
+    ? "异环角色构筑档案｜历史装备与词条方向"
+    : "NTE Character Build Archive | Historical Gear & Stat Directions";
   const description = zh
-    ? "一页查看所有异环角色的最佳武器（弧盘）、卡带套装、主词条与副词条优先级推荐。"
-    : "View the best Arcs (weapons), Cartridge sets, main stats, and sub-stat priorities for every NTE character in one page.";
+    ? "一页查看异环角色的历史弧盘、卡带、主词条与副词条方向；当前技能、装备和获取状态请以客户端为准。"
+    : "Compare historical Arc, disk, main-stat, and substat directions for NTE characters. Verify current skills, equipment, and availability in-client.";
 
   return (
     <>
@@ -79,19 +78,19 @@ export default async function BuildsPage({
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: zh ? "全角色Build" : "Best Builds" },
+          { label: zh ? "角色构筑档案" : "Build Archive" },
         ]}
       />
       <div className="max-w-6xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-4">{title}</h1>
         <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
           <h2 className="text-lg font-semibold text-white">
-            {zh ? "这页 Build 表最适合怎么用？" : "How should you use this build list?"}
+            {zh ? "这页构筑档案最适合怎么用？" : "How should you use this build archive?"}
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {zh
-              ? "先用它确认角色的弧盘和卡带方向，再回到单角色攻略检查配队、循环和替代件。这个总表适合快速筛选，不适合在不知道角色定位时直接无脑照搬。"
-              : "Use this page to confirm each character's Arc and disk direction first, then jump into the character guide for team context, rotations, and alternatives. It is best for fast comparison, not blind copy-paste without role context."}
+              ? "先把它当作历史方向参考，再在目标区服客户端核对角色技能、装备效果、可获取状态与队伍触发条件。总表适合比较功能与替代件，不应作为当前版本的固定毕业答案。"
+              : "Treat it as historical direction first, then verify character skills, gear effects, availability, and team triggers in the target server's client. It helps compare roles and replacements, not define a fixed current best-in-slot answer."}
           </p>
         </section>
         <div className="mb-8">
@@ -140,7 +139,6 @@ export default async function BuildsPage({
                         <span className="text-xs px-1.5 py-0.5 rounded bg-gray-800 text-gray-400">
                           {c.rank}
                         </span>
-                        {c.tierRank && <TierBadge rank={c.tierRank} locale={locale} />}
                       </div>
                       <p className="text-xs text-gray-500">
                         {zh ? c.role : c.roleEn}
@@ -152,7 +150,7 @@ export default async function BuildsPage({
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center gap-2">
                       <span className="text-gray-500 text-xs w-16">
-                        {zh ? "最佳武器" : "Best Arc"}
+                        {zh ? "历史弧盘方向" : "Historical Arc Direction"}
                       </span>
                       <span className="text-xs truncate">
                         {zh ? build.bestWeapon : build.bestWeaponEn}
@@ -160,7 +158,7 @@ export default async function BuildsPage({
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-gray-500 text-xs w-16">
-                        {zh ? "卡带" : "Disk Set"}
+                        {zh ? "历史卡带方向" : "Historical Disk Direction"}
                       </span>
                       <span className="text-xs truncate">
                         {zh ? build.bestDiskSet : build.bestDiskSetEn}
@@ -168,7 +166,7 @@ export default async function BuildsPage({
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-gray-500 text-xs w-16">
-                        {zh ? "副词条" : "Substats"}
+                        {zh ? "历史词条方向" : "Historical Substats"}
                       </span>
                       <span className="text-xs truncate text-primary-400">
                         {substats.join(" > ")}
@@ -186,9 +184,9 @@ export default async function BuildsPage({
               {zh ? "抄作业前先看什么" : "Check these before copying a build"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{zh ? "确认角色在你队里的职责，是站场主C、速切副C还是纯辅助。" : "Confirm whether the character is your on-field carry, quick-swap damage slot, or pure support."}</li>
+              <li>{zh ? "先在客户端核对角色在你队里的当前职责，再区分站场输出、速切输出或功能位。" : "Verify the character's current role in your team in-client before treating it as an on-field, quick-swap, or utility build."}</li>
               <li>{zh ? "没有专属弧盘时，优先看词条和触发条件是否真的吃得到。" : "If you do not own the signature Arc, check whether the substat and passive condition are actually usable."}</li>
-              <li>{zh ? "卡带主词条通常比副词条更影响成型速度，先把主词条配对。" : "Main stat matching usually matters more than substat perfection, so solve that first."}</li>
+              <li>{zh ? "确认当前套装和主词条仍存在且适用，再考虑副词条效率。" : "Confirm the current set and main-stat options still exist and apply before optimizing substats."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
