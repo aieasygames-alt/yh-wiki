@@ -515,6 +515,68 @@ export interface RecentContentUpdate {
   tags: string[];
 }
 
+export interface RelatedContentItem {
+  id: string;
+  kind: "guide" | "blog";
+  href: string;
+  title: string;
+  titleEn: string;
+  titleTw?: string;
+  summary: string;
+  summaryEn: string;
+  summaryTw?: string;
+  date: string;
+  tags: string[];
+}
+
+/**
+ * Finds related reading across guides and posts. The stable href makes this
+ * suitable for server-rendered article pages without duplicating route logic.
+ */
+export function getRelatedContent(currentId: string, tags: string[], count: number): RelatedContentItem[] {
+  const candidates: RelatedContentItem[] = [
+    ...getAllGuides().map((guide) => ({
+      id: guide.id,
+      kind: "guide" as const,
+      href: `/guides/${guide.id}`,
+      title: guide.title,
+      titleEn: guide.titleEn,
+      titleTw: guide.titleTw,
+      summary: guide.summary,
+      summaryEn: guide.summaryEn,
+      summaryTw: guide.summaryTw,
+      date: guide.date || "",
+      tags: guide.tags,
+    })),
+    ...getAllBlogPosts().map((post) => ({
+      id: post.id,
+      kind: "blog" as const,
+      href: `/blog/${post.id}`,
+      title: post.title,
+      titleEn: post.titleEn,
+      titleTw: post.titleTw,
+      summary: post.summary,
+      summaryEn: post.summaryEn,
+      summaryTw: post.summaryTw,
+      date: post.date,
+      tags: post.tags,
+    })),
+  ];
+
+  const selected = candidates
+    .filter((item) => item.id !== currentId)
+    .map((item) => ({ item, score: item.tags.filter((tag) => tags.includes(tag)).length }))
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score || b.item.date.localeCompare(a.item.date));
+
+  const selectedIds = new Set(selected.map(({ item }) => `${item.kind}:${item.id}`));
+  const fallback = candidates
+    .filter((item) => item.id !== currentId && !selectedIds.has(`${item.kind}:${item.id}`))
+    .sort((a, b) => b.date.localeCompare(a.date));
+
+  return [...selected.map(({ item }) => item), ...fallback].slice(0, count);
+}
+
 // Compare types and queries
 
 export interface CompareArticle {

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES, asLocale } from "../../../../lib/i18n";
-import { getBlogPost, getAllBlogPosts } from "../../../../lib/queries";
+import { getBlogPost, getAllBlogPosts, getRelatedContent } from "../../../../lib/queries";
 import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
 import { completeMetaDescription } from "../../../../lib/seo-copy";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
@@ -27,27 +27,6 @@ const EN_BLOG_SEO: Record<string, { title: string; description: string; h1: stri
     h1: "NTE Bug Fixes & Troubleshooting Guide",
   },
 };
-
-function getRelatedPosts(currentSlug: string, tags: string[], count: number) {
-  const allPosts = getAllBlogPosts();
-  const scored = allPosts
-    .filter((p) => p.id !== currentSlug)
-    .map((p) => ({
-      post: p,
-      score: p.tags.filter((tag) => tags.includes(tag)).length,
-    }))
-    .filter((s) => s.score > 0)
-    .sort((a, b) => b.score - a.score || b.post.date.localeCompare(a.post.date));
-
-  if (scored.length >= count) return scored.slice(0, count).map((s) => s.post);
-
-  // Fallback: fill with latest posts not already selected
-  const selectedIds = new Set(scored.map((s) => s.post.id));
-  const fallback = allPosts
-    .filter((p) => p.id !== currentSlug && !selectedIds.has(p.id))
-    .sort((a, b) => b.date.localeCompare(a.date));
-  return [...scored.map((s) => s.post), ...fallback].slice(0, count);
-}
 
 export function generateStaticParams() {
   const posts = getAllBlogPosts();
@@ -194,33 +173,25 @@ export default async function BlogDetailPage({
 
         {/* Related Posts */}
         {(() => {
-          const related = getRelatedPosts(slug, post.tags, 3);
+          const related = getRelatedContent(slug, post.tags, 3);
           if (related.length === 0) return null;
           return (
             <section className="mt-10 border-t border-gray-800 pt-6">
               <h2 className="text-lg font-bold mb-4">
-                {t(locale, "blogDetails.relatedPosts")}
+                {isZhLocale(locale) ? (locale === "tw" ? "延伸閱讀" : "延伸阅读") : "Keep Reading"}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {related.map((rp) => (
                   <Link
                     key={rp.id}
-                    href={`/${lang}/blog/${rp.id}`}
+                    href={`/${lang}${rp.href}`}
                     className="group rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"
                   >
-                    {rp.image && (
-                      <div className="w-full h-28 bg-gray-800 overflow-hidden">
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img
-                          src={rp.image}
-                          alt={rp.imageAlt || pickLocalizedText(locale, rp.title, rp.titleEn, rp.titleTw)}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          loading="lazy"
-                        />
-                      </div>
-                    )}
                     <div className="p-4">
-                      <span className="text-xs text-gray-500">{rp.date}</span>
+                      <div className="flex items-center justify-between gap-2 text-xs text-gray-500">
+                        <span>{rp.kind === "guide" ? (isZhLocale(locale) ? "攻略" : "Guide") : (isZhLocale(locale) ? "文章" : "Post")}</span>
+                        <span>{rp.date}</span>
+                      </div>
                       <h3 className="text-sm font-medium mt-1 group-hover:text-primary-400 transition-colors">
                         {pickLocalizedText(locale, rp.title, rp.titleEn, rp.titleTw)}
                       </h3>

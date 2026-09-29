@@ -8,6 +8,7 @@ import {
   getMaterialById,
   getCharactersUsingMaterial,
   calculateMaterials,
+  getRelatedContent,
 } from "../queries";
 
 describe("getAllCharacters", () => {
@@ -123,5 +124,15 @@ describe("calculateMaterials", () => {
   it("returns empty for nonexistent character", () => {
     const result = calculateMaterials("nonexistent", 1, 60);
     expect(result).toHaveLength(0);
+  });
+});
+
+describe("getRelatedContent", () => {
+  it("returns cross-content recommendations without the current entry", () => {
+    const related = getRelatedContent("nte-1-3-linko-pull-planning", ["1.3", "linko", "抽卡规划"], 4);
+    expect(related).toHaveLength(4);
+    expect(related.some((item) => item.kind === "blog")).toBe(true);
+    expect(related.every((item) => item.id !== "nte-1-3-linko-pull-planning")).toBe(true);
+    expect(related.every((item) => item.href.startsWith(`/${item.kind === "blog" ? "blog" : "guides"}/`))).toBe(true);
   });
 });

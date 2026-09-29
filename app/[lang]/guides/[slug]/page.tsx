@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../lib/i18n";
-import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem } from "../../../../lib/queries";
+import { getGuide, getAllGuides, getCharacter, getLocation, getLoreItem, getRelatedContent } from "../../../../lib/queries";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { ArticleJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
@@ -127,6 +127,7 @@ export default async function GuideDetailPage({
   const relatedLoreItems = (guide.relatedLore || [])
     .map((id) => getLoreItem(id))
     .filter(Boolean);
+  const relatedContent = getRelatedContent(slug, guide.tags, 3);
 
   return (
     <>
@@ -299,6 +300,30 @@ export default async function GuideDetailPage({
                   className="rounded-lg border border-gray-800 bg-gray-900/30 p-3 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors"
                 >
                   {isZhLocale(locale) ? link.label : link.labelEn}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {relatedContent.length > 0 && (
+          <section className="mt-10 border-t border-gray-800 pt-6">
+            <h2 className="text-lg font-bold mb-4">
+              {isZhLocale(locale) ? (locale === "tw" ? "延伸閱讀" : "延伸阅读") : "Keep Reading"}
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {relatedContent.map((item) => (
+                <Link
+                  key={`${item.kind}-${item.id}`}
+                  href={`/${lang}${item.href}`}
+                  className="rounded-lg border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/60 transition-colors"
+                >
+                  <div className="flex items-center justify-between gap-2 text-xs text-gray-500">
+                    <span>{item.kind === "guide" ? (isZhLocale(locale) ? "攻略" : "Guide") : (isZhLocale(locale) ? "文章" : "Post")}</span>
+                    <time dateTime={item.date}>{item.date}</time>
+                  </div>
+                  <h3 className="mt-2 text-sm font-medium text-gray-200">{localizedText(locale, item.title, item.titleEn, item.titleTw)}</h3>
+                  <p className="mt-2 line-clamp-2 text-xs text-gray-500">{localizedText(locale, item.summary, item.summaryEn, item.summaryTw)}</p>
                 </Link>
               ))}
             </div>
