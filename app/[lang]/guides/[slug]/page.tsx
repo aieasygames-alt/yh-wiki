@@ -8,6 +8,8 @@ import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
 import { ArticleContent } from "../../../../components/ArticleContent";
+import { ContentFeedbackLink } from "../../../../components/ContentFeedbackLink";
+import { ContentStatus, type VerificationStatus } from "../../../../components/ContentStatus";
 import { TableOfContents, TableOfContentsDesktop, extractHeadings } from "../../../../components/TableOfContents";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
 import dynamic from "next/dynamic";
@@ -162,6 +164,14 @@ export default async function GuideDetailPage({
               : `Updated ${guide.date}`}
           </time>
         )}
+        <ContentStatus
+          locale={locale}
+          status={(guide.tags.includes("1.3") ? "live" : "historical") as VerificationStatus}
+          reviewedAt={guide.date}
+        />
+        <div className="mb-6">
+          <ContentFeedbackLink locale={locale} contentId={`guide:${guide.id}`} />
+        </div>
 
         {slug === "download-install-guide" ? (
           <QuickAnswerCard

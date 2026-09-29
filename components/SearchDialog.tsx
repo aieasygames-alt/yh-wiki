@@ -92,6 +92,9 @@ export function SearchDialog({ lang }: { lang: string }) {
       }
       const fuseResults = index.search(q, { limit: 20 });
       setResults(fuseResults.map((r) => r.item));
+      if (q.trim().length >= 3) {
+        trackEvent({ event: fuseResults.length ? "search_query" : "search_zero_result", label: q.trim().slice(0, 80), category: "search" });
+      }
       setSelectedIndex(0);
     },
     [index]

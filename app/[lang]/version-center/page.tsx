@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { LOCALES, hreflangAlternates, isZhLocale, type Locale } from "../../../lib/i18n";
 import { getLatestLiveChangelog, getUpcomingChangelogs, getVersionSpotlightContent } from "../../../lib/queries";
+import operations from "../../../data/version-operations.json";
+import { ContentStatus, type VerificationStatus } from "../../../components/ContentStatus";
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ lang: locale }));
@@ -162,6 +164,29 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
             </div>
           </section>
         )}
+
+        <section className="mt-6 rounded-xl border border-gray-800 bg-gray-900/35 p-6">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <div>
+              <h2 className="text-xl font-bold">{isZhLocale(locale) ? (locale === "tw" ? "版本營運清單" : "版本运营清单") : "Patch Operations Checklist"}</h2>
+              <p className="mt-1 text-sm text-gray-400">
+                {isZhLocale(locale)
+                  ? (locale === "tw" ? "每次版本調整前先核對來源與狀態，避免把傳聞帶進抽卡或養成建議。" : "每次版本调整前先核对来源与状态，避免把传闻带进抽卡或养成建议。")
+                  : "Verify sources and status before changing pull or progression advice."}
+              </p>
+            </div>
+            <span className="text-xs text-gray-500">{isZhLocale(locale) ? `最后复核 ${operations.reviewedAt}` : `Reviewed ${operations.reviewedAt}`}</span>
+          </div>
+          <div className="mt-4 grid gap-3 md:grid-cols-2">
+            {operations.checklist.map((item) => (
+              <div key={item.id} className="rounded-lg border border-gray-800 bg-gray-950/35 p-4">
+                <ContentStatus locale={locale} status={item.status as VerificationStatus} reviewedAt={operations.reviewedAt} />
+                <h3 className="mt-3 font-medium">{isZhLocale(locale) ? item.titleZh : item.title}</h3>
+                <p className="mt-1 text-sm text-gray-400">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <section className="mt-10">
           <div className="flex items-center justify-between gap-4">

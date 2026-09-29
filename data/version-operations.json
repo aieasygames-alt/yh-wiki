@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-09-29",
+  "currentVersion": "1.3",
+  "checklist": [
+    { "id": "banner-countdown", "title": "Verify banner countdowns in the client", "titleZh": "核对客户端卡池倒计时", "status": "live", "detail": "Server time can differ from published schedules." },
+    { "id": "event-deadlines", "title": "Claim time-limited event rewards first", "titleZh": "优先领取限时活动奖励", "status": "live", "detail": "Check the event page and exchange shop before permanent cleanup." },
+    { "id": "redeem-codes", "title": "Redeem only codes marked active with a source", "titleZh": "只兑换标明来源且状态有效的代码", "status": "confirmed", "detail": "Do not include unverified codes in pull planning." },
+    { "id": "next-version", "title": "Keep next-version claims in the watchlist until official confirmation", "titleZh": "后续版本信息未官宣前仅作观察", "status": "watch", "detail": "Rumors do not change current recommendations." }
+  ]
+}

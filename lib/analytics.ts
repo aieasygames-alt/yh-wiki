@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-KLVBV8S58R";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export interface TrackEventParams {
   event: string;
@@ -12,7 +12,7 @@ export interface TrackEventParams {
 
 /** Call gtag() directly */
 function gtag(...args: any[]) {
-  if (typeof window !== "undefined") {
+  if (GA_ID && typeof window !== "undefined") {
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function (...a: any[]) { window.dataLayer.push(a); };
     window.gtag(...args);
@@ -41,6 +41,10 @@ export function trackEvent({
     event_label: label,
     value: value,
   });
+}
+
+export function trackContentEvent(event: "content_feedback" | "planner_export" | "planner_priority_view", label?: string) {
+  trackEvent({ event, category: "engagement", label });
 }
 
 /** Get page_type from pathname for GA custom dimension */

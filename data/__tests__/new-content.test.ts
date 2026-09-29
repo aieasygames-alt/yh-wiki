@@ -4,6 +4,7 @@ import guidesData from "../../data/guides.json";
 import blogData from "../../data/blog.json";
 import faqsData from "../../data/faqs.json";
 import mapData from "../../data/map-markers.json";
+import operations from "../../data/version-operations.json";
 
 describe("compares.json — nte-vs-ananta", () => {
   const ananta = comparesData.find((c) => c.id === "nte-vs-ananta");
@@ -77,6 +78,13 @@ describe("late Version 1.3 player-decision content", () => {
 
   it("keeps all live 1.3 map regions available to sitemap generation", () => {
     expect(Object.keys(mapData.regions)).toEqual(expect.arrayContaining(["fogden", "duskmoor"]));
+  });
+
+  it("keeps a reviewed version-operations checklist with explicit status", () => {
+    expect(operations.reviewedAt).toBeTruthy();
+    expect(operations.currentVersion).toBe("1.3");
+    expect(operations.checklist.length).toBeGreaterThanOrEqual(4);
+    expect(operations.checklist.map((item) => item.status)).toEqual(expect.arrayContaining(["confirmed", "live", "watch"]));
   });
 });
 

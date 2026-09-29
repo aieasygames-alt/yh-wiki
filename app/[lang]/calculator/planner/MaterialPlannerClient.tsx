@@ -7,6 +7,7 @@ import { t, isZhLocale, type Locale } from "../../../../lib/i18n";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { GameImage } from "../../../../components/GameImage";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { trackContentEvent } from "../../../../lib/analytics";
 
 const STORAGE_KEY = "nte-material-planner";
 
@@ -237,6 +238,36 @@ export function MaterialPlannerClient({
   const completedMats = aggregated.filter((material) => (owned[material.materialId] || 0) >= material.quantity).length;
   const overallPct = totalMats > 0 ? Math.round((completedMats / totalMats) * 100) : 0;
 
+  const priorityMaterials = useMemo(
+    () => aggregated
+      .map((material) => ({ ...material, remaining: Math.max(0, material.quantity - (owned[material.materialId] || 0)) }))
+      .filter((material) => material.remaining > 0)
+      .sort((a, b) => {
+        const rarityDifference = (materialsById[b.materialId]?.rarity || 0) - (materialsById[a.materialId]?.rarity || 0);
+        return rarityDifference || b.remaining - a.remaining;
+      })
+      .slice(0, 3),
+    [aggregated, materialsById, owned]
+  );
+
+  const exportPlan = async () => {
+    const lines = [
+      isZh ? "异环今日养成计划" : "NTE Daily Progress Plan",
+      ...plan.map((entry) => {
+        const character = characters.find((item) => item.id === entry.characterId);
+        return `- ${character ? (isZh ? character.name : character.nameEn) : entry.characterId}: ${entry.currentLevel} -> ${entry.targetLevel}`;
+      }),
+      ...(priorityMaterials.length > 0 ? [isZh ? "优先补缺材料：" : "Priority material gaps:"] : []),
+      ...priorityMaterials.map((item) => `- ${isZh ? materialsById[item.materialId]?.name : materialsById[item.materialId]?.nameEn}: ${item.remaining}`),
+    ];
+    try {
+      await navigator.clipboard.writeText(lines.join("\n"));
+      trackContentEvent("planner_export", "clipboard");
+    } catch {
+      // Clipboard access can be unavailable in embedded or insecure contexts.
+    }
+  };
+
   const availableChars = useMemo(() => {
     const plannedIds = new Set(plan.map((entry) => entry.characterId));
     return characters.filter((character) => {
@@ -406,6 +437,25 @@ export function MaterialPlannerClient({
               </div>
             ) : (
               <>
+                <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 p-4 mb-4">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <div>
+                      <h2 className="text-sm font-semibold text-amber-100">{isZh ? "今日优先级" : "Today's priorities"}</h2>
+                      <p className="mt-1 text-xs text-amber-100/70">{isZh ? "先补稀有且缺口大的材料；限时活动奖励仍应优先于常驻清图。" : "Farm rare, high-gap materials first; limited event rewards still outrank permanent cleanup."}</p>
+                    </div>
+                    <button onClick={exportPlan} className="rounded-md border border-amber-400/30 px-3 py-1.5 text-xs text-amber-100 hover:bg-amber-400/10">
+                      {isZh ? "复制计划" : "Copy plan"}
+                    </button>
+                  </div>
+                  <div className="mt-3 grid gap-2 sm:grid-cols-3">
+                    {priorityMaterials.map((item) => (
+                      <div key={item.materialId} className="rounded-md bg-gray-950/40 px-3 py-2 text-xs text-gray-300">
+                        <span className="block truncate">{isZh ? materialsById[item.materialId]?.name : materialsById[item.materialId]?.nameEn}</span>
+                        <span className="text-amber-200">{isZh ? `还差 ${item.remaining}` : `${item.remaining} remaining`}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
                 <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 mb-4">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm font-semibold">{isZh ? "收集进度" : "Collection Progress"}</span>

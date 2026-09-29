@@ -9,9 +9,9 @@ import type { Locale } from "../../lib/i18n";
 
 // Third-party IDs are configurable via env so dev / preview / prod can differ.
 // Defaults keep legacy behaviour if env is unset.
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-KLVBV8S58R";
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-1719881162787470";
-const MSVALIDATE = process.env.NEXT_PUBLIC_MSVALIDATE || "1FDBEDECCADE86F6C58D3B85E9492A14";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+const MSVALIDATE = process.env.NEXT_PUBLIC_MSVALIDATE;
 
 export async function generateMetadata() {
   return {};

@@ -18,7 +18,9 @@ interface GameImageProps {
 }
 
 // Cache buster for static assets — bump when images change
-const IMG_VERSION = "v=7";
+// Bump through NEXT_PUBLIC_ASSET_VERSION when image bytes change. Keeping this
+// explicit makes CDN invalidation predictable for static Cloudflare deploys.
+const IMG_VERSION = process.env.NEXT_PUBLIC_ASSET_VERSION || "7";
 
 export function GameImage({ type, id, name, className = "", alt, width, height, priority = false, src: srcProp, contain }: GameImageProps) {
   const [error, setError] = useState(false);
@@ -28,7 +30,7 @@ export function GameImage({ type, id, name, className = "", alt, width, height, 
     : type === "cassette"
     ? `/images/cassettes/${id}.webp`
     : `/images/${type}s/${id}.webp`);
-  const src = `${basePath}?${IMG_VERSION}`;
+  const src = `${basePath}?v=${IMG_VERSION}`;
   const altText = alt ?? `${name} - ${type} in Neverness to Everness`;
   // Material images use contain by default; characters/weapons/vehicles use cover
   const useContain = contain ?? (type === "material");

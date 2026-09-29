@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Neverness to Everness (NTE) Wiki & tools. Character builds, tier lists, arc disc guide, gacha simulator, leveling calculator, redeem codes (May 2026), and beginner guides.",
+    "Neverness to Everness (NTE) Wiki & tools. Character builds, tier lists, Arc guides, gacha tools, leveling calculators, redeem-code status, and beginner guides.",
   keywords: [
     "Neverness to Everness", "NTE", "NTE guide", "NTE wiki",
     "NTE characters", "NTE tier list", "NTE calculator",

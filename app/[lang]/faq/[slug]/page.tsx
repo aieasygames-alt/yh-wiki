@@ -5,6 +5,8 @@ import { getFaq, getAllFaqs, getCharacter, getMaterialById } from "../../../../l
 import { localizedSeoKeywords, pickLocalizedText } from "../../../../lib/traditional";
 import { completeMetaDescription } from "../../../../lib/seo-copy";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
+import { ContentFeedbackLink } from "../../../../components/ContentFeedbackLink";
+import { ContentStatus, type VerificationStatus } from "../../../../components/ContentStatus";
 import { FaqJsonLd } from "../../../../components/JsonLd";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
@@ -177,6 +179,15 @@ export default async function FaqDetailPage({
               {isZhLocale(locale) ? faq.categoryZh : faq.categoryEn}
             </span>
             <span>{isZhLocale(locale) ? `共 ${faq.tags.length} 个标签` : `${faq.tags.length} tags`}</span>
+          </div>
+          <div className="mt-3">
+            <ContentFeedbackLink locale={locale} contentId={`faq:${faq.id}`} />
+          </div>
+          <div className="mt-3">
+            <ContentStatus
+              locale={locale}
+              status={(faq.tags.includes("待确认") || faq.tags.includes("unverified") ? "watch" : faq.tags.includes("1.3") ? "live" : "historical") as VerificationStatus}
+            />
           </div>
         </header>
 
