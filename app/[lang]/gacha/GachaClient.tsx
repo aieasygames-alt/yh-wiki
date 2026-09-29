@@ -511,9 +511,9 @@ export function GachaClient({
             {isZhLocale(lang) ? "看模拟结果时先关注什么" : "What to focus on first"}
           </h2>
           <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-            <li>{isZhLocale(lang) ? "先看平均出 S 抽数，而不是只盯着某一次欧皇截图。" : "Start with average S-rank timing rather than one lucky screenshot."}</li>
-            <li>{isZhLocale(lang) ? "再看不同卡池的保底和 UP 规则差异，别把它们混成同一套判断。" : "Then compare pity and featured rules across banners instead of treating them as identical."}</li>
-            <li>{isZhLocale(lang) ? "最后再结合当前版本卡池安排，判断你真正要存还是要抽。" : "Finish by matching the simulation to the current live banner plan before deciding to save or pull."}</li>
+            <li>{isZhLocale(lang) ? "只把平均出 S 抽数当作本次示例参数下的随机结果，不与真实账号作比较。" : "Treat average S-rank timing only as random output from these example parameters, not as a comparison to your real account."}</li>
+            <li>{isZhLocale(lang) ? "不同示例池之间的保底与 UP 设置只解释模拟器内部差异，不证明当前游戏规则。" : "Pity and featured settings across example pools explain simulator differences only; they do not prove current game rules."}</li>
+            <li>{isZhLocale(lang) ? "真实抽取、充值和资源安排必须回到目标区服客户端的卡池详情、倒计时与官方公告核对。" : "For real pulls, spending, and resource planning, return to the target server's in-game banner details, countdown, and official notices."}</li>
           </ul>
         </div>
         <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -522,8 +522,8 @@ export function GachaClient({
           </h2>
           <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
             <li>{isZhLocale(lang) ? "模拟运气不等于你的真实账号结果。" : "Simulated luck is not a forecast of your real account."}</li>
-            <li>{isZhLocale(lang) ? "卡池值不值得抽，还要看角色强度、队伍缺口和资源储备。" : "Pull value still depends on roster needs, strength, and saved resources."}</li>
-            <li>{isZhLocale(lang) ? "版本更新后概率或规则如果调整，旧模拟结论也要跟着重看。" : "If banner rules change in a later patch, older simulation conclusions should be revisited."}</li>
+            <li>{isZhLocale(lang) ? "它不能证明当前卡池值不值得抽，也不能替代账号、队伍或预算判断。" : "It cannot prove whether a current banner is worth pulling or replace account, team, or budget decisions."}</li>
+            <li>{isZhLocale(lang) ? "即使客户端规则未变，示例模拟结果也不预测你下一次抽卡。" : "Even if client rules have not changed, an example simulation does not predict your next pull."}</li>
           </ul>
         </div>
       </section>
