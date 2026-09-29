@@ -156,7 +156,7 @@ function generateSitemaps() {
   const toolPages = ["builds", "calculator/leveling", "calculator/build", "calculator/stats", "calculator/dps", "calculator/planner", "calculator/disk-score", "gacha", "gacha-analyzer", "banners", "redeem-codes", "map", "system-requirements", "explorer", "team-builder", "city-tycoon", "effects", "compare-characters", "events", "voice-actors", "multiplayer", "gameplay", "porsche-collab", "999-nights-planner", "version-center", "steam", "cn-vs-global", "official-site", "troubleshooting"];
   const guideSubPages = ["guides/gacha-system"];
   const staticInfoPages = ["about", "contact", "terms", "privacy-policy", "api", "sitemap"];
-  const mapRegionPages = ["new-herland", "bridge-crossings", "unheard-shores", "miguel-district", "illusion-town"];
+  const mapRegionPages = Object.keys(load("map-markers.json").regions || {});
   const commonTags = ["s-class", "a-class", "cosmos", "anima", "incantation", "chaos", "psyche", "lakshana", "dps", "support", "beginner", "combat", "exploration", "advanced"];
 
   function locUrls(paths, priority, changeFreq) {

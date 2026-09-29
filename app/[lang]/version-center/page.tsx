@@ -87,6 +87,13 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
                 : "把 1.3 当前版本、热门攻略、抽卡话题与下一版本观察点集中到同一页，方便你每次回站都能快速找到现在最值得看的内容。"
               : "A single hub for the live patch, hot guides, banner decisions, and the next version watchlist so returning players can reorient quickly."}
           </p>
+          <p className="mt-3 text-sm text-amber-200/80">
+            {isZhLocale(locale)
+              ? locale === "tw"
+                ? "確認規則：只有官方前瞻、維護公告或遊戲內已實裝內容會列為版本事實；社群討論、截圖與推測只作觀察，不會用來改寫卡池或資源建議。"
+                : "确认规则：只有官方前瞻、维护公告或游戏内已实装内容会列为版本事实；社区讨论、截图与推测只作观察，不会用来改写卡池或资源建议。"
+              : "Confirmation policy: only official previews, maintenance notices, or live in-game content are treated as patch facts. Community posts, screenshots, and predictions remain watchpoints and do not change pull advice."}
+          </p>
         </div>
 
         {current && (

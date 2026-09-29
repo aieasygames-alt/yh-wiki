@@ -2,6 +2,8 @@ import { describe, it, expect } from "vitest";
 import comparesData from "../../data/compares.json";
 import guidesData from "../../data/guides.json";
 import blogData from "../../data/blog.json";
+import faqsData from "../../data/faqs.json";
+import mapData from "../../data/map-markers.json";
 
 describe("compares.json — nte-vs-ananta", () => {
   const ananta = comparesData.find((c) => c.id === "nte-vs-ananta");
@@ -44,6 +46,37 @@ describe("compares.json — nte-vs-ananta", () => {
     const ids = comparesData.map((c) => c.id);
     const unique = new Set(ids);
     expect(unique.size).toBe(ids.length);
+  });
+});
+
+describe("late Version 1.3 player-decision content", () => {
+  const linkoPullGuide = guidesData.find((guide) => guide.id === "nte-1-3-linko-pull-planning");
+  const cleanupGuide = guidesData.find((guide) => guide.id === "nte-1-3-fogden-duskmoor-cleanup-route");
+  const nextVersionFaq = faqsData.find((faq) => faq.id === "nte-next-version-tracker");
+
+  it("provides bilingual Linko pull-planning content without treating rumors as facts", () => {
+    expect(linkoPullGuide).toBeDefined();
+    expect(linkoPullGuide!.content).toContain("未确认");
+    expect(linkoPullGuide!.contentEn).toContain("unconfirmed");
+    expect(linkoPullGuide!.tags).toContain("linko");
+  });
+
+  it("provides a bilingual Fogden and Duskmoor cleanup route", () => {
+    expect(cleanupGuide).toBeDefined();
+    expect(cleanupGuide!.content).toContain("传送点");
+    expect(cleanupGuide!.contentEn).toContain("travel points");
+    expect(cleanupGuide!.tags).toContain("duskmoor");
+  });
+
+  it("keeps next-version FAQ claims explicitly verified", () => {
+    expect(nextVersionFaq).toBeDefined();
+    expect(nextVersionFaq!.answer).toContain("未经官方前瞻");
+    expect(nextVersionFaq!.answerEn).toContain("unverified");
+    expect(nextVersionFaq!.tags).toContain("待确认");
+  });
+
+  it("keeps all live 1.3 map regions available to sitemap generation", () => {
+    expect(Object.keys(mapData.regions)).toEqual(expect.arrayContaining(["fogden", "duskmoor"]));
   });
 });
 

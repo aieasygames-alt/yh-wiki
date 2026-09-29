@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-09-13
+> Generated: 2026-09-29
 
 ## Characters (45)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -94,7 +94,9 @@
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
 
-## Guides (102)
+## Guides (104)
+- [异环1.3链子抽卡规划：资源盘点、保底边界与队伍适配](/en/guides/nte-1-3-linko-pull-planning/) — Character Guide (updated 2026-09-29)
+- [异环1.3 Fogden与Duskmoor收尾路线：活动、传送点与收集优先级](/en/guides/nte-1-3-fogden-duskmoor-cleanup-route/) — Exploration (updated 2026-09-29)
 - [异环下载与安装指南 - 官网入口、PC启动器、手机、PS5、Steam和云异环](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
 - [新手入门完全指南](/en/guides/beginner-guide/) — Beginner (updated 2026-04-29)
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
@@ -198,8 +200,12 @@
 - [异环1.3赞空与链子攻略：卡池时间、属性定位与抽卡规划](/en/guides/nte-1-3-zankou-linko-guide/) — Character Guide (updated 2026-09-13)
 - [异环1.3 Fogden与Duskmoor探索攻略：新区域、活动与收集路线](/en/guides/nte-1-3-fogden-duskmoor-exploration-guide/) — Exploration (updated 2026-09-13)
 
-## FAQ (307)
+## FAQ (311)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
+- When does NTE 1.4 start and what is in the next version?
+- Is Linko worth pulling in NTE 1.3 and how should you plan pity?
+- What should you do first in Fogden and Duskmoor, and how should you order exploration?
+- Are there active NTE redeem codes now, and how do you avoid missing them?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
 - Where to enter redeem codes in NTE? How to redeem? Latest codes list
 - How to level up characters fast in NTE?

@@ -140,6 +140,7 @@ export async function generateMetadata({
   params: { lang: string; slug: string };
 }) {
   const { lang, slug } = await params;
+  const isAliasPage = slug === "zankou" || slug === "linko";
   const canonicalSlug = slug === "zankou" || slug === "linko" ? "canhong" : slug;
   const character = getCharacter(canonicalSlug);
   if (!character) return {};
@@ -191,6 +192,14 @@ export async function generateMetadata({
     title,
     description,
     alternates: hreflangAlternates(`characters/${slug}`, lang),
+    ...(isAliasPage
+      ? {
+          robots: { index: false, follow: true },
+          alternates: {
+            canonical: `https://nteguide.com/${lang}/characters/${canonicalSlug}/`,
+          },
+        }
+      : {}),
     openGraph: {
       title,
       description,
