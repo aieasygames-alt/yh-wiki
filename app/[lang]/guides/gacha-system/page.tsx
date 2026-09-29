@@ -3,7 +3,6 @@ import { t, isZhLocale, Locale, hreflangAlternates, LOCALES } from "../../../../
 import gachaSystemData from "../../../../data/gacha-system.json";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { FaqSection } from "../../../../components/FaqSection";
-import { FaqPageJsonLd } from "../../../../components/JsonLd";
 import { localizedText } from "../../../../lib/seo-copy";
 
 export function generateStaticParams() {
@@ -156,24 +155,24 @@ export default async function GachaSystemPage({
                     </span>
                   )}
                   <span>
-                    {t(locale, "gachaSystem.avgPulls")}:{" "}
+                    {isZhLocale(locale) ? "历史" : "Historical"} {t(locale, "gachaSystem.avgPulls")}:{" "}
                     <strong className="text-white">{b.avgPity}</strong>
                   </span>
                   {b.maxPulls && (
                     <span>
-                      {t(locale, "gachaSystem.maxPulls")}:{" "}
+                      {isZhLocale(locale) ? "历史" : "Historical"} {t(locale, "gachaSystem.maxPulls")}:{" "}
                       <strong className="text-white">{b.maxPulls}</strong>
                     </span>
                   )}
                   {b.selectorAt && (
                     <span>
-                      {t(locale, "gachaSystem.selectorAt")}:{" "}
+                      {isZhLocale(locale) ? "历史" : "Historical"} {t(locale, "gachaSystem.selectorAt")}:{" "}
                       <strong className="text-white">{b.selectorAt}</strong>
                     </span>
                   )}
                   {b.pityFeatured && (
                     <span>
-                      {t(locale, "gachaSystem.featuredPity")}:{" "}
+                      {isZhLocale(locale) ? "历史" : "Historical"} {t(locale, "gachaSystem.featuredPity")}:{" "}
                       <strong className="text-white">{b.pityFeatured}</strong>
                     </span>
                   )}
@@ -183,36 +182,42 @@ export default async function GachaSystemPage({
           </div>
         </section>
 
-        {/* Pity System */}
+        {/* Historical rule boundary */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "gachaSystem.pitySystemExplained")}
+            {isZhLocale(locale) ? "如何阅读历史规则字段" : "How to read historical rule fields"}
           </h2>
           <div className="text-gray-300 text-sm space-y-4 leading-relaxed">
             <p>
-              {t(locale, "gachaSystem.pityPara1")}
+              {isZhLocale(locale)
+                ? "上方概率、保底、继承、定轨和兑换字段只记录了本站曾收录的规则版本。它们可以帮助识别旧公告或讨论对应的是哪类卡池，但不能证明当前卡池仍使用相同数值或机制。"
+                : "The rate, pity, carry-over, path, and exchange fields above record a ruleset previously stored by this wiki. They can help identify which banner an old notice or discussion referred to, but do not prove that the current banner uses the same values or mechanics."}
             </p>
             <p>
-              {t(locale, "gachaSystem.pityPara2")}
+              {isZhLocale(locale)
+                ? "规则可能因服务器、版本、卡池类型、活动或付费条款而不同。尤其不要把历史的无 50/50、软保底、平均抽数、武器概率或继承关系直接用于当前预算。"
+                : "Rules can differ by server, version, banner type, event, or payment terms. In particular, do not use historical no-50/50 claims, soft pity, average pulls, weapon rates, or carry-over rules directly for a current budget."}
             </p>
             <p>
-              {t(locale, "gachaSystem.pityPara3")}
+              {isZhLocale(locale)
+                ? "做任何抽取或付费决定前，请打开目标卡池的游戏内详情、概率和规则页，记录当前服务器、结束时间、角色范围、抽数、保底与兑换条件；官方公告仅用于补充解释。"
+                : "Before any pull or payment decision, open the target banner's in-game Details, Rates, and Rules screens. Record the server, end time, character pool, pull count, pity, and exchange conditions; use official notices only as supporting context."}
             </p>
           </div>
         </section>
 
-        {/* Gacha Strategy */}
+        {/* Verification workflow */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "gachaSystem.bestGachaStrategy")}
+            {isZhLocale(locale) ? "当前卡池核验流程" : "Current banner verification workflow"}
           </h2>
           <div className="space-y-3">
             {(
               [
-                { step: "1", title: t(locale, "gachaSystem.step1Title"), desc: t(locale, "gachaSystem.step1Desc") },
-                { step: "2", title: t(locale, "gachaSystem.step2Title"), desc: t(locale, "gachaSystem.step2Desc") },
-                { step: "3", title: t(locale, "gachaSystem.step3Title"), desc: t(locale, "gachaSystem.step3Desc") },
-                { step: "4", title: t(locale, "gachaSystem.step4Title"), desc: t(locale, "gachaSystem.step4Desc") },
+                { step: "1", title: isZhLocale(locale) ? "确认目标环境" : "Confirm the target environment", desc: isZhLocale(locale) ? "确认服务器、客户端版本和卡池结束时间；不要从历史日期或社区截图推断当前状态。" : "Confirm the server, client version, and banner end time. Do not infer current status from historical dates or community screenshots." },
+                { step: "2", title: isZhLocale(locale) ? "读取游戏内详情" : "Read the in-game details", desc: isZhLocale(locale) ? "逐项确认角色范围、概率、保底、继承、定轨、兑换和付费规则。" : "Check the character pool, rates, pity, carry-over, path, exchange, and payment rules item by item." },
+                { step: "3", title: isZhLocale(locale) ? "只记录已确认资源" : "Count only confirmed resources", desc: isZhLocale(locale) ? "预算只包含账户中已到账的资源与游戏内明确显示的奖励，不计入传闻、预测或过期福利。" : "Budget only resources already on the account and rewards explicitly shown in-game, excluding rumors, forecasts, or expired benefits." },
+                { step: "4", title: isZhLocale(locale) ? "保留核验记录" : "Keep a verification record", desc: isZhLocale(locale) ? "截图或记录规则页日期，方便在版本更新后重新核对，而不是沿用旧攻略中的数字。" : "Save the rule-page date or screenshot so it can be checked again after an update instead of reusing figures from old guides." },
               ]
             ).map((item) => (
               <div
@@ -236,10 +241,9 @@ export default async function GachaSystemPage({
         {/* FAQ */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "guideDetails.faqTitle")}
+            {isZhLocale(locale) ? "历史问答记录" : "Historical FAQ records"}
           </h2>
           <FaqSection faqs={faqs} locale={locale} />
-          <FaqPageJsonLd faqs={faqs} lang={locale} />
         </section>
 
         {/* Internal Links */}
