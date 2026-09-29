@@ -15,8 +15,8 @@ const difficultyStars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环任务攻略 — 支线任务与异象委托全攻略", "NTE Quest Guide — Side Quests & Anomaly Commissions");
-  const description = localizedText(locale, "异环(NTE)全任务攻略，包含支线任务和异象委托的详细步骤、奖励、区域位置、难度与攻略提示。", "Complete quest guide for Neverness to Everness. Side quests and anomaly commissions with step-by-step walkthroughs, rewards, region locations, difficulty, and tips.");
+  const title = localizedText(locale, "异环任务历史资料 — 支线任务与异象委托记录", "NTE Quest History - Side Quest and Anomaly Commission Records");
+  const description = localizedText(locale, "异环(NTE)历史任务资料，记录支线任务与异象委托的路线、奖励、区域和难度字段。当前入口、前置条件、步骤与奖励请以目标区服客户端为准。", "Historical NTE quest references with recorded side-quest and anomaly-commission routes, rewards, regions, and difficulty fields. Verify current access, prerequisites, steps, and rewards in your target client.");
   return {
     title,
     description,
@@ -45,12 +45,12 @@ export default async function QuestsPage({ params }: { params: { lang: string } 
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold mb-4">
-            {isZh ? "异环任务攻略" : "NTE Quest Guide"}
+            {isZh ? "异环任务历史资料" : "NTE Quest History"}
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
             {isZh
-              ? `全 ${quests.length} 个任务攻略，包含支线任务和异象委托的详细步骤、奖励和攻略指南。`
-              : `${quests.length} quests with step-by-step walkthroughs, rewards, and guides for side quests and anomaly commissions.`}
+              ? `收录 ${quests.length} 条任务历史记录，包含支线任务与异象委托的路线、奖励、区域和难度字段。`
+              : `${quests.length} recorded quest references with route, reward, region, and difficulty fields for side quests and anomaly commissions.`}
           </p>
         </div>
 
@@ -61,8 +61,8 @@ export default async function QuestsPage({ params }: { params: { lang: string } 
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              `任务列表按支线任务和异象委托分类，覆盖触发区域、难度、奖励、完成步骤与关联角色。建议先查看区域和难度，再进入详情页确认路线、战斗提示和奖励是否符合当前养成目标。`,
-              `The quest list is grouped into side quests and anomaly commissions, covering trigger regions, difficulty, rewards, walkthrough steps, and related characters. Check region and difficulty first, then open a detail page to confirm route, combat tips, and whether the rewards match your current progression goals.`
+            `任务列表按支线任务和异象委托分类，记录触发区域、难度、奖励、完成步骤与关联角色。它不验证当前任务入口、前置条件、路线、难度、奖励或解锁状态；开始前请在目标区服客户端逐项核对。`,
+              `The list groups recorded side quests and anomaly commissions by trigger region, difficulty, rewards, steps, and related characters. It does not verify current access, prerequisites, routes, difficulty, rewards, or unlock status; confirm every item in your target client before starting.`
             )}
           </p>
         </section>

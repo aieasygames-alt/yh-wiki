@@ -21,14 +21,14 @@ function buildQuestMetaDescription(args: {
   const { locale, name, typeLabel, regionName, rewardsCount, stepsCount } = args;
 
   if (locale === "en") {
-    return completeMetaDescription(locale, `Complete ${typeLabel.toLowerCase()} for ${name} in Neverness to Everness${regionName ? `, set in ${regionName}` : ""}. Includes ${stepsCount} walkthrough step${stepsCount === 1 ? "" : "s"}, reward overview, and practical completion tips.`);
+    return completeMetaDescription(locale, `Historical ${typeLabel.toLowerCase()} reference for ${name} in Neverness to Everness${regionName ? `, recorded in ${regionName}` : ""}. Includes ${stepsCount} recorded step${stepsCount === 1 ? "" : "s"} and ${rewardsCount} reward field${rewardsCount === 1 ? "" : "s"}; verify current requirements and rewards in the client.`);
   }
 
   if (locale === "tw") {
-    return completeMetaDescription(locale, `異環${typeLabel}「${name}」完整攻略${regionName ? `，發生於${regionName}` : ""}，整理 ${stepsCount} 個流程步驟、${rewardsCount} 項任務獎勵與通關提示。`);
+    return completeMetaDescription(locale, `異環${typeLabel}「${name}」歷史任務資料${regionName ? `，記錄於${regionName}` : ""}，整理 ${stepsCount} 個流程步驟與 ${rewardsCount} 項獎勵欄位；目前條件和獎勵請以客戶端為準。`);
   }
 
-  return completeMetaDescription(locale, `异环${typeLabel}「${name}」完整攻略${regionName ? `，发生于${regionName}` : ""}，整理 ${stepsCount} 个流程步骤、${rewardsCount} 项任务奖励与通关提示。`);
+  return completeMetaDescription(locale, `异环${typeLabel}「${name}」历史任务资料${regionName ? `，记录于${regionName}` : ""}，整理 ${stepsCount} 个流程步骤与 ${rewardsCount} 项奖励字段；当前条件和奖励请以客户端为准。`);
 }
 
 export function generateStaticParams() {
@@ -45,8 +45,8 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
   const isZh = isZhLocale(lang);
   const name = localizedText(locale, quest.name, quest.nameEn);
   const typeName = quest.type === "side-quest"
-    ? localizedText(locale, "支线任务攻略", "Side Quest Guide")
-    : localizedText(locale, "异象委托攻略", "Anomaly Commission Guide");
+    ? localizedText(locale, "支线任务历史资料", "Side Quest History")
+    : localizedText(locale, "异象委托历史资料", "Anomaly Commission History");
 
   return {
     title: isZh ? `${name} — ${typeName} | 异环 Wiki` : `${name} — ${typeName} | NTE Wiki`,
@@ -100,11 +100,16 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
       <Breadcrumb
         items={[
           { label: isZh ? "首页" : "Home", href: `/${lang}` },
-          { label: isZh ? "任务攻略" : "Quests", href: `/${lang}/quests` },
+          { label: isZh ? "任务历史资料" : "Quest History", href: `/${lang}/quests` },
           { label: name },
         ]}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-8 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {isZh
+            ? "历史任务资料复核：本页的入口、前置条件、区域、难度、步骤、奖励、关联角色与解锁结果均不验证当前版本。开始任务、安排路线或按奖励投入资源前，请以目标区服客户端和官方公告为准。"
+            : "Historical quest reference: access, prerequisites, region, difficulty, steps, rewards, related characters, and unlock results on this page do not verify the current version. Before starting, routing, or spending around a reward, confirm them in your target client and official notices."}
+        </section>
         {/* Header */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex items-start justify-between flex-wrap gap-3">
@@ -135,7 +140,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
         {steps && steps.length > 0 && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">
-              {isZh ? "完成步骤" : "Walkthrough"}
+              {isZh ? "历史流程记录" : "Historical Steps"}
             </h2>
             <div className="space-y-3">
               {steps.map((step, i) => (
@@ -157,7 +162,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
         {rewards && rewards.length > 0 && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">
-              {isZh ? "任务奖励" : "Quest Rewards"}
+              {isZh ? "历史奖励字段" : "Historical Reward Fields"}
             </h2>
             <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
               <ul className="space-y-2">
@@ -176,7 +181,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
         {relatedChars.length > 0 && (
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">
-              {isZh ? "关联角色" : "Related Characters"}
+              {isZh ? "历史关联角色" : "Historical Related Characters"}
             </h2>
             <div className="flex flex-wrap gap-3">
               {relatedChars.map((char) => char && (
@@ -195,31 +200,31 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
         <section className="mb-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "开任务前先确认", "Before You Start", "開任務前先確認")}
+              {localizedText(locale, "开始前的客户端核对", "Verify in Your Client Before Starting", "開始前的客戶端核對")}
             </h2>
             <ul className="space-y-2 text-sm leading-6 text-gray-300">
               <li>
                 {localizedText(
                   locale,
-                  regionName ? `先在地图中确认「${regionName}」的传送点和任务入口，避免流程中反复绕路。` : "先确认任务入口和最近传送点，尤其是需要多次往返的支线任务。",
-                  regionName ? `Check the nearest teleport and quest entrance in ${regionName} before starting so the route does not waste time.` : "Check the quest entrance and nearest teleport first, especially for side quests that send you back and forth.",
-                  regionName ? `先在地圖中確認「${regionName}」的傳送點和任務入口，避免流程中反覆繞路。` : "先確認任務入口和最近傳送點，尤其是需要多次往返的支線任務。"
+                  regionName ? `在客户端确认「${regionName}」是否仍有该任务、入口和传送点是否可用。` : "在客户端确认任务是否仍存在、入口在哪里，以及最近传送点是否可用。",
+                  regionName ? `Confirm in the client that this quest still exists in ${regionName} and that its entrance and teleport are available.` : "Confirm in the client that the quest still exists, where its entrance is, and whether the nearest teleport is available.",
+                  regionName ? `在客戶端確認「${regionName}」是否仍有該任務、入口和傳送點是否可用。` : "在客戶端確認任務是否仍存在、入口在哪裡，以及最近傳送點是否可用。"
                 )}
               </li>
               <li>
                 {localizedText(
                   locale,
-                  quest.difficulty && quest.difficulty >= 4 ? "难度偏高的任务建议带上治疗或护盾角色，先保证容错再追求速度。" : "低到中等难度任务更适合顺路完成，可以和材料收集、地图补漏一起安排。",
-                  quest.difficulty && quest.difficulty >= 4 ? "For higher-difficulty quests, bring healing or shielding first and optimize speed only after the route feels stable." : "Low and mid-difficulty quests are best bundled with material farming, map cleanup, or nearby exploration.",
-                  quest.difficulty && quest.difficulty >= 4 ? "難度偏高的任務建議帶上治療或護盾角色，先保證容錯再追求速度。" : "低到中等難度任務更適合順路完成，可以和素材收集、地圖補漏一起安排。"
+                  "在客户端确认当前前置条件、敌人、难度、队伍限制和失败代价，不使用历史星级或路线替代。",
+                  "Confirm current prerequisites, enemies, difficulty, team limits, and failure costs in the client; do not substitute historical stars or routes.",
+                  "在客戶端確認目前前置條件、敵人、難度、隊伍限制和失敗代價，不使用歷史星級或路線替代。"
                 )}
               </li>
               <li>
                 {localizedText(
                   locale,
-                  rewards && rewards.length > 0 ? "如果奖励包含养成素材，建议完成后立刻回到角色或弧盘规划页检查下一步消耗。" : "如果奖励信息仍在补充，以正式服任务结算界面为准，并优先记录可重复获取的资源。",
-                  rewards && rewards.length > 0 ? "If rewards include progression materials, return to character or Arc planning after clearing to check the next spend." : "If reward data is still being verified, rely on the live quest result screen and record any repeatable resources first.",
-                  rewards && rewards.length > 0 ? "如果獎勵包含養成素材，建議完成後立刻回到角色或弧盤規劃頁檢查下一步消耗。" : "如果獎勵資訊仍在補充，以正式服任務結算畫面為準，並優先記錄可重複取得的資源。"
+                  "在任务结算前后核对实际奖励、可重复性、解锁内容和库存变化；站内奖励字段不能作为消费依据。",
+                  "Before and after settlement, verify actual rewards, repeatability, unlocked content, and inventory changes; site reward fields are not a spending basis.",
+                  "在任務結算前後核對實際獎勵、可重複性、解鎖內容和庫存變化；站內獎勵欄位不能作為消費依據。"
                 )}
               </li>
             </ul>
@@ -227,25 +232,25 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
 
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "完成后的下一步", "What To Do After Clearing", "完成後的下一步")}
+              {localizedText(locale, "完成后的复核", "Verify After Completion", "完成後的複核")}
             </h2>
             <p className="text-sm leading-6 text-gray-300">
               {localizedText(
                 locale,
-                `完成「${name}」后，建议把任务获得的资源和当前位置一起记录下来。如果这条任务解锁了新的区域、异象或收集点，可以继续用地图和探索伴侣补齐同区域内容，减少后续跑图成本。`,
-                `After clearing ${name}, record both the rewards and the location you ended in. If the quest unlocks a new area, anomaly, or collectible cluster, use the map and explorer companion to clean up the same region while you are already there.`,
-                `完成「${name}」後，建議把任務取得的資源和目前位置一起記錄下來。如果這條任務解鎖了新的區域、異象或收集點，可以繼續用地圖和探索伴侶補齊同區域內容，減少後續跑圖成本。`
+                `完成「${name}」后，以客户端结算、任务日志和地图状态为准，记录实际奖励、解锁内容和当前位置。若要继续探索或养成，请先重新核对当前地图、材料和角色需求，而不要沿用本站的历史字段。`,
+                `After ${name}, use the client settlement, quest log, and map state to record actual rewards, unlocked content, and location. Before exploring or upgrading further, re-check the current map, materials, and character requirements instead of reusing this site's historical fields.`,
+                `完成「${name}」後，以客戶端結算、任務日誌和地圖狀態為準，記錄實際獎勵、解鎖內容和目前位置。若要繼續探索或養成，請先重新核對目前地圖、素材和角色需求，不要沿用本站的歷史欄位。`
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
               <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
-                {localizedText(locale, "查看互动地图", "Open interactive map", "查看互動地圖")}
+                {localizedText(locale, "查看地图历史资料", "Open historical map references", "查看地圖歷史資料")}
               </Link>
               <Link href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
-                {localizedText(locale, "使用探索伴侣", "Use explorer companion", "使用探索伴侶")}
+                {localizedText(locale, "查看探索历史资料", "Open historical explorer references", "查看探索歷史資料")}
               </Link>
               <Link href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
-                {localizedText(locale, "计算养成素材", "Calculate upgrade materials", "計算養成素材")}
+                {localizedText(locale, "查看本地材料估算", "Open local material estimate", "查看本地素材估算")}
               </Link>
             </div>
           </div>
