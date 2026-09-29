@@ -139,8 +139,8 @@ export default async function HomePage({
                 href: `/${lang}/version-center`,
                 title: isZhLocale(locale) ? (locale === "tw" ? "1.3版本中心" : "1.3版本中心") : "Version 1.3 Hub",
                 desc: isZhLocale(locale)
-                  ? (locale === "tw" ? "贊空、鏈子、Fogden、Duskmoor與版本活動入口" : "赞空、链子、Fogden、Duskmoor与版本活动入口")
-                  : "Zankou, Linko, Fogden, Duskmoor, and live patch activities.",
+                  ? (locale === "tw" ? "贊空、鏈子、Fogden、Duskmoor與已確認版本內容" : "赞空、链子、Fogden、Duskmoor与已确认版本内容")
+                  : "Zankou, Linko, Fogden, Duskmoor, and confirmed version content.",
                 accent: "border-violet-500/30 bg-violet-500/10 text-violet-300",
               },
               {
@@ -177,10 +177,10 @@ export default async function HomePage({
               },
               {
                 href: `/${lang}/redeem-codes`,
-                title: isZhLocale(locale) ? (locale === "tw" ? "1.3 活動兌換碼" : "1.3 活动兑换码") : "1.3 Event Redeem Codes",
+                title: isZhLocale(locale) ? (locale === "tw" ? "兌換碼狀態與入口" : "兑换码状态与入口") : "Redeem Code Status & Entry",
                 desc: isZhLocale(locale)
-                  ? (locale === "tw" ? "最新禮包碼、直播碼、國服/國際服兌換入口" : "最新礼包码、直播码、国服/国际服兑换入口")
-                  : "Latest codes, livestream drops, and redeem steps.",
+                  ? (locale === "tw" ? "按複核狀態、來源與國服/國際服查看兌換資訊" : "按复核状态、来源与国服/国际服查看兑换信息")
+                  : "Check code status, sources, and CN/global redemption details.",
                 accent: "border-amber-500/30 bg-amber-500/10 text-amber-300",
               },
             ].map((item) => (
@@ -230,13 +230,13 @@ export default async function HomePage({
               <div>
                 <h2 className="text-lg font-bold text-sky-400 group-hover:text-sky-300 transition-colors">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? `版本中心：${liveVersion?.version ?? "1.x"} 現行重點` : `版本中心：${liveVersion?.version ?? "1.x"} 当前重点`)
-                    : `Version Center: v${liveVersion?.version ?? "1.x"} Live Patch`}
+                    ? (locale === "tw" ? `版本中心：${liveVersion?.version ?? "1.x"} 已確認內容` : `版本中心：${liveVersion?.version ?? "1.x"} 已确认内容`)
+                    : `Version Center: v${liveVersion?.version ?? "1.x"} Confirmed Content`}
                 </h2>
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "把現行版本更新、熱門攻略、角色抽取與下一版本觀察點集中到一頁查看" : "把当前版本更新、热门攻略、角色抽取与下一版本观察点集中到一页查看")
-                    : "See the live patch, hot guides, banner decisions, and next-version watchpoints in one place."}
+                    ? (locale === "tw" ? "把已確認版本內容、熱門攻略、角色資訊與下一版本觀察點集中到一頁查看" : "把已确认版本内容、热门攻略、角色信息与下一版本观察点集中到一页查看")
+                    : "See confirmed version content, hot guides, character references, and next-version watchpoints in one place."}
                 </p>
               </div>
               <span className="text-sky-400/60 group-hover:text-sky-400 text-2xl">→</span>
@@ -369,13 +369,13 @@ export default async function HomePage({
               <div>
                 <h2 className="text-lg font-bold text-primary-400 group-hover:text-primary-300 transition-colors">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "🎮 最新異環兌換碼" : "🎮 最新异环兑换码")
-                    : "🎮 Active NTE Redeem Codes (2026)"}
+                    ? (locale === "tw" ? "🎮 異環兌換碼狀態" : "🎮 异环兑换码状态")
+                    : "🎮 NTE Redeem Code Status"}
                 </h2>
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
-                    ? (locale === "tw" ? "全服可用兌換碼即時更新，免費領取獎勵" : "全服可用兑换码实时更新，免费领取奖励")
-                    : "All working Neverness to Everness codes — updated daily. Free rewards!"}
+                    ? (locale === "tw" ? "按複核狀態、來源與區服查看；請以遊戲內領取結果為準" : "按复核状态、来源与区服查看；请以游戏内领取结果为准")
+                    : "Check reviewed status, source, and server; verify the in-game result before planning resources."}
                 </p>
               </div>
               <span className="text-primary-400/60 group-hover:text-primary-400 text-2xl">→</span>
@@ -421,10 +421,10 @@ export default async function HomePage({
               },
               {
                 href: `/${lang}/guides/zhenhong-build-guide`,
-                title: isZhLocale(locale) ? (locale === "tw" ? "真紅值不值得抽？" : "真红值不值得抽？") : "Is Zhenhong Worth Pulling?",
+                title: isZhLocale(locale) ? (locale === "tw" ? "真紅角色攻略與歷史卡池" : "真红角色攻略与历史卡池") : "Zhenhong Guide & Banner History",
                 desc: isZhLocale(locale)
-                  ? (locale === "tw" ? "下半卡池熱詞：抽取建議、配隊、材料與養成優先級" : "下半卡池热词：抽取建议、配队、材料与养成优先级")
-                  : "Phase 2 banner advice, teams, mats, and build priorities.",
+                  ? (locale === "tw" ? "角色定位、配隊、材料與歷史卡池參考；目前可獲取狀態請以客戶端為準" : "角色定位、配队、材料与历史卡池参考；当前可获取状态请以客户端为准")
+                  : "Role, teams, materials, and banner history. Verify current availability in-game.",
                 accent: "border-rose-500/30 bg-rose-500/10 text-rose-300",
               },
               {
@@ -464,7 +464,7 @@ export default async function HomePage({
               { title: t(locale, "calculator.build"), desc: isZhLocale(locale) ? "查看角色推荐搭配" : "View recommended builds", href: `/${lang}/calculator/build`, icon: "⚙️" },
               { title: t(locale, "teamBuilder.title"), desc: isZhLocale(locale) ? "构建最佳阵容" : "Build best teams", href: `/${lang}/team-builder`, icon: "👥" },
               { title: t(locale, "gacha.title"), desc: isZhLocale(locale) ? "模拟祈愿测试运气" : "Simulate wishes", href: `/${lang}/gacha`, icon: "🎰" },
-              { title: t(locale, "site.nav.redeemCodes"), desc: isZhLocale(locale) ? "最新可用兑换码" : "Latest redeem codes", href: `/${lang}/redeem-codes`, icon: "🎁" },
+              { title: t(locale, "site.nav.redeemCodes"), desc: isZhLocale(locale) ? (locale === "tw" ? "按狀態與區服核對兌換碼" : "按状态与区服核对兑换码") : "Check code status by server", href: `/${lang}/redeem-codes`, icon: "🎁" },
               { title: isZhLocale(locale) ? (locale === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner", desc: isZhLocale(locale) ? (locale === "tw" ? "神秘鈕扣缺口與每日目標" : "神秘纽扣缺口与每日目标") : "Plan Mystery Button targets", href: `/${lang}/999-nights-planner`, icon: "🧮" },
               { title: t(locale, "explorer.title"), desc: isZhLocale(locale) ? "智能扫图路线规划" : "Smart sweep route planner", href: `/${lang}/explorer`, icon: "🗺️" },
               { title: t(locale, "cityTycoon.title"), desc: isZhLocale(locale) ? "免费S级角色攻略" : "Free S-rank character guide", href: `/${lang}/city-tycoon`, icon: "🏙️" },
@@ -589,7 +589,7 @@ export default async function HomePage({
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環強度排行" : "异环强度排行") : "NTE Tier List", href: `/${lang}/tier-list`, desc: isZhLocale(locale) ? (locale === "tw" ? "全角色評級排名" : "全角色评级排名") : "Character rankings" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環配隊推薦" : "异环配队推荐") : "Best Teams", href: `/${lang}/teams`, desc: isZhLocale(locale) ? (locale === "tw" ? "最佳隊伍搭配" : "最佳队伍搭配") : "Best team builds" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環互動地圖" : "异环交互地图") : "Interactive Map", href: `/${lang}/map`, desc: isZhLocale(locale) ? (locale === "tw" ? "全地圖收集品標記" : "全地图收集品标记") : "All collectibles marked" },
-              { label: isZhLocale(locale) ? (locale === "tw" ? "異環兌換碼" : "异环兑换码") : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? (locale === "tw" ? "最新兌換碼即時更新" : "最新兑换码实时更新") : "Latest active codes" },
+              { label: isZhLocale(locale) ? (locale === "tw" ? "異環兌換碼" : "异环兑换码") : "Redeem Codes", href: `/${lang}/redeem-codes`, desc: isZhLocale(locale) ? (locale === "tw" ? "按狀態、來源與區服核對" : "按状态、来源与区服核对") : "Verify status, source & server" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環下載安裝" : "异环下载安装") : "Download NTE", href: `/${lang}/guides/download-install-guide`, desc: isZhLocale(locale) ? (locale === "tw" ? "PC/手機/PS5下載" : "PC/手机/PS5下载") : "PC, mobile & PS5" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環配置要求" : "异环配置要求") : "System Req.", href: `/${lang}/system-requirements`, desc: isZhLocale(locale) ? (locale === "tw" ? "PC/手機最低配置" : "PC/手机最低配置") : "PC & mobile specs" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "異環武器圖鑑" : "异环武器图鉴") : "Weapons", href: `/${lang}/weapons`, desc: isZhLocale(locale) ? (locale === "tw" ? "全弧盤武器資料庫" : "全弧盘武器数据库") : "Weapon database" },
