@@ -50,7 +50,7 @@ export function Header() {
       { href: localizedPath(lang, "calculator/leveling"), label: t(lang, "site.nav.levelingCalc") },
       { href: localizedPath(lang, "calculator/build"), label: t(lang, "site.nav.buildCalc") },
       { href: localizedPath(lang, "gacha"), label: t(lang, "site.nav.gachaSim") },
-      { href: localizedPath(lang, "banners"), label: isZhLocale(lang) ? "卡池时间表" : "Banner Schedule" },
+      { href: localizedPath(lang, "banners"), label: isZhLocale(lang) ? "卡池历史资料" : "Banner History" },
       { href: localizedPath(lang, "gacha-analyzer"), label: t(lang, "site.nav.gachaAnalyzer") },
       { href: localizedPath(lang, "redeem-codes"), label: t(lang, "site.nav.redeemCodes") },
       { href: localizedPath(lang, "999-nights-planner"), label: isZhLocale(lang) ? (lang === "tw" ? "999夜規劃器" : "999夜规划器") : "999 Nights Planner" },

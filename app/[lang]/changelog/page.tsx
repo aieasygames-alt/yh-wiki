@@ -107,7 +107,7 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
           {[
             { href: `/${lang}/cn-vs-global`, label: isZhLocale(locale) ? "国服 vs 国际服" : "CN vs Global" },
             { href: `/${lang}/steam`, label: isZhLocale(locale) ? "Steam 版发售" : "Steam Version" },
-            { href: `/${lang}/banners`, label: isZhLocale(locale) ? "卡池时间表" : "Banner Schedule" },
+            { href: `/${lang}/banners`, label: isZhLocale(locale) ? "卡池历史资料" : "Banner History" },
           ].map((link) => (
             <Link
               key={link.href}

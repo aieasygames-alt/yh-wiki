@@ -286,7 +286,7 @@ export function NineNightsPlannerClient({ lang }: { lang: string }) {
     } else {
       base.push(
         { href: `/${lang}/guides/zhenhong-build-guide`, titleZh: "真红攻略", titleTw: "真紅攻略", titleEn: "Shinku / Zhenhong Guide" },
-        { href: `/${lang}/banners`, titleZh: "当前卡池", titleTw: "目前卡池", titleEn: "Current Banners" }
+        { href: `/${lang}/banners`, titleZh: "卡池历史资料", titleTw: "卡池歷史資料", titleEn: "Banner History" }
       );
     }
 

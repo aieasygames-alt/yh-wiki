@@ -41,7 +41,7 @@ export function QuickLinks({ lang }: { lang: string }) {
               }`}
             >
               {link.key === "banners"
-                ? (isZhLocale(locale) ? "卡池" : "Banners")
+                ? (isZhLocale(locale) ? "卡池历史" : "Banner History")
                 : t(locale, `site.nav.${link.key}` as `site.nav.${string}`)}
             </Link>
           );
