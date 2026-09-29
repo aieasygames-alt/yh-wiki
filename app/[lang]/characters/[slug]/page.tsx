@@ -147,8 +147,7 @@ export async function generateMetadata({
   const name = slug === "zankou" ? (lang === "en" ? "Zankou" : lang === "tw" ? "赞空" : "赞空") : slug === "linko" ? (lang === "en" ? "Linko" : lang === "tw" ? "链子" : "链子") : charName(character, lang);
   const isZh = isZhLocale(lang);
 
-  // Build title with tier rank and role for better CTR
-  const tierStr = character.tierRank ? ` [${character.tierRank} Tier]` : "";
+  const tierStr = character.tierRank ? ` [Historical ${character.tierRank} Tier]` : "";
   const roleStr = character.roleEn ? ` ${character.roleEn}` : "";
   const attrLabel = getAttributeLabel(character.attribute, lang as Locale);
   const roleLabel = isZh ? localizedText(lang as Locale, character.role || "", character.roleEn || "") : character.roleEn;
@@ -178,7 +177,7 @@ export async function generateMetadata({
     ? (isZh ? localizedText(lang as Locale, bannerSeo.titleZh, bannerSeo.titleEn) : bannerSeo.titleEn)
     : isZh
     ? localizedText(lang as Locale, `${name}${character.tierRank ? ` (${character.tierRank}级)` : ""} - ${attrLabel}${roleLabel || ""}攻略：配装/技能/配队 | NTE`, "", `${name}${character.tierRank ? ` (${character.tierRank}級)` : ""} - ${attrLabel}${roleLabel || ""}攻略：配裝/技能/配隊 | NTE`)
-    : `Best ${character.nameEn} Build${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"} Guide`;
+    : `${character.nameEn} Historical Build Reference${tierStr} — ${character.attribute.charAt(0).toUpperCase() + character.attribute.slice(1)} ${character.roleEn || "Character"}`;
   const description = completeMetaDescription(lang as Locale, enSeo
     ? enSeo.description
     : zhSeo
@@ -187,7 +186,7 @@ export async function generateMetadata({
     ? (isZh ? localizedText(lang as Locale, bannerSeo.descZh, bannerSeo.descEn) : bannerSeo.descEn)
     : isZh
     ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
-    : `${character.nameEn}${roleStr} build guide for NTE${tierStr}. Best weapons, disk sets, team comps, skill priority & leveling materials — updated for 2026.`);
+    : `Historical NTE reference for ${character.nameEn}${roleStr}${tierStr}. Recorded weapons, disk sets, team examples, skill fields, and materials require current in-client verification.`);
   return {
     title,
     description,
@@ -250,7 +249,7 @@ export default async function CharacterDetailPage({
           <div className="flex gap-6">
             <GameImage type="character" id={character.id} name={displayName} src={character.image} className="w-24 h-24 rounded-lg shrink-0" priority />
             <div className="flex-1 min-w-0">
-              <h1 className="text-2xl font-bold">{locale === "en" ? (enSeo?.h1 || `${displayName} NTE Build Guide & Tier Ranking`) : displayName}</h1>
+              <h1 className="text-2xl font-bold">{locale === "en" ? (enSeo?.h1 || `${displayName} NTE Historical Character Reference`) : displayName}</h1>
               <p className="text-gray-500">{locale === "en" ? (slug === "zankou" ? "赞空" : slug === "linko" ? "链子" : character.name) : (slug === "zankou" ? "Zankou" : slug === "linko" ? "Linko" : character.nameEn)}</p>
               <div className="flex items-center gap-3 mt-2">
                 <span
@@ -279,7 +278,7 @@ export default async function CharacterDetailPage({
               </div>
               {character.description && (
                 <p className="mt-3 text-sm text-gray-400">{slug === "zankou" || slug === "linko"
-                  ? (isZhLocale(locale) ? `${displayName} 已在1.3版本上线；当前页面沿用已验证的基础定位，技能与材料细节会随数据确认补充。` : `${displayName} is live in Version 1.3. This entry currently uses verified role data and will be expanded as kit and material details are confirmed.`)
+                  ? (isZhLocale(locale) ? `${displayName} 的历史页面记录了基础定位；当前是否上线、技能与材料细节必须以目标区服客户端和官方公告核对。` : `${displayName}'s historical page records baseline role fields; verify current availability, kit details, and materials in the target server's client and official notices.`)
                   : (isZhLocale(locale) ? character.description : character.descriptionEn || character.description)}</p>
               )}
               {searchAliases && searchAliases.length > 0 && (
@@ -290,6 +289,15 @@ export default async function CharacterDetailPage({
             </div>
           </div>
         </div>
+
+        <section className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {localizedText(
+            locale,
+            "历史角色资料复核：2026-09-29。本页的角色状态、技能、数值、材料、强度、构筑、循环、队伍和卡池信息均不验证当前版本。抽取、升级、刷取或消费前，请以目标区服客户端和官方公告逐项核对。",
+            "Historical character reference reviewed September 29, 2026. This page does not verify current availability, skills, values, materials, tier, build, rotation, team, or banner information. Before pulling, upgrading, farming, or spending, confirm each item in the target server's client and official notices.",
+            "歷史角色資料復核：2026-09-29。本頁的角色狀態、技能、數值、材料、強度、構築、循環、隊伍和卡池資訊均不驗證目前版本。抽取、升級、刷取或消費前，請以目標區服客戶端和官方公告逐項核對。"
+          )}
+        </section>
 
         <CharacterSummary
           name={character.name} nameTw={character.nameTw} nameEn={character.nameEn}
@@ -308,20 +316,22 @@ export default async function CharacterDetailPage({
           locale={locale}
           items={[
             {
-              label: isZhLocale(locale) ? "角色定位：" : "Role:",
-              value: isZhLocale(locale) ? `${charName(character, locale)} — ${character.rank}级${character.attribute}属性${isZhLocale(locale) ? character.role : character.roleEn}，优先看配队与养成方向。` : `${character.nameEn} — ${character.rank}-rank ${character.attribute} ${character.roleEn}; check build and team fit first.`,
+              label: isZhLocale(locale) ? "历史定位字段：" : "Historical role field:",
+              value: isZhLocale(locale) ? `${charName(character, locale)} — 记录为 ${character.rank}级${character.attribute}属性${isZhLocale(locale) ? character.role : character.roleEn}；当前角色状态和定位请在客户端核对。` : `${character.nameEn} — recorded as ${character.rank}-rank ${character.attribute} ${character.roleEn}; verify current availability and role in the client.`,
             },
             ...(character.tierRank ? [{
-              label: isZhLocale(locale) ? "强度评级：" : "Tier Rank:",
-              value: `${character.tierRank} — ${isZhLocale(locale) ? (character.tierReasonZh || character.tierReason || "") : (character.tierReason || "")}`,
+              label: isZhLocale(locale) ? "历史评级字段：" : "Historical tier field:",
+              value: isZhLocale(locale)
+                ? `${character.tierRank} — ${character.tierReasonZh || character.tierReason || ""}；不代表当前抽取或养成结论。`
+                : `${character.tierRank} — ${character.tierReason || ""}; not a current pull or investment verdict.`,
             }] : []),
             ...(character.recommendedBuild?.bestWeapon ? [{
-              label: isZhLocale(locale) ? "最佳武器：" : "Best Weapon:",
-              value: isZhLocale(locale) ? character.recommendedBuild.bestWeapon : (character.recommendedBuild.bestWeaponEn || character.recommendedBuild.bestWeapon),
+              label: isZhLocale(locale) ? "历史武器关联：" : "Historical weapon association:",
+              value: `${isZhLocale(locale) ? character.recommendedBuild.bestWeapon : (character.recommendedBuild.bestWeaponEn || character.recommendedBuild.bestWeapon)}${isZhLocale(locale) ? "；当前适配和可用性请在客户端核对。" : "; verify current fit and availability in the client."}`,
             }] : []),
             ...(character.recommendedBuild?.bestDiskSet ? [{
-              label: isZhLocale(locale) ? "最佳弧盘：" : "Best Disk Set:",
-              value: isZhLocale(locale) ? character.recommendedBuild.bestDiskSet : (character.recommendedBuild.bestDiskSetEn || character.recommendedBuild.bestDiskSet),
+              label: isZhLocale(locale) ? "历史卡带关联：" : "Historical cassette association:",
+              value: `${isZhLocale(locale) ? character.recommendedBuild.bestDiskSet : (character.recommendedBuild.bestDiskSetEn || character.recommendedBuild.bestDiskSet)}${isZhLocale(locale) ? "；当前效果和触发条件请在客户端核对。" : "; verify current effects and triggers in the client."}`,
             }] : []),
           ]}
         />
@@ -389,13 +399,13 @@ export default async function CharacterDetailPage({
               },
               {
                 href: `/${lang}/teams`,
-                label: isZhLocale(locale) ? "配队推荐" : "Best Teams",
-                desc: isZhLocale(locale) ? (locale === "tw" ? "查看可用隊伍和替代位" : "查看可用队伍和替代位") : "Find team shells",
+                label: isZhLocale(locale) ? "历史配队资料" : "Historical Team References",
+                desc: isZhLocale(locale) ? (locale === "tw" ? "核對目前角色與觸發條件" : "核对当前角色与触发条件") : "Verify current units and triggers",
               },
               {
                 href: `/${lang}/tier-list`,
-                label: isZhLocale(locale) ? (locale === "tw" ? "強度排行" : "强度排行") : "Tier List",
-                desc: isZhLocale(locale) ? (locale === "tw" ? "對比同定位角色" : "对比同定位角色") : "Compare similar units",
+                label: isZhLocale(locale) ? (locale === "tw" ? "歷史場景對比" : "历史场景对比") : "Historical Scene Comparison",
+                desc: isZhLocale(locale) ? (locale === "tw" ? "不代表目前評級或投入建議" : "不代表当前评级或投入建议") : "Not a current rating or investment verdict",
               },
             ].map((item) => (
               <Link

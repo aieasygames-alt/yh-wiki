@@ -35,7 +35,7 @@ export function TierBadge({
         {effectiveTier}
       </span>
       {reason && (
-        <p className="text-sm text-gray-400">{reason}</p>
+        <p className="text-sm text-gray-400">{isZhLocale(locale) ? `历史场景：${reason}` : `Historical context: ${reason}`}</p>
       )}
     </div>
   );

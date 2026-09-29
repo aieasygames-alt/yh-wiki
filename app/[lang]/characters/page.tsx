@@ -14,16 +14,16 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const availableCount = getAvailableCharacters().length;
+  const recordedCount = getAvailableCharacters().length;
   const title = localizedText(
     locale,
-    `异环全角色图鉴 - ${availableCount} 名角色强度、Build 与配队入口`,
-    `NTE Characters - ${availableCount} Character Builds, Teams, and Tier Guide`
+    `异环历史角色索引 - ${recordedCount} 条角色资料与关联字段`,
+    `NTE Historical Characters - ${recordedCount} Recorded Character References`
   );
   const description = localizedText(
     locale,
-    `异环 ${availableCount} 名可玩角色总表，整理角色定位、Build、配队、强度参考与培养方向，方便你按属性、定位和版本需求快速筛选。`,
-    `Browse ${availableCount} playable NTE characters with role filters, build links, team guides, and tier reference so you can compare units by attribute, role, and account needs.`
+    `异环 ${recordedCount} 条历史角色资料，整理记录中的定位、构筑、配队和评级字段；当前可用性、技能、材料与投入价值请以目标区服客户端为准。`,
+    `Browse ${recordedCount} historical NTE character records with role, build, team, and tier fields. Verify current availability, skills, materials, and investment value in the target server's client.`
   );
   return {
     title,
@@ -82,9 +82,9 @@ export default async function CharactersPage({
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
               ? (locale === "tw"
-                  ? "先用這裡篩出你要找的屬性、定位或版本熱門角色，再進入單角色頁看 Build、配隊、抽取建議與養成優先級。角色總表適合快速比較，不適合只看名稱就直接決定投入。"
-                  : "先用这里筛出你要找的属性、定位或版本热门角色，再进入单角色页看 Build、配队、抽取建议与养成优先级。角色总表适合快速比较，不适合只看名字就直接决定投入。")
-              : "Use this page to filter by attribute, role, or current meta interest first, then open the character guide for builds, teams, pull value, and upgrade priority. The index is best for comparison, not final investment decisions by name alone."}
+                  ? "這裡只用於篩選站內歷史屬性、定位與角色欄位。單角色頁中的構築、隊伍、材料和評級也屬於歷史資料；目前可用性、技能、卡池與投入決策請以目標區服客戶端和官方公告為準。"
+                  : "这里只用于筛选站内历史属性、定位与角色字段。单角色页中的构筑、队伍、材料和评级也属于历史资料；当前可用性、技能、卡池与投入决策请以目标区服客户端和官方公告为准。")
+              : "Use this page only to filter historical role and character fields. Builds, teams, materials, and tier fields on character pages are historical too; verify current availability, skills, banners, and investment decisions with the target server's client and official notices."}
           </p>
         </section>
         <div className="mb-6">
@@ -113,12 +113,12 @@ export default async function CharactersPage({
         <section className="mt-10 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
             <h2 className="text-base font-semibold text-white">
-              {isZhLocale(locale) ? (locale === "tw" ? "選角前先確認" : "选角色前先确认") : "Check this before choosing a character"}
+              {isZhLocale(locale) ? (locale === "tw" ? "目前選角前先核對" : "当前选角前先核对") : "Verify this before choosing a character"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "你的隊伍缺的是主C、破韌、輔助還是治療。" : "你的队伍缺的是主C、破韧、辅助还是治疗。") : "Know whether your roster needs a carry, break unit, support, or healer."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "看角色時別只看單卡強度，也要看是否吃專武、專屬隊友或高練度。" : "看角色时别只看单卡强度，也要看是否吃专武、专属队友或高练度。") : "Do not judge by solo power alone; check whether the unit depends on signature gear, specific teammates, or high investment."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "如果你主要打 999 Nights、Boss 或探索，優先級會明顯不同。" : "如果你主要打 999 Nights、Boss 或探索，优先级会明显不同。") : "Your priorities change a lot depending on whether you focus on 999 Nights, bosses, or exploration."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "客戶端中目標角色是否存在、是否可獲得，以及卡池或活動期限。" : "客户端中目标角色是否存在、是否可获得，以及卡池或活动期限。") : "Whether the target character exists and is obtainable in the client, including banner or event dates."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "目前技能、命座、裝備效果、等級上限和材料需求。" : "当前技能、命座、装备效果、等级上限和材料需求。") : "Current skills, upgrades, equipment effects, level caps, and material requirements."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "目前隊伍成員與元素觸發是否仍可用，而非依賴歷史評級。" : "当前队伍成员与元素触发是否仍可用，而非依赖历史评级。") : "Whether current team members and element triggers still work, rather than relying on historical tier fields."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -126,9 +126,9 @@ export default async function CharactersPage({
               {isZhLocale(locale) ? (locale === "tw" ? "常見誤區" : "常见误区") : "Common mistakes"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "只跟著強度榜抽，結果補不到帳號真正缺的功能位。" : "只跟着强度榜抽，结果补不到账号真正缺的功能位。") : "Pulling strictly by tier list and missing the role your account actually needs."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "把前期開荒體驗和後期高配畢業表現混在一起看。" : "把前期开荒体验和后期高配毕业表现混在一起看。") : "Mixing early-game comfort with late-game ceiling when evaluating a unit."}</li>
-              <li>{isZhLocale(locale) ? (locale === "tw" ? "忽略角色頁裡的 Build 與配隊條件，只看立繪或話題度。" : "忽略角色页里的 Build 与配队条件，只看立绘或话题度。") : "Ignoring build and team conditions in the guide and choosing only by visual appeal or hype."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "把歷史強度、構築或隊伍欄位當成目前抽取結論。" : "把历史强度、构筑或队伍字段当成当前抽取结论。") : "Treating historical tier, build, or team fields as current pull conclusions."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "將本站的『可用』篩選視為遊戲內目前可用狀態。" : "将本站的“可用”筛选视为游戏内当前可用状态。") : "Treating the site’s available filter as live in-game availability."}</li>
+              <li>{isZhLocale(locale) ? (locale === "tw" ? "未核對客戶端與官方公告就升級、刷取或消費。" : "未核对客户端与官方公告就升级、刷取或消费。") : "Upgrading, farming, or spending without checking the client and official notices."}</li>
             </ul>
           </div>
         </section>

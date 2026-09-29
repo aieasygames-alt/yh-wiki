@@ -31,7 +31,7 @@ export function RotationGuide({ steps, tips, tipsEn, locale, lang }: RotationGui
   return (
     <section className="mb-8">
       <h2 className="text-xl font-bold mb-4">
-        {zh ? "推荐输出循环" : "Recommended Rotation"}
+        {zh ? "历史循环示例" : "Historical Rotation Example"}
       </h2>
 
       {/* Steps */}
@@ -91,12 +91,15 @@ export function RotationGuide({ steps, tips, tipsEn, locale, lang }: RotationGui
         <div className="mt-4 rounded-lg bg-gray-900/30 border border-gray-800 p-3">
           <p className="text-xs text-gray-400">
             <span className="font-medium text-gray-300">
-              {zh ? "循环要点：" : "Key points: "}
+              {zh ? "历史循环说明：" : "Historical notes: "}
             </span>
             {zh ? tips : tipsEn}
           </p>
         </div>
       )}
+      <p className="mt-3 text-xs leading-5 text-amber-200/80">
+        {zh ? "本示例不验证当前技能、冷却、能量或触发顺序；请以客户端实测和官方说明为准。" : "This example does not verify current skills, cooldowns, energy, or trigger order; use in-client testing and official notes as the source of truth."}
+      </p>
     </section>
   );
 }
