@@ -19,11 +19,11 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const title = isZh
-    ? (locale === "tw" ? "異環兌換碼（2026年9月）— 1.3活動碼、999 Nights與國際服禮包碼" : "异环兑换码（2026年9月）— 1.3活动码、999 Nights与国际服礼包码")
-    : "NTE Redeem Codes (September 2026) — Version 1.3, 999 Nights & Active Codes";
+    ? (locale === "tw" ? "異環兌換碼狀態與領取入口｜區服、來源與複核資訊" : "异环兑换码状态与领取入口｜区服、来源与复核信息")
+    : "NTE Redeem Code Status & Entry | Server, Source, and Review Details";
   const description = isZh
-    ? (locale === "tw" ? "異環(NTE) 2026年9月兌換碼彙總，覆蓋1.3活動碼、直播碼、999NIGHTS等活動碼與常駐碼，整理獎勵、伺服器與兌換入口。" : "异环(NTE) 2026年9月兑换码汇总，覆盖1.3活动码、直播码、999NIGHTS等活动码与常驻码，整理奖励、服务器与兑换入口。")
-    : "NTE redeem code tracker for September 2026, including Version 1.3 event codes, 999NIGHTS, permanent codes, rewards, regions, and redemption steps.";
+    ? (locale === "tw" ? "異環(NTE)兌換碼狀態參考：查看最後複核日期、來源、伺服器、獎勵與輸入入口；請以遊戲內領取結果為準。" : "异环(NTE)兑换码状态参考：查看最后复核日期、来源、服务器、奖励与输入入口；请以游戏内领取结果为准。")
+    : "NTE redeem-code status reference with the last review date, sources, servers, rewards, and redemption steps. Verify every claim in-game.";
 
   return {
     title,
@@ -94,7 +94,7 @@ export default async function RedeemCodesPage({
   return (
     <>
       <ArticleJsonLd
-        title={isZhLocale(locale) ? "异环兑换码" : "NTE Redeem Codes — All Active Codes Updated Daily"}
+        title={isZhLocale(locale) ? "异环兑换码状态与领取入口" : "NTE Redeem Code Status & Entry"}
         description={isZhLocale(locale) ? "异环兑换码状态追踪：核对区服、有效状态、来源和领取结果" : "NTE redeem-code status tracker with server, verification, source, and claim checks"}
         url={`https://nteguide.com/${lang}/redeem-codes`}
       />
@@ -116,8 +116,8 @@ export default async function RedeemCodesPage({
         <div className="rounded-2xl border border-amber-500/25 bg-amber-500/10 p-5">
           <h2 className="text-lg font-semibold text-white">
             {isZhLocale(locale)
-              ? (locale === "tw" ? "1.3活動兌換碼先看這裡" : "1.3活动兑换码先看这里")
-              : "Looking for Version 1.3 event codes?"}
+              ? (locale === "tw" ? "短時效活動碼怎麼判讀？" : "短时效活动码怎么判断？")
+              : "How should you read short-lived event codes?"}
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
@@ -138,9 +138,9 @@ export default async function RedeemCodesPage({
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
               ? (locale === "tw"
-                ? "先看有效碼，再按國際服或國服篩選，最後優先兌換活動碼和近期公開的新碼。這樣比逐條手動試更省時間，也更不容易把已過期或不同伺服器的禮包碼混在一起。"
-                : "先看有效码，再按国际服或国服筛选，最后优先兑换活动码和近期公开的新码。这样比逐条手动试更省时间，也更不容易把已过期或不同服务器的礼包码混在一起。")
-              : "Start with active codes, then filter by Global or CN server, and redeem event or recently revealed codes first. This is much faster than testing everything manually and helps you avoid mixing expired or wrong-region rewards."}
+                ? "先看最後複核日期與有效標記，再按國際服或國服篩選。只有來源明確的有效碼才值得嘗試，並請在遊戲內確認獎勵。"
+                : "先看最后复核日期与有效标记，再按国际服或国服筛选。只有来源明确的有效码才值得尝试，并请在游戏内确认奖励。")
+              : "Start with the last review date and active status, then filter by Global or CN server. Try only source-backed active codes and confirm the reward in-game."}
           </p>
         </div>
       </section>

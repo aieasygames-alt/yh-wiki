@@ -41,7 +41,7 @@ export default async function RedeemCodesLayout({
     ? [
         {
           question: "異環兌換碼怎麼用？在哪裡輸入？",
-          answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入有效的兌換碼即可領取獎勵。建議第一時間兌換，避免過期。",
+          answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入本頁標記為有效且來源明確的兌換碼。請以遊戲內領取結果為準。",
         },
         {
           question: "哪些異環兌換碼目前標記為有效？",
@@ -60,7 +60,7 @@ export default async function RedeemCodesLayout({
       ? [
           {
             question: "异环兑换码在哪里输入？怎么用？",
-            answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效的兑换码即可领取奖励。建议第一时间兑换，避免过期。",
+            answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入本页标记为有效且来源明确的兑换码。请以游戏内领取结果为准。",
           },
           {
             question: "哪些异环兑换码目前标记为有效？",
@@ -78,7 +78,7 @@ export default async function RedeemCodesLayout({
       : [
           {
             question: "How to redeem codes in Neverness to Everness?",
-            answer: "Launch the game, tap your profile icon (top-right) → Settings → enter the code in the Redeem Code field. Redeem immediately to avoid expiration.",
+            answer: "Launch the game, tap your profile icon (top-right) → Settings → enter a source-backed code marked active on this page. Confirm the reward in-game.",
           },
           {
             question: "Which NTE redeem codes are currently marked active?",
