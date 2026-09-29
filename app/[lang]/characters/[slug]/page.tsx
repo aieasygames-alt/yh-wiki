@@ -9,7 +9,7 @@ import {
 } from "../../../../lib/queries";
 import { getAttributeColor, getAttributeLabel } from "../../../../lib/attributes";
 import { Breadcrumb } from "../../../../components/Breadcrumb";
-import { CharacterJsonLd, FaqPageJsonLd } from "../../../../components/JsonLd";
+import { CharacterJsonLd } from "../../../../components/JsonLd";
 import { GameImage } from "../../../../components/GameImage";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { FaqSection } from "../../../../components/FaqSection";
@@ -62,39 +62,39 @@ function bannerCta(slug: string, locale: Locale) {
 
 const EN_CHARACTER_SEO: Record<string, { title: string; description: string; h1: string }> = {
   "black-bird": {
-    title: "Black Bird NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
-    description: "Black Bird NTE character guide for Neverness to Everness: Chaos S-rank role, best build, weapons, disk sets, team comps, skills, tier ranking, and material links.",
-    h1: "Black Bird NTE Guide: Build, Skills & Tier Ranking",
+    title: "Black Bird NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Black Bird NTE record with previously listed role, weapons, disk sets, teams, skills, tier, and materials. Verify current availability and all gameplay fields in the client.",
+    h1: "Black Bird NTE Historical Character Record",
   },
   akane: {
-    title: "Akane NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
-    description: "Akane NTE character guide for Neverness to Everness: best build, weapons, disk sets, team comps, skill priority, tier ranking, and leveling material links.",
-    h1: "Akane NTE Guide: Build, Skills & Tier Ranking",
+    title: "Akane NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Akane NTE record with previously listed weapons, disk sets, teams, skill fields, tier, and materials. Verify current availability and all gameplay fields in the client.",
+    h1: "Akane NTE Historical Character Record",
   },
   shinku: {
-    title: "Shinku NTE Guide - Build, Element, Skills & Teams | Neverness to Everness",
-    description: "Shinku NTE guide for Neverness to Everness: Anima attacker overview, best build, weapon and disk set picks, team comps, skill notes, tier ranking, and release status.",
-    h1: "Shinku NTE Guide: Build, Element & Skills",
+    title: "Shinku NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Shinku NTE record with previously listed attribute, role, weapons, disk sets, teams, skills, tier, and release fields. Verify all current details in the client.",
+    h1: "Shinku NTE Historical Character Record",
   },
   lingko: {
-    title: "Lingko NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
-    description: "Lingko NTE character guide for Neverness to Everness: Incantation attacker build, weapon and disk set picks, teams, skills, tier ranking, and release status.",
-    h1: "Lingko NTE Guide: Build, Skills & Tier Ranking",
+    title: "Lingko NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Lingko NTE record with previously listed attribute, role, weapons, disk sets, teams, skills, tier, and release fields. Verify all current details in the client.",
+    h1: "Lingko NTE Historical Character Record",
   },
   illica: {
-    title: "Illica NTE Guide - Build, Banner, Skills & Teams | Neverness to Everness",
-    description: "Illica NTE guide for Neverness to Everness: S-rank limited support build, banner notes, healing and buff role, best teams, weapons, disk sets, and tier ranking.",
-    h1: "Illica NTE Guide: Build, Banner & Teams",
+    title: "Illica NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Illica NTE record with previously listed rank, banner, role, weapons, disk sets, teams, skills, and tier fields. Verify all current details in the client.",
+    h1: "Illica NTE Historical Character Record",
   },
   renee: {
-    title: "Renee NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
-    description: "Renee NTE character guide for Neverness to Everness: Psyche support build, best weapons, disk sets, team comps, skills, tier ranking, and release status.",
-    h1: "Renee NTE Guide: Build, Skills & Tier Ranking",
+    title: "Renee NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Renee NTE record with previously listed attribute, role, weapons, disk sets, teams, skills, tier, and release fields. Verify all current details in the client.",
+    h1: "Renee NTE Historical Character Record",
   },
   nitsa: {
-    title: "Nitsa NTE Guide - Build, Skills, Tier & Teams | Neverness to Everness",
-    description: "Nitsa NTE character guide for Neverness to Everness: Psyche support overview, best build, weapons, disk sets, team comps, skills, tier ranking, and release status.",
-    h1: "Nitsa NTE Guide: Build, Skills & Tier Ranking",
+    title: "Nitsa NTE Historical Character Record | Neverness to Everness",
+    description: "Historical Nitsa NTE record with previously listed attribute, role, weapons, disk sets, teams, skills, tier, and release fields. Verify all current details in the client.",
+    h1: "Nitsa NTE Historical Character Record",
   },
 };
 
@@ -109,22 +109,22 @@ const EN_CHARACTER_SEARCH_ALIASES: Record<string, string[]> = {
 
 const ZH_CHARACTER_SEO: Record<string, { title: string; description: string; titleTw: string; descriptionTw: string }> = {
   canhong: {
-    title: "残虹攻略：材料、技能、配队与上线前培养规划 | 异环 NTE",
-    description: "异环残虹角色攻略，整理残虹材料、技能机制、属性定位、配队思路、上线前养成规划和抽取注意事项，适合提前准备资源。",
-    titleTw: "殘虹攻略：材料、技能、配隊與上線前培養規劃 | 異環 NTE",
-    descriptionTw: "異環殘虹角色攻略，整理殘虹材料、技能機制、屬性定位、配隊思路、上線前養成規劃和抽取注意事項，適合提前準備資源。",
+    title: "残虹历史角色资料：材料、技能与配队字段记录 | 异环 NTE",
+    description: "异环残虹历史角色资料，整理曾记录的材料、技能、属性、配队与卡池字段。当前上线、获取、培养与资源投入请以目标客户端和官方公告为准。",
+    titleTw: "殘虹歷史角色資料：素材、技能與配隊字段記錄 | 異環 NTE",
+    descriptionTw: "異環殘虹歷史角色資料，整理曾記錄的素材、技能、屬性、配隊與卡池字段。目前上線、取得、培養與資源投入請以目標客戶端和官方公告為準。",
   },
   zhenhong: {
-    title: "真红攻略：材料、Build、配队与强度评级 | 异环 NTE",
-    description: "异环真红角色攻略，包含真红材料、最佳 Build、武器弧盘、配队推荐、技能循环、强度评级和养成优先级。",
-    titleTw: "真紅攻略：材料、Build、配隊與強度評級 | 異環 NTE",
-    descriptionTw: "異環真紅角色攻略，包含真紅材料、最佳 Build、武器弧盤、配隊推薦、技能循環、強度評級和養成優先級。",
+    title: "真红历史角色资料：材料、构筑与配队字段记录 | 异环 NTE",
+    description: "异环真红历史角色资料，包含曾记录的材料、武器、弧盘、配队、技能循环与评级字段。当前构筑和培养结论请以目标客户端为准。",
+    titleTw: "真紅歷史角色資料：素材、構築與配隊字段記錄 | 異環 NTE",
+    descriptionTw: "異環真紅歷史角色資料，包含曾記錄的素材、武器、弧盤、配隊、技能循環與評級字段。目前構築和培養結論請以目標客戶端為準。",
   },
   illica: {
-    title: "伊洛伊攻略：材料、Build、配队与辅助强度 | 异环 NTE",
-    description: "异环伊洛伊角色攻略，整理伊洛伊材料、辅助 Build、武器弧盘、治疗增益机制、最佳配队和抽取培养建议。",
-    titleTw: "伊洛伊攻略：材料、Build、配隊與輔助強度 | 異環 NTE",
-    descriptionTw: "異環伊洛伊角色攻略，整理伊洛伊材料、輔助 Build、武器弧盤、治療增益機制、最佳配隊和抽取培養建議。",
+    title: "伊洛伊历史角色资料：材料、构筑与配队字段记录 | 异环 NTE",
+    description: "异环伊洛伊历史角色资料，整理曾记录的材料、武器、弧盘、治疗增益和配队字段。当前角色状态、构筑与抽取培养请以目标客户端为准。",
+    titleTw: "伊洛伊歷史角色資料：素材、構築與配隊字段記錄 | 異環 NTE",
+    descriptionTw: "異環伊洛伊歷史角色資料，整理曾記錄的素材、武器、弧盤、治療增益和配隊字段。目前角色狀態、構築與抽取培養請以目標客戶端為準。",
   },
 };
 
@@ -157,8 +157,8 @@ export async function generateMetadata({
       ? {
           titleZh: `${name}攻略：配队、材料、专武与1.1历史卡池参考 | NTE`,
           titleEn: "Lacrimosa Build, Team, Materials & 1.1 Banner History | NTE",
-          descZh: `${lang === "tw" ? "異環" : "异环"}安魂曲攻略：1.1历史卡池时间、最佳配队、专武最后一朵玫瑰、材料与技能机制。当前可获取状态以游戏内倒计时为准。`,
-          descEn: "NTE Lacrimosa guide with Version 1.1 banner history, best build, teams, materials, The Last Rose Arc, and kit notes. Verify current availability in-game.",
+          descZh: `${lang === "tw" ? "異環" : "异环"}安魂曲历史角色资料：1.1卡池记录、配队、专武、材料与技能字段。当前可获取状态、构筑与投入请以游戏内说明为准。`,
+          descEn: "Historical NTE Lacrimosa reference with Version 1.1 banner, team, weapon, material, and kit fields. Verify current availability, builds, and investment decisions in-game.",
         }
       : slug === "chaos"
         ? {
@@ -185,7 +185,7 @@ export async function generateMetadata({
     : bannerSeo
     ? (isZh ? localizedText(lang as Locale, bannerSeo.descZh, bannerSeo.descEn) : bannerSeo.descEn)
     : isZh
-    ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} ${character.tierRank ? `強度評級${character.tierRank}，` : ""}${lang === "tw" ? "完整角色攻略：最佳配裝推薦、技能解析、配隊方案、升級材料一覽。" : "完整角色攻略：最佳配装推荐、技能解析、配队方案、升级材料一览。"}`
+    ? `${lang === "tw" ? "異環(NTE)" : "异环(NTE)"} ${name} 歷史角色資料：${character.tierRank ? `記錄評級${character.tierRank}，` : ""}${lang === "tw" ? "收錄配裝、技能、配隊與素材字段；目前狀態與投入請以目標客戶端覆核。" : "收录配装、技能、配队与材料字段；当前状态与投入请以目标客户端复核。"}`
     : `Historical NTE reference for ${character.nameEn}${roleStr}${tierStr}. Recorded weapons, disk sets, team examples, skill fields, and materials require current in-client verification.`);
   return {
     title,
@@ -232,9 +232,6 @@ export default async function CharacterDetailPage({
   return (
     <>
       <CharacterJsonLd character={{ ...character, name: displayName, nameEn: slug === "zankou" ? "Zankou" : slug === "linko" ? "Linko" : character.nameEn }} locale={locale} />
-      {character.faq && character.faq.length > 0 && (
-        <FaqPageJsonLd faqs={character.faq} lang={locale} />
-      )}
       <DataStatusBanner locale={locale} status={slug === "zankou" || slug === "linko" ? "available" : character.status} />
       <Breadcrumb
         items={[
