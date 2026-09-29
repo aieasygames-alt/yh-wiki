@@ -73,13 +73,21 @@ interface RedeemCodesClientProps {
   latestPosts: LatestPost[];
 }
 
+function isVerifiableActiveCode(code: RedeemCode, now: Date) {
+  const expiry = new Date(code.expiresAt);
+  return code.status === "active"
+    && code.source === "official"
+    && !Number.isNaN(expiry.getTime())
+    && expiry.getTime() > now.getTime();
+}
+
 export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: RedeemCodesClientProps) {
   const locale = lang as Locale;
 
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
-  // Default to "active" so users landing on the page see usable codes first
-  // rather than the 19 expired ones. They can switch to "all" / "expired".
-  const [filter, setFilter] = useState<"all" | "active" | "expired">("active");
+  // Start with the full audit trail. Historical "active" labels are not enough
+  // to prove that a code can still be redeemed today.
+  const [filter, setFilter] = useState<"all" | "active" | "expired">("all");
   const [region, setRegion] = useState<"all" | "cn" | "global">("all");
   const [now, setNow] = useState<Date | null>(null);
 
@@ -108,12 +116,13 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
     return true;
   });
   const activeCount = codes.filter((c) => c.status === "active").length;
+  const verifiableActiveCodes = codes.filter((code) => isVerifiableActiveCode(code, now ?? new Date()));
   const expiredCount = codes.filter((c) => c.status === "expired").length;
   const cnCount = codes.filter((c) => c.region === "cn").length;
   const globalCount = codes.filter((c) => c.region === "global").length;
 
-  const activeCodeList = codes.filter(c => c.status === "active").map(c => c.code).join("、");
-  const activeCodeListEn = codes.filter(c => c.status === "active").map(c => c.code).join(", ");
+  const activeCodeList = verifiableActiveCodes.map((c) => c.code).join("、");
+  const activeCodeListEn = verifiableActiveCodes.map((c) => c.code).join(", ");
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
@@ -122,8 +131,8 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
         locale={locale}
         items={isZhLocale(locale) ? [
           {
-            label: locale === "tw" ? "異環有效兌換碼：" : "异环有效兑换码：",
-            value: `${activeCodeList}${locale === "tw" ? "（國際服）" : "（国际服）"}`,
+            label: locale === "tw" ? "可複核候選碼：" : "可复核候选码：",
+            value: activeCodeList || (locale === "tw" ? "暫無；請先查看遊戲內公告" : "暂无；请先查看游戏内公告"),
           },
           {
             label: locale === "tw" ? "如何兌換：" : "如何兑换：",
@@ -131,8 +140,8 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
           },
         ] : [
           {
-            label: "Active NTE Codes:",
-            value: `${activeCodeListEn} (Global server)`,
+            label: "Verifiable code candidates:",
+            value: activeCodeListEn || "None currently; check in-game notices first.",
           },
           {
             label: "How to redeem:",
@@ -140,8 +149,8 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
           },
         ]}
         footer={isZhLocale(locale)
-          ? (locale === "tw" ? `共 ${activeCount} 個標記為有效的代碼 · ${codes.length} 個總碼數 · 請以遊戲內結果為準` : `共 ${activeCount} 个标记为有效的代码 · ${codes.length} 个总码数 · 请以游戏内结果为准`)
-          : `${activeCount} codes marked active · ${codes.length} total · Verify the in-game result`}
+          ? (locale === "tw" ? `${verifiableActiveCodes.length} 個可複核候選 · ${activeCount} 個歷史有效標記 · ${codes.length} 個總碼數` : `${verifiableActiveCodes.length} 个可复核候选 · ${activeCount} 个历史有效标记 · ${codes.length} 个总码数`)
+          : `${verifiableActiveCodes.length} verifiable candidates · ${activeCount} historical active labels · ${codes.length} total`}
       />
 
       <div className="mb-6">
@@ -206,6 +215,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
           const config = STATUS_CONFIG[code.status] || STATUS_CONFIG.unknown;
           const reward = isZhLocale(locale) ? code.reward : code.rewardEn;
           const isExpired = code.status === "expired";
+          const canCopy = isVerifiableActiveCode(code, now ?? new Date());
 
           return (
             <div
@@ -237,7 +247,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
                     <span>
                       {t(locale, "redeemCodes.expires")}: {code.expiresAt}
                     </span>
-                    {code.status === "active" && getCountdown(code.expiresAt) && (() => {
+                    {canCopy && getCountdown(code.expiresAt) && (() => {
                       const cd = getCountdown(code.expiresAt)!;
                       const isUrgent = cd.days < 7;
                       return (
@@ -256,19 +266,23 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
                 </div>
 
                 <button
-                  onClick={() => !isExpired && handleCopy(code.code)}
-                  disabled={isExpired}
+                  onClick={() => canCopy && handleCopy(code.code)}
+                  disabled={!canCopy}
                   className={`shrink-0 px-3 py-2 text-xs rounded-lg border transition-all ${
                     copiedCode === code.code
                       ? "bg-green-500/20 border-green-500/30 text-green-400"
-                      : isExpired
+                      : !canCopy
                       ? "bg-gray-800 border-gray-700 text-gray-600 cursor-not-allowed"
                       : "bg-gray-800 border-gray-700 text-gray-300 hover:border-primary-500/50 hover:text-primary-400"
                   }`}
                 >
                   {copiedCode === code.code
                     ? t(locale, "redeemCodes.copied")
-                    : t(locale, "redeemCodes.copy")}
+                    : canCopy
+                      ? t(locale, "redeemCodes.copy")
+                      : isZhLocale(locale)
+                        ? (locale === "tw" ? "需遊戲內複核" : "需游戏内复核")
+                        : "Verify in-game"}
                 </button>
               </div>
             </div>

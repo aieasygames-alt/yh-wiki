@@ -1,4 +1,4 @@
-import { t, Locale, hreflangAlternates } from "../../../lib/i18n";
+import { Locale, hreflangAlternates } from "../../../lib/i18n";
 import redeemCodesData from "../../../data/redeem-codes.json";
 
 export async function generateMetadata({
@@ -9,8 +9,16 @@ export async function generateMetadata({
   const { lang } = await params;
   const locale = lang as Locale;
 
-  const title = t(locale, "redeemCodes.seoTitle");
-  const description = t(locale, "redeemCodes.description");
+  const title = locale === "en"
+    ? "NTE Redeem Code Status & Entry | Server, Source, and Review Details"
+    : locale === "tw"
+      ? "異環兌換碼狀態與領取入口｜區服、來源與複核資訊"
+      : "异环兑换码状态与领取入口｜区服、来源与复核信息";
+  const description = locale === "en"
+    ? "NTE redeem-code status reference with review dates, sources, servers, rewards, and redemption steps. Verify each claim in-game."
+    : locale === "tw"
+      ? "異環兌換碼狀態參考：查看複核日期、來源、伺服器、獎勵與輸入入口；每一組碼請以遊戲內結果為準。"
+      : "异环兑换码状态参考：查看复核日期、来源、服务器、奖励与输入入口；每一组码请以游戏内结果为准。";
 
   return {
     title,
@@ -34,18 +42,25 @@ export default async function RedeemCodesLayout({
   const { lang } = await params;
   const isZh = lang === "zh";
   const isTw = lang === "tw";
-  const dataset = redeemCodesData as { reviewedAt: string; codes: Array<{ code: string; status: string }> };
-  const activeCodes = dataset.codes.filter((code) => code.status === "active").map((code) => code.code).join(", ");
+  const dataset = redeemCodesData as { reviewedAt: string; codes: Array<{ code: string; status: string; source?: string; expiresAt?: string }> };
+  const reviewedAt = new Date(`${dataset.reviewedAt}T00:00:00Z`);
+  const verifiableCodes = dataset.codes.filter((code) => {
+    const expiry = new Date(code.expiresAt ?? "");
+    return code.status === "active"
+      && code.source === "official"
+      && !Number.isNaN(expiry.getTime())
+      && expiry.getTime() > reviewedAt.getTime();
+  }).map((code) => code.code).join(", ");
 
   const faqItems = isTw
     ? [
         {
           question: "異環兌換碼怎麼用？在哪裡輸入？",
-          answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入本頁標記為有效且來源明確的兌換碼。請以遊戲內領取結果為準。",
+            answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框。只有來源明確且具未來到期日的候選碼才建議嘗試，請以遊戲內領取結果為準。",
         },
         {
-          question: "哪些異環兌換碼目前標記為有效？",
-          answer: `本頁最後複核於 ${dataset.reviewedAt}。目前標記為有效的代碼：${activeCodes || "暫無"}。直播碼與待複核碼不會被當作可用碼。`,
+          question: "哪些異環兌換碼目前可複核？",
+          answer: `本頁最後複核於 ${dataset.reviewedAt}。依來源與未來到期日篩出的候選碼：${verifiableCodes || "暫無"}。歷史有效標記與 TBA 都不能證明目前可用。`,
         },
         {
           question: "異環直播碼還能用嗎？",
@@ -60,11 +75,11 @@ export default async function RedeemCodesLayout({
       ? [
           {
             question: "异环兑换码在哪里输入？怎么用？",
-            answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入本页标记为有效且来源明确的兑换码。请以游戏内领取结果为准。",
+            answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框。只有来源明确且具未来到期日的候选码才建议尝试，请以游戏内领取结果为准。",
           },
           {
-            question: "哪些异环兑换码目前标记为有效？",
-            answer: `本页最后复核于 ${dataset.reviewedAt}。目前标记为有效的代码：${activeCodes || "暂无"}。直播码与待复核码不会被当作可用码。`,
+          question: "哪些异环兑换码目前可复核？",
+          answer: `本页最后复核于 ${dataset.reviewedAt}。按来源与未来到期日筛出的候选码：${verifiableCodes || "暂无"}。历史有效标记与 TBA 都不能证明目前可用。`,
           },
           {
             question: "异环直播兑换码还能用吗？",
@@ -78,11 +93,11 @@ export default async function RedeemCodesLayout({
       : [
           {
             question: "How to redeem codes in Neverness to Everness?",
-            answer: "Launch the game, tap your profile icon (top-right) → Settings → enter a source-backed code marked active on this page. Confirm the reward in-game.",
+            answer: "Launch the game, tap your profile icon (top-right) → Settings → enter a code only after checking its source and stated future expiry. Confirm the reward in-game.",
           },
           {
-            question: "Which NTE redeem codes are currently marked active?",
-            answer: `This page was last reviewed on ${dataset.reviewedAt}. Codes currently marked active: ${activeCodes || "none"}. Livestream and watchlist codes are not treated as usable.`,
+          question: "Which NTE redeem codes are currently verifiable?",
+          answer: `This page was last reviewed on ${dataset.reviewedAt}. Candidates with an official source and stated future expiry: ${verifiableCodes || "none"}. Historic active labels and TBA do not prove current availability.`,
           },
           {
             question: "Do NTE redeem codes expire?",

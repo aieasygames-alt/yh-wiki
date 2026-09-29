@@ -79,15 +79,22 @@ export default async function RedeemCodesPage({
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, 3);
 
-  const activeCodes = codes.filter((code) => code.status === "active").map((code) => code.code);
-  const activeCodesLabel = activeCodes.join(", ");
+  const reviewedAt = new Date(`${redeemCodeDataset.reviewedAt}T00:00:00Z`);
+  const verifiableCodes = codes.filter((code) => {
+    const expiry = new Date(code.expiresAt);
+    return code.status === "active"
+      && code.source === "official"
+      && !Number.isNaN(expiry.getTime())
+      && expiry.getTime() > reviewedAt.getTime();
+  }).map((code) => code.code);
+  const verifiableCodesLabel = verifiableCodes.join(", ");
   const faqs = isZhLocale(locale)
     ? [
-        { question: "异环现在有哪些标记为有效的兑换码？", questionZh: "异环现在有哪些标记为有效的兑换码？", answer: `本站当前标记为有效的代码：${activeCodesLabel || "暂无已验证代码"}。兑换前请在本页核对区服、状态和游戏内结果；TBA 不代表永久有效。`, answerZh: `本站当前标记为有效的代码：${activeCodesLabel || "暂无已验证代码"}。兑换前请在本页核对区服、状态和游戏内结果；TBA 不代表永久有效。` },
+        { question: "异环现在有哪些可复核的兑换码？", questionZh: "异环现在有哪些可复核的兑换码？", answer: `本站按来源与明确未来到期日筛出的可复核候选：${verifiableCodesLabel || "暂无"}。历史“有效”标记和 TBA 都不能证明现在仍可使用；请以游戏内领取结果为准。`, answerZh: `本站按来源与明确未来到期日筛出的可复核候选：${verifiableCodesLabel || "暂无"}。历史“有效”标记和 TBA 都不能证明现在仍可使用；请以游戏内领取结果为准。` },
         { question: "异环兑换码在哪里输入？", questionZh: "异环兑换码在哪里输入？", answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入本页标记为有效的代码。奖励到账前不要把代码收益计入抽卡预算。", answerZh: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入本页标记为有效的代码。奖励到账前不要把代码收益计入抽卡预算。" },
       ]
     : [
-        { question: "Which NTE redeem codes are currently marked active?", questionZh: "Which NTE redeem codes are currently marked active?", answer: `This page currently marks these codes active: ${activeCodesLabel || "no verified codes"}. Verify server, status, and the in-game result before treating a code as pull income; TBA does not mean permanent.`, answerZh: `This page currently marks these codes active: ${activeCodesLabel || "no verified codes"}. Verify server, status, and the in-game result before treating a code as pull income; TBA does not mean permanent.` },
+        { question: "Which NTE redeem codes are verifiable candidates?", questionZh: "Which NTE redeem codes are verifiable candidates?", answer: `This page finds these candidates with an official source and a stated future expiry: ${verifiableCodesLabel || "none"}. Historic active labels and TBA do not prove current availability; verify the in-game result before treating a code as pull income.`, answerZh: `This page finds these candidates with an official source and a stated future expiry: ${verifiableCodesLabel || "none"}. Historic active labels and TBA do not prove current availability; verify the in-game result before treating a code as pull income.` },
         { question: "How do I redeem NTE codes?", questionZh: "How do I redeem NTE codes?", answer: "Launch the game, tap your profile icon, open Settings, and enter a code marked active on this page. Confirm the reward in mail before changing your resource plan.", answerZh: "Launch the game, tap your profile icon, open Settings, and enter a code marked active on this page. Confirm the reward in mail before changing your resource plan." },
       ];
 
