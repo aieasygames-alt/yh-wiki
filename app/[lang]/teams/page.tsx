@@ -6,7 +6,6 @@ import { ArticleJsonLd, FaqPageJsonLd, ItemListJsonLd } from "../../../component
 import { DataStatusBanner } from "../../../components/DataStatusBanner";
 import { FaqSection } from "../../../components/FaqSection";
 import { ArticleContent } from "../../../components/ArticleContent";
-import { TierBadge } from "../../../components/TierBadge";
 import { GameImage } from "../../../components/GameImage";
 import { getAttributeColor, getAttributeLabel } from "../../../lib/attributes";
 import { localizedText } from "../../../lib/seo-copy";
@@ -40,7 +39,7 @@ function getTierCardStyle(tier?: string): string {
   return TIER_CARD_STYLES.B;
 }
 
-// Team comp type badge colors
+// Team comp type badge colors for historical examples and replacement paths.
 const COMP_TYPE_COLORS: Record<string, string> = {
   meta: "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
   recommended: "bg-primary-500/20 text-primary-400 border-primary-500/30",
@@ -51,31 +50,28 @@ const COMP_TYPE_COLORS: Record<string, string> = {
 const FEATURED_TEAMS = [
   {
     id: "lacrimosa-chaos-dot",
-    rank: "SS",
-    scenario: "Meta DPS",
-    scenarioZh: "版本主C",
+    scenario: "Chaos DoT Example",
+    scenarioZh: "混沌持续输出示例",
     name: "Lacrimosa Chaos DoT Core",
     nameZh: "安魂曲混沌持续输出队",
     members: ["lacrimosa", "daffodil", "baicang", "haniel"],
-    note: "Best for players who pulled Lacrimosa and want a Chaos-focused carry team with defensive coverage and support buffs.",
-    noteZh: "适合已抽安魂曲、想围绕混沌持续输出组队的玩家，兼顾防护、增益和持续伤害。",
+    note: "Historical example built around a Chaos-focused carry, defensive coverage, and support buffs. Verify current roles and available replacements in-game.",
+    noteZh: "历史示例：围绕混沌持续输出、保护和增益搭建。请在游戏内核对当前角色功能和可替代位置。",
   },
   {
     id: "chaos-lakshana-burst",
-    rank: "S+",
-    scenario: "Next Banner Prep",
-    scenarioZh: "下期卡池预备",
+    scenario: "Burst Setup Example",
+    scenarioZh: "爆发准备示例",
     name: "Chaos Lakshana Burst Team",
     nameZh: "卡厄斯相属性爆发队",
     members: ["chaos", "hathor", "jiuyuan", "haniel"],
-    note: "A pull-plan team for Chaos, pairing Lakshana support with grouping and team-wide buffs.",
-    noteZh: "围绕卡厄斯的预备配队，用相属性支援、聚怪和全队增益提高爆发窗口质量。",
+    note: "Historical burst setup using support, grouping, and team-wide buffs. Do not treat it as a future-banner or pull-plan recommendation.",
+    noteZh: "历史爆发思路：用支援、聚怪和全队增益提高窗口质量；不要将它视为未来卡池或抽取建议。",
   },
   {
     id: "nanally-general-meta",
-    rank: "SS",
-    scenario: "General Meta",
-    scenarioZh: "泛用强队",
+    scenario: "General Utility Example",
+    scenarioZh: "泛用功能示例",
     name: "Nanally General Carry",
     nameZh: "娜娜莉泛用主C队",
     members: ["nanally", "jiuyuan", "hotori", "zero-male"],
@@ -84,18 +80,16 @@ const FEATURED_TEAMS = [
   },
   {
     id: "xiaozhi-f2p-core",
-    rank: "S+",
-    scenario: "F2P",
-    scenarioZh: "零氪平民",
+    scenario: "Lower-Investment Example",
+    scenarioZh: "低投入示例",
     name: "Xiaozhi F2P Core",
     nameZh: "小吱零氪核心队",
     members: ["xiaozhi", "sakiri", "mint", "zero-male"],
-    note: "Best low-spend route: Xiaozhi carries while Sakiri, Mint, and Zero cover buffs, healing, and reactions.",
-    noteZh: "低氪/零氪优先路线，小吱站场输出，咲里、薄荷、零补足增益、治疗与反应。",
+    note: "Historical lower-investment example with a carry, buffs, healing, and reactions. Use comparable roles from your roster if these members are unavailable.",
+    noteZh: "历史低投入示例：主输出配合增益、治疗与反应；成员不可用时，优先用账号中同功能角色替换。",
   },
   {
     id: "xun-cosmos-blossom",
-    rank: "S",
     scenario: "Control",
     scenarioZh: "控场清场",
     name: "Xun Cosmos Blossom",
@@ -106,7 +100,6 @@ const FEATURED_TEAMS = [
   },
   {
     id: "illica-lakshana-safe",
-    rank: "S",
     scenario: "Safe Clear",
     scenarioZh: "稳健通关",
     name: "Illica Lakshana Sustain",
@@ -117,7 +110,6 @@ const FEATURED_TEAMS = [
   },
   {
     id: "daffodil-boss-break",
-    rank: "S",
     scenario: "Boss",
     scenarioZh: "Boss战",
     name: "Daffodil Boss Break",
@@ -128,7 +120,6 @@ const FEATURED_TEAMS = [
   },
   {
     id: "hotori-exploration-speed",
-    rank: "S",
     scenario: "Exploration",
     scenarioZh: "探索跑图",
     name: "Hotori Exploration Utility",
@@ -139,7 +130,6 @@ const FEATURED_TEAMS = [
   },
   {
     id: "haniel-hypercarry-shell",
-    rank: "S",
     scenario: "Flexible",
     scenarioZh: "万能外挂",
     name: "Haniel Hypercarry Shell",
@@ -150,14 +140,13 @@ const FEATURED_TEAMS = [
   },
   {
     id: "starter-selector-team",
-    rank: "A+",
-    scenario: "Beginner",
-    scenarioZh: "新手开荒",
+    scenario: "Starter Roles Example",
+    scenarioZh: "新手功能位示例",
     name: "Beginner Selector Team",
     nameZh: "新手自选开荒队",
     members: ["jiuyuan", "mint", "zero-male", "adler"],
-    note: "Beginner-friendly route that keeps healing, grouping, and defensive utility covered before limited banners.",
-    noteZh: "适合限定角色不齐的新手，用治疗、聚怪和防护先把开荒体验稳定住。",
+    note: "Historical starter template covering healing, grouping, and defensive utility. Confirm current starter rewards and availability before planning around it.",
+    noteZh: "历史新手模板：覆盖治疗、聚怪和防护。请先核对当前新手奖励与可获取状态，再据此规划。",
   },
 ];
 
@@ -170,8 +159,8 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const title = localizedText(
     locale,
-    "异环最佳配队推荐 — 全角色队伍组合、Boss队与零氪阵容",
-    "NTE Best Team Compositions — Boss Teams, F2P Setups, and Meta Cores"
+    "异环队伍功能模板｜历史阵容与替代思路",
+    "NTE Team Role Templates | Historical Comps & Replacement Logic"
   );
   const description = t(locale, "teamPage.description");
   return {
@@ -201,10 +190,7 @@ export default async function TeamsPage({
   // Get characters that have team comps, sorted by tier
   const charactersWithTeams = allCharacters
     .filter((c) => c.teamComps && c.teamComps.length > 0)
-    .sort((a, b) => {
-      const tierOrder: Record<string, number> = { SS: 0, "S+": 1, S: 2, "A+": 3, A: 4, "B+": 5, B: 6 };
-      return (tierOrder[a.tierRank ?? ""] ?? 99) - (tierOrder[b.tierRank ?? ""] ?? 99);
-    });
+    .sort((a, b) => a.nameEn.localeCompare(b.nameEn));
 
   // Count totals for the hero stats
   const totalTeams = charactersWithTeams.reduce(
@@ -213,8 +199,8 @@ export default async function TeamsPage({
 
   const title = t(locale, "teamPage.title");
   const summary = zh
-    ? "所有异环角色的推荐配队组合，包含 Esper Cycle 反应链和输出循环说明。"
-    : "Recommended team compositions for all NTE characters, including Esper Cycle reaction chains and rotation tips.";
+    ? "异环角色的历史队伍功能模板与替代思路；角色、技能和可获取状态请以目标区服客户端为准。"
+    : "Historical NTE team-role templates and replacement logic. Verify character roles, skills, and availability in the target server's client.";
 
   return (
     <>
@@ -236,7 +222,7 @@ export default async function TeamsPage({
       <Breadcrumb
         items={[
           { label: t(locale, "site.nav.home"), href: `/${lang}` },
-          { label: zh ? "最佳配队" : "Best Teams" },
+          { label: zh ? "队伍功能模板" : "Team Role Templates" },
         ]}
       />
 
@@ -262,12 +248,12 @@ export default async function TeamsPage({
 
         <section className="mb-10 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
           <h2 className="text-lg font-semibold text-white">
-            {zh ? "这页配队表最适合怎么用？" : "How should you use this team guide?"}
+            {zh ? "这页阵容模板最适合怎么用？" : "How should you use these team templates?"}
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {zh
-              ? "先看上面的场景榜，快速判断你当前是缺 Boss 队、开荒队、探索队还是泛用主力；再往下按角色查看每个人最适合塞进哪些阵容。这样能先解决账号缺口，再回到单角色页补 Build、抽取和养成细节。"
-              : "Start with the scenario ranking to decide whether your account needs a boss team, starter team, exploration shell, or general-purpose core. Then scroll down into the character-specific section to see where each unit fits best before checking builds and investment details."}
+              ? "先按副本目标和账号缺口判断你需要输出、聚怪、治疗、防护还是反应支援；再把下方旧阵容当作功能组合样例，优先用已有角色做同功能替换。"
+              : "Start from your content goal and roster gap: damage, grouping, sustain, defense, or reaction support. Then use the older lineups below as functional examples and replace missing members with comparable roles you already own."}
           </p>
         </section>
 
@@ -294,17 +280,17 @@ export default async function TeamsPage({
           </div>
         </section>
 
-        {/* Ranked teams by scenario */}
+        {/* Historical examples by team function */}
         <section className="mb-12">
           <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between mb-5">
             <div>
               <h2 className="text-2xl font-bold">
-                {zh ? "按场景排名的最佳队伍" : "Best Teams Ranked by Scenario"}
+                {zh ? "按功能查看历史阵容示例" : "Historical Team Examples by Function"}
               </h2>
               <p className="text-sm text-gray-500 mt-1">
                 {zh
-                  ? "优先覆盖版本主C、零氪开荒、Boss战、探索清场和通用辅助壳。"
-                  : "Covers meta carries, F2P progression, boss fights, exploration, and flexible support shells."}
+                  ? "这些旧阵容用于理解持续输出、爆发、治疗、防护、聚怪与探索功能的组合方式，不代表实时排名或抽取优先级。"
+                  : "These older lineups illustrate combinations of sustained damage, burst, sustain, defense, grouping, and exploration utility. They are not live rankings or pull priorities."}
               </p>
             </div>
             <Link
@@ -330,13 +316,10 @@ export default async function TeamsPage({
                   <div className="flex items-start justify-between gap-3 mb-4">
                     <div className="min-w-0">
                       <div className="flex flex-wrap items-center gap-2 mb-2">
-                        <span className="text-xs font-mono text-gray-500">
-                          #{index + 1}
-                        </span>
+                        <span className="text-xs font-mono text-gray-500">#{index + 1}</span>
                         <span className="text-xs px-2 py-0.5 rounded-full border border-primary-500/30 bg-primary-500/10 text-primary-300">
                           {zh ? team.scenarioZh : team.scenario}
                         </span>
-                        <TierBadge rank={team.rank} locale={locale} />
                       </div>
                       <h3 className="text-lg font-bold">
                         {zh ? team.nameZh : team.name}
@@ -392,8 +375,8 @@ export default async function TeamsPage({
           </h2>
           <p className="text-sm text-gray-500 mt-1">
             {zh
-              ? "继续向下可查看每个角色的最佳、推荐和平民替代队伍。"
-              : "Scroll on for each character's best, alternative, and F2P team options."}
+              ? "继续向下可查看每个角色的历史组合与替代方向；先验证当前角色状态，再按功能补位。"
+              : "Scroll for each character's historical combinations and replacement directions. Verify current character status first, then fill roles by function."}
           </p>
         </div>
 
@@ -430,7 +413,6 @@ export default async function TeamsPage({
                     >
                       {charName(char, locale)}
                     </Link>
-                    {char.tierRank && <TierBadge rank={char.tierRank} locale={locale} />}
                   </div>
                   <div className="flex items-center gap-2 mt-0.5">
                     <span className={`text-xs px-1.5 py-0.5 rounded border ${getAttributeColor(char.attribute)}`}>
@@ -453,15 +435,15 @@ export default async function TeamsPage({
                     .map((id) => getCharacter(id))
                     .filter(Boolean);
 
-                  // Determine comp type for badge
+                  // Label old combinations by their replacement role, not a live ranking.
                   const compType = idx === 0 ? "meta" : idx === 1 ? "recommended" : idx === 2 ? "f2p" : "alternative";
                   const compBadgeColor = COMP_TYPE_COLORS[compType] || COMP_TYPE_COLORS.alternative;
                   const compLabel = idx === 0
-                    ? (zh ? "最佳" : "Best")
+                    ? (zh ? "历史示例" : "Historical Example")
                     : idx === 1
-                    ? (zh ? "推荐" : "Alt")
+                    ? (zh ? "替代思路" : "Replacement Path")
                     : idx === 2
-                    ? (zh ? "平民" : "F2P")
+                    ? (zh ? "低投入参考" : "Lower-Investment")
                     : (zh ? `方案${idx + 1}` : `Option ${idx + 1}`);
 
                   return (
