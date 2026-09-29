@@ -4,6 +4,8 @@ import { ArticleJsonLd } from "../../../components/JsonLd";
 import Link from "next/link";
 import redeemCodesData from "../../../data/redeem-codes.json";
 import { localizedText } from "../../../lib/seo-copy";
+import { ContentStatus } from "../../../components/ContentStatus";
+import operations from "../../../data/version-operations.json";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -19,8 +21,8 @@ export async function generateMetadata({
   const title = localizedText(locale, "异环活动日历与兑换码 — NTE Guide", "NTE Events & Redeem Codes — NTE Guide");
   const description = localizedText(
     locale,
-    "异环(NTE)当前活动一览、限时活动日程、最新兑换码汇总，并整理登录奖励、常驻玩法和近期值得优先处理的活动内容。每日更新。",
-    "Track Neverness to Everness events, limited-time schedules, active redeem codes, login rewards, and permanent event priorities in one updated calendar."
+    "异环(NTE)活动与兑换码参考页，区分已确认的当前限时内容、常驻玩法与历史活动，避免将开服福利误作当前资源。",
+    "Neverness to Everness events and redeem-code reference, separating confirmed limited content from permanent modes and historical launch rewards."
   );
   return {
     title,
@@ -34,15 +36,15 @@ export async function generateMetadata({
   };
 }
 
-const CURRENT_EVENTS = [
+const REFERENCE_EVENTS = [
   {
     id: "launch-celebration",
     titleZh: "开服庆典活动",
     titleEn: "Launch Celebration Event",
-    typeZh: "限时活动",
-    typeEn: "Limited Event",
-    descZh: "全球服上线庆典，登录即送丰厚奖励，包括异环币、觉醒材料等。",
-    descEn: "Global launch celebration. Login for generous rewards including Hethereau Coins and awakening materials.",
+    typeZh: "历史开服活动",
+    typeEn: "Historical Launch Event",
+    descZh: "全球服开服庆典的历史奖励记录，不应默认视为当前可领取内容。",
+    descEn: "Historical global-launch reward record. Do not assume these rewards remain claimable now.",
     rewardZh: ["异环币 x10000", "S级弧盘自选箱 x1", "角色觉醒材料 x10"],
     rewardEn: ["Hethereau Coin x10000", "S-Rank Arc Selector x1", "Awakening Material x10"],
     color: "border-yellow-500/30 bg-yellow-500/5",
@@ -65,10 +67,10 @@ const CURRENT_EVENTS = [
     id: "beginner-login",
     titleZh: "新手7日登录奖励",
     titleEn: "7-Day Beginner Login Bonus",
-    typeZh: "新手活动",
-    typeEn: "Beginner Event",
-    descZh: "新玩家连续7天登录可获得角色、材料和异环币奖励。",
-    descEn: "New players can earn characters, materials, and coins by logging in for 7 consecutive days.",
+    typeZh: "新手参考",
+    typeEn: "Beginner Reference",
+    descZh: "新手登录奖励的参考结构；实际领取资格和奖励以客户端显示为准。",
+    descEn: "Reference structure for beginner login rewards; verify eligibility and rewards in your client.",
     rewardZh: ["A级角色自选 x1", "基础猎手指南 x30", "异环币 x5000"],
     rewardEn: ["A-Rank Character Selector x1", "Basic Hunter Guide x30", "Hethereau Coin x5000"],
     color: "border-blue-500/30 bg-blue-500/5",
@@ -84,6 +86,7 @@ export default async function EventsPage({
   const { lang } = await params;
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
+  const reviewedAt = operations.reviewedAt;
 
   const redeemCodeDataset = redeemCodesData as { codes: { code: string; reward: string; rewardEn: string; status: string; expiresAt: string; region: string }[] };
   const activeCodes = redeemCodeDataset.codes.filter((c) => c.status === "active");
@@ -92,7 +95,7 @@ export default async function EventsPage({
     <>
       <ArticleJsonLd
         title={isZh ? "异环活动日历与兑换码" : "NTE Events & Redeem Codes"}
-        description={isZh ? "异环当前活动一览、限时活动日程、最新兑换码汇总。" : "NTE current events schedule and latest redeem codes."}
+        description={isZh ? "异环活动、常驻玩法、历史奖励和可用兑换码的状态参考。" : "NTE event, permanent-mode, historical-reward, and active-code status reference."}
         url={`https://nteguide.com/${lang}/events`}
       />
       <Breadcrumb
@@ -107,17 +110,31 @@ export default async function EventsPage({
         </h1>
         <p className="text-gray-400 mb-8 text-sm">
           {isZh
-            ? "异环当前进行中的活动、限时玩法和兑换码汇总。"
-            : "Current NTE events, limited-time activities, and active redeem codes."}
+            ? "已确认活动、常驻玩法、历史奖励与可用兑换码参考。限时内容以客户端倒计时和官方公告为准。"
+            : "Confirmed event references, permanent modes, historical rewards, and active codes. Verify limited content against the in-game countdown and official notices."}
         </p>
+        <div className="mb-8">
+          <ContentStatus locale={locale} status="watch" reviewedAt={reviewedAt} />
+        </div>
 
-        {/* Current Events */}
+        {/* Current limited events */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
             {isZh ? "当前活动" : "Current Events"}
           </h2>
+          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
+            <p className="text-sm text-gray-500">
+              {isZh ? "本站尚未核实可列出的当前限时活动；请以游戏内活动页和官方公告为准。" : "No current limited event is listed until it is verified here; check the in-game event page and official notices."}
+            </p>
+          </div>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-xl font-bold mb-4">
+            {isZh ? "常驻与历史活动参考" : "Permanent & Historical References"}
+          </h2>
           <div className="space-y-4">
-            {CURRENT_EVENTS.map((event) => (
+            {REFERENCE_EVENTS.map((event) => (
               <div
                 key={event.id}
                 className={`rounded-xl border p-5 ${event.color}`}
