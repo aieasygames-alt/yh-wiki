@@ -93,11 +93,19 @@ export default async function MaterialDetailPage({
       <ArticleJsonLd
         title={materialName}
         description={isZhLocale(locale)
-          ? `${materialName} — ${typeLabels[material.type] || material.type}素材的获取位置、用途与所需角色`
-          : `${material.nameEn || material.name} — ${typeLabels[material.type] || material.type} material: locations, uses, and characters that need it`}
+          ? `${materialName} — ${typeLabels[material.type] || material.type}的历史来源与角色关联字段`
+          : `${material.nameEn || material.name} — historical ${typeLabels[material.type] || material.type} source and character-association fields`}
         url={`https://nteguide.com/${lang}/materials/${slug}`}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {localizedText(
+            locale,
+            "历史材料资料复核：2026-09-29。本页的稀有度、来源、掉落、商店、活动、成本、用途与角色关联均不验证当前版本；刷取、囤货、升级或消费前，请以目标区服客户端和官方公告逐项核对。",
+            "Historical material reference reviewed September 29, 2026. Rarity, sources, drops, shops, events, costs, uses, and character associations on this page do not verify the current version. Before farming, stockpiling, upgrading, or spending, confirm each item in the target server's client and official notices.",
+            "歷史素材資料復核：2026-09-29。本頁的稀有度、來源、掉落、商家、活動、成本、用途與角色關聯均不驗證目前版本；刷取、囤貨、升級或消費前，請以目標區服客戶端和官方公告逐項核對。"
+          )}
+        </section>
         {/* Material Info Card */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex gap-6">
@@ -119,27 +127,27 @@ export default async function MaterialDetailPage({
 
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
           <h2 className="text-xl font-bold mb-3">
-            {localizedText(locale, "材料概览", "Material Overview")}
+            {localizedText(locale, "历史材料字段", "Historical Material Fields")}
           </h2>
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              `「${materialName}」是异环中的${typeLabels[material.type] || material.type}素材，稀有度为${material.rarity}星。页面整理了该素材的主要来源、刷取入口、用途和关联角色，适合在角色升级、技能培养或弧盘养成前确认所需资源。当前数据库显示共有${usedByCharacters.length}名角色会直接使用该素材。`,
-              `${material.nameEn} is a ${material.rarity}-star ${typeLabels[material.type] || material.type} material in Neverness to Everness. This page summarizes where to get it, how it is used, and which characters require it for upgrades, skill progression, or Arc-related progression. The current database links it to ${usedByCharacters.length} character${usedByCharacters.length === 1 ? "" : "s"}.`
+              `「${materialName}」的站内历史字段记录为${material.rarity}星${typeLabels[material.type] || material.type}，并关联${usedByCharacters.length}名角色。当前来源、掉落、用途和角色需求必须在客户端核对。`,
+              `Site historical fields record ${material.nameEn} as a ${material.rarity}-star ${typeLabels[material.type] || material.type} with ${usedByCharacters.length} character association${usedByCharacters.length === 1 ? "" : "s"}. Confirm current sources, drops, uses, and character requirements in the client.`
             )}
           </p>
           <p className="mt-3 text-sm text-gray-400 leading-relaxed">
             {localizedText(
               locale,
-              `如果你正在规划多个角色的养成，建议先记录该素材的来源，再结合升级计算器汇总总需求量。对于尚未实装或资料仍在校对的素材，页面会保留当前已知来源，后续可随版本数据更新继续修正，并同步到站点地图与搜索索引。`,
-              `When planning several characters at once, record this material source first and then use the leveling calculator to aggregate total demand. For unreleased or still-verifying materials, the page keeps the best known source and can be updated as new version data lands, then reflected in the sitemap and search index.`
+              "本页与升级计算器只适合作为本地历史对照；不读取背包，也不验证当前材料数量、等级上限、掉落、活动或商店状态。",
+              "This page and the leveling calculator are local historical comparisons only; they do not read your inventory or verify current quantities, level caps, drops, events, or shop status."
             )}
           </p>
         </section>
 
         {/* Source */}
         <section className="mb-8">
-          <h2 className="text-xl font-bold mb-4">{t(locale, "materials.source")}</h2>
+          <h2 className="text-xl font-bold mb-4">{localizedText(locale, "记录中的来源", "Recorded Source Field", "記錄中的來源")}</h2>
           <div className="rounded-lg border border-gray-800 bg-gray-900/30 p-4">
             <p className="text-gray-300">{materialSource}</p>
           </div>
@@ -175,23 +183,23 @@ export default async function MaterialDetailPage({
 
         <section className="mb-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
-            <h2 className="text-lg font-bold mb-3">
-              {localizedText(locale, "刷取建议", "Farming notes", "刷取建議")}
+          <h2 className="text-lg font-bold mb-3">
+              {localizedText(locale, "客户端核对步骤", "Client Verification Steps", "客戶端核對步驟")}
             </h2>
             <p className="text-sm leading-6 text-gray-300">
               {localizedText(
                 locale,
-                `如果「${materialName}」同时被多个角色使用，建议优先把它纳入周常或体力固定清单，而不是临时缺什么补什么。这样更容易把单次刷本转化成长期养成进度。`,
-                `If ${materialName} is used by multiple characters, put it on a weekly or stamina checklist instead of farming it only when you run short. That turns each farming session into longer-term progression.`,
-                `如果「${materialName}」同時被多個角色使用，建議優先把它納入週常或體力固定清單，而不是臨時缺什麼補什麼。這樣更容易把單次刷本轉化成長期養成進度。`
+                "先在客户端确认目标角色当前是否使用该材料，以及等级、技能和装备的实际数量。",
+                "First verify in the client whether the target character currently uses this material and the actual level, skill, and equipment quantities.",
+                "先在客戶端確認目標角色目前是否使用該素材，以及等級、技能和裝備的實際數量。"
               )}
             </p>
             <p className="mt-3 text-sm leading-6 text-gray-400">
               {localizedText(
                 locale,
-                "对于来源较分散的素材，先确认掉落点、商店兑换、活动奖励和周常限制，再决定是否值得提前囤货。",
-                "For materials with scattered sources, confirm drop locations, shop exchanges, event rewards, and weekly limits before deciding whether to stockpile early.",
-                "對於來源較分散的素材，先確認掉落點、商店兌換、活動獎勵和週常限制，再決定是否值得提前囤貨。"
+                "再核对当前掉落点、商店兑换、活动奖励、体力成本和日周限制；历史来源字段不能证明当前可获得。",
+                "Then verify current drop locations, shop exchanges, event rewards, stamina costs, and daily or weekly limits; a historical source field does not establish current availability.",
+                "再核對目前掉落點、商家兌換、活動獎勵、體力成本和日週限制；歷史來源欄位不能證明目前可獲得。"
               )}
             </p>
           </div>
@@ -214,9 +222,9 @@ export default async function MaterialDetailPage({
             <p className="mt-3 text-sm leading-6 text-gray-400">
               {localizedText(
                 locale,
-                "素材页的作用不只是告诉你哪里掉，还要告诉你掉下来后该怎么分配。把用途和需求角色一起看，会比单独看素材名更接近真实养成决策。",
-                "A material page should do more than tell you where it drops. It should also help you decide how to allocate it after it lands. Reading the uses and target characters together leads to better progression choices than looking at the item name alone.",
-                "素材頁的作用不只是告訴你哪裡掉，還要告訴你掉下來後該怎麼分配。把用途和需求角色一起看，會比單獨看素材名更接近真實養成決策。"
+                "角色、配队与计算器链接均是历史参考；当前养成决策请以客户端数据为准。",
+                "Character, team, and calculator links are historical references too; use client data for current progression decisions.",
+                "角色、配隊與計算器連結均是歷史參考；目前養成決策請以客戶端資料為準。"
               )}
             </p>
           </div>

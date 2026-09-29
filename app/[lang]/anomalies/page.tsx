@@ -26,14 +26,11 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const { lang } = await params;
   const locale = lang as Locale;
   const anomalies = getAllAnomalies();
-  const bossCount = anomalies.filter((a) => a.type === "boss").length;
-  const eliteCount = anomalies.filter((a) => a.type === "elite").length;
-  const normalCount = anomalies.filter((a) => a.type === "normal").length;
   const description = locale === "tw"
-    ? `異環異象資料庫目前整理 ${anomalies.length} 個目標，包含 ${bossCount} 個 Boss、${eliteCount} 個精英與 ${normalCount} 個普通異象，可快速查詢弱點、機制、掉落與攻略入口。`
+    ? `異環歷史異象索引收錄 ${anomalies.length} 筆目標資料，包含 Boss、精英與普通異象的記錄欄位；目前弱點、機制、掉落與可挑戰狀態請以客戶端為準。`
     : locale === "zh"
-    ? `异环异象图鉴，当前整理 ${anomalies.length} 个异象，覆盖 ${bossCount} 个 Boss、${eliteCount} 个精英与 ${normalCount} 个普通目标，便于快速查弱点、机制和掉落。`
-    : `Neverness to Everness anomaly database with ${anomalies.length} entries, including ${bossCount} bosses, ${eliteCount} elites, and ${normalCount} normal anomalies for weakness, mechanic, and drop lookups.`;
+    ? `异环历史异象索引收录 ${anomalies.length} 条目标资料，包含 Boss、精英与普通异象的记录字段；当前弱点、机制、掉落与可挑战状态请以客户端为准。`
+    : `Historical NTE anomaly index with ${anomalies.length} recorded entries across bosses, elites, and normal anomalies. Verify current weaknesses, mechanics, drops, and encounter availability in the client.`;
 
   return {
     title: t(locale, "anomalies.seoTitle"),
@@ -74,9 +71,14 @@ export default async function AnomaliesPage({ params }: { params: { lang: string
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto">
             {isZhLocale(locale)
-              ? "异环全异象图鉴，包含Boss级、精英级和普通异象的弱点分析、战斗机制和掉落物。"
-              : "Complete anomaly database for Neverness to Everness. Boss, elite, and normal enemy weaknesses, mechanics, and drops."}
+              ? "异环历史异象资料索引，包含 Boss、精英与普通目标的记录弱点、机制和掉落字段。当前遭遇、数值、位置与奖励请以目标区服客户端为准。"
+              : "Historical NTE anomaly reference index with recorded weakness, mechanic, and drop fields for bosses, elites, and normal targets. Verify current encounters, values, locations, and rewards in the target server's client."}
           </p>
+        </div>
+        <div className="mb-8 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {isZhLocale(locale)
+            ? (locale === "tw" ? "歷史異象資料復核：2026-09-29。本頁的類型、屬性、HP、位置、弱點、機制、策略與掉落均不驗證目前版本；請以目標區服客戶端和官方公告確認。" : "历史异象资料复核：2026-09-29。本页的类型、属性、HP、位置、弱点、机制、策略与掉落均不验证当前版本；请以目标区服客户端和官方公告确认。")
+            : "Historical anomaly reference reviewed September 29, 2026. Type, attribute, HP, location, weakness, mechanics, strategy, and drops on this page do not verify the current version; confirm them in the target server's client and official notices."}
         </div>
 
         {(["boss", "elite", "normal"] as const).map((type) => {

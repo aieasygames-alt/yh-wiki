@@ -66,7 +66,7 @@ export function BossCardClient({
         <div className="flex items-center gap-3 mb-3">
           <h4 className="font-semibold text-sm flex-1">{name}</h4>
           {difficulty && (
-            <span className="flex gap-0.5">
+            <span className="flex gap-0.5" title={isZh ? "历史难度字段" : "Historical difficulty field"}>
               {Array.from({ length: 5 }).map((_, i) => (
                 <svg
                   key={i}
@@ -96,7 +96,7 @@ export function BossCardClient({
         <div className="space-y-2 text-xs">
           {attribute && (
             <div className="flex gap-2">
-              <span className="text-gray-500 w-12 shrink-0">{isZh ? "属性" : "Attr"}</span>
+              <span className="text-gray-500 w-12 shrink-0">{isZh ? "历史属性" : "Hist. attr"}</span>
               <span className="text-gray-300">{attribute}</span>
             </div>
           )}
@@ -108,7 +108,7 @@ export function BossCardClient({
           )}
           {weakness && (
             <div className="flex gap-2">
-              <span className="text-gray-500 w-12 shrink-0">{isZh ? "弱点" : "Weak"}</span>
+              <span className="text-gray-500 w-12 shrink-0">{isZh ? "历史弱点" : "Hist. weak"}</span>
               <span className="text-yellow-400 line-clamp-1">{weakness}</span>
             </div>
           )}
@@ -122,25 +122,25 @@ export function BossCardClient({
         <div className="mt-4 pt-4 border-t border-gray-800/50 space-y-4">
           {location && (
             <div className="text-xs">
-              <span className="text-gray-500">{isZh ? "位置" : "Location"}: </span>
+              <span className="text-gray-500">{isZh ? "历史位置" : "Historical location"}: </span>
               <span className="text-gray-300">{location}</span>
             </div>
           )}
           {mechanics && (
             <div className="text-xs">
-              <span className="text-gray-500 font-medium block mb-1">{isZh ? "机制" : "Mechanics"}</span>
+              <span className="text-gray-500 font-medium block mb-1">{isZh ? "历史机制" : "Historical mechanics"}</span>
               <p className="text-gray-300 leading-relaxed">{mechanics}</p>
             </div>
           )}
           {strategy && (
             <div className="text-xs">
-              <span className="text-gray-500 font-medium block mb-1">{isZh ? "策略" : "Strategy"}</span>
+              <span className="text-gray-500 font-medium block mb-1">{isZh ? "历史策略" : "Historical strategy"}</span>
               <p className="text-gray-300 leading-relaxed">{strategy}</p>
             </div>
           )}
           {drops && drops.length > 0 && (
             <div>
-              <span className="text-xs text-gray-500 block mb-1">{isZh ? "掉落" : "Drops"}</span>
+              <span className="text-xs text-gray-500 block mb-1">{isZh ? "历史掉落" : "Historical drops"}</span>
               <div className="flex flex-wrap gap-1">
                 {drops.map((d, i) => (
                   <span key={i} className="text-[10px] px-1.5 py-0.5 rounded bg-gray-800 text-gray-400">
@@ -153,7 +153,7 @@ export function BossCardClient({
 
           {/* Recommended Teams */}
           <div>
-            <span className="text-xs text-gray-500 block mb-2">{isZh ? "推荐队伍" : "Recommended Teams"}</span>
+            <span className="text-xs text-gray-500 block mb-2">{isZh ? "历史队伍示例" : "Historical Team Examples"}</span>
             <div className="space-y-2">
               {recommendedTeams.slice(0, 3).map((team) => (
                 <div key={team.characterId} className="flex items-center gap-2">
@@ -180,6 +180,10 @@ export function BossCardClient({
               ))}
             </div>
           </div>
+
+          <p className="text-xs leading-5 text-amber-200/80">
+            {isZh ? "本卡片的数值、机制、掉落和队伍均为历史字段；请在客户端核对当前遭遇。" : "Stats, mechanics, drops, and teams on this card are historical fields; verify the current encounter in the client."}
+          </p>
 
           <Link
             href={`/${lang}/anomalies/${id}`}

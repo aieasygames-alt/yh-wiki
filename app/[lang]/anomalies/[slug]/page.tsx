@@ -35,15 +35,15 @@ export async function generateMetadata({ params }: { params: { lang: string; slu
     dropsEn: anomaly.dropsEn,
   });
   const extraContext = locale === "en"
-    ? `${anomaly.locationEn ? ` Found around ${anomaly.locationEn}.` : ""}${anomaly.dropsEn?.length ? ` Common drops include ${anomaly.dropsEn.slice(0, 2).join(", ")}.` : ""}`
+    ? " Historical location and drop fields are not current encounter verification."
     : locale === "tw"
-      ? `${anomaly.location ? ` 出現區域：${anomaly.location}。` : ""}${anomaly.drops?.length ? ` 常見掉落包含 ${anomaly.drops.slice(0, 2).join("、")}。` : ""}`
-      : `${anomaly.location ? ` 出现区域：${anomaly.location}。` : ""}${anomaly.drops?.length ? ` 常见掉落包含 ${anomaly.drops.slice(0, 2).join("、")}。` : ""}`;
+      ? " 歷史位置和掉落欄位不代表目前遭遇驗證。"
+      : " 历史位置和掉落字段不代表当前遭遇验证。";
   const fallbackContext = locale === "en"
-    ? ` This page helps you check weakness cues, combat mechanics, and preparation priorities before fighting.`
+    ? ` Verify all encounter fields in the target server's client before fighting or spending resources.`
     : locale === "tw"
-      ? ` 本頁也會幫你快速確認弱點提示、戰鬥機制與開打前的準備重點。`
-      : ` 本页也会帮你快速确认弱点提示、战斗机制与开打前的准备重点。`;
+      ? ` 挑戰或投入資源前，請在目標區服客戶端逐項核對。`
+      : ` 挑战或投入资源前，请在目标区服客户端逐项核对。`;
 
   return {
     title: copy.title,
@@ -97,11 +97,19 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
       <ArticleJsonLd
         title={anomalyName}
         description={isZhLocale(locale)
-          ? `${anomalyName}（${typeLabel}）— 出现位置、机制与应对策略`
-          : `${anomaly.nameEn} (${typeLabel}) — spawn locations, mechanics, and counter strategies`}
+          ? `${anomalyName}（${typeLabel}）— 历史位置、机制与策略字段`
+          : `${anomaly.nameEn} (${typeLabel}) — historical location, mechanic, and strategy fields`}
         url={`https://nteguide.com/${lang}/anomalies/${slug}`}
       />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {localizedText(
+            locale,
+            "历史异象资料复核：2026-09-29。本页的类型、属性、HP、位置、弱点、机制、策略和掉落均不验证当前版本；挑战、刷取或消费前，请以目标区服客户端和官方公告逐项核对。",
+            "Historical anomaly reference reviewed September 29, 2026. Type, attribute, HP, location, weakness, mechanics, strategy, and drops on this page do not verify the current version. Before fighting, farming, or spending, confirm each item in the target server's client and official notices.",
+            "歷史異象資料復核：2026-09-29。本頁的類型、屬性、HP、位置、弱點、機制、策略和掉落均不驗證目前版本；挑戰、刷取或消費前，請以目標區服客戶端和官方公告逐項核對。"
+          )}
+        </section>
         {/* Header */}
         <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-6 mb-8">
           <div className="flex items-start justify-between">
@@ -122,20 +130,20 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
 
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
           <h2 className="text-xl font-bold mb-3">
-            {localizedText(locale, "攻略概览", "Guide Overview")}
+            {localizedText(locale, "历史战斗字段概览", "Historical Combat Fields", "歷史戰鬥欄位概覽")}
           </h2>
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              `「${anomalyName}」属于${typeLabel}级异象。本页汇总它的出现位置、属性信息、弱点提示、战斗机制、掉落物和应对思路，适合在挑战前快速确认规避点与输出窗口。若页面中的位置或掉落仍显示为预发布资料，请以正式服更新后的数据状态提示为准。`,
-              `${anomalyName} is a ${typeLabel} anomaly. This guide summarizes its spawn location, attribute information, weakness cues, combat mechanics, drops, and counter strategy so you can review dodge timing and damage windows before the fight. If any field is marked as pre-release data, treat the live game update as the final source.`
+              `「${anomalyName}」的页面保存了${typeLabel}历史资料字段，包括记录位置、属性、弱点、机制、掉落与策略。它不确认当前遭遇状态或打法；挑战前请在客户端查看实际动作、数值和奖励。`,
+              `This page preserves historical ${typeLabel} fields for ${anomalyName}, including recorded location, attribute, weakness, mechanics, drops, and strategy. It does not confirm the current encounter or combat plan; inspect actual actions, values, and rewards in the client before fighting.`
             )}
           </p>
         </section>
 
         {/* Quick Stats */}
         <aside className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 mb-8">
-          <h2 className="text-lg font-bold mb-3">{t(locale, "anomalies.quickStats")}</h2>
+          <h2 className="text-lg font-bold mb-3">{localizedText(locale, "历史字段速览", "Historical Field Summary", "歷史欄位速覽")}</h2>
           <table className="w-full text-sm">
             <tbody>
               <InfoRow label={t(locale, "common.type")} value={typeLabel} />
@@ -150,7 +158,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Weakness */}
         {anomaly.weakness && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.weakness")}</h2>
+            <h2 className="text-xl font-bold mb-4">{localizedText(locale, "历史弱点字段", "Historical Weakness Field", "歷史弱點欄位")}</h2>
             <div className="rounded-lg border border-yellow-500/20 bg-yellow-500/5 p-5">
               <p className="text-gray-300">{weakness}</p>
             </div>
@@ -160,7 +168,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Mechanics */}
         {anomaly.mechanics && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.mechanics")}</h2>
+            <h2 className="text-xl font-bold mb-4">{localizedText(locale, "历史机制字段", "Historical Mechanic Field", "歷史機制欄位")}</h2>
             <div className="rounded-lg border border-gray-800 bg-gray-900/50 p-5">
               <p className="text-gray-300">{mechanics}</p>
             </div>
@@ -170,7 +178,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Strategy */}
         {anomaly.strategy && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.strategy")}</h2>
+            <h2 className="text-xl font-bold mb-4">{localizedText(locale, "历史策略字段", "Historical Strategy Field", "歷史策略欄位")}</h2>
             <div className="rounded-lg border border-primary-500/20 bg-primary-500/5 p-5">
               <p className="text-gray-300">{strategy}</p>
             </div>
@@ -180,7 +188,7 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
         {/* Drops */}
         {drops && drops.length > 0 && (
           <section className="mb-8">
-            <h2 className="text-xl font-bold mb-4">{t(locale, "anomalies.drops")}</h2>
+            <h2 className="text-xl font-bold mb-4">{localizedText(locale, "历史掉落字段", "Historical Drop Fields", "歷史掉落欄位")}</h2>
             <div className="flex flex-wrap gap-2">
               {drops.map((drop, i) => (
                 <span key={i} className="text-sm px-3 py-1 rounded-full border border-gray-700 bg-gray-800/50 text-gray-300">

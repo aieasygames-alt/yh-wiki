@@ -44,9 +44,9 @@ export async function generateMetadata({
   const title = localizedText(locale, guide.title, guide.titleEn, guide.titleTw);
   const description = localizedText(
     locale,
-    "异环 Boss 图鉴入口：汇总世界 Boss、精英异象与普通异象数量，按类型查看弱点、掉落、机制说明和对应打法攻略。",
-    "NTE boss index: browse world bosses, elite anomalies, and normal anomalies by type, with weakness notes, drop rewards, mechanics, and strategy links.",
-    "異環 Boss 圖鑑入口：整理世界 Boss、精英異象與普通異象數量，依類型查看弱點、掉落、機制說明與打法攻略。"
+    "异环历史 Boss 与异象索引：查阅记录中的类型、弱点、掉落、机制和策略字段；当前遭遇、奖励和可挑战状态请以客户端为准。",
+    "Historical NTE boss and anomaly index with recorded type, weakness, drop, mechanic, and strategy fields. Verify current encounters, rewards, and availability in the client.",
+    "異環歷史 Boss 與異象索引：查閱記錄中的類型、弱點、掉落、機制和策略欄位；目前遭遇、獎勵和可挑戰狀態請以客戶端為準。"
   );
   const suffix = localizedText(locale, "异环攻略", "Neverness to Everness Guide");
   return {
@@ -121,6 +121,11 @@ export default async function BossGuidePage({
         ]}
       />
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <section className="mb-6 rounded-xl border border-amber-500/30 bg-amber-500/10 p-5 text-sm leading-6 text-amber-100">
+          {isZh
+            ? "历史 Boss 与异象资料复核：2026-09-29。本页的目标数量、属性、HP、位置、弱点、机制、策略、掉落、难度和队伍示例均不验证当前版本；请以目标区服客户端和官方公告为准。"
+            : "Historical boss and anomaly reference reviewed September 29, 2026. Target counts, attributes, HP, locations, weaknesses, mechanics, strategies, drops, difficulty, and team examples on this page do not verify the current version; use the target server's client and official notices as the source of truth."}
+        </section>
         {/* Hero */}
         <div className="relative mb-8 rounded-2xl border border-red-500/20 bg-gradient-to-br from-red-900/20 via-gray-900/30 to-orange-900/10 p-8 overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-red-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
@@ -135,15 +140,15 @@ export default async function BossGuidePage({
             <div className="flex flex-wrap gap-3 mt-4">
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700/30">
                 <span className="text-lg font-bold text-red-400">{bosses.length}</span>
-                <span className="text-xs text-gray-400">{isZh ? "Boss" : "Bosses"}</span>
+                <span className="text-xs text-gray-400">{isZh ? "历史 Boss 字段" : "Historical boss fields"}</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700/30">
                 <span className="text-lg font-bold text-yellow-400">{elites.length}</span>
-                <span className="text-xs text-gray-400">{isZh ? "精英" : "Elite"}</span>
+                <span className="text-xs text-gray-400">{isZh ? "历史精英字段" : "Historical elite fields"}</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800/50 border border-gray-700/30">
                 <span className="text-lg font-bold text-blue-400">{normals.length}</span>
-                <span className="text-xs text-gray-400">{isZh ? "普通" : "Normal"}</span>
+                <span className="text-xs text-gray-400">{isZh ? "历史普通字段" : "Historical normal fields"}</span>
               </div>
             </div>
           </div>
@@ -159,7 +164,7 @@ export default async function BossGuidePage({
       {/* Boss Directory */}
       <section className="max-w-4xl mx-auto px-4 pb-12">
         <h2 className="text-xl font-bold mb-6">
-          {t(locale, "bossDirectory.title")}
+          {isZh ? "历史 Boss 与异象字段" : "Historical Boss and Anomaly Fields"}
         </h2>
 
         {/* Boss Anomalies */}

@@ -12,11 +12,11 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环材料列表：获取方式、用途和角色养成素材", "NTE Materials List: Sources, Uses & Character Upgrade Items");
+  const title = localizedText(locale, "异环历史材料索引：来源字段与角色关联", "NTE Historical Materials: Source Fields & Character Associations");
   const description = localizedText(
     locale,
-    "异环全材料数据库，整理猎手指南、突破素材、Boss掉落、弧盘经验、货币等材料的获取方式、稀有度和使用角色，适合配合养成计算器规划刷取路线。",
-    "Complete Neverness to Everness material database covering hunter guides, ascension items, boss drops, Arc EXP, currencies, sources, rarity, and character usage for farming plans."
+    "异环历史材料索引，记录猎手指南、突破素材、Boss掉落、弧盘经验与货币等字段；当前来源、掉落、成本和角色用途请以目标区服客户端为准。",
+    "Historical NTE material index with recorded hunter-guide, ascension, boss-drop, Arc EXP, and currency fields. Verify current sources, drops, costs, and character uses in the target server's client."
   );
   return {
     title,
@@ -57,13 +57,13 @@ export default async function MaterialsPage({
         <h1 className="text-3xl font-bold mb-8">{t(locale, "materials.title")}</h1>
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/30 p-5">
           <h2 className="text-lg font-bold mb-3">
-            {localizedText(locale, "材料数据库说明", "Material Database Overview")}
+            {localizedText(locale, "历史材料索引说明", "Historical Material Index Overview")}
           </h2>
           <p className="text-sm text-gray-300 leading-relaxed">
             {localizedText(
               locale,
-              "这里汇总异环角色升级、技能培养、弧盘养成和货币兑换相关材料。你可以按材料类型与稀有度筛选，进入详情页查看来源、用途和关联角色，再结合升级计算器估算总需求量。",
-              "This page collects materials used for character leveling, skill upgrades, Arc progression, and currencies in Neverness to Everness. Filter by type or rarity, open detail pages for sources and character usage, then combine them with the leveling calculator to estimate total demand."
+              "这里汇总站内记录的角色、技能、弧盘与货币历史材料字段。可按类型与稀有度查找，但来源、用途、关联角色和计算器结果均不验证当前版本。",
+              "This page collects site-recorded historical material fields for characters, skills, Arcs, and currencies. You can search by type and rarity, but sources, uses, character associations, and calculator results do not verify the current version."
             )}
           </p>
         </section>
@@ -74,8 +74,8 @@ export default async function MaterialsPage({
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {localizedText(
               locale,
-              "先按材料类型和稀有度筛掉无关项，再进入详情页确认来源、用途和关联角色。这个总表适合做养成规划和刷取排期，不适合只看名字就判断材料是否该囤。",
-              "Filter by material type and rarity first, then open the detail page for source, usage, and character linkage. This hub is best for planning upgrades and farming routes, not deciding what to stockpile from names alone."
+              "用本页查找历史字段后，请在客户端确认目标角色、材料来源、掉落、活动、库存和等级上限。它不能用于决定当前刷取、囤货或消费。",
+              "After finding historical fields here, confirm target characters, material sources, drops, events, inventory, and level caps in the client. It cannot determine current farming, stockpiling, or spending."
             )}
           </p>
         </section>
@@ -85,9 +85,9 @@ export default async function MaterialsPage({
               {localizedText(locale, "刷材料前先看什么", "What should you check before farming materials?")}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{localizedText(locale, "先确认你要养的是角色等级、技能、弧盘还是货币链路，不同目标的材料优先级完全不同。", "Decide whether you are farming for levels, skills, Arcs, or currencies because each goal changes material priority.")}</li>
-              <li>{localizedText(locale, "尽量优先刷能被多个角色共用的材料，再补单角色专属缺口。", "Prioritize shared materials that support several characters before chasing one unit's niche bottleneck.")}</li>
-              <li>{localizedText(locale, "如果准备配合计算器使用，先确认当前库存与目标阶段，避免重复刷取。", "If you are pairing this page with a calculator, confirm your current inventory and target breakpoint first to avoid overfarming.")}</li>
+              <li>{localizedText(locale, "客户端中目标材料是否仍存在、可获得，以及当前来源与开放条件。", "Whether the target material still exists and is obtainable in the client, including its current source and unlock condition.")}</li>
+              <li>{localizedText(locale, "目标角色当前是否使用该材料，以及等级、技能和装备的真实需求。", "Whether the target character currently uses it, and the actual level, skill, and equipment requirements.")}</li>
+              <li>{localizedText(locale, "当前库存、活动、商店、体力成本与掉落限制。", "Current inventory, events, shops, stamina costs, and drop restrictions.")}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -95,9 +95,9 @@ export default async function MaterialsPage({
               {localizedText(locale, "常见误区", "Common mistakes")}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{localizedText(locale, "只看材料稀有度，不看真实消耗量和角色覆盖范围。", "Judging materials only by rarity instead of actual demand and roster coverage.")}</li>
-              <li>{localizedText(locale, "把短期突破需求和长期毕业需求混在一起，导致刷取节奏失衡。", "Mixing short-term ascension needs with long-term endgame goals and breaking your farming rhythm.")}</li>
-              <li>{localizedText(locale, "不结合角色 Build、配队和升级计算器，结果材料分配效率偏低。", "Skipping build, team, and calculator context and ending up with weaker material allocation decisions.")}</li>
+              <li>{localizedText(locale, "把历史来源或角色关联字段当作当前刷取结论。", "Treating historical source or character-association fields as current farming conclusions.")}</li>
+              <li>{localizedText(locale, "把本地计算器估算当作游戏内真实库存或成本。", "Treating local calculator estimates as real in-game inventory or costs.")}</li>
+              <li>{localizedText(locale, "未核对客户端和官方公告就刷取、囤货或消费。", "Farming, stockpiling, or spending without checking the client and official notices.")}</li>
             </ul>
           </div>
         </section>
