@@ -743,8 +743,8 @@
       {
         "question": "How to get Lacrimosa in Neverness to Everness?",
         "questionZh": "如何获得安魂曲？",
-        "answer": "Lacrimosa can be obtained through the gacha system in Neverness to Everness. As an S-rank character, they have a lower drop rate but can be guaranteed through the pity system. Check our gacha simulator to test your luck!",
-        "answerZh": "安魂曲可以通过异环的祈愿系统获得。作为S级角色，掉落率较低，但可以通过保底系统确保获取。使用我们的抽卡模拟器测试运气！"
+        "answer": "Lacrimosa's Version 1.1 featured banner is historical. Verify the in-game banner countdown and official notices before treating her as currently obtainable; this site does not assume a rerun without confirmation.",
+        "answerZh": "安魂曲的1.1限定卡池已是历史记录。是否可获取请以游戏内卡池倒计时和官方公告为准；本站不会在未确认复刻前将她视为当前可抽角色。"
       },
       {
         "question": "What is the best team for Lacrimosa?",
@@ -8433,8 +8433,8 @@
       {
         "question": "How to get Chaos in Neverness to Everness?",
         "questionZh": "如何获得卡厄斯？",
-        "answer": "Chaos can be obtained through the limited banner gacha system in Neverness to Everness Version 1.1 Phase 2, scheduled for June 24 – July 8, 2026. As a limited S-rank character, they are only available during their featured banner period. Check our banner schedule before pulling.",
-        "answerZh": "卡厄斯可以通过异环1.1下半限定祈愿获得，预计时间为 2026年6月24日 至 7月8日。作为限定S级角色，仅在活动祈愿期间开放获取。抽取前建议先查看卡池时间表。"
+        "answer": "Chaos's Version 1.1 Phase 2 limited schedule is historical. Check the in-game banner countdown and official notices for current availability; do not use the 2026 June-July schedule for a current pull decision.",
+        "answerZh": "卡厄斯的1.1下半限定排期已是历史记录。当前是否可获取请以游戏内卡池倒计时和官方公告为准，不要用2026年6至7月排期做当前抽取决定。"
       },
       {
         "question": "What is the best team for Chaos?",
@@ -8716,8 +8716,8 @@
       {
         "question": "How to get Zhenhong in Neverness to Everness?",
         "questionZh": "如何获得真红？",
-        "answer": "Zhenhong is available through the Version 1.2 Phase 2 limited banner. She is a guaranteed featured character with no 50/50 system — your pity pull guarantees Zhenhong.",
-        "answerZh": "真红可通过1.2版本下半限定卡池获得。限定池不设50/50机制，保底必定获得当期UP角色。"
+        "answer": "Zhenhong's Version 1.2 Phase 2 banner is historical. Verify the in-game banner countdown and official notices before treating her as currently obtainable; pity rules apply only to the banner currently shown in your client.",
+        "answerZh": "真红的1.2下半限定卡池已是历史记录。是否可获取请以游戏内卡池倒计时和官方公告为准；保底规则只应按客户端当前显示的卡池判断。"
       },
       {
         "question": "What is the best team for Zhenhong?",
@@ -8888,14 +8888,14 @@
       {
         "question": "Is Canhong good in Neverness to Everness?",
         "questionZh": "残虹值得培养吗？",
-        "answer": "Canhong is an upcoming S-rank limited character with a unique Turbid Burn DOT mechanic. Her Curse + Dark dual-attribute kit is expected to enable new team compositions.",
-        "answerZh": "残虹是即将上线的S级限定角色，拥有独特的浊燃持续伤害机制。咒+暗双属性机制预计将开启新的配队思路。"
+        "answer": "Canhong is kept as a watchlist entry. Treat kit, release, and team claims as unconfirmed until an official preview, maintenance notice, or live in-game data verifies them.",
+        "answerZh": "残虹目前仅作为观察条目保留。技能、上线和配队信息在官方前瞻、维护公告或游戏内实装验证前均应视为未确认。"
       },
       {
         "question": "When will Canhong be released?",
         "questionZh": "残虹什么时候上线？",
-        "answer": "Canhong is expected to be released in Version 1.3, following Zhenhong's banner in Version 1.2.",
-        "answerZh": "残虹预计在1.3版本上线，时间在1.2版本真红卡池之后。"
+        "answer": "This site does not confirm a Canhong release version or banner order without an official notice. Check the in-game schedule and official preview when they are published.",
+        "answerZh": "本站不会在官方公告前确认残虹的上线版本或卡池顺序。请在游戏内排期和官方前瞻发布后再核对。"
       }
     ],
     "relatedCharacters": [

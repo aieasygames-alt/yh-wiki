@@ -8,6 +8,7 @@ import operations from "../../data/version-operations.json";
 import changelogsData from "../../data/changelog.json";
 import freshnessReport from "../../public/content-freshness.json";
 import redeemCodeDataset from "../../data/redeem-codes.json";
+import charactersData from "../../data/characters.json";
 
 describe("compares.json — nte-vs-ananta", () => {
   const ananta = comparesData.find((c) => c.id === "nte-vs-ananta");
@@ -113,6 +114,14 @@ describe("late Version 1.3 player-decision content", () => {
   it("uses the reviewed date as a boundary for live decision data", () => {
     expect(operations.reviewedAt).toBe("2026-09-29");
     expect(changelogsData.find((changelog) => changelog.version === operations.currentVersion)?.verificationStatus).toBe("live");
+  });
+
+  it("keeps historical character banners and unconfirmed releases out of current pull advice", () => {
+    const faqAnswer = (id: string) => charactersData.find((character) => character.id === id)?.faq?.find((faq) => /get|获得|上线/i.test(`${faq.question} ${faq.questionZh}`))?.answer;
+    expect(faqAnswer("lacrimosa")).toContain("historical");
+    expect(faqAnswer("chaos")).toContain("historical");
+    expect(faqAnswer("zhenhong")).toContain("historical");
+    expect(faqAnswer("canhong")).toContain("does not confirm");
   });
 
   it("publishes a risk-ranked content review queue", () => {
