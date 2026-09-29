@@ -37,23 +37,23 @@ function bannerCta(slug: string, locale: Locale) {
   const isZh = isZhLocale(locale);
   if (slug === "lacrimosa") {
     return {
-      eyebrow: isZh ? "当前限定卡池" : "Current Limited Banner",
-      title: isZh ? "安魂曲UP：2026.06.03 - 2026.06.24" : "Lacrimosa Rate-Up: 2026-06-03 to 2026-06-24",
+      eyebrow: isZh ? "历史限定卡池" : "Historical Limited Banner",
+      title: isZh ? "安魂曲UP（历史）：2026.06.03 - 2026.06.24" : "Lacrimosa Rate-Up (Historical): 2026-06-03 to 2026-06-24",
       description: isZh
-        ? "适合缺混沌范围输出、想组安魂曲配队或需要1.1主C的玩家。先看卡池时间、专武与配队再决定是否抽。"
-        : "Best for players who need Chaos AoE DPS, a Lacrimosa team core, or a version 1.1 main DPS. Check the schedule, weapon, and team fit before pulling.",
-      primary: isZh ? "看卡池时间表" : "Check Banner Schedule",
+        ? "这是1.1阶段的历史卡池记录，用于回顾角色定位与配队。当前是否可获取请以游戏内卡池倒计时和官方公告为准。"
+        : "This is a Version 1.1 historical banner record for roster and team context. Verify the in-game countdown and official notices for current availability.",
+      primary: isZh ? "核对当前卡池" : "Verify Current Banners",
       secondary: isZh ? "看抽卡机制" : "Open Gacha Guide",
     };
   }
   if (slug === "chaos") {
     return {
-      eyebrow: isZh ? "下期限定卡池" : "Next Limited Banner",
-      title: isZh ? "卡厄斯预热：2026.06.24 - 2026.07.08" : "Chaos Preview: 2026-06-24 to 2026-07-08",
+      eyebrow: isZh ? "历史限定卡池" : "Historical Limited Banner",
+      title: isZh ? "卡厄斯历史排期：2026.06.24 - 2026.07.08" : "Chaos Historical Schedule: 2026-06-24 to 2026-07-08",
       description: isZh
-        ? "卡厄斯是1.1下半限定角色。先看卡池时间、技能方向、专属弧盘和配队需求，再规划抽数。"
-        : "Chaos is the version 1.1 Phase 2 limited character. Use this page to check the schedule, kit direction, signature Arc, and team fit before planning pulls.",
-      primary: isZh ? "看卡池时间表" : "Check Banner Schedule",
+        ? "这是1.1下半的历史排期，仅用于角色和版本回顾。不要用它规划当前抽数；请先核对游戏内卡池倒计时。"
+        : "This is a Version 1.1 Phase 2 historical schedule for roster context. Do not use it for current pull planning; verify the in-game banner countdown first.",
+      primary: isZh ? "核对当前卡池" : "Verify Current Banners",
       secondary: isZh ? "打开配队工具" : "Open Team Builder",
     };
   }
@@ -156,17 +156,17 @@ export async function generateMetadata({
   const bannerSeo =
     slug === "lacrimosa"
       ? {
-          titleZh: `${name}攻略：配队/材料/专武与1.1卡池抽取建议 | NTE`,
-          titleEn: "Lacrimosa Build, Team, Materials & 1.1 Banner Guide | NTE",
-          descZh: `${lang === "tw" ? "異環" : "异环"}安魂曲攻略：1.1当前卡池时间、最佳配队、专武最后一朵玫瑰、材料、技能机制与是否值得抽。`,
-          descEn: "NTE Lacrimosa guide for version 1.1: current banner dates, best build, teams, materials, The Last Rose Arc, kit notes, and pull advice.",
+          titleZh: `${name}攻略：配队、材料、专武与1.1历史卡池参考 | NTE`,
+          titleEn: "Lacrimosa Build, Team, Materials & 1.1 Banner History | NTE",
+          descZh: `${lang === "tw" ? "異環" : "异环"}安魂曲攻略：1.1历史卡池时间、最佳配队、专武最后一朵玫瑰、材料与技能机制。当前可获取状态以游戏内倒计时为准。`,
+          descEn: "NTE Lacrimosa guide with Version 1.1 banner history, best build, teams, materials, The Last Rose Arc, and kit notes. Verify current availability in-game.",
         }
       : slug === "chaos"
         ? {
-            titleZh: `${name}预热攻略：技能/配队/CV与1.1下半卡池 | NTE`,
-            titleEn: "Chaos Preview Guide — Kit, Teams, Voice Actor & 1.1 Banner | NTE",
-            descZh: `${lang === "tw" ? "異環" : "异环"}卡厄斯预热攻略：1.1下半卡池时间、技能要点、相属性配队、CV与抽取规划。`,
-            descEn: "NTE Chaos preview guide: version 1.1 Phase 2 banner dates, kit notes, Lakshana teams, voice actor queries, and pull planning.",
+            titleZh: `${name}攻略：技能、配队、CV与1.1下半历史卡池 | NTE`,
+            titleEn: "Chaos Guide — Kit, Teams, Voice Actor & 1.1 Banner History | NTE",
+            descZh: `${lang === "tw" ? "異環" : "异环"}卡厄斯攻略：1.1下半历史卡池时间、技能要点、相属性配队与CV。当前卡池请以游戏内倒计时为准。`,
+            descEn: "NTE Chaos guide with Version 1.1 Phase 2 banner history, kit notes, Lakshana teams, and voice actor details. Verify current banners in-game.",
           }
         : null;
   const enSeo = !isZh ? EN_CHARACTER_SEO[slug] : undefined;
