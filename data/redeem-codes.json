@@ -1,4 +1,6 @@
-[
+{
+  "reviewedAt": "2026-09-29",
+  "codes": [
   {
     "code": "YHBILIBILI0423",
     "reward": "平台专属礼包",
@@ -243,7 +245,7 @@
     "code": "999NIGHTS",
     "reward": "环石x100、资深猎人攻略x5、无彩染剂x5、甲硬币x6000",
     "rewardEn": "Annulith x100, Senior Hunter Guide x5, Colorless Dye x5, Beetle Coin x6,000",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "livestream",
     "region": "global",
@@ -253,7 +255,7 @@
     "code": "IROI0729",
     "reward": "环石x100、特级猎人攻略x2、混沌染剂x2、甲硬币x12000",
     "rewardEn": "Annulith x100, Elite Hunter Guide x2, Chaotic Dye x2, Beetle Coin x12,000",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "livestream",
     "region": "global",
@@ -263,10 +265,11 @@
     "code": "SHINKU0708",
     "reward": "环石x100、新锐猎人攻略x5、淡色染剂x5、甲硬币x4000",
     "rewardEn": "Annulith x100, Rising Hunter Guide x5, Light Dye x5, Beetle Coin x4,000",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "livestream",
     "region": "global",
     "revealedAt": "2026-06-27"
   }
-]
+  ]
+}

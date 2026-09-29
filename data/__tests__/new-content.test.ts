@@ -7,6 +7,7 @@ import mapData from "../../data/map-markers.json";
 import operations from "../../data/version-operations.json";
 import changelogsData from "../../data/changelog.json";
 import freshnessReport from "../../public/content-freshness.json";
+import redeemCodeDataset from "../../data/redeem-codes.json";
 
 describe("compares.json — nte-vs-ananta", () => {
   const ananta = comparesData.find((c) => c.id === "nte-vs-ananta");
@@ -100,6 +101,13 @@ describe("late Version 1.3 player-decision content", () => {
     const live = changelogsData.find((changelog) => changelog.version === operations.currentVersion);
     expect(live?.verificationStatus).toBe("live");
     expect(changelogsData.some((changelog) => changelog.verificationStatus === "historical")).toBe(true);
+  });
+
+  it("keeps unverified livestream codes out of the active resource pool", () => {
+    expect(redeemCodeDataset.reviewedAt).toBe("2026-09-29");
+    const staleLivestreamCodes = ["999NIGHTS", "IROI0729", "SHINKU0708"];
+    expect(redeemCodeDataset.codes.filter((code) => staleLivestreamCodes.includes(code.code)).every((code) => code.status === "unknown")).toBe(true);
+    expect(redeemCodeDataset.codes.filter((code) => code.status === "active").every((code) => !staleLivestreamCodes.includes(code.code))).toBe(true);
   });
 
   it("publishes a risk-ranked content review queue", () => {

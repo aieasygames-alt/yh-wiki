@@ -1,4 +1,5 @@
 import { t, Locale, hreflangAlternates } from "../../../lib/i18n";
+import redeemCodesData from "../../../data/redeem-codes.json";
 
 export async function generateMetadata({
   params,
@@ -33,6 +34,8 @@ export default async function RedeemCodesLayout({
   const { lang } = await params;
   const isZh = lang === "zh";
   const isTw = lang === "tw";
+  const dataset = redeemCodesData as { reviewedAt: string; codes: Array<{ code: string; status: string }> };
+  const activeCodes = dataset.codes.filter((code) => code.status === "active").map((code) => code.code).join(", ");
 
   const faqItems = isTw
     ? [
@@ -41,16 +44,16 @@ export default async function RedeemCodesLayout({
           answer: "進入遊戲後，點擊右上角頭像 → 設定 → 兌換碼輸入框，輸入有效的兌換碼即可領取獎勵。建議第一時間兌換，避免過期。",
         },
         {
-          question: "異環1.1前瞻直播兌換碼有哪些？",
-          answer: "1.1版本前瞻直播（5月23日）公布了3個兌換碼：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至5月25日23:59。",
+          question: "哪些異環兌換碼目前標記為有效？",
+          answer: `本頁最後複核於 ${dataset.reviewedAt}。目前標記為有效的代碼：${activeCodes || "暫無"}。直播碼與待複核碼不會被當作可用碼。`,
         },
         {
-          question: "異環公測兌換碼還能用嗎？",
-          answer: "公測期兌換碼（NTENOWTOENJOY、NTENANALLYGO、NTE0429等）已全部過期。請關注後續直播和活動獲取新碼。",
+          question: "異環直播碼還能用嗎？",
+          answer: "直播碼通常時效很短。只有本頁標記為有效且有明確來源的碼才建議嘗試，並應以遊戲內結果為準。",
         },
         {
           question: "異環新兌換碼在哪裡獲取？",
-          answer: "新兌換碼通常在官方前瞻直播中公布，也會透過社群媒體活動和合作管道發放。本頁面會第一時間更新所有有效兌換碼。",
+          answer: "新兌換碼通常在官方公告、前瞻直播或合作活動中公布。本頁提供最後複核日期與狀態，但不承諾即時可用性。",
         },
       ]
     : isZh
@@ -60,16 +63,16 @@ export default async function RedeemCodesLayout({
             answer: "进入游戏后，点击右上角头像 → 设置 → 兑换码输入框，输入有效的兑换码即可领取奖励。建议第一时间兑换，避免过期。",
           },
           {
-            question: "异环1.1前瞻直播兑换码有哪些？",
-            answer: "1.1版本前瞻直播（5月23日）公布了3个兑换码：DREAMWALK0603、TOMATO100、RACENOLIMIT，有效期至5月25日23:59。",
+            question: "哪些异环兑换码目前标记为有效？",
+            answer: `本页最后复核于 ${dataset.reviewedAt}。目前标记为有效的代码：${activeCodes || "暂无"}。直播码与待复核码不会被当作可用码。`,
           },
           {
-            question: "异环公测兑换码还能用吗？",
-            answer: "公测期兑换码（NTENOWTOENJOY、NTENANALLYGO、NTE0429等）已全部过期。请关注后续直播和活动获取新码。",
+            question: "异环直播兑换码还能用吗？",
+            answer: "直播码通常时效很短。只有本页标记为有效且有明确来源的码才建议尝试，并应以游戏内结果为准。",
           },
           {
             question: "异环新兑换码在哪里获取？",
-            answer: "新兑换码通常在官方前瞻直播中公布，也会通过社交媒体活动和合作渠道发放。本页面会第一时间更新所有有效兑换码。",
+            answer: "新兑换码通常在官方公告、前瞻直播或合作活动中公布。本页提供最后复核日期与状态，但不承诺实时可用性。",
           },
         ]
       : [
@@ -78,16 +81,16 @@ export default async function RedeemCodesLayout({
             answer: "Launch the game, tap your profile icon (top-right) → Settings → enter the code in the Redeem Code field. Redeem immediately to avoid expiration.",
           },
           {
-            question: "What are the latest NTE redeem codes from the 1.1 livestream?",
-            answer: "The 1.1 livestream (May 23) released 3 codes: DREAMWALK0603, TOMATO100, and RACENOLIMIT, valid until May 25 23:59.",
+            question: "Which NTE redeem codes are currently marked active?",
+            answer: `This page was last reviewed on ${dataset.reviewedAt}. Codes currently marked active: ${activeCodes || "none"}. Livestream and watchlist codes are not treated as usable.`,
           },
           {
             question: "Do NTE redeem codes expire?",
-            answer: "Yes, all redeem codes have expiration dates. Launch-era codes have expired. New codes are released during livestreams and events.",
+            answer: "Yes. Livestream codes often expire quickly. Treat a code as usable only when it is marked active with a clear source, then confirm the reward in-game.",
           },
           {
             question: "Where do I find new NTE redeem codes?",
-            answer: "New codes are announced during official livestreams, social media events, and partner promotions. This page is updated in real-time.",
+            answer: "New codes are announced through official notices, livestreams, social events, and partner promotions. This page shows its review date and does not promise real-time availability.",
           },
         ];
 

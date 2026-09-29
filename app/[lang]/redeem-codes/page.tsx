@@ -44,16 +44,20 @@ export default async function RedeemCodesPage({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const codes = redeemCodesData as Array<{
-    code: string;
-    reward: string;
-    rewardEn: string;
-    status: "active" | "expired" | "unknown";
-    expiresAt: string;
-    source: string;
-    region: "cn" | "global";
-    revealedAt?: string;
-  }>;
+  const redeemCodeDataset = redeemCodesData as {
+    reviewedAt: string;
+    codes: Array<{
+      code: string;
+      reward: string;
+      rewardEn: string;
+      status: "active" | "expired" | "unknown";
+      expiresAt: string;
+      source: string;
+      region: "cn" | "global";
+      revealedAt?: string;
+    }>;
+  };
+  const codes = redeemCodeDataset.codes;
   const topChars = (charactersData as Array<{
     id: string;
     name: string;
@@ -104,8 +108,8 @@ export default async function RedeemCodesPage({
       <div className="max-w-4xl mx-auto px-4 pt-2 pb-1">
         <p className="text-xs text-gray-500">
           {isZhLocale(locale)
-            ? (locale === "tw" ? "最後檢查：2026年9月13日" : "最后检查：2026年9月13日")
-            : "Last checked: August 10, 2026"}
+            ? (locale === "tw" ? `最後複核：${redeemCodeDataset.reviewedAt}` : `最后复核：${redeemCodeDataset.reviewedAt}`)
+            : `Last reviewed: ${redeemCodeDataset.reviewedAt}`}
         </p>
       </div>
       <section className="max-w-4xl mx-auto px-4 pb-4">
@@ -118,9 +122,9 @@ export default async function RedeemCodesPage({
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(locale)
               ? (locale === "tw"
-                ? "前瞻直播碼通常有效期很短，建議優先兌換最近公開的新碼，再回頭處理常駐碼。若某個1.3前瞻碼顯示失效，先確認區服、大小寫和是否超過直播碼期限。"
-                : "前瞻直播码通常有效期很短，建议优先兑换最近公开的新码，再回头处理常驻码。若某个1.3前瞻码显示失效，先确认区服、大小写和是否超过直播码期限。")
-              : "Livestream codes usually expire quickly. Redeem recently revealed 1.3 codes first, then claim permanent codes. If a code fails, check region, capitalization, and whether the livestream window has already closed."}
+                ? "前瞻直播碼通常有效期很短；只有標記為有效且來源明確的碼才建議嘗試。待複核或失效碼僅保留作識別用途。"
+                : "前瞻直播码通常有效期很短；只有标记为有效且来源明确的码才建议尝试。待复核或失效码仅保留作识别用途。")
+              : "Livestream codes usually expire quickly. Only codes marked active with a clear source are recommended; watchlist and expired codes remain for identification only."}
           </p>
         </div>
       </section>

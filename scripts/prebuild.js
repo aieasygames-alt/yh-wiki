@@ -277,7 +277,8 @@ function generateApiJson() {
   fs.writeFileSync(path.join(apiDir, "characters.json"), JSON.stringify(characters), "utf-8");
   console.log(`[api] characters.json: ${characters.length} items`);
 
-  const codes = load("redeem-codes.json").map(c => ({
+  const redeemCodes = load("redeem-codes.json");
+  const codes = (redeemCodes.codes || redeemCodes).map(c => ({
     code: c.code, reward: c.rewardEn || c.reward, rewardCn: c.reward,
     expired: c.status === "expired", expiresAt: c.expiresAt || null, region: c.region || "global",
   }));
@@ -384,7 +385,8 @@ function generateLlmsFull() {
   lines.push("");
 
   // Redeem codes
-  const codes = load("redeem-codes.json").filter(c => c.status !== "expired");
+  const redeemCodes = load("redeem-codes.json");
+  const codes = (redeemCodes.codes || redeemCodes).filter(c => c.status === "active");
   lines.push("## Active Redeem Codes (" + codes.length + ")");
   for (const c of codes) {
     lines.push(`- ${c.code}: ${c.rewardEn || c.reward}`);

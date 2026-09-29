@@ -85,8 +85,8 @@ export default async function EventsPage({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
 
-  const redeemCodes = redeemCodesData as { code: string; reward: string; rewardEn: string; status: string; expiresAt: string; region: string }[];
-  const activeCodes = redeemCodes.filter((c) => c.status !== "expired");
+  const redeemCodeDataset = redeemCodesData as { codes: { code: string; reward: string; rewardEn: string; status: string; expiresAt: string; region: string }[] };
+  const activeCodes = redeemCodeDataset.codes.filter((c) => c.status === "active");
 
   return (
     <>

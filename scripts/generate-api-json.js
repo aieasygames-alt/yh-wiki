@@ -37,7 +37,8 @@ const charactersApi = characters.map((c) => ({
 writeJSON("public/api/characters.json", charactersApi);
 
 // --- Redeem Codes API ---
-const codes = readJSON("data/redeem-codes.json");
+const redeemCodeDataset = readJSON("data/redeem-codes.json");
+const codes = redeemCodeDataset.codes || redeemCodeDataset;
 const codesApi = codes.map((c) => ({
   code: c.code,
   reward: c.rewardEn || c.reward,
