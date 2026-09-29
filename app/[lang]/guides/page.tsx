@@ -35,18 +35,21 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const guides = getAllGuides();
   const categories = getGuideCategories(locale);
+  const title = isZhLocale(locale)
+    ? (locale === "tw" ? "異環攻略歷史資料庫" : "异环攻略历史资料库")
+    : "NTE Guide Archive | Historical References";
   const description = locale === "tw"
-    ? `異環攻略合集收錄 ${guides.length} 篇文章與 ${categories.length} 個分類，涵蓋新手開荒、配隊養成、探索解謎、Boss 機制、版本活動與資源規劃。`
+    ? `異環攻略歷史資料庫收錄 ${guides.length} 篇文章與 ${categories.length} 個分類，包含新手、隊伍、探索、Boss、版本與資源記錄。現行規則請以目標區服客戶端與官方公告為準。`
     : locale === "zh"
-    ? `异环攻略合集，收录 ${guides.length} 篇攻略与 ${categories.length} 个分类，覆盖新手开荒、配队养成、探索解谜、Boss 机制与版本重点内容。`
-    : `Browse ${guides.length} Neverness to Everness guides across ${categories.length} categories, covering beginner progression, team building, exploration, boss mechanics, and current version priorities.`;
+    ? `异环攻略历史资料库收录 ${guides.length} 篇文章与 ${categories.length} 个分类，包含新手、队伍、探索、Boss、版本与资源记录。现行规则请以目标区服客户端与官方公告为准。`
+    : `Browse ${guides.length} historical NTE guide references across ${categories.length} categories covering beginner, team, exploration, boss, version, and resource records. Verify live rules in the target server's client and official notices.`;
 
   return {
-    title: t(locale, "guides.title"),
+    title,
     description,
     alternates: hreflangAlternates("guides", lang),
     openGraph: {
-      title: t(locale, "guides.title"),
+      title,
       description,
       type: "website",
     },
@@ -89,11 +92,17 @@ export default async function GuidesListPage({
         <div className="relative mb-10 rounded-2xl border border-primary-500/20 bg-gradient-to-br from-primary-900/20 via-gray-900/30 to-purple-900/10 p-8 overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-primary-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
           <div className="relative">
-            <h1 className="text-3xl md:text-4xl font-bold mb-3">{t(locale, "guides.title")}</h1>
-            <p className="text-gray-400 text-lg mb-6 max-w-2xl">{t(locale, "guides.description")}</p>
+            <h1 className="text-3xl md:text-4xl font-bold mb-3">
+              {isZhLocale(locale) ? (locale === "tw" ? "異環攻略歷史資料庫" : "异环攻略历史资料库") : "NTE Guide Archive"}
+            </h1>
+            <p className="text-gray-400 text-lg mb-6 max-w-2xl">
+              {isZhLocale(locale)
+                ? (locale === "tw" ? "查閱站內收錄的新手、隊伍、探索、Boss、版本與資源歷史資料；現行規則請先在客戶端與官方公告核對。" : "查阅站内收录的新手、队伍、探索、Boss、版本与资源历史资料；现行规则请先在客户端与官方公告核对。")
+                : "Browse site-recorded beginner, team, exploration, boss, version, and resource references. Verify live rules in the client and official notices first."}
+            </p>
             <div className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-800/50 border border-gray-700/30 w-fit">
               <span className="text-2xl font-bold text-primary-400">{totalGuides}</span>
-              <span className="text-sm text-gray-400">{isZhLocale(locale) ? "篇攻略" : "Guides"}</span>
+              <span className="text-sm text-gray-400">{isZhLocale(locale) ? "篇历史资料" : "Historical references"}</span>
             </div>
           </div>
         </div>

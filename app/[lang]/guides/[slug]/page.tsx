@@ -181,7 +181,7 @@ export default async function GuideDetailPage({
         )}
         <ContentStatus
           locale={locale}
-          status={(slug === "download-install-guide" ? "needs-review" : guide.tags.includes("1.3") ? "live" : "historical") as VerificationStatus}
+          status={(slug === "download-install-guide" ? "needs-review" : "historical") as VerificationStatus}
           reviewedAt={guide.date}
         />
         <div className="mb-6">
