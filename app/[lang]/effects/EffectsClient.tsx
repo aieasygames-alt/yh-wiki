@@ -192,16 +192,16 @@ export function EffectsClient({
           locale={locale}
           items={[
             {
-              label: isZh ? "元素反应：" : "Reactions:",
+              label: isZh ? "历史反应字段：" : "Historical reaction fields:",
               value: isZh
-                ? "6种元素属性（Cosmos宇宙、Anima生命、Incantation咒语、Chaos混沌、Psyche心灵、Lakshana相）可触发Blossom坼绽、Charge充能等多种反应。"
-                : "6 elements (Cosmos, Anima, Incantation, Chaos, Psyche, Lakshana) trigger reactions like Blossom, Charge, and more.",
+                ? "本页保留 Cosmos、Anima、Incantation、Chaos、Psyche、Lakshana 等历史属性与反应资料；当前触发条件请以客户端为准。"
+                : "This page preserves historical Cosmos, Anima, Incantation, Chaos, Psyche, and Lakshana reaction fields; verify current trigger conditions in-client.",
             },
             {
-              label: isZh ? "最强反应：" : "Best Reaction:",
+              label: isZh ? "使用边界：" : "Usage boundary:",
               value: isZh
-                ? "Blossom（坼绽）由Cosmos触发，是当前版本输出最高的元素反应。"
-                : "Blossom, triggered by Cosmos element, is the highest DPS reaction in the current meta.",
+                ? "不使用历史反应、武器或套装条目判断当前最优配队、构筑或消费。"
+                : "Do not use historical reaction, weapon, or disk entries to decide current best teams, builds, or spending.",
             },
             {
               label: isZh ? "效果总数：" : "Total Effects:",
@@ -214,6 +214,11 @@ export function EffectsClient({
         <section className="mb-8 rounded-xl border border-gray-800 bg-gray-900/50 p-6">
           <h2 className="text-xl font-bold mb-3">{t(locale, "effects.elementalReactions")}</h2>
           <p className="text-sm text-gray-400 mb-4">{t(locale, "effects.elementalReactionsDesc")}</p>
+          <p className="mb-4 rounded-lg border border-amber-500/25 bg-amber-500/10 px-3 py-2 text-xs leading-5 text-amber-100/80">
+            {isZh
+              ? "历史机制复核：2026-09-29。本页不验证当前反应触发、伤害、冷却、抗性互动或队伍增益；请以目标区服客户端和官方公告为准。"
+              : "Historical mechanics reviewed September 29, 2026. This page does not verify current reaction triggers, damage, cooldowns, resistance interactions, or team buffs; use the target server's client and official notices."}
+          </p>
 
           {/* Reaction Table */}
           <div className="overflow-x-auto mb-4">
@@ -231,7 +236,7 @@ export function EffectsClient({
                   <td className="py-2 px-3">{getAttributeLabel("cosmos", locale)}</td>
                   <td className="py-2 px-3">{getAttributeLabel("anima", locale)}</td>
                   <td className="py-2 px-3 font-medium text-primary-400">Blossom ({isZh ? "坼绽" : "Detonation"})</td>
-                  <td className="py-2 px-3">{isZh ? "范围伤害，当前版本最强输出反应" : "AoE damage, strongest DPS reaction"}</td>
+                  <td className="py-2 px-3">{isZh ? "历史资料中的范围伤害示例；当前表现需客户端核对" : "Historical AoE-damage example; verify current behavior in-client"}</td>
                 </tr>
                 <tr className="border-b border-gray-800/50">
                   <td className="py-2 px-3">{getAttributeLabel("cosmos", locale)}</td>
