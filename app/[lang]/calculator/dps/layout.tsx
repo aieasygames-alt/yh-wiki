@@ -8,11 +8,11 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环DPS计算器 — 完整循环伤害模拟", "NTE DPS Calculator — Full Rotation Damage Simulation");
+  const title = localizedText(locale, "异环DPS假设比较器｜本地公式估算", "NTE DPS Assumption Comparator | Local Formula Estimate");
   const description = localizedText(
     locale,
-    "异环DPS计算器：完整技能循环伤害计算，包含角色、武器、Build预设、敌人防御设置、暴击期望和伤害倍率可视化。",
-    "NTE DPS calculator for full rotation damage simulation with character and weapon selection, build presets, enemy defense settings, crit expectations, and multiplier visualization."
+    "异环DPS本地公式估算工具：在自定义角色、武器、敌人和循环假设下比较结果；不验证当前版本实际伤害。",
+    "Local-formula NTE DPS estimate for comparing custom character, weapon, enemy, and rotation assumptions; it does not verify live damage."
   );
   return {
     title,
@@ -36,9 +36,9 @@ export default function DPSLayout({
     : "What should you use the DPS calculator for?";
   const introBody = isZh
     ? (locale === "tw"
-        ? "如果你已經不只是想看面板，而是要比較完整技能循環、暴擊期望和敵方設定對輸出的影響，DPS 計算器會比單純屬性頁更有參考價值。它適合用在角色 Build 微調、武器替換，以及抽卡前後的實戰收益預估。"
-        : "如果你已经不只是想看面板，而是要比较完整技能循环、暴击期望和敌方设置对输出的影响，DPS计算器会比单纯属性页更有参考价值。它适合用在角色Build微调、武器替换，以及抽卡前后的实战收益预估。")
-    : "If you are past simple stat comparison and need to compare full rotation damage, crit expectation, and enemy settings, the DPS calculator is more useful than a basic stats page. It fits build tuning, weapon swaps, and estimating real output before or after a banner decision.";
+        ? "把角色、武器、敌人和循环前提固定后，这个工具可比较不同假设下的相对变化。它不能读取客户端数据、还原完整机制或预测抽卡收益，因此不要把结果当作实际伤害或消费依据。"
+        : "把角色、武器、敌人和循环前提固定后，这个工具可比较不同假设下的相对变化。它不能读取客户端数据、还原完整机制或预测抽卡收益，因此不要把结果当作实际伤害或消费依据。")
+    : "With character, weapon, enemy, and rotation assumptions fixed, this tool compares relative changes between local scenarios. It cannot read client data, reproduce every mechanic, or predict banner value, so do not treat its output as live damage or spending advice.";
   const notesTitle = isZh
     ? (locale === "tw" ? "看 DPS 結果時別漏掉" : "看DPS结果时别漏掉")
     : "Do not skip these checks";
@@ -51,13 +51,13 @@ export default function DPSLayout({
           ? "循環模擬很吃前提，角色實戰手感、充能壓力和軸長也要一起考慮。"
           : "循环模拟很吃前提，角色实战手感、充能压力和轴长也要一起考虑。",
         locale === "tw"
-          ? "如果只是看單件裝備值不值得換，先用盤條評分器或屬性計算器通常更快。"
-          : "如果只是看单件装备值不值得换，先用盘条评分器或属性计算器通常更快。",
+          ? "本頁角色、武器與倍率資料也可能過時；每次比較前請先以目標區服客戶端核對。"
+          : "本页角色、武器与倍率资料也可能过时；每次比较前请先以目标区服客户端核对。",
       ]
     : [
         "Lock enemy, defense, and bonus-damage assumptions first, or your comparisons will drift between tests.",
         "Rotation output depends heavily on assumptions, so comfort, energy pressure, and real timeline length still matter.",
-        "If you only need to judge one gear piece, the disk score or stats calculator is usually the faster first stop.",
+        "Character, weapon, and multiplier data here can also be stale; verify each assumption in the target server's client before comparing.",
       ];
 
   return (

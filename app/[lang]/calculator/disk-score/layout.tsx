@@ -8,11 +8,11 @@ export async function generateMetadata({
 }) {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环盘条评分计算器 — 副词条效率评级", "NTE Disk Score Calculator — Substat Roll Efficiency Rating");
+  const title = localizedText(locale, "异环盘条权重比较器｜本地副词条估算", "NTE Disk Weight Comparator | Local Substat Estimate");
   const description = localizedText(
     locale,
-    "异环盘条（驱动盘）副词条评分工具：输入副词条数值，计算词条效率评分，支持DPS、辅助、均衡权重预设和配装筛选。",
-    "NTE disk substat score calculator: input substats to calculate roll efficiency with DPS, Support, and Balanced weight presets for build comparison."
+    "异环盘条本地权重比较工具：用预设权重估算副词条相对效率；不验证当前版本词条、上限或装备价值。",
+    "Local NTE disk-weight comparison tool that estimates relative substat efficiency with presets; it does not verify live stats, caps, or gear value."
   );
   return {
     title,
@@ -36,9 +36,9 @@ export default function DiskScoreLayout({
     : "What is the disk score tool actually useful for?";
   const introBody = isZh
     ? (locale === "tw"
-        ? "異環盤條評分器的核心用途，是把副詞條數值快速換成更容易比較的效率分數。它特別適合處理「這件能不能留」「這件是不是比現在的更好」這類配裝決策，而不是只看單一暴擊詞條就下判斷。"
-        : "异环盘条评分器的核心用途，是把副词条数值快速换成更容易比较的效率分数。它特别适合处理“这件能不能留”“这件是不是比现在的更好”这类配装决策，而不是只看单一暴击词条就下判断。")
-    : "The disk score calculator is best for turning raw substat values into an efficiency score you can compare quickly. It is most useful when you are deciding whether a piece is worth keeping or whether it really upgrades a current build, instead of overreacting to a single crit line.";
+        ? "本工具用站内固定上限和预设权重，把副词条数值换成便于横向比较的本地分数。它不读取当前客户端装备数据，不能判断一件装备是否必留、必强化或适合具体角色。"
+        : "本工具用站内固定上限和预设权重，把副词条数值换成便于横向比较的本地分数。它不读取当前客户端装备数据，不能判断一件装备是否必留、必强化或适合具体角色。")
+    : "This tool uses fixed site-held caps and preset weights to turn substats into a comparable local score. It does not read live client gear data and cannot decide whether a piece must be kept, upgraded, or fits a specific character.";
   const notesTitle = isZh
     ? (locale === "tw" ? "評分前建議先確認" : "评分前建议先确认")
     : "Before you score a piece";
@@ -48,15 +48,15 @@ export default function DiskScoreLayout({
           ? "先依角色定位選權重，主 C、輔助和均衡配置看的重點本來就不同。"
           : "先按角色定位选权重，主C、辅助和均衡配置看的重点本来就不同。",
         locale === "tw"
-          ? "高分不一定等於必留，還要一起看主詞條、套裝需求和目前帳號缺口。"
-          : "高分不一定等于必留，还要一起看主词条、套装需求和当前账号缺口。",
+          ? "預設權重和理論上限均可能隨版本變化；先在客戶端核對目前詞條與套裝效果。"
+          : "预设权重和理论上限均可能随版本变化；先在客户端核对当前词条与套装效果。",
         locale === "tw"
           ? "如果你在比兩件接近的裝備，最好搭配屬性或 DPS 計算器一起看實際收益。"
           : "如果你在比两件接近的装备，最好搭配属性或DPS计算器一起看实际收益。",
       ]
     : [
         "Pick weights based on the role first, because a carry, support, and balanced setup should not judge substats the same way.",
-        "A high score is not an automatic keep. You still need to check main stat, set requirement, and your current account gap.",
+        "Preset weights and theoretical caps can change by version; verify current substats and set effects in the client first.",
         "When two pieces are close, pair the result with the stats or DPS calculator to see the real in-build gain.",
       ];
 

@@ -178,23 +178,23 @@ export function DPSCalculatorClient({
   return (
     <>
       <WebApplicationJsonLd
-        name={isZh ? "异环 DPS 伤害计算器" : "NTE DPS Damage Calculator"}
-        description={isZh ? "异环角色 DPS 伤害计算工具，输入攻击/暴击/元素加成等属性估算伤害输出" : "NTE DPS damage calculator — input ATK, crit, elemental bonus and skill multipliers to estimate damage output"}
+        name={isZh ? "异环 DPS 假设比较器" : "NTE DPS Assumption Comparator"}
+        description={isZh ? "以本地输入和固定公式比较假设下的伤害结果；不验证当前版本实际伤害" : "Compare damage under local inputs and a fixed formula; it does not verify live damage"}
       />
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="mb-6">
           <h1 className="text-3xl font-bold">
-            {isZh ? "DPS 伤害计算器" : "DPS Damage Calculator"}
+            {isZh ? "DPS 假设比较器" : "DPS Assumption Comparator"}
           </h1>
           <p className="text-gray-400 mt-1 text-sm">
             {isZh
-              ? "计算角色技能伤害、循环DPS，对比不同配装的输出差异。"
-              : "Calculate skill damage, rotation DPS, and compare different build outputs."}
+              ? "在固定的本地输入与公式下比较技能、循环和属性假设的相对差异。"
+              : "Compare relative differences between skill, rotation, and stat assumptions under fixed local inputs and a formula."}
           </p>
           <p className="text-xs text-gray-600 mt-1">
             {isZh
-              ? "※ 公式为估算值，基于社区测试数据。实际伤害可能因游戏版本更新而变化。"
-              : "※ Formula is estimated based on community testing. Actual damage may vary with game updates."}
+              ? "※ 不读取实时客户端数据。角色、武器、倍率、敌人和队伍假设均需自行核对；结果不代表当前实际伤害。"
+              : "※ This does not read live client data. Verify character, weapon, multiplier, enemy, and team assumptions yourself; output is not current actual damage."}
           </p>
         </div>
 
@@ -204,8 +204,8 @@ export function DPSCalculatorClient({
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZh
-              ? "它最适合拿来比较两套配装、两把武器或者两种循环设定之间的输出差异。比起追求一个绝对准确的面板答案，这个工具更擅长帮你看“改暴击值更赚，还是补攻击和属性伤更赚”，以及“缩短循环后实际 DPS 会不会更高”。"
-              : "This calculator is best for comparing two builds, two weapons, or two rotation assumptions. Instead of chasing one perfectly exact number, it is more useful for seeing whether extra crit, more ATK, elemental bonus, or a shorter rotation creates the bigger gain."}
+              ? "它适合在同一组假设下比较两套本地输入，而不是寻找绝对准确的面板答案。先锁定你已在客户端核对过的倍率、敌人和队伍条件，再观察改动造成的相对变化。"
+              : "Use it to compare two local input sets under the same assumptions, not to find an absolute panel answer. First lock multipliers, enemy settings, and team conditions you have verified in-client, then examine relative changes."}
           </p>
         </section>
 
@@ -423,7 +423,7 @@ export function DPSCalculatorClient({
           <div className="space-y-4">
             <div className="rounded-xl border border-primary-500/30 bg-gradient-to-br from-primary-900/40 to-gray-900/60 p-5">
               <h2 className="text-sm font-semibold text-primary-400 mb-1">
-                {isZh ? "每秒伤害 (DPS)" : "Damage Per Second"}
+                {isZh ? "本地公式 DPS 估算" : "Local-Formula DPS Estimate"}
               </h2>
               <p className="text-4xl font-bold font-mono text-white">
                 {result.dps.toLocaleString()}

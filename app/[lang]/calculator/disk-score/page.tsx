@@ -125,17 +125,17 @@ export default function DiskScorePage() {
       <Breadcrumb
         items={[
           { label: t(lang, "site.nav.home"), href: `/${lang}` },
-          { label: isZh ? "卡带评分器" : "Disk Score Calculator" },
+          { label: isZh ? "卡带权重比较器" : "Disk Weight Comparator" },
         ]}
       />
       <div className="max-w-2xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-2">
-          {isZh ? "卡带评分器" : "Disk Score Calculator"}
+          {isZh ? "卡带权重比较器" : "Disk Weight Comparator"}
         </h1>
         <p className="text-gray-400 mb-6 text-sm">
           {isZh
-            ? "输入卡带副词条数值，计算词条效率评分。选择最多 4 个副词条。"
-            : "Enter disk substat values to calculate roll efficiency. Select up to 4 substats."}
+            ? "用固定上限与预设权重估算副词条的本地相对分数。选择最多 4 个副词条。"
+            : "Estimate a local relative substat score with fixed caps and preset weights. Select up to 4 substats."}
         </p>
 
         <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
@@ -144,8 +144,8 @@ export default function DiskScorePage() {
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZh
-              ? "它看的是副词条效率，而不是单纯把面板数值加总。每条副词条会先和理论上限比较，再结合当前预设权重折算成总分。所以这个工具更适合帮你判断“这件值不值得留”，而不是代替最终配装判断。"
-              : "This tool measures substat efficiency rather than just summing visible numbers. Each selected substat is compared against its theoretical ceiling, then weighted by the current preset. It is best used to answer whether a piece is worth keeping, not to replace full build judgment."}
+              ? "它以站内固定上限和预设权重计算副词条的本地相对分数，而不是读取当前游戏数据。分数只用于同一套前提下比较输入，不能替代装备保留、强化或角色适配结论。"
+              : "It calculates a local relative substat score from site-held caps and preset weights instead of reading current game data. Use it only to compare inputs under the same assumptions, not to decide gear retention, upgrades, or character fit."}
           </p>
         </section>
 
@@ -157,7 +157,7 @@ export default function DiskScorePage() {
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
               <li>{isZh ? "先选对角色定位预设，输出、辅助和均衡的权重判断完全不同。" : "Pick the correct role preset first, because DPS, support, and balanced priorities weight the same substats very differently."}</li>
               <li>{isZh ? "确认这件装备的主词条和套装方向没有跑偏，再去看副词条效率。" : "Make sure the main stat and set direction are already correct before worrying about substat efficiency."}</li>
-              <li>{isZh ? "把它当成筛选工具，而不是最终定生死的唯一分数。" : "Use it as a filtering tool rather than the only final verdict on a piece."}</li>
+              <li>{isZh ? "先在客户端核对当前词条上限与套装效果，再把分数当作同前提比较工具。" : "Verify current substat caps and set effects in-client first, then use the score only for like-for-like comparisons."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -165,7 +165,7 @@ export default function DiskScorePage() {
               {isZh ? "常见误区" : "Common mistakes"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZh ? "只因为分数高就保留，忽略它可能根本不适合你正在养的角色。" : "Keeping a piece only because the score is high even though it may not fit the character you are building."}</li>
+              <li>{isZh ? "把预设分数当作实时装备价值，忽略版本、主词条和角色机制。" : "Treating a preset score as live gear value while ignoring version, main stat, and character mechanics."}</li>
               <li>{isZh ? "把不同定位的装备直接横向比较，导致判断失真。" : "Comparing pieces across different roles as if the same score meant the same value."}</li>
               <li>{isZh ? "看见低分就立刻分解，没有结合当前账号资源和过渡需求。" : "Scrapping lower-scoring pieces immediately without considering account stage and temporary needs."}</li>
             </ul>
@@ -276,9 +276,9 @@ export default function DiskScorePage() {
               {isZh ? "怎么读这个结果" : "How to read the result"}
             </h2>
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-              <li>{isZh ? "S / A 分通常代表词条效率高，适合优先保留或强化。" : "S and A grades usually mean the piece is efficient enough to keep or upgrade."}</li>
-              <li>{isZh ? "B 分更多是过渡件，资源紧时可以先用。" : "B grades are often transitional pieces when resources are tight."}</li>
-              <li>{isZh ? "C / D 分不一定完全没用，但通常不值得继续投入高额强化资源。" : "C and D grades are not always useless, but they rarely justify heavy investment."}</li>
+              <li>{isZh ? "S / A / B / C / D 仅表示当前预设下的本地分段，不代表实时装备评级。" : "S / A / B / C / D only represent local bands under this preset, not live gear ratings."}</li>
+              <li>{isZh ? "相近分数只能说明输入差距有限，仍需检查主词条、套装与角色机制。" : "Close scores only indicate similar inputs; still check main stat, set, and character mechanics."}</li>
+              <li>{isZh ? "任何强化或分解决定都应以当前客户端数据和你的资源计划为准。" : "Make upgrade or salvage decisions from current client data and your own resource plan."}</li>
             </ul>
           </div>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-5">
@@ -295,8 +295,8 @@ export default function DiskScorePage() {
 
         <p className="text-xs text-gray-600 mt-6 text-center">
           {isZh
-            ? "评分基于词条效率百分比，综合考虑各词条的权重和价值。仅供参考。"
-            : "Score is based on roll efficiency percentage with weighted stat values. For reference only."}
+            ? "分数来自固定上限和预设权重，仅用于本地假设下的比较；当前版本请以客户端为准。"
+            : "Scores use fixed caps and preset weights for local comparisons only; use the client as the source of truth for the current version."}
         </p>
       </div>
     </>
