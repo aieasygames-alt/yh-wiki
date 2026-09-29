@@ -21,14 +21,14 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 
   const title = isZhLocale(locale)
     ? (locale === "tw"
-      ? "異環電腦配置要求（2026）— PC/i5-8400/GTX 1060、手機 Android/iOS 詳細規格"
-      : "异环电脑配置要求（2026）— PC/i5-8400/GTX 1060、手机 Android/iOS 详细规格")
-    : "NTE System Requirements (2026) — PC, Mobile & Download Size";
+      ? "異環 PC／手機配置核驗指南 — 下載前檢查商店與啟動器"
+      : "异环 PC／手机配置核验指南 — 下载前检查商店与启动器")
+    : "NTE PC & Mobile Requirements Check Guide — Verify Before Downloading";
   const description = isZhLocale(locale)
     ? (locale === "tw"
-      ? `異環(NTE)完整配置要求：PC 最低 i5-8400 + GTX 1060、推薦 i7-9700 + RTX 2060，並整理 Android / iOS 規格、下載大小與 ${faqCount} 個效能常見問題。`
-      : `异环(NTE)完整配置要求：PC 最低 i5-8400 + GTX 1060、推荐 i7-9700 + RTX 2060，并整理 Android / iOS 规格、下载大小与 ${faqCount} 个性能常见问题。`)
-    : `Neverness to Everness system requirements for PC, Android, and iOS, including minimum and recommended specs, download size, and ${faqCount} performance FAQs.`;
+      ? `異環(NTE) PC、Android 與 iOS 的設備核驗流程、歷史規格參考、儲存空間與 ${faqCount} 個效能常見問題。配置與下載大小可能變動，請以目前商店頁或啟動器為準。`
+      : `异环(NTE) PC、Android 与 iOS 的设备核验流程、历史规格参考、存储空间与 ${faqCount} 个性能常见问题。配置与下载大小可能变动，请以当前商店页或启动器为准。`)
+    : `NTE device-check workflow, historical PC/Android/iOS spec references, storage guidance, and ${faqCount} performance FAQs. Requirements and download size can change; use the current store page or launcher as the source of truth.`;
 
   return {
     title,
@@ -130,6 +130,11 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
       <p className="text-sm text-gray-500 mb-8">
         {t(locale, "systemReqs.pageDescription")}
       </p>
+      <p className="text-xs text-gray-500 -mt-5 mb-8">
+        {isZhLocale(locale)
+          ? (locale === "tw" ? "歷史規格復核：2026-09-29。下載前請以目前商店頁或啟動器顯示為準。" : "历史规格复核：2026-09-29。下载前请以当前商店页或启动器显示为准。")
+          : "Historical specs reviewed September 29, 2026. Verify the current store page or launcher before downloading."}
+      </p>
 
       <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
         <h2 className="text-lg font-semibold text-white">
@@ -140,9 +145,9 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
         <p className="mt-3 text-sm leading-7 text-gray-300">
           {isZhLocale(locale)
             ? (locale === "tw"
-                ? "先用這頁判斷你的設備屬於最低可玩、推薦流暢，還是需要調低畫質的區間，再決定要不要下載 PC、手機或換到雲端方案。這頁最適合做安裝前判斷，不適合替代實際的效能測試。"
-                : "先用这页判断你的设备属于最低可玩、推荐流畅，还是需要调低画质的区间，再决定要不要下载 PC、手机或换到云端方案。这页最适合做安装前判断，不适合替代实际的性能测试。")
-            : "Use this page to decide whether your hardware sits at minimum playable, recommended smooth play, or a lower-settings tier before you install on PC or mobile or switch to a cloud option. It is best for pre-install planning, not for replacing real performance testing."}
+                ? "先用這頁整理設備、儲存、散熱與網路條件，再到目前商店頁或啟動器核對最低要求、下載大小與支援平台。歷史配置表只能用於預估，不代表每個版本或每台設備的實際效能。"
+                : "先用这页整理设备、存储、散热与网络条件，再到当前商店页或启动器核对最低要求、下载大小与支持平台。历史配置表只能用于预估，不代表每个版本或每台设备的实际性能。")
+            : "Use this page to organize your device, storage, thermals, and network conditions, then verify minimum requirements, download size, and supported platforms on the current store page or launcher. Historical spec tables are planning references only, not a performance guarantee for every version or device."}
         </p>
       </section>
 
@@ -201,24 +206,24 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
         locale={locale}
         items={[
           {
-            label: "PC Minimum:",
-            value: isZhLocale(locale) ? "Windows 10, i5-8400, GTX 1060 6GB / RX 580, 90GB SSD" : "Windows 10, Intel i5-8400, GTX 1060 6GB / RX 580, 90GB SSD",
+            label: isZhLocale(locale) ? "核验入口：" : "Verify from:",
+            value: isZhLocale(locale) ? "当前商店页或游戏启动器" : "The current store page or game launcher",
           },
           {
-            label: "PC Recommended:",
-            value: isZhLocale(locale) ? "i7-9700, RTX 2060 / RX 5700 XT, 90GB SSD" : "Intel i7-9700, RTX 2060 / RX 5700 XT, 90GB SSD",
+            label: isZhLocale(locale) ? "PC 参考：" : "PC reference:",
+            value: isZhLocale(locale) ? "历史规格表仅供下载前预估" : "Historical spec table for pre-download planning only",
           },
           {
-            label: "Android:",
-            value: isZhLocale(locale) ? "Snapdragon 855 / 天玑 8000，20GB 存储" : "Snapdragon 855 or Dimensity 8000, 20GB storage",
+            label: "Mobile:",
+            value: isZhLocale(locale) ? "核对商店支持、可用空间、系统版本与散热" : "Check store support, free space, OS version, and thermals",
           },
           {
-            label: "iOS:",
-            value: isZhLocale(locale) ? "iPhone 12 Pro Max，iOS 15+" : "iPhone 12 Pro Max, iOS 15+",
+            label: isZhLocale(locale) ? "性能预期：" : "Performance:",
+            value: isZhLocale(locale) ? "因设备、版本与设置而异" : "Varies by device, version, and settings",
           },
           {
-            label: isZhLocale(locale) ? "下载大小:" : "Download Size:",
-            value: isZhLocale(locale) ? "约 60GB（额外需 60GB 临时解压空间）" : "~60GB (plus 60GB temp for extraction)",
+            label: isZhLocale(locale) ? "下载大小：" : "Download size:",
+            value: isZhLocale(locale) ? "以当前商店或启动器显示为准" : "Use the current store or launcher listing",
           },
         ]}
       />
@@ -282,12 +287,12 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
 
       <section className="mb-10 rounded-xl border border-primary-500/30 bg-primary-500/5 p-5">
         <h2 className="text-lg font-bold mb-2">
-          {isZhLocale(locale) ? "Steam / PC 当前状态" : "Steam / PC Status Right Now"}
+          {isZhLocale(locale) ? "Steam / PC 平台状态核验" : "Steam / PC Status Check"}
         </h2>
         <p className="text-sm text-gray-400 mb-3 leading-relaxed">
           {isZhLocale(locale)
-            ? "截至 2026 年 7 月 11 日，异环 Steam 版已经上线。现在更值得比较的不是“要不要等 Steam”，而是你更适合 Steam、官网独立启动器、Epic，还是云异环 PC。想先确认配置、平台差异和账号入口，可以继续看完整 Steam 指南。"
-            : "As of July 11, 2026, NTE is already live on Steam. The practical question is no longer whether to wait for Steam, but whether Steam, the official launcher, Epic, or Cloud PC fits you best. See the full Steam guide for specs, platform differences, and account flow."}
+            ? "Steam、独立启动器、Epic 与云端 PC 的可用性、地区覆盖、账号绑定和配置要求都可能变化。下载或绑定前，请先核对当前商店页、客户端提示和官方公告，再使用完整 Steam 指南比较平台路径。"
+            : "Availability, regional coverage, account binding, and requirements for Steam, the launcher, Epic, and Cloud PC can change. Before downloading or linking an account, check the current store page, client prompts, and official notices, then use the Steam guide to compare platform routes."}
         </p>
         <Link
           href={`/${lang}/steam`}
