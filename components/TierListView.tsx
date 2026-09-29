@@ -152,7 +152,7 @@ export function TierListView({
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-wide text-primary-300">
-              {isZh ? "当前榜单" : "Current Ranking"}
+              {isZh ? "历史场景对比" : "Historical Scenario Comparison"}
             </p>
             <h2 className="mt-1 text-lg font-bold">
               {activeScene.label}
