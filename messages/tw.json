@@ -924,18 +924,18 @@
   },
   "teamBuilder": {
     "title": "配隊構建器",
-    "subtitle": "構建你的隊伍，分析協同效果，找到最佳陣容",
-    "seoTitle": "異環配隊構建器 - 最佳陣容搭配與協同分析",
-    "seoDescription": "構建和優化異環隊伍陣容，分析角色協同效果、功能補位與推薦配裝，快速找到適合當前版本的隊伍方案。",
+    "subtitle": "組合角色標籤，查看本地功能觀察",
+    "seoTitle": "異環隊伍標籤檢查器｜本地組合觀察",
+    "seoDescription": "依站內靜態屬性與定位標籤查看隊伍組合；目前共鳴、技能、數值、機制與實戰強度請以客戶端為準。",
     "yourTeam": "你的隊伍",
     "slot": "位置",
     "remove": "移除",
     "synergy": "協同分析",
     "shareTeam": "分享隊伍",
     "clear": "清空",
-    "recommendedBuilds": "推薦配裝",
+    "recommendedBuilds": "歷史構築示例",
     "searchPlaceholder": "搜尋角色...",
-    "presetTeams": "預設陣容"
+    "presetTeams": "歷史陣容示例"
   },
   "bossDirectory": {
     "title": "Boss與敵人圖鑑"

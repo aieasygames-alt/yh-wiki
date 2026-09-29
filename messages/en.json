@@ -924,18 +924,18 @@
   },
   "teamBuilder": {
     "title": "Team Builder",
-    "subtitle": "Build your team, analyze synergies, find the best compositions",
-    "seoTitle": "NTE Team Builder - Best Team Compositions & Synergy Analysis",
-    "seoDescription": "Build and optimize Neverness to Everness team compositions. Analyze character synergies, find recommended builds, and share your teams.",
+    "subtitle": "Combine character tags and inspect local role observations",
+    "seoTitle": "NTE Team Tag Checker | Local Composition Observations",
+    "seoDescription": "Inspect team combinations using site-held attribute and role tags; verify current resonance, skills, values, mechanics, and combat strength in-client.",
     "yourTeam": "Your Team",
     "slot": "Slot",
     "remove": "Remove",
     "synergy": "Synergy Analysis",
     "shareTeam": "Share Team",
     "clear": "Clear",
-    "recommendedBuilds": "Recommended Builds",
+    "recommendedBuilds": "Historical Build Examples",
     "searchPlaceholder": "Search characters...",
-    "presetTeams": "Preset Teams"
+    "presetTeams": "Historical Team Examples"
   },
   "bossDirectory": {
     "title": "Boss & Enemy Directory"

@@ -17,11 +17,11 @@ export async function generateMetadata({
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const title = isZh
-    ? (locale === "tw" ? "異環配隊模擬器 — 最佳隊伍組建與分析工具" : "异环配队模拟器 — 最佳队伍组建与分析工具")
-    : "NTE Team Builder — Best Team Composition & Synergy Tool";
+    ? (locale === "tw" ? "異環隊伍標籤檢查器｜本地組合觀察" : "异环队伍标签检查器｜本地组合观察")
+    : "NTE Team Tag Checker | Local Composition Observations";
   const description = isZh
-    ? (locale === "tw" ? "異環配隊模擬器：選擇角色，分析共鳴效果、定位重疊與生存覆蓋，快速找到更適合當前副本的隊伍。支持屬性共鳴與角色協同分析。" : "异环配队模拟器：选择角色，分析共鸣效果、定位重叠与生存覆盖，快速找到更适合当前副本的队伍。支持属性共鸣与角色协同分析。")
-    : "Build Neverness to Everness teams by checking synergy, resonance effects, role coverage, and sustain so you can choose the right lineup for the content you're facing.";
+    ? (locale === "tw" ? "依站內靜態屬性與定位標籤查看隊伍組合；本工具不驗證目前共鳴、技能、數值、機制或實戰強度。" : "依据站内静态属性与定位标签查看队伍组合；本工具不验证当前共鸣、技能、数值、机制或实战强度。")
+    : "Inspect team combinations using site-held attribute and role tags. This tool does not verify current resonance, skills, values, mechanics, or combat strength.";
 
   return {
     title,
@@ -48,9 +48,9 @@ export default async function TeamBuilderPage({
     : "What is this team builder good for?";
   const introBody = isZh
     ? (locale === "tw"
-        ? "這個異環配隊模擬器適合拿來做三件事：先補主隊缺的功能位、再檢查屬性與定位是否重疊、最後確認你現在抽到的新角色到底該進哪一隊。它不是只生成一個固定答案，而是幫你更快看出主 C、輔助、生存和共鳴配置之間有沒有明顯衝突。"
-        : "这个异环配队模拟器适合拿来做三件事：先补主队缺的功能位、再检查属性与定位是否重叠、最后确认你现在抽到的新角色到底该进哪一队。它不是只生成一个固定答案，而是帮你更快看出主 C、辅助、生存和共鸣配置之间有没有明显冲突。")
-    : "This NTE team builder is best used for three jobs: filling the role your main team still lacks, checking whether attributes and jobs overlap too much, and deciding where a newly pulled character actually fits. It is not meant to spit out one universal answer. It helps you spot conflicts between carry, support, sustain, and resonance choices faster.";
+        ? "这个工具只根据站内静态属性与定位标签展示组合观察，方便你发现可能的角色职能重叠或缺口。它不读取客户端，也不能确认当前共鸣、技能、数值、机制或实际队伍强度。"
+        : "这个工具只根据站内静态属性与定位标签展示组合观察，方便你发现可能的角色职能重叠或缺口。它不读取客户端，也不能确认当前共鸣、技能、数值、机制或实际队伍强度。")
+    : "This tool shows combination observations from static site-held attribute and role tags so you can spot possible role overlap or gaps. It does not read the client and cannot confirm current resonance, skills, values, mechanics, or real team strength.";
   const checklistTitle = isZh
     ? (locale === "tw" ? "配隊前先確認" : "配队前先确认")
     : "Check these before you build";
@@ -63,13 +63,13 @@ export default async function TeamBuilderPage({
           ? "不要只看單卡強度，還要確認輪轉、增益覆蓋和生存位是否足夠。"
           : "不要只看单卡强度，还要确认轮转、增益覆盖和生存位是否足够。",
         locale === "tw"
-          ? "如果你在抽卡階段，先用它比較補角色和補弧盤哪個提升更直接。"
-          : "如果你在抽卡阶段，先用它比较补角色和补弧盘哪个提升更直接。",
+          ? "使用前先在目標區服客戶端核對角色可獲取狀態、技能、隊伍規則與近期調整。"
+          : "使用前先在目标区服客户端核对角色可获取状态、技能、队伍规则与近期调整。",
       ]
     : [
         "Decide whether the team is for 999 Nights, high-pressure bosses, or general progression first.",
         "Do not judge by single-character power alone. Check rotation flow, buff coverage, and sustain depth too.",
-        "If you are still spending pulls, use the builder to compare whether another character or an Arc investment helps more.",
+        "Before using a result, verify character availability, skills, team rules, and recent changes in the target server's client.",
       ];
   const followupTitle = isZh
     ? (locale === "tw" ? "相關頁面" : "相关页面")
@@ -93,7 +93,7 @@ export default async function TeamBuilderPage({
     <>
       <WebApplicationJsonLd
         name={isZhLocale(locale) ? "异环配队模拟器" : "NTE Team Builder"}
-        description="Interactive team composition builder for Neverness to Everness"
+        description={isZh ? "基于静态属性与定位标签的本地队伍组合观察工具；不验证当前实战规则" : "Local team-combination observations from static attribute and role tags; it does not verify live gameplay rules"}
       />
       <Breadcrumb
         items={[

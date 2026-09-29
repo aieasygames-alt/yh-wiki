@@ -201,29 +201,6 @@ function TeamBuilderInner({
 
   const synergies = useMemo(() => analyzeSynergy(teamCharacters, isZh), [teamCharacters, isZh]);
 
-  // Team viability grade
-  const teamGrade = useMemo(() => {
-    if (selectedIds.length < 2) return null;
-    let score = 0;
-    synergies.forEach((s) => {
-      if (s.type === "positive") score += 2;
-      else if (s.type === "negative") score -= 1;
-      else score += 0;
-    });
-    // Full team bonus
-    if (selectedIds.length === TEAM_SIZE) score += 1;
-    // Balanced roles bonus
-    const roles = teamCharacters.map((c) => (isZh ? c.role : c.roleEn));
-    const hasDPS = roles.some((r) => r?.includes("进攻") || r?.includes("Attack") || r?.includes("DPS"));
-    const hasSupport = roles.some((r) => r?.includes("支援") || r?.includes("Support"));
-    const hasDefense = roles.some((r) => r?.includes("防护") || r?.includes("Defense") || r?.includes("Survival"));
-    if (hasDPS && hasSupport && hasDefense) score += 1;
-    if (score >= 5) return { grade: "S", color: "text-yellow-400 border-yellow-400/30 bg-yellow-400/10" };
-    if (score >= 3) return { grade: "A", color: "text-purple-400 border-purple-400/30 bg-purple-400/10" };
-    if (score >= 1) return { grade: "B", color: "text-blue-400 border-blue-400/30 bg-blue-400/10" };
-    return { grade: "C", color: "text-gray-400 border-gray-400/30 bg-gray-400/10" };
-  }, [selectedIds, synergies, teamCharacters, isZh]);
-
   const recommendedBuilds = useMemo(
     () => (selectedIds.length > 0 ? getRecommendedBuilds(selectedIds) : []),
     [selectedIds]
@@ -340,16 +317,9 @@ function TeamBuilderInner({
                 <h3 className="text-sm font-semibold mb-3">
                   {t(locale, "teamBuilder.synergy")}
                 </h3>
-                {teamGrade && (
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className={`text-3xl font-black px-4 py-2 rounded-xl border-2 ${teamGrade.color}`}>
-                      {teamGrade.grade}
-                    </span>
-                    <span className="text-xs text-gray-500">
-                      {isZh ? "团队评级" : "Team Grade"}
-                    </span>
-                  </div>
-                )}
+                <p className="mb-3 text-xs leading-5 text-gray-500">
+                  {isZh ? "以下仅根据站内静态属性与定位标签做本地观察，不验证当前共鸣、技能、数值、机制或实战强度。" : "These are local observations from site-held attribute and role tags only. They do not verify current resonance, skills, values, mechanics, or combat strength."}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {synergies.map((s) => (
                     <span
@@ -396,9 +366,7 @@ function TeamBuilderInner({
             {/* Recommended Builds */}
             {recommendedBuilds.length > 0 && (
               <div className="rounded-xl border border-gray-800 bg-gray-900/50 p-4">
-                <h3 className="text-sm font-semibold mb-3">
-                  {t(locale, "teamBuilder.recommendedBuilds")}
-                </h3>
+                <h3 className="text-sm font-semibold mb-3">{isZh ? "历史构筑示例" : "Historical Build Examples"}</h3>
                 <div className="space-y-2 max-h-64 overflow-y-auto">
                   {recommendedBuilds.map((b, i) => {
                     const char = allCharacters.find(
@@ -547,10 +515,10 @@ function TeamBuilderInner({
           </div>
         </div>
 
-        {/* Preset Teams from builds.json */}
+        {/* Historical team examples from builds.json */}
         <section className="mt-12">
           <h2 className="text-xl font-bold mb-4">
-            {t(locale, "teamBuilder.presetTeams")}
+            {isZh ? "历史阵容示例" : "Historical Team Examples"}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {builds

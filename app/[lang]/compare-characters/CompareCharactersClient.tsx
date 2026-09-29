@@ -19,7 +19,7 @@ const STAT_ROWS: StatRow[] = [
   { label: "Rank", getValue: (c) => c.rank },
   { label: "Role", getValue: (c, isZh) => isZh ? c.role : c.roleEn },
   { label: "Attribute", getValue: (c, _, lang) => getAttributeLabel(c.attribute, lang) },
-  { label: "Tier", getValue: (c) => c.tierRank || "—" },
+  { label: "Historical Tier", getValue: (c) => c.tierRank || "—" },
   { label: "Weapon Type", getValue: (c, isZh) => isZh ? c.weapon : c.weaponEn },
   { label: "Signature Arc", getValue: (c) => {
     return c.signatureArc || "—";
@@ -34,15 +34,15 @@ const STAT_ROWS: StatRow[] = [
   }},
   { label: "Skill CD", getValue: (c) => c.skills?.skill?.cooldown || "—" },
   { label: "Skill Cost", getValue: (c) => c.skills?.skill?.cost || "—" },
-  { label: "Best Weapon", getValue: (c, isZh) => {
+  { label: "Historical Weapon Direction", getValue: (c, isZh) => {
     const b = c.recommendedBuild;
     return b ? (isZh ? b.bestWeapon : b.bestWeaponEn) : "—";
   }},
-  { label: "Best Disk Set", getValue: (c, isZh) => {
+  { label: "Historical Disk Direction", getValue: (c, isZh) => {
     const b = c.recommendedBuild;
     return b ? (isZh ? b.bestDiskSet : b.bestDiskSetEn) : "—";
   }},
-  { label: "Sub Stat Priority", getValue: (c, isZh) => {
+  { label: "Historical Substat Direction", getValue: (c, isZh) => {
     const b = c.recommendedBuild;
     return b ? (isZh ? b.subStatPriority : b.subStatPriorityEn).join(" > ") : "—";
   }},
@@ -103,8 +103,8 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
         </h1>
         <p className="text-gray-400 mb-6 text-sm">
           {isZh
-            ? `选择最多 ${MAX_COMPARE} 个角色并排对比属性、技能和配装。`
-            : `Compare up to ${MAX_COMPARE} characters side by side — stats, skills, and builds.`}
+            ? `并排查看最多 ${MAX_COMPARE} 个角色的站内历史字段；当前角色、技能、装备与获取状态请以客户端为准。`
+            : `View site-held historical fields for up to ${MAX_COMPARE} characters side by side; verify current characters, skills, gear, and availability in-client.`}
         </p>
 
         <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
@@ -113,8 +113,8 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZh
-              ? "这个页面最适合在抽卡前后做决定：比如你刚抽到一个新角色，想知道他到底能不能替掉当前主队里的位置，或者你手上有两个同定位角色，不确定该先养谁。把角色放到同一张表里看，通常比来回切多个详情页更容易发现差异。"
-              : "This page is most useful before and after pulls: when you need to know whether a new unit can replace an existing slot, or when two characters fill similar roles and you have to choose who deserves investment first. Seeing them on one table makes trade-offs much easier to spot."}
+              ? "本页把站内历史角色字段放在同一张表中，便于发现定位、技能描述和装备方向的差异。它不验证当前数值、机制、可获取状态或实际投入优先级；请先在客户端确认，再做养成或消费决定。"
+              : "This page puts site-held historical character fields in one table so you can spot differences in role, skill description, and gear direction. It does not verify current values, mechanics, availability, or investment priority; confirm in-client before progression or spending decisions."}
           </p>
         </section>
 
@@ -185,7 +185,7 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
             {/* Header row */}
             <div className="grid border-b border-gray-800 bg-gray-900" style={{ gridTemplateColumns: `160px repeat(${selectedChars.length}, 1fr)` }}>
               <div className="px-4 py-3 text-xs text-gray-500 font-medium">
-                {isZh ? "属性" : "Stat"}
+                {isZh ? "历史字段" : "Historical Field"}
               </div>
               {selectedChars.map((c) => (
                 <div key={c.id} className="px-3 py-3 text-center">
@@ -240,7 +240,7 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
             {/* Team comps */}
             <div className="grid border-b border-gray-800/50" style={{ gridTemplateColumns: `160px repeat(${selectedChars.length}, 1fr)` }}>
               <div className="px-4 py-2.5 text-xs text-gray-500">
-                {isZh ? "推荐队伍" : "Teams"}
+                {isZh ? "历史队伍示例" : "Historical Team Examples"}
               </div>
               {selectedChars.map((c) => (
                 <div key={c.id} className="px-3 py-2.5 text-[11px] text-gray-400">
@@ -264,7 +264,7 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
               </h2>
               <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
                 <li>{isZh ? "先确认他们是否真的在争同一个位置，而不是一个主 C 一个副 C 硬比。" : "Make sure they are actually competing for the same slot before comparing them."}</li>
-                <li>{isZh ? "再看武器和套装门槛，养成成本往往比纸面强度更影响实战。" : "Then compare weapon and set requirements, because build cost often changes practical value."}</li>
+                <li>{isZh ? "再在客户端核对当前武器、套装与技能效果，历史字段不等同于实时养成成本。" : "Then verify current weapon, set, and skill effects in-client; historical fields do not equal live build cost."}</li>
                 <li>{isZh ? "最后看推荐队友，很多差距其实来自协同门槛而不是单卡面板。" : "Finish with team requirements, since many gaps come from synergy demands rather than raw stats."}</li>
               </ul>
             </div>
@@ -273,7 +273,7 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
                 {isZh ? "常见误判" : "Common misreads"}
               </h2>
               <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
-                <li>{isZh ? "当前版本热度高，不等于一定更适合你的账号。" : "Current meta popularity does not always equal account-specific value."}</li>
+                <li>{isZh ? "历史排行或配装方向不等于当前版本结论，也不等于你的账号需求。" : "Historical tier or build direction is not a live verdict or a substitute for your account needs."}</li>
                 <li>{isZh ? "只看一个技能描述很容易偏差，循环和覆盖率也要一起看。" : "Comparing one skill in isolation misses rotation and coverage context."}</li>
                 <li>{isZh ? "零氪和微氪账号更该看成型成本，而不只是理论上限。" : "F2P and light-spend accounts should care about setup cost, not just ceiling."}</li>
               </ul>

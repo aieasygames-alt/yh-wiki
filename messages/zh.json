@@ -924,18 +924,18 @@
   },
   "teamBuilder": {
     "title": "配队构建器",
-    "subtitle": "构建你的队伍，分析协同效果，找到最佳阵容",
-    "seoTitle": "异环配队构建器 - 最佳阵容搭配与协同分析",
-    "seoDescription": "构建和优化异环队伍阵容，分析角色协同效果、功能补位与推荐配装，快速找到适合当前版本的队伍方案。",
+    "subtitle": "组合角色标签，查看本地功能观察",
+    "seoTitle": "异环队伍标签检查器｜本地组合观察",
+    "seoDescription": "依据站内静态属性与定位标签查看队伍组合；当前共鸣、技能、数值、机制与实战强度请以客户端为准。",
     "yourTeam": "你的队伍",
     "slot": "位置",
     "remove": "移除",
     "synergy": "协同分析",
     "shareTeam": "分享队伍",
     "clear": "清空",
-    "recommendedBuilds": "推荐配装",
+    "recommendedBuilds": "历史构筑示例",
     "searchPlaceholder": "搜索角色...",
-    "presetTeams": "预设阵容"
+    "presetTeams": "历史阵容示例"
   },
   "bossDirectory": {
     "title": "Boss与敌人图鉴"
