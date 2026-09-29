@@ -6,6 +6,8 @@ import { Breadcrumb } from "../../../components/Breadcrumb";
 import { FaqPageJsonLd } from "../../../components/JsonLd";
 import { FaqSection } from "../../../components/FaqSection";
 import { QuickAnswerCard } from "../../../components/QuickAnswerCard";
+import { ContentStatus } from "../../../components/ContentStatus";
+import operations from "../../../data/version-operations.json";
 
 type BannerStatus = "current" | "next" | "ended" | "upcoming";
 
@@ -281,6 +283,12 @@ function statusLabel(status: BannerStatus, locale: Locale) {
   return isZhLocale(locale) ? zh[status] : en[status];
 }
 
+function resolvedBannerStatus(banner: BannerEntry, today: string): BannerStatus {
+  if (banner.endDate < today) return "ended";
+  if (banner.startDate > today) return "upcoming";
+  return banner.status === "ended" ? "ended" : "current";
+}
+
 function formatDate(date: string, locale: Locale) {
   return isZhLocale(locale) ? date.replaceAll("-", ".") : date;
 }
@@ -319,20 +327,22 @@ export default async function BannersPage({ params }: { params: { lang: string }
   const { lang } = await params;
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
-  const current = banners.find((b) => b.status === "current")!;
-  const next = banners.find((b) => b.status === "next") ?? current;
+  const today = operations.reviewedAt;
+  const resolvedBanners = banners.map((banner) => ({ ...banner, resolvedStatus: resolvedBannerStatus(banner, today) }));
+  const current = resolvedBanners.find((banner) => banner.resolvedStatus === "current");
+  const next = resolvedBanners.find((banner) => banner.resolvedStatus === "upcoming");
   const faqs = [
     {
       question: "Who is the current NTE banner?",
       questionZh: "异环当前卡池是谁？",
-      answer: "The current Neverness to Everness limited banner is Shinku/Zhenhong, running from July 8 to July 29, 2026. She is a Cosmos S-rank burst DPS with the Blushing Mirage signature Arc.",
-      answerZh: "异环当前限定卡池为 Shinku/真红，时间为 2026-07-08 至 2026-07-29。她是宇宙属性S级爆发主C，同期专属Arc为 Blushing Mirage。",
+      answer: `The published schedules on this page end on or before ${today}. A new current banner has not been verified here yet; check the in-game countdown before spending Solid Dice.`,
+      answerZh: `本页已公开排期均在 ${today} 当日或之前结束；新的当前卡池尚未在本站核实。消耗 Solid Dice 前请以游戏内倒计时为准。`,
     },
     {
       question: "Who is the next NTE banner?",
       questionZh: "异环下一期卡池是谁？",
-      answer: "Iroi was the Version 1.2 Phase 2 limited banner. For the live Version 1.3 schedule, check the Zankou and Linko phases above and verify the in-game countdown.",
-      answerZh: "Iroi 是1.2下半限定角色。当前已进入1.3版本，请以上方赞空/链子卡池与游戏内倒计时为准。",
+      answer: "The next limited banner is not listed until an official schedule is confirmed. Historical entries remain below for roster reference only.",
+      answerZh: "下一期限定卡池在官方排期确认前不会列出。下方历史记录仅用于角色与版本回顾。",
     },
     {
       question: "Does NTE have a 50/50 on character banners?",
@@ -343,8 +353,8 @@ export default async function BannersPage({ params }: { params: { lang: string }
     {
       question: "Should I pull Shinku or wait for Iroi?",
       questionZh: "应该抽Shinku/真红还是等Iroi？",
-      answer: "Pull Shinku if you need a burst DPS for 999 Nights or boss fights. Wait for Iroi if your account already has damage but lacks a second sustain/buffer for safer teams.",
-      answerZh: "缺999 Nights或Boss爆发输出就抽Shinku/真红；已经有主C、但缺第二个生存增益位，就等Iroi。",
+      answer: "Do not base a current pull decision on the historical Shinku or Iroi schedules below. Wait for the in-game banner countdown and an official notice, then compare that banner with your roster needs.",
+      answerZh: "不要依据下方真红或伊洛伊的历史排期做当前抽取决定。请等待游戏内卡池倒计时与官方公告，再按自己的队伍缺口判断。",
     },
     {
       question: "Are CN and global server banner dates the same?",
@@ -366,16 +376,19 @@ export default async function BannersPage({ params }: { params: { lang: string }
       <main className="max-w-5xl mx-auto px-4 py-12">
         <section className="mb-10">
           <p className="text-xs uppercase tracking-[0.18em] text-primary-400 mb-3">
-            {isZh ? "2026-09-13 更新" : "Updated September 13, 2026"}
+            {isZh ? `最后复核 ${today}` : `Last reviewed ${today}`}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {isZh ? "异环卡池时间表：1.3赞空与链子" : "NTE Banner Schedule: Version 1.3 Zankou & Linko"}
+            {isZh ? "异环卡池时间表与历史排期" : "NTE Banner Schedule & History"}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {isZh
-              ? "追踪 Neverness to Everness 1.3赞空与链子卡池、角色池保底、Arc池风险和后续版本预告，帮助你快速判断要抽、跳过还是等下一期。"
-              : "Track the live Version 1.3 Zankou and Linko banners, pity rules, Arc-pool risks, and the next-version watchlist so you can decide whether to pull, skip, or wait."}
+              ? "整理已核实的历史卡池、角色池保底与 Arc 池风险。当前和后续卡池只会在官方公告或游戏内倒计时确认后列入。"
+              : "Review verified banner history, character pity, and Arc-pool risks. Current and future banners are added only after an official notice or in-game countdown confirms them."}
           </p>
+          <div className="mt-4">
+            <ContentStatus locale={locale} status="watch" reviewedAt={today} />
+          </div>
         </section>
 
         <QuickAnswerCard
@@ -383,15 +396,15 @@ export default async function BannersPage({ params }: { params: { lang: string }
           items={[
             {
               label: isZh ? "当前卡池：" : "Current banner:",
-              value: isZh
-                ? `${current.name}，${formatDate(current.startDate, locale)} 至 ${formatDate(current.endDate, locale)}。`
-                : `${current.nameEn}, ${current.startDate} to ${current.endDate}.`,
+              value: current
+                ? (isZh ? `${current.name}，${formatDate(current.startDate, locale)} 至 ${formatDate(current.endDate, locale)}。` : `${current.nameEn}, ${current.startDate} to ${current.endDate}.`)
+                : (isZh ? "本站待官方或游戏内倒计时确认。" : "Awaiting official or in-game countdown confirmation."),
             },
             {
               label: isZh ? "下一期：" : "Next banner:",
-              value: isZh
-                ? `${next.name}，${formatDate(next.startDate, locale)} 至 ${formatDate(next.endDate, locale)}。`
-                : `${next.nameEn}, ${next.startDate} to ${next.endDate}.`,
+              value: next
+                ? (isZh ? `${next.name}，${formatDate(next.startDate, locale)} 至 ${formatDate(next.endDate, locale)}。` : `${next.nameEn}, ${next.startDate} to ${next.endDate}.`)
+                : (isZh ? "尚未列入未确认的后续角色或日期。" : "No unconfirmed future character or date is listed."),
             },
             {
               label: isZh ? "角色池保底：" : "Character pity:",
@@ -428,7 +441,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
         </section>
 
         <section className="grid gap-4 mb-10">
-          {banners.map((banner) => (
+          {resolvedBanners.map((banner) => (
             <article
               key={banner.id}
               className="rounded-xl border border-gray-800 bg-gray-900/40 p-5 hover:border-primary-500/30 transition-colors"
@@ -436,8 +449,8 @@ export default async function BannersPage({ params }: { params: { lang: string }
               <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
                 <div>
                   <div className="flex flex-wrap items-center gap-2 mb-3">
-                    <span className={`text-xs px-2 py-1 rounded border ${statusStyle[banner.status]}`}>
-                      {statusLabel(banner.status, locale)}
+                    <span className={`text-xs px-2 py-1 rounded border ${statusStyle[banner.resolvedStatus]}`}>
+                      {statusLabel(banner.resolvedStatus, locale)}
                     </span>
                     <span className="text-xs text-gray-500">
                       {isZh ? banner.phase : banner.phaseEn}

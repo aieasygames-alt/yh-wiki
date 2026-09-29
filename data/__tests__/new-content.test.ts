@@ -110,6 +110,11 @@ describe("late Version 1.3 player-decision content", () => {
     expect(redeemCodeDataset.codes.filter((code) => code.status === "active").every((code) => !staleLivestreamCodes.includes(code.code))).toBe(true);
   });
 
+  it("uses the reviewed date as a boundary for live decision data", () => {
+    expect(operations.reviewedAt).toBe("2026-09-29");
+    expect(changelogsData.find((changelog) => changelog.version === operations.currentVersion)?.verificationStatus).toBe("live");
+  });
+
   it("publishes a risk-ranked content review queue", () => {
     expect(freshnessReport.reviewAfterDays).toBe(45);
     expect(freshnessReport.weeklyQueue.length).toBeGreaterThan(0);
