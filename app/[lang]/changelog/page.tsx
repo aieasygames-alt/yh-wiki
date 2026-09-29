@@ -2,6 +2,7 @@ import { getAllChangelogs } from "../../../lib/queries";
 import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import Link from "next/link";
+import { ContentStatus, type VerificationStatus } from "../../../components/ContentStatus";
 
 export async function generateMetadata({ params }: { params: { lang: string } }) {
   const { lang } = await params;
@@ -70,6 +71,11 @@ export default async function ChangelogListPage({ params }: { params: { lang: st
                   </span>
                   <span className="text-xs text-gray-500 ml-auto">{dateStr}</span>
                 </div>
+                <ContentStatus
+                  locale={locale}
+                  status={(cl.verificationStatus || "historical") as VerificationStatus}
+                  reviewedAt={cl.reviewedAt}
+                />
                 <ul className="space-y-1">
                   {highlights?.slice(0, 4).map((h, i) => (
                     <li key={i} className="text-sm text-gray-400 flex items-start gap-2">

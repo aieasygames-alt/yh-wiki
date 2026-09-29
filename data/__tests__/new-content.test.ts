@@ -96,6 +96,12 @@ describe("late Version 1.3 player-decision content", () => {
     }
   });
 
+  it("marks the current live patch distinctly from historical records", () => {
+    const live = changelogsData.find((changelog) => changelog.version === operations.currentVersion);
+    expect(live?.verificationStatus).toBe("live");
+    expect(changelogsData.some((changelog) => changelog.verificationStatus === "historical")).toBe(true);
+  });
+
   it("publishes a risk-ranked content review queue", () => {
     expect(freshnessReport.reviewAfterDays).toBe(45);
     expect(freshnessReport.weeklyQueue.length).toBeGreaterThan(0);
