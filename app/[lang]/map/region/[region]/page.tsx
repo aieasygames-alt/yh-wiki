@@ -35,39 +35,39 @@ export async function generateMetadata({
 
   const descriptions: Record<string, Record<string, string>> = {
     "new-herland": {
-      zh: "新赫兰德完整探索攻略：全谕石位置、收集品分布、BOSS挑战、商家一览，附详细标记地图。",
-      tw: "新赫蘭德完整探索攻略：全諭石位置、收集品分佈、BOSS挑戰、商家一覽，附詳細標記地圖。",
-      en: "Complete New Herland exploration guide: all Oracle Stone locations, collectibles, bosses, shops, with detailed marker map.",
+      zh: "新赫兰德历史标记资料：记录中的谕石、收集品、Boss、商家与地图字段；当前坐标和可用性请以客户端为准。",
+      tw: "新赫蘭德歷史標記資料：記錄中的諭石、收集品、Boss、商家與地圖欄位；目前座標和可用性請以客戶端為準。",
+      en: "Historical New Herland marker reference for recorded Oracle Stones, collectibles, bosses, shops, and map fields. Verify current coordinates and availability in the client.",
     },
     "bridge-crossings": {
-      zh: "桥间地完整探索攻略：全谕石位置、收集品分布、任务指引、商家一览，附详细标记地图。",
-      tw: "橋間地完整探索攻略：全諭石位置、收集品分佈、任務指引、商家一覽，附詳細標記地圖。",
-      en: "Complete Bridge Crossings exploration guide: all Oracle Stone locations, collectibles, quests, shops, with detailed marker map.",
+      zh: "桥间地历史标记资料：记录中的谕石、收集品、任务、商家与地图字段；当前坐标和可用性请以客户端为准。",
+      tw: "橋間地歷史標記資料：記錄中的諭石、收集品、任務、商家與地圖欄位；目前座標和可用性請以客戶端為準。",
+      en: "Historical Bridge Crossings marker reference for recorded Oracle Stones, collectibles, quests, shops, and map fields. Verify current coordinates and availability in the client.",
     },
     "unheard-shores": {
-      zh: "未闻浦完整探索攻略：全谕石位置、收集品分布、BOSS挑战、景点打卡，附详细标记地图。",
-      tw: "未聞浦完整探索攻略：全諭石位置、收集品分佈、BOSS挑戰、景點打卡，附詳細標記地圖。",
-      en: "Complete Unheard Shores exploration guide: all Oracle Stone locations, collectibles, bosses, viewpoints, with detailed marker map.",
+      zh: "未闻浦历史标记资料：记录中的谕石、收集品、Boss、景点与地图字段；当前坐标和可用性请以客户端为准。",
+      tw: "未聞浦歷史標記資料：記錄中的諭石、收集品、Boss、景點與地圖欄位；目前座標和可用性請以客戶端為準。",
+      en: "Historical Unheard Shores marker reference for recorded Oracle Stones, collectibles, bosses, viewpoints, and map fields. Verify current coordinates and availability in the client.",
     },
     "miguel-district": {
-      zh: "米格尔区完整探索攻略：全谕石位置、收集品分布、BOSS挑战、商家一览，附详细标记地图。",
-      tw: "米格爾區完整探索攻略：全諭石位置、收集品分佈、BOSS挑戰、商家一覽，附詳細標記地圖。",
-      en: "Complete Miguel District exploration guide: all Oracle Stone locations, collectibles, bosses, shops, with detailed marker map.",
+      zh: "米格尔区历史标记资料：记录中的谕石、收集品、Boss、商家与地图字段；当前坐标和可用性请以客户端为准。",
+      tw: "米格爾區歷史標記資料：記錄中的諭石、收集品、Boss、商家與地圖欄位；目前座標和可用性請以客戶端為準。",
+      en: "Historical Miguel District marker reference for recorded Oracle Stones, collectibles, bosses, shops, and map fields. Verify current coordinates and availability in the client.",
     },
     "illusion-town": {
-      zh: "绘空町完整探索攻略：全谕石位置、收集品分布、BOSS挑战、商家一览，附详细标记地图。",
-      tw: "繪空町完整探索攻略：全諭石位置、收集品分佈、BOSS挑戰、商家一覽，附詳細標記地圖。",
-      en: "Complete Illusion Town exploration guide: all Oracle Stone locations, collectibles, bosses, shops, with detailed marker map.",
+      zh: "绘空町历史标记资料：记录中的谕石、收集品、Boss、商家与地图字段；当前坐标和可用性请以客户端为准。",
+      tw: "繪空町歷史標記資料：記錄中的諭石、收集品、Boss、商家與地圖欄位；目前座標和可用性請以客戶端為準。",
+      en: "Historical Illusion Town marker reference for recorded Oracle Stones, collectibles, bosses, shops, and map fields. Verify current coordinates and availability in the client.",
     },
     fogden: {
-      zh: "Fogden完整探索攻略：1.3主线区域、异象、活动与收集路线。",
-      tw: "Fogden完整探索攻略：1.3主線區域、異象、活動與收集路線。",
-      en: "Complete Fogden exploration guide for NTE 1.3: story access, anomalies, activities, and collectibles.",
+      zh: "Fogden历史区域资料：记录中的剧情、异象、活动与收集字段；当前版本状态请以客户端为准。",
+      tw: "Fogden歷史區域資料：記錄中的劇情、異象、活動與收集欄位；目前版本狀態請以客戶端為準。",
+      en: "Historical Fogden region reference for recorded story, anomaly, event, and collection fields. Verify current version status in the client.",
     },
     duskmoor: {
-      zh: "Duskmoor完整探索攻略：1.3新区域、载具路线、活动与收集地图。",
-      tw: "Duskmoor完整探索攻略：1.3新區域、載具路線、活動與收集地圖。",
-      en: "Complete Duskmoor exploration guide for NTE 1.3: vehicle routes, activities, and collectibles.",
+      zh: "Duskmoor历史区域资料：记录中的载具、活动与收集字段；当前版本状态请以客户端为准。",
+      tw: "Duskmoor歷史區域資料：記錄中的載具、活動與收集欄位；目前版本狀態請以客戶端為準。",
+      en: "Historical Duskmoor region reference for recorded vehicle, event, and collection fields. Verify current version status in the client.",
     },
   };
 
@@ -75,14 +75,14 @@ export async function generateMetadata({
 
   return {
     title: isZh
-      ? localizedText(locale, `${regionName}探索攻略 - 全资源标记地图`, "")
-      : `${regionName} Exploration Guide - All Resource Map | Neverness to Everness`,
+      ? localizedText(locale, `${regionName}历史标记资料 - 地图字段参考`, "")
+      : `${regionName} Historical Marker Reference | Neverness to Everness`,
     description: desc,
     alternates: hreflangAlternates(`map/region/${regionId}`, lang),
     openGraph: {
       title: isZh
-        ? localizedText(locale, `${regionName}探索攻略 - 全标记地图`, "")
-        : `${regionName} Exploration Guide - All Marker Map`,
+        ? localizedText(locale, `${regionName}历史标记资料`, "")
+        : `${regionName} Historical Marker Reference`,
       description: desc,
       type: "article",
     },

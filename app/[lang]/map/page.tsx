@@ -227,8 +227,8 @@ export default function MapPage() {
           </h1>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-gray-400">
             {isZhLocale(lang)
-              ? "异环互动地图用于查看区域、标点、收集物和路线规划。建议先按区域和标点类型缩小范围，再结合隐藏已收集与路线规划功能处理每日探索、材料路线和版本补漏。"
-              : "The NTE interactive map helps you review regions, markers, collectibles, and route plans. Start by narrowing the map by region and marker type, then use hide-collected and route planning for daily exploration, material routes, and patch cleanup."}
+              ? "异环互动地图用于查看站内记录的历史区域、标点与本地路线草稿。它不验证当前坐标、收集物、材料、商店、Boss、任务或活动；请在客户端确认后再行动。"
+              : "The NTE interactive map shows site-recorded historical regions, markers, and local route drafts. It does not verify current coordinates, collectibles, materials, shops, bosses, quests, or events; confirm them in the client before acting."}
           </p>
         </div>
         <div className="w-full rounded-xl bg-gray-800 animate-pulse" style={{ height: "calc(100vh - 200px)", minHeight: "400px" }} />
@@ -311,8 +311,8 @@ export default function MapPage() {
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZhLocale(lang)
-              ? "最有效的方式不是一次把所有标点都打开，而是先按区域和材料类型缩小范围，再配合隐藏已收集功能把当前版本最急需的路线刷完。这个页面更适合做实战探索和补漏，而不是只当作静态坐标表浏览。"
-              : "The best workflow is not turning on every marker at once. Narrow the map by region and marker type first, then use Hide Collected to finish the routes that matter most for your current patch goals. This page is meant for active exploration and cleanup, not just passive coordinate browsing."}
+              ? "先把本页当作历史标记检索和本地路线草稿，再在客户端确认目标区域、解锁条件与坐标。隐藏已收集和进度百分比只反映本浏览器内的勾选，不反映游戏内状态。"
+              : "Use this page first as historical-marker lookup and a local route draft, then confirm the target area, unlock conditions, and coordinates in the client. Hide Collected and progress percentages reflect only this browser’s checkmarks, not in-game state."}
           </p>
         </section>
       )}

@@ -402,10 +402,10 @@
     "clickToAddRoute": "点击标记添加到路线"
   },
   "mapPage": {
-    "title": "异环互动地图",
-    "seoTitle": "异环互动地图 - 全资源标记位置 | NTE Guide",
-    "seoDescription": "查看异环(NTE)完整互动地图，包含所有宝箱、资源采集点、BOSS位置、传送锚点等标记，支持分类筛选和收集进度追踪。",
-    "description": "异环互动地图提供全地图资源标记...",
+    "title": "异环历史互动地图",
+    "seoTitle": "异环历史互动地图 - 标记字段与本地进度工具 | NTE Guide",
+    "seoDescription": "查看异环(NTE)站内记录的历史地图标记、分类筛选与浏览器本地进度工具；当前坐标、收集物、Boss、商店和活动请以客户端为准。",
+    "description": "异环历史地图标记与本地进度工具...",
     "interactiveMap": "异环互动地图",
     "allRegions": "全部区域",
     "fullscreen": "全屏",

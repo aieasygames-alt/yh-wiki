@@ -338,13 +338,18 @@ export default function RegionGuideClient({
 
       {/* Title */}
       <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-        {isZh ? `${regionName}探索攻略` : `${regionName} Exploration Guide`}
+        {isZh ? `${regionName}历史标记资料` : `${regionName} Historical Marker Reference`}
       </h1>
       <p className="text-gray-500 text-sm mb-8">
         {isZh
-          ? `${markers.length} 个标记点 · ${displayTypes.length} 种类型`
-          : `${markers.length} markers · ${displayTypes.length} types`}
+          ? `站内记录 ${markers.length} 个历史标记 · ${displayTypes.length} 种字段类型`
+          : `${markers.length} site-recorded historical markers · ${displayTypes.length} field types`}
       </p>
+      <div className="mb-8 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm leading-6 text-amber-100">
+        {isZh
+          ? "历史地图资料复核：2026-09-29。本页的坐标、数量、收集物、Boss、商店、任务、掉落、刷新、奖励和路线均不验证当前版本；请以目标区服客户端和官方公告为准。"
+          : "Historical map reference reviewed September 29, 2026. Coordinates, counts, collectibles, bosses, shops, quests, drops, refreshes, rewards, and routes on this page do not verify the current version; use the target server's client and official notices as the source of truth."}
+      </div>
       {markers.length === 0 && (regionId === "fogden" || regionId === "duskmoor") && (
         <div className="mb-8 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-200">
           {isZh ? "该区域点位数据正在校验中；当前页面先提供版本探索路线与活动规划。" : "Marker data for this region is being verified. This page currently provides route and activity planning."}
@@ -366,7 +371,7 @@ export default function RegionGuideClient({
       {/* Region overview */}
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4">
-          {isZh ? "区域概览" : "Region Overview"}
+          {isZh ? "历史区域概览" : "Historical Region Overview"}
         </h2>
         <p className="text-gray-300 leading-relaxed text-base">{introText}</p>
       </section>
@@ -374,7 +379,7 @@ export default function RegionGuideClient({
       {/* Marker stats grid */}
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4">
-          {isZh ? "标记统计" : "Marker Statistics"}
+          {isZh ? "历史标记统计" : "Historical Marker Counts"}
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {displayTypes.map((type) => {
@@ -403,7 +408,7 @@ export default function RegionGuideClient({
       {/* Highlights */}
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4">
-          {isZh ? "探索要点" : "Exploration Highlights"}
+          {isZh ? "历史探索说明" : "Historical Exploration Notes"}
         </h2>
         <div className="space-y-4">
           {guide.highlights.map((h, i) => {
@@ -424,7 +429,7 @@ export default function RegionGuideClient({
       {/* Tips */}
       <section className="mb-10">
         <h2 className="text-xl font-bold mb-4">
-          {isZh ? "探索小贴士" : "Exploration Tips"}
+          {isZh ? "客户端核对提示" : "Client Verification Reminders"}
         </h2>
         <div className="space-y-3">
           {guide.tips.map((tip, i) => {

@@ -735,10 +735,10 @@
     "title": "Boss Guide"
   },
   "mapPage": {
-    "title": "NTE Interactive Map",
-    "seoTitle": "NTE Map — Interactive Neverness to Everness Map, Chests & Resources",
-    "seoDescription": "Explore the NTE interactive map for Neverness to Everness with chest locations, resource nodes, bosses, waypoints, region filters, route planning, and collection progress tracking.",
-    "description": "NTE interactive map with full resource markers...",
+    "title": "NTE Historical Interactive Map",
+    "seoTitle": "NTE Historical Interactive Map - Marker Fields & Local Progress Tools",
+    "seoDescription": "Browse site-recorded historical NTE map markers, filters, and browser-local progress tools. Verify current coordinates, collectibles, bosses, shops, and events in the client.",
+    "description": "Historical NTE map markers and local progress tools...",
     "interactiveMap": "NTE Interactive Map",
     "allRegions": "All Regions",
     "fullscreen": "Fullscreen",

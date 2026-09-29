@@ -735,10 +735,10 @@
     "title": "Boss攻略"
   },
   "mapPage": {
-    "title": "異環互動地圖",
-    "seoTitle": "異環互動地圖 - 全資源標記位置 | NTE Guide",
-    "seoDescription": "查看異環(NTE)完整互動地圖，包含所有寶箱、資源採集點、BOSS位置、傳送錨點等標記，支持分類篩選和收集進度追蹤。",
-    "description": "異環互動地圖提供全地圖資源標記...",
+    "title": "異環歷史互動地圖",
+    "seoTitle": "異環歷史互動地圖 - 標記欄位與本地進度工具 | NTE Guide",
+    "seoDescription": "查看異環(NTE)站內記錄的歷史地圖標記、分類篩選與瀏覽器本地進度工具；目前座標、收集物、Boss、商家和活動請以客戶端為準。",
+    "description": "異環歷史地圖標記與本地進度工具...",
     "interactiveMap": "異環互動地圖",
     "allRegions": "全部區域",
     "fullscreen": "全螢幕",

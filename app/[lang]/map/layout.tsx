@@ -33,28 +33,28 @@ export default function MapLayout({
     : "What is the interactive map best at solving?";
   const introBody = isZh
     ? (locale === "tw"
-        ? "異環互動地圖最適合處理兩類需求：第一種是補漏，像是少了箱子、材料、挑戰點或區域收集；第二種是規劃，像是先跑哪個區、每天清哪些標記比較省時間。和只看單篇採集路線不同，地圖工具更適合長期追蹤自己的收集進度。"
-        : "异环互动地图最适合处理两类需求：第一种是补漏，像是少了箱子、材料、挑战点或区域收集；第二种是规划，像是先跑哪个区、每天清哪些标记更省时间。和只看单篇采集路线不同，地图工具更适合长期追踪自己的收集进度。")
-    : "The interactive map is most useful for two jobs in NTE: cleanup and planning. It helps when you are missing chests, materials, challenge markers, or regional collectibles, and it also helps you decide which route or zone to farm first. Compared with a one-off route guide, the map works better as a long-term progress tracker.";
+        ? "異環互動地圖提供站內記錄的歷史標記、篩選與瀏覽器本地進度工具。它不驗證目前坐標、收集物、商店、Boss、任務、掉落或活動狀態；出發前請在目標區服客戶端核對。"
+        : "异环互动地图提供站内记录的历史标记、筛选与浏览器本地进度工具。它不验证当前坐标、收集物、商店、Boss、任务、掉落或活动状态；出发前请在目标区服客户端核对。")
+    : "The interactive map provides site-recorded historical markers, filters, and browser-local progress tools. It does not verify current coordinates, collectibles, shops, bosses, quests, drops, or event status; confirm them in the target server's client before acting.";
   const notesTitle = isZh
     ? (locale === "tw" ? "打開地圖前先想好這幾件事" : "打开地图前先想好这几件事")
     : "Think about these before you start";
   const notes = isZh
     ? [
         locale === "tw"
-          ? "先決定你是要查單一標記，還是做整個區域的補完，這會直接影響篩選方式。"
-          : "先决定你是要查单一标记，还是做整个区域的补完，这会直接影响筛选方式。",
+          ? "先在客戶端確認目標標記仍存在、可到達且符合目前解鎖條件。"
+          : "先在客户端确认目标标记仍存在、可到达且符合当前解锁条件。",
         locale === "tw"
-          ? "如果你每天只有零碎時間，按區域或素材類型分批處理，通常比整張圖一起清更有效率。"
-          : "如果你每天只有零碎时间，按区域或素材类型分批处理，通常比整张图一起清更有效率。",
+          ? "本頁的路線與統計來自歷史標記資料，不能用來推斷目前材料、商店、Boss 或活動的刷新。"
+          : "本页的路线与统计来自历史标记资料，不能用来推断当前材料、商店、Boss 或活动的刷新。",
         locale === "tw"
-          ? "跨裝置使用時要留意瀏覽器本地進度，避免把舊記錄當成最新狀態。"
-          : "跨设备使用时要留意浏览器本地进度，避免把旧记录当成最新状态。",
+          ? "收集進度只儲存在目前瀏覽器，且不代表遊戲內完成狀態。"
+          : "收集进度只储存在当前浏览器，且不代表游戏内完成状态。",
       ]
     : [
-        "Decide whether you are checking one marker or cleaning up an entire region, because that changes how you should filter the map.",
-        "If you only play in short sessions, clearing by region or material type is usually more efficient than forcing a full-map sweep.",
-        "If you switch devices, watch your browser-local progress state so an older record does not replace the one you actually want.",
+        "Confirm in the client that a target marker still exists, is reachable, and meets current unlock conditions.",
+        "Routes and statistics on this page come from historical marker data and cannot establish current material, shop, boss, or event refreshes.",
+        "Collection progress is stored only in this browser and does not represent in-game completion.",
       ];
 
   return (
