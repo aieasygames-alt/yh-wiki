@@ -14,8 +14,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const { lang } = await params;
   const locale = lang as Locale;
-  const title = localizedText(locale, "异环 Steam 版现状：已上线、PC配置要求、与移动端区别全解析", "NTE on Steam: Live Status, PC Specs & Mobile vs PC Differences");
-  const description = localizedText(locale, "异环 Steam 版已在当前商店周期内上线。本文覆盖 Steam 当前状态、PC 最低/推荐配置、与移动端的画面与操作差异、以及账号与平台选择要点。", "NTE is already live on Steam in the current store cycle. This guide covers its current Steam status, PC minimum/recommended specs, visual and control differences vs mobile, and practical account/platform choices.");
+  const title = localizedText(locale, "异环 Steam / PC 平台选择与状态核验指南", "NTE Steam / PC Platform Choice & Status Check Guide", "異環 Steam / PC 平台選擇與狀態核驗指南");
+  const description = localizedText(locale, "异环(NTE) Steam、独立启动器、Epic 与云端 PC 的选择参考。商店可用性、配置和账号继承规则会变化，请以当前商店页、游戏内提示和官方公告为准。", "A guide for choosing NTE on Steam, the launcher, Epic, or Cloud PC. Store availability, requirements, and account-transfer rules can change, so verify the current store page, in-game prompts, and official notices.", "異環(NTE) Steam、獨立啟動器、Epic 與雲端 PC 的選擇參考。商店可用性、配置和帳號繼承規則可能變動，請以目前商店頁、遊戲內提示和官方公告為準。");
   return {
     title,
     description,
@@ -33,34 +33,34 @@ export default async function SteamPage({ params }: { params: { lang: string } }
     {
       question: "When does NTE release on Steam?",
       questionZh: "异环 Steam 版什么时候发售？",
-      answer: "As of July 11, 2026, NTE is already live on Steam in the current release cycle. If you mainly care about PC platform choice now, the question is no longer whether to wait for Steam, but whether you prefer Steam, the standalone launcher, Epic, or Cloud PC.",
-      "answerZh": "截至 2026 年 7 月 11 日，异环 Steam 版已经在当前商店周期内上线。对现在的 PC 玩家来说，重点已经不是“要不要等 Steam”，而是更适合 Steam、独立启动器、Epic，还是云异环 PC。"
+      answer: "Steam availability can change by store region and publishing cycle. Check the current Steam store page and official notice before downloading; then compare Steam, the standalone launcher, Epic, and Cloud PC based on your device and account route.",
+      "answerZh": "Steam 可用性可能因商店地区和发行周期变化。下载前请核对当前 Steam 商店页和官方公告，再按设备和账号路径比较 Steam、独立启动器、Epic 与云异环 PC。"
     },
     {
       question: "Will my NTE account work on Steam?",
       questionZh: "异环 Steam 版能用现有账号吗？",
-      answer: "The current Steam release works with the existing NTE account flow used by the global publishing track. In practical terms, players should treat Steam as another global-side PC entry point rather than as a separate progression server. CN-server migration still should not be assumed without explicit official support.",
-      "answerZh": "当前 Steam 版已经进入现有的异环账号流程，更像是国际服 PC 侧的又一个入口，而不是一套独立进度服务器。国服账号迁移仍然不应默认视为已支持，具体边界仍以官方说明为准。"
+      answer: "Do not assume account inheritance across Steam, launcher, Epic, CN, and global routes. Confirm the account binding, server, and migration wording in the current client or official notice before creating or linking an account.",
+      "answerZh": "不要默认 Steam、独立启动器、Epic、国服和国际服之间一定能继承账号。创建或绑定账号前，请在当前客户端或官方公告中核对账号绑定、区服和迁移说明。"
     },
     {
       question: "What are the PC requirements for NTE on Steam?",
       questionZh: "异环 Steam 版 PC 配置要求是什么？",
-      answer: "Minimum: Intel i5-8400 / Ryzen 5 1600, 8GB RAM, GTX 1060 6GB / RX 580, 90GB SSD. Recommended: Intel i7-9700 / Ryzen 7 3700X, 16GB RAM, RTX 2060 / RX 5700 XT class GPU, 90GB NVMe SSD. Full details on the system requirements page.",
-      "answerZh": "最低配置：Intel i5-8400 / Ryzen 5 1600、8GB 内存、GTX 1060 6GB / RX 580、90GB SSD。推荐配置：Intel i7-9700 / Ryzen 7 3700X、16GB 内存、RTX 2060 / RX 5700 XT 级显卡、90GB NVMe SSD。完整配置表见系统要求页面。"
+      answer: "Use the current store page and in-game launcher as the source of truth for minimum storage, OS, and hardware requirements. Treat comparison tables as planning references, not a promise of performance on every device.",
+      "answerZh": "请以当前商店页和游戏启动器显示的存储、系统与硬件要求为准。配置对比表只用于规划参考，不承诺每台设备的实际表现。"
     },
     {
       question: "Is the Steam version worth waiting for?",
       questionZh: "异环 Steam 版值得等吗？",
-      "answer": "As of July 11, 2026, this is no longer a waiting question for most players because Steam is already live. The real choice is whether you value Steam's ecosystem enough to prefer it over the launcher, Epic, or Cloud PC.",
-      "answerZh": "截至 2026 年 7 月 11 日，对多数玩家来说这已经不是“值不值得等”的问题，因为 Steam 版已经上线。现在真正要比较的是：你是否更看重 Steam 生态，而不是独立启动器、Epic 或云异环 PC。"
+      "answer": "Steam is worth choosing when the current store page supports your region and its account rules match your existing route. Otherwise, the launcher, Epic, or Cloud PC may be a better fit; compare them after verifying live availability.",
+      "answerZh": "当当前商店页支持你的地区且账号规则符合现有路径时，Steam 才值得优先考虑。否则独立启动器、Epic 或云异环 PC 可能更合适；请先核验实时可用性再比较。"
     },
   ];
 
   return (
     <>
       <ArticleJsonLd
-        title={isZh ? "异环 Steam 版发售指南" : "NTE on Steam — Release Guide"}
-        description={localizedText(locale, "Steam 版当前状态、PC 配置要求、账号互通与平台选择建议", "Steam live status, PC requirements, account behavior, and platform choice advice")}
+        title={isZh ? "异环 Steam / PC 平台选择与状态核验" : "NTE Steam / PC Platform Choice & Status Check"}
+        description={localizedText(locale, "Steam、PC 配置和账号规则的核验要点与平台选择建议", "What to verify for Steam availability, PC requirements, account rules, and platform choice")}
         url={`https://nteguide.com/${lang}/steam`}
       />
       <FaqPageJsonLd faqs={faqs} lang={locale} />
@@ -73,17 +73,17 @@ export default async function SteamPage({ params }: { params: { lang: string } }
       <main className="max-w-4xl mx-auto px-4 py-12">
         <section className="mb-8">
           <p className="text-xs uppercase tracking-[0.18em] text-primary-400 mb-3">
-            {isZh ? "2026-07-11 更新" : "Updated July 11, 2026"}
+            {isZh ? "历史信息复核：2026-09-29" : "Historical information reviewed: September 29, 2026"}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            {localizedText(locale, "异环 Steam 版：当前状态与 PC 入口完整指南", "NTE on Steam: Current Status and PC Access Guide", "異環 Steam 版：目前狀態與 PC 入口完整指南")}
+            {localizedText(locale, "异环 Steam / PC：平台选择与状态核验", "NTE Steam / PC: Platform Choice & Status Check", "異環 Steam / PC：平台選擇與狀態核驗")}
           </h1>
           <p className="text-gray-400 max-w-3xl leading-relaxed">
             {localizedText(
               locale,
-              "截至 2026 年 7 月 11 日，异环（Neverness to Everness）Steam 版已经进入当前商店周期。本文不再按“预售等待页”来写，而是直接回答现在 Steam、独立启动器、Epic 与云异环 PC 该怎么选。",
-              "As of July 11, 2026, Neverness to Everness is already in the current Steam store cycle. This page no longer treats Steam as a future waitlist topic and instead focuses on how to choose between Steam, the standalone launcher, Epic, and Cloud PC right now.",
-              "截至 2026 年 7 月 11 日，異環（Neverness to Everness）Steam 版已進入目前商店週期。本文不再把它寫成等待頁，而是直接回答現在該如何在 Steam、獨立啟動器、Epic 與雲異環 PC 之間做選擇。"
+              "商店可用性、区服、账号继承与配置要求都可能变化。这页帮助你按平台生态、本地设备和网络条件做选择；下载或绑定前，请以当前 Steam 商店页、客户端提示和官方公告为准。",
+              "Store availability, server coverage, account inheritance, and requirements can change. This page helps you choose by platform ecosystem, local hardware, and network conditions; verify the current Steam store page, client prompts, and official notices before downloading or linking an account.",
+              "商店可用性、伺服器、帳號繼承與配置要求都可能變動。這頁幫你按平台生態、本地裝置與網路條件做選擇；下載或綁定前，請以目前 Steam 商店頁、客戶端提示和官方公告為準。"
             )}
           </p>
         </section>
@@ -107,20 +107,20 @@ export default async function SteamPage({ params }: { params: { lang: string } }
           locale={locale}
           items={[
             {
-              label: isZh ? "当前状态：" : "Status:",
-              value: isZh ? "Steam 已上线" : "Steam live"
+              label: isZh ? "商店状态：" : "Store status:",
+              value: isZh ? "下载前核对当前 Steam 商店页" : "Verify the current Steam store page before downloading"
             },
             {
-              label: isZh ? "最低 GPU：" : "Min GPU:",
-              value: "GTX 1060 6GB / RX 580"
+              label: isZh ? "配置来源：" : "Requirements:",
+              value: isZh ? "以当前商店页与启动器为准" : "Use the current store page and launcher"
             },
             {
-              label: isZh ? "推荐 GPU：" : "Rec GPU:",
-              value: "RTX 2060 / RX 5700 XT"
+              label: isZh ? "性能预期：" : "Performance:",
+              value: isZh ? "因设备与版本而异，先看系统要求" : "Varies by device and version; check requirements"
             },
             {
-              label: isZh ? "账号互通：" : "Account:",
-              value: isZh ? "国际服入口已接通" : "Global entry active"
+              label: isZh ? "账号规则：" : "Account rules:",
+              value: isZh ? "绑定与继承须以客户端/公告核验" : "Verify binding and inheritance in-client or officially"
             },
           ]}
         />
@@ -153,16 +153,16 @@ export default async function SteamPage({ params }: { params: { lang: string } }
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "一、当前 Steam 状态" : "1. Current Steam Status"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "一、先核验 Steam 商店状态" : "1. Verify Steam Store Status First"}</h2>
           <p className="text-gray-400 leading-relaxed">
             {isZh
-              ? "截至 2026 年 7 月 11 日，这页更适合按“已经能上 Steam”来理解，而不是继续保留 7 月 22 日的旧等待口径。对玩家更有价值的问题是：你现在要不要直接从 Steam 进入、是否更适合用独立启动器或 Epic，以及你所在区服对应的账号体系怎么选。"
-              : "As of July 11, 2026, this page is more useful when read as an already-live Steam entry rather than a July 22 waiting page. The practical question now is whether Steam is your best PC route versus the launcher or Epic, and how that fits your server/account setup."}
+              ? "不要把历史商店状态当作当前可用性的证明。先在 Steam 商店页确认你的地区是否可获取，再核对游戏名称、发行方、支持语言、下载要求与当前公告。确认后，再比较 Steam、独立启动器、Epic 与云端 PC 是否更符合你的设备和账号路径。"
+              : "Do not treat historical store status as proof of current availability. First confirm regional availability on the Steam store page, then check the game name, publisher, supported languages, download requirements, and current notices. Only then compare Steam, the launcher, Epic, and Cloud PC for your device and account route."}
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">{isZh ? "二、PC 配置要求" : "2. PC Requirements"}</h2>
+          <h2 className="text-2xl font-bold mb-4">{isZh ? "二、PC 配置参考" : "2. PC Requirement Reference"}</h2>
           <div className="space-y-4">
             <div className="rounded-lg border border-gray-800 bg-gray-900/40 p-4">
               <h3 className="font-semibold text-gray-200 mb-3">{isZh ? "最低配置" : "Minimum"}</h3>
@@ -186,6 +186,8 @@ export default async function SteamPage({ params }: { params: { lang: string } }
             </div>
           </div>
           <p className="text-sm text-gray-500 mt-3">
+            {isZh ? "下列历史规格仅供预估，下载前请以当前商店页或启动器显示为准。" : "The historical specs below are planning references only; check the current store page or launcher before downloading."}
+            <br />
             <Link href={`/${lang}/system-requirements`} className="text-primary-400 hover:text-primary-300">
               {isZh ? "→ 完整系统要求页面（含手机/PS5）" : "→ Full system requirements (mobile/PS5 included)"}
             </Link>
@@ -204,8 +206,8 @@ export default async function SteamPage({ params }: { params: { lang: string } }
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-800">
-                <tr><td className="p-3">{isZh ? "画面" : "Visuals"}</td><td className="p-3 text-emerald-400">{isZh ? "最高，接近 CG" : "Max, near-CG"}</td><td className="p-3 text-amber-400">{isZh ? "受机型限制" : "Device-limited"}</td></tr>
-                <tr><td className="p-3">{isZh ? "帧率" : "Frame Rate"}</td><td className="p-3 text-emerald-400">{isZh ? "可稳定 120+" : "Stable 120+"}</td><td className="p-3 text-amber-400">{isZh ? "旗舰 120，中端 60" : "Flagship 120, mid 60"}</td></tr>
+                <tr><td className="p-3">{isZh ? "画面" : "Visuals"}</td><td className="p-3 text-emerald-400">{isZh ? "通常有更多图形选项" : "Usually more graphics options"}</td><td className="p-3 text-amber-400">{isZh ? "受设备与散热限制" : "Limited by device and thermals"}</td></tr>
+                <tr><td className="p-3">{isZh ? "帧率" : "Frame Rate"}</td><td className="p-3 text-emerald-400">{isZh ? "取决于硬件和版本设置" : "Depends on hardware and version settings"}</td><td className="p-3 text-amber-400">{isZh ? "取决于机型和画质设置" : "Depends on device and graphics settings"}</td></tr>
                 <tr><td className="p-3">{isZh ? "操作" : "Controls"}</td><td className="p-3 text-emerald-400">{isZh ? "键鼠/手柄精准" : "KBM/gamepad precise"}</td><td className="p-3 text-amber-400">{isZh ? "触屏" : "Touch"}</td></tr>
                 <tr><td className="p-3">{isZh ? "加载速度" : "Loading"}</td><td className="p-3 text-emerald-400">{isZh ? "NVMe 极快" : "NVMe very fast"}</td><td className="p-3 text-amber-400">{isZh ? "依赖闪存速度" : "Depends on flash"}</td></tr>
                 <tr><td className="p-3">{isZh ? "便携性" : "Portability"}</td><td className="p-3 text-gray-500">{isZh ? "低" : "Low"}</td><td className="p-3 text-emerald-400">{isZh ? "高" : "High"}</td></tr>
@@ -214,8 +216,8 @@ export default async function SteamPage({ params }: { params: { lang: string } }
           </div>
           <p className="text-sm text-gray-500 mt-3">
             {isZh
-              ? "如果你追求最佳画面和操作体验，Steam/PC 版是首选。如果想随时随地玩，移动端更合适。两边账号互通（同一服务器内），可以双端切换。"
-              : "If you want the best visuals and controls, Steam/PC is the pick. For on-the-go play, mobile wins. Accounts sync within the same server, so you can switch between both."}
+              ? "本地 PC 通常更适合追求键鼠/手柄与图形选项的玩家，移动端更适合便携场景。跨平台进度是否继承必须按当前账号、区服和绑定规则在客户端或公告中确认。"
+              : "Local PC usually suits players who value keyboard, controller, and graphics options, while mobile suits portability. Confirm cross-platform progression in the current client or official notice for your exact account, server, and binding route."}
           </p>
         </section>
 
