@@ -76,10 +76,15 @@ export async function generateMetadata({
   const guide = getGuide(slug);
   if (!guide) return {};
   const locale = lang as Locale;
+  const isDownloadGuide = slug === "download-install-guide";
   const seoTitle = localizedText(locale, guide.seoTitleZh || guide.title, guide.seoTitleEn || guide.titleEn, guide.seoTitleTw || guide.titleTw);
-  const title = locale === "tw" && seoTitle === guide.title ? `${seoTitle}（繁中）` : seoTitle;
+  const title = isDownloadGuide
+    ? localizedText(locale, "异环下载入口与状态核验指南", "NTE Download Entry & Status Check Guide", "異環下載入口與狀態核驗指南")
+    : locale === "tw" && seoTitle === guide.title ? `${seoTitle}（繁中）` : seoTitle;
   const seoDescription = localizedText(locale, guide.seoDescriptionZh || guide.summary, guide.seoDescriptionEn || guide.summaryEn, guide.seoDescriptionTw || guide.summaryTw);
-  const baseDescription = locale === "tw" && seoDescription === guide.summary ? `${seoDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : seoDescription;
+  const baseDescription = isDownloadGuide
+    ? localizedText(locale, "异环(NTE)下载前的入口与状态核验流程：先确认地区、账号、当前商店页、支持平台和安装空间，再选择本地或云端路径。", "NTE pre-download entry and status-check workflow: confirm region, account, current store page, supported platform, and storage before choosing a local or cloud route.", "異環(NTE)下載前的入口與狀態核驗流程：先確認地區、帳號、目前商店頁、支援平台和安裝空間，再選擇本地或雲端路徑。")
+    : locale === "tw" && seoDescription === guide.summary ? `${seoDescription} 本頁為繁體中文版本，整理重點、步驟與相關資源。` : seoDescription;
   const description = buildGuideMetaDescription({
     locale,
     summary: baseDescription,
@@ -133,7 +138,9 @@ export default async function GuideDetailPage({
     <>
       <ArticleJsonLd
         title={title}
-        description={summary}
+        description={slug === "download-install-guide"
+          ? localizedText(locale, "异环下载入口与状态核验：核对地区、账号、商店页面、平台支持与安装空间。", "NTE download entry and status check: verify region, account, store page, platform support, and storage.", "異環下載入口與狀態核驗：核對地區、帳號、商店頁、平台支援與安裝空間。")
+          : summary}
         url={`https://nteguide.com/${lang}/guides/${slug}`}
         datePublished={guide.date}
         dateModified={guide.date}
@@ -165,9 +172,16 @@ export default async function GuideDetailPage({
               : `Updated ${guide.date}`}
           </time>
         )}
+        {slug === "download-install-guide" && (
+          <p className="text-xs text-gray-500 -mt-4 mb-6">
+            {isZhLocale(locale)
+              ? (locale === "tw" ? "下載資訊復核：2026-09-29。商店可用性、帳號與安裝要求可能變動。" : "下载信息复核：2026-09-29。商店可用性、账号与安装要求可能变动。")
+              : "Download information reviewed September 29, 2026. Store availability, account rules, and install requirements can change."}
+          </p>
+        )}
         <ContentStatus
           locale={locale}
-          status={(guide.tags.includes("1.3") ? "live" : "historical") as VerificationStatus}
+          status={(slug === "download-install-guide" ? "needs-review" : guide.tags.includes("1.3") ? "live" : "historical") as VerificationStatus}
           reviewedAt={guide.date}
         />
         <div className="mb-6">
@@ -182,15 +196,15 @@ export default async function GuideDetailPage({
                 label: isZhLocale(locale) ? (locale === "tw" ? "先選入口：" : "先选入口：") : "Pick entry:",
                 value: isZhLocale(locale)
                   ? (locale === "tw"
-                    ? "高頻 PC 遊玩選本地啟動器或 Steam/Epic；手機用 App Store / Android 商店；低配或短時上線看雲異環。"
-                    : "高频 PC 游玩选本地启动器或 Steam/Epic；手机用 App Store / Android 商店；低配或短时上线看云异环。")
-                  : "Use local launcher or Steam/Epic for frequent PC play, mobile stores for phones, and Cloud PC for low-spec or short sessions.",
+                    ? "先確認你的地區、帳號與目前商店頁，再選本地 PC、手機、主機或雲端路徑。"
+                    : "先确认你的地区、账号与当前商店页，再选本地 PC、手机、主机或云端路径。")
+                  : "Confirm your region, account route, and current store page before choosing local PC, mobile, console, or Cloud PC.",
               },
               {
-                label: isZhLocale(locale) ? (locale === "tw" ? "安裝空間：" : "安装空间：") : "Install size:",
+                label: isZhLocale(locale) ? (locale === "tw" ? "安裝空間：" : "安装空间：") : "Install space:",
                 value: isZhLocale(locale)
-                  ? (locale === "tw" ? "PC 建議在 SSD / NVMe 預留約 90GB，手機預留約 20-25GB，並給後續補丁留空間。" : "PC 建议在 SSD / NVMe 预留约 90GB，手机预留约 20-25GB，并给后续补丁留空间。")
-                  : "Reserve around 90GB on SSD/NVMe for PC and around 20-25GB on mobile, with extra room for patches.",
+                  ? (locale === "tw" ? "以目前商店頁或啟動器顯示的下載與額外空間要求為準。" : "以当前商店页或启动器显示的下载与额外空间要求为准。")
+                  : "Use the current store page or launcher listing for download and extra-space requirements.",
               },
               {
                 label: isZhLocale(locale) ? (locale === "tw" ? "安全提醒：" : "安全提醒：") : "Safety:",
@@ -225,9 +239,9 @@ export default async function GuideDetailPage({
                 <p className="text-sm text-gray-400 mt-1">
                   {isZhLocale(locale)
                     ? (locale === "tw"
-                      ? "本頁為非官方整理：先按 PC 啟動器、手機、PS5、Steam/Epic 或雲異環選入口，再核對配置與伺服器。"
-                      : "本页为非官方整理：先按 PC 启动器、手机、PS5、Steam/Epic 或云异环选入口，再核对配置与服务器。")
-                    : "Unofficial guide: choose the PC launcher, mobile, PS5, Steam/Epic, or Cloud PC path, then check requirements and server fit."}
+                      ? "本頁為非官方整理：先在站內核對地區、帳號、平台狀態與配置，再到目前商店或官方入口下載。"
+                      : "本页为非官方整理：先在站内核对地区、账号、平台状态与配置，再到当前商店或官方入口下载。")
+                    : "Unofficial guide: verify region, account, platform status, and requirements here first, then download from the current store or official entry."}
                 </p>
               </div>
             </div>
@@ -238,38 +252,30 @@ export default async function GuideDetailPage({
               >
                 {isZhLocale(locale) ? (locale === "tw" ? "入口導航" : "入口导航") : "Entry Guide"}
               </Link>
-              <a
-                href="https://nte.perfectworld.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary-600 hover:bg-primary-500 text-white font-medium text-sm transition-colors"
               >
-                🖥 PC
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.pwrd.nteglobal"
-                target="_blank"
-                rel="noopener noreferrer"
+                🖥 {isZhLocale(locale) ? (locale === "tw" ? "PC 核驗" : "PC 核验") : "PC Check"}
+              </Link>
+              <Link
+                href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-green-700 hover:bg-green-600 text-white font-medium text-sm transition-colors"
               >
                 Android
-              </a>
-              <a
-                href="https://apps.apple.com/app/neverness-to-everness/id6741713522"
-                target="_blank"
-                rel="noopener noreferrer"
+              </Link>
+              <Link
+                href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-colors"
               >
                 iOS
-              </a>
-              <a
-                href="https://store.playstation.com/concept/10008264"
-                target="_blank"
-                rel="noopener noreferrer"
+              </Link>
+              <Link
+                href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white font-medium text-sm transition-colors"
               >
                 PS5
-              </a>
+              </Link>
               <Link
                 href={`/${lang}/blog/cloud-yihuan-pc-guide`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white font-medium text-sm transition-colors"
