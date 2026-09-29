@@ -320,7 +320,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
   const locale = lang as Locale;
   const isZh = isZhLocale(locale);
   const current = banners.find((b) => b.status === "current")!;
-  const next = banners.find((b) => b.status === "next");
+  const next = banners.find((b) => b.status === "next") ?? current;
   const faqs = [
     {
       question: "Who is the current NTE banner?",
