@@ -292,8 +292,8 @@ export function MaterialPlannerClient({
         </h1>
         <p className="text-gray-400 mb-6 text-sm">
           {isZh
-            ? "添加多个角色，自动汇总所需材料，追踪收集进度。"
-            : "Add multiple characters, auto-aggregate materials needed, track collection progress."}
+            ? "按固定本地材料表汇总多个角色的估算需求，并记录自填收集进度。"
+            : "Aggregate estimated multi-character needs from fixed local material tables and track the inventory you enter."}
         </p>
 
         <section className="mb-6 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
@@ -302,8 +302,8 @@ export function MaterialPlannerClient({
           </h2>
           <p className="mt-3 text-sm leading-7 text-gray-300">
             {isZh
-              ? "当你准备同时养两到三个角色，或者刚经历一个新版本抽卡后要重新分配体力时，这个页面会特别有用。它能把升级和技能材料合在一起看，避免你今天刷角色突破、明天又发现技能书完全不够。"
-              : "This planner becomes especially useful when you are building multiple characters at once or redistributing stamina after a new patch or pull session. It combines leveling and skill materials so you do not farm ascension today and discover tomorrow that you are still missing the core skill books."}
+              ? "当你想在同一套本地材料表下比较多个角色的等级与技能需求时，这个页面最有用。它不读取你的背包或当前版本数据；先在客户端核对角色、材料、活动与掉落，再把结果当作规划草稿。"
+              : "This page is most useful for comparing level and skill needs for several characters against the same local material table. It does not read your inventory or live game data; verify characters, materials, events, and drops in the client before using the result as a planning draft."}
           </p>
         </section>
 
@@ -325,7 +325,7 @@ export function MaterialPlannerClient({
             <ul className="mt-3 space-y-2 text-sm leading-6 text-gray-300">
               <li>{isZh ? "一次规划太多角色，结果谁都养不成型。" : "Planning too many characters at once and ending up with none of them actually finished."}</li>
               <li>{isZh ? "只盯等级，不算技能书、金币或稀有材料的同步压力。" : "Tracking levels only while ignoring books, currency, and rarer shared bottlenecks."}</li>
-              <li>{isZh ? "把计划写得太满，没有给新版本卡池或临时养成需求留空间。" : "Packing the plan so tightly that there is no room for a new patch banner or a sudden priority shift."}</li>
+              <li>{isZh ? "把本地估算误当成当前材料表，未在客户端复核等级上限、掉落和活动。" : "Treating a local estimate as the live material table without checking caps, drops, and events in the client."}</li>
             </ul>
           </div>
         </section>
@@ -440,8 +440,8 @@ export function MaterialPlannerClient({
                 <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 p-4 mb-4">
                   <div className="flex flex-wrap items-center justify-between gap-3">
                     <div>
-                      <h2 className="text-sm font-semibold text-amber-100">{isZh ? "今日优先级" : "Today's priorities"}</h2>
-                      <p className="mt-1 text-xs text-amber-100/70">{isZh ? "先补稀有且缺口大的材料；限时活动奖励仍应优先于常驻清图。" : "Farm rare, high-gap materials first; limited event rewards still outrank permanent cleanup."}</p>
+                      <h2 className="text-sm font-semibold text-amber-100">{isZh ? "本地缺口排序" : "Local Gap Ordering"}</h2>
+                      <p className="mt-1 text-xs text-amber-100/70">{isZh ? "按本地缺口排序；当前材料来源、活动与效率请先在客户端核对。" : "Sorted by local gaps; verify current sources, events, and efficiency in the client first."}</p>
                     </div>
                     <button onClick={exportPlan} className="rounded-md border border-amber-400/30 px-3 py-1.5 text-xs text-amber-100 hover:bg-amber-400/10">
                       {isZh ? "复制计划" : "Copy plan"}
