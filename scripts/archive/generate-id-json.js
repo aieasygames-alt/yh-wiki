@@ -779,15 +779,6 @@ const id = {
     ],
     analyticsOptOut:
       "Anda dapat memilih keluar dari pelacakan Google Analytics dengan menginstal add-on browser opt-out Google Analytics.",
-    advertisingTitle: "Periklanan",
-    advertisingContent:
-      "Kami menggunakan Google AdSense untuk menampilkan iklan di situs web kami. Google AdSense dapat menggunakan cookie dan teknologi serupa untuk menampilkan iklan yang dipersonalisasi berdasarkan kunjungan Anda sebelumnya ke situs kami atau situs web lain. Anda dapat mengontrol personalisasi iklan melalui:",
-    adManagePrefs: "Kelola preferensi iklan Anda",
-    adPersonalization: "Pengaturan Personalisasi Iklan",
-    adOptOut: "Pilih keluar dari iklan yang dipersonalisasi",
-    adThirdPartyOptOut: "Pilih keluar dari iklan pihak ketiga",
-    adThirdPartyNote:
-      "Pengiklan pihak ketiga dapat menggunakan cookie untuk melacak aktivitas penjelajahan Anda untuk menampilkan iklan yang relevan saat Anda mengunjungi situs web lain. Pihak ketiga ini termasuk Google dan mitranya.",
     cookieTitle: "Kebijakan Cookie",
     cookieContent:
       "Situs web kami menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman penjelajahan Anda. Cookie adalah file teks kecil yang disimpan di perangkat Anda. Jenis cookie yang kami gunakan meliputi:",
@@ -797,9 +788,6 @@ const id = {
     cookieAnalytics: "Cookie Analitik",
     cookieAnalyticsDesc:
       "Digunakan untuk memahami bagaimana pengunjung menggunakan situs kami (Google Analytics)",
-    cookieAdvertising: "Cookie Periklanan",
-    cookieAdvertisingDesc:
-      "Digunakan untuk menampilkan iklan yang relevan (Google AdSense)",
     cookieManage:
       "Anda dapat mengelola atau menghapus cookie melalui pengaturan browser Anda. Harap perhatikan bahwa menonaktifkan cookie dapat mempengaruhi fitur tertentu dari situs web.",
     dataProtectionTitle: "Perlindungan Data",

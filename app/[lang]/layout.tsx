@@ -10,7 +10,6 @@ import type { Locale } from "../../lib/i18n";
 // Third-party IDs are configurable via env so dev / preview / prod can differ.
 // Defaults keep legacy behaviour if env is unset.
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
-const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 const MSVALIDATE = process.env.NEXT_PUBLIC_MSVALIDATE;
 
 export async function generateMetadata() {
@@ -38,17 +37,6 @@ export default async function LangLayout({
       <head>
         {MSVALIDATE && <meta name="msvalidate.01" content={MSVALIDATE} />}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
-        {/* AdSense loader — lazy so it doesn't block FCP. Next.js <Script> with
-            afterInteractive runs after the page is interactive but before
-            load event; AdSense fills slots on its own schedule after that. */}
-        {ADSENSE_CLIENT && (
-          <Script
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-            crossOrigin="anonymous"
-            strategy="afterInteractive"
-          />
-        )}
         {GA_ID && (
           <>
             <Script
