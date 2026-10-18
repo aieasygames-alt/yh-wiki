@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-29",
+  "reviewedAt": "2026-10-18",
   "codes": [
   {
     "code": "YHBILIBILI0423",
@@ -65,7 +65,7 @@
     "code": "NTEFREE",
     "reward": "芬斯x30000",
     "rewardEn": "Fons x30,000",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
@@ -85,7 +85,7 @@
     "code": "NTEWINFONS",
     "reward": "芬斯x20000",
     "rewardEn": "Fons x20,000",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
@@ -95,7 +95,7 @@
     "code": "NTEFUNGAME",
     "reward": "芬斯x10000",
     "rewardEn": "Fons x10,000",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
@@ -105,7 +105,7 @@
     "code": "NTENENE",
     "reward": "芬斯x10000、动感零x10、脆脆薯条x10",
     "rewardEn": "Fons x10,000, DynamiK Zero x10, Clicky Fries x10",
-    "status": "active",
+    "status": "unknown",
     "expiresAt": "TBA",
     "source": "official",
     "region": "global",
@@ -233,7 +233,7 @@
   },
   {
     "code": "LACRIMOSA0603",
-    "status": "active",
+    "status": "unknown",
     "reward": "虚无石x30、芬斯x20000",
     "rewardEn": "Annulith x30, Fons x20,000",
     "expiresAt": "TBA",

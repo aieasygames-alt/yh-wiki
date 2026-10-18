@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-29T07:09:50.361Z",
+  "generatedAt": "2026-10-18T08:03:30.561Z",
   "reviewAfterDays": 45,
   "totals": {
-    "tracked": 219,
+    "tracked": 220,
     "needsReview": 210,
     "byPriority": {
-      "high": 62,
+      "high": 56,
       "medium": 78,
-      "low": 70
+      "low": 76
     }
   },
   "weeklyQueue": [
@@ -20,7 +20,7 @@
       "href": "/blog/nte-best-settings-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 187,
+      "ageDays": 206,
       "needsReview": true
     },
     {
@@ -28,11 +28,11 @@
       "type": "blog",
       "date": "2026-03-28",
       "title": "异环1.0版本更新内容全汇总：新角色、新活动、系统改动",
-      "titleEn": "NTE Version 1.0 Update Summary: New Characters, Events & System Changes",
+      "titleEn": "NTE Version 1.0 Update Summary: New Characters, Events & System Changes | Historical Reference",
       "href": "/blog/nte-version-1-0-update",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 185,
+      "ageDays": 204,
       "needsReview": true
     },
     {
@@ -40,11 +40,11 @@
       "type": "blog",
       "date": "2026-04-02",
       "title": "异环抽卡系统详解：保底机制、概率分析与最优抽卡策略",
-      "titleEn": "NTE Gacha System Explained: Pity, Probabilities & Optimal Rolling Strategy",
+      "titleEn": "NTE Gacha System Reference: Pity and Resource Planning",
       "href": "/blog/nte-gacha-system-explained",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 180,
+      "ageDays": 199,
       "needsReview": true
     },
     {
@@ -52,11 +52,11 @@
       "type": "blog",
       "date": "2026-04-04",
       "title": "异环全角色一览：38位角色属性、技能、定位详解",
-      "titleEn": "NTE Complete Character Overview: All 38 Characters Explained",
+      "titleEn": "NTE Character Overview Reference: Attributes, Weapons, and Roles",
       "href": "/blog/nte-all-characters-overview",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 178,
+      "ageDays": 197,
       "needsReview": true
     },
     {
@@ -64,11 +64,11 @@
       "type": "blog",
       "date": "2026-04-12",
       "title": "异环1.0角色强度榜：全角色Tier分级与培养优先级推荐",
-      "titleEn": "NTE 1.0 Tier List: Best Characters Ranked & Build Priority Guide",
+      "titleEn": "NTE Version 1.0 Tier List: Historical Reference",
       "href": "/blog/nte-tier-list-1-0",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 170,
+      "ageDays": 189,
       "needsReview": true
     },
     {
@@ -76,11 +76,11 @@
       "type": "blog",
       "date": "2026-04-17",
       "title": "异环开服6选1完全指南：公测首个S级角色选谁最值？",
-      "titleEn": "NTE Launch 6-Choose-1 Complete Guide: Which S-Rank Character Is Best?",
+      "titleEn": "NTE Launch Character Selector: Historical Guide",
       "href": "/blog/nte-launch-6-choose-1",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 165,
+      "ageDays": 184,
       "needsReview": true
     },
     {
@@ -88,11 +88,11 @@
       "type": "blog",
       "date": "2026-04-18",
       "title": "异环4.18前瞻直播全内容汇总：6个兑换码、无50/50抽卡确认、16位上线角色",
-      "titleEn": "NTE April 18 Livestream Summary: Codes, 50/50, Launch Characters",
+      "titleEn": "NTE April 18 Livestream Summary: Codes, 50/50, Launch Characters | Historical Reference",
       "href": "/blog/nte-livestream-summary",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 164,
+      "ageDays": 183,
       "needsReview": true
     },
     {
@@ -100,11 +100,11 @@
       "type": "blog",
       "date": "2026-04-19",
       "title": "异环抽卡终极指南（公测确认版）：无50/50、90抽保底、新手20抽自选全解析",
-      "titleEn": "NTE Gacha Ultimate Guide (Launch Confirmed): No 50/50, 90-Pull Pity, 20-Pull Beginner Selector",
+      "titleEn": "NTE Launch Gacha Rules: Historical Record",
       "href": "/blog/nte-gacha-no-5050",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 163,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -112,11 +112,11 @@
       "type": "blog",
       "date": "2026-04-19",
       "title": "异环开服418免费抽全来源分解：零氪玩家最大福利指南",
-      "titleEn": "NTE Launch 418 Free Pulls Breakdown: Complete F2P Guide",
+      "titleEn": "NTE Launch 418 Free Pulls Breakdown: Complete F2P Guide | Historical Reference",
       "href": "/blog/nte-launch-free-pulls-breakdown",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 163,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -124,11 +124,11 @@
       "type": "blog",
       "date": "2026-04-20",
       "title": "异环预下载开启！Day 1 新手必看攻略与首日清单",
-      "titleEn": "NTE Pre-Download Now Open: Day 1 Beginner Checklist & Launch Guide",
+      "titleEn": "NTE Pre-Download Now Open: Day 1 Beginner Checklist & Launch Guide | Historical Reference",
       "href": "/blog/nte-pre-download-day-one",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 162,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -136,11 +136,11 @@
       "type": "blog",
       "date": "2026-04-25",
       "title": "异环全球服上线完全指南（2026年4月29日）— 下载、注册、抽卡与首日攻略",
-      "titleEn": "NTE Global Launch Complete Guide (April 29, 2026) — Download, Registration, Gacha & Day-One Tips",
+      "titleEn": "NTE Global Launch Reference: Platforms, Accounts, and Beginner Checks",
       "href": "/blog/nte-global-launch-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 157,
+      "ageDays": 176,
       "needsReview": true
     },
     {
@@ -148,11 +148,11 @@
       "type": "blog",
       "date": "2026-04-28",
       "title": "异环全球服上线实测指南 — 4月29日全平台互通/下载/注意事项",
-      "titleEn": "NTE Global Launch Live Guide — April 29 Cross-Platform & Download Tips",
+      "titleEn": "NTE Global Launch Reference: Platform and Account Checks",
       "href": "/blog/nte-global-launch-live-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 154,
+      "ageDays": 173,
       "needsReview": true
     }
   ],
@@ -166,7 +166,7 @@
       "href": "/blog/nte-best-settings-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 187,
+      "ageDays": 206,
       "needsReview": true
     },
     {
@@ -174,11 +174,11 @@
       "type": "blog",
       "date": "2026-03-28",
       "title": "异环1.0版本更新内容全汇总：新角色、新活动、系统改动",
-      "titleEn": "NTE Version 1.0 Update Summary: New Characters, Events & System Changes",
+      "titleEn": "NTE Version 1.0 Update Summary: New Characters, Events & System Changes | Historical Reference",
       "href": "/blog/nte-version-1-0-update",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 185,
+      "ageDays": 204,
       "needsReview": true
     },
     {
@@ -186,11 +186,11 @@
       "type": "blog",
       "date": "2026-04-02",
       "title": "异环抽卡系统详解：保底机制、概率分析与最优抽卡策略",
-      "titleEn": "NTE Gacha System Explained: Pity, Probabilities & Optimal Rolling Strategy",
+      "titleEn": "NTE Gacha System Reference: Pity and Resource Planning",
       "href": "/blog/nte-gacha-system-explained",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 180,
+      "ageDays": 199,
       "needsReview": true
     },
     {
@@ -198,11 +198,11 @@
       "type": "blog",
       "date": "2026-04-04",
       "title": "异环全角色一览：38位角色属性、技能、定位详解",
-      "titleEn": "NTE Complete Character Overview: All 38 Characters Explained",
+      "titleEn": "NTE Character Overview Reference: Attributes, Weapons, and Roles",
       "href": "/blog/nte-all-characters-overview",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 178,
+      "ageDays": 197,
       "needsReview": true
     },
     {
@@ -210,11 +210,11 @@
       "type": "blog",
       "date": "2026-04-12",
       "title": "异环1.0角色强度榜：全角色Tier分级与培养优先级推荐",
-      "titleEn": "NTE 1.0 Tier List: Best Characters Ranked & Build Priority Guide",
+      "titleEn": "NTE Version 1.0 Tier List: Historical Reference",
       "href": "/blog/nte-tier-list-1-0",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 170,
+      "ageDays": 189,
       "needsReview": true
     },
     {
@@ -222,11 +222,11 @@
       "type": "blog",
       "date": "2026-04-17",
       "title": "异环开服6选1完全指南：公测首个S级角色选谁最值？",
-      "titleEn": "NTE Launch 6-Choose-1 Complete Guide: Which S-Rank Character Is Best?",
+      "titleEn": "NTE Launch Character Selector: Historical Guide",
       "href": "/blog/nte-launch-6-choose-1",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 165,
+      "ageDays": 184,
       "needsReview": true
     },
     {
@@ -234,11 +234,11 @@
       "type": "blog",
       "date": "2026-04-18",
       "title": "异环4.18前瞻直播全内容汇总：6个兑换码、无50/50抽卡确认、16位上线角色",
-      "titleEn": "NTE April 18 Livestream Summary: Codes, 50/50, Launch Characters",
+      "titleEn": "NTE April 18 Livestream Summary: Codes, 50/50, Launch Characters | Historical Reference",
       "href": "/blog/nte-livestream-summary",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 164,
+      "ageDays": 183,
       "needsReview": true
     },
     {
@@ -246,11 +246,11 @@
       "type": "blog",
       "date": "2026-04-19",
       "title": "异环抽卡终极指南（公测确认版）：无50/50、90抽保底、新手20抽自选全解析",
-      "titleEn": "NTE Gacha Ultimate Guide (Launch Confirmed): No 50/50, 90-Pull Pity, 20-Pull Beginner Selector",
+      "titleEn": "NTE Launch Gacha Rules: Historical Record",
       "href": "/blog/nte-gacha-no-5050",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 163,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -258,11 +258,11 @@
       "type": "blog",
       "date": "2026-04-19",
       "title": "异环开服418免费抽全来源分解：零氪玩家最大福利指南",
-      "titleEn": "NTE Launch 418 Free Pulls Breakdown: Complete F2P Guide",
+      "titleEn": "NTE Launch 418 Free Pulls Breakdown: Complete F2P Guide | Historical Reference",
       "href": "/blog/nte-launch-free-pulls-breakdown",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 163,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -270,11 +270,11 @@
       "type": "blog",
       "date": "2026-04-20",
       "title": "异环预下载开启！Day 1 新手必看攻略与首日清单",
-      "titleEn": "NTE Pre-Download Now Open: Day 1 Beginner Checklist & Launch Guide",
+      "titleEn": "NTE Pre-Download Now Open: Day 1 Beginner Checklist & Launch Guide | Historical Reference",
       "href": "/blog/nte-pre-download-day-one",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 162,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -282,11 +282,11 @@
       "type": "blog",
       "date": "2026-04-25",
       "title": "异环全球服上线完全指南（2026年4月29日）— 下载、注册、抽卡与首日攻略",
-      "titleEn": "NTE Global Launch Complete Guide (April 29, 2026) — Download, Registration, Gacha & Day-One Tips",
+      "titleEn": "NTE Global Launch Reference: Platforms, Accounts, and Beginner Checks",
       "href": "/blog/nte-global-launch-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 157,
+      "ageDays": 176,
       "needsReview": true
     },
     {
@@ -294,11 +294,11 @@
       "type": "blog",
       "date": "2026-04-28",
       "title": "异环全球服上线实测指南 — 4月29日全平台互通/下载/注意事项",
-      "titleEn": "NTE Global Launch Live Guide — April 29 Cross-Platform & Download Tips",
+      "titleEn": "NTE Global Launch Reference: Platform and Account Checks",
       "href": "/blog/nte-global-launch-live-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 154,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -310,7 +310,7 @@
       "href": "/guides/download-install-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -322,7 +322,7 @@
       "href": "/guides/gacha-strategy",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -334,7 +334,7 @@
       "href": "/guides/tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -346,7 +346,7 @@
       "href": "/guides/detailed-tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -358,7 +358,7 @@
       "href": "/guides/weapon-tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -370,7 +370,7 @@
       "href": "/guides/performance-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -382,7 +382,7 @@
       "href": "/guides/talent-priority",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -394,7 +394,7 @@
       "href": "/guides/character-selector-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -406,19 +406,7 @@
       "href": "/guides/arc-tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
-      "needsReview": true
-    },
-    {
-      "id": "nte-global-launch-day-one",
-      "type": "blog",
-      "date": "2026-04-29",
-      "title": "异环国际服4月29日全球公测首日完全记录：3000万预注册、480+免费抽、新兑换码汇总",
-      "titleEn": "NTE Global Launch Day One Complete Report: 30M Pre-Registrations, 480+ Free Pulls, New Codes",
-      "href": "/blog/nte-global-launch-day-one",
-      "priority": "high",
-      "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -430,31 +418,7 @@
       "href": "/guides/leveling-priority",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 152,
-      "needsReview": true
-    },
-    {
-      "id": "nte-global-server-recharge-guide",
-      "type": "blog",
-      "date": "2026-04-30",
-      "title": "异环国际服充值攻略2026 — 安全充值方法、代充平台推荐与常见问题解答",
-      "titleEn": "NTE Global Server Recharge Guide 2026 — Safe Top-up Methods, Platform Recommendations & FAQ",
-      "href": "/blog/nte-global-server-recharge-guide",
-      "priority": "high",
-      "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 152,
-      "needsReview": true
-    },
-    {
-      "id": "nte-week-one-recap",
-      "type": "blog",
-      "date": "2026-05-03",
-      "title": "异环公测首周全面回顾：流水过亿、5月1日首补、最新Meta排行、深渊玩法前瞻",
-      "titleEn": "NTE Week One Recap: Revenue, Hotfixes, Tier List & Event Calendar",
-      "href": "/blog/nte-week-one-recap",
-      "priority": "high",
-      "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 149,
+      "ageDays": 171,
       "needsReview": true
     },
     {
@@ -466,7 +430,7 @@
       "href": "/blog/nte-material-farming-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 149,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -478,19 +442,7 @@
       "href": "/blog/nte-best-disk-sets-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 149,
-      "needsReview": true
-    },
-    {
-      "id": "nte-may-events-anomaly-zones-guide",
-      "type": "blog",
-      "date": "2026-05-06",
-      "title": "异环5月限时活动冲刺攻略：海特洛摄影大赛倒计时 + 创作者征集6480抽 + 全异常区BOSS速查表",
-      "titleEn": "NTE May Limited Events Guide: Hethereau Photo Contest Countdown + Creator Challenge 6,480 Pulls + All Anomaly Zone Boss Cheat Sheet",
-      "href": "/blog/nte-may-events-anomaly-zones-guide",
-      "priority": "high",
-      "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 146,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -502,7 +454,7 @@
       "href": "/blog/nte-character-tier-list-2026-may",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 145,
+      "ageDays": 164,
       "needsReview": true
     },
     {
@@ -514,7 +466,7 @@
       "href": "/blog/nte-character-tier-list-may-2026",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 145,
+      "ageDays": 164,
       "needsReview": true
     },
     {
@@ -522,23 +474,11 @@
       "type": "blog",
       "date": "2026-05-12",
       "title": "异环武器池保底全解析：80抽必出专武、与原神对比为何玩家说「疯了」",
-      "titleEn": "NTE Weapon Banner Deep Dive: 80-Pull Guarantee, Why Reddit Calls It 'Insane'",
+      "titleEn": "NTE Weapon Banner Reference: Pity, Carryover, and Resource Planning",
       "href": "/blog/nte-weapon-banner-deep-dive",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 140,
-      "needsReview": true
-    },
-    {
-      "id": "nte-v11-preview-may-2026",
-      "type": "blog",
-      "date": "2026-05-12",
-      "title": "异环1.1版本前瞻汇总：新角色浔（Xun）上线预测 + 保时捷联动实装 + 新卡池时间线",
-      "titleEn": "NTE v1.1 Preview: Xun, Porsche Collab & Banner Timeline",
-      "href": "/blog/nte-v11-preview-may-2026",
-      "priority": "high",
-      "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 140,
+      "ageDays": 159,
       "needsReview": true
     },
     {
@@ -550,7 +490,7 @@
       "href": "/blog/nte-f2p-complete-resource-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 136,
+      "ageDays": 155,
       "needsReview": true
     },
     {
@@ -562,7 +502,7 @@
       "href": "/blog/nte-gacha-pity-system-complete-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 136,
+      "ageDays": 155,
       "needsReview": true
     },
     {
@@ -574,19 +514,7 @@
       "href": "/blog/nte-system-requirements-can-you-run-it",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 136,
-      "needsReview": true
-    },
-    {
-      "id": "nte-v11-preview-livestream",
-      "type": "blog",
-      "date": "2026-05-23",
-      "title": "异环1.1版本「游梦洄廊」前瞻直播汇总 — 新角色、新地图、新兑换码全收录",
-      "titleEn": "NTE Version 1.1 'Wandering Corridor' Livestream Summary — New Characters, Map & Codes",
-      "href": "/blog/nte-v11-preview-livestream",
-      "priority": "high",
-      "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 129,
+      "ageDays": 155,
       "needsReview": true
     },
     {
@@ -598,7 +526,7 @@
       "href": "/blog/nte-lacrimosa-build-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 128,
+      "ageDays": 147,
       "needsReview": true
     },
     {
@@ -610,7 +538,7 @@
       "href": "/blog/is-nte-pay-to-win",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -622,7 +550,7 @@
       "href": "/blog/nte-version-1-2-preview-leaked-characters",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -634,7 +562,7 @@
       "href": "/blog/nte-affinity-costume-system-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -646,7 +574,7 @@
       "href": "/blog/nte-f2p-7-day-progression-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -658,7 +586,7 @@
       "href": "/guides/nte-controller-support",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -670,7 +598,7 @@
       "href": "/guides/nte-character-creation",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -682,7 +610,7 @@
       "href": "/guides/nte-romance-system",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -694,7 +622,7 @@
       "href": "/guides/nte-cross-platform",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -706,7 +634,7 @@
       "href": "/blog/nte-gacha-system-analysis",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -718,7 +646,7 @@
       "href": "/guides/bond-system-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 102,
+      "ageDays": 121,
       "needsReview": true
     },
     {
@@ -730,7 +658,7 @@
       "href": "/guides/gacha-tracker-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 102,
+      "ageDays": 121,
       "needsReview": true
     },
     {
@@ -742,7 +670,7 @@
       "href": "/guides/mobile-120fps-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 102,
+      "ageDays": 121,
       "needsReview": true
     },
     {
@@ -754,7 +682,7 @@
       "href": "/guides/anomaly-endgame-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 98,
+      "ageDays": 117,
       "needsReview": true
     },
     {
@@ -766,7 +694,7 @@
       "href": "/blog/nte-v1-2-pull-priority-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 93,
+      "ageDays": 112,
       "needsReview": true
     },
     {
@@ -778,7 +706,7 @@
       "href": "/blog/nte-banner-schedule-roadmap",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -790,7 +718,7 @@
       "href": "/blog/nte-illica-character-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -802,7 +730,7 @@
       "href": "/blog/nte-zhenhong-character-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -814,7 +742,7 @@
       "href": "/blog/nte-zhenhong-build-guide-1-2",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -826,7 +754,7 @@
       "href": "/blog/nte-codes-july-2026",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -838,7 +766,7 @@
       "href": "/blog/nte-iroi-banner-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -850,7 +778,7 @@
       "href": "/blog/nte-zankou-1-3-save-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -862,7 +790,7 @@
       "href": "/guides/zhenhong-build-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 80,
+      "ageDays": 99,
       "needsReview": true
     },
     {
@@ -874,7 +802,7 @@
       "href": "/blog/nte-ibone-partner-return-event-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 80,
+      "ageDays": 99,
       "needsReview": true
     },
     {
@@ -886,7 +814,7 @@
       "href": "/blog/cloud-yihuan-pc-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 80,
+      "ageDays": 99,
       "needsReview": true
     },
     {
@@ -898,7 +826,7 @@
       "href": "/blog/shinku-vs-iroi-pull-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 56,
+      "ageDays": 75,
       "needsReview": true
     },
     {
@@ -910,7 +838,7 @@
       "href": "/blog/nte-open-world-exploration-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 183,
+      "ageDays": 202,
       "needsReview": true
     },
     {
@@ -918,23 +846,23 @@
       "type": "blog",
       "date": "2026-04-25",
       "title": "异环1.0公测首发活动全汇总 — 限时福利不容错过",
-      "titleEn": "NTE v1.0 Launch Events Complete Guide — Don't Miss These Limited-Time Rewards",
+      "titleEn": "NTE v1.0 Launch Events Complete Guide — Don't Miss These Limited-Time Rewards | Historical Reference",
       "href": "/blog/nte-v10-launch-events",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 157,
+      "ageDays": 176,
       "needsReview": true
     },
     {
       "id": "team-building",
       "type": "guide",
       "date": "2026-04-29",
-      "title": "公测配队推荐 — 最强阵容搭配指南",
-      "titleEn": "Launch Best Team Comps — Meta Team Building Guide",
+      "title": "历史公测配队记录 — 阵容思路与版本适用性",
+      "titleEn": "Historical Launch Team Comps — Version Context and Team Framework",
       "href": "/guides/team-building",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -946,7 +874,7 @@
       "href": "/guides/exploration-tips",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -958,7 +886,7 @@
       "href": "/guides/boss-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -970,7 +898,7 @@
       "href": "/guides/disk-build",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -982,7 +910,7 @@
       "href": "/guides/farming-efficiency",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -994,7 +922,7 @@
       "href": "/guides/event-guides",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1006,7 +934,7 @@
       "href": "/guides/arc-disc-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1018,7 +946,7 @@
       "href": "/guides/team-composition-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1030,7 +958,7 @@
       "href": "/guides/boss-guide-comprehensive",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1042,7 +970,7 @@
       "href": "/guides/awakening-system-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1054,7 +982,7 @@
       "href": "/guides/hidden-quests-chests-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1066,7 +994,7 @@
       "href": "/guides/vehicle-system-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1078,7 +1006,7 @@
       "href": "/guides/nanally-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1090,7 +1018,7 @@
       "href": "/guides/jiuyuan-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1102,7 +1030,7 @@
       "href": "/guides/baicang-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1114,7 +1042,7 @@
       "href": "/guides/mint-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1126,7 +1054,7 @@
       "href": "/guides/disk-set-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1134,11 +1062,11 @@
       "type": "blog",
       "date": "2026-05-01",
       "title": "异环零最佳Build攻略：碟片、武器、配队与爆发输出全解",
-      "titleEn": "NTE Zero Best Build Guide — Discs, Weapons, Teams & Burst DPS Guide",
+      "titleEn": "NTE Zero Build Reference: Burst, Reactions, and Rotation",
       "href": "/blog/nte-zero-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 151,
+      "ageDays": 170,
       "needsReview": true
     },
     {
@@ -1146,11 +1074,11 @@
       "type": "blog",
       "date": "2026-05-01",
       "title": "异环九原最佳Build攻略：碟片、武器、配队与聚怪控制全解",
-      "titleEn": "NTE Jiuyuan Best Build Guide — Discs, Weapons, Teams & CC Guide",
+      "titleEn": "NTE Jiuyuan Build Reference: Grouping, Control, and Healing",
       "href": "/blog/nte-jiuyuan-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 151,
+      "ageDays": 170,
       "needsReview": true
     },
     {
@@ -1158,11 +1086,11 @@
       "type": "blog",
       "date": "2026-05-01",
       "title": "异环公测1.0版本最佳配队排行：T0队伍组合与构建指南",
-      "titleEn": "NTE Version 1.0 Best Team Comps — T0 Teams & Building Guide",
+      "titleEn": "Historical NTE 1.0 Team Comps: Framework and Version Context",
       "href": "/blog/nte-best-team-comps-1-0",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 151,
+      "ageDays": 170,
       "needsReview": true
     },
     {
@@ -1170,11 +1098,11 @@
       "type": "blog",
       "date": "2026-05-01",
       "title": "异环娜娜莉最佳Build攻略：碟片、武器、配队与养成路线全解",
-      "titleEn": "NTE Nanally Best Build Guide — Discs, Weapons, Teams & Progression",
+      "titleEn": "NTE Nanally Build Reference: Damage and Progression",
       "href": "/blog/nte-nanally-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 151,
+      "ageDays": 170,
       "needsReview": true
     },
     {
@@ -1182,11 +1110,11 @@
       "type": "blog",
       "date": "2026-05-03",
       "title": "异环咲里最佳Build攻略：碟片、武器、配队与输出技巧全解",
-      "titleEn": "NTE Sakiri Best Build Guide — Discs, Weapons, Teams & DPS Tips",
+      "titleEn": "NTE Sakiri Build Reference: Discs, Weapons, and Rotation",
       "href": "/blog/nte-sakiri-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 149,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -1194,11 +1122,11 @@
       "type": "blog",
       "date": "2026-05-03",
       "title": "异环薄荷最佳Build攻略：碟片、武器、配队与治疗辅助全解",
-      "titleEn": "NTE Mint Best Build Guide — Discs, Weapons, Teams & Healer Support",
+      "titleEn": "NTE Mint Build Reference: Healing and Support",
       "href": "/blog/nte-mint-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 149,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -1210,7 +1138,7 @@
       "href": "/guides/city-tycoon-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 148,
+      "ageDays": 167,
       "needsReview": true
     },
     {
@@ -1218,11 +1146,23 @@
       "type": "blog",
       "date": "2026-05-04",
       "title": "异环x保时捷联动：限定保时捷载具免费获取方式与活动攻略",
-      "titleEn": "NTE x Porsche Collab: How to Get the Free Porsche Vehicle, Livery & Event Guide",
+      "titleEn": "NTE x Porsche Collab: How to Get the Free Porsche Vehicle, Livery & Event Guide | Historical Reference",
       "href": "/blog/nte-porsche-collaboration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 148,
+      "ageDays": 167,
+      "needsReview": true
+    },
+    {
+      "id": "nte-may-events-anomaly-zones-guide",
+      "type": "blog",
+      "date": "2026-05-06",
+      "title": "异环5月限时活动冲刺攻略：海特洛摄影大赛倒计时 + 创作者征集6480抽 + 全异常区BOSS速查表",
+      "titleEn": "NTE May Events and Anomaly Zones: Historical Reference",
+      "href": "/blog/nte-may-events-anomaly-zones-guide",
+      "priority": "medium",
+      "priorityReason": "Can affect progression, exploration, or activity planning.",
+      "ageDays": 165,
       "needsReview": true
     },
     {
@@ -1230,11 +1170,11 @@
       "type": "blog",
       "date": "2026-05-12",
       "title": "异环星鸟（Hotori）实用技巧全攻略：时停机制在粉爪、深渊、BOSS战中的妙用",
-      "titleEn": "NTE Hotori Practical Tips: Time Freeze in Pink Paws Heist, Abyss & Boss Fights",
+      "titleEn": "NTE Hotori Practical Tips: Version-Aware Reference",
       "href": "/blog/nte-hotori-practical-tips-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 140,
+      "ageDays": 159,
       "needsReview": true
     },
     {
@@ -1242,11 +1182,11 @@
       "type": "blog",
       "date": "2026-05-14",
       "title": "异环白藏最佳Build攻略：浊燃主C弧盘搭配、武器选择与配队全解（2026年5月）",
-      "titleEn": "NTE Baicang Best Build Guide — Arc Discs, Weapons, Teams & Turbid Burn DPS (May 2026)",
+      "titleEn": "NTE Baicang Build Reference: Turbid Burn DPS and Teams",
       "href": "/blog/nte-baicang-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 138,
+      "ageDays": 157,
       "needsReview": true
     },
     {
@@ -1254,11 +1194,11 @@
       "type": "blog",
       "date": "2026-05-14",
       "title": "异环小吱（Chiz）完全攻略：免费T0主C的Grain机制、Build与配队详解（2026年5月）",
-      "titleEn": "NTE Chiz Complete Build Guide — Free T0 DPS: Grain Market Mechanic, Best Build & Teams (May 2026)",
+      "titleEn": "NTE Chiz Build Reference: Grain Market and Free Progression",
       "href": "/blog/nte-chiz-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 138,
+      "ageDays": 157,
       "needsReview": true
     },
     {
@@ -1266,11 +1206,11 @@
       "type": "blog",
       "date": "2026-05-14",
       "title": "异环达芙迪尔（Daffodil）Build攻略：Break流核心机制、A5觉醒质变与浊燃队详解（2026年5月）",
-      "titleEn": "NTE Daffodil Build Guide — Break Mechanic, A5 Awakening Power Spike & Turbid Burn Team (May 2026)",
+      "titleEn": "NTE Daffodil Build Reference: Break and Turbid Burn Teams",
       "href": "/blog/nte-daffodil-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 138,
+      "ageDays": 157,
       "needsReview": true
     },
     {
@@ -1278,11 +1218,11 @@
       "type": "blog",
       "date": "2026-05-14",
       "title": "异环哈索尔（Hathor）Build攻略：AOE输出之王、刃翼机制与配队推荐（2026年5月）",
-      "titleEn": "NTE Hathor Build Guide — AOE King: Blade Wing Mechanic, Best Build & Teams (May 2026)",
+      "titleEn": "NTE Hathor Build Reference: AOE and Blade Wing",
       "href": "/blog/nte-hathor-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 138,
+      "ageDays": 157,
       "needsReview": true
     },
     {
@@ -1294,7 +1234,7 @@
       "href": "/blog/nte-racing-driving-complete-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 136,
+      "ageDays": 155,
       "needsReview": true
     },
     {
@@ -1306,19 +1246,7 @@
       "href": "/blog/nte-beginner-week-one-checklist",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 136,
-      "needsReview": true
-    },
-    {
-      "id": "nte-version-1-1-update-overview",
-      "type": "blog",
-      "date": "2026-05-18",
-      "title": "异环1.1版本更新总览：新角色Lacrimosa与Chaos、减负优化、活动预告全解析（2026年5月）",
-      "titleEn": "NTE Version 1.1 Update Overview: Lacrimosa, Chaos, QoL & Events",
-      "href": "/blog/nte-version-1-1-update-overview",
-      "priority": "medium",
-      "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 155,
       "needsReview": true
     },
     {
@@ -1330,7 +1258,7 @@
       "href": "/guides/where-is-home-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 128,
+      "ageDays": 147,
       "needsReview": true
     },
     {
@@ -1338,11 +1266,11 @@
       "type": "blog",
       "date": "2026-05-24",
       "title": "异环穗鸟最佳Build攻略：S+辅助的碟片、武器与配队全解",
-      "titleEn": "NTE Hotori Build Guide — S+ Support: Time Freeze, Best Arc Discs, Weapons & Teams",
+      "titleEn": "NTE Hotori Build Reference",
       "href": "/blog/nte-hotori-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 128,
+      "ageDays": 147,
       "needsReview": true
     },
     {
@@ -1354,7 +1282,7 @@
       "href": "/guides/elemental-reactions",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 127,
+      "ageDays": 146,
       "needsReview": true
     },
     {
@@ -1366,7 +1294,7 @@
       "href": "/blog/nte-cosmos-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1378,7 +1306,7 @@
       "href": "/blog/nte-anima-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1390,7 +1318,7 @@
       "href": "/blog/nte-chaos-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1402,7 +1330,7 @@
       "href": "/blog/nte-incantation-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1414,7 +1342,7 @@
       "href": "/blog/nte-psyche-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1426,7 +1354,7 @@
       "href": "/blog/nte-lakshana-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1438,7 +1366,7 @@
       "href": "/blog/nte-v11-dreamwalk-corridor-release-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 124,
+      "ageDays": 143,
       "needsReview": true
     },
     {
@@ -1450,7 +1378,7 @@
       "href": "/blog/nte-version-1-1-event-schedule-global-server",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -1462,7 +1390,7 @@
       "href": "/guides/lacrimosa-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1474,7 +1402,7 @@
       "href": "/guides/chaos-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1486,7 +1414,7 @@
       "href": "/guides/daffodil-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1498,7 +1426,7 @@
       "href": "/guides/hathor-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1510,7 +1438,7 @@
       "href": "/guides/hotori-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1522,7 +1450,7 @@
       "href": "/guides/illica-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1534,7 +1462,7 @@
       "href": "/guides/sakiri-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1546,7 +1474,7 @@
       "href": "/guides/fadia-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1558,7 +1486,7 @@
       "href": "/guides/chiz-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 120,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1570,7 +1498,7 @@
       "href": "/guides/amusement-park-exploration-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 117,
+      "ageDays": 136,
       "needsReview": true
     },
     {
@@ -1582,7 +1510,7 @@
       "href": "/guides/porsche-collab-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 117,
+      "ageDays": 136,
       "needsReview": true
     },
     {
@@ -1594,7 +1522,7 @@
       "href": "/guides/hethereau-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1606,7 +1534,7 @@
       "href": "/guides/groth-island-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1618,7 +1546,7 @@
       "href": "/guides/illusion-town-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1630,7 +1558,7 @@
       "href": "/guides/new-helios-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1642,7 +1570,7 @@
       "href": "/guides/xiangyang-island-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1654,7 +1582,7 @@
       "href": "/guides/headless-iron-rider-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1666,7 +1594,7 @@
       "href": "/guides/black-book-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1678,7 +1606,7 @@
       "href": "/guides/morpheus-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1690,7 +1618,7 @@
       "href": "/guides/sea-prisoner-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1702,7 +1630,7 @@
       "href": "/guides/spotted-butterfly-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1714,7 +1642,7 @@
       "href": "/guides/racing-mode-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1726,7 +1654,7 @@
       "href": "/guides/nelly-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1738,7 +1666,7 @@
       "href": "/guides/skia-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1750,7 +1678,7 @@
       "href": "/guides/adler-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1762,7 +1690,7 @@
       "href": "/guides/haniel-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1774,7 +1702,7 @@
       "href": "/guides/edgar-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -1786,7 +1714,7 @@
       "href": "/guides/vehicle-driving-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -1798,7 +1726,7 @@
       "href": "/blog/nte-lacrimosa-strength-analysis",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -1810,7 +1738,7 @@
       "href": "/guides/illica-support-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 98,
+      "ageDays": 117,
       "needsReview": true
     },
     {
@@ -1822,7 +1750,7 @@
       "href": "/guides/warren-continent-collectibles-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 80,
+      "ageDays": 99,
       "needsReview": true
     },
     {
@@ -1834,7 +1762,7 @@
       "href": "/guides/nine-hundred-ninety-nine-nights-farming-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 56,
+      "ageDays": 75,
       "needsReview": true
     },
     {
@@ -1842,11 +1770,11 @@
       "type": "blog",
       "date": "2026-04-06",
       "title": "异环公测前必看指南：开服第一天该做什么",
-      "titleEn": "NTE Pre-Launch Essential Guide: What to Do on Day One",
+      "titleEn": "NTE Pre-Launch Guide: Historical Reference",
       "href": "/blog/nte-pre-launch-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 176,
+      "ageDays": 195,
       "needsReview": true
     },
     {
@@ -1854,11 +1782,11 @@
       "type": "blog",
       "date": "2026-04-08",
       "title": "异环CBT测试深度评测：次世代二次元开放世界的新标杆？",
-      "titleEn": "NTE CBT In-Depth Review: The New Standard for Anime Open World Games?",
+      "titleEn": "NTE CBT In-Depth Review: The New Standard for Anime Open World Games? | Historical Reference",
       "href": "/blog/nte-cbt-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 174,
+      "ageDays": 193,
       "needsReview": true
     },
     {
@@ -1866,11 +1794,11 @@
       "type": "blog",
       "date": "2026-04-10",
       "title": "异环 vs 原神 vs 鸣潮：2025年最佳开放世界二次元游戏对比",
-      "titleEn": "NTE vs Genshin Impact vs Wuthering Waves: 2025 Comparison",
+      "titleEn": "NTE vs Genshin vs Wuthering Waves: Version-Aware Comparison",
       "href": "/blog/nte-vs-genshin-vs-wuthering-waves",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 191,
       "needsReview": true
     },
     {
@@ -1878,11 +1806,11 @@
       "type": "blog",
       "date": "2026-04-20",
       "title": "异环公测五大新功能深度解析：都市大亨、房屋系统、驾驶、粉爪联机、监狱玩法全攻略",
-      "titleEn": "NTE Launch 5 New Features Deep Dive: City Tycoon, Housing, Driving, Pink Paws Co-op & Prison System Guide",
+      "titleEn": "NTE Launch Features: Historical Overview",
       "href": "/blog/nte-launch-new-features",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 162,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -1890,11 +1818,11 @@
       "type": "blog",
       "date": "2026-04-22",
       "title": "异环公测首日必做清单：开服第一天完整攻略",
-      "titleEn": "NTE Day One Complete Checklist: Everything to Do on Launch Day",
+      "titleEn": "NTE Launch-Day Checklist: Historical Reference",
       "href": "/blog/nte-day-one-checklist",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 160,
+      "ageDays": 179,
       "needsReview": true
     },
     {
@@ -1902,11 +1830,11 @@
       "type": "blog",
       "date": "2026-04-22",
       "title": "异环公测首周体力规划：开荒效率最大化指南",
-      "titleEn": "NTE Week 1 Stamina Planning: Maximize Your Early Game Efficiency",
+      "titleEn": "NTE Week-One Stamina Plan: Historical Reference",
       "href": "/blog/nte-stamina-week-1-plan",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 160,
+      "ageDays": 179,
       "needsReview": true
     },
     {
@@ -1918,7 +1846,7 @@
       "href": "/blog/nte-collapse-ring-fusion-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 160,
+      "ageDays": 179,
       "needsReview": true
     },
     {
@@ -1926,11 +1854,11 @@
       "type": "blog",
       "date": "2026-04-23",
       "title": "异环公测联动大全 — 保时捷/P5/MyGO/孤独摇滚全汇总",
-      "titleEn": "NTE Launch Collaborations — Porsche, P5, MyGO, Bocchi and More",
+      "titleEn": "NTE Launch Collaborations: Historical Overview",
       "href": "/blog/nte-launch-collaborations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 159,
+      "ageDays": 178,
       "needsReview": true
     },
     {
@@ -1938,11 +1866,11 @@
       "type": "blog",
       "date": "2026-04-24",
       "title": "异环动漫致敬彩蛋大全 — 100+动漫梗实锤盘点（言叶之庭/孤独摇滚/JoJo/你的名字）",
-      "titleEn": "NTE Anime Easter Egg Mega-List — 100+ Anime References Confirmed (Garden of Words, Bocchi, JoJo, Your Name)",
+      "titleEn": "NTE Anime References and Easter Eggs: Reference Archive",
       "href": "/blog/nte-anime-references-easter-eggs",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 158,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1950,11 +1878,11 @@
       "type": "blog",
       "date": "2026-04-24",
       "title": "异环1.1版本联动前瞻 — Opera GX浏览器 & Beard Papa甜甜圈 & 更多惊喜",
-      "titleEn": "NTE v1.1 Collaboration Preview — Opera GX, Beard Papa & More Surprises",
+      "titleEn": "NTE Version 1.1 Collaboration Preview: Historical Recap",
       "href": "/blog/nte-v11-collaboration-preview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 158,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1962,11 +1890,11 @@
       "type": "blog",
       "date": "2026-04-24",
       "title": "异环公测第一天开荒指南 — 零氪新手必看清单",
-      "titleEn": "NTE Day One Beginner Guide — F2P Checklist",
+      "titleEn": "NTE Launch-Day Beginner Guide: Historical Reference",
       "href": "/blog/day-one-beginner-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 158,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1974,11 +1902,11 @@
       "type": "blog",
       "date": "2026-04-25",
       "title": "异环 x P5R x 幻塔音乐联动详解 — 发售预告片Play On!发布",
-      "titleEn": "NTE x P5R x Tower of Fantasy Music Collaboration — Launch Trailer Play On! Released",
+      "titleEn": "NTE x P5R x Tower of Fantasy Music Collaboration — Launch Trailer Play On! Released | Historical Reference",
       "href": "/blog/nte-p5r-tof-music-collab",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 157,
+      "ageDays": 176,
       "needsReview": true
     },
     {
@@ -1986,11 +1914,11 @@
       "type": "blog",
       "date": "2026-04-25",
       "title": "异环公测正式评测 — 都市超自然开放世界的惊艳首秀",
-      "titleEn": "NTE Launch Review — A Stunning Debut for Supernatural Urban Open World",
+      "titleEn": "NTE Launch Review — A Stunning Debut for Supernatural Urban Open World | Historical Reference",
       "href": "/blog/nte-launch-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 157,
+      "ageDays": 176,
       "needsReview": true
     },
     {
@@ -1998,11 +1926,11 @@
       "type": "blog",
       "date": "2026-04-27",
       "title": "异环公测补偿汇总 — 累计2400环石领取攻略（持续更新）",
-      "titleEn": "NTE Launch Compensation Guide — 2400+ Ring Stones Claimed (Updated)",
+      "titleEn": "NTE Launch Compensation Guide — 2400+ Ring Stones Claimed (Updated) | Historical Reference",
       "href": "/blog/nte-launch-compensation-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 155,
+      "ageDays": 174,
       "needsReview": true
     },
     {
@@ -2010,11 +1938,11 @@
       "type": "blog",
       "date": "2026-04-27",
       "title": "异环支付宝×骁龙联动攻略 — 限定周边+游戏福利领取指南",
-      "titleEn": "NTE Alipay x Snapdragon Collab Guide — Limited Merch & Rewards",
+      "titleEn": "NTE Alipay x Snapdragon Collab Guide — Limited Merch & Rewards | Historical Reference",
       "href": "/blog/nte-alipay-qualcomm-collab-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 155,
+      "ageDays": 174,
       "needsReview": true
     },
     {
@@ -2022,11 +1950,11 @@
       "type": "blog",
       "date": "2026-04-28",
       "title": "异环1.1版本前瞻 — 新角色翳/呗果/哈尼娅 + Opera GX联动",
-      "titleEn": "NTE v1.1 Preview: Skia, Beiguo, Haniya & Opera GX Collab",
+      "titleEn": "NTE v1.1 Preview: Skia, Beiguo, Haniya & Opera GX Collab | Historical Reference",
       "href": "/blog/nte-v11-preview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 154,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -2034,11 +1962,11 @@
       "type": "blog",
       "date": "2026-04-28",
       "title": "异环公测深度评测 — 8.5分诚意之作，但有明显短板",
-      "titleEn": "NTE Launch Deep Review — 8.5/10 Sincere Effort with Notable Flaws",
+      "titleEn": "NTE Launch Deep Review — 8.5/10 Sincere Effort with Notable Flaws | Historical Reference",
       "href": "/blog/nte-launch-deep-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 154,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -2050,7 +1978,7 @@
       "href": "/guides/beginner-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2062,7 +1990,7 @@
       "href": "/guides/daily-routine",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2074,7 +2002,7 @@
       "href": "/guides/weapon-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2086,7 +2014,7 @@
       "href": "/guides/endgame-content",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2098,7 +2026,7 @@
       "href": "/guides/game-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2110,7 +2038,7 @@
       "href": "/guides/damage-formula",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2122,7 +2050,7 @@
       "href": "/guides/f2p-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2134,7 +2062,7 @@
       "href": "/guides/reroll-guide-detailed",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2146,7 +2074,7 @@
       "href": "/guides/anomaly-dungeon",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2158,7 +2086,7 @@
       "href": "/guides/pvp-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2170,7 +2098,7 @@
       "href": "/guides/collectibles-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2182,7 +2110,7 @@
       "href": "/guides/farming-route",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2194,7 +2122,7 @@
       "href": "/guides/patch-notes",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2206,7 +2134,7 @@
       "href": "/guides/housing-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2218,7 +2146,7 @@
       "href": "/guides/photo-mode-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2230,7 +2158,7 @@
       "href": "/guides/money-making-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -2242,7 +2170,31 @@
       "href": "/guides/shop-exchange-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 172,
+      "needsReview": true
+    },
+    {
+      "id": "nte-global-launch-day-one",
+      "type": "blog",
+      "date": "2026-04-29",
+      "title": "异环国际服4月29日全球公测首日完全记录：3000万预注册、480+免费抽、新兑换码汇总",
+      "titleEn": "NTE Global Launch Day: Historical Record",
+      "href": "/blog/nte-global-launch-day-one",
+      "priority": "low",
+      "priorityReason": "General reference content that should be kept accurate.",
+      "ageDays": 172,
+      "needsReview": true
+    },
+    {
+      "id": "nte-global-server-recharge-guide",
+      "type": "blog",
+      "date": "2026-04-30",
+      "title": "异环国际服充值攻略2026 — 安全充值方法、代充平台推荐与常见问题解答",
+      "titleEn": "NTE Global Top-Up Safety Guide",
+      "href": "/blog/nte-global-server-recharge-guide",
+      "priority": "low",
+      "priorityReason": "General reference content that should be kept accurate.",
+      "ageDays": 171,
       "needsReview": true
     },
     {
@@ -2254,7 +2206,19 @@
       "href": "/guides/stamina-management",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 151,
+      "ageDays": 170,
+      "needsReview": true
+    },
+    {
+      "id": "nte-week-one-recap",
+      "type": "blog",
+      "date": "2026-05-03",
+      "title": "异环公测首周全面回顾：流水过亿、5月1日首补、最新Meta排行、深渊玩法前瞻",
+      "titleEn": "NTE Launch Week One: Historical Recap",
+      "href": "/blog/nte-week-one-recap",
+      "priority": "low",
+      "priorityReason": "General reference content that should be kept accurate.",
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -2262,11 +2226,11 @@
       "type": "blog",
       "date": "2026-05-05",
       "title": "异环重磅联动汇总：保时捷跨界合作 + 女神异闻录5音乐联动，1.0版本隐藏福利你领了吗？",
-      "titleEn": "NTE Massive Collabs Revealed: Porsche Crossover + Persona 5 Royal Music Partnership",
+      "titleEn": "NTE Porsche and P5R Collaborations: Historical Recap",
       "href": "/blog/nte-porsche-p5r-collab",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 147,
+      "ageDays": 166,
       "needsReview": true
     },
     {
@@ -2278,7 +2242,7 @@
       "href": "/blog/nte-fons-farming-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 144,
+      "ageDays": 163,
       "needsReview": true
     },
     {
@@ -2286,11 +2250,11 @@
       "type": "blog",
       "date": "2026-05-08",
       "title": "异环保时捷联动全攻略：918车型价格、获取方式、门店位置与保时捷独家涂装",
-      "titleEn": "NTE Porsche Collab Complete Guide: 918 Price, How to Get, Showroom Location & Exclusive Livery",
+      "titleEn": "NTE Porsche Collaboration: Historical Reference",
       "href": "/blog/nte-porsche-collab-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 144,
+      "ageDays": 163,
       "needsReview": true
     },
     {
@@ -2302,7 +2266,7 @@
       "href": "/blog/nte-common-issues-fixes-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 144,
+      "ageDays": 163,
       "needsReview": true
     },
     {
@@ -2310,11 +2274,11 @@
       "type": "blog",
       "date": "2026-05-09",
       "title": "7个类似Poki的免费浏览器游戏网站推荐（2026年最新）",
-      "titleEn": "7 Best Sites Like Poki for Free Browser Games in 2026",
+      "titleEn": "Browser Game Sites Like Poki: Historical SEO Reference",
       "href": "/blog/best-sites-like-poki-free-browser-games-2026",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 143,
+      "ageDays": 162,
       "needsReview": true
     },
     {
@@ -2322,11 +2286,23 @@
       "type": "blog",
       "date": "2026-05-12",
       "title": "异环新手资源规划指南：24级前该刷什么、体力分配与Farm优先级全解",
-      "titleEn": "NTE Beginner Resource Guide: What to Farm Before Level 24, Stamina Allocation & Priority List",
+      "titleEn": "NTE Beginner Farming Reference: Stamina and Farming Priorities",
       "href": "/blog/nte-beginner-farming-priority-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 140,
+      "ageDays": 159,
+      "needsReview": true
+    },
+    {
+      "id": "nte-v11-preview-may-2026",
+      "type": "blog",
+      "date": "2026-05-12",
+      "title": "异环1.1版本前瞻汇总：新角色浔（Xun）上线预测 + 保时捷联动实装 + 新卡池时间线",
+      "titleEn": "NTE Version 1.1 Preview: Historical Recap",
+      "href": "/blog/nte-v11-preview-may-2026",
+      "priority": "low",
+      "priorityReason": "General reference content that should be kept accurate.",
+      "ageDays": 159,
       "needsReview": true
     },
     {
@@ -2338,7 +2314,7 @@
       "href": "/blog/nte-daily-weekly-task-efficiency-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 136,
+      "ageDays": 155,
       "needsReview": true
     },
     {
@@ -2350,7 +2326,19 @@
       "href": "/blog/nte-city-tycoon-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 136,
+      "ageDays": 155,
+      "needsReview": true
+    },
+    {
+      "id": "nte-version-1-1-update-overview",
+      "type": "blog",
+      "date": "2026-05-18",
+      "title": "异环1.1版本更新总览：新角色Lacrimosa与Chaos、减负优化、活动预告全解析（2026年5月）",
+      "titleEn": "NTE Version 1.1 Update: Historical Record",
+      "href": "/blog/nte-version-1-1-update-overview",
+      "priority": "low",
+      "priorityReason": "General reference content that should be kept accurate.",
+      "ageDays": 153,
       "needsReview": true
     },
     {
@@ -2358,11 +2346,23 @@
       "type": "blog",
       "date": "2026-05-20",
       "title": "异环5月19日热修复汇总 + 1.1版本「游梦洄廊」前瞻定档5月23日",
-      "titleEn": "NTE May 19 Hotfix Patch Notes + Version 1.1 'Wandering Corridor' Livestream Announced for May 23",
+      "titleEn": "NTE 1.1 Hotfix and Preview Announcement: Historical Record",
       "href": "/blog/nte-may-19-hotfix-v11-announced",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 132,
+      "ageDays": 151,
+      "needsReview": true
+    },
+    {
+      "id": "nte-v11-preview-livestream",
+      "type": "blog",
+      "date": "2026-05-23",
+      "title": "异环1.1版本「游梦洄廊」前瞻直播汇总 — 新角色、新地图、新兑换码全收录",
+      "titleEn": "NTE Version 1.1 Preview Livestream: Historical Recap",
+      "href": "/blog/nte-v11-preview-livestream",
+      "priority": "low",
+      "priorityReason": "General reference content that should be kept accurate.",
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -2374,7 +2374,7 @@
       "href": "/guides/beginner-mistakes",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 127,
+      "ageDays": 146,
       "needsReview": true
     },
     {
@@ -2386,7 +2386,7 @@
       "href": "/blog/nte-city-tycoon-economy-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -2398,7 +2398,7 @@
       "href": "/blog/nte-sunward-island-complete-collection-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -2410,7 +2410,7 @@
       "href": "/blog/nte-cohabitation-roommate-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -2422,7 +2422,7 @@
       "href": "/blog/nte-porsche-918-spyder-collaboration-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 121,
+      "ageDays": 140,
       "needsReview": true
     },
     {
@@ -2434,7 +2434,7 @@
       "href": "/blog/nte-encounter-bond-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 117,
+      "ageDays": 136,
       "needsReview": true
     },
     {
@@ -2446,7 +2446,7 @@
       "href": "/guides/nte-pvp-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2458,7 +2458,7 @@
       "href": "/guides/nte-worth-playing",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2470,7 +2470,7 @@
       "href": "/guides/oracle-stones-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2482,7 +2482,7 @@
       "href": "/guides/gift-21-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2494,7 +2494,7 @@
       "href": "/guides/phone-booth-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2506,7 +2506,7 @@
       "href": "/guides/chameleon-packages-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2518,7 +2518,7 @@
       "href": "/guides/safe-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 115,
+      "ageDays": 134,
       "needsReview": true
     },
     {
@@ -2530,7 +2530,7 @@
       "href": "/guides/prison-wanted-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -2542,7 +2542,7 @@
       "href": "/guides/fishing-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -2554,7 +2554,7 @@
       "href": "/guides/fons-farming-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -2566,7 +2566,7 @@
       "href": "/blog/nte-ai-art-controversy-timeline",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -2578,7 +2578,7 @@
       "href": "/blog/nte-version-1-2-preview-shinku-illica",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 111,
+      "ageDays": 130,
       "needsReview": true
     },
     {
@@ -2590,7 +2590,7 @@
       "href": "/blog/nte-not-hoyoverse-developer-clarification",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 102,
+      "ageDays": 121,
       "needsReview": true
     },
     {
@@ -2602,7 +2602,7 @@
       "href": "/blog/is-nte-worth-playing-2026-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 102,
+      "ageDays": 121,
       "needsReview": true
     },
     {
@@ -2614,7 +2614,7 @@
       "href": "/blog/nte-mobile-optimization-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 93,
+      "ageDays": 112,
       "needsReview": true
     },
     {
@@ -2626,7 +2626,7 @@
       "href": "/blog/nte-revenue-data-analysis-2026",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 93,
+      "ageDays": 112,
       "needsReview": true
     },
     {
@@ -2638,7 +2638,7 @@
       "href": "/guides/nine-hundred-ninety-nine-nights-mode",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 89,
+      "ageDays": 108,
       "needsReview": true
     },
     {
@@ -2650,7 +2650,7 @@
       "href": "/blog/nte-version-1-2-update-overview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -2662,7 +2662,7 @@
       "href": "/blog/nte-999-nights-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     },
     {
@@ -2674,7 +2674,7 @@
       "href": "/blog/nte-1-2-free-rewards-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 81,
+      "ageDays": 100,
       "needsReview": true
     }
   ]

@@ -91,6 +91,63 @@ export default async function EventsPage({
   const redeemCodeDataset = redeemCodesData as { codes: { code: string; reward: string; rewardEn: string; status: string; expiresAt: string; region: string }[] };
   const activeCodes = redeemCodeDataset.codes.filter((c) => c.status === "active");
 
+  const CURRENT_1_4_EVENTS = [
+    {
+      id: "circle-gifts",
+      titleZh: "环期赠礼签到活动",
+      titleEn: "Circle Gifts Login Event",
+      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
+      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
+      descZh: "累计签到7日可获得质实骰子×10。",
+      descEn: "Log in for a total of 7 days to earn Solid Dice ×10.",
+    },
+    {
+      id: "pukaland-travelogue",
+      titleZh: "噗卡乐园游记",
+      titleEn: "Pukaland Travelogue",
+      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
+      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
+      descZh: "完成限时奇遇可获得环石、捏造骰子、浮冰影券、特级猎人攻略和混沌染剂等奖励。",
+      descEn: "Complete limited-time encounters for Annulith, Fabricated Dice, Floe Cinema Tickets, Elite Hunter Guides, Chaotic Dye, and more.",
+    },
+    {
+      id: "terminal-depths",
+      titleZh: "全站深境",
+      titleEn: "Terminal Depths",
+      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
+      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
+      descZh: "通关活动关卡可获得称号、环石、方斯、特级猎人攻略和混沌染剂等奖励。",
+      descEn: "Clear event stages for a title, Annulith, Fons, Elite Hunter Guides, Chaotic Dye, and more.",
+    },
+    {
+      id: "coal-lumps-treasure",
+      titleZh: "炭团的宝藏",
+      titleEn: "Coal Lump's Treasure",
+      windowZh: "2026年10月8日10:00 – 11月11日05:59（UTC+8）",
+      windowEn: "October 8, 2026, 10:00 – November 11, 05:59 (UTC+8)",
+      descZh: "参与活动获取五彩花糖，并在活动商店兑换奖励。",
+      descEn: "Earn Rainbow Candy and exchange it for rewards in the event shop.",
+    },
+    {
+      id: "blackbirds-invitation",
+      titleZh: "黑羽的邀请函",
+      titleEn: "Blackbird's Invitation",
+      windowZh: "2026年9月30日11:00 – 11月11日05:59（UTC+8）",
+      windowEn: "September 30, 2026, 11:00 – November 11, 05:59 (UTC+8)",
+      descZh: "邀请新人或回归鉴定师，完成活动任务获取环石或占卜次数；活动首页兑换码可兑换限定头像框。",
+      descEn: "Invite new or returning Appraisers, complete event tasks for Annulith or Divination Attempts, and use the event-page code for a limited avatar frame.",
+    },
+    {
+      id: "porsche-born-to-race",
+      titleZh: "异环×Porsche「骏影疾驰」盲盒",
+      titleEn: "NTE × Porsche: Born to Race Mystery Box",
+      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
+      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
+      descZh: "使用方斯或环石抽取联动盲盒，最多15次。",
+      descEn: "Open the collab mystery box with Fons or Annulith; there are 15 boxes in total.",
+    },
+  ];
+
   return (
     <>
       <ArticleJsonLd
@@ -120,12 +177,24 @@ export default async function EventsPage({
         {/* Current limited events */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "当前活动：未在本站验证" : "Current Events: Not Verified Here"}
+            {isZh ? "当前 1.4 活动（官方公告）" : "Current Version 1.4 Events (Official Notice)"}
           </h2>
-          <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
-            <p className="text-sm text-gray-500">
-              {isZh ? "本站尚未核实可列出的当前限时活动；请以游戏内活动页和官方公告为准。" : "No current limited event is listed until it is verified here; check the in-game event page and official notices."}
-            </p>
+          <p className="text-xs text-gray-500 mb-4">
+            {isZh ? "以下时间适用于公告所列服务器时间；请以目标区服客户端倒计时和活动页为最终依据。" : "The windows below follow the official notice's server time; use the target server's in-game countdown as the final source."}
+          </p>
+          <div className="space-y-4">
+            {CURRENT_1_4_EVENTS.map((event) => (
+              <div key={event.id} className="rounded-xl border border-primary-500/20 bg-primary-500/5 p-5">
+                <div className="flex flex-wrap items-center gap-3 mb-2">
+                  <span className="text-[10px] px-2 py-0.5 rounded border bg-primary-500/20 text-primary-300 border-primary-500/30">
+                    {isZh ? "1.4 当前活动" : "Version 1.4 · Current"}
+                  </span>
+                  <h3 className="text-sm font-semibold">{isZh ? event.titleZh : event.titleEn}</h3>
+                </div>
+                <p className="text-xs text-primary-200/80 mb-2">{isZh ? event.windowZh : event.windowEn}</p>
+                <p className="text-xs text-gray-400">{isZh ? event.descZh : event.descEn}</p>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -209,10 +278,10 @@ export default async function EventsPage({
           </Link>
         </section>
 
-        {/* Upcoming Events placeholder */}
+        {/* Future Events placeholder */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "后续活动：未验证" : "Future Events: Unverified"}
+            {isZh ? "后续活动：以官方公告为准" : "Future Events: Follow Official Notices"}
           </h2>
           <div className="rounded-xl border border-gray-800 bg-gray-900/30 p-6 text-center">
             <svg className="w-10 h-10 mx-auto mb-3 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">

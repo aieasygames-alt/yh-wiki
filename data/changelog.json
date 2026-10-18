@@ -1325,5 +1325,65 @@
     ],
     "reviewedAt": "2026-09-29",
     "verificationStatus": "live"
+  },
+  {
+    "id": "version-1-4",
+    "version": "1.4",
+    "versionName": "祷歌为谁而诵",
+    "versionNameEn": "For Whom the Verses Mourn",
+    "date": "2026-09-30",
+    "dateGlobal": "2026-09-30",
+    "type": "major",
+    "highlights": [
+      "新限定S级角色黑羽与限定弧盘罪与罚",
+      "新区域噗卡乐园与圣阿尔博镇",
+      "Porsche联动盲盒骏影疾驰上线，失速狂飙返场",
+      "环期赠礼、噗卡乐园游记、全站深境、炭团的宝藏与黑羽的邀请函等活动开启",
+      "版本活动时间与奖励以目标区服客户端和官方公告为准"
+    ],
+    "highlightsEn": [
+      "New limited S-rank character Blackbird and limited Arc Crime and Punishment",
+      "New Pukaland and Saint Albo Town areas",
+      "Porsche collab Born to Race mystery box launches and Everdriving returns",
+      "Circle Gifts, Pukaland Travelogue, Terminal Depths, Coal Lump's Treasure, and Blackbird's Invitation begin",
+      "Verify event windows and rewards in the target server client and official notices"
+    ],
+    "sections": [
+      {
+        "title": "版本与活动状态",
+        "titleEn": "Version and Event Status",
+        "items": [
+          {
+            "name": "1.4当前活动",
+            "nameEn": "Current Version 1.4 Events",
+            "description": "官方公告确认的1.4活动包括环期赠礼、噗卡乐园游记、全站深境、炭团的宝藏、黑羽的邀请函及Porsche联动内容；具体时间以客户端倒计时为准。",
+            "descriptionEn": "Official notices confirm Circle Gifts, Pukaland Travelogue, Terminal Depths, Coal Lump's Treasure, Blackbird's Invitation, and Porsche collaboration content; verify exact windows in-game.",
+            "type": "event",
+            "tags": ["活动", "1.4"]
+          }
+        ]
+      }
+    ],
+    "compensation": "维护补偿与版本活动奖励以游戏内邮件和官方公告为准。",
+    "compensationEn": "Check in-game mail and official notices for maintenance compensation and version event rewards.",
+    "internalLinks": [
+      {
+        "label": "异环活动与兑换码",
+        "labelEn": "NTE Events and Redeem Codes",
+        "href": "/events"
+      },
+      {
+        "label": "异环兑换码大全",
+        "labelEn": "All Redeem Codes",
+        "href": "/redeem-codes"
+      },
+      {
+        "label": "更多版本更新",
+        "labelEn": "More Patch Notes",
+        "href": "/changelog"
+      }
+    ],
+    "reviewedAt": "2026-10-18",
+    "verificationStatus": "live"
   }
 ]

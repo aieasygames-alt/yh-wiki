@@ -1,7 +1,7 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-09-29
+> Generated: 2026-10-18
 
 ## Characters (45)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
@@ -104,7 +104,7 @@
 - [体力管理最优策略](/en/guides/stamina-management/) — Beginner (updated 2026-05-01)
 - [每日必做任务清单](/en/guides/daily-routine/) — Beginner (updated 2026-04-29)
 - [抽卡策略与保底机制](/en/guides/gacha-strategy/) — Advanced (updated 2026-04-29)
-- [公测配队推荐 — 最强阵容搭配指南](/en/guides/team-building/) — Combat (updated 2026-04-29)
+- [历史公测配队记录 — 阵容思路与版本适用性](/en/guides/team-building/) — Combat (updated 2026-04-29)
 - [开放世界探索技巧](/en/guides/exploration-tips/) — Exploration (updated 2026-04-29)
 - [世界BOSS挑战攻略](/en/guides/boss-guide/) — Combat (updated 2026-04-29)
 - [武器选择与强化指南](/en/guides/weapon-guide/) — Advanced (updated 2026-04-29)
@@ -202,7 +202,7 @@
 
 ## FAQ (311)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
-- When does NTE 1.4 start and what is in the next version?
+- Version 1.4 is live: what are the current NTE events?
 - Is Linko worth pulling in NTE 1.3 and how should you plan pity?
 - What should you do first in Fogden and Duskmoor, and how should you order exploration?
 - Are there active NTE redeem codes now, and how do you avoid missing them?
@@ -513,9 +513,4 @@
 - How do you unlock Fogden and Duskmoor in NTE 1.3?
 - What is Stillmeadow House used for in NTE 1.3?
 
-## Active Redeem Codes (5)
-- NTEFREE: Fons x30,000
-- NTEWINFONS: Fons x20,000
-- NTEFUNGAME: Fons x10,000
-- NTENENE: Fons x10,000, DynamiK Zero x10, Clicky Fries x10
-- LACRIMOSA0603: Annulith x30, Fons x20,000
+## Active Redeem Codes (0)
