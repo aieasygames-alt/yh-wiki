@@ -1,6 +1,6 @@
 # NTE Guide (异环攻略站)
 
-异环 (Neverness to Everness) 游戏攻略维基站，域名 `nteguide.com`，支持 13 种语言。
+异环 (Neverness to Everness) 游戏攻略维基站，域名 `nteguide.com`，当前支持中文、繁体中文和英文 3 种语言。
 
 ## 技术栈
 
@@ -21,7 +21,7 @@
 ```
 yh-wiki/
 ├── app/                    # Next.js App Router 页面
-│   ├── [lang]/             # 13 语言动态路由 (zh/tw/en/th/vi/id/pt-br/ja/ko/de/fr/es/ru)
+│   ├── [lang]/             # 3 语言动态路由 (zh/tw/en；以 lib/i18n.ts 为准)
 │   │   ├── page.tsx        # 首页
 │   │   ├── layout.tsx      # 根 layout (generateStaticParams 生成所有语言)
 │   │   ├── characters/     # 角色列表 + [slug] 详情
@@ -65,7 +65,7 @@ yh-wiki/
 ├── components/             # 43 个 React 组件
 ├── data/                   # JSON 数据文件 (内容层)
 ├── lib/                    # 工具函数库
-├── messages/               # 13 个语言翻译 JSON
+├── messages/               # 3 个语言翻译 JSON (zh/tw/en)
 ├── public/                 # 静态资源 (图片/sitemap/API JSON)
 ├── scripts/                # 构建/数据脚本
 ├── e2e/                    # Playwright E2E 测试
@@ -183,17 +183,17 @@ npm run build
 
 ### 13 种语言
 
-`zh`, `tw`, `en`, `th`, `vi`, `id`, `pt-br`, `ja`, `ko`, `de`, `fr`, `es`, `ru`
+`zh`, `tw`, `en`（实际列表以 `lib/i18n.ts` 的 `LOCALES` 为准）
 
 ### 翻译系统
 
 - **UI 翻译**: `messages/{locale}.json` — 嵌套 JSON，用 `t(locale, "dot.path")` 读取，支持 `{0}` 占位符插值
 - **内容翻译**: `data/*.json` 中的 `name/nameEn`、`content/contentEn` 字段，渲染时按 locale 选择
-- **SEO**: `hreflangAlternates()` 为每个页面生成 13 语言 + x-default 的 `<link rel="alternate">`
+- **SEO**: `hreflangAlternates()` 为每个页面生成 3 语言 + x-default 的 `<link rel="alternate">`
 
 ### 添加新页面时的 i18n 检查清单
 
-1. 在 `messages/*.json` (全部 13 个) 添加页面标题等翻译 key
+1. 在 `messages/zh.json`、`messages/tw.json`、`messages/en.json` 添加页面标题等翻译 key，并保持三份 key 结构一致
 2. 在 `components/Header.tsx` 导航菜单添加入口
 3. 在 `components/Footer.tsx` 对应栏目添加入口
 4. 在 `scripts/prebuild.js` 的 `toolPages` 或 `categoryPages` 数组添加路由

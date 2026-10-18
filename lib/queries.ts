@@ -487,6 +487,9 @@ export interface BlogPost {
   imageAlt?: string;
   internalLinks: { label: string; labelEn: string; href: string }[];
   faq?: FaqItem[];
+  reviewedAt?: string;
+  verificationStatus?: "confirmed" | "live" | "watch" | "historical";
+  sourceUrl?: string;
 }
 
 export function getAllBlogPosts(): BlogPost[] {

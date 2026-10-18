@@ -40,7 +40,10 @@
         "labelEn": "Tier List",
         "href": "/blog/nte-character-tier-list-2026-may"
       }
-    ]
+    ],
+    "contentTw": "## 現在應如何閱讀這篇舊前瞻\n\n本頁保留的是 1.2 週期前後流傳資訊的**歷史校對記錄**，不再作為卡池、角色上線或資源規劃指南。文中的「已交叉確認」「未證實」和「延期」只描述舊資訊與後續版本資料的對應關係；目前客戶端狀態仍應以目標區服的遊戲內公告和官方發布為準。\n\n### 閱讀結論\n\n- 真紅與伊洛伊在後續 1.2 相關資料中有對應角色記錄，可視為本輪舊資訊中能夠交叉核對的部分。\n- 妮夏與殘虹雖在當時社群討論中頻繁出現，但本頁不將其視為已獲 1.2 當期排期確認的角色。\n- 舊資訊中的角色名單、順序、強度、機制、獎勵和資源數字不適合作為目前抽取或養成依據。\n\n---\n\n## 這篇文章目前仍有什麼用途\n\n- 對照社群曾討論的角色與後續版本資料中的記錄。\n- 了解討論熱度、測試或劇情線索與正式排期並不等同。\n- 追溯舊前瞻如何影響過去討論，但不要將其直接用於目前決策。\n\n## 現在應查閱什麼\n\n1. **目標區服客戶端**：查看目前卡池、角色可用性、活動倒計時、技能和獎勵。\n2. **官方公告與版本說明**：核對維護、更新、角色、活動和兌換內容。\n3. **本站版本與角色歷史**：僅用於查閱過往記錄，不能替代前兩項來源。\n\n本頁仍是一篇已封存的 1.2 歷史回顧。除非能核對到官方更新，本站不會將舊洩露重新標記為目前結論。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-city-tycoon-economy-guide",
@@ -82,7 +85,10 @@
         "labelEn": "Affinity Guide",
         "href": "/blog/nte-affinity-costume-system-guide"
       }
-    ]
+    ],
+    "contentTw": "城市大亨同時涉及被動收入、角色獎勵和城市經營。收益、解鎖門檻、角色取得方式和最快路線會隨版本變化。建議先完成教學，優先升級能增加長期收益或推進角色獎勵的項目，再處理裝飾。具體收益和獎勵以目前系統頁面為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-affinity-costume-system-guide",
@@ -124,7 +130,10 @@
         "labelEn": "All Characters",
         "href": "/characters/"
       }
-    ]
+    ],
+    "contentTw": "好感度和服裝系統的角色偏好、禮物價格、等級門檻和外觀獎勵可能隨版本變化。建議集中培養一名常用角色，優先送容易取得的偏好禮物，並先完成限時活動。舊文章中「10級」「免費時裝」和Fons數字只能作歷史參考，請以目前角色頁和羈遇系統為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-f2p-7-day-progression-guide",
@@ -166,7 +175,10 @@
         "labelEn": "Fons Farming Guide",
         "href": "/blog/nte-fons-farming-complete-guide"
       }
-    ]
+    ],
+    "contentTw": "## 零氪七日原則\n\n零氪玩家應優先推進主線、集中培養一支隊伍、避免浪費體力，並每天領取可確認的方斯和活動資源。這是一篇早期版本路線，角色、獎勵和每日資源請以目前客戶端為準。\n\n## 建議順序\n\n- 第1至2天：完成教學、主線和新手內容，組建第一支可用隊伍。\n- 第3至4天：解鎖都市大亨、材料副本和主要移動功能。\n- 第5至7天：集中升級主C、武器和關鍵技能，再嘗試高難度內容。\n\n不要把所有資源平均分給全角色。先完成一個能穩定推進的核心，再逐步建立第二隊。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-sunward-island-complete-collection-guide",
@@ -208,7 +220,10 @@
         "labelEn": "Event Schedule",
         "href": "/blog/nte-version-1-1-event-schedule-global-server"
       }
-    ]
+    ],
+    "contentTw": "向陽島收集內容的點位、解鎖條件和獎勵可能隨版本或地圖更新改變。建議先開傳送點，再用目前互動地圖核對諭石、贈禮、拍照點、異聞錄和釣魚位置。遇到暫時無法取得的點位，先標記並按主線或解鎖條件回收，不必一開始追求100%。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-version-1-1-event-schedule-global-server",
@@ -250,7 +265,10 @@
         "labelEn": "Banner Schedule",
         "href": "/blog/nte-banner-schedule-roadmap"
       }
-    ]
+    ],
+    "contentTw": "本頁整理全球服1.1時期的活動日程，日期、雙倍掉落和活動獎勵均屬歷史記錄。活動結束後不要把舊倒計時或兌換條件當作目前安排；最新活動請以目標區服客戶端、官方公告和活動頁為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-cohabitation-roommate-system-guide",
@@ -292,7 +310,10 @@
         "labelEn": "v1.1 Update Overview",
         "href": "/blog/nte-version-1-1-update-overview"
       }
-    ]
+    ],
+    "contentTw": "同居和室友系統的解鎖條件、房屋功能、好感互動和日常獎勵可能隨版本調整。先完成目前客戶端顯示的房屋與角色任務，再查看可邀請角色和互動入口。舊文章的好感數字、家具效果和取得條件只能作參考，不能替代遊戲內說明。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-porsche-918-spyder-collaboration-guide",
@@ -334,7 +355,10 @@
         "labelEn": "F2P Resource Guide",
         "href": "/blog/nte-f2p-complete-resource-guide"
       }
-    ]
+    ],
+    "contentTw": "保時捷918 Spyder聯動文章記錄的是活動期間的取得方式和獎勵。聯動通常具有時效性，車輛價格、保底、商店和F2P條件不應視為目前固定規則。想確認是否仍可取得，請查看目前活動頁、商店和官方公告，不要依照舊文章直接充值或消耗資源。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-cosmos-team-comps-guide",
@@ -381,7 +405,10 @@
     "content": "宇宙(Cosmos)属性是异环1.0-1.1版本的核心元素，拥有当前版本最强输出反应——Blossom（坼绽）。宇宙属性角色阵容豪华，包含SS级的浔、S+级的零和穗鸟，是当前meta的中心。\n\n## 宇宙属性角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 浔(Xun) | S | SS | 支援 | 液体 |\n| 零（男）(Zero) | S | S+ | 进攻 | 固体 |\n| 零（女）(Zero) | S | S+ | 进攻 | 固体 |\n| 穗鸟(Hotori) | S | S+ | 增益辅助 | 气体 |\n| 赤子(Chiz) | S | A | 进攻 | 气体 |\n| 埃德加(Edgar) | A | B | 支援 | 液体 |\n| 泰格多(Taygedo) | A | B | 支援 | 凝聚 |\n\n## 核心反应机制\n\n### Blossom（坼绽）— 最强输出反应\n\nBlossom是宇宙元素与生命(Anima)元素触发的高伤害范围反应：\n- **触发条件**：Cosmos攻击命中附着Anima的敌人\n- **伤害**：大范围AOE，与触发角色的攻击力挂钩\n- **最佳触发者**：零（男女均可），因为循环速度可瞬间充满100层\n\n### Charge（充能）— 加速大招\n\nCosmos与咒语(Incantation)触发的充能反应：\n- 加速全队大招能量获取\n- 适合依赖大招爆发的阵容\n\n### Remora（鮣鱼）— 持续伤害\n\nCosmos与心灵(Psyche)触发的附着反应：\n- 在目标身上附着，持续造成伤害\n- 适合持续输出型队伍\n\n## T0配队推荐\n\n### 光耀坼绽队（最强配队）\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 零（男/女） | 站场输出，触发Blossom |\n| 辅助 | 穗鸟 | 记录并复刻全队技能 |\n| 辅助 | 九原 | 聚怪+控制 |\n| 支援 | 浔 | 治疗+技能复刻 |\n\n**输出循环**：九原E聚怪 → 穗鸟E记录 → 零E+普攻循环触发Blossom → 久远E+Q → 穗鸟Q复刻 → 零切回站场\n\n### 零爆发队\n\n| 位置 | 角色 | 作用 |\n|------|------|--------|\n| 主C | 零（男） | 爆发输出 |\n| 增益 | 穗鸟 | 技能记录+复刻 |\n| 支援 | 埃德加 | 增益辅助 |\n| 支援 | 泰格多 | 元素反应触发 |\n\n## 免费角色配队建议\n\n零氪/微氪玩家可以使用以下阵容：\n- 零（男）作为主C（开服赠送）\n- 赤子(Chiz)作为副C（免费S级）\n- 搭配埃德加（A级支援）\n\n## FAQ\n\n**Q: 零（男）和零（女）哪个好？**\nA: 两者机制基本相同，选择你有的即可。如果有穗鸟，零（男）优先。\n\n**Q: 宇宙队必须要有穗鸟吗？**\nA: 不是必须，但穗鸟的记录机制可以将队伍输出提升50%+。建议优先抽取。\n\n**Q: Blossom伤害和什么有关？**\nA: 与触发角色的攻击力、元素精通和等级有关。零的循环速度使得Blossom触发频率最高。",
     "contentEn": "Cosmos is the central element in NTE's 1.0-1.1 meta, featuring Blossom — the strongest DPS reaction in the game. With a stacked roster including SS-rank Xun, S+-rank Zero and Hotori, Cosmos teams dominate the current meta.\n\n## Cosmos Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Xun | S | SS | Support | Liquid |\n| Zero (Male) | S | S+ | Attack | Solid |\n| Zero (Female) | S | S+ | Attack | Solid |\n| Hotori | S | S+ | Buff | Gas |\n| Chiz | S | A | Attack | Gas |\n| Edgar | A | B | Support | Liquid |\n| Taygedo | A | B | Support | Condensate |\n\n## Core Reaction Mechanics\n\n### Blossom — The Strongest DPS Reaction\n\nBlossom is a high-damage AoE reaction between Cosmos and Anima elements:\n- **Trigger**: Cosmos attack hits an enemy with Anima applied\n- **Damage**: Large AoE, scales with triggering character's ATK\n- **Best trigger**: Zero (either gender) due to instant 100-stack cycle rate\n\n### Charge — Energy Acceleration\n\nTriggered by Cosmos + Incantation:\n- Accelerates team Ultimate energy gain\n- Ideal for Ultimate-dependent comps\n\n### Remora — Damage Over Time\n\nTriggered by Cosmos + Psyche:\n- Attaches to target for continuous damage\n- Good for sustained DPS teams\n\n## T0 Team Compositions\n\n### Cosmos Blossom Team (Best Comp)\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Zero (M/F) | On-field DPS, triggers Blossom |\n| Support | Hotori | Records and replays team skills |\n| Utility | Jiuyuan | Grouping + CC |\n| Support | Xun | Healing + skill replay |\n\n**Rotation**: Jiuyuan E group → Hotori E record → Zero E+NA loop for Blossom → Jiuyuan E+Q → Hotori Q replay → Zero back on field\n\n### Zero Burst Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Zero (Male) | Burst damage |\n| Buffer | Hotori | Skill recording + replay |\n| Support | Edgar | Buff utility |\n| Support | Taygedo | Reaction trigger |\n\n## F2P Team Options\n\nFor F2P/low-spend players:\n- Zero (Male) as main DPS (free from launch)\n- Chiz as sub DPS (free S-rank)\n- Edgar (A-rank support) as filler\n\n## FAQ\n\n**Q: Zero Male vs Zero Female — which is better?**\nA: Nearly identical kits. Use whichever you have. If you run Hotori, Zero (Male) has slightly better synergy.\n\n**Q: Do Cosmos teams need Hotori?**\nA: Not required, but Hotori's recording mechanic boosts team DPS by 50%+. Highly recommended to pull.\n\n**Q: What does Blossom damage scale with?**\nA: Triggering character's ATK, Elemental Mastery, and level. Zero's cycle rate gives the highest Blossom trigger frequency.",
     "image": "/images/blog/nte-world-urban-street-character-green-hair.webp",
-    "imageAlt": "NTE Cosmos team exploration in urban area"
+    "imageAlt": "NTE Cosmos team exploration in urban area",
+    "contentTw": "本頁整理宇宙屬性和Blossom反應的早期配隊思路。反應效果、角色強度和最適合的隊伍會隨版本變化。新手可先建立容易維持的兩屬性核心，再用第四位置補生存或支援；具體反應和數值以目前遊戲內說明為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-anima-team-comps-guide",
@@ -422,7 +449,10 @@
     "content": "生命(Anima)属性是异环中功能性极强的元素，拥有SS级的九原（最强聚怪控制）和SS级的娜娜莉（顶级爆发主C）。Anima角色虽然不直接触发最强反应，但作为反应触发的「基底」至关重要。\n\n## Anima角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 娜娜莉(Nanally) | S | SS | 进攻 | 等离子 |\n| 九原(Jiuyuan) | S | SS | 辅助 | 固体 |\n| 小吱(Xiaozhi) | S | S+ | 进攻 | 气体 |\n| 薄荷(Mint) | A | A | 支援 | 液体 |\n| 明虎(Xiaozhen) | S | A | 进攻 | 固体 |\n\n## Anima在反应体系中的角色\n\nAnima是Blossom（坼绽）反应的必要元素：\n- **作为反应基底**：先附着Anima元素，再用Cosmos触发Blossom\n- **九原的聚怪**让Blossom的范围伤害效率最大化\n- **娜娜莉的爆发**可以在Blossom触发后收割残血\n\n## T0配队推荐\n\n### 娜娜莉爆发队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 娜娜莉 | 站场爆发输出 |\n| 聚怪 | 九原 | E聚怪+控制 |\n| 触发 | 零（男） | 循环触发Blossom |\n| 辅助 | 穗鸟 | 技能记录复刻 |\n\n### 小吱免费主C队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 小吱 | Grain机制持续输出 |\n| 治疗 | 薄荷 | 治疗保障+元素附着 |\n| 支援 | 埃德加 | 增益辅助 |\n\n## FAQ\n\n**Q: Anima队必须配Cosmos角色吗？**\nA: 推荐搭配。Anima + Cosmos触发Blossom是当前最强反应。\n\n**Q: 娜娜莉和九原哪个优先抽？**\nA: 九原是跨属性通用的最强辅助，如果只能选一个，九原优先。\n\n---\n\n## 生命属性配队核心思路\n\n生命属性队伍的核心在于**持续治疗**和**元素反应触发**。生命属性角色在治疗的同时可以触发强力的元素反应，是攻防兼备的属性。\n\n### 推荐队伍一：生命属性反应队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **娜娜莉/Nanally** | 限定主C，高爆发输出 |\n| 治疗 | **薄荷/Mint** | 核心治疗+元素反应触发 |\n| 增益 | **九原/Jiuyuan** | 聚怪+多元素反应 |\n| 灵活位 | **零/Zero** | 多属性输出+反应触发 |\n\n### 推荐队伍二：生命属性生存队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **娜娜莉/Nanally** | 生命属性主输出 |\n| 治疗 | **薄荷/Mint** | 持续治疗 |\n| 增益 | **爱德加/Edgar** | 额外治疗+生存 |\n| 副C | **热内/Renee** | 生命属性副输出 |\n\n---\n\n## 生命属性反应机制\n\n生命属性最大的优势是**治疗时触发元素反应**：\n- 当生命属性角色治疗队友时，有概率触发**Anima反应**\n- 反应伤害基于治疗量，治疗越高伤害越高\n- 薄荷的「蝶旋」技能是最佳Anima反应触发器\n\n---\n\n## 生命属性角色强度排行\n\n1. **娜娜莉/Nanally (S)** — 限定主C，生命属性天花板\n2. **薄荷/Mint (A)** — 免费获取，最强治疗+反应触发\n3. **九原/Jiuyuan (A)** — 多功能辅助，聚怪+反应",
     "contentEn": "Anima is a highly functional element in NTE, featuring SS-rank Jiuyuan (best grouping/CC) and SS-rank Nanally (top burst DPS). While Anima characters don't directly trigger the strongest reactions, they serve as essential reaction bases.\n\n## Anima Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Nanally | S | SS | Attack | Plasma |\n| Jiuyuan | S | SS | Utility | Solid |\n| Xiaozhi | S | S+ | Attack | Gas |\n| Mint | A | A | Support | Liquid |\n| Xiaozhen | S | A | Attack | Solid |\n\n## Anima's Role in Reactions\n\nAnima is essential for triggering Blossom:\n- **Reaction base**: Apply Anima first, then Cosmos triggers Blossom\n- **Jiuyuan's grouping** maximizes Blossom's AoE efficiency\n- **Nanally's burst** cleans up after Blossom triggers\n\n## T0 Team Compositions\n\n### Nanally Burst Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Nanally | On-field burst DPS |\n| Grouper | Jiuyuan | E grouping + CC |\n| Trigger | Zero (Male) | Cycle for Blossom |\n| Support | Hotori | Skill recording |\n\n### Xiaozhi F2P Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Xiaozhi | Grain mechanic sustained DPS |\n| Healer | Mint | Healing + elemental application |\n| Support | Edgar | Buff utility |\n\n## FAQ\n\n**Q: Do Anima teams need Cosmos characters?**\nA: Recommended. Anima + Cosmos Blossom is the strongest reaction.\n\n**Q: Nanally vs Jiuyuan — who to pull first?**\nA: Jiuyuan is the best cross-element support; if only one, prioritize Jiuyuan.",
     "image": "/images/blog/nte-character-pink-curly-hair-sunset-bridge.webp",
-    "imageAlt": "NTE Anima character at sunset bridge"
+    "imageAlt": "NTE Anima character at sunset bridge",
+    "contentTw": "本頁整理生命屬性早期配隊與治療支援思路。治療量、角色定位和反應效果以目前版本為準。若隊伍經常因生存失敗，先補治療或護盾；若生存足夠，再按主C反應和循環需求補輸出與支援。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-chaos-team-comps-guide",
@@ -463,7 +493,10 @@
     "content": "混沌(Chaos)属性是异环中独特的减防输出体系。混沌角色的技能可以施加「噩梦」效果降低敌人防御力，配合高输出角色打出成倍伤害。\n\n## Chaos角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 达芙迪尔(Daffodil) | S | A+ | 进攻 | 液体 |\n| 安魂曲(Lacrimosa) | S | A | 进攻 | 液体 |\n| 黑鸟(Black Bird) | S | A | 进攻 | 气体 |\n| 密斯莫(Mismo) | A | B | 支援 | 凝聚 |\n\n## 核心机制：噩梦(Nightmare)\n\n噩梦是混沌属性的独有减益效果：\n- **效果**：降低目标防御力\n- **叠加**：可多次叠加，显著提升全队输出\n- **触发**：混沌属性攻击命中附带Anima元素的敌人\n\n## T0配队推荐\n\n### 达芙迪尔混沌队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 达芙迪尔 | 混沌输出 |\n| 副C | 安魂曲 | 噩梦减防+输出 |\n| 支援 | 密斯莫 | 增益辅助 |\n| 治疗 | 薄荷 | 治疗保障 |\n\n### 安魂曲1.1新队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 安魂曲 | 召唤物输出 |\n| 输出 | 黑鸟 | 混沌协同输出 |\n| 支援 | 密斯莫 | 元素反应触发 |\n| 治疗 | 达芙迪尔 | 输出+治疗 |\n\n## FAQ\n\n**Q: 混沌队需要特定辅助吗？**\nA: 密斯莫是混沌属性唯一的专属支援，如果有建议搭配。\n\n**Q: 达芙迪尔和安魂曲哪个好？**\nA: 达芙迪尔评级更高(A+)，但安魂曲1.1新机制（恶魔礼物拟态）很有趣。看队伍需求选择。\n\n---\n\n## 混沌属性配队核心思路\n\n混沌属性队伍的核心在于**噩梦减防机制**和**Discord爆发**。混沌属性角色可以对敌人施加强力的减防效果，然后利用高倍率爆发进行收割。\n\n### 推荐队伍一：混沌减防爆发队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **安魂曲/Lacrimosa** | 召唤流+蝙蝠变形输出 |\n| 副C | **达芙迪尔/Daffodil** | Discord爆发+减防辅助 |\n| 增益 | **米斯莫/Mismo** | 提供额外输出增益 |\n| 灵活位 | **黑鸟/Black Bird** | 辅助输出+反应触发 |\n\n### 推荐队伍二：混沌双C队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **安魂曲/Lacrimosa** | 混沌属性主输出 |\n| 副C | **达芙迪尔/Daffodil** | Discord反应+爆发 |\n| 控制 | **九原/Jiuyuan** | 聚怪+元素反应 |\n| 治疗 | **薄荷/Mint** | 队伍生存 |\n\n---\n\n## Discord反应机制\n\nDiscord是混沌属性独有的核心反应：\n- 当混沌属性攻击命中被标记的敌人时，触发**Discord爆发**\n- 爆发伤害基于敌人的减防层数，减防越多伤害越高\n- 达芙迪尔的被动可以额外叠加Discord层数\n\n---\n\n## 混沌属性角色强度排行\n\n1. **安魂曲/Lacrimosa (S)** — 1.1上半限定，混沌属性天花板\n2. **达芙迪尔/Daffodil (A)** — Discord核心，平民友好",
     "contentEn": "Chaos is NTE's unique DEF-shred DPS system. Chaos characters apply Nightmare to reduce enemy DEF, enabling massive damage multipliers.\n\n## Chaos Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Daffodil | S | A+ | Attack | Liquid |\n| Lacrimosa | S | A | Attack | Liquid |\n| Black Bird | S | A | Attack | Gas |\n| Mismo | A | B | Support | Condensate |\n\n## Core Mechanic: Nightmare\n\nNightmare is Chaos's exclusive debuff:\n- **Effect**: Reduces target DEF\n- **Stacking**: Can stack multiple times, significantly boosting team damage\n- **Trigger**: Chaos attacks hitting enemies with Anima applied\n\n## T0 Team Compositions\n\n### Daffodil Chaos Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Daffodil | Chaos DPS |\n| Sub DPS | Lacrimosa | Nightmare shred + damage |\n| Support | Mismo | Buff support |\n| Healer | Mint | Healing + sustain |\n\n### Lacrimosa 1.1 Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Lacrimosa | Construct DPS |\n| DPS | Black Bird | Chaos coordinated damage |\n| Support | Mismo | Reaction trigger |\n| Healer/DPS | Daffodil | Damage + sustain |\n\n## FAQ\n\n**Q: Do Chaos teams need specific supports?**\nA: Mismo is the only Chaos-element support; use if available.\n\n**Q: Daffodil vs Lacrimosa — which is better?**\nA: Daffodil rates higher (A+), but Lacrimosa has a unique absorb-and-mimic mechanic. Choose based on team needs.",
     "image": "/images/blog/nte-character-gothic-black-white-hair-red-eyes.webp",
-    "imageAlt": "NTE Chaos attribute gothic character"
+    "imageAlt": "NTE Chaos attribute gothic character",
+    "contentTw": "本頁整理混沌屬性早期輸出與減防配隊。技能效果、反應名稱和角色強度可能已經更新，不能直接把舊版Boss或噩夢減防結論套到目前內容。組隊時優先確認破韌、持續傷害、支援循環和生存是否完整。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-incantation-team-comps-guide",
@@ -504,7 +537,10 @@
     "content": "咒语(Incantation)属性以Charge充能反应为核心，拥有当前最强防护角色白藏(Baicang)。咒语角色的特点是提供强大的团队增益和控场能力。\n\n## Incantation角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 白藏(Baicang) | S | S+ | 防护 | 凝聚 |\n| 咲里(Sakiri) | S | A+ | 支援 | 气体 |\n| 阿德勒(Adler) | A | A+ | 进攻 | 凝聚 |\n| 赤音(Akane) | S | A | 进攻 | 等离子 |\n\n## 核心反应：Charge（充能）\n\nCharge是Incantation与Cosmos触发的充能反应：\n- **效果**：加速全队大招充能速度\n- **优势**：让依赖大招的角色更快进入爆发循环\n- **最佳搭配**：与零（快速循环）配合效果最佳\n\n## T0配队推荐\n\n### 白藏防护队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 防护 | 白藏 | 护盾+减伤 |\n| 主C | 零（男） | 站场输出 |\n| 辅助 | 咲里 | 聚怪+元素附着 |\n| 支援 | 浔 | 治疗保障 |\n\n### Charge充能队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 阿德勒 | 进攻输出 |\n| 充能 | 咲里 | Charge反应触发 |\n| 爆发 | 赤音 | 大招爆发 |\n| 支援 | 白藏 | 防护保障 |\n\n## FAQ\n\n**Q: 白藏值得抽吗？**\nA: 非常值得。白藏是当前唯一S+级防护角色。\n\n**Q: Charge反应有什么用？**\nA: 加速大招充能。对于依赖大招爆发的角色，可以显著提升输出循环速度。\n\n---\n\n## 咒语属性配队核心思路\n\n咒语属性队伍的核心在于**Charge充能反应**和**技能连携**。咒语角色通过快速释放技能来积累充能，触发强力反应。\n\n### 推荐队伍一：咒语充能爆发队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **白藏/Baicang** | Power Words召唤+咒语主输出 |\n| 增益 | **咲里/Sakiri** | 终结技提供团队增益+控制 |\n| 治疗 | **爱德加/Edgar** | 治疗+生存保障 |\n| 灵活位 | **阿德勒/Adler** | 额外咒语输出+元素反应 |\n\n### 推荐队伍二：咒语高速循环队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **白藏/Baicang** | Power Words持续输出 |\n| 副C | **咲里/Sakiri** | 充能循环+团队Buff |\n| 辅助 | **哈尼尔/Haniel** | 速度增益加快技能循环 |\n| 治疗 | **薄荷/Mint** | 维持生存 |\n\n---\n\n## Charge充能反应机制\n\nCharge是咒语属性的核心反应系统：\n- 咒语属性角色释放技能时积累**Charge能量**\n- Charge满层时触发**充能爆发**，造成额外元素伤害\n- 白藏的Power Words可以额外触发Charge，加快循环\n\n---\n\n## 咒语属性角色强度排行\n\n1. **白藏/Baicang (S)** — 咒语属性最强主C，Power Words机制\n2. **咲里/Sakiri (A)** — 优秀辅助+控制，免费获取\n3. **阿德勒/Adler (A)** — 免费治疗+咒语输出",
     "contentEn": "Incantation revolves around the Charge reaction and features the game's best shielder, Baicang. Incantation characters excel at team utility and crowd control.\n\n## Incantation Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Baicang | S | S+ | Defense | Condensate |\n| Sakiri | S | A+ | Support | Gas |\n| Adler | A | A+ | Attack | Condensate |\n| Akane | S | A | Attack | Plasma |\n\n## Core Reaction: Charge\n\nCharge is triggered by Incantation + Cosmos:\n- **Effect**: Accelerates team Ultimate energy gain\n- **Advantage**: Gets Ultimate-dependent characters into burst rotations faster\n- **Best synergy**: Zero (fast cycle rate) maximizes Charge triggers\n\n## T0 Team Compositions\n\n### Baicang Shield Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Shield | Baicang | Shield + damage reduction |\n| Main DPS | Zero (Male) | On-field DPS |\n| Support | Sakiri | Grouping + elemental application |\n| Support | Xun | Healing + sustain |\n\n### Charge Energy Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Adler | Attack DPS |\n| Charger | Sakiri | Charge reaction trigger |\n| Burst | Akane | Ultimate burst |\n| Shield | Baicang | Defense + sustain |\n\n## FAQ\n\n**Q: Is Baicang worth pulling?**\nA: Absolutely. Baicang is the only S+ Defense character.\n\n**Q: What does Charge reaction do?**\nA: Accelerates Ultimate charging for faster damage rotations.",
     "image": "/images/blog/nte-gameplay-characters-holding-fish-dialogue.webp",
-    "imageAlt": "NTE Incantation team gameplay dialogue"
+    "imageAlt": "NTE Incantation team gameplay dialogue",
+    "contentTw": "本頁整理咒屬性早期配隊思路。Charge反應、角色技能和推薦順序不能脫離目前版本資料使用。配隊前先查看主C的屬性需求、支援覆蓋和生存壓力，再決定是否需要咒屬性角色；不要把舊版「最強」結論視為永久答案。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-psyche-team-comps-guide",
@@ -545,7 +581,10 @@
     "content": "心灵(Psyche)属性是异环中均衡的输出元素，以法蒂亚(Fadia)为核心输出手，搭配哈尼尔(Haniel)的攻击力增益。\n\n## Psyche角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 法蒂亚(Fadia) | S | A | 进攻 | 凝聚 |\n| 哈尼尔(Haniel) | A | A+ | 支援 | 固体 |\n| 尼察(Nitsa) | A | B | 支援 | 固体 |\n| 詹森(Jenson) | A | B | 防护 | 固体 |\n| 奥蕾莉亚(Aurelia) | A | B | 支援 | 固体 |\n\n## 核心反应：Remora（鮣鱼）\n\nRemora是Psyche与Cosmos触发的附着反应：\n- **效果**：在目标身上附着，持续造成伤害\n- **特点**：不需要持续攻击也能造成伤害（锁面板机制）\n- **搭配**：与零的快速循环配合，可高频率触发\n\n## T0配队推荐\n\n### 法蒂亚输出队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 法蒂亚 | 凝聚弧爆发输出 |\n| 增益 | 哈尼尔 | 攻击力增益 |\n| 支援 | 尼察 | 减益辅助 |\n| 防护 | 詹森 | 护盾保障 |\n\n### 哈尼尔增益队\n\n哈尼尔是跨属性通用增益辅助，可以搭配任何主C使用。\n\n## FAQ\n\n**Q: Psyche队强度如何？**\nA: 中上水平。Remora反应的持续伤害在长战中优势明显。\n\n**Q: 哈尼尔必须配Psyche队吗？**\nA: 不必须。哈尼尔的攻击力增益是通用型。\n\n---\n\n## 心灵属性配队核心思路\n\n心灵属性队伍的核心在于**Remora反应**和**伤害重定向**。心灵属性角色擅长将受到的伤害转化为输出，是攻防一体的属性。\n\n### 推荐队伍一：心灵属性核心队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **法迪亚/Fadia** | 伤害重定向+合成弧输出 |\n| 增益 | **哈尼尔/Haniel** | 全队攻击+速度增益 |\n| 治疗 | **薄荷/Mint** | 维持队伍生存 |\n| 灵活位 | **爱德加/Edgar** | 额外治疗+元素反应 |\n\n### 推荐队伍二：心灵属性Remora反应队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 核心 | **法迪亚/Fadia** | Remora反应触发+伤害重定向 |\n| 增益 | **哈尼尔/Haniel** | 速度增益提升Fadia输出频率 |\n| 副C | **奥蕾莉亚/Aurelia** | 心灵属性DPS补充 |\n| 治疗 | **爱德加/Edgar** | 治疗+生存保障 |\n\n---\n\n## Remora反应机制\n\nRemora反应是心灵属性独有的反应类型，核心机制：\n- 当心灵属性角色受到攻击时，有概率将伤害**反弹**给攻击者\n- 反弹伤害基于角色攻击力，与受到的伤害无关\n- 可以与其他元素反应叠加触发\n\n---\n\n## 心灵属性角色强度排行\n\n1. **法迪亚/Fadia (S)** — Remora反应核心，伤害重定向\n2. **哈尼尔/Haniel (A)** — 顶级增益辅助，全队攻速提升\n3. **奥蕾莉亚/Aurelia (A)** — 免费获取，心灵属性DPS",
     "contentEn": "Psyche is a balanced DPS element featuring Fadia as the primary damage dealer, paired with Haniel's ATK buffs.\n\n## Psyche Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Fadia | S | A | Attack | Condensate |\n| Haniel | A | A+ | Support | Solid |\n| Nitsa | A | B | Support | Solid |\n| Jenson | A | B | Defense | Solid |\n| Aurelia | A | B | Support | Solid |\n\n## Core Reaction: Remora\n\nRemora is triggered by Psyche + Cosmos:\n- **Effect**: Attaches to target, dealing continuous damage\n- **Trait**: Snapshot mechanic — continues dealing damage even after switching off\n- **Synergy**: Pairs with Zero's fast cycling for high trigger frequency\n\n## T0 Team Compositions\n\n### Fadia DPS Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Fadia | Condensate burst DPS |\n| Buffer | Haniel | ATK boost |\n| Support | Nitsa | Debuff utility |\n| Shield | Jenson | Shield + sustain |\n\n### Haniel Flex Team\n\nHaniel's ATK buff is universal and works with any main DPS.\n\n## FAQ\n\n**Q: How strong are Psyche teams?**\nA: Above average. Remora's sustained damage excels in longer fights.\n\n**Q: Does Haniel need to be in Psyche teams?**\nA: No — Haniel's ATK buff is universal.",
     "image": "/images/blog/nte-character-bicolor-hair-devil-horns-peace.webp",
-    "imageAlt": "NTE Psyche attribute character portrait"
+    "imageAlt": "NTE Psyche attribute character portrait",
+    "contentTw": "本頁是早期心靈屬性配隊思路。隊伍反應、角色技能和場景強度會隨版本變化，Remora效果和推薦角色應以目前技能資料為準。組隊時先確認主C的反應需求，再補支援、生存和破韌位置，不要只按歷史屬性榜單組隊。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-lakshana-team-comps-guide",
@@ -585,7 +624,10 @@
     "content": "相(Lakshana)属性以冻结(Freeze)控制为核心机制。哈索尔(Hathor)是主要的AOE输出手，卡厄斯(Chaos)是1.1版本新加入的进攻角色。\n\n## Lakshana角色一览\n\n| 角色 | 稀有度 | 强度 | 定位 | 弧类型 |\n|------|--------|------|------|--------|\n| 卡厄斯(Chaos) | S | TBD | 进攻 | 凝聚 |\n| 伊利卡(Illica) | S | A | 进攻 | 等离子 |\n| 哈索尔(Hathor) | S | B | 进攻 | 等离子 |\n| 翳(Skia) | A | B | 进攻 | 气体 |\n| 海斗(Kaito) | A | B | 输出 | 气体 |\n\n## 核心反应：冻结(Freeze)\n\nLakshana与Anima触发冻结反应：\n- **效果**：完全限制目标行动\n- **战略价值**：冻结期间可以安全输出\n- **注意**：Boss级敌人通常有冻结抗性\n\n## T0配队推荐\n\n### 哈索尔AOE队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | 哈索尔 | 范围AOE输出 |\n| 控制 | 搭配Anima角色 | 触发冻结 |\n| 支援 | 搭配通用辅助 | 增益保障 |\n\n### 卡厄斯1.1新队\n\n卡厄斯是1.1版本新角色，具体配队方案会随玩家实践不断更新。\n\n## FAQ\n\n**Q: Lakshana队强吗？**\nA: 目前角色评级偏低，但冻结控制在对群时有独特价值。卡厄斯评级待定。\n\n**Q: 冻结对Boss有效吗？**\nA: 大多数Boss有冻结抗性。对普通精英怪效果很好。\n\n---\n\n## 相属性配队核心思路\n\n相属性队伍的核心在于**冻结控制**和**盈蓄反应**。相属性角色可以与其他属性产生强力的元素反应，是游戏中控制能力最强的属性。\n\n### 推荐队伍一：相属性冻结控制队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **浔/Xun** | 时停+范围伤害，核心输出 |\n| 副C | **哈索尔/Hathor** | 相属性增益，摩托车AOE |\n| 辅助 | **九原/Jiuyuan** | 元素反应触发，聚怪控制 |\n| 治疗 | **薄荷/Mint** | 治疗维持队伍生存 |\n\n**核心循环**：浔释放时停→九原聚怪触发反应→哈索尔爆发收割→薄荷治疗→循环\n\n### 推荐队伍二：相属性盈蓄反应队\n\n| 位置 | 角色 | 作用 |\n|------|------|------|\n| 主C | **浔/Xun** | 时停控制+爆发输出 |\n| 增益 | **哈索尔/Hathor** | 相属性伤害增益 |\n| 反应触发 | **卡厄斯/Chaos** | 罪状充能+伤害放大 |\n| 灵活位 | **斯凯/Skia** | 额外相属性输出 |\n\n---\n\n## 相属性反应机制\n\n| 反应名 | 触发条件 | 效果 |\n|--------|----------|------|\n| **盈蓄** | 相+任意元素 | 积蓄能量，满层后爆发伤害 |\n| **冻结** | 相+水属性相关 | 冻结敌人数秒 |\n| **染色** | 相+火属性相关 | 改变属性，触发额外反应 |\n\n---\n\n## 相属性角色强度排行\n\n1. **浔/Xun (SS)** — 免费获取，时停机制独一档\n2. **哈索尔/Hathor (S)** — 相属性最强增益辅助\n3. **斯凯/Skia (A)** — 平民友好，容易培养\n4. **卡厄斯/Chaos (A)** — 1.1下半限定，盈蓄反应核心",
     "contentEn": "Lakshana revolves around the Freeze control mechanic. Hathor is the primary AoE DPS, with Chaos joining in version 1.1.\n\n## Lakshana Character Roster\n\n| Character | Rarity | Tier | Role | Arc Type |\n|-----------|--------|------|------|----------|\n| Chaos | S | TBD | Attack | Condensate |\n| Illica | S | A | Attack | Plasma |\n| Hathor | S | B | Attack | Plasma |\n| Skia | A | B | Attack | Gas |\n| Kaito | A | B | DPS | Gas |\n\n## Core Reaction: Freeze\n\nTriggered by Lakshana + Anima:\n- **Effect**: Completely restricts target movement\n- **Strategic value**: Safe DPS window without enemy counterattacks\n- **Note**: Boss enemies typically have Freeze resistance\n\n## T0 Team Compositions\n\n### Hathor AoE Team\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Hathor | AoE damage |\n| CC | Anima character | Freeze trigger |\n| Support | Generic support | Buffs + sustain |\n\n### Chaos 1.1 Team\n\nChaos is a 1.1 newcomer; optimal teams will be updated as the meta develops.\n\n## FAQ\n\n**Q: Are Lakshana teams strong?**\nA: Currently mid-tier, but Freeze CC has unique value against mob waves.\n\n**Q: Does Freeze work on bosses?**\nA: Most bosses have Freeze resistance. Works well on elite mobs.",
     "image": "/images/blog/nte-character-mint-green-hair-horns-portrait.webp",
-    "imageAlt": "NTE Lakshana attribute character with horns"
+    "imageAlt": "NTE Lakshana attribute character with horns",
+    "contentTw": "本頁整理相屬性早期配隊思路。控制、凍結或相關反應的名稱與效果可能隨版本調整，應以目前客戶端技能和反應說明為準。先確定主C和隊伍缺口，再選擇能維持循環、提供生存或補足破韌的角色。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "is-nte-pay-to-win",
@@ -632,7 +674,10 @@
     "content": "异环（NTE）氪金程度如何？零氪玩家能不能完整体验游戏？这是公测以来搜索量最高的问题之一。本文从抽卡成本、免费资源、保底机制和竞品对比四个维度给出全面分析。\n\n## 核心结论\n\n**异环不是传统意义上的Pay to Win游戏。** 原因：\n\n1. **没有50/50机制**：保底必得当期UP角色，这是相比原神最大的优势\n2. **免费S级角色**：游戏赠送免费S级自选箱\n3. **全部PVE内容**：目前没有排名/竞技场，不逼氪\n4. **90抽硬保底**：成本可预期，不存在无底洞\n\n但如果你追求全收集或追求全角色满觉醒，那花费会很高。\n\n## 一、抽卡系统成本分析\n\n异环使用独特的「Scarborough Fair」棋盘式抽卡系统：\n\n- **单抽价格**：约160环石（等同原石）\n- **90抽硬保底**：必得当期UP角色\n- **无50/50**：不丢失保底到常驻\n- **保底继承**：同类型池之间保底进度继承\n\n### 抽卡成本估算\n\n| 抽取数量 | 花费（约） | 说明 |\n|---------|-----------|------|\n| 90抽（保底） | ~$100 | 必得UP角色 |\n| 180抽 | ~$200 | 2个限定S级 |\n| 360抽 | ~$400 | 4个限定S级 |\n\n### 与原神对比\n\n| 对比项 | 异环（NTE） | 原神 |\n--------|------------|------|\n| 保底机制 | 90抽必得UP | 180抽才保底UP（有50/50） |\n| 50/50 | 无 | 有 |\n| 免费S级 | 有（自选箱） | 无 |\n| 抽卡继承 | 有 | 有 |\n| 单抽成本 | 类似 | 类似 |\n\n**结论**：同等投入下，异环的角色获取效率约为原神的2倍（因为没有50/50）。\n\n## 二、免费资源获取量\n\n### 版本周期内可获得的免费资源（估算）\n\n| 来源 | 环石数量 | 说明 |\n|------|---------|------|\n| 日常/周常 | ~3000 | 每日10分钟完成 |\n| 版本活动 | ~2000 | 主线+活动奖励 |\n| 探索收集 | ~1500 | 一次性奖励 |\n| 成就系统 | ~500 | 一次性奖励 |\n| 兑换码 | ~500 | 关注社媒 |\n| **版本总计** | **~7500** | **约47抽** |\n\n### 零氪一个版本能抽多少？\n\n- 纯免费资源：约47抽\n- 加上月卡（如果买）：约60-70抽\n- **不足一个保底（90抽）**，但加上版本间继承的保底进度，零氪每2个版本可以保底一次\n\n## 三、零氪生存指南\n\n### 核心策略：集中资源\n\n1. **确定1个主C**：只抽一个限定角色，不要分散\n2. **利用免费S级**：自选箱选你缺的位置\n3. **不抽武器池**：4星武器完全够用\n4. **日常必做**：每天10分钟，资源不浪费\n\n### 零氪推荐角色路线\n\n| 阶段 | 目标 | 说明 |\n|------|------|------|\n| 开服 | 免费Zero（零） | 开服赠送S级 |\n| 1.0 | 免费S级自选 | 补充队伍 |\n| 1.1上半 | 安魂曲（Lacrimosa）或跳过 | 看队伍需求 |\n| 1.1下半 | 卡厄斯（Chaos）或跳过 | 看队伍需求 |\n\n### 月卡值不值？\n\n| 月卡 | 价格 | 性价比 |\n|------|------|--------|\n| 小月卡 | $5/月 | 非常高，推荐 |\n| 大月卡 | $10-15/月 | 一般，看需求 |\n| 小月卡+大月卡 | $15-20/月 | 性价比最佳区间 |\n\n## 四、哪些地方会花钱？\n\n异环的付费点主要集中在：\n\n1. **角色祈愿**：最大的付费点，但保底透明\n2. **皮肤/外观**：纯装饰，不影响数值\n3. **通行证**：加速资源获取\n4. **体力补充**：加速Farm\n\n**不存在**的付费点：\n- 没有PVP\n- 没有排行榜\n- 没有限时逼氪关卡\n- 没有VIP系统\n\n## 五、竞品对比总结\n\n| 游戏 | P2W程度 | 说明 |\n|------|---------|------|\n| 异环（NTE） | 低 | 无50/50、免费S级、无PVP |\n| 原神 | 中 | 50/50机制、无免费5星 |\n| 鸣潮 | 中 | 类似原神 |\n| 幻塔 | 高 | PVP、排行榜、VIP |\n\n## FAQ\n\n**Q: 异环零氪能玩吗？**\nA: 完全可以。免费S级+无50/50+纯PVE意味着零氪可以体验所有内容。\n\n**Q: 异环比原神更友好吗？**\nA: 在抽卡方面是的。无50/50意味着同样的投入获取效率是原神的2倍。\n\n**Q: 月卡值得买吗？**\nA: 小月卡（$5/月）性价比极高，推荐每个零氪玩家都买。\n\n**Q: 不抽角色只玩免费角色能通关吗？**\nA: 可以。游戏难度不高，免费角色+合理配队可以通关所有PVE内容。\n\n---\n\n*想了解更详细的零氪资源规划？查看我们的[完整零氪资源指南](/blog/nte-f2p-complete-resource-guide)。使用[配装计算器](/calculator/build)优化你的免费角色Build。*",
     "contentEn": "Is Neverness to Everness (NTE) pay to win? Can F2P players enjoy the full game? This is one of the most-searched questions since launch. We break down gacha costs, free resource income, pity mechanics, and compare NTE's monetization to Genshin Impact and Wuthering Waves.\n\n## TL;DR\n\n**NTE is NOT pay to win.** Here's why:\n\n1. **No 50/50 system**: Pity guarantees the featured character\n2. **Free S-rank character**: A free S-rank selector box is given to all players\n3. **Pure PvE content**: No ranked PvP, no leaderboards, no paywalls\n4. **90-pull hard pity**: Costs are predictable, no bottomless spending\n\nThat said, if you want to collect every character or max out every awakening, costs will add up.\n\n## Gacha Cost Breakdown\n\nNTE uses the unique Scarborough Fair board-game gacha system:\n\n- **Single pull cost**: ~160 Ring Stones (equivalent to Primogems)\n- **Hard pity**: 90 pulls guarantees the featured character\n- **No 50/50**: You never lose pity to off-banner\n- **Pity carries over**: Between same-type banners\n\n### Cost Estimates\n\n| Pulls | Approximate Cost | Notes |\n|-------|-----------------|-------|\n| 90 (pity) | ~$100 | Guaranteed featured character |\n| 180 pulls | ~$200 | 2 limited S-ranks |\n| 360 pulls | ~$400 | 4 limited S-ranks |\n\n### NTE vs Genshin Impact\n\n| Feature | NTE | Genshin Impact |\n|---------|-----|---------------|\n| Pity system | 90 pulls = guaranteed UP | 180 pulls for guaranteed UP (50/50) |\n| 50/50 loss | No | Yes |\n| Free S-rank | Yes (selector box) | No |\n| Pity inheritance | Yes | Yes |\n| Per-pull cost | Similar | Similar |\n\n**Bottom line**: For the same spending, NTE gives roughly 2x the character acquisition efficiency thanks to no 50/50.\n\n## Free Resource Income\n\n### Per-version free resources (estimated)\n\n| Source | Ring Stones | Notes |\n|--------|------------|-------|\n| Dailies/Weeklies | ~3,000 | ~10 min/day |\n| Version events | ~2,000 | Main story + events |\n| Exploration | ~1,500 | One-time rewards |\n| Achievements | ~500 | One-time rewards |\n| Redeem codes | ~500 | Follow social media |\n| **Per version total** | **~7,500** | **~47 pulls** |\n\n### How far does F2P go?\n\n- Pure F2P per version: ~47 pulls\n- With monthly pass: ~60-70 pulls\n- **Not quite a full pity (90)**, but with pity carry-over between versions, F2P can guarantee one character every 2 versions\n\n## F2P Survival Guide\n\n### Core Strategy: Focus Resources\n\n1. **Pick one main DPS**: Only pull for one limited character, don't spread thin\n2. **Use the free S-rank**: Selector box covers your weakest slot\n3. **Skip weapon banner**: 4-star weapons are perfectly viable\n4. **Do your dailies**: 10 min/day, don't waste free resources\n\n### F2P Character Roadmap\n\n| Phase | Target | Notes |\n|-------|--------|-------|\n| Launch | Free Zero | Free S-rank from launch |\n| 1.0 | Free S-rank selector | Fill team gap |\n| 1.1 Phase 1 | Lacrimosa or skip | Based on team needs |\n| 1.1 Phase 2 | Chaos or skip | Based on team needs |\n\n### Is the Monthly Pass Worth It?\n\n| Pass | Price | Value |\n|------|-------|-------|\n| Express Pass | $5/mo | Excellent value, recommended |\n| Premium Pass | $10-15/mo | Decent, depends on needs |\n| Both passes | $15-20/mo | Best value spending range |\n\n## Where Does Money Go?\n\nNTE's main spending points:\n\n1. **Character gacha**: The biggest spender, but pity is transparent\n2. **Skins/cosmetics**: Pure visual, no gameplay impact\n3. **Battle pass**: Accelerates resource gain\n4. **Stamina refills**: Speeds up farming\n\n**What's NOT monetized**:\n- No PvP\n- No leaderboards\n- No time-limited paywall content\n- No VIP system\n\n## Comparison with Other Games\n\n| Game | P2W Level | Notes |\n|------|-----------|-------|\n| NTE | Low | No 50/50, free S-rank, no PvP |\n| Genshin Impact | Medium | 50/50 system, no free 5-star |\n| Wuthering Waves | Medium | Similar to Genshin |\n| Tower of Fantasy | High | PvP, leaderboards, VIP |\n\n## FAQ\n\n**Q: Can I play NTE completely free?**\nA: Absolutely. Free S-rank + no 50/50 + pure PvE means F2P players can experience all content.\n\n**Q: Is NTE more F2P friendly than Genshin?**\nA: In terms of gacha, yes. No 50/50 means 2x the character acquisition efficiency for the same spending.\n\n**Q: Should I buy the monthly pass?**\nA: The $5/mo Express Pass has excellent value. Recommended for all F2P players.\n\n**Q: Can I clear all content with only free characters?**\nA: Yes. The game isn't overly difficult, and free characters with proper builds can clear all PvE content.\n\n---\n\n*Want a detailed F2P resource plan? Check our [Complete F2P Resource Guide](/blog/nte-f2p-complete-resource-guide). Use our [Build Calculator](/calculator/build) to optimize your free character builds.*",
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
-    "imageAlt": "NTE promotional key art"
+    "imageAlt": "NTE promotional key art",
+    "contentTw": "是否需要付費取決於你的目標和遊玩方式。零氪玩家可以透過主線、活動、探索和長期養成建立可用隊伍，但抽卡和資源進度會受限時活動與帳號規劃影響。月卡、通行證和其他付費項目的價格與獎勵可能改變，請以目前商店頁為準。不要把早期資源數字或「完全不需要花錢」當作保證。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v11-dreamwalk-corridor-release-guide",
@@ -695,7 +740,10 @@
     "content": "异环（Neverness to Everness）1.1版本「游梦洄廊」于2026年5月28日正式上线。这是公测后的首个大版本更新，带来了两位新S级角色、全新地图区域、多项减负优化和丰富的版本活动。\n\n## 一、新角色一览\n\n### 安魂曲（Lacrimosa）— 1.1上半限定\n\n安魂曲是游戏首位召唤流主C，通过操控多个异能构装体进行协同战斗。她的核心机制是「噩梦」效果——技能命中目标后附加噩梦状态，持续造成暗属性伤害。A5觉醒后噩梦还会削减目标生命上限，对付高血量Boss尤为有效。\n\n- **稀有度**：S级\n- **属性**：暗属性（Chaos）\n- **武器类型**：液体弧光（Liquid）\n- **定位**：召唤流 AoE 进攻\n- **专属弧光**：最后一朵玫瑰（The Last Rose）\n- **卡池时间**：5月28日 - 6月18日（国服）/ 6月3日 - 6月24日（全球服）\n- **CV**：宴宁（中）/ 長縄まりあ（日）/ Baraka May（英）\n\n**核心技能**：\n- **普通攻击「酸甜口味的制裁」**：5段连击，第5段可触发派生招式\n- **战技「起床气加载中」**：投掷异能造物造成范围伤害，恶魔的礼物可吸收怪物并拟态\n- **终结技「工作日的最终审判」**：操纵巨型异能造物，5次范围暗属性伤害\n- **A3觉醒「噩梦清算」**：第5段普攻一次性结算全部噩梦层数，爆发核心\n\n**Build推荐**：\n- **首选碟片**：裂空之牙（Skyrending Fang）4件套\n- **主属性**：ATK% / 暗属性伤害加成 / 暴击率\n- **首选武器**：最后一朵玫瑰（The Last Rose）\n- **替代武器**：桐丸（Kiroumaru）\n\n详细配装请参考[安魂曲Build攻略](/blog/nte-lacrimosa-build-guide)。\n\n### 卡厄斯（Chaos）— 1.1下半限定\n\n卡厄斯是异环首位S级限定男性角色，在1.1版本主线篇章「绯色研究报告」中登场。作为相属性进攻角色，他的技能组以异能构装体为核心。\n\n- **稀有度**：S级\n- **属性**：相属性（Lakshana）\n- **武器类型**：凝聚弧光（Condensate）\n- **定位**：进攻\n- **专属弧光**：What's Desired\n- **卡池时间**：6月24日 - 7月8日（全球服预估）\n- **登场剧情**：主线篇章「绯色研究报告」\n\n具体技能数据将在角色上线前更新，请关注我们的[卡厄斯角色页面](/characters/chaos)获取最新信息。\n\n## 二、新地图区域：游梦洄廊\n\n1.1版本新增探索区域「游梦洄廊」，这是梦游主题的异空间区域，包含：\n- 全新宝箱和收集品\n- 新的异象副本和挑战\n- 版本限定活动区域\n- 隐藏成就和彩蛋\n\n使用我们的[交互地图](/map)标记全部收集品位置，不错过任何资源。\n\n## 三、减负优化（重磅更新）\n\n1.1版本实施了大量玩家呼声最高的减负措施：\n\n- **每日任务**：从4个减少至2-3个\n- **日常耗时**：从15-20分钟压缩至10分钟以内\n- **周常任务**：精简\n- **粉色爪币活动**：难度下调\n\n完美世界官方承认游戏日常负担过重，1.1版本是首次大规模减负。日常控制在10分钟以内的目标对时间有限的玩家来说是重大利好。\n\n## 四、弧光类型合并（重要）\n\n5月19日热修复已将弧光类型的英文名称统一：\n- Condensate、Hybrid、Synthesis 统一为 Condensate\n- 中文客户端仍使用各自的名称\n- 仅影响英文显示，不影响实际游戏机制\n\n## 五、版本活动一览\n\n- **游梦洄廊探索活动**：1.1版本全期，奖励环石、材料、限定道具\n- **版本签到活动**：1.1版本全期，奖励芬斯、甲硬币、材料\n- **限定挑战副本**：轮换开放，奖励高级材料、碟片\n- **保时捷联动赛事**：持续中，奖励限定车辆、专属奖励\n\n## 六、1.1兑换码汇总\n\n以下为当前有效的兑换码：\n\n- **NTE429vtuber**：芬斯x30000、甲硬币x30000（有效期至5月31日）\n- **NTEFREE**：芬斯x30000\n- **NTEvtuber200**：芬斯x10000、甲硬币x10000\n- **NTEWINFONS**：芬斯x20000\n- **NTEFUNGAME**：芬斯x10000\n- **NTENENE**：芬斯x10000、动感零x10、脆脆薯条x10\n\n完整兑换码列表请查看[兑换码页面](/redeem-codes)。\n\n## 七、抽卡建议\n\n### 零氪/微氪玩家\n\n1. **安魂曲（Lacrimosa）**：缺暗属性主C或召唤流核心的玩家强烈推荐抽取，在群体战斗中表现S级\n2. **卡厄斯（Chaos）**：技能组尚未完全确认，建议观望\n3. **资源分配**：零氪玩家建议一个版本只追一个保底\n\n### Scarborough Fair 抽卡系统提醒\n\n- 无50/50机制，保底必得当期UP角色\n- 90抽硬保底\n- 保底在同类型池之间继承\n\n## 八、FAQ\n\n**Q: 1.1版本什么时候更新？**\nA: 国服5月28日已上线，全球服预计6月3日。\n\n**Q: 安魂曲和卡厄斯可以同时抽吗？**\nA: 不可以，两人分别在1.1上下半卡池。\n\n**Q: 1.1版本有什么免费福利？**\nA: 版本更新补偿、活动奖励、兑换码等。关注[兑换码页面](/redeem-codes)获取最新码。\n\n**Q: 日常减负具体改了什么？**\nA: 每日任务从4个减少到2-3个，日常完成时间压缩到10分钟以内。\n\n**Q: 弧光类型合并影响游戏吗？**\nA: 仅影响英文名称显示，中文客户端无变化，游戏机制完全不受影响。\n\n---\n\n*本文将持续更新1.1版本的最新信息。关注我们的[角色排行榜](/tier-list)获取最新角色评级。*",
     "contentEn": "Neverness to Everness Version 1.1 \"Dreamwalk Corridor\" launched on May 28, 2026 (CN) / June 3, 2026 (Global). This is the first major update after launch, bringing two new S-rank characters, a new explorable area, significant QoL improvements, and a packed event schedule.\n\n## New Characters\n\n### Lacrimosa — Phase 1 Limited Banner\n\nLacrimosa is the game's first summoner main DPS. She controls multiple Esper Constructs for coordinated combat, and her core mechanic is the \"Nightmare\" debuff — skills apply Nightmare stacks that deal continuous Chaos damage. At A5, Nightmare also reduces the target's max HP, making her excellent against high-HP bosses.\n\n- **Rarity**: S-rank\n- **Attribute**: Chaos\n- **Arc Type**: Liquid\n- **Role**: Attack (Summoner AoE)\n- **Signature Arc**: The Last Rose\n- **Banner**: May 28 – June 18 (CN) / June 3 – June 24 (Global)\n- **VA**: Baraka May (EN) / 長縄まりあ (JP)\n\n**Key Skills**:\n- **Normal Attack \"Sweet and Sour Judgment\"**: 5-hit combo, 5th hit triggers follow-up moves\n- **Skill \"Loading Sleepyhead Mode\"**: Throws Esper Constructs for AoE damage; Devil's Gift can absorb and mimic enemies\n- **Ultimate \"Final Judgment of Workday\"**: Controls a massive construct for 5-hit AoE Chaos damage\n- **A3 \"Molten Ice Cream\"**: 5th normal attack procs all Nightmare stacks at once — core burst skill\n\n**Recommended Build**:\n- **Best Disc Set**: Skyrending Fang (4pc)\n- **Main Stats**: ATK% / Chaos DMG Bonus / CRIT Rate\n- **Best Weapon**: The Last Rose (signature)\n- **Alternative**: Kiroumaru\n\nFull details in our [Lacrimosa Build Guide](/blog/nte-lacrimosa-build-guide).\n\n### Chaos — Phase 2 Limited Banner\n\nChaos is the first limited S-rank male character in NTE, debuting in the 1.1 main story episode \"A Research in Scarlet.\" As a Lakshana Attack character, his kit revolves around Esper Constructs.\n\n- **Rarity**: S-rank\n- **Attribute**: Lakshana\n- **Arc Type**: Condensate\n- **Role**: Attack\n- **Signature Arc**: What's Desired\n- **Banner**: June 24 – July 8 (Global, estimated)\n- **Story**: Main episode \"A Research in Scarlet\"\n\nSkill details will be confirmed closer to his banner date — check the [Chaos character page](/characters/chaos) for updates.\n\n## New Area: Dreamwalk Corridor\n\nVersion 1.1 adds the Dreamwalk Corridor, a dream-themed anomaly zone featuring:\n- New treasure chests and collectibles\n- New Anomaly dungeons and challenges\n- Version-limited event zones\n- Hidden achievements and easter eggs\n\nUse our [Interactive Map](/map) to mark all collectible locations.\n\n## QoL Improvements (Major)\n\n1.1 implements heavily requested quality-of-life changes:\n\n- **Daily tasks**: Reduced from 4 to 2-3\n- **Daily time**: From 15-20 min down to ~10 min\n- **Weekly tasks**: Streamlined\n- **Pink Paw Coin event**: Difficulty reduced\n\nThe developers publicly acknowledged the daily grind was too heavy and committed to keeping dailies under 10 minutes.\n\n## Arc Type Rename\n\nThe May 19 hotfix unified arc type names in English:\n- Condensate, Hybrid, and Synthesis are all renamed to \"Condensate\"\n- This is an English display change only — gameplay mechanics are unaffected\n\n## Event Schedule\n\n- **Dreamwalk Corridor Exploration**: All of 1.1 — Ring Stones, materials, limited items\n- **Version Login Bonus**: All of 1.1 — Fons, Beetle Coins, materials\n- **Limited Challenge Dungeons**: Rotating — High-tier materials, Discs\n- **Porsche Collab Race**: Ongoing — Limited vehicle, exclusive rewards\n\n## Active Redeem Codes (May 2026)\n\n- **NTE429vtuber**: Fons x30,000, Beetle Coin x30,000 (expires May 31)\n- **NTEFREE**: Fons x30,000\n- **NTEvtuber200**: Fons x10,000, Beetle Coin x10,000\n- **NTEWINFONS**: Fons x20,000\n- **NTEFUNGAME**: Fons x10,000\n- **NTENENE**: Fons x10,000, DynamiK Zero x10, Clicky Fries x10\n\nFull list at our [Redeem Codes](/redeem-codes) page.\n\n## Pulling Advice\n\n### F2P / Low Spenders\n\n1. **Lacrimosa**: Highly recommended if you need a Chaos main DPS or summoner. She's S-tier in AoE content.\n2. **Chaos**: Kit not fully confirmed yet — wait for more info before committing.\n3. **Resource planning**: F2P players should target one guaranteed per version.\n\n### Scarborough Fair Gacha System\n- No 50/50 — pity guarantees the featured character\n- 90-pull hard pity\n- Pity carries over between same-type banners\n\n## FAQ\n\n**Q: When does 1.1 go live?**\nA: CN servers on May 28, Global servers on June 3.\n\n**Q: Can I pull both Lacrimosa and Chaos at the same time?**\nA: No. Lacrimosa is Phase 1 (May 28 – June 18), Chaos is Phase 2 (est. June 24 – July 8).\n\n**Q: What free rewards are in 1.1?**\nA: Version update compensation, event rewards, and redeem codes. Check our [Redeem Codes page](/redeem-codes) for the latest.\n\n**Q: How does the daily grind reduction work?**\nA: Dailies reduced from 4 to 2-3 tasks, completion time from 15-20 min to under 10 min.\n\n**Q: Does the arc type rename affect gameplay?**\nA: No. It's an English display change only.\n\n---\n\n*This guide will be updated as more 1.1 content is revealed. Check our [Tier List](/tier-list) for the latest character rankings.*",
     "image": "/images/blog/nte-world-island-exploration-three-characters.webp",
-    "imageAlt": "NTE 1.1 version island exploration"
+    "imageAlt": "NTE 1.1 version island exploration",
+    "contentTw": "這是1.1「游夢迴廊」上線時的版本回顧。安魂曲、卡厄斯、活動、減負功能和獎勵已不應以「新內容」或「即將開始」理解。現在查詢角色、活動和系統規則時，應使用目前版本資料和遊戲內公告；本頁只適合回顧1.1的更新內容。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-lacrimosa-build-guide",
@@ -743,13 +791,16 @@
     "content": "安魂曲（Lacrimosa）是异环1.1版本「游梦洄廊」的限定S级角色，暗属性进攻型，使用合成类武器。她是游戏首位召唤流主C，通过召唤机械造物进行大范围AoE输出，在群体战斗中表现出色。\n\n## 安魂曲核心定位\n\n- **属性**：暗（Chaos）\n- **武器类型**：合成（Synthesis）\n- **定位**：召唤物 AoE 进攻\n- **评级**：A 级（群体战斗 S 级）\n- **卡池**：1.1 第一阶段（5月28日 - 6月11日）\n\n## 最佳碟片搭配\n\n**首选：天裂之牙（Skyrending Fang）**\n4件套提供召唤物伤害加成，与安魂曲的召唤机制完美契合。\n\n**次选：失落光芒（Lost Radiance）**\n如果没有天裂之牙，失落光芒 4 件套也是不错的选择，提供稳定的元素伤害加成。\n\n## 主属性推荐\n\n- 碟片1：ATK%\n- 碟片2：暗属性伤害加成（Elemental DMG）\n- 碟片3：暴击率（CRIT Rate）或暴击伤害（CRIT DMG）\n\n## 副词条优先级\n\n暴击率 > 暴击伤害 > ATK% > 元素精通 > 能量回复\n\n## 武器推荐\n\n**最佳：异灵造物·黎明（Esper Constructs - Dawn）**\n安魂曲的专属武器，大幅提升召唤物伤害和持续时间。\n\n**替代：终有一日（A Time Will Come）**\n通用合成类武器，在没有专武时是最佳替代选择。\n\n## 推荐配队\n\n**队伍一：安魂曲最佳配队**\n- 安魂曲（主C）+ 达芙迪尔（副C）+ 密斯莫（辅助）+ 黑鸟（副C）\n- 暗属性 + Cosmos 双元素反应队\n\n**队伍二：ETD-4 小队**\n- 安魂曲 + 法蒂亚 + 白藏 + 翳\n- 全 ETD-4 阵营加成队\n\n## 养成优先级\n\n1. 等级拉满（优先）\n2. 普攻和终极技能升满\n3. 觉醒 A1 和 A5（质变节点）\n4. 专武获取（如有预算）\n\n## 抽取建议\n\n安魂曲在群体战斗（深渊、异常副本）中表现极为出色，但单体伤害略低于娜娜莉。如果你缺乏 AoE 角色或想组建暗属性队伍，强烈推荐抽取。\n\n---\n\n## 安魂曲Build详解\n\n### 角色定位\n安魂曲是1.1版本上半限定角色，**混沌属性主C**。她的核心机制是**变形为蝙蝠**和**复制敌人能力**，拥有极高的输出天花板。\n\n### 武器推荐\n\n| 优先级 | 武器 | 说明 |\n|--------|------|------|\n| ⭐⭐⭐ | **The Last Rose（最后玫瑰）** | 专属S级Liquid Arc，最佳选择 |\n| ⭐⭐ | 五星Liquid型通用Arc | 次选 |\n| ⭐ | 四星Liquid型Arc | 过渡使用 |\n\n### 弧盘套装推荐\n\n| 弧盘套装 | 效果 | 说明 |\n|----------|------|------|\n| **失落的辉煌** | 提升元素伤害 | 通用输出首选 |\n| **恶魔之血** | 提升攻击力 | 高攻击Build |\n\n### 主属性选择\n\n| 位置 | 推荐 |\n|------|------|\n| 沙漏 | 攻击力% |\n| 杯子 | 混沌属性伤害加成 |\n| 头冠 | 暴击率% |\n\n### 副属性优先级\n暴击率 > 暴击伤害 > 攻击力% > 混沌伤害加成\n\n---\n\n## 配队推荐\n\n### 队伍一：混沌召唤流\n- **安魂曲**（主C）+ **达芙迪尔**（Discord反应）+ **米斯莫**（增益）+ **黑鸟**（辅助输出）\n- 安魂曲召唤蝙蝠，达芙迪尔触发Discord反应\n\n### 队伍二：混沌爆发队\n- **安魂曲**（主C）+ **卡厄斯**（副C/减防）+ **法迪亚**（伤害重定向）+ **薄荷**（治疗）\n- 双混沌角色配合，最大化Discord层数\n\n### 队伍三：跨属性混合队\n- **安魂曲**（主C）+ **白藏**（副C）+ **哈尼尔**（全队增益）+ **薄荷**（治疗）\n\n---\n\n## 召唤流核心玩法\n\n1. 使用技能召唤蝙蝠群\n2. 蝙蝠自动攻击敌人并积累「罪证」\n3. 积累满层后释放终结技进行爆发\n4. 变形为蝙蝠形态可以复制敌人的一个能力\n5. 在蝙蝠形态下攻击力大幅提升\n\n> 💡 **关键技巧**：保持蝙蝠召唤不断，利用复制能力应对不同BOSS的机制",
     "contentEn": "Lacrimosa is the limited S-rank Chaos-attribute Attack character in NTE Version 1.1 'Wandering Corridor', wielding Synthesis-type weapons. She is the game's first summoner DPS, deploying mechanical constructs for devastating AoE damage — excelling in group combat scenarios like Abyss floors and Anomaly dungeons.\n\n## Lacrimosa Overview\n\n- **Element**: Chaos (Dark)\n- **Weapon Type**: Synthesis\n- **Role**: Summoner AoE Attack DPS\n- **Tier Rating**: A tier (S tier for AoE content)\n- **Banner**: Version 1.1 Phase 1 (May 28 – June 11, 2026)\n- **Acquisition**: Limited banner only (no 50/50, 90-pull pity guarantees)\n\n## Best Arc Disc (Cartridge) Sets\n\n**Best: Skyrending Fang (4-piece)**\nBoosts summon damage and provides stacking Elemental DMG bonus. Perfect synergy with Lacrimosa's construct-based kit.\n\n**Alternative: Lost Radiance (4-piece)**\nA solid fallback that provides consistent Elemental DMG when Skyrending Fang isn't available.\n\n## Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| Disc 1 | ATK% |\n| Disc 2 | Elemental DMG (Chaos) |\n| Disc 3 | CRIT Rate or CRIT DMG |\n\n## Substat Priority\n\nCRIT Rate > CRIT DMG > ATK% > Elemental Mastery > Energy Recharge\n\n## Best Weapons\n\n**Signature: Esper Constructs - Dawn**\nLacrimosa's signature Arc weapon. Massively boosts summon damage and extends construct duration — the best-in-slot choice.\n\n**Alternative: A Time Will Come**\nA strong universal Synthesis weapon that serves as the best F2P/alternative option when her signature isn't available.\n\n## Recommended Team Compositions\n\n**Team 1: Lacrimosa Best Team**\n- Lacrimosa (Main DPS) + Daffodil (Sub DPS) + Mismo (Support) + Black Bird (Sub DPS)\n- Focuses on Chaos + Cosmos elemental reactions with Turbid Burn synergy\n\n**Team 2: ETD-4 Faction Squad**\n- Lacrimosa + Fadia + Baicang + Skia\n- Leverages full ETD-4 faction bonus for enhanced stats\n\n## Skill Priority\n\n1. **Ultimate (Final Judgment of Workday)** — Max first, biggest damage source\n2. **Skill (Loading Sleepyhead Mode)** — Second priority for construct uptime\n3. **Normal Attack (Sweet and Sour Judgment)** — Third for consistent damage\n4. **Passives** — Level as resources allow\n\n## Awakening Priority\n\n- **A1**: Enhanced passive — always unlock this first\n- **A5**: Major power spike that doubles construct damage — high priority\n- **A6**: Diminishing returns but valuable for dedicated Lacrimosa mains\n\n## Pull Recommendation\n\nLacrimosa excels in AoE scenarios (Abyss, Anomaly dungeons, world bosses) but has slightly lower single-target damage than Nanally. If you lack a strong AoE DPS or want to build a Chaos-element team, she's highly recommended. F2P players should evaluate whether their current teams can handle AoE content before spending pulls.\n\n## Version 1.1 Banner Schedule\n\n- **Phase 1** (May 28 – June 11): Lacrimosa featured + guarantee no-lose system\n- **Phase 2** (June 11 – July 2): Chaos (first limited male S-rank)\n- Both phases include 17 free pulls + 600 stamina + 300K Fons",
     "image": "/images/blog/nte-character-gothic-black-white-hair-red-eyes.webp",
-    "imageAlt": "Lacrimosa character build guide"
+    "imageAlt": "Lacrimosa character build guide",
+    "contentTw": "這是一篇1.1時期的安魂曲Build指南。弧盤、武器、配隊和召喚流效果可能隨版本與角色平衡變化，請先查看目前角色技能和弧盤資料。培養時先確保主屬性、循環和隊伍生存，再追求完美副詞條或專屬弧盤；是否值得投入取決於你的隊伍缺口。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-hotori-build-guide",
     "title": "异环穗鸟最佳Build攻略：S+辅助的碟片、武器与配队全解",
-    "titleTw": "異環穗鳥最佳Build攻略：S+輔助的碟片、武器與配隊全解",
-    "titleEn": "NTE Hotori Build Guide — S+ Support: Time Freeze, Best Arc Discs, Weapons & Teams",
+    "titleTw": "異環穗鳥角色Build參考",
+    "titleEn": "NTE Hotori Build Reference",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -764,8 +815,8 @@
       "time-freeze"
     ],
     "summary": "穗鸟是异环唯一的S+级辅助角色，集聚怪、加攻、时间冻结于一体。本攻略详解最佳碟片搭配、武器选择和配队方案。",
-    "summaryTw": "穗鳥是異環唯一的S+級輔助角色，集聚怪、加攻、時間凍結於一體。本攻略詳解最佳碟片搭配、武器選擇和配隊方案。",
-    "summaryEn": "Hotori is NTE's only S+ tier support character with grouping, ATK buffing, and time-freeze abilities. Complete build guide with best Arc Discs, weapons, and team comps.",
+    "summaryTw": "穗鳥的聚怪、增益和時間控制適合多種隊伍。這是一篇早期版本Build參考；弧盤、武器、技能數值和配隊應以目前角色資料為準。先確保循環與隊伍生存，再追求極限增益。",
+    "summaryEn": "A version-aware Hotori build reference. Her grouping, buffs, and time-control utility can fit many teams, but discs, weapons, values, and team recommendations may change. Verify the current character data before investing.",
     "internalLinks": [
       {
         "href": "/characters/hotori",
@@ -791,7 +842,10 @@
     "content": "穗鸟（Hotori）是异环（NTE）唯一的 S+ 级辅助角色，天属性增益型，使用气体类武器。她集聚怪、加攻、时间冻结三大核心辅助能力于一身，1觉后质变拐力翻倍，是任何队伍都想要的万能辅助。\n\n## 穗鸟核心定位\n\n- **属性**：天（Cosmos）\n- **武器类型**：气体（Gas）\n- **定位**：聚怪 + 加攻 + 时间冻结辅助\n- **评级**：S+（唯一 S 级辅助）\n- **获取方式**：限定卡池\n\n## 最佳碟片搭配\n\n**首选：失落光芒（Lost Radiance）**\n4 件套提供元素伤害加成和能量回复，确保穗鸟的技能循环流畅。\n\n**次选：森林萤火之心（Fireflies and the Forest）**\n提供全队增益效果，增强辅助能力。\n\n## 主属性推荐\n\n- 碟片1：ATK%\n- 碟片2：ATK%（双 ATK% 保证加攻量）\n- 碟片3：暴击率（CRIT Rate）\n\n## 武器推荐\n\n**最佳：面具下的泪（Tears Beneath the Mask）**\n穗鸟的专属武器，大幅提升辅助效果和聚怪能力。\n\n## 推荐配队\n\n**队伍一：穗鸟最佳配队**\n- 穗鸟 + 零 + 埃德加 + 泰格多\n- 天属性反应队\n\n**队伍二：Eibon 古董店小队**\n- 穗鸟 + 娜娜莉 + 咲里 + 零\n- 全 Eibon 阵营加成\n\n**队伍三：娜娜莉核心队**\n- 穗鸟 + 娜娜莉 + 九原 + 任意辅助\n- 穗鸟聚怪 + 娜娜莉输出的经典组合\n\n## 养成优先级\n\n1. 技能（聚怪 + 加攻）升满 — 最优先\n2. 终极技能升满 — 时间冻结持续时间\n3. 觉醒 A1（质变）→ A5\n4. 专武获取（推荐）\n\n---\n\n## 穗鸟（Hotori）Build完全攻略\n\n### 角色定位\n穗鸟是**S+级辅助角色**，拥有游戏独一的**时停机制**——可以冻结时间，让队伍在敌人无法行动期间自由输出。她是当前版本最重要的辅助之一。\n\n### 武器推荐\n\n| 优先级 | 武器 | 说明 |\n|--------|------|------|\n| ⭐⭐⭐ | **专属Arc** | 最佳选择，提升时停持续时间和伤害 |\n| ⭐⭐ | 五星Gas型通用Arc | 次选 |\n| ⭐ | 四星Gas型Arc | 过渡使用 |\n\n### 弧盘推荐\n\n| 弧盘套装 | 效果 | 适用场景 |\n|----------|------|----------|\n| **失落的辉煌** | 提升元素伤害 | 通用输出首选 |\n| **恶魔之血** | 提升攻击力 | 主C流Build |\n\n### 主属性选择\n\n| 位置 | 推荐主属性 |\n|------|-----------|\n| 沙漏 | 攻击力% 或 能量回复 |\n| 杯子 | Cosmos属性伤害加成 |\n| 头冠 | 暴击率% 或 暴击伤害% |\n\n### 副属性优先级\n暴击率 > 暴击伤害 > 攻击力% > 能量回复\n\n---\n\n## 配队推荐\n\n### 队伍一：穗鸟万能辅助队\n- **穗鸟**（时停辅助）+ **任意主C** + **增益辅助** + **治疗**\n- 穗鸟的时停适用于所有主C，是最通用的辅助\n\n### 队伍二：穗鸟+零双时停队\n- **穗鸟** + **零**（Zero主角）+ **副C** + **治疗**\n- 双时停机制可以大幅延长控制时间\n\n### 队伍三：穗鸟充能循环队\n- **穗鸟** + **白藏**（Baicang）+ **咲里**（Sakiri）+ **薄荷**（Mint）\n- Cosmos属性充能循环，穗鸟提供时停窗口\n\n---\n\n## 技能使用技巧\n\n1. **时停时机**：在敌人准备释放大招时使用时停，可以打断技能\n2. **充能管理**：保持「非闭合时计」能量不满也不空，随时可以触发\n3. **QTE连携**：在队友攻击时切入穗鸟的QTE，最大化时停期间的输出\n4. **觉醒建议**：A3是关键节点，解锁后时停期间可回复全队能量",
     "contentEn": "Hotori is NTE's only S+ tier support character, wielding Gas-type weapons with Cosmos attribute. She combines three essential support abilities — enemy grouping, ATK buffing, and time-freeze mechanics — making her the most versatile support in the game. Her A1 awakening is a game-changer that doubles her buff potency.\n\n## Hotori Overview\n\n- **Element**: Cosmos (Light/Celestial)\n- **Weapon Type**: Gas\n- **Role**: Buffer / Grouper / Time-Freeze Support\n- **Tier Rating**: S+ (the only S-rank support)\n- **Faction**: Eibon Antique Shop\n- **Acquisition**: Limited banner\n\n## Best Arc Disc (Cartridge) Sets\n\n**Best: Lost Radiance (4-piece)**\nProvides Elemental DMG bonus and energy recharge to maintain smooth skill rotation. The additional energy ensures Hotori can use her grouping skill frequently.\n\n**Alternative: Fireflies and the Forest (4-piece)**\nTeam-wide buffs that enhance Hotori's support capabilities and boost overall team damage.\n\n## Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| Disc 1 | ATK% |\n| Disc 2 | ATK% (double ATK% for stronger buffs) |\n| Disc 3 | CRIT Rate |\n\n## Substat Priority\n\nHP% > Energy Recharge > ATK% > Elemental Mastery > CRIT Rate\n\n## Best Weapons\n\n**Signature: Tears Beneath the Mask**\nHotori's signature Arc weapon that significantly enhances her grouping ability and buff duration. The best-in-slot choice for maximizing her support potential.\n\n## Recommended Team Compositions\n\n**Team 1: Hotori Best Team**\n- Hotori + Zero (Male or Female) + Edgar + Taygedo\n- Cosmos-element reaction team with strong synergy\n\n**Team 2: Eibon Antique Shop Squad**\n- Hotori + Nanally + Sakiri + Zero\n- Full Eibon faction team with faction bonuses\n\n**Team 3: Nanally Core Team**\n- Hotori + Nanally + Jiuyuan + flex support\n- Classic combination: Hotori groups enemies, Nanally annihilates them\n\n## Time Freeze Mechanic\n\nHotori's unique time-freeze ability (Present Scene Reflected skill) creates a temporary stasis field that:\n- Freezes all enemies in place for 3-5 seconds\n- Allows your team to freely position and set up combos\n- Triggers perfect dodge bonuses for extra damage\n- Especially powerful in Abyss floors and boss fights\n\n## Skill Priority\n\n1. **Skill (Present Scene Reflected)** — Max first for grouping and time-freeze duration\n2. **Ultimate (Tides of the Floating World)** — Second for AoE buff coverage\n3. **Normal Attack (Oboro Moon Style)** — Lower priority as support\n4. **Passives** — Level as resources allow\n\n## Awakening Priority\n\n- **A1**: Enhanced buff potency — doubles support effectiveness. This is a MUST-UNLOCK.\n- **A5**: Additional buff duration — valuable for longer fights\n- **A6**: Diminishing returns, only for dedicated Hotori mains\n\n## Pull Recommendation\n\nHotori is the single best support in NTE and fits into virtually every team composition. Her grouping + buffing + time-freeze trifecta makes her invaluable for Abyss, Anomaly dungeons, and co-op content. If you don't have her yet, she should be your top priority after your main DPS.",
     "image": "/images/blog/nte-character-white-hair-energy-sword.webp",
-    "imageAlt": "Hotori character build guide"
+    "imageAlt": "Hotori character build guide",
+    "contentTw": "穗鳥的聚怪、增益和時間控制適合多種隊伍。這是一篇早期版本Build參考；弧盤、武器、技能數值和配隊應以目前角色資料為準。先確保循環與隊伍生存，再追求極限增益。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v11-preview-livestream",
@@ -840,7 +894,9 @@
     "image": "/images/blog/nte-world-island-exploration-three-characters.webp",
     "imageAlt": "NTE 1.1 livestream summary",
     "titleTw": "異環1.1版本「游梦洄廊」前瞻直播汇總 — 新角色、新地圖、新兌換碼全收录",
-    "summaryTw": "異環1.1版本「游梦洄廊」前瞻特别節目于5月23日19:30播出。暗属性S級安魂曲（上半卡池5/28-6/11）、首位S級限定男角色卡厄斯（下半卡池6/11-7/2）登場，新游乐园地圖、船只載具、保時捷聯動、保底不歪机制等重磅内容汇總。三组前瞻兌換碼已更新。"
+    "summaryTw": "異環1.1版本「游梦洄廊」前瞻特别節目于5月23日19:30播出。暗属性S級安魂曲（上半卡池5/28-6/11）、首位S級限定男角色卡厄斯（下半卡池6/11-7/2）登場，新游乐园地圖、船只載具、保時捷聯動、保底不歪机制等重磅内容汇總。三组前瞻兌換碼已更新。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-may-19-hotfix-v11-announced",
@@ -891,12 +947,14 @@
     "image": "/images/blog/nte-gameplay-resort-staff-slow-walk.webp",
     "imageAlt": "NTE hotfix and version update",
     "titleTw": "異環5月19日熱修复汇總 + 1.1版本「游梦洄廊」前瞻定档5月23日",
-    "summaryTw": "異環5月19日發布熱修复補丁，修复了Zero同伴活動Bug、九原终結技異常等20余项問題。同時官方宣布1.1版本「游梦洄廊」前瞻直播定档5月23日19:30，暗系大C安魂曲與首位S級限定男角色卡厄斯即将登場，還有新地圖、船只載具、男角色同居系統等重磅内容。"
+    "summaryTw": "異環5月19日發布熱修复補丁，修复了Zero同伴活動Bug、九原终結技異常等20余项問題。同時官方宣布1.1版本「游梦洄廊」前瞻直播定档5月23日19:30，暗系大C安魂曲與首位S級限定男角色卡厄斯即将登場，還有新地圖、船只載具、男角色同居系統等重磅内容。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-baicang-build-guide",
     "title": "异环白藏最佳Build攻略：浊燃主C弧盘搭配、武器选择与配队全解（2026年5月）",
-    "titleEn": "NTE Baicang Best Build Guide — Arc Discs, Weapons, Teams & Turbid Burn DPS (May 2026)",
+    "titleEn": "NTE Baicang Build Reference: Turbid Burn DPS and Teams",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -911,7 +969,7 @@
       "team"
     ],
     "summary": "白藏是异环当前版本最强的浊燃（Turbid Burn）体系主C，T0.5级角色。本文详解白藏最佳弧盘搭配、武器选择（含免费替代）、觉醒优先级、属性阈值以及两套T0配队方案。",
-    "summaryEn": "Baicang is NTE's top Turbid Burn DPS, rated T0.5 in the current meta. Complete build guide: best arc discs, weapon choices (including F2P alternatives), awakening priority, stat thresholds, and two T0 team comps.",
+    "summaryEn": "A version-aware Baicang build reference. Recheck his Turbid Burn role, thresholds, awakenings, and team value against the current version instead of treating old tier claims as permanent.",
     "internalLinks": [
       {
         "label": "角色强度榜",
@@ -938,13 +996,16 @@
     "contentEn": "Baicang is the core DPS of NTE's Turbid Burn meta in version 1.0, rated T0.5. If you pulled Baicang, she is absolutely worth building around.\n\n## 1. Baicang Overview\n\n| Detail | Info |\n|--------|------|\n| **Name** | Baicang |\n| **Rarity** | S-Rank |\n| **Attribute** | Incantation |\n| **Role** | Turbid Burn DPS |\n| **Tier** | T0.5 |\n| **Core Mechanic** | Turbid Burn DOT |\n\n## 2. Core Mechanic: Turbid Burn\n\n1. **Stacking** — Baicang's attacks apply Turbid Burn stacks, each dealing DOT\n2. **Detonation** — At threshold stacks, detonate for massive burst damage\n3. **Reactions** — Turbid Burn damage increases further when combined with shield break\n\nThis makes Baicang exceptional in sustained fights, especially long boss battles.\n\n## 3. Best Arc Disc Build\n\n| Slot | Main Stat | Substat Priority |\n|------|-----------|-----------------|\n| Disk 1 | ATK% | CR > CD > ATK% > Energy |\n| Disk 2 | CR/CD | CD/CR > ATK% > Incantation DMG |\n| Disk 3 | Incantation DMG% | CR > CD > ATK% > Energy |\n| Disk 4 | ATK% | CR > CD > Energy Recharge |\n\nStat thresholds: CR 60%+, CD 120%+, ATK 2000+, Energy Recharge 120%+.\n\n## 4. Best Weapons\n\n1. **Signature weapon (S)** — Best choice, significantly boosts Turbid Burn damage\n2. **Free Incantation weapon (S)** — From anomaly missions, solid alternative\n3. **Generic ATK weapon (A)** — Transition pick, easy to obtain\n\n## 5. Awakening Priority\n\nA2 > A4 > A1 > A5 > A3/A6\n\n## 6. Team Compositions\n\n### Team 1: Baicang Firefly Hyper (T0)\n\n| Role | Character | Purpose |\n|------|-----------|---------|\n| Main DPS | **Baicang** | Turbid Burn core |\n| Buffer | Sakiri | Team damage boost |\n| CC | Jiuyuan | Group enemies + Anima reaction |\n| Sub DPS | Daffodil | Turbid Burn stacking + shield break |\n\n### Team 2: F2P Baicang Team\n\n| Role | Character | Purpose |\n|------|-----------|---------|\n| Main DPS | **Baicang** | Turbid Burn core |\n| Buffer | Haniel | A-rank buffer |\n| Survival | Adler | Shield/sustain |\n| Healer | Edgar | Healing |\n\n## 7. Baicang vs Other DPS\n\n| Aspect | Baicang | Nanally | Chiz |\n|--------|---------|---------|------|\n| Damage type | DOT sustained | Burst direct | Direct + mechanics |\n| Short fights | ★★★☆☆ | ★★★★★ | ★★★★☆ |\n| Long boss fights | ★★★★★ | ★★★★☆ | ★★★★☆ |\n| Team dependency | High (needs Burn team) | Medium | Low |\n| Entry barrier | Medium | Low | Low\n\n## Summary\n\nBaicang is the core of NTE's Turbid Burn system at T0.5. Her DOT mechanic excels in sustained fights, and combined with Daffodil and Sakiri, forms a T0 team. If you have Baicang, strongly consider building a Turbid Burn team around her.",
     "image": "/images/blog/nte-character-white-hair-pink-sword.webp",
     "imageAlt": "Baicang build guide",
-    "titleTw": "異環白藏最佳Build攻略：浊燃主C弧盘搭配、武器選擇與配隊全解（2026年5月）",
-    "summaryTw": "白藏是異環當前版本最強的浊燃（Turbid Burn）體系主C，T0.5級角色。本文詳解白藏最佳弧盘搭配、武器選擇（含免費替代）、觉醒優先級、属性阈值以及两套T0配隊方案。"
+    "titleTw": "異環白藏Build參考：浊燃主C與隊伍搭配",
+    "summaryTw": "白藏的浊燃定位和配隊價值應按目前版本重新核對。舊文中的T0.5、屬性閾值、覺醒和專屬隊伍結論不應視為永久答案。",
+    "contentTw": "白藏的浊燃定位和配隊價值應按目前版本重新核對。舊文中的T0.5、屬性閾值、覺醒和專屬隊伍結論不應視為永久答案。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-chiz-build-guide",
     "title": "异环小吱（Chiz）完全攻略：免费T0主C的Grain机制、Build与配队详解（2026年5月）",
-    "titleEn": "NTE Chiz Complete Build Guide — Free T0 DPS: Grain Market Mechanic, Best Build & Teams (May 2026)",
+    "titleEn": "NTE Chiz Build Reference: Grain Market and Free Progression",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -960,7 +1021,7 @@
       "team"
     ],
     "summary": "小吱（Chiz）是异环中完全免费的S级主C角色（含全部觉醒），通过都市大亨玩法获取。当前Meta评级T0。本文详解Grain Market机制、最佳弧盘搭配、武器选择（含F2P最优）、觉醒优先级和T0配队推荐。",
-    "summaryEn": "Chiz is NTE's completely free S-Rank DPS (including all awakenings), obtained through City Tycoon. Rated T0 in the current meta. Complete guide: Grain Market mechanic, best arc discs, weapon picks, awakening priority, and T0 team comps.",
+    "summaryEn": "A version-aware Chiz build reference. City Tycoon access, awakening conditions, and tier claims may change. Verify current rewards and build priorities before investing resources.",
     "internalLinks": [
       {
         "label": "角色强度榜",
@@ -987,13 +1048,16 @@
     "contentEn": "Chiz might be NTE's most F2P-friendly character — completely free to obtain (including ALL awakening materials), yet rated T0 in the current meta. If you haven't built Chiz yet, here's why she should be your first priority.\n\n## 1. Chiz Overview\n\n| Detail | Info |\n|--------|------|\n| **Name** | Chiz |\n| **Rarity** | S-Rank |\n| **Attribute** | Cosmos |\n| **Role** | Main DPS |\n| **Tier** | T0 (A3+) / T0.5 (A0) |\n| **Acquisition** | Free (City Tycoon) |\n| **Awakening** | All materials free |\n\n## 2. Core Mechanic: Grain Market\n\n1. **Grain accumulation** — Chiz builds Grain through attacks\n2. **Grain thresholds** — Different thresholds unlock different buffs\n3. **Grain consumption** — Core skills consume Grain for high damage\n4. **Grain management** — Key is timing Grain consumption for max damage\n\n## 3. Best Arc Disc Build\n\n**Recommended set: Lost Radiance** — Ignores 25% DEF after using Ultimate, perfectly matches Chiz's rotation.\n\nEndgame stat targets: HP 20000+ / ATK 2000+ / CR 40%+ / CD 100%+ / Cosmos DMG 55%+.\n\n## 4. Best Weapons\n\n1. **Contemplative Cat (S)** — Increases Cosmos DMG based on Fons held, Chiz's BiS\n2. **Free Cosmos weapon (S)** — From anomaly missions, solid alternative\n3. **Generic ATK weapon (A)** — Transition pick\n\n## 5. Awakening Priority\n\nA2 > A4 > A1 ≈ A5 > A3 ≈ A6\n\n**Important:** A3 awakening upgrades Chiz from T0.5 to T0 — the critical breakpoint.\n\n## 6. Team Compositions\n\n### Team 1: Chiz Hyper (T0)\nChiz + Jiuyuan + Hathor + Haniel\n\n### Team 2: F2P Universal (T1)\nChiz + Nanally + Adler + Edgar\n\n## Summary\n\nChiz is NTE's gift to F2P players — completely free with T0 strength. The Grain Market mechanic delivers damage rivaling limited characters when played well. Strongly recommended as a priority build for all players.",
     "image": "/images/blog/nte-character-pink-buns-mouse-plush-portrait.webp",
     "imageAlt": "Chiz character build guide",
-    "titleTw": "異環小吱（Chiz）完全攻略：免費T0主C的Grain机制、Build與配隊詳解（2026年5月）",
-    "summaryTw": "小吱（Chiz）是異環中完全免費的S級主C角色（含全部觉醒），通過都市大亨玩法獲取。當前Meta評級T0。本文詳解Grain Market机制、最佳弧盘搭配、武器選擇（含F2P最優）、觉醒優先級和T0配隊推荐。"
+    "titleTw": "異環小吱Build參考：Grain Market與免費養成",
+    "summaryTw": "小吱可透過城市大亨取得，但角色獎勵、覺醒條件和強度評價可能隨版本變動。先完成城市大亨的目前任務，再按主屬性、循環和隊伍缺口安排養成。",
+    "contentTw": "小吱可透過城市大亨取得，但角色獎勵、覺醒條件和強度評價可能隨版本變動。先完成城市大亨的目前任務，再按主屬性、循環和隊伍缺口安排養成。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-daffodil-build-guide",
     "title": "异环达芙迪尔（Daffodil）Build攻略：Break流核心机制、A5觉醒质变与浊燃队详解（2026年5月）",
-    "titleEn": "NTE Daffodil Build Guide — Break Mechanic, A5 Awakening Power Spike & Turbid Burn Team (May 2026)",
+    "titleEn": "NTE Daffodil Build Reference: Break and Turbid Burn Teams",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1009,7 +1073,7 @@
       "dps"
     ],
     "summary": "达芙迪尔是异环浊燃队的核心副C/破盾手，A5觉醒后单觉醒提供+8.38%全队伤害，是最具性价比的觉醒之一。本文详解Break机制、属性优先级变化（A3后破韧强度>暴击）、武器弧盘推荐和两套T0配队。",
-    "summaryEn": "Daffodil is NTE's core Break/turbid Burn sub-DPS. Her A5 awakening alone adds +8.38% team damage — the best value awakening in the game. Complete guide: Break mechanic, stat priority shift (Break Intensity > CR after A3), weapon & disc picks, and two T0 teams.",
+    "summaryEn": "A version-aware Daffodil build reference. Her Break and Turbid Burn value depends on current skills, reactions, and team context. Old awakening numbers should be verified against current in-game data.",
     "internalLinks": [
       {
         "label": "白藏Build攻略",
@@ -1036,13 +1100,16 @@
     "contentEn": "Daffodil might be NTE's most underrated S-Rank character. In Baicang's Turbid Burn team, Daffodil is indispensable — her Break mechanic rapidly strips boss shields, enabling devastating sustained damage combined with Baicang's DOT. Even better, her A5 awakening offers incredible value, boosting team damage by 8.38% alone.\n\n## 1. Overview\n\n| Detail | Info |\n|--------|------|\n| **Name** | Daffodil |\n| **Rarity** | S-Rank |\n| **Attribute** | Chaos |\n| **Role** | Break / Sub-DPS / Hybrid |\n| **Tier** | T0.5 (Watchlist) |\n| **Core Mechanic** | Break + Turbid Burn |\n\n## 2. Break Mechanic\n\nAfter A3 awakening, Break Intensity becomes Daffodil's highest priority stat, surpassing even Crit Rate. A5 (Perfect Truth) adds +8.38% team damage — the highest single-awakening value in the game.\n\n## 3. Best Build\n\n**Disc set: Diabolos** (ignores Chaos RES)\n\nAfter A3: Break Intensity > CR > CD > ATK% > Energy\nBefore A3: CR > CD > ATK% > Break Intensity > Energy\n\n## 4. Best Weapon\n\n1. **Youthful Fantasy (S)** — Signature, Break Intensity +60/88\n2. **Free Chaos weapon (S)** — From anomaly missions\n3. **Generic ATK weapon (A)** — Transition\n\n## 5. Awakening Value\n\nA5 (+8.38% team) > A3 (stat priority flip) > A2 > A1\n\nIf you can only pick one awakening, A5 is the absolute best choice.\n\n## Summary\n\nDaffodil is the soul of the Baicang Turbid Burn team. A5's +8.38% team damage is the best value awakening investment in the game. If you're running Turbid Burn, Daffodil is non-negotiable.",
     "image": "/images/blog/nte-character-pink-hair-dark-forest.webp",
     "imageAlt": "Daffodil build guide",
-    "titleTw": "異環达芙迪尔（Daffodil）Build攻略：Break流核心机制、A5觉醒質变與浊燃隊詳解（2026年5月）",
-    "summaryTw": "达芙迪尔是異環浊燃隊的核心副C/破盾手，A5觉醒后單觉醒提供+8.38%全隊傷害，是最具性价比的觉醒之一。本文詳解Break机制、属性優先級变化（A3后破韧強度>暴擊）、武器弧盘推荐和两套T0配隊。"
+    "titleTw": "異環達芙迪爾Build參考：破韌與浊燃配隊",
+    "summaryTw": "達芙迪爾的破韌和浊燃配隊價值取決於目前技能、反應和隊伍環境。A5或其他覺醒數字屬於舊版資料，請以目前角色頁和遊戲內效果為準。",
+    "contentTw": "達芙迪爾的破韌和浊燃配隊價值取決於目前技能、反應和隊伍環境。A5或其他覺醒數字屬於舊版資料，請以目前角色頁和遊戲內效果為準。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-hathor-build-guide",
     "title": "异环哈索尔（Hathor）Build攻略：AOE输出之王、刃翼机制与配队推荐（2026年5月）",
-    "titleEn": "NTE Hathor Build Guide — AOE King: Blade Wing Mechanic, Best Build & Teams (May 2026)",
+    "titleEn": "NTE Hathor Build Reference: AOE and Blade Wing",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1057,7 +1124,7 @@
       "team"
     ],
     "summary": "哈索尔是异环中最强的AOE输出角色之一，Tier评级T0.5。刃翼（Blade Wing）机制让她在聚怪后打出恐怖的范围伤害。本文详解哈索尔弧盘搭配、武器选择、觉醒优先级以及T0 Hyper配队。",
-    "summaryEn": "Hathor is one of NTE's strongest AOE DPS characters, rated T0.5. Her Blade Wing mechanic delivers devastating area damage when enemies are grouped. Complete guide: arc discs, weapons, awakening priority, and T0 Hyper team comp.",
+    "summaryEn": "A version-aware Hathor build reference. Her Blade Wing mechanic is useful for groups, but old tier claims are not permanent. Verify current stats, rotations, discs, weapons, and scene rankings before investing.",
     "internalLinks": [
       {
         "label": "小吱Build攻略",
@@ -1079,8 +1146,11 @@
     "contentEn": "Hathor is NTE's AOE damage ceiling. Combined with grouping characters like Jiuyuan, she can clear entire waves in one rotation. Rated T0.5.\n\n## Core Mechanic: Blade Wing\n\nHathor generates blade wing projectiles that auto-attack enemies in range. More grouped enemies = exponentially more damage. Ultimate releases all blades for devastating AOE.\n\nKey: Have teammates group enemies first, then unleash Hathor's skills.\n\n## Build\n\nDiscs: Lakshana DMG% set with CR/CD/ATK% subs.\nWeapons: Signature > Free Lakshana > Generic ATK.\n\n## Team: Hathor Hyper (T0.5)\n\nHathor + Haniel + Zero + Jiuyuan (grouping is key)\n\n## Summary\n\nHathor is NTE's AOE king. With proper grouping, her damage output is explosive. T0.5 rating makes her a top pick for area damage needs.\n\n---\n\n## Hathor Build Guide — Complete Setup\n\n### Character Role\nHathor is the premier **Lakshana DPS** in NTE, riding her motorcycle into battle with devastating AOE attacks. Her \"Blade Wing\" mechanic makes her one of the strongest damage dealers.\n\n### Best Weapons\n\n| Priority | Weapon | Notes |\n|----------|--------|-------|\n| ⭐⭐⭐ | **Signature Arc** | Best in slot, enhances Blade Wing damage |\n| ⭐⭐ | 5★ Lakshana Arc | Solid alternative |\n| ⭐ | 4★ Lakshana Arc | Budget option |\n\n### Recommended Disk Sets\n\n| Disk Set | Effect | When to Use |\n|----------|--------|-------------|\n| **Demon's Blood** | ATK boost | General DPS build |\n| **Lost Glory** | Element DMG boost | When paired with Lakshana supports |\n\n### Main Stats\n\n| Slot | Recommended |\n|------|-------------|\n| Sands | ATK% |\n| Goblet | Lakshana DMG Bonus |\n| Circlet | CR Rate% or CR DMG% |\n\n### Substat Priority\nCR Rate > CR DMG > ATK% > Lakshana DMG\n\n---\n\n## Team Compositions\n\n### Team 1: Lakshana Core\n- **Hathor** (Main DPS) + **Xun** (Time Stop + Lakshana) + **Skia** (Sub DPS) + **Mint** (Healer)\n\n### Team 2: Burst Damage\n- **Hathor** (Main DPS) + **Chaos** (Debuff + Burst) + **Haniel** (ATK/Speed Buff) + **Edgar** (Healer)\n\n---\n\n## Rotation Guide\n\n1. Switch to support → Apply buffs/debuffs\n2. Switch to Hathor → Use Skill to trigger Blade Wings\n3. Use Ultimate for massive AOE motorcycle damage\n4. Follow up with normal attacks during buff window\n5. Re-apply buffs when cooldowns reset",
     "image": "/images/blog/nte-character-silver-hair-tv-companion.webp",
     "imageAlt": "Hathor build guide",
-    "titleTw": "異環哈索尔（Hathor）Build攻略：AOE輸出之王、刃翼机制與配隊推荐（2026年5月）",
-    "summaryTw": "哈索尔是異環中最強的AOE輸出角色之一，Tier評級T0.5。刃翼（Blade Wing）机制讓她在聚怪后打出恐怖的范围傷害。本文詳解哈索尔弧盘搭配、武器選擇、觉醒優先級以及T0 Hyper配隊。"
+    "titleTw": "異環哈索爾Build參考：AOE與刃翼機制",
+    "summaryTw": "哈索爾的刃翼機制適合處理群怪，但舊版Tier和「最強」結論不代表目前Meta。培養時先確認主屬性、循環和聚怪支援，再按目前場景需求選擇弧盤與武器。",
+    "contentTw": "哈索爾的刃翼機制適合處理群怪，但舊版Tier和「最強」結論不代表目前Meta。培養時先確認主屬性、循環和聚怪支援，再按目前場景需求選擇弧盤與武器。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-hotori-practical-tips-guide",
@@ -1128,7 +1198,9 @@
     "image": "/images/blog/nte-character-white-hair-energy-sword.webp",
     "imageAlt": "Hotori tips and tricks",
     "titleTw": "異環星鸟（Hotori）實用技巧全攻略：時停机制在粉爪、深渊、BOSS戰中的妙用",
-    "summaryTw": "Reddit熱帖：星鸟的時停技能可以暂停粉爪劫案的倒計時，完美使用可增加60%行動時間。本文全面解析Hotori時停机制在各類場景中的應用，包括粉爪聯机、BOSS戰輸出窗口、配隊推荐。"
+    "summaryTw": "Reddit熱帖：星鸟的時停技能可以暂停粉爪劫案的倒計時，完美使用可增加60%行動時間。本文全面解析Hotori時停机制在各類場景中的應用，包括粉爪聯机、BOSS戰輸出窗口、配隊推荐。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-beginner-farming-priority-guide",
@@ -1181,7 +1253,9 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE beginner resource planning",
     "titleTw": "異環新手資源規劃指南：24級前该刷什么、體力分配與Farm優先級全解",
-    "summaryTw": "Reddit熱門帖：24級新手不知道该刷什么？本文根据公測實測数据，整理出異環從開服到后期的完整Farm優先級：體力分配公式、角色突破材料顺序、碟片刷取時机、每日必做清單。避免浪費體力在错误的地方。"
+    "summaryTw": "Reddit熱門帖：24級新手不知道该刷什么？本文根据公測實測数据，整理出異環從開服到后期的完整Farm優先級：體力分配公式、角色突破材料顺序、碟片刷取時机、每日必做清單。避免浪費體力在错误的地方。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-weapon-banner-deep-dive",
@@ -1234,7 +1308,9 @@
     "image": "/images/blog/nte-ui-weapon-shop-interface.webp",
     "imageAlt": "NTE weapon banner pity system",
     "titleTw": "異環武器池保底全解析：80抽必出专武、與原神對比為何玩家說「疯了」",
-    "summaryTw": "異環武器池60抽出金、80抽硬保底UP专武，且没有原神時代的定轨折磨。Reddit玩家熱议称其「疯了」。本文全面解析武器池保底机制、概率分布、专武提升幅度，以及零氪/微氪该不该抽武器池的實操建议。"
+    "summaryTw": "異環武器池60抽出金、80抽硬保底UP专武，且没有原神時代的定轨折磨。Reddit玩家熱议称其「疯了」。本文全面解析武器池保底机制、概率分布、专武提升幅度，以及零氪/微氪该不该抽武器池的實操建议。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v11-preview-may-2026",
@@ -1282,7 +1358,9 @@
     "image": "/images/blog/nte-driving-motorcycle-two-characters-action.webp",
     "imageAlt": "NTE 1.1 version preview new characters",
     "titleTw": "異環1.1版本前瞻汇總：新角色浔（Xun）上线預測 + 保時捷聯動實装 + 新卡池時間线",
-    "summaryTw": "異環1.0版本已上线近两周，玩家最關心的1.1版本前瞻信息汇總：新角色浔（Xun）預計上线、保時捷聯動載具實装、Opera GX/Beard Papa聯動回顧、卡池時間线預測、以及官方前瞻直播時間推測。基于百度/Google搜索熱度整理。"
+    "summaryTw": "異環1.0版本已上线近两周，玩家最關心的1.1版本前瞻信息汇總：新角色浔（Xun）預計上线、保時捷聯動載具實装、Opera GX/Beard Papa聯動回顧、卡池時間线預測、以及官方前瞻直播時間推測。基于百度/Google搜索熱度整理。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "best-sites-like-poki-free-browser-games-2026",
@@ -1305,7 +1383,9 @@
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "Browser game alternatives",
     "titleTw": "7个類似Poki的免費浏览器游戏網站推荐（2026年最新）",
-    "summaryTw": "寻找類似Poki的免費在线游戏平台？本文測評了2026年7个最佳浏览器游戏網站，包括CrazyGames、Y8、Easegame等，無需下載即點即玩。"
+    "summaryTw": "寻找類似Poki的免費在线游戏平台？本文測評了2026年7个最佳浏览器游戏網站，包括CrazyGames、Y8、Easegame等，無需下載即點即玩。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-fons-farming-guide",
@@ -1351,7 +1431,10 @@
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "NTE Fons currency farming guide",
     "titleTw": "異環方斯（Fons）速刷攻略：6大獲取途径 + 都市大亨被動收入 + 保险箱技巧",
-    "summaryTw": "方斯（Fons）是異環中購買載具、家具等重要物品的核心货币。本文詳解6大方斯獲取途径：都市大亨被動收入（最重要）、異常区挑戰、每日/周常任務、限時活動、主线奖励、保险箱收集。附带方斯使用優先級建议和保時捷聯動攒錢計劃。"
+    "summaryTw": "方斯（Fons）是異環中購買載具、家具等重要物品的核心货币。本文詳解6大方斯獲取途径：都市大亨被動收入（最重要）、異常区挑戰、每日/周常任務、限時活動、主线奖励、保险箱收集。附带方斯使用優先級建议和保時捷聯動攒錢計劃。",
+    "contentTw": "方斯是異環中的常用遊戲貨幣，可透過城市大亨、日常任務、主線、活動和探索取得。舊文章中的收益、車輛價格和聯動條件可能已經變動，請以目前商店和活動頁為準。\n\n## 通用取得方式\n\n1. 每日收取城市大亨的被動收入。\n2. 完成每日和每週任務。\n3. 優先參與限時活動。\n4. 推進主線、支線和城市探索。\n5. 在商店兌換前先確認是否有更重要的抽卡或養成資源。\n\n## 使用優先級\n\n先投入能改善長期收入或當前探索效率的項目，再考慮家具和外觀。不要把歷史聯動車輛價格當作目前固定數值。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-porsche-collab-complete-guide",
@@ -1397,7 +1480,9 @@
     "image": "/images/blog/nte-driving-tunnel-first-person-dashboard.webp",
     "imageAlt": "NTE Porsche 918 collaboration driving",
     "titleTw": "異環保時捷聯動全攻略：918車型价格、獲取方式、門店位置與保時捷独家涂装",
-    "summaryTw": "異環x保時捷聯動是目前最受關注的跨界合作之一。本文汇總保時捷918等限定載具的已知信息：獲取方式、預計价格（方斯/Anulith）、海特洛市保時捷門店位置、聯動時間线，以及玩家最關心的問題解答。含保時捷車輛駕駛體驗對比和購買建议。"
+    "summaryTw": "異環x保時捷聯動是目前最受關注的跨界合作之一。本文汇總保時捷918等限定載具的已知信息：獲取方式、預計价格（方斯/Anulith）、海特洛市保時捷門店位置、聯動時間线，以及玩家最關心的問題解答。含保時捷車輛駕駛體驗對比和購買建议。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-common-issues-fixes-guide",
@@ -1447,7 +1532,10 @@
     "image": "/images/blog/nte-cinema-scene-turquoise-girl.webp",
     "imageAlt": "NTE troubleshooting guide",
     "titleTw": "NTE常见問題與解决方案：公測初期故障排查完整指南",
-    "summaryTw": "異環(NTE)公測初期玩家反饋最多的問題汇總：游戏崩溃闪退、FPS卡顿、D盘安装卡顿、账号跨平台同步、預注册奖励未到账、角色選错、月卡未到账、角色卡住Bug、猎人等級卡住、双倍扣款退款等。每个問題附詳細解决步骤，無法自行解决時引導聯系官方客服。"
+    "summaryTw": "異環(NTE)公測初期玩家反饋最多的問題汇總：游戏崩溃闪退、FPS卡顿、D盘安装卡顿、账号跨平台同步、預注册奖励未到账、角色選错、月卡未到账、角色卡住Bug、猎人等級卡住、双倍扣款退款等。每个問題附詳細解决步骤，無法自行解决時引導聯系官方客服。",
+    "contentTw": "## 使用本頁前\n\n這篇文章整理公測初期常見問題。啟動器、平台、登入、配置和錯誤提示可能已隨版本更新，排查時先更新遊戲和系統，並以官方客服與目前客戶端提示為準。\n\n## 通用排查順序\n\n- 確認使用的是同一區服和同一帳號。\n- 檢查網路、磁碟空間和遊戲版本。\n- 降低畫質與幀率，關閉不必要的背景程式。\n- PC先更新顯示卡驅動並執行檔案修復；手機先重啟並確認剩餘空間。\n- 記下設備、系統、錯誤碼和發生時間，再聯絡官方支援。\n\n不要從第三方網站下載未知修復程式或可執行檔。特定錯誤的最新處理方式應以官方公告為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-character-tier-list-2026-may",
@@ -1499,7 +1587,10 @@
     "image": "/images/blog/nte-character-kafka-pink-cat-ears.webp",
     "imageAlt": "NTE character tier list rankings",
     "titleTw": "異環1.0全角色強度排行（2026年5月最新）：S級角色節奏榜 + 各梯隊詳解 + 配隊推荐",
-    "summaryTw": "2026年5月最新異環全角色強度排行，基于Game8权威評分整理。S梯隊：娜娜莉（最強DPS）、咲裡（最強輔助）；A梯隊：零（主角）、白藏、哈索尔、九原、达芙迪尔、赤子；B梯隊：法蒂亚、哈尼尔、薄荷、阿德勒；C梯隊：翳、奥蕾莉亚、埃德加。附带每个角色的詳細評价和推荐配隊。"
+    "summaryTw": "2026年5月最新異環全角色強度排行，基于Game8权威評分整理。S梯隊：娜娜莉（最強DPS）、咲裡（最強輔助）；A梯隊：零（主角）、白藏、哈索尔、九原、达芙迪尔、赤子；B梯隊：法蒂亚、哈尼尔、薄荷、阿德勒；C梯隊：翳、奥蕾莉亚、埃德加。附带每个角色的詳細評价和推荐配隊。",
+    "contentTw": "## 歷史榜單說明\n\n這是2026年5月、1.0版本的歷史強度榜。角色強度、隊伍適配和卡池環境會隨版本變化，不能直接視為目前Tier List。\n\n閱讀舊榜單時，應把「最強」「必抽」「必練」理解為當時的版本判斷，而不是永久結論。現在培養角色前，請查看目前角色資料、場景榜、卡池和自己的隊伍缺口。\n\n零氪玩家仍可採用通用原則：優先培養一名主C、一名生存或支援角色，再補足反應和循環需要；不要只因歷史排名分散資源。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-character-tier-list-may-2026",
@@ -1546,7 +1637,10 @@
     "image": "/images/blog/nte-character-illustration-artwork.webp",
     "imageAlt": "NTE full character tier list",
     "titleTw": "異環全角色強度榜2026年5月版：SS級到B級完整排名，開服最強配隊推荐",
-    "summaryTw": "異環1.0版本全角色強度榜完整排名：SS級（娜娜莉、九原）、S+級（零/主角、白藏、穗鸟、小吱）、A級（咲裡、达芙迪尔、赤子等）到B級全角色評級。包含每个角色的詳細定位分析、武器類型、属性克制關系和最佳配隊推荐。無论你是新手還是老玩家，這篇Tier List都能幫你做出最優培养决策。"
+    "summaryTw": "異環1.0版本全角色強度榜完整排名：SS級（娜娜莉、九原）、S+級（零/主角、白藏、穗鸟、小吱）、A級（咲裡、达芙迪尔、赤子等）到B級全角色評級。包含每个角色的詳細定位分析、武器類型、属性克制關系和最佳配隊推荐。無论你是新手還是老玩家，這篇Tier List都能幫你做出最優培养决策。",
+    "contentTw": "## 版本狀態\n\n本頁是2026年5月的1.0版本歷史榜單，僅供比較早期角色環境。它引用當時的社群測試和媒體評分，不能替代目前版本的角色資料或場景強度榜。\n\n角色排名不是固定事實。抽卡和養成前，應確認角色目前是否可用、卡池是否結束、技能和反應是否仍然適用，並先解決自己的傷害、生存或支援缺口。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-may-events-anomaly-zones-guide",
@@ -1594,7 +1688,9 @@
     "image": "/images/blog/nte-cherry-blossom-hilltop-starry-night.webp",
     "imageAlt": "NTE limited time events May",
     "titleTw": "異環5月限時活動冲刺攻略：海特洛摄影大賽倒計時 + 创作者征集6480抽 + 全異常区BOSS速查表",
-    "summaryTw": "異環5月两大限時活動进入冲刺階段：海特洛最佳摄影大賽5月7日截止（50虚空石+10000源液+50000甲硬币），创作者征集活動5月31日截止（最高6480抽奖励）。本文同時整理全異常区BOSS一览表、16款載具總览、都市大亨玩法和浪漫系統等1.0核心内容速查。"
+    "summaryTw": "異環5月两大限時活動进入冲刺階段：海特洛最佳摄影大賽5月7日截止（50虚空石+10000源液+50000甲硬币），创作者征集活動5月31日截止（最高6480抽奖励）。本文同時整理全異常区BOSS一览表、16款載具總览、都市大亨玩法和浪漫系統等1.0核心内容速查。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-porsche-p5r-collab",
@@ -1641,12 +1737,14 @@
     "image": "/images/blog/nte-driving-motorcycle-night-city-street.webp",
     "imageAlt": "NTE collaborations Porsche P5R",
     "titleTw": "異環重磅聯動汇總：保時捷跨界合作 + 女神異闻录5音乐聯動，1.0版本隐藏福利你领了吗？",
-    "summaryTw": "異環官方确认两大重磅聯動：與保時捷（Porsche）跨界合作即将上线，以及與女神異闻录5 Royal和P5X的音乐聯動。同時1.0版本隐藏福利被玩家挖掘：邮件领取Annulith×1600、S級常驻自選箱、7个兌換碼總計大量資源。本文汇總所有聯動詳情和未领取的隐藏福利。"
+    "summaryTw": "異環官方确认两大重磅聯動：與保時捷（Porsche）跨界合作即将上线，以及與女神異闻录5 Royal和P5X的音乐聯動。同時1.0版本隐藏福利被玩家挖掘：邮件领取Annulith×1600、S級常驻自選箱、7个兌換碼總計大量資源。本文汇總所有聯動詳情和未领取的隐藏福利。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-sakiri-build-guide",
     "title": "异环咲里最佳Build攻略：碟片、武器、配队与输出技巧全解",
-    "titleEn": "NTE Sakiri Best Build Guide — Discs, Weapons, Teams & DPS Tips",
+    "titleEn": "NTE Sakiri Build Reference: Discs, Weapons, and Rotation",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1659,7 +1757,7 @@
       "incantation"
     ],
     "summary": "咲里是异环中高人气咒术属性输出角色，本攻略详解咲里的最佳碟片搭配、武器选择、配队推荐和输出手法。",
-    "summaryEn": "Sakiri is a popular Incantation DPS in NTE. This guide covers her best Disc sets, weapon choices, team comps, and rotation tips.",
+    "summaryEn": "A version-aware Sakiri build reference. Her discs, weapons, and rotation should follow current skills and reactions. Treat old “best” recommendations as a starting point, not a permanent ranking.",
     "internalLinks": [
       {
         "href": "/characters/sakiri",
@@ -1681,13 +1779,16 @@
     "contentEn": "Sakiri is one of the most popular Incantation DPS characters in NTE Version 1.0, known for her elegant combat style and consistent sustained damage. This guide covers the optimal Sakiri build.\n\n## Sakiri's Role & Strengths\n\n| Strength | Details |\n|----------|---------|\n| **Sustained DPS** | Smooth skill rotation with consistent damage output |\n| **Incantation Attribute** | Counters Physical enemies, decent versatility |\n| **Beginner-Friendly** | Natural skill chaining, moderate difficulty |\n| **Team Utility** | Some skills provide buffs to teammates |\n| **S-Rank Quality** | Excellent base stats with high growth ceiling |\n\n## Disc (Equipment) Setup\n\n### Best Disc Sets\n\n| Build | Disc Combo | Effect | Best For |\n|-------|-----------|--------|----------|\n| **BiS** | Incantation 4-piece | Incantation DMG +25%, resonance bonus +15% | All content |\n| **Alternative** | Incantation 2pc + ATK 2pc | Incantation DMG +15%, ATK +12% | Transition |\n| **Budget** | ATK 4-piece | ATK +12%, Crit Rate +8% | Early game |\n\n### Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| **Disc 1** | ATK% (fixed) |\n| **Disc 2** | Incantation DMG Bonus |\n| **Disc 3** | Crit Rate or Crit DMG |\n| **Disc 4** | ATK% or Mastery |\n\n### Sub-Stat Priority\n\nCrit Rate > Crit DMG > ATK% > Mastery > Flat ATK\n\n## Weapon Choices\n\n| Weapon | Rarity | Effect | Rating |\n|--------|--------|--------|--------|\n| **Sakiri Signature** | 5★ | Incantation DMG +20%, ATK SPD +15% after skill hit | ★★★★★ |\n| **Moonlight Blade** | 4★ | Incantation DMG +18%, Crit Rate +5% | ★★★★ |\n| **Shadow Chord** | 4★ | ATK +15%, bonus DMG vs Physical enemies +12% | ★★★★ |\n| **Iron Fist** | 3★ | Base ATK bonus | ★★★ |\n\n## Recommended Teams\n\n### Team 1: Sakiri Core DPS\n\n| Position | Character | Role | Notes |\n|----------|-----------|------|--------|\n| Main DPS | **Sakiri** | Incantation/DPS | Core damage |\n| Buffer | **Hayate** | Damage buff | Team-wide buff |\n| CC | **Jiuyuan** | Grouping + CC | Boosts AoE efficiency |\n| Healer | **Edgar** | Healer | Sustain |\n\n### Team 2: Double Incantation Resonance\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Sakiri** | Damage |\n| Sub-DPS | **Hathor** | Incantation sub-DPS + buff |\n| Buffer | **Hayate** | Damage buff |\n| Healer | **Jiuyuan** | Healing + CC |\n\n### Team 3: F2P Progression\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Sakiri** | Damage |\n| Sub-DPS | **Chiz** | Free sub-DPS |\n| Healer | **Edgar** | Healing |\n| Flex | **Protagonist** | Flexible |\n\n## Progression Roadmap\n\n### Phase 1 (Level 1-30)\n1. Max Sakiri to current level cap\n2. Equip ATK 4-piece as placeholder\n3. Prioritize core damage skill upgrades\n\n### Phase 2 (Level 30-50)\n1. Farm Incantation disc domains\n2. Complete Incantation 4-piece set\n3. Upgrade all skills to level 6+\n\n### Phase 3 (Level 50+)\n1. Refine disc sub-stats for Crit/Crit DMG\n2. Upgrade signature or best 4★ weapon\n3. Complete awakening for extra stats\n\n## FAQ\n\n**Q: Sakiri or Nanally?**\nDifferent roles. Nanally is Anima DPS, Sakiri is Incantation DPS. Pick based on your team's attribute needs.\n\n**Q: How many constellations does Sakiri need?**\nC0 Sakiri is complete. C1 provides extra skill damage — good value but not necessary.\n\nSakiri is one of NTE's most beloved Incantation DPS characters. Investing in her build is always worthwhile!",
     "image": "/images/blog/nte-character-twin-tails-pink-outfit-cat-ears.webp",
     "imageAlt": "Sakiri build guide",
-    "titleTw": "異環咲裡最佳Build攻略：碟片、武器、配隊與輸出技巧全解",
-    "summaryTw": "咲裡是異環中高人气咒術属性輸出角色，本攻略詳解咲裡的最佳碟片搭配、武器選擇、配隊推荐和輸出手法。"
+    "titleTw": "異環咲里Build參考：弧盤、武器與循環",
+    "summaryTw": "咲里的弧盤、武器和輸出循環需要配合目前技能與反應資料。舊版「最佳」配置只作起點，請按她在隊伍中的輸出、支援或反應位置調整。",
+    "contentTw": "咲里的弧盤、武器和輸出循環需要配合目前技能與反應資料。舊版「最佳」配置只作起點，請按她在隊伍中的輸出、支援或反應位置調整。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-mint-build-guide",
     "title": "异环薄荷最佳Build攻略：碟片、武器、配队与治疗辅助全解",
-    "titleEn": "NTE Mint Best Build Guide — Discs, Weapons, Teams & Healer Support",
+    "titleEn": "NTE Mint Build Reference: Healing and Support",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1700,7 +1801,7 @@
       "support"
     ],
     "summary": "薄荷是异环中极具人气的治疗辅助角色，本攻略详解薄荷的最佳碟片搭配、武器选择、配队推荐和养成路线。",
-    "summaryEn": "Mint is a popular healer/support in NTE. This guide covers her best Disc sets, weapon choices, team comps, and full progression plan.",
+    "summaryEn": "A version-aware Mint build reference. Prioritize healing coverage and cycle stability before damage, and verify current discs, weapons, and teams against the live character data.",
     "internalLinks": [
       {
         "href": "/characters/mint",
@@ -1722,8 +1823,11 @@
     "contentEn": "Mint is one of the most popular healer/support characters in NTE Version 1.0. Her reliable healing and team buffs make her essential for challenging content. This guide covers the optimal Mint build.\n\n## Why Mint is a T0 Support\n\n| Strength | Details |\n|----------|---------|\n| **Strong Healing** | Excellent single-target and AoE healing |\n| **High Uptime** | Short skill CD, high coverage |\n| **Team Buffs** | ATK bonus while healing |\n| **Accessible** | Available through multiple methods |\n| **Universal** | Fits almost every team comp |\n| **Easy to Play** | Simple heal rotation, low APM demand |\n\n## Disc (Equipment) Setup\n\n### Best Disc Sets\n\n| Build | Disc Combo | Effect | Best For |\n|-------|-----------|--------|----------|\n| **BiS Healer** | Healing 4-piece | Healing +20%, ATK +10% after heal | All teams |\n| **Speed Focus** | Speed 4-piece | Speed +12%, skill CD -8% | Faster rotation |\n| **Budget** | HP 4-piece | HP +15%, received healing +10% | Early game |\n\n### Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| **Disc 1** | HP% (fixed) |\n| **Disc 2** | HP% or Attribute DMG |\n| **Disc 3** | Speed or Effect Hit Rate |\n| **Disc 4** | HP% or Healing Bonus |\n\n### Sub-Stat Priority\n\nSpeed > HP% > Effect Hit Rate > ATK% > DEF%\n\n## Weapon Choices\n\n| Weapon | Rarity | Effect | Rating |\n|--------|--------|--------|--------|\n| **Mint Signature** | 5★ | Healing +15%, Speed +10%, team DMG +8% after heal | ★★★★★ |\n| **Echo Staff** | 4★ | Healing +12%, team HP +10% | ★★★★ |\n| **Breeze Staff** | 4★ | Speed +8%, extra energy on heal | ★★★★ |\n| **Novice Staff** | 3★ | Base Speed bonus | ★★★ |\n\n## Skill Upgrade Priority\n\n| Priority | Skill | Reason |\n|----------|-------|--------|\n| **First** | AoE Heal | Core skill — healing and coverage scale with level |\n| **Second** | Buff skill | Enhance附加 buff effects |\n| **Third** | Single-target heal | Emergency healing |\n| **Fourth** | Normal attack | Lowest contribution |\n\n## Recommended Teams\n\n### Team 1: Mint + Nanally Stable DPS\n\n| Position | Character | Role | Notes |\n|----------|-----------|------|--------|\n| Main DPS | **Nanally** | Anima/DPS | Core damage |\n| Support | **Mint** | Heal + Buff | Sustain + ATK boost |\n| Buffer | **Hayate** | Damage buff | Team-wide buff |\n| CC | **Jiuyuan** | Grouping | Boosts AoE |\n\n### Team 2: Mint + Zero Burst\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Zero** | Burst damage |\n| Support | **Mint** | Heal + Buff |\n| Buffer | **Hayate** | Damage buff |\n| CC | **Jiuyuan** | Grouping + CC |\n\n### Team 3: Mint All-Purpose\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Any S-rank DPS** | Damage |\n| Support | **Mint** | Healing |\n| Buffer | **Hayate/Hathor** | Damage buff |\n| Shielder | **Daffodil** | Shield + DMG reduction |\n\n## Progression Roadmap\n\n### Phase 1 (Level 1-30)\n1. Max Mint to current level cap\n2. Equip HP 4-piece as placeholder\n3. Prioritize AoE heal upgrades\n4. Use with any main DPS\n\n### Phase 2 (Level 30-50)\n1. Farm Healing disc domains\n2. Complete Healing 4-piece\n3. Reach 100+ Speed\n4. Try challenging content\n\n### Phase 3 (Level 50+)\n1. Refine disc sub-stats\n2. Target 120+ Speed, 15000+ HP\n3. Complete awakening for healing boost\n4. Optimize for endgame\n\n## FAQ\n\n**Q: Mint or Edgar — which healer is better?**\nMint is S-rank with superior healing and buffs. If resources allow, prioritize Mint. Edgar is fine for F2P transition.\n\n**Q: How many constellations does Mint need?**\nC0 Mint is a strong healer. C1 improves buff effects — good value but not mandatory.\n\n**Q: What stats affect Mint's healing?**\nPrimarily Max HP and Healing Bonus. Speed is also crucial for smooth skill rotation.\n\nMint is NTE's most reliable healer — virtually every team benefits from her support!",
     "image": "/images/blog/nte-character-mint-awakening-level-6.webp",
     "imageAlt": "Mint build guide awakening",
-    "titleTw": "異環薄荷最佳Build攻略：碟片、武器、配隊與治療輔助全解",
-    "summaryTw": "薄荷是異環中极具人气的治療輔助角色，本攻略詳解薄荷的最佳碟片搭配、武器選擇、配隊推荐和养成路线。"
+    "titleTw": "異環薄荷Build參考：治療與支援",
+    "summaryTw": "薄荷適合補足治療和支援缺口。養成時先確保治療覆蓋和循環穩定，再考慮傷害；弧盤、武器和配隊請以目前角色資料為準。",
+    "contentTw": "薄荷適合補足治療和支援缺口。養成時先確保治療覆蓋和循環穩定，再考慮傷害；弧盤、武器和配隊請以目前角色資料為準。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-week-one-recap",
@@ -1775,12 +1879,14 @@
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE launch week review",
     "titleTw": "異環公測首周全面回顧：流水過亿、5月1日首補、最新Meta排行、深渊玩法前瞻",
-    "summaryTw": "異環公測首周数据亮眼，全球首日流水過亿。5月1日發布首个熱修复補丁，修复任務BUG、崩溃、PS5摄像头抖動等問題。公測福利已确认达470+免費抽。本文汇總首周實測Meta排行、最強配隊、深渊玩法前瞻及5月重點活動日歷。"
+    "summaryTw": "異環公測首周数据亮眼，全球首日流水過亿。5月1日發布首个熱修复補丁，修复任務BUG、崩溃、PS5摄像头抖動等問題。公測福利已确认达470+免費抽。本文汇總首周實測Meta排行、最強配隊、深渊玩法前瞻及5月重點活動日歷。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-zero-build-guide",
     "title": "异环零最佳Build攻略：碟片、武器、配队与爆发输出全解",
-    "titleEn": "NTE Zero Best Build Guide — Discs, Weapons, Teams & Burst DPS Guide",
+    "titleEn": "NTE Zero Build Reference: Burst, Reactions, and Rotation",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1794,7 +1900,7 @@
       "anima"
     ],
     "summary": "零是异环中极具操作性的爆发型主C，本攻略详解零的最佳碟片搭配、专武对比、推荐配队、技能连招和养成路线，帮你玩出极限伤害。",
-    "summaryEn": "Zero is a high-skill burst DPS in NTE. This guide covers best Disc sets, weapon comparisons, recommended teams, combo rotations, and full progression plan for maximum burst damage.",
+    "summaryEn": "A version-aware Zero build reference. Forms, skills, weapon comparisons, burst values, and team recommendations may change; verify the current character data before investing.",
     "internalLinks": [
       {
         "href": "/characters/zero",
@@ -1821,13 +1927,16 @@
     "contentEn": "Zero is the highest-skill burst DPS in NTE Version 1.0. Unlike Nanally's consistent output, Zero excels at dealing massive damage in short windows, perfect for players who enjoy high-skill-cap gameplay.\n\n## Zero's Role & Strengths\n\n| Strength | Details |\n|----------|---------|\n| **Extreme Burst** | Delivers massive damage in short windows |\n| **High Skill Ceiling** | Combo windows require precise execution |\n| **Attribute Advantage** | Anima attribute with broad effectiveness |\n| **Spectacular Effects** | Visually impressive skill animations |\n| **Endgame Performance** | Excels in scenarios requiring fast kills |\n\n## Disc (Equipment) Setup\n\n### Best Disc Sets\n\n| Build | Disc Combo | Effect | Best For |\n|-------|-----------|--------|----------|\n| **BiS** | Anima 4-piece | Anima DMG +25%, resonance bonus +15% | All content |\n| **Burst Focus** | Anima 2pc + Crit 2pc | Anima DMG +15%, Crit Rate +12% | Crit consistency |\n| **Budget** | Crit 4-piece | Crit Rate +12%, Crit DMG +20% | Early game |\n\n### Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| **Disc 1** | ATK% (fixed) |\n| **Disc 2** | Anima DMG Bonus |\n| **Disc 3** | Crit DMG (priority) or Crit Rate |\n| **Disc 4** | ATK% or Mastery |\n\n### Sub-Stat Priority\n\nCrit DMG > Crit Rate > ATK% > Mastery > Flat ATK\n\n💡 Zero's burst window is short — every hit must crit. Target stats: Crit Rate 75%+, Crit DMG 160%+, ATK 1800+.\n\n## Weapon Choices\n\n| Weapon | Rarity | Effect | Rating |\n|--------|--------|--------|--------|\n| **Zero Signature (Void Blade)** | 5★ | Crit DMG +30%, burst skill DMG +25% | ★★★★★ |\n| **Sky Cleaver** | 4★ | Anima DMG +18%, Crit +8% | ★★★★ |\n| **Versatile Fangs** | 4★ | ATK +15%, combo DMG stacking | ★★★★ |\n| **Iron Fist** | 3★ | Base ATK bonus | ★★★ |\n\n💡 Signature weapon benefits Zero especially (~25-30% increase) because Crit DMG directly amplifies burst output.\n\n## Combo Rotation & Skill Upgrades\n\n### Core Combo Cycle\n\n1. Open with gap-close/CC skill\n2. Cast buff skill to enter enhanced state\n3. Chain core damage skills (burst window ~8 seconds)\n4. Release Finisher before window closes\n5. Immediately switch to teammates for buffs/healing\n\n### Skill Upgrade Priority\n\n| Priority | Skill | Reason |\n|----------|-------|--------|\n| **First** | Finisher | Highest multiplier, burst core |\n| **Second** | Core damage skill | Main combo damage source |\n| **Third** | Buff skill | Extends burst window |\n| **Fourth** | Normal attack | Filler between burst phases |\n\n## Recommended Teams\n\n### Team 1: Zero Maximum Burst (T0)\n\n| Position | Character | Role | Notes |\n|----------|-----------|------|--------|\n| Main DPS | **Zero** | Anima/Burst | Core damage |\n| Buffer | **Hayate** | Incantation/Buff | Maximize burst window DMG |\n| Sub-DPS | **Jiuyuan** | Anima/CC | Groups enemies, off-burst DPS |\n| Healer | **Edgar** | Healer | Sustain between burst phases |\n\n### Team 2: Double Anima Resonance\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Zero** | Burst damage |\n| Sub-DPS | **Nanally** | Sustained damage |\n| Buffer | **Hathor** | Support buff |\n| CC | **Jiuyuan** | Grouping + healing |\n\nDouble Anima resonance triggers bonus attribute damage. Switch to Nanally after Zero's burst.\n\n### Team 3: F2P Progression Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Zero** | Burst damage |\n| Sub-DPS | **Chiz** | Free sub-DPS |\n| Healer | **Edgar** | Healing |\n| Flex | **Protagonist** | Flexible |\n\n## Progression Roadmap\n\n### Phase 1 (Level 1-30)\n\n1. Max Zero to current level cap\n2. Equip Crit 4-piece as placeholder\n3. Practice combo rotation, learn burst window timing\n4. Form transition team with A-rank characters\n\n### Phase 2 (Level 30-50)\n\n1. Farm Anima disc domains\n2. Aim for Anima 4-piece with Crit DMG main stats\n3. Upgrade all skills to level 6+\n4. Test combos in challenging content\n\n### Phase 3 (Level 50+)\n\n1. Refine disc sub-stats for dual Crit stats\n2. Acquire signature or best 4★ weapon\n3. Complete awakening for extra burst bonuses\n4. Optimize team for endgame content\n\n## FAQ\n\n**Q: Zero or Nanally — who's stronger?**\nThey excel in different scenarios. Nanally offers more consistent sustained DPS. Zero has higher burst potential but requires better execution.\n\n**Q: How many constellations does Zero need?**\nC0 Zero is a complete burst DPS. C1 extends the burst window — good value but not mandatory.\n\nZero is NTE's most mechanically rewarding DPS. If you enjoy the thrill of perfect burst combos, Zero is absolutely worth building!",
     "image": "/images/blog/nte-character-male-red-headband-combat.webp",
     "imageAlt": "Zero build guide",
-    "titleTw": "異環零最佳Build攻略：碟片、武器、配隊與爆發輸出全解",
-    "summaryTw": "零是異環中极具操作性的爆發型主C，本攻略詳解零的最佳碟片搭配、专武對比、推荐配隊、技能连招和养成路线，幫你玩出极限傷害。"
+    "titleTw": "異環零Build參考：爆發、反應與操作",
+    "summaryTw": "零的價值取決於目前形態、技能和隊伍反應。舊版專武比較、爆發數值和配隊結論可能過時，請先確認目前可用形態與角色頁，再安排養成。",
+    "contentTw": "零的價值取決於目前形態、技能和隊伍反應。舊版專武比較、爆發數值和配隊結論可能過時，請先確認目前可用形態與角色頁，再安排養成。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-jiuyuan-build-guide",
     "title": "异环九原最佳Build攻略：碟片、武器、配队与聚怪控制全解",
-    "titleEn": "NTE Jiuyuan Best Build Guide — Discs, Weapons, Teams & CC Guide",
+    "titleEn": "NTE Jiuyuan Build Reference: Grouping, Control, and Healing",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1841,7 +1950,7 @@
       "anima"
     ],
     "summary": "九原是异环中最强聚怪控制辅助，1觉后兼具治疗能力。本攻略详解九原的最佳碟片搭配、武器选择、配队推荐和养成路线。",
-    "summaryEn": "Jiuyuan is NTE's best grouping/CC support, gaining healing at C1. This guide covers best Disc sets, weapon choices, recommended teams, and progression plan.",
+    "summaryEn": "A version-aware Jiuyuan build reference. Her grouping, control, and awakening-based healing can fit many teams, but current awakening effects, discs, and weapons should be verified before investment.",
     "internalLinks": [
       {
         "href": "/characters/jiuyuan",
@@ -1868,13 +1977,16 @@
     "contentEn": "Jiuyuan is the most essential grouping/CC support in NTE Version 1.0. Her grouping ability doubles the team's AoE efficiency, and she gains healing at C1, making her a must-have in nearly every top team.\n\n## Why Jiuyuan is a T0 Support\n\n| Strength | Details |\n|----------|---------|\n| **Best Grouping** | Large range, short CD — doubles team AoE output |\n| **Strong CC** | Grouping applies slow/bind effects |\n| **C1 Transformation** | Unlocks healing — evolves from CC to all-around support |\n| **Attribute Synergy** | Anima attribute resonates with top DPS characters |\n| **Universal** | Fits into virtually every main DPS team |\n| **A-Rank Accessible** | Low barrier to obtain, easy to max constellations |\n\n## Disc (Equipment) Setup\n\n### Best Disc Sets\n\n| Build | Disc Combo | Effect | Best For |\n|-------|-----------|--------|----------|\n| **BiS Support** | Resonance 4-piece | Team attribute DMG +15%, bonus +10% | All teams |\n| **Grouping Focus** | Resonance 2pc + Speed 2pc | Team buff +10%, Speed +12% | Faster rotation |\n| **Healing Focus** | Healing 4-piece | Healing +20%, ATK +10% after heal | Post-C1 healer |\n| **Budget** | Speed 4-piece | Speed +12%, skill CD -8% | Early game |\n\n### Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| **Disc 1** | HP% (fixed) or ATK% |\n| **Disc 2** | Anima DMG Bonus or HP% |\n| **Disc 3** | Speed or Effect Hit Rate |\n| **Disc 4** | HP% or ATK% |\n\n### Sub-Stat Priority\n\nSpeed > Effect Hit Rate > HP% > ATK% > DEF%\n\n💡 Jiuyuan's core is fast grouping skill casts and reliable CC. Speed is the most important stat — target 120+.\n\n## Weapon Choices\n\n| Weapon | Rarity | Effect | Rating |\n|--------|--------|--------|--------|\n| **Jiuyuan Signature** | 5★ | Speed +15%, grouping range +20%, team ATK +10% after skill | ★★★★★ |\n| **Gravity Staff** | 4★ | Grouping +12%, Speed +8% | ★★★★ |\n| **Echo Staff** | 4★ | Resonance DMG +15%, team buff +5% | ★★★★ |\n| **Novice Staff** | 3★ | Base Speed bonus | ★★★ |\n\n💡 Jiuyuan is A-rank — her signature isn't 5★ but still strong. 4★ weapons suffice; prioritize weapons for main DPS.\n\n## Skill Upgrade Priority\n\n| Priority | Skill | Reason |\n|----------|-------|--------|\n| **First** | Grouping skill | Core ability — range and effect scale with level |\n| **Second** | Buff/debuff skill | Maximize support effectiveness |\n| **Third** | Finisher | Further enhances CC |\n| **Fourth** | Normal attack | Lowest contribution |\n\n## Recommended Teams\n\n### Team 1: Jiuyuan + Nanally Core\n\n| Position | Character | Role | Notes |\n|----------|-----------|------|--------|\n| Main DPS | **Nanally** | Anima/DPS | AoE skills benefit most from grouping |\n| Support | **Jiuyuan** | Grouping + CC | Core support |\n| Buffer | **Hayate** | Damage buff | Team-wide buff |\n| Flex | **Protagonist** | Utility | Free character |\n\n### Team 2: Jiuyuan + Zero Burst\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Zero** | Burst damage |\n| Support | **Jiuyuan** | Grouping + CC |\n| Buffer | **Hayate** | Damage buff |\n| Healer | **Edgar** | Sustain |\n\n### Team 3: Jiuyuan All-Purpose Support\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Hathor/Daffodil** | Choose based on needs |\n| Support | **Jiuyuan** | CC + Healing (C1) |\n| Buffer | **Hayate** | Damage buff |\n| Shielder | **Daffodil** | Shield + DMG reduction |\n\n## Progression Roadmap\n\n### Phase 1 (Level 1-30)\n\n1. Max Jiuyuan to current level cap\n2. Equip Speed 4-piece\n3. Prioritize grouping skill upgrades\n4. Use with any main DPS\n\n### Phase 2 (Level 30-50)\n\n1. Farm Resonance disc domains\n2. Complete Resonance 4-piece\n3. Reach 120+ Speed\n4. Aim for C1 (A-rank is easy to obtain)\n\n### Phase 3 (Level 50+)\n\n1. Refine disc sub-stats\n2. Target 140+ Speed, 80%+ Effect Hit Rate\n3. Complete high constellations\n4. Fine-tune for team needs\n\n## FAQ\n\n**Q: How many constellations does Jiuyuan need?**\nC0 is already top-tier. C1 unlocking healing is the key breakpoint — as an A-rank, reaching C1 is easy.\n\n**Q: How much Speed?**\nMinimum 120 Speed. For hard content, aim for 140+.\n\n**Q: Jiuyuan vs Hathor?**\nDifferent roles. Jiuyuan groups/CCs for AoE teams; Hathor buffs for single-target burst. Many top teams use both.\n\nJiuyuan is NTE's most versatile support. Investing in her is always a smart choice!",
     "image": "/images/blog/nte-character-wolf-anthromorphic-portrait.webp",
     "imageAlt": "Jiuyuan build guide",
-    "titleTw": "異環九原最佳Build攻略：碟片、武器、配隊與聚怪控制全解",
-    "summaryTw": "九原是異環中最強聚怪控制輔助，1觉后兼具治療能力。本攻略詳解九原的最佳碟片搭配、武器選擇、配隊推荐和养成路线。"
+    "titleTw": "異環九原Build參考：聚怪、控制與治療",
+    "summaryTw": "九原的聚怪、控制和覺醒後治療能力適合多種隊伍。請以目前角色資料確認覺醒效果、弧盤和武器，不要只依賴舊版「最強聚怪」結論。",
+    "contentTw": "九原的聚怪、控制和覺醒後治療能力適合多種隊伍。請以目前角色資料確認覺醒效果、弧盤和武器，不要只依賴舊版「最強聚怪」結論。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-best-team-comps-1-0",
     "title": "异环公测1.0版本最佳配队排行：T0队伍组合与构建指南",
-    "titleEn": "NTE Version 1.0 Best Team Comps — T0 Teams & Building Guide",
+    "titleEn": "Historical NTE 1.0 Team Comps: Framework and Version Context",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1889,7 +2001,7 @@
       "fadia"
     ],
     "summary": "异环1.0版本最强配队推荐，包含娜娜莉核心队、哈索尔增伤队、达芙迪尔保核队等T0阵容详解，以及平民零氪最佳配队方案。",
-    "summaryEn": "Best team compositions for NTE Version 1.0, featuring Nanally core team, Hathor buff team, Daffodil shield team, and F2P optimal builds.",
+    "summaryEn": "A historical Version 1.0 team-building record. Current roles, reactions, rankings, and recommendations should be checked against live data.",
     "internalLinks": [
       {
         "href": "/characters/",
@@ -1921,13 +2033,16 @@
     "contentEn": "Team composition is the core of NTE's combat system. The right team can multiply individual character effectiveness. This guide recommends the strongest team compositions based on Version 1.0 gameplay data.\n\n## T0 Teams — Meta-Defining Compositions\n\n### Team 1: Anima Burst Team\n\n| Position | Character | Role | Key Function |\n|----------|-----------|------|-------------|\n| Main DPS | **Nanally** | Anima/Attack | Core damage, anti-gravity combos |\n| Sub-DPS/CC | **Jiuyuan** | Anima/Control | Enemy grouping + CC, healing at C1 |\n| Buffer | **Hayate** | Incantation/Support | Team-wide damage buff |\n| Flex | **Protagonist** | Utility | Free character, flexible support |\n\n**Strengths**: Highest overall DPS in the current meta. Jiuyuan's grouping doubles Nanally's AoE efficiency, while Hayate's stacking buffs are extremely powerful.\n\n**Rotation**: Jiuyuan groups enemies → Hayate applies buffs → Nanally attacks → Trigger Ring Fusion Burst → Loop.\n\n### Team 2: Hathor Hyper-Buff Team\n\n| Position | Character | Role | Key Function |\n|----------|-----------|------|-------------|\n| Main DPS | **Nanally** or **Lacrimosa** | Carry | Benefits from massive buffs |\n| Buffer | **Hathor** | Support/Buff | Top-tier team damage amplification |\n| Sub-DPS | **Jiuyuan** | CC + Healing | Grouping + sustain |\n| Shielder | **Daffodil** | Shield/DR | Survival guarantee |\n\n**Strengths**: Hathor's buff ceiling is the highest in Version 1.0. With Daffodil's shields protecting the team, your carry can freely deal damage. Best for challenging bosses and endgame content.\n\n### Team 3: Daffodil Double Shield Survival\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Lacrimosa** | Chaos/Attack |\n| Shield 1 | **Daffodil** | Chaos/Shield |\n| Shield 2 | **Baicang** | Incantation/Defense |\n| Healer | **Jiuyuan** | Healing + CC |\n\n**Strengths**: Extreme survivability with double shields + healer. Near-impossible to wipe. Ideal for super challenging content. Lower DPS but incredibly stable.\n\n![NTE pink-haired character combat UI screenshot](/images/blog/nte-character-pink-buns-mouse-plush-ui.jpg)\n\n## T1 Teams — Strong Alternatives\n\n### Cosmos Burst Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Xun** | Cosmos/Attack |\n| Sub-DPS | **Zero** | Cosmos/Burst |\n| Buffer | **Mint** | Buff/Support |\n| Flex | **Protagonist** | Utility |\n\nCosmos burst damage team. Zero's Finisher combined with Xun's sustained output creates devastating burst windows.\n\n### Hathor + Fadia Control Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Fadia** | Cosmos/Attack + Control |\n| Buffer | **Hathor** | Support buff |\n| Sub-DPS | **Chiz** (A-rank) | Free + strong |\n| Healer | **Jiuyuan** | Sustain |\n\nFadia's crowd control combined with Hathor's buffs excels in challenging dungeons.\n\n## F2P Best Teams\n\n### Progression Starter Team\n\n| Position | Character | How to Get |\n|----------|-----------|-----------|\n| Main DPS | **Nanally** | 6-choose-1 selector or beginner 20-pull |\n| Sub-DPS | **Chiz** (A-rank) | Free max constellation from City Tycoon |\n| Healer | **Edgar** (A-rank) | Free, auto-heal |\n| Flex | **Protagonist** | Starter character |\n\nAll characters are free or low-cost. Sufficient for all early-to-mid game content.\n\n### Advanced F2P Team\n\n| Position | Character | How to Get |\n|----------|-----------|-----------|\n| Main DPS | **Nanally** | 6-choose-1/Beginner banner |\n| Sub-DPS | **Jiuyuan** | Standard 50-pull selector |\n| Buffer | **Hayate** | Standard banner pulls |\n| Flex | **Chiz** | Free max constellation |\n\nUse 470+ free pulls to acquire core S-rank characters for a powerful F2P team.\n\n## Team Building Principles\n\n### Attribute Coverage\n\n| Principle | Details |\n|-----------|---------|\n| **Cover 2+ attributes** | Avoid being hard-countered by single-attribute enemies |\n| **Trigger Ring Fusion** | Different attributes combine for bonus damage |\n| **Know counters** | Anima → Chaos → Cosmos → Anima |\n\n### Role Balance\n\nA complete team typically needs:\n- 1 Main DPS (damage core)\n- 1 Buffer/Support (amplify team damage)\n- 1 Healer/Shield (ensure survival)\n- 1 Flex (CC, sub-DPS, or utility)\n\n### Common Mistakes\n\n1. **Double DPS isn't always better**: One DPS + one support often outperforms two DPS, as buffs multiply effectiveness\n2. **Don't ignore A-ranks**: Chiz (A-rank) at max constellation rivals low-constellation S-ranks\n3. **Attribute > Rarity**: Some S-ranks underperform A-ranks in specific scenarios\n4. **Focus first**: Max one complete team before building a second\n\n## Character Value Ranking (Team Perspective)\n\n| Rank | Character | Reason |\n|------|-----------|--------|\n| 1 | **Nanally** | Best DPS, core of nearly all T0 teams |\n| 2 | **Jiuyuan** | Grouping + CC + healing, most versatile sub-DPS |\n| 3 | **Hathor** | Highest buff ceiling, raises team ceiling |\n| 4 | **Hayate** | Consistent buffs, relatively easy to obtain |\n| 5 | **Daffodil** | Best shield character, error tolerance |\n| 6 | **Baicang** | Strongest tank, co-op essential |\n| 7 | **Chiz** (A-rank) | Free max constellation, progression powerhouse |\n\n## Version Outlook\n\nVersion 1.1 is expected to introduce new character Xun and Porsche collaboration content, which may shift the team meta. However, the Nanally + Jiuyuan + Support core framework should remain strong for the foreseeable future. Follow nteguide.com for the latest team updates and character analysis!",
     "image": "/images/blog/nte-world-tropical-village-red-dress-character.webp",
     "imageAlt": "NTE best team compositions",
-    "titleTw": "異環公測1.0版本最佳配隊排行：T0隊伍组合與构建指南",
-    "summaryTw": "異環1.0版本最強配隊推荐，包含娜娜莉核心隊、哈索尔增傷隊、达芙迪尔保核隊等T0陣容詳解，以及平民零氪最佳配隊方案。"
+    "titleTw": "異環1.0歷史配隊記錄：隊伍框架與版本背景",
+    "summaryTw": "記錄異環1.0時期的配隊思路；角色強度、反應、隊伍排名和推薦角色不代表目前版本。",
+    "contentTw": "## 版本狀態\n\n本頁整理1.0時期的配隊框架和角色組合，文中的T0、最強、必練和角色排名只描述當時環境。版本更新後，技能、反應、角色可用性和隊伍價值都可能改變。\n\n## 通用配隊原則\n\n一支完整隊伍通常需要輸出核心、支援或增益、生存位，以及一個能補足反應、控制或副輸出的功能位。實際組隊前，先查看目前角色技能和場景需求，不要只照搬舊版隊伍。\n\n## 零氪思路\n\n優先培養一支能穩定推進的隊伍，再建立第二隊。免費角色和低稀有度角色只要能完成反應、支援和生存循環，仍可作為過渡方案。\n\n目前配隊應以目標區服客戶端、角色頁、反應說明和當前場景榜為準；本頁只適合作為1.0歷史參考。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-nanally-build-guide",
     "title": "异环娜娜莉最佳Build攻略：碟片、武器、配队与养成路线全解",
-    "titleEn": "NTE Nanally Best Build Guide — Discs, Weapons, Teams & Progression",
+    "titleEn": "NTE Nanally Build Reference: Damage and Progression",
     "category": "guide",
     "categoryZh": "攻略指南",
     "categoryEn": "Guide",
@@ -1941,7 +2056,7 @@
       "anima"
     ],
     "summary": "娜娜莉是异环公测版本公认的最强主C，本攻略详解娜娜莉的最佳碟片搭配、专武对比、推荐配队、技能升级顺序和养成路线规划，帮你最大化输出。",
-    "summaryEn": "Nanally is the undisputed best main DPS in NTE Version 1.0. This guide covers her best Disc sets, weapon comparisons, recommended teams, skill upgrade priority, and full progression plan.",
+    "summaryEn": "A version-aware Nanally build reference. Evaluate her damage, discs, and teams against the current version and scene rankings; old “best DPS” claims are not permanent conclusions.",
     "internalLinks": [
       {
         "href": "/characters/nanally",
@@ -1973,13 +2088,16 @@
     "contentEn": "Nanally is the undisputed best main DPS in NTE Version 1.0. Whether you're F2P or a spender, Nanally should be your #1 priority to acquire and build. This guide covers everything you need for the optimal Nanally build.\n\n## Why Nanally is the #1 Main DPS\n\n| Strength | Details |\n|----------|---------|\n| **Highest Output** | Top skill multipliers with fluid combos — both sustained and burst |\n| **Easy to Play** | Melee combos are intuitive, beginners can perform well immediately |\n| **Attribute Advantage** | Anima attribute has broad effectiveness |\n| **Long-term Value** | Core meta character unlikely to be replaced soon |\n| **Free to Obtain** | Available from 6-choose-1 selector or beginner 20-pull guarantee |\n\n## Disc (Equipment) Setup\n\n### Best Disc Sets\n\n| Build | Disc Combo | Effect | Best For |\n|-------|-----------|--------|----------|\n| **BiS** | Anima 4-piece | Anima DMG +25%, resonance bonus +15% | All content |\n| **Alternative** | Anima 2pc + ATK 2pc | Anima DMG +15%, ATK +12% | Transition |\n| **Budget** | ATK 4-piece | ATK +12%, Crit Rate +8% | Early game |\n\n### Main Stat Priority\n\n| Slot | Recommended Main Stat |\n|------|----------------------|\n| **Disc 1** | ATK% (fixed) |\n| **Disc 2** | Anima DMG Bonus |\n| **Disc 3** | Crit Rate or Crit DMG |\n| **Disc 4** | ATK% or Mastery |\n\n### Sub-Stat Priority\n\nCrit Rate > Crit DMG > ATK% > Mastery > Flat ATK\n\n💡 Target stats: Crit Rate 70%+, Crit DMG 140%+, ATK 2000+. Maintain 1:2 Crit Rate:Crit DMG ratio.\n\n## Weapon Choices\n\n### Signature vs Alternatives\n\n| Weapon | Rarity | Effect | Rating |\n|--------|--------|--------|--------|\n| **Nanally Signature** | 5★ | Crit Rate +20%, ATK +30% after skill hit | ★★★★★ |\n| **Versatile Fangs** | 4★ | ATK +15%, combo stacking DMG bonus | ★★★★ |\n| **Sky Cleaver** | 4★ | Anima DMG +18% | ★★★★ |\n| **Iron Fist** | 3★ | Base ATK bonus | ★★★ |\n\n💡 Signature weapon provides ~20-25% DPS increase. F2P players should prioritize character acquisition first. 4★ weapons are sufficient for all content.\n\n## Skill Upgrade Priority\n\n| Priority | Skill | Reason |\n|----------|-------|--------|\n| **First** | Core damage skill | Primary damage source, max ASAP |\n| **Second** | Finisher | Key burst damage window |\n| **Third** | Passive | Base stat and combo enhancements |\n| **Fourth** | Normal attack | Lower ROI, upgrade last |\n\n## Recommended Teams\n\n### Team 1: Nanally Core DPS (T0)\n\n| Position | Character | Role | Notes |\n|----------|-----------|------|--------|\n| Main DPS | **Nanally** | Anima/Attack | Core damage dealer |\n| Sub-DPS | **Jiuyuan** | Anima/CC | Groups enemies, C1 adds healing |\n| Buffer | **Hayate** | Incantation/Buff | Team-wide damage buff |\n| Flex | **Protagonist** | Utility | Free character, flexible support |\n\nThe most recommended Nanally team. Jiuyuan's grouping doubles Nanally's AoE efficiency, while Hayate's buffs boost the entire team.\n\n### Team 2: Double Support Protect Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Nanally** | Damage |\n| Buffer | **Hathor** | Support buff |\n| Shielder | **Daffodil** | Shield + damage reduction |\n| Healer | **Jiuyuan** | Healing + CC |\n\nIdeal for challenging content — double support ensures Nanally keeps dealing damage without interruptions.\n\n### Team 3: F2P Progression Team\n\n| Position | Character | Role |\n|----------|-----------|------|\n| Main DPS | **Nanally** | Damage |\n| Sub-DPS | **Chiz** (A-rank) | Free max-constellation sub-DPS |\n| Healer | **Edgar** (A-rank) | Auto-heal |\n| Flex | **Protagonist** | Flexible |\n\nF2P-friendly — all characters are free or low-cost to obtain.\n\n## Progression Roadmap\n\n### Phase 1 (Level 1-30)\n\n1. Max Nanally to current level cap\n2. Equip ATK 4-piece as placeholder\n3. Prioritize core damage skill upgrades\n4. Form a transition team with A-rank characters\n\n### Phase 2 (Level 30-50)\n\n1. Start farming Anima disc domains\n2. Aim for Anima 4-piece set\n3. Accept decent main stats, don't chase perfect sub-stats\n4. Upgrade all skills to level 6+\n\n### Phase 3 (Level 50+)\n\n1. Refine disc sub-stats for Crit/Crit DMG\n2. Upgrade signature or best 4★ weapon\n3. Complete awakening for extra stats\n4. Optimize team for endgame content\n\n## FAQ\n\n**Q: Does Nanally need constellations/awakenings?**\nC0 Nanally is a complete character with all core mechanics unlocked. C1 provides extra skill damage — nice but not necessary. F2P should not chase high constellations.\n\n**Q: How to balance Crit Rate and Crit DMG?**\nMaintain a 1:2 ratio (e.g., 70% Crit Rate with 140% Crit DMG). If your disc sub-stats lean toward Crit Rate, choose Crit DMG main stat discs, and vice versa.\n\n**Q: Nanally or Zero?**\nNanally suits most players — stable sustained output, easy mechanics, versatile. Zero suits players who prefer extreme burst damage but requires more skill.\n\n**Q: Can I play without the signature weapon?**\nAbsolutely. 4★ weapons are only ~20% behind the signature. F2P should invest resources in characters first.\n\nNanally is undeniably the #1 main DPS in NTE. Investing in her build is never a wrong choice. We hope this guide helps you create the strongest Nanally possible!",
     "image": "/images/blog/nte-character-pink-buns-mouse-plush-ui.webp",
     "imageAlt": "Nanally build guide",
-    "titleTw": "異環娜娜莉最佳Build攻略：碟片、武器、配隊與养成路线全解",
-    "summaryTw": "娜娜莉是異環公測版本公认的最強主C，本攻略詳解娜娜莉的最佳碟片搭配、专武對比、推荐配隊、技能升級顺序和养成路线規劃，幫你最大化輸出。"
+    "titleTw": "異環娜娜莉Build參考：輸出與養成",
+    "summaryTw": "娜娜莉的輸出、弧盤和配隊應按目前版本與場景評價判斷。舊文中的「最強主C」不是永久結論；先查看目前角色資料，再決定技能、武器和隊伍投入。",
+    "contentTw": "娜娜莉的輸出、弧盤和配隊應按目前版本與場景評價判斷。舊文中的「最強主C」不是永久結論；先查看目前角色資料，再決定技能、武器和隊伍投入。\n\n## 使用方式\n\n這篇文章保留早期Build思路，但不把舊版Tier、傷害數字、武器排名或「必練」結論當作目前事實。請先查看目標區服的當前角色技能、弧盤、武器和卡池，再按自己的隊伍缺口調整。角色本體和基本循環優先於追求完美副詞條或追加命座。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-global-server-recharge-guide",
     "title": "异环国际服充值攻略2026 — 安全充值方法、代充平台推荐与常见问题解答",
-    "titleEn": "NTE Global Server Recharge Guide 2026 — Safe Top-up Methods, Platform Recommendations & FAQ",
+    "titleEn": "NTE Global Top-Up Safety Guide",
     "category": "攻略",
     "categoryZh": "攻略",
     "categoryEn": "Guide",
@@ -1991,7 +2109,7 @@
       "攻略"
     ],
     "summary": "异环国际服怎么充值最安全？本文详细介绍异环国际服充值方法、代充平台选择技巧、充值常见问题及避坑指南，帮助海外玩家安全便捷地为账号充值。",
-    "summaryEn": "How to safely top up in NTE global server? Complete guide covering recharge methods, third-party platform tips, common issues, and scam avoidance for international players.",
+    "summaryEn": "A version-aware global top-up safety guide covering official channels, account protection, payment checks, and refund considerations.",
     "internalLinks": [
       {
         "label": "新手开荒指南",
@@ -2013,8 +2131,11 @@
     "contentEn": "After NTE (Neverness to Everness) launched its global server, many international players face a common question: how do I top up in the global server? The payment methods for the international version differ entirely from the CN server. What channels are supported? Are third-party top-up services safe? What if my purchase doesn't arrive? This guide answers all these questions and helps you find the best recharge method.\n\n## What Recharge Methods Are Available\n\nNTE global server currently supports three main categories of top-up methods:\n\n### 1. Official Channels\n\nOfficial channels are the safest option, but supported payment methods vary by platform:\n\n- **PC (Epic Games Store)**: Credit cards, PayPal, Epic Wallet; some regions support local payment methods\n- **Android (Google Play)**: Google Play balance, credit cards, carrier billing\n- **iOS (App Store)**: Apple ID balance, credit cards\n- **PS5 (PlayStation Store)**: Credit cards, PayPal\n\nThe advantage of official channels is maximum security with zero risk of account issues. The downside is that some international players lack international credit cards or have unsupported local payment methods.\n\n### 2. Third-Party Top-Up Platforms\n\nFor players who find official channels inconvenient, third-party top-up platforms offer an alternative. These platforms typically provide more localized payment options like Alipay and WeChat Pay, making them popular among overseas Chinese players.\n\nWhen choosing a top-up platform, consider these factors:\n\n- **Platform reputation**: Choose platforms with long operating history and positive user reviews\n- **Delivery speed**: Quality platforms typically deliver within 5-30 minutes\n- **Transparent pricing**: Watch out for hidden fees\n- **Customer support**: Ability to handle top-up issues promptly\n- **Security**: Legitimate platforms never ask for your account password\n\n### 3. Gift Cards\n\nSome platforms also support indirect top-up via Google Play or Epic gift cards. This works for players without credit cards, but the process is more cumbersome and exchange rate losses may be higher.\n\n## Common Recharge FAQ\n\n### How Long Does It Take to Arrive\n\n- Official channels: Usually instant, occasionally delayed 1-2 hours\n- Third-party platforms: Legitimate ones deliver within 5-30 minutes\n- If not received after 2 hours, contact the respective channel's customer support\n\n### How Is Pricing and Exchange Rate Calculated\n\nNTE global server prices are listed in USD. Display prices may vary slightly by region due to tax differences. When using third-party platforms, they convert at real-time exchange rates, and some may charge small processing fees.\n\n### Can I Get a Refund After Topping Up\n\n- Official channels: Virtual goods generally cannot be refunded\n- Third-party platforms: Once delivered, refunds are typically not supported\n- Always confirm the amount and server before purchasing\n\n### Will Using Top-Up Services Get My Account Banned\n\nUsing legitimate, reputable top-up platforms will not result in account bans. However:\n\n- Avoid suspiciously cheap services (may use stolen payment methods)\n- Never share your account password with anyone\n- Choose platforms with proper after-sales guarantees\n\n## Recommended Top-Up Options\n\nFor players seeking safe and fast top-up services, choose reputable professional platforms. Good platforms typically feature:\n\n1. Multiple payment methods (Alipay, WeChat Pay, bank cards, etc.)\n2. Transparent pricing with no hidden fees\n3. Fast delivery with dedicated support for issues\n4. No password required — only your UID is needed\n5. Comprehensive after-sales protection\n\nIf you're looking for a reliable top-up service, Kardz is a platform that specializes in NTE global server recharges, supporting Alipay and other payment methods with fast delivery and transparent pricing.\n\n## Important Reminders Before Topping Up\n\nTo ensure a smooth experience, please keep these points in mind:\n\n- **Confirm your server**: Make sure you're topping up for the Global Server, not the CN Server. Accounts and currencies are not shared between servers\n- **Double-check your UID**: Carefully verify your in-game UID before purchasing to avoid sending to the wrong account\n- **Test with a small amount first**: When using a new platform for the first time, try a small top-up to test delivery speed and service quality\n- **Keep receipts**: Save screenshots and order numbers in case you need to contact customer support\n- **Avoid suspiciously low prices**: Prices significantly below market rate likely indicate illegal payment methods, which could result in account bans\n\n## Top-Up Method Comparison\n\n| Method | Delivery Time | Safety | Payment Options |\n|--------|--------------|--------|----------------|\n| Epic Official | Instant - 2hrs | Highest | Credit Card / PayPal |\n| Google Play | Instant - 2hrs | Highest | Credit Card / G Play Balance |\n| App Store | Instant - 2hrs | Highest | Apple ID / Credit Card |\n| Reputable Platform | 5-30 min | High | Alipay / WeChat / Bank Card |\n| Gift Cards | Manual redeem | High | Online purchase |\n\n## Conclusion\n\nTopping up in NTE global server isn't complicated — the key is choosing a safe and reliable channel. If you have an international credit card, official channels are the most straightforward. If you prefer Alipay or WeChat Pay, a reputable third-party platform is your best bet. Regardless of which method you choose, always confirm your server and UID to avoid mistakes.\n\nHope this guide helps. Enjoy your time in the world of NTE!\n\n*Last updated April 30, 2026. Based on launch version. Will be updated as changes occur.*",
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "NTE top up guide global server",
-    "titleTw": "異環國際服充值攻略2026 — 安全充值方法、代充平台推荐與常见問題解答",
-    "summaryTw": "異環國際服怎么充值最安全？本文詳細介绍異環國際服充值方法、代充平台選擇技巧、充值常见問題及避坑指南，幫助海外玩家安全便捷地為账号充值。"
+    "titleTw": "異環國際服充值安全指南",
+    "summaryTw": "整理國際服充值時的安全檢查、官方渠道、帳號保護和退款注意事項；第三方服務與支付方式請以目前平台規則為準。",
+    "contentTw": "## 先選官方渠道\n\n國際服的支付方式會依平台和地區而不同。優先使用遊戲所在平台的官方商店或官方充值入口，確認區服、帳號和金額後再付款。不要因為第三方價格較低就交出密碼或下載未知程式。\n\n## 第三方服務風險\n\n如果所在地無法使用官方支付，先查看服務的公開評價、退款條款和客服方式。合法服務不應要求帳號密碼；仍要注意盜刷、錯誤UID、區服不符和無法退款等風險。首次使用可先用小額測試，並保留訂單和付款記錄。\n\n充值前確認：\n\n- 伺服器是國際服而非國服。\n- UID、角色和充值金額正確。\n- 價格、稅費、到帳時間和退款規則清楚。\n- 不使用來源不明的代充或極低價服務。\n\n付款方式和價格可能隨地區、平台與版本變化，請以目前官方商店和服務條款為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-anime-references-easter-eggs",
@@ -2049,7 +2170,9 @@
     "image": "/images/blog/nte-cinema-cutscene-cat-ear-girl.webp",
     "imageAlt": "NTE anime reference easter eggs",
     "titleTw": "異環動漫致敬彩蛋大全 — 100+動漫梗實锤盘點（言叶之庭/孤独摇滚/JoJo/你的名字）",
-    "summaryTw": "異環被称為「最懂二次元的游戏」，海特洛市隐藏了100+个經典動漫場景复刻、招牌彩蛋和音乐致敬。本文按場景复刻、招牌广告、音乐聯動三大類完整盘點。"
+    "summaryTw": "異環被称為「最懂二次元的游戏」，海特洛市隐藏了100+个經典動漫場景复刻、招牌彩蛋和音乐致敬。本文按場景复刻、招牌广告、音乐聯動三大類完整盘點。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v11-collaboration-preview",
@@ -2085,7 +2208,9 @@
     "image": "/images/blog/nte-driving-motorcycle-two-characters-action.webp",
     "imageAlt": "NTE 1.1 Opera GX collaboration",
     "titleTw": "異環1.1版本聯動前瞻 — Opera GX浏览器 & Beard Papa甜甜圈 & 更多惊喜",
-    "summaryTw": "異環1.1版本預計将迎來Opera GX浏览器聯動和Beard Papa(薄饼叔叔)甜甜圈聯動，更多品牌合作在路上。本文汇總已知聯動情报。"
+    "summaryTw": "異環1.1版本預計将迎來Opera GX浏览器聯動和Beard Papa(薄饼叔叔)甜甜圈聯動，更多品牌合作在路上。本文汇總已知聯動情报。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "day-one-beginner-guide",
@@ -2119,7 +2244,9 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE day one beginner guide",
     "titleTw": "異環公測第一天開荒指南 — 零氪新手必看清單",
-    "summaryTw": "異環公測第一天完整開荒路线，包含新手必做任務、抽卡建议、資源規劃和配隊推荐。"
+    "summaryTw": "異環公測第一天完整開荒路线，包含新手必做任務、抽卡建议、資源規劃和配隊推荐。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-collaborations",
@@ -2158,7 +2285,9 @@
     "image": "/images/blog/nte-driving-motorcycle-night-city-street.webp",
     "imageAlt": "NTE launch collaborations",
     "titleTw": "異環公測聯動大全 — 保時捷/P5/MyGO/孤独摇滚全汇總",
-    "summaryTw": "異環公測版本全聯動合作伙伴汇總：保時捷正版授权車輛、P5音乐聯動、MyGO翻唱聯動、孤独摇滚場景彩蛋，以及雷蛇/苹果/罗森等品牌合作。"
+    "summaryTw": "異環公測版本全聯動合作伙伴汇總：保時捷正版授权車輛、P5音乐聯動、MyGO翻唱聯動、孤独摇滚場景彩蛋，以及雷蛇/苹果/罗森等品牌合作。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-day-one-checklist",
@@ -2203,7 +2332,9 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE first day checklist",
     "titleTw": "異環公測首日必做清單：開服第一天完整攻略",
-    "summaryTw": "異環4月23日國服公測、4月29日全球服上线。本篇首日清單按優先級覆盖兌換碼领取、新手池六選一、常驻池自選、限定池抽卡、都市大亨拿小吱等全部必做事项，助你高效開荒贏在起跑线。"
+    "summaryTw": "異環4月23日國服公測、4月29日全球服上线。本篇首日清單按優先級覆盖兌換碼领取、新手池六選一、常驻池自選、限定池抽卡、都市大亨拿小吱等全部必做事项，助你高效開荒贏在起跑线。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-vs-genshin-vs-wuthering-waves",
@@ -2243,7 +2374,9 @@
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE vs Genshin vs Wuthering Waves comparison",
     "titleTw": "異環 vs 原神 vs 鸣潮：2025年最佳開放世界二次元游戏對比",
-    "summaryTw": "從戰斗系統、開放世界、角色养成、抽卡机制等多维度深度對比異環、原神和鸣潮，幫助玩家找到最適合自己的游戏。"
+    "summaryTw": "從戰斗系統、開放世界、角色养成、抽卡机制等多维度深度對比異環、原神和鸣潮，幫助玩家找到最適合自己的游戏。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-cbt-review",
@@ -2282,7 +2415,9 @@
     "image": "/images/blog/nte-character-illustration-artwork.webp",
     "imageAlt": "NTE CBT review",
     "titleTw": "異環CBT測試深度評測：次世代二次元開放世界的新标杆？",
-    "summaryTw": "基于異環封閉測試的實際體驗，從画面、戰斗、剧情、探索等方面給出全面評測，分析游戏優劣勢及公測前景。"
+    "summaryTw": "基于異環封閉測試的實際體驗，從画面、戰斗、剧情、探索等方面給出全面評測，分析游戏優劣勢及公測前景。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-pre-launch-guide",
@@ -2321,7 +2456,9 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE pre-launch guide",
     "titleTw": "異環公測前必看指南：開服第一天该做什么",
-    "summaryTw": "公測倒計時！這份指南覆盖開服當天的優先級安排、資源分配、角色選擇和推圖策略，幫你贏在起跑线。"
+    "summaryTw": "公測倒計時！這份指南覆盖開服當天的優先級安排、資源分配、角色選擇和推圖策略，幫你贏在起跑线。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-all-characters-overview",
@@ -2360,7 +2497,9 @@
     "image": "/images/blog/nte-character-illustration-artwork.webp",
     "imageAlt": "NTE all characters overview",
     "titleTw": "異環全角色一览：38位角色属性、技能、定位詳解",
-    "summaryTw": "異環全部38位角色詳細介绍，包含属性、武器類型、戰斗定位、S/A級評級，以及各角色的核心玩法分析。"
+    "summaryTw": "異環全部38位角色詳細介绍，包含属性、武器類型、戰斗定位、S/A級評級，以及各角色的核心玩法分析。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-gacha-system-explained",
@@ -2404,7 +2543,9 @@
     "image": "/images/blog/nte-ui-weapon-shop-interface.webp",
     "imageAlt": "NTE gacha system explained",
     "titleTw": "異環抽卡系統詳解：保底机制、概率分析與最優抽卡策略",
-    "summaryTw": "全面解析異環的抽卡机制，包含大小保底規則、概率分布、資源規劃建议，以及如何最大化每抽的价值。"
+    "summaryTw": "全面解析異環的抽卡机制，包含大小保底規則、概率分布、資源規劃建议，以及如何最大化每抽的价值。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-open-world-exploration-guide",
@@ -2443,7 +2584,10 @@
     "image": "/images/blog/nte-world-tropical-village-red-dress-character.webp",
     "imageAlt": "NTE open world exploration guide",
     "titleTw": "異環開放世界探索指南：隐藏宝箱、解谜與高效跑圖路线",
-    "summaryTw": "異環開放世界全区域探索攻略，涵盖隐藏宝箱位置、解谜技巧、传送點解锁路线和每日探索效率優化方案。"
+    "summaryTw": "異環開放世界全区域探索攻略，涵盖隐藏宝箱位置、解谜技巧、传送點解锁路线和每日探索效率優化方案。",
+    "contentTw": "## 當前探索思路\n\n異環探索不必一開始就追求100%。先開傳送點，再拿主線路上的高價值寶箱、收集品和解鎖內容，最後才回頭清理長路線和低價值謎題。\n\n## 建議順序\n\n1. 推進主線並開啟核心傳送點。\n2. 收集主線附近的高價值獎勵。\n3. 用互動地圖標記暫時無法取得的點位。\n4. 將探索與當前材料、活動和角色養成路線結合。\n5. 新區域先打通路線，再做完整收集。\n\n版本新增區域、活動獎勵和標記數量可能變化，請以目前地圖和客戶端為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-version-1-0-update",
@@ -2482,7 +2626,9 @@
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE 1.0 version update",
     "titleTw": "異環1.0版本更新内容全汇總：新角色、新活動、系統改動",
-    "summaryTw": "異環1.0版本全面更新内容汇總，包含新角色、新武器、新活動、系統優化和平衡調整等所有变更。"
+    "summaryTw": "異環1.0版本全面更新内容汇總，包含新角色、新武器、新活動、系統優化和平衡調整等所有变更。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-best-settings-guide",
@@ -2521,7 +2667,10 @@
     "image": "/images/blog/nte-driving-tunnel-first-person-dashboard.webp",
     "imageAlt": "NTE settings optimization guide",
     "titleTw": "異環最佳設置優化指南：画質、帧率、操控全面調優",
-    "summaryTw": "異環画質與性能優化完全指南，覆盖PC和移動端的最佳画面設置、帧率優化方案和操控灵敏度調整建议。"
+    "summaryTw": "異環画質與性能優化完全指南，覆盖PC和移動端的最佳画面設置、帧率優化方案和操控灵敏度調整建议。",
+    "contentTw": "## 設定原則\n\n畫質設定應以穩定幀率、溫度和操作延遲為優先。不同設備和版本表現不同，以下只作起點，調整後應在實際戰鬥和探索中測試。\n\n- 高階PC可先使用高畫質和60FPS，再逐項調低陰影、後處理和特效。\n- 中階設備優先降低渲染精度、陰影和特效，保持穩定幀率。\n- 手機發熱或掉幀時，先降到中低畫質和30FPS，避免充電時長時間遊玩。\n- 關閉不必要的背景程式，更新驅動和系統，並保留足夠儲存空間。\n- 若出現撕裂、卡頓或輸入延遲，逐項測試VSync、幀率上限和渲染設定。\n\n每次大型更新後都應重新檢查設定；文章中的設備分級不代表目前官方性能保證。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-tier-list-1-0",
@@ -2561,7 +2710,9 @@
     "image": "/images/blog/nte-character-kafka-pink-cat-ears.webp",
     "imageAlt": "NTE 1.0 character tier list",
     "titleTw": "異環1.0角色強度榜：全角色Tier分級與培养優先級推荐",
-    "summaryTw": "異環1.0版本全38位角色強度評級，按SS/S/A/B分級，涵盖主C、副C、輔助、防護各定位的最佳角色推荐與培养優先級。"
+    "summaryTw": "異環1.0版本全38位角色強度評級，按SS/S/A/B分級，涵盖主C、副C、輔助、防護各定位的最佳角色推荐與培养優先級。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-6-choose-1",
@@ -2606,7 +2757,9 @@
     "image": "/images/blog/nte-character-design-sheet-cat-ears.webp",
     "imageAlt": "NTE 6-pick-1 selector guide",
     "titleTw": "異環開服6選1完全指南：公測首个S級角色選谁最值？",
-    "summaryTw": "異環公測開服贈送S級自選角色券，6選1到底選谁？從輸出、支援、防護、輔助四大定位詳細分析每位候選角色的優劣勢，幫你做出最優選擇。"
+    "summaryTw": "異環公測開服贈送S級自選角色券，6選1到底選谁？從輸出、支援、防護、輔助四大定位詳細分析每位候選角色的優劣勢，幫你做出最優選擇。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-livestream-summary",
@@ -2657,7 +2810,9 @@
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE 4.18 livestream summary",
     "titleTw": "異環4.18前瞻直播全内容汇總：6个兌換碼、無50/50抽卡确认、16位上线角色",
-    "summaryTw": "異環公測前瞻特别節目4月18日完整汇總：6个兌換碼、抽卡無50/50机制确认、16位上线角色名單、418免費抽、預下載4月21日、測試服150%返還等全部信息。"
+    "summaryTw": "異環公測前瞻特别節目4月18日完整汇總：6个兌換碼、抽卡無50/50机制确认、16位上线角色名單、418免費抽、預下載4月21日、測試服150%返還等全部信息。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-gacha-no-5050",
@@ -2707,7 +2862,9 @@
     "image": "/images/blog/nte-ui-weapon-shop-interface.webp",
     "imageAlt": "NTE gacha pity ultimate guide",
     "titleTw": "異環抽卡终极指南（公測确认版）：無50/50、90抽保底、新手20抽自選全解析",
-    "summaryTw": "公測前瞻直播确认：異環抽卡没有50/50机制！限定池90抽保底、新手池20抽自選S級、常驻池50抽自選S級。本文全面解析四種卡池規則、概率分布、資源規劃建议。"
+    "summaryTw": "公測前瞻直播确认：異環抽卡没有50/50机制！限定池90抽保底、新手池20抽自選S級、常驻池50抽自選S級。本文全面解析四種卡池規則、概率分布、資源規劃建议。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-free-pulls-breakdown",
@@ -2752,7 +2909,9 @@
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "NTE 418 free pulls guide",
     "titleTw": "異環開服418免費抽全來源分解：零氪玩家最大福利指南",
-    "summaryTw": "異環公測提供約418次免費祈愿机会，本文詳細分解每一來源，幫助玩家合理規劃資源。"
+    "summaryTw": "異環公測提供約418次免費祈愿机会，本文詳細分解每一來源，幫助玩家合理規劃資源。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-pre-download-day-one",
@@ -2797,7 +2956,9 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE pre-download and day one guide",
     "titleTw": "異環預下載開启！Day 1 新手必看攻略與首日清單",
-    "summaryTw": "異環4月21日開放預下載，4月23日國服正式公測。本文提供完整的預下載指南和開服首日必做清單。"
+    "summaryTw": "異環4月21日開放預下載，4月23日國服正式公測。本文提供完整的預下載指南和開服首日必做清單。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-new-features",
@@ -2845,7 +3006,9 @@
     "image": "/images/blog/nte-driving-motorcycle-night-city-street.webp",
     "imageAlt": "NTE new features city tycoon housing driving",
     "titleTw": "異環公測五大新功能深度解析：都市大亨、房屋系統、駕駛、粉爪聯机、监狱玩法全攻略",
-    "summaryTw": "異環公測前瞻直播确认五大全新玩法系統：都市大亨可免費獲得S級角色小吱、房屋系統自由装修、駕駛系統畅游都市、粉爪聯机合作模式、监狱系統独特體驗。本文深度解析每个功能的玩法机制與奖励。"
+    "summaryTw": "異環公測前瞻直播确认五大全新玩法系統：都市大亨可免費獲得S級角色小吱、房屋系統自由装修、駕駛系統畅游都市、粉爪聯机合作模式、监狱系統独特體驗。本文深度解析每个功能的玩法机制與奖励。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-stamina-week-1-plan",
@@ -2886,7 +3049,9 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE stamina planning guide",
     "titleTw": "異環公測首周體力規劃：開荒效率最大化指南",
-    "summaryTw": "異環公測首周七天體力分配攻略，涵盖首期限定娜娜莉材料刷取、新手自選推荐、都市大亨解锁優先級，幫你用有限體力實現開荒效率最大化。"
+    "summaryTw": "異環公測首周七天體力分配攻略，涵盖首期限定娜娜莉材料刷取、新手自選推荐、都市大亨解锁優先級，幫你用有限體力實現開荒效率最大化。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-collapse-ring-fusion-guide",
@@ -2926,7 +3091,10 @@
     "image": "/images/blog/nte-character-white-hair-energy-sword.webp",
     "imageAlt": "NTE combat mechanics explained",
     "titleTw": "異環倾陷值與環合系統完全解析：掌握戰斗核心机制",
-    "summaryTw": "深度解析異環核心戰斗系統：倾陷值破盾机制、六大属性環合反應、Esper Cycle循環與配隊思路，助你從零掌握高階戰斗。"
+    "summaryTw": "深度解析異環核心戰斗系統：倾陷值破盾机制、六大属性環合反應、Esper Cycle循環與配隊思路，助你從零掌握高階戰斗。",
+    "contentTw": "## 戰鬥機制概覽\n\n異環戰鬥由破韌、異能循環和環合反應共同構成。攻擊、技能、閃避和彈反會影響量表與敵人的破韌進度；敵人進入崩解或硬直狀態後，是集中爆發技能的主要窗口。\n\n六種屬性之間存在相鄰關係，隊伍應圍繞可觸發的雙人或三人反應組建。普攻維持節奏，技能加快破韌和量表累積，成功彈反後再切換角色觸發反應。\n\n## 配隊原則\n\n- 新手可先使用容易維持的兩屬性反應核心。\n- Boss隊伍要同時考慮破韌效率、支援循環和生存能力。\n- 不要只追求屬性反應，第四個位置應補足隊伍弱點。\n- 本文部分數值和測試資料可能已過時，技能與反應效果以目前客戶端為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v10-launch-events",
@@ -2973,7 +3141,9 @@
     "image": "/images/blog/nte-cherry-blossom-hilltop-starry-night.webp",
     "imageAlt": "NTE launch events",
     "titleTw": "異環1.0公測首發活動全汇總 — 限時福利不容错過",
-    "summaryTw": "異環1.0公測已正式上线，首發期間海量福利活動同步開启。從預注册奖励、签到活動到限時副本，一文汇總所有公測首發活動及奖励内容。"
+    "summaryTw": "異環1.0公測已正式上线，首發期間海量福利活動同步開启。從預注册奖励、签到活動到限時副本，一文汇總所有公測首發活動及奖励内容。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-p5r-tof-music-collab",
@@ -3015,12 +3185,14 @@
     "image": "/images/blog/nte-cinema-scene-turquoise-girl.webp",
     "imageAlt": "NTE P5R music collaboration",
     "titleTw": "異環 x P5R x 幻塔音乐聯動詳解 — 發售預告片Play On!發布",
-    "summaryTw": "異環在發售前夕公布了與P5R、P5X和幻塔的音乐聯動合作，同時發布發售預告片Play On!。本文詳解聯動内容和参與方式。"
+    "summaryTw": "異環在發售前夕公布了與P5R、P5X和幻塔的音乐聯動合作，同時發布發售預告片Play On!。本文詳解聯動内容和参與方式。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-global-launch-guide",
     "title": "异环全球服上线完全指南（2026年4月29日）— 下载、注册、抽卡与首日攻略",
-    "titleEn": "NTE Global Launch Complete Guide (April 29, 2026) — Download, Registration, Gacha & Day-One Tips",
+    "titleEn": "NTE Global Launch Reference: Platforms, Accounts, and Beginner Checks",
     "category": "上线资讯",
     "categoryZh": "上线资讯",
     "categoryEn": "Launch News",
@@ -3037,7 +3209,7 @@
       "launch"
     ],
     "summary": "异环全球服将于2026年4月29日上线，支持PC/PS5/iOS/Android多平台。本指南覆盖下载安装、账号注册、470+免费抽卡、角色推荐、兑换码、配置要求等所有国际服玩家必备信息。",
-    "summaryEn": "NTE global server launches April 29, 2026 on PC/PS5/iOS/Android. Complete guide covering downloads, registration, 470+ free pulls, character recommendations, redeem codes, system specs, and day-one tips.",
+    "summaryEn": "A historical global-launch reference covering platforms, account separation, download checks, and beginner priorities.",
     "internalLinks": [
       {
         "href": "/guides/download-install-guide",
@@ -3076,8 +3248,11 @@
     "seoDescriptionEn": "NTE global server launched April 29, 2026. Step-by-step download guide for PC, iOS, Android, PS5. Server regions, account setup, and day-one tips included.",
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE global server launch guide",
-    "titleTw": "異環全球服上线完全指南（2026年4月29日）— 下載、注册、抽卡與首日攻略",
-    "summaryTw": "異環全球服将于2026年4月29日上线，支持PC/PS5/iOS/Android多平台。本指南覆盖下載安装、账号注册、470+免費抽卡、角色推荐、兌換碼、配置要求等所有國際服玩家必備信息。"
+    "titleTw": "異環國際服上線指南：平台、帳號與新手檢查",
+    "summaryTw": "整理國際服平台、帳號區隔、下載前檢查和新手起步順序；舊日期、兌換碼和獎勵數字不代表目前版本。",
+    "contentTw": "## 文章狀態\n\n本文記錄2026年4月國際服上線時的資訊。下載容量、平台支援、卡池、兌換碼和獎勵會隨版本改變，現在請以官方網站、平台商店和遊戲內公告為準。\n\n## 下載與帳號\n\n- 只從官方網站、Steam、Epic、App Store、Google Play或PlayStation Store下載。\n- 國際服和國服應視為不同區服，安裝前先確認好友、支付和帳號區域。\n- 連結同一帳號前，確認平台支援和目前的跨平台規則。\n- 預留比初始下載更大的磁碟空間，並為更新保留餘量。\n\n## 新手順序\n\n先完成教學和主線，解鎖每日內容，再按目前卡池規則使用新手抽卡。不要把文章中的舊免費抽數、角色排名或兌換碼當作目前承諾。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-review",
@@ -3123,7 +3298,9 @@
     "image": "/images/blog/nte-character-illustration-artwork.webp",
     "imageAlt": "NTE official review",
     "titleTw": "異環公測正式評測 — 都市超自然開放世界的惊艳首秀",
-    "summaryTw": "異環于4月23日正式公測。作為Hotta Studio继幻塔后的新作，這款超自然都市開放世界RPG交出了一份令人滿意的答卷。本篇評測從画面、戰斗、剧情、抽卡等多维度全面點評。"
+    "summaryTw": "異環于4月23日正式公測。作為Hotta Studio继幻塔后的新作，這款超自然都市開放世界RPG交出了一份令人滿意的答卷。本篇評測從画面、戰斗、剧情、抽卡等多维度全面點評。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-compensation-guide",
@@ -3158,7 +3335,9 @@
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "NTE compensation rewards",
     "titleTw": "異環公測補償汇總 — 累計2400環石领取攻略（持續更新）",
-    "summaryTw": "異環公測以來官方已發布多次補償，累計超過2400環石。本文汇總所有補償的领取條件和注意事项。"
+    "summaryTw": "異環公測以來官方已發布多次補償，累計超過2400環石。本文汇總所有補償的领取條件和注意事项。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-alipay-qualcomm-collab-guide",
@@ -3193,12 +3372,14 @@
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "NTE Alipay Snapdragon collaboration",
     "titleTw": "異環支付宝×骁龙聯動攻略 — 限定周邊+游戏福利领取指南",
-    "summaryTw": "異環公測期間與支付宝、骁龙等多品牌聯動，含限定周邊和游戏福利。本文汇總所有聯動内容及领取方式。"
+    "summaryTw": "異環公測期間與支付宝、骁龙等多品牌聯動，含限定周邊和游戏福利。本文汇總所有聯動内容及领取方式。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-global-launch-live-guide",
     "title": "异环全球服上线实测指南 — 4月29日全平台互通/下载/注意事项",
-    "titleEn": "NTE Global Launch Live Guide — April 29 Cross-Platform & Download Tips",
+    "titleEn": "NTE Global Launch Reference: Platform and Account Checks",
     "category": "上线资讯",
     "categoryZh": "上线资讯",
     "categoryEn": "Launch News",
@@ -3210,7 +3391,7 @@
       "跨平台"
     ],
     "summary": "异环全球服4月29日正式上线，支持PC/PS5/iOS/Android/Mac全平台互通。本文提供实测下载指南和首发攻略。",
-    "summaryEn": "NTE global server launches April 29 with full cross-platform play across PC, PS5, iOS, Android, and Mac. Complete download guide, cross-play setup, and day-one tips.",
+    "summaryEn": "A historical global-launch reference for platform, account, download, and first-day checks.",
     "internalLinks": [
       {
         "label": "下载安装指南",
@@ -3232,8 +3413,11 @@
     "contentEn": "NTE global server launches April 29! Here's everything you need.\n\n## Launch Info\n\n- Date: April 29, 2026 | Platforms: PC/PS5/iOS/Android/Mac\n- Full cross-platform: Progress, characters, currency shared\n\n## Downloads\n\n- PC: yh.wanmei.com (~40-60GB, SSD recommended)\n- PS5: PlayStation Store (PS5 Pro enhanced)\n- iOS: App Store (iPhone XS min, 12+ recommended)\n- Android: Google Play (SD845 min, 865+ recommended)\n\n## Cross-Platform\n\nOne account, all platforms. Real-time sync. PS5 requires account linking.\n\n## Day-One Checklist\n\n1. Tutorial (~30 min) 2. Pre-reg rewards 3. Redeem codes 4. 20 beginner pulls (free S-rank) 5. Start main story\n\n## Notes\n\nGlobal and CN servers separate. Expect congestion. Lower mobile graphics for stability. \n\n---\n\n## Global Server Launch Day — What to Expect\n\n### Server Status (April 29, 2026)\nNTE launched globally on April 29, 2026 across PC, iOS, Android, PS5, Mac, and HarmonyOS. Here's what to know:\n\n### Download Options\n| Platform | Size | Where |\n|----------|------|-------|\n| PC | ~45GB | Official site / Steam |\n| iOS | ~18GB | App Store |\n| Android | ~18GB | Google Play / APK |\n| PS5 | ~50GB | PlayStation Store |\n\n### Cross-Platform Play\n- **Yes!** All platforms share the same servers\n- Progress syncs across devices linked to the same account\n- Co-op works across all platforms\n\n### Known Launch Issues\n1. **Login queues** — Expected 5-15 min wait during peak hours\n2. **Mobile performance** — Reduce graphics settings if experiencing lag\n3. **Voice chat** — May not work on all platforms at launch\n4. **Pre-download bonus** — Make sure to claim your pre-download rewards\n\n### Day One Priority List\n1. Redeem all active codes → Get 100K+ Fons\n2. Complete tutorial → Unlock Mint + Zero\n3. Beginner Wish 20 pulls → Guaranteed S-rank\n4. Push main story to Chapter 2 → Unlock features\n5. Explore city for Fons → Collect ~500K Fons",
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE global server launch test",
-    "titleTw": "異環全球服上线實測指南 — 4月29日全平台互通/下載/注意事项",
-    "summaryTw": "異環全球服4月29日正式上线，支持PC/PS5/iOS/Android/Mac全平台互通。本文提供實測下載指南和首發攻略。"
+    "titleTw": "異環國際服上線歷史記錄與平台檢查",
+    "summaryTw": "保留國際服首日下載、跨平台和常見問題的歷史記錄；目前平台支援和容量請以官方頁面為準。",
+    "contentTw": "## 歷史記錄說明\n\n本頁記錄2026年4月29日國際服上線時的下載、平台和首日問題。容量、設備要求、語音、伺服器狀態和跨平台規則可能已經更新，不能直接當作目前公告。\n\n## 現在的通用檢查\n\n1. 從官方平台頁下載並確認區服。\n2. 使用同一帳號登入，檢查是否完成平台連結。\n3. 安裝前確認剩餘空間、系統版本和網路。\n4. 遇到排隊、閃退或掉幀時，先更新、降低畫質和重啟。\n5. 若仍然失敗，記下錯誤碼與設備資訊並聯絡官方支援。\n\n舊版首日兌換碼、容量和獎勵數字已不應視為目前有效資訊。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v11-preview",
@@ -3269,7 +3453,9 @@
     "image": "/images/blog/nte-character-mint-green-hair-horns-portrait.webp",
     "imageAlt": "NTE 1.1 preview new characters",
     "titleTw": "異環1.1版本前瞻 — 新角色翳/呗果/哈尼娅 + Opera GX聯動",
-    "summaryTw": "異環1.1版本前瞻：新角色翳（近戰主C）、呗果、哈尼娅（免費送），Opera GX和Beard Papa聯動詳情。"
+    "summaryTw": "異環1.1版本前瞻：新角色翳（近戰主C）、呗果、哈尼娅（免費送），Opera GX和Beard Papa聯動詳情。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-launch-deep-review",
@@ -3309,7 +3495,9 @@
     "image": "/images/blog/nte-character-illustration-artwork.webp",
     "imageAlt": "NTE deep review 8.5 score",
     "titleTw": "異環公測深度評測 — 8.5分诚意之作，但有明显短板",
-    "summaryTw": "公測4天后深度評測：画面8.5、戰斗8.5、開放世界8、抽卡9.5，但移動端優化和玩法创新是主要短板。"
+    "summaryTw": "公測4天后深度評測：画面8.5、戰斗8.5、開放世界8、抽卡9.5，但移動端優化和玩法创新是主要短板。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-global-launch-day-one",
@@ -3361,7 +3549,9 @@
     "image": "/images/blog/nte-promotional-welcome-key-art.webp",
     "imageAlt": "NTE global launch day one record",
     "titleTw": "異環國際服4月29日全球公測首日完全记录：3000万預注册、480+免費抽、新兌換碼汇總",
-    "summaryTw": "異環（Neverness to Everness）國際服于2026年4月29日正式公測，全球預注册突破3000万。公測福利升級至480+免費抽卡，新增兌換碼NTEGIFT和NTEHAVEFUN。本文汇總首日實測数据、開服問題及解决方案、新手必做清單。"
+    "summaryTw": "異環（Neverness to Everness）國際服于2026年4月29日正式公測，全球預注册突破3000万。公測福利升級至480+免費抽卡，新增兌換碼NTEGIFT和NTEHAVEFUN。本文汇總首日實測数据、開服問題及解决方案、新手必做清單。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-material-farming-guide",
@@ -3411,7 +3601,10 @@
     "image": "/images/blog/nte-gameplay-resort-reception-npc-interaction.webp",
     "imageAlt": "NTE materials farming guide",
     "titleTw": "異環材料刷取完全指南 — 角色突破/Boss掉落/弧光突破材料高效獲取路线",
-    "summaryTw": "全面梳理異環公測版57種材料的獲取方式，包括角色突破材料（4系x3階）、Boss掉落（7个異常體讨伐）、弧光突破材料（5系x3階）、货币系統等。附每日體力分配建议和刷取優先級。"
+    "summaryTw": "全面梳理異環公測版57種材料的獲取方式，包括角色突破材料（4系x3階）、Boss掉落（7个異常體讨伐）、弧光突破材料（5系x3階）、货币系統等。附每日體力分配建议和刷取優先級。",
+    "contentTw": "## 材料刷取原則\n\n材料來源和掉落效率會隨版本、角色和副本變動。刷取前先在角色與材料規劃器確認實際需求，不要提前大量囤積暫時用不到的材料。\n\n## 建議優先級\n\n1. 主力角色突破材料。\n2. 週限或有次數限制的Boss材料。\n3. 主力武器和弧盤升級材料。\n4. 經驗與通用貨幣。\n5. 第二隊和備用角色的材料。\n\n活動雙倍、限時商店和版本活動通常應優先於低效率常駐刷取。具體副本開放日、數量和合成比例以目前遊戲內資料為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-best-disk-sets-guide",
@@ -3451,7 +3644,10 @@
     "image": "/images/blog/nte-character-blue-black-hair-dessert.webp",
     "imageAlt": "NTE arc disk sets guide",
     "titleTw": "異環弧盘（卡带）選擇完全攻略 — 12套弧盘效果解析與角色搭配推荐",
-    "summaryTw": "詳解異環12套弧盘（6元素专属+6通用）的2件套和4件套效果，针對每个角色推荐最佳弧盘搭配方案。新手必读的弧盘系統入門指南。"
+    "summaryTw": "詳解異環12套弧盘（6元素专属+6通用）的2件套和4件套效果，针對每个角色推荐最佳弧盘搭配方案。新手必读的弧盘系統入門指南。",
+    "contentTw": "## 弧盤選擇原則\n\n弧盤是角色裝備系統。前期不必為完美副詞條消耗大量資源，先確保主屬性正確，再按角色定位選擇套裝。\n\n- 主C優先傷害主屬性和可觸發的套裝效果。\n- 副C可使用2+2過渡，先滿足循環與傷害需求。\n- 治療、增益和生存位應優先保證技能覆蓋與生存。\n- 低等級弧盤只作過渡，不要在早期大量強化。\n\n套裝名稱、效果和數值可能隨版本調整，請以目前弧盤資料和角色頁為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-porsche-collaboration",
@@ -3512,7 +3708,9 @@
     "image": "/images/blog/nte-driving-tunnel-first-person-dashboard.webp",
     "imageAlt": "NTE Porsche collaboration vehicle",
     "titleTw": "異環x保時捷聯動全解析：限定載具、专属涂装與活動詳情",
-    "summaryTw": "異環與保時捷展開品牌聯動，推出游戏内限定保時捷載具及专属涂装自定義系統。本次聯動展現了異環将真實世界品牌融入都市開放世界的野心，玩家可通過限時活動獲取聯動載具。本文詳解聯動内容、載具獲取方式、涂装自定義及活動攻略。"
+    "summaryTw": "異環與保時捷展開品牌聯動，推出游戏内限定保時捷載具及专属涂装自定義系統。本次聯動展現了異環将真實世界品牌融入都市開放世界的野心，玩家可通過限時活動獲取聯動載具。本文詳解聯動内容、載具獲取方式、涂装自定義及活動攻略。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-f2p-complete-resource-guide",
@@ -3565,7 +3763,10 @@
     "image": "/images/blog/nte-supermarket-scene-gameplay.webp",
     "imageAlt": "NTE F2P resource planning guide",
     "titleTw": "異環零氪完全資源規劃指南：免費抽数、體力分配與角色獲取優先級（2026年5月）",
-    "summaryTw": "異環到底有多零氪友好？本文汇總所有免費資源獲取途径：每日/每周/活動可獲得的原石與抽卡券数量、體力最優分配方案、免費S級角色獲取路线，以及零氪玩家的抽卡優先級建议。"
+    "summaryTw": "異環到底有多零氪友好？本文汇總所有免費資源獲取途径：每日/每周/活動可獲得的原石與抽卡券数量、體力最優分配方案、免費S級角色獲取路线，以及零氪玩家的抽卡優先級建议。",
+    "contentTw": "## 零氪資源規劃\n\n這是一篇早期版本的零氪資源指南。活動、兌換碼、角色和材料效率會隨版本變化，當前資源應按遊戲內可確認內容重新計算。\n\n## 通用原則\n\n- 優先培養一支可用主隊，不要平均投資所有角色。\n- 先滿足主C等級、武器和關鍵技能，再補第二隊。\n- 活動限時獎勵和可兌換抽卡資源通常優先於常駐清理。\n- 抽卡只使用已獲得或官方確認會在截止日前取得的資源。\n- 角色本體優先於專屬武器、弧盤和追加命座。\n\n請用目前版本的材料規劃器和客戶端活動頁更新數字。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-gacha-pity-system-complete-guide",
@@ -3612,7 +3813,10 @@
     "image": "/images/blog/nte-ui-weapon-shop-interface.webp",
     "imageAlt": "NTE gacha pity system explained",
     "titleTw": "異環抽卡保底机制完全解析：無50/50、保底继承、硬软保底詳解（2026年5月）",
-    "summaryTw": "異環的抽卡系統和其他二次元手游有什么不同？本文詳解異環無50/50机制、保底抽数、保底继承規則、各類型卡池的保底差異，以及如何最大化你的抽卡效率。"
+    "summaryTw": "異環的抽卡系統和其他二次元手游有什么不同？本文詳解異環無50/50机制、保底抽数、保底继承規則、各類型卡池的保底差異，以及如何最大化你的抽卡效率。",
+    "contentTw": "## 目前應如何使用這篇文章\n\n本文記錄公測早期的抽卡保底說明。抽卡規則可能按卡池和版本變化，固定的無50/50、90抽或其他數字不能脫離目前卡池說明使用。\n\n## 抽卡前檢查\n\n1. 查看當前卡池的概率、保底、UP規則和結束時間。\n2. 記錄目前抽數、可用抽數和已確認的活動資源。\n3. 不把未確認的未來福利或社群預測計入預算。\n4. 先規劃角色本體和基本養成，再考慮額外投入。\n\n如果本文與遊戲內當前說明不同，應以客戶端和官方公告為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-daily-weekly-task-efficiency-guide",
@@ -3655,7 +3859,10 @@
     "image": "/images/blog/nte-gameplay-resort-staff-slow-walk.webp",
     "imageAlt": "NTE daily weekly tasks guide",
     "titleTw": "異環每日/每周任務效率指南：最小化肝度、最大化收益的日常路线（2026年5月）",
-    "summaryTw": "異環每天要做什么？每周哪些必做？本文整理最高效的日常路线規劃，幫你在15-20分钟内完成所有每日必做，以及每周核心任務清單。"
+    "summaryTw": "異環每天要做什么？每周哪些必做？本文整理最高效的日常路线規劃，幫你在15-20分钟内完成所有每日必做，以及每周核心任務清單。",
+    "contentTw": "## 日常路線\n\n日常效率的核心是避免體力溢出，先完成限時和週限內容，再處理常駐收集。舊文章中的任務數量、獎勵和時間可能已經改變。\n\n建議順序：登入領取獎勵、查看活動和兌換碼、完成當日任務、消耗體力、收取城市大亨收益，最後處理探索或常駐內容。\n\n## 每週檢查\n\n- 週限Boss和有折扣的挑戰。\n- 限時活動與活動商店。\n- 週常任務和可領取獎勵。\n- 角色、武器和弧盤的材料缺口。\n\n按自己的時間選擇休閒或完整路線，不必為了過時的固定時長勉強完成所有內容。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-racing-driving-complete-guide",
@@ -3697,7 +3904,10 @@
     "image": "/images/blog/nte-driving-motorcycle-two-characters-action.webp",
     "imageAlt": "NTE driving and racing guide",
     "titleTw": "異環賽車駕駛完全攻略：車輛獲取、賽車玩法、保時捷聯動與駕駛技巧（2026年5月）",
-    "summaryTw": "異環的賽車駕駛系統是区别于其他二次元手游的核心特色。本文詳解所有車輛獲取方式、賽車玩法机制、保時捷聯動活動、駕駛技巧和車輛改装系統。"
+    "summaryTw": "異環的賽車駕駛系統是区别于其他二次元手游的核心特色。本文詳解所有車輛獲取方式、賽車玩法机制、保時捷聯動活動、駕駛技巧和車輛改装系統。",
+    "contentTw": "## 文章狀態\n\n本頁整理1.1時期的駕駛、賽車和保時捷聯動內容。活動獎勵、車輛取得方式和賽道開放狀態可能已經改變，請以目前活動頁和車庫資料為準。\n\n## 通用駕駛建議\n\n- 先熟悉煞車點和彎道，再追求最高速度。\n- 按賽道和車輛特性調整加速、轉向和漂移習慣。\n- 限時聯動獎勵應優先完成，常駐內容可稍後處理。\n- 不要把舊活動的車輛價格或兌換條件當成目前數值。\n\n本頁適合回顧玩法和操作思路，不保證目前活動仍按同一規則運作。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-city-tycoon-complete-guide",
@@ -3739,7 +3949,10 @@
     "image": "/images/blog/nte-character-pink-buns-mouse-plush-portrait.webp",
     "imageAlt": "NTE city tycoon Chiz guide",
     "titleTw": "異環都市大亨完全攻略：小吱獲取、收益最大化與快速通關技巧（2026年5月）",
-    "summaryTw": "都市大亨是異環中最重要的副玩法之一——通過它可以免費獲取T0角色小吱（含全部觉醒材料）。本文詳解都市大亨的完整机制、收益路线、快速通關策略和小吱獲取時間表。"
+    "summaryTw": "都市大亨是異環中最重要的副玩法之一——通過它可以免費獲取T0角色小吱（含全部觉醒材料）。本文詳解都市大亨的完整机制、收益路线、快速通關策略和小吱獲取時間表。",
+    "contentTw": "## 城市大亨用途\n\n城市大亨是城市經營和被動收入系統，也可能提供角色、養成材料和外觀獎勵。獎勵條件、角色取得方式和完成時間應以目前系統頁面為準，舊文章的「必須」「T0」等結論不代表當前強度。\n\n## 建議玩法\n\n1. 先解鎖系統並完成教學。\n2. 優先升級能增加長期收益或解鎖進度的項目。\n3. 每次登入收取被動收入並查看可完成任務。\n4. 限時加成期間優先處理對應內容。\n5. 家具和裝飾放在主要收益與角色獎勵之後。\n\n把城市大亨當作穩定的長期資源來源，不要為了追求單一歷史排名而分散主隊養成資源。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-beginner-week-one-checklist",
@@ -3791,7 +4004,10 @@
     "image": "/images/blog/nte-gameplay-city-exploration-corridor.webp",
     "imageAlt": "NTE beginner first week guide",
     "titleTw": "異環新手首周行動清單：7天從零到深渊的完整路线（2026年5月）",
-    "summaryTw": "刚入坑異環不知道從哪開始？這份7天行動清單幫你高效度過新手期：每天该做什么、優先解锁哪些功能、哪些奖励绝對不能错過。跟着走，一周后就能打深渊。"
+    "summaryTw": "刚入坑異環不知道從哪開始？這份7天行動清單幫你高效度過新手期：每天该做什么、優先解锁哪些功能、哪些奖励绝對不能错過。跟着走，一周后就能打深渊。",
+    "contentTw": "## 首週目標\n\n首週應以解鎖系統、建立一支可用隊伍和形成穩定日常為主，不必追求完整地圖或完美弧盤。文章中的角色推薦、兌換碼和獎勵數字可能已過期。\n\n### 第1至2天\n\n完成教學和主線，領取新手獎勵，解鎖每日內容和城市大亨。只培養一名主C及必要支援。\n\n### 第3至5天\n\n提升主C等級、武器和關鍵技能，使用正確主屬性的過渡弧盤，完成附近探索和限時活動。\n\n### 第6至7天\n\n嘗試週限Boss或挑戰內容，檢查隊伍是否缺少生存位，再決定下一週的材料路線。\n\n最重要的是每天消耗可溢出的資源、領取限時獎勵，並保留資源給真正需要的角色。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-system-requirements-can-you-run-it",
@@ -3834,7 +4050,10 @@
     "image": "/images/blog/nte-driving-tunnel-first-person-dashboard.webp",
     "imageAlt": "NTE system requirements guide",
     "titleTw": "異環配置要求完全指南：你的電腦/手机能跑得動吗？（2026年5月）",
-    "summaryTw": "異環對電腦和手机的配置要求高吗？本文整理PC、Android、iOS、PS5全平台配置需求，附最佳画質設置建议和低配優化方案。"
+    "summaryTw": "異環對電腦和手机的配置要求高吗？本文整理PC、Android、iOS、PS5全平台配置需求，附最佳画質設置建议和低配優化方案。",
+    "contentTw": "## 先確認文章日期\n\n本頁是2026年5月的配置要求整理。遊戲更新後容量、驅動要求和可用平台可能變化，安裝前應以官方平台頁面和客戶端提示為準。\n\n## 安裝前檢查\n\n- 確認作業系統、處理器、顯示卡和記憶體達到目前要求。\n- 為解壓、更新和臨時文件預留額外空間。\n- 優先使用SSD，並更新顯示卡驅動。\n- 手機端注意可用空間、系統版本、發熱和電池狀態。\n- 不要從第三方鏡像下載未知安裝檔。\n\n最低配置只代表可能運行，不代表所有場景都能穩定遊玩。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-version-1-1-update-overview",
@@ -3883,7 +4102,9 @@
     "image": "/images/blog/nte-world-island-exploration-three-characters.webp",
     "imageAlt": "NTE 1.1 version update overview",
     "titleTw": "異環1.1版本更新總览：新角色Lacrimosa與Chaos、減负優化、活動預告全解析（2026年5月）",
-    "summaryTw": "異環1.1版本即将到來！本文汇總所有已确认信息：两位新S級角色Lacrimosa（混沌属性/武器切換机制）和Chaos、Hotori卡池上线、日常減负優化、粉色爪币活動調整、保時捷聯動詳情等。"
+    "summaryTw": "異環1.1版本即将到來！本文汇總所有已确认信息：两位新S級角色Lacrimosa（混沌属性/武器切換机制）和Chaos、Hotori卡池上线、日常減负優化、粉色爪币活動調整、保時捷聯動詳情等。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-banner-schedule-roadmap",
@@ -3931,7 +4152,10 @@
     "image": "/images/blog/nte-character-gothic-fashion-customization.webp",
     "imageAlt": "NTE banner schedule July 2026",
     "titleTw": "異環卡池時間表 2026年7月：Shinku目前UP、Iroi下一期、1.2攢抽路線圖",
-    "summaryTw": "異環 2026 年 7 月最新卡池時間表：Shinku/真紅目前UP，Iroi 為下一階段重點，附 1.0-1.2 歷史排期、1.2 版本攢抽節奏、零氪/微氪保底規劃。"
+    "summaryTw": "異環 2026 年 7 月最新卡池時間表：Shinku/真紅目前UP，Iroi 為下一階段重點，附 1.0-1.2 歷史排期、1.2 版本攢抽節奏、零氪/微氪保底規劃。",
+    "contentTw": "1.2版本已上線，抽卡規劃不再是回顧1.0至1.1的預測，而是根據帳號缺口在真紅與伊洛伊之間做選擇。真紅為1.2上半限定爆發主C，伊洛伊為下半預計登場的治療與增益支援。具體卡池時間仍以遊戲內公告和倒計時為準。\n\n## 抽卡判斷\n\n- 缺少爆發主C，且能準備足夠資源保障角色本體：考慮真紅。\n- 已有輸出但缺少治療、增益或第二隊生存能力：保留資源給伊洛伊。\n- F2P或資源有限時，不要同時追求兩個卡池；先解決最直接的隊伍缺口。\n- 如果兩隊都已成形，可以跳過本輪並為1.3版本準備。\n\n## 版本末期安排\n\n先領取維護補償、登入獎勵和活動資源，再根據實際保底與可用抽數決定。不要把未確認的未來活動或兌換碼計入預算。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-version-1-2-update-overview",
@@ -3984,7 +4208,10 @@
     "content": "异环 1.2「999 Nights」已于 2026-07-08 正式上线。和之前很多“版本前瞻文”不同，现在这篇应该按正式实装内容来看：**真红卡池、Warren Continent、新主线、活动福利和一批系统优化都已经落地。**\n\n## 1. 当前版本核心信息\n\n| 项目 | 内容 |\n|------|------|\n| 版本名称 | 1.2「999 Nights」 |\n| 上线时间 | 2026-07-08 维护后 |\n| 版本结束 | 2026-08-19 05:59（UTC+8） |\n| 当前限定角色 | **Shinku / 真红** |\n| 当前限定 Arc | **Blushing Mirage** |\n\n## 2. 真红已正式上线\n\n1.2 上半限定角色是真红 Shinku，开放时间为 **2026-07-08 至 2026-07-29 05:59（UTC+8）**。她的定位是高爆发站场输出，适合需要快速清怪或补 Boss 爆发窗口的账号。\n\n如果你是回坑玩家，这一条最重要：**真红不是“即将登场”，而是当前就能抽。**\n\n## 3. 新主线与新区域\n\n本次版本新增主线章节 **Fighting with a Dragon**，并开放新地区 **Warren Continent**。这意味着 1.2 的价值不只是抽卡，还包括：\n\n- 新主线推进\n- 新地图探索与收集\n- 新区域相关活动和奖励\n- 围绕真红展开的羁遇、邀约与短信内容\n\n## 4. 这次福利值得先拿完\n\n官方 1.2 公告里比较值得优先清掉的福利包括：\n\n- **感谢礼**：Annulith x1600\n- **维护补偿**：Annulith x300\n- **Bug 修复补偿**：Annulith x300\n- **7日登录活动**：Solid Dice x10\n- **版本限时活动**：继续补抽卡资源、方斯与养成材料\n\n如果你在攒 Iroi 或 1.3，这一轮福利一定别漏。\n\n## 5. 版本活动节奏\n\n1.2 不是只靠一个卡池撑内容，当前阶段还有一整套限时活动一起跑：\n\n- 999 Nights 版本活动\n- Shadow-n-Seek 限时活动\n- Stamina Recharge / Gold Clash 资源活动\n- Circle Bounty 指南与等级奖励\n- Neon Rift 神秘箱活动\n\n对轻度玩家来说，至少优先把能拿抽卡资源的活动做完；对主玩真红的人，则可以同步刷她的配装和养成材料。\n\n## 6. 系统和体验层面的变化\n\n这次版本还补了不少容易被忽略但对留存有帮助的内容：\n\n- Shinku 的 City Hangouts、Home Time、Bond 任务\n- Outfit Recoloring\n- 鱼类展示、家园蓝图分享等生活化功能\n- 一批战斗、界面、便利性优化\n\n## 7. 现阶段抽卡建议\n\n| 账号情况 | 建议 |\n|---------|------|\n| 缺主C | 可以优先抽真红 |\n| 主C够用但缺生存 | 资源留给下一阶段更稳 |\n| 回坑资源少 | 先吃福利，接近保底再决定 |\n| 已打算囤 1.3 | 当前阶段可少量观望 |\n\n## 总结\n\n1.2「999 Nights」已经从“预告版本”变成了“正式运营版本”。现在最该做的不是再看老预测，而是围绕**真红是否要抽、活动福利是否拿满、Warren Continent 内容是否清完**来规划账号节奏。",
     "contentEn": "NTE Version 1.2 '999 Nights' launched on July 8, 2026. Unlike older preview articles, this page should now be read as a live-update summary: **Shinku's banner, Warren Continent, the new main story, event rewards, and multiple system improvements are all active.**\n\n## 1. Core Version Info\n\n| Item | Details |\n|------|---------|\n| Version | 1.2 '999 Nights' |\n| Launch | After maintenance on Jul 8, 2026 |\n| End Date | Aug 19, 2026 at 05:59 (UTC+8) |\n| Current Limited Character | **Shinku** |\n| Current Limited Arc | **Blushing Mirage** |\n\n## 2. Shinku Is Live Now\n\nShinku is the Phase 1 limited character for Version 1.2, available from **July 8 to July 29, 2026 at 05:59 (UTC+8)**. She fills a burst-DPS role and is especially attractive for players who want faster clears or stronger boss damage windows.\n\nMost important takeaway for returning players: **Shinku is not upcoming anymore — she is live right now.**\n\n## 3. New Story and Region\n\nVersion 1.2 adds the new story chapter **Fighting with a Dragon** and opens **Warren Continent**. So the patch value is not only about pulling characters. It also includes:\n\n- Main story progression\n- New exploration and collection content\n- Region-linked event rewards\n- Shinku bond, invitation, and message content\n\n## 4. Rewards You Should Claim First\n\nThe official Version 1.2 notes include several high-priority rewards:\n\n- **Appreciation Gift**: Annulith x1600\n- **Maintenance Compensation**: Annulith x300\n- **Bug Fix Compensation**: Annulith x300\n- **7-day Login**: Solid Dice x10\n- **Limited-time events**: more pull currency, Fons, and upgrade materials\n\nIf you're saving for Iroi or later patches, don't miss this reward window.\n\n## 5. Active Event Cycle\n\nVersion 1.2 is not only one banner. The patch also rotates through a broader event stack:\n\n- 999 Nights event\n- Shadow-n-Seek\n- Stamina Recharge / Gold Clash resource events\n- Circle Bounty progression rewards\n- Neon Rift mystery box event\n\n## 6. Quality-of-Life and System Updates\n\nNotable live additions also include:\n\n- Shinku City Hangouts, Home Time, and Bond quests\n- Outfit recoloring\n- Fish display and home blueprint sharing\n- Multiple combat and interface improvements\n\n## Summary\n\nVersion 1.2 '999 Nights' is no longer a future patch — it is the active live version. The practical focus now is simple: decide whether Shinku fits your account, clear the reward-heavy event cycle, and finish the new Warren Continent content while the patch is live.",
     "image": "/images/blog/nte-1-2-update.webp",
-    "imageAlt": "NTE Version 1.2 Update"
+    "imageAlt": "NTE Version 1.2 Update",
+    "contentTw": "異環1.2「九百九十九夜」已於2026年7月8日維護後上線。本頁是正式版本更新總覽，不是前瞻預測。\n\n## 版本重點\n\n- 真紅1.2上半限定卡池\n- 沃倫大陸與「與龍共舞」主線內容\n- 九百九十九夜活動及探索獎勵\n- 維護、修復和登入補償\n- 真紅羈遇、邀請與訊息內容\n- 外觀染色、魚類展示、房屋藍圖分享等系統改進\n\n## 優先領取\n\n先查看郵件中的環石和維護補償，再完成七日登入與限時活動。若計畫抽取伊洛伊或1.3角色，應把活動抽卡資源納入實際保底盤點。\n\n具體活動開放時間、獎勵數量和卡池倒計時，請以目標區服客戶端為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-illica-character-guide",
@@ -4015,7 +4242,10 @@
     "content": "伊洛伊 / Iroi 的价值，在 1.2 版本进入中段之后反而更清楚了。她不再只是“首位限定治疗位”这种预热标签，而是很多账号补强稳定性的关键拼图。\n\n## 角色定位\n\n- **定位**：治疗 + 增益辅助\n- **抽取价值**：高泛用、高保值\n- **适合人群**：缺稳定生存位、想打双队、想让主C输出环境更舒服的玩家\n\n## 为什么她到现在仍然值得关注\n\n很多输出角色会随着版本推进被后来者替代，但高质量治疗增益位通常保值更久。伊洛伊的核心意义在于：\n\n1. **给队伍提供稳定续航**，减少翻车率\n2. **补团队增益**，不是单纯“奶量角色”\n3. **适合大部分主C**，不需要特别苛刻的绑定\n\n这也是为什么很多玩家会把她放在“优先等下一阶段 / 等复刻”的名单里。\n\n## 适合她的典型队伍\n\n### 1. 真红主C队\n- 真红 / 其他主C\n- 副C或反应位\n- **伊洛伊**\n- 功能辅助\n\n这类队伍里，伊洛伊的作用不是抢节奏，而是让主C能更稳定地吃满输出窗口。\n\n### 2. 持续作战队\n- 主C\n- 副C\n- **伊洛伊**\n- 抗压或补伤位\n\n如果你经常在 Boss、长线副本或资源本里掉血，她的体验提升会比纯数值更明显。\n\n### 3. 双队资源紧张账号\n当你只有一套成熟输出体系时，补一个高泛用治疗增益位，通常比再抽一个同职能主C更不容易后悔。\n\n## 配装思路\n\n伊洛伊的 build 核心不用搞得太复杂，优先级通常是：\n\n1. **治疗相关主属性**\n2. **生命值 / 生存能力**\n3. **充能与循环稳定**\n4. 在不影响前面三项的前提下补团队收益\n\n她的重点不是极限站场伤害，而是把全队循环和容错率拉起来。\n\n## 哪些玩家最该考虑她\n\n| 账号情况 | 建议 |\n|----------|------|\n| 经常暴毙 | 优先度很高 |\n| 主C够强但队伍不稳 | 很值得补 |\n| 只想追输出角色 | 可放后一点 |\n| 已有非常成熟治疗体系 | 看资源再决定 |\n\n## 抽取结论\n\n如果你是零氪或微氪，伊洛伊最吸引人的点不是“版本限定”四个字，而是**她解决的是账号底层体验问题**。这类角色通常比单纯的爆发主C更保值，所以她依旧值得列入高优先级目标。",
     "contentEn": "Iroi's value is easier to understand now that Version 1.2 is live. She is no longer just the 'first limited healer' from pre-release discussions — she's one of the most practical roster upgrades for account stability.\n\n## Role Overview\n\n- **Role**: Healer + team buffer\n- **Pull Value**: Highly universal, high long-term value\n- **Best For**: Players lacking sustain, building two teams, or wanting smoother damage windows for their carries\n\n## Why She Still Matters\n\nPure DPS units can be replaced more easily over time. Strong sustain-buffer units usually age better. Iroi's value comes from three things:\n\n1. Reliable team healing\n2. Extra utility beyond raw sustain\n3. Broad compatibility with many carries\n\nThat is why many players still rank her as a top future target.\n\n## Best Team Uses\n\n### 1. Shinku or Other Carry Teams\nIroi supports your main DPS by keeping burst windows safe and consistent.\n\n### 2. Long-Form Combat Teams\nShe shines in boss fights, longer encounters, and accounts that struggle with survivability.\n\n### 3. Limited-Resource Accounts\nIf you only have one stable DPS core, adding a universal healer-buffer is often safer than chasing another niche carry.\n\n## Build Priorities\n\nKeep it simple:\n1. Healing-focused main stats\n2. HP and survivability\n3. Energy/cycle stability\n4. Extra team benefit after the basics are covered\n\n## Verdict\n\nFor F2P and light spenders, Iroi is valuable because she improves the foundation of your account, not just your damage ceiling. That usually makes her a more durable investment than another burst-only DPS.",
     "image": "/images/blog/illica-guide.webp",
-    "imageAlt": "Illica Character Guide"
+    "imageAlt": "Illica Character Guide",
+    "contentTw": "伊洛伊的價值主要在於治療、增益和隊伍穩定性。她不只是前瞻中的治療角色；對缺少生存位、準備培養第二隊或希望讓輸出循環更順暢的帳號，她可能是實用的長期投資。\n\n## 適合情況\n\n- 主隊傷害足夠，但經常因生存壓力中斷輸出。\n- 正在組建第二隊，需要泛用治療和增益。\n- 想讓真紅或其他主C更穩定地完成爆發循環。\n\n## 培養方向\n\n優先治療相關主屬性，再補生命值、生存能力和循環穩定性。不要在核心治療和技能覆蓋尚未成形前追求額外輸出。\n\n伊洛伊是否值得抽取，應取決於你的隊伍缺口和目前保底，而不是單一展示傷害。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-zhenhong-character-guide",
@@ -4047,7 +4277,10 @@
     "content": "真红 Shinku 已经不是“即将上线”的纸面角色了。进入 1.2 正式版本后，她的定位很明确：**当前阶段最值得讨论的爆发主C之一**。如果你在考虑要不要下保底，这篇比老版本“预测强度文”更适合现在看。\n\n## 角色定位\n\n- **定位**：站场爆发主C\n- **版本位置**：1.2 当前上半限定\n- **适合账号**：缺主C、想提升 Boss 爆发、需要一位当前版本即插即用输出核心的玩家\n\n## 真红的强项到底是什么\n\n真红最直接的优势不是“词条写得很华丽”，而是她能把输出窗口打得很集中：\n\n1. **爆发来得快**，适合当前阶段清精英和 Boss\n2. **站场感明确**，主C职责清晰\n3. **队友要求不算极端**，比较容易塞进现有体系\n\n如果你的账号现在最大问题是“能活，但打得慢”，真红的提升通常很直接。\n\n## 配装思路\n\n她的养成优先级可以简单理解成：\n\n1. **攻击向主属性**\n2. **暴击率 / 暴击伤害平衡**\n3. **稳定循环，保证关键技能和爆发窗口**\n4. 有条件再追专属 Arc 或更高配置\n\n对大多数零氪和微氪来说，先把角色本体练起来，比一开始就追极限配置更划算。\n\n## 常见配队方向\n\n### 1. 真红主C通用队\n- 真红\n- 副C / 补伤位\n- 治疗或增益辅助\n- 功能位\n\n这是最稳的用法，适合绝大多数账号。\n\n### 2. 真红 + 稳定辅助队\n如果你已经有能保证生存和循环的辅助，真红会更容易打出持续有效输出，而不是一套打完后真空很长。\n\n### 3. 双队推进账号\n如果你正在补第二队的核心位，真红属于那种拿到就能立刻成队的角色，投入产出比通常不错。\n\n## 哪些玩家值得抽\n\n| 账号情况 | 建议 |\n|----------|------|\n| 缺一个强力主C | 推荐抽 |\n| 已有多个成熟主C | 看资源决定 |\n| 想打当前版本活动更轻松 | 推荐抽 |\n| 更缺奶位或辅助位 | 可把资源留给 Iroi |\n\n## 要不要追专属 Arc\n\n- **零氪**：优先角色本体，专属 Arc 放后面\n- **微氪**：如果确定长期主玩真红，再考虑追加投入\n- **资源紧张**：抽到本体就停，保留给下一阶段最稳\n\n## 结论\n\n真红属于那种“不是所有人都必须抽，但缺主C的人会很容易感受到提升”的角色。现在她已经实装，判断标准也很简单：**你是缺输出核心，还是更缺稳定辅助？** 缺输出就抽真红，缺稳定就把资源留给后面的 Iroi。",
     "contentEn": "Shinku is no longer an upcoming paper-theory character. Now that Version 1.2 is live, her role is much clearer: **she is one of the most relevant burst carries in the current patch**. If you're deciding whether to spend pity on her, this is the practical version of the guide.\n\n## Role Overview\n\n- **Role**: On-field burst main DPS\n- **Patch Position**: Current Version 1.2 Phase 1 limited\n- **Best For**: Accounts missing a carry, players wanting better boss damage, or anyone needing an immediate DPS upgrade\n\n## What She Does Well\n\nShinku's biggest strength is concentrated damage output:\n\n1. Fast burst windows\n2. Clear on-field carry identity\n3. Reasonable team flexibility\n\nIf your account survives fine but kills too slowly, Shinku usually solves that problem quickly.\n\n## Build Priorities\n\nKeep her build path practical:\n1. Offensive main stats\n2. Balanced crit rate / crit damage\n3. Stable rotation and burst timing\n4. Signature Arc only after the core build is ready\n\n## Team Direction\n\n### 1. Standard Shinku Carry Team\n- Shinku\n- Sub-DPS or follow-up damage slot\n- Healer/buffer\n- Utility slot\n\n### 2. Stable Support Core\nShinku performs better when the team keeps her burst windows clean and uninterrupted.\n\n### 3. Second-Team Accounts\nIf you're building a second functional team, Shinku is the kind of unit who can become a usable team core immediately.\n\n## Who Should Pull\n\n| Account State | Recommendation |\n|--------------|----------------|\n| Need a strong carry | Pull |\n| Already have multiple built carries | Depends on resources |\n| Want smoother current-patch clears | Pull |\n| Need sustain more than DPS | Save for Iroi |\n\n## Verdict\n\nShinku is not a universal must-pull, but players lacking a real damage core will feel her impact quickly. The choice is straightforward: if you need damage, pull Shinku. If you need stability more, save for the next phase.",
     "image": "/images/blog/zhenhong-guide.webp",
-    "imageAlt": "Zhenhong Character Guide"
+    "imageAlt": "Zhenhong Character Guide",
+    "contentTw": "真紅已不是未確認的前瞻角色。1.2上半實裝後，她的定位是爆發型站場主C，適合缺少主力輸出、需要改善Boss爆發窗口，或想立即提升當前版本通關效率的帳號。\n\n## 角色定位\n\n- 站場爆發主C\n- 需要穩定的輸出窗口和支援循環\n- 可搭配治療、增益與功能位組成完整隊伍\n\n## 培養方向\n\n先提升攻擊相關主屬性，再平衡暴擊率與暴擊傷害，最後才考慮專屬弧盤。若你的帳號已經有多個成形主C，或更缺治療與支援，應先比較隊伍缺口再決定。\n\n真紅不是所有帳號都必須抽，但對缺少可靠爆發主C的玩家，她能直接補上傷害核心。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-encounter-bond-system-guide",
@@ -4091,7 +4324,10 @@
         "labelEn": "Tier List",
         "href": "/blog/nte-character-tier-list-2026-may"
       }
-    ]
+    ],
+    "contentTw": "## 羈遇系統\n\n羈遇系統包含送禮、互動、約會、同居和部分外觀獎勵。角色偏好、每日次數、好感需求和可取得外觀可能隨版本變化，請以目前遊戲內頁面為準。\n\n## 建議順序\n\n1. 先確認角色偏好和當日可完成互動。\n2. 優先送容易取得且能提高好感的禮物。\n3. 按任務提示解鎖約會、同居和角色劇情。\n4. 集中培養一名角色，不要把稀有貨幣平均分散。\n5. 限時活動優先於常駐好感內容。\n\n舊文章中的好感數字、禮物價格和「免費時裝」數量只能作歷史參考，不能替代目前系統說明。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-ai-art-controversy-timeline",
@@ -4115,7 +4351,10 @@
     "contentEn": "## Overview\n\nIn early May 2026, just days after its global launch, Neverness to Everness (NTE) -- developed by Hotta Studio under Perfect World -- became embroiled in a major controversy over the use of generative AI in its art assets. What began as player detective work on social media escalated into a full-scale community backlash, creator boycotts, and ultimately an official admission from the development team.\n\n---\n\n## Timeline of Events\n\n### Phase 1: Player Discovery (Late April - Early May)\n\n- **April 23**: NTE launches in China.\n- **April 29**: Global release across Android, iOS, PC, PS5, and macOS.\n- **Early May**: Players on Reddit and X (Twitter) begin flagging art assets with obvious AI-generated artifacts -- distorted limbs, inconsistent details, and other hallmarks of generative AI.\n- **Key Discovery**: An in-game billboard was found to closely resemble a scene from Makoto Shinkai's animated film *Weathering with You*, apparently processed through an AI filter. Players also discovered an 18-minute AI-generated animated short playing in the game's cinema.\n- **Trust Breach**: Before launch, NTE's creative lead had publicly promised that core assets and character illustrations would absolutely not use AI, limiting AI to pre-production environment testing. The discrepancy between this promise and the in-game reality became the central grievance.\n\n### Phase 2: Creator Backlash (May 4-6)\n\n- **May 4**: Popular VTuber **Ironmouse** announced during a livestream that she was terminating her sponsored partnership with NTE, calling it the fastest uninstall of her life. She stated that Hotta Studio had explicitly assured her before signing that the game did not use generative AI, making the discovery a personal betrayal.\n- **Same day**: VTuber **Shylily** ended her stream early upon learning about the AI assets.\n- **Following days**: English voice actress **Maggie Elise** publicly stated she would refuse future collaboration if the issue was not resolved. Multiple other creators echoed similar ultimatums.\n\n### Phase 3: Official Response (May 7)\n\n- **May 7**: Hotta Studio issued a formal statement via NTE's global X account (@NTE_GL):\n  - Acknowledged the use of AI-assisted tools, limited to a small number of background and environment assets.\n  - Emphasized that characters, stories, and world-building were entirely human-created.\n  - Confirmed review and rework of two flagged assets: **Summer Clear Sky** and **Pink Claw Heist**.\n- **Producer Yang Lei** later told media that core assets and character illustrations would absolutely not use AI going forward.\n\n---\n\n## Divided Community Response\n\n### Western Community: Outrage\n\n- Reddit communities such as r/gachagaming saw numerous refund demand threads.\n- The topic trended on X for days.\n- Many Western players felt the studio deliberately blurred the line between core and secondary assets, violating pre-launch promises.\n- Commenters noted: If Hoyo or Kuro did this, the fallout would be catastrophic.\n\n### Asian Community: Relative Indifference\n\n- Chinese domestic communities showed noticeably less outrage.\n- Some players considered the Western reaction overblown, arguing that AI-assisted development is already common in the industry.\n- Others viewed the 10 free pull compensation as an implicit apology.\n- Still, in-depth analyses of the controversy's industry implications circulated on platforms like TapTap.\n\n---\n\n## Industry Implications\n\nThe controversy highlights several core issues facing the gaming industry:\n\n1. **Transparency**: Should studios be required to disclose AI tool usage upfront?\n2. **Copyright Risk**: Can AI-generated content inadvertently infringe on original artists' work (e.g., the Shinkai film resemblance)?\n3. **Creator Rights**: Does replacing human art with AI contribute to artist displacement?\n4. **Trust Recovery**: How can a studio rebuild trust after being caught misleading partners and players?\n\n---\n\n## Current Status\n\nAs of June 2026, Hotta Studio has begun reworking the two flagged assets, though no completion timeline has been announced. The community continues to monitor progress. Creators like Ironmouse have not reversed their positions, and NTE's Western reputation remains in recovery. The incident serves as a cautionary tale for the broader industry on AI ethics and transparency.",
     "image": "/images/blog/nte-ai-controversy.webp",
     "imageAlt": "NTE AI Art Controversy",
-    "internalLinks": []
+    "internalLinks": [],
+    "contentTw": "## 文章狀態\n\n本頁記錄2026年5月至6月的AI素材爭議時間線，屬於歷史資訊整理，不代表目前官方立場或後續處理結果。\n\n閱讀時應區分：社群指控、媒體報道、官方回應和已核實文件。不要把未經核實的截圖、轉述或推測寫成事實，也不要以單一帖子推斷完整事件經過。\n\n若要了解最新情況，應查閱官方公告、相關創作者或版權方的正式說明，以及有日期和原始來源的報道。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-version-1-2-preview-shinku-illica",
@@ -4140,7 +4379,10 @@
     "contentEn": "## Version Overview\n\nNTE Version 1.2 is expected to launch on **July 2, 2026**, running for 42 days across two banner phases of 21 days each. This major update introduces two brand-new S-Rank characters -- Light burst DPS **Shinku** and Spirit support healer **Illica** -- along with new amusement park map content, an expanded Bond system, Abyss updates, and more.\n\n---\n\n## Banner Schedule\n\n| Phase | Dates | Character | Rarity | Attribute | Role |\n|-------|-------|-----------|--------|-----------|------|\n| Phase 1 | July 2 - July 23 | **Shinku** | S-Rank | Light (Creation) | Burst Main DPS |\n| Phase 2 | July 23 - Aug 13 | **Illica** | S-Rank | Spirit | Support/Healer |\n\n> Note: Community speculation previously suggested Nixia might appear in 1.2, but leaks confirmed she has been delayed. 1.2 is confirmed as Shinku + Illica.\n\n---\n\n## Shinku Deep Dive\n\n### Character Profile\n\n- **Attribute**: Light\n- **Rarity**: S-Rank\n- **Role**: Burst Main DPS\n- **Nickname**: Dragon Lady (based on her dragon-girl character design)\n- **Affiliation**: CSU-2, Anomaly Containment Division Group 2\n\n### Kit Mechanics\n\nShinku's core mechanic revolves around the **Yingxu** system:\n\n- **Normal Attack**: Fast-switching slash style similar to the protagonist\n- **Passive**: Enhances Creation system reactions, but conflicts with the existing Creation team (Nanali, Xun, Jiuyuan, Light MC), requiring a new **Yingxu Direct Damage** team\n- **Ultimate**: AoE multi-hit damage followed by a massive single-target finishing blow -- a classic burst rotation\n- **Yingxu Charging**: Relies on Light-Spirit-Phase tri-attribute Resonance for rapid energy charging\n\n### Recommended Teams\n\n**Core Team: Shinku + Illica + Chaos/Hathor + Xiaozhi**\n\n| Slot | Character | Role |\n|------|-----------|------|\n| Main DPS | Shinku | Yingxu Ultimate burst damage |\n| Healer/Buffer | Illica | Crit DMG bonus + Resonance amplification + Healing |\n| Sub DPS | Chaos/Hathor | Phase attribute Resonance extension + Burst sub DPS |\n| Flex | Xiaozhi | Accelerates Ultimate rotation + Supplemental damage |\n\n**Alternative**: Players without a committed Creation team can use the Light MC, whose passive enhances Yingxu and provides instant Resonance.\n\n### Bond Reward\n\nShinku has an exclusive loungewear outfit obtainable for free at **Bond Level 10**. Start hoarding gifts early.\n\n---\n\n## Illica Full Preview\n\n### Character Profile\n\n- **Attribute**: Spirit\n- **Rarity**: S-Rank\n- **Role**: Support/Healer (dubbed must-pull support)\n- **Affiliation**: CSU-2, Anomaly Containment Division Group 2\n- **Design**: Ultra-cute sweet girl with a cross pendant and stethoscope, clearly signaling a healer role\n\n### Three Lambs Mechanic\n\nIllica is accompanied by three lamb summons, each corresponding to a different function:\n\n| Lamb | Feature | Suspected Function |\n|------|---------|-------------------|\n| Cute Lamb | Being petted, healing cross halo | Team healing/HP restore |\n| Dark Lamb | Mischievous expression, crit DMG icon halo | Crit DMG bonus (benefits direct DPS units) |\n| Sleepy Lamb | Resting on arm, unclear halo icon | Resonance boost (extra Resonance value) |\n\nIf the third lamb provides Resonance amplification, it would solve the competition between Shinku and Nanali over Light MC / Resonance resources, allowing Creation and Yingxu teams to coexist.\n\n### Core Value\n\n- Crit DMG bonus directly benefits direct-damage DPS like Shinku\n- Resonance amplification supports the Yingxu system's energy needs\n- Healing provides team survivability\n- Hailed by the community as **NTE's first must-pull support**\n\n---\n\n## New Content\n\n### 1. Amusement Park Map Expansion\n\n- New amusement park area fast-travel nodes added in 1.2\n- Improved dynamic environmental rendering for rain and dusk\n- Timed for summer break to attract new players\n\n### 2. Expanded Bond System\n\n- Illica and Shinku receive individual date side-story quests\n- Unlocks exclusive voice lines and illustration easter eggs\n\n### 3. Abyss Dungeon Updates\n\n- New Curse-attribute exclusive Abyss floors\n- Adapted for new version characters and mechanics\n\n### 4. Gacha Adjustments\n\n- Limited banner: Soft pity starts at 70 pulls\n- Hard pity: 90 pulls for guaranteed featured character\n- Weapon banner pity lowered accordingly\n\n---\n\n## Pull Recommendations\n\n| Player Type | Recommendation |\n|-------------|---------------|\n| New players needing a main DPS | Prioritize Shinku for faster early-game progression |\n| Players with mature teams | Watch Illica -- supports have broader compatibility and longer meta relevance |\n| Light team enthusiasts | Shinku is a must-pull as the potential Light DPS core |\n| Resource-limited players | Wait for the official preview livestream to confirm kits; Illica's Phase 2 timing gives extra saving time |\n\n### Resource Estimates\n\n| Type | Pulls Available Before 1.2 |\n|------|---------------------------|\n| F2P Players | ~26 pulls |\n| Monthly Pass Players | ~41 pulls |\n\n> The monthly shop refreshes on July 1, allowing exchange for 5 limited pulls + 5 standard pulls + 20 weapon pulls. Save exchange materials in advance.",
     "image": "/images/blog/nte-1-2-preview.webp",
     "imageAlt": "NTE Version 1.2 Preview",
-    "internalLinks": []
+    "internalLinks": [],
+    "contentTw": "## 歷史前瞻說明\n\n本頁整理的是1.2版本正式上線前的前瞻資訊。真紅和伊洛伊後來已有版本資料可供核對，但前瞻中的日期、技能、數值和卡池順序不應替代目前官方公告。\n\n## 閱讀方式\n\n- 已實裝內容請以角色頁、版本說明和遊戲內技能為準。\n- 前瞻推測、社群討論和未確認排期只作歷史背景。\n- 抽卡時只計算當前客戶端顯示的保底和可獲資源。\n- 舊版本角色強度結論不能直接延伸到目前版本。\n\n這篇文章適合查閱1.2的版本演變，不適合作為目前抽卡指南。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-lacrimosa-strength-analysis",
@@ -4181,7 +4423,10 @@
         "labelEn": "Chaos Teams",
         "href": "/blog/nte-chaos-team-compositions"
       }
-    ]
+    ],
+    "contentTw": "這是一篇1.1時期的安魂曲強度分析，角色評價、配隊和命座價值會隨版本、角色池和玩家帳號變化。不要把「綁定早霧」「必抽」或命座提升等舊結論當作目前定論。現在判斷角色時，先查看最新技能、場景榜和自己的隊伍缺口，再決定是否投入資源。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-gacha-system-analysis",
@@ -4222,7 +4467,10 @@
         "labelEn": "Banner Schedule",
         "href": "/blog/nte-banner-schedule-roadmap"
       }
-    ]
+    ],
+    "contentTw": "## 文章狀態\n\n這是2026年6月的抽卡系統分析。抽卡規則、概率和卡池內容可能隨版本調整，目前請以遊戲內卡池說明和官方公告為準。\n\n## 理性抽卡原則\n\n- 抽卡前確認當前卡池的UP角色、保底和結束時間。\n- 記錄自己的抽數和可用資源，不要用其他遊戲的模型推算。\n- 不把未公布活動、兌換碼或未確認角色算入預算。\n- 先確保角色本體與基本養成，再考慮武器、弧盤或命座。\n- 把抽卡視為有上限的娛樂支出，事先設定停止線。\n\n本文的歷史比較不能替代當前客戶端規則。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-zhenhong-build-guide-1-2",
@@ -4271,7 +4519,10 @@
         "label": "抽卡模拟器",
         "href": "/gacha"
       }
-    ]
+    ],
+    "contentTw": "真紅是1.2版本的限定攻擊型主C。她的核心循環圍繞怒氣累積與爆發狀態：透過普攻和技能累積怒氣，在滿怒後進入爆發窗口，再配合隊友的治療、攻擊增益或反應效果完成輸出。\n\n## 基本循環\n\n1. 以普攻和技能累積怒氣。\n2. 在滿怒後進入爆發狀態。\n3. 將隊友增益集中到爆發窗口。\n4. 爆發結束後切換隊友，重新準備循環。\n\n## 配裝方向\n\n沙漏優先攻擊，杯子選對應傷害，頭冠在暴擊率和暴擊傷害之間平衡。副屬性通常優先暴擊、攻擊和循環穩定性。\n\n實際技能名稱、數值和卡池日期應以遊戲內當前資料為準；社群暱稱或未確認技能細節不應當作正式設定。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-999-nights-complete-guide",
@@ -4314,7 +4565,10 @@
         "labelEn": "Banner Schedule",
         "href": "/banners"
       }
-    ]
+    ],
+    "contentTw": "九百九十九夜是異環1.2的主要活動模式，包含沃倫大陸故事節點、戰鬥、活動貨幣和獎勵路線。\n\n## 快速順序\n\n1. 完成解鎖沃倫大陸的任務。\n2. 先完成教學並開啟主要系統。\n3. 優先推進主線節點。\n4. 選擇能穩定通關的最高難度。\n5. 優先領取神秘按鈕、環石、固體骰子和限時外觀。\n\n穩定快速的低難度路線通常比反覆失敗的高難度更有效。神秘按鈕應保留到確認獎勵盤後，再用於高價值格子、阻塞進度的節點或限時商店物品。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-codes-july-2026",
@@ -4351,7 +4605,10 @@
         "labelEn": "999 Nights Guide",
         "href": "/blog/nte-999-nights-complete-guide"
       }
-    ]
+    ],
+    "contentTw": "兌換碼具有時效性，請先查看本站兌換碼頁和遊戲內結果。活動碼通常比常駐碼更容易過期，不能僅因文章列出就視為仍然有效。\n\n## 使用順序\n\n優先嘗試當前版本活動碼，再處理較早的直播或平台碼。輸入後到郵件或獎勵頁確認是否成功領取。\n\n## 失敗原因\n\n常見原因包括：已過期、區服不符、輸入錯誤、帳號已兌換，或兌換功能尚未解鎖。國服、全球服和不同平台的碼可能不同，請以目標區服客戶端為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-1-2-free-rewards-guide",
@@ -4393,7 +4650,10 @@
         "labelEn": "Tier List",
         "href": "/tier-list"
       }
-    ]
+    ],
+    "contentTw": "異環1.2的免費獎勵主要來自維護補償、問題修復補償、登入活動、九百九十九夜、兌換碼和S級角色自選。\n\n## 領取優先級\n\n1. 先查看郵件並領取環石與補償。\n2. 完成七日登入和限時活動。\n3. 推進九百九十九夜並領取活動商店獎勵。\n4. 兌換仍在有效期內的版本碼。\n5. 了解隊伍缺口後再使用S級自選，不要為了收藏立即使用。\n\n自選角色應服務於實際隊伍需求：缺少主C時補輸出，已有主C時可考慮治療、增益或泛用支援。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-iroi-banner-guide",
@@ -4436,7 +4696,10 @@
         "labelEn": "999 Nights Guide",
         "href": "/blog/nte-999-nights-complete-guide"
       }
-    ]
+    ],
+    "contentTw": "伊洛伊是1.2下半的限定支援角色，定位偏向治療與增益，而不是取代主C。她適合缺少第二個生存位、經常在九百九十九夜或Boss戰中因續航失敗的帳號。\n\n## 建議抽取情況\n\n- 已有足夠傷害，但缺少治療或增益。\n- 想讓真紅隊伍更安全、更容易維持爆發循環。\n- 正在組建第二隊，需要泛用支援。\n\n如果真紅已經消耗大量資源、帳號已有成熟治療，或想為1.3角色保留保底，則可以跳過。實際日期、技能和數值以遊戲內卡池與正式資料為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-zankou-1-3-save-guide",
@@ -4479,7 +4742,10 @@
         "labelEn": "Free Rewards Guide",
         "href": "/blog/nte-1-2-free-rewards-guide"
       }
-    ]
+    ],
+    "contentTw": "贊空是1.3前瞻中值得觀察的角色，但前瞻或社群討論不能替代正式卡池公告。1.2連續卡池期間，F2P和微氪玩家應先做保底盤點，而不是按熱度追抽。\n\n## 抽卡判斷\n\n- 已抽真紅且隊伍有穩定生存：可以保留伊洛伊資源，為1.3準備。\n- 第二隊經常因生存壓力失敗：伊洛伊可能比等待未確認角色更能立即改善帳號。\n- 不要把贊空的未確認技能、順序、日期或強度當成確定內容。\n\n最好的抽卡選擇是解決實際隊伍缺口，而不是追逐尚未核實的社群熱度。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-not-hoyoverse-developer-clarification",
@@ -4518,7 +4784,10 @@
         "label": "系统要求",
         "href": "/system-requirements"
       }
-    ]
+    ],
+    "contentTw": "異環並非米哈遊或HoYoverse開發的遊戲。遊戲的開發與發行資訊應以官方網站、商店頁和版權聲明為準。社群把都市題材、二次元風格或玩法相似的作品放在一起比較，不代表它們由同一家公司製作。公司、工作室、代理和發行商是不同概念，轉載時不要混用。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "is-nte-worth-playing-2026-review",
@@ -4562,7 +4831,10 @@
         "label": "系统要求",
         "href": "/system-requirements"
       }
-    ]
+    ],
+    "contentTw": "## 評測定位\n\n這是一篇2026年公測後的歷史評測，不是對目前版本的即時推薦。異環是否值得遊玩，取決於你是否喜歡都市開放世界、動作戰鬥、角色養成和持續更新的版本內容。\n\n## 可能適合你\n\n- 喜歡現代都市題材和探索收集。\n- 接受動作操作、角色切換和長期養成。\n- 願意根據版本活動安排遊玩時間。\n\n## 需要考慮\n\n- 手機端性能、容量和發熱要求可能較高。\n- 版本內容、卡池和活動會變化，舊評測不能代表目前狀態。\n- 抽卡、養成和每日任務需要長期投入。\n\n開始前先查看目前客戶端、平台配置和活動安排，再決定是否投入時間。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-v1-2-pull-priority-guide",
@@ -4616,7 +4888,10 @@
     "content": "异环1.2版本「真红与残虹」同时有三位限定S级角色登场：伊洛伊、真红、以及延续的卡厄斯。对于大多数玩家来说资源有限，本文按角色强度、不可替代性和队伍需求给出抽卡优先级。\n\n## 三位角色速览\n\n| 角色 | 属性 | 定位 | 卡池时间 | Tier |\n|------|------|------|----------|------|\n| 伊洛伊 | 魂（Psyche） | 治疗增益辅助 | 6/11~6/25（上半） | SS |\n| 真红 | 光（Cosmos） | 主C / 龙族格斗家 | 6/25~7/15（下半） | SS |\n| 卡厄斯 | 相（Lakshana） | 副C / 减防标记 | 6/11~7/2（延续） | S |\n\n---\n\n## 伊洛伊：首位限定奶妈，改变游戏体验\n\n### 为什么强\n\n伊洛伊是异环**首个限定治疗增益辅助**。公测以来治疗位只有A级薄荷和S级九原（兼奶），伊洛伊的加入彻底改变了生存环境：\n\n- 强力单体+群体治疗\n- 增伤buff大幅提升全队输出\n- 被动提供减伤护盾\n\n### 谁应该抽\n\n- **零氪玩家**：**强烈推荐**。限定奶妈的不可替代性极高\n- **微氪玩家**：**必抽**。0命即可使用，不需要高命座\n- **中氪玩家**：考虑抽1命提升治疗量，但不急\n\n### 抽取建议\n\n0命完全够用。不建议投入额外命座，把资源留给真红。\n\n---\n\n## 真红：光系龙族主C，暴怒机制爆发\n\n### 为什么强\n\n真红是1.2下半限定主C，核心机制围绕「鬼爪」中距离起手和「暴怒值」：\n\n- 暴怒值满后进入暴走状态，大幅提升输出\n- 被动强化创生体系反应（光属性反应）\n- 机械尾部协同攻击，多段命中\n- 龙族格斗家设定，战斗手感爽快\n\n### 谁应该抽\n\n- **零氪玩家**：如果你已有娜娜莉，真红不是必需品。但缺主C或想组建光属性队，**推荐抽取**\n- **微氪玩家**：**推荐**。光属性主C目前稀缺\n- **中氪玩家**：目标0+1（0命+专武），性价比最高\n\n---\n\n## 卡厄斯：相属性副C，1.1延续卡池\n\n### 角色评价\n\n卡厄斯是1.1下半限定角色，1.2版本前半延续。相属性副C，核心机制是「搜查令」debuff标记+「罪状」充能爆发。\n\n### 谁应该抽\n\n- **零氪玩家**：**跳过**。1.2有伊洛伊和真红两个更高优先级角色\n- **微氪玩家**：如果1.1没抽且缺相属性角色，可以考虑；否则**跳过**\n- **中氪玩家**：如果已经有了安魂曲，卡厄斯可以组建暗+相双属性反应队，但优先级仍低于伊洛伊和真红\n\n---\n\n## 资源规划建议\n\n### 零氪玩家（0氪）\n\n| 目标 | 所需环石 | 说明 |\n|------|----------|------|\n| 伊洛伊保底 | ~9600 | 必抽 |\n| 真红保底 | ~9600 | 第二优先 |\n| 1.2版本可获取 | 约12000+ | 版本福利+日常+活动 |\n\n**策略**：攒够伊洛伊+真红两个保底（约19200环石）。\n\n### 微氪玩家（月卡+通行证）\n\n| 目标 | 预算 | 说明 |\n|------|------|------|\n| 伊洛伊 0命 | 免费 | 必抽 |\n| 真红 0+1 | 约200元 | 0命+专武 |\n| 卡厄斯 | 跳过 | 留资源给1.3 |\n\n---\n\n## 总结：抽卡优先级排行\n\n1. **伊洛伊**（SS — 不可替代的限定奶妈，零氪必抽）\n2. **真红**（SS — 光系主C，强度在线，推荐抽取）\n3. **卡厄斯**（S — 延续池，非必需，1.1已抽过可跳过）\n\n> **核心原则**：辅助优先于主C。限定奶妈的不可替代性永远高于主C，因为主C可以用常驻角色替代（如娜娜莉），但限定奶妈只有伊洛伊。",
     "contentEn": "Version 1.2 brings three limited S-rank characters: Illica, Zhenhong, and the continued Chaos banner.\n\n## Quick Overview\n\n| Character | Element | Role | Banner | Tier |\n|-----------|---------|------|--------|------|\n| Illica | Psyche | Heal/Buffer | 6/11-6/25 (Phase 1) | SS |\n| Zhenhong | Cosmos | Main DPS | 6/25-7/15 (Phase 2) | SS |\n| Chaos | Lakshana | Sub-DPS | 6/11-7/2 (continued) | S |\n\n## Illica: First Limited Healer — Game-Changing\n\nNTE's first limited heal/buffer. E0 is fully functional. F2P must-pull due to irreplaceability.\n\n## Zhenhong: Light Dragon DPS — Rage Mechanic\n\nLight DPS with Berserk state at max Rage. E0 + signature weapon is the sweet spot for mid-spenders.\n\n## Chaos: Continued Banner — Skip for Most\n\nLakshana sub-DPS. Lower priority than Illica and Zhenhong in 1.2.\n\n## Priority Ranking\n\n1. Illica (SS - Irreplaceable limited healer)\n2. Zhenhong (SS - Light DPS, strong pick)\n3. Chaos (S - Skip if pulled in 1.1)\n\nCore principle: Supports > Main DPS. Limited healers have higher irreplaceability than main DPS.",
     "image": "/images/blog/nte-snow-cherry-blossom-tree-landscape.webp",
-    "imageAlt": "NTE 1.2 pull priority guide for Illica, Zhenhong, and Chaos"
+    "imageAlt": "NTE 1.2 pull priority guide for Illica, Zhenhong, and Chaos",
+    "contentTw": "## 這篇1.2抽卡指南如何閱讀\n\n本頁記錄1.2版本期間的抽卡思路，當時的真紅、伊洛伊和卡厄斯判斷不應直接當作目前卡池建議。現在做決定時，請先查看目標區服客戶端的卡池、保底和活動倒計時。\n\n## 資源規劃原則\n\n- 先確認帳號缺口：傷害、生存、治療或增益。\n- 只把已領取或官方確認的資源計入預算。\n- 角色本體優先於專屬弧盤和追加命座。\n- 未確認的未來角色、活動和兌換碼不應成為抽卡前提。\n\n對F2P和微氪玩家來說，一次完整解決隊伍缺口通常比同時追逐多個卡池更穩。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-mobile-optimization-complete-guide",
@@ -4666,7 +4941,10 @@
     "content": "异环采用虚幻引擎5开发，对移动端硬件要求极高。公测以来移动端闪退、掉帧、发热是社区最大槽点（抖音相关话题量超15亿）。本文整理所有已知解决方案。\n\n## 移动端问题根源\n\n异环的UE5引擎在移动端面临三大挑战：\n1. **内存压力**：开放世界+高精度材质导致内存占用极高\n2. **GPU负载**：实时光照和粒子特效超出多数手机GPU能力\n3. **散热瓶颈**：持续高负载导致SoC降频，形成恶性循环\n\n---\n\n## 最佳画质设置推荐\n\n### 旗舰机型（骁龙8 Gen3 / 天玑9300 / A17 Pro+）\n\n| 设置项 | 推荐值 | 说明 |\n|--------|--------|------|\n| 画质等级 | 高 | 平衡画面与帧率 |\n| 分辨率 | 原生 | 旗舰机可承受 |\n| 帧率目标 | 60FPS | 开启高帧率模式 |\n| 阴影质量 | 中 | 阴影是GPU大户 |\n| 体积光 | 关 | 移动端最大的性能杀手 |\n| 粒子效果 | 中 | 战斗特效够用 |\n| 视距 | 中 | 减少渲染距离 |\n| 抗锯齿 | TAA | 性能开销最低 |\n| 动态模糊 | 关 | 减少视觉干扰+省资源 |\n\n### 中端机型（骁龙8+ / 天玑8200 / A15）\n\n| 设置项 | 推荐值 |\n|--------|--------|\n| 画质等级 | 中 |\n| 分辨率 | 降采样75% |\n| 帧率目标 | 30-45FPS |\n| 阴影质量 | 低 |\n| 体积光 | 关 |\n| 粒子效果 | 低 |\n| 视距 | 低 |\n| 抗锯齿 | FSR2 |\n| 动态模糊 | 关 |\n\n### 低端机型\n\n| 设置项 | 推荐值 |\n|--------|--------|\n| 画质等级 | 低 |\n| 分辨率 | 降采样50% |\n| 帧率目标 | 30FPS |\n| 所有特效 | 最低/关 |\n\n> **建议**：低端机型体验较差，强烈建议使用PC端或PS5端游玩（支持跨平台存档）。\n\n---\n\n## 闪退问题解决方案\n\n### 安卓闪退\n\n**原因1：内存不足（最常见）**\n- 6GB内存设备：几乎必定闪退，建议关闭所有后台应用\n- 8GB内存设备：中等概率闪退，关闭后台可缓解\n- 12GB+内存设备：极少闪退\n\n**解决方案**：\n1. 游戏前清理后台应用\n2. 关闭系统动画（开发者选项中设置）\n3. 开启「内存扩展」功能（如有）\n4. 降低游戏画质设置\n5. 如仍闪退：卸载重装\n\n**原因2：GPU驱动崩溃**\n- 多见于Adreno 730及以下GPU\n- 更新系统到最新版本可能修复\n\n### iOS闪退\n\n**原因1：内存压力（iPhone 12/13系列）**\n- iPhone 12标准版（4GB RAM）几乎无法稳定运行\n\n**解决方案**：\n1. 重启iPhone后再启动游戏\n2. 降低画质设置\n3. 关闭「后台App刷新」\n4. 确保iOS版本为最新\n\n---\n\n## 发热问题解决方案\n\n### 物理降温\n1. **摘掉手机壳**：散热效率提升30%+\n2. **使用散热背夹**：半导体散热器效果最佳\n3. **空调环境游玩**：室温每降低5度，SoC降频阈值延后约2分钟\n\n### 软件优化\n1. 降低帧率目标到30FPS（最有效）\n2. 关闭体积光和动态模糊\n3. 降低阴影和粒子质量\n4. 开启省电模式\n5. 避免充电时游玩\n\n---\n\n## 掉帧/卡顿解决方案\n\n### 城镇场景卡顿\n城镇场景因NPC数量多、建筑复杂导致严重掉帧。\n\n**缓解方法**：\n- 降低视距到最低\n- 关闭NPC名字显示\n- 避免快速转动视角\n\n### 战斗场景掉帧\n- 降低粒子效果\n- 降低抗锯齿等级\n\n### 加载卡顿/材质弹出\n- 确保游戏安装在UFS存储上\n- 定期清理游戏缓存\n\n---\n\n## 1.1版本移动端优化内容\n\n| 优化项 | 效果 |\n|--------|------|\n| 内存占用降低 | 减少约15-20% |\n| 帧率稳定性提升 | 城镇场景平均提升5-10FPS |\n| 发热控制改善 | SoC温度峰值降低3-5度 |\n| 加载速度优化 | 场景切换速度提升20% |\n\n社区反馈认为优化幅度仍不够，尤其是中低端设备体验改善有限。\n\n---\n\n## 官方已知BUG修复进度\n\n公测首5天官方发布致歉信，列出45条BUG修复清单。截至1.1版本，关键移动端BUG修复状态：\n\n| BUG | 状态 |\n|-----|------|\n| 安卓频繁闪退 | 部分修复（中端机仍有问题） |\n| iPhone 12系列黑屏 | 已修复 |\n| 城镇场景卡顿 | 部分修复 |\n| 战斗中模型丢失 | 已修复 |\n| 充电时发热异常 | 已修复 |\n| 载具驾驶掉帧 | 部分修复 |\n\n---\n\n## 什么时候该换平台？\n\n如果你遇到以下情况，强烈建议切换到PC或PS5端：\n\n- 每次游玩超过15分钟必闪退\n- 城镇场景帧率低于20FPS\n- 手机温度超过45度\n\n异环支持全平台数据互通，PC端免费下载。如果你有PS5，体验最佳。",
     "contentEn": "NTE uses Unreal Engine 5, which demands significant mobile hardware. Since launch, mobile crashes, FPS drops, and overheating have been the biggest community complaints.\n\n## Root Causes\n\n1. Memory pressure: Open world + high-quality assets = extreme RAM usage\n2. GPU load: Real-time lighting and particle effects exceed most mobile GPUs\n3. Thermal bottleneck: Sustained load causes SoC throttling\n\n## Optimal Graphics Settings\n\n### Flagship (Snapdragon 8 Gen3 / Dimensity 9300 / A17 Pro+)\n- Quality: High | Resolution: Native | FPS: 60 | Shadows: Medium\n- Volumetric Light: OFF (biggest performance killer) | Motion Blur: OFF\n\n### Mid-Range (Snapdragon 8+ / Dimensity 8200 / A15)\n- Quality: Medium | Resolution: 75% | FPS: 30-45 | All effects: Low\n\n### Low-End\nNot recommended. Use PC or PS5 instead (cross-save supported).\n\n## Crash Fixes\n\n### Android: Memory (most common)\n- 6GB RAM: Will crash — close ALL background apps\n- 8GB RAM: Moderate risk\n- 12GB+ RAM: Rarely crashes\n\n### iOS: Memory pressure (iPhone 12/13)\n- Restart before playing, disable Background App Refresh\n\n## Overheating Solutions\n- Remove case (+30% cooling)\n- Use semiconductor cooler\n- Lower FPS to 30, disable volumetric light\n- Avoid playing while charging\n\n## Version 1.1 Mobile Optimizations\n\n| Area | Improvement |\n|------|-------------|\n| Memory usage | -15-20% |\n| FPS stability | +5-10 FPS in cities |\n| Thermal control | -3-5C peak temp |\n| Loading speed | +20% |\n\n## When to Switch Platforms\nSwitch to PC or PS5 if: crashes every 15+ minutes, city FPS below 20, phone temp exceeds 45C. Cross-save is fully supported.",
     "image": "/images/blog/nte-cinema-scene-turquoise-girl.webp",
-    "imageAlt": "NTE mobile optimization guide - crash, FPS, and overheating fixes"
+    "imageAlt": "NTE mobile optimization guide - crash, FPS, and overheating fixes",
+    "contentTw": "## 先說明版本狀態\n\n本頁整理的是2026年6月的手機端優化建議，系統選項和客戶端版本可能已經改變。遇到閃退、掉幀或發熱時，先更新遊戲和系統，再以目前客戶端可用選項為準。\n\n## 通用排查順序\n\n1. 關閉背景應用並確認儲存空間充足。\n2. 降低畫質、陰影、特效和幀率設定。\n3. 避免在高溫環境或充電時長時間遊玩。\n4. 重啟遊戲，必要時校驗或重新下載資源。\n5. 若問題持續，記錄設備型號、系統版本和錯誤時間，向官方客服回報。\n\n不要把單一設備的測試結果當成所有手機的保證。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-revenue-data-analysis-2026",
@@ -4707,7 +4985,10 @@
         "labelEn": "Gacha System Guide",
         "href": "/gacha"
       }
-    ]
+    ],
+    "contentTw": "本頁是2026年6月的收入與市場分析，數據和估算屬於當時的時間截面，不能視為目前營收或玩家規模的即時報告。閱讀時應區分官方披露、第三方估算和文章推論，不要把估算值寫成確定事實。遊戲收入會受平台、地區、活動和版本影響，最新結論應以有日期和來源的公開資料為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "nte-ibone-partner-return-event-guide",
@@ -4749,7 +5030,10 @@
     "content": "异环 1.2 版本里的 **伊波恩合伙人行动**，本质上是一轮回流活动：你去邀请满足条件的老玩家回归，双方完成对应任务后都能拿奖励。对于大多数玩家来说，最关心的通常是三件事：**我能不能算回归？邀请码怎么填？940 环石到底怎么拿满？**\n\n## 一、活动时间\n\n这轮活动和 1.2 版本同步开启，官方给出的结束时间是：\n\n- **开始**：1.2 版本更新后\n- **结束**：**2026-08-13 05:59:59（UTC+8）**\n\n如果你准备拉朋友回坑，最好别拖到最后几天，因为回归状态和任务完成都需要时间。\n\n## 二、谁算“回归玩家”？\n\n按照当前官方口径，回归玩家通常需要同时满足：\n\n1. 连续离线天数达到要求\n2. 猎人等级达到要求\n3. 完成指定主线进度\n\n站内调研里最关键的一点是：**不要把“好久没玩”直接等于“符合回归”。** 最保险的判断方式，还是让对方登录活动页或游戏内入口，看系统有没有直接识别成回归状态。\n\n## 三、邀请码怎么用？\n\n活动期内，每个玩家会拿到自己的专属邀请码或邀请链接。更实用的操作顺序是：\n\n1. 先确认被邀请人是否满足回归条件\n2. 再让对方通过你的专属链接或邀请码进入活动\n3. 登录后完成活动指定任务\n4. 任务进度刷新后，双方再去活动页领取对应奖励\n\n如果你发现“明明回来了但没算”，先别急着重复操作，通常要先检查：\n\n- 回归条件是否真的满足\n- 是否通过正确活动入口进入\n- 任务是否已经完成但页面还没刷新\n\n## 四、940 环石怎么拿？\n\n这类活动的奖励一般不是一次性直接发满，而是分阶段领取。你可以把它理解成：\n\n- 先拿基础邀请奖励\n- 再随着回归玩家完成任务，逐步解锁更多奖励\n- 最后把高价值部分拼到接近 **940 环石** 的上限\n\n所以更现实的目标不是“一开活动就拿满”，而是**先找一个符合条件的回归玩家，把基础奖励和第一阶段奖励稳定拿到。**\n\n## 五、最常见的问题\n\n### 1. 为什么对方回来了还是不算？\n\n最常见原因有三个：\n\n- 离线时间不够\n- 账号进度不够\n- 活动入口或邀请码使用顺序不对\n\n### 2. 这个活动值得折腾吗？\n\n如果你本来就有可拉回的朋友，值得。因为它属于 1.2 版本里少数**额外加一层环石收益**的活动。对攒抽的人来说，价值不低。\n\n### 3. 没有回归好友怎么办？\n\n那就把这页当作活动说明和奖励归档。你至少能知道版本内还有这一块资源口，不会错过信息。\n\n## 六、这页之后建议接着看什么\n\n- `1.2 更新日志`：确认这轮版本环境\n- `九百九十九夜攻略`：看回坑后最值得玩的核心玩法\n- `兑换码页面`：顺手把当前能领的码都补掉\n\n---\n\n*最后更新：2026-07-11。后续如果官方对回归判定、邀请码规则或奖励分段有更具体说明，会继续补充。*",
     "contentEn": "The **Ibone Partner Event** in NTE Version 1.2 is basically a return-player campaign. You invite eligible inactive players back, they complete event tasks, and both sides can claim rewards. In practice, most players care about three questions: **who counts as a returning player, how invite codes work, and how the 940 Ringstone reward total is reached.**\n\n## Event Duration\n\n- Starts with the Version 1.2 update\n- Ends on **August 13, 2026 at 05:59:59 (UTC+8)**\n\n## Who Counts as Returning?\n\nIn general, the system checks things like:\n\n1. enough consecutive offline days\n2. enough Hunter level progress\n3. enough main-story completion\n\nThe practical advice is simple: do not assume “hasn't played in a while” automatically means “eligible.” The safest check is whether the game or event page marks that account as a valid return target.\n\n## How Invite Codes Work\n\nA practical order is:\n\n1. confirm the invited player is eligible\n2. have them enter through the correct invite link or code\n3. let them finish the required tasks\n4. refresh and claim milestone rewards from the event page\n\n## About the 940 Ringstone Total\n\nTreat the 940 total as a staged reward ceiling, not as a single instant payout. Usually you claim a base reward first, then unlock more as the returning player progresses through tasks.\n\n## Why This Matters\n\nIf you are already saving for later banners, this event is one of the cleaner extra Ringstone sources inside the Version 1.2 cycle.\n\n---\n\n*Last updated: 2026-07-11. This guide will be updated again if the live rules or reward structure become more explicit.*",
     "image": "/images/blog/nte-world-urban-night-street.webp",
-    "imageAlt": "NTE Ibone Partner return event guide"
+    "imageAlt": "NTE Ibone Partner return event guide",
+    "contentTw": "伊波恩合夥人活動是1.2版本的回歸玩家活動。邀請符合條件的休眠玩家回歸，完成活動任務後，雙方可領取階段獎勵。\n\n## 操作順序\n\n1. 先在活動頁確認對方是否符合回歸資格。\n2. 使用正確的邀請連結或邀請碼。\n3. 由回歸玩家完成指定任務。\n4. 回到活動頁刷新並領取里程碑獎勵。\n\n940環石應理解為分階段的獎勵上限，而非一次性即時發放。活動期限、資格條件和獎勵結構如有變動，請以遊戲內活動頁為準。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "cloud-yihuan-pc-guide",
@@ -4851,7 +5135,9 @@
         "answer": "Cloud Yihuan is best for players with low-spec PCs, Mac fallback needs, quick daily logins, or anyone who wants to avoid a full local install. Heavy long-session players should usually prefer a local client if their hardware can handle it.",
         "answerZh": "云异环适合低配置电脑、Mac 过渡、只想短时清日常或不想安装完整客户端的玩家。如果你每天长时间高强度游玩，且设备配置够用，通常更适合本地客户端。"
       }
-    ]
+    ],
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   },
   {
     "id": "shinku-vs-iroi-pull-guide",
@@ -4898,6 +5184,9 @@
         "labelEn": "Version 1.2 Overview",
         "href": "/blog/nte-version-1-2-update-overview"
       }
-    ]
+    ],
+    "contentTw": "真紅與伊洛伊解決的是兩種不同的帳號問題：真紅補主C傷害，伊洛伊補治療、增益和循環穩定性。\n\n## 如何選擇\n\n- 缺少可靠爆發主C：優先考慮真紅。\n- 已有輸出但經常因生存、能量或循環失敗：考慮伊洛伊。\n- 兩隊都有成形輸出和支援：可以保留資源。\n\n兩者可以同隊使用，但是否值得同時抽取取決於保底、可用資源和後續版本計畫。先確認自己是在解決傷害問題還是生存問題，再依照當前客戶端卡池時間做決定。未確認的未來卡池不要作為必然前提。",
+    "reviewedAt": "2026-09-29",
+    "verificationStatus": "historical"
   }
 ]

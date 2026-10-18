@@ -15,7 +15,7 @@
 | 搜索 | fuse.js | 权重: name(2) > description(1), 阈值 0.4 |
 | 地图图片 | 瓦片方案 | `L.tileLayer` 加载 `{z}/{x}/{y}.webp` |
 | 进度存储 | localStorage | key: `nte-map-progress`, `nte-map-filters` |
-| 国际化 | 3 语言 (zh/tw/en) | `lib/i18n.ts` 的 `t()` 函数 |
+| 国际化 | 3 语言 (zh/tw/en)，以 `lib/i18n.ts` 为准 | `t()` 函数与数据字段回退 |
 | SSR 兼容 | dynamic import | `InteractiveMap` 通过 `dynamic(() => import(...), { ssr: false })` |
 | 图片处理 | sharp | 瓦片生成脚本使用 |
 | 测试 | vitest | `lib/__tests__/map-utils.test.ts` |
