@@ -75,9 +75,9 @@ describe("late Version 1.3 player-decision content", () => {
 
   it("keeps next-version FAQ claims explicitly verified", () => {
     expect(nextVersionFaq).toBeDefined();
-    expect(nextVersionFaq!.answer).toContain("未经官方前瞻");
-    expect(nextVersionFaq!.answerEn).toContain("unverified");
-    expect(nextVersionFaq!.tags).toContain("待确认");
+    expect(nextVersionFaq!.answer).toContain("官方已确认");
+    expect(nextVersionFaq!.answerEn).toContain("Official notices confirm");
+    expect(nextVersionFaq!.tags).toContain("官方公告");
   });
 
   it("keeps all live 1.3 map regions available to sitemap generation", () => {
@@ -86,7 +86,7 @@ describe("late Version 1.3 player-decision content", () => {
 
   it("keeps a reviewed version-operations checklist with explicit status", () => {
     expect(operations.reviewedAt).toBeTruthy();
-    expect(operations.currentVersion).toBe("1.3");
+    expect(operations.currentVersion).toBe("1.4");
     expect(operations.checklist.length).toBeGreaterThanOrEqual(4);
     expect(operations.checklist.map((item) => item.status)).toEqual(expect.arrayContaining(["confirmed", "live", "watch"]));
   });
@@ -105,14 +105,14 @@ describe("late Version 1.3 player-decision content", () => {
   });
 
   it("keeps unverified livestream codes out of the active resource pool", () => {
-    expect(redeemCodeDataset.reviewedAt).toBe("2026-09-29");
+    expect(redeemCodeDataset.reviewedAt).toBe("2026-10-18");
     const staleLivestreamCodes = ["999NIGHTS", "IROI0729", "SHINKU0708"];
     expect(redeemCodeDataset.codes.filter((code) => staleLivestreamCodes.includes(code.code)).every((code) => code.status === "unknown")).toBe(true);
     expect(redeemCodeDataset.codes.filter((code) => code.status === "active").every((code) => !staleLivestreamCodes.includes(code.code))).toBe(true);
   });
 
   it("uses the reviewed date as a boundary for live decision data", () => {
-    expect(operations.reviewedAt).toBe("2026-09-29");
+    expect(operations.reviewedAt).toBe("2026-10-18");
     expect(changelogsData.find((changelog) => changelog.version === operations.currentVersion)?.verificationStatus).toBe("live");
   });
 
@@ -143,7 +143,7 @@ describe("late Version 1.3 player-decision content", () => {
   it("indexes current decision content in every supported locale", () => {
     const searchIndex = require("../../public/search-index.json");
     const settings = searchIndex.filter((item: { id: string }) => item.id === "nte-best-settings-guide");
-    const livePatch = searchIndex.filter((item: { id: string }) => item.id === "1.3");
+    const livePatch = searchIndex.filter((item: { id: string }) => item.id === "1.4");
     expect(settings).toHaveLength(3);
     expect(settings.map((item: { url: string }) => item.url)).toEqual(expect.arrayContaining([
       "/zh/blog/nte-best-settings-guide/",
