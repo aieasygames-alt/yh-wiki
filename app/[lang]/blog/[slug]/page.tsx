@@ -12,6 +12,7 @@ import { FaqSection } from "../../../../components/FaqSection";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import { BlogImage } from "../../../../components/BlogImage";
 import dynamic from "next/dynamic";
+import { ContentStatus, type VerificationStatus } from "../../../../components/ContentStatus";
 
 const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
@@ -106,6 +107,14 @@ export default async function BlogDetailPage({
           </time>
         </div>
         <h1 className="text-2xl font-bold mb-6">{enSeo?.h1 || title}</h1>
+        <div className="mb-6">
+          <ContentStatus
+            locale={locale}
+            status={(post.verificationStatus || "historical") as VerificationStatus}
+            reviewedAt={post.reviewedAt}
+            sourceUrl={post.sourceUrl}
+          />
+        </div>
         {post.image && (
           <BlogImage src={post.image} alt={post.imageAlt || title} />
         )}
