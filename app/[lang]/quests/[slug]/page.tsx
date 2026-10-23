@@ -6,9 +6,8 @@ import { Breadcrumb } from "../../../../components/Breadcrumb";
 import { DataStatusBanner } from "../../../../components/DataStatusBanner";
 import { ArticleJsonLd } from "../../../../components/JsonLd";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
-import dynamic from "next/dynamic";
 
-const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
+
 
 function buildQuestMetaDescription(args: {
   locale: Locale;
@@ -256,9 +255,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
           </div>
         </section>
 
-        <div className="mt-8">
-          <GiscusComments locale={locale} term={`quest-${slug}`} />
-        </div>
+
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T08:03:30.561Z",
+  "generatedAt": "2026-10-23T23:41:13.871Z",
   "reviewAfterDays": 45,
   "totals": {
     "tracked": 220,
@@ -20,7 +20,7 @@
       "href": "/blog/nte-best-settings-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 206,
+      "ageDays": 211,
       "needsReview": true
     },
     {
@@ -32,7 +32,7 @@
       "href": "/blog/nte-version-1-0-update",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 204,
+      "ageDays": 209,
       "needsReview": true
     },
     {
@@ -44,7 +44,7 @@
       "href": "/blog/nte-gacha-system-explained",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 199,
+      "ageDays": 204,
       "needsReview": true
     },
     {
@@ -56,7 +56,7 @@
       "href": "/blog/nte-all-characters-overview",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 197,
+      "ageDays": 202,
       "needsReview": true
     },
     {
@@ -68,7 +68,7 @@
       "href": "/blog/nte-tier-list-1-0",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 189,
+      "ageDays": 194,
       "needsReview": true
     },
     {
@@ -80,7 +80,7 @@
       "href": "/blog/nte-launch-6-choose-1",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 184,
+      "ageDays": 189,
       "needsReview": true
     },
     {
@@ -92,7 +92,7 @@
       "href": "/blog/nte-livestream-summary",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 183,
+      "ageDays": 188,
       "needsReview": true
     },
     {
@@ -104,7 +104,7 @@
       "href": "/blog/nte-gacha-no-5050",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 182,
+      "ageDays": 187,
       "needsReview": true
     },
     {
@@ -116,7 +116,7 @@
       "href": "/blog/nte-launch-free-pulls-breakdown",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 182,
+      "ageDays": 187,
       "needsReview": true
     },
     {
@@ -128,7 +128,7 @@
       "href": "/blog/nte-pre-download-day-one",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 181,
+      "ageDays": 186,
       "needsReview": true
     },
     {
@@ -140,7 +140,7 @@
       "href": "/blog/nte-global-launch-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 176,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -152,7 +152,7 @@
       "href": "/blog/nte-global-launch-live-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 173,
+      "ageDays": 178,
       "needsReview": true
     }
   ],
@@ -166,7 +166,7 @@
       "href": "/blog/nte-best-settings-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 206,
+      "ageDays": 211,
       "needsReview": true
     },
     {
@@ -178,7 +178,7 @@
       "href": "/blog/nte-version-1-0-update",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 204,
+      "ageDays": 209,
       "needsReview": true
     },
     {
@@ -190,7 +190,7 @@
       "href": "/blog/nte-gacha-system-explained",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 199,
+      "ageDays": 204,
       "needsReview": true
     },
     {
@@ -202,7 +202,7 @@
       "href": "/blog/nte-all-characters-overview",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 197,
+      "ageDays": 202,
       "needsReview": true
     },
     {
@@ -214,7 +214,7 @@
       "href": "/blog/nte-tier-list-1-0",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 189,
+      "ageDays": 194,
       "needsReview": true
     },
     {
@@ -226,7 +226,7 @@
       "href": "/blog/nte-launch-6-choose-1",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 184,
+      "ageDays": 189,
       "needsReview": true
     },
     {
@@ -238,7 +238,7 @@
       "href": "/blog/nte-livestream-summary",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 183,
+      "ageDays": 188,
       "needsReview": true
     },
     {
@@ -250,7 +250,7 @@
       "href": "/blog/nte-gacha-no-5050",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 182,
+      "ageDays": 187,
       "needsReview": true
     },
     {
@@ -262,7 +262,7 @@
       "href": "/blog/nte-launch-free-pulls-breakdown",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 182,
+      "ageDays": 187,
       "needsReview": true
     },
     {
@@ -274,7 +274,7 @@
       "href": "/blog/nte-pre-download-day-one",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 181,
+      "ageDays": 186,
       "needsReview": true
     },
     {
@@ -286,7 +286,7 @@
       "href": "/blog/nte-global-launch-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 176,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -298,7 +298,7 @@
       "href": "/blog/nte-global-launch-live-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 173,
+      "ageDays": 178,
       "needsReview": true
     },
     {
@@ -310,7 +310,7 @@
       "href": "/guides/download-install-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -322,7 +322,7 @@
       "href": "/guides/gacha-strategy",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -334,7 +334,7 @@
       "href": "/guides/tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -346,7 +346,7 @@
       "href": "/guides/detailed-tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -358,7 +358,7 @@
       "href": "/guides/weapon-tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -370,7 +370,7 @@
       "href": "/guides/performance-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -382,7 +382,7 @@
       "href": "/guides/talent-priority",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -394,7 +394,7 @@
       "href": "/guides/character-selector-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -406,7 +406,7 @@
       "href": "/guides/arc-tier-list",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -418,7 +418,7 @@
       "href": "/guides/leveling-priority",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 171,
+      "ageDays": 176,
       "needsReview": true
     },
     {
@@ -430,7 +430,7 @@
       "href": "/blog/nte-material-farming-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 168,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -442,7 +442,7 @@
       "href": "/blog/nte-best-disk-sets-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 168,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -454,7 +454,7 @@
       "href": "/blog/nte-character-tier-list-2026-may",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 164,
+      "ageDays": 169,
       "needsReview": true
     },
     {
@@ -466,7 +466,7 @@
       "href": "/blog/nte-character-tier-list-may-2026",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 164,
+      "ageDays": 169,
       "needsReview": true
     },
     {
@@ -478,7 +478,7 @@
       "href": "/blog/nte-weapon-banner-deep-dive",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 159,
+      "ageDays": 164,
       "needsReview": true
     },
     {
@@ -490,7 +490,7 @@
       "href": "/blog/nte-f2p-complete-resource-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -502,7 +502,7 @@
       "href": "/blog/nte-gacha-pity-system-complete-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -514,7 +514,7 @@
       "href": "/blog/nte-system-requirements-can-you-run-it",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -526,7 +526,7 @@
       "href": "/blog/nte-lacrimosa-build-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 147,
+      "ageDays": 152,
       "needsReview": true
     },
     {
@@ -538,7 +538,7 @@
       "href": "/blog/is-nte-pay-to-win",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -550,7 +550,7 @@
       "href": "/blog/nte-version-1-2-preview-leaked-characters",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -562,7 +562,7 @@
       "href": "/blog/nte-affinity-costume-system-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -574,7 +574,7 @@
       "href": "/blog/nte-f2p-7-day-progression-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -586,7 +586,7 @@
       "href": "/guides/nte-controller-support",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -598,7 +598,7 @@
       "href": "/guides/nte-character-creation",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -610,7 +610,7 @@
       "href": "/guides/nte-romance-system",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -622,7 +622,7 @@
       "href": "/guides/nte-cross-platform",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -634,7 +634,7 @@
       "href": "/blog/nte-gacha-system-analysis",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -646,7 +646,7 @@
       "href": "/guides/bond-system-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 121,
+      "ageDays": 126,
       "needsReview": true
     },
     {
@@ -658,7 +658,7 @@
       "href": "/guides/gacha-tracker-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 121,
+      "ageDays": 126,
       "needsReview": true
     },
     {
@@ -670,7 +670,7 @@
       "href": "/guides/mobile-120fps-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 121,
+      "ageDays": 126,
       "needsReview": true
     },
     {
@@ -682,7 +682,7 @@
       "href": "/guides/anomaly-endgame-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 117,
+      "ageDays": 122,
       "needsReview": true
     },
     {
@@ -694,7 +694,7 @@
       "href": "/blog/nte-v1-2-pull-priority-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 112,
+      "ageDays": 117,
       "needsReview": true
     },
     {
@@ -706,7 +706,7 @@
       "href": "/blog/nte-banner-schedule-roadmap",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -718,7 +718,7 @@
       "href": "/blog/nte-illica-character-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -730,7 +730,7 @@
       "href": "/blog/nte-zhenhong-character-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -742,7 +742,7 @@
       "href": "/blog/nte-zhenhong-build-guide-1-2",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -754,7 +754,7 @@
       "href": "/blog/nte-codes-july-2026",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -766,7 +766,7 @@
       "href": "/blog/nte-iroi-banner-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -778,7 +778,7 @@
       "href": "/blog/nte-zankou-1-3-save-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -790,7 +790,7 @@
       "href": "/guides/zhenhong-build-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 99,
+      "ageDays": 104,
       "needsReview": true
     },
     {
@@ -802,7 +802,7 @@
       "href": "/blog/nte-ibone-partner-return-event-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 99,
+      "ageDays": 104,
       "needsReview": true
     },
     {
@@ -814,7 +814,7 @@
       "href": "/blog/cloud-yihuan-pc-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 99,
+      "ageDays": 104,
       "needsReview": true
     },
     {
@@ -826,7 +826,7 @@
       "href": "/blog/shinku-vs-iroi-pull-guide",
       "priority": "high",
       "priorityReason": "Can affect current player decisions or version facts.",
-      "ageDays": 75,
+      "ageDays": 80,
       "needsReview": true
     },
     {
@@ -838,7 +838,7 @@
       "href": "/blog/nte-open-world-exploration-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 202,
+      "ageDays": 207,
       "needsReview": true
     },
     {
@@ -850,7 +850,7 @@
       "href": "/blog/nte-v10-launch-events",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 176,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -862,7 +862,7 @@
       "href": "/guides/team-building",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -874,7 +874,7 @@
       "href": "/guides/exploration-tips",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -886,7 +886,7 @@
       "href": "/guides/boss-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -898,7 +898,7 @@
       "href": "/guides/disk-build",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -910,7 +910,7 @@
       "href": "/guides/farming-efficiency",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -922,7 +922,7 @@
       "href": "/guides/event-guides",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -934,7 +934,7 @@
       "href": "/guides/arc-disc-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -946,7 +946,7 @@
       "href": "/guides/team-composition-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -958,7 +958,7 @@
       "href": "/guides/boss-guide-comprehensive",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -970,7 +970,7 @@
       "href": "/guides/awakening-system-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -982,7 +982,7 @@
       "href": "/guides/hidden-quests-chests-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -994,7 +994,7 @@
       "href": "/guides/vehicle-system-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1006,7 +1006,7 @@
       "href": "/guides/nanally-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1018,7 +1018,7 @@
       "href": "/guides/jiuyuan-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1030,7 +1030,7 @@
       "href": "/guides/baicang-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1042,7 +1042,7 @@
       "href": "/guides/mint-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1054,7 +1054,7 @@
       "href": "/guides/disk-set-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1066,7 +1066,7 @@
       "href": "/blog/nte-zero-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 170,
+      "ageDays": 175,
       "needsReview": true
     },
     {
@@ -1078,7 +1078,7 @@
       "href": "/blog/nte-jiuyuan-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 170,
+      "ageDays": 175,
       "needsReview": true
     },
     {
@@ -1090,7 +1090,7 @@
       "href": "/blog/nte-best-team-comps-1-0",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 170,
+      "ageDays": 175,
       "needsReview": true
     },
     {
@@ -1102,7 +1102,7 @@
       "href": "/blog/nte-nanally-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 170,
+      "ageDays": 175,
       "needsReview": true
     },
     {
@@ -1114,7 +1114,7 @@
       "href": "/blog/nte-sakiri-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 168,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -1126,7 +1126,7 @@
       "href": "/blog/nte-mint-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 168,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -1138,7 +1138,7 @@
       "href": "/guides/city-tycoon-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 167,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1150,7 +1150,7 @@
       "href": "/blog/nte-porsche-collaboration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 167,
+      "ageDays": 172,
       "needsReview": true
     },
     {
@@ -1162,7 +1162,7 @@
       "href": "/blog/nte-may-events-anomaly-zones-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 165,
+      "ageDays": 170,
       "needsReview": true
     },
     {
@@ -1174,7 +1174,7 @@
       "href": "/blog/nte-hotori-practical-tips-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 159,
+      "ageDays": 164,
       "needsReview": true
     },
     {
@@ -1186,7 +1186,7 @@
       "href": "/blog/nte-baicang-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 157,
+      "ageDays": 162,
       "needsReview": true
     },
     {
@@ -1198,7 +1198,7 @@
       "href": "/blog/nte-chiz-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 157,
+      "ageDays": 162,
       "needsReview": true
     },
     {
@@ -1210,7 +1210,7 @@
       "href": "/blog/nte-daffodil-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 157,
+      "ageDays": 162,
       "needsReview": true
     },
     {
@@ -1222,7 +1222,7 @@
       "href": "/blog/nte-hathor-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 157,
+      "ageDays": 162,
       "needsReview": true
     },
     {
@@ -1234,7 +1234,7 @@
       "href": "/blog/nte-racing-driving-complete-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -1246,7 +1246,7 @@
       "href": "/blog/nte-beginner-week-one-checklist",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -1258,7 +1258,7 @@
       "href": "/guides/where-is-home-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 147,
+      "ageDays": 152,
       "needsReview": true
     },
     {
@@ -1270,7 +1270,7 @@
       "href": "/blog/nte-hotori-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 147,
+      "ageDays": 152,
       "needsReview": true
     },
     {
@@ -1282,7 +1282,7 @@
       "href": "/guides/elemental-reactions",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 146,
+      "ageDays": 151,
       "needsReview": true
     },
     {
@@ -1294,7 +1294,7 @@
       "href": "/blog/nte-cosmos-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1306,7 +1306,7 @@
       "href": "/blog/nte-anima-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1318,7 +1318,7 @@
       "href": "/blog/nte-chaos-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1330,7 +1330,7 @@
       "href": "/blog/nte-incantation-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1342,7 +1342,7 @@
       "href": "/blog/nte-psyche-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1354,7 +1354,7 @@
       "href": "/blog/nte-lakshana-team-comps-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1366,7 +1366,7 @@
       "href": "/blog/nte-v11-dreamwalk-corridor-release-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 143,
+      "ageDays": 148,
       "needsReview": true
     },
     {
@@ -1378,7 +1378,7 @@
       "href": "/blog/nte-version-1-1-event-schedule-global-server",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -1390,7 +1390,7 @@
       "href": "/guides/lacrimosa-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1402,7 +1402,7 @@
       "href": "/guides/chaos-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1414,7 +1414,7 @@
       "href": "/guides/daffodil-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1426,7 +1426,7 @@
       "href": "/guides/hathor-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1438,7 +1438,7 @@
       "href": "/guides/hotori-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1450,7 +1450,7 @@
       "href": "/guides/illica-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1462,7 +1462,7 @@
       "href": "/guides/sakiri-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1474,7 +1474,7 @@
       "href": "/guides/fadia-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1486,7 +1486,7 @@
       "href": "/guides/chiz-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 139,
+      "ageDays": 144,
       "needsReview": true
     },
     {
@@ -1498,7 +1498,7 @@
       "href": "/guides/amusement-park-exploration-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 136,
+      "ageDays": 141,
       "needsReview": true
     },
     {
@@ -1510,7 +1510,7 @@
       "href": "/guides/porsche-collab-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 136,
+      "ageDays": 141,
       "needsReview": true
     },
     {
@@ -1522,7 +1522,7 @@
       "href": "/guides/hethereau-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1534,7 +1534,7 @@
       "href": "/guides/groth-island-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1546,7 +1546,7 @@
       "href": "/guides/illusion-town-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1558,7 +1558,7 @@
       "href": "/guides/new-helios-100-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1570,7 +1570,7 @@
       "href": "/guides/xiangyang-island-exploration",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1582,7 +1582,7 @@
       "href": "/guides/headless-iron-rider-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1594,7 +1594,7 @@
       "href": "/guides/black-book-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1606,7 +1606,7 @@
       "href": "/guides/morpheus-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1618,7 +1618,7 @@
       "href": "/guides/sea-prisoner-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1630,7 +1630,7 @@
       "href": "/guides/spotted-butterfly-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1642,7 +1642,7 @@
       "href": "/guides/racing-mode-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1654,7 +1654,7 @@
       "href": "/guides/nelly-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1666,7 +1666,7 @@
       "href": "/guides/skia-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1678,7 +1678,7 @@
       "href": "/guides/adler-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1690,7 +1690,7 @@
       "href": "/guides/haniel-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1702,7 +1702,7 @@
       "href": "/guides/edgar-build-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -1714,7 +1714,7 @@
       "href": "/guides/vehicle-driving-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -1726,7 +1726,7 @@
       "href": "/blog/nte-lacrimosa-strength-analysis",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -1738,7 +1738,7 @@
       "href": "/guides/illica-support-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 117,
+      "ageDays": 122,
       "needsReview": true
     },
     {
@@ -1750,7 +1750,7 @@
       "href": "/guides/warren-continent-collectibles-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 99,
+      "ageDays": 104,
       "needsReview": true
     },
     {
@@ -1762,7 +1762,7 @@
       "href": "/guides/nine-hundred-ninety-nine-nights-farming-guide",
       "priority": "medium",
       "priorityReason": "Can affect progression, exploration, or activity planning.",
-      "ageDays": 75,
+      "ageDays": 80,
       "needsReview": true
     },
     {
@@ -1774,7 +1774,7 @@
       "href": "/blog/nte-pre-launch-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 195,
+      "ageDays": 200,
       "needsReview": true
     },
     {
@@ -1786,7 +1786,7 @@
       "href": "/blog/nte-cbt-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 193,
+      "ageDays": 198,
       "needsReview": true
     },
     {
@@ -1798,7 +1798,7 @@
       "href": "/blog/nte-vs-genshin-vs-wuthering-waves",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 191,
+      "ageDays": 196,
       "needsReview": true
     },
     {
@@ -1810,7 +1810,7 @@
       "href": "/blog/nte-launch-new-features",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 181,
+      "ageDays": 186,
       "needsReview": true
     },
     {
@@ -1822,7 +1822,7 @@
       "href": "/blog/nte-day-one-checklist",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 179,
+      "ageDays": 184,
       "needsReview": true
     },
     {
@@ -1834,7 +1834,7 @@
       "href": "/blog/nte-stamina-week-1-plan",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 179,
+      "ageDays": 184,
       "needsReview": true
     },
     {
@@ -1846,7 +1846,7 @@
       "href": "/blog/nte-collapse-ring-fusion-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 179,
+      "ageDays": 184,
       "needsReview": true
     },
     {
@@ -1858,7 +1858,7 @@
       "href": "/blog/nte-launch-collaborations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 178,
+      "ageDays": 183,
       "needsReview": true
     },
     {
@@ -1870,7 +1870,7 @@
       "href": "/blog/nte-anime-references-easter-eggs",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 177,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -1882,7 +1882,7 @@
       "href": "/blog/nte-v11-collaboration-preview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 177,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -1894,7 +1894,7 @@
       "href": "/blog/day-one-beginner-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 177,
+      "ageDays": 182,
       "needsReview": true
     },
     {
@@ -1906,7 +1906,7 @@
       "href": "/blog/nte-p5r-tof-music-collab",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 176,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -1918,7 +1918,7 @@
       "href": "/blog/nte-launch-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 176,
+      "ageDays": 181,
       "needsReview": true
     },
     {
@@ -1930,7 +1930,7 @@
       "href": "/blog/nte-launch-compensation-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 174,
+      "ageDays": 179,
       "needsReview": true
     },
     {
@@ -1942,7 +1942,7 @@
       "href": "/blog/nte-alipay-qualcomm-collab-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 174,
+      "ageDays": 179,
       "needsReview": true
     },
     {
@@ -1954,7 +1954,7 @@
       "href": "/blog/nte-v11-preview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 173,
+      "ageDays": 178,
       "needsReview": true
     },
     {
@@ -1966,7 +1966,7 @@
       "href": "/blog/nte-launch-deep-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 173,
+      "ageDays": 178,
       "needsReview": true
     },
     {
@@ -1978,7 +1978,7 @@
       "href": "/guides/beginner-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -1990,7 +1990,7 @@
       "href": "/guides/daily-routine",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2002,7 +2002,7 @@
       "href": "/guides/weapon-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2014,7 +2014,7 @@
       "href": "/guides/endgame-content",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2026,7 +2026,7 @@
       "href": "/guides/game-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2038,7 +2038,7 @@
       "href": "/guides/damage-formula",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2050,7 +2050,7 @@
       "href": "/guides/f2p-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2062,7 +2062,7 @@
       "href": "/guides/reroll-guide-detailed",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2074,7 +2074,7 @@
       "href": "/guides/anomaly-dungeon",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2086,7 +2086,7 @@
       "href": "/guides/pvp-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2098,7 +2098,7 @@
       "href": "/guides/collectibles-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2110,7 +2110,7 @@
       "href": "/guides/farming-route",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2122,7 +2122,7 @@
       "href": "/guides/patch-notes",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2134,7 +2134,7 @@
       "href": "/guides/housing-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2146,7 +2146,7 @@
       "href": "/guides/photo-mode-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2158,7 +2158,7 @@
       "href": "/guides/money-making-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2170,7 +2170,7 @@
       "href": "/guides/shop-exchange-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2182,7 +2182,7 @@
       "href": "/blog/nte-global-launch-day-one",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 172,
+      "ageDays": 177,
       "needsReview": true
     },
     {
@@ -2194,7 +2194,7 @@
       "href": "/blog/nte-global-server-recharge-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 171,
+      "ageDays": 176,
       "needsReview": true
     },
     {
@@ -2206,7 +2206,7 @@
       "href": "/guides/stamina-management",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 170,
+      "ageDays": 175,
       "needsReview": true
     },
     {
@@ -2218,7 +2218,7 @@
       "href": "/blog/nte-week-one-recap",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 168,
+      "ageDays": 173,
       "needsReview": true
     },
     {
@@ -2230,7 +2230,7 @@
       "href": "/blog/nte-porsche-p5r-collab",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 166,
+      "ageDays": 171,
       "needsReview": true
     },
     {
@@ -2242,7 +2242,7 @@
       "href": "/blog/nte-fons-farming-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 163,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -2254,7 +2254,7 @@
       "href": "/blog/nte-porsche-collab-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 163,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -2266,7 +2266,7 @@
       "href": "/blog/nte-common-issues-fixes-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 163,
+      "ageDays": 168,
       "needsReview": true
     },
     {
@@ -2278,7 +2278,7 @@
       "href": "/blog/best-sites-like-poki-free-browser-games-2026",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 162,
+      "ageDays": 167,
       "needsReview": true
     },
     {
@@ -2290,7 +2290,7 @@
       "href": "/blog/nte-beginner-farming-priority-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 159,
+      "ageDays": 164,
       "needsReview": true
     },
     {
@@ -2302,7 +2302,7 @@
       "href": "/blog/nte-v11-preview-may-2026",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 159,
+      "ageDays": 164,
       "needsReview": true
     },
     {
@@ -2314,7 +2314,7 @@
       "href": "/blog/nte-daily-weekly-task-efficiency-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -2326,7 +2326,7 @@
       "href": "/blog/nte-city-tycoon-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 155,
+      "ageDays": 160,
       "needsReview": true
     },
     {
@@ -2338,7 +2338,7 @@
       "href": "/blog/nte-version-1-1-update-overview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 153,
+      "ageDays": 158,
       "needsReview": true
     },
     {
@@ -2350,7 +2350,7 @@
       "href": "/blog/nte-may-19-hotfix-v11-announced",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 151,
+      "ageDays": 156,
       "needsReview": true
     },
     {
@@ -2362,7 +2362,7 @@
       "href": "/blog/nte-v11-preview-livestream",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 148,
+      "ageDays": 153,
       "needsReview": true
     },
     {
@@ -2374,7 +2374,7 @@
       "href": "/guides/beginner-mistakes",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 146,
+      "ageDays": 151,
       "needsReview": true
     },
     {
@@ -2386,7 +2386,7 @@
       "href": "/blog/nte-city-tycoon-economy-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -2398,7 +2398,7 @@
       "href": "/blog/nte-sunward-island-complete-collection-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -2410,7 +2410,7 @@
       "href": "/blog/nte-cohabitation-roommate-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -2422,7 +2422,7 @@
       "href": "/blog/nte-porsche-918-spyder-collaboration-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 140,
+      "ageDays": 145,
       "needsReview": true
     },
     {
@@ -2434,7 +2434,7 @@
       "href": "/blog/nte-encounter-bond-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 136,
+      "ageDays": 141,
       "needsReview": true
     },
     {
@@ -2446,7 +2446,7 @@
       "href": "/guides/nte-pvp-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2458,7 +2458,7 @@
       "href": "/guides/nte-worth-playing",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2470,7 +2470,7 @@
       "href": "/guides/oracle-stones-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2482,7 +2482,7 @@
       "href": "/guides/gift-21-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2494,7 +2494,7 @@
       "href": "/guides/phone-booth-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2506,7 +2506,7 @@
       "href": "/guides/chameleon-packages-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2518,7 +2518,7 @@
       "href": "/guides/safe-locations",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 134,
+      "ageDays": 139,
       "needsReview": true
     },
     {
@@ -2530,7 +2530,7 @@
       "href": "/guides/prison-wanted-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -2542,7 +2542,7 @@
       "href": "/guides/fishing-system-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -2554,7 +2554,7 @@
       "href": "/guides/fons-farming-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -2566,7 +2566,7 @@
       "href": "/blog/nte-ai-art-controversy-timeline",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -2578,7 +2578,7 @@
       "href": "/blog/nte-version-1-2-preview-shinku-illica",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 130,
+      "ageDays": 135,
       "needsReview": true
     },
     {
@@ -2590,7 +2590,7 @@
       "href": "/blog/nte-not-hoyoverse-developer-clarification",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 121,
+      "ageDays": 126,
       "needsReview": true
     },
     {
@@ -2602,7 +2602,7 @@
       "href": "/blog/is-nte-worth-playing-2026-review",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 121,
+      "ageDays": 126,
       "needsReview": true
     },
     {
@@ -2614,7 +2614,7 @@
       "href": "/blog/nte-mobile-optimization-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 112,
+      "ageDays": 117,
       "needsReview": true
     },
     {
@@ -2626,7 +2626,7 @@
       "href": "/blog/nte-revenue-data-analysis-2026",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 112,
+      "ageDays": 117,
       "needsReview": true
     },
     {
@@ -2638,7 +2638,7 @@
       "href": "/guides/nine-hundred-ninety-nine-nights-mode",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 108,
+      "ageDays": 113,
       "needsReview": true
     },
     {
@@ -2650,7 +2650,7 @@
       "href": "/blog/nte-version-1-2-update-overview",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -2662,7 +2662,7 @@
       "href": "/blog/nte-999-nights-complete-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     },
     {
@@ -2674,7 +2674,7 @@
       "href": "/blog/nte-1-2-free-rewards-guide",
       "priority": "low",
       "priorityReason": "General reference content that should be kept accurate.",
-      "ageDays": 100,
+      "ageDays": 105,
       "needsReview": true
     }
   ]

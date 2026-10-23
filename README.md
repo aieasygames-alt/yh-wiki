@@ -12,7 +12,7 @@
 | 验证 | Zod (数据 schema) |
 | 搜索 | Fuse.js (客户端模糊搜索) |
 | 地图 | Leaflet + react-leaflet |
-| 评论 | @giscus/react (GitHub Discussions) |
+
 | 测试 | Vitest (单元) + Playwright (E2E) |
 | 部署 | GitHub → Cloudflare Pages (自动 Git 集成) |
 
@@ -239,7 +239,7 @@ npm run build
 |---|---|
 | `ArticleContent.tsx` | 富文本文章渲染器 |
 | `JsonLd.tsx` | JSON-LD 结构化数据 (SEO) |
-| `GiscusComments.tsx` | GitHub Discussions 评论 |
+
 | `ExplorerDashboard.tsx` | 探索进度仪表盘 |
 | `GameImage.tsx` | 图片组件 (含 fallback) |
 

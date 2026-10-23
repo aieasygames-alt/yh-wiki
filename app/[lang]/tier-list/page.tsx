@@ -2,7 +2,7 @@ import { t, isZhLocale, Locale, hreflangAlternates } from "../../../lib/i18n";
 import { getAvailableCharacters } from "../../../lib/queries";
 import { Breadcrumb } from "../../../components/Breadcrumb";
 import { ArticleJsonLd } from "../../../components/JsonLd";
-import { GiscusComments } from "../../../components/GiscusComments";
+
 import { KardzPromoCard } from "../../../components/KardzPromoCard";
 import { TierListView } from "../../../components/TierListView";
 
@@ -137,9 +137,7 @@ export default async function TierListPage({
           <KardzPromoCard locale={locale} variant="compact" />
         </div>
 
-        <div className="mt-6">
-          <GiscusComments locale={locale} term="tier-list" />
-        </div>
+
       </div>
     </>
   );
