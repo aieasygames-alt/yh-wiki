@@ -11,10 +11,9 @@ import { ArticleContent } from "../../../../components/ArticleContent";
 import { FaqSection } from "../../../../components/FaqSection";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import { BlogImage } from "../../../../components/BlogImage";
-import dynamic from "next/dynamic";
+
 import { ContentStatus, type VerificationStatus } from "../../../../components/ContentStatus";
 
-const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
 const EN_BLOG_SEO: Record<string, { title: string; description: string; h1: string }> = {
   "nte-vs-genshin-vs-wuthering-waves": {
@@ -214,8 +213,7 @@ export default async function BlogDetailPage({
             </section>
           );
         })()}
-        {/* Player Discussion */}
-        <GiscusComments locale={locale} term={`blog-${slug}`} />
+
       </article>
     </>
   );

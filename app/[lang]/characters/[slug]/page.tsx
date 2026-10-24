@@ -22,9 +22,8 @@ import { TierBadge } from "../../../../components/TierBadge";
 import { QuickAnswerCard } from "../../../../components/QuickAnswerCard";
 import { KardzPromoCard } from "../../../../components/KardzPromoCard";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
-import dynamic from "next/dynamic";
 
-const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
+
 
 /** Get character display name for a given locale */
 function charName(c: { name: string; nameTw?: string; nameEn: string }, locale: string): string {
@@ -547,8 +546,7 @@ export default async function CharacterDetailPage({
           </div>
         )}
 
-        {/* Player Discussion */}
-        <GiscusComments locale={locale} term={`character-${slug}`} />
+
       </div>
     </>
   );

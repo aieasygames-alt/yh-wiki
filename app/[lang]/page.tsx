@@ -7,7 +7,6 @@ import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
 
 const SearchDialog = dynamic(() => import("../../components/SearchDialog").then((m) => ({ default: m.SearchDialog })), { ssr: false });
-const GiscusComments = dynamic(() => import("../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
 
 // Locale-specific SEO titles and descriptions for better CTR.
 // Keep this in sync with LOCALES in lib/i18n.ts (currently zh / tw / en).
@@ -605,10 +604,7 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* Player Discussion */}
-        <section className="max-w-4xl mx-auto px-4 py-12">
-          <GiscusComments locale={locale} term="general" />
-        </section>
+
       </div>
     </>
   );

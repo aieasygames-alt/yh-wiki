@@ -12,9 +12,8 @@ import { ContentFeedbackLink } from "../../../../components/ContentFeedbackLink"
 import { ContentStatus, type VerificationStatus } from "../../../../components/ContentStatus";
 import { TableOfContents, TableOfContentsDesktop, extractHeadings } from "../../../../components/TableOfContents";
 import { completeMetaDescription, localizedText } from "../../../../lib/seo-copy";
-import dynamic from "next/dynamic";
 
-const GiscusComments = dynamic(() => import("../../../../components/GiscusComments").then((m) => ({ default: m.GiscusComments })), { ssr: false });
+
 
 function buildGuideMetaDescription(args: {
   locale: Locale;
@@ -404,8 +403,7 @@ export default async function GuideDetailPage({
             </div>
           </section>
         )}
-        {/* Player Discussion */}
-        <GiscusComments locale={locale} term={`guide-${slug}`} />
+
       </article>
     </>
   );
