@@ -80,7 +80,7 @@ https://static.ghzs666.com/game-wiki/images/{icon_path}
 | **渲染器** | Leaflet 地图 + PIXI.js WebGL 标记层（高性能） |
 | **瓦片格式** | 标准 XYZ 瓦片，JPEG 格式，缩放 0-7 级 |
 | **标记数据** | **公开 REST API**，一次性返回全部 4000+ 标记 |
-| **多语言** | 13 种语言 |
+| **多语言** | 中文、繁体中文、英文（以 `lib/i18n.ts` 为准） |
 | **标记存储** | JSON API (`/api/{map_id}/options.json`)，GeoJSON-like 格式 |
 | **可提取性** | ⭐⭐⭐⭐⭐ 最佳 — 完整公开 API，无需认证 |
 

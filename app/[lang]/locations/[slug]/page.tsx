@@ -60,9 +60,9 @@ export default async function LocationDetailPage({
   const loc = getLocation(slug);
   if (!loc) notFound();
 
-  const name = localizedText(locale, loc.name, loc.nameEn);
-  const content = localizedText(locale, loc.content, loc.contentEn);
-  const summary = localizedText(locale, loc.summary, loc.summaryEn);
+  const name = localizedText(locale, loc.name, loc.nameEn, loc.nameTw);
+  const content = localizedText(locale, loc.content, loc.contentEn, loc.contentTw);
+  const summary = localizedText(locale, loc.summary, loc.summaryEn, loc.summaryTw);
   const enSeo = locale === "en" ? EN_LOCATION_SEO[slug] : undefined;
 
   const relatedChars = loc.relatedCharacters

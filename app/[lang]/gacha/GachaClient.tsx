@@ -141,7 +141,8 @@ export function GachaClient({
         const roll = Math.random() * 100;
 
         if (roll < rate5) {
-          const isFeatured = bannerConfig.featured.length > 0 && Math.random() < 0.5;
+          const isFeatured = bannerConfig.featured.length > 0
+            && (bannerConfig.guaranteedFeatured || bannerConfig.has5050 === false || Math.random() < 0.5);
           const selected = isFeatured
             ? bannerConfig.featured[Math.floor(Math.random() * bannerConfig.featured.length)]
             : sRank[Math.floor(Math.random() * sRank.length)].id;

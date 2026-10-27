@@ -3,8 +3,8 @@
     "id": "limited",
     "name": "限定祈愿",
     "nameEn": "Limited Wish",
-    "description": "伊洛伊概率提升（1.2上半），无50/50机制",
-    "descriptionEn": "Illica rate boosted (v1.2 Phase 1), no 50/50 system",
+    "description": "1.4第二阶段历史记录：赤音凛概率提升；具体规则请以目标区服卡池详情为准",
+    "descriptionEn": "Version 1.4 Phase 2 historical record: Akane Rin featured; verify current rules in the target server's banner details",
     "rate5": 0.6,
     "rate4": 10,
     "rate3": 89.4,
@@ -15,7 +15,7 @@
     "pityCarryOver": true,
     "guaranteedFeatured": true,
     "featured": [
-      "illica"
+      "akane"
     ],
     "featured4": [
       "adler",
@@ -27,13 +27,15 @@
       "merula",
       "alphard"
     ],
-    "version": "1.2",
-    "phase": "Phase 1",
-    "startDate": "2026-07-02",
-    "endDate": "2026-07-23",
-    "startDateGlobal": "2026-07-09",
-    "endDateGlobal": "2026-07-30",
-    "region": "cn"
+    "version": "1.4",
+    "phase": "Phase 2",
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-11",
+    "startDateGlobal": "2026-10-21",
+    "endDateGlobal": "2026-11-11",
+    "region": "global",
+    "status": "live",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20261019/264675.html"
   },
   "beginner": {
     "id": "beginner",
@@ -90,8 +92,8 @@
     "id": "limited-phase2",
     "name": "限定祈愿·下半",
     "nameEn": "Limited Wish · Phase 2",
-    "description": "真红概率提升（1.2下半），无50/50机制",
-    "descriptionEn": "Zhenhong rate boosted (v1.2 Phase 2), no 50/50 system",
+    "description": "1.4版本历史记录：安魂曲返场；具体规则请以目标区服卡池详情为准",
+    "descriptionEn": "Version 1.4 historical record: Lacrimosa rerun; verify current rules in the target server's banner details",
     "rate5": 0.6,
     "rate4": 10,
     "rate3": 89.4,
@@ -102,7 +104,7 @@
     "pityCarryOver": true,
     "guaranteedFeatured": true,
     "featured": [
-      "zhenhong"
+      "lacrimosa"
     ],
     "featured4": [
       "adler",
@@ -114,20 +116,22 @@
       "merula",
       "alphard"
     ],
-    "version": "1.2",
+    "version": "1.4",
     "phase": "Phase 2",
-    "startDate": "2026-07-23",
-    "endDate": "2026-08-13",
-    "startDateGlobal": "2026-07-30",
-    "endDateGlobal": "2026-08-20",
-    "region": "cn"
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-21",
+    "startDateGlobal": "2026-09-30",
+    "endDateGlobal": "2026-10-21",
+    "region": "global",
+    "status": "historical",
+    "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html"
   },
   "limited-1-3-phase1": {
     "id": "limited-1-3-phase1",
-    "name": "限定祈愿·1.3上半（前瞻）",
-    "nameEn": "Limited Wish · v1.3 Phase 1 (Upcoming)",
-    "description": "残虹概率提升（1.3上半，前瞻预计），无50/50机制。日期与卡池顺序以官方公告为准。",
-    "descriptionEn": "Canhong rate boosted (v1.3 Phase 1, forward-looking estimate), no 50/50 system. Dates and banner order subject to official announcement.",
+    "name": "限定祈愿·1.3上半（历史记录）",
+    "nameEn": "Limited Wish · v1.3 Phase 1 (Historical Record)",
+    "description": "1.3版本历史卡池记录；不作为当前卡池或抽取建议依据。",
+    "descriptionEn": "Historical record of a Version 1.3 banner; not a basis for current banner or pull advice.",
     "rate5": 0.6,
     "rate4": 10,
     "rate3": 89.4,
@@ -143,11 +147,12 @@
     "featured4": [],
     "version": "1.3",
     "phase": "Phase 1",
-    "status": "upcoming",
+    "status": "historical",
     "startDate": "TBD",
     "endDate": "TBD",
     "startDateGlobal": "TBD",
     "endDateGlobal": "TBD",
-    "region": "cn"
+    "region": "cn",
+    "sourceUrl": "https://nte.perfectworld.com/cn/article/news/gamenews/20260929/264407.html"
   }
 }

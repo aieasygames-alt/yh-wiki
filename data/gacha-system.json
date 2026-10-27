@@ -2,10 +2,10 @@
   "banners": [
     {
       "id": "limited",
-      "nameZh": "限定祈愿（角色池）",
-      "nameEn": "Limited Character Wish",
-      "descZh": "UP角色概率提升，90抽硬保底，无50/50机制，首次S级必为UP角色",
-      "descEn": "Featured S-rank character with boosted rates, 90-pull hard pity, no 50/50 mechanic — first S-rank is guaranteed to be the featured character",
+      "nameZh": "限定祈愿（历史规则参考）",
+      "nameEn": "Limited Character Wish (Historical Reference)",
+      "descZh": "本站曾收录的角色池规则；当前角色、概率、保底和UP规则必须以目标区服卡池详情为准",
+      "descEn": "A previously recorded character-banner ruleset; verify the current character, rates, pity, and featured rules in the target server's banner details",
       "sRate": "0.6%",
       "aRate": "10%",
       "bRate": "89.4%",
@@ -16,8 +16,8 @@
     },
     {
       "id": "beginner",
-      "nameZh": "新手祈愿",
-      "nameEn": "Beginner Wish",
+      "nameZh": "新手祈愿（历史规则参考）",
+      "nameEn": "Beginner Wish (Historical Reference)",
       "descZh": "限定一次，20抽内必出S级角色，可从6位S级角色中自选一位",
       "descEn": "One-time only, guaranteed S-rank within 20 pulls, selector from 6 S-rank characters",
       "sRate": "0.6%",
@@ -32,8 +32,8 @@
     },
     {
       "id": "standard",
-      "nameZh": "常驻祈愿",
-      "nameEn": "Standard Wish",
+      "nameZh": "常驻祈愿（历史规则参考）",
+      "nameEn": "Standard Wish (Historical Reference)",
       "descZh": "常驻池，90抽硬保底，50抽可自选S级角色",
       "descEn": "Permanent banner, 90-pull hard pity, S-rank selector available at 50 pulls",
       "sRate": "0.6%",
@@ -47,8 +47,8 @@
     },
     {
       "id": "weapons",
-      "nameZh": "武器祈愿",
-      "nameEn": "Weapon Wish",
+      "nameZh": "武器祈愿（历史规则参考）",
+      "nameEn": "Weapon Wish (Historical Reference)",
       "descZh": "限定武器概率提升，60抽保底UP武器，80抽大保底",
       "descEn": "Featured weapon with boosted rates, 60-pull pity for featured, 80-pull guaranteed featured",
       "sRate": "1.0%",
@@ -65,8 +65,8 @@
     {
       "question": "Does NTE have a 50/50 system?",
       "questionZh": "异环抽卡有50/50吗？",
-      "answer": "No. NTE's limited character banner does NOT have a 50/50 mechanic. When you pull an S-rank on the limited banner, it is guaranteed to be the featured character. This was confirmed in the official pre-launch livestream.",
-      "answerZh": "没有。异环的限定角色池没有50/50机制。当你在限定池抽到S级角色时，必定是当期UP角色。这一点已在官方前瞻直播中确认。"
+      "answer": "This page preserves historical FAQ wording from an earlier ruleset. Verify the current banner's featured guarantee, rates, and pity in the target server's in-client details before pulling.",
+      "answerZh": "本页保留早期规则的历史问答文字。抽取前请在目标区服客户端详情中核对当前卡池的UP保证、概率与保底。"
     },
     {
       "question": "What is the pity system in NTE?",

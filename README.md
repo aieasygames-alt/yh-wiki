@@ -122,7 +122,7 @@ yh-wiki/
 |---|---|
 | `queries.ts` | **核心数据访问层** — ~40 个类型化查询函数 (`getAllCharacters`, `getAvailableCharacters`, `getCharacter`, `calculateMaterials` 等) + 所有 TypeScript 接口定义 |
 | `schemas.ts` | Zod 验证 schema — 构建时校验 characters/weapons/materials 数据完整性 |
-| `i18n.ts` | 国际化系统 — 13 语言定义, `t(locale, path)` 翻译函数, `hreflangAlternates()` SEO, `isZhLocale()` 中文判断 |
+| `i18n.ts` | 国际化系统 — 3 语言定义 (`zh/tw/en`), `t(locale, path)` 翻译函数, `hreflangAlternates()` SEO, `isZhLocale()` 中文判断 |
 | `attributes.ts` | 游戏常量 — 属性颜色/标签、弧刃类型、品级、副词条等，均有 `Record<Locale, string>` 多语言 |
 | `analytics.ts` | Google Analytics — `trackPageView()`, `trackEvent()`, `getPageType()` |
 | `placeholder.ts` | SVG 占位图生成 |
@@ -149,7 +149,7 @@ npm run build
 ### 2. `next build` — Next.js 静态导出
 
 - `output: 'export'` + `trailingSlash: true`
-- `generateStaticParams()` 为所有 13 语言 × 所有路由生成静态 HTML
+- `generateStaticParams()` 为所有 3 语言 (`zh/tw/en`) × 所有路由生成静态 HTML
 - 产物输出到 `.next/server/app/`
 
 ### 3. `scripts/build-static.sh` — 组装静态站点
@@ -181,7 +181,7 @@ npm run build
 
 ## 国际化 (i18n)
 
-### 13 种语言
+### 3 种语言
 
 `zh`, `tw`, `en`（实际列表以 `lib/i18n.ts` 的 `LOCALES` 为准）
 

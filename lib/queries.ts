@@ -420,13 +420,16 @@ export function getGuideCategories(locale: Locale): { slug: string; name: string
 export interface Lore {
   id: string;
   name: string;
+  nameTw?: string;
   nameEn: string;
   category: string;
   categoryZh: string;
   categoryEn: string;
   summary: string;
+  summaryTw?: string;
   summaryEn: string;
   content: string;
+  contentTw?: string;
   contentEn: string;
   relatedCharacters: string[];
   relatedLocations: string[];
@@ -445,13 +448,16 @@ export function getLoreItem(slug: string): Lore | undefined {
 export interface Location {
   id: string;
   name: string;
+  nameTw?: string;
   nameEn: string;
   category: string;
   categoryZh: string;
   categoryEn: string;
   summary: string;
+  summaryTw?: string;
   summaryEn: string;
   content: string;
+  contentTw?: string;
   contentEn: string;
   relatedCharacters: string[];
   relatedLore: string[];
