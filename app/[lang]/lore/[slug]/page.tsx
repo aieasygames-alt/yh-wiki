@@ -95,9 +95,9 @@ export default async function LoreDetailPage({
   const lore = getLoreItem(slug);
   if (!lore) notFound();
 
-  const name = localizedText(locale, lore.name, lore.nameEn);
-  const content = localizedText(locale, lore.content, lore.contentEn);
-  const summary = localizedText(locale, lore.summary, lore.summaryEn);
+  const name = localizedText(locale, lore.name, lore.nameEn, lore.nameTw);
+  const content = localizedText(locale, lore.content, lore.contentEn, lore.contentTw);
+  const summary = localizedText(locale, lore.summary, lore.summaryEn, lore.summaryTw);
   const category = localizedText(locale, lore.categoryZh, lore.categoryEn);
 
   const relatedChars = lore.relatedCharacters

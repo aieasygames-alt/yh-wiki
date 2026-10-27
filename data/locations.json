@@ -14,7 +14,10 @@
     "relatedLore": [
       "anomalies",
       "bureau-of-anomaly-control"
-    ]
+    ],
+    "nameTw": "海特洛",
+    "summaryTw": "海特洛是《異環》故事的主要舞臺，一座現代化的大都市。城市被劃分為多個風格各異的區域，是玩家探索和劇情推進的核心地點。",
+    "contentTw": "海特洛是一座坐落在沿海地區的現代化大都市，以其獨特的城市天際線和融合了多種建築風格的城區而聞名。這座城市不僅是商業和文化的中心，也是異常現象頻繁發生的前線地帶。城市內部被劃分為多個行政區和探索區域，每個區域都擁有獨特的氛圍與功能定位。\n作為故事的核心舞臺，海特洛聚集了大量異能者和異常控制局的活動力量。城市的日常運轉與異常事件的處理並行不悖——市民們在享受都市便利的同時，也需要時刻面對異象帶來的潛在威脅。從繁華的商業街到寧靜的舊城小巷，海特洛的每一個角落都可能隱藏著不為人知的秘密。\n海特洛的城市建設經歷了多次擴張與改造，新城區與舊城區在建築風格上形成鮮明對比。城市交通網絡發達，連接著各個區域以及外圍的探索地帶。正是在這座充滿活力的城市中，玩家將以異環鑑定師的身份展開一段段精彩冒險。"
   },
   {
     "id": "eibon-antique-shop",
@@ -38,7 +41,10 @@
     "relatedLore": [
       "appraiser",
       "main-story"
-    ]
+    ],
+    "nameTw": "Eibon 古董店",
+    "summaryTw": "Eibon 古董店是玩家的主要據點，由 Hotori 經營。作為異環鑑定師的基地，這裡彙集了多位核心角色，是劇情推進和隊伍管理的中心。",
+    "contentTw": "Eibon 古董店位於海特洛市區，表面上是經營古董和稀奇物件的店鋪，實際上卻是異環鑑定師的活動據點。店主 Hotori 負責日常經營和統籌調度，為鑑定師提供任務指引和後勤保障。店鋪內陳列著各式各樣的古董與異常物品，每一件都可能蘊含著不尋常的故事。\n店內常駐著多位性格各異的異能者夥伴，包括擅長近身格鬥的娜娜莉、與伴生體桐丸並肩作戰的咲裡、沉穩可靠的 Adler、以及性格獨特的 Edgar 和 Taygedo。他們各自承擔著不同的職責，在鑑定師外出執行任務時提供支援與配合。\nEibon 古董店不僅是功能性的基地設施，也是角色之間互動和情感交流的重要場所。在這裡，玩家可以與夥伴們對話瞭解他們的背景故事，接受新的委託任務，整理裝備和資源。對於異環鑑定師而言，這家古董店既是冒險的起點，也是每次歸來時溫暖的落腳處。"
   },
   {
     "id": "detention-center",
@@ -54,7 +60,10 @@
     "relatedCharacters": [],
     "relatedLore": [
       "bureau-of-anomaly-control"
-    ]
+    ],
+    "nameTw": "拘留中心",
+    "summaryTw": "拘留中心是異常控制局管轄下的特殊收容設施，用於關押危險的異常實體和與異常犯罪有關的嫌疑人。",
+    "contentTw": "拘留中心是海特洛市內一處高度戒備的設施，由異常控制局直接管理。其核心功能是收容和隔離那些對城市安全構成威脅的異常實體，包括失控的異常物品、具有攻擊性的異常生物，以及涉及異常犯罪的嫌疑人。設施內部採用了多重安全協議和異常抑制技術，確保收容對象無法逃脫或對外界造成危害。\n在劇情中，拘留中心扮演著關鍵的故事場景角色。異環鑑定師在調查案件的過程中，經常需要來到這裡審訊被關押的嫌疑人、收集情報或處理突發的收容失效事件。拘留中心的存在本身就提醒著人們：在海特洛光鮮的都市表象之下，異常帶來的威脅從未真正遠去。\n據傳拘留中心的地下層設有特殊的高危收容區，專門用於關押那些常規手段無法壓制的極度危險存在。關於這些深層區域的詳細信息屬於異常控制局的最高機密，外界知之甚少。"
   },
   {
     "id": "new-helios",
@@ -68,7 +77,10 @@
     "content": "新赫利俄斯区是海特洛最新规划建设的城市区域，高楼林立、道路宽阔，充满了未来感与现代气息。这里的建筑大量采用玻璃幕墙和钢结构设计，在阳光下折射出冷峻而精致的光泽。区域内的公共设施和交通系统均为最新标准建设，是海特洛城市规划中最具代表性的现代化成果。\n作为新兴城区，新赫利俄斯吸引了许多科技企业、研究机构和高端商业品牌的入驻。白天，这里是忙碌的白领和商务人士的天下；入夜后，霓虹灯将整片城区点亮，营造出与白天截然不同的都市夜景。区域内的咖啡馆、艺术空间和休闲场所也为居民和来访者提供了丰富的都市生活体验。\n尽管新赫利俄斯看起来光鲜亮丽，但异常现象同样可能在此出现。现代化建筑与异常事件的碰撞，往往会产生出人意料的戏剧性场面。异环鉴定师在执行任务时，也不时会来到这片城区调查隐藏在繁华表象之下的异常线索。",
     "contentEn": "New Helios is the most recently planned and constructed district of Hethereau, characterized by towering skyscrapers, wide boulevards, and a futuristic modern atmosphere. The buildings here make extensive use of glass curtain walls and steel structures, reflecting a sleek and refined sheen in the sunlight. Public facilities and transportation systems are built to the latest standards, making this district the showcase of Hethereau's urban planning achievements.\nAs an emerging district, New Helios has attracted numerous tech companies, research institutions, and high-end commercial brands. During the day, it is the domain of busy professionals and businesspeople; after dark, neon lights illuminate the entire area, creating an urban nightscape starkly different from its daytime persona. The district's cafes, art spaces, and leisure venues offer residents and visitors a rich urban lifestyle experience.\nDespite its polished appearance, anomalous phenomena can still surface in New Helios. The collision between modern architecture and anomalous events often creates unexpected dramatic scenes. The Appraiser occasionally visits this district during missions to investigate anomalous clues hidden beneath the glittering surface.",
     "relatedCharacters": [],
-    "relatedLore": []
+    "relatedLore": [],
+    "nameTw": "新赫利俄斯區",
+    "summaryTw": "新赫利俄斯區是海特洛的新興城區，以現代化的建築風格和先進的市政設施著稱，代表了城市發展的前沿方向。",
+    "contentTw": "新赫利俄斯區是海特洛最新規劃建設的城市區域，高樓林立、道路寬闊，充滿了未來感與現代氣息。這裡的建築大量採用玻璃幕牆和鋼結構設計，在陽光下折射出冷峻而精緻的光澤。區域內的公共設施和交通系統均為最新標準建設，是海特洛城市規劃中最具代表性的現代化成果。\n作為新興城區，新赫利俄斯吸引了許多科技企業、研究機構和高端商業品牌的入駐。白天，這裡是忙碌的白領和商務人士的天下；入夜後，霓虹燈將整片城區點亮，營造出與白天截然不同的都市夜景。區域內的咖啡館、藝術空間和休閒場所也為居民和來訪者提供了豐富的都市生活體驗。\n儘管新赫利俄斯看起來光鮮亮麗，但異常現象同樣可能在此出現。現代化建築與異常事件的碰撞，往往會產生出人意料的戲劇性場面。異環鑑定師在執行任務時，也不時會來到這片城區調查隱藏在繁華表象之下的異常線索。"
   },
   {
     "id": "bridge-crossing",
@@ -84,7 +96,10 @@
     "relatedCharacters": [],
     "relatedLore": [
       "main-story"
-    ]
+    ],
+    "nameTw": "橋渡區",
+    "summaryTw": "橋渡區是海特洛的老城區，保留了大量傳統建築和歷史街巷，是城市歷史底蘊最為深厚的區域。",
+    "contentTw": "橋渡區是海特洛歷史最為悠久的城區之一，至今仍保留著大量傳統風格的建築和街巷佈局。青石板鋪就的小路蜿蜒曲折，兩側是木質結構的老式店鋪和民居，屋簷下懸掛著褪色的燈籠和招牌。與城市其他區域的高樓大廈相比，橋渡區彷彿是一個被時光封存的角落，散發著古樸而寧靜的氣息。\n這裡聚集著許多世代經營的家族店鋪、傳統手工藝作坊和小餐館。老居民們保持著傳統的生活方式，鄰里之間關係緊密。橋渡區也是海特洛市民尋找地道美食和傳統工藝品的首選去處，每到節假日便遊人如織，熱鬧非凡。\n在主線劇情中，橋渡區多次作為重要場景出現。這個看似平靜的老城區，實則隱藏著許多與城市歷史和異常事件相關的秘密。古老建築之間流傳的都市傳說、代代相傳的奇異故事，以及偶爾發生的無法用常理解釋的現象，都讓橋渡區成為了異環鑑定師不容忽視的調查目標。"
   },
   {
     "id": "tamamochi-street",
@@ -98,7 +113,10 @@
     "content": "玉持街是海特洛最繁华的商业街区，沿街两旁店铺鳞次栉比，从时尚品牌旗舰店到街边小吃摊一应俱全。白天的玉持街人流如织，购物者和观光客穿梭其间；入夜后，这里又变身为美食和夜生活的天堂，各式餐厅、居酒屋和娱乐场所灯火通明，吸引着下班后的都市人群。\n街区内的建筑风格融合了现代与传统元素，既有玻璃幕墙的购物中心，也有保留着传统门面的老字号店铺。这种新旧交融的街景赋予了玉持街独特的视觉魅力，也成为海特洛城市文化多样性的缩影。不少本地艺术家和创作者也选择在玉持街开设工作室或画廊，为商业氛围增添了文化气息。\n对于异环鉴定师而言，玉持街不仅是补给物资和放松休闲的去处，偶尔也会成为异常事件的突发地点。人口密集的繁华商业区一旦出现异常现象，往往需要在短时间内迅速控制局面，避免引发大规模恐慌。如何在保护市民安全的同时不暴露异常的存在，是鉴定师在此执行任务时面临的最大挑战。",
     "contentEn": "Tamamochi Street is the busiest commercial district in Hethereau, lined on both sides with shops ranging from flagship fashion brands to street food stalls. During the day, the street is teeming with shoppers and sightseers; after dark, it transforms into a paradise of food and nightlife, with restaurants, izakayas, and entertainment venues lit up and drawing the post-work crowd.\nThe district's architecture blends modern and traditional elements, featuring both glass-fronted shopping centers and time-honored shops with classic facades. This interplay of old and new gives Tamamochi Street its distinctive visual charm and serves as a microcosm of Hethereau's cultural diversity. Many local artists and creators have also chosen to open studios and galleries here, adding a cultural dimension to the commercial atmosphere.\nFor the Appraiser, Tamamochi Street is not only a place to resupply and unwind, but occasionally the site of sudden anomalous incidents. When anomalies surface in a densely populated commercial area, the situation must be brought under control quickly to prevent mass panic. Balancing citizen safety with concealing the existence of anomalies is the greatest challenge the Appraiser faces when operating in this district.",
     "relatedCharacters": [],
-    "relatedLore": []
+    "relatedLore": [],
+    "nameTw": "玉持街",
+    "summaryTw": "玉持街是海特洛的商業中心，匯聚了各類商鋪、餐廳和娛樂設施，是市民日常生活中最熱鬧繁華的區域。",
+    "contentTw": "玉持街是海特洛最繁華的商業街區，沿街兩旁店鋪鱗次櫛比，從時尚品牌旗艦店到街邊小吃攤一應俱全。白天的玉持街人流如織，購物者和觀光客穿梭其間；入夜後，這裡又變身為美食和夜生活的天堂，各式餐廳、居酒屋和娛樂場所燈火通明，吸引著下班後的都市人群。\n街區內的建築風格融合了現代與傳統元素，既有玻璃幕牆的購物中心，也有保留著傳統門面的老字號店鋪。這種新舊交融的街景賦予了玉持街獨特的視覺魅力，也成為海特洛城市文化多樣性的縮影。不少本地藝術家和創作者也選擇在玉持街開設工作室或畫廊，為商業氛圍增添了文化氣息。\n對於異環鑑定師而言，玉持街不僅是補給物資和放鬆休閒的去處，偶爾也會成為異常事件的突發地點。人口密集的繁華商業區一旦出現異常現象，往往需要在短時間內迅速控制局面，避免引發大規模恐慌。如何在保護市民安全的同時不暴露異常的存在，是鑑定師在此執行任務時面臨的最大挑戰。"
   },
   {
     "id": "groth-island",
@@ -115,7 +133,10 @@
     "relatedLore": [
       "oddities",
       "encroachment"
-    ]
+    ],
+    "nameTw": "格羅斯島",
+    "summaryTw": "格羅斯島是海特洛市郊的一座島嶼探索區域，自然環境豐富，異常現象頻發，是異環鑑定師外出調查的重要目的地。",
+    "contentTw": "格羅斯島位於海特洛市的外圍海域，是一座面積可觀的島嶼探索區域。與市區的都市景觀截然不同，格羅斯島保留著較為原始的自然風貌——茂密的林地、開闊的荒野、隱秘的洞穴和崎嶇的海岸線構成了這片區域的主要地形。島上人煙稀少，只有少量研究人員的臨時駐地和廢棄的舊建築散落其間。\n格羅斯島之所以受到異環鑑定師的關注，是因為這裡是異常現象的高發地帶。奇特的物品（Oddities）頻繁出現在島上各處，而侵蝕現象（Encroachment）也時有發生，導致局部環境出現不自然的變化。異常控制局將格羅斯島列為重點監控區域，定期派遣人員登島巡查和收集數據。\n在格羅斯島進行探索時，鑑定師需要應對各種突發的異常狀況，同時收集散佈在島上的珍貴材料和線索。島嶼的不同區域有著不同的危險等級和環境特徵，要求玩家根據隊伍配置和任務需求做出合理的探索策略。格羅斯島的秘密遠比表面所見更加深邃，等待著有勇氣和實力的鑑定師前來揭開。"
   },
   {
     "id": "illusion-town",
@@ -131,7 +152,10 @@
     "relatedCharacters": [],
     "relatedLore": [
       "anomalies"
-    ]
+    ],
+    "nameTw": "幻景鎮",
+    "summaryTw": "幻景鎮是一處充滿奇異現象和視覺扭曲的特殊區域，其獨特的異常環境使這裡成為海特洛周邊最令人費解的探索地點之一。",
+    "contentTw": "幻景鎮是海特洛周邊一處極其特殊的探索區域，整個城鎮籠罩在持續的異常現象影響之下。進入幻景鎮的來訪者經常會經歷各種視覺扭曲——建築物的輪廓在視線中不斷變化，天空的顏色忽明忽暗，空間距離感也變得不可靠。這些現象並非簡單的幻覺，而是異常力量對現實空間的實質性干擾。\n幻景鎮原本是一座普通的小鎮，但在某次大型異常事件之後，整個區域的物理法則發生了永久性的微妙改變。居民陸續撤離後，這裡成為了異能者和研究人員的研究對象。異常控制局在幻景鎮外圍設置了警戒線，限制普通民眾進入，但異常現象的影響範圍似乎仍在緩慢擴大。\n對於異環鑑定師來說，幻景鎮既是危險的挑戰場，也是瞭解異常本質的寶貴窗口。在這裡採集到的異常樣本和觀測到的現象數據，對於深入研究異常的成因和規律具有不可替代的價值。在幻景鎮中探索時，玩家需要時刻保持警覺，因為在視覺扭曲的環境下判斷方向和識別威脅都變得異常困難。"
   },
   {
     "id": "pink-paws-bank",
@@ -145,7 +169,10 @@
     "content": "粉爪银行是海特洛市内一家风格独特的银行设施，其名称和品牌形象在市民中拥有极高的辨识度。银行的外观设计融入了大量粉色和猫爪元素，与周围建筑形成了鲜明的视觉反差，成为城市中一道独特的风景线。不少游客甚至会将粉爪银行作为打卡拍照的热门地点。\n作为城市金融体系的一部分，粉爪银行为市民提供各类常规金融服务，同时也处理与异常物品相关的特殊鉴定和保管业务。银行内部的安全系统融合了常规安保技术与异常抑制手段，以确保客户资产和特殊物品的双重安全。据传银行的地下金库中存放着一些异常控制局委托保管的高危异常物品。\n粉爪银行在游戏中的定位既是一个功能性的金融设施，也是海特洛城市风貌的生动体现。它以轻松诙谐的品牌形象为这座暗藏异常危机的城市增添了一抹亮色，也暗示着在海特洛，即便是最日常的生活服务也可能与异常世界有着千丝万缕的联系。",
     "contentEn": "Pink Paws Bank is a distinctively styled banking facility in Hethereau, with a name and brand identity that enjoy extremely high recognition among citizens. The bank's exterior design incorporates abundant pink and paw-print motifs, creating a striking visual contrast with surrounding buildings and making it a unique landmark. Many visitors even list Pink Paws Bank as a popular photo spot.\nAs part of the city's financial system, Pink Paws Bank provides standard financial services to citizens while also handling special appraisal and custody business related to anomalous objects. The bank's internal security system integrates conventional security technology with anomaly suppression measures to ensure the dual safety of customer assets and special items. Rumor has it that the underground vault houses high-risk anomalous objects entrusted to the bank by the Bureau of Anomaly Control.\nIn the game, Pink Paws Bank serves both as a functional financial facility and as a vivid expression of Hethereau's urban character. Its lighthearted and playful brand identity adds a splash of color to a city shadowed by anomalous threats, while also hinting that even the most mundane services in Hethereau may be inextricably linked to the world of anomalies.",
     "relatedCharacters": [],
-    "relatedLore": []
+    "relatedLore": [],
+    "nameTw": "粉爪銀行",
+    "summaryTw": "粉爪銀行是海特洛市內一座標誌性的金融機構，以其獨特的名稱和醒目的外觀設計成為城市中的一大亮點。",
+    "contentTw": "粉爪銀行是海特洛市內一家風格獨特的銀行設施，其名稱和品牌形象在市民中擁有極高的辨識度。銀行的外觀設計融入了大量粉色和貓爪元素，與周圍建築形成了鮮明的視覺反差，成為城市中一道獨特的風景線。不少遊客甚至會將粉爪銀行作為打卡拍照的熱門地點。\n作為城市金融體系的一部分，粉爪銀行為市民提供各類常規金融服務，同時也處理與異常物品相關的特殊鑑定和保管業務。銀行內部的安全系統融合了常規安保技術與異常抑制手段，以確保客戶資產和特殊物品的雙重安全。據傳銀行的地下金庫中存放著一些異常控制局委託保管的高危異常物品。\n粉爪銀行在遊戲中的定位既是一個功能性的金融設施，也是海特洛城市風貌的生動體現。它以輕鬆詼諧的品牌形象為這座暗藏異常危機的城市增添了一抹亮色，也暗示著在海特洛，即便是最日常的生活服務也可能與異常世界有著千絲萬縷的聯繫。"
   },
   {
     "id": "silent-garden",
@@ -161,7 +188,10 @@
     "relatedCharacters": [],
     "relatedLore": [
       "oaths-and-prophecies"
-    ]
+    ],
+    "nameTw": "靜謐花園",
+    "summaryTw": "靜謐花園是海特洛郊外一處表面寧靜祥和但暗藏玄機的特殊場所，與古老的誓約和預言有著深厚的關聯。",
+    "contentTw": "靜謐花園位於海特洛市郊的僻靜地帶，是一片被精心維護的花園景觀。初到此地的人往往會被其表面的寧靜所吸引——修剪整齊的樹籬、四季不敗的花卉、潺潺流淌的小溪和散落其間的石制長椅，構成了一幅宛如世外桃源般的畫面。然而，這種異常的完美本身就是一個信號：靜謐花園並非普通的園林景觀。\n花園中瀰漫著一種特殊的沉默感，來訪者常常會注意到這裡的聲學特性與外界截然不同——風聲、水聲和鳥鳴都變得異常輕柔，彷彿整個空間被一層無形的屏障所包裹。研究表明，靜謐花園所處位置曾經是古代異能者舉行重要儀式的場所，某些與誓約和預言相關的古老力量至今仍在此處殘留。\n對於異環鑑定師而言，靜謐花園是一個充滿謎團的探索地點。花園深處隱藏著與古代誓約相關的線索和遺蹟，解讀這些信息對於理解海特洛異常現象的深層根源可能至關重要。在花園中探索時，玩家需要仔細觀察環境中的細節，因為這裡的許多景物排列和空間佈局都暗含著特定的含義，而非隨意設置。"
   },
   {
     "id": "sunward-island",
@@ -177,7 +207,10 @@
     "relatedCharacters": [
       "lacrimosa"
     ],
-    "relatedLore": []
+    "relatedLore": [],
+    "nameTw": "向陽島",
+    "summaryTw": "向陽島是1.1版本「遊夢洄廊」新增的海島探索區域，包含度假村、遊樂園等子區域，擁有豐富的收集品和異聞錄。",
+    "contentTw": "向陽島是海特洛外圍的一座海島，通過碼頭渡輪與主城相連。島上設有度假村、漁村和遊樂園等多種功能區，風景優美，氛圍輕鬆。1.1版本中，向陽島作為核心新地圖開放探索，包含10個諭石、9個21的贈禮、4個打卡點和9個異聞錄等豐富收集內容。\n島上的遊樂園主題區域「遊夢洄廊」是1.1版本的主要遊玩場景之一，提供了豐富的互動玩法和隱藏內容。此外，向陽島還設有釣魚點、賽車賽道等副玩法區域。探索向陽島可獲得大量探索度獎勵，包括精英獵人指南、混沌染劑、芬斯和骰子等。"
   },
   {
     "id": "warren-continent",
@@ -191,6 +224,9 @@
     "content": "沃伦大陆是《异环》1.2 版本「九百九十九夜」玩法所在的独立奇幻世界，与主线所在的现代都市海特洛截然不同。这里以桌游（TRPG）为灵感，呈现出剑与魔法的中世纪奇幻风格：广袤的原野、幽深的地下城、盘踞其间的巨龙，构成了一片可供反复探索的冒险大陆。\n作为常驻玩法，沃伦大陆的内容不会随版本活动结束而关闭，玩家可以长期周回。核心体验围绕「挑战巨龙」展开——通过完成一段段桌游式的剧情章节与战斗遭遇，逐步推进并解锁更高难度的龙类首领。区域内分布有奖励节点、隐藏要素与养成资源，适合作为版本中后期稳定产出的玩法循环。\n沃伦大陆的加入，标志着异环在都市异能题材之外，尝试以「游戏中的游戏」形式拓展玩法边界，为长期在线的玩家提供了一个可持续挖掘的内容池。",
     "contentEn": "The Warren Continent is a self-contained fantasy world introduced with the v1.2 'Nine Hundred and Ninety-Nine Nights' mode, a sharp contrast to the modern metropolis of Hethereau where the main story takes place. Inspired by tabletop RPGs (TRPG), it presents a medieval sword-and-sorcery setting: sprawling fields, deep dungeons, and the dragons that lair within — a continent built for repeated adventuring.\nAs permanent content, the Warren Continent does not close when a limited event ends; players can farm it long-term. The core loop centers on 'challenging dragons' — clearing tabletop-style story chapters and combat encounters to progress and unlock higher-difficulty dragon bosses. The zone is dotted with reward nodes, hidden elements, and growth resources, making it a steady mid-to-late-version gameplay loop.\nIts addition marks NTE experimenting with a 'game within a game' to expand beyond its urban-supernatural premise, giving long-term players a renewable pool of content to dig into.",
     "relatedCharacters": [],
-    "relatedLore": []
+    "relatedLore": [],
+    "nameTw": "沃倫大陸",
+    "summaryTw": "沃倫大陸是 1.2 版本「九百九十九夜」常駐玩法的舞臺——一片桌遊 RPG 風格的奇幻異世界，玩家在此挑戰巨龍、探索地下城，內容可重複週迴。",
+    "contentTw": "沃倫大陸是《異環》1.2 版本「九百九十九夜」玩法所在的獨立奇幻世界，與主線所在的現代都市海特洛截然不同。這裡以桌遊（TRPG）為靈感，呈現出劍與魔法的中世紀奇幻風格：廣袤的原野、幽深的地下城、盤踞其間的巨龍，構成了一片可供反覆探索的冒險大陸。\n作為常駐玩法，沃倫大陸的內容不會隨版本活動結束而關閉，玩家可以長期週迴。核心體驗圍繞「挑戰巨龍」展開——通過完成一段段桌遊式的劇情章節與戰鬥遭遇，逐步推進並解鎖更高難度的龍類首領。區域內分佈有獎勵節點、隱藏要素與養成資源，適合作為版本中後期穩定產出的玩法循環。\n沃倫大陸的加入，標誌著異環在都市異能題材之外，嘗試以「遊戲中的遊戲」形式拓展玩法邊界，為長期在線的玩家提供了一個可持續挖掘的內容池。"
   }
 ]

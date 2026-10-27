@@ -32,9 +32,9 @@
     "question": "异环1.4版本已上线，当前活动有什么？",
     "questionEn": "Version 1.4 is live: what are the current NTE events?",
     "questionTw": "異環1.4版本已上線，目前有哪些活動？",
-    "answer": "截至 2026-10-18，1.4版本「祷歌为谁而诵」已于2026年9月30日开启。官方已确认黑羽、噗卡乐园、全站深境、炭团的宝藏、黑羽的邀请函、Porsche联动盲盒等内容；具体活动开放时间、资格和奖励请以目标区服客户端及官方公告为准。1.3卡池和限时活动属于历史排期，不应继续作为当前活动规划依据。",
-    "answerEn": "As of October 18, 2026, Version 1.4, For Whom the Verses Mourn, launched on September 30, 2026. Official notices confirm Blackbird, Pukaland, Terminal Depths, Coal Lump's Treasure, Blackbird's Invitation, and the Porsche collaboration mystery boxes. Check the target server's client and official notices for exact windows, eligibility, and rewards. Version 1.3 banners and limited events are historical schedules and should not be used as current event guidance.",
-    "answerTw": "截至2026-10-18，1.4版本「禱歌為誰而誦」已於2026年9月30日開啟。官方已確認黑羽、噗卡樂園、全站深境、炭團的寶藏、黑羽的邀請函與Porsche聯動盲盒等內容；具體活動時間、資格與獎勵請以目標區服客戶端及官方公告為準。1.3卡池與限時活動屬於歷史排期，不應再作為目前活動規劃依據。",
+    "answer": "截至 2026-10-26，1.4版本「祷歌为谁而诵」已于2026年9月30日开启。官方已确认黑羽、噗卡乐园、全站深境、炭团的宝藏、黑羽的邀请函、Porsche联动盲盒等内容；具体活动开放时间、资格和奖励请以目标区服客户端及官方公告为准。1.3卡池和限时活动属于历史排期，不应继续作为当前活动规划依据。",
+    "answerEn": "As of October 26, 2026, Version 1.4, For Whom the Verses Mourn, launched on September 30, 2026. Official notices confirm Blackbird, Pukaland, Terminal Depths, Coal Lump's Treasure, Blackbird's Invitation, and the Porsche collaboration mystery boxes. Check the target server's client and official notices for exact windows, eligibility, and rewards. Version 1.3 banners and limited events are historical schedules and should not be used as current event guidance.",
+    "answerTw": "截至2026-10-26，1.4版本「禱歌為誰而誦」已於2026年9月30日開啟。官方已確認黑羽、噗卡樂園、全站深境、炭團的寶藏、黑羽的邀請函與Porsche聯動盲盒等內容；具體活動時間、資格與獎勵請以目標區服客戶端及官方公告為準。1.3卡池與限時活動屬於歷史排期，不應再作為目前活動規劃依據。",
     "tags": ["1.4", "版本更新", "卡池", "活动", "官方公告"],
     "category": "version",
     "categoryZh": "版本更新",
@@ -864,8 +864,8 @@
     "id": "gacha-priority",
     "question": "异环新手应该优先抽什么卡池？",
     "questionEn": "Which banner should beginners pull first in NTE?",
-    "answer": "这条“新手应该先抽什么卡池”FAQ 现在更适合回答**你该先补核心角色、先吃新手福利，还是先把资源留给后续版本目标**，而不是继续给出一套固定角色名单。对当前玩家来说，更实际的判断通常是：你的账号现在是不是缺一个能稳定推进内容的主力位、当前新手池或折扣池是否还有效，以及你有没有足够资源兼顾眼前和后续目标。\n\n更稳妥的理解方式是：\n1. 如果你缺能稳定推进主线或日常的核心位，角色池通常会比其他池子更值得优先考虑\n2. 如果新手池、折扣池或一次性福利仍然有效，先把这些低风险资源入口看清楚再决定后续投入\n3. 武器/弧盘这类更偏深化的池子，通常要等主力框架成型后再评估，而不是和角色池抢早期预算\n\n所以这页现在保留的是**新手抽卡优先级的判断逻辑**，而不是继续把某几个开服阶段热门角色写成长期固定答案。",
-    "answerEn": "This beginner banner-priority FAQ is more useful when it explains **whether you should secure a core unit first, spend the low-risk beginner benefits first, or hold resources for later version goals** instead of preserving one fixed character list. For current players, the practical question is whether your account still lacks a stable progression core, whether beginner or discounted banners are still relevant, and whether your budget can cover both immediate needs and future targets.\n\nA safer way to think about it is:\n1. If your roster still lacks a unit that can reliably carry story and routine progress, character banners usually deserve earlier attention than other pools\n2. If beginner discounts, one-time selectors, or low-risk entry benefits still apply, read those carefully before committing the rest of your pulls\n3. Weapon or Arc-style deepening pools are usually better judged after your main roster frame exists rather than competing for your earliest budget\n\nSo this page now focuses on banner-priority logic for beginners instead of preserving a fixed launch-era answer built around a few early favorites.",
+    "answer": "新手抽卡优先级应按目标区服当前卡池和账号缺口判断，而不是固定套用开服角色名单。先确认新手池、折扣或一次性福利是否仍有效，再判断是否缺少能稳定推进主线和日常的核心角色；武器/弧盘等深化池应在主力框架成型后再评估。具体概率、保底和角色范围请以当前客户端为准。",
+    "answerEn": "Beginner banner priority should be based on the target server's current banner details and your roster gap, not a fixed launch-era character list. First check whether beginner discounts or one-time benefits still apply, then decide whether you lack a core unit for story and routine progress; weapon or Arc deepening banners are usually better judged after the main roster frame exists. Verify current rates, pity, and character pools in the client.",
     "tags": [
       "gacha",
       "beginner"
@@ -883,7 +883,7 @@
     "seoDescriptionZh": "异环新手抽卡优先级建议：先抽角色池还是新手池、什么时候该碰武器池，以及资源有限时该怎么分配。",
     "seoDescriptionEn": "Learn which NTE banner beginners should prioritize first, when starter benefits matter, and why weapon banners usually come later for new accounts.",
     "questionTw": "異環新手應該優先抽什麼卡池？",
-    "answerTw": "這條「新手應該先抽什麼卡池」FAQ 現在更適合回答**你該先補核心角色、先吃新手福利，還是先把資源留給後續版本目標**，而不是繼續給出一套固定角色名單。對目前玩家來說，更實際的判斷通常是：你的帳號現在是不是缺一個能穩定推進內容的主力位、目前新手池或折扣池是否還有效，以及你有沒有足夠資源兼顧眼前和後續目標。\n\n更穩妥的理解方式是：\n1. 如果你缺能穩定推進主線或日常的核心位，角色池通常會比其他池子更值得優先考慮\n2. 如果新手池、折扣池或一次性福利仍然有效，先把這些低風險資源入口看清楚再決定後續投入\n3. 武器／弧盤這類更偏深化的池子，通常要等主力框架成型後再評估，而不是和角色池搶早期預算\n\n所以這頁現在保留的是**新手抽卡優先級的判斷邏輯**，而不是繼續把某幾個開服階段熱門角色寫成長期固定答案。",
+    "answerTw": "新手抽卡優先級應按目標區服目前卡池和帳號缺口判斷，而不是固定套用開服角色名單。先確認新手池、折扣或一次性福利是否仍有效，再判斷是否缺少能穩定推進主線和日常的核心角色；武器／弧盤等深化池應在主力框架成型後再評估。具體機率、保底和角色範圍請以目前客戶端為準。",
     "categoryTw": "抽卡系統",
     "seoTitleTw": "異環新手先抽哪個卡池？角色池、武器池與新手池優先級",
     "seoDescriptionTw": "異環新手抽卡優先級建議：先抽角色池還是新手池、什麼時候該碰武器池，以及資源有限時該怎麼分配。"
@@ -1486,8 +1486,8 @@
     "id": "no-50-50-system",
     "question": "异环抽卡有50/50吗？保底会歪吗？",
     "questionEn": "Does NTE have a 50/50 system? Can pity give off-banner characters?",
-    "answer": "没有。异环的限定角色池**不采用传统 50/50 机制**，这一点在开服阶段就已经被确认，并且仍然是它抽卡系统里最关键的卖点之一。对玩家来说，核心意思就是：只要触发限定角色池的 S 级保底，拿到的就是当期 UP，而不是常驻角色。\n\n目前这条 FAQ 比起“直播确认了什么”，更重要的是说明它对现在抽卡规划的意义：\n1. 你不用按很多二游那样预留“双保底”\n2. 90 抽硬保底的资源目标更好规划\n3. 想抽单个限定角色时，预算和心理压力都更可控\n\n所以无论是开服玩家还是现在入坑的玩家，这个结论都没有过时：异环最友好的抽卡点，依然是**限定池不歪**。",
-    "answerEn": "No. NTE's limited character banner **does not use a traditional 50/50 system**, and that remains one of the most important selling points of its gacha model. In practical terms, once you hit pity on a limited character banner, the S-rank you get is the featured unit rather than a standard-pool miss.\n\nWhat matters today is less the original livestream announcement and more what it means for planning:\n1. You do not need to budget around a typical double-pity worst case\n2. A 90-pull hard pity is easier to plan around\n3. Pulling for a single featured unit is more predictable and less stressful\n\nSo this part has not gone out of date: one of NTE's most player-friendly traits is still that **limited-banner pity does not miss**.",
+    "answer": "开服阶段曾确认过限定角色池不采用传统 50/50，但卡池规则可能按版本、区服或活动调整。本 FAQ 不把早期结论当作当前预算保证；抽取前请在目标区服当前卡池详情中核对 UP 保证、概率、保底和继承规则。",
+    "answerEn": "Launch-era notices described the limited character banner as not using a traditional 50/50, but banner rules can change by version, server, or event. Do not treat that historical statement as a current budget guarantee; verify the featured guarantee, rates, pity, and carry-over in the target server's current banner details before pulling.",
     "tags": [
       "gacha",
       "pity"
@@ -1504,7 +1504,7 @@
     "seoDescriptionZh": "异环限定角色池有没有 50/50、90 抽保底是否必中当期 UP，以及这套机制对抽卡规划意味着什么。",
     "seoDescriptionEn": "Find out whether NTE uses a 50/50 system, whether limited pity guarantees the featured unit, and how that changes your pull budgeting.",
     "questionTw": "異環抽卡有50/50嗎？保底會歪嗎？",
-    "answerTw": "沒有。異環的限定角色池**不採用傳統 50/50 機制**，這一點在開服階段就已經被確認，而且仍然是它抽卡系統裡最關鍵的賣點之一。對玩家來說，核心意思就是：只要觸發限定角色池的 S 級保底，拿到的就是當期 UP，而不是常駐角色。\n\n目前這條 FAQ 比起「直播確認了什麼」，更重要的是說明它對現在抽卡規劃的意義：\n1. 你不用像很多二遊那樣預留「雙保底」\n2. 90 抽硬保底的資源目標更好規劃\n3. 想抽單個限定角色時，預算和心理壓力都更可控\n\n所以無論是開服玩家還是現在入坑的玩家，這個結論都沒有過時：異環最友好的抽卡點，依然是**限定池不歪**。",
+    "answerTw": "開服階段曾確認限定角色池不採用傳統 50/50，但卡池規則可能按版本、區服或活動調整。本 FAQ 不把早期結論當作目前預算保證；抽取前請在目標區服目前卡池詳情中核對 UP 保證、機率、保底與繼承規則。",
     "categoryTw": "抽卡系統",
     "seoTitleTw": "異環有50/50嗎？限定池會不會歪？保底規則說明",
     "seoDescriptionTw": "異環限定角色池有沒有 50/50、90 抽保底是否必中當期 UP，以及這套機制對抽卡規劃意味著什麼。"
@@ -3024,8 +3024,8 @@
     "seoTitleEn": "Best NTE Launch Teams — T0 Standards & Why Strong Teams Work",
     "seoDescriptionZh": "异环公测 T0 队伍怎么判断？这篇整理强势阵容的核心标准、依赖条件与阅读方法。",
     "seoDescriptionEn": "Learn how to evaluate strong NTE launch teams by understanding damage cores, support coverage, patch dependence, and roster requirements.",
-    "answer": "这条“公测最强配队排名”页面现在最该避免的，就是把某一阶段流行阵容写成跨版本长期有效的 T0 结论。对当前玩家来说，更有参考价值的不是背一串队名，而是知道：**强队通常同时满足主输出明确、辅助功能完整、反应/机制能稳定触发，以及生存不拖节奏。**\n\n更稳妥的理解方式是：\n1. 所谓 T0 队伍往往高度依赖当期角色池、环境和玩家开发进度\n2. 如果你缺其中一个关键角色，直接照搬榜单的意义通常会大幅下降\n3. 真正适合大多数玩家的，是学会判断一支队伍为什么强，而不是只记住某个时期的标签\n\n所以这页现在保留的是**强势配队的判断标准**，而不是继续把旧版本榜单当成当前通用答案。",
-    "answerEn": "Pages about \"best launch teams\" become misleading when they freeze one period's popular compositions into permanent T0 truth. For current players, the more useful takeaway is not memorizing team labels, but understanding that **strong teams usually combine a clear damage core, complete support coverage, reliable reaction or mechanic triggers, and enough survivability to avoid collapsing the rotation.**\n\nA safer reading is:\n1. So-called T0 teams are usually highly dependent on the banner pool, the patch environment, and how far players have developed the meta at that moment\n2. If you are missing one key piece, copying the old list directly often loses most of its value\n3. The more transferable skill is learning why a team is strong rather than memorizing one period's labels\n\nSo this page now focuses on the standards behind strong team building instead of preserving an old ranked list as a current universal answer.",
+    "answer": "公测强队榜只能作为早期版本记录，不能直接当作当前 T0 结论。判断当前队伍时，应同时检查主输出、辅助覆盖、反应或机制触发稳定性、生存能力、目标场景和角色可得性；缺少关键角色时不要照搬旧榜单。",
+    "answerEn": "Launch-era team rankings are historical records, not current T0 guarantees. To evaluate a team now, check its damage core, support coverage, reliable reaction or mechanic triggers, survivability, target content, and character availability; do not copy an old list when a key piece is missing.",
     "tags": [
       "team",
       "tier-list"
@@ -3043,7 +3043,7 @@
     "questionTw": "異環公測最強配隊排名？T0隊伍推薦",
     "seoTitleTw": "異環公測最強配隊怎麼看？T0標準與陣容判斷邏輯",
     "seoDescriptionTw": "異環公測 T0 隊伍怎麼判斷？這篇整理強勢陣容的核心標準、依賴條件與閱讀方法。",
-    "answerTw": "這條「公測最強配隊排名」頁面現在最該避免的，就是把某一階段流行陣容寫成跨版本長期有效的 T0 結論。對目前玩家來說，更有參考價值的不是背一串隊名，而是知道：**強隊通常同時滿足主輸出明確、輔助功能完整、反應/機制能穩定觸發，以及生存不拖節奏。**\n\n更穩妥的理解方式是：\n1. 所謂 T0 隊伍往往高度依賴當期角色池、環境和玩家開發進度\n2. 如果你缺其中一個關鍵角色，直接照搬榜單的意義通常會大幅下降\n3. 真正適合大多數玩家的，是學會判斷一支隊伍為什麼強，而不是只記住某個時期的標籤\n\n所以這頁現在保留的是**強勢配隊的判斷標準**，而不是繼續把舊版本榜單當成當前通用答案。",
+    "answerTw": "公測強隊榜只能作為早期版本記錄，不能直接當作目前 T0 結論。判斷目前隊伍時，應同時檢查主輸出、輔助覆蓋、反應或機制觸發穩定性、生存能力、目標場景和角色可得性；缺少關鍵角色時不要照搬舊榜單。",
     "categoryTw": "配隊推薦"
   },
   {
@@ -3560,8 +3560,8 @@
     "seoTitleEn": "NTE Weapon Banner Guide — Pull Priority, Value & Resource Tradeoffs",
     "seoDescriptionZh": "异环武器池值得抽吗？整理角色池完整度、专武收益和零氪低氪玩家的资源取舍判断。",
     "seoDescriptionEn": "A practical NTE weapon-banner guide covering roster breadth, signature-weapon value, and pull tradeoffs for F2P and low-spend players.",
-    "answer": "这条“武器池值不值得抽”FAQ 现在更适合回答**你当前更缺角色广度，还是更缺主力上限，以及武器池投入会不会真正改善你的实际体验**，而不是继续把一串保底和出率写成一份固定建议。对当前玩家来说，更重要的通常是：你的主队是否已经稳定、某把专属武器能不能解决真实短板，以及为武器投入会不会挤掉下一个更关键的角色目标。\n\n更稳妥的理解方式是：\n1) 如果角色池还不完整，角色通常仍然比武器更容易直接改善账号可玩面\n2) 当主队已经稳定、某把武器能明显提升循环、输出或容错时，武器池的价值才会更清晰\n3) 对零氪和低投入玩家来说，重点通常不是“武器强不强”，而是它值不值得让你放弃一个角色版本目标\n\n所以这页现在保留的是**武器池投入时机与优先级判断逻辑**，而不是继续把一套固定出率说明写成唯一答案。",
-    "answerEn": "This weapon-banner page is more useful when it explains **whether your account currently needs more roster breadth or more ceiling on an existing core, and whether weapon investment would actually improve real play** instead of preserving one static package of pity numbers and generic advice. For current players, the practical questions are whether the main team is already stable, whether one signature weapon fixes a real bottleneck, and whether pulling weapons crowds out a more important upcoming character target.\n\nA safer way to judge the weapon banner is:\n1. If your roster is still incomplete, characters usually improve account flexibility more directly than weapons do\n2. Once your main team is already stable and one weapon clearly upgrades rotation, damage, or survivability, the weapon banner becomes easier to justify\n3. For F2P and lower-spend players, the real question is less 'is the weapon strong' and more 'is it worth giving up a character-version goal'\n\nSo this page now focuses on timing and priority logic for weapon-banner investment instead of preserving one fixed rate-and-pity card as the only answer.",
+    "answer": "武器池是否值得投入，应按目标区服当前规则、主队完整度和实际短板判断，而不是固定套用旧版保底或出率。若角色池仍不完整，角色通常更直接改善账号可玩性；若主队已稳定且某把武器能明显改善循环、输出或容错，再比较它是否值得挤占下一個角色目标。具体规则请以客户端为准。",
+    "answerEn": "Weapon-banner value should be judged from the target server's current rules, main-team completeness, and real bottlenecks rather than old pity or rate assumptions. If your roster is incomplete, characters usually improve flexibility more directly; if the main team is stable and a weapon clearly improves rotation, damage, or survivability, compare that gain against the next character goal. Verify the current rules in-game.",
     "tags": [
       "gacha",
       "weapon",
@@ -3576,7 +3576,7 @@
     "questionTw": "異環武器池值得抽嗎？優先抽什麼武器？",
     "seoTitleTw": "異環武器池要不要抽？武器優先順序與資源取捨攻略",
     "seoDescriptionTw": "異環武器池值得抽嗎？整理角色池完整度、專武收益和零氪低氪玩家的資源取捨判斷。",
-    "answerTw": "這條「武器池值不值得抽」FAQ 現在更適合回答**你目前更缺角色廣度，還是更缺主力上限，以及武器池投入會不會真正改善你的實際體驗**，而不是繼續把一串保底和出率寫成一份固定建議。對目前玩家來說，更重要的通常是：你的主隊是否已經穩定、某把專屬武器能不能解決真實短板，以及為武器投入會不會擠掉下一個更關鍵的角色目標。\n\n更穩妥的理解方式是：\n1) 如果角色池還不完整，角色通常仍然比武器更容易直接改善帳號可玩面\n2) 當主隊已經穩定、某把武器能明顯提升循環、輸出或容錯時，武器池的價值才會更清晰\n3) 對零氪和低投入玩家來說，重點通常不是「武器強不強」，而是它值不值得讓你放棄一個角色版本目標\n\n所以這頁現在保留的是**武器池投入時機與優先級判斷邏輯**，而不是繼續把一套固定出率說明寫成唯一答案。",
+    "answerTw": "武器池是否值得投入，應按目標區服目前規則、主隊完整度和實際短板判斷，而不是固定套用舊版保底或出率。如果角色池仍不完整，角色通常更直接改善帳號可玩性；如果主隊已穩定且某把武器能明顯改善循環、輸出或容錯，再比較它是否值得擠占下一個角色目標。具體規則請以客戶端為準。",
     "categoryTw": "抽卡系統"
   },
   {
@@ -4845,8 +4845,8 @@
     "id": "next-banner-schedule",
     "question": "异环下一个卡池是什么？未来限定角色预告",
     "questionEn": "What is the next banner in NTE? Upcoming limited character schedule",
-    "answer": "真红与伊洛伊的1.2卡池均为历史排期，不能再作为当前或下一期抽卡依据。本站不会在官方前瞻、维护公告或游戏内倒计时确认前列出新的限定角色或顺序。规划资源时，请先核对客户端当前卡池，再把未确认信息只当作观察。",
-    "answerEn": "The Shinku and Iroi Version 1.2 banners are historical schedules and must not be used as current or next-banner advice. This site does not list a new limited character or order until an official preview, maintenance notice, or in-game countdown confirms it. Check your client before planning resources.",
+    "answer": "真红与伊洛伊的 1.2 卡池均为历史排期，不能再作为当前或下一期抽卡依据。下一期角色、顺序和日期必须以目标区服官方公告、维护公告或游戏内倒计时为准；未确认信息只应作为观察项。",
+    "answerEn": "The Shinku and Iroi Version 1.2 banners are historical schedules and must not be used as current or next-banner advice. Verify the next character, order, and date through the target server's official notices, maintenance announcement, or in-game countdown; treat unconfirmed information only as a watch item.",
     "seoTitleZh": "异环下个卡池是什么？历史排期与当前确认方法",
     "seoTitleEn": "NTE Next Banner: Historical Schedules and Current Verification",
     "seoDescriptionZh": "区分异环历史卡池与已确认当前排期；下一期角色和日期请以官方公告及游戏内倒计时为准。",
@@ -4862,7 +4862,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環下一個卡池是什麼？未來限定角色預告",
-    "answerTw": "真紅與伊洛伊的1.2卡池均為歷史排期，不能再作為目前或下一期抽卡依據。本站不會在官方前瞻、維護公告或遊戲內倒計時確認前列出新的限定角色或順序。規劃資源時請先核對客戶端目前卡池。",
+    "answerTw": "真紅與伊洛伊的 1.2 卡池均為歷史排期，不能再作為目前或下一期抽卡依據。下一期角色、順序和日期必須以目標區服官方公告、維護公告或遊戲內倒計時為準；未確認資訊只應作為觀察項。",
     "categoryTw": "抽卡系統",
     "seoTitleTw": "異環下個卡池是什麼？歷史排期與目前確認方法",
     "seoDescriptionTw": "區分異環歷史卡池與已確認目前排期；下一期角色和日期請以官方公告及遊戲內倒計時為準。"
@@ -5947,8 +5947,8 @@
     "seoTitleEn": "NTE Character Tier List — How to Read Rankings by Role",
     "seoDescriptionZh": "异环角色强度榜不只看谁最强：整理主C、辅助、生存和体系核心的阅读方式，帮助你按版本与账号判断角色价值。",
     "seoDescriptionEn": "How to read the NTE character tier list by role: main DPS, support, sustain, and team-core value across patch and roster context.",
-    "answer": "这条“角色强度榜怎么排”FAQ 现在更适合回答**你该怎么读强度榜，而不是继续追问一个脱离版本和账号背景的“最强角色”**。对当前玩家来说，更有参考价值的通常不是谁被排在榜首，而是某个角色在你的现有阵容、资源深度和目标玩法里到底能不能稳定发挥价值。\n\n更稳妥的理解方式是：\n1. 强度榜要分开看主C、辅助、生存和体系核心，不适合把所有角色混成一个绝对总榜\n2. 一个角色的理论上限很高，不代表它对你的账号就是当前最优投入\n3. 版本环境、敌人设计、队伍开发和新角色加入，都会持续改变所谓“最强”的答案\n\n所以这页现在保留的是**强度榜的阅读方式与角色价值判断逻辑**，而不是继续把某个阶段的排行写成长期固定结论。",
-    "answerEn": "A character tier list is best treated as a snapshot of one environment, not as a timeless ranking that overrides account context. For current players, the more useful question is not only who is \"strongest,\" but which characters keep value across different team shells, patch goals, and roster states.\n\nA safer way to read a tier list is:\n1. Separate raw ceiling from practical value: a character can be powerful on paper and still be awkward for your current roster\n2. Give extra weight to units with flexible team fit, stable utility, or low setup cost if your account is still growing\n3. Expect rankings to move with patch conditions, newly discovered synergies, and optimization changes rather than staying frozen forever\n\nSo this page now focuses on how to interpret strength rankings instead of locking players into an early-version absolute order.",
+    "answer": "角色强度榜应看作特定版本和场景的快照，而不是脱离账号背景的永久排名。当前玩家应同时比较角色定位、队伍适配、资源成本和目标玩法；版本、敌人设计、队伍开发与新角色加入都可能改变结论。本 FAQ 保留强度榜的阅读方法，不把早期排行当作当前绝对答案。",
+    "answerEn": "A character tier list should be read as a snapshot of a particular version and scenario, not as a permanent ranking detached from account context. Compare role, team fit, resource cost, and target content; patch conditions, enemy design, team discoveries, and new characters can change the conclusion. This FAQ keeps the reading method rather than treating an early ranking as a current absolute answer.",
     "tags": [
       "tier-list",
       "角色排名",
@@ -5970,7 +5970,7 @@
     ],
     "relatedMaterials": [],
     "questionTw": "異環角色強度榜怎麼排？誰是最強角色？",
-    "answerTw": "這條「角色強度榜怎麼排」FAQ 現在更適合回答**你該怎麼讀強度榜，而不是繼續追問一個脫離版本和帳號背景的「最強角色」**。對目前玩家來說，更有參考價值的通常不是誰被排在榜首，而是某個角色在你的現有陣容、資源深度和目標玩法裡到底能不能穩定發揮價值。\n\n更穩妥的理解方式是：\n1. 強度榜要分開看主 C、輔助、生存和體系核心，不適合把所有角色混成一張絕對總榜\n2. 一個角色的理論上限很高，不代表它對你的帳號就是目前最優投入\n3. 版本環境、敵人設計、隊伍開發和新角色加入，都會持續改變所謂「最強」的答案\n\n所以這頁現在保留的是**強度榜的閱讀方式與角色價值判斷邏輯**，而不是繼續把某個階段的排行寫成長期固定結論。",
+    "answerTw": "角色強度榜應看作特定版本和場景的快照，而不是脫離帳號背景的永久排名。目前玩家應同時比較角色定位、隊伍適配、資源成本和目標玩法；版本、敵人設計、隊伍開發與新角色加入都可能改變結論。本 FAQ 保留強度榜的閱讀方法，不把早期排行當作目前絕對答案。",
     "categoryTw": "角色",
     "seoTitleTw": "異環角色強度榜怎麼讀？版本強度排行與配隊判斷",
     "seoDescriptionTw": "異環角色強度榜不只看誰最強：整理主 C、輔助、生存和體系核心的閱讀方式，幫助你按版本與帳號判斷角色價值。"
@@ -6633,8 +6633,8 @@
     "seoTitleEn": "Does NTE Pity Carry Over? Banner Inheritance Rules Explained",
     "seoDescriptionZh": "异环保底能不能继承到下一个卡池？这篇整理限定池、武器池、常驻池之间的保底继承规则与不互通边界。",
     "seoDescriptionEn": "Does pity carry over in NTE? Limited, weapon, and standard banner inheritance rules explained, including what does not transfer.",
-    "answer": "异环的保底机制**在同类型卡池之间可以继承**。具体规则：1) 限定角色卡池的保底进度会继承到下一个限定角色卡池；2) 武器卡池的保底进度会继承到下一个武器卡池；3) 常驻卡池的保底进度在常驻卡池内继承；4) 不同类型卡池之间的保底**不互通**（如限定卡池的保底不会继承到常驻卡池）。这意味着如果你在当前限定卡池抽了70抽没出S级，下一个限定角色卡池开启时你的保底计数从70开始，只需20抽就能触发硬保底。",
-    "answerEn": "NTE pity **carries over between banners of the same type**. Rules: 1) Limited character banner pity carries to the next limited character banner; 2) Weapon banner pity carries to the next weapon banner; 3) Standard banner pity carries within standard banners; 4) Pity does NOT transfer between different banner types. If you pulled 70 times on the current limited banner without an S-Rank, your pity counter starts at 70 when the next limited banner begins — only 20 more pulls to reach hard pity.",
+    "answer": "不同类型卡池是否继承保底，必须以目标区服当前卡池详情为准。本站此前记录过同类卡池继承的规则，但不能把旧版角色池、武器/弧盘池或常驻池的关系直接套用到当前版本；抽取前请核对卡池规则页。",
+    "answerEn": "Whether pity carries over must be verified in the target server's current banner details. This site previously recorded same-type carry-over rules, but old relationships between character, weapon/Arc, and standard banners should not be applied to the current version without checking the rules page.",
     "tags": [
       "gacha",
       "pity",
@@ -6646,7 +6646,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環保底能不能繼承到下一個卡池？保底繼承規則詳解",
-    "answerTw": "異環的保底機制**在同類型卡池之間可以繼承**。具體規則：1) 限定角色卡池的保底進度會繼承到下一個限定角色卡池；2) 武器卡池的保底進度會繼承到下一個武器卡池；3) 常駐卡池的保底進度在常駐卡池內繼承；4) 不同型別卡池之間的保底**不互通**（如限定卡池的保底不會繼承到常駐卡池）。這意味著如果你在當前限定卡池抽了70抽沒出S級，下一個限定角色卡池開啟時你的保底計數從70開始，只需20抽就能觸發硬保底。",
+    "answerTw": "不同類型卡池是否繼承保底，必須以目標區服目前卡池詳情為準。本頁此前記錄過同類型卡池繼承規則，但不能把舊版角色池、武器／弧盤池或常駐池的關係直接套用到目前版本；抽取前請核對卡池規則頁。",
     "categoryTw": "抽卡系統",
     "seoTitleTw": "異環保底會繼承嗎？下個卡池保底規則詳解",
     "seoDescriptionTw": "異環保底能不能繼承到下一個卡池？這篇整理限定池、武器池、常駐池之間的保底繼承規則與不互通邊界。"
@@ -7434,8 +7434,8 @@
     "id": "expected-pull-count-each-banner",
     "question": "异环各卡池期望抽数是多少？平均多少抽出金？",
     "questionEn": "What is the expected pull count for each NTE banner? How many pulls for a gold?",
-    "answer": "这条“各池期望抽数”页面，现在更适合拿来做**预算顺序判断**，而不是把几个平均值当成放之四海而皆准的结论。对当前玩家来说，更有用的是知道：角色池、弧盘池、常驻池、新手池的投入目的根本不同，所以不能只靠“平均多少抽”决定优先级。\n\n更实用的理解方式是：\n1. 角色池更适合围绕版本目标做集中投入\n2. 弧盘池通常是角色成型后的增强项，而不是多数玩家的第一资源出口\n3. 新手池和常驻池更偏补基础，而不是每个版本都值得重压\n\n所以这页现在保留的是**不同卡池的预算用途与优先顺序**，帮助你做资源分配，而不是继续把一张平均抽数表当成万能答案。",
-    "answerEn": "This page is more useful as a budgeting-order guide than as a permanent table of universal pull averages. For current players, what matters more is that character, Arc, standard, and beginner banners serve different purposes, so average pull counts alone should not decide priority.\n\nA more practical reading is:\n1. Character banners are where most version-focused spending decisions should happen\n2. Arc banners are usually enhancement spending after a main character plan is already in place\n3. Beginner and standard banners are more about filling account basics than becoming the main sink for every version budget\n\nSo this page now focuses on budget purpose and banner priority instead of pretending one average-count chart can answer every case.",
+    "answer": "不同卡池的期望抽数和实际规则可能按版本、区服、卡池类型或活动调整。本 FAQ 只保留预算比较框架：角色池、弧盘池、常驻池和新手池的投入目的不同，不能把旧版平均值直接用于当前预算。抽取前请核对目标区服卡池详情。",
+    "answerEn": "Expected pull counts and rules can vary by version, server, banner type, or event. This FAQ keeps only a budgeting framework: character, Arc, standard, and beginner banners serve different purposes, so historical averages should not be used directly for a current budget. Verify the target server's banner details before pulling.",
     "tags": [
       "保底",
       "期望抽数",
@@ -7447,7 +7447,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環各卡池期望抽數是多少？平均多少抽出金？",
-    "answerTw": "這條「各池期望抽數」頁面，現在更適合拿來做**預算順序判斷**，而不是把幾個平均值當成放之四海而皆準的結論。對目前玩家來說，更有用的是知道：角色池、弧盤池、常駐池、新手池的投入目的根本不同，所以不能只靠「平均多少抽」決定優先級。\n\n更實用的理解方式是：\n1. 角色池更適合圍繞版本目標做集中投入\n2. 弧盤池通常是角色成型後的增強項，而不是多數玩家的第一資源出口\n3. 新手池和常駐池更偏補基礎，而不是每個版本都值得重壓\n\n所以這頁現在保留的是**不同卡池的預算用途與優先順序**，幫助你做資源分配，而不是繼續把一張平均抽數表當成萬能答案。",
+    "answerTw": "不同卡池的期望抽數和實際規則可能按版本、區服、卡池類型或活動調整。本 FAQ 只保留預算比較框架：角色池、弧盤池、常駐池和新手池的投入目的不同，不能把舊版平均值直接用於目前預算。抽取前請核對目標區服卡池詳情。",
     "categoryTw": "抽卡系統",
     "seoTitleZh": "异环各卡池期望抽数整理 — 平均多少抽出金？",
     "seoDescriptionZh": "按角色池、弧盘池和保底逻辑理解异环各类卡池的期望抽数，帮助你做预算而不是只看单次欧非结果。",
