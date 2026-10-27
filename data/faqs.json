@@ -145,10 +145,10 @@
   },
   {
     "id": "redeem-code-how-to-enter",
-    "question": "异环兑换码在哪里输入？怎么兑换？最新兑换码汇总",
-    "questionEn": "Where to enter redeem codes in NTE? How to redeem? Latest codes list",
-    "answer": "异环兑换码使用方法：\n\n**兑换步骤**：\n1. 打开游戏，进入主界面\n2. 点击左上角/右上角的菜单（设置图标）\n3. 找到「兑换码」或「礼包兑换」选项\n4. 输入兑换码（注意大小写）\n5. 确认兑换，奖励将发送到游戏内邮箱\n\n**注意事项**：\n- 每个兑换码只能使用一次\n- 部分兑换码有有效期限，过期无法使用\n- 国际服和国服的兑换码可能不同\n- 兑换码区分大小写，建议直接复制粘贴\n\n**2026年5月已知兑换码**（持续更新）：\n- 公测预约奖励兑换码\n- 官方社媒关注奖励码\n- 直播间限定码（前瞻直播时发放）\n- 合作方联动码\n\n最新兑换码请查看我们的兑换码大全页面，实时更新有效兑换码。\n\n**找不到兑换入口？**\n- 确认游戏版本为最新版\n- 部分功能需要通过新手教程后解锁\n- 尝试在设置菜单中查找\n- 如果实在找不到，可以在游戏内联系客服",
-    "answerEn": "How to redeem codes in NTE:\n\n**Steps**:\n1. Open the game, go to main menu\n2. Tap the menu/settings icon (top-left or top-right)\n3. Find \"Redeem Code\" or \"Gift Exchange\" option\n4. Enter the code (case-sensitive)\n5. Confirm — rewards will be sent to in-game mailbox\n\n**Important Notes**:\n- Each code can only be used once\n- Some codes have expiration dates\n- Global and CN server codes may differ\n- Codes are case-sensitive — copy-paste recommended\n\n**Known Codes (May 2026)**:\n- Pre-registration reward codes\n- Social media follow reward codes\n- Livestream exclusive codes\n- Collaboration partner codes\n\nCheck our redeem codes page for the latest active codes, updated in real-time.\n\n**Can't find the redeem option?**\n- Make sure your game is updated to the latest version\n- Some features unlock after completing the tutorial\n- Check the settings menu\n- Contact in-game support if needed",
+    "question": "异环兑换码在哪里输入？怎么核验当前兑换码？",
+    "questionEn": "Where do you enter NTE redeem codes, and how do you verify current codes?",
+    "answer": "异环兑换码的入口和有效期可能按区服、客户端版本与活动调整。\n\n**核验与兑换步骤**：\n1. 先确认目标区服、客户端版本和兑换码来源；只采用官方公告、游戏内公告或官方账号发布的代码\n2. 打开游戏进入主界面，在设置、活动或礼包兑换入口查找兑换功能；页面名称以当前客户端为准\n3. 输入代码时保留大小写、连字符和其他字符，不要自行补全或修改\n4. 提交后检查游戏内邮箱或奖励记录；若失败，查看错误提示、有效期和区服限制\n\n**注意事项**：\n- 每个代码可能有使用次数、账号限制或截止时间\n- 国际服和国服代码可能不同，不能互相推断\n- 未确认的社区代码不应写入当前有效兑换码清单\n- 找不到入口时，先完成必要的新手流程并查看当前客户端说明或联系客服\n\n当前有效代码请以兑换码页面中的状态、来源和复核日期为准；没有官方确认的代码应明确标为未知，而不是当作可用奖励。",
+    "answerEn": "The entry point and expiry of NTE redeem codes can vary by region, client version, and event.\n\n**Verification and redemption steps**:\n1. Confirm the target region, client version, and code source; use only codes published in official notices, in-game notices, or official accounts\n2. Open the game and look for the redeem feature under Settings, Events, or Gift Exchange; the label depends on the current client\n3. Preserve capitalization, hyphens, and other characters when entering a code; do not invent or alter missing characters\n4. Check the in-game mailbox or reward history after submission; if it fails, review the error, expiry, and region restrictions\n\n**Important notes**:\n- A code may have usage limits, account restrictions, or a deadline\n- Global and CN codes may differ and should not be inferred to work across regions\n- Unverified community codes should not be listed as currently active\n- If the entry point is missing, finish required onboarding and check the current client help or contact support\n\nTreat a code as active only when its status, source, and review date are recorded on the redeem-code page; otherwise mark it unknown rather than presenting it as a usable reward.",
     "tags": [
       "codes",
       "redeem",
@@ -161,14 +161,14 @@
     "categoryEn": "General",
     "relatedCharacters": [],
     "relatedMaterials": [],
-    "seoTitleZh": "异环兑换码在哪里输入？最新兑换码使用方法与入口",
-    "seoTitleEn": "How to Redeem Codes in NTE — Code Entry Location & Claim Guide",
+    "seoTitleZh": "异环兑换码在哪里输入？入口、区服与有效期核验",
+    "seoTitleEn": "How to Redeem Codes in NTE — Entry Location, Region & Expiry Checks",
     "seoDescriptionZh": "异环兑换码输入位置、兑换步骤、找不到兑换入口怎么办，以及国服和国际服兑换码是否通用的说明。",
     "seoDescriptionEn": "Find where to enter redeem codes in NTE, how to claim rewards, what to do if the redeem menu is missing, and whether CN and global codes differ.",
-    "questionTw": "異環兌換碼在哪裡輸入？怎麼兌換？最新兌換碼彙總",
-    "answerTw": "異環兌換碼使用方法：\n\n**兌換步驟**：\n1. 開啟遊戲，進入主介面\n2. 點選左上角/右上角的選單（設定圖示）\n3. 找到「兌換碼」或「禮包兌換」選項\n4. 輸入兌換碼（注意大小寫）\n5. 確認兌換，獎勵將傳送到遊戲內郵箱\n\n**注意事項**：\n- 每個兌換碼只能使用一次\n- 部分兌換碼有有效期限，過期無法使用\n- 國際服和國服的兌換碼可能不同\n- 兌換碼區分大小寫，建議直接複製貼上\n\n**2026年5月已知兌換碼**（持續更新）：\n- 公測預約獎勵兌換碼\n- 官方社媒關注獎勵碼\n- 直播間限定碼（前瞻直播時發放）\n- 合作方聯動碼\n\n最新兌換碼請檢視我們的兌換碼大全頁面，即時更新有效兌換碼。\n\n**找不到兌換入口？**\n- 確認遊戲版本為最新版\n- 部分功能需要通過新手教程後解鎖\n- 嘗試在設定選單中查詢\n- 如果實在找不到，可以在遊戲內聯絡客服",
+    "questionTw": "異環兌換碼在哪裡輸入？怎麼核驗目前兌換碼？",
+    "answerTw": "異環兌換碼的入口和有效期可能按區服、客戶端版本與活動調整。\n\n**核驗與兌換步驟**：\n1. 先確認目標區服、客戶端版本和兌換碼來源；只採用官方公告、遊戲內公告或官方帳號發布的代碼\n2. 開啟遊戲進入主介面，在設定、活動或禮包兌換入口查找兌換功能；頁面名稱以目前客戶端為準\n3. 輸入代碼時保留大小寫、連字符和其他字元，不要自行補全或修改\n4. 提交後檢查遊戲內郵箱或獎勵記錄；若失敗，查看錯誤提示、有效期和區服限制\n\n**注意事項**：\n- 每個代碼可能有使用次數、帳號限制或截止時間\n- 國際服和國服代碼可能不同，不能互相推斷\n- 未確認的社群代碼不應寫入目前有效兌換碼清單\n- 找不到入口時，先完成必要的新手流程並查看目前客戶端說明或聯絡客服\n\n目前有效代碼請以兌換碼頁面的狀態、來源和複核日期為準；沒有官方確認的代碼應明確標為未知，而不是當作可用獎勵。",
     "categoryTw": "綜合",
-    "seoTitleTw": "異環兌換碼在哪裡輸入？最新兌換碼使用方法與入口",
+    "seoTitleTw": "異環兌換碼在哪裡輸入？入口、區服與有效期核驗",
     "seoDescriptionTw": "異環兌換碼輸入位置、兌換步驟、找不到兌換入口怎麼辦，以及國服和國際服兌換碼是否通用的說明。"
   },
   {
@@ -1863,8 +1863,8 @@
   },
   {
     "id": "a-rank-best",
-    "question": "异环A级角色哪个最强？值得培养的A级角色",
-    "questionEn": "Which A-rank characters are best in NTE? A-rank worth building",
+    "question": "异环A级角色怎么选？哪些适合当前账号培养？",
+    "questionEn": "How should you choose A-rank characters in NTE? Which fit your current roster?",
     "seoTitleZh": "异环A级角色哪个值得练？A 级培养价值与补位思路",
     "seoTitleEn": "Best A-Rank Characters in NTE — Build Value & Budget Team Roles",
     "seoDescriptionZh": "异环 A 级角色谁更值得培养？这篇整理低成本补位、过渡输出和功能型 A 级角色的判断思路。",
@@ -1882,7 +1882,7 @@
       "edgar"
     ],
     "relatedMaterials": [],
-    "questionTw": "異環A級角色哪個最強？值得培養的A級角色",
+    "questionTw": "異環A級角色怎麼選？哪些適合目前帳號培養？",
     "seoTitleTw": "異環A級角色哪個值得練？A 級培養價值與補位思路",
     "seoDescriptionTw": "異環 A 級角色誰更值得培養？這篇整理低成本補位、過渡輸出和功能型 A 級角色的判斷思路。",
     "answerTw": "這條「A級角色哪個最強」FAQ 現在更適合回答**低稀有度角色裡誰最能補你目前陣容缺口**，而不是繼續把測試期名單寫成長期固定答案。對目前玩家來說，更實際的判斷通常是：你缺不缺治療、缺不缺過渡輸出、有沒有便宜但能穩定上場的功能位，以及這些A級角色在你現有隊伍裡是不是能立刻發揮作用。\n\n更穩妥的理解方式是：\n1. A級角色的價值往往不在於誰永遠「最強」，而在於誰能以更低成本補上你最缺的功能位\n2. 如果你的資源緊張，能快速成型、能穩定進隊的A級角色，常常比等待理想S級更實用\n3. 像「某測唯一奶媽」這類強結論很容易過期，目前更該看的是該角色在現版本裡是否仍有明確位置\n\n所以這頁現在保留的是**A級角色的培養價值與功能判斷邏輯**，而不是繼續凍結一份會隨版本快速老化的強度名單。",
@@ -2899,7 +2899,7 @@
   },
   {
     "id": "genesis-team-guide",
-    "question": "异环创生队怎么配？最强配队推荐",
+    "question": "异环创生队怎么配？按反应与队伍缺口选择",
     "questionEn": "How to build Genesis team in NTE?",
     "seoTitleZh": "异环创生队怎么配？反应骨架与替换思路整理",
     "seoTitleEn": "NTE Genesis Team Guide — Core Structure & Flex Replacement Logic",
@@ -2921,7 +2921,7 @@
       "mint"
     ],
     "relatedMaterials": [],
-    "questionTw": "異環創生隊怎麼配？最強配隊推薦",
+    "questionTw": "異環創生隊怎麼配？按反應與隊伍缺口選擇",
     "seoTitleTw": "異環創生隊怎麼配？反應骨架與替換思路整理",
     "seoDescriptionTw": "異環創生隊怎麼組？這篇整理核心輸出、輔助補位和生存位替換判斷。",
     "answerTw": "創生隊更適合作為**創生反應組隊思路**來理解，而不是繼續寫成某一版固定的「最強標準陣容」。對目前玩家來說，關鍵不是死記4個名字，而是先滿足：有穩定觸發創生的核心輸出、有能補聚怪或增益的輔助、再加上不拖節奏的生存位。\n\n更實用的判斷方式是：\n1) 先確認你的主輸出是否真的圍繞創生收益最大\n2) 再補一個能讓反應更穩定觸發的輔助或副C\n3) 如果實戰容錯太低，就把其中一個進攻位換成治療或護盾\n\n所以這頁現在保留的是**創生隊的組隊結構與替換邏輯**，而不是把一套早期陣容長期寫成唯一答案。",
@@ -2959,7 +2959,7 @@
   },
   {
     "id": "f2p-team-guide",
-    "question": "异环平民配队推荐？零氪最强队伍",
+    "question": "异环平民配队推荐？零氪账号如何补齐功能位",
     "questionEn": "Best F2P team comp in NTE?",
     "seoTitleZh": "异环平民配队推荐？零氪功能位与过渡路线整理",
     "seoTitleEn": "Best F2P Team in NTE — Role Coverage & Transition Planning",
@@ -2980,7 +2980,7 @@
       "edgar"
     ],
     "relatedMaterials": [],
-    "questionTw": "異環平民配隊推薦？零氪最強隊伍",
+    "questionTw": "異環平民配隊推薦？零氪帳號如何補齊功能位",
     "seoTitleTw": "異環平民配隊推薦？零氪功能位與過渡路線整理",
     "seoDescriptionTw": "異環零氪怎麼配隊？這篇整理平民帳號的功能位優先級和中期轉型思路。",
     "answerTw": "零氪配隊這頁現在更該回答**免費帳號該優先補哪些功能位**，而不是繼續給出一套看起來所有人都要照搬的「最強名單」。對平民帳號來說，最關鍵的通常還是三件事：有能推進內容的輸出、有能維持循環的輔助/聚怪、以及能提升容錯的生存位。\n\n更穩妥的思路是：\n1) 先圍繞你目前最穩定、最省資源的主力來組隊\n2) 免費或低成本角色優先用來補齊功能，而不是強行湊熱門陣容\n3) 中期再根據抽卡結果決定是否轉向更高投入的體系\n\n所以這頁現在保留的是**零氪配隊的搭建原則與過渡路線**，而不是繼續把某一套早期組合寫成永久答案。",
@@ -5941,8 +5941,8 @@
   },
   {
     "id": "character-tier-list",
-    "question": "异环角色强度榜怎么排？谁是最强角色？",
-    "questionEn": "What is the NTE character tier list? Who is the strongest character?",
+    "question": "异环角色强度榜怎么看？如何按版本和场景判断？",
+    "questionEn": "How should you read the NTE character tier list and judge by version and scenario?",
     "seoTitleZh": "异环角色强度榜怎么读？版本强度排行与配队判断",
     "seoTitleEn": "NTE Character Tier List — How to Read Rankings by Role",
     "seoDescriptionZh": "异环角色强度榜不只看谁最强：整理主C、辅助、生存和体系核心的阅读方式，帮助你按版本与账号判断角色价值。",
@@ -5969,7 +5969,7 @@
       "chiz"
     ],
     "relatedMaterials": [],
-    "questionTw": "異環角色強度榜怎麼排？誰是最強角色？",
+    "questionTw": "異環角色強度榜怎麼看？如何按版本和場景判斷？",
     "answerTw": "角色強度榜應看作特定版本和場景的快照，而不是脫離帳號背景的永久排名。目前玩家應同時比較角色定位、隊伍適配、資源成本和目標玩法；版本、敵人設計、隊伍開發與新角色加入都可能改變結論。本 FAQ 保留強度榜的閱讀方法，不把早期排行當作目前絕對答案。",
     "categoryTw": "角色",
     "seoTitleTw": "異環角色強度榜怎麼讀？版本強度排行與配隊判斷",
@@ -6139,7 +6139,7 @@
   },
   {
     "id": "best-starting-team",
-    "question": "异环新手最强开荒队伍怎么配？",
+    "question": "异环新手开荒队伍怎么配？",
     "questionEn": "What is the best starting team for NTE beginners?",
     "seoTitleZh": "异环新手开荒队怎么配？前期开荒配队思路",
     "seoTitleEn": "Best Starting Team in NTE — Beginner Team Logic for Early Game",
@@ -6165,7 +6165,7 @@
       "adler"
     ],
     "relatedMaterials": [],
-    "questionTw": "異環新手最強開荒隊伍怎麼配？",
+    "questionTw": "異環新手開荒隊伍怎麼配？",
     "answerTw": "這條「新手最強開荒隊伍」FAQ，現在最需要避免的，就是把某一套陣容寫成所有版本、所有帳號都通用的唯一最優答案。對目前玩家來說，更有用的是理解：**開荒隊伍的核心不是背一套固定名單，而是先補齊輸出、輔助/聚怪、生存這幾個基礎功能位，再根據你實際抽到的角色做拼裝。**\n\n更穩妥的理解方式是：\n1. 主角或免費角色通常更適合當開荒骨架，因為投入門檻低、適配面廣\n2. 如果你已經抽到強力主 C，就優先圍繞它補輔助和生存，而不是硬套別人陣容\n3. 新手隊伍最怕的不是「沒有版本答案」，而是功能位嚴重缺失，導致推進效率和容錯都很差\n\n所以這頁現在保留的是**開荒配隊的組隊邏輯**，而不是繼續把某個時期流行的組合寫成絕對標準答案。",
     "categoryTw": "玩法",
     "seoTitleTw": "異環新手開荒隊怎麼配？前期開荒配隊思路",
