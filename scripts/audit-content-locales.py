@@ -10,8 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 MESSAGES = ROOT / "messages"
-CURRENT_VERSION = "1.3"
-CURRENT_DATE = "2026-09-29"
+CURRENT_VERSION = "1.4"
+CURRENT_DATE = "2026-10-26"
 COLLECTIONS = ["guides.json", "blog.json", "faqs.json", "locations.json", "lore.json"]
 LOCALIZED_FIELDS = {
     "title": ["title", "titleEn", "titleTw"],
@@ -37,6 +37,24 @@ def records(path: Path):
 
 def text_of(item: dict) -> str:
     return " ".join(str(item.get(k, "")) for k in (*sum(LOCALIZED_FIELDS.values(), []), "id", "date", "status", "category"))
+
+
+HISTORICAL_CONTEXT = re.compile(
+    r"historical|history|archive|historical reference|历史|歷史|旧版|舊版|公测时期|公測時期|版本回顾|版本回顧",
+    re.I,
+)
+
+
+def risk_hits(item: dict) -> list[str]:
+    """Return actionable risks, not expected markers in archived records."""
+    text = text_of(item)
+    hits = [name for name, pattern in RISK_PATTERNS.items() if pattern.search(text)]
+    historical = item.get("verificationStatus") == "historical" or HISTORICAL_CONTEXT.search(text)
+    if historical:
+        # Old dates and preview language are expected in explicitly archived
+        # records; they are not current-content defects.
+        hits = [name for name in hits if name not in {"old_version", "rumor_or_preview", "absolute_claim"}]
+    return hits
 
 
 def main() -> None:
@@ -72,7 +90,7 @@ def main() -> None:
             for field in LOCALIZED_FIELDS["content"]:
                 if field in item and not item.get(field):
                     missing_records.append((filename, item_id, field))
-            hits = [name for name, pattern in RISK_PATTERNS.items() if pattern.search(text_of(item))]
+            hits = risk_hits(item)
             if hits:
                 risk_records.append((filename, item_id, hits))
                 all_risks.update(hits)
@@ -95,7 +113,7 @@ def main() -> None:
     missing_tw = [item for item in blog if not item.get("contentTw")]
     print(f"## Blog action queue ({len(missing_tw)} missing contentTw)")
     for item in sorted(missing_tw, key=lambda x: (str(x.get("date", "")), str(x.get("id", ""))), reverse=True):
-        hits = [name for name, pattern in RISK_PATTERNS.items() if pattern.search(text_of(item))]
+        hits = risk_hits(item)
         action = "historical-review" if "old_version" in hits or "rumor_or_preview" in hits else "translate-and-review"
         print(f"- {item.get('date', '-')} | {item.get('id')} | {action} | {item.get('title', '')}")
 
@@ -112,7 +130,7 @@ def main() -> None:
             {
                 "id": item.get("id"),
                 "date": item.get("date"),
-                "action": "historical-review" if "old_version" in [name for name, pattern in RISK_PATTERNS.items() if pattern.search(text_of(item))] else "translate-and-review",
+                "action": "historical-review" if "old_version" in risk_hits(item) else "translate-and-review",
             }
             for item in missing_tw
         ],

@@ -2894,7 +2894,7 @@
     "questionTw": "異環角色培養優先順序是什麼？先升誰？",
     "seoTitleTw": "異環角色培養優先順序是什麼？升級順序與資源集中思路",
     "seoDescriptionTw": "異環角色先升誰？這篇整理主C、輔助、生存位的培養順序和資源集中原則。",
-    "answerTw": "角色培養優先順序建議：第一優先順序（必練）：主力輸出角色等級+武器 → 等級拉滿到當前上限。第二優先順序（儘快升）：輔助角色的關鍵技能等級（影響增益數值）。第三優先順序（中期補齊）：生存位角色的防禦和生命屬性。具體角色優先順序：1) 娜娜莉/達芙迪爾（主C，全力投入）；2) 九原/薄荷（輔助核心，技能等級重要）；3) 白藏/阿德勒（生存位，40級夠用）；4) 其他A/B級角色按需培養。切記不要平均分配資源，集中投入2-3個核心角色。",
+    "answerTw": "角色培養優先順序應圍繞目前最常上場、最能推進進度的角色安排，而不是把早期名單當作所有帳號通用的必練順序。先補主力輸出的等級、武器或關鍵傷害技能，再補真正影響輪轉、增益或聚怪效率的輔助技能，最後按卡關類型補生存、控制或第二隊角色。前期不要平均分配資源，先養成2到3個能穩定完成循環的核心角色。",
     "categoryTw": "角色升級"
   },
   {
@@ -4931,8 +4931,8 @@
     "id": "upcoming-characters",
     "question": "异环未来会出哪些新角色？1.2之后有哪些值得关注",
     "questionEn": "What new characters are coming to NTE after Version 1.2?",
-    "answer": "这条“未来新角色”FAQ 现在最需要避免的，是把阶段性爆料关注度写成像长期路线图一样确定。对当前玩家来说，更有价值的不是追一串会变动的名字，而是先分清：哪些内容已经进了游戏或官方前瞻，哪些只是社区高讨论度目标。\n\n更稳妥的理解方式是：\n1. 已经正式上线或已经进入当前版本前瞻的角色，可以视为高确定性信息\n2. 版本后半、下个卡池或后续角色，只要还没有完整官方排期，就更适合当观察名单而不是确定结论\n3. 如果你是在规划抽卡资源，重点应放在“当前已确认内容”与“仍属猜测内容”的边界，而不是过早按传闻做长期押注\n\n所以这页现在保留的是**未来角色信息的确认层级与追踪方法**，帮助你区分已落地内容和社区猜测，而不是继续把不完整排期写成既定路线图。",
-    "answerEn": "As of July 2026, NTE is in Version 1.2 '999 Nights'. The newest confirmed limited character already released is Shinku, while Iroi is the next high-interest character for the later phase of the current patch. Officially confirmed 1.2 content includes the Warren Continent story update, Shinku bond content, and seasonal events, but a full Version 1.3+ limited-character roadmap has not been officially detailed yet. The safest approach is to separate confirmed releases from community speculation: Shinku is live, Iroi is the next major watchlist unit, and everything beyond that should wait for future previews.",
+    "answer": "截至当前复核日期，1.2及更早版本的角色排期和社区预测均属于历史资料。已上线角色以当前角色数据库和客户端为准；尚无官方完整排期的后续角色只列为观察项。抽卡规划不得把社区传言、旧前瞻或未确认兑换码计入预算。",
+    "answerEn": "As of the current review date, Version 1.2 and earlier character schedules and community predictions are historical material. Treat released characters according to the current roster and client; list later characters only as watch items until an official schedule exists. Do not include rumors, old previews, or unverified codes in a pull budget.",
     "seoTitleZh": "异环未来新角色一览：真红已上线，Iroi为1.2下阶段重点",
     "seoTitleEn": "NTE Upcoming Characters — Shinku Live, Iroi Next in Version 1.2",
     "seoDescriptionZh": "异环 2026 年 7 月新角色进度：真红已实装、Iroi 下一阶段关注、1.3 以后仍待官方前瞻确认。",
@@ -4948,7 +4948,7 @@
     "relatedCharacters": [],
     "relatedMaterials": [],
     "questionTw": "異環未來會出哪些新角色？1.2之後有哪些值得關注",
-    "answerTw": "這條「未來新角色」FAQ 現在最需要避免的，是把階段性爆料熱度寫得像長期路線圖一樣確定。對目前玩家來說，更有價值的不是追一串會變動的名字，而是先分清：哪些內容已經進了遊戲或官方前瞻，哪些只是社群高討論度目標。\n\n更穩妥的理解方式是：\n1. 已經正式上線或已經進入當前版本前瞻的角色，可以視為高確定性資訊\n2. 版本後半、下個卡池或後續角色，只要還沒有完整官方排期，就更適合當觀察名單而不是確定結論\n3. 如果你是在規劃抽卡資源，重點應放在「目前已確認內容」與「仍屬猜測內容」的邊界，而不是過早按傳聞做長期押注\n\n所以這頁現在保留的是**未來角色資訊的確認層級與追蹤方法**，幫助你區分已落地內容和社群猜測，而不是繼續把不完整排期寫成既定路線圖。",
+    "answerTw": "截至目前複核日期，1.2及更早版本的角色排期和社群預測均屬於歷史資料。已上線角色以目前角色資料庫和客戶端為準；尚無官方完整排期的後續角色只列為觀察項。抽卡規劃不得把社群傳言、舊前瞻或未確認兌換碼計入預算。",
     "categoryTw": "遊戲資訊",
     "seoTitleTw": "異環未來新角色一覽：真紅已上線，Iroi為1.2下階段重點",
     "seoDescriptionTw": "異環 2026 年 7 月新角色進度：真紅已實裝、Iroi 為 1.2 下階段重點，1.3 之後仍待官方前瞻確認。"
