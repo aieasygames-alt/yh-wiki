@@ -31,10 +31,12 @@
     "phase": "Phase 2",
     "startDate": "2026-10-21",
     "endDate": "2026-11-11",
+    "endAt": "2026-11-11T05:59:00+08:00",
     "startDateGlobal": "2026-10-21",
     "endDateGlobal": "2026-11-11",
     "region": "global",
     "status": "live",
+    "statusPolicy": "derive from endAt and target-server client countdown",
     "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20261019/264675.html"
   },
   "beginner": {

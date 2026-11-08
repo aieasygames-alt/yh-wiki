@@ -145,6 +145,25 @@ export default function TroubleshootingPage({ params }: { params: { lang: string
         </p>
       </div>
 
+      <div className="mb-8 rounded-xl border border-sky-500/20 bg-sky-500/5 p-5">
+        <h2 className="text-base font-semibold text-sky-200">
+          {isZh ? "1.4 更新后的排障提示" : "Post-1.4 troubleshooting note"}
+        </h2>
+        <p className="mt-2 text-sm leading-6 text-gray-300">
+          {isZh
+            ? "1.4 第二阶段官方公告记录了弧盘特效、角色技能、异象委托、活动任务和手柄相关修复。遇到这些问题时，先重启客户端并确认已完成更新；仍可复现时记录区服、平台、版本和复现步骤，再联系官方客服。"
+            : "The official 1.4 Phase 2 notice lists fixes for Arc effects, character skills, anomaly commissions, event tasks, and controller behavior. Restart the client and confirm the update first; if the issue persists, record region, platform, version, and reproduction steps before contacting support."}
+        </p>
+        <a
+          href="https://nte.perfectworld.com/en/article/news/gamenews/20261019/264675.html"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-block text-xs text-sky-300 hover:text-sky-200"
+        >
+          {isZh ? "查看官方维护公告 →" : "Read the official maintenance notice →"}
+        </a>
+      </div>
+
       {/* Quick Navigation */}
       <div className="flex flex-wrap gap-2 mb-8">
         {data.sections.map((section) => (

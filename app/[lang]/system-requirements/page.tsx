@@ -135,6 +135,16 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
           ? (locale === "tw" ? "歷史規格復核：2026-09-29。下載前請以目前商店頁或啟動器顯示為準。" : "历史规格复核：2026-09-29。下载前请以当前商店页或启动器显示为准。")
           : "Historical specs reviewed September 29, 2026. Verify the current store page or launcher before downloading."}
       </p>
+      <p className="text-xs text-gray-500 -mt-4 mb-8">
+        <a
+          href="https://nte.perfectworld.com/en/article/news/gamenews/20260708/263057.html"
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary-400 hover:text-primary-300"
+        >
+          {isZhLocale(locale) ? "官方平台上线 FAQ（Steam / Epic / 三星商店）" : "Official platform launch FAQ (Steam / Epic / Samsung Galaxy Store)"}
+        </a>
+      </p>
 
       <section className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5">
         <h2 className="text-lg font-semibold text-white">

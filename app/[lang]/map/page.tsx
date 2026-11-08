@@ -116,6 +116,8 @@ export default function MapPage() {
     const params = new URLSearchParams(window.location.search);
     const routeParam = params.get("route");
     if (routeParam) setRouteMarkerIds(routeParam.split(","));
+    const regionParam = params.get("region");
+    if (regionParam) setActiveRegion(regionParam);
   }, []);
 
   // Deep link: resolve marker after data loads
@@ -176,6 +178,16 @@ export default function MapPage() {
     const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
     window.history.replaceState(null, "", url);
   }, [selectedMarker]);
+
+  // Keep region selection shareable so search and map links preserve context.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    if (activeRegion) params.set("region", activeRegion);
+    else params.delete("region");
+    const qs = params.toString();
+    window.history.replaceState(null, "", qs ? `${window.location.pathname}?${qs}` : window.location.pathname);
+  }, [activeRegion]);
 
   // Keyboard shortcuts
   useEffect(() => {

@@ -1,0 +1,13 @@
+{
+  "version": "1.4",
+  "reviewedAt": "2026-10-26",
+  "sourceUrl": "https://nte.perfectworld.com/cn/article/news/gamenews/20261019/264673.html",
+  "events": [
+    {"id":"akane-rin-board","titleZh":"明音凛限定棋盘","titleEn":"Akane Rin Limited Board","startAt":"2026-10-21T11:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"限定S级角色明音凛、时装和车辆涂装；资格与奖励以目标区服客户端为准。","descEn":"Limited S-class Akane Rin board with outfits and vehicle cosmetics; verify eligibility and rewards in the target client."},
+    {"id":"far-side-of-the-moon","titleZh":"月的对跖点限定弧盘","titleEn":"Far Side of the Moon Limited Arc","startAt":"2026-10-21T11:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"限定S级弧盘，仅在本期弧盘研募计划中获得。","descEn":"Limited S-class Arc available through the current Arc Research Program only."},
+    {"id":"golden-crackshot","titleZh":"咔滋！黄金双脆","titleEn":"Snap! Golden Crackshot","startAt":"2026-10-21T11:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"参与活动获得活动货币，并在活动商店兑换奖励。","descEn":"Earn event currency and exchange it in the event shop."},
+    {"id":"pukaland-flip","titleZh":"噗卡翻翻乐","titleEn":"Pukaland Flip","startAt":"2026-10-29T05:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"完成每日任务获得翻牌次数，领取活动奖励。","descEn":"Complete daily tasks to earn flips and claim event rewards."},
+    {"id":"gold-rush","titleZh":"夺金大作战","titleEn":"Gold Rush","startAt":"2026-10-26T05:00:00+08:00","endAt":"2026-11-09T04:59:00+08:00","descZh":"活动期间粉爪大劫案方斯获取效率提升为2倍。","descEn":"Doubles Fons efficiency in Pink Paws Heist during the event window."},
+    {"id":"to-us-back-then","titleZh":"致那一天的我们","titleEn":"To Us, Back Then","startAt":"2026-10-21T11:00:00+08:00","endAt":null,"descZh":"完成前置剧情后解锁的番外剧情。","descEn":"A spinoff story unlocked after the required story prerequisites."}
+  ]
+}
