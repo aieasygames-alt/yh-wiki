@@ -5077,9 +5077,9 @@
   },
   {
     "id": "cloud-yihuan-pc-guide",
-    "title": "云异环官网入口与PC/网页版指南：下载、免费时长、排队和进不去解决",
-    "titleTw": "雲異環官網入口與PC/網頁版指南：下載、免費時長、排隊和進不去解決",
-    "titleEn": "Cloud Yihuan PC & Web Guide: Entry, Download, Free Time, Queue and Fixes",
+    "title": "云异环官网、PC与网页版入口：下载、平台选择和排队排障",
+    "titleTw": "雲異環官網、PC與網頁版入口：下載、平台選擇與排隊排障",
+    "titleEn": "Cloud Yihuan Official Entry, PC & Web Guide: Platforms, Queue and Fixes",
     "category": "platform",
     "categoryZh": "平台指南",
     "categoryEn": "Platform Guide",
@@ -5098,9 +5098,9 @@
       "黑屏",
       "配置"
     ],
-    "summary": "云异环 PC 适合低配置电脑、Mac 临时游玩、短时上线和免安装体验。本页整理云异环官网入口、网页版/PC 下载、免费时长、排队规则、配置要求，以及进不去、闪退、黑屏时的排查步骤。",
-    "summaryTw": "雲異環 PC 適合低配置電腦、Mac 臨時遊玩、短時上線和免安裝體驗。本頁整理雲異環官網入口、網頁版/PC 下載、免費時長、排隊規則、配置要求，以及進不去、閃退、黑屏時的排查步驟。",
-    "summaryEn": "Cloud Yihuan PC is useful for low-spec PCs, Mac fallback play, quick logins, and no-install sessions. This guide covers official entry paths, web/PC access, free time, queue rules, requirements, and fixes for launch, crash, or black-screen issues.",
+    "summary": "云异环官网、PC 与网页版入口参考：比较本地客户端、Steam、Epic 与云端路径，说明地区、账号、排队、配置和进不去时的核验步骤；入口与免费时长以官方页面和当前客户端为准。",
+    "summaryTw": "雲異環官網、PC 與網頁版入口參考：比較本地客戶端、Steam、Epic 與雲端路徑，說明地區、帳號、排隊、配置和進不去時的核驗步驟；入口與免費時長以官方頁面和目前客戶端為準。",
+    "summaryEn": "A reference for Cloud Yihuan official, PC, and web entry paths: compare the standalone client, Steam, Epic, and cloud routes while checking region, account, queue, and requirements. Verify entry links and any free-time policy on the current official page and client.",
     "internalLinks": [
       {
         "label": "Steam 版发售指南",

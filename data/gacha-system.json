@@ -71,26 +71,26 @@
     {
       "question": "What is the pity system in NTE?",
       "questionZh": "异环的保底机制是怎样的？",
-      "answer": "NTE has a hard pity of 90 pulls for S-rank characters on limited and standard banners. Soft pity starts at pull 74, significantly increasing S-rank rates. The average S-rank pull is around 53-54 pulls. Pity carries over between limited banners of the same type.",
-      "answerZh": "异环限定池和常驻池的S级角色硬保底为90抽，软保底从第74抽开始，S级概率显著提升。平均出S级的抽数约为53-54抽。保底会在同类卡池之间继承。"
+      "answer": "This record preserves an early ruleset for reference. Current hard pity, rate-up behavior, soft-pity wording, and carry-over must be checked in the target server's in-client banner details; do not use the archived figures below as a current budget guarantee.",
+      "answerZh": "本条保留早期规则作为历史参考。当前硬保底、UP规则、软保底说明和继承关系必须在目标区服客户端卡池详情中核对；不要把历史数字当作当前预算保证。"
     },
     {
       "question": "How much does it cost to guarantee a featured character?",
       "questionZh": "大保底需要多少抽？多少钱？",
-      "answer": "Since NTE has no 50/50, you only need 90 pulls maximum to get the featured S-rank character. At worst case, that's about 14,400 Primordial Amber equivalent currency. Compared to games with 50/50 (180 pulls for guarantee), NTE is significantly more F2P-friendly.",
-      "answerZh": "因为异环没有50/50机制，最多只需90抽就能获得当期UP的S级角色。相比有50/50机制的游戏需要180抽大保底，异环对零氪和微氪玩家非常友好。"
+      "answer": "This is a historical planning example, not a current guarantee. Before budgeting for a featured character, verify the current banner's featured guarantee, pity ceiling, currency conversion, and region-specific rules in the client.",
+      "answerZh": "本条是历史规划示例，不是当前保证。规划当期角色前，请在客户端核对当前卡池的UP保证、保底上限、货币换算和区服规则。"
     },
     {
       "question": "Should I pull on the beginner banner first?",
       "questionZh": "新手应该先抽新手池吗？",
-      "answer": "Yes, absolutely. The beginner banner guarantees an S-rank within 20 pulls and lets you choose between Mint and Sakiri. Both are strong S-rank characters. This is the best value pull in the entire game — do it first.",
-      "answerZh": "是的，强烈推荐。新手池20抽内必出S级角色，而且可以在薄荷和早雾之间自选。两位都是非常强的S级角色，这是全游戏性价比最高的卡池，建议优先抽。"
+      "answer": "Treat this as a historical beginner-banner reference. Check the current selector pool, pull limit, eligibility, and rewards in the target client before deciding whether to use it first.",
+      "answerZh": "本条是历史新手池参考。决定是否优先使用前，请在目标区服客户端核对当前自选范围、抽数上限、资格和奖励。"
     },
     {
       "question": "Which banner should F2P players prioritize?",
       "questionZh": "零氪玩家应该优先抽什么卡池？",
-      "answer": "Priority order: 1) Beginner banner (20 pulls, guaranteed S-rank selector). 2) Limited character banner for a meta DPS or support you need. 3) Standard banner (accumulate pulls naturally). 4) Weapon banner only if you have spare currency after securing needed characters.",
-      "answerZh": "优先级顺序：1) 新手池（20抽必出自选S级）。2) 限定角色池，抽你需要的核心DPS或辅助。3) 常驻池（自然积累即可）。4) 武器池只在抽到需要的角色后还有余力时考虑。"
+      "answer": "There is no universal current priority order. Compare the target banner's rules, your roster gap, available resources, and the opportunity cost of later banners; verify every banner-specific claim in the client.",
+      "answerZh": "不存在脱离版本和账号的固定优先级。请比较目标卡池规则、账号缺口、可用资源和后续卡池机会成本，并在客户端核对每项卡池规则。"
     },
     {
       "question": "What is the gacha currency in NTE?",
@@ -101,8 +101,8 @@
     {
       "question": "Does pity carry over between banners?",
       "questionZh": "保底会继承到下一个卡池吗？",
-      "answer": "Yes. Pity count carries over between limited character banners. If you pulled 50 times on one limited banner without getting an S-rank, the next limited banner starts at 50 pity. However, pity does NOT carry over between different banner types (e.g., from character to weapon banner).",
-      "answerZh": "会。限定角色池之间的保底计数会继承。如果你在某个限定池抽了50次没出S级，下一个限定池会从50抽保底开始。但不同类型卡池之间的保底不互通（比如角色池和武器池）。"
+      "answer": "Carry-over is banner-type and server dependent. Confirm whether progress carries between the specific current banners in the client; do not transfer an archived character-banner rule to an Arc, weapon, beginner, or standard banner.",
+      "answerZh": "保底继承取决于卡池类型和区服。请在客户端确认当前对应卡池之间是否继承，不要把历史角色池规则套用到弧盘、武器、新手或常驻池。"
     },
     {
       "question": "How many free pulls can I get at launch?",
@@ -119,8 +119,8 @@
     {
       "question": "What is the expected pull count (average pity) for each banner?",
       "questionZh": "各卡池期望抽数是多少？抽一个角色平均要多少抽？",
-      "answer": "Limited Character Banner: ~53.5 pulls average (90 hard pity, soft pity starts at 74, no 50/50). Weapon/Arc Banner: ~48 pulls for any S-rank Arc (60 hard pity), but ~74 pulls average for the featured UP Arc due to the 75% off-rate chance. Standard Banner: ~53.5 pulls average, same as limited. Beginner Banner: exactly 20 pulls max with selector. In summary: character banner is very generous at ~53.5 pulls per featured character.",
-      "answerZh": "限定角色池：期望约53.5抽（90硬保底，74软保底，不歪），非常良心。弧盘/武器池：出金期望约48抽（60硬保底），但拿到UP弧盘期望约74抽（因75%歪率），80抽硬保底UP。常驻池：期望约53.5抽，与限定池相同。新手池：固定20抽必出自选S。总结：角色池期望53.5抽必得当期UP，弧盘池期望成本约为角色池的1.5-2倍。"
+      "answer": "The listed averages and ceilings are historical examples. Current rates, pity, selector rules, and featured guarantees can differ by banner and server; use the in-client details for any calculation or pull budget.",
+      "answerZh": "本条列出的平均抽数和上限都是历史示例。当前概率、保底、自选和UP保证可能按卡池与区服变化；任何计算和抽卡预算都应以客户端详情为准。"
     }
   ]
 }

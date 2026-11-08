@@ -1,6 +1,26 @@
 {
   "reviewedAt": "2026-10-26",
   "currentVersion": "1.4",
+  "currentSources": [
+    "https://nte.perfectworld.com/cn/article/news/gamenews/20261019/264673.html",
+    "https://nte.perfectworld.com/en/article/news/gamenews/20261019/264675.html"
+  ],
+  "phase2": {
+    "title": "1.4 Phase 2",
+    "titleZh": "1.4 第二阶段",
+    "featuredCharacter": "akane",
+    "featuredCharacterNameZh": "明音凛",
+    "featuredArcZh": "月的对跖点",
+    "startAt": "2026-10-21T11:00:00+08:00",
+    "endAt": "2026-11-11T05:59:00+08:00",
+    "status": "live",
+    "noteZh": "官方公告确认的窗口；资格、倒计时和区服差异以客户端为最终依据。"
+  },
+  "watch": {
+    "nextVersion": "1.5",
+    "status": "watch",
+    "noteZh": "未有完整官方版本公告前，不记录角色排期、兑换码或卡池结论。"
+  },
   "checklist": [
     { "id": "banner-countdown", "title": "Verify banner countdowns in the client", "titleZh": "核对客户端卡池倒计时", "status": "live", "detail": "Server time can differ from published schedules. Version 1.4 Phase 2 official notice lists Akane from October 21 through November 11, 2026 (UTC+8)." },
     { "id": "event-deadlines", "title": "Claim time-limited event rewards first", "titleZh": "优先领取限时活动奖励", "status": "live", "detail": "Check the event page and exchange shop before permanent cleanup." },

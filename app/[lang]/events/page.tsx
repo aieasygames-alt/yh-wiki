@@ -6,6 +6,7 @@ import redeemCodesData from "../../../data/redeem-codes.json";
 import { localizedText } from "../../../lib/seo-copy";
 import { ContentStatus } from "../../../components/ContentStatus";
 import operations from "../../../data/version-operations.json";
+import currentEvents from "../../../data/current-events.json";
 
 export function generateStaticParams() {
   return LOCALES.map((lang) => ({ lang }));
@@ -91,62 +92,12 @@ export default async function EventsPage({
   const redeemCodeDataset = redeemCodesData as { codes: { code: string; reward: string; rewardEn: string; status: string; expiresAt: string; region: string }[] };
   const activeCodes = redeemCodeDataset.codes.filter((c) => c.status === "active");
 
-  const CURRENT_1_4_EVENTS = [
-    {
-      id: "circle-gifts",
-      titleZh: "环期赠礼签到活动",
-      titleEn: "Circle Gifts Login Event",
-      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
-      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
-      descZh: "累计签到7日可获得质实骰子×10。",
-      descEn: "Log in for a total of 7 days to earn Solid Dice ×10.",
-    },
-    {
-      id: "pukaland-travelogue",
-      titleZh: "噗卡乐园游记",
-      titleEn: "Pukaland Travelogue",
-      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
-      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
-      descZh: "完成限时奇遇可获得环石、捏造骰子、浮冰影券、特级猎人攻略和混沌染剂等奖励。",
-      descEn: "Complete limited-time encounters for Annulith, Fabricated Dice, Floe Cinema Tickets, Elite Hunter Guides, Chaotic Dye, and more.",
-    },
-    {
-      id: "terminal-depths",
-      titleZh: "全站深境",
-      titleEn: "Terminal Depths",
-      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
-      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
-      descZh: "通关活动关卡可获得称号、环石、方斯、特级猎人攻略和混沌染剂等奖励。",
-      descEn: "Clear event stages for a title, Annulith, Fons, Elite Hunter Guides, Chaotic Dye, and more.",
-    },
-    {
-      id: "coal-lumps-treasure",
-      titleZh: "炭团的宝藏",
-      titleEn: "Coal Lump's Treasure",
-      windowZh: "2026年10月8日10:00 – 11月11日05:59（UTC+8）",
-      windowEn: "October 8, 2026, 10:00 – November 11, 05:59 (UTC+8)",
-      descZh: "参与活动获取五彩花糖，并在活动商店兑换奖励。",
-      descEn: "Earn Rainbow Candy and exchange it for rewards in the event shop.",
-    },
-    {
-      id: "blackbirds-invitation",
-      titleZh: "黑羽的邀请函",
-      titleEn: "Blackbird's Invitation",
-      windowZh: "2026年9月30日11:00 – 11月11日05:59（UTC+8）",
-      windowEn: "September 30, 2026, 11:00 – November 11, 05:59 (UTC+8)",
-      descZh: "邀请新人或回归鉴定师，完成活动任务获取环石或占卜次数；活动首页兑换码可兑换限定头像框。",
-      descEn: "Invite new or returning Appraisers, complete event tasks for Annulith or Divination Attempts, and use the event-page code for a limited avatar frame.",
-    },
-    {
-      id: "porsche-born-to-race",
-      titleZh: "异环×Porsche「骏影疾驰」盲盒",
-      titleEn: "NTE × Porsche: Born to Race Mystery Box",
-      windowZh: "2026年9月30日版本更新后 – 11月11日05:59（UTC+8）",
-      windowEn: "After the September 30, 2026 update – November 11, 05:59 (UTC+8)",
-      descZh: "使用方斯或环石抽取联动盲盒，最多15次。",
-      descEn: "Open the collab mystery box with Fons or Annulith; there are 15 boxes in total.",
-    },
-  ];
+  const now = new Date();
+  const visibleEvents = currentEvents.events.filter((event) => {
+    const start = new Date(event.startAt);
+    const end = event.endAt ? new Date(event.endAt) : null;
+    return now >= start && (!end || now < end);
+  });
 
   return (
     <>
@@ -182,16 +133,26 @@ export default async function EventsPage({
           <p className="text-xs text-gray-500 mb-4">
             {isZh ? "以下时间适用于公告所列服务器时间；请以目标区服客户端倒计时和活动页为最终依据。" : "The windows below follow the official notice's server time; use the target server's in-game countdown as the final source."}
           </p>
+          <a
+            href={currentEvents.sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="text-xs text-primary-400 hover:text-primary-300"
+          >
+            {isZh ? "查看官方 10 月 21 日公告" : "Read the official October 21 notice"}
+          </a>
           <div className="space-y-4">
-            {CURRENT_1_4_EVENTS.map((event) => (
+            {visibleEvents.map((event) => (
               <div key={event.id} className="rounded-xl border border-primary-500/20 bg-primary-500/5 p-5">
                 <div className="flex flex-wrap items-center gap-3 mb-2">
                   <span className="text-[10px] px-2 py-0.5 rounded border bg-primary-500/20 text-primary-300 border-primary-500/30">
-                    {isZh ? "1.4 当前活动" : "Version 1.4 · Current"}
+                    {isZh ? `1.4 当前活动 · ${event.endAt ? "限时" : "常驻"}` : `Version 1.4 · ${event.endAt ? "Limited" : "Ongoing"}`}
                   </span>
                   <h3 className="text-sm font-semibold">{isZh ? event.titleZh : event.titleEn}</h3>
                 </div>
-                <p className="text-xs text-primary-200/80 mb-2">{isZh ? event.windowZh : event.windowEn}</p>
+                <p className="text-xs text-primary-200/80 mb-2">
+                  {isZh ? `${event.startAt.slice(0, 10)} 起${event.endAt ? ` – ${event.endAt.slice(0, 10)}（UTC+8）` : ""}` : `${event.startAt.slice(0, 10)}${event.endAt ? ` – ${event.endAt.slice(0, 10)} (UTC+8)` : " onward"}`}
+                </p>
                 <p className="text-xs text-gray-400">{isZh ? event.descZh : event.descEn}</p>
               </div>
             ))}
