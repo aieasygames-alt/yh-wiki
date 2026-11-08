@@ -105,14 +105,14 @@ describe("late Version 1.3 player-decision content", () => {
   });
 
   it("keeps unverified livestream codes out of the active resource pool", () => {
-    expect(redeemCodeDataset.reviewedAt).toBe("2026-10-26");
+    expect(redeemCodeDataset.reviewedAt).toBe("2026-11-08");
     const staleLivestreamCodes = ["999NIGHTS", "IROI0729", "SHINKU0708"];
     expect(redeemCodeDataset.codes.filter((code) => staleLivestreamCodes.includes(code.code)).every((code) => code.status === "unknown")).toBe(true);
     expect(redeemCodeDataset.codes.filter((code) => code.status === "active").every((code) => !staleLivestreamCodes.includes(code.code))).toBe(true);
   });
 
   it("uses the reviewed date as a boundary for live decision data", () => {
-    expect(operations.reviewedAt).toBe("2026-10-26");
+    expect(operations.reviewedAt).toBe("2026-11-08");
     expect(changelogsData.find((changelog) => changelog.version === operations.currentVersion)?.verificationStatus).toBe("live");
   });
 

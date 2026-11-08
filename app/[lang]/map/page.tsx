@@ -239,8 +239,8 @@ export default function MapPage() {
           </h1>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-gray-400">
             {isZhLocale(lang)
-              ? "异环互动地图用于查看站内记录的历史区域、标点与本地路线草稿。它不验证当前坐标、收集物、材料、商店、Boss、任务或活动；请在客户端确认后再行动。"
-              : "The NTE interactive map shows site-recorded historical regions, markers, and local route drafts. It does not verify current coordinates, collectibles, materials, shops, bosses, quests, or events; confirm them in the client before acting."}
+              ? "异环互动地图用于查看站内记录的历史区域、标点与本地路线草稿。地图数据最近复核：2026-11-08；它不验证当前坐标、收集物、材料、商店、Boss、任务或活动，请在客户端确认后再行动。"
+              : "The NTE interactive map shows site-recorded historical regions, markers, and local route drafts. Map data was last reviewed on 2026-11-08; it does not verify current coordinates, collectibles, materials, shops, bosses, quests, or events, so confirm them in the client before acting."}
           </p>
         </div>
         <div className="w-full rounded-xl bg-gray-800 animate-pulse" style={{ height: "calc(100vh - 200px)", minHeight: "400px" }} />

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 MESSAGES = ROOT / "messages"
 CURRENT_VERSION = "1.4"
-CURRENT_DATE = "2026-10-26"
+CURRENT_DATE = "2026-11-08"
 COLLECTIONS = ["guides.json", "blog.json", "faqs.json", "locations.json", "lore.json"]
 LOCALIZED_FIELDS = {
     "title": ["title", "titleEn", "titleTw"],
