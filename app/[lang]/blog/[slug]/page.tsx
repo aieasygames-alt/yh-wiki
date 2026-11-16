@@ -165,7 +165,7 @@ export default async function BlogDetailPage({
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {post.internalLinks.map((link) => (
-                <Link
+                <Link prefetch={false}
                   key={link.href}
                   href={`/${lang}${link.href}`}
                   className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -190,7 +190,7 @@ export default async function BlogDetailPage({
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                 {related.map((rp) => (
-                  <Link
+                  <Link prefetch={false}
                     key={rp.id}
                     href={`/${lang}${rp.href}`}
                     className="group rounded-xl border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"

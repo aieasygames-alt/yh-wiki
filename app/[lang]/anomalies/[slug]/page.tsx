@@ -289,13 +289,13 @@ export default async function AnomalyDetailPage({ params }: { params: { lang: st
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "配队模拟器", "Team builder", "配隊模擬器")}
               </Link>
-              <Link href={`/${lang}/materials/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/materials/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "素材列表", "Material list", "素材列表")}
               </Link>
-              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "互动地图", "Interactive map", "互動地圖")}
               </Link>
             </div>

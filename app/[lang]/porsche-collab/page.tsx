@@ -169,7 +169,7 @@ export default async function PorscheCollabPage({
               ? "保时捷展厅位于海特洛城（Hethereau）的特定区域。使用互动地图可以快速定位。"
               : "The Porsche showroom is located in a specific area of Hethereau. Use the interactive map to quickly find it."}
           </p>
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/map`}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-800 bg-gray-900/30 text-sm hover:border-primary-500/50 transition-colors"
           >
@@ -188,7 +188,7 @@ export default async function PorscheCollabPage({
               { label: isZhLocale(locale) ? "1.1 更新日志" : "1.1 Patch Notes", href: `/${lang}/changelog/1.1` },
               { label: isZhLocale(locale) ? "载具攻略" : "Vehicle Guide", href: `/${lang}/guides/vehicle-system-guide` },
             ].map((link) => (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"

@@ -177,7 +177,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
                     <div key={ii} className="rounded-lg border border-gray-800 bg-gray-900/50 p-3">
                       <div className="flex items-center gap-2 mb-1">
                         {item.ref && item.type === "character" ? (
-                          <Link href={`/${lang}/characters/${item.ref}`} className="text-sm font-medium text-primary-400 hover:underline">
+                          <Link prefetch={false} href={`/${lang}/characters/${item.ref}`} className="text-sm font-medium text-primary-400 hover:underline">
                             {itemName}
                           </Link>
                         ) : (
@@ -214,7 +214,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
             </h3>
             <div className="flex flex-wrap gap-2">
               {resolvedLinks.map((link) => (
-                <Link
+                <Link prefetch={false}
                   key={link.href}
                   href={`/${lang}${link.href}`}
                   className="text-xs px-3 py-1.5 rounded-lg bg-gray-800 text-gray-400 hover:text-primary-400 transition-colors"
@@ -228,7 +228,7 @@ export default async function ChangelogDetailPage({ params }: { params: { lang: 
 
         {/* Back */}
         <div className="mt-8">
-          <Link href={`/${lang}/changelog`} className="text-sm text-primary-400 hover:underline">
+          <Link prefetch={false} href={`/${lang}/changelog`} className="text-sm text-primary-400 hover:underline">
             ← {t(locale, "changelogDetails.backToList")}
           </Link>
         </div>

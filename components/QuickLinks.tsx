@@ -31,7 +31,7 @@ export function QuickLinks({ lang }: { lang: string }) {
           const fullHref = localizedPath(lang, link.href);
           const isActive = pathname === fullHref || pathname === fullHref + "/";
           return (
-            <Link
+            <Link prefetch={false}
               key={link.key}
               href={fullHref}
               className={`text-xs px-3 py-1.5 rounded-full shrink-0 transition-colors ${

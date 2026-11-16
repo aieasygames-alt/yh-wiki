@@ -268,7 +268,7 @@ export default async function FaqDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map((c) => (
-                <Link
+                <Link prefetch={false}
                   key={c!.id}
                   href={`/${lang}/characters/${c!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -291,7 +291,7 @@ export default async function FaqDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedMats.map((m) => (
-                <Link
+                <Link prefetch={false}
                   key={m!.id}
                   href={`/${lang}/materials/${m!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -321,7 +321,7 @@ export default async function FaqDetailPage({
               </h2>
               <div className="space-y-3">
                 {relatedFaqs.map((rf) => (
-                  <Link
+                  <Link prefetch={false}
                     key={rf.id}
                     href={`/${lang}/faq/${rf.id}`}
                     className="group block rounded-xl border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/50 transition-all"
@@ -363,16 +363,16 @@ export default async function FaqDetailPage({
               {isZhLocale(locale) ? "下一步去哪里" : "Where to go next"}
             </h2>
             <div className="flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
                 {isZhLocale(locale) ? "角色列表" : "Character list"}
               </Link>
-              <Link href={`/${lang}/materials/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/materials/`} className="text-primary-300 hover:text-primary-200">
                 {isZhLocale(locale) ? "素材列表" : "Material list"}
               </Link>
-              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
                 {isZhLocale(locale) ? "配队模拟器" : "Team builder"}
               </Link>
-              <Link href={`/${lang}/guides/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/guides/`} className="text-primary-300 hover:text-primary-200">
                 {isZhLocale(locale) ? "攻略集合" : "Guide hub"}
               </Link>
             </div>
@@ -386,7 +386,7 @@ export default async function FaqDetailPage({
 
         {/* Calculator CTA */}
         <div className="text-center py-8 mt-8">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/calculator/leveling`}
             className="inline-block px-8 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
           >

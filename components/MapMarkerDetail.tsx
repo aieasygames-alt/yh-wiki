@@ -133,7 +133,7 @@ export default function MapMarkerDetail({
             {marker.relatedMaterials.map((mId) => {
               const material = getMaterialById(mId);
               return material ? (
-                <Link
+                <Link prefetch={false}
                   key={mId}
                   href={`/${lang}/materials/${mId}`}
                   className="text-xs px-2 py-1 rounded bg-gray-800 text-gray-300 hover:text-primary-400 hover:border-primary-500/50 border border-gray-700 transition-colors"
@@ -149,7 +149,7 @@ export default function MapMarkerDetail({
       {/* Guide link */}
       {marker.guideUrl && (
         <div className="mb-3">
-          <Link
+          <Link prefetch={false}
             href={marker.guideUrl}
             className="text-xs text-primary-400 hover:text-primary-300 underline transition-colors"
           >

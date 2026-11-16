@@ -57,7 +57,7 @@ export function RotationGuide({ steps, tips, tipsEn, locale, lang }: RotationGui
                           className="rounded"
                         />
                       )}
-                      <Link
+                      <Link prefetch={false}
                         href={`/${lang}/characters/${char.id}`}
                         className="text-xs font-medium hover:text-primary-400 transition-colors"
                       >

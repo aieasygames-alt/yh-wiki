@@ -112,7 +112,7 @@ function MaterialRow({
 
   return (
     <div className={`flex items-center gap-3 px-4 py-3 border-b border-gray-800/50 last:border-b-0 ${done ? "opacity-60" : ""}`}>
-      <Link
+      <Link prefetch={false}
         href={`/${lang}/materials/${matId}`}
         className="text-sm hover:text-primary-400 transition-colors min-w-0 flex-1 truncate"
       >

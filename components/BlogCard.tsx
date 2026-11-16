@@ -28,7 +28,7 @@ function getTagLabel(tag: string, locale: Locale): string {
 export function BlogCard({ id, title, summary, category, date, tags, locale, image, imageAlt }: BlogCardProps) {
   const [imgError, setImgError] = useState(false);
   return (
-    <Link
+    <Link prefetch={false}
       href={localizedPath(locale, `blog/${id}`)}
       className="group block rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden hover:border-primary-500/50 transition-colors"
     >

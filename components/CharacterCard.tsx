@@ -42,7 +42,7 @@ export function CharacterCard({
       : "bg-gray-500/80 text-gray-200";
 
   return (
-    <Link
+    <Link prefetch={false}
       href={localizedPath(locale, `characters/${id}`)}
       className={`group block rounded-xl border bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5 relative ${
         isUnavailable

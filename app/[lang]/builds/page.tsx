@@ -113,7 +113,7 @@ export default async function BuildsPage({
                 ? (build.subStatPriority ?? [])
                 : (build.subStatPriorityEn ?? []);
               return (
-                <Link
+                <Link prefetch={false}
                   key={c.id}
                   href={`/${lang}/characters/${c.id}`}
                   className="block rounded-lg border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 transition-colors"

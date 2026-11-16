@@ -293,7 +293,7 @@ export default async function TeamsPage({
                   : "These older lineups illustrate combinations of sustained damage, burst, sustain, defense, grouping, and exploration utility. They are not live rankings or pull priorities."}
               </p>
             </div>
-            <Link
+            <Link prefetch={false}
               href={`/${lang}/team-builder`}
               className="text-sm text-primary-400 hover:text-primary-300"
             >
@@ -329,7 +329,7 @@ export default async function TeamsPage({
 
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
                     {members.map((member) => (
-                      <Link
+                      <Link prefetch={false}
                         key={member!.id}
                         href={`/${lang}/characters/${member!.id}`}
                         className="rounded-lg border border-gray-800 bg-gray-950/40 p-2 hover:border-primary-500/40 transition-colors"
@@ -407,7 +407,7 @@ export default async function TeamsPage({
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <Link
+                    <Link prefetch={false}
                       href={`/${lang}/characters/${char.id}`}
                       className="font-bold text-lg hover:text-primary-400 transition-colors"
                     >
@@ -463,7 +463,7 @@ export default async function TeamsPage({
                       {/* Member avatars */}
                       <div className="flex flex-wrap gap-2 mb-2">
                         {members.map((m) => (
-                          <Link
+                          <Link prefetch={false}
                             key={m!.id}
                             href={`/${lang}/characters/${m!.id}`}
                             className="flex items-center gap-1.5 rounded-lg bg-gray-900/60 border border-gray-700/20 px-2.5 py-1.5 hover:border-primary-500/40 hover:bg-gray-800/60 transition-all"

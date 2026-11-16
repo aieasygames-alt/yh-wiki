@@ -62,7 +62,7 @@ export default function NotFound({
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-lg mx-auto mb-10">
         {links.map((link) => (
-          <Link
+          <Link prefetch={false}
             key={link.href}
             href={link.href}
             className="group rounded-xl border border-gray-800 bg-gray-900/50 px-4 py-3 text-sm font-medium text-gray-300 hover:border-primary-500/40 hover:text-primary-400 transition-colors"
@@ -72,7 +72,7 @@ export default function NotFound({
         ))}
       </div>
 
-      <Link
+      <Link prefetch={false}
         href={`/${lang}`}
         className="inline-block px-6 py-2.5 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
       >

@@ -145,7 +145,7 @@ export default async function SitemapPage({ params }: { params: { lang: string }
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {section.items.map((item) => (
-                <Link
+                <Link prefetch={false}
                   key={item.href}
                   href={item.href.replace("{lang}", lang)}
                   className="text-sm text-gray-400 hover:text-primary-400 transition-colors py-1"

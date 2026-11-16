@@ -436,7 +436,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
                   <p className="text-sm font-mono text-primary-300">
                     {formatDate(banner.startDate, locale)} - {formatDate(banner.endDate, locale)}
                   </p>
-                  <Link
+                  <Link prefetch={false}
                     href={`/${lang}/characters/${banner.characterId}`}
                     className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300"
                   >
@@ -499,7 +499,7 @@ export default async function BannersPage({ params }: { params: { lang: string }
             { href: `/${lang}/tier-list`, label: isZh ? "角色评级历史资料" : "Historical Tier List" },
             { href: `/${lang}/cn-vs-global`, label: isZh ? "国服 vs 国际服日期" : "CN vs Global Dates" },
           ].map((link) => (
-            <Link
+            <Link prefetch={false}
               key={link.href}
               href={link.href}
               className="rounded-lg border border-gray-800 bg-gray-900/40 px-4 py-3 text-sm text-gray-300 hover:border-primary-500/40 hover:text-primary-300 transition-colors"

@@ -123,7 +123,7 @@ export default async function GuidesListPage({
               {/* Guide cards grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {cat.guides.map((guide) => (
-                  <Link
+                  <Link prefetch={false}
                     key={guide.id}
                     href={`/${lang}/guides/${guide.id}`}
                     className={`group block rounded-xl border border-gray-800 bg-gradient-to-br ${style.gradient} via-gray-900/30 to-transparent p-4 hover:border-primary-500/40 hover:bg-gray-900/50 transition-all hover:-translate-y-0.5`}

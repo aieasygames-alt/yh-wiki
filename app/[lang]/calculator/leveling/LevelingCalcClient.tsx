@@ -277,7 +277,7 @@ export function LevelingCalcClient({
                           className="border-b border-gray-800/50 hover:bg-gray-800/30"
                         >
                           <td className="px-4 py-3">
-                            <Link
+                            <Link prefetch={false}
                               href={`/${lang}/materials/${r.materialId}`}
                               className="text-sm hover:text-primary-400 transition-colors"
                             >
@@ -324,7 +324,7 @@ export function LevelingCalcClient({
                           className="border-b border-gray-800/50 hover:bg-gray-800/30"
                         >
                           <td className="px-4 py-3">
-                            <Link
+                            <Link prefetch={false}
                               href={`/${lang}/materials/${m.id}`}
                               className="text-sm hover:text-primary-400 transition-colors"
                             >

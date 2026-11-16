@@ -32,7 +32,7 @@ export function TeamCompCard({ teams, locale }: TeamCompCardProps) {
               {/* Members */}
               <div className="flex flex-wrap gap-2 mb-3">
                 {team.members.map((memberId) => (
-                  <Link
+                  <Link prefetch={false}
                     key={memberId}
                     href={localizedPath(locale, `characters/${memberId}`)}
                     className="rounded-md bg-gray-800 px-3 py-1 text-sm text-primary-400 hover:text-primary-300 hover:bg-gray-800/80 transition-colors"

@@ -97,7 +97,7 @@ export default async function CharactersPage({
             </p>
             <div className="flex flex-wrap gap-2">
               {priorityLinks.map((link) => (
-                <Link
+                <Link prefetch={false}
                   key={link.id}
                   href={`/${lang}/characters/${link.id}`}
                   className="rounded-lg border border-gray-700 bg-gray-800/60 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors"

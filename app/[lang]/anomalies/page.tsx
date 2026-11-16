@@ -95,7 +95,7 @@ export default async function AnomaliesPage({ params }: { params: { lang: string
               </h2>
               <div className={`grid gap-4 ${type === "boss" ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3"}`}>
                 {items.map((anomaly) => (
-                  <Link
+                  <Link prefetch={false}
                     key={anomaly.id}
                     href={`/${lang}/anomalies/${anomaly.id}`}
                     className={`block rounded-xl border bg-gray-900/50 p-5 hover:border-primary-500/50 transition-colors ${categoryColors[anomaly.type] || "border-gray-800"}`}

@@ -245,37 +245,37 @@ export default async function GuideDetailPage({
               </div>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-amber-700 hover:bg-amber-600 text-white font-medium text-sm transition-colors"
               >
                 {isZhLocale(locale) ? (locale === "tw" ? "入口導航" : "入口导航") : "Entry Guide"}
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-primary-600 hover:bg-primary-500 text-white font-medium text-sm transition-colors"
               >
                 🖥 {isZhLocale(locale) ? (locale === "tw" ? "PC 核驗" : "PC 核验") : "PC Check"}
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-green-700 hover:bg-green-600 text-white font-medium text-sm transition-colors"
               >
                 Android
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-colors"
               >
                 iOS
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/official-site`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white font-medium text-sm transition-colors"
               >
                 PS5
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/blog/cloud-yihuan-pc-guide`}
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white font-medium text-sm transition-colors"
               >
@@ -299,7 +299,7 @@ export default async function GuideDetailPage({
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {guide.internalLinks.map((link) => (
-                <Link
+                <Link prefetch={false}
                   key={link.href}
                   href={`/${lang}${link.href}`}
                   className="rounded-lg border border-gray-800 bg-gray-900/30 p-3 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors"
@@ -318,7 +318,7 @@ export default async function GuideDetailPage({
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {relatedContent.map((item) => (
-                <Link
+                <Link prefetch={false}
                   key={`${item.kind}-${item.id}`}
                   href={`/${lang}${item.href}`}
                   className="rounded-lg border border-gray-800 bg-gray-900/30 p-4 hover:border-primary-500/50 hover:bg-gray-900/60 transition-colors"
@@ -343,7 +343,7 @@ export default async function GuideDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map((c) => (
-                <Link
+                <Link prefetch={false}
                   key={c!.id}
                   href={`/${lang}/characters/${c!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -366,7 +366,7 @@ export default async function GuideDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedLocs.map((l) => (
-                <Link
+                <Link prefetch={false}
                   key={l!.id}
                   href={`/${lang}/locations/${l!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -389,7 +389,7 @@ export default async function GuideDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedLoreItems.map((l) => (
-                <Link
+                <Link prefetch={false}
                   key={l!.id}
                   href={`/${lang}/lore/${l!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"

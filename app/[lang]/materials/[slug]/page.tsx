@@ -159,7 +159,7 @@ export default async function MaterialDetailPage({
             <h2 className="text-xl font-bold mb-4">{t(locale, "materials.usedBy")}</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {usedByCharacters.map((c) => (
-                <Link
+                <Link prefetch={false}
                   key={c.id}
                   href={`/${lang}/characters/${c.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -209,13 +209,13 @@ export default async function MaterialDetailPage({
               {localizedText(locale, "后续规划", "Next step planning", "後續規劃")}
             </h2>
             <div className="flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "养成计算器", "Leveling calculator", "養成計算器")}
               </Link>
-              <Link href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "角色列表", "Character list", "角色列表")}
               </Link>
-              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "配队模拟器", "Team builder", "配隊模擬器")}
               </Link>
             </div>
@@ -232,7 +232,7 @@ export default async function MaterialDetailPage({
 
         {/* Calculator CTA */}
         <div className="text-center py-8">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/calculator/leveling`}
             className="inline-block px-8 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
           >

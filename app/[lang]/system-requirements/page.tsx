@@ -202,10 +202,10 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
             : "If your PC only barely meets minimum specs, check the download guide for local-client storage first, then compare whether Cloud PC fits short login sessions better. On mobile, try lower graphics and frame-rate targets before reinstalling."}
         </p>
         <div className="mt-4 flex flex-wrap gap-3">
-          <Link href={`/${lang}/guides/download-install-guide`} className="text-sm text-primary-300 hover:text-primary-200">
+          <Link prefetch={false} href={`/${lang}/guides/download-install-guide`} className="text-sm text-primary-300 hover:text-primary-200">
             {isZhLocale(locale) ? (locale === "tw" ? "下載安裝指南" : "下载安装指南") : "Download Guide"}
           </Link>
-          <Link href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="text-sm text-primary-300 hover:text-primary-200">
+          <Link prefetch={false} href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="text-sm text-primary-300 hover:text-primary-200">
             {isZhLocale(locale) ? (locale === "tw" ? "雲異環 PC 說明" : "云异环 PC 说明") : "Cloud PC Guide"}
           </Link>
         </div>
@@ -304,7 +304,7 @@ export default async function SystemRequirementsPage({ params }: { params: { lan
             ? "Steam、独立启动器、Epic 与云端 PC 的可用性、地区覆盖、账号绑定和配置要求都可能变化。下载或绑定前，请先核对当前商店页、客户端提示和官方公告，再使用完整 Steam 指南比较平台路径。"
             : "Availability, regional coverage, account binding, and requirements for Steam, the launcher, Epic, and Cloud PC can change. Before downloading or linking an account, check the current store page, client prompts, and official notices, then use the Steam guide to compare platform routes."}
         </p>
-        <Link
+        <Link prefetch={false}
           href={`/${lang}/steam`}
           className="inline-block text-sm text-primary-300 hover:text-primary-200 font-medium"
         >

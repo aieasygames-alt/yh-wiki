@@ -158,7 +158,7 @@ export default async function OfficialSitePage({ params }: { params: { lang: str
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {routes.map((route) => (
-              <Link
+              <Link prefetch={false}
                 key={route.label}
                 href={route.href}
                 className="rounded-xl border border-gray-800 bg-gray-900/40 p-5 hover:border-primary-500/40 hover:bg-gray-900/60 transition-colors"
@@ -191,7 +191,7 @@ export default async function OfficialSitePage({ params }: { params: { lang: str
             { href: `/${lang}/system-requirements`, label: localizedText(locale, "配置要求", "System Requirements", "配置要求") },
             { href: `/${lang}/blog/cloud-yihuan-pc-guide`, label: localizedText(locale, "云异环说明", "Cloud PC Guide", "雲異環說明") },
           ].map((link) => (
-            <Link
+            <Link prefetch={false}
               key={link.href}
               href={link.href}
               className="rounded-lg border border-gray-800 bg-gray-900/40 px-4 py-3 text-sm text-gray-300 hover:border-primary-500/40 hover:text-primary-300 transition-colors"

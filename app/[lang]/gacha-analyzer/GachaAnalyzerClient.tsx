@@ -557,7 +557,7 @@ export function GachaAnalyzerClient({
 
           {/* Link to simulator */}
           <div className="text-center">
-            <Link
+            <Link prefetch={false}
               href={`/${lang}/gacha`}
               className="text-sm text-primary-400 hover:text-primary-300 transition-colors"
             >

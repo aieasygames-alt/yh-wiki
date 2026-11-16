@@ -159,7 +159,7 @@ export function BossCardClient({
                 <div key={team.characterId} className="flex items-center gap-2">
                   {team.team.map((char) => {
                     return (
-                      <Link
+                      <Link prefetch={false}
                         key={char.id}
                         href={`/${lang}/characters/${char.id}`}
                         className="flex flex-col items-center gap-0.5 group/char"
@@ -185,7 +185,7 @@ export function BossCardClient({
             {isZh ? "本卡片的数值、机制、掉落和队伍均为历史字段；请在客户端核对当前遭遇。" : "Stats, mechanics, drops, and teams on this card are historical fields; verify the current encounter in the client."}
           </p>
 
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/anomalies/${id}`}
             className="text-xs text-primary-400 hover:text-primary-300 inline-block"
           >
