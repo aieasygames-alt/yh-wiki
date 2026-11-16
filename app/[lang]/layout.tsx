@@ -4,6 +4,7 @@ import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import { GaRouteTracker } from "../../components/GaRouteTracker";
 import { QuickLinks } from "../../components/QuickLinks";
+import { SameAdPlacement } from "../../components/SameAdPlacement";
 import { LOCALES, toHtmlLang } from "../../lib/i18n";
 import type { Locale } from "../../lib/i18n";
 
@@ -52,7 +53,9 @@ export default async function LangLayout({
       <body className="min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]">
         <GaRouteTracker />
         <Header />
+        <SameAdPlacement placement="detail-top" />
         <main className="flex-1">{children}</main>
+        <SameAdPlacement placement="detail-bottom" />
         <QuickLinks lang={lang} />
         <Footer />
       </body>
