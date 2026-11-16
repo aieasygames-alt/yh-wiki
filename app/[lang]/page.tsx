@@ -5,6 +5,7 @@ import { getAllCharacters, getAvailableCharacters, getAllGuides, getAllWeapons, 
 import { WebSiteJsonLd, OrganizationJsonLd, VideoGameJsonLd, FaqPageJsonLd } from "../../components/JsonLd";
 import { CharacterCard } from "../../components/CharacterCard";
 import { KardzPromoCard } from "../../components/KardzPromoCard";
+import { SameAdPlacement } from "../../components/SameAdPlacement";
 
 const SearchDialog = dynamic(() => import("../../components/SearchDialog").then((m) => ({ default: m.SearchDialog })), { ssr: false });
 
@@ -129,6 +130,8 @@ export default async function HomePage({
             </div>
           </div>
         </section>
+
+        <SameAdPlacement placement="home-top" />
 
         <section className="max-w-6xl mx-auto px-4 py-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -356,6 +359,8 @@ export default async function HomePage({
             })}
           </div>
         </section>
+
+        <SameAdPlacement placement="home-feed" />
 
         {/* Redeem Codes CTA — boost internal linking for ranking */}
         <section className="max-w-6xl mx-auto px-4 py-4">
