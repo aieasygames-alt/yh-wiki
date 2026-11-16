@@ -100,7 +100,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-gray-800 bg-[var(--background)]/80 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link href={localizedPath(lang)} className="flex items-center gap-2 font-bold text-lg text-primary-400">
+        <Link prefetch={false} href={localizedPath(lang)} className="flex items-center gap-2 font-bold text-lg text-primary-400">
           <Logo size={28} />
           {t(lang, "site.title")}
         </Link>
@@ -140,7 +140,7 @@ export function Header() {
                       <div className="absolute inset-0 -top-1 pointer-events-none" />
                       <div className="bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg whitespace-nowrap">
                         {item.items.map((sub) => (
-                          <Link
+                          <Link prefetch={false}
                             key={sub.href}
                             href={sub.href}
                             className={`block px-3 py-2 text-sm whitespace-nowrap transition-colors ${
@@ -159,7 +159,7 @@ export function Header() {
               );
             }
             return (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href!}
                 className={`text-sm whitespace-nowrap shrink-0 transition-colors hover:text-primary-400 px-2 py-1 ${
@@ -214,7 +214,7 @@ export function Header() {
               {langMenuOpen && (
                 <div className="absolute right-0 top-full mt-1 bg-gray-900 border border-gray-700 rounded-lg py-1 min-w-[160px] shadow-lg z-50">
                   {LOCALES.map((loc) => (
-                    <Link
+                    <Link prefetch={false}
                       key={loc}
                       href={canonicalPath(pathname.replace(`/${lang}`, `/${loc}`))}
                       className={`block px-3 py-1.5 text-sm whitespace-nowrap ${
@@ -263,7 +263,7 @@ export function Header() {
                   <div key={item.key} className="mt-2">
                     <p className="text-xs text-gray-500 uppercase tracking-wider py-1">{item.label}</p>
                     {item.items.map((sub) => (
-                      <Link
+                      <Link prefetch={false}
                         key={sub.href}
                         href={sub.href}
                         onClick={() => setMenuOpen(false)}
@@ -278,7 +278,7 @@ export function Header() {
                 );
               }
               return (
-                <Link
+                <Link prefetch={false}
                   key={item.href}
                   href={item.href!}
                   onClick={() => setMenuOpen(false)}
@@ -314,7 +314,7 @@ export function Header() {
               <p className="text-xs text-gray-500 uppercase tracking-wider py-1">Language</p>
               <div className="grid grid-cols-2 gap-1">
                 {LOCALES.map((loc) => (
-                  <Link
+                  <Link prefetch={false}
                     key={loc}
                     href={canonicalPath(pathname.replace(`/${lang}`, `/${loc}`))}
                     onClick={() => setMenuOpen(false)}

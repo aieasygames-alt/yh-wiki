@@ -259,7 +259,7 @@ export default async function GachaSystemPage({
                 { label: t(locale, "gachaSystem.linkBeginnerGuide"), href: `/${lang}/guides/beginner-quick-start` },
               ]
             ).map((link) => (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"

@@ -766,7 +766,7 @@ export function NineNightsPlannerClient({ lang }: { lang: string }) {
           {activeRelatedLinks.map((item) => {
             const label = locale === "tw" ? item.titleTw : isZh ? item.titleZh : item.titleEn;
             return (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 onClick={() => trackEvent({ event: "tool_999n_click_related_link", category: "999_nights_planner", label: item.href })}

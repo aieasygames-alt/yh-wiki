@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 declare global {
   type Googletag = {
@@ -104,9 +104,15 @@ function loadGpt(onReady: () => void) {
 
 export function SameAdPlacement({ placement }: { placement: Placement }) {
   const displayedRef = useRef(false);
+  const [mounted, setMounted] = useState(false);
   const config = ADS[placement];
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
     if (!isSameHost() || !shouldRender(placement)) return;
 
     const googletag = window.googletag || { cmd: [] };
@@ -124,9 +130,9 @@ export function SameAdPlacement({ placement }: { placement: Placement }) {
       gpt.display(config.elementId);
       displayedRef.current = true;
     });
-  }, [config.adUnitPath, config.elementId, config.sizes, placement]);
+  }, [config.adUnitPath, config.elementId, config.sizes, mounted, placement]);
 
-  if (!isSameHost() || !shouldRender(placement)) return null;
+  if (!mounted || !isSameHost() || !shouldRender(placement)) return null;
 
   return (
     <div

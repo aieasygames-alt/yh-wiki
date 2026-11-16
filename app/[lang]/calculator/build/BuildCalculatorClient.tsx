@@ -377,7 +377,7 @@ export function BuildCalculatorClient({
                   {activeBuild.recommendedWeapons.map((wId) => {
                     const weapon = weapons.find((w) => w.id === wId);
                     return weapon ? (
-                      <Link
+                      <Link prefetch={false}
                         key={wId}
                         href={`/${lang}/weapons/${wId}`}
                         className="flex items-center gap-3 rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2.5 hover:border-primary-500/50 hover:bg-gray-800 transition-colors"
@@ -400,7 +400,7 @@ export function BuildCalculatorClient({
                   {activeBuild.teamComp.map((cId) => {
                     const char = characters.find((c) => c.id === cId);
                     return char ? (
-                      <Link
+                      <Link prefetch={false}
                         key={cId}
                         href={`/${lang}/characters/${cId}`}
                         className="flex items-center gap-3 rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2.5 hover:border-primary-500/50 hover:bg-gray-800 transition-colors"
@@ -446,7 +446,7 @@ export function BuildCalculatorClient({
                         if (!material) return null;
                         return (
                           <div key={r.materialId} className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-800/30">
-                            <Link href={`/${lang}/materials/${r.materialId}`} className="text-sm hover:text-primary-400 transition-colors">
+                            <Link prefetch={false} href={`/${lang}/materials/${r.materialId}`} className="text-sm hover:text-primary-400 transition-colors">
                               {isZhLocale(lang) ? material.name : material.nameEn}
                             </Link>
                             <span className="font-mono text-primary-400 text-sm">x{r.quantity}</span>
@@ -467,7 +467,7 @@ export function BuildCalculatorClient({
                         if (!material) return null;
                         return (
                           <div key={m.id} className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-800/30">
-                            <Link href={`/${lang}/materials/${m.id}`} className="text-sm hover:text-primary-400 transition-colors">
+                            <Link prefetch={false} href={`/${lang}/materials/${m.id}`} className="text-sm hover:text-primary-400 transition-colors">
                               {isZhLocale(lang) ? material.name : material.nameEn}
                             </Link>
                             <span className="font-mono text-primary-400 text-sm">x{m.quantity}</span>
@@ -478,7 +478,7 @@ export function BuildCalculatorClient({
                   </div>
                 )}
               </div>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/calculator/leveling`}
                 className="inline-block mt-4 text-sm text-primary-400 hover:text-primary-300 transition-colors"
               >

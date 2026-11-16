@@ -253,13 +253,13 @@ export default async function VehicleDetailPage({
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/vehicles/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/vehicles/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "载具列表", "Vehicle list", "載具列表")}
               </Link>
-              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "互动地图", "Interactive map", "互動地圖")}
               </Link>
-              <Link href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "探索伴侣", "Explorer companion", "探索伴侶")}
               </Link>
             </div>
@@ -268,7 +268,7 @@ export default async function VehicleDetailPage({
 
         {/* Back to Vehicles */}
         <div className="text-center py-8">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/vehicles`}
             className="inline-block px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg font-medium transition-colors"
           >

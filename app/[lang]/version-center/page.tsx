@@ -127,13 +127,13 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
               ))}
             </div>
             <div className="mt-5 flex flex-wrap gap-3">
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/changelog/${latestRecorded.version}`}
                 className="rounded-lg bg-sky-400 px-4 py-2 text-sm font-medium text-slate-950 hover:bg-sky-300 transition-colors"
               >
                 {isZhLocale(locale) ? (locale === "tw" ? "查看歷史更新條目" : "查看历史更新条目") : "Read Historical Patch Entry"}
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/banners`}
                 className="rounded-lg border border-gray-700 px-4 py-2 text-sm text-gray-300 hover:border-sky-400/40 hover:text-sky-300 transition-colors"
               >
@@ -210,7 +210,7 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
           </div>
           <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
             {weeklyQueue.map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={`${item.type}-${item.id}`}
                 href={`/${lang}${item.href}`}
                 className="rounded-lg border border-gray-800 bg-gray-950/35 p-4 transition-colors hover:border-rose-400/50 hover:bg-gray-900/70"
@@ -238,13 +238,13 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
                   : "Auto-collected guides and posts tagged to this historical version, for archive review and terminology lookup only."}
               </p>
             </div>
-            <Link href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
+            <Link prefetch={false} href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
               {isZhLocale(locale) ? (locale === "tw" ? "看更多文章" : "看更多文章") : "More Posts"} →
             </Link>
           </div>
           <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {spotlight.map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={`${item.kind}-${item.id}`}
                 href={`/${lang}${item.href}`}
                 className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
@@ -290,7 +290,7 @@ export default async function VersionCenterPage({ params }: { params: { lang: st
                 : "This archive is useful for review; verify banners, events, characters, and resource decisions in the target server's notices and client first.",
             },
           ].map((item) => (
-            <Link
+            <Link prefetch={false}
               key={item.href}
               href={item.href}
               className="rounded-xl border border-gray-800 bg-gray-900/40 p-5 hover:border-primary-500/30 hover:bg-gray-900/60 transition-colors"

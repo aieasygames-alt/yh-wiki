@@ -228,16 +228,16 @@ export default async function LoreDetailPage({
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/lore/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/lore/`} className="text-primary-300 hover:text-primary-200">
                 {t(locale, "lore.title")}
               </Link>
-              <Link href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
                 {t(locale, "site.nav.characters")}
               </Link>
-              <Link href={`/${lang}/locations/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/locations/`} className="text-primary-300 hover:text-primary-200">
                 {t(locale, "site.nav.locations")}
               </Link>
-              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
                 {t(locale, "site.nav.map")}
               </Link>
             </div>
@@ -252,7 +252,7 @@ export default async function LoreDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map((c) => (
-                <Link
+                <Link prefetch={false}
                   key={c!.id}
                   href={`/${lang}/characters/${c!.id}/`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -275,7 +275,7 @@ export default async function LoreDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedLocs.map((l) => (
-                <Link
+                <Link prefetch={false}
                   key={l!.id}
                   href={`/${lang}/locations/${l!.id}/`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"

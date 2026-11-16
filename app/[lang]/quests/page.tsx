@@ -77,7 +77,7 @@ export default async function QuestsPage({ params }: { params: { lang: string } 
             </h2>
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
               {sideQuests.map((quest) => (
-                <Link
+                <Link prefetch={false}
                   key={quest.id}
                   href={`/${lang}/quests/${quest.id}`}
                   className="block rounded-lg border border-gray-800 bg-gray-900/50 hover:border-emerald-500/50 transition-colors"
@@ -119,7 +119,7 @@ export default async function QuestsPage({ params }: { params: { lang: string } 
             </h2>
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
               {anomalyCommissions.map((quest) => (
-                <Link
+                <Link prefetch={false}
                   key={quest.id}
                   href={`/${lang}/quests/${quest.id}`}
                   className="block rounded-lg border border-gray-800 bg-gray-900/50 hover:border-purple-500/50 transition-colors"

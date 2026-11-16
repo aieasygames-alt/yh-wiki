@@ -170,7 +170,7 @@ export default async function VoiceActorsPage({
                   .map((c) => (
                   <tr key={c.id} className="border-b border-gray-800/50 hover:bg-gray-800/20">
                     <td className="py-3 px-4">
-                      <Link
+                      <Link prefetch={false}
                         href={`/${lang}/characters/${c.id}`}
                         className="text-primary-400 hover:text-primary-300 transition-colors"
                       >
@@ -227,7 +227,7 @@ export default async function VoiceActorsPage({
               { label: isZhLocale(locale) ? "强度排行" : "Tier List", href: `/${lang}/tier-list` },
               { label: isZhLocale(locale) ? "新手指南" : "Beginner Guide", href: `/${lang}/guides/beginner-quick-start` },
             ].map((link) => (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"

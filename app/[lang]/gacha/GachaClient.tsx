@@ -231,7 +231,7 @@ export function GachaClient({
         <KardzPromoCard locale={lang} variant="banner" />
       </div>
 
-      <Link
+      <Link prefetch={false}
         href={`/${lang}/banners`}
         className="block rounded-xl border border-sky-500/30 bg-sky-500/10 p-4 mb-6 hover:border-sky-500/50 transition-colors"
       >

@@ -189,7 +189,7 @@ export function CompareCharactersClient({ lang, characters }: CompareCharactersC
               </div>
               {selectedChars.map((c) => (
                 <div key={c.id} className="px-3 py-3 text-center">
-                  <Link href={`/${lang}/characters/${c.id}`} className="hover:text-primary-400 transition-colors">
+                  <Link prefetch={false} href={`/${lang}/characters/${c.id}`} className="hover:text-primary-400 transition-colors">
                     <GameImage type="character" id={c.id} name={c.name} className="w-12 h-12 rounded-lg mx-auto mb-1" />
                     <p className="text-xs font-medium truncate">{isZh ? c.name : c.nameEn}</p>
                     <span className={`text-[10px] px-1.5 py-0.5 rounded border ${getAttributeColor(c.attribute)}`}>

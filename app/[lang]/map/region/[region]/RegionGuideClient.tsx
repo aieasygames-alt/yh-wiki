@@ -297,7 +297,7 @@ export default function RegionGuideClient({
     <div className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
       {/* Breadcrumb */}
       <nav className="text-sm text-gray-500 mb-6 flex items-center gap-2 flex-wrap">
-        <Link
+        <Link prefetch={false}
           href={`/${lang}/map`}
           className="hover:text-gray-300 transition-colors"
         >
@@ -310,7 +310,7 @@ export default function RegionGuideClient({
       {/* Region navigation tabs */}
       <div className="flex gap-2 overflow-x-auto pb-3 mb-6 scrollbar-thin">
         {regionList.map(([rid, info]) => (
-          <Link
+          <Link prefetch={false}
             key={rid}
             href={`/${lang}/map/region/${rid}`}
             className={`px-4 py-2 text-sm rounded-lg transition-colors whitespace-nowrap flex-shrink-0 border ${
@@ -451,7 +451,7 @@ export default function RegionGuideClient({
             ? "互动地图仅用于查看站内历史标记和本地路线草稿；坐标与可用性请在客户端确认。"
             : "The interactive map is for site-recorded markers and local route drafts only; verify coordinates and availability in the client."}
         </p>
-        <Link
+        <Link prefetch={false}
           href={`/${lang}/map?region=${regionId}`}
           className="inline-block px-6 py-2.5 rounded-lg bg-primary-500/20 text-primary-400 border border-primary-500/30 hover:bg-primary-500/30 transition-colors text-sm font-medium"
         >

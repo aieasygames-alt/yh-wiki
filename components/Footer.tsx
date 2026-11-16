@@ -84,7 +84,7 @@ export function Footer() {
               <ul className="space-y-2">
                 {col.links.map((link) => (
                   <li key={link.href}>
-                    <Link
+                    <Link prefetch={false}
                       href={link.href}
                       className="text-sm text-gray-400 hover:text-primary-400 transition-colors break-words"
                     >

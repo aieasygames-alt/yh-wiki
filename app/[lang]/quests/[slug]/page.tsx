@@ -184,7 +184,7 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
             </h2>
             <div className="flex flex-wrap gap-3">
               {relatedChars.map((char) => char && (
-                <Link
+                <Link prefetch={false}
                   key={char.id}
                   href={`/${lang}/characters/${char.id}`}
                   className="px-4 py-2 rounded-lg border border-gray-800 bg-gray-900/50 hover:border-primary-500/50 transition-colors text-sm text-gray-300"
@@ -242,13 +242,13 @@ export default async function QuestDetailPage({ params }: { params: { lang: stri
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "查看地图历史资料", "Open historical map references", "查看地圖歷史資料")}
               </Link>
-              <Link href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/explorer/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "查看探索历史资料", "Open historical explorer references", "查看探索歷史資料")}
               </Link>
-              <Link href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/calculator/leveling/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "查看本地材料估算", "Open local material estimate", "查看本地素材估算")}
               </Link>
             </div>

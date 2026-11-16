@@ -38,7 +38,7 @@ export function WeaponCard({ id, name, nameTw, nameEn, rank, type, baseAtk, subs
   const substatLabel = SUBSTAT_LABELS[substat]?.[locale] || substat;
 
   return (
-    <Link
+    <Link prefetch={false}
       href={localizedPath(locale, `weapons/${id}`)}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >

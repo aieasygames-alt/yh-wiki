@@ -110,7 +110,7 @@ export default async function DiskSetsPage({ params }: { params: { lang: string 
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {section.sets.map((set) => (
-                <Link
+                <Link prefetch={false}
                   key={set.id}
                   href={`/${lang}/disk-sets/${set.id}`}
                   className="block rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/50 transition-colors"

@@ -188,7 +188,7 @@ export default async function EventsPage({
                   ))}
                 </div>
                 {event.id === "city-tycoon-season1" && (
-                  <Link
+                  <Link prefetch={false}
                     href={`/${lang}/city-tycoon`}
                     className="text-xs text-primary-400 hover:text-primary-300 mt-3 inline-block"
                   >
@@ -231,7 +231,7 @@ export default async function EventsPage({
               ))}
             </div>
           )}
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/redeem-codes`}
             className="text-xs text-primary-400 hover:text-primary-300 mt-3 inline-block"
           >

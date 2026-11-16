@@ -395,7 +395,7 @@ export function EffectsClient({
                     <p className="text-xs text-gray-400 leading-relaxed">
                       <HighlightText text={isZh ? effect.description : effect.descriptionEn} query={searchQuery} />
                     </p>
-                    <Link
+                    <Link prefetch={false}
                       href={effect.sourceUrl}
                       className="text-[10px] text-primary-400 hover:text-primary-300 mt-1 inline-block"
                     >

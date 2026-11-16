@@ -181,13 +181,13 @@ export default async function CityTycoonPage({
                 </div>
               </div>
               <div className="flex gap-2">
-                <Link
+                <Link prefetch={false}
                   href={`/${lang}/characters/xiaozhi`}
                   className="text-xs px-3 py-1.5 rounded bg-primary-500/20 text-primary-400 hover:bg-primary-500/30 transition-colors"
                 >
                   {isZh ? "查看角色详情 →" : "View Character Details →"}
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href={`/${lang}/team-builder?team=xiaozhi,jiuyuan,hathor`}
                   className="text-xs px-3 py-1.5 rounded bg-gray-800 text-gray-400 hover:text-gray-300 transition-colors"
                 >
@@ -282,19 +282,19 @@ export default async function CityTycoonPage({
 
         {/* Related Links */}
         <div className="flex flex-wrap gap-3 mt-8">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/explorer`}
             className="text-sm px-4 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors"
           >
             {t(locale, "cityTycoon.linkExplorer")} →
           </Link>
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/characters/xiaozhi`}
             className="text-sm px-4 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors"
           >
             {t(locale, "cityTycoon.linkXiaozhi")} →
           </Link>
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/tier-list`}
             className="text-sm px-4 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-gray-700 transition-colors"
           >

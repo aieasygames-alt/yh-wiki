@@ -123,7 +123,7 @@ export default async function LocationDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map((c) => (
-                <Link
+                <Link prefetch={false}
                   key={c!.id}
                   href={`/${lang}/characters/${c!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -146,7 +146,7 @@ export default async function LocationDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {relatedLoreItems.map((l) => (
-                <Link
+                <Link prefetch={false}
                   key={l!.id}
                   href={`/${lang}/lore/${l!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
@@ -181,16 +181,16 @@ export default async function LocationDetailPage({
               {localizedText(locale, "核验相关资料", "Verify related references", "覆核相關資料")}
             </h2>
             <div className="flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/map/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "打开地图", "Open map", "打開地圖")}
               </Link>
               {relatedChars[0] && (
-                <Link href={`/${lang}/characters/${relatedChars[0]!.id}`} className="text-primary-300 hover:text-primary-200">
+                <Link prefetch={false} href={`/${lang}/characters/${relatedChars[0]!.id}`} className="text-primary-300 hover:text-primary-200">
                   {localizedText(locale, "关联角色", "Related character", "關聯角色")}
                 </Link>
               )}
               {relatedLoreItems[0] && (
-                <Link href={`/${lang}/lore/${relatedLoreItems[0]!.id}`} className="text-primary-300 hover:text-primary-200">
+                <Link prefetch={false} href={`/${lang}/lore/${relatedLoreItems[0]!.id}`} className="text-primary-300 hover:text-primary-200">
                   {localizedText(locale, "关联世界观", "Related lore", "關聯世界觀")}
                 </Link>
               )}

@@ -338,13 +338,13 @@ export default async function CharacterDetailPage({
             <h2 className="text-xl font-bold mb-2">{banner.title}</h2>
             <p className="text-sm text-gray-400 leading-relaxed mb-4">{banner.description}</p>
             <div className="flex flex-wrap gap-3">
-              <Link
+              <Link prefetch={false}
                 href={`/${lang}/banners`}
                 className="px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-sm font-medium transition-colors"
               >
                 {banner.primary}
               </Link>
-              <Link
+              <Link prefetch={false}
                 href={slug === "chaos" ? `/${lang}/team-builder` : `/${lang}/guides/gacha-system`}
                 className="px-4 py-2 rounded-lg border border-gray-700 hover:border-sky-500/50 text-sm text-gray-300 hover:text-sky-200 transition-colors"
               >
@@ -404,7 +404,7 @@ export default async function CharacterDetailPage({
                 desc: isZhLocale(locale) ? (locale === "tw" ? "不代表目前評級或投入建議" : "不代表当前评级或投入建议") : "Not a current rating or investment verdict",
               },
             ].map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 className="rounded-lg border border-gray-800 bg-gray-950/40 p-4 hover:border-primary-500/40 transition-colors"
@@ -448,7 +448,7 @@ export default async function CharacterDetailPage({
                         const material = getMaterialById(m.id);
                         if (!material) return null;
                         return (
-                          <Link
+                          <Link prefetch={false}
                             key={m.id}
                             href={`/${lang}/materials/${m.id}`}
                             className="flex items-center justify-between px-3 py-2 rounded bg-gray-800/50 hover:bg-gray-800 transition-colors"
@@ -480,7 +480,7 @@ export default async function CharacterDetailPage({
                   const material = getMaterialById(m.id);
                   if (!material) return null;
                   return (
-                    <Link
+                    <Link prefetch={false}
                       key={m.id}
                       href={`/${lang}/materials/${m.id}`}
                       className="flex items-center justify-between px-3 py-2 rounded bg-gray-800/50 hover:bg-gray-800 transition-colors"
@@ -507,7 +507,7 @@ export default async function CharacterDetailPage({
         {/* Calculator CTA - only for available characters */}
         {character.status === "available" && (
         <div className="text-center py-8">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/calculator/leveling`}
             className="inline-block px-8 py-3 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors"
           >
@@ -524,7 +524,7 @@ export default async function CharacterDetailPage({
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
               {relatedChars.map(c => (
-                <Link key={c!.id} href={`/${lang}/characters/${c!.id}`}
+                <Link prefetch={false} key={c!.id} href={`/${lang}/characters/${c!.id}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/30 p-3 hover:border-primary-500/50 transition-colors"
                 >
                   <div className="min-w-0">
@@ -540,7 +540,7 @@ export default async function CharacterDetailPage({
         {/* Tier List Link */}
         {character.tierRank && (
           <div className="mb-8">
-            <Link href={`/${lang}/tier-list`} className="text-sm text-primary-400 hover:text-primary-300 inline-block">
+            <Link prefetch={false} href={`/${lang}/tier-list`} className="text-sm text-primary-400 hover:text-primary-300 inline-block">
               {t(locale, "characters.viewTierList")}
             </Link>
           </div>

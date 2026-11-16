@@ -291,7 +291,7 @@ function TierCard({
 }) {
   return (
     <div className="relative">
-      <Link
+      <Link prefetch={false}
         href={`/${lang}/characters/${c.id}`}
         className="block rounded-lg border border-gray-800/50 bg-gray-900/40 p-2.5 hover:border-primary-500/30 hover:-translate-y-0.5 transition-all"
       >

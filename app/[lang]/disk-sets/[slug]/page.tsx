@@ -162,7 +162,7 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
               const char = characters.find(c => c.id === cid);
               if (!char) return null;
               return (
-                <Link
+                <Link prefetch={false}
                   key={cid}
                   href={`/${lang}/characters/${cid}`}
                   className="flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900/50 p-3 hover:border-primary-500/50 transition-colors"
@@ -218,13 +218,13 @@ export default async function DiskSetDetailPage({ params }: { params: { lang: st
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/characters/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "角色列表", "Character list", "角色列表")}
               </Link>
-              <Link href={`/${lang}/weapons/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/weapons/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "弧盘列表", "Arc list", "弧盤列表")}
               </Link>
-              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "配队模拟器", "Team builder", "配隊模擬器")}
               </Link>
             </div>

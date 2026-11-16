@@ -229,7 +229,7 @@ export default async function WeaponDetailPage({
               {characters.map((c) => {
                 const charName = locale === "zh" ? c.name : (locale === "tw" ? (c.nameTw || c.name) : c.nameEn);
                 return (
-                  <Link
+                  <Link prefetch={false}
                     key={c.id}
                     href={`/${lang}/characters/${c.id}`}
                     className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
@@ -297,13 +297,13 @@ export default async function WeaponDetailPage({
               )}
             </p>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
-              <Link href={`/${lang}/disk-sets/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/disk-sets/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "查看卡带套装", "View cassette sets", "查看卡帶套裝")}
               </Link>
-              <Link href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/team-builder/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "配队模拟器", "Team builder", "配隊模擬器")}
               </Link>
-              <Link href={`/${lang}/calculator/build/`} className="text-primary-300 hover:text-primary-200">
+              <Link prefetch={false} href={`/${lang}/calculator/build/`} className="text-primary-300 hover:text-primary-200">
                 {localizedText(locale, "Build 计算器", "Build calculator", "Build 計算器")}
               </Link>
             </div>

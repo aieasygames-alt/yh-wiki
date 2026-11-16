@@ -251,7 +251,7 @@ export default async function CnVsGlobalPage({ params }: { params: { lang: strin
             { href: `/${lang}/changelog`, label: isZh ? "版本更新日志" : "Version Changelog" },
             { href: `/${lang}/steam`, label: isZh ? "Steam 平台核验" : "Steam Status Check" },
           ].map((link) => (
-            <Link
+            <Link prefetch={false}
               key={link.href}
               href={link.href}
               className="rounded-lg border border-gray-800 bg-gray-900/40 px-4 py-3 text-sm text-gray-300 hover:border-primary-500/40 hover:text-primary-300 transition-colors"

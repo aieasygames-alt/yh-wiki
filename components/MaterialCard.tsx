@@ -33,7 +33,7 @@ export function MaterialCard({
   showType = false,
 }: MaterialCardProps) {
   return (
-    <Link
+    <Link prefetch={false}
       href={localizedPath(locale, `materials/${id}`)}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >

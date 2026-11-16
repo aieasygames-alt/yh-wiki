@@ -558,7 +558,7 @@ function TeamBuilderInner({
                         const char = allCharacters.find((c) => c.id === id);
                         if (!char) return null;
                         return (
-                          <Link
+                          <Link prefetch={false}
                             key={id}
                             href={`/${lang}/characters/${id}`}
                             onClick={(e) => e.stopPropagation()}

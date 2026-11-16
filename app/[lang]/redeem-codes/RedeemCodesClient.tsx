@@ -362,7 +362,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
             { key: "teamBuilding", href: `/${lang}/guides/team-building` },
             { key: "cnVsGlobal", href: `/${lang}/cn-vs-global` },
           ] as const).map((item) => (
-            <Link
+            <Link prefetch={false}
               key={item.key}
               href={item.href}
               className="group rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 hover:bg-gray-900/80 transition-colors"
@@ -404,7 +404,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
               desc: isZhLocale(locale) ? (locale === "tw" ? "車輛獲取、駕駛技巧" : "车辆获取、驾驶技巧") : "How to get cars, driving controls & racing events",
             },
           ]).map((item) => (
-            <Link
+            <Link prefetch={false}
               key={item.href}
               href={item.href}
               className="group rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 hover:bg-gray-900/80 transition-colors"
@@ -425,7 +425,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
           <h2 className="text-xl font-bold mb-4">{t(locale, "redeemCodes.topCharacters.title")}</h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {topChars.map((c) => (
-              <Link
+              <Link prefetch={false}
                 key={c.id}
                 href={`/${lang}/characters/${c.id}`}
                 className="group flex items-center gap-3 rounded-xl border border-gray-800 bg-gray-900/50 p-3 hover:border-primary-500/40 transition-colors"
@@ -456,7 +456,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
               </Link>
             ))}
           </div>
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/tier-list`}
             className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300 transition-colors"
           >
@@ -471,7 +471,7 @@ export function RedeemCodesClient({ lang, codes, topChars, latestPosts }: Redeem
           <h2 className="text-xl font-bold mb-4">{t(locale, "redeemCodes.latestPosts.title")}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {latestPosts.map((post) => (
-              <Link
+              <Link prefetch={false}
                 key={post.id}
                 href={`/${lang}/blog/${post.id}`}
                 className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 transition-colors"

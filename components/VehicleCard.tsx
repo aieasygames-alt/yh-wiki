@@ -53,7 +53,7 @@ export function VehicleCard({ id, name, nameEn, type, typeEn, topSpeed, price, b
   const brandLabel = isZhLocale(locale) ? brand : brandEn;
 
   return (
-    <Link
+    <Link prefetch={false}
       href={localizedPath(locale, `vehicles/${id}`)}
       className="group block rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/50 transition-all hover:-translate-y-0.5"
     >

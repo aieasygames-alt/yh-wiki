@@ -188,7 +188,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
           <p className="text-sm text-gray-500 mt-3">
             {isZh ? "下列历史规格仅供预估，下载前请以当前商店页或启动器显示为准。" : "The historical specs below are planning references only; check the current store page or launcher before downloading."}
             <br />
-            <Link href={`/${lang}/system-requirements`} className="text-primary-400 hover:text-primary-300">
+            <Link prefetch={false} href={`/${lang}/system-requirements`} className="text-primary-400 hover:text-primary-300">
               {isZh ? "→ 完整系统要求页面（含手机/PS5）" : "→ Full system requirements (mobile/PS5 included)"}
             </Link>
           </p>
@@ -239,7 +239,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
                   ? "核对目标地区、服务入口、价格、排队、网络要求、账号规则和当前客户端提示。"
                   : "Verify target region, service entry, pricing, queues, network requirements, account rules, and current client prompts."}
               </p>
-              <Link href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300">
+              <Link prefetch={false} href={`/${lang}/blog/cloud-yihuan-pc-guide`} className="inline-block mt-3 text-sm text-primary-400 hover:text-primary-300">
                 {isZh ? "→ 看云异环 PC 说明" : "→ Cloud PC guide"}
               </Link>
             </div>
@@ -291,7 +291,7 @@ export default async function SteamPage({ params }: { params: { lang: string } }
             { href: `/${lang}/cn-vs-global`, label: isZh ? "国服 vs 国际服" : "CN vs Global" },
             { href: `/${lang}/blog/cloud-yihuan-pc-guide`, label: isZh ? "云异环 PC 说明" : "Cloud PC Guide" },
           ].map((link) => (
-            <Link
+            <Link prefetch={false}
               key={link.href}
               href={link.href}
               className="rounded-lg border border-gray-800 bg-gray-900/40 px-4 py-3 text-sm text-gray-300 hover:border-primary-500/40 hover:text-primary-300 transition-colors"

@@ -185,7 +185,7 @@ export default async function HomePage({
                 accent: "border-amber-500/30 bg-amber-500/10 text-amber-300",
               },
             ].map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 className="group rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
@@ -213,7 +213,7 @@ export default async function HomePage({
               { label: t(locale, "site.nav.guides"), value: guides.length, color: "text-purple-400", href: `/${lang}/guides` },
               { label: "DPS " + (isZhLocale(locale) ? "计算器" : "Calculator"), value: "NEW", color: "text-primary-400", href: `/${lang}/calculator/dps` },
             ].map((stat) => (
-              <Link key={stat.label} href={stat.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center hover:border-primary-500/30 transition-colors">
+              <Link prefetch={false} key={stat.label} href={stat.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 text-center hover:border-primary-500/30 transition-colors">
                 <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
                 <p className="text-xs text-gray-400 mt-1">{stat.label}</p>
               </Link>
@@ -223,7 +223,7 @@ export default async function HomePage({
 
         {/* Version center CTA */}
         <section className="max-w-6xl mx-auto px-4 py-4">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/version-center`}
             className="block rounded-xl border border-sky-500/30 bg-gradient-to-r from-sky-500/10 to-cyan-500/10 p-4 hover:border-sky-500/50 hover:from-sky-500/15 hover:to-cyan-500/15 transition-all group"
           >
@@ -261,7 +261,7 @@ export default async function HomePage({
                   { href: `/${lang}/compare/nte-vs-honkai-star-rail`, label: "NTE vs Star Rail" },
                   { href: `/${lang}/compare/games-like-nte`, label: isZhLocale(locale) ? "类似异环的游戏" : "Games Like NTE" },
                 ].map((item) => (
-                  <Link key={item.href} href={item.href} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
+                  <Link prefetch={false} key={item.href} href={item.href} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
                     {item.label}
                   </Link>
                 ))}
@@ -279,7 +279,7 @@ export default async function HomePage({
                   { id: "miguel-district", zh: "米格尔区", tw: "米格爾區", en: "Miguel District" },
                   { id: "illusion-town", zh: "绘空町", tw: "繪空町", en: "Illusion Town" },
                 ].map((region) => (
-                  <Link key={region.id} href={`/${lang}/map/region/${region.id}`} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
+                  <Link prefetch={false} key={region.id} href={`/${lang}/map/region/${region.id}`} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
                     {locale === "tw" ? region.tw : isZhLocale(locale) ? region.zh : region.en}
                   </Link>
                 ))}
@@ -296,7 +296,7 @@ export default async function HomePage({
                   { href: `/${lang}/api`, label: "API" },
                   { href: `/${lang}/voice-actors`, label: isZhLocale(locale) ? "声优一览" : "Voice Actors" },
                 ].map((item) => (
-                  <Link key={item.href} href={item.href} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
+                  <Link prefetch={false} key={item.href} href={item.href} className="rounded-lg border border-gray-700 bg-gray-800/50 px-3 py-2 text-sm text-gray-300 hover:border-primary-500/50 hover:text-primary-300 transition-colors">
                     {item.label}
                   </Link>
                 ))}
@@ -318,7 +318,7 @@ export default async function HomePage({
                   : "A dated index of recorded patch notes, guides, and posts, not a statement of live availability."}
               </p>
             </div>
-            <Link href={`/${lang}/version-center`} className="text-sm text-primary-400 hover:text-primary-300">
+            <Link prefetch={false} href={`/${lang}/version-center`} className="text-sm text-primary-400 hover:text-primary-300">
               {isZhLocale(locale) ? (locale === "tw" ? "開啟版本歷史資料" : "打开版本历史资料") : "Open Version History"} →
             </Link>
           </div>
@@ -337,7 +337,7 @@ export default async function HomePage({
                     : "Post";
 
               return (
-                <Link
+                <Link prefetch={false}
                   key={`${item.kind}-${item.id}`}
                   href={`/${lang}${item.href}`}
                   className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
@@ -364,7 +364,7 @@ export default async function HomePage({
 
         {/* Redeem Codes CTA — boost internal linking for ranking */}
         <section className="max-w-6xl mx-auto px-4 py-4">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/redeem-codes`}
             className="block rounded-xl border border-primary-500/30 bg-gradient-to-r from-primary-500/10 to-purple-500/10 p-4 hover:border-primary-500/50 hover:from-primary-500/15 hover:to-purple-500/15 transition-all group"
           >
@@ -388,7 +388,7 @@ export default async function HomePage({
 
         {/* F2P Guide CTA — high search volume topic */}
         <section className="max-w-6xl mx-auto px-4 py-4">
-          <Link
+          <Link prefetch={false}
             href={`/${lang}/blog/nte-f2p-complete-resource-guide`}
             className="block rounded-xl border border-emerald-500/30 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 p-4 hover:border-emerald-500/50 hover:from-emerald-500/15 hover:to-teal-500/15 transition-all group"
           >
@@ -439,7 +439,7 @@ export default async function HomePage({
                 accent: "border-cyan-500/30 bg-cyan-500/10 text-cyan-300",
               },
             ].map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 className="group rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors"
@@ -474,7 +474,7 @@ export default async function HomePage({
               { title: t(locale, "statsCalc.title"), desc: isZhLocale(locale) ? "伤害计算与属性分析" : "Damage & stats analysis", href: `/${lang}/calculator/stats`, icon: "💥" },
               { title: "DPS " + (isZhLocale(locale) ? "计算器" : "Calculator"), desc: isZhLocale(locale) ? "计算循环DPS输出" : "Calculate rotation DPS", href: `/${lang}/calculator/dps`, icon: "🔥" },
             ].map((tool) => (
-              <Link key={tool.href} href={tool.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group">
+              <Link prefetch={false} key={tool.href} href={tool.href} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors group">
                 <span className="text-2xl">{tool.icon}</span>
                 <h3 className="text-base font-bold mt-3 group-hover:text-primary-400 transition-colors">{tool.title}</h3>
                 <p className="text-sm text-gray-400 mt-1">{tool.desc}</p>
@@ -488,13 +488,13 @@ export default async function HomePage({
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold">{t(locale, "guides.title")}</h2>
-            <Link href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300">
+            <Link prefetch={false} href={`/${lang}/guides`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {guides.slice(0, 6).map((g) => (
-              <Link key={g.id} href={`/${lang}/guides/${g.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
+              <Link prefetch={false} key={g.id} href={`/${lang}/guides/${g.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
                 <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
                   {isZhLocale(locale) ? g.categoryZh : g.categoryEn}
                 </span>
@@ -516,13 +516,13 @@ export default async function HomePage({
               <h2 className="text-2xl font-bold">
                 {isZhLocale(locale) ? (locale === "tw" ? "熱門角色攻略" : "热门角色攻略") : "Trending NTE Character Guides"}
               </h2>
-              <Link href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
+              <Link prefetch={false} href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
                 {t(locale, "home.viewAll")} →
               </Link>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4">
               {priorityCharacters.map((character) => (
-                <Link
+                <Link prefetch={false}
                   key={character!.id}
                   href={`/${lang}/characters/${character!.id}`}
                   className="rounded-xl border border-gray-800 bg-gray-900/50 p-4 hover:border-primary-500/40 hover:bg-gray-900/70 transition-colors"
@@ -545,13 +545,13 @@ export default async function HomePage({
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold">{t(locale, "blog.title")}</h2>
-            <Link href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
+            <Link prefetch={false} href={`/${lang}/blog`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {blogPosts.map((post) => (
-              <Link key={post.id} href={`/${lang}/blog/${post.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
+              <Link prefetch={false} key={post.id} href={`/${lang}/blog/${post.id}`} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 hover:border-primary-500/30 hover:bg-gray-900/70 transition-colors">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-xs px-2 py-0.5 rounded bg-primary-500/20 text-primary-400">
                     {isZhLocale(locale) ? post.categoryZh : post.categoryEn}
@@ -573,7 +573,7 @@ export default async function HomePage({
         <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold">{t(locale, "home.sRankCharacters")}</h2>
-            <Link href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
+            <Link prefetch={false} href={`/${lang}/characters`} className="text-sm text-primary-400 hover:text-primary-300">
               {t(locale, "home.viewAll")} →
             </Link>
           </div>
@@ -601,7 +601,7 @@ export default async function HomePage({
               { label: isZhLocale(locale) ? (locale === "tw" ? "DPS計算器" : "DPS计算器") : "DPS Calculator", href: `/${lang}/calculator/dps`, desc: isZhLocale(locale) ? (locale === "tw" ? "循環輸出計算" : "循环输出计算") : "Rotation DPS calc" },
               { label: isZhLocale(locale) ? (locale === "tw" ? "版本歷史資料" : "版本历史资料") : "Version History", href: `/${lang}/version-center`, desc: isZhLocale(locale) ? (locale === "tw" ? "已收錄版本與近期更新記錄" : "已收录版本与近期更新记录") : "Recorded version and update references" },
             ].map((link) => (
-              <Link key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
+              <Link prefetch={false} key={link.href} href={link.href} className="rounded-lg border border-gray-800 bg-gray-900/30 px-4 py-3 hover:border-primary-500/30 hover:bg-gray-900/50 transition-colors">
                 <p className="text-sm font-medium">{link.label}</p>
                 <p className="text-xs text-gray-400 mt-0.5">{link.desc}</p>
               </Link>
