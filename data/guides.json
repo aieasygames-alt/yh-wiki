@@ -3929,7 +3929,15 @@
     "relatedLore":[],
     "faq":[],
     "date":"2026-11-20",
-    "sourceUrl":"https://www.prydwen.gg/neverness-to-everness/characters/elyms"
+    "sourceUrl":"https://www.prydwen.gg/neverness-to-everness/characters/elyms",
+    "sourceUrls":[
+      "https://www.prydwen.gg/neverness-to-everness/characters/elyms",
+      "https://pity.gg/neverness-to-everness/characters/elyms",
+      "https://game8.co/games/Neverness-to-Everness/archives/638157",
+      "https://www.icy-veins.com/neverness-to-everness/elyms-profile-skills",
+      "https://www.ntebuild.com/characters/elyms"
+    ],
+    "dataConfidence":"third-party-correlated"
   },
   {
     "id":"nte-1-5-events-rewards-guide",

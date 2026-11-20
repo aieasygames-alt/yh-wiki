@@ -347,6 +347,12 @@
     ],
     "skillMaterials":[{"id":"nestlings-longing","quantity":40},{"id":"doves-flutter","quantity":42},{"id":"olive-branch","quantity":65},{"id":"hollowflower-seed","quantity":35},{"id":"fading-silhouette","quantity":40},{"id":"blurred-silhouette","quantity":40},{"id":"chaos-silhouette","quantity":79},{"id":"credits","quantity":1748000}],
     "sourceUrl":"https://pity.gg/neverness-to-everness/characters/elyms",
+    "sourceUrls":[
+      "https://pity.gg/neverness-to-everness/characters/elyms",
+      "https://www.icy-veins.com/neverness-to-everness/elyms-profile-skills",
+      "https://www.ntebuild.com/characters/elyms"
+    ],
+    "dataConfidence":"third-party-correlated",
     "reviewedAt":"2026-11-20"
   }
 ]
