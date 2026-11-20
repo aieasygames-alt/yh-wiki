@@ -1347,6 +1347,12 @@
         "notes":"技能优先终结技 > 变轨技能 > 普攻/支援技能。核心循环是弱→中→强信号后开终结技；没有专属弧盘时优先选择攻击力或后台增益弧盘。",
         "notesEn":"Prioritize Ultimate > Redirect Skill > Basic/Support Skill. The core rotation is Weak → Medium → Strong Connection before the Ultimate; without the signature Arc, prioritize ATK or off-field support Arcs.",
         "sourceUrl":"https://game8.co/games/Neverness-to-Everness/archives/638157",
+        "sourceUrls":[
+          "https://game8.co/games/Neverness-to-Everness/archives/638157",
+          "https://www.prydwen.gg/neverness-to-everness/characters/elyms",
+          "https://www.ntebuild.com/characters/elyms/build"
+        ],
+        "dataConfidence":"third-party-correlated",
         "reviewedAt":"2026-11-20"
       }
     ]

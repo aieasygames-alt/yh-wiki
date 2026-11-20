@@ -8561,7 +8561,13 @@
     "seoTitleTw":"異環曳爾沐材料清單：80級突破與技能素材",
     "seoDescriptionZh":"曳尔沐80级突破、技能升级所需材料和获取来源，标注第三方数据与客户端复核边界。",
     "seoDescriptionEn":"Elyms Lv.80 ascension and skill materials with farming sources and a third-party data disclaimer.",
-    "seoDescriptionTw":"曳爾沐80級突破、技能升級材料與取得來源。"
+    "seoDescriptionTw":"曳爾沐80級突破、技能升級材料與取得來源。",
+    "sourceUrls":[
+      "https://pity.gg/neverness-to-everness/characters/elyms",
+      "https://www.icy-veins.com/neverness-to-everness/elyms-profile-skills",
+      "https://www.ntebuild.com/characters/elyms"
+    ],
+    "dataConfidence":"third-party-correlated"
   },
   {
     "id":"nte-1-5-city-vitality-overflow",

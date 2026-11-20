@@ -988,6 +988,12 @@
     "status": "available",
     "image": "/images/weapons/echoes-on-hold.webp",
     "sourceUrl": "https://game8.co/games/Neverness-to-Everness/archives/638186",
+    "sourceUrls": [
+      "https://game8.co/games/Neverness-to-Everness/archives/638186",
+      "https://www.prydwen.gg/neverness-to-everness/arcs",
+      "https://www.icy-veins.com/neverness-to-everness/weapons/echoes-on-hold"
+    ],
+    "dataConfidence": "third-party-correlated",
     "reviewedAt": "2026-11-20"
   }
 ]
