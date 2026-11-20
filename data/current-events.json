@@ -1,13 +1,15 @@
 {
-  "version": "1.4",
-  "reviewedAt": "2026-11-08",
-  "sourceUrl": "https://nte.perfectworld.com/cn/article/news/gamenews/20261019/264673.html",
+  "version": "1.5",
+  "reviewedAt": "2026-11-20",
+  "sourceUrl": "https://nte.perfectworld.com/cn/article/news/gamenews/20261109/264946.html",
   "events": [
-    {"id":"akane-rin-board","titleZh":"明音凛限定棋盘","titleEn":"Akane Rin Limited Board","startAt":"2026-10-21T11:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"限定S级角色明音凛、时装和车辆涂装；资格与奖励以目标区服客户端为准。","descEn":"Limited S-class Akane Rin board with outfits and vehicle cosmetics; verify eligibility and rewards in the target client."},
-    {"id":"far-side-of-the-moon","titleZh":"月的对跖点限定弧盘","titleEn":"Far Side of the Moon Limited Arc","startAt":"2026-10-21T11:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"限定S级弧盘，仅在本期弧盘研募计划中获得。","descEn":"Limited S-class Arc available through the current Arc Research Program only."},
-    {"id":"golden-crackshot","titleZh":"咔滋！黄金双脆","titleEn":"Snap! Golden Crackshot","startAt":"2026-10-21T11:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"参与活动获得活动货币，并在活动商店兑换奖励。","descEn":"Earn event currency and exchange it in the event shop."},
-    {"id":"pukaland-flip","titleZh":"噗卡翻翻乐","titleEn":"Pukaland Flip","startAt":"2026-10-29T05:00:00+08:00","endAt":"2026-11-11T05:59:00+08:00","descZh":"完成每日任务获得翻牌次数，领取活动奖励。","descEn":"Complete daily tasks to earn flips and claim event rewards."},
-    {"id":"gold-rush","titleZh":"夺金大作战","titleEn":"Gold Rush","startAt":"2026-10-26T05:00:00+08:00","endAt":"2026-11-09T04:59:00+08:00","descZh":"活动期间粉爪大劫案方斯获取效率提升为2倍。","descEn":"Doubles Fons efficiency in Pink Paws Heist during the event window."},
-    {"id":"to-us-back-then","titleZh":"致那一天的我们","titleEn":"To Us, Back Then","startAt":"2026-10-21T11:00:00+08:00","endAt":null,"descZh":"完成前置剧情后解锁的番外剧情。","descEn":"A spinoff story unlocked after the required story prerequisites."}
+    {"id":"elyms-board","titleZh":"电子人之梦限定棋盘","titleEn":"Android Dreams Limited Board","startAt":"2026-11-11T11:00:00+08:00","endAt":"2026-12-02T05:59:00+08:00","descZh":"限定S级角色曳尔沐、时装和车辆涂装；资格与奖励以目标区服客户端为准。","descEn":"Limited S-class Elyms board with outfits and vehicle cosmetics; verify eligibility and rewards in the target client."},
+    {"id":"still-ring-tone","titleZh":"静候彩铃限定弧盘研募","titleEn":"Still Waiting for the Ring Limited Arc","startAt":"2026-11-11T11:00:00+08:00","endAt":"2026-12-02T05:59:00+08:00","descZh":"限定S级弧盘，仅可通过「回音特刊」研募计划获得。","descEn":"Limited S-class Arc available only through the Echo Special Edition Research Program."},
+    {"id":"shinku-return-board","titleZh":"破晓前限定棋盘","titleEn":"Before Dawn Limited Board","startAt":"2026-11-11T11:00:00+08:00","endAt":"2026-12-02T05:59:00+08:00","descZh":"限定S级角色真红返场；毅心礼遇计数仅跟随本棋盘。","descEn":"Limited S-class Shinku rerun; Resolve Perks progress is tracked independently for this board."},
+    {"id":"fortune-bounty","titleZh":"集市分福","titleEn":"Fortune's Bounty","startAt":"2026-11-11T11:00:00+08:00","endAt":"2026-12-23T05:59:00+08:00","descZh":"累计活动进度可获得流动占卜屋、配饰、骰子和养成资源。","descEn":"Earn progress toward the Pop-Up Divination House, accessories, dice, and growth resources."},
+    {"id":"pixel-overflow","titleZh":"像素溢出","titleEn":"Pixel Overflow","startAt":"2026-11-16T05:00:00+08:00","endAt":"2026-11-23T04:59:00+08:00","descZh":"指定玩法消耗本性像素可获得2倍奖励，每日额度可累计。","descEn":"Earn double rewards when spending City Vitality in listed activities; daily allowances can accumulate."},
+    {"id":"tx-road","titleZh":"征途坦荡","titleEn":"Open Roads Ahead","startAt":"2026-11-19T10:00:00+08:00","endAt":"2026-12-23T05:59:00+08:00","descZh":"驾驶战车参与活动，获取TX纪念币并兑换环石、方斯和养成资源。","descEn":"Drive vehicles to earn TX commemorative coins and exchange them for Annulith, Fons, and growth resources."},
+    {"id":"fishing-operation","titleZh":"渔获大作战","titleEn":"Fishing Operation","startAt":"2026-11-23T05:00:00+08:00","endAt":"2026-12-23T05:59:00+08:00","descZh":"在纳库佩达公园捕鱼点提升捕鱼等级并领取活动奖励。","descEn":"Fish at the Nakupeida Park spot, raise Fishing Level, and claim event rewards."},
+    {"id":"gold-rush-1-5","titleZh":"夺金大作战","titleEn":"Gold Rush","startAt":"2026-11-23T05:00:00+08:00","endAt":"2026-12-07T04:59:00+08:00","descZh":"活动期间粉爪大劫案方斯获取效率提升为2倍。","descEn":"Doubles Fons efficiency in Pink Paws Heist during the event window."}
   ]
 }

@@ -1384,7 +1384,126 @@
       }
     ],
     "reviewedAt": "2026-11-08",
-    "verificationStatus": "live",
+    "verificationStatus": "historical",
     "sourceUrl": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html"
+  },
+  {
+    "id": "version-1-5",
+    "version": "1.5",
+    "versionName": "致电，空想迷数",
+    "versionNameEn": "Once Upon a Glitched Call",
+    "date": "2026-11-11",
+    "dateGlobal": "2026-11-11",
+    "type": "major",
+    "highlights": [
+      "全新限定S级角色曳尔沐与限定S级弧盘静候彩铃",
+      "限定S级角色真红返场，并开放对应限定棋盘与弧盘研募",
+      "全新正篇剧情「再会于数海」与曳尔沐羁遇内容",
+      "新增异象巡礼「贵腐巢母」",
+      "新增车辆、盲盒、签到、征途坦荡、渔获大作战等活动",
+      "新增资源汇总、体力溢出存储、角色培养目标与异能自定义升级"
+    ],
+    "highlightsEn": [
+      "New limited S-rank Elyms and limited S-rank Arc Still Waiting for the Ring",
+      "Limited S-rank Shinku rerun with a separate board and Arc research program",
+      "New main story episode Meet Me in the Data Stream and Elyms bond content",
+      "New Anomaly Pilgrimage boss Corrupted Nest Mother",
+      "New vehicles, mystery box, login, Open Roads Ahead, and Fishing Operation events",
+      "New resource summary, overflow storage, character training goals, and targeted Esper Ability leveling"
+    ],
+    "sections": [
+      {
+        "title": "角色、弧盘与剧情",
+        "titleEn": "Characters, Arcs, and Story",
+        "items": [
+          {
+            "name": "曳尔沐",
+            "nameEn": "Elyms",
+            "description": "限定S级角色，11月11日版本更新后至12月2日05:59（UTC+8）开放，通过「电子人之梦」限定棋盘获取。角色资料待独立数据复核后补充。",
+            "descriptionEn": "Limited S-rank character available from the update through December 2, 05:59 (UTC+8), via the Android Dreams limited board. Character data requires a separate data review before expansion.",
+            "type": "character",
+            "ref": null,
+            "tags": ["S级", "限定", "1.5"]
+          },
+          {
+            "name": "静候彩铃",
+            "nameEn": "Still Waiting for the Ring",
+            "description": "限定S级弧盘，仅可通过「回音特刊」弧盘研募计划获得。",
+            "descriptionEn": "Limited S-rank Arc available only through the Echo Special Edition Arc Research Program.",
+            "type": "arc",
+            "ref": null,
+            "tags": ["弧盘", "限定", "1.5"]
+          },
+          {
+            "name": "真红返场",
+            "nameEn": "Shinku Rerun",
+            "description": "限定S级角色真红通过「破晓前」限定棋盘返场，活动时间与曳尔沐棋盘相同。",
+            "descriptionEn": "Limited S-rank Shinku returns through the Before Dawn limited board during the same window as the Elyms board.",
+            "type": "character",
+            "ref": "zhenhong",
+            "tags": ["S级", "返场", "1.5"]
+          }
+        ]
+      },
+      {
+        "title": "新剧情与副本",
+        "titleEn": "New Story and Instance",
+        "items": [
+          {
+            "name": "再会于数海",
+            "nameEn": "Meet Me in the Data Stream",
+            "description": "1.5版本更新后开放，完成正篇剧情「魔女」后解锁。",
+            "descriptionEn": "Available after the Version 1.5 update and unlocked after completing the main story episode The Witch.",
+            "type": "story",
+            "ref": null,
+            "tags": ["主线", "1.5"]
+          },
+          {
+            "name": "贵腐巢母",
+            "nameEn": "Corrupted Nest Mother",
+            "description": "全新异象巡礼内容，完成正篇剧情「雾巢游戏」后解锁。",
+            "descriptionEn": "New Anomaly Pilgrimage content unlocked after completing the main story episode Fog Nest Game.",
+            "type": "anomaly",
+            "ref": null,
+            "tags": ["异象", "1.5"]
+          }
+        ]
+      },
+      {
+        "title": "活动与系统优化",
+        "titleEn": "Events and Quality-of-Life Updates",
+        "items": [
+          {
+            "name": "活动周期",
+            "nameEn": "Event Cycle",
+            "description": "1.5包含环期赠礼、运通全城、争锋赏宴·攻坚、征途坦荡、渔获大作战、像素溢出和夺金大作战等活动；具体窗口以活动页和目标区服客户端为准。",
+            "descriptionEn": "Version 1.5 includes Circle Gifts, City Logistics, Feast of Blades, Open Roads Ahead, Fishing Operation, Pixel Overflow, and Gold Rush; verify exact windows in the event page and target client.",
+            "type": "event",
+            "ref": null,
+            "tags": ["活动", "1.5"]
+          },
+          {
+            "name": "资源与培养便利性",
+            "nameEn": "Resource and Progression QoL",
+            "description": "新增资源汇总、都市活力与本性像素溢出存储、角色异能目标等级升级和角色养成目标设置。",
+            "descriptionEn": "Adds a resource summary, overflow storage for City Vitality and City Pixels, targeted Esper Ability leveling, and character training goals.",
+            "type": "system",
+            "ref": null,
+            "tags": ["优化", "资源", "1.5"]
+          }
+        ]
+      }
+    ],
+    "compensation": "维护补偿环石×300，问题修复补偿环石×300；领取资格、发放时间和区服规则以官方公告及游戏内邮件为准。",
+    "compensationEn": "Maintenance compensation: 300 Annulith; issue-fix compensation: 300 Annulith. Confirm eligibility, delivery timing, and server rules in official notices and in-game mail.",
+    "internalLinks": [
+      {"label":"1.5活动日历","labelEn":"Version 1.5 Events","href":"/events"},
+      {"label":"角色资料库","labelEn":"Character Database","href":"/characters"},
+      {"label":"弧盘数据库","labelEn":"Arc Database","href":"/weapons"},
+      {"label":"更多版本更新","labelEn":"More Patch Notes","href":"/changelog"}
+    ],
+    "reviewedAt": "2026-11-20",
+    "verificationStatus": "live",
+    "sourceUrl": "https://nte.perfectworld.com/cn/article/news/gamenews/20261109/264946.html"
   }
 ]

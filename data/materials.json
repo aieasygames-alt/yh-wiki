@@ -454,5 +454,10 @@
     "type": "currency",
     "rarity": 5,
     "source": "充值、任务奖励"
-  }
+  },
+
+  {"id":"nestlings-longing","name":"雏鸟的希冀","nameEn":"Nestling's Longing","type":"skill-material","rarity":2,"source":"胡迪尼的诡计舞台「小心鸽子」","sourceEn":"Houdini's Trick Stage: Watch Out for Pigeons"},
+  {"id":"doves-flutter","name":"白鸽的振翅","nameEn":"Dove's Flutter","type":"skill-material","rarity":3,"source":"胡迪尼的诡计舞台「小心鸽子」","sourceEn":"Houdini's Trick Stage: Watch Out for Pigeons"},
+  {"id":"olive-branch","name":"橄榄枝","nameEn":"The Olive Branch","type":"skill-material","rarity":4,"source":"胡迪尼的诡计舞台「小心鸽子」","sourceEn":"Houdini's Trick Stage: Watch Out for Pigeons"},
+  {"id":"hollowflower-seed","name":"母巢花籽","nameEn":"Hollowflower Seed","type":"weekly-boss","rarity":5,"source":"1.5异象巡礼「贵腐巢母」","sourceEn":"Version 1.5 Anomaly Pilgrimage: Corrupted Nest Mother"}
 ]

@@ -1027,6 +1027,78 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://nteguide.com/zh/materials/nestlings-longing/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/materials/nestlings-longing/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/materials/nestlings-longing/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/materials/doves-flutter/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/materials/doves-flutter/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/materials/doves-flutter/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/materials/olive-branch/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/materials/olive-branch/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/materials/olive-branch/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/materials/hollowflower-seed/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/materials/hollowflower-seed/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/materials/hollowflower-seed/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://nteguide.com/zh/faq/ps5-price-size-performance/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -6463,6 +6535,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://nteguide.com/zh/faq/nte-1-5-elyms-materials/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/faq/nte-1-5-elyms-materials/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/faq/nte-1-5-elyms-materials/</loc>
+    <lastmod>2026-11-20T11:54:43.150Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://nteguide.com/zh/lore/espers/</loc>
     <lastmod>2026-06-28T02:43:08.192545Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -9447,6 +9537,24 @@
   <url>
     <loc>https://nteguide.com/en/changelog/1.4/</loc>
     <lastmod>2026-09-30T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/zh/changelog/1.5/</loc>
+    <lastmod>2026-11-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/changelog/1.5/</loc>
+    <lastmod>2026-11-11T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/changelog/1.5/</loc>
+    <lastmod>2026-11-11T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

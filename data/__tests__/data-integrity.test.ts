@@ -90,8 +90,8 @@ describe("character-materials.json data integrity", () => {
     }
   });
 
-  it("has entries for 21 characters", () => {
-    expect(characterMaterialsData).toHaveLength(21);
+  it("has entries for 22 characters", () => {
+    expect(characterMaterialsData).toHaveLength(22);
   });
 
   it("no duplicate characterIds", () => {

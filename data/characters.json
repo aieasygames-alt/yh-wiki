@@ -9143,5 +9143,72 @@
       "anomaly": "S",
       "general": "S"
     }
+  },
+  {
+    "id": "elyms",
+    "name": "曳尔沐",
+    "nameEn": "Elyms",
+    "nameTw": "曳爾沐",
+    "attribute": "light",
+    "rank": "S",
+    "weapon": "固态",
+    "weaponEn": "Solid",
+    "role": "辅助/副输出",
+    "roleEn": "Support / Sub-DPS",
+    "faction": "异象管理局 E.T.D 六队",
+    "description": "1.5版本限定S级光属性角色，使用固态弧盘。曳尔沐围绕「信号强度」和「错视幻觉」循环，强化即瞬环合、全队攻击力与追加攻击，并在离场后持续进行追忆协同攻击。",
+    "descriptionEn": "Version 1.5 limited S-rank Light character using Solid Arcs. Elyms cycles Connection Strength and Optical Illusion to enable Instant Cycle, team ATK and Follow-up Attack buffs, then continues with off-field Remembrance coordinated attacks.",
+    "faq": [
+      {"question":"Is Elyms worth pulling?","questionZh":"曳尔沐值得抽吗？","answer":"Elyms is a premium Light support/sub-DPS for teams that use Instant Cycle, Charge, Remora, or Follow-up Attack effects. Her value depends on your current roster and the target banner rules; verify the in-client details before spending.","answerZh":"曳尔沐适合需要即瞬环合、充能、延滞或追加攻击的光属性队伍，是偏辅助与后台协同输出的限定角色。是否值得抽取取决于现有阵容和当前卡池规则，投入资源前请核对客户端详情。"},
+      {"question":"How does Elyms's Connection Strength work?","questionZh":"曳尔沐的信号强度怎么循环？","answer":"Elyms starts at Weak Connection. Her Support Skill or Intermittent Existence advances her to Medium and grants Optical Illusion; Goodbye to You consumes Optical Illusion and advances Medium to Strong. Cast the Ultimate at Strong Connection for the strongest cycle, then rebuild the sequence after it resets to Weak.","answerZh":"曳尔沐战斗开始处于弱信号。支援技能或「不连续的存在」可升至中等信号并获得错视幻觉；「对你说再见」消耗错视幻觉，并可将中等信号推进到强信号。建议在强信号时释放终结技，释放后信号会重置，再重新循环。"},
+      {"question":"What materials does Elyms need?","questionZh":"曳尔沐需要哪些养成材料？","answer":"Lv.80 ascension requires 525,000 Beetle Coins, 17 Fading Silhouette, 18 Blurred Silhouette, 15 Chaos Silhouette, and 86 Tear of the Sea. Maxing the four combat abilities requires 40 Nestling's Longing, 42 Dove's Flutter, 65 The Olive Branch, and 35 Hollowflower Seeds, plus additional Silhouettes and coins.","answerZh":"升到80级需要甲硬币525,000、褪色掠影17、失焦掠影18、晦暗掠影15、海之泪86。四项战斗能力升满还需要雏鸟的希冀40、白鸽的振翅42、橄榄枝65、母巢花籽35，以及额外掠影和甲硬币。"},
+      {"question":"What is Elyms's best build?","questionZh":"曳尔沐怎么配装？","answer":"Prioritize her Ultimate and Redirect Skill, then Basic Attack and Support Skill. Use Echoes on Hold as her signature Arc when available; otherwise use a high-ATK or off-field support Arc. Prioritize ATK, CRIT, Cosmos DMG, and Follow-up Attack support according to the team.","answerZh":"技能优先终结技，其次变轨技能，再考虑普攻和支援技能。有「静候彩铃」时优先使用专属弧盘；没有时选择高攻击或后台增益弧盘。词条按队伍需求优先攻击力、暴击、光属性伤害和追加攻击收益。"}
+    ],
+    "relatedCharacters": ["zhenhong", "akane", "illica", "haniel"],
+    "tierRank": "S",
+    "tierReason": "Version 1.5 Light support/sub-DPS with strong Instant Cycle access, team ATK and Follow-up Attack buffs, and off-field coordinated damage; final tier should be revalidated with live-server testing.",
+    "tierReasonZh": "1.5版本光属性辅助/副输出，能提供即瞬环合、全队攻击力与追加攻击增益，并在后台持续协同输出；最终强度仍需结合正式服实测复核。",
+    "skills": {
+      "normalAttack": {"name":"即时故障 / 错频故障","nameEn":"Instant Glitch / Crosstalk","description":"弱信号时最多五段攻击；中等或强信号时切换为最多三段攻击。弱信号普攻末段可解锁「不连续的存在」，中等或强信号普攻末段可解锁「对你说再见」。","descriptionEn":"Up to five attacks at Weak Connection, or three attacks at Medium/Strong Connection. The final hit unlocks Intermittent Existence at Weak, or Goodbye to You at Medium/Strong."},
+      "skill": {"name":"变轨·离去的人们 / 不连续的存在 / 对你说再见","nameEn":"Redirect · The Ones Who Left / Intermittent Existence / Goodbye to You","description":"基础变轨技能造成范围光属性伤害并回复环合值；强化变轨技能推进信号强度，获得或消耗错视幻觉，并根据附近目标数量选择单体或范围形态。","descriptionEn":"The base Redirect Skill deals area Light damage and restores the Instant Cycle meter. Enhanced Redirect Skills advance Connection Strength, grant or consume Optical Illusion, and select single-target or AoE form based on nearby targets."},
+      "ultimate": {"name":"极轨终结·你还记得吗？","nameEn":"Ultimate · Do You Get Deja Vu","description":"终结技倍率取决于施放时的信号强度；释放后重置为弱信号。全队获得基于曳尔沐基础攻击力的攻击力加成和追加攻击伤害加成，并开启后台追忆协同攻击。","descriptionEn":"The Ultimate's damage depends on Connection Strength at cast and resets Elyms to Weak Connection. It grants the team an ATK buff based on her Base ATK and Follow-up Attack DMG, then enables off-field Remembrance coordinated attacks."},
+      "qte": {"name":"支援·我在这里","nameEn":"Support · I'm Here","description":"造成光属性伤害；曳尔沐在弱信号时可借此升至中等信号并获得错视幻觉。","descriptionEn":"Deals Light damage and can advance Elyms from Weak to Medium Connection while granting Optical Illusion."},
+      "passives": [
+        {"name":"盈蓄强化","nameEn":"Relay Node Charge Enhancement","description":"站场角色获得极轨能量时，全队光属性伤害提高3.75%，持续30秒，最多8层。","descriptionEn":"Whenever the active character gains Ultimate Energy, increases the team's Light DMG by 3.75% for 30 seconds, up to 8 stacks."},
+        {"name":"延滞强化","nameEn":"Remora Enhancement","description":"队友施加延滞后，曳尔沐会在7.5秒后对同一目标补施一次延滞；该效果有冷却。","descriptionEn":"After an ally applies Remora, Elyms reapplies it to the same target after 7.5 seconds, subject to its cooldown."},
+        {"name":"被动特性","nameEn":"Passive Trait","description":"自身暴击伤害提高10%。","descriptionEn":"Increases Elyms's CRIT DMG by 10%."}
+      ],
+      "awakening": ["三觉可强化信号推进并缩短核心循环。","六觉可使全队伤害获得额外抗性穿透，并强化「对你说再见」的追加伤害。"],
+      "resonance": []
+    },
+    "recommendedBuild": {
+      "bestWeapon": "静候彩铃",
+      "bestWeaponEn": "Echoes on Hold",
+      "alternativeWeapons": ["放学后的时光", "震撼世界的雨", "迈向成功的第一步"],
+      "bestDiskSet": "失落光芒",
+      "bestDiskSetEn": "Lost Radiance",
+      "mainStats": {"slot1":"攻击力%","slot2":"光属性伤害/攻击力%","slot3":"暴击率或暴击伤害","slot4":"攻击力%"},
+      "mainStatsEn": {"slot1":"ATK%","slot2":"Light DMG / ATK%","slot3":"CRIT Rate or CRIT DMG","slot4":"ATK%"},
+      "subStatPriority": ["攻击力%","暴击率","暴击伤害","光属性伤害","追加攻击增益"],
+      "subStatPriorityEn": ["ATK%","CRIT Rate","CRIT DMG","Light DMG","Follow-up Attack support"]
+    },
+    "teamComps": [
+      {"name":"真红盈蓄队","nameEn":"Zhenhong Relay Team","members":["zhenhong","elyms","illica","akane"],"description":"真红站场输出，曳尔沐提供即瞬环合、光属性增益和后台追忆，伊洛伊提供治疗与增益，明音凛通过延滞帮助触发盈蓄循环。","descriptionEn":"Zhenhong carries on field while Elyms supplies Instant Cycle, Light buffs, and off-field Remembrance; Illica provides healing and buffs, and Akane helps maintain the Remora cycle."},
+      {"name":"通用光属性队","nameEn":"General Light Team","members":["zhenhong","elyms","haniel","baicang"],"description":"以曳尔沐和哈尼尔提供增益，白藏负责生存，适合尚未拥有完整延滞体系的玩家。","descriptionEn":"Elyms and Haniel provide buffs while Baicang covers survival; suitable when a full Remora setup is unavailable."}
+    ],
+    "image": "/images/characters/elyms.webp",
+    "availableAtLaunch": false,
+    "acquisitionMethod": "limited-board",
+    "status": "available",
+    "arcType": "solid",
+    "signatureArc": "echoes-on-hold",
+    "cvZh": "TBD",
+    "cvJp": "TBD",
+    "baseStats": {"baseHp": 15392,"baseAtk": 660,"baseDef": 909,"level": 80},
+    "tierByScene": {"abyss":"S","anomaly":"S","general":"S"},
+    "tierMulti": {"combat":"S","exploration":"A","appeal":"SS"},
+    "sourceUrl": "https://www.prydwen.gg/neverness-to-everness/characters/elyms",
+    "reviewedAt": "2026-11-20",
+    "verificationStatus": "confirmed"
   }
 ]

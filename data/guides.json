@@ -3902,5 +3902,33 @@
     "seoTitleTw": "異環1.3 Fogden、Duskmoor怎麼去？新地圖探索攻略",
     "seoDescriptionTw": "異環1.3 Fogden、Duskmoor解鎖、探索、活動與收集規劃。",
     "contentTw": "## 新區域重點\n\nFogden承接1.3新篇章，Duskmoor適合使用載具探索。先推主線開啟入口，再按活動期限安排收集。"
+  },
+  {
+    "id":"nte-1-5-elyms-build-guide",
+    "title":"异环1.5曳尔沐攻略：信号强度循环、技能优先级、材料与配队",
+    "titleEn":"NTE 1.5 Elyms Guide: Connection Strength, Skills, Materials and Teams",
+    "titleTw":"異環1.5曳爾沐攻略：信號強度循環、技能優先級、材料與配隊",
+    "seoTitleZh":"异环曳尔沐怎么培养？1.5技能循环、材料、配装与配队攻略",
+    "seoTitleEn":"NTE Elyms Build Guide: Skills, Materials, Arcs and Teams",
+    "seoTitleTw":"異環曳爾沐怎麼培養？1.5技能循環、材料與配隊攻略",
+    "category":"characters",
+    "categoryZh":"角色攻略",
+    "categoryEn":"Character Guide",
+    "summary":"曳尔沐是1.5限定S级光属性辅助/副输出，核心是弱—中—强信号循环、错视幻觉和终结技后的后台追忆。本文整理技能顺序、80级材料、专属弧盘和版本配队。",
+    "summaryEn":"Elyms is the Version 1.5 limited S-rank Light support/sub-DPS. This guide covers her Weak–Medium–Strong Connection cycle, Optical Illusion, Ultimate rotation, materials, signature Arc, and teams.",
+    "summaryTw":"曳爾沐是1.5限定S級光屬性輔助/副輸出，核心是弱—中—強信號循環、錯視幻覺與終結技後的後台追憶。",
+    "seoDescriptionZh":"异环曳尔沐技能怎么用、需要哪些材料、静候彩铃值不值得抽，以及真红和明音凛配队建议。",
+    "seoDescriptionEn":"How to use Elyms, farm her materials, evaluate Echoes on Hold, and build teams with Shinku and Akane Rin in NTE 1.5.",
+    "seoDescriptionTw":"異環曳爾沐技能循環、養成材料、靜候彩鈴與真紅配隊建議。",
+    "content":"## 角色定位\n\n曳尔沐是1.5限定S级光属性、固态弧盘角色，定位是辅助/副输出。她的价值不在长时间站场，而在快速推进信号强度、提供即瞬环合和全队增益，然后切到后台继续触发追忆协同攻击。\n\n## 信号强度循环\n\n战斗开始为弱信号。可以先用支援技能「我在这里」或强化变轨「不连续的存在」升到中等信号并获得错视幻觉；完成中等信号普攻后使用「对你说再见」，消耗错视幻觉并推进到强信号。建议在强信号时释放「你还记得吗？」，再切回主C。终结技后信号重置为弱信号，需要重新循环。\n\n## 技能优先级\n\n1. **极轨终结**：决定爆发伤害、全队攻击力和追加攻击增益，也是后台追忆的起点。\n2. **变轨技能**：负责回复环合值、推进信号和消耗错视幻觉。\n3. **普攻**：主要用于解锁强化变轨，不必优先投入所有资源。\n4. **支援技能**：用于快速从弱信号进入中等信号，按队伍循环补等级。\n\n## 材料与资源\n\n升到80级需要：甲硬币525,000、褪色掠影17、失焦掠影18、晦暗掠影15、海之泪86。四项战斗能力升满需要雏鸟的希冀40、白鸽的振翅42、橄榄枝65、母巢花籽35，以及额外掠影和甲硬币。母巢花籽来自1.5异象巡礼「贵腐巢母」，该内容需要先完成「雾巢游戏」。\n\n## 配装建议\n\n专属弧盘「静候彩铃」提供攻击力、追加攻击后的团队无视防御，以及变轨后的光属性抗性穿透，是最完整的辅助选择。没有专属弧盘时，优先使用高攻击力或能强化后台输出的弧盘。词条通常优先攻击力、暴击率/暴击伤害和光属性伤害；如果队伍已经有足够输出，再考虑辅助收益。\n\n## 配队建议\n\n### 真红盈蓄队\n\n真红 + 曳尔沐 + 伊洛伊 + 明音凛。真红负责站场输出，曳尔沐提供光属性增益和后台追忆，伊洛伊负责治疗与增益，明音凛帮助维持延滞相关循环。\n\n### 通用光属性队\n\n真红 + 曳尔沐 + 哈尼尔 + 白藏。没有完整延滞体系时，用哈尼尔提供增益、白藏提供生存，牺牲部分机制上限换取稳定性。\n\n## 抽取判断\n\n已有稳定光属性主C、喜欢后台协同和即瞬环合玩法的玩家，曳尔沐的优先级较高；如果账号缺少主C或资源不足以覆盖保底，应先比较真红返场和后续卡池。所有概率、保底、棋盘资格和区服规则以目标客户端为准。\n\n*本文技能、材料和配装整理自第三方数据库与攻略，强度结论仍需随正式服实战更新。最后复核：2026-11-20。*",
+    "contentEn":"## Role\n\nElyms is the Version 1.5 limited S-rank Light character using Solid Arcs. She is a support/sub-DPS rather than a long-field carry: build Connection Strength, provide Instant Cycle and team buffs, then swap out while Remembrance continues coordinated attacks.\n\n## Connection rotation\n\nShe starts at Weak Connection. Use I'm Here or Intermittent Existence to reach Medium Connection and gain Optical Illusion. After the Medium Connection basic combo, use Goodbye to You to consume Optical Illusion and advance to Strong Connection. Cast Do You Get Deja Vu at Strong Connection, then swap to the main DPS. Her Connection resets to Weak after the Ultimate, so repeat the cycle.\n\n## Skill priority\n\n1. **Ultimate** for burst damage, team ATK, Follow-up Attack support, and the Remembrance setup.\n2. **Redirect Skill** for meter recovery, Connection Strength, and Optical Illusion.\n3. **Basic Attack** mainly to unlock enhanced Redirect Skills.\n4. **Support Skill** for a fast Weak-to-Medium transition.\n\n## Materials\n\nLv.80 requires 525,000 Beetle Coins, 17 Fading Silhouette, 18 Blurred Silhouette, 15 Chaos Silhouette, and 86 Tear of the Sea. Maxing the four combat abilities requires 40 Nestling's Longing, 42 Dove's Flutter, 65 The Olive Branch, 35 Hollowflower Seeds, additional Silhouettes, and Beetle Coins. Hollowflower Seeds come from the Version 1.5 Corrupted Nest Mother Anomaly Pilgrimage after the Fog Nest Game story requirement.\n\n## Build\n\nEchoes on Hold is her most complete support Arc: it adds ATK, team DEF Ignore after Follow-up Attacks, and Cosmos resistance penetration after a Redirect Skill. Without it, use an ATK-focused or off-field support Arc. Prioritize ATK, CRIT, Light DMG, and team-specific Follow-up support.\n\n## Teams\n\n**Zhenhong Relay Team:** Zhenhong + Elyms + Illica + Akane Rin. Zhenhong stays on field while Elyms supplies Light buffs and off-field Remembrance; Illica heals and buffs, and Akane helps maintain the Remora cycle.\n\n**General Light Team:** Zhenhong + Elyms + Haniel + Baicang. This trades some ceiling for stable buffs and survival when a full Remora setup is unavailable.\n\n## Pull decision\n\nElyms has higher value for accounts with a built Light carry that want off-field coordination or Instant Cycle access. If the account still lacks a main DPS or cannot cover the banner pity, compare her board with the Shinku rerun and future savings. Verify all banner rules and server eligibility in the client.\n\n*Skills, materials, and build data are compiled from third-party databases and guides; the tier conclusion should be updated after live-server testing. Reviewed November 20, 2026.*",
+    "contentTw":"## 角色定位\n\n曳爾沐是1.5限定S級光屬性、固態弧盤角色，定位是輔助/副輸出。她的重點不是長時間站場，而是推進信號強度、提供即瞬環合與全隊增益，再切到後台觸發追憶協同攻擊。\n\n## 信號循環\n\n戰鬥開始為弱信號。使用支援技能或「不連續的存在」升至中等信號並取得錯視幻覺；完成中等信號普攻後使用「對你說再見」，消耗錯視幻覺並推進至強信號。強信號時釋放終結技，再切回主C。終結技後會重置為弱信號。\n\n## 技能與養成\n\n技能優先終結技，其次變軌技能，再升普攻與支援技能。80級需要甲硬幣525,000、褪色掠影17、失焦掠影18、晦暗掠影15、海之淚86；四項戰鬥能力升滿還需要雛鳥的希冀40、白鴿的振翅42、橄欖枝65、母巢花籽35，以及額外掠影與甲硬幣。\n\n專屬弧盤「靜候彩鈴」最完整；沒有時優先選攻擊力或後台增益弧盤。真紅＋曳爾沐＋伊洛伊＋明音凛是完整光屬性與延滯循環隊，沒有明音凛時可用哈尼爾與白藏組成較穩定的替代隊。\n\n*技能、材料與配裝整理自第三方資料庫和攻略，強度結論仍需隨正式服實戰更新。最後復核：2026-11-20。*",
+    "tags":["1.5","elyms","曳尔沐","角色攻略","光属性","配队"],
+    "relatedCharacters":["elyms","zhenhong","illica","akane"],
+    "relatedLocations":[],
+    "relatedLore":[],
+    "faq":[],
+    "date":"2026-11-20",
+    "sourceUrl":"https://www.prydwen.gg/neverness-to-everness/characters/elyms"
   }
 ]

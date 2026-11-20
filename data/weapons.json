@@ -964,5 +964,30 @@
     "signatureCharacter": "",
     "status": "available",
     "image": "/images/weapons/us.webp"
+  },
+  {
+    "id": "echoes-on-hold",
+    "name": "静候彩铃",
+    "nameTw": "靜候彩鈴",
+    "nameEn": "Echoes on Hold",
+    "rank": "S",
+    "type": "solid",
+    "baseAtk": 570,
+    "substat": "critRate",
+    "substatValue": "24%",
+    "effectName": "回拨留言",
+    "effectNameTw": "回撥留言",
+    "effectNameEn": "Voicemail #Redial",
+    "effectDescription": "攻击力提高15%。终结技造成3次追加攻击伤害后，为全队提供无视防御效果；施放变轨技能后提高全队光属性抗性穿透。效果在进入战斗时触发。具体数值按阶位变化。",
+    "effectDescriptionTw": "攻擊力提高15%。終結技造成3次追加攻擊傷害後，為全隊提供無視防禦效果；施放變軌技能後提高全隊光屬性抗性穿透。效果在進入戰鬥時觸發。具體數值按階位變化。",
+    "effectDescriptionEn": "Increases ATK by 15%. After the wearer deals Follow-up Attack DMG three times after casting the Ultimate, grants team DEF Ignore and additional DEF Ignore to the wearer. Casting a Redirect Skill grants team Light Resistance Penetration. Effects trigger on entering combat; values vary by rank.",
+    "howToObtain": "limited-research",
+    "howToObtainZh": "1.5「回音特刊」弧盘研募计划",
+    "howToObtainEn": "Version 1.5 Echo Special Edition Arc Research Program",
+    "signatureCharacter": "elyms",
+    "status": "available",
+    "image": "/images/weapons/echoes-on-hold.webp",
+    "sourceUrl": "https://game8.co/games/Neverness-to-Everness/archives/638186",
+    "reviewedAt": "2026-11-20"
   }
 ]
