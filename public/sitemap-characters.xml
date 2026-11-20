@@ -810,4 +810,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://nteguide.com/zh/characters/elyms/</loc>
+    <lastmod>2026-11-20T11:54:43.147Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/tw/characters/elyms/</loc>
+    <lastmod>2026-11-20T11:54:43.147Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nteguide.com/en/characters/elyms/</loc>
+    <lastmod>2026-11-20T11:54:43.147Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

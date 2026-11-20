@@ -86,7 +86,7 @@ describe("late Version 1.3 player-decision content", () => {
 
   it("keeps a reviewed version-operations checklist with explicit status", () => {
     expect(operations.reviewedAt).toBeTruthy();
-    expect(operations.currentVersion).toBe("1.4");
+    expect(operations.currentVersion).toBe("1.5");
     expect(operations.checklist.length).toBeGreaterThanOrEqual(4);
     expect(operations.checklist.map((item) => item.status)).toEqual(expect.arrayContaining(["confirmed", "live", "watch"]));
   });
@@ -112,7 +112,7 @@ describe("late Version 1.3 player-decision content", () => {
   });
 
   it("uses the reviewed date as a boundary for live decision data", () => {
-    expect(operations.reviewedAt).toBe("2026-11-08");
+    expect(operations.reviewedAt).toBe("2026-11-20");
     expect(changelogsData.find((changelog) => changelog.version === operations.currentVersion)?.verificationStatus).toBe("live");
   });
 
@@ -143,7 +143,7 @@ describe("late Version 1.3 player-decision content", () => {
   it("indexes current decision content in every supported locale", () => {
     const searchIndex = require("../../public/search-index.json");
     const settings = searchIndex.filter((item: { id: string }) => item.id === "nte-best-settings-guide");
-    const livePatch = searchIndex.filter((item: { id: string }) => item.id === "1.4");
+    const livePatch = searchIndex.filter((item: { id: string }) => item.id === "1.5");
     expect(settings).toHaveLength(3);
     expect(settings.map((item: { url: string }) => item.url)).toEqual(expect.arrayContaining([
       "/zh/blog/nte-best-settings-guide/",

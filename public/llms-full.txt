@@ -1,9 +1,9 @@
 # nteguide.com — Full Content Index
 
 > Machine-readable content index for AI crawlers.
-> Generated: 2026-10-23
+> Generated: 2026-11-20
 
-## Characters (45)
+## Characters (46)
 - [娜娜莉 / Nanally](/en/characters/nanally/) — S-rank anima Attack
 - [咲里 / Sakiri](/en/characters/sakiri/) — S-rank incantation Support
 - [法蒂亚 / Fadia](/en/characters/fadia/) — S-rank psyche Attack
@@ -49,8 +49,9 @@
 - [真红 / Zhenhong](/en/characters/zhenhong/) — S-rank light Attack
 - [残虹 / Canhong](/en/characters/canhong/) — S-rank curse Attack
 - [妮夏 / Nixia](/en/characters/nixia/) — S-rank cosmos Support
+- [曳尔沐 / Elyms](/en/characters/elyms/) — S-rank light Support / Sub-DPS
 
-## Weapons (42)
+## Weapons (43)
 - [引爆全场 / Blow up the Crowd](/en/weapons/blow-up-the-crowd/) — S-rank solid ATK 512
 - [茶花会 / Camellia Society](/en/weapons/camellia-society/) — S-rank synthesis ATK 666
 - [思考喵 / Contemplative Cat](/en/weapons/contemplative-cat/) — S-rank gas ATK 512
@@ -93,8 +94,9 @@
 - [危险游戏 / Dangerous Game](/en/weapons/dangerous-game/) — B-rank synthesis ATK 380
 - [成功的第一步 / First Step to Success](/en/weapons/first-step-to-success/) — B-rank solid ATK 380
 - [我们。 / Us.](/en/weapons/us/) — B-rank plasma ATK 380
+- [静候彩铃 / Echoes on Hold](/en/weapons/echoes-on-hold/) — S-rank solid ATK 570
 
-## Guides (104)
+## Guides (105)
 - [异环1.3链子抽卡规划：资源盘点、保底边界与队伍适配](/en/guides/nte-1-3-linko-pull-planning/) — Character Guide (updated 2026-09-29)
 - [异环1.3 Fogden与Duskmoor收尾路线：活动、传送点与收集优先级](/en/guides/nte-1-3-fogden-duskmoor-cleanup-route/) — Exploration (updated 2026-09-29)
 - [异环下载与安装指南 - 官网入口、PC启动器、手机、PS5、Steam和云异环](/en/guides/download-install-guide/) — Beginner (updated 2026-04-29)
@@ -102,7 +104,7 @@
 - [角色升级材料优先级指南](/en/guides/leveling-priority/) — Beginner (updated 2026-04-30)
 - [异能循环（Esper Cycle）机制详解](/en/guides/elemental-reactions/) — Combat (updated 2026-05-25)
 - [体力管理最优策略](/en/guides/stamina-management/) — Beginner (updated 2026-05-01)
-- [每日必做任务清单](/en/guides/daily-routine/) — Beginner (updated 2026-04-29)
+- [每日任务与体力分配参考](/en/guides/daily-routine/) — Beginner (updated 2026-04-29)
 - [抽卡策略与保底机制](/en/guides/gacha-strategy/) — Advanced (updated 2026-04-29)
 - [历史公测配队记录 — 阵容思路与版本适用性](/en/guides/team-building/) — Combat (updated 2026-04-29)
 - [开放世界探索技巧](/en/guides/exploration-tips/) — Exploration (updated 2026-04-29)
@@ -120,14 +122,14 @@
 - [全武器排行榜](/en/guides/weapon-tier-list/) — Tier List (updated 2026-04-29)
 - [刷初始指南（详细版）](/en/guides/reroll-guide-detailed/) — Beginner (updated 2026-04-29)
 - [系统要求与优化指南](/en/guides/performance-guide/) — Advanced (updated 2026-04-29)
-- [活动攻略汇总](/en/guides/event-guides/) — Advanced (updated 2026-04-29)
+- [异环活动攻略汇总 — 按状态与开放时间查看](/en/guides/event-guides/) — Advanced (updated 2026-04-29)
 - [全角色天赋优先级](/en/guides/talent-priority/) — Advanced (updated 2026-04-29)
 - [异象副本攻略](/en/guides/anomaly-dungeon/) — Combat (updated 2026-04-29)
 - [PVP/竞技攻略](/en/guides/pvp-guide/) — Combat (updated 2026-04-29)
 - [收集品全位置](/en/guides/collectibles-guide/) — Exploration (updated 2026-04-29)
 - [赚钱/刷材料效率路线](/en/guides/farming-route/) — Advanced (updated 2026-04-29)
 - [版本更新日志](/en/guides/patch-notes/) — Advanced (updated 2026-04-29)
-- [弧盘系统完全攻略 — S级弧盘获取与搭配推荐](/en/guides/arc-disc-guide/) — Equipment (updated 2026-04-29)
+- [弧盘系统参考 — 获取、搭配与当前规则核验](/en/guides/arc-disc-guide/) — Equipment (updated 2026-04-29)
 - [异环队伍搭配推荐 — 最强阵容组合攻略](/en/guides/team-composition-guide/) — Combat (updated 2026-04-29)
 - [异环全Boss攻略 — 弱点分析与打法详解](/en/guides/boss-guide-comprehensive/) — Combat (updated 2026-04-29)
 - [异环房屋系统攻略 — 买房装修与收益指南](/en/guides/housing-system-guide/) — Beginner (updated 2026-04-29)
@@ -137,10 +139,10 @@
 - [异环拍照模式详解 — 构图技巧与隐藏功能](/en/guides/photo-mode-guide/) — Exploration (updated 2026-04-29)
 - [娜娜莉完全攻略 — T0级猫族格斗家配队/弧盘/磁盘推荐](/en/guides/nanally-guide/) — Character Guide (updated 2026-04-29)
 - [九原完全攻略 — T0级聚怪副C配队/弧盘/磁盘推荐](/en/guides/jiuyuan-guide/) — Character Guide (updated 2026-04-29)
-- [异环6选1自选角色攻略 — 哪个角色最值得选？](/en/guides/character-selector-guide/) — Beginner (updated 2026-04-29)
+- [异环6选1自选角色攻略 — 按账号缺口做选择](/en/guides/character-selector-guide/) — Beginner (updated 2026-04-29)
 - [白藏完全攻略 — T1级泛用输出配队/弧盘/磁盘推荐](/en/guides/baicang-guide/) — Character Guide (updated 2026-04-29)
 - [薄荷完全攻略 — 高适配性首发辅助配队/弧盘/磁盘推荐](/en/guides/mint-guide/) — Character Guide (updated 2026-04-29)
-- [弧盘(武器)强度排行 — 公测最新T0-T2弧盘推荐](/en/guides/arc-tier-list/) — Equipment (updated 2026-04-29)
+- [弧盘(武器)强度参考 — 按定位与版本比较](/en/guides/arc-tier-list/) — Equipment (updated 2026-04-29)
 - [磁盘套装详细数据表 — 全套装效果与搭配推荐](/en/guides/disk-set-guide/) — Equipment (updated 2026-04-29)
 - [异环赚钱攻略 — 信用点/方斯最优获取路线](/en/guides/money-making-guide/) — Farming (updated 2026-04-29)
 - [商店兑换优先级攻略 — 各商店最优兑换顺序](/en/guides/shop-exchange-guide/) — Farming (updated 2026-04-29)
@@ -149,7 +151,7 @@
 - [异环羁遇系统完全攻略：角色好感度、同居与社交互动](/en/guides/bond-system-guide/) — Game Systems (updated 2026-06-19)
 - [异环游乐园/向阳岛探索攻略：全收集、宝箱位置与隐藏内容](/en/guides/amusement-park-exploration-guide/) — Exploration (updated 2026-06-04)
 - [异环×保时捷联动完全攻略：限定车辆时装获取与活动奖励](/en/guides/porsche-collab-guide/) — Events (updated 2026-06-04)
-- [安魂曲完全攻略 — T0混沌属性主C配队/弧盘/磁盘推荐](/en/guides/lacrimosa-build-guide/) — Character Guide (updated 2026-06-01)
+- [安魂曲攻略 — 混沌属性主C配队与装备参考](/en/guides/lacrimosa-build-guide/) — Character Guide (updated 2026-06-01)
 - [卡厄斯完全攻略 — S级相属性爆发主C配队/弧盘/磁盘推荐](/en/guides/chaos-build-guide/) — Character Guide (updated 2026-06-01)
 - [达芙迪尔完全攻略 — S级混沌Boss杀手配队/弧盘/磁盘推荐](/en/guides/daffodil-build-guide/) — Character Guide (updated 2026-06-01)
 - [哈索尔完全攻略 — S级相属性爆发输出配队/弧盘/磁盘推荐](/en/guides/hathor-build-guide/) — Character Guide (updated 2026-06-01)
@@ -199,15 +201,16 @@
 - [异环999夜速刷攻略：神秘纽扣怎么刷、周回路线与队伍选择](/en/guides/nine-hundred-ninety-nine-nights-farming-guide/) — Farming (updated 2026-08-04)
 - [异环1.3赞空与链子攻略：卡池时间、属性定位与抽卡规划](/en/guides/nte-1-3-zankou-linko-guide/) — Character Guide (updated 2026-09-13)
 - [异环1.3 Fogden与Duskmoor探索攻略：新区域、活动与收集路线](/en/guides/nte-1-3-fogden-duskmoor-exploration-guide/) — Exploration (updated 2026-09-13)
+- [异环1.5曳尔沐攻略：信号强度循环、技能优先级、材料与配队](/en/guides/nte-1-5-elyms-build-guide/) — Character Guide (updated 2026-11-20)
 
-## FAQ (311)
+## FAQ (312)
 - How much does NTE cost on PS5? What's the download size? How does it perform?
-- Version 1.4 is live: what are the current NTE events?
+- What is in NTE Version 1.4 Phase 2, and when will 1.5 be officially announced?
 - Is Linko worth pulling in NTE 1.3 and how should you plan pity?
 - What should you do first in Fogden and Duskmoor, and how should you order exploration?
 - Are there active NTE redeem codes now, and how do you avoid missing them?
 - Can you play NTE on Steam Deck? Compatibility and optimization settings
-- Where to enter redeem codes in NTE? How to redeem? Latest codes list
+- Where do you enter NTE redeem codes, and how do you verify current codes?
 - How to level up characters fast in NTE?
 - Where are material domains in NTE?
 - How to get Credits in NTE?
@@ -268,7 +271,7 @@
 - What is Collapse (Qingxian) in NTE? How to trigger Break?
 - What is Ring Fusion (Huanhe) in NTE? How to trigger it?
 - How many elements does NTE have? What is the weakness chart?
-- Which A-rank characters are best in NTE? A-rank worth building
+- How should you choose A-rank characters in NTE? Which fit your current roster?
 - Is Mint (Bohuo) worth building in NTE?
 - Does NTE have a housing system? How to buy and decorate a home?
 - What is the Shop Manager system in NTE? How to auto-farm currency?
@@ -379,7 +382,7 @@
 - What is the next banner in NTE? Upcoming limited character schedule
 - What is the best team comp for Hathor in NTE? Recommended teams
 - What is the best Daffodil team comp in NTE? Recommended teams
-- What new characters are coming to NTE after Version 1.2?
+- How should you verify older NTE character previews, and what is officially confirmed for 1.5?
 - Where are Safe Locations in NTE? How to unlock safe houses?
 - What is the Camellia Society in NTE? How to join?
 - How to trigger Lost Tales in NTE? Hidden story guide
@@ -413,10 +416,10 @@
 - What are the elements/attributes in NTE? Element counter system guide
 - How to play Mahjong in NTE? Minigame rules and tips
 - How to trigger and complete Puppet Piano event in NTE?
-- How to complete 'Whose Leak Is This' quest in NTE? Full guide
+- How should you verify the NTE 'Whose Leak Is This' record?
 - Can you change gender in NTE? How to switch protagonist gender
 - NTE voice actors list — All character JP/CN/EN voice cast
-- What is the NTE character tier list? Who is the strongest character?
+- How should you read the NTE character tier list and judge by version and scenario?
 - What are the NTE gacha rates? What is the S-Rank pull rate?
 - Does NTE have a romance system? Can you date characters?
 - How to get the Blue Flame motorcycle in NTE?
@@ -512,5 +515,6 @@
 - When are the Zankou and Linko banners in NTE 1.3?
 - How do you unlock Fogden and Duskmoor in NTE 1.3?
 - What is Stillmeadow House used for in NTE 1.3?
+- What materials does Elyms need in NTE 1.5?
 
 ## Active Redeem Codes (0)

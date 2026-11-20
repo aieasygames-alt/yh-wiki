@@ -128,7 +128,7 @@ export default async function EventsPage({
         {/* Current limited events */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-4">
-            {isZh ? "当前 1.4 活动（官方公告）" : "Current Version 1.4 Events (Official Notice)"}
+            {isZh ? "当前 1.5 活动（官方公告）" : "Current Version 1.5 Events (Official Notice)"}
           </h2>
           <p className="text-xs text-gray-500 mb-4">
             {isZh ? "以下时间适用于公告所列服务器时间；请以目标区服客户端倒计时和活动页为最终依据。" : "The windows below follow the official notice's server time; use the target server's in-game countdown as the final source."}
@@ -139,14 +139,14 @@ export default async function EventsPage({
             rel="noreferrer"
             className="text-xs text-primary-400 hover:text-primary-300"
           >
-            {isZh ? "查看官方 10 月 21 日公告" : "Read the official October 21 notice"}
+            {isZh ? "查看官方 11 月 9 日公告" : "Read the official November 9 notice"}
           </a>
           <div className="space-y-4">
             {visibleEvents.map((event) => (
               <div key={event.id} className="rounded-xl border border-primary-500/20 bg-primary-500/5 p-5">
                 <div className="flex flex-wrap items-center gap-3 mb-2">
                   <span className="text-[10px] px-2 py-0.5 rounded border bg-primary-500/20 text-primary-300 border-primary-500/30">
-                    {isZh ? `1.4 当前活动 · ${event.endAt ? "限时" : "常驻"}` : `Version 1.4 · ${event.endAt ? "Limited" : "Ongoing"}`}
+                    {isZh ? `1.5 当前活动 · ${event.endAt ? "限时" : "常驻"}` : `Version 1.5 · ${event.endAt ? "Limited" : "Ongoing"}`}
                   </span>
                   <h3 className="text-sm font-semibold">{isZh ? event.titleZh : event.titleEn}</h3>
                 </div>

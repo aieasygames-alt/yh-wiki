@@ -334,5 +334,19 @@
       { "id": "basic-hunter-guide", "quantity": 15 },
       { "id": "credits", "quantity": 200000 }
     ]
+  },
+  {
+    "characterId":"elyms",
+    "levelingMaterials":[
+      {"levelRange":"20-30","materials":[{"id":"credits","quantity":25000},{"id":"fading-silhouette","quantity":5}]},
+      {"levelRange":"30-40","materials":[{"id":"credits","quantity":50000},{"id":"fading-silhouette","quantity":12},{"id":"tear-of-the-sea","quantity":2}]},
+      {"levelRange":"40-50","materials":[{"id":"credits","quantity":75000},{"id":"blurred-silhouette","quantity":6},{"id":"tear-of-the-sea","quantity":8}]},
+      {"levelRange":"50-60","materials":[{"id":"credits","quantity":100000},{"id":"blurred-silhouette","quantity":12},{"id":"tear-of-the-sea","quantity":16}]},
+      {"levelRange":"60-70","materials":[{"id":"credits","quantity":125000},{"id":"chaos-silhouette","quantity":6},{"id":"tear-of-the-sea","quantity":24}]},
+      {"levelRange":"70-80","materials":[{"id":"credits","quantity":150000},{"id":"chaos-silhouette","quantity":9},{"id":"tear-of-the-sea","quantity":36}]}
+    ],
+    "skillMaterials":[{"id":"nestlings-longing","quantity":40},{"id":"doves-flutter","quantity":42},{"id":"olive-branch","quantity":65},{"id":"hollowflower-seed","quantity":35},{"id":"fading-silhouette","quantity":40},{"id":"blurred-silhouette","quantity":40},{"id":"chaos-silhouette","quantity":79},{"id":"credits","quantity":1748000}],
+    "sourceUrl":"https://pity.gg/neverness-to-everness/characters/elyms",
+    "reviewedAt":"2026-11-20"
   }
 ]

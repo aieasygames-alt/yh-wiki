@@ -8540,5 +8540,27 @@
     "seoTitleZh": "异环1.3 Stillmeadow House房产怎么用？种田换Fons", "seoTitleEn": "NTE 1.3 Stillmeadow House Farming Guide",
     "seoDescriptionZh": "异环1.3 Stillmeadow House购买、种植、城市体力和Fons收益说明。", "seoDescriptionEn": "Stillmeadow House purchase, farming, City Stamina, and Fons guide for NTE 1.3.",
     "seoTitleTw": "異環1.3 Stillmeadow House房產怎麼用？", "seoDescriptionTw": "異環1.3 Stillmeadow House購買、種植與Fons收益說明。"
+  },
+  {
+    "id":"nte-1-5-elyms-materials",
+    "question":"异环1.5曳尔沐需要哪些材料？",
+    "questionEn":"What materials does Elyms need in NTE 1.5?",
+    "questionTw":"異環1.5曳爾沐需要哪些材料？",
+    "answer":"曳尔沐升到80级需要甲硬币525,000、褪色掠影17、失焦掠影18、晦暗掠影15、海之泪86。四项战斗能力升满还需要雏鸟的希冀40、白鸽的振翅42、橄榄枝65、母巢花籽35，以及额外掠影和甲硬币。数量来自第三方资料整理，刷取前请以目标区服客户端显示为准。",
+    "answerEn":"Elyms needs 525,000 Beetle Coins, 17 Fading Silhouette, 18 Blurred Silhouette, 15 Chaos Silhouette, and 86 Tear of the Sea for Lv.80. Maxing the four combat abilities additionally requires 40 Nestling's Longing, 42 Dove's Flutter, 65 The Olive Branch, and 35 Hollowflower Seeds, plus more Silhouettes and coins. These totals are compiled from third-party data; verify the target server client before farming.",
+    "answerTw":"曳爾沐升至80級需要甲硬幣525,000、褪色掠影17、失焦掠影18、晦暗掠影15、海之淚86。四項戰鬥能力升滿還需要雛鳥的希冀40、白鴿的振翅42、橄欖枝65、母巢花籽35，以及額外掠影與甲硬幣。刷取前請以目標伺服器客戶端為準。",
+    "category":"characters",
+    "categoryZh":"角色",
+    "categoryEn":"Characters",
+    "categoryTw":"角色",
+    "tags":["1.5","elyms","materials","曳尔沐"],
+    "relatedCharacters":["elyms"],
+    "relatedMaterials":["tear-of-the-sea","fading-silhouette","blurred-silhouette","chaos-silhouette","nestlings-longing","doves-flutter","olive-branch","hollowflower-seed"],
+    "seoTitleZh":"异环曳尔沐材料清单：80级突破与技能素材总数",
+    "seoTitleEn":"NTE Elyms Materials: Full Ascension and Skill List",
+    "seoTitleTw":"異環曳爾沐材料清單：80級突破與技能素材",
+    "seoDescriptionZh":"曳尔沐80级突破、技能升级所需材料和获取来源，标注第三方数据与客户端复核边界。",
+    "seoDescriptionEn":"Elyms Lv.80 ascension and skill materials with farming sources and a third-party data disclaimer.",
+    "seoDescriptionTw":"曳爾沐80級突破、技能升級材料與取得來源。"
   }
 ]
