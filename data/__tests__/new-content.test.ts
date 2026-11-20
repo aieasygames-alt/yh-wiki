@@ -75,8 +75,8 @@ describe("late Version 1.3 player-decision content", () => {
 
   it("keeps next-version FAQ claims explicitly verified", () => {
     expect(nextVersionFaq).toBeDefined();
-    expect(nextVersionFaq!.answer).toContain("官方已确认");
-    expect(nextVersionFaq!.answerEn).toContain("Official notices confirm");
+    expect(nextVersionFaq!.answer).toContain("官方1.5公告确认");
+    expect(nextVersionFaq!.answerEn).toContain("official Version 1.5 notice confirms");
     expect(nextVersionFaq!.tags).toContain("官方公告");
   });
 
