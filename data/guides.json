@@ -3930,5 +3930,33 @@
     "faq":[],
     "date":"2026-11-20",
     "sourceUrl":"https://www.prydwen.gg/neverness-to-everness/characters/elyms"
+  },
+  {
+    "id":"nte-1-5-events-rewards-guide",
+    "title":"异环1.5活动日历与奖励攻略：棋盘、活动、盲盒和资源优先级",
+    "titleEn":"NTE 1.5 Event Calendar and Rewards Guide",
+    "titleTw":"異環1.5活動日曆與獎勵攻略：棋盤、活動、盲盒與資源優先級",
+    "seoTitleZh":"异环1.5活动日历：曳尔沐棋盘、真红返场、活动奖励与截止时间",
+    "seoTitleEn":"NTE 1.5 Event Calendar: Elyms, Shinku Rerun and Rewards",
+    "seoTitleTw":"異環1.5活動日曆：曳爾沐棋盤、真紅復刻與活動獎勵",
+    "category":"events",
+    "categoryZh":"活动攻略",
+    "categoryEn":"Events",
+    "summary":"整理官方1.5公告确认的角色棋盘、弧盘研募、签到、车辆、钓鱼、像素溢出和夺金活动，区分公告时间与仍需客户端复核的资格、奖励和服务器规则。",
+    "summaryEn":"A Version 1.5 event hub covering the officially announced boards, Arc research, login, vehicle, fishing, Pixel Overflow, and Gold Rush activities, while separating published windows from client-only eligibility and reward checks.",
+    "summaryTw":"整理官方1.5公告確認的角色棋盤、弧盤研募、簽到、車輛、釣魚、像素溢出與奪金活動，並區分公告時間與仍需客戶端核對的資格、獎勵和伺服器規則。",
+    "seoDescriptionZh":"异环1.5活动日历与奖励汇总，包含曳尔沐、真红返场、静候彩铃、征途坦荡、渔获大作战和像素溢出。",
+    "seoDescriptionEn":"NTE Version 1.5 event dates and rewards for Elyms, Shinku rerun, Echoes on Hold, Open Roads Ahead, Fishing Operation, and Pixel Overflow.",
+    "seoDescriptionTw":"異環1.5活動時間與獎勵整理，包含曳爾沐、真紅復刻、靜候彩鈴、征途坦蕩、漁獲大作戰與像素溢出。",
+    "content":"## 先看结论\n\n1.5的限时内容很多，建议先处理有明确结束时间的棋盘、弧盘研募和活动商店，再安排常驻或可重复内容。本文只整理官方公告已经确认的版本信息；实际资格、奖励数量、服务器时间和客户端显示仍需进入目标区服复核。\n\n## 角色棋盘与弧盘研募\n\n- **电子人之梦**：11月11日版本更新后至12月2日05:59（UTC+8），可获取限定S级角色曳尔沐，并包含相关装扮与载具涂装。\n- **破晓前**：同一时间窗口，限定S级角色真红返场；该棋盘的礼遇计数独立记录。\n- **静候彩铃**：限定S级弧盘，通过「回音特刊」弧盘研募计划获取，活动结束后官方公告未提供其他获取途径。\n- **穿过胭红蜃景**：与真红返场对应的限定弧盘研募内容，具体规则以客户端研募界面为准。\n\n不要把两个角色棋盘的礼遇计数混合规划；角色、弧盘和棋盘的保底/进度规则也不要跨类型套用。\n\n## 活动时间表\n\n| 活动 | 公告时间窗口 | 建议 |\n|---|---|---|\n| 环期赠礼 | 版本更新后–12月23日05:59 | 先完成签到和可领取奖励 |\n| 运通全城 | 版本更新后–12月23日05:59 | 与车辆和城市玩法一起安排 |\n| 争锋赏宴·攻坚 | 版本更新后–12月23日05:59 | 先确认积分和称号奖励 |\n| 征途坦荡 | 11月19日10:00–12月23日05:59 | 兑换商店奖励优先 |\n| 像素溢出 | 11月16日05:00–11月23日04:59 | 注意每日120次、活动累计840次额度 |\n| 渔获大作战 | 11月23日05:00–12月23日05:59 | 活动开启后再规划捕鱼等级 |\n| 夺金大作战 | 11月23日05:00–12月7日04:59 | 截止前清理双倍方斯收益 |\n| 集市分福 | 版本更新后–12月23日05:59 | 进度达到5100可解锁流动占卜屋 |\n\n## 推荐清理顺序\n\n1. 领取签到、版本邮件和已达成的阶段奖励。\n2. 检查两个角色棋盘和两个弧盘研募的结束倒计时，先处理即将结束的一项。\n3. 在像素溢出和夺金大作战结束前使用对应额度。\n4. 进入征途坦荡、渔获大作战和活动商店，兑换环石、方斯、骰子和养成材料。\n5. 最后再做地图清理、常驻玩法和非限时收集。\n\n## 仍需正式服复核的内容\n\n以下内容不能只依赖公告或第三方攻略：实际棋盘概率、保底继承、区服结束时间、活动商店完整奖励、角色资格、资源溢出后的具体界面和奖励领取条件。本文不将这些字段写成确定结论；玩家应以目标区服客户端为准。\n\n*官方来源：1.5版本更新公告。本文最后编辑：2026-11-20。*",
+    "contentEn":"## Summary\n\nVersion 1.5 has many time-limited activities. Handle boards, Arc research, and exchange shops with the nearest deadlines first, then schedule repeatable or permanent content. This guide records officially announced windows only; eligibility, exact rewards, server times, and client rules still require target-server verification.\n\n## Boards and Arc research\n\n- **Android Dreams**: From the Version 1.5 update through December 2, 05:59 (UTC+8), featuring limited S-rank Elyms and related cosmetics.\n- **Before Dawn**: The Shinku rerun in the same window; its Perks progress is tracked independently.\n- **Echoes on Hold**: Limited S-rank Arc from the Echo Special Edition research program; the official notice gives no alternate source after the event.\n- **Through the Crimson Mirage**: The limited Arc research content paired with the Shinku rerun; verify the exact rules in the in-client research screen.\n\nDo not combine Perks progress between boards or transfer pity rules between character and Arc research types.\n\n## Event schedule\n\n| Event | Published window | Priority |\n|---|---|---|\n| Circle Gifts | Update–Dec 23, 05:59 | Claim login and milestone rewards first |\n| City Logistics | Update–Dec 23, 05:59 | Pair with vehicle and city activities |\n| Feast of Blades: Assault | Update–Dec 23, 05:59 | Check score and title rewards |\n| Open Roads Ahead | Nov 19, 10:00–Dec 23, 05:59 | Spend event currency in the shop |\n| Pixel Overflow | Nov 16, 05:00–Nov 23, 04:59 | Track the 120-per-day and 840-total limits |\n| Fishing Operation | Nov 23, 05:00–Dec 23, 05:59 | Plan after the event opens |\n| Gold Rush | Nov 23, 05:00–Dec 7, 04:59 | Clear the double-Fons window before it ends |\n| Fortune's Bounty | Update–Dec 23, 05:59 | Reach 5,100 progress for the Pop-Up Divination House |\n\n## Recommended order\n\n1. Claim login, mail, and completed milestone rewards.\n2. Check the countdowns for the two boards and two Arc research programs, starting with the nearest deadline.\n3. Spend Pixel Overflow and Gold Rush allowances before their windows close.\n4. Clear Open Roads Ahead, Fishing Operation, and exchange shops for Annulith, Fons, dice, and growth materials.\n5. Leave map cleanup, permanent modes, and non-limited collectibles for last.\n\n## What still needs live-client verification\n\nBoard rates, pity carry-over, regional end times, complete shop inventories, eligibility, overflow UI behavior, and reward conditions cannot be established from the announcement or third-party guides alone. Use the target-server client for these fields.\n\n*Official source: Version 1.5 patch notice. Last edited November 20, 2026.*",
+    "contentTw":"## 重點\n\n1.5限時內容很多，應先處理棋盤、弧盤研募和活動商店，再安排常駐內容。本文只整理官方公告確認的時間；實際資格、獎勵數量、伺服器時間和客戶端規則仍需在目標伺服器核對。\n\n## 棋盤與弧盤研募\n\n- **電子人之夢**：版本更新後至12月2日05:59（UTC+8），可取得限定S級角色曳爾沐與相關裝扮。\n- **破曉前**：同一時間窗口，限定S級角色真紅復刻，禮遇計數獨立記錄。\n- **靜候彩鈴**：透過「回音特刊」弧盤研募計畫取得。\n- **穿過胭紅蜃景**：對應真紅復刻的限定弧盤研募內容，規則以客戶端為準。\n\n不要混用不同棋盤的禮遇進度，也不要把角色池規則套用到弧盤研募。\n\n## 活動時間\n\n- 環期贈禮：版本更新後至12月23日05:59\n- 運通全城：版本更新後至12月23日05:59\n- 争锋賞宴·攻堅：版本更新後至12月23日05:59\n- 征途坦蕩：11月19日10:00至12月23日05:59\n- 像素溢出：11月16日05:00至11月23日04:59\n- 漁獲大作戰：11月23日05:00至12月23日05:59\n- 奪金大作戰：11月23日05:00至12月7日04:59\n- 集市分福：版本更新後至12月23日05:59\n\n## 建議順序\n\n先領取簽到、郵件與階段獎勵，再按倒數處理棋盤和弧盤研募；像素溢出與奪金大作戰結束前先用完對應額度，最後再清理常駐內容。棋盤機率、保底、區服時間、商店完整獎勵和資格仍需以正式服客戶端為準。\n\n*官方來源：1.5版本更新公告。最後編輯：2026-11-20。*",
+    "tags":["1.5","活动","活动日历","曳尔沐","真红","资源规划"],
+    "relatedCharacters":["elyms","zhenhong"],
+    "relatedLocations":[],
+    "relatedLore":[],
+    "faq":[],
+    "date":"2026-11-20",
+    "sourceUrl":"https://nte.perfectworld.com/cn/article/news/gamenews/20261109/264946.html"
   }
 ]
